@@ -1,33 +1,46 @@
 {
     "key": "fate",
-    "groupName_en": "FATEs",
-    "groupName_fr": "ALÉAs",
+    "groupName": "@HEADER.FATE",
+    "order": [
+        "la-noscea",
+        "the-black-shroud",
+        "thanalan",
+        "coerthas",
+        "abalathias-spine",
+        "dravania",
+        "gyr-abania",
+        "othard",
+        "ilsabard",
+        "yok-tural",
+        "xak-tural",
+        "norvrandt",
+        "mor-dhona",
+        "the-northern-empty",
+        "the-sea-of-stars",
+        "the-world-unsundered",
+        "unlost-world"
+    ],
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "type": {
-            "filterable": true,
-            "header_en": "Type",
-            "header_fr": "Type"
+            "header": "@HEADER.TYPE",
+            "filterable": true
         },
         "location": {
-            "header_en": "Location",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.LOCATION"
         },
         "previousFate": {
             "link": true,
             "header_en": "Previous FATE",
-            "header_fr": "Previous ALÉA"
+            "header_fr": "ALÉA Précédent"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

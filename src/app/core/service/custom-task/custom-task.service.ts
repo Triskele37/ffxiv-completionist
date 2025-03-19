@@ -21,7 +21,7 @@ export class CustomTaskService {
         private svcData: DataService,
         private svcSaveStore: SaveStoreService
     ) {
-        this.group = fromJson(this.svcData.data, './custom');
+        this.group = fromJson(this.svcData.data, 'custom');
         this.group.isCustomGroup = true;
         this.group.draggable = true;
 

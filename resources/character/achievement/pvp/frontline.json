@@ -10,9 +10,7 @@
             "description_fr": "Participer pour la première fois au Front.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                931
-            ]
+            "cNext": ["a.931"]
         },
         "x931": {
             "name_en": "Walk the Line II",
@@ -21,12 +19,8 @@
             "description_fr": "Participer à 30 batailles du Front.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                930
-            ],
-            "cNext": [
-                932
-            ]
+            "cPrev": ["a.930"],
+            "cNext": ["a.932"]
         },
         "x932": {
             "name_en": "Walk the Line III",
@@ -35,12 +29,8 @@
             "description_fr": "Participer à 50 batailles du Front.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                931
-            ],
-            "cNext": [
-                933
-            ]
+            "cPrev": ["a.931"],
+            "cNext": ["a.933"]
         },
         "x933": {
             "name_en": "Walk the Line IV",
@@ -49,30 +39,20 @@
             "description_fr": "Participer à 100 batailles du Front.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                932
-            ],
-            "cNext": [
-                934
-            ]
+            "cPrev": ["a.932"],
+            "cNext": ["a.934"]
         },
         "x934": {
             "name_en": "Walk the Line V",
             "name_fr": "Suer au Front V",
             "description_en": "Participate in 300 Frontline campaigns.",
             "description_fr": "Participer à 300 batailles du Front.",
-            "reward": "character.character.title.155",
+            "reward": "t.155",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                933
-            ],
-            "cNext": [
-                935
-            ],
-            "cSiblings": [
-                "character.character.title.155"
-            ]
+            "cPrev": ["a.933"],
+            "cNext": ["a.935"],
+            "cSiblings": ["t.155"]
         },
         "x935": {
             "name_en": "Life on the Line",
@@ -81,9 +61,7 @@
             "description_fr": "Participer à 1 000 batailles du Front.",
             "patch": "2.3",
             "points": 20,
-            "cPrev": [
-                934
-            ]
+            "cPrev": ["a.934"]
         },
         "x936": {
             "name_en": "A Line in the Storm I",
@@ -92,9 +70,7 @@
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant au Maelstrom.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                937
-            ]
+            "cNext": ["a.937"]
         },
         "x937": {
             "name_en": "A Line in the Storm II",
@@ -103,12 +79,8 @@
             "description_fr": "Remporter 30 victoires au Front en appartenant au Maelstrom.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                936
-            ],
-            "cNext": [
-                938
-            ]
+            "cPrev": ["a.936"],
+            "cNext": ["a.938"]
         },
         "x938": {
             "name_en": "A Line in the Storm III",
@@ -117,45 +89,31 @@
             "description_fr": "Remporter 50 victoires au Front en appartenant au Maelstrom.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                937
-            ],
-            "cNext": [
-                939
-            ]
+            "cPrev": ["a.937"],
+            "cNext": ["a.939"]
         },
         "x939": {
             "name_en": "A Line in the Storm IV",
             "name_fr": "Avis de tempête sur le Front IV",
             "description_en": "Guide the Maelstrom to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant au Maelstrom.",
-            "reward": "character.mount-guide.164",
+            "reward": "mo.36",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                938
-            ],
-            "cNext": [
-                940
-            ]
+            "cPrev": ["a.938"],
+            "cNext": ["a.940"]
         },
         "x940": {
             "name_en": "A Line in the Storm V",
             "name_fr": "Avis de tempête sur le Front V",
             "description_en": "Guide the Maelstrom to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant au Maelstrom.",
-            "reward": "character.character.title.156",
+            "reward": "t.156",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                939
-            ],
-            "cNext": [
-                941
-            ],
-            "cSiblings": [
-                "character.character.title.156"
-            ]
+            "cPrev": ["a.939"],
+            "cNext": ["a.941"],
+            "cSiblings": ["t.156"]
         },
         "x941": {
             "name_en": "The Amethyst Keel",
@@ -164,9 +122,7 @@
             "description_fr": "Remporter 1 000 victoires au Front en appartenant au Maelstrom.",
             "patch": "2.3",
             "points": 20,
-            "cPrev": [
-                940
-            ]
+            "cPrev": ["a.940"]
         },
         "x942": {
             "name_en": "A Line in the Glade I",
@@ -175,9 +131,7 @@
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant à l'ordre des Deux Vipères.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                943
-            ]
+            "cNext": ["a.943"]
         },
         "x943": {
             "name_en": "A Line in the Glade II",
@@ -186,12 +140,8 @@
             "description_fr": "Remporter 30 victoires au Front en appartenant à l'ordre des Deux Vipères.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                942
-            ],
-            "cNext": [
-                944
-            ]
+            "cPrev": ["a.942"],
+            "cNext": ["a.944"]
         },
         "x944": {
             "name_en": "A Line in the Glade III",
@@ -200,45 +150,31 @@
             "description_fr": "Remporter 50 victoires au Front en appartenant à l'ordre des Deux Vipères.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                943
-            ],
-            "cNext": [
-                945
-            ]
+            "cPrev": ["a.943"],
+            "cNext": ["a.945"]
         },
         "x945": {
             "name_en": "A Line in the Glade IV",
             "name_fr": "Nourrir un serpent dans son Front IV",
             "description_en": "Guide the Order of the Twin Adder to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant à l'ordre des Deux Vipères.",
-            "reward": "character.mount-guide.156",
+            "reward": "mo.37",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                944
-            ],
-            "cNext": [
-                946
-            ]
+            "cPrev": ["a.944"],
+            "cNext": ["a.946"]
         },
         "x946": {
             "name_en": "A Line in the Glade V",
             "name_fr": "Nourrir un serpent dans son Front V",
             "description_en": "Guide the Order of the Twin Adder to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant à l'ordre des Deux Vipères.",
-            "reward": "character.character.title.158",
+            "reward": "t.158",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                945
-            ],
-            "cNext": [
-                947
-            ],
-            "cSiblings": [
-                "character.character.title.158"
-            ]
+            "cPrev": ["a.945"],
+            "cNext": ["a.947"],
+            "cSiblings": ["t.158"]
         },
         "x947": {
             "name_en": "The Ebony Leaf",
@@ -247,9 +183,7 @@
             "description_fr": "Remporter 1 000 victoires au Front en appartenant à l'ordre des Deux Vipères.",
             "patch": "2.3",
             "points": 20,
-            "cPrev": [
-                946
-            ]
+            "cPrev": ["a.946"]
         },
         "x948": {
             "name_en": "A Line in the Sand I",
@@ -258,9 +192,7 @@
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant aux Immortels.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                949
-            ]
+            "cNext": ["a.949"]
         },
         "x949": {
             "name_en": "A Line in the Sand II",
@@ -269,12 +201,8 @@
             "description_fr": "Remporter 30 victoires au Front en appartenant aux Immortels.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                948
-            ],
-            "cNext": [
-                950
-            ]
+            "cPrev": ["a.948"],
+            "cNext": ["a.950"]
         },
         "x950": {
             "name_en": "A Line in the Sand III",
@@ -283,45 +211,31 @@
             "description_fr": "Remporter 50 victoires au Front en appartenant aux Immortels.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                949
-            ],
-            "cNext": [
-                951
-            ]
+            "cPrev": ["a.949"],
+            "cNext": ["a.951"]
         },
         "x951": {
             "name_en": "A Line in the Sand IV",
             "name_fr": "Fouler le sable au Front IV",
             "description_en": "Guide the Immortal Flames to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant aux Immortels.",
-            "reward": "character.mount-guide.68",
+            "reward": "mo.38",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                950
-            ],
-            "cNext": [
-                952
-            ]
+            "cPrev": ["a.950"],
+            "cNext": ["a.952"]
         },
         "x952": {
             "name_en": "A Line in the Sand V",
             "name_fr": "Fouler le sable au Front V",
             "description_en": "Guide the Immortal Flames to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant aux Immortels.",
-            "reward": "character.character.title.157",
+            "reward": "t.157",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                951
-            ],
-            "cNext": [
-                953
-            ],
-            "cSiblings": [
-                "character.character.title.157"
-            ]
+            "cPrev": ["a.951"],
+            "cNext": ["a.953"],
+            "cSiblings": ["t.157"]
         },
         "x953": {
             "name_en": "The Rose Gold Scales",
@@ -330,9 +244,7 @@
             "description_fr": "Remporter 1 000 victoires au Front en appartenant aux Immortels.",
             "patch": "2.3",
             "points": 20,
-            "cPrev": [
-                952
-            ]
+            "cPrev": ["a.952"]
         },
         "x954": {
             "name_en": "Prime Air I",
@@ -341,9 +253,7 @@
             "description_fr": "Abattre un drone de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                955
-            ]
+            "cNext": ["a.955"]
         },
         "x955": {
             "name_en": "Prime Air II",
@@ -352,12 +262,8 @@
             "description_fr": "Abattre 30 drones de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                954
-            ],
-            "cNext": [
-                956
-            ]
+            "cPrev": ["a.954"],
+            "cNext": ["a.956"]
         },
         "x956": {
             "name_en": "Prime Air III",
@@ -366,30 +272,20 @@
             "description_fr": "Abattre 50 drones de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                955
-            ],
-            "cNext": [
-                957
-            ]
+            "cPrev": ["a.955"],
+            "cNext": ["a.957"]
         },
         "x957": {
             "name_en": "Prime Air IV",
             "name_fr": "La foire du drone IV",
             "description_en": "Destroy 100 interceptor drones.",
             "description_fr": "Abattre 100 drones de neutralisation.",
-            "reward": "character.character.title.159",
+            "reward": "t.159",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                956
-            ],
-            "cNext": [
-                958
-            ],
-            "cSiblings": [
-                "character.character.title.159"
-            ]
+            "cPrev": ["a.956"],
+            "cNext": ["a.958"],
+            "cSiblings": ["t.159"]
         },
         "x958": {
             "name_en": "A Drone in the Dark",
@@ -398,9 +294,7 @@
             "description_fr": "Abattre 300 drones de neutralisation.",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                957
-            ]
+            "cPrev": ["a.957"]
         },
         "x959": {
             "name_en": "Just Say Node I",
@@ -409,9 +303,7 @@
             "description_fr": "Abattre une sphère de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cNext": [
-                960
-            ]
+            "cNext": ["a.960"]
         },
         "x960": {
             "name_en": "Just Say Node II",
@@ -420,12 +312,8 @@
             "description_fr": "Abattre 5 sphères de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                959
-            ],
-            "cNext": [
-                961
-            ]
+            "cPrev": ["a.959"],
+            "cNext": ["a.961"]
         },
         "x961": {
             "name_en": "Just Say Node III",
@@ -434,30 +322,20 @@
             "description_fr": "Abattre 10 sphères de neutralisation.",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                960
-            ],
-            "cNext": [
-                962
-            ]
+            "cPrev": ["a.960"],
+            "cNext": ["a.962"]
         },
         "x962": {
             "name_en": "Just Say Node IV",
             "name_fr": "Dans les hautes sphères IV",
             "description_en": "Destroy 20 interceptor nodes.",
             "description_fr": "Abattre 20 sphères de neutralisation.",
-            "reward": "character.character.title.160",
+            "reward": "t.160",
             "patch": "2.3",
             "points": 5,
-            "cPrev": [
-                961
-            ],
-            "cNext": [
-                963
-            ],
-            "cSiblings": [
-                "character.character.title.160"
-            ]
+            "cPrev": ["a.961"],
+            "cNext": ["a.963"],
+            "cSiblings": ["t.160"]
         },
         "x963": {
             "name_en": "A Node off My Back",
@@ -466,9 +344,7 @@
             "description_fr": "Abattre 50 sphères de neutralisation.",
             "patch": "2.3",
             "points": 10,
-            "cPrev": [
-                962
-            ]
+            "cPrev": ["a.962"]
         },
         "x1073": {
             "name_en": "Slaughterhouse One",
@@ -477,9 +353,7 @@
             "description_fr": "Abattre 1 soldat ennemi.",
             "patch": "2.5",
             "points": 5,
-            "cNext": [
-                1074
-            ]
+            "cNext": ["a.1074"]
         },
         "x1074": {
             "name_en": "Slaughterhouse Two",
@@ -488,12 +362,8 @@
             "description_fr": "Abattre 100 soldats ennemis.",
             "patch": "2.5",
             "points": 5,
-            "cPrev": [
-                1073
-            ],
-            "cNext": [
-                1075
-            ]
+            "cPrev": ["a.1073"],
+            "cNext": ["a.1075"]
         },
         "x1075": {
             "name_en": "Slaughterhouse Three",
@@ -502,57 +372,41 @@
             "description_fr": "Abattre 500 soldats ennemis.",
             "patch": "2.5",
             "points": 5,
-            "cPrev": [
-                1074
-            ],
-            "cNext": [
-                1076
-            ]
+            "cPrev": ["a.1074"],
+            "cNext": ["a.1076"]
         },
         "x1076": {
             "name_en": "Slaughterhouse Four",
             "name_fr": "Va-t-en-guerre IV",
             "description_en": "Dispatch 1,000 enemies on a Frontline campaign.",
             "description_fr": "Abattre 1 000 soldats ennemis.",
-            "reward": "character.character.title.189",
+            "reward": "t.189",
             "patch": "2.5",
             "points": 10,
-            "cPrev": [
-                1075
-            ],
-            "cNext": [
-                1077
-            ],
-            "cSiblings": [
-                "character.character.title.189"
-            ]
+            "cPrev": ["a.1075"],
+            "cNext": ["a.1077"],
+            "cSiblings": ["t.189"]
         },
         "x1077": {
             "name_en": "Slaughterhouse Five",
             "name_fr": "Grand saigneur",
             "description_en": "Dispatch 5,000 enemies on a Frontline campaign.",
             "description_fr": "Abattre 5 000 soldats ennemis.",
-            "reward": "character.character.title.190",
+            "reward": "t.190",
             "patch": "2.5",
             "points": 20,
-            "cPrev": [
-                1076
-            ],
-            "cSiblings": [
-                "character.character.title.190"
-            ]
+            "cPrev": ["a.1076"],
+            "cSiblings": ["t.190"]
         },
         "x1132": {
             "name_en": "Behind Enemy Lines I",
             "name_fr": "Le roi de l'arène",
             "description_en": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
             "description_fr": "Remporter 200 victoires au Front avec l'une des trois grandes compagnies.",
-            "reward": "character.mount-guide.102",
+            "reward": "mo.48",
             "patch": "2.5",
             "points": 10,
-            "cNext": [
-                1201
-            ]
+            "cNext": ["a.1201"]
         },
         "x1201": {
             "name_en": "Behind Enemy Lines II",
@@ -561,9 +415,7 @@
             "description_fr": "Remporter 300 victoires au Front avec l'une des trois grandes compagnies.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1132
-            ]
+            "cPrev": ["a.1132"]
         },
         "x1196": {
             "name_en": "Hounding the Rock I",
@@ -572,9 +424,7 @@
             "description_fr": "Prendre le contrôle d'un mémolithe allagois au Rocher des tréfonds.",
             "patch": "3.05",
             "points": 5,
-            "cNext": [
-                1197
-            ]
+            "cNext": ["a.1197"]
         },
         "x1197": {
             "name_en": "Hounding the Rock II",
@@ -583,12 +433,8 @@
             "description_fr": "Prendre le contrôle de mémolithes allagois 30 fois au Rocher des tréfonds.",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1196
-            ],
-            "cNext": [
-                1198
-            ]
+            "cPrev": ["a.1196"],
+            "cNext": ["a.1198"]
         },
         "x1198": {
             "name_en": "Hounding the Rock III",
@@ -597,30 +443,20 @@
             "description_fr": "Prendre le contrôle de mémolithes allagois 100 fois au Rocher des tréfonds.",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1197
-            ],
-            "cNext": [
-                1199
-            ]
+            "cPrev": ["a.1197"],
+            "cNext": ["a.1199"]
         },
         "x1199": {
             "name_en": "Hounding the Rock IV",
             "name_fr": "Souvenir des tréfonds IV",
             "description_en": "Occupy 300 tomeliths on Seal Rock.",
             "description_fr": "Prendre le contrôle de mémolithes allagois 300 fois au Rocher des tréfonds.",
-            "reward": "character.character.title.243",
+            "reward": "t.243",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1198
-            ],
-            "cNext": [
-                1200
-            ],
-            "cSiblings": [
-                "character.character.title.243"
-            ]
+            "cPrev": ["a.1198"],
+            "cNext": ["a.1200"],
+            "cSiblings": ["t.243"]
         },
         "x1200": {
             "name_en": "Hounding the Rock V",
@@ -629,9 +465,7 @@
             "description_fr": "Prendre le contrôle de mémolithes allagois 500 fois au Rocher des tréfonds.",
             "patch": "3.05",
             "points": 10,
-            "cPrev": [
-                1199
-            ]
+            "cPrev": ["a.1199"]
         },
         "x1366": {
             "name_en": "Between a Rock and a Hard Place I",
@@ -642,9 +476,7 @@
             "reward_fr": "Heaume du commandant stratège",
             "patch": "3.05",
             "points": 5,
-            "cNext": [
-                1367
-            ]
+            "cNext": ["a.1367"]
         },
         "x1367": {
             "name_en": "Between a Rock and a Hard Place II",
@@ -655,12 +487,8 @@
             "reward_fr": "Bottes du commandant stratège",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1366
-            ],
-            "cNext": [
-                1368
-            ]
+            "cPrev": ["a.1366"],
+            "cNext": ["a.1368"]
         },
         "x1368": {
             "name_en": "Between a Rock and a Hard Place III",
@@ -671,12 +499,8 @@
             "reward_fr": "Gants du commandant stratège",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1367
-            ],
-            "cNext": [
-                1369
-            ]
+            "cPrev": ["a.1367"],
+            "cNext": ["a.1369"]
         },
         "x1369": {
             "name_en": "Between a Rock and a Hard Place IV",
@@ -687,12 +511,8 @@
             "reward_fr": "Trousses du commandant stratège",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1368
-            ],
-            "cNext": [
-                1370
-            ]
+            "cPrev": ["a.1368"],
+            "cNext": ["a.1370"]
         },
         "x1370": {
             "name_en": "Between a Rock and a Hard Place V",
@@ -703,12 +523,8 @@
             "reward_fr": "Manteau du commandant stratège",
             "patch": "3.05",
             "points": 5,
-            "cPrev": [
-                1369
-            ],
-            "cNext": [
-                1371
-            ]
+            "cPrev": ["a.1369"],
+            "cNext": ["a.1371"]
         },
         "x1371": {
             "name_en": "Beneath Enemy Rocks",
@@ -717,9 +533,7 @@
             "description_fr": "Remporter 300 victoires au Rocher des tréfonds.",
             "patch": "3.05",
             "points": 10,
-            "cPrev": [
-                1370
-            ]
+            "cPrev": ["a.1370"]
         },
         "x1559": {
             "name_en": "In a Blaze of Glory I",
@@ -728,9 +542,7 @@
             "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies aux Champs de la Gloire.",
             "patch": "3.3",
             "points": 5,
-            "cNext": [
-                1560
-            ]
+            "cNext": ["a.1560"]
         },
         "x1560": {
             "name_en": "In a Blaze of Glory II",
@@ -739,12 +551,8 @@
             "description_fr": "Remporter 10 victoires aux Champs de la Gloire.",
             "patch": "3.3",
             "points": 5,
-            "cPrev": [
-                1559
-            ],
-            "cNext": [
-                1561
-            ]
+            "cPrev": ["a.1559"],
+            "cNext": ["a.1561"]
         },
         "x1561": {
             "name_en": "In a Blaze of Glory III",
@@ -753,12 +561,8 @@
             "description_fr": "Remporter 30 victoires aux Champs de la Gloire.",
             "patch": "3.3",
             "points": 5,
-            "cPrev": [
-                1560
-            ],
-            "cNext": [
-                1562
-            ]
+            "cPrev": ["a.1560"],
+            "cNext": ["a.1562"]
         },
         "x1562": {
             "name_en": "In a Blaze of Glory IV",
@@ -767,42 +571,30 @@
             "description_fr": "Remporter 50 victoires aux Champs de la Gloire.",
             "patch": "3.3",
             "points": 5,
-            "cPrev": [
-                1561
-            ],
-            "cNext": [
-                1563
-            ]
+            "cPrev": ["a.1561"],
+            "cNext": ["a.1563"]
         },
         "x1563": {
             "name_en": "In a Blaze of Glory V",
             "name_fr": "Récolter la gloire V",
             "description_en": "Guide any of the three Grand Companies to a total of 100 Fields of Glory victories.",
             "description_fr": "Remporter 100 victoires aux Champs de la Gloire.",
-            "reward": "character.mount-guide.1",
+            "reward": "mo.91",
             "patch": "3.3",
             "points": 5,
-            "cPrev": [
-                1562
-            ],
-            "cNext": [
-                1564
-            ]
+            "cPrev": ["a.1562"],
+            "cNext": ["a.1564"]
         },
         "x1564": {
             "name_en": "In a Blaze of Glory VI",
             "name_fr": "Récolter la gloire VI",
             "description_en": "Guide any of the three Grand Companies to a total of 300 Fields of Glory victories.",
             "description_fr": "Remporter 300 victoires aux Champs de la Gloire.",
-            "reward": "character.character.title.313",
+            "reward": "t.313",
             "patch": "3.3",
             "points": 10,
-            "cPrev": [
-                1563
-            ],
-            "cSiblings": [
-                "character.character.title.313"
-            ]
+            "cPrev": ["a.1563"],
+            "cSiblings": ["t.313"]
         },
         "x2061": {
             "name_en": "Front and Center I",
@@ -811,9 +603,7 @@
             "description_fr": "Triompher pour la première fois dans la bataille du jour du Front.",
             "patch": "4.3",
             "points": 5,
-            "cNext": [
-                2062
-            ]
+            "cNext": ["a.2062"]
         },
         "x2062": {
             "name_en": "Front and Center II",
@@ -822,12 +612,8 @@
             "description_fr": "Triompher 10 fois dans la bataille du jour du Front.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [
-                2061
-            ],
-            "cNext": [
-                2063
-            ]
+            "cPrev": ["a.2061"],
+            "cNext": ["a.2063"]
         },
         "x2063": {
             "name_en": "Front and Center III",
@@ -836,12 +622,8 @@
             "description_fr": "Triompher 30 fois dans la bataille du jour du Front.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [
-                2062
-            ],
-            "cNext": [
-                2064
-            ]
+            "cPrev": ["a.2062"],
+            "cNext": ["a.2064"]
         },
         "x2064": {
             "name_en": "Front and Center IV",
@@ -850,42 +632,30 @@
             "description_fr": "Triompher 50 fois dans la bataille du jour du Front.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [
-                2063
-            ],
-            "cNext": [
-                2065
-            ]
+            "cPrev": ["a.2063"],
+            "cNext": ["a.2065"]
         },
         "x2065": {
             "name_en": "Front and Center V",
             "name_fr": "La sueur de son front V",
             "description_en": "Triumph in 100 matches in Frontline.",
             "description_fr": "Triompher 100 fois dans la bataille du jour du Front.",
-            "reward": "character.mount-guide.153",
+            "reward": "mo.168",
             "patch": "4.3",
             "points": 10,
-            "cPrev": [
-                2064
-            ],
-            "cNext": [
-                2066
-            ]
+            "cPrev": ["a.2064"],
+            "cNext": ["a.2066"]
         },
         "x2066": {
             "name_en": "Front and Center VI",
             "name_fr": "La sueur de son front VI",
             "description_en": "Triumph in 300 matches in Frontline.",
             "description_fr": "Triompher 300 fois dans la bataille du jour du Front.",
-            "reward": "character.character.title.389",
+            "reward": "t.389",
             "patch": "4.3",
             "points": 20,
-            "cPrev": [
-                2065
-            ],
-            "cSiblings": [
-                "character.character.title.389"
-            ]
+            "cPrev": ["a.2065"],
+            "cSiblings": ["t.389"]
         },
         "x2477": {
             "name_en": "One Steppe at a Time I",
@@ -894,9 +664,7 @@
             "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies à Onsal Hakair.",
             "patch": "5.18",
             "points": 5,
-            "cNext": [
-                2478
-            ]
+            "cNext": ["a.2478"]
         },
         "x2478": {
             "name_en": "One Steppe at a Time II",
@@ -905,12 +673,8 @@
             "description_fr": "Remporter 10 victoires à Onsal Hakair.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2477
-            ],
-            "cNext": [
-                2479
-            ]
+            "cPrev": ["a.2477"],
+            "cNext": ["a.2479"]
         },
         "x2479": {
             "name_en": "One Steppe at a Time III",
@@ -919,12 +683,8 @@
             "description_fr": "Remporter 30 victoires à Onsal Hakair.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2478
-            ],
-            "cNext": [
-                2480
-            ]
+            "cPrev": ["a.2478"],
+            "cNext": ["a.2480"]
         },
         "x2480": {
             "name_en": "One Steppe at a Time IV",
@@ -933,42 +693,30 @@
             "description_fr": "Remporter 50 victoires à Onsal Hakair.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2479
-            ],
-            "cNext": [
-                2481
-            ]
+            "cPrev": ["a.2479"],
+            "cNext": ["a.2481"]
         },
         "x2481": {
             "name_en": "One Steppe at a Time V",
             "name_fr": "Conquérant de la terre immaculée V",
             "description_en": "Guide any of the three Grand Companies to a total of 100 victories at Onsal Hakair.",
             "description_fr": "Remporter 100 victoires à Onsal Hakair.",
-            "reward": "character.mount-guide.42",
+            "reward": "mo.204",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2480
-            ],
-            "cNext": [
-                2482
-            ]
+            "cPrev": ["a.2480"],
+            "cNext": ["a.2482"]
         },
         "x2482": {
             "name_en": "One Steppe at a Time VI",
             "name_fr": "Conquérant de la terre immaculée VI",
             "description_en": "Guide any of the three Grand Companies to a total of 300 victories at Onsal Hakair.",
             "description_fr": "Remporter 300 victoires à Onsal Hakair.",
-            "reward": "character.character.title.486",
+            "reward": "t.486",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [
-                2481
-            ],
-            "cSiblings": [
-                "character.character.title.486"
-            ]
+            "cPrev": ["a.2481"],
+            "cSiblings": ["t.486"]
         }
     }
 }

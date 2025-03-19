@@ -9,12 +9,8 @@
             "name_fr": "Les lombrics, c'est fantastique",
             "npc_en": "Hihiyaja",
             "npc_fr": "Hihiyaja",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66086"
-            ],
-            "cNext": [
-                65858
-            ],
+            "cPrev": ["q.66086"],
+            "cNext": ["q.65858"],
             "patch": "4.31"
         },
         "x65840": {
@@ -23,9 +19,7 @@
             "name_fr": "Le goût des musaraignes",
             "npc_en": "Wowobaru",
             "npc_fr": "Wowobaru",
-            "cPrev": [
-                65858
-            ],
+            "cPrev": ["q.65858"],
             "patch": "4.31"
         },
         "x65858": {
@@ -34,12 +28,8 @@
             "name_fr": "L'orobon, mon péché mignon",
             "npc_en": "Hihiyaja",
             "npc_fr": "Hihiyaja",
-            "cPrev": [
-                65857
-            ],
-            "cNext": [
-                65840
-            ],
+            "cPrev": ["q.65857"],
+            "cNext": ["q.65840"],
             "patch": "4.31"
         },
         "x65924": {
@@ -48,23 +38,7 @@
             "name_fr": "Les risques du métier",
             "npc_en": "Aethelgyth",
             "npc_fr": "Aethelgyth",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.69388"
-            ],
-            "patch": "4.31"
-        },
-        "x65862": {
-            "level": 9,
-            "name_en": "Sometimes the Old Ways Are Best",
-            "name_fr": "La bonne vieille méthode",
-            "npc_en": "Zezeda",
-            "npc_fr": "Zezeda",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65843"
-            ],
-            "cNext": [
-                65844
-            ],
+            "cPrev": ["q.69388"],
             "patch": "4.31"
         },
         "x65844": {
@@ -73,9 +47,17 @@
             "name_fr": "Trou à rats",
             "npc_en": "Zezeda",
             "npc_fr": "Zezeda",
-            "cPrev": [
-                65862
-            ],
+            "cPrev": ["q.65862"],
+            "patch": "4.31"
+        },
+        "x65862": {
+            "level": 9,
+            "name_en": "Sometimes the Old Ways Are Best",
+            "name_fr": "La bonne vieille méthode",
+            "npc_en": "Zezeda",
+            "npc_fr": "Zezeda",
+            "cPrev": ["q.65843"],
+            "cNext": ["q.65844"],
             "patch": "4.31"
         },
         "x66067": {
@@ -84,9 +66,7 @@
             "name_fr": "Candidat à l'enfer",
             "npc_en": "Hamund",
             "npc_fr": "Hamund",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
-            ],
+            "cPrev": ["q.65866"],
             "patch": "4.31"
         },
         "x66066": {
@@ -95,9 +75,7 @@
             "name_fr": "Des crapauds qui ont du cœur",
             "npc_en": "Blayves",
             "npc_fr": "Blayves",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
-            ],
+            "cPrev": ["q.65866"],
             "patch": "4.31"
         },
         "x66109": {
@@ -106,9 +84,7 @@
             "name_fr": "Contrer la contrebande",
             "npc_en": "Amalberga",
             "npc_fr": "Amalberga",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
-            ],
+            "cPrev": ["q.65866"],
             "patch": "4.31"
         },
         "x66174": {
@@ -118,9 +94,7 @@
             "npc_en": "Swynbroes",
             "npc_fr": "Swynbroes",
             "unlock_en": "Materia Assimilating",
-            "cNext": [
-                66175
-            ],
+            "cNext": ["q.66175"],
             "patch": "4.31"
         },
         "x66175": {
@@ -130,12 +104,8 @@
             "npc_en": "F'hobhas",
             "npc_fr": "F'hobhas",
             "unlock_en": "Materia Melding",
-            "cPrev": [
-                66174
-            ],
-            "cNext": [
-                66176
-            ],
+            "cPrev": ["q.66174"],
+            "cNext": ["q.66176"],
             "patch": "4.31"
         },
         "x66999": {
@@ -144,9 +114,7 @@
             "name_fr": "Transmatérialise-moi!",
             "npc_en": "Kokosamu",
             "npc_fr": "Kokosamu",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.65808"
-            ],
+            "cPrev": ["q.65808"],
             "patch": "4.31"
         },
         "x66176": {
@@ -156,9 +124,7 @@
             "npc_en": "Mutamix Bubblypots",
             "npc_fr": "Mutamix Bubblypots",
             "unlock_en": "Advanced Materia Melding",
-            "cPrev": [
-                66175
-            ],
+            "cPrev": ["q.66175"],
             "patch": "4.31"
         }
     }

@@ -1,0 +1,1057 @@
+{
+    "key": "dawntrail-main-scenario-quests",
+    "groupName_en": "Dawntrail Main Scenario Quests",
+    "groupName_fr": "Chroniques de l'aurore",
+    "tasks": {
+        "x70396": {
+            "cNext": ["q.70397"],
+            "cPrev": ["q.70289"],
+            "level": 90,
+            "name_en": "A New World to Explore",
+            "name_fr": "L'aurore d'une nouvelle aventure",
+            "npc_en": "Ojika Tsunjika",
+            "npc_fr": "Ojika Tsunjika",
+            "patch": "7.0"
+        },
+        "x70397": {
+            "cNext": ["q.70398"],
+            "cPrev": ["q.70396"],
+            "level": 90,
+            "name_en": "The Nation of Tuliyollal",
+            "name_fr": "Le royaume fédéré du Tuliyollal",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70398": {
+            "cNext": ["q.70399"],
+            "cPrev": ["q.70397"],
+            "level": 90,
+            "name_en": "A City of Stairs",
+            "name_fr": "Visite de la capitale",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70399": {
+            "cNext": ["q.70400"],
+            "cPrev": ["q.70398"],
+            "level": 90,
+            "name_en": "A Saga in Stone",
+            "name_fr": "Sur les pas de l'Aurarque",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.0"
+        },
+        "x70400": {
+            "cNext": ["q.70401", "q.70407", "q.70539", "q.70542", "q.70545", "q.70553", "q.70554", "q.70555", "q.70556"],
+            "cPrev": ["q.70399"],
+            "level": 90,
+            "name_en": "The Rite of Succession",
+            "name_fr": "Le rite de succession",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70401": {
+            "cNext": ["q.70402"],
+            "cPrev": ["q.70400"],
+            "level": 90,
+            "name_en": "To Kozama'uka",
+            "name_fr": "Kozama'uka",
+            "npc_en": "Helpful Hanu",
+            "npc_fr": "Sympathisant Hanu Hanu",
+            "patch": "7.0"
+        },
+        "x70402": {
+            "cNext": ["q.70403", "q.70596", "q.70597"],
+            "cPrev": ["q.70401"],
+            "level": 90,
+            "name_en": "A Festive People",
+            "name_fr": "Ok'hanu, hameau des Hanu Hanu",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70403": {
+            "cNext": ["q.70404"],
+            "cPrev": ["q.70402"],
+            "level": 90,
+            "name_en": "The Feat of Reeds",
+            "name_fr": "L'épreuve des roseaux",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70404": {
+            "cNext": ["q.70405"],
+            "cPrev": ["q.70403"],
+            "level": 90,
+            "name_en": "A Well-mannered Shipwright",
+            "name_fr": "Wuk Evu le charpentier",
+            "npc_en": "Linuhanu",
+            "npc_fr": "Linuhanu",
+            "patch": "7.0"
+        },
+        "x70405": {
+            "cNext": ["q.70406"],
+            "cPrev": ["q.70404"],
+            "level": 90,
+            "name_en": "The Lifting of Wings",
+            "name_fr": "La procession d'Ihih'hana",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70406": {
+            "cNext": [
+                "q.70414",
+                "q.70598",
+                "q.70599",
+                "q.70600",
+                "q.70601",
+                "q.70602",
+                "q.70603",
+                "q.70604",
+                "q.70605",
+                "q.70606",
+                "q.70617"
+            ],
+            "cPrev": ["q.70405"],
+            "level": 90,
+            "name_en": "Knowing the Hanuhanu",
+            "name_fr": "Nos amis les Hanu Hanu",
+            "npc_en": "Wuk Evu",
+            "npc_fr": "Wuk Evu",
+            "patch": "7.0"
+        },
+        "x70407": {
+            "cNext": ["q.70408"],
+            "cPrev": ["q.70400"],
+            "level": 90,
+            "name_en": "To Urqopacha",
+            "name_fr": "Urqopacha",
+            "npc_en": "Approachable Pelu",
+            "npc_fr": "Sympathisant Pelupelu",
+            "patch": "7.0"
+        },
+        "x70408": {
+            "cNext": ["q.70409", "q.70566", "q.70567"],
+            "cPrev": ["q.70407"],
+            "level": 90,
+            "name_en": "Traders of Happiness",
+            "name_fr": "Wachunpelo, village des Pelupelu",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70409": {
+            "cNext": ["q.70410"],
+            "cPrev": ["q.70408"],
+            "level": 90,
+            "name_en": "The Feat of Gold",
+            "name_fr": "L'épreuve de l'or",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70410": {
+            "cNext": ["q.70411", "q.70568", "q.70569", "q.70570"],
+            "cPrev": ["q.70409"],
+            "level": 90,
+            "name_en": "Mablu's Dream",
+            "name_fr": "Le rêve de Mablu",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70411": {
+            "cNext": ["q.70412"],
+            "cPrev": ["q.70410"],
+            "level": 90,
+            "name_en": "A Premium Deal",
+            "name_fr": "La grande entourloupe",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70412": {
+            "cNext": ["q.70413"],
+            "cPrev": ["q.70411"],
+            "level": 90,
+            "name_en": "Wuk Lamat in the Saddle",
+            "name_fr": "La Xbr'aal qui murmurait à l'oreille des alpagas",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70413": {
+            "cNext": ["q.70414", "q.70571", "q.70572", "q.70573", "q.70574", "q.70575", "q.70576", "q.70587"],
+            "cPrev": ["q.70412"],
+            "level": 90,
+            "name_en": "Knowing the Pelupelu",
+            "name_fr": "Nos amis les Pelupelu",
+            "npc_en": "Mablu",
+            "npc_fr": "Mablu",
+            "patch": "7.0"
+        },
+        "x70414": {
+            "cNext": ["q.70415"],
+            "cPrev": ["q.70406", "q.70413"],
+            "level": 91,
+            "name_en": "The Success of Others",
+            "name_fr": "Sur la plage abandonnée...",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70415": {
+            "cNext": ["q.70416"],
+            "cPrev": ["q.70414"],
+            "cSiblings": ["a.3491"],
+            "level": 91,
+            "name_en": "For All Turali",
+            "name_fr": "Pour le bien de tous",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "unlock": "d.826",
+            "patch": "7.0"
+        },
+        "x70416": {
+            "cNext": ["q.70417", "q.70607", "q.70609", "q.70612"],
+            "cPrev": ["q.70415"],
+            "level": 92,
+            "name_en": "A Leaking Workpot",
+            "name_fr": "Les petites mains des Mobelins",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70417": {
+            "cNext": ["q.70418"],
+            "cPrev": ["q.70416"],
+            "level": 92,
+            "name_en": "Lending a Helphand",
+            "name_fr": "Le bien-être au travail",
+            "npc_en": "Rakorok",
+            "npc_fr": "Rakorok",
+            "patch": "7.0"
+        },
+        "x70418": {
+            "cNext": ["q.70353", "q.70419", "q.70502", "q.70557", "q.70558", "q.70559"],
+            "cPrev": ["q.70417"],
+            "level": 92,
+            "name_en": "The Feat of Pots",
+            "name_fr": "L'épreuve du pot",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70419": {
+            "cNext": ["q.70420"],
+            "cPrev": ["q.70418"],
+            "level": 92,
+            "name_en": "A Father First",
+            "name_fr": "L'Aurarque et le père",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70420": {
+            "cNext": ["q.70421", "q.70608", "q.70610", "q.70611", "q.70613", "q.70621"],
+            "cPrev": ["q.70419"],
+            "level": 92,
+            "name_en": "The Shape of Peace",
+            "name_fr": "Projets de paix",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70421": {
+            "cNext": ["q.70422"],
+            "cPrev": ["q.70420"],
+            "level": 92,
+            "name_en": "Lost Promise",
+            "name_fr": "Une princesse portée disparue",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70422": {
+            "cNext": ["q.70423"],
+            "cPrev": ["q.70421"],
+            "level": 92,
+            "name_en": "A Brother's Duty",
+            "name_fr": "Un frère dévoué",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70423": {
+            "cNext": ["q.70424"],
+            "cPrev": ["q.70422"],
+            "level": 92,
+            "name_en": "Feeding the River",
+            "name_fr": "L'amour vache marine",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70424": {
+            "cNext": ["q.70425", "q.70614", "q.70615", "q.70616"],
+            "cPrev": ["q.70423"],
+            "level": 92,
+            "name_en": "Sibling Rescue",
+            "name_fr": "Le sauvetage de Wuk Lamat",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70425": {
+            "cNext": ["q.70426"],
+            "cPrev": ["q.70424"],
+            "level": 93,
+            "name_en": "History's Keepers",
+            "name_fr": "Le peuple des montagnes",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70426": {
+            "cNext": ["q.70427", "q.70577", "q.70578", "q.70579", "q.70580"],
+            "cPrev": ["q.70425"],
+            "level": 93,
+            "name_en": "The Feat of Proof",
+            "name_fr": "L'épreuve des tombes",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70427": {
+            "cNext": ["q.70428"],
+            "cPrev": ["q.70426"],
+            "level": 93,
+            "name_en": "The High Luminary",
+            "name_fr": "Le grand chaman",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "unlock": "d.824",
+            "patch": "7.0"
+        },
+        "x70428": {
+            "cNext": ["q.70429"],
+            "cPrev": ["q.70427"],
+            "level": 93,
+            "name_en": "An Echo of Madness",
+            "name_fr": "Coup de chaud à L'Écho",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70429": {
+            "cNext": ["q.70430"],
+            "cPrev": ["q.70428"],
+            "level": 93,
+            "name_en": "Pointing the Way",
+            "name_fr": "Suivez le gant",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70430": {
+            "cNext": ["q.70431"],
+            "cPrev": ["q.70429"],
+            "level": 93,
+            "name_en": "The Skyruin",
+            "name_fr": "Calamité déchaînée",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70431": {
+            "cNext": ["q.70432", "q.70581", "q.70582", "q.70583", "q.70584", "q.70585", "q.70586", "q.70591"],
+            "cPrev": ["q.70430"],
+            "level": 93,
+            "name_en": "The Feat of Ice",
+            "name_fr": "Les grands rêveurs",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "patch": "7.0"
+        },
+        "x70432": {
+            "cNext": ["q.70433"],
+            "cPrev": ["q.70431"],
+            "cSiblings": ["a.3492"],
+            "level": 93,
+            "name_en": "The Promise of Peace",
+            "name_fr": "La paix selon Wuk Lamat",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70433": {
+            "cNext": ["q.70434"],
+            "cPrev": ["q.70432"],
+            "level": 94,
+            "name_en": "The Leap to Yak T'el",
+            "name_fr": "Vol pour Yak T'el",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70434": {
+            "cNext": ["q.70435"],
+            "cPrev": ["q.70433"],
+            "level": 94,
+            "name_en": "Village of the Hunt",
+            "name_fr": "Iq Br'aax, village de chasseurs",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70435": {
+            "cNext": ["q.70436"],
+            "cPrev": ["q.70434"],
+            "level": 94,
+            "name_en": "A History of Violence",
+            "name_fr": "Ignorance et connaissance",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70436": {
+            "cNext": ["q.70437", "q.70626", "q.70627", "q.70628", "q.70629"],
+            "cPrev": ["q.70435"],
+            "level": 94,
+            "name_en": "The Feat of Repast",
+            "name_fr": "L'épreuve du festin",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.0"
+        },
+        "x70437": {
+            "cNext": ["q.70438"],
+            "cPrev": ["q.70436"],
+            "level": 94,
+            "name_en": "A Father's Grief",
+            "name_fr": "Deux pères",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70438": {
+            "cNext": ["q.70439", "q.70630", "q.70631", "q.70632", "q.70633", "q.70634", "q.70635", "q.70646"],
+            "cPrev": ["q.70437"],
+            "level": 94,
+            "name_en": "Taking a Stand",
+            "name_fr": "Préserver la paix",
+            "npc_en": "Hunmu Rruk",
+            "npc_fr": "Hunmu Rruk",
+            "patch": "7.0"
+        },
+        "x70439": {
+            "cNext": ["q.70440"],
+            "cPrev": ["q.70438"],
+            "level": 94,
+            "name_en": "Into the Traverse",
+            "name_fr": "De l'autre côté du passage de Ty'iinbek",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70440": {
+            "cNext": ["q.70441"],
+            "cPrev": ["q.70439"],
+            "level": 94,
+            "name_en": "City of Silence",
+            "name_fr": "Mamook, berceau des Mamool Ja",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70441": {
+            "cNext": ["q.70442"],
+            "cPrev": ["q.70440"],
+            "level": 94,
+            "name_en": "Blessed Siblings",
+            "name_fr": "Sombres préceptes",
+            "npc_en": "Miilal Ja",
+            "npc_fr": "Miilal Ja",
+            "patch": "7.0"
+        },
+        "x70442": {
+            "cNext": ["q.70443"],
+            "cPrev": ["q.70441"],
+            "level": 94,
+            "name_en": "Scale of Trust",
+            "name_fr": "Le souhait de Mamook",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70443": {
+            "cNext": ["q.70444"],
+            "cPrev": ["q.70442"],
+            "level": 95,
+            "name_en": "Mamook Speaks",
+            "name_fr": "Cueillette de météorites",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70444": {
+            "cNext": [
+                "q.70445",
+                "q.70636",
+                "q.70637",
+                "q.70638",
+                "q.70639",
+                "q.70640",
+                "q.70641",
+                "q.70642",
+                "q.70643",
+                "q.70644",
+                "q.70645",
+                "q.70650"
+            ],
+            "cPrev": ["q.70443"],
+            "level": 95,
+            "name_en": "The Feat of the Brotherhood",
+            "name_fr": "L'épreuve de l'amitié",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70445": {
+            "cNext": ["q.70446", "q.70560", "q.70561", "q.70562"],
+            "cPrev": ["q.70444"],
+            "level": 95,
+            "name_en": "Road to the Golden City",
+            "name_fr": "Mystérieuse cité d'or",
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "unlock": "d.829",
+            "patch": "7.0"
+        },
+        "x70446": {
+            "cNext": ["q.70447"],
+            "cPrev": ["q.70445"],
+            "level": 95,
+            "name_en": "Dawn of a New Tomorrow",
+            "name_fr": "Une nouvelle aurore",
+            "npc_en": "Peshekwa",
+            "npc_fr": "Peshekwa",
+            "patch": "7.0"
+        },
+        "x70447": {
+            "cNext": ["q.70448"],
+            "cPrev": ["q.70446"],
+            "cSiblings": ["a.3493"],
+            "level": 95,
+            "name_en": "Ever Greater, Ever Brighter",
+            "name_fr": "Tous les chemins mènent à l'espoir",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.0",
+            "unlock": "o.687"
+        },
+        "x70448": {
+            "cNext": ["q.70449", "q.70655", "q.70656", "q.70657", "q.70659"],
+            "cPrev": ["q.70447"],
+            "level": 95,
+            "name_en": "The Long Road to Xak Tural",
+            "name_fr": "En route pour le Xak Tural",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70449": {
+            "cNext": ["q.70450", "q.70661", "q.70662"],
+            "cPrev": ["q.70448"],
+            "level": 95,
+            "name_en": "Saddled Up",
+            "name_fr": "Voyage à dos de rroneek",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70450": {
+            "cNext": ["q.70451"],
+            "cPrev": ["q.70449"],
+            "level": 95,
+            "name_en": "Braced for Trouble",
+            "name_fr": "Le vol d'un précieux bracelet",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70451": {
+            "cNext": ["q.70452"],
+            "cPrev": ["q.70450"],
+            "level": 95,
+            "name_en": "Blowing Smoke",
+            "name_fr": "Opération bombe puante",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70452": {
+            "cNext": ["q.70453", "q.70665", "q.70666", "q.70667", "q.70670", "q.70676"],
+            "cPrev": ["q.70451"],
+            "level": 95,
+            "name_en": "Law of the Land",
+            "name_fr": "La loi des plaines",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70453": {
+            "cNext": ["q.70454"],
+            "cPrev": ["q.70452"],
+            "level": 95,
+            "name_en": "On Track",
+            "name_fr": "Le chemin de fer du Xak Tural",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70454": {
+            "cNext": ["q.70455", "q.70671", "q.70672", "q.70673", "q.70674", "q.70675"],
+            "cPrev": ["q.70453"],
+            "level": 96,
+            "name_en": "One with Nature",
+            "name_fr": "Un peuple en harmonie avec la nature",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70455": {
+            "cNext": ["q.70456"],
+            "cPrev": ["q.70454"],
+            "level": 96,
+            "name_en": "And the Land Would Tremble",
+            "name_fr": "Un grand bouleversement",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70456": {
+            "cNext": ["q.70457"],
+            "cPrev": ["q.70455"],
+            "level": 96,
+            "name_en": "No Time for Tears",
+            "name_fr": "Du sang et des larmes",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70457": {
+            "cNext": ["q.70458"],
+            "cPrev": ["q.70456"],
+            "level": 96,
+            "name_en": "Pick up the Pieces",
+            "name_fr": "Camarades dans l'adversité",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "patch": "7.0"
+        },
+        "x70458": {
+            "cNext": ["q.70459", "q.70563", "q.70564", "q.70565"],
+            "cPrev": ["q.70457"],
+            "level": 96,
+            "name_en": "Together as One",
+            "name_fr": "La force d'un peuple uni",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70459": {
+            "cNext": ["q.70460", "q.70658", "q.70660", "q.70663", "q.70664", "q.70668", "q.70669", "q.70680"],
+            "cPrev": ["q.70458"],
+            "level": 96,
+            "name_en": "In Yyasulani's Shadow",
+            "name_fr": "Ombres sinistres sur les plaines",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.0"
+        },
+        "x70460": {
+            "cNext": ["q.70461"],
+            "cPrev": ["q.70459"],
+            "level": 96,
+            "name_en": "Putting Plans into Locomotion",
+            "name_fr": "Mettre la stratégie sur les rails",
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "patch": "7.0"
+        },
+        "x70461": {
+            "cNext": ["q.70462"],
+            "cPrev": ["q.70460"],
+            "level": 96,
+            "name_en": "A Hot Commodity",
+            "name_fr": "Par amour pour le Tuliyollal",
+            "npc_en": "Iyaate",
+            "npc_fr": "Iyaate",
+            "patch": "7.0"
+        },
+        "x70462": {
+            "cNext": ["q.70463"],
+            "cPrev": ["q.70461"],
+            "level": 97,
+            "name_en": "All Aboard",
+            "name_fr": "Un train explosif",
+            "npc_en": "Wawlika",
+            "npc_fr": "Wawlika",
+            "unlock": "d.831",
+            "patch": "7.0"
+        },
+        "x70463": {
+            "cNext": ["q.70464"],
+            "cPrev": ["q.70462"],
+            "level": 97,
+            "name_en": "The Land of Levin",
+            "name_fr": "Un monde dominé par la foudre",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70464": {
+            "cNext": ["q.70465"],
+            "cPrev": ["q.70463"],
+            "level": 97,
+            "name_en": "A Royal Welcome",
+            "name_fr": "Sphene, la reine de la Raison",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "patch": "7.0"
+        },
+        "x70465": {
+            "cNext": ["q.70466", "q.70685", "q.70686", "q.70687"],
+            "cPrev": ["q.70464"],
+            "level": 97,
+            "name_en": "A Day in the Life",
+            "name_fr": "Connaître les sujets de son royaume",
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.0"
+        },
+        "x70466": {
+            "cNext": ["q.70467"],
+            "cPrev": ["q.70465"],
+            "level": 97,
+            "name_en": "On the Cloud",
+            "name_fr": "Vers les Cavernes célestes",
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.0"
+        },
+        "x70467": {
+            "cNext": ["q.70468", "q.70688", "q.70689", "q.70690", "q.70696"],
+            "cPrev": ["q.70466"],
+            "cSiblings": ["a.3494"],
+            "level": 97,
+            "name_en": "Gone and Forgotten",
+            "name_fr": "Une ressource d'âmes",
+            "npc_en": "Erenville",
+            "npc_fr": "Erenville",
+            "patch": "7.0"
+        },
+        "x70468": {
+            "cNext": ["q.70469"],
+            "cPrev": ["q.70467"],
+            "level": 97,
+            "name_en": "Embracing Oblivion",
+            "name_fr": "Main dans la main",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70469": {
+            "cNext": ["q.70470"],
+            "cPrev": ["q.70468"],
+            "level": 97,
+            "name_en": "Solution Nine",
+            "name_fr": "Solution Neuf",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70470": {
+            "cNext": ["q.70471"],
+            "cPrev": ["q.70469"],
+            "level": 97,
+            "name_en": "The Queen's Tour",
+            "name_fr": "Visite guidée royale",
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.0"
+        },
+        "x70471": {
+            "cNext": ["q.70472"],
+            "cPrev": ["q.70470"],
+            "level": 98,
+            "name_en": "Her People, Her Family",
+            "name_fr": "La famille avant tout",
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.0"
+        },
+        "x70472": {
+            "cNext": ["q.70473"],
+            "cPrev": ["q.70471"],
+            "level": 98,
+            "name_en": "Scales of Blue",
+            "name_fr": "Bleu et hoobigo",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70473": {
+            "cNext": ["q.70474", "q.70700", "q.70701", "q.70702"],
+            "cPrev": ["q.70472"],
+            "level": 98,
+            "name_en": "Gives You Teeth",
+            "name_fr": "Plus serré qu'un café",
+            "npc_en": "Tassos",
+            "npc_fr": "Tassos",
+            "patch": "7.0"
+        },
+        "x70474": {
+            "cNext": ["q.70475"],
+            "cPrev": ["q.70473"],
+            "level": 98,
+            "name_en": "Little Footfalls",
+            "name_fr": "Filature dans les ruines",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70475": {
+            "cNext": ["q.70476"],
+            "cPrev": ["q.70474"],
+            "level": 98,
+            "name_en": "Drowned Vestiges",
+            "name_fr": "La ville noyée",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70476": {
+            "cNext": ["q.70477", "q.70691", "q.70692", "q.70693", "q.70694", "q.70695"],
+            "cPrev": ["q.70475"],
+            "level": 98,
+            "name_en": "Memories of a Knight",
+            "name_fr": "Les mémoires d'un chevalier",
+            "npc_en": "Otis",
+            "npc_fr": "Otis",
+            "patch": "7.0"
+        },
+        "x70477": {
+            "cNext": ["q.70478"],
+            "cPrev": ["q.70476"],
+            "level": 98,
+            "name_en": "At a Crossroads",
+            "name_fr": "À la croisée des chemins",
+            "npc_en": "Otis",
+            "npc_fr": "Otis",
+            "patch": "7.0"
+        },
+        "x70478": {
+            "cNext": ["q.70479"],
+            "cPrev": ["q.70477"],
+            "level": 98,
+            "name_en": "The Protector and the Destroyer",
+            "name_fr": "Protecteurs et destructeurs",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70479": {
+            "cNext": ["q.70480"],
+            "cPrev": ["q.70478"],
+            "level": 99,
+            "name_en": "A Comforting Hand",
+            "name_fr": "Panser les plaies",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70480": {
+            "cNext": ["q.70481", "q.70703", "q.70704", "q.70705", "q.70706", "q.70707", "q.70708", "q.70709"],
+            "cPrev": ["q.70479"],
+            "level": 99,
+            "name_en": "Unto the Summit",
+            "name_fr": "Jusqu'au sommet de l'éternité",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70481": {
+            "cNext": ["q.70482"],
+            "cPrev": ["q.70480"],
+            "cSiblings": ["a.3495"],
+            "level": 99,
+            "name_en": "The Resilient Son",
+            "name_fr": "L'enfant prodige",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "unlock": "d.825",
+            "patch": "7.0"
+        },
+        "x70482": {
+            "cNext": ["q.70483"],
+            "cPrev": ["q.70481"],
+            "level": 99,
+            "name_en": "A New Family",
+            "name_fr": "Une nouvelle famille",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70483": {
+            "cNext": ["q.70484"],
+            "cPrev": ["q.70482"],
+            "level": 99,
+            "name_en": "In Pursuit of Sphene",
+            "name_fr": "À la poursuite de Sphene",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70484": {
+            "cNext": ["q.70485"],
+            "cPrev": ["q.70483"],
+            "level": 99,
+            "name_en": "Through the Gate of Gold",
+            "name_fr": "Au-delà de la cité d'or",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70485": {
+            "cNext": ["q.70486"],
+            "cPrev": ["q.70484"],
+            "level": 99,
+            "name_en": "Those Who Live Forever",
+            "name_fr": "Ceux qui vivaient éternellement",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70486": {
+            "cNext": ["q.70487", "q.70710", "q.70711"],
+            "cPrev": ["q.70485"],
+            "level": 99,
+            "name_en": "In Serenity and Sorrow",
+            "name_fr": "Idyllique... mais cruel",
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "patch": "7.0"
+        },
+        "x70487": {
+            "cNext": ["q.70488"],
+            "cPrev": ["q.70486"],
+            "level": 99,
+            "name_en": "The Land of Dreams",
+            "name_fr": "Le parc de tous les espoirs",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70488": {
+            "cNext": ["q.70489", "q.70712", "q.70713"],
+            "cPrev": ["q.70487"],
+            "level": 99,
+            "name_en": "A Knight of Alexandria",
+            "name_fr": "Le chevalier entre en scène",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.0"
+        },
+        "x70489": {
+            "cNext": ["q.70490"],
+            "cPrev": ["q.70488"],
+            "level": 100,
+            "name_en": "The Sanctuary of the Strong",
+            "name_fr": "Atmosphère volcanique",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70490": {
+            "cNext": ["q.70491"],
+            "cPrev": ["q.70489"],
+            "level": 100,
+            "name_en": "The Taste of Family",
+            "name_fr": "La saveur du cœur",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.0"
+        },
+        "x70491": {
+            "cNext": ["q.70492", "q.70714", "q.70715"],
+            "cPrev": ["q.70490"],
+            "level": 100,
+            "name_en": "Leafing through the Past",
+            "name_fr": "Le trèfle du miracle",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.0"
+        },
+        "x70492": {
+            "cNext": ["q.70493"],
+            "cPrev": ["q.70491"],
+            "level": 100,
+            "name_en": "An Explorer's Delight",
+            "name_fr": "Au bonheur des explorateurs",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70493": {
+            "cNext": ["q.70494"],
+            "cPrev": ["q.70492"],
+            "level": 100,
+            "name_en": "In Search of Discovery",
+            "name_fr": "À la découverte de l'inconnu",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70494": {
+            "cNext": ["q.70495"],
+            "cPrev": ["q.70493"],
+            "level": 100,
+            "name_en": "A Journey Never-ending",
+            "name_fr": "Sa dernière aventure",
+            "npc_en": "Cahciua",
+            "npc_fr": "Cahciua",
+            "patch": "7.0"
+        },
+        "x70495": {
+            "cNext": [
+                "q.70496",
+                "q.70540",
+                "q.70541",
+                "q.70549",
+                "q.70550",
+                "q.70716",
+                "q.70717",
+                "q.70728",
+                "q.70729",
+                "q.70769",
+                "q.70780"
+            ],
+            "cPrev": ["q.70494"],
+            "cSiblings": ["a.3496"],
+            "level": 100,
+            "name_en": "Dawntrail",
+            "name_fr": "Le sentier de l'aurore",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "unlock": ["d.827", "mo.344", "o.688"],
+            "patch": "7.0"
+        }
+    }
+}

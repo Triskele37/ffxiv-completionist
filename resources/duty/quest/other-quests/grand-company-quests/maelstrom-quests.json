@@ -1,0 +1,58 @@
+{
+    "key": "maelstrom-quests",
+    "groupName_en": "Maelstrom Quests",
+    "groupName_fr": "Quêtes du Maelstrom",
+    "tasks": {
+        "x66640": {
+            "level": 30,
+            "name_en": "A Pup No Longer (Maelstrom)",
+            "name_fr": "L'Antre des loups (Maelstrom)",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cNext": ["q.68543", "q.67063", "q.67064", "q.67065"],
+            "cExclude": ["q.66641", "q.66642"],
+            "patch": "4.31"
+        },
+        "x67064": {
+            "level": 30,
+            "name_en": "Like Civilized Men and Women (Maelstrom)",
+            "name_fr": "Le Front (Maelstrom)",
+            "cPrevAny": true,
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "unlock_en": "Duty: Frontline",
+            "cPrev": ["q.66641", "q.66642", "q.66640"],
+            "cExclude": ["q.67063", "q.67065"],
+            "patch": "4.31"
+        },
+        "x66664": {
+            "level": 44,
+            "name_en": "Shadows Uncast (Maelstrom)",
+            "name_fr": "Opération Dzemael (Maelstrom)",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cNext": ["q.66667"],
+            "patch": "4.31"
+        },
+        "x66667": {
+            "level": 47,
+            "name_en": "Gilding the Bilious (Maelstrom)",
+            "name_fr": "Opération Val d'Aurum (Maelstrom)",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cPrev": ["q.66664"],
+            "patch": "4.31"
+        },
+        "x67100": {
+            "level": 50,
+            "name_en": "Let the Hunt Begin (Maelstrom)",
+            "name_fr": "Faire bonne chasse (Maelstrom)",
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "unlock_en": "The Hunt",
+            "cNext": ["q.67655"],
+            "cExclude": ["q.67099", "q.67101"],
+            "patch": "4.31"
+        }
+    }
+}

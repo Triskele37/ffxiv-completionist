@@ -8,30 +8,22 @@
             "name_fr": "Laisser une bonne impression I",
             "description_en": "Receive 10 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 10 fois.",
-            "reward": "character.character.title.144",
+            "reward": "t.144",
             "patch": "2.1",
             "points": 0,
-            "cNext": [
-                859
-            ],
-            "cSiblings": [
-                "character.character.title.144"
-            ]
+            "cNext": ["a.859"],
+            "cSiblings": ["t.144"]
         },
         "x859": {
             "name_en": "Leaving a Good Impression II",
             "name_fr": "Laisser une bonne impression II",
             "description_en": "Receive 50 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 50 fois.",
-            "reward": "character.minion-guide.194",
+            "reward": "mi.75",
             "patch": "2.1",
             "points": 0,
-            "cPrev": [
-                858
-            ],
-            "cNext": [
-                860
-            ]
+            "cPrev": ["a.858"],
+            "cNext": ["a.860"]
         },
         "x860": {
             "name_en": "Leaving a Good Impression III",
@@ -42,42 +34,30 @@
             "reward_fr": "Couronne de partisan",
             "patch": "2.1",
             "points": 0,
-            "cPrev": [
-                859
-            ],
-            "cNext": [
-                861
-            ]
+            "cPrev": ["a.859"],
+            "cNext": ["a.861"]
         },
         "x861": {
             "name_en": "Leaving a Good Impression IV",
             "name_fr": "Laisser une bonne impression IV",
             "description_en": "Receive 300 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 300 fois.",
-            "reward": "character.companion.barding.20",
+            "reward": "b.20",
             "patch": "2.1",
             "points": 0,
-            "cPrev": [
-                860
-            ],
-            "cNext": [
-                862
-            ]
+            "cPrev": ["a.860"],
+            "cNext": ["a.862"]
         },
         "x862": {
             "name_en": "Everybody's Darling",
             "name_fr": "La grande coqueluche",
             "description_en": "Receive 500 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 500 fois.",
-            "reward": "character.mount-guide.74",
+            "reward": "mo.21",
             "patch": "2.1",
             "points": 0,
-            "cPrev": [
-                861
-            ],
-            "cNext": [
-                1035
-            ]
+            "cPrev": ["a.861"],
+            "cNext": ["a.1035"]
         },
         "x1035": {
             "name_en": "Leaving a Better Impression I",
@@ -88,24 +68,18 @@
             "reward_fr": "Robe du plus grand honneur",
             "patch": "2.4",
             "points": 0,
-            "cPrev": [
-                862
-            ],
-            "cNext": [
-                1036
-            ]
+            "cPrev": ["a.862"],
+            "cNext": ["a.1036"]
         },
         "x1036": {
             "name_en": "Leaving a Better Impression II",
             "name_fr": "Laisser la meilleure impression II",
             "description_en": "Receive 3,000 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 3 000 fois.",
-            "reward": "character.mount-guide.134",
+            "reward": "mo.44",
             "patch": "2.4",
             "points": 0,
-            "cPrev": [
-                1035
-            ]
+            "cPrev": ["a.1035"]
         }
     }
 }

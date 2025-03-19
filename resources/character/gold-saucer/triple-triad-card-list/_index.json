@@ -2,6 +2,23 @@
     "key": "triple-triad-card-list",
     "groupName_en": "Triple Triad Card List",
     "groupName_fr": "Cartes de Triple Triade",
+    "order": [
+        "page-1",
+        "page-2",
+        "page-3",
+        "page-4",
+        "page-5",
+        "page-6",
+        "page-7",
+        "page-8",
+        "page-9",
+        "page-10",
+        "page-11",
+        "page-12",
+        "page-13",
+        "page-14",
+        "last-page"
+    ],
     "headers": {
         "number": {
             "width": 90,
@@ -13,13 +30,11 @@
             "header_fr": "Carte"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Méthode d'Acquisition"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

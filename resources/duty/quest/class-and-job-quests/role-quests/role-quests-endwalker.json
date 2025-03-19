@@ -1,0 +1,47 @@
+{
+    "key": "role-quests-endwalker",
+    "groupName_en": "Role Quests (Endwalker)",
+    "groupName_fr": "Quêtes de rôle (Endwalker)",
+    "tasks": {
+        "x70115": {
+            "level": 90,
+            "name_en": "Bitter Snow",
+            "name_fr": "La bête venue du froid",
+            "npc_en": "Shirabaht",
+            "npc_fr": "Shirabaht",
+            "cPrev": ["q.69643", "q.69649", "q.69655"],
+            "cNext": ["q.70116"],
+            "patch": "6.1"
+        },
+        "x70116": {
+            "level": 90,
+            "name_en": "Frozen Hope",
+            "name_fr": "Rapatriés à la dérive",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "cPrev": ["q.70115"],
+            "cNext": ["q.70117"],
+            "patch": "6.1"
+        },
+        "x70117": {
+            "level": 90,
+            "name_en": "Misguided Few",
+            "name_fr": "Être garlemaldais",
+            "npc_en": "Fourchenault",
+            "npc_fr": "Fourchenault",
+            "cPrev": ["q.70116"],
+            "cNext": ["q.70118"],
+            "patch": "6.1"
+        },
+        "x70118": {
+            "level": 90,
+            "name_en": "Forlorn Glory",
+            "name_fr": "Nerva, le patriote",
+            "npc_en": "Fourchenault",
+            "npc_fr": "Fourchenault",
+            "cPrev": ["q.70117"],
+            "cSiblings": ["a.3076"],
+            "patch": "6.1"
+        }
+    }
+}

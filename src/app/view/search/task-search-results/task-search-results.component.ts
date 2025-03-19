@@ -17,7 +17,7 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
     private searchSub: Subscription;
     private storeSub: Subscription;
 
-    rowKeys: string[];
+    rowKeys: string[] = [];
     showKey: boolean;
 
     willCollapseAll: boolean = false;

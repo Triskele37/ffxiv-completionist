@@ -1,0 +1,68 @@
+{
+    "key": "physical-dps-role-quests-shadowbringers",
+    "groupName_en": "Physical DPS Role Quests (Shadowbringers)",
+    "groupName_fr": "Quêtes de DPS physique (Shadowbringers)",
+    "tasks": {
+        "x68809": {
+            "level": 70,
+            "name_en": "No Greater Sport",
+            "name_fr": "La flèche dorée",
+            "npc_en": "Lue-Reeq",
+            "npc_fr": "Lue-Reeq",
+            "cPrev": ["q.68837"],
+            "cNext": ["q.68810"],
+            "patch": "5.0"
+        },
+        "x68810": {
+            "level": 72,
+            "name_en": "Vengeance in Defeat",
+            "name_fr": "Le combat de Renda-Rae",
+            "npc_en": "Lue-Reeq",
+            "npc_fr": "Lue-Reeq",
+            "cPrev": ["q.68809"],
+            "cNext": ["q.68811"],
+            "patch": "5.0"
+        },
+        "x68811": {
+            "level": 74,
+            "name_en": "Freedom from Privilege",
+            "name_fr": "D'où je viens",
+            "npc_en": "Lue-Reeq",
+            "npc_fr": "Lue-Reeq",
+            "cPrev": ["q.68810"],
+            "cNext": ["q.68812"],
+            "patch": "5.0"
+        },
+        "x68812": {
+            "level": 76,
+            "name_en": "The Hunter's Legacy",
+            "name_fr": "La chasseuse de légende",
+            "npc_en": "Lue-Reeq",
+            "npc_fr": "Lue-Reeq",
+            "cPrev": ["q.68811"],
+            "cNext": ["q.68813"],
+            "patch": "5.0"
+        },
+        "x68813": {
+            "level": 78,
+            "name_en": "Fellowship Restored",
+            "name_fr": "La quête d'Andreia",
+            "npc_en": "Olvara",
+            "npc_fr": "Olvara",
+            "cPrev": ["q.68812"],
+            "cNext": ["q.68814"],
+            "patch": "5.0"
+        },
+        "x68814": {
+            "level": 80,
+            "name_en": "Courage Born of Fear",
+            "name_fr": "Le duo reformé",
+            "npc_en": "Lue-Reeq",
+            "npc_fr": "Lue-Reeq",
+            "cPrev": ["q.68813"],
+            "cNext": ["q.68749", "q.68755", "q.68747", "q.68750", "q.68756", "q.68759", "q.68762"],
+            "cSiblings": ["a.2303"],
+            "patch": "5.0"
+        }
+    }
+}

@@ -1,0 +1,1183 @@
+{
+    "key": "societal-relations",
+    "groupName_en": "Societal Relations",
+    "groupName_fr": "Rapport avec des peuples",
+    "headers": {
+        "name": {
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "expansion": {
+            "filterable": true,
+            "header_en": "Expansion",
+            "header_fr": "Extension"
+        },
+        "reputationToCap": {
+            "header_en": "Reputation To Cap",
+            "header_fr": "Réputation nécessaire"
+        },
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name": "@SOCIETY.AMALJAA - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "150",
+            "requirements": "q.66754",
+            "cNext": [1],
+            "cSiblings": ["q.66754", "a.863"],
+            "patch": "2.1"
+        },
+        "x1": {
+            "name": "@SOCIETY.AMALJAA - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "360",
+            "requirements": "q.66755",
+            "cPrev": [0],
+            "cNext": [2],
+            "cSiblings": ["q.66755", "a.864"],
+            "patch": "2.1"
+        },
+        "x2": {
+            "name": "@SOCIETY.AMALJAA - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "510",
+            "requirments": "q.66756",
+            "cPrev": [1],
+            "cNext": [3],
+            "cSiblings": ["q.66756", "a.865"],
+            "patch": "2.1"
+        },
+        "x3": {
+            "name": "@SOCIETY.AMALJAA - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [2],
+            "cNext": [4],
+            "cSiblings": ["q.66757", "a.866"],
+            "patch": "2.1"
+        },
+        "x4": {
+            "name": "@SOCIETY.AMALJAA - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [3],
+            "cSiblings": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x5": {
+            "name": "@SOCIETY.SYLPHS - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "150",
+            "requirements": "q.66789",
+            "cNext": [6],
+            "cSiblings": ["q.66789", "a.867"],
+            "patch": "2.1"
+        },
+        "x6": {
+            "name": "@SOCIETY.SYLPHS - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "360",
+            "requirements": "q.66790",
+            "cPrev": [5],
+            "cNext": [7],
+            "cSiblings": ["q.66790", "a.868"],
+            "patch": "2.1"
+        },
+        "x7": {
+            "name": "@SOCIETY.SYLPHS - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "510",
+            "requirements": "q.66791",
+            "cPrev": [6],
+            "cNext": [8],
+            "cSiblings": ["q.66791", "a.869"],
+            "patch": "2.1"
+        },
+        "x8": {
+            "name": "@SOCIETY.SYLPHS - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.66792",
+            "cPrev": [7],
+            "cNext": [9],
+            "cSiblings": ["q.66792", "a.870"],
+            "patch": "2.1"
+        },
+        "x9": {
+            "name": "@SOCIETY.SYLPHS - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [8],
+            "cSiblings": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x10": {
+            "name": "@SOCIETY.KOBOLDS - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "150",
+            "requirements": "q.66857",
+            "cNext": [11],
+            "cSiblings": ["q.66857", "a.904"],
+            "patch": "2.2"
+        },
+        "x11": {
+            "name": "@SOCIETY.KOBOLDS - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "360",
+            "requirements": "q.66858",
+            "cPrev": [10],
+            "cNext": [12],
+            "cSiblings": ["q.66858", "a.905"],
+            "patch": "2.2"
+        },
+        "x12": {
+            "name": "@SOCIETY.KOBOLDS - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "510",
+            "requirements": "q.66859",
+            "cPrev": [11],
+            "cNext": [13],
+            "cSiblings": ["q.66859", "a.906"],
+            "patch": "2.2"
+        },
+        "x13": {
+            "name": "@SOCIETY.KOBOLDS - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.66860",
+            "cPrev": [12],
+            "cNext": [14],
+            "cSiblings": ["q.66860", "a.907"],
+            "patch": "2.2"
+        },
+        "x14": {
+            "name": "@SOCIETY.KOBOLDS - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [13],
+            "cSiblings": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x15": {
+            "name": "@SOCIETY.SAHAGIN - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "150",
+            "requirements": "q.66911",
+            "cNext": [16],
+            "cSiblings": ["q.66911", "a.908"],
+            "patch": "2.2"
+        },
+        "x16": {
+            "name": "@SOCIETY.SAHAGIN - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "360",
+            "requirements": "q.66912",
+            "cPrev": [15],
+            "cNext": [17],
+            "cSiblings": ["q.66912", "a.909"],
+            "patch": "2.2"
+        },
+        "x17": {
+            "name": "@SOCIETY.SAHAGIN - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "510",
+            "requirements": "q.66913",
+            "cPrev": [16],
+            "cNext": [18],
+            "cSiblings": ["q.66913", "a.910"],
+            "patch": "2.2"
+        },
+        "x18": {
+            "name": "@SOCIETY.SAHAGIN - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.66914",
+            "cPrev": [17],
+            "cNext": [19],
+            "cSiblings": ["q.66914", "a.911"],
+            "patch": "2.2"
+        },
+        "x19": {
+            "name": "@SOCIETY.SAHAGIN - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [18],
+            "cSiblings": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x20": {
+            "name": "@SOCIETY.IXAL - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "150",
+            "requirements": "q.67023",
+            "cNext": [21],
+            "cSiblings": ["q.67023", "a.1022"],
+            "patch": "2.35"
+        },
+        "x21": {
+            "name": "@SOCIETY.IXAL - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "360",
+            "requirements": "q.67024",
+            "cPrev": [20],
+            "cNext": [22],
+            "cSiblings": ["q.67024"],
+            "patch": "2.35"
+        },
+        "x22": {
+            "name": "@SOCIETY.IXAL - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "510",
+            "requirements": "q.67025",
+            "cPrev": [21],
+            "cNext": [23],
+            "cSiblings": ["q.67025", "a.1023"],
+            "patch": "2.35"
+        },
+        "x23": {
+            "name": "@SOCIETY.IXAL - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "720",
+            "requirements": "q.67026",
+            "cPrev": [22],
+            "cNext": [24],
+            "cSiblings": ["q.67026"],
+            "patch": "2.35"
+        },
+        "x24": {
+            "name": "@SOCIETY.IXAL - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "990",
+            "requirements": "q.67027",
+            "cPrev": [23],
+            "cNext": [25],
+            "cSiblings": ["q.67027", "a.1024"],
+            "patch": "2.35"
+        },
+        "x25": {
+            "name": "@SOCIETY.IXAL - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "1320",
+            "requirements": "q.67028",
+            "cPrev": [24],
+            "cNext": [26],
+            "cSiblings": ["q.67028"],
+            "patch": "2.35"
+        },
+        "x26": {
+            "name": "@SOCIETY.IXAL - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67029",
+            "cPrev": [25],
+            "cNext": [27],
+            "cSiblings": ["q.67029", "a.1025"],
+            "patch": "2.35"
+        },
+        "x27": {
+            "name": "@SOCIETY.IXAL - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.A_REALM_REBORN",
+            "reputationToCap": "-",
+            "requirements": "q.67009",
+            "cPrev": [26],
+            "cSiblings": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x28": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "150",
+            "requirements": "q.67700",
+            "cNext": [29],
+            "cSiblings": ["q.67700", "a.1395"],
+            "patch": "3.1"
+        },
+        "x29": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "360",
+            "requirements": "q.67701",
+            "cPrev": [28],
+            "cNext": [30],
+            "cSiblings": ["q.67701"],
+            "patch": "3.1"
+        },
+        "x30": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "510",
+            "requirements": "q.67702",
+            "cPrev": [29],
+            "cNext": [31],
+            "cSiblings": ["q.67702", "a.1396"],
+            "patch": "3.1"
+        },
+        "x31": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "720",
+            "requirements": "q.67703",
+            "cPrev": [30],
+            "cNext": [32],
+            "cSiblings": ["q.67703"],
+            "patch": "3.1"
+        },
+        "x32": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "990",
+            "requirements": "q.67704",
+            "cPrev": [31],
+            "cNext": [33],
+            "cSiblings": ["q.67704", "a.1397"],
+            "patch": "3.1"
+        },
+        "x33": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1320",
+            "requirements": "q.67705",
+            "cPrev": [32],
+            "cNext": [34],
+            "cSiblings": ["q.67705"],
+            "patch": "3.1"
+        },
+        "x34": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1730",
+            "requirements": "q.67706",
+            "cPrev": [33],
+            "cNext": [35],
+            "cSiblings": ["q.67706", "a.1398"],
+            "patch": "3.1"
+        },
+        "x35": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67761",
+            "cPrev": [34],
+            "cNext": [36],
+            "cSiblings": ["q.67761"],
+            "patch": "3.1"
+        },
+        "x36": {
+            "name": "@SOCIETY.VANU_VANU - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67921",
+            "cPrev": [35],
+            "cSiblings": ["q.67921"],
+            "patch": "3.5"
+        },
+        "x37": {
+            "name": "@SOCIETY.VATH - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "510",
+            "requirements": "q.67791",
+            "cNext": [38],
+            "cSiblings": ["q.67791", "a.1495"],
+            "patch": "3.2"
+        },
+        "x38": {
+            "name": "@SOCIETY.VATH - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "720",
+            "requirements": "q.67792",
+            "cPrev": [37],
+            "cNext": [39],
+            "cSiblings": ["q.67792", "a.1496"],
+            "patch": "3.2"
+        },
+        "x39": {
+            "name": "@SOCIETY.VATH - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "990",
+            "requirements": "q.67793",
+            "cPrev": [38],
+            "cNext": [40],
+            "cSiblings": ["q.67793"],
+            "patch": "3.2"
+        },
+        "x40": {
+            "name": "@SOCIETY.VATH - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1320",
+            "requirements": "q.67794",
+            "cPrev": [39],
+            "cNext": [41],
+            "cSiblings": ["q.67794", "a.1497"],
+            "patch": "3.2"
+        },
+        "x41": {
+            "name": "@SOCIETY.VATH - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1730",
+            "requirements": "q.67795",
+            "cPrev": [40],
+            "cNext": [42],
+            "cSiblings": ["q.67795", "a.1498"],
+            "patch": "3.2"
+        },
+        "x42": {
+            "name": "@SOCIETY.VATH - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67796",
+            "cPrev": [41],
+            "cNext": [43],
+            "cSiblings": ["q.67796"],
+            "patch": "3.2"
+        },
+        "x43": {
+            "name": "@SOCIETY.VATH - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67921",
+            "cPrev": [42],
+            "cSiblings": ["q.67921"],
+            "patch": "3.5"
+        },
+        "x44": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.NEUTRAL",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "150",
+            "requirements": "q.67856",
+            "cNext": [45],
+            "cSiblings": ["q.67856", "a.1618"],
+            "patch": "3.3"
+        },
+        "x45": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.RECOGNIZED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "360",
+            "requirements": "q.67857",
+            "cPrev": [44],
+            "cNext": [46],
+            "cSiblings": ["q.67857"],
+            "patch": "3.3"
+        },
+        "x46": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "510",
+            "requirements": "q.67858",
+            "cPrev": [45],
+            "cNext": [47],
+            "cSiblings": ["q.67858", "a.1619"],
+            "patch": "3.3"
+        },
+        "x47": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "720",
+            "requirements": "q.67859",
+            "cPrev": [46],
+            "cNext": [48],
+            "cSiblings": ["q.67859"],
+            "patch": "3.3"
+        },
+        "x48": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "990",
+            "requirements": "q.67860",
+            "cPrev": [47],
+            "cNext": [49],
+            "cSiblings": ["q.67860", "a.1620"],
+            "patch": "3.3"
+        },
+        "x49": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1320",
+            "requirements": "q.67861",
+            "cPrev": [48],
+            "cNext": [50],
+            "cSiblings": ["q.67861"],
+            "patch": "3.3"
+        },
+        "x50": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "1730",
+            "requirements": "q.67862",
+            "cPrev": [49],
+            "cNext": [51],
+            "cSiblings": ["q.67862", "a.1621"],
+            "patch": "3.3"
+        },
+        "x51": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67863",
+            "cPrev": [50],
+            "cNext": [52],
+            "cSiblings": ["q.67863"],
+            "patch": "3.3"
+        },
+        "x52": {
+            "name": "@SOCIETY.MOOGLES - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.HEAVENSWARD",
+            "reputationToCap": "-",
+            "requirements": "q.67921",
+            "cPrev": [51],
+            "cSiblings": ["q.67921"],
+            "patch": "3.5"
+        },
+        "x53": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "510",
+            "requirements": "q.68509",
+            "cNext": [54],
+            "cSiblings": ["q.68509", "a.1997"],
+            "patch": "4.1"
+        },
+        "x54": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "720",
+            "requirements": "q.68510",
+            "cPrev": [53],
+            "cNext": [55],
+            "cSiblings": ["q.68510", "a.1998"],
+            "patch": "4.1"
+        },
+        "x55": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "990",
+            "requirements": "q.68511",
+            "cPrev": [54],
+            "cNext": [56],
+            "cSiblings": ["q.68511"],
+            "patch": "4.1"
+        },
+        "x56": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1320",
+            "requirements": "q.68512",
+            "cPrev": [55],
+            "cNext": [57],
+            "cSiblings": ["q.68512", "a.1999"],
+            "patch": "4.1"
+        },
+        "x57": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1730",
+            "requirements": "q.68513",
+            "cPrev": [56],
+            "cNext": [58],
+            "cSiblings": ["q.68513", "a.2000"],
+            "patch": "4.1"
+        },
+        "x58": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "cSiblings": ["q.68514"],
+            "requirements": "q.68514",
+            "cPrev": [57],
+            "cNext": [59],
+            "patch": "4.1"
+        },
+        "x59": {
+            "name": "@SOCIETY.KOJIN - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "requirements": "q.68700",
+            "cPrev": [58],
+            "cSiblings": ["q.68700"],
+            "patch": "4.5"
+        },
+        "x60": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "510",
+            "requirements": "q.68572",
+            "cNext": [61],
+            "cSiblings": ["q.68572", "a.2014"],
+            "patch": "4.2"
+        },
+        "x61": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "720",
+            "requirements": "q.68573",
+            "cPrev": [60],
+            "cNext": [62],
+            "cSiblings": ["q.68573", "a.2015"],
+            "patch": "4.2"
+        },
+        "x62": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "990",
+            "requirements": "q.68574",
+            "cPrev": [61],
+            "cNext": [63],
+            "cSiblings": ["q.68574"],
+            "patch": "4.2"
+        },
+        "x63": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1320",
+            "requirements": "q.68575",
+            "cPrev": [62],
+            "cNext": [64],
+            "cSiblings": ["q.68575", "a.2016"],
+            "patch": "4.2"
+        },
+        "x64": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1730",
+            "requirements": "q.68576",
+            "cPrev": [63],
+            "cNext": [65],
+            "cSiblings": ["q.68576", "a.2017"],
+            "patch": "4.2"
+        },
+        "x65": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "requirements": "q.68577",
+            "cPrev": [64],
+            "cNext": [66],
+            "cSiblings": ["q.68577"],
+            "patch": "4.2"
+        },
+        "x66": {
+            "name": "@SOCIETY.ANANTA - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "requirements": "q.68700",
+            "cPrev": [65],
+            "cSiblings": ["q.68700"],
+            "patch": "4.5"
+        },
+        "x67": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "510",
+            "requirements": "q.68633",
+            "cNext": [68],
+            "cSiblings": ["q.68633", "a.2099"],
+            "patch": "4.3"
+        },
+        "x68": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "720",
+            "requirements": "q.68634",
+            "cPrev": [67],
+            "cNext": [69],
+            "cSiblings": ["q.68634", "a.2100"],
+            "patch": "4.3"
+        },
+        "x69": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "990",
+            "requirements": "q.68635",
+            "cPrev": [68],
+            "cNext": [70],
+            "cSiblings": ["q.68635"],
+            "patch": "4.3"
+        },
+        "x70": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1320",
+            "requirements": "q.68636",
+            "cPrev": [69],
+            "cNext": [71],
+            "cSiblings": ["q.68636", "a.2101"],
+            "patch": "4.3"
+        },
+        "x71": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "1730",
+            "requirements": "q.68637",
+            "cPrev": [70],
+            "cNext": [72],
+            "cSiblings": ["q.68637", "a.2102"],
+            "patch": "4.3"
+        },
+        "x72": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "requirements": "q.68638",
+            "cPrev": [71],
+            "cNext": [73],
+            "cSiblings": ["q.68638"],
+            "patch": "4.3"
+        },
+        "x73": {
+            "name": "@SOCIETY.NAMAZU - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.STORMBLOOD",
+            "reputationToCap": "-",
+            "requirements": "q.68700",
+            "cPrev": [72],
+            "cSiblings": ["q.68700"],
+            "patch": "4.5"
+        },
+        "x86": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "510",
+            "requirements": "q.69219",
+            "cNext": [87],
+            "cSiblings": ["q.69219", "a.2436"],
+            "patch": "5.1"
+        },
+        "x87": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "720",
+            "requirements": "q.69220",
+            "cPrev": [86],
+            "cNext": [88],
+            "cSiblings": ["q.69220", "a.2437"],
+            "patch": "5.1"
+        },
+        "x88": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "990",
+            "requirements": "q.69221",
+            "cPrev": [87],
+            "cNext": [89],
+            "cSiblings": ["q.69221"],
+            "patch": "5.1"
+        },
+        "x89": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1320",
+            "requirements": "q.69222",
+            "cPrev": [88],
+            "cNext": [90],
+            "cSiblings": ["q.69222", "a.2438"],
+            "patch": "5.1"
+        },
+        "x90": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1730",
+            "requirements": "q.69223",
+            "cPrev": [89],
+            "cNext": [91],
+            "cSiblings": ["q.69223", "a.2439"],
+            "patch": "5.1"
+        },
+        "x91": {
+            "name": "@SOCIETY.PIXIES - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "-",
+            "requirements": "q.69224",
+            "cPrev": [90],
+            "cSiblings": ["q.69224"],
+            "patch": "5.1"
+        },
+        "x80": {
+            "name": "@SOCIETY.QITARI - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "510",
+            "requirements": "q.69330",
+            "cNext": [81],
+            "cSiblings": ["q.69330", "a.2597"],
+            "patch": "5.2"
+        },
+        "x81": {
+            "name": "@SOCIETY.QITARI - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "720",
+            "requirements": "q.69331",
+            "cPrev": [80],
+            "cNext": [82],
+            "cSiblings": ["q.69331", "a.2598"],
+            "patch": "5.2"
+        },
+        "x82": {
+            "name": "@SOCIETY.QITARI - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "990",
+            "requirements": "q.69332",
+            "cPrev": [81],
+            "cNext": [83],
+            "cSiblings": ["q.69332"],
+            "patch": "5.2"
+        },
+        "x83": {
+            "name": "@SOCIETY.QITARI - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1320",
+            "requirements": "q.69333",
+            "cPrev": [82],
+            "cNext": [84],
+            "cSiblings": ["q.69333", "a.2599"],
+            "patch": "5.2"
+        },
+        "x84": {
+            "name": "@SOCIETY.QITARI - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1730",
+            "requirements": "q.69334",
+            "cPrev": [83],
+            "cNext": [85],
+            "cSiblings": ["q.69334", "a.2600"],
+            "patch": "5.2"
+        },
+        "x85": {
+            "name": "@SOCIETY.QITARI - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "-",
+            "requirements": "q.69335",
+            "cPrev": [84],
+            "cSiblings": ["q.69335"],
+            "patch": "5.2"
+        },
+        "x74": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "510",
+            "requirements": "q.69432",
+            "cNext": [75],
+            "cSiblings": ["q.69432", "a.2638"],
+            "patch": "5.3"
+        },
+        "x75": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "720",
+            "requirements": "q.69433",
+            "cPrev": [74],
+            "cNext": [76],
+            "cSiblings": ["q.69433", "a.2639"],
+            "patch": "5.3"
+        },
+        "x76": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "990",
+            "requirements": "q.69434",
+            "cPrev": [75],
+            "cNext": [77],
+            "cSiblings": ["q.69434"],
+            "patch": "5.3"
+        },
+        "x77": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1320",
+            "requirements": "q.69435",
+            "cPrev": [76],
+            "cNext": [78],
+            "cSiblings": ["q.69435", "a.2640"],
+            "patch": "5.3"
+        },
+        "x78": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "1730",
+            "requirements": "q.69436",
+            "cPrev": [77],
+            "cNext": [79],
+            "cSiblings": ["q.69436", "a.2641"],
+            "patch": "5.3"
+        },
+        "x79": {
+            "name": "@SOCIETY.DWARVES - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.SHADOWBRINGERS",
+            "reputationToCap": "-",
+            "requirements": "q.69437",
+            "cPrev": [78],
+            "cSiblings": ["q.69437"],
+            "patch": "5.3"
+        },
+        "x92": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "510",
+            "requirements": "q.70081",
+            "cNext": [93],
+            "cSiblings": ["q.70081", "a.3055"],
+            "patch": "6.15"
+        },
+        "x93": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "720",
+            "requirements": "q.70082",
+            "cPrev": [92],
+            "cNext": [94],
+            "cSiblings": ["q.70082", "a.3056"],
+            "patch": "6.15"
+        },
+        "x94": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "990",
+            "requirements": "q.70083",
+            "cPrev": [93],
+            "cNext": [95],
+            "cSiblings": ["q.70083"],
+            "patch": "6.15"
+        },
+        "x95": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1320",
+            "requirements": "q.70084",
+            "cPrev": [94],
+            "cNext": [96],
+            "cSiblings": ["q.70084", "a.3057"],
+            "patch": "6.15"
+        },
+        "x96": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1730",
+            "requirements": "q.70085",
+            "cPrev": [95],
+            "cNext": [97],
+            "cSiblings": ["q.70085", "a.3058"],
+            "patch": "6.15"
+        },
+        "x97": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70086",
+            "cPrev": [96],
+            "cNext": [110],
+            "cSiblings": ["q.70086"],
+            "patch": "6.15"
+        },
+        "x110": {
+            "name": "@SOCIETY.ARKASODARA - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70324",
+            "cPrev": [97],
+            "cSiblings": ["q.70324"],
+            "patch": "6.55"
+        },
+        "x98": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "510",
+            "requirements": "q.70137",
+            "cNext": [99],
+            "cSiblings": ["q.70137", "a.3123"],
+            "patch": "6.25"
+        },
+        "x99": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "720",
+            "requirements": "q.70138",
+            "cPrev": [98],
+            "cNext": [100],
+            "cSiblings": ["q.70138", "a.3124"],
+            "patch": "6.25"
+        },
+        "x100": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "990",
+            "requirements": "q.70139",
+            "cPrev": [99],
+            "cNext": [101],
+            "cSiblings": ["q.70139"],
+            "patch": "6.25"
+        },
+        "x101": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1320",
+            "requirements": "q.70140",
+            "cPrev": [100],
+            "cNext": [102],
+            "cSiblings": ["q.70140", "a.3125"],
+            "patch": "6.25"
+        },
+        "x102": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1730",
+            "requirements": "q.70141",
+            "cPrev": [101],
+            "cNext": [103],
+            "cSiblings": ["q.70141", "a.3126"],
+            "patch": "6.25"
+        },
+        "x103": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70142",
+            "cPrev": [102],
+            "cNext": [111],
+            "cSiblings": ["q.70142"],
+            "patch": "6.25"
+        },
+        "x111": {
+            "name": "@SOCIETY.OMICRONS - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70324",
+            "cPrev": [103],
+            "cSiblings": ["q.70324"],
+            "patch": "6.55"
+        },
+        "x104": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "510",
+            "requirements": "q.70214",
+            "cNext": [105],
+            "cSiblings": ["q.70217", "a.3188"],
+            "patch": "6.35"
+        },
+        "x105": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "720",
+            "requirements": "q.70218",
+            "cPrev": [104],
+            "cNext": [106],
+            "cSiblings": ["q.70218", "a.3189"],
+            "patch": "6.35"
+        },
+        "x106": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "990",
+            "requirements": "q.70219",
+            "cPrev": [105],
+            "cNext": [107],
+            "cSiblings": ["q.70219"],
+            "patch": "6.35"
+        },
+        "x107": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1320",
+            "requirements": "q.70220",
+            "cPrev": [106],
+            "cNext": [108],
+            "cSiblings": ["q.70220", "a.3190"],
+            "patch": "6.35"
+        },
+        "x108": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "1730",
+            "requirements": "q.70221",
+            "cPrev": [107],
+            "cNext": [109],
+            "cSiblings": ["q.70221", "a.3191"],
+            "patch": "6.35"
+        },
+        "x109": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70222",
+            "cPrev": [108],
+            "cNext": [112],
+            "cSiblings": ["q.70222"],
+            "patch": "6.35"
+        },
+        "x112": {
+            "name": "@SOCIETY.LOPORRITS - REPUTATION.ALLIED",
+            "expansion": "@EXPANSION.ENDWALKER",
+            "reputationToCap": "-",
+            "requirements": "q.70324",
+            "cPrev": [109],
+            "cSiblings": ["q.70324"],
+            "patch": "6.55"
+        },
+        "x113": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.FRIENDLY",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "510",
+            "requirements": "q.70729",
+            "cNext": [114],
+            "cSiblings": ["q.70729", "a.3588"],
+            "patch": "7.1"
+        },
+        "x114": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.TRUSTED",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "720",
+            "requirements": "q.70730",
+            "cPrev": [113],
+            "cNext": [115],
+            "cSiblings": ["q.70730", "a.3589"],
+            "patch": "7.1"
+        },
+        "x115": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.RESPECTED",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "990",
+            "requirements": "q.70731",
+            "cPrev": [114],
+            "cNext": [116],
+            "cSiblings": ["q.70731"],
+            "patch": "7.1"
+        },
+        "x116": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.HONORED",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "1320",
+            "requirements": "q.70732",
+            "cPrev": [115],
+            "cNext": [117],
+            "cSiblings": ["q.70732", "a.3590"],
+            "patch": "7.1"
+        },
+        "x117": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.SWORN",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "1730",
+            "requirements": "q.70733",
+            "cPrev": [116],
+            "cNext": [118],
+            "cSiblings": ["q.70733", "a.3591"],
+            "patch": "7.1"
+        },
+        "x118": {
+            "name": "@SOCIETY.PELUPELU - REPUTATION.BLOODSWORN",
+            "expansion": "@EXPANSION.DAWNTRAIL",
+            "reputationToCap": "-",
+            "requirements": "q.70734",
+            "cPrev": [117],
+            "cSiblings": ["q.70734"],
+            "patch": "7.1"
+        }
+    }
+}

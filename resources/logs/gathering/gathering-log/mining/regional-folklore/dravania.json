@@ -7,25 +7,21 @@
             "level": "60★",
             "name_en": "Aurum Regis Ore",
             "name_fr": "Minerai d'aurum regis",
-            "zone_en": "The Churning Mists",
-            "zone_fr": "L'Écume des cieux de Dravania",
+            "zone": "@PLACE.THE_CHURNING_MISTS",
             "coordinates": "(11, 38)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "Zenith",
-            "closestAetheryte_fr": "Zénith",
-            "patch": "3.0"
+            "patch": "3.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
         },
         "x1": {
             "level": "60★",
             "name_en": "Lumythrite Ore",
             "name_fr": "Minerai de lumithrite",
-            "zone_en": "The Churning Mists",
-            "zone_fr": "L'Écume des cieux de Dravania",
+            "zone": "@PLACE.THE_CHURNING_MISTS",
             "coordinates": "(11, 38)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "Zenith",
-            "closestAetheryte_fr": "Zénith",
-            "patch": "3.15"
+            "patch": "3.15",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
         }
     }
 }

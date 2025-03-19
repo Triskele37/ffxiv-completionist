@@ -10,11 +10,7 @@
             "cPrevAny": true,
             "npc_en": "Nyell",
             "npc_fr": "Nyell",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66263": {
@@ -23,9 +19,7 @@
             "name_fr": "Soupe anti-antilopes",
             "npc_en": "Ianna",
             "npc_fr": "Ianna",
-            "cNext": [
-                66264
-            ],
+            "cNext": ["q.66264"],
             "patch": "4.31"
         },
         "x66264": {
@@ -34,9 +28,7 @@
             "name_fr": "Demande d'offrande",
             "npc_en": "Ianna",
             "npc_fr": "Ianna",
-            "cPrev": [
-                66263
-            ],
+            "cPrev": ["q.66263"],
             "patch": "4.31"
         },
         "x66265": {
@@ -45,23 +37,17 @@
             "name_fr": "Plus de poisson chez Buscarron",
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cNext": [
-                66267,
-                66268,
-                66266
-            ],
+            "cNext": ["q.66267", "q.66268", "q.66266"],
             "patch": "4.31"
         },
         "x66266": {
             "level": 22,
             "name_en": "Occupational Hazards",
             "name_fr": "Rassurer Yoenne",
-            "unlock": "character.minion-guide.50",
+            "unlock": "mi.15",
             "npc_en": "Yoenne",
             "npc_fr": "Yoenne",
-            "cPrev": [
-                66265
-            ],
+            "cPrev": ["q.66265"],
             "patch": "4.31"
         },
         "x66267": {
@@ -70,9 +56,7 @@
             "name_fr": "Les reliques de Gelmorra",
             "npc_en": "Rolandaix",
             "npc_fr": "Rolandaix",
-            "cPrev": [
-                66265
-            ],
+            "cPrev": ["q.66265"],
             "patch": "4.31"
         },
         "x66268": {
@@ -81,9 +65,7 @@
             "name_fr": "Mieux vaut faire sauter que guérir",
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": [
-                66265
-            ],
+            "cPrev": ["q.66265"],
             "patch": "4.31"
         },
         "x66275": {
@@ -92,9 +74,7 @@
             "name_fr": "L'ennemi de mon ennemi",
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66274"
-            ],
+            "cPrev": ["q.66274"],
             "patch": "4.31"
         },
         "x66278": {
@@ -103,20 +83,7 @@
             "name_fr": "Indésirables Impériaux",
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66050"
-            ],
-            "patch": "4.31"
-        },
-        "x66305": {
-            "level": 26,
-            "name_en": "A Bumper Crop",
-            "name_fr": "Offrez des pommes",
-            "npc_en": "Fawkes",
-            "npc_fr": "Fawkes",
-            "cPrev": [
-                66304
-            ],
+            "cPrev": ["q.66050"],
             "patch": "4.31"
         },
         "x66302": {
@@ -141,20 +108,16 @@
             "name_fr": "Travail saisonnier",
             "npc_en": "Deidra",
             "npc_fr": "Deidra",
-            "cNext": [
-                66305
-            ],
+            "cNext": ["q.66305"],
             "patch": "4.31"
         },
-        "x66309": {
+        "x66305": {
             "level": 26,
-            "name_en": "Masher for a Day",
-            "name_fr": "Le secret de la sauce de Mun-Tuy",
-            "npc_en": "Erimmont",
-            "npc_fr": "Erimmont",
-            "cPrev": [
-                66308
-            ],
+            "name_en": "A Bumper Crop",
+            "name_fr": "Offrez des pommes",
+            "npc_en": "Fawkes",
+            "npc_fr": "Fawkes",
+            "cPrev": ["q.66304"],
             "patch": "4.31"
         },
         "x66306": {
@@ -171,9 +134,7 @@
             "name_fr": "Au nom du grand-père",
             "npc_en": "Cuthbert",
             "npc_fr": "Cuthbert",
-            "cNext": [
-                66308
-            ],
+            "cNext": ["q.66308"],
             "patch": "4.31"
         },
         "x66308": {
@@ -182,12 +143,17 @@
             "name_fr": "Mets la sauce",
             "npc_en": "Aedoc",
             "npc_fr": "Aedoc",
-            "cPrev": [
-                66307
-            ],
-            "cNext": [
-                66309
-            ],
+            "cPrev": ["q.66307"],
+            "cNext": ["q.66309"],
+            "patch": "4.31"
+        },
+        "x66309": {
+            "level": 26,
+            "name_en": "Masher for a Day",
+            "name_fr": "Le secret de la sauce de Mun-Tuy",
+            "npc_en": "Erimmont",
+            "npc_fr": "Erimmont",
+            "cPrev": ["q.66308"],
             "patch": "4.31"
         },
         "x65980": {
@@ -197,11 +163,7 @@
             "cPrevAny": true,
             "npc_en": "Merthelin",
             "npc_fr": "Merthelin",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66353": {
@@ -210,9 +172,7 @@
             "name_fr": "Un parfum d'ailleurs",
             "npc_en": "Detoh Moshroca",
             "npc_fr": "Detoh Moshroca",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66350"
-            ],
+            "cPrev": ["q.66350"],
             "patch": "4.31"
         },
         "x66354": {
@@ -221,9 +181,7 @@
             "name_fr": "Une commande qui tombe à l'eau",
             "npc_en": "Florent",
             "npc_fr": "Florent",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66350"
-            ],
+            "cPrev": ["q.66350"],
             "patch": "4.31"
         },
         "x66698": {
@@ -234,14 +192,8 @@
             "npc_en": "Docette",
             "npc_fr": "Docette",
             "unlock_en": "Companion",
-            "cPrev": [
-                "duty.quests.sidequests.gridanian.gridania.66236",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
-                "duty.quests.sidequests.uldahn.uldah.66238"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.central-shroud.67096"
-            ],
+            "cPrev": ["q.66236", "q.66237", "q.66238"],
+            "cNext": ["q.67096"],
             "patch": "4.31"
         },
         "x66546": {
@@ -266,12 +218,8 @@
             "name_fr": "À chacun sa vérité",
             "npc_en": "Simmie",
             "npc_fr": "Simmie",
-            "cPrev": [
-                "duty.quests.sidequests.gridanian.gridania.66545"
-            ],
-            "cNext": [
-                "duty.quests.chronicles-of-a-new-era.primals.65969"
-            ],
+            "cPrev": ["q.66545"],
+            "cNext": ["q.65969"],
             "patch": "4.31"
         }
     }

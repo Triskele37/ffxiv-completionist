@@ -687,16 +687,16 @@
             "name_en": "Mapping the Realm: Alzadaal's Legacy",
             "name_fr": "Cartographe du continent : Legs d'Alzadaal",
             "description_en": "Discover every location within Alzadaal's Legacy.",
-            "description_fr": "Découvrir toute la carte du legs d'Azadaal",
+            "description_fr": "Découvrir toute la carte du legs d'Azadaal.",
             "patch": "6.1",
             "points": 10
         },
         "x3106": {
             "name_en": "Mapping the Realm: The Fell Court of Troia",
-            "name_fr": "Cartographe du continent : Château de Troïaach",
+            "name_fr": "Cartographe du continent : Château de Troïa",
             "description_en": "Discover every location within the Fell Court of Troia.",
             "description_fr": "Découvrir toute la carte du Château de Troïa.",
-            "patch": "6.2",
+            "patch": "6.28",
             "points": 10
         },
         "x3158": {
@@ -721,6 +721,78 @@
             "description_en": "Discover every location within the Lunar Subterrane.",
             "description_fr": "Découvrir toute la carte du Souterrain lunaire.",
             "patch": "6.5",
+            "points": 10
+        },
+		"x3517": {
+            "description_en": "Discover every location within Ihuykatumu.",
+            "description_fr": "Découvrir toute la carte de la Remontée de l'Ihuykatumu.",
+            "name_en": "Mapping the Realm: Ihuykatumu",
+            "name_fr": "Cartographe du continent : Remontée de l'Ihuykatumu",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3518": {
+            "description_en": "Discover every location within Worqor Zormor.",
+            "description_fr": "Découvrir toute la carte de Worqor Zormor.",
+            "name_en": "Mapping the Realm: Worqor Zormor",
+            "name_fr": "Cartographe du continent : Worqor Zormor",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3519": {
+            "description_en": "Discover every location within the Skydeep Cenote.",
+            "description_fr": "Découvrir toute la carte du cénote des Cieux infinis.",
+            "name_en": "Mapping the Realm: The Skydeep Cenote",
+            "name_fr": "Cartographe du continent : Cénote des Cieux infinis",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3520": {
+            "description_en": "Discover every location within Vanguard.",
+            "description_fr": "Découvrir toute la carte de L'Avant-garde.",
+            "name_en": "Mapping the Realm: Vanguard",
+            "name_fr": "Cartographe du continent : L'Avant-garde",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3521": {
+            "description_en": "Discover every location within Origenics.",
+            "description_fr": "Découvrir toute la carte de l'Origenèse.",
+            "name_en": "Mapping the Realm: Origenics",
+            "name_fr": "Cartographe du continent : L'Origenèse",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3522": {
+            "description_en": "Discover every location within Alexandria.",
+            "description_fr": "Découvrir toute la carte d'Alexandrie.",
+            "name_en": "Mapping the Realm: Alexandria",
+            "name_fr": "Cartographe du continent : Alexandrie",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3523": {
+            "description_en": "Discover every location within Tender Valley.",
+            "description_fr": "Découvrir toute la carte de la vallée des Pampas.",
+            "name_en": "Mapping the Realm: Tender Valley",
+            "name_fr": "Cartographe du continent : Vallée des Pampas",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3524": {
+            "description_en": "Discover every location within the Strayborough Deadwalk.",
+            "description_fr": "Découvrir toute la carte du Parc-aux-Errants.",
+            "name_en": "Mapping the Realm: The Strayborough Deadwalk",
+            "name_fr": "Cartographe du continent : Parc-aux-Errants",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3603": {
+            "description_en": "Discover every location within Yuweyawata Field Station.",
+            "description_fr": "Découvrir toute la carte du centre de recherche de Yuweyawata.",
+            "name_en": "Mapping the Realm: Yuweyawata Field Station",
+            "name_fr": "Cartographe du continent : Centre de recherche de Yuweyawata",
+            "patch": "7.1",
             "points": 10
         },
         "x884": {
@@ -987,6 +1059,14 @@
             "patch": "6.5",
             "points": 10
         },
+		"x3604": {
+            "description_en": "Discover every location within Jeuno: The First Walk.",
+            "description_fr": "Découvrir toute la carte de Jeuno - La première perambulation.",
+            "name_en": "Mapping the Realm: Jeuno: The First Walk",
+            "name_fr": "Cartographe du continent : Jeuno - La première perambulation",
+            "patch": "7.1",
+            "points": 10
+        },
         "x1404": {
             "name_en": "Mapping the Realm: The Diadem",
             "name_fr": "Cartographe du continent : Diadème",
@@ -1117,13 +1197,11 @@
             "name_fr": "Chasseur du Diadème V",
             "description_en": "Slay a total of 100 notorious monsters on exploratory missions to the Diadem of any difficulty.",
             "description_fr": "Abattre 100 monstres célèbres au Diadème.",
-            "reward": "character.character.title.278",
+            "reward": "t.278",
             "patch": "3.1",
             "points": 20,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.278"
-            ]
+            "cSiblings": ["t.278"]
         },
         "x1734": {
             "name_en": "Have a Haillenarte I",
@@ -1258,12 +1336,10 @@
             "name_fr": "Pionnier d'Eurêka Hydatos",
             "description_en": "Complete all the story objectives within the Forbidden Land, Eureka Hydatos.",
             "description_fr": "Remplir les objectifs principaux de l'histoire d'Eurêka Hydatos.",
-            "reward": "character.character.title.416",
+            "reward": "t.416",
             "patch": "4.55",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.416"
-            ]
+            "cSiblings": ["t.416"]
         },
         "x2242": {
             "name_en": "Really Making the Most of Hydatos",
@@ -1296,12 +1372,8 @@
             "description_fr": "Remplir toutes les entrées du rapport du front relative au Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.0-19"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.0-19"],
+            "cCombo": ["a.2886"]
         },
         "x2761": {
             "name_en": "Annals of Archaeology",
@@ -1310,12 +1382,8 @@
             "description_fr": "Obtenir toutes les pages de notes du front bozjien dans Delubrum Reginae.",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.20-29"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.20-29"],
+            "cCombo": ["a.2886"]
         },
         "x2885": {
             "name_en": "Annals of Liberation",
@@ -1324,33 +1392,25 @@
             "description_fr": "Remplir toutes les entrées du rapport du front bozjien obtenables sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.30-49"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.30-49"],
+            "cCombo": ["a.2886"]
         },
         "x2886": {
             "name_en": "A Complete History",
             "name_fr": "Biographe de Bozja",
             "description_en": "Obtain the achievements “Annals of War,” “Annals of Archaeology,” and “Annals of Liberation.”",
             "description_fr": "Remplir toutes les entrées du rapport du front bozjien.",
-            "reward": "character.mount-guide.199",
+            "reward": "mo.246",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [
-                2671,
-                2761,
-                2885
-            ]
+            "cPrev": ["a.2671", "a.2761", "a.2885"]
         },
         "x3147": {
             "name_en": "Mapping the Realm: The Sil'dihn Subterrane",
             "name_fr": "Cartographe du continent : canalisations sildiennes",
             "description_en": "Discover every location within the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Découvrir toute la carte des canalisations sildiennes.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 10
         },
         "x3154": {
@@ -1358,7 +1418,7 @@
             "name_fr": "Cartographe du continent : canalisations sildiennes annexes",
             "description_en": "Discover every location within Another Sil'dihn Subterrane.",
             "description_fr": "Découvrir toute la carte des canalisations sildiennes annexes.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 10
         },
         "x3331": {
@@ -1366,7 +1426,7 @@
             "name_fr": "Cartographe du continent : Mont Rokkon",
             "description_en": "Discover every location within the Mount Rokkon variant dungeon.",
             "description_fr": "Découvrir toute la carte du mont Rokkon.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 10
         },
         "x3338": {
@@ -1374,7 +1434,7 @@
             "name_fr": "Cartographe du continent : Mont Rokkon annexe",
             "description_en": "Discover every location within Another Mount Rokkon.",
             "description_fr": "Découvrir toute la carte du mont Rokkon annexe.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 10
         },
         "x3341": {
@@ -1398,8 +1458,8 @@
             "name_fr": "Les mots de Nanamo",
             "description_en": "Unlock all survey records in the Sil'dihn Subterrane.",
             "description_fr": "Découvrir toutes les entrées du journal d'exploration des canalisations sildiennes.",
-            "reward": "character.mount-guide.222",
-            "patch": "6.25",
+            "reward": "mo.304",
+            "patch": "6.28",
             "points": 10
         },
         "x3337": {
@@ -1407,8 +1467,8 @@
             "name_fr": "Les mots de Hancock",
             "description_en": "Unlock all exorcism records on Mount Rokkon.",
             "description_fr": "Découvrir toutes les entrées du journal d'exploration du mont Rokkon.",
-            "reward": "character.mount-guide.321",
-            "patch": "6.51",
+            "reward": "mo.321",
+            "patch": "6.45",
             "points": 10
         },
         "x3347": {
@@ -1416,7 +1476,7 @@
             "name_fr": "Les mots de Matsya",
             "description_en": "Unlock all conservation records on Aloalo Island.",
             "description_fr": "Découvrir toutes les entrées du journal d'exploration de l'île d'Aloalo.",
-            "reward": "character.mount-guide.334",
+            "reward": "mo.334",
             "patch": "6.51",
             "points": 10
         }

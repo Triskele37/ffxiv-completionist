@@ -1,0 +1,26 @@
+{
+    "key": "crystalline-mean-quests",
+    "groupName_en": "Crystalline Mean Quests",
+    "groupName_fr": "Quêtes de la halle du Juste",
+    "tasks": {
+        "x69191": {
+            "level": 70,
+            "name_en": "The Crystalline Mean",
+            "name_fr": "La halle du Juste",
+            "npc_en": "Katliss",
+            "npc_fr": "Katliss",
+            "cPrev": ["q.68839"],
+            "cNext": ["q.68763", "q.68766", "q.68769", "q.68772", "q.68775"],
+            "patch": "5.0"
+        },
+        "x68778": {
+            "level": 80,
+            "name_en": "For Every Child a Star",
+            "name_fr": "Peur du noir",
+            "npc_en": "Katliss",
+            "npc_fr": "Katliss",
+            "cSiblings": ["a.2328"],
+            "patch": "5.0"
+        }
+    }
+}

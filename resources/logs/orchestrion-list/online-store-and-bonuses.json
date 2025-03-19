@@ -1,0 +1,748 @@
+{
+    "key": "online-store-and-bonuses",
+    "groupName_en": "Online Store & Bonuses",
+    "groupName_fr": "Boutique en ligne/objet bonus",
+    "defaultCompletion": "X",
+    "tasks": {
+        "x114": {
+            "number": "-",
+            "name_en": "Borderless (Duality)",
+            "name_fr": "Borderless (Duality)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV: DUALITY Arrangement Album",
+            "source_fr": "FINAL FANTASY XIV: DUALITY Arrangement Album",
+            "patch": "3.45"
+        },
+        "x115": {
+            "number": "-",
+            "name_en": "Unbending Steel (Duality)",
+            "name_fr": "Unbending Steel (Duality)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV: DUALITY Arrangement Album",
+            "source_fr": "FINAL FANTASY XIV: DUALITY Arrangement Album",
+            "patch": "3.45"
+        },
+        "x191": {
+            "number": "-",
+            "name_en": "Ultima (Orchestral Version)",
+            "name_fr": "Ultima (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+            "patch": "4.1"
+        },
+        "x192": {
+            "number": "-",
+            "name_en": "Heroes (Orchestral Version)",
+            "name_fr": "Heroes (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+            "patch": "4.1"
+        },
+        "x242": {
+            "number": "-",
+            "name_en": "Rise of the White Raven (Orchestral Version)",
+            "name_fr": "Rise of the White Raven (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.3"
+        },
+        "x243": {
+            "number": "-",
+            "name_en": "Revenge Twofold (Orchestral Version)",
+            "name_fr": "Revenge Twofold (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.3"
+        },
+        "x244": {
+            "number": "-",
+            "name_en": "Oblivion (Orchestral Version)",
+            "name_fr": "Oblivion (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.3"
+        },
+        "x272": {
+            "number": "-",
+            "name_en": "Serenity (Orchestral Version)",
+            "name_fr": "Serenity (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.4"
+        },
+        "x273": {
+            "number": "-",
+            "name_en": "Calamity Unbound (Orchestral Version)",
+            "name_fr": "Calamity Unbound (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.4"
+        },
+        "x274": {
+            "number": "-",
+            "name_en": "Ominous Prognisticks (Orchestral Version)",
+            "name_fr": "Ominous Prognisticks (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.4"
+        },
+        "x277": {
+            "number": "-",
+            "name_en": "Wayward Daughter (Chiptune Version)",
+            "name_fr": "Wayward Daughter (Chiptune Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV - The Best Compilation Album",
+            "source_fr": "FINAL FANTASY XIV - The Best Compilation Album",
+            "patch": "4.45"
+        },
+        "x278": {
+            "number": "-",
+            "name_en": "The Worm's Tail (Chiptune Version)",
+            "name_fr": "The Worm's Tail (Chiptune Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV - The Best Compilation Album",
+            "source_fr": "FINAL FANTASY XIV - The Best Compilation Album",
+            "patch": "4.45"
+        },
+        "x279": {
+            "number": "-",
+            "name_en": "Rise (The Primals)",
+            "name_fr": "Rise (The Primals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+            "source_fr": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+            "patch": "4.5"
+        },
+        "x280": {
+            "number": "-",
+            "name_en": "Oblivion (GUNN Vocals)",
+            "name_fr": "Oblivion (GUNN Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+            "source_fr": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
+            "patch": "4.5"
+        },
+        "x281": {
+            "number": "-",
+            "name_en": "Painted Foothills (Orchestral Version)",
+            "name_fr": "Painted Foothills (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.5"
+        },
+        "x282": {
+            "number": "-",
+            "name_en": "Moebius (Orchestral Version)",
+            "name_fr": "Moebius (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "4.5"
+        },
+        "x305": {
+            "number": "-",
+            "name_en": "The Worm's Tail (Journeys Version)",
+            "name_fr": "The Worm's Tail (Journeys Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Journeys: FINAL FANTASY XIV Arrangement Album",
+            "source_fr": "Journeys: FINAL FANTASY XIV Arrangement Album",
+            "patch": "4.58"
+        },
+        "x306": {
+            "number": "-",
+            "name_en": "eScape (Journeys Version)",
+            "name_fr": "eScape (Journeys Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Journeys: FINAL FANTASY XIV Arrangement Album",
+            "source_fr": "Journeys: FINAL FANTASY XIV Arrangement Album",
+            "patch": "4.58"
+        },
+        "x358": {
+            "number": "-",
+            "name_en": "Tsukuyomi's Pain (Orchestral Version)",
+            "name_fr": "Tsukuyomi's Pain (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+            "patch": "5.1"
+        },
+        "x359": {
+            "number": "-",
+            "name_en": "The Worm's Tail (Orchestral Version)",
+            "name_fr": "The Worm's Tail (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
+            "patch": "5.1"
+        },
+        "x405": {
+            "number": "-",
+            "name_en": "Neath Dark Waters (Scions & Sinners)",
+            "name_fr": "Neath Dark Waters (Scions & Sinners)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
+            "source_fr": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
+            "patch": "5.4"
+        },
+        "x406": {
+            "number": "-",
+            "name_en": "A Long Fall (Scions & Sinners: Band)",
+            "name_fr": "A Long Fall (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
+            "source_fr": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
+            "patch": "5.4"
+        },
+        "x407": {
+            "number": "-",
+            "name_en": "A New Hope (Piano Collections)",
+            "name_fr": "A New Hope (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
+        },
+        "x408": {
+            "number": "-",
+            "name_en": "Wailers and Waterwheels (Piano Collections)",
+            "name_fr": "Wailers And Waterwheels (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
+        },
+        "x409": {
+            "number": "-",
+            "name_en": "I Am the Sea (Piano Collections)",
+            "name_fr": "I Am the Sea (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
+        },
+        "x433": {
+            "number": "-",
+            "name_en": "Ominous Prognisticks (Piano Collections)",
+            "name_fr": "Ominous Prognisticks (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.4"
+        },
+        "x434": {
+            "number": "-",
+            "name_en": "Night in the Brume (Piano Collections)",
+            "name_fr": "Night in the Brume (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.4"
+        },
+        "x435": {
+            "number": "-",
+            "name_en": "Painted Foothills (Piano Collections)",
+            "name_fr": "Painted Foothills (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.4"
+        },
+        "x445": {
+            "number": "-",
+            "name_en": "On Westerly Winds (Piano Collections)",
+            "name_fr": "On Westerly Winds (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x446": {
+            "number": "-",
+            "name_en": "Serenity (Piano Collections)",
+            "name_fr": "Serenity (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x447": {
+            "number": "-",
+            "name_en": "To the Sun (Piano Collections)",
+            "name_fr": "To the Sun (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x448": {
+            "number": "-",
+            "name_en": "Invincible (Scions & Sinners: Piano)",
+            "name_fr": "Invincible (Scions & Sinners: Piano)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x449": {
+            "number": "-",
+            "name_en": "Tomorrow and Tomorrow (Scions & Sinners: Amanda Achen Vocals)",
+            "name_fr": "Tomorrow and Tomorrow (Scions & Sinners: Amanda Achen Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x450": {
+            "number": "-",
+            "name_en": "Return to Oblivion (Scions & Sinners: Amanda Achen Vocals)",
+            "name_fr": "Return to Oblivion (Scions & Sinners: Amanda Achen Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x451": {
+            "number": "-",
+            "name_en": "What Angel Wakes Me (Scions & Sinners: Amanda Achen Vocals)",
+            "name_fr": "What Angel Wakes Me (Scions & Sinners: Amanda Achen Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x452": {
+            "number": "-",
+            "name_en": "A Long Fall (Scions & Sinners: Piano)",
+            "name_fr": "A Long Fall (Scions & Sinners: Piano)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Piano Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x453": {
+            "number": "-",
+            "name_en": "Equilibrium (Scions & Sinners: Band)",
+            "name_fr": "Equilibrium (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Band Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Band Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x454": {
+            "number": "-",
+            "name_en": "What Angel Wakes Me (Scions & Sinners: Band)",
+            "name_fr": "What Angel Wakes Me (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Band Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Band Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x455": {
+            "number": "-",
+            "name_en": "Shadowbringers (Scions & Sinners: Band)",
+            "name_fr": "Shadowbringers (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Band Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Band Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x456": {
+            "number": "-",
+            "name_en": "Blinding Indigo (Scions & Sinners: Band)",
+            "name_fr": "Blinding Indigo (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Band Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Band Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x457": {
+            "number": "-",
+            "name_en": "Insatiable (Scions & Sinners: Band)",
+            "name_fr": "Insatiable (Scions & Sinners: Band)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Scions & Sinners: Band Orchestrion Roll Set",
+            "source_fr": "Scions & Sinners: Band Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x458": {
+            "number": "-",
+            "name_en": "Rise (Pulse)",
+            "name_fr": "Rise (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set I",
+            "source_fr": "Pulse Orchestrion Roll Set I",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x459": {
+            "number": "-",
+            "name_en": "Through the Maelstrom (Pulse)",
+            "name_fr": "Through the Maelstrom (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set I",
+            "source_fr": "Pulse Orchestrion Roll Set I",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x460": {
+            "number": "-",
+            "name_en": "Neath Dark Waters (Pulse)",
+            "name_fr": "Neath Dark Waters (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set I",
+            "source_fr": "Pulse Orchestrion Roll Set I",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x461": {
+            "number": "-",
+            "name_en": "What Angel Wakes Me (Pulse)",
+            "name_fr": "What Angel Wakes Me (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set I",
+            "source_fr": "Pulse Orchestrion Roll Set I",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x462": {
+            "number": "-",
+            "name_en": "Sunrise (Pulse)",
+            "name_fr": "Sunrise (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set I",
+            "source_fr": "Pulse Orchestrion Roll Set I",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.5"
+        },
+        "x503": {
+            "number": "-",
+            "name_en": "Ink Long Dry (Piano Collections)",
+            "name_fr": "Ink Long Dry (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.0"
+        },
+        "x504": {
+            "number": "-",
+            "name_en": "Heroes (Piano Collections)",
+            "name_fr": "Heroes (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.0"
+        },
+        "x505": {
+            "number": "-",
+            "name_en": "Old Wounds (Piano Collections)",
+            "name_fr": "Old Wounds (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.0"
+        },
+        "x533": {
+            "number": "-",
+            "name_en": "Westward Tide (Piano Collections)",
+            "name_fr": "Westward Tide (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.1"
+        },
+        "x534": {
+            "number": "-",
+            "name_en": "Imagination (Piano Collections)",
+            "name_fr": "Imagination (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.1"
+        },
+        "x535": {
+            "number": "-",
+            "name_en": "Crimson Sunset (Piano Collections)",
+            "name_fr": "Crimson Sunset (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.1"
+        },
+        "x562": {
+            "number": "-",
+            "name_en": "Close in the Distance (Beyond the Shadow)",
+            "name_fr": "Close in the Distance (Beyond the Shadow)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "The Primals Live In Japan - Beyond The Shadow",
+            "source_fr": "The Primals Live In Japan - Beyond The Shadow",
+            "patch": "6.28"
+        },
+        "x563": {
+            "number": "-",
+            "name_en": "Hic Svnt Leones (Beyond the Shadow)",
+            "name_fr": "Hic Svnt Leones (Beyond the Shadow)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "The Primals Live In Japan - Beyond The Shadow",
+            "source_fr": "The Primals Live In Japan - Beyond The Shadow",
+            "patch": "6.28"
+        },
+        "x588": {
+            "number": "-",
+            "name_en": "To the Edge (Orchestral Version)",
+            "name_fr": "To the Edge (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3",
+            "patch": "6.3"
+        },
+        "x589": {
+            "number": "-",
+            "name_en": "Flow (Orchestral Version)",
+            "name_fr": "Flow (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3",
+            "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3",
+            "patch": "6.3"
+        },
+        "x615": {
+            "number": "-",
+            "name_en": "Shadowbringers (Orchestral Version)",
+            "name_fr": "Shadowbringers (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony Orchestrion Roll Set",
+            "source_fr": "Eorzean Symphony Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x616": {
+            "number": "-",
+            "name_en": "Endcaller (Orchestral Version)",
+            "name_fr": "Endcaller (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony Orchestrion Roll Set",
+            "source_fr": "Eorzean Symphony Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x617": {
+            "number": "-",
+            "name_en": "Your Answer (Orchestral Version)",
+            "name_fr": "Your Answer (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony Orchestrion Roll Set",
+            "source_fr": "Eorzean Symphony Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x618": {
+            "number": "-",
+            "name_en": "Close in the Distance (Orchestral Version)",
+            "name_fr": "Close in the Distance (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony Orchestrion Roll Set",
+            "source_fr": "Eorzean Symphony Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x619": {
+            "number": "-",
+            "name_en": "The Final Day (Orchestral Version)",
+            "name_fr": "The Final Day (Orchestral Version)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Eorzean Symphony Orchestrion Roll Set",
+            "source_fr": "Eorzean Symphony Orchestrion Roll Set",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x620": {
+            "number": "-",
+            "name_en": "Unbreakable (Pulse)",
+            "name_fr": "Unbreakable (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set II",
+            "source_fr": "Pulse Orchestrion Roll Set II",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x621": {
+            "number": "-",
+            "name_en": "Equilibrium (Pulse)",
+            "name_fr": "Equilibrium (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set II",
+            "source_fr": "Pulse Orchestrion Roll Set II",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x622": {
+            "number": "-",
+            "name_en": "Beauty's Wicked Wiles (Pulse)",
+            "name_fr": "Beauty's Wicked Wiles (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set II",
+            "source_fr": "Pulse Orchestrion Roll Set II",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x623": {
+            "number": "-",
+            "name_en": "I Am the Sea (Pulse)",
+            "name_fr": "I Am the Sea (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set II",
+            "source_fr": "Pulse Orchestrion Roll Set II",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x624": {
+            "number": "-",
+            "name_en": "A Long Fall (Pulse)",
+            "name_fr": "A Long Fall (Pulse)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Pulse Orchestrion Roll Set II",
+            "source_fr": "Pulse Orchestrion Roll Set II",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "6.4"
+        },
+        "x626": {
+            "number": "-",
+            "name_en": "To the Edge (Forge Ahead)",
+            "name_fr": "To the Edge (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Band Orchestrion Set",
+            "source_fr": "Forge Ahead: Band Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x627": {
+            "number": "-",
+            "name_en": "White Stone Black (Forge Ahead)",
+            "name_fr": "White Stone Black (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Band Orchestrion Set",
+            "source_fr": "Forge Ahead: Band Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x628": {
+            "number": "-",
+            "name_en": "Scream (Forge Ahead)",
+            "name_fr": "Scream (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Band Orchestrion Set",
+            "source_fr": "Forge Ahead: Band Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x629": {
+            "number": "-",
+            "name_en": "In the Balance (Forge Ahead)",
+            "name_fr": "In the Balance (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Band Orchestrion Set",
+            "source_fr": "Forge Ahead: Band Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x630": {
+            "number": "-",
+            "name_en": "Athena, the Tireless One (Forge Ahead)",
+            "name_fr": "Athena, the Tireless One (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Band Orchestrion Set",
+            "source_fr": "Forge Ahead: Band Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x631": {
+            "number": "-",
+            "name_en": "Flow (Forge Ahead)",
+            "name_fr": "Flow (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Piano Orchestrion Set",
+            "source_fr": "Forge Ahead: Piano Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x632": {
+            "number": "-",
+            "name_en": "What Once Was (Forge Ahead)",
+            "name_fr": "What Once Was (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Piano Orchestrion Set",
+            "source_fr": "Forge Ahead: Piano Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x633": {
+            "number": "-",
+            "name_en": "Carrots of Happiness (Forge Ahead)",
+            "name_fr": "Carrots of Happiness (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Piano Orchestrion Set",
+            "source_fr": "Forge Ahead: Piano Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x634": {
+            "number": "-",
+            "name_en": "The Labyrinth (Forge Ahead)",
+            "name_fr": "The Labyrinth (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Piano Orchestrion Set",
+            "source_fr": "Forge Ahead: Piano Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x635": {
+            "number": "-",
+            "name_en": "Dedicated to Moonlight (Amanda Achen Vocals)",
+            "name_fr": "Dedicated to Moonlight (Amanda Achen Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Forge Ahead: Piano Orchestrion Set",
+            "source_fr": "Forge Ahead: Piano Orchestrion Set",
+            "patch": "6.5"
+        },
+        "x641": {
+            "number": "-",
+            "name_en": "Dedicated to Moonlight (Forge Ahead)",
+            "name_fr": "Dedicated to Moonlight (Forge Ahead)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
+            "source_fr": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
+            "patch": "6.5"
+        },
+        "x642": {
+            "number": "-",
+            "name_en": "In the Balance (Amanda Achen Vocals)",
+            "name_fr": "In the Balance (Amanda Achen Vocals)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
+            "source_fr": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
+            "patch": "6.5"
+        },
+        "x691": {
+            "name_en": "Flow (Fan Fest)",
+            "name_fr": "Flow (Fan Fest)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "source_fr": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "patch": "7.0",
+            "number": "-"
+        },
+        "x692": {
+            "name_en": "Endwalker – Footfalls (Fan Fest)",
+            "name_fr": "Endwalker – Footfalls (Fan Fest)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "source_fr": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "patch": "7.0",
+            "number": "-"
+        },
+        "x725": {
+            "name_en": "Bee My Honey (Darkest Before Dawn)",
+            "name_fr": "Bee My Honey (Darkest Before Dawn)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "source_fr": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "patch": "7.1",
+            "number": "-"
+        },
+        "x726": {
+            "name_en": "Give It All (Darkest Before Dawn)",
+            "name_fr": "Give It All (Darkest Before Dawn)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "source_fr": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "patch": "7.1",
+            "number": "-"
+        }
+    }
+}

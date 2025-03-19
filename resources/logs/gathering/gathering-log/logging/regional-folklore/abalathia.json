@@ -7,25 +7,21 @@
             "level": "60★",
             "name_en": "Honeydew Almonds",
             "name_fr": "Amandes mielleuses",
-            "zone_en": "The Sea of Clouds",
-            "zone_fr": "L'Écume des cieux d'Abalathia",
+            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
             "coordinates": "(24, 6)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Ok'Zundu",
-            "closestAetheryte_fr": "Ok'Zundu",
-            "patch": "3.0"
+            "patch": "3.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66"
         },
         "x1": {
             "level": "60★",
             "name_en": "Wattle Bark",
             "name_fr": "Écorce d'acacia",
-            "zone_en": "Azys Lla",
-            "zone_fr": "Azys Lla",
+            "zone": "@PLACE.AZYS_LLA",
             "coordinates": "(22, 10)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "Helix",
-            "closestAetheryte_fr": "Hélice",
-            "patch": "3.0"
+            "patch": "3.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67"
         }
     }
 }

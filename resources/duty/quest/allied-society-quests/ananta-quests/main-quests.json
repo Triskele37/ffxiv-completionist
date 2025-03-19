@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x68572": {
+            "level": 60,
+            "name_en": "Brooding Broodmother",
+            "name_fr": "Les garde-frontières de la Velodyna",
+            "npc_en": "M'rahz Nunh",
+            "npc_fr": "M'rahz Nunh",
+            "cPrev": ["q.68364"],
+            "cNext": ["q.68573"],
+            "cSiblings": ["character.character.societal-relations.60"],
+            "patch": "4.31"
+        },
+        "x68573": {
+            "level": 60,
+            "name_en": "Griffins Rampant",
+            "name_fr": "Deux griffons pour le prix d'un",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "cPrev": ["q.68572"],
+            "cNext": ["q.68574"],
+            "cSiblings": ["character.character.societal-relations.61"],
+            "patch": "4.31"
+        },
+        "x68574": {
+            "level": 60,
+            "name_en": "Chance of Gales",
+            "name_fr": "Un conseiller pas comme les autres",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation": "@REPUTATION.TRUSTED",
+            "cPrev": ["q.68573"],
+            "cNext": ["q.68575"],
+            "cSiblings": ["character.character.societal-relations.62"],
+            "patch": "4.31"
+        },
+        "x68575": {
+            "level": 60,
+            "name_en": "It Can Be Cruel Sometimes",
+            "name_fr": "Le retour du futur Nunh",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation": "@REPUTATION.RESPECTED",
+            "cPrev": ["q.68574"],
+            "cNext": ["q.68576"],
+            "cSiblings": ["character.character.societal-relations.63"],
+            "patch": "4.31"
+        },
+        "x68576": {
+            "level": 60,
+            "name_en": "Schism between Sisters",
+            "name_fr": "Retrouvailles entre sœurs",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation": "@REPUTATION.HONORED",
+            "cPrev": ["q.68575"],
+            "cNext": ["q.68577"],
+            "cSiblings": ["character.character.societal-relations.64"],
+            "patch": "4.31"
+        },
+        "x68577": {
+            "level": 60,
+            "name_en": "Celebratory Smorgasbord",
+            "name_fr": "Festin sur la Velodyna",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation": "@REPUTATION.SWORN",
+            "cPrev": ["q.68576"],
+            "cNext": ["q.68697"],
+            "cSiblings": ["character.character.societal-relations.65"],
+            "patch": "4.31"
+        }
+    }
+}

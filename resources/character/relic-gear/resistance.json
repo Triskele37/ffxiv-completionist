@@ -2,1675 +2,1128 @@
     "key": "resistance",
     "groupName_en": "Resistance",
     "groupName_fr": "Résistance",
-    "common": [
-        "job"
-    ],
     "tasks": {
         "x0": {
             "name_en": "Solstice",
             "name_fr": "Solstice",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                1
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2585"
-            ]
+            "cNext": [1],
+            "cSiblings": ["a.2585"]
         },
         "x1": {
             "name_en": "Augmented Solstice",
             "name_fr": "Solstice amélioré",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Solstice Recollection",
             "name_fr": "Solstice in memoriam",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2710"
-            ]
+            "cPrev": [1],
+            "cNext": [3],
+            "cSiblings": ["a.2710"]
         },
         "x3": {
             "name_en": "Law's Order Astrometer",
             "name_fr": "Planisphère du verdict des Juges",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "name_en": "Augmented Law's Order Astrometer",
             "name_fr": "Planisphère du verdict des Juges amélioré",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                85
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2784"
-            ]
+            "cPrev": [3],
+            "cNext": [85],
+            "cSiblings": ["a.2784"]
         },
         "x85": {
             "name_en": "Blade's Providence",
             "name_fr": "Providence de Gunnhildr",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                4
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2873"
-            ]
+            "cPrev": [4],
+            "cSiblings": ["a.2873"]
         },
         "x5": {
             "name_en": "Brilliance",
             "name_fr": "Brillance",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                6
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2577"
-            ]
+            "cNext": [6],
+            "cSiblings": ["a.2577"]
         },
         "x6": {
             "name_en": "Augmented Brilliance",
             "name_fr": "Brillance améliorée",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [5],
+            "cNext": [7]
         },
         "x7": {
             "name_en": "Brilliance Recollection",
             "name_fr": "Brillance in memoriam",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                8
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2702"
-            ]
+            "cPrev": [6],
+            "cNext": [8],
+            "cSiblings": ["a.2702"]
         },
         "x8": {
             "name_en": "Law's Order Composite Bow",
             "name_fr": "Arc composite du verdict des Juges",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                7
-            ],
-            "cNext": [
-                9
-            ]
+            "cPrev": [7],
+            "cNext": [9]
         },
         "x9": {
             "name_en": "Augmented Law's Order Composite Bow",
             "name_fr": "Arc composite du verdict des Juges amélioré",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                86
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2776"
-            ]
+            "cPrev": [8],
+            "cNext": [86],
+            "cSiblings": ["a.2776"]
         },
         "x86": {
             "name_en": "Blade's Muse",
             "name_fr": "Muse de Gunnhildr",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                9
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2865"
-            ]
+            "cPrev": [9],
+            "cSiblings": ["a.2865"]
         },
         "x10": {
             "name_en": "Soulscourge",
             "name_fr": "Discipline de l'âme",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                11
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2580"
-            ]
+            "cNext": [11],
+            "cSiblings": ["a.2580"]
         },
         "x11": {
             "name_en": "Augmented Soulscourge",
             "name_fr": "Discipline de l'âme améliorée",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                12
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [10],
+            "cNext": [12]
         },
         "x12": {
             "name_en": "Soulscourge Recollection",
             "name_fr": "Discipline de l'âme in memoriam",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                13
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2705"
-            ]
+            "cPrev": [11],
+            "cNext": [13],
+            "cSiblings": ["a.2705"]
         },
         "x13": {
             "name_en": "Law's Order Rod",
             "name_fr": "Sceptre du verdict des Juges",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ]
+            "cPrev": [12],
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Augmented Law's Order Rod",
             "name_fr": "Sceptre du verdict des Juges amélioré",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                87
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2779"
-            ]
+            "cPrev": [13],
+            "cNext": [87],
+            "cSiblings": ["a.2779"]
         },
         "x87": {
             "name_en": "Blade's Fury",
             "name_fr": "Fureur De Gunnhildr",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                14
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2868"
-            ]
+            "cPrev": [14],
+            "cSiblings": ["a.2868"]
         },
         "x15": {
             "name_en": "Enchufla",
             "name_fr": "Enchufla",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                16
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2579"
-            ]
+            "cNext": [16],
+            "cSiblings": ["a.2579"]
         },
         "x16": {
             "name_en": "Augmented Enchufla",
             "name_fr": "Enchufla améliorés",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                15
-            ],
-            "cNext": [
-                17
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [15],
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Enchufla Recollection",
             "name_fr": "Enchufla in memoriam",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                18
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2704"
-            ]
+            "cPrev": [16],
+            "cNext": [18],
+            "cSiblings": ["a.2704"]
         },
         "x18": {
             "name_en": "Law's Order Chakrams",
             "name_fr": "Chakrams du verdict des Juges",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                19
-            ]
+            "cPrev": [17],
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Augmented Law's Order Chakrams",
             "name_fr": "Chakrams du verdict des Juges améliorés",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                88
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2778"
-            ]
+            "cPrev": [18],
+            "cNext": [88],
+            "cSiblings": ["a.2778"]
         },
         "x88": {
             "name_en": "Blade's Euphoria",
             "name_fr": "Euphories De Gunnhildr",
-            "job": "CLASS_JOB.DNC",
+            "job": "@CLASS_JOB.DNC",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                19
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2867"
-            ]
+            "cPrev": [19],
+            "cSiblings": ["a.2867"]
         },
         "x20": {
             "name_en": "Woeborn",
             "name_fr": "Mal-née",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                21
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2571"
-            ]
+            "cNext": [21],
+            "cSiblings": ["a.2571"]
         },
         "x21": {
             "name_en": "Augmented Woeborn",
             "name_fr": "Mal-née améliorée",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                22
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [20],
+            "cNext": [22]
         },
         "x22": {
             "name_en": "Woeborn Recollection",
             "name_fr": "Mal-née in memoriam",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2696"
-            ]
+            "cPrev": [21],
+            "cNext": [23],
+            "cSiblings": ["a.2696"]
         },
         "x23": {
             "name_en": "Law's Order Zweihander",
             "name_fr": "Espadon du verdict des Juges",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                24
-            ]
+            "cPrev": [22],
+            "cNext": [24]
         },
         "x24": {
             "name_en": "Augmented Law's Order Zweihander",
             "name_fr": "Espadon du verdict des Juges amélioré",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                89
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2770"
-            ]
+            "cPrev": [23],
+            "cNext": [89],
+            "cSiblings": ["a.2770"]
         },
         "x89": {
             "name_en": "Blade's Justice",
             "name_fr": "Justice De Gunnhildr",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                24
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2859"
-            ]
+            "cPrev": [24],
+            "cSiblings": ["a.2859"]
         },
         "x25": {
             "name_en": "Dreizack",
             "name_fr": "Dreizack",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                26
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2573"
-            ]
+            "cNext": [26],
+            "cSiblings": ["a.2573"]
         },
         "x26": {
             "name_en": "Augmented Dreizack",
             "name_fr": "Dreizack améliorée",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [25],
+            "cNext": [27]
         },
         "x27": {
             "name_en": "Dreizack Recollection",
             "name_fr": "Dreizack in memoriam",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2698"
-            ]
+            "cPrev": [26],
+            "cNext": [28],
+            "cSiblings": ["a.2698"]
         },
         "x28": {
             "name_en": "Law's Order Spear",
             "name_fr": "Hast du verdict des Juges",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ]
+            "cPrev": [27],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Augmented Law's Order Spear",
             "name_fr": "Hast du verdict des Juges amélioré",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                90
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2772"
-            ]
+            "cPrev": [28],
+            "cNext": [90],
+            "cSiblings": ["a.2772"]
         },
         "x90": {
             "name_en": "Blade's Glory",
             "name_fr": "Gloire De Gunnhildr",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                29
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2861"
-            ]
+            "cPrev": [29],
+            "cSiblings": ["a.2861"]
         },
         "x30": {
             "name_en": "Crownsblade",
             "name_fr": "Protectrice de la couronne",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                31
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2572"
-            ]
+            "cNext": [31],
+            "cSiblings": ["a.2572"]
         },
         "x31": {
             "name_en": "Augmented Crownsblade",
             "name_fr": "Protectrice de la couronne améliorée",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                32
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [30],
+            "cNext": [32]
         },
         "x32": {
             "name_en": "Crownsblade Recollection",
             "name_fr": "Protectrice de la couronne in memoriam",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                31
-            ],
-            "cNext": [
-                33
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2697"
-            ]
+            "cPrev": [31],
+            "cNext": [33],
+            "cSiblings": ["a.2697"]
         },
         "x33": {
             "name_en": "Law's Order Manatrigger",
             "name_fr": "Managâchette du verdict des Juges",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                34
-            ]
+            "cPrev": [32],
+            "cNext": [34]
         },
         "x34": {
             "name_en": "Augmented Law's Order Manatrigger",
             "name_fr": "Managâchette du verdict des Juges améliorée",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                91
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2771"
-            ]
+            "cPrev": [33],
+            "cNext": [91],
+            "cSiblings": ["a.2771"]
         },
         "x91": {
             "name_en": "Blade's Resolve",
             "name_fr": "Détermination De Gunnhildr",
-            "job": "CLASS_JOB.GNB",
+            "job": "@CLASS_JOB.GNB",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                34
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2860"
-            ]
+            "cPrev": [34],
+            "cSiblings": ["a.2860"]
         },
         "x35": {
             "name_en": "Lawman",
             "name_fr": "Garde-loi",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                36
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2578"
-            ]
+            "cNext": [36],
+            "cSiblings": ["a.2578"]
         },
         "x36": {
             "name_en": "Augmented Lawman",
             "name_fr": "Garde-loi amélioré",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                37
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [35],
+            "cNext": [37]
         },
         "x37": {
             "name_en": "Lawman Recollection",
             "name_fr": "Garde-loi in memoriam",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                38
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2703"
-            ]
+            "cPrev": [36],
+            "cNext": [38],
+            "cSiblings": ["a.2703"]
         },
         "x38": {
             "name_en": "Law's Order Revolver",
             "name_fr": "Revolver du verdict des Juges",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                39
-            ]
+            "cPrev": [37],
+            "cNext": [39]
         },
         "x39": {
             "name_en": "Augmented Law's Order Revolver",
             "name_fr": "Revolver du verdict des Juges amélioré",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                38
-            ],
-            "cNext": [
-                92
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2777"
-            ]
+            "cPrev": [38],
+            "cNext": [92],
+            "cSiblings": ["a.2777"]
         },
         "x92": {
             "name_en": "Blade's Ingenuity",
             "name_fr": "Ingéniosité De Gunnhildr",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                39
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2866"
-            ]
+            "cPrev": [39],
+            "cSiblings": ["a.2866"]
         },
         "x40": {
             "name_en": "Samsara",
             "name_fr": "Samsara",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                41
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2574"
-            ]
+            "cNext": [41],
+            "cSiblings": ["a.2574"]
         },
         "x41": {
             "name_en": "Augmented Samsara",
             "name_fr": "Samsara améliorées",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                42
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [40],
+            "cNext": [42]
         },
         "x42": {
             "name_en": "Samsara Recollection",
             "name_fr": "Samsara in memoriam",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                43
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2699"
-            ]
+            "cPrev": [41],
+            "cNext": [43],
+            "cSiblings": ["a.2699"]
         },
         "x43": {
             "name_en": "Law's Order Knuckles",
             "name_fr": "Poings du verdict des Juges",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                44
-            ]
+            "cPrev": [42],
+            "cNext": [44]
         },
         "x44": {
             "name_en": "Augmented Law's Order Knuckles",
             "name_fr": "Poings du verdict des Juges améliorés",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                93
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2773"
-            ]
+            "cPrev": [43],
+            "cNext": [93],
+            "cSiblings": ["a.2773"]
         },
         "x93": {
             "name_en": "Blade's Serenity",
             "name_fr": "Sérénités De Gunnhildr",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                44
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2862"
-            ]
+            "cPrev": [44],
+            "cSiblings": ["a.2862"]
         },
         "x45": {
             "name_en": "Honeshirazu",
             "name_fr": "Honeshirazu",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                46
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2575"
-            ]
+            "cNext": [46],
+            "cSiblings": ["a.2575"]
         },
         "x46": {
             "name_en": "Augmented Honeshirazu",
             "name_fr": "Honeshirazu améliorées",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                47
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [45],
+            "cNext": [47]
         },
         "x47": {
             "name_en": "Honeshirazu Recollection",
             "name_fr": "Honeshirazu in memoriam",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                46
-            ],
-            "cNext": [
-                48
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2700"
-            ]
+            "cPrev": [46],
+            "cNext": [48],
+            "cSiblings": ["a.2700"]
         },
         "x48": {
             "name_en": "Law's Order Knives",
             "name_fr": "Couteaux du verdict des Juges",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                47
-            ],
-            "cNext": [
-                49
-            ]
+            "cPrev": [47],
+            "cNext": [49]
         },
         "x49": {
             "name_en": "Augmented Law's Order Knives",
             "name_fr": "Couteaux du verdict des Juges améliorés",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                94
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2774"
-            ]
+            "cPrev": [48],
+            "cNext": [94],
+            "cSiblings": ["a.2774"]
         },
         "x94": {
             "name_en": "Blade's Subtlety",
             "name_fr": "Subtilités De Gunnhildr",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                49
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2863"
-            ]
+            "cPrev": [49],
+            "cSiblings": ["a.2863"]
         },
         "x50": {
             "name_en": "Honorbound & Tenacity",
             "name_fr": "Lien d'honneur & Ténacité",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                51
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2569"
-            ]
+            "cNext": [51],
+            "cSiblings": ["a.2569"]
         },
         "x51": {
             "name_en": "Augmented Honorbound & Augmented Tenacity",
             "name_fr": "Lien d'honneur amélioré & Ténacité améliorée",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                52
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [50],
+            "cNext": [52]
         },
         "x52": {
             "name_en": "Honorbound Recollection & Tenacity Recollection",
             "name_fr": "Lien d'honneur in memoriam & Ténacité in memoriam",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                53
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2694"
-            ]
+            "cPrev": [51],
+            "cNext": [53],
+            "cSiblings": ["a.2694"]
         },
         "x53": {
             "name_en": "Law's Order Bastard Sword & Law's Order Kite Shield",
             "name_fr": "Épée bâtarde du verdict des Juges & Écu mandorle du verdict des Juges",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                54
-            ]
+            "cPrev": [52],
+            "cNext": [54]
         },
         "x54": {
             "name_en": "Augmented Law's Order Bastard Sword & Augmented Law's Order Kite Shield",
             "name_fr": "Épée bâtarde du verdict des Juges améliorée & Écu mandorle du verdict des Juges amélioré",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                95
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2768"
-            ]
+            "cPrev": [53],
+            "cNext": [95],
+            "cSiblings": ["a.2768"]
         },
         "x95": {
             "name_en": "Blade's Honor & Blade's Fortitude",
             "name_fr": "Honneur Et Courage De Gunnhildr",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                54
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2857"
-            ]
+            "cPrev": [54],
+            "cSiblings": ["a.2857"]
         },
         "x55": {
             "name_en": "Talekeeper",
             "name_fr": "Gardien-de-légende",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2582"
-            ]
+            "cNext": [56],
+            "cSiblings": ["a.2582"]
         },
         "x56": {
             "name_en": "Augmented Talekeeper",
             "name_fr": "Gardien-de-légende amélioré",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                55
-            ],
-            "cNext": [
-                57
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [55],
+            "cNext": [57]
         },
         "x57": {
             "name_en": "Talekeeper Recollection",
             "name_fr": "Gardien-de-légende in memoriam",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                56
-            ],
-            "cNext": [
-                58
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2707"
-            ]
+            "cPrev": [56],
+            "cNext": [58],
+            "cSiblings": ["a.2707"]
         },
         "x58": {
             "name_en": "Law's Order Rapier",
             "name_fr": "Rapière du verdict des Juges",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                57
-            ],
-            "cNext": [
-                59
-            ]
+            "cPrev": [57],
+            "cNext": [59]
         },
         "x59": {
             "name_en": "Augmented Law's Order Rapier",
             "name_fr": "Rapière du verdict des Juges améliorée",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                58
-            ],
-            "cNext": [
-                96
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2781"
-            ]
+            "cPrev": [58],
+            "cNext": [96],
+            "cSiblings": ["a.2781"]
         },
         "x96": {
             "name_en": "Blade's Temperance",
             "name_fr": "Tempérance De Gunnhildr",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2870"
-            ]
+            "cPrev": [59],
+            "cSiblings": ["a.2870"]
         },
         "x60": {
             "name_en": "Hoshikiri",
             "name_fr": "Hoshikiri",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2576"
-            ]
+            "cNext": [61],
+            "cSiblings": ["a.2576"]
         },
         "x61": {
             "name_en": "Augmented Hoshikiri",
             "name_fr": "Hoshikiri améliorée",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                60
-            ],
-            "cNext": [
-                62
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [60],
+            "cNext": [62]
         },
         "x62": {
             "name_en": "Hoshikiri Recollection",
             "name_fr": "Hoshikiri in memoriam",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                61
-            ],
-            "cNext": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2701"
-            ]
+            "cPrev": [61],
+            "cNext": [63],
+            "cSiblings": ["a.2701"]
         },
         "x63": {
             "name_en": "Law's Order Samurai Blade",
             "name_fr": "Lame de samouraï du verdict des Juges",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                62
-            ],
-            "cNext": [
-                64
-            ]
+            "cPrev": [62],
+            "cNext": [64]
         },
         "x64": {
             "name_en": "Augmented Law's Order Samurai Blade",
             "name_fr": "Lame de samouraï du verdict des Juges améliorée",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                63
-            ],
-            "cNext": [
-                97
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2775"
-            ]
+            "cPrev": [63],
+            "cNext": [97],
+            "cSiblings": ["a.2775"]
         },
         "x97": {
             "name_en": "Blade's Fealty",
             "name_fr": "Loyauté De Gunnhildr",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                64
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2864"
-            ]
+            "cPrev": [64],
+            "cSiblings": ["a.2864"]
         },
         "x65": {
             "name_en": "Akademos",
             "name_fr": "Espiritus",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                66
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2584"
-            ]
+            "cNext": [66],
+            "cSiblings": ["a.2584"]
         },
         "x66": {
             "name_en": "Augmented Akademos",
             "name_fr": "Espiritus amélioré",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                65
-            ],
-            "cNext": [
-                67
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [65],
+            "cNext": [67]
         },
         "x67": {
             "name_en": "Akademos Recollection",
             "name_fr": "Espiritus in memoriam",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                66
-            ],
-            "cNext": [
-                68
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2709"
-            ]
+            "cPrev": [66],
+            "cNext": [68],
+            "cSiblings": ["a.2709"]
         },
         "x68": {
             "name_en": "Law's Order Codex",
             "name_fr": "Index du verdict des Juges",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                67
-            ],
-            "cNext": [
-                69
-            ]
+            "cPrev": [67],
+            "cNext": [69]
         },
         "x69": {
             "name_en": "Augmented Law's Order Codex",
             "name_fr": "Index du verdict des Juges amélioré",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                68
-            ],
-            "cNext": [
-                98
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2783"
-            ]
+            "cPrev": [68],
+            "cNext": [98],
+            "cSiblings": ["a.2783"]
         },
         "x98": {
             "name_en": "Blade's Wisdom",
             "name_fr": "Sagesse De Gunnhildr",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                69
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2872"
-            ]
+            "cPrev": [69],
+            "cSiblings": ["a.2872"]
         },
         "x70": {
             "name_en": "Espiritus",
             "name_fr": "Akademos",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                71
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2581"
-            ]
+            "cNext": [71],
+            "cSiblings": ["a.2581"]
         },
         "x71": {
             "name_en": "Augmented Espiritus",
             "name_fr": "Akademos amélioré",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                70
-            ],
-            "cNext": [
-                72
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [70],
+            "cNext": [72]
         },
         "x72": {
             "name_en": "Espiritus Recollection",
             "name_fr": "Akademos in memoriam",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                71
-            ],
-            "cNext": [
-                73
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2706"
-            ]
+            "cPrev": [71],
+            "cNext": [73],
+            "cSiblings": ["a.2706"]
         },
         "x73": {
             "name_en": "Law's Order Index",
             "name_fr": "Codex du verdict des Juges",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                72
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [72],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Augmented Law's Order Index",
             "name_fr": "Codex du verdict des Juges amélioré",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                73
-            ],
-            "cNext": [
-                99
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2780"
-            ]
+            "cPrev": [73],
+            "cNext": [99],
+            "cSiblings": ["a.2780"]
         },
         "x99": {
             "name_en": "Blade's Acumen",
             "name_fr": "Sagacité De Gunnhildr",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                74
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2869"
-            ]
+            "cPrev": [74],
+            "cSiblings": ["a.2869"]
         },
         "x75": {
             "name_en": "Skullrender",
             "name_fr": "Arrache-crânes",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                76
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2570"
-            ]
+            "cNext": [76],
+            "cSiblings": ["a.2570"]
         },
         "x76": {
             "name_en": "Augmented Skullrender",
             "name_fr": "Arrache-crânes amélioré",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                75
-            ],
-            "cNext": [
-                77
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [75],
+            "cNext": [77]
         },
         "x77": {
             "name_en": "Skullrender Recollection",
             "name_fr": "Arrache-crânes in memoriam",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                76
-            ],
-            "cNext": [
-                78
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2695"
-            ]
+            "cPrev": [76],
+            "cNext": [78],
+            "cSiblings": ["a.2695"]
         },
         "x78": {
             "name_en": "Law's Order Labrys",
             "name_fr": "Labrys du verdict des Juges",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                77
-            ],
-            "cNext": [
-                79
-            ]
+            "cPrev": [77],
+            "cNext": [79]
         },
         "x79": {
             "name_en": "Augmented Law's Order Labrys",
             "name_fr": "Labrys du verdict des Juges amélioré",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                78
-            ],
-            "cNext": [
-                100
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2769"
-            ]
+            "cPrev": [78],
+            "cNext": [100],
+            "cSiblings": ["a.2769"]
         },
         "x100": {
             "name_en": "Blade's Valor",
             "name_fr": "Bravoure De Gunnhildr",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                79
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2858"
-            ]
+            "cPrev": [79],
+            "cSiblings": ["a.2858"]
         },
         "x80": {
             "name_en": "Ingrimm",
             "name_fr": "Ingrimm",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "485",
             "requirements_en": "Thavnairian Scalepowder x4",
             "requirements_fr": "Écailles ombrales de Thavnair x4",
-            "cNext": [
-                81
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2583"
-            ]
+            "cNext": [81],
+            "cSiblings": ["a.2583"]
         },
         "x81": {
             "name_en": "Augmented Ingrimm",
             "name_fr": "Ingrimm amélioré",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "500",
             "requirements_en": [
                 "Tortured Memory of the Dying x20",
                 "Sorrowful Memory of the Dying x20",
                 "Harrowing Memory of the Dying x20"
             ],
-            "requirements_fr": [
-                "Amas mémoriel de tourment x20",
-                "Amas mémoriel de peine x20",
-                "Amas mémoriel de terreur x20"
-            ],
-            "cPrev": [
-                80
-            ],
-            "cNext": [
-                82
-            ]
+            "requirements_fr": ["Amas mémoriel de tourment x20", "Amas mémoriel de peine x20", "Amas mémoriel de terreur x20"],
+            "cPrev": [80],
+            "cNext": [82]
         },
         "x82": {
             "name_en": "Ingrimm Recollection",
             "name_fr": "Ingrimm in memoriam",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "500",
             "requirements_en": "Bitter Memory of the Dying x6",
             "requirements_fr": "Amas mémoriel de sauvagerie x6",
-            "cPrev": [
-                81
-            ],
-            "cNext": [
-                83
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2708"
-            ]
+            "cPrev": [81],
+            "cNext": [83],
+            "cSiblings": ["a.2708"]
         },
         "x83": {
             "name_en": "Law's Order Cane",
             "name_fr": "Canne du verdict des Juges",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "510",
             "requirements_en": "Loathsome Memory of the Dying x15",
             "requirements_fr": "Amas mémoriel de répugnance x15",
-            "cPrev": [
-                82
-            ],
-            "cNext": [
-                84
-            ]
+            "cPrev": [82],
+            "cNext": [84]
         },
         "x84": {
             "name_en": "Augmented Law's Order Cane",
             "name_fr": "Canne du verdict des Juges améliorée",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "515",
             "requirements_en": "Timeworn Artifact x15",
             "requirements_fr": "Relique abandonnée x15",
-            "cPrev": [
-                83
-            ],
-            "cNext": [
-                101
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2782"
-            ]
+            "cPrev": [83],
+            "cNext": [101],
+            "cSiblings": ["a.2782"]
         },
         "x101": {
             "name_en": "Blade's Mercy",
             "name_fr": "Clémence De Gunnhildr",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "535",
             "requirements_en": "Raw Emotion x15",
             "requirements_fr": "Cristal du volcan émotionnel x15",
-            "cPrev": [
-                84
-            ],
-            "cSiblings": [
-                "character.achievement.items.resistance-weapons.2871"
-            ]
+            "cPrev": [84],
+            "cSiblings": ["a.2871"]
         }
     }
 }

@@ -1,0 +1,80 @@
+{
+    "key": "gunbreaker-quests",
+    "groupName_en": "Gunbreaker Quests",
+    "groupName_fr": "Quêtes de pistosabreur",
+    "tasks": {
+        "x68797": {
+            "level": 60,
+            "name_en": "The Makings of a Gunbreaker",
+            "name_fr": "Le dernier des pistosabreurs",
+            "npc_en": "Gods' Quiver Bow",
+            "npc_fr": "Soldat Hardi Des Flèches Divines",
+            "cNext": ["q.68798"],
+            "cSiblings": ["ap.168"],
+            "patch": "5.0",
+            "unlock": "ap.168"
+        },
+        "x68798": {
+            "level": 60,
+            "name_en": "Hired Gunblades",
+            "name_fr": "Une claveciniste menacée",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": ["q.68797"],
+            "cNext": ["q.68799"],
+            "patch": "5.0"
+        },
+        "x68799": {
+            "level": 63,
+            "name_en": "For Better or Worse",
+            "name_fr": "Une triste histoire de famille",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": ["q.68798"],
+            "cNext": ["q.68800"],
+            "patch": "5.0"
+        },
+        "x68800": {
+            "level": 65,
+            "name_en": "Confessions of a Flaming Mongrel",
+            "name_fr": "L'escorte d'un pirate repenti",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": ["q.68799"],
+            "cNext": ["q.68801"],
+            "patch": "5.0"
+        },
+        "x68801": {
+            "level": 68,
+            "name_en": "Of Defectors and Defenders",
+            "name_fr": "Le transfert d'un transfuge",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": ["q.68800"],
+            "cNext": ["q.68802"],
+            "patch": "5.0"
+        },
+        "x68802": {
+            "level": 70,
+            "name_en": "Steel against Steel",
+            "name_fr": "L'esprit des vrais pistosabreurs",
+            "npc_en": "Sophie",
+            "npc_fr": "Sophie",
+            "cPrev": ["q.68801"],
+            "cNext": ["q.68761"],
+            "cSiblings": ["a.2299"],
+            "patch": "5.0"
+        },
+        "x68761": {
+            "level": 80,
+            "name_en": "Gunblades of the Patriots",
+            "name_fr": "À la poursuite d'un autre pistosabreur",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": ["q.68802", "q.68784", "q.69190"],
+            "cSiblings": ["ap.303", "a.2321"],
+            "patch": "5.0",
+            "unlock": "ap.303"
+        }
+    }
+}

@@ -1,7 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Task } from '@model/Task';
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 @Component({
     selector: 'xiv-garland-action',

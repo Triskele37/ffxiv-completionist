@@ -1,16 +1,31 @@
 {
     "key": "garlemald",
-    "groupName_en": "Garlemald",
-    "groupName_fr": "Garlemald",
+    "groupName": "@PLACE.GARLEMALD",
     "tasks": {
+        "x1783": {
+            "level": 82,
+            "name_en": "Artificial Malevolence: 15 Minutes to Comply",
+            "name_fr": "Retour au pays : premier faux pas",
+            "location": "(17.4, 23.3)",
+            "patch": "6.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1784": {
+            "level": 82,
+            "name_en": "Artificial Malevolence: The Drone Army",
+            "name_fr": "Retour au pays : chausse-trappe",
+            "location": "(26.1, 19.3)",
+            "patch": "6.0",
+            "previousFate": "f.1783",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
         "x1785": {
             "level": 82,
             "name_en": "Trespassers Will Be Eaten",
             "name_fr": "Les envahisseurs",
             "location": "(12.8, 27.2)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1786": {
             "level": 82,
@@ -18,8 +33,7 @@
             "name_fr": "Chaud et froid",
             "location": "(28.2, 31.6)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1787": {
             "level": 82,
@@ -27,8 +41,7 @@
             "name_fr": "Un faux air de yéti",
             "location": "(30.6, 27.7)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1788": {
             "level": 82,
@@ -36,17 +49,15 @@
             "name_fr": "Piège de glace",
             "location": "(24.4, 21.0)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1789": {
             "level": 82,
             "name_en": "Roses Are Red, Violence Is Due",
-            "name_fr": "Défi:  Héliogabale, rose de sang",
+            "name_fr": "Défi : Héliogabale, rose de sang",
             "location": "(24.4, 27.4)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1790": {
             "level": 82,
@@ -54,8 +65,25 @@
             "name_fr": "Ils en font des caisses",
             "location": "(16.5, 26.1)",
             "patch": "6.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1791": {
+            "level": 83,
+            "name_en": "Artificial Malevolence: Unmanned Aerial Villains",
+            "name_fr": "Retour au pays : l'ange malveillant",
+            "location": "(11.4, 11.2)",
+            "patch": "6.0",
+            "previousFate": "f.1784",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1792": {
+            "level": 83,
+            "name_en": "Artificial Malevolence: Mighty Metatron",
+            "name_fr": "Retour au pays : Metatron",
+            "location": "(11.4, 11.2)",
+            "patch": "6.0",
+            "previousFate": "f.1791",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1793": {
             "level": 83,
@@ -63,17 +91,15 @@
             "name_fr": "Mauvaise conversion",
             "location": "(19.3, 10.9)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1794": {
             "level": 83,
             "name_en": "Stray Dog Strut",
-            "name_fr": "Pour qui aboies-tu?",
+            "name_fr": "Pour qui aboies-tu ?",
             "location": "(14.6, 16.3)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1795": {
             "level": 83,
@@ -81,8 +107,7 @@
             "name_fr": "Machines folles",
             "location": "(14.9, 12.5)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1796": {
             "level": 83,
@@ -90,17 +115,15 @@
             "name_fr": "Rémanence guerrière",
             "location": "(28.3, 14.3)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1797": {
             "level": 83,
             "name_en": "The Man with the Golden Son",
-            "name_fr": "Défi: Seneca le géant doré",
+            "name_fr": "Défi : Seneca le géant doré",
             "location": "(21.2, 8.0)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1798": {
             "level": 83,
@@ -108,47 +131,7 @@
             "name_fr": "La récup', ça occupe",
             "location": "(20.8, 15.2)",
             "patch": "6.0",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
-        },
-        "x1783": {
-            "level": 82,
-            "name_en": "Artificial Malevolence: 15 Minutes to Comply",
-            "name_fr": "Retour au pays: premier faux pas",
-            "location": "(17.4, 23.3)",
-            "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1784": {
-            "level": 82,
-            "name_en": "Artificial Malevolence: The Drone Army",
-            "name_fr": "Retour au pays: chausse-trappe",
-            "location": "(26.1, 19.3)",
-            "patch": "6.0",
-            "previousFate": "duty.fate.ilsabard.garlemald.1783",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x1791": {
-            "level": 83,
-            "name_en": "Artificial Malevolence: Unmanned Aerial Villains",
-            "name_fr": "Retour au pays: l'ange malveillant",
-            "location": "(11.4, 11.2)",
-            "patch": "6.0",
-            "previousFate": "duty.fate.ilsabard.garlemald.1784",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1792": {
-            "level": 83,
-            "name_en": "Artificial Malevolence: Mighty Metatron",
-            "name_fr": "Retour au pays: Metatron",
-            "location": "(11.4, 11.2)",
-            "patch": "6.0",
-            "previousFate": "duty.fate.ilsabard.garlemald.1791",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         }
     }
 }

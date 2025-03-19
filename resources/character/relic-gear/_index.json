@@ -2,14 +2,24 @@
     "key": "relic-gear",
     "groupName_en": "Relic Gear",
     "groupName_fr": "Armes reliques",
+    "order": [
+        "zodiac",
+        "anima",
+        "eureka",
+        "resistance",
+        "manderville",
+        "lucis-tools",
+        "skysteel-tools",
+        "resplendent-tools",
+        "splendorous-tools"
+    ],
     "headers": {
         "iLevel": {
             "header_en": "iLvl",
             "header_fr": "Nv d'objet"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "job": {
             "filterable": true,
@@ -17,9 +27,8 @@
             "header_fr": "Job"
         },
         "requirements": {
-            "link": true,
-            "header_en": "Requirements",
-            "header_fr": "Conditions"
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
         }
     }
 }

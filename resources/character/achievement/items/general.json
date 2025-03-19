@@ -1,0 +1,463 @@
+{
+    "key": "general",
+    "groupName_en": "General",
+    "groupName_fr": "Général",
+    "tasks": {
+        "x126": {
+            "name_en": "My Body Is a Temple",
+            "name_fr": "L'habit ne fait pas le templier",
+            "description_en": "Obtain a complete set of templar armor consisting of a templar's chain coif, a templar's haubergeon, and a pair of templar's sollerets.※Speak to Jonathas in Old Gridania with all three items equipped.",
+            "description_fr": "Parler à Jonathas, à Gridania, équipé d'un ensemble de templier (coiffe en mailles de templier, haubergeon de templier et solerets de templier).",
+            "patch": "2.0",
+            "points": 5
+        },
+        "x127": {
+            "name_en": "Dress Like a Pirate Day",
+            "name_fr": "Le roi de la flibuste",
+            "description_en": "Obtain a complete set of buccaneer armor consisting of a buccaneer's tricorne, a buccaneer's shirt, and a pair of buccaneer's boots.※Speak to Jonathas in Old Gridania with all three items equipped.",
+            "description_fr": "Parler à Jonathas, à Gridania, équipé d'un ensemble de boucanier (tricorne de boucanier, chemise de boucanier et bottes de boucanier).",
+            "patch": "2.0",
+            "points": 5
+        },
+        "x128": {
+            "name_en": "A Mummer in Motley",
+            "name_fr": "Je fais le guignol",
+            "description_en": "Obtain a complete set of harlequin armor consisting of a harlequin's cap, a harlequin's acton, and a pair of harlequin's tights.※Speak to Jonathas in Old Gridania with all three items equipped.",
+            "description_fr": "Parler à Jonathas, à Gridania, équipé d'un ensemble d'arlequin (chapeau d'arlequin, doublet armant d'arlequin et collants d'arlequin).",
+            "patch": "2.0",
+            "points": 5
+        },
+        "x1063": {
+            "name_en": "Ichiban",
+            "name_fr": "Grisant destrier",
+            "description_en": "Obtain the Kirin mount.",
+            "description_fr": "Obtenir le cor Kirin.",
+            "reward": "t.187",
+            "patch": "2.5",
+            "points": 20,
+            "cSiblings": ["q.65968", "t.187"]
+        },
+        "x1078": {
+            "name_en": "Tool Time for the Hand",
+            "name_fr": "Disciple de la main éclairé",
+            "description_en": "Obtain a Disciple of the Hand Lucis tool.",
+            "description_fr": "Obtenir un outil principal de la série “lucis” pour disciple de la main.",
+            "reward": "t.191",
+            "patch": "2.5",
+            "points": 10,
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.lucis-tools.2",
+                "character.relic-gear.lucis-tools.5",
+                "character.relic-gear.lucis-tools.8",
+                "character.relic-gear.lucis-tools.11",
+                "character.relic-gear.lucis-tools.14",
+                "character.relic-gear.lucis-tools.17",
+                "character.relic-gear.lucis-tools.20",
+                "character.relic-gear.lucis-tools.23"
+            ],
+            "cSiblings": ["t.191"]
+        },
+        "x1079": {
+            "name_en": "Tool Time for the Land",
+            "name_fr": "Disciple de la terre éclairé",
+            "description_en": "Obtain a Disciple of the Land Lucis tool.",
+            "description_fr": "Obtenir un outil principal de la série “lucis” pour disciple de la terre.",
+            "reward": "t.192",
+            "patch": "2.5",
+            "points": 10,
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.lucis-tools.26",
+                "character.relic-gear.lucis-tools.29",
+                "character.relic-gear.lucis-tools.32"
+            ],
+            "cSiblings": ["t.192"]
+        },
+        "x1377": {
+            "name_en": "Despicable You I",
+            "name_fr": "Collectionneur de mascottes I",
+            "description_en": "Obtain 50 minions.",
+            "description_fr": "Obtenir 50 mascottes différentes.",
+            "reward": "t.266",
+            "patch": "3.1",
+            "points": 5,
+            "cNext": ["a.1378"],
+            "cSiblings": ["t.266"]
+        },
+        "x1378": {
+            "name_en": "Despicable You II",
+            "name_fr": "Collectionneur de mascottes II",
+            "description_en": "Obtain 100 minions.",
+            "description_fr": "Obtenir 100 mascottes différentes.",
+            "reward": "t.267",
+            "patch": "3.1",
+            "points": 10,
+            "cPrev": ["a.1377"],
+            "cSiblings": ["t.267"]
+        },
+        "x1379": {
+            "name_en": "Follow the Leader I",
+            "name_fr": "Petits poursuivants I",
+            "description_en": "Collect 30 follow-type minions.",
+            "description_fr": "Obtenir 30 mascottes au type de déplacement “Poursuite”.",
+            "reward": "t.268",
+            "patch": "3.1",
+            "points": 10,
+            "cSiblings": ["t.268"]
+        },
+        "x1433": {
+            "name_en": "The Leader of the Band I",
+            "name_fr": "Mélomane mécanique I",
+            "description_en": "Add 10 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 10 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "reward": "o.12",
+            "patch": "3.15",
+            "points": 5,
+            "cNext": ["a.1434"]
+        },
+        "x1434": {
+            "name_en": "The Leader of the Band II",
+            "name_fr": "Mélomane mécanique II",
+            "description_en": "Add 30 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 30 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "reward": "o.28",
+            "patch": "3.15",
+            "points": 5,
+            "cPrev": ["a.1433"],
+            "cNext": ["a.1623"]
+        },
+        "x1623": {
+            "name_en": "The Leader of the Band III",
+            "name_fr": "Mélomane mécanique III",
+            "description_en": "Add 50 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 50 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "reward": "o.75",
+            "patch": "3.3",
+            "points": 10,
+            "cPrev": ["a.1434"],
+            "cNext": ["a.1634"]
+        },
+        "x1634": {
+            "name_en": "The Leader of the Band IV",
+            "name_fr": "Mélomane mécanique IV",
+            "description_en": "Add 70 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 70 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "patch": "3.4",
+            "points": 10,
+            "cPrev": ["a.1623"],
+            "cNext": ["a.1635"]
+        },
+        "x1635": {
+            "name_en": "The Leader of the Band V",
+            "name_fr": "Mélomane mécanique V",
+            "description_en": "Add 100 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 100 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "reward": "o.84",
+            "patch": "3.4",
+            "points": 10,
+            "cPrev": ["a.1634"],
+            "cNext": ["a.2006"]
+        },
+        "x2006": {
+            "name_en": "The Leader of the Band VI",
+            "name_fr": "Mélomane mécanique VI",
+            "description_en": "Add 200 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 200 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "reward": "o.201",
+            "patch": "4.2",
+            "points": 10,
+            "cPrev": ["a.1635"],
+            "cNext": ["a.3581"]
+        },
+		"x3581": {
+            "description_en": "Add 500 unique music rolls to your orchestrion.",
+            "description_fr": "Ajouter 500 rouleaux différents à votre liste de morceaux pour orchestrion.",
+            "name_en": "The Leader of the Band VII",
+            "name_fr": "Mélomane mécanique VII",
+            "patch": "7.0",
+            "points": 10,
+            "cPrev": ["a.2006"]
+        },
+        "x2053": {
+            "name_en": "Dressed for Heaven",
+            "name_fr": "Parure céleste",
+            "description_en": "Speak with the cast-off Confederate while in possession of all four of the empyrean accessories.",
+            "description_fr": "Parler au pirate âgé en étant en possession ou en s'étant équipé d'une boucle d'oreille empyréenne, d'un collier empyréen, d'un bracelet empyréen et d'une bague empyréenne.",
+            "reward": "t.386",
+            "patch": "4.35",
+            "points": 10,
+            "cSiblings": ["t.386"]
+        },
+        "x3185": {
+            "name_en": "Vintage Vogue",
+            "name_fr": "Vêtements vertueux",
+            "description_en": "Speak with Koh Rabntah while in possession of all four of the enaretos accessories.",
+            "description_fr": "Parler à Koh Rabntah en étant en possession ou en s'étant équipé d'une boucle d'oreille enaretos, d'un collier enaretos, d'un bracelet enaretos et d'une bague enaretos.",
+            "reward": "t.665",
+            "patch": "6.35",
+            "points": 10,
+            "cSiblings": ["t.665"]
+        },
+        "x1694": {
+            "name_en": "Just Like Fire",
+            "name_fr": "La flamme inextinguible",
+            "description_en": "Obtain a Firebird whistle.",
+            "description_fr": "Obtenir la flûte Hôô.",
+            "reward": "t.344",
+            "patch": "3.5",
+            "points": 20,
+            "cSiblings": ["q.67086", "t.344"]
+        },
+        "x1757": {
+            "name_en": "Protector",
+            "name_fr": "Résonance des protecteurs Makai",
+            "description_en": "Show at least 13 sets of Garo gear to the disreputable priest.",
+            "description_fr": "Présenter au moins 13 ensembles Garo à la prêtresse à la robe noire.",
+            "reward": "t.325",
+            "patch": "3.5",
+            "points": 20,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.325"]
+        },
+        "x1758": {
+            "name_en": "Echoes of the Golden Wolf",
+            "name_fr": "Échos du Loup doré",
+            "description_en": "Obtain the Fanged Wolf and a full five-piece set of paladin Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de paladin (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.326",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.326"]
+        },
+        "x1762": {
+            "name_en": "Echoes of the Makai Fist",
+            "name_fr": "Échos du pugilat Makai",
+            "description_en": "Obtain a pair of Makai Fists and a full five-piece set of monk Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de moine (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.327",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.327"]
+        },
+        "x1759": {
+            "name_en": "Echoes of Undying Twilight",
+            "name_fr": "Échos de la Noirceur éternelle",
+            "description_en": "Obtain Darkness and a full five-piece set of warrior Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de guerrier (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.328",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.328"]
+        },
+        "x1761": {
+            "name_en": "Echoes of the White Night",
+            "name_fr": "Échos de la Nuit blanche",
+            "description_en": "Obtain the White Night and a full five-piece set of dragoon Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de chevalier dragon (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.329",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.329"]
+        },
+        "x1764": {
+            "name_en": "Echoes of the Makai Bow",
+            "name_fr": "Échos de l'archerie Makai",
+            "description_en": "Obtain a Makai Bow and a full five-piece set of bard Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de barde (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.330",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.330"]
+        },
+        "x1763": {
+            "name_en": "Echoes of the Silver Wolf",
+            "name_fr": "Échos du Loup argenté",
+            "description_en": "Obtain a pair of Silver Wolves and a full five-piece set of ninja Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de ninja (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.333",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.333"]
+        },
+        "x1768": {
+            "name_en": "Echoes of the Makai Sun",
+            "name_fr": "Échos de la lumière Makai",
+            "description_en": "Obtain a Mado Staff and a full five-piece set of white mage Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de mage blanc (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.332",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.332"]
+        },
+        "x1766": {
+            "name_en": "Echoes of the Makai Dark",
+            "name_fr": "Échos de l'ombre Makai",
+            "description_en": "Obtain a Mado Brush and a full five-piece set of black mage Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de mage noir (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.331",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.331"]
+        },
+        "x1767": {
+            "name_en": "Echoes of the Makai Vessel",
+            "name_fr": "Échos de la voix Makai",
+            "description_en": "Obtain a Mado Chronicle and a full five-piece set of summoner Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo d'invocateur (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.334",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.334"]
+        },
+        "x1769": {
+            "name_en": "Echoes of Makai Lore",
+            "name_fr": "Échos du savoir Makai",
+            "description_en": "Obtain a Makai Chronicle and a full five-piece set of scholar Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo d'érudit (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.335",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.335"]
+        },
+        "x1760": {
+            "name_en": "Echoes of Darkness",
+            "name_fr": "Échos de l'Obscurité menaçante",
+            "description_en": "Obtain Hell Light and a full five-piece set of dark knight Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de chevalier noir (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.336",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.336"]
+        },
+        "x1765": {
+            "name_en": "Echoes of the Makai Arm",
+            "name_fr": "Échos du mécanisme Makai",
+            "description_en": "Obtain a Makai Hand Mortar and a full five-piece set of machinist Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de machiniste (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.337",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.337"]
+        },
+        "x1770": {
+            "name_en": "Echoes of the Makai Star",
+            "name_fr": "Échos de l'étoile Makai",
+            "description_en": "Obtain a Mado Sphere and a full five-piece set of astrologian Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo d'astromancien (cases “main directrice”, “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.338",
+            "patch": "3.5",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.338"]
+        },
+        "x3083": {
+            "name_en": "Echoes of the Makai Blade",
+            "name_fr": "Échos du tranchant Makai",
+            "description_en": "Obtain a full five-piece set of samurai Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de samouraï (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.639",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.639"]
+        },
+        "x3084": {
+            "name_en": "Echoes of the Makai Crimson",
+            "name_fr": "Échos pourpres Makai",
+            "description_en": "Obtain a full five-piece set of red mage Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de mage rouge (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.640",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.640"]
+        },
+        "x3085": {
+            "name_en": "Echoes of the Makai Guardian",
+            "name_fr": "Échos de la protection Makai",
+            "description_en": "Obtain a full five-piece set of gunbreaker Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de pistosabreur (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.641",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.641"]
+        },
+        "x3086": {
+            "name_en": "Echoes of the Makai Flicker",
+            "name_fr": "Échos de la danse Makai",
+            "description_en": "Obtain a full five-piece set of dancer Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de danseur (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.642",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.642"]
+        },
+        "x3087": {
+            "name_en": "Echoes of the Makai End",
+            "name_fr": "Échos de la lame Makai",
+            "description_en": "Obtain a full five-piece set of reaper Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de faucheur (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.643",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.643"]
+        },
+        "x3088": {
+            "name_en": "Echoes of the Makai Mind",
+            "name_fr": "Échos de la sagesse Makai",
+            "description_en": "Obtain a full five-piece set of sage Garo gear and speak with the disreputable priest. Accessories not required.",
+            "description_fr": "Parler avec la prêtresse à la robe noire, équipé d'un ensemble Garo de sage (cases “tête”, “torse”, “mains”, “jambes” et “pieds”).",
+            "reward": "t.644",
+            "patch": "6.1",
+            "points": 10,
+            "defaultCompletion": "X",
+            "cSiblings": ["t.644"]
+        },
+        "x2161": {
+            "name_en": "Flute of the Plume",
+            "name_fr": "Pas un renard, un kamuy",
+            "description_en": "Obtain the Fife of Nine Tails.",
+            "description_fr": "Obtenir le sifflet kamuy à neuf queues.",
+            "reward": "t.408",
+            "patch": "4.5",
+            "points": 20,
+            "cSiblings": ["q.68736", "t.408"]
+        },
+        "x2820": {
+            "name_en": "Fast and Flurry-ous",
+            "name_fr": "Les ailes sombres d'Allag",
+            "description_en": "Obtain a Landerwaffe flute.",
+            "description_fr": "Obtenir le sifflet Landerwaffe.",
+            "reward": "t.577",
+            "patch": "5.5",
+            "points": 20,
+            "cSiblings": ["q.69593", "t.577"]
+        },
+        "x3412": {
+            "name_en": "Dragon-sitting",
+            "name_fr": "Cantate au clair de lune",
+            "description_en": "Obtain an apocryphal Bahamut horn.",
+            "description_fr": "Obtenir le cor Bahamut apocryphe.",
+            "reward": "t.711",
+            "patch": "6.5",
+            "points": 20,
+            "cSiblings": ["t.711"]
+        }
+    }
+}

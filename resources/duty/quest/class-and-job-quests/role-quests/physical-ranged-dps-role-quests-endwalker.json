@@ -1,0 +1,67 @@
+{
+    "key": "physical-ranged-dps-role-quests-endwalker",
+    "groupName_en": "Physical Ranged DPS Role Quests (Endwalker)",
+    "groupName_fr": "Quêtes de DPS physique à distance (Endwalker)",
+    "tasks": {
+        "x69656": {
+            "level": 85,
+            "name_en": "Seeds of Disquiet",
+            "name_fr": "Le secret du peuple",
+            "npc_en": "Doman Delegate",
+            "npc_fr": "Attaché Militaire De Doma",
+            "cPrev": ["q.69954"],
+            "cNext": ["q.69657"],
+            "patch": "6.0"
+        },
+        "x69657": {
+            "level": 86,
+            "name_en": "When the Kami Answer",
+            "name_fr": "L'avènement d'Izanami",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": ["q.69656"],
+            "cNext": ["q.69658"],
+            "patch": "6.0"
+        },
+        "x69658": {
+            "level": 87,
+            "name_en": "Home No Longer",
+            "name_fr": "Le retour de Yugiri",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": ["q.69657"],
+            "cNext": ["q.69659"],
+            "patch": "6.0"
+        },
+        "x69659": {
+            "level": 88,
+            "name_en": "The Devoted Daughter",
+            "name_fr": "Une femme nommée Minato",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": ["q.69658"],
+            "cNext": ["q.69660"],
+            "patch": "6.0"
+        },
+        "x69660": {
+            "level": 89,
+            "name_en": "A Singular Gift",
+            "name_fr": "Âmes et reliques",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": ["q.69659"],
+            "cNext": ["q.69661"],
+            "patch": "6.0"
+        },
+        "x69661": {
+            "level": 90,
+            "name_en": "Laid to Rest",
+            "name_fr": "Des adieux domiens",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": ["q.69660"],
+            "cSiblings": ["a.2964"],
+            "patch": "6.0"
+        }
+    }
+}

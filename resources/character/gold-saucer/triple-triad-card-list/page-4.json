@@ -3,114 +3,102 @@
     "groupName_en": "Page 4",
     "groupName_fr": "Page 4",
     "tasks": {
-        "x0": {
-            "number": "091",
+        "x104": {
+            "number": "91",
             "name_en": "Dhalmel",
             "name_fr": "Dhalmel",
             "source": "character.gold-saucer.triple-triad-opponents.73",
             "patch": "3.1"
         },
-        "x1": {
-            "number": "092",
+        "x105": {
+            "number": "92",
             "name_en": "Bandersnatch",
             "name_fr": "Bandersnatch",
             "source": "character.gold-saucer.triple-triad-opponents.93",
             "patch": "3.1"
         },
-        "x2": {
-            "number": "093",
+        "x106": {
+            "number": "93",
             "name_en": "Crawler",
             "name_fr": "Chenille",
             "source": "character.gold-saucer.triple-triad-opponents.22",
             "patch": "3.1"
         },
-        "x3": {
-            "number": "094",
+        "x107": {
+            "number": "94",
             "name_en": "Poroggo",
             "name_fr": "Poroggo",
             "source": "character.gold-saucer.triple-triad-opponents.22",
             "patch": "3.1"
         },
-        "x4": {
-            "number": "095",
+        "x108": {
+            "number": "95",
             "name_en": "Vedrfolnir",
             "name_fr": "Vedrfolnir",
-            "source": "character.gold-saucer.triple-triad-opponents.81",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.81", "@TRIAD.MYTHRIL_PACK"],
             "patch": "3.1"
         },
-        "x5": {
-            "number": "096",
+        "x109": {
+            "number": "96",
             "name_en": "Coeurlregina",
             "name_fr": "Regina Coeurl",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.93",
-                "character.gold-saucer.triple-triad-opponents.52"
+                "character.gold-saucer.triple-triad-opponents.52",
+                "@TRIAD.MYTHRIL_PACK"
             ],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
             "patch": "3.1"
         },
-        "x6": {
-            "number": "097",
+        "x110": {
+            "number": "97",
             "name_en": "Progenitrix",
-            "name_fr": "Maman bombo",
-            "source": "duty.dutyraid-finder.dungeons.hw.9",
+            "name_fr": "Maman Bombo",
+            "source": "d.40",
             "patch": "3.1"
         },
-        "x7": {
-            "number": "098",
+        "x111": {
+            "number": "98",
             "name_en": "Belladonna",
-            "name_fr": "Belladonne",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.80",
-                "duty.dutyraid-finder.dungeons.hw.8"
-            ],
+            "name_fr": "Belladone",
+            "source": ["character.gold-saucer.triple-triad-opponents.80", "d.41"],
             "patch": "3.1"
         },
-        "x8": {
-            "number": "099",
+        "x112": {
+            "number": "99",
             "name_en": "Echidna",
             "name_fr": "Echidna",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.87",
-                "duty.dutyraid-finder.raids.hw.24"
-            ],
+            "source": ["character.gold-saucer.triple-triad-opponents.87", "d.120"],
             "patch": "3.1"
         },
-        "x9": {
+        "x113": {
             "number": "100",
             "name_en": "Pipin Tarupin",
             "name_fr": "Pipin Tarupin",
-            "source": "character.gold-saucer.triple-triad-opponents.49",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.49", "@TRIAD.MYTHRIL_PACK"],
             "patch": "3.1"
         },
-        "x10": {
+        "x114": {
             "number": "101",
             "name_en": "Julyan Manderville",
             "name_fr": "Julyan Manderville",
-            "source_en": "14,400 MGP",
-            "source_fr": "14.400 PGS",
+            "source": "@14,400 CURRENCY.MGP",
             "patch": "3.1"
         },
-        "x11": {
+        "x115": {
             "number": "102",
             "name_en": "Moglin",
             "name_fr": "Moglin",
             "source": "character.gold-saucer.triple-triad-opponents.81",
             "patch": "3.1"
         },
-        "x12": {
+        "x116": {
             "number": "103",
             "name_en": "Charibert",
             "name_fr": "Charibert",
-            "source": "duty.dutyraid-finder.dungeons.hw.3",
+            "source": "d.34",
             "patch": "3.1"
         },
-        "x13": {
+        "x117": {
             "number": "104",
             "name_en": "Roundrox",
             "name_fr": "Roundrox",
@@ -120,152 +108,117 @@
             ],
             "patch": "3.1"
         },
-        "x14": {
+        "x118": {
             "number": "105",
             "name_en": "Senor Sabotender",
             "name_fr": "Señor Pampa",
-            "source_en": "200,000 MGP",
-            "source_fr": "200.000 PGS",
+            "source": "@200,000 CURRENCY.MGP",
             "patch": "3.1"
         },
-        "x15": {
+        "x119": {
             "number": "106",
-            "name_en": "Regula van Hydrus",
-            "name_fr": "Regula van Hydrus",
-            "source": "character.gold-saucer.triple-triad-opponents.39",
-            "source_en": "Imperial Triad Card",
-            "source_fr": "Pochette Triple Triade impériale",
+            "name_en": "Regula Van Hydrus",
+            "name_fr": "Regula Van Hydrus",
+            "source": ["character.gold-saucer.triple-triad-opponents.39", "@TRIAD.IMPERIAL_PACK"],
             "patch": "3.1"
         },
-        "x16": {
+        "x120": {
             "number": "107",
             "name_en": "Archbishop Thordan VII",
             "name_fr": "Thordan VII",
-            "source": "duty.dutyraid-finder.trials.hw.9",
+            "source": "d.91",
             "patch": "3.1"
         },
-        "x17": {
+        "x121": {
             "number": "108",
             "name_en": "Honoroit",
             "name_fr": "Honoroit",
             "source": "character.gold-saucer.triple-triad-opponents.38",
-            "patch": "3.2"
+            "patch": "3.15"
         },
-        "x18": {
+        "x122": {
             "number": "109",
             "name_en": "Hoary Boulder & Coultenet",
             "name_fr": "Hoary Boulder & Coultenet",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
-            "patch": "3.2"
+            "source": "@TRIAD.GOLD_PACK",
+            "patch": "3.15"
         },
-        "x19": {
+        "x123": {
             "number": "110",
             "name_en": "Brachiosaur",
             "name_fr": "Brachiosaure",
-            "source": "character.gold-saucer.triple-triad-opponents.42",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.42", "@TRIAD.MYTHRIL_PACK"],
+            "patch": "3.15"
         },
-        "x20": {
+        "x124": {
             "number": "111",
             "name_en": "Darkscale",
             "name_fr": "Sombrécaille",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.78",
-                "duty.fate.dravania.the-churning-mists.874",
-                "duty.fate.dravania.the-churning-mists.873"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.78", "f.874", "f.873"],
+            "patch": "3.15"
         },
-        "x21": {
+        "x125": {
             "number": "112",
             "name_en": "Fenrir",
             "name_fr": "Fenrir",
-            "source": "duty.dutyraid-finder.dungeons.arr.25",
-            "source_en": "72,000 MGP",
-            "source_fr": "72.000 PGS",
-            "patch": "3.2"
+            "source": ["d.27", "@72,000 CURRENCY.MGP"],
+            "patch": "3.15"
         },
-        "x22": {
+        "x126": {
             "number": "113",
             "name_en": "Kraken",
             "name_fr": "Kraken",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.43",
-                "duty.dutyraid-finder.dungeons.arr.26"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.43", "d.28"],
+            "patch": "3.15"
         },
-        "x23": {
+        "x127": {
             "number": "114",
-            "name_en": "Vicegerent to the Warden",
+            "name_en": "Vicegerent To the Warden",
             "name_fr": "Adjoint de la Gardienne",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.95",
-                "duty.dutyraid-finder.dungeons.arr.27"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.95", "d.26"],
+            "patch": "3.15"
         },
-        "x24": {
+        "x128": {
             "number": "115",
             "name_en": "Manxome Molaa Ja Ja",
             "name_fr": "Molaa Ja Ja",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.15",
-                "duty.dutyraid-finder.dungeons.arr.29"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.15", "d.30"],
+            "patch": "3.15"
         },
-        "x25": {
+        "x129": {
             "number": "116",
             "name_en": "Ferdiad",
             "name_fr": "Ferdiad",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.87",
-                "duty.dutyraid-finder.dungeons.arr.30"
-            ],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.87", "d.29", "@TRIAD.SILVER_PACK"],
+            "patch": "3.15"
         },
-        "x26": {
+        "x130": {
             "number": "117",
             "name_en": "Calcabrina",
             "name_fr": "Calcabrina",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.79",
-                "duty.dutyraid-finder.dungeons.hw.10"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.79", "d.141"],
+            "patch": "3.15"
         },
-        "x27": {
+        "x131": {
             "number": "118",
             "name_en": "Kuribu",
             "name_fr": "Kuribu",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.45",
-                "duty.dutyraid-finder.dungeons.hw.11"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.45", "d.140"],
+            "patch": "3.15"
         },
-        "x28": {
+        "x132": {
             "number": "119",
             "name_en": "Phlegethon",
             "name_fr": "Phlégéthon",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.71",
-                "duty.dutyraid-finder.raids.arr.17"
-            ],
-            "patch": "3.2"
+            "source": ["character.gold-saucer.triple-triad-opponents.71", "d.92"],
+            "patch": "3.15"
         },
-        "x29": {
+        "x133": {
             "number": "120",
-            "name_en": "Artoirel de Fortemps",
+            "name_en": "Artoirel De Fortemps",
             "name_fr": "Artoirel",
             "source": "character.gold-saucer.triple-triad-opponents.38",
-            "patch": "3.2"
+            "patch": "3.15"
         }
     }
 }

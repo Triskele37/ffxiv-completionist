@@ -1,0 +1,490 @@
+{
+    "key": "post-endwalker-main-scenario-quests",
+    "groupName_en": "Post-Endwalker Main Scenario Quests",
+    "groupName_fr": "Récits d'une nouvelle aventure",
+    "tasks": {
+        "x70062": {
+            "level": 90,
+            "name_en": "Newfound Adventure",
+            "name_fr": "Vers de nouvelles aventures",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": ["q.70000"],
+            "cNext": ["q.70063"],
+            "patch": "6.1"
+        },
+        "x70063": {
+            "level": 90,
+            "name_en": "Bountiful Ruins",
+            "name_fr": "Le trésor sous la mer de l'Abondance",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": ["q.70062"],
+            "cNext": ["q.70064"],
+            "patch": "6.1"
+        },
+        "x70064": {
+            "level": 90,
+            "name_en": "Friends for the Road",
+            "name_fr": "Compagnons de voyage",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": ["q.70063"],
+            "cNext": ["q.70065"],
+            "patch": "6.1"
+        },
+        "x70065": {
+            "level": 90,
+            "name_en": "Alzadaal's Legacy",
+            "name_fr": "Le legs d'Alzadaal",
+            "unlock": "d.844",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70064"],
+            "cNext": ["q.70066"],
+            "patch": "6.1"
+        },
+        "x70066": {
+            "level": 90,
+            "name_en": "A Brother's Grief",
+            "name_fr": "Amour fraternel",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70065"],
+            "cNext": ["q.70067", "q.70072"],
+            "patch": "6.1"
+        },
+        "x70067": {
+            "level": 90,
+            "name_en": "Sharing the Wealth",
+            "name_fr": "L'avenir de Thavnair",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70066"],
+            "cNext": ["q.70068"],
+            "patch": "6.1"
+        },
+        "x70068": {
+            "level": 90,
+            "name_en": "Bridging the Rift",
+            "name_fr": "La théorie du voyage interdimensionnel",
+            "npc_en": "Veteran Radiant",
+            "npc_fr": "Garde De L'Ost Rayonnant",
+            "cPrev": ["q.70067"],
+            "cNext": ["q.70069"],
+            "patch": "6.1"
+        },
+        "x70069": {
+            "level": 90,
+            "name_en": "Restricted Reading",
+            "name_fr": "Lecture interdite",
+            "npc_en": "Montichaigne",
+            "npc_fr": "Montichaigne",
+            "cPrev": ["q.70068"],
+            "cNext": ["q.70070"],
+            "patch": "6.1"
+        },
+        "x70070": {
+            "level": 90,
+            "name_en": "Void Theory",
+            "name_fr": "Traversée expérimentale",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70069"],
+            "cNext": ["q.70071"],
+            "patch": "6.1"
+        },
+        "x70071": {
+            "level": 90,
+            "name_en": "A Satrap's Duty",
+            "name_fr": "La résolution de Vrtra",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70070"],
+            "cNext": ["q.70128"],
+            "cSiblings": ["a.3075"],
+            "patch": "6.1"
+        },
+        "x70128": {
+            "level": 90,
+            "name_en": "In Search of Azdaja",
+            "name_fr": "Recherche Azdaja désespérément",
+            "unlock": "d.869",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70071"],
+            "cNext": ["q.70129"],
+            "patch": "6.28"
+        },
+        "x70129": {
+            "level": 90,
+            "name_en": "Shadowed Remnants",
+            "name_fr": "Le château dans le néant",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70128"],
+            "cNext": ["q.70130"],
+            "patch": "6.28"
+        },
+        "x70130": {
+            "level": 90,
+            "name_en": "Where Everything Begins",
+            "name_fr": "Au commencement était Zero",
+            "npc_en": "Dark-robed Voidsent",
+            "npc_fr": "Créature Du Néant Vêtue De Noir",
+            "cPrev": ["q.70129"],
+            "cNext": ["q.70131"],
+            "patch": "6.28"
+        },
+        "x70131": {
+            "level": 90,
+            "name_en": "Groping in the Dark",
+            "name_fr": "À tâtons dans les Ténèbres",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": ["q.70130"],
+            "cNext": ["q.70132"],
+            "patch": "6.28"
+        },
+        "x70132": {
+            "level": 90,
+            "name_en": "Nowhere to Run",
+            "name_fr": "Nulle part où fuir",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70131"],
+            "cNext": ["q.70133"],
+            "patch": "6.28"
+        },
+        "x70133": {
+            "level": 90,
+            "name_en": "The Wind Rises",
+            "name_fr": "Qui sème le vent récolte la tempête",
+            "unlock": "d.870",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70132"],
+            "cNext": ["q.70134"],
+            "patch": "6.28"
+        },
+        "x70134": {
+            "level": 90,
+            "name_en": "Return from the Void",
+            "name_fr": "Besoin d'éther",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70133"],
+            "cNext": ["q.70135"],
+            "patch": "6.28"
+        },
+        "x70135": {
+            "level": 90,
+            "name_en": "A World with Light and Life",
+            "name_fr": "Un monde plein de vie",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70134"],
+            "cNext": ["q.70136"],
+            "patch": "6.28"
+        },
+        "x70136": {
+            "level": 90,
+            "name_en": "Buried Memory",
+            "name_fr": "Mémoire enfouie",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70135"],
+            "cNext": ["q.70196", "q.70206"],
+            "cSiblings": ["a.3105"],
+            "patch": "6.28"
+        },
+        "x70206": {
+            "level": 90,
+            "name_en": "Once More unto the Void",
+            "name_fr": "Le jour et la nuit",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70136"],
+            "cNext": ["q.70207"],
+            "patch": "6.3"
+        },
+        "x70207": {
+            "level": 90,
+            "name_en": "A Cold Reunion",
+            "name_fr": "Rendez-vous gare du Nord",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": ["q.70206"],
+            "cNext": ["q.70208"],
+            "patch": "6.3"
+        },
+        "x70208": {
+            "level": 90,
+            "name_en": "Kindled Spirit",
+            "name_fr": "Aides de camp",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": ["q.70207"],
+            "cNext": ["q.70209"],
+            "patch": "6.3"
+        },
+        "x70209": {
+            "level": 90,
+            "name_en": "An Unforeseen Bargain",
+            "name_fr": "Pour une bouchée de pain",
+            "npc_en": "1st Legion Soldier",
+            "npc_fr": "Soldat de la 1re Légion",
+            "cPrev": ["q.70208"],
+            "cNext": ["q.70210"],
+            "patch": "6.3"
+        },
+        "x70210": {
+            "level": 90,
+            "name_en": "King of the Mountain",
+            "name_fr": "Là-haut, dans la montagne",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": ["q.70209"],
+            "cNext": ["q.70211"],
+            "patch": "6.3"
+        },
+        "x70211": {
+            "level": 90,
+            "name_en": "A Dragon's Resolve",
+            "name_fr": "La résilience du dragon ancien",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70210"],
+            "cNext": ["q.70212"],
+            "patch": "6.3"
+        },
+        "x70212": {
+            "level": 90,
+            "name_en": "Paths Barred",
+            "name_fr": "Nouveau contretemps",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70211"],
+            "cNext": ["q.70213"],
+            "patch": "6.3"
+        },
+        "x70213": {
+            "level": 90,
+            "name_en": "Desires Untold",
+            "name_fr": "Les menées du néant",
+            "npc_en": "Nahbdeen",
+            "npc_fr": "Nahbdeen",
+            "cPrev": ["q.70212"],
+            "cNext": ["q.70214"],
+            "patch": "6.3"
+        },
+        "x70214": {
+            "level": 90,
+            "name_en": "Gods Revel, Lands Tremble",
+            "name_fr": "Les Dieux festoient, la terre tremble",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70213"],
+            "cNext": ["q.70197", "q.70271"],
+            "cSiblings": ["a.3157"],
+            "patch": "6.3"
+        },
+        "x70271": {
+            "level": 90,
+            "name_en": "Currying Flavor",
+            "name_fr": "Un ravitaillement relevé",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70214"],
+            "cNext": ["q.70272"],
+            "patch": "6.4"
+        },
+        "x70272": {
+            "level": 90,
+            "name_en": "Going Haam",
+            "name_fr": "Éther insulaire",
+            "unlock": "d.822",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.70271"],
+            "cNext": ["q.70351", "q.70273"],
+            "patch": "6.4"
+        },
+        "x70273": {
+            "level": 90,
+            "name_en": "Like Fear to Flame",
+            "name_fr": "La tour de la discorde",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.70272"],
+            "cNext": ["q.70274"],
+            "patch": "6.4"
+        },
+        "x70274": {
+            "level": 90,
+            "name_en": "The Fallen Empire",
+            "name_fr": "Le dilemme garlemaldais",
+            "npc_en": "Jullus",
+            "npc_fr": "Jullus",
+            "cPrev": ["q.70273"],
+            "cNext": ["q.70275"],
+            "patch": "6.4"
+        },
+        "x70275": {
+            "level": 90,
+            "name_en": "Bonds of Trust",
+            "name_fr": "Sur un pied d'égalité",
+            "npc_en": "Jullus",
+            "npc_fr": "Jullus",
+            "cPrev": ["q.70274"],
+            "cNext": ["q.70276"],
+            "patch": "6.4"
+        },
+        "x70276": {
+            "level": 90,
+            "name_en": "Lunar Rendezvous",
+            "name_fr": "Relever les glaives",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.70275"],
+            "cNext": ["q.70277"],
+            "patch": "6.4"
+        },
+        "x70277": {
+            "level": 90,
+            "name_en": "The Red Side of the Moon",
+            "name_fr": "La lune rouge",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.70276"],
+            "cNext": ["q.70278"],
+            "patch": "6.4"
+        },
+        "x70278": {
+            "level": 90,
+            "name_en": "Abyssal Dark",
+            "name_fr": "Un souvenir sibyllin",
+            "unlock": "d.949",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70277"],
+            "cNext": ["q.70279"],
+            "patch": "6.4"
+        },
+        "x70279": {
+            "level": 90,
+            "name_en": "The Dark Throne",
+            "name_fr": "Le trône obscur",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70278"],
+            "cNext": ["q.70280"],
+            "cSiblings": ["a.3244"],
+            "patch": "6.4",
+            "unlock": "o.591"
+        },
+        "x70280": {
+            "level": 90,
+            "name_en": "Seeking the Light",
+            "name_fr": "Dissiper les Ténèbres",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70279"],
+            "cNext": ["q.70281"],
+            "patch": "6.5"
+        },
+        "x70281": {
+            "level": 90,
+            "name_en": "Appealing to the Masses",
+            "name_fr": "Pas de repos pour les braves",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.70280"],
+            "cNext": ["q.70282"],
+            "patch": "6.5"
+        },
+        "x70282": {
+            "level": 90,
+            "name_en": "In Defiance of Fate",
+            "name_fr": "Celle qui défie son destin",
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "cPrev": ["q.70281"],
+            "cNext": ["q.70283"],
+            "patch": "6.5"
+        },
+        "x70283": {
+            "level": 90,
+            "name_en": "Back to Action",
+            "name_fr": "Sentiments par-delà les dimensions",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.70282"],
+            "cNext": ["q.70284"],
+            "patch": "6.5"
+        },
+        "x70284": {
+            "level": 90,
+            "name_en": "Down in the Dark",
+            "name_fr": "Le héros du néant",
+            "unlock": ["d.823", "d.964"],
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70283"],
+            "cNext": ["q.70331", "q.70285"],
+            "patch": "6.5"
+        },
+        "x70285": {
+            "level": 90,
+            "name_en": "Reunited at Last",
+            "name_fr": "Le retour des dragons anciens",
+            "npc_en": "Vrtra",
+            "npc_fr": "Vrtra",
+            "cPrev": ["q.70284"],
+            "cNext": ["q.70286"],
+            "patch": "6.5"
+        },
+        "x70286": {
+            "level": 90,
+            "name_en": "Growing Light",
+            "name_fr": "Nitescence nouvelle",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": ["q.70285"],
+            "cNext": ["q.70330", "q.70287"],
+            "cSiblings": ["a.3413"],
+            "patch": "6.5"
+        },
+        "x70287": {
+            "level": 90,
+            "name_en": "When One Door Closes...",
+            "name_fr": "Rencontre sous le signe du destin",
+            "npc_en": "Varshahn",
+            "npc_fr": "Varshahn",
+            "cPrev": ["q.70286"],
+            "cNext": ["q.70288"],
+            "patch": "6.55"
+        },
+        "x70288": {
+            "level": 90,
+            "name_en": "The Game Is Afoot",
+            "name_fr": "Par-delà l'horizon",
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "cPrev": ["q.70287"],
+            "cNext": ["q.70289"],
+            "patch": "6.55"
+        },
+        "x70289": {
+            "level": 90,
+            "name_en": "The Coming Dawn",
+            "name_fr": "L'appel de l'aventure",
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "cPrev": ["q.70288"],
+            "cSiblings": ["a.3414"],
+            "patch": "6.55",
+            "unlock": "fa.35"
+        }
+    }
+}

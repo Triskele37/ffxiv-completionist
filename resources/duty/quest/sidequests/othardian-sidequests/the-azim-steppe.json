@@ -8,10 +8,8 @@
             "name_en": "Silent Banquet",
             "name_fr": "Le prestige des Qestir",
             "npc_en": "Oroniri Youth",
-            "npc_fr": "jeune homme oronir",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "npc_fr": "Jeune Homme Oronir",
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68289": {
@@ -20,9 +18,7 @@
             "name_fr": "Agir sans mot dire",
             "npc_en": "Khaishan",
             "npc_fr": "Khaishan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68290": {
@@ -31,9 +27,7 @@
             "name_fr": "Le juste prix",
             "npc_en": "Tamachag",
             "npc_fr": "Tamachag",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68291": {
@@ -42,9 +36,7 @@
             "name_fr": "L'art d'abuser du besoin ou du désir",
             "npc_en": "Baidur",
             "npc_fr": "Baidur",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68292": {
@@ -53,9 +45,7 @@
             "name_fr": "Chambui fait le buuz",
             "npc_en": "Chambui",
             "npc_fr": "Chambui",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68293": {
@@ -64,9 +54,7 @@
             "name_fr": "La spécialité d'Isari",
             "npc_en": "Uto",
             "npc_fr": "Uto",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68036"
-            ],
+            "cPrev": ["q.68036"],
             "patch": "4.31"
         },
         "x68294": {
@@ -74,13 +62,9 @@
             "name_en": "Purbol Rain",
             "name_fr": "Le lot d'un successeur adarkim",
             "npc_en": "Adarkim Warrior",
-            "npc_fr": "homme adarkim",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.68713"
-            ],
+            "npc_fr": "Homme Adarkim",
+            "cPrev": ["q.68037"],
+            "cNext": ["q.68713"],
             "patch": "4.31"
         },
         "x68295": {
@@ -89,9 +73,7 @@
             "name_fr": "La garderie du Ralliement",
             "npc_en": "Togene",
             "npc_fr": "Togene",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037"
-            ],
+            "cPrev": ["q.68037"],
             "patch": "4.31"
         },
         "x68296": {
@@ -101,15 +83,9 @@
             "unlock": "travel.aether-currents.sb.the-azim-steppe.13",
             "npc_en": "Tamachag",
             "npc_fr": "Tamachag",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037"
-            ],
-            "cNext": [
-                68297
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-azim-steppe.13"
-            ],
+            "cPrev": ["q.68037"],
+            "cNext": ["q.68297"],
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.13"],
             "patch": "4.31"
         },
         "x68297": {
@@ -118,13 +94,8 @@
             "name_fr": "Danse de caractère",
             "npc_en": "Gascot",
             "npc_fr": "Gascot",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037",
-                68296
-            ],
-            "cNext": [
-                68298
-            ],
+            "cPrev": ["q.68037", "q.68296"],
+            "cNext": ["q.68298"],
             "patch": "4.31"
         },
         "x68298": {
@@ -133,13 +104,8 @@
             "name_fr": "La parole est d'argent...",
             "npc_en": "Gascot",
             "npc_fr": "Gascot",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037",
-                68297
-            ],
-            "cNext": [
-                68299
-            ],
+            "cPrev": ["q.68037", "q.68297"],
+            "cNext": ["q.68299"],
             "patch": "4.31"
         },
         "x68299": {
@@ -148,10 +114,7 @@
             "name_fr": "Mais le silence est d'or",
             "npc_en": "Cotota",
             "npc_fr": "Cotota",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68037",
-                68298
-            ],
+            "cPrev": ["q.68037", "q.68298"],
             "patch": "4.31"
         },
         "x68300": {
@@ -159,10 +122,8 @@
             "name_en": "Oh Matron",
             "name_fr": "Des matamata pour un mariage",
             "npc_en": "Mol Maiden",
-            "npc_fr": "jeune fille mol",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68039"
-            ],
+            "npc_fr": "Jeune Fille Mol",
+            "cPrev": ["q.68039"],
             "patch": "4.31"
         },
         "x68301": {
@@ -171,9 +132,7 @@
             "name_fr": "Des os à tomber",
             "npc_en": "Buqatai",
             "npc_fr": "Buqatai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68039"
-            ],
+            "cPrev": ["q.68039"],
             "patch": "4.31"
         },
         "x68302": {
@@ -182,12 +141,8 @@
             "name_fr": "Du souci pour Nigen",
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68039"
-            ],
-            "cNext": [
-                68304
-            ],
+            "cPrev": ["q.68039"],
+            "cNext": ["q.68304"],
             "patch": "4.31"
         },
         "x68303": {
@@ -196,9 +151,7 @@
             "name_fr": "Le fromage de Cotan",
             "npc_en": "Cotan",
             "npc_fr": "Cotan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68039"
-            ],
+            "cPrev": ["q.68039"],
             "patch": "4.31"
         },
         "x68304": {
@@ -207,13 +160,8 @@
             "name_fr": "Encore du souci pour Nigen",
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68040",
-                68302
-            ],
-            "cNext": [
-                68308
-            ],
+            "cPrev": ["q.68040", "q.68302"],
+            "cNext": ["q.68308"],
             "patch": "4.31"
         },
         "x68305": {
@@ -222,9 +170,7 @@
             "name_fr": "Un nouveau pilier pour Mol Iloh",
             "npc_en": "Caur",
             "npc_fr": "Caur",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68040"
-            ],
+            "cPrev": ["q.68040"],
             "patch": "4.31"
         },
         "x68306": {
@@ -233,9 +179,7 @@
             "name_fr": "Nettoyage risqué",
             "npc_en": "Ujin",
             "npc_fr": "Ujin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68040"
-            ],
+            "cPrev": ["q.68040"],
             "patch": "4.31"
         },
         "x68307": {
@@ -245,12 +189,8 @@
             "unlock": "travel.aether-currents.sb.the-azim-steppe.12",
             "npc_en": "Sukegei",
             "npc_fr": "Sukegei",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68041"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-azim-steppe.12"
-            ],
+            "cPrev": ["q.68041"],
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.12"],
             "patch": "4.31"
         },
         "x68308": {
@@ -259,10 +199,7 @@
             "name_fr": "Toujours du souci pour Nigen",
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68041",
-                68304
-            ],
+            "cPrev": ["q.68041", "q.68304"],
             "patch": "4.31"
         },
         "x68309": {
@@ -270,10 +207,8 @@
             "name_en": "Shop till the Warrior of Light Drops",
             "name_fr": "Fièvre acheteuse",
             "npc_en": "Mol Maiden",
-            "npc_fr": "femme mol",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68041"
-            ],
+            "npc_fr": "Femme Mol",
+            "cPrev": ["q.68041"],
             "patch": "4.31"
         },
         "x68310": {
@@ -282,9 +217,7 @@
             "name_fr": "Un caquet à rabattre",
             "npc_en": "Abaka",
             "npc_fr": "Abaka",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68044"
-            ],
+            "cPrev": ["q.68044"],
             "patch": "4.31"
         },
         "x68311": {
@@ -293,9 +226,7 @@
             "name_fr": "Un heureux événement",
             "npc_en": "Ogodei",
             "npc_fr": "Ogodei",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68044"
-            ],
+            "cPrev": ["q.68044"],
             "patch": "4.31"
         },
         "x68312": {
@@ -304,9 +235,7 @@
             "name_fr": "Rasade divine",
             "npc_en": "Charakha",
             "npc_fr": "Charakha",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68044"
-            ],
+            "cPrev": ["q.68044"],
             "patch": "4.31"
         },
         "x68313": {
@@ -314,10 +243,8 @@
             "name_en": "The Ideal Budugan Warrior",
             "name_fr": "Allez, viens!",
             "npc_en": "Budugan Warrior",
-            "npc_fr": "guerrier buduga",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68044"
-            ],
+            "npc_fr": "Guerrier Buduga",
+            "cPrev": ["q.68044"],
             "patch": "4.31"
         },
         "x68314": {
@@ -326,9 +253,7 @@
             "name_fr": "Remets de l'huile!",
             "npc_en": "Guyug",
             "npc_fr": "Guyug",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68044"
-            ],
+            "cPrev": ["q.68044"],
             "patch": "4.31"
         },
         "x68315": {
@@ -337,9 +262,7 @@
             "name_fr": "Une compagne prévenante",
             "npc_en": "Sorocan",
             "npc_fr": "Sorocan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68045"
-            ],
+            "cPrev": ["q.68045"],
             "patch": "4.31"
         },
         "x68316": {
@@ -348,9 +271,7 @@
             "name_fr": "Hommage par procuration",
             "npc_en": "Yabuqa",
             "npc_fr": "Yabuqa",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68045"
-            ],
+            "cPrev": ["q.68045"],
             "patch": "4.31"
         },
         "x68317": {
@@ -358,10 +279,8 @@
             "name_en": "Broken Flowers",
             "name_fr": "Les fleurs du moche",
             "npc_en": "Oroniri Hunter",
-            "npc_fr": "chasseur oronir",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68045"
-            ],
+            "npc_fr": "Chasseur Oronir",
+            "cPrev": ["q.68045"],
             "patch": "4.31"
         },
         "x68318": {
@@ -371,15 +290,9 @@
             "unlock": "travel.aether-currents.sb.the-azim-steppe.11",
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68046"
-            ],
-            "cNext": [
-                68319
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-azim-steppe.11"
-            ],
+            "cPrev": ["q.68046"],
+            "cNext": ["q.68319"],
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.11"],
             "patch": "4.31"
         },
         "x68319": {
@@ -388,13 +301,8 @@
             "name_fr": "Le vaillant petit cuistot",
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68046",
-                68318
-            ],
-            "cNext": [
-                68320
-            ],
+            "cPrev": ["q.68046", "q.68318"],
+            "cNext": ["q.68320"],
             "patch": "4.31"
         },
         "x68320": {
@@ -403,13 +311,8 @@
             "name_fr": "Le perdant magnifique",
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68046",
-                68319
-            ],
-            "cNext": [
-                68321
-            ],
+            "cPrev": ["q.68046", "q.68319"],
+            "cNext": ["q.68321"],
             "patch": "4.31"
         },
         "x68321": {
@@ -418,13 +321,8 @@
             "name_fr": "Il n'y a pas de sot métier",
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68046",
-                68320
-            ],
-            "cNext": [
-                68331
-            ],
+            "cPrev": ["q.68046", "q.68320"],
+            "cNext": ["q.68331"],
             "patch": "4.31"
         },
         "x68322": {
@@ -432,15 +330,9 @@
             "name_en": "Welcome to the Family",
             "name_fr": "Le bon fils",
             "npc_en": "Unbloodied Dotharl",
-            "npc_fr": "jeune Dotharl",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
-            "cNext": [
-                68333,
-                68334,
-                68332
-            ],
+            "npc_fr": "Jeune Dotharl",
+            "cPrev": ["q.68048"],
+            "cNext": ["q.68333", "q.68334", "q.68332"],
             "patch": "4.31"
         },
         "x68323": {
@@ -449,9 +341,7 @@
             "name_fr": "Paissez en paix",
             "npc_en": "Dagasi",
             "npc_fr": "Dagasi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
+            "cPrev": ["q.68048"],
             "patch": "4.31"
         },
         "x68324": {
@@ -459,10 +349,8 @@
             "name_en": "Child's Play",
             "name_fr": "Marche tout droit",
             "npc_en": "Dotharli Warrior",
-            "npc_fr": "guerrier dotharl",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
+            "npc_fr": "Guerrier Dotharl",
+            "cPrev": ["q.68048"],
             "patch": "4.31"
         },
         "x68325": {
@@ -471,9 +359,7 @@
             "name_fr": "Marcher dans le sable",
             "npc_en": "Agujam",
             "npc_fr": "Agujam",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
+            "cPrev": ["q.68048"],
             "patch": "4.31"
         },
         "x68326": {
@@ -481,10 +367,8 @@
             "name_en": "Nhaama's Sweet Embrace",
             "name_fr": "Rejoindre la lune",
             "npc_en": "Dotharli Youth",
-            "npc_fr": "jeune fille dotharl",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
+            "npc_fr": "Jeune Fille Dotharl",
+            "cPrev": ["q.68048"],
             "patch": "4.31"
         },
         "x68327": {
@@ -494,15 +378,9 @@
             "unlock": "travel.aether-currents.sb.the-azim-steppe.10",
             "npc_en": "Mauci",
             "npc_fr": "Mauci",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048"
-            ],
-            "cNext": [
-                68328
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-azim-steppe.10"
-            ],
+            "cPrev": ["q.68048"],
+            "cNext": ["q.68328"],
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.10"],
             "patch": "4.31"
         },
         "x68328": {
@@ -511,13 +389,8 @@
             "name_fr": "Une leçon, une correction",
             "npc_en": "Mauci",
             "npc_fr": "Mauci",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68327
-            ],
-            "cNext": [
-                68329
-            ],
+            "cPrev": ["q.68048", "q.68327"],
+            "cNext": ["q.68329"],
             "patch": "4.31"
         },
         "x68329": {
@@ -526,13 +399,8 @@
             "name_fr": "Si c'est Mauci, j'y vais aussi",
             "npc_en": "Khulan",
             "npc_fr": "Khulan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68328
-            ],
-            "cNext": [
-                68330
-            ],
+            "cPrev": ["q.68048", "q.68328"],
+            "cNext": ["q.68330"],
             "patch": "4.31"
         },
         "x68330": {
@@ -541,13 +409,8 @@
             "name_fr": "Sept Poings",
             "npc_en": "Khulan",
             "npc_fr": "Khulan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68329
-            ],
-            "cNext": [
-                68331
-            ],
+            "cPrev": ["q.68048", "q.68329"],
+            "cNext": ["q.68331"],
             "patch": "4.31"
         },
         "x68331": {
@@ -556,11 +419,7 @@
             "name_fr": "Amitié intertribale",
             "npc_en": "Kishiligh",
             "npc_fr": "Kishiligh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68321,
-                68330
-            ],
+            "cPrev": ["q.68048", "q.68321", "q.68330"],
             "patch": "4.31"
         },
         "x68332": {
@@ -569,13 +428,8 @@
             "name_fr": "Ibakha a l'œil",
             "npc_en": "Bujir",
             "npc_fr": "Bujir",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68322
-            ],
-            "cNext": [
-                68335
-            ],
+            "cPrev": ["q.68048", "q.68322"],
+            "cNext": ["q.68335"],
             "patch": "4.31"
         },
         "x68333": {
@@ -584,13 +438,8 @@
             "name_fr": "Un patrimoine culturel immatériel",
             "npc_en": "Caalun",
             "npc_fr": "Caalun",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68322
-            ],
-            "cNext": [
-                68335
-            ],
+            "cPrev": ["q.68048", "q.68322"],
+            "cNext": ["q.68335"],
             "patch": "4.31"
         },
         "x68334": {
@@ -599,13 +448,8 @@
             "name_fr": "Plus besoin de poubelles",
             "npc_en": "Ibakha",
             "npc_fr": "Ibakha",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68048",
-                68322
-            ],
-            "cNext": [
-                68335
-            ],
+            "cPrev": ["q.68048", "q.68322"],
+            "cNext": ["q.68335"],
             "patch": "4.31"
         },
         "x68335": {
@@ -613,12 +457,8 @@
             "name_en": "Spelunker of Light",
             "name_fr": "Défense d'entrer",
             "npc_en": "Uyagiri Youth",
-            "npc_fr": "jeune Uyagir",
-            "cPrev": [
-                68332,
-                68333,
-                68334
-            ],
+            "npc_fr": "Jeune Uyagir",
+            "cPrev": ["q.68332", "q.68333", "q.68334"],
             "patch": "4.31"
         },
         "x68336": {
@@ -626,10 +466,8 @@
             "name_en": "Wouldn't Hurt a Fly",
             "name_fr": "Sur des charbons ardents",
             "npc_en": "Mild-mannered Mol",
-            "npc_fr": "Mol doux",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68052"
-            ],
+            "npc_fr": "Mol Doux",
+            "cPrev": ["q.68052"],
             "patch": "4.31"
         },
         "x68337": {
@@ -638,9 +476,7 @@
             "name_fr": "Le poids du protocole",
             "npc_en": "Bujeg",
             "npc_fr": "Bujeg",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68052"
-            ],
+            "cPrev": ["q.68052"],
             "patch": "4.31"
         },
         "x68338": {
@@ -649,9 +485,7 @@
             "name_fr": "Des germes tués dans l'œuf",
             "npc_en": "Jenkshi",
             "npc_fr": "Jenkshi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68052"
-            ],
+            "cPrev": ["q.68052"],
             "patch": "4.31"
         },
         "x68339": {
@@ -660,9 +494,7 @@
             "name_fr": "Faible fils deviendra fort",
             "npc_en": "Maqali",
             "npc_fr": "Maqali",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68052"
-            ],
+            "cPrev": ["q.68052"],
             "patch": "4.31"
         }
     }

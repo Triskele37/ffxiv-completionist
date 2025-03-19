@@ -4,75 +4,91 @@
     "groupName_fr": "Missions d'incursion",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "link": true,
-            "header_en": "Dungeon",
-            "header_fr": "Donjon"
+            "header": "@HEADER.NAME",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "level": 20,
-            "name": "duty.dutyraid-finder.dungeons.arr.3"
+            "name": "d.7",
+            "patch": "4.1"
         },
         "x1": {
             "level": 24,
-            "name": "duty.dutyraid-finder.dungeons.arr.4"
+            "name": "d.1",
+            "patch": "4.1"
         },
         "x2": {
             "level": 32,
-            "name": "duty.dutyraid-finder.dungeons.arr.6"
+            "name": "d.8",
+            "patch": "4.1"
         },
         "x3": {
             "level": 41,
-            "name": "duty.dutyraid-finder.dungeons.arr.9"
+            "name": "d.11",
+            "patch": "4.1"
         },
         "x4": {
             "level": 44,
-            "name": "duty.dutyraid-finder.dungeons.arr.10"
+            "name": "d.13",
+            "patch": "4.1"
         },
         "x5": {
             "level": 47,
-            "name": "duty.dutyraid-finder.dungeons.arr.11"
+            "name": "d.5",
+            "patch": "4.1"
         },
         "x6": {
             "level": 50,
-            "name": "duty.dutyraid-finder.dungeons.arr.14"
+            "name": "d.10",
+            "patch": "4.1"
         },
         "x7": {
             "level": 50,
-            "name": "duty.dutyraid-finder.dungeons.arr.16"
+            "name": "d.17",
+            "patch": "4.1"
         },
         "x8": {
             "level": 50,
-            "name": "duty.dutyraid-finder.dungeons.arr.17"
+            "name": "d.18",
+            "patch": "4.1"
         },
         "x9": {
             "level": 50,
-            "name": "duty.dutyraid-finder.dungeons.arr.21"
+            "name": "d.20",
+            "patch": "4.1"
         },
         "x10": {
             "level": 50,
-            "name": "duty.dutyraid-finder.dungeons.arr.29"
+            "name": "d.30",
+            "patch": "4.1"
         },
         "x11": {
             "level": 53,
-            "name": "duty.dutyraid-finder.dungeons.hw.1"
+            "name": "d.37",
+            "patch": "4.3"
         },
         "x12": {
             "level": 57,
-            "name": "duty.dutyraid-finder.dungeons.hw.3"
+            "name": "d.34",
+            "patch": "4.3"
         },
         "x13": {
             "level": 60,
-            "name": "duty.dutyraid-finder.dungeons.hw.7"
+            "name": "d.35",
+            "patch": "4.3"
         },
         "x14": {
             "level": 60,
-            "name": "duty.dutyraid-finder.dungeons.hw.9"
+            "name": "d.40",
+            "patch": "4.3"
         }
     }
 }

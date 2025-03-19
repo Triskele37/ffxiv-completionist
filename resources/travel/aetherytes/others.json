@@ -1,159 +1,138 @@
 {
     "key": "others",
-    "groupName_en": "Others",
-    "groupName_fr": "Autres",
+    "groupName": "@PLACE.OTHERS",
     "tasks": {
         "x131": {
             "name_en": "Revenant's Toll",
             "name_fr": "Glas des revenants",
-            "zone_en": "Mor Dhona",
-            "zone_fr": "Mor Dhona",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.MOR_DHONA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x132": {
             "name_en": "Old Sharlayan Aetheryte Plaza",
             "name_fr": "Vieille Sharlayan / Place de l'Éthérite",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x133": {
             "name_en": "The Studium",
             "name_fr": "Académie de magie",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x134": {
             "name_en": "The Baldesion Annex",
             "name_fr": "Annexe des Élèves de Baldesion",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x135": {
             "name_en": "The Rostra",
             "name_fr": "Les Rostres",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x136": {
             "name_en": "The Leveilleur Estate",
             "name_fr": "Résidence des Leveilleur",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x137": {
             "name_en": "Journey's End",
             "name_fr": "Colline des Naufragés",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x138": {
             "name_en": "Scholar's Harbor",
             "name_fr": "Port de l'Érudit",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.OLD_SHARLAYAN",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x147": {
             "name_en": "The Archeion",
             "name_fr": "Archéion",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.LABYRINTHOS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x148": {
             "name_en": "Sharlayan Hamlet",
             "name_fr": "Petite Sharlayan",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.LABYRINTHOS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x149": {
             "name_en": "Aporia",
             "name_fr": "L'Aporie",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.LABYRINTHOS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x155": {
             "name_en": "Sinus Lacrimarum",
             "name_fr": "Sinus Lacrimarum",
-            "zone_en": "Mare Lamentorum",
-            "zone_fr": "Mare Lamentorum",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.MARE_LAMENTORUM",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x156": {
             "name_en": "Bestways Burrow",
             "name_fr": "Halot de Bestway",
-            "zone_en": "Mare Lamentorum",
-            "zone_fr": "Mare Lamentorum",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.MARE_LAMENTORUM",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x160": {
             "name_en": "Reah Tahra",
             "name_fr": "Reah Tahra",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thulé",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ULTIMA_THULE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x161": {
             "name_en": "Abode of the Ea",
             "name_fr": "Demeure des Éas",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thulé",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ULTIMA_THULE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x162": {
             "name_en": "Base Omicron",
             "name_fr": "Base des Omicrons",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thulé",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ULTIMA_THULE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x157": {
             "name_en": "Anagnorisis",
             "name_fr": "L'Anagnorisis",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ELPIS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x158": {
             "name_en": "The Twelve Wonders",
             "name_fr": "Les Douze Merveilles",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ELPIS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x159": {
             "name_en": "Poieten Oikos",
             "name_fr": "Poièten Oïkos",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.ELPIS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
+        },
+        "x194": {
+            "name_en": "Leynode Mnemo",
+            "name_fr": "Nœud tellurique mnémo",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
+        },
+        "x195": {
+            "name_en": "Leynode Pyro",
+            "name_fr": "Nœud tellurique pyro",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
+        },
+        "x196": {
+            "name_en": "Leynode Aero",
+            "name_fr": "Nœud tellurique aéro",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         }
     }
 }

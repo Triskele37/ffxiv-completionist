@@ -1,0 +1,68 @@
+{
+    "key": "healer-role-quests-dawntrail",
+    "groupName_en": "Healer Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de soigneur (Dawntrail)",
+    "tasks": {
+        "x70360": {
+            "cNext": ["q.70361"],
+            "cPrev": ["q.70353"],
+            "level": 90,
+            "name_en": "In the Sting of Things",
+            "name_fr": "Les fruits du scorpion",
+            "npc_en": "Nyipine",
+            "npc_fr": "Nyipine",
+            "patch": "7.0"
+        },
+        "x70361": {
+            "cNext": ["q.70362"],
+            "cPrev": ["q.70360"],
+            "level": 92,
+            "name_en": "Causing Problems on Purpose",
+            "name_fr": "Le remède vénéneux",
+            "npc_en": "Loashkana",
+            "npc_fr": "Loashkana",
+            "patch": "7.0"
+        },
+        "x70362": {
+            "cNext": ["q.70363"],
+            "cPrev": ["q.70361"],
+            "level": 94,
+            "name_en": "Living among the Deadly",
+            "name_fr": "Vivre avec le venin",
+            "npc_en": "Loashkana",
+            "npc_fr": "Loashkana",
+            "patch": "7.0"
+        },
+        "x70363": {
+            "cNext": ["q.70364"],
+            "cPrev": ["q.70362"],
+            "level": 96,
+            "name_en": "Taste of a Toxin Paradise",
+            "name_fr": "Une cure de virulence",
+            "npc_en": "Loashkana",
+            "npc_fr": "Loashkana",
+            "patch": "7.0"
+        },
+        "x70364": {
+            "cNext": ["q.70365"],
+            "cPrev": ["q.70363"],
+            "level": 98,
+            "name_en": "Downed by the River",
+            "name_fr": "L'empoisonneuse incomprise",
+            "npc_en": "Loashkana",
+            "npc_fr": "Loashkana",
+            "patch": "7.0"
+        },
+        "x70365": {
+            "cNext": ["q.70724"],
+            "cPrev": ["q.70364"],
+            "cSiblings": ["a.3500"],
+            "level": 100,
+            "name_en": "An Antidote for Anarchy",
+            "name_fr": "Les deux faces du scorpion",
+            "npc_en": "Loashkana",
+            "npc_fr": "Loashkana",
+            "patch": "7.0"
+        }
+    }
+}

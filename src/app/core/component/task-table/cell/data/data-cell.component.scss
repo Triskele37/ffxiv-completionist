@@ -31,3 +31,8 @@
         padding: var(--content-padding);
     }
 }
+
+::ng-deep .link-item {
+    display: flex;
+    align-items: center;
+}

@@ -1,7 +1,7 @@
 {
     "key": "shb",
-    "groupName_en": "ShB",
-    "groupName_fr": "Shadowbringers",
+    "groupName": "@EXPANSION.SHADOWBRINGERS",
+    "groupNameShort": "@EXPANSION.SHB",
     "defaultCompletion": 71,
     "isNumericCompletion": true,
     "tasks": {
@@ -10,12 +10,10 @@
             "name_fr": "Alphinaud",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
+            "patch":  "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         },
         "x1": {
@@ -23,12 +21,10 @@
             "name_fr": "Alisaie",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         },
         "x2": {
@@ -36,12 +32,10 @@
             "name_fr": "Thancred",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Tank",
-            "role_fr": "Tank",
+            "role": "@ROLE.TANK",
+            "patch": "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         },
         "x3": {
@@ -49,12 +43,10 @@
             "name_fr": "Urianger",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
+            "patch": "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         },
         "x4": {
@@ -62,12 +54,10 @@
             "name_fr": "Y'shtola",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         },
         "x5": {
@@ -75,12 +65,10 @@
             "name_fr": "Ryne",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Melee Physical DPS",
-            "role_fr": "Dps de mêlée",
+            "role": "@ROLE.MELEE_DPS",
+            "patch": "5.0",
             "cComboAt": {
-                "80": [
-                    "character.achievement.character.general.2336"
-                ]
+                "80": ["a.2336"]
             }
         }
     }

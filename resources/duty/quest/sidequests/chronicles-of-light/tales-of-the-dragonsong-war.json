@@ -8,13 +8,9 @@
             "name_en": "The Paths We Walk",
             "name_fr": "Voyage au cœur des souvenirs",
             "npc_en": "House Fortemps Manservant",
-            "npc_fr": "serviteur des Fortemps",
-            "cPrev": [
-                "duty.quests.main-scenario.dragonsong.67783"
-            ],
-            "cNext": [
-                67012
-            ],
+            "npc_fr": "Serviteur Des Fortemps",
+            "cPrev": ["q.67783"],
+            "cNext": ["q.67012"],
             "patch": "4.31"
         },
         "x67012": {
@@ -23,12 +19,8 @@
             "name_fr": "Dunes de sable et monts enneigés",
             "npc_en": "Higiri",
             "npc_fr": "Higiri",
-            "cPrev": [
-                67011
-            ],
-            "cNext": [
-                67013
-            ],
+            "cPrev": ["q.67011"],
+            "cNext": ["q.67013"],
             "patch": "4.31"
         },
         "x67013": {
@@ -37,12 +29,8 @@
             "name_fr": "Aux confins de la mémoire",
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
-            "cPrev": [
-                67012
-            ],
-            "cNext": [
-                67014
-            ],
+            "cPrev": ["q.67012"],
+            "cNext": ["q.67014"],
             "patch": "4.31"
         },
         "x67014": {
@@ -50,13 +38,9 @@
             "name_en": "The Triumphs We Share",
             "name_fr": "Sauver de l'oubli",
             "npc_en": "Sultansworn Elite",
-            "npc_fr": "casque d'argent",
-            "cPrev": [
-                67013
-            ],
-            "cNext": [
-                67015
-            ],
+            "npc_fr": "Casque D'argent",
+            "cPrev": ["q.67013"],
+            "cNext": ["q.67015"],
             "patch": "4.31"
         },
         "x67015": {
@@ -65,14 +49,10 @@
             "name_fr": "Le sourire de l'amitié",
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
-            "cPrev": [
-                67014
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1595",
-                "social.emotes.general.127"
-            ],
-            "patch": "4.31"
+            "cPrev": ["q.67014"],
+            "cSiblings": ["a.1595", "e.127"],
+            "patch": "4.31",
+            "unlock": "e.127"
         }
     }
 }

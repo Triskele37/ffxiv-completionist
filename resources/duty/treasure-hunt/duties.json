@@ -4,17 +4,14 @@
     "groupName_fr": "Missions",
     "headers": {
         "name": {
-            "header_en": "Duty",
-            "header_fr": "Mission"
+            "header": "@HEADER.NAME"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -65,6 +62,12 @@
             "name_fr": "Elpis Gymnasion",
             "source": "duty.treasure-hunt.maps.16",
             "patch": "6.3"
+        },
+        "x8": {
+            "name_en": "Cenote Ja Ja Gural",
+            "name_fr": "Cénote Ja Ja Gural",
+            "source": "duty.treasure-hunt.maps.18",
+            "patch": "7.05"
         }
     }
 }

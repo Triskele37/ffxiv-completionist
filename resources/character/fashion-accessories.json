@@ -4,339 +4,293 @@
     "groupName_fr": "Accessoires de mode",
     "headers": {
         "name": {
-            "header_en": "Accessory",
-            "header_fr": "Accessoire"
+            "header": "@HEADER.NAME"
         },
         "category": {
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
-    "common": [
-        "category"
-    ],
     "tasks": {
-        "x6": {
+        "x1": {
             "name_en": "Parasol",
             "name_fr": "Ombrelle",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "1,800 Skybuilders' Scrips",
-                "Fête Present"
-            ],
-            "source_fr": [
-                "1.800 Assignats d'Azurée",
-                "Boîte à cadeaux de feste"
-            ],
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
             "patch": "5.21"
         },
-        "x11": {
+        "x2": {
             "name_en": "Sky Blue Parasol",
-            "name_fr": "Ombrelle d'azur",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "900 Skybuilders' Scrips",
-                "Fête Present"
-            ],
-            "source_fr": [
-                "900 Assignats d'Azurée",
-                "Boîte à cadeaux de feste"
-            ],
+            "name_fr": "Ombrelle D'azur",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
             "patch": "5.21"
         },
-        "x12": {
+        "x3": {
             "name_en": "Vermilion Paper Parasol",
-            "name_fr": "Ombrelle pourpre laquée",
-            "category": "CATEGORY.PURCHASE",
+            "name_fr": "Parapluie Pourpre Laqué",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Tokohana - Kugane - 100,000 Gil",
             "source_fr": "Tokohana - Kugane - 100.000 gils",
             "patch": "5.3"
         },
-        "x9": {
-            "name_en": "Plum Paper Parasol",
-            "name_fr": "Ombrelle mauve laquée",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Rogo-Tumu-Here's Repose",
-            "source_fr": "Expédition sous-marine - Repos de Rogo-Tumu-Here (F)",
-            "patch": "5.3"
-        },
         "x4": {
-            "name_en": "Gold Paper Parasol",
-            "name_fr": "Ombrelle dorée laquée",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "200,000 MGP",
-            "source_fr": "200.000 PGS",
+            "name_en": "Plum Paper Parasol",
+            "name_fr": "Parapluie Mauve Laqué",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.ROGOTUMUHERES_REPOSE",
             "patch": "5.3"
-        },
-        "x1": {
-            "name_en": "Calming Checkered Parasol",
-            "name_fr": "Ombrelle à carreaux bleue",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "900 Skybuilders' Scrips",
-                "Fête Present"
-            ],
-            "source_fr": [
-                "900 Assignats d'Azurée",
-                "Boîte à cadeaux de feste"
-            ],
-            "patch": "5.31"
-        },
-        "x2": {
-            "name_en": "Cheerful Checkered Parasol",
-            "name_fr": "Ombrelle à carreaux rouge",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "1,800 Skybuilders' Scrips",
-                "Fête Present"
-            ],
-            "source_fr": [
-                "1.800 Assignats d'Azurée",
-                "Boîte à cadeaux de feste"
-            ],
-            "patch": "5.31"
-        },
-        "x3": {
-            "name_en": "Classy Checkered Parasol",
-            "name_fr": "Ombrelle à carreaux noire",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Southern Front Lockbox",
-            "source_fr": "Coffre verrouillé du Front sud de Bozja",
-            "patch": "5.35"
         },
         "x5": {
-            "name_en": "Gold Parasaucer",
-            "name_fr": "Ombrelle du Gold Saucer",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "character.achievement.character.gold-saucer.2803",
-            "patch": "5.4"
+            "name_en": "Gold Paper Parasol",
+            "name_fr": "Parapluie Doré Laqué",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@200,000 CURRENCY.MGP",
+            "patch": "5.3"
         },
-        "x8": {
-            "name_en": "Pleasant Dot Parasol",
-            "name_fr": "Ombrelle bleue à pois",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "25 Bozjan Clusters",
-            "source_fr": "25 Cristaux bozjiens",
-            "patch": "5.45"
-        },
-        "x10": {
-            "name_en": "Prim Dot Parasol",
-            "name_fr": "Ombrelle rose à pois",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Pixie Hoarders - Il Mheg - 100,000 Gil",
-            "source_fr": "Ys Gyuf - Il Mheg - 100.000 gils",
-            "patch": "5.4"
+        "x6": {
+            "name_en": "Calming Checkered Parasol",
+            "name_fr": "Ombrelle À Carreaux Bleue",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "patch": "5.31"
         },
         "x7": {
+            "name_en": "Cheerful Checkered Parasol",
+            "name_fr": "Ombrelle À Carreaux Rouge",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "patch": "5.31"
+        },
+        "x8": {
+            "name_en": "Classy Checkered Parasol",
+            "name_fr": "Ombrelle À Carreaux Noire",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.BOZJA",
+            "patch": "5.35"
+        },
+        "x10": {
+            "name_en": "Gold Parasaucer",
+            "name_fr": "Ombrelle Du Gold Saucer",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "a.2803",
+            "patch": "5.4"
+        },
+        "x11": {
+            "name_en": "Pleasant Dot Parasol",
+            "name_fr": "Ombrelle Bleue À Pois",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@25 CURRENCY.BOZJAN_CLUSTER",
+            "patch": "5.45"
+        },
+        "x12": {
+            "name_en": "Prim Dot Parasol",
+            "name_fr": "Ombrelle Rose À Pois",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.IL_MHEG (100,000 CURRENCY.GIL)",
+            "patch": "5.4"
+        },
+        "x13": {
             "name_en": "Pastoral Dot Parasol",
-            "name_fr": "Ombrelle vert d'eau à pois",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "1,800 Skybuilders' Scrips",
-                "Fête Present"
-            ],
-            "source_fr": [
-                "1.800 Assignats d'Azurée",
-                "Boîte à cadeaux de feste"
-            ],
+            "name_fr": "Ombrelle Vert D'eau À Pois",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
             "patch": "5.41"
         },
         "x14": {
             "name_en": "Fat Cat Parasol",
-            "name_fr": "Ombrelle gros minou",
-            "category": "CATEGORY.EVENT",
-            "source_en": "100 Irregular Tomestone Of Tenfold Pageantry",
-            "source_fr": "100 Mémoquartz allagois festif inhabituel 2023",
-            "patch": "5.5"
+            "name_fr": "Ombrelle Gros Minou",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.MOOGLE_TREASURE_TROVE",
+            "patch": "5.5",
+            "defaultCompletion": "X"
         },
-        "x13": {
+        "x15": {
             "name_en": "Great Paraserpent",
-            "name_fr": "Ombrelle Serpent marin de Ronka ?",
-            "category": "CATEGORY.EVENT",
+            "name_fr": "Parapluie Serpent Marin De Ronka ?",
+            "category": "@CATEGORY.EVENT",
             "source_en": "Community Events Reward",
             "source_fr": "Récompense de concours communautaire",
             "patch": "5.5",
             "defaultCompletion": "X"
         },
-        "x15": {
+        "x16": {
             "name_en": "Red Moon Parasol",
-            "name_fr": "Ombrelle Dalamud",
-            "category": "CATEGORY.EVENT",
-            "source_en": "The Rising (2021)",
-            "source_fr": "Fête de la Commémoration (2021)",
-            "patch": "5.55"
+            "name_fr": "Parapluie Dalamud",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.THE_RISING (2021)",
+            "patch": "5.55",
+            "defaultCompletion": "X"
         },
-        "x21": {
+        "x23": {
             "name_en": "White Lace Parasol",
-            "name_fr": "Ombrelle à dentelle blanche",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Excitatron 6000",
-            "source_fr": "Le Ludodrome",
+            "name_fr": "Ombrelle À Dentelle Blanche",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.6",
             "patch": "6.1"
         },
-        "x22": {
+        "x24": {
             "name_en": "Blue Blossom Parasol",
-            "name_fr": "Ombrelle à fleurs bleues",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Thrall's Unrest",
-            "source_fr": "Subaquatic Voyages - Thrall's Unrest",
+            "name_fr": "Ombrelle À Fleurs Bleues",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.THRALLS_UNREST",
             "patch": "6.1"
-        },
-        "x26": {
-            "name_en": "Sabotender Parasol",
-            "name_fr": "Ombrelle pampa",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.v-and-c-dungeon.sildihn-subterrane.0",
-            "patch": "6.25"
         },
         "x27": {
+            "name_en": "Sabotender Parasol",
+            "name_fr": "Ombrelle Pampa",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "d.868",
+            "patch": "6.28"
+        },
+        "x30": {
             "name_en": "Felicitous Furball Umbrella",
             "name_fr": "Parapluie Chamoiselle",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.3"
         },
-        "x28": {
+        "x31": {
             "name_en": "Raindrop Defense System",
-            "name_fr": "Système de protection anti-gouttes",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.deep-dungeon.2",
+            "name_fr": "Système De Protection Anti-gouttes",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.897",
             "patch": "6.35"
-        },
-        "x33": {
-            "name_en": "Tsukumogami Parasol",
-            "name_fr": "Parapluie Tsukumogami",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
-            "patch": "6.4"
         },
         "x34": {
             "name_en": "Tactful Taskmaster Umbrella",
             "name_fr": "Parapluie Bernartisan",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.4"
         },
-        "x37": {
-            "name_en": "Giant Leaf Parasol",
-            "name_fr": "Parapluie feuille",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
-            "patch": "6.51"
+        "x33": {
+            "name_en": "Tsukumogami Parasol",
+            "name_fr": "Parapluie Tsukumogami",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "d.945",
+            "patch": "6.45"
         },
         "x38": {
             "name_en": "Colorful Carrotsol",
-            "name_fr": "Ombrelle carotte",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
+            "name_fr": "Ombrelle Carotte",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.5"
         },
-        "x0": {
+        "x37": {
+            "name_en": "Giant Leaf Parasol",
+            "name_fr": "Parapluie Feuille",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "d.961",
+            "patch": "6.51"
+        },
+        "x39": {
+            "name_en": "Neon Parasol",
+            "name_fr": "Ombrelle À Néons",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (500 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
+        },
+        "x40": {
+            "name_en": "Ribboned Parasol",
+            "name_fr": "Ombrelle À Rubans",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.05"
+        },
+        "x41": {
+            "name_en": "Bomb Parasol",
+            "name_fr": "Ombrelle Bombo",
+            "category": "@CATEGORY.PVP",
+            "source": "@SOURCE.SERIES_REWARD",
+            "patch": "7.0",
+            "defaultCompletion": "X"
+        },
+        "x42": {
+            "hidden": true,
+            "name_en": "Mandragora Parasol",
+            "name_fr": "Ombrelle Mandragore",
+            "category": "",
+            "source": "",
+            "patch": "7.1"
+        },
+        "x43": {
+            "name_en": "Archon Egg Parasol",
+            "name_fr": "Paraplœuf",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHINGTIDE (2025)",
+            "patch": "7.1",
+            "defaultCompletion": "X"
+        },
+        "x9": {
             "name_en": "Angel Wings",
-            "name_fr": "Ailes angéliques",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "500,000 MGP",
-            "source_fr": "500.000 PGS",
+            "name_fr": "Ailes Angéliques",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@500,000 CURRENCY.MGP",
             "patch": "5.4"
         },
-        "x18": {
+        "x17": {
             "name_en": "Fallen Angel Wings",
-            "name_fr": "Ailes d'ange déchu",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers",
-            "source_fr": "Edelina - Mor Dhona - 500 Bons de livraison de gemmes bicolores",
+            "name_fr": "Ailes D'ange Déchu",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.EDELINA (500 CURRENCY.FATE.VOUCHER)",
             "patch": "6.0"
         },
-        "x16": {
+        "x18": {
             "name_en": "Archangel Wings",
-            "name_fr": "Ailes d'archange",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Excitatron 6000",
-            "source_fr": "Le Ludodrome",
+            "name_fr": "Ailes D'archange",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.6",
             "patch": "6.05"
         },
-        "x17": {
+        "x19": {
             "name_en": "Diabolos Wings",
-            "name_fr": "Ailes de Diabolos",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Sacks of Nuts",
-            "source_fr": "800 Insignes de chasse",
+            "name_fr": "Ailes De Diabolos",
+            "category": "@CATEGORY.THE_HUNT",
+            "source": "@800 CURRENCY.HUNT.SACK_OF_NUTS",
             "patch": "6.0"
         },
         "x20": {
             "name_en": "Pixie Wings",
-            "name_fr": "Ailes de Pixie",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "Timeworn Kumbhiraskin Map",
-            "source_fr": "Vieille carte en peau d'ophiotauros",
+            "name_fr": "Ailes De Pixie",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.maps.15",
             "patch": "6.0"
         },
-        "x25": {
+        "x28": {
             "name_en": "Bluepowder Pixie Wings",
-            "name_fr": "Ailes de Pixie bleues",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
-            "patch": "6.2"
+            "name_fr": "Ailes De Pixie Bleues",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
+            "patch": "6.28"
         },
         "x36": {
             "name_en": "Statice's Wings",
-            "name_fr": "Ailes de Statice",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "3 Aloalo Potsherd",
-            "source_fr": "3 Relique de l'île d'Aloalo",
+            "name_fr": "Ailes De Statice",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@3 CURRENCY.VCD.ALOALO_POTSHERD",
             "patch": "6.51"
-        },
-        "x19": {
-            "name_en": "False Spectacles",
-            "name_fr": "Mirage de lunettes ovales",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "100,000 MGP",
-            "source_fr": "100.000 PGS",
-            "patch": "6.0"
-        },
-        "x23": {
-            "name_en": "False Shaded Spectacles",
-            "name_fr": "Mirage de lunettes teintées",
-            "category": "CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
-            "patch": "6.1"
-        },
-        "x24": {
-            "name_en": "False Classic Spectacles",
-            "name_fr": "Mirage de lunettes classiques",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Anthemoessa",
-            "source_fr": "Expédition sous-marine - Anthemoessa",
-            "patch": "6.1"
-        },
-        "x32": {
-            "name_en": "Rose-colored Spectacles",
-            "name_fr": "Mirage de lunettes roses",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "3 Rokkon Potsherd",
-            "source_fr": "3 Relique du mont Rokkon",
-            "patch": "6.4"
         },
         "x35": {
             "name_en": "Knapsack",
-            "name_fr": "Sac d'explorateur",
-            "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.post-endwalker.70289",
+            "name_fr": "Sac D'explorateur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70289",
             "patch": "6.55"
+        },
+        "x44": {
+            "name_en": "Pelupack",
+            "name_fr": "Sac De Voyage Pelupelu",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (10 CURRENCY.SOCIETY.PELUPELU)",
+            "patch": "7.1"
         }
     }
 }

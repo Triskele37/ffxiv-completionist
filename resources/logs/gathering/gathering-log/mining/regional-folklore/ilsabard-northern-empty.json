@@ -7,65 +7,55 @@
             "level": "90",
             "name_en": "Stonehard Water",
             "name_fr": "Eau extrêmement dure",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
+            "zone": "@PLACE.GARLEMALD",
             "coordinates": "(32.2, 34.9)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
             "cSiblings": [
                 "logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars.0",
                 "logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered.0"
             ],
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x1": {
             "level": "90★",
             "name_en": "Rime Dolomite",
             "name_fr": "Minerai de dolomite boréale",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
+            "zone": "@PLACE.GARLEMALD",
             "coordinates": "(32.2, 34.9)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x2": {
             "level": "90★",
             "name_en": "Raw Eblan Danburite",
             "name_fr": "Danburite brute d'Éblana",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
+            "zone": "@PLACE.GARLEMALD",
             "coordinates": "(32.2, 34.9)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.1"
+            "patch": "6.1",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x3": {
             "level": "90★★",
             "name_en": "Prime Siderite",
             "name_fr": "Sidérite volatile",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
+            "zone": "@PLACE.GARLEMALD",
             "coordinates": "(32.2, 34.9)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.28"
+            "patch": "6.28",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x4": {
             "level": "90★★",
             "name_en": "Sublime Siderite",
             "name_fr": "Sidérite sublimée",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
+            "zone": "@PLACE.GARLEMALD",
             "coordinates": "(32.2, 34.9)",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.28"
+            "patch": "6.28",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         }
     }
 }

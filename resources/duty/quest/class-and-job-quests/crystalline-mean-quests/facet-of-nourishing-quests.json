@@ -1,0 +1,37 @@
+{
+    "key": "facet-of-nourishing-quests",
+    "groupName_en": "Facet of Nourishing Quests",
+    "groupName_fr": "Quêtes des préparateurs",
+    "tasks": {
+        "x68769": {
+            "level": 70,
+            "name_en": "Friends of a Feather",
+            "name_fr": "Cuisine de vétérinaire",
+            "npc_en": "Bethric",
+            "npc_fr": "Bethric",
+            "cPrev": ["q.69191"],
+            "cNext": ["q.68770"],
+            "patch": "5.0"
+        },
+        "x68770": {
+            "level": 75,
+            "name_en": "Where We Belong",
+            "name_fr": "Parmi les siens, c'est moins bien",
+            "npc_en": "Bethric",
+            "npc_fr": "Bethric",
+            "cPrev": ["q.68769"],
+            "cNext": ["q.68771"],
+            "patch": "5.0"
+        },
+        "x68771": {
+            "level": 80,
+            "name_en": "Healing Old Wounds",
+            "name_fr": "Un nouvel envol",
+            "npc_en": "Bethric",
+            "npc_fr": "Bethric",
+            "cPrev": ["q.68770"],
+            "cSiblings": ["a.2325"],
+            "patch": "5.0"
+        }
+    }
+}

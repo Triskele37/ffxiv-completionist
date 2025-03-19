@@ -1,57 +1,47 @@
 {
     "key": "the-far-east",
-    "groupName_en": "The Far East",
-    "groupName_fr": "Orient",
+    "groupName": "@PLACE.FAR_EAST",
     "tasks": {
         "x0": {
-            "name_en": "Shirogane",
-            "name_fr": "Shirogane",
-            "method": "duty.quests.main-scenario.stormblood.68089",
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68089"
-            ]
+            "name": "@PLACE.SHIROGANE",
+            "source": "q.68089",
+            "cSiblings": ["q.68089"]
         },
         "x1": {
-            "name_en": "The Ruby Sea - 1",
-            "name_fr": "Mer de Rubis - 1",
-            "method": "duty.quests.main-scenario.stormblood.68025",
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68025"
-            ]
+            "name": "@PLACE.THE_RUBY_SEA - 1",
+            "source": "q.68025",
+            "cSiblings": ["q.68025"]
         },
         "x2": {
-            "name_en": "The Ruby Sea - 2",
-            "name_fr": "Mer de Rubis - 2",
-            "method_en": "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)",
-            "method_fr": "250 Insignes Centurio (Estrild - Shiokaze, Kugane or Leuekin - L'Étendue de Rhalgr)"
+            "name": "@PLACE.THE_RUBY_SEA - 2",
+            "source": [
+                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
+                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
+            ]
         },
         "x3": {
-            "name_en": "Yanxia - 1",
-            "name_fr": "Yanxia - 1",
-            "method": "duty.quests.main-scenario.stormblood.68032",
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68032"
-            ]
+            "name": "@PLACE.YANXIA - 1",
+            "source": "q.68032",
+            "cSiblings": ["q.68032"]
         },
         "x4": {
-            "name_en": "Yanxia - 2",
-            "name_fr": "Yanxia - 2",
-            "method_en": "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)",
-            "method_fr": "250 Insignes Centurio (Estrild - Shiokaze, Kugane or Leuekin - L'Étendue de Rhalgr)"
-        },
-        "x5": {
-            "name_en": "The Azim Steppe - 1",
-            "name_fr": "Steppe d'Azim - 1",
-            "method": "duty.quests.main-scenario.stormblood.68051",
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68051"
+            "name": "@PLACE.YANXIA - 2",
+            "source": [
+                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
+                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
             ]
         },
+        "x5": {
+            "name": "@PLACE.THE_AZIM_STEPPE - 1",
+            "source": "q.68051",
+            "cSiblings": ["q.68051"]
+        },
         "x6": {
-            "name_en": "The Azim Steppe - 2",
-            "name_fr": "Steppe d'Azim - 2",
-            "method_en": "250 Centurio Seals (Estrild - Shiokaze Hostelry, Kugane or Leuekin - Rhalgr's Reach)",
-            "method_fr": "250 Insignes Centurio (Estrild - Shiokaze, Kugane or Leuekin - L'Étendue de Rhalgr)"
+            "name": "@PLACE.THE_AZIM_STEPPE - 2",
+            "source": [
+                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
+                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
+            ]
         }
     }
 }

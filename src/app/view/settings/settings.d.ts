@@ -3,6 +3,7 @@ export interface Settings {
     storeLocation: StringSetting;
     startingClass: StringSetting;
     lang: StringSetting;
+    useShortNames: BoolSetting;
     tableFilters: {
         completed: BoolSetting;
         incomplete: BoolSetting;
@@ -17,7 +18,10 @@ export interface Settings {
 
 export type Setting = {
     key: string;
+    inSave?: boolean;
 };
+
+export type AnySetting = BoolSetting | NumberSetting | StringSetting;
 
 export type StringSetting = Setting & {
     value?: string;

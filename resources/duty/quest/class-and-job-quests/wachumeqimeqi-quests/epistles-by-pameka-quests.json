@@ -1,0 +1,78 @@
+{
+    "key": "epistles-by-pameka-quests",
+    "groupName_en": "Epistles by Pameka Quests",
+    "groupName_fr": "Quêtes du scriptorium de Pameka",
+    "tasks": {
+        "x70511": {
+            "cNext": ["q.70512"],
+            "cPrev": ["q.70502"],
+            "level": 90,
+            "name_en": "Pameka, the Scrivener",
+            "name_fr": "Il était une fois...",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70512": {
+            "cNext": ["q.70513"],
+            "cPrev": ["q.70511"],
+            "level": 90,
+            "name_en": "Hanu Opportunities",
+            "name_fr": "Le Conte du cueilleur de roseaux",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70513": {
+            "cNext": ["q.70514"],
+            "cPrev": ["q.70512"],
+            "level": 93,
+            "name_en": "This Little Pelu",
+            "name_fr": "Le Petit Pelupelu frêle",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70514": {
+            "cNext": ["q.70515"],
+            "cPrev": ["q.70513"],
+            "level": 95,
+            "name_en": "Oldton Roads",
+            "name_fr": "Les Mobelins et la Caverne aux merveilles",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70515": {
+            "cNext": ["q.70516"],
+            "cPrev": ["q.70514"],
+            "level": 95,
+            "name_en": "Written in Stone",
+            "name_fr": "L'Odyssée du linguiste",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70516": {
+            "cNext": ["q.70517"],
+            "cPrev": ["q.70515"],
+            "level": 98,
+            "name_en": "Reaching for the Sky",
+            "name_fr": "Le Doppro qui veut voler aussi haut que le soleil",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        },
+        "x70517": {
+            "cNext": ["q.70503"],
+            "cPrev": ["q.70516"],
+            "cSiblings": ["a.3505"],
+            "level": 100,
+            "name_en": "A Place in the Sun",
+            "name_fr": "Les Mille et Une Lunes des Tonawawta",
+            "npc_en": "Pameka",
+            "npc_fr": "Pameka",
+            "patch": "7.0"
+        }
+    }
+}

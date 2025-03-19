@@ -1,0 +1,32 @@
+{
+    "key": "tactical",
+    "groupName_en": "Tactical",
+    "groupName_fr": "Tactique",
+    "tasks": {
+        "x0": {
+            "level": "15",
+            "name_en": "React to Attack Markers",
+            "name_fr": "Réagir à des marquages",
+            "role": "@ROLE.ANY",
+            "cNext": [1],
+            "patch": "7.1"
+        },
+        "x1": {
+            "level": "15",
+            "name_en": "React to Floor Markers",
+            "name_fr": "Réagir à des indications au sol",
+            "role": "@ROLE.ANY",
+            "cPrev": [0],
+            "cNext": [2],
+            "patch": "7.1"
+        },
+        "x2": {
+            "level": "15",
+            "name_en": "React to Advanced Visual Indicators",
+            "name_fr": "Réagir à des mécaniques variées",
+            "role": "@ROLE.ANY",
+            "cPrev": [1],
+            "patch": "7.1"
+        }
+    }
+}

@@ -1,5 +1,13 @@
 {
     "key": "quests",
     "groupName_en": "Quests",
-    "groupName_fr": "Quêtes"
+    "groupName_fr": "Quêtes",
+    "order": [
+        "general",
+        "main-scenario",
+        "job-and-role-quests",
+        "levequests",
+        "allied-society-quests",
+        "seasonal-events"
+    ]
 }

@@ -9,12 +9,8 @@
             "name_fr": "Il était une fois un explorateur",
             "npc_en": "Valiant Hart",
             "npc_fr": "Valiant Hart",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1005"
-            ],
+            "cPrev": ["q.66060"],
+            "cSiblings": ["a.1005"],
             "patch": "4.31"
         },
         "x65758": {
@@ -23,17 +19,7 @@
             "name_fr": "Les caisses d'Oswell",
             "npc_en": "Oswell",
             "npc_fr": "Oswell",
-            "cNext": [
-                65760
-            ],
-            "patch": "4.31"
-        },
-        "x66749": {
-            "level": 5,
-            "name_en": "Where the Heart Is (The Goblet)",
-            "name_fr": "La maison de mes rêves à La Coupe",
-            "npc_en": "Imme",
-            "npc_fr": "Imme",
+            "cNext": ["q.65760"],
             "patch": "4.31"
         },
         "x65759": {
@@ -52,18 +38,22 @@
             "npc_fr": "Imme",
             "patch": "4.31"
         },
+        "x66749": {
+            "level": 5,
+            "name_en": "Where the Heart Is (The Goblet)",
+            "name_fr": "La maison de mes rêves à La Coupe",
+            "npc_en": "Imme",
+            "npc_fr": "Imme",
+            "patch": "4.31"
+        },
         "x65760": {
             "level": 6,
             "name_en": "I Believe You Can Fly",
             "name_fr": "Déploie tes ailes",
             "npc_en": "Oswell",
             "npc_fr": "Oswell",
-            "cPrev": [
-                65758
-            ],
-            "cNext": [
-                65762
-            ],
+            "cPrev": ["q.65758"],
+            "cNext": ["q.65762"],
             "patch": "4.31"
         },
         "x65762": {
@@ -72,12 +62,8 @@
             "name_fr": "Des intrus au Bazar",
             "npc_en": "Kikipu",
             "npc_fr": "Kikipu",
-            "cPrev": [
-                65760
-            ],
-            "cNext": [
-                65766
-            ],
+            "cPrev": ["q.65760"],
+            "cNext": ["q.65766"],
             "patch": "4.31"
         },
         "x65763": {
@@ -86,9 +72,7 @@
             "name_fr": "De l'huile pour les Marteaux",
             "npc_en": "Fafafono",
             "npc_fr": "Fafafono",
-            "cNext": [
-                65761
-            ],
+            "cNext": ["q.65761"],
             "patch": "4.31"
         },
         "x65764": {
@@ -97,10 +81,7 @@
             "name_fr": "Le compas de papa",
             "npc_en": "Danyell",
             "npc_fr": "Danyell",
-            "cNext": [
-                65765,
-                65766
-            ],
+            "cNext": ["q.65765", "q.65766"],
             "patch": "4.31"
         },
         "x65761": {
@@ -109,9 +90,7 @@
             "name_fr": "Le Bazar désargenté",
             "npc_en": "Fafafono",
             "npc_fr": "Fafafono",
-            "cPrev": [
-                65763
-            ],
+            "cPrev": ["q.65763"],
             "patch": "4.31"
         },
         "x65765": {
@@ -120,12 +99,8 @@
             "name_fr": "L'heure de lever l'ancre",
             "npc_en": "Galfridus",
             "npc_fr": "Galfridus",
-            "cPrev": [
-                65764
-            ],
-            "cNext": [
-                65766
-            ],
+            "cPrev": ["q.65764"],
+            "cNext": ["q.65766"],
             "patch": "4.31"
         },
         "x65766": {
@@ -134,19 +109,17 @@
             "name_fr": "Une lueur d'espoir pour le Bazar",
             "npc_en": "Kikipu",
             "npc_fr": "Kikipu",
-            "cPrev": [
-                65764,
-                65765,
-                65762
-            ],
+            "cPrev": ["q.65764", "q.65765", "q.65762"],
             "patch": "4.31"
         },
-        "x65875": {
+        "x65594": {
             "level": 10,
-            "name_en": "For Their Eyes Only",
-            "name_fr": "Dans le rouge des yeux",
-            "npc_en": "Zuzutyro",
-            "npc_fr": "Zuzutyro",
+            "name_en": "Simply the Hest",
+            "name_fr": "Opérations de guilde (Ul'dah)",
+            "npc_en": "Totonowa",
+            "npc_fr": "Totonowa",
+            "unlock_en": "Guildhests",
+            "cPrev": ["q.66223"],
             "patch": "4.31"
         },
         "x65873": {
@@ -157,16 +130,12 @@
             "npc_fr": "Fufulupa",
             "patch": "4.31"
         },
-        "x65594": {
+        "x65875": {
             "level": 10,
-            "name_en": "Simply the Hest",
-            "name_fr": "Opérations de guilde (Ul'dah)",
-            "npc_en": "Totonowa",
-            "npc_fr": "Totonowa",
-            "unlock_en": "Guildhests",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "name_en": "For Their Eyes Only",
+            "name_fr": "Dans le rouge des yeux",
+            "npc_en": "Zuzutyro",
+            "npc_fr": "Zuzutyro",
             "patch": "4.31"
         },
         "x65877": {
@@ -175,9 +144,7 @@
             "name_fr": "Ça sang le brûlé",
             "npc_en": "Chechezan",
             "npc_fr": "Chechezan",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65865"
-            ],
+            "cPrev": ["q.65865"],
             "patch": "4.31"
         },
         "x66040": {
@@ -186,9 +153,7 @@
             "name_fr": "Irremplaçables outils",
             "npc_en": "Torrid Whisper",
             "npc_fr": "Torrid Whisper",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65864"
-            ],
+            "cPrev": ["q.65864"],
             "patch": "4.31"
         },
         "x66042": {
@@ -197,9 +162,7 @@
             "name_fr": "Les filets de l'espoir",
             "npc_en": "Edalene",
             "npc_fr": "Edalene",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ],
+            "cPrev": ["q.65868"],
             "patch": "4.31"
         },
         "x65878": {
@@ -208,9 +171,7 @@
             "name_fr": "Le fainéant du Croissant",
             "npc_en": "Osment",
             "npc_fr": "Osment",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ],
+            "cPrev": ["q.65868"],
             "patch": "4.31"
         },
         "x66041": {
@@ -219,9 +180,7 @@
             "name_fr": "Ménage préventif",
             "npc_en": "Totoruna",
             "npc_fr": "Totoruna",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ],
+            "cPrev": ["q.65868"],
             "patch": "4.31"
         },
         "x66235": {
@@ -231,9 +190,7 @@
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
             "unlock_en": "Dyeing",
-            "cNext": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67094"
-            ],
+            "cNext": ["q.67094"],
             "patch": "4.31"
         },
         "x68553": {
@@ -243,12 +200,8 @@
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
             "unlock_en": "Glamour",
-            "cNext": [
-                68554
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66957"
-            ],
+            "cNext": ["q.68554"],
+            "cExclude": ["q.66957"],
             "patch": "4.31"
         },
         "x68554": {
@@ -257,12 +210,8 @@
             "name_fr": "Le mirage est dans le jus",
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
-            "cPrev": [
-                68553
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66958"
-            ],
+            "cPrev": ["q.68553"],
+            "cExclude": ["q.66958"],
             "patch": "4.31"
         },
         "x66960": {
@@ -277,19 +226,17 @@
             "level": 20,
             "name_en": "Hallo Halatali",
             "name_fr": "En route pour Halatali",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.3",
+            "unlock": "d.7",
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66110"
-            ],
+            "cPrev": ["q.66110"],
             "patch": "4.31"
         },
         "x66300": {
             "level": 35,
             "name_en": "Braving New Depths",
             "name_fr": "Départ pour Qarn",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.7",
+            "unlock": "d.9",
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
             "patch": "4.31"
@@ -298,30 +245,9 @@
             "level": 47,
             "name_en": "Going for Gold",
             "name_fr": "Bienvenue au Val",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.11",
+            "unlock": "d.5",
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
-            "patch": "4.31"
-        },
-        "x66671": {
-            "level": 50,
-            "name_en": "Ghosts of Amdapor",
-            "name_fr": "Les fantômes d'Amdapor",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.15",
-            "npc_en": "Nedrick Ironheart",
-            "npc_fr": "Nedrick Ironheart",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "patch": "4.31"
-        },
-        "x66406": {
-            "level": 50,
-            "name_en": "Trauma Queen",
-            "name_fr": "Le palais d'Allene",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.14",
-            "npc_en": "Allene",
-            "npc_fr": "Allene",
             "patch": "4.31"
         },
         "x66241": {
@@ -330,21 +256,38 @@
             "name_fr": "Le forgeron légendaire",
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "cNext": [
-                "duty.quests.class--job.disciple-of-war-job.paladin.66656",
-                "duty.quests.class--job.disciple-of-war-job.warrior.66655",
-                "duty.quests.class--job.disciple-of-war-job.monk.66657",
-                "duty.quests.class--job.disciple-of-war-job.dragoon.66658",
-                "duty.quests.class--job.disciple-of-war-job.bard.66661",
-                "duty.quests.class--job.disciple-of-magic-job.white-mage.66660",
-                "duty.quests.class--job.disciple-of-magic-job.black-mage.66659",
-                "duty.quests.class--job.disciple-of-magic-job.scholar.66663",
-                "duty.quests.class--job.disciple-of-magic-job.summoner.66662",
-                "duty.quests.class--job.disciple-of-war-job.ninja.67115"
+                "q.66656",
+                "q.66655",
+                "q.66657",
+                "q.66658",
+                "q.66661",
+                "q.66660",
+                "q.66659",
+                "q.66663",
+                "q.66662",
+                "q.67115"
             ],
+            "patch": "4.31"
+        },
+        "x66406": {
+            "level": 50,
+            "name_en": "Trauma Queen",
+            "name_fr": "Le palais d'Allene",
+            "unlock": "d.10",
+            "npc_en": "Allene",
+            "npc_fr": "Allene",
+            "patch": "4.31"
+        },
+        "x66671": {
+            "level": 50,
+            "name_en": "Ghosts of Amdapor",
+            "name_fr": "Les fantômes d'Amdapor",
+            "unlock": "d.14",
+            "npc_en": "Nedrick Ironheart",
+            "npc_fr": "Nedrick Ironheart",
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         }
     }

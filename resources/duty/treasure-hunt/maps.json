@@ -4,17 +4,14 @@
     "groupName_fr": "Cartes aux trésors",
     "headers": {
         "name": {
-            "header_en": "Map",
-            "header_fr": "Carte"
+            "header": "@HEADER.NAME"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -106,10 +103,7 @@
         "x11": {
             "name_en": "Timeworn Thief's Map",
             "name_fr": "Carte de portail magique caché",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.3"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.3"],
             "patch": "4.1"
         },
         "x12": {
@@ -146,6 +140,20 @@
             "source_en": "Level 90 gathering",
             "source_fr": "Récolte à partir du niveau 90",
             "patch": "6.3"
+        },
+        "x17": {
+            "name_en": "Timeworn Loboskin Map",
+            "name_fr": "Vieille carte en peau de loup argenté",
+            "source_en": "Level 100 gathering",
+            "source_fr": "Récolte à partir du niveau 100",
+            "patch": "7.0"
+        },
+        "x18": {
+            "name_en": "Timeworn Br'aaxskin Map",
+            "name_fr": "Vieille carte en peau de br'aax",
+            "source_en": "Level 100 gathering",
+            "source_fr": "Récolte à partir du niveau 100",
+            "patch": "7.0"
         }
     }
 }

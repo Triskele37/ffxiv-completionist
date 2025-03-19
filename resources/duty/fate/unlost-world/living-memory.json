@@ -1,0 +1,115 @@
+{
+    "key": "living-memory",
+    "groupName_en": "Living Memory",
+    "groupName_fr": "La Mémoire vivante",
+    "tasks": {
+        "x1911": {
+            "level": 99,
+            "location": "(15.9, 16.2)",
+            "name_en": "Invaders from Asyle",
+            "name_fr": "Envahisseurs envahissants",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1912": {
+            "level": 99,
+            "location": "(7.1, 9.0)",
+            "name_en": "Feed Me, Sentries",
+            "name_fr": "Défi : la fleur pensante",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1913": {
+            "level": 99,
+            "location": "(7.2, 15.1)",
+            "name_en": "Seeds of Tomorrow",
+            "name_fr": "Graines à protéger",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1914": {
+            "level": 99,
+            "location": "(8.3, 34.0)",
+            "name_en": "Plumbers Don't Fear Slimes",
+            "name_fr": "Labyrinthe aquatique",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1915": {
+            "level": 99,
+            "location": "(8.3, 34.0)",
+            "name_en": "Slime to Die",
+            "name_fr": "Défi : nettoyage de canaux",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "previousFate": "f.1914"
+        },
+        "x1916": {
+            "level": 99,
+            "location": "(11.6, 34.4)",
+            "name_en": "Canal Carnage",
+            "name_fr": "Éternité lacustre",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1917": {
+            "level": 99,
+            "location": "(27.3, 8.7)",
+            "name_en": "Scattered Memories",
+            "name_fr": "Souvenirs robotiques",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1918": {
+            "level": 99,
+            "location": "(25.1, 5.9)",
+            "name_en": "Critical Corruption",
+            "name_fr": "Contre son camp",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "previousFate": "f.1917"
+        },
+        "x1919": {
+            "level": 99,
+            "location": "(26.7, 15.6)",
+            "name_en": "Horse in the Round",
+            "name_fr": "Défi : le cheval écarlate",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1920": {
+            "level": 99,
+            "location": "(35.8, 34.2)",
+            "name_en": "Mascot March",
+            "name_fr": "Mica le mu : début du spectacle",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1921": {
+            "level": 99,
+            "location": "(35.8, 34.2)",
+            "name_en": "Mascot Mayhem",
+            "name_fr": "Mica le mu : la grotesque parade",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "previousFate": "f.1920"
+        },
+        "x1923": {
+            "level": 99,
+            "location": "(31.2, 31.4)",
+            "name_en": "No Loitering",
+            "name_fr": "Un monde englouti",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1922": {
+            "level": 100,
+            "location": "(37.3, 33.4)",
+            "name_en": "Mascot Murder",
+            "name_fr": "Mica le mu : le grand final",
+            "patch": "7.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "previousFate": "f.1921"
+        }
+    }
+}

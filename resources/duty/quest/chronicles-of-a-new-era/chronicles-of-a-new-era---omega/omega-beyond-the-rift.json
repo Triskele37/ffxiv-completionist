@@ -1,0 +1,27 @@
+{
+    "key": "omega-beyond-the-rift",
+    "groupName_en": "Omega: Beyond the Rift",
+    "groupName_fr": "Oméga - En quête de réponses",
+    "tasks": {
+        "x70122": {
+            "level": 90,
+            "name_en": "A Heartless Hypothesis",
+            "name_fr": "Voyage à cœur ouvert",
+            "npc_en": "Bespectacled Technician",
+            "npc_fr": "Ingénieure En Aérospatiale",
+            "cPrev": ["q.70000", "q.68693"],
+            "cNext": ["q.70123"],
+            "patch": "6.28"
+        },
+        "x70123": {
+            "level": 90,
+            "name_en": "Good-bye, ε̆│̆│Δ",
+            "name_fr": "∀∪ я∈vФiя, FIN?",
+            "npc_en": "Omega",
+            "npc_fr": "Oméga",
+            "cPrev": ["q.70122"],
+            "patch": "6.28",
+            "unlock": "o.509"
+        }
+    }
+}

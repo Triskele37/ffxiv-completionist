@@ -1,0 +1,413 @@
+{
+    "key": "moonfire-faire-events",
+    "groupName_en": "Moonfire Faire Events",
+    "groupName_fr": "Feux de la Mort",
+    "tasks": {
+        "x67070": {
+            "level": 15,
+            "name_en": "Streets of Moonfire (Gridania)",
+            "name_fr": "Les Feux de la Mort ressuscités (Gridania)",
+            "npc_en": "Moonfire Faire Chaperone",
+            "npc_fr": "Organisatrice Des Feux de la Mort",
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67071", "q.67072"],
+            "patch": "4.31"
+        },
+        "x67071": {
+            "level": 15,
+            "name_en": "Streets of Moonfire (Limsa Lominsa)",
+            "name_fr": "Les Feux de la Mort ressuscités (Limsa Lominsa)",
+            "npc_en": "Moonfire Faire Chaperone",
+            "npc_fr": "Organisatrice Des Feux de la Mort",
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67070", "q.67072"],
+            "patch": "4.31"
+        },
+        "x67072": {
+            "level": 15,
+            "name_en": "Streets of Moonfire (Ul'dah)",
+            "name_fr": "Les Feux de la Mort ressuscités (Ul'dah)",
+            "npc_en": "Moonfire Faire Chaperone",
+            "npc_fr": "Organisatrice Des Feux de la Mort",
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67070", "q.67071"],
+            "patch": "4.31"
+        },
+        "x67073": {
+            "level": 15,
+            "name_en": "Drench It! Moonfire Faire",
+            "name_fr": "Un spectacle torride",
+            "cPrevAny": true,
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67076"],
+            "patch": "4.31"
+        },
+        "x67074": {
+            "level": 15,
+            "name_en": "Blast It! Moonfire Faire",
+            "name_fr": "Un spectacle détonant",
+            "cPrevAny": true,
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67077"],
+            "patch": "4.31"
+        },
+        "x67075": {
+            "level": 15,
+            "name_en": "Explode It! Moonfire Faire",
+            "name_fr": "Un spectacle explosif",
+            "cPrevAny": true,
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67078"],
+            "patch": "4.31"
+        },
+        "x67076": {
+            "level": 15,
+            "name_en": "A Rousing Douse",
+            "name_fr": "Au feu les pompiers!",
+            "npc_en": "Ethelia",
+            "npc_fr": "Ethelia",
+            "cPrev": ["q.67073"],
+            "cNext": ["q.67079"],
+            "patch": "4.31"
+        },
+        "x67077": {
+            "level": 15,
+            "name_en": "The Cannon-do Spirit",
+            "name_fr": "Beau comme un canon!",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cPrev": ["q.67074"],
+            "cNext": ["q.67079"],
+            "patch": "4.31"
+        },
+        "x67078": {
+            "level": 15,
+            "name_en": "A Very Cherry Bomb",
+            "name_fr": "Faisons la bombe!",
+            "npc_en": "J'nangho",
+            "npc_fr": "J'nangho",
+            "cPrev": ["q.67075"],
+            "cNext": ["q.67079"],
+            "patch": "4.31"
+        },
+        "x67079": {
+            "level": 15,
+            "name_en": "Remember Me This Moonfire Faire",
+            "name_fr": "La flamme d'un espoir renaissant",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.67076", "q.67077", "q.67078"],
+            "cSiblings": ["a.1002"],
+            "patch": "4.31"
+        },
+        "x67660": {
+            "level": 30,
+            "name_en": "Reigniting the Festivities",
+            "name_fr": "La mort à la plage",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cNext": ["q.67662", "q.67661", "q.67663"],
+            "patch": "4.31"
+        },
+        "x67661": {
+            "level": 30,
+            "name_en": "A Matter of Taste",
+            "name_fr": "Le feu de la friture",
+            "npc_en": "C'zibho Tia",
+            "npc_fr": "C'zibho Tia",
+            "cPrev": ["q.67660"],
+            "patch": "4.31"
+        },
+        "x67662": {
+            "level": 5,
+            "name_en": "What's in the Dish",
+            "name_fr": "Plus frais, tu meurs",
+            "npc_en": "Espan",
+            "npc_fr": "Espan",
+            "cPrev": ["q.67660"],
+            "patch": "4.31"
+        },
+        "x67663": {
+            "level": 30,
+            "name_en": "An Adventurer's Life for Me",
+            "name_fr": "La belle, les brutes et les aventuriers",
+            "npc_en": "P'obyano",
+            "npc_fr": "P'obyano",
+            "cPrev": ["q.67660"],
+            "cSiblings": ["a.1191"],
+            "patch": "4.31"
+        },
+        "x67672": {
+            "level": 30,
+            "name_en": "Heroes of Tomorrow",
+            "name_fr": "Des atouts mortels",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.67673"],
+            "patch": "4.31"
+        },
+        "x67673": {
+            "level": 30,
+            "name_en": "Dashing and Burning",
+            "name_fr": "L'ardeur rutilante des bombattants",
+            "npc_en": "J'nangho",
+            "npc_fr": "J'nangho",
+            "cPrev": ["q.67672"],
+            "cNext": ["q.67674"],
+            "patch": "4.31"
+        },
+        "x67674": {
+            "level": 30,
+            "name_en": "Hot 'n Cold",
+            "name_fr": "Le souffle sombre des bombattants",
+            "npc_en": "J'nangho",
+            "npc_fr": "J'nangho",
+            "cPrev": ["q.67673"],
+            "cNext": ["q.67675"],
+            "patch": "4.31"
+        },
+        "x67675": {
+            "level": 30,
+            "name_en": "Who Let the Bombs Out",
+            "name_fr": "Le fleuron doré des bombattants",
+            "npc_en": "J'nangho",
+            "npc_fr": "J'nangho",
+            "cPrev": ["q.67674"],
+            "cNext": ["q.67676"],
+            "patch": "4.31"
+        },
+        "x67676": {
+            "level": 30,
+            "name_en": "A Battle Royal",
+            "name_fr": "Bombattants, en avant!",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.67675"],
+            "cSiblings": ["a.1596"],
+            "patch": "4.31"
+        },
+        "x68492": {
+            "level": 30,
+            "name_en": "The Isle and the Faire",
+            "name_fr": "Le festival de l'Éternel été",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.68495", "q.68493", "q.68496", "q.68494"],
+            "patch": "4.31"
+        },
+        "x68493": {
+            "level": 30,
+            "name_en": "These Fireworks Won't Light Themselves",
+            "name_fr": "Les feux d'artifice de l'Éternel été",
+            "npc_en": "P'obyano",
+            "npc_fr": "P'obyano",
+            "cPrev": ["q.68492"],
+            "patch": "4.31"
+        },
+        "x68494": {
+            "level": 30,
+            "name_en": "Fried Fish Is the Best Fish",
+            "name_fr": "La cuisine de l'Éternel été",
+            "npc_en": "Hildelana",
+            "npc_fr": "Hildelana",
+            "cPrev": ["q.68492"],
+            "patch": "4.31"
+        },
+        "x68495": {
+            "level": 5,
+            "name_en": "You Had Me at Haddock",
+            "name_fr": "La pêche de l'Éternel été",
+            "npc_en": "Beaudefoin",
+            "npc_fr": "Beaudefoin",
+            "cPrev": ["q.68492"],
+            "patch": "4.31"
+        },
+        "x68496": {
+            "level": 30,
+            "name_en": "The True Meaning of Summer",
+            "name_fr": "Le trésor de l'Éternel été",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.68492"],
+            "cSiblings": ["a.1785"],
+            "patch": "4.31"
+        },
+        "x68671": {
+            "level": 30,
+            "name_en": "Jump to the Beach",
+            "name_fr": "Voilà l'été",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.68672"],
+            "patch": "4.31"
+        },
+        "x68672": {
+            "level": 30,
+            "name_en": "Eorzean Nimble Warrior",
+            "name_fr": "La sentence irrévocable du parcours des héros",
+            "npc_en": "Beaudefoin",
+            "npc_fr": "Beaudefoin",
+            "cPrev": ["q.68671"],
+            "cNext": ["q.68673"],
+            "patch": "4.31"
+        },
+        "x68673": {
+            "level": 30,
+            "name_en": "If at First You Don't Succeed, Give Up",
+            "name_fr": "Dernier saut, premiers pas",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.68672"],
+            "cSiblings": ["a.2104"],
+            "patch": "4.31"
+        },
+        "x69199": {
+            "level": 30,
+            "name_en": "Feels Like Moonfire",
+            "name_fr": "Novice des Feux de la Mort",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.69203", "q.69200", "q.69201", "q.69202"],
+            "patch": "5.0"
+        },
+        "x69200": {
+            "level": 30,
+            "name_en": "Anything You Can Do",
+            "name_fr": "Les Feux de l'admiration",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.69199"],
+            "cSiblings": ["a.2398"],
+            "patch": "5.0"
+        },
+        "x69201": {
+            "level": 30,
+            "name_en": "High-flying Hijinks",
+            "name_fr": "Des Feux bondissants",
+            "npc_en": "Course Registrar",
+            "npc_fr": "Responsable Des Inscriptions",
+            "cPrev": ["q.69199"],
+            "patch": "5.0"
+        },
+        "x69202": {
+            "level": 30,
+            "name_en": "Frying for Fame and Fortune",
+            "name_fr": "La cuisine de la Mort",
+            "npc_en": "Hildelana",
+            "npc_fr": "Hildelana",
+            "cPrev": ["q.69199"],
+            "patch": "5.0"
+        },
+        "x69203": {
+            "level": 5,
+            "name_en": "Hook, Line, and Sinker",
+            "name_fr": "Les Feux de la pêche",
+            "npc_en": "J'nangho",
+            "npc_fr": "J'nangho",
+            "cPrev": ["q.69199"],
+            "patch": "5.0"
+        },
+        "x69502": {
+            "level": 30,
+            "name_en": "A Fish Too Far",
+            "name_fr": "Feux de la Mort contre super squale",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.69503"],
+            "patch": "5.3"
+        },
+        "x69503": {
+            "level": 30,
+            "name_en": "Flame On",
+            "name_fr": "La danse de l'été",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.69502"],
+            "cSiblings": ["a.2646"],
+            "patch": "5.3"
+        },
+        "x69618": {
+            "level": 30,
+            "name_en": "Unseasonable Chills",
+            "name_fr": "Ils sont givrés, ces bombardos!",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.69619"],
+            "patch": "5.5"
+        },
+        "x69619": {
+            "level": 30,
+            "name_en": "A Treat to Beat the Heat",
+            "name_fr": "Un sorbet fait avec le cœur",
+            "npc_en": "Nekeke",
+            "npc_fr": "Nekeke",
+            "cPrev": ["q.69618"],
+            "cSiblings": ["a.2853"],
+            "patch": "5.5"
+        },
+        "x70076": {
+            "level": 30,
+            "name_en": "A Matter of Course",
+            "name_fr": "Pas dans l'tas le r'voilà",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.70077"],
+            "patch": "6.1"
+        },
+        "x70077": {
+            "level": 30,
+            "name_en": "Fhul Me Once",
+            "name_fr": "Un premier pas vers un nouveau départ",
+            "npc_en": "R'fhul Tia",
+            "npc_fr": "R'fhul Tia",
+            "cPrev": ["q.70076"],
+            "cSiblings": ["a.3080"],
+            "patch": "6.1"
+        },
+        "x70259": {
+            "level": 30,
+            "name_en": "Allergic to Sunshine",
+            "name_fr": "La Mort vous va si mal",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "cNext": ["q.70260"],
+            "patch": "6.3"
+        },
+        "x70260": {
+            "level": 30,
+            "name_en": "I Am the Sunshine",
+            "name_fr": "Le phénix et son ange gardien",
+            "npc_en": "Haermaga",
+            "npc_fr": "Haermaga",
+            "cPrev": ["q.70259"],
+            "cSiblings": ["a.3207"],
+            "patch": "6.3"
+        },
+        "x70718": {
+            "cNext": ["q.70719"],
+            "level": 30,
+            "name_en": "Fire Red, Beast Green",
+            "name_fr": "Des créatures vertes aux Feux de la Mort",
+            "npc_en": "Mayaru Moyaru",
+            "npc_fr": "Mayaru Moyaru",
+            "patch": "7.0",
+            "unlock": ["e.278"]
+        },
+        "x70719": {
+            "cPrev": ["q.70718"],
+            "cSiblings": ["a.3568"],
+            "level": 30,
+            "name_en": "Festival Fan Frenzy",
+            "name_fr": "Éventails contre pampas",
+            "npc_en": "Beaudefoin",
+            "npc_fr": "Beaudefoin",
+            "patch": "7.0"
+        }
+    }
+}

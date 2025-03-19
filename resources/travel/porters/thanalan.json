@@ -1,95 +1,83 @@
 {
     "key": "thanalan",
-    "groupName_en": "Thanalan",
-    "groupName_fr": "Thanalan",
-    "common": ["zone"],
+    "groupName": "@PLACE.THANALAN",
     "tasks": {
         "x17": {
             "name_en": "Ul'dah",
             "name_fr": "Ul'dah",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x18": {
             "name_en": "Horizon",
             "name_fr": "Horizon",
-            "zone_en": "Western Thanalan",
-            "zone_fr": "Thanalan occidental",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.WESTERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x19": {
             "name_en": "The Silver Bazaar",
             "name_fr": "Bazar argenté",
-            "zone_en": "Western Thanalan",
-            "zone_fr": "Thanalan occidental",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.WESTERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x20": {
             "name_en": "Vesper Bay",
             "name_fr": "Baie des Vêpres",
-            "zone_en": "Western Thanalan",
-            "zone_fr": "Thanalan occidental",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.WESTERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x21": {
             "name_en": "Black Brush Station",
             "name_fr": "Gare de Roncenoire",
-            "zone_en": "Central Thanalan",
-            "zone_fr": "Thalana central",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.CENTRAL_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x22": {
             "name_en": "Camp Drybone",
             "name_fr": "Camp des Os desséchés",
-            "zone_en": "Eastern Thanalan",
-            "zone_fr": "Thanalan oriental",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.EASTERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x23": {
             "name_en": "The Golden Bazaar",
             "name_fr": "Bazar doré",
-            "zone_en": "Eastern Thanalan",
-            "zone_fr": "Thanalan oriental",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.EASTERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x24": {
             "name_en": "Little Ala Mhigo",
             "name_fr": "Petite Ala Mhigo",
-            "zone_en": "Southern Thanalan",
-            "zone_fr": "Thanalan méridional",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x25": {
             "name_en": "Forgotten Springs",
             "name_fr": "Oasis oubliée",
-            "zone_en": "Southern Thanalan",
-            "zone_fr": "Thanalan méridional",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x26": {
             "name_en": "Camp Bluefog",
             "name_fr": "Camp de brumebleue",
-            "zone_en": "Northern Thanalan",
-            "zone_fr": "Thanalan septentrional",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.NORTHERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         },
         "x27": {
             "name_en": "Ceruleum Processing Plant",
             "name_fr": "Usine de céruleum",
-            "zone_en": "Northern Thanalan",
-            "zone_fr": "Thanalan septentrional",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.NORTHERN_THANALAN",
+            "type": "@TYPE.PORTER.CHOCOBO",
+            "patch": "2.0"
         }
     }
 }

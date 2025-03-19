@@ -1,0 +1,193 @@
+{
+    "key": "dark-knight-quests",
+    "groupName_en": "Dark Knight Quests",
+    "groupName_fr": "Quêtes de chevalier noir",
+    "tasks": {
+        "x67589": {
+            "level": 50,
+            "name_en": "Our End",
+            "name_fr": "Un cadavre tout Fray",
+            "npc_en": "Ishgardian Citizen",
+            "npc_fr": "Citoyen Ishgardais",
+            "cPrev": ["q.67646"],
+            "cNext": ["q.67590"],
+            "cSiblings": ["ap.167"],
+            "patch": "4.31",
+            "unlock": "ap.167"
+        },
+        "x67590": {
+            "level": 30,
+            "name_en": "Ishgardian Justice",
+            "name_fr": "Avant-goût des ténèbres",
+            "npc_en": "Fray",
+            "npc_fr": "Fray",
+            "cPrev": ["q.67589"],
+            "cNext": ["q.67591"],
+            "patch": "4.31"
+        },
+        "x67591": {
+            "level": 35,
+            "name_en": "The Voice in the Abyss",
+            "name_fr": "Première Communion",
+            "npc_en": "Fray",
+            "npc_fr": "Fray",
+            "cPrev": ["q.67590"],
+            "cNext": ["q.67592"],
+            "patch": "4.31"
+        },
+        "x67592": {
+            "level": 40,
+            "name_en": "Heroic Reprise",
+            "name_fr": "Le prix du sang",
+            "npc_en": "Fray",
+            "npc_fr": "Fray",
+            "cPrev": ["q.67591"],
+            "cNext": ["q.67593"],
+            "patch": "4.31"
+        },
+        "x67593": {
+            "level": 45,
+            "name_en": "Declaration of Blood",
+            "name_fr": "Quand le sang monte à la tête",
+            "npc_en": "Fray",
+            "npc_fr": "Fray",
+            "cPrev": ["q.67592"],
+            "cNext": ["q.67594"],
+            "patch": "4.31"
+        },
+        "x67594": {
+            "level": 50,
+            "name_en": "Our Answer",
+            "name_fr": "Le côté obscur",
+            "npc_en": "Fray",
+            "npc_fr": "Fray",
+            "cPrev": ["q.67593"],
+            "cNext": ["q.67595"],
+            "cSiblings": ["a.1151"],
+            "patch": "4.31"
+        },
+        "x67595": {
+            "level": 50,
+            "name_en": "The Wages of Mercy",
+            "name_fr": "L'autre chevalier noir",
+            "npc_en": "Unflinching Temple Knight",
+            "npc_fr": "Templier Déterminé",
+            "cPrev": ["q.67594"],
+            "cNext": ["q.67596"],
+            "patch": "4.31"
+        },
+        "x67596": {
+            "level": 52,
+            "name_en": "The Knight and the Maiden Fair",
+            "name_fr": "Un esprit supérieur",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67595"],
+            "cNext": ["q.67597"],
+            "patch": "4.31"
+        },
+        "x67597": {
+            "level": 54,
+            "name_en": "Kindred Spirits",
+            "name_fr": "Secrets de famille",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67596"],
+            "cNext": ["q.67598"],
+            "patch": "4.31"
+        },
+        "x67598": {
+            "level": 56,
+            "name_en": "Original Sins",
+            "name_fr": "La haine d'une mère",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67597"],
+            "cNext": ["q.67599"],
+            "patch": "4.31"
+        },
+        "x67599": {
+            "level": 58,
+            "name_en": "The Flame in the Abyss",
+            "name_fr": "La vérité sort de la bouche des Mogs",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67598"],
+            "cNext": ["q.67600"],
+            "patch": "4.31"
+        },
+        "x67600": {
+            "level": 60,
+            "name_en": "Absolution",
+            "name_fr": "Le triomphe de la flamme",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67599"],
+            "cNext": ["q.68451"],
+            "cSiblings": ["a.1154"],
+            "patch": "4.31"
+        },
+        "x68451": {
+            "level": 60,
+            "name_en": "In Memories We Walked",
+            "name_fr": "De lumière et de ténèbres",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.67600", "q.67895"],
+            "cNext": ["q.68452"],
+            "patch": "4.31"
+        },
+        "x68452": {
+            "level": 63,
+            "name_en": "The Widow and Her Love",
+            "name_fr": "Le juste châtiment",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.68451"],
+            "cNext": ["q.68453"],
+            "patch": "4.31"
+        },
+        "x68453": {
+            "level": 65,
+            "name_en": "The Orphans and the Broken Blade",
+            "name_fr": "L'aspiration refoulée",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.68452"],
+            "cNext": ["q.68454"],
+            "patch": "4.31"
+        },
+        "x68454": {
+            "level": 68,
+            "name_en": "We Can Never Go Home",
+            "name_fr": "Le recueillement du désespoir",
+            "npc_en": "Myste",
+            "npc_fr": "Myste",
+            "cPrev": ["q.68453"],
+            "cNext": ["q.68455"],
+            "patch": "4.31"
+        },
+        "x68455": {
+            "level": 70,
+            "name_en": "Our Compromise",
+            "name_fr": "La dernière séparation",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.68454"],
+            "cNext": ["q.68757"],
+            "cSiblings": ["a.1807"],
+            "patch": "4.31"
+        },
+        "x68757": {
+            "level": 80,
+            "name_en": "Our Closure",
+            "name_fr": "Lettre au chevalier jamais oublié",
+            "npc_en": "Sidurgu",
+            "npc_fr": "Sidurgu",
+            "cPrev": ["q.68455", "q.68784", "q.69190"],
+            "cSiblings": ["ap.302", "a.2316"],
+            "patch": "5.0",
+            "unlock": "ap.302"
+        }
+    }
+}

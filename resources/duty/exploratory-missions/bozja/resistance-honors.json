@@ -4,8 +4,7 @@
     "groupName_fr": "Médailles de la résistance",
     "headers": {
         "name": {
-            "header_en": "Honor",
-            "header_fr": "Médaille de la résistance"
+            "header": "@HEADER.NAME"
         },
         "proofs": {
             "header_en": "Proofs",
@@ -23,9 +22,7 @@
             "proofs_en": "Every 2 stacks increases proof cost by 1",
             "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
             "cComboAt": {
-                "10": [
-                    "character.achievement.battle.field-operations.2882"
-                ]
+                "10": ["a.2882"]
             }
         },
         "x1": {
@@ -36,9 +33,7 @@
             "proofs_en": "Every 2 stacks increases proof cost by 1",
             "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
             "cComboAt": {
-                "10": [
-                    "character.achievement.battle.field-operations.2882"
-                ]
+                "10": ["a.2882"]
             }
         },
         "x2": {
@@ -49,9 +44,7 @@
             "proofs_en": "Every 2 stacks increases proof cost by 1",
             "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
             "cComboAt": {
-                "10": [
-                    "character.achievement.battle.field-operations.2882"
-                ]
+                "10": ["a.2882"]
             }
         }
     }

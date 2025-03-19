@@ -9,9 +9,7 @@
             "name_fr": "Que veut dire ton nom?",
             "npc_en": "Sigun Ul",
             "npc_fr": "Sigun Ul",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68842"
-            ],
+            "cPrev": ["q.68842"],
             "patch": "5.0"
         },
         "x68929": {
@@ -19,10 +17,8 @@
             "name_en": "A Hairy Request",
             "name_fr": "Un dangereux goûter",
             "npc_en": "Sweet-toothed Pixie",
-            "npc_fr": "Pixie gourmande",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68842"
-            ],
+            "npc_fr": "Pixie Gourmande",
+            "cPrev": ["q.68842"],
             "patch": "5.0"
         },
         "x68930": {
@@ -30,10 +26,8 @@
             "name_en": "Flowers of Fury",
             "name_fr": "De très vilains humains",
             "npc_en": "Pixie Flowerkeep",
-            "npc_fr": "Pixie amatrice de fleurs",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68842"
-            ],
+            "npc_fr": "Pixie Amatrice De Fleurs",
+            "cPrev": ["q.68842"],
             "patch": "5.0"
         },
         "x68931": {
@@ -43,15 +37,9 @@
             "unlock": "travel.aether-currents.shb.il-mheg.13",
             "npc_en": "Lad Kenn",
             "npc_fr": "Lad Kenn",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68842"
-            ],
-            "cNext": [
-                68932
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.il-mheg.13"
-            ],
+            "cPrev": ["q.68842"],
+            "cNext": ["q.68932"],
+            "cSiblings": ["travel.aether-currents.shb.il-mheg.13"],
             "patch": "5.0"
         },
         "x68932": {
@@ -60,12 +48,8 @@
             "name_fr": "L'appel du castor",
             "npc_en": "Lad Kenn",
             "npc_fr": "Lad Kenn",
-            "cPrev": [
-                68931
-            ],
-            "cNext": [
-                68933
-            ],
+            "cPrev": ["q.68931"],
+            "cNext": ["q.68933"],
             "patch": "5.0"
         },
         "x68933": {
@@ -74,9 +58,7 @@
             "name_fr": "Mais où sont les Pixies?",
             "npc_en": "Lad Kenn",
             "npc_fr": "Lad Kenn",
-            "cPrev": [
-                68932
-            ],
+            "cPrev": ["q.68932"],
             "patch": "5.0"
         },
         "x68934": {
@@ -85,16 +67,10 @@
             "name_fr": "Les as de la déco",
             "unlock": "travel.aether-currents.shb.il-mheg.12",
             "npc_en": "Exuberant Pixie",
-            "npc_fr": "Pixie tapageuse",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68846"
-            ],
-            "cNext": [
-                68935
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.il-mheg.12"
-            ],
+            "npc_fr": "Pixie Tapageuse",
+            "cPrev": ["q.68846"],
+            "cNext": ["q.68935"],
+            "cSiblings": ["travel.aether-currents.shb.il-mheg.12"],
             "patch": "5.0"
         },
         "x68935": {
@@ -102,10 +78,8 @@
             "name_en": "Bewitched Books",
             "name_fr": "Quand les livres auront des dents",
             "npc_en": "Exuberant Pixie",
-            "npc_fr": "Pixie tapageuse",
-            "cPrev": [
-                68934
-            ],
+            "npc_fr": "Pixie Tapageuse",
+            "cPrev": ["q.68934"],
             "patch": "5.0"
         },
         "x68936": {
@@ -113,10 +87,8 @@
             "name_en": "Revolting Refreshments",
             "name_fr": "Un goûter immangeable",
             "npc_en": "Dispirited Pixie",
-            "npc_fr": "Pixie chagrinée",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68846"
-            ],
+            "npc_fr": "Pixie Chagrinée",
+            "cPrev": ["q.68846"],
             "patch": "5.0"
         },
         "x68937": {
@@ -124,10 +96,8 @@
             "name_en": "An Artist's Tale",
             "name_fr": "Des enfeuillés plus vrais que nature",
             "npc_en": "Art-loving Pixie",
-            "npc_fr": "Pixie amatrice d'art",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68847"
-            ],
+            "npc_fr": "Pixie Amatrice D'art",
+            "cPrev": ["q.68847"],
             "patch": "5.0"
         },
         "x68938": {
@@ -135,10 +105,8 @@
             "name_en": "Counting Pixies",
             "name_fr": "Compter les Pixies",
             "npc_en": "Chipper Pixie",
-            "npc_fr": "Pixie allègre",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68847"
-            ],
+            "npc_fr": "Pixie Allègre",
+            "cPrev": ["q.68847"],
             "patch": "5.0"
         },
         "x68939": {
@@ -147,9 +115,7 @@
             "name_fr": "Sus aux ours!",
             "npc_en": "An Iala",
             "npc_fr": "An Iala",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68847"
-            ],
+            "cPrev": ["q.68847"],
             "patch": "5.0"
         },
         "x68940": {
@@ -159,15 +125,9 @@
             "unlock": "travel.aether-currents.shb.il-mheg.11",
             "npc_en": "Ul Thon",
             "npc_fr": "Ul Thon",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68847"
-            ],
-            "cNext": [
-                68941
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.il-mheg.11"
-            ],
+            "cPrev": ["q.68847"],
+            "cNext": ["q.68941"],
+            "cSiblings": ["travel.aether-currents.shb.il-mheg.11"],
             "patch": "5.0"
         },
         "x68941": {
@@ -176,12 +136,8 @@
             "name_fr": "Une peintre parmi les Pixies",
             "npc_en": "Ul Thon",
             "npc_fr": "Ul Thon",
-            "cPrev": [
-                68940
-            ],
-            "cNext": [
-                68942
-            ],
+            "cPrev": ["q.68940"],
+            "cNext": ["q.68942"],
             "patch": "5.0"
         },
         "x68942": {
@@ -190,12 +146,8 @@
             "name_fr": "Des fleurs pour faire plaisir",
             "npc_en": "Ul Thon",
             "npc_fr": "Ul Thon",
-            "cPrev": [
-                68941
-            ],
-            "cNext": [
-                68943
-            ],
+            "cPrev": ["q.68941"],
+            "cNext": ["q.68943"],
             "patch": "5.0"
         },
         "x68943": {
@@ -204,12 +156,8 @@
             "name_fr": "Le poids de la popularité",
             "npc_en": "Ul Thon",
             "npc_fr": "Ul Thon",
-            "cPrev": [
-                68942
-            ],
-            "cNext": [
-                68967
-            ],
+            "cPrev": ["q.68942"],
+            "cNext": ["q.68967"],
             "patch": "5.0"
         },
         "x68944": {
@@ -218,9 +166,7 @@
             "name_fr": "Spécialité nu mou",
             "npc_en": "Iala Oul",
             "npc_fr": "Iala Oul",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68945": {
@@ -229,9 +175,7 @@
             "name_fr": "Petits sacripants de Pixies!",
             "npc_en": "Gyuf Daen",
             "npc_fr": "Gyuf Daen",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68946": {
@@ -239,10 +183,8 @@
             "name_en": "The Mushroom Menace",
             "name_fr": "Touche pas à mes champignons!",
             "npc_en": "Nu Mou Culinarian",
-            "npc_fr": "Nu Mou gourmet",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou Gourmet",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68947": {
@@ -251,9 +193,7 @@
             "name_fr": "Les maisons de Pla Enni",
             "npc_en": "Ose Sigun",
             "npc_fr": "Ose Sigun",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68948": {
@@ -261,10 +201,8 @@
             "name_en": "Much Ado About Giving",
             "name_fr": "Un cadeau d'amour",
             "npc_en": "Lovesick Nu Mou",
-            "npc_fr": "Nu Mou anxieux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou Anxieux",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68949": {
@@ -272,10 +210,8 @@
             "name_en": "Help My Porxie",
             "name_fr": "Un porxie en manque d'épanouissement",
             "npc_en": "Caring Nu Mou",
-            "npc_fr": "Nu Mou gentil",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou Gentil",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68950": {
@@ -283,10 +219,8 @@
             "name_en": "One Good Trick Deserves Another",
             "name_fr": "Vengeance équitable",
             "npc_en": "Vengeful Nu Mou",
-            "npc_fr": "Nu Mou en colère",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou En Colère",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68951": {
@@ -294,10 +228,8 @@
             "name_en": "A Leafman and a Hero",
             "name_fr": "Enfeuillé héroïque",
             "npc_en": "Soft-spoken Nu Mou",
-            "npc_fr": "Nu Mou tranquille",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou Tranquille",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68952": {
@@ -306,9 +238,7 @@
             "name_fr": "Petit Nu Mou deviendra grand",
             "npc_en": "Ose Sigun",
             "npc_fr": "Ose Sigun",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68953": {
@@ -316,10 +246,8 @@
             "name_en": "Are You Being Served",
             "name_fr": "Dépendance transactionnelle",
             "npc_en": "Overzealous Nu Mou",
-            "npc_fr": "Nu Mou surexcité",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "npc_fr": "Nu Mou Surexcité",
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68954": {
@@ -328,9 +256,7 @@
             "name_fr": "Le plus fou des Fuath?",
             "npc_en": "Wyd Lad",
             "npc_fr": "Wyd Lad",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68852"
-            ],
+            "cPrev": ["q.68852"],
             "patch": "5.0"
         },
         "x68955": {
@@ -339,9 +265,7 @@
             "name_fr": "Équité sans retenue",
             "npc_en": "Eo An",
             "npc_fr": "Eo An",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68957": {
@@ -349,10 +273,8 @@
             "name_en": "Lurkers in the Lake",
             "name_fr": "Chipeurs d'œuf",
             "npc_en": "Angry Amaro",
-            "npc_fr": "amaro en colère",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "npc_fr": "Amaro En Colère",
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68958": {
@@ -361,9 +283,7 @@
             "name_fr": "Repas protéiné",
             "npc_en": "Kenn Beq",
             "npc_fr": "Kenn Beq",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68959": {
@@ -372,9 +292,7 @@
             "name_fr": "Des Pixies pas comme les autres",
             "npc_en": "An Sul",
             "npc_fr": "An Sul",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68960": {
@@ -383,9 +301,7 @@
             "name_fr": "Cadeau de naissance",
             "npc_en": "Iala Jul",
             "npc_fr": "Iala Jul",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68963": {
@@ -395,15 +311,9 @@
             "unlock": "travel.aether-currents.shb.il-mheg.10",
             "npc_en": "Sandman",
             "npc_fr": "Ferme-l'œil",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
-            "cNext": [
-                68964
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.il-mheg.10"
-            ],
+            "cPrev": ["q.68854"],
+            "cNext": ["q.68964"],
+            "cSiblings": ["travel.aether-currents.shb.il-mheg.10"],
             "patch": "5.0"
         },
         "x68964": {
@@ -412,12 +322,8 @@
             "name_fr": "Qui a mangé, a mangé, a mangé...",
             "npc_en": "Tonatiuh",
             "npc_fr": "Tonatiuh",
-            "cPrev": [
-                68963
-            ],
-            "cNext": [
-                68965
-            ],
+            "cPrev": ["q.68963"],
+            "cNext": ["q.68965"],
             "patch": "5.0"
         },
         "x68965": {
@@ -426,12 +332,8 @@
             "name_fr": "Peine capitale",
             "npc_en": "Tonatiuh",
             "npc_fr": "Tonatiuh",
-            "cPrev": [
-                68964
-            ],
-            "cNext": [
-                68966
-            ],
+            "cPrev": ["q.68964"],
+            "cNext": ["q.68966"],
             "patch": "5.0"
         },
         "x68966": {
@@ -440,12 +342,8 @@
             "name_fr": "La recette du Porxie",
             "npc_en": "Tonatiuh",
             "npc_fr": "Tonatiuh",
-            "cPrev": [
-                68965
-            ],
-            "cNext": [
-                68967
-            ],
+            "cPrev": ["q.68965"],
+            "cNext": ["q.68967"],
             "patch": "5.0"
         },
         "x68967": {
@@ -454,10 +352,7 @@
             "name_fr": "Une nouvelle coqueluche?",
             "npc_en": "Sandman",
             "npc_fr": "Ferme-l'œil",
-            "cPrev": [
-                68943,
-                68966
-            ],
+            "cPrev": ["q.68943", "q.68966"],
             "patch": "5.0"
         },
         "x68968": {
@@ -466,9 +361,7 @@
             "name_fr": "Complot au fond de l'eau",
             "npc_en": "Thon An",
             "npc_fr": "Thon An",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68969": {
@@ -476,10 +369,8 @@
             "name_en": "Marks of the Monarch",
             "name_fr": "Les griffures du Monarque",
             "npc_en": "Watch Amaro",
-            "npc_fr": "garde amaro",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "npc_fr": "Garde Amaro",
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68970": {
@@ -488,9 +379,7 @@
             "name_fr": "Histoire d'œufs",
             "npc_en": "Rispa",
             "npc_fr": "Rispa",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
+            "cPrev": ["q.68854"],
             "patch": "5.0"
         },
         "x68956": {
@@ -499,12 +388,8 @@
             "name_fr": "Une fleur en souvenir",
             "npc_en": "Nimbus",
             "npc_fr": "Nimbus",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68854"
-            ],
-            "cNext": [
-                68961
-            ],
+            "cPrev": ["q.68854"],
+            "cNext": ["q.68961"],
             "patch": "5.0"
         },
         "x68961": {
@@ -513,10 +398,7 @@
             "name_fr": "La médaille de Nimbus",
             "npc_en": "Oul Sigun",
             "npc_fr": "Oul Sigun",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68856",
-                68956
-            ],
+            "cPrev": ["q.68856", "q.68956"],
             "patch": "5.0"
         },
         "x68962": {
@@ -524,10 +406,8 @@
             "name_en": "Hide and Seek",
             "name_fr": "Castor!",
             "npc_en": "Waiting Pixie",
-            "npc_fr": "Pixie impatiente",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68856"
-            ],
+            "npc_fr": "Pixie Impatiente",
+            "cPrev": ["q.68856"],
             "patch": "5.0"
         },
         "x70252": {
@@ -536,24 +416,19 @@
             "name_fr": "Le choix d'Anden",
             "npc_en": "Anden",
             "npc_fr": "Anden",
-            "cPrev": [
-                "duty.quests.sidequests.lakeland.the-crystarium.70251"
-            ],
-            "cNext": [
-                70253
-            ],
+            "cPrev": ["q.70251"],
+            "cNext": ["q.70253"],
             "patch": "6.3"
         },
         "x70253": {
             "level": 80,
             "name_en": "A Labor of Leaf",
             "name_fr": "Un gage de gratitude",
-            "npc_en": "Anden",
-            "npc_fr": "Anden",
-            "cPrev": [
-                70252
-            ],
-            "patch": "6.3"
+            "npc_en": "Eo Tyr",
+            "npc_fr": "Eo Tyr",
+            "cPrev": ["q.70252"],
+            "patch": "6.3",
+            "unlock": "mo.311"
         }
     }
 }

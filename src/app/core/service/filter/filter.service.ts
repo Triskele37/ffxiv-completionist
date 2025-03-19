@@ -81,12 +81,17 @@ export class FilterService {
     filterTasks(group: DataGroup, tasks: Task[]): Task[] {
         return tasks
             .filter((task) => {
+                if(task === this.svcNavigation.selectedTask) return true;
+
                 const completionFilter = task.isNumericCompletion ?
                     this.filterNumericCompletion.bind(this) :
                     this.filterFlagCompletion.bind(this);
 
                 if(!completionFilter(task)) return false;
 
+                if(!group.columns) {
+                    console.log(group);
+                }
                 return group.columns.every(({ key, link }) => {
                     const filter = this.filters[key];
                     if(!filter) return true;

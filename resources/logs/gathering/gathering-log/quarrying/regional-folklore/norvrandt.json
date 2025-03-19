@@ -7,37 +7,31 @@
             "level": "80★★",
             "name_en": "Purpure Shell Chip",
             "name_fr": "Éclat de perle purpurine",
-            "zone_en": "The Tempest",
-            "zone_fr": "La Tempête",
+            "zone": "@PLACE.THE_TEMPEST",
             "coordinates": "(34, 31)",
             "nodeTimer": "06:00 / 18:00",
-            "closestAetheryte_en": "Macarenses Angle",
-            "closestAetheryte_fr": "Carré macarien",
-            "patch": "5.2"
+            "patch": "5.2",
+            "closestAetheryte": "travel.aetherytes.norvrandt.130"
         },
         "x1": {
             "level": "80★★",
             "name_en": "Ashen Alumen",
             "name_fr": "Alun cendré",
-            "zone_en": "Amh Araeng",
-            "zone_fr": "Amh Araeng",
+            "zone": "@PLACE.AMH_ARAENG",
             "coordinates": "(20, 8)",
             "nodeTimer": "10:00 / 22:00",
-            "closestAetheryte_en": "Twine",
-            "closestAetheryte_fr": "Queues-liées",
-            "patch": "5.2"
+            "patch": "5.2",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123"
         },
         "x2": {
             "level": "80★★★",
             "name_en": "Solstice Stone",
             "name_fr": "Cristal solsticial",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "zone": "@PLACE.IL_MHEG",
             "coordinates": "(36, 9)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "Wolekdorf",
-            "closestAetheryte_fr": "Wolekdorf",
-            "patch": "5.4"
+            "patch": "5.4",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126"
         }
     }
 }

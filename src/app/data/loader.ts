@@ -1,6 +1,8 @@
 import { TranslateService } from '@ngx-translate/core';
 
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service'
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
+import { Globals } from '@constant/Global';
 
 export const refs: {
     svcElectron: ElectronService;
@@ -10,17 +12,30 @@ export const refs: {
     translate: null,
 };
 
-export type JSON = any;
+export type JSON = Record<string, any>;
+export type JSON_GROUP = JSON & {
+    headers?: JSON;
+    tasks?: Record<string, JSON & {
+        hidden?: boolean;
+    }>;
+};
 
-export function loadJson(path: string) {
-    const prefix = getPrefix();
+const COMMON_KEY_PREFIX = '@';
+const COMMON_KEY_REGEX = /[A-Z]+[A-Z0-9_]+\.[A-Z0-9_.]+/g;
+const NUMBER_REGEX = /\b\d+[,.]+[\d.,]+\b/g;
 
-    let finalJson: JSON;
+/**
+ * Load the group json file at the given path, applying necessary
+ * pre-class transformations
+ */
+export function loadJson(key: string) {
+    let finalJson: JSON_GROUP = {};
+
     try {
-        const fullPath = [prefix, path].filter((s) => s).join('/');
-        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, fullPath);
+        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, key);
 
         try {
+            translateCommonKeys(json);
             finalJson = {
                 ...json,
                 headers: mapHeaders(json),
@@ -28,37 +43,39 @@ export function loadJson(path: string) {
             };
         }
         catch(e) {
-            console.error(`Error in ${prefix}/${path}.json`, e);
+            console.error(`Error processing group: ${key}`, e);
         }
     }
     catch(e) {
-        console.error(`Error in ${prefix}/${path}.json`, e);
+        console.error(`Error loading group: ${key}`, e);
     }
 
     return finalJson;
 }
 
-// Get the path prefix based on environment
-function getPrefix() {
-    if(process.env.NODE_ENV === 'production' && process.resourcesPath) {
-        return `${process.resourcesPath}/resources`;
-    }
-    else {
-        return './resources';
-    }
-}
-
-function mapHeaders(json) {
+/**
+ * Transform the raw header json to the initial app json
+ */
+function mapHeaders(json: JSON_GROUP) {
     if(!json.headers) return null;
-    return Object.keys(json.headers)
-        .map((key) => ({
+    return Object.keys(json.headers).map((key) => {
+        const header = {
             key,
             ...json.headers[key],
-            ...staticHeaderProps(key, json.headers[key])
-        }));
+            ...defaultHeaderProps(key, json.headers[key])
+        };
+
+        translateCommonKeys(header);
+
+        return header;
+    });
 }
 
-function staticHeaderProps(key, column) {
+/**
+ * Apply default header properties
+ * - e.g. 'patch' has a default width of 100px
+ */
+function defaultHeaderProps(key: string, column: JSON) {
     switch(key) {
         case 'category':
             return {
@@ -84,57 +101,100 @@ function staticHeaderProps(key, column) {
     }
 }
 
-function mapTasks(json) {
-    const tasks: any = {};
+/**
+ * Transform the raw task json to the initial app json (pre-class)
+ */
+function mapTasks(json: JSON_GROUP) {
+    const tasks: JSON = {};
+    if(!json.tasks) return tasks;
 
-    // Map task-level common props
-    for(const id in json.tasks) {
-        if(json.tasks.hasOwnProperty(id)) {
-            tasks[id] = {
-                id: parseInt(id.substr(1), 10),
-                ...json.tasks[id]
-            };
-        }
-    }
+    for(const [id, rawTask] of Object.entries(json.tasks)) {
+        // Don't add 'hidden' tasks so placeholders can be in resources
+        if(rawTask.hidden) continue;
 
-    // Map ids
-    for(const id in tasks) {
-        if(tasks.hasOwnProperty(id)) {
-            // Removes tasks with 'hidden' so placeholders can be in resources
-            if(tasks[id].hidden) {
-                delete tasks[id];
-            }
-            else {
-                // Remove the leading "x" and cast to int
-                tasks[id].id = parseInt(id.substr(1), 10);
+        tasks[id] = {
+            // Remove the leading "x" and cast to int
+            id: parseInt(id.substring(1), 10),
+            ...rawTask
+        };
 
-                json.common?.forEach((field) => {
-                    tasks[id][field] = replaceCommonStrings(tasks[id][field]);
-                });
-            }
-        }
+        // Replace common keys (ZONE.ULDAH) with translations
+        translateCommonKeys(tasks[id]);
     }
 
     return tasks;
 }
 
-function replaceCommonStrings(value: string | string[]): string | string[] {
-    if(!value) return value;
-
-    if(Array.isArray(value)) return value.map((v) => getCommonTranslation(v));
-    else return getCommonTranslation(value);
+function shouldTranslate(value: any) {
+    return typeof value === 'string' && value.startsWith(COMMON_KEY_PREFIX);
 }
 
+/**
+ * Iterate fields on an object, looking for ones that need i18n transformation
+ */
+function translateCommonKeys(obj: JSON) {
+    for(const field in obj) {
+        const value = obj[field];
+
+        if(Array.isArray(value)) {
+            const len = value.length;
+            for(let i = 0; i < len; i++) {
+                const item = value[i];
+
+                if(shouldTranslate(item)) {
+                    value[i] = getCommonTranslation(item);
+                }
+            }
+        }
+        else if(shouldTranslate(value)) {
+            obj[field] = getCommonTranslation(value);
+        }
+    }
+}
+
+/**
+ * Transform i18n keys at any place in a string
+ * @param value - should already have returned true when passed to `shouldTranslate`
+ */
 function getCommonTranslation(value: string): string {
-    const keys = value.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g);
-    if(!keys) return value;
+    let updatedValue = value.substring(1);
+    let commonKeys: string[] | null;
 
-    return keys.reduce((acc, key) => {
-        // Attempt to get a common translation
-        const fullKey = `DATA.${key}`;
-        const common = refs.translate.instant(fullKey);
+    // Loop through the updated value (allows for nested common values)
+    while(commonKeys = updatedValue.match(COMMON_KEY_REGEX)) {
+        const replacements: Record<string, string> = {};
 
-        if(common === fullKey) return acc; // Not found
-        else return acc.replace(key, common); // Found
-    }, value);
+        for(const commonKey of commonKeys) {
+            if(!replacements[commonKey]) {
+                // Attempt to get translation
+                const fullCommonKey = `DATA.${commonKey}`;
+                const commonTranslation = refs.translate.instant(fullCommonKey);
+
+                // No translation if these two are equal
+                if(commonTranslation !== fullCommonKey) {
+                    replacements[commonKey] = commonTranslation;
+                }
+            }
+        }
+
+        // Bail if an entry somehow gets this far without replacements
+        if(Object.keys(replacements).length === 0) {
+            console.log('Data Jacked:', commonKeys, updatedValue);
+            break;
+        }
+
+        // Do the actual replacement transformation
+        for (const [commonKey, translation] of Object.entries(replacements)) {
+            updatedValue = updatedValue.replace(new RegExp(commonKey, 'g'), translation);
+        }
+    }
+
+    // Special currency handling
+    if(Globals.config.lang === 'fr') {
+        updatedValue = updatedValue.replace(NUMBER_REGEX, (n) =>
+            n.replace(/[.,]/g, (punct) => punct === '.' ? ',' : '.')
+        );
+    }
+
+    return updatedValue;
 }

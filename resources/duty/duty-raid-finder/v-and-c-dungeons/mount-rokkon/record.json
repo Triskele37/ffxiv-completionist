@@ -1,0 +1,175 @@
+{
+    "key": "record",
+    "groupName_en": "Record",
+    "groupName_fr": "Record",
+    "headers": {
+        "entry": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "steps": {
+            "header_en": "Steps",
+            "header_fr": "Étapes"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Gift of the Onmyoji",
+            "name_fr": "Le prêtre onmyo distrait",
+            "patch": "6.45",
+            "entry": "1",
+            "steps_en": ["Take the left path", "Fail the statue puzzle", "Close the sword case"],
+            "steps_fr": ["Prendre le chemin de gauche", "Rater l'énigme des statues", "Fermer la boîte du sabre"]
+        },
+        "x1": {
+            "name_en": "The Crimson Sword",
+            "name_fr": "Le sabre ensanglanté",
+            "patch": "6.45",
+            "entry": "2",
+            "steps_en": ["Take the left path", "Fail the statue puzzle", "Do not close the sword case"],
+            "steps_fr": ["Prendre le chemin de gauche", "Rater l'énigme des statues", "Laisser la boîte du sabre ouverte"]
+        },
+        "x2": {
+            "name_en": "A Tale of Dead Men",
+            "name_fr": "L’armure impie",
+            "patch": "6.45",
+            "entry": "3",
+            "steps_en": ["Take the left path", "Complete the statue puzzle successfully", "Allow the Apa to cast Water III"],
+            "steps_fr": [
+                "Prendre le chemin de gauche",
+                "Réussir l'énigme des statues",
+                "Permettre à l'Apa de Shishû de lancer le sort \"Méga Eau\""
+            ]
+        },
+        "x3": {
+            "name_en": "Forging a Legacy",
+            "name_fr": "L’essor des forgerons",
+            "patch": "6.45",
+            "entry": "4",
+            "steps_en": [
+                "Take the left path",
+                "Complete the statue puzzle successfully",
+                "Do not allow the Apa to cast Water III"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de gauche",
+                "Réussir l'énigme des statues",
+                "Empêcher l'Apa de Shishû de lancer le sort \"Méga Eau\""
+            ]
+        },
+        "x4": {
+            "name_en": "The Luthier and the Songstress",
+            "name_fr": "Le luthier et la musicienne",
+            "patch": "6.45",
+            "entry": "5",
+            "steps_en": ["Take the middle path", "Do not climb the crates", "Spare the baboon"],
+            "steps_fr": ["Prendre le chemin du milieu", "Ne pas escalader les caisses", "Épargner le Babouin de Shishû"]
+        },
+        "x5": {
+            "name_en": "Lost to Avarice",
+            "name_fr": "La jeune fille cupide",
+            "patch": "6.45",
+            "entry": "6",
+            "steps_en": ["Take the middle path", "Do not climb the crates", "Do not spare the baboon"],
+            "steps_fr": ["Prendre le chemin du milieu", "Ne pas escalader les caisses", "Éliminer le Babouin de Shishû"]
+        },
+        "x6": {
+            "name_en": "Beyond the Lanterns' Light",
+            "name_fr": "Á la lumière des lanternes fantômes",
+            "patch": "6.45",
+            "entry": "7",
+            "steps_en": ["Take the middle path", "Climb the crates", "Immediately defeat the lanterns"],
+            "steps_fr": [
+                "Prendre le chemin du milieu",
+                "Escalader les caisses",
+                "Éliminer le groupe de Chôchin de Shishû immédiatement"
+            ]
+        },
+        "x7": {
+            "name_en": "The Common Man's Courage",
+            "name_fr": "Le courage du paysan",
+            "patch": "6.45",
+            "entry": "8",
+            "steps_en": ["Take the right path", "Do not take the dogu", "Interact with all 4 Stones of Protection"],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Laisser le dogû de Shishû",
+                "Intéragir avec les quatres pierres incantatoire"
+            ]
+        },
+        "x8": {
+            "name_en": "Sound of the Stone",
+            "name_fr": "L’honneur du guerrier",
+            "patch": "6.45",
+            "entry": "9",
+            "steps_en": ["Take the right path", "Do not take the dogu", "Do not interact with all 4 Stones of Protection"],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Laisser le dogû de Shishû",
+                "Ignorer les quatres pierres incantatoire"
+            ]
+        },
+        "x9": {
+            "name_en": "The Seal of Silence",
+            "name_fr": "Le sceau du moine",
+            "patch": "6.45",
+            "entry": "10",
+            "steps_en": [
+                "Take the right path",
+                "Take the dogu",
+                "Perform /easternbow near the unmarked shrine",
+                "Interact with the Iwakura"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le dogû de Shishû",
+                "Réaliser l'action /révérenceorientale proche de l'autel",
+                "Intéragir avec le Rocher sacré du Mont Rokkon"
+            ]
+        },
+        "x10": {
+            "name_en": "Seasons of the Fleeting",
+            "name_fr": "Les pétales du souvenir",
+            "patch": "6.45",
+            "entry": "11",
+            "steps_en": [
+                "Take the right path",
+                "Take the dogu",
+                "Perform /easternbow near the unmarked shrine",
+                "Interact with the Ancient Tree"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le dogû de Shishû",
+                "Réaliser l'action /révérenceorientale proche de l'autel",
+                "Intéragir avec le Vieux tronc d'arbre fané"
+            ]
+        },
+        "x11": {
+            "name_en": "The Ogiseru's Fate",
+            "name_fr": "La grande pipe sacrée",
+            "patch": "6.45",
+            "entry": "12",
+            "steps_en": [
+                "Take the middle path",
+                "Climb the crates",
+                "Pull the lanterns back down to the tiger room",
+                "Kill one in front of each unlit lantern under a gold panel",
+                "Interact with the lantern"
+            ],
+            "steps_fr": [
+                "Prendre le chemin du milieu",
+                "Escalader les caisses",
+                "Emmener le groupe de Chôchin de Shishû dans la salle du tigre",
+                "Éliminer chaque Chôchin de Shishû devant une lanterne éteinte situé sous un étendard en or",
+                "Intéragir avec la lanterne"
+            ]
+        }
+    }
+}

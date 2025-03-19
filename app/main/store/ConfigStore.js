@@ -17,7 +17,7 @@ var ConfigStore = /** @class */ (function () {
                 'store-name': 'completion',
                 'store-loc': electron_1.app.getPath('userData'),
                 'lang': 'en',
-                'starting-class': '',
+                'use-short-names': true,
                 'last-breadcrumbs': ['main-menu'],
                 'chaining-enabled': true,
                 'chain-history-limit': 10,

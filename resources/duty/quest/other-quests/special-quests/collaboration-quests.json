@@ -1,0 +1,173 @@
+{
+    "key": "collaboration-quests",
+    "groupName_en": "Collaboration Quests",
+    "groupName_fr": "Visiteurs d'autres univers",
+    "tasks": {
+        "x66689": {
+            "level": 12,
+            "name_en": "For the Winsome",
+            "name_fr": "Une fracassante guerrière",
+            "npc_en": "Petyr Winsome",
+            "npc_fr": "Petyr Winsome",
+            "cNext": ["q.66690"],
+            "patch": "4.31"
+        },
+        "x66690": {
+            "level": 26,
+            "name_en": "Seeking the Scoop",
+            "name_fr": "Une intrigante guerrière",
+            "npc_en": "Dural Tharal",
+            "npc_fr": "Dural Tharal",
+            "cPrev": ["q.66689"],
+            "cNext": ["q.66691"],
+            "patch": "4.31"
+        },
+        "x66691": {
+            "level": 38,
+            "name_en": "The Knight's Passage",
+            "name_fr": "Une éblouissante guerrière",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": ["q.66690"],
+            "cNext": ["q.66692"],
+            "patch": "4.31"
+        },
+        "x66692": {
+            "level": 45,
+            "name_en": "Wonder and Lightning",
+            "name_fr": "Une fulgurante guerrière",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": ["q.66691"],
+            "patch": "4.31"
+        },
+        "x66823": {
+            "level": 10,
+            "name_en": "Burgeoning Dread",
+            "name_fr": "Abomination aberrante",
+            "npc_en": "Khloe Bajhiri",
+            "npc_fr": "Khloe Bajhiri",
+            "patch": "4.31"
+        },
+        "x66824": {
+            "level": 7,
+            "name_en": "Breaking Brick Mountains",
+            "name_fr": "Les créatures de granit",
+            "npc_en": "Havak Alvak",
+            "npc_fr": "Havak Alvak",
+            "patch": "4.31"
+        },
+        "x67742": {
+            "level": 30,
+            "name_en": "A Journey to Remember",
+            "name_fr": "Rhapsodies de Vana'diel",
+            "npc_en": "Remumu",
+            "npc_fr": "Remumu",
+            "cSiblings": ["a.1389"],
+            "patch": "4.31"
+        },
+        "x67677": {
+            "level": 15,
+            "name_en": "A Complete Game Changer",
+            "name_fr": "Whisper sur la ville",
+            "cPrevAny": true,
+            "npc_en": "Poor-heeled Youth",
+            "npc_fr": "Jeune Homme Dépité",
+            "cPrev": ["q.66043", "q.66082", "q.66064"],
+            "cSiblings": ["a.1598"],
+            "patch": "4.31"
+        },
+        "x67090": {
+            "level": 70,
+            "name_en": "The New King on the Block",
+            "name_fr": "Le roi des cieux",
+            "unlock": ["d.474", "mi.300"],
+            "npc_en": "Hearty Hunter",
+            "npc_fr": "Chasseur De Monstres",
+            "cPrev": ["q.68089"],
+            "cNext": ["q.67091"],
+            "cSiblings": ["a.2108"],
+            "patch": "4.4"
+        },
+        "x67091": {
+            "level": 70,
+            "name_en": "The Newer King on the Block",
+            "name_fr": "Le retour du roi des cieux",
+            "unlock": "d.475",
+            "npc_en": "Hearty Hunter",
+            "npc_fr": "Chasseur De Monstres",
+            "cPrev": ["q.67090"],
+            "patch": "4.4"
+        },
+        "x68694": {
+            "level": 50,
+            "name_en": "The Man in Black",
+            "name_fr": "Un prince dans le désert",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.68695"],
+            "patch": "4.56"
+        },
+        "x68695": {
+            "level": 50,
+            "name_en": "In the Dark of Night",
+            "name_fr": "Halte en forêt",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": ["q.68694"],
+            "cNext": ["q.68696"],
+            "patch": "4.56"
+        },
+        "x68696": {
+            "level": 50,
+            "name_en": "Messenger of the Winds",
+            "name_fr": "La Messagère du vent",
+            "npc_en": "Noctis",
+            "npc_fr": "Noctis",
+            "cPrev": ["q.68695"],
+            "cSiblings": ["a.2241"],
+            "patch": "4.56"
+        },
+        "x70332": {
+            "level": 50,
+            "name_en": "A Land on Fire",
+            "name_fr": "Terre incandescente",
+            "npc_en": "Neophyte Adventurer",
+            "npc_fr": "Aventurier Novice",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.70333"],
+            "patch": "6.58"
+        },
+        "x70333": {
+            "level": 50,
+            "name_en": "Pain to Recall",
+            "name_fr": "À la recherche de la mémoire perdue",
+            "npc_en": "Clive",
+            "npc_fr": "Clive",
+            "cPrev": ["q.70332"],
+            "cNext": ["q.70334"],
+            "patch": "6.58"
+        },
+        "x70334": {
+            "level": 50,
+            "name_en": "The Path Infernal",
+            "name_fr": "Flammes primordiales",
+            "npc_en": "Clive",
+            "npc_fr": "Clive",
+            "cPrev": ["q.70333"],
+            "cSiblings": ["a.3409"],
+            "patch": "6.58",
+            "unlock": "mo.326"
+        },
+        "x70337": {
+            "level": 15,
+            "name_en": "Just Crowning Around",
+            "name_fr": "Les gars qui tombent",
+            "npc_en": "Lewena",
+            "npc_fr": "Lewena",
+            "cPrev": ["q.65970"],
+            "patch": "6.51"
+        }
+    }
+}

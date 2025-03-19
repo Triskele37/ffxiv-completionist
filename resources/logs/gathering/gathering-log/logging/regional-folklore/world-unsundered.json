@@ -7,65 +7,55 @@
             "level": "90",
             "name_en": "Potent Spice",
             "name_fr": "Épices naturelles",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(33.2, 14.8)",
             "nodeTimer": "06:00 / 18:00",
-            "closestAetheryte_en": "Anagnorisis",
-            "closestAetheryte_fr": "L'Anagnorisis",
             "cSiblings": [
                 "logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-northern-empty.0",
                 "logs.gathering.gathering-log.harvesting.regional-folklore.sea-of-stars.0"
             ],
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.157"
         },
         "x1": {
             "level": "90★",
             "name_en": "Mempisang Log",
             "name_fr": "Rondin de mempisang",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(33.2, 14.8)",
             "nodeTimer": "06:00 / 18:00",
-            "closestAetheryte_en": "Anagnorisis",
-            "closestAetheryte_fr": "L'Anagnorisis",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.157"
         },
         "x2": {
             "level": "90★★",
             "name_en": "Paldao Log",
             "name_fr": "Rondin de paldao",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(9.8, 29.8)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "The Twelve Wonders",
-            "closestAetheryte_fr": "Les Douze Merveilles",
-            "patch": "6.28"
+            "patch": "6.28",
+            "closestAetheryte": "travel.aetherytes.others.158"
         },
         "x3": {
             "level": "90★★★",
             "name_en": "Prime Sphongos",
             "name_fr": "Morille conique volatile",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(9.8, 29.8)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "The Twelve Wonders",
-            "closestAetheryte_fr": "Les Douze Merveilles",
-            "patch": "6.3"
+            "patch": "6.3",
+            "closestAetheryte": "travel.aetherytes.others.158"
         },
         "x4": {
             "level": "90★★★",
             "name_en": "Sublime Sphongos",
             "name_fr": "Morille conique sublimée",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(9.8, 29.8)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "The Twelve Wonders",
-            "closestAetheryte_fr": "Les Douze Merveilles",
-            "patch": "6.3"
+            "patch": "6.3",
+            "closestAetheryte": "travel.aetherytes.others.158"
         }
     }
 }

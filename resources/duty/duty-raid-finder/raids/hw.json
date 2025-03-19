@@ -1,196 +1,178 @@
 {
     "key": "hw",
-    "groupName_en": "HW",
-    "groupName_fr": "Heavensward",
+    "groupName": "@EXPANSION.HEAVENSWARD",
+    "groupNameShort": "@EXPANSION.HW",
     "tasks": {
-        "x0": {
+        "x112": {
             "level": "60",
             "name_en": "Alexander - The Fist of the Father",
             "name_fr": "Alexander - Le Poing du Père",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67626"
+            "unlock": "q.67626"
         },
-        "x1": {
+        "x113": {
             "level": "60",
             "name_en": "Alexander - The Cuff of the Father",
             "name_fr": "Alexander - Le Poignet du Père",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67627"
+            "unlock": "q.67627"
         },
-        "x2": {
+        "x114": {
             "level": "60",
             "name_en": "Alexander - The Arm of the Father",
             "name_fr": "Alexander - Le Bras du Père",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67628"
+            "unlock": "q.67628"
         },
-        "x3": {
+        "x115": {
             "level": "60",
             "name_en": "Alexander - The Burden of the Father",
             "name_fr": "Alexander - Le Fardeau du Père",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67629",
-            "cSiblings": [
-                "character.achievement.battle.raids.1228"
-            ]
+            "unlock": "q.67629",
+            "cSiblings": ["a.1228"]
         },
-        "x4": {
+        "x116": {
             "level": "60",
             "name_en": "Alexander - The Fist of the Father (Savage)",
             "name_fr": "Alexander - Le Poing du Père (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"
+            "unlock": "q.67644"
         },
-        "x5": {
+        "x117": {
             "level": "60",
             "name_en": "Alexander - The Cuff of the Father (Savage)",
             "name_fr": "Alexander - Le Poignet du Père (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"
+            "unlock": "q.67644"
         },
-        "x6": {
+        "x118": {
             "level": "60",
             "name_en": "Alexander - The Arm of the Father (Savage)",
             "name_fr": "Alexander - Le Bras du Père (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"
+            "unlock": "q.67644"
         },
-        "x7": {
+        "x119": {
             "level": "60",
             "name_en": "Alexander - The Burden of the Father (Savage)",
             "name_fr": "Alexander - Le Fardeau du Père (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67644",
-            "cSiblings": [
-                "character.achievement.battle.raids.1231"
-            ]
+            "unlock": "q.67644",
+            "cSiblings": ["a.1231"]
         },
-        "x8": {
+        "x136": {
             "level": "60",
             "name_en": "Alexander - The Fist of the Son",
             "name_fr": "Alexander - Le Poing du Fils",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67785"
+            "unlock": "q.67785"
         },
-        "x9": {
+        "x137": {
             "level": "60",
             "name_en": "Alexander - The Cuff of the Son",
             "name_fr": "Alexander - Le Poignet du Fils",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67786"
+            "unlock": "q.67786"
         },
-        "x10": {
+        "x138": {
             "level": "60",
             "name_en": "Alexander - The Arm of the Son",
             "name_fr": "Alexander - Le Bras du Fils",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67787"
+            "unlock": "q.67787"
         },
-        "x11": {
+        "x139": {
             "level": "60",
             "name_en": "Alexander - The Burden of the Son",
             "name_fr": "Alexander - Le Fardeau du Fils",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67788",
-            "cSiblings": [
-                "character.achievement.battle.raids.1476"
-            ]
+            "unlock": "q.67788",
+            "cSiblings": ["a.1476"]
         },
-        "x12": {
+        "x147": {
             "level": "60",
             "name_en": "Alexander - The Fist of the Son (Savage)",
             "name_fr": "Alexander - Le Poing du Fils (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67790"
+            "unlock": "q.67790"
         },
-        "x13": {
+        "x148": {
             "level": "60",
             "name_en": "Alexander - The Cuff of the Son (Savage)",
             "name_fr": "Alexander - Le Poignet du Fils (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67790"
+            "unlock": "q.67790"
         },
-        "x14": {
+        "x149": {
             "level": "60",
             "name_en": "Alexander - The Arm of the Son (Savage)",
             "name_fr": "Alexander - Le Bras du Fils (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67790"
+            "unlock": "q.67790"
         },
-        "x15": {
+        "x150": {
             "level": "60",
             "name_en": "Alexander - The Burden of the Son (Savage)",
             "name_fr": "Alexander - Le Fardeau du Fils (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67790",
-            "cSiblings": [
-                "character.achievement.battle.raids.1479"
-            ]
+            "unlock": "q.67790",
+            "cSiblings": ["a.1479"]
         },
-        "x16": {
+        "x186": {
             "level": "60",
             "name_en": "Alexander - The Eyes of the Creator",
             "name_fr": "Alexander - Les Yeux du Créateur",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67871"
+            "unlock": "q.67871"
         },
-        "x17": {
+        "x187": {
             "level": "60",
             "name_en": "Alexander - The Breath of the Creator",
             "name_fr": "Alexander - Le Souffle du Créateur",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67872"
+            "unlock": "q.67872"
         },
-        "x18": {
+        "x188": {
             "level": "60",
             "name_en": "Alexander - The Heart of the Creator",
             "name_fr": "Alexander - Le Cœur du Créateur",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67873"
+            "unlock": "q.67873"
         },
-        "x19": {
+        "x189": {
             "level": "60",
             "name_en": "Alexander - The Soul of the Creator",
             "name_fr": "Alexander - L'Âme du Créateur",
-            "unlock": "duty.quests.chronicles-of-a-new-era.alexander.67874",
-            "cSiblings": [
-                "character.achievement.battle.raids.1639"
-            ]
+            "unlock": "q.67874",
+            "cSiblings": ["a.1639"]
         },
-        "x20": {
+        "x190": {
             "level": "60",
             "name_en": "Alexander - The Eyes of the Creator (Savage)",
             "name_fr": "Alexander - Les Yeux du Créateur (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67876"
+            "unlock": "q.67876"
         },
-        "x21": {
+        "x191": {
             "level": "60",
             "name_en": "Alexander - The Breath of the Creator (Savage)",
             "name_fr": "Alexander - Le Souffle du Créateur (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67876"
+            "unlock": "q.67876"
         },
-        "x22": {
+        "x192": {
             "level": "60",
             "name_en": "Alexander - The Heart of the Creator (Savage)",
             "name_fr": "Alexander - Le Cœur du Créateur (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67876"
+            "unlock": "q.67876"
         },
-        "x23": {
+        "x193": {
             "level": "60",
             "name_en": "Alexander - The Soul of the Creator (Savage)",
             "name_fr": "Alexander - L'Âme du Créateur (sadique)",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67876",
-            "cSiblings": [
-                "character.achievement.battle.raids.1642"
-            ]
+            "unlock": "q.67876",
+            "cSiblings": ["a.1642"]
         },
-        "x24": {
+        "x120": {
             "level": "60",
             "name_en": "The Void Ark",
             "name_fr": "L'Arche du néant",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67741",
-            "cSiblings": [
-                "character.achievement.battle.raids.1399"
-            ]
+            "unlock": "q.67741",
+            "cSiblings": ["a.1399"]
         },
-        "x25": {
+        "x168": {
             "level": "60",
             "name_en": "The Weeping City of Mhach",
             "name_fr": "La Cité défendue de Mhach",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67821",
-            "cSiblings": [
-                "character.achievement.battle.raids.1574"
-            ]
+            "unlock": "q.67821",
+            "cSiblings": ["a.1574"]
         },
-        "x26": {
+        "x220": {
             "level": "60",
             "name_en": "Dun Scaith",
             "name_fr": "Dun Scaith",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67909",
-            "cSiblings": [
-                "character.achievement.battle.raids.1689"
-            ]
+            "unlock": "q.67909",
+            "cSiblings": ["a.1689"]
         }
     }
 }

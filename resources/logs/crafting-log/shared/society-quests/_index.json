@@ -1,0 +1,27 @@
+{
+    "key": "society-quests",
+    "groupName_en": "Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés",
+    "headers": {
+        "quest": {
+            "link": true,
+            "header_en": "Quest",
+            "header_fr": "Quête"
+        },
+        "level": {
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        }
+    },
+    "order": [
+        "loporrit-quests",
+        "dwarf-quests",
+        "namazu-quests",
+        "moogle-quests",
+        "ixal-quests"
+    ]
+}

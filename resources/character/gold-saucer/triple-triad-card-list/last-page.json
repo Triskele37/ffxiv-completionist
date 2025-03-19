@@ -3,170 +3,122 @@
     "groupName_en": "Last Page",
     "groupName_fr": "Dernière Page",
     "tasks": {
-        "x0": {
+        "x68": {
             "number": "Ex. 1",
             "name_en": "Warrior of Light",
             "name_fr": "Guerrier de la Lumière",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": "@TRIAD.GOLD_PACK",
             "patch": "2.51"
         },
-        "x1": {
+        "x69": {
             "number": "Ex. 2",
             "name_en": "Firion",
             "name_fr": "Firion",
-            "source_en": [
-                "1st-3rd place in Durai Memorial tournament",
-                "Platinum Triad Card"
-            ],
-            "source_fr": [
-                "1er à 3e prix du Jubilé Orran Durai",
-                "Pochette Triple Triade platine"
-            ],
+            "source": "@TRIAD.PLATINUM_PACK",
+            "source_en": "1st-3rd place in Durai Memorial tournament",
+            "source_fr": "1er à 3e prix du Jubilé Orran Durai",
             "patch": "2.51"
         },
-        "x2": {
+        "x70": {
             "number": "Ex. 3",
             "name_en": "Onion Knight",
             "name_fr": "Chevalier Oignon",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.99",
-                "duty.dutyraid-finder.raids.arr.19"
-            ],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.99", "d.111", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
-        "x3": {
+        "x71": {
             "number": "Ex. 4",
             "name_en": "Cecil Harvey",
-            "name_fr": "Cecil",
-            "source_en": [
-                "1st-3rd place in Spinner's Pull tournament",
-                "Platinum Triad Card"
-            ],
-            "source_fr": [
-                "1er à 3e prix du Grand Prix de la Fileuse",
-                "Pochette Triple Triade platine"
-            ],
+            "name_fr": "Cécil Harvey",
+            "source": "@TRIAD.PLATINUM_PACK",
+            "source_en": "1st-3rd place in Spinner's Pull tournament",
+            "source_fr": "1er à 3e prix du Grand Prix de la Fileuse",
             "patch": "2.51"
         },
-        "x4": {
+        "x72": {
             "number": "Ex. 5",
             "name_en": "Bartz Klauser",
             "name_fr": "Bartz",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.99",
-                "duty.dutyraid-finder.trials.arr.10"
-            ],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.99", "d.85", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
-        "x5": {
+        "x73": {
             "number": "Ex. 6",
             "name_en": "Terra Branford",
             "name_fr": "Terra",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.99",
                 "character.gold-saucer.triple-triad-opponents.97",
-                "duty.dutyraid-finder.trials.arr.9"
+                "d.81",
+                "@TRIAD.MYTHRIL_PACK"
             ],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
             "patch": "2.51"
         },
-        "x6": {
+        "x74": {
             "number": "Ex. 7",
             "name_en": "Cloud Strife",
             "name_fr": "Cloud",
-            "source_en": "1,000,000 MGP",
-            "source_fr": "1.000.000 PGS",
+            "source": "@1,000,000 CURRENCY.MGP",
             "patch": "2.51"
         },
-        "x7": {
+        "x75": {
             "number": "Ex. 8",
             "name_en": "Squall Leonhart",
             "name_fr": "Squall",
-            "source": "character.achievement.character.gold-saucer.1104",
+            "source": "a.1104",
             "patch": "2.51"
         },
-        "x8": {
+        "x76": {
             "number": "Ex. 9",
             "name_en": "Zidane Tribal",
             "name_fr": "Djidane",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": "@TRIAD.GOLD_PACK",
             "patch": "2.51"
         },
-        "x9": {
+        "x77": {
             "number": "Ex. 10",
             "name_en": "Tidus",
             "name_fr": "Tidus",
-            "source_en": [
-                "1st-3rd place in Rowena Cup Classic tournament",
-                "Platinum Triad Card"
-            ],
-            "source_fr": [
-                "1er à 3e prix de la Coupe Rowena",
-                "Pochette Triple Triade platine"
-            ],
+            "source": "@TRIAD.PLATINUM_PACK",
+            "source_en": "1st-3rd place in Rowena Cup Classic tournament",
+            "source_fr": "1er à 3e prix de la Coupe Rowena",
             "patch": "2.51"
         },
-        "x10": {
+        "x78": {
             "number": "Ex. 11",
             "name_en": "Shantotto",
             "name_fr": "Shantotto",
-            "source": "character.achievement.character.gold-saucer.1113",
+            "source": "a.1113",
             "patch": "2.51"
         },
-        "x11": {
+        "x79": {
             "number": "Ex. 12",
             "name_en": "Vaan",
             "name_fr": "Vaan",
-            "source": "character.achievement.character.gold-saucer.1109",
+            "source": "a.1109",
             "patch": "2.51"
         },
-        "x12": {
+        "x80": {
             "number": "Ex. 13",
             "name_en": "Lightning",
             "name_fr": "Lightning",
-            "source_en": [
-                "1st-3rd place in Manderville Tournament of Champions",
-                "Platinum Triad Card"
-            ],
-            "source_fr": [
-                "1er à 3e prix du Championnat des Manderville",
-                "Pochette Triple Triade platine"
-            ],
+            "source": "@TRIAD.PLATINUM_PACK",
+            "source_en": "1st-3rd place in Manderville Tournament of Champions",
+            "source_fr": "1er à 3e prix du Championnat des Manderville",
             "patch": "2.51"
         },
-        "x13": {
+        "x252": {
             "number": "Ex. 14",
             "name_en": "Noctis Lucis Caelum",
             "name_fr": "Noctis Lucis Caelum",
-            "source_en": [
-                "200,000 MGP",
-                "Event: FFXV Crossover"
-            ],
-            "source_fr": [
-                "200.000 PGS",
-                "Événement: Le Nocturne des Héros (FFXV)"
-            ],
+            "source": "@EVENT.XV_COLLAB (200,000 CURRENCY.MGP)",
             "patch": "4.56"
         },
-        "x14": {
+        "x405": {
             "number": "Ex. 15",
             "name_en": "Clive Rosfield",
             "name_fr": "Clive Rosfield",
-            "source_en": [
-                "200,000 MGP",
-                "Event: FFXVI Crossover"
-            ],
-            "source_fr": [
-                "200.000 PGS",
-                "Événement: FFXVI"
-            ],
+            "source": "@EVENT.XV_COLLAB (200,000 CURRENCY.MGP)",
             "patch": "6.58"
         }
     }

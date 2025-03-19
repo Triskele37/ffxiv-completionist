@@ -1,0 +1,216 @@
+{
+    "key": "yorha-dark-apocalypse",
+    "groupName_en": "YoRHa: Dark Apocalypse",
+    "groupName_fr": "YoRHa: Dark Apocalypse",
+    "tasks": {
+        "x69207": {
+            "level": 70,
+            "name_en": "Word about Komra",
+            "name_fr": "Rencontre en noir et blanc",
+            "npc_en": "Gossipy Dwarf",
+            "npc_fr": "Nain Colporteur De Rumeurs",
+            "cPrev": ["q.69173"],
+            "cNext": ["q.69253"],
+            "patch": "5.0"
+        },
+        "x69253": {
+            "level": 80,
+            "name_en": "A Scandal in Komra",
+            "name_fr": "C'est tombé du chariot!",
+            "npc_en": "Gossipy Dwarf",
+            "npc_fr": "Nain Colporteur De Rumeurs",
+            "cPrev": ["q.69190", "q.69207"],
+            "cNext": ["q.69254"],
+            "patch": "5.1"
+        },
+        "x69254": {
+            "level": 80,
+            "name_en": "On the Threshold",
+            "name_fr": "Panique mécanique",
+            "unlock": ["d.700", "o.350"],
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69253"],
+            "cNext": ["q.69255"],
+            "patch": "5.1"
+        },
+        "x69255": {
+            "level": 80,
+            "name_en": "An Academic Dispute",
+            "name_fr": "On y retourne!",
+            "npc_en": "Anogg",
+            "npc_fr": "Anogg",
+            "cPrev": ["q.69254"],
+            "cNext": ["q.69257", "q.69256"],
+            "patch": "5.1"
+        },
+        "x69256": {
+            "level": 80,
+            "name_en": "Tails, You Lose",
+            "name_fr": "Visite d'usine (cheminement d'Anogg)",
+            "npc_en": "Anogg",
+            "npc_fr": "Anogg",
+            "cPrev": ["q.69255"],
+            "cNext": ["q.69320"],
+            "cExclude": ["q.69257"],
+            "patch": "5.1"
+        },
+        "x69257": {
+            "level": 80,
+            "name_en": "Heads, I Win",
+            "name_fr": "Visite d'usine (cheminement de Konogg)",
+            "npc_en": "Konogg",
+            "npc_fr": "Konogg",
+            "cPrev": ["q.69255"],
+            "cNext": ["q.69320"],
+            "cExclude": ["q.69256"],
+            "patch": "5.1",
+            "unlock": "o.353"
+        },
+        "x69320": {
+            "level": 80,
+            "name_en": "Carnivals and Confrontations",
+            "name_fr": "Batterie faible",
+            "cPrevAny": true,
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69256", "q.69257"],
+            "cNext": ["q.69321"],
+            "patch": "5.2"
+        },
+        "x69321": {
+            "level": 80,
+            "name_en": "One Way to Do It",
+            "name_fr": "Le plan d'Anogg",
+            "npc_en": "Anogg",
+            "npc_fr": "Anogg",
+            "cPrev": ["q.69320"],
+            "cNext": ["q.69488"],
+            "patch": "5.2",
+            "unlock": "o.372"
+        },
+        "x69488": {
+            "level": 80,
+            "name_en": "We Can Rebuild Her",
+            "name_fr": "Les Gogg en goguette",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69321"],
+            "cNext": ["q.69489"],
+            "patch": "5.3",
+            "unlock": "o.400"
+        },
+        "x69489": {
+            "level": 80,
+            "name_en": "Everything You Know Is Wrong",
+            "name_fr": "Le réveil de 2P",
+            "unlock": "d.736",
+            "npc_en": "Anogg",
+            "npc_fr": "Anogg",
+            "cPrev": ["q.69488"],
+            "cNext": ["q.69490"],
+            "patch": "5.3"
+        },
+        "x69490": {
+            "level": 80,
+            "name_en": "Crime and Punishment",
+            "name_fr": "L'avocat des diables",
+            "npc_en": "Konogg",
+            "npc_fr": "Konogg",
+            "cPrev": ["q.69489"],
+            "cNext": ["q.69534"],
+            "patch": "5.3",
+            "unlock": "o.399"
+        },
+        "x69534": {
+            "level": 80,
+            "name_en": "To Make Amends",
+            "name_fr": "Konogg, le mal aimé",
+            "npc_en": "Konogg",
+            "npc_fr": "Konogg",
+            "cPrev": ["q.69490"],
+            "cNext": ["q.69570"],
+            "patch": "5.4"
+        },
+        "x69570": {
+            "level": 80,
+            "name_en": "Konogg, Alone",
+            "name_fr": "Au chevet de Konogg",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69534"],
+            "cNext": ["q.69571"],
+            "patch": "5.5",
+            "unlock": ["o.470", "o.471"]
+        },
+        "x69571": {
+            "level": 80,
+            "name_en": "Brave New World",
+            "name_fr": "Créatures ennemies",
+            "unlock": ["d.779", "o.472", "o.473", "o.474"],
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69570"],
+            "cNext": ["q.69572"],
+            "patch": "5.5"
+        },
+        "x69572": {
+            "level": 80,
+            "name_en": "It Takes a Village",
+            "name_fr": "Tous coupables?",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69571"],
+            "cNext": ["q.69579"],
+            "patch": "5.5"
+        },
+        "x69579": {
+            "level": 80,
+            "name_en": "Komra Wasn't Built in a Day",
+            "name_fr": "Projet d'avenir",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69572"],
+            "cNext": ["q.69586", "q.69580"],
+            "patch": "5.5"
+        },
+        "x69586": {
+            "level": 80,
+            "name_en": "All That Grinds Is Not Gloom",
+            "name_fr": "Formes de vie recyclables",
+            "npc_en": "Doomsaying Dwarf",
+            "npc_fr": "Villageois Désespéré",
+            "cPrev": ["q.69579"],
+            "patch": "5.5"
+        },
+        "x69587": {
+            "level": 80,
+            "name_en": "The Merchant of Komra",
+            "name_fr": "Bon débarras",
+            "npc_en": "Dour Dwarf",
+            "npc_fr": "Villageois Présomptueux",
+            "cPrev": ["q.69581"],
+            "patch": "5.5"
+        },
+        "x69588": {
+            "level": 80,
+            "name_en": "How to Catch an Automaton",
+            "name_fr": "Chasse à la grenouille",
+            "npc_en": "Decisive Dwarf",
+            "npc_fr": "Villageois Fougueux",
+            "cPrev": ["q.69583"],
+            "patch": "5.5"
+        },
+        "x69589": {
+            "level": 80,
+            "name_en": "Whence the Heart Leads",
+            "name_fr": "Comme les deux doigts de la main",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "Porion Nain",
+            "cPrev": ["q.69585"],
+            "cSiblings": ["a.2852"],
+            "patch": "5.55",
+            "unlock": "o.469"
+        }
+    }
+}

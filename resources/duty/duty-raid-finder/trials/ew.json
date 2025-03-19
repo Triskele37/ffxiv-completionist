@@ -1,188 +1,138 @@
 {
     "key": "ew",
-    "groupName_en": "EW",
-    "groupName_fr": "Endwalker",
+    "groupName": "@EXPANSION.ENDWALKER",
+    "groupNameShort": "@EXPANSION.EW",
     "tasks": {
-        "x0": {
+        "x802": {
             "level": "83",
             "name_en": "The Dark Inside",
             "name_fr": "Le Cratère des Martyrs",
-            "unlock": "duty.quests.main-scenario.endwalker.69934",
-            "boss_en": "Zodiark",
-            "boss_fr": "Zodiarche"
+            "unlock": "q.69934"
         },
-        "x1": {
+        "x790": {
             "level": "89",
             "name_en": "The Mothercrystal",
             "name_fr": "Le Cristal-mère",
-            "unlock": "duty.quests.main-scenario.endwalker.69985",
-            "boss_en": "Hydaelyn",
-            "boss_fr": "Hydaelyn"
+            "unlock": "q.69985"
         },
-        "x2": {
+        "x796": {
             "level": "90",
             "name_en": "The Final Day",
             "name_fr": "Le Répons final",
-            "unlock": "duty.quests.main-scenario.endwalker.70000",
-            "boss_en": "The Endsinger",
-            "boss_fr": "Chantre de l'anéantissement"
+            "unlock": "q.70000"
         },
-        "x7": {
+        "x870": {
             "level": "90",
             "name_en": "Storm's Crown",
             "name_fr": "La Toison des tempêtes",
-            "unlock": "duty.quests.main-scenario.post-endwalker.70133",
-            "boss_en": "Barbariccia",
-            "boss_fr": "Barbariccia"
+            "unlock": "q.70133"
         },
-        "x10": {
+        "x886": {
             "level": "90",
             "name_en": "Mount Ordeals",
             "name_fr": "Le Mont du Supplice",
-            "unlock": "duty.quests.main-scenario.post-endwalker.70213",
-            "boss_en": "Rubicante",
-            "boss_fr": "Rubicante"
+            "unlock": "q.70213"
         },
-        "x13": {
+        "x949": {
             "level": "90",
             "name_en": "The Voidcast Dais",
             "name_fr": "La Chaire de l'Exilée",
-            "unlock": "duty.quests.main-scenario.post-endwalker.70278",
-            "boss_en": "Golbez",
-            "boss_fr": "Golbez"
+            "unlock": "q.70278"
         },
-        "x16": {
+        "x964": {
             "level": "90",
             "name_en": "The Abyssal Fracture",
             "name_fr": "La Fracture abyssale",
-            "unlock": "duty.quests.main-scenario.post-endwalker.70284",
-            "boss_en": "Zeromus",
-            "boss_fr": "Zeromus"
+            "unlock": "q.70284"
         },
-        "x19": {
+        "x69": {
             "level": "90",
             "name_en": "The Gilded Araya",
             "name_fr": "Le temple doré d'Araya",
-            "unlock": "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
-            "boss_en": "Asura",
-            "boss_fr": "Asura"
+            "unlock": "q.70336"
         },
-        "x3": {
+        "x803": {
             "level": "90",
             "name_en": "The Minstrel's Ballad: Zodiark's Fall",
             "name_fr": "Le Cratère des Martyrs (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Zodiark",
-            "boss_fr": "Zodiarche",
-            "cSiblings": [
-                "character.achievement.battle.trials.2988"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.2988"]
         },
-        "x4": {
+        "x791": {
             "level": "90",
             "name_en": "The Minstrel's Ballad: Hydaelyn's Call",
             "name_fr": "Le Cristal-mère (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Hydaelyn",
-            "boss_fr": "Hydaelyn",
-            "cSiblings": [
-                "character.achievement.battle.trials.2989"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.2989"]
         },
-        "x5": {
+        "x846": {
             "level": "90",
             "name_en": "The Minstrel's Ballad: Endsinger's Aria",
             "name_fr": "Le Répons final (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "The Endsinger",
-            "boss_fr": "Chantre de l'anéantissement",
-            "cSiblings": [
-                "character.achievement.battle.trials.3072"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.3072"]
         },
-        "x8": {
+        "x871": {
             "level": "90",
             "name_en": "Storm's Crown (Extreme)",
             "name_fr": "La Toison des tempêtes (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Barbariccia",
-            "boss_fr": "Barbariccia",
-            "cSiblings": [
-                "character.achievement.battle.trials.3107"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.3107"]
         },
-        "x11": {
+        "x924": {
             "level": "90",
             "name_en": "Mount Ordeals (Extreme)",
             "name_fr": "Le Mont du Supplice (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Rubicante",
-            "boss_fr": "Rubicante",
-            "cSiblings": [
-                "character.achievement.battle.trials.3160"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.3160"]
         },
-        "x14": {
+        "x950": {
             "level": "90",
             "name_en": "The Voidcast Dais (Extreme)",
             "name_fr": "La Chaire de l'Exilée (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Golbez",
-            "boss_fr": "Golbez",
-            "cSiblings": [
-                "character.achievement.battle.trials.3246"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.3246"]
         },
-        "x17": {
+        "x965": {
             "level": "90",
             "name_en": "The Abyssal Fracture (Extreme)",
             "name_fr": "La Fracture abyssale (extrême)",
-            "unlock": "duty.quests.other.quasi-quests.69707",
-            "boss_en": "Zeromus",
-            "boss_fr": "Zeromus",
-            "cSiblings": [
-                "character.achievement.battle.trials.3402"
-            ]
+            "unlock": "q.69707",
+            "cSiblings": ["a.3402"]
         },
-        "x6": {
+        "x91002": {
             "level": "90",
             "name_en": "Ultima's Bane (Unreal)",
             "name_fr": "Le fléau d'Ultima (irréel)",
-            "unlock": "duty.quests.sidequests.dravanian.idyllshire.69501",
-            "boss_en": "Ultima Weapon",
-            "boss_fr": "Ultima Arma"
+            "unlock": "q.69501"
         },
-        "x9": {
+        "x91003": {
             "level": "90",
             "name_en": "Containment Bay S1T7 (Unreal)",
             "name_fr": "Unité de contention S1P7 (irréel)",
-            "unlock": "duty.quests.sidequests.dravanian.idyllshire.69501",
-            "boss_en": "Sephirot",
-            "boss_fr": "Sephirot"
+            "unlock": "q.69501",
+            "defaultCompletion": "X"
         },
-        "x12": {
+        "x91004": {
             "level": "90",
             "name_en": "Containment Bay P1T6 (Unreal)",
             "name_fr": "Unité de contention P1P6 (irréel)",
-            "unlock": "duty.quests.sidequests.dravanian.idyllshire.69501",
-            "boss_en": "Sophia",
-            "boss_fr": "Sophia"
+            "unlock": "q.69501",
+            "defaultCompletion": "X"
         },
-        "x15": {
+        "x91005": {
             "level": "90",
             "name_en": "Containment Bay Z1T9 (Unreal)",
             "name_fr": "Unité de contention Z1P9 (irréel)",
-            "unlock": "duty.quests.sidequests.dravanian.idyllshire.69501",
-            "boss_en": "Zurvan",
-            "boss_fr": "Zurvan"
+            "unlock": "q.69501",
+            "defaultCompletion": "X"
         },
-        "x18": {
+        "x91006": {
             "level": "90",
             "name_en": "The Singularity Reactor (Unreal)",
             "name_fr": "Le Réacteur de singularité (irréel)",
-            "unlock": "duty.quests.sidequests.dravanian.idyllshire.69501",
-            "boss_en": "King Thordan",
-            "boss_fr": "Roi Thordan"
+            "unlock": "q.69501",
+            "defaultCompletion": "X"
         }
     }
 }

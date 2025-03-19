@@ -1,0 +1,70 @@
+{
+    "key": "garlemalds-machinations",
+    "groupName_en": "Garlemald's Machinations",
+    "groupName_fr": "Complainte de Werlyt",
+    "tasks": {
+        "x69319": {
+            "level": 80,
+            "name_en": "Ruby Doomsday",
+            "name_fr": "Une bataille en rouge",
+            "unlock": "d.717",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier Mhigois",
+            "cPrev": ["q.69297"],
+            "cNext": ["q.69378", "q.69431"],
+            "patch": "5.2"
+        },
+        "x69431": {
+            "level": 80,
+            "name_en": "Sleep Now in Sapphire",
+            "name_fr": "Sur la mer de saphir",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier Mhigois",
+            "cPrev": ["q.69319"],
+            "cNext": ["q.69516"],
+            "patch": "5.3"
+        },
+        "x69516": {
+            "level": 80,
+            "name_en": "Blood of Emerald",
+            "name_fr": "À la poursuite du joyau vert",
+            "unlock": "d.762",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier Mhigois",
+            "cPrev": ["q.69431"],
+            "cNext": ["q.69517"],
+            "patch": "5.4"
+        },
+        "x69517": {
+            "level": 80,
+            "name_en": "In Memory",
+            "name_fr": "Memento Mori",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier Mhigois",
+            "cPrev": ["q.69516"],
+            "cNext": ["q.69567"],
+            "patch": "5.4"
+        },
+        "x69567": {
+            "level": 80,
+            "name_en": "Duty in the Sky with Diamond",
+            "name_fr": "Les diamants sont immuables",
+            "unlock": ["d.781", "o.440"],
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier Mhigois",
+            "cPrev": ["q.69517"],
+            "cNext": ["q.69568"],
+            "patch": "5.5"
+        },
+        "x69568": {
+            "level": 80,
+            "name_en": "Forever at Your Side",
+            "name_fr": "Toujours près de toi",
+            "npc_en": "Severa",
+            "npc_fr": "Severa",
+            "cPrev": ["q.69567"],
+            "cSiblings": ["a.2887"],
+            "patch": "5.5"
+        }
+    }
+}

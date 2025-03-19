@@ -1,0 +1,79 @@
+{
+    "key": "shadow-of-mhach-quests",
+    "groupName_en": "Shadow of Mhach Quests",
+    "groupName_fr": "Ombre de Mhach",
+    "tasks": {
+        "x67740": {
+            "level": 60,
+            "name_en": "Sky Pirates",
+            "name_fr": "Les pirates des cieux",
+            "npc_en": "Unquiet Trader",
+            "npc_fr": "Marchand Inquiet",
+            "cPrev": ["q.67205"],
+            "cNext": ["q.67741"],
+            "patch": "4.31"
+        },
+        "x67741": {
+            "level": 60,
+            "name_en": "To Rule the Skies",
+            "name_fr": "À l'abordage!",
+            "unlock": "d.120",
+            "npc_en": "Utata",
+            "npc_fr": "Utata",
+            "cPrev": ["q.67740"],
+            "cNext": ["q.67821"],
+            "cSiblings": ["a.1388"],
+            "patch": "4.31"
+        },
+        "x67821": {
+            "level": 60,
+            "name_en": "The Weeping City",
+            "name_fr": "Un défi à double enjeu",
+            "unlock": "d.168",
+            "npc_en": "Stacia",
+            "npc_fr": "Stacia",
+            "cPrev": ["q.67741"],
+            "cNext": ["q.67822"],
+            "patch": "4.31"
+        },
+        "x67822": {
+            "level": 60,
+            "name_en": "Freedom for Our Skies",
+            "name_fr": "Le combat pour la liberté",
+            "npc_en": "Leofard",
+            "npc_fr": "Leofard",
+            "cPrev": ["q.67821"],
+            "cNext": ["q.67016", "q.67909"],
+            "patch": "4.31"
+        },
+        "x67909": {
+            "level": 60,
+            "name_en": "Where Shadows Reign",
+            "name_fr": "L'armée des ombres",
+            "unlock": ["d.220", "o.146", "o.147"],
+            "npc_en": "Stacia",
+            "npc_fr": "Stacia",
+            "cPrev": ["q.67822"],
+            "cNext": ["q.67910"],
+            "patch": "4.31"
+        },
+        "x67910": {
+            "level": 60,
+            "name_en": "A Redbill Farewell",
+            "name_fr": "Le foulard lui va si bien",
+            "npc_en": "Leofard",
+            "npc_fr": "Leofard",
+            "cPrev": ["q.67909"],
+            "patch": "4.31"
+        },
+        "x67016": {
+            "level": 60,
+            "name_en": "Unidentified Flying Object",
+            "name_fr": "Objet volant non identifié",
+            "npc_en": "Slipslix",
+            "npc_fr": "Slipslix",
+            "cPrev": ["q.67822"],
+            "patch": "4.31"
+        }
+    }
+}

@@ -13,8 +13,7 @@
             "header_fr": "Quête de départ"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "defaultCompletion": 0,
@@ -25,65 +24,65 @@
             "name_en": "Carpenter",
             "name_fr": "Menuisier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x1": {
             "name_en": "Blacksmith",
             "name_fr": "Forgeron",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x2": {
             "name_en": "Armorer",
             "name_fr": "Armurier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x3": {
             "name_en": "Goldsmith",
             "name_fr": "Orfèvre",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x4": {
             "name_en": "Leatherworker",
             "name_fr": "Tanneur",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x5": {
             "name_en": "Weaver",
             "name_fr": "Couturier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x6": {
             "name_en": "Alchemist",
             "name_fr": "Alchimiste",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         },
         "x7": {
             "name_en": "Culinarian",
             "name_fr": "Cuisinier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.sidequests.uldahn.uldah.65688",
+            "startingQuest": "q.65688",
             "minValue": 0,
-            "maxValue": 650
+            "maxValue": 720
         }
     }
 }

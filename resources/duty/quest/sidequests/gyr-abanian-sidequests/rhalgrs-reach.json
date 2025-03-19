@@ -11,17 +11,9 @@
             "npc_fr": "Galiena",
             "unlock_en": "Custom Deliveries: M'naago",
             "unlock_fr": "Custom Deliveries: M'naago",
-            "cPrev": [
-                "duty.quests.main-scenario.post-stormblood.68508",
-                "duty.quests.other.quasi-quests.68477"
-            ],
-            "cNext": [
-                68542,
-                "duty.quests.sidequests.hingan.kugane.68675"
-            ],
-            "cSiblings": [
-                "character.achievement.character.general.1969"
-            ],
+            "cPrev": ["q.68508", "q.68477"],
+            "cNext": ["q.68542", "q.68675"],
+            "cSiblings": ["a.1969"],
             "patch": "4.31"
         },
         "x68542": {
@@ -30,9 +22,7 @@
             "name_fr": "Après les larmes",
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": [
-                68541
-            ],
+            "cPrev": ["q.68541"],
             "patch": "4.31"
         },
         "x68187": {
@@ -40,10 +30,8 @@
             "name_en": "Hard Blow",
             "name_fr": "Comme soufflé d'une sarbacane",
             "npc_en": "Straight-arrow Sutler",
-            "npc_fr": "cantinier loyal",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000"
-            ],
+            "npc_fr": "Cantinier Loyal",
+            "cPrev": ["q.68000"],
             "patch": "4.31"
         },
         "x68188": {
@@ -51,13 +39,9 @@
             "name_en": "Mother's Boy",
             "name_fr": "Le souvenir d'un fils",
             "npc_en": "Wounded Resistance Fighter",
-            "npc_fr": "soldat mhigois blessé",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68189"
-            ],
+            "npc_fr": "Soldat Mhigois Blessé",
+            "cPrev": ["q.68000"],
+            "cNext": ["q.68189"],
             "patch": "4.31"
         },
         "x68404": {
@@ -66,9 +50,7 @@
             "name_fr": "La dure vie des infirmiers",
             "npc_en": "Ranulf",
             "npc_fr": "Ranulf",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083"
-            ],
+            "cPrev": ["q.68083"],
             "patch": "4.31"
         },
         "x68405": {
@@ -76,14 +58,9 @@
             "name_en": "Dearest Daughter",
             "name_fr": "Jamais sans ma fille",
             "npc_en": "Elderly Private",
-            "npc_fr": "vétéran de l'armée de libération",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68407",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68408"
-            ],
+            "npc_fr": "Vétéran De L'armée De Libération",
+            "cPrev": ["q.68083"],
+            "cNext": ["q.68407", "q.68408"],
             "patch": "4.31"
         },
         "x68406": {
@@ -91,14 +68,9 @@
             "name_en": "Fallen Friend of Mine",
             "name_fr": "Un homme impartial",
             "npc_en": "Ananta Battlemaid",
-            "npc_fr": "guerrière ananta",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68411",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68410"
-            ],
+            "npc_fr": "Guerrière Ananta",
+            "cPrev": ["q.68083"],
+            "cNext": ["q.68411", "q.68410"],
             "patch": "4.31"
         },
         "x68421": {
@@ -107,49 +79,38 @@
             "name_fr": "La reconstruction n'attend pas",
             "npc_en": "Wichard",
             "npc_fr": "Wichard",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.southern-thanalan.68422"
-            ],
+            "cPrev": ["q.68089"],
+            "cNext": ["q.68422"],
             "patch": "4.31"
         },
         "x68169": {
             "level": 70,
             "name_en": "To Kill a Coeurl",
             "name_fr": "Au coeurl du temple",
-            "unlock": "duty.dutyraid-finder.dungeons.sb.7",
+            "unlock": "d.236",
             "npc_en": "Ortwin",
             "npc_fr": "Ortwin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089"
-            ],
+            "cPrev": ["q.68089"],
             "patch": "4.31"
         },
         "x68613": {
             "level": 70,
             "name_en": "An Unwanted Truth",
             "name_fr": "À la recherche de la terre sacrée",
-            "unlock": "duty.dutyraid-finder.dungeons.sb.10",
+            "unlock": "d.285",
             "npc_en": "Philiot",
             "npc_fr": "Philiot",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089"
-            ],
+            "cPrev": ["q.68089"],
             "patch": "4.31"
         },
         "x68678": {
             "level": 70,
             "name_en": "Secret of the Ooze",
             "name_fr": "Gadoue protéinée",
-            "unlock": "duty.dutyraid-finder.dungeons.sb.13",
+            "unlock": "d.584",
             "npc_en": "Sawney",
             "npc_fr": "Sawney",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089",
-                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67738"
-            ],
+            "cPrev": ["q.68089", "q.67738"],
             "patch": "4.4"
         },
         "x68476": {
@@ -157,11 +118,8 @@
             "name_en": "Another Striking Opportunity",
             "name_fr": "S'affirmer et s'affermir",
             "npc_en": "Starry-eyed Ala Mhigan",
-            "npc_fr": "guerrier amène",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089",
-                "duty.quests.sidequests.dravanian.idyllshire.67654"
-            ],
+            "npc_fr": "Guerrier Amène",
+            "cPrev": ["q.68089", "q.67654"],
             "patch": "4.31"
         },
         "x68566": {
@@ -169,10 +127,8 @@
             "name_en": "A Fortune in Salt",
             "name_fr": "L'or blanc",
             "npc_en": "Perky Peddler",
-            "npc_fr": "marchand ambulant enjoué",
-            "cPrev": [
-                "duty.quests.main-scenario.post-stormblood.68610"
-            ],
+            "npc_fr": "Marchand Ambulant Enjoué",
+            "cPrev": ["q.68610"],
             "patch": "4.31"
         }
     }

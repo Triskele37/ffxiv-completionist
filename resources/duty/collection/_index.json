@@ -2,25 +2,22 @@
     "key": "collection",
     "groupName_en": "Collection",
     "groupName_fr": "Objet précieux",
+    "order": ["yo-kai-medallium", "portable-archive", "field-record"],
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         }
     },
     "tasks": {
         "x0": {
             "name_en": "Aether Compass",
             "name_fr": "Boussole éthéréenne",
-            "source": "duty.quests.main-scenario.heavensward.67133",
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67133"
-            ]
+            "source": "q.67133",
+            "cSiblings": ["q.67133"]
         }
     }
 }

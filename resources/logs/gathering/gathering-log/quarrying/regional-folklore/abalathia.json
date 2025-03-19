@@ -7,13 +7,11 @@
             "level": "60★",
             "name_en": "Sun Mica",
             "name_fr": "Mica doré",
-            "zone_en": "The Sea of Clouds",
-            "zone_fr": "L'Écume des cieux d'Abalathia",
+            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
             "coordinates": "(35, 39)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Camp Cloudtop",
-            "closestAetheryte_fr": "Camp de Cime-des-nuages",
-            "patch": "3.0"
+            "patch": "3.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.65"
         }
     }
 }

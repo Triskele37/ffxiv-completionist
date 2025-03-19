@@ -1,0 +1,72 @@
+{
+    "key": "kozamauka",
+    "groupName": "@PLACE.KOZAMAUKA",
+    "cCombo": ["a.3541"],
+    "tasks": {
+        "x0": {
+            "name": "@TRAVEL.COMPASS_CURRENT 1",
+            "location": "(31.1, 38.1, 1.2)"
+        },
+        "x1": {
+            "name": "@TRAVEL.COMPASS_CURRENT 2",
+            "location": "(24.0, 31.9, 1.1)"
+        },
+        "x2": {
+            "name": "@TRAVEL.COMPASS_CURRENT 3",
+            "location": "(6.3, 23.9, 1.3)"
+        },
+        "x3": {
+            "name": "@TRAVEL.COMPASS_CURRENT 4",
+            "location": "(31.8, 14.5, 0.1)"
+        },
+        "x4": {
+            "name": "@TRAVEL.COMPASS_CURRENT 5",
+            "location": "(39.8, 13.3, 0.1)"
+        },
+        "x5": {
+            "name": "@TRAVEL.COMPASS_CURRENT 6",
+            "location": "(8.7, 11.7, 0.0)"
+        },
+        "x6": {
+            "name": "@TRAVEL.COMPASS_CURRENT 7",
+            "location": "(22.4, 27.2, 1.1)"
+        },
+        "x7": {
+            "name": "@TRAVEL.COMPASS_CURRENT 8",
+            "location": "(15.5, 34.2, 1.1)"
+        },
+        "x8": {
+            "name": "@TRAVEL.COMPASS_CURRENT 9",
+            "location": "(9.4, 17.8, 0.0)"
+        },
+        "x9": {
+            "name": "@TRAVEL.COMPASS_CURRENT 10",
+            "location": "(27.4, 7.7, 0.0)"
+        },
+        "x10": {
+            "name": "@TRAVEL.QUEST_CURRENT 1",
+            "quest": "q.70621",
+            "cSiblings": ["q.70621"]
+        },
+        "x11": {
+            "name": "@TRAVEL.QUEST_CURRENT 2",
+            "quest": "q.70610",
+            "cSiblings": ["q.70610"]
+        },
+        "x12": {
+            "name": "@TRAVEL.QUEST_CURRENT 3",
+            "quest": "q.70617",
+            "cSiblings": ["q.70617"]
+        },
+        "x13": {
+            "name": "@TRAVEL.QUEST_CURRENT 4",
+            "quest": "q.70600",
+            "cSiblings": ["q.70600"]
+        },
+        "x14": {
+            "name": "@TRAVEL.QUEST_CURRENT 5",
+            "quest": "q.70424",
+            "cSiblings": ["q.70424"]
+        }
+    }
+}

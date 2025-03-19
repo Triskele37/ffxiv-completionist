@@ -10,21 +10,17 @@
             "description_fr": "Découvrir les lieux notoires 001 à 020 du carnet d'exploration.",
             "patch": "2.28",
             "points": 5,
-            "cPrev": [
-                "logs.sightseeing-log.arr.0-19"
-            ]
+            "cPrev": ["logs.sightseeing-log.a-realm-reborn.2162688-2162707"]
         },
         "x929": {
             "name_en": "Out of Sight Out of Mind",
             "name_fr": "Argonaute d'Éorzéa",
             "description_en": "Complete entries 1-80 in your sightseeing log.",
             "description_fr": "Découvrir les lieux notoires 001 à 080 du carnet d'exploration.",
-            "reward": "character.minion-guide.89",
+            "reward": "mi.40",
             "patch": "2.28",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.arr.0-79"
-            ]
+            "cPrev": ["logs.sightseeing-log.a-realm-reborn.2162688-2162767"]
         },
         "x1312": {
             "name_en": "Out of Sight Out of Bounds I",
@@ -33,24 +29,18 @@
             "description_fr": "Découvrir les lieux notoires 001 à 042 du carnet d'exploration de Heavensward.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.hw.0-41"
-            ]
+            "cPrev": ["logs.sightseeing-log.heavensward.2162768-2162809"]
         },
         "x1386": {
             "name_en": "Out of Sight Out of Bounds II",
             "name_fr": "Explorateur des terres du nord",
             "description_en": "Complete entries 43-62 in your Heavensward sightseeing log.",
             "description_fr": "Découvrir les lieux notoires 043 à 062 du carnet d'exploration de Heavensward.",
-            "reward": "character.character.title.276",
+            "reward": "t.276",
             "patch": "3.1",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.hw.42-61"
-            ],
-            "cSiblings": [
-                "character.character.title.276"
-            ]
+            "cPrev": ["logs.sightseeing-log.heavensward.2162810-2162829"],
+            "cSiblings": ["t.276"]
         },
         "x1903": {
             "name_en": "Oh, the Sights We'll See I",
@@ -59,24 +49,18 @@
             "description_fr": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Stormblood.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.sb.0-44"
-            ]
+            "cPrev": ["logs.sightseeing-log.stormblood.2162830-2162874"]
         },
         "x1965": {
             "name_en": "Oh, the Sights We'll See II",
             "name_fr": "Explorateur des terres de l'est",
             "description_en": "Complete entries 46-62 in your Stormblood sightseeing log.",
             "description_fr": "Découvrir les lieux notoires 046 à 062 du carnet d'exploration de Stormblood.",
-            "reward": "character.character.title.131",
+            "reward": "t.131",
             "patch": "4.1",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.sb.45-61"
-            ],
-            "cSiblings": [
-                "character.character.title.131"
-            ]
+            "cPrev": ["logs.sightseeing-log.stormblood.2162875-2162891"],
+            "cSiblings": ["t.131"]
         },
         "x2370": {
             "name_en": "Darksighters I",
@@ -85,9 +69,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Shadowbringers.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.shb.0-44"
-            ]
+            "cPrev": ["logs.sightseeing-log.shadowbringers.2162892-2162936"]
         },
         "x2973": {
             "name_en": "End in Sight",
@@ -96,9 +78,16 @@
             "description_fr": "Découvrir les lieux notoires 001 à 046 du carnet d'exploration d'Endwalker.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.ew.0-45"
-            ]
+            "cPrev": ["logs.sightseeing-log.endwalker.2162937-2162982"]
+        },
+        "x3510": {
+            "description_en": "Complete entries 1-45 in your Dawntrail sightseeing log.",
+            "description_fr": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Dawntrail.",
+            "name_en": "Happy Trails",
+            "name_fr": "Touriste des terres de l'ouest",
+            "patch": "7.0",
+            "points": 10,
+            "cPrev": ["logs.sightseeing-log.dawntrail.2162983-2163027"]
         }
     }
 }

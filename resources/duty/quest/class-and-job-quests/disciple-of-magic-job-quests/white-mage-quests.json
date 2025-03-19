@@ -1,0 +1,212 @@
+{
+    "key": "white-mage-quests",
+    "groupName_en": "White Mage Quests",
+    "groupName_fr": "Quêtes de mage blanc",
+    "tasks": {
+        "x66615": {
+            "level": 30,
+            "name_en": "Seer Folly",
+            "name_fr": "L'héritage d'un grand homme",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": ["q.65977", "q.66049"],
+            "cNext": ["q.66616"],
+            "cSiblings": ["ap.169"],
+            "patch": "4.31",
+            "unlock": "ap.169"
+        },
+        "x66616": {
+            "level": 35,
+            "name_en": "Only You Can Prevent Forest Ire",
+            "name_fr": "La colère est une souffrance",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66615"],
+            "cNext": ["q.66617"],
+            "patch": "4.31"
+        },
+        "x66617": {
+            "level": 40,
+            "name_en": "O Brother, Where Art Thou",
+            "name_fr": "La vanité est une faiblesse",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66616"],
+            "cNext": ["q.66618"],
+            "patch": "4.31"
+        },
+        "x66618": {
+            "level": 45,
+            "name_en": "Following in His Footsteps",
+            "name_fr": "Sur les traces du pèlerin",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66617"],
+            "cNext": ["q.66619"],
+            "patch": "4.31"
+        },
+        "x66619": {
+            "level": 45,
+            "name_en": "Yearn for the Urn",
+            "name_fr": "Un acte impardonnable",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66618"],
+            "cNext": ["q.66620"],
+            "patch": "4.31"
+        },
+        "x66620": {
+            "level": 50,
+            "name_en": "Heart of the Forest",
+            "name_fr": "Devoir de guérison",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66619"],
+            "cNext": ["q.66660", "q.67255"],
+            "cSiblings": ["a.412"],
+            "patch": "4.31"
+        },
+        "x66660": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Thyrus)",
+            "name_fr": "Restauration du Thyrse",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": ["q.66620", "q.66241"],
+            "patch": "4.31"
+        },
+        "x67255": {
+            "level": 50,
+            "name_en": "Taint Misbehaving",
+            "name_fr": "Un voyage inattendu",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.66620", "q.65964"],
+            "cNext": ["q.67256"],
+            "patch": "4.31"
+        },
+        "x67256": {
+            "level": 52,
+            "name_en": "A Journey of Purification",
+            "name_fr": "Créatures sous influence",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": ["q.67255"],
+            "cNext": ["q.67257"],
+            "patch": "4.31"
+        },
+        "x67257": {
+            "level": 54,
+            "name_en": "The Girl with the Dragon Tissue",
+            "name_fr": "La traqueuse de dragons",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": ["q.67256"],
+            "cNext": ["q.67258"],
+            "patch": "4.31"
+        },
+        "x67258": {
+            "level": 56,
+            "name_en": "The Dark Blight Writhes",
+            "name_fr": "Le pouvoir de guérison",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": ["q.67257"],
+            "cNext": ["q.67259"],
+            "patch": "4.31"
+        },
+        "x67259": {
+            "level": 58,
+            "name_en": "In the Wake of Death",
+            "name_fr": "La paria aoranne",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": ["q.67258"],
+            "cNext": ["q.67260"],
+            "patch": "4.31"
+        },
+        "x67260": {
+            "level": 58,
+            "name_en": "Trials of the Padjals",
+            "name_fr": "Le dilemme des Padjals",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": ["q.67259"],
+            "cNext": ["q.67261"],
+            "patch": "4.31"
+        },
+        "x67261": {
+            "level": 60,
+            "name_en": "Hands of Healing",
+            "name_fr": "Soigner le monde",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.67260"],
+            "cNext": ["q.67950"],
+            "cSiblings": ["a.1146"],
+            "patch": "4.31"
+        },
+        "x67950": {
+            "level": 60,
+            "name_en": "Unease in East End",
+            "name_fr": "Le bruissement des Confins est",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.67261", "q.67895"],
+            "cNext": ["q.67951"],
+            "patch": "4.31"
+        },
+        "x67951": {
+            "level": 63,
+            "name_en": "An Aura for Trouble",
+            "name_fr": "Un aimant à problèmes",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": ["q.67950"],
+            "cNext": ["q.67952"],
+            "patch": "4.31"
+        },
+        "x67952": {
+            "level": 65,
+            "name_en": "A Beacon for Bad Things",
+            "name_fr": "Fatale puissance",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": ["q.67951"],
+            "cNext": ["q.67953"],
+            "patch": "4.31"
+        },
+        "x67953": {
+            "level": 68,
+            "name_en": "The Problem with Padjals",
+            "name_fr": "La règle de Gridania",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": ["q.67952"],
+            "cNext": ["q.67954"],
+            "patch": "4.31"
+        },
+        "x67954": {
+            "level": 70,
+            "name_en": "What She Always Wanted",
+            "name_fr": "Le trésor d'une Padjale",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": ["q.67953"],
+            "cNext": ["q.68751"],
+            "cSiblings": ["a.1802"],
+            "patch": "4.31"
+        },
+        "x68751": {
+            "level": 80,
+            "name_en": "Whence the Healing Springs",
+            "name_fr": "Où l'élémentalisme puise sa source",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": ["q.67954", "q.68808", "q.69190"],
+            "cSiblings": ["ap.304", "a.2311"],
+            "patch": "5.0",
+            "unlock": "ap.304"
+        }
+    }
+}

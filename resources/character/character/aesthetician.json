@@ -4,417 +4,371 @@
     "groupName_fr": "Esthéticien",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "category": {
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
-        "gender": {
-            "filterable": true,
-            "header_en": "Gender",
-            "header_fr": "Genre"
+        "lockedFor": {
+            "header_en": "Locked For",
+            "header_fr": "Verrouillé Pour",
+            "filterable": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
-    "common": [
-        "category"
-    ],
     "tasks": {
-        "x0": {
-            "name_en": "Adventure",
-            "name_fr": "Aventurier",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "14 MGP",
-            "source_fr": "14 PGS",
-            "patch": "3.1",
-            "gender_en": "Unisex (Differing Styles)",
-            "gender_fr": "Unisexe (styles différents)"
+        "x66": {
+            "name_en": "Modern Aesthetics - Early to Rise",
+            "name_fr": "Méthode de coiffure “Lêve-tôt”",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "duty.exploratory-missions.bozja.duties.1",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.45"
         },
-        "x1": {
-            "name_en": "Controlled Chaos",
-            "name_fr": "Coupe asymétrique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "1,800 Skybuilders' Scrips",
-            "source_fr": "1.800 Assignats d'Azurée",
-            "patch": "5.21",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x67": {
+            "name_en": "Modern Aesthetics - Sharlayan Studies",
+            "name_fr": "Méthode de coiffure “Prodige sharlayanais”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "5.4"
         },
-        "x2": {
-            "name_en": "Curls",
-            "name_fr": "Boucles",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "9,600 MGP",
-            "source_fr": "9.600 PGS",
-            "patch": "3.1",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x72": {
+            "name_en": "Modern Aesthetics - Controlled Chaos",
+            "name_fr": "Méthode de coiffure “Coupe asymétrique”",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "patch": "5.21"
         },
-        "x3": {
-            "name_en": "Early to Rise",
-            "name_fr": "Lêve-tôt",
-            "category": "CATEGORY.DUTY",
-            "source_en": "Delubrum Reginae",
-            "source_fr": "Delubrum Reginae",
-            "patch": "5.45",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x79": {
+            "name_en": "Modern Aesthetics - Modern Legend",
+            "name_fr": "Méthode de coiffure “Mèches légendaires”",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.11"
         },
-        "x4": {
+        "x227": {
+            "name_en": "Modern Cosmetics - A Wicked Wake",
+            "name_fr": "Méthode de maquillage : Veillée des saints",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "defaultCompletion": "X",
+            "patch": "2.38"
+        },
+        "x228": {
             "name_en": "Eternal Bonding",
             "name_fr": "Lien éternel",
-            "category": "CATEGORY.QUEST",
-            "source_en": "The Ties That Bind (Level 1 Special Quest)",
-            "source_fr": "Quête nv.1: \"Jusqu'à ce que le destin vous sépare\"",
-            "patch": "2.4",
-            "gender_en": "Unisex (Differing Styles)",
-            "gender_fr": "Unisexe (styles différents)"
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67114",
+            "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
+            "patch": "2.4"
         },
-        "x5": {
-            "name_en": "Fashionably Feathered",
-            "name_fr": "Brushing souple",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "18,000 Wolf Marks",
-            "source_fr": "18.000 Marques de loup",
-            "patch": "4.3",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x230": {
+            "name_en": "Modern Aesthetics - Lexen-tails",
+            "name_fr": "Méthode de coiffure “Ramza & Alma”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "4.5"
         },
-        "x6": {
-            "name_en": "Form and Function",
-            "name_fr": "Tresse bandeau",
-            "category": "CATEGORY.DUTY",
-            "source_en": "Happy Bunny Lockbox - Eureka Pyros",
-            "source_fr": "Eurêka Pyros",
-            "patch": "4.45",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x231": {
+            "name_en": "Modern Aesthetics - Lucian Locks",
+            "name_fr": "Méthode de coiffure “Noctis”",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.XV_COLLAB",
+            "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "4.56"
         },
-        "x7": {
-            "name_en": "Great Lengths",
-            "name_fr": "Cheveux longs classiques",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "30,000 MGP",
-            "source_fr": "30.000 PGS",
-            "patch": "5.0",
-            "gender_en": "Unisex (Differing Styles)",
-            "gender_fr": "Unisexe (styles différents)"
+        "x239": {
+            "name_en": "Modern Cosmetics - Clowning Around",
+            "name_fr": "Méthode de maquillage : clown",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.ALL_SAINTS_WAKE (2022)",
+            "defaultCompletion": "X",
+            "patch": "6.0"
         },
-        "x8": {
-            "name_en": "Gyr Abanian Plait",
-            "name_fr": "Tresse gyrabanienne",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.deep-dungeon.1",
-            "patch": "4.35",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x243": {
+            "name_en": "Modern Aesthetics - Ponytails",
+            "name_fr": "Méthode de coiffure “Queue de cheval”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@8,000 CURRENCY.MGP",
+            "patch": "2.51"
         },
-        "x9": {
-            "name_en": "Lexen-tails",
-            "name_fr": "Ramza & Alma",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "50,000 MGP",
-            "source_fr": "50.000 PGS",
-            "patch": "4.45",
-            "gender_en": "Unisex (Differing Styles)",
-            "gender_fr": "Unisexe (styles différents)"
+        "x267": {
+            "name_en": "Modern Aesthetics - Gyr Abanian Plait",
+            "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.540",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "4.35"
         },
-        "x10": {
-            "name_en": "Lucian Locks",
-            "name_fr": "Noctis",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Final Fantasy XV Collaboration",
-            "source_fr": "Quête en collaboration avec Final Fantasy XV",
-            "patch": "4.5",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+        "x268": {
+            "name_en": "Modern Aesthetics - Fashionably Feathered",
+            "name_fr": "Méthode de coiffure “Brushing souple”",
+            "category": "@CATEGORY.PVP",
+            "source": "@18,000 CURRENCY.WOLF_MARK",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "4.3"
         },
-        "x11": {
-            "name_en": "Master & Commander",
-            "name_fr": "Capitaine général",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Aymeric's Attire)",
-            "source_fr": "Compris dans la tenue \"Tenue d'Aymeric\" (Station mog)",
-            "patch": "3.55a",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+        "x280": {
+            "name_en": "Modern Aesthetics - Saintly Style",
+            "name_fr": "Méthode de coiffure “Ailes de saint”",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.31"
         },
-        "x12": {
-            "name_en": "Modern Legend",
-            "name_fr": "Mèches légendaires",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "1,800 Skybuilders' Scrips",
-            "source_fr": "1.800 Assignats d'Azurée",
-            "patch": "5.11",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x281": {
+            "name_en": "Modern Aesthetics - Wind Caller",
+            "name_fr": "Méthode de coiffure “Vartan”",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@150 CURRENCY.BOZJAN_CLUSTER",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.35"
         },
-        "x13": {
-            "name_en": "Ponytails",
-            "name_fr": "Queue de cheval",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "8,000 MGP",
-            "source_fr": "8.000 PGS",
-            "patch": "2.51",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x286": {
+            "name_en": "Modern Aesthetics - Adventure",
+            "name_fr": "Méthode de coiffure “Aventurier”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@14 CURRENCY.MGP",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.1"
         },
-        "x14": {
-            "name_en": "Pulse - Lightning Hairstyle",
-            "name_fr": "Lightning",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
-            "source_fr": "Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
-            "patch": "3.2",
-            "gender_en": "Female Only",
-            "gender_fr": "Femme seulement",
-            "defaultCompletion": "X"
+        "x287": {
+            "name_en": "Modern Aesthetics - Curls",
+            "name_fr": "Méthode de coiffure “Boucles”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@9,600 CURRENCY.MGP",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "3.1"
         },
-        "x15": {
-            "name_en": "Pulse - Snow's Hairstyle",
-            "name_fr": "Snow",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
-            "source_fr": "Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
-            "patch": "3.2",
-            "gender_en": "Male Only",
-            "gender_fr": "Homme seulement",
-            "defaultCompletion": "X"
+        "x290": {
+            "name_en": "Modern Aesthetics - Scion Special Issue",
+            "name_fr": "Méthode de coiffure “Meneuse des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR, CHARA.FEMALE CHARA.VIERA",
+            "defaultCompletion": "X",
+            "patch": "3.1"
         },
-        "x16": {
-            "name_en": "Rainmaker",
-            "name_fr": "Flambeur",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "5,000 MGP",
-            "source_fr": "5.000 PGS",
-            "patch": "3.55a",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x302": {
+            "name_en": "Modern Aesthetics - Samsonian Locks",
+            "name_fr": "Méthode de coiffure “Cheveux longs”",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.174",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.4"
         },
-        "x17": {
-            "name_en": "Saintly Style",
-            "name_fr": "Ailes de saint",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "1,800 Skybuilders' Scrips",
-            "source_fr": "1.800 Assignats d'Azurée",
-            "patch": "5.31",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x303": {
+            "name_en": "Modern Aesthetics - Pulse",
+            "name_fr": "Méthode de coiffure “Lightning et Snow”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "defaultCompletion": "X",
+            "patch": "3.15"
         },
-        "x18": {
-            "name_en": "Samsonian Locks",
-            "name_fr": "Cheveux longs",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "patch": "3.4",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x321": {
+            "name_en": "Modern Aesthetics - Scion Special Issue II",
+            "name_fr": "Méthode de coiffure “Surineur des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.FEMALE, CHARA.MALE CHARA.HROTHGAR, CHARA.MALE CHARA.VIERA",
+            "defaultCompletion": "X",
+            "patch": "3.35"
         },
-        "x19": {
-            "name_en": "Scion Special Issue",
-            "name_fr": "Meneuse des Héritiers",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Minfilia's Attire)",
-            "source_fr": "Compris dans la tenue \"Tenue de Minfillia\" (Station mog)",
-            "patch": "3.1",
-            "gender_en": "Female Only",
-            "gender_fr": "Femme seulement",
-            "defaultCompletion": "X"
+        "x322": {
+            "name_en": "Modern Aesthetics - Scion Special Issue III",
+            "name_fr": "Méthode de coiffure “Élémentaliste des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR, CHARA.FEMALE CHARA.VIERA",
+            "defaultCompletion": "X",
+            "patch": "3.35"
         },
-        "x20": {
-            "name_en": "Scion Special Issue II",
-            "name_fr": "Surineur des Héritiers",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Thancred's Modish Attire)",
-            "source_fr": "Compris dans la tenue \"Nouvelle tenue de Thancred\" (Station mog)",
-            "patch": "3.35",
-            "gender_en": "Male Only",
-            "gender_fr": "Homme seulement",
-            "defaultCompletion": "X"
+        "x337": {
+            "name_en": "Modern Aesthetics - Rainmaker",
+            "name_fr": "Méthode de coiffure “Flambeur”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@5,000 CURRENCY.MGP",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.55b"
         },
-        "x21": {
-            "name_en": "Scion Special Issue III",
-            "name_fr": "Élémentaliste des Héritiers",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Y'shtola's Modish Attire)",
-            "source_fr": "Compris dans la tenue \"Nouvelle tenue de Y'shtola\" (Station mog)",
-            "patch": "3.35",
-            "gender_en": "Female Only",
-            "gender_fr": "Femme seulement",
-            "defaultCompletion": "X"
+        "x338": {
+            "name_en": "Modern Aesthetics - Master & Commander",
+            "name_fr": "Méthode de coiffure “Capitaine général”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "3.55b"
         },
-        "x22": {
-            "name_en": "Sharlayan Studies",
-            "name_fr": "Prodige sharlayanais",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (Brand New Alphinaud's Attire)",
-            "source_fr": "Compris dans la tenue \"Nouveau costume d'Alphinaud\" (Station mog)",
-            "patch": "5.4",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+        "x397": {
+            "name_en": "Modern Aesthetics - Form and Function",
+            "name_fr": "Méthode de coiffure “Tresse bandeau”",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.PYROS_BUNNY",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "4.45"
         },
-        "x23": {
-            "name_en": "Strife",
-            "name_fr": "Strife",
-            "category": "CATEGORY.EVENT",
+        "x398": {
+            "name_en": "Modern Aesthetics - Styled for Hire",
+            "name_fr": "Méthode de coiffure “Mercenaire”",
+            "category": "@CATEGORY.PVP",
+            "source": "@18,000 CURRENCY.WOLF_MARK",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "4.4"
+        },
+        "x399": {
+            "name_en": "Modern Aesthetics - Strife",
+            "name_fr": "Méthode de coiffure “Strife”",
+            "category": "@CATEGORY.EVENT",
             "source_en": "Community Events Reward",
             "source_fr": "Concours d'art & costume du Fan Festival 2018",
-            "patch": "4.4",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+            "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "4.4"
         },
-        "x24": {
-            "name_en": "Styled for Hire",
-            "name_fr": "Mercenaire",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "18,000 Wolf Marks",
-            "source_fr": "18.000 Marques de loup",
-            "patch": "4.4",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x413": {
+            "name_en": "Modern Aesthetics - Great Lengths",
+            "name_fr": "Méthode de coiffure “Cheveux longs classiques”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.0"
         },
-        "x25": {
-            "name_en": "Wind Caller",
-            "name_fr": "Vartan",
-            "category": "CATEGORY.DUTY",
-            "source_en": "150 Bozjan Clusters",
-            "source_fr": "150 Cristaux bozjien",
-            "patch": "5.35",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x419": {
+            "name_en": "Modern Aesthetics - Both Ways",
+            "name_fr": "Méthode de coiffure “Queue-de-cheval sur le côté”",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.ZADNOR",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.55"
         },
-        "x26": {
-            "name_en": "A Wicked Wake",
-            "name_fr": "Veillée des saints",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.38",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+        "x420": {
+            "name_en": "Modern Aesthetics - Battle-ready Bobs",
+            "name_fr": "Méthode de coiffure “2B”",
+            "category": "@CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
         },
-        "x28": {
-            "name_en": "Scanning For Style",
-            "name_fr": "9S",
-            "category": "CATEGORY.DUTY",
-            "source_en": "The Tower at Paradigm's Breach",
-            "source_fr": "La tour de la Contingence",
-            "patch": "5.5",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x421": {
+            "name_en": "Modern Aesthetics - Scanning for Style",
+            "name_fr": "Méthode de coiffure “9S”",
+            "category": "@CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
         },
-        "x29": {
-            "name_en": "Battle-ready Bobs",
-            "name_fr": "2B",
-            "category": "CATEGORY.DUTY",
-            "source_en": "The Tower at Paradigm's Breach",
-            "source_fr": "La tour de la Contingence",
-            "patch": "5.5",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x435": {
+            "name_en": "Modern Aesthetics - Liberating Locks",
+            "name_fr": "Méthode de coiffure “Libératrice des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "6.1"
         },
-        "x30": {
-            "name_en": "Both Ways",
-            "name_fr": "Queue-de-cheval sur le côté",
-            "category": "CATEGORY.DUTY",
-            "source_en": "Zadnor Lockbox",
-            "source_fr": "Coffre verrouillé des Hauts plateaux de Zadnor",
-            "patch": "5.55",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x441": {
+            "name_en": "Modern Aesthetics - Tall Tails",
+            "name_fr": "Méthode de coiffure “Queue de cheval haute”",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.28"
         },
-        "x31": {
-            "name_en": "Clowning Around",
-            "name_fr": "Clown",
-            "category": "CATEGORY.EVENT",
-            "source_en": "All Saint's Wake (2022)",
-            "source_fr": "Veillée des saints (2022)",
-            "patch": "6.0",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
+        "x442": {
+            "name_en": "Modern Aesthetics - Practical Ponytails",
+            "name_fr": "Méthode de coiffure “Queue de cheval sommaire”",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.28"
         },
-        "x32": {
-            "name_en": "Tall Tails",
-            "name_fr": "Queue De Cheval Haute",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
-            "patch": "6.2",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x447": {
+            "name_en": "Modern Aesthetics - Sharlayan Rebellion",
+            "name_fr": "Méthode de coiffure “Dissidente de Sharlayan”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "defaultCompletion": "X",
+            "patch": "6.3"
         },
-        "x33": {
-            "name_en": "Practical Ponytails",
-            "name_fr": "Queue De Cheval Sommaire",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6,000 Seafarer's Cowries",
-            "source_fr": "6.000 Assignat insulaire azur",
-            "patch": "6.2",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
+        "x448": {
+            "name_en": "Modern Aesthetics - A Close Shave",
+            "name_fr": "Méthode de coiffure “Coupe à ras”",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.897",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.35"
         },
-        "x34": {
-            "name_en": "Liberating Locks",
-            "name_fr": "libératrice des Héritiers",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Station mog",
-            "patch": "6.1",
-            "gender_en": "Female Only",
-            "gender_fr": "Femme seulement",
-            "defaultCompletion": "X"
+        "x460": {
+            "name_en": "Modern Aesthetics - Ambitious Ends",
+            "name_fr": "Méthode de coiffure “Coupe mi-longue négligée”",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@6 CURRENCY.VCD.ROKKON_POTSHERD",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.45"
         },
-        "x35": {
-            "name_en": "Sharlayan Rebellion",
-            "name_fr": "Dissidente de Sharlayan",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Station mog",
-            "patch": "6.3",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe",
-            "defaultCompletion": "X"
-        },
-        "x36": {
-            "name_en": "A Close Shave",
-            "name_fr": "Coupe à ras",
-            "category": "CATEGORY.DUTY",
-            "source": "duty.dutyraid-finder.deep-dungeon.2",
-            "patch": "6.35",
-            "gender_en": "Unisex",
-            "gender_fr": "Unisexe"
-        },
-        "x37": {
-            "name_en": "Ambitious Ends",
-            "name_fr": "Coupe mi-longue négligée",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6 Rokkon Potsherd",
-            "source_fr": "6 Relique du mont Rokkon",
-            "patch": "6.4"
-        },
-        "x38": {
-            "name_en": "The Bold and the Braid",
-            "name_fr": "Tresses collées sur le côté",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "6 Aloalo Potsherd",
-            "source_fr": "6 Relique de l'île d'Aloalo",
+        "x476": {
+            "name_en": "Modern Aesthetics - The Bold and the Braid",
+            "name_fr": "Méthode de coiffure “Tresses collées sur le côté”",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@6 CURRENCY.VCD.ALOALO_POTSHERD",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.51"
+        },
+        "x483": {
+            "name_en": "Modern Aesthetics - It Takes Two",
+            "name_fr": "Méthode de coiffure “Coupe en deux blocs légère”",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.maps.18",
+            "patch": "7.0"
+        },
+        "x485": {
+            "name_en": "Modern Aesthetics - Doing the Wave",
+            "name_fr": "Méthode de coiffure “Carré ondulé”",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.1"
+        },
+        "x486": {
+            "name_en": "Modern Aesthetics - A Half Times Two",
+            "name_fr": "Méthode de coiffure “Coupe demi-couettes”",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.UAHSHEPYA (49 CURRENCY.CLOUDDARK_DEMIMATERIA_II)",
+            "patch": "7.15"
+        },
+        "x487": {
+            "name_en": "Modern Aesthetics - Scion Special Issue IV",
+            "name_fr": "Méthode de coiffure “Exarque des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "defaultCompletion": "X",
+            "patch": "7.1"
+        },
+        "x488": {
+            "name_en": "Modern Aesthetics - Voidswept Strands",
+            "name_fr": "Méthode de coiffure “Carré gradué”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "defaultCompletion": "X",
+            "patch": "7.1"
+        },
+        "x489": {
+            "name_en": "Modern Aesthetics - Head Hound",
+            "name_fr": "Méthode de coiffure “Queue de cheval tressée”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "defaultCompletion": "X",
+            "patch": "7.1"
         }
     }
 }

@@ -1,19 +1,14 @@
 {
     "key": "ilsabard",
-    "groupName_en": "Ilsabard",
-    "groupName_fr": "Ilsabard",
+    "groupName": "@PLACE.ILSABARD",
     "tasks": {
         "x0": {
-            "name_en": "Thavnair",
-            "name_fr": "Thavnair",
-            "method_en": "70 Bicolor Gemstone (Thavnair Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.THAVNAIR",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THAVNAIR (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x1": {
-            "name_en": "Garlemald",
-            "name_fr": "Garlemald",
-            "method_en": "70 Bicolor Gemstone (Garlemald Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.GARLEMALD",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.GARLEMALD (70 CURRENCY.FATE.GEMSTONE)"
         }
     }
 }

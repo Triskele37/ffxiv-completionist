@@ -1,0 +1,37 @@
+{
+    "key": "facet-of-fishing-quests",
+    "groupName_en": "Facet of Fishing Quests",
+    "groupName_fr": "Quêtes des pêcheurs",
+    "tasks": {
+        "x68775": {
+            "level": 70,
+            "name_en": "Well Eel Be Damned",
+            "name_fr": "Un pêcheur visionnaire",
+            "npc_en": "Frithrik",
+            "npc_fr": "Frithrik",
+            "cPrev": ["q.69191"],
+            "cNext": ["q.68776"],
+            "patch": "5.0"
+        },
+        "x68776": {
+            "level": 75,
+            "name_en": "Fishing for Confidence",
+            "name_fr": "Un pêcheur plutôt doué",
+            "npc_en": "Frithrik",
+            "npc_fr": "Frithrik",
+            "cPrev": ["q.68775"],
+            "cNext": ["q.68777"],
+            "patch": "5.0"
+        },
+        "x68777": {
+            "level": 80,
+            "name_en": "Morsel of the Deep",
+            "name_fr": "Un pêcheur reconnu",
+            "npc_en": "Frithrik",
+            "npc_fr": "Frithrik",
+            "cPrev": ["q.68776"],
+            "cSiblings": ["a.2327"],
+            "patch": "5.0"
+        }
+    }
+}

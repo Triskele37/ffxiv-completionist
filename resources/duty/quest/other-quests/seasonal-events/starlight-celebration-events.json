@@ -1,0 +1,376 @@
+{
+    "key": "starlight-celebration-events",
+    "groupName_en": "Starlight Celebration Events",
+    "groupName_fr": "Fête des étoiles",
+    "tasks": {
+        "x65786": {
+            "level": 15,
+            "name_en": "A Starlight Miracle",
+            "name_fr": "Au secours de la fête des étoiles",
+            "npc_en": "Xavalien",
+            "npc_fr": "Xavalien",
+            "cNext": ["q.65787"],
+            "patch": "4.31"
+        },
+        "x65787": {
+            "level": 15,
+            "name_en": "Starlight Savings",
+            "name_fr": "Les disciples du saint",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.65786"],
+            "cNext": ["q.65861", "q.65874", "q.65876"],
+            "patch": "4.31"
+        },
+        "x65861": {
+            "level": 15,
+            "name_en": "A Little Help (The Lavender Beds)",
+            "name_fr": "L'esprit de la fête des étoiles (Lavandière)",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65783"],
+            "patch": "4.31"
+        },
+        "x65874": {
+            "level": 15,
+            "name_en": "A Little Help (Mist)",
+            "name_fr": "L'esprit de la fête des étoiles (Brumée)",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65784"],
+            "patch": "4.31"
+        },
+        "x65876": {
+            "level": 15,
+            "name_en": "A Little Help (The Goblet)",
+            "name_fr": "L'esprit de la fête des étoiles (La Coupe)",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65785"],
+            "patch": "4.31"
+        },
+        "x65783": {
+            "level": 15,
+            "name_en": "The Gift of Joy (The Lavender Beds)",
+            "name_fr": "Un présent pour la fête des étoiles (Lavandière)",
+            "npc_en": "Saint's Little Helper",
+            "npc_fr": "Disciple Du Saint",
+            "cPrev": ["q.65861"],
+            "cNext": ["q.65890"],
+            "patch": "4.31"
+        },
+        "x65784": {
+            "level": 15,
+            "name_en": "The Gift of Joy (Mist)",
+            "name_fr": "Un présent pour la fête des étoiles (Brumée)",
+            "npc_en": "Saint's Little Helper",
+            "npc_fr": "Disciple Du Saint",
+            "cPrev": ["q.65874"],
+            "cNext": ["q.65890"],
+            "patch": "4.31"
+        },
+        "x65785": {
+            "level": 15,
+            "name_en": "The Gift of Joy (The Goblet)",
+            "name_fr": "Un présent pour la fête des étoiles (La Coupe)",
+            "npc_en": "Saint's Little Helper",
+            "npc_fr": "Disciple Du Saint",
+            "cPrev": ["q.65876"],
+            "cNext": ["q.65890"],
+            "patch": "4.31"
+        },
+        "x65890": {
+            "level": 15,
+            "name_en": "Going the Extra Smile",
+            "name_fr": "Le saint de Nymeia",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.65783", "q.65784", "q.65785"],
+            "cSiblings": ["a.1056"],
+            "patch": "4.31"
+        },
+        "x67760": {
+            "level": 15,
+            "name_en": "For Whom the Starlight Bell Tolls",
+            "name_fr": "Pour qui sonne le carillon",
+            "npc_en": "Collys",
+            "npc_fr": "Collys",
+            "cSiblings": ["a.1390"],
+            "patch": "4.31"
+        },
+        "x67911": {
+            "level": 15,
+            "name_en": "Naughty or Nice",
+            "name_fr": "La course au colis",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.67912"],
+            "patch": "4.31"
+        },
+        "x67912": {
+            "level": 15,
+            "name_en": "Think of the Children",
+            "name_fr": "Les cadeaux du cœur",
+            "npc_en": "Raven-haired Registrar",
+            "npc_fr": "Docteur Aux Cheveux Ébène",
+            "cPrev": ["q.67911"],
+            "cNext": ["q.67913"],
+            "patch": "4.31"
+        },
+        "x67913": {
+            "level": 15,
+            "name_en": "I'll Be Home for Starlight",
+            "name_fr": "Papa, où t'es?",
+            "npc_en": "Raven-haired Registrar",
+            "npc_fr": "Docteur Aux Cheveux Ébène",
+            "cPrev": ["q.67912"],
+            "cNext": ["q.67914"],
+            "cSiblings": ["a.1625"],
+            "patch": "4.31"
+        },
+        "x67914": {
+            "level": 15,
+            "name_en": "A Starlight Story",
+            "name_fr": "Le conte est bon",
+            "npc_en": "Damielliot",
+            "npc_fr": "Damielliot",
+            "cPrev": ["q.67913"],
+            "patch": "4.31"
+        },
+        "x68545": {
+            "level": 15,
+            "name_en": "Stars and Explosions and Bears, Oh My",
+            "name_fr": "Ours bien léchés",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.68546"],
+            "patch": "4.31"
+        },
+        "x68546": {
+            "level": 15,
+            "name_en": "Starlight Stakeout",
+            "name_fr": "Les brigands enguirlandés",
+            "npc_en": "Taff",
+            "npc_fr": "Taff",
+            "cPrev": ["q.68545"],
+            "cSiblings": ["a.1995"],
+            "patch": "4.31"
+        },
+        "x68709": {
+            "level": 15,
+            "name_en": "Not-so-silent Night",
+            "name_fr": "Les parrains de la fête des étoiles",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.68710"],
+            "patch": "4.4"
+        },
+        "x68710": {
+            "level": 15,
+            "name_en": "A Concerted Effort",
+            "name_fr": "Polyphonie étoilée",
+            "npc_en": "Baenfaeld",
+            "npc_fr": "Baenfaeld",
+            "cPrev": ["q.68709"],
+            "cNext": ["q.68711"],
+            "patch": "4.4"
+        },
+        "x68711": {
+            "level": 15,
+            "name_en": "Theatgrhythdaniam",
+            "name_fr": "Un enfant, un cadeau",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.68710"],
+            "cSiblings": ["a.2141"],
+            "patch": "4.4"
+        },
+        "x69258": {
+            "level": 15,
+            "name_en": "All I Want for Starlight",
+            "name_fr": "Mon papa à moi est en concert",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.69259"],
+            "patch": "5.1"
+        },
+        "x69259": {
+            "level": 15,
+            "name_en": "A Chocobo Carol",
+            "name_fr": "La choco-chorale",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69258"],
+            "cNext": ["q.69260"],
+            "cSiblings": ["a.2483"],
+            "patch": "5.1"
+        },
+        "x69260": {
+            "level": 15,
+            "name_en": "A Star Shines On",
+            "name_fr": "Bis, bis!",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69259"],
+            "patch": "5.1"
+        },
+        "x69553": {
+            "level": 15,
+            "name_en": "A Festive Fiasco",
+            "name_fr": "Étoiles en berne",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.69554"],
+            "patch": "5.4"
+        },
+        "x69554": {
+            "level": 15,
+            "name_en": "Starlight Slapdashery",
+            "name_fr": "Le dos tourné à autrui",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69553"],
+            "cNext": ["q.69555"],
+            "patch": "5.4"
+        },
+        "x69555": {
+            "level": 15,
+            "name_en": "The True Spirit of Starlight",
+            "name_fr": "Attention au sapin",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69554"],
+            "cNext": ["q.69556"],
+            "patch": "5.4"
+        },
+        "x69556": {
+            "level": 15,
+            "name_en": "One Happy Family",
+            "name_fr": "Travail d'équipe",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69555"],
+            "cNext": ["q.69557"],
+            "patch": "5.4"
+        },
+        "x69557": {
+            "level": 15,
+            "name_en": "Wish Upon a Starlight",
+            "name_fr": "Tous unis pour Isainne",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69556"],
+            "cNext": ["q.69558"],
+            "patch": "5.4"
+        },
+        "x69558": {
+            "level": 15,
+            "name_en": "Starlit Smiles",
+            "name_fr": "Des sourires jusqu'aux étoiles",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.69557"],
+            "cSiblings": ["a.2804"],
+            "patch": "5.4"
+        },
+        "x70004": {
+            "level": 15,
+            "name_en": "A Very Yeti Starlight",
+            "name_fr": "Yéti dans la lumière",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.70005"],
+            "patch": "6.0"
+        },
+        "x70005": {
+            "level": 15,
+            "name_en": "Time to Shine",
+            "name_fr": "Des schneeball pour nos enfants",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.70004"],
+            "cNext": ["q.70006"],
+            "cSiblings": ["a.3032"],
+            "patch": "6.0"
+        },
+        "x70006": {
+            "level": 15,
+            "name_en": "Saintly Inspiration",
+            "name_fr": "Marchez... inspirez!",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.70005"],
+            "patch": "6.0"
+        },
+        "x70194": {
+            "level": 15,
+            "name_en": "Reindeer Fame",
+            "name_fr": "L'étrange renne de la fête des étoiles",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cNext": ["q.70195"],
+            "patch": "6.28"
+        },
+        "x70195": {
+            "level": 15,
+            "name_en": "The Ghost of Starlight Present",
+            "name_fr": "Illusions et célébrations",
+            "npc_en": "Laurenssen",
+            "npc_fr": "Laurenssen",
+            "cPrev": ["q.70194"],
+            "cSiblings": ["a.3121"],
+            "patch": "6.28"
+        },
+        "x70317": {
+            "level": 15,
+            "name_en": "Blue Starlight",
+            "name_fr": "Seul pour la fête",
+            "npc_en": "Bearded Lady",
+            "npc_fr": "Disciple À La Barbe Touffue",
+            "cNext": ["q.70318"],
+            "patch": "6.4"
+        },
+        "x70318": {
+            "level": 15,
+            "name_en": "Together at a Distance",
+            "name_fr": "N'oublie pas mon petit bracelet",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.70317"],
+            "cNext": ["q.70319"],
+            "cSiblings": ["a.3284"],
+            "patch": "6.4"
+        },
+        "x70319": {
+            "level": 15,
+            "name_en": "Starlight Surprise",
+            "name_fr": "La grande distribution",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "cPrev": ["q.70318"],
+            "patch": "6.4"
+        },
+        "x70763": {
+            "cNext": ["q.70764"],
+            "level": 15,
+            "name_en": "Reach for the Stalls",
+            "name_fr": "Un marché stellaire",
+            "npc_en": "Amh Garanjy",
+            "npc_fr": "Amh Garanjy",
+            "patch": "7.1"
+        },
+        "x70764": {
+            "cPrev": ["q.70763"],
+            "cSiblings": ["a.3611"],
+            "level": 15,
+            "name_en": "Spreading the Warmth and Cheer",
+            "name_fr": "Les petits disciples du saint",
+            "npc_en": "Saulinne",
+            "npc_fr": "Saulinne",
+            "patch": "7.1"
+        }
+    }
+}

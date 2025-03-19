@@ -4,17 +4,26 @@
     "groupName_fr": "Éthérites",
     "headers": {
         "name": {
-            "header_en": "Location Name",
-            "header_fr": "Nom du lieu"
+            "header": "@HEADER.NAME"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "type": {
-            "filterable": true,
-            "header_en": "Type",
-            "header_fr": "Type"
+            "header": "@HEADER.TYPE",
+            "filterable": true
         }
-    }
+    },
+    "order": [
+        "la-noscea",
+        "the-black-shroud",
+        "thanalan",
+        "ishgard-and-coerthas",
+        "gyr-abania",
+        "the-far-east",
+        "ilsabard",
+        "tural",
+        "norvrandt",
+        "others"
+    ]
 }

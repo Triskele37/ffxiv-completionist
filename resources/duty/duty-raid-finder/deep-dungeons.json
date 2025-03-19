@@ -1,0 +1,92 @@
+{
+    "key": "deep-dungeons",
+    "groupName_en": "Deep Dungeons",
+    "groupName_fr": "Donjon sans fond",
+    "headers": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header_en": "Entrance Zone",
+            "header_fr": "Zone d'entrée"
+        },
+        "location": {
+            "header_en": "Entrance Location",
+            "header_fr": "Lieu d'entrée"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x174": {
+            "name_en": "The Palace of the Dead",
+            "name_fr": "Palais des morts",
+            "zone": "@PLACE.SOUTH_SHROUD",
+            "location": "(25.2, 20.6)",
+            "patch": "3.35",
+            "minValue": 0,
+            "maxValue": 200,
+            "unlock": "q.67092",
+            "cPrevAt": {
+                "51": ["q.67923"]
+            },
+            "cSiblingsAt": {
+                "0": ["q.67092"],
+                "10": ["a.1576"],
+                "20": ["a.1577"],
+                "30": ["a.1578"],
+                "40": ["a.1579"],
+                "50": ["a.1580"],
+                "100": ["a.1655"],
+                "150": ["a.1656"],
+                "200": ["a.1657"]
+            }
+        },
+        "x540": {
+            "name_en": "Heaven-on-High",
+            "name_fr": "Pilier des Cieux",
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "location": "(21.4, 9.2)",
+            "patch": "4.35",
+            "minValue": 0,
+            "maxValue": 100,
+            "unlock": "q.68667",
+            "cPrevAt": {
+                "31": "q.68668"
+            },
+            "cSiblingsAt": {
+                "0": ["q.68667"],
+                "10": ["a.2047"],
+                "20": ["a.2048"],
+                "30": ["a.2049"],
+                "50": ["a.2050"],
+                "100": ["a.2051"]
+            }
+        },
+        "x897": {
+            "name_en": "Eureka Orthos",
+            "name_fr": "Eurêka Orthos",
+            "zone": "@PLACE.MOR_DHONA",
+            "location": "(34.8, 19.3)",
+            "patch": "6.35",
+            "minValue": 0,
+            "maxValue": 100,
+            "unlock": "q.70199",
+            "cSiblingsAt": {
+                "0": ["q.70199"],
+                "10": ["a.3174"],
+                "20": ["a.3175"],
+                "30": ["a.3176"],
+                "50": ["a.3177"],
+                "100": ["a.3178"]
+            }
+        }
+    }
+}

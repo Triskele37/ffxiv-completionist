@@ -1,7 +1,7 @@
 {
     "key": "ew",
-    "groupName_en": "EW",
-    "groupName_fr": "Endwalker",
+    "groupName": "@EXPANSION.ENDWALKER",
+    "groupNameShort": "@EXPANSION.EW",
     "defaultCompletion": 81,
     "isNumericCompletion": true,
     "tasks": {
@@ -10,12 +10,10 @@
             "name_fr": "Alphinaud",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
+            "patch":  "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x1": {
@@ -23,12 +21,10 @@
             "name_fr": "Alisaie",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x2": {
@@ -36,12 +32,10 @@
             "name_fr": "Thancred",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Tank",
-            "role_fr": "Tank",
+            "role": "@ROLE.TANK",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x3": {
@@ -49,12 +43,10 @@
             "name_fr": "Urianger",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x4": {
@@ -62,12 +54,10 @@
             "name_fr": "Y'shtola",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x6": {
@@ -75,12 +65,10 @@
             "name_fr": "Estinien",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Melee Physical DPS",
-            "role_fr": "Dps de mêlée",
+            "role": "@ROLE.MELEE_DPS",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         },
         "x5": {
@@ -88,12 +76,10 @@
             "name_fr": "G'raha Tia",
             "minValue": 81,
             "maxValue": 90,
-            "role_en": "Any",
-            "role_fr": "Tous",
+            "role": "@ROLE.ALL_ROUNDER",
+            "patch": "6.0",
             "cComboAt": {
-                "90": [
-                    "character.achievement.character.general.2972"
-                ]
+                "90": ["a.2972"]
             }
         }
     }

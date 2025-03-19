@@ -1,0 +1,68 @@
+{
+    "key": "tank-role-quests-shadowbringers",
+    "groupName_en": "Tank Role Quests (Shadowbringers)",
+    "groupName_fr": "Quêtes de tank (Shadowbringers)",
+    "tasks": {
+        "x68779": {
+            "level": 70,
+            "name_en": "The Man with Too Many Scars",
+            "name_fr": "Le guerrier à la balafre",
+            "npc_en": "Granson",
+            "npc_fr": "Granson",
+            "cPrev": ["q.68837"],
+            "cNext": ["q.68780"],
+            "patch": "5.0"
+        },
+        "x68780": {
+            "level": 72,
+            "name_en": "Shaped by Tragedy",
+            "name_fr": "Le jour où tout a basculé",
+            "npc_en": "Granson",
+            "npc_fr": "Granson",
+            "cPrev": ["q.68779"],
+            "cNext": ["q.68781"],
+            "patch": "5.0"
+        },
+        "x68781": {
+            "level": 74,
+            "name_en": "Defined by Loss",
+            "name_fr": "La piste du collier",
+            "npc_en": "Granson",
+            "npc_fr": "Granson",
+            "cPrev": ["q.68780"],
+            "cNext": ["q.68782"],
+            "patch": "5.0"
+        },
+        "x68782": {
+            "level": 76,
+            "name_en": "The Princess and Her Knight",
+            "name_fr": "Le guerrier et la princesse",
+            "npc_en": "Granson",
+            "npc_fr": "Granson",
+            "cPrev": ["q.68781"],
+            "cNext": ["q.68783"],
+            "patch": "5.0"
+        },
+        "x68783": {
+            "level": 78,
+            "name_en": "The Hardened Heart",
+            "name_fr": "Naissance d'un bourreau",
+            "npc_en": "Sul Oul",
+            "npc_fr": "Sul Oul",
+            "cPrev": ["q.68782"],
+            "cNext": ["q.68784"],
+            "patch": "5.0"
+        },
+        "x68784": {
+            "level": 80,
+            "name_en": "To Have Loved and Lost",
+            "name_fr": "Pardon et repentir",
+            "npc_en": "Sul Oul",
+            "npc_fr": "Sul Oul",
+            "cPrev": ["q.68783"],
+            "cNext": ["q.68757", "q.68748", "q.68746", "q.68761"],
+            "cSiblings": ["a.2301"],
+            "patch": "5.0"
+        }
+    }
+}

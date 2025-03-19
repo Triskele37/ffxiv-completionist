@@ -1,0 +1,69 @@
+{
+    "key": "reaper-quests",
+    "groupName_en": "Reaper Quests",
+    "groupName_fr": "Quêtes de faucheur",
+    "tasks": {
+        "x69609": {
+            "level": 70,
+            "name_en": "The Killer Instinct",
+            "name_fr": "La Faucheuse",
+            "npc_en": "Flustered Attendant",
+            "npc_fr": "Serviteur Inquiet",
+            "cNext": ["q.69610"],
+            "cSiblings": ["ap.177"],
+            "patch": "6.0",
+            "unlock": "ap.177"
+        },
+        "x69610": {
+            "level": 70,
+            "name_en": "The Harvest Begins",
+            "name_fr": "La vraie puissance de la faux",
+            "npc_en": "Drusilla",
+            "npc_fr": "Drusilla",
+            "cPrev": ["q.69609"],
+            "cNext": ["q.69611"],
+            "patch": "6.0"
+        },
+        "x69611": {
+            "level": 73,
+            "name_en": "On the Hunt",
+            "name_fr": "Tête-à-tête aux chandelles",
+            "npc_en": "Drusilla",
+            "npc_fr": "Drusilla",
+            "cPrev": ["q.69610"],
+            "cNext": ["q.69612"],
+            "patch": "6.0"
+        },
+        "x69612": {
+            "level": 75,
+            "name_en": "Dark Days",
+            "name_fr": "Dur, dur pour les Lémures",
+            "npc_en": "Drusilla",
+            "npc_fr": "Drusilla",
+            "cPrev": ["q.69611"],
+            "cNext": ["q.69613"],
+            "patch": "6.0"
+        },
+        "x69613": {
+            "level": 78,
+            "name_en": "Thicker than Blood",
+            "name_fr": "Une histoire de famille",
+            "npc_en": "Drusilla",
+            "npc_fr": "Drusilla",
+            "cPrev": ["q.69612"],
+            "cNext": ["q.69614"],
+            "patch": "6.0"
+        },
+        "x69614": {
+            "level": 80,
+            "name_en": "The Killing Art",
+            "name_fr": "La voie du néant",
+            "npc_en": "Hermin",
+            "npc_fr": "Hermin",
+            "cPrev": ["q.69613"],
+            "cSiblings": ["ap.312", "a.2959"],
+            "patch": "6.0",
+            "unlock": "ap.312"
+        }
+    }
+}

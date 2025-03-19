@@ -1,0 +1,270 @@
+{
+    "key": "blue-mage-quests",
+    "groupName_en": "Blue Mage Quests",
+    "groupName_fr": "Quêtes de mage bleu",
+    "tasks": {
+        "x68728": {
+            "level": 50,
+            "name_en": "Out of the Blue",
+            "name_fr": "Escroc, mais pas trop",
+            "npc_en": "Zealous Yellowjacket",
+            "npc_fr": "Sentinelle Incorruptible",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.68729"],
+            "cSiblings": ["ap.184"],
+            "patch": "4.5",
+            "unlock": "ap.184"
+        },
+        "x68729": {
+            "level": 1,
+            "name_en": "Blue Leading the Blue",
+            "name_fr": "M comme Martyn",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.68728"],
+            "cNext": ["q.68730"],
+            "patch": "4.5"
+        },
+        "x68730": {
+            "level": 10,
+            "name_en": "Blue Collar Work",
+            "name_fr": "Quand l'entraînement paye",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.68729"],
+            "cNext": ["q.68731"],
+            "patch": "4.5"
+        },
+        "x68731": {
+            "level": 20,
+            "name_en": "Why They Call It the Blues",
+            "name_fr": "Martyn a des ennuis",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.68730"],
+            "cNext": ["q.68732"],
+            "patch": "4.5"
+        },
+        "x68732": {
+            "level": 30,
+            "name_en": "Scream Blue Murder",
+            "name_fr": "Martyn a encore des ennuis",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.68731"],
+            "cNext": ["q.68733"],
+            "patch": "4.5"
+        },
+        "x68733": {
+            "level": 40,
+            "name_en": "Blue Gold",
+            "name_fr": "L'autre mage bleu",
+            "npc_en": "Maudlin Latool Ja",
+            "npc_fr": "Latool Ja",
+            "cPrev": ["q.68732"],
+            "cNext": ["q.68734"],
+            "patch": "4.5"
+        },
+        "x68734": {
+            "level": 50,
+            "name_en": "The Real Folk Blues",
+            "name_fr": "Combat d'idées et combat de coqs",
+            "npc_en": "Maudlin Latool Ja",
+            "npc_fr": "Latool Ja",
+            "cPrev": ["q.68733"],
+            "cNext": ["q.68735"],
+            "patch": "4.5"
+        },
+        "x68735": {
+            "level": 50,
+            "name_en": "Turning Over a Blue Leaf",
+            "name_fr": "Tout est bien qui finit bleu",
+            "npc_en": "Maudlin Latool Ja",
+            "npc_fr": "Latool Ja",
+            "cPrev": ["q.68734"],
+            "cNext": ["q.69268"],
+            "patch": "4.5"
+        },
+        "x69268": {
+            "level": 50,
+            "name_en": "Into the Blue Again",
+            "name_fr": "Vers d'autres cieux",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.68735", "q.67783"],
+            "cNext": ["q.69269"],
+            "patch": "5.18"
+        },
+        "x69269": {
+            "level": 53,
+            "name_en": "Something Borrowed, Something Blue",
+            "name_fr": "Un entraînement payant",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69268"],
+            "cNext": ["q.69270"],
+            "patch": "5.18"
+        },
+        "x69270": {
+            "level": 55,
+            "name_en": "Bolt from the Blue",
+            "name_fr": "Un nouveau concurrent apparaît!",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69269"],
+            "cNext": ["q.69271"],
+            "patch": "5.18"
+        },
+        "x69271": {
+            "level": 58,
+            "name_en": "Blue in the Face",
+            "name_fr": "C'est qui le patron?",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69270"],
+            "cNext": ["q.69272"],
+            "patch": "5.18"
+        },
+        "x69272": {
+            "level": 60,
+            "name_en": "Blue Scream of Death",
+            "name_fr": "L'heure du duel",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69271"],
+            "cNext": ["q.69273"],
+            "patch": "5.18"
+        },
+        "x69273": {
+            "level": 60,
+            "name_en": "Blue Cheese",
+            "name_fr": "Un Bleuet chasse l'autre",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69272"],
+            "cNext": ["q.69525"],
+            "patch": "5.18"
+        },
+        "x69525": {
+            "level": 60,
+            "name_en": "Second-rate Entertainment",
+            "name_fr": "La journée du tentacule",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69273", "q.68612"],
+            "cNext": ["q.69526"],
+            "patch": "5.45"
+        },
+        "x69526": {
+            "level": 63,
+            "name_en": "Everybody Was Fukumen Fighting",
+            "name_fr": "À l'Est, rien de nouveau?",
+            "npc_en": "P'yandih",
+            "npc_fr": "P'yandih",
+            "cPrev": ["q.69525"],
+            "cNext": ["q.69527"],
+            "patch": "5.45"
+        },
+        "x69527": {
+            "level": 65,
+            "name_en": "Azuro and Goliath",
+            "name_fr": "Masque contre Cagoule",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69526"],
+            "cNext": ["q.69528"],
+            "patch": "5.45"
+        },
+        "x69528": {
+            "level": 68,
+            "name_en": "Where the Gold Goes",
+            "name_fr": "Le mystère de la cagoule jaune",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69527"],
+            "cNext": ["q.69529"],
+            "patch": "5.45"
+        },
+        "x69529": {
+            "level": 70,
+            "name_en": "Master of Mimicry",
+            "name_fr": "Le mime martial",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69528"],
+            "cNext": ["q.69530"],
+            "patch": "5.45"
+        },
+        "x69530": {
+            "level": 70,
+            "name_en": "A Future in Blue",
+            "name_fr": "Le bon et le mauvais copieur",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69529"],
+            "cNext": ["q.70309"],
+            "cSiblings": ["ap.232"],
+            "patch": "5.45",
+            "unlock": "ap.232"
+        },
+        "x70309": {
+            "level": 70,
+            "name_en": "And the Crowd Goes Mild",
+            "name_fr": "Martyn fait le tour du monde",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.69318", "q.69530"],
+            "cNext": ["q.70310"],
+            "patch": "6.45"
+        },
+        "x70310": {
+            "level": 73,
+            "name_en": "The Beard, the Myth, the Legend",
+            "name_fr": "Martyn chez les pirates",
+            "npc_en": "P'yandih",
+            "npc_fr": "P'yandih",
+            "cPrev": ["q.70309"],
+            "cNext": ["q.70311"],
+            "patch": "6.45"
+        },
+        "x70311": {
+            "level": 75,
+            "name_en": "Gridania's Most Wanted",
+            "name_fr": "Martyn dans les bois",
+            "npc_en": "P'yandih",
+            "npc_fr": "P'yandih",
+            "cPrev": ["q.70310"],
+            "cNext": ["q.70312"],
+            "patch": "6.45"
+        },
+        "x70312": {
+            "level": 78,
+            "name_en": "No Butts About It",
+            "name_fr": "Martyn sous la neige",
+            "npc_en": "P'yandih",
+            "npc_fr": "P'yandih",
+            "cPrev": ["q.70311"],
+            "cNext": ["q.70313"],
+            "patch": "6.45"
+        },
+        "x70313": {
+            "level": 80,
+            "name_en": "A New Gold Standard",
+            "name_fr": "Martyn défend son honneur",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.70312"],
+            "cNext": ["q.70314"],
+            "patch": "6.45"
+        },
+        "x70314": {
+            "level": 80,
+            "name_en": "The Brave and the Blue",
+            "name_fr": "Courage, Martyn",
+            "npc_en": "Martyn",
+            "npc_fr": "Martyn",
+            "cPrev": ["q.70313"],
+            "patch": "6.45"
+        }
+    }
+}

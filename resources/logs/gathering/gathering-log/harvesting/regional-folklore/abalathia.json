@@ -7,13 +7,11 @@
             "level": "60★★★",
             "name_en": "Star Cotton Boll",
             "name_fr": "Fleur de coton des étoiles",
-            "zone_en": "Azys Lla",
-            "zone_fr": "Azys Lla",
+            "zone": "@PLACE.AZYS_LLA",
             "coordinates": "(9, 31)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Helix",
-            "closestAetheryte_fr": "Hélice",
-            "patch": "3.4"
+            "patch": "3.4",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67"
         }
     }
 }

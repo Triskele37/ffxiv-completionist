@@ -1,70 +1,48 @@
 {
     "key": "the-ruby-sea",
-    "groupName_en": "The Ruby Sea",
-    "groupName_fr": "Mer de Rubis",
-    "cCombo": [
-        "character.achievement.character.general.1873"
-    ],
+    "groupName": "@PLACE.THE_RUBY_SEA",
+    "cCombo": ["a.1873"],
     "tasks": {
         "x0": {
-            "name_en": "Current 1",
-            "name_fr": "Courant 1",
+            "name": "@TRAVEL.COMPASS_CURRENT 1",
             "location": "(5.3, 26.1, 0.3)"
         },
         "x2": {
-            "name_en": "Current 2",
-            "name_fr": "Courant 2",
+            "name": "@TRAVEL.COMPASS_CURRENT 2",
             "location": "(35.3, 20.4, 0.0)"
         },
         "x5": {
-            "name_en": "Current 3",
-            "name_fr": "Courant 3",
+            "name": "@TRAVEL.COMPASS_CURRENT 3",
             "location": "(21.9, 9.0, 0.2)"
         },
         "x9": {
-            "name_en": "Current 4",
-            "name_fr": "Courant 4",
+            "name": "@TRAVEL.COMPASS_CURRENT 4",
             "location": "(29.9, 37.5, 0.1)"
         },
         "x10": {
-            "name_en": "Current 5",
-            "name_fr": "Courant 5",
-            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68168",
-            "cSiblings": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68168"
-            ]
+            "name": "@TRAVEL.QUEST_CURRENT 1",
+            "quest": "q.68168",
+            "cSiblings": ["q.68168"]
         },
         "x11": {
-            "name_en": "Current 6",
-            "name_fr": "Courant 6",
-            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68229",
-            "cSiblings": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68229"
-            ]
+            "name": "@TRAVEL.QUEST_CURRENT 2",
+            "quest": "q.68229",
+            "cSiblings": ["q.68229"]
         },
         "x12": {
-            "name_en": "Current 7",
-            "name_fr": "Courant 7",
-            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68223",
-            "cSiblings": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68223"
-            ]
+            "name": "@TRAVEL.QUEST_CURRENT 3",
+            "quest": "q.68223",
+            "cSiblings": ["q.68223"]
         },
         "x13": {
-            "name_en": "Current 8",
-            "name_fr": "Courant 8",
-            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68209",
-            "cSiblings": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68209"
-            ]
+            "name": "@TRAVEL.QUEST_CURRENT 4",
+            "quest": "q.68209",
+            "cSiblings": ["q.68209"]
         },
         "x14": {
-            "name_en": "Current 9",
-            "name_fr": "Courant 9",
-            "quest": "duty.quests.main-scenario.stormblood.68026",
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ]
+            "name": "@TRAVEL.QUEST_CURRENT 5",
+            "quest": "q.68026",
+            "cSiblings": ["q.68026"]
         }
     }
 }

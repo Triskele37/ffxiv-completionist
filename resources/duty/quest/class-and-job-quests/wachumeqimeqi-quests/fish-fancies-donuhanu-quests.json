@@ -1,0 +1,77 @@
+{
+    "key": "fish-fancies-donuhanu-quests",
+    "groupName_en": "Fish Fancies Donuhanu Quests",
+    "groupName_fr": "Quêtes de la poissonnerie de Donuhanu",
+    "tasks": {
+        "x70532": {
+            "cNext": ["q.70533"],
+            "cPrev": ["q.70502"],
+            "level": 90,
+            "name_en": "Fishmonger Blues",
+            "name_fr": "La petite boutique des bizarreries marines",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70533": {
+            "cNext": ["q.70534"],
+            "cPrev": ["q.70532"],
+            "level": 90,
+            "name_en": "When Wishes Are Fishes",
+            "name_fr": "Un festin qui ne manque pas de piquant",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70534": {
+            "cNext": ["q.70535"],
+            "cPrev": ["q.70533"],
+            "level": 93,
+            "name_en": "Scaling Up Demand",
+            "name_fr": "Le plus dur reste à faire",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70535": {
+            "cNext": ["q.70536"],
+            "cPrev": ["q.70534"],
+            "level": 95,
+            "name_en": "Big Body, Big Beauty",
+            "name_fr": "Prendre le problème à bras-le-qor",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70536": {
+            "cNext": ["q.70537"],
+            "cPrev": ["q.70535"],
+            "level": 95,
+            "name_en": "Donuhanu's Devotion",
+            "name_fr": "Les trois épreuves de Pashenine",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70537": {
+            "cNext": ["q.70538"],
+            "cPrev": ["q.70536"],
+            "level": 98,
+            "name_en": "Catching Breath",
+            "name_fr": "Le poisson entêtant",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        },
+        "x70538": {
+            "cPrev": ["q.70537"],
+            "cSiblings": ["a.3508"],
+            "level": 100,
+            "name_en": "An Odd Fish Odyssey",
+            "name_fr": "De l'électricité dans l'eau",
+            "npc_en": "Donuhanu",
+            "npc_fr": "Donuhanu",
+            "patch": "7.0"
+        }
+    }
+}

@@ -3,45 +3,42 @@
     "groupName_en": "Page 11",
     "groupName_fr": "Page 11",
     "tasks": {
-        "x0": {
+        "x310": {
             "number": "301",
             "name_en": "Siegfried",
             "name_fr": "Siegfried",
             "source": "character.gold-saucer.triple-triad-opponents.30",
             "patch": "5.45"
         },
-        "x1": {
+        "x311": {
             "number": "302",
             "name_en": "Gogo, Master of Mimicry",
-            "name_fr": "Gogo le mime",
-            "source_en": "Maudlin Latool Ja - Ul'dah - 300 Allied Seals (Required Quest: A Future in Blue)",
-            "source_fr": "Quête nécessaire: \"Le bon et le mauvais copieur\" - Maudlin Latool Ja - Ul'dah - 300 Insignes alliés",
+            "name_fr": "Gogo Le Mime",
+            "source": "@VENDOR.MAUDLIN (300 CURRENCY.SEAL.ALLIED) q.69530",
             "patch": "5.45"
         },
-        "x2": {
+        "x317": {
             "number": "303",
             "name_en": "Keeper of the Keys",
-            "name_fr": "Gardien hypogéen",
-            "source_en": "60 Bicolor Gemstones (Il Mheg)",
-            "source_fr": "60 Gemme bicolore (Il Mheg)",
+            "name_fr": "Gardien Hypogéen",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (60 CURRENCY.FATE.GEMSTONE)",
             "patch": "5.5"
         },
-        "x3": {
+        "x318": {
             "number": "304",
             "name_en": "Lunar Bahamut",
             "name_fr": "Luna-Bahamut",
-            "source": "duty.dutyraid-finder.dungeons.shb.12",
+            "source": "d.777",
             "patch": "5.5"
         },
-        "x4": {
+        "x319": {
             "number": "305",
-            "name_en": "Valens van Varro",
-            "name_fr": "Valens van Varro",
-            "source_en": "22,400 MGP",
-            "source_fr": "22.400 PGS",
+            "name_en": "Valens Van Varro",
+            "name_fr": "Valens Van Varro",
+            "source": "@22,400 CURRENCY.MGP",
             "patch": "5.5"
         },
-        "x5": {
+        "x323": {
             "number": "306",
             "name_en": "G-Warrior",
             "name_fr": "Guerrier-G",
@@ -49,185 +46,172 @@
             "source_fr": "1 Totem incarnat d'un Primordial inconnu, 1 Totem smaragdin d'un Primordial inconnu, 1 Totem adamantin d'un Primordial inconnu",
             "patch": "5.5"
         },
-        "x6": {
+        "x324": {
             "number": "307",
             "name_en": "Diamond Weapon",
             "name_fr": "Arme Diamant",
-            "source": [
-                "duty.dutyraid-finder.trials.shb.17",
-                "duty.dutyraid-finder.trials.shb.16"
-            ],
+            "source": ["d.781", "d.782"],
             "patch": "5.5"
         },
-        "x7": {
+        "x326": {
             "number": "308",
             "name_en": "2B",
             "name_fr": "2B",
-            "source": "duty.dutyraid-finder.raids.shb.27",
+            "source": "d.779",
             "patch": "5.5"
         },
-        "x8": {
+        "x320": {
             "number": "309",
             "name_en": "Lunar Ifrit",
             "name_fr": "Luna-Ifrit",
-            "source_en": "22,400 MGP",
-            "source_fr": "22.400 PGS",
+            "source": "@22,400 CURRENCY.MGP",
             "patch": "5.55"
         },
-        "x9": {
+        "x321": {
             "number": "310",
             "name_en": "4th-make Shemhazai",
-            "name_fr": "Shemhazai de la 4e légion",
+            "name_fr": "Shemhazai de la 4e Légion",
             "source": "character.gold-saucer.triple-triad-opponents.101",
             "patch": "5.55"
         },
-        "x10": {
+        "x322": {
             "number": "311",
             "name_en": "4th-make Cuchulainn",
-            "name_fr": "Cüachulainn de la 4e légion",
+            "name_fr": "Cúchulainn de la 4e Légion",
             "source": "character.gold-saucer.triple-triad-opponents.101",
             "patch": "5.55"
         },
-        "x11": {
+        "x325": {
             "number": "312",
-            "name_en": "The Diablo Armament",
-            "name_fr": "Batterie d'artillerie Diablo",
-            "source_en": "7 Bozjan Clusters",
-            "source_fr": "7 Cristaux bozjiens",
+            "name_en": "Diablo Armament",
+            "name_fr": "Batterie D'artillerie Diablo",
+            "source": "@7 CURRENCY.BOZJAN_CLUSTER",
             "patch": "5.55"
         },
-        "x12": {
+        "x327": {
             "number": "313",
             "name_en": "Troll",
             "name_fr": "Troll",
             "source": "character.gold-saucer.triple-triad-opponents.103",
             "patch": "6.0"
         },
-        "x13": {
+        "x328": {
             "number": "314",
             "name_en": "Pisaca",
             "name_fr": "Pishacha",
             "source": "character.gold-saucer.triple-triad-opponents.102",
             "patch": "6.0"
         },
-        "x14": {
+        "x329": {
             "number": "315",
             "name_en": "Ea",
             "name_fr": "Éa",
-            "source_en": "200 Bicolor Gemstones (Ultima Thule)",
-            "source_fr": "200 Gemme bicolore (Ultima Thulé)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (200 CURRENCY.FATE.GEMSTONE)",
             "patch": "6.0"
         },
-        "x15": {
+        "x330": {
             "number": "316",
             "name_en": "Arkasodara",
             "name_fr": "Arkasodara",
             "source": "character.gold-saucer.triple-triad-opponents.105",
             "patch": "6.0"
         },
-        "x16": {
+        "x331": {
             "number": "317",
             "name_en": "Loporrit",
             "name_fr": "Loporrite",
             "source": "character.gold-saucer.triple-triad-opponents.104",
             "patch": "6.0"
         },
-        "x17": {
+        "x332": {
             "number": "318",
             "name_en": "Argos",
             "name_fr": "Argos",
             "source": "character.gold-saucer.triple-triad-opponents.104",
             "patch": "6.0"
         },
-        "x18": {
+        "x333": {
             "number": "319",
             "name_en": "Hermes",
             "name_fr": "Hermès",
-            "source": "duty.dutyraid-finder.dungeons.ew.3",
+            "source": "d.787",
             "patch": "6.0"
         },
-        "x19": {
+        "x334": {
             "number": "320",
             "name_en": "Amon the Undying",
             "name_fr": "Amon",
-            "source": "duty.dutyraid-finder.dungeons.ew.4",
+            "source": "d.786",
             "patch": "6.0"
         },
-        "x20": {
+        "x336": {
             "number": "321",
             "name_en": "Magus Sisters",
             "name_fr": "Sœurs Magus",
-            "source": "duty.dutyraid-finder.dungeons.ew.0",
+            "source": "d.783",
             "patch": "6.0"
         },
-        "x21": {
+        "x337": {
             "number": "322",
             "name_en": "Meteion",
             "name_fr": "Météion",
-            "source": "duty.dutyraid-finder.trials.ew.2",
+            "source": "d.796",
             "patch": "6.0"
         },
-        "x22": {
+        "x338": {
             "number": "323",
             "name_en": "Fourchenault Leveilleur",
             "name_fr": "Fourchenault",
             "source": "character.gold-saucer.triple-triad-opponents.106",
             "patch": "6.0"
         },
-        "x23": {
+        "x339": {
             "number": "324",
             "name_en": "Anima",
             "name_fr": "Anima",
-            "source": "duty.dutyraid-finder.dungeons.ew.1",
+            "source": "d.785",
             "patch": "6.0"
         },
-        "x24": {
+        "x340": {
             "number": "325",
-            "name_en": "Quintus van Cinna",
-            "name_fr": "Quintus van Cinna",
+            "name_en": "Quintus Van Cinna",
+            "name_fr": "Quintus Van Cinna",
             "source": "character.gold-saucer.triple-triad-opponents.107",
             "patch": "6.0"
         },
-        "x25": {
+        "x341": {
             "number": "326",
             "name_en": "Endwalker Alphinaud & Alisaie",
             "name_fr": "Alphinaud & Alisaie (Endwalker)",
             "source": "character.gold-saucer.triple-triad-opponents.106",
             "patch": "6.0"
         },
-        "x26": {
+        "x342": {
             "number": "327",
             "name_en": "Hythlodaeus",
             "name_fr": "Hythlodaeus",
-            "source_en": "200 Bicolor Gemstones (Elpis)",
-            "source_fr": "200 Gemme bicolore (Elpis)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ELPIS (200 CURRENCY.FATE.GEMSTONE)",
             "patch": "6.0"
         },
-        "x27": {
+        "x343": {
             "number": "328",
             "name_en": "Vrtra",
             "name_fr": "Vrtra",
-            "source": "character.achievement.character.gold-saucer.3021",
+            "source": "a.3021",
             "patch": "6.0"
         },
-        "x28": {
+        "x344": {
             "number": "329",
             "name_en": "Zodiark",
-            "name_fr": "Zodiarche",
-            "source": [
-                "duty.dutyraid-finder.trials.ew.0",
-                "duty.dutyraid-finder.trials.ew.3"
-            ],
+            "name_fr": "Zordiarche",
+            "source": ["d.802", "d.803"],
             "patch": "6.0"
         },
-        "x29": {
+        "x345": {
             "number": "330",
             "name_en": "Hydaelyn",
             "name_fr": "Hydaelyn",
-            "source": [
-                "duty.dutyraid-finder.trials.ew.1",
-                "duty.dutyraid-finder.trials.ew.4"
-            ],
+            "source": ["d.790", "d.791"],
             "patch": "6.0"
         }
     }

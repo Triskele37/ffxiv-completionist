@@ -1,0 +1,28 @@
+{
+    "key": "the-hunt",
+    "groupName_en": "The Hunt",
+    "groupName_fr": "La Chasse",
+    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
+    "headers": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "rank": {
+            "filterable": true,
+            "width": 85,
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION",
+            "filterable": true
+        },
+        "condition": {
+            "header_en": "Condition",
+            "header_fr": "Condition d'apparition"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

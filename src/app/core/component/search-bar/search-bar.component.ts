@@ -41,11 +41,14 @@ export class SearchBarComponent implements OnInit {
     }
 
     onSearchKeydown($event: KeyboardEvent): void {
+        // Prevent back/up hotkeys
+        $event.stopPropagation();
+
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
             setTimeout(this.onSearch.bind(this), 50);
         }
 
-        if($event.code === 'Enter') {
+        if($event.code === 'Enter' || $event.code === 'NumpadEnter') {
             this.onSearch();
         }
     }

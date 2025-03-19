@@ -1,0 +1,28 @@
+{
+    "key": "studium-quests",
+    "groupName_en": "Studium Quests",
+    "groupName_fr": "Quêtes de l'académie de magie de Sharlayan",
+    "tasks": {
+        "x70009": {
+            "level": 80,
+            "name_en": "The Faculty",
+            "name_fr": "Les requêtes de l'académie de magie",
+            "npc_en": "Qih Aliapoh",
+            "npc_fr": "Qih Aliapoh",
+            "cPrev": ["q.69916"],
+            "cNext": ["q.69689", "q.69675", "q.69668", "q.69682", "q.69696"],
+            "patch": "6.0"
+        },
+        "x70010": {
+            "level": 90,
+            "name_en": "The Meeting of Minds",
+            "name_fr": "Vers l'infini, et au-delà",
+            "npc_en": "Qih Aliapoh",
+            "npc_fr": "Qih Aliapoh",
+            "cPrev": ["q.69674", "q.69681", "q.69688"],
+            "cSiblings": ["a.2971"],
+            "patch": "6.0",
+            "unlock": "mi.437"
+        }
+    }
+}

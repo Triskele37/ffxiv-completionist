@@ -4,12 +4,10 @@
     "groupName_fr": "Actions oubliées",
     "headers": {
         "name": {
-            "header_en": "Action",
-            "header_fr": "Action"
+            "header": "@HEADER.NAME"
         },
         "category": {
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY"
         },
         "fragment": {
             "filterable": true,
@@ -17,9 +15,7 @@
             "header_fr": "Éclat oublié"
         }
     },
-    "cCombo": [
-        "character.achievement.battle.field-operations.2883"
-    ],
+    "cCombo": ["a.2883"],
     "tasks": {
         "x0": {
             "name_en": "Lost Focus",

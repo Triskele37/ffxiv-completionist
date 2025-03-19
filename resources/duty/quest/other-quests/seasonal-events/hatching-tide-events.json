@@ -1,0 +1,319 @@
+{
+    "key": "hatching-tide-events",
+    "groupName_en": "Hatching-tide Events",
+    "groupName_fr": "Chasse aux Prœufs",
+    "tasks": {
+        "x66950": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Gridania)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Gridania)",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.66953"],
+            "cExclude": ["q.66951", "q.66952"],
+            "patch": "4.31"
+        },
+        "x66951": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Limsa Lominsa)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Limsa Lominsa)",
+            "npc_en": "Oscarlet",
+            "npc_fr": "Oscarlet",
+            "cNext": ["q.66953"],
+            "cExclude": ["q.66950", "q.66952"],
+            "patch": "4.31"
+        },
+        "x66952": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Ul'dah)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Ul'dah)",
+            "npc_en": "Orselfaux",
+            "npc_fr": "Orselfaux",
+            "cNext": ["q.66953"],
+            "cExclude": ["q.66950", "q.66951"],
+            "patch": "4.31"
+        },
+        "x66953": {
+            "level": 15,
+            "name_en": "Eggsigent Circumstances",
+            "name_fr": "Chasse aux Prœufs dans les bois",
+            "cPrevAny": true,
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.66950", "q.66951", "q.66952"],
+            "cNext": ["q.66954"],
+            "patch": "4.31"
+        },
+        "x66954": {
+            "level": 15,
+            "name_en": "Nothing to Yolk About",
+            "name_fr": "Chasse aux Prœufs sur le pont",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.66953"],
+            "cNext": ["q.66955"],
+            "patch": "4.31"
+        },
+        "x66955": {
+            "level": 15,
+            "name_en": "The Yolks on Us",
+            "name_fr": "Chasse aux Prœufs dans le désert",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.66954"],
+            "cNext": ["q.66956"],
+            "patch": "4.31"
+        },
+        "x66956": {
+            "level": 15,
+            "name_en": "Hard-boiled",
+            "name_fr": "Tous ses Prœufs dans le même panier",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.66955"],
+            "cSiblings": ["a.903"],
+            "patch": "4.31"
+        },
+        "x66092": {
+            "level": 15,
+            "name_en": "Great Eggspectations",
+            "name_fr": "Les beaux Prœufs des rêveuses",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.66093"],
+            "patch": "4.31"
+        },
+        "x66093": {
+            "level": 15,
+            "name_en": "Poaching the Poachers",
+            "name_fr": "Des Prœufs qui fument et gênent",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.66092"],
+            "cNext": ["q.66095"],
+            "patch": "4.31"
+        },
+        "x66095": {
+            "level": 15,
+            "name_en": "Eggs Pluribus Unum",
+            "name_fr": "Des Prœufs fabuleux",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.66093"],
+            "cSiblings": ["a.1131"],
+            "patch": "4.31"
+        },
+        "x67664": {
+            "level": 15,
+            "name_en": "Jihli Dreams of Egg Hunts",
+            "name_fr": "Faites vos j'œufs",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.67666", "q.67665", "q.67667"],
+            "patch": "4.31"
+        },
+        "x67665": {
+            "level": 15,
+            "name_en": "Pass the Poacher",
+            "name_fr": "Course à l'œuf",
+            "npc_en": "Cock-a-hoop Collector",
+            "npc_fr": "Animatrice Sérieuse",
+            "cPrev": ["q.67664"],
+            "cNext": ["q.67668"],
+            "patch": "4.31"
+        },
+        "x67666": {
+            "level": 15,
+            "name_en": "Hard-boiled Hocus",
+            "name_fr": "Attrap'œuf",
+            "npc_en": "Cultured Collector",
+            "npc_fr": "Animateur Chaleureux",
+            "cPrev": ["q.67664"],
+            "cNext": ["q.67668"],
+            "patch": "4.31"
+        },
+        "x67667": {
+            "level": 15,
+            "name_en": "Spriggan Scramble",
+            "name_fr": "Méli-mél'œuf",
+            "npc_en": "Motte",
+            "npc_fr": "Motte",
+            "cPrev": ["q.67664"],
+            "cNext": ["q.67668"],
+            "patch": "4.31"
+        },
+        "x67668": {
+            "level": 15,
+            "name_en": "Eggsaltation of a Lark",
+            "name_fr": "La prœufétie de Jihli",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.67665", "q.67666", "q.67667"],
+            "cSiblings": ["a.1490"],
+            "patch": "4.31"
+        },
+        "x67957": {
+            "level": 15,
+            "name_en": "When Eggs Fly",
+            "name_fr": "Œuf volant non identifié",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.67958"],
+            "patch": "4.31"
+        },
+        "x67958": {
+            "level": 15,
+            "name_en": "Shock-full of Eggcitement",
+            "name_fr": "Œuffet de surprise",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.67957"],
+            "cNext": ["q.67959"],
+            "patch": "4.31"
+        },
+        "x67959": {
+            "level": 15,
+            "name_en": "Eggsistential Crisis",
+            "name_fr": "Riggy, il s'appelle Riggy",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.67958"],
+            "cSiblings": ["a.1683"],
+            "patch": "4.31"
+        },
+        "x68615": {
+            "level": 15,
+            "name_en": "Uneggseptable Losses",
+            "name_fr": "Pas de fête sans cacher des Prœufs",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cNext": ["q.68616"],
+            "cSiblings": ["a.2020"],
+            "patch": "4.31"
+        },
+        "x68616": {
+            "level": 15,
+            "name_en": "Uneggspected Encounters",
+            "name_fr": "Des rencontres à prœufusion",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.68615"],
+            "patch": "4.31"
+        },
+        "x68738": {
+            "level": 15,
+            "name_en": "Eggstreme Eggstrapolation",
+            "name_fr": "Chasse Prœuférée",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.68739"],
+            "patch": "4.5"
+        },
+        "x68739": {
+            "level": 15,
+            "name_en": "A Shelltered Eggsistence",
+            "name_fr": "Prœufesseur Jihli, reine des énigmes",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.68738"],
+            "cNext": ["q.68740"],
+            "patch": "4.5"
+        },
+        "x68740": {
+            "level": 15,
+            "name_en": "Deus Eggs Machina",
+            "name_fr": "Des énigmes à prœufusion",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.68739"],
+            "cSiblings": ["a.2239"],
+            "patch": "4.5"
+        },
+        "x69382": {
+            "level": 15,
+            "name_en": "The Eggth Umbral Calamity",
+            "name_fr": "Lapins en folie",
+            "npc_en": "Revelrous Rabbit",
+            "npc_fr": "Lapine Enjouée",
+            "cNext": ["q.69383"],
+            "patch": "5.2"
+        },
+        "x69383": {
+            "level": 15,
+            "name_en": "A Procession Eggstraordinaire",
+            "name_fr": "Lapins en balade",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": ["q.69382"],
+            "cSiblings": ["a.2602"],
+            "patch": "5.2"
+        },
+        "x69625": {
+            "level": 15,
+            "name_en": "Fowl Demands",
+            "name_fr": "Des cocottes pas commodes",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.69626"],
+            "patch": "5.5"
+        },
+        "x69626": {
+            "level": 15,
+            "name_en": "A Poultry Sum",
+            "name_fr": "Prœufusion de cadeaux",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": ["q.69625"],
+            "cSiblings": ["a.2854"],
+            "patch": "5.5"
+        },
+        "x70126": {
+            "level": 15,
+            "name_en": "Hippity, Hoppity, Happily",
+            "name_fr": "Chasse aux Prœufs et au bonheur",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cSiblings": ["a.3078"],
+            "patch": "6.1",
+            "unlock": "mi.450"
+        },
+        "x70257": {
+            "level": 15,
+            "name_en": "Get Along and Play Knife",
+            "name_fr": "Des farceurs sèment la pagaille",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.70258"],
+            "patch": "6.3"
+        },
+        "x70258": {
+            "level": 15,
+            "name_en": "Chaos, Carnage, Eggs",
+            "name_fr": "Aimer les tomberrys à la folie",
+            "npc_en": "Hamlyn",
+            "npc_fr": "Hamlyn",
+            "cPrev": ["q.70257"],
+            "cSiblings": ["a.3205"],
+            "patch": "6.3"
+        },
+        "x70778": {
+            "cNext": ["q.70779"],
+            "level": 15,
+            "name_en": "In Pursuit of Eggcellence",
+            "name_fr": "Faute de Prœufs...",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "patch": "7.1"
+        },
+        "x70779": {
+            "cPrev": ["q.70778"],
+            "cSiblings": ["a.3614"],
+            "level": 15,
+            "name_en": "Eggceeding Expectations",
+            "name_fr": "Les parapluies de Gridania",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "patch": "7.1"
+        }
+    }
+}

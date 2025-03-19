@@ -4,17 +4,29 @@
     "groupName_fr": "Relais à montures",
     "headers": {
         "name": {
-            "header_en": "Location",
-            "header_fr": "Région"
+            "header": "@HEADER.NAME"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "type": {
-            "filterable": true,
-            "header_en": "Type",
-            "header_fr": "Type"
+            "header": "@HEADER.TYPE",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
-    }
+    },
+    "order": [
+        "la-noscea",
+        "the-black-shroud",
+        "thanalan",
+        "ishgard-and-coerthas",
+        "gyr-abania",
+        "the-far-east",
+        "ilsabard",
+        "tural",
+        "norvrandt",
+        "others"
+    ]
 }

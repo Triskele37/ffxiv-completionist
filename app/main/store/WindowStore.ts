@@ -1,8 +1,15 @@
 import { BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
+import { pathToFileURL } from 'url';
 
 import { ConfigStore } from './ConfigStore';
+
+/**
+ * Debug Flag
+ * - shows the main window regardless of load state (allows console access)
+ */
+const DEBUG_MODE = false;
 
 export class WindowStore {
     private static isServe: boolean;
@@ -61,7 +68,8 @@ export class WindowStore {
         });
 
         // WindowStore.splash.webContents.openDevTools();
-        WindowStore.splash.loadURL(`file://${__dirname}/../../splash.html`);
+        const splashUrl = pathToFileURL(path.join(__dirname, '..', '..', 'splash.html'));
+        WindowStore.splash.loadURL(splashUrl.href);
     }
 
     //#endregion
@@ -74,7 +82,7 @@ export class WindowStore {
             ...oldState,
             autoHideMenuBar: true,
             backgroundColor: '#1e1e1e',
-            show: false,
+            show: DEBUG_MODE,
             webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function
@@ -84,11 +92,13 @@ export class WindowStore {
 
         WindowStore.maxOnShow = !!oldState.max;
         WindowStore.loadWindowUrl(isServe);
+
+        if(DEBUG_MODE) WindowStore.main.webContents.openDevTools();
     }
 
     static loadWindowUrl(isServe: boolean): void {
         if(isServe) {
-            const debug = require('electron-debug');
+            const { default: debug } = require('electron-debug');
             debug();
 
             require('electron-reload')(__dirname, {
@@ -108,7 +118,7 @@ export class WindowStore {
             const app = '../../../app/index.html';
             if(fs.existsSync(path.join(__dirname, app))) indexPath = app;
 
-            const url = new URL(path.join('file:', __dirname, indexPath));
+            const url = pathToFileURL(path.join(__dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     }

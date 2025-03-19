@@ -1,0 +1,78 @@
+{
+    "key": "xeerol-ja-juicecraft-quests",
+    "groupName_en": "Xeerol Ja Juicecraft Quests",
+    "groupName_fr": "Quêtes du bar à jus de Xeerol Ja",
+    "tasks": {
+        "x70518": {
+            "cNext": ["q.70519"],
+            "cPrev": ["q.70502"],
+            "level": 90,
+            "name_en": "Blame It on My Juice",
+            "name_fr": "Le Bar dans le jus",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70519": {
+            "cNext": ["q.70520"],
+            "cPrev": ["q.70518"],
+            "level": 90,
+            "name_en": "Mon Cherimoya",
+            "name_fr": "Du jus pour des écailles douces",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70520": {
+            "cNext": ["q.70521"],
+            "cPrev": ["q.70519"],
+            "level": 93,
+            "name_en": "A Drink for Everymobbie",
+            "name_fr": "Du jus pour soulager la fatigue",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70521": {
+            "cNext": ["q.70522"],
+            "cPrev": ["q.70520"],
+            "level": 95,
+            "name_en": "Halnaruk the Helphand",
+            "name_fr": "Jus énergisant",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70522": {
+            "cNext": ["q.70523"],
+            "cPrev": ["q.70521"],
+            "level": 95,
+            "name_en": "The Missing Drink",
+            "name_fr": "Le parfait breuvage",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70523": {
+            "cNext": ["q.70524"],
+            "cPrev": ["q.70522"],
+            "level": 98,
+            "name_en": "Good Hydrations",
+            "name_fr": "Du jus pour soigner la gueule de bois",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        },
+        "x70524": {
+            "cNext": ["q.70503"],
+            "cPrev": ["q.70523"],
+            "cSiblings": ["a.3506"],
+            "level": 100,
+            "name_en": "Three Cheers for Sweet Juice",
+            "name_fr": "Le rêve de Xeerol Ja",
+            "npc_en": "Xeerol Ja",
+            "npc_fr": "Xeerol Ja",
+            "patch": "7.0"
+        }
+    }
+}

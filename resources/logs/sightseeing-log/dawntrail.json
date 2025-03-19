@@ -1,0 +1,413 @@
+{
+    "key": "dawntrail",
+    "groupName": "@EXPANSION.DAWNTRAIL",
+    "groupNameShort": "@EXPANSION.DT",
+    "cCombo": ["a.3510"],
+    "tasks": {
+        "x2162983": {
+            "name_en": "Bayside Bevy",
+            "name_fr": "Baie commerçante",
+            "vista": "001",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(11.2, 15.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162984": {
+            "name_en": "The Resplendent Quarter",
+            "name_fr": "La Nuée bigarrée",
+            "vista": "002",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(7.0, 12.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162985": {
+            "name_en": "High Tide Harbor",
+            "name_fr": "Perron des Valeureux",
+            "vista": "003",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(13.7, 16.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162986": {
+            "name_en": "The For'ard Cabins",
+            "name_fr": "Cabines de Proue",
+            "vista": "004",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(9.3, 23.4)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162987": {
+            "name_en": "Hunu'iliy",
+            "name_fr": "Phare de Hunu'iliy",
+            "vista": "005",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(17.5, 4.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162988": {
+            "name_en": "Wachunpelo",
+            "name_fr": "Wachunpelo",
+            "vista": "006",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(29.1, 12.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162989": {
+            "name_en": "Miplu's Mate Garden",
+            "name_fr": "Matéière de Miplu",
+            "vista": "007",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(14.5, 8.9)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162990": {
+            "name_en": "Shades of Grief",
+            "name_fr": "Ombres endeuillées",
+            "vista": "008",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(26.7, 24.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162991": {
+            "name_en": "Naryor Gorna",
+            "name_fr": "Naryor Gorna",
+            "vista": "009",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(34.7, 25.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162992": {
+            "name_en": "Chirwagur Saltern",
+            "name_fr": "Salin de Chirwagur",
+            "vista": "010",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(22.0, 35.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162993": {
+            "name_en": "Worqor Lar Dor",
+            "name_fr": "Worqor Lar Dor",
+            "vista": "011",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(9.0, 22.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162994": {
+            "name_en": "House of Winds High",
+            "name_fr": "Demeure des Brises généreuses",
+            "vista": "012",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(9.2, 12.0)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162995": {
+            "name_en": "Cave Kikitola",
+            "name_fr": "Grotte de Kikitola",
+            "vista": "013",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(18.2, 20.7)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162996": {
+            "name_en": "Breath Between",
+            "name_fr": "Ponton poissonneux",
+            "vista": "014",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(24.8, 19.1)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162997": {
+            "name_en": "Kozanuakiy",
+            "name_fr": "Kozanuakiy",
+            "vista": "015",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(34.7, 10.7)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162998": {
+            "name_en": "Earthenshire",
+            "name_fr": "La Fournée",
+            "vista": "016",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(10.7, 28.1)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2162999": {
+            "name_en": "Marsh Ligaka",
+            "name_fr": "Marais de Ligaka",
+            "vista": "017",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(28.8, 28.7)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163000": {
+            "name_en": "Iq Br'aax",
+            "name_fr": "Iq Br'aax",
+            "vista": "018",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(11.5, 14.1)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163001": {
+            "name_en": "Iq Rrax Tsoly",
+            "name_fr": "Iq Rrax Tsoly",
+            "vista": "019",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(33.0, 6.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163002": {
+            "name_en": "The Xobr'it Cinderfield",
+            "name_fr": "Plaines cendrées de Xobr'it",
+            "vista": "020",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(29.6, 15.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163003": {
+            "name_en": "Choliselvaas",
+            "name_fr": "Rocher céleste",
+            "vista": "021",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(24.5, 23.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163004": {
+            "name_en": "The Ja Tiika Heartland",
+            "name_fr": "Sylve-mère de Ja Tiika",
+            "vista": "022",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(19.5, 32.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163005": {
+            "name_en": "Tree of Living Light",
+            "name_fr": "Arbre furoluminescent",
+            "vista": "023",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(25.3, 27.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163006": {
+            "name_en": "Hhusatahwi",
+            "name_fr": "Hhusatahwi",
+            "vista": "024",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(28.6, 29.9)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163007": {
+            "name_en": "Mehwahhetsoan",
+            "name_fr": "Mehwahhetsoan",
+            "vista": "025",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(27.7, 12.0)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163008": {
+            "name_en": "Lake Toari",
+            "name_fr": "Lac Toari",
+            "vista": "026",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(32.5, 13.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163009": {
+            "name_en": "Pyaayehe'pya",
+            "name_fr": "Colline de Pyaayehe'pya",
+            "vista": "027",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(13.8, 34.4)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163010": {
+            "name_en": "Mount Loazensasaya",
+            "name_fr": "Hauts de Loazensasaya",
+            "vista": "028",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(10.3, 12.4)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163011": {
+            "name_en": "Resolution",
+            "name_fr": "Résolution",
+            "vista": "029",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(10.9, 3.8)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163012": {
+            "name_en": "Residential Sector",
+            "name_fr": "Secteur résidentiel",
+            "vista": "030",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(4.0, 15.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163013": {
+            "name_en": "Mosaic",
+            "name_fr": "La Mosaïque",
+            "vista": "031",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(5.5, 12.9)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163014": {
+            "name_en": "True Vue",
+            "name_fr": "Vraie-vision",
+            "vista": "032",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(20.1, 13.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163015": {
+            "name_en": "Nexus Arcade",
+            "name_fr": "Arcades marchandes",
+            "vista": "033",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(7.6, 11.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163016": {
+            "name_en": "The Thunderyards",
+            "name_fr": "Prés fulgurants",
+            "vista": "034",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(33.5, 13.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163017": {
+            "name_en": "The Outskirts",
+            "name_fr": "Les Faubourgs",
+            "vista": "035",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(20.1, 8.0)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163018": {
+            "name_en": "Everkeep",
+            "name_fr": "Gardienne de l'Éternité",
+            "vista": "036",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(17.7, 5.2)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163019": {
+            "name_en": "Crackling Chasm",
+            "name_fr": "Gouffre grondant",
+            "vista": "037",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(20.7, 25.1)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163020": {
+            "name_en": "The Nameslates",
+            "name_fr": "Cimetière des Patronymes",
+            "vista": "038",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(25.5, 34.7)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163021": {
+            "name_en": "Archeo Alexandria",
+            "name_fr": "Vieille Alexandrie",
+            "vista": "039",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(9.4, 37.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163022": {
+            "name_en": "Meso Terminal",
+            "name_fr": "Mésoterminal",
+            "vista": "040",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(21.9, 36.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163023": {
+            "name_en": "Canal Town",
+            "name_fr": "Cité lacustre",
+            "vista": "041",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(19.2, 33.5)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163024": {
+            "name_en": "Yesterland",
+            "name_fr": "Terre d'hier",
+            "vista": "042",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(28.9, 29.3)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163025": {
+            "name_en": "Windspath Gardens",
+            "name_fr": "Jardins de Soufflevent",
+            "vista": "043",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(6.5, 13.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163026": {
+            "name_en": "Asyle Volcane",
+            "name_fr": "Asile volcanique",
+            "vista": "044",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(30.3, 18.7)",
+            "emote": "e.22",
+            "patch": "7.0"
+        },
+        "x2163027": {
+            "name_en": "Steps of the Speaker",
+            "name_fr": "La Voie de la prêtresse",
+            "vista": "045",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "location": "(30.5, 7.6)",
+            "emote": "e.22",
+            "patch": "7.0"
+        }
+    }
+}

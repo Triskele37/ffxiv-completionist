@@ -1,0 +1,63 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x66910": {
+            "level": 44,
+            "name_en": "They Came from the Deep",
+            "name_fr": "La menace des profondeurs",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cPrev": ["q.66488"],
+            "cNext": ["q.66911"],
+            "patch": "4.31"
+        },
+        "x66911": {
+            "level": 44,
+            "name_en": "Clutch and Kin",
+            "name_fr": "Frai et frères",
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "cPrev": ["q.66910"],
+            "cNext": ["q.66912"],
+            "cSiblings": ["character.character.societal-relations.15"],
+            "patch": "4.31"
+        },
+        "x66912": {
+            "level": 46,
+            "name_en": "The Scarlet Bloodletter",
+            "name_fr": "Le démon des mers",
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "cPrev": ["q.66911"],
+            "cNext": ["q.66913"],
+            "cSiblings": ["character.character.societal-relations.16"],
+            "patch": "4.31"
+        },
+        "x66913": {
+            "level": 48,
+            "name_en": "Watching the Spawn",
+            "name_fr": "Un passé louche",
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "cPrev": ["q.66912"],
+            "cNext": ["q.66914"],
+            "cSiblings": ["character.character.societal-relations.17"],
+            "patch": "4.31"
+        },
+        "x66914": {
+            "level": 48,
+            "name_en": "Like Clutchfather, Like Son",
+            "name_fr": "Tel Père de frai, tel fils",
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "cPrev": ["q.66913"],
+            "cSiblings": ["character.character.societal-relations.18"],
+            "patch": "4.31"
+        }
+    }
+}

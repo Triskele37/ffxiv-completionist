@@ -1,0 +1,91 @@
+{
+    "key": "marauder-quests",
+    "groupName_en": "Marauder Quests",
+    "groupName_fr": "Quêtes de maraudeur",
+    "tasks": {
+        "x65846": {
+            "level": 1,
+            "name_en": "Way of the Marauder",
+            "name_fr": "La voie de la hache",
+            "npc_en": "Blauthota",
+            "npc_fr": "Blauthota",
+            "cPrev": ["q.65715"],
+            "cNext": ["q.65848"],
+            "patch": "4.31"
+        },
+        "x65848": {
+            "level": 1,
+            "name_en": "My First Axe",
+            "name_fr": "Partie de chasse",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65846"],
+            "cNext": ["q.65851", "q.65849"],
+            "patch": "4.31"
+        },
+        "x65849": {
+            "level": 5,
+            "name_en": "Axe in the Stone",
+            "name_fr": "Le brise-roc",
+            "cPrevAny": true,
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65846", "q.65848"],
+            "cNext": ["q.65851"],
+            "patch": "4.31"
+        },
+        "x65851": {
+            "level": 10,
+            "name_en": "Wake of Destruction",
+            "name_fr": "Entre primates et charognards",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65848", "q.65849"],
+            "cNext": ["q.65852"],
+            "patch": "4.31"
+        },
+        "x65852": {
+            "level": 15,
+            "name_en": "Brutal Strength",
+            "name_fr": "Le grand fracas",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65851"],
+            "cNext": ["q.65853"],
+            "patch": "4.31"
+        },
+        "x65853": {
+            "level": 20,
+            "name_en": "The Mountain That Strides",
+            "name_fr": "Le fugueur",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65852"],
+            "cNext": ["q.65854"],
+            "patch": "4.31"
+        },
+        "x65854": {
+            "level": 25,
+            "name_en": "Bleeder of the Pack",
+            "name_fr": "Zoenwyrn l'intrépide",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65853"],
+            "cNext": ["q.65855"],
+            "patch": "4.31"
+        },
+        "x65855": {
+            "level": 30,
+            "name_en": "Bringing Down the Mountain",
+            "name_fr": "À l'assaut de la Montagne vivante",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": ["q.65854"],
+            "cNext": ["q.66585"],
+            "cSiblings": ["ap.157"],
+            "cCombo": ["a.313", "a.314"],
+            "patch": "4.31",
+            "unlock": "ap.157"
+        }
+    }
+}

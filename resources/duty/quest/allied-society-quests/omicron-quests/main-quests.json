@@ -1,0 +1,77 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x70137": {
+            "level": 80,
+            "name_en": "The Café at the End of the Universe",
+            "name_fr": "яÉmιni§c∈ηcε 0001: t∈Rяe§ fεrTiL∑s",
+            "npc_en": "Jammingway",
+            "npc_fr": "Jammingway",
+            "cPrev": ["q.69704"],
+            "cNext": ["q.70138"],
+            "cSiblings": ["character.character.societal-relations.98"],
+            "patch": "6.28"
+        },
+        "x70138": {
+            "level": 80,
+            "name_en": "Longing So for All the Fish",
+            "name_fr": "яÉmιni§c∈ηcε 0010: mεRs ∀bФηdαπt∈s",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "npc_en": "N-7000",
+            "npc_fr": "N-7000",
+            "cPrev": ["q.70137"],
+            "cNext": ["q.70139"],
+            "cSiblings": ["character.character.societal-relations.99"],
+            "patch": "6.28"
+        },
+        "x70139": {
+            "level": 80,
+            "name_en": "And Another Question...",
+            "name_fr": "яÉmιni§c∈ηcε 0011: gØûTs Vαяιé§",
+            "reputation": "@REPUTATION.TRUSTED",
+            "npc_en": "N-7000",
+            "npc_fr": "N-7000",
+            "cPrev": ["q.70138"],
+            "cNext": ["q.70140"],
+            "cSiblings": ["character.character.societal-relations.100"],
+            "patch": "6.28"
+        },
+        "x70140": {
+            "level": 80,
+            "name_en": "The Restaurateur's Guide to the Dragonstar",
+            "name_fr": "яÉmιni§c∈ηcε 0100: mФπTαgπe§ s∀Cяéεs",
+            "reputation": "@REPUTATION.RESPECTED",
+            "npc_en": "N-7000",
+            "npc_fr": "N-7000",
+            "cPrev": ["q.70139"],
+            "cNext": ["q.70141"],
+            "cSiblings": ["character.character.societal-relations.101"],
+            "patch": "6.28"
+        },
+        "x70141": {
+            "level": 80,
+            "name_en": "Mostly Heartless",
+            "name_fr": "Un potentiel incalculable",
+            "reputation": "@REPUTATION.HONORED",
+            "npc_en": "N-7000",
+            "npc_fr": "N-7000",
+            "cPrev": ["q.70140"],
+            "cNext": ["q.70142"],
+            "cSiblings": ["character.character.societal-relations.102"],
+            "patch": "6.28"
+        },
+        "x70142": {
+            "level": 80,
+            "name_en": "Life, the Universe, and Coffee Beans",
+            "name_fr": "Nos différences, notre chance",
+            "reputation": "@REPUTATION.SWORN",
+            "npc_en": "N-7000",
+            "npc_fr": "N-7000",
+            "cPrev": ["q.70141"],
+            "cSiblings": ["character.character.societal-relations.103"],
+            "patch": "6.28"
+        }
+    }
+}

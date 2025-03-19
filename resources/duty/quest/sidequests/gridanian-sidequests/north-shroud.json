@@ -9,17 +9,7 @@
             "name_fr": "Effroyables petits acari",
             "npc_en": "Bodwine",
             "npc_fr": "Bodwine",
-            "cNext": [
-                65707
-            ],
-            "patch": "4.31"
-        },
-        "x65731": {
-            "level": 5,
-            "name_en": "A Glim Harvest",
-            "name_fr": "Un champignon ramassé, une vie conservée",
-            "npc_en": "Linyeve",
-            "npc_fr": "Linyeve",
+            "cNext": ["q.65707"],
             "patch": "4.31"
         },
         "x65709": {
@@ -30,29 +20,12 @@
             "npc_fr": "Vionne",
             "patch": "4.31"
         },
-        "x65707": {
-            "level": 6,
-            "name_en": "The Valued Vilekin",
-            "name_fr": "De prodigieux pucerons",
-            "npc_en": "Bodwine",
-            "npc_fr": "Bodwine",
-            "cPrev": [
-                65706
-            ],
-            "cNext": [
-                65710
-            ],
-            "patch": "4.31"
-        },
-        "x65735": {
-            "level": 6,
-            "name_en": "A Clear Sign",
-            "name_fr": "Décrasser les bornes",
-            "npc_en": "Paulemont",
-            "npc_fr": "Paulemont",
-            "cNext": [
-                65639
-            ],
+        "x65731": {
+            "level": 5,
+            "name_en": "A Glim Harvest",
+            "name_fr": "Un champignon ramassé, une vie conservée",
+            "npc_en": "Linyeve",
+            "npc_fr": "Linyeve",
             "patch": "4.31"
         },
         "x65639": {
@@ -61,12 +34,27 @@
             "name_fr": "La main dans le sac",
             "npc_en": "Q'djawana",
             "npc_fr": "Q'djawana",
-            "cPrev": [
-                65735
-            ],
-            "cNext": [
-                65634
-            ],
+            "cPrev": ["q.65735"],
+            "cNext": ["q.65634"],
+            "patch": "4.31"
+        },
+        "x65707": {
+            "level": 6,
+            "name_en": "The Valued Vilekin",
+            "name_fr": "De prodigieux pucerons",
+            "npc_en": "Bodwine",
+            "npc_fr": "Bodwine",
+            "cPrev": ["q.65706"],
+            "cNext": ["q.65710"],
+            "patch": "4.31"
+        },
+        "x65735": {
+            "level": 6,
+            "name_en": "A Clear Sign",
+            "name_fr": "Décrasser les bornes",
+            "npc_en": "Paulemont",
+            "npc_fr": "Paulemont",
+            "cNext": ["q.65639"],
             "patch": "4.31"
         },
         "x65631": {
@@ -75,9 +63,7 @@
             "name_fr": "La confiance, ça se mérite",
             "npc_en": "Eadbert",
             "npc_fr": "Eadbert",
-            "cNext": [
-                65633
-            ],
+            "cNext": ["q.65633"],
             "patch": "4.31"
         },
         "x65710": {
@@ -86,23 +72,7 @@
             "name_fr": "Voler dans les plumes des Ixali",
             "npc_en": "Guithrit",
             "npc_fr": "Guithrit",
-            "cPrev": [
-                65707
-            ],
-            "patch": "4.31"
-        },
-        "x65634": {
-            "level": 8,
-            "name_en": "Drink Your Beans, Dear",
-            "name_fr": "Faut pas gâcher",
-            "npc_en": "Dametta",
-            "npc_fr": "Dametta",
-            "cPrev": [
-                65639
-            ],
-            "cNext": [
-                65635
-            ],
+            "cPrev": ["q.65707"],
             "patch": "4.31"
         },
         "x65633": {
@@ -111,12 +81,18 @@
             "name_fr": "Patrouille à l'orée du bois",
             "npc_en": "Eadbert",
             "npc_fr": "Eadbert",
-            "cPrev": [
-                65631
-            ],
-            "cNext": [
-                65635
-            ],
+            "cPrev": ["q.65631"],
+            "cNext": ["q.65635"],
+            "patch": "4.31"
+        },
+        "x65634": {
+            "level": 8,
+            "name_en": "Drink Your Beans, Dear",
+            "name_fr": "Faut pas gâcher",
+            "npc_en": "Dametta",
+            "npc_fr": "Dametta",
+            "cPrev": ["q.65639"],
+            "cNext": ["q.65635"],
             "patch": "4.31"
         },
         "x65635": {
@@ -125,10 +101,7 @@
             "name_fr": "Un admirateur inconnu",
             "npc_en": "Emeria",
             "npc_fr": "Emeria",
-            "cPrev": [
-                65633,
-                65634
-            ],
+            "cPrev": ["q.65633", "q.65634"],
             "patch": "4.31"
         },
         "x66324": {
@@ -137,9 +110,7 @@
             "name_fr": "La clef de ses soucis",
             "npc_en": "Somerhild",
             "npc_fr": "Somerhild",
-            "cNext": [
-                66328
-            ],
+            "cNext": ["q.66328"],
             "patch": "4.31"
         },
         "x66325": {
@@ -156,9 +127,7 @@
             "name_fr": "Arbres en péril",
             "npc_en": "Oriane",
             "npc_fr": "Oriane",
-            "cNext": [
-                66327
-            ],
+            "cNext": ["q.66327"],
             "patch": "4.31"
         },
         "x66327": {
@@ -167,9 +136,7 @@
             "name_fr": "Pierre à son âme",
             "npc_en": "Oriane",
             "npc_fr": "Oriane",
-            "cPrev": [
-                66326
-            ],
+            "cPrev": ["q.66326"],
             "patch": "4.31"
         },
         "x66328": {
@@ -178,12 +145,8 @@
             "name_fr": "Par amour de l'art",
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
-            "cPrev": [
-                66324
-            ],
-            "cNext": [
-                66329
-            ],
+            "cPrev": ["q.66324"],
+            "cNext": ["q.66329"],
             "patch": "4.31"
         },
         "x66329": {
@@ -192,12 +155,8 @@
             "name_fr": "Un retard inquiétant",
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
-            "cPrev": [
-                66328
-            ],
-            "cNext": [
-                66332
-            ],
+            "cPrev": ["q.66328"],
+            "cNext": ["q.66332"],
             "patch": "4.31"
         },
         "x66330": {
@@ -206,9 +165,7 @@
             "name_fr": "La fugue de Gogolata",
             "npc_en": "Gogolata",
             "npc_fr": "Gogolata",
-            "cNext": [
-                66331
-            ],
+            "cNext": ["q.66331"],
             "patch": "4.31"
         },
         "x66331": {
@@ -217,9 +174,7 @@
             "name_fr": "Les aveux de Gogolata",
             "npc_en": "Gogolata",
             "npc_fr": "Gogolata",
-            "cPrev": [
-                66330
-            ],
+            "cPrev": ["q.66330"],
             "patch": "4.31"
         },
         "x66332": {
@@ -228,9 +183,7 @@
             "name_fr": "Le repas des prospecteurs",
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
-            "cPrev": [
-                66329
-            ],
+            "cPrev": ["q.66329"],
             "patch": "4.31"
         },
         "x66333": {
@@ -239,9 +192,7 @@
             "name_fr": "Et la lumière fut",
             "npc_en": "Ademar",
             "npc_fr": "Ademar",
-            "cNext": [
-                66334
-            ],
+            "cNext": ["q.66334"],
             "patch": "4.31"
         },
         "x66334": {
@@ -250,9 +201,7 @@
             "name_fr": "Courtes échelles",
             "npc_en": "Ademar",
             "npc_fr": "Ademar",
-            "cPrev": [
-                66333
-            ],
+            "cPrev": ["q.66333"],
             "patch": "4.31"
         },
         "x66421": {
@@ -269,12 +218,8 @@
             "name_fr": "La chasse aux volatiles",
             "npc_en": "Isaudorel",
             "npc_fr": "Isaudorel",
-            "cPrev": [
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66441"
-            ],
-            "cNext": [
-                66443
-            ],
+            "cPrev": ["q.66441"],
+            "cNext": ["q.66443"],
             "patch": "4.31"
         },
         "x66443": {
@@ -283,12 +228,8 @@
             "name_fr": "Une haine viscérale",
             "npc_en": "Ireine",
             "npc_fr": "Ireine",
-            "cPrev": [
-                66442
-            ],
-            "cNext": [
-                66444
-            ],
+            "cPrev": ["q.66442"],
+            "cNext": ["q.66444"],
             "patch": "4.31"
         },
         "x66444": {
@@ -297,12 +238,8 @@
             "name_fr": "Oh, la belle rouge!",
             "npc_en": "Miah Molkot",
             "npc_fr": "Miah Molkot",
-            "cPrev": [
-                66443
-            ],
-            "cNext": [
-                66445
-            ],
+            "cPrev": ["q.66443"],
+            "cNext": ["q.66445"],
             "patch": "4.31"
         },
         "x66445": {
@@ -311,9 +248,7 @@
             "name_fr": "Un important message",
             "npc_en": "Miah Molkot",
             "npc_fr": "Miah Molkot",
-            "cPrev": [
-                66444
-            ],
+            "cPrev": ["q.66444"],
             "patch": "4.31"
         },
         "x66676": {
@@ -322,13 +257,8 @@
             "name_fr": "Une carte au trésor inestimable",
             "npc_en": "Ealdwine",
             "npc_fr": "Ealdwine",
-            "cPrev": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.66998"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66677",
-                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.65896"
-            ],
+            "cPrev": ["q.66998"],
+            "cNext": ["q.66677", "q.65896"],
             "patch": "4.31"
         },
         "x67206": {
@@ -337,12 +267,8 @@
             "name_fr": "La goutte d'eau qui fait déborder la bouilloire",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.67823"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1492"
-            ],
+            "cPrev": ["q.67823"],
+            "cSiblings": ["a.1492"],
             "patch": "4.31"
         }
     }

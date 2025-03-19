@@ -7,81 +7,65 @@
             "name_en": "Scholar's Harbor",
             "name_fr": "Port de l'Érudit",
             "level": "80",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
+            "zone": "@PLACE.OLD_SHARLAYAN",
             "location": "(11.6, 16.0)",
-            "type_en": "Ocean",
-            "type_fr": "Océan"
+            "type": "@FISH.TYPE.OCEAN"
         },
         "x1": {
             "name_en": "Oinops",
             "name_fr": "Vallée cristalline",
             "level": "80",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
+            "zone": "@PLACE.OLD_SHARLAYAN",
             "location": "(11.1, 8.6)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x2": {
             "name_en": "Reflecting Pool",
             "name_fr": "Étang des Réflexions",
             "level": "80",
-            "zone_en": "Old Sharlayan",
-            "zone_fr": "Vieille Sharlayan",
+            "zone": "@PLACE.OLD_SHARLAYAN",
             "location": "(7.7, 10.5)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x4": {
             "name_en": "Unmoved Source Alpha",
             "name_fr": "Pertuis aérien n°1",
             "level": "81",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
+            "zone": "@PLACE.LABYRINTHOS",
             "location": "(17.7, 5.3)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x3": {
             "name_en": "The Mover Alpha",
             "name_fr": "Canal d'écoulement n°1",
             "level": "81",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
+            "zone": "@PLACE.LABYRINTHOS",
             "location": "(18.5, 10.9)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x7": {
             "name_en": "Unmoved Source Beta",
             "name_fr": "Pertuis aérien n°2",
             "level": "82",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
+            "zone": "@PLACE.LABYRINTHOS",
             "location": "(32.3, 8.6)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x6": {
             "name_en": "The Mover Beta",
             "name_fr": "Canal d'écoulement n°2",
             "level": "82",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
+            "zone": "@PLACE.LABYRINTHOS",
             "location": "(28.8, 16.7)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x5": {
             "name_en": "Deepmoat",
             "name_fr": "Douve du Circuit central",
             "level": "82",
-            "zone_en": "Labyrinthos",
-            "zone_fr": "Le Labyrinthos",
+            "zone": "@PLACE.LABYRINTHOS",
             "location": "(20.0, 16.0)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         }
     }
 }

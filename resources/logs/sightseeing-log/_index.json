@@ -1,0 +1,34 @@
+{
+    "key": "sightseeing-log",
+    "groupName_en": "Sightseeing Log",
+    "groupName_fr": "Carnet d'exploration",
+    "headers": {
+        "vista": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "emote": {
+            "header_en": "Emote",
+            "header_fr": "Emote",
+            "filterable": true,
+            "link": true
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "location": {
+            "header": "@HEADER.COORDINATES"
+        }
+    },
+    "order": [
+        "a-realm-reborn",
+        "heavensward",
+        "stormblood",
+        "shadowbringers",
+        "endwalker",
+        "dawntrail"
+    ]
+}

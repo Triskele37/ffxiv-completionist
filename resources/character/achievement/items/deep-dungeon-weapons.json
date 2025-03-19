@@ -151,8 +151,24 @@
             "name_en": "Aetherpool Party: Milpreves",
             "name_fr": "Padjale, ton arme : mein gwrac'h",
             "description_en": "Obtain an array of Padjali milpreves.",
-            "description_fr": "Obtenir quadruplet de mein gwrac'h padjals.",
+            "description_fr": "Obtenir des mein gwrac'h padjals.",
             "patch": "6.0",
+            "points": 10
+        },
+		"x3538": {
+            "description_en": "Obtain a pair of Padjali twinfangs.",
+            "description_fr": "Obtenir une paire de crochets padjals.",
+            "name_en": "Aetherpool Party: Twinfangs",
+            "name_fr": "Padjale, ton arme : crochets",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3539": {
+            "description_en": "Obtain a Padjali fan brush.",
+            "description_fr": "Obtenir un pinceau éventail padjal.",
+            "name_en": "Aetherpool Party: Fan Brush",
+            "name_fr": "Padjale, ton arme : pinceau éventail",
+            "patch": "7.0",
             "points": 10
         },
         "x1658": {
@@ -160,12 +176,10 @@
             "name_fr": "Kinna tente rien n'a rien",
             "description_en": "Obtain a piece of kinna gear.",
             "description_fr": "Obtenir une des armes kinna.",
-            "reward": "character.character.title.320",
+            "reward": "t.320",
             "patch": "3.45",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.320"
-            ]
+            "cSiblings": ["t.320"]
         },
         "x2052": {
             "name_en": "Empyrean Dreams",

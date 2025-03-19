@@ -10,9 +10,7 @@
             "description_fr": "Réaliser 50 synthèses d'orfèvrerie de niveau 1 à 10.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                160
-            ]
+            "cCombo": ["a.160"]
         },
         "x156": {
             "name_en": "Cutting the Carats: Initiate",
@@ -21,9 +19,7 @@
             "description_fr": "Réaliser 300 synthèses d'orfèvrerie de niveau 11 à 20.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                160
-            ]
+            "cCombo": ["a.160"]
         },
         "x157": {
             "name_en": "Cutting the Carats: Apprentice",
@@ -32,9 +28,7 @@
             "description_fr": "Réaliser 750 synthèses d'orfèvrerie de niveau 21 à 30.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                160
-            ]
+            "cCombo": ["a.160"]
         },
         "x158": {
             "name_en": "Cutting the Carats: Journeyman",
@@ -43,24 +37,18 @@
             "description_fr": "Réaliser 1 500 synthèses d'orfèvrerie de niveau 31 à 40.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                160
-            ]
+            "cCombo": ["a.160"]
         },
         "x159": {
             "name_en": "Cutting the Carats: Artisan",
             "name_fr": "Tout ce qui brille : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 goldsmithing recipes.",
             "description_fr": "Réaliser 3 000 synthèses d'orfèvrerie de niveau 41 à 50.",
-            "reward": "character.character.title.20",
+            "reward": "t.20",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.20"
-            ],
-            "cCombo": [
-                160
-            ]
+            "cSiblings": ["t.20"],
+            "cCombo": ["a.160"]
         },
         "x160": {
             "name_en": "A Goldsmith's Life for Me",
@@ -71,13 +59,7 @@
             "reward_fr": "Marteau à garnir de virtuose",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [
-                155,
-                156,
-                157,
-                158,
-                159
-            ]
+            "cPrev": ["a.155", "a.156", "a.157", "a.158", "a.159"]
         },
         "x1304": {
             "name_en": "Cutting the Carats: Adept",
@@ -111,6 +93,14 @@
             "patch": "6.0",
             "points": 10
         },
+        "x3470": {
+            "description_en": "Successfully synthesize 1,000 times for level 91-100 goldsmithing recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 91 à 100.",
+            "name_en": "Cutting the Carats: Exemplar",
+            "name_fr": "Tout ce qui brille : As",
+            "patch": "7.0",
+            "points": 10
+        },
         "x704": {
             "name_en": "I Made That: Goldsmith I",
             "name_fr": "Carnet de notes : orfèvre I",
@@ -118,9 +108,7 @@
             "description_fr": "Faire 60 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                705
-            ]
+            "cNext": ["a.705"]
         },
         "x705": {
             "name_en": "I Made That: Goldsmith II",
@@ -129,12 +117,8 @@
             "description_fr": "Faire 130 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                704
-            ],
-            "cNext": [
-                706
-            ]
+            "cPrev": ["a.704"],
+            "cNext": ["a.706"]
         },
         "x706": {
             "name_en": "I Made That: Goldsmith III",
@@ -145,12 +129,8 @@
             "reward_fr": "Anneau de maître orfèvre",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                705
-            ],
-            "cNext": [
-                1281
-            ]
+            "cPrev": ["a.705"],
+            "cNext": ["a.1281"]
         },
         "x1281": {
             "name_en": "I Made That: Goldsmith IV",
@@ -159,12 +139,8 @@
             "description_fr": "Faire 380 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                706
-            ],
-            "cNext": [
-                1724
-            ]
+            "cPrev": ["a.706"],
+            "cNext": ["a.1724"]
         },
         "x1724": {
             "name_en": "I Made That: Goldsmith V",
@@ -175,12 +151,8 @@
             "reward_fr": "Massette de joaillier bénie",
             "patch": "3.5",
             "points": 10,
-            "cPrev": [
-                1281
-            ],
-            "cNext": [
-                2169
-            ]
+            "cPrev": ["a.1281"],
+            "cNext": ["a.2169"]
         },
         "x2169": {
             "name_en": "I Made That: Goldsmith VI",
@@ -191,9 +163,7 @@
             "reward_fr": "Massette du roi des gemmes bénie",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [
-                1724
-            ]
+            "cPrev": ["a.1724"]
         },
         "x759": {
             "name_en": "An Eye for Detail: Goldsmith I",
@@ -202,9 +172,7 @@
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'orfèvre.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                760
-            ]
+            "cNext": ["a.760"]
         },
         "x760": {
             "name_en": "An Eye for Detail: Goldsmith II",
@@ -213,12 +181,8 @@
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'orfèvre.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                759
-            ],
-            "cNext": [
-                761
-            ]
+            "cPrev": ["a.759"],
+            "cNext": ["a.761"]
         },
         "x761": {
             "name_en": "An Eye for Detail: Goldsmith III",
@@ -227,12 +191,8 @@
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'orfèvre.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                760
-            ],
-            "cNext": [
-                1316
-            ]
+            "cPrev": ["a.760"],
+            "cNext": ["a.1316"]
         },
         "x1316": {
             "name_en": "An Eye for Detail: Goldsmith IV",
@@ -241,27 +201,19 @@
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'orfèvre.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                761
-            ],
-            "cNext": [
-                1324
-            ]
+            "cPrev": ["a.761"],
+            "cNext": ["a.1324"]
         },
         "x1324": {
             "name_en": "An Eye for Detail: Goldsmith V",
             "name_fr": "De main de maître : orfèvre V",
             "description_en": "Craft 10,000 high-quality items as a goldsmith.",
-            "description_fr": "Fabriquer un total de 10 000  objets de haute qualité en tant qu'orfèvre.",
-            "reward": "character.character.title.256",
+            "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant qu'orfèvre.",
+            "reward": "t.256",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1316
-            ],
-            "cSiblings": [
-                "character.character.title.256"
-            ]
+            "cPrev": ["a.1316"],
+            "cSiblings": ["t.256"]
         },
         "x2498": {
             "name_en": "Skyward Gemstone I",
@@ -270,12 +222,8 @@
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'orfèvre.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2499
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2522"
-            ]
+            "cNext": ["a.2499"],
+            "cCombo": ["a.2522"]
         },
         "x2499": {
             "name_en": "Skyward Gemstone II",
@@ -284,66 +232,50 @@
             "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'orfèvre.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2498
-            ],
-            "cNext": [
-                2500
-            ]
+            "cPrev": ["a.2498"],
+            "cNext": ["a.2500"]
         },
         "x2500": {
             "name_en": "Skyward Gemstone III",
             "name_fr": "Joyau d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a goldsmith.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant qu'orfèvre.",
-            "reward": "character.character.title.493",
+            "reward": "t.493",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2499
-            ],
-            "cSiblings": [
-                "character.character.title.493"
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2524"
-            ]
+            "cPrev": ["a.2499"],
+            "cSiblings": ["t.493"],
+            "cCombo": ["a.2524"]
         },
         "x2530": {
             "name_en": "The Height of Gemcraft",
             "name_fr": "Orfèvre du Nichoir",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la deuxième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.506",
+            "reward": "t.506",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.506"
-            ]
+            "cSiblings": ["t.506"]
         },
         "x2651": {
             "name_en": "Goldsmiths of a Feather",
             "name_fr": "Orfèvre de Tombeplume",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la troisième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.531",
+            "reward": "t.531",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.531"
-            ]
+            "cSiblings": ["t.531"]
         },
         "x2810": {
             "name_en": "An Ode to Gemcraft",
             "name_fr": "Orfèvre du Nouveau Refrain",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la quatrième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.568",
+            "reward": "t.568",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.568"
-            ]
+            "cSiblings": ["t.568"]
         },
         "x2824": {
             "name_en": "Retooled: Resplendent Gemfiend's Mallet",
@@ -352,9 +284,7 @@
             "description_fr": "Obtenir une massette du fiélon des gemmes resplendissante.",
             "patch": "5.5",
             "points": 10,
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2829"
-            ]
+            "cCombo": ["a.2829"]
         }
     }
 }

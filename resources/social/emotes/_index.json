@@ -4,27 +4,28 @@
     "groupName_fr": "Emotes",
     "headers": {
         "name": {
-            "header_en": "Emote",
-            "header_fr": "Emote"
+            "header": "@HEADER.NAME"
         },
         "command": {
             "header_en": "Command",
             "header_fr": "Commande"
         },
         "category": {
-            "filterable": true,
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY",
+            "filterable": true
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "filterable": true,
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH",
+            "filterable": true
         }
-    }
+    },
+    "order": [
+        "general",
+        "special",
+        "expressions"
+    ]
 }

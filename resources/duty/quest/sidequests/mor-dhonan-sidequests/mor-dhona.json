@@ -7,20 +7,11 @@
             "level": 1,
             "name_en": "A Legend for a Legend",
             "name_fr": "Qui se ressemble s'assemble",
-            "unlock": "character.mount-guide.96",
+            "unlock": "mo.47",
             "npc_en": "Wandering Minstrel",
-            "npc_fr": "ménestrel errant",
-            "cPrev": [
-                "character.mount-guide.4",
-                "character.mount-guide.25",
-                "character.mount-guide.56",
-                "character.mount-guide.83",
-                "character.mount-guide.120",
-                "character.mount-guide.186"
-            ],
-            "cSiblings": [
-                "character.achievement.items.items.1063"
-            ],
+            "npc_fr": "Ménestrel Errant",
+            "cPrev": ["mo.28", "mo.43", "mo.31", "mo.30", "mo.40", "mo.29"],
+            "cSiblings": ["a.1063"],
             "patch": "4.31"
         },
         "x67094": {
@@ -30,23 +21,7 @@
             "npc_en": "Alys",
             "npc_fr": "Alys",
             "unlock_en": "Augmented Artifact Armor",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.western-thanalan.66235"
-            ],
-            "patch": "4.31"
-        },
-        "x66958": {
-            "level": 15,
-            "name_en": "Submission Impossible",
-            "name_fr": "Juste une illusion",
-            "npc_en": "Wiscard",
-            "npc_fr": "Wiscard",
-            "cPrev": [
-                66957
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.uldahn.western-thanalan.68554"
-            ],
+            "cPrev": ["q.66235"],
             "patch": "4.31"
         },
         "x66957": {
@@ -56,12 +31,18 @@
             "npc_en": "Wiscard",
             "npc_fr": "Wiscard",
             "unlock_en": "Glamours",
-            "cNext": [
-                66958
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.uldahn.western-thanalan.68553"
-            ],
+            "cNext": ["q.66958"],
+            "cExclude": ["q.68553"],
+            "patch": "4.31"
+        },
+        "x66958": {
+            "level": 15,
+            "name_en": "Submission Impossible",
+            "name_fr": "Juste une illusion",
+            "npc_en": "Wiscard",
+            "npc_fr": "Wiscard",
+            "cPrev": ["q.66957"],
+            "cExclude": ["q.68554"],
             "patch": "4.31"
         },
         "x66524": {
@@ -78,9 +59,7 @@
             "name_fr": "Un animal de compagnie insolite",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cNext": [
-                66535
-            ],
+            "cNext": ["q.66535"],
             "patch": "4.31"
         },
         "x65554": {
@@ -90,11 +69,7 @@
             "cPrevAny": true,
             "npc_en": "K'leytai",
             "npc_fr": "K'leytai",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66523": {
@@ -103,9 +78,7 @@
             "name_fr": "Quelle catalyse",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cPrev": [
-                66535
-            ],
+            "cPrev": ["q.66535"],
             "patch": "4.31"
         },
         "x66525": {
@@ -114,9 +87,7 @@
             "name_fr": "Les âmes des revenants",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cNext": [
-                66534
-            ],
+            "cNext": ["q.66534"],
             "patch": "4.31"
         },
         "x66526": {
@@ -133,9 +104,7 @@
             "name_fr": "Des nouvelles de la maison",
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cNext": [
-                66532
-            ],
+            "cNext": ["q.66532"],
             "patch": "4.31"
         },
         "x66528": {
@@ -152,9 +121,7 @@
             "name_fr": "Des monstres qui n'aiment pas les fouilles",
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cNext": [
-                66531
-            ],
+            "cNext": ["q.66531"],
             "patch": "4.31"
         },
         "x66530": {
@@ -171,9 +138,7 @@
             "name_fr": "Un lieu saint géant",
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cPrev": [
-                66529
-            ],
+            "cPrev": ["q.66529"],
             "patch": "4.31"
         },
         "x66532": {
@@ -182,9 +147,7 @@
             "name_fr": "Une histoire qui commence par la chute",
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cPrev": [
-                66527
-            ],
+            "cPrev": ["q.66527"],
             "patch": "4.31"
         },
         "x66534": {
@@ -193,12 +156,8 @@
             "name_fr": "L'appât du gain",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cPrev": [
-                66525
-            ],
-            "cNext": [
-                66536
-            ],
+            "cPrev": ["q.66525"],
+            "cNext": ["q.66536"],
             "patch": "4.31"
         },
         "x66535": {
@@ -207,12 +166,8 @@
             "name_fr": "Flemmite aiguë",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cPrev": [
-                66533
-            ],
-            "cNext": [
-                66523
-            ],
+            "cPrev": ["q.66533"],
+            "cNext": ["q.66523"],
             "patch": "4.31"
         },
         "x66536": {
@@ -221,9 +176,7 @@
             "name_fr": "S'en mettre plein les fouilles",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cPrev": [
-                66534
-            ],
+            "cPrev": ["q.66534"],
             "patch": "4.31"
         },
         "x65700": {
@@ -232,9 +185,7 @@
             "name_fr": "Il est beau mon canon",
             "npc_en": "Slafborn",
             "npc_fr": "Slafborn",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66677": {
@@ -244,57 +195,47 @@
             "npc_en": "Brangwine",
             "npc_fr": "Brangwine",
             "unlock_en": "Mystery Map",
-            "cPrev": [
-                "duty.quests.sidequests.gridanian.north-shroud.66676"
-            ],
+            "cPrev": ["q.66676"],
             "patch": "4.31"
         },
         "x66751": {
             "level": 50,
             "name_en": "Maniac Manor",
             "name_fr": "Le manoir dont on ne revient pas",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.18",
+            "unlock": "d.19",
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66752": {
             "level": 50,
             "name_en": "Out of Sight, Out of Mine",
             "name_fr": "Les profondeurs de Clochecuivre",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.17",
+            "unlock": "d.18",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66946": {
             "level": 50,
             "name_en": "This Time's for Fun",
             "name_fr": "L'invitation au carnage",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.20",
+            "unlock": "d.21",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66947": {
             "level": 50,
             "name_en": "Curds and Slay",
             "name_fr": "Une recette bien gardée",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.21",
+            "unlock": "d.20",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66959": {
@@ -309,107 +250,82 @@
             "level": 50,
             "name_en": "Blood for Stone",
             "name_fr": "La reprise du Vigile de Pierre",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.23",
+            "unlock": "d.25",
             "npc_en": "Faillicie",
             "npc_fr": "Faillicie",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x67062": {
             "level": 50,
             "name_en": "King of the Hull",
             "name_fr": "Le trésor caché de Crèvecarène",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.22",
+            "unlock": "d.23",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
-            ],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67784"],
             "patch": "4.31"
         },
         "x66844": {
             "level": 50,
             "name_en": "The Ultimate Ballad",
             "name_fr": "La ballade du fléau d'Ultima",
-            "unlock": "duty.dutyraid-finder.trials.arr.19",
+            "unlock": "d.68",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                67095
-            ],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67095"],
             "patch": "4.31"
         },
         "x67095": {
             "level": 50,
             "name_en": "Sing Me Another Song",
             "name_fr": "La ballade des vainqueurs des Méandres",
-            "unlock": [
-                "duty.dutyraid-finder.raids.arr.13",
-                "duty.dutyraid-finder.raids.arr.14",
-                "duty.dutyraid-finder.raids.arr.15",
-                "duty.dutyraid-finder.raids.arr.16"
-            ],
+            "unlock": ["d.103", "d.104", "d.105", "d.106"],
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": [
-                66844
-            ],
+            "cPrev": ["q.66844"],
             "patch": "4.31"
         },
         "x65630": {
             "level": 50,
             "name_en": "It's Definitely Pirates",
             "name_fr": "Les oubliés de Sastasha",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.26",
+            "unlock": "d.28",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65632": {
             "level": 50,
             "name_en": "The Wrath of Qarn",
             "name_fr": "Les profanateurs de Qarn",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.27",
+            "unlock": "d.26",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65966": {
             "level": 50,
             "name_en": "For Keep's Sake",
             "name_fr": "Retour en piste à Amdapor",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.30",
+            "unlock": "d.29",
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65967": {
             "level": 50,
             "name_en": "Not Easy Being Green",
             "name_fr": "Invasion au Palais du Vagabond",
-            "unlock": "duty.dutyraid-finder.dungeons.arr.29",
+            "unlock": "d.30",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x67632": {
@@ -418,9 +334,7 @@
             "name_fr": "De nouveaux sommets",
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67118"
-            ],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67633": {
@@ -429,9 +343,7 @@
             "name_fr": "Le maître de l'éthérolyse",
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67118"
-            ],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67634": {
@@ -441,94 +353,58 @@
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
             "unlock_en": "Aetherial Reduction",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67118",
-                "duty.quests.sidequests.ishgardian.ishgard.67631"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.67087",
-                "duty.quests.other.quasi-quests.67635",
-                "duty.quests.other.quasi-quests.68477",
-                "duty.quests.other.quasi-quests.69711",
-                "duty.quests.other.quasi-quests.69139",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69425",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69615"
-            ],
+            "cPrev": ["q.67118", "q.67631"],
+            "cNext": ["q.67087", "q.67635", "q.68477", "q.69711", "q.69139", "q.69425", "q.69615"],
             "patch": "4.31"
         },
         "x67739": {
             "level": 60,
             "name_en": "Thordan's Reign",
             "name_fr": "La ballade du dieu autoproclamé",
-            "unlock": "duty.dutyraid-finder.trials.hw.9",
+            "unlock": "d.91",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         },
         "x67825": {
             "level": 60,
             "name_en": "Nidhogg's Rage",
             "name_fr": "La ballade de l'Avancée de la Foi",
-            "unlock": "duty.dutyraid-finder.trials.hw.10",
+            "unlock": "d.170",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": [
-                "duty.quests.main-scenario.dragonsong.67783"
-            ],
+            "cPrev": ["q.67783"],
             "patch": "4.31"
         },
         "x67644": {
             "level": 60,
             "name_en": "A Song of Steam and Steel",
             "name_fr": "La ballade du géant mécanique",
-            "unlock": [
-                "duty.dutyraid-finder.raids.hw.4",
-                "duty.dutyraid-finder.raids.hw.5",
-                "duty.dutyraid-finder.raids.hw.6",
-                "duty.dutyraid-finder.raids.hw.7"
-            ],
+            "unlock": ["d.116", "d.117", "d.118", "d.119"],
             "npc_en": "Wandering Minstrel",
-            "npc_fr": "ménestrel errant",
-            "cPrev": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67630"
-            ],
+            "npc_fr": "Ménestrel Errant",
+            "cPrev": ["q.67630"],
             "patch": "4.31"
         },
         "x67790": {
             "level": 60,
             "name_en": "A Refrain for the Undaunted",
             "name_fr": "Un chant mythologico-mécanique",
-            "unlock": [
-                "duty.dutyraid-finder.raids.hw.12",
-                "duty.dutyraid-finder.raids.hw.13",
-                "duty.dutyraid-finder.raids.hw.14",
-                "duty.dutyraid-finder.raids.hw.15"
-            ],
+            "unlock": ["d.147", "d.148", "d.149", "d.150"],
             "npc_en": "Wandering Minstrel",
-            "npc_fr": "ménestrel errant",
-            "cPrev": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67789"
-            ],
+            "npc_fr": "Ménestrel Errant",
+            "cPrev": ["q.67789"],
             "patch": "4.31"
         },
         "x67876": {
             "level": 60,
             "name_en": "Who Lives, Who Dies, Who Retells Your Story",
             "name_fr": "Un lied mécanico-temporel",
-            "unlock": [
-                "duty.dutyraid-finder.raids.hw.16",
-                "duty.dutyraid-finder.raids.hw.17",
-                "duty.dutyraid-finder.raids.hw.18",
-                "duty.dutyraid-finder.raids.hw.19"
-            ],
+            "unlock": ["d.186", "d.187", "d.188", "d.189"],
             "npc_en": "Wandering Minstrel",
-            "npc_fr": "ménestrel errant",
-            "cPrev": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67875"
-            ],
+            "npc_fr": "Ménestrel Errant",
+            "cPrev": ["q.67875"],
             "patch": "4.31"
         },
         "x68722": {
@@ -537,9 +413,7 @@
             "name_fr": "La Salaisonnerie a fait des petits",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": [
-                "duty.quests.main-scenario.post-stormblood.68717"
-            ],
+            "cPrev": ["q.68717"],
             "patch": "4.5"
         }
     }

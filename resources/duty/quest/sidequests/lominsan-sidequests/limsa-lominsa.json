@@ -9,23 +9,18 @@
             "name_fr": "Bienvenue à Limsa Lominsa",
             "npc_en": "Ryssfloh",
             "npc_fr": "Ryssfloh",
-            "cNext": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645",
-                65647
-            ],
+            "cNext": ["q.65645", "q.65647"],
             "patch": "4.31"
         },
-        "x69379": {
+        "x65647": {
             "level": 1,
-            "name_en": "All the Fish in the Sea",
-            "name_fr": "L'Ambition fait le poisson",
-            "npc_en": "Fhilsnoe",
-            "npc_fr": "Fhilsnoe",
-            "unlock_en": "Ocean Fishing",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-the-land.fisher.66644"
-            ],
-            "patch": "5.2"
+            "name_en": "Making a Name",
+            "name_fr": "C'est l'intention qui compte",
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "cPrev": ["q.65643"],
+            "cNext": ["q.65648"],
+            "patch": "4.31"
         },
         "x65648": {
             "level": 1,
@@ -33,9 +28,7 @@
             "name_fr": "Un marin suspect",
             "npc_en": "Ahldskyf",
             "npc_fr": "Ahldskyf",
-            "cPrev": [
-                65647
-            ],
+            "cPrev": ["q.65647"],
             "patch": "4.31"
         },
         "x65649": {
@@ -62,26 +55,30 @@
             "npc_fr": "P'tahjha",
             "patch": "4.31"
         },
-        "x65647": {
-            "level": 1,
-            "name_en": "Making a Name",
-            "name_fr": "C'est l'intention qui compte",
-            "npc_en": "Niniya",
-            "npc_fr": "Niniya",
-            "cPrev": [
-                65643
-            ],
-            "cNext": [
-                65648
-            ],
-            "patch": "4.31"
-        },
         "x65859": {
             "level": 1,
             "name_en": "Edelweiss, Edelweiss",
             "name_fr": "Échange de politesses",
             "npc_en": "J'nasshym",
             "npc_fr": "J'nasshym",
+            "patch": "4.31"
+        },
+        "x69379": {
+            "level": 1,
+            "name_en": "All the Fish in the Sea",
+            "name_fr": "L'Ambition fait le poisson",
+            "npc_en": "Fhilsnoe",
+            "npc_fr": "Fhilsnoe",
+            "unlock_en": "Ocean Fishing",
+            "cPrev": ["q.66644"],
+            "patch": "5.2"
+        },
+        "x65653": {
+            "level": 2,
+            "name_en": "A Thousand Words",
+            "name_fr": "Un portrait fidèle",
+            "npc_en": "Latisha",
+            "npc_fr": "Latisha",
             "patch": "4.31"
         },
         "x65654": {
@@ -92,42 +89,22 @@
             "npc_fr": "Mordyn",
             "patch": "4.31"
         },
-        "x65656": {
-            "level": 2,
-            "name_en": "I Stay the Streetlight",
-            "name_fr": "La jumelle délégante",
-            "npc_en": "N'tanmo",
-            "npc_fr": "N'tanmo",
-            "cPrev": [
-                65655
-            ],
-            "patch": "4.31"
-        },
         "x65655": {
             "level": 2,
             "name_en": "Lost and Found",
             "name_fr": "La jumelle diligente",
             "npc_en": "Ginnade",
             "npc_fr": "Ginnade",
-            "cNext": [
-                65656
-            ],
+            "cNext": ["q.65656"],
             "patch": "4.31"
         },
-        "x65653": {
+        "x65656": {
             "level": 2,
-            "name_en": "A Thousand Words",
-            "name_fr": "Un portrait fidèle",
-            "npc_en": "Latisha",
-            "npc_fr": "Latisha",
-            "patch": "4.31"
-        },
-        "x65657": {
-            "level": 3,
-            "name_en": "Back in the Water",
-            "name_fr": "La pêche aux bateaux",
-            "npc_en": "Sisipu",
-            "npc_fr": "Sisipu",
+            "name_en": "I Stay the Streetlight",
+            "name_fr": "La jumelle délégante",
+            "npc_en": "N'tanmo",
+            "npc_fr": "N'tanmo",
+            "cPrev": ["q.65655"],
             "patch": "4.31"
         },
         "x65652": {
@@ -136,6 +113,14 @@
             "name_fr": "Le saigneur des agneaux",
             "npc_en": "H'lahono",
             "npc_fr": "H'lahono",
+            "patch": "4.31"
+        },
+        "x65657": {
+            "level": 3,
+            "name_en": "Back in the Water",
+            "name_fr": "La pêche aux bateaux",
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu",
             "patch": "4.31"
         },
         "x66197": {
@@ -152,9 +137,7 @@
             "name_fr": "Une saveur médusante",
             "npc_en": "S'dhodjbi",
             "npc_fr": "S'dhodjbi",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
-            ],
+            "cPrev": ["q.65645"],
             "patch": "4.31"
         },
         "x66198": {
@@ -171,12 +154,8 @@
             "name_fr": "C'est vraiment l'intention qui compte",
             "npc_en": "Niniya",
             "npc_fr": "Niniya",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66011"
-            ],
+            "cPrev": ["q.65645"],
+            "cNext": ["q.66011"],
             "patch": "4.31"
         },
         "x66229": {
@@ -186,24 +165,22 @@
             "npc_en": "T'mokkri",
             "npc_fr": "T'mokkri",
             "unlock_en": "Leves",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66005"
-            ],
+            "cPrev": ["q.66005"],
             "cNext": [
-                "duty.quests.sidequests.gridanian.east-shroud.65757",
-                "duty.quests.sidequests.gridanian.south-shroud.65979",
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66224",
-                "duty.quests.sidequests.lominsan.western-la-noscea.66230",
-                "duty.quests.sidequests.uldahn.southern-thanalan.66228",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.65550",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65552",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65553",
-                "duty.quests.sidequests.gridanian.south-shroud.65980",
-                "duty.quests.sidequests.uldahn.northern-thanalan.65551",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65554",
-                "duty.quests.sidequests.lominsan.western-la-noscea.65595"
+                "q.65757",
+                "q.65979",
+                "q.66224",
+                "q.66230",
+                "q.66228",
+                "q.65550",
+                "q.65552",
+                "q.65553",
+                "q.65980",
+                "q.65551",
+                "q.66232",
+                "q.66231",
+                "q.65554",
+                "q.65595"
             ],
             "patch": "4.31"
         },
@@ -211,18 +188,12 @@
             "level": 14,
             "name_en": "Good for What Ales You",
             "name_fr": "Danse avec les fous",
-            "unlock": "social.emotes.special.101",
+            "unlock": "e.101",
             "cPrevAny": true,
             "npc_en": "Dodozan",
             "npc_fr": "Dodozan",
-            "cPrev": [
-                66088,
-                66081,
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
-            ],
-            "cSiblings": [
-                "social.emotes.special.101"
-            ],
+            "cPrev": ["q.66088", "q.66081", "q.65985"],
+            "cSiblings": ["e.101"],
             "patch": "4.31"
         },
         "x66746": {
@@ -232,14 +203,8 @@
             "cPrevAny": true,
             "npc_en": "S'dhodjbi",
             "npc_fr": "S'dhodjbi",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.side-story.delivery-moogle.67109"
-            ],
+            "cPrev": ["q.66209", "q.66210", "q.66210"],
+            "cNext": ["q.67109"],
             "patch": "4.31"
         },
         "x66967": {
@@ -249,16 +214,29 @@
             "cPrevAny": true,
             "npc_en": "I'tolwann",
             "npc_fr": "I'tolwann",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
-            ],
-            "cNext": [
-                "duty.quests.other.quasi-quests.67925",
-                "duty.quests.other.quasi-quests.67926",
-                "duty.quests.other.quasi-quests.67927"
-            ],
+            "cPrev": ["q.66209", "q.66210", "q.66210"],
+            "cNext": ["q.67925", "q.67926", "q.67927"],
+            "patch": "4.31"
+        },
+        "x66969": {
+            "level": 17,
+            "name_en": "An Ill-conceived Venture",
+            "name_fr": "Chevalier servant (Limsa Lominsa)",
+            "npc_en": "Troubled Adventurer",
+            "npc_fr": "Aventurier Dans L'embarras",
+            "unlock_en": "Retainer Ventures",
+            "cExclude": ["q.66968", "q.66970"],
+            "patch": "4.31"
+        },
+        "x66237": {
+            "level": 20,
+            "name_en": "My Little Chocobo (Maelstrom)",
+            "name_fr": "À chacun sa monture (Limsa Lominsa)",
+            "unlock": "mo.1",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cNext": ["q.66698"],
+            "cExclude": ["q.66236", "q.66238"],
             "patch": "4.31"
         },
         "x70300": {
@@ -267,39 +245,8 @@
             "name_fr": "Fée déguisée",
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
-            ],
+            "cPrev": ["q.66633"],
             "patch": "6.4"
-        },
-        "x66969": {
-            "level": 17,
-            "name_en": "An Ill-conceived Venture",
-            "name_fr": "Chevalier servant (Limsa Lominsa)",
-            "npc_en": "Troubled Adventurer",
-            "npc_fr": "aventurier dans l'embarras",
-            "unlock_en": "Retainer Ventures",
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66968",
-                "duty.quests.sidequests.uldahn.uldah.66970"
-            ],
-            "patch": "4.31"
-        },
-        "x66237": {
-            "level": 20,
-            "name_en": "My Little Chocobo (Maelstrom)",
-            "name_fr": "À chacun sa monture (Limsa Lominsa)",
-            "unlock": "character.mount-guide.39",
-            "npc_en": "R'ashaht Rhiki",
-            "npc_fr": "R'ashaht Rhiki",
-            "cNext": [
-                "duty.quests.sidequests.gridanian.south-shroud.66698"
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66236",
-                "duty.quests.sidequests.uldahn.uldah.66238"
-            ],
-            "patch": "4.31"
         },
         "x66966": {
             "level": 50,
@@ -307,15 +254,9 @@
             "name_fr": "Des poissons de légende",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-the-land.fisher.66654"
-            ],
-            "cNext": [
-                65782
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.902"
-            ],
+            "cPrev": ["q.66654"],
+            "cNext": ["q.65782"],
+            "cSiblings": ["a.902"],
             "patch": "4.31"
         },
         "x65782": {
@@ -324,12 +265,8 @@
             "name_fr": "Une légende de la pêche",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [
-                66966
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1031"
-            ],
+            "cPrev": ["q.66966"],
+            "cSiblings": ["a.1031"],
             "patch": "4.31"
         },
         "x67896": {
@@ -338,35 +275,27 @@
             "name_fr": "Egi déguisé",
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic-job.summoner.66632"
-            ],
+            "cPrev": ["q.66632"],
             "patch": "4.31"
         },
         "x67737": {
             "level": 60,
             "name_en": "Things Are Getting Sirius",
             "name_fr": "L'appel du phare",
-            "unlock": "duty.dutyraid-finder.dungeons.hw.9",
+            "unlock": "d.40",
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205",
-                "duty.quests.sidequests.lominsan.western-la-noscea.66745"
-            ],
+            "cPrev": ["q.67205", "q.66745"],
             "patch": "4.31"
         },
         "x67784": {
             "level": 60,
             "name_en": "Storming the Hull",
             "name_fr": "Retour à Crèvecarène",
-            "unlock": "duty.dutyraid-finder.dungeons.hw.13",
+            "unlock": "d.172",
             "npc_en": "Denston",
             "npc_fr": "Denston",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67062"
-            ],
+            "cPrev": ["q.67205", "q.67062"],
             "patch": "4.31"
         }
     }

@@ -1,66 +1,49 @@
 {
     "key": "healer",
-    "groupName_en": "Healer",
-    "groupName_fr": "Soigneur",
+    "groupName": "@ROLE.HEALER",
     "tasks": {
         "x0": {
             "level": "15",
             "name_en": "Avoid Area of Effect Attacks",
             "name_fr": "Éviter les attaques à aire d'effet",
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
-            "cNext": [
-                1
-            ]
+            "role": "@ROLE.HEALER",
+            "cNext": [1],
+            "patch": "3.2"
         },
         "x1": {
             "level": "15",
             "name_en": "Heal an Ally",
             "name_fr": "Soigner un allié",
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "role": "@ROLE.HEALER",
+            "cPrev": [0],
+            "cNext": [2],
+            "patch": "3.2"
         },
         "x2": {
             "level": "15",
             "name_en": "Heal Multiple Allies",
             "name_fr": "Soigner plusieurs alliés",
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "role": "@ROLE.HEALER",
+            "cPrev": [1],
+            "cNext": [3],
+            "patch": "3.2"
         },
         "x3": {
             "level": "15",
             "name_en": "Avoid Engaged Targets",
             "name_fr": "Combattre en évitant les attaques ennemies",
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "role": "@ROLE.HEALER",
+            "cPrev": [2],
+            "cNext": [4],
+            "patch": "3.2"
         },
         "x4": {
             "level": "15",
             "name_en": "Final Exercise",
             "name_fr": "Exercice final",
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
-            "cPrev": [
-                3
-            ]
+            "role": "@ROLE.HEALER",
+            "cPrev": [3],
+            "patch": "3.2"
         }
     }
 }

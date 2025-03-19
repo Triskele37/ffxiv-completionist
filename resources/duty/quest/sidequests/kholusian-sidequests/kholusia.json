@@ -8,10 +8,8 @@
             "name_en": "Before the Tide Comes",
             "name_fr": "Souvenirs échoués",
             "npc_en": "Forlorn Fisherman",
-            "npc_fr": "pêcheur à l'air chagrin",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68819"
-            ],
+            "npc_fr": "Pêcheur À L'air Chagrin",
+            "cPrev": ["q.68819"],
             "patch": "5.0"
         },
         "x68886": {
@@ -20,9 +18,7 @@
             "name_fr": "Luttes territoriales",
             "npc_en": "Catty",
             "npc_fr": "Catty",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68819"
-            ],
+            "cPrev": ["q.68819"],
             "patch": "5.0"
         },
         "x68887": {
@@ -30,10 +26,8 @@
             "name_en": "A Clam to Die For",
             "name_fr": "Pour l'amour des fruits de mer",
             "npc_en": "Strong-willed Wife",
-            "npc_fr": "femme à forte personnalité",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68819"
-            ],
+            "npc_fr": "Femme À Forte Personnalité",
+            "cPrev": ["q.68819"],
             "patch": "5.0"
         },
         "x68888": {
@@ -41,10 +35,8 @@
             "name_en": "A Meating Long Overdue",
             "name_fr": "La viande, il n'y a que ça de vrai",
             "npc_en": "Unfulfilled Forager",
-            "npc_fr": "homme un peu crasseux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68820"
-            ],
+            "npc_fr": "Homme Un Peu Crasseux",
+            "cPrev": ["q.68820"],
             "patch": "5.0"
         },
         "x68889": {
@@ -53,9 +45,7 @@
             "name_fr": "Un parfum qui change la vie",
             "npc_en": "Tio-Reeq",
             "npc_fr": "Tio-Reeq",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68820"
-            ],
+            "cPrev": ["q.68820"],
             "patch": "5.0"
         },
         "x68890": {
@@ -63,10 +53,8 @@
             "name_en": "A Feeling in the Belly",
             "name_fr": "Des soins pour tous",
             "npc_en": "Worried Waif",
-            "npc_fr": "jeune fille indigente",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68820"
-            ],
+            "npc_fr": "Jeune Fille Indigente",
+            "cPrev": ["q.68820"],
             "patch": "5.0"
         },
         "x68891": {
@@ -74,10 +62,8 @@
             "name_en": "Songstress of the Sea",
             "name_fr": "La diva des mers",
             "npc_en": "Aspiring Songstress",
-            "npc_fr": "graine de prima donna",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68820"
-            ],
+            "npc_fr": "Graine De Prima Donna",
+            "cPrev": ["q.68820"],
             "patch": "5.0"
         },
         "x68892": {
@@ -85,10 +71,8 @@
             "name_en": "Witch of the Sea",
             "name_fr": "La sorcière des mers",
             "npc_en": "Forthright Farmer",
-            "npc_fr": "fermier consciencieux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
+            "npc_fr": "Fermier Consciencieux",
+            "cPrev": ["q.68821"],
             "patch": "5.0"
         },
         "x68893": {
@@ -97,9 +81,7 @@
             "name_fr": "Mauvaise graine",
             "npc_en": "Hastelot",
             "npc_fr": "Hastelot",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
+            "cPrev": ["q.68821"],
             "patch": "5.0"
         },
         "x68894": {
@@ -108,9 +90,7 @@
             "name_fr": "Les amants du vieux pont",
             "npc_en": "Moa-Mosch",
             "npc_fr": "Moa-Mosch",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
+            "cPrev": ["q.68821"],
             "patch": "5.0"
         },
         "x68895": {
@@ -118,10 +98,8 @@
             "name_en": "A Drop of Sunshine",
             "name_fr": "L'ale ou l'orge, il faut choisir",
             "npc_en": "Bonded Servant",
-            "npc_fr": "majordome maniéré",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
+            "npc_fr": "Majordome Maniéré",
+            "cPrev": ["q.68821"],
             "patch": "5.0"
         },
         "x68907": {
@@ -131,15 +109,9 @@
             "unlock": "travel.aether-currents.shb.kholusia.12",
             "npc_en": "Eueliss",
             "npc_fr": "Eueliss",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
-            "cNext": [
-                68908
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.kholusia.12"
-            ],
+            "cPrev": ["q.68821"],
+            "cNext": ["q.68908"],
+            "cSiblings": ["travel.aether-currents.shb.kholusia.12"],
             "patch": "5.0"
         },
         "x68908": {
@@ -148,12 +120,8 @@
             "name_fr": "Le talos égaré",
             "npc_en": "Eueliss",
             "npc_fr": "Eueliss",
-            "cPrev": [
-                68907
-            ],
-            "cNext": [
-                68909
-            ],
+            "cPrev": ["q.68907"],
+            "cNext": ["q.68909"],
             "patch": "5.0"
         },
         "x68909": {
@@ -162,12 +130,8 @@
             "name_fr": "Les fleurs du cap",
             "npc_en": "Eueliss",
             "npc_fr": "Eueliss",
-            "cPrev": [
-                68908
-            ],
-            "cNext": [
-                68910
-            ],
+            "cPrev": ["q.68908"],
+            "cNext": ["q.68910"],
             "patch": "5.0"
         },
         "x68910": {
@@ -176,12 +140,8 @@
             "name_fr": "Les champs de l'espoir",
             "npc_en": "Eueliss",
             "npc_fr": "Eueliss",
-            "cPrev": [
-                68909
-            ],
-            "cNext": [
-                69096
-            ],
+            "cPrev": ["q.68909"],
+            "cNext": ["q.69096"],
             "patch": "5.0"
         },
         "x68896": {
@@ -191,12 +151,8 @@
             "unlock": "travel.aether-currents.shb.kholusia.10",
             "npc_en": "Thenoise",
             "npc_fr": "Thenoise",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68821"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.kholusia.10"
-            ],
+            "cPrev": ["q.68821"],
+            "cSiblings": ["travel.aether-currents.shb.kholusia.10"],
             "patch": "5.0"
         },
         "x69080": {
@@ -205,9 +161,7 @@
             "name_fr": "Planter pour rêver",
             "npc_en": "Sylgran",
             "npc_fr": "Sylgran",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69170"
-            ],
+            "cPrev": ["q.69170"],
             "patch": "5.0"
         },
         "x69081": {
@@ -215,10 +169,8 @@
             "name_en": "Sisterly Concern",
             "name_fr": "Le souci d'une amie, la peur d'une sœur",
             "npc_en": "Restless Hunter",
-            "npc_fr": "femme aux allures de chasseuse",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69170"
-            ],
+            "npc_fr": "Femme Aux Allures De Chasseuse",
+            "cPrev": ["q.69170"],
             "patch": "5.0"
         },
         "x69079": {
@@ -227,12 +179,8 @@
             "name_fr": "Veiller aux grains",
             "npc_en": "Grawley",
             "npc_fr": "Grawley",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69170"
-            ],
-            "cNext": [
-                69074
-            ],
+            "cPrev": ["q.69170"],
+            "cNext": ["q.69074"],
             "patch": "5.0"
         },
         "x69074": {
@@ -241,10 +189,7 @@
             "name_fr": "Sus aux hobgobelins",
             "npc_en": "Grawley",
             "npc_fr": "Grawley",
-            "cPrev": [
-                69079,
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
+            "cPrev": ["q.69079", "q.69176"],
             "patch": "5.0"
         },
         "x69076": {
@@ -253,20 +198,16 @@
             "name_fr": "Du bois pour Amistie",
             "npc_en": "Jaimbert",
             "npc_fr": "Jaimbert",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
+            "cPrev": ["q.69176"],
             "patch": "5.0"
         },
         "x69078": {
             "level": 70,
-            "name_en": "Fresh Off the Wing",
+            "name_en": "Fresh off the Wing",
             "name_fr": "Les ailes protectrices",
             "npc_en": "Bie-Zumm",
             "npc_fr": "Bie-Zumm",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
+            "cPrev": ["q.69176"],
             "patch": "5.0"
         },
         "x69073": {
@@ -276,15 +217,9 @@
             "unlock": "travel.aether-currents.shb.kholusia.11",
             "npc_en": "Zumie-Shai",
             "npc_fr": "Zumie-Shai",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
-            "cNext": [
-                69077
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.kholusia.11"
-            ],
+            "cPrev": ["q.69176"],
+            "cNext": ["q.69077"],
+            "cSiblings": ["travel.aether-currents.shb.kholusia.11"],
             "patch": "5.0"
         },
         "x69077": {
@@ -292,10 +227,8 @@
             "name_en": "Rising to Her Apology",
             "name_fr": "Quand le voile se lève",
             "npc_en": "Well-dressed Noblewoman",
-            "npc_fr": "Eulmorienne élégante",
-            "cPrev": [
-                69073
-            ],
+            "npc_fr": "Eulmorienne Élégante",
+            "cPrev": ["q.69073"],
             "patch": "5.0"
         },
         "x69075": {
@@ -304,9 +237,7 @@
             "name_fr": "Gêné par les Gogg",
             "npc_en": "Walmet",
             "npc_fr": "Walmet",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
+            "cPrev": ["q.69176"],
             "patch": "5.0"
         },
         "x69082": {
@@ -314,10 +245,8 @@
             "name_en": "A Rocky Relationship",
             "name_fr": "Une amitié dure comme pierre",
             "npc_en": "Wild-looking Waif",
-            "npc_fr": "garçon audacieux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69176"
-            ],
+            "npc_fr": "Garçon Audacieux",
+            "cPrev": ["q.69176"],
             "patch": "5.0"
         },
         "x69083": {
@@ -325,10 +254,8 @@
             "name_en": "Too Sweet to Eat",
             "name_fr": "Un filet trop mignon",
             "npc_en": "Tholl Gourmand",
-            "npc_fr": "Nain gourmet",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "npc_fr": "Nain Gourmet",
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69084": {
@@ -337,9 +264,7 @@
             "name_fr": "Le soulèvement de la machine",
             "npc_en": "Rakitt",
             "npc_fr": "Rakitt",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69085": {
@@ -348,9 +273,7 @@
             "name_fr": "Les explosifs, ça pète!",
             "npc_en": "Giritt",
             "npc_fr": "Giritt",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69086": {
@@ -358,10 +281,8 @@
             "name_en": "Distract and Rescue",
             "name_fr": "Opération sauvetage d'automate",
             "npc_en": "Tholl Tinkerer",
-            "npc_fr": "Nain féru d'automates",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "npc_fr": "Nain Féru D'automates",
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69087": {
@@ -370,9 +291,7 @@
             "name_fr": "Le baume de Bomott",
             "npc_en": "Bomott",
             "npc_fr": "Bomott",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69088": {
@@ -380,10 +299,8 @@
             "name_en": "Short on Courage",
             "name_fr": "Un Nain qui a le béguin",
             "npc_en": "Lovelorn Townsdwarf",
-            "npc_fr": "Nain embarrassé",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "npc_fr": "Nain Embarrassé",
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69089": {
@@ -392,9 +309,7 @@
             "name_fr": "Freiner les frappeurs faucheurs",
             "npc_en": "Gratt",
             "npc_fr": "Gratt",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69090": {
@@ -402,10 +317,8 @@
             "name_en": "Goggeo and Tholliet",
             "name_fr": "Goggméo et Tholliette",
             "npc_en": "Concerned Townsdwarf",
-            "npc_fr": "Nain soucieux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "npc_fr": "Nain Soucieux",
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69091": {
@@ -414,9 +327,7 @@
             "name_fr": "En l'honneur de Zigutt",
             "npc_en": "Riott",
             "npc_fr": "Riott",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
+            "cPrev": ["q.69173"],
             "patch": "5.0"
         },
         "x69097": {
@@ -425,12 +336,8 @@
             "name_fr": "La tradition du brassage",
             "npc_en": "Xorutt",
             "npc_fr": "Xorutt",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
-            "cNext": [
-                69098
-            ],
+            "cPrev": ["q.69173"],
+            "cNext": ["q.69098"],
             "patch": "5.0"
         },
         "x69098": {
@@ -439,12 +346,8 @@
             "name_fr": "L'accompagnement idéal de l'ale",
             "npc_en": "Xorutt",
             "npc_fr": "Xorutt",
-            "cPrev": [
-                69097
-            ],
-            "cNext": [
-                69099
-            ],
+            "cPrev": ["q.69097"],
+            "cNext": ["q.69099"],
             "patch": "5.0"
         },
         "x69099": {
@@ -453,9 +356,7 @@
             "name_fr": "Trinquer tous en cœur",
             "npc_en": "Xorutt",
             "npc_fr": "Xorutt",
-            "cPrev": [
-                69098
-            ],
+            "cPrev": ["q.69098"],
             "patch": "5.0"
         },
         "x69092": {
@@ -465,15 +366,9 @@
             "unlock": "travel.aether-currents.shb.kholusia.13",
             "npc_en": "Beott",
             "npc_fr": "Beott",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69173"
-            ],
-            "cNext": [
-                69093
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.kholusia.13"
-            ],
+            "cPrev": ["q.69173"],
+            "cNext": ["q.69093"],
+            "cSiblings": ["travel.aether-currents.shb.kholusia.13"],
             "patch": "5.0"
         },
         "x69093": {
@@ -482,12 +377,8 @@
             "name_fr": "Échec et automates",
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
-            "cPrev": [
-                69092
-            ],
-            "cNext": [
-                69094
-            ],
+            "cPrev": ["q.69092"],
+            "cNext": ["q.69094"],
             "patch": "5.0"
         },
         "x69094": {
@@ -496,12 +387,8 @@
             "name_fr": "L'entraînement au lali-ho",
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
-            "cPrev": [
-                69093
-            ],
-            "cNext": [
-                69095
-            ],
+            "cPrev": ["q.69093"],
+            "cNext": ["q.69095"],
             "patch": "5.0"
         },
         "x69095": {
@@ -510,16 +397,11 @@
             "name_fr": "Le nouveau Ronitt",
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
-            "cPrev": [
-                69094
-            ],
-            "cNext": [
-                69096
-            ],
-            "cSiblings": [
-                "social.emotes.general.199"
-            ],
-            "patch": "5.0"
+            "cPrev": ["q.69094"],
+            "cNext": ["q.69096"],
+            "cSiblings": ["e.199"],
+            "patch": "5.0",
+            "unlock": "e.199"
         },
         "x69096": {
             "level": 70,
@@ -527,13 +409,8 @@
             "name_fr": "Un Nain à Cherpant",
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
-            "cPrev": [
-                68910,
-                69095
-            ],
-            "cNext": [
-                "duty.quests.tribal-quests.dwarf.69432"
-            ],
+            "cPrev": ["q.68910", "q.69095"],
+            "cNext": ["q.69432"],
             "patch": "5.0"
         }
     }

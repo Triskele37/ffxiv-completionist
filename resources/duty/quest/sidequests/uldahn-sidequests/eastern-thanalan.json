@@ -10,11 +10,7 @@
             "cPrevAny": true,
             "npc_en": "Poponagu",
             "npc_fr": "Poponagu",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66160": {
@@ -23,21 +19,7 @@
             "name_fr": "Le dernier repas",
             "npc_en": "Tutusi",
             "npc_fr": "Tutusi",
-            "cNext": [
-                66166,
-                66173
-            ],
-            "patch": "4.31"
-        },
-        "x66173": {
-            "level": 17,
-            "name_en": "Green Thumb",
-            "name_fr": "Avoir la main verte",
-            "npc_en": "Jospaire",
-            "npc_fr": "Jospaire",
-            "cPrev": [
-                66160
-            ],
+            "cNext": ["q.66166", "q.66173"],
             "patch": "4.31"
         },
         "x66166": {
@@ -46,42 +28,16 @@
             "name_fr": "Un goobbue à la main verte",
             "npc_en": "Tutusi",
             "npc_fr": "Tutusi",
-            "cPrev": [
-                66160
-            ],
+            "cPrev": ["q.66160"],
             "patch": "4.31"
         },
-        "x66165": {
-            "level": 18,
-            "name_en": "Honoring the Dead",
-            "name_fr": "L'amour d'un frère",
-            "npc_en": "Eaduuard",
-            "npc_fr": "Eaduuard",
-            "cPrev": [
-                66162
-            ],
-            "patch": "4.31"
-        },
-        "x66162": {
-            "level": 18,
-            "name_en": "Buzzing at Church",
-            "name_fr": "À réveiller les morts",
-            "npc_en": "Esmour",
-            "npc_fr": "Esmour",
-            "cNext": [
-                66165
-            ],
-            "patch": "4.31"
-        },
-        "x66178": {
-            "level": 18,
-            "name_en": "Dead Bodies Everywhere",
-            "name_fr": "J'irai nettoyer vos tombes",
-            "npc_en": "Airell",
-            "npc_fr": "Airell",
-            "cNext": [
-                66163
-            ],
+        "x66173": {
+            "level": 17,
+            "name_en": "Green Thumb",
+            "name_fr": "Avoir la main verte",
+            "npc_en": "Jospaire",
+            "npc_fr": "Jospaire",
+            "cPrev": ["q.66160"],
             "patch": "4.31"
         },
         "x66161": {
@@ -90,9 +46,16 @@
             "name_fr": "Pas de pitié pour les hourets",
             "npc_en": "Caitlyn",
             "npc_fr": "Caitlyn",
-            "cNext": [
-                66167
-            ],
+            "cNext": ["q.66167"],
+            "patch": "4.31"
+        },
+        "x66162": {
+            "level": 18,
+            "name_en": "Buzzing at Church",
+            "name_fr": "À réveiller les morts",
+            "npc_en": "Esmour",
+            "npc_fr": "Esmour",
+            "cNext": ["q.66165"],
             "patch": "4.31"
         },
         "x66163": {
@@ -101,9 +64,25 @@
             "name_fr": "Fleuriste d'un jour",
             "npc_en": "Airell",
             "npc_fr": "Airell",
-            "cPrev": [
-                66178
-            ],
+            "cPrev": ["q.66178"],
+            "patch": "4.31"
+        },
+        "x66165": {
+            "level": 18,
+            "name_en": "Honoring the Dead",
+            "name_fr": "L'amour d'un frère",
+            "npc_en": "Eaduuard",
+            "npc_fr": "Eaduuard",
+            "cPrev": ["q.66162"],
+            "patch": "4.31"
+        },
+        "x66178": {
+            "level": 18,
+            "name_en": "Dead Bodies Everywhere",
+            "name_fr": "J'irai nettoyer vos tombes",
+            "npc_en": "Airell",
+            "npc_fr": "Airell",
+            "cNext": ["q.66163"],
             "patch": "4.31"
         },
         "x66167": {
@@ -112,13 +91,8 @@
             "name_fr": "Animation au Bazar doré",
             "npc_en": "Caitlyn",
             "npc_fr": "Caitlyn",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66156",
-                66161
-            ],
-            "cNext": [
-                66168
-            ],
+            "cPrev": ["q.66156", "q.66161"],
+            "cNext": ["q.66168"],
             "patch": "4.31"
         },
         "x66168": {
@@ -127,12 +101,8 @@
             "name_fr": "Permis de construire",
             "npc_en": "Beneger",
             "npc_fr": "Beneger",
-            "cPrev": [
-                66167
-            ],
-            "cNext": [
-                66170
-            ],
+            "cPrev": ["q.66167"],
+            "cNext": ["q.66170"],
             "patch": "4.31"
         },
         "x66169": {
@@ -141,9 +111,7 @@
             "name_fr": "Des mineurs imp-ressionnables",
             "npc_en": "Lululo",
             "npc_fr": "Lululo",
-            "cNext": [
-                66171
-            ],
+            "cNext": ["q.66171"],
             "patch": "4.31"
         },
         "x66170": {
@@ -152,9 +120,7 @@
             "name_fr": "La brillance de l'espoir",
             "npc_en": "Beneger",
             "npc_fr": "Beneger",
-            "cPrev": [
-                66168
-            ],
+            "cPrev": ["q.66168"],
             "patch": "4.31"
         },
         "x66171": {
@@ -163,20 +129,16 @@
             "name_fr": "Mettre à terre les élémentaires",
             "npc_en": "Lululo",
             "npc_fr": "Lululo",
-            "cPrev": [
-                66169
-            ],
+            "cPrev": ["q.66169"],
             "patch": "4.31"
         },
         "x66285": {
             "level": 24,
             "name_en": "Strawman Defense",
             "name_fr": "Un travail d'épouvantail",
-            "npc_en": "Claudien",
+            "npc_en": "Claudian",
             "npc_fr": "Claudien",
-            "cNext": [
-                66289
-            ],
+            "cNext": ["q.66289"],
             "patch": "4.31"
         },
         "x66286": {
@@ -185,9 +147,7 @@
             "name_fr": "Des volants gênants",
             "npc_en": "Gogoshu",
             "npc_fr": "Gogoshu",
-            "cNext": [
-                66290
-            ],
+            "cNext": ["q.66290"],
             "patch": "4.31"
         },
         "x66287": {
@@ -196,20 +156,16 @@
             "name_fr": "À un cheveu près",
             "npc_en": "Helmhart",
             "npc_fr": "Helmhart",
-            "cNext": [
-                66493
-            ],
+            "cNext": ["q.66493"],
             "patch": "4.31"
         },
         "x66289": {
             "level": 25,
             "name_en": "Scholarly Funds",
             "name_fr": "Des fonds pour la science",
-            "npc_en": "Claudien",
+            "npc_en": "Claudian",
             "npc_fr": "Claudien",
-            "cPrev": [
-                66285
-            ],
+            "cPrev": ["q.66285"],
             "patch": "4.31"
         },
         "x66290": {
@@ -218,12 +174,8 @@
             "name_fr": "Pèlerins en péril",
             "npc_en": "Kyokyozo",
             "npc_fr": "Kyokyozo",
-            "cPrev": [
-                66286
-            ],
-            "cNext": [
-                66291
-            ],
+            "cPrev": ["q.66286"],
+            "cNext": ["q.66291"],
             "patch": "4.31"
         },
         "x66291": {
@@ -232,9 +184,7 @@
             "name_fr": "Signez la pétition!",
             "npc_en": "Kyokyozo",
             "npc_fr": "Kyokyozo",
-            "cPrev": [
-                66290
-            ],
+            "cPrev": ["q.66290"],
             "patch": "4.31"
         },
         "x66409": {
@@ -243,9 +193,7 @@
             "name_fr": "Désinsectiser Désespérance",
             "npc_en": "Iliud",
             "npc_fr": "Iliud",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66053"
-            ],
+            "cPrev": ["q.66053"],
             "patch": "4.31"
         },
         "x66410": {
@@ -254,12 +202,8 @@
             "name_fr": "Visite au goobbue",
             "npc_en": "Barryn",
             "npc_fr": "Barryn",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66053"
-            ],
-            "cNext": [
-                66411
-            ],
+            "cPrev": ["q.66053"],
+            "cNext": ["q.66411"],
             "patch": "4.31"
         },
         "x66411": {
@@ -268,9 +212,7 @@
             "name_fr": "Au nom du père",
             "npc_en": "Barryn",
             "npc_fr": "Barryn",
-            "cPrev": [
-                66410
-            ],
+            "cPrev": ["q.66410"],
             "patch": "4.31"
         },
         "x66415": {
@@ -279,9 +221,7 @@
             "name_fr": "Parent en retard",
             "npc_en": "Fuandrec",
             "npc_fr": "Fuandrec",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66053"
-            ],
+            "cPrev": ["q.66053"],
             "patch": "4.31"
         },
         "x66416": {
@@ -290,9 +230,7 @@
             "name_fr": "Manque de tissu",
             "npc_en": "Dedeju",
             "npc_fr": "Dedeju",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66053"
-            ],
+            "cPrev": ["q.66053"],
             "patch": "4.31"
         },
         "x66493": {
@@ -301,9 +239,7 @@
             "name_fr": "Catastrophe capillaire",
             "npc_en": "Helmhart",
             "npc_fr": "Helmhart",
-            "cPrev": [
-                66287
-            ],
+            "cPrev": ["q.66287"],
             "patch": "4.31"
         },
         "x66494": {

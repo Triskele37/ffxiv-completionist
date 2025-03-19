@@ -1,0 +1,157 @@
+{
+    "key": "record",
+    "groupName_en": "Record",
+    "groupName_fr": "Enregistrement",
+    "headers": {
+        "entry": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "steps": {
+            "header_en": "Steps",
+            "header_fr": "Étapes"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Whom the Silkie Serves",
+            "name_fr": "C’est du propre !",
+            "patch": "6.25",
+            "entry": "1",
+            "steps_en": [
+                "Take the left path",
+                "Complete the eyes puzzle successfully",
+                "Open the hidden door before Nanamo opens the gate"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de gauche",
+                "Réussir le puzzle des sacs",
+                "Ouvrir la porte cachée avant que Nanamo n'ouvre le portail"
+            ]
+        },
+        "x1": {
+            "name_en": "Pride and Acceptance",
+            "name_fr": "Une question de fierté",
+            "patch": "6.25",
+            "entry": "2",
+            "steps_en": ["Take the left path", "Complete the eyes puzzle successfully", "Do not open the hidden door"],
+            "steps_fr": ["Prendre le chemin de gauche", "Réussir le puzzle des sacs", "Ne pas ouvrir pas la porte cachée"]
+        },
+        "x2": {
+            "name_en": "A Spot in the Sunlight",
+            "name_fr": "À deux, au soleil",
+            "patch": "6.25",
+            "entry": "3",
+            "steps_en": ["Take the left path", "Fail the eyes puzzle", "Get hit by cotton spores"],
+            "steps_fr": ["Prendre le chemin de gauche", "Rater le puzzle des sacs", "Marcher sur les spores de pissenlit"]
+        },
+        "x3": {
+            "name_en": "A Key Memory",
+            "name_fr": "La clef des souvenirs",
+            "patch": "6.25",
+            "entry": "4",
+            "steps_en": ["Take the left path", "Fail the eyes puzzle", "Do not get hit by cotton spores"],
+            "steps_fr": ["Prendre le chemin de gauche", "Rater le puzzle des sacs", "Éviter les spores de pissenlit"]
+        },
+        "x4": {
+            "name_en": "In Father's Stead",
+            "name_fr": "Un combat politique",
+            "patch": "6.25",
+            "entry": "5",
+            "steps_en": ["Take the right path", "Take the left lift", "Choose \"The blessed spark\""],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le monte-charge de gauche",
+                "Choisir \"La flamme du courage\""
+            ]
+        },
+        "x5": {
+            "name_en": "Ul'dah's Sin to Bear",
+            "name_fr": "Le poids du péché",
+            "patch": "6.25",
+            "entry": "6",
+            "steps_en": ["Take the right path", "Take the left lift", "Choose \"The sacred fire\""],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le monte-charge de gauche",
+                "Choisir \"La flamme de la guerre\""
+            ]
+        },
+        "x6": {
+            "name_en": "To Learn More of Myrrh",
+            "name_fr": "Des prières au parfum de myrrhe",
+            "patch": "6.25",
+            "entry": "7",
+            "steps_en": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le monte-charge de droite",
+                "Éliminer les drakes du plus grand au plus petit",
+                "Interagir avec le bloc de résine de myrrhe"
+            ]
+        },
+        "x7": {
+            "name_en": "Ul'dah and Sil'dih",
+            "name_fr": "Ul’dah et Sil’dih",
+            "patch": "6.25",
+            "entry": "8",
+            "steps_en": ["Take the middle path", "Fail the scale puzzle", "Use the right lever"],
+            "steps_fr": ["Prendre le chemin du milieu", "Rater le puzzle de la balance", "Utiliser le levier de droite"]
+        },
+        "x8": {
+            "name_en": "Raising the Flags",
+            "name_fr": "Drapeaux et symboles",
+            "patch": "6.25",
+            "entry": "9",
+            "steps_en": ["Take the middle path", "Fail the scale puzzle", "Use the left lever"],
+            "steps_fr": ["Prendre le chemin du milieu", "Rater le puzzle de la balance", "Utiliser le levier de gauche"]
+        },
+        "x9": {
+            "name_en": "My Mother's Eyes",
+            "name_fr": "Les yeux de Mère",
+            "patch": "6.25",
+            "entry": "10",
+            "steps_en": ["Take the middle path", "Complete the scale puzzle successfully", "Interact with the Nald statue"],
+            "steps_fr": ["Prendre le chemin du milieu", "Réussir le puzzle de la balance", "Intéragir avec la statue de Nald"]
+        },
+        "x10": {
+            "name_en": "The Thorne Legacy",
+            "name_fr": "Le trésor des Thorne",
+            "patch": "6.25",
+            "entry": "11",
+            "steps_en": ["Take the middle path", "Complete the scale puzzle successfully", "Interact with the Thal statue"],
+            "steps_fr": ["Prendre le chemin du milieu", "Réussir le puzzle de la balance", "Intéragir avec la statue de Thal"]
+        },
+        "x11": {
+            "name_en": "In Parchment We Trust",
+            "name_fr": "Le message du cœur",
+            "patch": "6.25",
+            "entry": "12",
+            "steps_en": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner",
+                "Perform /bow, /respect, /vpose, and /kneel at the sarcophagus"
+            ],
+            "steps_fr": [
+                "Prendre le chemin de droite",
+                "Prendre le monte-charge de droite",
+                "Éliminer les drakes du plus grand au plus petit",
+                "Interagir avec le bloc de résine de myrrhe",
+                "Cibler le Mausolée du héros trépassé et effectuer les actions suivantes : /révérence, /serecueillir, /seréjouirdelavictoire  et /àgenoux"
+            ]
+        }
+    }
+}

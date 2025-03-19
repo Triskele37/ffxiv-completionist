@@ -1,0 +1,78 @@
+{
+    "key": "post-dawntrail-main-scenario-quests",
+    "groupName_en": "Post-Dawntrail Main Scenario Quests",
+    "groupName_fr": "Chroniques de l'aurore - Épilogue",
+    "tasks": {
+        "x70780": {
+            "cNext": ["q.70781"],
+            "cPrev": ["q.70495"],
+            "level": 100,
+            "name_en": "A Royal Invitation",
+            "name_fr": "Des nouvelles d'Alexandrie",
+            "npc_en": "Bol Wuruq",
+            "npc_fr": "Bol Wuruq",
+            "patch": "7.1"
+        },
+        "x70781": {
+            "cNext": ["q.70782"],
+            "cPrev": ["q.70780"],
+            "level": 100,
+            "name_en": "Alexandria Mourns",
+            "name_fr": "Désarroi déjà roi",
+            "npc_en": "Gulool Ja",
+            "npc_fr": "Gulool Ja",
+            "patch": "7.1"
+        },
+        "x70782": {
+            "cNext": ["q.70783"],
+            "cPrev": ["q.70781"],
+            "level": 100,
+            "name_en": "In Search of the Past",
+            "name_fr": "La quête de Gulool Ja",
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "unlock": "d.1008",
+            "patch": "7.1"
+        },
+        "x70783": {
+            "cNext": ["q.70784"],
+            "cPrev": ["q.70782"],
+            "level": 100,
+            "name_en": "Among the Abandoned",
+            "name_fr": "Le centre abandonné",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.1"
+        },
+        "x70784": {
+            "cNext": ["q.70785"],
+            "cPrev": ["q.70783"],
+            "level": 100,
+            "name_en": "Guidance of the Hhetso",
+            "name_fr": "Connaître les hhetso",
+            "npc_en": "Geode",
+            "npc_fr": "Geode",
+            "patch": "7.1"
+        },
+        "x70785": {
+            "cNext": ["q.70775", "q.70786"],
+            "cPrev": ["q.70784"],
+            "level": 100,
+            "name_en": "The Warmth of Family",
+            "name_fr": "Famille et responsabilités",
+            "npc_en": "Koana",
+            "npc_fr": "Koana",
+            "patch": "7.1"
+        },
+        "x70786": {
+            "cPrev": ["q.70785"],
+            "cSiblings": ["a.3607"],
+            "level": 100,
+            "name_en": "Crossroads",
+            "name_fr": "Au seuil de l'inconnu",
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.1"
+        }
+    }
+}

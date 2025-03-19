@@ -10,12 +10,8 @@
             "unlock": "travel.aether-currents.sb.yanxia.13",
             "npc_en": "Fukata",
             "npc_fr": "Fukata",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68029"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.yanxia.13"
-            ],
+            "cPrev": ["q.68029"],
+            "cSiblings": ["travel.aether-currents.sb.yanxia.13"],
             "patch": "4.31"
         },
         "x68261": {
@@ -24,9 +20,7 @@
             "name_fr": "Sous la rizière, les pierres",
             "npc_en": "Hojo",
             "npc_fr": "Hojo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68029"
-            ],
+            "cPrev": ["q.68029"],
             "patch": "4.31"
         },
         "x68264": {
@@ -36,12 +30,8 @@
             "unlock": "travel.aether-currents.sb.yanxia.12",
             "npc_en": "Honami",
             "npc_fr": "Honami",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68029"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.yanxia.12"
-            ],
+            "cPrev": ["q.68029"],
+            "cSiblings": ["travel.aether-currents.sb.yanxia.12"],
             "patch": "4.31"
         },
         "x68265": {
@@ -50,9 +40,7 @@
             "name_fr": "Les belettes tiennent le bambou",
             "npc_en": "Aohata",
             "npc_fr": "Aohata",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68029"
-            ],
+            "cPrev": ["q.68029"],
             "patch": "4.31"
         },
         "x68267": {
@@ -61,9 +49,7 @@
             "name_fr": "Un phacochère dans la rizière",
             "npc_en": "Shinden",
             "npc_fr": "Shinden",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030"
-            ],
+            "cPrev": ["q.68030"],
             "patch": "4.31"
         },
         "x68268": {
@@ -72,9 +58,7 @@
             "name_fr": "Fringale de loup",
             "npc_en": "Masatsuchi",
             "npc_fr": "Masatsuchi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030"
-            ],
+            "cPrev": ["q.68030"],
             "patch": "4.31"
         },
         "x68269": {
@@ -84,12 +68,8 @@
             "unlock": "travel.aether-currents.sb.yanxia.10",
             "npc_en": "Ryosen",
             "npc_fr": "Ryosen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.yanxia.10"
-            ],
+            "cPrev": ["q.68030"],
+            "cSiblings": ["travel.aether-currents.sb.yanxia.10"],
             "patch": "4.31"
         },
         "x68266": {
@@ -99,15 +79,9 @@
             "unlock": "travel.aether-currents.sb.yanxia.11",
             "npc_en": "Kohagi",
             "npc_fr": "Kohagi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030"
-            ],
-            "cNext": [
-                68262
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.yanxia.11"
-            ],
+            "cPrev": ["q.68030"],
+            "cNext": ["q.68262"],
+            "cSiblings": ["travel.aether-currents.sb.yanxia.11"],
             "patch": "4.31"
         },
         "x68262": {
@@ -116,13 +90,8 @@
             "name_fr": "Les mâchoires du vieux renard",
             "npc_en": "Sentei",
             "npc_fr": "Sentei",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030",
-                68266
-            ],
-            "cNext": [
-                68263
-            ],
+            "cPrev": ["q.68030", "q.68266"],
+            "cNext": ["q.68263"],
             "patch": "4.31"
         },
         "x68263": {
@@ -131,10 +100,7 @@
             "name_fr": "Travail de couple",
             "npc_en": "Sentei",
             "npc_fr": "Sentei",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68030",
-                68262
-            ],
+            "cPrev": ["q.68030", "q.68262"],
             "patch": "4.31"
         },
         "x68271": {
@@ -142,10 +108,8 @@
             "name_en": "Dearest Keiko",
             "name_fr": "La jeune fille au bord du lac",
             "npc_en": "Mauled Man",
-            "npc_fr": "cadavre mutilé",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035"
-            ],
+            "npc_fr": "Cadavre Mutilé",
+            "cPrev": ["q.68035"],
             "patch": "4.31"
         },
         "x68272": {
@@ -154,12 +118,8 @@
             "name_fr": "Un cas désespéré",
             "npc_en": "Fukudo",
             "npc_fr": "Fukudo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035"
-            ],
-            "cNext": [
-                68273
-            ],
+            "cPrev": ["q.68035"],
+            "cNext": ["q.68273"],
             "patch": "4.31"
         },
         "x68273": {
@@ -168,13 +128,8 @@
             "name_fr": "Un mental d'acier",
             "npc_en": "Fukudo",
             "npc_fr": "Fukudo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68272
-            ],
-            "cNext": [
-                68274
-            ],
+            "cPrev": ["q.68035", "q.68272"],
+            "cNext": ["q.68274"],
             "patch": "4.31"
         },
         "x68274": {
@@ -183,13 +138,8 @@
             "name_fr": "Éliminer les mauvaises herbes",
             "npc_en": "Fukudo",
             "npc_fr": "Fukudo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68273
-            ],
-            "cNext": [
-                68275
-            ],
+            "cPrev": ["q.68035", "q.68273"],
+            "cNext": ["q.68275"],
             "patch": "4.31"
         },
         "x68275": {
@@ -198,13 +148,8 @@
             "name_fr": "Trouver sa place dans la société",
             "npc_en": "Kurobana",
             "npc_fr": "Kurobana",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68274
-            ],
-            "cNext": [
-                68276
-            ],
+            "cPrev": ["q.68035", "q.68274"],
+            "cNext": ["q.68276"],
             "patch": "4.31"
         },
         "x68270": {
@@ -213,18 +158,8 @@
             "name_fr": "Quand les poissons auront des arbres",
             "npc_en": "Ochimi",
             "npc_fr": "Ochimi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035"
-            ],
-            "cNext": [
-                68278,
-                68279,
-                68277,
-                68281,
-                68282,
-                68284,
-                68280
-            ],
+            "cPrev": ["q.68035"],
+            "cNext": ["q.68278", "q.68279", "q.68277", "q.68281", "q.68282", "q.68284", "q.68280"],
             "patch": "4.31"
         },
         "x68277": {
@@ -233,10 +168,7 @@
             "name_fr": "À consommer avec modération",
             "npc_en": "Gyoku",
             "npc_fr": "Gyoku",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68278": {
@@ -245,10 +177,7 @@
             "name_fr": "Une histoire de grelots",
             "npc_en": "Gyoen",
             "npc_fr": "Gyoen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68279": {
@@ -257,10 +186,7 @@
             "name_fr": "Avis de recherche",
             "npc_en": "Gyoboku",
             "npc_fr": "Gyoboku",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68280": {
@@ -268,11 +194,8 @@
             "name_en": "Not Just Any Vase",
             "name_fr": "L'urne volée",
             "npc_en": "Hard-whiskered Namazu",
-            "npc_fr": "Namazu déterminé",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "npc_fr": "Namazu Déterminé",
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68281": {
@@ -281,10 +204,7 @@
             "name_fr": "Les grosses têtes",
             "npc_en": "Gyoei",
             "npc_fr": "Gyoei",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68282": {
@@ -292,11 +212,8 @@
             "name_en": "By Our Powers Combined",
             "name_fr": "Introduction à la barbidétection",
             "npc_en": "Old Namazu Master",
-            "npc_fr": "vieux maître namazu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
+            "npc_fr": "Vieux Maître Namazu",
+            "cPrev": ["q.68035", "q.68270"],
             "patch": "4.31"
         },
         "x68284": {
@@ -305,13 +222,8 @@
             "name_fr": "Le petit marchand qui bâtit un empire",
             "npc_en": "Gyorin",
             "npc_fr": "Gyorin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68270
-            ],
-            "cNext": [
-                68285
-            ],
+            "cPrev": ["q.68035", "q.68270"],
+            "cNext": ["q.68285"],
             "patch": "4.31"
         },
         "x68285": {
@@ -320,13 +232,8 @@
             "name_fr": "Faire contre mauvaise fortune bon cœur",
             "npc_en": "Gyorin",
             "npc_fr": "Gyorin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68284
-            ],
-            "cNext": [
-                68286
-            ],
+            "cPrev": ["q.68035", "q.68284"],
+            "cNext": ["q.68286"],
             "patch": "4.31"
         },
         "x68286": {
@@ -335,13 +242,8 @@
             "name_fr": "Pris à son propre piège",
             "npc_en": "Gyorin",
             "npc_fr": "Gyorin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68285
-            ],
-            "cNext": [
-                68287
-            ],
+            "cPrev": ["q.68035", "q.68285"],
+            "cNext": ["q.68287"],
             "patch": "4.31"
         },
         "x68287": {
@@ -350,13 +252,8 @@
             "name_fr": "La fortune sourit aux audacieux",
             "npc_en": "Gyorin",
             "npc_fr": "Gyorin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68286
-            ],
-            "cNext": [
-                68283
-            ],
+            "cPrev": ["q.68035", "q.68286"],
+            "cNext": ["q.68283"],
             "patch": "4.31"
         },
         "x68283": {
@@ -365,13 +262,8 @@
             "name_fr": "Quiproquo",
             "npc_en": "Gyoshu",
             "npc_fr": "Gyoshu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68287
-            ],
-            "cNext": [
-                68276
-            ],
+            "cPrev": ["q.68035", "q.68287"],
+            "cNext": ["q.68276"],
             "patch": "4.31"
         },
         "x68276": {
@@ -380,14 +272,8 @@
             "name_fr": "Marché conclu",
             "npc_en": "Kurobana",
             "npc_fr": "Kurobana",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68035",
-                68275,
-                68283
-            ],
-            "cNext": [
-                "duty.quests.tribal-quests.namazu.68632"
-            ],
+            "cPrev": ["q.68035", "q.68275", "q.68283"],
+            "cNext": ["q.68632"],
             "patch": "4.31"
         },
         "x68340": {
@@ -395,10 +281,8 @@
             "name_en": "Assistants Anonymous",
             "name_fr": "Informateurs incognito",
             "npc_en": "Auri Samurai",
-            "npc_fr": "femme samouraï aoranne",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "npc_fr": "Femme Samouraï Aoranne",
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68341": {
@@ -407,9 +291,7 @@
             "name_fr": "La légende du lac aux Prismes",
             "npc_en": "Yagoro",
             "npc_fr": "Yagoro",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68342": {
@@ -418,9 +300,7 @@
             "name_fr": "Un cadeau qui prend aux tripes",
             "npc_en": "Haname",
             "npc_fr": "Haname",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68343": {
@@ -428,10 +308,8 @@
             "name_en": "Forgotten Resolve",
             "name_fr": "La promesse oubliée",
             "npc_en": "Spineless Soldier",
-            "npc_fr": "Intrépide timoré",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "npc_fr": "Intrépide Timoré",
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68344": {
@@ -439,10 +317,8 @@
             "name_en": "Wine for the Road",
             "name_fr": "Le saké du souvenir",
             "npc_en": "Stalwart Soldier",
-            "npc_fr": "Intrépide vaillant",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "npc_fr": "Intrépide Vaillant",
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68345": {
@@ -450,10 +326,8 @@
             "name_en": "An Eye for an Emblem",
             "name_fr": "Sous le signe du ginkgo",
             "npc_en": "Slight Soldier",
-            "npc_fr": "Intrépide aux traits fins",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "npc_fr": "Intrépide Aux Traits Fins",
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68346": {
@@ -462,9 +336,7 @@
             "name_fr": "La douleur d'un père",
             "npc_en": "Motojiro",
             "npc_fr": "Motojiro",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         },
         "x68347": {
@@ -472,10 +344,8 @@
             "name_en": "A View to a Spill",
             "name_fr": "Filature au sommet",
             "npc_en": "Sharp-eyed Samurai",
-            "npc_fr": "femme samouraï observatrice",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68482"
-            ],
+            "npc_fr": "Femme Samouraï Observatrice",
+            "cPrev": ["q.68482"],
             "patch": "4.31"
         }
     }

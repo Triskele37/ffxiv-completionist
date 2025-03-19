@@ -1,0 +1,46 @@
+{
+    "key": "sildihn-subterrane",
+    "groupName_en": "Sil'dihn Subterrane",
+    "groupName_fr": "Canalisations sildiennes",
+    "order": ["record"],
+    "headers": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x868": {
+            "level": "90",
+            "name_en": "The Sil'dihn Subterrane",
+            "name_fr": "Les canalisations sildiennes - Donjon à embranchements",
+            "patch": "6.25",
+            "unlock": "q.70182"
+        },
+        "x878": {
+            "level": "90",
+            "name_en": "Another Sil'dihn Subterrane",
+            "name_fr": "Les canalisations sildiennes annexes - Donjon alternatif",
+            "patch": "6.25",
+            "unlock": "",
+            "cSiblings": ["a.3155"]
+        },
+        "x879": {
+            "level": "90",
+            "name_en": "Another Sil'dihn Subterrane (Savage)",
+            "name_fr": "Les canalisations sildiennes annexes - Donjon alternatif (sadique)",
+            "patch": "6.25",
+            "unlock": "",
+            "cSiblings": ["a.3156"]
+        }
+    }
+}

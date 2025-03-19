@@ -1,6 +1,6 @@
 {
-    "key": "disciple-of-magic",
-    "groupName_en": "Disciple of Magic",
+    "key": "disciples-of-magic",
+    "groupName_en": "Disciples of Magic",
     "groupName_fr": "Disciples de la magie",
     "tasks": {
         "x45": {
@@ -11,13 +11,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.4"
-                ]
+                "10": ["cj.4"]
             },
-            "cNext": [
-                46
-            ]
+            "cNext": ["a.46"]
         },
         "x46": {
             "name_en": "I Got the Magic Stick II",
@@ -27,16 +23,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.4"
-                ]
+                "20": ["cj.4"]
             },
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                47
-            ]
+            "cPrev": ["a.45"],
+            "cNext": ["a.47"]
         },
         "x47": {
             "name_en": "I Got the Magic Stick III",
@@ -46,16 +36,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.4"
-                ]
+                "30": ["cj.4"]
             },
-            "cPrev": [
-                46
-            ],
-            "cNext": [
-                48
-            ]
+            "cPrev": ["a.46"],
+            "cNext": ["a.48"]
         },
         "x48": {
             "name_en": "I Got the Magic Stick IV",
@@ -65,16 +49,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.4"
-                ]
+                "40": ["cj.4"]
             },
-            "cPrev": [
-                47
-            ],
-            "cNext": [
-                49
-            ]
+            "cPrev": ["a.47"],
+            "cNext": ["a.49"]
         },
         "x49": {
             "name_en": "I Got the Magic Stick V",
@@ -84,16 +62,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.4"
-                ]
+                "50": ["cj.4"]
             },
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                1172
-            ]
+            "cPrev": ["a.48"],
+            "cNext": ["a.1172"]
         },
         "x1172": {
             "name_en": "I Got the Magic Stick VI",
@@ -103,16 +75,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.4"
-                ]
+                "60": ["cj.4"]
             },
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                1819
-            ]
+            "cPrev": ["a.49"],
+            "cNext": ["a.1819"]
         },
         "x1819": {
             "name_en": "I Got the Magic Stick VII",
@@ -122,16 +88,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.4"
-                ]
+                "70": ["cj.4"]
             },
-            "cPrev": [
-                1172
-            ],
-            "cNext": [
-                2251
-            ]
+            "cPrev": ["a.1172"],
+            "cNext": ["a.2251"]
         },
         "x2251": {
             "name_en": "I Got the Magic Stick VIII",
@@ -141,16 +101,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.4"
-                ]
+                "80": ["cj.4"]
             },
-            "cPrev": [
-                1819
-            ],
-            "cNext": [
-                2897
-            ]
+            "cPrev": ["a.1819"],
+            "cNext": ["a.2897"]
         },
         "x2897": {
             "name_en": "I Got the Magic Stick IX",
@@ -160,13 +114,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.4"
-                ]
+                "90": ["cj.4"]
             },
-            "cPrev": [
-                2251
-            ]
+            "cPrev": ["a.2251"],
+            "cNext": ["a.3434"]
+        },
+        "x3434": {
+            "cSiblingsAt": {
+                "100": ["cj.4"]
+            },
+            "cPrev": ["a.2897"],
+            "description_en": "Achieve conjurer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe élémentaliste.",
+            "name_en": "I Got the Magic Stick X",
+            "name_fr": "Élémentaliste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x50": {
             "name_en": "Bring Out Your Dead I",
@@ -176,13 +139,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.14"
-                ]
+                "10": ["cj.14"]
             },
-            "cNext": [
-                51
-            ]
+            "cNext": ["a.51"]
         },
         "x51": {
             "name_en": "Bring Out Your Dead II",
@@ -192,16 +151,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.14"
-                ]
+                "20": ["cj.14"]
             },
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                52
-            ]
+            "cPrev": ["a.50"],
+            "cNext": ["a.52"]
         },
         "x52": {
             "name_en": "Bring Out Your Dead III",
@@ -211,16 +164,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.14"
-                ]
+                "30": ["cj.14"]
             },
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                53
-            ]
+            "cPrev": ["a.51"],
+            "cNext": ["a.53"]
         },
         "x53": {
             "name_en": "Bring Out Your Dead IV",
@@ -230,16 +177,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.14"
-                ]
+                "40": ["cj.14"]
             },
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                54
-            ]
+            "cPrev": ["a.52"],
+            "cNext": ["a.54"]
         },
         "x54": {
             "name_en": "Bring Out Your Dead V",
@@ -249,16 +190,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.14"
-                ]
+                "50": ["cj.14"]
             },
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                1173
-            ]
+            "cPrev": ["a.53"],
+            "cNext": ["a.1173"]
         },
         "x1173": {
             "name_en": "Bring Out Your Dead VI",
@@ -268,16 +203,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.14"
-                ]
+                "60": ["cj.14"]
             },
-            "cPrev": [
-                54
-            ],
-            "cNext": [
-                1820
-            ]
+            "cPrev": ["a.54"],
+            "cNext": ["a.1820"]
         },
         "x1820": {
             "name_en": "Bring Out Your Dead VII",
@@ -287,16 +216,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.14"
-                ]
+                "70": ["cj.14"]
             },
-            "cPrev": [
-                1173
-            ],
-            "cNext": [
-                2252
-            ]
+            "cPrev": ["a.1173"],
+            "cNext": ["a.2252"]
         },
         "x2252": {
             "name_en": "Bring Out Your Dead VIII",
@@ -306,16 +229,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.14"
-                ]
+                "80": ["cj.14"]
             },
-            "cPrev": [
-                1820
-            ],
-            "cNext": [
-                2898
-            ]
+            "cPrev": ["a.1820"],
+            "cNext": ["a.2898"]
         },
         "x2898": {
             "name_en": "Bring Out Your Dead IX",
@@ -325,13 +242,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.14"
-                ]
+                "90": ["cj.14"]
             },
-            "cPrev": [
-                2252
-            ]
+            "cPrev": ["a.2252"],
+            "cNext": ["a.3435"]
+        },
+        "x3435": {
+            "cSiblingsAt": {
+                "100": ["cj.14"]
+            },
+            "cPrev": ["a.2898"],
+            "description_en": "Achieve thaumaturge level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe occultiste.",
+            "name_en": "Bring Out Your Dead X",
+            "name_fr": "Occultiste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x592": {
             "name_en": "Through the Gate I",
@@ -341,14 +267,9 @@
             "patch": "2.1",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "10": ["cj.5", "cj.15"]
             },
-            "cNext": [
-                593
-            ]
+            "cNext": ["a.593"]
         },
         "x593": {
             "name_en": "Through the Gate II",
@@ -358,17 +279,10 @@
             "patch": "2.1",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "20": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                592
-            ],
-            "cNext": [
-                594
-            ]
+            "cPrev": ["a.592"],
+            "cNext": ["a.594"]
         },
         "x594": {
             "name_en": "Through the Gate III",
@@ -378,17 +292,10 @@
             "patch": "2.1",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "30": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                593
-            ],
-            "cNext": [
-                595
-            ]
+            "cPrev": ["a.593"],
+            "cNext": ["a.595"]
         },
         "x595": {
             "name_en": "Through the Gate IV",
@@ -398,17 +305,10 @@
             "patch": "2.1",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "40": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                594
-            ],
-            "cNext": [
-                596
-            ]
+            "cPrev": ["a.594"],
+            "cNext": ["a.596"]
         },
         "x596": {
             "name_en": "Through the Gate V",
@@ -418,17 +318,10 @@
             "patch": "2.1",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "50": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                595
-            ],
-            "cNext": [
-                1174
-            ]
+            "cPrev": ["a.595"],
+            "cNext": ["a.1174"]
         },
         "x1174": {
             "name_en": "Through the Gate VI",
@@ -438,17 +331,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "60": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                596
-            ],
-            "cNext": [
-                1821
-            ]
+            "cPrev": ["a.596"],
+            "cNext": ["a.1821"]
         },
         "x1821": {
             "name_en": "Through the Gate VII",
@@ -458,17 +344,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "70": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                1174
-            ],
-            "cNext": [
-                2253
-            ]
+            "cPrev": ["a.1174"],
+            "cNext": ["a.2253"]
         },
         "x2253": {
             "name_en": "Through the Gate VIII",
@@ -478,17 +357,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "80": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                1821
-            ],
-            "cNext": [
-                2899
-            ]
+            "cPrev": ["a.1821"],
+            "cNext": ["a.2899"]
         },
         "x2899": {
             "name_en": "Through the Gate IX",
@@ -498,14 +370,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.5",
-                    "character.character.classes--jobs.15"
-                ]
+                "90": ["cj.5", "cj.15"]
             },
-            "cPrev": [
-                2253
-            ]
+            "cPrev": ["a.2253"],
+            "cNext": ["a.3436"]
+        },
+        "x3436": {
+            "cSiblingsAt": {
+                "100": ["cj.5", "cj.15"]
+            },
+            "cPrev": ["a.2899"],
+            "description_en": "Achieve arcanist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe arcaniste.",
+            "name_en": "Through the Gate X",
+            "name_fr": "Arcaniste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1184": {
             "name_en": "Starstruck I",
@@ -515,13 +395,9 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.6"
-                ]
+                "30": ["cj.6"]
             },
-            "cNext": [
-                1185
-            ]
+            "cNext": ["a.1185"]
         },
         "x1185": {
             "name_en": "Starstruck II",
@@ -531,16 +407,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.6"
-                ]
+                "40": ["cj.6"]
             },
-            "cPrev": [
-                1184
-            ],
-            "cNext": [
-                1186
-            ]
+            "cPrev": ["a.1184"],
+            "cNext": ["a.1186"]
         },
         "x1186": {
             "name_en": "Starstruck III",
@@ -550,16 +420,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.6"
-                ]
+                "50": ["cj.6"]
             },
-            "cPrev": [
-                1185
-            ],
-            "cNext": [
-                1187
-            ]
+            "cPrev": ["a.1185"],
+            "cNext": ["a.1187"]
         },
         "x1187": {
             "name_en": "Starstruck IV",
@@ -569,16 +433,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.6"
-                ]
+                "60": ["cj.6"]
             },
-            "cPrev": [
-                1186
-            ],
-            "cNext": [
-                1825
-            ]
+            "cPrev": ["a.1186"],
+            "cNext": ["a.1825"]
         },
         "x1825": {
             "name_en": "Starstruck V",
@@ -588,16 +446,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.6"
-                ]
+                "70": ["cj.6"]
             },
-            "cPrev": [
-                1187
-            ],
-            "cNext": [
-                2257
-            ]
+            "cPrev": ["a.1187"],
+            "cNext": ["a.2257"]
         },
         "x2257": {
             "name_en": "Starstruck VI",
@@ -607,16 +459,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.6"
-                ]
+                "80": ["cj.6"]
             },
-            "cPrev": [
-                1825
-            ],
-            "cNext": [
-                2903
-            ]
+            "cPrev": ["a.1825"],
+            "cNext": ["a.2903"]
         },
         "x2903": {
             "name_en": "Starstruck VII",
@@ -626,13 +472,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.6"
-                ]
+                "90": ["cj.6"]
             },
-            "cPrev": [
-                2257
-            ]
+            "cPrev": ["a.2257"],
+            "cNext": ["a.3440"]
+        },
+        "x3440": {
+            "cSiblingsAt": {
+                "100": ["cj.6"]
+            },
+            "cPrev": ["a.2903"],
+            "description_en": "Achieve astrologian level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job astromancien.",
+            "name_en": "Starstruck VIII",
+            "name_fr": "Astromancien mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1826": {
             "name_en": "How Deep the Rabbit Hole Goes I",
@@ -642,13 +497,9 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.16"
-                ]
+                "50": ["cj.16"]
             },
-            "cNext": [
-                1827
-            ]
+            "cNext": ["a.1827"]
         },
         "x1827": {
             "name_en": "How Deep the Rabbit Hole Goes II",
@@ -658,16 +509,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.16"
-                ]
+                "60": ["cj.16"]
             },
-            "cPrev": [
-                1826
-            ],
-            "cNext": [
-                1828
-            ]
+            "cPrev": ["a.1826"],
+            "cNext": ["a.1828"]
         },
         "x1828": {
             "name_en": "How Deep the Rabbit Hole Goes III",
@@ -677,16 +522,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.16"
-                ]
+                "70": ["cj.16"]
             },
-            "cPrev": [
-                1827
-            ],
-            "cNext": [
-                2258
-            ]
+            "cPrev": ["a.1827"],
+            "cNext": ["a.2258"]
         },
         "x2258": {
             "name_en": "How Deep the Rabbit Hole Goes IV",
@@ -696,16 +535,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.16"
-                ]
+                "80": ["cj.16"]
             },
-            "cPrev": [
-                1828
-            ],
-            "cNext": [
-                2904
-            ]
+            "cPrev": ["a.1828"],
+            "cNext": ["a.2904"]
         },
         "x2904": {
             "name_en": "How Deep the Rabbit Hole Goes V",
@@ -715,13 +548,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.16"
-                ]
+                "90": ["cj.16"]
             },
-            "cPrev": [
-                2258
-            ]
+            "cPrev": ["a.2258"],
+            "cNext": ["a.3441"]
+        },
+        "x3441": {
+            "cSiblingsAt": {
+                "100": ["cj.16"]
+            },
+            "cPrev": ["a.2904"],
+            "description_en": "Achieve red mage level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job mage rouge.",
+            "name_en": "How Deep the Rabbit Hole Goes VI",
+            "name_fr": "Mage rouge mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2910": {
             "name_en": "Do No Harm I",
@@ -731,13 +573,9 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.29"
-                ]
+                "80": ["cj.29"]
             },
-            "cNext": [
-                2911
-            ]
+            "cNext": ["a.2911"]
         },
         "x2911": {
             "name_en": "Do No Harm II",
@@ -747,13 +585,46 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.29"
-                ]
+                "90": ["cj.29"]
             },
-            "cPrev": [
-                2910
-            ]
+            "cPrev": ["a.2910"],
+            "cNext": ["a.3446"]
+        },
+        "x3446": {
+            "cSiblingsAt": {
+                "100": ["cj.29"]
+            },
+            "cPrev": ["a.2911"],
+            "description_en": "Achieve sage level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job sage.",
+            "name_en": "Do No Harm III",
+            "name_fr": "Sage mythique",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3449": {
+            "cSiblingsAt": {
+                "90": ["cj.32"]
+            },
+            "cNext": ["a.3450"],
+            "description_en": "Achieve pictomancer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job pictomancien.",
+            "name_en": "Let Me Paint You a Picture I",
+            "name_fr": "Pictomancien légendaire",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3450": {
+            "cSiblingsAt": {
+                "100": ["cj.32"]
+            },
+            "cPrev": ["a.3449"],
+            "description_en": "Achieve pictomancer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job pictomancien.",
+            "name_en": "Let Me Paint You a Picture II",
+            "name_fr": "Pictomancien mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2194": {
             "name_en": "Da Ba Dee I",
@@ -763,13 +634,9 @@
             "patch": "4.5",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.17"
-                ]
+                "10": ["cj.17"]
             },
-            "cNext": [
-                2195
-            ]
+            "cNext": ["a.2195"]
         },
         "x2195": {
             "name_en": "Da Ba Dee II",
@@ -779,16 +646,10 @@
             "patch": "4.5",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.17"
-                ]
+                "20": ["cj.17"]
             },
-            "cPrev": [
-                2194
-            ],
-            "cNext": [
-                2196
-            ]
+            "cPrev": ["a.2194"],
+            "cNext": ["a.2196"]
         },
         "x2196": {
             "name_en": "Da Ba Dee III",
@@ -798,16 +659,10 @@
             "patch": "4.5",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.17"
-                ]
+                "30": ["cj.17"]
             },
-            "cPrev": [
-                2195
-            ],
-            "cNext": [
-                2197
-            ]
+            "cPrev": ["a.2195"],
+            "cNext": ["a.2197"]
         },
         "x2197": {
             "name_en": "Da Ba Dee IV",
@@ -817,16 +672,10 @@
             "patch": "4.5",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.17"
-                ]
+                "40": ["cj.17"]
             },
-            "cPrev": [
-                2196
-            ],
-            "cNext": [
-                2198
-            ]
+            "cPrev": ["a.2196"],
+            "cNext": ["a.2198"]
         },
         "x2198": {
             "name_en": "Da Ba Dee V",
@@ -836,16 +685,10 @@
             "patch": "4.5",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.17"
-                ]
+                "50": ["cj.17"]
             },
-            "cPrev": [
-                2197
-            ],
-            "cNext": [
-                2446
-            ]
+            "cPrev": ["a.2197"],
+            "cNext": ["a.2446"]
         },
         "x2446": {
             "name_en": "Da Ba Dee VI",
@@ -855,16 +698,10 @@
             "patch": "5.18",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.17"
-                ]
+                "60": ["cj.17"]
             },
-            "cPrev": [
-                2198
-            ],
-            "cNext": [
-                2725
-            ]
+            "cPrev": ["a.2198"],
+            "cNext": ["a.2725"]
         },
         "x2725": {
             "name_en": "Da Ba Dee VII",
@@ -874,32 +711,22 @@
             "patch": "5.45",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.17"
-                ]
+                "70": ["cj.17"]
             },
-            "cPrev": [
-                2446
-            ],
-            "cNext": [
-                3316
-            ]
+            "cPrev": ["a.2446"],
+            "cNext": ["a.3316"]
         },
         "x3316": {
             "name_en": "Da Ba Dee VIII",
             "name_fr": "Mage bleu emblématique",
             "description_en": "Achieve blue mage level 80.",
             "description_fr": "Atteindre le niveau 80 avec le job mage bleu.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.17"
-                ]
+                "80": ["cj.17"]
             },
-            "cPrev": [
-                2725
-            ]
+            "cPrev": ["a.2725"]
         },
         "x2199": {
             "name_en": "The More You Know I",
@@ -908,9 +735,7 @@
             "description_fr": "Apprendre 5 actions de magie bleue.",
             "patch": "4.5",
             "points": 5,
-            "cNext": [
-                2244
-            ]
+            "cNext": ["a.2244"]
         },
         "x2244": {
             "name_en": "The More You Know II",
@@ -919,12 +744,8 @@
             "description_fr": "Apprendre 10 actions de magie bleue.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [
-                2199
-            ],
-            "cNext": [
-                2200
-            ]
+            "cPrev": ["a.2199"],
+            "cNext": ["a.2200"]
         },
         "x2200": {
             "name_en": "The More You Know III",
@@ -933,30 +754,20 @@
             "description_fr": "Apprendre 20 actions de magie bleue.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [
-                2244
-            ],
-            "cNext": [
-                2201
-            ]
+            "cPrev": ["a.2244"],
+            "cNext": ["a.2201"]
         },
         "x2201": {
             "name_en": "The More You Know IV",
             "name_fr": "Incollable IV",
             "description_en": "Learn 30 blue mage spells.",
             "description_fr": "Apprendre 30 actions de magie bleue.",
-            "reward": "character.character.title.413",
+            "reward": "t.413",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [
-                2200
-            ],
-            "cNext": [
-                2202
-            ],
-            "cSiblings": [
-                "character.character.title.413"
-            ]
+            "cPrev": ["a.2200"],
+            "cNext": ["a.2202"],
+            "cSiblings": ["t.413"]
         },
         "x2202": {
             "name_en": "The More You Know V",
@@ -965,12 +776,8 @@
             "description_fr": "Apprendre 40 actions de magie bleue.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [
-                2201
-            ],
-            "cNext": [
-                2447
-            ]
+            "cPrev": ["a.2201"],
+            "cNext": ["a.2447"]
         },
         "x2447": {
             "name_en": "The More You Know VI",
@@ -979,30 +786,20 @@
             "description_fr": "Apprendre 50 actions de magie bleue.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2202
-            ],
-            "cNext": [
-                2448
-            ]
+            "cPrev": ["a.2202"],
+            "cNext": ["a.2448"]
         },
         "x2448": {
             "name_en": "The More You Know VII",
             "name_fr": "Incollable VII",
             "description_en": "Learn 80 blue mage spells.",
             "description_fr": "Apprendre 80 actions de magie bleue.",
-            "reward": "character.character.title.481",
+            "reward": "t.481",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2447
-            ],
-            "cNext": [
-                2726
-            ],
-            "cSiblings": [
-                "character.character.title.481"
-            ]
+            "cPrev": ["a.2447"],
+            "cNext": ["a.2726"],
+            "cSiblings": ["t.481"]
         },
         "x2726": {
             "name_en": "The More You Know VIII",
@@ -1011,23 +808,17 @@
             "description_fr": "Apprendre 100 actions de magie bleue.",
             "patch": "5.45",
             "points": 5,
-            "cPrev": [
-                2448
-            ],
-            "cNext": [
-                3317
-            ]
+            "cPrev": ["a.2448"],
+            "cNext": ["a.3317"]
         },
         "x3317": {
             "name_en": "The More You Know IX",
             "name_fr": "Incollable IX",
             "description_en": "Learn 120 blue mage spells.",
             "description_fr": "Apprendre 120 actions de magie bleue.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5,
-            "cPrev": [
-                2448
-            ]
+            "cPrev": ["a.2726"]
         }
     }
 }

@@ -24,8 +24,7 @@
             "header_fr": "★★★★ Stat Max"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -36,9 +35,7 @@
             "statCap2Star": "100",
             "statCap3Star": "140",
             "statCap4Star": "180",
-            "cNext": [
-                1
-            ]
+            "cNext": [1]
         },
         "x1": {
             "name": "2",
@@ -47,12 +44,8 @@
             "statCap2Star": "140",
             "statCap3Star": "180",
             "statCap4Star": "220",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name": "3",
@@ -61,12 +54,8 @@
             "statCap2Star": "180",
             "statCap3Star": "220",
             "statCap4Star": "260",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "name": "4",
@@ -75,12 +64,8 @@
             "statCap2Star": "220",
             "statCap3Star": "260",
             "statCap4Star": "300",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "name": "5",
@@ -89,12 +74,8 @@
             "statCap2Star": "260",
             "statCap3Star": "300",
             "statCap4Star": "340",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ]
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "name": "6",
@@ -103,12 +84,8 @@
             "statCap2Star": "300",
             "statCap3Star": "340",
             "statCap4Star": "380",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ]
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "name": "7",
@@ -117,12 +94,8 @@
             "statCap2Star": "340",
             "statCap3Star": "380",
             "statCap4Star": "420",
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ]
+            "cPrev": [5],
+            "cNext": [7]
         },
         "x7": {
             "name": "8",
@@ -131,12 +104,8 @@
             "statCap2Star": "380",
             "statCap3Star": "420",
             "statCap4Star": "460",
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                8
-            ]
+            "cPrev": [6],
+            "cNext": [8]
         },
         "x8": {
             "name": "9",
@@ -145,12 +114,8 @@
             "statCap2Star": "420",
             "statCap3Star": "460",
             "statCap4Star": "500",
-            "cPrev": [
-                7
-            ],
-            "cSiblings": [
-                "character.achievement.character.gold-saucer.1090"
-            ]
+            "cPrev": [7],
+            "cSiblings": ["a.1090"]
         }
     }
 }

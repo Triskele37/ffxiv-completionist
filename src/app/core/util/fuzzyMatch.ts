@@ -40,13 +40,15 @@ export function fuzzyMatchObject(
     isLink: boolean = false
 ): boolean {
     if(Array.isArray(objA[keyA])) {
-        return objA[keyA].some((pathOrValue) => {
-            const valueA = getLinkedName(pathOrValue, isLink);
-            return fuzzyMatchValue(valueA, valueB, partial);
-        });
+        return objA[keyA].some((pathOrValue) => isMatch(pathOrValue));
     }
     else {
-        const valueA = getLinkedName(objA[keyA], isLink);
-        return fuzzyMatchValue(valueA, valueB, partial);
+        return isMatch(objA[keyA]);
+    }
+
+    function isMatch(linkedNameValue: number | string): boolean {
+        const valueA = getLinkedName(linkedNameValue, isLink);
+        const searchString = valueA + objA[keyA]; // Tack on any non-link text
+        return fuzzyMatchValue(searchString, valueB, partial);
     }
 }

@@ -1,0 +1,153 @@
+{
+    "key": "ambient",
+    "groupName_en": "Ambient",
+    "groupName_fr": "Ambiances",
+    "tasks": {
+        "x152": {
+            "number": "1",
+            "name_en": "Ambient Birdsong",
+            "name_fr": "Gazouillement délicat",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.0"
+        },
+        "x151": {
+            "number": "2",
+            "name_en": "Ambient Waves",
+            "name_fr": "Vagues calmes",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.0"
+        },
+        "x153": {
+            "number": "3",
+            "name_en": "Ambient Rainfall",
+            "name_fr": "Bruissement de la pluie",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.0"
+        },
+        "x154": {
+            "number": "4",
+            "name_en": "Ambient Cricketsong",
+            "name_fr": "Chant des cigales",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.0"
+        },
+        "x168": {
+            "number": "5",
+            "name_en": "Ambient Insects",
+            "name_fr": "Bruits d'insectes",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.1"
+        },
+        "x169": {
+            "number": "6",
+            "name_en": "Ambient Bonfire",
+            "name_fr": "Feu de camp",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.1"
+        },
+        "x170": {
+            "number": "7",
+            "name_en": "Ambient Kitchen",
+            "name_fr": "Cuisine du matin",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.1"
+        },
+        "x194": {
+            "number": "8",
+            "name_en": "Babbling Brook",
+            "name_fr": "Chant du ruisseau",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.2"
+        },
+        "x195": {
+            "number": "9",
+            "name_en": "Bustling Boulevard",
+            "name_fr": "Rue animée",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.2"
+        },
+        "x196": {
+            "number": "10",
+            "name_en": "Temple Bell",
+            "name_fr": "Cloche de temple",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.2"
+        },
+        "x197": {
+            "number": "11",
+            "name_en": "Chapel Bell",
+            "name_fr": "Cloche de chapelle",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.2"
+        },
+        "x221": {
+            "number": "12",
+            "name_en": "Ambient Wind Chime",
+            "name_fr": "Tintement de carillon à vent",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "4.3"
+        },
+        "x222": {
+            "number": "13",
+            "name_en": "Ambient Abyss",
+            "name_fr": "Ambiance sous-marine",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.CRAFTING"],
+            "source": [
+                "@VOYAGE.THE_MYSTIC_BASIN",
+                "@VOYAGE.DEEPSEA_SITE 5",
+                "@VOYAGE.THE_RIMILALA_SHELF",
+                "@VOYAGE.FLICKERING_DIP"
+            ],
+            "patch": "4.3"
+        },
+        "x564": {
+            "number": "14",
+            "name_en": "Silence",
+            "name_fr": "Silence",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "6.28"
+        },
+        "x689": {
+            "number": "15",
+            "name_en": "Subterranean Drop",
+            "name_fr": "Subterranean Drop",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.EAST_DODIES_ABYSS", "@VOYAGE.RAINBRINGER_RIFT"],
+            "patch": "7.0"
+        },
+        "x690": {
+            "number": "16",
+            "name_en": "Tinkerer's Treasure Trove",
+            "name_fr": "Tinkerer's Treasure Trove",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.WEST_DODIES_ABYSS", "@VOYAGE.SOUTH_INDIGO_DEEP 1"],
+            "patch": "7.0"
+        }
+    }
+}

@@ -1,215 +1,162 @@
 {
     "key": "thanalan",
-    "groupName_en": "Thanalan",
-    "groupName_fr": "Thanalan",
+    "groupName": "@PLACE.THANALAN",
     "tasks": {
         "x28": {
             "name_en": "Ul'dah - Steps of Nald",
             "name_fr": "Ul'dah - Faubourg de Nald / Place de l'Éthérite (Guilde des pugilistes/Immortels)",
-            "zone_en": "Ul'dah - Steps of Nald",
-            "zone_fr": "Ul'dah - Faubourg de Nald",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x29": {
             "name_en": "Adventurers' Guild",
             "name_fr": "Guilde des aventuriers",
-            "zone_en": "Ul'dah - Steps of Nald",
-            "zone_fr": "Ul'dah - Faubourg de Nald",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x30": {
             "name_en": "Thaumaturges' Guild",
             "name_fr": "Guilde des occultistes",
-            "zone_en": "Ul'dah - Steps of Nald",
-            "zone_fr": "Ul'dah - Faubourg de Nald",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x31": {
             "name_en": "Gladiators' Guild",
             "name_fr": "Guilde des gladiateurs (Colisée)",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (Faubourg de Thal)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x32": {
             "name_en": "Miners' Guild",
             "name_fr": "Guilde des mineurs (Ciel azur)",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (Faubourg de Thal)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x34": {
             "name_en": "Weavers' Guild",
             "name_fr": "Guilde des couturiers",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (Faubourg de Thal)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x35": {
             "name_en": "Goldsmiths' Guild",
             "name_fr": "Guilde des orfèvres",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (Faubourg de Thal)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x37": {
             "name_en": "Sapphire Avenue Exchange",
             "name_fr": "Marché (Avenue du Saphir)",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (Faubourg de Thal)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x33": {
             "name_en": "Alchemists' Guild",
             "name_fr": "Guilde des alchimistes",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (District politique)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x36": {
             "name_en": "The Chamber of Rule",
             "name_fr": "Hall de la Loi",
-            "zone_en": "Ul'dah - Steps of Thal",
-            "zone_fr": "Ul'dah - Faubourg de Thal (District politique)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x38": {
             "name_en": "Horizon",
             "name_fr": "Horizon",
-            "zone_en": "Western Thanalan",
-            "zone_fr": "Thanalan occidental",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.WESTERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x39": {
             "name_en": "Black Brush Station",
             "name_fr": "Gare de Roncenoire",
-            "zone_en": "Central Thanalan",
-            "zone_fr": "Thanalan central",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.CENTRAL_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x40": {
             "name_en": "Camp Drybone",
             "name_fr": "Camp des Os desséchés",
-            "zone_en": "Eastern Thanalan",
-            "zone_fr": "Thanalan oriental",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.EASTERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x41": {
             "name_en": "Little Ala Mhigo",
             "name_fr": "Petite Ala Mhigo",
-            "zone_en": "Southern Thanalan",
-            "zone_fr": "Thanalan méridional",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x42": {
             "name_en": "Forgotten Springs",
             "name_fr": "Oasis oubliée",
-            "zone_en": "Southern Thanalan",
-            "zone_fr": "Thanalan méridional",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x43": {
             "name_en": "Camp Bluefog",
             "name_fr": "Camp de Brumebleue",
-            "zone_en": "Northern Thanalan",
-            "zone_fr": "Thanalan septentrional",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.NORTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x44": {
             "name_en": "Ceruleum Processing Plant",
             "name_fr": "Usine de céruleum",
-            "zone_en": "Northern Thanalan",
-            "zone_fr": "Thanalan septentrional",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.NORTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x45": {
             "name_en": "The Gold Saucer",
             "name_fr": "Gold Saucer / Place de l'Éthérite du Gold Saucer",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x46": {
             "name_en": "Entrance & Card Squares",
             "name_fr": "Hall d'accueil (Square des duellistes)",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x47": {
             "name_en": "Wonder Square East",
             "name_fr": "Square des merveilles est",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x48": {
             "name_en": "Wonder Square West",
             "name_fr": "Square des merveilles ouest",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x49": {
             "name_en": "Event Square",
             "name_fr": "Square des spectacles",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x50": {
             "name_en": "Cactpot Board",
             "name_fr": "Comptoir du Méga Cactpot",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x51": {
             "name_en": "Round Square",
             "name_fr": "Square du rond-point",
-            "zone_en": "The Gold Saucer",
-            "zone_fr": "Gold Saucer (Gold Saucer)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x52": {
             "name_en": "Chocobo Square",
             "name_fr": "Square des chocobos",
-            "zone_en": "Chocobo Square",
-            "zone_fr": "Gold Saucer (Square des chocobos)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.CHOCOBO_SQUARE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x53": {
             "name_en": "Minion Square",
             "name_fr": "Square des chocobos (square des mascottes)",
-            "zone_en": "Chocobo Square",
-            "zone_fr": "Gold Saucer (Square des chocobos)",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.CHOCOBO_SQUARE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         }
     }
 }

@@ -4,7 +4,8 @@ import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
 import { Globals } from '@constant/Global';
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 import { ConfigStore } from './Store.d';
 import { Store } from './Store';

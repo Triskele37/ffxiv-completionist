@@ -10,12 +10,8 @@
             "unlock": "travel.aether-currents.sb.the-fringes.13",
             "npc_en": "Loezkirz",
             "npc_fr": "Loezkirz",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-fringes.13"
-            ],
+            "cPrev": ["q.67988"],
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.13"],
             "patch": "4.31"
         },
         "x68176": {
@@ -24,12 +20,8 @@
             "name_fr": "Jeu de piste",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
-            "cNext": [
-                68408
-            ],
+            "cPrev": ["q.67988"],
+            "cNext": ["q.68408"],
             "patch": "4.31"
         },
         "x68177": {
@@ -37,10 +29,8 @@
             "name_en": "Prison Break",
             "name_fr": "Alliance désunie",
             "npc_en": "Maelstrom Officer",
-            "npc_fr": "soldat du Maelstrom",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
+            "npc_fr": "Soldat Du Maelstrom",
+            "cPrev": ["q.67988"],
             "patch": "4.31"
         },
         "x68178": {
@@ -48,10 +38,8 @@
             "name_en": "What a Tangled Web We Weave",
             "name_fr": "Le grand saut",
             "npc_en": "Resistance Fighter",
-            "npc_fr": "sous-officier expérimenté",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
+            "npc_fr": "Sous-officier Expérimenté",
+            "cPrev": ["q.67988"],
             "patch": "4.31"
         },
         "x68180": {
@@ -60,9 +48,7 @@
             "name_fr": "Un problème au menu",
             "npc_en": "Quincompaix",
             "npc_fr": "Quincompaix",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
+            "cPrev": ["q.67988"],
             "patch": "4.31"
         },
         "x68179": {
@@ -71,12 +57,8 @@
             "name_fr": "Empire contre nature",
             "npc_en": "Lucinne",
             "npc_fr": "Lucinne",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67988"
-            ],
-            "cNext": [
-                68196
-            ],
+            "cPrev": ["q.67988"],
+            "cNext": ["q.68196"],
             "patch": "4.31"
         },
         "x68196": {
@@ -85,10 +67,7 @@
             "name_fr": "La Queue de la Comète",
             "npc_en": "Lucinne",
             "npc_fr": "Lucinne",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002",
-                68179
-            ],
+            "cPrev": ["q.68002", "q.68179"],
             "patch": "4.31"
         },
         "x68195": {
@@ -97,9 +76,7 @@
             "name_fr": "L'idole des jeunes recrues",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002"
-            ],
+            "cPrev": ["q.68002"],
             "patch": "4.31"
         },
         "x68197": {
@@ -109,15 +86,9 @@
             "unlock": "travel.aether-currents.sb.the-fringes.12",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002"
-            ],
-            "cNext": [
-                68198
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-fringes.12"
-            ],
+            "cPrev": ["q.68002"],
+            "cNext": ["q.68198"],
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.12"],
             "patch": "4.31"
         },
         "x68198": {
@@ -126,13 +97,8 @@
             "name_fr": "Le village abandonné",
             "npc_en": "Tahla Molkoh",
             "npc_fr": "Tahla Molkoh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002",
-                68197
-            ],
-            "cNext": [
-                68199
-            ],
+            "cPrev": ["q.68002", "q.68197"],
+            "cNext": ["q.68199"],
             "patch": "4.31"
         },
         "x68199": {
@@ -141,13 +107,8 @@
             "name_fr": "Au fond de la grotte",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002",
-                68198
-            ],
-            "cNext": [
-                68200
-            ],
+            "cPrev": ["q.68002", "q.68198"],
+            "cNext": ["q.68200"],
             "patch": "4.31"
         },
         "x68200": {
@@ -156,13 +117,8 @@
             "name_fr": "Un loup déguisé en agneau",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68002",
-                68199
-            ],
-            "cNext": [
-                68364
-            ],
+            "cPrev": ["q.68002", "q.68199"],
+            "cNext": ["q.68364"],
             "patch": "4.31"
         },
         "x68352": {
@@ -172,12 +128,8 @@
             "unlock": "travel.aether-currents.sb.the-fringes.11",
             "npc_en": "Prapti",
             "npc_fr": "Prapti",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68067"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-fringes.11"
-            ],
+            "cPrev": ["q.68067"],
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.11"],
             "patch": "4.31"
         },
         "x68353": {
@@ -186,9 +138,7 @@
             "name_fr": "Faveurs divines",
             "npc_en": "Garima",
             "npc_fr": "Garima",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68067"
-            ],
+            "cPrev": ["q.68067"],
             "patch": "4.31"
         },
         "x68354": {
@@ -197,9 +147,7 @@
             "name_fr": "Les limaces alcooliques",
             "npc_en": "Jayanti",
             "npc_fr": "Jayanti",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68067"
-            ],
+            "cPrev": ["q.68067"],
             "patch": "4.31"
         },
         "x68355": {
@@ -207,10 +155,8 @@
             "name_en": "Hard to Swallow",
             "name_fr": "Un bijou de famille",
             "npc_en": "Vira Bowmaid",
-            "npc_fr": "archère vira",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68067"
-            ],
+            "npc_fr": "Archère Vira",
+            "cPrev": ["q.68067"],
             "patch": "4.31"
         },
         "x68356": {
@@ -219,9 +165,7 @@
             "name_fr": "Les âmes de pierre",
             "npc_en": "M'linhbo",
             "npc_fr": "M'linhbo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68066"
-            ],
+            "cPrev": ["q.68066"],
             "patch": "4.31"
         },
         "x68357": {
@@ -231,12 +175,8 @@
             "unlock": "travel.aether-currents.sb.the-fringes.10",
             "npc_en": "M'zimzizi",
             "npc_fr": "M'zimzizi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68066"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-fringes.10"
-            ],
+            "cPrev": ["q.68066"],
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.10"],
             "patch": "4.31"
         },
         "x68358": {
@@ -245,9 +185,7 @@
             "name_fr": "Marketing pour Anantas",
             "npc_en": "M'septha",
             "npc_fr": "M'septha",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069"
-            ],
+            "cPrev": ["q.68069"],
             "patch": "4.31"
         },
         "x68359": {
@@ -256,9 +194,7 @@
             "name_fr": "Les fantômes des cimes",
             "npc_en": "M'gizzoh",
             "npc_fr": "M'gizzoh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069"
-            ],
+            "cPrev": ["q.68069"],
             "patch": "4.31"
         },
         "x68360": {
@@ -267,12 +203,8 @@
             "name_fr": "Nunh à la place du Nunh",
             "npc_en": "M'rahz Nunh",
             "npc_fr": "M'rahz Nunh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069"
-            ],
-            "cNext": [
-                68361
-            ],
+            "cPrev": ["q.68069"],
+            "cNext": ["q.68361"],
             "patch": "4.31"
         },
         "x68361": {
@@ -281,13 +213,8 @@
             "name_fr": "Le retour de la revanche",
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069",
-                68360
-            ],
-            "cNext": [
-                68362
-            ],
+            "cPrev": ["q.68069", "q.68360"],
+            "cNext": ["q.68362"],
             "patch": "4.31"
         },
         "x68362": {
@@ -296,13 +223,8 @@
             "name_fr": "Un entraînement explosif",
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069",
-                68361
-            ],
-            "cNext": [
-                68363
-            ],
+            "cPrev": ["q.68069", "q.68361"],
+            "cNext": ["q.68363"],
             "patch": "4.31"
         },
         "x68363": {
@@ -311,13 +233,8 @@
             "name_fr": "L'épée du serment",
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069",
-                68362
-            ],
-            "cNext": [
-                68364
-            ],
+            "cPrev": ["q.68069", "q.68362"],
+            "cNext": ["q.68364"],
             "patch": "4.31"
         },
         "x68364": {
@@ -326,14 +243,8 @@
             "name_fr": "L'arbre surnaturel",
             "npc_en": "M'rahz Nunh",
             "npc_fr": "M'rahz Nunh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68069",
-                68363,
-                68200
-            ],
-            "cNext": [
-                "duty.quests.tribal-quests.ananta.68572"
-            ],
+            "cPrev": ["q.68069", "q.68363", "q.68200"],
+            "cNext": ["q.68572"],
             "patch": "4.31"
         },
         "x68407": {
@@ -342,13 +253,8 @@
             "name_fr": "Champ de bataille et d'amour",
             "npc_en": "Kakalai",
             "npc_fr": "Kakalai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68405"
-            ],
-            "cNext": [
-                68409
-            ],
+            "cPrev": ["q.68083", "q.68405"],
+            "cNext": ["q.68409"],
             "patch": "4.31"
         },
         "x68408": {
@@ -357,14 +263,8 @@
             "name_fr": "Un œil de lynx",
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68405",
-                68176
-            ],
-            "cNext": [
-                68409
-            ],
+            "cPrev": ["q.68083", "q.68405", "q.68176"],
+            "cNext": ["q.68409"],
             "patch": "4.31"
         },
         "x68409": {
@@ -372,12 +272,8 @@
             "name_en": "My Dear Brother",
             "name_fr": "Le sens du devoir",
             "npc_en": "Somber Sibling",
-            "npc_fr": "femme chagrinée",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083",
-                68407,
-                68408
-            ],
+            "npc_fr": "Femme Chagrinée",
+            "cPrev": ["q.68083", "q.68407", "q.68408"],
             "patch": "4.31"
         }
     }

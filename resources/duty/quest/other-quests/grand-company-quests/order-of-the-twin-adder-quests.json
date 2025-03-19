@@ -1,0 +1,58 @@
+{
+    "key": "order-of-the-twin-adder-quests",
+    "groupName_en": "Order of the Twin Adder Quests",
+    "groupName_fr": "Quêtes de l'ordre des Deux Vipères",
+    "tasks": {
+        "x66641": {
+            "level": 30,
+            "name_en": "A Pup No Longer (Twin Adder)",
+            "name_fr": "L'Antre des loups (Deux Vipères)",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cNext": ["q.67063", "q.67064", "q.67065", "q.68543"],
+            "cExclude": ["q.66640", "q.66642"],
+            "patch": "4.31"
+        },
+        "x67063": {
+            "level": 30,
+            "name_en": "Like Civilized Men and Women (Twin Adder)",
+            "name_fr": "Le Front (Deux Vipères)",
+            "cPrevAny": true,
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "unlock_en": "Duty: Frontline",
+            "cPrev": ["q.66641", "q.66642", "q.66640"],
+            "cExclude": ["q.67065", "q.67064"],
+            "patch": "4.31"
+        },
+        "x66665": {
+            "level": 44,
+            "name_en": "Shadows Uncast (Twin Adder)",
+            "name_fr": "Opération Dzemael (Deux Vipères)",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cNext": ["q.66668"],
+            "patch": "4.31"
+        },
+        "x66668": {
+            "level": 47,
+            "name_en": "Gilding the Bilious (Twin Adder)",
+            "name_fr": "Opération Val d'Aurum (Deux Vipères)",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cPrev": ["q.66665"],
+            "patch": "4.31"
+        },
+        "x67099": {
+            "level": 50,
+            "name_en": "Let the Hunt Begin (Twin Adder)",
+            "name_fr": "Faire bonne chasse (Deux Vipères)",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "unlock_en": "The Hunt",
+            "cNext": ["q.67655"],
+            "cExclude": ["q.67100", "q.67101"],
+            "patch": "4.31"
+        }
+    }
+}

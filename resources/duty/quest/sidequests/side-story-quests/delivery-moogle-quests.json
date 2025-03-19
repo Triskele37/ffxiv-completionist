@@ -1,0 +1,225 @@
+{
+    "key": "delivery-moogle-quests",
+    "groupName_en": "Delivery Moogle Quests",
+    "groupName_fr": "Quêtes du Mog postier",
+    "tasks": {
+        "x67017": {
+            "level": 50,
+            "name_en": "Of Errant Epistles",
+            "name_fr": "Plus qu'un métier, une vocation",
+            "npc_en": "Klynthota",
+            "npc_fr": "Klynthota",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67019"],
+            "cSiblings": ["a.1004"],
+            "patch": "4.31"
+        },
+        "x67019": {
+            "level": 50,
+            "name_en": "A Debt Unpaid",
+            "name_fr": "Le prix de la pièce",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67017"],
+            "cNext": ["q.67018", "q.67020"],
+            "patch": "4.31"
+        },
+        "x67018": {
+            "level": 50,
+            "name_en": "Carline Memories",
+            "name_fr": "La roue du destin",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67019"],
+            "cNext": ["q.67067", "q.67068", "q.67069"],
+            "patch": "4.31"
+        },
+        "x67020": {
+            "level": 50,
+            "name_en": "Dream On",
+            "name_fr": "Un jour elle sera mienne",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67019"],
+            "cNext": ["q.67067", "q.67068", "q.67069"],
+            "patch": "4.31"
+        },
+        "x67067": {
+            "level": 50,
+            "name_en": "Spirits Most Foul",
+            "name_fr": "L'amnistie de l'amnésique",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67018", "q.67020"],
+            "cNext": ["q.67021"],
+            "patch": "4.31"
+        },
+        "x67068": {
+            "level": 50,
+            "name_en": "Dubious Dancing",
+            "name_fr": "Une danse lascive",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67018", "q.67020"],
+            "patch": "4.31"
+        },
+        "x67069": {
+            "level": 50,
+            "name_en": "Stroking the Haft",
+            "name_fr": "Ô Capitaine, mon Capitaine",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67018", "q.67020"],
+            "patch": "4.31"
+        },
+        "x67021": {
+            "level": 50,
+            "name_en": "Thwack-a-Mole",
+            "name_fr": "Taupologie",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.67067", "q.66343"],
+            "patch": "4.31",
+            "unlock": "mi.45"
+        },
+        "x65569": {
+            "level": 50,
+            "name_en": "Sweet Words, Shadowy Dealings",
+            "name_fr": "Ça va barder!",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67107": {
+            "level": 50,
+            "name_en": "The Captain of Her Heart",
+            "name_fr": "Rage raisonnée",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65572": {
+            "level": 50,
+            "name_en": "Sudul Eht Nioj",
+            "name_fr": "Le prix du succès",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67109": {
+            "level": 50,
+            "name_en": "Of Siblings and Side-whiskers",
+            "name_fr": "Renaissance par le style",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.66746"],
+            "patch": "4.31"
+        },
+        "x67106": {
+            "level": 50,
+            "name_en": "Death of a Mailman",
+            "name_fr": "Un postier très discret",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67112": {
+            "level": 50,
+            "name_en": "All in the Family",
+            "name_fr": "Entre cupidité et philanthropie",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67113": {
+            "level": 50,
+            "name_en": "Duel Personalities",
+            "name_fr": "Pirate un jour, pirate toujours",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65777": {
+            "level": 50,
+            "name_en": "Lone Survivor",
+            "name_fr": "Macabres réminiscences",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65778": {
+            "level": 50,
+            "name_en": "Guildmaster, Prelate, and Plot",
+            "name_fr": "Maître un jour, maître toujours",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67110": {
+            "level": 50,
+            "name_en": "The Past Is a Story We Never Tell",
+            "name_fr": "Une tragédie familiale",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67108": {
+            "level": 50,
+            "name_en": "Thanks for Your Support",
+            "name_fr": "Comme un poisson dans l'eau",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x67111": {
+            "level": 50,
+            "name_en": "Hostages to Fortune",
+            "name_fr": "Même ennemi, même stratégie",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65779": {
+            "level": 50,
+            "name_en": "A Qiqirn Always Pays His Debts",
+            "name_fr": "Une guéguerre de clic clic",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65780": {
+            "level": 50,
+            "name_en": "The Hazy Professor",
+            "name_fr": "Science et reconnaissance",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65776": {
+            "level": 50,
+            "name_en": "Blues on Emerald Avenue",
+            "name_fr": "L'avenue du souvenir",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cPrev": ["q.66740"],
+            "patch": "4.31"
+        },
+        "x66032": {
+            "level": 50,
+            "name_en": "Better Left Unfound",
+            "name_fr": "Le deuil de la Fratrie",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "patch": "4.31"
+        },
+        "x65898": {
+            "level": 50,
+            "name_en": "The Little Postmoogle That Could",
+            "name_fr": "La grande famille de la Poste mog",
+            "npc_en": "Deputy Postmoogle",
+            "npc_fr": "Maître Mog Postier",
+            "cSiblings": ["a.1130"],
+            "patch": "4.31"
+        }
+    }
+}

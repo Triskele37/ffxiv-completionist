@@ -1,25 +1,14 @@
 {
     "key": "lower-la-noscea",
-    "groupName_en": "Lower",
-    "groupName_fr": "Basse-Noscea",
+    "groupName": "@PLACE.LOWER_LA_NOSCEA",
     "tasks": {
-        "x245": {
-            "level": 13,
-            "name_en": "One Prince",
-            "name_fr": "Défi: le prince",
-            "location": "(19, 37)",
+        "x257": {
+            "level": 3,
+            "name_en": "I Melt with You",
+            "name_fr": "Défi : une bonne digestion",
+            "location": "(26, 25)",
             "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x246": {
-            "level": 5,
-            "name_en": "Fight the Flower",
-            "name_fr": "Dangereux végétaux",
-            "location": "(30, 19)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x249": {
             "level": 4,
@@ -27,8 +16,15 @@
             "name_fr": "Problème de nuisibles",
             "location": "(24, 22)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x246": {
+            "level": 5,
+            "name_en": "Fight the Flower",
+            "name_fr": "Dangereux végétaux",
+            "location": "(30, 19)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x250": {
             "level": 7,
@@ -36,8 +32,7 @@
             "name_fr": "Virus fulgurant",
             "location": "(27, 17)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x251": {
             "level": 8,
@@ -45,53 +40,7 @@
             "name_fr": "Vol de farine",
             "location": "(35, 15)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x257": {
-            "level": 3,
-            "name_en": "I Melt with You",
-            "name_fr": "Défi: une bonne digestion",
-            "location": "(26, 25)",
-            "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x260": {
-            "level": 11,
-            "name_en": "Away in a Bilge Hold",
-            "name_fr": "Mise au placard",
-            "location": "(21, 38)",
-            "patch": "2.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x261": {
-            "level": 10,
-            "name_en": "In the Name of Love",
-            "name_fr": "Défi: au nom de l'amour",
-            "location": "(20, 38)",
-            "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x262": {
-            "level": 12,
-            "name_en": "Don't Drink the Water",
-            "name_fr": "Eau non potable",
-            "location": "(21, 34)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x333": {
-            "level": 10,
-            "name_en": "Under the Bridge",
-            "name_fr": "Défi: lien brisé",
-            "location": "(20, 33)",
-            "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x264": {
             "level": 9,
@@ -99,8 +48,7 @@
             "name_fr": "L'éveil des bêtes",
             "location": "(31, 15)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x265": {
             "level": 9,
@@ -108,9 +56,48 @@
             "name_fr": "Bonne pioche",
             "location": "(31, 12)",
             "patch": "2.0",
-            "previousFate": "duty.fate.la-noscea.lower-la-noscea.264",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "previousFate": "f.264",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x261": {
+            "level": 10,
+            "name_en": "In the Name of Love",
+            "name_fr": "Défi : au nom de l'amour",
+            "location": "(20, 38)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x333": {
+            "level": 10,
+            "name_en": "Under the Bridge",
+            "name_fr": "Défi : lien brisé",
+            "location": "(20, 33)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x260": {
+            "level": 11,
+            "name_en": "Away in a Bilge Hold",
+            "name_fr": "Mise au placard",
+            "location": "(21, 38)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x262": {
+            "level": 12,
+            "name_en": "Don't Drink the Water",
+            "name_fr": "Eau non potable",
+            "location": "(21, 34)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x245": {
+            "level": 13,
+            "name_en": "One Prince",
+            "name_fr": "Défi : le prince",
+            "location": "(19, 37)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

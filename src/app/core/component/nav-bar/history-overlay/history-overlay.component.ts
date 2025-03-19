@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+import { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
@@ -9,5 +10,13 @@ import { NavigationService } from '@service/navigation/navigation.service';
 })
 export class HistoryOverlayComponent {
     constructor(public svcNavigation: NavigationService) {
+    }
+
+    clearHistory(): void {
+        this.svcNavigation.clearHistory();
+    }
+
+    removeHistory(group: DataGroup): void {
+        this.svcNavigation.removeHistory(group);
     }
 }

@@ -24,7 +24,7 @@ export class BookmarkService {
         private svcData: DataService,
         private svcSave: SaveStoreService
     ) {
-        this.group = fromJson(this.svcData.data, './bookmarks');
+        this.group = fromJson(this.svcData.data, 'bookmarks');
         this.group.isBookmarkGroup = true;
         this.group.subGroups = new Map();
 

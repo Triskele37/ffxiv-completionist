@@ -1,5 +1,11 @@
 {
     "key": "harvesting",
     "groupName_en": "Harvesting",
-    "groupName_fr": "Fauche"
+    "groupName_fr": "Fauche",
+    "order": [
+        "level-based",
+        "collectables",
+        "regional-folklore",
+        "sidequests"
+    ]
 }

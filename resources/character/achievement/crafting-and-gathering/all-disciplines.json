@@ -8,93 +8,56 @@
             "name_fr": "Maître artisan d'Azurée",
             "description_en": "Earn 50,000 points toward your skyward score as a Disciple of the Hand.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'artisan.",
-            "reward": "character.minion-guide.126",
+            "reward": "mi.378",
             "patch": "5.21",
             "points": 5,
             "cPrevAny": true,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2489",
-                "character.achievement.crafting--gathering.blacksmith.2492",
-                "character.achievement.crafting--gathering.armorer.2495",
-                "character.achievement.crafting--gathering.goldsmith.2498",
-                "character.achievement.crafting--gathering.leatherworker.2501",
-                "character.achievement.crafting--gathering.weaver.2504",
-                "character.achievement.crafting--gathering.alchemist.2507",
-                "character.achievement.crafting--gathering.culinarian.2510"
-            ]
+            "cPrev": ["a.2489", "a.2492", "a.2495", "a.2498", "a.2501", "a.2504", "a.2507", "a.2510"]
         },
         "x2524": {
             "name_en": "Handking of the World",
             "name_fr": "Artisan en chef d'Azurée",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Hand.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat.",
-            "reward": "character.character.title.501",
+            "reward": "t.501",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2491",
-                "character.achievement.crafting--gathering.blacksmith.2494",
-                "character.achievement.crafting--gathering.armorer.2497",
-                "character.achievement.crafting--gathering.goldsmith.2500",
-                "character.achievement.crafting--gathering.leatherworker.2503",
-                "character.achievement.crafting--gathering.weaver.2506",
-                "character.achievement.crafting--gathering.alchemist.2509",
-                "character.achievement.crafting--gathering.culinarian.2512"
-            ],
-            "cSiblings": [
-                "character.character.title.501"
-            ],
-            "cCombo": [
-                2526
-            ]
+            "cPrev": ["a.2491", "a.2494", "a.2497", "a.2500", "a.2503", "a.2506", "a.2509", "a.2512"],
+            "cSiblings": ["t.501"],
+            "cCombo": ["a.2526"]
         },
         "x2523": {
             "name_en": "Gathering in the Air",
             "name_fr": "Maître récolteur d'Azurée",
             "description_en": "Earn 50,000 points toward your skyward score as a Disciple of the Land.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que récolteur.",
-            "reward": "character.minion-guide.140",
+            "reward": "mi.367",
             "patch": "5.21",
             "points": 5,
             "cPrevAny": true,
-            "cPrev": [
-                "character.achievement.crafting--gathering.miner.2513",
-                "character.achievement.crafting--gathering.botanist.2516",
-                "character.achievement.crafting--gathering.fisher.2519"
-            ]
+            "cPrev": ["a.2513", "a.2516", "a.2519"]
         },
         "x2525": {
             "name_en": "Landking of the World",
             "name_fr": "Récolteur en chef d'Azurée",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Land.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes de récolte.",
-            "reward": "character.character.title.502",
+            "reward": "t.502",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                "character.achievement.crafting--gathering.miner.2515",
-                "character.achievement.crafting--gathering.botanist.2518",
-                "character.achievement.crafting--gathering.fisher.2521"
-            ],
-            "cSiblings": [
-                "character.character.title.502"
-            ],
-            "cCombo": [
-                2526
-            ]
+            "cPrev": ["a.2515", "a.2518", "a.2521"],
+            "cSiblings": ["t.502"],
+            "cCombo": ["a.2526"]
         },
         "x2526": {
             "name_en": "Castle in the Sky",
             "name_fr": "Légende de la reconstruction",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Hand and Land.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat et de récolte.",
-            "reward": "character.mount-guide.139",
+            "reward": "mo.216",
             "patch": "5.21",
             "points": 20,
-            "cPrev": [
-                2524,
-                2525
-            ]
+            "cPrev": ["a.2524", "a.2525"]
         },
         "x2550": {
             "name_en": "Force of Nature I",
@@ -103,9 +66,7 @@
             "description_fr": "Utiliser 50 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2551
-            ]
+            "cNext": ["a.2551"]
         },
         "x2551": {
             "name_en": "Force of Nature II",
@@ -114,12 +75,8 @@
             "description_fr": "Utiliser 500 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2550
-            ],
-            "cNext": [
-                2552
-            ]
+            "cPrev": ["a.2550"],
+            "cNext": ["a.2552"]
         },
         "x2552": {
             "name_en": "Force of Nature III",
@@ -128,9 +85,7 @@
             "description_fr": "Utiliser 1 000 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2551
-            ]
+            "cPrev": ["a.2551"]
         },
         "x2538": {
             "name_en": "Let Luck Be a Moogle I",
@@ -141,9 +96,7 @@
             "reward_fr": "Couronne Kupo kupo",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2539
-            ]
+            "cNext": ["a.2539"]
         },
         "x2539": {
             "name_en": "Let Luck Be a Moogle II",
@@ -152,27 +105,19 @@
             "description_fr": "Gagner le premier prix 10 fois au Kupo de la fortune.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2538
-            ],
-            "cNext": [
-                2540
-            ]
+            "cPrev": ["a.2538"],
+            "cNext": ["a.2540"]
         },
         "x2540": {
             "name_en": "Let Luck Be a Moogle III",
             "name_fr": "Fortuné du kupo III",
             "description_en": "Claim first prize 30 times in Kupo of Fortune.",
             "description_fr": "Gagner le premier prix 30 fois au Kupo de la fortune.",
-            "reward": "character.character.title.514",
+            "reward": "t.514",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2539
-            ],
-            "cSiblings": [
-                "character.character.title.514"
-            ]
+            "cPrev": ["a.2539"],
+            "cSiblings": ["t.514"]
         },
         "x2890": {
             "name_en": "Work Hard, Play Hard",
@@ -187,100 +132,77 @@
             "name_fr": "Saint d'Azurée (2e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the second phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.488",
+            "reward": "t.488",
             "patch": "5.21",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.488"
-            ]
+            "cSiblings": ["t.488"]
         },
         "x2488": {
             "name_en": "Phase II Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (2e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the second phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.489",
+            "reward": "t.489",
             "patch": "5.21",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.489"
-            ]
+            "cSiblings": ["t.489"]
         },
         "x2712": {
             "name_en": "Phase III Divine Ascension",
             "name_fr": "Saint d'Azurée (3e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the third phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.547",
+            "reward": "t.547",
             "patch": "5.31",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.547"
-            ]
+            "cSiblings": ["t.547"]
         },
         "x2713": {
             "name_en": "Phase III Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (3e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the third phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.548",
+            "reward": "t.548",
             "patch": "5.31",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.548"
-            ]
+            "cSiblings": ["t.548"]
         },
         "x2785": {
             "name_en": "Phase IV Divine Ascension",
             "name_fr": "Saint d'Azurée (4e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the fourth phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.557",
+            "reward": "t.557",
             "patch": "5.41",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.557"
-            ]
+            "cSiblings": ["t.557"]
         },
         "x2786": {
             "name_en": "Phase IV Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (4e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the fourth phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
-            "reward": "character.character.title.558",
+            "reward": "t.558",
             "patch": "5.41",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.558"
-            ]
+            "cSiblings": ["t.558"]
         },
         "x2829": {
             "name_en": "Blameless Tools",
             "name_fr": "Resplendissement total",
             "description_en": "Obtain a complete set of resplendent crafter's tools.",
             "description_fr": "Obtenir tous les outils resplendissants.",
-            "reward": "character.character.title.578",
+            "reward": "t.578",
             "patch": "5.5",
             "points": 20,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2821",
-                "character.achievement.crafting--gathering.blacksmith.2822",
-                "character.achievement.crafting--gathering.armorer.2823",
-                "character.achievement.crafting--gathering.goldsmith.2824",
-                "character.achievement.crafting--gathering.leatherworker.2826",
-                "character.achievement.crafting--gathering.weaver.2825",
-                "character.achievement.crafting--gathering.alchemist.2827",
-                "character.achievement.crafting--gathering.culinarian.2828"
-            ],
-            "cSiblings": [
-                "character.character.title.578"
-            ]
+            "cPrev": ["a.2821", "a.2822", "a.2823", "a.2824", "a.2826", "a.2825", "a.2827", "a.2828"],
+            "cSiblings": ["t.578"]
         }
     }
 }

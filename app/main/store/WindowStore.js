@@ -15,7 +15,13 @@ exports.WindowStore = void 0;
 var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
+var url_1 = require("url");
 var ConfigStore_1 = require("./ConfigStore");
+/**
+ * Debug Flag
+ * - shows the main window regardless of load state (allows console access)
+ */
+var DEBUG_MODE = false;
 var WindowStore = /** @class */ (function () {
     function WindowStore() {
     }
@@ -62,23 +68,26 @@ var WindowStore = /** @class */ (function () {
             center: true
         });
         // WindowStore.splash.webContents.openDevTools();
-        WindowStore.splash.loadURL("file://".concat(__dirname, "/../../splash.html"));
+        var splashUrl = (0, url_1.pathToFileURL)(path.join(__dirname, '..', '..', 'splash.html'));
+        WindowStore.splash.loadURL(splashUrl.href);
     };
     //#endregion
     //#region------------------------------------------------------- Main Window
     WindowStore.loadMainWindow = function (isServe) {
         var oldState = WindowStore.loadWindowState();
-        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: false, webPreferences: {
+        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: DEBUG_MODE, webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,
             } }));
         WindowStore.maxOnShow = !!oldState.max;
         WindowStore.loadWindowUrl(isServe);
+        if (DEBUG_MODE)
+            WindowStore.main.webContents.openDevTools();
     };
     WindowStore.loadWindowUrl = function (isServe) {
         if (isServe) {
-            var debug = require('electron-debug');
+            var debug = require('electron-debug').default;
             debug();
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
@@ -96,7 +105,7 @@ var WindowStore = /** @class */ (function () {
             var app = '../../../app/index.html';
             if (fs.existsSync(path.join(__dirname, app)))
                 indexPath = app;
-            var url = new URL(path.join('file:', __dirname, indexPath));
+            var url = (0, url_1.pathToFileURL)(path.join(__dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     };

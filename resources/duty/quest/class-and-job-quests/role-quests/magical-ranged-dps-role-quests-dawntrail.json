@@ -1,0 +1,67 @@
+{
+    "key": "magical-ranged-dps-role-quests-dawntrail",
+    "groupName_en": "Magical Ranged DPS Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de DPS magique (Dawntrail)",
+    "tasks": {
+        "x70378": {
+            "cNext": ["q.70379"],
+            "cPrev": ["q.70353"],
+            "level": 90,
+            "name_en": "Power Forgotten",
+            "name_fr": "Un pouvoir insoupçonné",
+            "npc_en": "Tsuuhe",
+            "npc_fr": "Tsuuhe",
+            "patch": "7.0"
+        },
+        "x70379": {
+            "cNext": ["q.70380"],
+            "cPrev": ["q.70378"],
+            "level": 92,
+            "name_en": "A Brand of Justice",
+            "name_fr": "Le nouveau justicier au grand cœur",
+            "npc_en": "Tepeke",
+            "npc_fr": "Tepeke",
+            "patch": "7.0"
+        },
+        "x70380": {
+            "cNext": ["q.70381"],
+            "cPrev": ["q.70379"],
+            "level": 94,
+            "name_en": "The Seeds of Popularity",
+            "name_fr": "Enquête de popularité",
+            "npc_en": "Tepeke",
+            "npc_fr": "Tepeke",
+            "patch": "7.0"
+        },
+        "x70381": {
+            "cNext": ["q.70382"],
+            "cPrev": ["q.70380"],
+            "level": 96,
+            "name_en": "Floundering Fame",
+            "name_fr": "Les gens l'appellent l'idole des jeunes",
+            "npc_en": "Tepeke",
+            "npc_fr": "Tepeke",
+            "patch": "7.0"
+        },
+        "x70382": {
+            "cNext": ["q.70383"],
+            "cPrev": ["q.70381"],
+            "level": 98,
+            "name_en": "Behind the Helm",
+            "name_fr": "Fausses promesses et imposture",
+            "npc_en": "Tepeke",
+            "npc_fr": "Tepeke",
+            "patch": "7.0"
+        },
+        "x70383": {
+            "cPrev": ["q.70382"],
+            "cSiblings": ["a.3503"],
+            "level": 100,
+            "name_en": "Heroes and Pretenders",
+            "name_fr": "Le château de cartes s'effondre",
+            "npc_en": "Tepeke",
+            "npc_fr": "Tepeke",
+            "patch": "7.0"
+        }
+    }
+}

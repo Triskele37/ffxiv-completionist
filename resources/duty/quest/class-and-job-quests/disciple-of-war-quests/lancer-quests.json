@@ -1,0 +1,90 @@
+{
+    "key": "lancer-quests",
+    "groupName_en": "Lancer Quests",
+    "groupName_fr": "Quêtes de maître d'hast",
+    "tasks": {
+        "x65668": {
+            "level": 1,
+            "name_en": "Way of the Lancer",
+            "name_fr": "La voie de l'hast",
+            "npc_en": "Jillian",
+            "npc_fr": "Jillian",
+            "cPrev": ["q.65716"],
+            "cNext": ["q.65754", "q.65679"],
+            "patch": "4.31"
+        },
+        "x65754": {
+            "level": 1,
+            "name_en": "My First Spear",
+            "name_fr": "Ma première lance",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65668"],
+            "cNext": ["q.65583"],
+            "patch": "4.31"
+        },
+        "x65583": {
+            "level": 5,
+            "name_en": "Spear of the Fearless",
+            "name_fr": "L'hast du courage",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65754"],
+            "cNext": ["q.65679"],
+            "patch": "4.31"
+        },
+        "x65679": {
+            "level": 10,
+            "name_en": "Courage of Stone",
+            "name_fr": "La pierre du courage",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65583", "q.65668"],
+            "cNext": ["q.65591"],
+            "patch": "4.31"
+        },
+        "x65591": {
+            "level": 15,
+            "name_en": "A Dangerous Proposition",
+            "name_fr": "L'hast de la témérité",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65679"],
+            "cNext": ["q.65592"],
+            "patch": "4.31"
+        },
+        "x65592": {
+            "level": 20,
+            "name_en": "Lance of Destiny",
+            "name_fr": "Deux lances, deux destins",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65591"],
+            "cNext": ["q.65974"],
+            "patch": "4.31"
+        },
+        "x65974": {
+            "level": 25,
+            "name_en": "Questions and Lancers",
+            "name_fr": "Les trois maîtres",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65592"],
+            "cNext": ["q.65975"],
+            "patch": "4.31"
+        },
+        "x65975": {
+            "level": 30,
+            "name_en": "Proof of Might",
+            "name_fr": "Courage contre témérité",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": ["q.65974"],
+            "cNext": ["q.66603"],
+            "cSiblings": ["ap.160"],
+            "cCombo": ["a.313", "a.314"],
+            "patch": "4.31",
+            "unlock": "ap.160"
+        }
+    }
+}

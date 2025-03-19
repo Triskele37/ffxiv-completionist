@@ -1,79 +1,60 @@
 {
     "key": "gyr-abania",
-    "groupName_en": "Gyr Abania",
-    "groupName_fr": "Gyr Abania",
+    "groupName": "@PLACE.GYR_ABANIA",
     "tasks": {
         "x74": {
             "name_en": "Rhalgr's Reach",
             "name_fr": "L'Étendue de Rhalgr",
-            "zone_en": "Rhalgr's Reach",
-            "zone_fr": "L'Étendue de Rhalgr",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.RHALGRS_REACH",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x75": {
             "name_en": "Western Rhalgr's Reach",
             "name_fr": "L'Étendue de Rhalgr - ouest",
-            "zone_en": "Rhalgr's Reach",
-            "zone_fr": "L'Étendue de Rhalgr",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.RHALGRS_REACH",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x76": {
             "name_en": "Northeastern Rhalgr's Reach",
             "name_fr": "L'Étendue de Rhalgr - nord-est",
-            "zone_en": "Rhalgr's Reach",
-            "zone_fr": "L'Étendue de Rhalgr",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.RHALGRS_REACH",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x77": {
             "name_en": "Castrum Oriens",
             "name_fr": "Castrum Oriens",
-            "zone_en": "The Fringes",
-            "zone_fr": "Les Marges",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_FRINGES",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x78": {
             "name_en": "The Peering Stones",
             "name_fr": "Rochers d'aguet",
-            "zone_en": "The Fringes",
-            "zone_fr": "Les Marges",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_FRINGES",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x79": {
             "name_en": "Ala Gannha",
             "name_fr": "Ala Gannha",
-            "zone_en": "The Peaks",
-            "zone_fr": "les Pics",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_PEAKS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x80": {
             "name_en": "Ala Ghiri",
             "name_fr": "Ala Ghiri",
-            "zone_en": "The Peaks",
-            "zone_fr": "les Pics",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_PEAKS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x81": {
             "name_en": "Porta Praetoria",
             "name_fr": "Porta Praetoria",
-            "zone_en": "The Lochs",
-            "zone_fr": "Les Lacs",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_LOCHS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x82": {
             "name_en": "The Ala Mhigan Quarter",
             "name_fr": "Faubourg mhigois",
-            "zone_en": "The Lochs",
-            "zone_fr": "Les Lacs",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_LOCHS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         }
     }
 }

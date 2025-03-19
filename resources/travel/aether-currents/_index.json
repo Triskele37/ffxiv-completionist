@@ -4,17 +4,22 @@
     "groupName_fr": "Vents éthérés",
     "headers": {
         "name": {
-            "header_en": "#",
-            "header_fr": "#"
+            "header": "@HEADER.NUMBER"
         },
         "location": {
-            "header_en": "Coordinates",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.COORDINATES"
         },
         "quest": {
             "link": true,
             "header_en": "Quest",
             "header_fr": "Quêtes"
         }
-    }
+    },
+    "order": [
+        "hw",
+        "sb",
+        "shb",
+        "ew",
+        "dt"
+    ]
 }

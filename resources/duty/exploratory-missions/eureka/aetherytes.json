@@ -4,12 +4,10 @@
     "groupName_fr": "Éthérites",
     "headers": {
         "name": {
-            "header_en": "Location",
-            "header_fr": "Lieu"
+            "header": "@HEADER.NAME"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "eLvlReq": {
             "header_en": "eLvl Required",

@@ -17,12 +17,8 @@
             "name_fr": "Les fruits du soleil",
             "npc_en": "Bhirdraeg",
             "npc_fr": "Bhirdraeg",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65998"
-            ],
-            "cNext": [
-                66009
-            ],
+            "cPrev": ["q.65998"],
+            "cNext": ["q.66009"],
             "patch": "4.31"
         },
         "x66006": {
@@ -39,9 +35,7 @@
             "name_fr": "Touche pas à mes petites bêtes",
             "npc_en": "Bhirdraeg",
             "npc_fr": "Bhirdraeg",
-            "cPrev": [
-                66008
-            ],
+            "cPrev": ["q.66008"],
             "patch": "4.31"
         },
         "x66010": {
@@ -50,9 +44,7 @@
             "name_fr": "Remède contre les bagarres",
             "npc_en": "Khanmhar",
             "npc_fr": "Khanmhar",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66002"
-            ],
+            "cPrev": ["q.66002"],
             "patch": "4.31"
         },
         "x65935": {
@@ -69,12 +61,8 @@
             "name_fr": "Il est frais, mon poisson",
             "npc_en": "Kazai Buoyzai",
             "npc_fr": "Kazai Buoyzai",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65933"
-            ],
-            "cNext": [
-                65937
-            ],
+            "cPrev": ["q.65933"],
+            "cNext": ["q.65937"],
             "patch": "4.31"
         },
         "x65937": {
@@ -83,9 +71,7 @@
             "name_fr": "Busard, vous avez dit busard",
             "npc_en": "Kazai Buoyzai",
             "npc_fr": "Kazai Buoyzai",
-            "cPrev": [
-                65936
-            ],
+            "cPrev": ["q.65936"],
             "patch": "4.31"
         }
     }

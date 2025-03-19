@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 
 import { GuideModule } from './guide/guide.module';
 import { PatchNotesModule } from './patch-notes/patch-notes.module';
+import { PatchViewModule } from './patch-view/patch-view.module';
 import { RandomModule } from './random/random.module';
+import { ChainAnalysisModule } from './chain-analysis/chain-analysis.module';
 import { SettingsModule } from './settings/settings.module';
 import { SearchModule } from './search/search.module';
 
@@ -13,14 +15,18 @@ import { SearchModule } from './search/search.module';
     imports: [
         GuideModule,
         PatchNotesModule,
+        PatchViewModule,
         RandomModule,
+        ChainAnalysisModule,
         SettingsModule,
         SearchModule,
     ],
     exports: [
         GuideModule,
         PatchNotesModule,
+        PatchViewModule,
         RandomModule,
+        ChainAnalysisModule,
         SettingsModule,
         SearchModule,
     ]

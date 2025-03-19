@@ -6,6 +6,8 @@ import { createDataGroup } from '@model/DataGroup/createDataGroup';
 
 import { GuideComponent } from '../../../view/guide/guide.component';
 import { PatchNotesComponent } from '../../../view/patch-notes/patch-notes.component';
+import { PatchViewComponent } from '../../../view/patch-view/patch-view.component';
+import { ChainAnalysisComponent } from '../../../view/chain-analysis/chain-analysis.component';
 import { RandomComponent } from '../../../view/random/random.component';
 import { SettingsComponent } from '../../../view/settings/settings.component';
 import { SearchComponent } from '../../../view/search/search.component';
@@ -29,7 +31,9 @@ export class MainMenuService {
         this.data.subGroups = new Map();
         this.addGuide();
         this.addPatchNotes();
+        this.addPatchView();
         this.addRandom();
+        this.addChainAnalysis();
         this.addSettings();
         this.addSearch();
     }
@@ -54,11 +58,31 @@ export class MainMenuService {
         this.data.subGroups.set(patchNotes._key, patchNotes);
     }
 
+    addPatchView(): void {
+        const patchView = createDataGroup({
+            key: 'patch-view',
+            groupName: this.translate.instant('MAIN.PATCH_VIEW.TITLE'),
+            component: PatchViewComponent
+        }, this.data);
+
+        this.data.subGroups.set(patchView._key, patchView);
+    }
+
     addRandom(): void {
         const random = createDataGroup({
             key: 'random',
             groupName: this.translate.instant('MAIN.RANDOM.TITLE'),
             component: RandomComponent
+        }, this.data);
+
+        this.data.subGroups.set(random._key, random);
+    }
+
+    addChainAnalysis(): void {
+        const random = createDataGroup({
+            key: 'chain-analysis',
+            groupName: this.translate.instant('MAIN.CHAIN_ANALYSIS.TITLE'),
+            component: ChainAnalysisComponent
         }, this.data);
 
         this.data.subGroups.set(random._key, random);

@@ -8,10 +8,8 @@
             "name_en": "Worm Food",
             "name_fr": "Soudoiement aux vers blancs",
             "npc_en": "Flea-bitten Scavenger",
-            "npc_fr": "chasseur de trésors",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68828"
-            ],
+            "npc_fr": "Chasseur De Trésors",
+            "cPrev": ["q.68828"],
             "patch": "5.0"
         },
         "x68898": {
@@ -20,9 +18,7 @@
             "name_fr": "Le Mord entrepreneur",
             "npc_en": "Bhil Bil",
             "npc_fr": "Bhil Bil",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68828"
-            ],
+            "cPrev": ["q.68828"],
             "patch": "5.0"
         },
         "x68899": {
@@ -31,12 +27,8 @@
             "name_fr": "Un papa inquiet",
             "npc_en": "Ghin Gin",
             "npc_fr": "Ghin Gin",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68828"
-            ],
-            "cNext": [
-                68900
-            ],
+            "cPrev": ["q.68828"],
+            "cNext": ["q.68900"],
             "patch": "5.0"
         },
         "x68900": {
@@ -45,9 +37,7 @@
             "name_fr": "Le papa gâteau",
             "npc_en": "Thaymoth",
             "npc_fr": "Thaymoth",
-            "cPrev": [
-                68899
-            ],
+            "cPrev": ["q.68899"],
             "patch": "5.0"
         },
         "x68901": {
@@ -55,10 +45,8 @@
             "name_en": "A Shiver Down the Spine",
             "name_fr": "L'épreuve de courage",
             "npc_en": "Skittish Mord",
-            "npc_fr": "Mord paniqué",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68828"
-            ],
+            "npc_fr": "Mord Paniqué",
+            "cPrev": ["q.68828"],
             "patch": "5.0"
         },
         "x68902": {
@@ -66,9 +54,8 @@
             "name_en": "Pass the Parcel",
             "name_fr": "Une offre d'emploi trop belle pour être vraie",
             "npc_en": "Poorly Scribed Flyer",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68828"
-            ],
+            "npc_fr": "Annonce D'offre D'emploi",
+            "cPrev": ["q.68828"],
             "patch": "5.0"
         },
         "x68903": {
@@ -77,9 +64,7 @@
             "name_fr": "Délicieux nectar",
             "npc_en": "Lamon",
             "npc_fr": "Lamon",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68832"
-            ],
+            "cPrev": ["q.68832"],
             "patch": "5.0"
         },
         "x68904": {
@@ -87,10 +72,8 @@
             "name_en": "From Darts till Dawn",
             "name_fr": "Le souvenir perdu",
             "npc_en": "Bleary-eyed Guard",
-            "npc_fr": "garde aux traits fatigués",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68832"
-            ],
+            "npc_fr": "Garde Aux Traits Fatigués",
+            "cPrev": ["q.68832"],
             "patch": "5.0"
         },
         "x68905": {
@@ -99,9 +82,7 @@
             "name_fr": "Partir ou rester?",
             "npc_en": "Wrenric",
             "npc_fr": "Wrenric",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68832"
-            ],
+            "cPrev": ["q.68832"],
             "patch": "5.0"
         },
         "x68906": {
@@ -110,9 +91,7 @@
             "name_fr": "Échanges commerciaux",
             "npc_en": "Willfort",
             "npc_fr": "Willfort",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68832"
-            ],
+            "cPrev": ["q.68832"],
             "patch": "5.0"
         },
         "x68911": {
@@ -122,15 +101,9 @@
             "unlock": "travel.aether-currents.shb.amh-araeng.13",
             "npc_en": "Ghen Gen",
             "npc_fr": "Ghen Gen",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68829"
-            ],
-            "cNext": [
-                68912
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.amh-araeng.13"
-            ],
+            "cPrev": ["q.68829"],
+            "cNext": ["q.68912"],
+            "cSiblings": ["travel.aether-currents.shb.amh-araeng.13"],
             "patch": "5.0"
         },
         "x68912": {
@@ -139,12 +112,8 @@
             "name_fr": "Le prix du sceau",
             "npc_en": "Ghun Gun",
             "npc_fr": "Ghun Gun",
-            "cPrev": [
-                68911
-            ],
-            "cNext": [
-                68913
-            ],
+            "cPrev": ["q.68911"],
+            "cNext": ["q.68913"],
             "patch": "5.0"
         },
         "x68913": {
@@ -153,12 +122,8 @@
             "name_fr": "Les reliques de Nabaath Areng",
             "npc_en": "Ghun Gun",
             "npc_fr": "Ghun Gun",
-            "cPrev": [
-                68912
-            ],
-            "cNext": [
-                68914
-            ],
+            "cPrev": ["q.68912"],
+            "cNext": ["q.68914"],
             "patch": "5.0"
         },
         "x68914": {
@@ -167,12 +132,8 @@
             "name_fr": "Le fantôme de Nabaath Areng",
             "npc_en": "Ghun Gun",
             "npc_fr": "Ghun Gun",
-            "cPrev": [
-                68913
-            ],
-            "cNext": [
-                69065
-            ],
+            "cPrev": ["q.68913"],
+            "cNext": ["q.69065"],
             "patch": "5.0"
         },
         "x69022": {
@@ -180,10 +141,8 @@
             "name_en": "Where There's a Well, There's a Way",
             "name_fr": "Pas de sales bêtes au puits",
             "npc_en": "Dusty Merchant",
-            "npc_fr": "marchand de Cristarium",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "npc_fr": "Marchand De Cristarium",
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69023": {
@@ -192,9 +151,7 @@
             "name_fr": "Une cueillette dangereuse",
             "npc_en": "Mhon Mon",
             "npc_fr": "Mhon Mon",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69024": {
@@ -203,9 +160,7 @@
             "name_fr": "Un Mord sans gourde est un Mord mort",
             "npc_en": "Ghon Gon",
             "npc_fr": "Ghon Gon",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69025": {
@@ -214,9 +169,7 @@
             "name_fr": "Les souvenirs des gens partis",
             "npc_en": "Rhil Ril",
             "npc_fr": "Rhil Ril",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69026": {
@@ -224,10 +177,8 @@
             "name_en": "Shine On You Crazy Mordling",
             "name_fr": "Des étoiles sur le balcon",
             "npc_en": "Paternal Mord",
-            "npc_fr": "père mord",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "npc_fr": "Père Mord",
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69027": {
@@ -236,9 +187,7 @@
             "name_fr": "Y a un lézard avec ce lézard",
             "npc_en": "Bhol Bol",
             "npc_fr": "Bhol Bol",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69146"
-            ],
+            "cPrev": ["q.69146"],
             "patch": "5.0"
         },
         "x69028": {
@@ -247,9 +196,7 @@
             "name_fr": "Des travailleurs trop appliqués",
             "npc_en": "Hathenstein",
             "npc_fr": "Hathenstein",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69029": {
@@ -257,10 +204,8 @@
             "name_en": "I Drink, Therefore I Am (in Trouble)",
             "name_fr": "Casse la figure à Guthlaugur",
             "npc_en": "Wild-eyed Miner",
-            "npc_fr": "travailleur effrayé",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Travailleur Effrayé",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69030": {
@@ -269,9 +214,7 @@
             "name_fr": "Remède pour vieux mineur",
             "npc_en": "Harlolth",
             "npc_fr": "Harlolth",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69031": {
@@ -279,10 +222,8 @@
             "name_en": "Whistle While You Shirk",
             "name_fr": "Allez, au travail les jeunes!",
             "npc_en": "Elderly Miner",
-            "npc_fr": "vieux travailleur",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Vieux Travailleur",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69032": {
@@ -290,10 +231,8 @@
             "name_en": "Prankster's Paradise",
             "name_fr": "Une question presque de vie ou de mort",
             "npc_en": "Shifty-eyed Miner",
-            "npc_fr": "travailleur arrogant",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Travailleur Arrogant",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69033": {
@@ -301,10 +240,8 @@
             "name_en": "A Tab in the Dark",
             "name_fr": "Une pierre pour une créance",
             "npc_en": "Hapless Miner",
-            "npc_fr": "travailleur endetté",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Travailleur Endetté",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69034": {
@@ -313,9 +250,7 @@
             "name_fr": "Ah, qu'il grince, mon moulin!",
             "npc_en": "Minebern",
             "npc_fr": "Minebern",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69035": {
@@ -324,12 +259,8 @@
             "name_fr": "Perdus de vue dans les mines",
             "npc_en": "Annine",
             "npc_fr": "Annine",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69151"
-            ],
-            "cNext": [
-                69036
-            ],
+            "cPrev": ["q.69151"],
+            "cNext": ["q.69036"],
             "patch": "5.0"
         },
         "x69036": {
@@ -337,10 +268,8 @@
             "name_en": "The Brother Lode",
             "name_fr": "Dans les mines, on touche du bois",
             "npc_en": "Stocky Miner",
-            "npc_fr": "Galdjent imposant",
-            "cPrev": [
-                69035
-            ],
+            "npc_fr": "Galdjent Imposant",
+            "cPrev": ["q.69035"],
             "patch": "5.0"
         },
         "x69037": {
@@ -348,10 +277,8 @@
             "name_en": "Flower for a Friend",
             "name_fr": "À la mémoire d'un ami disparu",
             "npc_en": "Taciturn Miner",
-            "npc_fr": "Ronso corpulent",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Ronso Corpulent",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69038": {
@@ -360,9 +287,7 @@
             "name_fr": "La lumière dans les ruines",
             "npc_en": "Tofrith",
             "npc_fr": "Tofrith",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69039": {
@@ -371,16 +296,10 @@
             "name_fr": "Chasseurs de trésors en détresse",
             "unlock": "travel.aether-currents.shb.amh-araeng.12",
             "npc_en": "Quick-witted Scavenger",
-            "npc_fr": "chasseur de trésors mord",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
-            "cNext": [
-                69040
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.amh-araeng.12"
-            ],
+            "npc_fr": "Chasseur De Trésors Mord",
+            "cPrev": ["q.69149"],
+            "cNext": ["q.69040"],
+            "cSiblings": ["travel.aether-currents.shb.amh-araeng.12"],
             "patch": "5.0"
         },
         "x69040": {
@@ -388,13 +307,9 @@
             "name_en": "Town Haul",
             "name_fr": "Chasseurs de trésors en besoin",
             "npc_en": "Seasoned Scavenger",
-            "npc_fr": "chasseur de trésors chevronné",
-            "cPrev": [
-                69039
-            ],
-            "cNext": [
-                69041
-            ],
+            "npc_fr": "Chasseur De Trésors Chevronné",
+            "cPrev": ["q.69039"],
+            "cNext": ["q.69041"],
             "patch": "5.0"
         },
         "x69041": {
@@ -402,10 +317,8 @@
             "name_en": "Worm in the Ointment",
             "name_fr": "Chasseurs de trésors en rétablissement",
             "npc_en": "Seasoned Scavenger",
-            "npc_fr": "chasseur de trésors chevronné",
-            "cPrev": [
-                69040
-            ],
+            "npc_fr": "Chasseur De Trésors Chevronné",
+            "cPrev": ["q.69040"],
             "patch": "5.0"
         },
         "x69042": {
@@ -414,12 +327,8 @@
             "name_fr": "La chasse au gros œuf",
             "npc_en": "Dalric",
             "npc_fr": "Dalric",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
-            "cNext": [
-                69043
-            ],
+            "cPrev": ["q.69149"],
+            "cNext": ["q.69043"],
             "patch": "5.0"
         },
         "x69043": {
@@ -428,9 +337,7 @@
             "name_fr": "Vengeance contre volatile violent",
             "npc_en": "Dalric",
             "npc_fr": "Dalric",
-            "cPrev": [
-                69042
-            ],
+            "cPrev": ["q.69042"],
             "patch": "5.0"
         },
         "x69044": {
@@ -438,10 +345,8 @@
             "name_en": "Repair for the Worst",
             "name_fr": "État des lieux délabrés",
             "npc_en": "Restless Laborer",
-            "npc_fr": "travailleur soucieux",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "npc_fr": "Travailleur Soucieux",
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69045": {
@@ -450,9 +355,7 @@
             "name_fr": "Des rayures comme signe d'amour",
             "npc_en": "Andri",
             "npc_fr": "Andri",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69046": {
@@ -461,9 +364,7 @@
             "name_fr": "La lettre cryptée d'un ami défunt",
             "npc_en": "Drery",
             "npc_fr": "Drery",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69149"
-            ],
+            "cPrev": ["q.69149"],
             "patch": "5.0"
         },
         "x69047": {
@@ -473,16 +374,9 @@
             "unlock": "travel.aether-currents.shb.amh-araeng.11",
             "npc_en": "Sveinn",
             "npc_fr": "Sveinn",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69151"
-            ],
-            "cNext": [
-                69048,
-                69049
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.amh-araeng.11"
-            ],
+            "cPrev": ["q.69151"],
+            "cNext": ["q.69048", "q.69049"],
+            "cSiblings": ["travel.aether-currents.shb.amh-araeng.11"],
             "patch": "5.0"
         },
         "x69048": {
@@ -491,12 +385,8 @@
             "name_fr": "Mettre de l'huile",
             "npc_en": "Hilmar",
             "npc_fr": "Hilmar",
-            "cPrev": [
-                69047
-            ],
-            "cNext": [
-                69050
-            ],
+            "cPrev": ["q.69047"],
+            "cNext": ["q.69050"],
             "patch": "5.0"
         },
         "x69049": {
@@ -504,13 +394,9 @@
             "name_en": "Gnome Ore Heroes",
             "name_fr": "À bas les gnomes!",
             "npc_en": "Fiery Young Lad",
-            "npc_fr": "garçon motivé",
-            "cPrev": [
-                69047
-            ],
-            "cNext": [
-                69050
-            ],
+            "npc_fr": "Garçon Motivé",
+            "cPrev": ["q.69047"],
+            "cNext": ["q.69050"],
             "patch": "5.0"
         },
         "x69050": {
@@ -519,10 +405,7 @@
             "name_fr": "Ceci n'est pas une simple pipe",
             "npc_en": "Haraldur",
             "npc_fr": "Haraldur",
-            "cPrev": [
-                69048,
-                69049
-            ],
+            "cPrev": ["q.69048", "q.69049"],
             "patch": "5.0"
         },
         "x69066": {
@@ -530,10 +413,8 @@
             "name_en": "No Disassemble",
             "name_fr": "Objectif réactivation",
             "npc_en": "Talos Enthusiast",
-            "npc_fr": "ouvrier passionné de talos",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69157"
-            ],
+            "npc_fr": "Ouvrier Passionné De Talos",
+            "cPrev": ["q.69157"],
             "patch": "5.0"
         },
         "x69067": {
@@ -541,10 +422,8 @@
             "name_en": "Thy Well Be Done",
             "name_fr": "Inspection de matériel",
             "npc_en": "Intrepid Miner",
-            "npc_fr": "ouvrier motivé",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69157"
-            ],
+            "npc_fr": "Ouvrier Motivé",
+            "cPrev": ["q.69157"],
             "patch": "5.0"
         },
         "x69068": {
@@ -552,10 +431,8 @@
             "name_en": "The Crystal Knaves",
             "name_fr": "Tout ce qui brille n'est pas de diamant",
             "npc_en": "Battle-ready Mord",
-            "npc_fr": "guerrier mord",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69157"
-            ],
+            "npc_fr": "Guerrier Mord",
+            "cPrev": ["q.69157"],
             "patch": "5.0"
         },
         "x69061": {
@@ -565,15 +442,9 @@
             "unlock": "travel.aether-currents.shb.amh-araeng.10",
             "npc_en": "Horthur",
             "npc_fr": "Horthur",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69153"
-            ],
-            "cNext": [
-                69062
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.amh-araeng.10"
-            ],
+            "cPrev": ["q.69153"],
+            "cNext": ["q.69062"],
+            "cSiblings": ["travel.aether-currents.shb.amh-araeng.10"],
             "patch": "5.0"
         },
         "x69062": {
@@ -582,12 +453,8 @@
             "name_fr": "Seul contre tous",
             "npc_en": "Kee-Satt",
             "npc_fr": "Kee-Satt",
-            "cPrev": [
-                69061
-            ],
-            "cNext": [
-                69063
-            ],
+            "cPrev": ["q.69061"],
+            "cNext": ["q.69063"],
             "patch": "5.0"
         },
         "x69063": {
@@ -596,12 +463,8 @@
             "name_fr": "Le sens de Queues-liées",
             "npc_en": "Kee-Satt",
             "npc_fr": "Kee-Satt",
-            "cPrev": [
-                69062
-            ],
-            "cNext": [
-                69064
-            ],
+            "cPrev": ["q.69062"],
+            "cNext": ["q.69064"],
             "patch": "5.0"
         },
         "x69064": {
@@ -610,12 +473,8 @@
             "name_fr": "L'union fait la force",
             "npc_en": "Kee-Satt",
             "npc_fr": "Kee-Satt",
-            "cPrev": [
-                69063
-            ],
-            "cNext": [
-                69065
-            ],
+            "cPrev": ["q.69063"],
+            "cNext": ["q.69065"],
             "patch": "5.0"
         },
         "x69065": {
@@ -624,10 +483,7 @@
             "name_fr": "La troisième queue",
             "npc_en": "Horthur",
             "npc_fr": "Horthur",
-            "cPrev": [
-                68914,
-                69064
-            ],
+            "cPrev": ["q.68914", "q.69064"],
             "patch": "5.0"
         }
     }

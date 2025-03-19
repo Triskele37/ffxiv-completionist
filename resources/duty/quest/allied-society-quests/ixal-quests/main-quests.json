@@ -1,0 +1,99 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x67022": {
+            "level": 1,
+            "name_en": "A Bad Bladder",
+            "name_fr": "Qui sème le vent récolte des plumes",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cPrev": ["q.66488"],
+            "cNext": ["q.67023"],
+            "patch": "4.31"
+        },
+        "x67023": {
+            "level": 1,
+            "name_en": "Reaching for Cloud Nine",
+            "name_fr": "Les planeurs sans ailes",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "cPrev": ["q.67022"],
+            "cNext": ["q.67024", "q.67105"],
+            "cSiblings": ["character.character.societal-relations.20"],
+            "patch": "4.31"
+        },
+        "x67024": {
+            "level": 3,
+            "name_en": "A Designer Job",
+            "name_fr": "Recherche ingénieur désespérément",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "cPrev": ["q.67023"],
+            "cNext": ["q.67025"],
+            "cSiblings": ["character.character.societal-relations.21"],
+            "patch": "4.31"
+        },
+        "x67025": {
+            "level": 6,
+            "name_en": "The Boy from Gridania",
+            "name_fr": "L'héritier malgré lui",
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "cPrev": ["q.67024"],
+            "cNext": ["q.67026"],
+            "cSiblings": ["character.character.societal-relations.22"],
+            "patch": "4.31"
+        },
+        "x67026": {
+            "level": 10,
+            "name_en": "Lathe to the Party",
+            "name_fr": "Une amitié de longue date",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "cPrev": ["q.67025"],
+            "cNext": ["q.67027"],
+            "cSiblings": ["character.character.societal-relations.23"],
+            "patch": "4.31"
+        },
+        "x67027": {
+            "level": 15,
+            "name_en": "Standing at the Helm",
+            "name_fr": "Le meurtre du père",
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "reputation": "@REPUTATION.TRUSTED",
+            "cPrev": ["q.67026"],
+            "cNext": ["q.67028"],
+            "cSiblings": ["character.character.societal-relations.24"],
+            "patch": "4.31"
+        },
+        "x67028": {
+            "level": 16,
+            "name_en": "Never Be Royal",
+            "name_fr": "Rêves et réalités",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation": "@REPUTATION.RESPECTED",
+            "cPrev": ["q.67027"],
+            "cNext": ["q.67029"],
+            "cSiblings": ["character.character.societal-relations.25"],
+            "patch": "4.31"
+        },
+        "x67029": {
+            "level": 18,
+            "name_en": "Spread Your Wings and Soar",
+            "name_fr": "Plus près des étoiles",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation": "@REPUTATION.HONORED",
+            "cPrev": ["q.67028"],
+            "cSiblings": ["character.character.societal-relations.26"],
+            "patch": "4.31"
+        }
+    }
+}

@@ -7,13 +7,11 @@
             "level": "90★★★",
             "name_en": "Raw Spodumene",
             "name_fr": "Spodumène brut",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(30.3, 18.3)",
             "nodeTimer": "08:00 / 20:00",
-            "closestAetheryte_en": "Anagnorisis",
-            "closestAetheryte_fr": "Anagnorisis",
-            "patch": "6.4"
+            "patch": "6.4",
+            "closestAetheryte": "travel.aetherytes.others.157"
         }
     }
 }

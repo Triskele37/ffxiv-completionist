@@ -2,14 +2,17 @@
     "key": "log",
     "groupName_en": "Log",
     "groupName_fr": "Carnet bleu",
+    "order": ["dungeon", "trial", "raid"],
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     }
 }

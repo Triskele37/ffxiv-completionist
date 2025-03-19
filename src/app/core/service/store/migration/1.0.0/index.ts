@@ -1,3 +1,5 @@
+import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
@@ -10,8 +12,8 @@ import { migrateAetherytes } from './aetherytes';
 import { migrateGatheringLogs } from './gathering-log';
 import { migrateAetherCurrents } from './aether-current';
 
-export function migrateTo_1_0_0(svcSaveStore: SaveStoreService): void {
-    const store = new ChangeStore(svcSaveStore, '1.0.0');
+export function migrateTo_1_0_0(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.0');
 
     // Renamed key
     store.moveGroup(

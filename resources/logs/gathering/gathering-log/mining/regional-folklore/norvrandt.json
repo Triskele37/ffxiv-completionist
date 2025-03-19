@@ -7,85 +7,71 @@
             "level": "80★",
             "name_en": "Tungsten Ore",
             "name_fr": "Minerai de tungstène",
-            "zone_en": "The Tempest",
-            "zone_fr": "La Tempête",
+            "zone": "@PLACE.THE_TEMPEST",
             "coordinates": "(32, 7)",
             "nodeTimer": "10:00 / 22:00",
-            "closestAetheryte_en": "The Ondo Cups",
-            "closestAetheryte_fr": "Baïne",
-            "patch": "5.0"
+            "patch": "5.0",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129"
         },
         "x1": {
             "level": "80★",
             "name_en": "Prismstone",
             "name_fr": "Cristal irridescent",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "zone": "@PLACE.IL_MHEG",
             "coordinates": "(30, 20)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Wolekdorf",
-            "closestAetheryte_fr": "Wolekdorf",
-            "patch": "5.0"
+            "patch": "5.0",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126"
         },
         "x2": {
             "level": "80★",
             "name_en": "Beryllium Ore",
             "name_fr": "Minerai de béryllium",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "zone": "@PLACE.IL_MHEG",
             "coordinates": "(30, 20)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Wolekdorf",
-            "closestAetheryte_fr": "Wolekdorf",
-            "patch": "5.1"
+            "patch": "5.1",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126"
         },
         "x3": {
             "level": "80★★",
             "name_en": "Fireheart Cobalt",
             "name_fr": "Minerai de cobaltite",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "zone": "@PLACE.LAKELAND",
             "coordinates": "(4, 33)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "The Ostall Imperative",
-            "closestAetheryte_fr": "L'Impératif d'Ostall",
-            "patch": "5.2"
+            "patch": "5.2",
+            "closestAetheryte": "travel.aetherytes.norvrandt.117"
         },
         "x4": {
             "level": "80★★",
             "name_en": "Brashgold Ore",
             "name_fr": "Minerai d'étain argenté",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "zone": "@PLACE.LAKELAND",
             "coordinates": "(4, 33)",
             "nodeTimer": "02:00 / 14:00",
-            "closestAetheryte_en": "The Ostall Imperative",
-            "closestAetheryte_fr": "L'Impératif d'Ostall",
-            "patch": "5.3"
+            "patch": "5.3",
+            "closestAetheryte": "travel.aetherytes.norvrandt.117"
         },
         "x5": {
             "level": "80★★★",
             "name_en": "Dolomite",
             "name_fr": "Minerai de dolomite",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "zone": "@PLACE.RAK_TIKA",
             "coordinates": "(8, 30)",
             "nodeTimer": "08:00 / 20:00",
-            "closestAetheryte_en": "Slitherbough",
-            "closestAetheryte_fr": "Serpentige",
-            "patch": "5.4"
+            "patch": "5.4",
+            "closestAetheryte": "travel.aetherytes.norvrandt.127"
         },
         "x6": {
             "level": "80★★★",
             "name_en": "Hard Water",
             "name_fr": "Eau dure",
-            "zone_en": "Kholusia",
-            "zone_fr": "Kholusia",
+            "zone": "@PLACE.KHOLUSIA",
             "coordinates": "(36, 12)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Tomra",
-            "closestAetheryte_fr": "Tomra",
-            "patch": "5.4"
+            "patch": "5.4",
+            "closestAetheryte": "travel.aetherytes.norvrandt.120"
         }
     }
 }

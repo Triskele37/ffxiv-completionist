@@ -1,0 +1,157 @@
+{
+    "key": "facewear",
+    "groupName_en": "Facewear",
+    "groupName_fr": "Accessoires Faciaux",
+    "headers": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x14": {
+            "name_en": "Oval Spectacles",
+            "name_fr": "Lunettes de lecture ovales",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@100,000 CURRENCY.MGP",
+            "patch": "7.0"
+        },
+        "x1": {
+            "name_en": "Shaded Spectacles",
+            "name_fr": "Lunettes teintées",
+            "category": "@CATEGORY.PVP",
+            "source": "@SOURCE.SERIES_REWARD",
+            "patch": "7.0",
+            "defaultCompletion": "X"
+        },
+        "x2": {
+            "name_en": "Classic Spectacles",
+            "name_fr": "Lunettes classiques",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.THE_INDIGO_SHALLOWS",
+            "patch": "7.0"
+        },
+        "x3": {
+            "name_en": "Rose-colored Spectacles",
+            "name_fr": "Lunettes roses",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (3 CURRENCY.VCD.ROKKON_POTSHERD)",
+            "patch": "7.0"
+        },
+        "x4": {
+            "name_en": "Simple Spectacles",
+            "name_fr": "Lunettes basiques",
+            "category": "@CATEGORY.PURCHASE",
+            "source": [
+                "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)"
+            ],
+            "patch": "7.0"
+        },
+        "x5": {
+            "name_en": "Monocle",
+            "name_fr": "Monocle",
+            "category": "@CATEGORY.PURCHASE",
+            "source": [
+                "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)"
+            ],
+            "patch": "7.0"
+        },
+        "x6": {
+            "name_en": "Contemporary Pince-nez",
+            "name_fr": "Pince-nez moderne",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@40,000 CURRENCY.MGP",
+            "patch": "7.0"
+        },
+        "x7": {
+            "name_en": "Rimless Glasses",
+            "name_fr": "Lunettes à monture percée",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@70,000 CURRENCY.MGP",
+            "patch": "7.0"
+        },
+        "x8": {
+            "name_en": "Thick-rimmed Glasses",
+            "name_fr": "Lunettes à bordure épaisse",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "patch": "7.0"
+        },
+        "x9": {
+            "name_en": "Minstrel's Spectacles",
+            "name_fr": "Lunettes de ménestrel",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@90,000 CURRENCY.MGP",
+            "patch": "7.0"
+        },
+        "x10": {
+            "name_en": "Prince-nez",
+            "name_fr": "Pince-nez",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "patch": "7.1"
+        },
+        "x11": {
+            "name_en": "Magnifiers",
+            "name_fr": "Lunettes loupes",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@40,000 CURRENCY.MGP",
+            "patch": "7.1"
+        },
+        "x12": {
+            "name_en": "Brass Goggles",
+            "name_fr": "Lunettes de sécurité",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "patch": "7.1"
+        },
+        "x13": {
+            "name_en": "Under-rim Glasses",
+            "name_fr": "Lunettes à demi-monture inférieure",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (500 CURRENCY.SCRIP.SECONDARY_CRAFTERS)",
+            "patch": "7.1"
+        },
+        "x0": {
+            "name_en": "Oval Reading Glasses",
+            "name_fr": "Lunettes ovales",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@70,000 CURRENCY.MGP",
+            "patch": "7.1"
+        },
+        "x15": {
+            "name_en": "Elegant Rimless Glasses",
+            "name_fr": "Lunettes sans monture élégantes",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@90,000 CURRENCY.MGP",
+            "patch": "7.1"
+        },
+        "x16": {
+            "name_en": "Cat Eye Glasses",
+            "name_fr": "Lunettes œil-de-chat",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.1"
+        },
+        "x17": {
+            "name_en": "Slim Frame Glasses",
+            "name_fr": "Lunettes à monture fine",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.1"
+        }
+    }
+}

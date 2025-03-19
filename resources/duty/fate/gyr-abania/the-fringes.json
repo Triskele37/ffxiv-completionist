@@ -1,232 +1,14 @@
 {
     "key": "the-fringes",
-    "groupName_en": "The Fringes",
-    "groupName_fr": "Les Marges",
+    "groupName": "@PLACE.THE_FRINGES",
     "tasks": {
-        "x1115": {
-            "level": 60,
-            "name_en": "Death Beckons",
-            "name_fr": "Et au milieu coule un ruisseau",
-            "location": "(12.5, 11.3)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1116": {
-            "level": 60,
-            "name_en": "Unbearable",
-            "name_fr": "Danse avec les ours",
-            "location": "(10.1, 12.6)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1117": {
-            "level": 61,
-            "name_en": "The Secret Life of Plants",
-            "name_fr": "Saprias, c'est fini",
-            "location": "(12, 25.8)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1118": {
-            "level": 60,
-            "name_en": "Dizzy Miss Grizzly",
-            "name_fr": "Défi: bon ours, bon œil",
-            "location": "(11.9, 16.7)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1119": {
-            "level": 60,
-            "name_en": "Roid Rage",
-            "name_fr": "Défi: dopage alchimique",
-            "location": "(18, 11)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1120": {
-            "level": 60,
-            "name_en": "Keeping the Peace",
-            "name_fr": "Purge aux Marges",
-            "location": "(28.6, 12.0)",
-            "patch": "4.0",
-            "type_en": "Escort",
-            "type_fr": "Escorte"
-        },
-        "x1121": {
-            "level": 60,
-            "name_en": "Keeping More Peace",
-            "name_fr": "Nouvelle purge aux Marges",
-            "location": "(23.7, 14.0)",
-            "patch": "4.0",
-            "type_en": "Escort",
-            "type_fr": "Escorte"
-        },
-        "x1122": {
-            "level": 60,
-            "name_en": "Double Dhara",
-            "name_fr": "Gare aux dharas",
-            "location": "(23, 10)",
-            "patch": "4.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x1124": {
-            "level": 60,
-            "name_en": "Bold This Way",
-            "name_fr": "Gaganas pique-assiette",
-            "location": "(27, 10)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1125": {
-            "level": 61,
-            "name_en": "The Morning After",
-            "name_fr": "Pulsions déplacées",
-            "location": "(10.7, 29.5)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1126": {
-            "level": 60,
-            "name_en": "Thank You for Not Mossling",
-            "name_fr": "Repousser les moussemousses",
-            "location": "(12, 14)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1127": {
-            "level": 61,
-            "name_en": "The Mail Must Get Through",
-            "name_fr": "Sus aux saillots",
-            "location": "(11.5, 22.4)",
-            "patch": "4.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x1128": {
-            "level": 61,
-            "name_en": "Diakka Round",
-            "name_fr": "Au diable les diakkas!",
-            "location": "(10, 18)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1129": {
-            "level": 61,
-            "name_en": "The Evil Seed",
-            "name_fr": "Défi: mauvaise graine",
-            "location": "(15.2, 22.7)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1130": {
-            "level": 61,
-            "name_en": "The Spiderweb Chronicles",
-            "name_fr": "Défi: la colline a huit yeux",
-            "location": "(17, 18)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1131": {
-            "level": 67,
-            "name_en": "The Antlion's Share",
-            "name_fr": "Un fourmilion fort mignon",
-            "location": "(31.4, 29.6)",
-            "patch": "4.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x1132": {
-            "level": 67,
-            "name_en": "Really Don't Keratyrannos",
-            "name_fr": "Défi: un tyran au ban",
-            "location": "(29.7, 23.9)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1133": {
-            "level": 67,
-            "name_en": "Get Sharp",
-            "name_fr": "Chasse en hauteur",
-            "location": "(27.3, 25.3)",
-            "patch": "4.0",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
-        },
-        "x1134": {
-            "level": 67,
-            "name_en": "The Tele-tale Hunt",
-            "name_fr": "Les caches font de la résistance",
-            "location": "(35.7, 28.4)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1136": {
-            "level": 67,
-            "name_en": "A Pain in the Neck",
-            "name_fr": "Colliers serrés",
-            "location": "(34.4, 26.1)",
-            "patch": "4.0",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
-        },
-        "x1137": {
-            "level": 67,
-            "name_en": "Flappy Berda",
-            "name_fr": "Défi: ça va barder pour Berda",
-            "location": "(27.8, 27.8)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1138": {
-            "level": 67,
-            "name_en": "Ananta and Her Sisters",
-            "name_fr": "Défi: sœurs vengeresses",
-            "location": "(28.3, 17.1)",
-            "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x1140": {
-            "level": 61,
-            "name_en": "Yes, This Is Dogs",
-            "name_fr": "Honnis soient les canis",
-            "location": "(13.7, 20.2)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x1141": {
-            "level": 67,
-            "name_en": "M Bop",
-            "name_fr": "La chasse gardée des M",
-            "location": "(31.8, 25.6)",
-            "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
         "x1112": {
             "level": 60,
             "name_en": "Showing the Recruits What For",
             "name_fr": "Donner la réplique aux soldats",
             "location": "(8.5, 16.7)",
             "patch": "4.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1113": {
             "level": 60,
@@ -234,9 +16,8 @@
             "name_fr": "Donner la réplique aux sous-officiers",
             "location": "(8.8, 16.3)",
             "patch": "4.0",
-            "previousFate": "duty.fate.gyr-abania.the-fringes.1112",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "previousFate": "f.1112",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1114": {
             "level": 60,
@@ -244,28 +25,217 @@
             "name_fr": "Donner la réplique aux officiers",
             "location": "(9.0, 16.3)",
             "patch": "4.0",
-            "previousFate": "duty.fate.gyr-abania.the-fringes.1113",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "previousFate": "f.1113",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1115": {
+            "level": 60,
+            "name_en": "Death Beckons",
+            "name_fr": "Et au milieu coule un ruisseau",
+            "location": "(12.5, 11.3)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1116": {
+            "level": 60,
+            "name_en": "Unbearable",
+            "name_fr": "Danse avec les ours",
+            "location": "(10.1, 12.6)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1118": {
+            "level": 60,
+            "name_en": "Dizzy Miss Grizzly",
+            "name_fr": "Défi : bon ours, bon œil",
+            "location": "(11.9, 16.7)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1119": {
+            "level": 60,
+            "name_en": "Roid Rage",
+            "name_fr": "Défi : dopage alchimique",
+            "location": "(18, 11)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1120": {
+            "level": 60,
+            "name_en": "Keeping the Peace",
+            "name_fr": "Purge aux Marges",
+            "location": "(28.6, 12.0)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.ESCORT"
+        },
+        "x1121": {
+            "level": 60,
+            "name_en": "Keeping More Peace",
+            "name_fr": "Nouvelle purge aux Marges",
+            "location": "(23.7, 14.0)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.ESCORT"
+        },
+        "x1122": {
+            "level": 60,
+            "name_en": "Double Dhara",
+            "name_fr": "Gare aux dharas",
+            "location": "(23, 10)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1124": {
+            "level": 60,
+            "name_en": "Bold This Way",
+            "name_fr": "Gaganas pique-assiette",
+            "location": "(27, 10)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1126": {
+            "level": 60,
+            "name_en": "Thank You for Not Mossling",
+            "name_fr": "Repousser les moussemousses",
+            "location": "(12, 14)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1117": {
+            "level": 61,
+            "name_en": "The Secret Life of Plants",
+            "name_fr": "Saprias, c'est fini",
+            "location": "(12, 25.8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1125": {
+            "level": 61,
+            "name_en": "The Morning After",
+            "name_fr": "Pulsions déplacées",
+            "location": "(10.7, 29.5)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1127": {
+            "level": 61,
+            "name_en": "The Mail Must Get Through",
+            "name_fr": "Sus aux saillots",
+            "location": "(11.5, 22.4)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1128": {
+            "level": 61,
+            "name_en": "Diakka Round",
+            "name_fr": "Au diable les diakkas !",
+            "location": "(10, 18)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1129": {
+            "level": 61,
+            "name_en": "The Evil Seed",
+            "name_fr": "Défi : mauvaise graine",
+            "location": "(15.2, 22.7)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1130": {
+            "level": 61,
+            "name_en": "The Spiderweb Chronicles",
+            "name_fr": "Défi : la colline a huit yeux",
+            "location": "(17, 18)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1140": {
+            "level": 61,
+            "name_en": "Yes, This Is Dogs",
+            "name_fr": "Honnis soient les canis",
+            "location": "(13.7, 20.2)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1131": {
+            "level": 67,
+            "name_en": "The Antlion's Share",
+            "name_fr": "Un fourmilion fort mignon",
+            "location": "(31.4, 29.6)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1132": {
+            "level": 67,
+            "name_en": "Really Don't Keratyrannos",
+            "name_fr": "Défi : un tyran au ban",
+            "location": "(29.7, 23.9)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1133": {
+            "level": 67,
+            "name_en": "Get Sharp",
+            "name_fr": "Chasse en hauteur",
+            "location": "(27.3, 25.3)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1134": {
+            "level": 67,
+            "name_en": "The Tele-tale Hunt",
+            "name_fr": "Les caches font de la résistance",
+            "location": "(35.7, 28.4)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1135": {
             "level": 67,
             "name_en": "Pop the Trunk",
-            "name_fr": "Défi: martyriser les marids",
+            "name_fr": "Défi : martyriser les marids",
             "location": "(31.0, 21.5)",
             "patch": "4.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1136": {
+            "level": 67,
+            "name_en": "A Pain in the Neck",
+            "name_fr": "Colliers serrés",
+            "location": "(34.4, 26.1)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1137": {
+            "level": 67,
+            "name_en": "Flappy Berda",
+            "name_fr": "Défi : ça va barder pour Berda",
+            "location": "(27.8, 27.8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1138": {
+            "level": 67,
+            "name_en": "Ananta and Her Sisters",
+            "name_fr": "Défi : sœurs vengeresses",
+            "location": "(28.3, 17.1)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1139": {
             "level": 67,
             "name_en": "Raisin' Hell",
-            "name_fr": "Défi: la fille du soleil",
+            "name_fr": "Défi : la fille du soleil",
             "location": "(30.8, 21.4)",
             "patch": "4.0",
-            "previousFate": "duty.fate.gyr-abania.the-fringes.1135",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "previousFate": "f.1135",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1141": {
+            "level": 67,
+            "name_en": "M Bop",
+            "name_fr": "La chasse gardée des M",
+            "location": "(31.8, 25.6)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         }
     }
 }

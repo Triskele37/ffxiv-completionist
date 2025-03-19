@@ -2,19 +2,32 @@
     "key": "guildhests",
     "groupName_en": "Guildhests",
     "groupName_fr": "Opérations de guilde",
+    "order": [
+        "gladiator",
+        "marauder",
+        "dark-knight",
+        "conjurer",
+        "arcanist",
+        "astrologian",
+        "pugilist",
+        "lancer",
+        "rogue",
+        "samurai",
+        "archer",
+        "machinist",
+        "thaumaturge",
+        "red-mage"
+    ],
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Opération de guilde"
+            "header": "@HEADER.NAME"
         },
         "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloqué par"
+            "header": "@HEADER.UNLOCK",
+            "link": true
         }
     }
 }

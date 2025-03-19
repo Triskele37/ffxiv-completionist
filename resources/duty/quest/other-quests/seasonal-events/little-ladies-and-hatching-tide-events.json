@@ -1,0 +1,27 @@
+{
+    "key": "little-ladies-and-hatching-tide-events",
+    "groupName_en": "Little Ladies' & Hatching-tide Events",
+    "groupName_fr": "Fête des demoiselles & chasse aux Prœufs",
+    "tasks": {
+        "x70346": {
+            "level": 15,
+            "name_en": "The Princesses and the Eggs",
+            "name_fr": "Festivités doublées",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": ["q.70347"],
+            "patch": "6.5"
+        },
+        "x70347": {
+            "level": 15,
+            "name_en": "Peatie in Pink",
+            "name_fr": "Princesse pêche",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.70346"],
+            "cSiblings": ["a.3417"],
+            "patch": "6.5",
+            "unlock": "mo.336"
+        }
+    }
+}

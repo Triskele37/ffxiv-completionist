@@ -1,0 +1,858 @@
+{
+    "key": "class-job",
+    "groupName_en": "Classes & Jobs",
+    "groupName_fr": "Classes & Jobs",
+    "tasks": {
+        "x300": {
+            "name_en": "Paladin",
+            "name_fr": "Paladin",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68746",
+            "patch": "6.1",
+            "cSiblings": ["q.68746"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x301": {
+            "name_en": "Warrior",
+            "name_fr": "Guerrier",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68748",
+            "patch": "6.1",
+            "cSiblings": ["q.68748"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x302": {
+            "name_en": "Dark Knight",
+            "name_fr": "Chevalier Noir",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68757",
+            "patch": "6.1",
+            "cSiblings": ["q.68757"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x303": {
+            "name_en": "Gunbreaker",
+            "name_fr": "Pistosabreur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68761",
+            "patch": "6.1",
+            "cSiblings": ["q.68761"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x304": {
+            "name_en": "White Mage",
+            "name_fr": "Mage Blanc",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68751",
+            "patch": "6.1",
+            "cSiblings": ["q.68751"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x305": {
+            "name_en": "Scholar",
+            "name_fr": "Érudit",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68754",
+            "patch": "6.1",
+            "cSiblings": ["q.68754"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x306": {
+            "name_en": "Astrologian",
+            "name_fr": "Astromancien",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68758",
+            "patch": "6.1",
+            "cSiblings": ["q.68758"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x307": {
+            "name_en": "Sage",
+            "name_fr": "Sage",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69608",
+            "patch": "6.1",
+            "cSiblings": ["q.69608"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x308": {
+            "name_en": "Monk",
+            "name_fr": "Moine",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68747",
+            "patch": "6.1",
+            "cSiblings": ["q.68747"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x309": {
+            "name_en": "Dragoon",
+            "name_fr": "Chevalier Dragon",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68749",
+            "patch": "6.1",
+            "cSiblings": ["q.68749"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x310": {
+            "name_en": "Ninja",
+            "name_fr": "Ninja",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68755",
+            "patch": "6.1",
+            "cSiblings": ["q.68755"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x311": {
+            "name_en": "Samurai",
+            "name_fr": "Samouraï",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68759",
+            "patch": "6.1",
+            "cSiblings": ["q.68759"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x312": {
+            "name_en": "Reaper",
+            "name_fr": "Faucheur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69614",
+            "patch": "6.1",
+            "cSiblings": ["q.69614"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x705": {
+            "name_en": "Viper",
+            "name_fr": "Rôdeur Vipère",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70389",
+            "patch": "7.0",
+            "cSiblings": ["q.70389"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x313": {
+            "name_en": "Bard",
+            "name_fr": "Barde",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68750",
+            "patch": "6.1",
+            "cSiblings": ["q.68750"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x314": {
+            "name_en": "Machinist",
+            "name_fr": "Machiniste",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68756",
+            "patch": "6.1",
+            "cSiblings": ["q.68756"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x315": {
+            "name_en": "Dancer",
+            "name_fr": "Danseur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68762",
+            "patch": "6.1",
+            "cSiblings": ["q.68762"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x316": {
+            "name_en": "Black Mage",
+            "name_fr": "Mage Noir",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68752",
+            "patch": "6.1",
+            "cSiblings": ["q.68752"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x317": {
+            "name_en": "Summoner",
+            "name_fr": "Invocateur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69569",
+            "patch": "6.1",
+            "cSiblings": ["q.69569"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x318": {
+            "name_en": "Red Mage",
+            "name_fr": "Mage Rouge",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68760",
+            "patch": "6.1",
+            "cSiblings": ["q.68760"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x706": {
+            "name_en": "Pictomancer",
+            "name_fr": "Pictomancien",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70395",
+            "patch": "7.0",
+            "cSiblings": ["q.70395"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x232": {
+            "name_en": "Blue Mage",
+            "name_fr": "Mage Bleu",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69530",
+            "patch": "6.1",
+            "cSiblings": ["q.69530"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x268": {
+            "name_en": "Carpenter",
+            "name_fr": "Menuisier",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67981",
+            "patch": "6.1",
+            "cSiblings": ["q.67981"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x269": {
+            "name_en": "Blacksmith",
+            "name_fr": "Forgeron",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68155",
+            "patch": "6.1",
+            "cSiblings": ["q.68155"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x270": {
+            "name_en": "Armorer",
+            "name_fr": "Armurier",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68134",
+            "patch": "6.1",
+            "cSiblings": ["q.68134"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x271": {
+            "name_en": "Goldsmith",
+            "name_fr": "Orfèvre",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68139",
+            "patch": "6.1",
+            "cSiblings": ["q.68139"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x272": {
+            "name_en": "Leatherworker",
+            "name_fr": "Tanneur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68151",
+            "patch": "6.1",
+            "cSiblings": ["q.68151"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x273": {
+            "name_en": "Weaver",
+            "name_fr": "Couturier",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67971",
+            "patch": "6.1",
+            "cSiblings": ["q.67971"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x274": {
+            "name_en": "Alchemist",
+            "name_fr": "Alchimiste",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67976",
+            "patch": "6.1",
+            "cSiblings": ["q.67976"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x275": {
+            "name_en": "Culinarian",
+            "name_fr": "Cuisinier",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68144",
+            "patch": "6.1",
+            "cSiblings": ["q.68144"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x285": {
+            "name_en": "Miner",
+            "name_fr": "Mineur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68094",
+            "patch": "6.1",
+            "cSiblings": ["q.68094"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x286": {
+            "name_en": "Botanist",
+            "name_fr": "Botaniste",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68160",
+            "patch": "6.1",
+            "cSiblings": ["q.68160"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x287": {
+            "name_en": "Fisher",
+            "name_fr": "Pêcheur",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68435",
+            "patch": "6.1",
+            "cSiblings": ["q.68435"],
+            "decorations": "@PLATE.PATTERN"
+        },
+        "x156": {
+            "name_en": "Gladiator",
+            "name_fr": "Gladiateur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65801",
+            "patch": "6.1",
+            "cSiblings": ["q.65801"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x157": {
+            "name_en": "Marauder",
+            "name_fr": "Maraudeur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65855",
+            "patch": "6.1",
+            "cSiblings": ["q.65855"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x158": {
+            "name_en": "Conjurer",
+            "name_fr": "Élémentaliste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65977",
+            "patch": "6.1",
+            "cSiblings": ["q.65977"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x159": {
+            "name_en": "Pugilist",
+            "name_fr": "Pugiliste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66103",
+            "patch": "6.1",
+            "cSiblings": ["q.66103"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x160": {
+            "name_en": "Lancer",
+            "name_fr": "Maître D'hast (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65975",
+            "patch": "6.1",
+            "cSiblings": ["q.65975"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x161": {
+            "name_en": "Rogue",
+            "name_fr": "Surineur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65691",
+            "patch": "6.1",
+            "cSiblings": ["q.65691"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x162": {
+            "name_en": "Archer",
+            "name_fr": "Archer (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65612",
+            "patch": "6.1",
+            "cSiblings": ["q.65612"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x163": {
+            "name_en": "Thaumaturge",
+            "name_fr": "Occultiste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65889",
+            "patch": "6.1",
+            "cSiblings": ["q.65889"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x164": {
+            "name_en": "Arcanist",
+            "name_fr": "Arcaniste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65997",
+            "patch": "6.1",
+            "cSiblings": ["q.65997"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PLATE.PATTERN"]
+        },
+        "x165": {
+            "name_en": "Paladin (Simple)",
+            "name_fr": "Paladin (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66591",
+            "patch": "6.1",
+            "cSiblings": ["q.66591"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x166": {
+            "name_en": "Warrior (Simple)",
+            "name_fr": "Guerrier (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66585",
+            "patch": "6.1",
+            "cSiblings": ["q.66585"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x167": {
+            "name_en": "Dark Knight (Simple)",
+            "name_fr": "Chevalier Noir (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67589",
+            "patch": "6.1",
+            "cSiblings": ["q.67589"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x168": {
+            "name_en": "Gunbreaker (Simple)",
+            "name_fr": "Pistosabreur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68797",
+            "patch": "6.1",
+            "cSiblings": ["q.68797"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x169": {
+            "name_en": "White Mage (Simple)",
+            "name_fr": "Mage Blanc (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66615",
+            "patch": "6.1",
+            "cSiblings": ["q.66615"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x170": {
+            "name_en": "Scholar (Simple)",
+            "name_fr": "Érudit (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66633",
+            "patch": "6.1",
+            "cSiblings": ["q.66633"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x171": {
+            "name_en": "Astrologian (Simple)",
+            "name_fr": "Astromancien (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67548",
+            "patch": "6.1",
+            "cSiblings": ["q.67548"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x172": {
+            "name_en": "Sage (Simple)",
+            "name_fr": "Sage (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69603",
+            "patch": "6.1",
+            "cSiblings": ["q.69603"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x173": {
+            "name_en": "Monk (Simple)",
+            "name_fr": "Moine (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66597",
+            "patch": "6.1",
+            "cSiblings": ["q.66597"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x174": {
+            "name_en": "Dragoon (Simple)",
+            "name_fr": "Chevalier Dragon (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66603",
+            "patch": "6.1",
+            "cSiblings": ["q.66603"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x175": {
+            "name_en": "Ninja (Simple)",
+            "name_fr": "Ninja (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65748",
+            "patch": "6.1",
+            "cSiblings": ["q.65748"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x176": {
+            "name_en": "Samurai (Simple)",
+            "name_fr": "Samouraï (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68095",
+            "patch": "6.1",
+            "cSiblings": ["q.68095"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x177": {
+            "name_en": "Reaper (Simple)",
+            "name_fr": "Faucheur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69609",
+            "patch": "6.1",
+            "cSiblings": ["q.69609"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x703": {
+            "name_en": "Viper (Simple)",
+            "name_fr": "Rôdeur Vipère (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70384",
+            "patch": "7.0",
+            "cSiblings": ["q.70384"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x178": {
+            "name_en": "Bard (Simple)",
+            "name_fr": "Barde (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66621",
+            "patch": "6.1",
+            "cSiblings": ["q.66621"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x179": {
+            "name_en": "Machinist (Simple)",
+            "name_fr": "Machiniste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67232",
+            "patch": "6.1",
+            "cSiblings": ["q.67232"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x180": {
+            "name_en": "Dancer (Simple)",
+            "name_fr": "Danseur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68785",
+            "patch": "6.1",
+            "cSiblings": ["q.68785"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x181": {
+            "name_en": "Black Mage (Simple)",
+            "name_fr": "Mage Noir (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66609",
+            "patch": "6.1",
+            "cSiblings": ["q.66609"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x182": {
+            "name_en": "Summoner (Simple)",
+            "name_fr": "Invocateur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66627",
+            "patch": "6.1",
+            "cSiblings": ["q.66627"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x183": {
+            "name_en": "Red Mage (Simple)",
+            "name_fr": "Mage Rouge (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68112",
+            "patch": "6.1",
+            "cSiblings": ["q.68112"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x704": {
+            "name_en": "Pictomancer (Simple)",
+            "name_fr": "Pictomancien (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70390",
+            "patch": "7.0",
+            "cSiblings": ["q.70390"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x184": {
+            "name_en": "Blue Mage (Simple)",
+            "name_fr": "Mage Bleu (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68728",
+            "patch": "6.1",
+            "cSiblings": ["q.68728"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x244": {
+            "name_en": "Carpenter (Simple)",
+            "name_fr": "Menuisier (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65674",
+            "patch": "6.1",
+            "cSiblings": ["q.65674"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x245": {
+            "name_en": "Blacksmith (Simple)",
+            "name_fr": "Forgeron (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65827",
+            "patch": "6.1",
+            "cSiblings": ["q.65827"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x246": {
+            "name_en": "Armorer (Simple)",
+            "name_fr": "Armurier (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65809",
+            "patch": "6.1",
+            "cSiblings": ["q.65809"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x247": {
+            "name_en": "Goldsmith (Simple)",
+            "name_fr": "Orfèvre (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66144",
+            "patch": "6.1",
+            "cSiblings": ["q.66144"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x248": {
+            "name_en": "Leatherworker (Simple)",
+            "name_fr": "Tanneur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65641",
+            "patch": "6.1",
+            "cSiblings": ["q.65641"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x249": {
+            "name_en": "Weaver (Simple)",
+            "name_fr": "Couturier (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66070",
+            "patch": "6.1",
+            "cSiblings": ["q.66070"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x250": {
+            "name_en": "Alchemist (Simple)",
+            "name_fr": "Alchimiste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66111",
+            "patch": "6.1",
+            "cSiblings": ["q.66111"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x251": {
+            "name_en": "Culinarian (Simple)",
+            "name_fr": "Cuisinier (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65807",
+            "patch": "6.1",
+            "cSiblings": ["q.65807"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x276": {
+            "name_en": "Miner (Simple)",
+            "name_fr": "Mineur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66133",
+            "patch": "6.1",
+            "cSiblings": ["q.66133"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x277": {
+            "name_en": "Botanist (Simple)",
+            "name_fr": "Botaniste (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.65539",
+            "patch": "6.1",
+            "cSiblings": ["q.65539"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x278": {
+            "name_en": "Fisher (Simple)",
+            "name_fr": "Pêcheur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.66643",
+            "patch": "6.1",
+            "cSiblings": ["q.66643"],
+            "decorations": "@PORTRAIT.BACKGROUND"
+        },
+        "x124": {
+            "name_en": "Paladin (Ornate)",
+            "name_fr": "Paladin (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x125": {
+            "name_en": "Warrior (Ornate)",
+            "name_fr": "Guerrier (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x126": {
+            "name_en": "Dark Knight (Ornate)",
+            "name_fr": "Chevalier Noir (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x127": {
+            "name_en": "Gunbreaker (Ornate)",
+            "name_fr": "Pistosabreur (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x128": {
+            "name_en": "White Mage (Ornate)",
+            "name_fr": "Mage Blanc (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x129": {
+            "name_en": "Scholar (Ornate)",
+            "name_fr": "Érudit (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x130": {
+            "name_en": "Astrologian (Ornate)",
+            "name_fr": "Astromancien (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x131": {
+            "name_en": "Sage (Ornate)",
+            "name_fr": "Sage (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x132": {
+            "name_en": "Monk (Ornate)",
+            "name_fr": "Moine (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x133": {
+            "name_en": "Dragoon (Ornate)",
+            "name_fr": "Chevalier Dragon (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x134": {
+            "name_en": "Ninja (Ornate)",
+            "name_fr": "Ninja (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x135": {
+            "name_en": "Samurai (Ornate)",
+            "name_fr": "Samouraï (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x136": {
+            "name_en": "Reaper (Ornate)",
+            "name_fr": "Faucheur (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x681": {
+            "name_en": "Viper (Ornate)",
+            "name_fr": "Rôdeur Vipère (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "7.0",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x137": {
+            "name_en": "Bard (Ornate)",
+            "name_fr": "Barde (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x138": {
+            "name_en": "Machinist (Ornate)",
+            "name_fr": "Machiniste (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x139": {
+            "name_en": "Dancer (Ornate)",
+            "name_fr": "Danseur (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x140": {
+            "name_en": "Black Mage (Ornate)",
+            "name_fr": "Mage Noir (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x141": {
+            "name_en": "Summoner (Ornate)",
+            "name_fr": "Invocateur (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x142": {
+            "name_en": "Red Mage (Ornate)",
+            "name_fr": "Mage Rouge (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "6.1",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x682": {
+            "name_en": "Pictomancer (Ornate)",
+            "name_fr": "Pictomancien (dynamique)",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "7.0",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        },
+        "x522": {
+            "name_en": "Blue Mage (Ornate)",
+            "name_fr": "Mage Bleu (dynamique)",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@500 CURRENCY.SEAL.ALLIED",
+            "patch": "6.4",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
+        }
+    }
+}

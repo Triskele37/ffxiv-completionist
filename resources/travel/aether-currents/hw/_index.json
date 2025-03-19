@@ -1,5 +1,13 @@
 {
     "key": "hw",
-    "groupName_en": "HW",
-    "groupName_fr": "Heavensward"
+    "groupName": "@EXPANSION.HEAVENSWARD",
+    "groupNameShort": "@EXPANSION.HW",
+    "order": [
+        "coerthas-western-highlands",
+        "the-dravanian-forelands",
+        "the-dravanian-hinterlands",
+        "the-churning-mists",
+        "the-sea-of-clouds",
+        "azys-lla"
+    ]
 }

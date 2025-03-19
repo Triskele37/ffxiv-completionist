@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x68509": {
+            "level": 60,
+            "name_en": "Heaven-sent",
+            "name_fr": "Kami miniature",
+            "npc_en": "Vexed Villager",
+            "npc_fr": "Pêcheur Inquiet",
+            "cPrev": ["q.68026"],
+            "cNext": ["q.68510"],
+            "cSiblings": ["character.character.societal-relations.53"],
+            "patch": "4.31"
+        },
+        "x68510": {
+            "level": 60,
+            "name_en": "Under Wraps",
+            "name_fr": "Un silure en filature",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "cPrev": ["q.68509"],
+            "cNext": ["q.68511"],
+            "cSiblings": ["character.character.societal-relations.54"],
+            "patch": "4.31"
+        },
+        "x68511": {
+            "level": 60,
+            "name_en": "The Value of Silence",
+            "name_fr": "Les rois du silence",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation": "@REPUTATION.TRUSTED",
+            "cPrev": ["q.68510"],
+            "cNext": ["q.68512"],
+            "cSiblings": ["character.character.societal-relations.55"],
+            "patch": "4.31"
+        },
+        "x68512": {
+            "level": 60,
+            "name_en": "Misdelivered",
+            "name_fr": "Les Rouges contre-attaquent",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation": "@REPUTATION.RESPECTED",
+            "cPrev": ["q.68511"],
+            "cNext": ["q.68513"],
+            "cSiblings": ["character.character.societal-relations.56"],
+            "patch": "4.31"
+        },
+        "x68513": {
+            "level": 60,
+            "name_en": "A Test of Courage",
+            "name_fr": "Allez les Verts!",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation": "@REPUTATION.HONORED",
+            "cPrev": ["q.68512"],
+            "cNext": ["q.68514"],
+            "cSiblings": ["character.character.societal-relations.57"],
+            "patch": "4.31"
+        },
+        "x68514": {
+            "level": 60,
+            "name_en": "True-blue",
+            "name_fr": "Il s'appelait Tsukumo",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation": "@REPUTATION.SWORN",
+            "cPrev": ["q.68513"],
+            "cNext": ["q.68697"],
+            "cSiblings": ["character.character.societal-relations.58"],
+            "patch": "4.31"
+        }
+    }
+}

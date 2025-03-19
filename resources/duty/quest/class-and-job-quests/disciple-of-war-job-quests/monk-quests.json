@@ -1,0 +1,202 @@
+{
+    "key": "monk-quests",
+    "groupName_en": "Monk Quests",
+    "groupName_fr": "Quêtes de moine",
+    "tasks": {
+        "x66597": {
+            "level": 30,
+            "name_en": "Brother from Another Mother",
+            "name_fr": "Le moine errant",
+            "npc_en": "Gagaruna",
+            "npc_fr": "Gagaruna",
+            "cPrev": ["q.66103", "q.66049"],
+            "cNext": ["q.66598"],
+            "cSiblings": ["ap.173"],
+            "patch": "4.31",
+            "unlock": "ap.173"
+        },
+        "x66598": {
+            "level": 35,
+            "name_en": "Insulted Intelligence",
+            "name_fr": "Les contes des combats passés",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66597"],
+            "cNext": ["q.66599"],
+            "patch": "4.31"
+        },
+        "x66599": {
+            "level": 40,
+            "name_en": "A Slave to the Aether",
+            "name_fr": "La quête de pouvoir",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66598"],
+            "cNext": ["q.66600"],
+            "patch": "4.31"
+        },
+        "x66600": {
+            "level": 45,
+            "name_en": "The Pursuit of Power",
+            "name_fr": "Le septième chakra",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66599"],
+            "cNext": ["q.66601"],
+            "patch": "4.31"
+        },
+        "x66601": {
+            "level": 45,
+            "name_en": "Good Vibrations",
+            "name_fr": "Prendre l'habit",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66600"],
+            "cNext": ["q.66602"],
+            "patch": "4.31"
+        },
+        "x66602": {
+            "level": 50,
+            "name_en": "Five Easy Pieces",
+            "name_fr": "Le véritable courage",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66601"],
+            "cNext": ["q.66657", "q.67562"],
+            "cSiblings": ["a.408"],
+            "patch": "4.31"
+        },
+        "x66657": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Sphairai)",
+            "name_fr": "Restauration des Sphairai",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": ["q.66602", "q.66241"],
+            "patch": "4.31"
+        },
+        "x67562": {
+            "level": 50,
+            "name_en": "The Legend Continues",
+            "name_fr": "Tout recommencer",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.66602", "q.65964"],
+            "cNext": ["q.67563"],
+            "patch": "4.31"
+        },
+        "x67563": {
+            "level": 52,
+            "name_en": "Let's Talk about Sects",
+            "name_fr": "Les moines ennemis",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67562"],
+            "cNext": ["q.67564"],
+            "patch": "4.31"
+        },
+        "x67564": {
+            "level": 54,
+            "name_en": "Against the Shadow",
+            "name_fr": "Splendeur et obscurité",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67563"],
+            "cNext": ["q.67565"],
+            "patch": "4.31"
+        },
+        "x67565": {
+            "level": 56,
+            "name_en": "Fight the Battle to Win",
+            "name_fr": "Une nouvelle alliée",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67564"],
+            "cNext": ["q.67566"],
+            "patch": "4.31"
+        },
+        "x67566": {
+            "level": 58,
+            "name_en": "Stop the Senseless Killing",
+            "name_fr": "Progresser sans s'entre-tuer",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67565"],
+            "cNext": ["q.67567"],
+            "patch": "4.31"
+        },
+        "x67567": {
+            "level": 60,
+            "name_en": "Appetite for Destruction",
+            "name_fr": "Plus rien ne sera comme avant",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67566"],
+            "cNext": ["q.67962"],
+            "cSiblings": ["a.1142"],
+            "patch": "4.31"
+        },
+        "x67962": {
+            "level": 60,
+            "name_en": "A Fistful of Resolve",
+            "name_fr": "L'embarras du choix",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.67567", "q.67895"],
+            "cNext": ["q.67963"],
+            "patch": "4.31"
+        },
+        "x67963": {
+            "level": 63,
+            "name_en": "Return of the Monk",
+            "name_fr": "Coup sur coup",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67962"],
+            "cNext": ["q.67964"],
+            "patch": "4.31"
+        },
+        "x67964": {
+            "level": 65,
+            "name_en": "Cross-fist Training",
+            "name_fr": "Rencontre inamicale",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67963"],
+            "cNext": ["q.67965"],
+            "patch": "4.31"
+        },
+        "x67965": {
+            "level": 68,
+            "name_en": "Choices and Paths",
+            "name_fr": "Se sublimer pour triompher",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67964"],
+            "cNext": ["q.67966"],
+            "patch": "4.31"
+        },
+        "x67966": {
+            "level": 70,
+            "name_en": "The Power to Protect",
+            "name_fr": "Une nouvelle force protectrice",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": ["q.67965"],
+            "cNext": ["q.68747"],
+            "cSiblings": ["a.1798"],
+            "patch": "4.31"
+        },
+        "x68747": {
+            "level": 80,
+            "name_en": "A Monk's Legacy",
+            "name_fr": "Le dernier disciple du Poing de Rhalgr",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": ["q.67966", "q.68814", "q.69190"],
+            "cSiblings": ["ap.308", "a.2307"],
+            "patch": "5.0",
+            "unlock": "ap.308"
+        }
+    }
+}

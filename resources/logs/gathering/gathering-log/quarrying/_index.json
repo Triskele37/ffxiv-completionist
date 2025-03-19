@@ -1,5 +1,11 @@
 {
     "key": "quarrying",
     "groupName_en": "Quarrying",
-    "groupName_fr": "Extraction de pierre"
+    "groupName_fr": "Extraction de pierre",
+    "order": [
+        "level-based",
+        "collectables",
+        "regional-folklore",
+        "sidequests"
+    ]
 }

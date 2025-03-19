@@ -9,12 +9,8 @@
             "name_fr": "Perpétuer le souvenir des générations passées",
             "npc_en": "Nananji",
             "npc_fr": "Nananji",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                70316
-            ],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.70316"],
             "patch": "6.48"
         },
         "x70316": {
@@ -23,10 +19,10 @@
             "name_fr": "Transmettre l'espoir aux générations futures",
             "npc_en": "Nananji",
             "npc_fr": "Nananji",
-            "cPrev": [
-                70315
-            ],
-            "patch": "6.48"
+            "cPrev": ["q.70315"],
+            "cSiblings": ["a.3282"],
+            "patch": "6.48",
+            "unlock": "ap.527"
         }
     }
 }

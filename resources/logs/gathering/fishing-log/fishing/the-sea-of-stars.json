@@ -7,111 +7,89 @@
             "name_en": "Greatest Endsvale",
             "name_fr": "La Garenne sempervirente",
             "level": "84",
-            "zone_en": "Mare Lamentorum",
-            "zone_fr": "Mare Lamentorum",
+            "zone": "@PLACE.MARE_LAMENTORUM",
             "location": "(33.9, 10.0)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x1": {
             "name_en": "The Chlorophospond",
             "name_fr": "Mare aux chlorophoi",
             "level": "85",
-            "zone_en": "Mare Lamentorum",
-            "zone_fr": "Mare Lamentorum",
+            "zone": "@PLACE.MARE_LAMENTORUM",
             "location": "(31.3, 31.8)",
-            "type_en": "Aether",
-            "type_fr": "Éther"
+            "type": "@FISH.TYPE.AETHERFISHING"
         },
         "x2": {
             "name_en": "The Frozen Fissure",
             "name_fr": "Crevasses du pergélisol",
             "level": "85",
-            "zone_en": "Mare Lamentorum",
-            "zone_fr": "Mare Lamentorum",
+            "zone": "@PLACE.MARE_LAMENTORUM",
             "location": "(22.5, 31.6)",
-            "type_en": "Aether",
-            "type_fr": "Éther"
+            "type": "@FISH.TYPE.AETHERFISHING"
         },
         "x6": {
             "name_en": "Apohelos 18-α",
             "name_fr": "Hélos Dékaokto α",
             "level": "90",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(7.0, 22.5)",
-            "type_en": "Aether",
-            "type_fr": "Éther"
+            "type": "@FISH.TYPE.AETHERFISHING"
         },
         "x4": {
             "name_en": "Apohelos 18-β",
             "name_fr": "Hélos Dékaokto β",
             "level": "89",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(9.3, 30.8)",
-            "type_en": "Aether",
-            "type_fr": "Éther"
+            "type": "@FISH.TYPE.AETHERFISHING"
         },
         "x3": {
             "name_en": "Apohelos 18-γ",
             "name_fr": "Hélos Dékaokto γ",
             "level": "88",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(20.6, 36.5)",
-            "type_en": "Aether",
-            "type_fr": "Éther"
+            "type": "@FISH.TYPE.AETHERFISHING"
         },
         "x10": {
             "name_en": "The Wellspring of Regret",
             "name_fr": "Source des Velléitaires",
             "level": "90",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(14.4, 11.1)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x7": {
             "name_en": "Abode of the Ea",
             "name_fr": "Demeure des Éas",
             "level": "90",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(22.4, 8.2)",
-            "type_en": "Freshwater",
-            "type_fr": "Eau douce"
+            "type": "@FISH.TYPE.FRESHWATER"
         },
         "x5": {
             "name_en": "Limne 18",
             "name_fr": "Limne Dékaokto",
             "level": "89",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(7.3, 35.4)",
-            "type_en": "Star",
-            "type_fr": "Étoile"
+            "type": "@FISH.TYPE.STARFISHING"
         },
         "x8": {
             "name_en": "Limne 3-α",
             "name_fr": "Limné Tria α",
             "level": "90",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(36.8, 9.0)",
-            "type_en": "Star",
-            "type_fr": "Étoile"
+            "type": "@FISH.TYPE.STARFISHING"
         },
         "x9": {
             "name_en": "Limne 3-β",
             "name_fr": "Limné Tria β",
             "level": "90",
-            "zone_en": "Ultima Thule",
-            "zone_fr": "Ultima Thule",
+            "zone": "@PLACE.ULTIMA_THULE",
             "location": "(25.0, 17.0)",
-            "type_en": "Star",
-            "type_fr": "Étoile"
+            "type": "@FISH.TYPE.STARFISHING"
         }
     }
 }

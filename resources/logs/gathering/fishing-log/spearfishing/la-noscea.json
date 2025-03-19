@@ -7,21 +7,17 @@
             "name_en": "Northeast Bronze Lake Depths",
             "name_fr": "Northeast Bronze Lake Depths",
             "level": "90",
-            "zone_en": "Upper La Noscea",
-            "zone_fr": "Haute-Noscea",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "location": "(24.5, 21.2)",
-            "type_en": "Spearfishing",
-            "type_fr": "Pêche au harpon"
+            "type": "@FISH.TYPE.SPEARFISHING"
         },
         "x1": {
             "name_en": "Northwest Bronze Lake Depths",
             "name_fr": "Northwest Bronze Lake Depths",
             "level": "90",
-            "zone_en": "Upper La Noscea",
-            "zone_fr": "Haute-Noscea",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "location": "(19.1, 21.4)",
-            "type_en": "Spearfishing",
-            "type_fr": "Pêche au harpon"
+            "type": "@FISH.TYPE.SPEARFISHING"
         }
     }
 }

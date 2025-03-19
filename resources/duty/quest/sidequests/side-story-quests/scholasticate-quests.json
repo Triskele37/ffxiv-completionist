@@ -1,0 +1,141 @@
+{
+    "key": "scholasticate-quests",
+    "groupName_en": "Scholasticate Quests",
+    "groupName_fr": "Scolasticat Saint-Endalim",
+    "tasks": {
+        "x67405": {
+            "level": 56,
+            "name_en": "Keeping the Ledger",
+            "name_fr": "Commande en cours de traitement",
+            "npc_en": "Mathye",
+            "npc_fr": "Mathye",
+            "cPrev": ["q.67173"],
+            "cNext": ["q.67688"],
+            "patch": "4.31"
+        },
+        "x67688": {
+            "level": 60,
+            "name_en": "Contradicting Convictions",
+            "name_fr": "Panique scolastique",
+            "npc_en": "Mathye",
+            "npc_fr": "Mathye",
+            "cPrev": ["q.67405", "q.67205", "q.66038"],
+            "cNext": ["q.67689"],
+            "patch": "4.31"
+        },
+        "x67689": {
+            "level": 60,
+            "name_en": "The Benefits of Consultation",
+            "name_fr": "Ishgard perd la tête",
+            "npc_en": "Gaetelle",
+            "npc_fr": "Gaetelle",
+            "cPrev": ["q.67688"],
+            "cNext": ["q.67690"],
+            "patch": "4.31"
+        },
+        "x67690": {
+            "level": 60,
+            "name_en": "Balancing the Spear",
+            "name_fr": "Le scolasticat fait le point",
+            "npc_en": "Bruvagnon",
+            "npc_fr": "Bruvagnon",
+            "cPrev": ["q.67689"],
+            "cNext": ["q.67691"],
+            "patch": "4.31"
+        },
+        "x67691": {
+            "level": 60,
+            "name_en": "More than Meets Her Eye",
+            "name_fr": "Révoltes populaires",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67690"],
+            "cNext": ["q.67743"],
+            "cSiblings": ["a.1405"],
+            "patch": "4.31"
+        },
+        "x67743": {
+            "level": 60,
+            "name_en": "Divine Reckoning",
+            "name_fr": "Un père pour guide",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67691"],
+            "cNext": ["q.67744"],
+            "patch": "4.31"
+        },
+        "x67744": {
+            "level": 60,
+            "name_en": "Through the Grapevine",
+            "name_fr": "Trompeuses apparences",
+            "npc_en": "Saturnois",
+            "npc_fr": "Saturnois",
+            "cPrev": ["q.67743"],
+            "cNext": ["q.67745"],
+            "patch": "4.31"
+        },
+        "x67745": {
+            "level": 60,
+            "name_en": "A Familial Resemblance",
+            "name_fr": "Un air de famille",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67744"],
+            "cNext": ["q.67746"],
+            "patch": "4.31"
+        },
+        "x67746": {
+            "level": 60,
+            "name_en": "Finding Ulaa",
+            "name_fr": "Ulaa, es-tu là?",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67745"],
+            "cNext": ["q.67897"],
+            "cSiblings": ["a.1628"],
+            "patch": "4.31"
+        },
+        "x67897": {
+            "level": 60,
+            "name_en": "The Student Body's Revenge",
+            "name_fr": "La raison des plus faibles",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67746"],
+            "cNext": ["q.67898"],
+            "patch": "4.31"
+        },
+        "x67898": {
+            "level": 60,
+            "name_en": "The Whipping Boy",
+            "name_fr": "Les idéaux de père Choisseau",
+            "npc_en": "Theomocent",
+            "npc_fr": "Theomocent",
+            "cPrev": ["q.67897"],
+            "cNext": ["q.67899"],
+            "patch": "4.31"
+        },
+        "x67899": {
+            "level": 60,
+            "name_en": "Letters from No One",
+            "name_fr": "Campagne de diffamation",
+            "npc_en": "Theomocent",
+            "npc_fr": "Theomocent",
+            "cPrev": ["q.67898"],
+            "cNext": ["q.67900"],
+            "cSiblings": ["e.148"],
+            "patch": "4.31",
+            "unlock": "e.148"
+        },
+        "x67900": {
+            "level": 60,
+            "name_en": "The Life and Lies of Father Saturnois",
+            "name_fr": "Justice pour tous",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.67899"],
+            "cSiblings": ["a.1692"],
+            "patch": "4.31"
+        }
+    }
+}

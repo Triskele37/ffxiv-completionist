@@ -1,97 +1,14 @@
 {
     "key": "middle-la-noscea",
-    "groupName_en": "Middle",
-    "groupName_fr": "Noscea centrale",
+    "groupName": "@PLACE.MIDDLE_LA_NOSCEA",
     "tasks": {
-        "x220": {
-            "level": 8,
-            "name_en": "Menuis at Work",
-            "name_fr": "Défi: Menuis le terrible",
-            "location": "(18, 17)",
-            "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x221": {
-            "level": 5,
-            "name_en": "Overnight Migration",
-            "name_fr": "Migration nocturne",
-            "location": "(22, 20)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x222": {
-            "level": 13,
-            "name_en": "Go Wespe",
-            "name_fr": "Ça va piquer",
-            "location": "(14, 15)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x223": {
-            "level": 14,
-            "name_en": "A Mad, Mad, Mad Sergeant",
-            "name_fr": "Un homme à abattre",
-            "location": "(17, 5)",
-            "patch": "2.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x225": {
-            "level": 6,
-            "name_en": "Thwack-a-Mole",
-            "name_fr": "Taupe départ",
-            "location": "(23, 18)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x226": {
-            "level": 5,
-            "name_en": "Yellow-bellied Greenbacks",
-            "name_fr": "Pitoyables recrues",
-            "location": "(24, 27)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
         "x227": {
             "level": 3,
             "name_en": "On the Lamb",
             "name_fr": "La violence des agneaux",
             "location": "(22, 24)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
-        "x229": {
-            "level": 9,
-            "name_en": "The Orange Boxes",
-            "name_fr": "Les caisses d'oranges",
-            "location": "(21, 15)",
-            "patch": "2.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
-        },
-        "x231": {
-            "level": 10,
-            "name_en": "Shearing Is Caring",
-            "name_fr": "Défi: qui s'y frotte s'y pique",
-            "location": "(16, 14)",
-            "patch": "2.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
-        },
-        "x237": {
-            "level": 7,
-            "name_en": "Hello, Work",
-            "name_fr": "De nouvelles perspectives",
-            "location": "(22, 18)",
-            "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x239": {
             "level": 4,
@@ -99,8 +16,39 @@
             "name_fr": "Nettoyage de printemps",
             "location": "(20, 22)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x221": {
+            "level": 5,
+            "name_en": "Overnight Migration",
+            "name_fr": "Migration nocturne",
+            "location": "(22, 20)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x226": {
+            "level": 5,
+            "name_en": "Yellow-bellied Greenbacks",
+            "name_fr": "Pitoyables recrues",
+            "location": "(24, 27)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x225": {
+            "level": 6,
+            "name_en": "Thwack-a-Mole",
+            "name_fr": "Taupe départ",
+            "location": "(23, 18)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x237": {
+            "level": 7,
+            "name_en": "Hello, Work",
+            "name_fr": "De nouvelles perspectives",
+            "location": "(22, 18)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x240": {
             "level": 7,
@@ -108,8 +56,31 @@
             "name_fr": "Agriculture sauvage",
             "location": "(18, 24)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x220": {
+            "level": 8,
+            "name_en": "Menuis at Work",
+            "name_fr": "Défi : Menuis le terrible",
+            "location": "(18, 17)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x229": {
+            "level": 9,
+            "name_en": "The Orange Boxes",
+            "name_fr": "Les caisses d'oranges",
+            "location": "(21, 15)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x231": {
+            "level": 10,
+            "name_en": "Shearing Is Caring",
+            "name_fr": "Défi : qui s'y frotte s'y pique",
+            "location": "(16, 14)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x649": {
             "level": 12,
@@ -117,8 +88,23 @@
             "name_fr": "La famille avant tout",
             "location": "(16, 12)",
             "patch": "2.1",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x222": {
+            "level": 13,
+            "name_en": "Go Wespe",
+            "name_fr": "Ça va piquer",
+            "location": "(14, 15)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x223": {
+            "level": 14,
+            "name_en": "A Mad, Mad, Mad Sergeant",
+            "name_fr": "Un homme à abattre",
+            "location": "(17, 5)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x233": {
             "level": 14,
@@ -126,18 +112,16 @@
             "name_fr": "L'enfant qui criait au loup",
             "location": "(17, 9)",
             "patch": "2.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x238": {
             "level": 14,
             "name_en": "The Truth Is out There",
-            "name_fr": "Défi: la vérité est ailleurs",
+            "name_fr": "Défi : la vérité est ailleurs",
             "location": "(16, 9)",
             "patch": "2.0",
-            "previousFate": "duty.fate.la-noscea.middle-la-noscea.233",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "previousFate": "f.233",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

@@ -1,0 +1,37 @@
+{
+    "key": "51-55",
+    "groupName_en": "51-55",
+    "groupName_fr": "51-55",
+    "tasks": {
+        "x0": {
+            "level": "51",
+            "name_en": "Mythrite Sand",
+            "name_fr": "Sable de mithrite",
+            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "coordinates": "(16, 12)",
+            "closestAetheryte_en": "Tailfeather -> Coerthas Western Highlands",
+            "closestAetheryte_fr": "La Penne -> Hautes terres du Coerthas occidental",
+            "patch": "3.0"
+        },
+        "x1": {
+            "level": "52",
+            "name_en": "Yellow Quartz",
+            "name_fr": "Quartz jaune",
+            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "coordinates": "(33, 22)",
+            "nodeTimer": "06:00 / 18:00",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.72"
+        },
+        "x2": {
+            "level": "55",
+            "name_en": "Green Quartz",
+            "name_fr": "Quartz vert",
+            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "coordinates": "(33, 22)",
+            "nodeTimer": "06:00 / 18:00",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.72"
+        }
+    }
+}

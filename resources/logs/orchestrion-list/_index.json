@@ -1,0 +1,42 @@
+{
+    "key": "orchestrion-list",
+    "groupName_en": "Orchestrion List",
+    "groupName_fr": "Morceaux de l'orchestrion",
+    "headers": {
+        "number": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "location": {
+            "header": "@HEADER.LOCATION",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "locales-i",
+        "locales-ii",
+        "dungeons-i",
+        "dungeons-ii",
+        "trials",
+        "raids-i",
+        "raids-ii",
+        "ambient",
+        "quests",
+        "others",
+        "seasonal",
+        "online-store-and-bonuses"
+    ]
+}

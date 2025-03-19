@@ -1,0 +1,223 @@
+{
+    "key": "hildibrand-adventures",
+    "groupName_en": "Hildibrand Adventures",
+    "groupName_fr": "Hildibrand, gentilhomme détective",
+    "tasks": {
+        "x66740": {
+            "level": 50,
+            "name_en": "The Rise and Fall of Gentlemen",
+            "name_fr": "Le gentilhomme détective",
+            "npc_en": "Wymond",
+            "npc_fr": "Wymond",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.65776", "q.66741"],
+            "patch": "4.31"
+        },
+        "x66741": {
+            "level": 50,
+            "name_en": "Back in the Saddle",
+            "name_fr": "Une nouvelle énigme",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66740"],
+            "cNext": ["q.66742"],
+            "patch": "4.31"
+        },
+        "x66742": {
+            "level": 50,
+            "name_en": "After Her Own Heart",
+            "name_fr": "L'amour fou",
+            "npc_en": "Wymond",
+            "npc_fr": "Wymond",
+            "cPrev": ["q.66741"],
+            "cNext": ["q.66743"],
+            "patch": "4.31"
+        },
+        "x66743": {
+            "level": 50,
+            "name_en": "The Immaculate Deception",
+            "name_fr": "Le Gentilhomme de la Lumière",
+            "npc_en": "Ellie",
+            "npc_fr": "Ellie",
+            "cPrev": ["q.66742"],
+            "cNext": ["q.66851"],
+            "patch": "4.31"
+        },
+        "x66851": {
+            "level": 50,
+            "name_en": "The Science of Deduction",
+            "name_fr": "De nouvelles rencontres",
+            "npc_en": "Ellie",
+            "npc_fr": "Ellie",
+            "cPrev": ["q.66743"],
+            "cNext": ["q.66852"],
+            "patch": "4.31"
+        },
+        "x66852": {
+            "level": 50,
+            "name_en": "The Hammer",
+            "name_fr": "Le démon à la toison blanche",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66851"],
+            "cNext": ["q.66853"],
+            "cSiblings": ["e.104"],
+            "patch": "4.31",
+            "unlock": "e.104"
+        },
+        "x66853": {
+            "level": 50,
+            "name_en": "Manderville Men",
+            "name_fr": "L'orfèvre le plus balèze d'Éorzéa",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66852"],
+            "cNext": ["q.66854"],
+            "patch": "4.31"
+        },
+        "x66854": {
+            "level": 50,
+            "name_en": "The Three Collectors",
+            "name_fr": "Un coup d'épée dans l'eau",
+            "unlock": "d.76",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66853"],
+            "cNext": ["q.66974"],
+            "patch": "4.31"
+        },
+        "x66974": {
+            "level": 50,
+            "name_en": "The Business of Betrothal",
+            "name_fr": "À la recherche du Masque blanc",
+            "npc_en": "Ellie",
+            "npc_fr": "Ellie",
+            "cPrev": ["q.66854"],
+            "cNext": ["q.66975"],
+            "patch": "4.31"
+        },
+        "x66975": {
+            "level": 50,
+            "name_en": "A Burst of Inspiration",
+            "name_fr": "Une découverte explosive",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.66974"],
+            "cNext": ["q.66976"],
+            "patch": "4.31"
+        },
+        "x66976": {
+            "level": 50,
+            "name_en": "Seeds of Rebellion",
+            "name_fr": "Déraciner et démasquer",
+            "npc_en": "Tiny Trader",
+            "npc_fr": "Marchand Chétif",
+            "cPrev": ["q.66975"],
+            "cNext": ["q.66977"],
+            "patch": "4.31"
+        },
+        "x66977": {
+            "level": 50,
+            "name_en": "A Case of Indecency",
+            "name_fr": "Un coup de collier",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66976"],
+            "cNext": ["q.65702"],
+            "patch": "4.31"
+        },
+        "x65702": {
+            "level": 50,
+            "name_en": "Eight-armed and Dangerous",
+            "name_fr": "Une affaire tentaculaire",
+            "npc_en": "Ellie",
+            "npc_fr": "Ellie",
+            "cPrev": ["q.66977"],
+            "cNext": ["q.65738"],
+            "patch": "4.31"
+        },
+        "x65738": {
+            "level": 50,
+            "name_en": "What Price Victory",
+            "name_fr": "Effet boomerang",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.65702"],
+            "cNext": ["q.65739"],
+            "patch": "4.31"
+        },
+        "x65739": {
+            "level": 50,
+            "name_en": "The Trouble with Truffles",
+            "name_fr": "Un ouragan de mystères",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.65738"],
+            "cNext": ["q.65740"],
+            "patch": "4.31"
+        },
+        "x65740": {
+            "level": 50,
+            "name_en": "The Coliseum Conundrum",
+            "name_fr": "La bague au doigt",
+            "unlock": "d.81",
+            "npc_en": "Briardien",
+            "npc_fr": "Briardien",
+            "cPrev": ["q.65739"],
+            "cNext": ["q.66026"],
+            "patch": "4.31"
+        },
+        "x66026": {
+            "level": 50,
+            "name_en": "Shades of Sil'dih",
+            "name_fr": "Rancœur séculaire",
+            "npc_en": "Ellie",
+            "npc_fr": "Ellie",
+            "cPrev": ["q.65740"],
+            "cNext": ["q.66027"],
+            "patch": "4.31"
+        },
+        "x66027": {
+            "level": 50,
+            "name_en": "Sibling Strife",
+            "name_fr": "Écrite par les vainqueurs",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66026"],
+            "cNext": ["q.66028"],
+            "patch": "4.31"
+        },
+        "x66028": {
+            "level": 50,
+            "name_en": "Beneath the Mask",
+            "name_fr": "Le glaive et la balance",
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "cPrev": ["q.66027"],
+            "cNext": ["q.66029"],
+            "patch": "4.31"
+        },
+        "x66029": {
+            "level": 50,
+            "name_en": "Truths Untold",
+            "name_fr": "Une affaire de famille",
+            "npc_en": "Hyuran Woman",
+            "npc_fr": "Jeune Fille Inconnue",
+            "cPrev": ["q.66028"],
+            "cNext": ["q.66038"],
+            "patch": "4.31"
+        },
+        "x66038": {
+            "level": 50,
+            "name_en": "Her Last Vow",
+            "name_fr": "Boucler la boucle",
+            "unlock": ["d.85", "mi.21", "e.114"],
+            "npc_en": "Julyan",
+            "npc_fr": "Julyan",
+            "cPrev": ["q.66029"],
+            "cNext": ["q.67762", "q.67688"],
+            "cSiblings": ["a.1061", "e.114"],
+            "patch": "4.31"
+        }
+    }
+}

@@ -7,37 +7,31 @@
             "level": "60★",
             "name_en": "Snurbleberry",
             "name_fr": "Lainuchairelle",
-            "zone_en": "The Dravanian Hinterlands",
-            "zone_fr": "Arrière-pays dravanien",
+            "zone": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
             "coordinates": "(39, 26)",
             "nodeTimer": "10:00 / 22:00",
-            "closestAetheryte_en": "Idyllshire -> The Dravanian Hinterlands",
-            "closestAetheryte_fr": "Idyllée -> Arrière-pays dravanien",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.68",
             "patch": "3.0"
         },
         "x1": {
             "level": "60★",
             "name_en": "Seventh Heaven",
             "name_fr": "Fleur astrale",
-            "zone_en": "The Churning Mists",
-            "zone_fr": "L'Écume des cieux de Dravania",
+            "zone": "@PLACE.THE_CHURNING_MISTS",
             "coordinates": "(17, 36)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Zenith",
-            "closestAetheryte_fr": "Zénith",
-            "patch": "3.0"
+            "patch": "3.0",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
         },
         "x2": {
             "level": "60★★★",
             "name_en": "Noble Sage",
             "name_fr": "Sauge noble",
-            "zone_en": "The Dravanian Forelands",
-            "zone_fr": "Avant-pays dravanien",
+            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
             "coordinates": "(33, 30)",
             "nodeTimer": "06:00 / 18:00",
-            "closestAetheryte_en": "Tailfeather",
-            "closestAetheryte_fr": "La Penne",
-            "patch": "3.4"
+            "patch": "3.4",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70"
         }
     }
 }

@@ -1,0 +1,72 @@
+{
+    "key": "living-memory",
+    "groupName": "@PLACE.LIVING_MEMORY",
+    "cCombo": ["a.3545"],
+    "tasks": {
+        "x0": {
+            "name": "@TRAVEL.COMPASS_CURRENT 1",
+            "location": "(11.7, 20.4, 0.5)"
+        },
+        "x1": {
+            "name": "@TRAVEL.COMPASS_CURRENT 2",
+            "location": "(24.8, 15.3, 0.4)"
+        },
+        "x2": {
+            "name": "@TRAVEL.COMPASS_CURRENT 3",
+            "location": "(27.7, 10.6, 0.6)"
+        },
+        "x3": {
+            "name": "@TRAVEL.COMPASS_CURRENT 4",
+            "location": "(34.0, 34.2, 0.2)"
+        },
+        "x4": {
+            "name": "@TRAVEL.COMPASS_CURRENT 5",
+            "location": "(26.1, 32.3, 0.2)"
+        },
+        "x5": {
+            "name": "@TRAVEL.COMPASS_CURRENT 6",
+            "location": "(11.1, 35.1, 0.2)"
+        },
+        "x6": {
+            "name": "@TRAVEL.COMPASS_CURRENT 7",
+            "location": "(10.2, 11.3, 0.1)"
+        },
+        "x7": {
+            "name": "@TRAVEL.COMPASS_CURRENT 8",
+            "location": "(31.6, 8.5, 0.5)"
+        },
+        "x8": {
+            "name": "@TRAVEL.COMPASS_CURRENT 9",
+            "location": "(36.5, 28.4, 0.6)"
+        },
+        "x9": {
+            "name": "@TRAVEL.COMPASS_CURRENT 10",
+            "location": "(7.5, 30.9, 0.2)"
+        },
+        "x10": {
+            "name": "@TRAVEL.QUEST_CURRENT 1",
+            "quest": "q.70715",
+            "cSiblings": ["q.70715"]
+        },
+        "x11": {
+            "name": "@TRAVEL.QUEST_CURRENT 2",
+            "quest": "q.70714",
+            "cSiblings": ["q.70714"]
+        },
+        "x12": {
+            "name": "@TRAVEL.QUEST_CURRENT 3",
+            "quest": "q.70712",
+            "cSiblings": ["q.70712"]
+        },
+        "x13": {
+            "name": "@TRAVEL.QUEST_CURRENT 4",
+            "quest": "q.70710",
+            "cSiblings": ["q.70710"]
+        },
+        "x14": {
+            "name": "@TRAVEL.QUEST_CURRENT 5",
+            "quest": "q.70494",
+            "cSiblings": ["q.70494"]
+        }
+    }
+}

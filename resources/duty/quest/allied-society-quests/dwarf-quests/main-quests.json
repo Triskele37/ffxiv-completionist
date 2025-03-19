@@ -1,0 +1,77 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x69432": {
+            "level": 70,
+            "name_en": "It's Dwarfin' Time",
+            "name_fr": "Révolution motorisée",
+            "npc_en": "Affable Townsdwarf",
+            "npc_fr": "Nain Insouciant",
+            "cPrev": ["q.69096"],
+            "cNext": ["q.69433"],
+            "cSiblings": ["character.character.societal-relations.74"],
+            "patch": "5.3"
+        },
+        "x69433": {
+            "level": 70,
+            "name_en": "A Piss-up in a Brewery",
+            "name_fr": "La Naine d'à côté",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "cPrev": ["q.69432"],
+            "cNext": ["q.69434"],
+            "cSiblings": ["character.character.societal-relations.75"],
+            "patch": "5.3"
+        },
+        "x69434": {
+            "level": 70,
+            "name_en": "I Heard You Like Tanks",
+            "name_fr": "Du thé dans les rouages",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation": "@REPUTATION.TRUSTED",
+            "cPrev": ["q.69433"],
+            "cNext": ["q.69435"],
+            "cSiblings": ["character.character.societal-relations.76"],
+            "patch": "5.3"
+        },
+        "x69435": {
+            "level": 70,
+            "name_en": "Tanking Is Hard",
+            "name_fr": "Les vieilles barbes s'en mêlent",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation": "@REPUTATION.RESPECTED",
+            "cPrev": ["q.69434"],
+            "cNext": ["q.69436"],
+            "cSiblings": ["character.character.societal-relations.77"],
+            "patch": "5.3"
+        },
+        "x69436": {
+            "level": 70,
+            "name_en": "Chief Concerns",
+            "name_fr": "Roulez jeunesse",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation": "@REPUTATION.HONORED",
+            "cPrev": ["q.69435"],
+            "cNext": ["q.69437"],
+            "cSiblings": ["character.character.societal-relations.78"],
+            "patch": "5.3"
+        },
+        "x69437": {
+            "level": 70,
+            "name_en": "Tanks for the Memory",
+            "name_fr": "Santé!",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation": "@REPUTATION.SWORN",
+            "cPrev": ["q.69436"],
+            "cSiblings": ["character.character.societal-relations.79"],
+            "patch": "5.3"
+        }
+    }
+}

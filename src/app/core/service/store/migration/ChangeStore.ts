@@ -1,4 +1,5 @@
 import { CompletionFlag } from '@constant';
+import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { SaveStore } from '../Store.d';
 import { SaveStoreService } from '../save-store.service';
@@ -6,12 +7,18 @@ import { SaveStoreService } from '../save-store.service';
 type ID = number | string;
 
 export class ChangeStore {
+    svcConfigStore: ConfigStoreService;
     svcSaveStore: SaveStoreService;
     newStore: SaveStore;
     oldStore: SaveStore;
 
-    constructor(svcSaveStore: SaveStoreService, version: string) {
+    constructor(
+        svcConfigStore: ConfigStoreService,
+        svcSaveStore: SaveStoreService,
+        version: string
+    ) {
         console.log(`Migrating to ${version}`);
+        this.svcConfigStore = svcConfigStore;
         this.svcSaveStore = svcSaveStore;
 
         // Create the initial store object for new users
@@ -20,6 +27,7 @@ export class ChangeStore {
             custom: {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
+            'starting-class': '',
             version
         };
 
@@ -99,6 +107,29 @@ export class ChangeStore {
 
         // Fix bookmark
         this.fixBookmarkedTask(groupPath, oldId, groupPath, newId);
+    }
+
+    // Safely move a set of keys to prevent collisions
+    safeChangeKeys(groupPath: string, idMap: [number, number][], fromNew?: boolean): void {
+        const sourceStore = dive(groupPath, fromNew ? this.newStore : this.oldStore);
+        const targetStore = dive(groupPath, this.newStore);
+
+        // Cache current flags for all keys
+        const flags = idMap.reduce((acc, [oldId, newId]) => {
+            acc[newId] = sourceStore[oldId];
+            return acc;
+        }, {});
+
+        // Clear out target
+        idMap.forEach(([oldId]) => delete targetStore[oldId]);
+
+        // Write new flags
+        idMap.forEach(([oldId, newId]) => {
+            targetStore[newId] = flags[newId];
+
+            // Fix bookmark
+            this.fixBookmarkedTask(groupPath, oldId, groupPath, newId);
+        });
     }
 
     // Change helper when task is in different group
@@ -225,7 +256,7 @@ function dive(path: string | string[], store: any): any {
 
     let cur = store;
     for(const item of pathSegments) {
-        if(!cur[item]) cur[item] = {};
+        cur[item] ??= {};
         cur = cur[item];
     }
 

@@ -1,214 +1,192 @@
 {
     "key": "sb",
-    "groupName_en": "SB",
-    "groupName_fr": "Stormblood",
+    "groupName": "@EXPANSION.STORMBLOOD",
+    "groupNameShort": "@EXPANSION.SB",
     "tasks": {
-        "x0": {
+        "x252": {
             "level": "70",
             "name_en": "Deltascape V1.0",
             "name_fr": "Deltastice v1.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68465"
+            "unlock": "q.68465"
         },
-        "x1": {
+        "x253": {
             "level": "70",
             "name_en": "Deltascape V2.0",
             "name_fr": "Deltastice v2.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68466"
+            "unlock": "q.68466"
         },
-        "x2": {
+        "x254": {
             "level": "70",
             "name_en": "Deltascape V3.0",
             "name_fr": "Deltastice v3.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68467"
+            "unlock": "q.68467"
         },
-        "x3": {
+        "x255": {
             "level": "70",
             "name_en": "Deltascape V4.0",
             "name_fr": "Deltastice v4.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68468",
-            "cSiblings": [
-                "character.achievement.battle.raids.1895"
-            ]
+            "unlock": "q.68468",
+            "cSiblings": ["a.1895"]
         },
-        "x4": {
+        "x256": {
             "level": "70",
             "name_en": "Deltascape V1.0 (Savage)",
             "name_fr": "Deltastice v1.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68469"
+            "unlock": "q.68469"
         },
-        "x5": {
+        "x257": {
             "level": "70",
             "name_en": "Deltascape V2.0 (Savage)",
             "name_fr": "Deltastice v2.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68469"
+            "unlock": "q.68469"
         },
-        "x6": {
+        "x258": {
             "level": "70",
             "name_en": "Deltascape V3.0 (Savage)",
             "name_fr": "Deltastice v3.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68469"
+            "unlock": "q.68469"
         },
-        "x7": {
+        "x259": {
             "level": "70",
             "name_en": "Deltascape V4.0 (Savage)",
             "name_fr": "Deltastice v4.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68469",
-            "cSiblings": [
-                "character.achievement.battle.raids.1898"
-            ]
+            "unlock": "q.68469",
+            "cSiblings": ["a.1898"]
         },
-        "x8": {
+        "x280": {
             "level": "70",
             "name_en": "The Unending Coil of Bahamut (Ultimate)",
             "name_fr": "L'Abîme infini de Bahamut (fatal)",
-            "unlock": "duty.dutyraid-finder.raids.sb.7",
-            "cSiblings": [
-                "character.achievement.battle.raids.1993"
-            ]
+            "unlock": "d.259",
+            "cSiblings": ["a.1993"]
         },
-        "x9": {
+        "x286": {
             "level": "70",
             "name_en": "Sigmascape V1.0",
             "name_fr": "Sigmastice v1.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68568"
+            "unlock": "q.68568"
         },
-        "x10": {
+        "x287": {
             "level": "70",
             "name_en": "Sigmascape V2.0",
             "name_fr": "Sigmastice v2.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68569"
+            "unlock": "q.68569"
         },
-        "x11": {
+        "x288": {
             "level": "70",
             "name_en": "Sigmascape V3.0",
             "name_fr": "Sigmastice v3.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68570"
+            "unlock": "q.68570"
         },
-        "x12": {
+        "x289": {
             "level": "70",
             "name_en": "Sigmascape V4.0",
             "name_fr": "Sigmastice v4.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68571",
-            "cSiblings": [
-                "character.achievement.battle.raids.2024"
-            ]
+            "unlock": "q.68571",
+            "cSiblings": ["a.2024"]
         },
-        "x13": {
+        "x292": {
             "level": "70",
             "name_en": "Sigmascape V1.0 (Savage)",
             "name_fr": "Sigmastice v1.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68571"
+            "unlock": "q.68571"
         },
-        "x14": {
+        "x293": {
             "level": "70",
             "name_en": "Sigmascape V2.0 (Savage)",
             "name_fr": "Sigmastice v2.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68571"
+            "unlock": "q.68571"
         },
-        "x15": {
+        "x294": {
             "level": "70",
             "name_en": "Sigmascape V3.0 (Savage)",
             "name_fr": "Sigmastice v3.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68571"
+            "unlock": "q.68571"
         },
-        "x16": {
+        "x295": {
             "level": "70",
             "name_en": "Sigmascape V4.0 (Savage)",
             "name_fr": "Sigmastice v4.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68571",
-            "cSiblings": [
-                "character.achievement.battle.raids.2027"
-            ]
+            "unlock": "q.68571",
+            "cSiblings": ["a.2027"]
         },
-        "x17": {
+        "x539": {
             "level": "70",
             "name_en": "The Weapon's Refrain (Ultimate)",
             "name_fr": "La Fantasmagorie d'Ultima (fatal)",
-            "unlock": "duty.dutyraid-finder.raids.sb.16",
-            "cSiblings": [
-                "character.achievement.battle.raids.2107"
-            ]
+            "unlock": "d.295",
+            "cSiblings": ["a.2107"]
         },
-        "x18": {
+        "x587": {
             "level": "70",
             "name_en": "Alphascape V1.0",
             "name_fr": "Alphastice v1.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68690"
+            "unlock": "q.68690"
         },
-        "x19": {
+        "x588": {
             "level": "70",
             "name_en": "Alphascape V2.0",
             "name_fr": "Alphastice v2.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68691"
+            "unlock": "q.68691"
         },
-        "x20": {
+        "x589": {
             "level": "70",
             "name_en": "Alphascape V3.0",
             "name_fr": "Alphastice v3.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68692"
+            "unlock": "q.68692"
         },
-        "x21": {
+        "x590": {
             "level": "70",
             "name_en": "Alphascape V4.0",
             "name_fr": "Alphastice v4.0",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68692",
-            "cSiblings": [
-                "character.achievement.battle.raids.2118"
-            ]
+            "unlock": "q.68692",
+            "cSiblings": ["a.2118"]
         },
-        "x22": {
+        "x591": {
             "level": "70",
             "name_en": "Alphascape V1.0 (Savage)",
             "name_fr": "Alphastice v1.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68693"
+            "unlock": "q.68693"
         },
-        "x23": {
+        "x592": {
             "level": "70",
             "name_en": "Alphascape V2.0 (Savage)",
             "name_fr": "Alphastice v2.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68693"
+            "unlock": "q.68693"
         },
-        "x24": {
+        "x593": {
             "level": "70",
             "name_en": "Alphascape V3.0 (Savage)",
             "name_fr": "Alphastice v3.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68693"
+            "unlock": "q.68693"
         },
-        "x25": {
+        "x594": {
             "level": "70",
             "name_en": "Alphascape V4.0 (Savage)",
             "name_fr": "Alphastice v4.0 (sadique)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.omega.68693",
-            "cSiblings": [
-                "character.achievement.battle.raids.2121"
-            ]
+            "unlock": "q.68693",
+            "cSiblings": ["a.2121"]
         },
-        "x26": {
+        "x281": {
             "level": "70",
             "name_en": "The Royal City of Rabanastre",
             "name_fr": "La Cité royale de Robanastre",
-            "unlock": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68540",
-            "cSiblings": [
-                "character.achievement.battle.raids.1992"
-            ]
+            "unlock": "q.68540",
+            "cSiblings": ["a.1992"]
         },
-        "x27": {
+        "x550": {
             "level": "70",
             "name_en": "The Ridorana Lighthouse",
             "name_fr": "Le Phare de Ridorana",
-            "unlock": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68628",
-            "cSiblings": [
-                "character.achievement.battle.raids.2106"
-            ]
+            "unlock": "q.68628",
+            "cSiblings": ["a.2106"]
         },
-        "x28": {
+        "x636": {
             "level": "70",
             "name_en": "The Orbonne Monastery",
             "name_fr": "Le Monastère d'Orbonne",
-            "unlock": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725",
-            "cSiblings": [
-                "character.achievement.battle.raids.2164"
-            ]
+            "unlock": "q.68725",
+            "cSiblings": ["a.2164"]
         }
     }
 }

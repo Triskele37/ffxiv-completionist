@@ -4,13 +4,23 @@
     "groupName_fr": "Vitesse des Montures",
     "headers": {
         "name": {
-            "header_en": "Area Name",
-            "header_fr": "Nom de la zone"
+            "header": "@HEADER.ZONE"
         },
-        "method": {
-            "link": true,
-            "header_en": "Method (Quest or Cost)",
-            "header_fr": "Méthode (Quête ou coût)"
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
         }
-    }
+    },
+    "order": [
+        "la-noscea",
+        "the-black-shroud",
+        "thanalan",
+        "ishgard-and-coerthas",
+        "gyr-abania",
+        "the-far-east",
+        "ilsabard",
+        "tural",
+        "norvrandt",
+        "others"
+    ]
 }

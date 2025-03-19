@@ -1,0 +1,73 @@
+{
+    "key": "21-25",
+    "groupName_en": "21-25",
+    "groupName_fr": "21-25",
+    "tasks": {
+        "x0": {
+            "level": "21",
+            "name_en": "Earth Rock",
+            "name_fr": "Pierre de terre",
+            "zone": "@PLACE.SOUTH_SHROUD",
+            "coordinates": "(23, 21)",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.25"
+        },
+        "x1": {
+            "level": "22",
+            "name_en": "Silver Sand",
+            "name_fr": "Sable d'argent",
+            "zone": "@PLACE.SOUTH_SHROUD",
+            "coordinates": "(23, 21)",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.25"
+        },
+        "x2": {
+            "level": "23",
+            "name_en": "Fire Rock",
+            "name_fr": "Pierre de feu",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
+            "coordinates": "(12, 23)",
+            "closestAetheryte_en": "Aleport -> Upper La Noscea",
+            "closestAetheryte_fr": "Port-aux-Ales -> Haute-Noscea",
+            "patch": "2.0"
+        },
+        "x3": {
+            "level": "23",
+            "name_en": "Ice Rock",
+            "name_fr": "Pierre de glace",
+            "zone": "@PLACE.SOUTH_SHROUD",
+            "coordinates": "(23, 21)",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.25"
+        },
+        "x4": {
+            "level": "24",
+            "name_en": "Wind Rock",
+            "name_fr": "Pierre de vent",
+            "zone": "@PLACE.SOUTH_SHROUD",
+            "coordinates": "(23, 21)",
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.25"
+        },
+        "x5": {
+            "level": "24",
+            "name_en": "Lightning Rock",
+            "name_fr": "Pierre de foudre",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
+            "coordinates": "(12, 23)",
+            "closestAetheryte_en": "Aleport -> Upper La Noscea",
+            "closestAetheryte_fr": "Port-aux-Ales -> Haute-Noscea",
+            "patch": "2.0"
+        },
+        "x6": {
+            "level": "25",
+            "name_en": "Water Rock",
+            "name_fr": "Pierre d'eau",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
+            "coordinates": "(12, 23)",
+            "closestAetheryte_en": "Aleport -> Upper La Noscea",
+            "closestAetheryte_fr": "Port-aux-Ales -> Haute-Noscea",
+            "patch": "2.0"
+        }
+    }
+}

@@ -2,323 +2,687 @@
     "key": "page-3",
     "groupName_en": "Page 3",
     "groupName_fr": "Page 3",
-    "common": [
-        "zone",
-        "bait"
-    ],
     "tasks": {
         "x0": {
             "name_en": "Dusky Shark",
             "name_fr": "Requin requiem de sable",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x1": {
             "name_en": "Agama's Palm",
             "name_fr": "Paume-d'Agama",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x2": {
             "name_en": "Rummy-nosed Tetra",
             "name_fr": "Tétra à nez rouge",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x3": {
             "name_en": "Monksblade",
             "name_fr": "Sabre-du-moine",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x4": {
             "name_en": "Atamra Cichlid",
             "name_fr": "Cichlidé amra",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
         },
         "x5": {
             "name_en": "Root of Maya",
             "name_fr": "Racine-de-la-Maya",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
         },
         "x6": {
             "name_en": "Floral Snakehead",
             "name_fr": "Tête-de-serpent floral",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x7": {
             "name_en": "Skipping Stone",
             "name_fr": "Crabe-pagaie",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x8": {
             "name_en": "Red-spotted Blenny",
-            "name_fr": "Blennie à points rouges",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "name_fr": "Blennie à points rouges",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST"
         },
         "x9": {
             "name_en": "Deepbody Boarfish",
             "name_fr": "Poisson-sanglier",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x10": {
             "name_en": "Grey Mullet",
             "name_fr": "Mulet à grosse tête",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x11": {
             "name_en": "Prayer Cushion",
             "name_fr": "Coussin-de-prière",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x12": {
             "name_en": "Uzumaki",
             "name_fr": "Uzumaki",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x13": {
             "name_en": "Jointed Razorfish",
             "name_fr": "Poisson-rasoir strié",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x14": {
             "name_en": "Mini Yasha",
             "name_fr": "Mini-yasha",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x15": {
             "name_en": "Righteye Flounder",
             "name_fr": "Flétan d'Othard",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x16": {
             "name_en": "Othardian Lumpsucker",
             "name_fr": "Lompe d'Othard",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x17": {
             "name_en": "Sawshark",
             "name_fr": "Requin-scie",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x18": {
             "name_en": "Bluefin Trevally",
             "name_fr": "Carangue bleue",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x19": {
             "name_en": "Natron Puffer",
             "name_fr": "Fugu de natron",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x20": {
             "name_en": "Diamond Dagger",
             "name_fr": "Dague-de-diamant",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST"
         },
         "x21": {
             "name_en": "Queenly Fan",
             "name_fr": "Éventail-royal",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x22": {
             "name_en": "Pale Panther",
             "name_fr": "Panthère pâle",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x23": {
             "name_en": "Saltsquid",
             "name_fr": "Calmar salin",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x24": {
             "name_en": "Platinum Hammerhead",
             "name_fr": "Requin-marteau platine",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x25": {
             "name_en": "Othardian Wrasse",
             "name_fr": "Labre d'Othard",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.19",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_FAST"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_FAST"
         },
         "x26": {
             "name_en": "Shogun's Kabuto",
             "name_fr": "Kabuto-du-shogun",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x27": {
             "name_en": "Pipefish",
             "name_fr": "Syngnathe",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST"
         },
         "x28": {
             "name_en": "Xiphactinus",
             "name_fr": "Xiphactinus",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x29": {
             "name_en": "Kitefin Shark",
             "name_fr": "Squale liche",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x30": {
             "name_en": "Tebqeyiq Smelt",
             "name_fr": "Éperlan de Tebqeyiq",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@PLACE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SUPER_FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_FAST"
         },
         "x31": {
             "name_en": "Inksquid",
             "name_fr": "Calmar encrier",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@PLACE.THE_LOCHS",
             "patch": "6.15",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.5",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x32": {
             "name_en": "Auroral Clam",
             "name_fr": "Palourde nacrée",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "patch": "6.15",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.23",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x33": {
             "name_en": "Ken Kiln",
             "name_fr": "Ken Kiln",
-            "zone": "ZONE.LAKELAND",
+            "zone": "@PLACE.LAKELAND",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.15",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x34": {
             "name_en": "Glorianda's Tear",
             "name_fr": "Larme de Glorianda",
-            "zone": "ZONE.IL_MHEG",
+            "zone": "@PLACE.IL_MHEG",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.16",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x35": {
             "name_en": "Verdigris Guppy",
             "name_fr": "Guppy vert-de-gris",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST"
         },
         "x36": {
             "name_en": "Lakeskipper",
             "name_fr": "Gobie saute-lac",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x37": {
             "name_en": "Bronze Eel",
             "name_fr": "Anguille bronze",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x38": {
             "name_en": "Striped Peacock Bass",
             "name_fr": "Tucunaré rayé",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x39": {
             "name_en": "Bronze Trout",
             "name_fr": "Grande truite d'airain",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x40": {
             "name_en": "Nosceasaur",
             "name_fr": "Nosceasaure",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.3",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x41": {
             "name_en": "Empyreal Spiral",
             "name_fr": "Spirale étoilée",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "patch": "6.5",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.24",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x42": {
             "name_en": "Opal Tetra",
             "name_fr": "Tétra opalin",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@PLACE.UPPER_LA_NOSCEA",
             "patch": "6.5",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST"
+        },
+        "x43": {
+            "name_en": "Turali Loach",
+            "name_fr": "Loche turalienne",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x44": {
+            "name_en": "Yok Huy Toad",
+            "name_fr": "Crapaud yok huy",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+        },
+        "x45": {
+            "name_en": "Stone Pleco",
+            "name_fr": "Pléco pierreux",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+        },
+        "x46": {
+            "name_en": "Shark Catfish",
+            "name_fr": "Poisson-chat requin",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
+        },
+        "x47": {
+            "name_en": "Zeh Lar Dor",
+            "name_fr": "Zeh Lar Dor",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+        },
+        "x48": {
+            "name_en": "Karvarichthys",
+            "name_fr": "Karvarichthys",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.0",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+        },
+        "x49": {
+            "name_en": "Severum",
+            "name_fr": "Severum",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+        },
+        "x50": {
+            "name_en": "Ligaka Blossom",
+            "name_fr": "Poisson de Ligaka",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+        },
+        "x51": {
+            "name_en": "Potglaze Stingray",
+            "name_fr": "Raie mobeline",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x52": {
+            "name_en": "Emberwisp",
+            "name_fr": "Torche du malandrin",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+        },
+        "x53": {
+            "name_en": "Ihuyka Colossoma",
+            "name_fr": "Ihuyka colossoma",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+        },
+        "x54": {
+            "name_en": "Torchtail",
+            "name_fr": "Flambe-queue",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.1",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
+        },
+        "x55": {
+            "name_en": "Variegated Sisterscale",
+            "name_fr": "Sœur de l'arc-en-ciel",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+        },
+        "x56": {
+            "name_en": "Kozama'uka Characin",
+            "name_fr": "Characin de Kozama'uka",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x57": {
+            "name_en": "Charcoal Eel",
+            "name_fr": "Anguille charbon",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+        },
+        "x58": {
+            "name_en": "Rainbow Pipira",
+            "name_fr": "Pipira arc-en-ciel",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+        },
+        "x59": {
+            "name_en": "Lau Lau",
+            "name_fr": "Lau Lau",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
+        },
+        "x60": {
+            "name_en": "Ligaka Pirarucu",
+            "name_fr": "Pirarucu de Ligaka",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.2",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
+        },
+        "x61": {
+            "name_en": "Piraputanga",
+            "name_fr": "Piraputanga",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.3",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
+        },
+        "x62": {
+            "name_en": "Purussaurus",
+            "name_fr": "Purussaurus",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.3",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
+        },
+        "x63": {
+            "name_en": "Turali Land Crab",
+            "name_fr": "Crabe bleu du Tural",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_SLOW"
+        },
+        "x64": {
+            "name_en": "Crested Goby",
+            "name_fr": "Gobie à crète",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+        },
+        "x65": {
+            "name_en": "Tsoly Turtle",
+            "name_fr": "Tortue des tsoly",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x66": {
+            "name_en": "Viperfish",
+            "name_fr": "Poisson-vipère",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+        },
+        "x67": {
+            "name_en": "Horizon Crocodile",
+            "name_fr": "Crocodile de L'Horizon",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
+        },
+        "x68": {
+            "name_en": "Tsoly Gar",
+            "name_fr": "Brochet crocodile des tsoly",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.4",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+        },
+        "x69": {
+            "name_en": "Sunlit Prism",
+            "name_fr": "Poisson-prisme",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+        },
+        "x70": {
+            "name_en": "Fategazer",
+            "name_fr": "Œil-du-destin",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x71": {
+            "name_en": "Frillfin Goby",
+            "name_fr": "Gobie à nageoires à volants",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+        },
+        "x72": {
+            "name_en": "Black Ibruq",
+            "name_fr": "Ibruq noir",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+        },
+        "x73": {
+            "name_en": "Speckled Peacock Bass",
+            "name_fr": "Bar paon moucheté",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
+        },
+        "x74": {
+            "name_en": "Golden Characin",
+            "name_fr": "Characin doré",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.5",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+        },
+        "x75": {
+            "name_en": "Deadleaf Minnow",
+            "name_fr": "Fondule feuillemorte",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+        },
+        "x76": {
+            "name_en": "Glistening Discus",
+            "name_fr": "Discus étincelant",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+        },
+        "x77": {
+            "name_en": "Lightning Eel",
+            "name_fr": "Anguille feu-du-ciel",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+        },
+        "x78": {
+            "name_en": "Longwhisker Lungfish",
+            "name_fr": "Dipneuste à moustaches",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x79": {
+            "name_en": "Minted Arowana",
+            "name_fr": "Arowana cousu d'or",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
+        },
+        "x80": {
+            "name_en": "Br'aaxfish",
+            "name_fr": "Poisson-br'aax",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.6",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+        },
+        "x81": {
+            "name_en": "Iq Rrax Crab",
+            "name_fr": "Crabe iq rrax",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.7",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST"
+        },
+        "x82": {
+            "name_en": "Wivre Cod",
+            "name_fr": "Morue wivre",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.yok-tural.7",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST"
+        },
+        "x83": {
+            "name_en": "Warmouth",
+            "name_fr": "Crapet sac-à-lait",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+        },
+        "x84": {
+            "name_en": "Shaaloani Goby",
+            "name_fr": "Gobie de Shaaloani",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_SLOW"
+        },
+        "x85": {
+            "name_en": "Sauger",
+            "name_fr": "Doré noir",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+        },
+        "x86": {
+            "name_en": "Niikwerepi Bass",
+            "name_fr": "Bar de Niikwerepi",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+        },
+        "x87": {
+            "name_en": "Longnose Gar",
+            "name_fr": "Lépisosté osseux",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+        },
+        "x88": {
+            "name_en": "Midnight Carp",
+            "name_fr": "Carpe de minuit",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.xak-tural.0",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         }
     }
 }

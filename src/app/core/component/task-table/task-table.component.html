@@ -21,6 +21,7 @@
             [scrollable]="true"
             scrollHeight="flex"
             (onRowReorder)="onRowReorder($event)"
+            [virtualScrollOptions]="{}"
         >
             <ng-template pTemplate="header">
                 <xiv-header-row

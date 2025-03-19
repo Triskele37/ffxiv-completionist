@@ -9,9 +9,7 @@
             "name_fr": "Un festin pour les gastornis",
             "npc_en": "Caribault",
             "npc_fr": "Caribault",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67116"
-            ],
+            "cPrev": ["q.67116"],
             "patch": "4.31"
         },
         "x67275": {
@@ -19,10 +17,8 @@
             "name_en": "Made to Order",
             "name_fr": "Les plateaux du cœur",
             "npc_en": "Rose Knight Cook",
-            "npc_fr": "cantinière de la garnison",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67128"
-            ],
+            "npc_fr": "Cantinière de la Garnison",
+            "cPrev": ["q.67128"],
             "patch": "4.31"
         },
         "x67284": {
@@ -32,12 +28,8 @@
             "unlock": "travel.aether-currents.hw.the-sea-of-clouds.10",
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67134"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.hw.the-sea-of-clouds.10"
-            ],
+            "cPrev": ["q.67134"],
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.10"],
             "patch": "4.31"
         },
         "x67276": {
@@ -46,12 +38,8 @@
             "name_fr": "Un repas pour motiver les troupes",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67126"
-            ],
-            "cNext": [
-                67277
-            ],
+            "cPrev": ["q.67126"],
+            "cNext": ["q.67277"],
             "patch": "4.31"
         },
         "x67277": {
@@ -60,13 +48,8 @@
             "name_fr": "Un dragon pour motiver les troupes",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67126",
-                67276
-            ],
-            "cNext": [
-                67285
-            ],
+            "cPrev": ["q.67126", "q.67276"],
+            "cNext": ["q.67285"],
             "patch": "4.31"
         },
         "x67285": {
@@ -75,13 +58,8 @@
             "name_fr": "Une enquête pour motiver les troupes",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67134",
-                67277
-            ],
-            "cNext": [
-                67292
-            ],
+            "cPrev": ["q.67134", "q.67277"],
+            "cNext": ["q.67292"],
             "patch": "4.31"
         },
         "x67292": {
@@ -90,10 +68,7 @@
             "name_fr": "Une victoire pour motiver les troupes",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67139",
-                67285
-            ],
+            "cPrev": ["q.67139", "q.67285"],
             "patch": "4.31"
         },
         "x67291": {
@@ -102,12 +77,8 @@
             "name_fr": "Défendre les provisions",
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67139"
-            ],
-            "cNext": [
-                67293
-            ],
+            "cPrev": ["q.67139"],
+            "cNext": ["q.67293"],
             "patch": "4.31"
         },
         "x67293": {
@@ -116,13 +87,8 @@
             "name_fr": "Les oubliés de la retraite",
             "npc_en": "Terremiaux",
             "npc_fr": "Terremiaux",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67139",
-                67291
-            ],
-            "cNext": [
-                67294
-            ],
+            "cPrev": ["q.67139", "q.67291"],
+            "cNext": ["q.67294"],
             "patch": "4.31"
         },
         "x67294": {
@@ -131,10 +97,7 @@
             "name_fr": "Reprendre les armes",
             "npc_en": "Terremiaux",
             "npc_fr": "Terremiaux",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67139",
-                67293
-            ],
+            "cPrev": ["q.67139", "q.67293"],
             "patch": "4.31"
         },
         "x67435": {
@@ -143,13 +106,8 @@
             "name_fr": "Des païssas pas si rusés",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410"
-            ],
-            "cNext": [
-                67440
-            ],
+            "cPrev": ["q.67173", "q.67410"],
+            "cNext": ["q.67440"],
             "patch": "4.31"
         },
         "x67440": {
@@ -158,11 +116,7 @@
             "name_fr": "Quand les dhalmels s'en mêlent",
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410",
-                67435
-            ],
+            "cPrev": ["q.67173", "q.67410", "q.67435"],
             "patch": "4.31"
         },
         "x67436": {
@@ -171,13 +125,8 @@
             "name_fr": "Du wisent bien saignant",
             "npc_en": "Fabrellet",
             "npc_fr": "Fabrellet",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410"
-            ],
-            "cNext": [
-                67439
-            ],
+            "cPrev": ["q.67173", "q.67410"],
+            "cNext": ["q.67439"],
             "patch": "4.31"
         },
         "x67439": {
@@ -186,11 +135,7 @@
             "name_fr": "L'œuf de Fabrellet",
             "npc_en": "Fabrellet",
             "npc_fr": "Fabrellet",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410",
-                67436
-            ],
+            "cPrev": ["q.67173", "q.67410", "q.67436"],
             "patch": "4.31"
         },
         "x67437": {
@@ -199,10 +144,7 @@
             "name_fr": "Les roses égarées",
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410"
-            ],
+            "cPrev": ["q.67173", "q.67410"],
             "patch": "4.31"
         },
         "x67438": {
@@ -211,10 +153,7 @@
             "name_fr": "Bien noir et bien frais",
             "npc_en": "Caribault",
             "npc_fr": "Caribault",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67410"
-            ],
+            "cPrev": ["q.67173", "q.67410"],
             "patch": "4.31"
         },
         "x67443": {
@@ -223,9 +162,7 @@
             "name_fr": "Le cinquième wamouracampa",
             "npc_en": "Conu Vanu",
             "npc_fr": "Conu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182"
-            ],
+            "cPrev": ["q.67182"],
             "patch": "4.31"
         },
         "x67444": {
@@ -234,9 +171,7 @@
             "name_fr": "Endymions dégriffés",
             "npc_en": "Hinu Vali",
             "npc_fr": "Hinu Vali",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182"
-            ],
+            "cPrev": ["q.67182"],
             "patch": "4.31"
         },
         "x67445": {
@@ -246,12 +181,8 @@
             "unlock": "travel.aether-currents.hw.the-sea-of-clouds.13",
             "npc_en": "Ganu Vali",
             "npc_fr": "Ganu Vali",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.hw.the-sea-of-clouds.13"
-            ],
+            "cPrev": ["q.67182"],
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.13"],
             "patch": "4.31"
         },
         "x67448": {
@@ -260,9 +191,7 @@
             "name_fr": "Retour à l'envoyeur",
             "npc_en": "Hinu Vali",
             "npc_fr": "Hinu Vali",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183"
-            ],
+            "cPrev": ["q.67183"],
             "patch": "4.31"
         },
         "x67449": {
@@ -271,9 +200,7 @@
             "name_fr": "Sanuwa pas se passer comme ça!",
             "npc_en": "Ganu Vali",
             "npc_fr": "Ganu Vali",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183"
-            ],
+            "cPrev": ["q.67183"],
             "patch": "4.31"
         },
         "x67453": {
@@ -282,9 +209,7 @@
             "name_fr": "Le respect des totems",
             "npc_en": "Aanu Vanu",
             "npc_fr": "Aanu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183"
-            ],
+            "cPrev": ["q.67183"],
             "patch": "4.31"
         },
         "x67456": {
@@ -292,13 +217,9 @@
             "name_en": "For Your Spies Only",
             "name_fr": "Au service secret des Zundu",
             "npc_en": "Zundu Intelligencer",
-            "npc_fr": "maître-espion zundu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183"
-            ],
-            "cNext": [
-                67455
-            ],
+            "npc_fr": "Maître-espion Zundu",
+            "cPrev": ["q.67183"],
+            "cNext": ["q.67455"],
             "patch": "4.31"
         },
         "x67455": {
@@ -306,14 +227,9 @@
             "name_en": "Not Free as a Bird",
             "name_fr": "Comme un Zundu en cage",
             "npc_en": "Captured Zundu Youth",
-            "npc_fr": "Zundu captif",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183",
-                67456
-            ],
-            "cNext": [
-                67454
-            ],
+            "npc_fr": "Zundu Captif",
+            "cPrev": ["q.67183", "q.67456"],
+            "cNext": ["q.67454"],
             "patch": "4.31"
         },
         "x67454": {
@@ -322,10 +238,7 @@
             "name_fr": "Des captifs observateurs",
             "npc_en": "Sonu Vanu",
             "npc_fr": "Sonu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183",
-                67455
-            ],
+            "cPrev": ["q.67183", "q.67455"],
             "patch": "4.31"
         },
         "x67457": {
@@ -333,10 +246,8 @@
             "name_en": "An Awkward Situation",
             "name_fr": "Le sacrifice des Vundu",
             "npc_en": "Zundu Sacrifice",
-            "npc_fr": "Zundu apeuré",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67183"
-            ],
+            "npc_fr": "Zundu Apeuré",
+            "cPrev": ["q.67183"],
             "patch": "4.31"
         },
         "x67446": {
@@ -346,15 +257,9 @@
             "unlock": "travel.aether-currents.hw.the-sea-of-clouds.14",
             "npc_en": "Guna Vanu",
             "npc_fr": "Guna Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182"
-            ],
-            "cNext": [
-                67447
-            ],
-            "cSiblings": [
-                "travel.aether-currents.hw.the-sea-of-clouds.14"
-            ],
+            "cPrev": ["q.67182"],
+            "cNext": ["q.67447"],
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.14"],
             "patch": "4.31"
         },
         "x67447": {
@@ -363,13 +268,8 @@
             "name_fr": "L'offrande de Gunu Vanu",
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182",
-                67446
-            ],
-            "cNext": [
-                67450
-            ],
+            "cPrev": ["q.67182", "q.67446"],
+            "cNext": ["q.67450"],
             "patch": "4.31"
         },
         "x67450": {
@@ -378,13 +278,8 @@
             "name_fr": "Danse avec les Zundu",
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182",
-                67447
-            ],
-            "cNext": [
-                67451
-            ],
+            "cPrev": ["q.67182", "q.67447"],
+            "cNext": ["q.67451"],
             "patch": "4.31"
         },
         "x67451": {
@@ -393,13 +288,8 @@
             "name_fr": "Une monture de brave",
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182",
-                67450
-            ],
-            "cNext": [
-                67452
-            ],
+            "cPrev": ["q.67182", "q.67450"],
+            "cNext": ["q.67452"],
             "patch": "4.31"
         },
         "x67452": {
@@ -408,10 +298,7 @@
             "name_fr": "Gare aux Garlemauvais!",
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67182",
-                67451
-            ],
+            "cPrev": ["q.67182", "q.67451"],
             "patch": "4.31"
         },
         "x67510": {
@@ -420,13 +307,8 @@
             "name_fr": "Des Mogs de la forêt dans les nuages",
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67197",
-                "duty.quests.sidequests.dravanian.the-churning-mists.67509"
-            ],
-            "cNext": [
-                67511
-            ],
+            "cPrev": ["q.67197", "q.67509"],
+            "cNext": ["q.67511"],
             "patch": "4.31"
         },
         "x67511": {
@@ -435,13 +317,8 @@
             "name_fr": "Un voyage pour des noix",
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67197",
-                67510
-            ],
-            "cNext": [
-                67512
-            ],
+            "cPrev": ["q.67197", "q.67510"],
+            "cNext": ["q.67512"],
             "patch": "4.31"
         },
         "x67512": {
@@ -450,13 +327,8 @@
             "name_fr": "Une méprise salvatrice",
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67197",
-                67511
-            ],
-            "cNext": [
-                67513
-            ],
+            "cPrev": ["q.67197", "q.67511"],
+            "cNext": ["q.67513"],
             "patch": "4.31"
         },
         "x67513": {
@@ -465,25 +337,18 @@
             "name_fr": "La légende des Mogs célestes",
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67197",
-                67512
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.the-churning-mists.67514"
-            ],
+            "cPrev": ["q.67197", "q.67512"],
+            "cNext": ["q.67514"],
             "patch": "4.31"
         },
         "x67648": {
             "level": 60,
             "name_en": "Reap What You Sow",
             "name_fr": "Oncques à Nalloncques",
-            "unlock": "duty.dutyraid-finder.dungeons.hw.6",
+            "unlock": "d.33",
             "npc_en": "Sanu Vanu",
             "npc_fr": "Sanu Vanu",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         }
     }

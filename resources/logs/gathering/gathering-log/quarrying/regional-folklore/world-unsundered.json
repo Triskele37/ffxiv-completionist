@@ -7,29 +7,25 @@
             "level": "90",
             "name_en": "Stonehard Water",
             "name_fr": "Eau extrêmement dure",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(13.6, 7.2)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Poieten Oikos",
-            "closestAetheryte_fr": "Poièten Oïkos",
             "cSiblings": [
                 "logs.gathering.gathering-log.mining.regional-folklore.ilsabard-northern-empty.0",
                 "logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars.0"
             ],
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.159"
         },
         "x1": {
             "level": "90★",
             "name_en": "Rhodium Sand",
             "name_fr": "Sable de rhodium",
-            "zone_en": "Elpis",
-            "zone_fr": "Elpis",
+            "zone": "@PLACE.ELPIS",
             "coordinates": "(13.6, 7.2)",
             "nodeTimer": "04:00 / 16:00",
-            "closestAetheryte_en": "Poieten Oikos",
-            "closestAetheryte_fr": "Poièten Oïkos",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.159"
         }
     }
 }

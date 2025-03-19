@@ -1,0 +1,213 @@
+{
+    "key": "astrologian-quests",
+    "groupName_en": "Astrologian Quests",
+    "groupName_fr": "Quêtes d'astromancien",
+    "tasks": {
+        "x67548": {
+            "level": 50,
+            "name_en": "Stairway to the Heavens",
+            "name_fr": "L'appel des étoiles",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67659"],
+            "cNext": ["q.67549"],
+            "cSiblings": ["ap.171"],
+            "patch": "4.31",
+            "unlock": "ap.171"
+        },
+        "x67549": {
+            "level": 30,
+            "name_en": "Fortune Favors the Bole",
+            "name_fr": "L'arbre céleste",
+            "npc_en": "Leveva",
+            "npc_fr": "Leveva",
+            "cPrev": ["q.67548"],
+            "cNext": ["q.67550"],
+            "patch": "4.31"
+        },
+        "x67550": {
+            "level": 35,
+            "name_en": "Hanging in the Balance",
+            "name_fr": "Constellations et bénédictions",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67549"],
+            "cNext": ["q.67551"],
+            "patch": "4.31"
+        },
+        "x67551": {
+            "level": 40,
+            "name_en": "A Lesson in Patience",
+            "name_fr": "Plus de peur que de mal",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67550"],
+            "cNext": ["q.67552"],
+            "patch": "4.31"
+        },
+        "x67552": {
+            "level": 40,
+            "name_en": "Slings and Arrows",
+            "name_fr": "La flèche étoilée",
+            "npc_en": "Leveva",
+            "npc_fr": "Leveva",
+            "cPrev": ["q.67551"],
+            "cNext": ["q.67553"],
+            "patch": "4.31"
+        },
+        "x67553": {
+            "level": 45,
+            "name_en": "Ewer Right",
+            "name_fr": "La jarre astrale",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67552"],
+            "cNext": ["q.67554"],
+            "patch": "4.31"
+        },
+        "x67554": {
+            "level": 50,
+            "name_en": "Loved by the Sun",
+            "name_fr": "Un cours particulier",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67553"],
+            "cNext": ["q.67555"],
+            "patch": "4.31"
+        },
+        "x67555": {
+            "level": 50,
+            "name_en": "Spearheading Initiatives",
+            "name_fr": "La lance cosmique",
+            "npc_en": "Leveva",
+            "npc_fr": "Leveva",
+            "cPrev": ["q.67554"],
+            "cNext": ["q.67556"],
+            "cSiblings": ["a.1153"],
+            "patch": "4.31"
+        },
+        "x67556": {
+            "level": 50,
+            "name_en": "Sharlayan Ascending",
+            "name_fr": "Pressions extérieures",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67555"],
+            "cNext": ["q.67557"],
+            "patch": "4.31"
+        },
+        "x67557": {
+            "level": 52,
+            "name_en": "Empty Nest",
+            "name_fr": "Illusions perdues",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67556"],
+            "cNext": ["q.67558"],
+            "patch": "4.31"
+        },
+        "x67558": {
+            "level": 54,
+            "name_en": "Conviction",
+            "name_fr": "Le destin sonne toujours deux fois",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67557"],
+            "cNext": ["q.67559"],
+            "patch": "4.31"
+        },
+        "x67559": {
+            "level": 56,
+            "name_en": "Feather in the Cap",
+            "name_fr": "Chasseurs et chassés",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67558"],
+            "cNext": ["q.67560"],
+            "patch": "4.31"
+        },
+        "x67560": {
+            "level": 58,
+            "name_en": "Trumped",
+            "name_fr": "Une soif de savoir",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67559"],
+            "cNext": ["q.67561"],
+            "patch": "4.31"
+        },
+        "x67561": {
+            "level": 60,
+            "name_en": "The Hands of Fate",
+            "name_fr": "Prédestination",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67560"],
+            "cNext": ["q.67945"],
+            "cSiblings": ["a.1156"],
+            "patch": "4.31"
+        },
+        "x67945": {
+            "level": 60,
+            "name_en": "East Meets West",
+            "name_fr": "Un étudiant plus que motivé",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67561", "q.67895"],
+            "cNext": ["q.67946"],
+            "patch": "4.31"
+        },
+        "x67946": {
+            "level": 63,
+            "name_en": "Ride Like the Wind",
+            "name_fr": "Des nouvelles inquiétantes",
+            "npc_en": "Leveva",
+            "npc_fr": "Leveva",
+            "cPrev": ["q.67945"],
+            "cNext": ["q.67947"],
+            "patch": "4.31"
+        },
+        "x67947": {
+            "level": 65,
+            "name_en": "Come Rain or Shrine",
+            "name_fr": "La barrière protectrice",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67946"],
+            "cNext": ["q.67948"],
+            "patch": "4.31"
+        },
+        "x67948": {
+            "level": 68,
+            "name_en": "Behind Door Number Two",
+            "name_fr": "À la recherche du savoir perdu",
+            "npc_en": "Kyokuho",
+            "npc_fr": "Kyokuho",
+            "cPrev": ["q.67947"],
+            "cNext": ["q.67949"],
+            "patch": "4.31"
+        },
+        "x67949": {
+            "level": 70,
+            "name_en": "Foxfire",
+            "name_fr": "L'alliance du ciel et de la terre",
+            "npc_en": "Kyokuho",
+            "npc_fr": "Kyokuho",
+            "cPrev": ["q.67948"],
+            "cNext": ["q.68758"],
+            "cSiblings": ["a.1809"],
+            "patch": "4.31"
+        },
+        "x68758": {
+            "level": 80,
+            "name_en": "Love, Astrologically",
+            "name_fr": "Le cœur dans les étoiles",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": ["q.67949", "q.68808", "q.69190"],
+            "cSiblings": ["ap.306", "a.2318"],
+            "patch": "5.0",
+            "unlock": "ap.306"
+        }
+    }
+}

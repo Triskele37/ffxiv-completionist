@@ -1,6 +1,6 @@
 {
-    "key": "disciple-of-war",
-    "groupName_en": "Disciple of War",
+    "key": "disciples-of-war",
+    "groupName_en": "Disciples of War",
     "groupName_fr": "Disciples de la guerre",
     "tasks": {
         "x19": {
@@ -11,13 +11,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.0"
-                ]
+                "10": ["cj.0"]
             },
-            "cNext": [
-                20
-            ]
+            "cNext": ["a.20"]
         },
         "x20": {
             "name_en": "Stick Them with the Pointy End II",
@@ -27,16 +23,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.0"
-                ]
+                "20": ["cj.0"]
             },
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                21
-            ]
+            "cPrev": ["a.19"],
+            "cNext": ["a.21"]
         },
         "x21": {
             "name_en": "Stick Them with the Pointy End III",
@@ -46,16 +36,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.0"
-                ]
+                "30": ["cj.0"]
             },
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                22
-            ]
+            "cPrev": ["a.20"],
+            "cNext": ["a.22"]
         },
         "x22": {
             "name_en": "Stick Them with the Pointy End IV",
@@ -65,16 +49,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.0"
-                ]
+                "40": ["cj.0"]
             },
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ]
+            "cPrev": ["a.21"],
+            "cNext": ["a.23"]
         },
         "x23": {
             "name_en": "Stick Them with the Pointy End V",
@@ -84,16 +62,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.0"
-                ]
+                "50": ["cj.0"]
             },
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                1167
-            ]
+            "cPrev": ["a.22"],
+            "cNext": ["a.1167"]
         },
         "x1167": {
             "name_en": "Stick Them with the Pointy End VI",
@@ -103,16 +75,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.0"
-                ]
+                "60": ["cj.0"]
             },
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                1814
-            ]
+            "cPrev": ["a.23"],
+            "cNext": ["a.1814"]
         },
         "x1814": {
             "name_en": "Stick Them with the Pointy End VII",
@@ -122,16 +88,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.0"
-                ]
+                "70": ["cj.0"]
             },
-            "cPrev": [
-                1167
-            ],
-            "cNext": [
-                2246
-            ]
+            "cPrev": ["a.1167"],
+            "cNext": ["a.2246"]
         },
         "x2246": {
             "name_en": "Stick Them with the Pointy End VIII",
@@ -141,16 +101,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.0"
-                ]
+                "80": ["cj.0"]
             },
-            "cPrev": [
-                1814
-            ],
-            "cNext": [
-                2892
-            ]
+            "cPrev": ["a.1814"],
+            "cNext": ["a.2892"]
         },
         "x2892": {
             "name_en": "Stick Them with the Pointy End IX",
@@ -160,13 +114,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.0"
-                ]
+                "90": ["cj.0"]
             },
-            "cPrev": [
-                2246
-            ]
+            "cPrev": ["a.2246"],
+			"cNext": ["a.3429"]
+        },
+        "x3429": {
+            "cPrev": ["a.2892"],
+            "cSiblingsAt": {
+                "100": ["cj.0"]
+            },
+            "description_en": "Achieve gladiator level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe gladiateur.",
+            "name_en": "Stick Them with the Pointy End X",
+            "name_fr": "Gladiateur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x24": {
             "name_en": "The Sweet Science I",
@@ -176,13 +139,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.7"
-                ]
+                "10": ["cj.7"]
             },
-            "cNext": [
-                25
-            ]
+            "cNext": ["a.25"]
         },
         "x25": {
             "name_en": "The Sweet Science II",
@@ -192,16 +151,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.7"
-                ]
+                "20": ["cj.7"]
             },
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": ["a.24"],
+            "cNext": ["a.26"]
         },
         "x26": {
             "name_en": "The Sweet Science III",
@@ -211,16 +164,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.7"
-                ]
+                "30": ["cj.7"]
             },
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ]
+            "cPrev": ["a.25"],
+            "cNext": ["a.27"]
         },
         "x27": {
             "name_en": "The Sweet Science IV",
@@ -230,16 +177,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.7"
-                ]
+                "40": ["cj.7"]
             },
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ]
+            "cPrev": ["a.26"],
+            "cNext": ["a.28"]
         },
         "x28": {
             "name_en": "The Sweet Science V",
@@ -249,16 +190,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.7"
-                ]
+                "50": ["cj.7"]
             },
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                1168
-            ]
+            "cPrev": ["a.27"],
+            "cNext": ["a.1168"]
         },
         "x1168": {
             "name_en": "The Sweet Science VI",
@@ -268,16 +203,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.7"
-                ]
+                "60": ["cj.7"]
             },
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                1815
-            ]
+            "cPrev": ["a.28"],
+            "cNext": ["a.1815"]
         },
         "x1815": {
             "name_en": "The Sweet Science VII",
@@ -287,16 +216,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.7"
-                ]
+                "70": ["cj.7"]
             },
-            "cPrev": [
-                1168
-            ],
-            "cNext": [
-                2247
-            ]
+            "cPrev": ["a.1168"],
+            "cNext": ["a.2247"]
         },
         "x2247": {
             "name_en": "The Sweet Science VIII",
@@ -306,16 +229,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.7"
-                ]
+                "80": ["cj.7"]
             },
-            "cPrev": [
-                1815
-            ],
-            "cNext": [
-                2893
-            ]
+            "cPrev": ["a.1815"],
+            "cNext": ["a.2893"]
         },
         "x2893": {
             "name_en": "The Sweet Science IX",
@@ -325,13 +242,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.7"
-                ]
+                "90": ["cj.7"]
             },
-            "cPrev": [
-                2247
-            ]
+            "cPrev": ["a.2247"],
+            "cNext": ["a.3430"]
+        },
+        "x3430": {
+            "cSiblingsAt": {
+                "100": ["cj.7"]
+            },
+            "cPrev": ["a.2893"],
+            "description_en": "Achieve pugilist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec avec la classe pugiliste.",
+            "name_en": "The Sweet Science X",
+            "name_fr": "Pugiliste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x29": {
             "name_en": "An Axe to Grind I",
@@ -341,13 +267,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.1"
-                ]
+                "10": ["cj.1"]
             },
-            "cNext": [
-                30
-            ]
+            "cNext": ["a.30"]
         },
         "x30": {
             "name_en": "An Axe to Grind II",
@@ -357,16 +279,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.1"
-                ]
+                "20": ["cj.1"]
             },
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                31
-            ]
+            "cPrev": ["a.29"],
+            "cNext": ["a.31"]
         },
         "x31": {
             "name_en": "An Axe to Grind III",
@@ -376,16 +292,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.1"
-                ]
+                "30": ["cj.1"]
             },
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                32
-            ]
+            "cPrev": ["a.30"],
+            "cNext": ["a.32"]
         },
         "x32": {
             "name_en": "An Axe to Grind IV",
@@ -395,16 +305,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.1"
-                ]
+                "40": ["cj.1"]
             },
-            "cPrev": [
-                31
-            ],
-            "cNext": [
-                33
-            ]
+            "cPrev": ["a.31"],
+            "cNext": ["a.33"]
         },
         "x33": {
             "name_en": "An Axe to Grind V",
@@ -414,16 +318,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.1"
-                ]
+                "50": ["cj.1"]
             },
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                1169
-            ]
+            "cPrev": ["a.32"],
+            "cNext": ["a.1169"]
         },
         "x1169": {
             "name_en": "An Axe to Grind VI",
@@ -433,16 +331,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.1"
-                ]
+                "60": ["cj.1"]
             },
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                1816
-            ]
+            "cPrev": ["a.33"],
+            "cNext": ["a.1816"]
         },
         "x1816": {
             "name_en": "An Axe to Grind VII",
@@ -452,16 +344,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.1"
-                ]
+                "70": ["cj.1"]
             },
-            "cPrev": [
-                1169
-            ],
-            "cNext": [
-                2248
-            ]
+            "cPrev": ["a.1169"],
+            "cNext": ["a.2248"]
         },
         "x2248": {
             "name_en": "An Axe to Grind VIII",
@@ -471,16 +357,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.1"
-                ]
+                "80": ["cj.1"]
             },
-            "cPrev": [
-                1816
-            ],
-            "cNext": [
-                2894
-            ]
+            "cPrev": ["a.1816"],
+            "cNext": ["a.2894"]
         },
         "x2894": {
             "name_en": "An Axe to Grind IX",
@@ -490,13 +370,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.1"
-                ]
+                "90": ["cj.1"]
             },
-            "cPrev": [
-                2248
-            ]
+            "cPrev": ["a.2248"],
+            "cNext": ["a.3431"]
+        },
+        "x3431": {
+            "cSiblingsAt": {
+                "100": ["cj.1"]
+            },
+            "cPrev": ["a.2894"],
+            "description_en": "Achieve marauder level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe maraudeur.",
+            "name_en": "An Axe to Grind X",
+            "name_fr": "Maraudeur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x34": {
             "name_en": "Strong Lance Arm I",
@@ -506,13 +395,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.8"
-                ]
+                "10": ["cj.8"]
             },
-            "cNext": [
-                35
-            ]
+            "cNext": ["a.35"]
         },
         "x35": {
             "name_en": "Strong Lance Arm II",
@@ -522,16 +407,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.8"
-                ]
+                "20": ["cj.8"]
             },
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                36
-            ]
+            "cPrev": ["a.34"],
+            "cNext": ["a.36"]
         },
         "x36": {
             "name_en": "Strong Lance Arm III",
@@ -541,16 +420,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.8"
-                ]
+                "30": ["cj.8"]
             },
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                37
-            ]
+            "cPrev": ["a.35"],
+            "cNext": ["a.37"]
         },
         "x37": {
             "name_en": "Strong Lance Arm IV",
@@ -560,16 +433,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.8"
-                ]
+                "40": ["cj.8"]
             },
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                38
-            ]
+            "cPrev": ["a.36"],
+            "cNext": ["a.38"]
         },
         "x38": {
             "name_en": "Strong Lance Arm V",
@@ -579,16 +446,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.8"
-                ]
+                "50": ["cj.8"]
             },
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                1170
-            ]
+            "cPrev": ["a.37"],
+            "cNext": ["a.1170"]
         },
         "x1170": {
             "name_en": "Strong Lance Arm VI",
@@ -598,16 +459,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.8"
-                ]
+                "60": ["cj.8"]
             },
-            "cPrev": [
-                38
-            ],
-            "cNext": [
-                1817
-            ]
+            "cPrev": ["a.38"],
+            "cNext": ["a.1817"]
         },
         "x1817": {
             "name_en": "Strong Lance Arm VII",
@@ -617,16 +472,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.8"
-                ]
+                "70": ["cj.8"]
             },
-            "cPrev": [
-                1170
-            ],
-            "cNext": [
-                2249
-            ]
+            "cPrev": ["a.1170"],
+            "cNext": ["a.2249"]
         },
         "x2249": {
             "name_en": "Strong Lance Arm VIII",
@@ -636,16 +485,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.8"
-                ]
+                "80": ["cj.8"]
             },
-            "cPrev": [
-                1817
-            ],
-            "cNext": [
-                2895
-            ]
+            "cPrev": ["a.1817"],
+            "cNext": ["a.2895"]
         },
         "x2895": {
             "name_en": "Strong Lance Arm IX",
@@ -655,13 +498,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.8"
-                ]
+                "90": ["cj.8"]
             },
-            "cPrev": [
-                2249
-            ]
+            "cPrev": ["a.2249"],
+            "cNext": ["a.3432"]
+        },
+        "x3432": {
+            "cSiblingsAt": {
+                "100": ["cj.8"]
+            },
+            "cPrev": ["a.2895"],
+            "description_en": "Achieve lancer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe maître d'hast.",
+            "name_en": "Strong Lance Arm X",
+            "name_fr": "Maître d'hast mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x39": {
             "name_en": "Just Talkin' 'bout Shafts I",
@@ -671,13 +523,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.11"
-                ]
+                "10": ["cj.11"]
             },
-            "cNext": [
-                40
-            ]
+            "cNext": ["a.40"]
         },
         "x40": {
             "name_en": "Just Talkin' 'bout Shafts II",
@@ -687,16 +535,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.11"
-                ]
+                "20": ["cj.11"]
             },
-            "cPrev": [
-                39
-            ],
-            "cNext": [
-                41
-            ]
+            "cPrev": ["a.39"],
+            "cNext": ["a.41"]
         },
         "x41": {
             "name_en": "Just Talkin' 'bout Shafts III",
@@ -706,16 +548,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.11"
-                ]
+                "30": ["cj.11"]
             },
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                42
-            ]
+            "cPrev": ["a.40"],
+            "cNext": ["a.42"]
         },
         "x42": {
             "name_en": "Just Talkin' 'bout Shafts IV",
@@ -725,16 +561,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.11"
-                ]
+                "40": ["cj.11"]
             },
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                43
-            ]
+            "cPrev": ["a.41"],
+            "cNext": ["a.43"]
         },
         "x43": {
             "name_en": "Just Talkin' 'bout Shafts V",
@@ -744,16 +574,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.11"
-                ]
+                "50": ["cj.11"]
             },
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                1171
-            ]
+            "cPrev": ["a.42"],
+            "cNext": ["a.1171"]
         },
         "x1171": {
             "name_en": "Just Talkin' 'bout Shafts VI",
@@ -763,16 +587,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.11"
-                ]
+                "60": ["cj.11"]
             },
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                1818
-            ]
+            "cPrev": ["a.43"],
+            "cNext": ["a.1818"]
         },
         "x1818": {
             "name_en": "Just Talkin' 'bout Shafts VII",
@@ -782,16 +600,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.11"
-                ]
+                "70": ["cj.11"]
             },
-            "cPrev": [
-                1171
-            ],
-            "cNext": [
-                2250
-            ]
+            "cPrev": ["a.1171"],
+            "cNext": ["a.2250"]
         },
         "x2250": {
             "name_en": "Just Talkin' 'bout Shafts VIII",
@@ -801,16 +613,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.11"
-                ]
+                "80": ["cj.11"]
             },
-            "cPrev": [
-                1818
-            ],
-            "cNext": [
-                2896
-            ]
+            "cPrev": ["a.1818"],
+            "cNext": ["a.2896"]
         },
         "x2896": {
             "name_en": "Just Talkin' 'bout Shafts IX",
@@ -820,29 +626,34 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.11"
-                ]
+                "90": ["cj.11"]
             },
-            "cPrev": [
-                2250
-            ]
+            "cPrev": ["a.2250"],
+            "cNext": ["a.3433"]
+        },
+        "x3433": {
+            "cSiblingsAt": {
+                "100": ["cj.11"]
+            },
+            "cPrev": ["a.2896"],
+            "description_en": "Achieve archer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe archer.",
+            "name_en": "Just Talkin' 'bout Shafts X",
+            "name_fr": "Archer mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1046": {
             "name_en": "Come on, Rogue I",
             "name_fr": "Apprenti surineur",
             "description_en": "Achieve rogue level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe surineur.",
-            "patch": "2.0",
+            "patch": "2.4",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.9"
-                ]
+                "10": ["cj.9"]
             },
-            "cNext": [
-                1047
-            ]
+            "cNext": ["a.1047"]
         },
         "x1047": {
             "name_en": "Come on, Rogue II",
@@ -852,16 +663,10 @@
             "patch": "2.4",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.9"
-                ]
+                "20": ["cj.9"]
             },
-            "cPrev": [
-                1046
-            ],
-            "cNext": [
-                1048
-            ]
+            "cPrev": ["a.1046"],
+            "cNext": ["a.1048"]
         },
         "x1048": {
             "name_en": "Come on, Rogue III",
@@ -871,16 +676,10 @@
             "patch": "2.4",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.9"
-                ]
+                "30": ["cj.9"]
             },
-            "cPrev": [
-                1047
-            ],
-            "cNext": [
-                1049
-            ]
+            "cPrev": ["a.1047"],
+            "cNext": ["a.1049"]
         },
         "x1049": {
             "name_en": "Come on, Rogue IV",
@@ -890,16 +689,10 @@
             "patch": "2.4",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.9"
-                ]
+                "40": ["cj.9"]
             },
-            "cPrev": [
-                1048
-            ],
-            "cNext": [
-                1050
-            ]
+            "cPrev": ["a.1048"],
+            "cNext": ["a.1050"]
         },
         "x1050": {
             "name_en": "Come on, Rogue V",
@@ -909,16 +702,10 @@
             "patch": "2.4",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.9"
-                ]
+                "50": ["cj.9"]
             },
-            "cPrev": [
-                1049
-            ],
-            "cNext": [
-                1175
-            ]
+            "cPrev": ["a.1049"],
+            "cNext": ["a.1175"]
         },
         "x1175": {
             "name_en": "Come on, Rogue VI",
@@ -928,16 +715,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.9"
-                ]
+                "60": ["cj.9"]
             },
-            "cPrev": [
-                1050
-            ],
-            "cNext": [
-                1822
-            ]
+            "cPrev": ["a.1050"],
+            "cNext": ["a.1822"]
         },
         "x1822": {
             "name_en": "Come on, Rogue VII",
@@ -947,16 +728,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.9"
-                ]
+                "70": ["cj.9"]
             },
-            "cPrev": [
-                1175
-            ],
-            "cNext": [
-                2254
-            ]
+            "cPrev": ["a.1175"],
+            "cNext": ["a.2254"]
         },
         "x2254": {
             "name_en": "Come on, Rogue VIII",
@@ -966,16 +741,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.9"
-                ]
+                "80": ["cj.9"]
             },
-            "cPrev": [
-                1822
-            ],
-            "cNext": [
-                2900
-            ]
+            "cPrev": ["a.1822"],
+            "cNext": ["a.2900"]
         },
         "x2900": {
             "name_en": "Come on, Rogue IX",
@@ -985,13 +754,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.9"
-                ]
+                "90": ["cj.9"]
             },
-            "cPrev": [
-                2254
-            ]
+            "cPrev": ["a.2254"],
+            "cNext": ["a.3437"]
+        },
+        "x3437": {
+            "cSiblingsAt": {
+                "100": ["cj.9"]
+            },
+            "cPrev": ["a.2900"],
+            "description_en": "Achieve rogue level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe surineur.",
+            "name_en": "Come on, Rogue X",
+            "name_fr": "Surineur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1176": {
             "name_en": "Are You Afraid of the Dark? I",
@@ -1001,13 +779,9 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.2"
-                ]
+                "30": ["cj.2"]
             },
-            "cNext": [
-                1177
-            ]
+            "cNext": ["a.1177"]
         },
         "x1177": {
             "name_en": "Are You Afraid of the Dark? II",
@@ -1017,16 +791,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.2"
-                ]
+                "40": ["cj.2"]
             },
-            "cPrev": [
-                1176
-            ],
-            "cNext": [
-                1178
-            ]
+            "cPrev": ["a.1176"],
+            "cNext": ["a.1178"]
         },
         "x1178": {
             "name_en": "Are You Afraid of the Dark? III",
@@ -1036,16 +804,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.2"
-                ]
+                "50": ["cj.2"]
             },
-            "cPrev": [
-                1177
-            ],
-            "cNext": [
-                1179
-            ]
+            "cPrev": ["a.1177"],
+            "cNext": ["a.1179"]
         },
         "x1179": {
             "name_en": "Are You Afraid of the Dark? IV",
@@ -1055,16 +817,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.2"
-                ]
+                "60": ["cj.2"]
             },
-            "cPrev": [
-                1178
-            ],
-            "cNext": [
-                1823
-            ]
+            "cPrev": ["a.1178"],
+            "cNext": ["a.1823"]
         },
         "x1823": {
             "name_en": "Are You Afraid of the Dark? V",
@@ -1074,16 +830,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.2"
-                ]
+                "70": ["cj.2"]
             },
-            "cPrev": [
-                1179
-            ],
-            "cNext": [
-                2255
-            ]
+            "cPrev": ["a.1179"],
+            "cNext": ["a.2255"]
         },
         "x2255": {
             "name_en": "Are You Afraid of the Dark? VI",
@@ -1093,16 +843,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.2"
-                ]
+                "80": ["cj.2"]
             },
-            "cPrev": [
-                1823
-            ],
-            "cNext": [
-                2901
-            ]
+            "cPrev": ["a.1823"],
+            "cNext": ["a.2901"]
         },
         "x2901": {
             "name_en": "Are You Afraid of the Dark? VII",
@@ -1112,13 +856,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.2"
-                ]
+                "90": ["cj.2"]
             },
-            "cPrev": [
-                2255
-            ]
+            "cPrev": ["a.2255"],
+            "cNext": ["a.3438"]
+        },
+        "x3438": {
+            "cSiblingsAt": {
+                "100": ["cj.2"]
+            },
+            "cPrev": ["a.2901"],
+            "description_en": "Achieve dark knight level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job chevalier noir.",
+            "name_en": "Are You Afraid of the Dark? VIII",
+            "name_fr": "Chevalier noir mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1180": {
             "name_en": "Mean Machine I",
@@ -1128,13 +881,9 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.12"
-                ]
+                "30": ["cj.12"]
             },
-            "cNext": [
-                1181
-            ]
+            "cNext": ["a.1181"]
         },
         "x1181": {
             "name_en": "Mean Machine II",
@@ -1144,16 +893,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.12"
-                ]
+                "40": ["cj.12"]
             },
-            "cPrev": [
-                1180
-            ],
-            "cNext": [
-                1182
-            ]
+            "cPrev": ["a.1180"],
+            "cNext": ["a.1182"]
         },
         "x1182": {
             "name_en": "Mean Machine III",
@@ -1163,16 +906,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.12"
-                ]
+                "50": ["cj.12"]
             },
-            "cPrev": [
-                1181
-            ],
-            "cNext": [
-                1183
-            ]
+            "cPrev": ["a.1181"],
+            "cNext": ["a.1183"]
         },
         "x1183": {
             "name_en": "Mean Machine IV",
@@ -1182,16 +919,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.12"
-                ]
+                "60": ["cj.12"]
             },
-            "cPrev": [
-                1182
-            ],
-            "cNext": [
-                1824
-            ]
+            "cPrev": ["a.1182"],
+            "cNext": ["a.1824"]
         },
         "x1824": {
             "name_en": "Mean Machine V",
@@ -1201,16 +932,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.12"
-                ]
+                "70": ["cj.12"]
             },
-            "cPrev": [
-                1183
-            ],
-            "cNext": [
-                2256
-            ]
+            "cPrev": ["a.1183"],
+            "cNext": ["a.2256"]
         },
         "x2256": {
             "name_en": "Mean Machine VI",
@@ -1220,16 +945,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.12"
-                ]
+                "80": ["cj.12"]
             },
-            "cPrev": [
-                1824
-            ],
-            "cNext": [
-                2902
-            ]
+            "cPrev": ["a.1824"],
+            "cNext": ["a.2902"]
         },
         "x2902": {
             "name_en": "Mean Machine VII",
@@ -1239,13 +958,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.12"
-                ]
+                "90": ["cj.12"]
             },
-            "cPrev": [
-                2256
-            ]
+            "cPrev": ["a.2256"],
+            "cNext": ["a.3439"]
+        },
+        "x3439": {
+            "cSiblingsAt": {
+                "100": ["cj.12"]
+            },
+            "cPrev": ["a.2902"],
+            "description_en": "Achieve machinist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job machiniste.",
+            "name_en": "Mean Machine VIII",
+            "name_fr": "Machiniste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1829": {
             "name_en": "Bushido Blade I",
@@ -1255,13 +983,9 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.10"
-                ]
+                "50": ["cj.10"]
             },
-            "cNext": [
-                1830
-            ]
+            "cNext": ["a.1830"]
         },
         "x1830": {
             "name_en": "Bushido Blade II",
@@ -1271,16 +995,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.10"
-                ]
+                "60": ["cj.10"]
             },
-            "cPrev": [
-                1829
-            ],
-            "cNext": [
-                1831
-            ]
+            "cPrev": ["a.1829"],
+            "cNext": ["a.1831"]
         },
         "x1831": {
             "name_en": "Bushido Blade III",
@@ -1290,16 +1008,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.10"
-                ]
+                "70": ["cj.10"]
             },
-            "cPrev": [
-                1830
-            ],
-            "cNext": [
-                2259
-            ]
+            "cPrev": ["a.1830"],
+            "cNext": ["a.2259"]
         },
         "x2259": {
             "name_en": "Bushido Blade IV",
@@ -1309,16 +1021,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.10"
-                ]
+                "80": ["cj.10"]
             },
-            "cPrev": [
-                1831
-            ],
-            "cNext": [
-                2905
-            ]
+            "cPrev": ["a.1831"],
+            "cNext": ["a.2905"]
         },
         "x2905": {
             "name_en": "Bushido Blade V",
@@ -1328,13 +1034,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.10"
-                ]
+                "90": ["cj.10"]
             },
-            "cPrev": [
-                2259
-            ]
+            "cPrev": ["a.2259"],
+            "cNext": ["a.3442"]
+        },
+        "x3442": {
+            "cSiblingsAt": {
+                "100": ["cj.10"]
+            },
+            "cPrev": ["a.2905"],
+            "description_en": "Achieve samurai level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job samouraï.",
+            "name_en": "Bushido Blade VI",
+            "name_fr": "Samouraï mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2260": {
             "name_en": "More Complex than You Think I",
@@ -1344,13 +1059,9 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.3"
-                ]
+                "70": ["cj.3"]
             },
-            "cNext": [
-                2261
-            ]
+            "cNext": ["a.2261"]
         },
         "x2261": {
             "name_en": "More Complex than You Think II",
@@ -1360,16 +1071,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.3"
-                ]
+                "80": ["cj.3"]
             },
-            "cPrev": [
-                2260
-            ],
-            "cNext": [
-                2906
-            ]
+            "cPrev": ["a.2260"],
+            "cNext": ["a.2906"]
         },
         "x2906": {
             "name_en": "More Complex than You Think III",
@@ -1379,13 +1084,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.3"
-                ]
+                "90": ["cj.3"]
             },
-            "cPrev": [
-                2261
-            ]
+            "cPrev": ["a.2261"],
+            "cNext": ["a.3443"]
+        },
+        "x3443": {
+            "cSiblingsAt": {
+                "100": ["cj.3"]
+            },
+            "cPrev": ["a.2906"],
+            "description_en": "Achieve gunbreaker level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job pistosabreur.",
+            "name_en": "More Complex than You Think IV",
+            "name_fr": "Pistosabreur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2262": {
             "name_en": "We Got the Beat I",
@@ -1395,13 +1109,9 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.13"
-                ]
+                "70": ["cj.13"]
             },
-            "cNext": [
-                2263
-            ]
+            "cNext": ["a.2263"]
         },
         "x2263": {
             "name_en": "We Got the Beat II",
@@ -1411,16 +1121,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.13"
-                ]
+                "80": ["cj.13"]
             },
-            "cPrev": [
-                2262
-            ],
-            "cNext": [
-                2907
-            ]
+            "cPrev": ["a.2262"],
+            "cNext": ["a.2907"]
         },
         "x2907": {
             "name_en": "We Got the Beat III",
@@ -1430,13 +1134,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.13"
-                ]
+                "90": ["cj.13"]
             },
-            "cPrev": [
-                2263
-            ]
+            "cPrev": ["a.2263"],
+            "cNext": ["a.3444"]
+        },
+        "x3444": {
+            "cSiblingsAt": {
+                "100": ["cj.13"]
+            },
+            "cPrev": ["a.3444"],
+            "description_en": "Achieve dancer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job danseur.",
+            "name_en": "We Got the Beat IV",
+            "name_fr": "Danseur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2908": {
             "name_en": "Perchance to Dream I",
@@ -1446,13 +1159,9 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.30"
-                ]
+                "80": ["cj.30"]
             },
-            "cNext": [
-                2909
-            ]
+            "cNext": ["a.2909"]
         },
         "x2909": {
             "name_en": "Perchance to Dream II",
@@ -1462,13 +1171,46 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.30"
-                ]
+                "90": ["cj.30"]
             },
-            "cPrev": [
-                2908
-            ]
+            "cPrev": ["a.2908"],
+            "cNext": ["a.3445"]
+        },
+        "x3445": {
+            "cSiblingsAt": {
+                "100": ["cj.30"]
+            },
+            "cPrev": ["a.2909"],
+            "description_en": "Achieve reaper level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job faucheur.",
+            "name_en": "Perchance to Dream III",
+            "name_fr": "Faucheur mythique",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3447": {
+            "cSiblingsAt": {
+                "90": ["cj.31"]
+            },
+            "cNext": ["a.3448"],
+            "description_en": "Achieve viper level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job rôdeur vipère.",
+            "name_en": "Viper Way Your Tears I",
+            "name_fr": "Rôdeur vipère légendaire",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3448": {
+            "cSiblingsAt": {
+                "100": ["cj.31"]
+            },
+            "cPrev": ["a.3447"],
+            "description_en": "Achieve viper level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job rôdeur vipère.",
+            "name_en": "Viper Way Your Tears II",
+            "name_fr": "Rôdeur vipère mythique",
+            "patch": "7.0",
+            "points": 5
         }
     }
 }

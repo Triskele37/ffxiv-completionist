@@ -9,12 +9,8 @@
             "name_fr": "Le chant d'une nouvelle ère",
             "npc_en": "Ehll Tou",
             "npc_fr": "Ehll Tou",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69264"
-            ],
-            "cNext": [
-                69425
-            ],
+            "cPrev": ["q.69264"],
+            "cNext": ["q.69425"],
             "patch": "5.21"
         },
         "x69425": {
@@ -25,16 +21,9 @@
             "npc_fr": "Ehll Tou",
             "unlock_en": "Custom Deliveries: Ehll Tou",
             "unlock_fr": "Commandes spéciales: Ehll Tou",
-            "cPrev": [
-                69373,
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
-            ],
-            "cNext": [
-                69426
-            ],
-            "cSiblings": [
-                "character.achievement.character.general.2623"
-            ],
+            "cPrev": ["q.69373", "q.67634"],
+            "cNext": ["q.69426"],
+            "cSiblings": ["a.2623"],
             "patch": "5.3"
         },
         "x69426": {
@@ -43,24 +32,18 @@
             "name_fr": "L'harmonie retrouvée",
             "npc_en": "Ehll Tou",
             "npc_fr": "Ehll Tou",
-            "cPrev": [
-                69425
-            ],
-            "cNext": [
-                69427
-            ],
+            "cPrev": ["q.69425"],
+            "cNext": ["q.69427"],
             "patch": "5.3"
         },
         "x69427": {
             "level": 70,
             "name_en": "On Ehll Tou's Wings",
             "name_fr": "À vol de dragonnette",
-            "unlock": "character.mount-guide.53",
+            "unlock": "mo.230",
             "npc_en": "Hautdilong",
             "npc_fr": "Hautdilong",
-            "cPrev": [
-                69426
-            ],
+            "cPrev": ["q.69426"],
             "patch": "5.3"
         },
         "x69374": {
@@ -68,14 +51,9 @@
             "name_en": "Adventurers and Admirers",
             "name_fr": "Aventuriers et admirateurs",
             "npc_en": "Earnest Adventurer",
-            "npc_fr": "aventurière sérieuse",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69264",
-                "duty.quests.tribal-quests.vath.67792"
-            ],
-            "cNext": [
-                69498
-            ],
+            "npc_fr": "Aventurière Sérieuse",
+            "cPrev": ["q.69264", "q.67792"],
+            "cNext": ["q.69498"],
             "patch": "5.21"
         },
         "x69498": {
@@ -84,10 +62,7 @@
             "name_fr": "Une guilde pour les associer tous",
             "npc_en": "Philestiaux",
             "npc_fr": "Philestiaux",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494",
-                69374
-            ],
+            "cPrev": ["q.69494", "q.69374"],
             "patch": "5.31"
         },
         "x69497": {
@@ -95,10 +70,8 @@
             "name_en": "A Gathering of Gaelicats",
             "name_fr": "De maréchal à missionnaire",
             "npc_en": "House Haillenarte Soldier",
-            "npc_fr": "soldat des Haillenarte",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494"
-            ],
+            "npc_fr": "Soldat Des Haillenarte",
+            "cPrev": ["q.69494"],
             "patch": "5.31"
         },
         "x69540": {
@@ -106,10 +79,8 @@
             "name_en": "Of Steam, Sweat, and Water",
             "name_fr": "L'étiquette des Bains floconneux",
             "npc_en": "Blissful Bather",
-            "npc_fr": "amateur de bains chauds",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538"
-            ],
+            "npc_fr": "Amateur De Bains Chauds",
+            "cPrev": ["q.69538"],
             "patch": "5.41"
         },
         "x69541": {
@@ -118,203 +89,27 @@
             "name_fr": "Détonante reconversion",
             "npc_en": "Edilaude",
             "npc_fr": "Edilaude",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538"
-            ],
+            "cPrev": ["q.69538"],
             "patch": "5.41"
         },
         "x69542": {
             "level": 60,
             "name_en": "Planting the Seed",
             "name_fr": "Urbanité azuréenne",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538"
-            ],
+            "npc_en": "Small Sack",
+            "npc_fr": "Petit Sac",
+            "cPrev": ["q.69538"],
             "patch": "5.41"
         },
         "x69496": {
             "level": 60,
             "name_en": "The Brume Lifts",
             "name_fr": "Un vent de renouveau commercial",
-            "npc_en": "Charlemend de Durendaire",
-            "npc_fr": "comte Charlemend de Durendaire",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494"
-            ],
-            "cNext": [
-                69615
-            ],
+            "npc_en": "Charlemend De Durendaire",
+            "npc_fr": "Comte Charlemend De Durendaire",
+            "cPrev": ["q.69494"],
+            "cNext": ["q.69615"],
             "patch": "5.31"
-        },
-        "x69375": {
-            "level": 60,
-            "name_en": "Shadow over the Orphanage",
-            "name_fr": "Peur sur l'orphelinat",
-            "npc_en": "Ruffled Resident",
-            "npc_fr": "demoiselle fébrile",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69264"
-            ],
-            "cNext": [
-                69376
-            ],
-            "patch": "5.21"
-        },
-        "x69376": {
-            "level": 60,
-            "name_en": "Small Hands, Big Hearts",
-            "name_fr": "Les doyens de l'orphelinat",
-            "npc_en": "Peyraquile",
-            "npc_fr": "Peyraquile",
-            "cPrev": [
-                69375
-            ],
-            "cNext": [
-                69495
-            ],
-            "patch": "5.21"
-        },
-        "x69495": {
-            "level": 60,
-            "name_en": "A Fashionable Friendship",
-            "name_fr": "Couture de classe",
-            "npc_en": "Peyraquile",
-            "npc_fr": "Peyraquile",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494",
-                69376
-            ],
-            "cNext": [
-                69539
-            ],
-            "patch": "5.31"
-        },
-        "x69539": {
-            "level": 60,
-            "name_en": "Warm Hands, Warm Hearts",
-            "name_fr": "Les trois font la paire",
-            "npc_en": "Peyraquile",
-            "npc_fr": "Peyraquile",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538",
-                69495
-            ],
-            "patch": "5.41"
-        },
-        "x69384": {
-            "level": 80,
-            "name_en": "Mislaid Plans",
-            "name_fr": "Un projet en acier trempé",
-            "npc_en": "Skysteel Engineer",
-            "npc_fr": "ingénieur de la manufacture",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208"
-            ],
-            "cNext": [
-                69385
-            ],
-            "patch": "5.25"
-        },
-        "x69385": {
-            "level": 80,
-            "name_en": "Work It Harder, Make It Better",
-            "name_fr": "Les outils rivés au ciel",
-            "npc_en": "Neillemard",
-            "npc_fr": "Neillemard",
-            "cPrev": [
-                69384
-            ],
-            "cNext": [
-                69428
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.2568"
-            ],
-            "patch": "5.25"
-        },
-        "x69428": {
-            "level": 80,
-            "name_en": "In Everyone's Best Interests",
-            "name_fr": "Une collaboratrice qui ne perd pas le nord",
-            "npc_en": "Neillemard",
-            "npc_fr": "Neillemard",
-            "cPrev": [
-                69385
-            ],
-            "cNext": [
-                69429
-            ],
-            "patch": "5.35"
-        },
-        "x69429": {
-            "level": 80,
-            "name_en": "Ever Skyward",
-            "name_fr": "Des outils tels des étoiles",
-            "npc_en": "Nimie",
-            "npc_fr": "Nimie",
-            "cPrev": [
-                69428
-            ],
-            "cNext": [
-                69430
-            ],
-            "patch": "5.35"
-        },
-        "x69430": {
-            "level": 80,
-            "name_en": "The Tools of Tomorrow",
-            "name_fr": "Un ciel nouveau à l'horizon",
-            "npc_en": "Nimie",
-            "npc_fr": "Nimie",
-            "cPrev": [
-                69429
-            ],
-            "cNext": [
-                69518
-            ],
-            "patch": "5.35"
-        },
-        "x69518": {
-            "level": 80,
-            "name_en": "Oddness in the End",
-            "name_fr": "La perfection faite outil",
-            "npc_en": "Neillemard",
-            "npc_fr": "Neillemard",
-            "cPrev": [
-                69430
-            ],
-            "cNext": [
-                69519
-            ],
-            "patch": "5.45"
-        },
-        "x69519": {
-            "level": 80,
-            "name_en": "The Pinnacle of Possibility",
-            "name_fr": "Amélioration ultime",
-            "npc_en": "Emeny",
-            "npc_fr": "Emeny",
-            "cPrev": [
-                69518
-            ],
-            "cNext": [
-                69520
-            ],
-            "patch": "5.45"
-        },
-        "x69520": {
-            "level": 80,
-            "name_en": "Greater Heights",
-            "name_fr": "Vers de nouveaux cieux d'acier",
-            "npc_en": "Joellie",
-            "npc_fr": "Joellie",
-            "cPrev": [
-                69519
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.2798"
-            ],
-            "patch": "5.45"
         },
         "x69615": {
             "level": 70,
@@ -324,17 +119,9 @@
             "npc_fr": "Francel",
             "unlock_en": "Custom Deliveries: Charlemend",
             "unlock_fr": "Custom Deliveries: Charlemend",
-            "cPrev": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538",
-                69496,
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
-            ],
-            "cNext": [
-                69616
-            ],
-            "cSiblings": [
-                "character.achievement.character.general.2835"
-            ],
+            "cPrev": ["q.69538", "q.69496", "q.67634"],
+            "cNext": ["q.69616"],
+            "cSiblings": ["a.2835"],
             "patch": "5.5"
         },
         "x69616": {
@@ -343,10 +130,128 @@
             "name_fr": "Un futur main dans la main",
             "npc_en": "Maurilette",
             "npc_fr": "Maurilette",
-            "cPrev": [
-                69615
-            ],
+            "cPrev": ["q.69615"],
             "patch": "5.5"
+        },
+        "x69375": {
+            "level": 60,
+            "name_en": "Shadow over the Orphanage",
+            "name_fr": "Peur sur l'orphelinat",
+            "npc_en": "Ruffled Resident",
+            "npc_fr": "Demoiselle Fébrile",
+            "cPrev": ["q.69264"],
+            "cNext": ["q.69376"],
+            "patch": "5.21"
+        },
+        "x69376": {
+            "level": 60,
+            "name_en": "Small Hands, Big Hearts",
+            "name_fr": "Les doyens de l'orphelinat",
+            "npc_en": "Peyraquile",
+            "npc_fr": "Peyraquile",
+            "cPrev": ["q.69375"],
+            "cNext": ["q.69495"],
+            "patch": "5.21"
+        },
+        "x69495": {
+            "level": 60,
+            "name_en": "A Fashionable Friendship",
+            "name_fr": "Couture de classe",
+            "npc_en": "Peyraquile",
+            "npc_fr": "Peyraquile",
+            "cPrev": ["q.69494", "q.69376"],
+            "cNext": ["q.69539"],
+            "patch": "5.31"
+        },
+        "x69539": {
+            "level": 60,
+            "name_en": "Warm Hands, Warm Hearts",
+            "name_fr": "Les trois font la paire",
+            "npc_en": "Peyraquile",
+            "npc_fr": "Peyraquile",
+            "cPrev": ["q.69538", "q.69495"],
+            "patch": "5.41"
+        },
+        "x69384": {
+            "level": 80,
+            "name_en": "Mislaid Plans",
+            "name_fr": "Un projet en acier trempé",
+            "npc_en": "Skysteel Engineer",
+            "npc_fr": "Ingénieur de la Manufacture",
+            "cPrev": ["q.69208"],
+            "cNext": ["q.69385"],
+            "patch": "5.25"
+        },
+        "x69385": {
+            "level": 80,
+            "name_en": "Work It Harder, Make It Better",
+            "name_fr": "Les outils rivés au ciel",
+            "npc_en": "Neillemard",
+            "npc_fr": "Neillemard",
+            "cPrev": ["q.69384"],
+            "cNext": ["q.69428"],
+            "cSiblings": ["a.2568"],
+            "patch": "5.25"
+        },
+        "x69428": {
+            "level": 80,
+            "name_en": "In Everyone's Best Interests",
+            "name_fr": "Une collaboratrice qui ne perd pas le nord",
+            "npc_en": "Neillemard",
+            "npc_fr": "Neillemard",
+            "cPrev": ["q.69385"],
+            "cNext": ["q.69429"],
+            "patch": "5.35"
+        },
+        "x69429": {
+            "level": 80,
+            "name_en": "Ever Skyward",
+            "name_fr": "Des outils tels des étoiles",
+            "npc_en": "Nimie",
+            "npc_fr": "Nimie",
+            "cPrev": ["q.69428"],
+            "cNext": ["q.69430"],
+            "patch": "5.35"
+        },
+        "x69430": {
+            "level": 80,
+            "name_en": "The Tools of Tomorrow",
+            "name_fr": "Un ciel nouveau à l'horizon",
+            "npc_en": "Nimie",
+            "npc_fr": "Nimie",
+            "cPrev": ["q.69429"],
+            "cNext": ["q.69518"],
+            "patch": "5.35"
+        },
+        "x69518": {
+            "level": 80,
+            "name_en": "Oddness in the End",
+            "name_fr": "La perfection faite outil",
+            "npc_en": "Neillemard",
+            "npc_fr": "Neillemard",
+            "cPrev": ["q.69430"],
+            "cNext": ["q.69519"],
+            "patch": "5.45"
+        },
+        "x69519": {
+            "level": 80,
+            "name_en": "The Pinnacle of Possibility",
+            "name_fr": "Amélioration ultime",
+            "npc_en": "Emeny",
+            "npc_fr": "Emeny",
+            "cPrev": ["q.69518"],
+            "cNext": ["q.69520"],
+            "patch": "5.45"
+        },
+        "x69520": {
+            "level": 80,
+            "name_en": "Greater Heights",
+            "name_fr": "Vers de nouveaux cieux d'acier",
+            "npc_en": "Joellie",
+            "npc_fr": "Joellie",
+            "cPrev": ["q.69519"],
+            "cSiblings": ["a.2798"],
+            "patch": "5.45"
         }
     }
 }

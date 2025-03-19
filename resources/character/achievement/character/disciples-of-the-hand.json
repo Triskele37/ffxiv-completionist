@@ -1,6 +1,6 @@
 {
-    "key": "disciple-of-the-hand",
-    "groupName_en": "Disciple of the Hand",
+    "key": "disciples-of-the-hand",
+    "groupName_en": "Disciples of the Hand",
     "groupName_fr": "Disciples de la main",
     "tasks": {
         "x57": {
@@ -11,13 +11,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.18"
-                ]
+                "10": ["cj.18"]
             },
-            "cNext": [
-                58
-            ]
+            "cNext": ["a.58"]
         },
         "x58": {
             "name_en": "Knock on Wood II",
@@ -27,16 +23,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.18"
-                ]
+                "20": ["cj.18"]
             },
-            "cPrev": [
-                57
-            ],
-            "cNext": [
-                59
-            ]
+            "cPrev": ["a.57"],
+            "cNext": ["a.59"]
         },
         "x59": {
             "name_en": "Knock on Wood III",
@@ -46,16 +36,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.18"
-                ]
+                "30": ["cj.18"]
             },
-            "cPrev": [
-                58
-            ],
-            "cNext": [
-                60
-            ]
+            "cPrev": ["a.58"],
+            "cNext": ["a.60"]
         },
         "x60": {
             "name_en": "Knock on Wood IV",
@@ -65,16 +49,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.18"
-                ]
+                "40": ["cj.18"]
             },
-            "cPrev": [
-                59
-            ],
-            "cNext": [
-                61
-            ]
+            "cPrev": ["a.59"],
+            "cNext": ["a.61"]
         },
         "x61": {
             "name_en": "Knock on Wood V",
@@ -84,16 +62,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.18"
-                ]
+                "50": ["cj.18"]
             },
-            "cPrev": [
-                60
-            ],
-            "cNext": [
-                1265
-            ]
+            "cPrev": ["a.60"],
+            "cNext": ["a.1265"]
         },
         "x1265": {
             "name_en": "Knock on Wood VI",
@@ -103,16 +75,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.18"
-                ]
+                "60": ["cj.18"]
             },
-            "cPrev": [
-                61
-            ],
-            "cNext": [
-                1835
-            ]
+            "cPrev": ["a.61"],
+            "cNext": ["a.1835"]
         },
         "x1835": {
             "name_en": "Knock on Wood VII",
@@ -122,16 +88,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.18"
-                ]
+                "70": ["cj.18"]
             },
-            "cPrev": [
-                1265
-            ],
-            "cNext": [
-                2264
-            ]
+            "cPrev": ["a.1265"],
+            "cNext": ["a.2264"]
         },
         "x2264": {
             "name_en": "Knock on Wood VIII",
@@ -141,16 +101,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.18"
-                ]
+                "80": ["cj.18"]
             },
-            "cPrev": [
-                1835
-            ],
-            "cNext": [
-                2912
-            ]
+            "cPrev": ["a.1835"],
+            "cNext": ["a.2912"]
         },
         "x2912": {
             "name_en": "Knock on Wood IX",
@@ -160,13 +114,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.18"
-                ]
+                "90": ["cj.18"]
             },
-            "cPrev": [
-                2264
-            ]
+            "cPrev": ["a.2264"],
+            "cNext": ["a.3451"]
+        },
+        "x3451": {
+            "cSiblingsAt": {
+                "100": ["cj.18"]
+            },
+            "cPrev": ["a.2912"],
+            "description_en": "Achieve carpenter level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe menuisier.",
+            "name_en": "Knock on Wood X",
+            "name_fr": "Menuisier mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x62": {
             "name_en": "Temper, Temper I",
@@ -176,13 +139,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.19"
-                ]
+                "10": ["cj.19"]
             },
-            "cNext": [
-                63
-            ]
+            "cNext": ["a.63"]
         },
         "x63": {
             "name_en": "Temper, Temper II",
@@ -192,16 +151,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.19"
-                ]
+                "20": ["cj.19"]
             },
-            "cPrev": [
-                62
-            ],
-            "cNext": [
-                64
-            ]
+            "cPrev": ["a.62"],
+            "cNext": ["a.64"]
         },
         "x64": {
             "name_en": "Temper, Temper III",
@@ -211,16 +164,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.19"
-                ]
+                "30": ["cj.19"]
             },
-            "cPrev": [
-                63
-            ],
-            "cNext": [
-                65
-            ]
+            "cPrev": ["a.63"],
+            "cNext": ["a.65"]
         },
         "x65": {
             "name_en": "Temper, Temper IV",
@@ -230,16 +177,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.19"
-                ]
+                "40": ["cj.19"]
             },
-            "cPrev": [
-                64
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": ["a.64"],
+            "cNext": ["a.66"]
         },
         "x66": {
             "name_en": "Temper, Temper V",
@@ -249,16 +190,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.19"
-                ]
+                "50": ["cj.19"]
             },
-            "cPrev": [
-                65
-            ],
-            "cNext": [
-                1266
-            ]
+            "cPrev": ["a.65"],
+            "cNext": ["a.1266"]
         },
         "x1266": {
             "name_en": "Temper, Temper VI",
@@ -268,16 +203,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.19"
-                ]
+                "60": ["cj.19"]
             },
-            "cPrev": [
-                66
-            ],
-            "cNext": [
-                1836
-            ]
+            "cPrev": ["a.66"],
+            "cNext": ["a.1836"]
         },
         "x1836": {
             "name_en": "Temper, Temper VII",
@@ -287,16 +216,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.19"
-                ]
+                "70": ["cj.19"]
             },
-            "cPrev": [
-                1266
-            ],
-            "cNext": [
-                2265
-            ]
+            "cPrev": ["a.1266"],
+            "cNext": ["a.2265"]
         },
         "x2265": {
             "name_en": "Temper, Temper VIII",
@@ -306,16 +229,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.19"
-                ]
+                "80": ["cj.19"]
             },
-            "cPrev": [
-                1836
-            ],
-            "cNext": [
-                2913
-            ]
+            "cPrev": ["a.1836"],
+            "cNext": ["a.2913"]
         },
         "x2913": {
             "name_en": "Temper, Temper IX",
@@ -325,13 +242,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.19"
-                ]
+                "90": ["cj.19"]
             },
-            "cPrev": [
-                2265
-            ]
+            "cPrev": ["a.2265"],
+            "cNext": ["a.3452"]
+        },
+        "x3452": {
+            "cSiblingsAt": {
+                "100": ["cj.19"]
+            },
+            "cPrev": ["a.2913"],
+            "description_en": "Achieve blacksmith level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe forgeron.",
+            "name_en": "Temper, Temper X",
+            "name_fr": "Forgeron mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x67": {
             "name_en": "The Riddle of Steel I",
@@ -341,13 +267,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.20"
-                ]
+                "10": ["cj.20"]
             },
-            "cNext": [
-                68
-            ]
+            "cNext": ["a.68"]
         },
         "x68": {
             "name_en": "The Riddle of Steel II",
@@ -357,16 +279,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.20"
-                ]
+                "20": ["cj.20"]
             },
-            "cPrev": [
-                67
-            ],
-            "cNext": [
-                69
-            ]
+            "cPrev": ["a.67"],
+            "cNext": ["a.69"]
         },
         "x69": {
             "name_en": "The Riddle of Steel III",
@@ -376,16 +292,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.20"
-                ]
+                "30": ["cj.20"]
             },
-            "cPrev": [
-                68
-            ],
-            "cNext": [
-                70
-            ]
+            "cPrev": ["a.68"],
+            "cNext": ["a.70"]
         },
         "x70": {
             "name_en": "The Riddle of Steel IV",
@@ -395,16 +305,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.20"
-                ]
+                "40": ["cj.20"]
             },
-            "cPrev": [
-                69
-            ],
-            "cNext": [
-                71
-            ]
+            "cPrev": ["a.69"],
+            "cNext": ["a.71"]
         },
         "x71": {
             "name_en": "The Riddle of Steel V",
@@ -414,16 +318,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.20"
-                ]
+                "50": ["cj.20"]
             },
-            "cPrev": [
-                70
-            ],
-            "cNext": [
-                1267
-            ]
+            "cPrev": ["a.70"],
+            "cNext": ["a.1267"]
         },
         "x1267": {
             "name_en": "The Riddle of Steel VI",
@@ -433,16 +331,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.20"
-                ]
+                "60": ["cj.20"]
             },
-            "cPrev": [
-                71
-            ],
-            "cNext": [
-                1837
-            ]
+            "cPrev": ["a.71"],
+            "cNext": ["a.1837"]
         },
         "x1837": {
             "name_en": "The Riddle of Steel VII",
@@ -452,16 +344,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.20"
-                ]
+                "70": ["cj.20"]
             },
-            "cPrev": [
-                1267
-            ],
-            "cNext": [
-                2266
-            ]
+            "cPrev": ["a.1267"],
+            "cNext": ["a.2266"]
         },
         "x2266": {
             "name_en": "The Riddle of Steel VIII",
@@ -471,16 +357,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.20"
-                ]
+                "80": ["cj.20"]
             },
-            "cPrev": [
-                1837
-            ],
-            "cNext": [
-                2914
-            ]
+            "cPrev": ["a.1837"],
+            "cNext": ["a.2914"]
         },
         "x2914": {
             "name_en": "The Riddle of Steel IX",
@@ -490,13 +370,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.20"
-                ]
+                "90": ["cj.20"]
             },
-            "cPrev": [
-                2266
-            ]
+            "cPrev": ["a.2266"],
+            "cNext": ["a.3453"]
+        },
+        "x3453": {
+            "cSiblingsAt": {
+                "100": ["cj.20"]
+            },
+            "cPrev": ["a.2914"],
+            "description_en": "Achieve armorer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe armurier.",
+            "name_en": "The Riddle of Steel X",
+            "name_fr": "Armurier mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x72": {
             "name_en": "Heart of Gold I",
@@ -506,13 +395,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.21"
-                ]
+                "10": ["cj.21"]
             },
-            "cNext": [
-                73
-            ]
+            "cNext": ["a.73"]
         },
         "x73": {
             "name_en": "Heart of Gold II",
@@ -522,16 +407,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.21"
-                ]
+                "20": ["cj.21"]
             },
-            "cPrev": [
-                72
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": ["a.72"],
+            "cNext": ["a.74"]
         },
         "x74": {
             "name_en": "Heart of Gold III",
@@ -541,16 +420,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.21"
-                ]
+                "30": ["cj.21"]
             },
-            "cPrev": [
-                73
-            ],
-            "cNext": [
-                75
-            ]
+            "cPrev": ["a.73"],
+            "cNext": ["a.75"]
         },
         "x75": {
             "name_en": "Heart of Gold IV",
@@ -560,16 +433,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.21"
-                ]
+                "40": ["cj.21"]
             },
-            "cPrev": [
-                74
-            ],
-            "cNext": [
-                76
-            ]
+            "cPrev": ["a.74"],
+            "cNext": ["a.76"]
         },
         "x76": {
             "name_en": "Heart of Gold V",
@@ -579,16 +446,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.21"
-                ]
+                "50": ["cj.21"]
             },
-            "cPrev": [
-                75
-            ],
-            "cNext": [
-                1268
-            ]
+            "cPrev": ["a.75"],
+            "cNext": ["a.1268"]
         },
         "x1268": {
             "name_en": "Heart of Gold VI",
@@ -598,16 +459,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.21"
-                ]
+                "60": ["cj.21"]
             },
-            "cPrev": [
-                76
-            ],
-            "cNext": [
-                1838
-            ]
+            "cPrev": ["a.76"],
+            "cNext": ["a.1838"]
         },
         "x1838": {
             "name_en": "Heart of Gold VII",
@@ -617,16 +472,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.21"
-                ]
+                "70": ["cj.21"]
             },
-            "cPrev": [
-                1268
-            ],
-            "cNext": [
-                2267
-            ]
+            "cPrev": ["a.1268"],
+            "cNext": ["a.2267"]
         },
         "x2267": {
             "name_en": "Heart of Gold VIII",
@@ -636,16 +485,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.21"
-                ]
+                "80": ["cj.21"]
             },
-            "cPrev": [
-                1838
-            ],
-            "cNext": [
-                2915
-            ]
+            "cPrev": ["a.1838"],
+            "cNext": ["a.2915"]
         },
         "x2915": {
             "name_en": "Heart of Gold IX",
@@ -655,13 +498,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.21"
-                ]
+                "90": ["cj.21"]
             },
-            "cPrev": [
-                2267
-            ]
+            "cPrev": ["a.2267"],
+            "cNext": ["a.3454"]
+        },
+        "x3454": {
+            "cSiblingsAt": {
+                "100": ["cj.21"]
+            },
+            "cPrev": ["a.2915"],
+            "description_en": "Achieve goldsmith level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe orfèvre.",
+            "name_en": "Heart of Gold X",
+            "name_fr": "Orfèvre mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x77": {
             "name_en": "Tougher than Leather I",
@@ -671,13 +523,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.22"
-                ]
+                "10": ["cj.22"]
             },
-            "cNext": [
-                78
-            ]
+            "cNext": ["a.78"]
         },
         "x78": {
             "name_en": "Tougher than Leather II",
@@ -687,16 +535,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.22"
-                ]
+                "20": ["cj.22"]
             },
-            "cPrev": [
-                77
-            ],
-            "cNext": [
-                79
-            ]
+            "cPrev": ["a.77"],
+            "cNext": ["a.79"]
         },
         "x79": {
             "name_en": "Tougher than Leather III",
@@ -706,16 +548,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.22"
-                ]
+                "30": ["cj.22"]
             },
-            "cPrev": [
-                78
-            ],
-            "cNext": [
-                80
-            ]
+            "cPrev": ["a.78"],
+            "cNext": ["a.80"]
         },
         "x80": {
             "name_en": "Tougher than Leather IV",
@@ -725,16 +561,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.22"
-                ]
+                "40": ["cj.22"]
             },
-            "cPrev": [
-                79
-            ],
-            "cNext": [
-                81
-            ]
+            "cPrev": ["a.79"],
+            "cNext": ["a.81"]
         },
         "x81": {
             "name_en": "Tougher than Leather V",
@@ -744,16 +574,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.22"
-                ]
+                "50": ["cj.22"]
             },
-            "cPrev": [
-                80
-            ],
-            "cNext": [
-                1269
-            ]
+            "cPrev": ["a.80"],
+            "cNext": ["a.1269"]
         },
         "x1269": {
             "name_en": "Tougher than Leather VI",
@@ -763,16 +587,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.22"
-                ]
+                "60": ["cj.22"]
             },
-            "cPrev": [
-                81
-            ],
-            "cNext": [
-                1839
-            ]
+            "cPrev": ["a.81"],
+            "cNext": ["a.1839"]
         },
         "x1839": {
             "name_en": "Tougher than Leather VII",
@@ -782,16 +600,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.22"
-                ]
+                "70": ["cj.22"]
             },
-            "cPrev": [
-                1269
-            ],
-            "cNext": [
-                2268
-            ]
+            "cPrev": ["a.1269"],
+            "cNext": ["a.2268"]
         },
         "x2268": {
             "name_en": "Tougher than Leather VIII",
@@ -801,16 +613,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.22"
-                ]
+                "80": ["cj.22"]
             },
-            "cPrev": [
-                1839
-            ],
-            "cNext": [
-                2916
-            ]
+            "cPrev": ["a.1839"],
+            "cNext": ["a.2916"]
         },
         "x2916": {
             "name_en": "Tougher than Leather IX",
@@ -820,13 +626,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.22"
-                ]
+                "90": ["cj.22"]
             },
-            "cPrev": [
-                2268
-            ]
+            "cPrev": ["a.2268"],
+            "cNext": ["a.3455"]
+        },
+        "x3455": {
+            "cSiblingsAt": {
+                "100": ["cj.22"]
+            },
+            "cPrev": ["a.2916"],
+            "description_en": "Achieve leatherworker level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe tanneur.",
+            "name_en": "Tougher than Leather X",
+            "name_fr": "Tanneur mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x82": {
             "name_en": "Smiling, Styling, and Textiling I",
@@ -836,13 +651,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.23"
-                ]
+                "10": ["cj.23"]
             },
-            "cNext": [
-                83
-            ]
+            "cNext": ["a.83"]
         },
         "x83": {
             "name_en": "Smiling, Styling, and Textiling II",
@@ -852,16 +663,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.23"
-                ]
+                "20": ["cj.23"]
             },
-            "cPrev": [
-                82
-            ],
-            "cNext": [
-                84
-            ]
+            "cPrev": ["a.82"],
+            "cNext": ["a.84"]
         },
         "x84": {
             "name_en": "Smiling, Styling, and Textiling III",
@@ -871,16 +676,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.23"
-                ]
+                "30": ["cj.23"]
             },
-            "cPrev": [
-                83
-            ],
-            "cNext": [
-                85
-            ]
+            "cPrev": ["a.83"],
+            "cNext": ["a.85"]
         },
         "x85": {
             "name_en": "Smiling, Styling, and Textiling IV",
@@ -890,16 +689,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.23"
-                ]
+                "40": ["cj.23"]
             },
-            "cPrev": [
-                84
-            ],
-            "cNext": [
-                86
-            ]
+            "cPrev": ["a.84"],
+            "cNext": ["a.86"]
         },
         "x86": {
             "name_en": "Smiling, Styling, and Textiling V",
@@ -909,16 +702,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.23"
-                ]
+                "50": ["cj.23"]
             },
-            "cPrev": [
-                85
-            ],
-            "cNext": [
-                1270
-            ]
+            "cPrev": ["a.85"],
+            "cNext": ["a.1270"]
         },
         "x1270": {
             "name_en": "Smiling, Styling, and Textiling VI",
@@ -928,16 +715,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.23"
-                ]
+                "60": ["cj.23"]
             },
-            "cPrev": [
-                86
-            ],
-            "cNext": [
-                1840
-            ]
+            "cPrev": ["a.86"],
+            "cNext": ["a.1840"]
         },
         "x1840": {
             "name_en": "Smiling, Styling, and Textiling VII",
@@ -947,16 +728,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.23"
-                ]
+                "70": ["cj.23"]
             },
-            "cPrev": [
-                1270
-            ],
-            "cNext": [
-                2269
-            ]
+            "cPrev": ["a.1270"],
+            "cNext": ["a.2269"]
         },
         "x2269": {
             "name_en": "Smiling, Styling, and Textiling VIII",
@@ -966,16 +741,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.23"
-                ]
+                "80": ["cj.23"]
             },
-            "cPrev": [
-                1840
-            ],
-            "cNext": [
-                2917
-            ]
+            "cPrev": ["a.1840"],
+            "cNext": ["a.2917"]
         },
         "x2917": {
             "name_en": "Smiling, Styling, and Textiling IX",
@@ -985,13 +754,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.23"
-                ]
+                "90": ["cj.23"]
             },
-            "cPrev": [
-                2269
-            ]
+            "cPrev": ["a.2269"],
+            "cNext": ["a.3456"]
+        },
+        "x3456": {
+            "cSiblingsAt": {
+                "100": ["cj.23"]
+            },
+            "cPrev": ["a.2917"],
+            "description_en": "Achieve weaver level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe couturier.",
+            "name_en": "Smiling, Styling, and Textiling X",
+            "name_fr": "Couturier mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x87": {
             "name_en": "'Tis True without Lying I",
@@ -1001,13 +779,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.24"
-                ]
+                "10": ["cj.24"]
             },
-            "cNext": [
-                88
-            ]
+            "cNext": ["a.88"]
         },
         "x88": {
             "name_en": "'Tis True without Lying II",
@@ -1017,16 +791,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.24"
-                ]
+                "20": ["cj.24"]
             },
-            "cPrev": [
-                87
-            ],
-            "cNext": [
-                89
-            ]
+            "cPrev": ["a.87"],
+            "cNext": ["a.89"]
         },
         "x89": {
             "name_en": "'Tis True without Lying III",
@@ -1036,16 +804,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.24"
-                ]
+                "30": ["cj.24"]
             },
-            "cPrev": [
-                88
-            ],
-            "cNext": [
-                90
-            ]
+            "cPrev": ["a.88"],
+            "cNext": ["a.90"]
         },
         "x90": {
             "name_en": "'Tis True without Lying IV",
@@ -1055,16 +817,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.24"
-                ]
+                "40": ["cj.24"]
             },
-            "cPrev": [
-                89
-            ],
-            "cNext": [
-                91
-            ]
+            "cPrev": ["a.89"],
+            "cNext": ["a.91"]
         },
         "x91": {
             "name_en": "'Tis True without Lying V",
@@ -1074,16 +830,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.24"
-                ]
+                "50": ["cj.24"]
             },
-            "cPrev": [
-                90
-            ],
-            "cNext": [
-                1271
-            ]
+            "cPrev": ["a.90"],
+            "cNext": ["a.1271"]
         },
         "x1271": {
             "name_en": "'Tis True without Lying VI",
@@ -1093,16 +843,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.24"
-                ]
+                "60": ["cj.24"]
             },
-            "cPrev": [
-                91
-            ],
-            "cNext": [
-                1841
-            ]
+            "cPrev": ["a.91"],
+            "cNext": ["a.1841"]
         },
         "x1841": {
             "name_en": "'Tis True without Lying VII",
@@ -1112,16 +856,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.24"
-                ]
+                "70": ["cj.24"]
             },
-            "cPrev": [
-                1271
-            ],
-            "cNext": [
-                2270
-            ]
+            "cPrev": ["a.1271"],
+            "cNext": ["a.2270"]
         },
         "x2270": {
             "name_en": "'Tis True without Lying VIII",
@@ -1131,16 +869,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.24"
-                ]
+                "80": ["cj.24"]
             },
-            "cPrev": [
-                1841
-            ],
-            "cNext": [
-                2918
-            ]
+            "cPrev": ["a.1841"],
+            "cNext": ["a.2918"]
         },
         "x2918": {
             "name_en": "'Tis True without Lying IX",
@@ -1150,13 +882,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.24"
-                ]
+                "90": ["cj.24"]
             },
-            "cPrev": [
-                2270
-            ]
+            "cPrev": ["a.2270"],
+            "cNext": ["a.3457"]
+        },
+        "x3457": {
+            "cSiblingsAt": {
+                "100": ["cj.24"]
+            },
+            "cPrev": ["a.2918"],
+            "description_en": "Achieve alchemist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe alchimiste.",
+            "name_en": "'Tis True without Lying X",
+            "name_fr": "Alchimiste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x92": {
             "name_en": "All in Good Taste I",
@@ -1166,13 +907,9 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "10": [
-                    "character.character.classes--jobs.25"
-                ]
+                "10": ["cj.25"]
             },
-            "cNext": [
-                93
-            ]
+            "cNext": ["a.93"]
         },
         "x93": {
             "name_en": "All in Good Taste II",
@@ -1182,16 +919,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "20": [
-                    "character.character.classes--jobs.25"
-                ]
+                "20": ["cj.25"]
             },
-            "cPrev": [
-                92
-            ],
-            "cNext": [
-                94
-            ]
+            "cPrev": ["a.92"],
+            "cNext": ["a.94"]
         },
         "x94": {
             "name_en": "All in Good Taste III",
@@ -1201,16 +932,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "30": [
-                    "character.character.classes--jobs.25"
-                ]
+                "30": ["cj.25"]
             },
-            "cPrev": [
-                93
-            ],
-            "cNext": [
-                95
-            ]
+            "cPrev": ["a.93"],
+            "cNext": ["a.95"]
         },
         "x95": {
             "name_en": "All in Good Taste IV",
@@ -1220,16 +945,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "40": [
-                    "character.character.classes--jobs.25"
-                ]
+                "40": ["cj.25"]
             },
-            "cPrev": [
-                94
-            ],
-            "cNext": [
-                96
-            ]
+            "cPrev": ["a.94"],
+            "cNext": ["a.96"]
         },
         "x96": {
             "name_en": "All in Good Taste V",
@@ -1239,16 +958,10 @@
             "patch": "2.0",
             "points": 5,
             "cSiblingsAt": {
-                "50": [
-                    "character.character.classes--jobs.25"
-                ]
+                "50": ["cj.25"]
             },
-            "cPrev": [
-                95
-            ],
-            "cNext": [
-                1272
-            ]
+            "cPrev": ["a.95"],
+            "cNext": ["a.1272"]
         },
         "x1272": {
             "name_en": "All in Good Taste VI",
@@ -1258,16 +971,10 @@
             "patch": "3.0",
             "points": 5,
             "cSiblingsAt": {
-                "60": [
-                    "character.character.classes--jobs.25"
-                ]
+                "60": ["cj.25"]
             },
-            "cPrev": [
-                96
-            ],
-            "cNext": [
-                1842
-            ]
+            "cPrev": ["a.96"],
+            "cNext": ["a.1842"]
         },
         "x1842": {
             "name_en": "All in Good Taste VII",
@@ -1277,16 +984,10 @@
             "patch": "4.0",
             "points": 5,
             "cSiblingsAt": {
-                "70": [
-                    "character.character.classes--jobs.25"
-                ]
+                "70": ["cj.25"]
             },
-            "cPrev": [
-                1272
-            ],
-            "cNext": [
-                2271
-            ]
+            "cPrev": ["a.1272"],
+            "cNext": ["a.2271"]
         },
         "x2271": {
             "name_en": "All in Good Taste VIII",
@@ -1296,16 +997,10 @@
             "patch": "5.0",
             "points": 5,
             "cSiblingsAt": {
-                "80": [
-                    "character.character.classes--jobs.25"
-                ]
+                "80": ["cj.25"]
             },
-            "cPrev": [
-                1842
-            ],
-            "cNext": [
-                2919
-            ]
+            "cPrev": ["a.1842"],
+            "cNext": ["a.2919"]
         },
         "x2919": {
             "name_en": "All in Good Taste IX",
@@ -1315,13 +1010,22 @@
             "patch": "6.0",
             "points": 5,
             "cSiblingsAt": {
-                "90": [
-                    "character.character.classes--jobs.25"
-                ]
+                "90": ["cj.25"]
             },
-            "cPrev": [
-                2271
-            ]
+            "cPrev": ["a.2271"],
+            "cNext": ["a.3458"]
+        },
+        "x3458": {
+            "cSiblingsAt": {
+                "100": ["cj.25"]
+            },
+            "cPrev": ["a.2919"],
+            "description_en": "Achieve culinarian level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe cuisinier.",
+            "name_en": "All in Good Taste X",
+            "name_fr": "Cuisinier mythique",
+            "patch": "7.0",
+            "points": 5
         }
     }
 }

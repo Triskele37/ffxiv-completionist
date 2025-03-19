@@ -10,11 +10,7 @@
             "cPrevAny": true,
             "npc_en": "Nahctahr",
             "npc_fr": "Nahctahr",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66349": {
@@ -23,9 +19,7 @@
             "name_fr": "Mais où sont passées les donzelles?",
             "npc_en": "Gegeruju",
             "npc_fr": "Gegeruju",
-            "cNext": [
-                66387
-            ],
+            "cNext": ["q.66387"],
             "patch": "4.31"
         },
         "x66369": {
@@ -34,12 +28,8 @@
             "name_fr": "Kobolds chapardeurs",
             "npc_en": "Kuzai Tazai",
             "npc_fr": "Kuzai Tazai",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66368"
-            ],
-            "cNext": [
-                66370
-            ],
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66370"],
             "patch": "4.31"
         },
         "x66370": {
@@ -48,9 +38,7 @@
             "name_fr": "L'exode des crustacés",
             "npc_en": "Kuzai Tazai",
             "npc_fr": "Kuzai Tazai",
-            "cPrev": [
-                66369
-            ],
+            "cPrev": ["q.66369"],
             "patch": "4.31"
         },
         "x66371": {
@@ -59,12 +47,8 @@
             "name_fr": "Attaque préventive",
             "npc_en": "Fyrilsunn",
             "npc_fr": "Fyrilsunn",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66368"
-            ],
-            "cNext": [
-                66374
-            ],
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66374"],
             "patch": "4.31"
         },
         "x66372": {
@@ -73,12 +57,8 @@
             "name_fr": "Sueur et tremblements",
             "npc_en": "P'ebaloh",
             "npc_fr": "P'ebaloh",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66368"
-            ],
-            "cNext": [
-                66373
-            ],
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66373"],
             "patch": "4.31"
         },
         "x66373": {
@@ -87,12 +67,8 @@
             "name_fr": "Infestation de mollusques",
             "npc_en": "P'ebaloh",
             "npc_fr": "P'ebaloh",
-            "cPrev": [
-                66372
-            ],
-            "cNext": [
-                66389
-            ],
+            "cPrev": ["q.66372"],
+            "cNext": ["q.66389"],
             "patch": "4.31"
         },
         "x66374": {
@@ -101,9 +77,7 @@
             "name_fr": "Mes précieuses médailles",
             "npc_en": "Fyrilsunn",
             "npc_fr": "Fyrilsunn",
-            "cPrev": [
-                66371
-            ],
+            "cPrev": ["q.66371"],
             "patch": "4.31"
         },
         "x66377": {
@@ -112,12 +86,8 @@
             "name_fr": "Raptors bâfreurs",
             "npc_en": "Etgar",
             "npc_fr": "Etgar",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66368"
-            ],
-            "cNext": [
-                66380
-            ],
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66380"],
             "patch": "4.31"
         },
         "x66378": {
@@ -126,9 +96,7 @@
             "name_fr": "Problème de bouchon",
             "npc_en": "Byrglaent",
             "npc_fr": "Byrglaent",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66368"
-            ],
+            "cPrev": ["q.66368"],
             "patch": "4.31"
         },
         "x66380": {
@@ -137,12 +105,8 @@
             "name_fr": "Une question d'étiquette",
             "npc_en": "Etgar",
             "npc_fr": "Etgar",
-            "cPrev": [
-                66377
-            ],
-            "cNext": [
-                66385
-            ],
+            "cPrev": ["q.66377"],
+            "cNext": ["q.66385"],
             "patch": "4.31"
         },
         "x66385": {
@@ -151,9 +115,7 @@
             "name_fr": "Un festin de crapauds",
             "npc_en": "Etgar",
             "npc_fr": "Etgar",
-            "cPrev": [
-                66380
-            ],
+            "cPrev": ["q.66380"],
             "patch": "4.31"
         },
         "x66387": {
@@ -162,12 +124,8 @@
             "name_fr": "Tempête rafraîchissante",
             "npc_en": "Gegeruju",
             "npc_fr": "Gegeruju",
-            "cPrev": [
-                66349
-            ],
-            "cNext": [
-                66388
-            ],
+            "cPrev": ["q.66349"],
+            "cNext": ["q.66388"],
             "patch": "4.31"
         },
         "x66388": {
@@ -176,9 +134,7 @@
             "name_fr": "Les oiseaux de la discorde",
             "npc_en": "Gegeruju",
             "npc_fr": "Gegeruju",
-            "cPrev": [
-                66387
-            ],
+            "cPrev": ["q.66387"],
             "patch": "4.31"
         },
         "x66389": {
@@ -187,9 +143,7 @@
             "name_fr": "Des poissons indésirables",
             "npc_en": "P'ebaloh",
             "npc_fr": "P'ebaloh",
-            "cPrev": [
-                66373
-            ],
+            "cPrev": ["q.66373"],
             "patch": "4.31"
         },
         "x65550": {
@@ -199,11 +153,7 @@
             "cPrevAny": true,
             "npc_en": "Aileen",
             "npc_fr": "Aileen",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66747": {

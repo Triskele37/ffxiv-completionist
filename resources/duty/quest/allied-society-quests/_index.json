@@ -1,0 +1,45 @@
+{
+    "key": "allied-society-quests",
+    "groupName_en": "Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés",
+    "order": [
+        "amaljaa-quests",
+        "sylph-quests",
+        "kobold-quests",
+        "sahagin-quests",
+        "ixal-quests",
+        "vanu-vanu-quests",
+        "vath-quests",
+        "moogle-quests",
+        "kojin-quests",
+        "ananta-quests",
+        "namazu-quests",
+        "pixie-quests",
+        "qitari-quests",
+        "dwarf-quests",
+        "arkasodara-quests",
+        "omicron-quests",
+        "loporrit-quests",
+        "pelupelu-quests",
+        "intersocietal-quests"
+    ],
+    "headers": {
+        "reputation": {
+            "filterable": true,
+            "header_en": "Reputation",
+            "header_fr": "Réputation"
+        },
+        "level": {
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "npc": {
+            "header_en": "NPC",
+            "header_fr": "PNJ"
+        }
+    }
+}

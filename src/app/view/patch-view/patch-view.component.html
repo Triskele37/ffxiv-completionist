@@ -1,0 +1,84 @@
+<div class="patch-view-header">
+    <button
+        pButton
+        [label]="'MAIN.SEARCH.' + (willCollapseAll ? 'COLLAPSE' : 'EXPAND') | translate"
+        (click)="setRowsExpanded(!willCollapseAll)"
+    ></button>
+
+    <p-dropdown
+        styleClass="patch-dropdown"
+        [options]="patches"
+        [(ngModel)]="patch"
+        (onChange)="getTasksByPatch()"
+    ></p-dropdown>
+
+    {{tasksInPatch.length}} {{'TABLE.DISPLAYED' | translate}}
+</div>
+
+<div *ngIf="tasksInPatch.length; else noResults" class="patch-results-table">
+    <p-table
+        [expandedRowKeys]="expandedRows"
+        [value]="tasksInPatch"
+        [scrollable]="true"
+        scrollHeight="flex"
+        rowGroupMode="subheader"
+        groupRowsBy="_parent.fullStorageKey"
+        dataKey="_parent.fullStorageKey"
+        styleClass="p-datatable-striped"
+        (onRowCollapse)="evaluateToggleAll($event, true)"
+        (onRowExpand)="evaluateToggleAll($event, false)"
+    >
+        <ng-template pTemplate="header">
+            <tr>
+                <th>{{'MAIN.SEARCH.COMPLETE' | translate}}</th>
+                <th>{{'MAIN.SEARCH.LINK' | translate}}</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="groupheader" let-task let-expanded="expanded">
+            <tr pRowGroupHeader [pRowToggler]="task">
+                <td>
+                    <p-button
+                        styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
+                        [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+                    ></p-button>
+                </td>
+                <td>
+                    <xiv-content-link [content]="task._parent"></xiv-content-link>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="rowexpansion" let-task>
+            <tr class="result-row">
+                <ng-container
+                    *ngTemplateOutlet="completionCell; context: { $implicit: task }"
+                ></ng-container>
+
+                <td>
+                    <xiv-content-link
+                        [content]="task"
+                        [nameOnly]="true"
+                    ></xiv-content-link>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
+
+<ng-template #noResults>
+    <span>{{'MAIN.SEARCH.NO_RESULTS' | translate}}</span>
+</ng-template>
+
+<ng-template #completionCell let-task>
+    <ng-container *ngIf="!task.isNumericCompletion; else numericCell">
+        <xiv-complete-cell
+            [task]="task"
+            [flag]="task.completionFlag"
+        ></xiv-complete-cell>
+    </ng-container>
+    <ng-template #numericCell>
+        <xiv-numeric-complete-cell
+            [task]="task"
+            [value]="task.completionFlag"
+        ></xiv-numeric-complete-cell>
+    </ng-template>
+</ng-template>

@@ -1,0 +1,77 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x70081": {
+            "level": 80,
+            "name_en": "Hippos Born to Run",
+            "name_fr": "Hippos dans la poussière",
+            "npc_en": "Kancana",
+            "npc_fr": "Kancana",
+            "cPrev": ["q.70000", "q.70033"],
+            "cNext": ["q.70082"],
+            "cSiblings": ["character.character.societal-relations.92"],
+            "patch": "6.28"
+        },
+        "x70082": {
+            "level": 80,
+            "name_en": "A Pachyderm's Promptitude",
+            "name_fr": "Les Hippotracteurs à la conquête de Thavnair",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": ["q.70081"],
+            "cNext": ["q.70083"],
+            "cSiblings": ["character.character.societal-relations.93"],
+            "patch": "6.28"
+        },
+        "x70083": {
+            "level": 80,
+            "name_en": "Hippo Healing",
+            "name_fr": "Un hippo averti en vaut deux",
+            "reputation": "@REPUTATION.TRUSTED",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": ["q.70082"],
+            "cNext": ["q.70084"],
+            "cSiblings": ["character.character.societal-relations.94"],
+            "patch": "6.28"
+        },
+        "x70084": {
+            "level": 80,
+            "name_en": "Defiant Ogul, Deified!",
+            "name_fr": "Les fourberies d'Ogul",
+            "reputation": "@REPUTATION.RESPECTED",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": ["q.70083"],
+            "cNext": ["q.70085"],
+            "cSiblings": ["character.character.societal-relations.95"],
+            "patch": "6.28"
+        },
+        "x70085": {
+            "level": 80,
+            "name_en": "Leader to Leader",
+            "name_fr": "Dans l'œil rouge des Gajasuras",
+            "reputation": "@REPUTATION.HONORED",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": ["q.70084"],
+            "cNext": ["q.70086"],
+            "cSiblings": ["character.character.societal-relations.96"],
+            "patch": "6.28"
+        },
+        "x70086": {
+            "level": 80,
+            "name_en": "The Hippo Riders",
+            "name_fr": "La botte secrète de Kancana",
+            "reputation": "@REPUTATION.SWORN",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": ["q.70085"],
+            "cSiblings": ["character.character.societal-relations.97"],
+            "patch": "6.28"
+        }
+    }
+}

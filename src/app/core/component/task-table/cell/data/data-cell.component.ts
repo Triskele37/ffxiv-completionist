@@ -1,16 +1,21 @@
 import { ChangeDetectorRef, Component, ElementRef, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
+import { DataService } from '@data';
 import { Column } from '@model/Column';
 import { DataGroup } from '@model/DataGroup';
 import { getChild } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
-import { DataService } from '@data';
 
 type LinkData = {
+    xivDataType?: 'LinkData';
     value: DataGroup | Task | string;
     type: 'Group' | 'Task' | 'Value';
+    pre?: string; // Text before the link
+    post?: string; // Text after the link
 };
+
+const PRE_LINK_POST_REGEX = /^([^.]*)\b([a-z]+[a-z0-9-]*\.[a-z0-9-.]+)\b([^.]*)$/;
 
 @Component({
     selector: 'xiv-data-cell',
@@ -77,11 +82,27 @@ export class DataCellComponent implements OnChanges, OnDestroy {
     }
 
     getLinkFromPath(pathOrValue: string): LinkData {
-        if(this.column.link && pathOrValue?.includes('.')) {
-            const content = getChild(this.svcData.data, pathOrValue);
-            if(content?.xivDataType === 'Group') return { value: content, type: 'Group' };
-            if(content?.xivDataType === 'Task') return { value: content, type: 'Task' };
-            return { value: pathOrValue, type: 'Value' };
+        if(this.column.link && pathOrValue) {
+            const [, pre, link, post] = pathOrValue.match(PRE_LINK_POST_REGEX) ?? [];
+
+            if(link) {
+                const content = getChild(this.svcData.data, link);
+                const linkData: Partial<LinkData> = {};
+
+                if(content) {
+                    linkData.value = content;
+                    linkData.type = content.xivDataType;
+                    if(pre) linkData.pre = pre;
+                    if(post) linkData.post = post;
+                    return linkData as LinkData;
+                }
+                else {
+                    return { value: pathOrValue, type: 'Value' };
+                }
+            }
+            else {
+                return { value: pathOrValue, type: 'Value' };
+            }
         }
         else {
             // parameter is a raw value

@@ -1,57 +1,43 @@
 {
     "key": "others",
-    "groupName_en": "Others",
-    "groupName_fr": "Autres",
+    "groupName": "@PLACE.OTHERS",
     "tasks": {
         "x0": {
-            "name_en": "Mor Dhona - 1",
-            "name_fr": "Mor Dhona - 1",
-            "method": "duty.quests.main-scenario.seventh-umbral-era.66541",
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66541"
-            ]
+            "name": "@PLACE.MOR_DHONA - 1",
+            "source": "q.66541",
+            "cSiblings": ["q.66541"]
         },
         "x1": {
-            "name_en": "Mor Dhona - 2",
-            "name_fr": "Mor Dhona - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.MOR_DHONA - 2",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
         },
         "x4": {
-            "name_en": "Labyrinthos",
-            "name_fr": "Le Labyrinthos",
-            "method_en": "70 Bicolor Gemstone (Labyrinthos Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.LABYRINTHOS",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LABYRINTHOS (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x5": {
-            "name_en": "Mare Lamentorum",
-            "name_fr": "Mare Lamentorum",
-            "method_en": "70 Bicolor Gemstone (Mare Lamentorum Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.MARE_LAMENTORUM",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.MARE_LAMENTORUM (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x6": {
-            "name_en": "Ultima Thule",
-            "name_fr": "Ultima Thulé",
-            "method_en": "70 Bicolor Gemstone (Ultima Thule Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.ULTIMA_THULE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x7": {
-            "name_en": "Elpis",
-            "name_fr": "Elpis",
-            "method_en": "70 Bicolor Gemstone (Elpis Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.ELPIS",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ELPIS (70 CURRENCY.FATE.GEMSTONE)"
+        },
+        "x8": {
+            "name": "@PLACE.LIVING_MEMORY",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LIVING_MEMORY (90 CURRENCY.FATE.GEMSTONE)"
         },
         "x2": {
-            "name_en": "Bozjan Southern Front",
-            "name_fr": "Front sud de Bozja",
-            "method_en": "25 Bozjan Cluster (Resistance Quartermaster)",
-            "method_fr": "25 Critaux bozjiens"
+            "name": "@PLACE.BOZJAN_SOUTHERN_FRONT",
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.BOZJAN_CLUSTER)"
         },
         "x3": {
-            "name_en": "Zadnor",
-            "name_fr": "Hauts plateaux de Zadnor",
-            "method_en": "25 Bozjan Cluster (Resistance Quartermaster)",
-            "method_fr": "25 Critaux bozjiens"
+            "name": "@PLACE.ZADNOR",
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.ZADNOR (25 CURRENCY.BOZJAN_CLUSTER)"
         }
     }
 }

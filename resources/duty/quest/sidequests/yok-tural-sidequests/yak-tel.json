@@ -1,0 +1,278 @@
+{
+    "key": "yak-tel",
+    "groupName_en": "Yak T'el",
+    "groupName_fr": "Yak T'el",
+    "tasks": {
+        "x70626": {
+            "cPrev": ["q.70436"],
+            "level": 90,
+            "name_en": "Preying Mantises",
+            "name_fr": "La loi de la jungle",
+            "npc_en": "Rral Ty'ukuk",
+            "npc_fr": "Rral Ty'ukuk",
+            "patch": "7.0"
+        },
+        "x70627": {
+            "cPrev": ["q.70436"],
+            "level": 90,
+            "name_en": "Getting to the Bottom of Things",
+            "name_fr": "Les profondeurs des tsoly",
+            "npc_en": "Hopeful Swimmer",
+            "npc_fr": "Jeune Amatrice De Plongée",
+            "patch": "7.0"
+        },
+        "x70628": {
+            "cPrev": ["q.70436"],
+            "level": 90,
+            "name_en": "The Crimson Cenote",
+            "name_fr": "Le cénote écarlate",
+            "npc_en": "Concerned Villager",
+            "npc_fr": "Villageoise Inquiète",
+            "patch": "7.0"
+        },
+        "x70629": {
+            "cPrev": ["q.70436"],
+            "level": 90,
+            "name_en": "Watching the Watchtowers",
+            "name_fr": "Le regard perdu dans L'Horizon",
+            "npc_en": "Xax Ogaw",
+            "npc_fr": "Xax Ogaw",
+            "patch": "7.0"
+        },
+        "x70630": {
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Secrets in the Cinderfield",
+            "name_fr": "La paix sous les plaines cendrées",
+            "npc_en": "Young Xbr'aal",
+            "npc_fr": "Jeune Xbr'aal",
+            "patch": "7.0"
+        },
+        "x70631": {
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Hunters with Bite",
+            "name_fr": "Des disciples aux dents longues",
+            "npc_en": "Grizzled Hunter",
+            "npc_fr": "Xbr'aal D'âge Mûr",
+            "patch": "7.0"
+        },
+        "x70632": {
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Reminders of the Past",
+            "name_fr": "Xbr'aal échaudé craint les ruines",
+            "npc_en": "Unnerved Hunter",
+            "npc_fr": "Xbr'aal Vexé",
+            "patch": "7.0"
+        },
+        "x70633": {
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Sick Day",
+            "name_fr": "Les hauts et les bas de la vie de marchand",
+            "npc_en": "Airsick Pelupelu",
+            "npc_fr": "Pelupelu Patraque",
+            "patch": "7.0"
+        },
+        "x70634": {
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "To Forge in the Forest",
+            "name_fr": "Un forgeron sachant forger dans la forêt",
+            "npc_en": "Wuk Ts'on",
+            "npc_fr": "Wuk Ts'on",
+            "patch": "7.0"
+        },
+        "x70635": {
+            "cNext": ["q.70670"],
+            "cPrev": ["q.70438", "q.70576", "q.70606"],
+            "level": 90,
+            "name_en": "A Stomach for Change",
+            "name_fr": "Sire Épidemaïs répare les estomacs fragiles",
+            "npc_en": "Cornservant",
+            "npc_fr": "Sire Épidemaïs",
+            "patch": "7.0"
+        },
+        "x70646": {
+            "cNext": ["q.70647"],
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Aiming High",
+            "name_fr": "Devenir un chasseur accompli",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70647": {
+            "cNext": ["q.70648"],
+            "cPrev": ["q.70646"],
+            "level": 90,
+            "name_en": "Hunting for the Family",
+            "name_fr": "La grande famille d'Iq Br'aax",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70648": {
+            "cNext": ["q.70649"],
+            "cPrev": ["q.70647"],
+            "level": 90,
+            "name_en": "A Hunter's Dream",
+            "name_fr": "Le rêve de Ty'at Roh",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70649": {
+            "cNext": ["q.70654"],
+            "cPrev": ["q.70648"],
+            "level": 90,
+            "name_en": "The Trial Commences",
+            "name_fr": "L'épreuve des Pisteurs br'aax",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70636": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Carved in Stone",
+            "name_fr": "Les statues de Mamook",
+            "npc_en": "Quroll Ja",
+            "npc_fr": "Quroll Ja",
+            "patch": "7.0"
+        },
+        "x70637": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Two Hearts Aflutter",
+            "name_fr": "Les papillons du bonheur",
+            "npc_en": "Liinel Ja",
+            "npc_fr": "Liinel Ja",
+            "patch": "7.0"
+        },
+        "x70638": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Proper Respects",
+            "name_fr": "Du respect des braves",
+            "npc_en": "Goteel Ja",
+            "npc_fr": "Goteel Ja",
+            "patch": "7.0"
+        },
+        "x70639": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Beast of the Heartlands",
+            "name_fr": "La créature de Ja Tiika",
+            "npc_en": "Prudent Hunter",
+            "npc_fr": "Hoobigo Prudent",
+            "patch": "7.0"
+        },
+        "x70640": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Spirit's Call",
+            "name_fr": "Esprit, es-tu là ?",
+            "npc_en": "Meerel Ja",
+            "npc_fr": "Meerel Ja",
+            "patch": "7.0"
+        },
+        "x70641": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Seek the Sun",
+            "name_fr": "Des mots d'espoir",
+            "npc_en": "Timid Lady",
+            "npc_fr": "Boonewa Discrète",
+            "patch": "7.0"
+        },
+        "x70642": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Secret of Sweetness",
+            "name_fr": "Le secret des najool",
+            "npc_en": "Kiishel Ja",
+            "npc_fr": "Kiishel Ja",
+            "patch": "7.0"
+        },
+        "x70643": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Growing Grove",
+            "name_fr": "Que va devenir le bosquet ?",
+            "npc_en": "Zeseel Ja",
+            "npc_fr": "Zeseel Ja",
+            "patch": "7.0"
+        },
+        "x70644": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Age Is Just a Number",
+            "name_fr": "Une vieillesse encore vaillante",
+            "npc_en": "Bladewise Hoobigo",
+            "npc_fr": "Vieillard Hoobigo",
+            "patch": "7.0"
+        },
+        "x70645": {
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "I'm with Wivre",
+            "name_fr": "Tout pour mon partenaire",
+            "npc_en": "Mosaal Ja",
+            "npc_fr": "Mosaal Ja",
+            "patch": "7.0"
+        },
+        "x70650": {
+            "cNext": ["q.70651"],
+            "cPrev": ["q.70444"],
+            "level": 90,
+            "name_en": "Lost and Powerless",
+            "name_fr": "Faire face à l'impuissance",
+            "npc_en": "Shiidil Ja",
+            "npc_fr": "Shiidil Ja",
+            "patch": "7.0"
+        },
+        "x70651": {
+            "cNext": ["q.70652"],
+            "cPrev": ["q.70650"],
+            "level": 90,
+            "name_en": "Remembering a Dream",
+            "name_fr": "Confier ses rêves au ciel",
+            "npc_en": "Shiidil Ja",
+            "npc_fr": "Shiidil Ja",
+            "patch": "7.0"
+        },
+        "x70652": {
+            "cNext": ["q.70653"],
+            "cPrev": ["q.70651"],
+            "level": 90,
+            "name_en": "Budding Promise",
+            "name_fr": "Une bombe pour l'espoir",
+            "npc_en": "Gotoll Ja",
+            "npc_fr": "Gotoll Ja",
+            "patch": "7.0"
+        },
+        "x70653": {
+            "cNext": ["q.70654"],
+            "cPrev": ["q.70652"],
+            "level": 90,
+            "name_en": "Skill of a Veteran",
+            "name_fr": "L'expérience du vétéran",
+            "npc_en": "Gotoll Ja",
+            "npc_fr": "Gotoll Ja",
+            "patch": "7.0"
+        },
+        "x70654": {
+            "cPrev": ["q.70649", "q.70653"],
+            "level": 90,
+            "name_en": "One Forest",
+            "name_fr": "Même forêt, même famille",
+            "npc_en": "Gotoll Ja",
+            "npc_fr": "Gotoll Ja",
+            "patch": "7.0",
+            "unlock": "o.682"
+        }
+    }
+}

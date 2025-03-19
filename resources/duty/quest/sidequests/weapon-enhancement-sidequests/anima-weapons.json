@@ -9,12 +9,8 @@
             "name_fr": "De l'esprit des armes",
             "npc_en": "Rowena",
             "npc_fr": "Rowena",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
-            "cNext": [
-                67748
-            ],
+            "cPrev": ["q.67205"],
+            "cNext": ["q.67748"],
             "patch": "4.31"
         },
         "x67748": {
@@ -23,12 +19,8 @@
             "name_fr": "Les cristaux d'Ardashir",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67747
-            ],
-            "cNext": [
-                67749
-            ],
+            "cPrev": ["q.67747"],
+            "cNext": ["q.67749"],
             "patch": "4.31"
         },
         "x67749": {
@@ -37,12 +29,8 @@
             "name_fr": "Les marches de l'éveil",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67748
-            ],
-            "cNext": [
-                67750
-            ],
+            "cPrev": ["q.67748"],
+            "cNext": ["q.67750"],
             "patch": "4.31"
         },
         "x67750": {
@@ -51,15 +39,9 @@
             "name_fr": "Anima nova",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67749
-            ],
-            "cNext": [
-                67820
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1394"
-            ],
+            "cPrev": ["q.67749"],
+            "cNext": ["q.67820"],
+            "cSiblings": ["a.1394"],
             "patch": "4.31"
         },
         "x67820": {
@@ -68,12 +50,8 @@
             "name_fr": "Parole à l'esprit",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67750
-            ],
-            "cNext": [
-                67864
-            ],
+            "cPrev": ["q.67750"],
+            "cNext": ["q.67864"],
             "patch": "4.31"
         },
         "x67864": {
@@ -82,13 +60,8 @@
             "name_fr": "Épanouissement accéléré",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67820
-            ],
-            "cNext": [
-                67915,
-                "duty.quests.other.quasi-quests.67870"
-            ],
+            "cPrev": ["q.67820"],
+            "cNext": ["q.67915", "q.67870"],
             "patch": "4.31"
         },
         "x67915": {
@@ -97,14 +70,8 @@
             "name_fr": "Souvenirs vivifiants",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67864
-            ],
-            "cNext": [
-                67916,
-                67917,
-                67932
-            ],
+            "cPrev": ["q.67864"],
+            "cNext": ["q.67916", "q.67917", "q.67932"],
             "patch": "4.31"
         },
         "x67916": {
@@ -113,9 +80,7 @@
             "name_fr": "Au service d'Amphelice",
             "npc_en": "Amphelice",
             "npc_fr": "Amphelice",
-            "cPrev": [
-                67915
-            ],
+            "cPrev": ["q.67915"],
             "patch": "4.31"
         },
         "x67917": {
@@ -124,9 +89,7 @@
             "name_fr": "Au service d'Angelet",
             "npc_en": "Angelet",
             "npc_fr": "Angelet",
-            "cPrev": [
-                67915
-            ],
+            "cPrev": ["q.67915"],
             "patch": "4.31"
         },
         "x67932": {
@@ -135,13 +98,8 @@
             "name_fr": "Le dernier transfert",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67915
-            ],
-            "cNext": [
-                67933,
-                67934
-            ],
+            "cPrev": ["q.67915"],
+            "cNext": ["q.67933", "q.67934"],
             "patch": "4.31"
         },
         "x67933": {
@@ -149,10 +107,8 @@
             "name_en": "Some Assembly Required",
             "name_fr": "Fabrication d'une nouvelle pierre d'âme",
             "npc_en": "Processing Node",
-            "npc_fr": "dispositif de transformation",
-            "cPrev": [
-                67932
-            ],
+            "npc_fr": "Dispositif De Transformation",
+            "cPrev": ["q.67932"],
             "patch": "4.31"
         },
         "x67934": {
@@ -160,14 +116,11 @@
             "name_en": "Body and Soul",
             "name_fr": "Un esprit qui fait corps",
             "npc_en": "Automaton",
-            "npc_fr": "pantin",
-            "cPrev": [
-                67932
-            ],
-            "cNext": [
-                67939
-            ],
-            "patch": "4.31"
+            "npc_fr": "Pantin",
+            "cPrev": ["q.67932"],
+            "cNext": ["q.67939"],
+            "patch": "4.31",
+            "unlock": "mi.231"
         },
         "x67939": {
             "level": 60,
@@ -175,12 +128,8 @@
             "name_fr": "Un courrier qui fait autorité",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67934
-            ],
-            "cNext": [
-                67940
-            ],
+            "cPrev": ["q.67934"],
+            "cNext": ["q.67940"],
             "patch": "4.31"
         },
         "x67940": {
@@ -189,9 +138,7 @@
             "name_fr": "Double complicité",
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": [
-                67939
-            ],
+            "cPrev": ["q.67939"],
             "patch": "4.31"
         }
     }

@@ -1,0 +1,198 @@
+{
+    "key": "eden",
+    "groupName_en": "Eden",
+    "groupName_fr": "Éden",
+    "tasks": {
+        "x68791": {
+            "level": 80,
+            "name_en": "In the Middle of Nowhere",
+            "name_fr": "Le vrai visage du premier reflet",
+            "npc_en": "Anxious Crystarium Guard",
+            "npc_fr": "Soldat Zélé",
+            "cPrev": ["q.69190"],
+            "cNext": ["q.68792"],
+            "patch": "5.01"
+        },
+        "x68792": {
+            "level": 80,
+            "name_en": "Deploy the Core",
+            "name_fr": "Conquérir le Cœur",
+            "unlock": "d.653",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.68791"],
+            "cNext": ["q.68793"],
+            "patch": "5.01"
+        },
+        "x68793": {
+            "level": 80,
+            "name_en": "One Fell Swoop",
+            "name_fr": "Descente du ciel",
+            "unlock": "d.684",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.68792"],
+            "cNext": ["q.68794"],
+            "patch": "5.01"
+        },
+        "x68794": {
+            "level": 80,
+            "name_en": "Nor Any Drop to Drink",
+            "name_fr": "Résurgence",
+            "unlock": "d.682",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.68793"],
+            "cNext": ["q.68795"],
+            "patch": "5.01"
+        },
+        "x68795": {
+            "level": 80,
+            "name_en": "Super Seismic",
+            "name_fr": "Ranimer le pouls",
+            "unlock": "d.689",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.68794"],
+            "cNext": ["q.68796"],
+            "patch": "5.01"
+        },
+        "x68796": {
+            "level": 80,
+            "name_en": "The Next Piece of the Puzzle",
+            "name_fr": "À la recherche de sa propre voie",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.68795"],
+            "cNext": ["q.69323"],
+            "patch": "5.01"
+        },
+        "x69323": {
+            "level": 80,
+            "name_en": "Away with the Faerie",
+            "name_fr": "Nouvelles inconnues",
+            "npc_en": "Yalfort",
+            "npc_fr": "Yalfort",
+            "cPrev": ["q.68796"],
+            "cNext": ["q.69324"],
+            "patch": "5.2"
+        },
+        "x69324": {
+            "level": 80,
+            "name_en": "Blood and Thunder",
+            "name_fr": "Tonnerre sur la plaine",
+            "unlock": "d.715",
+            "npc_en": "Gaia",
+            "npc_fr": "Gaïa",
+            "cPrev": ["q.69323"],
+            "cNext": ["q.69325"],
+            "patch": "5.2"
+        },
+        "x69325": {
+            "level": 80,
+            "name_en": "Into the Firestorm",
+            "name_fr": "Tempête ardente",
+            "unlock": "d.719",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.69324"],
+            "cNext": ["q.69326"],
+            "patch": "5.2"
+        },
+        "x69326": {
+            "level": 80,
+            "name_en": "Heart of Darkness",
+            "name_fr": "Perdue dans les Ténèbres",
+            "unlock": "d.726",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": ["q.69325"],
+            "cNext": ["q.69327"],
+            "patch": "5.2"
+        },
+        "x69327": {
+            "level": 80,
+            "name_en": "On Thin Ice",
+            "name_fr": "De glace et de Lumière",
+            "unlock": "d.728",
+            "npc_en": "Gaia",
+            "npc_fr": "Gaïa",
+            "cPrev": ["q.69326"],
+            "cNext": ["q.69328"],
+            "patch": "5.2"
+        },
+        "x69328": {
+            "level": 80,
+            "name_en": "Life Finds a Way",
+            "name_fr": "Jardin d'espoir",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.69327"],
+            "cNext": ["q.69329"],
+            "patch": "5.2"
+        },
+        "x69329": {
+            "level": 80,
+            "name_en": "Worlds Apart",
+            "name_fr": "Le temps de l'émancipation",
+            "npc_en": "Yalfort",
+            "npc_fr": "Yalfort",
+            "cPrev": ["q.69328", "q.69306"],
+            "cNext": ["q.69511"],
+            "patch": "5.2",
+            "unlock": "o.362"
+        },
+        "x69511": {
+            "level": 80,
+            "name_en": "Empty Promise",
+            "name_fr": "Quand nous en aurons fini",
+            "npc_en": "Yalfort",
+            "npc_fr": "Yalfort",
+            "cPrev": ["q.69329", "q.69318"],
+            "cNext": ["q.69512"],
+            "patch": "5.4"
+        },
+        "x69512": {
+            "level": 80,
+            "name_en": "Fear of the Dark",
+            "name_fr": "Nuage à l'horizon",
+            "unlock": "d.749",
+            "npc_en": "Gaia",
+            "npc_fr": "Gaïa",
+            "cPrev": ["q.69511"],
+            "cNext": ["q.69513"],
+            "patch": "5.4"
+        },
+        "x69513": {
+            "level": 80,
+            "name_en": "Shadows of the Past",
+            "name_fr": "Une ombre du passé",
+            "unlock": "d.747",
+            "npc_en": "Gaia",
+            "npc_fr": "Gaïa",
+            "cPrev": ["q.69512"],
+            "cNext": ["q.69514"],
+            "patch": "5.4"
+        },
+        "x69514": {
+            "level": 80,
+            "name_en": "Voice of the Soul",
+            "name_fr": "Une promesse pour l'éternité",
+            "unlock": ["d.751", "d.758"],
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.69513"],
+            "cNext": ["q.69515"],
+            "patch": "5.4"
+        },
+        "x69515": {
+            "level": 80,
+            "name_en": "Where I Belong",
+            "name_fr": "Le jardin de l'espoir",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": ["q.69514"],
+            "patch": "5.4"
+        }
+    }
+}

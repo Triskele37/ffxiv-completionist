@@ -1,21 +1,17 @@
 {
     "key": "manderville-weapons",
     "groupName_en": "Manderville Weapons",
-    "groupName_fr": "Armes des Mandervilles",
+    "groupName_fr": "Armes des Manderville",
     "tasks": {
         "x70188": {
             "level": 90,
             "name_en": "Make It a Manderville",
             "name_fr": "Le secret ancestral des Manderville",
             "npc_en": "House Manderville Manservant",
-            "npc_fr": "Domestique des Manderville",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70178"
-            ],
-            "cNext": [
-                70189,
-                70261
-            ],
+            "npc_fr": "Domestique Des Manderville",
+            "cPrev": ["q.70178"],
+            "cNext": ["q.70189", "q.70261"],
+            "cSiblings": ["a.3127"],
             "patch": "6.28"
         },
         "x70189": {
@@ -23,10 +19,8 @@
             "name_en": "Make Another Manderville",
             "name_fr": "Une nouvelle arme des Manderville",
             "npc_en": "House Manderville Artisan",
-            "npc_fr": "Artisan des Manderville",
-            "cPrev": [
-                70188
-            ],
+            "npc_fr": "Artisan Des Manderville",
+            "cPrev": ["q.70188"],
             "patch": "6.28"
         },
         "x70261": {
@@ -35,13 +29,8 @@
             "name_fr": "L'instinct combatif",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70255",
-                70188
-            ],
-            "cNext": [
-                70262
-            ],
+            "cPrev": ["q.70255", "q.70188"],
+            "cNext": ["q.70262"],
             "patch": "6.35"
         },
         "x70262": {
@@ -49,11 +38,8 @@
             "name_en": "The Next Mander-level",
             "name_fr": "Les armes éblouissantes des Manderville",
             "npc_en": "House Manderville Artisan",
-            "npc_fr": "Artisan des Manderville",
-            "cPrev": [
-                70261,
-                70189
-            ],
+            "npc_fr": "Artisan Des Manderville",
+            "cPrev": ["q.70261", "q.70189"],
             "patch": "6.35"
         },
         "x70307": {
@@ -62,25 +48,17 @@
             "name_fr": "Quand les forgerons boivent, les armes trinquent",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291",
-                70261
-            ],
-            "cNext": [
-                70308
-            ],
+            "cPrev": ["q.70291", "q.70261"],
+            "cNext": ["q.70308"],
             "patch": "6.45"
         },
         "x70308": {
             "level": 90,
             "name_en": "In Need of Adjustment",
             "name_fr": "Les armes majestueuses des Manderville",
-            "npc_en": "House Manderville artisan",
-            "npc_fr": "artisan des Manderville",
-            "cPrev": [
-                70262,
-                70307
-            ],
+            "npc_en": "House Manderville Artisan",
+            "npc_fr": "Artisan Des Manderville",
+            "cPrev": ["q.70262", "q.70307"],
             "patch": "6.45"
         },
         "x70342": {
@@ -89,28 +67,18 @@
             "name_fr": "La dernière danse",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
-                70307
-            ],
-            "cNext": [
-                70343
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.3374"
-            ],
+            "cPrev": ["q.70336", "q.70307"],
+            "cNext": ["q.70343"],
+            "cSiblings": ["a.3374"],
             "patch": "6.55"
         },
         "x70343": {
             "level": 90,
             "name_en": "Positively Mandervillous",
             "name_fr": "Les armes manderveilleuses des Manderville",
-            "npc_en": "House Manderville artisan",
-            "npc_fr": "artisan des Manderville",
-            "cPrev": [
-                70342,
-                70308
-            ],
+            "npc_en": "House Manderville Artisan",
+            "npc_fr": "Artisan Des Manderville",
+            "cPrev": ["q.70342", "q.70308"],
             "patch": "6.55"
         }
     }

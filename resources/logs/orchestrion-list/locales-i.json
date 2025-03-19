@@ -1,0 +1,714 @@
+{
+    "key": "locales-i",
+    "groupName_en": "Locales I",
+    "groupName_fr": "Lieux I",
+    "tasks": {
+        "x2": {
+            "number": "1",
+            "name_en": "Wailers and Waterwheels",
+            "name_fr": "Wailers And Waterwheels",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAISENTA (5,000 CURRENCY.GIL)",
+            "patch": "3.15"
+        },
+        "x3": {
+            "number": "2",
+            "name_en": "I Am the Sea",
+            "name_fr": "I Am the Sea",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.BANGO_ZANGO (5,000 CURRENCY.GIL)",
+            "patch": "3.15"
+        },
+        "x4": {
+            "number": "3",
+            "name_en": "A New Hope",
+            "name_fr": "A New Hope",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ROARICH (5,000 CURRENCY.GIL)",
+            "patch": "3.15"
+        },
+        "x49": {
+            "number": "4",
+            "name_en": "A Sailor Never Sleeps",
+            "name_fr": "A Sailor Never Sleeps",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.BANGO_ZANGO (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x50": {
+            "number": "5",
+            "name_en": "Dance of the Fireflies",
+            "name_fr": "Dance of the Fireflies",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAISENTA (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x48": {
+            "number": "6",
+            "name_en": "Sultana Dreaming",
+            "name_fr": "Sultana Dreaming",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ROARICH (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x58": {
+            "number": "7",
+            "name_en": "On Westerly Winds",
+            "name_fr": "On Westerly Winds",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.BANGO_ZANGO (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x59": {
+            "number": "8",
+            "name_en": "Serenity",
+            "name_fr": "Serenity",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAISENTA (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x57": {
+            "number": "9",
+            "name_en": "To the Sun",
+            "name_fr": "To the Sun",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ROARICH (5,000 CURRENCY.GIL)",
+            "patch": "3.3"
+        },
+        "x165": {
+            "number": "10",
+            "name_en": "Navigator's Glory - The Theme of Limsa Lominsa",
+            "name_fr": "Navigator's Glory - The Theme of Limsa Lominsa",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "patch": "4.01"
+        },
+        "x166": {
+            "number": "11",
+            "name_en": "Born of the Boughs - The Theme of Gridania",
+            "name_fr": "Born of the Boughs - The Theme of Gridania",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "patch": "4.01"
+        },
+        "x167": {
+            "number": "12",
+            "name_en": "The Twin Faces of Fate - The Theme of Ul'dah",
+            "name_fr": "The Twin Faces of Fate - The Theme of Ul'dah",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "patch": "4.01"
+        },
+        "x76": {
+            "number": "13",
+            "name_en": "On Windy Meadows",
+            "name_fr": "On Windy Meadows",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
+            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "patch": "3.3"
+        },
+        "x77": {
+            "number": "14",
+            "name_en": "Whisper of the Land",
+            "name_fr": "Whisper of the Land",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
+            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "patch": "3.3"
+        },
+        "x78": {
+            "number": "15",
+            "name_en": "Twilight over Thanalan",
+            "name_fr": "Twilight over Thanalan",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
+            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "patch": "3.3"
+        },
+        "x92": {
+            "number": "16",
+            "name_en": "Unspoken",
+            "name_fr": "Unspoken",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
+            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "patch": "3.4"
+        },
+        "x6": {
+            "number": "17",
+            "name_en": "The Waking Sands",
+            "name_fr": "The Waking Sands",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Haneko Burneko - 5,000 gil",
+            "source_fr": "Haneko Burneko - 5.000 gils",
+            "location": "@PLACE.THE_WAKING_SANDS",
+            "patch": "3.15"
+        },
+        "x9": {
+            "number": "18",
+            "name_en": "Another Round",
+            "name_fr": "Another Round",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@VENDOR.AURIANA (500 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.MOR_DHONA",
+            "patch": "3.15"
+        },
+        "x7": {
+            "number": "19",
+            "name_en": "Four-sided Circle",
+            "name_fr": "Four-sided Circle",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@10,000 CURRENCY.MGP",
+            "location": "@PLACE.THE_GOLD_SAUCER",
+            "patch": "3.15"
+        },
+        "x85": {
+            "number": "20",
+            "name_en": "Smoulder",
+            "name_fr": "Smoulder",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.AMALJAA)",
+            "location": "@PLACE.SOUTHERN_THANALAN",
+            "patch": "3.4"
+        },
+        "x117": {
+            "number": "21",
+            "name_en": "Flibbertigibbet",
+            "name_fr": "Flibbertigibbet",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.SYLPH)",
+            "location": "@PLACE.EAST_SHROUD",
+            "patch": "3.5"
+        },
+        "x89": {
+            "number": "22",
+            "name_en": "Behind Closed Doors",
+            "name_fr": "Behind Closed Doors",
+            "category": "@CATEGORY.PURCHASE",
+            "source": [
+                "@VENDOR.BANGO_ZANGO (5,000 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (5,000 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (5,000 CURRENCY.GIL)"
+            ],
+            "patch": "3.4"
+        },
+        "x93": {
+            "number": "23",
+            "name_en": "Where the Heart Is",
+            "name_fr": "Where the Heart Is",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "patch": "3.4"
+        },
+        "x90": {
+            "number": "24",
+            "name_en": "Reflections",
+            "name_fr": "Reflections",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.AURIANA (500 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.MOR_DHONA",
+            "patch": "3.4"
+        },
+        "x119": {
+            "number": "25",
+            "name_en": "Frontiers Within",
+            "name_fr": "Frontiers Within",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.AURIANA (500 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.MOR_DHONA",
+            "patch": "3.5"
+        },
+        "x120": {
+            "number": "26",
+            "name_en": "Fleeting Rays",
+            "name_fr": "Fleeting Rays",
+            "category": ["@CATEGORY.FATE", "@CATEGORY.PURCHASE"],
+            "source": "f.193",
+            "source_en": "Chachamun - 5,000 gil",
+            "source_fr": "Chachamun - 5.000 gils",
+            "location": "@PLACE.EASTERN_THANALAN",
+            "patch": "3.5"
+        },
+        "x121": {
+            "number": "27",
+            "name_en": "Saltswept",
+            "name_fr": "Saltswept",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Merchant & Mender - 5,000 gil",
+            "source_fr": "Quincaillière - 5,000 gil",
+            "location": "@PLACE.WESTERN_LA_NOSCEA",
+            "patch": "3.5"
+        },
+        "x164": {
+            "number": "28",
+            "name_en": "The Edge",
+            "name_fr": "The Edge",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Merchant & Mender - 5,000 gil",
+            "source_fr": "Quincaillière - 5,000 gil",
+            "location": "@PLACE.EASTERN_LA_NOSCEA",
+            "patch": "4.0"
+        },
+        "x51": {
+            "number": "29",
+            "name_en": "Nobility Obliges",
+            "name_fr": "Nobility Obliges",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Frine - 5,000 gil",
+            "source_fr": "Frine - 5.000 gils",
+            "location": "@PLACE.THE_PILLARS",
+            "patch": "3.3"
+        },
+        "x5": {
+            "number": "30",
+            "name_en": "Solid",
+            "name_fr": "Solid",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Frine - 5,000 gil",
+            "source_fr": "Frine - 5.000 gils",
+            "location": "@PLACE.THE_PILLARS",
+            "patch": "3.15"
+        },
+        "x54": {
+            "number": "31",
+            "name_en": "Against the Wind",
+            "name_fr": "Against the Wind",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4350", "h.4351", "h.4363", "h.4362", "h.4374"],
+            "location": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "patch": "3.3"
+        },
+        "x55": {
+            "number": "32",
+            "name_en": "Landlords",
+            "name_fr": "Landlords",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4356", "h.4357", "h.4369", "h.4368", "h.4377"],
+            "location": "@PLACE.THE_CHURNING_MISTS",
+            "patch": "3.3"
+        },
+        "x10": {
+            "number": "33",
+            "name_en": "Painted Foothills",
+            "name_fr": "Painted Foothills",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4352", "h.4353", "h.4365", "h.4364", "h.4375"],
+            "location": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "patch": "3.15"
+        },
+        "x56": {
+            "number": "34",
+            "name_en": "Missing Pages",
+            "name_fr": "Missing Pages",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4355", "h.4354", "h.4366", "h.4367", "h.4376"],
+            "location": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+            "patch": "3.3"
+        },
+        "x11": {
+            "number": "35",
+            "name_en": "Lost in the Clouds",
+            "name_fr": "Lost in the Clouds",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4359", "h.4358", "h.4370", "h.4371", "h.4378"],
+            "location": "@PLACE.THE_SEA_OF_CLOUDS",
+            "patch": "3.15"
+        },
+        "x87": {
+            "number": "36",
+            "name_en": "Nobility Sleeps",
+            "name_fr": "Nobility Sleeps",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Frine - 5,000 gil",
+            "source_fr": "Frine - 5.000 gils",
+            "location": "@PLACE.THE_PILLARS",
+            "patch": "3.4"
+        },
+        "x88": {
+            "number": "37",
+            "name_en": "Night in the Brume",
+            "name_fr": "Night in the Brume",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Frine - 5,000 gil",
+            "source_fr": "Frine - 5.000 gils",
+            "location": "@PLACE.THE_PILLARS",
+            "patch": "3.4"
+        },
+        "x230": {
+            "number": "38",
+            "name_en": "Black and White",
+            "name_fr": "Black and White",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4350", "h.4351", "h.4363", "h.4362", "h.4374"],
+            "location": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "patch": "4.3"
+        },
+        "x159": {
+            "number": "39",
+            "name_en": "Skylords",
+            "name_fr": "Skylords",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4356", "h.4357", "h.4369", "h.4368", "h.4377"],
+            "location": "@PLACE.THE_CHURNING_MISTS",
+            "patch": "4.0"
+        },
+        "x160": {
+            "number": "40",
+            "name_en": "The Silent Regard of Stars",
+            "name_fr": "The Silent Regard of Stars",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4355", "h.4354", "h.4366", "h.4367", "h.4376"],
+            "location": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+            "patch": "4.0"
+        },
+        "x91": {
+            "number": "41",
+            "name_en": "Close to the Heavens",
+            "name_fr": "Close to the Heavens",
+            "category": "@CATEGORY.THE_HUNT / CATEGORY.CRAFTING",
+            "source": ["h.4359", "h.4358", "h.4370", "h.4371", "h.4378"],
+            "location": "@PLACE.THE_SEA_OF_CLOUDS",
+            "patch": "3.4"
+        },
+        "x118": {
+            "number": "42",
+            "name_en": "Piece of Mind",
+            "name_fr": "Piece of Mind",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.VATH)",
+            "location": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "patch": "3.5"
+        },
+        "x86": {
+            "number": "43",
+            "name_en": "Coming Home",
+            "name_fr": "Coming Home",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.VANU_VANU)",
+            "location": "@PLACE.THE_SEA_OF_CLOUDS",
+            "patch": "3.4"
+        },
+        "x52": {
+            "number": "44",
+            "name_en": "The Mushroomery",
+            "name_fr": "The Mushroomery",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Junkmonger - 5,000 gil",
+            "source_fr": "Quincaillier - 5.000 gils",
+            "location": "@PLACE.MATOYAS_CAVE",
+            "patch": "3.3"
+        },
+        "x53": {
+            "number": "45",
+            "name_en": "Shelter",
+            "name_fr": "Shelter",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Traveling Merchant - 5,000 gil",
+            "source_fr": "Quincaillière - 5.000 gils",
+            "location": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "patch": "3.3"
+        },
+        "x94": {
+            "number": "46",
+            "name_en": "Homestead",
+            "name_fr": "Homestead",
+            "category": "@CATEGORY.PURCHASE",
+            "source_en": "Junkmonger - 5,000 gil",
+            "source_fr": "Quincaillière - 5.000 gils",
+            "location": "@PLACE.IDYLLSHIRE",
+            "patch": "3.4"
+        },
+        "x122": {
+            "number": "47",
+            "name_en": "Thicker than a Knife's Blade",
+            "name_fr": "Thicker than a Knife's Blade",
+            "category": "@CATEGORY.THE_HUNT",
+            "source": "@VENDOR.ARDOLAIN (300 CURRENCY.HUNT.CENTURIO)",
+            "location": "@PLACE.FOUNDATION",
+            "patch": "3.5"
+        },
+        "x349": {
+            "number": "48",
+            "name_en": "Safety in Numbers",
+            "name_fr": "Safety in Numbers",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.11"
+        },
+        "x174": {
+            "number": "49",
+            "name_en": "Impact",
+            "name_fr": "Impact",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ENNA (1,600 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.1"
+        },
+        "x161": {
+            "number": "50",
+            "name_en": "Beyond the Wall",
+            "name_fr": "Beyond the Wall",
+            "category": "@CATEGORY.FATE",
+            "source": "f.1129",
+            "location": "@PLACE.THE_FRINGES",
+            "patch": "4.0"
+        },
+        "x176": {
+            "number": "51",
+            "name_en": "On High",
+            "name_fr": "On High",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (400 CURRENCY.SCRIP.SECONDARY_CRAFTERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.1"
+        },
+        "x177": {
+            "number": "52",
+            "name_en": "Songs of Salt and Suffering",
+            "name_fr": "Songs of Salt and Suffering",
+            "category": "@CATEGORY.GATHERING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (400 CURRENCY.SCRIP.SECONDARY_GATHERERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.1"
+        },
+        "x175": {
+            "number": "53",
+            "name_en": "Crimson Sunrise",
+            "name_fr": "Crimson Sunrise",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "patch": "4.1"
+        },
+        "x162": {
+            "number": "54",
+            "name_en": "Liquid Flame",
+            "name_fr": "Liquid Flame",
+            "category": "@CATEGORY.FATE",
+            "source": "f.1172",
+            "location": "@PLACE.THE_RUBY_SEA",
+            "patch": "4.0"
+        },
+        "x178": {
+            "number": "55",
+            "name_en": "A Father's Pride",
+            "name_fr": "A Father's Pride",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "patch": "4.1"
+        },
+        "x163": {
+            "number": "56",
+            "name_en": "Drowning in the Horizon",
+            "name_fr": "Drowning in the Horizon",
+            "category": "@CATEGORY.THE_HUNT",
+            "source": "@VENDOR.LEUEKIN / VENDOR.ESTRILD (300 CURRENCY.HUNT.CENTURIO)",
+            "location": "@PLACE.RHALGRS_REACH / PLACE.KUGANE",
+            "patch": "4.0"
+        },
+        "x283": {
+            "number": "57",
+            "name_en": "Afterglow",
+            "name_fr": "Afterglow",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_CRAFTERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.5"
+        },
+        "x284": {
+            "number": "58",
+            "name_en": "Hope Forgotten",
+            "name_fr": "Hope Forgotten",
+            "category": "@CATEGORY.GATHERING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_GATHERERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.5"
+        },
+        "x285": {
+            "number": "59",
+            "name_en": "The Stone Remembers",
+            "name_fr": "The Stone Remembers",
+            "category": "@CATEGORY.GATHERING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_GATHERERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.5"
+        },
+        "x286": {
+            "number": "60",
+            "name_en": "Old Wounds",
+            "name_fr": "Old Wounds",
+            "category": "@CATEGORY.GATHERING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_GATHERERS)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.5"
+        },
+        "x203": {
+            "number": "61",
+            "name_en": "Crimson Sunset",
+            "name_fr": "Crimson Sunset",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.2",
+            "patch": "4.2"
+        },
+        "x204": {
+            "number": "62",
+            "name_en": "Westward Tide",
+            "name_fr": "Westward Tide",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ENNA (1,600 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.2"
+        },
+        "x205": {
+            "number": "63",
+            "name_en": "A Mother's Pride",
+            "name_fr": "Mother's Pride",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.2",
+            "patch": "4.2"
+        },
+        "x206": {
+            "number": "64",
+            "name_en": "He Rises Above",
+            "name_fr": "He Rises Above",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.ENNA (1,600 CURRENCY.TOMESTONE.POETIC)",
+            "location": "@PLACE.RHALGRS_REACH",
+            "patch": "4.2"
+        },
+        "x179": {
+            "number": "65",
+            "name_en": "Indomitable",
+            "name_fr": "Indomitable",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.KOJIN)",
+            "location": "@PLACE.THE_RUBY_SEA",
+            "patch": "4.1"
+        },
+        "x207": {
+            "number": "66",
+            "name_en": "Keepers of the Lock",
+            "name_fr": "Keepers of the Lock",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.ANANTA)",
+            "location": "@PLACE.THE_FRINGES",
+            "patch": "4.2"
+        },
+        "x231": {
+            "number": "67",
+            "name_en": "Seven Hundred Seventy-Seven Whiskers",
+            "name_fr": "Seven Hundred Seventy-Seven Whiskers",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER (3 CURRENCY.SOCIETY.NAMAZU)",
+            "location": "@PLACE.THE_AZIM_STEPPE",
+            "patch": "4.3"
+        },
+        "x246": {
+            "number": "68",
+            "name_en": "Cradle",
+            "name_fr": "Cradle",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "a.2130",
+            "source_en": "Junkmonger - 5,000 gil",
+            "source_fr": "Quincaillier - 5.000 gils",
+            "location": "@PLACE.THE_DOMAN_ENCLAVE",
+            "patch": "4.4"
+        },
+        "x287": {
+            "number": "69",
+            "name_en": "Harmony",
+            "name_fr": "Harmony",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_CRAFTERS)",
+            "patch": "4.5",
+            "location": "@PLACE.RHALGRS_REACH"
+        },
+        "x382": {
+            "number": "70",
+            "name_en": "Order Yet Undeciphered",
+            "name_fr": "Order Yet Undeciphered",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.21"
+        },
+        "x374": {
+            "number": "71",
+            "name_en": "Paradise Found",
+            "name_fr": "Paradise Found",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.21"
+        },
+        "x375": {
+            "number": "72",
+            "name_en": "Fealty",
+            "name_fr": "Fealty",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.21"
+        },
+        "x429": {
+            "number": "73",
+            "name_en": "Painted Skies",
+            "name_fr": "Painted Skies",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.41"
+        },
+        "x441": {
+            "number": "74",
+            "name_en": "What Is Love?",
+            "name_fr": "What Is Love?",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "5.5"
+        },
+        "x548": {
+            "number": "75",
+            "name_en": "Into the Adder's Den",
+            "name_fr": "Into the Adder's Den",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@40,000 CURRENCY.SEAL.SERPENT",
+            "location": "@PLACE.NEW_GRIDANIA",
+            "patch": "6.28"
+        },
+        "x549": {
+            "number": "76",
+            "name_en": "Maelstrom Command",
+            "name_fr": "Maelstrom Command",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@40,000 CURRENCY.SEAL.STORM",
+            "location": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
+            "patch": "6.28"
+        },
+        "x550": {
+            "number": "77",
+            "name_en": "The Hall of Flames",
+            "name_fr": "The Hall of Flames",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@40,000 CURRENCY.SEAL.FLAME",
+            "location": "@PLACE.UL_DAH_STEPS_OF_NALD",
+            "patch": "6.28"
+        },
+        "x584": {
+            "number": "78",
+            "name_en": "Crystal Rain",
+            "name_fr": "Crystal Rain",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.897",
+            "patch": "6.35"
+        },
+        "x603": {
+            "number": "79",
+            "name_en": "Looping in the Deepest Fringes",
+            "name_fr": "Looping in the Deepest Fringes",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (9 CURRENCY.VCD.ROKKON_POTSHERD)",
+            "location": "@PLACE.OLD_SHARLAYAN",
+            "patch": "6.45"
+        }
+    }
+}

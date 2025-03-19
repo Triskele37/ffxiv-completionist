@@ -1,140 +1,98 @@
 {
     "key": "hw",
-    "groupName_en": "HW",
-    "groupName_fr": "Heavensward",
+    "groupName": "@EXPANSION.HEAVENSWARD",
+    "groupNameShort": "@EXPANSION.HW",
     "tasks": {
-        "x0": {
+        "x86": {
             "level": "53",
             "name_en": "Thok ast Thok (Hard)",
             "name_fr": "Thok as Thok (brutal)",
-            "unlock": "duty.quests.main-scenario.heavensward.67152",
-            "boss_en": "Ravana",
-            "boss_fr": "Ravana"
+            "unlock": "q.67152"
         },
-        "x1": {
+        "x88": {
             "level": "57",
             "name_en": "The Limitless Blue (Hard)",
             "name_fr": "L'Immensité bleue (brutal)",
-            "unlock": "duty.quests.main-scenario.heavensward.67183",
-            "boss_en": "Bismarck",
-            "boss_fr": "Bismarck"
+            "unlock": "q.67183"
         },
-        "x2": {
+        "x90": {
             "level": "60",
             "name_en": "The Singularity Reactor",
             "name_fr": "Le Réacteur de singularité",
-            "unlock": "duty.quests.main-scenario.heavensward.67205",
-            "boss_en": "King Thordan",
-            "boss_fr": "Roi Thordan"
+            "unlock": "q.67205"
         },
-        "x3": {
+        "x169": {
             "level": "60",
             "name_en": "The Final Steps of Faith",
             "name_fr": "La Dernière avancée de la Foi",
-            "unlock": "duty.quests.main-scenario.dragonsong.67781",
-            "boss_en": "Nidhogg",
-            "boss_fr": "Nidhogg"
+            "unlock": "q.67781"
         },
-        "x4": {
+        "x134": {
             "level": "60",
             "name_en": "Containment Bay S1T7",
             "name_fr": "Unité de contention S1P7",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67868",
-            "boss_en": "Sephirot",
-            "boss_fr": "Sephirot"
+            "unlock": "q.67868"
         },
-        "x5": {
+        "x183": {
             "level": "60",
             "name_en": "Containment Bay P1T6",
             "name_fr": "Unité de contention P1P6",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67766",
-            "boss_en": "Sophia",
-            "boss_fr": "Sophia"
+            "unlock": "q.67766"
         },
-        "x6": {
+        "x223": {
             "level": "60",
             "name_en": "Containment Bay Z1T9",
             "name_fr": "Unité de contention Z1P9",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67930",
-            "boss_en": "Zurvan",
-            "boss_fr": "Zurvan"
+            "unlock": "q.67930"
         },
-        "x7": {
+        "x89": {
             "level": "60",
             "name_en": "The Limitless Blue (Extreme)",
             "name_fr": "L'Immensité bleue (extrême)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67651",
-            "boss_en": "Bismarck",
-            "boss_fr": "Bismarck",
-            "cSiblings": [
-                "character.achievement.battle.trials.1220"
-            ]
+            "unlock": "q.67651",
+            "cSiblings": ["a.1220"]
         },
-        "x8": {
+        "x87": {
             "level": "60",
             "name_en": "Thok ast Thok (Extreme)",
             "name_fr": "Thok ast Thok (extrême)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67652",
-            "boss_en": "Ravana",
-            "boss_fr": "Ravana",
-            "cSiblings": [
-                "character.achievement.battle.trials.1221"
-            ]
+            "unlock": "q.67652",
+            "cSiblings": ["a.1221"]
         },
-        "x9": {
+        "x91": {
             "level": "60",
             "name_en": "The Minstrel's Ballad: Thordan's Reign",
             "name_fr": "Le règne de Thordan",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67739",
-            "boss_en": "King Thordan",
-            "boss_fr": "Roi Thordan",
-            "cSiblings": [
-                "character.achievement.battle.trials.1400"
-            ]
+            "unlock": "q.67739",
+            "cSiblings": ["a.1400"]
         },
-        "x10": {
+        "x170": {
             "level": "60",
             "name_en": "The Minstrel's Ballad: Nidhogg's Rage",
             "name_fr": "L'ire de Nidhogg",
-            "unlock": "duty.quests.sidequests.mor-dhonan.mor-dhona.67825",
-            "boss_en": "Nidhogg",
-            "boss_fr": "Nidhogg",
-            "cSiblings": [
-                "character.achievement.battle.trials.1601"
-            ]
+            "unlock": "q.67825",
+            "cSiblings": ["a.1601"]
         },
-        "x11": {
+        "x135": {
             "level": "60",
             "name_en": "Containment Bay S1T7 (Extreme)",
             "name_fr": "Unité de contention S1P7 (extrême)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67817",
-            "boss_en": "Sephirot",
-            "boss_fr": "Sephirot",
-            "cSiblings": [
-                "character.achievement.battle.trials.1485"
-            ]
+            "unlock": "q.67817",
+            "cSiblings": ["a.1485"]
         },
-        "x12": {
+        "x184": {
             "level": "60",
             "name_en": "Containment Bay P1T6 (Extreme)",
             "name_fr": "Unité de contention P1P6 (extrême)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67869",
-            "boss_en": "Sophia",
-            "boss_fr": "Sophia",
-            "cSiblings": [
-                "character.achievement.battle.trials.1636"
-            ]
+            "unlock": "q.67869",
+            "cSiblings": ["a.1636"]
         },
-        "x13": {
+        "x224": {
             "level": "60",
             "name_en": "Containment Bay Z1T9 (Extreme)",
             "name_fr": "Unité de contention Z1P9 (extrême)",
-            "unlock": "duty.quests.chronicles-of-a-new-era.the-warring-triad.67931",
-            "boss_en": "Zurvan",
-            "boss_fr": "Zurvan",
-            "cSiblings": [
-                "character.achievement.battle.trials.1685"
-            ]
+            "unlock": "q.67931",
+            "cSiblings": ["a.1685"]
         }
     }
 }

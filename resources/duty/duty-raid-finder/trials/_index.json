@@ -2,23 +2,17 @@
     "key": "trials",
     "groupName_en": "Trials",
     "groupName_fr": "Défis",
+    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Défi"
-        },
-        "boss": {
-            "header_en": "Boss",
-            "header_fr": "Boss"
+            "header": "@HEADER.NAME"
         },
         "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloqué par"
+            "header": "@HEADER.UNLOCK",
+            "link": true
         }
     }
 }

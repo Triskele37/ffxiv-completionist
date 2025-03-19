@@ -1,0 +1,293 @@
+{
+    "key": "little-ladies-day-events",
+    "groupName_en": "Little Ladies' Day Events",
+    "groupName_fr": "Fête des demoiselles",
+    "tasks": {
+        "x66838": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Gridania)",
+            "name_fr": "Pour le plaisir des dames (Gridania)",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": ["q.66841"],
+            "cExclude": ["q.66839", "q.66840"],
+            "patch": "4.31"
+        },
+        "x66839": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Limsa Lominsa)",
+            "name_fr": "Pour le plaisir des dames (Limsa Lominsa)",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": ["q.66841"],
+            "cExclude": ["q.66838", "q.66840"],
+            "patch": "4.31"
+        },
+        "x66840": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Ul'dah)",
+            "name_fr": "Pour le plaisir des dames (Ul'dah)",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": ["q.66841"],
+            "cExclude": ["q.66838", "q.66839"],
+            "patch": "4.31"
+        },
+        "x66841": {
+            "level": 15,
+            "name_en": "A Peach by Any Other Name",
+            "name_fr": "Une fleur peut adoucir les mœurs",
+            "cPrevAny": true,
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": ["q.66838", "q.66839", "q.66840"],
+            "cNext": ["q.66842"],
+            "patch": "4.31"
+        },
+        "x66842": {
+            "level": 15,
+            "name_en": "Say It with Peaches",
+            "name_fr": "Faire bonne impression",
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": ["q.66841"],
+            "cNext": ["q.66843"],
+            "patch": "4.31"
+        },
+        "x66843": {
+            "level": 15,
+            "name_en": "A Real Peach",
+            "name_fr": "Une issue inattendue",
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": ["q.66842"],
+            "cSiblings": ["a.877"],
+            "patch": "4.31"
+        },
+        "x66035": {
+            "level": 15,
+            "name_en": "A Thorne-y Relationship",
+            "name_fr": "Un caprice de demoiselle",
+            "npc_en": "Sophisticated Servitor",
+            "npc_fr": "Serviteur Distingué",
+            "cNext": ["q.66036"],
+            "patch": "4.31"
+        },
+        "x66036": {
+            "level": 15,
+            "name_en": "Digging for Dolls",
+            "name_fr": "Chasse aux poupées",
+            "npc_en": "Disciplined Domestic",
+            "npc_fr": "Camériste Diligente",
+            "cPrev": ["q.66035"],
+            "cNext": ["q.66037"],
+            "patch": "4.31"
+        },
+        "x66037": {
+            "level": 15,
+            "name_en": "A Father's Folly",
+            "name_fr": "Poupées de sires, poupées de Thorne",
+            "npc_en": "Nanapasi",
+            "npc_fr": "Nanapasi",
+            "cPrev": ["q.66036"],
+            "cSiblings": ["a.1082"],
+            "patch": "4.31"
+        },
+        "x67757": {
+            "level": 15,
+            "name_en": "Aligning the Stars",
+            "name_fr": "Les Églantines d'Ul'dah",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": ["q.67758"],
+            "patch": "4.31"
+        },
+        "x67758": {
+            "level": 15,
+            "name_en": "Sugar, Spice, and Everything Rice",
+            "name_fr": "Distribution de gâteaux",
+            "npc_en": "Royal Servant",
+            "npc_fr": "Serviteur Du Sénéchal Royal",
+            "cPrev": ["q.67757"],
+            "cNext": ["q.67759"],
+            "patch": "4.31"
+        },
+        "x67759": {
+            "level": 15,
+            "name_en": "The Lead Starling",
+            "name_fr": "Le vote décisif",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.67758"],
+            "cSiblings": ["a.1393"],
+            "patch": "4.31"
+        },
+        "x67935": {
+            "level": 15,
+            "name_en": "Birdwatching Gone Wrong",
+            "name_fr": "Un Lalafell sous pression",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": ["q.67936"],
+            "patch": "4.31"
+        },
+        "x67936": {
+            "level": 15,
+            "name_en": "The Disappearing Act",
+            "name_fr": "Atelier couture",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.67935"],
+            "cNext": ["q.67937", "q.67942", "q.67943"],
+            "patch": "4.31"
+        },
+        "x67937": {
+            "level": 15,
+            "name_en": "Ulala's Grand Performance",
+            "name_fr": "La percée d'Ulala",
+            "npc_en": "Ulala",
+            "npc_fr": "Ulala",
+            "cPrev": ["q.67936"],
+            "cNext": ["q.67944"],
+            "cExclude": ["q.67942", "q.67943"],
+            "patch": "4.31"
+        },
+        "x67942": {
+            "level": 15,
+            "name_en": "Masha's Grand Performance",
+            "name_fr": "La percée de Masha",
+            "npc_en": "Masha Mhakaracca",
+            "npc_fr": "Masha Mhakaracca",
+            "cPrev": ["q.67936"],
+            "cNext": ["q.67944"],
+            "cExclude": ["q.67943", "q.67937"],
+            "patch": "4.31"
+        },
+        "x67943": {
+            "level": 15,
+            "name_en": "Narumi's Grand Performance",
+            "name_fr": "La percée de Narumi",
+            "npc_en": "Narumi",
+            "npc_fr": "Narumi",
+            "cPrev": ["q.67936"],
+            "cNext": ["q.67944"],
+            "cExclude": ["q.67937", "q.67942"],
+            "patch": "4.31"
+        },
+        "x67944": {
+            "level": 15,
+            "name_en": "Idols Give Back",
+            "name_fr": "Le concert événement des Églantines",
+            "cPrevAny": true,
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.67943", "q.67942", "q.67937"],
+            "cSiblings": ["a.1682"],
+            "patch": "4.31"
+        },
+        "x68620": {
+            "level": 15,
+            "name_en": "A Colorful Affair",
+            "name_fr": "Concert participatif",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": ["q.68621"],
+            "cSiblings": ["a.2019"],
+            "patch": "4.31"
+        },
+        "x68621": {
+            "level": 15,
+            "name_en": "Untended Dreams",
+            "name_fr": "La demoiselle mystérieuse",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.68620"],
+            "patch": "4.31"
+        },
+        "x68744": {
+            "level": 15,
+            "name_en": "Princess of Flowers",
+            "name_fr": "À l'ombre des jeunes filles en fleurs",
+            "npc_en": "Unsettled Seneschal",
+            "npc_fr": "Serviteur Paniqué",
+            "cNext": ["q.68745"],
+            "cSiblings": ["a.2238"],
+            "patch": "4.5"
+        },
+        "x68745": {
+            "level": 15,
+            "name_en": "One Short Day on Emerald Avenue",
+            "name_fr": "Les couronnes de l'amour",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": ["q.68744"],
+            "patch": "4.5"
+        },
+        "x69386": {
+            "level": 15,
+            "name_en": "Pretty in Peaches",
+            "name_fr": "Pleure pas, Princesse",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": ["q.69387"],
+            "cSiblings": ["a.2601"],
+            "patch": "5.2"
+        },
+        "x69387": {
+            "level": 15,
+            "name_en": "A Guest to Impress",
+            "name_fr": "Les idoles des princesses",
+            "npc_en": "Damielliot",
+            "npc_fr": "Damielliot",
+            "cPrev": ["q.69386"],
+            "patch": "5.2"
+        },
+        "x70007": {
+            "level": 15,
+            "name_en": "Fashion Face-off",
+            "name_fr": "Le défilé des demoiselles",
+            "npc_en": "Marabel",
+            "npc_fr": "Marabel",
+            "cNext": ["q.70008"],
+            "cSiblings": ["a.3034"],
+            "patch": "6.0"
+        },
+        "x70008": {
+            "level": 15,
+            "name_en": "A Stylish Transformation",
+            "name_fr": "Nouveau look pour une nouvelle fête",
+            "npc_en": "Marabel",
+            "npc_fr": "Marabel",
+            "cPrev": ["q.70007"],
+            "patch": "6.0"
+        },
+        "x70256": {
+            "level": 15,
+            "name_en": "Inheritance",
+            "name_fr": "La grâce de l'éventail",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cSiblings": ["a.3204"],
+            "patch": "6.3"
+        },
+        "x70773": {
+            "cNext": ["q.70774"],
+            "level": 15,
+            "name_en": "A Princely Persona",
+            "name_fr": "La nouvelle star des demoiselles",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "patch": "7.1"
+        },
+        "x70774": {
+            "cPrev": ["q.70773"],
+            "cSiblings": ["a.3613"],
+            "level": 15,
+            "name_en": "A Princely Debut",
+            "name_fr": "Des débuts princiers",
+            "npc_en": "Picot",
+            "npc_fr": "Picot",
+            "patch": "7.1"
+        }
+    }
+}

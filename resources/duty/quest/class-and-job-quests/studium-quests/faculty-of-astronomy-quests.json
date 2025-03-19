@@ -1,0 +1,78 @@
+{
+    "key": "faculty-of-astronomy-quests",
+    "groupName_en": "Faculty of Astronomy Quests",
+    "groupName_fr": "Quêtes du département d'astronomie",
+    "tasks": {
+        "x69675": {
+            "level": 80,
+            "name_en": "In Search of the Azure Star",
+            "name_fr": "À la recherche de l'étoile d'azur",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.70009"],
+            "cNext": ["q.69676"],
+            "patch": "6.0"
+        },
+        "x69676": {
+            "level": 80,
+            "name_en": "The World without You",
+            "name_fr": "Si t'as pas d'amis...",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69675"],
+            "cNext": ["q.69677"],
+            "patch": "6.0"
+        },
+        "x69677": {
+            "level": 83,
+            "name_en": "Poetry Recital",
+            "name_fr": "Compose de la poésie",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69676"],
+            "cNext": ["q.69678"],
+            "patch": "6.0"
+        },
+        "x69678": {
+            "level": 85,
+            "name_en": "One Step Forward",
+            "name_fr": "Un petit pas pour l'astronomie...",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69677"],
+            "cNext": ["q.69679"],
+            "patch": "6.0"
+        },
+        "x69679": {
+            "level": 85,
+            "name_en": "A Ten-year Promise",
+            "name_fr": "Une vieille promesse",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69678"],
+            "cNext": ["q.69680"],
+            "patch": "6.0"
+        },
+        "x69680": {
+            "level": 88,
+            "name_en": "An Astronomical Growth",
+            "name_fr": "Un grand pas pour Jude",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69679"],
+            "cNext": ["q.69681"],
+            "patch": "6.0"
+        },
+        "x69681": {
+            "level": 90,
+            "name_en": "The Promised Star",
+            "name_fr": "L'amitié brille sous les étoiles",
+            "npc_en": "Jude",
+            "npc_fr": "Jude",
+            "cPrev": ["q.69680"],
+            "cNext": ["q.70010"],
+            "cSiblings": ["a.2967"],
+            "patch": "6.0"
+        }
+    }
+}

@@ -1,43 +1,30 @@
 {
     "key": "norvrandt",
-    "groupName_en": "Norvrandt",
-    "groupName_fr": "Norvrandt",
+    "groupName": "@PLACE.NORVRANDT",
     "tasks": {
         "x0": {
-            "name_en": "Lakeland",
-            "name_fr": "Grand-Lac",
-            "method_en": "70 Bicolor Gemstone (Lakeland Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.LAKELAND",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LAKELAND (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x1": {
-            "name_en": "Kholusia",
-            "name_fr": "Kholusia",
-            "method_en": "70 Bicolor Gemstone (Kholusia Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.KHOLUSIA",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KHOLUSIA (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x2": {
-            "name_en": "Amh Araeng",
-            "name_fr": "Amh Araeng",
-            "method_en": "70 Bicolor Gemstone (Amh Araeng Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.AMH_ARAENG",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.AMH_ARAENG (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x3": {
-            "name_en": "Il Mheg",
-            "name_fr": "Il Mheg",
-            "method_en": "70 Bicolor Gemstone (Il Mheg Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.IL_MHEG",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x4": {
-            "name_en": "Rak'tika Greatwood",
-            "name_fr": "Rak'tika",
-            "method_en": "70 Bicolor Gemstone (Rak'tika Greatwood Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.RAK_TIKA",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (70 CURRENCY.FATE.GEMSTONE)"
         },
         "x5": {
-            "name_en": "The Tempest",
-            "name_fr": "La Tempête",
-            "method_en": "70 Bicolor Gemstone (The Tempest Gemstone Trader)",
-            "method_fr": "70 Gemme bicolore"
+            "name": "@PLACE.THE_TEMPEST",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_TEMPEST (70 CURRENCY.FATE.GEMSTONE)"
         }
     }
 }

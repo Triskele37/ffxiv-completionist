@@ -18,9 +18,7 @@
             "description_fr": "Gagner 10 000 sceaux de compagnie gridaniens.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                535
-            ]
+            "cNext": ["a.535"]
         },
         "x535": {
             "name_en": "A Snake in the Brass II",
@@ -29,29 +27,20 @@
             "description_fr": "Gagner 50 000 sceaux de compagnie gridaniens.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                534
-            ],
-            "cNext": [
-                536
-            ]
+            "cPrev": ["a.534"],
+            "cNext": ["a.536"]
         },
         "x536": {
             "name_en": "A Snake in the Brass III",
             "name_fr": "Garde des sceaux III (Deux Vipères)",
             "description_en": "Earn 100,000 Serpent Seals.",
             "description_fr": "Gagner 100 000 sceaux de compagnie gridaniens.",
+            "reward": "t.90",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                535
-            ],
-            "cNext": [
-                537
-            ],
-            "cSiblings": [
-                "character.character.title.90"
-            ]
+            "cPrev": ["a.535"],
+            "cNext": ["a.537"],
+            "cSiblings": ["t.90"]
         },
         "x537": {
             "name_en": "The Mahogany Leaf",
@@ -62,9 +51,7 @@
             "reward_fr": "Escuchon des Deux Vipères",
             "patch": "2.0",
             "points": 20,
-            "cPrev": [
-                536
-            ]
+            "cPrev": ["a.536"]
         },
         "x546": {
             "name_en": "In Good Company: Twin Adder I",
@@ -73,9 +60,7 @@
             "description_fr": "Accomplir un total de 10 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                547
-            ]
+            "cNext": ["a.547"]
         },
         "x547": {
             "name_en": "In Good Company: Twin Adder II",
@@ -84,29 +69,20 @@
             "description_fr": "Accomplir un total de 100 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                546
-            ],
-            "cNext": [
-                548
-            ]
+            "cPrev": ["a.546"],
+            "cNext": ["a.548"]
         },
         "x548": {
             "name_en": "In Good Company: Twin Adder III",
             "name_fr": "Vipères aux poings III",
             "description_en": "Complete 200 company levequests for the Order of the Twin Adder.",
             "description_fr": "Accomplir un total de 200 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
+            "reward": "t.93",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                547
-            ],
-            "cNext": [
-                549
-            ],
-            "cSiblings": [
-                "character.character.title.93"
-            ]
+            "cPrev": ["a.547"],
+            "cNext": ["a.549"],
+            "cSiblings": ["t.93"]
         },
         "x549": {
             "name_en": "The Ironwood Leaf",
@@ -117,9 +93,7 @@
             "reward_fr": "Bracelet du lys aux vipères",
             "patch": "2.0",
             "points": 20,
-            "cPrev": [
-                548
-            ]
+            "cPrev": ["a.548"]
         },
         "x558": {
             "name_en": "Feeding the Serpent I",
@@ -128,9 +102,7 @@
             "description_fr": "Effectuer un total de 10 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                559
-            ]
+            "cNext": ["a.559"]
         },
         "x559": {
             "name_en": "Feeding the Serpent II",
@@ -139,29 +111,20 @@
             "description_fr": "Effectuer un total de 50 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                558
-            ],
-            "cNext": [
-                560
-            ]
+            "cPrev": ["a.558"],
+            "cNext": ["a.560"]
         },
         "x560": {
             "name_en": "Feeding the Serpent III",
             "name_fr": "Fournisseur officiel des Deux Vipères III",
             "description_en": "Complete 200 supply missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 200 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
+            "reward": "t.96",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                559
-            ],
-            "cNext": [
-                561
-            ],
-            "cSiblings": [
-                "character.character.title.96"
-            ]
+            "cPrev": ["a.559"],
+            "cNext": ["a.561"],
+            "cSiblings": ["t.96"]
         },
         "x561": {
             "name_en": "The Sycamore Leaf",
@@ -172,9 +135,7 @@
             "reward_fr": "Boucles d'oreilles du lys aux vipères",
             "patch": "2.0",
             "points": 20,
-            "cPrev": [
-                560
-            ]
+            "cPrev": ["a.560"]
         },
         "x570": {
             "name_en": "To Each According to His Need: Twin Adder I",
@@ -183,9 +144,7 @@
             "description_fr": "Effectuer un total de 10 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                571
-            ]
+            "cNext": ["a.571"]
         },
         "x571": {
             "name_en": "To Each According to His Need: Twin Adder II",
@@ -194,29 +153,20 @@
             "description_fr": "Effectuer un total de 30 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                570
-            ],
-            "cNext": [
-                572
-            ]
+            "cPrev": ["a.570"],
+            "cNext": ["a.572"]
         },
         "x572": {
             "name_en": "To Each According to His Need: Twin Adder III",
             "name_fr": "Pourvoyeur de ressources des Deux Vipères III",
             "description_en": "Complete 100 provisioning missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 100 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
+            "reward": "t.99",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                571
-            ],
-            "cNext": [
-                573
-            ],
-            "cSiblings": [
-                "character.character.title.99"
-            ]
+            "cPrev": ["a.571"],
+            "cNext": ["a.573"],
+            "cSiblings": ["t.99"]
         },
         "x573": {
             "name_en": "The Willow Leaf",
@@ -227,9 +177,7 @@
             "reward_fr": "Anneau du lys aux vipères",
             "patch": "2.0",
             "points": 20,
-            "cPrev": [
-                572
-            ]
+            "cPrev": ["a.572"]
         },
         "x689": {
             "name_en": "In the Yellow I",
@@ -238,9 +186,7 @@
             "description_fr": "Accomplir 5 mandats différents pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                690
-            ]
+            "cNext": ["a.690"]
         },
         "x690": {
             "name_en": "In the Yellow II",
@@ -249,12 +195,8 @@
             "description_fr": "Accomplir 10 mandats différents pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                689
-            ],
-            "cNext": [
-                691
-            ]
+            "cPrev": ["a.689"],
+            "cNext": ["a.691"]
         },
         "x691": {
             "name_en": "In the Yellow III",
@@ -263,21 +205,17 @@
             "description_fr": "Accomplir 15 mandats différents pour le compte de l'ordre des Deux Vipères.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                690
-            ]
+            "cPrev": ["a.690"]
         },
         "x737": {
             "name_en": "Bump on a Log: Order of the Twin Adder",
             "name_fr": "Carnet de chasse : Deux Vipères",
             "description_en": "Complete all Order of the Twin Adder entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de l'ordre des Deux Vipères.",
-            "reward": "character.minion-guide.143",
+            "reward": "mi.7",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.order-of-the-twin-adder.all"
-            ]
+            "cPrev": ["logs.hunting-log.order-of-the-twin-adder.all"]
         }
     }
 }

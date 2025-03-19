@@ -1,3 +1,5 @@
+import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
@@ -8,8 +10,8 @@ import { migrateGatheringLog } from './gathering-log';
 import { migrateFish } from './fish';
 import { migrateOrchestrion } from './orchestrion';
 
-export function migrateTo_1_0_3(svcSaveStore: SaveStoreService): void {
-    const store = new ChangeStore(svcSaveStore, '1.0.3');
+export function migrateTo_1_0_3(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.3');
 
     migrateAchievements(store);
     migrateQuests(store);

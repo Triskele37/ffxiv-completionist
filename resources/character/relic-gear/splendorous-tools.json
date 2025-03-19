@@ -2,1144 +2,787 @@
     "key": "splendorous-tools",
     "groupName_en": "Splendorous Tools",
     "groupName_fr": "Outils splendorous",
-    "common": [
-        "job"
-    ],
     "tasks": {
         "x0": {
             "name_en": "Splendorous Saw",
             "name_fr": "Scie des merveilles",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                11
-            ]
+            "cNext": [11]
         },
         "x11": {
             "name_en": "Augmented Splendorous Saw",
             "name_fr": "Scie des merveilles améliorée",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "590",
             "requirements_en": "Splendorous Carpenter's Component x60",
             "requirements_fr": "Splendorous Carpenter's Component x60",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                22
-            ]
+            "cPrev": [0],
+            "cNext": [22]
         },
         "x22": {
             "name_en": "Crystalline Saw",
             "name_fr": "Scie cristalline",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "620",
             "requirements_en": "Adaptive Carpenter's Component x90",
             "requirements_fr": "Adaptive Carpenter's Component x90",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                33
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3193"
-            ]
+            "cPrev": [11],
+            "cNext": [33],
+            "cSiblings": ["a.3193"]
         },
         "x33": {
             "name_en": "Chora-Zoi's Crystalline Saw",
             "name_fr": "Chora-Zoi's Crystalline Saw",
-            "job": "CLASS_JOB.CRP",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.CRP",
+            "iLevel": "625",
             "requirements_en": "Customized Carpenter's Component x90",
             "requirements_fr": "Customized Carpenter's Component x90",
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                44
-            ]
+            "cPrev": [22],
+            "cNext": [44]
         },
         "x44": {
             "name_en": "Brilliant Saw",
             "name_fr": "Brilliant Saw",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "630",
             "requirements_en": "Brilliant Carpenter's Component x90",
             "requirements_fr": "Brilliant Carpenter's Component x90",
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                55
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3305"
-            ]
+            "cPrev": [33],
+            "cNext": [55],
+            "cSiblings": ["a.3305"]
         },
         "x55": {
             "name_en": "Vrandtic Visionary's Saw",
             "name_fr": "Vrandtic Visionary's Saw",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "635",
             "requirements_en": "Inspirational Carpenter's Component x60",
             "requirements_fr": "Inspirational Carpenter's Component x60",
-            "cPrev": [
-                44
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": [44],
+            "cNext": [66]
         },
         "x66": {
             "name_en": "Lodestar Saw",
             "name_fr": "Lodestar Saw",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "640",
             "requirements_en": "Nightforged Carpenter's Component x60",
             "requirements_fr": "Nightforged Carpenter's Component x60",
-            "cPrev": [
-                55
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3362"
-            ]
+            "cPrev": [55],
+            "cSiblings": ["a.3362"]
         },
         "x1": {
             "name_en": "Splendorous Cross-pein Hammer",
             "name_fr": "Marteau à panne croisée des merveilles",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                12
-            ]
+            "cNext": [12]
         },
         "x12": {
             "name_en": "Augmented Splendorous Cross-pein Hammer",
             "name_fr": "Marteau à panne croisée des merveilles amélioré",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "590",
             "requirements_en": "Splendorous Blacksmith's Component x60",
             "requirements_fr": "Splendorous Blacksmith's Component x60",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                23
-            ]
+            "cPrev": [1],
+            "cNext": [23]
         },
         "x23": {
             "name_en": "Crystalline Cross-pein Hammer",
             "name_fr": "Marteau à panne croisée cristallin",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "620",
             "requirements_en": "Adaptive Blacksmith's Component x90",
             "requirements_fr": "Adaptive Blacksmith's Component x90",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                34
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3194"
-            ]
+            "cPrev": [12],
+            "cNext": [34],
+            "cSiblings": ["a.3194"]
         },
         "x34": {
             "name_en": "Chora-Zoi's Crystalline Cross-pein Hammer",
             "name_fr": "Chora-Zoi's Crystalline Cross-pein Hammer",
-            "job": "CLASS_JOB.BSM",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.BSM",
+            "iLevel": "625",
             "requirements_en": "Customized Blacksmith's Component x90",
             "requirements_fr": "Customized Blacksmith's Component x90",
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                45
-            ]
+            "cPrev": [23],
+            "cNext": [45]
         },
         "x45": {
             "name_en": "Brilliant Cross-pein Hammer",
             "name_fr": "Brilliant Cross-pein Hammer",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "630",
             "requirements_en": "Brilliant Blacksmith's Component x90",
             "requirements_fr": "Brilliant Blacksmith's Component x90",
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3306"
-            ]
+            "cPrev": [34],
+            "cNext": [56],
+            "cSiblings": ["a.3306"]
         },
         "x56": {
             "name_en": "Vrandtic Visionary's Cross-pein Hammer",
             "name_fr": "Vrandtic Visionary's Cross-pein Hammer",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "635",
             "requirements_en": "Inspirational Blacksmith's Component x60",
             "requirements_fr": "Inspirational Blacksmith's Component x60",
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                67
-            ]
+            "cPrev": [45],
+            "cNext": [67]
         },
         "x67": {
             "name_en": "Lodestar Cross-pein Hammer",
             "name_fr": "Lodestar Cross-pein Hammer",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "640",
             "requirements_en": "Nightforged Blacksmith's Component x60",
             "requirements_fr": "Nightforged Blacksmith's Component x60",
-            "cPrev": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3363"
-            ]
+            "cPrev": [56],
+            "cSiblings": ["a.3363"]
         },
         "x2": {
             "name_en": "Splendorous Raising Hammer",
             "name_fr": "Marteau de batteur des merveilles",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                13
-            ]
+            "cNext": [13]
         },
         "x13": {
             "name_en": "Augmented Splendorous Raising Hammer",
             "name_fr": "Marteau de batteur des merveilles amélioré",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "590",
             "requirements_en": "Splendorous Armorer's Component x60",
             "requirements_fr": "Splendorous Armorer's Component x60",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                24
-            ]
+            "cPrev": [2],
+            "cNext": [24]
         },
         "x24": {
             "name_en": "Crystalline Raising Hammer",
             "name_fr": "Marteau de batteur cristallin",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "620",
             "requirements_en": "Adaptive Armorer's Component x90",
             "requirements_fr": "Adaptive Armorer's Component x90",
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                35
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3195"
-            ]
+            "cPrev": [13],
+            "cNext": [35],
+            "cSiblings": ["a.3195"]
         },
         "x35": {
             "name_en": "Chora-Zoi's Crystalline Raising Hammer",
             "name_fr": "Chora-Zoi's Crystalline Raising Hammer",
-            "job": "CLASS_JOB.ARM",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.ARM",
+            "iLevel": "625",
             "requirements_en": "Customized Armorer's Component x90",
             "requirements_fr": "Customized Armorer's Component x90",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                46
-            ]
+            "cPrev": [24],
+            "cNext": [46]
         },
         "x46": {
             "name_en": "Brilliant Raising Hammer",
             "name_fr": "Brilliant Raising Hammer",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "630",
             "requirements_en": "Brilliant Armorer's Component x90",
             "requirements_fr": "Brilliant Armorer's Component x90",
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                57
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3307"
-            ]
+            "cPrev": [35],
+            "cNext": [57],
+            "cSiblings": ["a.3307"]
         },
         "x57": {
             "name_en": "Vrandtic Visionary's Raising Hammer",
             "name_fr": "Vrandtic Visionary's Raising Hammer",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "635",
             "requirements_en": "Inspirational Armorer's Component x60",
             "requirements_fr": "Inspirational Armorer's Component x60",
-            "cPrev": [
-                46
-            ],
-            "cNext": [
-                68
-            ]
+            "cPrev": [46],
+            "cNext": [68]
         },
         "x68": {
             "name_en": "Lodestar Raising Hammer",
             "name_fr": "Lodestar Raising Hammer",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "640",
             "requirements_en": "Nightforged Armorer's Component x60",
             "requirements_fr": "Nightforged Armorer's Component x60",
-            "cPrev": [
-                57
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3364"
-            ]
+            "cPrev": [57],
+            "cSiblings": ["a.3364"]
         },
         "x3": {
             "name_en": "Splendorous Mallet",
             "name_fr": "Massette des merveilles",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                14
-            ]
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Augmented Splendorous Mallet",
             "name_fr": "Massette des merveilles améliorée",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "590",
             "requirements_en": "Splendorous Goldsmith's Component x60",
             "requirements_fr": "Splendorous Goldsmith's Component x60",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                25
-            ]
+            "cPrev": [3],
+            "cNext": [25]
         },
         "x25": {
             "name_en": "Crystalline Mallet",
             "name_fr": "Massette cristalline",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "620",
             "requirements_en": "Adaptive Goldsmith's Component x90",
             "requirements_fr": "Adaptive Goldsmith's Component x90",
-            "cPrev": [
-                14
-            ],
-            "cNext": [
-                36
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3196"
-            ]
+            "cPrev": [14],
+            "cNext": [36],
+            "cSiblings": ["a.3196"]
         },
         "x36": {
             "name_en": "Chora-Zoi's Crystalline Mallet",
             "name_fr": "Chora-Zoi's Crystalline Mallet",
-            "job": "CLASS_JOB.GSM",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.GSM",
+            "iLevel": "625",
             "requirements_en": "Customized Goldsmith's Component x90",
             "requirements_fr": "Customized Goldsmith's Component x90",
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                47
-            ]
+            "cPrev": [25],
+            "cNext": [47]
         },
         "x47": {
             "name_en": "Brilliant Mallet",
             "name_fr": "Brilliant Mallet",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "630",
             "requirements_en": "Brilliant Goldsmith's Component x90",
             "requirements_fr": "Brilliant Goldsmith's Component x90",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                58
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3308"
-            ]
+            "cPrev": [36],
+            "cNext": [58],
+            "cSiblings": ["a.3308"]
         },
         "x58": {
             "name_en": "Vrandtic Visionary's Mallet",
             "name_fr": "Vrandtic Visionary's Mallet",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "635",
             "requirements_en": "Inspirational Goldsmith's Component x60",
             "requirements_fr": "Inspirational Goldsmith's Component x60",
-            "cPrev": [
-                47
-            ],
-            "cNext": [
-                69
-            ]
+            "cPrev": [47],
+            "cNext": [69]
         },
         "x69": {
             "name_en": "Lodestar Mallet",
             "name_fr": "Lodestar Mallet",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "640",
             "requirements_en": "Nightforged Goldsmith's Component x60",
             "requirements_fr": "Nightforged Goldsmith's Component x60",
-            "cPrev": [
-                58
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3365"
-            ]
+            "cPrev": [58],
+            "cSiblings": ["a.3365"]
         },
         "x4": {
             "name_en": "Splendorous Knife",
             "name_fr": "Couteau des merveilles",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                15
-            ]
+            "cNext": [15]
         },
         "x15": {
             "name_en": "Augmented Splendorous Knife",
             "name_fr": "Couteau des merveilles amélioré",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "590",
             "requirements_en": "Splendorous Leatherworker's Component x60",
             "requirements_fr": "Splendorous Leatherworker's Component x60",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [4],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Crystalline Round Knife",
             "name_fr": "Couteau arrondi cristallin",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "620",
             "requirements_en": "Adaptive Leatherworker's Component x90",
             "requirements_fr": "Adaptive Leatherworker's Component x90",
-            "cPrev": [
-                15
-            ],
-            "cNext": [
-                37
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3197"
-            ]
+            "cPrev": [15],
+            "cNext": [37],
+            "cSiblings": ["a.3197"]
         },
         "x37": {
             "name_en": "Chora-Zoi's Crystalline Round Knife",
             "name_fr": "Chora-Zoi's Crystalline Round Knife",
-            "job": "CLASS_JOB.LTW",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.LTW",
+            "iLevel": "625",
             "requirements_en": "Customized Leatherworker's Component x90",
             "requirements_fr": "Customized Leatherworker's Component x90",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                48
-            ]
+            "cPrev": [26],
+            "cNext": [48]
         },
         "x48": {
             "name_en": "Brilliant Round Knife",
             "name_fr": "Brilliant Round Knife",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "630",
             "requirements_en": "Brilliant Leatherworker's Component x90",
             "requirements_fr": "Brilliant Leatherworker's Component x90",
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3309"
-            ]
+            "cPrev": [37],
+            "cNext": [59],
+            "cSiblings": ["a.3309"]
         },
         "x59": {
             "name_en": "Vrandtic Visionary's Round Knife",
             "name_fr": "Vrandtic Visionary's Round Knife",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "635",
             "requirements_en": "Inspirational Leatherworker's Component x60",
             "requirements_fr": "Inspirational Leatherworker's Component x60",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                70
-            ]
+            "cPrev": [48],
+            "cNext": [70]
         },
         "x70": {
             "name_en": "Lodestar Round Knife",
             "name_fr": "Lodestar Round Knife",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "640",
             "requirements_en": "Nightforged Leatherworker's Component x60",
             "requirements_fr": "Nightforged Leatherworker's Component x60",
-            "cPrev": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3366"
-            ]
+            "cPrev": [59],
+            "cSiblings": ["a.3366"]
         },
         "x5": {
             "name_en": "Splendorous Needle",
             "name_fr": "Aiguille des merveilles",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                16
-            ]
+            "cNext": [16]
         },
         "x16": {
             "name_en": "Augmented Splendorous Needle",
             "name_fr": "Aiguille des merveilles améliorée",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "590",
             "requirements_en": "Splendorous Weaver's Component x60",
             "requirements_fr": "Splendorous Weaver's Component x60",
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                27
-            ]
+            "cPrev": [5],
+            "cNext": [27]
         },
         "x27": {
             "name_en": "Crystalline Needle",
             "name_fr": "Aiguille cristalline",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "620",
             "requirements_en": "Adaptive Weaver's Component x90",
             "requirements_fr": "Adaptive Weaver's Component x90",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                38
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3198"
-            ]
+            "cPrev": [16],
+            "cNext": [38],
+            "cSiblings": ["a.3198"]
         },
         "x38": {
             "name_en": "Chora-Zoi's Crystalline Needle",
             "name_fr": "Chora-Zoi's Crystalline Needle",
-            "job": "CLASS_JOB.WVR",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.WVR",
+            "iLevel": "625",
             "requirements_en": "Customized Weaver's Component x90",
             "requirements_fr": "Customized Weaver's Component x90",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                49
-            ]
+            "cPrev": [27],
+            "cNext": [49]
         },
         "x49": {
             "name_en": "Brilliant Needle",
             "name_fr": "Brilliant Needle",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "630",
             "requirements_en": "Brilliant Weaver's Component x90",
             "requirements_fr": "Brilliant Weaver's Component x90",
-            "cPrev": [
-                38
-            ],
-            "cNext": [
-                60
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3310"
-            ]
+            "cPrev": [38],
+            "cNext": [60],
+            "cSiblings": ["a.3310"]
         },
         "x60": {
             "name_en": "Vrandtic Visionary's Needle",
             "name_fr": "Vrandtic Visionary's Needle",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "635",
             "requirements_en": "Inspirational Weaver's Component x60",
             "requirements_fr": "Inspirational Weaver's Component x60",
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                71
-            ]
+            "cPrev": [49],
+            "cNext": [71]
         },
         "x71": {
             "name_en": "Lodestar Needle",
             "name_fr": "Lodestar Needle",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "640",
             "requirements_en": "Nightforged Weaver's Component x60",
             "requirements_fr": "Nightforged Weaver's Component x60",
-            "cPrev": [
-                60
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3367"
-            ]
+            "cPrev": [60],
+            "cSiblings": ["a.3367"]
         },
         "x6": {
             "name_en": "Splendorous Alembic",
             "name_fr": "Alambic des merveilles",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                17
-            ]
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Augmented Splendorous Alembic",
             "name_fr": "Alambic des merveilles amélioré",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "590",
             "requirements_en": "Splendorous Alchemist's Component x60",
             "requirements_fr": "Splendorous Alchemist's Component x60",
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                28
-            ]
+            "cPrev": [6],
+            "cNext": [28]
         },
         "x28": {
             "name_en": "Crystalline Alembic",
             "name_fr": "Alambic cristallin",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "620",
             "requirements_en": "Adaptive Alchemist's Component x90",
             "requirements_fr": "Adaptive Alchemist's Component x90",
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                39
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3199"
-            ]
+            "cPrev": [17],
+            "cNext": [39],
+            "cSiblings": ["a.3199"]
         },
         "x39": {
             "name_en": "Chora-Zoi's Crystalline Alembic",
             "name_fr": "Chora-Zoi's Crystalline Alembic",
-            "job": "CLASS_JOB.ALC",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.ALC",
+            "iLevel": "625",
             "requirements_en": "Customized Alchemist's Component x90",
             "requirements_fr": "Customized Alchemist's Component x90",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                50
-            ]
+            "cPrev": [28],
+            "cNext": [50]
         },
         "x50": {
             "name_en": "Brilliant Alembic",
             "name_fr": "Brilliant Alembic",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "630",
             "requirements_en": "Brilliant Alchemist's Component x90",
             "requirements_fr": "Brilliant Alchemist's Component x90",
-            "cPrev": [
-                39
-            ],
-            "cNext": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3311"
-            ]
+            "cPrev": [39],
+            "cNext": [61],
+            "cSiblings": ["a.3311"]
         },
         "x61": {
             "name_en": "Vrandtic Visionary's Alembic",
             "name_fr": "Vrandtic Visionary's Alembic",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "635",
             "requirements_en": "Inspirational Alchemist's Component x60",
             "requirements_fr": "Inspirational Alchemist's Component x60",
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                72
-            ]
+            "cPrev": [50],
+            "cNext": [72]
         },
         "x72": {
             "name_en": "Lodestar Alembic",
             "name_fr": "Lodestar Alembic",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "640",
             "requirements_en": "Nightforged Alchemist's Component x60",
             "requirements_fr": "Nightforged Alchemist's Component x60",
-            "cPrev": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3368"
-            ]
+            "cPrev": [61],
+            "cSiblings": ["a.3368"]
         },
         "x7": {
             "name_en": "Splendorous Frypan",
             "name_fr": "Poêle à frire des merveilles",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                18
-            ]
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Augmented Splendorous Frypan",
             "name_fr": "Poêle à frire des merveilles améliorée",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "590",
             "requirements_en": "Splendorous Culinarian's Component x60",
             "requirements_fr": "Splendorous Culinarian's Component x60",
-            "cPrev": [
-                7
-            ],
-            "cNext": [
-                29
-            ]
+            "cPrev": [7],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Crystalline Frypan",
             "name_fr": "Poêle à frire cristalline",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "620",
             "requirements_en": "Adaptive Culinarian's Component x90",
             "requirements_fr": "Adaptive Culinarian's Component x90",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                40
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3200"
-            ]
+            "cPrev": [18],
+            "cNext": [40],
+            "cSiblings": ["a.3200"]
         },
         "x40": {
             "name_en": "Chora-Zoi's Crystalline Frypan",
             "name_fr": "Chora-Zoi's Crystalline Frypan",
-            "job": "CLASS_JOB.CUL",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.CUL",
+            "iLevel": "625",
             "requirements_en": "Customized Culinarian's Component x90",
             "requirements_fr": "Customized Culinarian's Component x90",
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                51
-            ]
+            "cPrev": [29],
+            "cNext": [51]
         },
         "x51": {
             "name_en": "Brilliant Frypan",
             "name_fr": "Brilliant Frypan",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "630",
             "requirements_en": "Brilliant Culinarian's Component x90",
             "requirements_fr": "Brilliant Culinarian's Component x90",
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3312"
-            ]
+            "cPrev": [40],
+            "cNext": [62],
+            "cSiblings": ["a.3312"]
         },
         "x62": {
             "name_en": "Vrandtic Visionary's Frypan",
             "name_fr": "Vrandtic Visionary's Frypan",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "635",
             "requirements_en": "Inspirational Culinarian's Component x60",
             "requirements_fr": "Inspirational Culinarian's Component x60",
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                73
-            ]
+            "cPrev": [51],
+            "cNext": [73]
         },
         "x73": {
             "name_en": "Lodestar Frypan",
             "name_fr": "Lodestar Frypan",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "640",
             "requirements_en": "Nightforged Culinarian's Component x60",
             "requirements_fr": "Nightforged Culinarian's Component x60",
-            "cPrev": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3369"
-            ]
+            "cPrev": [62],
+            "cSiblings": ["a.3369"]
         },
         "x8": {
             "name_en": "Splendorous Pickaxe",
             "name_fr": "Pioche des merveilles",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                19
-            ]
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Augmented Splendorous Pickaxe",
             "name_fr": "Pioche des merveilles améliorée",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "590",
             "requirements_en": "Splendorous Miner's Component x180",
             "requirements_fr": "Splendorous Miner's Component x180",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                30
-            ]
+            "cPrev": [8],
+            "cNext": [30]
         },
         "x30": {
             "name_en": "Crystalline Pickaxe",
             "name_fr": "Pioche cristalline",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "620",
             "requirements_en": "Adaptive Miner's Component x210",
             "requirements_fr": "Adaptive Miner's Component x210",
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                41
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3201"
-            ]
+            "cPrev": [19],
+            "cNext": [41],
+            "cSiblings": ["a.3201"]
         },
         "x41": {
             "name_en": "Chora-Zoi's Crystalline Pickaxe",
             "name_fr": "Chora-Zoi's Crystalline Pickaxe",
-            "job": "CLASS_JOB.MIN",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.MIN",
+            "iLevel": "625",
             "requirements_en": "Customized Miner's Component x210",
             "requirements_fr": "Customized Miner's Component x210",
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                52
-            ]
+            "cPrev": [30],
+            "cNext": [52]
         },
         "x52": {
             "name_en": "Brilliant Pickaxe",
             "name_fr": "Brilliant Pickaxe",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "630",
             "requirements_en": "Brilliant Miner's Component x210",
             "requirements_fr": "Brilliant Miner's Component x210",
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3313"
-            ]
+            "cPrev": [41],
+            "cNext": [63],
+            "cSiblings": ["a.3313"]
         },
         "x63": {
             "name_en": "Vrandtic Visionary's Pickaxe",
             "name_fr": "Vrandtic Visionary's Pickaxe",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "635",
             "requirements_en": "Inspirational Miner's Component x220",
             "requirements_fr": "Inspirational Miner's Component x220",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [52],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Lodestar Pickaxe",
             "name_fr": "Lodestar Pickaxe",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "640",
             "requirements_en": "Nightforged Miner's Component x220",
             "requirements_fr": "Nightforged Miner's Component x220",
-            "cPrev": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3370"
-            ]
+            "cPrev": [63],
+            "cSiblings": ["a.3370"]
         },
         "x9": {
             "name_en": "Splendorous Hatchet",
             "name_fr": "Hachette des merveilles",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                20
-            ]
+            "cNext": [20]
         },
         "x20": {
             "name_en": "Augmented Splendorous Hatchet",
             "name_fr": "Hachette des merveilles améliorée",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "590",
             "requirements_en": "Splendorous Botanist's Component x180",
             "requirements_fr": "Splendorous Botanist's Component x180",
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                31
-            ]
+            "cPrev": [9],
+            "cNext": [31]
         },
         "x31": {
             "name_en": "Crystalline Hatchet",
             "name_fr": "Hachette cristalline",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "620",
             "requirements_en": "Adaptive Botanist's Component x210",
             "requirements_fr": "Adaptive Botanist's Component x210",
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                42
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3202"
-            ]
+            "cPrev": [20],
+            "cNext": [42],
+            "cSiblings": ["a.3202"]
         },
         "x42": {
             "name_en": "Chora-Zoi's Crystalline Hatchet",
             "name_fr": "Chora-Zoi's Crystalline Hatchet",
-            "job": "CLASS_JOB.BTN",
-            "iLevel": "325",
+            "job": "@CLASS_JOB.BTN",
+            "iLevel": "625",
             "requirements_en": "Customized Botanist's Component x210",
             "requirements_fr": "Customized Botanist's Component x210",
-            "cPrev": [
-                31
-            ],
-            "cNext": [
-                53
-            ]
+            "cPrev": [31],
+            "cNext": [53]
         },
         "x53": {
             "name_en": "Brilliant Hatchet",
             "name_fr": "Brilliant Hatchet",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "630",
             "requirements_en": "Brilliant Botanist's Component x210",
             "requirements_fr": "Brilliant Botanist's Component x210",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                64
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3314"
-            ]
+            "cPrev": [42],
+            "cNext": [64],
+            "cSiblings": ["a.3314"]
         },
         "x64": {
             "name_en": "Vrandtic Visionary's Hatchet",
             "name_fr": "Vrandtic Visionary's Hatchet",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "635",
             "requirements_en": "Inspirational Botanist's Component x220",
             "requirements_fr": "Inspirational Botanist's Component x220",
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                75
-            ]
+            "cPrev": [53],
+            "cNext": [75]
         },
         "x75": {
             "name_en": "Lodestar Hatchet",
             "name_fr": "Lodestar Hatchet",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "640",
             "requirements_en": "Nightforged Botanist's Component x220",
             "requirements_fr": "Nightforged Botanist's Component x220",
-            "cPrev": [
-                64
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3371"
-            ]
+            "cPrev": [64],
+            "cSiblings": ["a.3371"]
         },
         "x10": {
             "name_en": "Splendorous Fishing Rod",
             "name_fr": "Canne à pêche des merveilles",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                21
-            ]
+            "cNext": [21]
         },
         "x21": {
             "name_en": "Augmented Splendorous Fishing Rod",
             "name_fr": "Canne à pêche des merveilles améliorée",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "590",
-            "requirements_en": [
-                "Splendorous Fishing Rod Component x60",
-                "Splendorous Fishing Reel Component x60"
-            ],
-            "requirements_fr": [
-                "Splendorous Fishing Rod Component x60",
-                "Splendorous Fishing Reel Component x60"
-            ],
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                32
-            ]
+            "requirements_en": ["Splendorous Fishing Rod Component x60", "Splendorous Fishing Reel Component x60"],
+            "requirements_fr": ["Splendorous Fishing Rod Component x60", "Splendorous Fishing Reel Component x60"],
+            "cPrev": [10],
+            "cNext": [32]
         },
         "x32": {
             "name_en": "Crystalline Fishing Rod",
             "name_fr": "Canne à pêche cristalline",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "620",
-            "requirements_en": [
-                "Adaptive Fishing Rod Component x80",
-                "Adaptive Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Adaptive Fishing Rod Component x80",
-                "Adaptive Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                43
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3203"
-            ]
+            "requirements_en": ["Adaptive Fishing Rod Component x80", "Adaptive Fishing Reel Component x80"],
+            "requirements_fr": ["Adaptive Fishing Rod Component x80", "Adaptive Fishing Reel Component x80"],
+            "cPrev": [21],
+            "cNext": [43],
+            "cSiblings": ["a.3203"]
         },
         "x43": {
             "name_en": "Chora-Zoi's Crystalline Fishing Rod",
             "name_fr": "Chora-Zoi's Crystalline Fishing Rod",
-            "job": "CLASS_JOB.FSH",
-            "iLevel": "325",
-            "requirements_en": [
-                "Customized Fishing Rod Component x80",
-                "Customized Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Customized Fishing Rod Component x80",
-                "Customized Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                54
-            ]
+            "job": "@CLASS_JOB.FSH",
+            "iLevel": "625",
+            "requirements_en": ["Customized Fishing Rod Component x80", "Customized Fishing Reel Component x80"],
+            "requirements_fr": ["Customized Fishing Rod Component x80", "Customized Fishing Reel Component x80"],
+            "cPrev": [32],
+            "cNext": [54]
         },
         "x54": {
             "name_en": "Brilliant Fishing Rod",
             "name_fr": "Brilliant Fishing Rod",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "630",
-            "requirements_en": [
-                "Brilliant Fishing Rod Component x80",
-                "Brilliant Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Brilliant Fishing Rod Component x80",
-                "Brilliant Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                65
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3315"
-            ]
+            "requirements_en": ["Brilliant Fishing Rod Component x80", "Brilliant Fishing Reel Component x80"],
+            "requirements_fr": ["Brilliant Fishing Rod Component x80", "Brilliant Fishing Reel Component x80"],
+            "cPrev": [43],
+            "cNext": [65],
+            "cSiblings": ["a.3315"]
         },
         "x65": {
             "name_en": "Vrandtic Visionary's Fishing Rod",
             "name_fr": "Vrandtic Visionary's Fishing Rod",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "635",
             "requirements_en": "Inspirational Fisher's Component x170",
             "requirements_fr": "Inspirational Fisher's Component x170",
-            "cPrev": [
-                54
-            ],
-            "cNext": [
-                76
-            ]
+            "cPrev": [54],
+            "cNext": [76]
         },
         "x76": {
             "name_en": "Lodestar Fishing Rod",
             "name_fr": "Lodestar Fishing Rod",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "640",
             "requirements_en": "Nightforged Fisher's Rod Component x170",
             "requirements_fr": "Nightforged Fisher's Rod Component x170",
-            "cPrev": [
-                65
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3372"
-            ]
+            "cPrev": [65],
+            "cSiblings": ["a.3372"]
         }
     }
 }

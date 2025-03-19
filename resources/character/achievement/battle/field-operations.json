@@ -8,15 +8,11 @@
             "name_fr": "Réunion d'anciens élèves I",
             "description_en": "Clear the Baldesion Arsenal.",
             "description_fr": "Finir l'Arsenal de Baldesion.",
-            "reward": "character.mount-guide.44",
+            "reward": "mo.186",
             "patch": "4.55",
             "points": 5,
-            "cNext": [
-                2228
-            ],
-            "cSiblings": [
-                "duty.exploratory-missions.the-forbidden-land-eureka.duties.0"
-            ]
+            "cNext": ["a.2228"],
+            "cSiblings": ["duty.exploratory-missions.eureka.duties.0"]
         },
         "x2228": {
             "name_en": "We're on Your Side II",
@@ -25,12 +21,8 @@
             "description_fr": "Finir l'Arsenal de Baldesion 5 fois.",
             "patch": "4.55",
             "points": 5,
-            "cPrev": [
-                2227
-            ],
-            "cNext": [
-                2229
-            ]
+            "cPrev": ["a.2227"],
+            "cNext": ["a.2229"]
         },
         "x2229": {
             "name_en": "We're on Your Side III",
@@ -39,9 +31,7 @@
             "description_fr": "Finir l'Arsenal de Baldesion 10 fois.",
             "patch": "4.55",
             "points": 5,
-            "cPrev": [
-                2228
-            ]
+            "cPrev": ["a.2228"]
         },
         "x2676": {
             "name_en": "No Man's Land I",
@@ -50,9 +40,7 @@
             "description_fr": "Remporter 10 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [
-                2677
-            ]
+            "cNext": ["a.2677"]
         },
         "x2677": {
             "name_en": "No Man's Land II",
@@ -61,12 +49,8 @@
             "description_fr": "Remporter 50 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [
-                2676
-            ],
-            "cNext": [
-                2678
-            ]
+            "cPrev": ["a.2676"],
+            "cNext": ["a.2678"]
         },
         "x2678": {
             "name_en": "No Man's Land III",
@@ -75,27 +59,19 @@
             "description_fr": "Remporter 100 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [
-                2677
-            ],
-            "cNext": [
-                2679
-            ]
+            "cPrev": ["a.2677"],
+            "cNext": ["a.2679"]
         },
         "x2679": {
             "name_en": "No Man's Land IV",
             "name_fr": "Prendre la mouche IV",
             "description_en": "Successfully complete 500 skirmishes in Bozja.",
             "description_fr": "Remporter 500 escarmouches sur le front bozjien.",
-            "reward": "character.character.title.540",
+            "reward": "t.540",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2678
-            ],
-            "cSiblings": [
-                "character.character.title.540"
-            ]
+            "cPrev": ["a.2678"],
+            "cSiblings": ["t.540"]
         },
         "x2672": {
             "name_en": "Critical Role I",
@@ -104,9 +80,7 @@
             "description_fr": "Remporter 10 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cNext": [
-                2673
-            ]
+            "cNext": ["a.2673"]
         },
         "x2673": {
             "name_en": "Critical Role II",
@@ -115,12 +89,8 @@
             "description_fr": "Remporter 50 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2672
-            ],
-            "cNext": [
-                2674
-            ]
+            "cPrev": ["a.2672"],
+            "cNext": ["a.2674"]
         },
         "x2674": {
             "name_en": "Critical Role III",
@@ -129,95 +99,64 @@
             "description_fr": "Remporter 100 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2673
-            ],
-            "cNext": [
-                2675
-            ]
+            "cPrev": ["a.2673"],
+            "cNext": ["a.2675"]
         },
         "x2675": {
             "name_en": "Critical Role IV",
             "name_fr": "Rôle crucial IV",
             "description_en": "Complete 500 critical engagements in Bozja.",
             "description_fr": "Remporter 500 affrontements cruciaux sur le front bozjien.",
-            "reward": "character.character.title.539",
+            "reward": "t.539",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [
-                2674
-            ],
-            "cSiblings": [
-                "character.character.title.539"
-            ]
+            "cPrev": ["a.2674"],
+            "cSiblings": ["t.539"]
         },
         "x2683": {
             "name_en": "Missing an Angel",
             "name_fr": "Battons-nous en duel, Gabriel !",
             "description_en": "Defeat Gabriel in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Gabriel sur le Front sud de Bozja.",
-            "reward": "character.character.title.542",
+            "reward": "t.542",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.45",
-                "character.character.title.542"
-            ],
-            "cCombo": [
-                2686
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.45", "t.542"],
+            "cCombo": ["a.2686"]
         },
         "x2684": {
             "name_en": "Lyon's Share",
             "name_fr": "Battons-nous en duel, Lyon !",
             "description_en": "Defeat Lyon the Beast King in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Lyon le Roi bestial sur le Front sud de Bozja.",
-            "reward": "character.character.title.543",
+            "reward": "t.543",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.47",
-                "character.character.title.543"
-            ],
-            "cCombo": [
-                2686
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.47", "t.543"],
+            "cCombo": ["a.2686"]
         },
         "x2685": {
             "name_en": "Burn Baby Burn",
             "name_fr": "Battons-nous en duel, Sartauvoir !",
             "description_en": "Defeat Sartauvoir quo Soranus in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Sartauvoir quo Soranus sur le Front sud de Bozja.",
-            "reward": "character.character.title.544",
+            "reward": "t.544",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.46",
-                "character.character.title.544"
-            ],
-            "cCombo": [
-                2686
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.46", "t.544"],
+            "cCombo": ["a.2686"]
         },
         "x2686": {
             "name_en": "Close Encounters",
             "name_fr": "Duelliste d'élite",
             "description_en": "Obtain the achievements “Missing an Angel,” “Lyon's Share,” and “Burn Baby Burn.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Battons-nous en duel”.",
-            "reward": "character.character.title.545",
+            "reward": "t.545",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [
-                2683,
-                2684,
-                2685
-            ],
-            "cSiblings": [
-                "character.character.title.545"
-            ],
-            "cCombo": [
-                2881
-            ]
+            "cPrev": ["a.2683", "a.2684", "a.2685"],
+            "cSiblings": ["t.545"],
+            "cCombo": ["a.2881"]
         },
         "x2680": {
             "name_en": "Operation: Eagle's Nest I",
@@ -226,12 +165,8 @@
             "description_fr": "Prendre Castrum Lacus Litore sur le Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cNext": [
-                2681
-            ],
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.duties.0"
-            ]
+            "cNext": ["a.2681"],
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.0"]
         },
         "x2681": {
             "name_en": "Operation: Eagle's Nest II",
@@ -240,27 +175,19 @@
             "description_fr": "Prendre 10 fois Castrum Lacus Litore sur le Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2680
-            ],
-            "cNext": [
-                2682
-            ]
+            "cPrev": ["a.2680"],
+            "cNext": ["a.2682"]
         },
         "x2682": {
             "name_en": "Operation: Eagle's Nest III",
             "name_fr": "Entrer par la grande porte III",
             "description_en": "Clear Castrum Lacus Litore 50 times.",
             "description_fr": "Prendre 50 fois Castrum Lacus Litore sur le Front sud de Bozja.",
-            "reward": "character.character.title.541",
+            "reward": "t.541",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [
-                2681
-            ],
-            "cSiblings": [
-                "character.character.title.541"
-            ]
+            "cPrev": ["a.2681"],
+            "cSiblings": ["t.541"]
         },
         "x2687": {
             "name_en": "Lost and Found I",
@@ -269,9 +196,7 @@
             "description_fr": "Faire expertiser 10 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [
-                2688
-            ]
+            "cNext": ["a.2688"]
         },
         "x2688": {
             "name_en": "Lost and Found II",
@@ -280,12 +205,8 @@
             "description_fr": "Faire expertiser 100 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [
-                2687
-            ],
-            "cNext": [
-                2689
-            ]
+            "cPrev": ["a.2687"],
+            "cNext": ["a.2689"]
         },
         "x2689": {
             "name_en": "Lost and Found III",
@@ -294,12 +215,8 @@
             "description_fr": "Faire expertiser 500 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [
-                2688
-            ],
-            "cNext": [
-                2690
-            ]
+            "cPrev": ["a.2688"],
+            "cNext": ["a.2690"]
         },
         "x2690": {
             "name_en": "Lost and Found IV",
@@ -310,9 +227,7 @@
             "reward_fr": "Boucle d'oreille bozjienne",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2689
-            ]
+            "cPrev": ["a.2689"]
         },
         "x2691": {
             "name_en": "No Need for Triage I",
@@ -321,9 +236,7 @@
             "description_fr": "Ressusciter 10 fois un autre joueur en Bozja.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [
-                2692
-            ]
+            "cNext": ["a.2692"]
         },
         "x2692": {
             "name_en": "No Need for Triage II",
@@ -332,27 +245,19 @@
             "description_fr": "Ressusciter 100 fois un autre joueur en Bozja.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [
-                2691
-            ],
-            "cNext": [
-                2693
-            ]
+            "cPrev": ["a.2691"],
+            "cNext": ["a.2693"]
         },
         "x2693": {
             "name_en": "No Need for Triage III",
             "name_fr": "Bon Samaritain de Bozja III",
             "description_en": "Resurrect another player in a Save the Queen area 500 times.",
             "description_fr": "Ressusciter 500 fois un autre joueur en Bozja.",
-            "reward": "character.character.title.546",
+            "reward": "t.546",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                2692
-            ],
-            "cSiblings": [
-                "character.character.title.546"
-            ]
+            "cPrev": ["a.2692"],
+            "cSiblings": ["t.546"]
         },
         "x2762": {
             "name_en": "Queen of Swords I",
@@ -361,12 +266,8 @@
             "description_fr": "Finir Delubrum Reginae.",
             "patch": "5.45",
             "points": 5,
-            "cNext": [
-                2763
-            ],
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.duties.1"
-            ]
+            "cNext": ["a.2763"],
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.1"]
         },
         "x2763": {
             "name_en": "Queen of Swords II",
@@ -375,12 +276,8 @@
             "description_fr": "Finir Delubrum Reginae 10 fois.",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [
-                2762
-            ],
-            "cNext": [
-                2764
-            ]
+            "cPrev": ["a.2762"],
+            "cNext": ["a.2764"]
         },
         "x2764": {
             "name_en": "Queen of Swords III",
@@ -389,42 +286,30 @@
             "description_fr": "Finir Delubrum Reginae 50 fois.",
             "patch": "5.45",
             "points": 20,
-            "cPrev": [
-                2763
-            ]
+            "cPrev": ["a.2763"]
         },
         "x2765": {
             "name_en": "Savage Queen of Swords I",
             "name_fr": "Qu'une bouchée de la Reine I",
             "description_en": "Clear Delubrum Reginae (Savage).",
             "description_fr": "Finir Delubrum Reginae (sadique).",
-            "reward": "character.mount-guide.31",
+            "reward": "mo.235",
             "patch": "5.45",
             "points": 5,
-            "cNext": [
-                2766
-            ],
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.duties.2"
-            ]
+            "cNext": ["a.2766"],
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.2"]
         },
         "x2766": {
             "name_en": "Savage Queen of Swords II",
             "name_fr": "Qu'une bouchée de la Reine II",
             "description_en": "Clear Delubrum Reginae (Savage) 5 times.",
             "description_fr": "Finir Delubrum Reginae (sadique) 5 fois.",
-            "reward": "character.character.title.564",
+            "reward": "t.564",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [
-                2765
-            ],
-            "cNext": [
-                2767
-            ],
-            "cSiblings": [
-                "character.character.title.564"
-            ]
+            "cPrev": ["a.2765"],
+            "cNext": ["a.2767"],
+            "cSiblings": ["t.564"]
         },
         "x2767": {
             "name_en": "Savage Queen of Swords III",
@@ -433,93 +318,63 @@
             "description_fr": "Finir Delubrum Reginae (sadique) 10 fois.",
             "patch": "5.45",
             "points": 20,
-            "cPrev": [
-                2766
-            ]
+            "cPrev": ["a.2766"]
         },
         "x2877": {
             "name_en": "Test Complete",
             "name_fr": "Battons-nous en duel, Dabog !",
             "description_en": "Defeat Hypertuned Dabog in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Dabog sur les Hauts plateaux de Zadnor.",
-            "reward": "character.character.title.586",
+            "reward": "t.586",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.82",
-                "character.character.title.586"
-            ],
-            "cCombo": [
-                2880
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.82", "t.586"],
+            "cCombo": ["a.2880"]
         },
         "x2878": {
             "name_en": "Might Makes Right",
             "name_fr": "Battons-nous en duel, Menenius !",
             "description_en": "Defeat Menenius sas Lanatus in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Menenius sur les Hauts plateaux de Zadnor.",
-            "reward": "character.character.title.587",
+            "reward": "t.587",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.63",
-                "character.character.title.587"
-            ],
-            "cCombo": [
-                2880
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.63", "t.587"],
+            "cCombo": ["a.2880"]
         },
         "x2879": {
             "name_en": "Untamed",
             "name_fr": "Battons-nous en duel, Roi bestial !",
             "description_en": "Defeat Lyon the Beast King in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Lyon sur les Hauts plateaux de Zadnor.",
-            "reward": "character.character.title.588",
+            "reward": "t.588",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.events.78",
-                "character.character.title.588"
-            ],
-            "cCombo": [
-                2880
-            ]
+            "cSiblings": ["duty.exploratory-missions.bozja.events.78", "t.588"],
+            "cCombo": ["a.2880"]
         },
         "x2880": {
             "name_en": "Close Encounters of the Zadnoran Kind",
             "name_fr": "Duelliste d'élite de Zadnor",
             "description_en": "Obtain the achievements “Test Complete,” “Might Makes Right,” and “Untamed.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Battons-nous en duel” sur les Hauts plateaux de Zadnor.",
-            "reward": "character.character.title.589",
+            "reward": "t.589",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [
-                2877,
-                2878,
-                2879
-            ],
-            "cSiblings": [
-                "character.character.title.589"
-            ],
-            "cCombo": [
-                2881
-            ]
+            "cPrev": ["a.2877", "a.2878", "a.2879"],
+            "cSiblings": ["t.589"],
+            "cCombo": ["a.2881"]
         },
         "x2881": {
             "name_en": "Sharper than Blades",
             "name_fr": "Lame de Gunnhildr",
             "description_en": "Obtain the achievements “Close Encounters” and “Close Encounters of the Zadnoran Kind.”",
             "description_fr": "Accomplir les hauts faits “Duelliste d'élite” et “Duelliste d'élite de Zadnor”.",
-            "reward": "character.character.title.590",
+            "reward": "t.590",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [
-                2686,
-                2880
-            ],
-            "cSiblings": [
-                "character.character.title.590"
-            ]
+            "cPrev": ["a.2686", "a.2880"],
+            "cSiblings": ["t.590"]
         },
         "x2874": {
             "name_en": "Hell to Pay I",
@@ -528,12 +383,8 @@
             "description_fr": "Prendre le Dalriada sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cNext": [
-                2875
-            ],
-            "cSiblings": [
-                "duty.exploratory-missions.the-bozjan-southern-front.duties.3"
-            ]
+            "cNext": ["a.2875"],
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.3"]
         },
         "x2875": {
             "name_en": "Hell to Pay II",
@@ -542,46 +393,36 @@
             "description_fr": "Prendre 10 fois le Dalriada sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": [
-                2874
-            ],
-            "cNext": [
-                2876
-            ]
+            "cPrev": ["a.2874"],
+            "cNext": ["a.2876"]
         },
         "x2876": {
             "name_en": "Hell to Pay III",
             "name_fr": "Touché coulé III",
             "description_en": "Clear the Dalriada in Zadnor 50 times.",
             "description_fr": "Prendre 50 fois le Dalriada sur les Hauts plateaux de Zadnor.",
-            "reward": "character.character.title.585",
+            "reward": "t.585",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [
-                2875
-            ],
-            "cSiblings": [
-                "character.character.title.585"
-            ]
+            "cPrev": ["a.2875"],
+            "cSiblings": ["t.585"]
         },
         "x2882": {
             "name_en": "Suns of Bozja",
             "name_fr": "La Comète de Bozja",
             "description_en": "Earn 10 Suns of Fortitude, 10 Suns of Valor, and 10 Suns of Succor.",
             "description_fr": "Obtenir 10 médailles de la résistance de chaque type (Comète de l'égide, Comète de la furie, Comète du salut).",
-            "reward": "character.character.title.591",
+            "reward": "t.591",
             "patch": "5.55",
             "points": 10,
             "cPrevAt": {
                 "10": [
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.0",
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.1",
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.2"
+                    "duty.exploratory-missions.bozja.resistance-honors.0",
+                    "duty.exploratory-missions.bozja.resistance-honors.1",
+                    "duty.exploratory-missions.bozja.resistance-honors.2"
                 ]
             },
-            "cSiblings": [
-                "character.character.title.591"
-            ]
+            "cSiblings": ["t.591"]
         },
         "x2883": {
             "name_en": "Never Forgotten",
@@ -590,9 +431,7 @@
             "description_fr": "Débloquer les 99 actions oubliées.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": [
-                "duty.exploratory-missions.the-bozjan-southern-front.lost-actions.all"
-            ]
+            "cPrev": ["duty.exploratory-missions.bozja.lost-actions.all"]
         }
     }
 }

@@ -2,22 +2,20 @@
     "key": "portable-archive",
     "groupName_en": "Portable Archive",
     "groupName_fr": "Enregistreur de données",
+    "order": ["the-copied-factory", "the-puppets-bunker", "konoggs-messages"],
     "headers": {
         "name": {
             "header_en": "Entry",
             "header_fr": "Entrée"
         },
         "location": {
-            "header_en": "Location",
-            "header_fr": "Lieux"
+            "header": "@HEADER.LOCATION"
         },
         "coordinates": {
-            "header_en": "Coordinates",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.COORDINATES"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

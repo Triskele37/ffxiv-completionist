@@ -1,0 +1,69 @@
+{
+    "key": "pictomancer-quests",
+    "groupName_en": "Pictomancer Quests",
+    "groupName_fr": "Quêtes de pictomancien",
+    "tasks": {
+        "x70390": {
+            "cSiblings": ["ap.704"],
+            "cNext": ["q.70391"],
+            "level": 80,
+            "name_en": "The Joy of Pictomancy",
+            "name_fr": "Entretien d'ébauche",
+            "npc_en": "Cheerless Hearer",
+            "npc_fr": "Mage Embêté",
+            "patch": "7.0",
+            "unlock": "ap.704"
+        },
+        "x70391": {
+            "cNext": ["q.70392"],
+            "cPrev": ["q.70390"],
+            "level": 80,
+            "name_en": "Mind over Manor",
+            "name_fr": "Tapage nocturne",
+            "npc_en": "Kupopo",
+            "npc_fr": "Kupopo",
+            "patch": "7.0"
+        },
+        "x70392": {
+            "cNext": ["q.70393"],
+            "cPrev": ["q.70391"],
+            "level": 83,
+            "name_en": "Perspectives in Pursuit",
+            "name_fr": "Couleurs froides",
+            "npc_en": "Kupopo",
+            "npc_fr": "Kupopo",
+            "patch": "7.0"
+        },
+        "x70393": {
+            "cNext": ["q.70394"],
+            "cPrev": ["q.70392"],
+            "level": 85,
+            "name_en": "The Crate Beyond",
+            "name_fr": "Peinture à l'eau",
+            "npc_en": "Kupopo",
+            "npc_fr": "Kupopo",
+            "patch": "7.0"
+        },
+        "x70394": {
+            "cNext": ["q.70395"],
+            "cPrev": ["q.70393"],
+            "level": 88,
+            "name_en": "Beruru's Clues",
+            "name_fr": "Le mystère de la chambre mortuaire",
+            "npc_en": "Kupopo",
+            "npc_fr": "Kupopo",
+            "patch": "7.0"
+        },
+        "x70395": {
+            "cSiblings": ["a.3498", "ap.706"],
+            "cPrev": ["q.70394"],
+            "level": 90,
+            "name_en": "Somewhere Only She Knows",
+            "name_fr": "L'œuvre de la maturité",
+            "npc_en": "Kupopo",
+            "npc_fr": "Kupopo",
+            "patch": "7.0",
+            "unlock": "ap.706"
+        }
+    }
+}

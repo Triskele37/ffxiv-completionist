@@ -67,9 +67,15 @@
 
 <!-- Content Link -->
 <ng-template #linkTemplate let-link>
-    <ng-container
-        *ngTemplateOutlet="link.type === 'Group' ? groupLink : taskLink"
-    ></ng-container>
+    <span class="link-item">
+        <span *ngIf="link.pre">{{link.pre}}</span>
+
+        <ng-container
+            *ngTemplateOutlet="link.type === 'Group' ? groupLink : taskLink"
+        ></ng-container>
+
+        <span *ngIf="link.post">{{link.post}}</span>
+    </span>
 
     <ng-template #groupLink>
         <xiv-content-link
