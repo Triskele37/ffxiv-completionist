@@ -54,4 +54,9 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                   name: FFXIV-Completionist-${{ matrix.os }}-${{ matrix.arch }}
-                  path: release/
+                  path: |
+                      release/*.exe
+                      release/*.dmg
+                      release/*.AppImage
+                      release/latest.yml
+                      release/*.blockmap
