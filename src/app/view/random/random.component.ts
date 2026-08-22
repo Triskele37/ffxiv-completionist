@@ -7,9 +7,9 @@ import { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
 import { Completion } from '@constant';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { getGroupPath } from '@model/DataGroup/getGroupPath';
 // import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { Task } from '@model/Task';
 

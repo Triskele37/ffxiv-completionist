@@ -5,11 +5,11 @@ import { MenuItem } from 'primeng/api';
 import { ButtonDirective } from 'primeng/button';
 import { TieredMenu } from 'primeng/tieredmenu';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
 import { TaskTableComponent } from '@component/task-table/task-table.component';
 import { DataGroup } from '@model/DataGroup';
-import { createDummyGroup } from '@model/DataGroup/createDataGroup/createDummyGroup';
+import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { Task } from '@model/Task';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 

@@ -12,7 +12,7 @@ import { CompleteCellComponent } from '@component/task-table/cell/complete/compl
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SearchService } from '@service/search/search.service';
 import { Match } from '@service/search/SearchTypes';
-import { ExpandedRows } from '@service/table/rowGroup/types';
+import { ExpandedRows } from '@service/table/rowGroup/_types';
 
 @Component({
     selector: 'com-task-search-results',

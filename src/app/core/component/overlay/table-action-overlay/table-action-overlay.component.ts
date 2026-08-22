@@ -3,9 +3,9 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
 import { AddTaskDialogComponent } from '@admin/add-task-dialog/add-task-dialog.component';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { getChild } from '@model/util/getChild';
+import { getChild } from '@service/data/get/getChild';
 import { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';

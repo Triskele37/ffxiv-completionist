@@ -3,7 +3,7 @@ import { untracked } from '@angular/core';
 import { Column } from '@model/Column';
 
 import { TableServiceContext } from '../types';
-import { Filter } from './types';
+import { Filter } from './_types';
 
 /**
  * Handler for modifying a column's filter

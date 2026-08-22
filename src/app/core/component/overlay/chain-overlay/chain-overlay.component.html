@@ -129,11 +129,11 @@
                     </div>
 
                     <!-- Chain History -->
-                    @let history = svcChain.history();
+                    @let history = svcChain.history.history();
                     @let lastChain = history[history.length - 1];
 
                     <p-divider>
-                        {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{history.length}}/{{svcChain.historyLimit}}
+                        {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{history.length}}/{{svcChain.history.historyLimit}}
                         @if(lastChain) {
                             ({{lastChain.chainStart.task.name}} {{'APP.CHAIN_OVERLAY.HISTORY_NOTE' | translate}})
                         }

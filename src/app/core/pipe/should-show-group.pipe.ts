@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
-import { isHiddenGroup } from '@model/DataGroup/ui/isHiddenGroup';
+import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 /**

@@ -3,7 +3,6 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
-import { Globals } from '@constant/Global';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
@@ -28,15 +27,10 @@ export class ConfigStoreService extends Store<ConfigStore> {
     ) {
         super(translate, primeMessage, svcElectron);
         this.load();
-
-        Globals.config = this.data;
     }
 
     set(key: string, value: any): void {
         super.set(key, value);
-
-        Globals.config = this.data; // necessary?
-
         this.emitNavSettingUpdated(key);
     }
 

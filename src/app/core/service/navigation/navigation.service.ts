@@ -1,6 +1,6 @@
 import { Injectable, signal } from '@angular/core';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';

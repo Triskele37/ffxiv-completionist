@@ -1,4 +1,4 @@
-import { getLinkedName } from '@model/Task/get/getLinkedName';
+import { getLinkedName } from '@service/data/get/getLinkedName';
 
 /**
  @param valueA - value to match or see if contains B
@@ -23,32 +23,4 @@ export function fuzzyMatchValue(
     if(fuzzyA === fuzzyB) return true;
 
     return partial && fuzzyA.includes(fuzzyB);
-}
-
-/**
- @param objA - object to match
- @param keyA - key in objA to match or see if contains B
- @param valueB - value being matched
- @param partial - whether to consider partial matches where A contains B
- @param isLink - whether the value of objA[keyA] is expected to be a data path link
- * */
-export function fuzzyMatchObject(
-    objA: any | any[],
-    keyA: number | string,
-    valueB: number | string,
-    partial: boolean,
-    isLink: boolean = false
-): boolean {
-    if(Array.isArray(objA[keyA])) {
-        return objA[keyA].some((pathOrValue) => isMatch(pathOrValue));
-    }
-    else {
-        return isMatch(objA[keyA]);
-    }
-
-    function isMatch(linkedNameValue: number | string): boolean {
-        const valueA = getLinkedName(linkedNameValue, isLink);
-        const searchString = valueA + objA[keyA]; // Tack on any non-link text
-        return fuzzyMatchValue(searchString, valueB, partial);
-    }
 }

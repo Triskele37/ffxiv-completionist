@@ -6,7 +6,7 @@ import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
@@ -59,11 +59,11 @@ export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestr
 
     //#region------------------------------------------------------- Life-cycle
     ngOnChanges(changes: SimpleChanges): void {
-        this.svcChain.setHistoryDisabled(!!changes.disableUndo.currentValue);
+        this.svcChain.history.setHistoryDisabled(!!changes.disableUndo.currentValue);
     }
 
     ngOnDestroy(): void {
-        this.svcChain.setHistoryDisabled(false);
+        this.svcChain.history.setHistoryDisabled(false);
     }
 
     //#endregion
@@ -95,8 +95,8 @@ export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestr
         this.undoVerified.set(false);
 
         // Fire undo and apply changes to save
-        this.svcChain.undoCurrentChain();
-        this.svcData.applyDataToStore();
+        this.svcChain.history.undoCurrentChain();
+        this.svcData.apply.dataToStore();
 
         // Make sure the overlay doesn't stick open
         if(!this.isOverlayLocked()) this.hide();

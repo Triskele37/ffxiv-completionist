@@ -1,4 +1,3 @@
-import { getLinkedName } from '@model/Task/get/getLinkedName';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
 import { TableServiceContext, UniqueValues } from '../types';
@@ -19,7 +18,7 @@ export function getUniqueValues(
         // Grab unique values
         this.tasks()?.forEach((task) => {
             [].concat(task[key]).forEach((v) => {
-                const value = getLinkedName(v, column.link ?? false)?.toString() ?? '';
+                const value = this.svcData.get.getLinkedName(v, column.link ?? false)?.toString() ?? '';
                 if(!unique[key].includes(value)) unique[key].push(value);
             });
         });

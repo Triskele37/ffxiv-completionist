@@ -1,0 +1,37 @@
+import { TranslateService } from '@ngx-translate/core';
+import { AsyncSubject } from 'rxjs';
+
+import { DataGroup } from '@model/DataGroup';
+import { ElectronService } from '@service/electron/electron.service';
+import { ConfigStoreService } from '@service/store/config-store.service';
+import { MarkService } from '@service/mark/mark.service';
+import { SaveStoreService } from '@service/store/save-store.service';
+
+import type { DataApplyFacet } from './apply/_data.apply';
+import type { DataGroupFacet } from './group/_data.group';
+import type { DataGetFacet } from './get/_data.get';
+import type { DataLinkFacet } from './link/_data.link';
+import type { DataLoaderFacet } from './loader/_data.loader';
+import type { DataTaskFacet } from './task/_data.task';
+
+// The shared service properties
+export interface DataServiceContext {
+    // Service injections
+    svcTranslate: TranslateService;
+    svcElectron: ElectronService;
+    svcConfig: ConfigStoreService;
+    svcMark: MarkService;
+    svcSave: SaveStoreService;
+
+    // Top-level
+    data: DataGroup;
+    whenLoaded$: AsyncSubject<void>;
+
+    // Facet containers
+    apply: DataApplyFacet;
+    group: DataGroupFacet;
+    get: DataGetFacet;
+    link: DataLinkFacet;
+    loader: DataLoaderFacet;
+    task: DataTaskFacet;
+}

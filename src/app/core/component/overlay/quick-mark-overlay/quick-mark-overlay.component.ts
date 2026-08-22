@@ -3,9 +3,9 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
 import { Completion } from '@constant';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
+import { MarkService } from '@service/mark/mark.service';
 import { Task } from '@model/Task';
-import { changeCompletion } from '@model/Task/completion/changeCompletion';
 
 import { Overlay } from '../Overlay';
 import { QuickMarkFromToLabelComponent } from './quick-mark-from-to-label/quick-mark-from-to-label.component';
@@ -48,7 +48,10 @@ export class QuickMarkOverlayComponent extends Overlay {
     X = Completion.X;
     S = 'S' as const;
 
-    constructor(private svcData: DataService) {
+    constructor(
+        private svcData: DataService,
+        private svcMark: MarkService,
+    ) {
         super();
     }
 
@@ -72,14 +75,18 @@ export class QuickMarkOverlayComponent extends Overlay {
                         flag: task.completionFlag$() as Completion
                     });
 
-                    firstInChain = !changeCompletion(task, actualToFlag, firstInChain) && firstInChain;
+                    firstInChain = !this.svcMark.changeCompletion(
+                        task,
+                        actualToFlag,
+                        firstInChain
+                    ) && firstInChain;
                 }
             });
 
             if(history.tasks.length) {
                 this.onMark.emit();
                 this.addHistory(history);
-                this.svcData.applyDataToStore();
+                this.svcData.apply.dataToStore();
             }
 
             this.isModalVisible.set(false);
@@ -93,12 +100,16 @@ export class QuickMarkOverlayComponent extends Overlay {
         let first = true;
         history.tasks.forEach((changed) => {
             if(changed.task.completionFlag$() !== changed.flag) {
-                first = !changeCompletion(changed.task, changed.flag, first) && first;
+                first = !this.svcMark.changeCompletion(
+                    changed.task,
+                    changed.flag,
+                    first
+                ) && first;
             }
         });
 
         this.onMark.emit();
-        this.svcData.applyDataToStore();
+        this.svcData.apply.dataToStore();
     }
 
     //#region------------------------------------------------------- HistoryList

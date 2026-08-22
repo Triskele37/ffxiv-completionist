@@ -10,7 +10,7 @@ import { NavBarComponent } from '@component/nav-bar/nav-bar.component';
 import { NavDrawerComponent } from '@component/nav-drawer/nav-drawer.component';
 import { SearchBarComponent } from '@component/search-bar/search-bar.component';
 import { SummaryHeaderComponent } from '@component/summary-header/summary-header.component';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit, AfterViewInit {
             // Must occur before data to load markings properly
             this.svcCustomContent.initializeCustomContent();
 
-            this.svcData.initializeData();
+            this.svcData.initializeService();
 
             // Must occur after data for migration change
             this.svcBookmark.initializeBookmarks();

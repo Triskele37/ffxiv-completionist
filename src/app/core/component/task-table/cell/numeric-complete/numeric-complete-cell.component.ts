@@ -4,13 +4,13 @@ import { InputNumber } from 'primeng/inputnumber';
 import { Tooltip } from 'primeng/tooltip';
 
 import { Completion } from '@constant';
-import { DataService } from '@data';
+import { MarkService } from '@service/mark/mark.service';
+import { DataService } from '@service/data/data-service';
+import { TableService } from '@service/table/table.service';
 import { Task } from '@model/Task';
-import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { AsStringPipe } from '@pipe/asString.pipe';
 import { GradientPipe } from '@pipe/gradient.pipe';
 import { PercentagePipe } from '@pipe/percentage.pipe';
-import { TableService } from '@service/table/table.service';
 
 @Component({
     selector: 'com-numeric-complete-cell',
@@ -37,6 +37,7 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     constructor(
         private svcData: DataService,
+        private svcMark: MarkService,
         private svcTable: TableService,
     ) {
     }
@@ -58,8 +59,8 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        changeCompletion(this.task, this.value, true);
-        this.svcData.applyDataToStore();
+        this.svcMark.changeCompletion(this.task, this.value, true);
+        this.svcData.apply.dataToStore();
 
         // onBlur and rebinding value can't happen in the same tick
         setTimeout(() => {

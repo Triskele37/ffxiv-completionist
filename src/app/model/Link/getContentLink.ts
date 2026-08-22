@@ -1,5 +1,5 @@
 import { DataGroup } from '@model/DataGroup';
-import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { getGroupPath } from '@model/DataGroup/getGroupPath';
 import { Task } from '@model/Task';
 
 const SEPARATOR = ' > ';

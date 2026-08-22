@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { MenuItem } from 'primeng/api';
 import { TieredMenu, TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
 
 @Component({

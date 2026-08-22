@@ -8,15 +8,15 @@ import { ToggleSwitch } from 'primeng/toggleswitch';
 import { Table } from 'primeng/table';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataService } from '@data';
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { Task } from '@model/Task';
-import { validateConstraint } from '@model/ValidateChain/validate/validateConstraint';
-import { asChainIssue } from '@model/ValidateChain/util/asChainIssue';
-import { getChainConstraints } from '@model/ValidateChain/getChainConstraints';
-import { ChainConstraint, ChainIssue } from '@model/ValidateChain/types';
+import { ChainConstraint, ChainIssue } from '@model/Chain/ChainConstraint';
+import { validateConstraint } from '@model/Chain/validate/validateConstraint';
+import { asChainIssue } from '@model/Chain/util/asChainIssue';
+import { ChainService } from '@service/chain/chain.service';
+import { DataService } from '@service/data/data-service';
 import { SettingsService } from '@view/settings/settings.service';
 
 @Component({
@@ -44,6 +44,7 @@ export class ChainAnalysisComponent implements OnInit {
 
     constructor(
         private svcData: DataService,
+        private svcChain: ChainService,
         private svcChainViewer: ChainViewerService,
         public svcSettings: SettingsService
     ) {
@@ -52,7 +53,7 @@ export class ChainAnalysisComponent implements OnInit {
     ngOnInit() {
         this.isLoading.set(true);
         setTimeout(() => {
-            this.constraints = getChainConstraints(this.svcData.data);
+            this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);
             this.analyzeChainedTasks();
             this.isLoading.set(false);
         });

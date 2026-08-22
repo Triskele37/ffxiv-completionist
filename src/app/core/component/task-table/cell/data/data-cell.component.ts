@@ -3,10 +3,10 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { Column } from '@model/Column';
 import { Task } from '@model/Task';
-import { getChild } from '@model/util/getChild';
+import { getChild } from '@service/data/get/getChild';
 import { TableService } from '@service/table/table.service';
 
 import { CellValueComponent } from './cell-value/cell-value.component';

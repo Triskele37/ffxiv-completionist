@@ -8,7 +8,7 @@ import { InputText } from 'primeng/inputtext';
 import { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -122,7 +122,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     addGroup(): void {
         if(this.newContentName.length < 3) return; // Prevent short names
         this.svcCustomContent.createGroup(this.group, this.newContentName);
-        this.svcData.applyDataToStore();
+        this.svcData.apply.dataToStore();
     }
 
     renameGroup(): void {
@@ -168,7 +168,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     addTask(): void {
         if(this.newContentName.length < 3) return; // Prevent short names
         this.svcCustomContent.createTask(this.group, this.newContentName, this.newTaskNotes);
-        this.svcData.applyDataToStore();
+        this.svcData.apply.dataToStore();
     }
 
     moveSelectedTasks(targetGroup: DataGroup): void {

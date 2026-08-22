@@ -1,4 +1,3 @@
-import { getLinkedName } from '@model/Task/get/getLinkedName';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
 import { TableServiceContext } from '../types';
@@ -16,8 +15,8 @@ export function sortStringOrLink(
     let bVal = Array.isArray(b) ? b[0] : b;
 
     // Attempt to get link text
-    const linkA = getLinkedName(aVal, true);
-    const linkB = getLinkedName(bVal, true);
+    const linkA = this.svcData.get.getLinkedName(aVal, true);
+    const linkB = this.svcData.get.getLinkedName(bVal, true);
 
     // non-matching means the values are links, make sure they're strings
     if(linkA !== aVal) aVal = linkA.toString();

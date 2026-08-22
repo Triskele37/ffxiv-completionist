@@ -4,11 +4,11 @@ import { PanelMenu } from 'primeng/panelmenu';
 import { Tooltip } from 'primeng/tooltip';
 import { Subscription } from 'rxjs';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
-import { isComplete, isEmpty } from '@model/DataGroup/completion/metrics';
-import { isHiddenGroup } from '@model/DataGroup/ui/isHiddenGroup';
+import { getGroupPath } from '@model/DataGroup/getGroupPath';
+import { isComplete, isEmpty } from '@model/DataGroup/metrics';
+import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';

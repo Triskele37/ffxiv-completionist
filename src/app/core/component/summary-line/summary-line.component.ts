@@ -4,11 +4,11 @@ import { TranslateService } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 import { Subscription } from 'rxjs';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
-import { getPercentComplete } from '@model/DataGroup/completion/metrics';
-import { getEffectiveTotal, getCompleted, getRemaining, getExcluded } from '@model/DataGroup/completion/counts';
+import { getGroupPath } from '@model/DataGroup/getGroupPath';
+import { getPercentComplete } from '@model/DataGroup/metrics';
+import { getEffectiveTotal, getCompleted, getRemaining, getExcluded } from '@model/DataGroup/counts';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({

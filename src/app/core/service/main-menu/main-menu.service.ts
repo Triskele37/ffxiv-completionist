@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataGroup } from '@model/DataGroup';
-import { createDataGroup } from '@model/DataGroup/createDataGroup';
+import { DataService } from '@service/data/data-service';
 import { ViewToken } from '@view/view-token';
 
 /**
@@ -14,8 +14,11 @@ import { ViewToken } from '@view/view-token';
 export class MainMenuService {
     data: DataGroup;
 
-    constructor(private translate: TranslateService) {
-        this.data = createDataGroup({
+    constructor(
+        private translate: TranslateService,
+        private svcData: DataService,
+    ) {
+        this.data = this.svcData.group.createDataGroup({
             key: 'main-menu',
             groupName: this.translate.instant('APP.NAME'),
             noContent: true,
@@ -32,7 +35,7 @@ export class MainMenuService {
     }
 
     addPatchNotes(): void {
-        const patchNotes = createDataGroup({
+        const patchNotes = this.svcData.group.createDataGroup({
             key: 'patch-notes',
             groupName: this.translate.instant('APP.UPDATES.TITLE'),
             component: ViewToken.PatchNotes
@@ -42,7 +45,7 @@ export class MainMenuService {
     }
 
     addPatchView(): void {
-        const patchView = createDataGroup({
+        const patchView = this.svcData.group.createDataGroup({
             key: 'patch-view',
             groupName: this.translate.instant('APP.PATCH_VIEW.TITLE'),
             component: ViewToken.PatchView
@@ -52,7 +55,7 @@ export class MainMenuService {
     }
 
     addRandom(): void {
-        const random = createDataGroup({
+        const random = this.svcData.group.createDataGroup({
             key: 'random',
             groupName: this.translate.instant('APP.RANDOM_VIEW.TITLE'),
             component: ViewToken.Random
@@ -62,7 +65,7 @@ export class MainMenuService {
     }
 
     addChainAnalysis(): void {
-        const random = createDataGroup({
+        const random = this.svcData.group.createDataGroup({
             key: 'chain-analysis',
             groupName: this.translate.instant('APP.CHAIN_ANALYSIS.TITLE'),
             component: ViewToken.ChainAnalysis
@@ -72,7 +75,7 @@ export class MainMenuService {
     }
 
     addSettings(): void {
-        const settings = createDataGroup({
+        const settings = this.svcData.group.createDataGroup({
             key: 'settings',
             groupName: this.translate.instant('APP.SETTING.TITLE'),
             component: ViewToken.Settings
@@ -82,7 +85,7 @@ export class MainMenuService {
     }
 
     addSearch(): void {
-        const search = createDataGroup({
+        const search = this.svcData.group.createDataGroup({
             key: 'search',
             groupName: this.translate.instant('APP.SEARCH.TITLE'),
             component: ViewToken.Search,

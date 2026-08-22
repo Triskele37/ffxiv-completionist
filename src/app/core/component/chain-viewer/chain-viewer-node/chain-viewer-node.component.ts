@@ -4,11 +4,11 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { Link } from '@model/Chain/ChainLink';
 import { Task } from '@model/Task';
-import { getChild } from '@model/util/getChild';
+import { getChild } from '@service/data/get/getChild';
 
 type ChainNode = {
     task: Task;

@@ -3,7 +3,7 @@ import { MenuItem } from 'primeng/api';
 import { ContextMenu } from 'primeng/contextmenu';
 
 import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 

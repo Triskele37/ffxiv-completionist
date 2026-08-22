@@ -4,13 +4,11 @@ import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { createDataGroup } from '@model/DataGroup/createDataGroup';
-import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
-import { initializeTasks, JsonTasks } from '@model/DataGroup/createDataGroup/initializeTasks';
+import { JsonTasks } from '@model/JSONResource';
+import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { getContentLink } from '@model/Link/getContentLink';
-import { createTask } from '@model/Task/createTask';
 import { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
@@ -33,12 +31,20 @@ export class CustomContentService {
         private svcElectron: ElectronService,
         private svcSaveStore: SaveStoreService
     ) {
-        this.group = fromJson(this.svcData.data, 'custom');
-        this.group.isCustomGroup = true;
-        this.group.draggable = true;
+        const group = this.svcData.loader.loadGroupShallow(this.svcData.data, 'custom');
 
-        // Replace the placeholder for this group
-        this.svcData.data.subGroups?.set(this.group._key, this.group);
+        if(group) {
+            this.group = group;
+            this.group.isCustomGroup = true;
+            this.group.draggable = true;
+
+            // Replace the placeholder for this group
+            this.svcData.data.subGroups?.set(this.group._key, this.group);
+        }
+        else {
+            console.error('Failed to load Custom Content group');
+            this.group = createDummyGroup();
+        }
     }
 
     //#region------------------------------------------------------- Initialize
@@ -73,7 +79,7 @@ export class CustomContentService {
             }
         }
 
-        initializeTasks(group, meta);
+        this.svcData.group.initTasks(group, meta);
     }
 
     //#endregion
@@ -137,7 +143,7 @@ export class CustomContentService {
 
     //#region------------------------------------------------------- Custom Group
     createDataGroupObj(id: number, groupName: string, parent: DataGroup): DataGroup {
-        const group = createDataGroup({ key: `g${id}`, groupName }, parent);
+        const group = this.svcData.group.createDataGroup({ key: `g${id}`, groupName }, parent);
         group.isCustomGroup = true;
         group.draggable = true;
         return group;
@@ -304,7 +310,7 @@ export class CustomContentService {
         this.svcSaveStore.set(`${metaStorageKey}.${nextKey}`, { name, notes });
 
         // Update app tree
-        const task = createTask({ id: nextId, name, notes }, group);
+        const task = this.svcData.task.createTask({ id: nextId, name, notes }, group);
         group.tasks.push(task);
     }
 

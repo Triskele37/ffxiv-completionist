@@ -6,7 +6,7 @@ import { ButtonDirective } from 'primeng/button';
 import { InputText } from 'primeng/inputtext';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';

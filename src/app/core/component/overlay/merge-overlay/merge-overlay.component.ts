@@ -6,13 +6,13 @@ import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { Divider } from 'primeng/divider';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
-import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { SearchService } from '@service/search/search.service';
 import { Match } from '@service/search/SearchTypes';
+import { MarkService } from '@service/mark/mark.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 
 import { Overlay } from '../Overlay';
@@ -52,6 +52,7 @@ export class MergeOverlayComponent extends Overlay {
 
     constructor(
         private svcData: DataService,
+        private svcMark: MarkService,
         private svcSearch: SearchService,
         public svcCustomContent: CustomContentService,
     ) {
@@ -122,7 +123,7 @@ export class MergeOverlayComponent extends Overlay {
     exitMerge(): void {
         this.isMergeVisible.set(false);
         this.mergeIndex = 0;
-        this.svcData.applyDataToStore();
+        this.svcData.apply.dataToStore();
 
         // Empty waiting store writes
         this.tasksToRemove.forEach((t) => {
@@ -134,7 +135,7 @@ export class MergeOverlayComponent extends Overlay {
     confirmCurrentMerge(match: Task): void {
         // Update the completion flag if it has changed
         if(match.completionFlag$() !== this.mergeTask().completionFlag$()) {
-            this.currentMergeIsFirstInChain = !changeCompletion(
+            this.currentMergeIsFirstInChain = !this.svcMark.changeCompletion(
                 match,
                 this.mergeTask().completionFlag$(),
                 this.currentMergeIsFirstInChain

@@ -1,11 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
-import { DataService } from '@data';
+import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
-import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
-import { getChildGroup } from '@model/DataGroup/get/getGroup';
-import { getChildTask } from '@model/Task/get/getTask';
+import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -25,15 +23,23 @@ export class BookmarkService {
         private svcData: DataService,
         private svcSave: SaveStoreService
     ) {
-        this.group = fromJson(this.svcData.data, 'bookmarks');
-        this.group.isBookmarkGroup = true;
-        this.group.subGroups = new Map();
+        const group = this.svcData.loader.loadGroupShallow(this.svcData.data, 'bookmarks');
 
-        // Put this group in its placeholder
-        this.svcData.data.subGroups?.set(this.group._key, this.group);
+        if(group) {
+            this.group = group;
+            this.group.isBookmarkGroup = true;
+            this.group.subGroups = new Map();
 
-        // Keep task counts in sync when root data updates
-        this.svcData.data.onUpdated$.subscribe(() => this.group.updated$.next());
+            // Put this group in its placeholder
+            this.svcData.data.subGroups?.set(this.group._key, this.group);
+
+            // Keep task counts in sync when root data updates
+            this.svcData.data.onUpdated$.subscribe(() => this.group.updated$.next());
+        }
+        else {
+            console.error('Failed to load Bookmarks group');
+            this.group = createDummyGroup();
+        }
     }
 
     initializeBookmarks(): void {
@@ -70,7 +76,7 @@ export class BookmarkService {
             const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the task to this group
-            const task: Task = getChildTask(this.svcData.data, path);
+            const task = this.svcData.get.getTask(path);
             if(task) this.group.tasks.push(task);
             else {
                 console.error('Unable to find bookmarked task:', path);
@@ -119,7 +125,7 @@ export class BookmarkService {
             const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the bookmarked group to this group
-            const group: DataGroup = getChildGroup(this.svcData.data, path);
+            const group = this.svcData.get.getGroup(path);
             if(group?.fullStorageKey === fullStorageKey) {
                 this.group.subGroups?.set(group.fullStorageKey, group);
             }

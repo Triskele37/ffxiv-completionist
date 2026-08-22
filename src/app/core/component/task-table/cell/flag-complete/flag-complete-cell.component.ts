@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 import { Completion } from '@constant';
-import { DataService } from '@data';
-import { Task } from '@model/Task';
-import { changeCompletion } from '@model/Task/completion/changeCompletion';
-import { setCompletion } from '@model/Task/completion/setCompletion';
+import { DataService } from '@service/data/data-service';
+import { MarkService } from '@service/mark/mark.service';
 import { TableService } from '@service/table/table.service';
+import { Task } from '@model/Task';
 
 @Component({
     selector: 'com-flag-complete-cell',
@@ -19,13 +18,14 @@ export class FlagCompleteCellComponent {
 
     constructor(
         private svcData: DataService,
+        private svcMark: MarkService,
         private svcTable: TableService,
     ) {
     }
 
     onTaskCompleteClick(): void {
         const flag = this.task.completionFlag$() === Completion.Y ? Completion.N : Completion.Y;
-        changeCompletion(this.task, flag, true);
+        this.svcMark.changeCompletion(this.task, flag, true);
         this.changeCompletion();
     }
 
@@ -33,12 +33,12 @@ export class FlagCompleteCellComponent {
         $event.preventDefault();
 
         const flag = this.task.completionFlag$() === Completion.X ? Completion.N : Completion.X;
-        setCompletion(this.task, flag);
+        this.svcMark.setCompletion(this.task, flag);
         this.changeCompletion();
     }
 
     changeCompletion(): void {
-        this.svcData.applyDataToStore();
+        this.svcData.apply.dataToStore();
         this.svcTable.filter.updateFilteredTasks();
     }
 }
