@@ -6,12 +6,13 @@ import { WindowStore } from '../store/WindowStore';
 
 import { clearCache, preloadJson } from './preloadJson';
 import { loadJson } from './loadJson';
+import { importCustom, exportCustom } from './shareCustom';
 
 export function initActions() {
     ipcMain.on('app-ready', WindowStore.showMainWindow);
-    ipcMain.on('app-refresh', () => {
+    ipcMain.handle('app-refresh', async () => {
         clearCache();
-        preloadJson();
+        await preloadJson();
     });
     ipcMain.on('load-json', loadJson);
 
@@ -28,4 +29,7 @@ export function initActions() {
     ipcMain.on('open-save', PlayerStore.open);
     ipcMain.on('backup-save', PlayerStore.backup);
     ipcMain.on('load-backup-save', PlayerStore.loadBackup);
+
+    ipcMain.on('import-custom', importCustom);
+    ipcMain.on('export-custom', exportCustom);
 }

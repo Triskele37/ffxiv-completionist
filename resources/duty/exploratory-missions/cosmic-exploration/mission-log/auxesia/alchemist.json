@@ -1,0 +1,278 @@
+{
+    "key": "alchemist",
+    "groupName": "@CLASS_JOB.ALC",
+    "tasks": {
+        "x1690": {
+            "name_en": "Functional Firelighter",
+            "name_fr": "Allume-feu pour armes incendiaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_B",
+            "patch": "7.51"
+        },
+        "x1691": {
+            "name_en": "Sobering Tonic",
+            "name_fr": "Mise au point d'une boisson dégrisante",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_2_A",
+            "patch": "7.51"
+        },
+        "x1563": {
+            "name_en": "Master: Advanced Ruins Formula",
+            "name_fr": "MM : Élaboration avancée de potion alchimique pour postérité",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1564": {
+            "name_en": "Master: Advanced Restoration Materials",
+            "name_fr": "MM : Ressources pour réparations avancées",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1565": {
+            "name_en": "Master: Cosmic Tool Catalyst",
+            "name_fr": "MM : Renforcement des outils cosmiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1559": {
+            "name_en": "EX: Launch Party Liquor",
+            "name_fr": "EX : Élaboration de spiritueux pour commémoration",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.51"
+        },
+        "x1560": {
+            "name_en": "EX+: Periphery Provisions",
+            "name_fr": "EX+ : Amélioration du ravitaillement des postes extérieurs",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.51"
+        },
+        "x1561": {
+            "name_en": "EX+: Renewable Resource Development",
+            "name_fr": "EX+ : Aide à l'élaboration de ressources durables",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1562": {
+            "name_en": "EX+: The Ultimate Yeast",
+            "name_fr": "EX+ : Levures universelles",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1551": {
+            "name_en": "Mineral Resource Development",
+            "name_fr": "Recherche et développement de ressources minérales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1552": {
+            "name_en": "Long-lasting Coolant",
+            "name_fr": "Liquide de refroidissement longue durée",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1553": {
+            "name_en": "Loporrit Enrichment Research",
+            "name_fr": "Recherche sur le repos des Loporrites",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1554": {
+            "name_en": "Fieldwork Essentials",
+            "name_fr": "Articles essentiels pour l'exploration en plein air",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1555": {
+            "name_en": "Applied Auxesian Flora",
+            "name_fr": "Recherche appliquée sur la flore planétaire",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1556": {
+            "name_en": "Further Portable Foodstuff Improvements",
+            "name_fr": "Amélioration des denrées transportables (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1557": {
+            "name_en": "EX: Auxesian Extract Applications",
+            "name_fr": "EX : Exploitation d'extraits végétaux locaux",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1558": {
+            "name_en": "EX: Sustainable Construction Materials",
+            "name_fr": "EX : Aide à l'élaboration de matériaux de construction biodégradables",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1546": {
+            "name_en": "Mineral Resource Research",
+            "name_fr": "Recherche sur les ressources minérales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1547": {
+            "name_en": "Heavy Machinery Water Reserves",
+            "name_fr": "Eau de réserve pour machines lourdes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1548": {
+            "name_en": "Enhanced Loporrit Enrichment",
+            "name_fr": "Aide au repos des Loporrites",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1549": {
+            "name_en": "Advanced Portable Provisions",
+            "name_fr": "Élaboration avancée de denrées transportables",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1550": {
+            "name_en": "Portable Foodstuff Improvements",
+            "name_fr": "Amélioration des denrées transportables",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1542": {
+            "name_en": "Additional Mineral Resource Procurement",
+            "name_fr": "Ressources minérales (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1543": {
+            "name_en": "Additional Long-life Potables",
+            "name_fr": "Réserves d'eau à long terme (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1544": {
+            "name_en": "Further Experimental Loporrit Enrichment",
+            "name_fr": "En-cas expérimentaux pour Loporrites (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1545": {
+            "name_en": "Additional Portable Provisions",
+            "name_fr": "Élaboration de denrées transportables (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1538": {
+            "name_en": "Mineral Resource Procurement",
+            "name_fr": "Ressources minérales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1539": {
+            "name_en": "Long-life Potables",
+            "name_fr": "Réserves d'eau à long terme",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1540": {
+            "name_en": "Experimental Loporrit Enrichment",
+            "name_fr": "En-cas expérimentaux pour Loporrites",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1541": {
+            "name_en": "Portable Provisions",
+            "name_fr": "Élaboration de denrées transportables",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

@@ -2,14 +2,16 @@
     "key": "bookmarks",
     "groupName_en": "Bookmarks",
     "groupName_fr": "Marque-page",
-    "headers": {
+    "columns": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME",
+            "taskLink": true
         },
         "contentLink": {
             "header_en": "Group",
-            "header_fr": "Groupe"
+            "header_fr": "Groupe",
+            "groupLink": true,
+            "trimGroup": true
         }
     }
 }

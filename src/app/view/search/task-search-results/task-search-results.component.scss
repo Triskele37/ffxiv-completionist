@@ -2,6 +2,10 @@ $header-height: 40px;
 
 .task-search-results-header {
     height: $header-height;
+
+    .p-button.expand-search-button {
+        border-radius: 0;
+    }
 }
 
 .task-search-results-table {
@@ -13,14 +17,10 @@ $header-height: 40px;
     }
 
     ::ng-deep {
-        // Make the first column in headers, groups, and tasks 100px wide
+        // Make the first header in columns, groups, and tasks 100px wide
         .p-datatable-thead, .p-datatable-tbody, .p-rowgroup-header {
             tr > :first-child {
-                &, th, td {
-                    flex-grow: 0;
-                    flex-basis: 100px;
-                    justify-content: center;
-                }
+                width: 100px;
             }
         }
     }

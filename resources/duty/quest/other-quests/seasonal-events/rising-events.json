@@ -4,165 +4,202 @@
     "groupName_fr": "Fête de la Commémoration",
     "tasks": {
         "x67082": {
-            "level": 15,
             "name_en": "What Blooms in the Night",
             "name_fr": "Réminiscence",
+            "level": 15,
             "npc_en": "Bran",
             "npc_fr": "Bran",
-            "cSiblings": ["a.1003"],
-            "patch": "4.31"
+            "unlock": ["emote.110"],
+            "patch": "2.35",
+            "cSiblings": ["a.1003"]
         },
         "x67670": {
-            "level": 15,
             "name_en": "A World Away",
             "name_fr": "Si loin, si proche",
+            "level": 15,
             "npc_en": "Nonora",
             "npc_fr": "Nonora",
-            "cSiblings": ["a.1192"],
-            "patch": "4.31"
+            "patch": "3.07",
+            "cSiblings": ["a.1192"]
         },
         "x67865": {
-            "level": 15,
             "name_en": "A Play in Three Acts",
             "name_fr": "Un rôle sur mesure",
+            "level": 15,
             "npc_en": "Crystal Caravan Leader",
             "npc_fr": "Directrice De Jidoor",
-            "cNext": ["q.67866"],
-            "patch": "4.31"
+            "patch": "3.35",
+            "cNext": ["q.67866"]
         },
         "x67866": {
-            "level": 15,
             "name_en": "The Show Must Go On",
             "name_fr": "Chroniques du septième fléau",
+            "level": 15,
             "npc_en": "Crystal Caravan Leader",
             "npc_fr": "Directrice De Jidoor",
+            "patch": "3.35",
             "cPrev": ["q.67865"],
-            "cNext": ["q.67867"],
-            "patch": "4.31"
+            "cNext": ["q.67867"]
         },
         "x67867": {
-            "level": 15,
             "name_en": "After the Curtain Falls",
             "name_fr": "À la gloire de la Lumière",
+            "level": 15,
             "npc_en": "Crystal Caravan Leader",
             "npc_fr": "Directrice De Jidoor",
+            "patch": "3.35",
             "cPrev": ["q.67866"],
-            "cSiblings": ["a.1597"],
-            "patch": "4.31"
+            "cSiblings": ["a.1597"]
         },
         "x68497": {
-            "level": 15,
             "name_en": "A Reoccurring Bug",
             "name_fr": "Le chevalier du labyrinthe",
+            "level": 15,
             "npc_en": "Nonora",
             "npc_fr": "Nonora",
-            "cSiblings": ["a.1786"],
-            "patch": "4.31"
+            "patch": "4.05",
+            "cSiblings": ["a.1786"]
         },
         "x68674": {
-            "level": 15,
             "name_en": "In Adventurers We Trust",
             "name_fr": "Une commémoration bien trempée",
+            "level": 15,
             "npc_en": "Dural Tharal",
             "npc_fr": "Dural Tharal",
-            "cSiblings": ["a.2105"],
-            "patch": "4.35"
+            "patch": "4.35",
+            "cSiblings": ["a.2105"]
         },
         "x69196": {
-            "level": 30,
             "name_en": "Message in a Bottle",
             "name_fr": "Une étrange lettre en bouteille",
+            "level": 30,
             "npc_en": "P'obyano",
             "npc_fr": "P'obyano",
+            "patch": "5.05",
             "cNext": ["q.69197"],
-            "cSiblings": ["a.2399"],
-            "patch": "5.05"
+            "cSiblings": ["a.2399"]
         },
         "x69197": {
-            "level": 30,
             "name_en": "Messages from Distant Shores",
             "name_fr": "Les lettres en bouteille de la Commémoration",
+            "level": 30,
             "npc_en": "P'obyano",
             "npc_fr": "P'obyano",
-            "cPrev": ["q.69196"],
-            "patch": "5.05"
+            "patch": "5.05",
+            "cPrev": ["q.69196"]
         },
         "x69509": {
-            "level": 15,
             "name_en": "Art of Glass",
             "name_fr": "Le jeune homme de la fête de la Commémoration",
+            "level": 15,
             "npc_en": "J'bhen Tia",
             "npc_fr": "J'bhen Tia",
-            "cNext": ["q.69510"],
-            "patch": "5.3"
+            "patch": "5.3",
+            "cNext": ["q.69510"]
         },
         "x69510": {
-            "level": 15,
             "name_en": "Glass from the Past",
             "name_fr": "Les jeunes hommes de la fête de la Commémoration",
+            "level": 15,
             "npc_en": "J'bhen Tia",
             "npc_fr": "J'bhen Tia",
+            "patch": "5.3",
             "cPrev": ["q.69509"],
-            "cSiblings": ["a.2647"],
-            "patch": "5.3"
+            "cSiblings": ["a.2647"]
         },
         "x69627": {
-            "level": 15,
             "name_en": "Rising Calm",
             "name_fr": "Commémorez-le avec des fleurs",
+            "level": 15,
             "npc_en": "Kipih Jakkya",
             "npc_fr": "Kipih Jakkya",
-            "cSiblings": ["a.2856"],
-            "patch": "5.55"
+            "patch": "5.55",
+            "cSiblings": ["a.2856"]
         },
         "x70080": {
-            "level": 15,
             "name_en": "Newfound Journey",
             "name_fr": "Commémoration et renouveau",
+            "level": 15,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
-            "cSiblings": ["a.3081"],
-            "patch": "6.28",
-            "unlock": "mi.455"
+            "unlock": "mi.455",
+            "patch": "6.2",
+            "cSiblings": ["a.3081"]
         },
         "x70301": {
-            "level": 15,
             "name_en": "Siblings Rising",
             "name_fr": "La fratrie de la Commémoration",
+            "level": 15,
             "npc_en": "Kipih Jakkya",
             "npc_fr": "Kipih Jakkya",
-            "cNext": ["q.70302"],
-            "patch": "6.48"
+            "patch": "6.48",
+            "cNext": ["q.70302"]
         },
         "x70302": {
-            "level": 15,
             "name_en": "What Drives Us",
             "name_fr": "La raison d'une vocation",
+            "level": 15,
             "npc_en": "Kipih Jakkya",
             "npc_fr": "Kipih Jakkya",
-            "cPrev": ["q.70301"],
-            "cSiblings": ["a.3281"],
+            "unlock": "mo.320",
             "patch": "6.48",
-            "unlock": "mo.320"
+            "cPrev": ["q.70301"],
+            "cSiblings": ["a.3281"]
         },
         "x70551": {
-            "cNext": ["q.70552"],
-            "level": 15,
             "name_en": "Rising to the Call",
             "name_fr": "Commémoration à la ville des vents d'ouest",
+            "level": 15,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cNext": ["q.70552"]
         },
         "x70552": {
-            "cPrev": ["q.70551"],
-            "cSiblings": ["a.3569"],
-            "level": 15,
             "name_en": "We Who Are About to Set Sail Salute You",
             "name_fr": "Commémoration sous les lumières de l'avenir",
+            "level": 15,
             "npc_en": "Ayoyo",
             "npc_fr": "Ayoyo",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70551"],
+            "cSiblings": ["a.3569"]
+        },
+        "x70833": {
+            "name_en": "An Adventurous Ambition",
+            "name_fr": "L'aventure a ses raisons...",
+            "level": 15,
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "Ménestrel Errant",
+            "patch": "7.3",
+            "cNext": ["q.70834"]
+        },
+        "x70834": {
+            "name_en": "A Light That Ever Burns",
+            "name_fr": "La lumière du lendemain",
+            "level": 15,
+            "npc_en": "R'tcha",
+            "npc_fr": "R'tcha",
+            "patch": "7.3",
+            "cPrev": ["q.70833"]
+        },
+        "x71046": {
+            "name_en": "The Symphony of Life",
+            "name_fr": "La symphonie de la vie",
+            "level": 15,
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "Ménestrel Errant",
+            "patch": "7.55",
+            "cNext": ["q.71056"]
+        },
+        "x71056": {
+            "name_en": "Prelude's Call",
+            "name_fr": "L'appel du prélude",
+            "level": 15,
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "Ménestrel Errant",
+            "patch": "7.55",
+            "cPrev": ["q.71046"]
         }
     }
 }

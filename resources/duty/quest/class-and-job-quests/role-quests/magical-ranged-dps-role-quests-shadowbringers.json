@@ -4,65 +4,65 @@
     "groupName_fr": "Quêtes de DPS magique (Shadowbringers)",
     "tasks": {
         "x69159": {
-            "level": 70,
             "name_en": "Hollow Pursuits",
             "name_fr": "Le trou noir du grand pécheur",
+            "level": 70,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.68837"],
-            "cNext": ["q.69160"],
-            "patch": "5.0"
+            "cNext": ["q.69160"]
         },
         "x69160": {
-            "level": 72,
             "name_en": "A Voice from the Void",
             "name_fr": "Une voix venue du vide",
+            "level": 72,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.69159"],
-            "cNext": ["q.69161"],
-            "patch": "5.0"
+            "cNext": ["q.69161"]
         },
         "x69161": {
-            "level": 74,
             "name_en": "Echoes of the Past",
             "name_fr": "L'éclosion des souvenirs",
+            "level": 74,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.69160"],
-            "cNext": ["q.69162"],
-            "patch": "5.0"
+            "cNext": ["q.69162"]
         },
         "x69162": {
-            "level": 76,
             "name_en": "Nyelbert's Lament",
             "name_fr": "Une cupidité bien généreuse",
+            "level": 76,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.69161"],
-            "cNext": ["q.69163"],
-            "patch": "5.0"
+            "cNext": ["q.69163"]
         },
         "x69163": {
-            "level": 78,
             "name_en": "Taynor's Training Day",
             "name_fr": "La valeur n'attend pas le nombre de monstres lapidés",
+            "level": 78,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.69162"],
-            "cNext": ["q.69164"],
-            "patch": "5.0"
+            "cNext": ["q.69164"]
         },
         "x69164": {
-            "level": 80,
             "name_en": "A Tearful Reunion",
             "name_fr": "Un siècle de larmes",
+            "level": 80,
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
+            "patch": "5.0",
             "cPrev": ["q.69163"],
             "cNext": ["q.68752", "q.68760", "q.69569"],
-            "cSiblings": ["a.2304"],
-            "patch": "5.0"
+            "cSiblings": ["a.2304"]
         }
     }
 }

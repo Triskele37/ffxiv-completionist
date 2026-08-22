@@ -4,171 +4,241 @@
     "groupNameShort": "@EXPANSION.ARR",
     "tasks": {
         "x56": {
-            "level": "20",
             "name_en": "The Bowl of Embers",
             "name_fr": "Le Cratère des tisons",
-            "unlock": "q.65879"
+            "level": "20",
+            "unlock": "q.65879",
+            "patch": "2.0",
+            "cUnlock": ["q.65879"]
         },
         "x57": {
-            "level": "34",
             "name_en": "The Navel",
             "name_fr": "Le Nombril",
-            "unlock": "q.66393"
+            "level": "34",
+            "unlock": "q.66393",
+            "patch": "2.0",
+            "cUnlock": ["q.66393"]
         },
         "x58": {
-            "level": "44",
             "name_en": "The Howling Eye",
             "name_fr": "Hurlœil",
-            "unlock": "q.66055"
+            "level": "44",
+            "unlock": "q.66055",
+            "patch": "2.0",
+            "cUnlock": ["q.66055"]
         },
         "x830": {
-            "level": "50",
             "name_en": "The Porta Decumana",
             "name_fr": "Porta Decumana",
-            "unlock": "q.66060"
+            "level": "50",
+            "unlock": "q.66060",
+            "patch": "6.1",
+            "cUnlock": ["q.66060"]
         },
         "x84": {
-            "level": "50",
             "name_en": "The Chrysalis",
             "name_fr": "La Chrysalide",
+            "level": "50",
             "unlock": "q.65905",
+            "patch": "2.5",
+            "cUnlock": ["q.65905"],
             "cSiblings": ["a.1067"]
         },
         "x74": {
-            "level": "50",
             "name_en": "A Relic Reborn: the Chimera",
             "name_fr": "La chimère dhorme du Coerthas",
-            "unlock_en": "A Relic Reborn",
-            "unlock_fr": "Le forgeron légendaire"
+            "level": "50",
+            "unlock": [
+                "q.66655",
+                "q.66656",
+                "q.66657",
+                "q.66658",
+                "q.66659",
+                "q.66660",
+                "q.66661",
+                "q.66662",
+                "q.66663",
+                "q.67115"
+            ],
+            "patch": "2.25"
         },
         "x75": {
-            "level": "50",
             "name_en": "A Relic Reborn: the Hydra",
             "name_fr": "L'hydre d'Halatali",
-            "unlock_en": "A Relic Reborn",
-            "unlock_fr": "Le forgeron légendaire"
+            "level": "50",
+            "unlock": [
+                "q.66655",
+                "q.66656",
+                "q.66657",
+                "q.66658",
+                "q.66659",
+                "q.66660",
+                "q.66661",
+                "q.66662",
+                "q.66663",
+                "q.67115"
+            ],
+            "patch": "2.25"
         },
         "x76": {
-            "level": "50",
             "name_en": "Battle on the Big Bridge",
             "name_fr": "Affrontement sur le grand pont",
-            "unlock": "q.66854"
+            "level": "50",
+            "unlock": "q.66854",
+            "patch": "2.25",
+            "cUnlock": ["q.66854"]
         },
         "x81": {
-            "level": "50",
             "name_en": "The Dragon's Neck",
             "name_fr": "Le Col du dragon",
-            "unlock": "q.65740"
+            "level": "50",
+            "unlock": "q.65740",
+            "patch": "2.4",
+            "cUnlock": ["q.65740"]
         },
         "x85": {
-            "level": "50",
             "name_en": "Battle in the Big Keep",
             "name_fr": "Revanche au vieux château",
+            "level": "50",
             "unlock": "q.66038",
+            "patch": "2.5",
+            "cUnlock": ["q.66038"],
             "cSiblings": ["a.1066"]
         },
         "x59": {
-            "level": "50",
             "name_en": "The Bowl of Embers (Hard)",
             "name_fr": "Le Cratère des tisons (brutal)",
-            "unlock": "q.66584"
+            "level": "50",
+            "unlock": "q.66584",
+            "patch": "2.0",
+            "cUnlock": ["q.66584"]
         },
         "x61": {
-            "level": "50",
             "name_en": "The Howling Eye (Hard)",
             "name_fr": "Hurlœil (brutal)",
-            "unlock": "q.66693"
+            "level": "50",
+            "unlock": "q.66693",
+            "patch": "2.0",
+            "cUnlock": ["q.66693"]
         },
         "x60": {
-            "level": "50",
             "name_en": "The Navel (Hard)",
             "name_fr": "Le Nombril (brutal)",
-            "unlock": "q.66694"
+            "level": "50",
+            "unlock": "q.66694",
+            "patch": "2.0",
+            "cUnlock": ["q.66694"]
         },
         "x66": {
-            "level": "50",
             "name_en": "Thornmarch (Hard)",
             "name_fr": "La Lisière de ronces (brutal)",
-            "unlock": "q.66726"
+            "level": "50",
+            "unlock": "q.66726",
+            "patch": "2.1",
+            "cUnlock": ["q.66726"]
         },
         "x72": {
-            "level": "50",
             "name_en": "The Whorleater (Hard)",
             "name_fr": "Le Briseur de marées (brutal)",
-            "unlock": "q.66897"
+            "level": "50",
+            "unlock": "q.66897",
+            "patch": "2.25",
+            "cUnlock": ["q.66897"]
         },
         "x77": {
-            "level": "50",
             "name_en": "The Striking Tree (Hard)",
             "name_fr": "L'Arbre du jugement (brutal)",
-            "unlock": "q.69421"
+            "level": "50",
+            "unlock": "q.69421",
+            "patch": "2.3",
+            "cUnlock": ["q.69421"]
         },
         "x79": {
-            "level": "50",
             "name_en": "The Akh Afah Amphitheatre (Hard)",
             "name_fr": "L'Amphithéâtre d'Akh Afah (brutal)",
-            "unlock": "q.65620"
+            "level": "50",
+            "unlock": "q.65620",
+            "patch": "2.4",
+            "cUnlock": ["q.65620"]
         },
         "x82": {
-            "level": "50",
             "name_en": "Urth's Fount",
             "name_fr": "La Fontaine d'Urth",
+            "level": "50",
             "unlock": "q.65969",
+            "patch": "2.38",
+            "cUnlock": ["q.65969"],
             "cSiblings": ["a.1064"]
         },
         "x68": {
-            "level": "50",
             "name_en": "The Minstrel's Ballad: Ultima's Bane",
             "name_fr": "Le fléau d'Ultima",
-            "unlock": "q.66844"
+            "level": "50",
+            "unlock": "q.66844",
+            "patch": "2.1",
+            "cUnlock": ["q.66844"]
         },
         "x65": {
-            "level": "50",
             "name_en": "The Howling Eye (Extreme)",
             "name_fr": "Hurlœil (extrême)",
+            "level": "50",
             "unlock": "q.66731",
+            "patch": "2.1",
+            "cUnlock": ["q.66731"],
             "cSiblings": ["a.856"]
         },
         "x64": {
-            "level": "50",
             "name_en": "The Navel (Extreme)",
             "name_fr": "Le Nombril (extrême)",
+            "level": "50",
             "unlock": "q.66732",
+            "patch": "2.1",
+            "cUnlock": ["q.66732"],
             "cSiblings": ["a.857"]
         },
         "x63": {
-            "level": "50",
             "name_en": "The Bowl of Embers (Extreme)",
             "name_fr": "Le Cratère des tisons (extrême)",
+            "level": "50",
             "unlock": "q.66733",
+            "patch": "2.1",
+            "cUnlock": ["q.66733"],
             "cSiblings": ["a.855"]
         },
         "x67": {
-            "level": "50",
             "name_en": "Thornmarch (Extreme)",
             "name_fr": "La Lisière de ronces (extrême)",
+            "level": "50",
             "unlock": "q.66948",
+            "patch": "2.25",
+            "cPrev": ["q.66948"],
             "cSiblings": ["a.894"]
         },
         "x73": {
-            "level": "50",
             "name_en": "The Whorleater (Extreme)",
             "name_fr": "Le Briseur de marées (extrême)",
+            "level": "50",
             "unlock": "q.66949",
+            "patch": "2.25",
+            "cPrev": ["q.66949"],
             "cSiblings": ["a.893"]
         },
         "x78": {
-            "level": "50",
             "name_en": "The Striking Tree (Extreme)",
             "name_fr": "L'Arbre du jugement (extrême)",
+            "level": "50",
             "unlock": "q.67066",
+            "patch": "2.3",
+            "cUnlock": ["q.67066"],
             "cSiblings": ["a.994"]
         },
         "x80": {
-            "level": "50",
             "name_en": "The Akh Afah Amphitheatre (Extreme)",
             "name_fr": "L'Amphithéâtre d'Akh Afah (extrême)",
+            "level": "50",
             "unlock": "q.65626",
+            "patch": "2.4",
+            "cUnlock": ["q.65626"],
             "cSiblings": ["a.1045"]
         }
     }

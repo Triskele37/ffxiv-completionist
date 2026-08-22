@@ -1,23 +1,28 @@
-.p-splitter {
-    border: $panelContentBorder;
-    background: $panelContentBg;
-    border-radius: var(--border-radius);
-    color: $panelContentTextColor;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-splitter-gutter {
-        transition: $actionIconTransition;
-        background: $splitterGutterBg;
+@layer primeng {
+    .p-splitter {
+        border: variables.$panelContentBorder;
+        background: variables.$panelContentBg;
+        border-radius: var(--border-radius);
+        color: variables.$panelContentTextColor;
 
-        .p-splitter-gutter-handle {
-            background: $splitterGutterHandleBg;
+        .p-splitter-gutter {
+            transition: variables.$actionIconTransition;
+            background: variables.$splitterGutterBg;
 
-            &:focus-visible {
-                @include focused();
+            .p-splitter-gutter-handle {
+                background: variables.$splitterGutterHandleBg;
+
+                &:focus-visible {
+                    @include mixins.focused();
+                }
             }
         }
-    }
 
-    .p-splitter-gutter-resizing {
-        background: $splitterGutterHandleBg;
+        .p-splitter-gutter-resizing {
+            background: variables.$splitterGutterHandleBg;
+        }
     }
 }

@@ -4,34 +4,36 @@
     "groupName_fr": "Jetée de l'Antre des loups",
     "tasks": {
         "x67929": {
-            "level": 1,
             "name_en": "It's Time to Duel",
             "name_fr": "Duel sur la jetée",
+            "level": 1,
             "npc_en": "Faint-hearted Fighter",
             "npc_fr": "Ao Ra Bagarreur",
-            "patch": "4.31"
+            "patch": "3.4"
         },
         "x68543": {
-            "level": 30,
             "name_en": "Earning Your Wings",
             "name_fr": "Battre des ailes",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Softknox",
             "npc_fr": "Softknox",
             "unlock_en": "Astragalos",
+            "unlock_fr": "Astragalos",
+            "patch": "4.15",
             "cPrev": ["q.66640", "q.66641", "q.66642"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x70121": {
-            "level": 30,
             "name_en": "The Crystal (Line's) Call",
             "name_fr": "Source de conflits",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Gungi Zelungi",
             "npc_fr": "Gungi Zelungi",
             "unlock_en": "Crystalline Conflict",
+            "unlock_fr": "Crystalline Conflict",
+            "patch": "6.1",
             "cPrev": ["q.66640", "q.66641", "q.66642"],
-            "patch": "6.1"
+            "cPrevAny": true
         }
     }
 }

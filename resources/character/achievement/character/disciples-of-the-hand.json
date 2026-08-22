@@ -8,1024 +8,1024 @@
             "name_fr": "Apprenti menuisier",
             "description_en": "Achieve carpenter level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe menuisier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.58"],
             "cSiblingsAt": {
                 "10": ["cj.18"]
-            },
-            "cNext": ["a.58"]
+            }
         },
         "x58": {
             "name_en": "Knock on Wood II",
             "name_fr": "Menuisier novice",
             "description_en": "Achieve carpenter level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe menuisier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.57"],
+            "cNext": ["a.59"],
             "cSiblingsAt": {
                 "20": ["cj.18"]
-            },
-            "cPrev": ["a.57"],
-            "cNext": ["a.59"]
+            }
         },
         "x59": {
             "name_en": "Knock on Wood III",
             "name_fr": "Menuisier intermédiaire",
             "description_en": "Achieve carpenter level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe menuisier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.58"],
+            "cNext": ["a.60"],
             "cSiblingsAt": {
                 "30": ["cj.18"]
-            },
-            "cPrev": ["a.58"],
-            "cNext": ["a.60"]
+            }
         },
         "x60": {
             "name_en": "Knock on Wood IV",
             "name_fr": "Menuisier confirmé",
             "description_en": "Achieve carpenter level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe menuisier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.59"],
+            "cNext": ["a.61"],
             "cSiblingsAt": {
                 "40": ["cj.18"]
-            },
-            "cPrev": ["a.59"],
-            "cNext": ["a.61"]
+            }
         },
         "x61": {
             "name_en": "Knock on Wood V",
             "name_fr": "Menuisier vétéran",
             "description_en": "Achieve carpenter level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe menuisier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.60"],
+            "cNext": ["a.1265"],
             "cSiblingsAt": {
                 "50": ["cj.18"]
-            },
-            "cPrev": ["a.60"],
-            "cNext": ["a.1265"]
+            }
         },
         "x1265": {
             "name_en": "Knock on Wood VI",
             "name_fr": "Menuisier émérite",
             "description_en": "Achieve carpenter level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe menuisier.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.61"],
+            "cNext": ["a.1835"],
             "cSiblingsAt": {
                 "60": ["cj.18"]
-            },
-            "cPrev": ["a.61"],
-            "cNext": ["a.1835"]
+            }
         },
         "x1835": {
             "name_en": "Knock on Wood VII",
             "name_fr": "Menuisier expert",
             "description_en": "Achieve carpenter level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe menuisier.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1265"],
+            "cNext": ["a.2264"],
             "cSiblingsAt": {
                 "70": ["cj.18"]
-            },
-            "cPrev": ["a.1265"],
-            "cNext": ["a.2264"]
+            }
         },
         "x2264": {
             "name_en": "Knock on Wood VIII",
             "name_fr": "Menuisier emblématique",
             "description_en": "Achieve carpenter level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe menuisier.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1835"],
+            "cNext": ["a.2912"],
             "cSiblingsAt": {
                 "80": ["cj.18"]
-            },
-            "cPrev": ["a.1835"],
-            "cNext": ["a.2912"]
+            }
         },
         "x2912": {
             "name_en": "Knock on Wood IX",
             "name_fr": "Menuisier légendaire",
             "description_en": "Achieve carpenter level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe menuisier.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2264"],
+            "cNext": ["a.3451"],
             "cSiblingsAt": {
                 "90": ["cj.18"]
-            },
-            "cPrev": ["a.2264"],
-            "cNext": ["a.3451"]
+            }
         },
         "x3451": {
-            "cSiblingsAt": {
-                "100": ["cj.18"]
-            },
-            "cPrev": ["a.2912"],
-            "description_en": "Achieve carpenter level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe menuisier.",
             "name_en": "Knock on Wood X",
             "name_fr": "Menuisier mythique",
+            "description_en": "Achieve carpenter level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe menuisier.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2912"],
+            "cSiblingsAt": {
+                "100": ["cj.18"]
+            }
         },
         "x62": {
             "name_en": "Temper, Temper I",
             "name_fr": "Apprenti forgeron",
             "description_en": "Achieve blacksmith level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe forgeron.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.63"],
             "cSiblingsAt": {
                 "10": ["cj.19"]
-            },
-            "cNext": ["a.63"]
+            }
         },
         "x63": {
             "name_en": "Temper, Temper II",
             "name_fr": "Forgeron novice",
             "description_en": "Achieve blacksmith level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe forgeron.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.62"],
+            "cNext": ["a.64"],
             "cSiblingsAt": {
                 "20": ["cj.19"]
-            },
-            "cPrev": ["a.62"],
-            "cNext": ["a.64"]
+            }
         },
         "x64": {
             "name_en": "Temper, Temper III",
             "name_fr": "Forgeron intermédiaire",
             "description_en": "Achieve blacksmith level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe forgeron.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.63"],
+            "cNext": ["a.65"],
             "cSiblingsAt": {
                 "30": ["cj.19"]
-            },
-            "cPrev": ["a.63"],
-            "cNext": ["a.65"]
+            }
         },
         "x65": {
             "name_en": "Temper, Temper IV",
             "name_fr": "Forgeron confirmé",
             "description_en": "Achieve blacksmith level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe forgeron.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.64"],
+            "cNext": ["a.66"],
             "cSiblingsAt": {
                 "40": ["cj.19"]
-            },
-            "cPrev": ["a.64"],
-            "cNext": ["a.66"]
+            }
         },
         "x66": {
             "name_en": "Temper, Temper V",
             "name_fr": "Forgeron vétéran",
             "description_en": "Achieve blacksmith level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe forgeron.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.65"],
+            "cNext": ["a.1266"],
             "cSiblingsAt": {
                 "50": ["cj.19"]
-            },
-            "cPrev": ["a.65"],
-            "cNext": ["a.1266"]
+            }
         },
         "x1266": {
             "name_en": "Temper, Temper VI",
             "name_fr": "Forgeron émérite",
             "description_en": "Achieve blacksmith level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe forgeron.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.66"],
+            "cNext": ["a.1836"],
             "cSiblingsAt": {
                 "60": ["cj.19"]
-            },
-            "cPrev": ["a.66"],
-            "cNext": ["a.1836"]
+            }
         },
         "x1836": {
             "name_en": "Temper, Temper VII",
             "name_fr": "Forgeron expert",
             "description_en": "Achieve blacksmith level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe forgeron.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1266"],
+            "cNext": ["a.2265"],
             "cSiblingsAt": {
                 "70": ["cj.19"]
-            },
-            "cPrev": ["a.1266"],
-            "cNext": ["a.2265"]
+            }
         },
         "x2265": {
             "name_en": "Temper, Temper VIII",
             "name_fr": "Forgeron emblématique",
             "description_en": "Achieve blacksmith level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe forgeron.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1836"],
+            "cNext": ["a.2913"],
             "cSiblingsAt": {
                 "80": ["cj.19"]
-            },
-            "cPrev": ["a.1836"],
-            "cNext": ["a.2913"]
+            }
         },
         "x2913": {
             "name_en": "Temper, Temper IX",
             "name_fr": "Forgeron légendaire",
             "description_en": "Achieve blacksmith level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe forgeron.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2265"],
+            "cNext": ["a.3452"],
             "cSiblingsAt": {
                 "90": ["cj.19"]
-            },
-            "cPrev": ["a.2265"],
-            "cNext": ["a.3452"]
+            }
         },
         "x3452": {
-            "cSiblingsAt": {
-                "100": ["cj.19"]
-            },
-            "cPrev": ["a.2913"],
-            "description_en": "Achieve blacksmith level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe forgeron.",
             "name_en": "Temper, Temper X",
             "name_fr": "Forgeron mythique",
+            "description_en": "Achieve blacksmith level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe forgeron.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2913"],
+            "cSiblingsAt": {
+                "100": ["cj.19"]
+            }
         },
         "x67": {
             "name_en": "The Riddle of Steel I",
             "name_fr": "Apprenti armurier",
             "description_en": "Achieve armorer level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe armurier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.68"],
             "cSiblingsAt": {
                 "10": ["cj.20"]
-            },
-            "cNext": ["a.68"]
+            }
         },
         "x68": {
             "name_en": "The Riddle of Steel II",
             "name_fr": "Armurier novice",
             "description_en": "Achieve armorer level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe armurier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.67"],
+            "cNext": ["a.69"],
             "cSiblingsAt": {
                 "20": ["cj.20"]
-            },
-            "cPrev": ["a.67"],
-            "cNext": ["a.69"]
+            }
         },
         "x69": {
             "name_en": "The Riddle of Steel III",
             "name_fr": "Armurier intermédiaire",
             "description_en": "Achieve armorer level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe armurier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.68"],
+            "cNext": ["a.70"],
             "cSiblingsAt": {
                 "30": ["cj.20"]
-            },
-            "cPrev": ["a.68"],
-            "cNext": ["a.70"]
+            }
         },
         "x70": {
             "name_en": "The Riddle of Steel IV",
             "name_fr": "Armurier confirmé",
             "description_en": "Achieve armorer level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe armurier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.69"],
+            "cNext": ["a.71"],
             "cSiblingsAt": {
                 "40": ["cj.20"]
-            },
-            "cPrev": ["a.69"],
-            "cNext": ["a.71"]
+            }
         },
         "x71": {
             "name_en": "The Riddle of Steel V",
             "name_fr": "Armurier vétéran",
             "description_en": "Achieve armorer level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe armurier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.70"],
+            "cNext": ["a.1267"],
             "cSiblingsAt": {
                 "50": ["cj.20"]
-            },
-            "cPrev": ["a.70"],
-            "cNext": ["a.1267"]
+            }
         },
         "x1267": {
             "name_en": "The Riddle of Steel VI",
             "name_fr": "Armurier émérite",
             "description_en": "Achieve armorer level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe armurier.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.71"],
+            "cNext": ["a.1837"],
             "cSiblingsAt": {
                 "60": ["cj.20"]
-            },
-            "cPrev": ["a.71"],
-            "cNext": ["a.1837"]
+            }
         },
         "x1837": {
             "name_en": "The Riddle of Steel VII",
             "name_fr": "Armurier expert",
             "description_en": "Achieve armorer level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe armurier.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1267"],
+            "cNext": ["a.2266"],
             "cSiblingsAt": {
                 "70": ["cj.20"]
-            },
-            "cPrev": ["a.1267"],
-            "cNext": ["a.2266"]
+            }
         },
         "x2266": {
             "name_en": "The Riddle of Steel VIII",
             "name_fr": "Armurier emblématique",
             "description_en": "Achieve armorer level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe armurier.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1837"],
+            "cNext": ["a.2914"],
             "cSiblingsAt": {
                 "80": ["cj.20"]
-            },
-            "cPrev": ["a.1837"],
-            "cNext": ["a.2914"]
+            }
         },
         "x2914": {
             "name_en": "The Riddle of Steel IX",
             "name_fr": "Armurier légendaire",
             "description_en": "Achieve armorer level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe armurier.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2266"],
+            "cNext": ["a.3453"],
             "cSiblingsAt": {
                 "90": ["cj.20"]
-            },
-            "cPrev": ["a.2266"],
-            "cNext": ["a.3453"]
+            }
         },
         "x3453": {
-            "cSiblingsAt": {
-                "100": ["cj.20"]
-            },
-            "cPrev": ["a.2914"],
-            "description_en": "Achieve armorer level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe armurier.",
             "name_en": "The Riddle of Steel X",
             "name_fr": "Armurier mythique",
+            "description_en": "Achieve armorer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe armurier.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2914"],
+            "cSiblingsAt": {
+                "100": ["cj.20"]
+            }
         },
         "x72": {
             "name_en": "Heart of Gold I",
             "name_fr": "Apprenti orfèvre",
             "description_en": "Achieve goldsmith level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe orfèvre.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.73"],
             "cSiblingsAt": {
                 "10": ["cj.21"]
-            },
-            "cNext": ["a.73"]
+            }
         },
         "x73": {
             "name_en": "Heart of Gold II",
             "name_fr": "Orfèvre novice",
             "description_en": "Achieve goldsmith level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe orfèvre.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.72"],
+            "cNext": ["a.74"],
             "cSiblingsAt": {
                 "20": ["cj.21"]
-            },
-            "cPrev": ["a.72"],
-            "cNext": ["a.74"]
+            }
         },
         "x74": {
             "name_en": "Heart of Gold III",
             "name_fr": "Orfèvre intermédiaire",
             "description_en": "Achieve goldsmith level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe orfèvre.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.73"],
+            "cNext": ["a.75"],
             "cSiblingsAt": {
                 "30": ["cj.21"]
-            },
-            "cPrev": ["a.73"],
-            "cNext": ["a.75"]
+            }
         },
         "x75": {
             "name_en": "Heart of Gold IV",
             "name_fr": "Orfèvre confirmé",
             "description_en": "Achieve goldsmith level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe orfèvre.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.74"],
+            "cNext": ["a.76"],
             "cSiblingsAt": {
                 "40": ["cj.21"]
-            },
-            "cPrev": ["a.74"],
-            "cNext": ["a.76"]
+            }
         },
         "x76": {
             "name_en": "Heart of Gold V",
             "name_fr": "Orfèvre vétéran",
             "description_en": "Achieve goldsmith level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe orfèvre.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.75"],
+            "cNext": ["a.1268"],
             "cSiblingsAt": {
                 "50": ["cj.21"]
-            },
-            "cPrev": ["a.75"],
-            "cNext": ["a.1268"]
+            }
         },
         "x1268": {
             "name_en": "Heart of Gold VI",
             "name_fr": "Orfèvre émérite",
             "description_en": "Achieve goldsmith level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe orfèvre.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.76"],
+            "cNext": ["a.1838"],
             "cSiblingsAt": {
                 "60": ["cj.21"]
-            },
-            "cPrev": ["a.76"],
-            "cNext": ["a.1838"]
+            }
         },
         "x1838": {
             "name_en": "Heart of Gold VII",
             "name_fr": "Orfèvre expert",
             "description_en": "Achieve goldsmith level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe orfèvre.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1268"],
+            "cNext": ["a.2267"],
             "cSiblingsAt": {
                 "70": ["cj.21"]
-            },
-            "cPrev": ["a.1268"],
-            "cNext": ["a.2267"]
+            }
         },
         "x2267": {
             "name_en": "Heart of Gold VIII",
             "name_fr": "Orfèvre emblématique",
             "description_en": "Achieve goldsmith level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe orfèvre.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1838"],
+            "cNext": ["a.2915"],
             "cSiblingsAt": {
                 "80": ["cj.21"]
-            },
-            "cPrev": ["a.1838"],
-            "cNext": ["a.2915"]
+            }
         },
         "x2915": {
             "name_en": "Heart of Gold IX",
             "name_fr": "Orfèvre légendaire",
             "description_en": "Achieve goldsmith level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe orfèvre.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2267"],
+            "cNext": ["a.3454"],
             "cSiblingsAt": {
                 "90": ["cj.21"]
-            },
-            "cPrev": ["a.2267"],
-            "cNext": ["a.3454"]
+            }
         },
         "x3454": {
-            "cSiblingsAt": {
-                "100": ["cj.21"]
-            },
-            "cPrev": ["a.2915"],
-            "description_en": "Achieve goldsmith level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe orfèvre.",
             "name_en": "Heart of Gold X",
             "name_fr": "Orfèvre mythique",
+            "description_en": "Achieve goldsmith level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe orfèvre.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2915"],
+            "cSiblingsAt": {
+                "100": ["cj.21"]
+            }
         },
         "x77": {
             "name_en": "Tougher than Leather I",
             "name_fr": "Apprenti tanneur",
             "description_en": "Achieve leatherworker level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe tanneur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.78"],
             "cSiblingsAt": {
                 "10": ["cj.22"]
-            },
-            "cNext": ["a.78"]
+            }
         },
         "x78": {
             "name_en": "Tougher than Leather II",
             "name_fr": "Tanneur novice",
             "description_en": "Achieve leatherworker level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe tanneur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.77"],
+            "cNext": ["a.79"],
             "cSiblingsAt": {
                 "20": ["cj.22"]
-            },
-            "cPrev": ["a.77"],
-            "cNext": ["a.79"]
+            }
         },
         "x79": {
             "name_en": "Tougher than Leather III",
             "name_fr": "Tanneur intermédiaire",
             "description_en": "Achieve leatherworker level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe tanneur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.78"],
+            "cNext": ["a.80"],
             "cSiblingsAt": {
                 "30": ["cj.22"]
-            },
-            "cPrev": ["a.78"],
-            "cNext": ["a.80"]
+            }
         },
         "x80": {
             "name_en": "Tougher than Leather IV",
             "name_fr": "Tanneur confirmé",
             "description_en": "Achieve leatherworker level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe tanneur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.79"],
+            "cNext": ["a.81"],
             "cSiblingsAt": {
                 "40": ["cj.22"]
-            },
-            "cPrev": ["a.79"],
-            "cNext": ["a.81"]
+            }
         },
         "x81": {
             "name_en": "Tougher than Leather V",
             "name_fr": "Tanneur vétéran",
             "description_en": "Achieve leatherworker level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe tanneur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.80"],
+            "cNext": ["a.1269"],
             "cSiblingsAt": {
                 "50": ["cj.22"]
-            },
-            "cPrev": ["a.80"],
-            "cNext": ["a.1269"]
+            }
         },
         "x1269": {
             "name_en": "Tougher than Leather VI",
             "name_fr": "Tanneur émérite",
             "description_en": "Achieve leatherworker level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe tanneur.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.81"],
+            "cNext": ["a.1839"],
             "cSiblingsAt": {
                 "60": ["cj.22"]
-            },
-            "cPrev": ["a.81"],
-            "cNext": ["a.1839"]
+            }
         },
         "x1839": {
             "name_en": "Tougher than Leather VII",
             "name_fr": "Tanneur expert",
             "description_en": "Achieve leatherworker level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe tanneur.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1269"],
+            "cNext": ["a.2268"],
             "cSiblingsAt": {
                 "70": ["cj.22"]
-            },
-            "cPrev": ["a.1269"],
-            "cNext": ["a.2268"]
+            }
         },
         "x2268": {
             "name_en": "Tougher than Leather VIII",
             "name_fr": "Tanneur emblématique",
             "description_en": "Achieve leatherworker level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe tanneur.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1839"],
+            "cNext": ["a.2916"],
             "cSiblingsAt": {
                 "80": ["cj.22"]
-            },
-            "cPrev": ["a.1839"],
-            "cNext": ["a.2916"]
+            }
         },
         "x2916": {
             "name_en": "Tougher than Leather IX",
             "name_fr": "Tanneur légendaire",
             "description_en": "Achieve leatherworker level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe tanneur.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2268"],
+            "cNext": ["a.3455"],
             "cSiblingsAt": {
                 "90": ["cj.22"]
-            },
-            "cPrev": ["a.2268"],
-            "cNext": ["a.3455"]
+            }
         },
         "x3455": {
-            "cSiblingsAt": {
-                "100": ["cj.22"]
-            },
-            "cPrev": ["a.2916"],
-            "description_en": "Achieve leatherworker level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe tanneur.",
             "name_en": "Tougher than Leather X",
             "name_fr": "Tanneur mythique",
+            "description_en": "Achieve leatherworker level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe tanneur.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2916"],
+            "cSiblingsAt": {
+                "100": ["cj.22"]
+            }
         },
         "x82": {
             "name_en": "Smiling, Styling, and Textiling I",
             "name_fr": "Apprenti couturier",
             "description_en": "Achieve weaver level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe couturier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.83"],
             "cSiblingsAt": {
                 "10": ["cj.23"]
-            },
-            "cNext": ["a.83"]
+            }
         },
         "x83": {
             "name_en": "Smiling, Styling, and Textiling II",
             "name_fr": "Couturier novice",
             "description_en": "Achieve weaver level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe couturier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.82"],
+            "cNext": ["a.84"],
             "cSiblingsAt": {
                 "20": ["cj.23"]
-            },
-            "cPrev": ["a.82"],
-            "cNext": ["a.84"]
+            }
         },
         "x84": {
             "name_en": "Smiling, Styling, and Textiling III",
             "name_fr": "Couturier intermédiaire",
             "description_en": "Achieve weaver level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe couturier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.83"],
+            "cNext": ["a.85"],
             "cSiblingsAt": {
                 "30": ["cj.23"]
-            },
-            "cPrev": ["a.83"],
-            "cNext": ["a.85"]
+            }
         },
         "x85": {
             "name_en": "Smiling, Styling, and Textiling IV",
             "name_fr": "Couturier confirmé",
             "description_en": "Achieve weaver level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe couturier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.84"],
+            "cNext": ["a.86"],
             "cSiblingsAt": {
                 "40": ["cj.23"]
-            },
-            "cPrev": ["a.84"],
-            "cNext": ["a.86"]
+            }
         },
         "x86": {
             "name_en": "Smiling, Styling, and Textiling V",
             "name_fr": "Couturier vétéran",
             "description_en": "Achieve weaver level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe couturier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.85"],
+            "cNext": ["a.1270"],
             "cSiblingsAt": {
                 "50": ["cj.23"]
-            },
-            "cPrev": ["a.85"],
-            "cNext": ["a.1270"]
+            }
         },
         "x1270": {
             "name_en": "Smiling, Styling, and Textiling VI",
             "name_fr": "Couturier émérite",
             "description_en": "Achieve weaver level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe couturier.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.86"],
+            "cNext": ["a.1840"],
             "cSiblingsAt": {
                 "60": ["cj.23"]
-            },
-            "cPrev": ["a.86"],
-            "cNext": ["a.1840"]
+            }
         },
         "x1840": {
             "name_en": "Smiling, Styling, and Textiling VII",
             "name_fr": "Couturier expert",
             "description_en": "Achieve weaver level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe couturier.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1270"],
+            "cNext": ["a.2269"],
             "cSiblingsAt": {
                 "70": ["cj.23"]
-            },
-            "cPrev": ["a.1270"],
-            "cNext": ["a.2269"]
+            }
         },
         "x2269": {
             "name_en": "Smiling, Styling, and Textiling VIII",
             "name_fr": "Couturier emblématique",
             "description_en": "Achieve weaver level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe couturier.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1840"],
+            "cNext": ["a.2917"],
             "cSiblingsAt": {
                 "80": ["cj.23"]
-            },
-            "cPrev": ["a.1840"],
-            "cNext": ["a.2917"]
+            }
         },
         "x2917": {
             "name_en": "Smiling, Styling, and Textiling IX",
             "name_fr": "Couturier légendaire",
             "description_en": "Achieve weaver level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe couturier.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2269"],
+            "cNext": ["a.3456"],
             "cSiblingsAt": {
                 "90": ["cj.23"]
-            },
-            "cPrev": ["a.2269"],
-            "cNext": ["a.3456"]
+            }
         },
         "x3456": {
-            "cSiblingsAt": {
-                "100": ["cj.23"]
-            },
-            "cPrev": ["a.2917"],
-            "description_en": "Achieve weaver level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe couturier.",
             "name_en": "Smiling, Styling, and Textiling X",
             "name_fr": "Couturier mythique",
+            "description_en": "Achieve weaver level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe couturier.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2917"],
+            "cSiblingsAt": {
+                "100": ["cj.23"]
+            }
         },
         "x87": {
             "name_en": "'Tis True without Lying I",
             "name_fr": "Apprenti alchimiste",
             "description_en": "Achieve alchemist level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe alchimiste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.88"],
             "cSiblingsAt": {
                 "10": ["cj.24"]
-            },
-            "cNext": ["a.88"]
+            }
         },
         "x88": {
             "name_en": "'Tis True without Lying II",
             "name_fr": "Alchimiste novice",
             "description_en": "Achieve alchemist level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe alchimiste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.87"],
+            "cNext": ["a.89"],
             "cSiblingsAt": {
                 "20": ["cj.24"]
-            },
-            "cPrev": ["a.87"],
-            "cNext": ["a.89"]
+            }
         },
         "x89": {
             "name_en": "'Tis True without Lying III",
             "name_fr": "Alchimiste intermédiaire",
             "description_en": "Achieve alchemist level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe alchimiste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.88"],
+            "cNext": ["a.90"],
             "cSiblingsAt": {
                 "30": ["cj.24"]
-            },
-            "cPrev": ["a.88"],
-            "cNext": ["a.90"]
+            }
         },
         "x90": {
             "name_en": "'Tis True without Lying IV",
             "name_fr": "Alchimiste confirmé",
             "description_en": "Achieve alchemist level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe alchimiste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.89"],
+            "cNext": ["a.91"],
             "cSiblingsAt": {
                 "40": ["cj.24"]
-            },
-            "cPrev": ["a.89"],
-            "cNext": ["a.91"]
+            }
         },
         "x91": {
             "name_en": "'Tis True without Lying V",
             "name_fr": "Alchimiste vétéran",
             "description_en": "Achieve alchemist level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe alchimiste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.90"],
+            "cNext": ["a.1271"],
             "cSiblingsAt": {
                 "50": ["cj.24"]
-            },
-            "cPrev": ["a.90"],
-            "cNext": ["a.1271"]
+            }
         },
         "x1271": {
             "name_en": "'Tis True without Lying VI",
             "name_fr": "Alchimiste émérite",
             "description_en": "Achieve alchemist level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe alchimiste.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.91"],
+            "cNext": ["a.1841"],
             "cSiblingsAt": {
                 "60": ["cj.24"]
-            },
-            "cPrev": ["a.91"],
-            "cNext": ["a.1841"]
+            }
         },
         "x1841": {
             "name_en": "'Tis True without Lying VII",
             "name_fr": "Alchimiste expert",
             "description_en": "Achieve alchemist level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe alchimiste.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1271"],
+            "cNext": ["a.2270"],
             "cSiblingsAt": {
                 "70": ["cj.24"]
-            },
-            "cPrev": ["a.1271"],
-            "cNext": ["a.2270"]
+            }
         },
         "x2270": {
             "name_en": "'Tis True without Lying VIII",
             "name_fr": "Alchimiste emblématique",
             "description_en": "Achieve alchemist level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe alchimiste.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1841"],
+            "cNext": ["a.2918"],
             "cSiblingsAt": {
                 "80": ["cj.24"]
-            },
-            "cPrev": ["a.1841"],
-            "cNext": ["a.2918"]
+            }
         },
         "x2918": {
             "name_en": "'Tis True without Lying IX",
             "name_fr": "Alchimiste légendaire",
             "description_en": "Achieve alchemist level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe alchimiste.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2270"],
+            "cNext": ["a.3457"],
             "cSiblingsAt": {
                 "90": ["cj.24"]
-            },
-            "cPrev": ["a.2270"],
-            "cNext": ["a.3457"]
+            }
         },
         "x3457": {
-            "cSiblingsAt": {
-                "100": ["cj.24"]
-            },
-            "cPrev": ["a.2918"],
-            "description_en": "Achieve alchemist level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe alchimiste.",
             "name_en": "'Tis True without Lying X",
             "name_fr": "Alchimiste mythique",
+            "description_en": "Achieve alchemist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe alchimiste.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2918"],
+            "cSiblingsAt": {
+                "100": ["cj.24"]
+            }
         },
         "x92": {
             "name_en": "All in Good Taste I",
             "name_fr": "Apprenti cuisinier",
             "description_en": "Achieve culinarian level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe cuisinier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.93"],
             "cSiblingsAt": {
                 "10": ["cj.25"]
-            },
-            "cNext": ["a.93"]
+            }
         },
         "x93": {
             "name_en": "All in Good Taste II",
             "name_fr": "Cuisinier novice",
             "description_en": "Achieve culinarian level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe cuisinier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.92"],
+            "cNext": ["a.94"],
             "cSiblingsAt": {
                 "20": ["cj.25"]
-            },
-            "cPrev": ["a.92"],
-            "cNext": ["a.94"]
+            }
         },
         "x94": {
             "name_en": "All in Good Taste III",
             "name_fr": "Cuisinier intermédiaire",
             "description_en": "Achieve culinarian level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe cuisinier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.93"],
+            "cNext": ["a.95"],
             "cSiblingsAt": {
                 "30": ["cj.25"]
-            },
-            "cPrev": ["a.93"],
-            "cNext": ["a.95"]
+            }
         },
         "x95": {
             "name_en": "All in Good Taste IV",
             "name_fr": "Cuisinier confirmé",
             "description_en": "Achieve culinarian level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe cuisinier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.94"],
+            "cNext": ["a.96"],
             "cSiblingsAt": {
                 "40": ["cj.25"]
-            },
-            "cPrev": ["a.94"],
-            "cNext": ["a.96"]
+            }
         },
         "x96": {
             "name_en": "All in Good Taste V",
             "name_fr": "Cuisinier vétéran",
             "description_en": "Achieve culinarian level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe cuisinier.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.95"],
+            "cNext": ["a.1272"],
             "cSiblingsAt": {
                 "50": ["cj.25"]
-            },
-            "cPrev": ["a.95"],
-            "cNext": ["a.1272"]
+            }
         },
         "x1272": {
             "name_en": "All in Good Taste VI",
             "name_fr": "Cuisinier émérite",
             "description_en": "Achieve culinarian level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe cuisinier.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.96"],
+            "cNext": ["a.1842"],
             "cSiblingsAt": {
                 "60": ["cj.25"]
-            },
-            "cPrev": ["a.96"],
-            "cNext": ["a.1842"]
+            }
         },
         "x1842": {
             "name_en": "All in Good Taste VII",
             "name_fr": "Cuisinier expert",
             "description_en": "Achieve culinarian level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe cuisinier.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1272"],
+            "cNext": ["a.2271"],
             "cSiblingsAt": {
                 "70": ["cj.25"]
-            },
-            "cPrev": ["a.1272"],
-            "cNext": ["a.2271"]
+            }
         },
         "x2271": {
             "name_en": "All in Good Taste VIII",
             "name_fr": "Cuisinier emblématique",
             "description_en": "Achieve culinarian level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe cuisinier.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1842"],
+            "cNext": ["a.2919"],
             "cSiblingsAt": {
                 "80": ["cj.25"]
-            },
-            "cPrev": ["a.1842"],
-            "cNext": ["a.2919"]
+            }
         },
         "x2919": {
             "name_en": "All in Good Taste IX",
             "name_fr": "Cuisinier légendaire",
             "description_en": "Achieve culinarian level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe cuisinier.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2271"],
+            "cNext": ["a.3458"],
             "cSiblingsAt": {
                 "90": ["cj.25"]
-            },
-            "cPrev": ["a.2271"],
-            "cNext": ["a.3458"]
+            }
         },
         "x3458": {
-            "cSiblingsAt": {
-                "100": ["cj.25"]
-            },
-            "cPrev": ["a.2919"],
-            "description_en": "Achieve culinarian level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe cuisinier.",
             "name_en": "All in Good Taste X",
             "name_fr": "Cuisinier mythique",
+            "description_en": "Achieve culinarian level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe cuisinier.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2919"],
+            "cSiblingsAt": {
+                "100": ["cj.25"]
+            }
         }
     }
 }

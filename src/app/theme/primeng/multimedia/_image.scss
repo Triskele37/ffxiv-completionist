@@ -1,49 +1,53 @@
-.p-image-mask {
-    --maskbg: #{$imageMaskBg};
-}
+@use "../../_variables";
 
-.p-image-preview-indicator {
-    background-color: transparent;
-    color: $imagePreviewIndicatorColor;
-    transition: $actionIconTransition;
-}
+@layer primeng {
+    .p-image-mask {
+        --maskbg: #{variables.$imageMaskBg};
+    }
 
-.p-image-preview-container {
-    &:hover {
-        > .p-image-preview-indicator {
-            background-color: $imagePreviewIndicatorBg;
+    .p-image-preview-indicator {
+        background-color: transparent;
+        color: variables.$imagePreviewIndicatorColor;
+        transition: variables.$actionIconTransition;
+    }
+
+    .p-image-preview-container {
+        &:hover {
+            > .p-image-preview-indicator {
+                background-color: variables.$imagePreviewIndicatorBg;
+            }
         }
     }
-}
 
-.p-image-toolbar {
-    padding: $imagePreviewToolbarPadding;
-}
-
-.p-image-action.p-link {
-    color: $imagePreviewActionIconColor;
-    background-color: $imagePreviewActionIconBg;
-    width: $imagePreviewActionIconWidth;
-    height: $imagePreviewActionIconHeight;
-    border-radius: $imagePreviewActionIconBorderRadius;
-    transition: $actionIconTransition;
-    margin-right: var(--inline-spacing);
-
-    &:last-child {
-        margin-right: 0;
+    .p-image-toolbar {
+        padding: variables.$imagePreviewToolbarPadding;
     }
 
-    &:hover {
-        color: $imagePreviewActionIconHoverColor;
-        background-color: $imagePreviewActionIconHoverBg;
-    }
+    .p-image-action.p-link {
+        color: variables.$imagePreviewActionIconColor;
+        background-color: variables.$imagePreviewActionIconBg;
+        width: variables.$imagePreviewActionIconWidth;
+        height: variables.$imagePreviewActionIconHeight;
+        border-radius: variables.$imagePreviewActionIconBorderRadius;
+        transition: variables.$actionIconTransition;
+        margin-right: var(--inline-spacing);
 
-    i {
-        font-size: $imagePreviewActionIconFontSize;
-    }
+        &:last-child {
+            margin-right: 0;
+        }
 
-    .p-icon {
-        width: $imagePreviewActionIconFontSize;
-        height: $imagePreviewActionIconFontSize;
+        &:hover {
+            color: variables.$imagePreviewActionIconHoverColor;
+            background-color: variables.$imagePreviewActionIconHoverBg;
+        }
+
+        i {
+            font-size: variables.$imagePreviewActionIconFontSize;
+        }
+
+        .p-icon {
+            width: variables.$imagePreviewActionIconFontSize;
+            height: variables.$imagePreviewActionIconFontSize;
+        }
     }
 }

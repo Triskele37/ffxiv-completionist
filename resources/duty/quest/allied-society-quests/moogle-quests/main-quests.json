@@ -4,99 +4,104 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x67856": {
-            "level": 50,
             "name_en": "Tricks and Stones",
             "name_fr": "Les Mogdernisateurs célestes",
+            "level": 50,
             "npc_en": "Seething Stonemason",
             "npc_fr": "Maçon En Colère",
             "cPrev": ["q.67170", "q.67407"],
             "cNext": ["q.67857"],
             "cSiblings": ["character.character.societal-relations.44"],
-            "patch": "4.31"
+            "patch": "3.3",
+            "unlock": ["cl.31591"]
         },
         "x67857": {
-            "level": 50,
             "name_en": "The Milk of Moogle Kindness",
             "name_fr": "La résolution peut renverser des montagnes",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.67856"],
             "cNext": ["q.67858"],
             "cSiblings": ["character.character.societal-relations.45"],
-            "patch": "4.31"
+            "patch": "3.3"
         },
         "x67858": {
-            "level": 50,
             "name_en": "Trying Times",
             "name_fr": "Un renfort de poids",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.67857"],
             "cNext": ["q.67859"],
             "cSiblings": ["character.character.societal-relations.46"],
-            "patch": "4.31"
+            "patch": "3.3",
+            "unlock": ["cl.31592"]
         },
         "x67859": {
-            "level": 50,
             "name_en": "A Crystalline Solution",
             "name_fr": "La fontaine de la discorde",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.67858"],
             "cNext": ["q.67860"],
             "cSiblings": ["character.character.societal-relations.47"],
-            "patch": "4.31"
+            "patch": "3.3"
         },
         "x67860": {
-            "level": 50,
             "name_en": "The Tools Make the Moogle",
             "name_fr": "Mogdernisation du matériel",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.67859"],
             "cNext": ["q.67861"],
             "cSiblings": ["character.character.societal-relations.48"],
-            "patch": "4.31"
+            "patch": "3.3",
+            "unlock": ["cl.31593"]
         },
         "x67861": {
-            "level": 50,
             "name_en": "A Monumental Task",
             "name_fr": "La statue de l'Amitié",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.67860"],
             "cNext": ["q.67862"],
             "cSiblings": ["character.character.societal-relations.49"],
-            "patch": "4.31"
+            "patch": "3.3",
+            "unlock": ["cl.31594"]
         },
         "x67862": {
-            "level": 50,
             "name_en": "Piecing Together the Past",
             "name_fr": "Tout le monde aura sa plaque",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.67861"],
             "cNext": ["q.67863"],
             "cSiblings": ["character.character.societal-relations.50", "e.126"],
-            "patch": "4.31",
-            "unlock": "e.126"
+            "patch": "3.3",
+            "unlock": ["e.126", "cl.31595"]
         },
         "x67863": {
-            "level": 50,
             "name_en": "The Zenith of Craftsmanship",
             "name_fr": "Mogzin au zénith",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 50,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
-            "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.67862"],
             "cSiblings": ["character.character.societal-relations.51"],
-            "patch": "4.31"
+            "patch": "3.3",
+            "unlock": "tto.78"
         }
     }
 }

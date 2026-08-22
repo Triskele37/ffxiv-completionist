@@ -1,43 +1,51 @@
-<div *ngIf="group.columns" class="task-table-container">
-    <xiv-task-table-toolbar
-        [group]="group"
-        [tasks]="filteredTasks"
-        [totalTasks]="tasks?.length"
-        (onDataChange)="updateFilteredTasks()"
-    ></xiv-task-table-toolbar>
+@if(svcTable.group().columns) {
+    <div
+        data-active-help="APP.ACTIVE_HELP.TABLE.TASK_TABLE"
+        class="task-table-container"
+    >
+        <com-task-table-toolbar
+            [templatePre]="toolbarPre"
+        ></com-task-table-toolbar>
 
-    <div class="task-table-scroll-container">
-        <p-table
-            *ngIf="!!tasks?.length"
-            #taskTable
-            styleClass="p-datatable-striped"
-            dataKey="_parent.fullStorageKey"
-            [value]="filteredTasks"
-            sortMode="multiple"
-            [customSort]="true"
-            (sortFunction)="sortData($event)"
-            [virtualScroll]="true"
-            [virtualScrollItemSize]="36"
-            [scrollable]="true"
-            scrollHeight="flex"
-            (onRowReorder)="onRowReorder($event)"
-            [virtualScrollOptions]="{}"
-        >
-            <ng-template pTemplate="header">
-                <xiv-header-row
-                    [group]="group"
-                    [uniqueValues]="uniqueValues"
-                ></xiv-header-row>
-            </ng-template>
-            <ng-template pTemplate="body" let-task let-rowIndex="rowIndex">
-                <xiv-data-row
-                    [dragEnabled]="group.draggable && !debounceDrag"
-                    [rowIndex]="rowIndex"
-                    [group]="group"
-                    [task]="task"
-                    (completionChange)="updateFilteredTasks()"
-                ></xiv-data-row>
-            </ng-template>
-        </p-table>
+        <div class="task-table-scroll-container">
+            @if(svcTable.originalTasks.length) {
+                <p-table
+                    #taskTable
+                    [class]="svcTable.rowGroup.groupRows ? 'p-datatable-striped' : ''"
+                    [customSort]="true"
+                    dataKey="_parent.fullStorageKey"
+                    [expandedRowKeys]="svcTable.rowGroup.expandedRows()"
+                    groupRowsBy="_parent.fullStorageKey"
+                    rowGroupMode="subheader"
+                    scrollHeight="flex"
+                    [scrollable]="true"
+                    sortMode="multiple"
+                    [value]="svcTable.tasks()"
+                    [virtualScroll]="!svcTable.rowGroup.groupRows"
+                    [virtualScrollDelay]="100"
+                    [virtualScrollItemSize]="rowHeight"
+                    (onRowReorder)="svcTable.order.onRowReorder($event)"
+                    (sortFunction)="svcTable.order.sortData($event)"
+                >
+                    <ng-template #header>
+                        <com-header-row></com-header-row>
+                    </ng-template>
+
+                    @if(svcTable.rowGroup.groupRows) {
+                        <ng-template #groupheader let-task let-expanded="expanded">
+                            <com-group-row [task]="task" [expanded]="expanded"></com-group-row>
+                        </ng-template>
+
+                        <ng-template #expandedrow let-task let-index="rowIndex">
+                            <com-data-row [rowIndex]="index" [task]="task"></com-data-row>
+                        </ng-template>
+                    } @else {
+                        <ng-template #body let-task let-index="rowIndex">
+                            <com-data-row [rowIndex]="index" [task]="task"></com-data-row>
+                        </ng-template>
+                    }
+                </p-table>
+            }
+        </div>
     </div>
-</div>
+}

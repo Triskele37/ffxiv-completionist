@@ -4,160 +4,182 @@
     "groupName_fr": "Festival du Gold Saucer",
     "tasks": {
         "x67669": {
-            "level": 15,
             "name_en": "And Then There Were Some",
             "name_fr": "Une nouvelle attraction",
+            "level": 15,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cNext": ["q.67671"],
-            "patch": "4.31"
+            "patch": "3.25",
+            "cNext": ["q.67671"]
         },
         "x67671": {
-            "level": 15,
             "name_en": "An Inspector's Gadget",
             "name_fr": "La marque du détective",
+            "level": 15,
             "npc_en": "Attentive Attendant",
             "npc_fr": "Employé Modèle",
+            "unlock": ["emote.125"],
+            "patch": "3.25",
             "cPrev": ["q.67669"],
-            "cSiblings": ["a.1491"],
-            "patch": "4.31"
+            "cSiblings": ["a.1491"]
         },
         "x67960": {
-            "level": 15,
             "name_en": "Golden Rain",
             "name_fr": "Les jolis petits lots du Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Beggarly Bloke",
             "npc_fr": "Homme Désargenté",
+            "patch": "3.55",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cSiblings": ["a.1684"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cSiblings": ["a.1684"]
         },
         "x68669": {
-            "level": 15,
             "name_en": "Trouble in Paradise",
             "name_fr": "Les spectres du Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Dismayed Maiden",
             "npc_fr": "Femme Effrayée",
+            "patch": "4.3",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cNext": ["q.68670"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.68670"]
         },
         "x68670": {
-            "level": 15,
             "name_en": "Love and Kupo Nuts",
             "name_fr": "Sortie en amoureux au Gold Saucer",
+            "level": 15,
             "npc_en": "Moogle Suitor",
             "npc_fr": "Jeune Mog Amoureux",
+            "patch": "4.3",
             "cPrev": ["q.68669"],
-            "cSiblings": ["a.2103"],
-            "patch": "4.31"
+            "cSiblings": ["a.2103"]
         },
         "x68743": {
-            "level": 15,
             "name_en": "The Sabotender Shimmy",
             "name_fr": "Il est l'heure, mon Señor",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Lamenting Lalafell",
             "npc_fr": "Garçon Déprimé",
+            "unlock": ["emote.197"],
+            "patch": "4.5",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cSiblings": ["a.2240"],
-            "patch": "4.5"
+            "cPrevAny": true,
+            "cSiblings": ["a.2240"]
         },
         "x69499": {
-            "level": 15,
             "name_en": "Caught Shorthanded",
             "name_fr": "La soucoupe dorée est pleine",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Nanaphon",
             "npc_fr": "Nanaphon",
+            "unlock": ["emote.209"],
+            "patch": "5.3",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cPrevAny": true,
             "cNext": ["q.69500"],
-            "cSiblings": ["a.2645"],
-            "patch": "5.3"
+            "cSiblings": ["a.2645"]
         },
         "x69500": {
-            "level": 15,
             "name_en": "A Guide to Fun",
             "name_fr": "Guider n'est pas jouer",
+            "level": 15,
             "npc_en": "Chief Attendant",
             "npc_fr": "Guide Du Gold Saucer",
-            "cPrev": ["q.69499"],
-            "patch": "5.3"
+            "patch": "5.3",
+            "cPrev": ["q.69499"]
         },
         "x69590": {
-            "level": 15,
             "name_en": "The Great Horn Heist",
             "name_fr": "Le mystérieux vol du Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
+            "patch": "5.5",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cNext": ["q.69592", "q.69591"],
-            "patch": "5.5"
+            "cPrevAny": true,
+            "cNext": ["q.69591", "q.69592"]
         },
         "x69591": {
-            "level": 15,
             "name_en": "A Token of Thanks",
             "name_fr": "Le sceau du détective",
+            "level": 15,
             "npc_en": "Stern Saucer Attendant",
             "npc_fr": "Employé Dévoué",
+            "patch": "5.5",
             "cPrev": ["q.69590"],
-            "cSiblings": ["a.2855"],
-            "patch": "5.5"
+            "cSiblings": ["a.2855"]
         },
         "x69592": {
-            "level": 15,
             "name_en": "The Great Horn Heist Redux",
             "name_fr": "L'autre version de l'histoire",
+            "level": 15,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cPrev": ["q.69590"],
-            "patch": "5.5"
+            "patch": "5.5",
+            "cPrev": ["q.69590"]
         },
         "x70120": {
-            "level": 15,
             "name_en": "A Prickly Plaint",
             "name_fr": "L'employé tourmenté du Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
+            "patch": "6.1",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cSiblings": ["a.3079"],
-            "patch": "6.1"
+            "cPrevAny": true,
+            "cSiblings": ["a.3079"]
         },
         "x70263": {
-            "level": 15,
             "name_en": "A Golden Opportunity",
             "name_fr": "Petits mais costauds",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Kipih Jakkya",
             "npc_fr": "Kipih Jakkya",
+            "patch": "6.3",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cNext": ["q.70264"],
-            "patch": "6.3"
+            "cPrevAny": true,
+            "cNext": ["q.70264"]
         },
         "x70264": {
-            "level": 15,
             "name_en": "Hearts of Gold",
             "name_fr": "Les honneurs du Gold Saucer",
+            "level": 15,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
+            "patch": "6.3",
             "cPrev": ["q.70263"],
-            "cSiblings": ["a.3206"],
-            "patch": "6.3"
+            "cSiblings": ["a.3206"]
         },
         "x70350": {
-            "level": 15,
             "name_en": "Of Impish Importance",
             "name_fr": "Les petits hommes verts du Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Quevain",
             "npc_fr": "Quevain",
+            "patch": "6.5",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cSiblings": ["a.3418"],
-            "patch": "6.5"
+            "cPrevAny": true,
+            "cSiblings": ["a.3418"]
+        },
+        "x70858": {
+            "name_en": "Royal Rumblings",
+            "name_fr": "Le Roi singé",
+            "level": 15,
+            "npc_en": "Ebullient Citizen",
+            "npc_fr": "Amateur De Festivals",
+            "unlock": ["emote.291"],
+            "patch": "7.2",
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cPrevAny": true
+        },
+        "x70979": {
+            "name_en": "You Otter Be There",
+            "name_fr": "Une mascotte trop choute",
+            "level": 15,
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "patch": "7.5"
         }
     }
 }

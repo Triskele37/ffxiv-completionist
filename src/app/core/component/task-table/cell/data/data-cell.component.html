@@ -1,92 +1,44 @@
-<div>
-    <ng-container
-        *ngTemplateOutlet="links.length < 2 ? singleValue : multiValue"
-    ></ng-container>
-</div>
-
-<!-- One Value -->
-<ng-template #singleValue>
-    <ng-container *ngIf="links[0]">
-        <ng-container
-            *ngTemplateOutlet="valueTemplate; context: { $implicit: links[0] }"
-        ></ng-container>
-    </ng-container>
-</ng-template>
-
-<!-- Multiple Values, use button & overlay -->
-<ng-template #multiValue>
-    <p-button
-        class="noSelect"
-        styleClass="p-button-link"
-        label="{{'TABLE.VIEW_LINKS' | translate}} ({{links.length}})"
-        (mouseenter)="linkOverlay.show($event)"
-        (mouseleave)="onMultiLinkLeave()"
-        (onClick)="onLockOverlayClick()"
-    ></p-button>
-
-    <p-overlayPanel
-        #linkOverlay
-        styleClass="link-overlay"
-    >
-        <ng-template pTemplate="content">
-            <div
-                class="overlay-container"
-                (mouseleave)="onOverlayLeave()"
+<td class="table-cell data-cell">
+    <div class="data-cell-value-container">
+        @if(links.length === 1 && links[0]) {
+            <!-- Single Value -->
+            <com-cell-value
+                [column]="column"
+                [task]="task"
+                [value]="links[0]"
+            ></com-cell-value>
+        }
+        @else if(links.length > 1) {
+            <!-- Multiple Values, use button & overlay -->
+            <button
+                pButton
+                class="noSelect p-button-link"
+                (mouseenter)="linkPopover.show($event)"
+                (mouseleave)="onMultiLinkLeave()"
+                (click)="onLockOverlayClick()"
             >
-                <ng-container *ngFor="let link of links">
-                    <ng-container
-                        *ngTemplateOutlet="valueTemplate; context: { $implicit: link }"
-                    ></ng-container>
-                </ng-container>
-            </div>
-        </ng-template>
-    </p-overlayPanel>
-</ng-template>
+                {{'APP.TABLE.VIEW_LINKS' | translate}} ({{links.length}})
+            </button>
 
-<!-- Value Branch -->
-<ng-template #valueTemplate let-link>
-    <ng-container
-        *ngTemplateOutlet="
-            link.type === 'Value' ? rawTextTemplate : linkTemplate;
-            context: { $implicit: link }
-        "
-    ></ng-container>
-</ng-template>
-
-<!-- Raw Text -->
-<ng-template #rawTextTemplate let-link>
-    <div
-        #cell
-        class="data-cell"
-        tooltipPosition="bottom"
-        [pTooltip]="tooltip"
-    >
-        {{link.value}}
+            <p-popover
+                #linkPopover
+                styleClass="link-overlay"
+            >
+                <ng-template #content>
+                    <div
+                        class="overlay-container"
+                        (mouseleave)="onOverlayLeave()"
+                    >
+                        @for(link of links; track link) {
+                            <com-cell-value
+                                [task]="task"
+                                [column]="column"
+                                [value]="link"
+                            ></com-cell-value>
+                        }
+                    </div>
+                </ng-template>
+            </p-popover>
+        }
     </div>
-</ng-template>
-
-<!-- Content Link -->
-<ng-template #linkTemplate let-link>
-    <span class="link-item">
-        <span *ngIf="link.pre">{{link.pre}}</span>
-
-        <ng-container
-            *ngTemplateOutlet="link.type === 'Group' ? groupLink : taskLink"
-        ></ng-container>
-
-        <span *ngIf="link.post">{{link.post}}</span>
-    </span>
-
-    <ng-template #groupLink>
-        <xiv-content-link
-            [content]="link.value"
-        ></xiv-content-link>
-    </ng-template>
-
-    <ng-template #taskLink>
-        <xiv-content-link
-            [content]="link.value"
-            [nameOnly]="true"
-        ></xiv-content-link>
-    </ng-template>
-</ng-template>
+</td>

@@ -4,74 +4,74 @@
     "groupName_fr": "Quêtes du département d'éthérologie",
     "tasks": {
         "x69696": {
-            "level": 80,
             "name_en": "Fear the Thesis",
             "name_fr": "L'éthérologue au mal d'éther",
+            "level": 80,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.70009"],
-            "cNext": ["q.69697"],
-            "patch": "6.0"
+            "cNext": ["q.69697"]
         },
         "x69697": {
-            "level": 80,
             "name_en": "Go with the Flow",
             "name_fr": "La théorie des marées d'éther",
+            "level": 80,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69696"],
-            "cNext": ["q.69698"],
-            "patch": "6.0"
+            "cNext": ["q.69698"]
         },
         "x69698": {
-            "level": 83,
             "name_en": "Data across the Decades",
             "name_fr": "Des poissons qui font des vagues",
+            "level": 83,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69697"],
-            "cNext": ["q.69699"],
-            "patch": "6.0"
+            "cNext": ["q.69699"]
         },
         "x69699": {
-            "level": 85,
             "name_en": "History Lesson",
             "name_fr": "Passé écrit dans des coquilles",
+            "level": 85,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69698"],
-            "cNext": ["q.69700"],
-            "patch": "6.0"
+            "cNext": ["q.69700"]
         },
         "x69700": {
-            "level": 85,
             "name_en": "The Wandering Whale",
             "name_fr": "Baleine égarée et flux irréguliers",
+            "level": 85,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69699"],
-            "cNext": ["q.69701"],
-            "patch": "6.0"
+            "cNext": ["q.69701"]
         },
         "x69701": {
-            "level": 88,
             "name_en": "Fish Time Forgot",
             "name_fr": "Fraîchement pêchés du passé",
+            "level": 88,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69700"],
-            "cNext": ["q.69702"],
-            "patch": "6.0"
+            "cNext": ["q.69702"]
         },
         "x69702": {
-            "level": 90,
             "name_en": "Pastures New",
             "name_fr": "Vers de nouveaux horizons éthérologiques",
+            "level": 90,
             "npc_en": "T'laqa Tia",
             "npc_fr": "T'laqa Tia",
+            "patch": "6.0",
             "cPrev": ["q.69701"],
-            "cSiblings": ["a.2970"],
-            "patch": "6.0"
+            "cSiblings": ["a.2970"]
         }
     }
 }

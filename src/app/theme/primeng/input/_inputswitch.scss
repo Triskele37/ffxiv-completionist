@@ -1,60 +1,64 @@
 @use 'sass:list';
+@use "../_mixins";
+@use "../../_variables";
 
-.p-inputswitch {
-    width: $inputSwitchWidth;
-    height: $inputSwitchHeight;
+@layer primeng {
+    .p-inputswitch {
+        width: variables.$inputSwitchWidth;
+        height: variables.$inputSwitchHeight;
 
-    .p-inputswitch-slider {
-        background: $inputSwitchSliderOffBg;
-        transition: $formElementTransition;
-        border-radius: $inputSwitchBorderRadius;
-
-        &:before {
-            background: $inputSwitchHandleOffBg;
-            width: $inputSwitchHandleWidth;
-            height: $inputSwitchHandleHeight;
-            left: $inputSwitchSliderPadding;
-            margin-top: list.slash(-1 * $inputSwitchHandleHeight, 2);
-            border-radius: $inputSwitchHandleBorderRadius;
-            transition-duration: $transitionDuration;
-        }
-    }
-
-    &.p-inputswitch-checked {
-        .p-inputswitch-slider:before {
-            transform: translateX($inputSwitchHandleWidth);
-        }
-    }
-
-    &.p-focus {
         .p-inputswitch-slider {
-            @include focused();
-        }
-    }
-
-    &:not(.p-disabled):hover {
-        .p-inputswitch-slider {
-            background: $inputSwitchSliderOffHoverBg;
-        }
-    }
-
-    &.p-inputswitch-checked {
-        .p-inputswitch-slider {
-            background: $inputSwitchSliderOnBg;
+            background: variables.$inputSwitchSliderOffBg;
+            transition: variables.$formElementTransition;
+            border-radius: variables.$inputSwitchBorderRadius;
 
             &:before {
-                background: $inputSwitchHandleOnBg;
-             }
+                background: variables.$inputSwitchHandleOffBg;
+                width: variables.$inputSwitchHandleWidth;
+                height: variables.$inputSwitchHandleHeight;
+                left: variables.$inputSwitchSliderPadding;
+                margin-top: list.slash(-1 * variables.$inputSwitchHandleHeight, 2);
+                border-radius: variables.$inputSwitchHandleBorderRadius;
+                transition-duration: variables.$transitionDuration;
+            }
+        }
+
+        &.p-inputswitch-checked {
+            .p-inputswitch-slider:before {
+                transform: translateX(variables.$inputSwitchHandleWidth);
+            }
+        }
+
+        &.p-focus {
+            .p-inputswitch-slider {
+                @include mixins.focused();
+            }
         }
 
         &:not(.p-disabled):hover {
             .p-inputswitch-slider {
-                background: $inputSwitchSliderOnHoverBg;
+                background: variables.$inputSwitchSliderOffHoverBg;
+            }
+        }
+
+        &.p-inputswitch-checked {
+            .p-inputswitch-slider {
+                background: variables.$inputSwitchSliderOnBg;
+
+                &:before {
+                    background: variables.$inputSwitchHandleOnBg;
+                }
+            }
+
+            &:not(.p-disabled):hover {
+                .p-inputswitch-slider {
+                    background: variables.$inputSwitchSliderOnHoverBg;
+                }
             }
         }
     }
-}
 
-p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch > .p-inputswitch-slider {
-    @include invalid-input();
+    p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch > .p-inputswitch-slider {
+        @include mixins.invalid-input();
+    }
 }

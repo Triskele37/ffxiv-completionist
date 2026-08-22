@@ -4,75 +4,75 @@
     "groupName_fr": "Quêtes du bar à jus de Xeerol Ja",
     "tasks": {
         "x70518": {
-            "cNext": ["q.70519"],
-            "cPrev": ["q.70502"],
-            "level": 90,
             "name_en": "Blame It on My Juice",
             "name_fr": "Le Bar dans le jus",
+            "level": 90,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70502"],
+            "cNext": ["q.70519"]
         },
         "x70519": {
-            "cNext": ["q.70520"],
-            "cPrev": ["q.70518"],
-            "level": 90,
             "name_en": "Mon Cherimoya",
             "name_fr": "Du jus pour des écailles douces",
+            "level": 90,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70518"],
+            "cNext": ["q.70520"]
         },
         "x70520": {
-            "cNext": ["q.70521"],
-            "cPrev": ["q.70519"],
-            "level": 93,
             "name_en": "A Drink for Everymobbie",
             "name_fr": "Du jus pour soulager la fatigue",
+            "level": 93,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70519"],
+            "cNext": ["q.70521"]
         },
         "x70521": {
-            "cNext": ["q.70522"],
-            "cPrev": ["q.70520"],
-            "level": 95,
             "name_en": "Halnaruk the Helphand",
             "name_fr": "Jus énergisant",
+            "level": 95,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70520"],
+            "cNext": ["q.70522"]
         },
         "x70522": {
-            "cNext": ["q.70523"],
-            "cPrev": ["q.70521"],
-            "level": 95,
             "name_en": "The Missing Drink",
             "name_fr": "Le parfait breuvage",
+            "level": 95,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70521"],
+            "cNext": ["q.70523"]
         },
         "x70523": {
-            "cNext": ["q.70524"],
-            "cPrev": ["q.70522"],
-            "level": 98,
             "name_en": "Good Hydrations",
             "name_fr": "Du jus pour soigner la gueule de bois",
+            "level": 98,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70522"],
+            "cNext": ["q.70524"]
         },
         "x70524": {
-            "cNext": ["q.70503"],
-            "cPrev": ["q.70523"],
-            "cSiblings": ["a.3506"],
-            "level": 100,
             "name_en": "Three Cheers for Sweet Juice",
             "name_fr": "Le rêve de Xeerol Ja",
+            "level": 100,
             "npc_en": "Xeerol Ja",
             "npc_fr": "Xeerol Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70523"],
+            "cNext": ["q.70503"],
+            "cSiblings": ["a.3506"]
         }
     }
 }

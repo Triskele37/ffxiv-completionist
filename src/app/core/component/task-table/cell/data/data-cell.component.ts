@@ -1,71 +1,70 @@
-import { ChangeDetectorRef, Component, ElementRef, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { Popover } from 'primeng/popover';
 
 import { DataService } from '@data';
 import { Column } from '@model/Column';
-import { DataGroup } from '@model/DataGroup';
-import { getChild } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
+import { getChild } from '@model/util/getChild';
+import { TableService } from '@service/table/table.service';
 
-type LinkData = {
-    xivDataType?: 'LinkData';
-    value: DataGroup | Task | string;
-    type: 'Group' | 'Task' | 'Value';
-    pre?: string; // Text before the link
-    post?: string; // Text after the link
-};
+import { CellValueComponent } from './cell-value/cell-value.component';
+import { LinkData } from './LinkData';
 
 const PRE_LINK_POST_REGEX = /^([^.]*)\b([a-z]+[a-z0-9-]*\.[a-z0-9-.]+)\b([^.]*)$/;
 
+/**
+ * Container for cell-value
+ * - Determines if value is single or contained in a View All overlay
+ * - Generates tooltip for single values that overflow
+ * */
 @Component({
-    selector: 'xiv-data-cell',
+    selector: 'com-data-cell',
     templateUrl: './data-cell.component.html',
-    styleUrls: ['./data-cell.component.scss']
-})
-export class DataCellComponent implements OnChanges, OnDestroy {
-    @Input() column: Column;
-    @Input() task: Task;
-    @Input() value: string;
+    styleUrls: ['./data-cell.component.scss'],
+    imports: [
+        ButtonDirective,
+        Popover,
+        TranslatePipe,
 
-    tooltip: string;
+        CellValueComponent
+    ]
+})
+export class DataCellComponent implements OnChanges {
+    @Input({ required: true }) column!: Column;
+    @Input({ required: true }) task!: Task;
+    @Input() value?: string;
+
+    tooltip: string | undefined;
 
     // Compiled links for the task at column
     links: LinkData[] = [];
 
     isOverlayLocked: boolean = false;
-    @ViewChild('linkOverlay') linkOverlay: OverlayPanel;
+    @ViewChild('linkPopover') linkPopover: Popover | undefined;
 
     constructor(
-        private cdr: ChangeDetectorRef,
-        private svcData: DataService
+        private svcData: DataService,
+        public svcTable: TableService
     ) {
-        this.createObserver();
     }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.task?.currentValue) {
             this.compileLinks();
         }
-
-        if(changes.column || changes.task) {
-            this.shouldDetectOverflow = true;
-            this.detectOverflow();
-        }
-    }
-
-    ngOnDestroy(): void {
-        this.observer?.disconnect();
     }
 
     //#region------------------------------------------------------- Events
     onMultiLinkLeave(): void {
         if(this.isOverlayLocked) return;
-        this.linkOverlay.hide();
+        this.linkPopover?.hide();
     }
 
     onOverlayLeave(): void {
         this.isOverlayLocked = false;
-        this.linkOverlay.hide();
+        this.linkPopover?.hide();
     }
 
     onLockOverlayClick(): void {
@@ -74,10 +73,14 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
     //#endregion
 
+    getCellValues() {
+        const values = [].concat(this.task?.[this.column.key] ?? this.value);
+        return this.column.oneLineTextList ? [values.join(', ')] : values;
+    }
+
     //#region------------------------------------------------------- Update
     compileLinks(): void {
-        const values = [].concat(this.task?.[this.column.key] ?? this.value);
-        this.links = values.map((v) => this.getLinkFromPath(v));
+        this.links = this.getCellValues().map((v) => this.getLinkFromPath(v));
         this.links = this.links.filter((l) => l.value);
     }
 
@@ -91,7 +94,7 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
                 if(content) {
                     linkData.value = content;
-                    linkData.type = content.xivDataType;
+                    linkData.type = content.dataType;
                     if(pre) linkData.pre = pre;
                     if(post) linkData.post = post;
                     return linkData as LinkData;
@@ -107,62 +110,6 @@ export class DataCellComponent implements OnChanges, OnDestroy {
         else {
             // parameter is a raw value
             return { value: pathOrValue, type: 'Value' };
-        }
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Ref
-    ref: ElementRef;
-
-    @ViewChild('cell') set cell(ref: ElementRef) {
-        this.ref = ref;
-        this.observeCellResize();
-        this.detectOverflow();
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Resize Observer
-    observer: ResizeObserver;
-
-    createObserver(): void {
-        this.observer = new ResizeObserver(() => {
-            this.shouldDetectOverflow = true;
-            this.detectOverflow();
-        });
-    }
-
-    observeCellResize(): void {
-        // Cleanup
-        this.observer?.disconnect();
-
-        // Bail if no ref
-        if(!this.ref) return;
-
-        this.observer.observe(this.ref.nativeElement);
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Tooltip
-    shouldDetectOverflow: boolean;
-
-    detectOverflow(): void {
-        if(!this.ref) return;
-
-        if(this.shouldDetectOverflow) {
-            const { clientWidth, scrollWidth } = this.ref.nativeElement;
-
-            if(clientWidth !== scrollWidth) {
-                this.tooltip = this.task?.[this.column.key] ?? this.value;
-            }
-            else {
-                this.tooltip = '';
-            }
-
-            this.shouldDetectOverflow = false;
-            this.cdr.detectChanges();
         }
     }
 

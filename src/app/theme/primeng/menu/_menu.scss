@@ -1,37 +1,42 @@
-.p-menu {
-    padding: $verticalMenuPadding;
-    background: $menuBg;
-    color: $menuTextColor;
-    border: $menuBorder;
-    border-radius: var(--border-radius);
-    width: $menuWidth;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-menuitem {
-        @include menuitem();
-    }
+@layer primeng {
+    .p-menu {
+        padding: variables.$verticalMenuPadding;
+        background: variables.$menuBg;
+        color: variables.$menuTextColor;
+        border: variables.$menuBorder;
+        border-radius: var(--border-radius);
+        width: variables.$menuWidth;
 
-    &.p-menu-overlay {
-        background: $overlayMenuBg;
-        border: $overlayMenuBorder;
-        box-shadow: $overlayMenuShadow;
-    }
+        .p-menuitem {
+            @include mixins.menuitem();
+        }
 
-    .p-submenu-header {
-        margin: $submenuHeaderMargin;
-        padding: $submenuHeaderPadding;
-        color: $submenuHeaderTextColor;
-        background: $submenuHeaderBg;
-        font-weight: $submenuHeaderFontWeight;
-        border-top-right-radius: $submenuHeaderBorderRadius;
-        border-top-left-radius: $submenuHeaderBorderRadius;
-    }
+        &.p-menu-overlay {
+            background: variables.$overlayMenuBg;
+            border: variables.$overlayMenuBorder;
+            box-shadow: variables.$overlayMenuShadow;
+        }
 
-    .p-menuitem-separator {
-        border-top: $divider;
-        margin: $menuSeparatorMargin;
-    }
+        .p-submenu-header {
+            margin: variables.$submenuHeaderMargin;
+            padding: variables.$submenuHeaderPadding;
+            color: variables.$submenuHeaderTextColor;
+            background: variables.$submenuHeaderBg;
+            font-weight: variables.$submenuHeaderFontWeight;
+            border-top-right-radius: variables.$submenuHeaderBorderRadius;
+            border-top-left-radius: variables.$submenuHeaderBorderRadius;
+        }
 
-    .p-menuitem-badge {
-        @include menuitem-badge();
+        .p-menuitem-separator {
+            border-top: variables.$divider;
+            margin: variables.$menuSeparatorMargin;
+        }
+
+        .p-menuitem-badge {
+            @include mixins.menuitem-badge();
+        }
     }
 }

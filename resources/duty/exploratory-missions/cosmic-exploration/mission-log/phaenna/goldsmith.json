@@ -1,0 +1,413 @@
+{
+    "key": "goldsmith",
+    "groupName": "@CLASS_JOB.GSM",
+    "tasks": {
+        "x1016": {
+            "name_en": "Precision Components",
+            "name_fr": "Composants de rechange",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_A",
+            "patch": "7.31"
+        },
+        "x1017": {
+            "name_en": "Electroconductive Wire",
+            "name_fr": "Câbles métalliques à haute conductivité électrique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_B",
+            "patch": "7.31"
+        },
+        "x1018": {
+            "name_en": "Spare Transport Parts",
+            "name_fr": "Pièces de rechange pour véhicules",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_3_B",
+            "patch": "7.31"
+        },
+        "x703": {
+            "name_en": "Glassworker's Tools II",
+            "name_fr": "Amélioration des outils de traitement du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.702",
+            "patch": "7.31"
+        },
+        "x705": {
+            "name_en": "EX: Operation Chilling-a-Way Drone Parts II",
+            "name_fr": "EX : Amélioration des composants pour drones refroidissants",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.704",
+            "patch": "7.31"
+        },
+        "x706": {
+            "name_en": "EX: Operation Chilling-a-Way Drone Parts III",
+            "name_fr": "EX : Perfectionnement des composants pour drones refroidissants",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.705",
+            "patch": "7.31"
+        },
+        "x708": {
+            "name_en": "EX: Stellascope Parts II",
+            "name_fr": "EX : Amélioration des éléments du Stellascope",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.707",
+            "patch": "7.31"
+        },
+        "x709": {
+            "name_en": "EX+: Stellascope Parts III",
+            "name_fr": "EX+ : Perfectionnement des éléments du Stellascope",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.708",
+            "patch": "7.31"
+        },
+        "x711": {
+            "name_en": "EX+: Synthetic Crystal Glass II",
+            "name_fr": "EX+ : Amélioration de la transformation avancée du verre pseudo-cristallisé",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.710",
+            "patch": "7.31"
+        },
+        "x712": {
+            "name_en": "EX+: Phaenna Craftwork",
+            "name_fr": "EX+ : Transformation avancée des produits artisanaux phaenniens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.711",
+            "patch": "7.31"
+        },
+        "x700": {
+            "name_en": "EX+: Experimental Stormproof Components Resupply",
+            "name_fr": "EX+ : Eléments de protections contre les intempéries supplémentaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.31"
+        },
+        "x707": {
+            "name_en": "Stellascope Parts I",
+            "name_fr": "Éléments du Stellascope",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1400",
+            "patch": "7.31"
+        },
+        "x710": {
+            "name_en": "EX+: Synthetic Crystal Glass I",
+            "name_fr": "EX+ : Transformation avancée du verre pseudo-cristallisé",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2200",
+            "patch": "7.31"
+        },
+        "x699": {
+            "name_en": "EX: Emergency Oven Assembly",
+            "name_fr": "EX : Assemblage de fours d'urgence",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x701": {
+            "name_en": "EX+: Battery Packs",
+            "name_fr": "EX+ : Production augmentée de réservoirs d'énergie",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x692": {
+            "name_en": "Phaenna Glass Resupply",
+            "name_fr": "Verre phaennien supplémentaire",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x693": {
+            "name_en": "Planetary Ore Refinement",
+            "name_fr": "Extraction de minerais phaenniens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x694": {
+            "name_en": "Precision Component Processing",
+            "name_fr": "Élaboration de composants de précision",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x695": {
+            "name_en": "Crafter's Tools",
+            "name_fr": "Outils d'artisans",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x696": {
+            "name_en": "Experimental Alloy Samples",
+            "name_fr": "Affinage expérimental d'échantillons d'alliages",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x697": {
+            "name_en": "EX: Artisanal Craftwork",
+            "name_fr": "EX : Traitement de produits artisanaux",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x698": {
+            "name_en": "EX: Cosmoliner Parts",
+            "name_fr": "EX : Matériaux pour cosmo-navettes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x702": {
+            "name_en": "Glassworker's Tools I",
+            "name_fr": "Outils de traitement du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x704": {
+            "name_en": "EX: Operation Chilling-a-Way Drone Parts I",
+            "name_fr": "EX : Composants pour drones refroidissants",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x684": {
+            "name_en": "Interim Part Processing",
+            "name_fr": "Élaboration d'éléments temporaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x685": {
+            "name_en": "Phaenna Glass",
+            "name_fr": "Verre phaennien",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x686": {
+            "name_en": "Ore Refinement",
+            "name_fr": "Extraction de minerais spéciaux",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x687": {
+            "name_en": "Stellascope Lenses",
+            "name_fr": "Élaboration de lentilles pour le Stellascope",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x688": {
+            "name_en": "Weather-resistant Containers",
+            "name_fr": "Aide à la fabrication de conteneurs résistants aux intempéries",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x689": {
+            "name_en": "Bathing Equipment",
+            "name_fr": "Installation d'équipements de bain",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x690": {
+            "name_en": "Experimental Stormproof Components",
+            "name_fr": "Nouveaux éléments de protections contre les intempéries",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x691": {
+            "name_en": "Large Kitchen Equipment",
+            "name_fr": "Équipements de cuisine de grande taille",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x677": {
+            "name_en": "Multi-purpose Glass Resupply",
+            "name_fr": "Verre multi-usage supplémentaire",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x678": {
+            "name_en": "Station Parts",
+            "name_fr": "Aide à la fabrication de composants de la station",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x679": {
+            "name_en": "Gathering Tools",
+            "name_fr": "Outils de récolte supplémentaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x680": {
+            "name_en": "Stormproof Components Resupply",
+            "name_fr": "Composants imperméabilisés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x681": {
+            "name_en": "Glass Furnace Assembly",
+            "name_fr": "Assemblage de fours pour le traitement du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x682": {
+            "name_en": "Drone Precision Components",
+            "name_fr": "Traitement des composants de précision pour drones",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x683": {
+            "name_en": "Heaters",
+            "name_fr": "Installation d'équipements de chauffage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x671": {
+            "name_en": "Multi-purpose Glass",
+            "name_fr": "Verre multi-usage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x672": {
+            "name_en": "Repair Component Processing",
+            "name_fr": "Élaboration de matériaux de réparation",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x673": {
+            "name_en": "Glass Resource Refinement",
+            "name_fr": "Extraction de ressources à partir du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x674": {
+            "name_en": "Drone Lenses",
+            "name_fr": "Traitement des lentilles pour drones",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x675": {
+            "name_en": "Base Equipment",
+            "name_fr": "Composants pour installations extérieures",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x676": {
+            "name_en": "Stormproof Components",
+            "name_fr": "Matériaux de protection contre les intempéries",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

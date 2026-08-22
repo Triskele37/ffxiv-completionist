@@ -4,128 +4,131 @@
     "groupName_fr": "Thanalan central",
     "tasks": {
         "x65857": {
-            "level": 6,
             "name_en": "The Slaying of the Shrews",
             "name_fr": "Les lombrics, c'est fantastique",
+            "level": 6,
             "npc_en": "Hihiyaja",
             "npc_fr": "Hihiyaja",
+            "patch": "2.0",
             "cPrev": ["q.66086"],
-            "cNext": ["q.65858"],
-            "patch": "4.31"
+            "cNext": ["q.65858"]
         },
         "x65840": {
-            "level": 7,
             "name_en": "The Tasting of the Shrews",
             "name_fr": "Le goût des musaraignes",
+            "level": 7,
             "npc_en": "Wowobaru",
             "npc_fr": "Wowobaru",
-            "cPrev": ["q.65858"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65858"]
         },
         "x65858": {
-            "level": 7,
             "name_en": "Listen to Your Fish",
             "name_fr": "L'orobon, mon péché mignon",
+            "level": 7,
             "npc_en": "Hihiyaja",
             "npc_fr": "Hihiyaja",
+            "patch": "2.0",
             "cPrev": ["q.65857"],
-            "cNext": ["q.65840"],
-            "patch": "4.31"
+            "cNext": ["q.65840"]
         },
         "x65924": {
-            "level": 8,
             "name_en": "Bloodied and Bowed",
             "name_fr": "Les risques du métier",
+            "level": 8,
             "npc_en": "Aethelgyth",
             "npc_fr": "Aethelgyth",
-            "cPrev": ["q.69388"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.69388"]
         },
         "x65844": {
-            "level": 9,
             "name_en": "In the Court of the Rat King",
             "name_fr": "Trou à rats",
+            "level": 9,
             "npc_en": "Zezeda",
             "npc_fr": "Zezeda",
-            "cPrev": ["q.65862"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65862"]
         },
         "x65862": {
-            "level": 9,
             "name_en": "Sometimes the Old Ways Are Best",
             "name_fr": "La bonne vieille méthode",
+            "level": 9,
             "npc_en": "Zezeda",
             "npc_fr": "Zezeda",
+            "patch": "2.0",
             "cPrev": ["q.65843"],
-            "cNext": ["q.65844"],
-            "patch": "4.31"
+            "cNext": ["q.65844"]
         },
         "x66067": {
-            "level": 11,
             "name_en": "Need Not Apply in Person",
             "name_fr": "Candidat à l'enfer",
+            "level": 11,
             "npc_en": "Hamund",
             "npc_fr": "Hamund",
-            "cPrev": ["q.65866"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65866"]
         },
         "x66066": {
-            "level": 12,
             "name_en": "Alternative Medicine",
             "name_fr": "Des crapauds qui ont du cœur",
+            "level": 12,
             "npc_en": "Blayves",
             "npc_fr": "Blayves",
-            "cPrev": ["q.65866"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65866"]
         },
         "x66109": {
-            "level": 12,
             "name_en": "Fringe Benefits",
             "name_fr": "Contrer la contrebande",
+            "level": 12,
             "npc_en": "Amalberga",
             "npc_fr": "Amalberga",
-            "cPrev": ["q.65866"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65866"]
         },
         "x66174": {
-            "level": 19,
             "name_en": "Forging the Spirit",
             "name_fr": "Matérialisation spirituelle",
+            "level": 19,
             "npc_en": "Swynbroes",
             "npc_fr": "Swynbroes",
             "unlock_en": "Materia Assimilating",
-            "cNext": ["q.66175"],
-            "patch": "4.31"
+            "unlock_fr": "Materia Assimilating",
+            "patch": "2.0",
+            "cNext": ["q.66175"]
         },
         "x66175": {
-            "level": 19,
             "name_en": "Waking the Spirit",
             "name_fr": "Attachement spirituel",
+            "level": 19,
             "npc_en": "F'hobhas",
             "npc_fr": "F'hobhas",
             "unlock_en": "Materia Melding",
+            "unlock_fr": "Materia Melding",
+            "patch": "2.0",
             "cPrev": ["q.66174"],
-            "cNext": ["q.66176"],
-            "patch": "4.31"
+            "cNext": ["q.66176"]
         },
         "x66999": {
-            "level": 19,
             "name_en": "Marvelously Mutable Materia",
-            "name_fr": "Transmatérialise-moi!",
+            "name_fr": "Transmatérialise-moi !",
+            "level": 19,
             "npc_en": "Kokosamu",
             "npc_fr": "Kokosamu",
-            "cPrev": ["q.65808"],
-            "patch": "4.31"
+            "patch": "2.25",
+            "cPrev": ["q.65808"]
         },
         "x66176": {
-            "level": 25,
             "name_en": "Melding Materia Muchly",
             "name_fr": "Sertissage gobelin",
+            "level": 25,
             "npc_en": "Mutamix Bubblypots",
             "npc_fr": "Mutamix Bubblypots",
             "unlock_en": "Advanced Materia Melding",
-            "cPrev": ["q.66175"],
-            "patch": "4.31"
+            "unlock_fr": "Advanced Materia Melding",
+            "patch": "2.0",
+            "cPrev": ["q.66175"]
         }
     }
 }

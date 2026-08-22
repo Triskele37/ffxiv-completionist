@@ -1,105 +1,123 @@
-import {
-    ChangeDetectorRef,
-    Component,
-    Input,
-    OnChanges,
-    OnDestroy,
-    OnInit,
-    SimpleChanges,
-    ViewChild
-} from '@angular/core';
-import { SortEvent } from 'primeng/api';
-import { Table, TableRowReorderEvent } from 'primeng/table';
+import { Component, Input, OnChanges, OnInit, SimpleChanges, TemplateRef, ViewChild } from '@angular/core';
+import { Table } from 'primeng/table';
 
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
-import { sortPatchStrings } from '@model/util/sortPatchStrings';
-import { FilterService } from '@service/filter/filter.service';
 import { NavigationService } from '@service/navigation/navigation.service';
-import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
-import { getLinkedName } from '@util/getLinkedName';
+import { TableService } from '@service/table/table.service';
 
-import { UniqueValues } from './types';
+import { TaskTableToolbarComponent } from './toolbar/task-table-toolbar.component';
+import { HeaderRowComponent } from './row/header/header-row.component';
+import { DataRowComponent } from './row/data/data-row.component';
+import { GroupRowComponent } from './row/group/group-row.component';
 
 @Component({
-    selector: 'xiv-task-table',
+    selector: 'com-task-table',
     templateUrl: 'task-table.component.html',
-    styleUrls: ['./task-table.component.scss']
+    styleUrls: ['./task-table.component.scss'],
+    imports: [
+        Table,
+
+        TaskTableToolbarComponent,
+        HeaderRowComponent,
+        DataRowComponent,
+        GroupRowComponent,
+    ]
 })
-export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
-    @Input() group: DataGroup;
-    @Input() tasks: Task[];
+export class TaskTableComponent implements OnInit, OnChanges {
+    @Input({ required: true }) private set group(value: DataGroup) {
+        this.svcTable.property.setGroup(value);
+    };
 
-    debounceDrag: boolean;
+    @Input({ required: true }) private set tasks(value: Task[]) {
+        this.svcTable.property.setTasks(value);
+    };
 
-    uniqueValues: UniqueValues;
-    filteredTasks: Task[];
+    @Input({ required: true }) private set groupRows(value: boolean) {
+        this.svcTable.rowGroup.groupRows = value;
+    };
 
-    _taskTable: Table;
+    @Input() toolbarPre?: TemplateRef<any>;
 
-    // Shenanigans to scroll back to original position after filter rerenders table
-    scrollTop: number;
-    ignoreNextScrollTick: boolean = false;
+    _taskTable: Table | undefined;
+
+    readonly rowHeight: number = 36;
+    targetTaskScrollTo: string = '';
+    boundVirtualOnScroll = this.onVirtualScrollerScroll.bind(this);
+
+    constructor(
+        private svcNavigation: NavigationService,
+        private svcSaveStore: SaveStoreService,
+        public svcTable: TableService,
+    ) {
+    }
 
     @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
         if(!ref) return;
         this._taskTable = ref;
 
-        this.subscribeToScrollerScroll();
         this.fixVirtualReorder();
-    }
 
-    constructor(
-        private cdr: ChangeDetectorRef,
-        private svcFilter: FilterService,
-        private svcNavigation: NavigationService,
-        private svcConfig: ConfigStoreService,
-        private svcSaveStore: SaveStoreService
-    ) {
+        // Attempt to remove any outstanding scroll listeners if ref changes
+        const og = this._taskTable.onDestroy;
+        this._taskTable.onDestroy = () => {
+            try {
+                this.removeScrollListener();
+                og();
+            }
+            catch(e) {}
+        };
     }
 
     //#region----------------------------------------------------------- Lifecycle
     ngOnInit() {
-        this.svcFilter.onFilterUpdate$.subscribe(this.onFilterChange.bind(this));
+        this.svcTable.filter.onFilterUpdate$.subscribe(this.onFilterChange.bind(this));
+        this.svcSaveStore.updated$.subscribe(this.onFilterChange.bind(this));
     }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group || changes.tasks) {
-            this.updateFilteredTasks();
             this.scrollToSelectedTask();
         }
     }
 
-    ngOnDestroy(): void {
+    onFilterChange(): void {
+        // Cache the current scrollTop for scrollback
+        if(!this.targetTaskScrollTo) this.setTargetScrollTo();
+        this.svcTable.filter.updateFilteredTasks();
     }
 
     //#endregion
 
     //#region----------------------------------------------------------- Scroll
-    subscribeToScrollerScroll(): void {
-        this._taskTable.scroller.onScroll.subscribe((e) => {
-            if(this.ignoreNextScrollTick) {
-                this.ignoreNextScrollTick = false;
-                return;
-            }
-
-            this.scrollTop = (e.originalEvent.target as HTMLDivElement).scrollTop;
-        });
+    private get scrollContainer(): HTMLDivElement | null {
+        return this._taskTable?.el.nativeElement.querySelector('.p-virtualscroller');
     }
 
     scrollToSelectedTask(): void {
-        if(this.svcNavigation.selectedTask) {
-            const index = this.filteredTasks.findIndex(
-                (t) => t.fullStorageKey === this.svcNavigation.selectedTask.fullStorageKey
+        if(!this.svcTable.tasks().length) return;
+
+        const selectedTask = this.svcNavigation.selectedTask();
+        if(selectedTask) {
+            // Find the index of the selected task
+            const index = this.svcTable.tasks().findIndex(
+                (t) => t.fullStorageKey === selectedTask.fullStorageKey
             );
 
-            if(index > 0) {
-                // Clear the selectedTask
-                this.svcNavigation.selectedTask = null;
+            if(index > -1) {
+                // Clear the svcNav's selectedTask
+                this.targetTaskScrollTo = selectedTask.fullStorageKey;
+                this.svcNavigation.selectedTask.set(null);
 
-                // scrollTo cannot take place in this same tick
-                setTimeout(() => this._taskTable.scrollToVirtualIndex(index - 1), 1);
+                // Initiate a scroll to the task
+                const noReally = setInterval(() => {
+                    if(!this.scrollContainer) return;
+
+                    clearInterval(noReally);
+                    this.addScrollListener();
+                    this.triggerScrollListener();
+                }, 100);
             }
         }
         else {
@@ -107,155 +125,94 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         }
     }
 
-    //#endregion
+    /**
+     * Shenanigans to brute force prime table to scroll right
+     * - PrimeNg Virtual stops trying to scroll at a random point before the target,
+     *   this keeps firing scrolls at it until it gets there, or the safety net is hit
+     * - Safety net protects from this keeping scroll at the bottom when a filter shortens
+     *   the total scrollHeight and items near the bottom of the table
+     * - Safety net needs retry because this can run before Prime figures out
+     *   the actual full scrollHeight
+     * */
+    onVirtualScrollerScroll(event: Event) {
+        const target = event.target as HTMLElement;
 
-    //#region----------------------------------------------------------- Sort
-    alphanumericRegex = new RegExp(/[^\w.]/g);
+        // Do not attempt brute'ing before prime figures out the new scrollHeight
+        if(target.scrollHeight < this.svcTable.tasks().length * this.rowHeight) {
+            return;
+        }
 
-    sortData($event: SortEvent): void {
-        $event.data.sort((taskA, taskB) => {
-            for(const { field, order } of $event.multiSortMeta) {
-                const a = taskA[field];
-                const b = taskB[field];
-                let result;
-
-                if(!a || !b) result = a ? -1 : b ? 1 : 0;
-                else if(typeof a === 'number' && typeof b === 'number') {
-                    result = (a < b) ? -1 : (a > b) ? 1 : 0;
-                }
-                else {
-                    result = this.compareStringOrLink(a, b, field);
-                }
-
-                if(result) return result * order;
-            }
-        });
-
-        // Table doesn't re-render otherwise
-        this.filteredTasks = [...$event.data];
-    }
-
-    compareStringOrLink(a: string | string[], b: string | string[], field: string): number {
-        // In case of an array of links, take the first
-        let aVal = Array.isArray(a) ? a[0] : a;
-        let bVal = Array.isArray(b) ? b[0] : b;
-
-        // Attempt to get link text
-        const linkA = getLinkedName(aVal, true);
-        const linkB = getLinkedName(bVal, true);
-
-        // non-matching means the values are links, make sure they're strings
-        if(linkA !== aVal) aVal = linkA.toString();
-        if(linkB !== bVal) bVal = linkB.toString();
-
-        // Replace non-alphanumeric characters
-        aVal = aVal.replace(this.alphanumericRegex, '');
-        bVal = bVal.replace(this.alphanumericRegex, '');
-
-        // Handle by field key
-        if(field === 'patch') {
-            return sortPatchStrings(aVal, bVal);
+        const targetScrollTop = this.getTargetScrollTop(target);
+        if(target.scrollTop === targetScrollTop) {
+            this.removeScrollListener();
         }
         else {
-            return aVal.localeCompare(bVal, undefined, { numeric: true });
-        }
-    }
-
-    //#endregion
-
-    //#region----------------------------------------------------------- Filter
-    onFilterChange(): void {
-        this.updateFilteredTasks();
-    }
-
-    updateFilteredTasks(): void {
-        this.ignoreNextScrollTick = true;
-
-        this.filteredTasks = this.svcFilter.filterTasks(this.group, this.tasks);
-        this.uniqueValues = this._uniqueValues;
-        this.cdr.detectChanges();
-
-        // Scroll back to the current position after tasks change
-        setTimeout(() => this._taskTable?.scroller.scrollTo({ top: this.scrollTop }), 1);
-    }
-
-    get _uniqueValues(): UniqueValues {
-        const unique: UniqueValues = {};
-
-        // Grab unique values from the filtered task list
-        this.group.columns?.forEach(({ key, ...column }) => {
-            if(!column.filterable) return;
-            if(!unique[key]) unique[key] = [];
-
-            // Grab unique values
-            this.filteredTasks.forEach((task) => {
-                [].concat(task[key]).forEach((v) => {
-                    const value = getLinkedName(v, column.link)?.toString() ?? '';
-                    if(!unique[key].includes(value)) unique[key].push(value);
-                });
+            // Necessary because prime is also doing stuff here
+            setTimeout(() => {
+                this.scrollContainer!.scrollTo({ top: targetScrollTop });
             });
+        }
 
-            // Sort
-            unique[key].sort((rawA, rawB) => {
-                const a = rawA?.toString();
-                const b = rawB?.toString();
-
-                if(key === 'patch') return sortPatchStrings(a, b);
-                else return a.localeCompare(b, undefined, { numeric: true });
-            });
-
-            // Invert certain column lists
-            if(key === 'patch') unique[key].reverse();
-        });
-
-        return unique;
+        // Safety net (needs to be last or table scrolls to zero)
+        const maxScroll = target.scrollHeight - target.clientHeight;
+        if(target.clientHeight > 0 && target.scrollTop === maxScroll) {
+            this.removeScrollListener();
+        }
     }
 
-    //#endregion
+    addScrollListener(): void {
+        this.scrollContainer?.addEventListener('scroll', this.boundVirtualOnScroll);
+    }
 
-    //#region----------------------------------------------------------- Order
-    onRowReorder($event: TableRowReorderEvent): void {
-        // Bail if nothing moved
-        if($event.dragIndex === $event.dropIndex) return;
+    removeScrollListener(): void {
+        this.targetTaskScrollTo = '';
+        this.scrollContainer?.removeEventListener('scroll', this.boundVirtualOnScroll);
+    }
 
-        // Move the dragged task in the tasks array
-        if($event.dragIndex < $event.dropIndex) {
-            const task = this.tasks.splice($event.dragIndex, 1)[0];
-            this.tasks.splice($event.dropIndex, 0, task);
+    triggerScrollListener(): void {
+        this.scrollContainer?.scrollTo({ top: this.getTargetScrollTop() });
+        if(!this.scrollContainer) console.error('Error: Could not scroll container, null reference');
+    }
+
+    getTargetScrollTop(target?: HTMLElement): number {
+        if(!this.targetTaskScrollTo) return 0;
+
+        const targetIndex = this.svcTable.tasks().findIndex(
+            (t) => t.fullStorageKey === this.targetTaskScrollTo
+        );
+
+        if(target?.clientHeight) {
+            // Give the scroll handler safety net some space
+            const indexPadding = Math.ceil(target.clientHeight / this.rowHeight) - 3;
+            const maxIndex = (this.svcTable.tasks().length - 1) - indexPadding;
+            if(targetIndex > maxIndex) return maxIndex * this.rowHeight;
         }
-        else {
-            const task = this.tasks.splice($event.dragIndex, 1)[0];
-            this.tasks.splice($event.dropIndex, 0, task);
-        }
 
-        // Reorder saved
-        const customFlags = this.svcSaveStore.get('overall.custom');
-        const customMeta = this.svcSaveStore.get('custom');
-        const newFlags = {}, newMeta = {};
+        return targetIndex * this.rowHeight;
+    }
 
-        this.tasks.forEach((task) => {
-            const key = `x${task.id}`;
-            newFlags[task.id] = customFlags[task.id];
-            newMeta[key] = customMeta[key];
-        });
+    setTargetScrollTo() {
+        const currentScrollTop = this.scrollContainer?.scrollTop;
+        if(!currentScrollTop) return;
 
-        // Assign re-ordered objects, save to file
-        this.svcSaveStore.set('overall.custom', newFlags);
-        this.svcSaveStore.set('custom', newMeta);
-
-        // Debounce dragging since its tied to file write
-        this.debounceDrag = true;
-        setTimeout(() => this.debounceDrag = false, 1000);
+        const targetIndex = Math.ceil(currentScrollTop / this.rowHeight);
+        this.targetTaskScrollTo = this.svcTable.tasks()[targetIndex].fullStorageKey;
+        this.addScrollListener();
     }
 
     //#endregion
 
     //#region----------------------------------------------------------- Fix Virtual Reorder
     fixVirtualReorder() {
+        if(!this._taskTable) {
+            console.error('Error: Unable to fix virtual reorder, table nullish');
+            return;
+        }
+
         const og = this._taskTable.onRowDrop.bind(this._taskTable);
 
         this._taskTable.onRowDrop = (event, rowElement) => {
-            this._taskTable.value = [...this._taskTable.value];
+            this._taskTable!.value = [...this._taskTable!.value];
             og(event, rowElement);
         };
     }

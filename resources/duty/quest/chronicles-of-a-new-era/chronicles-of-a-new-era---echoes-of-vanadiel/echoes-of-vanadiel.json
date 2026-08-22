@@ -4,44 +4,109 @@
     "groupName_fr": "Échos de Vana'diel",
     "tasks": {
         "x70769": {
-            "cNext": ["q.70770"],
-            "cPrev": ["q.70495"],
-            "level": 100,
             "name_en": "An Otherworldly Encounter",
             "name_fr": "À la croisée des mondes",
+            "level": 100,
             "npc_en": "Hoobigo Messenger",
             "npc_fr": "Messager Hoobigo",
-            "patch": "7.1"
+            "unlock": "d.1015",
+            "patch": "7.1",
+            "cPrev": ["q.70495"],
+            "cNext": ["q.70770"],
+            "cSiblings": ["d.1015"]
         },
         "x70770": {
-            "cNext": ["q.70771"],
-            "cPrev": ["q.70769"],
-            "level": 100,
             "name_en": "It All Began with a Stone",
             "name_fr": "Tout commença avec une pierre",
+            "level": 100,
             "npc_en": "Prishe",
             "npc_fr": "Prishe",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70769"],
+            "cNext": ["q.70771"]
         },
         "x70771": {
-            "cNext": ["q.70772"],
-            "cPrev": ["q.70770"],
-            "level": 100,
             "name_en": "That World Was Called Vana'diel",
             "name_fr": "Vana'diel, l'autre monde",
+            "level": 100,
             "npc_en": "Alxaal",
             "npc_fr": "Alxaal",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70770"],
+            "cNext": ["q.70772"]
         },
         "x70772": {
-            "cPrev": ["q.70771"],
-            "level": 100,
             "name_en": "Jeuno",
             "name_fr": "Jeuno",
+            "level": 100,
             "npc_en": "Bakool Ja Ja",
             "npc_fr": "Bakool Ja Ja",
+            "unlock": ["o.709", "tto.125", "tto.124"],
             "patch": "7.1",
-            "unlock": "o.709"
+            "cPrev": ["q.70771"]
+        },
+        "x70862": {
+            "name_en": "Dreams of Paradise",
+            "name_fr": "Dans la brume d'un rêve vieux de dix mille ans",
+            "level": 100,
+            "npc_en": "Landsguard Messenger",
+            "npc_fr": "Messager de la Légion De L'Aurore",
+            "unlock": "d.1058",
+            "patch": "7.3",
+            "cPrev": ["q.70772"],
+            "cNext": ["q.70863"],
+            "cSiblings": ["d.1058"]
+        },
+        "x70863": {
+            "name_en": "Northward",
+            "name_fr": "Direction : le nord",
+            "level": 100,
+            "npc_en": "Bakool Ja Ja",
+            "npc_fr": "Bakool Ja Ja",
+            "patch": "7.3",
+            "cPrev": ["q.70862"],
+            "cNext": ["q.70864"]
+        },
+        "x70864": {
+            "name_en": "For Whom the Verse Is Sung",
+            "name_fr": "Pour qui sonne le couplet",
+            "level": 100,
+            "npc_en": "Prishe",
+            "npc_fr": "Prishe",
+            "patch": "7.3",
+            "cPrev": ["q.70863"],
+            "cNext": ["q.70865"]
+        },
+        "x70865": {
+            "name_en": "Apocalypse Nigh",
+            "name_fr": "Apocalypse imminente",
+            "level": 100,
+            "npc_en": "Bakool Ja Ja",
+            "npc_fr": "Bakool Ja Ja",
+            "patch": "7.3",
+            "cPrev": ["q.70864"],
+            "cNext": ["q.71015"]
+        },
+        "x71015": {
+            "name_en": "The Hollow Promise",
+            "name_fr": "L'Aurarque du Néant",
+            "level": 100,
+            "npc_en": "Landsguard Messenger",
+            "npc_fr": "Messager de la Légion De L'Aurore",
+            "unlock": "d.1117",
+            "patch": "7.5",
+            "cPrev": ["q.70865"],
+            "cNext": ["q.71016"],
+            "cSiblings": ["d.1117"]
+        },
+        "x71016": {
+            "name_en": "Distant Promises",
+            "name_fr": "Promesses lointaines",
+            "level": 100,
+            "npc_en": "Alxaal",
+            "npc_fr": "Alxaal",
+            "patch": "7.5",
+            "cPrev": ["q.71015"]
         }
     }
 }

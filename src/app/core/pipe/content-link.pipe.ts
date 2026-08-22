@@ -1,12 +1,15 @@
-import { NgModule, Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
 import { getContentLink } from '@model/Link/getContentLink';
 import { Task } from '@model/Task';
 
-/** Returns a pretty path to the passed DataGroup or Task
+/**
+ * Returns a pretty path to the passed DataGroup or Task
  * */
-@Pipe({ name: 'contentLink' })
+@Pipe({
+    name: 'contentLink'
+})
 export class ContentLinkPipe implements PipeTransform {
     transform(
         groupOrTask: DataGroup | Task,
@@ -15,11 +18,4 @@ export class ContentLinkPipe implements PipeTransform {
     ): string {
         return getContentLink(groupOrTask, trimGroup, nameOnly);
     }
-}
-
-@NgModule({
-    declarations: [ContentLinkPipe],
-    exports: [ContentLinkPipe]
-})
-export class ContentLinkPipeModule {
 }

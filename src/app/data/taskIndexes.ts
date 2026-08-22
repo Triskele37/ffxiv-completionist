@@ -14,23 +14,30 @@ type IndexMeta = {
 type TaskIndex = Map<number, Task>;
 
 // This is the actual entity storing indexed tasks via [shorthand][id]
-const INDEX: IndexContainer = new Map([
+export const INDEX: IndexContainer = new Map([
     ['a', createIndex('character.achievement')],
     ['ap', createIndex('character.adventure-plate')],
     ['b', createIndex('character.companion.barding')],
     ['cj', createIndex('character.character.classes--jobs')],
     ['cl', createIndex('logs.crafting-log', ['master-crafting-books'])],
+    ['cm', createIndex('duty.exploratory-missions.cosmic-exploration.mission-log')],
+    ['d', createIndex('duty.duty-raid-finder', ['record'])],
     ['e', createIndex('social.emotes')],
+    ['f', createIndex('logs.gathering.fishing-guide.fishing')],
     ['fa', createIndex('character.fashion-accessories')],
+    ['fw', createIndex('character.facewear')],
+    ['fh', createIndex('logs.gathering.fishing-log.fishing')],
+    ['fate', createIndex('duty.fate')],
+    ['h', createIndex('duty.the-hunt')],
     ['mi', createIndex('character.minion-guide')],
     ['mo', createIndex('character.mount-guide')],
-    ['d', createIndex('duty.duty-raid-finder', ['record'])],
-    ['h', createIndex('duty.the-hunt')],
-    ['f', createIndex('duty.fate')],
     ['o', createIndex('logs.orchestrion-list')],
     ['q', createIndex('duty.quest')],
+    ['sf', createIndex('logs.gathering.fishing-guide.spearfishing')],
+    ['sfh', createIndex('logs.gathering.fishing-log.spearfishing')],
     ['t', createIndex('character.character.title')],
     ['tt', createIndex('character.gold-saucer.triple-triad-card-list')],
+    ['tto', createIndex('character.gold-saucer.triple-triad-opponents')],
 ]);
 
 // Reverse lookup of storage key to shorthand
@@ -55,19 +62,13 @@ function createIndex(base: string, exclude?: string[]): IndexMeta {
  */
 export function addTaskToIndex(task: Task) {
     const baseKey = Object.keys(LOOKUP).find((base) => task.fullStorageKey.startsWith(base));
+    if(!baseKey) return;
+
     const shorthand = LOOKUP[baseKey];
 
     if(shorthand) {
-        const { exclude, map } = INDEX.get(shorthand);
+        const { exclude, map } = INDEX.get(shorthand) ?? {};
         if(exclude && exclude.some((e) => task.fullStorageKey.includes(e))) return;
-        map.set(task.id, task);
+        map?.set(task.id, task);
     }
-}
-
-/**
- * Attempt to retrieve a task from INDEX
- */
-export function getIndexedTask(indexKey: string, taskId: number | string) {
-    const id = typeof taskId === 'number' ? taskId : parseInt(taskId);
-    return isNaN(id) ? undefined : INDEX.get(indexKey)?.map.get(id);
 }

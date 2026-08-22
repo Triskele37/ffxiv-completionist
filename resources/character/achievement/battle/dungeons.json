@@ -8,8 +8,8 @@
             "name_fr": "Plongeon dans les donjons I",
             "description_en": "Successfully complete 5 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 5 donjons ou défis différents.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.740"]
         },
         "x740": {
@@ -17,8 +17,8 @@
             "name_fr": "Plongeon dans les donjons II",
             "description_en": "Successfully complete 10 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 10 donjons ou défis différents.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.739"],
             "cNext": ["a.741"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "Plongeon dans les donjons III",
             "description_en": "Successfully complete 20 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 20 donjons ou défis différents.",
-            "patch": "2.1",
             "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.740"],
             "cNext": ["a.1222"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "Plongeon dans les donjons IV",
             "description_en": "Successfully complete 30 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 30 donjons ou défis différents.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.741"],
             "cNext": ["a.1223"]
         },
@@ -47,8 +47,8 @@
             "name_fr": "Plongeon dans les donjons V",
             "description_en": "Successfully complete 40 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 40 donjons ou défis différents.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.1222"],
             "cNext": ["a.1224"]
         },
@@ -57,8 +57,8 @@
             "name_fr": "Plongeon dans les donjons VI",
             "description_en": "Successfully complete 50 unique instanced dungeon raids or trials.",
             "description_fr": "Finir 50 donjons ou défis différents.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.1223"]
         },
         "x742": {
@@ -66,8 +66,8 @@
             "name_fr": "À l'assaut des donjons I",
             "description_en": "Complete 10 instanced dungeon raids or trials.",
             "description_fr": "Finir 10 donjons ou défis.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.743"]
         },
         "x743": {
@@ -75,8 +75,8 @@
             "name_fr": "À l'assaut des donjons II",
             "description_en": "Complete 30 instanced dungeon raids or trials.",
             "description_fr": "Finir 30 donjons ou défis.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.742"],
             "cNext": ["a.744"]
         },
@@ -85,8 +85,8 @@
             "name_fr": "À l'assaut des donjons III",
             "description_en": "Complete 100 instanced dungeon raids or trials.",
             "description_fr": "Finir 100 donjons ou défis.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.743"],
             "cNext": ["a.745"]
         },
@@ -95,9 +95,9 @@
             "name_fr": "À l'assaut des donjons IV",
             "description_en": "Complete 300 instanced dungeon raids or trials.",
             "description_fr": "Finir 300 donjons ou défis.",
-            "reward": "t.109",
-            "patch": "2.1",
             "points": 10,
+            "reward": "t.109",
+            "patch": "2.0",
             "cPrev": ["a.744"],
             "cNext": ["a.746"],
             "cSiblings": ["t.109"]
@@ -107,8 +107,8 @@
             "name_fr": "Maître des donjons",
             "description_en": "Complete 1,000 instanced dungeon raids or trials.",
             "description_fr": "Finir 1 000 donjons ou défis.",
-            "patch": "2.1",
             "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.745"],
             "cNext": ["a.1225"]
         },
@@ -117,8 +117,8 @@
             "name_fr": "Légende vivante I",
             "description_en": "Successfully complete 2,000 instanced dungeon raids or trials.",
             "description_fr": "Finir 2 000 donjons ou défis.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.746"],
             "cNext": ["a.1226"]
         },
@@ -127,8 +127,8 @@
             "name_fr": "Légende vivante II",
             "description_en": "Successfully complete 5,000 instanced dungeon raids or trials.",
             "description_fr": "Finir 5 000 donjons ou défis.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.1225"],
             "cNext": ["a.1227"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Légende vivante III",
             "description_en": "Successfully complete 10,000 instanced dungeon raids or trials.",
             "description_fr": "Finir 10 000 donjons ou défis.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.1226"]
         },
         "x1576": {
@@ -146,112 +146,112 @@
             "name_fr": "Descente mortelle I",
             "description_en": "Clear the 10th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 10e sous-sol du Palais des morts.",
-            "patch": "3.35",
             "points": 5,
+            "patch": "3.35",
+            "cNext": ["a.1577"],
             "cSiblingsAt": {
                 "10": ["d.174"]
-            },
-            "cNext": ["a.1577"]
+            }
         },
         "x1577": {
             "name_en": "In Too Deep II",
             "name_fr": "Descente mortelle II",
             "description_en": "Clear the 20th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 20e sous-sol du Palais des morts.",
-            "patch": "3.35",
             "points": 5,
+            "patch": "3.35",
+            "cPrev": ["a.1576"],
+            "cNext": ["a.1578"],
             "cSiblingsAt": {
                 "20": ["d.174"]
-            },
-            "cPrev": ["a.1576"],
-            "cNext": ["a.1578"]
+            }
         },
         "x1578": {
             "name_en": "In Too Deep III",
             "name_fr": "Descente mortelle III",
             "description_en": "Clear the 30th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 30e sous-sol du Palais des morts.",
-            "patch": "3.35",
             "points": 5,
+            "patch": "3.35",
+            "cPrev": ["a.1577"],
+            "cNext": ["a.1579"],
             "cSiblingsAt": {
                 "30": ["d.174"]
-            },
-            "cPrev": ["a.1577"],
-            "cNext": ["a.1579"]
+            }
         },
         "x1579": {
             "name_en": "In Too Deep IV",
             "name_fr": "Descente mortelle IV",
             "description_en": "Clear the 40th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 40e sous-sol du Palais des morts.",
-            "patch": "3.35",
             "points": 5,
+            "patch": "3.35",
+            "cPrev": ["a.1578"],
+            "cNext": ["a.1580"],
             "cSiblingsAt": {
                 "40": ["d.174"]
-            },
-            "cPrev": ["a.1578"],
-            "cNext": ["a.1580"]
+            }
         },
         "x1580": {
             "name_en": "In Too Deep V",
             "name_fr": "Descente mortelle V",
             "description_en": "Clear the 50th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 50e sous-sol du Palais des morts.",
-            "patch": "3.35",
             "points": 10,
+            "patch": "3.35",
+            "cPrev": ["a.1579"],
+            "cNext": ["a.1655"],
             "cSiblingsAt": {
                 "50": ["d.174"]
-            },
-            "cPrev": ["a.1579"],
-            "cNext": ["a.1655"]
+            }
         },
         "x1655": {
             "name_en": "In Too Deep VI",
             "name_fr": "Descente mortelle VI",
             "description_en": "Clear the 100th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 100e sous-sol du Palais des morts.",
+            "points": 10,
             "reward": "t.319",
             "patch": "3.45",
-            "points": 10,
-            "cSiblingsAt": {
-                "100": ["d.174"]
-            },
             "cPrev": ["a.1580"],
             "cNext": ["a.1656"],
-            "cSiblings": ["t.319"]
+            "cSiblings": ["t.319"],
+            "cSiblingsAt": {
+                "100": ["d.174"]
+            }
         },
         "x1656": {
             "name_en": "In Too Deep VII",
             "name_fr": "Descente mortelle VII",
             "description_en": "Clear the 150th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 150e sous-sol du Palais des morts.",
-            "patch": "3.45",
             "points": 10,
+            "patch": "3.45",
+            "cPrev": ["a.1655"],
+            "cNext": ["a.1657"],
             "cSiblingsAt": {
                 "150": ["d.174"]
-            },
-            "cPrev": ["a.1655"],
-            "cNext": ["a.1657"]
+            }
         },
         "x1657": {
             "name_en": "In Too Deep VIII",
             "name_fr": "Descente mortelle VIII",
             "description_en": "Clear the 200th floor of the Palace of the Dead.",
             "description_fr": "Conquérir le 200e sous-sol du Palais des morts.",
-            "patch": "3.45",
             "points": 20,
+            "patch": "3.45",
+            "cPrev": ["a.1656"],
             "cSiblingsAt": {
                 "200": ["d.174"]
-            },
-            "cPrev": ["a.1656"]
+            }
         },
         "x1659": {
             "name_en": "Pal-less Palace I",
             "name_fr": "Au fin fond de la solitude I",
             "description_en": "Clear the 1st through the 50th floors of the Palace of the Dead solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans le Palais des morts en commençant par le sous-sol 1 et en s'aventurant au-delà du sous-sol 50.",
-            "patch": "3.45",
             "points": 10,
+            "patch": "3.45",
             "cNext": ["a.1660"]
         },
         "x1660": {
@@ -259,9 +259,9 @@
             "name_fr": "Au fin fond de la solitude II",
             "description_en": "Clear the 1st through the 100th floors of the Palace of the Dead solo and reach floor 101.",
             "description_fr": "Obtenir un score en solo dans le Palais des morts en commençant par le sous-sol 1 et en s'aventurant au-delà du sous-sol 100.",
+            "points": 10,
             "reward": "t.321",
             "patch": "3.45",
-            "points": 10,
             "cPrev": ["a.1659"],
             "cNext": ["a.1952"],
             "cSiblings": ["t.321"]
@@ -271,9 +271,9 @@
             "name_fr": "Au fin fond de la solitude III",
             "description_en": "Clear the 1st through the 200th floors of the Palace of the Dead solo.",
             "description_fr": "Atteindre le 200e sous-sol du Palais des morts en solo en commençant par le 1er.",
+            "points": 20,
             "reward": "t.246",
             "patch": "4.0",
-            "points": 20,
             "cPrev": ["a.1660"],
             "cSiblings": ["t.246"]
         },
@@ -282,8 +282,8 @@
             "name_fr": "Exhumation profonde I",
             "description_en": "Discover a piece of the Accursed Hoard.",
             "description_fr": "Découvrir un trésor caché.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cNext": ["a.1662"]
         },
         "x1662": {
@@ -291,8 +291,8 @@
             "name_fr": "Exhumation profonde II",
             "description_en": "Discover 100 pieces of the Accursed Hoard.",
             "description_fr": "Découvrir 100 trésors cachés.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1661"],
             "cNext": ["a.1663"]
         },
@@ -301,9 +301,9 @@
             "name_fr": "Exhumation profonde III",
             "description_en": "Discover 1,000 pieces of the Accursed Hoard.",
             "description_fr": "Découvrir 1 000 trésors cachés.",
+            "points": 10,
             "reward": "t.322",
             "patch": "3.4",
-            "points": 10,
             "cPrev": ["a.1662"],
             "cNext": ["a.1664"],
             "cSiblings": ["t.322"]
@@ -313,8 +313,8 @@
             "name_fr": "Exhumation profonde IV",
             "description_en": "Discover 5,000 pieces of the Accursed Hoard.",
             "description_fr": "Découvrir 5 000 trésors cachés.",
-            "patch": "3.4",
             "points": 20,
+            "patch": "3.4",
             "cPrev": ["a.1663"],
             "cNext": ["a.2056"]
         },
@@ -323,9 +323,9 @@
             "name_fr": "Exhumation profonde V",
             "description_en": "Discover 10,000 pieces of the Accursed Hoard.",
             "description_fr": "Découvrir 10 000 trésors cachés.",
+            "points": 20,
             "reward": "t.388",
             "patch": "4.35",
-            "points": 20,
             "cPrev": ["a.1664"],
             "cNext": ["a.3184"],
             "cSiblings": ["t.388"]
@@ -335,19 +335,29 @@
             "name_fr": "Exhumation profonde VI",
             "description_en": "Discover 20,000 pieces of the Accursed Hoard.",
             "description_fr": "Découvrir 20 000 trésors cachés.",
+            "points": 20,
             "reward": "t.664",
             "patch": "6.35",
-            "points": 20,
             "cPrev": ["a.2056"],
             "cSiblings": ["t.664"]
+        },
+        "x3816": {
+            "name_en": "For the Hoard VII",
+            "name_fr": "Exhumation profonde VII",
+            "description_en": "Discover 30,000 pieces of the Accursed Hoard.",
+            "description_fr": "Découvrir 30 000 trésors cachés.",
+            "points": 20,
+            "reward": "t.814",
+            "patch": "7.35",
+            "cSiblings": ["t.814"]
         },
         "x1665": {
             "name_en": "The Trouble with Buried I",
             "name_fr": "Flair sans fond I",
             "description_en": "Discover a piece of the Accursed Hoard without using a pomander or protomander of intuition.",
             "description_fr": "Découvrir un trésor caché dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.",
-            "patch": "3.4",
             "points": 10,
+            "patch": "3.4",
             "cNext": ["a.1666"]
         },
         "x1666": {
@@ -355,9 +365,9 @@
             "name_fr": "Flair sans fond II",
             "description_en": "Discover 100 pieces of the Accursed Hoard without using a pomander or protomander of intuition.",
             "description_fr": "Découvrir 100 trésors cachés dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.",
+            "points": 20,
             "reward": "t.323",
             "patch": "3.4",
-            "points": 20,
             "cPrev": ["a.1665"],
             "cSiblings": ["t.323"]
         },
@@ -366,75 +376,75 @@
             "name_fr": "Gratter les Cieux I",
             "description_en": "Clear the 10th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 10e étage du Pilier des Cieux.",
-            "patch": "4.35",
             "points": 5,
+            "patch": "4.35",
+            "cNext": ["a.2048"],
             "cSiblingsAt": {
                 "10": ["d.540"]
-            },
-            "cNext": ["a.2048"]
+            }
         },
         "x2048": {
             "name_en": "She's So High II",
             "name_fr": "Gratter les Cieux II",
             "description_en": "Clear the 20th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 20e étage du Pilier des Cieux.",
-            "patch": "4.35",
             "points": 5,
+            "patch": "4.35",
+            "cPrev": ["a.2047"],
+            "cNext": ["a.2049"],
             "cSiblingsAt": {
                 "20": ["d.540"]
-            },
-            "cPrev": ["a.2047"],
-            "cNext": ["a.2049"]
+            }
         },
         "x2049": {
             "name_en": "She's So High III",
             "name_fr": "Gratter les Cieux III",
             "description_en": "Clear the 30th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 30e étage du Pilier des Cieux.",
+            "points": 5,
             "reward": "t.384",
             "patch": "4.35",
-            "points": 5,
-            "cSiblingsAt": {
-                "30": ["d.540"]
-            },
             "cPrev": ["a.2048"],
             "cNext": ["a.2050"],
-            "cSiblings": ["t.384"]
+            "cSiblings": ["t.384"],
+            "cSiblingsAt": {
+                "30": ["d.540"]
+            }
         },
         "x2050": {
             "name_en": "She's So High IV",
             "name_fr": "Gratter les Cieux IV",
             "description_en": "Clear the 50th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 50e étage du Pilier des Cieux.",
-            "patch": "4.35",
             "points": 10,
+            "patch": "4.35",
+            "cPrev": ["a.2049"],
+            "cNext": ["a.2051"],
             "cSiblingsAt": {
                 "50": ["d.540"]
-            },
-            "cPrev": ["a.2049"],
-            "cNext": ["a.2051"]
+            }
         },
         "x2051": {
             "name_en": "She's So High V",
             "name_fr": "Gratter les Cieux V",
             "description_en": "Clear the 100th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 100e étage du Pilier des Cieux.",
+            "points": 10,
             "reward": "t.385",
             "patch": "4.35",
-            "points": 10,
+            "cPrev": ["a.2050"],
+            "cSiblings": ["t.385"],
             "cSiblingsAt": {
                 "100": ["d.540"]
-            },
-            "cPrev": ["a.2050"],
-            "cSiblings": ["t.385"]
+            }
         },
         "x2054": {
             "name_en": "Heaven Is a Lonely Place I",
             "name_fr": "Des sommets de solitude I",
             "description_en": "Clear the 1st through the 50th floors of Heaven-on-High solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans le Pilier des Cieux en commençant par le 1er étage et en s'aventurant au-delà du 50e.",
-            "patch": "4.35",
             "points": 10,
+            "patch": "4.35",
             "cNext": ["a.2055"]
         },
         "x2055": {
@@ -442,9 +452,9 @@
             "name_fr": "Des sommets de solitude II",
             "description_en": "Clear the 1st through the 100th floors of Heaven-on-High solo.",
             "description_fr": "Atteindre le 100e étage du Pilier des Cieux en solo en commençant par le 1er.",
+            "points": 10,
             "reward": "t.387",
             "patch": "4.35",
-            "points": 10,
             "cPrev": ["a.2054"],
             "cSiblings": ["t.387"]
         },
@@ -453,8 +463,8 @@
             "name_fr": "Plongée heuristique I",
             "description_en": "Clear the 10th floor of Eureka Orthos.",
             "description_fr": "Conquérir le 10e sous-sol d'Eurêka Orthos.",
-            "patch": "6.35",
             "points": 5,
+            "patch": "6.35",
             "cNext": ["a.3175"]
         },
         "x3175": {
@@ -462,8 +472,8 @@
             "name_fr": "Plongée heuristique II",
             "description_en": "Clear the 20th floor of Eureka Orthos.",
             "description_fr": "Conquérir le 20e sous-sol d'Eurêka Orthos.",
-            "patch": "6.35",
             "points": 5,
+            "patch": "6.35",
             "cPrev": ["a.3174"],
             "cNext": ["a.3176"]
         },
@@ -472,9 +482,9 @@
             "name_fr": "Plongée heuristique III",
             "description_en": "Clear the 30th floor of Eureka Orthos.",
             "description_fr": "Conquérir le 30e sous-sol d'Eurêka Orthos.",
+            "points": 5,
             "reward": "t.661",
             "patch": "6.35",
-            "points": 5,
             "cPrev": ["a.3175"],
             "cNext": ["a.3177"],
             "cSiblings": ["t.661"]
@@ -484,8 +494,8 @@
             "name_fr": "Plongée heuristique IV",
             "description_en": "Clear the 50th floor of Eureka Orthos.",
             "description_fr": "Conquérir le 50e sous-sol d'Eurêka Orthos.",
-            "patch": "6.35",
             "points": 10,
+            "patch": "6.35",
             "cPrev": ["a.3176"],
             "cNext": ["a.3178"]
         },
@@ -494,9 +504,9 @@
             "name_fr": "Plongée heuristique V",
             "description_en": "Clear the 100th floor of Eureka Orthos.",
             "description_fr": "Conquérir le 100e sous-sol d'Eurêka Orthos.",
+            "points": 10,
             "reward": "t.662",
             "patch": "6.35",
-            "points": 10,
             "cPrev": ["a.3177"],
             "cSiblings": ["t.662"]
         },
@@ -505,8 +515,8 @@
             "name_fr": "Solitude sublimée I",
             "description_en": "Clear the 1st through the 50th floors of Eureka Orthos solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans Eurêka Orthos en commençant par le 1er sous-sol et en s'aventurant au-delà du 50e.",
-            "patch": "6.35",
             "points": 10,
+            "patch": "6.35",
             "cNext": ["a.3183"]
         },
         "x3183": {
@@ -514,19 +524,109 @@
             "name_fr": "Solitude sublimée II",
             "description_en": "Clear the 1st through the 100th floors of Eureka Orthos solo.",
             "description_fr": "Atteindre le 100e sous-sol en solo dans Eurêka Orthos en commençant par le 1er.",
+            "points": 10,
             "reward": "t.663",
             "patch": "6.35",
-            "points": 10,
             "cPrev": ["a.3182"],
             "cSiblings": ["t.663"]
+        },
+        "x3807": {
+            "name_en": "Pilgrim's Progress I",
+            "name_fr": "Pèlerinage en terre sainte I",
+            "description_en": "Clear the area marked by stone 10 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 10e zone du Sanctuaire des pèlerins.",
+            "points": 5,
+            "patch": "7.35"
+        },
+        "x3808": {
+            "name_en": "Pilgrim's Progress II",
+            "name_fr": "Pèlerinage en terre sainte II",
+            "description_en": "Clear the area marked by stone 20 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 20e zone du Sanctuaire des pèlerins.",
+            "points": 5,
+            "patch": "7.35"
+        },
+        "x3809": {
+            "name_en": "Pilgrim's Progress III",
+            "name_fr": "Pèlerinage en terre sainte III",
+            "description_en": "Clear the area marked by stone 30 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 30e zone du Sanctuaire des pèlerins.",
+            "points": 5,
+            "reward": "t.811",
+            "patch": "7.35",
+            "cSiblings": ["t.811"]
+        },
+        "x3810": {
+            "name_en": "Pilgrim's Progress IV",
+            "name_fr": "Pèlerinage en terre sainte IV",
+            "description_en": "Clear the area marked by stone 50 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 50e zone du Sanctuaire des pèlerins.",
+            "points": 10,
+            "patch": "7.35"
+        },
+        "x3824": {
+            "name_en": "Pilgrim's Progress V",
+            "name_fr": "Pèlerinage en terre sainte V",
+            "description_en": "Clear the area marked by stone 70 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 70e zone du Sanctuaire des pèlerins.",
+            "points": 10,
+            "patch": "7.35"
+        },
+        "x3811": {
+            "name_en": "Pilgrim's Progress VI",
+            "name_fr": "Pèlerinage en terre sainte VI",
+            "description_en": "Clear the area marked by stone 100 of Pilgrim's Traverse.",
+            "description_fr": "Conquérir la 100e zone du Sanctuaire des pèlerins.",
+            "points": 10,
+            "reward": "t.812",
+            "patch": "7.35",
+            "cSiblings": ["t.812"]
+        },
+        "x3814": {
+            "name_en": "Solo Traveler I",
+            "name_fr": "Pèlerin solitaire I",
+            "description_en": "Clear the 1st through the 50th areas of Pilgrim's Traverse solo and reach stone 51.",
+            "description_fr": "Obtenir un score en solo dans le Sanctuaire des pèlerins en commençant par la 1re zone et en s'aventurant au-delà de la 50e.",
+            "points": 10,
+            "patch": "7.35"
+        },
+        "x3815": {
+            "name_en": "Solo Traveler II",
+            "name_fr": "Pèlerin solitaire II",
+            "description_en": "Clear the 1st through the 100th areas of Pilgrim's Traverse solo.",
+            "description_fr": "Atteindre la 100e zone en solo dans le Sanctuaire des pèlerins en commençant par la 1re.",
+            "points": 10,
+            "reward": "t.813",
+            "patch": "7.35",
+            "cSiblings": ["t.813"]
+        },
+        "x3818": {
+            "name_en": "Unholy Sacrament",
+            "name_fr": "Six fulms sous terre",
+            "description_en": "Complete the Final Verse (Quantum).",
+            "description_fr": "Finir le Verset final (quantique).",
+            "points": 10,
+            "reward": "t.816",
+            "patch": "7.35",
+            "cSiblings": ["t.816", "d.1063"]
+        },
+        "x3819": {
+            "name_en": "Unholy Devotion",
+            "name_fr": "Mort et enterré",
+            "description_en": "Complete the Final Verse (Quantum) with the maximum amount of sacramental offerings.",
+            "description_fr": "Finir le Verset final (quantique) après avoir accompli le maximum possible d'offrandes sacramentelles.",
+            "points": 20,
+            "reward": "t.817",
+            "patch": "7.35",
+            "cSiblings": ["t.817", "d.1063"]
         },
         "x2203": {
             "name_en": "Smokin' I",
             "name_fr": "Spectacle grandiose I",
             "description_en": "Complete a single stage at the Masked Carnivale.",
             "description_fr": "Terminer un niveau de la Grande Mascarade.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cNext": ["a.2204"]
         },
         "x2204": {
@@ -534,8 +634,8 @@
             "name_fr": "Spectacle grandiose II",
             "description_en": "Complete 5 stages at the Masked Carnivale.",
             "description_fr": "Terminer 5 niveaux de la Grande Mascarade.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2203"],
             "cNext": ["a.2205"]
         },
@@ -544,8 +644,8 @@
             "name_fr": "Spectacle grandiose III",
             "description_en": "Complete 10 stages at the Masked Carnivale.",
             "description_fr": "Terminer 10 niveaux de la Grande Mascarade.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2204"],
             "cNext": ["a.2206"]
         },
@@ -554,8 +654,8 @@
             "name_fr": "Spectacle grandiose IV",
             "description_en": "Complete 15 stages at the Masked Carnivale.",
             "description_fr": "Terminer 15 niveaux de la Grande Mascarade.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2205"],
             "cNext": ["a.2207"]
         },
@@ -564,8 +664,8 @@
             "name_fr": "Spectacle grandiose V",
             "description_en": "Complete 20 stages at the Masked Carnivale.",
             "description_fr": "Terminer 20 niveaux de la Grande Mascarade.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2206"],
             "cNext": ["a.2208"]
         },
@@ -574,9 +674,9 @@
             "name_fr": "Spectacle grandiose VI",
             "description_en": "Complete 25 stages at the Masked Carnivale.",
             "description_fr": "Terminer 25 niveaux de la Grande Mascarade.",
+            "points": 5,
             "reward": "t.414",
             "patch": "4.5",
-            "points": 5,
             "cPrev": ["a.2207"],
             "cNext": ["a.2449"],
             "cSiblings": ["t.414"]
@@ -586,8 +686,8 @@
             "name_fr": "Spectacle grandiose VII",
             "description_en": "Complete 30 stages at the Masked Carnivale.",
             "description_fr": "Terminer 30 niveaux de la Grande Mascarade.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cPrev": ["a.2208"]
         },
         "x2209": {
@@ -595,25 +695,25 @@
             "name_fr": "Plus on est grand...",
             "description_en": "Achieve the “Giant Slayer” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Tueur de géants” à la Grande Mascarade.",
-            "patch": "4.5",
-            "points": 10
+            "points": 10,
+            "patch": "4.5"
         },
         "x2210": {
             "name_en": "Octopath Traveler",
             "name_fr": "Ventouses à tout va",
             "description_en": "Achieve the “Trouble with Tentacles” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Fan des poulpes” à la Grande Mascarade.",
-            "patch": "4.5",
-            "points": 10
+            "points": 10,
+            "patch": "4.5"
         },
         "x2211": {
             "name_en": "Something Borrowed",
             "name_fr": "Abracadabrantesque",
             "description_en": "Achieve the “Perfect Blue” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Le grand bleu” à la Grande Mascarade.",
+            "points": 10,
             "reward": "t.415",
             "patch": "4.5",
-            "points": 10,
             "cSiblings": ["t.415"]
         },
         "x2450": {
@@ -621,9 +721,9 @@
             "name_fr": "Bleu céruléen",
             "description_en": "Achieve the “The Celestium's Finest” feat at the Masked Carnivale.",
             "description_fr": "Réaliser la prouesse “Bleu céruléen” à la Grande Mascarade.",
-            "reward": "t.487",
-            "patch": "5.18",
             "points": 10,
+            "reward": "t.487",
+            "patch": "5.15",
             "cSiblings": ["t.487"]
         },
         "x2727": {
@@ -631,9 +731,9 @@
             "name_fr": "Bleu pur",
             "description_en": "Achieve the “Pure Azure” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Bleu pur” à la Grande Mascarade.",
+            "points": 10,
             "reward": "t.550",
             "patch": "5.45",
-            "points": 10,
             "cSiblings": ["t.550"]
         },
         "x3318": {
@@ -641,9 +741,9 @@
             "name_fr": "Bleu doré",
             "description_en": "Achieve the “Going for Gold” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Bleu doré” à la Grande Mascarade.",
+            "points": 10,
             "reward": "t.692",
             "patch": "6.45",
-            "points": 10,
             "cSiblings": ["t.692"]
         },
         "x3148": {
@@ -651,40 +751,40 @@
             "name_fr": "Décrocher le pompon",
             "description_en": "Defeat the silkie in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre Silkie dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.28",
-            "points": 5
+            "points": 5,
+            "patch": "6.25"
         },
         "x3149": {
             "name_en": "Shadows' Past",
             "name_fr": "Éteindre la flamme ombrée",
             "description_en": "Defeat Shadowcaster Zeless Gah in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre Zeless Gah dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.28",
-            "points": 5
+            "points": 5,
+            "patch": "6.25"
         },
         "x3150": {
             "name_en": "Hollow Victory",
             "name_fr": "Démonter le gladiateur",
             "description_en": "Defeat the gladiator of Sil'dih in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre le gladiateur sildien dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.28",
-            "points": 5
+            "points": 5,
+            "patch": "6.25"
         },
         "x3151": {
             "name_en": "Secrets of Sil'dih",
             "name_fr": "Casser les quatre bras",
             "description_en": "Defeat the Thorne Knight in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre le chevalier-mage des Thorne dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.28",
-            "points": 5
+            "points": 5,
+            "patch": "6.25"
         },
         "x3155": {
             "name_en": "The Bloodsands Below",
             "name_fr": "Les bons tuyaux",
             "description_en": "Complete the criterion dungeon Another Sil'dihn Subterrane.",
             "description_fr": "Finir Les canalisations sildiennes annexes - Donjon alternatif.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.25",
             "cSiblings": ["d.878"]
         },
         "x3156": {
@@ -692,9 +792,9 @@
             "name_fr": "L'égout et les couleurs",
             "description_en": "Complete the criterion dungeon Another Sil'dihn Subterrane (Savage).",
             "description_fr": "Finir Les canalisations sildiennes annexes - Donjon alternatif (sadique).",
-            "reward": "t.657",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.657",
+            "patch": "6.25",
             "cSiblings": ["d.879", "t.657"]
         },
         "x3332": {
@@ -702,49 +802,49 @@
             "name_fr": "Trancher dans le manque de lard",
             "description_en": "Defeat Moko the Restless in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Môko le tourmenté dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3333": {
             "name_en": "Rattling the Uncaged",
             "name_fr": "Le rat dans sa cage aux trésors",
             "description_en": "Defeat Gorai the Uncaged in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Gôrai le fureteur dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3334": {
             "name_en": "The Lion Kingslayer",
             "name_fr": "Le roi des animaux disparus",
             "description_en": "Defeat Shishio in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Shishiô dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3335": {
             "name_en": "Up in Smoke",
             "name_fr": "Partir en fumée",
             "description_en": "Defeat Enenra in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Enenra dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3339": {
             "name_en": "Moving a Mountain",
             "name_fr": "Déplacer des montagnes",
             "description_en": "Complete the criterion dungeon Another Mount Rokkon.",
             "description_fr": "Finir Le mont Rokkon annexe - Donjon alternatif.",
-            "patch": "6.45",
-            "points": 10
+            "points": 10,
+            "patch": "6.45"
         },
         "x3340": {
             "name_en": "Moving a Savage Mountain",
             "name_fr": "Supplicier des montagnes",
             "description_en": "Complete the criterion dungeon Another Mount Rokkon (Savage).",
             "description_fr": "Finir Le mont Rokkon annexe - Donjon alternatif (sadique).",
+            "points": 20,
             "reward": "t.696",
             "patch": "6.45",
-            "points": 20,
             "cSiblings": ["t.696"]
         },
         "x3342": {
@@ -752,49 +852,49 @@
             "name_fr": "C'est assez !",
             "description_en": "Defeat Ketuduke in the Aloalo Island variant dungeon.",
             "description_fr": "Vaincre Ketuduke dans “L'île d'Aloalo - Donjon à embranchements”.",
-            "patch": "6.51",
-            "points": 5
+            "points": 5,
+            "patch": "6.51"
         },
         "x3343": {
             "name_en": "Number Cruncher",
             "name_fr": "Problème résolu",
             "description_en": "Defeat the lala in the Aloalo Island variant dungeon.",
             "description_fr": "Vaincre Lala dans “L'île d'Aloalo - Donjon à embranchements”.",
-            "patch": "6.51",
-            "points": 5
+            "points": 5,
+            "patch": "6.51"
         },
         "x3344": {
             "name_en": "A Prank Too Far",
             "name_fr": "Fée du logis",
             "description_en": "Defeat Statice in the Aloalo Island variant dungeon.",
             "description_fr": "Vaincre Statice dans “L'île d'Aloalo - Donjon à embranchements”.",
-            "patch": "6.51",
-            "points": 5
+            "points": 5,
+            "patch": "6.51"
         },
         "x3345": {
             "name_en": "The Frailty of Words",
             "name_fr": "Joyau endormi",
             "description_en": "Defeat the Loquloqui in the Aloalo Island variant dungeon.",
             "description_fr": "Vaincre Loquloqui dans “L'île d'Aloalo - Donjon à embranchements”.",
-            "patch": "6.51",
-            "points": 5
+            "points": 5,
+            "patch": "6.51"
         },
         "x3349": {
             "name_en": "Charting the Unknown",
             "name_fr": "À l'huile !",
             "description_en": "Complete the criterion dungeon Another Aloalo Island.",
             "description_fr": "Finir L'île d'Aloalo annexe - Donjon alternatif.",
-            "patch": "6.51",
-            "points": 10
+            "points": 10,
+            "patch": "6.51"
         },
         "x3350": {
             "name_en": "Charting the Savage Unknown",
             "name_fr": "Île cauchemardesque",
             "description_en": "Complete the criterion dungeon Another Aloalo Island (Savage).",
             "description_fr": "Finir L'île d'Aloalo annexe - Donjon alternatif (sadique).",
+            "points": 20,
             "reward": "t.698",
             "patch": "6.51",
-            "points": 20,
             "cSiblings": ["t.698"]
         },
         "x3428": {
@@ -802,10 +902,60 @@
             "name_fr": "Accroc de l'annexe",
             "description_en": "Obtain the achievements “The Savage Sands Below,” “Moving a Savage Mountain,” and “Charting the Savage Unknown.”",
             "description_fr": "Accomplir les hauts faits “L'égout et les couleurs”, “Supplicier des montagnes” et “Île cauchemardesque”.",
+            "points": 20,
             "reward": "t.723",
             "patch": "6.51",
-            "points": 20,
             "cSiblings": ["t.723"]
+        },
+        "x3892": {
+            "name_en": "Through the Carpets and Flames",
+            "name_fr": "C'est magique !",
+            "description_en": "Defeat the Pari of Plenty in The Merchant's Tale variant dungeon.",
+            "description_fr": "Vaincre Pari dans les “Contes du Camelot - Donjon à embranchements”.",
+            "points": 5,
+            "patch": "7.45"
+        },
+        "x3893": {
+            "name_en": "Singing with the Fishes",
+            "name_fr": "Chanteur des profondeurs",
+            "description_en": "Defeat Darya the Sea-maid in The Merchant's Tale variant dungeon.",
+            "description_fr": "Vaincre Darya dans les “Contes du Camelot - Donjon à embranchements”.",
+            "points": 5,
+            "patch": "7.45"
+        },
+        "x3894": {
+            "name_en": "Master of Masters",
+            "name_fr": "Qui vit par l'épée...",
+            "description_en": "Defeat the Lone Swordmaster in The Merchant's Tale variant dungeon.",
+            "description_fr": "Vaincre le maître d'armes dans les “Contes du Camelot - Donjon à embranchements”.",
+            "points": 5,
+            "patch": "7.45"
+        },
+        "x3895": {
+            "name_en": "The Strife Aquatic",
+            "name_fr": "Pêche au gros",
+            "description_en": "Defeat the Deadly Dandan in The Merchant's Tale variant dungeon.",
+            "description_fr": "Vaincre Dandan dans les “Contes du Camelot - Donjon à embranchements”.",
+            "points": 5,
+            "patch": "7.45"
+        },
+        "x3898": {
+            "name_en": "Stranger than Fiction",
+            "name_fr": "Un ouvrage captivant",
+            "description_en": "Complete The Merchant's Tale (Advanced).",
+            "description_fr": "Finir les Contes du Camelot (avancé).",
+            "points": 10,
+            "patch": "7.45"
+        },
+        "x3899": {
+            "name_en": "One Thousand and One Fights",
+            "name_fr": "Défis fantastiques",
+            "description_en": "Complete Another Merchant's Tale.",
+            "description_fr": "Finir les Contes du Camelot annexes - Donjon alternatif.",
+            "points": 20,
+            "reward": "t.831",
+            "patch": "7.45",
+            "cSiblings": ["t.831"]
         }
     }
 }

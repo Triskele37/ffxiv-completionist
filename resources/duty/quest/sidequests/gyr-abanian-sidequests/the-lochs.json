@@ -4,104 +4,104 @@
     "groupName_fr": "Les Lacs",
     "tasks": {
         "x69593": {
-            "level": 1,
             "name_en": "The Dragon Made",
             "name_fr": "Les ailes sombres d'Allag",
+            "level": 1,
             "npc_en": "Warmachina Fanatic",
             "npc_fr": "Maquettiste Des Forges",
-            "cPrev": ["mo.249", "mo.238", "mo.189", "mo.226", "mo.192", "mo.217", "mo.205"],
-            "cSiblings": ["a.2820"],
+            "unlock": "mo.245",
             "patch": "5.5",
-            "unlock": "mo.245"
+            "cPrev": ["mo.249", "mo.238", "mo.189", "mo.226", "mo.192", "mo.217", "mo.205"],
+            "cSiblings": ["a.2820"]
         },
         "x68413": {
-            "level": 69,
             "name_en": "It's a Zu Out There",
             "name_fr": "Ennemi volant parfaitement identifié",
-            "unlock": "travel.aether-currents.sb.the-lochs.13",
+            "level": 69,
             "npc_en": "Munifrid",
             "npc_fr": "Munifrid",
+            "unlock": "travel.aether-currents.sb.the-lochs.13",
+            "patch": "4.0",
             "cPrev": ["q.68084"],
-            "cSiblings": ["travel.aether-currents.sb.the-lochs.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-lochs.13"]
         },
         "x68414": {
-            "level": 69,
             "name_en": "Send in the Armor",
             "name_fr": "Armures magitek domestiques",
+            "level": 69,
             "npc_en": "Dantounuel",
             "npc_fr": "Dantounuel",
-            "cPrev": ["q.68084"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68084"]
         },
         "x68415": {
-            "level": 69,
             "name_en": "A Fletching Suggestion",
             "name_fr": "Terrain de chasse royal",
+            "level": 69,
             "npc_en": "Supriya",
             "npc_fr": "Supriya",
-            "cPrev": ["q.68084"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68084"]
         },
         "x68416": {
-            "level": 69,
             "name_en": "A Rite to Rest",
             "name_fr": "Âmes errantes",
-            "unlock": "travel.aether-currents.sb.the-lochs.12",
+            "level": 69,
             "npc_en": "Betha",
             "npc_fr": "Betha",
+            "unlock": "travel.aether-currents.sb.the-lochs.12",
+            "patch": "4.0",
             "cPrev": ["q.68084"],
-            "cSiblings": ["travel.aether-currents.sb.the-lochs.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-lochs.12"]
         },
         "x68417": {
-            "level": 69,
             "name_en": "If I Were a Fish",
             "name_fr": "Un secret impérial",
-            "unlock": "travel.aether-currents.sb.the-lochs.11",
+            "level": 69,
             "npc_en": "Dorothe",
             "npc_fr": "Dorothe",
+            "unlock": "travel.aether-currents.sb.the-lochs.11",
+            "patch": "4.0",
             "cPrev": ["q.68087"],
-            "cSiblings": ["travel.aether-currents.sb.the-lochs.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-lochs.11"]
         },
         "x68418": {
-            "level": 69,
             "name_en": "Necessities of War",
             "name_fr": "L'élasticité avant tout",
+            "level": 69,
             "npc_en": "Pamisolaux",
             "npc_fr": "Pamisolaux",
-            "cPrev": ["q.68087"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68087"]
         },
         "x68419": {
-            "level": 69,
             "name_en": "Are They Ill-tempered",
             "name_fr": "Une résistance à toute épreuve",
-            "unlock": "travel.aether-currents.sb.the-lochs.10",
+            "level": 69,
             "npc_en": "J'zula Tia",
             "npc_fr": "J'zula Tia",
+            "unlock": "travel.aether-currents.sb.the-lochs.10",
+            "patch": "4.0",
             "cPrev": ["q.68087"],
-            "cSiblings": ["travel.aether-currents.sb.the-lochs.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-lochs.10"]
         },
         "x68420": {
-            "level": 69,
             "name_en": "At the Top of the Stairs",
             "name_fr": "La tour hantée",
+            "level": 69,
             "npc_en": "Topher",
             "npc_fr": "Topher",
-            "cPrev": ["q.68087"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68087"]
         },
         "x68425": {
-            "level": 70,
             "name_en": "Those We Hold Dear",
             "name_fr": "À la mémoire de Wilred",
+            "level": 70,
             "npc_en": "Bertliana",
             "npc_fr": "Bertliana",
-            "cPrev": ["q.68089", "q.68424"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68089", "q.68424"]
         }
     }
 }

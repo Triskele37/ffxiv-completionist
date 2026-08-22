@@ -4,60 +4,60 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x66788": {
-            "level": 42,
             "name_en": "Seeking Solace",
             "name_fr": "Un tour au Refuge",
+            "level": 42,
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
             "cPrev": ["q.66488"],
             "cNext": ["q.66789"],
-            "patch": "4.31"
+            "patch": "2.1"
         },
         "x66789": {
-            "level": 42,
             "name_en": "Voyce of Concern",
             "name_fr": "La recherche du scientifique",
+            "level": 42,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
             "cPrev": ["q.66788"],
             "cNext": ["q.66790"],
             "cSiblings": ["character.character.societal-relations.5"],
-            "patch": "4.31"
+            "patch": "2.1"
         },
         "x66790": {
-            "level": 45,
             "name_en": "Pilfered Podlings",
             "name_fr": "Mission de sauvetage",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 45,
             "npc_en": "Voyce",
             "npc_fr": "Voyce",
-            "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.66789"],
             "cNext": ["q.66791"],
             "cSiblings": ["character.character.societal-relations.6"],
-            "patch": "4.31"
+            "patch": "2.1"
         },
         "x66791": {
-            "level": 48,
             "name_en": "Idle Hands",
             "name_fr": "Tel est pris qui croyait prendre",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 48,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
-            "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.66790"],
             "cNext": ["q.66792"],
             "cSiblings": ["character.character.societal-relations.7"],
-            "patch": "4.31"
+            "patch": "2.1"
         },
         "x66792": {
-            "level": 48,
             "name_en": "Feathers and Folly",
             "name_fr": "Mission de sauvetage - la revanche",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 48,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
-            "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.66791"],
             "cSiblings": ["character.character.societal-relations.8"],
-            "patch": "4.31"
+            "patch": "2.1"
         }
     }
 }

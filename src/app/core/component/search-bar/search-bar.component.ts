@@ -1,20 +1,36 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { InputText } from 'primeng/inputtext';
+import { Tooltip } from 'primeng/tooltip';
 
 import { DataService } from '@data';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
-import { SearchService, Status } from '@service/search/search.service';
+import { SearchService } from '@service/search/search.service';
+import { Status } from '@service/search/SearchTypes';
 
 @Component({
-    selector: 'xiv-search-bar',
+    selector: 'com-search-bar',
     templateUrl: './search-bar.component.html',
-    styleUrls: ['./search-bar.component.scss']
+    styleUrls: ['./search-bar.component.scss'],
+    imports: [
+        ButtonDirective,
+        FormsModule,
+        InputText,
+        NgClass,
+        Tooltip,
+        TranslatePipe
+    ]
 })
-export class SearchBarComponent implements OnInit {
+export class SearchBarComponent {
+    // double bound, no signal
     searchTerm: string = '';
 
-    @ViewChild('searchBar') searchBar: ElementRef;
-    @ViewChild('searchInput') searchInput: ElementRef;
+    @ViewChild('searchBar') searchBar: ElementRef | undefined;
+    @ViewChild('searchInput') searchInput: ElementRef | undefined;
 
     constructor(
         private svcData: DataService,
@@ -24,37 +40,33 @@ export class SearchBarComponent implements OnInit {
     ) {
     }
 
-    ngOnInit() {
-        this.svcSearch.searchStatus$.subscribe((status) => {
-            if(status === Status.Success) {
-                this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
-            }
-        });
-    }
-
+    // Make Ctrl+F to focus the search input
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyF') {
             this.searchTerm = '';
-            this.searchInput.nativeElement.focus();
+            this.searchInput?.nativeElement.focus();
         }
     }
 
+    // Add key events to the input
     onSearchKeydown($event: KeyboardEvent): void {
         // Prevent back/up hotkeys
         $event.stopPropagation();
 
+        // Auto-search if pasted into the input
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
             setTimeout(this.onSearch.bind(this), 50);
         }
 
+        // Allow either enter key to call the search
         if($event.code === 'Enter' || $event.code === 'NumpadEnter') {
             this.onSearch();
         }
     }
 
     onHomeClick(): void {
-        if(this.svcNavigation.selectedGroup$.value === this.svcMainMenu.data) {
+        if(this.svcNavigation.selectedGroup() === this.svcMainMenu.data) {
             this.svcNavigation.setSelectedGroup(this.svcData.data);
         }
         else {
@@ -73,7 +85,12 @@ export class SearchBarComponent implements OnInit {
         // Force the tooltip to show
         // timeout since pTooltip clears on click of the search icon
         setTimeout(() => {
-            this.searchBar.nativeElement.dispatchEvent(new Event('mouseenter'));
+            this.searchBar?.nativeElement.dispatchEvent(new Event('mouseenter'));
         });
+
+        // On successful search, change the displayed view to the search results
+        if(this.svcSearch.searchStatus() === Status.Success) {
+            this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
+        }
     }
 }

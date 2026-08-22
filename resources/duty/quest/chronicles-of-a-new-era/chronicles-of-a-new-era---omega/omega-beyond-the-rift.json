@@ -4,24 +4,24 @@
     "groupName_fr": "Oméga - En quête de réponses",
     "tasks": {
         "x70122": {
-            "level": 90,
             "name_en": "A Heartless Hypothesis",
             "name_fr": "Voyage à cœur ouvert",
+            "level": 90,
             "npc_en": "Bespectacled Technician",
             "npc_fr": "Ingénieure En Aérospatiale",
+            "patch": "6.15",
             "cPrev": ["q.70000", "q.68693"],
-            "cNext": ["q.70123"],
-            "patch": "6.28"
+            "cNext": ["q.70123"]
         },
         "x70123": {
-            "level": 90,
             "name_en": "Good-bye, ε̆│̆│Δ",
-            "name_fr": "∀∪ я∈vФiя, FIN?",
+            "name_fr": "∀∪ я∈vФiя, FIN ?",
+            "level": 90,
             "npc_en": "Omega",
             "npc_fr": "Oméga",
-            "cPrev": ["q.70122"],
-            "patch": "6.28",
-            "unlock": "o.509"
+            "unlock": "o.509",
+            "patch": "6.15",
+            "cPrev": ["q.70122"]
         }
     }
 }

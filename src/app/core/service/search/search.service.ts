@@ -1,42 +1,25 @@
-import { Injectable } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
 
-import { getLinkedName } from '@util/getLinkedName';
-import { fuzzyMatchObject, fuzzyMatchValue } from '@util/fuzzyMatch';
+import { getLinkedName } from '@model/Task/get/getLinkedName';
+import { fuzzyMatchObject, fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-export enum Status {
-    Success = 'success',
-    Failure = 'failure'
-}
-
-export type Match = {
-    header: string;
-    value: number | string;
-    task: Task;
-};
-
-export type GroupMatch = {
-    header: string;
-    value: number | string;
-    group: DataGroup;
-};
+import { GroupMatch, Match, Status } from './SearchTypes';
 
 @Injectable({
     providedIn: 'root'
 })
 export class SearchService {
-    searchTerm: string;
-    expanded: boolean;
+    searchTerm?: string;
+    expanded?: boolean;
 
-    searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
-    searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
-    searchTaskMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
-    searchGroupMatches$: BehaviorSubject<GroupMatch[]> = new BehaviorSubject<GroupMatch[]>([]);
+    searchStatus = signal<Status | null>(null);
+    searchError = signal<string | null>(null);
+    searchTaskMatches = signal<Match[]> ([]);
+    searchGroupMatches = signal<GroupMatch[]>([]);
 
     constructor(
         private translate: TranslateService,
@@ -56,25 +39,25 @@ export class SearchService {
         this.searchTerm = searchTerm?.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
         if(!this.searchTerm || this.searchTerm.length < 2) {
-            this.searchStatus$.next(Status.Failure);
-            this.searchError$.next(this.translate.instant('MAIN.SEARCH.TOO_SHORT'));
+            this.searchStatus.set(Status.Failure);
+            this.searchError.set(this.translate.instant('APP.SEARCH.TOO_SHORT'));
         }
         else {
-            const matches: Match[] = this.searchTasks(searchTerm, this.expanded, true);
+            const matches: Match[] = this.searchTasks(searchTerm, this.expanded ?? false, true);
             const groupMatches: GroupMatch[] = this.searchGroups(searchTerm, true);
 
             if(matches.length > 0 || groupMatches.length > 0) {
-                this.searchStatus$.next(Status.Success);
-                this.searchError$.next(null);
-                this.searchTaskMatches$.next(matches);
-                this.searchGroupMatches$.next(groupMatches);
+                this.searchStatus.set(Status.Success);
+                this.searchError.set(null);
+                this.searchTaskMatches.set(matches);
+                this.searchGroupMatches.set(groupMatches);
             }
             else if(!this.expanded) {
                 this.toggleSearchDepth();
             }
             else {
-                this.searchStatus$.next(Status.Failure);
-                this.searchError$.next(this.translate.instant('MAIN.SEARCH.NO_RESULTS'));
+                this.searchStatus.set(Status.Failure);
+                this.searchError.set(this.translate.instant('APP.SEARCH.NO_RESULTS'));
             }
         }
     }
@@ -100,6 +83,7 @@ export class SearchService {
         }
 
         group.subGroups?.forEach((subGroup) => {
+            if(!subGroup) return;
             matches.push(...this.searchGroupsForTerm(subGroup, searchTerm, partial));
         });
 
@@ -123,7 +107,7 @@ export class SearchService {
 
         // Recurse downward
         group.subGroups?.forEach((subGroup) => {
-            if(subGroup.isBookmarkGroup) return;
+            if(!subGroup || subGroup.isBookmarkGroup) return;
             matches.push(...this.searchTasksForTerm(subGroup, searchTerm, expanded, partial));
         });
 
@@ -155,11 +139,11 @@ export class SearchService {
 
                         if(Array.isArray(task[key])) {
                             value = task[key]
-                                .map((path) => getLinkedName(path, link))
+                                .map((path) => getLinkedName(path, !!link))
                                 .join(', ');
                         }
                         else {
-                            value = getLinkedName(task[key], link).toString();
+                            value = getLinkedName(task[key], !!link).toString();
                         }
 
                         matches.push({ header, value, task });

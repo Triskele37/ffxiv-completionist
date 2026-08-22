@@ -1,47 +1,48 @@
 {
     "key": "the-far-east",
-    "groupName": "@PLACE.FAR_EAST",
+    "groupName": "@PLACE.SB.FAR_EAST",
     "tasks": {
         "x0": {
-            "name": "@PLACE.SHIROGANE",
+            "name": "@PLACE.SB.SHIROGANE",
             "source": "q.68089",
+            "patch": "4.0",
             "cSiblings": ["q.68089"]
         },
         "x1": {
-            "name": "@PLACE.THE_RUBY_SEA - 1",
+            "name": "@PLACE.SB.THE_RUBY_SEA",
             "source": "q.68025",
+            "patch": "4.0",
             "cSiblings": ["q.68025"]
         },
         "x2": {
-            "name": "@PLACE.THE_RUBY_SEA - 2",
-            "source": [
-                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
-                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
-            ]
+            "name_en": "Ruby Sea Riding Map",
+            "name_fr": "Carte détaillée de la Mer de Rubis",
+            "source": ["@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)", "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"],
+            "patch": "4.4"
         },
         "x3": {
-            "name": "@PLACE.YANXIA - 1",
+            "name": "@PLACE.SB.YANXIA",
             "source": "q.68032",
+            "patch": "4.0",
             "cSiblings": ["q.68032"]
         },
         "x4": {
-            "name": "@PLACE.YANXIA - 2",
-            "source": [
-                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
-                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
-            ]
+            "name_en": "Yanxia Riding Map",
+            "name_fr": "Carte détaillée de Yanxia",
+            "source": ["@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)", "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"],
+            "patch": "4.4"
         },
         "x5": {
-            "name": "@PLACE.THE_AZIM_STEPPE - 1",
+            "name": "@PLACE.SB.THE_AZIM_STEPPE",
             "source": "q.68051",
+            "patch": "4.0",
             "cSiblings": ["q.68051"]
         },
         "x6": {
-            "name": "@PLACE.THE_AZIM_STEPPE - 2",
-            "source": [
-                "@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)",
-                "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"
-            ]
+            "name_en": "Azim Steppe Riding Map",
+            "name_fr": "Carte détaillée de la Steppe d'Azim",
+            "source": ["@VENDOR.ESTRILD (250 CURRENCY.HUNT.CENTURIO)", "@VENDOR.LEUEKIN (250 CURRENCY.HUNT.CENTURIO)"],
+            "patch": "4.4"
         }
     }
 }

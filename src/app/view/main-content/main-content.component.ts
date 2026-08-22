@@ -1,50 +1,61 @@
-import {
-    ChangeDetectorRef,
-    Component,
-    ComponentFactoryResolver,
-    OnInit,
-    ViewChild
-} from '@angular/core';
+import { ChangeDetectorRef, Component, effect, signal, ViewChild, WritableSignal } from '@angular/core';
+import { KeyValuePipe } from '@angular/common';
+import { Divider } from 'primeng/divider';
 
+import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
+import { TaskTableComponent } from '@component/task-table/task-table.component';
 import { AnchorDirective } from '@directive/anchor.directive';
 import { DataGroup } from '@model/DataGroup';
 import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
+import { ShouldShowSummaryGroupPipe } from '@pipe/should-show-group.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
+import { LandingPageComponent } from '@view/landing-page';
+import { ShowAllTableComponent } from '@view/show-all-table/show-all-table.component';
+import { getComponentFromToken } from '@view/getComponentFromToken';
 
 @Component({
-    selector: 'xiv-main-content',
+    selector: 'com-main-content',
     templateUrl: './main-content.component.html',
-    styleUrls: ['./main-content.component.scss']
+    styleUrls: ['./main-content.component.scss'],
+    imports: [
+        Divider,
+        KeyValuePipe,
+
+        AnchorDirective,
+        LandingPageComponent,
+        ShouldShowSummaryGroupPipe,
+        ShowAllTableComponent,
+        SummaryLineComponent,
+        TaskTableComponent,
+    ]
 })
-export class MainContentComponent implements OnInit {
-    selectedGroup: DataGroup;
+export class MainContentComponent {
+    previousSelectedGroup: WritableSignal<DataGroup | null> = signal(null);
 
     constructor(
         private cdr: ChangeDetectorRef,
-        private cfr: ComponentFactoryResolver,
         public svcNavigation: NavigationService
     ) {
-    }
-
-    ngOnInit(): void {
-        this.svcNavigation.selectedGroup$.subscribe((selectedGroup) => {
-            const refExists = !!this.selectedGroup?.component;
-            this.selectedGroup = selectedGroup;
-
-            if(selectedGroup.isUiGroup) {
-                // When the previous selectedGroup had a custom component, load immediately
-                // Otherwise rely on 'set anchor' to load the component
-                if(refExists && selectedGroup.component) {
-                    this.loadComponent();
-                }
-            }
-        });
+        effect(() => this.onSelectedGroupChange());
     }
 
     asIsOrder = AsIsOrderPipe.prototype.transform;
 
+    onSelectedGroupChange() {
+        const refExisted = !!this.previousSelectedGroup?.()?.component;
+        this.previousSelectedGroup.set(this.svcNavigation.selectedGroup());
+
+        if(this.svcNavigation.selectedGroup()?.isUiGroup) {
+            // When the previous selectedGroup had a custom component, load immediately
+            // Otherwise rely on 'set anchor' to load the component
+            if(refExisted && this.svcNavigation.selectedGroup()?.component) {
+                this.loadComponent();
+            }
+        }
+    }
+
     //#region------------------------------------------------------- Dynamic Component
-    _anchor: AnchorDirective;
+    _anchor?: AnchorDirective;
     @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
         if(!ref) return;
         this._anchor = ref;
@@ -55,12 +66,16 @@ export class MainContentComponent implements OnInit {
 
     // _anchor will be defined here based on how this function is called
     loadComponent(): void {
-        const { viewContainerRef } = this._anchor;
-        viewContainerRef.clear();
+        this._anchor?.viewContainerRef.clear();
+        const comp = getComponentFromToken(this.svcNavigation.selectedGroup()?.component);
 
-        const componentFactory = this.cfr.resolveComponentFactory(this.selectedGroup.component);
-        const component = viewContainerRef.createComponent(componentFactory);
-        component.changeDetectorRef.detectChanges();
+        if(!comp) {
+            console.error(`Error: Invalid component token ${this.svcNavigation.selectedGroup()?.component}`);
+            return;
+        }
+
+        const component = this._anchor?.viewContainerRef.createComponent(comp);
+        component?.changeDetectorRef.detectChanges();
     }
 
     //#endregion

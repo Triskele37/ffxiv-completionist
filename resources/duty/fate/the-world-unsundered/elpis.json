@@ -1,138 +1,138 @@
 {
     "key": "elpis",
-    "groupName": "@PLACE.ELPIS",
+    "groupName": "@PLACE.EW.ELPIS",
     "tasks": {
         "x1823": {
-            "level": 86,
             "name_en": "Grand Designs: Aigokeros",
             "name_fr": "Observation : aigokeros",
+            "level": 86,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(8.3, 28.6)",
-            "patch": "6.0",
-            "previousFate": "f.1832",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1832",
+            "patch": "6.0"
         },
         "x1824": {
-            "level": 86,
             "name_en": "Grand Designs: Io",
             "name_fr": "Observation : io",
+            "level": 86,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(8.3, 28.6)",
-            "patch": "6.0",
-            "previousFate": "f.1823",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1823",
+            "patch": "6.0"
         },
         "x1825": {
-            "level": 86,
             "name_en": "Ophion-mania",
             "name_fr": "Serpents envahissants",
+            "level": 86,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(28.4, 29.2)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1826": {
-            "level": 86,
             "name_en": "The Rustling of Murderous Leaves",
             "name_fr": "Défi : arbres trompeurs",
+            "level": 86,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(19.8, 29.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1827": {
-            "level": 86,
             "name_en": "Butterfly Kisses of Death",
             "name_fr": "Succion interdite",
+            "level": 86,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(5.3, 33.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1828": {
-            "level": 86,
             "name_en": "You Hurt My Researcher, Prepare to Die",
             "name_fr": "Punition sévère",
+            "level": 86,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10.4, 35.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1829": {
-            "level": 86,
             "name_en": "Drawing the Thunderstroke",
             "name_fr": "Excitation électrisante",
+            "level": 86,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21.5, 21.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1830": {
-            "level": 86,
             "name_en": "Nature's Staunch Protector",
             "name_fr": "Impitoyables serres",
+            "level": 86,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(30.7, 25.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "6.0"
         },
         "x1831": {
-            "level": 87,
             "name_en": "Grand Designs: Unknown Execution",
             "name_fr": "Expérimentation : concept inconnu",
+            "level": 87,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(9.6, 23.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1832": {
-            "level": 87,
             "name_en": "Grand Designs: The Newest of New",
             "name_fr": "Expérimentation : le bon concept",
+            "level": 87,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(9.6, 23.8)",
-            "patch": "6.0",
-            "previousFate": "f.1831",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1831",
+            "patch": "6.0"
         },
         "x1833": {
-            "level": 87,
             "name_en": "Bad Breath in Paradise",
             "name_fr": "Source paradisiaque",
+            "level": 87,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30.9, 13.3)",
             "patch": "6.0",
-            "hidden": true,
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "hidden": true
         },
         "x1834": {
-            "level": 87,
             "name_en": "King of the Hill",
             "name_fr": "Cornus têtus",
+            "level": 87,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(8.6, 19.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1835": {
-            "level": 87,
             "name_en": "Why Did It Have to Be Medusae?",
             "name_fr": "Visiteuses dangereuses",
+            "level": 87,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13.9, 17.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1836": {
-            "level": 87,
             "name_en": "There's a Snake in My Water Supply!",
             "name_fr": "Serpents pollueurs",
+            "level": 87,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(35.5, 17.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1837": {
-            "level": 87,
             "name_en": "Eurydike: All Bark, No Bite",
             "name_fr": "Défi : transgression fatale",
+            "level": 87,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27.9, 5.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1838": {
-            "level": 87,
             "name_en": "So Sorry, Sokles",
             "name_fr": "Copies trouées",
+            "level": 87,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(27.0, 14.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         }
     }
 }

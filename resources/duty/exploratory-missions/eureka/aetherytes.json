@@ -2,7 +2,7 @@
     "key": "aetherytes",
     "groupName_en": "Aetherytes",
     "groupName_fr": "Éthérites",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -12,106 +12,109 @@
         "eLvlReq": {
             "header_en": "eLvl Required",
             "header_fr": "Niveau d'objet requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "name_en": "Port Surgate",
             "name_fr": "Port Surgate",
-            "zone_en": "Anemos",
-            "zone_fr": "Anemos",
-            "eLvlReq": "1"
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "1",
+            "patch": "4.25"
         },
         "x1": {
             "name_en": "Abandoned Laboratory",
             "name_fr": "Laboratoire abandonné",
-            "zone_en": "Anemos",
-            "zone_fr": "Anemos",
-            "eLvlReq": "9"
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "9",
+            "patch": "4.25"
         },
         "x2": {
             "name_en": "Windtorn Cabin",
             "name_fr": "Réfuge délabré",
-            "zone_en": "Anemos",
-            "zone_fr": "Anemos",
-            "eLvlReq": "9"
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "9",
+            "patch": "4.25"
         },
         "x3": {
             "name_en": "Icepoint",
             "name_fr": "L'Engelure",
-            "zone_en": "Pagos",
-            "zone_fr": "Pagos",
-            "eLvlReq": "20"
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "20",
+            "patch": "4.36"
         },
         "x4": {
             "name_en": "Vlondette's Retreat",
             "name_fr": "Villa de Vlondette",
-            "zone_en": "Pagos",
-            "zone_fr": "Pagos",
-            "eLvlReq": "21"
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "21",
+            "patch": "4.36"
         },
         "x5": {
             "name_en": "Geothermal Studies",
             "name_fr": "Laboratoire de géothermie",
-            "zone_en": "Pagos",
-            "zone_fr": "Pagos",
-            "eLvlReq": "23"
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "23",
+            "patch": "4.36"
         },
         "x6": {
             "name_en": "Gravitational Studies",
             "name_fr": "Laboratoire d'études antigravitationnelles",
-            "zone_en": "Pagos",
-            "zone_fr": "Pagos",
-            "eLvlReq": "25"
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "25",
+            "patch": "4.36"
         },
         "x7": {
             "name_en": "Northpoint",
             "name_fr": "Le Septentrion",
-            "zone_en": "Pyros",
-            "zone_fr": "Pyros",
-            "eLvlReq": "35"
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "35",
+            "patch": "4.45"
         },
         "x8": {
             "name_en": "The Dragon Star Observatory",
             "name_fr": "Observatoire de l'étoile du dragon",
-            "zone_en": "Pyros",
-            "zone_fr": "Pyros",
-            "eLvlReq": "37"
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "37",
+            "patch": "4.45"
         },
         "x9": {
             "name_en": "The Firing Chamber",
             "name_fr": "Site d'expérimentations calorifuges",
-            "zone_en": "Pyros",
-            "zone_fr": "Pyros",
-            "eLvlReq": "39"
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "39",
+            "patch": "4.45"
         },
         "x10": {
             "name_en": "Carbonatite Quarry",
             "name_fr": "Carrière de carbonatite",
-            "zone_en": "Pyros",
-            "zone_fr": "Pyros",
-            "eLvlReq": "41"
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "41",
+            "patch": "4.45"
         },
         "x11": {
             "name_en": "Central Point",
             "name_fr": "Le Mitan",
-            "zone_en": "Hydatos",
-            "zone_fr": "Hydatos",
-            "eLvlReq": "50"
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "50",
+            "patch": "4.55"
         },
         "x12": {
             "name_en": "Unverified Research",
             "name_fr": "Ancien atelier de recherche",
-            "zone_en": "Hydatos",
-            "zone_fr": "Hydatos",
-            "eLvlReq": "51"
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "51",
+            "patch": "4.55"
         },
         "x13": {
             "name_en": "Dormitory",
             "name_fr": "Dortoir en ruine",
-            "zone_en": "Hydatos",
-            "zone_fr": "Hydatos",
-            "eLvlReq": "55"
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "55",
+            "patch": "4.55"
         }
     }
 }

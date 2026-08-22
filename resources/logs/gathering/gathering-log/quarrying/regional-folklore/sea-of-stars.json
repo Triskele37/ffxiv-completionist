@@ -3,29 +3,29 @@
     "groupName_en": "Sea of Stars",
     "groupName_fr": "Espace intersidéral",
     "tasks": {
-        "x0": {
-            "level": "90",
+        "x658": {
             "name_en": "Stonehard Water",
             "name_fr": "Eau extrêmement dure",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(9.5, 23.3)",
+            "closestAetheryte": "travel.aetherytes.others.155",
             "nodeTimer": "02:00 / 14:00",
-            "cSiblings": [
-                "logs.gathering.gathering-log.mining.regional-folklore.ilsabard-northern-empty.0",
-                "logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered.0"
-            ],
             "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.155"
+            "cSiblings": [
+                "logs.gathering.gathering-log.mining.regional-folklore.ilsabard-and-northern-empty.658",
+                "logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered.658"
+            ]
         },
-        "x1": {
-            "level": "90★",
+        "x659": {
             "name_en": "Lunar Adamantite Ore",
             "name_fr": "Minerai d'adamantium sélénien",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(9.5, 23.3)",
+            "closestAetheryte": "travel.aetherytes.others.155",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.155"
+            "patch": "6.0"
         }
     }
 }

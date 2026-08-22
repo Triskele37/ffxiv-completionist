@@ -4,138 +4,138 @@
     "groupName_fr": "Quêtes de samouraï",
     "tasks": {
         "x68095": {
-            "level": 50,
             "name_en": "The Way of the Samurai",
             "name_fr": "La voie du samouraï",
+            "level": 50,
             "npc_en": "Ul'dahn Citizen",
             "npc_fr": "Uldien Surexcité",
+            "unlock": "ap.176",
+            "patch": "4.0",
             "cNext": ["q.68096"],
-            "cSiblings": ["ap.176"],
-            "patch": "4.31",
-            "unlock": "ap.176"
+            "cSiblings": ["ap.176"]
         },
         "x68096": {
-            "level": 50,
             "name_en": "Master Musosai",
             "name_fr": "Maître Musosai",
+            "level": 50,
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
+            "patch": "4.0",
             "cPrev": ["q.68095"],
-            "cNext": ["q.68097"],
-            "patch": "4.31"
+            "cNext": ["q.68097"]
         },
         "x68097": {
-            "level": 52,
             "name_en": "The Sands of Debt",
-            "name_fr": "La légende de Musosai: la crapule d'Ul'dah",
+            "name_fr": "La légende de Musosai : la crapule d'Ul'dah",
+            "level": 52,
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
+            "patch": "4.0",
             "cPrev": ["q.68096"],
-            "cNext": ["q.68098"],
-            "patch": "4.31"
+            "cNext": ["q.68098"]
         },
         "x68098": {
-            "level": 54,
             "name_en": "Blood on the Deck",
-            "name_fr": "La légende de Musosai: l'assassin de Limsa Lominsa",
+            "name_fr": "La légende de Musosai : l'assassin de Limsa Lominsa",
+            "level": 54,
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
+            "patch": "4.0",
             "cPrev": ["q.68097"],
-            "cNext": ["q.68099"],
-            "patch": "4.31"
+            "cNext": ["q.68099"]
         },
         "x68099": {
-            "level": 56,
             "name_en": "A Fraudster in the Forest",
-            "name_fr": "La légende de Musosai: l'escroc de Gridania",
+            "name_fr": "La légende de Musosai : l'escroc de Gridania",
+            "level": 56,
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
+            "patch": "4.0",
             "cPrev": ["q.68098"],
-            "cNext": ["q.68100"],
-            "patch": "4.31"
+            "cNext": ["q.68100"]
         },
         "x68100": {
-            "level": 58,
             "name_en": "Tears in the Snow",
-            "name_fr": "La légende de Musosai: le bourreau d'Ishgard",
+            "name_fr": "La légende de Musosai : le bourreau d'Ishgard",
+            "level": 58,
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
+            "patch": "4.0",
             "cPrev": ["q.68099"],
-            "cNext": ["q.68101"],
-            "patch": "4.31"
+            "cNext": ["q.68101"]
         },
         "x68101": {
-            "level": 60,
             "name_en": "The Face of True Evil",
             "name_fr": "L'abominable Kogarashi",
+            "level": 60,
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
+            "patch": "4.0",
             "cPrev": ["q.68100"],
             "cNext": ["q.68102"],
-            "cSiblings": ["a.1812"],
-            "patch": "4.31"
+            "cSiblings": ["a.1812"]
         },
         "x68102": {
-            "level": 60,
             "name_en": "A Dignified Visitor",
             "name_fr": "La visite de la femme samouraï",
+            "level": 60,
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
+            "patch": "4.0",
             "cPrev": ["q.68101", "q.67895"],
-            "cNext": ["q.68103"],
-            "patch": "4.31"
+            "cNext": ["q.68103"]
         },
         "x68103": {
-            "level": 63,
             "name_en": "Trials of the Sekiseigumi",
             "name_fr": "L'appel à l'aide du Sekiseigumi",
+            "level": 63,
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
+            "patch": "4.0",
             "cPrev": ["q.68102"],
-            "cNext": ["q.68104"],
-            "patch": "4.31"
+            "cNext": ["q.68104"]
         },
         "x68104": {
-            "level": 65,
             "name_en": "Matsuba Mayhem",
             "name_fr": "Règlement de compte au square Matsuba",
+            "level": 65,
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
+            "patch": "4.0",
             "cPrev": ["q.68103"],
-            "cNext": ["q.68105"],
-            "patch": "4.31"
+            "cNext": ["q.68105"]
         },
         "x68105": {
-            "level": 68,
             "name_en": "The Hunt for Ugetsu",
             "name_fr": "La traque d'Ugetsu",
+            "level": 68,
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
+            "patch": "4.0",
             "cPrev": ["q.68104"],
-            "cNext": ["q.68106"],
-            "patch": "4.31"
+            "cNext": ["q.68106"]
         },
         "x68106": {
-            "level": 70,
             "name_en": "The Battle on Bekko",
             "name_fr": "L'affrontement de deux justices",
+            "level": 70,
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
+            "patch": "4.0",
             "cPrev": ["q.68105"],
             "cNext": ["q.68759"],
-            "cSiblings": ["a.1813"],
-            "patch": "4.31"
+            "cSiblings": ["a.1813"]
         },
         "x68759": {
-            "level": 80,
             "name_en": "The Legend of Musosai",
             "name_fr": "L'héritage de Musosai",
+            "level": 80,
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
-            "cPrev": ["q.68106", "q.68814", "q.69190"],
-            "cSiblings": ["ap.311", "a.2320"],
+            "unlock": "ap.311",
             "patch": "5.0",
-            "unlock": "ap.311"
+            "cPrev": ["q.68106", "q.68814", "q.69190"],
+            "cSiblings": ["ap.311", "a.2320"]
         }
     }
 }

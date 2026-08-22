@@ -1,0 +1,36 @@
+{
+    "key": "mission-log",
+    "groupName_en": "Mission Log",
+    "groupName_fr": "Mission Log",
+    "columns": {
+        "planet": {
+            "header": "@HEADER.ZONE",
+			"filterable": true
+        },
+        "crafter": {
+            "header": "@HEADER.JOB",
+			"filterable": true
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "type": {
+            "header": "@HEADER.TYPE",
+            "filterable": true
+        },
+        "condition": {
+            "header_en": "Condition",
+            "header_fr": "Condition d'apparition",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "sinus-ardorum",
+        "phaenna",
+        "oizys",
+        "auxesia"
+    ]
+}

@@ -1,178 +1,178 @@
 {
     "key": "eastern-thanalan",
-    "groupName": "@PLACE.EASTERN_THANALAN",
+    "groupName": "@PLACE.ARR.EASTERN_THANALAN",
     "tasks": {
         "x395": {
-            "level": 15,
             "name_en": "License to Quill",
             "name_fr": "De mortels piquants",
+            "level": 15,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(12, 27)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x400": {
-            "level": 17,
             "name_en": "Bazaar Blood Triangle",
             "name_fr": "Quel bazar",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(11, 16)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x401": {
-            "level": 17,
             "name_en": "Grim Undertakings",
             "name_fr": "Défi : deux yalms sous terre",
+            "level": 17,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 17)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x402": {
-            "level": 17,
             "name_en": "Simple Minds",
             "name_fr": "Esprits malfaisants",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(12, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x412": {
-            "level": 17,
             "name_en": "Almost Paradise",
             "name_fr": "Le prix de l'eau",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x413": {
-            "level": 17,
             "name_en": "Deep in the Heart of Sagolii",
             "name_fr": "Les longues-cornes se cachent pour mourir",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x397": {
-            "level": 18,
             "name_en": "Westward Bound",
             "name_fr": "En route vers l'ouest",
+            "level": 18,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x398": {
-            "level": 18,
             "name_en": "Bad Camp",
             "name_fr": "Défi : destruction de camp",
+            "level": 18,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 27)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x394": {
-            "level": 19,
             "name_en": "Men Who See Goats",
             "name_fr": "Des chèvres voraces",
+            "level": 19,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x191": {
-            "level": 26,
             "name_en": "Attack on Highbridge: Prelude",
             "name_fr": "Assaut sur Le Viaduc : prélude",
+            "level": 26,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21, 22)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x192": {
-            "level": 26,
             "name_en": "Attack on Highbridge: Act I",
             "name_fr": "Assaut sur Le Viaduc : acte I",
+            "level": 26,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 21)",
-            "patch": "2.0",
-            "previousFate": "f.191",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.191",
+            "patch": "2.0"
         },
         "x193": {
-            "level": 26,
             "name_en": "Attack on Highbridge: Act II",
             "name_fr": "Assaut sur Le Viaduc : acte II",
+            "level": 26,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(22, 21)",
-            "patch": "2.0",
-            "previousFate": "f.192",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.192",
+            "patch": "2.0"
         },
         "x194": {
-            "level": 26,
             "name_en": "Attack on Highbridge: Act III",
             "name_fr": "Assaut sur Le Viaduc : acte III",
+            "level": 26,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23, 23)",
-            "patch": "2.0",
-            "previousFate": "f.193",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.193",
+            "patch": "2.0"
         },
         "x195": {
-            "level": 26,
             "name_en": "Attack on Highbridge: Denouement",
             "name_fr": "Assaut sur Le Viaduc : dénouement",
+            "level": 26,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23, 22)",
-            "patch": "2.0",
-            "previousFate": ["f.191", "f.192", "f.193", "f.194"],
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": ["fate.191", "fate.192", "fate.193", "fate.194"],
+            "patch": "2.0"
         },
         "x409": {
-            "level": 26,
             "name_en": "Desert Rose",
             "name_fr": "Rose des sables",
+            "level": 26,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 17)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x406": {
-            "level": 27,
             "name_en": "Manifest Destiny",
             "name_fr": "Volonté divine",
+            "level": 27,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x407": {
-            "level": 29,
             "name_en": "Spare the Hair",
             "name_fr": "Défi : comme un œuf",
+            "level": 29,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x541": {
-            "level": 40,
             "name_en": "A Man Rides Through",
             "name_fr": "De l'autre côté du miroir",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x540": {
-            "level": 42,
             "name_en": "Quartz Coupling",
             "name_fr": "Quitte ou doblyn",
+            "level": 42,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 24)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x542": {
-            "level": 42,
             "name_en": "Bad Hair Day",
             "name_fr": "Défi : pelote en colère",
+            "level": 42,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27, 24)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x543": {
-            "level": 42,
             "name_en": "The Big Bagoly Theory",
             "name_fr": "Défi : se forger des chimères",
+            "level": 42,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(30, 25)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

@@ -2,7 +2,7 @@
     "key": "animals",
     "groupName_en": "Animals",
     "groupName_fr": "Animaux",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -31,397 +31,443 @@
             "link": true,
             "header_en": "Chance Leaving",
             "header_fr": "Ressource animalière rare"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "name_en": "Lost Lamb",
             "name_fr": "Agneau égaré",
-            "location": "(20, 23)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 23)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.0",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.8"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.8",
+            "patch": "6.2"
         },
         "x1": {
             "name_en": "Ornery Karakul",
             "name_fr": "Karakul rageur",
-            "location": "(20, 23)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 23)",
+            "weather": "@WEATHER.FAIR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.8",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "weather": "@WEATHER.FAIR_SKIES"
+            "patch": "6.2"
         },
         "x2": {
             "name_en": "Opo-Opo",
             "name_fr": "Opo-Opo",
-            "location": "(20, 26)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 26)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
+            "patch": "6.2"
         },
         "x3": {
             "name_en": "Lemur",
             "name_fr": "Lémur",
-            "location": "(20, 26)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 26)",
+            "time": "06:00 - 09:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "06:00 - 09:00"
+            "patch": "6.2"
         },
         "x4": {
             "name_en": "Apkallu",
             "name_fr": "Apkallu",
-            "location": "(19, 11)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(19, 11)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.0",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.4"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.4",
+            "patch": "6.2"
         },
         "x5": {
             "name_en": "Apkallu of Paradise",
             "name_fr": "Apkallu paradisiaque",
-            "location": "(19, 11)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(19, 11)",
+            "time": "12:00 - 15:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.4",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.0",
-            "time": "12:00 - 15:00"
+            "patch": "6.2"
         },
         "x6": {
             "name_en": "Ground Squirrel",
             "name_fr": "Écureuil",
-            "location": "(15, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(15, 19)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
+            "patch": "6.2"
         },
         "x7": {
             "name_en": "Star Marmot",
             "name_fr": "Marmotte",
-            "location": "(15, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(15, 19)",
+            "time": "09:00 - 12:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "09:00 - 12:00"
+            "patch": "6.2"
         },
         "x8": {
             "name_en": "Coblyn",
             "name_fr": "Coblyn",
-            "location": "(20, 13)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 13)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.5"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.5",
+            "patch": "6.2"
         },
         "x9": {
             "name_en": "Yellow Coblyn",
             "name_fr": "Coblyn jaune",
-            "location": "(27, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(27, 19)",
+            "weather": "@WEATHER.FOG",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "weather": "@WEATHER.FOG"
+            "patch": "6.2"
         },
         "x32": {
             "name_en": "Quartz Spriggan",
             "name_fr": "Spriggan albâtre",
-            "location": "(26, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(26, 19)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
+            "patch": "6.2"
         },
         "x34": {
             "name_en": "Amethyst Spriggan",
             "name_fr": "Spriggan lilas",
-            "location": "(28, 16) / (24, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(28, 16) / (24, 19)",
+            "time": "21:00 - 00:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "time": "21:00 - 00:00"
+            "patch": "6.2"
         },
         "x10": {
             "name_en": "Beachcomb",
             "name_fr": "Coquiplage",
-            "location": "(17.8, 12.6)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(17.8, 12.6)",
+            "time": "00:00 - 03:00",
+            "weather": "@WEATHER.RAIN",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "00:00 - 03:00",
-            "weather": "@WEATHER.RAIN"
+            "patch": "6.2"
         },
         "x11": {
             "name_en": "Twinklefleece",
             "name_fr": "Touffeblanche",
-            "location": "(22.1, 20.8)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(22.1, 20.8)",
+            "time": "18:00 - 21:00",
+            "weather": "@WEATHER.FOG",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.0",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "time": "18:00 - 21:00",
-            "weather": "@WEATHER.FOG"
+            "patch": "6.2"
         },
         "x29": {
             "name_en": "Morbol Seedling",
             "name_fr": "Bulbe de morbol",
-            "location": "(19, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(19, 19)",
+            "time": "03:00 - 06:00",
+            "weather": "@WEATHER.CLOUDS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "time": "03:00 - 06:00",
-            "weather": "@WEATHER.CLOUDS"
+            "patch": "6.3"
         },
         "x36": {
             "name_en": "Funguar",
             "name_fr": "Fungus",
-            "location": "(20, 27)",
             "size": "@ISLAND.ANIMAL_SIZE.SMALL",
+            "location": "(20, 27)",
+            "time": "15:00 - 18:00",
+            "weather": "@WEATHER.RAIN",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.0",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "time": "15:00 - 18:00",
-            "weather": "@WEATHER.RAIN"
+            "patch": "6.4"
         },
         "x12": {
             "name_en": "Wild Dodo",
             "name_fr": "Dodo",
-            "location": "(16, 12)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(16, 12)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.4",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3",
+            "patch": "6.2"
         },
         "x13": {
             "name_en": "Dodo of Paradise",
             "name_fr": "Dodo paradisiaque",
-            "location": "(16, 12)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(16, 12)",
+            "time": "15:00 - 18:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.4",
-            "time": "15:00 - 18:00"
+            "patch": "6.2"
         },
         "x14": {
             "name_en": "Island Doe",
             "name_fr": "Biche insulaire",
-            "location": "(21, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(21, 19)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.8"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.8",
+            "patch": "6.2"
         },
         "x15": {
             "name_en": "Island Stag",
             "name_fr": "Cerf insulaire",
-            "location": "(20, 19)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(20, 19)",
+            "time": "18:00 - 21:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7",
-            "time": "18:00 - 21:00"
+            "patch": "6.2"
         },
         "x16": {
             "name_en": "Chocobo",
             "name_fr": "Chocobo",
-            "location": "(20, 21)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(20, 21)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3",
+            "patch": "6.2"
         },
         "x17": {
             "name_en": "Black Chocobo",
             "name_fr": "Chocobo noir",
-            "location": "(13, 11)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(13, 11)",
+            "weather": "@WEATHER.CLEAR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "weather": "@WEATHER.CLEAR_SKIES"
+            "patch": "6.2"
         },
         "x18": {
             "name_en": "Glyptodon Pup",
             "name_fr": "Bébé glyptodon",
-            "location": "(30, 11)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(30, 11)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
+            "patch": "6.2"
         },
         "x19": {
             "name_en": "Glyptodon",
             "name_fr": "Glyptodon",
-            "location": "(31, 11)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(31, 11)",
+            "time": "00:00 - 03:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.5",
-            "time": "00:00 - 03:00"
+            "patch": "6.2"
         },
         "x20": {
             "name_en": "Paissa",
             "name_fr": "Païssa",
-            "location": "(25, 28)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(25, 28)",
+            "time": "12:00 - 15:00",
+            "weather": "@WEATHER.FAIR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.0",
-            "time": "12:00 - 15:00",
-            "weather": "@WEATHER.FAIR_SKIES"
+            "patch": "6.2"
         },
         "x30": {
             "name_en": "Tiger of Paradise",
             "name_fr": "Tigre paradisiaque",
-            "location": "(15, 14)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(15, 14)",
+            "time": "18:00 - 21:00",
+            "weather": "@WEATHER.FAIR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "time": "18:00 - 21:00",
-            "weather": "@WEATHER.FAIR_SKIES"
+            "patch": "6.3"
         },
         "x35": {
             "name_en": "Alkonost",
             "name_fr": "Alkonost",
-            "location": "(23, 30)",
             "size": "@ISLAND.ANIMAL_SIZE.MEDIUM",
+            "location": "(23, 30)",
+            "time": "21:00 - 00:00",
+            "weather": "@WEATHER.CLEAR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.4",
-            "time": "21:00 - 00:00",
-            "weather": "@WEATHER.CLEAR_SKIES"
+            "patch": "6.4"
         },
         "x21": {
             "name_en": "Aurochs",
             "name_fr": "Auroch",
-            "location": "(12, 17)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(12, 17)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.8",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7",
+            "patch": "6.2"
         },
         "x22": {
             "name_en": "Grand Buffalo",
             "name_fr": "Grand buffle",
-            "location": "(12, 17)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(12, 17)",
+            "weather": "@WEATHER.CLOUDS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.7",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.8",
-            "weather": "@WEATHER.CLOUDS"
+            "patch": "6.2"
         },
         "x23": {
             "name_en": "Island Nanny",
             "name_fr": "Étagne insulaire",
-            "location": "(26, 24)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(26, 24)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.8",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7",
+            "patch": "6.2"
         },
         "x24": {
             "name_en": "Island Billy",
             "name_fr": "Bouquetin insulaire",
-            "location": "(26, 22)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(26, 22)",
+            "time": "03:00 - 06:00",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.7",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.0",
-            "time": "03:00 - 06:00"
+            "patch": "6.2"
         },
         "x25": {
             "name_en": "Blue Back",
             "name_fr": "Dronte échine-bleue",
-            "location": "(28, 28)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(28, 28)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.4",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.3",
+            "patch": "6.2"
         },
         "x26": {
             "name_en": "Gold Back",
             "name_fr": "Dronte échine-dorée",
-            "location": "(31, 28)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(31, 28)",
+            "weather": "@WEATHER.RAIN",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.4",
-            "weather": "@WEATHER.RAIN"
+            "patch": "6.2"
         },
         "x33": {
             "name_en": "Wild Boar",
             "name_fr": "Sanglier sauvage",
-            "location": "(18, 16)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(18, 16)",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7"
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7",
+            "patch": "6.2"
         },
         "x37": {
             "name_en": "Boar of Paradise",
             "name_fr": "Sanglier paradisiaque",
-            "location": "(17, 16)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(17, 16)",
+            "time": "09:00 - 12:00",
+            "weather": "@WEATHER.SHOWERS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.7",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "time": "09:00 - 12:00",
-            "weather": "@WEATHER.SHOWERS"
+            "patch": "6.4"
         },
         "x27": {
             "name_en": "Alligator",
             "name_fr": "Alligator",
-            "location": "(17, 24)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(17, 24)",
+            "time": "06:00 - 09:00",
+            "weather": "@WEATHER.SHOWERS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
-            "time": "06:00 - 09:00",
-            "weather": "@WEATHER.SHOWERS"
+            "patch": "6.2"
         },
         "x28": {
             "name_en": "Goobbue",
             "name_fr": "Goobbue",
-            "location": "(33, 16)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(33, 16)",
+            "time": "09:00 - 12:00",
+            "weather": "@WEATHER.CLOUDS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "09:00 - 12:00",
-            "weather": "@WEATHER.CLOUDS"
+            "patch": "6.2"
         },
         "x31": {
             "name_en": "Griffin",
             "name_fr": "Griffon",
-            "location": "(15, 22)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(15, 22)",
+            "time": "15:00 - 18:00",
+            "weather": "@WEATHER.CLEAR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "15:00 - 18:00",
-            "weather": "@WEATHER.CLEAR_SKIES"
+            "patch": "6.3"
         },
         "x38": {
             "name_en": "Weird Spriggan",
             "name_fr": "Spriggan extravagant",
-            "location": "(24, 18)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(24, 18)",
+            "time": "00:00 - 03:00",
+            "weather": "@WEATHER.FOG",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
-            "time": "00:00 - 03:00",
-            "weather": "@WEATHER.FOG"
+            "patch": "6.5"
         },
         "x39": {
             "name_en": "Adamantoise",
             "name_fr": "Adamankhléone",
-            "location": "(32, 12)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(32, 12)",
+            "time": "12:00 - 03:00",
+            "weather": "@WEATHER.FOG",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
-            "time": "12:00 - 03:00",
-            "weather": "@WEATHER.FOG"
+            "patch": "6.5"
         },
         "x40": {
             "name_en": "Grand Doblyn",
             "name_fr": "Doblyn géant",
-            "location": "(24, 21)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(24, 21)",
+            "time": "03:00 - 06:00",
+            "weather": "@WEATHER.FAIR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.5",
-            "time": "03:00 - 06:00",
-            "weather": "@WEATHER.FAIR_SKIES"
+            "patch": "6.5"
         },
         "x41": {
             "name_en": "Pteranodon",
             "name_fr": "Ptéranodon",
-            "location": "(25, 16)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(25, 16)",
+            "time": "09:00 - 12:00",
+            "weather": "@WEATHER.CLEAR_SKIES",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.1",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.7",
-            "time": "09:00 - 12:00",
-            "weather": "@WEATHER.CLEAR_SKIES"
+            "patch": "6.5"
         },
         "x42": {
             "name_en": "Morbol",
             "name_fr": "Morbol",
-            "location": "(29, 24)",
             "size": "@ISLAND.ANIMAL_SIZE.LARGE",
+            "location": "(29, 24)",
+            "time": "21:00 - 00:00",
+            "weather": "@WEATHER.SHOWERS",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
             "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.5",
-            "time": "21:00 - 00:00",
-            "weather": "@WEATHER.SHOWERS"
+            "patch": "6.5"
         }
     }
 }

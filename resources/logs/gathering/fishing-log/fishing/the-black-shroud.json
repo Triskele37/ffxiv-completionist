@@ -1,215 +1,241 @@
 {
     "key": "the-black-shroud",
     "groupName_en": "The Black Shroud",
-    "groupName_fr": "Forêt de Sombreliceul",
+    "groupName_fr": "Forêt de Sombrelinceul",
     "tasks": {
-        "x0": {
+        "x90": {
             "name_en": "Jadeite Flood",
             "name_fr": "Berges de Jade",
-            "level": "5",
-            "zone": "@PLACE.GRIDANIA",
+            "level": 5,
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
             "location": "(12, 13)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x1": {
+        "x91": {
             "name_en": "Lower Black Tea Brook",
             "name_fr": "Aval du ruisseau du Thé noir",
-            "level": "5",
-            "zone": "@PLACE.GRIDANIA",
+            "level": 5,
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
             "location": "(10, 11)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x2": {
+        "x81": {
             "name_en": "Whispering Gorge",
-            "name_fr": "Ravins des Lamentations",
-            "level": "5",
-            "zone": "@PLACE.GRIDANIA",
+            "name_fr": "Ravin des Lamentations",
+            "level": 5,
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
             "location": "(15, 6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x3": {
+        "x100": {
             "name_en": "Upper Black Tea Brook",
             "name_fr": "Amont du ruisseau du Thé noir",
-            "level": "5",
-            "zone": "@PLACE.GRIDANIA",
+            "level": 5,
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
             "location": "(8, 8)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x4": {
+        "x2": {
             "name_en": "The Vein",
             "name_fr": "Veine",
-            "level": "5",
-            "zone": "@PLACE.CENTRAL_SHROUD",
+            "level": 5,
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
             "location": "(22, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x5": {
+        "x3": {
             "name_en": "The Mirror",
             "name_fr": "Le Miroir",
-            "level": "15",
-            "zone": "@PLACE.CENTRAL_SHROUD",
+            "level": 15,
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
             "location": "(26, 28)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x6": {
+        "x4": {
             "name_en": "Everschade",
             "name_fr": "Breuil de l'Ombre éternelle",
-            "level": "30",
-            "zone": "@PLACE.CENTRAL_SHROUD",
+            "level": 30,
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
             "location": "(15, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x7": {
+        "x5": {
             "name_en": "Hopeseed Pond",
             "name_fr": "Mare de l'Espoir",
-            "level": "35",
-            "zone": "@PLACE.CENTRAL_SHROUD",
+            "level": 35,
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
             "location": "(13, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x8": {
+        "x92": {
             "name_en": "Haukke Manor",
             "name_fr": "Manoir des Haukke",
-            "level": "35",
-            "zone": "@PLACE.CENTRAL_SHROUD",
+            "level": 35,
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
             "location": "(10, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x9": {
+        "x6": {
             "name_en": "Sweetbloom Pier",
             "name_fr": "Jetée du Bouquet",
-            "level": "15",
-            "zone": "@PLACE.EAST_SHROUD",
+            "level": 15,
+            "zone": "@PLACE.ARR.EAST_SHROUD",
             "location": "(10, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x10": {
+        "x8": {
             "name_en": "Springripple Brook",
             "name_fr": "Ruisseau de l'Ondulé",
-            "level": "15",
-            "zone": "@PLACE.EAST_SHROUD",
+            "level": 15,
+            "zone": "@PLACE.ARR.EAST_SHROUD",
             "location": "(24, 25)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x11": {
+        "x10": {
             "name_en": "Sanctum of the Twelve",
             "name_fr": "Sanctuaire des Douze",
-            "level": "20",
-            "zone": "@PLACE.EAST_SHROUD",
+            "level": 20,
+            "zone": "@PLACE.ARR.EAST_SHROUD",
             "location": "(17, 16)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x12": {
+        "x7": {
             "name_en": "Verdant Drop",
             "name_fr": "Échancrure",
-            "level": "25",
-            "zone": "@PLACE.EAST_SHROUD",
+            "level": 25,
+            "zone": "@PLACE.ARR.EAST_SHROUD",
             "location": "(20, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x13": {
+        "x9": {
             "name_en": "Sylphlands",
             "name_fr": "Terres sylphes",
-            "level": "45",
-            "zone": "@PLACE.EAST_SHROUD",
+            "level": 45,
+            "zone": "@PLACE.ARR.EAST_SHROUD",
             "location": "(26, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x14": {
+        "x11": {
             "name_en": "Upper Hathoeva River",
             "name_fr": "Amont d'Hathoeva",
-            "level": "20",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 20,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(18, 19)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x15": {
+        "x13": {
             "name_en": "Lower Hathoeva River",
             "name_fr": "Aval d'Hathoeva",
-            "level": "25",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 25,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(18, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x16": {
+        "x14": {
             "name_en": "East Hathoeva River",
             "name_fr": "Est d'Hathoeva",
-            "level": "25",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 25,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(24, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x17": {
+        "x12": {
             "name_en": "Middle Hathoeva River",
-            "name_fr": "Centre d'Hatoeva",
-            "level": "30",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "name_fr": "Centre d'Hathoeva",
+            "level": 30,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(19, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x18": {
+        "x15": {
             "name_en": "Goblinblood",
             "name_fr": "Camp des Gobelins",
-            "level": "30",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 30,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(27, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x19": {
+        "x16": {
             "name_en": "Rootslake",
             "name_fr": "Lac des Racines",
-            "level": "35",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 35,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(18, 29)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x20": {
+        "x17": {
             "name_en": "Urth's Gift",
             "name_fr": "Le Don d'Urth",
-            "level": "45",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "level": 45,
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(32, 23)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x21": {
+        "x18": {
             "name_en": "Murmur Rills",
             "name_fr": "Rivière des Murmures",
-            "level": "15",
-            "zone": "@PLACE.NORTH_SHROUD",
+            "level": 15,
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
             "location": "(26, 25)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x22": {
+        "x19": {
             "name_en": "Fallgourd Float",
             "name_fr": "Lac de la Calebasse",
-            "level": "15",
-            "zone": "@PLACE.NORTH_SHROUD",
+            "level": 15,
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
             "location": "(21, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x23": {
+        "x20": {
             "name_en": "Proud Creek",
             "name_fr": "La Fierté",
-            "level": "40",
-            "zone": "@PLACE.NORTH_SHROUD",
+            "level": 40,
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
             "location": "(20, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x24": {
+        "x21": {
             "name_en": "Lake Tahtotl",
             "name_fr": "Lac Tahtotl",
-            "level": "50",
-            "zone": "@PLACE.NORTH_SHROUD",
+            "level": 50,
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
             "location": "(18, 19)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x25": {
+        "x105": {
             "name_en": "The Lavender Beds",
             "name_fr": "Lavandière",
-            "level": "30",
-            "zone": "@PLACE.THE_LAVENDER_BEDS",
-            "location": "@PLACE.THE_LAVENDER_BEDS",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "level": 30,
+            "zone": "@PLACE.ARR.THE_LAVENDER_BEDS",
+            "location": "@PLACE.ARR.THE_LAVENDER_BEDS",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.1"
         }
     }
 }

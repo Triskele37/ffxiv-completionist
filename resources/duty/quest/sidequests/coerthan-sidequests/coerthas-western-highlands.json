@@ -4,382 +4,383 @@
     "groupName_fr": "Hautes terres du Coerthas occidental",
     "tasks": {
         "x67268": {
-            "level": 50,
             "name_en": "Contingency Supplies",
             "name_fr": "Faire des réserves",
+            "level": 50,
             "npc_en": "Noirterel",
             "npc_fr": "Noirterel",
-            "cPrev": ["q.67119"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67119"]
         },
         "x67271": {
-            "level": 50,
             "name_en": "Dances with Wolves",
             "name_fr": "Dans la gueule du loup",
+            "level": 50,
             "npc_en": "Ysaudore",
             "npc_fr": "Ysaudore",
-            "cPrev": ["q.67122"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67122"]
         },
         "x67272": {
-            "level": 50,
             "name_en": "Grandfather's Belongings",
             "name_fr": "À la recherche des souvenirs oubliés",
+            "level": 50,
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
-            "cPrev": ["q.67122"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67122"]
         },
         "x67273": {
-            "level": 50,
             "name_en": "An Attractive Charm",
             "name_fr": "Mon précieux",
+            "level": 50,
             "npc_en": "Hot-tempered Knight",
             "npc_fr": "Chevalier Agité",
-            "cPrev": ["q.67124"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67124"]
         },
         "x67280": {
-            "level": 50,
             "name_en": "Bridge over Frozen Water",
             "name_fr": "Ouvriers en péril",
-            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.10",
+            "level": 50,
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.10",
+            "patch": "3.0",
             "cPrev": ["q.67134"],
-            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.10"]
         },
         "x67269": {
-            "level": 50,
             "name_en": "Stolen Goods",
             "name_fr": "Quand le malheur s'acharne",
+            "level": 50,
             "npc_en": "Auriaune",
             "npc_fr": "Auriaune",
+            "patch": "3.0",
             "cPrev": ["q.67119"],
-            "cNext": ["q.67270"],
-            "patch": "4.31"
+            "cNext": ["q.67270"]
         },
         "x67270": {
-            "level": 50,
             "name_en": "Memories in the Snow",
             "name_fr": "Tant de souvenirs enfouis",
+            "level": 50,
             "npc_en": "Sigan",
             "npc_fr": "Sigan",
+            "patch": "3.0",
             "cPrev": ["q.67119", "q.67269"],
-            "cNext": ["q.67281"],
-            "patch": "4.31"
+            "cNext": ["q.67281"]
         },
         "x67281": {
-            "level": 50,
             "name_en": "A Mystery Illness",
             "name_fr": "Un mal mystérieux",
+            "level": 50,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
+            "patch": "3.0",
             "cPrev": ["q.67134", "q.67270"],
-            "cNext": ["q.67282"],
-            "patch": "4.31"
+            "cNext": ["q.67282"]
         },
         "x67282": {
-            "level": 50,
             "name_en": "Bad Wine",
             "name_fr": "L'origine du vin empoisonné",
+            "level": 50,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
+            "patch": "3.0",
             "cPrev": ["q.67134", "q.67281"],
-            "cNext": ["q.67283"],
-            "patch": "4.31"
+            "cNext": ["q.67283"]
         },
         "x67283": {
-            "level": 50,
             "name_en": "Ancient Wisdom",
             "name_fr": "Le savoir des anciens",
+            "level": 50,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["q.67134", "q.67282"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67134", "q.67282"]
         },
         "x67288": {
-            "level": 51,
             "name_en": "Flower Mill",
             "name_fr": "Séquence nostalgie",
+            "level": 51,
             "npc_en": "Well-mannered Widow",
             "npc_fr": "Vieille Femme Raffinée",
-            "cPrev": ["q.67139"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67139"]
         },
         "x67289": {
-            "level": 51,
             "name_en": "Lonely Vigil",
             "name_fr": "La nostalgie du crépuscule",
+            "level": 51,
             "npc_en": "Spiteful Knight",
             "npc_fr": "Vétéran Renfrogné",
-            "cPrev": ["q.67142"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67142"]
         },
         "x67295": {
-            "level": 51,
             "name_en": "Protecting What's Important",
             "name_fr": "Des ours trop gourmands",
-            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.13",
+            "level": 51,
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.13",
+            "patch": "3.0",
             "cPrev": ["q.67143"],
             "cNext": ["q.67299"],
-            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.13"]
         },
         "x67296": {
-            "level": 51,
             "name_en": "Baby Steps",
             "name_fr": "L'étoffe des chasseurs de dragons",
-            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.12",
+            "level": 51,
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.12",
+            "patch": "3.0",
             "cPrev": ["q.67142"],
             "cNext": ["q.67297"],
-            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.12"]
         },
         "x67299": {
-            "level": 51,
             "name_en": "Winter Is Coming",
             "name_fr": "L'hiver arrive",
+            "level": 51,
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
+            "patch": "3.0",
             "cPrev": ["q.67143", "q.67295"],
-            "cNext": ["q.67304"],
-            "patch": "4.31"
+            "cNext": ["q.67304"]
         },
         "x67297": {
-            "level": 51,
             "name_en": "Baby Strides",
             "name_fr": "L'amer des dragons",
+            "level": 51,
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
+            "patch": "3.0",
             "cPrev": ["q.67142", "q.67296"],
-            "cNext": ["q.67303"],
-            "patch": "4.31"
+            "cNext": ["q.67303"]
         },
         "x67304": {
-            "level": 51,
             "name_en": "A Faithful Companion",
             "name_fr": "Le plus fidèle ami de l'homme",
+            "level": 51,
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["q.67143", "q.67299"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67143", "q.67299"]
         },
         "x67303": {
-            "level": 51,
             "name_en": "Spring into Action",
             "name_fr": "Une source d'intérêt public",
+            "level": 51,
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
-            "cPrev": ["q.67143", "q.67297"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67143", "q.67297"]
         },
         "x67290": {
-            "level": 51,
             "name_en": "Cat on a Cold Stone Roof",
             "name_fr": "Un petit minou tout doux",
+            "level": 51,
             "npc_en": "Nonplussed Noblewoman",
             "npc_fr": "Aristocrate Embarrassée",
-            "cPrev": ["q.67144"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67144"]
         },
         "x67298": {
-            "level": 51,
             "name_en": "The Secret to Success",
             "name_fr": "Rêve de dragon",
+            "level": 51,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
+            "patch": "3.0",
             "cPrev": ["q.67142"],
-            "cNext": ["q.67300"],
-            "patch": "4.31"
+            "cNext": ["q.67300"]
         },
         "x67300": {
-            "level": 51,
             "name_en": "Introductory Dragonslaying",
             "name_fr": "Appât de dragon",
+            "level": 51,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
+            "patch": "3.0",
             "cPrev": ["q.67142", "q.67298"],
-            "cNext": ["q.67301"],
-            "patch": "4.31"
+            "cNext": ["q.67301"]
         },
         "x67301": {
-            "level": 51,
             "name_en": "Intermediate Dragonslaying",
             "name_fr": "Chagrin de dragon",
+            "level": 51,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
+            "patch": "3.0",
             "cPrev": ["q.67142", "q.67300"],
-            "cNext": ["q.67302"],
-            "patch": "4.31"
+            "cNext": ["q.67302"]
         },
         "x67302": {
-            "level": 51,
             "name_en": "Advanced Dragonslaying",
             "name_fr": "Souhait de dragon",
+            "level": 51,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
+            "patch": "3.0",
             "cPrev": ["q.67142", "q.67301"],
-            "cNext": ["q.67305"],
-            "patch": "4.31"
+            "cNext": ["q.67305"]
         },
         "x67305": {
-            "level": 51,
             "name_en": "Expert Dragonslaying",
             "name_fr": "Douleur de dragon",
+            "level": 51,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
+            "patch": "3.0",
             "cPrev": ["q.67142", "q.67302"],
-            "cNext": ["q.67425"],
-            "patch": "4.31"
+            "cNext": ["q.67425"]
         },
         "x67421": {
-            "level": 56,
             "name_en": "Two Scoops",
             "name_fr": "Le triste sort des sorbets",
+            "level": 56,
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67422": {
-            "level": 56,
             "name_en": "A Den of Evil",
             "name_fr": "Le repère des hérétiques",
+            "level": 56,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67423": {
-            "level": 56,
             "name_en": "The Old Man and the Lake",
             "name_fr": "L'homme des villes et l'homme des champs",
+            "level": 56,
             "npc_en": "Troubled Elezen",
             "npc_fr": "Homme Angoissé",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67424": {
-            "level": 56,
             "name_en": "When the Ice Melts",
             "name_fr": "Vivement la fonte",
+            "level": 56,
             "npc_en": "Emont",
             "npc_fr": "Emont",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67431": {
-            "level": 56,
             "name_en": "To the Convictor Go the Spoils",
             "name_fr": "Le plan de Jantellot",
+            "level": 56,
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409"],
-            "cNext": ["q.67430"],
-            "patch": "4.31"
+            "cNext": ["q.67430"]
         },
         "x67430": {
-            "level": 56,
             "name_en": "Remember the Fallen",
             "name_fr": "Braves jusqu'au bout",
+            "level": 56,
             "npc_en": "Bonifoix",
             "npc_fr": "Bonifoix",
-            "cPrev": ["q.67173", "q.67409", "q.67431"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409", "q.67431"]
         },
         "x67432": {
-            "level": 56,
             "name_en": "Supply Lines",
             "name_fr": "La cour des grands archéornis",
+            "level": 56,
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67433": {
-            "level": 56,
             "name_en": "The Mother of Invention",
             "name_fr": "Carapaces destructrices",
+            "level": 56,
             "npc_en": "Pierriquet",
             "npc_fr": "Pierriquet",
-            "cPrev": ["q.67173", "q.67409"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409"]
         },
         "x67425": {
-            "level": 56,
             "name_en": "Unknown Ultimatum",
             "name_fr": "Tombés au champ d'honneur",
+            "level": 56,
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409", "q.67305"],
-            "cNext": ["q.67426"],
-            "patch": "4.31"
+            "cNext": ["q.67426"]
         },
         "x67426": {
-            "level": 56,
             "name_en": "Personal Effects",
             "name_fr": "Des yétis charognards",
+            "level": 56,
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409", "q.67425"],
-            "cNext": ["q.67427"],
-            "patch": "4.31"
+            "cNext": ["q.67427"]
         },
         "x67427": {
-            "level": 56,
             "name_en": "Ayleth Absconds",
             "name_fr": "Ayleth l'ambitieuse",
+            "level": 56,
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409", "q.67426"],
-            "cNext": ["q.67428"],
-            "patch": "4.31"
+            "cNext": ["q.67428"]
         },
         "x67428": {
-            "level": 56,
             "name_en": "A Missing Tooth",
             "name_fr": "Portée disparue",
+            "level": 56,
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409", "q.67427"],
-            "cNext": ["q.67429"],
-            "patch": "4.31"
+            "cNext": ["q.67429"]
         },
         "x67429": {
-            "level": 56,
             "name_en": "A Noble Purpose",
             "name_fr": "De l'importance des arrières",
+            "level": 56,
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67409", "q.67428"],
-            "cNext": ["q.67434"],
-            "patch": "4.31"
+            "cNext": ["q.67434"]
         },
         "x67434": {
-            "level": 56,
             "name_en": "A War without End",
             "name_fr": "Au-delà de nos différences",
+            "level": 56,
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["q.67173", "q.67409", "q.67429"],
-            "patch": "4.31"
+            "unlock": "tto.29",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67409", "q.67429"]
         },
         "x67647": {
-            "level": 51,
             "name_en": "For All the Nights to Come",
             "name_fr": "L'ombre du crépuscule",
-            "unlock": ["d.36", "travel.aether-currents.hw.coerthas-western-highlands.11"],
+            "level": 51,
             "npc_en": "Wealdtheow",
             "npc_fr": "Wealdtheow",
+            "unlock": ["d.36", "travel.aether-currents.hw.coerthas-western-highlands.11"],
+            "patch": "3.0",
             "cPrev": ["q.67142"],
-            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.11"],
-            "patch": "4.31"
+            "cSiblings": ["d.36", "travel.aether-currents.hw.coerthas-western-highlands.11"]
         }
     }
 }

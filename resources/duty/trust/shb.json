@@ -8,68 +8,68 @@
         "x0": {
             "name_en": "Alphinaud",
             "name_fr": "Alphinaud",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.HEALER",
-            "patch":  "5.0",
+            "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         },
         "x1": {
             "name_en": "Alisaie",
             "name_fr": "Alisaie",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.RANGED_MAGICAL_DPS",
             "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         },
         "x2": {
             "name_en": "Thancred",
             "name_fr": "Thancred",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.TANK",
             "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         },
         "x3": {
             "name_en": "Urianger",
             "name_fr": "Urianger",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.HEALER",
             "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         },
         "x4": {
             "name_en": "Y'shtola",
             "name_fr": "Y'shtola",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.RANGED_MAGICAL_DPS",
             "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         },
         "x5": {
             "name_en": "Ryne",
             "name_fr": "Ryne",
-            "minValue": 71,
-            "maxValue": 80,
             "role": "@ROLE.MELEE_DPS",
             "patch": "5.0",
             "cComboAt": {
                 "80": ["a.2336"]
-            }
+            },
+            "minValue": 71,
+            "maxValue": 80
         }
     }
 }

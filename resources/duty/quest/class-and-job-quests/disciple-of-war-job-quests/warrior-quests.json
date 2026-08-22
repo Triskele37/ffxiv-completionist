@@ -4,209 +4,209 @@
     "groupName_fr": "Quêtes de guerrier",
     "tasks": {
         "x66585": {
-            "level": 30,
             "name_en": "Pride and Duty (Will Take You from the Mountain)",
             "name_fr": "L'art de la guerre",
+            "level": 30,
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
+            "unlock": "ap.166",
+            "patch": "2.0",
             "cPrev": ["q.65855", "q.66049"],
             "cNext": ["q.66586"],
-            "cSiblings": ["ap.166"],
-            "patch": "4.31",
-            "unlock": "ap.166"
+            "cSiblings": ["ap.166"]
         },
         "x66586": {
-            "level": 35,
             "name_en": "Embracing the Beast",
             "name_fr": "Le ver de trop",
+            "level": 35,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "2.0",
             "cPrev": ["q.66585"],
-            "cNext": ["q.66587"],
-            "patch": "4.31"
+            "cNext": ["q.66587"]
         },
         "x66587": {
-            "level": 40,
             "name_en": "Curious Gorge Goes to Wineport",
             "name_fr": "À la guerre comme à la guerre",
+            "level": 40,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "2.0",
             "cPrev": ["q.66586"],
-            "cNext": ["q.66588"],
-            "patch": "4.31"
+            "cNext": ["q.66588"]
         },
         "x66588": {
-            "level": 45,
             "name_en": "Looking the Part",
             "name_fr": "Un guerrier bien équipé en vaut deux",
+            "level": 45,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "2.0",
             "cPrev": ["q.66587"],
-            "cNext": ["q.66589"],
-            "patch": "4.31"
+            "cNext": ["q.66589"]
         },
         "x66589": {
-            "level": 45,
             "name_en": "Proof Is the Pudding",
             "name_fr": "Le bras de fer",
+            "level": 45,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "2.0",
             "cPrev": ["q.66588"],
-            "cNext": ["q.66590"],
-            "patch": "4.31"
+            "cNext": ["q.66590"]
         },
         "x66590": {
-            "level": 50,
             "name_en": "How to Quit You",
             "name_fr": "Le Maître de guerre",
+            "level": 50,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "2.0",
             "cPrev": ["q.66589"],
             "cNext": ["q.66655", "q.66121"],
-            "cSiblings": ["a.409"],
-            "patch": "4.31"
+            "cSiblings": ["a.409"]
         },
         "x66655": {
-            "level": 50,
             "name_en": "A Relic Reborn (Bravura)",
             "name_fr": "Restauration de Bravura",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.66590", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66590", "q.66241"]
         },
         "x66121": {
-            "level": 50,
             "name_en": "Better Axe Around",
             "name_fr": "Un guerrier légendaire",
+            "level": 50,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "3.0",
             "cPrev": ["q.66590", "q.65964"],
-            "cNext": ["q.66122"],
-            "patch": "4.31"
+            "cNext": ["q.66122"]
         },
         "x66122": {
-            "level": 52,
             "name_en": "Duty and the Beast",
             "name_fr": "Mise à l'épreuve",
+            "level": 52,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "3.0",
             "cPrev": ["q.66121"],
-            "cNext": ["q.66124"],
-            "patch": "4.31"
+            "cNext": ["q.66124"]
         },
         "x66124": {
-            "level": 54,
             "name_en": "The Bear Necessity",
             "name_fr": "Comme un ours en cage",
+            "level": 54,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "3.0",
             "cPrev": ["q.66122"],
-            "cNext": ["q.66132"],
-            "patch": "4.31"
+            "cNext": ["q.66132"]
         },
         "x66132": {
-            "level": 56,
             "name_en": "Pirates of Shallow Water",
             "name_fr": "Chasse aux pillards",
+            "level": 56,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "3.0",
             "cPrev": ["q.66124"],
-            "cNext": ["q.67213"],
-            "patch": "4.31"
+            "cNext": ["q.67213"]
         },
         "x67213": {
-            "level": 56,
             "name_en": "How to Train Your Warrior",
             "name_fr": "Dompter sa bête intérieure",
+            "level": 56,
             "npc_en": "Storm Captain",
             "npc_fr": "Capitaine Des Tempêtes",
+            "patch": "3.0",
             "cPrev": ["q.66132"],
-            "cNext": ["q.66134"],
-            "patch": "4.31"
+            "cNext": ["q.66134"]
         },
         "x66134": {
-            "level": 58,
             "name_en": "Slap an' Chop",
             "name_fr": "Le sentier de la guerre",
+            "level": 58,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "3.0",
             "cPrev": ["q.67213"],
-            "cNext": ["q.66137"],
-            "patch": "4.31"
+            "cNext": ["q.66137"]
         },
         "x66137": {
-            "level": 60,
             "name_en": "And My Axe",
             "name_fr": "Jusqu'au bout de ses rêves",
+            "level": 60,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "3.0",
             "cPrev": ["q.66134"],
             "cNext": ["q.68436"],
-            "cSiblings": ["a.1143"],
-            "patch": "4.31"
+            "cSiblings": ["a.1143"]
         },
         "x68436": {
-            "level": 60,
             "name_en": "Curious Gorge Meets His Match",
             "name_fr": "L'épreuve de force",
+            "level": 60,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "4.0",
             "cPrev": ["q.66137", "q.67895"],
-            "cNext": ["q.68437"],
-            "patch": "4.31"
+            "cNext": ["q.68437"]
         },
         "x68437": {
-            "level": 63,
             "name_en": "Field Training",
             "name_fr": "Faiblesse et force",
+            "level": 63,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "4.0",
             "cPrev": ["q.68436"],
-            "cNext": ["q.68438"],
-            "patch": "4.31"
+            "cNext": ["q.68438"]
         },
         "x68438": {
-            "level": 65,
             "name_en": "When Push Comes to Shove",
             "name_fr": "La maladie d'amour",
+            "level": 65,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "4.0",
             "cPrev": ["q.68437"],
-            "cNext": ["q.68439"],
-            "patch": "4.31"
+            "cNext": ["q.68439"]
         },
         "x68439": {
-            "level": 68,
             "name_en": "Going the Distance",
-            "name_fr": "Qu'est-ce qui m'arrive?",
+            "name_fr": "Qu'est-ce qui m'arrive ?",
+            "level": 68,
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
+            "patch": "4.0",
             "cPrev": ["q.68438"],
-            "cNext": ["q.68440"],
-            "patch": "4.31"
+            "cNext": ["q.68440"]
         },
         "x68440": {
-            "level": 70,
             "name_en": "The Heart of the Problem",
             "name_fr": "Passion guerrière",
+            "level": 70,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
+            "patch": "4.0",
             "cPrev": ["q.68439"],
             "cNext": ["q.68748"],
-            "cSiblings": ["a.1799"],
-            "patch": "4.31"
+            "cSiblings": ["a.1799"]
         },
         "x68748": {
-            "level": 80,
             "name_en": "Once, Twice, Three Times a Warrior",
             "name_fr": "Le retour du guerrier",
+            "level": 80,
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": ["q.68440", "q.68784", "q.69190"],
-            "cSiblings": ["ap.301", "a.2308"],
+            "unlock": "ap.301",
             "patch": "5.0",
-            "unlock": "ap.301"
+            "cPrev": ["q.68440", "q.68784", "q.69190"],
+            "cSiblings": ["ap.301", "a.2308"]
         }
     }
 }

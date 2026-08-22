@@ -1,38 +1,39 @@
-.p-timeline {
-    .p-timeline-event-marker {
-        border: $timelineEventMarkerBorder; 
-        border-radius: $timelineEventMarkerBorderRadius;
-        width: $timelineEventMarkerWidth;
-        height: $timelineEventMarkerHeight;
-        background-color: $timelineEventMarkerBackground;
-    }
+@use "../../_variables";
 
-    .p-timeline-event-connector {
-        background-color: $timelineEventColor;
-    }
-
-    &.p-timeline-vertical {
-        .p-timeline-event-opposite,
-        .p-timeline-event-content  {
-            padding: $timelineVerticalEventContentPadding;
+@layer primeng {
+    .p-timeline {
+        .p-timeline-event-marker {
+            border: variables.$timelineEventMarkerBorder;
+            border-radius: variables.$timelineEventMarkerBorderRadius;
+            width: variables.$timelineEventMarkerWidth;
+            height: variables.$timelineEventMarkerHeight;
+            background-color: variables.$timelineEventMarkerBackground;
         }
 
         .p-timeline-event-connector {
-            width: $timelineEventConnectorSize;
-        }
-    }
-
-    &.p-timeline-horizontal {
-        .p-timeline-event-opposite,
-        .p-timeline-event-content  {
-            padding: $timelineHorizontalEventContentPadding;
+            background-color: variables.$timelineEventColor;
         }
 
-        .p-timeline-event-connector {
-            height: $timelineEventConnectorSize;
+        &.p-timeline-vertical {
+            .p-timeline-event-opposite,
+            .p-timeline-event-content {
+                padding: variables.$timelineVerticalEventContentPadding;
+            }
+
+            .p-timeline-event-connector {
+                width: variables.$timelineEventConnectorSize;
+            }
+        }
+
+        &.p-timeline-horizontal {
+            .p-timeline-event-opposite,
+            .p-timeline-event-content {
+                padding: variables.$timelineHorizontalEventContentPadding;
+            }
+
+            .p-timeline-event-connector {
+                height: variables.$timelineEventConnectorSize;
+            }
         }
     }
 }
-
-
-

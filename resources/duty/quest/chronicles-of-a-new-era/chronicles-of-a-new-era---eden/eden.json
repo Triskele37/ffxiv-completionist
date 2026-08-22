@@ -4,195 +4,210 @@
     "groupName_fr": "Éden",
     "tasks": {
         "x68791": {
-            "level": 80,
             "name_en": "In the Middle of Nowhere",
             "name_fr": "Le vrai visage du premier reflet",
+            "level": 80,
             "npc_en": "Anxious Crystarium Guard",
             "npc_fr": "Soldat Zélé",
+            "patch": "5.01",
             "cPrev": ["q.69190"],
-            "cNext": ["q.68792"],
-            "patch": "5.01"
+            "cNext": ["q.68792"]
         },
         "x68792": {
-            "level": 80,
             "name_en": "Deploy the Core",
             "name_fr": "Conquérir le Cœur",
-            "unlock": "d.653",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": "d.653",
+            "patch": "5.01",
             "cPrev": ["q.68791"],
             "cNext": ["q.68793"],
-            "patch": "5.01"
+            "cSiblings": ["d.653"]
         },
         "x68793": {
-            "level": 80,
             "name_en": "One Fell Swoop",
             "name_fr": "Descente du ciel",
-            "unlock": "d.684",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": "d.684",
+            "patch": "5.01",
             "cPrev": ["q.68792"],
             "cNext": ["q.68794"],
-            "patch": "5.01"
+            "cSiblings": ["d.684"]
         },
         "x68794": {
-            "level": 80,
             "name_en": "Nor Any Drop to Drink",
             "name_fr": "Résurgence",
-            "unlock": "d.682",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": "d.682",
+            "patch": "5.01",
             "cPrev": ["q.68793"],
             "cNext": ["q.68795"],
-            "patch": "5.01"
+            "cSiblings": ["d.682"]
         },
         "x68795": {
-            "level": 80,
             "name_en": "Super Seismic",
             "name_fr": "Ranimer le pouls",
-            "unlock": "d.689",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["d.689"],
+            "patch": "5.01",
             "cPrev": ["q.68794"],
             "cNext": ["q.68796"],
-            "patch": "5.01"
+            "cSiblings": ["d.689"]
         },
         "x68796": {
-            "level": 80,
             "name_en": "The Next Piece of the Puzzle",
             "name_fr": "À la recherche de sa propre voie",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["d.654", "d.685", "d.683", "d.690"],
+            "patch": "5.01",
             "cPrev": ["q.68795"],
-            "cNext": ["q.69323"],
-            "patch": "5.01"
+            "cNext": ["q.69323", "d.654", "d.685", "d.683", "d.690"]
         },
         "x69323": {
-            "level": 80,
             "name_en": "Away with the Faerie",
             "name_fr": "Nouvelles inconnues",
+            "level": 80,
             "npc_en": "Yalfort",
             "npc_fr": "Yalfort",
+            "patch": "5.2",
             "cPrev": ["q.68796"],
-            "cNext": ["q.69324"],
-            "patch": "5.2"
+            "cNext": ["q.69324"]
         },
         "x69324": {
-            "level": 80,
             "name_en": "Blood and Thunder",
             "name_fr": "Tonnerre sur la plaine",
-            "unlock": "d.715",
+            "level": 80,
             "npc_en": "Gaia",
             "npc_fr": "Gaïa",
+            "unlock": "d.715",
+            "patch": "5.2",
             "cPrev": ["q.69323"],
             "cNext": ["q.69325"],
-            "patch": "5.2"
+            "cSiblings": ["d.715"]
         },
         "x69325": {
-            "level": 80,
             "name_en": "Into the Firestorm",
             "name_fr": "Tempête ardente",
-            "unlock": "d.719",
+            "level": 80,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "unlock": "d.719",
+            "patch": "5.2",
             "cPrev": ["q.69324"],
             "cNext": ["q.69326"],
-            "patch": "5.2"
+            "cSiblings": ["d.719"]
         },
         "x69326": {
-            "level": 80,
             "name_en": "Heart of Darkness",
             "name_fr": "Perdue dans les Ténèbres",
-            "unlock": "d.726",
+            "level": 80,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "unlock": "d.726",
+            "patch": "5.2",
             "cPrev": ["q.69325"],
             "cNext": ["q.69327"],
-            "patch": "5.2"
+            "cSiblings": ["d.726"]
         },
         "x69327": {
-            "level": 80,
             "name_en": "On Thin Ice",
             "name_fr": "De glace et de Lumière",
-            "unlock": "d.728",
+            "level": 80,
             "npc_en": "Gaia",
             "npc_fr": "Gaïa",
+            "unlock": ["d.728"],
+            "patch": "5.2",
             "cPrev": ["q.69326"],
             "cNext": ["q.69328"],
-            "patch": "5.2"
+            "cSiblings": ["d.728"]
         },
         "x69328": {
-            "level": 80,
             "name_en": "Life Finds a Way",
             "name_fr": "Jardin d'espoir",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["d.716", "d.720", "d.727", "d.729"],
+            "patch": "5.2",
             "cPrev": ["q.69327"],
-            "cNext": ["q.69329"],
-            "patch": "5.2"
+            "cNext": ["q.69329", "d.716", "d.720", "d.727", "d.729"]
         },
         "x69329": {
-            "level": 80,
             "name_en": "Worlds Apart",
             "name_fr": "Le temps de l'émancipation",
+            "level": 80,
             "npc_en": "Yalfort",
             "npc_fr": "Yalfort",
-            "cPrev": ["q.69328", "q.69306"],
-            "cNext": ["q.69511"],
+            "unlock": "o.362",
             "patch": "5.2",
-            "unlock": "o.362"
+            "cPrev": ["q.69328", "q.69306"],
+            "cNext": ["q.69511"]
         },
         "x69511": {
-            "level": 80,
             "name_en": "Empty Promise",
             "name_fr": "Quand nous en aurons fini",
+            "level": 80,
             "npc_en": "Yalfort",
             "npc_fr": "Yalfort",
+            "patch": "5.4",
             "cPrev": ["q.69329", "q.69318"],
-            "cNext": ["q.69512"],
-            "patch": "5.4"
+            "cNext": ["q.69512"]
         },
         "x69512": {
-            "level": 80,
             "name_en": "Fear of the Dark",
             "name_fr": "Nuage à l'horizon",
-            "unlock": "d.749",
+            "level": 80,
             "npc_en": "Gaia",
             "npc_fr": "Gaïa",
+            "unlock": "d.749",
+            "patch": "5.4",
             "cPrev": ["q.69511"],
             "cNext": ["q.69513"],
-            "patch": "5.4"
+            "cSiblings": ["d.749"]
         },
         "x69513": {
-            "level": 80,
             "name_en": "Shadows of the Past",
             "name_fr": "Une ombre du passé",
-            "unlock": "d.747",
+            "level": 80,
             "npc_en": "Gaia",
             "npc_fr": "Gaïa",
+            "unlock": "d.747",
+            "patch": "5.4",
             "cPrev": ["q.69512"],
             "cNext": ["q.69514"],
-            "patch": "5.4"
+            "cSiblings": ["d.747"]
         },
         "x69514": {
-            "level": 80,
             "name_en": "Voice of the Soul",
             "name_fr": "Une promesse pour l'éternité",
-            "unlock": ["d.751", "d.758"],
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["d.751", "d.758"],
+            "patch": "5.4",
             "cPrev": ["q.69513"],
             "cNext": ["q.69515"],
-            "patch": "5.4"
+            "cSiblings": ["d.751", "d.758"]
         },
         "x69515": {
-            "level": 80,
             "name_en": "Where I Belong",
             "name_fr": "Le jardin de l'espoir",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["tto.74", "d.750", "d.748", "d.752", "d.759"],
+            "patch": "5.4",
             "cPrev": ["q.69514"],
-            "patch": "5.4"
+            "cNext": ["d.750", "d.748", "d.752", "d.759"]
         }
     }
 }

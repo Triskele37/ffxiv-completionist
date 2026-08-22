@@ -1,5 +1,4 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Injectable, signal } from '@angular/core';
 
 import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
 import { Task } from '@model/Task';
@@ -15,12 +14,13 @@ export class ChainService {
     static Instance: ChainService;
     static force: boolean;
 
-    private history: ChainHistory[] = [];
-    private historyDisabled: boolean;
+    history = signal<ChainHistory[]>([]);
+    private historyDisabled?: boolean;
+    historyLimit: number = 10;
 
-    chainedTaskCount$ = new BehaviorSubject<number>(0);
-    chainedGroups$ = new BehaviorSubject<ChainedGroup[]>([]);
-    chainStart$ = new BehaviorSubject<ChainStart>(null);
+    chainedTaskCount = signal<number>(0);
+    chainedGroups = signal<ChainedGroup[]>([]);
+    chainStart = signal<ChainStart | null>(null);
 
     constructor(private svcConfig: ConfigStoreService) {
         ChainService.Instance = this;
@@ -33,26 +33,32 @@ export class ChainService {
 
         this.addHistory();
 
-        this.chainStart$.next({
-            historyDisabled: this.historyDisabled,
+        this.chainStart.set({
+            historyDisabled: this.historyDisabled ?? false,
             task,
             fromFlag,
             toFlag,
             path: path.join(' > ')
         });
 
-        this.chainedGroups$.next([]);
-        this.chainedTaskCount$.next(0);
+        this.chainedGroups.set([]);
+        this.chainedTaskCount.set(0);
+
+        this.svcConfig.updated$.subscribe(() => this.setHistoryLimit());
+    }
+
+    setHistoryLimit(): void {
+        this.historyLimit = this.svcConfig.get('chain-history-limit');
     }
 
     taskAlreadyChained(task: Task, toFlag: string): boolean {
         // Matches start task
-        if(this.chainStart$.value?.task?.fullStorageKey === task.fullStorageKey) {
+        if(this.chainStart()?.task?.fullStorageKey === task.fullStorageKey) {
             return true;
         }
 
         // Matches embedded chained tasks
-        return this.chainedGroups$.value.some((chainedGroup) => {
+        return this.chainedGroups().some((chainedGroup) => {
             const change = chainedGroup.tasks.find(
                 (t) => t.task.fullStorageKey === task.fullStorageKey
             );
@@ -70,7 +76,7 @@ export class ChainService {
 
     pushChained(chained: ChainedTask): void {
         const path = getGroupPath(chained.task._parent).join(' > ');
-        const chainedGroups = [...this.chainedGroups$.value];
+        const chainedGroups = [...this.chainedGroups()];
         let chainedGroup = chainedGroups.find((g) => g.path === path);
 
         // Init first time a group is hit
@@ -88,33 +94,40 @@ export class ChainService {
         }
         else {
             // Indicate if a task is chained through multiple times
+            if(chainedTask.count === undefined) chainedTask.count = 0;
             chainedTask.count++;
         }
 
         // Update show prop for all chained tasks
-        const show = this.chainedTaskCount$.value < this.svcConfig.get('chain-min-threshold');
+        const show = this.chainedTaskCount() < this.svcConfig.get('chain-min-threshold');
         chainedGroups.forEach((g) => g.show = show);
 
         // Sort the new groupings by path
         chainedGroups.sort((a, b) => a.path.localeCompare(b.path));
 
-        this.chainedGroups$.next(chainedGroups);
-        this.chainedTaskCount$.next(this.chainedTaskCount$.value + 1);
+        this.chainedGroups.set(chainedGroups);
+        this.chainedTaskCount.set(this.chainedTaskCount() + 1);
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Chain History
     addHistory(): void {
+        const chainStart = this.chainStart();
+
         if(
-            this.svcConfig.get('chain-history-limit') > this.history.length && // Chain limit won't be exceeded
-            !this.chainStart$.value?.historyDisabled && // Initial task didn't disable history
-            this.chainedTaskCount$.value // There are tasks chained
+            this.svcConfig.get('chain-history-limit') > this.history().length && // Chain limit won't be exceeded
+            chainStart !== null && // chainStart exists
+            !chainStart?.historyDisabled && // Initial task didn't disable history
+            this.chainedTaskCount() // There are tasks chained
         ) {
-            this.history.push({
-                chainStart: this.chainStart$.value,
-                chainedGroups: this.chainedGroups$.value,
-                chainedTaskCount: this.chainedTaskCount$.value
+            this.history.update((history) => {
+                history.push({
+                    chainStart: chainStart,
+                    chainedGroups: this.chainedGroups(),
+                    chainedTaskCount: this.chainedTaskCount()
+                });
+                return history;
             });
         }
     }
@@ -124,8 +137,13 @@ export class ChainService {
     }
 
     undoCurrentChain(): void {
-        const chainStart = this.chainStart$.value;
-        const chainedGroups = this.chainedGroups$.value;
+        const chainStart = this.chainStart();
+        const chainedGroups = this.chainedGroups();
+
+        if(!chainStart) {
+            console.error('Error: Missing chainStart');
+            return;
+        }
 
         setCompletion(chainStart.task, chainStart.fromFlag);
         chainedGroups.forEach((chainedGroup) => {
@@ -134,16 +152,26 @@ export class ChainService {
             });
         });
 
-        if(this.history.length) {
-            const history = this.history.pop();
-            this.chainStart$.next(history.chainStart);
-            this.chainedGroups$.next(history.chainedGroups);
-            this.chainedTaskCount$.next(history.chainedTaskCount);
+        if(this.history().length) {
+            let chainToUndo: ChainHistory | undefined;
+            this.history.update((history) => {
+                chainToUndo = history.pop();
+                return history;
+            });
+
+            if(!chainToUndo) {
+                console.error('Error: Missing history');
+            }
+            else {
+                this.chainStart.set(chainToUndo.chainStart);
+                this.chainedGroups.set(chainToUndo.chainedGroups);
+                this.chainedTaskCount.set(chainToUndo.chainedTaskCount);
+            }
         }
         else {
-            this.chainStart$.next(null);
-            this.chainedGroups$.next([]);
-            this.chainedTaskCount$.next(0);
+            this.chainStart.set(null);
+            this.chainedGroups.set([]);
+            this.chainedTaskCount.set(0);
         }
     }
 

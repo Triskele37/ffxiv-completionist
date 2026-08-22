@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes d'orfèvre",
     "tasks": {
         "x66144": {
-            "level": 1,
             "name_en": "Way of the Goldsmith",
             "name_fr": "La voie de l'orfèvrerie",
+            "level": 1,
             "npc_en": "Jemime",
             "npc_fr": "Jemime",
+            "unlock": "ap.247",
+            "patch": "2.0",
             "cPrev": ["q.65723"],
             "cNext": ["q.66146"],
-            "cSiblings": ["ap.247"],
-            "patch": "4.31",
-            "unlock": "ap.247"
+            "cSiblings": ["ap.247"]
         },
         "x66146": {
-            "level": 1,
             "name_en": "My First Chaser Hammer",
             "name_fr": "Battre le cuivre tant qu'il est encore chaud",
+            "level": 1,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66144"],
-            "cNext": ["q.66147"],
-            "patch": "4.31"
+            "cNext": ["q.66147"]
         },
         "x66147": {
-            "level": 5,
             "name_en": "Gorgets Rising",
             "name_fr": "Gorgerins profonds",
+            "level": 5,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66146"],
-            "cNext": ["q.66149"],
-            "patch": "4.31"
+            "cNext": ["q.66149"]
         },
         "x66149": {
-            "level": 10,
             "name_en": "Throw Some Rings on It",
             "name_fr": "Des boucles pour Robert",
+            "level": 10,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66147"],
-            "cNext": ["q.66150"],
-            "patch": "4.31"
+            "cNext": ["q.66150"]
         },
         "x66150": {
-            "level": 15,
             "name_en": "Objectively Speaking",
             "name_fr": "Faire briller le quotidien",
+            "level": 15,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66149"],
-            "cNext": ["q.66151"],
-            "patch": "4.31"
+            "cNext": ["q.66151"]
         },
         "x66151": {
-            "level": 20,
             "name_en": "A Melding of the Minds",
             "name_fr": "Tendre le bâton",
+            "level": 20,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66150"],
-            "cNext": ["q.66152"],
-            "patch": "4.31"
+            "cNext": ["q.66152"]
         },
         "x66152": {
-            "level": 25,
             "name_en": "Or Ever the Silver Cord Be Loosed",
             "name_fr": "L'argent fait parfois le bonheur",
+            "level": 25,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66151"],
-            "cNext": ["q.66153"],
-            "patch": "4.31"
+            "cNext": ["q.66153"]
         },
         "x66153": {
-            "level": 30,
             "name_en": "Serendipity Now",
             "name_fr": "Comme un diamant brut",
+            "level": 30,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66152"],
             "cNext": ["q.66191"],
-            "cCombo": ["a.316"],
-            "patch": "4.31"
+            "cCombo": ["a.316"]
         },
         "x66191": {
-            "level": 35,
             "name_en": "Mammets on Fire",
             "name_fr": "La ramille ardente",
+            "level": 35,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66153"],
-            "cNext": ["q.66192"],
-            "patch": "4.31"
+            "cNext": ["q.66192"]
         },
         "x66192": {
-            "level": 40,
             "name_en": "The Horns of the Green",
             "name_fr": "L'ombre du renard",
+            "level": 40,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66191"],
-            "cNext": ["q.66193"],
-            "patch": "4.31"
+            "cNext": ["q.66193"]
         },
         "x66193": {
-            "level": 45,
             "name_en": "The Fox in the Hen House",
             "name_fr": "Diadèmes pour la couronne",
+            "level": 45,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66192"],
-            "cNext": ["q.66194"],
-            "patch": "4.31"
+            "cNext": ["q.66194"]
         },
         "x66194": {
-            "level": 50,
             "name_en": "Jaded",
             "name_fr": "Le cœur de l'ouvrage",
+            "level": 50,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "2.0",
             "cPrev": ["q.66193"],
-            "cNext": ["q.67606"],
-            "patch": "4.31"
+            "cNext": ["q.67606"]
         },
         "x67606": {
-            "level": 50,
             "name_en": "Form to the Formless",
             "name_fr": "Trouver une forme",
+            "level": 50,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "3.0",
             "cPrev": ["q.66194", "q.65964"],
-            "cNext": ["q.67607"],
-            "patch": "4.31"
+            "cNext": ["q.67607"]
         },
         "x67607": {
-            "level": 53,
             "name_en": "Elegance and Artistry",
             "name_fr": "Le rouge et le bleu",
+            "level": 53,
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
+            "patch": "3.0",
             "cPrev": ["q.67606"],
-            "cNext": ["q.67608"],
-            "patch": "4.31"
+            "cNext": ["q.67608"]
         },
         "x67608": {
-            "level": 55,
             "name_en": "Double Trouble",
             "name_fr": "Les grands esprits se rencontrent",
+            "level": 55,
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
+            "patch": "3.0",
             "cPrev": ["q.67607"],
-            "cNext": ["q.67609"],
-            "patch": "4.31"
+            "cNext": ["q.67609"]
         },
         "x67609": {
-            "level": 58,
             "name_en": "A Masterclass",
             "name_fr": "Deux mélodies à l'unisson",
+            "level": 58,
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
+            "patch": "3.0",
             "cPrev": ["q.67608"],
-            "cNext": ["q.67610"],
-            "patch": "4.31"
+            "cNext": ["q.67610"]
         },
         "x67610": {
-            "level": 60,
             "name_en": "Two Hearts Beat as One",
             "name_fr": "La mélodie du bonheur",
+            "level": 60,
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
+            "patch": "3.0",
             "cPrev": ["q.67609"],
-            "cNext": ["q.68135"],
-            "patch": "4.31"
+            "cNext": ["q.68135"]
         },
         "x68135": {
-            "level": 60,
             "name_en": "A Royal Request",
             "name_fr": "Message personnel",
+            "level": 60,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
+            "patch": "4.0",
             "cPrev": ["q.67610", "q.67895"],
-            "cNext": ["q.68136"],
-            "patch": "4.31"
+            "cNext": ["q.68136"]
         },
         "x68136": {
-            "level": 63,
             "name_en": "Gemworks in Progress",
             "name_fr": "L'atelier s'attelle à la tâche",
+            "level": 63,
             "npc_en": "Jemime",
             "npc_fr": "Jemime",
+            "patch": "4.0",
             "cPrev": ["q.68135"],
-            "cNext": ["q.68137"],
-            "patch": "4.31"
+            "cNext": ["q.68137"]
         },
         "x68137": {
-            "level": 65,
             "name_en": "Blindsided",
             "name_fr": "La taupe",
+            "level": 65,
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
+            "patch": "4.0",
             "cPrev": ["q.68136"],
-            "cNext": ["q.68138"],
-            "patch": "4.31"
+            "cNext": ["q.68138"]
         },
         "x68138": {
-            "level": 68,
             "name_en": "The Perfect Tribute",
             "name_fr": "Premiers pas professionnels",
+            "level": 68,
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
+            "patch": "4.0",
             "cPrev": ["q.68137"],
-            "cNext": ["q.68139"],
-            "patch": "4.31"
+            "cNext": ["q.68139"]
         },
         "x68139": {
-            "level": 70,
             "name_en": "Sultana Dreaming",
             "name_fr": "Le rêve de la Sultane",
+            "level": 70,
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
+            "unlock": "ap.271",
+            "patch": "4.0",
             "cPrev": ["q.68138"],
-            "cSiblings": ["ap.271"],
-            "patch": "4.31",
-            "unlock": "ap.271"
+            "cSiblings": ["ap.271"]
         }
     }
 }

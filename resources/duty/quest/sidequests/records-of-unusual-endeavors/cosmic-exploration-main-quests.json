@@ -1,0 +1,96 @@
+{
+    "key": "cosmic-exploration-main-quests",
+    "groupName_en": "Cosmic Exploration Main Quests",
+    "groupName_fr": "Exploration cosmique : quêtes principales",
+    "tasks": {
+        "x70789": {
+            "name_en": "A Cosmic Homecoming",
+            "name_fr": "Un projet d'envergure cosmique",
+            "level": 10,
+            "npc_en": "Namingway",
+            "npc_fr": "Namingway",
+            "patch": "7.21",
+            "cPrev": ["q.70000"],
+            "cNext": ["q.70790"]
+        },
+        "x70790": {
+            "name_en": "Passion, Thy Name Is Ardorum",
+            "name_fr": "Des étoiles plein les yeux, des noms plein la tête",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.21",
+            "cPrev": ["q.70789"],
+            "cNext": ["q.70859", "q.70945"]
+        },
+        "x70945": {
+            "name_en": "Go Forth, Brave Explorers",
+            "name_fr": "Terre inconnue",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.31",
+            "cPrev": ["q.70790"],
+            "cNext": ["q.70946"]
+        },
+        "x70946": {
+            "name_en": "The Brightest Star",
+            "name_fr": "L'étoile la plus brillante",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.31",
+            "cPrev": ["q.70945"],
+            "cNext": ["q.70947", "q.70948", "q.70949", "q.70984"]
+        },
+        "x70984": {
+            "name_en": "Mission of Gravity",
+            "name_fr": "Une extrême gravité",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.41",
+            "cPrev": ["q.70946"],
+            "cNext": ["q.70985"]
+        },
+        "x70985": {
+            "name_en": "Memory's Orbit",
+            "name_fr": "Oizys c'est bon !",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.41",
+            "cPrev": ["q.70984"],
+            "cNext": ["q.70986", "q.70987", "q.70989", "q.71019"]
+        },
+        "x71019": {
+            "name_en": "The Forests of Paradise",
+            "name_fr": "Le paradis vert",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.51",
+            "cPrev": ["q.70985"],
+            "cNext": ["q.71020"]
+        },
+        "x71020": {
+            "name_en": "The Songs of Distant Trees",
+            "name_fr": "Un chant à travers les étoiles",
+            "level": 10,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.51",
+            "cPrev": ["q.71019"],
+            "cNext": ["q.71021", "q.71022", "q.71024", "q.71025"]
+        },
+        "x71021": {
+            "name_en": "His Gift, His Way",
+            "name_fr": "Toujours à point nommé !",
+            "level": 90,
+            "npc_en": "Searchingway",
+            "npc_fr": "Searchingway",
+            "patch": "7.51",
+            "cPrev": ["q.71020"]
+        }
+    }
+}

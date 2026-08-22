@@ -3,45 +3,50 @@
     "groupName_en": "Ilsabard",
     "groupName_fr": "Ilsabard",
     "tasks": {
-        "x0": {
+        "x36": {
             "name_en": "Southern Akyaali",
             "name_fr": "Sud d'Akyaali",
-            "level": "85",
-            "zone": "@PLACE.THAVNAIR",
+            "level": 85,
+            "zone": "@PLACE.EW.THAVNAIR",
             "location": "(14.0, 37.0)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.0"
         },
-        "x4": {
+        "x40": {
             "name_en": "Western Akyaali",
             "name_fr": "Ouest d'Akyaali",
-            "level": "90",
-            "zone": "@PLACE.THAVNAIR",
+            "level": 90,
+            "zone": "@PLACE.EW.THAVNAIR",
             "location": "(8.0, 32.0)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.0"
         },
-        "x2": {
+        "x41": {
             "name_en": "Southern Great Runoff",
             "name_fr": "Sud-ouest du Grand-Œuvre",
-            "level": "90",
-            "zone": "@PLACE.THAVNAIR",
+            "level": 90,
+            "zone": "@PLACE.EW.THAVNAIR",
             "location": "(4.0, 28.0)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.0"
         },
-        "x3": {
+        "x42": {
             "name_en": "The Font of Maya",
             "name_fr": "Source de la Maya",
-            "level": "90",
-            "zone": "@PLACE.THAVNAIR",
+            "level": 90,
+            "zone": "@PLACE.EW.THAVNAIR",
             "location": "(24.0, 24.0)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.0"
         },
-        "x1": {
+        "x47": {
             "name_en": "Outer Akyaali",
             "name_fr": "Large d'Akyaali",
-            "level": "90",
-            "zone": "@PLACE.THAVNAIR",
+            "level": 90,
+            "zone": "@PLACE.EW.THAVNAIR",
             "location": "(6.0, 36.0)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.0"
         }
     }
 }

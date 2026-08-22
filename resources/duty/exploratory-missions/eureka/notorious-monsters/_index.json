@@ -3,7 +3,7 @@
     "groupName_en": "Notorious Monsters",
     "groupName_fr": "Monstres Célèbres",
     "order": ["anemos", "pagos", "pyros", "hydatos"],
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -20,6 +20,9 @@
         "reward": {
             "header": "@HEADER.REWARD",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     }
 }

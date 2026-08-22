@@ -4,60 +4,60 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x66856": {
-            "level": 41,
             "name_en": "Highway Robbery",
             "name_fr": "Un mystérieux vol de salpêtre",
+            "level": 41,
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
             "cPrev": ["q.66488"],
             "cNext": ["q.66857"],
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x66857": {
-            "level": 41,
             "name_en": "How Low Can You Go",
             "name_fr": "Dur dur d'être un Kobold",
+            "level": 41,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
             "cPrev": ["q.66856"],
             "cNext": ["q.66858"],
             "cSiblings": ["character.character.societal-relations.10"],
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x66858": {
-            "level": 44,
             "name_en": "No-good Zo Ga's Ambition",
             "name_fr": "Sabotage à la kobolde",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 44,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
-            "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.66857"],
             "cNext": ["q.66859"],
             "cSiblings": ["character.character.societal-relations.11"],
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x66859": {
-            "level": 48,
             "name_en": "The Kobold and the Beautiful",
             "name_fr": "À la rescousse de la belle des mines",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 48,
             "npc_en": "Skaetswys",
             "npc_fr": "Skaetswys",
-            "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.66858"],
             "cNext": ["q.66860"],
             "cSiblings": ["character.character.societal-relations.12"],
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x66860": {
-            "level": 48,
             "name_en": "Revenge of the Furred",
             "name_fr": "La révolte du 789e ordre",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 48,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
-            "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.66859"],
             "cSiblings": ["character.character.societal-relations.13"],
-            "patch": "4.31"
+            "patch": "2.2"
         }
     }
 }

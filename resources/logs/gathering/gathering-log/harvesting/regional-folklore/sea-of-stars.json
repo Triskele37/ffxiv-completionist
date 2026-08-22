@@ -3,59 +3,59 @@
     "groupName_en": "Sea of Stars",
     "groupName_fr": "Espace intersidéral",
     "tasks": {
-        "x0": {
-            "level": "90",
+        "x671": {
             "name_en": "Potent Spice",
             "name_fr": "Épices naturelles",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
             "nodeTimer": "10:00 / 22:00",
-            "cSiblings": [
-                "logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-northern-empty.0",
-                "logs.gathering.gathering-log.logging.regional-folklore.world-unsundered.0"
-            ],
             "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.161"
+            "cSiblings": [
+                "logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-and-northern-empty.671",
+                "logs.gathering.gathering-log.logging.regional-folklore.world-unsundered.671"
+            ]
         },
-        "x1": {
-            "level": "90★",
+        "x690": {
             "name_en": "Double-edged Herb",
             "name_fr": "Feuille d'égarante",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.161"
+            "patch": "6.0"
         },
-        "x2": {
-            "level": "90★★",
+        "x702": {
             "name_en": "Prime Crystalbloom",
             "name_fr": "Cristofleur volatile",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "6.28",
-            "closestAetheryte": "travel.aetherytes.others.161"
+            "patch": "6.2"
         },
-        "x3": {
-            "level": "90★★",
+        "x703": {
             "name_en": "Sublime Crystalbloom",
             "name_fr": "Cristofleur sublimée",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "6.28",
-            "closestAetheryte": "travel.aetherytes.others.161"
+            "patch": "6.2"
         },
-        "x4": {
-            "level": "90★★★",
+        "x730": {
             "name_en": "Lovingbloom",
             "name_fr": "Bourgeon d'amour",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(25.9, 20.4)",
+            "closestAetheryte": "travel.aetherytes.others.156",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "6.4",
-            "closestAetheryte": "travel.aetherytes.others.156"
+            "patch": "6.4"
         }
     }
 }

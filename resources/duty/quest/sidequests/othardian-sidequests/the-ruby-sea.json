@@ -4,500 +4,504 @@
     "groupName_fr": "Mer de Rubis",
     "tasks": {
         "x68458": {
-            "level": 61,
             "name_en": "A New Fishing Ex-spear-ience",
             "name_fr": "La pêche au harpon, c'est bon",
+            "level": 61,
             "npc_en": "Sumitsubo",
             "npc_fr": "Sumitsubo",
             "unlock_en": "Spearfishing",
-            "cPrev": ["q.68020", "q.66643"],
-            "patch": "4.31"
+            "unlock_fr": "Spearfishing",
+            "patch": "4.0",
+            "cPrev": ["q.68020", "q.66643"]
         },
         "x68676": {
-            "level": 62,
             "name_en": "Up Where They Trade All Day in the Sun",
             "name_fr": "Vers l'extérieur, et au-delà",
+            "level": 62,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": ["q.68675"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "cPrev": ["q.68675"]
         },
         "x68211": {
-            "level": 62,
             "name_en": "The Devil's Cough",
             "name_fr": "Une toux du diable",
+            "level": 62,
             "npc_en": "Hiun",
             "npc_fr": "Hiun",
-            "cPrev": ["q.68014"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68014"]
         },
         "x68210": {
-            "level": 62,
             "name_en": "The Organ of Sight",
             "name_fr": "L'organe de la vue",
+            "level": 62,
             "npc_en": "Shihoji",
             "npc_fr": "Shihoji",
-            "cPrev": ["q.68014"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68014"]
         },
         "x68209": {
-            "level": 62,
             "name_en": "The Price of Betrayal",
             "name_fr": "Curieux butin",
-            "unlock": "travel.aether-currents.sb.the-ruby-sea.13",
+            "level": 62,
             "npc_en": "Yusui",
             "npc_fr": "Yusui",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.13",
+            "patch": "4.0",
             "cPrev": ["q.68014"],
             "cNext": ["q.68212", "q.68213"],
-            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.13"]
         },
         "x68212": {
-            "level": 62,
             "name_en": "First Line of Defense",
             "name_fr": "Optimisation des batteries",
+            "level": 62,
             "npc_en": "Kumoji",
             "npc_fr": "Kumoji",
+            "patch": "4.0",
             "cPrev": ["q.68014", "q.68209"],
-            "cNext": ["q.68214"],
-            "patch": "4.31"
+            "cNext": ["q.68214"]
         },
         "x68213": {
-            "level": 62,
             "name_en": "Ethereal Lights",
             "name_fr": "Manifestations lumineuses",
+            "level": 62,
             "npc_en": "Hayama",
             "npc_fr": "Hayama",
+            "patch": "4.0",
             "cPrev": ["q.68014", "q.68209"],
-            "cNext": ["q.68214"],
-            "patch": "4.31"
+            "cNext": ["q.68214"]
         },
         "x68214": {
-            "level": 62,
             "name_en": "Protector of the Small",
             "name_fr": "Quand le soldat fait sa B.A.",
+            "level": 62,
             "npc_en": "Hayama",
             "npc_fr": "Hayama",
-            "cPrev": ["q.68014", "q.68212", "q.68213"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68014", "q.68212", "q.68213"]
         },
         "x68216": {
-            "level": 62,
             "name_en": "A Dance with Snakes",
             "name_fr": "L'affaire est dans le sac",
+            "level": 62,
             "npc_en": "Kaizan",
             "npc_fr": "Kaizan",
-            "cPrev": ["q.68017"],
-            "patch": "4.31"
+            "unlock": "tto.40",
+            "patch": "4.0",
+            "cPrev": ["q.68017"]
         },
         "x68218": {
-            "level": 62,
             "name_en": "Stranded",
             "name_fr": "Seule sur le sable",
+            "level": 62,
             "npc_en": "Perplexed Confederate",
             "npc_fr": "Pirate Paniqué",
+            "patch": "4.0",
             "cPrev": ["q.68017"],
-            "cNext": ["q.68237"],
-            "patch": "4.31"
+            "cNext": ["q.68237"]
         },
         "x68219": {
-            "level": 62,
             "name_en": "In Cold Blood",
             "name_fr": "Le tueur de pirates",
+            "level": 62,
             "npc_en": "Hayase",
             "npc_fr": "Hayase",
-            "cPrev": ["q.68017"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68017"]
         },
         "x68220": {
-            "level": 62,
             "name_en": "Pirate Stew",
             "name_fr": "Le ragoût du pirate",
+            "level": 62,
             "npc_en": "Hirase",
             "npc_fr": "Hirase",
-            "cPrev": ["q.68017"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68017"]
         },
         "x68221": {
-            "level": 62,
             "name_en": "The Soul's Remembrance",
             "name_fr": "Pirates pris de démence",
+            "level": 62,
             "npc_en": "Yana",
             "npc_fr": "Yana",
-            "cPrev": ["q.68017"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68017"]
         },
         "x68222": {
-            "level": 62,
             "name_en": "Fight or Flight",
             "name_fr": "Mentir pour la bonne cause",
+            "level": 62,
             "npc_en": "Aranami",
             "npc_fr": "Aranami",
-            "cPrev": ["q.68017"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68017"]
         },
         "x68223": {
-            "level": 62,
             "name_en": "Pulling Double Booty",
             "name_fr": "Sortir la tête de l'eau",
-            "unlock": "travel.aether-currents.sb.the-ruby-sea.12",
+            "level": 62,
             "npc_en": "Hansaku",
             "npc_fr": "Hansaku",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.12",
+            "patch": "4.0",
             "cPrev": ["q.68017"],
             "cNext": ["q.68224"],
-            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.12"]
         },
         "x68224": {
-            "level": 62,
             "name_en": "Unfinished Business",
             "name_fr": "Partenariat alléchant",
+            "level": 62,
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
+            "patch": "4.0",
             "cPrev": ["q.68017", "q.68223"],
-            "cNext": ["q.68225"],
-            "patch": "4.31"
+            "cNext": ["q.68225"]
         },
         "x68225": {
-            "level": 62,
             "name_en": "The Girl with the Pearl Ring",
             "name_fr": "Le début d'une relation fructueuse",
+            "level": 62,
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
+            "patch": "4.0",
             "cPrev": ["q.68017", "q.68224"],
-            "cNext": ["q.68226"],
-            "patch": "4.31"
+            "cNext": ["q.68226"]
         },
         "x68226": {
-            "level": 62,
             "name_en": "Family Affairs",
             "name_fr": "Prisonnière de son passé",
+            "level": 62,
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
+            "patch": "4.0",
             "cPrev": ["q.68017", "q.68225"],
-            "cNext": ["q.68259"],
-            "patch": "4.31"
+            "cNext": ["q.68259"]
         },
         "x68227": {
-            "level": 62,
             "name_en": "Our Most Venerated Ancestor",
             "name_fr": "Une vénérable carapace",
+            "level": 62,
             "npc_en": "Tsuzura",
             "npc_fr": "Tsuzura",
-            "cPrev": ["q.68019"],
-            "patch": "4.31"
+            "unlock": "tto.50",
+            "patch": "4.0",
+            "cPrev": ["q.68019"]
         },
         "x68228": {
-            "level": 62,
             "name_en": "Not Just Any Banquet",
             "name_fr": "Plus qu'un simple banquet",
+            "level": 62,
             "npc_en": "Kaioke",
             "npc_fr": "Kaioke",
-            "cPrev": ["q.68019"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68019"]
         },
         "x68229": {
-            "level": 62,
             "name_en": "The Sword in the Stone",
             "name_fr": "Sauter sans avoir l'air sot",
-            "unlock": "travel.aether-currents.sb.the-ruby-sea.11",
+            "level": 62,
             "npc_en": "Slender Kojin",
             "npc_fr": "Kojin Maigrichon",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.11",
+            "patch": "4.0",
             "cPrev": ["q.68019"],
-            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.11"]
         },
         "x68230": {
-            "level": 62,
             "name_en": "Unmeasured Strength",
             "name_fr": "La pierre de force",
+            "level": 62,
             "npc_en": "Toro",
             "npc_fr": "Toro",
-            "cPrev": ["q.68019"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68019"]
         },
         "x68231": {
-            "level": 62,
             "name_en": "Treasure Cove",
-            "name_fr": "Esprit es-tu là?",
+            "name_fr": "Esprit es-tu là ?",
+            "level": 62,
             "npc_en": "Kefusan",
             "npc_fr": "Kefusan",
-            "cPrev": ["q.68019"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68019"]
         },
         "x68232": {
-            "level": 62,
             "name_en": "The Mysterious Assailant",
             "name_fr": "Agression mystérieuse",
+            "level": 62,
             "npc_en": "Urokuzu",
             "npc_fr": "Urokuzu",
-            "cPrev": ["q.68019"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68019"]
         },
         "x68233": {
-            "level": 63,
             "name_en": "An Unforgettable Taste",
             "name_fr": "Disponible à la grande surface",
+            "level": 63,
             "npc_en": "Seizau",
             "npc_fr": "Seizau",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68234": {
-            "level": 63,
             "name_en": "The Bond between Brothers",
             "name_fr": "Le grand frère",
+            "level": 63,
             "npc_en": "Mahiwa",
             "npc_fr": "Mahiwa",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68235": {
-            "level": 63,
             "name_en": "The Core of Life",
             "name_fr": "L'eau de survie",
+            "level": 63,
             "npc_en": "Mine",
             "npc_fr": "Mine",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68236": {
-            "level": 63,
             "name_en": "All Good Deeds",
             "name_fr": "Pour nos chers voisins",
+            "level": 63,
             "npc_en": "Kagero",
             "npc_fr": "Kagero",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68237": {
-            "level": 63,
             "name_en": "Fear Her Almighty Waves",
             "name_fr": "Les perles de la Mer de Rubis",
+            "level": 63,
             "npc_en": "Sapphire-haired Girl",
             "npc_fr": "Ao Ra Aux Cheveux Bleus",
-            "cPrev": ["q.68021", "q.68218"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021", "q.68218"]
         },
         "x68238": {
-            "level": 63,
             "name_en": "The Fight for Survival",
             "name_fr": "Des créatures briseuses d'avenir",
+            "level": 63,
             "npc_en": "Mozu",
             "npc_fr": "Mozu",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68239": {
-            "level": 63,
             "name_en": "A Daughter's Love",
             "name_fr": "Un talisman de corail",
+            "level": 63,
             "npc_en": "Sayo",
             "npc_fr": "Sayo",
-            "cPrev": ["q.68021"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68021"]
         },
         "x68168": {
-            "level": 63,
             "name_en": "The Palace of Lost Souls",
             "name_fr": "Le Palais aux Marées troublées",
-            "unlock": ["d.235", "travel.aether-currents.sb.the-ruby-sea.10"],
+            "level": 63,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
+            "unlock": ["d.235", "travel.aether-currents.sb.the-ruby-sea.10"],
+            "patch": "4.0",
             "cPrev": ["q.68021"],
             "cNext": ["q.68240"],
-            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.10"],
-            "patch": "4.31"
+            "cSiblings": ["d.235", "travel.aether-currents.sb.the-ruby-sea.10"]
         },
         "x68240": {
-            "level": 63,
             "name_en": "Fathoms Below",
             "name_fr": "Seule la vérité compte",
+            "level": 63,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
+            "patch": "4.0",
             "cPrev": ["q.68021", "q.68168"],
-            "cNext": ["q.68241"],
-            "patch": "4.31"
+            "cNext": ["q.68241"]
         },
         "x68241": {
-            "level": 63,
             "name_en": "A Part of Your World",
             "name_fr": "Rendez-vous en terre inconnue",
+            "level": 63,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
+            "patch": "4.0",
             "cPrev": ["q.68021", "q.68240"],
-            "cNext": ["q.68242"],
-            "patch": "4.31"
+            "cNext": ["q.68242"]
         },
         "x68242": {
-            "level": 63,
             "name_en": "The Elixir of Life",
             "name_fr": "Pour vivre centenaire, vivons caché",
+            "level": 63,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
+            "patch": "4.0",
             "cPrev": ["q.68021", "q.68241"],
-            "cNext": ["q.68243"],
-            "patch": "4.31"
+            "cNext": ["q.68243"]
         },
         "x68243": {
-            "level": 63,
             "name_en": "The Two Princesses of Sui-no-Sato",
-            "name_fr": "Qui est qui?",
+            "name_fr": "Qui est qui ?",
+            "level": 63,
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
+            "unlock": "tto.98",
+            "patch": "4.0",
             "cPrev": ["q.68021", "q.68242"],
-            "cNext": ["q.68675"],
-            "patch": "4.31"
+            "cNext": ["q.68675"]
         },
         "x68244": {
-            "level": 63,
             "name_en": "In Search of Treasure",
             "name_fr": "La chasse aux trésors kojin",
+            "level": 63,
             "npc_en": "Affable Kojin",
             "npc_fr": "Kojin Sociable",
-            "cPrev": ["q.68023"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68023"]
         },
         "x68247": {
-            "level": 63,
             "name_en": "A True Kojin of the Blue",
             "name_fr": "Le bateau naufragé",
+            "level": 63,
             "npc_en": "Saikoro",
             "npc_fr": "Saikoro",
-            "cPrev": ["q.68023"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68023"]
         },
         "x68245": {
-            "level": 63,
             "name_en": "A Stroll along the Seabed",
             "name_fr": "Promenade au fond des mers",
+            "level": 63,
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
+            "patch": "4.0",
             "cPrev": ["q.68023"],
-            "cNext": ["q.68246"],
-            "patch": "4.31"
+            "cNext": ["q.68246"]
         },
         "x68246": {
-            "level": 63,
             "name_en": "Forgotten Saviors of the Sea",
             "name_fr": "Nettoyage maritime",
+            "level": 63,
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
+            "patch": "4.0",
             "cPrev": ["q.68023", "q.68245"],
-            "cNext": ["q.68248"],
-            "patch": "4.31"
+            "cNext": ["q.68248"]
         },
         "x68248": {
-            "level": 63,
             "name_en": "Serpent Troubles",
             "name_fr": "Indésirables ovipares",
+            "level": 63,
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
-            "cPrev": ["q.68023", "q.68246"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68023", "q.68246"]
         },
         "x68249": {
-            "level": 63,
             "name_en": "At the Mercy of Monsters",
             "name_fr": "Les terreurs des plages",
+            "level": 63,
             "npc_en": "Abiki",
             "npc_fr": "Abiki",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68250": {
-            "level": 63,
             "name_en": "A Dream to Remember",
             "name_fr": "La rencontre rêvée",
+            "level": 63,
             "npc_en": "Kansui",
             "npc_fr": "Kansui",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68251": {
-            "level": 63,
             "name_en": "Blessings of the Sea",
             "name_fr": "La bénédiction des eaux",
+            "level": 63,
             "npc_en": "Motogoe",
             "npc_fr": "Motogoe",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68252": {
-            "level": 63,
             "name_en": "In Health and in Sickness",
             "name_fr": "Un bouillon salvateur",
+            "level": 63,
             "npc_en": "Misago",
             "npc_fr": "Misago",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68253": {
-            "level": 63,
             "name_en": "Plunder on High",
             "name_fr": "J'aurais voulu être un oiseau",
+            "level": 63,
             "npc_en": "Zansetsu",
             "npc_fr": "Zansetsu",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68254": {
-            "level": 63,
             "name_en": "Sink or Swim",
             "name_fr": "Pêcheurs de père en fils",
+            "level": 63,
             "npc_en": "Anxious Boy",
             "npc_fr": "Jeune Garçon D'Isari",
-            "cPrev": ["q.68026"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026"]
         },
         "x68255": {
-            "level": 63,
             "name_en": "Thrice Cursed",
             "name_fr": "La haine du pêché, l'amour du pêcheur",
+            "level": 63,
             "npc_en": "Veteran Fisherman",
             "npc_fr": "Vieux Pêcheur Expérimenté",
+            "patch": "4.0",
             "cPrev": ["q.68026"],
-            "cNext": ["q.68256"],
-            "patch": "4.31"
+            "cNext": ["q.68256"]
         },
         "x68256": {
-            "level": 63,
             "name_en": "A Glimmer of Hope",
             "name_fr": "Rêve sur la grève",
+            "level": 63,
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
+            "patch": "4.0",
             "cPrev": ["q.68026", "q.68255"],
-            "cNext": ["q.68257"],
-            "patch": "4.31"
+            "cNext": ["q.68257"]
         },
         "x68257": {
-            "level": 63,
             "name_en": "Rock Bottom",
             "name_fr": "Lorsque tout part en fumée",
+            "level": 63,
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
+            "patch": "4.0",
             "cPrev": ["q.68026", "q.68256"],
-            "cNext": ["q.68258"],
-            "patch": "4.31"
+            "cNext": ["q.68258"]
         },
         "x68258": {
-            "level": 63,
             "name_en": "Passing the Torch",
             "name_fr": "L'espoir renaît",
+            "level": 63,
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
+            "patch": "4.0",
             "cPrev": ["q.68026", "q.68257"],
-            "cNext": ["q.68259"],
-            "patch": "4.31"
+            "cNext": ["q.68259"]
         },
         "x68259": {
-            "level": 63,
             "name_en": "Up in Flames",
             "name_fr": "Transmission de flambeau",
+            "level": 63,
             "npc_en": "Asari",
             "npc_fr": "Asari",
-            "cPrev": ["q.68026", "q.68226", "q.68258"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68026", "q.68226", "q.68258"]
         }
     }
 }

@@ -1,22 +1,29 @@
 <div class="search-container">
-    <ng-container *ngIf="svcSearch.searchError$ | async; else checkNoSearches">
-        <span>{{svcSearch.searchError$ | async}}</span>
-    </ng-container>
+    @if(svcSearch.searchError()) {
+        <span>{{svcSearch.searchError()}}</span>
+    }
+    @else if(!taskMatches() && !groupMatches()) {
+        <span>{{'APP.SEARCH.NO_SEARCH' | translate}}</span>
+    }
 
-    <ng-template #checkNoSearches>
-        <ng-container *ngIf="!taskMatches && !groupMatches">
-            <span>{{'MAIN.SEARCH.NO_SEARCH' | translate}}</span>
-        </ng-container>
-    </ng-template>
-
-    <ng-container *ngIf="(svcSearch.searchStatus$ | async) === Status.Success">
-        <p-tabView [activeIndex]="taskMatches ? 0 : 1">
-            <p-tabPanel header="{{'MAIN.SEARCH.TASK_TAB' | translate}} ({{taskMatches}})">
-                <xiv-task-search-results></xiv-task-search-results>
-            </p-tabPanel>
-            <p-tabPanel header="{{'MAIN.SEARCH.GROUP_TAB' | translate}} ({{groupMatches}})">
-                <xiv-group-search-results></xiv-group-search-results>
-            </p-tabPanel>
-        </p-tabView>
-    </ng-container>
+    @if(svcSearch.searchStatus() === Status.Success) {
+        <p-tabs [value]="taskMatches() ? 'taskResults' : 'taskResults'">
+            <p-tablist>
+                <p-tab value="taskResults">
+                    {{'APP.SEARCH.TASK_TAB' | translate}} ({{taskMatches()}})
+                </p-tab>
+                <p-tab value="groupResults">
+                    {{'APP.SEARCH.GROUP_TAB' | translate}} ({{groupMatches()}})
+                </p-tab>
+            </p-tablist>
+            <p-tabpanels>
+                <p-tabpanel value="taskResults">
+                    <com-task-search-results></com-task-search-results>
+                </p-tabpanel>
+                <p-tabpanel value="groupResults">
+                    <com-group-search-results></com-group-search-results>
+                </p-tabpanel>
+            </p-tabpanels>
+        </p-tabs>
+    }
 </div>

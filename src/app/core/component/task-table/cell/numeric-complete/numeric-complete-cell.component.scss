@@ -2,11 +2,10 @@
     display: contents;
 }
 
-.completion-flag-cell {
+.completion-number-cell {
     position: relative;
     user-select: none;
     cursor: default;
-    width: 99px;
 
     &.excluded {
         background-color: var(--excluded);
@@ -19,9 +18,12 @@
     }
 
     .numeric-input ::ng-deep {
-        .p-inputtext {
+        display: flex;
+        width: 99px;
+
+        .p-inputnumber-input {
             padding: 5px;
-            width: 65px;
+            width: 79px;
 
             background: rgba(0, 0, 0, 0.3);
         }
@@ -34,8 +36,8 @@
     .percentage {
         pointer-events: none;
         position: absolute;
-        left: 8px;
-        bottom: 2px;
+        left: 10px;
+        bottom: 0;
         width: 45px;
 
         color: var(--text-color-secondary);

@@ -4,334 +4,346 @@
     "groupName_fr": "Valention",
     "tasks": {
         "x66833": {
-            "level": 15,
             "name_en": "The Puissance of Love",
             "name_fr": "Le pouvoir de l'amour",
+            "level": 15,
             "npc_en": "Larsonient",
             "npc_fr": "Larsonient",
-            "cNext": ["q.66834", "q.66835", "q.66836"],
-            "patch": "4.31"
+            "patch": "2.1",
+            "cNext": ["q.66834", "q.66835", "q.66836"]
         },
         "x66834": {
-            "level": 15,
             "name_en": "Sweet, Sweet Love",
             "name_fr": "L'amour est un poison violent",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "2.1",
             "cPrev": ["q.66833"],
-            "cNext": ["q.66837"],
-            "patch": "4.31"
+            "cNext": ["q.66837"]
         },
         "x66835": {
-            "level": 15,
             "name_en": "Right Here Waiting",
             "name_fr": "Une patience à toute épreuve",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "2.1",
             "cPrev": ["q.66833"],
-            "cNext": ["q.66837"],
-            "patch": "4.31"
+            "cNext": ["q.66837"]
         },
         "x66836": {
-            "level": 15,
             "name_en": "Love Is a Battleground",
             "name_fr": "Quand le cœur fait “boum”",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "2.1",
             "cPrev": ["q.66833"],
-            "cNext": ["q.66837"],
-            "patch": "4.31"
+            "cNext": ["q.66837"]
         },
         "x66837": {
-            "level": 15,
             "name_en": "Never Say Farewell",
             "name_fr": "À la recherche de sa moitié",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "2.1",
             "cPrev": ["q.66834", "q.66835", "q.66836"],
-            "cSiblings": ["a.876"],
-            "patch": "4.31"
+            "cSiblings": ["a.876"]
         },
         "x66048": {
-            "level": 15,
             "name_en": "Where Did Our Loves Go",
             "name_fr": "Au service de l'amour",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cNext": ["q.66051", "q.66059", "q.66063"],
-            "patch": "4.31"
+            "patch": "2.5",
+            "cNext": ["q.66051", "q.66059", "q.66063"]
         },
         "x66051": {
-            "level": 15,
             "name_en": "Love in the Woods",
             "name_fr": "À la recherche de l'amour perdu (Gridania)",
+            "level": 15,
             "npc_en": "Hortefense",
             "npc_fr": "Hortefense",
+            "patch": "2.5",
             "cPrev": ["q.66048"],
-            "cNext": ["q.66083"],
-            "patch": "4.31"
+            "cNext": ["q.66083"]
         },
         "x66059": {
-            "level": 15,
             "name_en": "Hearts in the Sand",
             "name_fr": "À la recherche de l'amour perdu (Ul'dah)",
+            "level": 15,
             "npc_en": "Hortefense",
             "npc_fr": "Hortefense",
+            "patch": "2.5",
             "cPrev": ["q.66048"],
-            "cNext": ["q.66083"],
-            "patch": "4.31"
+            "cNext": ["q.66083"]
         },
         "x66063": {
-            "level": 15,
             "name_en": "Ardor in the Harbor",
             "name_fr": "À la recherche de l'amour perdu (Limsa Lominsa)",
+            "level": 15,
             "npc_en": "Hortefense",
             "npc_fr": "Hortefense",
+            "patch": "2.5",
             "cPrev": ["q.66048"],
-            "cNext": ["q.66083"],
-            "patch": "4.31"
+            "cNext": ["q.66083"]
         },
         "x66083": {
-            "level": 15,
             "name_en": "Now That We've Found Love",
             "name_fr": "L'amour frappe là où on ne l'attend pas",
+            "level": 15,
             "npc_en": "Hortefense",
             "npc_fr": "Hortefense",
+            "patch": "2.5",
             "cPrev": ["q.66051", "q.66059", "q.66063"],
-            "cSiblings": ["a.1062"],
-            "patch": "4.31"
+            "cSiblings": ["a.1062"]
         },
         "x67754": {
-            "level": 15,
             "name_en": "What Is Love",
             "name_fr": "À l'article de l'amour",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cNext": ["q.67755"],
-            "patch": "4.31"
+            "patch": "3.15",
+            "cNext": ["q.67755"]
         },
         "x67755": {
-            "level": 15,
             "name_en": "The Fault in Our Cards",
             "name_fr": "De divinations en révélations",
+            "level": 15,
             "npc_en": "House Valentione Emissary",
             "npc_fr": "Émissaire Des Valention",
+            "patch": "3.15",
             "cPrev": ["q.67754"],
-            "cNext": ["q.67756"],
-            "patch": "4.31"
+            "cNext": ["q.67756"]
         },
         "x67756": {
-            "level": 15,
             "name_en": "A Pair of Hearts",
             "name_fr": "À la poursuite de l'amour",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "3.15",
             "cPrev": ["q.67755"],
-            "cSiblings": ["a.1392"],
-            "patch": "4.31"
+            "cSiblings": ["a.1392"]
         },
         "x67955": {
-            "level": 15,
             "name_en": "Once More with Feeling",
             "name_fr": "Épanchement sentimental",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cNext": ["q.67956"],
-            "patch": "4.31"
+            "unlock": ["emote.146"],
+            "patch": "3.5",
+            "cNext": ["q.67956"]
         },
         "x67956": {
-            "level": 15,
             "name_en": "The Magic Number",
-            "name_fr": "Et plus si affinités?",
+            "name_fr": "Et plus si affinités ?",
+            "level": 15,
             "npc_en": "Hortefense",
             "npc_fr": "Hortefense",
+            "patch": "3.5",
             "cPrev": ["q.67955"],
-            "cSiblings": ["a.1681"],
-            "patch": "4.31"
+            "cSiblings": ["a.1681"]
         },
         "x68618": {
-            "level": 15,
             "name_en": "Lessons in Love",
             "name_fr": "L'apprentie messagère de l'amour",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "4.2",
             "cPrev": ["q.65781"],
             "cNext": ["q.68619"],
-            "cSiblings": ["a.2018"],
-            "patch": "4.31"
+            "cSiblings": ["a.2018"]
         },
         "x68619": {
-            "level": 15,
             "name_en": "In Fortune with the Times",
             "name_fr": "Nouveaux augures",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cPrev": ["q.68618"],
-            "patch": "4.31"
+            "patch": "4.2",
+            "cPrev": ["q.68618"]
         },
         "x68741": {
-            "level": 15,
             "name_en": "A Many-splendored Thing",
             "name_fr": "Un donjon presque parfait",
+            "level": 15,
             "npc_en": "Astrid",
             "npc_fr": "Astrid",
+            "patch": "4.5",
             "cPrev": ["q.65781"],
             "cNext": ["q.68742"],
-            "cSiblings": ["a.2237"],
-            "patch": "4.5"
+            "cSiblings": ["a.2237"]
         },
         "x68742": {
-            "level": 15,
             "name_en": "From Now until Affinity",
             "name_fr": "À la vie, à l'amour",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cPrev": ["q.68741"],
-            "patch": "4.5"
+            "patch": "4.5",
+            "cPrev": ["q.68741"]
         },
         "x69288": {
-            "level": 15,
             "name_en": "Of Ardor and Argument",
             "name_fr": "Ardeur et dissensions",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "5.1",
             "cPrev": ["q.65781"],
-            "cNext": ["q.69289", "q.69290", "q.69291"],
-            "patch": "5.1"
+            "cNext": ["q.69289", "q.69290", "q.69291"]
         },
         "x69289": {
-            "level": 15,
             "name_en": "A Vote for Astrid",
             "name_fr": "Un vote pour Astrid",
+            "level": 15,
             "npc_en": "Astrid",
             "npc_fr": "Astrid",
+            "patch": "5.1",
             "cPrev": ["q.69288"],
             "cNext": ["q.69292", "q.69293", "q.69294"],
-            "cExclude": ["q.69290", "q.69291"],
-            "patch": "5.1"
+            "cExclude": ["q.69290", "q.69291"]
         },
         "x69290": {
-            "level": 15,
             "name_en": "A Vote for Bert",
             "name_fr": "Un vote pour Bert",
+            "level": 15,
             "npc_en": "Bert",
             "npc_fr": "Bert",
+            "patch": "5.1",
             "cPrev": ["q.69288"],
             "cNext": ["q.69292", "q.69293", "q.69294"],
-            "cExclude": ["q.69289", "q.69291"],
-            "patch": "5.1"
+            "cExclude": ["q.69289", "q.69291"]
         },
         "x69291": {
-            "level": 15,
             "name_en": "A Vote for Rodrigault",
             "name_fr": "Un vote pour Rodrigault",
+            "level": 15,
             "npc_en": "Rodrigault",
             "npc_fr": "Rodrigault",
+            "patch": "5.1",
             "cPrev": ["q.69288"],
             "cNext": ["q.69292", "q.69293", "q.69294"],
-            "cExclude": ["q.69289", "q.69290"],
-            "patch": "5.1"
+            "cExclude": ["q.69289", "q.69290"]
         },
         "x69292": {
-            "level": 15,
             "name_en": "Astrid's Acumen",
             "name_fr": "Le défi d'Astrid",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "5.1",
             "cPrev": ["q.69289", "q.69290", "q.69291"],
-            "cCombo": ["a.2484"],
-            "patch": "5.1"
+            "cPrevAny": true,
+            "cCombo": ["a.2484"]
         },
         "x69293": {
-            "level": 15,
             "name_en": "Bert's Big Idea",
             "name_fr": "Le défi de Bert",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "5.1",
             "cPrev": ["q.69289", "q.69290", "q.69291"],
-            "cCombo": ["a.2484"],
-            "patch": "5.1"
+            "cPrevAny": true,
+            "cCombo": ["a.2484"]
         },
         "x69294": {
-            "level": 15,
             "name_en": "Rodrigault's Revelation",
             "name_fr": "Le défi de Rodrigault",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "5.1",
             "cPrev": ["q.69289", "q.69290", "q.69291"],
-            "cCombo": ["a.2484"],
-            "patch": "5.1"
+            "cPrevAny": true,
+            "cCombo": ["a.2484"]
         },
         "x70001": {
-            "level": 15,
             "name_en": "No Love Lost",
             "name_fr": "L'apprentie postière du cœur",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cNext": ["q.70002"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cNext": ["q.70002"]
         },
         "x70002": {
-            "level": 15,
             "name_en": "Love's Labors",
             "name_fr": "Les choses du cœur",
+            "level": 15,
             "npc_en": "Kupka Kupp",
             "npc_fr": "Kupka Kupp",
+            "patch": "6.0",
             "cPrev": ["q.70001"],
             "cNext": ["q.70003"],
-            "cSiblings": ["a.3033"],
-            "patch": "6.0"
+            "cSiblings": ["a.3033"]
         },
         "x70003": {
-            "level": 15,
             "name_en": "Better Letters",
             "name_fr": "La conseillère des lettres du cœur",
+            "level": 15,
             "npc_en": "Pukty Piko",
             "npc_fr": "Pukty Piko",
-            "cPrev": ["q.70002"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.70002"]
         },
         "x70190": {
-            "level": 15,
             "name_en": "Suited for Affection",
             "name_fr": "Valention et l'amour sous toutes ses formes",
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cSiblings": ["a.3122"],
-            "patch": "6.28"
+            "patch": "6.2",
+            "cSiblings": ["a.3122"]
         },
         "x70344": {
-            "level": 15,
             "name_en": "The Symbol of Love",
             "name_fr": "L'angle parfait",
+            "level": 15,
             "npc_en": "Astrid",
             "npc_fr": "Astrid",
+            "unlock": ["emote.274"],
+            "patch": "6.5",
             "cNext": ["q.70345"],
-            "cSiblings": ["e.274"],
-            "patch": "6.5"
+            "cSiblings": ["e.274"]
         },
         "x70345": {
-            "level": 15,
             "name_en": "It's All about Heart",
             "name_fr": "Le symbole de l'amour",
+            "level": 15,
             "npc_en": "Astrid",
             "npc_fr": "Astrid",
+            "patch": "6.5",
             "cPrev": ["q.70344"],
-            "cSiblings": ["a.3416"],
-            "patch": "6.5"
+            "cSiblings": ["a.3416"]
         },
         "x70787": {
-            "cSiblings": ["a.3612"],
-            "level": 15,
             "name_en": "I Promise You a Rose Garden",
             "name_fr": "La rose de la Valention",
+            "level": 15,
             "npc_en": "Astrid",
             "npc_fr": "Astrid",
+            "unlock": ["emote.283"],
             "patch": "7.1",
-            "unlock": ["e.283"]
+            "cSiblings": ["a.3612"]
+        },
+        "x70861": {
+            "name_en": "The Icing on the Cake",
+            "name_fr": "Les gâteaux du cœur",
+            "level": 15,
+            "npc_en": "Astrid",
+            "npc_fr": "Astrid",
+            "patch": "7.4",
+            "cPrev": ["q.65781", "q.66211"],
+            "cPrevAny": true
         }
     }
 }

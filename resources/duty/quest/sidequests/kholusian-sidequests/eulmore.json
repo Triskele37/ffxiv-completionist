@@ -4,137 +4,138 @@
     "groupName_fr": "Eulmore",
     "tasks": {
         "x69052": {
-            "level": 70,
             "name_en": "My Heart Will (Not) Go On",
             "name_fr": "D'amour et d'eau de mer",
+            "level": 70,
             "npc_en": "Queen Bee",
             "npc_fr": "Gérant de la Ruche",
+            "patch": "5.0",
             "cPrev": ["q.69168"],
-            "cNext": ["q.69053"],
-            "patch": "5.0"
+            "cNext": ["q.69053"]
         },
         "x69053": {
-            "level": 70,
             "name_en": "Near, Far, Wherever You Are",
             "name_fr": "Un gérant au grand cœur",
+            "level": 70,
             "npc_en": "Solina",
             "npc_fr": "Solina",
-            "cPrev": ["q.69052"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69052"]
         },
         "x69054": {
-            "level": 70,
             "name_en": "The Invisible Hand",
             "name_fr": "L'approvisionnement de La Fange",
+            "level": 70,
             "npc_en": "Zoi-Chorr",
             "npc_fr": "Zoi-Chorr",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69055": {
-            "level": 70,
             "name_en": "Scattered to the Winds",
             "name_fr": "Lettres éparpillées",
+            "level": 70,
             "npc_en": "Aarner",
             "npc_fr": "Aarner",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69056": {
-            "level": 70,
             "name_en": "One Good Meal",
-            "name_fr": "Qu'est-ce qu'on mange?",
+            "name_fr": "Qu'est-ce qu'on mange ?",
+            "level": 70,
             "npc_en": "Eulmoran Soldier",
             "npc_fr": "Soldat Eulmorien",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69057": {
-            "level": 70,
             "name_en": "Little and Late",
             "name_fr": "Qui aime bien châtie bien",
+            "level": 70,
             "npc_en": "Forlorn Free Citizen",
             "npc_fr": "Libéré D'Eulmore",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69058": {
-            "level": 70,
             "name_en": "Children of the Derelicts",
             "name_fr": "Les enfants de La Fange",
+            "level": 70,
             "npc_en": "Sristialla",
             "npc_fr": "Sristialla",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69059": {
-            "level": 70,
             "name_en": "Rebuild, Reuse, Recycle",
-            "name_fr": "Un jour, je serai capitaine!",
+            "name_fr": "Un jour, je serai capitaine !",
+            "level": 70,
             "npc_en": "Tui-Shirr",
             "npc_fr": "Tui-Shirr",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69060": {
-            "level": 70,
             "name_en": "Of Legacies Lost and Reclaimed",
             "name_fr": "Tendre la main aux moins fortunés",
+            "level": 70,
             "npc_en": "Debonair Dame",
             "npc_fr": "Eulmorienne Élégante",
-            "cPrev": ["q.69168"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69168"]
         },
         "x69265": {
-            "level": 70,
             "name_en": "Oh, Beehive Yourself",
             "name_fr": "Kai-Shirr et ses commandes spéciales",
+            "level": 70,
             "npc_en": "Kai-Shirr",
             "npc_fr": "Kai-Shirr",
             "unlock_en": "Custom Deliveries: Kai-Shirr",
             "unlock_fr": "Custom Deliveries: Kai-Shirr",
+            "patch": "5.1",
             "cPrev": ["q.69217", "q.69139"],
             "cNext": ["q.69266"],
-            "cSiblings": ["a.2425"],
-            "patch": "5.1"
+            "cSiblings": ["a.2425"]
         },
         "x69266": {
-            "level": 70,
             "name_en": "Commercially Flyable",
             "name_fr": "Tactique touristique",
+            "level": 70,
             "npc_en": "Bosta-Zia",
             "npc_fr": "Bosta-Zia",
+            "patch": "5.1",
             "cPrev": ["q.69265"],
-            "cNext": ["q.69267"],
-            "patch": "5.1"
+            "cNext": ["q.69267"]
         },
         "x69267": {
-            "level": 70,
             "name_en": "A Ship on His Shoulder",
             "name_fr": "Embarquement immédiat",
+            "level": 70,
             "npc_en": "Anfrigg",
             "npc_fr": "Anfrigg",
-            "cPrev": ["q.69266"],
-            "patch": "5.1"
+            "patch": "5.1",
+            "cPrev": ["q.69266"]
         },
         "x69137": {
-            "level": 80,
             "name_en": "Yet Another Striking Opportunity",
             "name_fr": "Un lieu pour jauger sa force",
+            "level": 80,
             "npc_en": "Weary Dockworker",
             "npc_fr": "Travailleur Modeste",
-            "cPrev": ["q.69190", "q.67654"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69190", "q.67654"]
         },
         "x69132": {
-            "level": 80,
             "name_en": "Akadaemia Anyder",
             "name_fr": "L'académie des horreurs",
-            "unlock": "d.661",
+            "level": 80,
             "npc_en": "Overwrought Ondo",
             "npc_fr": "Ondo Affolé",
+            "unlock": "d.661",
+            "patch": "5.0",
             "cPrev": ["q.69190"],
-            "patch": "5.0"
+            "cSiblings": ["d.661"]
         }
     }
 }

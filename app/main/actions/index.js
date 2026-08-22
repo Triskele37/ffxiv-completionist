@@ -1,17 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.initActions = void 0;
-var electron_1 = require("electron");
-var ConfigStore_1 = require("../store/ConfigStore");
-var PlayerStore_1 = require("../store/PlayerStore");
-var WindowStore_1 = require("../store/WindowStore");
-var preloadJson_1 = require("./preloadJson");
-var loadJson_1 = require("./loadJson");
+exports.initActions = initActions;
+const electron_1 = require("electron");
+const ConfigStore_1 = require("../store/ConfigStore");
+const PlayerStore_1 = require("../store/PlayerStore");
+const WindowStore_1 = require("../store/WindowStore");
+const preloadJson_1 = require("./preloadJson");
+const loadJson_1 = require("./loadJson");
+const shareCustom_1 = require("./shareCustom");
 function initActions() {
     electron_1.ipcMain.on('app-ready', WindowStore_1.WindowStore.showMainWindow);
-    electron_1.ipcMain.on('app-refresh', function () {
+    electron_1.ipcMain.handle('app-refresh', async () => {
         (0, preloadJson_1.clearCache)();
-        (0, preloadJson_1.preloadJson)();
+        await (0, preloadJson_1.preloadJson)();
     });
     electron_1.ipcMain.on('load-json', loadJson_1.loadJson);
     electron_1.ipcMain.on('get-config', ConfigStore_1.ConfigStore.get);
@@ -26,6 +27,7 @@ function initActions() {
     electron_1.ipcMain.on('open-save', PlayerStore_1.PlayerStore.open);
     electron_1.ipcMain.on('backup-save', PlayerStore_1.PlayerStore.backup);
     electron_1.ipcMain.on('load-backup-save', PlayerStore_1.PlayerStore.loadBackup);
+    electron_1.ipcMain.on('import-custom', shareCustom_1.importCustom);
+    electron_1.ipcMain.on('export-custom', shareCustom_1.exportCustom);
 }
-exports.initActions = initActions;
 //# sourceMappingURL=index.js.map

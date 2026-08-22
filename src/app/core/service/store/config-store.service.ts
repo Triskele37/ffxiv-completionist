@@ -16,8 +16,8 @@ import { Store } from './Store';
 export class ConfigStoreService extends Store<ConfigStore> {
     ipcGetEvent = IPC_EVENT.GET_CONFIG;
     ipcSaveEvent = IPC_EVENT.SET_CONFIG;
-    failedSummaryKey = 'TOAST.CONFIG_FAILED_SUMMARY';
-    failedDetailKey = 'TOAST.CONFIG_FAILED_DETAIL';
+    failedSummaryKey = 'APP.TOAST.CONFIG_FAILED_SUMMARY';
+    failedDetailKey = 'APP.TOAST.CONFIG_FAILED_DETAIL';
 
     navSettingUpdated$ = new Subject<void>();
 

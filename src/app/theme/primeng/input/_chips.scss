@@ -1,65 +1,69 @@
 @use 'sass:list';
+@use "../_mixins";
+@use "../../_variables";
 
-.p-chips {
-    &:not(.p-disabled):hover {
+@layer primeng {
+    .p-chips {
+        &:not(.p-disabled):hover {
+            .p-chips-multiple-container {
+                border-color: variables.$inputHoverBorderColor;
+            }
+        }
+
+        &:not(.p-disabled).p-focus {
+            .p-chips-multiple-container {
+                @include mixins.focused-input();
+            }
+        }
+
         .p-chips-multiple-container {
-            border-color: $inputHoverBorderColor;
-        }
-    }
+            padding: list.slash(list.nth(variables.$inputPadding, 1), 2) list.nth(variables.$inputPadding, 2);
+            gap: var(--inline-spacing);
 
-    &:not(.p-disabled).p-focus {
-        .p-chips-multiple-container {
-            @include focused-input();
-        }
-    }
+            .p-chips-token {
+                padding: list.slash(list.nth(variables.$inputPadding, 1), 2) list.nth(variables.$inputPadding, 2);
+                margin-right: var(--inline-spacing);
+                background: variables.$chipBg;
+                color: variables.$chipTextColor;
+                border-radius: variables.$chipBorderRadius;
 
-    .p-chips-multiple-container {
-        padding: list.slash(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-        gap: var(--inline-spacing);
+                &.p-focus {
+                    background: variables.$chipFocusBg;
+                    color: variables.$chipFocusTextColor;
+                }
 
-        .p-chips-token {
-            padding: list.slash(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-            margin-right: var(--inline-spacing);
-            background: $chipBg;
-            color: $chipTextColor;
-            border-radius: $chipBorderRadius;
-
-            &.p-focus {
-                background: $chipFocusBg;
-                color: $chipFocusTextColor;
+                .p-chips-token-icon {
+                    margin-left: var(--inline-spacing);
+                }
             }
 
-            .p-chips-token-icon {
-                margin-left: var(--inline-spacing);
-            }
-        }
+            .p-chips-input-token {
+                padding: list.slash(list.nth(variables.$inputPadding, 1), 2) 0;
 
-        .p-chips-input-token {
-            padding: list.slash(nth($inputPadding, 1), 2) 0;
-
-            input {
-                font-family: var(--font-family);
-                font-feature-settings: var(--font-feature-settings, normal);
-                font-size: $inputTextFontSize;
-                color: var(--text-color);
-                padding: 0;
-                margin: 0;
+                input {
+                    font-family: var(--font-family);
+                    font-feature-settings: var(--font-feature-settings, normal);
+                    font-size: variables.$inputTextFontSize;
+                    color: var(--text-color);
+                    padding: 0;
+                    margin: 0;
+                }
             }
         }
     }
-}
 
-p-chips.ng-dirty.ng-invalid > .p-chips > .p-inputtext {
-    @include invalid-input();
-}
-
-p-chips.p-chips-clearable {
-    .p-inputtext {
-        padding-right: nth($inputPadding, 2) + $primeIconFontSize;
+    p-chips.ng-dirty.ng-invalid > .p-chips > .p-inputtext {
+        @include mixins.invalid-input();
     }
 
-    .p-chips-clear-icon {
-        color: $inputIconColor;
-        right: nth($inputPadding, 2);
+    p-chips.p-chips-clearable {
+        .p-inputtext {
+            padding-right: list.nth(variables.$inputPadding, 2) + variables.$primeIconFontSize;
+        }
+
+        .p-chips-clear-icon {
+            color: variables.$inputIconColor;
+            right: list.nth(variables.$inputPadding, 2);
+        }
     }
 }

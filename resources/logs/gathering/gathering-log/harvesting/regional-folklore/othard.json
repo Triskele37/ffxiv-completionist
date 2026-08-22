@@ -3,34 +3,35 @@
     "groupName_en": "Othard",
     "groupName_fr": "Othard",
     "tasks": {
-        "x0": {
-            "level": "70★",
+        "x500": {
             "name_en": "Rhea",
             "name_fr": "Orties indigo",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": "70 ★",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "coordinates": "(20, 8)",
+            "closestAetheryte": "travel.aetherytes.the-far-east.97",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "4.0",
-            "closestAetheryte": "travel.aetherytes.the-far-east.97"
+            "patch": "4.0"
         },
-        "x1": {
-            "level": "70★",
-            "name_en": "Azim Cotton Ball",
+        "x507": {
+            "name_en": "Azim Cotton Boll",
             "name_fr": "Fleur de coton d'Azim",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": "70 ★",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "coordinates": "(20, 8)",
+            "closestAetheryte": "travel.aetherytes.the-far-east.97",
             "nodeTimer": "00:00 / 12:00",
-            "closestAetheryte": "travel.aetherytes.the-far-east.97"
+            "patch": "4.1"
         },
-        "x2": {
-            "level": "70★★★",
+        "x525": {
             "name_en": "Yanxian Cotton Boll",
             "name_fr": "Fleur de coton de Yanxia",
-            "zone": "@PLACE.YANXIA",
+            "level": "70 ★★★",
+            "zone": "@PLACE.SB.YANXIA",
             "coordinates": "(28, 35)",
+            "closestAetheryte": "travel.aetherytes.the-far-east.94",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "4.4",
-            "closestAetheryte": "travel.aetherytes.the-far-east.94"
+            "patch": "4.4"
         }
     }
 }

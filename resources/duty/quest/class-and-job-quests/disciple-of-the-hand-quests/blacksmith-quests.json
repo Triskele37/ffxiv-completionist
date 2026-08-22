@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes de forgeron",
     "tasks": {
         "x65827": {
-            "level": 1,
             "name_en": "Way of the Blacksmith",
             "name_fr": "La voie de la forge",
+            "level": 1,
             "npc_en": "Randwulf",
             "npc_fr": "Randwulf",
+            "unlock": "ap.245",
+            "patch": "2.0",
             "cPrev": ["q.65721"],
             "cNext": ["q.65828"],
-            "cSiblings": ["ap.245"],
-            "patch": "4.31",
-            "unlock": "ap.245"
+            "cSiblings": ["ap.245"]
         },
         "x65828": {
-            "level": 1,
             "name_en": "My First Cross-pein Hammer",
             "name_fr": "Mon premier marteau à panne croisée",
+            "level": 1,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65827"],
-            "cNext": ["q.65829"],
-            "patch": "4.31"
+            "cNext": ["q.65829"]
         },
         "x65829": {
-            "level": 5,
             "name_en": "Hammer Time",
             "name_fr": "Et tu tapes, tapes, tapes...",
+            "level": 5,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65828"],
-            "cNext": ["q.65830"],
-            "patch": "4.31"
+            "cNext": ["q.65830"]
         },
         "x65830": {
-            "level": 10,
             "name_en": "Riveting Ramblings",
             "name_fr": "La tête comme une enclume",
+            "level": 10,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65829"],
-            "cNext": ["q.65831"],
-            "patch": "4.31"
+            "cNext": ["q.65831"]
         },
         "x65831": {
-            "level": 15,
             "name_en": "The Business of Blacksmithing",
             "name_fr": "Forger de nouveaux partenariats",
+            "level": 15,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65830"],
-            "cNext": ["q.65832"],
-            "patch": "4.31"
+            "cNext": ["q.65832"]
         },
         "x65832": {
-            "level": 20,
             "name_en": "By the Sweat of Your Brow",
             "name_fr": "Les bons outils font les bons artisans",
+            "level": 20,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65831"],
-            "cNext": ["q.65833"],
-            "patch": "4.31"
+            "cNext": ["q.65833"]
         },
         "x65833": {
-            "level": 25,
             "name_en": "True as Steel",
             "name_fr": "En quête d'excellence",
+            "level": 25,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65832"],
-            "cNext": ["q.65834"],
-            "patch": "4.31"
+            "cNext": ["q.65834"]
         },
         "x65834": {
-            "level": 30,
             "name_en": "As Iron Sharpens Iron",
             "name_fr": "À la conquête du marché uldien",
+            "level": 30,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65833"],
             "cNext": ["q.65835"],
-            "cCombo": ["a.316"],
-            "patch": "4.31"
+            "cCombo": ["a.316"]
         },
         "x65835": {
-            "level": 35,
             "name_en": "Set Faezahr to Stun",
             "name_fr": "La passion de Faezahl",
+            "level": 35,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65834"],
-            "cNext": ["q.65836"],
-            "patch": "4.31"
+            "cNext": ["q.65836"]
         },
         "x65836": {
-            "level": 40,
             "name_en": "Forging Ahead",
             "name_fr": "Le marteau parfait",
+            "level": 40,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65835"],
-            "cNext": ["q.65837"],
-            "patch": "4.31"
+            "cNext": ["q.65837"]
         },
         "x65837": {
-            "level": 45,
             "name_en": "Beauty and the Bardiche",
             "name_fr": "Tombé sous le charme",
+            "level": 45,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65836"],
-            "cNext": ["q.65838"],
-            "patch": "4.31"
+            "cNext": ["q.65838"]
         },
         "x65838": {
-            "level": 50,
             "name_en": "Waiting in the Winglet",
             "name_fr": "Voler de ses propres ailes",
+            "level": 50,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "2.0",
             "cPrev": ["q.65837"],
-            "cNext": ["q.67543"],
-            "patch": "4.31"
+            "cNext": ["q.67543"]
         },
         "x67543": {
-            "level": 50,
             "name_en": "Forging Northwards",
             "name_fr": "Une spirale infernale",
+            "level": 50,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "3.0",
             "cPrev": ["q.65838", "q.65964"],
-            "cNext": ["q.67544"],
-            "patch": "4.31"
+            "cNext": ["q.67544"]
         },
         "x67544": {
-            "level": 53,
             "name_en": "Leave It to Fremondain",
             "name_fr": "Une volonté de fer",
+            "level": 53,
             "npc_en": "Fremondain",
             "npc_fr": "Fremondain",
+            "patch": "3.0",
             "cPrev": ["q.67543"],
-            "cNext": ["q.67545"],
-            "patch": "4.31"
+            "cNext": ["q.67545"]
         },
         "x67545": {
-            "level": 55,
             "name_en": "The Good Fight",
             "name_fr": "Une lame à la hauteur",
+            "level": 55,
             "npc_en": "Fremondain",
             "npc_fr": "Fremondain",
+            "patch": "3.0",
             "cPrev": ["q.67544"],
-            "cNext": ["q.67546"],
-            "patch": "4.31"
+            "cNext": ["q.67546"]
         },
         "x67546": {
-            "level": 58,
             "name_en": "Blade That Was Broken",
             "name_fr": "Le conseil d'un expert",
+            "level": 58,
             "npc_en": "Fremondain",
             "npc_fr": "Fremondain",
+            "patch": "3.0",
             "cPrev": ["q.67545"],
-            "cNext": ["q.67547"],
-            "patch": "4.31"
+            "cNext": ["q.67547"]
         },
         "x67547": {
-            "level": 60,
             "name_en": "Integrity",
             "name_fr": "Un héritage et une héroïne",
+            "level": 60,
             "npc_en": "Fremondain",
             "npc_fr": "Fremondain",
+            "patch": "3.0",
             "cPrev": ["q.67546"],
-            "cNext": ["q.68129"],
-            "patch": "4.31"
+            "cNext": ["q.68129"]
         },
         "x68129": {
-            "level": 60,
             "name_en": "A Missive from the Far East",
             "name_fr": "Correspondance d'Orient",
+            "level": 60,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "4.0",
             "cPrev": ["q.67547", "q.67895"],
-            "cNext": ["q.68152"],
-            "patch": "4.31"
+            "cNext": ["q.68152"]
         },
         "x68152": {
-            "level": 63,
             "name_en": "The Client Is King",
             "name_fr": "Le client est roi",
+            "level": 63,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "4.0",
             "cPrev": ["q.68129"],
-            "cNext": ["q.68153"],
-            "patch": "4.31"
+            "cNext": ["q.68153"]
         },
         "x68153": {
-            "level": 65,
             "name_en": "Blood Ties",
             "name_fr": "Un rêve inaccessible",
+            "level": 65,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "4.0",
             "cPrev": ["q.68152"],
-            "cNext": ["q.68154"],
-            "patch": "4.31"
+            "cNext": ["q.68154"]
         },
         "x68154": {
-            "level": 68,
             "name_en": "The Missing Piece",
             "name_fr": "Une prise de conscience importante",
+            "level": 68,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "patch": "4.0",
             "cPrev": ["q.68153"],
-            "cNext": ["q.68155"],
-            "patch": "4.31"
+            "cNext": ["q.68155"]
         },
         "x68155": {
-            "level": 70,
             "name_en": "The Final Face-off",
             "name_fr": "Duel en face-à-face",
+            "level": 70,
             "npc_en": "Brithael",
             "npc_fr": "Brithael",
+            "unlock": "ap.269",
+            "patch": "4.0",
             "cPrev": ["q.68154"],
-            "cSiblings": ["ap.269"],
-            "patch": "4.31",
-            "unlock": "ap.269"
+            "cSiblings": ["ap.269"]
         }
     }
 }

@@ -4,75 +4,261 @@
     "groupName_fr": "Chroniques de l'aurore - Épilogue",
     "tasks": {
         "x70780": {
-            "cNext": ["q.70781"],
-            "cPrev": ["q.70495"],
-            "level": 100,
             "name_en": "A Royal Invitation",
             "name_fr": "Des nouvelles d'Alexandrie",
+            "level": 100,
             "npc_en": "Bol Wuruq",
             "npc_fr": "Bol Wuruq",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70495"],
+            "cNext": ["q.70781"]
         },
         "x70781": {
-            "cNext": ["q.70782"],
-            "cPrev": ["q.70780"],
-            "level": 100,
             "name_en": "Alexandria Mourns",
             "name_fr": "Désarroi déjà roi",
+            "level": 100,
             "npc_en": "Gulool Ja",
             "npc_fr": "Gulool Ja",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70780"],
+            "cNext": ["q.70782"]
         },
         "x70782": {
-            "cNext": ["q.70783"],
-            "cPrev": ["q.70781"],
-            "level": 100,
             "name_en": "In Search of the Past",
             "name_fr": "La quête de Gulool Ja",
+            "level": 100,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
             "unlock": "d.1008",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70781"],
+            "cNext": ["q.70783"],
+            "cSiblings": ["d.1008"]
         },
         "x70783": {
-            "cNext": ["q.70784"],
-            "cPrev": ["q.70782"],
-            "level": 100,
             "name_en": "Among the Abandoned",
             "name_fr": "Le centre abandonné",
+            "level": 100,
             "npc_en": "Krile",
             "npc_fr": "Krile",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70782"],
+            "cNext": ["q.70784"]
         },
         "x70784": {
-            "cNext": ["q.70785"],
-            "cPrev": ["q.70783"],
-            "level": 100,
             "name_en": "Guidance of the Hhetso",
             "name_fr": "Connaître les hhetso",
+            "level": 100,
             "npc_en": "Geode",
             "npc_fr": "Geode",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70783"],
+            "cNext": ["q.70785"]
         },
         "x70785": {
-            "cNext": ["q.70775", "q.70786"],
-            "cPrev": ["q.70784"],
-            "level": 100,
             "name_en": "The Warmth of Family",
             "name_fr": "Famille et responsabilités",
+            "level": 100,
             "npc_en": "Koana",
             "npc_fr": "Koana",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70784"],
+            "cNext": ["q.70775", "q.70786"]
         },
         "x70786": {
-            "cPrev": ["q.70785"],
-            "cSiblings": ["a.3607"],
-            "level": 100,
             "name_en": "Crossroads",
             "name_fr": "Au seuil de l'inconnu",
+            "level": 100,
             "npc_en": "Wuk Lamat",
             "npc_fr": "Wuk Lamat",
-            "patch": "7.1"
+            "patch": "7.1",
+            "cPrev": ["q.70785"],
+            "cNext": ["q.70835"],
+            "cSiblings": ["a.3607"]
+        },
+        "x70835": {
+            "name_en": "A Glimmer of the Past",
+            "name_fr": "Un éclat du passé",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.2",
+            "cPrev": ["q.70786"],
+            "cNext": ["q.70836"]
+        },
+        "x70836": {
+            "name_en": "Memories of a Bygone Age",
+            "name_fr": "Des souvenirs bien trop lointains",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70835"],
+            "cNext": ["q.70837"]
+        },
+        "x70837": {
+            "name_en": "In Search of Meaning",
+            "name_fr": "Retrouver sa place",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70836"],
+            "cNext": ["q.70838"]
+        },
+        "x70838": {
+            "name_en": "A Jewel Shattered",
+            "name_fr": "Un joyau brisé",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70837"],
+            "cNext": ["q.70839"]
+        },
+        "x70839": {
+            "name_en": "The Meeting",
+            "name_fr": "La réunion",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70838"],
+            "cNext": ["q.70840"]
+        },
+        "x70840": {
+            "name_en": "Descent to the Foundation",
+            "name_fr": "Départ pour les fondations",
+            "level": 100,
+            "npc_en": "Shale",
+            "npc_fr": "Shale",
+            "unlock": ["d.1027", "d.1030"],
+            "patch": "7.2",
+            "cPrev": ["q.70839"],
+            "cNext": ["q.70841"],
+            "cSiblings": ["d.1027", "d.1030"]
+        },
+        "x70841": {
+            "name_en": "Shared Paths",
+            "name_fr": "Une seconde chance",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70840"],
+            "cNext": ["q.70842"]
+        },
+        "x70842": {
+            "name_en": "Seekers of Eternity",
+            "name_fr": "Explorateurs de l'éternité",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.2",
+            "cPrev": ["q.70841"],
+            "cNext": ["q.70900"]
+        },
+        "x70900": {
+            "name_en": "Targeted Tragedy",
+            "name_fr": "Sur le lieu du drame",
+            "level": 100,
+            "npc_en": "Shale",
+            "npc_fr": "Shale",
+            "patch": "7.3",
+            "cPrev": ["q.70842"],
+            "cNext": ["q.70901"]
+        },
+        "x70901": {
+            "name_en": "The Endless Choice",
+            "name_fr": "Silence radio",
+            "level": 100,
+            "npc_en": "Wayakkwe",
+            "npc_fr": "Wayakkwe",
+            "patch": "7.3",
+            "cPrev": ["q.70900"],
+            "cNext": ["q.70902"]
+        },
+        "x70902": {
+            "name_en": "My Memories and Yours",
+            "name_fr": "Le verre d'adieu",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.3",
+            "cPrev": ["q.70901"],
+            "cNext": ["q.70903"]
+        },
+        "x70903": {
+            "name_en": "A Darkness in the Heart",
+            "name_fr": "L'emprise du côté obscur",
+            "level": 100,
+            "npc_en": "Shale",
+            "npc_fr": "Shale",
+            "patch": "7.3",
+            "cPrev": ["q.70902"],
+            "cNext": ["q.70904"]
+        },
+        "x70904": {
+            "name_en": "Preservation Their Purpose",
+            "name_fr": "Science sans conscience (première partie)",
+            "level": 100,
+            "npc_en": "Wuk Lamat",
+            "npc_fr": "Wuk Lamat",
+            "patch": "7.3",
+            "cPrev": ["q.70903"],
+            "cNext": ["q.70905"]
+        },
+        "x70905": {
+            "name_en": "A Calculated Evolution",
+            "name_fr": "Science sans conscience (deuxième partie)",
+            "level": 100,
+            "npc_en": "Shale",
+            "npc_fr": "Shale",
+            "patch": "7.3",
+            "cPrev": ["q.70904"],
+            "cNext": ["q.70906"]
+        },
+        "x70906": {
+            "name_en": "One of Our Own",
+            "name_fr": "La résolution du peuple",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.3",
+            "cPrev": ["q.70905"],
+            "cNext": ["q.70907"]
+        },
+        "x70907": {
+            "name_en": "A Terminal Invitation",
+            "name_fr": "Le jour de la promesse",
+            "level": 100,
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "unlock": ["d.1028", "d.1061"],
+            "patch": "7.3",
+            "cPrev": ["q.70906"],
+            "cNext": ["q.70908"],
+            "cSiblings": ["d.1028", "d.1061"]
+        },
+        "x70908": {
+            "name_en": "Blades in Waiting",
+            "name_fr": "La fin du cauchemar",
+            "level": 100,
+            "npc_en": "Sphene",
+            "npc_fr": "Sphene",
+            "patch": "7.3",
+            "cPrev": ["q.70907"],
+            "cNext": ["q.70909"]
+        },
+        "x70909": {
+            "name_en": "The Promise of Tomorrow",
+            "name_fr": "La promesse de demain",
+            "level": 100,
+            "npc_en": "Shale",
+            "npc_fr": "Shale",
+            "patch": "7.3",
+            "cPrev": ["q.70908"],
+            "cNext": ["q.70962", "q.70996"]
         }
     }
 }

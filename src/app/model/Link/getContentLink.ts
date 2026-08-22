@@ -9,7 +9,7 @@ export function getContentLink(
     trimGroup?: DataGroup, // Remove this groups path from a task link's text
     nameOnly?: boolean
 ): string {
-    if(content.xivDataType === 'Group') {
+    if(content.dataType === 'Group') {
         return getGroupLink(content, trimGroup, nameOnly);
     }
     else {

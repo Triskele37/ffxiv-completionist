@@ -1,19 +1,35 @@
-<div class="settings-page">
-    <p-tabView>
-        <p-tabPanel [header]="'MAIN.SETTING.CHARACTER.TITLE' | translate">
-            <xiv-character-settings></xiv-character-settings>
-        </p-tabPanel>
-
-        <p-tabPanel [header]="'MAIN.SETTING.COMPLETION.TITLE' | translate">
-            <xiv-completion-settings></xiv-completion-settings>
-        </p-tabPanel>
-
-        <p-tabPanel [header]="'MAIN.SETTING.CHAINING.TITLE' | translate">
-            <xiv-chain-settings></xiv-chain-settings>
-        </p-tabPanel>
-
-        <p-tabPanel [header]="'MAIN.SETTING.THEME.TITLE' | translate">
-            <xiv-theme-settings></xiv-theme-settings>
-        </p-tabPanel>
-    </p-tabView>
+<div
+    data-active-help="APP.ACTIVE_HELP.SETTINGS"
+    class="settings-page"
+>
+    <p-tabs value="characterSettings">
+        <p-tablist>
+            <p-tab value="characterSettings">
+                {{'APP.SETTING.CHARACTER.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="completionSettings">
+                {{'APP.SETTING.COMPLETION.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="chainSettings">
+                {{'APP.SETTING.CHAINING.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="themeSettings">
+                {{'APP.SETTING.THEME.TITLE' | translate}}
+            </p-tab>
+        </p-tablist>
+        <p-tabpanels>
+            <p-tabpanel value="characterSettings">
+                <com-character-settings></com-character-settings>
+            </p-tabpanel>
+            <p-tabpanel value="completionSettings">
+                <com-completion-settings></com-completion-settings>
+            </p-tabpanel>
+            <p-tabpanel value="chainSettings">
+                <com-chain-settings></com-chain-settings>
+            </p-tabpanel>
+            <p-tabpanel value="themeSettings">
+                <com-theme-settings></com-theme-settings>
+            </p-tabpanel>
+        </p-tabpanels>
+    </p-tabs>
 </div>

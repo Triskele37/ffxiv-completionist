@@ -4,11 +4,13 @@ import * as fs from 'fs';
 
 import { ConfigStore } from './ConfigStore';
 
+type PlayerSave = Record<string, any>;
+
 export class PlayerStore {
     static path: string;
-    static store;
+    static store: PlayerSave;
 
-    static queuedSave;
+    static queuedSave: NodeJS.Timeout;
 
     //#region------------------------------------------------------- Load/Save
     static get defaultSave() {
@@ -23,6 +25,8 @@ export class PlayerStore {
     }
 
     static load(): { data: any, successful: boolean } {
+        if(!ConfigStore.store) return { data: {}, successful: false };
+
         const base = ConfigStore.store['store-loc'] || app.getPath('userData');
         const file = ConfigStore.store['store-name'] || 'completion';
 
@@ -30,7 +34,7 @@ export class PlayerStore {
         PlayerStore.store = PlayerStore.defaultSave;
 
         // Get if it exists
-        let save = {}, successful = true;
+        let save = {} as PlayerSave, successful = true;
         if(fs.existsSync(PlayerStore.path)) {
             try {
                 save = JSON.parse(fs.readFileSync(PlayerStore.path, 'utf8'));
@@ -66,7 +70,7 @@ export class PlayerStore {
                 JSON.stringify(PlayerStore.store, null, 4)
             );
         }
-        catch(e) {
+        catch(e: any) {
             // Retry save if the file was locked
             if(e.code === 'EBUSY') {
                 PlayerStore.queuedSave = setTimeout(() => PlayerStore.save(), 1000);
@@ -82,7 +86,7 @@ export class PlayerStore {
         event.returnValue = PlayerStore.load();
     }
 
-    static set(event: IpcMainEvent, newSave) {
+    static set(event: IpcMainEvent, newSave: PlayerSave) {
         PlayerStore.store = newSave;
         PlayerStore.save();
         event.returnValue = null;
@@ -92,11 +96,16 @@ export class PlayerStore {
 
     //#region------------------------------------------------------- Backup Utils
     static open(event: IpcMainEvent) {
-        shell.openPath(ConfigStore.store['store-loc']);
+        if(ConfigStore.store) shell.openPath(ConfigStore.store['store-loc']);
         event.returnValue = null;
     }
 
     static backup(event: IpcMainEvent) {
+        if(!ConfigStore.store) {
+            event.returnValue = null;
+            return;
+        }
+
         const fileName = `${ConfigStore.store['store-name']}-${PlayerStore.store.version}-backup.json`;
         const result = dialog.showSaveDialogSync({
             defaultPath: path.join(ConfigStore.store['store-loc'], fileName),
@@ -114,7 +123,12 @@ export class PlayerStore {
     }
 
     static loadBackup(event: IpcMainEvent) {
-        const result = dialog.showOpenDialogSync(null, {
+        if(!ConfigStore.store) {
+            event.returnValue = false;
+            return;
+        }
+
+        const result = dialog.showOpenDialogSync({
             defaultPath: ConfigStore.store['store-loc'],
             properties: ['openFile'],
             filters: [{ name: 'JSON', extensions: ['json'] }]

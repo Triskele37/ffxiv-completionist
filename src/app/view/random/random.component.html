@@ -1,29 +1,47 @@
-<div class="random">
-    <xiv-group-selector
-        class="group-selector"
-        (onGroupChange)="onGroupChange($event)"
-    ></xiv-group-selector>
+<div
+    data-active-help="APP.ACTIVE_HELP.RANDOM_VIEW"
+    class="random-container"
+>
+    <div class="random">
+        <button
+            class="group-selector-button"
+            pButton
+            (click)="onToggleSelector($event)"
+        >
+            {{group.name}}
+        </button>
 
-    <p-inputNumber
-        class="numeric-input"
-        [(ngModel)]="randomCount"
-        [showButtons]="true"
-        [min]="1"
-        [max]="30"
-        (onBlur)="onCountChange()"
-    ></p-inputNumber>
+        <p-input-number
+            class="numeric-input"
+            [(ngModel)]="randomCount"
+            [showButtons]="true"
+            [min]="1"
+            [max]="30"
+            (onBlur)="onCountChange()"
+        ></p-input-number>
 
-    <p-button
-        class="random-button"
-        icon="mi mi-casino"
-        (onClick)="onGenerateRandomClick()"
-    ></p-button>
+        <button
+            pButton
+            class="random-button"
+            (click)="onGenerateRandomClick()"
+        >
+            <span class="mi mi-casino"></span>
+        </button>
 
-    <ng-container *ngFor="let task of randomTasks">
-        <xiv-content-link
-            class="random-result"
-            [content]="task"
-            [nameOnly]="true"
-        ></xiv-content-link>
-    </ng-container>
+        @for(task of randomTasks; track task.fullStorageKey) {
+            <com-content-link
+                class="random-result"
+                [content]="task"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+    </div>
 </div>
+
+<com-group-selector
+    class="group-selector"
+    [includeRoot]="true"
+    [menuEvent]="groupSelectorEvent"
+    (onGroupChange)="onGroupChange($event)"
+    (onHide)="onSelectorHide()"
+></com-group-selector>

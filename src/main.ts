@@ -1,15 +1,25 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { enableProdMode, provideZoneChangeDetection } from '@angular/core';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
 
-import { AppModule } from './app/app.module';
+import { AppComponent } from './app/app.component';
 import { APP_CONFIG } from './environments/environment';
+import { provideCompletionistPrimeNG } from './bootstrap/primeNg';
+import { provideCompletionistTranslateService } from './bootstrap/translateService';
+import { provideCompletionistAppInitializer } from './bootstrap/appInitializer';
 
 if(APP_CONFIG.production) {
     enableProdMode();
 }
 
-platformBrowserDynamic()
-    .bootstrapModule(AppModule, {
-        preserveWhitespaces: false
-    })
-    .catch(err => console.error(err));
+bootstrapApplication(AppComponent, {
+    providers: [
+        provideZoneChangeDetection(),
+        ...provideCompletionistPrimeNG(),
+        provideCompletionistTranslateService(),
+        provideHttpClient(withInterceptors([])),
+        provideCompletionistAppInitializer(),
+    ]
+}).catch((error: any) => {
+    console.error(error);
+});

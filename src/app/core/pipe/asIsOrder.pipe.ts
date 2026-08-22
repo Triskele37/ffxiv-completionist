@@ -1,16 +1,12 @@
-import { NgModule, Pipe, PipeTransform } from '@angular/core';
+import { KeyValue } from '@angular/common';
+import { Pipe, PipeTransform } from '@angular/core';
 
 // Force "keyvalue" pipe to respect Map order
-@Pipe({ name: 'asIsOrder' })
-export class AsIsOrderPipe implements PipeTransform {
-    transform(a, b): number {
-        return 1;
-    }
-}
-
-@NgModule({
-    declarations: [AsIsOrderPipe],
-    exports: [AsIsOrderPipe]
+@Pipe({
+    name: 'asIsOrder'
 })
-export class AsIsOrderPipeModule {
+export class AsIsOrderPipe implements PipeTransform {
+    transform<K, V>(a: KeyValue<K, V>, b: KeyValue<K, V>): number {
+        return 0;
+    }
 }

@@ -1,19 +1,20 @@
-import { Component, NgModule } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
-import { ButtonModule } from 'primeng/button';
+import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
 
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
-    selector: 'xiv-landing-page',
-    templateUrl: './landing-page.html'
+    selector: 'com-landing-page',
+    templateUrl: './landing-page.html',
+    styleUrls: ['./landing-page.scss'],
+    imports: [
+        ButtonDirective,
+        TranslatePipe,
+    ]
 })
 export class LandingPageComponent {
     constructor(private svcNavigation: NavigationService) {
-    }
-
-    onGuideClick(): void {
-        this.svcNavigation.setBreadcrumbs(['main-menu', 'guide']);
     }
 
     onPatchNotesClick(): void {
@@ -23,19 +24,4 @@ export class LandingPageComponent {
     onCompletionClick(): void {
         this.svcNavigation.setBreadcrumbs(['overall']);
     }
-}
-
-@NgModule({
-    declarations: [
-        LandingPageComponent
-    ],
-    imports: [
-        TranslateModule,
-        ButtonModule
-    ],
-    exports: [
-        LandingPageComponent
-    ]
-})
-export class LandingPageModule {
 }

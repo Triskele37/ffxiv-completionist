@@ -1,0 +1,61 @@
+{
+    "key": "ilsabard-and-northern-empty",
+    "groupName_en": "Ilsabard/Northern Empty",
+    "groupName_fr": "Mers du N./Ilsabard",
+    "tasks": {
+        "x658": {
+            "name_en": "Stonehard Water",
+            "name_fr": "Eau extrêmement dure",
+            "level": "90",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(32.2, 34.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.0",
+            "cSiblings": [
+                "logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars.658",
+                "logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered.658"
+            ]
+        },
+        "x647": {
+            "name_en": "Rime Dolomite",
+            "name_fr": "Minerai de dolomite boréale",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(32.2, 34.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.0"
+        },
+        "x695": {
+            "name_en": "Raw Eblan Danburite",
+            "name_fr": "Danburite brute d'Éblana",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(32.2, 34.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.1"
+        },
+        "x704": {
+            "name_en": "Prime Siderite",
+            "name_fr": "Sidérite volatile",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(32.2, 34.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.2"
+        },
+        "x705": {
+            "name_en": "Sublime Siderite",
+            "name_fr": "Sidérite sublimée",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(32.2, 34.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.2"
+        }
+    }
+}

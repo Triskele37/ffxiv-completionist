@@ -2,7 +2,7 @@
     "key": "fishing-log",
     "groupName_en": "Fishing Log",
     "groupName_fr": "Carnet de pêche",
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -21,6 +21,9 @@
         },
         "req": {
             "header": "@HEADER.REQUIREMENTS"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "order": [

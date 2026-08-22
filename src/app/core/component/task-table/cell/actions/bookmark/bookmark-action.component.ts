@@ -1,30 +1,36 @@
-import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, Output, signal, SimpleChanges } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { Tooltip } from 'primeng/tooltip';
 
 import { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 
 @Component({
-    selector: 'xiv-bookmark-action',
+    selector: 'com-bookmark-action',
     templateUrl: './bookmark-action.component.html',
-    styleUrls: ['../action.scss']
+    styleUrls: ['../action.scss'],
+    imports: [
+        Tooltip,
+        TranslatePipe
+    ],
 })
 export class BookmarkActionComponent implements OnChanges {
-    @Input() task: Task;
+    @Input({ required: true }) task!: Task;
     @Output() onClick = new EventEmitter<void>();
 
-    isBookmarked: boolean;
+    isBookmarked = signal(false);
 
     constructor(private svcBookmark: BookmarkService) {
     }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.task) {
-            this.isBookmarked = this.svcBookmark.isBookmarked(this.task);
+            this.isBookmarked.set(this.svcBookmark.isBookmarked(this.task));
         }
     }
 
     toggleBookmark(): void {
-        this.isBookmarked = this.svcBookmark.toggleBookmark(this.task);
+        this.isBookmarked.set(this.svcBookmark.toggleBookmark(this.task));
         this.onClick.emit();
     }
 }

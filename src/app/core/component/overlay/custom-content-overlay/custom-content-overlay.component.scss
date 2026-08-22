@@ -1,0 +1,70 @@
+@use './ellipsis-overflow' as *;
+
+// Shared container class for all overlays
+.overlay-container {
+    .add-overlay {
+        // for the group selector tieredmenu
+        overflow: visible;
+
+        .content {
+            min-width: 400px;
+
+            .task-property-input {
+                padding: 5px;
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // Prime overrides
+    .add-overlay ::ng-deep {
+        .p-iftalabel label {
+            color: var(--text-color);
+        }
+
+        p-divider {
+            margin: 5px;
+        }
+
+        .horizontal-group .p-buttongroup {
+            flex-direction: row;
+        }
+
+        .p-buttongroup {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+
+            .p-button {
+                border-radius: 0;
+                border-right: none;
+                width: 100%;
+            }
+        }
+    }
+
+    .group-selector ::ng-deep .p-tieredmenu {
+        width: calc(100% - 10px);
+        margin: 5px;
+
+        // prime is bad
+        left: 25px !important;
+        top: 115px !important;
+
+        .p-tieredmenu-submenu {
+            min-width: 200px;
+            width: 200px;
+
+            // prime is bad
+            left: 25px !important;
+            top: 25px !important;
+
+            .p-tieredmenu-item-label {
+                @extend %ellipsis-overflow;
+            }
+        }
+    }
+}

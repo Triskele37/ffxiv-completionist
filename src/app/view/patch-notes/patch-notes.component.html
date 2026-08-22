@@ -1,20 +1,78 @@
-<p-tabView class="patch-notes">
-    <p-tabPanel header="1.0.5">
-        <xiv-patch-notes-1-0-5></xiv-patch-notes-1-0-5>
-    </p-tabPanel>
-    <p-tabPanel header="1.0.4">
-        <xiv-patch-notes-1-0-4></xiv-patch-notes-1-0-4>
-    </p-tabPanel>
-    <p-tabPanel header="1.0.3">
-        <xiv-patch-notes-1-0-3></xiv-patch-notes-1-0-3>
-    </p-tabPanel>
-    <p-tabPanel header="1.0.2">
-        <xiv-patch-notes-1-0-2></xiv-patch-notes-1-0-2>
-    </p-tabPanel>
-    <p-tabPanel header="1.0.1">
-        <xiv-patch-notes-1-0-1></xiv-patch-notes-1-0-1>
-    </p-tabPanel>
-    <p-tabPanel header="1.0.0">
-        <xiv-patch-notes-1-0-0></xiv-patch-notes-1-0-0>
-    </p-tabPanel>
-</p-tabView>
+<p-tabs
+    data-active-help="APP.ACTIVE_HELP.UPDATES"
+    class="patch-notes"
+    value="app"
+>
+    <p-tablist>
+        <p-tab value="app">{{'APP.NAME' | translate}}</p-tab>
+        <p-tab value="game">{{'GAME.NAME' | translate}}</p-tab>
+    </p-tablist>
+    <p-tabpanels class="patch-details">
+        <p-tabpanel value="app">
+            <ng-container
+                [ngTemplateOutlet]="sourceUpdate"
+                [ngTemplateOutletContext]="{ updates: appUpdates }"
+            ></ng-container>
+        </p-tabpanel>
+        <p-tabpanel value="game">
+            <ng-container
+                [ngTemplateOutlet]="sourceUpdate"
+                [ngTemplateOutletContext]="{ updates: gameUpdates }"
+            ></ng-container>
+        </p-tabpanel>
+    </p-tabpanels>
+</p-tabs>
+
+<ng-template #sourceUpdate let-updates="updates">
+    @for(update of updates; track update.name) {
+        <p-divider>
+            <div class="update-name" (click)="update.expanded = !update.expanded">
+                {{update.name}}
+
+                <i class="pi pi-chevron-{{update.expanded ? 'up' : 'down'}}"></i>
+            </div>
+        </p-divider>
+
+        <div
+            class="update-notes"
+            [style.height]="update.expanded ? 'auto' : 0"
+        >
+            <ng-container
+                [ngTemplateOutlet]="noteSection"
+                [ngTemplateOutletContext]="{ translateKey: 'ADD', list: update.additions }"
+            ></ng-container>
+
+            <ng-container
+                [ngTemplateOutlet]="noteSection"
+                [ngTemplateOutletContext]="{ translateKey: 'CHANGE', list: update.changes }"
+            ></ng-container>
+
+            <ng-container
+                [ngTemplateOutlet]="noteSection"
+                [ngTemplateOutletContext]="{ translateKey: 'FIX', list: update.fixes }"
+            ></ng-container>
+
+            <ng-container
+                [ngTemplateOutlet]="noteSection"
+                [ngTemplateOutletContext]="{ translateKey: 'REMOVE', list: update.removals }"
+            ></ng-container>
+        </div>
+    }
+</ng-template>
+
+<ng-template
+    #noteSection
+    let-translateKey="translateKey"
+    let-list="list"
+>
+    @if(list.length) {
+        <div class="section">
+            <div class="header">{{('APP.UPDATES.' + translateKey) | translate}}</div>
+            <ul>
+                @for(note of list; track note) {
+                    <li>{{note}}</li>
+                }
+            </ul>
+        </div>
+    }
+</ng-template>

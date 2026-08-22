@@ -1,7 +1,7 @@
 import { DataGroup } from '../';
 import { getEffectiveTotal, getCompleted, getRemaining } from './counts';
 
-export function getPercentComplete(group: DataGroup): string {
+export function getPercentComplete(group: DataGroup): string | null {
     const effectiveTotal = getEffectiveTotal(group);
     if(effectiveTotal === 0) return null;
 

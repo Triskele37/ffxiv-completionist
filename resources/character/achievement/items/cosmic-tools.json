@@ -1,0 +1,403 @@
+{
+    "key": "cosmic-tools",
+    "groupName_en": "Cosmic Tools",
+    "groupName_fr": "Outils cosmiques",
+    "tasks": {
+        "x3691": {
+            "name_en": "R&D: Cosmic Saw",
+            "name_fr": "Outil cosmique : scie cosmique",
+            "description_en": "Obtain a cosmic saw.",
+            "description_fr": "Obtenir la scie cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.109"]
+        },
+        "x3792": {
+            "name_en": "R&D: Stellar Saw",
+            "name_fr": "Outil cosmique : scie spatiale",
+            "description_en": "Obtain a stellar saw.",
+            "description_fr": "Obtenir la scie spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.114"]
+        },
+        "x3877": {
+            "name_en": "R&D: Hypersaw",
+            "name_fr": "Outil cosmique : scie hyperspatiale",
+            "description_en": "Obtain a hypersaw.",
+            "description_fr": "Obtenir la scie hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.117"]
+        },
+        "x3914": {
+            "name_en": "R&D: Saw of Stars",
+            "name_fr": "Outil cosmique : scie des constellations",
+            "description_en": "Obtain a saw of stars.",
+            "description_fr": "Obtenir la scie des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.120"]
+        },
+        "x3692": {
+            "name_en": "R&D: Cosmic Cross-pein Hammer",
+            "name_fr": "Outil cosmique : marteau à panne croisée cosmique",
+            "description_en": "Obtain a cosmic cross-pein hammer.",
+            "description_fr": "Obtenir le marteau à panne croisée cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.209"]
+        },
+        "x3793": {
+            "name_en": "R&D: Stellar Cross-pein Hammer",
+            "name_fr": "Outil cosmique : marteau à panne croisée spatial",
+            "description_en": "Obtain a stellar cross-pein hammer.",
+            "description_fr": "Obtenir le marteau à panne croisée spatial.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.214"]
+        },
+        "x3878": {
+            "name_en": "R&D: Cross-pein Hyperhammer",
+            "name_fr": "Outil cosmique : marteau à panne croisée hyperspatial",
+            "description_en": "Obtain a cross-pein hyperhammer.",
+            "description_fr": "Obtenir le marteau à panne croisée hyperspatial.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.217"]
+        },
+        "x3915": {
+            "name_en": "R&D: Cross-pein Hammer of Stars",
+            "name_fr": "Outil cosmique : marteau à panne croisée des constellations",
+            "description_en": "Obtain a cross-pein hammer of stars.",
+            "description_fr": "Obtenir le marteau à panne croisée des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.220"]
+        },
+        "x3693": {
+            "name_en": "R&D: Cosmic Raising Hammer",
+            "name_fr": "Outil cosmique : marteau de batteur cosmique",
+            "description_en": "Obtain a cosmic raising hammer.",
+            "description_fr": "Obtenir le marteau de batteur cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.309"]
+        },
+        "x3794": {
+            "name_en": "R&D: Stellar Raising Hammer",
+            "name_fr": "Outil cosmique : marteau de batteur spatial",
+            "description_en": "Obtain a stellar raising hammer.",
+            "description_fr": "Obtenir le marteau de batteur spatial.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.314"]
+        },
+        "x3879": {
+            "name_en": "R&D: Raising Hyperhammer",
+            "name_fr": "Outil cosmique : marteau de batteur hyperspatial",
+            "description_en": "Obtain a raising hyperhammer.",
+            "description_fr": "Obtenir le marteau de batteur hyperspatial.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.317"]
+        },
+        "x3916": {
+            "name_en": "R&D: Raising Hammer of Stars",
+            "name_fr": "Outil cosmique : marteau de batteur des constellations",
+            "description_en": "Obtain a raising hammer of stars.",
+            "description_fr": "Obtenir le marteau de batteur des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.320"]
+        },
+        "x3694": {
+            "name_en": "R&D: Cosmic Mallet",
+            "name_fr": "Outil cosmique : massette cosmique",
+            "description_en": "Obtain a cosmic mallet.",
+            "description_fr": "Obtenir la massette cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.409"]
+        },
+        "x3795": {
+            "name_en": "R&D: Stellar Mallet",
+            "name_fr": "Outil cosmique : massette spatiale",
+            "description_en": "Obtain a stellar mallet.",
+            "description_fr": "Obtenir la massette spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.414"]
+        },
+        "x3880": {
+            "name_en": "R&D: Hypermallet",
+            "name_fr": "Outil cosmique : massette hyperspatiale",
+            "description_en": "Obtain a hypermallet.",
+            "description_fr": "Obtenir la massette hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.417"]
+        },
+        "x3917": {
+            "name_en": "R&D: Mallet of Stars",
+            "name_fr": "Outil cosmique : massette des constellations",
+            "description_en": "Obtain a mallet of stars.",
+            "description_fr": "Obtenir la massette des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.420"]
+        },
+        "x3695": {
+            "name_en": "R&D: Cosmic Round Knife",
+            "name_fr": "Outil cosmique : couteau arrondi cosmique",
+            "description_en": "Obtain a cosmic round knife.",
+            "description_fr": "Obtenir le couteau arrondi cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.509"]
+        },
+        "x3796": {
+            "name_en": "R&D: Stellar Round Knife",
+            "name_fr": "Outil cosmique : couteau arrondi spatial",
+            "description_en": "Obtain a stellar round knife.",
+            "description_fr": "Obtenir le couteau arrondi spatial.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.514"]
+        },
+        "x3881": {
+            "name_en": "R&D: Round Hyperknife",
+            "name_fr": "Outil cosmique : couteau arrondi hyperspatial",
+            "description_en": "Obtain a round hyperknife.",
+            "description_fr": "Obtenir le couteau arrondi hyperspatial.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.517"]
+        },
+        "x3918": {
+            "name_en": "R&D: Round Knife of Stars",
+            "name_fr": "Outil cosmique : couteau arrondi des constellations",
+            "description_en": "Obtain a round knife of stars.",
+            "description_fr": "Obtenir le couteau arrondi des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.520"]
+        },
+        "x3696": {
+            "name_en": "R&D: Cosmic Needle",
+            "name_fr": "Outil cosmique : aiguille cosmique",
+            "description_en": "Obtain a cosmic needle.",
+            "description_fr": "Obtenir l'aiguille cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.609"]
+        },
+        "x3797": {
+            "name_en": "R&D: Stellar Needle",
+            "name_fr": "Outil cosmique : aiguille spatiale",
+            "description_en": "Obtain a stellar needle.",
+            "description_fr": "Obtenir l'aiguille spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.614"]
+        },
+        "x3882": {
+            "name_en": "R&D: Hyperneedle",
+            "name_fr": "Outil cosmique : aiguille hyperspatiale",
+            "description_en": "Obtain a hyperneedle.",
+            "description_fr": "Obtenir l'aiguille hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.617"]
+        },
+        "x3919": {
+            "name_en": "R&D: Needle of Stars",
+            "name_fr": "Outil cosmique : aiguille des constellations",
+            "description_en": "Obtain a needle of stars.",
+            "description_fr": "Obtenir l'aiguille des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.620"]
+        },
+        "x3697": {
+            "name_en": "R&D: Cosmic Alembic",
+            "name_fr": "Outil cosmique : alambic cosmique",
+            "description_en": "Obtain a cosmic alembic.",
+            "description_fr": "Obtenir l'alambic cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.709"]
+        },
+        "x3798": {
+            "name_en": "R&D: Stellar Alembic",
+            "name_fr": "Outil cosmique : alambic spatial",
+            "description_en": "Obtain a stellar alembic.",
+            "description_fr": "Obtenir l'alambic spatial.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.714"]
+        },
+        "x3883": {
+            "name_en": "R&D: Hyperalembic",
+            "name_fr": "Outil cosmique : alambic hyperspatial",
+            "description_en": "Obtain a hyperalembic.",
+            "description_fr": "Obtenir l'alambic hyperspatial.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.717"]
+        },
+        "x3920": {
+            "name_en": "R&D: Alembic of Stars",
+            "name_fr": "Outil cosmique : alambic des constellations",
+            "description_en": "Obtain an alembic of stars.",
+            "description_fr": "Obtenir l'alambic des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.720"]
+        },
+        "x3698": {
+            "name_en": "R&D: Cosmic Frypan",
+            "name_fr": "Outil cosmique : poêle à frire cosmique",
+            "description_en": "Obtain a cosmic frypan.",
+            "description_fr": "Obtenir la poêle à frire cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.809"]
+        },
+        "x3799": {
+            "name_en": "R&D: Stellar Frypan",
+            "name_fr": "Outil cosmique : poêle à frire spatiale",
+            "description_en": "Obtain a stellar frypan.",
+            "description_fr": "Obtenir la poêle à frire spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.814"]
+        },
+        "x3884": {
+            "name_en": "R&D: Hyperfrypan",
+            "name_fr": "Outil cosmique : poêle à frire hyperspatiale",
+            "description_en": "Obtain a hyperfrypan.",
+            "description_fr": "Obtenir la poêle à frire hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.817"]
+        },
+        "x3921": {
+            "name_en": "R&D: Frypan of Stars",
+            "name_fr": "Outil cosmique : poêle à frire des constellations",
+            "description_en": "Obtain a frypan of stars.",
+            "description_fr": "Obtenir la poêle à frire des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.820"]
+        },
+        "x3699": {
+            "name_en": "R&D: Cosmic Pickaxe",
+            "name_fr": "Outil cosmique : pioche cosmique",
+            "description_en": "Obtain a cosmic pickaxe.",
+            "description_fr": "Obtenir la pioche cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.909"]
+        },
+        "x3800": {
+            "name_en": "R&D: Stellar Pickaxe",
+            "name_fr": "Outil cosmique : pioche spatiale",
+            "description_en": "Obtain a stellar pickaxe.",
+            "description_fr": "Obtenir la pioche spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.914"]
+        },
+        "x3885": {
+            "name_en": "R&D: Hyperpickaxe",
+            "name_fr": "Outil cosmique : pioche hyperspatiale",
+            "description_en": "Obtain a hyperpickaxe.",
+            "description_fr": "Obtenir la pioche hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.917"]
+        },
+        "x3922": {
+            "name_en": "R&D: Pickaxe of Stars",
+            "name_fr": "Outil cosmique : pioche des constellations",
+            "description_en": "Obtain a pickaxe of stars.",
+            "description_fr": "Obtenir la pioche des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.920"]
+        },
+        "x3700": {
+            "name_en": "R&D: Cosmic Hatchet",
+            "name_fr": "Outil cosmique : hachette cosmique",
+            "description_en": "Obtain a cosmic hatchet.",
+            "description_fr": "Obtenir la hachette cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1009"]
+        },
+        "x3801": {
+            "name_en": "R&D: Stellar Hatchet",
+            "name_fr": "Outil cosmique : hachette spatiale",
+            "description_en": "Obtain a stellar hatchet.",
+            "description_fr": "Obtenir la hachette spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1014"]
+        },
+        "x3886": {
+            "name_en": "R&D: Hyperhatchet",
+            "name_fr": "Outil cosmique : hachette hyperspatiale",
+            "description_en": "Obtain a hyperhatchet.",
+            "description_fr": "Obtenir la hachette hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1017"]
+        },
+        "x3923": {
+            "name_en": "R&D: Hatchet of Stars",
+            "name_fr": "Outil cosmique : hachette des constellations",
+            "description_en": "Obtain a hatchet of stars.",
+            "description_fr": "Obtenir la hachette des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1020"]
+        },
+        "x3701": {
+            "name_en": "R&D: Cosmic Fishing Rod",
+            "name_fr": "Outil cosmique : canne à pêche cosmique",
+            "description_en": "Obtain a cosmic fishing rod.",
+            "description_fr": "Obtenir la canne à pêche cosmique.",
+            "points": 10,
+            "patch": "7.21",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1109"]
+        },
+        "x3802": {
+            "name_en": "R&D: Stellar Fishing Rod",
+            "name_fr": "Outil cosmique : canne à pêche spatiale",
+            "description_en": "Obtain a stellar fishing rod.",
+            "description_fr": "Obtenir la canne à pêche spatiale.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1114"]
+        },
+        "x3887": {
+            "name_en": "R&D: Fishing Hyperrod",
+            "name_fr": "Outil cosmique : canne à pêche hyperspatiale",
+            "description_en": "Obtain a fishing hyperrod.",
+            "description_fr": "Obtenir la canne à pêche hyperspatiale.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1117"]
+        },
+        "x3924": {
+            "name_en": "R&D: Fishing Rod of Stars",
+            "name_fr": "Outil cosmique : canne à pêche des constellations",
+            "description_en": "Obtain a fishing rod of stars.",
+            "description_fr": "Obtenir la canne à pêche des constellations.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["character.relic-gear.cosmic-tools.1120"]
+        }
+    }
+}

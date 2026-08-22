@@ -14,10 +14,10 @@ main.js
 src/**/*.js
 /tmp
 *.js.map
-!src/karma.conf.js
 
 # Miscellaneous.
 /.angular/cache
+/.nx
 /.sass-cache
 /connect.lock
 /coverage

@@ -3,9 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { AsyncSubject } from 'rxjs';
 
-// If you import a module but never use any of the imported values
-// other than as TypeScript types, the resulting javascript file
-// will look as if you never imported the module at all.
+// Relying on tree-shaking to not actually include this import
 import { ipcRenderer } from 'electron';
 
 import { copyLinkShim } from '@model/External/copyLinkShim';
@@ -26,7 +24,7 @@ const SHIM_EVENTS: IPC_EVENT[] = [
 export class ElectronService {
     appReady$ = new AsyncSubject<void>();
 
-    ipcRenderer: typeof ipcRenderer;
+    ipcRenderer?: typeof ipcRenderer;
 
     constructor(
         private svcMessage: MessageService,
@@ -36,9 +34,9 @@ export class ElectronService {
         if(this.isElectron) {
             this.ipcRenderer = window.require('electron').ipcRenderer;
 
-            // Let the app layer know about refreshing
+            // This handles F5 refreshes for dev use
             window.addEventListener('beforeunload', () => {
-                this.sendSync(IPC_EVENT.APP_REFRESH);
+                this.ipcRenderer?.invoke(IPC_EVENT.APP_REFRESH);
             });
         }
     }
@@ -52,12 +50,18 @@ export class ElectronService {
         this.appReady$.complete();
     }
 
+    // Let the app layer know about refreshing BEFORE it happens
+    async reloadApp(): Promise<void> {
+        await this.ipcRenderer?.invoke(IPC_EVENT.APP_REFRESH);
+        location.reload();
+    }
+
     sendSync(action: IPC_EVENT, ...args: any[]): any {
         if(SHIM_EVENTS.includes(action)) {
             copyLinkShim(this.svcMessage, this.translate, action, ...args);
             return;
         }
 
-        return this.ipcRenderer.sendSync(action, ...args);
+        return this.ipcRenderer?.sendSync(action, ...args);
     }
 }

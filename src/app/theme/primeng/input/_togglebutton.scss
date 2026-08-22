@@ -1,48 +1,53 @@
-.p-togglebutton.p-button {
-    background: $toggleButtonBg;
-    border: $toggleButtonBorder;
-    color: $toggleButtonTextColor;
-    transition: $formElementTransition;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-button-icon-left,
-    .p-button-icon-right {
-        color: $toggleButtonIconColor;
-    }
-
-    &:not(.p-disabled):not(.p-highlight):hover {
-        background: $toggleButtonHoverBg;
-        border-color: $toggleButtonHoverBorderColor;
-        color: $toggleButtonTextHoverColor;
+@layer primeng {
+    .p-togglebutton.p-button {
+        background: variables.$toggleButtonBg;
+        border: variables.$toggleButtonBorder;
+        color: variables.$toggleButtonTextColor;
+        transition: variables.$formElementTransition;
 
         .p-button-icon-left,
         .p-button-icon-right {
-            color: $toggleButtonIconHoverColor;
-        }
-    }
-
-    &.p-highlight {
-        background: $toggleButtonActiveBg;
-        border-color: $toggleButtonActiveBorderColor;
-        color: $toggleButtonTextActiveColor;
-
-        .p-button-icon-left,
-        .p-button-icon-right {
-            color: $toggleButtonIconActiveColor;
+            color: variables.$toggleButtonIconColor;
         }
 
-        &:hover {
-            background: $toggleButtonActiveHoverBg;
-            border-color: $toggleButtonActiveHoverBorderColor;
-            color: $toggleButtonTextActiveHoverColor;
+        &:not(.p-disabled):not(.p-highlight):hover {
+            background: variables.$toggleButtonHoverBg;
+            border-color: variables.$toggleButtonHoverBorderColor;
+            color: variables.$toggleButtonTextHoverColor;
 
             .p-button-icon-left,
             .p-button-icon-right {
-                color: $toggleButtonIconActiveHoverColor;
+                color: variables.$toggleButtonIconHoverColor;
+            }
+        }
+
+        &.p-highlight {
+            background: variables.$toggleButtonActiveBg;
+            border-color: variables.$toggleButtonActiveBorderColor;
+            color: variables.$toggleButtonTextActiveColor;
+
+            .p-button-icon-left,
+            .p-button-icon-right {
+                color: variables.$toggleButtonIconActiveColor;
+            }
+
+            &:hover {
+                background: variables.$toggleButtonActiveHoverBg;
+                border-color: variables.$toggleButtonActiveHoverBorderColor;
+                color: variables.$toggleButtonTextActiveHoverColor;
+
+                .p-button-icon-left,
+                .p-button-icon-right {
+                    color: variables.$toggleButtonIconActiveHoverColor;
+                }
             }
         }
     }
-}
 
-p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
-    @include invalid-input();
+    p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
+        @include mixins.invalid-input();
+    }
 }

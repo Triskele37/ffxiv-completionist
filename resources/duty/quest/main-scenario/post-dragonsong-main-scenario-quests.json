@@ -4,199 +4,202 @@
     "groupName_fr": "Après-guerre du chant des dragons",
     "tasks": {
         "x67877": {
-            "level": 60,
             "name_en": "Promises Kept",
             "name_fr": "Un repas bien mérité",
+            "level": 60,
             "npc_en": "House Fortemps Knight",
             "npc_fr": "Chevalier Des Fortemps",
+            "patch": "3.4",
             "cPrev": ["q.67783"],
-            "cNext": ["q.67878"],
-            "patch": "4.31"
+            "cNext": ["q.67878"]
         },
         "x67878": {
-            "level": 60,
             "name_en": "Shadows of the First",
             "name_fr": "Par monts et vallées",
-            "unlock": ["d.182", "o.103"],
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": ["d.182", "o.103"],
+            "patch": "3.4",
             "cPrev": ["q.67877"],
             "cNext": ["q.67879"],
-            "patch": "4.31"
+            "cSiblings": ["d.182"]
         },
         "x67879": {
-            "level": 60,
             "name_en": "Two Sides of a Coin",
             "name_fr": "Les jumeaux réunis",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.4",
             "cPrev": ["q.67878"],
-            "cNext": ["q.67880"],
-            "patch": "4.31"
+            "cNext": ["q.67880"]
         },
         "x67880": {
-            "level": 60,
             "name_en": "Unlikely Allies",
             "name_fr": "Kobold contre Kobolds",
+            "level": 60,
             "npc_en": "Bloeidin",
             "npc_fr": "Bloeidin",
+            "patch": "3.4",
             "cPrev": ["q.67879"],
-            "cNext": ["q.67881"],
-            "patch": "4.31"
+            "cNext": ["q.67881"]
         },
         "x67881": {
-            "level": 60,
             "name_en": "The Beast That Mourned at the Heart of the Mountain",
             "name_fr": "Un cri au fond du volcan",
+            "level": 60,
             "npc_en": "Ga Bu",
             "npc_fr": "Ga Bu",
+            "patch": "3.4",
             "cPrev": ["q.67880"],
-            "cNext": ["q.67882"],
-            "patch": "4.31"
+            "cNext": ["q.67882"]
         },
         "x67882": {
-            "level": 60,
             "name_en": "Beneath a Star-filled Sky",
             "name_fr": "Tête-à-tête sous les étoiles",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.4",
             "cPrev": ["q.67881"],
-            "cNext": ["q.67883"],
-            "patch": "4.31"
+            "cNext": ["q.67883"]
         },
         "x67883": {
-            "level": 60,
             "name_en": "When We Were Free",
             "name_fr": "Le spectre de la révolution",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.4",
             "cPrev": ["q.67882"],
-            "cNext": ["q.67884"],
-            "patch": "4.31"
+            "cNext": ["q.67884"]
         },
         "x67884": {
-            "level": 60,
             "name_en": "Honorable Heroes",
             "name_fr": "Incognito",
+            "level": 60,
             "npc_en": "Papalymo",
             "npc_fr": "Papalymo",
+            "patch": "3.4",
             "cPrev": ["q.67883"],
-            "cNext": ["q.67885"],
-            "patch": "4.31"
+            "cNext": ["q.67885"]
         },
         "x67885": {
-            "level": 60,
             "name_en": "One Life for One World",
             "name_fr": "Destins entrecroisés",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.4",
             "cPrev": ["q.67884"],
-            "cNext": ["q.67886"],
-            "patch": "4.31"
+            "cNext": ["q.67886"]
         },
         "x67886": {
-            "level": 60,
             "name_en": "An Ending to Mark a New Beginning",
             "name_fr": "Les gardiens des âmes",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "mi.224",
+            "patch": "3.4",
             "cPrev": ["q.67885"],
             "cNext": ["q.67887"],
-            "cSiblings": ["a.1630"],
-            "patch": "4.31",
-            "unlock": "mi.224"
+            "cSiblings": ["a.1630"]
         },
         "x67887": {
-            "level": 60,
             "name_en": "Tidings from Gyr Abania",
             "name_fr": "Tumulte en Gyr Abania",
+            "level": 60,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "3.5",
             "cPrev": ["q.67886"],
-            "cNext": ["q.67888"],
-            "patch": "4.31"
+            "cNext": ["q.67888"]
         },
         "x67888": {
-            "level": 60,
             "name_en": "An Envoy for Ishgard",
             "name_fr": "L'émissaire ishgardais",
+            "level": 60,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "patch": "3.5",
             "cPrev": ["q.67887"],
-            "cNext": ["q.67889"],
-            "patch": "4.31"
+            "cNext": ["q.67889"]
         },
         "x67889": {
-            "level": 60,
             "name_en": "An Allied Decision",
             "name_fr": "La réunion d'urgence",
+            "level": 60,
             "npc_en": "Aymeric",
             "npc_fr": "Aymeric",
+            "patch": "3.5",
             "cPrev": ["q.67888"],
-            "cNext": ["q.67890"],
-            "patch": "4.31"
+            "cNext": ["q.67890"]
         },
         "x67890": {
-            "level": 60,
             "name_en": "Griffin, Griffin on the Wall",
             "name_fr": "Le masque de la rancune",
-            "unlock": ["d.219", "o.132"],
+            "level": 60,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": ["d.219", "o.132"],
+            "patch": "3.5",
             "cPrev": ["q.67889"],
             "cNext": ["q.67891"],
-            "patch": "4.31"
+            "cSiblings": ["d.219"]
         },
         "x67891": {
-            "level": 60,
             "name_en": "Louisoix's Finest Student",
             "name_fr": "Maître et disciple",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "o.128",
+            "patch": "3.5",
             "cPrev": ["q.67890"],
             "cNext": ["q.67892"],
-            "cSiblings": ["a.1690"],
-            "patch": "4.31",
-            "unlock": "o.128"
+            "cSiblings": ["a.1690"]
         },
         "x67892": {
-            "level": 60,
             "name_en": "The Obvious Solution",
             "name_fr": "Un allié inattendu",
+            "level": 60,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": "o.126",
+            "patch": "3.56",
             "cPrev": ["q.67891"],
-            "cNext": ["q.67893"],
-            "patch": "4.31",
-            "unlock": "o.126"
+            "cNext": ["q.67893"]
         },
         "x67893": {
-            "level": 60,
             "name_en": "The Greater Obeisance",
             "name_fr": "Loyauté domienne",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.56",
             "cPrev": ["q.67892"],
-            "cNext": ["q.67894"],
-            "patch": "4.31"
+            "cNext": ["q.67894"]
         },
         "x67894": {
-            "level": 60,
             "name_en": "Fly Free, My Pretty",
             "name_fr": "La résurrection d'Oméga",
+            "level": 60,
             "npc_en": "Yda",
             "npc_fr": "Yda",
+            "unlock": ["o.125", "o.124"],
+            "patch": "3.56",
             "cPrev": ["q.67893"],
-            "cNext": ["q.67895"],
-            "patch": "4.31",
-            "unlock": ["o.125", "o.124"]
+            "cNext": ["q.67895"]
         },
         "x67895": {
-            "level": 60,
             "name_en": "The Far Edge of Fate",
             "name_fr": "Aux confins du destin",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.56",
             "cPrev": ["q.67894"],
             "cNext": [
                 "q.68457",
@@ -228,8 +231,7 @@
                 "q.68459",
                 "q.68484"
             ],
-            "cSiblings": ["a.1691"],
-            "patch": "4.31"
+            "cSiblings": ["a.1691"]
         }
     }
 }

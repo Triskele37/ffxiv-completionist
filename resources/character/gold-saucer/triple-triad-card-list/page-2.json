@@ -4,254 +4,213 @@
     "groupName_fr": "Page 2",
     "tasks": {
         "x31": {
-            "number": "31",
             "name_en": "Livia Sas Junius",
             "name_fr": "Livia",
-            "source": ["character.gold-saucer.triple-triad-opponents.66", "d.15"],
+            "number": "31",
+            "source": ["tto.66", "d.15"],
             "patch": "2.51"
         },
         "x32": {
-            "number": "32",
             "name_en": "Rhitahtyn Sas Arvina",
             "name_fr": "Rhitahtyn",
-            "source": "character.gold-saucer.triple-triad-opponents.66",
+            "number": "32",
+            "source": "tto.66",
             "patch": "2.51"
         },
         "x33": {
-            "number": "33",
             "name_en": "Biggs & Wedge",
             "name_fr": "Biggs & Wedge",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.16",
-                "character.gold-saucer.triple-triad-opponents.90"
-            ],
+            "number": "33",
+            "source": ["tto.16", "tto.90"],
             "patch": "2.51"
         },
         "x34": {
-            "number": "34",
             "name_en": "Gerolt",
             "name_fr": "Gerolt",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.35",
-                "character.gold-saucer.triple-triad-opponents.88",
-                "@TRIAD.GOLD_PACK"
-            ],
+            "number": "34",
+            "source": ["tto.35", "tto.88", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x35": {
-            "number": "35",
             "name_en": "Frixio",
             "name_fr": "Frixio",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.75",
-                "character.gold-saucer.triple-triad-opponents.47"
-            ],
+            "number": "35",
+            "source": ["tto.75", "tto.47"],
             "patch": "2.51"
         },
         "x36": {
-            "number": "36",
             "name_en": "Mutamix Bubblypots",
             "name_fr": "Mutamix",
-            "source": "character.gold-saucer.triple-triad-opponents.4",
+            "number": "36",
+            "source": "tto.4",
             "patch": "2.51"
         },
         "x37": {
-            "number": "37",
             "name_en": "Memeroon",
             "name_fr": "Memeroon",
-            "source": "character.gold-saucer.triple-triad-opponents.15",
+            "number": "37",
+            "source": "tto.15",
             "patch": "2.51"
         },
         "x38": {
-            "number": "38",
             "name_en": "Behemoth",
             "name_fr": "Béhémoth",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.90",
-                "character.gold-saucer.triple-triad-opponents.85",
-                "@TRIAD.BRONZE_PACK"
-            ],
+            "number": "38",
+            "source": ["tto.90", "tto.85", "@TRIAD.BRONZE_PACK"],
             "patch": "2.51"
         },
         "x39": {
-            "number": "39",
             "name_en": "Gilgamesh & Enkidu",
             "name_fr": "Gilgamesh & Enkidu",
+            "number": "39",
             "source": ["d.76", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
         "x40": {
-            "number": "40",
             "name_en": "Ifrit",
             "name_fr": "Ifrit",
-            "source": ["character.gold-saucer.triple-triad-opponents.49", "d.59", "d.63", "@TRIAD.SILVER_PACK"],
+            "number": "40",
+            "source": ["tto.49", "d.59", "d.63", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x41": {
-            "number": "41",
             "name_en": "Titan",
             "name_fr": "Titan",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.23",
-                "character.gold-saucer.triple-triad-opponents.72",
-                "d.60",
-                "d.64",
-                "@TRIAD.SILVER_PACK"
-            ],
+            "number": "41",
+            "source": ["tto.23", "tto.72", "d.60", "d.64", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x42": {
-            "number": "42",
             "name_en": "Garuda",
             "name_fr": "Garuda",
-            "source": ["character.gold-saucer.triple-triad-opponents.75", "d.61", "d.65", "@TRIAD.SILVER_PACK"],
+            "number": "42",
+            "source": ["tto.75", "d.61", "d.65", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x43": {
-            "number": "43",
             "name_en": "Good King Moggle Mog XII",
             "name_fr": "Moggle Mog XII",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.100",
-                "character.gold-saucer.triple-triad-opponents.78",
-                "d.66",
-                "d.67",
-                "@TRIAD.SILVER_PACK"
-            ],
+            "number": "43",
+            "source": ["tto.100", "tto.78", "d.66", "d.67", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x44": {
-            "number": "44",
             "name_en": "Raya-O-Senna & A-Ruhn-Senna",
             "name_fr": "Raya-O-Senna & A-Ruhn-Senna",
-            "source": ["character.gold-saucer.triple-triad-opponents.56", "@4,800 CURRENCY.MGP"],
+            "number": "44",
+            "source": ["tto.56", "@4,800 CURRENCY.MGP"],
             "patch": "2.51"
         },
         "x45": {
-            "number": "45",
             "name_en": "Godbert Manderville",
             "name_fr": "Godbert",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.89",
-                "character.gold-saucer.triple-triad-opponents.69",
-                "character.gold-saucer.triple-triad-opponents.62",
-                "@9,600 CURRENCY.MGP"
-            ],
+            "number": "45",
+            "source": ["tto.89", "tto.69", "tto.62", "@9,600 CURRENCY.MGP"],
             "patch": "2.51"
         },
         "x46": {
-            "number": "46",
             "name_en": "Thancred",
             "name_fr": "Thancred",
-            "source": ["character.gold-saucer.triple-triad-opponents.5", "character.gold-saucer.triple-triad-opponents.62"],
+            "number": "46",
+            "source": ["tto.5", "tto.62"],
             "patch": "2.51"
         },
         "x47": {
-            "number": "47",
             "name_en": "Nero tol Scaeva",
             "name_fr": "Nero",
-            "source": "character.gold-saucer.triple-triad-opponents.66",
+            "number": "47",
+            "source": "tto.66",
             "patch": "2.51"
         },
         "x48": {
-            "number": "48",
             "name_en": "Papalymo & Yda",
             "name_fr": "Papalymo & Yda",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.100",
-                "character.gold-saucer.triple-triad-opponents.56"
-            ],
+            "number": "48",
+            "source": ["tto.100", "tto.56"],
             "patch": "2.51"
         },
         "x49": {
-            "number": "49",
             "name_en": "Y'shtola",
             "name_fr": "Y'shtola",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.86",
-                "character.gold-saucer.triple-triad-opponents.59"
-            ],
+            "number": "49",
+            "source": ["tto.86", "tto.59"],
             "patch": "2.51"
         },
         "x50": {
-            "number": "50",
             "name_en": "Urianger",
             "name_fr": "Urianger",
-            "source": ["character.gold-saucer.triple-triad-opponents.89", "@TRIAD.SILVER_PACK"],
+            "number": "50",
+            "source": ["tto.89", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x51": {
-            "number": "51",
             "name_en": "Ultima Weapon",
             "name_fr": "Ultima Arma",
+            "number": "51",
             "source": ["d.68", "@TRIAD.GOLD_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x52": {
-            "number": "52",
             "name_en": "Odin",
             "name_fr": "Odin",
-            "source": ["character.gold-saucer.triple-triad-opponents.72", "d.82", "@TRIAD.MYTHRIL_PACK"],
+            "number": "52",
+            "source": ["tto.72", "d.82", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
         "x53": {
-            "number": "53",
             "name_en": "Ramuh",
             "name_fr": "Ramuh",
-            "source": ["character.gold-saucer.triple-triad-opponents.100", "d.77", "d.78", "@TRIAD.GOLD_PACK"],
+            "number": "53",
+            "source": ["tto.100", "d.77", "d.78", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x54": {
-            "number": "54",
             "name_en": "Leviathan",
             "name_fr": "Léviathan",
-            "source": ["character.gold-saucer.triple-triad-opponents.86", "d.72", "d.73", "@TRIAD.GOLD_PACK"],
+            "number": "54",
+            "source": ["tto.86", "d.72", "d.73", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x55": {
-            "number": "55",
             "name_en": "Shiva",
             "name_fr": "Shiva",
+            "number": "55",
             "source": ["d.79", "d.80", "@TRIAD.GOLD_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x56": {
-            "number": "56",
             "name_en": "Minfilia",
             "name_fr": "Minfilia",
-            "source": ["character.gold-saucer.triple-triad-opponents.59", "@TRIAD.SILVER_PACK"],
+            "number": "56",
+            "source": ["tto.59", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x57": {
-            "number": "57",
             "name_en": "Lahabrea",
             "name_fr": "Lahabrea",
+            "number": "57",
             "source": ["@TRIAD.SILVER_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x58": {
-            "number": "58",
             "name_en": "Cid Garlond",
             "name_fr": "Cid",
-            "source": ["character.gold-saucer.triple-triad-opponents.90", "@TRIAD.GOLD_PACK"],
+            "number": "58",
+            "source": ["tto.90", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x59": {
-            "number": "59",
             "name_en": "Alphinaud & Alisaie",
             "name_fr": "Alphinaud & Alisaie",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.49",
-                "character.gold-saucer.triple-triad-opponents.10",
-                "@TRIAD.PLATINUM_PACK"
-            ],
+            "number": "59",
+            "source": ["tto.49", "tto.10", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x60": {
-            "number": "60",
             "name_en": "Louisoix Leveilleur",
             "name_fr": "Louisoix",
-            "source": ["character.gold-saucer.triple-triad-opponents.88", "@TRIAD.PLATINUM_PACK"],
+            "number": "60",
+            "source": ["tto.88", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         }
     }

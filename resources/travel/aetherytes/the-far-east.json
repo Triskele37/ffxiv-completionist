@@ -1,126 +1,146 @@
 {
     "key": "the-far-east",
-    "groupName": "@PLACE.FAR_EAST",
+    "groupName": "@PLACE.SB.FAR_EAST",
     "tasks": {
         "x83": {
             "name_en": "Kugane",
             "name_fr": "Kugane / Place Tenkonto",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x84": {
             "name_en": "Shiokaze Hostelry",
             "name_fr": "Shiokaze",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x85": {
             "name_en": "Pier #1",
             "name_fr": "Jetée n°1",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x86": {
             "name_en": "Thavnairian Consulate",
             "name_fr": "Consulat de Radz-at-Han",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x87": {
             "name_en": "Kogane Dori Markets",
             "name_fr": "Marché (Kogane-dori)",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x88": {
             "name_en": "Bokairo Inn",
             "name_fr": "Auberge du Bokairo",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x89": {
             "name_en": "The Ruby Bazaar",
             "name_fr": "Bazar de Rubis",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x90": {
             "name_en": "Sekiseigumi Barracks",
             "name_fr": "Caserne du Sekiseigumi",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x91": {
             "name_en": "Rakuza District",
             "name_fr": "Quartier de Rakuza",
-            "zone": "@PLACE.KUGANE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.0"
         },
         "x92": {
             "name_en": "Tamamizu",
             "name_fr": "Tamamizu",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x93": {
             "name_en": "Onokoro",
             "name_fr": "Onokoro",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x94": {
             "name_en": "Namai",
             "name_fr": "Namai",
-            "zone": "@PLACE.YANXIA",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.YANXIA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x95": {
             "name_en": "The House of the Fierce",
             "name_fr": "Cercle des Intrépides",
-            "zone": "@PLACE.YANXIA",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.YANXIA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x96": {
             "name_en": "Reunion",
             "name_fr": "Ralliement",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x97": {
             "name_en": "The Dawn Throne",
             "name_fr": "Trône de l'Aube",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x98": {
             "name_en": "Dhoro Iloh",
             "name_fr": "Dhoro Iloh",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.0"
         },
         "x99": {
             "name_en": "The Doman Enclave",
             "name_fr": "Quartier enclavé de Doma / Place de l'Éthérite",
-            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.SB.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "4.4"
         },
         "x100": {
             "name_en": "The Northern Enclave",
             "name_fr": "Quartier enclavé nord (jardins de Muniteien/rizières de Den'en-chi",
-            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.4"
         },
         "x101": {
             "name_en": "The Southern Enclave",
             "name_fr": "Quartier enclavé sud (école Rissai-juku)",
-            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "4.4"
         },
         "x102": {
             "name_en": "Ferry Docks",
             "name_fr": "Embarcadère",
-            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.SB.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "5.2"
         }
     }
 }

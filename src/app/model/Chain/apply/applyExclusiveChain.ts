@@ -1,31 +1,35 @@
 import { Completion } from '@constant';
+import { getTasks } from '@model/Task/get/getTasks';
 
 import { applyFlagToTask } from '../applyFlag/applyFlagToTask';
-import { Chainer } from '../Chainer';
-import { getAllTasksFor } from '../getAllTasksFor';
+import { ChainMeta } from '../ChainMeta';
 
-export function applyExclusiveChain(chainer: Chainer): void {
-    // starting class exclusive content is jank
-    chainer.force = true;
+/**
+ * Special handling to cover the case of starting classes and
+ * how that creates 3 divisions of exclusive content
+ * */
+export function applyExclusiveChain({ task, flag }: ChainMeta): void {
+    // Early bail conditions
+    if(!task.cExclusive) return;
 
-    getAllTasksFor(chainer, chainer.task.cExclusive).forEach((chainTask) => {
-        if(chainer.flag === Completion.X) {
+    getTasks(task.cExclusive, task).forEach((chainTask) => {
+        if(flag === Completion.X) {
             // Chain exclusive tasks to be excluded as well
-            applyFlagToTask(chainer, Completion.X, chainTask);
+            applyFlagToTask(chainTask, Completion.X, true);
         }
-        else if(chainer.flag === Completion.N) {
+        else if(flag === Completion.N) {
             // Un-exclude any tasks excluded due to this task if marked incomplete
-            getAllTasksFor(chainer, chainer.task.cExclude).forEach((task) => {
-                if(task.completionFlag !== Completion.X) return;
-                applyFlagToTask(chainer, Completion.N, task);
+            getTasks(task.cExclude, task).forEach((task) => {
+                if(task.completionFlag$() !== Completion.X) return;
+                applyFlagToTask(task, Completion.N, true);
             });
 
             // Chain exclusive tasks to be incomplete as well
-            applyFlagToTask(chainer, Completion.N, chainTask);
+            applyFlagToTask(chainTask, Completion.N, true);
         }
-        else if(chainer.flag === Completion.Y && chainTask.completionFlag === Completion.X) {
+        else if(flag === Completion.Y && chainTask.completionFlag$() === Completion.X) {
             // Un-exclude an exclusive task that was excluded when this is marked complete
-            applyFlagToTask(chainer, Completion.N, chainTask);
+            applyFlagToTask(chainTask, Completion.N, true);
         }
     });
 }

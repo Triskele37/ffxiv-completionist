@@ -1,6 +1,7 @@
+import { JSONResource } from '@model/JSONResource';
 import { DataGroup } from '../';
 
-export function initializeUi(group: DataGroup, json) {
+export function initializeUi(group: DataGroup, json: JSONResource) {
     group.isCraftingLogGroup = !!(json.isCraftingLogGroup ?? group._parent?.isCraftingLogGroup);
 
     if(group._parent?.isUiGroup || json.isUiGroup) {

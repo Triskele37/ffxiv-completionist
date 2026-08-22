@@ -1,7 +1,9 @@
+import { ChangeStore } from '@service/store/migration/ChangeStore';
+
 /** Barding ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrateBarding(store): void {
+export function migrateBarding(store: ChangeStore): void {
     const bardingPath = 'character.companion.barding';
 
     // Remove old IDs that become unused

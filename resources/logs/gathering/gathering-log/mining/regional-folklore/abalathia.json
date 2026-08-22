@@ -3,45 +3,45 @@
     "groupName_en": "Abalathia",
     "groupName_fr": "Abalathia",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x336": {
             "name_en": "Red Alumen",
             "name_fr": "Alun rouge",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.AZYS_LLA",
             "coordinates": "(35, 16)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67"
+            "patch": "3.0"
         },
-        "x1": {
-            "level": "60★",
+        "x404": {
             "name_en": "Smithsonite Ore",
             "name_fr": "Minerai de smithsonite",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "coordinates": "(38, 15)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "3.15",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66"
+            "patch": "3.2"
         },
-        "x2": {
-            "level": "60★",
+        "x406": {
             "name_en": "Meteorite",
             "name_fr": "Météorite",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "coordinates": "(38, 15)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "3.3",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66"
+            "patch": "3.3"
         },
-        "x3": {
-            "level": "60★★★",
+        "x421": {
             "name_en": "Luminium Ore",
             "name_fr": "Minerai de luminium",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": "60 ★★★",
+            "zone": "@PLACE.HW.AZYS_LLA",
             "coordinates": "(5, 17)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "3.4",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67"
+            "patch": "3.4"
         }
     }
 }

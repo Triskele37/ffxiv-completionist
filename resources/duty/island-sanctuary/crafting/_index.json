@@ -3,14 +3,16 @@
     "groupName_en": "Crafting",
     "groupName_fr": "Atelier",
     "order": ["tools", "feed", "restraints"],
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
-        "rank": {
-            "link": true,
-            "header_en": "Rank",
-            "header_fr": "Rang"
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     }
 }

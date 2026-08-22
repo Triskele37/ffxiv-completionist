@@ -2,43 +2,28 @@ import { Injectable } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-export type HSB = {
-    h: number;
-    s: number;
-    b: number;
-};
-
-export type HSL = {
-    h: number;
-    s: number;
-    l: number;
-};
-
-export type RGB = {
-    r: number;
-    g: number;
-    b: number;
-};
+import { HSB, HSL, RGB } from './ThemeTypes';
 
 @Injectable({
     providedIn: 'root'
 })
 export class ThemeService {
-    root;
+    root: HTMLElement | null;
 
-    primaryColor: string;
-    primaryTextColor: string;
-    backgroundColor: HSL;
-    textColor: RGB;
-    fontFamily: string;
-    fontSize: number;
+    // These are all loaded in via config for initial set, just assume exists
+    primaryColor!: string;
+    primaryTextColor!: string;
+    backgroundColor!: HSL;
+    textColor!: RGB;
+    fontFamily!: string;
+    fontSize!: number;
 
-    completeColor: RGB;
-    incompleteColor: RGB;
-    excludedColor: RGB;
-    partialCompleteColor: RGB;
+    completeColor!: RGB;
+    incompleteColor!: RGB;
+    excludedColor!: RGB;
+    partialCompleteColor!: RGB;
 
-    backgroundColorHsb: HSB;
+    backgroundColorHsb!: HSB;
 
     constructor(private svcConfig: ConfigStoreService) {
         this.root = document.querySelector(':root');
@@ -83,11 +68,16 @@ export class ThemeService {
     //#endregion
 
     getStyle(varKey: string): string {
+        if(!this.root) {
+            console.error(`Error: Root nullish when retrieving style ${varKey}`);
+            return '';
+        }
+
         return getComputedStyle(this.root).getPropertyValue(varKey).trim();
     }
 
     setStyle(varKey: string, value: string): void {
-        this.root.style.setProperty(varKey, value);
+        this.root?.style.setProperty(varKey, value);
     }
 
     //#region------------------------------------------------------- RGB
@@ -149,6 +139,11 @@ export class ThemeService {
     }
 
     private updateBackgroundColor(): void {
+        if(!this.backgroundColor) {
+            console.error('Error: Missing backgroundColor');
+            return;
+        }
+
         const { h, s, l } = this.backgroundColor;
         this.setStyle('--bg-h', `${h}`);
         this.setStyle('--bg-s', `${s}%`);
@@ -247,7 +242,12 @@ export class ThemeService {
         this.setIncompleteColor(this.loadRGBColor('incomplete-rgb'));
     }
 
-    setIncompleteColor(rgb: RGB): void {
+    setIncompleteColor(rgb: RGB | undefined): void {
+        if(!rgb) {
+            console.error('Error: Attempted to set undefined to IncompleteColor');
+            return;
+        }
+
         this.incompleteColor = rgb;
         this.setRGBStyle(rgb, 'incomplete-rgb');
     }
@@ -256,7 +256,12 @@ export class ThemeService {
         this.setPartialCompleteColor(this.loadRGBColor('partial-complete-rgb'));
     }
 
-    setPartialCompleteColor(rgb: RGB): void {
+    setPartialCompleteColor(rgb: RGB | undefined): void {
+        if(!rgb) {
+            console.error('Error: Attempted to set undefined to PartialCompleteColor');
+            return;
+        }
+
         this.partialCompleteColor = rgb;
         this.setRGBStyle(rgb, 'partial-complete-rgb');
     }
@@ -265,7 +270,12 @@ export class ThemeService {
         this.setCompleteColor(this.loadRGBColor('completed-rgb'));
     }
 
-    setCompleteColor(rgb: RGB): void {
+    setCompleteColor(rgb: RGB | undefined): void {
+        if(!rgb) {
+            console.error('Error: Attempted to set undefined to CompleteColor');
+            return;
+        }
+
         this.completeColor = rgb;
         this.setRGBStyle(rgb, 'completed-rgb');
     }
@@ -274,7 +284,12 @@ export class ThemeService {
         this.setExcludedColor(this.loadRGBColor('excluded-rgb'));
     }
 
-    setExcludedColor(rgb: RGB): void {
+    setExcludedColor(rgb: RGB | undefined): void {
+        if(!rgb) {
+            console.error('Error: Attempted to set undefined to ExcludedColor');
+            return;
+        }
+
         this.excludedColor = rgb;
         this.setRGBStyle(rgb, 'excluded-rgb');
     }
@@ -283,6 +298,15 @@ export class ThemeService {
 
     //#region------------------------------------------------------- Gradient
     rygGradient(weight: number): string {
+        if(
+            this.incompleteColor === undefined ||
+            this.partialCompleteColor === undefined ||
+            this.completeColor === undefined
+        ) {
+            console.error(`Error: Missing colors for gradient`);
+            return '';
+        }
+
         // Red rgb Weights (100% to 0% from 0-0.5)
         const red = this.incompleteColor;
         const redWeight = weight < 0.5 ? (1 - (weight * 2)) : 0;

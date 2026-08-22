@@ -8,16 +8,16 @@
             "name_fr": "Tailler à même le roc : la Noscea I",
             "description_en": "Quarry 10 times at level 1-10 rocky outcrops in La Noscea.",
             "description_fr": "Extraire 10 fois de la pierre de carrières de niveaux 1 à 10 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x205": {
             "name_en": "Rocking Around the Clock: La Noscea II",
             "name_fr": "Tailler à même le roc : la Noscea II",
             "description_en": "Quarry 30 times at level 11-20 rocky outcrops in La Noscea.",
             "description_fr": "Extraire 30 fois de la pierre de carrières de niveaux 11 à 20 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.209"]
         },
         "x206": {
@@ -25,8 +25,8 @@
             "name_fr": "Tailler à même le roc : la Noscea III",
             "description_en": "Quarry 100 times at level 21-30 rocky outcrops in La Noscea.",
             "description_fr": "Extraire 100 fois de la pierre de carrières de niveaux 21 à 30 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.209"]
         },
         "x207": {
@@ -34,8 +34,8 @@
             "name_fr": "Tailler à même le roc : la Noscea IV",
             "description_en": "Quarry 200 times at level 31-40 rocky outcrops in La Noscea.",
             "description_fr": "Extraire 200 fois de la pierre de carrières de niveaux 31 à 40 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.209"]
         },
         "x208": {
@@ -43,8 +43,8 @@
             "name_fr": "Tailler à même le roc : la Noscea V",
             "description_en": "Quarry 500 times at level 41-50 rocky outcrops in La Noscea.",
             "description_fr": "Extraire 500 fois de la pierre de carrières de niveaux 41 à 50 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.209"]
         },
         "x209": {
@@ -52,9 +52,9 @@
             "name_fr": "Carriériste des carrières : la Noscea",
             "description_en": "Obtain all five “Rocking Around the Clock: La Noscea” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Tailler à même le roc : la Noscea”.",
+            "points": 10,
             "reward": "t.28",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.205", "a.206", "a.207", "a.208"],
             "cSiblings": ["t.28"]
         },
@@ -63,16 +63,16 @@
             "name_fr": "Tailler à même le roc : Sombrelinceul I",
             "description_en": "Quarry 10 times at level 1-10 rocky outcrops in the Black Shroud.",
             "description_fr": "Extraire 10 fois de la pierre de carrières de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x211": {
             "name_en": "Rocking Around the Clock: Black Shroud II",
             "name_fr": "Tailler à même le roc : Sombrelinceul II",
             "description_en": "Quarry 30 times at level 11-20 rocky outcrops in the Black Shroud.",
             "description_fr": "Extraire 30 fois de la pierre de carrières de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.215"]
         },
         "x212": {
@@ -80,8 +80,8 @@
             "name_fr": "Tailler à même le roc : Sombrelinceul III",
             "description_en": "Quarry 100 times at level 21-30 rocky outcrops in the Black Shroud.",
             "description_fr": "Extraire 100 fois de la pierre de carrières de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.215"]
         },
         "x213": {
@@ -89,8 +89,8 @@
             "name_fr": "Tailler à même le roc : Sombrelinceul IV",
             "description_en": "Quarry 200 times at level 31-40 rocky outcrops in the Black Shroud.",
             "description_fr": "Extraire 200 fois de la pierre de carrières de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.215"]
         },
         "x214": {
@@ -98,8 +98,8 @@
             "name_fr": "Tailler à même le roc : Sombrelinceul V",
             "description_en": "Quarry 500 times at level 41-50 rocky outcrops in the Black Shroud.",
             "description_fr": "Extraire 500 fois de la pierre de carrières de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.215"]
         },
         "x215": {
@@ -107,9 +107,9 @@
             "name_fr": "Carriériste des carrières : Sombrelinceul",
             "description_en": "Obtain all five “Rocking Around the Clock: Black Shroud” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Tailler à même le roc : Sombrelinceul”.",
+            "points": 10,
             "reward": "t.29",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.211", "a.212", "a.213", "a.214"],
             "cSiblings": ["t.29"]
         },
@@ -118,16 +118,16 @@
             "name_fr": "Tailler à même le roc : Thanalan I",
             "description_en": "Quarry 10 times at level 1-10 rocky outcrops in Thanalan.",
             "description_fr": "Extraire 10 fois de la pierre de carrières de niveaux 1 à 10 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x217": {
             "name_en": "Rocking Around the Clock: Thanalan II",
             "name_fr": "Tailler à même le roc : Thanalan II",
             "description_en": "Quarry 30 times at level 11-20 rocky outcrops in Thanalan.",
             "description_fr": "Extraire 30 fois de la pierre de carrières de niveaux 11 à 20 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.221"]
         },
         "x218": {
@@ -135,8 +135,8 @@
             "name_fr": "Tailler à même le roc : Thanalan III",
             "description_en": "Quarry 100 times at level 21-30 rocky outcrops in Thanalan.",
             "description_fr": "Extraire 100 fois de la pierre de carrières de niveaux 21 à 30 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.221"]
         },
         "x219": {
@@ -144,8 +144,8 @@
             "name_fr": "Tailler à même le roc : Thanalan IV",
             "description_en": "Quarry 200 times at level 31-40 rocky outcrops in Thanalan.",
             "description_fr": "Extraire 200 fois de la pierre de carrières de niveaux 31 à 40 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.221"]
         },
         "x220": {
@@ -153,8 +153,8 @@
             "name_fr": "Tailler à même le roc : Thanalan V",
             "description_en": "Quarry 500 times at level 41-50 rocky outcrops in Thanalan.",
             "description_fr": "Extraire 500 fois de la pierre de carrières de niveaux 41 à 50 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.221"]
         },
         "x221": {
@@ -162,9 +162,9 @@
             "name_fr": "Carriériste des carrières : Thanalan",
             "description_en": "Obtain all five “Rocking Around the Clock: Thanalan” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Tailler à même le roc : Thanalan”.",
+            "points": 10,
             "reward": "t.30",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.217", "a.218", "a.219", "a.220"],
             "cSiblings": ["t.30"]
         },
@@ -173,16 +173,16 @@
             "name_fr": "Couper l'herbe sous le pied : la Noscea I",
             "description_en": "Harvest 10 times from level 1-10 lush vegetation in La Noscea.",
             "description_fr": "Faucher 10 fois sur des carrés de végétation de niveaux 1 à 10 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x242": {
             "name_en": "Reaping What You Sow: La Noscea II",
             "name_fr": "Couper l'herbe sous le pied : la Noscea II",
             "description_en": "Harvest 30 times from level 11-20 lush vegetation in La Noscea.",
             "description_fr": "Faucher 30 fois sur des carrés de végétation de niveaux 11 à 20 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.246"]
         },
         "x243": {
@@ -190,8 +190,8 @@
             "name_fr": "Couper l'herbe sous le pied : la Noscea III",
             "description_en": "Harvest 100 times from level 21-30 lush vegetation in La Noscea.",
             "description_fr": "Faucher 100 fois sur des carrés de végétation de niveaux 21 à 30 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.246"]
         },
         "x244": {
@@ -199,8 +199,8 @@
             "name_fr": "Couper l'herbe sous le pied : la Noscea IV",
             "description_en": "Harvest 200 times from level 31-40 lush vegetation in La Noscea.",
             "description_fr": "Faucher 200 fois sur des carrés de végétation de niveaux 31 à 40 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.246"]
         },
         "x245": {
@@ -208,8 +208,8 @@
             "name_fr": "Couper l'herbe sous le pied : la Noscea V",
             "description_en": "Harvest 500 times from level 41-50 lush vegetation in La Noscea.",
             "description_fr": "Faucher 500 fois sur des carrés de végétation de niveaux 41 à 50 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.246"]
         },
         "x246": {
@@ -217,9 +217,9 @@
             "name_fr": "Faux et usage de faux : la Noscea",
             "description_en": "Obtain all five “Reaping What You Sow: La Noscea” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Couper l'herbe sous le pied : la Noscea”.",
+            "points": 10,
             "reward": "t.34",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.242", "a.243", "a.244", "a.245"],
             "cSiblings": ["t.34"]
         },
@@ -228,16 +228,16 @@
             "name_fr": "Couper l'herbe sous le pied : Sombrelinceul I",
             "description_en": "Harvest 10 times from level 1-10 lush vegetation in the Black Shroud.",
             "description_fr": "Faucher 10 fois sur des carrés de végétation de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x248": {
             "name_en": "Reaping What You Sow: Black Shroud II",
             "name_fr": "Couper l'herbe sous le pied : Sombrelinceul II",
             "description_en": "Harvest 30 times from level 11-20 lush vegetation in the Black Shroud.",
             "description_fr": "Faucher 30 fois sur des carrés de végétation de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.252"]
         },
         "x249": {
@@ -245,8 +245,8 @@
             "name_fr": "Couper l'herbe sous le pied : Sombrelinceul III",
             "description_en": "Harvest 100 times from level 21-30 lush vegetation in the Black Shroud.",
             "description_fr": "Faucher 100 fois sur des carrés de végétation de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.252"]
         },
         "x250": {
@@ -254,8 +254,8 @@
             "name_fr": "Couper l'herbe sous le pied : Sombrelinceul IV",
             "description_en": "Harvest 200 times from level 31-40 lush vegetation in the Black Shroud.",
             "description_fr": "Faucher 200 fois sur des carrés de végétation de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.252"]
         },
         "x251": {
@@ -263,8 +263,8 @@
             "name_fr": "Couper l'herbe sous le pied : Sombrelinceul V",
             "description_en": "Harvest 500 times from level 41-50 lush vegetation in the Black Shroud.",
             "description_fr": "Faucher 500 fois sur des carrés de végétation de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.252"]
         },
         "x252": {
@@ -272,9 +272,9 @@
             "name_fr": "Faux et usage de faux : Sombrelinceul",
             "description_en": "Obtain all five “Reaping What You Sow: Black Shroud” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Couper l'herbe sous le pied : Sombrelinceul”.",
+            "points": 10,
             "reward": "t.35",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.248", "a.249", "a.250", "a.251"],
             "cSiblings": ["t.35"]
         },
@@ -283,16 +283,16 @@
             "name_fr": "Couper l'herbe sous le pied : Thanalan I",
             "description_en": "Harvest 10 times from level 1-10 lush vegetation in Thanalan.",
             "description_fr": "Faucher 10 fois sur des carrés de végétation de niveaux 1 à 10 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x254": {
             "name_en": "Reaping What You Sow: Thanalan II",
             "name_fr": "Couper l'herbe sous le pied : Thanalan II",
             "description_en": "Harvest 30 times from level 11-20 lush vegetation in Thanalan.",
             "description_fr": "Faucher 30 fois sur des carrés de végétation de niveaux 11 à 20 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.258"]
         },
         "x255": {
@@ -300,8 +300,8 @@
             "name_fr": "Couper l'herbe sous le pied : Thanalan III",
             "description_en": "Harvest 100 times from level 21-30 lush vegetation in Thanalan.",
             "description_fr": "Faucher 100 fois sur des carrés de végétation de niveaux 21 à 30 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.258"]
         },
         "x256": {
@@ -309,8 +309,8 @@
             "name_fr": "Couper l'herbe sous le pied : Thanalan IV",
             "description_en": "Harvest 200 times from level 31-40 lush vegetation in Thanalan.",
             "description_fr": "Faucher 200 fois sur des carrés de végétation de niveaux 31 à 40 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.258"]
         },
         "x257": {
@@ -318,8 +318,8 @@
             "name_fr": "Couper l'herbe sous le pied : Thanalan V",
             "description_en": "Harvest 500 times from level 41-50 lush vegetation in Thanalan.",
             "description_fr": "Faucher 500 fois sur des carrés de végétation de niveaux 41 à 50 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.258"]
         },
         "x258": {
@@ -327,9 +327,9 @@
             "name_fr": "Faux et usage de faux : Thanalan",
             "description_en": "Obtain all five “Reaping What You Sow: Thanalan” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Couper l'herbe sous le pied : Thanalan”.",
+            "points": 10,
             "reward": "t.36",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.254", "a.255", "a.256", "a.257"],
             "cSiblings": ["t.36"]
         },
@@ -338,49 +338,49 @@
             "name_fr": "Pointer ou tirer : la Noscea I",
             "description_en": "Spearfish 10 times at level 1-10 shallow pools in La Noscea.",
             "description_fr": "Harponner 10 fois dans des bas-fonds de niveaux 1 à 10 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x279": {
             "name_en": "Getting Giggy with It: La Noscea II",
             "name_fr": "Pointer ou tirer : la Noscea II",
             "description_en": "Spearfish 30 times at level 11-20 shallow pools in La Noscea.",
             "description_fr": "Harponner 30 fois dans des bas-fonds de niveaux 11 à 20 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x280": {
             "name_en": "Getting Giggy with It: La Noscea III",
             "name_fr": "Pointer ou tirer : la Noscea III",
             "description_en": "Spearfish 100 times at level 21-30 shallow pools in La Noscea.",
             "description_fr": "Harponner 100 fois dans des bas-fonds de niveaux 21 à 30 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x281": {
             "name_en": "Getting Giggy with It: La Noscea IV",
             "name_fr": "Pointer ou tirer : la Noscea IV",
             "description_en": "Spearfish 200 times at level 31-40 shallow pools in La Noscea.",
             "description_fr": "Harponner 200 fois dans des bas-fonds de niveaux 31 à 40 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x282": {
             "name_en": "Getting Giggy with It: La Noscea V",
             "name_fr": "Pointer ou tirer : la Noscea V",
             "description_en": "Spearfish 500 times at level 41-50 shallow pools in La Noscea.",
             "description_fr": "Harponner 500 fois dans des bas-fonds de niveaux 41 à 50 dans la Noscea.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x283": {
             "name_en": "I'd Rather Be Spearfishing: La Noscea",
             "name_fr": "Dans les entrailles : la Noscea",
             "description_en": "Obtain all five “Getting Giggy with It: La Noscea” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Pointer ou tirer : la Noscea”.",
+            "points": 10,
             "reward": "t.40",
             "patch": "2.0",
-            "points": 10,
             "cSiblings": ["t.40"]
         },
         "x284": {
@@ -388,49 +388,49 @@
             "name_fr": "Pointer ou tirer : Sombrelinceul I",
             "description_en": "Spearfish 10 times at level 1-10 shallow pools in the Black Shroud.",
             "description_fr": "Harponner 10 fois dans des bas-fonds de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x285": {
             "name_en": "Getting Giggy with It: Black Shroud II",
             "name_fr": "Pointer ou tirer : Sombrelinceul II",
             "description_en": "Spearfish 30 times at level 11-20 shallow pools in the Black Shroud.",
             "description_fr": "Harponner 30 fois dans des bas-fonds de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x286": {
             "name_en": "Getting Giggy with It: Black Shroud III",
             "name_fr": "Pointer ou tirer : Sombrelinceul III",
             "description_en": "Spearfish 100 times at level 21-30 shallow pools in the Black Shroud.",
             "description_fr": "Harponner 100 fois dans des bas-fonds de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x287": {
             "name_en": "Getting Giggy with It: Black Shroud IV",
             "name_fr": "Pointer ou tirer : Sombrelinceul IV",
             "description_en": "Spearfish 200 times at level 31-40 shallow pools in the Black Shroud.",
             "description_fr": "Harponner 200 fois dans des bas-fonds de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x288": {
             "name_en": "Getting Giggy with It: Black Shroud V",
             "name_fr": "Pointer ou tirer : Sombrelinceul V",
             "description_en": "Spearfish 500 times at level 41-50 shallow pools in the Black Shroud.",
             "description_fr": "Harponner 500 fois dans des bas-fonds de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x289": {
             "name_en": "I'd Rather Be Spearfishing: Black Shroud",
             "name_fr": "Dans les entrailles : Sombrelinceul",
             "description_en": "Obtain all five “Getting Giggy with It: Black Shroud” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Pointer ou tirer : Sombrelinceul”.",
+            "points": 10,
             "reward": "t.41",
             "patch": "2.0",
-            "points": 10,
             "cSiblings": ["t.41"]
         },
         "x290": {
@@ -438,49 +438,49 @@
             "name_fr": "Pointer ou tirer : Thanalan I",
             "description_en": "Spearfish 10 times at level 1-10 shallow pools in Thanalan.",
             "description_fr": "Harponner 10 fois dans des bas-fonds de niveaux 1 à 10 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x291": {
             "name_en": "Getting Giggy with It: Thanalan II",
             "name_fr": "Pointer ou tirer : Thanalan II",
             "description_en": "Spearfish 30 times at level 11-20 shallow pools in Thanalan.",
             "description_fr": "Harponner 30 fois dans des bas-fonds de niveaux 11 à 20 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x292": {
             "name_en": "Getting Giggy with It: Thanalan III",
             "name_fr": "Pointer ou tirer : Thanalan III",
             "description_en": "Spearfish 100 times at level 21-30 shallow pools in Thanalan.",
             "description_fr": "Harponner 100 fois dans des bas-fonds de niveaux 21 à 30 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x293": {
             "name_en": "Getting Giggy with It: Thanalan IV",
             "name_fr": "Pointer ou tirer : Thanalan IV",
             "description_en": "Spearfish 200 times at level 31-40 shallow pools in Thanalan.",
             "description_fr": "Harponner 200 fois dans des bas-fonds de niveaux 31 à 40 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x294": {
             "name_en": "Getting Giggy with It: Thanalan V",
             "name_fr": "Pointer ou tirer : Thanalan V",
             "description_en": "Spearfish 500 times at level 41-50 shallow pools in Thanalan.",
             "description_fr": "Harponner 500 fois dans des bas-fonds de niveaux 41 à 50 dans le Thanalan.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x295": {
             "name_en": "I'd Rather Be Spearfishing: Thanalan",
             "name_fr": "Dans les entrailles : Thanalan",
             "description_en": "Obtain all five “Getting Giggy with It: Thanalan” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Pointer ou tirer : Thanalan”.",
+            "points": 10,
             "reward": "t.42",
             "patch": "2.0",
-            "points": 10,
             "cSiblings": ["t.42"]
         }
     }

@@ -6,27 +6,29 @@
         "x0": {
             "name_en": "Animated Atlas",
             "name_fr": "Atlas animé",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "170",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [1]
         },
         "x1": {
             "name_en": "Atlas Awoken",
             "name_fr": "Atlas éveillé",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "200",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
             "name_en": "Deneb",
             "name_fr": "Deneb",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "210",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -39,6 +41,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [1],
             "cNext": [3],
             "cSiblings": ["a.1418"]
@@ -46,10 +49,11 @@
         "x3": {
             "name_en": "Hyperconductive Deneb",
             "name_fr": "Deneb hyperconducteur",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "230",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [2],
             "cNext": [4],
             "cSiblings": ["a.1511"]
@@ -57,10 +61,11 @@
         "x4": {
             "name_en": "Sphere of the Last Heir",
             "name_fr": "Planisphère du Dernier héritier",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "240",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [3],
             "cNext": [5],
             "cSiblings": ["a.1617"]
@@ -68,10 +73,11 @@
         "x5": {
             "name_en": "Sharpened Sphere of the Last Heir",
             "name_fr": "Planisphère du Dernier héritier vivifié",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "260",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [4],
             "cNext": [6],
             "cSiblings": ["a.1679"]
@@ -79,10 +85,11 @@
         "x6": {
             "name_en": "Canopus",
             "name_fr": "Canopus",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "270",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [5],
             "cNext": [7],
             "cSiblings": ["a.1707"]
@@ -90,37 +97,40 @@
         "x7": {
             "name_en": "Canopus Lux",
             "name_fr": "Canopus lux",
-            "job": "@CLASS_JOB.AST",
             "iLevel": "275",
+            "job": "@CLASS_JOB.AST",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [6],
             "cSiblings": ["a.1720"]
         },
         "x8": {
             "name_en": "Animated Berimbau",
             "name_fr": "Berimbau animé",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "170",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [9]
         },
         "x9": {
             "name_en": "Berimbau Awoken",
             "name_fr": "Berimbau éveillé",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "200",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [8],
             "cNext": [10]
         },
         "x10": {
             "name_en": "Gandiva",
             "name_fr": "Gandiva",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "210",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -133,6 +143,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [9],
             "cNext": [11],
             "cSiblings": ["a.1410"]
@@ -140,10 +151,11 @@
         "x11": {
             "name_en": "Hyperconductive Gandiva",
             "name_fr": "Gandiva hyperconducteur",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "230",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [10],
             "cNext": [12],
             "cSiblings": ["a.1503"]
@@ -151,10 +163,11 @@
         "x12": {
             "name_en": "Bow of the Autarch",
             "name_fr": "Arc de l'Autocrate",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "240",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [11],
             "cNext": [13],
             "cSiblings": ["a.1609"]
@@ -162,10 +175,11 @@
         "x13": {
             "name_en": "Sharpened Bow of the Autarch",
             "name_fr": "Arc de l'Autocrate vivifié",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "260",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [12],
             "cNext": [14],
             "cSiblings": ["a.1671"]
@@ -173,10 +187,11 @@
         "x14": {
             "name_en": "Terpander",
             "name_fr": "Terpander",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "270",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [13],
             "cNext": [15],
             "cSiblings": ["a.1699"]
@@ -184,37 +199,40 @@
         "x15": {
             "name_en": "Terpander Lux",
             "name_fr": "Terpander lux",
-            "job": "@CLASS_JOB.BRD",
             "iLevel": "275",
+            "job": "@CLASS_JOB.BRD",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [14],
             "cSiblings": ["a.1712"]
         },
         "x16": {
             "name_en": "Animated Lunaris Rod",
-            "name_fr": "Sceptre kunaris animé",
-            "job": "@CLASS_JOB.BLM",
+            "name_fr": "Sceptre lunaris animé",
             "iLevel": "170",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [17]
         },
         "x17": {
             "name_en": "Lunaris Rod Awoken",
             "name_fr": "Sceptre lunaris éveillé",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "200",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [16],
             "cNext": [18]
         },
         "x18": {
             "name_en": "Hvergelmir",
             "name_fr": "Hvergelmir",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "210",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -227,6 +245,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [17],
             "cNext": [19],
             "cSiblings": ["a.1412"]
@@ -234,10 +253,11 @@
         "x19": {
             "name_en": "Hyperconductive Hvergelmir",
             "name_fr": "Hvergelmir hyperconductrice",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "230",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [18],
             "cNext": [20],
             "cSiblings": ["a.1505"]
@@ -245,10 +265,11 @@
         "x20": {
             "name_en": "Rod of the Black Khan",
             "name_fr": "Sceptre du khan noir",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "240",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [19],
             "cNext": [21],
             "cSiblings": ["a.1611"]
@@ -256,10 +277,11 @@
         "x21": {
             "name_en": "Sharpened Rod of the Black Khan",
             "name_fr": "Sceptre du khan noir vivifié",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "260",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [20],
             "cNext": [22],
             "cSiblings": ["a.1673"]
@@ -267,48 +289,52 @@
         "x22": {
             "name_en": "Kaladanda",
             "name_fr": "Kaladanda",
-            "job": "@CLASS_JOB.BLM",
             "iLevel": "270",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [21],
             "cNext": [23],
             "cSiblings": ["a.1701"]
         },
         "x23": {
             "name_en": "Kaladanda Lux",
-            "name_fr": "Kaladanda Lux",
-            "job": "@CLASS_JOB.BLM",
+            "name_fr": "Kaladanda lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.BLM",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [22],
             "cSiblings": ["a.1714"]
         },
         "x24": {
             "name_en": "Animated Deathbringer",
-            "name_fr": "Mortifière animée",
-            "job": "@CLASS_JOB.DRK",
+            "name_fr": "Mortifère animée",
             "iLevel": "170",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [25]
         },
         "x25": {
             "name_en": "Deathbringer Awoken",
-            "name_fr": "Mortifière éveillée",
-            "job": "@CLASS_JOB.DRK",
+            "name_fr": "Mortifère éveillée",
             "iLevel": "200",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [24],
             "cNext": [26]
         },
         "x26": {
             "name_en": "Nothung",
             "name_fr": "Nothung",
-            "job": "@CLASS_JOB.DRK",
             "iLevel": "210",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -321,6 +347,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [25],
             "cNext": [27],
             "cSiblings": ["a.1417"]
@@ -328,10 +355,11 @@
         "x27": {
             "name_en": "Hyperconductive Nothung",
             "name_fr": "Nothung hyperconductrice",
-            "job": "@CLASS_JOB.DRK",
             "iLevel": "230",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [26],
             "cNext": [28],
             "cSiblings": ["a.1510"]
@@ -339,10 +367,11 @@
         "x28": {
             "name_en": "Guillotine of the Tyrant",
             "name_fr": "Guillotine du Tyran",
-            "job": "@CLASS_JOB.DRK",
             "iLevel": "240",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [27],
             "cNext": [29],
             "cSiblings": ["a.1616"]
@@ -350,10 +379,11 @@
         "x29": {
             "name_en": "Sharpened Guillotine of the Tyrant",
             "name_fr": "Guillotine du Tyran vivifiée",
-            "job": "@CLASS_JOB.DRK",
             "iLevel": "260",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [28],
             "cNext": [30],
             "cSiblings": ["a.1678"]
@@ -361,48 +391,52 @@
         "x30": {
             "name_en": "Cronus",
             "name_fr": "Cronus",
-            "job": "@CLASS_JOB.DRK",
             "iLevel": "270",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [29],
             "cNext": [31],
             "cSiblings": ["a.1706"]
         },
         "x31": {
             "name_en": "Cronus Lux",
-            "name_fr": "Cronus Lux",
-            "job": "@CLASS_JOB.DRK",
+            "name_fr": "Cronus lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.DRK",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [30],
             "cSiblings": ["a.1719"]
         },
         "x32": {
             "name_en": "Animated Brionac",
             "name_fr": "Brionac animée",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "170",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [33]
         },
         "x33": {
             "name_en": "Brionac Awoken",
-            "name_fr": "Brinac éveillée",
-            "job": "@CLASS_JOB.DRG",
+            "name_fr": "Brionac éveillée",
             "iLevel": "200",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [32],
             "cNext": [34]
         },
         "x34": {
             "name_en": "Rhongomiant",
             "name_fr": "Rhongomiant",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "210",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -415,6 +449,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [33],
             "cNext": [35],
             "cSiblings": ["a.1409"]
@@ -422,10 +457,11 @@
         "x35": {
             "name_en": "Hyperconductive Rhongomiant",
             "name_fr": "Rhongomiant hyperconductrice",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "230",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [34],
             "cNext": [36],
             "cSiblings": ["a.1502"]
@@ -433,10 +469,11 @@
         "x36": {
             "name_en": "Trident of the Overlord",
             "name_fr": "Trident du Suzerain",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "240",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [35],
             "cNext": [37],
             "cSiblings": ["a.1608"]
@@ -444,10 +481,11 @@
         "x37": {
             "name_en": "Sharpened Trident of the Overlord",
             "name_fr": "Trident du Suzerain vivifié",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "260",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [36],
             "cNext": [38],
             "cSiblings": ["a.1670"]
@@ -455,48 +493,52 @@
         "x38": {
             "name_en": "Areadbhar",
             "name_fr": "Areadbhar",
-            "job": "@CLASS_JOB.DRG",
             "iLevel": "270",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [37],
             "cNext": [39],
             "cSiblings": ["a.1698"]
         },
         "x39": {
             "name_en": "Areadbhar Lux",
-            "name_fr": "Areadbhar Lux",
-            "job": "@CLASS_JOB.DRG",
+            "name_fr": "Areadbhar lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.DRG",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [38],
             "cSiblings": ["a.1711"]
         },
         "x40": {
             "name_en": "Animated Ferdinand",
             "name_fr": "Ferdinand animé",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "170",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [41]
         },
         "x41": {
             "name_en": "Ferdinand Awoken",
             "name_fr": "Ferdinand éveillé",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "200",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [40],
             "cNext": [42]
         },
         "x42": {
             "name_en": "Armageddon",
             "name_fr": "Armageddon",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "210",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -509,6 +551,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [41],
             "cNext": [43],
             "cSiblings": ["a.1416"]
@@ -516,10 +559,11 @@
         "x43": {
             "name_en": "Hyperconductive Armageddon",
             "name_fr": "Armageddon hyperconducteur",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "230",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [42],
             "cNext": [44],
             "cSiblings": ["a.1509"]
@@ -527,10 +571,11 @@
         "x44": {
             "name_en": "Flame of the Dynast",
             "name_fr": "Flamme du Dynaste",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "240",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [43],
             "cNext": [45],
             "cSiblings": ["a.1615"]
@@ -538,10 +583,11 @@
         "x45": {
             "name_en": "Sharpened Flame of the Dynast",
             "name_fr": "Flamme du Dynaste vivifiée",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "260",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [44],
             "cNext": [46],
             "cSiblings": ["a.1677"]
@@ -549,48 +595,52 @@
         "x46": {
             "name_en": "Deathlocke",
             "name_fr": "Deathlocke",
-            "job": "@CLASS_JOB.MCH",
             "iLevel": "270",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [45],
             "cNext": [47],
             "cSiblings": ["a.1705"]
         },
         "x47": {
             "name_en": "Deathlocke Lux",
-            "name_fr": "Deathlocke Lux",
-            "job": "@CLASS_JOB.MCH",
+            "name_fr": "Deathlocke lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.MCH",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [46],
             "cSiblings": ["a.1718"]
         },
         "x48": {
             "name_en": "Animated Rising Suns",
-            "name_fr": "Soleils-levant animés",
-            "job": "@CLASS_JOB.MNK",
+            "name_fr": "Soleil-levant animés",
             "iLevel": "170",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [49]
         },
         "x49": {
             "name_en": "Rising Suns Awoken",
-            "name_fr": "Soleils-levant éveillés",
-            "job": "@CLASS_JOB.MNK",
+            "name_fr": "Soleil-levant éveillés",
             "iLevel": "200",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [48],
             "cNext": [50]
         },
         "x50": {
             "name_en": "Verethragna",
             "name_fr": "Verethragna",
-            "job": "@CLASS_JOB.MNK",
             "iLevel": "210",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -603,6 +653,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [49],
             "cNext": [51],
             "cSiblings": ["a.1407"]
@@ -610,10 +661,11 @@
         "x51": {
             "name_en": "Hyperconductive Verethragna",
             "name_fr": "Verethragna hyperconducteurs",
-            "job": "@CLASS_JOB.MNK",
             "iLevel": "230",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [50],
             "cNext": [52],
             "cSiblings": ["a.1500"]
@@ -621,10 +673,11 @@
         "x52": {
             "name_en": "Sultan's Fists",
             "name_fr": "Poings du Sultan",
-            "job": "@CLASS_JOB.MNK",
             "iLevel": "240",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [51],
             "cNext": [53],
             "cSiblings": ["a.1606"]
@@ -632,59 +685,64 @@
         "x53": {
             "name_en": "Sharpened Sultan's Fists",
             "name_fr": "Poings du Sultan vivifiés",
-            "job": "@CLASS_JOB.MNK",
             "iLevel": "260",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [52],
             "cNext": [54],
             "cSiblings": ["a.1668"]
         },
         "x54": {
-            "name_en": "Nyepel",
+            "name_en": "Nyepels",
             "name_fr": "Nyepel",
-            "job": "@CLASS_JOB.MNK",
             "iLevel": "270",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [53],
             "cNext": [55],
             "cSiblings": ["a.1696"]
         },
         "x55": {
-            "name_en": "Nyepel Lux",
-            "name_fr": "Nyepel Lux",
-            "job": "@CLASS_JOB.MNK",
+            "name_en": "Nyepels Lux",
+            "name_fr": "Nyepel lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.MNK",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [54],
             "cSiblings": ["a.1709"]
         },
         "x56": {
             "name_en": "Animated Yukimitsu",
             "name_fr": "Yukimitsu animés",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "170",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [57]
         },
         "x57": {
             "name_en": "Yukimitsu Awoken",
             "name_fr": "Yukimitsu éveillés",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "200",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [56],
             "cNext": [58]
         },
         "x58": {
             "name_en": "Kannagi",
             "name_fr": "Kannagi",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "210",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -697,6 +755,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [57],
             "cNext": [59],
             "cSiblings": ["a.1415"]
@@ -704,10 +763,11 @@
         "x59": {
             "name_en": "Hyperconductive Kannagi",
             "name_fr": "Kannagi hyperconducteurs",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "230",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [58],
             "cNext": [60],
             "cSiblings": ["a.1508"]
@@ -715,10 +775,11 @@
         "x60": {
             "name_en": "Spurs of the Thorn Prince",
             "name_fr": "Éperons du Prince des ronces",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "240",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [59],
             "cNext": [61],
             "cSiblings": ["a.1614"]
@@ -726,59 +787,64 @@
         "x61": {
             "name_en": "Sharpened Spurs of the Thorn Prince",
             "name_fr": "Éperons du Prince des ronces vivifiés",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "260",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [60],
             "cNext": [62],
             "cSiblings": ["a.1676"]
         },
         "x62": {
-            "name_en": "Sandung",
+            "name_en": "Sandungs",
             "name_fr": "Sandung",
-            "job": "@CLASS_JOB.NIN",
             "iLevel": "270",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [61],
             "cNext": [63],
             "cSiblings": ["a.1704"]
         },
         "x63": {
-            "name_en": "Sandung Lux",
-            "name_fr": "Sandung Lux",
-            "job": "@CLASS_JOB.NIN",
+            "name_en": "Sandungs Lux",
+            "name_fr": "Sandung lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.NIN",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [62],
             "cSiblings": ["a.1717"]
         },
         "x64": {
-            "name_en": "Animated Hauteclaire & Animated Prytwen",
-            "name_fr": "Hauteclaire animé & Prytwen animé",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Animated Hauteclaire",
+            "name_fr": "Hauteclaire animée",
             "iLevel": "170",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [65]
         },
         "x65": {
-            "name_en": "Hauteclaire Awoken & Prytwen Awoken",
-            "name_fr": "Hauteclaire éveillée & Prytwen éveillé",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Hauteclaire Awoken",
+            "name_fr": "Hauteclaire éveillée",
             "iLevel": "200",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [64],
             "cNext": [66]
         },
         "x66": {
-            "name_en": "Almace & Ancile",
-            "name_fr": "Almace & Ancile",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Almace",
+            "name_fr": "Almace",
             "iLevel": "210",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -791,88 +857,96 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [65],
             "cNext": [67],
             "cSiblings": ["a.1406"]
         },
         "x67": {
-            "name_en": "Hyperconductive Almace & Hyperconductive Ancile",
-            "name_fr": "Almace hyperconductrice & Ancile hyperconducteur",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Hyperconductive Almace",
+            "name_fr": "Almace hyperconductrice",
             "iLevel": "230",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [66],
             "cNext": [68],
             "cSiblings": ["a.1499"]
         },
         "x68": {
-            "name_en": "Sword of the Twin Thegns & Shield of the Twin Thegns",
-            "name_fr": "Épée des Thanes jumeaux & Bouclier des Thanes jumeaux",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Sword of the Twin Thegns",
+            "name_fr": "Épée des Thanes jumeaux",
             "iLevel": "240",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [67],
             "cNext": [69],
             "cSiblings": ["a.1605"]
         },
         "x69": {
-            "name_en": "Sharpened Sword of the Twin Thegns & Sharpened Shield of the Twin Thegns",
-            "name_fr": "Épée des Thanes jumeaux vivifiée & Bouclier des Thanes jumeaux vivifié",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Sharpened Sword of the Twin Thegns",
+            "name_fr": "Épée des Thanes jumeaux vivifiée",
             "iLevel": "260",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [68],
             "cNext": [70],
             "cSiblings": ["a.1667"]
         },
         "x70": {
-            "name_en": "Aettir & Priwen",
-            "name_fr": "Aettir & Priwen",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Aettir",
+            "name_fr": "Aettir",
             "iLevel": "270",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [69],
             "cNext": [71],
             "cSiblings": ["a.1695"]
         },
         "x71": {
-            "name_en": "Aettir Lux & Priwen Lux",
-            "name_fr": "Aettir Lux & Priwen Lux",
-            "job": "@CLASS_JOB.PLD",
+            "name_en": "Aettir Lux",
+            "name_fr": "Aettir lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.PLD",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [70],
             "cSiblings": ["a.1708"]
         },
         "x72": {
             "name_en": "Animated Elements",
             "name_fr": "Traité des Éléments animé",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "170",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [73]
         },
         "x73": {
             "name_en": "Elements Awoken",
             "name_fr": "Traité des Éléments éveillé",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "200",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [72],
             "cNext": [74]
         },
         "x74": {
             "name_en": "Tetrabiblos",
             "name_fr": "Tetrabiblos",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "210",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -885,6 +959,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [73],
             "cNext": [75],
             "cSiblings": ["a.1414"]
@@ -892,10 +967,11 @@
         "x75": {
             "name_en": "Hyperconductive Tetrabiblos",
             "name_fr": "Tetrabiblos hyperconducteur",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "230",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [74],
             "cNext": [76],
             "cSiblings": ["a.1507"]
@@ -903,10 +979,11 @@
         "x76": {
             "name_en": "Word of the Magnate",
             "name_fr": "Verbe du Magnat",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "240",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [75],
             "cNext": [77],
             "cSiblings": ["a.1613"]
@@ -914,10 +991,11 @@
         "x77": {
             "name_en": "Sharpened Word of the Magnate",
             "name_fr": "Verbe du Magnat vivifié",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "260",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [76],
             "cNext": [78],
             "cSiblings": ["a.1675"]
@@ -925,48 +1003,52 @@
         "x78": {
             "name_en": "Anabasis",
             "name_fr": "Anabasis",
-            "job": "@CLASS_JOB.SCH",
             "iLevel": "270",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [77],
             "cNext": [79],
             "cSiblings": ["a.1703"]
         },
         "x79": {
             "name_en": "Anabasis Lux",
-            "name_fr": "Anabasis Lux",
-            "job": "@CLASS_JOB.SCH",
+            "name_fr": "Anabasis lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.SCH",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [78],
             "cSiblings": ["a.1716"]
         },
         "x80": {
             "name_en": "Animated Almandal",
             "name_fr": "Almandal animé",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "170",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [81]
         },
         "x81": {
             "name_en": "Almandal Awoken",
             "name_fr": "Almandal éveillé",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "200",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [80],
             "cNext": [82]
         },
         "x82": {
             "name_en": "Draconomicon",
             "name_fr": "Draconomicon",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "210",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -979,6 +1061,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [81],
             "cNext": [83],
             "cSiblings": ["a.1413"]
@@ -986,10 +1069,11 @@
         "x83": {
             "name_en": "Hyperconductive Draconomicon",
             "name_fr": "Draconomicon hyperconducteur",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "230",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [82],
             "cNext": [84],
             "cSiblings": ["a.1506"]
@@ -997,10 +1081,11 @@
         "x84": {
             "name_en": "Book of the Mad Queen",
             "name_fr": "Livre de la Reine folle",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "240",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [83],
             "cNext": [85],
             "cSiblings": ["a.1612"]
@@ -1008,10 +1093,11 @@
         "x85": {
             "name_en": "Sharpened Book of the Mad Queen",
             "name_fr": "Livre de la Reine folle vivifié",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "260",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [84],
             "cNext": [86],
             "cSiblings": ["a.1674"]
@@ -1019,48 +1105,52 @@
         "x86": {
             "name_en": "Mimesis",
             "name_fr": "Mimesis",
-            "job": "@CLASS_JOB.SMN",
             "iLevel": "270",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [85],
             "cNext": [87],
             "cSiblings": ["a.1702"]
         },
         "x87": {
             "name_en": "Mimesis Lux",
-            "name_fr": "Mimesis Lux",
-            "job": "@CLASS_JOB.SMN",
+            "name_fr": "Mimesis lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.SMN",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [86],
             "cSiblings": ["a.1715"]
         },
         "x88": {
             "name_en": "Animated Parashu",
             "name_fr": "Parashu animée",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "170",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [89]
         },
         "x89": {
             "name_en": "Parashu Awoken",
             "name_fr": "Parashu éveillée",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "200",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [88],
             "cNext": [90]
         },
         "x90": {
             "name_en": "Ukonvasara",
             "name_fr": "Ukonvasara",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "210",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -1073,6 +1163,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [89],
             "cNext": [91],
             "cSiblings": ["a.1408"]
@@ -1080,10 +1171,11 @@
         "x91": {
             "name_en": "Hyperconductive Ukonvasara",
             "name_fr": "Ukonvasara hyperconductrice",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "230",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [90],
             "cNext": [92],
             "cSiblings": ["a.1501"]
@@ -1091,10 +1183,11 @@
         "x92": {
             "name_en": "Axe of the Blood Emperor",
             "name_fr": "Hache de l'Empereur sanguinaire",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "240",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [91],
             "cNext": [93],
             "cSiblings": ["a.1607"]
@@ -1102,10 +1195,11 @@
         "x93": {
             "name_en": "Sharpened Axe of the Blood Emperor",
             "name_fr": "Hache de l'Empereur sanguinaire vivifiée",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "260",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [92],
             "cNext": [94],
             "cSiblings": ["a.1669"]
@@ -1113,48 +1207,52 @@
         "x94": {
             "name_en": "Minos",
             "name_fr": "Minos",
-            "job": "@CLASS_JOB.WAR",
             "iLevel": "270",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [93],
             "cNext": [95],
             "cSiblings": ["a.1697"]
         },
         "x95": {
             "name_en": "Minos Lux",
-            "name_fr": "Minos Lux",
-            "job": "@CLASS_JOB.WAR",
+            "name_fr": "Minos lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.WAR",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [94],
             "cSiblings": ["a.1710"]
         },
         "x96": {
             "name_en": "Animated Seraph Cane",
             "name_fr": "Canne séraphine animée",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "170",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cNext": [97]
         },
         "x97": {
             "name_en": "Seraph Cane Awoken",
             "name_fr": "Canne séraphine éveillée",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "200",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "-",
             "requirements_fr": "-",
+            "patch": "3.15",
             "cPrev": [96],
             "cNext": [98]
         },
         "x98": {
             "name_en": "Majestas",
             "name_fr": "Majestas",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "210",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": [
                 "Unidentifiable Bone (150 Poetics or 300 Allied Seals) x10",
                 "Unidentifiable Shell (150 Poetics) x10",
@@ -1167,6 +1265,7 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
+            "patch": "3.15",
             "cPrev": [97],
             "cNext": [99],
             "cSiblings": ["a.1411"]
@@ -1174,10 +1273,11 @@
         "x99": {
             "name_en": "Hyperconductive Majestas",
             "name_fr": "Majestas hyperconductrice",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "230",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
+            "patch": "3.25",
             "cPrev": [98],
             "cNext": [100],
             "cSiblings": ["a.1504"]
@@ -1185,10 +1285,11 @@
         "x100": {
             "name_en": "Cane of the White Tsar",
             "name_fr": "Canne du Tsar blanc",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "240",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
+            "patch": "3.3",
             "cPrev": [99],
             "cNext": [101],
             "cSiblings": ["a.1610"]
@@ -1196,10 +1297,11 @@
         "x101": {
             "name_en": "Sharpened Cane of the White Tsar",
             "name_fr": "Canne du Tsar blanc vivifiée",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "260",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
+            "patch": "3.45",
             "cPrev": [100],
             "cNext": [102],
             "cSiblings": ["a.1672"]
@@ -1207,21 +1309,23 @@
         "x102": {
             "name_en": "Sindri",
             "name_fr": "Sindri",
-            "job": "@CLASS_JOB.WHM",
             "iLevel": "270",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
+            "patch": "3.5",
             "cPrev": [101],
             "cNext": [103],
             "cSiblings": ["a.1700"]
         },
         "x103": {
             "name_en": "Sindri Lux",
-            "name_fr": "Sindri Lux",
-            "job": "@CLASS_JOB.WHM",
+            "name_fr": "Sindri lux",
             "iLevel": "275",
+            "job": "@CLASS_JOB.WHM",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
+            "patch": "3.55",
             "cPrev": [102],
             "cSiblings": ["a.1713"]
         }

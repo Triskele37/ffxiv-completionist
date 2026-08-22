@@ -3,15 +3,15 @@
     "groupName_en": "Gyr Abania",
     "groupName_fr": "Gyr Abania",
     "tasks": {
-        "x0": {
-            "level": "70★★",
+        "x511": {
             "name_en": "Hingan Flax",
             "name_fr": "Fibres de lin hingashien",
-            "zone": "@PLACE.THE_PEAKS",
+            "level": "70 ★★",
+            "zone": "@PLACE.SB.THE_PEAKS",
             "coordinates": "(24, 36)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.80",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "4.2",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.80"
+            "patch": "4.2"
         }
     }
 }

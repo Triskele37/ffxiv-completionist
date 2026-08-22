@@ -1,19 +1,23 @@
-.p-colorpicker-preview,
-.p-fluid .p-colorpicker-preview.p-inputtext  {
-    width: $colorPickerPreviewWidth;
-    height: $colorPickerPreviewHeight;
-}
+@use "../../_variables";
 
-.p-colorpicker-panel {
-    background: $colorPickerBg;
-    border: $colorPickerBorder;
-
-    .p-colorpicker-color-handle,
-    .p-colorpicker-hue-handle {
-        border-color: $colorPickerHandleColor;
+@layer primeng {
+    .p-colorpicker-preview,
+    .p-fluid .p-colorpicker-preview.p-inputtext {
+        width: variables.$colorPickerPreviewWidth;
+        height: variables.$colorPickerPreviewHeight;
     }
-}
 
-.p-colorpicker-overlay-panel {
-    box-shadow: $inputOverlayShadow;
+    .p-colorpicker-panel {
+        background: variables.$colorPickerBg;
+        border: variables.$colorPickerBorder;
+
+        .p-colorpicker-color-handle,
+        .p-colorpicker-hue-handle {
+            border-color: variables.$colorPickerHandleColor;
+        }
+    }
+
+    .p-colorpicker-overlay-panel {
+        box-shadow: variables.$inputOverlayShadow;
+    }
 }

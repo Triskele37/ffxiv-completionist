@@ -4,66 +4,66 @@
     "groupName_fr": "Quêtes de rôdeur vipère",
     "tasks": {
         "x70384": {
-            "cSiblings": ["ap.703"],
-            "cNext": ["q.70385"],
-            "level": 80,
             "name_en": "Enter the Viper",
             "name_fr": "Une vipère rôde",
+            "level": 80,
             "npc_en": "Worried Weaver",
             "npc_fr": "Couturier Embarrassé",
+            "unlock": "ap.703",
             "patch": "7.0",
-            "unlock": "ap.703"
+            "cNext": ["q.70385"],
+            "cSiblings": ["ap.703"]
         },
         "x70385": {
-            "cNext": ["q.70386"],
-            "cPrev": ["q.70384"],
-            "level": 80,
             "name_en": "Fangs of the Viper",
             "name_fr": "Le devoir des rôdeurs vipère",
-            "npc_en": "Keshkwa",
-            "npc_fr": "Keshkwa",
-            "patch": "7.0"
-        },
-        "x70386": {
-            "cNext": ["q.70387"],
-            "cPrev": ["q.70385"],
-            "level": 83,
-            "name_en": "Viper in the Vidraal's Shadow",
-            "name_fr": "Des traqueurs sachant traquer",
-            "npc_en": "Keshkwa",
-            "npc_fr": "Keshkwa",
-            "patch": "7.0"
-        },
-        "x70387": {
-            "cNext": ["q.70388"],
-            "cPrev": ["q.70386"],
-            "level": 85,
-            "name_en": "Vipers on the Hunt",
-            "name_fr": "De mal en pis",
-            "npc_en": "Keshkwa",
-            "npc_fr": "Keshkwa",
-            "patch": "7.0"
-        },
-        "x70388": {
-            "cNext": ["q.70389"],
-            "cPrev": ["q.70387"],
-            "level": 88,
-            "name_en": "Into the Viper Pit",
-            "name_fr": "Un plan qui sent l'entourloupe",
-            "npc_en": "Keshkwa",
-            "npc_fr": "Keshkwa",
-            "patch": "7.0"
-        },
-        "x70389": {
-            "cSiblings": ["a.3497", "ap.705"],
-            "cPrev": ["q.70388"],
-            "level": 90,
-            "name_en": "Vengeance of the Viper",
-            "name_fr": "Le fléau des Tural vidraal",
+            "level": 80,
             "npc_en": "Keshkwa",
             "npc_fr": "Keshkwa",
             "patch": "7.0",
-            "unlock": "ap.705"
+            "cPrev": ["q.70384"],
+            "cNext": ["q.70386"]
+        },
+        "x70386": {
+            "name_en": "Viper in the Vidraal's Shadow",
+            "name_fr": "Des traqueurs sachant traquer",
+            "level": 83,
+            "npc_en": "Keshkwa",
+            "npc_fr": "Keshkwa",
+            "patch": "7.0",
+            "cPrev": ["q.70385"],
+            "cNext": ["q.70387"]
+        },
+        "x70387": {
+            "name_en": "Vipers on the Hunt",
+            "name_fr": "De mal en pis",
+            "level": 85,
+            "npc_en": "Keshkwa",
+            "npc_fr": "Keshkwa",
+            "patch": "7.0",
+            "cPrev": ["q.70386"],
+            "cNext": ["q.70388"]
+        },
+        "x70388": {
+            "name_en": "Into the Viper Pit",
+            "name_fr": "Un plan qui sent l'entourloupe",
+            "level": 88,
+            "npc_en": "Keshkwa",
+            "npc_fr": "Keshkwa",
+            "patch": "7.0",
+            "cPrev": ["q.70387"],
+            "cNext": ["q.70389"]
+        },
+        "x70389": {
+            "name_en": "Vengeance of the Viper",
+            "name_fr": "Le fléau des Tural vidraal",
+            "level": 90,
+            "npc_en": "Keshkwa",
+            "npc_fr": "Keshkwa",
+            "unlock": "ap.705",
+            "patch": "7.0",
+            "cPrev": ["q.70388"],
+            "cSiblings": ["a.3497", "ap.705"]
         }
     }
 }

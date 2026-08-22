@@ -8,9 +8,9 @@
             "name_fr": "Laisser une bonne impression I",
             "description_en": "Receive 10 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 10 fois.",
+            "points": 0,
             "reward": "t.144",
             "patch": "2.1",
-            "points": 0,
             "cNext": ["a.859"],
             "cSiblings": ["t.144"]
         },
@@ -19,9 +19,9 @@
             "name_fr": "Laisser une bonne impression II",
             "description_en": "Receive 50 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 50 fois.",
+            "points": 0,
             "reward": "mi.75",
             "patch": "2.1",
-            "points": 0,
             "cPrev": ["a.858"],
             "cNext": ["a.860"]
         },
@@ -30,10 +30,10 @@
             "name_fr": "Laisser une bonne impression III",
             "description_en": "Receive 100 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 100 fois.",
+            "points": 0,
             "reward_en": "Partisan's Crown",
             "reward_fr": "Couronne de partisan",
             "patch": "2.1",
-            "points": 0,
             "cPrev": ["a.859"],
             "cNext": ["a.861"]
         },
@@ -42,9 +42,9 @@
             "name_fr": "Laisser une bonne impression IV",
             "description_en": "Receive 300 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 300 fois.",
+            "points": 0,
             "reward": "b.20",
             "patch": "2.1",
-            "points": 0,
             "cPrev": ["a.860"],
             "cNext": ["a.862"]
         },
@@ -53,9 +53,9 @@
             "name_fr": "La grande coqueluche",
             "description_en": "Receive 500 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 500 fois.",
+            "points": 0,
             "reward": "mo.21",
             "patch": "2.1",
-            "points": 0,
             "cPrev": ["a.861"],
             "cNext": ["a.1035"]
         },
@@ -64,10 +64,10 @@
             "name_fr": "Laisser la meilleure impression I",
             "description_en": "Receive 1,500 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 1 500 fois.",
+            "points": 0,
             "reward_en": "The Best Gown Ever",
             "reward_fr": "Robe du plus grand honneur",
             "patch": "2.4",
-            "points": 0,
             "cPrev": ["a.862"],
             "cNext": ["a.1036"]
         },
@@ -76,9 +76,9 @@
             "name_fr": "Laisser la meilleure impression II",
             "description_en": "Receive 3,000 player commendations.",
             "description_fr": "Recevoir les honneurs de ses équipiers 3 000 fois.",
+            "points": 0,
             "reward": "mo.44",
             "patch": "2.4",
-            "points": 0,
             "cPrev": ["a.1035"]
         }
     }

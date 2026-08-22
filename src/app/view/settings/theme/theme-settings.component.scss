@@ -1,10 +1,17 @@
 .font-size-controls {
+    display: flex;
+
     ::ng-deep {
-        .p-inputnumber-button-up {
+        .p-inputnumber-input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .p-inputnumber-increment-button {
             border-top-right-radius: 0;
         }
 
-        .p-inputnumber-button-down {
+        .p-inputnumber-decrement-button {
             border-bottom-right-radius: 0;
         }
 
@@ -22,15 +29,20 @@
         padding-right: 5px;
         width: 170px;
     }
-
-    p-colorPicker {
-        margin: 5px;
-    }
 }
 
 .setting-line {
     display: flex;
     align-items: center;
+
+    .p-colorpicker {
+        margin: 5px;
+    }
+
+    ::ng-deep .p-colorpicker-preview {
+        border-radius: var(--p-colorpicker-preview-border-radius);
+        border: 1px solid var(--primary-color);
+    }
 }
 
 .completion-line {
@@ -67,6 +79,12 @@
             > span {
                 position: relative;
                 width: 51px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .p-colorpicker {
+                margin: 0 5px;
             }
 
             .i-incomplete, .i-complete, .i-exclude {
@@ -74,7 +92,7 @@
                 position: absolute;
                 filter: invert(50%);
                 z-index: 1;
-                top: 4px;
+                top: 2px;
                 left: 14px;
             }
 

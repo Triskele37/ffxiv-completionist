@@ -1,28 +1,32 @@
-.p-virtualscroller {
-    .p-virtualscroller-header {
-        background: $tableHeaderBg;
-        color: $tableHeaderTextColor;
-        border: $tableHeaderBorder;
-        border-width: $tableHeaderBorderWidth;
-        padding: $tableHeaderPadding;
-        font-weight: $tableHeaderFontWeight;
-    }
+@use "../../_variables";
 
-    .p-virtualscroller-content {
-        background: $tableBodyRowBg;
-        color: $tableBodyRowTextColor;
-        border: $dataViewContentBorder;
-        padding: $dataViewContentPadding;
-    }
+@layer primeng {
+    .p-virtualscroller {
+        .p-virtualscroller-header {
+            background: variables.$tableHeaderBg;
+            color: variables.$tableHeaderTextColor;
+            border: variables.$tableHeaderBorder;
+            border-width: variables.$tableHeaderBorderWidth;
+            padding: variables.$tableHeaderPadding;
+            font-weight: variables.$tableHeaderFontWeight;
+        }
 
-    .p-virtualscroller-footer {
-        background: $tableFooterBg;
-        color: $tableFooterTextColor;
-        border: $tableFooterBorder;
-        border-width: $tableFooterBorderWidth;
-        padding: $tableFooterPadding;
-        font-weight: $tableFooterFontWeight;
-        border-bottom-left-radius: var(--border-radius);
-        border-bottom-right-radius: var(--border-radius);
+        .p-virtualscroller-content {
+            background: variables.$tableBodyRowBg;
+            color: variables.$tableBodyRowTextColor;
+            border: variables.$dataViewContentBorder;
+            padding: variables.$dataViewContentPadding;
+        }
+
+        .p-virtualscroller-footer {
+            background: variables.$tableFooterBg;
+            color: variables.$tableFooterTextColor;
+            border: variables.$tableFooterBorder;
+            border-width: variables.$tableFooterBorderWidth;
+            padding: variables.$tableFooterPadding;
+            font-weight: variables.$tableFooterFontWeight;
+            border-bottom-left-radius: var(--border-radius);
+            border-bottom-right-radius: var(--border-radius);
+        }
     }
 }

@@ -1,5 +1,5 @@
-@import 'material-icons/css/material-icons';
-@import 'material-icons/iconfont/material-icons';
+@use 'material-icons/css/material-icons' as *;
+@use 'material-icons/iconfont/material-icons' as *;
 
 .material-icons {
     font-size: calc(var(--font-size) * 1.5);

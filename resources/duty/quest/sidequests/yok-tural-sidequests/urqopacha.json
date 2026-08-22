@@ -4,283 +4,291 @@
     "groupName_fr": "Urqopacha",
     "tasks": {
         "x70566": {
-            "cPrev": ["q.70408"],
-            "level": 90,
             "name_en": "An Unlikely Inspector",
             "name_fr": "Entretien de chariots",
+            "level": 90,
             "npc_en": "Tsivlu",
             "npc_fr": "Tsivlu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70408"]
         },
         "x70567": {
-            "cPrev": ["q.70408"],
-            "level": 90,
             "name_en": "The Carmine Secret",
             "name_fr": "Le secret de la teinture",
+            "level": 90,
             "npc_en": "Povli",
             "npc_fr": "Povli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70408"]
         },
         "x70568": {
-            "cPrev": ["q.70410"],
-            "level": 90,
             "name_en": "Dirty Dancing",
             "name_fr": "Démonstration de danse traditionnelle",
+            "level": 90,
             "npc_en": "Vugeel Ja",
             "npc_fr": "Vugeel Ja",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70410"]
         },
         "x70569": {
-            "cPrev": ["q.70410"],
-            "level": 90,
             "name_en": "Gone Doll",
             "name_fr": "Gri-gri pour le commerce",
+            "level": 90,
             "npc_en": "Troubled Craftsman",
             "npc_fr": "Artisan Pelupelu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70410"]
         },
         "x70570": {
-            "cPrev": ["q.70410"],
-            "level": 90,
             "name_en": "A Blend for Every Taste",
             "name_fr": "Variétés de thé",
+            "level": 90,
             "npc_en": "Pobli",
             "npc_fr": "Pobli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70410"]
         },
         "x70571": {
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "Mate is the Medicine",
             "name_fr": "Du thé maté pour soigner",
+            "level": 90,
             "npc_en": "Sickly Merchant",
             "npc_fr": "Marchand Pâlot",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70413"]
         },
         "x70572": {
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "The Reeking Robber",
             "name_fr": "Voleurs de café",
+            "level": 90,
             "npc_en": "Hot-blooded Storekeeper",
             "npc_fr": "Responsable Pelupelu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70413"]
         },
         "x70573": {
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "A Sordid Situation",
             "name_fr": "Cacafé",
+            "level": 90,
             "npc_en": "Tsabli",
             "npc_fr": "Tsabli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70413"]
         },
         "x70574": {
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "In Pursuit of Mezcal",
             "name_fr": "Du mezcal un peu spécial",
+            "level": 90,
             "npc_en": "Mivli",
             "npc_fr": "Mivli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70413"]
         },
         "x70575": {
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "A Traveler to the Rescue",
             "name_fr": "Mercenaire responsable",
+            "level": 90,
             "npc_en": "Flustered Merchant",
             "npc_fr": "Pelupelu Paniquée",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.urqopacha.13",
+            "patch": "7.0",
+            "cPrev": ["q.70413"],
+            "cSiblings": "travel.aether-currents.dt.urqopacha.13"
         },
         "x70576": {
-            "cNext": ["q.70635"],
-            "cPrev": ["q.70413", "q.70556"],
-            "level": 90,
             "name_en": "Too Much of a Good Thing",
             "name_fr": "Sire Épidemaïs combat les carences alimentaires",
+            "level": 90,
             "npc_en": "Cornservant",
             "npc_fr": "Sire Épidemaïs",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70413", "q.70556"],
+            "cNext": ["q.70635"]
         },
         "x70587": {
-            "cNext": ["q.70588"],
-            "cPrev": ["q.70413"],
-            "level": 90,
             "name_en": "A Crisis of Corruption",
-            "name_fr": "Une affaire à ne pas manquer!",
+            "name_fr": "Une affaire à ne pas manquer !",
+            "level": 90,
             "npc_en": "Nopli",
             "npc_fr": "Nopli",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.urqopacha.12",
+            "patch": "7.0",
+            "cPrev": ["q.70413"],
+            "cNext": ["q.70588"],
+            "cSiblings": "travel.aether-currents.dt.urqopacha.12"
         },
         "x70588": {
-            "cNext": ["q.70589"],
-            "cPrev": ["q.70587"],
-            "level": 90,
             "name_en": "To Catch a Merchant",
             "name_fr": "Pratiques commerciales peu recommandables",
+            "level": 90,
             "npc_en": "Nopli",
             "npc_fr": "Nopli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70587"],
+            "cNext": ["q.70589"]
         },
         "x70589": {
-            "cNext": ["q.70590"],
-            "cPrev": ["q.70588"],
-            "level": 90,
             "name_en": "Finding Bait",
             "name_fr": "Spécialités locales",
+            "level": 90,
             "npc_en": "Nopli",
             "npc_fr": "Nopli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70588"],
+            "cNext": ["q.70590"]
         },
         "x70590": {
-            "cNext": ["q.70595"],
-            "cPrev": ["q.70589"],
-            "level": 90,
             "name_en": "Springing the Trap",
             "name_fr": "Marchands sans frontières",
+            "level": 90,
             "npc_en": "Nopli",
             "npc_fr": "Nopli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70589"],
+            "cNext": ["q.70595"]
         },
         "x70577": {
-            "cPrev": ["q.70426"],
-            "level": 90,
             "name_en": "Grandmother's Grave Gift",
             "name_fr": "Une délicate attention",
+            "level": 90,
             "npc_en": "Allergic Yok Huy",
             "npc_fr": "Yok Huy Insouciante",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70426"]
         },
         "x70578": {
-            "cPrev": ["q.70426"],
-            "level": 90,
             "name_en": "The Might Be Giant",
             "name_fr": "Concours de gros bras",
+            "level": 90,
             "npc_en": "Brawny Yok Huy",
             "npc_fr": "Yok Huy Musculeux",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70426"]
         },
         "x70579": {
-            "cPrev": ["q.70426"],
-            "level": 90,
             "name_en": "Putting Out Fires",
             "name_fr": "Liquide de refroidissement",
+            "level": 90,
             "npc_en": "Vyurvarjur",
             "npc_fr": "Vyurvarjur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70426"]
         },
         "x70580": {
-            "cPrev": ["q.70426"],
-            "level": 90,
             "name_en": "Paws off That Pigment",
             "name_fr": "Pas de pot",
+            "level": 90,
             "npc_en": "Injured Yok Huy",
             "npc_fr": "Yok Huy Blessé",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70426"]
         },
         "x70581": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "Big Wounds to Heal",
             "name_fr": "La pharmacie des montagnes",
+            "level": 90,
             "npc_en": "Bhurborlor",
             "npc_fr": "Bhurborlor",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70431"]
         },
         "x70582": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "A Tradition Best Preserved",
             "name_fr": "Certains l'aiment sèche",
+            "level": 90,
             "npc_en": "Zarwarkur",
             "npc_fr": "Zarwarkur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70431"]
         },
         "x70583": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "An Illuminating Ritual",
             "name_fr": "De l'eau à la lumière",
+            "level": 90,
             "npc_en": "Garhorlur",
             "npc_fr": "Garhorlur",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.urqopacha.11",
+            "patch": "7.0",
+            "cPrev": ["q.70431"],
+            "cSiblings": "travel.aether-currents.dt.urqopacha.11"
         },
         "x70584": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "Soothing the Salty",
             "name_fr": "Ça se dispute",
+            "level": 90,
             "npc_en": "Anxious Yok Huy",
             "npc_fr": "Yok Huy Anxieuse",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70431"]
         },
         "x70585": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "The Biggest Sucker",
             "name_fr": "L'effroyable monstre suceur de sang",
+            "level": 90,
             "npc_en": "Dabargar",
             "npc_fr": "Dabargar",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70431"]
         },
         "x70586": {
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "Bearing Fruit",
             "name_fr": "Hommage fruité",
+            "level": 90,
             "npc_en": "Karporger",
             "npc_fr": "Karporger",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70431"]
         },
         "x70591": {
-            "cNext": ["q.70592"],
-            "cPrev": ["q.70431"],
-            "level": 90,
             "name_en": "The Flame Burns No More",
             "name_fr": "Un grand admirateur",
+            "level": 90,
             "npc_en": "Murfurlur",
             "npc_fr": "Murfurlur",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.urqopacha.10",
+            "patch": "7.0",
+            "cPrev": ["q.70431"],
+            "cNext": ["q.70592"],
+            "cSiblings": "travel.aether-currents.dt.urqopacha.10"
         },
         "x70592": {
-            "cNext": ["q.70593"],
-            "cPrev": ["q.70591"],
-            "level": 90,
             "name_en": "Sparks of Joy",
-            "name_fr": "Une nouvelle vocation?",
+            "name_fr": "Une nouvelle vocation ?",
+            "level": 90,
             "npc_en": "Murfurlur",
             "npc_fr": "Murfurlur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70591"],
+            "cNext": ["q.70593"]
         },
         "x70593": {
-            "cNext": ["q.70594"],
-            "cPrev": ["q.70592"],
-            "level": 90,
             "name_en": "A Giant's Footsteps",
             "name_fr": "Protection engagée",
+            "level": 90,
             "npc_en": "Murfurlur",
             "npc_fr": "Murfurlur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70592"],
+            "cNext": ["q.70594"]
         },
         "x70594": {
-            "cNext": ["q.70595"],
-            "cPrev": ["q.70593"],
-            "level": 90,
             "name_en": "Resolve Reignited",
             "name_fr": "Garde la pêche",
+            "level": 90,
             "npc_en": "Murfurlur",
             "npc_fr": "Murfurlur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70593"],
+            "cNext": ["q.70595"]
         },
         "x70595": {
-            "cPrev": ["q.70590", "q.70594"],
-            "level": 90,
             "name_en": "Brains and Brawn",
             "name_fr": "On a souvent besoin d'un plus petit que soi",
+            "level": 90,
             "npc_en": "Murfurlur",
             "npc_fr": "Murfurlur",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70590", "q.70594"]
         }
     }
 }

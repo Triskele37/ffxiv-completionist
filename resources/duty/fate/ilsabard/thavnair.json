@@ -1,145 +1,145 @@
 {
     "key": "thavnair",
-    "groupName": "@PLACE.THAVNAIR",
+    "groupName": "@PLACE.EW.THAVNAIR",
     "tasks": {
         "x1764": {
-            "level": 80,
             "name_en": "Full Petal Alchemist: Perilous Pickings",
             "name_fr": "L'alchimiste des senteurs : une cueillette dangereuse",
+            "level": 80,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(21.5, 11.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         },
         "x1765": {
-            "level": 80,
             "name_en": "When Gaja Go Gaga",
             "name_fr": "Obstacles éléphantesques",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17.8, 27.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1767": {
-            "level": 80,
             "name_en": "Shiver and Shock",
             "name_fr": "Frissons et tremblements",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20.3, 38.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1769": {
-            "level": 80,
             "name_en": "The Accursed Kanabhuti",
             "name_fr": "Défi : Kanabhuti la malédiction de la jungle",
+            "level": 80,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17.9, 19.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1771": {
-            "level": 80,
             "name_en": "Full Petal Alchemist: Risky Return",
             "name_fr": "L'alchimiste des senteurs : un retour dangereux",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14.1, 17.0)",
-            "patch": "6.0",
-            "previousFate": "f.1764",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1764",
+            "patch": "6.0"
         },
         "x1766": {
-            "level": 81,
             "name_en": "I Am the Valras",
             "name_fr": "Code morse",
+            "level": 81,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14.7, 31.3)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1768": {
-            "level": 81,
             "name_en": "Of Claws and Gall",
             "name_fr": "Bataillon de défense fiel-de-géant",
+            "level": 81,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16.7, 9.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1770": {
-            "level": 81,
             "name_en": "The Little Nanka That Could",
             "name_fr": "Le jeune homme et la mer",
+            "level": 81,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(8.2, 15.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "6.0"
         },
         "x1772": {
-            "level": 85,
             "name_en": "Devout Pilgrims vs. the Jungle Lizards",
             "name_fr": "Le culte des Mrga : pèlerin perdu",
+            "level": 85,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(34.3, 27.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "6.0"
         },
         "x1773": {
-            "level": 85,
             "name_en": "Peek-a-Bhujamga",
             "name_fr": "Jeu empoisonné",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27.8, 10.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1774": {
-            "level": 85,
             "name_en": "Stalkers in the Shroud",
             "name_fr": "Tigres mangeurs d'hommes",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30.8, 19.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1775": {
-            "level": 85,
             "name_en": "Swipe Eft",
             "name_fr": "Miracle dans la Ksiroda",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30.2, 25.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1776": {
-            "level": 85,
             "name_en": "Mesmerizing Moths",
             "name_fr": "Papillons vagabonds",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26.5, 14.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1777": {
-            "level": 85,
             "name_en": "Return of the Tyrant",
             "name_fr": "Défi : Valyn le tyran",
+            "level": 85,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(24.9, 20.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1778": {
-            "level": 85,
             "name_en": "Monkeys on Your Back",
             "name_fr": "L'armée des singes",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24.9, 27.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1779": {
-            "level": 85,
             "name_en": "Devout Pilgrims vs. the Apalala",
             "name_fr": "Le culte des Mrga : l'heure de la prière",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23.0, 23.3)",
-            "patch": "6.0",
-            "previousFate": "f.1772",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1772",
+            "patch": "6.0"
         },
         "x1763": {
-            "level": 90,
             "name_en": "Devout Pilgrims vs. Daivadipa",
             "name_fr": "Le culte des Mrga : le faux dieu",
+            "level": 90,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(9.3, 37.7)",
-            "patch": "6.0",
-            "previousFate": "f.1779",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1779",
+            "patch": "6.0"
         }
     }
 }

@@ -3,94 +3,94 @@
     "groupName_en": "71-80",
     "groupName_fr": "71-80",
     "tasks": {
-        "x0": {
-            "level": "71",
+        "x10608": {
             "name_en": "Rarefied Titancopper Ore",
             "name_fr": "Minerai de bronze titané collectionnable",
-            "zone": "@PLACE.LAKELAND",
-            "coordinates": "(31, 24)",
-            "nodeTimer": "04:00 / 16:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.116"
-        },
-        "x1": {
             "level": "71",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "coordinates": "(31, 24)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.116",
+            "nodeTimer": "04:00 / 16:00",
+            "patch": "5.4"
+        },
+        "x10618": {
             "name_en": "Rarefied Bluespirit Ore",
             "name_fr": "Pierre d'azuresprit collectionnable",
-            "zone": "@PLACE.LAKELAND",
+            "level": "71",
+            "zone": "@PLACE.SHB.LAKELAND",
             "coordinates": "(28, 22)",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.116"
+            "closestAetheryte": "travel.aetherytes.norvrandt.116",
+            "patch": "5.4"
         },
-        "x2": {
-            "level": "73",
+        "x10609": {
             "name_en": "Rarefied Raw Lazurite",
             "name_fr": "Lazurite brute collectionnable",
-            "zone": "@PLACE.RAK_TIKA",
+            "level": "73",
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "coordinates": "(16, 18)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.127",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.127"
+            "patch": "5.4"
         },
-        "x3": {
-            "level": "75",
+        "x10610": {
             "name_en": "Rarefied Raw Petalite",
             "name_fr": "Pétalite brute collectionnable",
-            "zone": "@PLACE.LAKELAND",
+            "level": "75",
+            "zone": "@PLACE.SHB.LAKELAND",
             "coordinates": "(31, 24)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.116",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.116"
+            "patch": "5.4"
         },
-        "x4": {
-            "level": "77",
+        "x10611": {
             "name_en": "Rarefied Sea Salt",
             "name_fr": "Sel de mer collectionnable",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "77",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(25, 4)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.129"
+            "patch": "5.4"
         },
-        "x5": {
-            "level": "79",
+        "x10612": {
             "name_en": "Rarefied Reef Rock",
             "name_fr": "Pierre des grands fonds collectionnable",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "79",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(33, 20)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.129"
+            "patch": "5.4"
         },
-        "x6": {
-            "level": "80",
+        "x10613": {
             "name_en": "Rarefied Raw Onyx",
             "name_fr": "Onyx brut collectionnable",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "80",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(25, 4)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.129"
+            "patch": "5.4"
         },
-        "x7": {
-            "level": "80★",
+        "x10614": {
             "name_en": "Rarefied Tungsten Ore",
             "name_fr": "Minerai de tungstène collectionnable",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(33, 20)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.129"
+            "patch": "5.4"
         },
-        "x8": {
-            "level": "80★",
+        "x10615": {
             "name_en": "Rarefied Gyr Abanian Alumen",
             "name_fr": "Alun gyrabanien collectionnable",
-            "zone": "@PLACE.THE_FRINGES",
+            "level": "80 ★",
+            "zone": "@PLACE.SB.THE_FRINGES",
             "coordinates": "(32, 31)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.78",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.78"
+            "patch": "5.4"
         }
     }
 }

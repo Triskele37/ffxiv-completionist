@@ -2,7 +2,7 @@
     "key": "fishing-guide",
     "groupName_en": "Fishing Guide",
     "groupName_fr": "Nomenclature",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -13,15 +13,17 @@
             "header_fr": "Attributs"
         },
         "zone": {
-            "link": true,
             "header_en": "Zone",
             "header_fr": "Région"
         },
-        "fishingHoles": {
+        "primeLocation": {
             "filterable": true,
             "link": true,
-            "header_en": "Fishing Holes",
+            "header_en": "Prime Location",
             "header_fr": "Lieu"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "order": [

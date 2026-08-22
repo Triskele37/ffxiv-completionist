@@ -4,33 +4,34 @@
     "groupName_fr": "Eurêka Orthos",
     "tasks": {
         "x70199": {
-            "level": 81,
             "name_en": "Delve into Myth",
             "name_fr": "Le laboratoire secret",
+            "level": 81,
             "npc_en": "Koh Rabntah",
             "npc_fr": "Koh Rabntah",
+            "unlock": "d.897",
+            "patch": "6.35",
             "cPrev": ["q.70000"],
-            "cNext": ["q.70200"],
-            "patch": "6.35"
+            "cNext": ["q.70200", "d.897"]
         },
         "x70200": {
-            "level": 81,
             "name_en": "Rage Extinguished",
             "name_fr": "Une rage millénaire éteinte",
+            "level": 81,
             "npc_en": "Koh Rabntah",
             "npc_fr": "Koh Rabntah",
+            "patch": "6.35",
             "cPrev": ["q.70199"],
-            "cNext": ["q.70201"],
-            "patch": "6.35"
+            "cNext": ["q.70201"]
         },
         "x70201": {
-            "level": 81,
             "name_en": "Orthos Unveiled",
             "name_fr": "Le véritable sens d'Eurêka",
+            "level": 81,
             "npc_en": "Koh Rabntah",
             "npc_fr": "Koh Rabntah",
-            "cPrev": ["q.70200"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "cPrev": ["q.70200"]
         }
     }
 }

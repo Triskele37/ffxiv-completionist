@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $highlightBg: rgba(100, 181, 246, .16) !default;
 $highlightTextColor: rgba(255,255,255,.87) !default;
 $highlightFocusBg: rgba(var(--primary-color), .24) !default;
@@ -122,120 +124,120 @@ $plainButtonActiveBgColor: rgba(255, 255, 255, 0.16) !default;
 $secondaryButtonBg: #78909c !default;
 $secondaryButtonTextColor: #ffffff !default;
 $secondaryButtonBorder: 1px solid $secondaryButtonBg !default;
-$secondaryButtonHoverBg: scale-color(
+$secondaryButtonHoverBg: color.scale(
     $secondaryButtonBg,
     $lightness: -10%
 ) !default;
 $secondaryButtonTextHoverColor: $secondaryButtonTextColor !default;
-$secondaryButtonHoverBorderColor: scale-color(
+$secondaryButtonHoverBorderColor: color.scale(
     $secondaryButtonBg,
     $lightness: -10%
 ) !default;
-$secondaryButtonActiveBg: scale-color(
+$secondaryButtonActiveBg: color.scale(
     $secondaryButtonBg,
     $lightness: -20%
 ) !default;
 $secondaryButtonTextActiveColor: $secondaryButtonTextColor !default;
-$secondaryButtonActiveBorderColor: scale-color(
+$secondaryButtonActiveBorderColor: color.scale(
     $secondaryButtonBg,
     $lightness: -20%
 ) !default;
 $secondaryButtonFocusShadow: 0 0 0 1px
-    scale-color($secondaryButtonBg, $lightness: 30%) !default;
+    color.scale($secondaryButtonBg, $lightness: 30%) !default;
 
 $infoButtonBg: #81d4fa !default;
 $infoButtonTextColor: #121212 !default;
 $infoButtonBorder: 1px solid $infoButtonBg !default;
-$infoButtonHoverBg: scale-color($infoButtonBg, $lightness: -10%) !default;
+$infoButtonHoverBg: color.scale($infoButtonBg, $lightness: -10%) !default;
 $infoButtonTextHoverColor: $infoButtonTextColor !default;
-$infoButtonHoverBorderColor: scale-color(
+$infoButtonHoverBorderColor: color.scale(
     $infoButtonBg,
     $lightness: -10%
 ) !default;
-$infoButtonActiveBg: scale-color($infoButtonBg, $lightness: -20%) !default;
+$infoButtonActiveBg: color.scale($infoButtonBg, $lightness: -20%) !default;
 $infoButtonTextActiveColor: $infoButtonTextColor !default;
-$infoButtonActiveBorderColor: scale-color(
+$infoButtonActiveBorderColor: color.scale(
     $infoButtonBg,
     $lightness: -20%
 ) !default;
-$infoButtonFocusShadow: 0 0 0 1px scale-color($infoButtonBg, $lightness: 30%) !default;
+$infoButtonFocusShadow: 0 0 0 1px color.scale($infoButtonBg, $lightness: 30%) !default;
 
 $successButtonBg: #c5e1a5 !default;
 $successButtonTextColor: #121212 !default;
 $successButtonBorder: 1px solid $successButtonBg !default;
-$successButtonHoverBg: scale-color($successButtonBg, $lightness: -10%) !default;
+$successButtonHoverBg: color.scale($successButtonBg, $lightness: -10%) !default;
 $successButtonTextHoverColor: $successButtonTextColor !default;
-$successButtonHoverBorderColor: scale-color(
+$successButtonHoverBorderColor: color.scale(
     $successButtonBg,
     $lightness: -10%
 ) !default;
-$successButtonActiveBg: scale-color(
+$successButtonActiveBg: color.scale(
     $successButtonBg,
     $lightness: -20%
 ) !default;
 $successButtonTextActiveColor: $successButtonTextColor !default;
-$successButtonActiveBorderColor: scale-color(
+$successButtonActiveBorderColor: color.scale(
     $successButtonBg,
     $lightness: -20%
 ) !default;
 $successButtonFocusShadow: 0 0 0 1px
-    scale-color($successButtonBg, $lightness: 30%) !default;
+    color.scale($successButtonBg, $lightness: 30%) !default;
 
 $warningButtonBg: #ffe082 !default;
 $warningButtonTextColor: #121212 !default;
 $warningButtonBorder: 1px solid $warningButtonBg !default;
-$warningButtonHoverBg: scale-color($warningButtonBg, $lightness: -10%) !default;
+$warningButtonHoverBg: color.scale($warningButtonBg, $lightness: -10%) !default;
 $warningButtonTextHoverColor: $warningButtonTextColor !default;
-$warningButtonHoverBorderColor: scale-color(
+$warningButtonHoverBorderColor: color.scale(
     $warningButtonBg,
     $lightness: -10%
 ) !default;
-$warningButtonActiveBg: scale-color(
+$warningButtonActiveBg: color.scale(
     $warningButtonBg,
     $lightness: -20%
 ) !default;
 $warningButtonTextActiveColor: $warningButtonTextColor !default;
-$warningButtonActiveBorderColor: scale-color(
+$warningButtonActiveBorderColor: color.scale(
     $warningButtonBg,
     $lightness: -20%
 ) !default;
 $warningButtonFocusShadow: 0 0 0 1px
-    scale-color($warningButtonBg, $lightness: 30%) !default;
+    color.scale($warningButtonBg, $lightness: 30%) !default;
 
 $helpButtonBg: #ce93d8 !default;
 $helpButtonTextColor: #121212 !default;
 $helpButtonBorder: 1px solid $helpButtonBg !default;
-$helpButtonHoverBg: scale-color($helpButtonBg, $lightness: -10%) !default;
+$helpButtonHoverBg: color.scale($helpButtonBg, $lightness: -10%) !default;
 $helpButtonTextHoverColor: $helpButtonTextColor !default;
-$helpButtonHoverBorderColor: scale-color(
+$helpButtonHoverBorderColor: color.scale(
     $helpButtonBg,
     $lightness: -10%
 ) !default;
-$helpButtonActiveBg: scale-color($helpButtonBg, $lightness: -20%) !default;
+$helpButtonActiveBg: color.scale($helpButtonBg, $lightness: -20%) !default;
 $helpButtonTextActiveColor: $helpButtonTextColor !default;
-$helpButtonActiveBorderColor: scale-color(
+$helpButtonActiveBorderColor: color.scale(
     $helpButtonBg,
     $lightness: -20%
 ) !default;
-$helpButtonFocusShadow: 0 0 0 1px scale-color($helpButtonBg, $lightness: 30%) !default;
+$helpButtonFocusShadow: 0 0 0 1px color.scale($helpButtonBg, $lightness: 30%) !default;
 
 $dangerButtonBg: #f48fb1 !default;
 $dangerButtonTextColor: #121212 !default;
 $dangerButtonBorder: 1px solid $dangerButtonBg !default;
-$dangerButtonHoverBg: scale-color($dangerButtonBg, $lightness: -10%) !default;
+$dangerButtonHoverBg: color.scale($dangerButtonBg, $lightness: -10%) !default;
 $dangerButtonTextHoverColor: $dangerButtonTextColor !default;
-$dangerButtonHoverBorderColor: scale-color(
+$dangerButtonHoverBorderColor: color.scale(
     $dangerButtonBg,
     $lightness: -10%
 ) !default;
-$dangerButtonActiveBg: scale-color($dangerButtonBg, $lightness: -20%) !default;
+$dangerButtonActiveBg: color.scale($dangerButtonBg, $lightness: -20%) !default;
 $dangerButtonTextActiveColor: $dangerButtonTextColor !default;
-$dangerButtonActiveBorderColor: scale-color(
+$dangerButtonActiveBorderColor: color.scale(
     $dangerButtonBg,
     $lightness: -20%
 ) !default;
 $dangerButtonFocusShadow: 0 0 0 1px
-    scale-color($dangerButtonBg, $lightness: 30%) !default;
+    color.scale($dangerButtonBg, $lightness: 30%) !default;
 
 $linkButtonColor: var(--primary-color) !default;
 $linkButtonHoverColor: var(--primary-color) !default;
@@ -603,33 +605,33 @@ $toastDetailMargin: var(--inline-spacing) 0 0 0 !default;
 
 //severities
 $infoMessageBg: #b3e5fc !default;
-$infoMessageBorder: solid scale-color($infoMessageBg, $lightness: -50%) !default;
-$infoMessageTextColor: scale-color($infoMessageBg, $lightness: -75%) !default;
-$infoMessageIconColor: scale-color($infoMessageBg, $lightness: -75%) !default;
+$infoMessageBorder: solid color.scale($infoMessageBg, $lightness: -50%) !default;
+$infoMessageTextColor: color.scale($infoMessageBg, $lightness: -75%) !default;
+$infoMessageIconColor: color.scale($infoMessageBg, $lightness: -75%) !default;
 $successMessageBg: #c8e6c9 !default;
-$successMessageBorder: solid scale-color($successMessageBg, $lightness: -50%) !default;
-$successMessageTextColor: scale-color(
+$successMessageBorder: solid color.scale($successMessageBg, $lightness: -50%) !default;
+$successMessageTextColor: color.scale(
     $successMessageBg,
     $lightness: -75%
 ) !default;
-$successMessageIconColor: scale-color(
+$successMessageIconColor: color.scale(
     $successMessageBg,
     $lightness: -75%
 ) !default;
 $warningMessageBg: #ffecb3 !default;
-$warningMessageBorder: solid scale-color($warningMessageBg, $lightness: -50%) !default;
-$warningMessageTextColor: scale-color(
+$warningMessageBorder: solid color.scale($warningMessageBg, $lightness: -50%) !default;
+$warningMessageTextColor: color.scale(
     $warningMessageBg,
     $lightness: -75%
 ) !default;
-$warningMessageIconColor: scale-color(
+$warningMessageIconColor: color.scale(
     $warningMessageBg,
     $lightness: -75%
 ) !default;
 $errorMessageBg: #ffcdd2 !default;
-$errorMessageBorder: solid scale-color($errorMessageBg, $lightness: -50%) !default;
-$errorMessageTextColor: scale-color($errorMessageBg, $lightness: -75%) !default;
-$errorMessageIconColor: scale-color($errorMessageBg, $lightness: -75%) !default;
+$errorMessageBorder: solid color.scale($errorMessageBg, $lightness: -50%) !default;
+$errorMessageTextColor: color.scale($errorMessageBg, $lightness: -75%) !default;
+$errorMessageIconColor: color.scale($errorMessageBg, $lightness: -75%) !default;
 
 //overlays
 $overlayContentBorder: 1px solid var(--surface-600) !default;
@@ -818,7 +820,7 @@ $chipFocusTextColor: var(--text-color);
 
 //scrollTop
 $scrollTopBg: $highlightBg !default;
-$scrollTopHoverBg: scale-color($highlightBg, $alpha: 24%) !default;
+$scrollTopHoverBg: color.scale($highlightBg, $alpha: 24%) !default;
 $scrollTopWidth: 3rem !default;
 $scrollTopHeight: 3rem !default;
 $scrollTopBorderRadius: 50% !default;

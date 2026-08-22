@@ -1,15 +1,19 @@
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
+import { Textarea } from 'primeng/textarea';
 
 import { Task } from '@model/Task';
-import { SaveStoreService } from '@service/store/save-store.service';
+import { CustomContentService } from '@service/custom-content/custom-content.service';
 
 @Component({
-    selector: 'xiv-edit-cell',
+    selector: 'com-edit-cell',
     templateUrl: './edit-cell.component.html',
-    styleUrls: ['./edit-cell.component.scss']
+    styleUrls: ['./edit-cell.component.scss'],
+    imports: [
+        Textarea
+    ]
 })
 export class EditCellComponent {
-    @Input() task: Task;
+    @Input({ required: true }) task!: Task;
     @Input() key: string = '';
 
     shouldFocus: boolean = false;
@@ -27,7 +31,9 @@ export class EditCellComponent {
         }
     }
 
-    constructor(private svcStore: SaveStoreService) {
+    constructor(
+        private svcCustomContent: CustomContentService,
+    ) {
     }
 
     onCellClick(): void {
@@ -35,7 +41,7 @@ export class EditCellComponent {
     }
 
     onTextAreaClick(): void {
-        if(this.isFocused) this.task.selected = false;
+        if(this.isFocused) this.task.selected.set(false);
         this.isFocused = true;
     }
 
@@ -46,7 +52,7 @@ export class EditCellComponent {
     onTextAreaKeyup($event: KeyboardEvent): void {
         if($event.key === 'Enter') {
             this.onTextAreaChange($event);
-            this.task.selected = false;
+            this.task.selected.set(false);
             return;
         }
 
@@ -57,15 +63,9 @@ export class EditCellComponent {
 
     onTextAreaChange($event: Event): void {
         const value = ($event.target as HTMLTextAreaElement).value?.trim();
-
-        //TODO: any need to sanitize?
         if(!value) return;
 
-        const customTask = this.svcStore.get(`custom.x${this.task.id}`);
-        customTask[this.key] = value;
-        this.task[this.key] = value;
-
-        this.svcStore.set(`custom.x${this.task.id}`, customTask);
+        this.svcCustomContent.editTaskMeta(this.task, this.key, value);
     }
 
 }

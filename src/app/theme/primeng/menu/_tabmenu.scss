@@ -1,74 +1,79 @@
-.p-tabmenu {
-    .p-tabmenu-nav {
-        background: $tabviewNavBg;
-        border: $tabviewNavBorder;
-        border-width: $tabviewNavBorderWidth;
+@use "../_mixins";
+@use "../../_variables";
+
+@layer primeng {
+    .p-tabmenu {
+        .p-tabmenu-nav {
+            background: variables.$tabviewNavBg;
+            border: variables.$tabviewNavBorder;
+            border-width: variables.$tabviewNavBorderWidth;
 
 
-        .p-menuitem-badge {
-            @include menuitem-badge();
+            .p-menuitem-badge {
+                @include mixins.menuitem-badge();
+            }
+
+            .p-tabmenuitem {
+                margin-right: variables.$tabviewHeaderSpacing;
+
+                .p-menuitem-link {
+                    border: variables.$tabviewHeaderBorder;
+                    border-width: variables.$tabviewHeaderBorderWidth;
+                    border-color: variables.$tabviewHeaderBorderColor;
+                    background: variables.$tabviewHeaderBg;
+                    color: variables.$tabviewHeaderTextColor;
+                    padding: variables.$tabviewHeaderPadding;
+                    font-weight: variables.$tabviewHeaderFontWeight;
+                    border-top-right-radius: var(--border-radius);
+                    border-top-left-radius: var(--border-radius);
+                    transition: variables.$listItemTransition;
+                    margin: variables.$tabviewHeaderMargin;
+
+                    .p-menuitem-icon {
+                        margin-right: var(--inline-spacing);
+                    }
+
+                    &:not(.p-disabled):focus-visible {
+                        @include mixins.focused-inset();
+                    }
+                }
+
+                &:not(.p-highlight):not(.p-disabled):hover {
+                    .p-menuitem-link {
+                        background: variables.$tabviewHeaderHoverBg;
+                        border-color: variables.$tabviewHeaderHoverBorderColor;
+                        color: variables.$tabviewHeaderTextHoverColor;
+                    }
+                }
+
+                &.p-highlight {
+                    .p-menuitem-link {
+                        background: variables.$tabviewHeaderActiveBg;
+                        border-color: variables.$tabviewHeaderActiveBorderColor;
+                        color: variables.$tabviewHeaderTextActiveColor;
+                    }
+                }
+            }
         }
 
-        .p-tabmenuitem {
-            margin-right: $tabviewHeaderSpacing;
-
-            .p-menuitem-link {
-                border: $tabviewHeaderBorder;
-                border-width: $tabviewHeaderBorderWidth;
-                border-color: $tabviewHeaderBorderColor;
-                background: $tabviewHeaderBg;
-                color: $tabviewHeaderTextColor;
-                padding: $tabviewHeaderPadding;
-                font-weight: $tabviewHeaderFontWeight;
-                border-top-right-radius: var(--border-radius);
-                border-top-left-radius: var(--border-radius);
-                transition: $listItemTransition;
-                margin: $tabviewHeaderMargin;
-
-                .p-menuitem-icon {
-                    margin-right: var(--inline-spacing);
-                }
-
-                &:not(.p-disabled):focus-visible {
-                    @include focused-inset();
-                }
-            }
-
-            &:not(.p-highlight):not(.p-disabled):hover {
-                .p-menuitem-link {
-                    background: $tabviewHeaderHoverBg;
-                    border-color: $tabviewHeaderHoverBorderColor;
-                    color: $tabviewHeaderTextHoverColor;
-                }
-            }
-
-            &.p-highlight {
-                .p-menuitem-link {
-                    background: $tabviewHeaderActiveBg;
-                    border-color: $tabviewHeaderActiveBorderColor;
-                    color: $tabviewHeaderTextActiveColor;
-                }
-            }
+        .p-tabmenu-left-icon {
+            margin-right: var(--inline-spacing);
         }
-    }
 
-    .p-tabmenu-left-icon {
-        margin-right: var(--inline-spacing);
-    }
+        .p-tabmenu-right-icon {
+            margin-left: var(--inline-spacing);
+        }
 
-    .p-tabmenu-right-icon {
-        margin-left: var(--inline-spacing);
-    }
+        .p-tabmenu-nav-btn.p-link {
+            background: variables.$tabviewHeaderActiveBg;
+            color: variables.$tabviewHeaderTextActiveColor;
+            width: variables.$buttonIconOnlyWidth;
+            box-shadow: variables.$raisedButtonShadow;
+            border-radius: 0;
 
-    .p-tabmenu-nav-btn.p-link {
-        background: $tabviewHeaderActiveBg;
-        color: $tabviewHeaderTextActiveColor;
-        width: $buttonIconOnlyWidth;
-        box-shadow: $raisedButtonShadow;
-        border-radius: 0;
-
-        &:focus {
-            @include focused-inset();
+            &:focus {
+                @include mixins.focused-inset();
+            }
         }
     }
 }

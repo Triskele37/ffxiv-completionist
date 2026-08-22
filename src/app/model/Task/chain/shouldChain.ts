@@ -8,7 +8,7 @@ import { Task } from '../';
  * */
 export function shouldChain(
     task: Task,
-    firstInChain: boolean,
+    firstInChain: boolean | undefined,
     toFlag: CompletionFlag
 ): boolean {
     if(firstInChain) return true;

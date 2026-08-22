@@ -1,0 +1,58 @@
+<span
+    #cell
+    class="cell-value"
+    [ngClass]="{ 'text-only': isTextOnly, link: !isTextOnly }"
+    [pTooltip]="tooltip()"
+    tooltipPosition="bottom"
+>
+    @if(value.type === 'Value') {
+        <!-- Content links to the content of this row -->
+        @if(column.key === 'contentLink' && column.taskLink) {
+            <!-- Forced Task Link -->
+            <com-content-link
+                [content]="task"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+        @else if(column.taskLink) {
+            <!-- Forced Task Link -->
+            <com-content-link
+                [content]="value"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+        @else if(column.groupLink) {
+            <!-- Group Link -->
+            <com-content-link
+                [content]="task._parent"
+                [trimGroup]="column.trimGroup ? svcTable.group() : undefined"
+            ></com-content-link>
+        }
+        @else {
+            <!-- Raw Text -->
+            <span>{{value.value}}</span>
+        }
+    }
+    @else {
+        <!-- Content links to other content -->
+        @if(value.pre) {
+            <span>{{value.pre}}</span>
+        }
+
+        @if(value.type === 'Group') {
+            <com-content-link
+                [content]="value.value"
+            ></com-content-link>
+        }
+        @else if(value.type === 'Task') {
+            <com-content-link
+                [content]="value.value"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+
+        @if(value.post) {
+            <span>{{value.post}}</span>
+        }
+    }
+</span>

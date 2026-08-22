@@ -4,75 +4,80 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x70217": {
-            "level": 80,
             "name_en": "Must Be Dreaming(way)",
-            "name_fr": "Rêves partis!",
+            "name_fr": "Rêves partis !",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70055", "q.70000"],
             "cNext": ["q.70218"],
             "cSiblings": ["character.character.societal-relations.104"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "unlock": ["cl.35169"]
         },
         "x70218": {
-            "level": 80,
             "name_en": "The Incredible Machines",
-            "name_fr": "Rêves de machines!",
+            "name_fr": "Rêves de machines !",
             "reputation": "@REPUTATION.FRIENDLY",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70217"],
             "cNext": ["q.70219"],
             "cSiblings": ["character.character.societal-relations.105"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "unlock": ["cl.35170"]
         },
         "x70219": {
-            "level": 80,
             "name_en": "Too Few Cooks",
-            "name_fr": "Rêves de cuisine!",
+            "name_fr": "Rêves de cuisine !",
             "reputation": "@REPUTATION.TRUSTED",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70218"],
             "cNext": ["q.70220"],
             "cSiblings": ["character.character.societal-relations.106"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "unlock": ["cl.35171"]
         },
         "x70220": {
-            "level": 80,
             "name_en": "Teamwork Makes the Dream Work",
-            "name_fr": "Rêves artistiques!",
+            "name_fr": "Rêves artistiques !",
             "reputation": "@REPUTATION.RESPECTED",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70219"],
             "cNext": ["q.70221"],
             "cSiblings": ["character.character.societal-relations.107"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "unlock": ["cl.35172"]
         },
         "x70221": {
-            "level": 80,
             "name_en": "A Million Malms Away",
-            "name_fr": "Rêves radiophoniques!",
+            "name_fr": "Rêves radiophoniques !",
             "reputation": "@REPUTATION.HONORED",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70220"],
             "cNext": ["q.70222"],
             "cSiblings": ["character.character.societal-relations.108"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "unlock": ["cl.35173"]
         },
         "x70222": {
-            "level": 80,
             "name_en": "Dreams Come True",
-            "name_fr": "Rêves sans fin!",
+            "name_fr": "Rêves sans fin !",
             "reputation": "@REPUTATION.SWORN",
+            "level": 80,
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
             "cPrev": ["q.70221"],
             "cSiblings": ["character.character.societal-relations.109", "e.252"],
             "patch": "6.35",
-            "unlock": "e.252"
+            "unlock": ["e.252", "tto.111"]
         }
     }
 }

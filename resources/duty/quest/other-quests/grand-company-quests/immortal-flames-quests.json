@@ -4,55 +4,56 @@
     "groupName_fr": "Quêtes des Immortels",
     "tasks": {
         "x66642": {
-            "level": 30,
             "name_en": "A Pup No Longer (Immortal Flames)",
             "name_fr": "L'Antre des loups (Immortels)",
+            "level": 30,
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
+            "patch": "2.1",
             "cNext": ["q.67063", "q.67064", "q.67065", "q.68543"],
-            "cExclude": ["q.66640", "q.66641"],
-            "patch": "4.31"
+            "cExclude": ["q.66640", "q.66641"]
         },
         "x67065": {
-            "level": 30,
             "name_en": "Like Civilized Men and Women (Immortal Flames)",
             "name_fr": "Le Front (Immortels)",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Mimio Mio",
             "npc_fr": "Mimio Mio",
             "unlock_en": "Duty: Frontline",
+            "unlock_fr": "Duty: Frontline",
+            "patch": "2.3",
             "cPrev": ["q.66641", "q.66642", "q.66640"],
-            "cExclude": ["q.67063", "q.67064"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cExclude": ["q.67063", "q.67064"]
         },
         "x66666": {
-            "level": 44,
             "name_en": "Shadows Uncast (Immortal Flames)",
             "name_fr": "Opération Dzemael (Immortels)",
+            "level": 44,
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
-            "cNext": ["q.66669"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66669"]
         },
         "x66669": {
-            "level": 47,
             "name_en": "Gilding the Bilious (Immortal Flames)",
             "name_fr": "Opération Val d'Aurum (Immortels)",
+            "level": 47,
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
-            "cPrev": ["q.66666"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66666"]
         },
         "x67101": {
-            "level": 50,
             "name_en": "Let the Hunt Begin (Immortal Flames)",
             "name_fr": "Faire bonne chasse (Immortels)",
+            "level": 50,
             "npc_en": "Mimio Mio",
             "npc_fr": "Mimio Mio",
-            "unlock_en": "The Hunt",
+            "unlock": "duty.the-hunt",
+            "patch": "2.3",
             "cNext": ["q.67655"],
-            "cExclude": ["q.67099", "q.67100"],
-            "patch": "4.31"
+            "cExclude": ["q.67099", "q.67100"]
         }
     }
 }

@@ -3,25 +3,25 @@
     "groupName_en": "Dravania",
     "groupName_fr": "Dravania",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x334": {
             "name_en": "Aurum Regis Ore",
             "name_fr": "Minerai d'aurum regis",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(11, 38)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.0"
         },
-        "x1": {
-            "level": "60★",
+        "x402": {
             "name_en": "Lumythrite Ore",
             "name_fr": "Minerai de lumithrite",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(11, 38)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "3.15",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.2"
         }
     }
 }

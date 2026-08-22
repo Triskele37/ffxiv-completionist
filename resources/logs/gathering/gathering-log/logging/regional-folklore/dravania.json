@@ -3,44 +3,44 @@
     "groupName_en": "Dravania",
     "groupName_fr": "Dravania",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x401": {
             "name_en": "Old-growth Camphorwood Log",
             "name_fr": "Vieux camphrier",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(11, 10)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "3.15",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.2"
         },
-        "x1": {
-            "level": "60★",
+        "x407": {
             "name_en": "Crystallized Sap",
             "name_fr": "Sève cristallisée",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(11, 10)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "3.3",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.3"
         },
-        "x2": {
-            "level": "60★★★",
+        "x418": {
             "name_en": "Brown Mushroom",
             "name_fr": "Champignon brun",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★★★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(12, 37)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "3.4",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.4"
         },
-        "x3": {
-            "level": "60★★★",
+        "x416": {
             "name_en": "Teak Log",
             "name_fr": "Rondin de teck",
-            "zone": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+            "level": "60 ★★★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
             "coordinates": "(6, 28)",
-            "nodeTimer": "00:00 / 12:00",
             "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.68",
+            "nodeTimer": "00:00 / 12:00",
             "patch": "2.0"
         }
     }

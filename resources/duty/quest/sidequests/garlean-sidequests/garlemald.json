@@ -4,319 +4,319 @@
     "groupName_fr": "Garlemald",
     "tasks": {
         "x69755": {
-            "level": 80,
             "name_en": "Your Inventory Is Not Full",
             "name_fr": "Il y a toujours de la place",
+            "level": 80,
             "npc_en": "Contingent Quartermaster",
             "npc_fr": "Officier de la Délégation",
-            "cPrev": ["q.69919"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69919"]
         },
         "x69759": {
-            "level": 80,
             "name_en": "Bear Baiting",
             "name_fr": "La peau de l'ours",
+            "level": 80,
             "npc_en": "Iliette",
             "npc_fr": "Iliette",
-            "cPrev": ["q.69919"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69919"]
         },
         "x69757": {
-            "level": 80,
             "name_en": "Heroes All",
             "name_fr": "Soigner ceux qui soignent",
+            "level": 80,
             "npc_en": "June",
             "npc_fr": "June",
-            "cPrev": ["q.69923"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69923"]
         },
         "x69760": {
-            "level": 80,
             "name_en": "Under Lock and Code",
             "name_fr": "Énigme martiale",
+            "level": 80,
             "npc_en": "Ambaghai",
             "npc_fr": "Ambaghai",
-            "cPrev": ["q.69923"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69923"]
         },
         "x69756": {
-            "level": 80,
             "name_en": "Help Me to Help You",
-            "name_fr": "Besoin d'aide?",
+            "name_fr": "Besoin d'aide ?",
+            "level": 80,
             "npc_en": "Menuki",
             "npc_fr": "Menuki",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69758": {
-            "level": 80,
             "name_en": "Scouting for Scouts",
             "name_fr": "Trouver l'espionne",
+            "level": 80,
             "npc_en": "Talon",
             "npc_fr": "Talon",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69752": {
-            "level": 80,
             "name_en": "Best Delivered Cold",
             "name_fr": "De l'aide",
-            "unlock": "travel.aether-currents.ew.garlemald.12",
+            "level": 80,
             "npc_en": "Commissary Officer",
             "npc_fr": "Factionnaire Aux Cheveux Blonds",
+            "unlock": "travel.aether-currents.ew.garlemald.12",
+            "patch": "6.0",
             "cPrev": ["q.69929"],
             "cNext": ["q.69753"],
-            "cSiblings": ["travel.aether-currents.ew.garlemald.12"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.garlemald.12"]
         },
         "x69753": {
-            "level": 80,
             "name_en": "Armored Up",
             "name_fr": "Encore de l'aide",
+            "level": 80,
             "npc_en": "Commissary Officer",
             "npc_fr": "Factionnaire Aux Cheveux Blonds",
+            "patch": "6.0",
             "cPrev": ["q.69929", "q.69752"],
-            "cNext": ["q.69754"],
-            "patch": "6.0"
+            "cNext": ["q.69754"]
         },
         "x69754": {
-            "level": 80,
             "name_en": "A Dream of Home",
             "name_fr": "Toujours de l'aide",
+            "level": 80,
             "npc_en": "Commissary Officer",
             "npc_fr": "Factionnaire Aux Cheveux Blonds",
-            "cPrev": ["q.69929", "q.69753"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929", "q.69753"]
         },
         "x70034": {
-            "level": 80,
             "name_en": "In Pursuit of Power",
             "name_fr": "Un ingénieur déterminé",
-            "unlock": "travel.aether-currents.ew.garlemald.10",
+            "level": 80,
             "npc_en": "Rimelnaud",
             "npc_fr": "Rimelnaud",
+            "unlock": "travel.aether-currents.ew.garlemald.10",
+            "patch": "6.0",
             "cPrev": ["q.69929"],
             "cNext": ["q.70035"],
-            "cSiblings": ["travel.aether-currents.ew.garlemald.10"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.garlemald.10"]
         },
         "x70035": {
-            "level": 80,
             "name_en": "Camp Broken Engines",
             "name_fr": "Faire renaître la région",
+            "level": 80,
             "npc_en": "Rimelnaud",
             "npc_fr": "Rimelnaud",
+            "patch": "6.0",
             "cPrev": ["q.70034"],
-            "cNext": ["q.70036"],
-            "patch": "6.0"
+            "cNext": ["q.70036"]
         },
         "x70036": {
-            "level": 80,
             "name_en": "Operation: Reactivation",
             "name_fr": "La plateforme",
+            "level": 80,
             "npc_en": "Rimelnaud",
             "npc_fr": "Rimelnaud",
+            "patch": "6.0",
             "cPrev": ["q.70035"],
-            "cNext": ["q.70037"],
-            "patch": "6.0"
+            "cNext": ["q.70037"]
         },
         "x70037": {
-            "level": 80,
             "name_en": "Energy for All",
             "name_fr": "Un espoir de renouveau",
+            "level": 80,
             "npc_en": "Rimelnaud",
             "npc_fr": "Rimelnaud",
+            "patch": "6.0",
             "cPrev": ["q.70036"],
-            "cNext": ["q.70042"],
-            "patch": "6.0"
+            "cNext": ["q.70042"]
         },
         "x69761": {
-            "level": 80,
             "name_en": "And Then a Hero Comes Along",
             "name_fr": "L'amour d'un père",
+            "level": 80,
             "npc_en": "Amanieu",
             "npc_fr": "Amanieu",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69762": {
-            "level": 80,
             "name_en": "With Folded Hands",
             "name_fr": "La toile du ciel",
+            "level": 80,
             "npc_en": "Retired Magitek Engineer",
             "npc_fr": "Ingénieur Magitek À La Retraite",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69763": {
-            "level": 80,
             "name_en": "A Light That Never Goes Out",
             "name_fr": "Gare aux ténèbres",
+            "level": 80,
             "npc_en": "Spurius",
             "npc_fr": "Spurius",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69764": {
-            "level": 80,
             "name_en": "P.S. I Love You",
-            "name_fr": "Pour qui écris-tu?",
+            "name_fr": "Pour qui écris-tu ?",
+            "level": 80,
             "npc_en": "Maelstrom Delegate",
             "npc_fr": "Déléguée Du Maelstrom",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69765": {
-            "level": 80,
             "name_en": "Brick by Brick, Tank by Tank",
             "name_fr": "Rebâtir, pierre après pierre",
+            "level": 80,
             "npc_en": "Dossennus",
             "npc_fr": "Dossennus",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69766": {
-            "level": 80,
             "name_en": "Rest, Thy Warfare O'er",
-            "name_fr": "Il faut sauver un camarade!",
+            "name_fr": "Il faut sauver un camarade !",
+            "level": 80,
             "npc_en": "Mol Delegate",
             "npc_fr": "Soldate Mol",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69767": {
-            "level": 80,
             "name_en": "Some Like It Hot",
-            "name_fr": "Servir la soupe à l'ennemi!?",
+            "name_fr": "Servir la soupe à l'ennemi !?",
+            "level": 80,
             "npc_en": "Temple Knight",
             "npc_fr": "Templière Déléguée",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69768": {
-            "level": 80,
             "name_en": "Children Are Our Future",
-            "name_fr": "Tu peux toujours courir!",
-            "unlock": "travel.aether-currents.ew.garlemald.11",
+            "name_fr": "Tu peux toujours courir !",
+            "level": 80,
             "npc_en": "Azure-haired Woman",
             "npc_fr": "Femme Aux Cheveux Bleu Ciel",
+            "unlock": "travel.aether-currents.ew.garlemald.11",
+            "patch": "6.0",
             "cPrev": ["q.69929"],
-            "cSiblings": ["travel.aether-currents.ew.garlemald.11"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.garlemald.11"]
         },
         "x69769": {
-            "level": 80,
             "name_en": "Mama, She Is in Rubble Deep",
             "name_fr": "Impériales de mère en fille",
+            "level": 80,
             "npc_en": "Makago Nokago",
             "npc_fr": "Makago Nokago",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69770": {
-            "level": 80,
             "name_en": "Put Your Plasma Where Your Mouth Is",
             "name_fr": "Manipuler avec précaution",
+            "level": 80,
             "npc_en": "Immortal Flame Delegate",
             "npc_fr": "Délégué Des Immortels",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69771": {
-            "level": 80,
             "name_en": "The Hero Never Bombs",
             "name_fr": "Cherche héros pour mission explosive",
+            "level": 80,
             "npc_en": "Iliette",
             "npc_fr": "Iliette",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69772": {
-            "level": 80,
             "name_en": "Beasts of the Imperial Wild",
             "name_fr": "Astuces de chasseur",
+            "level": 80,
             "npc_en": "Berthellemy",
             "npc_fr": "Berthellemy",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69773": {
-            "level": 80,
             "name_en": "Ordnance Cleanup Committee",
-            "name_fr": "Ramassez-les toutes!",
+            "name_fr": "Ramassez-les toutes !",
+            "level": 80,
             "npc_en": "Kochacha",
             "npc_fr": "Kochacha",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69774": {
-            "level": 80,
             "name_en": "A Place of Greater Safety",
             "name_fr": "Civils et soldats, main dans la main",
+            "level": 80,
             "npc_en": "Talon",
             "npc_fr": "Talon",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x69775": {
-            "level": 80,
             "name_en": "In the Skies above Garlemald",
             "name_fr": "La capitale vue du ciel",
+            "level": 80,
             "npc_en": "Contingent Scout",
             "npc_fr": "Éclaireur Délégué",
-            "cPrev": ["q.69929"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69929"]
         },
         "x70038": {
-            "level": 80,
             "name_en": "Stranded at the Station",
             "name_fr": "Le garçon qui attendait",
-            "unlock": "travel.aether-currents.ew.garlemald.13",
+            "level": 80,
             "npc_en": "Galla",
             "npc_fr": "Galla",
+            "unlock": "travel.aether-currents.ew.garlemald.13",
+            "patch": "6.0",
             "cPrev": ["q.69929"],
             "cNext": ["q.70039"],
-            "cSiblings": ["travel.aether-currents.ew.garlemald.13"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.garlemald.13"]
         },
         "x70039": {
-            "level": 80,
             "name_en": "Longing for Home",
             "name_fr": "Les ruines de mon enfance",
+            "level": 80,
             "npc_en": "Volusus",
             "npc_fr": "Volusus",
+            "patch": "6.0",
             "cPrev": ["q.70038"],
-            "cNext": ["q.70040"],
-            "patch": "6.0"
+            "cNext": ["q.70040"]
         },
         "x70040": {
-            "level": 80,
             "name_en": "Palatial Possibilities",
             "name_fr": "Elle travaillait à Palatium",
+            "level": 80,
             "npc_en": "Galla",
             "npc_fr": "Galla",
+            "patch": "6.0",
             "cPrev": ["q.70039"],
-            "cNext": ["q.70041"],
-            "patch": "6.0"
+            "cNext": ["q.70041"]
         },
         "x70041": {
-            "level": 80,
             "name_en": "Mum Is the Word",
-            "name_fr": "La fin des recherches?",
+            "name_fr": "La fin des recherches ?",
+            "level": 80,
             "npc_en": "Galla",
             "npc_fr": "Galla",
+            "patch": "6.0",
             "cPrev": ["q.70040"],
-            "cNext": ["q.70042"],
-            "patch": "6.0"
+            "cNext": ["q.70042"]
         },
         "x70042": {
-            "level": 80,
             "name_en": "Who Is Your Daddy",
             "name_fr": "Famille réunie, renaissance à venir",
+            "level": 80,
             "npc_en": "Vipsania",
             "npc_fr": "Vipsania",
-            "cPrev": ["q.70037", "q.70041"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.70037", "q.70041"]
         }
     }
 }

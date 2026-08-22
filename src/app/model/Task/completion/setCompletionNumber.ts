@@ -5,11 +5,11 @@ import { Task } from '../';
 import { getDefaultNumericCompletion } from './getDefaultNumericCompletion';
 
 /**
- * Update `task.completionFlag` as a numeric value
+ * Update `task.completionFlag$` as a numeric value
  * */
 export function setCompletionNumber(task: Task, value: string | number): void {
     if(value === Completion.X) {
-        task.completionFlag = value;
+        task.completionFlag$.set(value);
     }
     else {
         // Ensure the value stays within the defined bounds
@@ -24,7 +24,7 @@ export function setCompletionNumber(task: Task, value: string | number): void {
         newValue = parseFloat(newValue.toFixed(task._parent.numericDecimal));
 
         // Set the flag
-        task.completionFlag = newValue.toString();
+        task.completionFlag$.set(newValue.toString());
     }
 
     // Fire the group's update$ notification

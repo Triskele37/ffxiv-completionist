@@ -1,146 +1,150 @@
 @use 'sass:list';
+@use "../_mixins";
+@use "../../_variables";
 
-.p-autocomplete {
-    .p-autocomplete-loader {
-        right: nth($inputPadding, 2);
-    }
-
-    &.p-autocomplete-dd {
+@layer primeng {
+    .p-autocomplete {
         .p-autocomplete-loader {
-            right: nth($inputPadding, 2) + $buttonIconOnlyWidth;
+            right: list.nth(variables.$inputPadding, 2);
         }
-    }
 
-    &:not(.p-disabled):hover {
+        &.p-autocomplete-dd {
+            .p-autocomplete-loader {
+                right: list.nth(variables.$inputPadding, 2) + variables.$buttonIconOnlyWidth;
+            }
+        }
+
+        &:not(.p-disabled):hover {
+            .p-autocomplete-multiple-container {
+                border-color: variables.$inputHoverBorderColor;
+            }
+        }
+
+        &:not(.p-disabled).p-focus {
+            .p-autocomplete-multiple-container {
+                @include mixins.focused-input();
+            }
+        }
+
         .p-autocomplete-multiple-container {
-            border-color: $inputHoverBorderColor;
-        }
-    }
+            padding: list.slash(list.nth(variables.$inputPadding, 1), 2) list.nth(variables.$inputPadding, 2);
+            gap: var(--inline-spacing);
 
-    &:not(.p-disabled).p-focus {
-        .p-autocomplete-multiple-container {
-            @include focused-input();
-        }
-    }
+            .p-autocomplete-input-token {
+                padding: list.slash(list.nth(variables.$inputPadding, 1), 2) 0;
 
-    .p-autocomplete-multiple-container {
-        padding: list.slash(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-        gap: var(--inline-spacing);
-
-        .p-autocomplete-input-token {
-            padding: list.slash(nth($inputPadding, 1), 2) 0;
-
-            input {
-                font-family: var(--font-family);
-                font-feature-settings: var(--font-feature-settings, normal);
-                font-size: $inputTextFontSize;
-                color: var(--text-color);
-                padding: 0;
-                margin: 0;
-            }
-        }
-
-        .p-autocomplete-token {
-            padding: list.slash(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-            background: $chipBg;
-            color: $chipTextColor;
-            border-radius: $chipBorderRadius;
-
-            .p-autocomplete-token-icon {
-                margin-left: var(--inline-spacing);
+                input {
+                    font-family: var(--font-family);
+                    font-feature-settings: var(--font-feature-settings, normal);
+                    font-size: variables.$inputTextFontSize;
+                    color: var(--text-color);
+                    padding: 0;
+                    margin: 0;
+                }
             }
 
-            &.p-focus {
-                background: $chipFocusBg;
-                color: $chipFocusTextColor;
-            }
-        }
-    }
+            .p-autocomplete-token {
+                padding: list.slash(list.nth(variables.$inputPadding, 1), 2) list.nth(variables.$inputPadding, 2);
+                background: variables.$chipBg;
+                color: variables.$chipTextColor;
+                border-radius: variables.$chipBorderRadius;
 
-    &.p-invalid.p-component > .p-inputtext {
-        @include invalid-input();
-    }
-}
-
-.p-autocomplete-panel {
-    background: $inputOverlayBg;
-    color: $inputListTextColor;
-    border: $inputOverlayBorder;
-    border-radius: var(--border-radius);
-    box-shadow: $inputOverlayShadow;
-
-    .p-autocomplete-items {
-        padding: $inputListPadding;
-
-        .p-autocomplete-item {
-            margin: $inputListItemMargin;
-            padding: $inputListItemPadding;
-            border: $inputListItemBorder;
-            color: $inputListItemTextColor;
-            background: $inputListItemBg;
-            transition: $listItemTransition;
-            border-radius: $inputListItemBorderRadius;
-
-            &:first-child {
-                margin-top: 0;
-            }
-
-            &.p-highlight {
-                color: $highlightTextColor;
-                background: $highlightBg;
+                .p-autocomplete-token-icon {
+                    margin-left: var(--inline-spacing);
+                }
 
                 &.p-focus {
-                    background: $highlightFocusBg;
-                }
-            }
-
-            &:not(.p-highlight):not(.p-disabled) {
-                &.p-focus {
-                    color: $inputListItemTextFocusColor;
-                    background: $inputListItemFocusBg;
-                }
-
-                &:hover {
-                    color: $inputListItemTextHoverColor;
-                    background: $inputListItemHoverBg;
+                    background: variables.$chipFocusBg;
+                    color: variables.$chipFocusTextColor;
                 }
             }
         }
 
-        .p-autocomplete-item-group {
-            margin: $submenuHeaderMargin;
-            padding: $submenuHeaderPadding;
-            color: $submenuHeaderTextColor;
-            background: $submenuHeaderBg;
-            font-weight: $submenuHeaderFontWeight;
-        }
-
-        .p-autocomplete-empty-message {
-            padding: $inputListItemPadding;
-            color: $inputListItemTextColor;
-            background: $inputListItemBg;
+        &.p-invalid.p-component > .p-inputtext {
+            @include mixins.invalid-input();
         }
     }
-}
 
-p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
-    @include invalid-input();
-}
+    .p-autocomplete-panel {
+        background: variables.$inputOverlayBg;
+        color: variables.$inputListTextColor;
+        border: variables.$inputOverlayBorder;
+        border-radius: var(--border-radius);
+        box-shadow: variables.$inputOverlayShadow;
 
-p-autocomplete.p-autocomplete-clearable {
-    .p-inputtext {
-        padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+        .p-autocomplete-items {
+            padding: variables.$inputListPadding;
+
+            .p-autocomplete-item {
+                margin: variables.$inputListItemMargin;
+                padding: variables.$inputListItemPadding;
+                border: variables.$inputListItemBorder;
+                color: variables.$inputListItemTextColor;
+                background: variables.$inputListItemBg;
+                transition: variables.$listItemTransition;
+                border-radius: variables.$inputListItemBorderRadius;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                &.p-highlight {
+                    color: variables.$highlightTextColor;
+                    background: variables.$highlightBg;
+
+                    &.p-focus {
+                        background: variables.$highlightFocusBg;
+                    }
+                }
+
+                &:not(.p-highlight):not(.p-disabled) {
+                    &.p-focus {
+                        color: variables.$inputListItemTextFocusColor;
+                        background: variables.$inputListItemFocusBg;
+                    }
+
+                    &:hover {
+                        color: variables.$inputListItemTextHoverColor;
+                        background: variables.$inputListItemHoverBg;
+                    }
+                }
+            }
+
+            .p-autocomplete-item-group {
+                margin: variables.$submenuHeaderMargin;
+                padding: variables.$submenuHeaderPadding;
+                color: variables.$submenuHeaderTextColor;
+                background: variables.$submenuHeaderBg;
+                font-weight: variables.$submenuHeaderFontWeight;
+            }
+
+            .p-autocomplete-empty-message {
+                padding: variables.$inputListItemPadding;
+                color: variables.$inputListItemTextColor;
+                background: variables.$inputListItemBg;
+            }
+        }
     }
 
-    .p-autocomplete-clear-icon {
-        color: $inputIconColor;
-        right: nth($inputPadding, 2);
+    p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
+        @include mixins.invalid-input();
     }
-}
 
-p-autocomplete.p-autocomplete-clearable .p-autocomplete-dd {
-    .p-autocomplete-clear-icon {
-        color: $inputIconColor;
-        right: $buttonIconOnlyWidth + nth($inputPadding, 2);
+    p-autocomplete.p-autocomplete-clearable {
+        .p-inputtext {
+            padding-right: list.nth(variables.$inputPadding, 2) * 2 + variables.$primeIconFontSize;
+        }
+
+        .p-autocomplete-clear-icon {
+            color: variables.$inputIconColor;
+            right: list.nth(variables.$inputPadding, 2);
+        }
+    }
+
+    p-autocomplete.p-autocomplete-clearable .p-autocomplete-dd {
+        .p-autocomplete-clear-icon {
+            color: variables.$inputIconColor;
+            right: variables.$buttonIconOnlyWidth + list.nth(variables.$inputPadding, 2);
+        }
     }
 }

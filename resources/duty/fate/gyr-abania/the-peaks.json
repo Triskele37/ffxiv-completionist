@@ -1,265 +1,265 @@
 {
     "key": "the-peaks",
-    "groupName": "@PLACE.THE_PEAKS",
+    "groupName": "@PLACE.SB.THE_PEAKS",
     "tasks": {
         "x1173": {
-            "level": 60,
             "name_en": "A New Leaf",
             "name_fr": "Le Qiqirn végétarien",
+            "level": 60,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(11.9, 11.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "4.0"
         },
         "x1174": {
-            "level": 60,
             "name_en": "Salad Days",
             "name_fr": "Le top de la fraîcheur",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13.0, 15.0)",
-            "patch": "4.0",
-            "previousFate": "f.1173",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1173",
+            "patch": "4.0"
         },
         "x1175": {
-            "level": 60,
             "name_en": "A Bone to Pick",
             "name_fr": "Défi : le Qiqirn sournois au ventre vide",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13.0, 15.0)",
-            "patch": "4.0",
-            "previousFate": "f.1174",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1174",
+            "patch": "4.0"
         },
         "x1176": {
-            "level": 60,
             "name_en": "And the Bandits Played On",
             "name_fr": "Qu'il est long, le chemin du retour",
+            "level": 60,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(15.3, 7.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "4.0"
         },
         "x1177": {
-            "level": 60,
             "name_en": "Of Mice and Men",
             "name_fr": "Repas à la ferme",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19.7, 13.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1178": {
-            "level": 60,
             "name_en": "Churlish Chapuli",
             "name_fr": "Défi : le cauchemar des paysans",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(7.3, 13.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1179": {
-            "level": 60,
             "name_en": "Down with the Sickness",
             "name_fr": "Pic de pollution",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21.4, 6.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1180": {
-            "level": 60,
             "name_en": "Child's Plague",
             "name_fr": "Tenir tête au fléau",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17.8, 11.4)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1182": {
-            "level": 60,
             "name_en": "Winging It",
             "name_fr": "Défi : Etain, la reine des fluturinis",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13.8, 7.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1184": {
-            "level": 60,
             "name_en": "Beat Boxes",
             "name_fr": "Rats dégriffés",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18.8, 15.4)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1187": {
-            "level": 60,
             "name_en": "Days of Fluturini Past",
             "name_fr": "Éclosion lépidoptère",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(11.1, 6.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1197": {
-            "level": 60,
             "name_en": "Venting",
             "name_fr": "Défi : autant en emporte le Ventus",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21.5, 15.0)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1199": {
-            "level": 60,
             "name_en": "Attack of the Groans",
             "name_fr": "Tourbillon de poussière",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10.5, 14.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1200": {
-            "level": 60,
             "name_en": "Moth to a Flame",
             "name_fr": "Défi : le pyromane des Pics",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15.7, 10.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1201": {
-            "level": 60,
             "name_en": "Resist, Die, Repeat",
             "name_fr": "Abnégation héroïque",
+            "level": 60,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(9.5, 9.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "4.0"
         },
         "x1203": {
-            "level": 60,
             "name_en": "Das Bhoot",
             "name_fr": "Le don du repos éternel",
+            "level": 60,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21.6, 9.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1181": {
-            "level": 61,
             "name_en": "You Don't Know Jack",
             "name_fr": "Défi : le bûcheron silencieux",
+            "level": 61,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27.2, 15.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1185": {
-            "level": 61,
             "name_en": "Barbershoppe",
             "name_fr": "Défi : le Barbier diabolique",
+            "level": 61,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23.3, 9.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1188": {
-            "level": 61,
             "name_en": "Diceman Cometh",
             "name_fr": "Défi : quitte ou double",
+            "level": 61,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34.7, 8.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1189": {
-            "level": 61,
             "name_en": "Stuck in the Muud",
             "name_fr": "Un appétit d'ogre",
+            "level": 61,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24.8, 13.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1186": {
-            "level": 68,
             "name_en": "Fletching Returns",
             "name_fr": "Empennage de qualité",
+            "level": 68,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(25.7, 28.0)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "4.0"
         },
         "x1190": {
-            "level": 68,
             "name_en": "Eat Big or Go Home",
             "name_fr": "La hantise des Hyurgoths",
+            "level": 68,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16.6, 28.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1191": {
-            "level": 68,
             "name_en": "Love Me, Tindalos",
             "name_fr": "Défi : l'immonde chien féroce",
+            "level": 68,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13.0, 30.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1193": {
-            "level": 68,
             "name_en": "Home on the Range",
             "name_fr": "L'appel de l'aventure",
+            "level": 68,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13.6, 36.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1194": {
-            "level": 68,
             "name_en": "Rattle and Humbaba",
             "name_fr": "Défi : l'affreux Humbaba",
+            "level": 68,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15.5, 30.5)",
-            "patch": "4.0",
-            "previousFate": "f.1205",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1205",
+            "patch": "4.0"
         },
         "x1195": {
-            "level": 68,
             "name_en": "Forget-me-not",
             "name_fr": "Prière exaucée",
+            "level": 68,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(24.4, 34.5)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "4.0"
         },
         "x1196": {
-            "level": 68,
             "name_en": "The Day of the Griffins",
             "name_fr": "Oiseau de proie",
+            "level": 68,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14.8, 25.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "4.0"
         },
         "x1198": {
-            "level": 68,
             "name_en": "Breakneck",
             "name_fr": "Défi : casse-cou s'abstenir",
+            "level": 68,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26.6, 25.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1202": {
-            "level": 68,
             "name_en": "Slaughterwife-five",
             "name_fr": "Défi : le veuf vengeur",
+            "level": 68,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23.1, 28.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1204": {
-            "level": 68,
             "name_en": "5-year Energy",
             "name_fr": "Défi : métamorphose en suspens",
+            "level": 68,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(28.4, 31.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "4.0"
         },
         "x1205": {
-            "level": 68,
             "name_en": "Mouth for Water",
             "name_fr": "Guerrière de la tribu des J",
+            "level": 68,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(18.4, 34.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "4.0"
         },
         "x1207": {
-            "level": 68,
             "name_en": "The Magitek Is Back",
             "name_fr": "Défi : alarme fatale",
+            "level": 68,
+            "type": "@FATE.TYPE.CHASE",
             "location": "(14.3, 25.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.CHASE"
+            "patch": "4.0"
         }
     }
 }

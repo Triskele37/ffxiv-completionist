@@ -1,133 +1,74 @@
 <span
+    data-active-help="APP.ACTIVE_HELP.QUICK_MARK_OVERLAY"
     class="overlay-container"
     (mouseenter)="onMouseEnter()"
     (mouseleave)="onMouseLeave()"
 >
-    <div
-        *ngIf="isModalVisible"
-        class="xiv-modal"
+    @if (isModalVisible()) {
+        <div class="com-modal">
+            {{'APP.QUICK_MARK_OVERLAY.PROCESSING' | translate}}...
+        </div>
+    }
+
+    <button
+        pButton
+        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
+        (click)="onClick()"
     >
-        {{'OVERLAY.QUICK_MARK.PROCESSING' | translate}}...
-    </div>
+        <span class="mi mi-rule"></span>
+    </button>
 
-    <p-button
-        [styleClass]="isLocked ? '' : 'p-button-outlined'"
-        icon="mi mi-rule"
-        (onClick)="onClick()"
-    ></p-button>
+    @if(isOverlayVisible() || isModalVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button pButton [disabled]="true">
+                    {{'APP.QUICK_MARK_OVERLAY.TITLE' | translate}}
+                </button>
 
-    <div *ngIf="isVisible || isModalVisible" class="overlay-panel">
-        <span class="content">
-            <p-button
-                [label]="'OVERLAY.QUICK_MARK.TITLE' | translate"
-                [disabled]="true"
-            ></p-button>
+                <button pButton (click)="onChangeTaskCompletion(N, Y)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(N, Y)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-incomplete',
-                        to: 'i-complete',
-                        text: 'N-Y'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(N, X)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="X"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(N, X)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-incomplete',
-                        to: 'i-exclude',
-                        text: 'N-X'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(Y, N)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="N"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(Y, N)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-complete',
-                        to: 'i-incomplete',
-                        text: 'Y-N'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(Y, X)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="X"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(Y, X)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-complete',
-                        to: 'i-exclude',
-                        text: 'Y-X'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(X, N)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="N"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(X, N)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-exclude',
-                        to: 'i-incomplete',
-                        text: 'X-N'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(X, Y)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(X, Y)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-exclude',
-                        to: 'i-complete',
-                        text: 'X-Y'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(null, Y)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(null, Y)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-selected',
-                        to: 'i-complete',
-                        text: 'S-Y'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(null, N)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="N"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(null, N)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-selected',
-                        to: 'i-incomplete',
-                        text: 'S-N'
-                    }"
-                ></ng-container>
-            </p-button>
+                <button pButton (click)="onChangeTaskCompletion(null, X)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="X"></com-quick-mark-from-to-label>
+                </button>
 
-            <p-button (click)="onChangeTaskCompletion(null, X)">
-                <ng-container
-                    *ngTemplateOutlet="fromToIcons; context: {
-                        from: 'i-selected',
-                        to: 'i-exclude',
-                        text: 'S-X'
-                    }"
-                ></ng-container>
-            </p-button>
-
-            <p-button
-                [disabled]="!history.length"
-                [label]="'OVERLAY.QUICK_MARK.UNDO' | translate"
-                (onClick)="onUndoLastChange()"
-            ></p-button>
-        </span>
-    </div>
+                <button
+                    pButton
+                    [disabled]="!historyList().length"
+                    (click)="onUndoLastChange()"
+                >
+                    {{'APP.QUICK_MARK_OVERLAY.UNDO' | translate}}
+                </button>
+            </span>
+        </div>
+    }
 </span>
-
-<ng-template
-    #fromToIcons
-    let-from="from"
-    let-to="to"
-    let-text="text"
->
-    (<i class="{{from}}"></i> <i class="i-arrow"></i> <i class="{{to}}"></i>)
-    {{'OVERLAY.QUICK_MARK.' + text | translate}}
-</ng-template>

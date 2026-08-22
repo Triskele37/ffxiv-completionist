@@ -11,6 +11,7 @@ import { migratePorters } from './porters';
 import { migrateAetherytes } from './aetherytes';
 import { migrateGatheringLogs } from './gathering-log';
 import { migrateAetherCurrents } from './aether-current';
+import { JSONResource } from '@model/JSONResource';
 
 export function migrateTo_1_0_0(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.0');
@@ -70,7 +71,7 @@ export function migrateTo_1_0_0(svcConfigStore: ConfigStoreService, svcSaveStore
 }
 
 // Remove 'N' completion from every task in the store
-function diveForClear(data) {
+function diveForClear(data: JSONResource) {
     Object.keys(data).forEach((key) => {
         if(data[key] === 'N') delete data[key];
         else if(typeof data[key] === 'object') {

@@ -1,0 +1,441 @@
+{
+    "key": "goldsmith",
+    "groupName": "@CLASS_JOB.GSM",
+    "tasks": {
+        "x521": {
+            "name_en": "Lighting Repair Tools",
+            "name_fr": "Outils de réparation pour l'éclairage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_B",
+            "patch": "7.21"
+        },
+        "x522": {
+            "name_en": "Intricate Vacuum Parts",
+            "name_fr": "Pièces de précision pour aspirateur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_A",
+            "patch": "7.21"
+        },
+        "x523": {
+            "name_en": "Spare Vehicle Parts",
+            "name_fr": "Pièces de rechange pour véhicule",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_A",
+            "patch": "7.21"
+        },
+        "x169": {
+            "name_en": "EX: Hub Furnishings and Fixtures II",
+            "name_fr": "EX : Amélioration de mobilier pour infrastructure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.168",
+            "patch": "7.21"
+        },
+        "x171": {
+            "name_en": "EX: Specialized Materials II",
+            "name_fr": "EX : Amélioration de matériaux de perfectionnement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.170",
+            "patch": "7.21"
+        },
+        "x172": {
+            "name_en": "EX+: Vending Machines",
+            "name_fr": "EX+ : Distributeurs automatiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.171",
+            "patch": "7.21"
+        },
+        "x174": {
+            "name_en": "EX+: Starship Building Material Processing",
+            "name_fr": "EX+ : Traitement de matériaux pour vaisseau spatial",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.173",
+            "patch": "7.21"
+        },
+        "x176": {
+            "name_en": "EX: High-performance Drone Materials II",
+            "name_fr": "EX : Amélioration de matériaux pour drones ultraperformants",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.175",
+            "patch": "7.21"
+        },
+        "x177": {
+            "name_en": "EX+: High-performance Drones",
+            "name_fr": "EX+ : Conception de drones ultraperformants",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.176",
+            "patch": "7.21"
+        },
+        "x179": {
+            "name_en": "EX+: Cosmotized Equipment Materials II",
+            "name_fr": "EX+ : Amélioration de matériaux pour machine d'un nouveau genre",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.178",
+            "patch": "7.21"
+        },
+        "x180": {
+            "name_en": "EX+: Cosmotized Equipment Materials III",
+            "name_fr": "EX+ : Perfectionnement de la machine d'un nouveau genre",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.179",
+            "patch": "7.21"
+        },
+        "x175": {
+            "name_en": "High-performance Drone Materials I",
+            "name_fr": "Préparation de matériaux pour drones ultraperformants",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1400",
+            "patch": "7.21"
+        },
+        "x178": {
+            "name_en": "EX+: Cosmotized Equipment Materials I",
+            "name_fr": "EX+ : Préparation de matériaux pour machine d'un nouveau genre",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.21"
+        },
+        "x165": {
+            "name_en": "EX: Work Support Mechanical Arms",
+            "name_fr": "EX : Bras mécaniques pour aide au labeur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x166": {
+            "name_en": "EX+: High-durability Material Processing",
+            "name_fr": "EX+ : Traitement d'amélioration de la durabilité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x167": {
+            "name_en": "EX+: Impact-resistant Material Processing",
+            "name_fr": "EX+ : Traitement anti-chocs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x157": {
+            "name_en": "Key Facility Plating",
+            "name_fr": "Plaques pour infrastructure cruciale",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x158": {
+            "name_en": "Rare Material Processing",
+            "name_fr": "Traitement de ressources rares",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x159": {
+            "name_en": "Construction Necessities",
+            "name_fr": "Approvisionnement en pièces pour infrastructure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x160": {
+            "name_en": "Fine-grade Knives",
+            "name_fr": "Couteaux de précision",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x161": {
+            "name_en": "Meteoric Material Test Processing",
+            "name_fr": "Traitement expérimental de fragments de météorites",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x162": {
+            "name_en": "EX: Replica Bathing Fixtures",
+            "name_fr": "EX : Reproduction de mobilier de bain",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x163": {
+            "name_en": "EX: Fine-grade Material Processing",
+            "name_fr": "EX : Ouvrage minutieux de matériaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x164": {
+            "name_en": "EX: Moongate Hub Equipment",
+            "name_fr": "EX : Approvisionnement en matériel pour la station",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x168": {
+            "name_en": "Hub Furnishings and Fixtures I",
+            "name_fr": "Préparation de mobilier pour infrastructure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x170": {
+            "name_en": "Specialized Materials I",
+            "name_fr": "Préparation de matériaux de perfectionnement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x173": {
+            "name_en": "EX: Starship Building Materials",
+            "name_fr": "EX : Matériaux pour vaisseau spatial",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x149": {
+            "name_en": "Rover Parts",
+            "name_fr": "Pièces pour rover",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x150": {
+            "name_en": "Standardized Light Plating",
+            "name_fr": "Plaques fines standard",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x151": {
+            "name_en": "Worker's Weaving Tools",
+            "name_fr": "Nécessaire de couture",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x152": {
+            "name_en": "Observation Devices",
+            "name_fr": "Mobilier d'observation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x153": {
+            "name_en": "Fireplace Fixtures",
+            "name_fr": "Cheminées pour intérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x154": {
+            "name_en": "Habitation Vanities",
+            "name_fr": "Miroirs de maquillage pour habitation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x155": {
+            "name_en": "Lunar Material Tool Processing",
+            "name_fr": "Élaboration d'outils en matériaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x156": {
+            "name_en": "Lunar Material Part Processing",
+            "name_fr": "Élaboration de pièces en matériaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x142": {
+            "name_en": "Standardized Heavy Plating",
+            "name_fr": "Plaques épaisses standard",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x143": {
+            "name_en": "Starship Shafts",
+            "name_fr": "Axes de transmission pour vaisseau spatial",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x144": {
+            "name_en": "Worker's Grinding Tools",
+            "name_fr": "Outils de polissage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x145": {
+            "name_en": "Standardized Chainmail Sheets",
+            "name_fr": "Chaînes standard",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x146": {
+            "name_en": "Eye Protection Equipment",
+            "name_fr": "Protections pour les yeux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x147": {
+            "name_en": "Custom Parts (Intermediate)",
+            "name_fr": "Pièces adaptables intermédiaires",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x148": {
+            "name_en": "Heat Dissipation Equipment",
+            "name_fr": "Équipements thermorésistants",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x136": {
+            "name_en": "Multi-purpose Plating",
+            "name_fr": "Plaques multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x137": {
+            "name_en": "Spare Starship Parts",
+            "name_fr": "Pièces de rechange pour vaisseau",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x138": {
+            "name_en": "Alloy Inspection",
+            "name_fr": "Étude de fabrication d'alliages",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x139": {
+            "name_en": "Custom Parts (Simple)",
+            "name_fr": "Pièces adaptables simples",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x140": {
+            "name_en": "Multi-purpose Metal Components",
+            "name_fr": "Pièces métalliques multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x141": {
+            "name_en": "Mass-produced Necessities",
+            "name_fr": "Grosse production d'articles de première nécessité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

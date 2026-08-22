@@ -1,0 +1,136 @@
+{
+    "key": "phantom-weapons",
+    "groupName_en": "Phantom Weapons",
+    "groupName_fr": "Armes fantômes",
+    "tasks": {
+        "x70855": {
+            "name_en": "Arcane Artistry",
+            "name_fr": "Un forgeron fantomatique",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.25",
+            "cPrev": ["q.70847"],
+            "cNext": ["q.70856"]
+        },
+        "x70856": {
+            "name_en": "Forging the Phantasmal",
+            "name_fr": "L'arsenal fantôme",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.25",
+            "cPrev": ["q.70855"],
+            "cNext": ["q.70916"]
+        },
+        "x70916": {
+            "name_en": "Keeping the Old Ways Alive",
+            "name_fr": "La tablette qui tombe à pic",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.31",
+            "cPrev": ["q.70856"],
+            "cNext": ["q.70917"]
+        },
+        "x70917": {
+            "name_en": "Aether, Aether, Everywhere",
+            "name_fr": "Quatre orbes et une roulette",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.31",
+            "cPrev": ["q.70916"],
+            "cNext": ["q.70918"]
+        },
+        "x70918": {
+            "name_en": "Wrought by Hands Phantasmal",
+            "name_fr": "De la pénombre à l'ombre",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.31",
+            "cPrev": ["q.70917"],
+            "cNext": ["q.70990"]
+        },
+        "x70990": {
+            "name_en": "Timeworn Techniques",
+            "name_fr": "Recherche technique désespérément",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.41",
+            "cPrev": ["q.70918"],
+            "cNext": ["q.70991"]
+        },
+        "x70991": {
+            "name_en": "In Pursuit of Perfection",
+            "name_fr": "La main à la pâte",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.41",
+            "cPrev": ["q.70990"],
+            "cNext": ["q.70992"]
+        },
+        "x70992": {
+            "name_en": "A Phantom Reborn",
+            "name_fr": "Puissance fantôme ultime",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.41",
+            "cPrev": ["q.70991"],
+            "cNext": ["q.71038"]
+        },
+        "x71038": {
+            "name_en": "Under No Illusion",
+            "name_fr": "Aux frontières du mirage",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.55",
+            "cPrev": ["q.70992"],
+            "cNext": ["q.71039"]
+        },
+        "x71039": {
+            "name_en": "Phantoms to Fillet",
+            "name_fr": "Les dissipateurs spirituels",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.55",
+            "cPrev": ["q.71038"],
+            "cNext": ["q.71040"]
+        },
+        "x71040": {
+            "name_en": "A Phantom Unveiled",
+            "name_fr": "Pureté fantôme",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.55",
+            "cPrev": ["q.71039"],
+            "cNext": ["q.71041"]
+        },
+        "x71041": {
+            "name_en": "Final Phantasm",
+            "name_fr": "Les mémentos martiaux",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.55",
+            "cPrev": ["q.71040"],
+            "cNext": ["q.71042"]
+        },
+        "x71042": {
+            "name_en": "All Too Fleeting",
+            "name_fr": "Finale fantasmagorie",
+            "level": 100,
+            "npc_en": "Lydirceil",
+            "npc_fr": "Lydirceil",
+            "patch": "7.55",
+            "cPrev": ["q.71041"]
+        }
+    }
+}

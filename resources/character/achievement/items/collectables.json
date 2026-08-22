@@ -8,8 +8,8 @@
             "name_fr": "Facteur de merveilles I",
             "description_en": "Synthesize 100 collectables.",
             "description_fr": "Synthétiser 100 objets collectionnables.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cNext": ["a.1290"]
         },
         "x1290": {
@@ -17,8 +17,8 @@
             "name_fr": "Facteur de merveilles II",
             "description_en": "Synthesize 300 collectables.",
             "description_fr": "Synthétiser 300 objets collectionnables.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["a.1289"],
             "cNext": ["a.1291"]
         },
@@ -27,9 +27,9 @@
             "name_fr": "Facteur de merveilles III",
             "description_en": "Synthesize 1,000 collectables.",
             "description_fr": "Synthétiser 1 000 objets collectionnables.",
+            "points": 10,
             "reward": "t.250",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1290"],
             "cNext": ["a.1906"],
             "cSiblings": ["t.250"]
@@ -39,8 +39,8 @@
             "name_fr": "Facteur de merveilles IV",
             "description_en": "Synthesize 3,000 collectables.",
             "description_fr": "Synthétiser 3 000 objets collectionnables.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1291"],
             "cNext": ["a.2291"]
         },
@@ -49,8 +49,8 @@
             "name_fr": "Facteur de merveilles V",
             "description_en": "Synthesize 5,000 collectables.",
             "description_fr": "Synthétiser 5 000 objets collectionnables.",
-            "patch": "5.0",
             "points": 10,
+            "patch": "5.0",
             "cPrev": ["a.1906"],
             "cNext": ["a.2939"]
         },
@@ -59,18 +59,18 @@
             "name_fr": "Facteur de merveilles VI",
             "description_en": "Synthesize 7,000 collectables.",
             "description_fr": "Synthétiser 7 000 objets collectionnables.",
-            "patch": "6.0",
             "points": 10,
+            "patch": "6.0",
             "cPrev": ["a.2291"],
             "cNext": ["a.3478"]
         },
-		"x3478": {
-            "description_en": "Synthesize 9,000 collectables.",
-            "description_fr": "Synthétiser 9 000 objets collectionnables.",
+        "x3478": {
             "name_en": "I Made That (Worth Collecting) VII",
             "name_fr": "Facteur de merveilles VII",
-            "patch": "7.0",
+            "description_en": "Synthesize 9,000 collectables.",
+            "description_fr": "Synthétiser 9 000 objets collectionnables.",
             "points": 10,
+            "patch": "7.0",
             "cPrev": ["a.2939"]
         },
         "x1292": {
@@ -78,8 +78,8 @@
             "name_fr": "Chasseur de merveilles I",
             "description_en": "Gather or catch 300 collectables.",
             "description_fr": "Récolter 300 objets collectionnables.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cNext": ["a.1293"]
         },
         "x1293": {
@@ -87,8 +87,8 @@
             "name_fr": "Chasseur de merveilles II",
             "description_en": "Gather or catch 1,000 collectables.",
             "description_fr": "Récolter 1 000 objets collectionnables.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["a.1292"],
             "cNext": ["a.1294"]
         },
@@ -97,9 +97,9 @@
             "name_fr": "Chasseur de merveilles III",
             "description_en": "Gather or catch 3,000 collectables.",
             "description_fr": "Récolter 3 000 objets collectionnables.",
+            "points": 10,
             "reward": "t.251",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1293"],
             "cNext": ["a.1907"],
             "cSiblings": ["t.251"]
@@ -109,8 +109,8 @@
             "name_fr": "Chasseur de merveilles IV",
             "description_en": "Gather or catch 5,000 collectables.",
             "description_fr": "Récolter 5 000 objets collectionnables.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1294"],
             "cNext": ["a.2292"]
         },
@@ -119,8 +119,8 @@
             "name_fr": "Chasseur de merveilles V",
             "description_en": "Gather or catch 8,000 collectables.",
             "description_fr": "Récolter 8 000 objets collectionnables.",
-            "patch": "5.0",
             "points": 10,
+            "patch": "5.0",
             "cPrev": ["a.1907"],
             "cNext": ["a.2940"]
         },
@@ -129,18 +129,18 @@
             "name_fr": "Chasseur de merveilles VI",
             "description_en": "Gather or catch 10,000 collectables.",
             "description_fr": "Récolter 10 000 objets collectionnables.",
-            "patch": "6.0",
             "points": 10,
+            "patch": "6.0",
             "cPrev": ["a.2292"],
             "cNext": ["a.3479"]
         },
-		"x3479": {
-            "description_en": "Gather or catch 12,000 collectables.",
-            "description_fr": "Récolter 12 000 objets collectionnables.",
+        "x3479": {
             "name_en": "I Collected That VII",
             "name_fr": "Chasseur de merveilles VII",
-            "patch": "7.0",
+            "description_en": "Gather or catch 12,000 collectables.",
+            "description_fr": "Récolter 12 000 objets collectionnables.",
             "points": 10,
+            "patch": "7.0",
             "cPrev": ["a.2940"]
         },
         "x1295": {
@@ -148,8 +148,8 @@
             "name_fr": "Bon client de Rowena I",
             "description_en": "Submit 300 collectables to Rowena's House of Splendors.",
             "description_fr": "Échanger 300 objets collectionnables aux PNJ “experte en objets collectionnables”.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cNext": ["a.1296"]
         },
         "x1296": {
@@ -157,8 +157,8 @@
             "name_fr": "Bon client de Rowena II",
             "description_en": "Submit 1,000 collectables to Rowena's House of Splendors.",
             "description_fr": "Échanger 1 000 objets collectionnables aux PNJ “experte en objets collectionnables”.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["a.1295"],
             "cNext": ["a.1297"]
         },
@@ -167,9 +167,9 @@
             "name_fr": "Bon client de Rowena III",
             "description_en": "Submit 3,000 collectables to Rowena's House of Splendors.",
             "description_fr": "Échanger 3 000 objets collectionnables aux PNJ “experte en objets collectionnables”.",
+            "points": 10,
             "reward": "t.252",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1296"],
             "cSiblings": ["t.252"]
         },
@@ -178,8 +178,8 @@
             "name_fr": "Fournisseur officiel de Zhloe I",
             "description_en": "Deliver 36 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 36 objets collectionnables à Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cNext": ["a.1780"]
         },
         "x1780": {
@@ -187,8 +187,8 @@
             "name_fr": "Fournisseur officiel de Zhloe II",
             "description_en": "Deliver 48 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 48 objets collectionnables à Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1779"],
             "cNext": ["a.1781"]
         },
@@ -197,8 +197,8 @@
             "name_fr": "Fournisseur officiel de Zhloe III",
             "description_en": "Deliver 60 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 60 objets collectionnables à Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1780"],
             "cNext": ["a.1782"]
         },
@@ -207,8 +207,8 @@
             "name_fr": "Fournisseur officiel de Zhloe IV",
             "description_en": "Deliver 90 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 90 objets collectionnables à Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1781"],
             "cNext": ["a.1783"]
         },
@@ -217,8 +217,8 @@
             "name_fr": "Fournisseur officiel de Zhloe V",
             "description_en": "Deliver 120 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 120 objets collectionnables à Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1782"],
             "cNext": ["a.1784"]
         },
@@ -227,9 +227,9 @@
             "name_fr": "Fournisseur officiel de Zhloe VI",
             "description_en": "Deliver 150 collectables to Zhloe Aliapoh.",
             "description_fr": "Échanger 150 objets collectionnables à Zhloe Aliapoh.",
-            "reward": "t.350",
-            "patch": "3.55b",
             "points": 10,
+            "reward": "t.350",
+            "patch": "3.55",
             "cPrev": ["a.1783"],
             "cSiblings": ["t.350"]
         },
@@ -238,8 +238,8 @@
             "name_fr": "Fournisseur officiel de M'naago I",
             "description_en": "Deliver 36 collectables to M'naago.",
             "description_fr": "Échanger 36 objets collectionnables à M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cNext": ["a.1975"]
         },
         "x1975": {
@@ -247,8 +247,8 @@
             "name_fr": "Fournisseur officiel de M'naago II",
             "description_en": "Deliver 48 collectables to M'naago.",
             "description_fr": "Échanger 48 objets collectionnables à M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1974"],
             "cNext": ["a.1976"]
         },
@@ -257,8 +257,8 @@
             "name_fr": "Fournisseur officiel de M'naago III",
             "description_en": "Deliver 60 collectables to M'naago.",
             "description_fr": "Échanger 60 objets collectionnables à M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1975"],
             "cNext": ["a.1977"]
         },
@@ -267,8 +267,8 @@
             "name_fr": "Fournisseur officiel de M'naago IV",
             "description_en": "Deliver 90 collectables to M'naago.",
             "description_fr": "Échanger 90 objets collectionnables à M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1976"],
             "cNext": ["a.1978"]
         },
@@ -277,8 +277,8 @@
             "name_fr": "Fournisseur officiel de M'naago V",
             "description_en": "Deliver 120 collectables to M'naago.",
             "description_fr": "Échanger 120 objets collectionnables à M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1977"],
             "cNext": ["a.1979"]
         },
@@ -287,9 +287,9 @@
             "name_fr": "Fournisseur officiel de M'naago VI",
             "description_en": "Deliver 150 collectables to M'naago.",
             "description_fr": "Échanger 150 objets collectionnables à M'naago.",
+            "points": 10,
             "reward": "t.119",
             "patch": "4.1",
-            "points": 10,
             "cPrev": ["a.1978"],
             "cSiblings": ["t.119"]
         },
@@ -298,8 +298,8 @@
             "name_fr": "Fournisseur officiel de Kurenai I",
             "description_en": "Deliver 36 collectables to Kurenai.",
             "description_fr": "Échanger 36 objets collectionnables à Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cNext": ["a.2073"]
         },
         "x2073": {
@@ -307,8 +307,8 @@
             "name_fr": "Fournisseur officiel de Kurenai II",
             "description_en": "Deliver 48 collectables to Kurenai.",
             "description_fr": "Échanger 48 objets collectionnables à Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2072"],
             "cNext": ["a.2074"]
         },
@@ -317,8 +317,8 @@
             "name_fr": "Fournisseur officiel de Kurenai III",
             "description_en": "Deliver 60 collectables to Kurenai.",
             "description_fr": "Échanger 60 objets collectionnables à Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2073"],
             "cNext": ["a.2075"]
         },
@@ -327,8 +327,8 @@
             "name_fr": "Fournisseur officiel de Kurenai IV",
             "description_en": "Deliver 90 collectables to Kurenai.",
             "description_fr": "Échanger 90 objets collectionnables à Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2074"],
             "cNext": ["a.2076"]
         },
@@ -337,8 +337,8 @@
             "name_fr": "Fournisseur officiel de Kurenai V",
             "description_en": "Deliver 120 collectables to Kurenai.",
             "description_fr": "Échanger 120 objets collectionnables à Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2075"],
             "cNext": ["a.2077"]
         },
@@ -347,9 +347,9 @@
             "name_fr": "Fournisseur officiel de Kurenai VI",
             "description_en": "Deliver 150 collectables to Kurenai.",
             "description_fr": "Échanger 150 objets collectionnables à Kurenai.",
+            "points": 10,
             "reward": "t.391",
             "patch": "4.3",
-            "points": 10,
             "cPrev": ["a.2076"],
             "cSiblings": ["t.391"]
         },
@@ -358,8 +358,8 @@
             "name_fr": "Fournisseur officiel d'Adkiragh I",
             "description_en": "Deliver 36 collectables to Adkiragh.",
             "description_fr": "Échanger 36 objets collectionnables à Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cNext": ["a.2189"]
         },
         "x2189": {
@@ -367,8 +367,8 @@
             "name_fr": "Fournisseur officiel d'Adkiragh II",
             "description_en": "Deliver 48 collectables to Adkiragh.",
             "description_fr": "Échanger 48 objets collectionnables à Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2188"],
             "cNext": ["a.2190"]
         },
@@ -377,8 +377,8 @@
             "name_fr": "Fournisseur officiel d'Adkiragh III",
             "description_en": "Deliver 60 collectables to Adkiragh.",
             "description_fr": "Échanger 60 objets collectionnables à Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2189"],
             "cNext": ["a.2191"]
         },
@@ -387,8 +387,8 @@
             "name_fr": "Fournisseur officiel d'Adkiragh IV",
             "description_en": "Deliver 90 collectables to Adkiragh.",
             "description_fr": "Échanger 90 objets collectionnables à Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2190"],
             "cNext": ["a.2192"]
         },
@@ -397,8 +397,8 @@
             "name_fr": "Fournisseur officiel d'Adkiragh V",
             "description_en": "Deliver 120 collectables to Adkiragh.",
             "description_fr": "Échanger 120 objets collectionnables à Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2191"],
             "cNext": ["a.2193"]
         },
@@ -407,9 +407,9 @@
             "name_fr": "Fournisseur officiel d'Adkiragh VI",
             "description_en": "Deliver 150 collectables to Adkiragh.",
             "description_fr": "Échanger 150 objets collectionnables à Adkiragh.",
+            "points": 10,
             "reward": "t.412",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.2192"],
             "cSiblings": ["t.412"]
         },
@@ -418,8 +418,8 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr I",
             "description_en": "Deliver 36 collectables to Kai-Shirr.",
             "description_fr": "Échanger 36 objets collectionnables à Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cNext": ["a.2431"]
         },
         "x2431": {
@@ -427,8 +427,8 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr II",
             "description_en": "Deliver 48 collectables to Kai-Shirr.",
             "description_fr": "Échanger 48 objets collectionnables à Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2430"],
             "cNext": ["a.2432"]
         },
@@ -437,8 +437,8 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr III",
             "description_en": "Deliver 60 collectables to Kai-Shirr.",
             "description_fr": "Échanger 60 objets collectionnables à Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2431"],
             "cNext": ["a.2433"]
         },
@@ -447,8 +447,8 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr IV",
             "description_en": "Deliver 90 collectables to Kai-Shirr.",
             "description_fr": "Échanger 90 objets collectionnables à Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2432"],
             "cNext": ["a.2434"]
         },
@@ -457,8 +457,8 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr V",
             "description_en": "Deliver 120 collectables to Kai-Shirr.",
             "description_fr": "Échanger 120 objets collectionnables à Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2433"],
             "cNext": ["a.2435"]
         },
@@ -467,9 +467,9 @@
             "name_fr": "Fournisseur officiel de Kai-Shirr VI",
             "description_en": "Deliver 150 collectables to Kai-Shirr.",
             "description_fr": "Échanger 150 objets collectionnables à Kai-Shirr.",
+            "points": 10,
             "reward": "t.478",
             "patch": "5.1",
-            "points": 10,
             "cPrev": ["a.2434"],
             "cSiblings": ["t.478"]
         },
@@ -478,8 +478,8 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou I",
             "description_en": "Deliver 36 collectables to Ehll Tou.",
             "description_fr": "Échanger 36 objets collectionnables à Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cNext": ["a.2629"]
         },
         "x2629": {
@@ -487,8 +487,8 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou II",
             "description_en": "Deliver 48 collectables to Ehll Tou.",
             "description_fr": "Échanger 48 objets collectionnables à Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2628"],
             "cNext": ["a.2630"]
         },
@@ -497,8 +497,8 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou III",
             "description_en": "Deliver 60 collectables to Ehll Tou.",
             "description_fr": "Échanger 60 objets collectionnables à Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2629"],
             "cNext": ["a.2631"]
         },
@@ -507,8 +507,8 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou IV",
             "description_en": "Deliver 90 collectables to Ehll Tou.",
             "description_fr": "Échanger 90 objets collectionnables à Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2630"],
             "cNext": ["a.2632"]
         },
@@ -517,8 +517,8 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou V",
             "description_en": "Deliver 120 collectables to Ehll Tou.",
             "description_fr": "Échanger 120 objets collectionnables à Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2631"],
             "cNext": ["a.2633"]
         },
@@ -527,9 +527,9 @@
             "name_fr": "Fournisseur officiel d'Ehll Tou VI",
             "description_en": "Deliver 150 collectables to Ehll Tou.",
             "description_fr": "Échanger 150 objets collectionnables à Ehll Tou.",
+            "points": 10,
             "reward": "t.523",
             "patch": "5.3",
-            "points": 10,
             "cPrev": ["a.2632"],
             "cSiblings": ["t.523"]
         },
@@ -538,8 +538,8 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire I",
             "description_en": "Deliver 36 collectables to Charlemend.",
             "description_fr": "Échanger 36 objets collectionnables au comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cNext": ["a.2841"]
         },
         "x2841": {
@@ -547,8 +547,8 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire II",
             "description_en": "Deliver 48 collectables to Charlemend.",
             "description_fr": "Échanger 48 objets collectionnables au comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2840"],
             "cNext": ["a.2842"]
         },
@@ -557,8 +557,8 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire III",
             "description_en": "Deliver 60 collectables to Charlemend.",
             "description_fr": "Échanger 60 objets collectionnables au comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2841"],
             "cNext": ["a.2843"]
         },
@@ -567,8 +567,8 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire IV",
             "description_en": "Deliver 90 collectables to Charlemend.",
             "description_fr": "Échanger 90 objets collectionnables au comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2842"],
             "cNext": ["a.2844"]
         },
@@ -577,8 +577,8 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire V",
             "description_en": "Deliver 120 collectables to Charlemend.",
             "description_fr": "Échanger 120 objets collectionnables au comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2843"],
             "cNext": ["a.2845"]
         },
@@ -587,9 +587,9 @@
             "name_fr": "Fournisseur officiel du comte de Durendaire VI",
             "description_en": "Deliver 150 collectables to Charlemend.",
             "description_fr": "Échanger 150 objets collectionnables au comte de Durendaire.",
+            "points": 10,
             "reward": "t.582",
             "patch": "5.5",
-            "points": 10,
             "cPrev": ["a.2844"],
             "cSiblings": ["t.582"]
         },
@@ -598,8 +598,8 @@
             "name_fr": "Fournisseur officiel d'Ameliance I",
             "description_en": "Deliver 36 collectables to Ameliance.",
             "description_fr": "Échanger 36 objets collectionnables à Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cNext": ["a.3065"]
         },
         "x3065": {
@@ -607,8 +607,8 @@
             "name_fr": "Fournisseur officiel d'Ameliance II",
             "description_en": "Deliver 48 collectables to Ameliance.",
             "description_fr": "Échanger 48 objets collectionnables à Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3064"],
             "cNext": ["a.3066"]
         },
@@ -617,8 +617,8 @@
             "name_fr": "Fournisseur officiel d'Ameliance III",
             "description_en": "Deliver 60 collectables to Ameliance.",
             "description_fr": "Échanger 60 objets collectionnables à Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3065"],
             "cNext": ["a.3067"]
         },
@@ -627,8 +627,8 @@
             "name_fr": "Fournisseur officiel d'Ameliance IV",
             "description_en": "Deliver 90 collectables to Ameliance.",
             "description_fr": "Échanger 90 objets collectionnables à Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3066"],
             "cNext": ["a.3068"]
         },
@@ -637,8 +637,8 @@
             "name_fr": "Fournisseur officiel d'Ameliance V",
             "description_en": "Deliver 120 collectables to Ameliance.",
             "description_fr": "Échanger 120 objets collectionnables à Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3067"],
             "cNext": ["a.3069"]
         },
@@ -647,9 +647,9 @@
             "name_fr": "Fournisseur officiel d'Ameliance VI",
             "description_en": "Deliver 150 collectables to Ameliance.",
             "description_fr": "Échanger 150 objets collectionnables à Ameliance.",
-            "reward": "t.635",
-            "patch": "6.28",
             "points": 10,
+            "reward": "t.635",
+            "patch": "6.15",
             "cPrev": ["a.3068"],
             "cSiblings": ["t.635"]
         },
@@ -658,8 +658,8 @@
             "name_fr": "Fournisseur officiel d'Anden I",
             "description_en": "Deliver 36 collectables to Anden.",
             "description_fr": "Échanger 36 objets collectionnables à Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cNext": ["a.3169"]
         },
         "x3169": {
@@ -667,8 +667,8 @@
             "name_fr": "Fournisseur officiel d'Anden II",
             "description_en": "Deliver 48 collectables to Anden.",
             "description_fr": "Échanger 48 objets collectionnables à Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3168"],
             "cNext": ["a.3170"]
         },
@@ -677,8 +677,8 @@
             "name_fr": "Fournisseur officiel d'Anden III",
             "description_en": "Deliver 60 collectables to Anden.",
             "description_fr": "Échanger 60 objets collectionnables à Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3169"],
             "cNext": ["a.3171"]
         },
@@ -687,8 +687,8 @@
             "name_fr": "Fournisseur officiel d'Anden IV",
             "description_en": "Deliver 90 collectables to Anden.",
             "description_fr": "Échanger 90 objets collectionnables à Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3170"],
             "cNext": ["a.3172"]
         },
@@ -697,8 +697,8 @@
             "name_fr": "Fournisseur officiel d'Anden V",
             "description_en": "Deliver 120 collectables to Anden.",
             "description_fr": "Échanger 120 objets collectionnables à Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3171"],
             "cNext": ["a.3173"]
         },
@@ -707,9 +707,9 @@
             "name_fr": "Fournisseur officiel d'Anden VI",
             "description_en": "Deliver 150 collectables to Anden.",
             "description_fr": "Échanger 150 objets collectionnables à Anden.",
+            "points": 10,
             "reward": "t.660",
             "patch": "6.3",
-            "points": 10,
             "cPrev": ["a.3172"],
             "cSiblings": ["t.660"]
         },
@@ -718,8 +718,8 @@
             "name_fr": "Fournisseur officiel de Margrat I",
             "description_en": "Deliver 36 collectables to Margrat.",
             "description_fr": "Échanger 36 objets collectionnables à Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cNext": ["a.3357"]
         },
         "x3357": {
@@ -727,8 +727,8 @@
             "name_fr": "Fournisseur officiel de Margrat II",
             "description_en": "Deliver 48 collectables to Margrat.",
             "description_fr": "Échanger 48 objets collectionnables à Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3356"],
             "cNext": ["a.3358"]
         },
@@ -737,8 +737,8 @@
             "name_fr": "Fournisseur officiel de Margrat III",
             "description_en": "Deliver 60 collectables to Margrat.",
             "description_fr": "Échanger 60 objets collectionnables à Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3357"],
             "cNext": ["a.3359"]
         },
@@ -747,8 +747,8 @@
             "name_fr": "Fournisseur officiel de Margrat IV",
             "description_en": "Deliver 90 collectables to Margrat.",
             "description_fr": "Échanger 90 objets collectionnables à Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3358"],
             "cNext": ["a.3360"]
         },
@@ -757,8 +757,8 @@
             "name_fr": "Fournisseur officiel de Margrat V",
             "description_en": "Deliver 120 collectables to Margrat.",
             "description_fr": "Échanger 120 objets collectionnables à Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3359"],
             "cNext": ["a.3361"]
         },
@@ -767,71 +767,121 @@
             "name_fr": "Fournisseur officiel de Margrat VI",
             "description_en": "Deliver 150 collectables to Margrat.",
             "description_fr": "Échanger 150 objets collectionnables à Margrat.",
+            "points": 10,
             "reward": "t.700",
             "patch": "6.5",
-            "points": 10,
             "cPrev": ["a.3360"],
             "cSiblings": ["t.700"]
         },
-		"x3597": {
-			"cNext": ["a.3598"],
-            "description_en": "Deliver 36 collectables to Nitowikwe.",
-            "description_fr": "Échanger 36 objets collectionnables à Nitowikwe.",
+        "x3597": {
             "name_en": "The Customer Is Always Right: Nitowikwe I",
             "name_fr": "Fournisseur officiel de Nitowikwe I",
+            "description_en": "Deliver 36 collectables to Nitowikwe.",
+            "description_fr": "Échanger 36 objets collectionnables à Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cNext": ["a.3598"]
         },
         "x3598": {
-			"cPrev": ["a.3597"],
-			"cNext": ["a.3599"],
-            "description_en": "Deliver 48 collectables to Nitowikwe.",
-            "description_fr": "Échanger 48 objets collectionnables à Nitowikwe.",
             "name_en": "The Customer Is Always Right: Nitowikwe II",
             "name_fr": "Fournisseur officiel de Nitowikwe II",
+            "description_en": "Deliver 48 collectables to Nitowikwe.",
+            "description_fr": "Échanger 48 objets collectionnables à Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3597"],
+            "cNext": ["a.3599"]
         },
         "x3599": {
-			"cPrev": ["a.3598"],
-			"cNext": ["a.3600"],
-            "description_en": "Deliver 60 collectables to Nitowikwe.",
-            "description_fr": "Échanger 60 objets collectionnables à Nitowikwe.",
             "name_en": "The Customer Is Always Right: Nitowikwe III",
             "name_fr": "Fournisseur officiel de Nitowikwe III",
+            "description_en": "Deliver 60 collectables to Nitowikwe.",
+            "description_fr": "Échanger 60 objets collectionnables à Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3598"],
+            "cNext": ["a.3600"]
         },
         "x3600": {
-			"cPrev": ["a.3599"],
-			"cNext": ["a.3601"],
-            "description_en": "Deliver 90 collectables to Nitowikwe.",
-            "description_fr": "Échanger 90 objets collectionnables à Nitowikwe.",
             "name_en": "The Customer Is Always Right: Nitowikwe IV",
             "name_fr": "Fournisseur officiel de Nitowikwe IV",
+            "description_en": "Deliver 90 collectables to Nitowikwe.",
+            "description_fr": "Échanger 90 objets collectionnables à Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3599"],
+            "cNext": ["a.3601"]
         },
         "x3601": {
-			"cPrev": ["a.3600"],
-			"cNext": ["a.3602"],
-            "description_en": "Deliver 120 collectables to Nitowikwe.",
-            "description_fr": "Échanger 120 objets collectionnables à Nitowikwe.",
             "name_en": "The Customer Is Always Right: Nitowikwe V",
             "name_fr": "Fournisseur officiel de Nitowikwe V",
+            "description_en": "Deliver 120 collectables to Nitowikwe.",
+            "description_fr": "Échanger 120 objets collectionnables à Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3600"],
+            "cNext": ["a.3602"]
         },
         "x3602": {
-			"cPrev": ["a.3601"],
-            "cSiblings": ["t.764"],
-            "description_en": "Deliver 150 collectables to Nitowikwe.",
-            "description_fr": "Échanger 150 objets collectionnables à Nitowikwe.",
             "name_en": "The Customer Is Always Right: Nitowikwe VI",
             "name_fr": "Fournisseur officiel de Nitowikwe VI",
-            "patch": "7.15",
+            "description_en": "Deliver 150 collectables to Nitowikwe.",
+            "description_fr": "Échanger 150 objets collectionnables à Nitowikwe.",
             "points": 10,
-            "reward": "t.764"
+            "reward": "t.764",
+            "patch": "7.15",
+            "cPrev": ["a.3601"],
+            "cSiblings": ["t.764"]
+        },
+        "x3991": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos I",
+            "name_fr": "Fournisseur officiel de Tiisol Ja I",
+            "description_en": "Deliver 36 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 36 objets collectionnables à Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3992": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos II",
+            "name_fr": "Fournisseur officiel de Tiisol Ja II",
+            "description_en": "Deliver 48 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 48 objets collectionnables à Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3993": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos III",
+            "name_fr": "Fournisseur officiel de Tiisol Ja III",
+            "description_en": "Deliver 60 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 60 objets collectionnables à Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3994": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos IV",
+            "name_fr": "Fournisseur officiel de Tiisol Ja IV",
+            "description_en": "Deliver 90 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 90 objets collectionnables à Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3995": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos V",
+            "name_fr": "Fournisseur officiel de Tiisol Ja V",
+            "description_en": "Deliver 120 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 120 objets collectionnables à Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3996": {
+            "name_en": "The Customer Is Always Right: Aunt Tii's Tacos VI",
+            "name_fr": "Fournisseur officiel de Tiisol Ja VI",
+            "description_en": "Deliver 150 collectables to Tiisol Ja.",
+            "description_fr": "Échanger 150 objets collectionnables à Tiisol Ja.",
+            "points": 10,
+            "reward": "t.866",
+            "patch": "7.51",
+            "cSiblings": ["t.866"]
         }
     }
 }

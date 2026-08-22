@@ -8,8 +8,8 @@
             "name_fr": "Tout ce qui brille : Amateur",
             "description_en": "Successfully synthesize 50 times for level 1-10 goldsmithing recipes.",
             "description_fr": "Réaliser 50 synthèses d'orfèvrerie de niveau 1 à 10.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.160"]
         },
         "x156": {
@@ -17,8 +17,8 @@
             "name_fr": "Tout ce qui brille : Recrue",
             "description_en": "Successfully synthesize 300 times for level 11-20 goldsmithing recipes.",
             "description_fr": "Réaliser 300 synthèses d'orfèvrerie de niveau 11 à 20.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.160"]
         },
         "x157": {
@@ -26,8 +26,8 @@
             "name_fr": "Tout ce qui brille : Initié",
             "description_en": "Successfully synthesize 750 times for level 21-30 goldsmithing recipes.",
             "description_fr": "Réaliser 750 synthèses d'orfèvrerie de niveau 21 à 30.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.160"]
         },
         "x158": {
@@ -35,8 +35,8 @@
             "name_fr": "Tout ce qui brille : Novice",
             "description_en": "Successfully synthesize 1,500 times for level 31-40 goldsmithing recipes.",
             "description_fr": "Réaliser 1 500 synthèses d'orfèvrerie de niveau 31 à 40.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.160"]
         },
         "x159": {
@@ -44,21 +44,21 @@
             "name_fr": "Tout ce qui brille : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 goldsmithing recipes.",
             "description_fr": "Réaliser 3 000 synthèses d'orfèvrerie de niveau 41 à 50.",
+            "points": 10,
             "reward": "t.20",
             "patch": "2.0",
-            "points": 10,
-            "cSiblings": ["t.20"],
-            "cCombo": ["a.160"]
+            "cCombo": ["a.160"],
+            "cSiblings": ["t.20"]
         },
         "x160": {
             "name_en": "A Goldsmith's Life for Me",
             "name_fr": "Des doigts en or",
             "description_en": "Obtain the first five “Cutting the Carats” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Tout ce qui brille”.",
+            "points": 30,
             "reward_en": "Gavel of the Luminary",
             "reward_fr": "Marteau à garnir de virtuose",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.155", "a.156", "a.157", "a.158", "a.159"]
         },
         "x1304": {
@@ -66,48 +66,48 @@
             "name_fr": "Tout ce qui brille : Expert",
             "description_en": "Successfully synthesize 1,000 times for level 51-60 goldsmithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 51 à 60.",
-            "patch": "3.0",
-            "points": 10
+            "points": 10,
+            "patch": "3.0"
         },
         "x1851": {
             "name_en": "Cutting the Carats: Veteran",
             "name_fr": "Tout ce qui brille : Maître",
             "description_en": "Successfully synthesize 1,000 times for level 61-70 goldsmithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 61 à 70.",
-            "patch": "4.0",
-            "points": 10
+            "points": 10,
+            "patch": "4.0"
         },
         "x2283": {
             "name_en": "Cutting the Carats: Master",
             "name_fr": "Tout ce qui brille : Génie",
             "description_en": "Successfully synthesize 1,000 times for level 71-80 goldsmithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 71 à 80.",
-            "patch": "5.0",
-            "points": 10
+            "points": 10,
+            "patch": "5.0"
         },
         "x2931": {
             "name_en": "Cutting the Carats: Genius",
             "name_fr": "Tout ce qui brille : Prodige",
             "description_en": "Successfully synthesize 1,000 times for level 81-90 goldsmithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 81 à 90.",
-            "patch": "6.0",
-            "points": 10
+            "points": 10,
+            "patch": "6.0"
         },
         "x3470": {
-            "description_en": "Successfully synthesize 1,000 times for level 91-100 goldsmithing recipes.",
-            "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 91 à 100.",
             "name_en": "Cutting the Carats: Exemplar",
             "name_fr": "Tout ce qui brille : As",
-            "patch": "7.0",
-            "points": 10
+            "description_en": "Successfully synthesize 1,000 times for level 91-100 goldsmithing recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'orfèvrerie de niveau 91 à 100.",
+            "points": 10,
+            "patch": "7.0"
         },
         "x704": {
             "name_en": "I Made That: Goldsmith I",
             "name_fr": "Carnet de notes : orfèvre I",
             "description_en": "Craft and record completion of 60 unique goldsmith recipes.",
             "description_fr": "Faire 60 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.705"]
         },
         "x705": {
@@ -115,8 +115,8 @@
             "name_fr": "Carnet de notes : orfèvre II",
             "description_en": "Craft and record completion of 130 unique goldsmith recipes.",
             "description_fr": "Faire 130 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.704"],
             "cNext": ["a.706"]
         },
@@ -125,10 +125,10 @@
             "name_fr": "Carnet de notes : orfèvre III",
             "description_en": "Craft and record completion of 270 unique goldsmith recipes.",
             "description_fr": "Faire 270 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Master Goldsmith's Ring",
             "reward_fr": "Anneau de maître orfèvre",
-            "patch": "2.1",
-            "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.705"],
             "cNext": ["a.1281"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Carnet de notes : orfèvre IV",
             "description_en": "Craft and record completion of 380 unique goldsmith recipes.",
             "description_fr": "Faire 380 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.706"],
             "cNext": ["a.1724"]
         },
@@ -147,10 +147,10 @@
             "name_fr": "Carnet de notes : orfèvre V",
             "description_en": "Craft and record completion of 550 unique goldsmith recipes.",
             "description_fr": "Faire 550 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Gemkeep's Mallet",
             "reward_fr": "Massette de joaillier bénie",
             "patch": "3.5",
-            "points": 10,
             "cPrev": ["a.1281"],
             "cNext": ["a.2169"]
         },
@@ -159,10 +159,10 @@
             "name_fr": "Carnet de notes : orfèvre VI",
             "description_en": "Craft and record completion of 730 unique goldsmith recipes.",
             "description_fr": "Faire 730 synthèses d'orfèvre différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Gemking's Mallet",
             "reward_fr": "Massette du roi des gemmes bénie",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.1724"]
         },
         "x759": {
@@ -170,8 +170,8 @@
             "name_fr": "De main de maître : orfèvre I",
             "description_en": "Craft 100 high-quality items as a goldsmith.",
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'orfèvre.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.760"]
         },
         "x760": {
@@ -179,8 +179,8 @@
             "name_fr": "De main de maître : orfèvre II",
             "description_en": "Craft 500 high-quality items as a goldsmith.",
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'orfèvre.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.759"],
             "cNext": ["a.761"]
         },
@@ -189,8 +189,8 @@
             "name_fr": "De main de maître : orfèvre III",
             "description_en": "Craft 3,000 high-quality items as a goldsmith.",
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'orfèvre.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.760"],
             "cNext": ["a.1316"]
         },
@@ -199,8 +199,8 @@
             "name_fr": "De main de maître : orfèvre IV",
             "description_en": "Craft 5,000 high-quality items as a goldsmith.",
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'orfèvre.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.761"],
             "cNext": ["a.1324"]
         },
@@ -209,9 +209,9 @@
             "name_fr": "De main de maître : orfèvre V",
             "description_en": "Craft 10,000 high-quality items as a goldsmith.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant qu'orfèvre.",
+            "points": 10,
             "reward": "t.256",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1316"],
             "cSiblings": ["t.256"]
         },
@@ -220,8 +220,8 @@
             "name_fr": "Joyau d'Azurée I",
             "description_en": "Earn 50,000 points toward your skyward score as a goldsmith.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'orfèvre.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2499"],
             "cCombo": ["a.2522"]
         },
@@ -230,8 +230,8 @@
             "name_fr": "Joyau d'Azurée II",
             "description_en": "Earn 150,000 points toward your skyward score as a goldsmith.",
             "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'orfèvre.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2498"],
             "cNext": ["a.2500"]
         },
@@ -240,21 +240,21 @@
             "name_fr": "Joyau d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a goldsmith.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant qu'orfèvre.",
+            "points": 10,
             "reward": "t.493",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2499"],
-            "cSiblings": ["t.493"],
-            "cCombo": ["a.2524"]
+            "cCombo": ["a.2524"],
+            "cSiblings": ["t.493"]
         },
         "x2530": {
             "name_en": "The Height of Gemcraft",
             "name_fr": "Orfèvre du Nichoir",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la deuxième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.506",
             "patch": "5.21",
-            "points": 10,
             "cSiblings": ["t.506"]
         },
         "x2651": {
@@ -262,9 +262,9 @@
             "name_fr": "Orfèvre de Tombeplume",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la troisième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.531",
             "patch": "5.31",
-            "points": 10,
             "cSiblings": ["t.531"]
         },
         "x2810": {
@@ -272,9 +272,9 @@
             "name_fr": "Orfèvre du Nouveau Refrain",
             "description_en": "As a goldsmith, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'orfèvre de la quatrième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.568",
             "patch": "5.41",
-            "points": 10,
             "cSiblings": ["t.568"]
         },
         "x2824": {
@@ -282,9 +282,45 @@
             "name_fr": "Orfèvrerie resplendissante",
             "description_en": "Obtain a resplendent gemfiend's mallet.",
             "description_fr": "Obtenir une massette du fiélon des gemmes resplendissante.",
-            "patch": "5.5",
             "points": 10,
+            "patch": "5.5",
             "cCombo": ["a.2829"]
+        },
+        "x3711": {
+            "name_en": "Rocket Metallurgy I",
+            "name_fr": "Orfèvre du cosmos I",
+            "description_en": "Earn a cosmic class score of 50,000 points as a goldsmith.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant qu'orfèvre.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3712": {
+            "name_en": "Rocket Metallurgy II",
+            "name_fr": "Orfèvre du cosmos II",
+            "description_en": "Earn a cosmic class score of 150,000 points as a goldsmith.",
+            "description_fr": "Gagner un total de 150 000 points cosmiques en tant qu'orfèvre.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3713": {
+            "name_en": "Goldsmithing with the Stars",
+            "name_fr": "Maître orfèvre du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as a goldsmith.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques en tant qu'orfèvre.",
+            "points": 10,
+            "reward": "t.785",
+            "patch": "7.21",
+            "cSiblings": ["t.785"]
+        },
+        "x3905": {
+            "name_en": "Master of the Universe: Goldsmith",
+            "name_fr": "Orfèvre intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as a goldsmith.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise en tant qu'orfèvre.",
+            "points": 10,
+            "reward": "t.838",
+            "patch": "7.51",
+            "cSiblings": ["t.838"]
         }
     }
 }

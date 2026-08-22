@@ -4,421 +4,423 @@
     "groupName_fr": "Garde-la-Reine",
     "tasks": {
         "x69370": {
-            "level": 80,
             "name_en": "Hail to the Queen",
             "name_fr": "La relique perdue",
+            "level": 80,
             "npc_en": "Keiten",
             "npc_fr": "Keiten",
+            "patch": "5.25",
             "cPrev": ["q.69190", "q.68725"],
-            "cNext": ["q.69371"],
-            "patch": "5.25"
+            "cNext": ["q.69371"]
         },
         "x69371": {
-            "level": 80,
             "name_en": "Path to the Past",
             "name_fr": "Les lames de Gunnhildr et les fileurs de songes",
+            "level": 80,
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
+            "patch": "5.25",
             "cPrev": ["q.69370"],
-            "cNext": ["q.69372"],
-            "patch": "5.25"
+            "cNext": ["q.69372"]
         },
         "x69372": {
-            "level": 80,
             "name_en": "The Bozja Incident",
             "name_fr": "Prélude à la catastrophe",
+            "level": 80,
             "npc_en": "Ironworks Engineer",
             "npc_fr": "Employée Des Forges",
+            "patch": "5.25",
             "cPrev": ["q.69371"],
             "cNext": ["q.69380", "q.69477"],
-            "cSiblings": ["a.2607"],
-            "patch": "5.25"
+            "cSiblings": ["a.2607"]
         },
         "x69380": {
-            "level": 80,
             "name_en": "Fire in the Forge",
             "name_fr": "Une nouvelle lame pour Gunnhildr",
+            "level": 80,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "5.25",
             "cPrev": ["q.69372"],
-            "cNext": ["q.69381", "q.69477"],
-            "patch": "5.25"
+            "cNext": ["q.69381", "q.69477"]
         },
         "x69381": {
-            "level": 80,
             "name_en": "Resistance Is (Not) Futile",
             "name_fr": "L'arsenal des résistants",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": ["q.69380"],
-            "patch": "5.25"
+            "patch": "5.25",
+            "cPrev": ["q.69380"]
         },
         "x69477": {
-            "level": 80,
             "name_en": "Where Eagles Nest",
             "name_fr": "Opération Aire des aigles",
+            "level": 80,
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
+            "patch": "5.35",
             "cPrev": ["q.69372", "q.69380", "q.69218"],
-            "cNext": ["q.69478", "q.69505"],
-            "patch": "5.35"
+            "cNext": ["q.69478", "q.69505"]
         },
         "x69479": {
-            "level": 80,
             "name_en": "An Expected Engagement",
             "name_fr": "Des affrontements cruciaux",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.35",
             "cPrev": ["q.69478"],
-            "cNext": ["q.69480"],
-            "patch": "5.35"
+            "cNext": ["q.69480"]
         },
         "x69480": {
-            "level": 80,
             "name_en": "Lost No Longer",
             "name_fr": "Résurrection du savoir d'antan",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.35",
             "cPrev": ["q.69479"],
-            "cNext": ["q.69481"],
-            "patch": "5.35"
+            "cNext": ["q.69481"]
         },
         "x69481": {
-            "level": 80,
             "name_en": "On the Offensive",
             "name_fr": "L'envol des aigles",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.35",
             "cPrev": ["q.69480"],
-            "cNext": ["q.69482"],
-            "patch": "5.35"
+            "cNext": ["q.69482"]
         },
         "x69482": {
-            "level": 80,
             "name_en": "Time to Focus",
             "name_fr": "Le b.a.-ba de l'éthérotriangulation",
+            "level": 80,
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
+            "patch": "5.35",
             "cPrev": ["q.69481"],
-            "cNext": ["q.69483"],
-            "patch": "5.35"
+            "cNext": ["q.69483"]
         },
         "x69483": {
-            "level": 80,
             "name_en": "Third Time's the Charm",
             "name_fr": "Le troisième courant éthéré",
+            "level": 80,
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
+            "patch": "5.35",
             "cPrev": ["q.69482"],
-            "cNext": ["q.69484"],
-            "patch": "5.35"
+            "cNext": ["q.69484"]
         },
         "x69484": {
-            "level": 80,
             "name_en": "Pressing Forward",
             "name_fr": "La percée des aigles",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.35",
             "cPrev": ["q.69483"],
-            "cNext": ["q.69485"],
-            "patch": "5.35"
+            "cNext": ["q.69485"]
         },
         "x69485": {
-            "level": 80,
             "name_en": "Signature Acquired",
             "name_fr": "Faire le plein d'éther",
+            "level": 80,
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
+            "patch": "5.35",
             "cPrev": ["q.69484"],
-            "cNext": ["q.69486"],
-            "patch": "5.35"
+            "cNext": ["q.69486"]
         },
         "x69486": {
-            "level": 80,
             "name_en": "Picking Up the Trail",
-            "name_fr": "Lilja à la rescousse!",
+            "name_fr": "Lilja à la rescousse !",
+            "level": 80,
             "npc_en": "Lilja",
             "npc_fr": "Lilja",
+            "patch": "5.35",
             "cPrev": ["q.69485"],
-            "cNext": ["q.69487"],
-            "patch": "5.35"
+            "cNext": ["q.69487"]
         },
         "x69487": {
-            "level": 80,
             "name_en": "The Lady of Blades",
             "name_fr": "L'épée sacrée Garde-la-Reine",
+            "level": 80,
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": ["q.69486"],
-            "cNext": ["q.69561"],
-            "cSiblings": ["a.2670"],
-            "patch": "5.35",
             "unlock": [
                 "duty.collection.field-record.17",
                 "duty.collection.field-record.18",
-                "duty.collection.field-record.19"
-            ]
+                "duty.collection.field-record.19",
+                "tto.55"
+            ],
+            "patch": "5.35",
+            "cPrev": ["q.69486"],
+            "cNext": ["q.69561"],
+            "cSiblings": ["a.2670"]
         },
         "x69505": {
-            "level": 80,
             "name_en": "A Sober Proposal",
             "name_fr": "La forge avant la boisson",
+            "level": 80,
             "npc_en": "Stressed Soldier",
             "npc_fr": "Résistant Inquiet",
+            "patch": "5.35",
             "cPrev": ["q.69477"],
-            "cNext": ["q.69506"],
-            "patch": "5.35"
+            "cNext": ["q.69506"]
         },
         "x69506": {
-            "level": 80,
             "name_en": "For Want of a Memory",
             "name_fr": "Une arme à mémoire d'éléphant",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.35",
             "cPrev": ["q.69505"],
-            "cNext": ["q.69507"],
-            "patch": "5.35"
+            "cNext": ["q.69507"]
         },
         "x69507": {
-            "level": 80,
             "name_en": "The Will to Resist",
             "name_fr": "Et un soupçon de sauvagerie",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.35",
             "cPrev": ["q.69506"],
-            "cNext": ["q.69573"],
-            "patch": "5.35"
+            "cNext": ["q.69573"]
         },
         "x69561": {
-            "level": 80,
             "name_en": "A Sign of What's to Come",
             "name_fr": "Une vision d'avance",
+            "level": 80,
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
-            "cPrev": ["q.69487"],
-            "cNext": ["q.69562"],
+            "unlock": ["duty.collection.field-record.20", "duty.collection.field-record.21"],
             "patch": "5.45",
-            "unlock": ["duty.collection.field-record.20", "duty.collection.field-record.21"]
+            "cPrev": ["q.69487"],
+            "cNext": ["q.69562"]
         },
         "x69562": {
-            "level": 80,
             "name_en": "Fit for a Queen",
             "name_fr": "Que les Dieux gardent la Reine",
+            "level": 80,
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": ["q.69561"],
-            "cNext": ["q.69564", "q.69563", "q.69565", "q.69620", "q.69573"],
-            "cSiblings": ["a.2760"],
-            "patch": "5.45",
             "unlock": [
                 "duty.collection.field-record.22",
                 "duty.collection.field-record.23",
                 "duty.collection.field-record.24",
                 "duty.collection.field-record.25"
-            ]
+            ],
+            "patch": "5.45",
+            "cPrev": ["q.69561"],
+            "cNext": ["q.69564", "q.69563", "q.69565", "q.69620", "q.69573"],
+            "cSiblings": ["a.2760"]
         },
         "x69564": {
-            "level": 80,
             "name_en": "One Man's Relic",
             "name_fr": "Vieilleries et trésors",
+            "level": 80,
             "npc_en": "Annes",
             "npc_fr": "Annes",
-            "cPrev": ["q.69562"],
-            "patch": "5.45"
+            "patch": "5.45",
+            "cPrev": ["q.69562"]
         },
         "x69565": {
-            "level": 80,
             "name_en": "Let Me Holster That for You",
             "name_fr": "Un mémento d'éléphant",
+            "level": 80,
             "npc_en": "Kriv",
             "npc_fr": "Kriv",
-            "cPrev": ["q.69562"],
-            "patch": "5.45"
+            "patch": "5.45",
+            "cPrev": ["q.69562"]
         },
         "x69573": {
-            "level": 80,
             "name_en": "In the Queen's Image",
             "name_fr": "À la lueur de l'épée sacrée",
+            "level": 80,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "5.45",
             "cPrev": ["q.69507", "q.69562"],
-            "cNext": ["q.69574"],
-            "patch": "5.45"
+            "cNext": ["q.69574"]
         },
         "x69574": {
-            "level": 80,
             "name_en": "Change of Arms",
             "name_fr": "Les amas de la métamorphose",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.45",
             "cPrev": ["q.69573"],
-            "cNext": ["q.69575"],
-            "patch": "5.45"
+            "cNext": ["q.69575"]
         },
         "x69575": {
-            "level": 80,
             "name_en": "The Resistance Remembers",
             "name_fr": "Une grosse bouboule bien utile",
+            "level": 80,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "5.45",
             "cPrev": ["q.69574"],
-            "cNext": ["q.69576"],
-            "patch": "5.45"
+            "cNext": ["q.69576"]
         },
         "x69576": {
-            "level": 80,
             "name_en": "A New Path of Resistance",
             "name_fr": "Armes à la carte",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.45",
             "cPrev": ["q.69575"],
-            "cNext": ["q.69577", "q.69632"],
-            "patch": "5.45"
+            "cNext": ["q.69577", "q.69632"]
         },
         "x69620": {
-            "level": 80,
             "name_en": "A New Playing Field",
             "name_fr": "Les plateaux naufragés",
+            "level": 80,
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
+            "patch": "5.55",
             "cPrev": ["q.69562", "q.69552"],
-            "cNext": ["q.69621", "q.69632"],
-            "patch": "5.55"
+            "cNext": ["q.69621", "q.69632"]
         },
         "x69621": {
-            "level": 80,
             "name_en": "Resolve Unshaken",
             "name_fr": "Prête à tout",
+            "level": 80,
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
+            "patch": "5.55",
             "cPrev": ["q.69620"],
-            "cNext": ["q.69628"],
-            "patch": "5.55"
+            "cNext": ["q.69628"]
         },
         "x69628": {
-            "level": 80,
             "name_en": "Where Eagles Roost",
             "name_fr": "La poussée des aigles",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.55",
             "cPrev": ["q.69621"],
-            "cNext": ["q.69622"],
-            "patch": "5.55"
+            "cNext": ["q.69622"]
         },
         "x69622": {
-            "level": 80,
             "name_en": "Reaching Out",
             "name_fr": "Le nouvel antre du démon",
+            "level": 80,
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
+            "patch": "5.55",
             "cPrev": ["q.69628"],
-            "cNext": ["q.69629"],
-            "patch": "5.55"
+            "cNext": ["q.69629"]
         },
         "x69629": {
-            "level": 80,
             "name_en": "In Their Shadow",
             "name_fr": "Le piqué des aigles",
+            "level": 80,
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
+            "patch": "5.55",
             "cPrev": ["q.69622"],
-            "cNext": ["q.69623"],
-            "patch": "5.55"
+            "cNext": ["q.69623"]
         },
         "x69623": {
-            "level": 80,
             "name_en": "Renewed Focus",
             "name_fr": "Cid, trouveur de solutions",
+            "level": 80,
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
+            "patch": "5.55",
             "cPrev": ["q.69629"],
-            "cNext": ["q.69624"],
-            "patch": "5.55"
+            "cNext": ["q.69624"]
         },
         "x69624": {
-            "level": 80,
             "name_en": "March of the Bloody Queen",
             "name_fr": "La marche de la reine sanglante",
+            "level": 80,
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": ["q.69623"],
-            "cNext": ["q.69631", "q.69630"],
-            "cSiblings": ["a.2884"],
-            "patch": "5.55",
             "unlock": [
                 "duty.collection.field-record.46",
                 "duty.collection.field-record.47",
                 "duty.collection.field-record.48",
-                "duty.collection.field-record.49"
-            ]
+                "duty.collection.field-record.49",
+                "tto.101"
+            ],
+            "patch": "5.55",
+            "cPrev": ["q.69623"],
+            "cNext": ["q.69631", "q.69630"],
+            "cSiblings": ["a.2884"]
         },
         "x69631": {
-            "level": 80,
             "name_en": "A Ruined Opportunity",
             "name_fr": "Chamarres de platine",
+            "level": 80,
             "npc_en": "Merlzirn",
             "npc_fr": "Merlzirn",
-            "cPrev": ["q.69624"],
-            "patch": "5.55"
+            "patch": "5.55",
+            "cPrev": ["q.69624"]
         },
         "x69632": {
-            "level": 80,
             "name_en": "What Dreams Are Made Of",
             "name_fr": "Un vieux rêve de Bozjien",
+            "level": 80,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "5.55",
             "cPrev": ["q.69620", "q.69576"],
-            "cNext": ["q.69633", "q.69634", "q.69635"],
-            "patch": "5.55"
+            "cNext": ["q.69633", "q.69634", "q.69635"]
         },
         "x69633": {
-            "level": 80,
             "name_en": "Spare Parts",
             "name_fr": "Les concentrés de la résistance",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.55",
             "cPrev": ["q.69632"],
-            "cNext": ["q.69636"],
-            "patch": "5.55"
+            "cNext": ["q.69636"]
         },
         "x69634": {
-            "level": 80,
             "name_en": "Tell Me a Story",
             "name_fr": "Les alliages de la résistance",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.55",
             "cPrev": ["q.69632"],
-            "cNext": ["q.69636"],
-            "patch": "5.55"
+            "cNext": ["q.69636"]
         },
         "x69635": {
-            "level": 80,
             "name_en": "A Fond Memory",
             "name_fr": "Les parchemins de la résistance",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
+            "patch": "5.55",
             "cPrev": ["q.69632"],
-            "cNext": ["q.69636"],
-            "patch": "5.55"
+            "cNext": ["q.69636"]
         },
         "x69636": {
-            "level": 80,
             "name_en": "A Done Deal",
             "name_fr": "Entourloupe à la loupe",
+            "level": 80,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "5.55",
             "cPrev": ["q.69633", "q.69634", "q.69635"],
-            "cNext": ["q.69637"],
-            "patch": "5.55"
+            "cNext": ["q.69637"]
         },
         "x69637": {
-            "level": 80,
             "name_en": "Irresistible",
             "name_fr": "Résiste, prouve que tu existes",
+            "level": 80,
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": ["q.69636"],
-            "patch": "5.55"
+            "patch": "5.55",
+            "cPrev": ["q.69636"]
         }
     }
 }

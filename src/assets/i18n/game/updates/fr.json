@@ -1,0 +1,100 @@
+{
+    "GAME_UPDATES": {
+        "1.0.0": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 6.08",
+                "Liens pour la plupart des infos de tâche faisant référence directement à une autre tâche",
+                "Devoir > Chercheur de devoir/raid > Donjon profond",
+                "Devoir > Escadron"
+            ],
+            "CHANGE": [
+                "Catégories et ordre en jeu appliqués aux Emotes",
+                "Les recettes BSM \"Armes\" étaient marquées comme complètes si l’épée était fabriquée",
+                "Les recettes ARM \"Armes\" étaient marquées comme complètes si le bouclier était fabriqué"
+            ],
+            "FIX": [
+                "Diverses corrections de données/chaînes",
+                "Les PNJ de confiance ShB commencent maintenant au niveau 71"
+            ]
+        },
+        "1.0.1": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 6.15",
+                "Localisation française terminée"
+            ],
+            "CHANGE": [
+                "Quêtes de rôle regroupées par extension",
+                "Fusion des colonnes \"Obtenu\" et \"Acquis\" pour les cartes de triade",
+                "Guide des mascottes trié par ordre en jeu",
+                "Fusion des recettes du Cristarium et du Studium dans le journal partagé"
+            ],
+            "FIX": [
+                "Diverses corrections de données/chaînes",
+                "Plusieurs colonnes affichant des chemins de liens bruts",
+                "Chaînage incorrect des tâches SCH/SMN"
+            ]
+        },
+        "1.0.2": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 6.28",
+                "Colonne FATE précédente"
+            ],
+            "FIX": [
+                "Diverses corrections de données/chaînes"
+            ],
+            "REMOVE": [
+                "Suppression des chaînes du journal d'artisanat des Namazu, car les quêtes enchaînées peuvent être complétées via DoL"
+            ]
+        },
+        "1.0.3": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 6.38"
+            ],
+            "FIX": [
+                "Diverses corrections de données/chaînes"
+            ]
+        },
+        "1.0.4": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 6.58",
+                "Groupe Chasse aux trésors",
+                "Groupe Chocobo du Gold Saucer",
+                "Données de mise à jour pour les journaux de récolte, journaux d'artisanat et le journal"
+            ],
+            "CHANGE": [
+                "Refonte des données de l'Orchestrion"
+            ],
+            "FIX": [
+                "Diverses corrections de données/chaînes"
+            ]
+        },
+        "1.0.5": {
+            "ADD": [
+                "Ressources jusqu'à FFXIV 7.15"
+            ],
+            "CHANGE": [
+                "Déplacement de la classe de départ des fichiers de configuration vers les fichiers de sauvegarde"
+            ],
+            "REMOVE": [
+                "Veuillez noter que les couvre-visages ne seront pas automatiquement migrés de l'ancien format"
+            ]
+        },
+        "1.0.6": {
+            "ADD": [
+                "Resources up to FFXIV 7.55",
+                "All content now has patch, reviewed all patch values",
+                "Additional BLU spell sources and category column",
+                "All missing chains between duties and quest"
+            ],
+            "CHANGE": [
+                "Merged BLU spell location and enemy columns",
+                "Name of 'Triple Triad' and two GC plate deco tasks to more clearly indicate they are a single unlock for multiple things"
+            ],
+            "FIX": [
+                "Manderville relic linking",
+                "Quests unlocking quests treated as a simple chain, added unlock concept to chaining",
+                "Other various value and link fixes"
+            ]
+        }
+    }
+}

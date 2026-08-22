@@ -2,7 +2,7 @@
     "key": "facewear",
     "groupName_en": "Facewear",
     "groupName_fr": "Accessoires Faciaux",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -18,9 +18,9 @@
         }
     },
     "tasks": {
-        "x14": {
+        "x0": {
             "name_en": "Oval Spectacles",
-            "name_fr": "Lunettes de lecture ovales",
+            "name_fr": "Lunettes ovales",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@100,000 CURRENCY.MGP",
             "patch": "7.0"
@@ -98,7 +98,7 @@
             "patch": "7.0"
         },
         "x10": {
-            "name_en": "Prince-nez",
+            "name_en": "Pince-nez",
             "name_fr": "Pince-nez",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
@@ -125,9 +125,9 @@
             "source": "@VENDOR.SCRIP_EXCHANGE (500 CURRENCY.SCRIP.SECONDARY_CRAFTERS)",
             "patch": "7.1"
         },
-        "x0": {
+        "x14": {
             "name_en": "Oval Reading Glasses",
-            "name_fr": "Lunettes ovales",
+            "name_fr": "Lunettes de lecture ovales",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@70,000 CURRENCY.MGP",
             "patch": "7.1"
@@ -152,6 +152,323 @@
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.8",
             "patch": "7.1"
+        },
+        "x18": {
+            "name_en": "Tinted Goggles",
+            "name_fr": "Lunettes fumées",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.SALTFARERS_EYE", "@VOYAGE.SOUTH_INDIGO_DEEP 4", "@VOYAGE.SOUTHERN_AERSLAENT_PLUNGE"],
+            "patch": "7.2"
+        },
+        "x19": {
+            "name_en": "Eyepatch (Left)",
+            "name_fr": "Cache-œil gauche",
+            "category": "@CATEGORY.PURCHASE",
+            "source": [
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
+                "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)"
+            ],
+            "patch": "7.2"
+        },
+        "x20": {
+            "name_en": "Eyepatch (Right)",
+            "name_fr": "Cache-œil droit",
+            "category": "@CATEGORY.PURCHASE",
+            "source": [
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
+                "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)"
+            ],
+            "patch": "7.2"
+        },
+        "x21": {
+            "name_en": "Metallic Eyepatch (Left)",
+            "name_fr": "Cache-œil métallique gauche",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "patch": "7.2"
+        },
+        "x22": {
+            "name_en": "Metallic Eyepatch (Right)",
+            "name_fr": "Cache-œil métallique droit",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "patch": "7.2"
+        },
+        "x23": {
+            "name_en": "Coeurl Eyeglasses",
+            "name_fr": "Lunettes œil-de-coeurl",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.2"
+        },
+        "x24": {
+            "name_en": "Reading Glasses",
+            "name_fr": "Lunettes de lecture",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (6,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.21"
+        },
+        "x25": {
+            "name_en": "Tinted Sunglasses",
+            "name_fr": "Lunettes de soleil teintées",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.SINUS_ARDORUM",
+            "patch": "7.21"
+        },
+        "x26": {
+            "name_en": "Groovy Glasses",
+            "name_fr": "Lunettes groovy",
+            "category": "@CATEGORY.RAID",
+            "source": ["d.1025", "d.1026"],
+            "patch": "7.2"
+        },
+        "x27": {
+            "name_en": "Rectangular Glasses",
+            "name_fr": "Lunettes à verres dégradés",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
+                "@PLACE.DT.SOUTH_HORN - COFFER.CRESCENT.BRONZE/COFFER.CRESCENT.SILVER"
+            ],
+            "patch": "7.25"
+        },
+        "x28": {
+            "name_en": "Bold-rimmed Glasses",
+            "name_fr": "Lunettes à grande monture",
+            "category": "@CATEGORY.PVP",
+            "source": "@1,000 CURRENCY.TROPHY_CRYSTAL",
+            "patch": "7.3"
+        },
+        "x29": {
+            "name_en": "Mythril-edged Eyepatch (Left)",
+            "name_fr": "Cache-œil bordé de mithril gauche",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.SOUTH_DELPHINIUM_SEASHELF", "@VOYAGE.EASTERN_BLACKBLOOD_WELLS", "@VOYAGE.SOLKRONN_GALLERY"],
+            "patch": "7.3"
+        },
+        "x30": {
+            "name_en": "Mythril-edged Eyepatch (Right)",
+            "name_fr": "Cache-œil bordé de mithril droit",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.CRADLE_OF_THE_WINDS", "@VOYAGE.EASTERN_BLACKBLOOD_WELLS", "@VOYAGE.SOLKRONN_GALLERY"],
+            "patch": "7.3"
+        },
+        "x31": {
+            "name_en": "Ornamented Leather Eyepatch (Left)",
+            "name_fr": "Cache-œil en cuir serti gauche",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (3,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.31"
+        },
+        "x32": {
+            "name_en": "Ornamented Leather Eyepatch (Right)",
+            "name_fr": "Cache-œil en cuir serti droit",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (3,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.31"
+        },
+        "x33": {
+            "name_en": "Scaevan Headgear",
+            "name_fr": "Accessoire oculaire Scaeva",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.PHAENNA",
+            "patch": "7.31"
+        },
+        "x35": {
+            "name_en": "Tactical Goggles",
+            "name_fr": "Lunettes tactiques",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.3"
+        },
+        "x36": {
+            "name_en": "Shaded Visor",
+            "name_fr": "Visière filtrante",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "patch": "7.3"
+        },
+        "x37": {
+            "name_en": "Cat Eye Reading Glasses",
+            "name_fr": "Lunettes de lecture œil de chat",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "@COFFER.TRAVERSE.PLATINUM",
+            "patch": "7.35"
+        },
+        "x38": {
+            "name_en": "Professorial Glasses",
+            "name_fr": "Lunettes studieuses",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.3"
+        },
+        "x39": {
+            "name_en": "Petite Pince-nez",
+            "name_fr": "Petit pince-nez",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.SOUTH_INDIGO_DEEP 4", "@VOYAGE.OEYASEIK", "@VOYAGE.SOUTHERN_AERSLAENT_PLUNGE"],
+            "patch": "7.3"
+        },
+        "x40": {
+            "name_en": "Painted Eggy Eyeglasses",
+            "name_fr": "Lunettes de soleil des Prœufs",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x41": {
+            "name_en": "Party Eggy Eyeglasses",
+            "name_fr": "Lunettes de soleil à quatre Prœufs",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x42": {
+            "name_en": "Slim Frame Eggy Eyeglasses",
+            "name_fr": "Lunettes de soleil des Prœufs à monture fine",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x43": {
+            "name_en": "Spriggan Eyeglasses",
+            "name_fr": "Lunettes de soleil spriggan",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x44": {
+            "name_en": "Chicken Eyeglasses",
+            "name_fr": "Lunettes de soleil poule des Prœufs",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x45": {
+            "name_en": "Blooming Eyeglasses",
+            "name_fr": "Lunettes de soleil à fleurs",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.HATCHING_TIDE (2026)",
+            "patch": "7.45"
+        },
+        "x46": {
+            "name_en": "Comfortable Eye Mask",
+            "name_fr": "Masque de nuit uni",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "a.3897",
+            "patch": "7.45"
+        },
+        "x47": {
+            "name_en": "Holospecs",
+            "name_fr": "Holo-lunettes",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS",
+            "patch": "7.41"
+        },
+        "x48": {
+            "name_en": "Blindfold Eyepatch (Left)",
+            "name_fr": "Bandeau cache-œil gauche",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.EASTERN_BLACKBLOOD_WELLS", "@VOYAGE.CENTRAL_DEN_OF_THE_GREATSWORD"],
+            "patch": "7.4"
+        },
+        "x49": {
+            "name_en": "Blindfold Eyepatch (Right)",
+            "name_fr": "Bandeau cache-œil droit",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.EASTERN_BLACKBLOOD_WELLS", "@VOYAGE.CENTRAL_DEN_OF_THE_GREATSWORD"],
+            "patch": "7.4"
+        },
+        "x50": {
+            "name_en": "Holovisor",
+            "name_fr": "Holo-lunettes de sécurité",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS",
+            "patch": "7.41"
+        },
+        "x51": {
+            "name_en": "Dark Glasses",
+            "name_fr": "Lunettes noires",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (12 CURRENCY.VCD.CORVOSI_BRASS)",
+            "patch": "7.45"
+        },
+        "x52": {
+            "name_en": "Simple Oval Spectacles",
+            "name_fr": "Lunettes ovales basiques",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
+                "@PLACE.DT.NORTH_HORN - COFFER.CRESCENT.BRONZE/COFFER.CRESCENT.SILVER"
+            ],
+            "patch": "7.55"
+        },
+        "x53": {
+            "name_en": "Teardrop Glasses",
+            "name_fr": "Lunettes aviateur",
+            "category": "",
+            "source": "",
+            "hidden": true
+        },
+        "x54": {
+            "name_en": "Sash Blinder (Left)",
+            "name_fr": "Bandeau protège-œil gauche",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.SOLKRONN_GALLERY",
+            "patch": "7.5"
+        },
+        "x55": {
+            "name_en": "Sash Blinder (Right)",
+            "name_fr": "Bandeau protège-œil droit",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.SOLKRONN_GALLERY",
+            "patch": "7.5"
+        },
+        "x56": {
+            "name_en": "Studded Eyepatch (Left)",
+            "name_fr": "Cache-œil clouté gauche",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.CENTRAL_DEN_OF_THE_GREATSWORD",
+            "patch": "7.5"
+        },
+        "x57": {
+            "name_en": "Studded Eyepatch (Right)",
+            "name_fr": "Cache-œil clouté droit",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.CENTRAL_DEN_OF_THE_GREATSWORD",
+            "patch": "7.5"
+        },
+        "x58": {
+            "name_en": "Antique Monocle",
+            "name_fr": "Monocle antique",
+            "category": "",
+            "source": "",
+            "hidden": true
+        },
+        "x59": {
+            "name_en": "Thick-rimmed Goggles",
+            "name_fr": "Lunettes de sécurité épaisses",
+            "category": "",
+            "source": "",
+            "patch": "7.55",
+            "hidden": true
+        },
+        "x60": {
+            "name_en": "Half-rim Spectacles",
+            "name_fr": "Lunettes demi-cerclées",
+            "category": "",
+            "source": "",
+            "patch": "7.5",
+            "hidden": true
+        },
+        "x61": {
+            "name_en": "Wrap-around Sunglasses",
+            "name_fr": "Lunettes enveloppantes",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.AUXESIA",
+            "patch": "7.51"
         }
     }
 }

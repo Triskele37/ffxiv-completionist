@@ -7,7 +7,7 @@ import { chain } from '../chain/chain';
 import { setCompletion } from './setCompletion';
 
 /**
- * Update `taskcompletionFlag` and apply chaining
+ * Update `task.completionFlag$` and apply chaining
  *
  * @returns boolean - indicating whether the task was chained
  * */
@@ -17,14 +17,14 @@ export function changeCompletion(
     firstInChain?: boolean
 ): boolean {
     // Don't continue if the current flag hasn't changed
-    if(task.completionFlag === to) {
+    if(task.completionFlag$() === to) {
         // Clear the chainstore in the event the first chain is blocked
         // if(firstInChain) ChainService.Instance.undoCurrentChain();
         return false;
     }
 
     // Dodge all of this if chaining is disabled
-    if(!Globals.config['chaining-enabled']) {
+    if(!Globals.config?.['chaining-enabled']) {
         setCompletion(task, to);
         return false;
     }

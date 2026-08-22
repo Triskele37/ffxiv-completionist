@@ -15,6 +15,8 @@ export function hasChainProps(task: Task): boolean {
         task.cComboAt ??
         task.cExclude ??
         task.cExclusive ??
+        task.cUnlock ??
+        task.cUnlocks ??
         false
-    ) !== false;
+    );
 }

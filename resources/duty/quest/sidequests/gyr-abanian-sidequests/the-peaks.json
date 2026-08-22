@@ -4,533 +4,533 @@
     "groupName_fr": "Les Pics",
     "tasks": {
         "x68181": {
-            "level": 60,
             "name_en": "Dark Water",
             "name_fr": "Poussière de taille",
+            "level": 60,
             "npc_en": "Ansger",
             "npc_fr": "Ansger",
-            "cPrev": ["q.67995"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.67995"]
         },
         "x68183": {
-            "level": 60,
             "name_en": "Home Comforts",
             "name_fr": "Une lézarde au salon",
+            "level": 60,
             "npc_en": "Gelen",
             "npc_fr": "Gelen",
-            "cPrev": ["q.67995"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.67995"]
         },
         "x68182": {
-            "level": 60,
             "name_en": "An Honest Day's Work",
             "name_fr": "Coup de chaux",
+            "level": 60,
             "npc_en": "Hidden Hearth",
             "npc_fr": "Hidden Hearth",
+            "patch": "4.0",
             "cPrev": ["q.67995"],
-            "cNext": ["q.68184", "q.68185"],
-            "patch": "4.31"
+            "cNext": ["q.68184", "q.68185"]
         },
         "x68184": {
-            "level": 60,
             "name_en": "Bears over Flowers",
             "name_fr": "La gueule du mauvais ours",
+            "level": 60,
             "npc_en": "Panicked Man",
             "npc_fr": "Botaniste En Panique",
+            "patch": "4.0",
             "cPrev": ["q.67995", "q.68182"],
-            "cNext": ["q.68186"],
-            "patch": "4.31"
+            "cNext": ["q.68186"]
         },
         "x68185": {
-            "level": 60,
             "name_en": "Beastly Bandits",
             "name_fr": "La cuistance des viandards",
+            "level": 60,
             "npc_en": "Leaning Ent",
             "npc_fr": "Leaning Ent",
+            "patch": "4.0",
             "cPrev": ["q.67995", "q.68182"],
-            "cNext": ["q.68186"],
-            "patch": "4.31"
+            "cNext": ["q.68186"]
         },
         "x68186": {
-            "level": 60,
             "name_en": "Midge Madness",
             "name_fr": "Un coup fumant",
+            "level": 60,
             "npc_en": "Hungry Hyur",
             "npc_fr": "Gannhais Barbu",
+            "patch": "4.0",
             "cPrev": ["q.67995", "q.68184", "q.68185"],
-            "cNext": ["q.68412"],
-            "patch": "4.31"
+            "cNext": ["q.68412"]
         },
         "x68189": {
-            "level": 61,
             "name_en": "Of Rats and Men",
             "name_fr": "Rat-le-bol",
+            "level": 61,
             "npc_en": "Gerbert",
             "npc_fr": "Gerbert",
+            "patch": "4.0",
             "cPrev": ["q.68000", "q.68188"],
-            "cNext": ["q.68190", "q.68410"],
-            "patch": "4.31"
+            "cNext": ["q.68190", "q.68410"]
         },
         "x68191": {
-            "level": 61,
             "name_en": "Saint Sayer",
             "name_fr": "Les cœurs de pierre",
-            "unlock": "travel.aether-currents.sb.the-peaks.13",
+            "level": 61,
             "npc_en": "Raganfrid",
             "npc_fr": "Raganfrid",
+            "unlock": "travel.aether-currents.sb.the-peaks.13",
+            "patch": "4.0",
             "cPrev": ["q.68000"],
             "cNext": ["q.68192"],
-            "cSiblings": ["travel.aether-currents.sb.the-peaks.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.13"]
         },
         "x68192": {
-            "level": 61,
             "name_en": "As Stubborn as Stone",
             "name_fr": "On connaît la chanson",
+            "level": 61,
             "npc_en": "Sayer",
             "npc_fr": "Sayer",
+            "patch": "4.0",
             "cPrev": ["q.68000", "q.68191"],
-            "cNext": ["q.68193"],
-            "patch": "4.31"
+            "cNext": ["q.68193"]
         },
         "x68193": {
-            "level": 61,
             "name_en": "The Sound of the Quarry",
             "name_fr": "Un caillou pour sa dulcinée",
+            "level": 61,
             "npc_en": "Sayer",
             "npc_fr": "Sayer",
+            "patch": "4.0",
             "cPrev": ["q.68000", "q.68192"],
-            "cNext": ["q.68194"],
-            "patch": "4.31"
+            "cNext": ["q.68194"]
         },
         "x68194": {
-            "level": 61,
             "name_en": "Spooky Stones",
             "name_fr": "Les rocs oubliés",
+            "level": 61,
             "npc_en": "Swetelove",
             "npc_fr": "Swetelove",
+            "patch": "4.0",
             "cPrev": ["q.68000", "q.68193"],
-            "cNext": ["q.68190"],
-            "patch": "4.31"
+            "cNext": ["q.68190"]
         },
         "x68190": {
-            "level": 61,
             "name_en": "Rat Bandits",
             "name_fr": "Qiqirns enquiquineurs",
+            "level": 61,
             "npc_en": "Luckless Merchant",
             "npc_fr": "Marchand Malchanceux",
-            "cPrev": ["q.68000", "q.68189", "q.68194"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68000", "q.68189", "q.68194"]
         },
         "x68365": {
-            "level": 68,
             "name_en": "Back to Business",
             "name_fr": "Vers un retour à la vie d'avant",
+            "level": 68,
             "npc_en": "Gerbod",
             "npc_fr": "Gerbod",
-            "cPrev": ["q.68071"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68071"]
         },
         "x68367": {
-            "level": 68,
             "name_en": "Undeserved Praise",
             "name_fr": "À la recherche d'un héros",
+            "level": 68,
             "npc_en": "Odo",
             "npc_fr": "Odo",
-            "cPrev": ["q.68071"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68071"]
         },
         "x68368": {
-            "level": 68,
             "name_en": "Like a Charm",
             "name_fr": "Avant de faire ses adieux",
+            "level": 68,
             "npc_en": "Lonesome Lass",
             "npc_fr": "Jeune Femme Triste",
-            "cPrev": ["q.68071"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68071"]
         },
         "x68369": {
-            "level": 68,
             "name_en": "A Sister's Ambition",
             "name_fr": "Ceux qui quittent le nid",
+            "level": 68,
             "npc_en": "J'nairoh",
             "npc_fr": "J'nairoh",
+            "patch": "4.0",
             "cPrev": ["q.68071"],
-            "cNext": ["q.68376"],
-            "patch": "4.31"
+            "cNext": ["q.68376"]
         },
         "x68366": {
-            "level": 68,
             "name_en": "Bottoms Up",
             "name_fr": "Le goût de la victoire",
+            "level": 68,
             "npc_en": "Weidheri",
             "npc_fr": "Weidheri",
+            "patch": "4.0",
             "cPrev": ["q.68071"],
-            "cNext": ["q.68374"],
-            "patch": "4.31"
+            "cNext": ["q.68374"]
         },
         "x68374": {
-            "level": 68,
             "name_en": "A Special Treat",
             "name_fr": "Chapulis bannis",
+            "level": 68,
             "npc_en": "Weidheri",
             "npc_fr": "Weidheri",
-            "cPrev": ["q.68075", "q.68366"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68075", "q.68366"]
         },
         "x68370": {
-            "level": 68,
             "name_en": "Lost in Transit",
             "name_fr": "Du baume au cœur et au corps",
+            "level": 68,
             "npc_en": "Resistance Fighter",
             "npc_fr": "Résistante Mhigoise",
+            "patch": "4.0",
             "cPrev": ["q.68075"],
-            "cNext": ["q.68383", "q.68382"],
-            "patch": "4.31"
+            "cNext": ["q.68383", "q.68382"]
         },
         "x68382": {
-            "level": 68,
             "name_en": "Eau de Muud",
             "name_fr": "Le nez au vent",
+            "level": 68,
             "npc_en": "Rahu",
             "npc_fr": "Rahu",
+            "patch": "4.0",
             "cPrev": ["q.68075", "q.68370"],
-            "cNext": ["q.68384"],
-            "patch": "4.31"
+            "cNext": ["q.68384"]
         },
         "x68383": {
-            "level": 68,
             "name_en": "Strange Tastes",
             "name_fr": "Énergie monstre",
+            "level": 68,
             "npc_en": "Guntmar",
             "npc_fr": "Guntmar",
+            "patch": "4.0",
             "cPrev": ["q.68075", "q.68370"],
-            "cNext": ["q.68384"],
-            "patch": "4.31"
+            "cNext": ["q.68384"]
         },
         "x68384": {
-            "level": 68,
             "name_en": "Soup's On",
             "name_fr": "La rechute",
+            "level": 68,
             "npc_en": "Guntmar",
             "npc_fr": "Guntmar",
-            "cPrev": ["q.68075", "q.68382", "q.68383"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68075", "q.68382", "q.68383"]
         },
         "x68371": {
-            "level": 68,
             "name_en": "Picking Up the Slack",
             "name_fr": "Un cas loin d'être rare",
+            "level": 68,
             "npc_en": "Hele",
             "npc_fr": "Hele",
-            "cPrev": ["q.68075"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68075"]
         },
         "x68372": {
-            "level": 68,
             "name_en": "We Need to Talk",
             "name_fr": "Les résistants font le bilan",
+            "level": 68,
             "npc_en": "Resistance Fighter",
             "npc_fr": "Résistant Mhigois",
-            "cPrev": ["q.68075"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68075"]
         },
         "x68373": {
-            "level": 68,
             "name_en": "What's Mine Is Mine",
-            "name_fr": "Lâchez ces caisses!",
+            "name_fr": "Lâchez ces caisses !",
+            "level": 68,
             "npc_en": "Zuzudesu",
             "npc_fr": "Zuzudesu",
-            "cPrev": ["q.68075"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68075"]
         },
         "x68375": {
-            "level": 68,
             "name_en": "Live off the Land",
             "name_fr": "Friche et frichti",
+            "level": 68,
             "npc_en": "Emory",
             "npc_fr": "Emory",
-            "cPrev": ["q.68077"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68077"]
         },
         "x68376": {
-            "level": 68,
             "name_en": "Runs in the Family",
             "name_fr": "Le sang du rapace infernal",
+            "level": 68,
             "npc_en": "J'nairoh",
             "npc_fr": "J'nairoh",
-            "cPrev": ["q.68077", "q.68369"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68077", "q.68369"]
         },
         "x68377": {
-            "level": 68,
             "name_en": "Those Boys of Mine",
             "name_fr": "La cité aux enfants perdus",
+            "level": 68,
             "npc_en": "Well-meaning Mother",
             "npc_fr": "Femme Inquiète",
-            "cPrev": ["q.68077"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68077"]
         },
         "x68378": {
-            "level": 68,
             "name_en": "Out of Sight",
             "name_fr": "Le bienfaiteur d'Ala Ghiri",
-            "unlock": "travel.aether-currents.sb.the-peaks.12",
+            "level": 68,
             "npc_en": "Brazen Brook",
             "npc_fr": "Brazen Brook",
+            "unlock": "travel.aether-currents.sb.the-peaks.12",
+            "patch": "4.0",
             "cPrev": ["q.68077"],
             "cNext": ["q.68379"],
-            "cSiblings": ["travel.aether-currents.sb.the-peaks.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.12"]
         },
         "x68379": {
-            "level": 68,
             "name_en": "Public Opinion",
             "name_fr": "Une admiration sans bornes",
+            "level": 68,
             "npc_en": "Baut",
             "npc_fr": "Baut",
+            "patch": "4.0",
             "cPrev": ["q.68077", "q.68378"],
-            "cNext": ["q.68380"],
-            "patch": "4.31"
+            "cNext": ["q.68380"]
         },
         "x68380": {
-            "level": 68,
             "name_en": "Dragged through the Mud",
             "name_fr": "Quand on n'a plus rien à perdre...",
+            "level": 68,
             "npc_en": "Baut",
             "npc_fr": "Baut",
+            "patch": "4.0",
             "cPrev": ["q.68077", "q.68379"],
-            "cNext": ["q.68381"],
-            "patch": "4.31"
+            "cNext": ["q.68381"]
         },
         "x68381": {
-            "level": 68,
             "name_en": "Second Chances",
             "name_fr": "Une nouvelle raison de vivre",
+            "level": 68,
             "npc_en": "J'dyalani",
             "npc_fr": "J'dyalani",
+            "patch": "4.0",
             "cPrev": ["q.68077", "q.68380"],
-            "cNext": ["q.68401"],
-            "patch": "4.31"
+            "cNext": ["q.68401"]
         },
         "x68385": {
-            "level": 68,
             "name_en": "Shimmer in the Scales",
             "name_fr": "Papillon de lumière",
+            "level": 68,
             "npc_en": "Garrulous Gall",
             "npc_fr": "Garrulous Gall",
-            "cPrev": ["q.68079"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079"]
         },
         "x68386": {
-            "level": 68,
             "name_en": "Radiata Stores",
             "name_fr": "La spécialité de Radiata",
+            "level": 68,
             "npc_en": "Godafre",
             "npc_fr": "Godafre",
+            "patch": "4.0",
             "cPrev": ["q.68079"],
-            "cNext": ["q.68390"],
-            "patch": "4.31"
+            "cNext": ["q.68390"]
         },
         "x68390": {
-            "level": 68,
             "name_en": "Jhammel and Hide",
             "name_fr": "D'un râtelier à l'autre",
+            "level": 68,
             "npc_en": "Godafre",
             "npc_fr": "Godafre",
-            "cPrev": ["q.68079", "q.68386"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079", "q.68386"]
         },
         "x68387": {
-            "level": 68,
             "name_en": "A Hunger for Trade",
             "name_fr": "Les laissés-pour-compte",
-            "unlock": "travel.aether-currents.sb.the-peaks.11",
+            "level": 68,
             "npc_en": "Ponderous Porter",
             "npc_fr": "Grand Livreur",
+            "unlock": "travel.aether-currents.sb.the-peaks.11",
+            "patch": "4.0",
             "cPrev": ["q.68079"],
-            "cSiblings": ["travel.aether-currents.sb.the-peaks.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.11"]
         },
         "x68388": {
-            "level": 68,
             "name_en": "Give Them the Evil Eye",
             "name_fr": "Plus douce que le miel",
+            "level": 68,
             "npc_en": "Mawt",
             "npc_fr": "Mawt",
-            "cPrev": ["q.68079"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079"]
         },
         "x68389": {
-            "level": 68,
             "name_en": "Explosive Profits",
             "name_fr": "Renouer avec la vie et les profits",
+            "level": 68,
             "npc_en": "Dob",
             "npc_fr": "Dob",
-            "cPrev": ["q.68079"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079"]
         },
         "x68391": {
-            "level": 68,
             "name_en": "Critical Moss",
             "name_fr": "Moussemousse moussue à la rescousse",
+            "level": 68,
             "npc_en": "Oggery",
             "npc_fr": "Oggery",
-            "cPrev": ["q.68079"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079"]
         },
         "x68392": {
-            "level": 68,
             "name_en": "Foper Faux Pas",
             "name_fr": "Argent presque facile",
+            "level": 68,
             "npc_en": "Hruodiger",
             "npc_fr": "Hruodiger",
-            "cPrev": ["q.68079"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68079"]
         },
         "x68393": {
-            "level": 69,
             "name_en": "Pest Problem",
             "name_fr": "Un hameau vieillissant",
+            "level": 69,
             "npc_en": "Raganher",
             "npc_fr": "Raganher",
-            "cPrev": ["q.68081"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68081"]
         },
         "x68394": {
-            "level": 69,
             "name_en": "Family First",
             "name_fr": "Des protéines pour bien grandir",
+            "level": 69,
             "npc_en": "Papin",
             "npc_fr": "Papin",
-            "cPrev": ["q.68081"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68081"]
         },
         "x68395": {
-            "level": 69,
             "name_en": "Boots Made for Walking",
             "name_fr": "Le raccourci des vaillants",
+            "level": 69,
             "npc_en": "Rawkin",
             "npc_fr": "Rawkin",
-            "cPrev": ["q.68081"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68081"]
         },
         "x68396": {
-            "level": 69,
             "name_en": "Closing Up Shop",
             "name_fr": "Donner sans rien attendre en retour",
-            "unlock": "travel.aether-currents.sb.the-peaks.10",
+            "level": 69,
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
+            "unlock": "travel.aether-currents.sb.the-peaks.10",
+            "patch": "4.0",
             "cPrev": ["q.68081"],
             "cNext": ["q.68397"],
-            "cSiblings": ["travel.aether-currents.sb.the-peaks.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.10"]
         },
         "x68397": {
-            "level": 69,
             "name_en": "Helping a Friend",
             "name_fr": "Le fils perdu",
+            "level": 69,
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
+            "patch": "4.0",
             "cPrev": ["q.68081", "q.68396"],
-            "cNext": ["q.68398"],
-            "patch": "4.31"
+            "cNext": ["q.68398"]
         },
         "x68398": {
-            "level": 69,
             "name_en": "Finding Family",
             "name_fr": "L'homme d'Âtrefroid",
+            "level": 69,
             "npc_en": "Berehta",
             "npc_fr": "Berehta",
+            "patch": "4.0",
             "cPrev": ["q.68081", "q.68397"],
-            "cNext": ["q.68399"],
-            "patch": "4.31"
+            "cNext": ["q.68399"]
         },
         "x68399": {
-            "level": 69,
             "name_en": "Her Only Son",
-            "name_fr": "L'armée de libération: la destination finale",
+            "name_fr": "L'armée de libération : la destination finale",
+            "level": 69,
             "npc_en": "Golden-locked Lieutenant",
             "npc_fr": "Sous-lieutenant Aux Cheveux Blonds",
+            "patch": "4.0",
             "cPrev": ["q.68081", "q.68398"],
-            "cNext": ["q.68400"],
-            "patch": "4.31"
+            "cNext": ["q.68400"]
         },
         "x68400": {
-            "level": 69,
             "name_en": "His Last Words",
             "name_fr": "Le dernier cadeau",
+            "level": 69,
             "npc_en": "Berehta",
             "npc_fr": "Berehta",
+            "patch": "4.0",
             "cPrev": ["q.68081", "q.68399"],
-            "cNext": ["q.68401"],
-            "patch": "4.31"
+            "cNext": ["q.68401"]
         },
         "x68401": {
-            "level": 69,
             "name_en": "A Parting Gift",
             "name_fr": "Planter les graines de l'espoir",
+            "level": 69,
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
-            "cPrev": ["q.68081", "q.68381", "q.68400"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68081", "q.68381", "q.68400"]
         },
         "x68402": {
-            "level": 69,
             "name_en": "A Friend on the Other Side",
             "name_fr": "Les fleurs du souvenir",
+            "level": 69,
             "npc_en": "Dainty Damsel",
             "npc_fr": "Demoiselle Délicate",
-            "cPrev": ["q.68082"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68082"]
         },
         "x68403": {
-            "level": 69,
             "name_en": "Climbing for Atonement",
             "name_fr": "Expiation",
+            "level": 69,
             "npc_en": "Able Ant",
             "npc_fr": "Able Ant",
-            "cPrev": ["q.68082"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68082"]
         },
         "x68410": {
-            "level": 69,
             "name_en": "Religious Freedom",
             "name_fr": "Liberté de culte",
+            "level": 69,
             "npc_en": "Gerbert",
             "npc_fr": "Gerbert",
-            "cPrev": ["q.68083", "q.68189", "q.68406"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68083", "q.68189", "q.68406"]
         },
         "x68411": {
-            "level": 69,
             "name_en": "The Qiqirn Strikes Back",
             "name_fr": "Gentil Qiqirn, méchants Qiqirns",
+            "level": 69,
             "npc_en": "Kindly Qiqirn",
             "npc_fr": "Qiqirn Courtois",
+            "patch": "4.0",
             "cPrev": ["q.68083", "q.68406"],
-            "cNext": ["q.68412"],
-            "patch": "4.31"
+            "cNext": ["q.68412"]
         },
         "x68412": {
-            "level": 69,
             "name_en": "Bombs for Peace",
             "name_fr": "Réconciliation fumante",
+            "level": 69,
             "npc_en": "Hungry Hyur",
             "npc_fr": "Gannhais Barbu",
-            "cPrev": ["q.68083", "q.68411", "q.68186"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68083", "q.68411", "q.68186"]
         },
         "x68424": {
-            "level": 70,
             "name_en": "Journey's End",
-            "name_fr": "Ala Mhigo, nous voilà!",
+            "name_fr": "Ala Mhigo, nous voilà !",
+            "level": 70,
             "npc_en": "Bertliana",
             "npc_fr": "Bertliana",
+            "patch": "4.0",
             "cPrev": ["q.68089", "q.68423"],
-            "cNext": ["q.68425"],
-            "patch": "4.31"
+            "cNext": ["q.68425"]
         }
     }
 }

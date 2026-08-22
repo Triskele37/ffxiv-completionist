@@ -3,65 +3,65 @@
     "groupName_en": "Sea of Stars",
     "groupName_fr": "Espace intersidéral",
     "tasks": {
-        "x0": {
-            "level": "90★★",
+        "x707": {
             "name_en": "Ilmenite",
             "name_fr": "Ilménite",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(29.5, 22.4)",
+            "closestAetheryte": "travel.aetherytes.others.156",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "6.28",
-            "closestAetheryte": "travel.aetherytes.others.156"
+            "patch": "6.2"
         },
-        "x1": {
-            "level": "90★★",
+        "x721": {
             "name_en": "Prime Achondrite",
             "name_fr": "Achondrite volatile",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(29.5, 22.4)",
+            "closestAetheryte": "travel.aetherytes.others.156",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "6.3",
-            "closestAetheryte": "travel.aetherytes.others.156"
+            "patch": "6.3"
         },
-        "x2": {
-            "level": "90★★",
+        "x722": {
             "name_en": "Sublime Achondrite",
             "name_fr": "Achondrite sublimée",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "coordinates": "(29.5, 22.4)",
+            "closestAetheryte": "travel.aetherytes.others.156",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "6.3",
-            "closestAetheryte": "travel.aetherytes.others.156"
+            "patch": "6.3"
         },
-        "x3": {
-            "level": "90★★★★",
+        "x726": {
             "name_en": "Softsilver Ore",
             "name_fr": "Minerai d'argent ductile",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(17.0, 29.4)",
+            "closestAetheryte": "travel.aetherytes.others.160",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "6.4",
-            "closestAetheryte": "travel.aetherytes.others.160"
+            "patch": "6.4"
         },
-        "x4": {
-            "level": "90★★★★",
+        "x735": {
             "name_en": "Prime Fossilized Dragon's Scale",
             "name_fr": "Écaille de dragon ancien volatile",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★★★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(17.0, 29.4)",
+            "closestAetheryte": "travel.aetherytes.others.160",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "6.5",
-            "closestAetheryte": "travel.aetherytes.others.160"
+            "patch": "6.5"
         },
-        "x5": {
-            "level": "90★★★★",
+        "x736": {
             "name_en": "Sublime Fossilized Dragon's Scale",
             "name_fr": "Écaille de dragon ancien sublimée",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★★★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(17.0, 29.4)",
+            "closestAetheryte": "travel.aetherytes.others.160",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "6.5",
-            "closestAetheryte": "travel.aetherytes.others.160"
+            "patch": "6.5"
         }
     }
 }

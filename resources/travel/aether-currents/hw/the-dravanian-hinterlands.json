@@ -1,48 +1,57 @@
 {
     "key": "the-dravanian-hinterlands",
-    "groupName": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+    "groupName": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
     "cCombo": ["a.1159"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(13.5, 36.1, 1.0)"
+            "location": "(13.5, 36.1, 1.0)",
+            "patch": "3.0"
         },
         "x4": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(12.8, 16.9, 1.1)"
+            "location": "(12.8, 16.9, 1.1)",
+            "patch": "3.0"
         },
         "x6": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(24.5, 19.0, 0.3)"
+            "location": "(24.5, 19.0, 0.3)",
+            "patch": "3.0"
         },
         "x9": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(37.1, 25.5, 0.9)"
+            "location": "(37.1, 25.5, 0.9)",
+            "patch": "3.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.67472",
-            "cSiblings": ["q.67472"]
+            "cSiblings": ["q.67472"],
+            "patch": "3.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.67481",
-            "cSiblings": ["q.67481"]
+            "cSiblings": ["q.67481"],
+            "patch": "3.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.67499",
-            "cSiblings": ["q.67499"]
+            "cSiblings": ["q.67499"],
+            "patch": "3.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.67196",
-            "cSiblings": ["q.67196"]
+            "cSiblings": ["q.67196"],
+            "patch": "3.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.67502",
-            "cSiblings": ["q.67502"]
+            "cSiblings": ["q.67502"],
+            "patch": "3.0"
         }
     }
 }

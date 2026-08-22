@@ -4,58 +4,108 @@
     "groupNameShort": "@EXPANSION.DT",
     "tasks": {
         "x826": {
-            "level": "91",
             "name_en": "Ihuykatumu",
             "name_fr": "La Remontée de l'Ihuykatumu",
-            "unlock": "q.70415"
+            "level": "91",
+            "unlock": "q.70415",
+            "patch": "7.0",
+            "cUnlock": ["q.70415"]
         },
         "x824": {
-            "level": "93",
             "name_en": "Worqor Zormor",
             "name_fr": "Worqor Zormor",
-            "unlock": "q.70427"
+            "level": "93",
+            "unlock": "q.70427",
+            "patch": "7.0",
+            "cUnlock": ["q.70427"]
         },
         "x829": {
-            "level": "95",
             "name_en": "The Skydeep Cenote",
             "name_fr": "Le cénote des Cieux infinis",
-            "unlock": "q.70445"
+            "level": "95",
+            "unlock": "q.70445",
+            "patch": "7.0",
+            "cUnlock": ["q.70445"]
         },
         "x831": {
-            "level": "97",
             "name_en": "Vanguard",
             "name_fr": "L'Avant-garde",
-            "unlock": "q.70462"
+            "level": "97",
+            "unlock": "q.70462",
+            "patch": "7.0",
+            "cUnlock": ["q.70462"]
         },
         "x825": {
-            "level": "99",
             "name_en": "Origenics",
             "name_fr": "L'Origenèse",
-            "unlock": "q.70481"
+            "level": "99",
+            "unlock": "q.70481",
+            "patch": "7.0",
+            "cUnlock": ["q.70481"]
         },
         "x827": {
-            "level": "100",
             "name_en": "Alexandria",
             "name_fr": "Alexandrie",
-            "unlock": "q.70495"
+            "level": "100",
+            "unlock": "q.70495",
+            "patch": "7.0",
+            "cUnlock": ["q.70495"]
         },
         "x834": {
-            "level": "100",
             "name_en": "Tender Valley",
             "name_fr": "La Vallée des Pampas",
-            "unlock": "q.70549"
+            "level": "100",
+            "unlock": "q.70549",
+            "patch": "7.0",
+            "cUnlock": ["q.70549"]
         },
         "x981": {
-            "level": "100",
             "name_en": "The Strayborough Deadwalk",
             "name_fr": "le Parc-aux-Errants",
-            "unlock": "q.70550"
+            "level": "100",
+            "unlock": "q.70550",
+            "patch": "7.0",
+            "cUnlock": ["q.70550"]
         },
         "x1008": {
-            "level": "100",
             "name_en": "Yuweyawata Field Station",
             "name_fr": "Le centre de recherche de Yuweyawata",
-            "unlock": "q.70782"
+            "level": "100",
+            "unlock": "q.70782",
+            "patch": "7.1",
+            "cUnlock": ["q.70782"]
+        },
+        "x1027": {
+            "name_en": "The Underkeep",
+            "name_fr": "La Gardienne de l'Immémorial",
+            "level": 100,
+            "unlock": "q.70840",
+            "patch": "7.2",
+            "cUnlock": ["q.70840"]
+        },
+        "x1028": {
+            "name_en": "The Meso Terminal",
+            "name_fr": "Le Mésoterminal",
+            "level": 100,
+            "unlock": "q.70907",
+            "patch": "7.3",
+            "cUnlock": ["q.70907"]
+        },
+        "x1064": {
+            "name_en": "Mistwake",
+            "name_fr": "Le Sillage brumeux",
+            "level": 100,
+            "unlock": "q.70964",
+            "patch": "7.4",
+            "cUnlock": ["q.70964"]
+        },
+        "x1011": {
+            "name_en": "The Clyteum",
+            "name_fr": "Le Clyteum",
+            "level": 100,
+            "unlock": "q.71007",
+            "patch": "7.5",
+            "cUnlock": ["q.71007"]
         }
     }
 }

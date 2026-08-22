@@ -1,39 +1,44 @@
-.p-contextmenu {
-    padding: $verticalMenuPadding;
-    background: $overlayMenuBg;
-    color: $menuTextColor;
-    border: $overlayMenuBorder;
-    box-shadow: $overlayMenuShadow;
-    border-radius: var(--border-radius);
-    width: $menuWidth;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-contextmenu-root-list {
-        outline: 0 none;
-    }
-
-    .p-submenu-list {
-        padding: $verticalMenuPadding;
-        background: $overlayMenuBg;
-        border: $overlayMenuBorder;
-        box-shadow: $overlayMenuShadow;
+@layer primeng {
+    .p-contextmenu {
+        padding: variables.$verticalMenuPadding;
+        background: variables.$overlayMenuBg;
+        color: variables.$menuTextColor;
+        border: variables.$overlayMenuBorder;
+        box-shadow: variables.$overlayMenuShadow;
         border-radius: var(--border-radius);
-    }
+        width: variables.$menuWidth;
 
-    .p-menuitem {
-        @include menuitem();
-    }
+        .p-contextmenu-root-list {
+            outline: 0 none;
+        }
 
-    .p-menuitem-separator {
-        border-top: $divider;
-        margin: $menuSeparatorMargin;
-    }
+        .p-submenu-list {
+            padding: variables.$verticalMenuPadding;
+            background: variables.$overlayMenuBg;
+            border: variables.$overlayMenuBorder;
+            box-shadow: variables.$overlayMenuShadow;
+            border-radius: var(--border-radius);
+        }
 
-    .p-submenu-icon {
-        font-size: $menuitemSubmenuIconFontSize;
+        .p-menuitem {
+            @include mixins.menuitem();
+        }
 
-        &.p-icon {
-            width: $menuitemSubmenuIconFontSize;
-            height: $menuitemSubmenuIconFontSize;
+        .p-menuitem-separator {
+            border-top: variables.$divider;
+            margin: variables.$menuSeparatorMargin;
+        }
+
+        .p-submenu-icon {
+            font-size: variables.$menuitemSubmenuIconFontSize;
+
+            &.p-icon {
+                width: variables.$menuitemSubmenuIconFontSize;
+                height: variables.$menuitemSubmenuIconFontSize;
+            }
         }
     }
 }

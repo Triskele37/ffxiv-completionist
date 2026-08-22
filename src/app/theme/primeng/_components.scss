@@ -1,109 +1,108 @@
-@import "_mixins";
+@forward "_mixins";
 
-@import "./input/_editor";
+@forward "./input/_editor";
 
-@layer primeng {
-  @import "_common";
+// All files under here should be wrapped in the `primeng` layer
+@use "_common";
 
-  //Input
-  @import "./input/_autocomplete";
-  @import "./input/_calendar";
-  @import "./input/_cascadeselect";
-  @import "./input/_checkbox";
-  @import "./input/_chips";
-  @import "./input/_colorpicker";
-  @import "./input/_dropdown";
-  @import "./input/_iconfield";
-  @import "./input/_inputgroup";
-  @import "./input/_inputicon";
-  @import "./input/_inputmask";
-  @import "./input/_inputnumber";
-  @import "./input/_inputotp";
-  @import "./input/_inputswitch";
-  @import "./input/_inputtext";
-  @import "./input/_listbox";
-  @import "./input/_multiselect";
-  @import "./input/_password";
-  @import "./input/_radiobutton";
-  @import "./input/_rating";
-  @import "./input/_selectbutton";
-  @import "./input/_slider";
-  @import "./input/_togglebutton";
-  @import "./input/_treeselect";
+//Input
+@use "./input/_autocomplete";
+@use "./input/_calendar";
+@use "./input/_cascadeselect";
+@use "./input/_checkbox";
+@use "./input/_chips";
+@use "./input/_colorpicker";
+@use "./input/_dropdown";
+@use "./input/_iconfield";
+@use "./input/_inputgroup";
+@use "./input/_inputicon";
+@use "./input/_inputmask";
+@use "./input/_inputnumber";
+@use "./input/_inputotp";
+@use "./input/_inputswitch";
+@use "./input/_inputtext";
+@use "./input/_listbox";
+@use "./input/_multiselect";
+@use "./input/_password";
+@use "./input/_radiobutton";
+@use "./input/_rating";
+@use "./input/_selectbutton";
+@use "./input/_slider";
+@use "./input/_togglebutton";
+@use "./input/_treeselect";
 
-  //Button
-  @import "./button/_button";
-  @import "./button/_speeddial";
-  @import "./button/_splitbutton";
+//Button
+@use "./button/_button";
+@use "./button/_speeddial";
+@use "./button/_splitbutton";
 
-  //Data
-  @import "./data/_carousel";
-  @import "./data/_datatable";
-  @import "./data/_dataview";
-  @import "./data/_filter";
-  @import "./data/_orderlist";
-  @import "./data/_organizationchart";
-  @import "./data/_paginator";
-  @import "./data/_picklist";
-  @import "./data/_timeline";
-  @import "./data/_tree";
-  @import "./data/_treetable";
-  @import "./data/_virtualscroller";
+//Data
+@use "./data/_carousel";
+@use "./data/_datatable";
+@use "./data/_dataview";
+@use "./data/_filter";
+@use "./data/_orderlist";
+@use "./data/_organizationchart";
+@use "./data/_paginator";
+@use "./data/_picklist";
+@use "./data/_timeline";
+@use "./data/_tree";
+@use "./data/_treetable";
+@use "./data/_virtualscroller";
 
-  //Panel
-  @import "./panel/_accordion";
-  @import "./panel/_card";
-  @import "./panel/_divider";
-  @import "./panel/_fieldset";
-  @import "./panel/_panel";
-  @import "./panel/_scrollpanel";
-  @import "./panel/_splitter";
-  @import "./panel/_tabview";
-  @import "./panel/_toolbar";
-  @import "./panel/_stepper";
+//Panel
+@use "./panel/_accordion";
+@use "./panel/_card";
+@use "./panel/_divider";
+@use "./panel/_fieldset";
+@use "./panel/_panel";
+@use "./panel/_scrollpanel";
+@use "./panel/_splitter";
+@use "./panel/_tabview";
+@use "./panel/_toolbar";
+@use "./panel/_stepper";
 
-  //Overlay
-  @import "./overlay/_confirmpopup";
-  @import "./overlay/_dialog";
-  @import "./overlay/_overlaypanel";
-  @import "./overlay/_sidebar";
-  @import "./overlay/_tooltip";
+//Overlay
+@use "./overlay/_confirmpopup";
+@use "./overlay/_dialog";
+@use "./overlay/_overlaypanel";
+@use "./overlay/_sidebar";
+@use "./overlay/_tooltip";
 
-  //File
-  @import "./file/_fileupload";
+//File
+@use "./file/_fileupload";
 
-  //Menu
-  @import "./menu/_breadcrumb";
-  @import "./menu/_contextmenu";
-  @import "./menu/_dock";
-  @import "./menu/_megamenu";
-  @import "./menu/_menu";
-  @import "./menu/_menubar";
-  @import "./menu/_panelmenu";
-  @import "./menu/_slidemenu";
-  @import "./menu/_steps";
-  @import "./menu/_tabmenu";
-  @import "./menu/_tieredmenu";
+//Menu
+@use "./menu/_breadcrumb";
+@use "./menu/_contextmenu";
+@use "./menu/_dock";
+@use "./menu/_megamenu";
+@use "./menu/_menu";
+@use "./menu/_menubar";
+@use "./menu/_panelmenu";
+@use "./menu/_slidemenu";
+@use "./menu/_steps";
+@use "./menu/_tabmenu";
+@use "./menu/_tieredmenu";
 
-  //Messages
-  @import "./messages/_inlinemessage";
-  @import "./messages/_message";
-  @import "messages/toast";
+//Messages
+@use "./messages/_inlinemessage";
+@use "./messages/_message";
+@use "messages/toast";
 
-  //MultiMedia
-  @import "./multimedia/_galleria";
-  @import "./multimedia/_image";
+//MultiMedia
+@use "./multimedia/_galleria";
+@use "./multimedia/_image";
 
-  //Misc
-  @import "./misc/_avatar";
-  @import "./misc/_badge";
-  @import "./misc/_blockui";
-  @import "./misc/_chip";
-  @import "./misc/_inplace";
-  @import "./misc/_metergroup";
-  @import "./misc/_progressbar";
-  @import "./misc/_scrolltop";
-  @import "./misc/_skeleton";
-  @import "./misc/_tag";
-  @import "./misc/_terminal";
-}
+//Misc
+@use "./misc/_avatar";
+@use "./misc/_badge";
+@use "./misc/_blockui";
+@use "./misc/_chip";
+@use "./misc/_inplace";
+@use "./misc/_metergroup";
+@use "./misc/_progressbar";
+@use "./misc/_scrolltop";
+@use "./misc/_skeleton";
+@use "./misc/_tag";
+@use "./misc/_terminal";

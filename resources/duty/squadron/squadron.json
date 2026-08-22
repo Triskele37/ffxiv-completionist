@@ -2,7 +2,7 @@
     "key": "squadron",
     "groupName_en": "Squadron Missions",
     "groupName_fr": "Missions d'escouade",
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -20,233 +20,233 @@
     },
     "tasks": {
         "x0": {
-            "level": 1,
             "name_en": "Military Courier",
             "name_fr": "Liaison vers poste avancé",
+            "level": 1,
             "difficulty_en": "Trainee",
             "difficulty_fr": "Simple",
             "patch": "3.4"
         },
         "x1": {
-            "level": 1,
             "name_en": "Outskirts Patrol",
             "name_fr": "Patrouille périphérique",
+            "level": 1,
             "difficulty_en": "Trainee",
             "difficulty_fr": "Simple",
             "patch": "3.4"
         },
         "x2": {
-            "level": 5,
             "name_en": "Beastmen Recon",
             "name_fr": "Repérage de positions hommes-bêtes",
+            "level": 5,
             "difficulty_en": "Trainee",
             "difficulty_fr": "Simple",
             "patch": "3.4"
         },
         "x3": {
-            "level": 10,
             "name_en": "Supply Wagon Escort",
             "name_fr": "Escorte d'une unité de ravitaillement",
+            "level": 10,
             "difficulty_en": "Trainee",
             "difficulty_fr": "Simple",
             "patch": "3.4"
         },
         "x4": {
-            "level": 15,
             "name_en": "Pest Eradication",
             "name_fr": "Extermination de créatures gênantes",
+            "level": 15,
             "difficulty_en": "Trainee",
             "difficulty_fr": "Simple",
             "patch": "3.4"
         },
         "x5": {
-            "level": 20,
             "name_en": "Frontline Support",
             "name_fr": "Soutien aux unités avancées",
+            "level": 20,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x6": {
-            "level": 20,
             "name_en": "Officer Escort",
             "name_fr": "Escorte d'officier de l'Alliance",
+            "level": 20,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x7": {
-            "level": 25,
             "name_en": "Border Patrol",
             "name_fr": "Patrouille des routes éloignées",
+            "level": 25,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x8": {
-            "level": 30,
             "name_en": "Stronghold Recon",
             "name_fr": "Espionnage de base homme-bête",
+            "level": 30,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x9": {
-            "level": 35,
             "name_en": "Search and Rescue",
             "name_fr": "Recherche de portés disparus",
+            "level": 35,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x10": {
-            "level": 35,
             "name_en": "Allied Maneuvers",
             "name_fr": "Manœuvre générale de l'Alliance",
+            "level": 35,
             "difficulty_en": "Routine",
             "difficulty_fr": "Normale",
             "patch": "3.4"
         },
         "x11": {
-            "level": 40,
             "name_en": "Stronghold Assault",
             "name_fr": "Offensive sur base homme-bête",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x12": {
-            "level": 40,
             "name_en": "Black Market Crackdown",
             "name_fr": "Saisie d'armes illégales",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x13": {
-            "level": 40,
             "name_en": "Imperial Recon",
             "name_fr": "Reconnaissance de base impériale",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x14": {
-            "level": 40,
             "name_en": "Imperial Pursuit",
             "name_fr": "Traque de fugitifs impériaux",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x15": {
-            "level": 40,
             "name_en": "Imperial Feint",
             "name_fr": "Attaque de diversion d'unité impériale",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x16": {
-            "level": 40,
             "name_en": "Supply Line Disruption",
             "name_fr": "Blocus de ravitaillement homme-bête",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x17": {
-            "level": 40,
             "name_en": "Criminal Pursuit",
             "name_fr": "Traque de criminel recherché",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x18": {
-            "level": 40,
             "name_en": "Supply Wagon Destruction",
             "name_fr": "Destruction de ravitaillement impérial",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x19": {
-            "level": 40,
             "name_en": "Chimerical Elimination",
             "name_fr": "Élimination de créature chimérique",
+            "level": 40,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x20": {
-            "level": 50,
             "name_en": "Primal Recon",
             "name_fr": "Reconnaissance avec les Héritiers",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x21": {
-            "level": 50,
             "name_en": "Counter-magitek Exercises",
             "name_fr": "Manœuvre anti-arme magitek",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x22": {
-            "level": 50,
             "name_en": "Infiltrate and Rescue",
             "name_fr": "Opération de libération d'otages civils",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x23": {
-            "level": 50,
             "name_en": "Outlaw Subjugation",
             "name_fr": "Neutralisation de faction hors-la-loi",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x24": {
-            "level": 50,
             "name_en": "Cult Crackdown",
             "name_fr": "Arrestation de Survivalistes",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x25": {
-            "level": 50,
             "name_en": "Voidsent Elimination",
             "name_fr": "Annihilation d'être du néant",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x26": {
-            "level": 50,
             "name_en": "Armor Annihilation",
             "name_fr": "Destruction d'arme magitek",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x27": {
-            "level": 50,
             "name_en": "Invasive Testing",
             "name_fr": "Interruption de tests gobelins",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"
         },
         "x28": {
-            "level": 50,
             "name_en": "Impostor Alert",
             "name_fr": "Interpellation d'imposteur",
+            "level": 50,
             "difficulty_en": "Priority",
             "difficulty_fr": "Spéciale",
             "patch": "3.4"

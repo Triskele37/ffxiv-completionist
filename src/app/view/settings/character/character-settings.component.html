@@ -1,39 +1,49 @@
-<div *ngIf="isModalVisible" class="xiv-modal"></div>
+@if(isModalVisible()) {
+    <div class="com-modal">
+        @if(isReloadVisible()) {
+            <p-progress-spinner></p-progress-spinner>
+        }
+    </div>
+}
 
-<div class="setting" *ngIf="languages">
-    <label>{{'MAIN.SETTING.LANGUAGE.LABEL' | translate}}</label>
-    <p-dropdown
-        optionValue="short"
-        optionLabel="long"
-        [options]="languages"
-        [(ngModel)]="svcSettings.settings.lang.value"
-        (onChange)="onChangeLanguage()"
-    ></p-dropdown>
-</div>
-
-<div class="setting starting-class" *ngIf="startingClasses">
-    <span
-        class="tooltip-container"
-        [pTooltip]="'MAIN.SETTING.CLASSES.TOOLTIP' | translate"
-        tooltipPosition="right"
-    >
-        <label>{{'MAIN.SETTING.CLASSES.LABEL' | translate}}</label>
-        <p-dropdown
+@if(languages) {
+    <div class="setting">
+        <label>{{'APP.SETTING.LANGUAGE.LABEL' | translate}}</label>
+        <p-select
             optionValue="short"
             optionLabel="long"
-            [placeholder]="'MAIN.SETTING.CLASSES.PLACEHOLDER' | translate"
-            [options]="startingClasses"
-            [showClear]="true"
-            [(ngModel)]="svcSettings.settings.startingClass.value"
-            (onChange)="onChangeStartingClass()"
-        ></p-dropdown>
-    </span>
+            [options]="languages"
+            [(ngModel)]="svcSettings.settings.lang.value"
+            (onChange)="onChangeLanguage()"
+        ></p-select>
+    </div>
+}
 
-    <xiv-chain-overlay [disableUndo]="true"></xiv-chain-overlay>
-</div>
+@if(startingClasses) {
+    <div class="setting starting-class">
+        <span
+            class="tooltip-container"
+            [pTooltip]="'APP.SETTING.CLASSES.TOOLTIP' | translate"
+            tooltipPosition="right"
+        >
+            <label>{{'APP.SETTING.CLASSES.LABEL' | translate}}</label>
+            <p-select
+                optionValue="short"
+                optionLabel="long"
+                [placeholder]="'APP.SETTING.CLASSES.PLACEHOLDER' | translate"
+                [options]="startingClasses"
+                [showClear]="true"
+                [(ngModel)]="svcSettings.settings.startingClass.value"
+                (onChange)="onChangeStartingClass()"
+            ></p-select>
+        </span>
+
+        <com-chain-overlay [disableUndo]="true"></com-chain-overlay>
+    </div>
+}
 
 <div class="setting bool">
-    <label>{{'MAIN.SETTING.GROUP_NAME.LABEL' | translate}}</label>
+    <label>{{'APP.SETTING.GROUP_NAME.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
         [(ngModel)]="svcSettings.settings.useShortNames.value"
@@ -42,75 +52,65 @@
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.LOCATION' | translate}}</label>
+    <label>{{'APP.SETTING.SAVE.LOCATION' | translate}}</label>
     <label>{{svcSettings.settings.storeLocation.value}}</label>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.NAME' | translate}}</label>
+    <label>{{'APP.SETTING.SAVE.NAME' | translate}}</label>
     <label>{{svcSettings.settings.storeName.value}}.json</label>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.CHANGE' | translate}}</label>
-    <p-buttonGroup>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.NEW' | translate"
-            (onClick)="onNewSaveClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.LOAD' | translate"
-            (onClick)="onLoadSaveClick()"
-        ></p-button>
-    </p-buttonGroup>
+    <label>{{'APP.SETTING.SAVE.CHANGE' | translate}}</label>
+    <p-button-group>
+        <button pButton (click)="onNewSaveClick()">
+            {{'APP.SETTING.SAVE.NEW' | translate}}
+        </button>
+        <button pButton (click)="onLoadSaveClick()">
+            {{'APP.SETTING.SAVE.LOAD' | translate}}
+        </button>
+    </p-button-group>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.OPEN' | translate}}</label>
-    <p-buttonGroup>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
-            (onClick)="onOpenConfigClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
-            (onClick)="onOpenSaveClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
-            (onClick)="onOpenBothClick()"
-        ></p-button>
-    </p-buttonGroup>
+    <label>{{'APP.SETTING.SAVE.OPEN' | translate}}</label>
+    <p-button-group>
+        <button pButton (click)="onOpenConfigClick()">
+            {{'APP.SETTING.SAVE.CONFIG' | translate}}
+        </button>
+        <button pButton (click)="onOpenSaveClick()">
+            {{'APP.SETTING.SAVE.SAVE' | translate}}
+        </button>
+        <button pButton (click)="onOpenBothClick()">
+            {{'APP.SETTING.SAVE.BOTH' | translate}}
+        </button>
+    </p-button-group>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.BACKUP' | translate}}</label>
-    <p-buttonGroup>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
-            (onClick)="onBackupConfigClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
-            (onClick)="onBackupSaveClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
-            (onClick)="onBackupBothClick()"
-        ></p-button>
-    </p-buttonGroup>
+    <label>{{'APP.SETTING.SAVE.BACKUP' | translate}}</label>
+    <p-button-group>
+        <button pButton (click)="onBackupConfigClick()">
+            {{'APP.SETTING.SAVE.CONFIG' | translate}}
+        </button>
+        <button pButton (click)="onBackupSaveClick()">
+            {{'APP.SETTING.SAVE.SAVE' | translate}}
+        </button>
+        <button pButton (click)="onBackupBothClick()">
+            {{'APP.SETTING.SAVE.BOTH' | translate}}
+        </button>
+    </p-button-group>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.SAVE.LOAD_BACKUP' | translate}}</label>
-    <p-buttonGroup>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
-            (onClick)="onLoadBackupConfigClick()"
-        ></p-button>
-        <p-button
-            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
-            (onClick)="onLoadBackupSaveClick()"
-        ></p-button>
-    </p-buttonGroup>
+    <label>{{'APP.SETTING.SAVE.LOAD_BACKUP' | translate}}</label>
+    <p-button-group>
+        <button pButton (click)="onLoadBackupConfigClick()">
+            {{'APP.SETTING.SAVE.CONFIG' | translate}}
+        </button>
+        <button pButton (click)="onLoadBackupSaveClick()">
+            {{'APP.SETTING.SAVE.SAVE' | translate}}
+        </button>
+    </p-button-group>
 </div>

@@ -2,7 +2,7 @@
     "key": "folklore-gathering-books",
     "groupName_en": "Folklore Gathering Books",
     "groupName_fr": "Livres de récolte légendaire",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -12,224 +12,263 @@
         },
         "requirements": {
             "header": "@HEADER.REQUIREMENTS"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "name_en": "Tome of Geological Folklore - Coerthas",
             "name_fr": "Légendes géologiques du Coerthas",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x1": {
             "name_en": "Tome of Geological Folklore - Dravania",
             "name_fr": "Légendes géologiques de Dravania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x2": {
             "name_en": "Tome of Geological Folklore - Abalathia's Spine",
             "name_fr": "Légendes géologiques d'Abalathia",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x3": {
             "name_en": "Tome of Geological Folklore - Gyr Abania",
             "name_fr": "Légendes géologiques de Gyr Abania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x4": {
             "name_en": "Tome of Geological Folklore - Othard",
             "name_fr": "Légendes géologiques d'Othard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x5": {
             "name_en": "Tome of Geological Folklore - Norvrandt",
             "name_fr": "Légendes géologiques de Norvrandt",
-            "npc": "@VENDOR.SPLENDORS - PLACE.NORVRANDT (11, 11)",
-            "requirements": "@40 CURRENCY.SCRIP.REGIONAL_B"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SHB.NORVRANDT (11, 11)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SHB",
+            "patch": "5.0"
         },
         "x18": {
             "name_en": "Tome of Geological Folklore - Ilsabard and the Northern Empty",
             "name_fr": "Légendes géologiques des mers du Nord et d'Ilsabard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x19": {
             "name_en": "Tome of Geological Folklore - The Sea of Stars",
             "name_fr": "Légendes géologiques de l'espace intersidéral",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x20": {
             "name_en": "Tome of Geological Folklore - The World Unsundered",
             "name_fr": "Légendes géologiques de l'ancien monde",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x27": {
             "name_en": "Tome of Geological Folklore - Yok Tural",
             "name_fr": "Légendes géologiques du Yok Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x28": {
             "name_en": "Tome of Geological Folklore - Xak Tural",
             "name_fr": "Légendes géologiques du Xak Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x29": {
             "name_en": "Tome of Geological Folklore - Alexandria",
             "name_fr": "Légendes géologiques d'Alexandrie",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x6": {
             "name_en": "Tome of Botanical Folklore - Coerthas",
             "name_fr": "Légendes botaniques du Coerthas",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x7": {
             "name_en": "Tome of Botanical Folklore - Dravania",
             "name_fr": "Légendes botaniques de Dravania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x8": {
             "name_en": "Tome of Botanical Folklore - Abalathia's Spine",
             "name_fr": "Légendes botaniques d'Abalathia",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x9": {
             "name_en": "Tome of Botanical Folklore - Gyr Abania",
             "name_fr": "Légendes botaniques de Gyr Abania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x10": {
             "name_en": "Tome of Botanical Folklore - Othard",
             "name_fr": "Légendes botaniques d'Othard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x11": {
             "name_en": "Tome of Botanical Folklore - Norvrandt",
             "name_fr": "Légendes botaniques de Norvrandt",
-            "npc": "@VENDOR.SPLENDORS - PLACE.NORVRANDT (11, 11)",
-            "requirements": "@40 CURRENCY.SCRIP.REGIONAL_B"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SHB.NORVRANDT (11, 11)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SHB",
+            "patch": "5.0"
         },
         "x21": {
             "name_en": "Tome of Botanical Folklore - Ilsabard and the Northern Empty",
             "name_fr": "Légendes botaniques des mers du Nord et d'Ilsabard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x22": {
             "name_en": "Tome of Botanical Folklore - The Sea of Stars",
             "name_fr": "Légendes botaniques de l'espace intersidéral",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x23": {
             "name_en": "Tome of Botanical Folklore - The World Unsundered",
             "name_fr": "Légendes botaniques de l'ancien monde",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x30": {
             "name_en": "Tome of Botanical Folklore - Yok Tural",
             "name_fr": "Légendes botaniques du Yok Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x31": {
             "name_en": "Tome of Botanical Folklore - Xak Tural",
             "name_fr": "Légendes botaniques du Xak Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x32": {
             "name_en": "Tome of Botanical Folklore - Alexandria",
             "name_fr": "Légendes botaniques d'Alexandrie",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x12": {
             "name_en": "Tome of Ichthyological Folklore - Coerthas",
             "name_fr": "Légendes ichtyologiques du Coerthas",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x13": {
             "name_en": "Tome of Ichthyological Folklore - Dravania",
             "name_fr": "Légendes ichtyologiques de Dravania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x14": {
             "name_en": "Tome of Ichthyological Folklore - Abalathia's Spine",
             "name_fr": "Légendes ichtyologiques d'Abalathia",
-            "npc": "@VENDOR.SPLENDORS - PLACE.IDYLLSHIRE (5, 7)",
-            "requirements": "@5 CURRENCY.SCRIP.BLUE_TOKEN"
+            "npc": "@VENDOR.SPLENDORS - PLACE.HW.IDYLLSHIRE (5, 7)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.HW",
+            "patch": "3.0"
         },
         "x15": {
             "name_en": "Tome of Ichthyological Folklore - Gyr Abania",
             "name_fr": "Légendes ichtyologiques de Gyr Abania",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x16": {
             "name_en": "Tome of Ichthyological Folklore - Othard",
             "name_fr": "Légendes ichtyologiques d'Othard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RHALGRS_REACH (9, 12)",
-            "requirements": "@50 CURRENCY.SCRIP.REGIONAL_A"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SB.RHALGRS_REACH (9, 12)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SB",
+            "patch": "4.0"
         },
         "x17": {
             "name_en": "Tome of Ichthyological Folklore - Norvrandt",
             "name_fr": "Légendes ichtyologiques de Norvrandt",
-            "npc": "@VENDOR.SPLENDORS - PLACE.NORVRANDT (11, 11)",
-            "requirements": "@40 CURRENCY.SCRIP.REGIONAL_B"
+            "npc": "@VENDOR.SPLENDORS - PLACE.SHB.NORVRANDT (11, 11)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.SHB",
+            "patch": "5.0"
         },
         "x24": {
             "name_en": "Tome of Ichthyological Folklore - Ilsabard and the Northern Empty",
             "name_fr": "Légendes ichtyologiques des mers du Nord et d'Ilsabard",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x25": {
             "name_en": "Tome of Ichthyological Folklore - The Sea of Stars",
             "name_fr": "Légendes ichtyologiques de l'espace intersidéral",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x26": {
             "name_en": "Tome of Ichthyological Folklore - The World Unsundered",
             "name_fr": "Légendes ichtyologiques de l'ancien monde",
-            "npc": "@VENDOR.SPLENDORS - PLACE.RADZ_AT_HAN (11, 9)",
-            "requirements": "@16 CURRENCY.SCRIP.REGIONAL_C"
+            "npc": "@VENDOR.SPLENDORS - PLACE.EW.RADZ_AT_HAN (11, 9)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.EW",
+            "patch": "6.0"
         },
         "x33": {
             "name_en": "Tome of Ichthyological Folklore - Yok Tural",
             "name_fr": "Légendes ichtyologiques du Yok Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x34": {
             "name_en": "Tome of Ichthyological Folklore - Xak Tural",
             "name_fr": "Légendes ichtyologiques du Xak Tural",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         },
         "x35": {
             "name_en": "Tome of Ichthyological Folklore - Alexandria",
             "name_fr": "Légendes ichtyologiques d'Alexandrie",
-            "npc": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (3, 13)",
-            "requirements": "@1600 CURRENCY.SCRIP.SECONDARY_GATHERERS"
+            "npc": "@VENDOR.SCRIP_EXCHANGE - PLACE.DT.SOLUTION_NINE (9, 13)",
+            "requirements": "@REQUIREMENT.FOLKLORE_BOOK.DT",
+            "patch": "7.0"
         }
     }
 }

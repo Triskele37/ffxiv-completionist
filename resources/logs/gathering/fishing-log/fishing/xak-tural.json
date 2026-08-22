@@ -3,77 +3,86 @@
     "groupName_en": "Xak Tural",
     "groupName_fr": "Xak Tural",
     "tasks": {
-        "x0": {
+        "x327": {
             "name_en": "Residential Sector",
             "name_fr": "Secteur résidentiel",
-            "level": "98",
-            "zone": "@PLACE.SOLUTION_NINE",
+            "level": 98,
+            "zone": "@PLACE.DT.SOLUTION_NINE",
             "location": "(6.4, 17.6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x1": {
+        "x319": {
             "name_en": "Niikwerepi",
             "name_fr": "Niikwerepi",
-            "level": "95",
-            "zone": "@PLACE.SHAALOANI",
+            "level": 95,
+            "zone": "@PLACE.DT.SHAALOANI",
             "location": "(29.8, 7.3)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x2": {
+        "x320": {
             "name_en": "Lake Toari",
             "name_fr": "Lac Toari",
-            "level": "96",
-            "zone": "@PLACE.SHAALOANI",
+            "level": 96,
+            "zone": "@PLACE.DT.SHAALOANI",
             "location": "(31.4, 13.7)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x3": {
+        "x321": {
             "name_en": "Westbound Zorgor",
             "name_fr": "Détroit ouest de Zorgor",
-            "level": "95",
-            "zone": "@PLACE.SHAALOANI",
+            "level": 95,
+            "zone": "@PLACE.DT.SHAALOANI",
             "location": "(16.1, 37.9)",
-            "type": "@FISH.TYPE.SKYFISHING"
+            "type": "@FISH.TYPE.SKYFISHING",
+            "patch": "7.0"
         },
-        "x4": {
+        "x322": {
             "name_en": "Eastbound Zorgor",
             "name_fr": "Détroit est de Zorgor",
-            "level": "96",
-            "zone": "@PLACE.SHAALOANI",
+            "level": 96,
+            "zone": "@PLACE.DT.SHAALOANI",
             "location": "(32.8, 38.3)",
-            "type": "@FISH.TYPE.SKYFISHING"
+            "type": "@FISH.TYPE.SKYFISHING",
+            "patch": "7.0"
         },
-        "x5": {
+        "x323": {
             "name_en": "Outskirts Shallows",
             "name_fr": "Bas-fond des Faubourgs",
-            "level": "97",
-            "zone": "@PLACE.HERITAGE_FOUND",
+            "level": 97,
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
             "location": "(19.4, 8.7)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x6": {
+        "x324": {
             "name_en": "The Driftdowns",
             "name_fr": "La Dérive",
-            "level": "97",
-            "zone": "@PLACE.HERITAGE_FOUND",
+            "level": 97,
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
             "location": "(13.1, 17.2)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x7": {
+        "x325": {
             "name_en": "Crackling Canyons",
             "name_fr": "Canyon grondant",
-            "level": "98",
-            "zone": "@PLACE.HERITAGE_FOUND",
+            "level": 98,
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
             "location": "(21.2, 32.0)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x8": {
+        "x326": {
             "name_en": "Alexandrian Ruins",
             "name_fr": "Ruines d'Alexandrie",
-            "level": "98",
-            "zone": "@PLACE.HERITAGE_FOUND",
+            "level": 98,
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
             "location": "(6.7, 33.8)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         }
     }
 }

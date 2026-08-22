@@ -1,52 +1,56 @@
 @use 'sass:list';
+@use "sass:meta";
+@use "../../_variables";
 
-.p-tag {
-    background: $badgeBg;
-    color: $badgeTextColor;
-    font-size: $badgeFontSize;
-    font-weight: $badgeFontWeight;
-    padding: $tagPadding;
-    border-radius: var(--border-radius);
+@layer primeng {
+    .p-tag {
+        background: variables.$badgeBg;
+        color: variables.$badgeTextColor;
+        font-size: variables.$badgeFontSize;
+        font-weight: variables.$badgeFontWeight;
+        padding: variables.$tagPadding;
+        border-radius: var(--border-radius);
 
-    &.p-tag-success {
-        background-color: $successButtonBg;
-        color: $successButtonTextColor;
-    }
-
-    &.p-tag-info {
-        background-color: $infoButtonBg;
-        color: $infoButtonTextColor;
-    }
-
-    &.p-tag-warning {
-        background-color: $warningButtonBg;
-        color: $warningButtonTextColor;
-    }
-
-    &.p-tag-danger {
-        background-color: $dangerButtonBg;
-        color: $dangerButtonTextColor;
-    }
-
-    .p-tag-icon {
-        margin-right: list.slash(var(--inline-spacing), 2);
-        font-size: $badgeFontSize;
-    }
-
-    .p-icon {
-        width: $badgeFontSize;
-        height: $badgeFontSize;
-    }
-
-    @if variable-exists(secondaryMessageBg) {
-        &.p-tag-secondary {
-            background-color: $secondaryButtonBg;
-            color: $secondaryButtonTextColor;
+        &.p-tag-success {
+            background-color: variables.$successButtonBg;
+            color: variables.$successButtonTextColor;
         }
 
-        &.p-tag-contrast {
-            background-color: $contrastButtonBg;
-            color: $contrastButtonTextColor;
+        &.p-tag-info {
+            background-color: variables.$infoButtonBg;
+            color: variables.$infoButtonTextColor;
+        }
+
+        &.p-tag-warning {
+            background-color: variables.$warningButtonBg;
+            color: variables.$warningButtonTextColor;
+        }
+
+        &.p-tag-danger {
+            background-color: variables.$dangerButtonBg;
+            color: variables.$dangerButtonTextColor;
+        }
+
+        .p-tag-icon {
+            margin-right: list.slash(var(--inline-spacing), 2);
+            font-size: variables.$badgeFontSize;
+        }
+
+        .p-icon {
+            width: variables.$badgeFontSize;
+            height: variables.$badgeFontSize;
+        }
+
+        @if meta.variable-exists(secondaryMessageBg) {
+            &.p-tag-secondary {
+                background-color: variables.$secondaryButtonBg;
+                color: variables.$secondaryButtonTextColor;
+            }
+
+            &.p-tag-contrast {
+                background-color: variables.$contrastButtonBg;
+                color: variables.$contrastButtonTextColor;
+            }
         }
     }
 }

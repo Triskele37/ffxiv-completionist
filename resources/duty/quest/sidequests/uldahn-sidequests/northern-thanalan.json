@@ -4,81 +4,81 @@
     "groupName_fr": "Thanalan septentrional",
     "tasks": {
         "x66456": {
-            "level": 38,
             "name_en": "Thieves and Robbers",
             "name_fr": "Vol en bande organisée",
+            "level": 38,
             "npc_en": "Papawazu",
             "npc_fr": "Papawazu",
+            "patch": "2.0",
             "cPrev": ["q.66455"],
-            "cNext": ["q.66458"],
-            "patch": "4.31"
+            "cNext": ["q.66458"]
         },
         "x66458": {
-            "level": 38,
             "name_en": "The Ceruleum Must Flow",
             "name_fr": "Retour à la normale",
+            "level": 38,
             "npc_en": "Papawazu",
             "npc_fr": "Papawazu",
+            "patch": "2.0",
             "cPrev": ["q.66456"],
-            "cNext": ["q.66459"],
-            "patch": "4.31"
+            "cNext": ["q.66459"]
         },
         "x65551": {
-            "level": 40,
             "name_en": "Leves of Camp Bluefog",
             "name_fr": "Mandataire du camp de Brumebleue",
-            "cPrevAny": true,
+            "level": 40,
             "npc_en": "Rurubana",
             "npc_fr": "Rurubana",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66574": {
-            "level": 49,
             "name_en": "High Standards",
             "name_fr": "Sous les drapeaux",
+            "level": 49,
             "npc_en": "Rafold",
             "npc_fr": "Rafold",
+            "patch": "2.0",
             "cPrev": ["q.66572"],
-            "cNext": ["q.66577"],
-            "patch": "4.31"
+            "cNext": ["q.66577"]
         },
         "x66576": {
-            "level": 49,
             "name_en": "Crate Expectations",
             "name_fr": "Livraison sur le front",
+            "level": 49,
             "npc_en": "Spiraling Path",
             "npc_fr": "Spiraling Path",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66577": {
-            "level": 49,
             "name_en": "Jumping on a Grenade",
             "name_fr": "La griffe de la peur",
+            "level": 49,
             "npc_en": "Rafold",
             "npc_fr": "Rafold",
+            "patch": "2.0",
             "cPrev": ["q.66574"],
-            "cNext": ["q.66580"],
-            "patch": "4.31"
+            "cNext": ["q.66580"]
         },
         "x66580": {
-            "level": 49,
             "name_en": "The Life of the Party",
             "name_fr": "Médecin du front",
+            "level": 49,
             "npc_en": "Memezofu",
             "npc_fr": "Memezofu",
+            "patch": "2.0",
             "cPrev": ["q.66577"],
-            "cNext": ["q.66581"],
-            "patch": "4.31"
+            "cNext": ["q.66581"]
         },
         "x66581": {
-            "level": 49,
             "name_en": "An Eye for Elixirs",
             "name_fr": "Les remèdes se font rares",
+            "level": 49,
             "npc_en": "Memezofu",
             "npc_fr": "Memezofu",
-            "cPrev": ["q.66580"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66580"]
         }
     }
 }

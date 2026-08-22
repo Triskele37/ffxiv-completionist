@@ -1,6 +1,47 @@
-<span class="nav-drawer">
-    <p-panelMenu
-        [model]="items"
+<span
+    data-active-help="APP.ACTIVE_HELP.NAV_DRAWER"
+    class="nav-drawer"
+>
+    <p-panelmenu
+        #panelMenu
+        [model]="items()"
         [multiple]="false"
-    ></p-panelMenu>
+    >
+        <ng-template #item let-item>
+            <div class="com-panel-menu-item">
+                @let group = item.state.group;
+
+                @if(group.subGroups?.size) {
+                    @if(item.expanded) {
+                        <i class="pi pi-chevron-down"></i>
+                    } @else {
+                        <i class="pi pi-chevron-right"></i>
+                    }
+                }
+
+                <span
+                    [attr.data-active-help]="item.state.activeHelp"
+                    class="group-label"
+                    [pTooltip]="group.contentLink"
+                >
+                    {{group.name}}
+                </span>
+
+                @if(!group.isUiGroup) {
+                    @if(item.state.isComplete) {
+                        <i
+                            data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.COMPLETE_STAR"
+                            class="mi mi-star"
+                        ></i>
+                    }
+                    @else if(item.state.isEmpty) {
+                        <i
+                            data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.EMPTY_STAR"
+                            class="mi mi-star empty"
+                        ></i>
+                    }
+                }
+            </div>
+        </ng-template>
+    </p-panelmenu>
 </span>

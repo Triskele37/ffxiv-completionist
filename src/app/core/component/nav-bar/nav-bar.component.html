@@ -1,20 +1,26 @@
 <div class="nav-bar-container">
-    <p-buttonGroup>
-        <p-button
-            icon="material-icons mi-arrow-back"
-            [disabled]="!(svcNavigation.groupHistory$ | async).length"
-            (onClick)="goBack()"
-        ></p-button>
+    <p-button-group>
+        <button
+            data-active-help="APP.ACTIVE_HELP.NAV_BAR.PREVIOUS_GROUP"
+            pButton
+            [disabled]="!svcNavigation.groupHistory().length"
+            (click)="goBack()"
+        >
+            <span class="mi mi-arrow-back"></span>
+        </button>
 
-        <p-button
-            icon="material-icons mi-arrow-upward"
-            [disabled]="!(svcNavigation.selectedGroup$ | async)._parent"
-            (onClick)="goToParent()"
-        ></p-button>
+        <button
+            data-active-help="APP.ACTIVE_HELP.NAV_BAR.GO_TO_PARENT"
+            pButton
+            [disabled]="!svcNavigation.selectedGroup()?._parent"
+            (click)="goToParent()"
+        >
+            <span class="mi mi-arrow-upward"></span>
+        </button>
 
-        <xiv-history-overlay></xiv-history-overlay>
-        <xiv-show-all></xiv-show-all>
-    </p-buttonGroup>
+        <com-history-overlay></com-history-overlay>
+        <com-show-all-toggle></com-show-all-toggle>
+    </p-button-group>
 
-    <xiv-breadcrumbs></xiv-breadcrumbs>
+    <com-breadcrumbs></com-breadcrumbs>
 </div>

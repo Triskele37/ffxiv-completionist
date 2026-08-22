@@ -1,65 +1,84 @@
 {
     "key": "la-noscea",
-    "groupName": "@PLACE.LA_NOSCEA",
+    "groupName": "@PLACE.ARR.LA_NOSCEA",
     "tasks": {
         "x0": {
-            "name": "@PLACE.MIST",
+            "name": "@PLACE.ARR.MIST",
             "source": "q.66060",
+            "patch": "2.0",
             "cSiblings": ["q.66060"]
         },
         "x1": {
-            "name": "@PLACE.MIDDLE_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
             "source": "q.66260",
+            "patch": "2.0",
             "cSiblings": ["q.66260"]
         },
         "x2": {
-            "name": "@PLACE.MIDDLE_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Middle La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Noscea centrale",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x3": {
-            "name": "@PLACE.LOWER_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.LOWER_LA_NOSCEA",
             "source": "q.66260",
+            "patch": "2.0",
             "cSiblings": ["q.66260"]
         },
         "x4": {
-            "name": "@PLACE.LOWER_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Lower La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Basse-Noscea",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x5": {
-            "name": "@PLACE.EASTERN_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.EASTERN_LA_NOSCEA",
             "source": "q.66391",
+            "patch": "2.0",
             "cSiblings": ["q.66391"]
         },
         "x6": {
-            "name": "@PLACE.EASTERN_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Eastern La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Noscea orientale",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x7": {
-            "name": "@PLACE.WESTERN_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.WESTERN_LA_NOSCEA",
             "source": "q.66503",
+            "patch": "2.0",
             "cSiblings": ["q.66503"]
         },
         "x8": {
-            "name": "@PLACE.WESTERN_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Western La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Noscea occidentale",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x9": {
-            "name": "@PLACE.UPPER_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.UPPER_LA_NOSCEA",
             "source": "q.66393",
+            "patch": "2.0",
             "cSiblings": ["q.66393"]
         },
         "x10": {
-            "name": "@PLACE.UPPER_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Upper La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Haute-Noscea",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x11": {
-            "name": "@PLACE.OUTER_LA_NOSCEA - 1",
+            "name": "@PLACE.ARR.OUTER_LA_NOSCEA",
             "source": "q.66393",
+            "patch": "2.0",
             "cSiblings": ["q.66393"]
         },
         "x12": {
-            "name": "@PLACE.OUTER_LA_NOSCEA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Outer La Noscea Riding Map",
+            "name_fr": "Carte détaillée de la Noscea extérieure",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         }
     }
 }

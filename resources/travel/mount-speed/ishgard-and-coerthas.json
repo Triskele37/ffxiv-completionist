@@ -1,79 +1,102 @@
 {
     "key": "ishgard-and-coerthas",
-    "groupName": "@PLACE.ISHGARD_AND_COERTHAS",
+    "groupName": "@PLACE.HW.ISHGARD_AND_COERTHAS",
     "tasks": {
         "x15": {
-            "name": "@PLACE.EMPYREUM",
+            "name": "@PLACE.HW.EMPYREUM",
             "source": "q.69708",
+            "patch": "6.0",
             "cSiblings": ["q.69708"]
         },
         "x0": {
-            "name": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS - 1",
+            "name": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "source": "q.66488",
+            "patch": "2.0",
             "cSiblings": ["q.66488"]
         },
         "x1": {
-            "name": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Coerthas Central Highlands Riding Map",
+            "name_fr": "Carte détaillée des Hautes terres du Coerthas central",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x2": {
-            "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 1",
+            "name": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "source": "q.67142",
+            "patch": "3.0",
             "cSiblings": ["q.67142"]
         },
         "x3": {
-            "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Coerthas Western Highlands Riding Map",
+            "name_fr": "Carte détaillée des Hautes terres du Coerthas occidental",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         },
         "x4": {
-            "name": "@PLACE.THE_SEA_OF_CLOUDS - 1",
+            "name": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "source": "q.67183",
+            "patch": "3.0",
             "cSiblings": ["q.67183"]
         },
         "x5": {
-            "name": "@PLACE.THE_SEA_OF_CLOUDS - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Sea Of Clouds Riding Map",
+            "name_fr": "Carte détaillée de L'Écume des cieux d'Abalathia",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         },
         "x6": {
-            "name": "@PLACE.AZYS_LLA - 1",
+            "name": "@PLACE.HW.AZYS_LLA",
             "source": "q.67203",
+            "patch": "3.0",
             "cSiblings": ["q.67203"]
         },
         "x7": {
-            "name": "@PLACE.AZYS_LLA - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Azys Lla Riding Map",
+            "name_fr": "Carte détaillée d'Azys Lla",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         },
         "x8": {
-            "name": "@PLACE.IDYLLSHIRE",
+            "name": "@PLACE.HW.IDYLLSHIRE",
             "source": "q.67205",
+            "patch": "3.0",
             "cSiblings": ["q.67205"]
         },
         "x9": {
-            "name": "@PLACE.THE_DRAVANIAN_FORELANDS - 1",
+            "name": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
             "source": "q.67152",
+            "patch": "3.0",
             "cSiblings": ["q.67152"]
         },
         "x10": {
-            "name": "@PLACE.THE_DRAVANIAN_FORELANDS - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Dravanian Forelands Riding Map",
+            "name_fr": "Carte détaillée de l'Avant-pays dravanien",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         },
         "x11": {
-            "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 1",
+            "name": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
             "source": "q.67195",
+            "patch": "3.0",
             "cSiblings": ["q.67195"]
         },
         "x12": {
-            "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Dravanian Hinterlands Riding Map",
+            "name_fr": "Carte détaillée de l'Arrière-pays dravanien",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         },
         "x13": {
-            "name": "@PLACE.THE_CHURNING_MISTS - 1",
+            "name": "@PLACE.HW.THE_CHURNING_MISTS",
             "source": "q.67162",
+            "patch": "3.0",
             "cSiblings": ["q.67162"]
         },
         "x14": {
-            "name": "@PLACE.THE_CHURNING_MISTS - 2",
-            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)"
+            "name_en": "Churning Mists Riding Map",
+            "name_fr": "Carte détaillée de L'Écume des cieux de Dravania",
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.HUNT.CENTURIO)",
+            "patch": "4.0"
         }
     }
 }

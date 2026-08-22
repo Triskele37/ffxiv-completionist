@@ -3,7 +3,9 @@ import { setCompletion } from '@model/Task/completion/setCompletion';
 
 import { DataGroup } from '../';
 
-export function setDefaultCompletion(group: DataGroup, value: CompletionFlag) {
+export function setDefaultCompletion(group: DataGroup | null, value: CompletionFlag) {
+    if(!group) return;
+
     group.defaultCompletion = value;
 
     group.subGroups?.forEach((subGroup) => setDefaultCompletion(subGroup, value));

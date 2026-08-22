@@ -1,118 +1,118 @@
 {
     "key": "north-shroud",
-    "groupName": "@PLACE.NORTH_SHROUD",
+    "groupName": "@PLACE.ARR.NORTH_SHROUD",
     "tasks": {
         "x178": {
-            "level": 3,
             "name_en": "Dschubba Snacks",
             "name_fr": "Défi : l'élu des acari",
+            "level": 3,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(25, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x183": {
-            "level": 3,
             "name_en": "Breaking Bud",
             "name_fr": "Menace simiesque",
+            "level": 3,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x174": {
-            "level": 5,
             "name_en": "No Birds Allowed",
             "name_fr": "Voler dans les plumes",
+            "level": 5,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x184": {
-            "level": 7,
             "name_en": "The Magical Fruit",
             "name_fr": "La faim des haricots",
+            "level": 7,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(28, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x185": {
-            "level": 8,
             "name_en": "Micromanaging",
             "name_fr": "Défi : un parfum de catastrophe",
+            "level": 8,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x187": {
-            "level": 25,
             "name_en": "The Big Issue",
             "name_fr": "La caravane passe",
+            "level": 25,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(22, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x188": {
-            "level": 27,
             "name_en": "It Ziz What It Is",
             "name_fr": "Un appétit d'oiseau",
+            "level": 27,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x189": {
-            "level": 27,
             "name_en": "Hare Today",
             "name_fr": "Dangereux xylophages",
+            "level": 27,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x180": {
-            "level": 28,
             "name_en": "That Which Binds Us",
             "name_fr": "Le lien de vie",
+            "level": 28,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(17, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x216": {
-            "level": 28,
             "name_en": "Waiting for a Moon to Fall",
             "name_fr": "Les rejetons de la lune rouge",
+            "level": 28,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 31)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x631": {
-            "level": 37,
             "name_en": "Don't Disturb This Grove",
             "name_fr": "Touche pas à mon arbre !",
+            "level": 37,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x634": {
-            "level": 37,
             "name_en": "Smells Like Tree Spirit",
             "name_fr": "Défi : chêne déchaîné",
+            "level": 37,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23, 24)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x633": {
-            "level": 47,
             "name_en": "Air Supply",
             "name_fr": "Raid sur le site de déboisement ixal",
+            "level": 47,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x632": {
-            "level": 48,
             "name_en": "Rude Awakening",
             "name_fr": "Défi : les morts en marche",
+            "level": 48,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

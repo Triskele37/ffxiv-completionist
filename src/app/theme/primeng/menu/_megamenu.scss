@@ -1,55 +1,60 @@
-.p-megamenu {
-    padding: $horizontalMenuPadding;
-    background: $horizontalMenuBg;
-    color: $horizontalMenuTextColor;
-    border: $horizontalMenuBorder;
-    border-radius: var(--border-radius);
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-megamenu-root-list {
-        outline: 0 none;
-    }
-
-    .p-menuitem {
-        @include menuitem();
-    }
-
-    .p-megamenu-panel {
-        background: $overlayMenuBg;
-        color: $menuTextColor;
-        border: $overlayMenuBorder;
-        box-shadow: $overlayMenuShadow;
+@layer primeng {
+    .p-megamenu {
+        padding: variables.$horizontalMenuPadding;
+        background: variables.$horizontalMenuBg;
+        color: variables.$horizontalMenuTextColor;
+        border: variables.$horizontalMenuBorder;
         border-radius: var(--border-radius);
-    }
 
-    .p-submenu-header {
-        margin: $submenuHeaderMargin;
-        padding: $submenuHeaderPadding;
-        color: $submenuHeaderTextColor;
-        background: $submenuHeaderBg;
-        font-weight: $submenuHeaderFontWeight;
-        border-top-right-radius: var(--border-radius);
-        border-top-left-radius: var(--border-radius);
-    }
-
-    .p-submenu-list {
-        padding: $verticalMenuPadding;
-        width: $menuWidth;
-
-        .p-menuitem-separator {
-            border-top: $divider;
-            margin: $menuSeparatorMargin;
-        }
-    }
-
-    &.p-megamenu-vertical {
-        width: $menuWidth;
-        padding: $verticalMenuPadding;
-    }
-
-    &.p-megamenu-horizontal {
         .p-megamenu-root-list {
-            > .p-menuitem {
-                @include horizontal-rootmenuitem();
+            outline: 0 none;
+        }
+
+        .p-menuitem {
+            @include mixins.menuitem();
+        }
+
+        .p-megamenu-panel {
+            background: variables.$overlayMenuBg;
+            color: variables.$menuTextColor;
+            border: variables.$overlayMenuBorder;
+            box-shadow: variables.$overlayMenuShadow;
+            border-radius: var(--border-radius);
+        }
+
+        .p-submenu-header {
+            margin: variables.$submenuHeaderMargin;
+            padding: variables.$submenuHeaderPadding;
+            color: variables.$submenuHeaderTextColor;
+            background: variables.$submenuHeaderBg;
+            font-weight: variables.$submenuHeaderFontWeight;
+            border-top-right-radius: var(--border-radius);
+            border-top-left-radius: var(--border-radius);
+        }
+
+        .p-submenu-list {
+            padding: variables.$verticalMenuPadding;
+            width: variables.$menuWidth;
+
+            .p-menuitem-separator {
+                border-top: variables.$divider;
+                margin: variables.$menuSeparatorMargin;
+            }
+        }
+
+        &.p-megamenu-vertical {
+            width: variables.$menuWidth;
+            padding: variables.$verticalMenuPadding;
+        }
+
+        &.p-megamenu-horizontal {
+            .p-megamenu-root-list {
+                > .p-menuitem {
+                    @include mixins.horizontal-rootmenuitem();
+                }
             }
         }
     }

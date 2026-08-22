@@ -4,7 +4,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStore } from '../Store.d';
 import { SaveStoreService } from '../save-store.service';
 
-type ID = number | string;
+export type ID = number | string;
 
 export class ChangeStore {
     svcConfigStore: ConfigStoreService;
@@ -118,7 +118,7 @@ export class ChangeStore {
         const flags = idMap.reduce((acc, [oldId, newId]) => {
             acc[newId] = sourceStore[oldId];
             return acc;
-        }, {});
+        }, {} as Record<number, string>);
 
         // Clear out target
         idMap.forEach(([oldId]) => delete targetStore[oldId]);
@@ -241,7 +241,7 @@ export class ChangeStore {
         const groupToDelete = groupPathArr.pop();
 
         const groupToDeleteParent = dive(groupPathArr, this.newStore);
-        if(!!groupToDeleteParent) delete groupToDeleteParent[groupToDelete];
+        if(!!groupToDeleteParent && groupToDelete) delete groupToDeleteParent[groupToDelete];
 
         this.removeBookmarkedGroup(groupPath);
     }
@@ -269,5 +269,5 @@ function splitLastSegment(path: string): [string, string] {
     const rightSegment = leftSegments.pop(); // Grabs the last dot accessor
 
     // Recombine the rest of the left hand dots
-    return [leftSegments.join('.'), rightSegment];
+    return [leftSegments.join('.'), rightSegment ?? ''];
 }

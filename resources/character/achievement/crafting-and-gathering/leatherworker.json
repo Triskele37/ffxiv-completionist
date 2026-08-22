@@ -8,8 +8,8 @@
             "name_fr": "Tourner autour des peaux : Amateur",
             "description_en": "Successfully synthesize 50 times for level 1-10 leatherworking recipes.",
             "description_fr": "Réaliser 50 synthèses de tannerie de niveau 1 à 10.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.166"]
         },
         "x162": {
@@ -17,8 +17,8 @@
             "name_fr": "Tourner autour des peaux : Recrue",
             "description_en": "Successfully synthesize 300 times for level 11-20 leatherworking recipes.",
             "description_fr": "Réaliser 300 synthèses de tannerie de niveau 11 à 20.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.166"]
         },
         "x163": {
@@ -26,8 +26,8 @@
             "name_fr": "Tourner autour des peaux : Initié",
             "description_en": "Successfully synthesize 750 times for level 21-30 leatherworking recipes.",
             "description_fr": "Réaliser 750 synthèses de tannerie de niveau 21 à 30.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.166"]
         },
         "x164": {
@@ -35,8 +35,8 @@
             "name_fr": "Tourner autour des peaux : Novice",
             "description_en": "Successfully synthesize 1,500 times for level 31-40 leatherworking recipes.",
             "description_fr": "Réaliser 1 500 synthèses de tannerie de niveau 31 à 40.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.166"]
         },
         "x165": {
@@ -44,21 +44,21 @@
             "name_fr": "Tourner autour des peaux : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 leatherworking recipes.",
             "description_fr": "Réaliser 3 000 synthèses de tannerie de niveau 41 à 50.",
+            "points": 10,
             "reward": "t.21",
             "patch": "2.0",
-            "points": 10,
-            "cSiblings": ["t.21"],
-            "cCombo": ["a.166"]
+            "cCombo": ["a.166"],
+            "cSiblings": ["t.21"]
         },
         "x166": {
             "name_en": "A Leatherworker's Life for Me",
             "name_fr": "J'ai le cuir dans la peau",
             "description_en": "Obtain the first five “Hiding in Plain Sight” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Tourner autour des peaux”.",
+            "points": 30,
             "reward_en": "Knife of the Luminary",
             "reward_fr": "Couteau de virtuose",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.161", "a.162", "a.163", "a.164", "a.165"]
         },
         "x1305": {
@@ -66,48 +66,48 @@
             "name_fr": "Tourner autour des peaux : Expert",
             "description_en": "Successfully synthesize 1,000 times for level 51-60 leatherworking recipes.",
             "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 51 à 60.",
-            "patch": "3.0",
-            "points": 10
+            "points": 10,
+            "patch": "3.0"
         },
         "x1852": {
             "name_en": "Hiding in Plain Sight: Veteran",
             "name_fr": "Tourner autour des peaux : Maître",
             "description_en": "Successfully synthesize 1,000 times for level 61-70 leatherworking recipes.",
             "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 61 à 70.",
-            "patch": "4.0",
-            "points": 10
+            "points": 10,
+            "patch": "4.0"
         },
         "x2284": {
             "name_en": "Hiding in Plain Sight: Master",
             "name_fr": "Tourner autour des peaux : Génie",
             "description_en": "Successfully synthesize 1,000 times for level 71-80 leatherworking recipes.",
             "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 71 à 80.",
-            "patch": "5.0",
-            "points": 10
+            "points": 10,
+            "patch": "5.0"
         },
         "x2932": {
             "name_en": "Hiding in Plain Sight: Genius",
             "name_fr": "Tourner autour des peaux : Prodige",
             "description_en": "Successfully synthesize 1,000 times for level 81-90 leatherworking recipes.",
             "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 81 à 90.",
-            "patch": "6.0",
-            "points": 10
+            "points": 10,
+            "patch": "6.0"
         },
         "x3471": {
-            "description_en": "Successfully synthesize 1,000 times for level 91-100 leatherworking recipes.",
-            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 91 à 100.",
             "name_en": "Hiding in Plain Sight: Exemplar",
             "name_fr": "Tourner autour des peaux : As",
-            "patch": "7.0",
-            "points": 10
+            "description_en": "Successfully synthesize 1,000 times for level 91-100 leatherworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 91 à 100.",
+            "points": 10,
+            "patch": "7.0"
         },
         "x707": {
             "name_en": "I Made That: Leatherworker I",
             "name_fr": "Carnet de notes : tanneur I",
             "description_en": "Craft and record completion of 40 unique leatherworker recipes.",
             "description_fr": "Faire 40 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.708"]
         },
         "x708": {
@@ -115,8 +115,8 @@
             "name_fr": "Carnet de notes : tanneur II",
             "description_en": "Craft and record completion of 90 unique leatherworker recipes.",
             "description_fr": "Faire 90 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.707"],
             "cNext": ["a.709"]
         },
@@ -125,10 +125,10 @@
             "name_fr": "Carnet de notes : tanneur III",
             "description_en": "Craft and record completion of 180 unique leatherworker recipes.",
             "description_fr": "Faire 180 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Master Leatherworker's Ring",
             "reward_fr": "Anneau de maître tanneur",
-            "patch": "2.1",
-            "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.708"],
             "cNext": ["a.1282"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Carnet de notes : tanneur IV",
             "description_en": "Craft and record completion of 260 unique leatherworker recipes.",
             "description_fr": "Faire 260 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.709"],
             "cNext": ["a.1725"]
         },
@@ -147,10 +147,10 @@
             "name_fr": "Carnet de notes : tanneur V",
             "description_en": "Craft and record completion of 360 unique leatherworker recipes.",
             "description_fr": "Faire 360 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Hidekeep's Knife",
             "reward_fr": "Couteau de mégissier béni",
             "patch": "3.5",
-            "points": 10,
             "cPrev": ["a.1282"],
             "cNext": ["a.2170"]
         },
@@ -159,10 +159,10 @@
             "name_fr": "Carnet de notes : tanneur VI",
             "description_en": "Craft and record completion of 460 unique leatherworker recipes.",
             "description_fr": "Faire 460 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Hideking's Knife",
             "reward_fr": "Couteau du roi de la peausserie béni",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.1725"]
         },
         "x762": {
@@ -170,8 +170,8 @@
             "name_fr": "De main de maître : tanneur I",
             "description_en": "Craft 100 high-quality items as a leatherworker.",
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que tanneur.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.763"]
         },
         "x763": {
@@ -179,8 +179,8 @@
             "name_fr": "De main de maître : tanneur II",
             "description_en": "Craft 500 high-quality items as a leatherworker.",
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que tanneur.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.762"],
             "cNext": ["a.764"]
         },
@@ -189,8 +189,8 @@
             "name_fr": "De main de maître : tanneur III",
             "description_en": "Craft 3,000 high-quality items as a leatherworker.",
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que tanneur.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.763"],
             "cNext": ["a.1317"]
         },
@@ -199,8 +199,8 @@
             "name_fr": "De main de maître : tanneur IV",
             "description_en": "Craft 5,000 high-quality items as a leatherworker.",
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que tanneur.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.764"],
             "cNext": ["a.1325"]
         },
@@ -209,9 +209,9 @@
             "name_fr": "De main de maître : tanneur V",
             "description_en": "Craft 10,000 high-quality items as a leatherworker.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant que tanneur.",
+            "points": 10,
             "reward": "t.257",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1317"],
             "cSiblings": ["t.257"]
         },
@@ -220,8 +220,8 @@
             "name_fr": "Couteau d'Azurée I",
             "description_en": "Earn 50,000 points toward your skyward score as a leatherworker.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que tanneur.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2502"],
             "cCombo": ["a.2522"]
         },
@@ -230,8 +230,8 @@
             "name_fr": "Couteau d'Azurée II",
             "description_en": "Earn 150,000 points toward your skyward score as a leatherworker.",
             "description_fr": "Gagner un total de 150 000 points d'azur en tant que tanneur.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2501"],
             "cNext": ["a.2503"]
         },
@@ -240,21 +240,21 @@
             "name_fr": "Couteau d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a leatherworker.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant que tanneur.",
+            "points": 10,
             "reward": "t.494",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2502"],
-            "cSiblings": ["t.494"],
-            "cCombo": ["a.2524"]
+            "cCombo": ["a.2524"],
+            "cSiblings": ["t.494"]
         },
         "x2531": {
             "name_en": "The Height of Leathercraft",
             "name_fr": "Tanneur du Nichoir",
             "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la deuxième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.507",
             "patch": "5.21",
-            "points": 10,
             "cSiblings": ["t.507"]
         },
         "x2652": {
@@ -262,9 +262,9 @@
             "name_fr": "Tanneur de Tombeplume",
             "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la troisième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.532",
             "patch": "5.31",
-            "points": 10,
             "cSiblings": ["t.532"]
         },
         "x2811": {
@@ -272,9 +272,9 @@
             "name_fr": "Tanneur du Nouveau Refrain",
             "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la quatrième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.569",
             "patch": "5.41",
-            "points": 10,
             "cSiblings": ["t.569"]
         },
         "x2826": {
@@ -282,9 +282,45 @@
             "name_fr": "Tannerie resplendissante",
             "description_en": "Obtain a resplendent hidefiend's knife.",
             "description_fr": "Obtenir un couteau du fiélon de la peausserie resplendissant.",
-            "patch": "5.5",
             "points": 10,
+            "patch": "5.5",
             "cCombo": ["a.2829"]
+        },
+        "x3714": {
+            "name_en": "Rocket Tanning I",
+            "name_fr": "Tanneur du cosmos I",
+            "description_en": "Earn a cosmic class score of 50,000 points as a leatherworker.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant que tanneur.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3715": {
+            "name_en": "Rocket Tanning II",
+            "name_fr": "Tanneur du cosmos II",
+            "description_en": "Earn a cosmic class score of 150,000 points as a leatherworker.",
+            "description_fr": "Gagner un total de 150 000 points cosmiques en tant que tanneur.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3716": {
+            "name_en": "Tanning with the Stars",
+            "name_fr": "Maître tanneur du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as a leatherworker.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques en tant que tanneur.",
+            "points": 10,
+            "reward": "t.786",
+            "patch": "7.21",
+            "cSiblings": ["t.786"]
+        },
+        "x3906": {
+            "name_en": "Master of the Universe: Leatherworker",
+            "name_fr": "Tanneur intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as a leatherworker.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise en tant que tanneur.",
+            "points": 10,
+            "reward": "t.839",
+            "patch": "7.51",
+            "cSiblings": ["t.839"]
         }
     }
 }

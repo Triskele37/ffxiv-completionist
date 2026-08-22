@@ -3,705 +3,805 @@
     "groupName_en": "Page 7",
     "groupName_fr": "Page 7",
     "tasks": {
-        "x0": {
+        "x601": {
             "name_en": "Hak Bitterling",
             "name_fr": "Bouvière de Hak",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.176",
+            "patch": "4.0"
         },
-        "x1": {
+        "x602": {
             "name_en": "Whitehorse",
             "name_fr": "Chevalier servant",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "@FISH.BAIT.SILKWORM"
+            "bait": "@FISH.BAIT.SILKWORM",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
         },
-        "x2": {
+        "x603": {
             "name_en": "Sculptor",
             "name_fr": "Sculpteur",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.85"
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
         },
-        "x3": {
-            "name_en": "Pearl-Eye",
+        "x604": {
+            "name_en": "Pearl-eye",
             "name_fr": "Œil-de-perle",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.85"
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
         },
-        "x4": {
+        "x605": {
             "name_en": "Steelshark",
             "name_fr": "Requin-acier",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.10",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.0"
         },
-        "x5": {
+        "x606": {
             "name_en": "Harutsuge",
             "name_fr": "Harutsuge-uo",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.0"
         },
-        "x6": {
+        "x607": {
             "name_en": "Silken Koi",
             "name_fr": "Koï satiné",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.12",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.0"
         },
-        "x7": {
+        "x608": {
             "name_en": "Hanatatsu",
             "name_fr": "Hanatatsu",
-            "zone": "@PLACE.KUGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.0",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.0"
         },
-        "x8": {
+        "x609": {
             "name_en": "Deemster",
             "name_fr": "Magistrat",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.11",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.193",
+            "patch": "4.0"
         },
-        "x9": {
+        "x610": {
             "name_en": "Swordfish",
             "name_fr": "Espadon",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.4",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.162",
+            "patch": "4.0"
         },
-        "x10": {
+        "x611": {
             "name_en": "Plum Gazer",
             "name_fr": "Témoin des Pruniers",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.12",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.0"
         },
-        "x11": {
+        "x612": {
             "name_en": "Zekki Gator",
             "name_fr": "Requin de Zekki",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.6",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.164",
+            "patch": "4.0"
         },
-        "x12": {
+        "x613": {
             "name_en": "Wraithfish",
             "name_fr": "Poisson-spectre",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.0"
         },
-        "x13": {
+        "x614": {
             "name_en": "Castaway Chocobo Chick",
             "name_fr": "Bébé chocobo des mers",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.27",
-            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.156",
+            "patch": "4.0"
         },
-        "x14": {
+        "x615": {
             "name_en": "Little Perykos",
             "name_fr": "Petit Perykos",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.27",
-            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.156",
+            "patch": "4.0"
         },
-        "x15": {
+        "x616": {
             "name_en": "Gyr Abanian Chub",
             "name_fr": "Chevesne gyrabanien",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.1"
         },
-        "x16": {
+        "x617": {
             "name_en": "Coral Horse",
             "name_fr": "Cheval corallin",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.1"
         },
-        "x17": {
+        "x618": {
             "name_en": "Maiden's Heart",
             "name_fr": "Marimo d'amour",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.7",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.165",
+            "patch": "4.1"
         },
-        "x18": {
+        "x619": {
             "name_en": "Velodyna Salmon",
             "name_fr": "Saumon de la Velodyna",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.188",
+            "patch": "4.1"
         },
-        "x19": {
+        "x620": {
             "name_en": "Purple Buckler",
             "name_fr": "Égide améthyste",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.10",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.1"
         },
-        "x20": {
+        "x621": {
             "name_en": "Cardinalfish",
             "name_fr": "Poisson-cardinal",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.1"
         },
-        "x21": {
+        "x622": {
             "name_en": "Rockfish",
             "name_fr": "Poisson-caillou",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.195",
+            "patch": "4.1"
         },
-        "x22": {
+        "x623": {
             "name_en": "Ukiki",
             "name_fr": "Ukiki",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.1"
         },
-        "x23": {
+        "x624": {
             "name_en": "Violet Prismfish",
             "name_fr": "Poisson-prisme violet",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.1"
         },
-        "x24": {
+        "x625": {
             "name_en": "Guppy",
             "name_fr": "Guppy",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.20",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.178",
+            "patch": "4.1"
         },
-        "x25": {
+        "x626": {
             "name_en": "Redtail",
             "name_fr": "Poisson-chat à queue rouge",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
-            "bait": "logs.gathering.fishing-guide.fishing.page-5.97"
+            "bait": "f.498",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.184",
+            "patch": "4.2"
         },
-        "x26": {
+        "x627": {
             "name_en": "Mirage Mahi",
             "name_fr": "Mahi-mahi mirage",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.189",
+            "patch": "4.2"
         },
-        "x27": {
+        "x628": {
             "name_en": "Alligator Snapping Turtle",
             "name_fr": "Tortue alligator",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.12",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.194",
+            "patch": "4.2"
         },
-        "x28": {
+        "x629": {
             "name_en": "Saltmill",
             "name_fr": "Moud-sel",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.85"
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.2"
         },
-        "x29": {
+        "x630": {
             "name_en": "Ribbon Eel",
             "name_fr": "Murène ruban",
-            "zone": "@PLACE.KUGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.0",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.2"
         },
-        "x30": {
+        "x631": {
             "name_en": "Bonsai Fish",
             "name_fr": "Poisson-bonsaï",
-            "zone": "@PLACE.SHIROGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.2",
-            "bait": "@FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.198",
+            "patch": "4.2"
         },
-        "x31": {
+        "x632": {
             "name_en": "Triplespine",
             "name_fr": "Triplépine",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.2"
         },
-        "x32": {
+        "x633": {
             "name_en": "Usuginu Octopus",
             "name_fr": "Poulpe usuginu",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.2",
-            "bait": "@FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.160",
+            "patch": "4.2"
         },
-        "x33": {
+        "x634": {
             "name_en": "Red Prismfish",
             "name_fr": "Poisson-prisme rouge",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.2"
         },
-        "x34": {
+        "x635": {
             "name_en": "Elder Gourami",
             "name_fr": "Gourami ancêtre",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.21",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.54"
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.179",
+            "patch": "4.2"
         },
-        "x35": {
+        "x636": {
             "name_en": "Shrieker",
             "name_fr": "Hurleur",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.3"
         },
-        "x36": {
+        "x637": {
             "name_en": "White Goldfish",
             "name_fr": "Poisson-prisme blanc",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-7.33"
+            "bait": "f.634",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.3"
         },
-        "x37": {
+        "x638": {
             "name_en": "Firelight Goldfish",
             "name_fr": "Poisson-prisme orange",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-7.33"
+            "bait": "f.634",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.3"
         },
-        "x38": {
+        "x639": {
             "name_en": "Hookstealer",
             "name_fr": "Voleur d'hameçon",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.8"
+            "bait": "f.509",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.182",
+            "patch": "4.3"
         },
-        "x39": {
+        "x640": {
             "name_en": "Sapphire Fan",
             "name_fr": "Éventail de saphir",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.3"
         },
-        "x40": {
+        "x641": {
             "name_en": "The Archbishop",
             "name_fr": "Archevêque",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.3"
         },
-        "x41": {
+        "x642": {
             "name_en": "Bondsplitter",
             "name_fr": "Divorceur",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.3"
         },
-        "x42": {
+        "x643": {
             "name_en": "The Undecided",
             "name_fr": "Girouette",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.8"
+            "bait": "f.509",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.191",
+            "patch": "4.3"
         },
-        "x43": {
-            "name_en": "Diamond-Eye",
+        "x644": {
+            "name_en": "Diamond-eye",
             "name_fr": "Œil-de-diamant",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.85"
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.3"
         },
-        "x44": {
+        "x645": {
             "name_en": "Rising Dragon",
             "name_fr": "Dragon du firmament",
-            "zone": "@PLACE.KUGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.0",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.3"
         },
-        "x45": {
+        "x646": {
             "name_en": "The Gambler",
             "name_fr": "Flambeur",
-            "zone": "@PLACE.SHIROGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.1",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.197",
+            "patch": "4.3"
         },
-        "x46": {
+        "x647": {
             "name_en": "The Winter Queen",
             "name_fr": "Reine d'hiver",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.3"
         },
-        "x47": {
+        "x648": {
             "name_en": "Rakshasa",
             "name_fr": "Rakshasa",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.6",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.164",
+            "patch": "4.3"
         },
-        "x48": {
+        "x649": {
             "name_en": "Bokuden",
             "name_fr": "Bokuden",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.16",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.170",
+            "patch": "4.3"
         },
-        "x49": {
+        "x650": {
             "name_en": "Hagoromo Koi",
             "name_fr": "Koï au hagoromo",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.12",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.3"
         },
-        "x50": {
+        "x651": {
             "name_en": "The Word of God",
             "name_fr": "Iconoclaste",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.21",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.179",
+            "patch": "4.3"
         },
-        "x51": {
+        "x652": {
             "name_en": "Yat Khan",
             "name_fr": "Khan de Yat",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.22",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.180",
+            "patch": "4.3"
         },
-        "x52": {
+        "x653": {
             "name_en": "Curefish",
             "name_fr": "Guérisandre",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.3"
         },
-        "x53": {
+        "x654": {
             "name_en": "Lake Sphairai",
             "name_fr": "Poisson Sphairai",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.3"
         },
-        "x54": {
+        "x655": {
             "name_en": "Warmscale Pleco",
             "name_fr": "Pléco chaudécailles",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.16",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "4.3"
         },
-        "x55": {
+        "x656": {
             "name_en": "Shirogane Clam",
             "name_fr": "Huître argentée",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.3"
         },
-        "x56": {
+        "x657": {
             "name_en": "Illuminati Mask",
             "name_fr": "Masque indigo",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.131",
+            "patch": "4.3"
         },
-        "x57": {
+        "x658": {
             "name_en": "Indigo Prismfish",
             "name_fr": "Poisson-prisme indigo",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-7.23"
+            "bait": "f.624",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.4"
         },
-        "x58": {
+        "x659": {
             "name_en": "Green Prismfish",
             "name_fr": "Poisson-prisme vert",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.4"
         },
-        "x59": {
+        "x660": {
             "name_en": "Watcher Catfish",
             "name_fr": "Poisson-chat pourpré",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.8"
+            "bait": "f.509",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.183",
+            "patch": "4.4"
         },
-        "x60": {
+        "x661": {
             "name_en": "Bloodtail Zombie",
             "name_fr": "Zombi à queue rouge",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
-            "bait": "logs.gathering.fishing-guide.fishing.page-5.97"
+            "bait": "f.498",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.184",
+            "patch": "4.4"
         },
-        "x61": {
+        "x662": {
             "name_en": "Hardhead Trout",
             "name_fr": "Truite tête de cermet",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.4"
         },
-        "x62": {
+        "x663": {
             "name_en": "Downstream Loach",
             "name_fr": "Loche de l'aval",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.188",
+            "patch": "4.4"
         },
-        "x63": {
+        "x664": {
             "name_en": "Corpse Chub",
             "name_fr": "Chevesne cadavérique",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.189",
+            "patch": "4.4"
         },
-        "x64": {
+        "x665": {
             "name_en": "The Last Tear",
             "name_fr": "Ultime larme",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.10",
-            "bait": "@FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.4"
         },
-        "x65": {
+        "x666": {
             "name_en": "Hemon",
             "name_fr": "Hémon",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.12",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.194",
+            "patch": "4.4"
         },
-        "x66": {
+        "x667": {
             "name_en": "Moksha",
             "name_fr": "Moksha",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.11",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.193",
+            "patch": "4.4"
         },
-        "x67": {
+        "x668": {
             "name_en": "Princess Killifish",
             "name_fr": "Princesse killi",
-            "zone": "@PLACE.SHIROGANE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.2",
-            "bait": "@FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.198",
+            "patch": "4.4"
         },
-        "x68": {
+        "x669": {
             "name_en": "Ku'er",
             "name_fr": "Coeurl des mers",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.4"
         },
-        "x69": {
+        "x670": {
             "name_en": "Argonautica",
             "name_fr": "Anguille-serpent de mer",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.4",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.162",
+            "patch": "4.4"
         },
-        "x70": {
+        "x671": {
             "name_en": "Hagoromo Bijin",
             "name_fr": "Belle au hagoromo",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.11",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.173",
+            "patch": "4.4"
         },
-        "x71": {
+        "x672": {
             "name_en": "Duskfish",
             "name_fr": "Poisson crépusculaire",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.20",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.54"
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.178",
+            "patch": "4.4"
         },
-        "x72": {
+        "x673": {
             "name_en": "Blade Skipper",
             "name_fr": "Gobie des fanes",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.19",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.177",
+            "patch": "4.4"
         },
-        "x73": {
+        "x674": {
             "name_en": "Lily of the Veil",
             "name_fr": "Poisson-voile mhigois",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.195",
+            "patch": "4.5"
         },
-        "x74": {
+        "x675": {
             "name_en": "The Vegetarian",
             "name_fr": "Liopleurodon végétarien",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.5"
         },
-        "x75": {
+        "x676": {
             "name_en": "Seven Stars",
             "name_fr": "Requin aux sept étoiles",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.2",
-            "bait": "@FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.160",
+            "patch": "4.5"
         },
-        "x76": {
+        "x677": {
             "name_en": "Pinhead",
             "name_fr": "Poisson porte-épines",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "@FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.5"
         },
-        "x77": {
+        "x678": {
             "name_en": "Pomegranate Trout",
             "name_fr": "Truite sanguinaire",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.7",
-            "bait": "@FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.165",
+            "patch": "4.5"
         },
-        "x78": {
+        "x679": {
             "name_en": "Glarramundi",
             "name_fr": "Diable du Héron",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.8",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.166",
+            "patch": "4.5"
         },
-        "x79": {
+        "x680": {
             "name_en": "Hermit's End",
             "name_fr": "Ermite de l'étang",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.9",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.167",
+            "patch": "4.5"
         },
-        "x80": {
+        "x681": {
             "name_en": "Suiten Ippeki",
             "name_fr": "Suiten ippeki",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.15",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.171",
+            "patch": "4.5"
         },
-        "x81": {
+        "x682": {
             "name_en": "Axelrod",
             "name_fr": "Avale-roux",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.172",
+            "patch": "4.5"
         },
-        "x82": {
+        "x683": {
             "name_en": "The Unraveled Bow",
             "name_fr": "Rayon de prisme",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.13",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.169",
+            "patch": "4.5"
         },
-        "x83": {
+        "x684": {
             "name_en": "Nhaama's Treasure",
             "name_fr": "Trésor de Nhaama",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.23",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.181",
+            "patch": "4.5"
         },
-        "x84": {
+        "x685": {
             "name_en": "Garden Skipper",
             "name_fr": "Gobie des champs",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.17",
-            "bait": "@FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.175",
+            "patch": "4.5"
         },
-        "x85": {
+        "x686": {
             "name_en": "Banderole",
             "name_fr": "Pléco oriflamme",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.54"
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.176",
+            "patch": "4.5"
         },
-        "x86": {
+        "x687": {
             "name_en": "Northern Oyster",
             "name_fr": "Huître du Nord",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.15",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.115",
+            "patch": "4.5"
         },
-        "x87": {
+        "x688": {
             "name_en": "Ruby Laver",
             "name_fr": "Sargasse tamamo brune",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.5"
         },
-        "x88": {
+        "x689": {
             "name_en": "Chakrafish",
             "name_fr": "Poisson chatkra",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.5"
         },
-        "x89": {
+        "x690": {
             "name_en": "Wicked Wartfish",
             "name_fr": "Lotte de la bouche des enfers",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.5"
         },
-        "x90": {
+        "x691": {
             "name_en": "Othardian Salmon",
             "name_fr": "Saumon d'Othard",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "@FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.172",
+            "patch": "4.5"
         },
-        "x91": {
+        "x692": {
             "name_en": "Warden of the Seven Hues",
             "name_fr": "Poisson-prisme arc-en-ciel",
-            "zone": "@PLACE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.56"
         },
-        "x92": {
+        "x693": {
             "name_en": "Xenacanthus",
             "name_fr": "Xenacanthus",
-            "zone": "@PLACE.THE_FRINGES",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "logs.gathering.fishing-guide.fishing.page-7.61"
+            "bait": "f.662",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.56"
         },
-        "x93": {
+        "x694": {
             "name_en": "Drepanaspis",
-            "name_fr": "Drepanaspis",
-            "zone": "@PLACE.THE_PEAKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
+            "name_fr": "Drepanapsis",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.56"
         },
-        "x94": {
+        "x695": {
             "name_en": "Stethacanthus",
             "name_fr": "Stethacanthus",
-            "zone": "@PLACE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "logs.gathering.fishing-guide.fishing.page-6.85"
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.56"
         },
-        "x95": {
+        "x696": {
             "name_en": "The Ruby Dragon",
-            "name_fr": "Koryu",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "logs.gathering.fishing-guide.fishing.page-7.68"
+            "name_fr": "Kôryû",
+            "bait": "f.669",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.56"
         },
-        "x96": {
+        "x697": {
             "name_en": "The Unconditional",
             "name_fr": "Absolu",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.othard.23",
-            "bait": "@FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.181",
+            "patch": "4.56"
         },
-        "x97": {
+        "x698": {
             "name_en": "Eighteyes Eel",
             "name_fr": "Octoculus",
-            "zone": "@PLACE.LAKELAND",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.4",
-            "bait": "@FISH.BAIT.FRUIT_WORM"
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "primeLocation": "fh.202",
+            "patch": "5.0"
         },
-        "x98": {
+        "x699": {
             "name_en": "Crystal Knife",
             "name_fr": "Couteau de cristal",
-            "zone": "@PLACE.THE_CRYSTARIUM",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.0",
-            "bait": "@FISH.BAIT.FRUIT_WORM"
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.THE_CRYSTARIUM",
+            "primeLocation": "fh.199",
+            "patch": "5.0"
         },
-        "x99": {
+        "x700": {
             "name_en": "Laxan Carp",
             "name_fr": "Carpe de Ganlag",
-            "zone": "@PLACE.THE_CRYSTARIUM",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.2",
-            "bait": "@FISH.BAIT.FRUIT_WORM"
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.THE_CRYSTARIUM",
+            "primeLocation": "fh.199",
+            "patch": "5.0"
         }
     }
 }

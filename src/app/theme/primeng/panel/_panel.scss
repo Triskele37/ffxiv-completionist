@@ -1,63 +1,68 @@
-.p-panel {
-    .p-panel-header {
-        border: $panelHeaderBorder;
-        padding: $panelHeaderPadding;
-        background: $panelHeaderBg;
-        color: $panelHeaderTextColor;
-        border-top-right-radius: var(--border-radius);
-        border-top-left-radius: var(--border-radius);
+@use "../_mixins";
+@use "../../_variables";
 
-        .p-panel-title {
-            font-weight: $panelHeaderFontWeight;
-        }
-
-        .p-panel-header-icon {
-            @include action-icon();
-        }
-    }
-
-    &.p-panel-toggleable {
+@layer primeng {
+    .p-panel {
         .p-panel-header {
-            padding: $panelToggleableHeaderPadding;
+            border: variables.$panelHeaderBorder;
+            padding: variables.$panelHeaderPadding;
+            background: variables.$panelHeaderBg;
+            color: variables.$panelHeaderTextColor;
+            border-top-right-radius: var(--border-radius);
+            border-top-left-radius: var(--border-radius);
+
+            .p-panel-title {
+                font-weight: variables.$panelHeaderFontWeight;
+            }
+
+            .p-panel-header-icon {
+                @include mixins.action-icon();
+            }
         }
-    }
 
-    .p-panel-content {
-        padding: $panelContentPadding;
-        border: $panelContentBorder;
-        background: $panelContentBg;
-        color: $panelContentTextColor;
-        border-top: 0 none;
+        &.p-panel-toggleable {
+            .p-panel-header {
+                padding: variables.$panelToggleableHeaderPadding;
+            }
+        }
 
-        &:last-child {
+        .p-panel-content {
+            padding: variables.$panelContentPadding;
+            border: variables.$panelContentBorder;
+            background: variables.$panelContentBg;
+            color: variables.$panelContentTextColor;
+            border-top: 0 none;
+
+            &:last-child {
+                border-bottom-right-radius: var(--border-radius);
+                border-bottom-left-radius: var(--border-radius);
+            }
+        }
+
+        .p-panel-footer {
+            padding: variables.$panelFooterPadding;
+            border: variables.$panelFooterBorder;
+            background: variables.$panelFooterBg;
+            color: variables.$panelFooterTextColor;
             border-bottom-right-radius: var(--border-radius);
             border-bottom-left-radius: var(--border-radius);
+            border-top: 0 none;
         }
-    }
 
-    .p-panel-footer {
-        padding: $panelFooterPadding;
-        border: $panelFooterBorder;
-        background: $panelFooterBg;
-        color: $panelFooterTextColor;
-        border-bottom-right-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
-        border-top: 0 none;
-    }
+        .p-panel-icons-end {
+            order: 2;
+            margin-left: auto;
+        }
 
-    .p-panel-icons-end {
-        order: 2;
-        margin-left: auto;
-    }
+        .p-panel-icons-start {
+            order: 0;
+            margin-right: var(--inline-spacing);
+        }
 
-    .p-panel-icons-start {
-        order: 0;
-        margin-right: var(--inline-spacing);
-    }
-
-    .p-panel-icons-center {
-        order: 2;
-        width:100%;
-        text-align:center;
+        .p-panel-icons-center {
+            order: 2;
+            width: 100%;
+            text-align: center;
+        }
     }
 }

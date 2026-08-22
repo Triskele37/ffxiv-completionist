@@ -4,311 +4,344 @@
     "groupName_fr": "Quêtes quotidiennes",
     "tasks": {
         "x67105": {
-            "level": 1,
             "name_en": "Deliverance",
             "name_fr": "Livraison et contribution",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 1,
             "npc_en": "Ehcatl Nine Manciple",
             "npc_fr": "Fournisseur Des Planeurs",
-            "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.67023"],
-            "patch": "4.31"
+            "patch": "2.35"
         },
         "x67030": {
-            "level": 1,
             "name_en": "Trust, but Verify",
             "name_fr": "Primates à mater",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 1,
             "npc_en": "Yazel Ahuatan the Able",
             "npc_fr": "Yazel Ahuatan",
-            "reputation": "@REPUTATION.NEUTRAL",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30511"]
         },
         "x67031": {
-            "level": 1,
             "name_en": "Misdirected Woo",
             "name_fr": "Une ration pour Paulemont",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 1,
             "npc_en": "Yazel Ahuatan the Able",
             "npc_fr": "Yazel Ahuatan",
-            "reputation": "@REPUTATION.NEUTRAL",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30512"]
         },
         "x67032": {
-            "level": 1,
             "name_en": "Keeping Up Appearances",
             "name_fr": "Lutte fratricide",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 1,
             "npc_en": "Yazel Ahuatan the Able",
             "npc_fr": "Yazel Ahuatan",
-            "reputation": "@REPUTATION.NEUTRAL",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30513"]
         },
         "x67033": {
-            "level": 1,
             "name_en": "Blow, Ye Winds",
             "name_fr": "Tel le vent",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 1,
             "npc_en": "Yazel Ahuatan the Able",
             "npc_fr": "Yazel Ahuatan",
-            "reputation": "@REPUTATION.NEUTRAL",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30514"]
         },
         "x67040": {
-            "level": 3,
             "name_en": "Gyrodriven",
             "name_fr": "Continuer la lutte",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 3,
             "npc_en": "Methuli Cattlan the Hard",
             "npc_fr": "Methuli Cattlan",
-            "reputation": "@REPUTATION.RECOGNIZED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30515"]
         },
         "x67041": {
-            "level": 3,
             "name_en": "Of Rodents and Rigging",
             "name_fr": "Quand les Qiqirns s'en mêlent",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 3,
             "npc_en": "Methuli Cattlan the Hard",
             "npc_fr": "Methuli Cattlan",
-            "reputation": "@REPUTATION.RECOGNIZED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30516"]
         },
         "x67042": {
-            "level": 3,
             "name_en": "What Evil Lurks in the Hearts of Golems",
             "name_fr": "La plume contre la pierre",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 3,
             "npc_en": "Methuli Cattlan the Hard",
             "npc_fr": "Methuli Cattlan",
-            "reputation": "@REPUTATION.RECOGNIZED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30517"]
         },
         "x67043": {
-            "level": 3,
             "name_en": "One Ixal's Buzzard",
             "name_fr": "Haut dans le ciel",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 3,
             "npc_en": "Methuli Cattlan the Hard",
             "npc_fr": "Methuli Cattlan",
-            "reputation": "@REPUTATION.RECOGNIZED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30518"]
         },
         "x67044": {
-            "level": 3,
             "name_en": "The Right Tool for the Tools",
             "name_fr": "Les outils d'Ademar",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 3,
             "npc_en": "Methuli Cattlan the Hard",
             "npc_fr": "Methuli Cattlan",
-            "reputation": "@REPUTATION.RECOGNIZED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30519"]
         },
         "x67050": {
-            "level": 6,
             "name_en": "And Thanks for All the Fish",
-            "name_fr": "Il est frais mon poisson!",
+            "name_fr": "Il est frais mon poisson !",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 6,
             "npc_en": "Rozol Cattlan the Prudent",
             "npc_fr": "Rozol Cattlan",
-            "reputation": "@REPUTATION.FRIENDLY",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30520"]
         },
         "x67051": {
-            "level": 6,
             "name_en": "An Empty Sack Cannot Hang Downright",
             "name_fr": "Nous nous envolerons",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 6,
             "npc_en": "Rozol Cattlan the Prudent",
             "npc_fr": "Rozol Cattlan",
-            "reputation": "@REPUTATION.FRIENDLY",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30521"]
         },
         "x67052": {
-            "level": 6,
             "name_en": "Hot Cross Buns",
             "name_fr": "L'heure de la tonte",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 6,
             "npc_en": "Rozol Cattlan the Prudent",
             "npc_fr": "Rozol Cattlan",
-            "reputation": "@REPUTATION.FRIENDLY",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30522"]
         },
         "x67053": {
-            "level": 6,
             "name_en": "Simply the Biast",
             "name_fr": "Griffe à gratter",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 6,
             "npc_en": "Rozol Cattlan the Prudent",
             "npc_fr": "Rozol Cattlan",
-            "reputation": "@REPUTATION.FRIENDLY",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30523"]
         },
         "x67054": {
-            "level": 6,
             "name_en": "A Long Way to the Top",
             "name_fr": "Nez magistral",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 6,
             "npc_en": "Rozol Cattlan the Prudent",
             "npc_fr": "Rozol Cattlan",
-            "reputation": "@REPUTATION.FRIENDLY",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30524"]
         },
         "x67034": {
-            "level": 10,
             "name_en": "Reach for the Starboard",
             "name_fr": "Un plan d'envergure",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30525"]
         },
         "x67035": {
-            "level": 10,
             "name_en": "Larboard and Lodging",
             "name_fr": "Rien sans aile",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30526"]
         },
         "x67036": {
-            "level": 10,
             "name_en": "Right-wing Aeronautics",
             "name_fr": "Aile pour aile, dent pour dent",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30527"]
         },
         "x67037": {
-            "level": 10,
             "name_en": "Left-wing Aeronautics",
             "name_fr": "Ayatlan, terre sacrée",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30528"]
         },
         "x67038": {
-            "level": 10,
             "name_en": "Getting into Gear",
             "name_fr": "Chat blanc, cœur noir",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30529"]
         },
         "x67039": {
-            "level": 10,
             "name_en": "Hells-vent on the Heavens",
             "name_fr": "Extra ventilation",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 10,
             "npc_en": "Tazel Meyean the Lettered",
             "npc_fr": "Tazel Meyean",
-            "reputation": "@REPUTATION.TRUSTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30530"]
         },
         "x67045": {
-            "level": 15,
             "name_en": "Crazy Like the Pox",
             "name_fr": "Duzal les bons tuyaux",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30531"]
         },
         "x67046": {
-            "level": 15,
             "name_en": "A Hard Knock Life",
             "name_fr": "Lumière sur le Dezul Qualan",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30532"]
         },
         "x67047": {
-            "level": 15,
             "name_en": "Manual Labor",
             "name_fr": "Échappement sans concessions",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30533"]
         },
         "x67048": {
-            "level": 15,
             "name_en": "Leave Nothing to Waste",
             "name_fr": "Vice d'évacuation",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30534"]
         },
         "x67049": {
-            "level": 15,
             "name_en": "Tanks for Nothing",
             "name_fr": "Réservoir XLIII",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30535"]
         },
         "x67055": {
-            "level": 15,
             "name_en": "Never Steer You Wrong",
             "name_fr": "Un atout dans le manche",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 15,
             "npc_en": "Duzal Meyean the Steady",
             "npc_fr": "Duzal Meyean",
-            "reputation": "@REPUTATION.RESPECTED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30536"]
         },
         "x67056": {
-            "level": 16,
             "name_en": "West for Fishing",
             "name_fr": "Plus dur sera le parachute",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30537"]
         },
         "x67057": {
-            "level": 16,
             "name_en": "Your Gil's No Good Here",
             "name_fr": "Réservoir de réserve",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30538"]
         },
         "x67058": {
-            "level": 16,
             "name_en": "Mining for Compliments",
             "name_fr": "Régime minceur",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30539"]
         },
         "x67059": {
-            "level": 16,
             "name_en": "A High Wind in Ishgard",
             "name_fr": "Attention vibrations",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30540"]
         },
         "x67102": {
-            "level": 16,
             "name_en": "Bring Your Own Ectoplasm",
             "name_fr": "La panse en feu",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30541"]
         },
         "x67103": {
-            "level": 16,
             "name_en": "In Case of Emergency",
             "name_fr": "L'aileron ou la cuisse",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30542"]
         },
         "x67104": {
-            "level": 16,
             "name_en": "We Fly High (Squawkin')",
             "name_fr": "Le rêve des Planeurs",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 16,
             "npc_en": "Jezul Ahuatan the Second",
             "npc_fr": "Jezul Ahuatan",
-            "reputation": "@REPUTATION.HONORED",
-            "patch": "4.31"
+            "patch": "2.35",
+            "unlock": ["cl.30543"]
         }
     }
 }

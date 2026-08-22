@@ -1,3 +1,9 @@
+@forward './styles/global';
+@forward './styles/icons';
+@forward './styles/modal';
+@forward './styles/scrollbar';
+@forward './app/theme/theme';
+
 /* Add global styles to this file, import other style files */
 html, body {
     background-color: var(--surface-500);
@@ -12,9 +18,3 @@ html, body {
     padding: 0;
     margin: 0;
 }
-
-@import './styles/global';
-@import './styles/icons';
-@import './styles/modal';
-@import './styles/scrollbar';
-@import './app/theme/theme';

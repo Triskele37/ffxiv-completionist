@@ -1,0 +1,413 @@
+{
+    "key": "alchemist",
+    "groupName": "@CLASS_JOB.ALC",
+    "tasks": {
+        "x1025": {
+            "name_en": "Wiring Repair Rubber",
+            "name_fr": "Caoutchouc pour réparation de câbles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_A",
+            "patch": "7.31"
+        },
+        "x1026": {
+            "name_en": "Experimental Storage Batteries",
+            "name_fr": "Batteries amplificatrices d'essai",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_B",
+            "patch": "7.31"
+        },
+        "x1027": {
+            "name_en": "Surface Protectant",
+            "name_fr": "Agent protecteur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_3_B",
+            "patch": "7.31"
+        },
+        "x829": {
+            "name_en": "Morale Maintenance II",
+            "name_fr": "Amélioration d'articles de gratification",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.828",
+            "patch": "7.31"
+        },
+        "x831": {
+            "name_en": "EX: Launch Party Preparations II",
+            "name_fr": "EX : Suite des préparatifs de la fête de fin de projet",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.830",
+            "patch": "7.31"
+        },
+        "x832": {
+            "name_en": "EX: Launch Party Preparations III",
+            "name_fr": "EX : Fin des préparatifs de la fête de fin de projet",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.831",
+            "patch": "7.31"
+        },
+        "x834": {
+            "name_en": "EX: Omni-nutritious Meals II",
+            "name_fr": "EX : Amélioration d'aliments nutritifs",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.833",
+            "patch": "7.31"
+        },
+        "x835": {
+            "name_en": "EX+: Omni-nutritious Meals III",
+            "name_fr": "EX+ : Perfectionnement d'aliments nutritifs",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.834",
+            "patch": "7.31"
+        },
+        "x837": {
+            "name_en": "EX+: Cosmotized Survey Materials II",
+            "name_fr": "EX+ : Amélioration de matériaux de construction cosmique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.836",
+            "patch": "7.31"
+        },
+        "x838": {
+            "name_en": "EX+: Cosmotized Survey Materials III",
+            "name_fr": "EX+ : Perfectionnement de matériaux de construction cosmique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.837",
+            "patch": "7.31"
+        },
+        "x826": {
+            "name_en": "EX+: Stable Dairy Storage",
+            "name_fr": "EX+ : Transformation de produits laitiers",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.31"
+        },
+        "x833": {
+            "name_en": "Omni-nutritious Meals I",
+            "name_fr": "Aliments nutritifs",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.31"
+        },
+        "x836": {
+            "name_en": "EX+: Cosmotized Survey Materials I",
+            "name_fr": "EX+ : Matériaux de construction cosmique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1000",
+            "patch": "7.31"
+        },
+        "x825": {
+            "name_en": "EX: Inorganic Extract Research III",
+            "name_fr": "EX : Extraction perfectionnée d'huile de pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x827": {
+            "name_en": "EX+: Fermentation Research Results",
+            "name_fr": "EX+ : Application de cultures expérimentales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x818": {
+            "name_en": "Refined Archon Loaf II",
+            "name_fr": "Amélioration de sagepain raffiné",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x819": {
+            "name_en": "Heat-resistant Materials Resupply",
+            "name_fr": "Matériaux résistants à la chaleur supplémentaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x820": {
+            "name_en": "Functional Rations",
+            "name_fr": "Rations fonctionnelles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x821": {
+            "name_en": "Refined Yeast II",
+            "name_fr": "Amélioration de levures raffinées",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x822": {
+            "name_en": "Endangered Aquaculture II",
+            "name_fr": "Support amélioré de la pisciculture spécialisée",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x823": {
+            "name_en": "EX: Automated Fermentation",
+            "name_fr": "EX : Préparation automatisée d'aliments de culture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x824": {
+            "name_en": "EX: Phaenna Confectionery",
+            "name_fr": "EX : Douceurs phaeniennes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x828": {
+            "name_en": "Morale Maintenance I",
+            "name_fr": "Articles de gratification",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x830": {
+            "name_en": "EX: Launch Party Preparations I",
+            "name_fr": "EX : Préparatifs de la fête de fin de projet",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x810": {
+            "name_en": "Refined Archon Loaf",
+            "name_fr": "Sagepain raffiné",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x811": {
+            "name_en": "Heat-resistant Materials",
+            "name_fr": "Matériaux résistants à la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x812": {
+            "name_en": "Low-fat Rations",
+            "name_fr": "Rations peu grasses",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x813": {
+            "name_en": "Refined Yeast I",
+            "name_fr": "Levures raffinées",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x814": {
+            "name_en": "Advanced Fermentation",
+            "name_fr": "Préparation améliorée d'aliments de culture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x815": {
+            "name_en": "Mid-launch Party Preparations",
+            "name_fr": "Préparatifs de la fête de mi-projet",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x816": {
+            "name_en": "Endangered Aquaculture I",
+            "name_fr": "Support de la pisciculture spécialisée",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x817": {
+            "name_en": "Inorganic Extract Research II",
+            "name_fr": "Extraction améliorée d'huile de pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x803": {
+            "name_en": "Multi-purpose Materials Resupply",
+            "name_fr": "Matériaux multi-usage supplémentaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x804": {
+            "name_en": "Seasoned Archon Loaf II",
+            "name_fr": "Accompagnement amélioré de sagepain",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x805": {
+            "name_en": "Yeast Experimentation II",
+            "name_fr": "Amélioration de levures expérimentales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x806": {
+            "name_en": "High-volume Rations",
+            "name_fr": "Rations de grande capacité",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x807": {
+            "name_en": "Practical Fermentation",
+            "name_fr": "Préparation pratique d'aliments de culture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x808": {
+            "name_en": "Aquaculture II",
+            "name_fr": "Support amélioré de la pisciculture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x809": {
+            "name_en": "Inorganic Extract Research I",
+            "name_fr": "Extraction d'huile de pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x797": {
+            "name_en": "Multi-purpose Materials",
+            "name_fr": "Matériaux multi-usage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x798": {
+            "name_en": "Seasoned Archon Loaf I",
+            "name_fr": "Accompagnement pour sagepain",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x799": {
+            "name_en": "Emergency Rations",
+            "name_fr": "Rations d'urgence",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x800": {
+            "name_en": "Yeast Experimentation I",
+            "name_fr": "Levures expérimentales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x801": {
+            "name_en": "Fundamental Fermentation",
+            "name_fr": "Préparation basique d'aliments de culture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x802": {
+            "name_en": "Aquaculture I",
+            "name_fr": "Support de la pisciculture",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

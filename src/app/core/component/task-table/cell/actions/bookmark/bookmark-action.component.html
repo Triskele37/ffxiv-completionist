@@ -1,7 +1,15 @@
-<div
-    class="action mi"
-    [ngClass]="isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add'"
-    [pTooltip]="(isBookmarked ? 'TABLE.ROW_ACTION.UNBOOKMARK' : 'TABLE.ROW_ACTION.BOOKMARK') | translate"
-    tooltipPosition="top"
-    (click)="toggleBookmark()"
-></div>
+@if(isBookmarked()) {
+    <div
+        class="action mi mi-bookmark-remove"
+        [pTooltip]="'APP.TABLE.ROW_ACTION.UNBOOKMARK' | translate"
+        tooltipPosition="top"
+        (click)="toggleBookmark()"
+    ></div>
+} @else {
+    <div
+        class="action mi mi-bookmark-add"
+        [pTooltip]="'APP.TABLE.ROW_ACTION.BOOKMARK' | translate"
+        tooltipPosition="top"
+        (click)="toggleBookmark()"
+    ></div>
+}

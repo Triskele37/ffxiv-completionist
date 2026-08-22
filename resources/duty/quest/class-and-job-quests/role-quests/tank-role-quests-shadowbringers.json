@@ -4,65 +4,65 @@
     "groupName_fr": "Quêtes de tank (Shadowbringers)",
     "tasks": {
         "x68779": {
-            "level": 70,
             "name_en": "The Man with Too Many Scars",
             "name_fr": "Le guerrier à la balafre",
+            "level": 70,
             "npc_en": "Granson",
             "npc_fr": "Granson",
+            "patch": "5.0",
             "cPrev": ["q.68837"],
-            "cNext": ["q.68780"],
-            "patch": "5.0"
+            "cNext": ["q.68780"]
         },
         "x68780": {
-            "level": 72,
             "name_en": "Shaped by Tragedy",
             "name_fr": "Le jour où tout a basculé",
+            "level": 72,
             "npc_en": "Granson",
             "npc_fr": "Granson",
+            "patch": "5.0",
             "cPrev": ["q.68779"],
-            "cNext": ["q.68781"],
-            "patch": "5.0"
+            "cNext": ["q.68781"]
         },
         "x68781": {
-            "level": 74,
             "name_en": "Defined by Loss",
             "name_fr": "La piste du collier",
+            "level": 74,
             "npc_en": "Granson",
             "npc_fr": "Granson",
+            "patch": "5.0",
             "cPrev": ["q.68780"],
-            "cNext": ["q.68782"],
-            "patch": "5.0"
+            "cNext": ["q.68782"]
         },
         "x68782": {
-            "level": 76,
             "name_en": "The Princess and Her Knight",
             "name_fr": "Le guerrier et la princesse",
+            "level": 76,
             "npc_en": "Granson",
             "npc_fr": "Granson",
+            "patch": "5.0",
             "cPrev": ["q.68781"],
-            "cNext": ["q.68783"],
-            "patch": "5.0"
+            "cNext": ["q.68783"]
         },
         "x68783": {
-            "level": 78,
             "name_en": "The Hardened Heart",
             "name_fr": "Naissance d'un bourreau",
+            "level": 78,
             "npc_en": "Sul Oul",
             "npc_fr": "Sul Oul",
+            "patch": "5.0",
             "cPrev": ["q.68782"],
-            "cNext": ["q.68784"],
-            "patch": "5.0"
+            "cNext": ["q.68784"]
         },
         "x68784": {
-            "level": 80,
             "name_en": "To Have Loved and Lost",
             "name_fr": "Pardon et repentir",
+            "level": 80,
             "npc_en": "Sul Oul",
             "npc_fr": "Sul Oul",
+            "patch": "5.0",
             "cPrev": ["q.68783"],
             "cNext": ["q.68757", "q.68748", "q.68746", "q.68761"],
-            "cSiblings": ["a.2301"],
-            "patch": "5.0"
+            "cSiblings": ["a.2301"]
         }
     }
 }

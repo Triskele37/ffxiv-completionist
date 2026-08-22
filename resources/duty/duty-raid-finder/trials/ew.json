@@ -4,134 +4,174 @@
     "groupNameShort": "@EXPANSION.EW",
     "tasks": {
         "x802": {
-            "level": "83",
             "name_en": "The Dark Inside",
             "name_fr": "Le Cratère des Martyrs",
-            "unlock": "q.69934"
+            "level": "83",
+            "unlock": "q.69934",
+            "patch": "6.0",
+            "cUnlock": ["q.69934"]
         },
         "x790": {
-            "level": "89",
             "name_en": "The Mothercrystal",
             "name_fr": "Le Cristal-mère",
-            "unlock": "q.69985"
+            "level": "89",
+            "unlock": "q.69985",
+            "patch": "6.0",
+            "cUnlock": ["q.69985"]
         },
         "x796": {
-            "level": "90",
             "name_en": "The Final Day",
             "name_fr": "Le Répons final",
-            "unlock": "q.70000"
+            "level": "90",
+            "unlock": "q.70000",
+            "patch": "6.0",
+            "cUnlock": ["q.70000"]
         },
         "x870": {
-            "level": "90",
             "name_en": "Storm's Crown",
             "name_fr": "La Toison des tempêtes",
-            "unlock": "q.70133"
+            "level": "90",
+            "unlock": "q.70133",
+            "patch": "6.2",
+            "cUnlock": ["q.70133"]
         },
         "x886": {
-            "level": "90",
             "name_en": "Mount Ordeals",
             "name_fr": "Le Mont du Supplice",
-            "unlock": "q.70213"
+            "level": "90",
+            "unlock": "q.70213",
+            "patch": "6.3",
+            "cUnlock": ["q.70213"]
         },
         "x949": {
-            "level": "90",
             "name_en": "The Voidcast Dais",
             "name_fr": "La Chaire de l'Exilée",
-            "unlock": "q.70278"
+            "level": "90",
+            "unlock": "q.70278",
+            "patch": "6.4",
+            "cUnlock": ["q.70278"]
         },
         "x964": {
-            "level": "90",
             "name_en": "The Abyssal Fracture",
             "name_fr": "La Fracture abyssale",
-            "unlock": "q.70284"
+            "level": "90",
+            "unlock": "q.70284",
+            "patch": "6.5",
+            "cUnlock": ["q.70284"]
         },
         "x69": {
-            "level": "90",
             "name_en": "The Gilded Araya",
             "name_fr": "Le temple doré d'Araya",
-            "unlock": "q.70336"
+            "level": "90",
+            "unlock": "q.70336",
+            "patch": "6.55",
+            "cUnlock": ["q.70336"]
         },
         "x803": {
-            "level": "90",
             "name_en": "The Minstrel's Ballad: Zodiark's Fall",
             "name_fr": "Le Cratère des Martyrs (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.0",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.2988"]
         },
         "x791": {
-            "level": "90",
             "name_en": "The Minstrel's Ballad: Hydaelyn's Call",
             "name_fr": "Le Cristal-mère (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.0",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.2989"]
         },
         "x846": {
-            "level": "90",
             "name_en": "The Minstrel's Ballad: Endsinger's Aria",
             "name_fr": "Le Répons final (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.1",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.3072"]
         },
         "x871": {
-            "level": "90",
             "name_en": "Storm's Crown (Extreme)",
             "name_fr": "La Toison des tempêtes (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.2",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.3107"]
         },
         "x924": {
-            "level": "90",
             "name_en": "Mount Ordeals (Extreme)",
             "name_fr": "Le Mont du Supplice (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.3",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.3160"]
         },
         "x950": {
-            "level": "90",
             "name_en": "The Voidcast Dais (Extreme)",
             "name_fr": "La Chaire de l'Exilée (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.4",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.3246"]
         },
         "x965": {
-            "level": "90",
             "name_en": "The Abyssal Fracture (Extreme)",
             "name_fr": "La Fracture abyssale (extrême)",
+            "level": "90",
             "unlock": "q.69707",
+            "patch": "6.5",
+            "cPrev": ["q.69707"],
             "cSiblings": ["a.3402"]
         },
         "x91002": {
-            "level": "90",
             "name_en": "Ultima's Bane (Unreal)",
             "name_fr": "Le fléau d'Ultima (irréel)",
-            "unlock": "q.69501"
+            "level": "90",
+            "unlock": "q.69501",
+            "patch": "6.1",
+            "cPrev": ["q.69501"]
         },
         "x91003": {
-            "level": "90",
             "name_en": "Containment Bay S1T7 (Unreal)",
             "name_fr": "Unité de contention S1P7 (irréel)",
+            "level": "90",
             "unlock": "q.69501",
+            "patch": "6.2",
+            "cPrev": ["q.69501"],
             "defaultCompletion": "X"
         },
         "x91004": {
-            "level": "90",
             "name_en": "Containment Bay P1T6 (Unreal)",
             "name_fr": "Unité de contention P1P6 (irréel)",
+            "level": "90",
             "unlock": "q.69501",
+            "patch": "6.3",
+            "cPrev": ["q.69501"],
             "defaultCompletion": "X"
         },
         "x91005": {
-            "level": "90",
             "name_en": "Containment Bay Z1T9 (Unreal)",
             "name_fr": "Unité de contention Z1P9 (irréel)",
+            "level": "90",
             "unlock": "q.69501",
+            "patch": "6.4",
+            "cPrev": ["q.69501"],
             "defaultCompletion": "X"
         },
         "x91006": {
-            "level": "90",
             "name_en": "The Singularity Reactor (Unreal)",
             "name_fr": "Le Réacteur de singularité (irréel)",
+            "level": "90",
             "unlock": "q.69501",
+            "patch": "6.5",
+            "cPrev": ["q.69501"],
             "defaultCompletion": "X"
         }
     }

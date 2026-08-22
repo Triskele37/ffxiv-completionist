@@ -1,23 +1,24 @@
-export { TranslateService } from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
+export { TranslateService };
 
-export function createTranslateMock() {
-    return jasmine.createSpyObj([
-        'setDefaultLang',
-        'getDefaultLang',
-        'use',
-        'getTranslation',
-        'setTranslation',
-        'getLangs',
-        'addLangs',
-        'getParsedResult',
-        'get',
-        'getStreamOnTranslationChange',
-        'stream',
-        'instant',
-        'set',
-        'reloadLang',
-        'resetLang',
-        'getBrowserLang',
-        'getBrowserCultureLang',
-    ]);
+export function createTranslateMock(): jest.Mocked<TranslateService> {
+    return {
+        setDefaultLang: jest.fn(),
+        getDefaultLang: jest.fn(),
+        use: jest.fn(),
+        getTranslation: jest.fn(),
+        setTranslation: jest.fn(),
+        getLangs: jest.fn(),
+        addLangs: jest.fn(),
+        getParsedResult: jest.fn(),
+        get: jest.fn(),
+        getStreamOnTranslationChange: jest.fn(),
+        stream: jest.fn(),
+        instant: jest.fn(),
+        set: jest.fn(),
+        reloadLang: jest.fn(),
+        resetLang: jest.fn(),
+        getBrowserLang: jest.fn(),
+        getBrowserCultureLang: jest.fn(),
+    } as unknown as jest.Mocked<TranslateService>;
 }

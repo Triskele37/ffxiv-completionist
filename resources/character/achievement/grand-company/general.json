@@ -8,25 +8,25 @@
             "name_fr": "Le prestige de l'uniforme",
             "description_en": "Obtain a complete set of Grand Company soldier armor consisting of a soldier's cap, a soldier's overcoat, a pair of soldier's gloves, and a pair of soldier's boots.※Speak to Jonathas with all four items equipped.",
             "description_fr": "Parler à Jonathas à Gridania équipé des 4 pièces de l'uniforme officiel de niveau 20 de sa grande compagnie (chapeau, casaque, gants et bottes de l'ordre des Deux Vipères, du Maelstrom ou des Immortels).",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x590": {
             "name_en": "My Little Chocobo",
             "name_fr": "Le meilleur ami de l'homme",
             "description_en": "Obtain a chocobo whistle.",
             "description_fr": "Obtenir un sifflet chocobo.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x591": {
             "name_en": "Pimp Your Ride",
             "name_fr": "Sans ma barde",
             "description_en": "Purchase all three sets of Grand Company chocobo barding.",
             "description_fr": "Obtenir les trois types de bardes pour chocobo d'une des grandes compagnies.",
+            "points": 5,
             "reward": "t.104",
             "patch": "2.0",
-            "points": 5,
             "cSiblings": ["t.104"]
         },
         "x1556": {
@@ -34,8 +34,8 @@
             "name_fr": "Vache mais réglo I",
             "description_en": "Send your squadron on 10 successful assignments.",
             "description_fr": "Voir votre escouade réussir 10 missions.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cNext": ["a.1557"]
         },
         "x1557": {
@@ -43,8 +43,8 @@
             "name_fr": "Vache mais réglo II",
             "description_en": "Send your squadron on 30 successful assignments.",
             "description_fr": "Voir votre escouade réussir 30 missions.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1556"],
             "cNext": ["a.1558"]
         },
@@ -53,8 +53,8 @@
             "name_fr": "Vache mais réglo III",
             "description_en": "Send your squadron on 100 successful assignments.",
             "description_fr": "Voir votre escouade réussir 100 missions.",
-            "patch": "3.4",
             "points": 10,
+            "patch": "3.4",
             "cPrev": ["a.1557"]
         },
         "x1966": {
@@ -62,8 +62,8 @@
             "name_fr": "Officier modèle I",
             "description_en": "Lead your squadron on 10 successful command missions.",
             "description_fr": "Accomplir 10 missions d'incursion.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cNext": ["a.1967"]
         },
         "x1967": {
@@ -71,8 +71,8 @@
             "name_fr": "Officier modèle II",
             "description_en": "Lead your squadron on 30 successful command missions.",
             "description_fr": "Accomplir 30 missions d'incursion.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1966"],
             "cNext": ["a.1968"]
         },
@@ -81,8 +81,8 @@
             "name_fr": "Officier modèle III",
             "description_en": "Lead your squadron on 100 successful command missions.",
             "description_fr": "Accomplir 100 missions d'incursion.",
-            "patch": "4.1",
             "points": 10,
+            "patch": "4.1",
             "cPrev": ["a.1967"]
         }
     }

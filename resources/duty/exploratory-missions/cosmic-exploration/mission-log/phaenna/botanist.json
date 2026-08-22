@@ -1,0 +1,413 @@
+{
+    "key": "botanist",
+    "groupName": "@CLASS_JOB.BTN",
+    "tasks": {
+        "x1034": {
+            "name_en": "Supply Route Clearing",
+            "name_fr": "Désherbage de voie de transport",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_B",
+            "patch": "7.31"
+        },
+        "x1035": {
+            "name_en": "Glass Flora Samples",
+            "name_fr": "Abattage des plantes à pics",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_A",
+            "patch": "7.31"
+        },
+        "x1036": {
+            "name_en": "Mutated Flora",
+            "name_fr": "Plantes mutantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_B",
+            "patch": "7.31"
+        },
+        "x956": {
+            "name_en": "Heat-convergent Glass Research",
+            "name_fr": "Aide à l'étude de matériaux pour soudage thermique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.939",
+            "patch": "7.31"
+        },
+        "x957": {
+            "name_en": "EX: Phaenna Glass",
+            "name_fr": "EX : Matériaux d'affinage du verre phaennien",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.940",
+            "patch": "7.31"
+        },
+        "x958": {
+            "name_en": "EX: Mutated Fungi Survey",
+            "name_fr": "EX : Étude pour l'usage de champignons mutants",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.957",
+            "patch": "7.31"
+        },
+        "x960": {
+            "name_en": "EX: Hyper-aetheroconductivity Research",
+            "name_fr": "EX : Recherche sur les corps à haute conductivité éthéréenne",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.952",
+            "patch": "7.31"
+        },
+        "x961": {
+            "name_en": "EX+: Geothermal Survey",
+            "name_fr": "EX+ : Étude des sols des hauteurs volcaniques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.960",
+            "patch": "7.31"
+        },
+        "x963": {
+            "name_en": "EX+: Optical Noise Reduction Research",
+            "name_fr": "EX+ : Recherche sur la réduction du bruit optique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.962",
+            "patch": "7.31"
+        },
+        "x964": {
+            "name_en": "EX+: Resonance Damping Materials",
+            "name_fr": "EX+ : Matériaux d'atténuation des vibrations",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.963",
+            "patch": "7.31"
+        },
+        "x933": {
+            "name_en": "EX+: Rare Material Extraction",
+            "name_fr": "EX+ : Éthérolyse de matériaux rares",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2400",
+            "patch": "7.31"
+        },
+        "x952": {
+            "name_en": "Precise Terrace Survey",
+            "name_fr": "Étude des sols avancée des verres colorés en terrasse",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1000-1200",
+            "patch": "7.31"
+        },
+        "x962": {
+            "name_en": "EX+: Fine-grade Heat-resistant Materials",
+            "name_fr": "EX+ : Composants résistants à la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.31"
+        },
+        "x938": {
+            "name_en": "EX+: Ultrathin Lenses",
+            "name_fr": "EX+ : Aide à la fabrication de lentilles ultra-fines",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x959": {
+            "name_en": "EX: Capsule Chasm Survey",
+            "name_fr": "EX : Étude des sols du gouffre aux Capsules",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x939": {
+            "name_en": "Glass Polishing Research",
+            "name_fr": "Aide à l'étude de matériaux pour polissage du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x940": {
+            "name_en": "EX: Optical Fiber Materials",
+            "name_fr": "EX : Matériaux de base pour fibre optique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x941": {
+            "name_en": "Rare Flora Selection",
+            "name_fr": "Sélection de feuilles-présentoir rares",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x942": {
+            "name_en": "Glass Ingot Materials",
+            "name_fr": "Matériaux pour lingot de verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x943": {
+            "name_en": "EX: Transmitter Materials",
+            "name_fr": "EX : Matériaux pour dispositif de transmission",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x948": {
+            "name_en": "Precise Iridized Rise Survey",
+            "name_fr": "Étude des sols avancée des Marches iridescentes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x949": {
+            "name_en": "Inorganic Flora Distribution Survey",
+            "name_fr": "Étude conjointe sur la distribution des pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x950": {
+            "name_en": "Glass Refinement Materials",
+            "name_fr": "Matériaux pour l'affinage du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x951": {
+            "name_en": "EX: Alchemical Refinement Materials",
+            "name_fr": "EX : Extraction d'ingrédients d'alchimie pour éthérolyse",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x926": {
+            "name_en": "Millefiori Survey",
+            "name_fr": "Étude des végétaux de la colline Milliaflore",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x927": {
+            "name_en": "Thermal Insulation Materials",
+            "name_fr": "Matériaux isothermes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x928": {
+            "name_en": "Water Purification Materials",
+            "name_fr": "Matériaux pour la purification de l'eau",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x929": {
+            "name_en": "Material Collection Evaluation",
+            "name_fr": "Essais de techniques de récolte",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x934": {
+            "name_en": "Microscopic Flora",
+            "name_fr": "Récolte continue d'arbres à fleurs miniatures",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x935": {
+            "name_en": "Cosmoliner Conduction Materials",
+            "name_fr": "Matériaux conducteurs pour cosmo-navette",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x936": {
+            "name_en": "Fine-grade Processing Materials",
+            "name_fr": "Matériaux pour transformation avancée",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x937": {
+            "name_en": "Polarized Lens Materials",
+            "name_fr": "Matériaux pour lentille polarisante",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x944": {
+            "name_en": "Iridized Rise Vicinity Survey",
+            "name_fr": "Étude des sols des Marches iridescentes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x945": {
+            "name_en": "Processing Glass Fiber",
+            "name_fr": "Fibres en verre pour transformation",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x946": {
+            "name_en": "Faceted Bluegrass",
+            "name_fr": "Récolte continue de ciboule à facettes bleue",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x947": {
+            "name_en": "Blue Glass Finish",
+            "name_fr": "Colorant de verre bleu",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x953": {
+            "name_en": "Red Glass Dye",
+            "name_fr": "Colorant de verre rouge",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x954": {
+            "name_en": "Sustained Productivity Evaluation",
+            "name_fr": "Essais de techniques de récolte continue",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x955": {
+            "name_en": "Fungi Survey",
+            "name_fr": "Étude de champignons proliférateurs",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x923": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude des végétaux des alentours de la station",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x924": {
+            "name_en": "Mech Route Survey",
+            "name_fr": "Inspection d'itinéraire pour les machines",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x925": {
+            "name_en": "Phaenna Resource Survey",
+            "name_fr": "Étude des ressources de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x930": {
+            "name_en": "Glass Helix Collection",
+            "name_fr": "Récolte continue de verre en spirale",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x931": {
+            "name_en": "Training Implementation",
+            "name_fr": "Enquête sur les exercices en conditions réelles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x932": {
+            "name_en": "Multi-purpose Glass Materials",
+            "name_fr": "Matériaux pour verre multi-usage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

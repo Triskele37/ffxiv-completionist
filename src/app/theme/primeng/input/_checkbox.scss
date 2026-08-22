@@ -1,115 +1,122 @@
-.p-checkbox {
-    width: $checkboxWidth;
-    height: $checkboxHeight;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-checkbox-box {
-        border: $checkboxBorder;
-        background: $inputBg;
-        width: $checkboxWidth;
-        height: $checkboxHeight;
-        color: var(--text-color);
-        border-radius: var(--border-radius);
-        transition: $formElementTransition;
-        outline-color: transparent;
-
-        .p-checkbox-icon {
-            transition-duration: $transitionDuration;
-            color: $checkboxIconActiveColor;
-            font-size: $checkboxIconFontSize;
-        }
-
-        .p-icon {
-            width: $checkboxIconFontSize;
-            height: $checkboxIconFontSize;
-        }
-
-        &.p-highlight {
-            border-color: $checkboxActiveBorderColor;
-            background: $checkboxActiveBg;
-        }
-    }
-
-    &:not(.p-checkbox-disabled) {
-        .p-checkbox-box {
-            &:hover {
-                border-color: $inputHoverBorderColor;
-            }
-
-            &.p-focus {
-                @include focused-input();
-            }
-
-            &.p-highlight:hover {
-                border-color: $checkboxActiveHoverBorderColor;
-                background: $checkboxActiveHoverBg;
-                color: $checkboxIconActiveHoverColor;
-            }
-        }
-    }
-
-    &.p-variant-filled {
-        .p-checkbox-box {
-            background-color: $inputFilledBg;
-
-            &.p-highlight {
-                background: $checkboxActiveBg;
-            }
-        }
-
-        &:not(.p-checkbox-disabled) {
-            .p-checkbox-box {
-                &:hover {
-                    background-color: $inputFilledHoverBg;
-                }
-
-                &.p-highlight:hover {
-                    background: $checkboxActiveHoverBg;
-                }
-            }
-        }
-    }
-}
-
-p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
-    @include invalid-input();
-}
-
-.p-input-filled {
+@layer primeng {
     .p-checkbox {
+        width: variables.$checkboxWidth;
+        height: variables.$checkboxHeight;
+
         .p-checkbox-box {
-            background-color: $inputFilledBg;
+            border: variables.$checkboxBorder;
+            background: variables.$inputBg;
+            width: variables.$checkboxWidth;
+            height: variables.$checkboxHeight;
+            color: var(--text-color);
+            border-radius: var(--border-radius);
+            transition: variables.$formElementTransition;
+            outline-color: transparent;
+
+            .p-checkbox-icon {
+                transition-duration: variables.$transitionDuration;
+                color: variables.$checkboxIconActiveColor;
+                font-size: variables.$checkboxIconFontSize;
+            }
+
+            .p-icon {
+                width: variables.$checkboxIconFontSize;
+                height: variables.$checkboxIconFontSize;
+            }
 
             &.p-highlight {
-                background: $checkboxActiveBg;
+                border-color: variables.$checkboxActiveBorderColor;
+                background: variables.$checkboxActiveBg;
             }
         }
+
         &:not(.p-checkbox-disabled) {
             .p-checkbox-box {
                 &:hover {
-                    background-color: $inputFilledHoverBg;
+                    border-color: variables.$inputHoverBorderColor;
                 }
+
+                &.p-focus {
+                    @include mixins.focused-input();
+                }
+
                 &.p-highlight:hover {
-                    background: $checkboxActiveHoverBg;
+                    border-color: variables.$checkboxActiveHoverBorderColor;
+                    background: variables.$checkboxActiveHoverBg;
+                    color: variables.$checkboxIconActiveHoverColor;
+                }
+            }
+        }
+
+        &.p-variant-filled {
+            .p-checkbox-box {
+                background-color: variables.$inputFilledBg;
+
+                &.p-highlight {
+                    background: variables.$checkboxActiveBg;
+                }
+            }
+
+            &:not(.p-checkbox-disabled) {
+                .p-checkbox-box {
+                    &:hover {
+                        background-color: variables.$inputFilledHoverBg;
+                    }
+
+                    &.p-highlight:hover {
+                        background: variables.$checkboxActiveHoverBg;
+                    }
                 }
             }
         }
     }
-}
 
-.p-checkbox-label {
-    margin-left: var(--inline-spacing);
-}
+    p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
+        @include mixins.invalid-input();
+    }
 
-@if ($highlightBg == $checkboxActiveBg) {
-    .p-highlight {
+    .p-input-filled {
         .p-checkbox {
             .p-checkbox-box {
-                border-color: $checkboxIconActiveColor;
+                background-color: variables.$inputFilledBg;
+
+                &.p-highlight {
+                    background: variables.$checkboxActiveBg;
+                }
+            }
+
+            &:not(.p-checkbox-disabled) {
+                .p-checkbox-box {
+                    &:hover {
+                        background-color: variables.$inputFilledHoverBg;
+                    }
+
+                    &.p-highlight:hover {
+                        background: variables.$checkboxActiveHoverBg;
+                    }
+                }
             }
         }
     }
-}
 
-p-tristatecheckbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
-    @include invalid-input();
+    .p-checkbox-label {
+        margin-left: var(--inline-spacing);
+    }
+
+    @if (variables.$highlightBg == variables.$checkboxActiveBg) {
+        .p-highlight {
+            .p-checkbox {
+                .p-checkbox-box {
+                    border-color: variables.$checkboxIconActiveColor;
+                }
+            }
+        }
+    }
+
+    p-tristatecheckbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
+        @include mixins.invalid-input();
+    }
 }

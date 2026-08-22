@@ -4,7 +4,7 @@ import { Task } from '@model/Task';
 import { createTask } from '@model/Task/createTask';
 import { setCompletion } from '@model/Task/completion/setCompletion';
 
-type JsonTasks = { [key: string]: Record<string, any> };
+export type JsonTasks = { [key: string]: Record<string, any> };
 
 export function initializeTasks(group: DataGroup, tasks: JsonTasks): DataGroup {
     Object.keys(tasks).forEach((id) => {

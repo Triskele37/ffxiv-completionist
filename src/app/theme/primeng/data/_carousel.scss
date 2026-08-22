@@ -1,35 +1,40 @@
-.p-carousel {
-    .p-carousel-content {
-        .p-carousel-prev,
-        .p-carousel-next {
-            @include action-icon();
-            margin: var(--inline-spacing);
-        }
-    }
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-carousel-indicators {
-        padding: $carouselIndicatorsPadding;
-
-        .p-carousel-indicator {
-            margin-right: var(--inline-spacing);
-            margin-bottom: var(--inline-spacing);
-
-            button {
-                background-color: $carouselIndicatorBg;
-                width: $carouselIndicatorWidth;
-                height: $carouselIndicatorHeight;
-                transition: $actionIconTransition;
-                border-radius: $carouselIndicatorBorderRadius;
-
-                &:hover {
-                    background: $carouselIndicatorHoverBg;
-                }
+@layer primeng {
+    .p-carousel {
+        .p-carousel-content {
+            .p-carousel-prev,
+            .p-carousel-next {
+                @include mixins.action-icon();
+                margin: var(--inline-spacing);
             }
+        }
 
-            &.p-highlight {
+        .p-carousel-indicators {
+            padding: variables.$carouselIndicatorsPadding;
+
+            .p-carousel-indicator {
+                margin-right: var(--inline-spacing);
+                margin-bottom: var(--inline-spacing);
+
                 button {
-                    background: $highlightBg;
-                    color: $highlightTextColor;
+                    background-color: variables.$carouselIndicatorBg;
+                    width: variables.$carouselIndicatorWidth;
+                    height: variables.$carouselIndicatorHeight;
+                    transition: variables.$actionIconTransition;
+                    border-radius: variables.$carouselIndicatorBorderRadius;
+
+                    &:hover {
+                        background: variables.$carouselIndicatorHoverBg;
+                    }
+                }
+
+                &.p-highlight {
+                    button {
+                        background: variables.$highlightBg;
+                        color: variables.$highlightTextColor;
+                    }
                 }
             }
         }

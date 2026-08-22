@@ -22,19 +22,24 @@ $setting-height: 40px;
             width: 200px;
         }
 
-        .p-button:not(.p-inputnumber-button) {
+        .p-button {
             height: $setting-height;
         }
 
-        .p-dropdown {
+        .p-select {
             align-items: center;
             height: $setting-height;
             width: 150px;
         }
 
-        .p-inputnumber input {
+        .p-inputnumber-input {
+            padding-inline-end: unset;
             height: $setting-height;
             width: 60px;
+        }
+
+        .p-inputnumber-button {
+            width: 20px;
         }
     }
 }

@@ -1,41 +1,23 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
-import { Completion } from '@constant';
-import { DataService } from '@data';
 import { Task } from '@model/Task';
-import { changeCompletion } from '@model/Task/completion/changeCompletion';
-import { setCompletion } from '@model/Task/completion/setCompletion';
+
+import { FlagCompleteCellComponent } from '../flag-complete/flag-complete-cell.component';
+import { NumericCompleteCellComponent } from '../numeric-complete/numeric-complete-cell.component';
 
 @Component({
-    selector: 'xiv-complete-cell',
+    selector: 'com-complete-cell',
     templateUrl: './complete-cell.component.html',
-    styleUrls: ['./complete-cell.component.scss']
+    styleUrls: ['./complete-cell.component.scss'],
+    imports: [
+        FlagCompleteCellComponent,
+        NumericCompleteCellComponent
+    ]
 })
 export class CompleteCellComponent {
-    @Input() task: Task;
-    @Input() flag: Completion | string;
-    @Output() onChange = new EventEmitter<void>();
+    @Input({ required: true }) task!: Task;
+    @Input() rowSpan?: number;
 
-    constructor(private svcData: DataService) {
+    constructor() {
     }
-
-    onTaskCompleteClick(): void {
-        const flag = this.task.completionFlag === Completion.Y ? Completion.N : Completion.Y;
-        changeCompletion(this.task, flag, true);
-        this.changeCompletion();
-    }
-
-    onExcludeTaskClick($event: MouseEvent): void {
-        $event.preventDefault();
-
-        const flag = this.task.completionFlag === Completion.X ? Completion.N : Completion.X;
-        setCompletion(this.task, flag);
-        this.changeCompletion();
-    }
-
-    changeCompletion(): void {
-        this.svcData.applyDataToStore();
-        this.onChange.emit();
-    }
-
 }

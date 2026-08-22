@@ -4,408 +4,409 @@
     "groupName_fr": "Hautes terres du Coerthas central",
     "tasks": {
         "x65552": {
-            "level": 35,
             "name_en": "Leves of the Observatorium",
             "name_fr": "Mandataire de l'Observatoire",
-            "cPrevAny": true,
+            "level": 35,
             "npc_en": "Cimeaurant",
             "npc_fr": "Cimeaurant",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66424": {
-            "level": 36,
             "name_en": "Speak Softly to Me",
             "name_fr": "Rafraîchissante rencontre",
+            "level": 36,
             "npc_en": "Maucolyn",
             "npc_fr": "Maucolyn",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66427": {
-            "level": 36,
             "name_en": "White Mischief",
             "name_fr": "Vengeance froide",
+            "level": 36,
             "npc_en": "Duvicauroix",
             "npc_fr": "Duvicauroix",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66428": {
-            "level": 36,
             "name_en": "Adding Fuel to the Fire",
             "name_fr": "Feu de tout bois",
+            "level": 36,
             "npc_en": "Prairillot",
             "npc_fr": "Prairillot",
-            "cNext": ["q.66430"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66430"]
         },
         "x66429": {
-            "level": 36,
             "name_en": "Sheep to the Slaughter",
             "name_fr": "La tournée des Cadenas",
+            "level": 36,
             "npc_en": "Sylvaintel",
             "npc_fr": "Sylvaintel",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66430": {
-            "level": 36,
             "name_en": "I'd Rather Be Cannon Fodder",
             "name_fr": "C'est toujours les meilleurs...",
+            "level": 36,
             "npc_en": "Stephannot",
             "npc_fr": "Stephannot",
+            "patch": "2.0",
             "cPrev": ["q.66428"],
-            "cNext": ["q.66431"],
-            "patch": "4.31"
+            "cNext": ["q.66431"]
         },
         "x66431": {
-            "level": 36,
             "name_en": "Death Becomes You",
             "name_fr": "Un dernier service",
+            "level": 36,
             "npc_en": "Stephannot",
             "npc_fr": "Stephannot",
-            "cPrev": ["q.66430"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66430"]
         },
         "x66846": {
-            "level": 36,
             "name_en": "Toss Fit Workout",
             "name_fr": "Le cantinier a les boules",
-            "unlock": "e.85",
+            "level": 36,
             "npc_en": "Maucolyn",
             "npc_fr": "Maucolyn",
+            "unlock": "e.85",
+            "patch": "2.1",
             "cNext": ["q.66847"],
-            "cSiblings": ["e.85"],
-            "patch": "4.31"
+            "cSiblings": ["e.85"]
         },
         "x66847": {
-            "level": 36,
             "name_en": "Rolling with the Snowies",
             "name_fr": "Coups de boules",
+            "level": 36,
             "npc_en": "Duvicauroix",
             "npc_fr": "Duvicauroix",
-            "cPrev": ["q.66846"],
-            "patch": "4.31"
+            "patch": "2.1",
+            "cPrev": ["q.66846"]
         },
         "x66434": {
-            "level": 37,
             "name_en": "Papa Do Preach",
             "name_fr": "Aristocratie menacée",
+            "level": 37,
             "npc_en": "Duchesnelt",
             "npc_fr": "Duchesnelt",
-            "cPrev": ["q.66426"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66426"]
         },
         "x66435": {
-            "level": 37,
             "name_en": "Dead Is Dead",
             "name_fr": "La preuve par les peaux",
+            "level": 37,
             "npc_en": "Corentiaux",
             "npc_fr": "Corentiaux",
+            "patch": "2.0",
             "cPrev": ["q.66426"],
-            "cNext": ["q.66436"],
-            "patch": "4.31"
+            "cNext": ["q.66436"]
         },
         "x66436": {
-            "level": 37,
             "name_en": "Don't Light My Fire",
             "name_fr": "Plein la panse",
+            "level": 37,
             "npc_en": "Corentiaux",
             "npc_fr": "Corentiaux",
-            "cPrev": ["q.66435"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66435"]
         },
         "x66438": {
-            "level": 37,
             "name_en": "Dark and Stormy Night",
             "name_fr": "Torches dans le vent",
+            "level": 37,
             "npc_en": "Arthurioux",
             "npc_fr": "Arthurioux",
-            "cPrev": ["q.66426"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66426"]
         },
         "x66439": {
-            "level": 37,
             "name_en": "Too Many Enemies",
             "name_fr": "Ils arrivent de partout",
+            "level": 37,
             "npc_en": "Belmont",
             "npc_fr": "Belmont",
+            "patch": "2.0",
             "cPrev": ["q.66426"],
-            "cNext": ["q.66440"],
-            "patch": "4.31"
+            "cNext": ["q.66440"]
         },
         "x66440": {
-            "level": 37,
             "name_en": "The Forest for the Trees",
             "name_fr": "Le plan des Ixali",
+            "level": 37,
             "npc_en": "Belmont",
             "npc_fr": "Belmont",
+            "patch": "2.0",
             "cPrev": ["q.66439"],
-            "cNext": ["q.66441"],
-            "patch": "4.31"
+            "cNext": ["q.66441"]
         },
         "x66441": {
-            "level": 37,
             "name_en": "Stand and Quiver",
             "name_fr": "L'appel aux Béliers blancs",
+            "level": 37,
             "npc_en": "Belmont",
             "npc_fr": "Belmont",
+            "patch": "2.0",
             "cPrev": ["q.66440"],
-            "cNext": ["q.66442"],
-            "patch": "4.31"
+            "cNext": ["q.66442"]
         },
         "x66451": {
-            "level": 37,
             "name_en": "A Fool and His Life Are Soon Parted",
             "name_fr": "La vengeance d'une mère",
+            "level": 37,
             "npc_en": "Meduil",
             "npc_fr": "Meduil",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66437": {
-            "level": 38,
             "name_en": "Sebastian vs. the Ogre",
             "name_fr": "Sebastian contre l'ogre",
+            "level": 38,
             "npc_en": "Yaelle",
             "npc_fr": "Yaelle",
-            "cPrev": ["q.66426"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66426"]
         },
         "x66449": {
-            "level": 38,
             "name_en": "A Cup of Joy",
             "name_fr": "Un cru d'exception",
+            "level": 38,
             "npc_en": "Aurelle",
             "npc_fr": "Aurelle",
-            "cPrev": ["q.66448"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66448"]
         },
         "x66450": {
-            "level": 38,
             "name_en": "Second Lives",
             "name_fr": "De précieuses perles",
+            "level": 38,
             "npc_en": "Juline",
             "npc_fr": "Juline",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66452": {
-            "level": 38,
             "name_en": "Burn Before Reading",
             "name_fr": "Le livre interdit",
+            "level": 38,
             "npc_en": "Eugennoix",
             "npc_fr": "Eugennoix",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66454": {
-            "level": 38,
             "name_en": "Where's My Juice",
             "name_fr": "Un problème peut en cacher un autre",
+            "level": 38,
             "npc_en": "Edwyn",
             "npc_fr": "Edwyn",
-            "cNext": ["q.66455"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66455"]
         },
         "x66464": {
-            "level": 39,
             "name_en": "Cleaning Out the Dead",
             "name_fr": "Pillage de cadavres",
+            "level": 39,
             "npc_en": "Oncenedl",
             "npc_fr": "Oncenedl",
+            "patch": "2.0",
             "cPrev": ["q.66460"],
-            "cNext": ["q.66466", "q.66467"],
-            "patch": "4.31"
+            "cNext": ["q.66466", "q.66467"]
         },
         "x66465": {
-            "level": 39,
             "name_en": "A Few Good Men",
             "name_fr": "Pour quelques hommes de plus",
+            "level": 39,
             "npc_en": "Jeantremont",
             "npc_fr": "Jeantremont",
-            "cPrev": ["q.66460"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66460"]
         },
         "x66466": {
-            "level": 39,
             "name_en": "The Pecking Order",
             "name_fr": "Becs et ongles",
+            "level": 39,
             "npc_en": "Loanne",
             "npc_fr": "Loanne",
-            "cPrev": ["q.66464"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66464"]
         },
         "x66467": {
-            "level": 39,
             "name_en": "Rubble Rouser",
             "name_fr": "Déblayage en règle",
+            "level": 39,
             "npc_en": "Chaunollet",
             "npc_fr": "Chaunollet",
+            "patch": "2.0",
             "cPrev": ["q.66464"],
-            "cNext": ["q.66468"],
-            "patch": "4.31"
+            "cNext": ["q.66468"]
         },
         "x66468": {
-            "level": 39,
             "name_en": "Salving the Wounds",
             "name_fr": "L'ami des chocobos",
+            "level": 39,
             "npc_en": "Chaunollet",
             "npc_fr": "Chaunollet",
-            "cPrev": ["q.66467"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66467"]
         },
         "x66469": {
-            "level": 39,
             "name_en": "Run, Fido, Run",
             "name_fr": "Interception de coursiers",
+            "level": 39,
             "npc_en": "Faucillien",
             "npc_fr": "Faucillien",
-            "cPrev": ["q.66460"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66460"]
         },
         "x66470": {
-            "level": 39,
             "name_en": "An Augury of Innocence",
             "name_fr": "Un hérétique bien singulier",
+            "level": 39,
             "npc_en": "Boyle",
             "npc_fr": "Boyle",
-            "cPrev": ["q.66460"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66460"]
         },
         "x66471": {
-            "level": 39,
             "name_en": "Love's Hard Labor",
             "name_fr": "L'amour comme remède",
+            "level": 39,
             "npc_en": "Charmine",
             "npc_fr": "Charmine",
+            "patch": "2.0",
             "cPrev": ["q.66460"],
-            "cNext": ["q.66480"],
-            "patch": "4.31"
+            "cNext": ["q.66480"]
         },
         "x66472": {
-            "level": 39,
             "name_en": "The King Rat Must Die",
             "name_fr": "Sa Majesté des rats",
+            "level": 39,
             "npc_en": "Fousquenet",
             "npc_fr": "Fousquenet",
-            "cPrev": ["q.66460"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66460"]
         },
         "x65553": {
-            "level": 40,
             "name_en": "Leves of Whitebrim",
             "name_fr": "Mandataire du poste de L'Arête blanche",
-            "cPrevAny": true,
+            "level": 40,
             "npc_en": "Voilinaut",
             "npc_fr": "Voilinaut",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66478": {
-            "level": 40,
             "name_en": "It Tolls for Us",
             "name_fr": "Oublier les outrages du passé",
+            "level": 40,
             "npc_en": "Liautroix",
             "npc_fr": "Liautroix",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66479": {
-            "level": 40,
             "name_en": "Physician, Find Yourself",
             "name_fr": "Le médecin malchanceux",
+            "level": 40,
             "npc_en": "Astidien",
             "npc_fr": "Astidien",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66480": {
-            "level": 40,
             "name_en": "Blood Sacrifice",
             "name_fr": "La grande évasion",
+            "level": 40,
             "npc_en": "Daimbert",
             "npc_fr": "Daimbert",
-            "cPrev": ["q.66477", "q.66471"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477", "q.66471"]
         },
         "x66481": {
-            "level": 40,
             "name_en": "The Bone Collector",
             "name_fr": "Il y a comme un os...",
+            "level": 40,
             "npc_en": "Berengeoit",
             "npc_fr": "Berengeoit",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66482": {
-            "level": 40,
             "name_en": "Ice Ice Daily",
             "name_fr": "Des chercheurs sans défense",
+            "level": 40,
             "npc_en": "Forsemart",
             "npc_fr": "Forsemart",
+            "patch": "2.0",
             "cPrev": ["q.66477"],
-            "cNext": ["q.66483"],
-            "patch": "4.31"
+            "cNext": ["q.66483"]
         },
         "x66483": {
-            "level": 40,
             "name_en": "A Heart Divided",
             "name_fr": "Un cœur divisé",
+            "level": 40,
             "npc_en": "Ourdilic",
             "npc_fr": "Ourdilic",
+            "patch": "2.0",
             "cPrev": ["q.66482"],
-            "cNext": ["q.66485"],
-            "patch": "4.31"
+            "cNext": ["q.66485"]
         },
         "x66484": {
-            "level": 40,
             "name_en": "When a Man Loves a Woman",
             "name_fr": "L'amour plus fort que la mort",
+            "level": 40,
             "npc_en": "Lancefer",
             "npc_fr": "Lancefer",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66485": {
-            "level": 40,
             "name_en": "Whey Too into You",
             "name_fr": "L'élément perturbateur",
+            "level": 40,
             "npc_en": "Ourdilic",
             "npc_fr": "Ourdilic",
-            "cPrev": ["q.66483"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66483"]
         },
         "x66486": {
-            "level": 40,
             "name_en": "Days of Brandewine and Behemoths",
             "name_fr": "Réchauffer les entrailles",
+            "level": 40,
             "npc_en": "Meurise",
             "npc_fr": "Meurise",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66487": {
-            "level": 40,
             "name_en": "Living on the Edge",
             "name_fr": "Au fond du gouffre",
+            "level": 40,
             "npc_en": "Briannaix",
             "npc_fr": "Briannaix",
-            "cPrev": ["q.66477"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66477"]
         },
         "x66515": {
-            "level": 44,
             "name_en": "Fort of Fear",
             "name_fr": "Les ténèbres de la Forteresse de Dzemael",
-            "unlock": "d.13",
+            "level": 44,
             "npc_en": "Carrilaut",
             "npc_fr": "Carrilaut",
-            "patch": "4.31"
+            "unlock": "d.13",
+            "patch": "2.0",
+            "cSiblings": ["d.13"]
         },
         "x66521": {
-            "level": 44,
             "name_en": "Doubt Truth to Be a Liar",
             "name_fr": "La chasse à l'impérial",
+            "level": 44,
             "npc_en": "Cailean",
             "npc_fr": "Cailean",
-            "cPrev": ["q.66519"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66519"]
         }
     }
 }

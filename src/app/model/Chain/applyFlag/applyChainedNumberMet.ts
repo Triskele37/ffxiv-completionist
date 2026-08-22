@@ -1,11 +1,12 @@
+import { Task } from '@model/Task';
+import { getTasks } from '@model/Task/get/getTasks';
+
 import { applyMetNumberToTask } from '../applyFlag/applyMetNumberToTask';
-import { Chainer } from '../Chainer';
 import { Links } from '../ChainLink';
-import { getAllTasksFor } from '../getAllTasksFor';
 
 // Chain when a numeric is met
-export function applyChainedNumberMet(chainer: Chainer, cList: Links, num: string): void {
-    getAllTasksFor(chainer, cList).forEach(
+export function applyChainedNumberMet(task: Task, cList: Links, num: string): void {
+    getTasks(cList, task).forEach(
         (task) => applyMetNumberToTask(num, task)
     );
 }

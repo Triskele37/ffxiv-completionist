@@ -4,427 +4,430 @@
     "groupName_fr": "Après la tempête de sang",
     "tasks": {
         "x68498": {
-            "level": 70,
             "name_en": "Arenvald's Adventure",
             "name_fr": "Une soif d'aventure",
-            "unlock": "e.166",
+            "level": 70,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": "e.166",
+            "patch": "4.1",
             "cPrev": ["q.68089"],
             "cNext": ["q.68499"],
-            "cSiblings": ["e.166"],
-            "patch": "4.31"
+            "cSiblings": ["e.166"]
         },
         "x68499": {
-            "level": 70,
             "name_en": "The Darkness Below",
             "name_fr": "Exhumer la légende",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.1",
             "cPrev": ["q.68498"],
-            "cNext": ["q.68500"],
-            "patch": "4.31"
+            "cNext": ["q.68500"]
         },
         "x68500": {
-            "level": 70,
             "name_en": "The Mad King's Trove",
             "name_fr": "Le trésor de Theodoric",
-            "unlock": "d.279",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "d.279",
+            "patch": "4.1",
             "cPrev": ["q.68499"],
             "cNext": ["q.68501"],
-            "patch": "4.31"
+            "cSiblings": ["d.279"]
         },
         "x68501": {
-            "level": 70,
             "name_en": "The Butcher's Blood",
             "name_fr": "La vindicte d'un peuple",
+            "level": 70,
             "npc_en": "Arenvald",
             "npc_fr": "Arenvald",
+            "unlock": "o.173",
+            "patch": "4.1",
             "cPrev": ["q.68500"],
-            "cNext": ["q.68502"],
-            "patch": "4.31",
-            "unlock": "o.173"
+            "cNext": ["q.68502"]
         },
         "x68502": {
-            "level": 70,
             "name_en": "Echoes of an Echo",
             "name_fr": "Le spectre des Résonnants",
+            "level": 70,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.1",
             "cPrev": ["q.68501"],
-            "cNext": ["q.68503"],
-            "patch": "4.31"
+            "cNext": ["q.68503"]
         },
         "x68503": {
-            "level": 70,
             "name_en": "A Sultana's Strings",
             "name_fr": "Détermination souveraine",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.1",
             "cPrev": ["q.68502"],
-            "cNext": ["q.68504"],
-            "patch": "4.31"
+            "cNext": ["q.68504"]
         },
         "x68504": {
-            "level": 70,
             "name_en": "A Sultana's Duty",
             "name_fr": "L'idée de Nanamo",
+            "level": 70,
             "npc_en": "Nanamo Ul Namo",
             "npc_fr": "Nanamo Ul Namo",
+            "patch": "4.1",
             "cPrev": ["q.68503"],
-            "cNext": ["q.68505"],
-            "patch": "4.31"
+            "cNext": ["q.68505"]
         },
         "x68505": {
-            "level": 70,
             "name_en": "A Sultana's Resolve",
             "name_fr": "Nanamo, négociatrice",
+            "level": 70,
             "npc_en": "Nanamo Ul Namo",
             "npc_fr": "Nanamo Ul Namo",
+            "patch": "4.1",
             "cPrev": ["q.68504"],
-            "cNext": ["q.68506"],
-            "patch": "4.31"
+            "cNext": ["q.68506"]
         },
         "x68506": {
-            "level": 70,
             "name_en": "Securing the Saltery",
             "name_fr": "L'avenir de La Salaisonnerie",
+            "level": 70,
             "npc_en": "Nanamo Ul Namo",
             "npc_fr": "Nanamo Ul Namo",
+            "patch": "4.1",
             "cPrev": ["q.68505"],
-            "cNext": ["q.68507"],
-            "patch": "4.31"
+            "cNext": ["q.68507"]
         },
         "x68507": {
-            "level": 70,
             "name_en": "A Blissful Arrival",
             "name_fr": "Une délégation inattendue",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "o.172",
+            "patch": "4.1",
             "cPrev": ["q.68506"],
-            "cNext": ["q.68508"],
-            "patch": "4.31",
-            "unlock": "o.172"
+            "cNext": ["q.68508"]
         },
         "x68508": {
-            "level": 70,
             "name_en": "Return of the Bull",
             "name_fr": "Retour au bercail",
-            "unlock": "mi.276",
+            "level": 70,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "unlock": ["mi.276", "tto.92"],
+            "patch": "4.1",
             "cPrev": ["q.68507"],
             "cNext": ["q.68541", "q.68558"],
-            "cSiblings": ["a.1990"],
-            "patch": "4.31"
+            "cSiblings": ["a.1990"]
         },
         "x68558": {
-            "level": 70,
             "name_en": "Tidings from the East",
             "name_fr": "À l'Est, du nouveau",
-            "unlock": "e.172",
+            "level": 70,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": "e.172",
+            "patch": "4.2",
             "cPrev": ["q.68508"],
             "cNext": ["q.68559"],
-            "cSiblings": ["e.172"],
-            "patch": "4.31"
+            "cSiblings": ["e.172"]
         },
         "x68559": {
-            "level": 70,
             "name_en": "The Sword in the Store",
             "name_fr": "Au fil du katana",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.2",
             "cPrev": ["q.68558"],
-            "cNext": ["q.68560"],
-            "patch": "4.31"
+            "cNext": ["q.68560"]
         },
         "x68560": {
-            "level": 70,
             "name_en": "Hope on the Waves",
             "name_fr": "L'espoir au large",
+            "level": 70,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.2",
             "cPrev": ["q.68559"],
-            "cNext": ["q.68551", "q.68561"],
-            "patch": "4.31"
+            "cNext": ["q.68551", "q.68561"]
         },
         "x68561": {
-            "level": 70,
             "name_en": "Elation and Trepidation",
             "name_fr": "Entre joie et douleur",
+            "level": 70,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.2",
             "cPrev": ["q.68560"],
-            "cNext": ["q.68622", "q.68562"],
-            "patch": "4.31"
+            "cNext": ["q.68622", "q.68562"]
         },
         "x68562": {
-            "level": 70,
             "name_en": "Storm on the Horizon",
             "name_fr": "Un nuage noir à l'horizon",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.2",
             "cPrev": ["q.68561"],
-            "cNext": ["q.68563"],
-            "patch": "4.31"
+            "cNext": ["q.68563"]
         },
         "x68563": {
-            "level": 70,
             "name_en": "His Forgotten Home",
             "name_fr": "L'enfant du pays",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.2",
             "cPrev": ["q.68562"],
-            "cNext": ["q.68564"],
-            "patch": "4.31"
+            "cNext": ["q.68564"]
         },
         "x68564": {
-            "level": 70,
             "name_en": "A Guilty Conscience",
             "name_fr": "L'avocat du diable",
+            "level": 70,
             "npc_en": "Asahi",
             "npc_fr": "Asahi",
+            "patch": "4.2",
             "cPrev": ["q.68563"],
-            "cNext": ["q.68565"],
-            "patch": "4.31"
+            "cNext": ["q.68565"]
         },
         "x68565": {
-            "level": 70,
             "name_en": "Rise of a New Sun",
             "name_fr": "La pointe de l'aube",
-            "unlock": ["o.198"],
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": ["o.198"],
+            "patch": "4.2",
             "cPrev": ["q.68564"],
             "cNext": ["q.68606"],
-            "cSiblings": ["a.2013"],
-            "patch": "4.31"
+            "cSiblings": ["a.2013"]
         },
         "x68606": {
-            "level": 70,
             "name_en": "Gosetsu and Tsuyu",
             "name_fr": "La jeune fille et le vieux samouraï",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.3",
             "cPrev": ["q.68565"],
-            "cNext": ["q.68607"],
-            "patch": "4.31"
+            "cNext": ["q.68607"]
         },
         "x68607": {
-            "level": 70,
             "name_en": "Gone Like the Morning Dew",
             "name_fr": "Veuve noire en fugue",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.3",
             "cPrev": ["q.68606"],
-            "cNext": ["q.68608"],
-            "patch": "4.31"
+            "cNext": ["q.68608"]
         },
         "x68608": {
-            "level": 70,
             "name_en": "Fruits of Her Labor",
             "name_fr": "Nouvelle passe d'armes",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.3",
             "cPrev": ["q.68607"],
-            "cNext": ["q.68609"],
-            "patch": "4.31"
+            "cNext": ["q.68609"]
         },
         "x68609": {
-            "level": 70,
             "name_en": "Conscripts and Contingencies",
             "name_fr": "En attendant l'échange",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.3",
             "cPrev": ["q.68608"],
-            "cNext": ["q.68610"],
-            "patch": "4.31"
+            "cNext": ["q.68610"]
         },
         "x68610": {
-            "level": 70,
             "name_en": "The Primary Agreement",
             "name_fr": "La clause principale",
-            "unlock": "d.537",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": ["d.537", "tto.63"],
+            "patch": "4.3",
             "cPrev": ["q.68609"],
             "cNext": ["q.68566", "q.68611"],
-            "patch": "4.31"
+            "cSiblings": ["d.537"]
         },
         "x68611": {
-            "level": 70,
             "name_en": "Under the Moonlight",
             "name_fr": "Sous le clair de lune",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.3",
             "cPrev": ["q.68610"],
             "cNext": ["q.68612"],
-            "cSiblings": ["a.2098"],
-            "patch": "4.31"
+            "cSiblings": ["a.2098"]
         },
         "x68612": {
-            "level": 70,
             "name_en": "Emissary of the Dawn",
             "name_fr": "Voyage en terre hostile",
-            "unlock": "e.183",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": "e.183",
+            "patch": "4.3",
             "cPrev": ["q.68611"],
             "cNext": ["q.68679", "q.69525"],
-            "cSiblings": ["e.183"],
-            "patch": "4.31"
+            "cSiblings": ["e.183"]
         },
         "x68679": {
-            "level": 70,
             "name_en": "Sisterly Act",
             "name_fr": "À la recherche d'un Héritier",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.4",
             "cPrev": ["q.68612"],
-            "cNext": ["q.68680"],
-            "patch": "4.4"
+            "cNext": ["q.68680"]
         },
         "x68680": {
-            "level": 70,
             "name_en": "Feel the Burn",
             "name_fr": "Les terres dévastées",
-            "unlock": "d.585",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": "d.585",
+            "patch": "4.4",
             "cPrev": ["q.68679"],
             "cNext": ["q.68681"],
-            "patch": "4.4"
+            "cSiblings": ["d.585"]
         },
         "x68681": {
-            "level": 70,
             "name_en": "Shadows in the Empire",
             "name_fr": "Un danger peut en cacher un autre",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.4",
             "cPrev": ["q.68680"],
-            "cNext": ["q.68682"],
-            "patch": "4.4"
+            "cNext": ["q.68682"]
         },
         "x68682": {
-            "level": 70,
             "name_en": "A Power in Slumber",
             "name_fr": "L'énergie de la steppe",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.4",
             "cPrev": ["q.68681"],
-            "cNext": ["q.68683"],
-            "patch": "4.4"
+            "cNext": ["q.68683"]
         },
         "x68683": {
-            "level": 70,
             "name_en": "The Will of the Moon",
             "name_fr": "Ralliement dans la steppe",
+            "level": 70,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "4.4",
             "cPrev": ["q.68682"],
-            "cNext": ["q.68684"],
-            "patch": "4.4"
+            "cNext": ["q.68684"]
         },
         "x68684": {
-            "level": 70,
             "name_en": "The Call",
             "name_fr": "Ravageuses résonances",
-            "unlock": "e.190",
+            "level": 70,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "unlock": "e.190",
+            "patch": "4.4",
             "cPrev": ["q.68683"],
             "cNext": ["q.68685"],
-            "cSiblings": ["e.190"],
-            "patch": "4.4"
+            "cSiblings": ["e.190"]
         },
         "x68685": {
-            "level": 70,
             "name_en": "Prelude in Violet",
             "name_fr": "Prélude pourpré",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": "tto.79",
+            "patch": "4.4",
             "cPrev": ["q.68684"],
             "cNext": ["q.68715"],
-            "cSiblings": ["a.2124"],
-            "patch": "4.4"
+            "cSiblings": ["a.2124"]
         },
         "x68715": {
-            "level": 70,
             "name_en": "Soul Searching",
             "name_fr": "Les âmes perdues",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.5",
             "cPrev": ["q.68685"],
-            "cNext": ["q.68716"],
-            "patch": "4.5"
+            "cNext": ["q.68716"]
         },
         "x68716": {
-            "level": 70,
             "name_en": "A Defector's Tidings",
             "name_fr": "Nouvelles d'un transfuge",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.5",
             "cPrev": ["q.68715"],
-            "cNext": ["q.68717"],
-            "patch": "4.5"
+            "cNext": ["q.68717"]
         },
         "x68717": {
-            "level": 70,
             "name_en": "Seiryu's Wall",
             "name_fr": "La barrière de Seiryû",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.5",
             "cPrev": ["q.68716"],
-            "cNext": ["q.68718", "q.68722"],
-            "patch": "4.5"
+            "cNext": ["q.68718", "q.68722"]
         },
         "x68718": {
-            "level": 70,
             "name_en": "Parley on the Front Lines",
             "name_fr": "Pourparlers à Ghimlyt",
+            "level": 70,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.5",
             "cPrev": ["q.68717"],
-            "cNext": ["q.68719"],
-            "patch": "4.5"
+            "cNext": ["q.68719"]
         },
         "x68719": {
-            "level": 70,
             "name_en": "The Face of War",
             "name_fr": "Guerre ouverte",
-            "unlock": "d.611",
+            "level": 70,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": "d.611",
+            "patch": "4.5",
             "cPrev": ["q.68718"],
             "cNext": ["q.68720"],
-            "cSiblings": ["a.2160"],
-            "patch": "4.5"
+            "cSiblings": ["d.611", "a.2160"]
         },
         "x68720": {
-            "level": 70,
             "name_en": "A Brief Reprieve",
             "name_fr": "Visite d'un ami",
+            "level": 70,
             "npc_en": "Hoary Boulder",
             "npc_fr": "Hoary Boulder",
+            "patch": "4.56",
             "cPrev": ["q.68719"],
-            "cNext": ["q.68721"],
-            "patch": "4.56"
+            "cNext": ["q.68721"]
         },
         "x68721": {
-            "level": 70,
             "name_en": "A Requiem for Heroes",
             "name_fr": "Un requiem pour les héros",
+            "level": 70,
             "npc_en": "Resistance Fighter",
             "npc_fr": "Officier Mhigois",
-            "unlock_en": "Scion Traveller's Garb",
+            "patch": "4.56",
             "cPrev": ["q.68720"],
             "cNext": ["q.68815"],
-            "cSiblings": ["a.2233"],
-            "patch": "4.56"
+            "cSiblings": ["a.2233"]
         }
     }
 }

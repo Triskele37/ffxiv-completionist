@@ -1,37 +1,37 @@
-import { Directive, OnDestroy } from '@angular/core';
+import { Directive, OnDestroy, signal } from '@angular/core';
 
 @Directive()
 export class Overlay implements OnDestroy {
-    static anyLocked: boolean = false;
+    static anyOverlayLocked: boolean = false;
 
-    isVisible: boolean = false;
-    isLocked: boolean = false;
+    isOverlayVisible = signal(false);
+    isOverlayLocked = signal(false);
 
     ngOnDestroy(): void {
-        Overlay.anyLocked = false;
+        Overlay.anyOverlayLocked = false;
     }
 
     onMouseEnter(): void {
-        if(Overlay.anyLocked) return;
-        this.isVisible = true;
+        if(Overlay.anyOverlayLocked) return;
+        this.isOverlayVisible.set(true);
     }
 
     onMouseLeave(): void {
-        if(!this.isLocked) {
-            this.isVisible = false;
+        if(!this.isOverlayLocked()) {
+            this.isOverlayVisible.set(false);
         }
     }
 
     onClick(): void {
-        if(!Overlay.anyLocked || this.isLocked) {
-            this.isLocked = !this.isLocked;
-            Overlay.anyLocked = this.isLocked;
+        if(!Overlay.anyOverlayLocked || this.isOverlayLocked()) {
+            this.isOverlayLocked.set(!this.isOverlayLocked());
+            Overlay.anyOverlayLocked = this.isOverlayLocked();
         }
     }
 
     hide(): void {
-        this.isVisible = false;
-        this.isLocked = false;
-        Overlay.anyLocked = false;
+        this.isOverlayVisible.set(false);
+        this.isOverlayLocked.set(false);
+        Overlay.anyOverlayLocked = false;
     }
 }

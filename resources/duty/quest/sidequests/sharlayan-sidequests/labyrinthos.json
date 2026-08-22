@@ -9,8 +9,8 @@
             "level": 80,
             "npc_en": "Outer Circuit Researcher",
             "npc_fr": "Chercheuse Du Circuit Externe",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69721": {
             "name_en": "No Laughing Matter",
@@ -18,8 +18,8 @@
             "level": 80,
             "npc_en": "Nonolato",
             "npc_fr": "Nonolato",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69722": {
             "name_en": "Building Good Habitats",
@@ -27,8 +27,8 @@
             "level": 80,
             "npc_en": "Green Gleaner",
             "npc_fr": "Glaneur Novice",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69723": {
             "name_en": "An Ore-ful Lot",
@@ -36,8 +36,8 @@
             "level": 80,
             "npc_en": "Burly Researcher",
             "npc_fr": "Chercheur Baraqué",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69724": {
             "name_en": "Raised on the Fallen",
@@ -45,8 +45,8 @@
             "level": 80,
             "npc_en": "N'nagali",
             "npc_fr": "N'nagali",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69725": {
             "name_en": "Pot Luck",
@@ -54,8 +54,8 @@
             "level": 80,
             "npc_en": "Vyell",
             "npc_fr": "Vyell",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69726": {
             "name_en": "Uncommon Scents",
@@ -63,8 +63,8 @@
             "level": 80,
             "npc_en": "Boragchin",
             "npc_fr": "Boragchin",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69727": {
             "name_en": "A Hard Task to Digest",
@@ -72,8 +72,8 @@
             "level": 80,
             "npc_en": "Chatbert",
             "npc_fr": "Chatbert",
-            "cPrev": ["q.69898"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69898"]
         },
         "x69728": {
             "name_en": "Learning to Sow",
@@ -81,8 +81,8 @@
             "level": 80,
             "npc_en": "Jonquinet",
             "npc_fr": "Jonquinet",
-            "cPrev": ["q.69901"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69901"]
         },
         "x69729": {
             "name_en": "A Ripe Trade",
@@ -90,8 +90,8 @@
             "level": 80,
             "npc_en": "Rubh'a Epocan",
             "npc_fr": "Rubh'a Epocan",
-            "cPrev": ["q.69901"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69901"]
         },
         "x69730": {
             "name_en": "It's Not Mud",
@@ -99,8 +99,8 @@
             "level": 80,
             "npc_en": "Emaniette",
             "npc_fr": "Emaniette",
-            "cPrev": ["q.69901"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69901"]
         },
         "x69731": {
             "name_en": "Not Mushroom for Error",
@@ -108,20 +108,20 @@
             "level": 80,
             "npc_en": "Parbeloix",
             "npc_fr": "Parbeloix",
-            "cPrev": ["q.69901"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69901"]
         },
         "x70016": {
             "name_en": "Lost Little Troll",
             "name_fr": "Un amour de Poilu",
             "level": 80,
-            "unlock": "travel.aether-currents.ew.labyrinthos.11",
             "npc_en": "Distracted Archivist",
             "npc_fr": "Employé Empoté",
+            "unlock": "travel.aether-currents.ew.labyrinthos.11",
+            "patch": "6.0",
             "cPrev": ["q.69901"],
             "cNext": ["q.70017"],
-            "cSiblings": ["travel.aether-currents.ew.labyrinthos.11"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.labyrinthos.11"]
         },
         "x70017": {
             "name_en": "Problematic Pests",
@@ -129,9 +129,9 @@
             "level": 80,
             "npc_en": "Shaggles",
             "npc_fr": "Poilu",
+            "patch": "6.0",
             "cPrev": ["q.70016"],
-            "cNext": ["q.70018"],
-            "patch": "6.0"
+            "cNext": ["q.70018"]
         },
         "x70018": {
             "name_en": "Pests Be Gone",
@@ -139,9 +139,9 @@
             "level": 80,
             "npc_en": "Agronomics Biologist",
             "npc_fr": "Biologiste",
+            "patch": "6.0",
             "cPrev": ["q.70017"],
-            "cNext": ["q.70019"],
-            "patch": "6.0"
+            "cNext": ["q.70019"]
         },
         "x70019": {
             "name_en": "Dream Big",
@@ -149,9 +149,9 @@
             "level": 80,
             "npc_en": "Shaggles",
             "npc_fr": "Poilu",
+            "patch": "6.0",
             "cPrev": ["q.70018"],
-            "cNext": ["q.70024"],
-            "patch": "6.0"
+            "cNext": ["q.70024"]
         },
         "x69862": {
             "name_en": "Seeing Red",
@@ -159,8 +159,8 @@
             "level": 80,
             "npc_en": "Fjola",
             "npc_fr": "Fjola",
-            "cPrev": ["q.69978"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69978"]
         },
         "x69864": {
             "name_en": "Herbicidal Tendencies",
@@ -168,19 +168,19 @@
             "level": 80,
             "npc_en": "Charmont",
             "npc_fr": "Charmont",
-            "cPrev": ["q.69978"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69978"]
         },
         "x69865": {
             "name_en": "Let the Good Times Troll",
             "name_fr": "Le protecteur de la forêt",
             "level": 80,
-            "unlock": "travel.aether-currents.ew.labyrinthos.14",
             "npc_en": "Vexed Veterinarian",
             "npc_fr": "Vétérinaire Lalafelle",
+            "unlock": "travel.aether-currents.ew.labyrinthos.14",
+            "patch": "6.0",
             "cPrev": ["q.69978"],
-            "cSiblings": ["travel.aether-currents.ew.labyrinthos.14"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.labyrinthos.14"]
         },
         "x69866": {
             "name_en": "Apple-y Ever After",
@@ -188,8 +188,8 @@
             "level": 80,
             "npc_en": "Distressed Chef",
             "npc_fr": "Cuisinière Miqo'te",
-            "cPrev": ["q.69978"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69978"]
         },
         "x69869": {
             "name_en": "The Case of the Missing Gleaner",
@@ -197,19 +197,19 @@
             "level": 80,
             "npc_en": "Elemental Reactor Operator",
             "npc_fr": "Employé Des Réacteurs",
-            "cPrev": ["q.69978"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69978"]
         },
         "x69856": {
             "name_en": "Gleaner's Wish",
             "name_fr": "La prière du voyageur",
             "level": 80,
-            "unlock": "travel.aether-currents.ew.labyrinthos.13",
             "npc_en": "Viera Gleaner",
             "npc_fr": "Glaneur Viéra",
+            "unlock": "travel.aether-currents.ew.labyrinthos.13",
+            "patch": "6.0",
             "cPrev": ["q.69982"],
-            "cSiblings": ["travel.aether-currents.ew.labyrinthos.13"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.labyrinthos.13"]
         },
         "x69857": {
             "name_en": "A Job for a Loporrit",
@@ -217,8 +217,8 @@
             "level": 80,
             "npc_en": "Wandering Loporrit",
             "npc_fr": "Loporrite Errant",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69858": {
             "name_en": "Gift for a Fan",
@@ -226,8 +226,8 @@
             "level": 80,
             "npc_en": "Cweilsaem",
             "npc_fr": "Cweilsaem",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69859": {
             "name_en": "Wayward Carbuncle",
@@ -235,8 +235,8 @@
             "level": 80,
             "npc_en": "Studium Researcher",
             "npc_fr": "Magismologue",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69860": {
             "name_en": "Don't Philter Yourself",
@@ -244,8 +244,8 @@
             "level": 80,
             "npc_en": "Fretting Researcher",
             "npc_fr": "Chercheuse Roegadyne",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69861": {
             "name_en": "Take a Look, It's in a Book",
@@ -253,8 +253,8 @@
             "level": 80,
             "npc_en": "Determined Bibliothec",
             "npc_fr": "Archiviste Passionné",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69863": {
             "name_en": "To Care Enough to Send the Very Best",
@@ -262,8 +262,8 @@
             "level": 80,
             "npc_en": "Experienced Researcher",
             "npc_fr": "Chercheuse Hyurgothe",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69867": {
             "name_en": "The Dry Eyes Have It",
@@ -271,8 +271,8 @@
             "level": 80,
             "npc_en": "A'naidjaa",
             "npc_fr": "A'naidjaa",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69868": {
             "name_en": "Dolling out Punishment",
@@ -280,8 +280,8 @@
             "level": 80,
             "npc_en": "Jessamy",
             "npc_fr": "Jessamy",
-            "cPrev": ["q.69982"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69982"]
         },
         "x69870": {
             "name_en": "Cooler than Being Cool",
@@ -289,8 +289,8 @@
             "level": 80,
             "npc_en": "Marvene",
             "npc_fr": "Marvene",
-            "cPrev": ["q.69985"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69985"]
         },
         "x69871": {
             "name_en": "For the Record",
@@ -298,8 +298,8 @@
             "level": 80,
             "npc_en": "Asasamu",
             "npc_fr": "Asasamu",
-            "cPrev": ["q.69985"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69985"]
         },
         "x69872": {
             "name_en": "Harbinger of Breath",
@@ -307,20 +307,20 @@
             "level": 80,
             "npc_en": "Tatasako",
             "npc_fr": "Tatasako",
-            "cPrev": ["q.69985"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.69985"]
         },
         "x70020": {
             "name_en": "The Lad in Labyrinthos",
             "name_fr": "L'enfant de la Petite Sharlayan",
             "level": 80,
-            "unlock": "travel.aether-currents.ew.labyrinthos.12",
             "npc_en": "Mussalfret",
             "npc_fr": "Mussalfret",
+            "unlock": "travel.aether-currents.ew.labyrinthos.12",
+            "patch": "6.0",
             "cPrev": ["q.69982"],
             "cNext": ["q.70021"],
-            "cSiblings": ["travel.aether-currents.ew.labyrinthos.12"],
-            "patch": "6.0"
+            "cSiblings": ["travel.aether-currents.ew.labyrinthos.12"]
         },
         "x70021": {
             "name_en": "Here Comes the Sun",
@@ -328,9 +328,9 @@
             "level": 80,
             "npc_en": "Verpaulaine",
             "npc_fr": "Verpaulaine",
+            "patch": "6.0",
             "cPrev": ["q.70020"],
-            "cNext": ["q.70022"],
-            "patch": "6.0"
+            "cNext": ["q.70022"]
         },
         "x70022": {
             "name_en": "Fiery Thirst",
@@ -338,9 +338,9 @@
             "level": 80,
             "npc_en": "Verpaulaine",
             "npc_fr": "Verpaulaine",
+            "patch": "6.0",
             "cPrev": ["q.70021"],
-            "cNext": ["q.70023"],
-            "patch": "6.0"
+            "cNext": ["q.70023"]
         },
         "x70023": {
             "name_en": "The Hero in Labyrinthos",
@@ -348,9 +348,9 @@
             "level": 80,
             "npc_en": "Verpaulaine",
             "npc_fr": "Verpaulaine",
+            "patch": "6.0",
             "cPrev": ["q.70022"],
-            "cNext": ["q.70024"],
-            "patch": "6.0"
+            "cNext": ["q.70024"]
         },
         "x70024": {
             "name_en": "Thick as Thieves",
@@ -358,8 +358,8 @@
             "level": 80,
             "npc_en": "Verpaulaine",
             "npc_fr": "Verpaulaine",
-            "cPrev": ["q.70019", "q.70023"],
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": ["q.70019", "q.70023"]
         },
         "x70352": {
             "name_en": "The Pride of Labyrinthos",
@@ -367,8 +367,8 @@
             "level": 80,
             "npc_en": "Margrat",
             "npc_fr": "Margrat",
-            "cPrev": ["q.70351"],
-            "patch": "6.5"
+            "patch": "6.5",
+            "cPrev": ["q.70351"]
         }
     }
 }

@@ -1,7 +1,9 @@
+import { ChangeStore } from '@service/store/migration/ChangeStore';
+
 /** Emotes ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrateEmotes(store): void {
+export function migrateEmotes(store: ChangeStore): void {
     const emotePath = 'social.emotes';
 
     // Remove old IDs that become unused

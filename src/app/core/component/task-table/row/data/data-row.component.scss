@@ -1,7 +1,19 @@
+@use '../../../../../../app/theme/_variables';
+
 :host {
     display: contents;
 
-    .data-cell {
+    .data-row {
+        height: 36px;
+    }
+
+    // Create the stripe pattern for rows
+    .even-row {
+        background: variables.$tableBodyRowEvenBg;
+    }
+
+    //TODO all cells
+    ::ng-deep .table-cell {
         vertical-align: middle;
     }
 }

@@ -1,68 +1,47 @@
+@let group = svcNavigation.selectedGroup();
+
 <div class="main-content">
-    <ng-container
-        *ngTemplateOutlet="
-            !selectedGroup || selectedGroup.noContent ? fallbackView :
-            selectedGroup.component ? customComponentView :
-            tableView
-        "
-    ></ng-container>
+    @if(!group || group.noContent) {
+        <com-landing-page></com-landing-page>
+    }
+    @else if(group.component) {
+        <div class="custom-group-component">
+            <ng-template anchor></ng-template>
+        </div>
+    }
+    @else {
+        <div class="table-content">
+            @if(svcNavigation.allTaskViewEnabled()) {
+                <com-show-all-table
+                    [group]="group"
+                ></com-show-all-table>
+            } @else {
+                @if(group.subGroups?.size) {
+                    <div class="group-summary-section">
+                        @let asMap = group.subGroups | keyvalue: asIsOrder;
+                        @for(subGroup of asMap; track subGroup.key) {
+                            @if(subGroup.value | shouldShowSummaryGroup) {
+                                <com-summary-line
+                                    data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_SUB"
+                                    [group]="subGroup.value!"
+                                    [showGroup]="group.isBookmarkGroup ?? false"
+                                ></com-summary-line>
+                            }
+                        }
+                    </div>
+
+                    @if(group.tasks?.length) {
+                        <p-divider></p-divider>
+                    }
+                }
+
+                @if(group.tasks) {
+                    <com-task-table
+                        [group]="group"
+                        [tasks]="group.tasks"
+                    ></com-task-table>
+                }
+            }
+        </div>
+    }
 </div>
-
-<!---------------------------------------------------------------------------->
-<!------------------------------ View Templates ------------------------------>
-<!---------------------------------------------------------------------------->
-<ng-template #fallbackView>
-    <xiv-landing-page></xiv-landing-page>
-</ng-template>
-
-<ng-template #customComponentView>
-    <div class="custom-group-component">
-        <ng-template anchor></ng-template>
-    </div>
-</ng-template>
-
-<ng-template #tableView>
-    <div
-        *ngIf="!svcNavigation.allTaskViewEnabled; else allTaskTable"
-        class="table-content"
-    >
-        <ng-container *ngIf="selectedGroup.subGroups">
-            <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
-        </ng-container>
-
-        <ng-container *ngIf="selectedGroup.subGroups && selectedGroup.tasks.length">
-            <p-divider></p-divider>
-        </ng-container>
-
-        <ng-container *ngTemplateOutlet="baseTable"></ng-container>
-    </div>
-</ng-template>
-
-<!----------------------------------------------------------------------------->
-<!------------------------------ Group Templates ------------------------------>
-<!----------------------------------------------------------------------------->
-<ng-template #groupSummaries>
-    <div class="group-summary-section">
-        <ng-container *ngFor="let subGroup of selectedGroup.subGroups | keyvalue: asIsOrder">
-            <xiv-summary-line
-                *ngIf="subGroup.value | shouldShowSummaryGroup"
-                [group]="subGroup.value"
-                [showGroup]="selectedGroup.isBookmarkGroup"
-            ></xiv-summary-line>
-        </ng-container>
-    </div>
-</ng-template>
-
-<ng-template #allTaskTable>
-    <xiv-show-all-section
-        [group]="selectedGroup"
-    ></xiv-show-all-section>
-</ng-template>
-
-<ng-template #baseTable>
-    <xiv-task-table
-        *ngIf="selectedGroup.tasks"
-        [group]="selectedGroup"
-        [tasks]="selectedGroup.tasks"
-    ></xiv-task-table>
-</ng-template>

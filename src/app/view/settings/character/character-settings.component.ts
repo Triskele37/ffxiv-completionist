@@ -1,9 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { Component, OnInit, signal } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
+import { FormsModule } from '@angular/forms';
+import { ButtonDirective } from 'primeng/button';
+import { ButtonGroup } from 'primeng/buttongroup';
+import { Checkbox } from 'primeng/checkbox';
+import { ProgressSpinner } from 'primeng/progressspinner';
+import { Select } from 'primeng/select';
+import { Tooltip } from 'primeng/tooltip';
 
 import { Completion, Lang } from '@constant';
+import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import { DataService } from '@data';
-import { getChildTask } from '@model/DataGroup/children/getChild';
+import { getChildTask } from '@model/Task/get/getTask';
 import { Task } from '@model/Task';
 import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { setCompletion } from '@model/Task/completion/setCompletion';
@@ -19,8 +27,20 @@ type ShortLong = {
 };
 
 @Component({
-    selector: 'xiv-character-settings',
+    selector: 'com-character-settings',
     templateUrl: './character-settings.component.html',
+    imports: [
+        ButtonDirective,
+        ButtonGroup,
+        Checkbox,
+        FormsModule,
+        ProgressSpinner,
+        Select,
+        Tooltip,
+        TranslatePipe,
+
+        ChainOverlayComponent
+    ],
     styleUrls: ['./character-settings.component.scss']
 })
 export class CharacterSettingsComponent implements OnInit {
@@ -34,13 +54,13 @@ export class CharacterSettingsComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        const LANGUAGES = 'MAIN.SETTING.LANGUAGE';
+        const LANGUAGES = 'APP.SETTING.LANGUAGE';
         this.languages = [
             { short: Lang.EN, long: this.translate.instant(`${LANGUAGES}.ENGLISH`) },
             { short: Lang.FR, long: this.translate.instant(`${LANGUAGES}.FRENCH`) },
         ];
 
-        const CLASSES = 'DATA.CLASS_JOB';
+        const CLASSES = 'GAME.CLASS_JOB';
         this.startingClasses = [
             { short: 'Arcanist', long: this.translate.instant(`${CLASSES}.ACN`) },
             { short: 'Archer', long: this.translate.instant(`${CLASSES}.ARC`) },
@@ -52,30 +72,32 @@ export class CharacterSettingsComponent implements OnInit {
             { short: 'Thaumaturge', long: this.translate.instant(`${CLASSES}.THM`) },
         ];
 
-        this.svcSettings.onChainingEnabled$.subscribe(this.chainStartingClass);
+        this.svcSettings.onChainingEnabled$.subscribe(this.chainStartingClass.bind(this));
     }
 
     //#region------------------------------------------------------- Modal
-    isModalVisible: boolean = false;
+    isModalVisible = signal(false);
+    isReloadVisible = signal(false);
 
     showModal(callback: () => boolean | void): void {
-        this.isModalVisible = true;
+        this.isModalVisible.set(true);
 
         // Gives time for the UI to add the modal
         setTimeout(() => {
-            this.isModalVisible = !!callback();
+            this.isModalVisible.set(!!callback());
         }, 100);
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Language
-    languages: ShortLong[];
+    languages?: ShortLong[];
 
     onChangeLanguage(): void {
         this.svcSettings.onChangeStringSetting(this.svcSettings.settings.lang);
-        this.isModalVisible = true;
-        location.reload();
+        this.isModalVisible.set(true);
+        this.isReloadVisible.set(true);
+        this.svcElectron.reloadApp();
     }
 
     //#endregion
@@ -83,14 +105,15 @@ export class CharacterSettingsComponent implements OnInit {
     //#region------------------------------------------------------- Short names
     onUseShortNamesChange(): void {
         this.svcSettings.onChangeBoolSetting(this.svcSettings.settings.useShortNames);
-        this.isModalVisible = true;
-        location.reload();
+        this.isModalVisible.set(true);
+        this.isReloadVisible.set(true);
+        this.svcElectron.reloadApp();
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Starting Class
-    startingClasses: ShortLong[];
+    startingClasses?: ShortLong[];
 
     onChangeStartingClass(): void {
         ChainService.force = true;
@@ -143,7 +166,9 @@ export class CharacterSettingsComponent implements OnInit {
         setCompletion(pre, Completion.N);
     }
 
-    excludeStartingClassQuest(startingClass: string): void {
+    excludeStartingClassQuest(startingClass?: string): void {
+        if(!startingClass) return;
+
         [
             { name: 'Archer', path: 'q.65755' },
             { name: 'Lancer', path: 'q.65754' },
@@ -157,20 +182,20 @@ export class CharacterSettingsComponent implements OnInit {
             const task = getChildTask(this.svcData.data, path);
 
             if(startingClass === name) {
-                if(task.completionFlag !== Completion.X) {
+                if(task.completionFlag$() !== Completion.X) {
                     this.svcChain.pushChained({
                         task,
-                        fromFlag: task.completionFlag,
+                        fromFlag: task.completionFlag$(),
                         toFlag: Completion.X
                     });
 
                     setCompletion(task, Completion.X);
                 }
             }
-            else if(task.completionFlag === Completion.X) {
+            else if(task.completionFlag$() === Completion.X) {
                 this.svcChain.pushChained({
                     task,
-                    fromFlag: task.completionFlag,
+                    fromFlag: task.completionFlag$(),
                     toFlag: Completion.N
                 });
 
@@ -181,7 +206,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     clearStartingZone(gridania: Task, limsa: Task, uldah: Task): void {
         // The current flag cannot be N for the first zone to trigger chains properly
-        if(gridania.completionFlag === Completion.N) setCompletion(gridania, Completion.Y);
+        if(gridania.completionFlag$() === Completion.N) setCompletion(gridania, Completion.Y);
 
         // firstInChain must be true for the first zone to be cleared
         changeCompletion(gridania, Completion.N, true);
@@ -195,7 +220,10 @@ export class CharacterSettingsComponent implements OnInit {
     onNewSaveClick(): void {
         this.showModal(() => {
             const confirmed = this.svcElectron.sendSync(IPC_EVENT.NEW_SAVE);
-            if(confirmed) location.reload();
+            if(confirmed) {
+                this.isReloadVisible.set(true);
+                this.svcElectron.reloadApp();
+            }
             return confirmed;
         });
     }
@@ -203,7 +231,10 @@ export class CharacterSettingsComponent implements OnInit {
     onLoadSaveClick(): void {
         this.showModal(() => {
             const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_SAVE);
-            if(confirmed) location.reload();
+            if(confirmed) {
+                this.isReloadVisible.set(true);
+                this.svcElectron.reloadApp();
+            }
             return confirmed;
         });
     }
@@ -256,7 +287,10 @@ export class CharacterSettingsComponent implements OnInit {
     onLoadBackupConfigClick(): void {
         this.showModal(() => {
             const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_CONFIG);
-            if(confirmed) location.reload();
+            if(confirmed) {
+                this.isReloadVisible.set(true);
+                this.svcElectron.reloadApp();
+            }
             return confirmed;
         });
     }
@@ -264,7 +298,10 @@ export class CharacterSettingsComponent implements OnInit {
     onLoadBackupSaveClick(): void {
         this.showModal(() => {
             const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_SAVE);
-            if(confirmed) location.reload();
+            if(confirmed) {
+                this.isReloadVisible.set(true);
+                this.svcElectron.reloadApp();
+            }
             return confirmed;
         });
     }

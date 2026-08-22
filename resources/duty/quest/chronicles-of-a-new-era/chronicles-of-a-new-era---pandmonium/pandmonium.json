@@ -4,176 +4,191 @@
     "groupName_fr": "Pandæmonium",
     "tasks": {
         "x70011": {
-            "level": 90,
             "name_en": "The Crystal from Beyond",
             "name_fr": "“Tous les démons”",
+            "level": 90,
             "npc_en": "Nemjiji",
             "npc_fr": "Nemjiji",
+            "patch": "6.01",
             "cPrev": ["q.70000"],
-            "cNext": ["q.70012"],
-            "patch": "6.05"
+            "cNext": ["q.70012"]
         },
         "x70012": {
-            "level": 90,
             "name_en": "Where Familiars Dare",
             "name_fr": "Aux portes du pénitencier",
-            "unlock": "d.808",
+            "level": 90,
             "npc_en": "Themis",
             "npc_fr": "Thémis",
+            "unlock": "d.808",
+            "patch": "6.01",
             "cPrev": ["q.70011"],
             "cNext": ["q.70013"],
-            "patch": "6.05"
+            "cSiblings": ["d.808"]
         },
         "x70013": {
-            "level": 90,
             "name_en": "Under the Surface",
             "name_fr": "En eaux troubles",
-            "unlock": "d.810",
+            "level": 90,
             "npc_en": "Erichthonios",
             "npc_fr": "Érichthonios",
+            "unlock": "d.810",
+            "patch": "6.01",
             "cPrev": ["q.70012"],
             "cNext": ["q.70014"],
-            "patch": "6.05"
+            "cSiblings": ["d.810"]
         },
         "x70014": {
-            "level": 90,
             "name_en": "The Fires of Creation",
             "name_fr": "Changement de décor",
-            "unlock": "d.806",
+            "level": 90,
             "npc_en": "Themis",
             "npc_fr": "Thémis",
+            "unlock": "d.806",
+            "patch": "6.01",
             "cPrev": ["q.70013"],
             "cNext": ["q.70015"],
-            "patch": "6.05"
+            "cSiblings": ["d.806"]
         },
         "x70015": {
-            "level": 90,
             "name_en": "Who Wards the Warders?",
             "name_fr": "L'ombre du grand geôlier",
-            "unlock": "d.800",
+            "level": 90,
             "npc_en": "Themis",
             "npc_fr": "Thémis",
+            "unlock": ["d.800", "d.809", "d.811", "d.807", "d.801"],
+            "patch": "6.01",
             "cPrev": ["q.70014"],
-            "cNext": ["q.70171"],
-            "patch": "6.05"
+            "cNext": ["q.70171", "d.809", "d.811", "d.807", "d.801"],
+            "cSiblings": ["d.800"]
         },
         "x70171": {
-            "level": 90,
             "name_en": "An Unwelcome Visitor",
             "name_fr": "Retour à la case prison",
+            "level": 90,
             "npc_en": "Claudien",
             "npc_fr": "Claudien",
+            "patch": "6.2",
             "cPrev": ["q.70015"],
-            "cNext": ["q.70172"],
-            "patch": "6.28"
+            "cNext": ["q.70172"]
         },
         "x70172": {
-            "level": 90,
             "name_en": "Masks of the Father",
             "name_fr": "Duplicité paternelle",
-            "unlock": "d.872",
+            "level": 90,
             "npc_en": "Erichthonios",
             "npc_fr": "Érichthonios",
+            "unlock": "d.872",
+            "patch": "6.2",
             "cPrev": ["q.70171"],
             "cNext": ["q.70173"],
-            "patch": "6.28"
+            "cSiblings": ["d.872"]
         },
         "x70173": {
-            "level": 90,
             "name_en": "A Keyward's Gaol",
             "name_fr": "Médiation père-fils",
-            "unlock": "d.880",
+            "level": 90,
             "npc_en": "Erichthonios",
             "npc_fr": "Érichthonios",
+            "unlock": "d.880",
+            "patch": "6.2",
             "cPrev": ["q.70172"],
             "cNext": ["q.70174"],
-            "patch": "6.28"
+            "cSiblings": ["d.880"]
         },
         "x70174": {
-            "level": 90,
             "name_en": "Servant of Violence",
             "name_fr": "Descente à l'Enfer",
-            "unlock": "d.876",
+            "level": 90,
             "npc_en": "Erichthonios",
             "npc_fr": "Érichthonios",
+            "unlock": "d.876",
+            "patch": "6.2",
             "cPrev": ["q.70173"],
             "cNext": ["q.70175"],
-            "patch": "6.28"
+            "cSiblings": ["d.876"]
         },
         "x70175": {
-            "level": 90,
             "name_en": "One Final Wish",
             "name_fr": "Un ennemi nommé désir",
-            "unlock": "d.883",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": "d.883",
+            "patch": "6.2",
             "cPrev": ["q.70174"],
             "cNext": ["q.70176"],
-            "patch": "6.28"
+            "cSiblings": ["d.883"]
         },
         "x70176": {
-            "level": 90,
             "name_en": "Truth Imperfect",
             "name_fr": "D'Héphaïstos à Lahabrea",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": ["d.873", "d.881", "d.877", "d.884"],
+            "patch": "6.2",
             "cPrev": ["q.70175"],
-            "cNext": ["q.70292"],
-            "patch": "6.28"
+            "cNext": ["q.70292", "d.873", "d.881", "d.877", "d.884"]
         },
         "x70292": {
-            "level": 90,
             "name_en": "Eater of Souls",
             "name_fr": "Le dévoreur d'âmes",
-            "unlock": "d.936",
+            "level": 90,
             "npc_en": "Ruissenaud",
             "npc_fr": "Ruissenaud",
+            "unlock": "d.936",
+            "patch": "6.4",
             "cPrev": ["q.70176"],
             "cNext": ["q.70293"],
-            "patch": "6.4"
+            "cSiblings": ["d.936"]
         },
         "x70293": {
-            "level": 90,
             "name_en": "Pandæmonium Awakens",
             "name_fr": "Un monstre appelé Pandæmonium",
-            "unlock": "d.938",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": "d.938",
+            "patch": "6.4",
             "cPrev": ["q.70292"],
             "cNext": ["q.70294"],
-            "patch": "6.4"
+            "cSiblings": ["d.938"]
         },
         "x70294": {
-            "level": 90,
             "name_en": "The Emissary's Judgment",
             "name_fr": "Ennemi malgré lui",
-            "unlock": "d.940",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": "d.940",
+            "patch": "6.4",
             "cPrev": ["q.70293"],
             "cNext": ["q.70295"],
-            "patch": "6.4"
+            "cSiblings": ["d.940"]
         },
         "x70295": {
-            "level": 90,
             "name_en": "A Mother's Touch",
             "name_fr": "Mère et fils",
-            "unlock": "d.942",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": "d.942",
+            "patch": "6.4",
             "cPrev": ["q.70294"],
             "cNext": ["q.70296"],
-            "patch": "6.4"
+            "cSiblings": ["d.942"]
         },
         "x70296": {
-            "level": 90,
             "name_en": "Guided by the Past",
             "name_fr": "Rétrospections",
+            "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
+            "unlock": ["d.937", "d.939", "d.941", "d.943", "tto.112"],
+            "patch": "6.4",
             "cPrev": ["q.70295"],
-            "cSiblings": ["a.3247"],
-            "patch": "6.4"
+            "cNext": ["d.937", "d.939", "d.941", "d.943"],
+            "cSiblings": ["a.3247"]
         }
     }
 }

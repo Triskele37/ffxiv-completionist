@@ -1,112 +1,112 @@
 {
     "key": "ultima-thule",
-    "groupName": "@PLACE.ULTIMA_THULE",
+    "groupName": "@PLACE.EW.ULTIMA_THULE",
     "tasks": {
         "x1843": {
-            "level": 89,
             "name_en": "Omicron Recall: Comms Expansion",
             "name_fr": "Mémoire vive : mise à niveau",
+            "level": 89,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(29.4, 25.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         },
         "x1844": {
-            "level": 89,
             "name_en": "Omicron Recall: Secure Connection",
             "name_fr": "Mémoire vive : pare-feu",
+            "level": 89,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(33.3, 26.8)",
-            "patch": "6.0",
-            "previousFate": "f.1843",
-            "type": "@FATE.TYPE.DEFENSE"
+            "previousFate": "fate.1843",
+            "patch": "6.0"
         },
         "x1845": {
-            "level": 89,
             "name_en": "Sound and Fury",
             "name_fr": "Élégie à l'étoile du dragon",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10.1, 23.3)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1846": {
-            "level": 89,
             "name_en": "(No) Wind beneath Our Wings",
             "name_fr": "Ô vent, as-tu trouvé les dragons ?",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16.9, 28.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1847": {
-            "level": 89,
             "name_en": "Wings of Glory",
             "name_fr": "Défi : les ailes de la gloire",
+            "level": 89,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12.0, 35.3)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1848": {
-            "level": 89,
             "name_en": "Only Just Begun",
             "name_fr": "La fin de l'éternité",
+            "level": 89,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(8.7, 18.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "6.0"
         },
         "x1849": {
-            "level": 89,
             "name_en": "Far from the Madding Horde",
             "name_fr": "Défi : les ailes de la vengeance",
+            "level": 89,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20.6, 35.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1850": {
-            "level": 89,
             "name_en": "Dead Inside",
             "name_fr": "Le remède à la mélancolie",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17.3, 11.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1851": {
-            "level": 89,
             "name_en": "Beacons of Lost Hope",
             "name_fr": "Les vents du changement",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30.6, 7.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1852": {
-            "level": 89,
             "name_en": "Fallen from Grace",
             "name_fr": "L'éclat choit du ciel",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20.4, 7.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1853": {
-            "level": 89,
             "name_en": "Staring into the Void",
             "name_fr": "Les yeux dans le ciel",
+            "level": 89,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27.8, 15.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1854": {
-            "level": 89,
             "name_en": "Nevermore",
             "name_fr": "Défi : l'étoile du soir",
+            "level": 89,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(32.3, 11.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1855": {
-            "level": 90,
             "name_en": "Omicron Recall: Killing Order",
             "name_fr": "Mémoire vive : arrêter le processus",
+            "level": 90,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34.5, 21.5)",
-            "patch": "6.0",
-            "previousFate": "f.1844",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1844",
+            "patch": "6.0"
         }
     }
 }

@@ -1,9 +1,21 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { TranslatePipe } from '@ngx-translate/core';
+import { Checkbox } from 'primeng/checkbox';
+import { InputNumber } from 'primeng/inputnumber';
+import { Tooltip } from 'primeng/tooltip';
 
 import { SettingsService } from '../settings.service';
 
 @Component({
-    selector: 'xiv-chain-settings',
+    selector: 'com-chain-settings',
+    imports: [
+        Checkbox,
+        FormsModule,
+        InputNumber,
+        Tooltip,
+        TranslatePipe
+    ],
     templateUrl: './chain-settings.component.html'
 })
 export class ChainSettingsComponent {

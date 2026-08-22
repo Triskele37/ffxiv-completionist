@@ -4,209 +4,209 @@
     "groupName_fr": "Quêtes de chevalier dragon",
     "tasks": {
         "x66603": {
-            "level": 30,
             "name_en": "Eye of the Dragon",
             "name_fr": "L'Œil du dragon",
+            "level": 30,
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
+            "unlock": "ap.174",
+            "patch": "2.0",
             "cPrev": ["q.65975", "q.66049"],
             "cNext": ["q.66604"],
-            "cSiblings": ["ap.174"],
-            "patch": "4.31",
-            "unlock": "ap.174"
+            "cSiblings": ["ap.174"]
         },
         "x66604": {
-            "level": 35,
             "name_en": "Lance of Fury",
             "name_fr": "La lance du destin",
+            "level": 35,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "2.0",
             "cPrev": ["q.66603"],
-            "cNext": ["q.66605"],
-            "patch": "4.31"
+            "cNext": ["q.66605"]
         },
         "x66605": {
-            "level": 40,
             "name_en": "Unfading Skies",
             "name_fr": "Les griffes dans la nuit",
+            "level": 40,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "2.0",
             "cPrev": ["q.66604"],
-            "cNext": ["q.66606"],
-            "patch": "4.31"
+            "cNext": ["q.66606"]
         },
         "x66606": {
-            "level": 45,
             "name_en": "Double Dragoon",
             "name_fr": "La rencontre des deux dragons",
+            "level": 45,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "2.0",
             "cPrev": ["q.66605"],
-            "cNext": ["q.66607"],
-            "patch": "4.31"
+            "cNext": ["q.66607"]
         },
         "x66607": {
-            "level": 45,
             "name_en": "Fatal Seduction",
             "name_fr": "Un pouvoir subjuguant",
+            "level": 45,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "2.0",
             "cPrev": ["q.66606"],
-            "cNext": ["q.66608"],
-            "patch": "4.31"
+            "cNext": ["q.66608"]
         },
         "x66608": {
-            "level": 50,
             "name_en": "Into the Dragon's Maw",
             "name_fr": "La fureur d'un dragon",
+            "level": 50,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "2.0",
             "cPrev": ["q.66607"],
             "cNext": ["q.66658", "q.67225"],
-            "cSiblings": ["a.410"],
-            "patch": "4.31"
+            "cSiblings": ["a.410"]
         },
         "x66658": {
-            "level": 50,
             "name_en": "A Relic Reborn (Gae Bolg)",
             "name_fr": "Restauration du Gae bolg",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.66608", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66608", "q.66241"]
         },
         "x67225": {
-            "level": 50,
             "name_en": "Sky's the Limit",
             "name_fr": "Enseigner, c'est apprendre deux fois",
+            "level": 50,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.66608", "q.65964"],
-            "cNext": ["q.67226"],
-            "patch": "4.31"
+            "cNext": ["q.67226"]
         },
         "x67226": {
-            "level": 52,
             "name_en": "Days of Azure",
             "name_fr": "La première leçon",
+            "level": 52,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.67225"],
-            "cNext": ["q.67227"],
-            "patch": "4.31"
+            "cNext": ["q.67227"]
         },
         "x67227": {
-            "level": 52,
             "name_en": "Heart of Justice",
             "name_fr": "Destins croisés",
+            "level": 52,
             "npc_en": "Heustienne",
             "npc_fr": "Heustienne",
+            "patch": "3.0",
             "cPrev": ["q.67226"],
-            "cNext": ["q.67228"],
-            "patch": "4.31"
+            "cNext": ["q.67228"]
         },
         "x67228": {
-            "level": 54,
             "name_en": "Sworn Upon a Lance",
             "name_fr": "Pérégrine et Graoully",
+            "level": 54,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.67227"],
-            "cNext": ["q.67229"],
-            "patch": "4.31"
+            "cNext": ["q.67229"]
         },
         "x67229": {
-            "level": 56,
             "name_en": "Dragoon's Errand",
             "name_fr": "Dans les griffes de l'ennemi",
+            "level": 56,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.67228"],
-            "cNext": ["q.67230"],
-            "patch": "4.31"
+            "cNext": ["q.67230"]
         },
         "x67230": {
-            "level": 58,
             "name_en": "Sanguine Dragoon",
             "name_fr": "L'amère vérité",
+            "level": 58,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.67229"],
-            "cNext": ["q.67231"],
-            "patch": "4.31"
+            "cNext": ["q.67231"]
         },
         "x67231": {
-            "level": 60,
             "name_en": "Dragoon's Fate",
             "name_fr": "Le sang du dragon",
+            "level": 60,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "3.0",
             "cPrev": ["q.67230"],
             "cNext": ["q.68446"],
-            "cSiblings": ["a.1144"],
-            "patch": "4.31"
+            "cSiblings": ["a.1144"]
         },
         "x68446": {
-            "level": 60,
             "name_en": "Friends through Eternity",
             "name_fr": "Les temps changent",
+            "level": 60,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "4.0",
             "cPrev": ["q.67231", "q.67895"],
-            "cNext": ["q.68447"],
-            "patch": "4.31"
+            "cNext": ["q.68447"]
         },
         "x68447": {
-            "level": 63,
             "name_en": "Drowsy Dragons",
             "name_fr": "Le Dragon dormant",
+            "level": 63,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "4.0",
             "cPrev": ["q.68446"],
-            "cNext": ["q.68448"],
-            "patch": "4.31"
+            "cNext": ["q.68448"]
         },
         "x68448": {
-            "level": 65,
             "name_en": "Serpent and the Sea of Rubies",
             "name_fr": "Le Serpent de la Mer de Rubis",
+            "level": 65,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
+            "patch": "4.0",
             "cPrev": ["q.68447"],
-            "cNext": ["q.68449"],
-            "patch": "4.31"
+            "cNext": ["q.68449"]
         },
         "x68449": {
-            "level": 68,
             "name_en": "Dark as the Night Sky",
             "name_fr": "Aussi sombre que la nuit",
+            "level": 68,
             "npc_en": "Orn Khai",
             "npc_fr": "Orn Khai",
+            "patch": "4.0",
             "cPrev": ["q.68448"],
-            "cNext": ["q.68450"],
-            "patch": "4.31"
+            "cNext": ["q.68450"]
         },
         "x68450": {
-            "level": 70,
             "name_en": "Dragon Sound",
             "name_fr": "Le Dragon écarlate",
+            "level": 70,
             "npc_en": "Orn Khai",
             "npc_fr": "Orn Khai",
+            "patch": "4.0",
             "cPrev": ["q.68449"],
             "cNext": ["q.68749"],
-            "cSiblings": ["a.1800"],
-            "patch": "4.31"
+            "cSiblings": ["a.1800"]
         },
         "x68749": {
-            "level": 80,
             "name_en": "Gone but Not Forgiven",
             "name_fr": "À la mémoire d'un vieil ennemi",
+            "level": 80,
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": ["q.68450", "q.68814", "q.69190"],
-            "cSiblings": ["ap.309", "a.2309"],
+            "unlock": "ap.309",
             "patch": "5.0",
-            "unlock": "ap.309"
+            "cPrev": ["q.68450", "q.68814", "q.69190"],
+            "cSiblings": ["ap.309", "a.2309"]
         }
     }
 }

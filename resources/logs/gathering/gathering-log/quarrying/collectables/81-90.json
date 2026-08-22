@@ -3,64 +3,64 @@
     "groupName_en": "81-90",
     "groupName_fr": "81-90",
     "tasks": {
-        "x0": {
-            "level": "87",
+        "x10764": {
             "name_en": "Rarefied Phrygian Gold Ore",
             "name_fr": "Minerai d'or phrygien collectionnable",
-            "zone": "@PLACE.GARLEMALD",
+            "level": "87",
+            "zone": "@PLACE.EW.GARLEMALD",
             "coordinates": "(12.8, 21.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.153"
+            "patch": "6.0"
         },
-        "x1": {
-            "level": "89",
+        "x10765": {
             "name_en": "Rarefied Blue Zircon",
             "name_fr": "Zircon bleu brut collectionnable",
-            "zone": "@PLACE.ELPIS",
+            "level": "89",
+            "zone": "@PLACE.EW.ELPIS",
             "coordinates": "(8.3, 36.6)",
+            "closestAetheryte": "travel.aetherytes.others.158",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.158"
+            "patch": "6.0"
         },
-        "x2": {
-            "level": "90",
+        "x10769": {
             "name_en": "Rarefied Chloroschist",
             "name_fr": "Schiste vert collectionnable",
-            "zone": "@PLACE.LABYRINTHOS",
-            "coordinates": "(25.2, 24.2)",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.148"
-        },
-        "x3": {
             "level": "90",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(25.2, 24.2)",
+            "closestAetheryte": "travel.aetherytes.others.148",
+            "patch": "6.0"
+        },
+        "x10766": {
             "name_en": "Rarefied Eblan Alumen",
             "name_fr": "Alun d'Éblana collectionnable",
-            "zone": "@PLACE.GARLEMALD",
+            "level": "90",
+            "zone": "@PLACE.EW.GARLEMALD",
             "coordinates": "(12.8, 21.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.153"
+            "patch": "6.0"
         },
-        "x4": {
-            "level": "90★",
+        "x10767": {
             "name_en": "Rarefied Annite",
             "name_fr": "Annite collectionnable",
-            "zone": "@PLACE.ELPIS",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.ELPIS",
             "coordinates": "(8.3, 36.6)",
+            "closestAetheryte": "travel.aetherytes.others.158",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.158"
+            "patch": "6.0"
         },
-        "x5": {
-            "level": "90★",
+        "x10768": {
             "name_en": "Rarefied Pewter Ore",
             "name_fr": "Minerai de manganèse collectionnable",
-            "zone": "@PLACE.THAVNAIR",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.THAVNAIR",
             "coordinates": "(32.6, 25.0)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.152"
+            "patch": "6.0"
         }
     }
 }

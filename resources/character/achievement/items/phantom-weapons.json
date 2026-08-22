@@ -1,0 +1,763 @@
+{
+    "key": "phantom-weapons",
+    "groupName_en": "Phantom Weapons",
+    "groupName_fr": "Armes fantômes",
+    "tasks": {
+        "x3638": {
+            "name_en": "The Might Phantastick: Sword & Kite Shield Penumbrae",
+            "name_fr": "Armes fantômes : épée fantôme penumbra et écu mandorle fantôme penumbra",
+            "description_en": "Obtain a phantom sword penumbrae and phantom kite shield penumbrae.",
+            "description_fr": "Obtenir l'épée fantôme penumbra et l'écu mandorle fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.10"]
+        },
+        "x3752": {
+            "name_en": "Phantom of the Umbra: Sword & Kite Shield Umbrae",
+            "name_fr": "Armes fantômes : épée fantôme umbra et écu mandorle fantôme umbra",
+            "description_en": "Obtain a phantom sword umbrae and phantom kite shield umbrae.",
+            "description_fr": "Obtenir l'épée fantôme umbra et l'écu mandorle fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.11"]
+        },
+        "x3842": {
+            "name_en": "Clare Obscurum: Sword & Shield Obscurum",
+            "name_fr": "Armes fantômes : épée fantôme obscurum et bouclier fantôme obscurum",
+            "description_en": "Obtain a phantom sword obscurum and phantom shield obscurum.",
+            "description_fr": "Obtenir l'épée fantôme obscurum et le bouclier fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.12"]
+        },
+        "x3949": {
+            "name_en": "Cut Above the Rest: Sword & Shield Occultum",
+            "name_fr": "Armes fantômes : épée fantôme occultum et bouclier fantôme occultum",
+            "description_en": "Obtain a phantom sword occultum and phantom shield occultum.",
+            "description_fr": "Obtenir l'épée fantôme occultum et le bouclier fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.13"]
+        },
+        "x3643": {
+            "name_en": "The Might Phantastick: Knuckles Penumbrae",
+            "name_fr": "Armes fantômes : poings fantômes penumbra",
+            "description_en": "Obtain a pair of phantom knuckles penumbrae.",
+            "description_fr": "Obtenir les poings fantômes penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.14"]
+        },
+        "x3757": {
+            "name_en": "Phantom of the Umbra: Knuckles Umbrae",
+            "name_fr": "Armes fantômes : poings fantômes umbra",
+            "description_en": "Obtain a pair of phantom knuckles umbrae.",
+            "description_fr": "Obtenir les poings fantômes umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.20"]
+        },
+        "x3847": {
+            "name_en": "Clare Obscurum: Jamadhars Obscurum",
+            "name_fr": "Armes fantômes : jamadhars fantômes obscurum",
+            "description_en": "Obtain a pair of phantom jamadhars obscurum.",
+            "description_fr": "Obtenir les jamadhars fantômes obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.21"]
+        },
+        "x3954": {
+            "name_en": "Cut Above the Rest: Tonfa Occultum",
+            "name_fr": "Armes fantômes : tonfas fantômes occultum",
+            "description_en": "Obtain a pair of phantom tonfa occultum.",
+            "description_fr": "Obtenir les tonfas fantômes occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.22"]
+        },
+        "x3639": {
+            "name_en": "The Might Phantastick: Bardiche Penumbrae",
+            "name_fr": "Armes fantômes : bardiche fantôme penumbra",
+            "description_en": "Obtain a phantom bardiche penumbrae.",
+            "description_fr": "Obtenir la bardiche fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.23"]
+        },
+        "x3753": {
+            "name_en": "Phantom of the Umbra: Bardiche Umbrae",
+            "name_fr": "Armes fantômes : bardiche fantôme umbra",
+            "description_en": "Obtain a phantom bardiche umbrae.",
+            "description_fr": "Obtenir la bardiche fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.24"]
+        },
+        "x3843": {
+            "name_en": "Clare Obscurum: Bardiche Obscurum",
+            "name_fr": "Armes fantômes : bardiche fantôme obscurum",
+            "description_en": "Obtain a phantom bardiche obscurum.",
+            "description_fr": "Obtenir la bardiche fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.30"]
+        },
+        "x3950": {
+            "name_en": "Cut Above the Rest: War Hammer Occultum",
+            "name_fr": "Armes fantômes : marteau de guerre fantôme occultum",
+            "description_en": "Obtain a phantom war hammer occultum.",
+            "description_fr": "Obtenir le marteau de guerre fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.31"]
+        },
+        "x3642": {
+            "name_en": "The Might Phantastick: Spear Penumbrae",
+            "name_fr": "Armes fantômes : hast fantôme penumbra",
+            "description_en": "Obtain a phantom spear penumbrae.",
+            "description_fr": "Obtenir l'hast fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.32"]
+        },
+        "x3756": {
+            "name_en": "Phantom of the Umbra: Spear Umbrae",
+            "name_fr": "Armes fantômes : hast fantôme umbra",
+            "description_en": "Obtain a phantom spear umbrae.",
+            "description_fr": "Obtenir l'hast fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.33"]
+        },
+        "x3846": {
+            "name_en": "Clare Obscurum: Fork Obscurum",
+            "name_fr": "Armes fantômes : fourche fantôme obscurum",
+            "description_en": "Obtain a phantom fork obscurum.",
+            "description_fr": "Obtenir la fourche fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.34"]
+        },
+        "x3953": {
+            "name_en": "Cut Above the Rest: Spear Occultum",
+            "name_fr": "Armes fantômes : l'hast fantôme occultum",
+            "description_en": "Obtain a phantom spear occultum.",
+            "description_fr": "Obtenir l'hast fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.40"]
+        },
+        "x3648": {
+            "name_en": "The Might Phantastick: Harp Bow Penumbrae",
+            "name_fr": "Armes fantômes : arc-harpe fantôme penumbra",
+            "description_en": "Obtain a phantom harp bow penumbrae.",
+            "description_fr": "Obtenir l'arc-harpe fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.41"]
+        },
+        "x3762": {
+            "name_en": "Phantom of the Umbra: Harp Bow Umbrae",
+            "name_fr": "Armes fantômes : arc-harpe fantôme umbra",
+            "description_en": "Obtain a phantom harp bow umbrae.",
+            "description_fr": "Obtenir l'arc-harpe fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.42"]
+        },
+        "x3852": {
+            "name_en": "Clare Obscurum: Longbow Obscurum",
+            "name_fr": "Armes fantômes : arc long fantôme obscurum",
+            "description_en": "Obtain a phantom longbow obscurum.",
+            "description_fr": "Obtenir l'arc long fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.43"]
+        },
+        "x3959": {
+            "name_en": "Cut Above the Rest: Harp Bow Occultum",
+            "name_fr": "Armes fantômes : arc-harpe fantôme occultum",
+            "description_en": "Obtain a phantom harp bow occultum.",
+            "description_fr": "Obtenir l'arc-harpe fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.44"]
+        },
+        "x3644": {
+            "name_en": "The Might Phantastick: Cleavers Penumbrae",
+            "name_fr": "Armes fantômes : couperets fantômes penumbra",
+            "description_en": "Obtain a pair of phantom cleavers penumbrae.",
+            "description_fr": "Obtenir les couperets fantômes penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.50"]
+        },
+        "x3758": {
+            "name_en": "Phantom of the Umbra: Cleavers Umbrae",
+            "name_fr": "Armes fantômes : couperets fantômes umbra",
+            "description_en": "Obtain a pair of phantom cleavers umbrae.",
+            "description_fr": "Obtenir les couperets fantômes umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.51"]
+        },
+        "x3848": {
+            "name_en": "Clare Obscurum: Khukuri Obscurum",
+            "name_fr": "Armes fantômes : khukuris fantômes obscurum",
+            "description_en": "Obtain a pair of phantom khukuri obscurum.",
+            "description_fr": "Obtenir les khukuris fantômes obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.52"]
+        },
+        "x3955": {
+            "name_en": "Cut Above the Rest: Knives Occultum",
+            "name_fr": "Armes fantômes : couteaux fantômes occultum",
+            "description_en": "Obtain a pair of phantom knives occultum.",
+            "description_fr": "Obtenir les couteaux fantômes occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.53"]
+        },
+        "x3655": {
+            "name_en": "The Might Phantastick: Crook Penumbrae",
+            "name_fr": "Armes fantômes : crosse fantôme penumbra",
+            "description_en": "Obtain a phantom crook penumbrae.",
+            "description_fr": "Obtenir la crosse fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.54"]
+        },
+        "x3769": {
+            "name_en": "Phantom of the Umbra: Crook Umbrae",
+            "name_fr": "Armes fantômes : crosse fantôme umbra",
+            "description_en": "Obtain a phantom crook umbrae.",
+            "description_fr": "Obtenir la crosse fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.60"]
+        },
+        "x3859": {
+            "name_en": "Clare Obscurum: Cane Obscurum",
+            "name_fr": "Armes fantômes : canne fantôme obscurum",
+            "description_en": "Obtain a phantom cane obscurum.",
+            "description_fr": "Obtenir la canne fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.61"]
+        },
+        "x3966": {
+            "name_en": "Cut Above the Rest: Cane Occultum",
+            "name_fr": "Armes fantômes : canne fantôme occultum",
+            "description_en": "Obtain a phantom cane occultum.",
+            "description_fr": "Obtenir la canne fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.62"]
+        },
+        "x3651": {
+            "name_en": "The Might Phantastick: Staff Penumbrae",
+            "name_fr": "Armes fantômes : bâton fantôme penumbra",
+            "description_en": "Obtain a phantom staff penumbrae.",
+            "description_fr": "Obtenir le bâton fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.63"]
+        },
+        "x3765": {
+            "name_en": "Phantom of the Umbra: Staff Umbrae",
+            "name_fr": "Armes fantômes : bâton fantôme umbra",
+            "description_en": "Obtain a phantom staff umbrae.",
+            "description_fr": "Obtenir le bâton fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.64"]
+        },
+        "x3855": {
+            "name_en": "Clare Obscurum: Longpole Obscurum",
+            "name_fr": "Armes fantômes : échalas fantôme obscurum",
+            "description_en": "Obtain a phantom longpole obscurum.",
+            "description_fr": "Obtenir l'échalas fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.70"]
+        },
+        "x3962": {
+            "name_en": "Cut Above the Rest: Staff Occultum",
+            "name_fr": "Armes fantômes : bâton fantôme occultum",
+            "description_en": "Obtain a phantom staff occultum.",
+            "description_fr": "Obtenir le bâton fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.71"]
+        },
+        "x3652": {
+            "name_en": "The Might Phantastick: Index Penumbrae",
+            "name_fr": "Armes fantômes : index fantôme penumbra",
+            "description_en": "Obtain a phantom index penumbrae.",
+            "description_fr": "Obtenir l'index fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.72"]
+        },
+        "x3766": {
+            "name_en": "Phantom of the Umbra: Index Umbrae",
+            "name_fr": "Armes fantômes : index fantôme umbra",
+            "description_en": "Obtain a phantom index umbrae.",
+            "description_fr": "Obtenir l'index fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.73"]
+        },
+        "x3856": {
+            "name_en": "Clare Obscurum: Index Obscurum",
+            "name_fr": "Armes fantômes : index fantôme obscurum",
+            "description_en": "Obtain a phantom index obscurum.",
+            "description_fr": "Obtenir l'index fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.74"]
+        },
+        "x3963": {
+            "name_en": "Cut Above the Rest: Index Occultum",
+            "name_fr": "Armes fantômes : index fantôme occultum",
+            "description_en": "Obtain a phantom index occultum.",
+            "description_fr": "Obtenir l'index fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.80"]
+        },
+        "x3656": {
+            "name_en": "The Might Phantastick: Codex Penumbrae",
+            "name_fr": "Armes fantômes : codex fantôme penumbra",
+            "description_en": "Obtain a phantom codex penumbrae.",
+            "description_fr": "Obtenir le codex fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.81"]
+        },
+        "x3770": {
+            "name_en": "Phantom of the Umbra: Codex Umbrae",
+            "name_fr": "Armes fantômes : codex fantôme umbra",
+            "description_en": "Obtain a phantom codex umbrae.",
+            "description_fr": "Obtenir le codex fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.82"]
+        },
+        "x3860": {
+            "name_en": "Clare Obscurum: Codex Obscurum",
+            "name_fr": "Armes fantômes : codex fantôme obscurum",
+            "description_en": "Obtain a phantom codex obscurum.",
+            "description_fr": "Obtenir le codex fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.83"]
+        },
+        "x3967": {
+            "name_en": "Cut Above the Rest: Codex Occultum",
+            "name_fr": "Armes fantômes : codex fantôme occultum",
+            "description_en": "Obtain a phantom codex occultum.",
+            "description_fr": "Obtenir le codex fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.84"]
+        },
+        "x3640": {
+            "name_en": "The Might Phantastick: Guillotine Penumbrae",
+            "name_fr": "Armes fantômes : fendoir fantôme penumbra",
+            "description_en": "Obtain a phantom guillotine penumbrae.",
+            "description_fr": "Obtenir le fendoir fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.90"]
+        },
+        "x3754": {
+            "name_en": "Phantom of the Umbra: Guillotine Umbrae",
+            "name_fr": "Armes fantômes : fendoir fantôme umbra",
+            "description_en": "Obtain a phantom guillotine umbrae.",
+            "description_fr": "Obtenir le fendoir fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.91"]
+        },
+        "x3844": {
+            "name_en": "Clare Obscurum: Guillotine Obscurum",
+            "name_fr": "Armes fantômes : fendoir fantôme obscurum",
+            "description_en": "Obtain a phantom guillotine obscurum.",
+            "description_fr": "Obtenir le fendoir fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.92"]
+        },
+        "x3951": {
+            "name_en": "Cut Above the Rest: Guillotine Occultum",
+            "name_fr": "Armes fantômes : fendoir fantôme occultum",
+            "description_en": "Obtain a phantom guillotine occultum.",
+            "description_fr": "Obtenir le fendoir fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.93"]
+        },
+        "x3649": {
+            "name_en": "The Might Phantastick: Arquebus Penumbrae",
+            "name_fr": "Armes fantômes : arquebuse fantôme penumbra",
+            "description_en": "Obtain a phantom arquebus penumbrae.",
+            "description_fr": "Obtenir l'arquebuse fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.94"]
+        },
+        "x3763": {
+            "name_en": "Phantom of the Umbra: Arquebus Umbrae",
+            "name_fr": "Armes fantômes : arquebuse fantôme umbra",
+            "description_en": "Obtain a phantom arquebus umbrae.",
+            "description_fr": "Obtenir l'arquebuse fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.100"]
+        },
+        "x3853": {
+            "name_en": "Clare Obscurum: Musketoon Obscurum",
+            "name_fr": "Armes fantômes : mousqueton fantôme obscurum",
+            "description_en": "Obtain a phantom musketoon obscurum.",
+            "description_fr": "Obtenir le mousqueton fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.101"]
+        },
+        "x3960": {
+            "name_en": "Cut Above the Rest: Revolver Occultum",
+            "name_fr": "Armes fantômes : revolver fantôme occultum",
+            "description_en": "Obtain a phantom revolver occultum.",
+            "description_fr": "Obtenir le revolver fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.102"]
+        },
+        "x3657": {
+            "name_en": "The Might Phantastick: Star Globe Penumbrae",
+            "name_fr": "Armes fantômes : globe céleste fantôme penumbra",
+            "description_en": "Obtain a phantom star globe penumbrae.",
+            "description_fr": "Obtenir le globe céleste fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.103"]
+        },
+        "x3771": {
+            "name_en": "Phantom of the Umbra: Star Globe Umbrae",
+            "name_fr": "Armes fantômes : globe céleste fantôme umbra",
+            "description_en": "Obtain a phantom star globe umbrae.",
+            "description_fr": "Obtenir le globe céleste fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.104"]
+        },
+        "x3861": {
+            "name_en": "Clare Obscurum: Star Pendant Obscurum",
+            "name_fr": "Armes fantômes : mobile stellaire fantôme obscurum",
+            "description_en": "Obtain a phantom star pendant obscurum.",
+            "description_fr": "Obtenir le mobile stellaire fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.110"]
+        },
+        "x3968": {
+            "name_en": "Cut Above the Rest: Star Globe Occultum",
+            "name_fr": "Armes fantômes : globe céleste fantôme occultum",
+            "description_en": "Obtain a phantom star globe occultum.",
+            "description_fr": "Obtenir le globe céleste fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.111"]
+        },
+        "x3646": {
+            "name_en": "The Might Phantastick: Blade Penumbrae",
+            "name_fr": "Armes fantômes : lame fantôme penumbra",
+            "description_en": "Obtain a phantom blade penumbrae.",
+            "description_fr": "Obtenir la lame fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.112"]
+        },
+        "x3760": {
+            "name_en": "Phantom of the Umbra: Blade Umbrae",
+            "name_fr": "Armes fantômes : lame fantôme umbra",
+            "description_en": "Obtain a phantom blade umbrae.",
+            "description_fr": "Obtenir la lame fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.113"]
+        },
+        "x3850": {
+            "name_en": "Clare Obscurum: Blade Obscurum",
+            "name_fr": "Armes fantômes : lame fantôme obscurum",
+            "description_en": "Obtain a phantom blade obscurum.",
+            "description_fr": "Obtenir la lame fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.114"]
+        },
+        "x3957": {
+            "name_en": "Cut Above the Rest: Blade Occultum",
+            "name_fr": "Armes fantômes : lame fantôme occultum",
+            "description_en": "Obtain a phantom blade occultum.",
+            "description_fr": "Obtenir la lame fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.120"]
+        },
+        "x3653": {
+            "name_en": "The Might Phantastick: Rapier Penumbrae",
+            "name_fr": "Armes fantômes : rapière fantôme penumbra",
+            "description_en": "Obtain a phantom rapier penumbrae.",
+            "description_fr": "Obtenir la rapière fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.121"]
+        },
+        "x3767": {
+            "name_en": "Phantom of the Umbra: Rapier Umbrae",
+            "name_fr": "Armes fantômes : rapière fantôme umbra",
+            "description_en": "Obtain a phantom rapier umbrae.",
+            "description_fr": "Obtenir la rapière fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.122"]
+        },
+        "x3857": {
+            "name_en": "Clare Obscurum: Hanger Obscurum",
+            "name_fr": "Armes fantômes : ballante fantôme obscurum",
+            "description_en": "Obtain a phantom hanger obscurum.",
+            "description_fr": "Obtenir la ballante fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.123"]
+        },
+        "x3964": {
+            "name_en": "Cut Above the Rest: Degen Occultum",
+            "name_fr": "Armes fantômes : alfange fantôme occultum",
+            "description_en": "Obtain a phantom degen occultum.",
+            "description_fr": "Obtenir l'alfange fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.124"]
+        },
+        "x3641": {
+            "name_en": "The Might Phantastick: Bayonet Penumbrae",
+            "name_fr": "Armes fantômes : baïonnette fantôme penumbra",
+            "description_en": "Obtain a phantom bayonet penumbrae.",
+            "description_fr": "Obtenir la baïonnette fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.130"]
+        },
+        "x3755": {
+            "name_en": "Phantom of the Umbra: Bayonet Umbrae",
+            "name_fr": "Armes fantômes : baïonnette fantôme umbra",
+            "description_en": "Obtain a phantom bayonet umbrae.",
+            "description_fr": "Obtenir la baïonnette fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.131"]
+        },
+        "x3845": {
+            "name_en": "Clare Obscurum: Gunblade Obscurum",
+            "name_fr": "Armes fantômes : pistolame fantôme obscurum",
+            "description_en": "Obtain a phantom gunblade obscurum.",
+            "description_fr": "Obtenir la pistolame fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.132"]
+        },
+        "x3952": {
+            "name_en": "Cut Above the Rest: Gunblade Occultum",
+            "name_fr": "Armes fantômes : pistolame fantôme occultum",
+            "description_en": "Obtain a phantom gunblade occultum.",
+            "description_fr": "Obtenir la pistolame fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.133"]
+        },
+        "x3650": {
+            "name_en": "The Might Phantastick: Terpna Penumbrae",
+            "name_fr": "Armes fantômes : terpna fantômes penumbra",
+            "description_en": "Obtain a pair of phantom terpna penumbrae.",
+            "description_fr": "Obtenir les terpna fantômes penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.134"]
+        },
+        "x3764": {
+            "name_en": "Phantom of the Umbra: Terpna Umbrae",
+            "name_fr": "Armes fantômes : terpna fantômes umbra",
+            "description_en": "Obtain a pair of phantom terpna umbrae.",
+            "description_fr": "Obtenir les terpna fantômes umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.140"]
+        },
+        "x3854": {
+            "name_en": "Clare Obscurum: Tathlums Obscurum",
+            "name_fr": "Armes fantômes : tathlums fantômes obscurum",
+            "description_en": "Obtain a pair of phantom tathlums obscurum.",
+            "description_fr": "Obtenir les tathlums fantômes obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.141"]
+        },
+        "x3961": {
+            "name_en": "Cut Above the Rest: Fans Occultum",
+            "name_fr": "Armes fantômes : éventails fantômes occultum",
+            "description_en": "Obtain a pair of phantom fans occultum.",
+            "description_fr": "Obtenir les éventails fantômes occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.142"]
+        },
+        "x3647": {
+            "name_en": "The Might Phantastick: War Scythe Penumbrae",
+            "name_fr": "Armes fantômes : faux de guerre fantôme penumbra",
+            "description_en": "Obtain a phantom war scythe penumbrae.",
+            "description_fr": "Obtenir la faux de guerre fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.143"]
+        },
+        "x3761": {
+            "name_en": "Phantom of the Umbra: War Scythe Umbrae",
+            "name_fr": "Armes fantômes : faux de guerre fantôme umbra",
+            "description_en": "Obtain a phantom war scythe umbrae.",
+            "description_fr": "Obtenir la faux de guerre fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.144"]
+        },
+        "x3851": {
+            "name_en": "Clare Obscurum: War Scythe Obscurum",
+            "name_fr": "Armes fantômes : faux de guerre fantôme obscurum",
+            "description_en": "Obtain a phantom war scythe obscurum.",
+            "description_fr": "Obtenir la faux de guerre fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.150"]
+        },
+        "x3958": {
+            "name_en": "Cut Above the Rest: War Scythe Occultum",
+            "name_fr": "Armes fantômes : faux de guerre fantôme occultum",
+            "description_en": "Obtain a phantom war scythe occultum.",
+            "description_fr": "Obtenir la faux de guerre fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.151"]
+        },
+        "x3658": {
+            "name_en": "The Might Phantastick: Pendulums Penumbrae",
+            "name_fr": "Armes fantômes : pendules fantômes penumbra",
+            "description_en": "Obtain an array of phantom pendulums penumbrae.",
+            "description_fr": "Obtenir les pendules fantômes penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.152"]
+        },
+        "x3772": {
+            "name_en": "Phantom of the Umbra: Pendulums Umbrae",
+            "name_fr": "Armes fantômes : pendules fantômes umbra",
+            "description_en": "Obtain an array of phantom pendulums umbrae.",
+            "description_fr": "Obtenir les pendules fantômes umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.153"]
+        },
+        "x3862": {
+            "name_en": "Clare Obscurum: Wings Obscurum",
+            "name_fr": "Armes fantômes : ailes fantômes obscurum",
+            "description_en": "Obtain an array of phantom wings obscurum.",
+            "description_fr": "Obtenir les ailes fantômes obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.154"]
+        },
+        "x3969": {
+            "name_en": "Cut Above the Rest: Pendulums Occultum",
+            "name_fr": "Armes fantômes : pendules fantômes occultum",
+            "description_en": "Obtain an array of phantom pendulums occultum.",
+            "description_fr": "Obtenir les pendules fantômes occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.160"]
+        },
+        "x3645": {
+            "name_en": "The Might Phantastick: Twinfangs Penumbrae",
+            "name_fr": "Armes fantômes : crochets fantômes penumbra",
+            "description_en": "Obtain a pair of phantom twinfangs penumbrae.",
+            "description_fr": "Obtenir les crochets fantômes penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.161"]
+        },
+        "x3759": {
+            "name_en": "Phantom of the Umbra: Twinfangs Umbrae",
+            "name_fr": "Armes fantômes : crochets fantômes umbra",
+            "description_en": "Obtain a pair of phantom twinfangs umbrae.",
+            "description_fr": "Obtenir les crochets fantômes umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.162"]
+        },
+        "x3849": {
+            "name_en": "Clare Obscurum: Twinfangs Obscurum",
+            "name_fr": "Armes fantômes : crochets jumeaux fantômes obscurum",
+            "description_en": "Obtain a pair of phantom twinfangs obscurum.",
+            "description_fr": "Obtenir les crochets jumeaux fantômes obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.163"]
+        },
+        "x3956": {
+            "name_en": "Cut Above the Rest: Twinfangs Occultum",
+            "name_fr": "Armes fantômes : crochets fantômes occultum",
+            "description_en": "Obtain a pair of phantom twinfangs occultum.",
+            "description_fr": "Obtenir les crochets fantômes occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.164"]
+        },
+        "x3654": {
+            "name_en": "The Might Phantastick: Flat Brush Penumbrae",
+            "name_fr": "Armes fantômes : pinceau plat fantôme penumbra",
+            "description_en": "Obtain a phantom flat brush penumbrae.",
+            "description_fr": "Obtenir le pinceau plat fantôme penumbra.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["character.relic-gear.phantom.170"]
+        },
+        "x3768": {
+            "name_en": "Phantom of the Umbra: Flat Brush Umbrae",
+            "name_fr": "Armes fantômes : pinceau plat fantôme umbra",
+            "description_en": "Obtain a phantom flat brush umbrae.",
+            "description_fr": "Obtenir le pinceau plat fantôme umbra.",
+            "points": 10,
+            "patch": "7.31",
+            "cSiblings": ["character.relic-gear.phantom.171"]
+        },
+        "x3858": {
+            "name_en": "Clare Obscurum: Round Brush Obscurum",
+            "name_fr": "Armes fantômes : pinceau rond fantôme obscurum",
+            "description_en": "Obtain a phantom round brush obscurum.",
+            "description_fr": "Obtenir le pinceau rond fantôme obscurum.",
+            "points": 10,
+            "patch": "7.41",
+            "cSiblings": ["character.relic-gear.phantom.172"]
+        },
+        "x3965": {
+            "name_en": "Cut Above the Rest: Round Brush Occultum",
+            "name_fr": "Armes fantômes : pinceau rond fantôme occultum",
+            "description_en": "Obtain a phantom round brush occultum.",
+            "description_fr": "Obtenir le pinceau rond fantôme occultum.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["character.relic-gear.phantom.173"]
+        }
+    }
+}

@@ -4,74 +4,75 @@
     "groupName_fr": "Quêtes de la poissonnerie de Donuhanu",
     "tasks": {
         "x70532": {
-            "cNext": ["q.70533"],
-            "cPrev": ["q.70502"],
-            "level": 90,
             "name_en": "Fishmonger Blues",
             "name_fr": "La petite boutique des bizarreries marines",
+            "level": 90,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70502"],
+            "cNext": ["q.70533"]
         },
         "x70533": {
-            "cNext": ["q.70534"],
-            "cPrev": ["q.70532"],
-            "level": 90,
             "name_en": "When Wishes Are Fishes",
             "name_fr": "Un festin qui ne manque pas de piquant",
+            "level": 90,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70532"],
+            "cNext": ["q.70534"]
         },
         "x70534": {
-            "cNext": ["q.70535"],
-            "cPrev": ["q.70533"],
-            "level": 93,
             "name_en": "Scaling Up Demand",
             "name_fr": "Le plus dur reste à faire",
+            "level": 93,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70533"],
+            "cNext": ["q.70535"]
         },
         "x70535": {
-            "cNext": ["q.70536"],
-            "cPrev": ["q.70534"],
-            "level": 95,
             "name_en": "Big Body, Big Beauty",
             "name_fr": "Prendre le problème à bras-le-qor",
+            "level": 95,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70534"],
+            "cNext": ["q.70536"]
         },
         "x70536": {
-            "cNext": ["q.70537"],
-            "cPrev": ["q.70535"],
-            "level": 95,
             "name_en": "Donuhanu's Devotion",
             "name_fr": "Les trois épreuves de Pashenine",
+            "level": 95,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70535"],
+            "cNext": ["q.70537"]
         },
         "x70537": {
-            "cNext": ["q.70538"],
-            "cPrev": ["q.70536"],
-            "level": 98,
             "name_en": "Catching Breath",
             "name_fr": "Le poisson entêtant",
+            "level": 98,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70536"],
+            "cNext": ["q.70538"]
         },
         "x70538": {
-            "cPrev": ["q.70537"],
-            "cSiblings": ["a.3508"],
-            "level": 100,
             "name_en": "An Odd Fish Odyssey",
             "name_fr": "De l'électricité dans l'eau",
+            "level": 100,
             "npc_en": "Donuhanu",
             "npc_fr": "Donuhanu",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70537"],
+            "cNext": ["q.70503"],
+            "cSiblings": ["a.3508"]
         }
     }
 }

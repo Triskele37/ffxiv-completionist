@@ -5,7 +5,7 @@ import { setCompletionFlag } from './setCompletionFlag';
 import { setCompletionNumber } from './setCompletionNumber';
 
 /**
- * Update `task.completionFlag` as either a flag or numeric value
+ * Update `task.completionFlag$` as either a flag or numeric value
  * */
 export function setCompletion(task: Task, flag: CompletionFlag): void {
     if(task.isNumericCompletion) {

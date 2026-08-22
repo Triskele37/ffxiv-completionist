@@ -1,142 +1,148 @@
-.p-menubar {
-    padding: $horizontalMenuPadding;
-    background: $horizontalMenuBg;
-    color: $horizontalMenuTextColor;
-    border: $horizontalMenuBorder;
-    border-radius: var(--border-radius);
+@use "sass:list";
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-menubar-root-list {
-        outline: 0 none;
-
-        > .p-menuitem {
-            @include horizontal-rootmenuitem();
-        }
-    }
-
-    .p-menuitem {
-        @include menuitem();
-    }
-
-    .p-submenu-list {
-        padding: $verticalMenuPadding;
-        background: $overlayMenuBg;
-        border: $overlayMenuBorder;
-        box-shadow: $overlayMenuShadow;
-        width: $menuWidth;
+@layer primeng {
+    .p-menubar {
+        padding: variables.$horizontalMenuPadding;
+        background: variables.$horizontalMenuBg;
+        color: variables.$horizontalMenuTextColor;
+        border: variables.$horizontalMenuBorder;
         border-radius: var(--border-radius);
 
-        .p-menuitem-separator {
-            border-top: $divider;
-            margin: $menuSeparatorMargin;
-        }
-
-        .p-submenu-icon {
-            font-size: $menuitemSubmenuIconFontSize;
-        }
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .p-menubar {
-        position: relative;
-
-        .p-menubar-button {
-            display: flex;
-            width: $actionIconWidth;
-            height: $actionIconHeight;
-            color: $horizontalMenuRootMenuitemIconColor;
-            border-radius: $actionIconBorderRadius;
-            transition: $actionIconTransition;
-
-            &:hover {
-                color: $horizontalMenuRootMenuitemIconHoverColor;
-                background: $horizontalMenuRootMenuitemHoverBg;
-            }
-
-            &:focus {
-                @include focused();
-            }
-        }
-
         .p-menubar-root-list {
-            position: absolute;
-            display: none;
-            padding: $verticalMenuPadding;
-            background: $overlayMenuBg;
-            border: $overlayMenuBorder;
-            box-shadow: $overlayMenuShadow;
-            width: 100%;
+            outline: 0 none;
+
+            > .p-menuitem {
+                @include mixins.horizontal-rootmenuitem();
+            }
+        }
+
+        .p-menuitem {
+            @include mixins.menuitem();
+        }
+
+        .p-submenu-list {
+            padding: variables.$verticalMenuPadding;
+            background: variables.$overlayMenuBg;
+            border: variables.$overlayMenuBorder;
+            box-shadow: variables.$overlayMenuShadow;
+            width: variables.$menuWidth;
+            border-radius: var(--border-radius);
 
             .p-menuitem-separator {
-                border-top: $divider;
-                margin: $menuSeparatorMargin;
+                border-top: variables.$divider;
+                margin: variables.$menuSeparatorMargin;
             }
 
             .p-submenu-icon {
-                font-size: $menuitemSubmenuIconFontSize;
+                font-size: variables.$menuitemSubmenuIconFontSize;
             }
+        }
+    }
 
-            .p-menuitem {
-                width: 100%;
-                position: static;
+    @media screen and (max-width: 960px) {
+        .p-menubar {
+            position: relative;
 
-                .p-menuitem-content {
-                    .p-menuitem-link {
-                        .p-submenu-icon {
-                            margin-left: auto;
-                            transition: transform $transitionDuration;
-                        }
-                    }
+            .p-menubar-button {
+                display: flex;
+                width: variables.$actionIconWidth;
+                height: variables.$actionIconHeight;
+                color: variables.$horizontalMenuRootMenuitemIconColor;
+                border-radius: variables.$actionIconBorderRadius;
+                transition: variables.$actionIconTransition;
+
+                &:hover {
+                    color: variables.$horizontalMenuRootMenuitemIconHoverColor;
+                    background: variables.$horizontalMenuRootMenuitemHoverBg;
                 }
 
-
-                &.p-menuitem-active {
-                    > .p-menuitem-content {
-                        > .p-menuitem-link {
-                            > .p-submenu-icon {
-                                transform: rotate(-180deg);
-                            }
-                        }
-                    }
+                &:focus {
+                    @include mixins.focused();
                 }
             }
 
-            .p-submenu-list {
+            .p-menubar-root-list {
+                position: absolute;
+                display: none;
+                padding: variables.$verticalMenuPadding;
+                background: variables.$overlayMenuBg;
+                border: variables.$overlayMenuBorder;
+                box-shadow: variables.$overlayMenuShadow;
                 width: 100%;
-                position: static;
-                box-shadow: none;
-                border: 0 none;
+
+                .p-menuitem-separator {
+                    border-top: variables.$divider;
+                    margin: variables.$menuSeparatorMargin;
+                }
 
                 .p-submenu-icon {
-                    transition: transform $transitionDuration;
-                    transform: rotate(90deg);
+                    font-size: variables.$menuitemSubmenuIconFontSize;
                 }
 
-                .p-menuitem-active {
-                    > .p-menuitem-content {
-                        > .p-menuitem-link {
-                            > .p-submenu-icon {
-                                transform: rotate(-90deg);
+                .p-menuitem {
+                    width: 100%;
+                    position: static;
+
+                    .p-menuitem-content {
+                        .p-menuitem-link {
+                            .p-submenu-icon {
+                                margin-left: auto;
+                                transition: transform variables.$transitionDuration;
+                            }
+                        }
+                    }
+
+
+                    &.p-menuitem-active {
+                        > .p-menuitem-content {
+                            > .p-menuitem-link {
+                                > .p-submenu-icon {
+                                    transform: rotate(-180deg);
+                                }
                             }
                         }
                     }
                 }
+
+                .p-submenu-list {
+                    width: 100%;
+                    position: static;
+                    box-shadow: none;
+                    border: 0 none;
+
+                    .p-submenu-icon {
+                        transition: transform variables.$transitionDuration;
+                        transform: rotate(90deg);
+                    }
+
+                    .p-menuitem-active {
+                        > .p-menuitem-content {
+                            > .p-menuitem-link {
+                                > .p-submenu-icon {
+                                    transform: rotate(-90deg);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .p-menuitem {
+                    width: 100%;
+                    position: static;
+                }
+
+                @include mixins.nested-submenu-indents(list.nth(variables.$menuitemPadding, 1), 2, 10);
             }
 
-            .p-menuitem {
-                width: 100%;
-                position: static;
+            &.p-menubar-mobile-active .p-menubar-root-list {
+                display: flex;
+                flex-direction: column;
+                top: 100%;
+                left: 0;
+                z-index: 1;
             }
-
-            @include nested-submenu-indents(nth($menuitemPadding, 1), 2, 10);
-        }
-
-        &.p-menubar-mobile-active .p-menubar-root-list {
-            display: flex;
-            flex-direction: column;
-            top: 100%;
-            left: 0;
-            z-index: 1;
         }
     }
 }

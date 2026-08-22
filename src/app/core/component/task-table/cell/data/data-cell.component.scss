@@ -1,24 +1,15 @@
-@import './ellipsis-overflow';
+:host {
+    display: contents;
 
-.data-cell {
-    @extend %ellipsis-overflow;
-}
-
-:host, ::ng-deep .link-overlay {
-    // Make xiv-data-cell mimic the spacing of p-button-link
-    ::ng-deep .data-cell {
-        padding: calc(var(--content-padding) * .75) var(--content-padding);
-    }
-
-    p-button {
-        display: block;
+    .data-cell {
+        .data-cell-value-container {
+        }
     }
 }
 
-::ng-deep .link-overlay {
-    &.p-overlaypanel-flipped {
-        margin-top: -20px;
-    }
+::ng-deep body .link-overlay {
+    // Pull the popover up so it doesn't disappear when locked by moving over the cell below
+    margin-top: 0;
 
     // Remove the overlay arrow
     &:before, &:after {
@@ -27,12 +18,10 @@
 
     // Give the container primeNgs wrapper padding
     .overlay-container {
+        display: flex;
+        flex-direction: column;
+
         margin: calc(var(--content-padding) * -1);
         padding: var(--content-padding);
     }
-}
-
-::ng-deep .link-item {
-    display: flex;
-    align-items: center;
 }

@@ -4,96 +4,98 @@
     "groupName_fr": "Hildibrand, gentilhomme détective (Stormblood)",
     "tasks": {
         "x68544": {
-            "level": 70,
             "name_en": "A Hingan Tale: Nashu Goes East",
             "name_fr": "La Miqo'te sur une affaire brûlante",
+            "level": 70,
             "npc_en": "Conspicuously Inconspicuous Man",
             "npc_fr": "Jeune Lalafell",
+            "patch": "4.1",
             "cPrev": ["q.67908", "q.68089"],
-            "cNext": ["q.68556"],
-            "patch": "4.31"
+            "cNext": ["q.68556"]
         },
         "x68556": {
-            "level": 70,
             "name_en": "Life Imitates Art Imitates Life",
             "name_fr": "Un détective aux enchères",
+            "level": 70,
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
+            "patch": "4.25",
             "cPrev": ["q.68544"],
-            "cNext": ["q.68557"],
-            "patch": "4.31"
+            "cNext": ["q.68557"]
         },
         "x68557": {
-            "level": 70,
             "name_en": "Of Wolves and Gentlemen",
             "name_fr": "Chasse au gentilhomme",
+            "level": 70,
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
+            "patch": "4.25",
             "cPrev": ["q.68556"],
-            "cNext": ["q.68630"],
-            "patch": "4.31"
+            "cNext": ["q.68630"]
         },
         "x68630": {
-            "level": 70,
             "name_en": "In the Eye of the Hingan",
             "name_fr": "Le garde du corps",
+            "level": 70,
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
+            "patch": "4.35",
             "cPrev": ["q.68557"],
-            "cNext": ["q.68631"],
-            "patch": "4.35"
+            "cNext": ["q.68631"]
         },
         "x68631": {
-            "level": 70,
             "name_en": "The Blade Mislaid",
             "name_fr": "Flairer l'entourloupe",
+            "level": 70,
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
+            "patch": "4.35",
             "cPrev": ["q.68630"],
-            "cNext": ["q.68686"],
-            "patch": "4.35"
+            "cNext": ["q.68686"]
         },
         "x68686": {
-            "level": 70,
             "name_en": "The Black Heart Beneath",
             "name_fr": "Les dessous de Kugane",
+            "level": 70,
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
+            "patch": "4.45",
             "cPrev": ["q.68631"],
-            "cNext": ["q.68687"],
-            "patch": "4.45"
+            "cNext": ["q.68687"]
         },
         "x68687": {
-            "level": 70,
             "name_en": "Good Swords, Good Dogs",
             "name_fr": "Voleur contre voleur",
+            "level": 70,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
+            "unlock": "tto.37",
+            "patch": "4.45",
             "cPrev": ["q.68686"],
-            "cNext": ["q.68703"],
-            "patch": "4.45"
+            "cNext": ["q.68703"]
         },
         "x68703": {
-            "level": 70,
             "name_en": "The Past Is Never Past",
             "name_fr": "Un admirateur à Kugane",
-            "unlock": "d.595",
+            "level": 70,
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
+            "unlock": "d.595",
+            "patch": "4.56",
             "cPrev": ["q.68687"],
             "cNext": ["q.68704"],
-            "patch": "4.56"
+            "cSiblings": ["d.595"]
         },
         "x68704": {
-            "level": 70,
             "name_en": "Don't Do the Dewprism",
             "name_fr": "Lever le voile céleste",
+            "level": 70,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": ["q.68703"],
-            "cSiblings": ["a.2234", "e.198"],
+            "unlock": "e.198",
             "patch": "4.56",
-            "unlock": "e.198"
+            "cPrev": ["q.68703"],
+            "cSiblings": ["a.2234", "e.198"]
         }
     }
 }

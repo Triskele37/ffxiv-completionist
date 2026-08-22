@@ -4,187 +4,188 @@
     "groupName_fr": "La Tempête",
     "tasks": {
         "x69112": {
-            "level": 70,
             "name_en": "Ondo Dream of Oranges",
             "name_fr": "Voir la vie en orange",
+            "level": 70,
             "npc_en": "Ondo Visionary",
             "npc_fr": "Ondo Résolu",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69113": {
-            "level": 70,
             "name_en": "Pearls of the Deep",
-            "name_fr": "Donne-moi tes dents!",
+            "name_fr": "Donne-moi tes dents !",
+            "level": 70,
             "npc_en": "Saushs Koal",
             "npc_fr": "Saushs Koal",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "unlock": "tto.21",
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69114": {
-            "level": 70,
             "name_en": "Beware the Benthos",
             "name_fr": "Des Ondos sans scrupules",
+            "level": 70,
             "npc_en": "Kewshs Ooan",
             "npc_fr": "Kewshs Ooan",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69115": {
-            "level": 70,
             "name_en": "Beyond the Reach of Koal",
             "name_fr": "Une trop haute couche",
+            "level": 70,
             "npc_en": "Sorashs Koal",
             "npc_fr": "Sorashs Koal",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69116": {
-            "level": 70,
             "name_en": "Do the Chuckle",
             "name_fr": "Dites-le sans les mots",
+            "level": 70,
             "npc_en": "Deushs Aath",
             "npc_fr": "Deushs Aath",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69117": {
-            "level": 70,
             "name_en": "Strange Stew",
             "name_fr": "Pattes de trilobite au menu",
+            "level": 70,
             "npc_en": "Pulshs Ooan",
             "npc_fr": "Pulshs Ooan",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69118": {
-            "level": 70,
             "name_en": "Scales for the Scaled Ones",
             "name_fr": "Dur, dur d'écailles",
+            "level": 70,
             "npc_en": "Amshs Aath",
             "npc_fr": "Amshs Aath",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69119": {
-            "level": 70,
             "name_en": "Secrets and Spears",
-            "name_fr": "Trouvez l'Ondo suspect!",
+            "name_fr": "Trouvez l'Ondo suspect !",
+            "level": 70,
             "npc_en": "Pegshs Ooan",
             "npc_fr": "Pegshs Ooan",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69120": {
-            "level": 70,
             "name_en": "Scavenger Deep",
             "name_fr": "Ondo en quête de valeurs",
+            "level": 70,
             "npc_en": "Nakshs Koal",
             "npc_fr": "Nakshs Koal",
+            "patch": "5.0",
             "cPrev": ["q.69184"],
-            "cNext": ["q.69122"],
-            "patch": "5.0"
+            "cNext": ["q.69122"]
         },
         "x69121": {
-            "level": 70,
             "name_en": "Mistake or Machination",
             "name_fr": "C'est pas si gravier",
+            "level": 70,
             "npc_en": "Distressed Ondo",
             "npc_fr": "Ondo Tracassé",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69122": {
-            "level": 70,
             "name_en": "More than One Way to Skin a Stingray",
             "name_fr": "Dur, dur de peau",
+            "level": 70,
             "npc_en": "Nakshs Koal",
             "npc_fr": "Nakshs Koal",
-            "cPrev": ["q.69120"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69120"]
         },
         "x69123": {
-            "level": 70,
             "name_en": "Doggone Dagons",
             "name_fr": "Tout a bon dos pour un Ondo",
+            "level": 70,
             "npc_en": "Nemshs Ooan",
             "npc_fr": "Nemshs Ooan",
-            "cPrev": ["q.69184"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69184"]
         },
         "x69124": {
-            "level": 70,
             "name_en": "Koal of the Cups",
             "name_fr": "Un Ondo pas comme les autres",
-            "unlock": "travel.aether-currents.shb.the-tempest.13",
+            "level": 70,
             "npc_en": "Naroshs Koal",
             "npc_fr": "Naroshs Koal",
+            "unlock": "travel.aether-currents.shb.the-tempest.13",
+            "patch": "5.0",
             "cPrev": ["q.69184"],
             "cNext": ["q.69125"],
-            "cSiblings": ["travel.aether-currents.shb.the-tempest.13"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.13"]
         },
         "x69125": {
-            "level": 70,
             "name_en": "Mother's Mnyiri",
             "name_fr": "Maman a faim, maman a foie",
+            "level": 70,
             "npc_en": "Naroshs Koal",
             "npc_fr": "Naroshs Koal",
+            "patch": "5.0",
             "cPrev": ["q.69124"],
-            "cNext": ["q.69126"],
-            "patch": "5.0"
+            "cNext": ["q.69126"]
         },
         "x69126": {
-            "level": 70,
             "name_en": "Create the Birthing Rope",
             "name_fr": "Contractions, réaction",
+            "level": 70,
             "npc_en": "Naroshs Koal",
             "npc_fr": "Naroshs Koal",
+            "patch": "5.0",
             "cPrev": ["q.69125"],
-            "cNext": ["q.69127"],
-            "patch": "5.0"
+            "cNext": ["q.69127"]
         },
         "x69127": {
-            "level": 70,
             "name_en": "Tomorrow Is in Your Fins",
             "name_fr": "Tellement frai",
+            "level": 70,
             "npc_en": "Naroshs Koal",
             "npc_fr": "Naroshs Koal",
-            "cPrev": ["q.69126"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69126"]
         },
         "x69128": {
-            "level": 70,
             "name_en": "Responsible Creation",
             "name_fr": "Les créateurs amateurs",
-            "unlock": "travel.aether-currents.shb.the-tempest.12",
+            "level": 70,
             "npc_en": "Bureau Attendant",
             "npc_fr": "Fonctionnaire Du Bureau Des Créations",
+            "unlock": "travel.aether-currents.shb.the-tempest.12",
+            "patch": "5.0",
             "cPrev": ["q.69188"],
-            "cSiblings": ["travel.aether-currents.shb.the-tempest.12"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.12"]
         },
         "x69129": {
-            "level": 70,
             "name_en": "Debate and Discourse",
             "name_fr": "La rhétorique du peuple",
-            "unlock": "travel.aether-currents.shb.the-tempest.11",
+            "level": 70,
             "npc_en": "Loquacious Amaurotine",
             "npc_fr": "Amaurotain Amène",
+            "unlock": "travel.aether-currents.shb.the-tempest.11",
+            "patch": "5.0",
             "cPrev": ["q.69188"],
-            "cSiblings": ["travel.aether-currents.shb.the-tempest.11"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.11"]
         },
         "x69130": {
-            "level": 70,
             "name_en": "Community Cohesion",
             "name_fr": "La coule attitude",
-            "unlock": "travel.aether-currents.shb.the-tempest.10",
+            "level": 70,
             "npc_en": "Patronizing Amaurotine",
             "npc_fr": "Amaurotain Charitable",
+            "unlock": "travel.aether-currents.shb.the-tempest.10",
+            "patch": "5.0",
             "cPrev": ["q.69188"],
-            "cSiblings": ["travel.aether-currents.shb.the-tempest.10"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.10"]
         }
     }
 }

@@ -4,10 +4,10 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Merged Crystarium & Studium story recipes
  * */
 export function migrateStoryRecipes(store: ChangeStore): void {
-    const crystarium = (crafter) => `overall.logs.crafting-log.${crafter}.story.crystarium-deliveries`;
-    const studium = (crafter) => `overall.logs.crafting-log.${crafter}.story.studium`;
+    const crystarium = (crafter: string) => `overall.logs.crafting-log.${crafter}.story.crystarium-deliveries`;
+    const studium = (crafter: string) => `overall.logs.crafting-log.${crafter}.story.studium`;
 
-    const mergeCrafters = ([crafters, crystariumIds, studiumIds]) => {
+    const mergeCrafters = ([crafters, crystariumIds, studiumIds]: [string[], number[], number[]]) => {
         // Complete Crystarium recipes that are completed by any one of crafters
         crystariumIds.forEach((id) => {
             const completed = crafters.some(

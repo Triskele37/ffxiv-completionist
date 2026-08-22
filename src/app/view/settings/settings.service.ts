@@ -36,10 +36,7 @@ export class SettingsService {
         private svcConfigStore: ConfigStoreService,
         private svcSaveStore: SaveStoreService,
     ) {
-    }
-
-    init() {
-        const load = (obj) => {
+        const load = (obj: any) => {
             if(obj.key) {
                 obj.value = this.getSetting(obj);
             }
@@ -74,8 +71,14 @@ export class SettingsService {
     }
 
     onChangeNumSetting(setting: NumberSetting): void {
-        if(setting.value < setting.min) setting.value = setting.min;
-        else if(setting.value > setting.max) setting.value = setting.max;
+        if(setting.value === undefined) {
+            if(setting.min) setting.value = setting.min;
+        }
+        else {
+            if(setting.value < setting.min) setting.value = setting.min;
+            else if(setting.value > setting.max) setting.value = setting.max;
+        }
+
         this.setSetting(setting);
     }
 }

@@ -1,3 +1,4 @@
+import { JSONResource } from '@model/JSONResource';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { SaveStoreService } from '../../save-store.service';
@@ -35,15 +36,15 @@ export function migrateTo_0_5_58(svcConfigStore: ConfigStoreService, svcSaveStor
     }
 
     //------------------------------------------------------------------ Custom Task Reformat
-    const oldCustom = svcSaveStore.get('custom');
+    const oldCustom: JSONResource = svcSaveStore.get('custom');
 
     // Perform once
     if(Array.isArray(oldCustom)) {
         // Update custom meta data
-        const errorMeta = [];
+        const errorMeta: JSONResource[] = [];
         let highestId = 0;
 
-        const customMeta = {};
+        const customMeta: JSONResource = {};
         oldCustom.forEach((meta) => {
             if(meta.id === undefined) errorMeta.push(meta);
             else {
@@ -65,7 +66,7 @@ export function migrateTo_0_5_58(svcConfigStore: ConfigStoreService, svcSaveStor
         const oldFlags: any = svcSaveStore.get('overall.custom');
         if(oldFlags.undefined) delete oldFlags.undefined;
 
-        const customFlag = {};
+        const customFlag: JSONResource = {};
         Object.keys(oldFlags).forEach((id) => {
             customFlag[`x${id}`] = oldFlags[id];
         });

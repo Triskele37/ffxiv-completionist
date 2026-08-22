@@ -1,13 +1,13 @@
-import { createIpcRendererMock } from 'src/test/ipcRenderer.mock';
-import { createMockAsyncSubject } from 'src/test/rxjs.mock';
-export { ElectronService } from './electron.service';
+import { createIpcRendererMock } from '@test/ipcRenderer.mock';
+import { createMockAsyncSubject } from '@test/rxjs.mock';
+import { ElectronService } from './electron.service';
+export { ElectronService };
 
-export function createElectronServiceMock() {
-    return jasmine.createSpyObj([
-        'setAppReady',
-        'sendSync',
-    ], {
+export function createElectronServiceMock(): jest.Mocked<ElectronService> {
+    return {
+        setAppReady: jest.fn(),
+        sendSync: jest.fn(),
         appReady$: createMockAsyncSubject(),
         ipcRenderer: createIpcRendererMock(),
-    });
+    } as unknown as jest.Mocked<ElectronService>;
 }

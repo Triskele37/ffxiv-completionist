@@ -1,5 +1,7 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, signal } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
+import { Tooltip } from 'primeng/tooltip';
 import { Subscription } from 'rxjs';
 
 import { DataService } from '@data';
@@ -10,18 +12,22 @@ import { getEffectiveTotal, getCompleted, getRemaining, getExcluded } from '@mod
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
-    selector: 'xiv-summary-line',
+    selector: 'com-summary-line',
     templateUrl: './summary-line.component.html',
     styleUrls: ['./summary-line.component.scss'],
+    imports: [
+        NgClass,
+        Tooltip
+    ]
 })
 export class SummaryLineComponent implements OnChanges {
-    @Input() group: DataGroup;
-    @Input() isBig: boolean;
-    @Input() showGroup: boolean;
+    @Input({ required: true }) group!: DataGroup;
+    @Input() isBig: boolean = false;
+    @Input() showGroup: boolean = false;
 
-    subscription: Subscription;
-    percentComplete: string;
-    tooltip: string;
+    subscription: Subscription | undefined;
+    percentComplete = signal<string | null>(null);
+    tooltip = signal('');
 
     constructor(
         private translate: TranslateService,
@@ -39,22 +45,22 @@ export class SummaryLineComponent implements OnChanges {
     }
 
     update(): void {
-        this.percentComplete = getPercentComplete(this.group);
+        this.percentComplete.set(getPercentComplete(this.group));
         this.updateTooltip();
     }
 
     updateTooltip(): void {
-        this.tooltip = '';
+        let tooltip = '';
 
         if(this.showGroup) {
             const groupPath = getGroupPath(this.group);
             groupPath.shift(); // remove overall
             groupPath.pop(); // remove group name
 
-            this.tooltip += `${groupPath.join(' > ')}\n`;
+            tooltip += `${groupPath.join(' > ')}\n`;
         }
 
-        this.tooltip += this.group.name + '\n\n';
+        tooltip += this.group.name + '\n\n';
 
         const overallTotal = getEffectiveTotal(this.svcData.data);
         const effectiveTotal = getEffectiveTotal(this.group);
@@ -64,19 +70,21 @@ export class SummaryLineComponent implements OnChanges {
         const weight = (effectiveTotal / overallTotal) * 100;
 
         // Build tooltip line by line
-        this.tooltip += completed.toLocaleString();
-        this.tooltip += ` / ${effectiveTotal.toLocaleString()}\n`;
-        this.tooltip += this.translate.instant('GENERAL.REMAINING');
-        this.tooltip += `: ${remaining.toLocaleString()}\n`;
-        this.tooltip += this.translate.instant('GENERAL.EXCLUDED');
-        this.tooltip += `: ${excluded.toLocaleString()}`;
+        tooltip += completed.toLocaleString();
+        tooltip += ` / ${effectiveTotal.toLocaleString()}\n`;
+        tooltip += this.translate.instant('APP.STATISTICS.REMAINING');
+        tooltip += `: ${remaining.toLocaleString()}\n`;
+        tooltip += this.translate.instant('APP.STATISTICS.EXCLUDED');
+        tooltip += `: ${excluded.toLocaleString()}`;
 
         // Don't add weight for overall
         if(weight !== 100) {
-            this.tooltip += '\n\n';
-            this.tooltip += this.translate.instant('GENERAL.WEIGHT');
-            this.tooltip += `: ${weight.toFixed(3)}%`;
+            tooltip += '\n\n';
+            tooltip += this.translate.instant('APP.STATISTICS.WEIGHT');
+            tooltip += `: ${weight.toFixed(3)}%`;
         }
+
+        this.tooltip.set(tooltip);
     }
 
     onClick(): void {

@@ -4,8 +4,8 @@
 
     ::ng-deep {
         // Trickle height down so result tables know their scrollable height
-        .p-tabview { height: 100%; }
-        .p-tabview-panels {
+        .p-tabs { height: 100%; }
+        .p-tabpanels {
             background: var(--surface-900);
             height: calc(100% - 50px);
         }

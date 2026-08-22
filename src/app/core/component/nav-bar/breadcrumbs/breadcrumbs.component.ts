@@ -1,8 +1,11 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Component, effect, OnInit, signal } from '@angular/core';
+import { KeyValuePipe, NgClass } from '@angular/common';
+import { Popover } from 'primeng/popover';
 
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { DataGroup } from '@model/DataGroup';
 import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
+import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 export type Breadcrumb = {
@@ -13,49 +16,56 @@ export type Breadcrumb = {
 };
 
 @Component({
-    selector: 'xiv-breadcrumbs',
+    selector: 'com-breadcrumbs',
     templateUrl: './breadcrumbs.component.html',
-    styleUrls: ['./breadcrumbs.component.scss']
+    styleUrls: ['./breadcrumbs.component.scss'],
+    imports: [
+        ContentLinkComponent,
+        KeyValuePipe,
+        NgClass,
+        Popover,
+    ]
 })
-export class BreadcrumbsComponent implements OnInit, OnDestroy {
-    private sub: Subscription;
-    breadcrumbs: Breadcrumb[] = [];
+export class BreadcrumbsComponent implements OnInit {
+    selectedCrumb = signal<Breadcrumb | null>(null);
+    breadcrumbs = signal<Breadcrumb[]>([]);
 
-    selectedCrumb: Breadcrumb;
-
-    constructor(public svcNavigation: NavigationService) {
+    constructor(
+        private svcCustomContent: CustomContentService,
+        public svcNavigation: NavigationService
+    ) {
+        effect(() => this.setComputedBreadcrumbs());
     }
 
-    ngOnInit(): void {
-        this.sub = this.svcNavigation.selectedGroup$.subscribe(
-            this.onSelectedGroupChange.bind(this)
-        );
+    ngOnInit() {
+        this.svcCustomContent.onGroupUpdated$.subscribe(() => this.setComputedBreadcrumbs());
     }
 
-    ngOnDestroy(): void {
-        this.sub.unsubscribe();
+    // Provide the transform method of the pipe for the keyvalue pipe's input
+    asIsOrderTransform = AsIsOrderPipe.prototype.transform;
+
+    // Callback fired when a section of the breadcrumbs is clicked
+    onItemClick(item: Breadcrumb): void {
+        if(item.navigationIndex !== undefined) {
+            this.svcNavigation.popCrumbsUntil(item.navigationIndex);
+        }
     }
 
-    asIsOrder = AsIsOrderPipe.prototype.transform;
-
-    onSelectedGroupChange(selectedGroup: DataGroup) {
-        this.breadcrumbs = [];
+    setComputedBreadcrumbs() {
+        let group = this.svcNavigation.selectedGroup();
+        const breadcrumbs: Breadcrumb[] = [];
 
         // Construct breadcrumbs bottom to top
-        let group = selectedGroup;
         while(group) {
-            this.breadcrumbs.push({ label: group.name, group });
+            breadcrumbs.push({ label: group.name, group });
             group = group._parent;
         }
 
         // Flip the list then apply the nav index
-        this.breadcrumbs.reverse();
-        this.breadcrumbs.forEach((b, i) => b.navigationIndex = i);
-    }
+        breadcrumbs.reverse();
+        breadcrumbs.forEach((b, i) => b.navigationIndex = i);
 
-    // Callback fired when a section of the breadcrumbs is clicked
-    onItemClick(item: Breadcrumb): void {
-        this.svcNavigation.popCrumbsUntil(item.navigationIndex);
+        this.breadcrumbs.set(breadcrumbs);
     }
 
     //#region------------------------------------------------------- Group Expansion
@@ -72,11 +82,11 @@ export class BreadcrumbsComponent implements OnInit, OnDestroy {
         this.collapseAllGroups();
 
         breadcrumb.isGroupExpanded = isGroupExpanded;
-        this.selectedCrumb = isGroupExpanded ? breadcrumb : null;
+        this.selectedCrumb.set(isGroupExpanded ? breadcrumb : null);
     }
 
     collapseAllGroups() {
-        this.breadcrumbs.forEach((b) => b.isGroupExpanded = false);
+        this.breadcrumbs().forEach((b) => b.isGroupExpanded = false);
     }
 
     //#endregion

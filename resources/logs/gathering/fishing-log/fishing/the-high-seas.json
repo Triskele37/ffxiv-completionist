@@ -3,203 +3,213 @@
     "groupName_en": "The High Seas",
     "groupName_fr": "Pleine mer",
     "tasks": {
-        "x0": {
+        "x237": {
             "name_en": "Outer Galadion Bay",
             "name_fr": "Large de la baie de Galadion",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x1": {
+        "x238": {
             "name_en": "Galadion Spectral Current",
-            "name_fr": "Courant spectral (Large de la baie de Galadion)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (large de la baie de Galadion)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x2": {
+        "x239": {
             "name_en": "The Southern Strait of Merlthor",
             "name_fr": "Détroit sud de Merlthor",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x3": {
+        "x240": {
             "name_en": "Southern Merlthor Spectral Current",
-            "name_fr": "Courant spectral (Détroit sud de Merlthor)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (détroit sud de Merlthor)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x4": {
+        "x243": {
             "name_en": "The Northern Strait of Merlthor",
             "name_fr": "Détroit nord de Merlthor",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x5": {
+        "x244": {
             "name_en": "Northern Merlthor Spectral Current",
-            "name_fr": "Courant spectral (Détroit nord de Merlthor)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (détroit nord de Merlthor)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x6": {
+        "x241": {
             "name_en": "Open Rhotano Sea",
             "name_fr": "Large de la mer de Rhotano",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x7": {
+        "x242": {
             "name_en": "Rhotano Spectral Current",
-            "name_fr": "Courant spectral (Large de la mer de Rhotano)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (large de la mer de Rhotano)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.2"
         },
-        "x8": {
+        "x246": {
             "name_en": "Cieldalaes Margin",
             "name_fr": "Large des îles de Cieldalaes",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x9": {
+        "x247": {
             "name_en": "Cieldalaes Spectral Current",
-            "name_fr": "Courant spectral (Large des îles de Cieldalaes)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (large des îles de Cieldalaes)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x10": {
+        "x248": {
             "name_en": "Open Bloodbrine Sea",
             "name_fr": "Large de la mer Pourpre",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x11": {
+        "x249": {
             "name_en": "Bloodbrine Spectral Current",
-            "name_fr": "Courant spectral (Large de la mer Pourpre)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (large de la mer Pourpre)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x12": {
+        "x250": {
             "name_en": "Outer Rothlyt Sound",
             "name_fr": "Large du golfe de Rothlyt",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x13": {
+        "x251": {
             "name_en": "Rothlyt Spectral Current",
-            "name_fr": "Courant spectral (Large du golfe de Rothlyt)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "name_fr": "Courant spectral (large du golfe de Rothlyt)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "5.4"
         },
-        "x14": {
+        "x286": {
             "name_en": "Open Sirensong Sea",
             "name_fr": "Large de la Mer du Chant des sirènes",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x15": {
+        "x287": {
             "name_en": "Sirensong Spectral Current",
             "name_fr": "Courant spectral (large de la Mer du Chant des sirènes)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x16": {
+        "x288": {
             "name_en": "Kugane Coast",
             "name_fr": "Large de la baie de Kugane",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x17": {
+        "x289": {
             "name_en": "Kugane Spectral Current",
             "name_fr": "Courant spectral (large de la baie de Kugane)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x18": {
+        "x290": {
             "name_en": "Open Ruby Sea",
             "name_fr": "Large de la Mer de Rubis",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x19": {
+        "x291": {
             "name_en": "Ruby Spectral Current",
             "name_fr": "Courant spectral (large de la Mer de Rubis)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x20": {
+        "x292": {
             "name_en": "Lower One River",
             "name_fr": "Aval de la Muni",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
         },
-        "x21": {
+        "x293": {
             "name_en": "One River Spectral Current",
             "name_fr": "Courant spectral (aval de la Muni)",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.FERRY_DOCKS",
-            "type_en": "",
-            "type_fr": ""
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "6.4"
+        },
+        "x334": {
+            "name_en": "Unnamed Margin",
+            "name_fr": "Large de l'île sans nom",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "7.5"
+        },
+        "x335": {
+            "name_en": "Unnamed Spectral Current",
+            "name_fr": "Courant spectral (large de l'île sans nom)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "7.5"
+        },
+        "x336": {
+            "name_en": "Thavnair Margin",
+            "name_fr": "Large de Thavnair",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "7.5"
+        },
+        "x337": {
+            "name_en": "Thavnair Spectral Current",
+            "name_fr": "Courant spectral (large de Thavnair)",
+            "level": 1,
+            "location": "@PLACE.ARR.FERRY_DOCKS",
+            "type": "@FISH.TYPE.OCEAN",
+            "patch": "7.5"
         }
     }
 }

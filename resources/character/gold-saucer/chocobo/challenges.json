@@ -2,7 +2,7 @@
     "key": "challenges",
     "groupName_en": "Challenges",
     "groupName_fr": "Challenges de performance",
-    "headers": {
+    "columns": {
         "race": {
             "header": "@HEADER.NUMBER"
         },
@@ -24,149 +24,149 @@
         "x0": {
             "name_en": "Hugging the Inside",
             "name_fr": "Toujours à la corde !",
-            "reward": "@20,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "1",
             "minimumRating": "41",
+            "reward": "@20,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cNext": [1]
         },
         "x1": {
             "name_en": "Keep Away",
             "name_fr": "Gare aux attaques à aires d'effet !",
-            "reward": "@21,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "2",
             "minimumRating": "61",
+            "reward": "@21,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
             "name_en": "Inability",
             "name_fr": "En avant même sans aptitudes !",
-            "reward": "@22,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "3",
             "minimumRating": "81",
+            "reward": "@22,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [1],
             "cNext": [3]
         },
         "x3": {
             "name_en": "Heavy Hooves",
             "name_fr": "Une course très très pesante !",
-            "reward": "@23,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "4",
             "minimumRating": "101",
+            "reward": "@23,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [2],
             "cNext": [4]
         },
         "x4": {
             "name_en": "Defending the Rush",
             "name_fr": "Attention aux départs rapides !",
-            "reward": "@24,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "5",
             "minimumRating": "121",
+            "reward": "@24,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [3],
             "cNext": [5]
         },
         "x5": {
             "name_en": "Road Rivals",
             "name_fr": "Pas de pitié pour les rivaux !",
-            "reward": "@25,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "6",
             "minimumRating": "141",
+            "reward": "@25,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [4],
             "cNext": [6]
         },
         "x6": {
             "name_en": "Field of Dreams",
             "name_fr": "Prendre du champ avec les champs !",
-            "reward": "@26,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "7",
             "minimumRating": "161",
+            "reward": "@26,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [5],
             "cNext": [7]
         },
         "x7": {
             "name_en": "Playing Both Ends",
             "name_fr": "Laissons les rivaux s'éliminer !",
-            "reward": "@27,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "8",
             "minimumRating": "181",
+            "reward": "@27,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [6],
             "cNext": [8]
         },
         "x8": {
             "name_en": "Stamina",
             "name_fr": "Une bataille d'endurance !",
-            "reward": "@28,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "9",
             "minimumRating": "201",
+            "reward": "@28,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [7],
             "cNext": [9]
         },
         "x9": {
             "name_en": "Cat and Mouse",
             "name_fr": "Course poursuite !",
-            "reward": "@29,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "10",
             "minimumRating": "221",
+            "reward": "@29,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [8],
             "cNext": [10]
         },
         "x10": {
             "name_en": "Mad Dash",
             "name_fr": "À bride abattue !",
-            "reward": "@30,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "11",
             "minimumRating": "231",
+            "reward": "@30,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [9],
             "cNext": [11]
         },
         "x11": {
             "name_en": "Bag of Tricks",
             "name_fr": "Une épreuve d'aptitude !",
-            "reward": "@35,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "12",
             "minimumRating": "241",
+            "reward": "@35,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [10],
             "cNext": [12]
         },
         "x12": {
             "name_en": "Tag Team",
             "name_fr": "Un travail d'équipe !",
-            "reward": "@40,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "13",
             "minimumRating": "251",
+            "reward": "@40,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [11],
             "cNext": [13]
         },
         "x13": {
             "name_en": "Heavier Hooves",
             "name_fr": "Une course encore plus pesante !",
-            "reward": "@45,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "14",
             "minimumRating": "261",
+            "reward": "@45,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [12],
             "cNext": [14]
         },
         "x14": {
             "name_en": "Ultimatum",
             "name_fr": "La course des extrêmes !",
-            "reward": "@50,000 CURRENCY.MGP",
-            "patch": "3.25",
             "race": "15",
             "minimumRating": "271",
+            "reward": "@50,000 CURRENCY.MGP",
+            "patch": "3.25",
             "cPrev": [13],
             "cSiblings": ["a.1512"]
         }

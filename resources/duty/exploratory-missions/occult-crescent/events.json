@@ -1,0 +1,532 @@
+{
+    "key": "events",
+    "groupName_en": "Events",
+    "groupName_fr": "Événements",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "type": {
+            "header": "@HEADER.TYPE",
+            "filterable": true
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x1968": {
+            "name_en": "A Delicate Balance",
+            "name_fr": "Défi : humidité zéro",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.1, 34.5)",
+            "patch": "7.25"
+        },
+        "x1970": {
+            "name_en": "A Prying Eye",
+            "name_fr": "Défi : un œil sur l'île",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.1, 32.7)",
+            "patch": "7.25"
+        },
+        "x1966": {
+            "name_en": "An Unending Duty",
+            "name_fr": "Défi : pierre de tonnerre",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(17.0, 22.3)",
+            "patch": "7.25"
+        },
+        "x1967": {
+            "name_en": "Brain Drain",
+            "name_fr": "Défi : le poison de l'évolution",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.6, 15.1)",
+            "patch": "7.25"
+        },
+        "x1971": {
+            "name_en": "Fatal Allure",
+            "name_fr": "Défi : la belle mort",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(22.9, 27.0)",
+            "patch": "7.25"
+        },
+        "x1964": {
+            "name_en": "King of the Crescent",
+            "name_fr": "Défi : la bête sadique",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(17.0, 26.5)",
+            "patch": "7.25"
+        },
+        "x1976": {
+            "name_en": "Persistent Pots",
+            "name_fr": "Pas de pot pour les pots",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.6, 17.1)",
+            "patch": "7.25"
+        },
+        "x1977": {
+            "name_en": "Pleading Pots",
+            "name_fr": "Mauvais œil pour les pots",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.9, 32.0)",
+            "patch": "7.25"
+        },
+        "x1962": {
+            "name_en": "Rough Waters",
+            "name_fr": "Défi : pas de vagues",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.6, 34.8)",
+            "patch": "7.25"
+        },
+        "x1972": {
+            "name_en": "Serving Darkness",
+            "name_fr": "Défi : collecte mortelle",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(29.6, 21.0)",
+            "patch": "7.25"
+        },
+        "x1969": {
+            "name_en": "Sworn to Soil",
+            "name_fr": "Défi : rester de boue",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(9.5, 27.9)",
+            "patch": "7.25"
+        },
+        "x1963": {
+            "name_en": "The Golden Guardian",
+            "name_fr": "Défi : tombe vingt-quatre carats",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(28.8, 31.2)",
+            "patch": "7.25"
+        },
+        "x1965": {
+            "name_en": "The Winged Terror",
+            "name_fr": "Défi : je fus zu",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(10.4, 9.7)",
+            "patch": "7.25"
+        },
+        "x37": {
+            "name_en": "Calamity Bound",
+            "name_fr": "Défi : Cloître à perpétuité",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(14.5, 37.5)",
+            "patch": "7.25"
+        },
+        "x40": {
+            "name_en": "Company of Stone",
+            "name_fr": "L'armée des argileux",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(35.0, 16.1)",
+            "patch": "7.25"
+        },
+        "x36": {
+            "name_en": "Crawling Death",
+            "name_fr": "Défi : face de griffes",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(35.1, 32.2)",
+            "patch": "7.25"
+        },
+        "x45": {
+            "name_en": "Cursed Concern",
+            "name_fr": "Défi : être aux pièces",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(22.9, 10.5)",
+            "patch": "7.25"
+        },
+        "x46": {
+            "name_en": "Eternal Watch",
+            "name_fr": "Défi : comme un lion nouveau",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(38.8, 24.9)",
+            "patch": "7.25"
+        },
+        "x47": {
+            "name_en": "Flame of Dusk",
+            "name_fr": "Défi : les ailes de pierre",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(10.1, 18.2)",
+            "patch": "7.25"
+        },
+        "x39": {
+            "name_en": "From Times Bygone",
+            "name_fr": "Défi : idole surprise",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(5.5, 26.4)",
+            "patch": "7.25"
+        },
+        "x44": {
+            "name_en": "Noise Complaint",
+            "name_fr": "Défi : mammouth fâché",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(30.5, 14.1)",
+            "patch": "7.25"
+        },
+        "x42": {
+            "name_en": "On the Hunt",
+            "name_fr": "Défi : à rugir debout",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(34.0, 20.0)",
+            "patch": "7.25"
+        },
+        "x33": {
+            "name_en": "Scourge of the Mind",
+            "name_fr": "Défi : l'encéphalophage",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(27.4, 35.9)",
+            "patch": "7.55"
+        },
+        "x41": {
+            "name_en": "Shark Attack",
+            "name_fr": "Défi : homo selachus",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(19.1, 4.5)",
+            "patch": "7.25"
+        },
+        "x34": {
+            "name_en": "The Black Regiment",
+            "name_fr": "Plumes d'encre",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(30.5, 28.6)",
+            "patch": "7.25"
+        },
+        "x35": {
+            "name_en": "The Unbridled",
+            "name_fr": "Défi : le rageux",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(33.9, 37.5)",
+            "patch": "7.25"
+        },
+        "x38": {
+            "name_en": "Trial by Claw",
+            "name_fr": "Défi : écailles de cristal",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(13.0, 22.8)",
+            "patch": "7.25"
+        },
+        "x43": {
+            "name_en": "With Extreme Prejudice",
+            "name_fr": "Cordon de sécurité",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(14.5, 9.2)",
+            "patch": "7.25"
+        },
+        "x2081": {
+            "name_en": "A Rotten Affair",
+            "name_fr": "Défi : pas de patience pour la pourriture",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(12.5, 5.4)",
+            "patch": "7.55"
+        },
+        "x2078": {
+            "name_en": "Allure of the Occult",
+            "name_fr": "Défi : je t'aime... moi non plus",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(13.4, 16.3)",
+            "patch": "7.55"
+        },
+        "x2072": {
+            "name_en": "Daylight Pottery",
+            "name_fr": "Cache-cache avec le pot",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(26.2, 11.6)",
+            "patch": "7.55"
+        },
+        "x2075": {
+            "name_en": "Eye to Eye",
+            "name_fr": "Défi : voyant malveillant",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(31.7, 20.8)",
+            "patch": "7.55"
+        },
+        "x2082": {
+            "name_en": "Gale-force Encounter",
+            "name_fr": "Défi : autant en emporte la tempête",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(4.2, 31.0)",
+            "patch": "7.55"
+        },
+        "x2073": {
+            "name_en": "In a Pot of Bother",
+            "name_fr": "Se prendre un vent",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.0, 25.8)",
+            "patch": "7.55"
+        },
+        "x2079": {
+            "name_en": "Inconstant Gardener",
+            "name_fr": "Défi : la diva destructrice",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(18.0, 11.7)",
+            "patch": "7.55"
+        },
+        "x2074": {
+            "name_en": "Raging Thrall",
+            "name_fr": "Défi : quand le dopage fait des ravages",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(35.8, 25.7)",
+            "patch": "7.55"
+        },
+        "x2083": {
+            "name_en": "Scale Model",
+            "name_fr": "Défi : rideau sur la méduse",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(8.2, 20.1)",
+            "patch": "7.55"
+        },
+        "x2076": {
+            "name_en": "Shoreline Showdown",
+            "name_fr": "Défi : chasse gardée",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(23.3, 30.8)",
+            "patch": "7.55"
+        },
+        "x2080": {
+            "name_en": "Territorial Dispute",
+            "name_fr": "Défi : un froid de loup",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(19.6, 38.7)",
+            "patch": "7.55"
+        },
+        "x2084": {
+            "name_en": "Thunderregnum",
+            "name_fr": "Défi : la reine des coeurls brisés",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.2, 7.3)",
+            "patch": "7.55"
+        },
+        "x2077": {
+            "name_en": "Waved Away",
+            "name_fr": "Défi : une vie de combats",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(28.0, 16.4)",
+            "patch": "7.55"
+        },
+        "x56": {
+            "name_en": "A Beast Unleashed",
+            "name_fr": "Défi : le familier se rebelle",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(26.1, 28.6)",
+            "patch": "7.55"
+        },
+        "x63": {
+            "name_en": "Accept No Imitators",
+            "name_fr": "Défi : attention aux contrefaçons",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(31.4, 15.2)",
+            "patch": "7.55"
+        },
+        "x62": {
+            "name_en": "Ahead of the Competition",
+            "name_fr": "Défi : têtes à claques",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(19.8, 31.1)",
+            "patch": "7.55"
+        },
+        "x59": {
+            "name_en": "Appalling Behavior",
+            "name_fr": "Défi : vert de rancœur",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(38.2, 9.8)",
+            "patch": "7.55"
+        },
+        "x53": {
+            "name_en": "Cursed Resurgence",
+            "name_fr": "Défi : dragon en décomposition",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(7.7, 24.5)",
+            "patch": "7.55"
+        },
+        "x57": {
+            "name_en": "Dark Artistry",
+            "name_fr": "Défi : croisade pour un cadavre",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(25.9, 4.3)",
+            "patch": "7.55"
+        },
+        "x50": {
+            "name_en": "Doubled Trouble",
+            "name_fr": "Défi : les dérives du clonage",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(17.2, 20.2)",
+            "patch": "7.55"
+        },
+        "x58": {
+            "name_en": "Familiar Tactics",
+            "name_fr": "Défi : la voie de l'orme",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(13.5, 35.8)",
+            "patch": "7.55"
+        },
+        "x52": {
+            "name_en": "Forbidden Folios",
+            "name_fr": "Défi : magie taboue",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(34.7, 34.5)",
+            "patch": "7.55"
+        },
+        "x54": {
+            "name_en": "Imbalanced Diet",
+            "name_fr": "Défi : Algol l'insatiable",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(36.7, 21.4)",
+            "patch": "7.55"
+        },
+        "x61": {
+            "name_en": "Lost on the Wind",
+            "name_fr": "Défi : alerte enlèvement",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(18.4, 4.3)",
+            "patch": "7.55"
+        },
+        "x49": {
+            "name_en": "Many Mouths to Feed",
+            "name_fr": "Défi : appétit vorace",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(4.1, 10.3)",
+            "patch": "7.55"
+        },
+        "x51": {
+            "name_en": "Quarried Away",
+            "name_fr": "Défi : l'homme à albâtre",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(12.0, 8.0)",
+            "patch": "7.55"
+        },
+        "x60": {
+            "name_en": "Tiny Terror",
+            "name_fr": "Défi : petits mais costauds",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(24.3, 35.6)",
+            "patch": "7.55"
+        },
+        "x55": {
+            "name_en": "Web of Terror",
+            "name_fr": "Défi : cruelles chasseresses",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(24.9, 18.8)",
+            "patch": "7.55"
+        }
+    }
+}

@@ -1,9 +1,9 @@
-@import './sizes';
+@use './sizes';
 
 #app {
     height: 100%;
     width: 100%;
-    min-width: calc(#{$nav-drawer-width} + #{$main-view-min-width});
+    min-width: calc(#{sizes.$nav-drawer-width} + #{sizes.$main-view-min-width});
 
     overflow: hidden;
     white-space: nowrap;
@@ -25,15 +25,28 @@
 
     .left-container {
         box-shadow: 3px 0 0 rgba(0, 0, 0, 20%);
-        padding-top: $main-menu-button-height;
-        padding-bottom: $version-height;
-        width: $nav-drawer-width;
+        padding-top: sizes.$main-menu-button-height;
+        padding-bottom: sizes.$version-height;
+        width: sizes.$nav-drawer-width;
 
-        .version {
+        .drawer-footer {
             box-shadow: 0 -5px 0 rgba(0, 0, 0, 20%);
-            height: $version-height - 4px;
+            height: sizes.$version-height - 4px;
             padding: var(--content-padding);
-            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .active-help-toggle {
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+                z-index: 99999;
+            }
+
+            .version {
+                user-select: none;
+            }
         }
     }
 
@@ -41,17 +54,17 @@
         display: flex;
         flex-direction: column;
 
-        width: calc(100% - #{$nav-drawer-width});
+        width: calc(100% - #{sizes.$nav-drawer-width});
         height: 100%;
     }
 }
 
 :host ::ng-deep .p-toast {
-    left: calc($nav-drawer-width + var(--content-padding));
+    left: calc(#{sizes.$nav-drawer-width} + var(--content-padding));
     opacity: 1;
 
     .p-toast-message-success {
-        color: var(--completed);
+        color: var(--text-completed);
         border-color: var(--completed);
 
         .p-toast-message-icon {
@@ -59,10 +72,31 @@
         }
     }
 
+    .p-toast-message-error {
+        color: var(--text-incomplete);
+        border-color: var(--incomplete);
+
+        .p-toast-message-icon {
+            color: var(--incomplete);
+        }
+    }
+
     .p-toast-message-content {
+        display: flex;
+        align-items: center;
+
         background: var(--surface-900);
 
-        .p-toast-icon-close {
+        .p-toast-message-text {
+            margin: 0;
+
+            .p-toast-detail {
+                color: var(--text-color);
+                margin: 0;
+            }
+        }
+
+        .p-toast-close-button {
             color: var(--text-color);
         }
     }

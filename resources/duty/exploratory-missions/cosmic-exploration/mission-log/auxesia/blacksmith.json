@@ -1,0 +1,278 @@
+{
+    "key": "blacksmith",
+    "groupName": "@CLASS_JOB.BSM",
+    "tasks": {
+        "x1680": {
+            "name_en": "Plant Incineration Equipment",
+            "name_fr": "Armes incendiaires pour l'éradication de plantes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_A",
+            "patch": "7.51"
+        },
+        "x1681": {
+            "name_en": "Boring Drill Bits",
+            "name_fr": "Lames pour foreuses",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_B",
+            "patch": "7.51"
+        },
+        "x1423": {
+            "name_en": "Master: Boring Drill Upgrade",
+            "name_fr": "MM : Foreuses améliorées",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1424": {
+            "name_en": "Master: Ruin Restoration Supplies",
+            "name_fr": "MM : Éléments de restauration urbaine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1425": {
+            "name_en": "Master: Core Mechanism Structure Sample",
+            "name_fr": "MM : Reproduction de maquettes des pionniers",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1419": {
+            "name_en": "EX: Environmental Maintenance Equipment",
+            "name_fr": "EX : Matériel de gestion environnementale",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1200",
+            "patch": "7.51"
+        },
+        "x1420": {
+            "name_en": "EX+: Voyager Relic Restoration",
+            "name_fr": "EX+ : Reproduction d'artefacts des pionniers",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2400",
+            "patch": "7.51"
+        },
+        "x1421": {
+            "name_en": "EX+: Aetheric Gauge Development II",
+            "name_fr": "EX+ : Outils d'observation de l'éther (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1422": {
+            "name_en": "EX+: Advanced Aetheric Gauge Development",
+            "name_fr": "EX+ : Outils d'observation de l'éther améliorés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1411": {
+            "name_en": "Improved Alloy Ingot Resupply",
+            "name_fr": "Alliage multi-usage supplémentaire",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1412": {
+            "name_en": "Aether Resistance Treatment (Platinum)",
+            "name_fr": "Scellage éthéréen de platine importé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1413": {
+            "name_en": "Advanced Forestry Equipment",
+            "name_fr": "Élaboration d'outils d'abattage avancés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1414": {
+            "name_en": "Forestry Supplies",
+            "name_fr": "Matériel pour l'exploration urbaine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1415": {
+            "name_en": "Aetheric Gauge Development I",
+            "name_fr": "Outils d'observation de l'éther",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1416": {
+            "name_en": "High-durability Heavy Machinery Parts",
+            "name_fr": "Composants durables pour machinerie lourde améliorée",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1417": {
+            "name_en": "EX: Superior Exploration Materials",
+            "name_fr": "EX : Matériaux de qualité pour l'exploration",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1418": {
+            "name_en": "EX: High-durability Wire",
+            "name_fr": "EX : Livraison de câble durable",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1406": {
+            "name_en": "Improved Alloy Ingots",
+            "name_fr": "Alliage multi-usage amélioré",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1407": {
+            "name_en": "Aether Resistance Treatment (Gold)",
+            "name_fr": "Scellage éthéréen d'or importé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1408": {
+            "name_en": "Heavy Machinery Components III",
+            "name_fr": "Composants pour machinerie lourde améliorée",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1409": {
+            "name_en": "Additional Forestry Implements",
+            "name_fr": "Livraison d'outils d'abattage supplémentaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1410": {
+            "name_en": "Additional Exploration Provisions",
+            "name_fr": "Matériaux pour l'exploration supplémentaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1402": {
+            "name_en": "Multi-purpose Alloy Ingot Resupply",
+            "name_fr": "Alliage multi-usage supplémentaire",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1403": {
+            "name_en": "Aether Resistance Treatment (Silver)",
+            "name_fr": "Scellage éthéréen d'argent importé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1404": {
+            "name_en": "Heavy Machinery Components II",
+            "name_fr": "Composants pour machinerie lourde (suite)",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1405": {
+            "name_en": "Forestry Implements",
+            "name_fr": "Livraison d'outils d'abattage",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1398": {
+            "name_en": "Multi-purpose Alloy Ingots",
+            "name_fr": "Alliage multi-usage",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1399": {
+            "name_en": "Aether Resistance Treatment (Bronze)",
+            "name_fr": "Scellage éthéréen de bronze importé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1400": {
+            "name_en": "Heavy Machinery Components I",
+            "name_fr": "Composants pour machinerie lourde",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1401": {
+            "name_en": "Urban Exploration Provisions",
+            "name_fr": "Matériaux pour l'exploration urbaine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

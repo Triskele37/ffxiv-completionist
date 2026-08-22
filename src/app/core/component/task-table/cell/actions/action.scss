@@ -1,14 +1,15 @@
 $button-size: 25px;
 
 .action {
-    background-color: var(--primary-color);
+    background-color: var(--surface-500);
     border: 1px solid var(--primary-color);
-    color: var(--primary-color-text);
+    color: var(--text-color);
     border-radius: 50%;
 
     // Size & Spacing
     height: $button-size;
     width: $button-size;
+    font-size: $button-size - 5px;
     margin: 0 5px;
 
     // Center non-icon actions

@@ -1,8 +1,7 @@
 import { createElectronServiceMock, ElectronService } from '@service/electron/electron.service.mock';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
-import { createMessageServiceMock, MessageService } from 'src/test/MessageService.mock';
-import { createTranslateMock, TranslateService } from 'src/test/TranslateService.mock';
-
+import { createMessageServiceMock, MessageService } from '@test/MessageService.mock';
+import { createTranslateMock, TranslateService } from '@test/TranslateService.mock';
 import { Store } from './Store';
 
 type TestStoreData = {
@@ -45,7 +44,7 @@ describe('Store', () => {
     describe('load', () => {
         it('should set data from the return from ipcRenderer', () => {
             const response = { successful: true, data: { a: { b: { c: 'x' } }, c: 'y' } };
-            (svcElectron.sendSync as jasmine.Spy).and.returnValue(response);
+            jest.spyOn(svcElectron, 'sendSync').mockReturnValue(response);
 
             store.load();
 
@@ -62,12 +61,12 @@ describe('Store', () => {
 
         it('should handle deep values', () => {
             const value = store.get('a.b.c');
-            expect(value).toEqual(store.data.a.b.c);
+            expect(value).toEqual(store.data?.a.b.c);
         });
 
         it('should handle shallow values', () => {
             const value = store.get('c');
-            expect(value).toEqual(store.data.c);
+            expect(value).toEqual(store.data?.c);
         });
 
         it('should handle invalid paths', () => {
@@ -77,29 +76,29 @@ describe('Store', () => {
     });
 
     describe('set', () => {
-        let saveSpy: jasmine.Spy;
+        let saveSpy: jest.SpyInstance;
         const expected = 'z';
 
         beforeEach(() => {
-            saveSpy = spyOn(store, 'save');
+            saveSpy = jest.spyOn(store, 'save');
         });
 
         it('should handle deep values', () => {
-            expect(store.data.a.b.c).not.toEqual(expected);
+            expect(store.data?.a.b.c).not.toEqual(expected);
             store.set('a.b.c', expected);
-            expect(store.data.a.b.c).toEqual(expected);
+            expect(store.data?.a.b.c).toEqual(expected);
         });
 
         it('should handle shallow values', () => {
-            expect(store.data.c).not.toEqual(expected);
+            expect(store.data?.c).not.toEqual(expected);
             store.set('c', expected);
-            expect(store.data.c).toEqual(expected);
+            expect(store.data?.c).toEqual(expected);
         });
 
         it('should populate nullish objects along the path', () => {
-            expect(store.data.b).not.toBeDefined();
+            expect(store.data?.b).not.toBeDefined();
             store.set('b.c', expected);
-            expect(store.data.b.c).toEqual(expected);
+            expect(store.data?.b?.c).toEqual(expected);
         });
 
         it('should save after setting', () => {
@@ -109,10 +108,10 @@ describe('Store', () => {
     });
 
     describe('delete', () => {
-        let saveSpy: jasmine.Spy;
+        let saveSpy: jest.SpyInstance;
 
         beforeEach(() => {
-            saveSpy = spyOn(store, 'save');
+            saveSpy = jest.spyOn(store, 'save');
         });
 
         it('should handle targets through nullish objects', () => {
@@ -121,9 +120,9 @@ describe('Store', () => {
         });
 
         it('should remove the target from data', () => {
-            expect(store.data.c).toBeDefined();
+            expect(store.data?.c).toBeDefined();
             store.delete('c');
-            expect(store.data.c).not.toBeDefined();
+            expect(store.data?.c).not.toBeDefined();
         });
 
         it('should save after deleting', () => {

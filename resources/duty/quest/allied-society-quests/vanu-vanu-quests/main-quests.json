@@ -4,99 +4,100 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x67700": {
-            "level": 50,
             "name_en": "Three Beaks to the Wind",
             "name_fr": "À plumes et à fleurs",
+            "level": 50,
             "npc_en": "Sonu Vanu",
             "npc_fr": "Sonu Vanu",
             "cPrev": ["q.67184"],
             "cNext": ["q.67701"],
             "cSiblings": ["character.character.societal-relations.28"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67701": {
-            "level": 50,
             "name_en": "A Tribal Reunion",
             "name_fr": "De précieux fugitifs",
+            "reputation": "@REPUTATION.NEUTRAL",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.67700"],
             "cNext": ["q.67702"],
             "cSiblings": ["character.character.societal-relations.29"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67702": {
-            "level": 50,
             "name_en": "Linu's Lovely Bones",
             "name_fr": "Le signe de l'amitié",
+            "reputation": "@REPUTATION.RECOGNIZED",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.67701"],
             "cNext": ["q.67703"],
             "cSiblings": ["character.character.societal-relations.30"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67703": {
-            "level": 50,
             "name_en": "In the Skycage over the Sea",
             "name_fr": "La danse fraternelle",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.67702"],
             "cNext": ["q.67704"],
             "cSiblings": ["character.character.societal-relations.31"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67704": {
-            "level": 50,
             "name_en": "Fishing for Friendship",
             "name_fr": "Le festin de l'amitié",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.67703"],
             "cNext": ["q.67705"],
             "cSiblings": ["character.character.societal-relations.32"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67705": {
-            "level": 50,
             "name_en": "Sundrop the Beat",
             "name_fr": "L'admirable courage",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.67704"],
             "cNext": ["q.67706"],
             "cSiblings": ["character.character.societal-relations.33", "e.120"],
-            "patch": "4.31",
+            "patch": "3.1",
             "unlock": "e.120"
         },
         "x67706": {
-            "level": 50,
             "name_en": "Nest Side Story",
             "name_fr": "La danse des braves",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.67705"],
             "cNext": ["q.67761"],
             "cSiblings": ["character.character.societal-relations.34"],
-            "patch": "4.31"
+            "patch": "3.1"
         },
         "x67761": {
-            "level": 50,
             "name_en": "The Nest of Honor",
             "name_fr": "Les mots de la gratitude",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.67706"],
             "cSiblings": ["character.character.societal-relations.35"],
-            "patch": "4.31"
+            "patch": "3.1",
+            "unlock": "tto.42"
         }
     }
 }

@@ -1,4 +1,4 @@
-@import './ellipsis-overflow';
+@use './ellipsis-overflow' as *;
 
 :host {
     display: contents;

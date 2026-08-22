@@ -1,23 +1,49 @@
 <div id="app">
-    <div id="loading-modal" *ngIf="loading">
-        {{modalText}}
-    </div>
+    @if(loading) {
+        <div id="loading-modal">
+            {{modalText}}
+        </div>
+    }
 
     <div class="left-container">
-        <xiv-nav-drawer></xiv-nav-drawer>
-        <xiv-search-bar></xiv-search-bar>
-        <div class="version">
-            {{'MAIN.VERSION' | translate}} {{version}}
+        <com-nav-drawer></com-nav-drawer>
+        <com-search-bar></com-search-bar>
+        <div class="drawer-footer">
+            <button
+                data-active-help="APP.ACTIVE_HELP.ACTIVE_HELP"
+                pButton
+                class="active-help-toggle"
+                (click)="toggleActiveHelp()"
+            >
+                @let icon = activeHelpEnabled ? 'mi-help-outline' : 'mi-help';
+                <i class="mi {{icon}}"></i>
+            </button>
+
+            <div
+                data-active-help="APP.ACTIVE_HELP.MISC.VERSION"
+                class="version"
+            >
+                {{'APP.VERSION' | translate}} {{version}}
+            </div>
         </div>
     </div>
 
     <div class="right-container">
-        <xiv-summary-header></xiv-summary-header>
-        <xiv-nav-bar></xiv-nav-bar>
+        <com-summary-header></com-summary-header>
+        <com-nav-bar></com-nav-bar>
 
-        <xiv-main-content></xiv-main-content>
+        <com-main-content></com-main-content>
     </div>
 </div>
+
+@let chainViewerTask = svcChainViewer.task();
+@if(chainViewerTask) {
+    <com-chain-viewer [task]="chainViewerTask"></com-chain-viewer>
+}
+
+@if(activeHelpEnabled) {
+    <com-active-help></com-active-help>
+}
 
 <p-toast
     position="top-left"

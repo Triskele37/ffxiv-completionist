@@ -1,0 +1,39 @@
+{
+    "key": "pilgrims-traverse",
+    "groupName_en": "Pilgrim's Traverse",
+    "groupName_fr": "Le Sanctuaire des pèlerins",
+    "tasks": {
+        "x70941": {
+            "name_en": "Pilgrimage of Light",
+            "name_fr": "Pèlerinage de Lumière",
+            "level": 91,
+            "npc_en": "Bright-eyed Child",
+            "npc_fr": "Jeune Fille Aux Yeux Étincelants",
+            "unlock": "d.1032",
+            "patch": "7.35",
+            "cPrev": ["q.70000"],
+            "cNext": ["q.70942", "d.1032"]
+        },
+        "x70942": {
+            "name_en": "Faerie Tale",
+            "name_fr": "Conte de fées",
+            "level": 91,
+            "npc_en": "Aenc Daen",
+            "npc_fr": "Aenc Daen",
+            "patch": "7.35",
+            "cPrev": ["q.70941"],
+            "cNext": ["q.70943"]
+        },
+        "x70943": {
+            "name_en": "A Branch and Their Sapling",
+            "name_fr": "Un arbrisseau et sa branchette",
+            "level": 91,
+            "npc_en": "Aenc Daen",
+            "npc_fr": "Aenc Daen",
+            "unlock": "d.1063",
+            "patch": "7.35",
+            "cPrev": ["q.70942"],
+            "cNext": ["q.70944", "d.1063"]
+        }
+    }
+}

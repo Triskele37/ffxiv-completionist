@@ -2,7 +2,7 @@
     "key": "lost-actions",
     "groupName_en": "Lost Actions",
     "groupName_fr": "Actions oubliées",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -13,6 +13,9 @@
             "filterable": true,
             "header_en": "Forgotten Fragment",
             "header_fr": "Éclat oublié"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "cCombo": ["a.2883"],
@@ -23,7 +26,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Violence",
-            "fragment_fr": "Élimination"
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
         },
         "x1": {
             "name_en": "Lost Font of Magic",
@@ -31,7 +35,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Sagacity",
-            "fragment_fr": "Tactique"
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
         },
         "x2": {
             "name_en": "Lost Font of Power",
@@ -39,7 +44,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Sagacity",
-            "fragment_fr": "Tactique"
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
         },
         "x3": {
             "name_en": "Lost Slash",
@@ -47,7 +53,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Violence",
-            "fragment_fr": "Élimination"
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
         },
         "x4": {
             "name_en": "Lost Death",
@@ -55,7 +62,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Violence",
-            "fragment_fr": "Élimination"
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
         },
         "x5": {
             "name_en": "Banner of Noble Ends",
@@ -63,7 +71,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x6": {
             "name_en": "Banner of Honored Sacrifice",
@@ -71,7 +80,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x7": {
             "name_en": "Banner of Honed Acuity",
@@ -79,7 +89,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x8": {
             "name_en": "Lost Fair Trade",
@@ -87,7 +98,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Caprice",
-            "fragment_fr": "Finesse"
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
         },
         "x9": {
             "name_en": "Lost Flare Star",
@@ -95,7 +107,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Clarity",
-            "fragment_fr": "Sagacité"
+            "fragment_fr": "Sagacité",
+            "patch": "5.35"
         },
         "x84": {
             "name_en": "Lost Chainspell",
@@ -103,7 +116,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Artistry",
-            "fragment_fr": "Expertise"
+            "fragment_fr": "Expertise",
+            "patch": "5.45"
         },
         "x85": {
             "name_en": "Lost Assassination",
@@ -111,7 +125,8 @@
             "category_en": "Offensive",
             "category_fr": "Attaquant",
             "fragment_en": "Artistry",
-            "fragment_fr": "Expertise"
+            "fragment_fr": "Expertise",
+            "patch": "5.45"
         },
         "x10": {
             "name_en": "Lost Manawall",
@@ -119,7 +134,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x11": {
             "name_en": "Banner of Tireless Conviction",
@@ -127,7 +143,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x12": {
             "name_en": "Banner of Firm Resolve",
@@ -135,7 +152,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x13": {
             "name_en": "Lost Incense",
@@ -143,7 +161,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x86": {
             "name_en": "Lost Excellence",
@@ -151,7 +170,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Heroism",
-            "fragment_fr": "Héroïsme"
+            "fragment_fr": "Héroïsme",
+            "patch": "5.45"
         },
         "x87": {
             "name_en": "Lost Blood Rage",
@@ -159,7 +179,8 @@
             "category_en": "Defensive",
             "category_fr": "Défenseur",
             "fragment_en": "Cunning",
-            "fragment_fr": "Percée"
+            "fragment_fr": "Percée",
+            "patch": "5.45"
         },
         "x14": {
             "name_en": "Banner of Solemn Clarity",
@@ -167,7 +188,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Resolve",
-            "fragment_fr": "Résolution"
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
         },
         "x15": {
             "name_en": "Lost Cure",
@@ -175,7 +197,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x16": {
             "name_en": "Lost Cure II",
@@ -183,7 +206,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Compassion",
-            "fragment_fr": "Bénédiction"
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
         },
         "x17": {
             "name_en": "Lost Cure III",
@@ -191,7 +215,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x18": {
             "name_en": "Lost Cure IV",
@@ -199,7 +224,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Compassion",
-            "fragment_fr": "Bénédiction"
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
         },
         "x19": {
             "name_en": "Lost Arise",
@@ -207,7 +233,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Compassion",
-            "fragment_fr": "Bénédiction"
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
         },
         "x20": {
             "name_en": "Lost Sacrifice",
@@ -215,7 +242,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Loss",
-            "fragment_fr": "Altruisme"
+            "fragment_fr": "Altruisme",
+            "patch": "5.35"
         },
         "x88": {
             "name_en": "Lost Reraise",
@@ -223,7 +251,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Hope",
-            "fragment_fr": "Miracle"
+            "fragment_fr": "Miracle",
+            "patch": "5.45"
         },
         "x89": {
             "name_en": "Lost Full Cure",
@@ -231,7 +260,8 @@
             "category_en": "Restorative",
             "category_fr": "Soigneur",
             "fragment_en": "Revelation",
-            "fragment_fr": "Illumination"
+            "fragment_fr": "Illumination",
+            "patch": "5.45"
         },
         "x21": {
             "name_en": "Lost Spellforge",
@@ -239,7 +269,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x22": {
             "name_en": "Lost Steelsting",
@@ -247,7 +278,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x23": {
             "name_en": "Lost Protect",
@@ -255,7 +287,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x24": {
             "name_en": "Lost Shell",
@@ -263,7 +296,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x25": {
             "name_en": "Lost Reflect",
@@ -271,7 +305,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Support",
-            "fragment_fr": "Support"
+            "fragment_fr": "Support",
+            "patch": "5.35"
         },
         "x26": {
             "name_en": "Lost Stoneskin",
@@ -279,7 +314,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Support",
-            "fragment_fr": "Support"
+            "fragment_fr": "Support",
+            "patch": "5.35"
         },
         "x27": {
             "name_en": "Lost Bravery",
@@ -287,7 +323,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Support",
-            "fragment_fr": "Support"
+            "fragment_fr": "Support",
+            "patch": "5.35"
         },
         "x28": {
             "name_en": "Lost Aethershield",
@@ -295,7 +332,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Fortitude",
-            "fragment_fr": "Bravoure"
+            "fragment_fr": "Bravoure",
+            "patch": "5.35"
         },
         "x29": {
             "name_en": "Lost Dervish",
@@ -303,7 +341,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Finesse",
-            "fragment_fr": "Finesse"
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
         },
         "x90": {
             "name_en": "Lost Stoneskin II",
@@ -311,7 +350,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Ferocity, Rage",
-            "fragment_fr": "Férocité"
+            "fragment_fr": "Férocité",
+            "patch": "5.45"
         },
         "x91": {
             "name_en": "Lost Protect II",
@@ -319,7 +359,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Desperation",
-            "fragment_fr": "Protection"
+            "fragment_fr": "Protection",
+            "patch": "5.45"
         },
         "x92": {
             "name_en": "Lost Shell II",
@@ -327,7 +368,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Desperation",
-            "fragment_fr": "Protection"
+            "fragment_fr": "Protection",
+            "patch": "5.45"
         },
         "x93": {
             "name_en": "Lost Bubble",
@@ -335,7 +377,8 @@
             "category_en": "Beneficial",
             "category_fr": "Auxiliaire",
             "fragment_en": "Tenacity",
-            "fragment_fr": "Vivacité"
+            "fragment_fr": "Vivacité",
+            "patch": "5.45"
         },
         "x30": {
             "name_en": "Lost Stealth",
@@ -343,7 +386,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Caution",
-            "fragment_fr": "Fougue"
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
         },
         "x31": {
             "name_en": "Lost Swift",
@@ -351,7 +395,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x32": {
             "name_en": "Lost Font of Skill",
@@ -359,7 +404,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Sagacity",
-            "fragment_fr": "Tactique"
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
         },
         "x33": {
             "name_en": "Mimic",
@@ -367,7 +413,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Caprice",
-            "fragment_fr": "Finesse"
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
         },
         "x34": {
             "name_en": "Lost Perception",
@@ -375,7 +422,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Observation",
-            "fragment_fr": "Observation"
+            "fragment_fr": "Observation",
+            "patch": "5.35"
         },
         "x94": {
             "name_en": "Lost Impetus",
@@ -383,7 +431,8 @@
             "category_en": "Tactical",
             "category_fr": "Éclaireur",
             "fragment_en": "Inspiration",
-            "fragment_fr": "Dynamisme"
+            "fragment_fr": "Dynamisme",
+            "patch": "5.45"
         },
         "x35": {
             "name_en": "Lost Paralyze III",
@@ -391,7 +440,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x36": {
             "name_en": "Lost Banish III",
@@ -399,7 +449,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x37": {
             "name_en": "Lost Dispel",
@@ -407,7 +458,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Ingenuity",
-            "fragment_fr": "Maîtrise"
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
         },
         "x38": {
             "name_en": "Lost Rend Armor",
@@ -415,7 +467,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Contention",
-            "fragment_fr": "Fine lame"
+            "fragment_fr": "Fine lame",
+            "patch": "5.35"
         },
         "x39": {
             "name_en": "Lost Seraph Strike",
@@ -423,7 +476,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Divinity",
-            "fragment_fr": "Oraison"
+            "fragment_fr": "Oraison",
+            "patch": "5.35"
         },
         "x95": {
             "name_en": "Lost Burst",
@@ -431,7 +485,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Rage",
-            "fragment_fr": "Impétuosité"
+            "fragment_fr": "Impétuosité",
+            "patch": "5.45"
         },
         "x96": {
             "name_en": "Lost Rampage",
@@ -439,7 +494,8 @@
             "category_en": "Detrimental",
             "category_fr": "Sapeur",
             "fragment_en": "Ferocity",
-            "fragment_fr": "Férocité"
+            "fragment_fr": "Férocité",
+            "patch": "5.45"
         },
         "x40": {
             "name_en": "Dynamis Dice",
@@ -447,7 +503,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Caprice",
-            "fragment_fr": "Finesse"
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
         },
         "x41": {
             "name_en": "Resistance Phoenix",
@@ -455,7 +512,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Preparation",
-            "fragment_fr": "Soutien"
+            "fragment_fr": "Soutien",
+            "patch": "5.35"
         },
         "x42": {
             "name_en": "Resistance Reraiser",
@@ -463,7 +521,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Care",
-            "fragment_fr": "Guérison"
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
         },
         "x43": {
             "name_en": "Resistance Potion Kit",
@@ -471,7 +530,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Care",
-            "fragment_fr": "Guérison"
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
         },
         "x44": {
             "name_en": "Resistance Ether Kit",
@@ -479,7 +539,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Care",
-            "fragment_fr": "Guérison"
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
         },
         "x45": {
             "name_en": "Resistance Medikit",
@@ -487,7 +548,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Compassion",
-            "fragment_fr": "Bénédiction"
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
         },
         "x46": {
             "name_en": "Resistance Potion",
@@ -495,7 +557,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Preparation",
-            "fragment_fr": "Soutien"
+            "fragment_fr": "Soutien",
+            "patch": "5.35"
         },
         "x47": {
             "name_en": "Essence of the Aetherweaver",
@@ -503,7 +566,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Skill",
-            "fragment_fr": "Perfectionnement"
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
         },
         "x48": {
             "name_en": "Essence of the Martialist",
@@ -511,7 +575,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Skill",
-            "fragment_fr": "Perfectionnement"
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
         },
         "x49": {
             "name_en": "Essence of the Savior",
@@ -519,7 +584,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Skill",
-            "fragment_fr": "Perfectionnement"
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
         },
         "x50": {
             "name_en": "Essence of the Veteran",
@@ -527,7 +593,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Skill",
-            "fragment_fr": "Perfectionnement"
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
         },
         "x51": {
             "name_en": "Essence of the Platebearer",
@@ -535,7 +602,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Skill",
-            "fragment_fr": "Perfectionnement"
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
         },
         "x52": {
             "name_en": "Essence of the Guardian",
@@ -543,7 +611,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x53": {
             "name_en": "Essence of the Ordained",
@@ -551,7 +620,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x54": {
             "name_en": "Essence of the Skirmisher",
@@ -559,7 +629,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x55": {
             "name_en": "Essence of the Watcher",
@@ -567,7 +638,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x56": {
             "name_en": "Essence of the Profane",
@@ -575,7 +647,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x57": {
             "name_en": "Essence of the Irregular",
@@ -583,7 +656,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x58": {
             "name_en": "Essence of the Breathtaker",
@@ -591,7 +665,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Awakening",
-            "fragment_fr": "Hypnose"
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
         },
         "x59": {
             "name_en": "Essence of the Bloodsucker",
@@ -599,7 +674,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Superstition",
-            "fragment_fr": "Croyance"
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
         },
         "x60": {
             "name_en": "Essence of the Beast",
@@ -607,7 +683,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Superstition",
-            "fragment_fr": "Croyance"
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
         },
         "x61": {
             "name_en": "Essence of the Templar",
@@ -615,7 +692,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Superstition",
-            "fragment_fr": "Croyance"
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
         },
         "x62": {
             "name_en": "Deep Essence of the Aetherweaver",
@@ -623,7 +701,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Mastery",
-            "fragment_fr": "Exaltation"
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
         },
         "x63": {
             "name_en": "Deep Essence of the Martialist",
@@ -631,7 +710,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Mastery",
-            "fragment_fr": "Exaltation"
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
         },
         "x64": {
             "name_en": "Deep Essence of the Savior",
@@ -639,7 +719,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Mastery",
-            "fragment_fr": "Exaltation"
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
         },
         "x65": {
             "name_en": "Deep Essence of the Veteran",
@@ -647,7 +728,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Mastery",
-            "fragment_fr": "Exaltation"
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
         },
         "x66": {
             "name_en": "Deep Essence of the Platebearer",
@@ -655,7 +737,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Mastery",
-            "fragment_fr": "Exaltation"
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
         },
         "x67": {
             "name_en": "Deep Essence of the Guardian",
@@ -663,7 +746,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x68": {
             "name_en": "Deep Essence of the Ordained",
@@ -671,7 +755,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x69": {
             "name_en": "Deep Essence of the Skirmisher",
@@ -679,7 +764,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x70": {
             "name_en": "Deep Essence of the Watcher",
@@ -687,7 +773,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x71": {
             "name_en": "Deep Essence of the Profane",
@@ -695,7 +782,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x72": {
             "name_en": "Deep Essence of the Irregular",
@@ -703,7 +791,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x73": {
             "name_en": "Deep Essence of the Breathtaker",
@@ -711,7 +800,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Becoming",
-            "fragment_fr": "Transe"
+            "fragment_fr": "Transe",
+            "patch": "5.35"
         },
         "x74": {
             "name_en": "Deep Essence of the Bloodsucker",
@@ -719,7 +809,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Transcendence",
-            "fragment_fr": "Aubaine"
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
         },
         "x75": {
             "name_en": "Deep Essence of the Beast",
@@ -727,7 +818,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Transcendence",
-            "fragment_fr": "Aubaine"
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
         },
         "x76": {
             "name_en": "Deep Essence of the Templar",
@@ -735,7 +827,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Transcendence",
-            "fragment_fr": "Aubaine"
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
         },
         "x77": {
             "name_en": "Pure Essence of the Gambler",
@@ -743,7 +836,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Deception",
-            "fragment_fr": "Feinte"
+            "fragment_fr": "Feinte",
+            "patch": "5.35"
         },
         "x78": {
             "name_en": "Pure Essence of the Elder",
@@ -751,7 +845,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Clarity",
-            "fragment_fr": "Sagacité"
+            "fragment_fr": "Sagacité",
+            "patch": "5.35"
         },
         "x79": {
             "name_en": "Pure Essence of the Duelist",
@@ -759,7 +854,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Contention",
-            "fragment_fr": "Fine lame"
+            "fragment_fr": "Fine lame",
+            "patch": "5.35"
         },
         "x80": {
             "name_en": "Pure Essence of the Fiendhunter",
@@ -767,7 +863,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Finesse",
-            "fragment_fr": "Finesse"
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
         },
         "x81": {
             "name_en": "Pure Essence of the Indomitable",
@@ -775,7 +872,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Fortitude",
-            "fragment_fr": "Bravoure"
+            "fragment_fr": "Bravoure",
+            "patch": "5.35"
         },
         "x82": {
             "name_en": "Pure Essence of the Divine",
@@ -783,7 +881,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Divinity",
-            "fragment_fr": "Oraison"
+            "fragment_fr": "Oraison",
+            "patch": "5.35"
         },
         "x97": {
             "name_en": "Lodestone",
@@ -791,7 +890,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "History",
-            "fragment_fr": "Distorsion"
+            "fragment_fr": "Distorsion",
+            "patch": "5.45"
         },
         "x98": {
             "name_en": "Light Curtain",
@@ -799,7 +899,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Moonlight",
-            "fragment_fr": "Clair de lune"
+            "fragment_fr": "Clair de lune",
+            "patch": "5.45"
         },
         "x99": {
             "name_en": "Resistance Elixir",
@@ -807,7 +908,8 @@
             "category_en": "Item-Related",
             "category_fr": "Objets",
             "fragment_en": "Cunning, Heroism, Revelation",
-            "fragment_fr": "Percée, Héroïsme, Illumination"
+            "fragment_fr": "Percée, Héroïsme, Illumination",
+            "patch": "5.45"
         }
     }
 }

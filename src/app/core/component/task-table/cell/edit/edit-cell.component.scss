@@ -1,16 +1,22 @@
-.static-cell {
-    padding-left: var(--content-padding);
-}
+:host {
+    display: contents;
 
-.edit-cell ::ng-deep {
-    .p-inputtextarea {
-        overflow: hidden;
-        resize: none;
-        width: 100%;
+    .edit-cell {
+        .edit-cell-textarea-container {
+            display: flex;
 
-        // Override styles applied by pInputTextArea
-        height: 25px !important;
-        margin-bottom: -4px;
-        padding: 4px var(--content-padding);
+            ::ng-deep .p-textarea {
+                overflow: hidden;
+                resize: none;
+                width: 100%;
+                height: 25px !important;
+                line-height: 25px;
+                padding: 0 5px;
+            }
+        }
+
+        .static-cell {
+            padding-left: var(--content-padding);
+        }
     }
 }

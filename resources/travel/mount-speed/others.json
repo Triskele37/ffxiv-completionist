@@ -3,41 +3,70 @@
     "groupName": "@PLACE.OTHERS",
     "tasks": {
         "x0": {
-            "name": "@PLACE.MOR_DHONA - 1",
+            "name": "@PLACE.ARR.MOR_DHONA",
             "source": "q.66541",
+            "patch": "2.0",
             "cSiblings": ["q.66541"]
         },
         "x1": {
-            "name": "@PLACE.MOR_DHONA - 2",
-            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)"
+            "name_en": "Mor Dhona Riding Map",
+            "name_fr": "Carte détaillée du Mor Dhona",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
         },
         "x4": {
-            "name": "@PLACE.LABYRINTHOS",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LABYRINTHOS (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Labyrinthos Riding Map",
+            "name_fr": "Carte détaillée du Labyrinthos",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.LABYRINTHOS (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         },
         "x5": {
-            "name": "@PLACE.MARE_LAMENTORUM",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.MARE_LAMENTORUM (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Mare Lamentorum Riding Map",
+            "name_fr": "Carte détaillée de Mare Lamentorum",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.MARE_LAMENTORUM (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         },
         "x6": {
-            "name": "@PLACE.ULTIMA_THULE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Ultima Thule Riding Map",
+            "name_fr": "Carte détaillée d'Ultima Thulé",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.ULTIMA_THULE (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         },
         "x7": {
-            "name": "@PLACE.ELPIS",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ELPIS (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Elpis Riding Map",
+            "name_fr": "Carte détaillée d'Elpis",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.ELPIS (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         },
         "x8": {
-            "name": "@PLACE.LIVING_MEMORY",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LIVING_MEMORY (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Living Memory Riding Map",
+            "name_fr": "Carte détaillée de La Mémoire vivante",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.LIVING_MEMORY (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         },
         "x2": {
-            "name": "@PLACE.BOZJAN_SOUTHERN_FRONT",
-            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.BOZJAN_CLUSTER)"
+            "name_en": "Bozjan Southern Front Riding Map",
+            "name_fr": "Carte détaillée du Front sud de Bozja",
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.SHB.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.EM.BOZJAN_CLUSTER)",
+            "patch": "5.5"
         },
         "x3": {
-            "name": "@PLACE.ZADNOR",
-            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.ZADNOR (25 CURRENCY.BOZJAN_CLUSTER)"
+            "name_en": "Zadnor Riding Map",
+            "name_fr": "Carte détaillée des Hauts plateaux de Zadnor",
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.SHB.ZADNOR (25 CURRENCY.EM.BOZJAN_CLUSTER)",
+            "patch": "5.55"
+        },
+        "x9": {
+            "name_en": "South Horn Riding Map",
+            "name_fr": "Carte détaillée de l'île de Lunule méridionale",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (3,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.25"
+        },
+        "x10": {
+            "name_en": "North Horn Riding Map",
+            "name_fr": "Carte détaillée de l'île de Lunule septentrionale",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (3,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "patch": "7.55"
         }
     }
 }

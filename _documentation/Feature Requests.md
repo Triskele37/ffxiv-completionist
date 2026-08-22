@@ -28,15 +28,10 @@
 
 **Personal**
 
-* "New In"
-  * Provide a patch selector
-  * Shows all content of that patch in grouped table rows
 * Enum completion type
   * like for Societal Relations
 * Map Dialog
   * for anything with coordinates
-* Chain Dialog
-  * view how an item relates to others via chaining
 * Fishing Hole Dialog
   * view information about fish at a hole similar to the in-game UI
 * Tracker
@@ -65,11 +60,8 @@
     * Gathering windows
 * Feedback on Random view when selected group has no incomplete tasks
   * or hide complete groups?
-* Replace most of Guide with "Contextual Help"
 * Custom application container
   * specifically title bar
-* Potential fix for .p-buttonset
-  * ALL buttons in a buttonset have to be children of another element
 * Data
   * Toy Chest?
     * Cheap Dungeon has 5 levels

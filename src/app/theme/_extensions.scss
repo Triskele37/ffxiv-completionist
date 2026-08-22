@@ -25,6 +25,7 @@
     .p-tooltip {
         max-width: unset !important;
         pointer-events: none !important;
+        z-index: 9999 !important;
 
         .p-tooltip-text {
             border: 1px solid var(--surface-800);

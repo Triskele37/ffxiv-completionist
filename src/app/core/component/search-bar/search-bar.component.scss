@@ -1,14 +1,14 @@
-@import './sizes';
+@use './sizes';
 
 :host {
     $size: 34px;
     display: contents;
 
-    .home-button ::ng-deep .p-button {
+    .home-button {
         position: absolute;
         font-weight: bold;
         border-radius: 0;
-        width: $nav-drawer-width;
+        width: sizes.$nav-drawer-width;
         height: 25px;
         left: 0;
         top: 0;
@@ -23,7 +23,7 @@
         display: flex;
 
         ::ng-deep .p-inputtext {
-            width: calc(#{$nav-drawer-width} - #{$size});
+            width: calc(#{sizes.$nav-drawer-width} - #{$size});
             height: $size;
             border-radius: 0;
 
@@ -36,7 +36,7 @@
             }
         }
 
-        ::ng-deep .p-button {
+        .p-button {
             border-radius: 0;
             height: $size;
             width: $size;

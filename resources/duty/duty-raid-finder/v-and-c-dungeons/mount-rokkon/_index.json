@@ -3,7 +3,7 @@
     "groupName_en": "Mount Rokkon",
     "groupName_fr": "Mont Rokkon",
     "order": ["record"],
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -20,26 +20,30 @@
     },
     "tasks": {
         "x945": {
-            "level": "90",
             "name_en": "Mount Rokkon",
             "name_fr": "Le mont Rokkon - Donjon à embranchements",
+            "level": "90",
+            "unlock": "q.70269",
             "patch": "6.45",
-            "unlock": "q.70269"
+            "cUnlock": "q.70269"
         },
         "x946": {
-            "level": "90",
             "name_en": "Another Mount Rokkon",
             "name_fr": "Le mont Rokkon annexe - Donjon alternatif",
+            "level": "90",
+            "unlock": "q.70269",
             "patch": "6.45",
-            "unlock": "",
+            "cPrev": "q.70269",
+            "cNext": [947],
             "cSiblings": ["a.3339"]
         },
         "x947": {
-            "level": "90",
             "name_en": "Another Mount Rokkon (Savage)",
             "name_fr": "Le mont Rokkon annexe - Donjon alternatif (sadique)",
+            "level": "90",
+            "unlock": "d.946",
             "patch": "6.45",
-            "unlock": "",
+            "cPrev": [946],
             "cSiblings": ["a.3340"]
         }
     }

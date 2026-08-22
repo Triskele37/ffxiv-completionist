@@ -4,199 +4,199 @@
     "groupName_fr": "Quêtes d'érudit",
     "tasks": {
         "x66633": {
-            "level": 30,
             "name_en": "Forgotten but Not Gone",
             "name_fr": "Le maraudeur intellectuel",
+            "level": 30,
             "npc_en": "Murie",
             "npc_fr": "Murie",
+            "unlock": "ap.170",
+            "patch": "2.0",
             "cPrev": ["q.65997", "q.66049"],
             "cNext": ["q.66634"],
-            "cSiblings": ["ap.170"],
-            "patch": "4.31",
-            "unlock": "ap.170"
+            "cSiblings": ["ap.170"]
         },
         "x66634": {
-            "level": 35,
             "name_en": "The Last Remnants",
             "name_fr": "Excursion réminiscente",
+            "level": 35,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "2.0",
             "cPrev": ["q.66633"],
-            "cNext": ["q.66635"],
-            "patch": "4.31"
+            "cNext": ["q.66635"]
         },
         "x66635": {
-            "level": 40,
             "name_en": "The Consequences of Anger",
             "name_fr": "La chasse au tomberry",
+            "level": 40,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "2.0",
             "cPrev": ["q.66634"],
-            "cNext": ["q.66636"],
-            "patch": "4.31"
+            "cNext": ["q.66636"]
         },
         "x66636": {
-            "level": 45,
             "name_en": "In the Image of the Ancients",
             "name_fr": "Une restauration vestimentaire",
+            "level": 45,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "2.0",
             "cPrev": ["q.66635"],
-            "cNext": ["q.66637"],
-            "patch": "4.31"
+            "cNext": ["q.66637"]
         },
         "x66637": {
-            "level": 45,
             "name_en": "For Your Fellow Man",
             "name_fr": "M*É*S*H",
+            "level": 45,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "2.0",
             "cPrev": ["q.66636"],
-            "cNext": ["q.66638"],
-            "patch": "4.31"
+            "cNext": ["q.66638"]
         },
         "x66638": {
-            "level": 50,
             "name_en": "The Beast Within",
             "name_fr": "Le passé caché de Nym",
+            "level": 50,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "2.0",
             "cPrev": ["q.66637"],
             "cNext": ["q.66663", "q.67207"],
-            "cSiblings": ["a.600"],
-            "patch": "4.31"
+            "cSiblings": ["a.600"]
         },
         "x66663": {
-            "level": 50,
             "name_en": "A Relic Reborn (Omnilex)",
             "name_fr": "Restauration de l'Omnilex",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.66638", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66638", "q.66241"]
         },
         "x67207": {
-            "level": 50,
             "name_en": "The Green Death",
             "name_fr": "Une lettre inattendue",
+            "level": 50,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "3.0",
             "cPrev": ["q.66638", "q.65964"],
-            "cNext": ["q.67208"],
-            "patch": "4.31"
+            "cNext": ["q.67208"]
         },
         "x67208": {
-            "level": 52,
             "name_en": "Quarantine",
-            "name_fr": "Gare au gardien!",
+            "name_fr": "Gare au gardien !",
+            "level": 52,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "3.0",
             "cPrev": ["q.67207"],
-            "cNext": ["q.67209"],
-            "patch": "4.31"
+            "cNext": ["q.67209"]
         },
         "x67209": {
-            "level": 54,
             "name_en": "False Friends",
             "name_fr": "Le secret de la lèpre du tomberry",
+            "level": 54,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "3.0",
             "cPrev": ["q.67208"],
-            "cNext": ["q.67210"],
-            "patch": "4.31"
+            "cNext": ["q.67210"]
         },
         "x67210": {
-            "level": 56,
             "name_en": "Ooh Rah",
-            "name_fr": "Mets tomberry, légionnaire!",
+            "name_fr": "Mets tomberry, légionnaire !",
+            "level": 56,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "3.0",
             "cPrev": ["q.67209"],
-            "cNext": ["q.67211"],
-            "patch": "4.31"
+            "cNext": ["q.67211"]
         },
         "x67211": {
-            "level": 58,
             "name_en": "Unseen",
             "name_fr": "Documentation glacée",
+            "level": 58,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "3.0",
             "cPrev": ["q.67210"],
-            "cNext": ["q.67212"],
-            "patch": "4.31"
+            "cNext": ["q.67212"]
         },
         "x67212": {
-            "level": 60,
             "name_en": "Forward, the Royal Marines",
             "name_fr": "Éradication érudite",
+            "level": 60,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "3.0",
             "cPrev": ["q.67211"],
             "cNext": ["q.68459"],
-            "cSiblings": ["a.1149"],
-            "patch": "4.31"
+            "cSiblings": ["a.1149"]
         },
         "x68459": {
-            "level": 60,
             "name_en": "The Vanishing Act",
             "name_fr": "La grande vadrouille du tomberry",
+            "level": 60,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "4.0",
             "cPrev": ["q.67212", "q.67895"],
-            "cNext": ["q.68460"],
-            "patch": "4.31"
+            "cNext": ["q.68460"]
         },
         "x68460": {
-            "level": 63,
             "name_en": "A Safe Place to Hide",
             "name_fr": "Des sentes pas si tranquilles",
+            "level": 63,
             "npc_en": "Surito Carito",
             "npc_fr": "Surito Carito",
+            "patch": "4.0",
             "cPrev": ["q.68459"],
-            "cNext": ["q.68461"],
-            "patch": "4.31"
+            "cNext": ["q.68461"]
         },
         "x68461": {
-            "level": 65,
             "name_en": "In Loving Memory",
             "name_fr": "Pour le souvenir d'un père",
+            "level": 65,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "4.0",
             "cPrev": ["q.68460"],
-            "cNext": ["q.68462"],
-            "patch": "4.31"
+            "cNext": ["q.68462"]
         },
         "x68462": {
-            "level": 68,
             "name_en": "The Chase",
             "name_fr": "La chasse à la fée",
+            "level": 68,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "4.0",
             "cPrev": ["q.68461"],
-            "cNext": ["q.68463"],
-            "patch": "4.31"
+            "cNext": ["q.68463"]
         },
         "x68463": {
-            "level": 70,
             "name_en": "Our Unsung Heroes",
             "name_fr": "L'espoir en héritage",
+            "level": 70,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
+            "patch": "4.0",
             "cPrev": ["q.68462"],
             "cNext": ["q.68754"],
-            "cSiblings": ["a.1805"],
-            "patch": "4.31"
+            "cSiblings": ["a.1805"]
         },
         "x68754": {
-            "level": 80,
             "name_en": "True Beauty",
             "name_fr": "Remède dimensionnel",
+            "level": 80,
             "npc_en": "Alka Zolka",
             "npc_fr": "Alka Zolka",
-            "cPrev": ["q.68463", "q.68808", "q.69190"],
-            "cSiblings": ["ap.305", "a.2314"],
+            "unlock": "ap.305",
             "patch": "5.0",
-            "unlock": "ap.305"
+            "cPrev": ["q.68463", "q.68808", "q.69190"],
+            "cSiblings": ["ap.305", "a.2314"]
         }
     }
 }

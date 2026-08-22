@@ -1,49 +1,67 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, effect, OnDestroy, OnInit, signal } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { ButtonGroup } from 'primeng/buttongroup';
+import { RowGroupHeader, RowToggler, Table } from 'primeng/table';
 import { Subscription } from 'rxjs';
 
+import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
+import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { Match, SearchService } from '@service/search/search.service';
-
-type ExpandedRows = {
-    [key: string]: boolean;
-};
+import { SearchService } from '@service/search/search.service';
+import { Match } from '@service/search/SearchTypes';
+import { ExpandedRows } from '@service/table/rowGroup/types';
 
 @Component({
-    selector: 'xiv-task-search-results',
+    selector: 'com-task-search-results',
     templateUrl: './task-search-results.component.html',
-    styleUrls: ['./task-search-results.component.scss']
+    styleUrls: ['./task-search-results.component.scss'],
+    imports: [
+        ButtonGroup,
+        ButtonDirective,
+        TranslatePipe,
+        Table,
+        NgClass,
+        RowGroupHeader,
+        RowToggler,
+
+        ChainOverlayComponent,
+        ContentLinkComponent,
+        CompleteCellComponent
+    ],
 })
 export class TaskSearchResultsComponent implements OnInit, OnDestroy {
-    private searchSub: Subscription;
-    private storeSub: Subscription;
+    private storeSub?: Subscription;
 
-    rowKeys: string[] = [];
-    showKey: boolean;
+    showKey = signal(false);
 
     willCollapseAll: boolean = false;
-    expandedRows: ExpandedRows = {};
+    expandedRows = signal<ExpandedRows>({});
 
-    hasResults: boolean;
+    hasResults?: boolean;
 
     constructor(
         public svcConfigStore: ConfigStoreService,
         public svcSearch: SearchService
     ) {
+        effect(() => {
+            const taskMatches = this.svcSearch.searchTaskMatches()
+            this.hasResults = !!taskMatches;
+            this.setRowsExpanded(true);
+        });
+
+        this.showKey.set(this.svcConfigStore.data?.isAdmin ?? false);
     }
 
     ngOnInit(): void {
-        this.searchSub = this.svcSearch.searchTaskMatches$.subscribe((tasks) => {
-            this.hasResults = !!tasks.length;
-            this.setRowsExpanded(tasks, true);
-        });
-
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
-            this.showKey = data.isAdmin;
+            this.showKey.set(data.isAdmin);
         });
     }
 
     ngOnDestroy(): void {
-        this.searchSub?.unsubscribe();
         this.storeSub?.unsubscribe();
     }
 
@@ -51,28 +69,28 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
         this.svcSearch.toggleSearchDepth();
     }
 
-    setRowsExpanded(tasks: Match[], expanded: boolean): void {
-        this.rowKeys = tasks.map((match) => match.task._parent.fullStorageKey);
+    setRowsExpanded(expanded: boolean): void {
+        const taskMatches = this.svcSearch.searchTaskMatches();
 
-        // Collapsed rows must use 'null' as the falsy value
-        this.expandedRows = this.rowKeys.reduce((acc, key) => {
-            acc[key] = expanded ? true : null;
-            return acc;
-        }, {});
+        if(expanded) {
+            this.expandedRows.set(taskMatches
+                .map((match) => match.task._parent.fullStorageKey)
+                .reduce((acc, key) => {
+                    acc[key] = true;
+                    return acc;
+                }, {} as ExpandedRows)
+            );
+        }
+        else {
+            this.expandedRows.set({});
+        }
 
         this.willCollapseAll = expanded;
     }
 
-    evaluateToggleAll($event, wasCollapse: boolean): void {
-        // PrimeNG deletes the key when collapsed, add it back in as null if collapsed
-        const rowKey = $event.data.task._parent.fullStorageKey;
-        if(!this.expandedRows[rowKey]) this.expandedRows[rowKey] = null;
-
-        const hasAnyCollapsed = this.rowKeys.some((key) => !this.expandedRows[key]);
-        const hasAnyExpanded = this.rowKeys.some((key) => this.expandedRows[key]);
-
-        if(wasCollapse) this.willCollapseAll = hasAnyExpanded;
-        else this.willCollapseAll = !hasAnyCollapsed;
+    evaluateToggleAll(): void {
+        const expandedRowCount = Object.keys(this.expandedRows()).length;
+        this.willCollapseAll = expandedRowCount > 0;
     }
 
     onCopyPathClick(match: Match): void {

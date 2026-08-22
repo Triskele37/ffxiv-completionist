@@ -1,0 +1,49 @@
+{
+    "key": "the-merchants-tale",
+    "groupName_en": "The Merchant's Tale",
+    "groupName_fr": "Contes du Camelot - Donjon à embranchements",
+    "order": ["record"],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x1066": {
+            "name_en": "The Merchant's Tale",
+            "name_fr": "Contes du Camelot - Donjon à embranchements",
+            "level": "90",
+            "unlock": "q.70977",
+            "patch": "7.45"
+        },
+        "x1084": {
+            "name_en": "The Merchant's Tale (Advanced)",
+            "name_fr": "Contes du Camelot - Donjon à embranchements (avancé)",
+            "level": "90",
+            "unlock": "q.70995",
+            "patch": "7.45",
+            "cPrev": ["q.70995"],
+            "cNext": [1079],
+            "cSiblings": ["a.3898"]
+        },
+        "x1079": {
+            "name_en": "Another Merchant's Tale",
+            "name_fr": "Contes du Camelot annexes - Donjon alternatif",
+            "level": "90",
+            "unlock": "d.1084",
+            "patch": "7.45",
+            "cPrev": [1084],
+            "cSiblings": ["a.3899"]
+        }
+    }
+}

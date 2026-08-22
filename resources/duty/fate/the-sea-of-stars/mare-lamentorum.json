@@ -1,128 +1,128 @@
 {
     "key": "mare-lamentorum",
-    "groupName": "@PLACE.MARE_LAMENTORUM",
+    "groupName": "@PLACE.EW.MARE_LAMENTORUM",
     "tasks": {
         "x1806": {
-            "level": 83,
             "name_en": "Mantids on the Moon",
             "name_fr": "La chose surgit des ténèbres",
+            "level": 83,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18.1, 32.2)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1807": {
-            "level": 83,
             "name_en": "One Giant Weep",
             "name_fr": "Pas de compassion pour les champignons",
+            "level": 83,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24.6, 35.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1808": {
-            "level": 83,
             "name_en": "Cactus What You Preach",
             "name_fr": "Il y a trop de pampas qui s'aiment",
+            "level": 83,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(6.8, 34.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1809": {
-            "level": 83,
             "name_en": "Droids Gone Wild",
             "name_fr": "L'attaque des droïdes",
+            "level": 83,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33.0, 27.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1810": {
-            "level": 83,
             "name_en": "The Stones of Silence",
             "name_fr": "Défi : le géant de la lune",
+            "level": 83,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(10.6, 31.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1811": {
-            "level": 83,
             "name_en": "The Strolling Stones",
             "name_fr": "La face cachée de la lune",
+            "level": 83,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27.4, 31.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1803": {
-            "level": 84,
             "name_en": "Lepus Lamentorum: Dynamite Disaster",
             "name_fr": "Panique lapinesque : explosifs invasifs",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29.2, 13.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1804": {
-            "level": 84,
             "name_en": "Lepus Lamentorum: Cleaner Catastrophe",
             "name_fr": "Panique lapinesque : nettoyeurs tueurs",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13.9, 8.9)",
-            "patch": "6.0",
-            "previousFate": "f.1803",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1803",
+            "patch": "6.0"
         },
         "x1805": {
-            "level": 84,
             "name_en": "Lepus Lamentorum: Crazy Contraption",
             "name_fr": "Panique lapinesque : apiacée cuirassée",
+            "level": 84,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(11.4, 6.8)",
-            "patch": "6.0",
-            "previousFate": "f.1804",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1804",
+            "patch": "6.0"
         },
         "x1812": {
-            "level": 84,
             "name_en": "Tech Support Cull",
             "name_fr": "Un accident chez les assistants",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10.5, 21.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1813": {
-            "level": 84,
             "name_en": "Hunger Strikes",
             "name_fr": "Sur les deux rives d'un océan",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23.3, 22.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1814": {
-            "level": 84,
             "name_en": "Scrapping the Scrapers",
             "name_fr": "Produits plus sous garantie",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10.3, 13.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1815": {
-            "level": 84,
             "name_en": "Taking Care of the Caretakers",
             "name_fr": "Des infirmiers infernaux",
+            "level": 84,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(35.4, 8.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1816": {
-            "level": 84,
             "name_en": "Head Empty, Only Thoughts",
             "name_fr": "Défi : le penseur parasite",
+            "level": 84,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15.2, 25.2)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1817": {
-            "level": 84,
             "name_en": "What a Thrill",
             "name_fr": "Addiction aux frissons",
+            "level": 84,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(19.2, 22.6)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         }
     }
 }

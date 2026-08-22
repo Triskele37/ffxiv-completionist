@@ -16,8 +16,8 @@ import { SaveStore } from './Store.d';
 export class SaveStoreService extends Store<SaveStore> {
     ipcGetEvent = IPC_EVENT.GET_SAVE;
     ipcSaveEvent = IPC_EVENT.SET_SAVE;
-    failedSummaryKey = 'TOAST.SAVE_FAILED_SUMMARY';
-    failedDetailKey = 'TOAST.SAVE_FAILED_DETAIL';
+    failedSummaryKey = 'APP.TOAST.SAVE_FAILED_SUMMARY';
+    failedDetailKey = 'APP.TOAST.SAVE_FAILED_DETAIL';
 
     constructor(
         translate: TranslateService,

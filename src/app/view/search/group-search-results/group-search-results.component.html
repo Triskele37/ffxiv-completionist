@@ -1,32 +1,33 @@
 <div class="group-search-results-header">
-    <p-buttonGroup *ngIf="hasResults">
-
-    </p-buttonGroup>
+    @if(hasResults) {
+        <!-- TODO - what was this? -->
+        <p-button-group></p-button-group>
+    }
 </div>
 
-<div *ngIf="hasResults; else noResults" class="group-search-results-table">
-    <p-table
-        [value]="svcSearch.searchGroupMatches$ | async"
-        [scrollable]="true"
-        scrollHeight="flex"
-        dataKey="fullStorageKey"
-        styleClass="p-datatable-striped"
-    >
-        <ng-template pTemplate="header">
-            <tr>
-                <th>{{'MAIN.SEARCH.LINK' | translate}}</th>
-            </tr>
-        </ng-template>
-        <ng-template pTemplate="body" let-match>
-            <tr>
-                <td>
-                    <xiv-content-link [content]="match.group"></xiv-content-link>
-                </td>
-            </tr>
-        </ng-template>
-    </p-table>
-</div>
-
-<ng-template #noResults>
-    <span>{{'MAIN.SEARCH.NO_RESULTS' | translate}}</span>
-</ng-template>
+@if(hasResults) {
+    <div class="group-search-results-table">
+        <p-table
+            [value]="svcSearch.searchGroupMatches()"
+            [scrollable]="true"
+            class="p-datatable-striped"
+            scrollHeight="flex"
+            dataKey="fullStorageKey"
+        >
+            <ng-template #header>
+                <tr>
+                    <th>{{'APP.SEARCH.LINK' | translate}}</th>
+                </tr>
+            </ng-template>
+            <ng-template #body let-match>
+                <tr>
+                    <td>
+                        <com-content-link [content]="match.group"></com-content-link>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+} @else {
+    <span>{{'APP.SEARCH.NO_RESULTS' | translate}}</span>
+}

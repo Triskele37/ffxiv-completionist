@@ -1,12 +1,24 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { Popover } from 'primeng/popover';
+import { Tooltip } from 'primeng/tooltip';
 
 import { DataGroup } from '@model/DataGroup';
+import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
-    selector: 'xiv-history-overlay',
+    selector: 'com-history-overlay',
     templateUrl: './history-overlay.component.html',
-    styleUrls: ['./history-overlay.component.scss']
+    styleUrls: ['./history-overlay.component.scss'],
+    imports: [
+        ButtonDirective,
+        ContentLinkPipe,
+        Popover,
+        Tooltip,
+        TranslatePipe
+    ]
 })
 export class HistoryOverlayComponent {
     constructor(public svcNavigation: NavigationService) {

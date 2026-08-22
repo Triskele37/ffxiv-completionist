@@ -1,56 +1,60 @@
 @use 'sass:list';
+@use "../_mixins";
+@use "../../_variables";
 
-.p-steps {
-    .p-steps-item {
-        .p-menuitem-link {
-            background: transparent;
-            transition: $listItemTransition;
-            border-radius: var(--border-radius);
-            background: $stepsItemBg;
+@layer primeng {
+    .p-steps {
+        .p-steps-item {
+            .p-menuitem-link {
+                background: transparent;
+                transition: variables.$listItemTransition;
+                border-radius: var(--border-radius);
+                background: variables.$stepsItemBg;
 
-            .p-steps-number {
-                color: $stepsItemNumberColor;
-                border: $stepsItemBorder;
-                background: $stepsItemBg;
-                min-width: $stepsItemNumberWidth;
-                height: $stepsItemNumberHeight;
-                line-height: $stepsItemNumberHeight;
-                font-size: $stepsItemNumberFontSize;
-                z-index: 1;
-                border-radius: $stepsItemNumberBorderRadius;
+                .p-steps-number {
+                    color: variables.$stepsItemNumberColor;
+                    border: variables.$stepsItemBorder;
+                    background: variables.$stepsItemBg;
+                    min-width: variables.$stepsItemNumberWidth;
+                    height: variables.$stepsItemNumberHeight;
+                    line-height: variables.$stepsItemNumberHeight;
+                    font-size: variables.$stepsItemNumberFontSize;
+                    z-index: 1;
+                    border-radius: variables.$stepsItemNumberBorderRadius;
+                }
+
+                .p-steps-title {
+                    margin-top: var(--inline-spacing);
+                    color: variables.$stepsItemTextColor;
+                }
+
+                &:not(.p-disabled):focus-visible {
+                    @include mixins.focused();
+                }
             }
 
-            .p-steps-title {
-                margin-top: var(--inline-spacing);
-                color: $stepsItemTextColor;
+            &.p-highlight {
+                .p-steps-number {
+                    background: variables.$highlightBg;
+                    color: variables.$highlightTextColor;
+                }
+
+                .p-steps-title {
+                    font-weight: variables.$stepsItemActiveFontWeight;
+                    color: var(--text-color);
+                }
             }
 
-            &:not(.p-disabled):focus-visible {
-                @include focused();
+            &:before {
+                content: ' ';
+                border-top: variables.$divider;
+                width: 100%;
+                top: 50%;
+                left: 0;
+                display: block;
+                position: absolute;
+                margin-top: list.slash(-1 * variables.$stepsItemNumberHeight, 2);
             }
-        }
-
-        &.p-highlight {
-            .p-steps-number {
-                background: $highlightBg;
-                color: $highlightTextColor;
-            }
-
-            .p-steps-title {
-                font-weight: $stepsItemActiveFontWeight;
-                color: var(--text-color);
-            }
-        }
-
-        &:before {
-            content:' ';
-            border-top: $divider;
-            width: 100%;
-            top: 50%;
-            left: 0;
-            display: block;
-            position: absolute;
-            margin-top: list.slash(-1 * $stepsItemNumberHeight, 2);
         }
     }
 }

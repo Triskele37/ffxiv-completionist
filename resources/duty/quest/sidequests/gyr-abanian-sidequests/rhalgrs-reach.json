@@ -4,132 +4,135 @@
     "groupName_fr": "L'Étendue de Rhalgr",
     "tasks": {
         "x68541": {
-            "level": 60,
             "name_en": "None Forgotten, None Forsaken",
             "name_fr": "La nouvelle recrue de Rowena",
+            "level": 60,
             "npc_en": "Galiena",
             "npc_fr": "Galiena",
             "unlock_en": "Custom Deliveries: M'naago",
             "unlock_fr": "Custom Deliveries: M'naago",
+            "patch": "4.1",
             "cPrev": ["q.68508", "q.68477"],
             "cNext": ["q.68542", "q.68675"],
-            "cSiblings": ["a.1969"],
-            "patch": "4.31"
+            "cSiblings": ["a.1969"]
         },
         "x68542": {
-            "level": 60,
             "name_en": "Not While Their Names Are Still Spoken",
             "name_fr": "Après les larmes",
+            "level": 60,
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": ["q.68541"],
-            "patch": "4.31"
+            "patch": "4.1",
+            "cPrev": ["q.68541"]
         },
         "x68187": {
-            "level": 61,
             "name_en": "Hard Blow",
             "name_fr": "Comme soufflé d'une sarbacane",
+            "level": 61,
             "npc_en": "Straight-arrow Sutler",
             "npc_fr": "Cantinier Loyal",
-            "cPrev": ["q.68000"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68000"]
         },
         "x68188": {
-            "level": 61,
             "name_en": "Mother's Boy",
             "name_fr": "Le souvenir d'un fils",
+            "level": 61,
             "npc_en": "Wounded Resistance Fighter",
             "npc_fr": "Soldat Mhigois Blessé",
+            "patch": "4.0",
             "cPrev": ["q.68000"],
-            "cNext": ["q.68189"],
-            "patch": "4.31"
+            "cNext": ["q.68189"]
         },
         "x68404": {
-            "level": 69,
             "name_en": "Ant Juice",
             "name_fr": "La dure vie des infirmiers",
+            "level": 69,
             "npc_en": "Ranulf",
             "npc_fr": "Ranulf",
-            "cPrev": ["q.68083"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68083"]
         },
         "x68405": {
-            "level": 69,
             "name_en": "Dearest Daughter",
             "name_fr": "Jamais sans ma fille",
+            "level": 69,
             "npc_en": "Elderly Private",
             "npc_fr": "Vétéran De L'armée De Libération",
+            "patch": "4.0",
             "cPrev": ["q.68083"],
-            "cNext": ["q.68407", "q.68408"],
-            "patch": "4.31"
+            "cNext": ["q.68407", "q.68408"]
         },
         "x68406": {
-            "level": 69,
             "name_en": "Fallen Friend of Mine",
             "name_fr": "Un homme impartial",
+            "level": 69,
             "npc_en": "Ananta Battlemaid",
             "npc_fr": "Guerrière Ananta",
+            "patch": "4.0",
             "cPrev": ["q.68083"],
-            "cNext": ["q.68411", "q.68410"],
-            "patch": "4.31"
+            "cNext": ["q.68411", "q.68410"]
         },
         "x68421": {
-            "level": 70,
             "name_en": "Dreaming of Home",
             "name_fr": "La reconstruction n'attend pas",
+            "level": 70,
             "npc_en": "Wichard",
             "npc_fr": "Wichard",
+            "patch": "4.0",
             "cPrev": ["q.68089"],
-            "cNext": ["q.68422"],
-            "patch": "4.31"
+            "cNext": ["q.68422"]
         },
         "x68169": {
-            "level": 70,
             "name_en": "To Kill a Coeurl",
             "name_fr": "Au coeurl du temple",
-            "unlock": "d.236",
+            "level": 70,
             "npc_en": "Ortwin",
             "npc_fr": "Ortwin",
+            "unlock": "d.236",
+            "patch": "4.0",
             "cPrev": ["q.68089"],
-            "patch": "4.31"
+            "cSiblings": ["d.236"]
         },
         "x68613": {
-            "level": 70,
             "name_en": "An Unwanted Truth",
             "name_fr": "À la recherche de la terre sacrée",
-            "unlock": "d.285",
+            "level": 70,
             "npc_en": "Philiot",
             "npc_fr": "Philiot",
+            "unlock": "d.285",
+            "patch": "4.2",
             "cPrev": ["q.68089"],
-            "patch": "4.31"
+            "cSiblings": ["d.285"]
         },
         "x68678": {
-            "level": 70,
             "name_en": "Secret of the Ooze",
             "name_fr": "Gadoue protéinée",
-            "unlock": "d.584",
+            "level": 70,
             "npc_en": "Sawney",
             "npc_fr": "Sawney",
+            "unlock": "d.584",
+            "patch": "4.4",
             "cPrev": ["q.68089", "q.67738"],
-            "patch": "4.4"
+            "cSiblings": ["d.584"]
         },
         "x68476": {
-            "level": 70,
             "name_en": "Another Striking Opportunity",
             "name_fr": "S'affirmer et s'affermir",
+            "level": 70,
             "npc_en": "Starry-eyed Ala Mhigan",
             "npc_fr": "Guerrier Amène",
-            "cPrev": ["q.68089", "q.67654"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68089", "q.67654"]
         },
         "x68566": {
-            "level": 70,
             "name_en": "A Fortune in Salt",
             "name_fr": "L'or blanc",
+            "level": 70,
             "npc_en": "Perky Peddler",
             "npc_fr": "Marchand Ambulant Enjoué",
-            "cPrev": ["q.68610"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "cPrev": ["q.68610"]
         }
     }
 }

@@ -1,30 +1,35 @@
+@use "sass:list";
 @use 'sass:math';
+@use "../_mixins";
+@use "../../_variables";
 
-p-inputmask.ng-dirty.ng-invalid > .p-inputtext {
-    @include invalid-input();
-}
-
-p-inputmask.p-inputmask-clearable {
-    .p-inputtext {
-        padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+@layer primeng {
+    p-inputmask.ng-dirty.ng-invalid > .p-inputtext {
+        @include mixins.invalid-input();
     }
-    
-    .p-inputmask-clear-icon {
-        color: $inputIconColor;
-        right: nth($inputPadding, 2);
-    }
-}
 
-.p-inputmask {
-    &.p-variant-filled {
-        background-color: $inputFilledBg;
-
-        &:enabled:hover {
-            background-color: $inputFilledHoverBg;
+    p-inputmask.p-inputmask-clearable {
+        .p-inputtext {
+            padding-right: list.nth(variables.$inputPadding, 2) * 2 + variables.$primeIconFontSize;
         }
 
-        &:enabled:focus {
-            background-color: $inputFilledFocusBg;
+        .p-inputmask-clear-icon {
+            color: variables.$inputIconColor;
+            right: list.nth(variables.$inputPadding, 2);
+        }
+    }
+
+    .p-inputmask {
+        &.p-variant-filled {
+            background-color: variables.$inputFilledBg;
+
+            &:enabled:hover {
+                background-color: variables.$inputFilledHoverBg;
+            }
+
+            &:enabled:focus {
+                background-color: variables.$inputFilledFocusBg;
+            }
         }
     }
 }

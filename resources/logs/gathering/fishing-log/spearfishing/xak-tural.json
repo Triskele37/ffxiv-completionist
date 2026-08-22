@@ -3,13 +3,14 @@
     "groupName_en": "Xak Tural",
     "groupName_fr": "Xak Tural",
     "tasks": {
-        "x0": {
+        "x61": {
             "name_en": "Northern Lake Toari",
             "name_fr": "Nord du lac Toari",
-            "level": "100",
-            "zone": "@PLACE.SHAALOANI",
+            "level": 100,
+            "zone": "@PLACE.DT.SHAALOANI",
             "location": "(31.4, 11.2)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         }
     }
 }

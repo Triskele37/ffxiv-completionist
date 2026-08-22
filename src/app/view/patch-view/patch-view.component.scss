@@ -1,35 +1,23 @@
-$header-height: 50px;
+:host {
+    .patch-view-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
 
-.patch-view-header {
-    height: $header-height;
-    display: flex;
-    width: fit-content;
-    align-items: center;
-    gap: var(--content-padding);
-    padding-bottom: var(--content-padding);
-}
+        .summary-container {
+        }
 
-::ng-deep .patch-dropdown {
-    width: 100px;
-}
+        .patch-view-toolbar {
+            display: flex;
+        }
 
-.patch-results-table {
-    height: calc(100% - $header-height);
-
-    td {
-        padding: 0;
+        .patch-results-table {
+            height: calc(100% - 50px);
+        }
     }
 
-    ::ng-deep {
-        // Make the first column in headers, groups, and tasks 100px wide
-        .p-datatable-thead, .p-datatable-tbody, .p-rowgroup-header {
-            tr > :first-child {
-                &, th, td {
-                    flex-grow: 0;
-                    flex-basis: 100px;
-                    justify-content: center;
-                }
-            }
-        }
+    // Task table somehow not respecting its toolbar's height specifically in patch view
+    ::ng-deep .task-table-scroll-container {
+        height: calc(100% - 45px) !important;
     }
 }

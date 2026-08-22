@@ -4,72 +4,69 @@
     "groupName_fr": "Bahamut",
     "tasks": {
         "x66695": {
-            "level": 50,
             "name_en": "Primal Awakening",
             "name_fr": "Une nouvelle menace",
-            "unlock": "d.93",
+            "level": 50,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "unlock": ["d.93", "d.94", "d.95", "d.96", "d.97"],
+            "patch": "2.0",
             "cPrev": ["q.66694"],
-            "cNext": ["q.66696"],
-            "patch": "4.31"
+            "cNext": ["q.66696", "d.93", "d.94", "d.95", "d.96", "d.97"]
         },
         "x66696": {
-            "level": 50,
             "name_en": "Alisaie's Pledge",
             "name_fr": "Le serment d'Alisaie",
-            "unlock": "d.97",
+            "level": 50,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": ["q.66695"],
+            "patch": "2.0",
+            "cPrev": ["q.66695", "d.97"],
             "cNext": ["q.66849"],
-            "cSiblings": ["a.900"],
-            "patch": "4.31"
+            "cSiblings": ["a.900"]
         },
         "x66849": {
-            "level": 50,
             "name_en": "Another Turn in the Coil",
             "name_fr": "Replongés dans l'abîme",
-            "unlock": "d.98",
+            "level": 50,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "unlock": ["d.98", "d.99", "d.100", "d.101"],
+            "patch": "2.2",
             "cPrev": ["q.66696"],
-            "cNext": ["q.66850"],
-            "patch": "4.31"
+            "cNext": ["q.66850", "d.98", "d.99", "d.100", "d.101"]
         },
         "x66850": {
-            "level": 50,
             "name_en": "Alisaie's Resolve",
             "name_fr": "Des vérités qui dérangent",
-            "unlock": "d.101",
+            "level": 50,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": ["q.66849"],
+            "patch": "2.2",
+            "cPrev": ["q.66849", "d.101"],
             "cNext": ["q.65579"],
-            "cSiblings": ["a.901"],
-            "patch": "4.31"
+            "cSiblings": ["a.901"]
         },
         "x65579": {
-            "level": 50,
             "name_en": "Fragments of Truth",
             "name_fr": "Réponses",
-            "unlock": "d.107",
+            "level": 50,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "unlock": ["d.107", "d.108", "d.109", "d.110"],
+            "patch": "2.4",
             "cPrev": ["q.66850"],
-            "cNext": ["q.65580"],
-            "patch": "4.31"
+            "cNext": ["q.65580", "d.107", "d.108", "d.109", "d.110"]
         },
         "x65580": {
-            "level": 50,
             "name_en": "Alisaie's Path",
             "name_fr": "Nouveau départ",
-            "unlock": "d.110",
+            "level": 50,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": ["q.65579"],
-            "cSiblings": ["a.1030"],
-            "patch": "4.31"
+            "patch": "2.4",
+            "cPrev": ["q.65579", "d.110"],
+            "cSiblings": ["a.1030"]
         }
     }
 }

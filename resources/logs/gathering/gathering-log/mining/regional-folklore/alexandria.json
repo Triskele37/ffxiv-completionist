@@ -3,25 +3,45 @@
     "groupName_en": "Alexandria",
     "groupName_fr": "Alexandrie",
     "tasks": {
-        "x0": {
-            "level": "100★",
+        "x787": {
             "name_en": "Harmonite Ore",
             "name_fr": "Minerai de fer composite",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": "100 ★",
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "coordinates": "(9, 15)",
             "closestAetheryte": "travel.aetherytes.others.196",
             "nodeTimer": "06:00 / 18:00",
             "patch": "7.0"
         },
-        "x1": {
-            "level": "100★",
+        "x796": {
             "name_en": "Alexandrian Ore",
             "name_fr": "Minerai alexandrin",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": "100 ★",
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "coordinates": "(9, 15)",
             "closestAetheryte": "travel.aetherytes.others.196",
             "nodeTimer": "06:00 / 18:00",
             "patch": "7.1"
+        },
+        "x813": {
+            "name_en": "Dense Aluminum Ore",
+            "name_fr": "Minerai d'aluminium lourd",
+            "level": "100 ★★★",
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
+            "coordinates": "(23.7, 27.9)",
+            "closestAetheryte": "travel.aetherytes.tural.193",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "7.4"
+        },
+        "x814": {
+            "name_en": "Windspath Water",
+            "name_fr": "Eau douce des jardins",
+            "level": "100 ★★★",
+            "zone": "@PLACE.DT.LIVING_MEMORY",
+            "coordinates": "(8.2, 14.1)",
+            "closestAetheryte": "travel.aetherytes.others.196",
+            "nodeTimer": "02:00 / 14:00",
+            "patch": "7.4"
         }
     }
 }

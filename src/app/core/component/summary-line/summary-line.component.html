@@ -1,7 +1,7 @@
 <div
     class="summary-line"
-    [ngClass]="{ big: isBig, excluded: !percentComplete}"
-    [pTooltip]="tooltip"
+    [ngClass]="{ big: isBig, excluded: !percentComplete()}"
+    [pTooltip]="tooltip()"
     tooltipPosition="bottom"
     (click)="onClick()"
 >
@@ -10,12 +10,12 @@
             {{group.name}}
         </span>
         <span class="percent-complete">
-            {{percentComplete ? percentComplete + '%' : '-'}}
+            {{percentComplete() ? percentComplete() + '%' : '-'}}
         </span>
     </span>
 
     <span
         class="progress-line"
-        [style.width.%]="percentComplete"
+        [style.width.%]="percentComplete()"
     ></span>
 </div>

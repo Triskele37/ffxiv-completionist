@@ -8,9 +8,9 @@
             "name_fr": "Rêve doré I",
             "description_en": "Earn 1,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 1 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
+            "points": 5,
             "reward": "t.195",
             "patch": "2.51",
-            "points": 5,
             "cNext": ["a.1084"],
             "cSiblings": ["t.195"]
         },
@@ -19,8 +19,8 @@
             "name_fr": "Rêve doré II",
             "description_en": "Earn 10,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 10 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1083"],
             "cNext": ["a.1085"]
         },
@@ -29,8 +29,8 @@
             "name_fr": "Rêve doré III",
             "description_en": "Earn 100,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 100 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1084"],
             "cNext": ["a.1086"]
         },
@@ -39,8 +39,8 @@
             "name_fr": "Rêve doré IV",
             "description_en": "Earn 1,000,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 1 000 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
-            "patch": "2.51",
             "points": 10,
+            "patch": "2.51",
             "cPrev": ["a.1085"],
             "cNext": ["a.1087"]
         },
@@ -49,8 +49,8 @@
             "name_fr": "Rêve doré V",
             "description_en": "Earn 10,000,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 10 000 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
-            "patch": "2.51",
             "points": 10,
+            "patch": "2.51",
             "cPrev": ["a.1086"]
         },
         "x1088": {
@@ -58,9 +58,9 @@
             "name_fr": "Connaisseur en Saucer",
             "description_en": "Earn the following seven achievements: Winningest Jockey, Always Bet on Me, Bracket Breaker, Enemy at the GATE III, WTFungah III, Work Smarter, Not Harder, and Mountains out of Gil-hills.",
             "description_fr": "Accomplir les sept hauts faits : “Monstre de course”, “Comme sur des roulettes”, “Vétéran de la Triade”, “Jacques t'a dit III”, “Coupe-vent III”, “Plein pot”et “Pot d'âne”.",
+            "points": 20,
             "reward": "t.196",
             "patch": "2.51",
-            "points": 20,
             "cPrev": ["a.1099", "a.1110", "a.1114", "a.1117", "a.1120", "a.1124", "a.1128"],
             "cSiblings": ["t.196"]
         },
@@ -69,9 +69,9 @@
             "name_fr": "Croissez et multipliez-vous !",
             "description_en": "Obtain a new chocobo through covering.",
             "description_fr": "Obtenir un jeune chocobo grâce à l'accouplement.",
+            "points": 5,
             "reward": "t.197",
             "patch": "2.51",
-            "points": 5,
             "cSiblings": ["t.197"]
         },
         "x1090": {
@@ -79,10 +79,10 @@
             "name_fr": "Véritable pur-sang",
             "description_en": "Obtain a new chocobo with a pedigree level of 9 or higher.",
             "description_fr": "Obtenir un jeune chocobo dont le niveau de pedigree est de 9 ou plus.",
+            "points": 5,
             "reward_en": "Racing Chocobo Mask",
             "reward_fr": "Casque de chocobo de course",
             "patch": "2.51",
-            "points": 5,
             "cSiblings": ["character.gold-saucer.chocobo.pedigree.8"]
         },
         "x1091": {
@@ -90,9 +90,9 @@
             "name_fr": "Dresseur de chocobo",
             "description_en": "Train your chocobo to a rating of 285.",
             "description_fr": "Dresser un chocobo et lui faire atteindre une cote de 285 points ou plus.",
+            "points": 5,
             "reward": "t.198",
             "patch": "2.51",
-            "points": 5,
             "cSiblings": ["t.198"]
         },
         "x1092": {
@@ -100,9 +100,9 @@
             "name_fr": "Les courses, c'est ma passion I",
             "description_en": "Participate in a sanctioned chocobo race.",
             "description_fr": "Participer à 1 course de chocobos.",
+            "points": 5,
             "reward": "t.199",
             "patch": "2.51",
-            "points": 5,
             "cNext": ["a.1093"],
             "cSiblings": ["t.199"]
         },
@@ -111,8 +111,8 @@
             "name_fr": "Les courses, c'est ma passion II",
             "description_en": "Participate in 100 sanctioned chocobo races.",
             "description_fr": "Participer à 100 courses de chocobos.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1092"],
             "cNext": ["a.1094"]
         },
@@ -121,9 +121,9 @@
             "name_fr": "Les courses, c'est ma passion III",
             "description_en": "Participate in 300 sanctioned chocobo races.",
             "description_fr": "Participer à 300 courses de chocobos.",
+            "points": 5,
             "reward": "t.200",
             "patch": "2.51",
-            "points": 5,
             "cPrev": ["a.1093"],
             "cNext": ["a.1095"],
             "cSiblings": ["t.200"]
@@ -133,9 +133,9 @@
             "name_fr": "Les courses, c'est ma passion IV",
             "description_en": "Participate in 3,000 sanctioned chocobo races.",
             "description_fr": "Participer à 3 000 courses de chocobos.",
+            "points": 10,
             "reward": "t.201",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1094"],
             "cSiblings": ["t.201"]
         },
@@ -144,8 +144,8 @@
             "name_fr": "Bête de course I",
             "description_en": "Place first in a sanctioned chocobo race.",
             "description_fr": "Remporter 1 course de chocobos.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1097"]
         },
         "x1097": {
@@ -153,8 +153,8 @@
             "name_fr": "Bête de course II",
             "description_en": "Place first in 10 sanctioned chocobo races.",
             "description_fr": "Remporter 10 courses de chocobos.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1096"],
             "cNext": ["a.1098"]
         },
@@ -163,8 +163,8 @@
             "name_fr": "Bête de course III",
             "description_en": "Place first in 50 sanctioned chocobo races.",
             "description_fr": "Remporter 50 courses de chocobos.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1097"],
             "cNext": ["a.1099"]
         },
@@ -173,21 +173,21 @@
             "name_fr": "Monstre de course",
             "description_en": "Place first in 500 sanctioned chocobo races.",
             "description_fr": "Remporter 500 courses de chocobos.",
+            "points": 10,
             "reward": "t.202",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1098"],
-            "cSiblings": ["t.202"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.202"]
         },
         "x1512": {
             "name_en": "Ride to the Challenge I",
             "name_fr": "Challengeur à plumes I",
             "description_en": "Complete the first 15 Chocobo Challenge races.",
             "description_fr": "Réussir tous les challenges de performance des courses de chocobos jusqu'au CP15.",
+            "points": 10,
             "reward": "b.44",
             "patch": "3.25",
-            "points": 10,
             "cSiblings": ["character.gold-saucer.chocobo.challenges.14"]
         },
         "x1100": {
@@ -195,8 +195,8 @@
             "name_fr": "Porte-cartes I",
             "description_en": "Obtain a Triple Triad card.",
             "description_fr": "Obtenir 1 carte de Triple Triade.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1101"]
         },
         "x1101": {
@@ -204,9 +204,9 @@
             "name_fr": "Porte-cartes II",
             "description_en": "Obtain 30 unique Triple Triad cards.",
             "description_fr": "Obtenir 30 cartes de Triple Triade différentes.",
+            "points": 5,
             "reward": "t.203",
             "patch": "2.51",
-            "points": 5,
             "cPrev": ["a.1100"],
             "cNext": ["a.1102"],
             "cSiblings": ["t.203"]
@@ -216,9 +216,9 @@
             "name_fr": "Porte-cartes III",
             "description_en": "Obtain 60 unique Triple Triad cards.",
             "description_fr": "Obtenir 60 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "t.204",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1101"],
             "cNext": ["a.1372"],
             "cSiblings": ["t.204"]
@@ -228,9 +228,9 @@
             "name_fr": "Porte-cartes IV",
             "description_en": "Obtain 90 unique Triple Triad cards.",
             "description_fr": "Obtenir 90 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.100",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1102"],
             "cNext": ["a.1488"]
         },
@@ -239,9 +239,9 @@
             "name_fr": "Porte-cartes V",
             "description_en": "Obtain 120 unique Triple Triad cards.",
             "description_fr": "Obtenir 120 cartes de Triple Triade différentes.",
-            "reward": "tt.139",
-            "patch": "3.15",
             "points": 10,
+            "reward": "tt.139",
+            "patch": "3.2",
             "cPrev": ["a.1372"],
             "cNext": ["a.1631"]
         },
@@ -250,9 +250,9 @@
             "name_fr": "Porte-cartes VI",
             "description_en": "Obtain 150 unique Triple Triad cards.",
             "description_fr": "Obtenir 150 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.165",
             "patch": "3.4",
-            "points": 10,
             "cPrev": ["a.1488"],
             "cNext": ["a.1908"]
         },
@@ -261,9 +261,9 @@
             "name_fr": "Porte-cartes VII",
             "description_en": "Obtain 190 unique Triple Triad cards.",
             "description_fr": "Obtenir 190 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.199",
             "patch": "4.0",
-            "points": 10,
             "cPrev": ["a.1631"],
             "cNext": ["a.2078"]
         },
@@ -272,9 +272,9 @@
             "name_fr": "Porte-cartes VIII",
             "description_en": "Obtain 220 unique Triple Triad cards.",
             "description_fr": "Obtenir 220 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.230",
             "patch": "4.3",
-            "points": 10,
             "cPrev": ["a.1908"],
             "cNext": ["a.2368"]
         },
@@ -283,9 +283,9 @@
             "name_fr": "Porte-cartes IX",
             "description_en": "Obtain 270 unique Triple Triad cards.",
             "description_fr": "Obtenir 270 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.269",
             "patch": "5.0",
-            "points": 10,
             "cPrev": ["a.2078"],
             "cNext": ["a.2643"]
         },
@@ -294,9 +294,9 @@
             "name_fr": "Porte-cartes X",
             "description_en": "Obtain 300 unique Triple Triad cards.",
             "description_fr": "Obtenir 300 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.301",
             "patch": "5.3",
-            "points": 10,
             "cPrev": ["a.2368"],
             "cNext": ["a.2819", "a.3020"]
         },
@@ -305,9 +305,9 @@
             "name_fr": "Porte-cartes XI",
             "description_en": "Obtain 344 unique Triple Triad cards.",
             "description_fr": "Obtenir 344 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.346",
             "patch": "6.0",
-            "points": 10,
             "cPrev": ["a.2643"],
             "cNext": ["a.3209"]
         },
@@ -316,30 +316,39 @@
             "name_fr": "Porte-cartes XII",
             "description_en": "Obtain 376 unique Triple Triad cards.",
             "description_fr": "Obtenir 376 cartes de Triple Triade différentes.",
+            "points": 10,
             "reward": "tt.377",
             "patch": "6.35",
-            "points": 10,
             "cPrev": ["a.3020"],
             "cNext": ["a.3557"]
         },
         "x3557": {
-            "description_en": "Obtain 423 unique Triple Triad cards.",
-            "description_fr": "Obtenir 423 cartes de Triple Triade différentes.",
             "name_en": "Triple-decker XIII",
             "name_fr": "Porte-cartes XIII",
-            "patch": "7.0",
+            "description_en": "Obtain 423 unique Triple Triad cards.",
+            "description_fr": "Obtenir 423 cartes de Triple Triade différentes.",
             "points": 10,
             "reward": "tt.425",
+            "patch": "7.0",
             "cPrev": ["a.3209"]
+        },
+        "x3820": {
+            "name_en": "Triple-decker XIV",
+            "name_fr": "Porte-cartes XIV",
+            "description_en": "Obtain 451 unique Triple Triad cards.",
+            "description_fr": "Obtenir 451 cartes de Triple Triade différentes.",
+            "points": 10,
+            "reward": "tt.454",
+            "patch": "7.35"
         },
         "x2819": {
             "name_en": "A Card in the Hand",
             "name_fr": "Collectionnite aigüe",
             "description_en": "Collect all Triple Triad cards numbered 1 through 312.",
             "description_fr": "Obtenir les cartes Triple Triade 1 à 312.",
+            "points": 20,
             "reward": "t.576",
             "patch": "5.55",
-            "points": 20,
             "cPrev": ["a.2643"],
             "cSiblings": ["t.576"]
         },
@@ -348,8 +357,8 @@
             "name_fr": "En cartes et en os I",
             "description_en": "Defeat an NPC at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 1 PNJ.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1104"]
         },
         "x1104": {
@@ -357,9 +366,9 @@
             "name_fr": "En cartes et en os II",
             "description_en": "Defeat 30 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 30 PNJ différents.",
+            "points": 10,
             "reward": "tt.75",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1103"],
             "cNext": ["a.1373"]
         },
@@ -368,9 +377,9 @@
             "name_fr": "En cartes et en os III",
             "description_en": "Defeat 41 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 41 PNJ différents.",
+            "points": 10,
             "reward": "tt.95",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1104"],
             "cNext": ["a.1489"]
         },
@@ -379,8 +388,8 @@
             "name_fr": "En cartes et en os IV",
             "description_en": "Defeat 50 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 50 PNJ différents.",
-            "patch": "3.15",
             "points": 10,
+            "patch": "3.2",
             "cPrev": ["a.1373"],
             "cNext": ["a.1632"]
         },
@@ -389,9 +398,9 @@
             "name_fr": "En cartes et en os V",
             "description_en": "Defeat 60 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 60 PNJ différents.",
+            "points": 10,
             "reward": "tt.166",
             "patch": "3.4",
-            "points": 10,
             "cPrev": ["a.1489"],
             "cNext": ["a.1909"]
         },
@@ -400,9 +409,9 @@
             "name_fr": "En cartes et en os VI",
             "description_en": "Defeat 70 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 70 PNJ différents.",
+            "points": 10,
             "reward": "tt.200",
             "patch": "4.0",
-            "points": 10,
             "cPrev": ["a.1632"],
             "cNext": ["a.2369"]
         },
@@ -411,9 +420,9 @@
             "name_fr": "En cartes et en os VII",
             "description_en": "Defeat 92 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 92 PNJ différents.",
+            "points": 10,
             "reward": "tt.272",
             "patch": "5.0",
-            "points": 10,
             "cPrev": ["a.1909"],
             "cNext": ["a.3021"]
         },
@@ -422,20 +431,20 @@
             "name_fr": "En cartes et en os VIII",
             "description_en": "Defeat 107 unique NPCs at Triple Triad.",
             "description_fr": "Remporter un duel de Triple Triade contre 107 PNJ différents.",
+            "points": 10,
             "reward": "tt.343",
             "patch": "6.0",
-            "points": 10,
             "cPrev": ["a.2369"],
             "cNext": ["a.3558"]
         },
         "x3558": {
-            "description_en": "Defeat 123 unique NPCs at Triple Triad.",
-            "description_fr": "Remporter un duel de Triple Triade contre 123 PNJ différents.",
             "name_en": "Triple Team IX",
             "name_fr": "En cartes et en os IX",
-            "patch": "7.0",
+            "description_en": "Defeat 123 unique NPCs at Triple Triad.",
+            "description_fr": "Remporter un duel de Triple Triade contre 123 PNJ différents.",
             "points": 10,
             "reward": "tt.424",
+            "patch": "7.0",
             "cPrev": ["a.3021"]
         },
         "x1105": {
@@ -443,8 +452,8 @@
             "name_fr": "La roulette de la fortune I",
             "description_en": "Win a Triple Triad roulette match.",
             "description_fr": "Remporter 1 duel de Triple Triade ayant pour règle initiale “Roulette”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1106"]
         },
         "x1106": {
@@ -452,8 +461,8 @@
             "name_fr": "La roulette de la fortune II",
             "description_en": "Win 10 Triple Triad roulette matches.",
             "description_fr": "Remporter 10 duels de Triple Triade ayant pour règle initiale “Roulette”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1105"],
             "cNext": ["a.1107"]
         },
@@ -462,8 +471,8 @@
             "name_fr": "La roulette de la fortune III",
             "description_en": "Win 30 Triple Triad roulette matches.",
             "description_fr": "Remporter 30 duels de Triple Triade ayant pour règle initiale “Roulette”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1106"],
             "cNext": ["a.1108"]
         },
@@ -472,8 +481,8 @@
             "name_fr": "La roulette de la fortune IV",
             "description_en": "Win 100 Triple Triad roulette matches.",
             "description_fr": "Remporter 100 duels de Triple Triade ayant pour règle initiale “Roulette”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1107"],
             "cNext": ["a.1109"]
         },
@@ -482,9 +491,9 @@
             "name_fr": "La roulette de la fortune V",
             "description_en": "Win 300 Triple Triad roulette matches.",
             "description_fr": "Remporter 300 duels de Triple Triade ayant pour règle initiale “Roulette”.",
+            "points": 5,
             "reward": "tt.79",
             "patch": "2.51",
-            "points": 5,
             "cPrev": ["a.1108"],
             "cNext": ["a.1110"]
         },
@@ -493,20 +502,20 @@
             "name_fr": "Comme sur des roulettes",
             "description_en": "Win 1,000 Triple Triad roulette matches.",
             "description_fr": "Remporter 1 000 duels de Triple Triade ayant pour règle initiale “Roulette”.",
+            "points": 10,
             "reward": "t.205",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1109"],
-            "cSiblings": ["t.205"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.205"]
         },
         "x1111": {
             "name_en": "Kumite",
             "name_fr": "Poussin de la Triade",
             "description_en": "Win a Triple Triad tournament match.",
             "description_fr": "Remporter 1 duel dans les tournois de Triple Triade.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1112"]
         },
         "x1112": {
@@ -514,8 +523,8 @@
             "name_fr": "Junior de la Triade",
             "description_en": "Win 10 Triple Triad tournament matches.",
             "description_fr": "Remporter 10 duels dans les tournois de Triple Triade.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1111"],
             "cNext": ["a.1113"]
         },
@@ -524,9 +533,9 @@
             "name_fr": "Senior de la Triade",
             "description_en": "Win 30 Triple Triad tournament matches.",
             "description_fr": "Remporter 30 duels dans les tournois de Triple Triade.",
+            "points": 5,
             "reward": "tt.78",
             "patch": "2.51",
-            "points": 5,
             "cPrev": ["a.1112"],
             "cNext": ["a.1114"]
         },
@@ -535,21 +544,21 @@
             "name_fr": "Vétéran de la Triade",
             "description_en": "Win 100 Triple Triad tournament matches.",
             "description_fr": "Remporter 100 duels dans les tournois de Triple Triade.",
+            "points": 10,
             "reward": "t.206",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1113"],
-            "cSiblings": ["t.206"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.206"]
         },
         "x2799": {
             "name_en": "Open and Shut I",
             "name_fr": "Officiellement vainqueur I",
             "description_en": "Rank 1st in an Open tournament.",
             "description_fr": "Remporter 1 tournoi officiel de Triple Triade.",
+            "points": 5,
             "reward": "tt.316",
             "patch": "5.4",
-            "points": 5,
             "cNext": ["a.2800"]
         },
         "x2800": {
@@ -557,9 +566,9 @@
             "name_fr": "Officiellement vainqueur II",
             "description_en": "Rank 1st in an Open tournament 50 times.",
             "description_fr": "Remporter 50 tournois officiels de Triple Triade.",
+            "points": 10,
             "reward": "t.559",
             "patch": "5.4",
-            "points": 10,
             "cPrev": ["a.2799"],
             "cSiblings": ["t.559"]
         },
@@ -568,9 +577,9 @@
             "name_fr": "Duelliste officiel I",
             "description_en": "Win 10 Open tournament matches.",
             "description_fr": "Remporter 10 duels de tournoi officiel de Triple Triade.",
+            "points": 5,
             "reward": "o.436",
             "patch": "5.4",
-            "points": 5,
             "cNext": ["a.2802"]
         },
         "x2802": {
@@ -578,8 +587,8 @@
             "name_fr": "Duelliste officiel II",
             "description_en": "Win 50 Open tournament matches.",
             "description_fr": "Remporter 50 duels de tournoi officiel de Triple Triade.",
-            "patch": "5.4",
             "points": 10,
+            "patch": "5.4",
             "cPrev": ["a.2801"],
             "cNext": ["a.2803"]
         },
@@ -588,9 +597,9 @@
             "name_fr": "Duelliste officiel III",
             "description_en": "Win 150 Open tournament matches.",
             "description_fr": "Remporter 150 duels de tournoi officiel de Triple Triade.",
+            "points": 20,
             "reward": "fa.10",
             "patch": "5.4",
-            "points": 20,
             "cPrev": ["a.2802"]
         },
         "x1115": {
@@ -598,8 +607,8 @@
             "name_fr": "Jacques t'a dit I",
             "description_en": "Successfully complete a GATE.",
             "description_fr": "Réussir 1 JACTA.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1116"]
         },
         "x1116": {
@@ -607,8 +616,8 @@
             "name_fr": "Jacques t'a dit II",
             "description_en": "Successfully complete 30 GATEs.",
             "description_fr": "Réussir 30 JACTA.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1115"],
             "cNext": ["a.1117"]
         },
@@ -617,20 +626,20 @@
             "name_fr": "Jacques t'a dit III",
             "description_en": "Successfully complete 100 GATEs.",
             "description_fr": "Réussir 100 JACTA.",
+            "points": 10,
             "reward": "t.207",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1116"],
-            "cSiblings": ["t.207"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.207"]
         },
         "x1118": {
             "name_en": "WTFungah I",
             "name_fr": "Coupe-vent I",
             "description_en": "Successfully complete the GATE “Any Way the Wind Blows.”",
             "description_fr": "Réussir 1 fois le JACTA “Un sacré courant d'air”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1119"]
         },
         "x1119": {
@@ -638,8 +647,8 @@
             "name_fr": "Coupe-vent II",
             "description_en": "Successfully complete the GATE “Any Way the Wind Blows” 5 times.",
             "description_fr": "Réussir 5 fois le JACTA “Un sacré courant d'air”.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1118"],
             "cNext": ["a.1120"]
         },
@@ -648,20 +657,20 @@
             "name_fr": "Coupe-vent III",
             "description_en": "Successfully complete the GATE “Any Way the Wind Blows” 10 times.",
             "description_fr": "Réussir 10 fois le JACTA “Un sacré courant d'air”.",
+            "points": 10,
             "reward": "t.208",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1119"],
-            "cSiblings": ["t.208"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.208"]
         },
         "x1121": {
             "name_en": "You Could Already Be a Winner I",
             "name_fr": "Avoir un méga pot I",
             "description_en": "Win MGP from the Jumbo Cactpot.",
             "description_fr": "Gagner 1 PGS au Méga Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1122"]
         },
         "x1122": {
@@ -669,8 +678,8 @@
             "name_fr": "Avoir un méga pot II",
             "description_en": "Win a cumulative total of 10,000 MGP from the Jumbo Cactpot.",
             "description_fr": "Gagner 10 000 PGS au Méga Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1121"],
             "cNext": ["a.1123"]
         },
@@ -679,8 +688,8 @@
             "name_fr": "Avoir un méga pot III",
             "description_en": "Win a cumulative total of 500,000 MGP from the Jumbo Cactpot.",
             "description_fr": "Gagner 500 000 PGS au Méga Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1122"],
             "cNext": ["a.1124"]
         },
@@ -689,20 +698,20 @@
             "name_fr": "Pot d'âne",
             "description_en": "Win a cumulative total of 1,000,000 MGP from the Jumbo Cactpot.",
             "description_fr": "Gagner 1 000 000 PGS au Méga Cactpot.",
+            "points": 10,
             "reward": "t.209",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1123"],
-            "cSiblings": ["t.209"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.209"]
         },
         "x1125": {
             "name_en": "Dream Small I",
             "name_fr": "Avec un peu de pot I",
             "description_en": "Win MGP from the Mini Cactpot.",
             "description_fr": "Gagner 1 PGS au Mini Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cNext": ["a.1126"]
         },
         "x1126": {
@@ -710,8 +719,8 @@
             "name_fr": "Avec un peu de pot II",
             "description_en": "Win a cumulative total of 10,000 MGP from the Mini Cactpot.",
             "description_fr": "Gagner 10 000 PGS au Mini Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1125"],
             "cNext": ["a.1127"]
         },
@@ -720,8 +729,8 @@
             "name_fr": "Avec un peu de pot III",
             "description_en": "Win a cumulative total of 500,000 MGP from the Mini Cactpot.",
             "description_fr": "Gagner 500 000 PGS au Mini Cactpot.",
-            "patch": "2.51",
             "points": 5,
+            "patch": "2.51",
             "cPrev": ["a.1126"],
             "cNext": ["a.1128"]
         },
@@ -730,29 +739,29 @@
             "name_fr": "Plein pot",
             "description_en": "Win a cumulative total of 1,000,000 MGP from the Mini Cactpot.",
             "description_fr": "Gagner 1 000 000 PGS au Mini Cactpot.",
+            "points": 10,
             "reward": "t.210",
             "patch": "2.51",
-            "points": 10,
             "cPrev": ["a.1127"],
-            "cSiblings": ["t.210"],
-            "cCombo": ["a.1088"]
+            "cCombo": ["a.1088"],
+            "cSiblings": ["t.210"]
         },
         "x1380": {
             "name_en": "Challenge Accepted",
             "name_fr": "Élève-officier CdM I",
             "description_en": "Complete the first 24 Verminion Challenges.",
             "description_fr": "Réussir toutes les batailles d'entraînement de Choc des mascottes.",
+            "points": 10,
             "reward": "mi.165",
-            "patch": "3.1",
-            "points": 10
+            "patch": "3.1"
         },
         "x1381": {
             "name_en": "A Load of Verminion I",
             "name_fr": "Tactique des mascottes I",
             "description_en": "Win a Lord of Verminion player battle (RP) match.",
             "description_fr": "Gagner une bataille de Choc des mascottes contre un joueur (avec PR).",
-            "patch": "3.1",
             "points": 5,
+            "patch": "3.1",
             "cNext": ["a.1382"]
         },
         "x1382": {
@@ -760,9 +769,9 @@
             "name_fr": "Tactique des mascottes II",
             "description_en": "Win 50 Lord of Verminion player battle (RP) matches.",
             "description_fr": "Gagner 50 batailles de Choc des mascottes contre un joueur (avec PR).",
+            "points": 5,
             "reward": "mi.163",
             "patch": "3.1",
-            "points": 5,
             "cPrev": ["a.1381"],
             "cNext": ["a.1383"]
         },
@@ -771,9 +780,9 @@
             "name_fr": "Tactique des mascottes III",
             "description_en": "Win 100 Lord of Verminion player battle (RP) matches.",
             "description_fr": "Gagner 100 batailles de Choc des mascottes contre un joueur (avec PR).",
+            "points": 5,
             "reward": "t.269",
             "patch": "3.1",
-            "points": 5,
             "cPrev": ["a.1382"],
             "cNext": ["a.1384"],
             "cSiblings": ["t.269"]
@@ -783,9 +792,9 @@
             "name_fr": "Tactique des mascottes IV",
             "description_en": "Win 300 Lord of Verminion player battle (RP) matches.",
             "description_fr": "Gagner 300 batailles de Choc des mascottes contre un joueur (avec PR).",
+            "points": 10,
             "reward": "t.270",
             "patch": "3.1",
-            "points": 10,
             "cPrev": ["a.1383"],
             "cSiblings": ["t.270"]
         },
@@ -794,17 +803,17 @@
             "name_fr": "Grand mini-stratège",
             "description_en": "Complete 4 different Lord of Verminion tournaments with double-digit victories and claim the associated rewards.",
             "description_fr": "Remporter au moins 10 batailles lors de quatre tournois de Choc des mascottes et en obtenir les récompenses.",
+            "points": 10,
             "reward": "mi.164",
-            "patch": "3.1",
-            "points": 10
+            "patch": "3.1"
         },
         "x2126": {
             "name_en": "One Small Leap",
             "name_fr": "À pas de pampa I",
             "description_en": "Obtain a gilded cactuar in the GATE “Leap of Faith.”",
             "description_fr": "Attraper un pampa d'or au JACTA “Haute voltige”.",
-            "patch": "4.4",
             "points": 5,
+            "patch": "4.4",
             "cNext": ["a.2127"]
         },
         "x2127": {
@@ -812,8 +821,8 @@
             "name_fr": "À pas de pampa II",
             "description_en": "Obtain a total of 10 gilded cactuars from the GATE “Leap of Faith.”",
             "description_fr": "Attraper 10 fois un pampa d'or au JACTA “Haute voltige”.",
-            "patch": "4.4",
             "points": 5,
+            "patch": "4.4",
             "cPrev": ["a.2126"],
             "cNext": ["a.2128"]
         },
@@ -822,8 +831,8 @@
             "name_fr": "À pas de pampa III",
             "description_en": "Obtain a total of 20 gilded cactuars from the GATE “Leap of Faith.”",
             "description_fr": "Attraper 20 fois un pampa d'or au JACTA “Haute voltige”.",
-            "patch": "4.4",
             "points": 10,
+            "patch": "4.4",
             "cPrev": ["a.2127"]
         },
         "x2177": {
@@ -831,8 +840,8 @@
             "name_fr": "Patrouille en transe I",
             "description_en": "Record a perfect score in the GATE “Air Force One.”",
             "description_fr": "Réussir un score parfait dans le JACTA “As de l'air”.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cNext": ["a.2178"]
         },
         "x2178": {
@@ -840,8 +849,8 @@
             "name_fr": "Patrouille en transe II",
             "description_en": "Record a perfect score in the GATE “Air Force One” 10 times.",
             "description_fr": "Réussir 10 fois un score parfait dans le JACTA “As de l'air”.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2177"],
             "cNext": ["a.2179"]
         },
@@ -850,8 +859,8 @@
             "name_fr": "Patrouille en transe III",
             "description_en": "Record a perfect score in the GATE “Air Force One” 20 times.",
             "description_fr": "Réussir 20 fois un score parfait dans le JACTA “As de l'air”.",
-            "patch": "4.5",
             "points": 10,
+            "patch": "4.5",
             "cPrev": ["a.2178"]
         },
         "x2415": {
@@ -859,8 +868,8 @@
             "name_fr": "Fan de Yojimbo I",
             "description_en": "Successfully complete the GATE “The Slice Is Right.”",
             "description_fr": "Réussir 1 fois le JACTA “La coupe est pleine”.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cNext": ["a.2416"]
         },
         "x2416": {
@@ -868,8 +877,8 @@
             "name_fr": "Fan de Yojimbo II",
             "description_en": "Successfully complete the GATE “The Slice Is Right” 5 times.",
             "description_fr": "Réussir 5 fois le JACTA “La coupe est pleine”.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2415"],
             "cNext": ["a.2417"]
         },
@@ -878,9 +887,9 @@
             "name_fr": "Fan de Yojimbo III",
             "description_en": "Successfully complete the GATE “The Slice Is Right” 10 times.",
             "description_fr": "Réussir 10 fois le JACTA “La coupe est pleine”.",
+            "points": 10,
             "reward": "t.469",
             "patch": "5.1",
-            "points": 10,
             "cPrev": ["a.2416"],
             "cSiblings": ["t.469"]
         },
@@ -889,9 +898,9 @@
             "name_fr": "Tuiles essentielles I",
             "description_en": "Achieve a mahjong rating of more than 1,600.",
             "description_fr": "Atteindre une cote supérieure à 1 600 points au mahjong domien.",
+            "points": 5,
             "reward": "o.271",
             "patch": "4.5",
-            "points": 5,
             "cNext": ["a.2181"]
         },
         "x2181": {
@@ -899,9 +908,9 @@
             "name_fr": "Tuiles essentielles II",
             "description_en": "Achieve a mahjong rating of more than 1,800.",
             "description_fr": "Atteindre une cote supérieure à 1 800 points au mahjong domien.",
+            "points": 5,
             "reward": "t.409",
             "patch": "4.5",
-            "points": 5,
             "cPrev": ["a.2180"],
             "cNext": ["a.2182"],
             "cSiblings": ["t.409"]
@@ -911,9 +920,9 @@
             "name_fr": "Tuiles essentielles III",
             "description_en": "Achieve a mahjong rating of more than 2,000.",
             "description_fr": "Atteindre une cote supérieure à 2 000 points au mahjong domien.",
+            "points": 10,
             "reward": "t.410",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.2181"],
             "cSiblings": ["t.410"]
         },
@@ -922,8 +931,8 @@
             "name_fr": "À moi la couronne I",
             "description_en": "Place first in Blunderville.",
             "description_fr": "Remporter le Blunderville 1 fois.",
-            "patch": "6.51",
             "points": 5,
+            "patch": "6.51",
             "cNext": ["a.3405"],
             "defaultCompletion": "X"
         },
@@ -932,8 +941,8 @@
             "name_fr": "À moi la couronne II",
             "description_en": "Place first in Blunderville 10 times.",
             "description_fr": "Remporter le Blunderville 10 fois.",
-            "patch": "6.51",
             "points": 5,
+            "patch": "6.51",
             "cPrev": ["a.3404"],
             "cNext": ["a.3406"],
             "defaultCompletion": "X"
@@ -943,8 +952,8 @@
             "name_fr": "À moi la couronne III",
             "description_en": "Place first in Blunderville 50 times.",
             "description_fr": "Remporter le Blunderville 50 fois.",
-            "patch": "6.51",
             "points": 5,
+            "patch": "6.51",
             "cPrev": ["a.3405"],
             "cNext": ["a.3407"],
             "defaultCompletion": "X"
@@ -954,9 +963,9 @@
             "name_fr": "À moi la couronne IV",
             "description_en": "Place first in Blunderville 100 times.",
             "description_fr": "Remporter le Blunderville 100 fois.",
+            "points": 10,
             "reward": "t.708",
             "patch": "6.51",
-            "points": 10,
             "cPrev": ["a.3406"],
             "cSiblings": ["t.708"],
             "defaultCompletion": "X"

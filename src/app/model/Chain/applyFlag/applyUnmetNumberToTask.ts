@@ -8,7 +8,7 @@ export function applyUnmetNumberToTask(num: string, chainTask: Task, siblings: n
     }
     else if(siblings === 1) {
         // cannot assume which sibling should be lowered
-        if(parseInt(num, 10) < parseInt(chainTask.completionFlag, 10)) {
+        if(parseInt(num, 10) < parseInt(chainTask.completionFlag$(), 10)) {
             // only apply decreases in completion number
             changeCompletion(chainTask, num);
         }

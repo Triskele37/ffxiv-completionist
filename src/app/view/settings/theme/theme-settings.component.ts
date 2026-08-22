@@ -1,16 +1,34 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { ButtonGroup } from 'primeng/buttongroup';
+import { ColorPicker } from 'primeng/colorpicker';
+import { FormsModule } from '@angular/forms';
+import { InputNumber } from 'primeng/inputnumber';
+import { InputText } from 'primeng/inputtext';
+import { Tooltip } from 'primeng/tooltip';
 
 import { ThemeService } from '@service/theme/theme.service';
 
 import { SettingsService } from '../settings.service';
 
 @Component({
-    selector: 'xiv-theme-settings',
+    selector: 'com-theme-settings',
     templateUrl: './theme-settings.component.html',
-    styleUrls: ['./theme-settings.component.scss']
+    styleUrls: ['./theme-settings.component.scss'],
+    imports: [
+        ButtonDirective,
+        ButtonGroup,
+        ColorPicker,
+        FormsModule,
+        InputNumber,
+        InputText,
+        Tooltip,
+        TranslatePipe
+    ],
 })
 export class ThemeSettingsComponent implements OnInit {
-    gradients: string[];
+    gradients?: string[];
 
     constructor(
         public svcSettings: SettingsService,

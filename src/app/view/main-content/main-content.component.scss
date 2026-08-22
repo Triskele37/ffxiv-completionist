@@ -7,8 +7,8 @@
     margin: 10px;
 
     .custom-group-component {
-        // Prevent x overflow
-        white-space: normal;
+        // Prevent x overflow (find another way, this breaks task-table injection)
+        //white-space: normal;
 
         // Scrollbar
         overflow-y: auto;
@@ -16,6 +16,15 @@
 
         // Space on right when viewport is smaller
         padding-right: 10px;
+
+        ::ng-deep > :first-child { // root of component
+            display: contents;
+
+            > :first-child { // First container of component
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
 
     .table-content {

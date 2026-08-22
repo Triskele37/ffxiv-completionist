@@ -4,77 +4,77 @@
     "groupName_fr": "Quêtes de danseur",
     "tasks": {
         "x68785": {
-            "level": 60,
             "name_en": "Shall We Dance",
-            "name_fr": "Entrez dans la danse!",
+            "name_fr": "Entrez dans la danse !",
+            "level": 60,
             "npc_en": "Eager Lominsan",
             "npc_fr": "Marin Exalté",
-            "cNext": ["q.68786"],
-            "cSiblings": ["ap.180"],
+            "unlock": "ap.180",
             "patch": "5.0",
-            "unlock": "ap.180"
+            "cNext": ["q.68786"],
+            "cSiblings": ["ap.180"]
         },
         "x68786": {
-            "level": 60,
             "name_en": "Gamboling for Gil",
             "name_fr": "Quand la danse a le premier rôle",
+            "level": 60,
             "npc_en": "Nashmeira",
             "npc_fr": "Nashmeira",
+            "patch": "5.0",
             "cPrev": ["q.68785"],
-            "cNext": ["q.68787"],
-            "patch": "5.0"
+            "cNext": ["q.68787"]
         },
         "x68787": {
-            "level": 63,
             "name_en": "A Soirée in the Sultanate",
             "name_fr": "Soirée dansante au sultanat",
+            "level": 63,
             "npc_en": "Nashmeira",
             "npc_fr": "Nashmeira",
+            "patch": "5.0",
             "cPrev": ["q.68786"],
-            "cNext": ["q.68788"],
-            "patch": "5.0"
+            "cNext": ["q.68788"]
         },
         "x68788": {
-            "level": 65,
             "name_en": "Dances with Duskwights",
             "name_fr": "Une danse contre l'angoisse",
+            "level": 65,
             "npc_en": "Nashmeira",
             "npc_fr": "Nashmeira",
+            "patch": "5.0",
             "cPrev": ["q.68787"],
-            "cNext": ["q.68789"],
-            "patch": "5.0"
+            "cNext": ["q.68789"]
         },
         "x68789": {
-            "level": 68,
             "name_en": "High-steppin' in the Holy See",
             "name_fr": "Une danse contre le froid",
+            "level": 68,
             "npc_en": "Nashmeira",
             "npc_fr": "Nashmeira",
+            "patch": "5.0",
             "cPrev": ["q.68788"],
-            "cNext": ["q.68790"],
-            "patch": "5.0"
+            "cNext": ["q.68790"]
         },
         "x68790": {
-            "level": 70,
             "name_en": "Save the Last Dance for Me",
             "name_fr": "Quand l'élève dépasse le maître",
+            "level": 70,
             "npc_en": "Ranaa Mihgo",
             "npc_fr": "Ranaa Mihgo",
+            "patch": "5.0",
             "cPrev": ["q.68789"],
             "cNext": ["q.68762"],
-            "cSiblings": ["a.2300"],
-            "patch": "5.0"
+            "cSiblings": ["a.2300"]
         },
         "x68762": {
-            "level": 80,
             "name_en": "Rising to the Occasion",
             "name_fr": "Le successeur de Nashmeira",
+            "level": 80,
             "npc_en": "Nashmeira",
             "npc_fr": "Nashmeira",
-            "cPrev": ["q.68790", "q.68814", "q.69190"],
-            "cSiblings": ["ap.315", "a.2322"],
+            "unlock": "ap.315",
             "patch": "5.0",
-            "unlock": "ap.315"
+            "cPrev": ["q.68790", "q.68814", "q.69190"],
+            "cSiblings": ["ap.315", "a.2322"]
         }
     }
 }

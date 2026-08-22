@@ -4,139 +4,139 @@
     "groupName_fr": "Reconstruction d'Ishgard",
     "tasks": {
         "x69208": {
-            "level": 60,
             "name_en": "Towards the Firmament",
             "name_fr": "Un avenir couleur azur",
+            "level": 60,
             "npc_en": "Recruitment Notice",
             "npc_fr": "Annonce De Recrutement",
-            "unlock_en": "The Firmament",
+            "unlock": "@PLACE.HW.THE_FIRMAMENT",
+            "patch": "5.11",
             "cPrev": ["q.67783"],
-            "cNext": ["q.69296", "q.69261", "q.69377", "q.69384", "q.69508", "q.69578"],
-            "patch": "5.11"
+            "cNext": ["q.69296", "q.69261", "q.69377", "q.69384", "q.69508", "q.69578"]
         },
         "x69261": {
-            "level": 60,
             "name_en": "A Home in the Firmament",
             "name_fr": "Azurée, quartier d'accueil",
+            "level": 60,
             "npc_en": "Foncrineau",
             "npc_fr": "Foncrineau",
+            "patch": "5.21",
             "cPrev": ["q.69208"],
-            "cNext": ["q.69262"],
-            "patch": "5.21"
+            "cNext": ["q.69262"]
         },
         "x69262": {
-            "level": 60,
             "name_en": "Overseer for a Day",
             "name_fr": "Superviseur suppléant",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.21",
             "cPrev": ["q.69261"],
-            "cNext": ["q.69263"],
-            "patch": "5.21"
+            "cNext": ["q.69263"]
         },
         "x69263": {
-            "level": 60,
             "name_en": "Shadow of an Icy Past",
             "name_fr": "Hérésie draconique",
+            "level": 60,
             "npc_en": "Noalle",
             "npc_fr": "Noalle",
+            "patch": "5.21",
             "cPrev": ["q.69262"],
-            "cNext": ["q.69264"],
-            "patch": "5.21"
+            "cNext": ["q.69264"]
         },
         "x69264": {
-            "level": 60,
             "name_en": "To Thaw a Frozen Heart",
             "name_fr": "Une nouvelle chance",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.21",
             "cPrev": ["q.69263"],
             "cNext": ["q.69373", "q.69374", "q.69375", "q.69491"],
-            "cSiblings": ["a.2567"],
-            "patch": "5.21"
+            "cSiblings": ["a.2567"]
         },
         "x69491": {
-            "level": 60,
             "name_en": "The Making of a Market",
             "name_fr": "Voyage d'affaires à Gridania",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.31",
             "cPrev": ["q.69264"],
-            "cNext": ["q.69492"],
-            "patch": "5.31"
+            "cNext": ["q.69492"]
         },
         "x69492": {
-            "level": 60,
             "name_en": "Dealings in the Desert",
             "name_fr": "Voyage d'affaires à Ul'dah",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.31",
             "cPrev": ["q.69491"],
-            "cNext": ["q.69493"],
-            "patch": "5.31"
+            "cNext": ["q.69493"]
         },
         "x69493": {
-            "level": 60,
             "name_en": "A Parley with Pirates",
             "name_fr": "Voyage d'affaires à Limsa Lominsa",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.31",
             "cPrev": ["q.69492"],
-            "cNext": ["q.69494"],
-            "patch": "5.31"
+            "cNext": ["q.69494"]
         },
         "x69494": {
-            "level": 60,
             "name_en": "May Featherfall Flourish",
             "name_fr": "Un nouveau cœur pour Azurée",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.31",
             "cPrev": ["q.69493"],
             "cNext": ["q.69496", "q.69497", "q.69495", "q.69498", "q.69535"],
-            "cSiblings": ["a.2711"],
-            "patch": "5.31"
+            "cSiblings": ["a.2711"]
         },
         "x69535": {
-            "level": 60,
             "name_en": "Not by Bread Alone",
             "name_fr": "Visite guidée du Nouveau Refrain",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "patch": "5.41",
             "cPrev": ["q.69494"],
-            "cNext": ["q.69536"],
-            "patch": "5.41"
+            "cNext": ["q.69536"]
         },
         "x69536": {
-            "level": 60,
             "name_en": "Francel's Fervent Wish",
             "name_fr": "Surprise musicale",
+            "level": 60,
             "npc_en": "Conon",
             "npc_fr": "Conon",
+            "patch": "5.41",
             "cPrev": ["q.69535"],
-            "cNext": ["q.69537"],
-            "patch": "5.41"
+            "cNext": ["q.69537"]
         },
         "x69537": {
-            "level": 60,
             "name_en": "An Unexpected Symphony",
             "name_fr": "Le concert commémoratif de la reconstruction d'Azurée",
+            "level": 60,
             "npc_en": "Mariorie",
             "npc_fr": "Mariorie",
+            "patch": "5.41",
             "cPrev": ["q.69536"],
-            "cNext": ["q.69538"],
-            "patch": "5.41"
+            "cNext": ["q.69538"]
         },
         "x69538": {
-            "level": 60,
             "name_en": "Smiles Cross the Sky",
             "name_fr": "Entre ciel et terre, un océan de sourires",
+            "level": 60,
             "npc_en": "Francel",
             "npc_fr": "Francel",
+            "unlock": "o.410",
+            "patch": "5.41",
             "cPrev": ["q.69537"],
             "cNext": ["q.69539", "q.69541", "q.69542", "q.69540", "q.69615"],
-            "cSiblings": ["a.2818"],
-            "patch": "5.41",
-            "unlock": "o.410"
+            "cSiblings": ["a.2818"]
         }
     }
 }

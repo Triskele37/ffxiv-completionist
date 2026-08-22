@@ -8,55 +8,55 @@
             "name_fr": "Maître artisan d'Azurée",
             "description_en": "Earn 50,000 points toward your skyward score as a Disciple of the Hand.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'artisan.",
+            "points": 5,
             "reward": "mi.378",
             "patch": "5.21",
-            "points": 5,
-            "cPrevAny": true,
-            "cPrev": ["a.2489", "a.2492", "a.2495", "a.2498", "a.2501", "a.2504", "a.2507", "a.2510"]
+            "cPrev": ["a.2489", "a.2492", "a.2495", "a.2498", "a.2501", "a.2504", "a.2507", "a.2510"],
+            "cPrevAny": true
         },
         "x2524": {
             "name_en": "Handking of the World",
             "name_fr": "Artisan en chef d'Azurée",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Hand.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat.",
+            "points": 10,
             "reward": "t.501",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2491", "a.2494", "a.2497", "a.2500", "a.2503", "a.2506", "a.2509", "a.2512"],
-            "cSiblings": ["t.501"],
-            "cCombo": ["a.2526"]
+            "cCombo": ["a.2526"],
+            "cSiblings": ["t.501"]
         },
         "x2523": {
             "name_en": "Gathering in the Air",
             "name_fr": "Maître récolteur d'Azurée",
             "description_en": "Earn 50,000 points toward your skyward score as a Disciple of the Land.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que récolteur.",
+            "points": 5,
             "reward": "mi.367",
             "patch": "5.21",
-            "points": 5,
-            "cPrevAny": true,
-            "cPrev": ["a.2513", "a.2516", "a.2519"]
+            "cPrev": ["a.2513", "a.2516", "a.2519"],
+            "cPrevAny": true
         },
         "x2525": {
             "name_en": "Landking of the World",
             "name_fr": "Récolteur en chef d'Azurée",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Land.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes de récolte.",
+            "points": 10,
             "reward": "t.502",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2515", "a.2518", "a.2521"],
-            "cSiblings": ["t.502"],
-            "cCombo": ["a.2526"]
+            "cCombo": ["a.2526"],
+            "cSiblings": ["t.502"]
         },
         "x2526": {
             "name_en": "Castle in the Sky",
             "name_fr": "Légende de la reconstruction",
             "description_en": "Earn 500,000 points toward your skyward score as every Disciple of the Hand and Land.",
             "description_fr": "Gagner un total de 500 000 points d'azur avec toutes les classes d'artisanat et de récolte.",
+            "points": 20,
             "reward": "mo.216",
             "patch": "5.21",
-            "points": 20,
             "cPrev": ["a.2524", "a.2525"]
         },
         "x2550": {
@@ -64,8 +64,8 @@
             "name_fr": "Perforateur de l'archipel I",
             "description_en": "Fire your aetheromatic auger 50 times.",
             "description_fr": "Utiliser 50 fois le perforateur éthéréen.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2551"]
         },
         "x2551": {
@@ -73,8 +73,8 @@
             "name_fr": "Perforateur de l'archipel II",
             "description_en": "Fire your aetheromatic auger 500 times.",
             "description_fr": "Utiliser 500 fois le perforateur éthéréen.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2550"],
             "cNext": ["a.2552"]
         },
@@ -83,8 +83,8 @@
             "name_fr": "Perforateur de l'archipel III",
             "description_en": "Fire your aetheromatic auger 1,000 times.",
             "description_fr": "Utiliser 1 000 fois le perforateur éthéréen.",
-            "patch": "5.21",
             "points": 10,
+            "patch": "5.21",
             "cPrev": ["a.2551"]
         },
         "x2538": {
@@ -92,10 +92,10 @@
             "name_fr": "Fortuné du kupo I",
             "description_en": "Claim first prize 5 times in Kupo of Fortune.",
             "description_fr": "Gagner le premier prix 5 fois au Kupo de la fortune.",
+            "points": 5,
             "reward_en": "Kupo Crown",
             "reward_fr": "Couronne Kupo kupo",
             "patch": "5.21",
-            "points": 5,
             "cNext": ["a.2539"]
         },
         "x2539": {
@@ -103,8 +103,8 @@
             "name_fr": "Fortuné du kupo II",
             "description_en": "Claim first prize 10 times in Kupo of Fortune.",
             "description_fr": "Gagner le premier prix 10 fois au Kupo de la fortune.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2538"],
             "cNext": ["a.2540"]
         },
@@ -113,9 +113,9 @@
             "name_fr": "Fortuné du kupo III",
             "description_en": "Claim first prize 30 times in Kupo of Fortune.",
             "description_fr": "Gagner le premier prix 30 fois au Kupo de la fortune.",
+            "points": 10,
             "reward": "t.514",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2539"],
             "cSiblings": ["t.514"]
         },
@@ -124,85 +124,216 @@
             "name_fr": "C'est la feste au village",
             "description_en": "Earn the highest rating possible in 10 Skyrise Celebration fêtes.",
             "description_fr": "Accomplir 10 festes de la Grande Célébration d'Azurée avec la meilleure évaluation possible.",
-            "patch": "5.5",
-            "points": 5
+            "points": 5,
+            "patch": "5.5"
         },
         "x2487": {
             "name_en": "Phase II Divine Ascension",
             "name_fr": "Saint d'Azurée (2e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the second phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.488",
             "patch": "5.21",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.488"]
+            "cSiblings": ["t.488"],
+            "defaultCompletion": "X"
         },
         "x2488": {
             "name_en": "Phase II Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (2e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the second phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la deuxième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.489",
             "patch": "5.21",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.489"]
+            "cSiblings": ["t.489"],
+            "defaultCompletion": "X"
         },
         "x2712": {
             "name_en": "Phase III Divine Ascension",
             "name_fr": "Saint d'Azurée (3e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the third phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.547",
             "patch": "5.31",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.547"]
+            "cSiblings": ["t.547"],
+            "defaultCompletion": "X"
         },
         "x2713": {
             "name_en": "Phase III Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (3e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the third phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la troisième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.548",
             "patch": "5.31",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.548"]
+            "cSiblings": ["t.548"],
+            "defaultCompletion": "X"
         },
         "x2785": {
             "name_en": "Phase IV Divine Ascension",
             "name_fr": "Saint d'Azurée (4e phase)",
             "description_en": "Place between 1st and 12th in the skybuilder rankings during the fourth phase of reconstruction.",
             "description_fr": "Être dans les 12 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.557",
             "patch": "5.41",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.557"]
+            "cSiblings": ["t.557"],
+            "defaultCompletion": "X"
         },
         "x2786": {
             "name_en": "Phase IV Minor Miracle",
             "name_fr": "Bienheureux d'Azurée (4e phase)",
             "description_en": "Place between 1st and 100th in the skybuilder rankings during the fourth phase of reconstruction.",
             "description_fr": "Être dans les 100 premiers du classement de la quatrième phase du chantier de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.558",
             "patch": "5.41",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.558"]
+            "cSiblings": ["t.558"],
+            "defaultCompletion": "X"
         },
         "x2829": {
             "name_en": "Blameless Tools",
             "name_fr": "Resplendissement total",
             "description_en": "Obtain a complete set of resplendent crafter's tools.",
             "description_fr": "Obtenir tous les outils resplendissants.",
+            "points": 20,
             "reward": "t.578",
             "patch": "5.5",
-            "points": 20,
             "cPrev": ["a.2821", "a.2822", "a.2823", "a.2824", "a.2826", "a.2825", "a.2827", "a.2828"],
             "cSiblings": ["t.578"]
+        },
+        "x3735": {
+            "name_en": "Crafting in Spaaace",
+            "name_fr": "Maître artisan du cosmos",
+            "description_en": "Earn a cosmic class score of 50,000 points with any Disciple of the Hand.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant qu'artisan.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3737": {
+            "name_en": "Star Crafter",
+            "name_fr": "Artisan en chef du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as every Disciple of the Hand.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat.",
+            "points": 10,
+            "reward": "t.793",
+            "patch": "7.21",
+            "cSiblings": ["t.793"]
+        },
+        "x3736": {
+            "name_en": "Gathering in Spaaace",
+            "name_fr": "Maître récolteur du cosmos",
+            "description_en": "Earn a cosmic class score of 50,000 points with any Disciple of the Land.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant que récolteur.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3738": {
+            "name_en": "Star Gatherer",
+            "name_fr": "Récolteur en chef du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as every Disciple of the Land.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques avec toutes les classes de récolte.",
+            "points": 10,
+            "reward": "t.794",
+            "patch": "7.21",
+            "cSiblings": ["t.794"]
+        },
+        "x3739": {
+            "name_en": "Out of This World",
+            "name_fr": "Grand explorateur du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as every Disciple of the Hand and Land.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat et de récolte.",
+            "points": 20,
+            "reward": "mo.385",
+            "patch": "7.21"
+        },
+        "x3913": {
+            "name_en": "Universal Acclaim",
+            "name_fr": "Grand maître intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as every Disciple of the Hand and Land.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise avec toutes les classes d'artisanat et de récolte.",
+            "points": 20,
+            "reward_en": "Auxesian Tower Replica",
+            "reward_fr": "Réplique de tour d'Auxesia",
+            "patch": "7.51"
+        },
+        "x3740": {
+            "name_en": "Just One More Spin I",
+            "name_fr": "Une chance cosmique",
+            "description_en": "Draw 10 cosmic fortunes.",
+            "description_fr": "Jouer 10 fois à la Roue de la fortune cosmique.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3741": {
+            "name_en": "Just One More Spin II",
+            "name_fr": "Une chance stellaire",
+            "description_en": "Draw 100 cosmic fortunes.",
+            "description_fr": "Jouer 100 fois à la Roue de la fortune cosmique.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3742": {
+            "name_en": "Just One More Spin III",
+            "name_fr": "Une chance galactique",
+            "description_en": "Draw 1,000 cosmic fortunes.",
+            "description_fr": "Jouer 1 000 fois à la Roue de la fortune cosmique.",
+            "points": 10,
+            "reward": "t.795",
+            "patch": "7.21",
+            "cSiblings": ["t.795"]
+        },
+        "x3690": {
+            "name_en": "One Giant Hop",
+            "name_fr": "Explorateur sélénien aguerri",
+            "description_en": "Successfully complete all stellar missions in Sinus Ardorum with the highest rating possible.",
+            "description_fr": "Terminer toutes les missions cosmiques de Sinus Ardorum avec la meilleure évaluation possible.",
+            "points": 20,
+            "reward": "t.781",
+            "patch": "7.21",
+            "cSiblings": ["t.781"]
+        },
+        "x3791": {
+            "name_en": "First Light",
+            "name_fr": "Explorateur phaennien aguerri",
+            "description_en": "Successfully complete all stellar missions on Phaenna with the highest rating possible.",
+            "description_fr": "Terminer toutes les missions cosmiques de Phaenna avec la meilleure évaluation possible.",
+            "points": 20,
+            "reward": "t.810",
+            "patch": "7.31",
+            "cSiblings": ["t.810"]
+        },
+        "x3876": {
+            "name_en": "Gold Magnet",
+            "name_fr": "Explorateur oizien aguerri",
+            "description_en": "Successfully complete all stellar missions on Oizys with the highest rating possible.",
+            "description_fr": "Terminer toutes les missions cosmiques d'Oizys avec la meilleure évaluation possible.",
+            "points": 20,
+            "reward": "t.832",
+            "patch": "7.41",
+            "cSiblings": ["t.832"]
+        },
+        "x3901": {
+            "name_en": "Goldilocks Zone",
+            "name_fr": "Explorateur auxesien aguerri",
+            "description_en": "Successfully complete all stellar missions on Auxesia with the highest rating possible.",
+            "description_fr": "Terminer toutes les missions cosmiques d'Auxesia avec la meilleure évaluation possible.",
+            "points": 20,
+            "reward": "t.834",
+            "patch": "7.51",
+            "cSiblings": ["t.834"]
+        },
+        "x3925": {
+            "name_en": "The Outer Researches",
+            "name_fr": "Professeur intersidéral",
+            "description_en": "Fully upgrade any cosmic tool.",
+            "description_fr": "Améliorer un outil cosmique jusqu'au niveau maximum.",
+            "points": 10,
+            "reward": "t.846",
+            "patch": "7.51",
+            "cSiblings": ["t.846"]
         }
     }
 }

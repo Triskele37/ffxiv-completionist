@@ -38,12 +38,13 @@ export function copyLinkShim(
         case IPC_EVENT.OPEN_IN_TEAMCRAFT:
             link = getTeamCraftGroupUrl(termOrIds);
             break;
+        default: return;
     }
 
     if(link) {
         navigator.clipboard.writeText(link);
         svcMessage.add({
-            detail: translate.instant('GENERAL.LINK_COPIED'),
+            detail: translate.instant('APP.TOAST.LINK_COPIED'),
             severity: 'success',
             life: 2500
         });

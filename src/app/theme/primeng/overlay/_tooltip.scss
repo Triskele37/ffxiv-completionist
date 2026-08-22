@@ -1,33 +1,37 @@
-.p-tooltip {
-    .p-tooltip-text {
-        background: $tooltipBg;
-        color: $tooltipTextColor;
-        padding: $tooltipPadding;
-        box-shadow: $inputOverlayShadow;
-        border-radius: var(--border-radius);
-    }
+@use "../../_variables";
 
-    &.p-tooltip-right {
-        .p-tooltip-arrow {
-            border-right-color: $tooltipBg;
+@layer primeng {
+    .p-tooltip {
+        .p-tooltip-text {
+            background: variables.$tooltipBg;
+            color: variables.$tooltipTextColor;
+            padding: variables.$tooltipPadding;
+            box-shadow: variables.$inputOverlayShadow;
+            border-radius: var(--border-radius);
         }
-    }
 
-    &.p-tooltip-left {
-        .p-tooltip-arrow {
-            border-left-color: $tooltipBg;
+        &.p-tooltip-right {
+            .p-tooltip-arrow {
+                border-right-color: variables.$tooltipBg;
+            }
         }
-    }
 
-    &.p-tooltip-top {
-        .p-tooltip-arrow {
-            border-top-color: $tooltipBg;
+        &.p-tooltip-left {
+            .p-tooltip-arrow {
+                border-left-color: variables.$tooltipBg;
+            }
         }
-    }
 
-    &.p-tooltip-bottom {
-        .p-tooltip-arrow {
-            border-bottom-color: $tooltipBg;
+        &.p-tooltip-top {
+            .p-tooltip-arrow {
+                border-top-color: variables.$tooltipBg;
+            }
+        }
+
+        &.p-tooltip-bottom {
+            .p-tooltip-arrow {
+                border-bottom-color: variables.$tooltipBg;
+            }
         }
     }
 }

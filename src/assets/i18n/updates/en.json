@@ -1,0 +1,123 @@
+{
+    "APP_UPDATES": {
+        "1.0.0": {
+            "ADD": [
+                "Splash image on startup",
+                "Theme customization",
+                "Group & Task Bookmarks",
+                "Navigation history",
+                "Sortable columns",
+                "Group column to all task views",
+                "Random task generator for incomplete tasks",
+                "Virtual scrolling to prevent slow-rendering tables",
+                "Ability to exclude, filter, and quick-mark numeric tasks",
+                "Ability to hide overall OR selected group summary lines",
+                "Ability to open config and save folders from settings page",
+                "Ability to backup config and save files from settings page",
+                "Ability to overwrite active config and save with backup from settings page",
+                "Chain history & Chain history limit setting",
+                "Weight statistic in group summary tooltips"
+            ],
+            "CHANGE": [
+                "Completely overhauled Search",
+                "Condensed row actions into a slide-out menu",
+                "Condensed main menu groups using tabbed UI",
+                "Moved save management and language selection into settings page",
+                "Moved custom task auto-merge into custom task overlay",
+                "Renamed \"Instructions\" to \"Guide\"",
+                "Renamed \"Version History\" to \"Patch Notes\"",
+                "Changed custom task reordering to work with row actions menu"
+            ],
+            "FIX": [
+                "Tasks excluded by default no longer show as incomplete"
+            ]
+        },
+        "1.0.1": {
+            "ADD": [
+                "Ability to sort multiple columns at once",
+                "Ability to lock an overlay in place",
+                "Visual indicator of completed sections in nav drawer",
+                "Visual indicator of chained task count on chain overlay",
+                "A back button for most recent navigation history",
+                "A Chain Overlay to the Search Results view"
+            ],
+            "FIX": [
+                "Ctrl+V automatically searching from any input field",
+                "Config & Save load failure handling"
+            ]
+        },
+        "1.0.2": {
+            "ADD": [
+                "Customization of random count and group"
+            ],
+            "FIX": [
+                "Issue where overlays would become unresponsive"
+            ]
+        },
+        "1.0.3": {
+            "CHANGE": [
+                "Reduced minimum search characters to 2"
+            ]
+        },
+        "1.0.4": {
+            "ADD": [
+                "\"Go to parent\" button in navigation bar",
+                "App version display in title bar and lower left",
+                "Option to hide completed and empty groups from navigation",
+                "\"Groups\" tab in app Search",
+                "Subgroup selection from breadcrumb arrows",
+                "\"Font Size\" setting in Theme"
+            ],
+            "CHANGE": [
+                "Star now displays for completed groups in navigation drawer with no unexcluded tasks"
+            ],
+            "FIX": [
+                "Stored window position allowing the app to start off-screen",
+                "Show All column sizing for numeric groups"
+            ]
+        },
+        "1.0.5": {
+            "ADD": [
+                "Added Chain Analysis in main menu",
+                "Added Patch View in main menu",
+                "Pressing the escape key now navigates to the parent group",
+                "Pressing the backspace key now navigates back to the previous group",
+                "Pressing numpad enter now also triggers searches in the search box",
+                "Added ability to remove entries from or clear history entirely",
+                "Added setting for long/short group name viewing (default short)"
+            ],
+            "CHANGE": [
+                "Inverted 'Patch' column filter so newest patch shows first",
+                "Tasks now display regardless of filters if navigated to via a link",
+                "Due to security restrictions, actions that opened in the browser now only copy their link to the clipboard"
+            ],
+            "FIX": [
+                "Awkward numeric filter dropdown sorting",
+                "Awkward patch column sorting",
+                "Marking a task that is then filtered out now scrolls the table back"
+            ]
+        },
+        "1.0.6": {
+            "ADD": [
+                "Custom Content: Groups and import/export",
+                "Chain Viewer (in task row actions)",
+                "Chain Analysis now checks all chain types",
+                "Chain History display in chain overlay with links",
+                "Shift+Click multi-selection in tables",
+                "Summary statistics in Patch View"
+            ],
+            "CHANGE": [
+                "Replaced Guide with Active Help",
+                "Improved patch selector in Patch View",
+                "Patch View now uses the full featured task table",
+                "Column filters now persist per group when changing groups",
+                "Patch Notes now distinguish between app and game data"
+            ],
+            "FIX": [
+                "Bookmarks with same name not all showing",
+                "Allowing backspace to navigate while inside input fields",
+                "Resolved issue with reload causing data to go missing"
+            ]
+        }
+    }
+}

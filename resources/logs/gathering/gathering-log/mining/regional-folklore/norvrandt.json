@@ -3,75 +3,75 @@
     "groupName_en": "Norvrandt",
     "groupName_fr": "Norvrandt",
     "tasks": {
-        "x0": {
-            "level": "80★",
+        "x547": {
             "name_en": "Tungsten Ore",
             "name_fr": "Minerai de tungstène",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(32, 7)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "5.0",
-            "closestAetheryte": "travel.aetherytes.norvrandt.129"
+            "patch": "5.0"
         },
-        "x1": {
-            "level": "80★",
+        "x546": {
             "name_en": "Prismstone",
-            "name_fr": "Cristal irridescent",
-            "zone": "@PLACE.IL_MHEG",
+            "name_fr": "Cristal iridescent",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.IL_MHEG",
             "coordinates": "(30, 20)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "5.0",
-            "closestAetheryte": "travel.aetherytes.norvrandt.126"
+            "patch": "5.0"
         },
-        "x2": {
-            "level": "80★",
+        "x606": {
             "name_en": "Beryllium Ore",
             "name_fr": "Minerai de béryllium",
-            "zone": "@PLACE.IL_MHEG",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.IL_MHEG",
             "coordinates": "(30, 20)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "5.1",
-            "closestAetheryte": "travel.aetherytes.norvrandt.126"
+            "patch": "5.1"
         },
-        "x3": {
-            "level": "80★★",
+        "x608": {
             "name_en": "Fireheart Cobalt",
             "name_fr": "Minerai de cobaltite",
-            "zone": "@PLACE.LAKELAND",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.LAKELAND",
             "coordinates": "(4, 33)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.117",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.2",
-            "closestAetheryte": "travel.aetherytes.norvrandt.117"
+            "patch": "5.2"
         },
-        "x4": {
-            "level": "80★★",
+        "x620": {
             "name_en": "Brashgold Ore",
             "name_fr": "Minerai d'étain argenté",
-            "zone": "@PLACE.LAKELAND",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.LAKELAND",
             "coordinates": "(4, 33)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.117",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.3",
-            "closestAetheryte": "travel.aetherytes.norvrandt.117"
+            "patch": "5.3"
         },
-        "x5": {
-            "level": "80★★★",
+        "x624": {
             "name_en": "Dolomite",
             "name_fr": "Minerai de dolomite",
-            "zone": "@PLACE.RAK_TIKA",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "coordinates": "(8, 30)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.127",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.127"
+            "patch": "5.4"
         },
-        "x6": {
-            "level": "80★★★",
+        "x628": {
             "name_en": "Hard Water",
             "name_fr": "Eau dure",
-            "zone": "@PLACE.KHOLUSIA",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.KHOLUSIA",
             "coordinates": "(36, 12)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.120",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.120"
+            "patch": "5.4"
         }
     }
 }

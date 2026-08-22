@@ -1,27 +1,32 @@
-.p-sidebar {
-    background: $overlayContentBg;
-    color: $panelContentTextColor;
-    border: $overlayContentBorder;
-    box-shadow: $overlayContainerShadow;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-sidebar-header {
-        padding: $panelHeaderPadding;
+@layer primeng {
+    .p-sidebar {
+        background: variables.$overlayContentBg;
+        color: variables.$panelContentTextColor;
+        border: variables.$overlayContentBorder;
+        box-shadow: variables.$overlayContainerShadow;
 
-        .p-sidebar-close,
-        .p-sidebar-icon {
-            @include action-icon();
+        .p-sidebar-header {
+            padding: variables.$panelHeaderPadding;
+
+            .p-sidebar-close,
+            .p-sidebar-icon {
+                @include mixins.action-icon();
+            }
+
+            & + .p-sidebar-content {
+                padding-top: 0;
+            }
         }
 
-        & + .p-sidebar-content {
-            padding-top: 0;
+        .p-sidebar-content {
+            padding: variables.$panelContentPadding;
         }
-    }
 
-    .p-sidebar-content {
-        padding: $panelContentPadding;
-    }
-
-    .p-sidebar-footer {
-        padding: $panelHeaderPadding;
+        .p-sidebar-footer {
+            padding: variables.$panelHeaderPadding;
+        }
     }
 }

@@ -1,8 +1,12 @@
-.p-skeleton {
-    background-color: $skeletonBg;
-    border-radius: var(--border-radius);
+@use "../../_variables";
 
-    &:after {
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0), $skeletonAnimationBg, rgba(255, 255, 255, 0));
+@layer primeng {
+    .p-skeleton {
+        background-color: variables.$skeletonBg;
+        border-radius: var(--border-radius);
+
+        &:after {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0), variables.$skeletonAnimationBg, rgba(255, 255, 255, 0));
+        }
     }
 }

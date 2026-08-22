@@ -1,5 +1,8 @@
-import { Completion } from '@constant';
+import { signal } from '@angular/core';
+
+import { Completion, Lang } from '@constant';
 import { Globals } from '@constant/Global';
+import { AtLinks, Links } from '@model/Chain/ChainLink';
 import { DataGroup } from '@model/DataGroup';
 import { getContentLink } from '@model/Link/getContentLink';
 
@@ -9,24 +12,26 @@ export function createTask(json: any, parent: DataGroup): Task {
     // Map all properties from json to this class
     const task = {
         ...json,
-        xivDataType: 'Task',
+        dataType: 'Task',
         _parent: parent,
     };
 
-    task.contentLink = getContentLink(task);
     task.storageKey = `${task.id ?? -1}`;
     task.fullStorageKey = `${parent.fullStorageKey}.${task.storageKey}`;
 
     // Convert lang keys to app keys (combine if app key exists)
     flattenLangKeys(task);
 
+    // Must be below flatten lang keys
+    task.contentLink = getContentLink(task);
+
     // Inherit properties from parent group if not explicitly defined on task json
     inheritFromParent(task, 'defaultCompletion');
     inheritFromParent(task, 'isNumericCompletion');
+    inheritFromParent(task, 'cPrevAny');
 
     // Combine properties defined on parent
     concatWithParent(task, 'cPrev');
-    concatWithParent(task, 'cPrevAny');
     concatWithParent(task, 'cNext');
     concatWithParent(task, 'cSiblings');
     concatWithParent(task, 'cCombo');
@@ -37,23 +42,32 @@ export function createTask(json: any, parent: DataGroup): Task {
     deepConcatWithParent(task, 'cSiblingsAt');
     deepConcatWithParent(task, 'cComboAt');
 
-    //
-    task.completionFlag = task.defaultCompletion ?? Completion.N;
+    // Initialize signals
+    task.completionFlag$ = signal(task.defaultCompletion ?? Completion.N);
+    task.selected = signal(false);
 
     return task;
 }
 
-function inheritFromParent(task: Task, key: keyof Task): void {
-    if(task._parent[key] && task[key] === undefined) {
+// From T, get keys K that match type V
+type KeysMatching<T, V> = {
+    [K in keyof T]-?: T[K] extends V ? K : never;
+}[keyof T];
+
+type SharedKey = keyof DataGroup & keyof Task;
+function inheritFromParent<K extends SharedKey>(task: Task, key: K): void {
+    if(task._parent[key] !== undefined && task[key] === undefined) {
+        // @ts-ignore
         task[key] = task._parent[key];
     }
 }
 
-function concatWithParent(task: Task, key: keyof Task): void {
+type LinkKeys = KeysMatching<DataGroup, Links | undefined>;
+function concatWithParent<K extends LinkKeys>(task: Task, key: K): void {
     const parentValue = task._parent[key];
     if(!parentValue) return;
 
-    if(!task[key]) {
+    if(task[key] === undefined) {
         // Exists only on parent
         task[key] = parentValue;
     }
@@ -64,25 +78,28 @@ function concatWithParent(task: Task, key: keyof Task): void {
         if(Array.isArray(parentValue)) concated.push(...parentValue);
         else concated.push(parentValue);
 
-        if(Array.isArray(task[key])) concated.push(...task[key]);
+        if(Array.isArray(task[key])) concated.push(...task[key] as any);
         else concated.push(task[key]);
 
         task[key] = concated;
     }
 }
 
-function deepConcatWithParent(task: Task, key: keyof Task): void {
+type AtLinkKeys = KeysMatching<DataGroup, AtLinks | undefined>;
+function deepConcatWithParent<K extends AtLinkKeys>(task: Task, key: K): void {
     const parentValue = task._parent[key];
     if(!parentValue) return;
 
-    if(!task[key]) {
+    if(task[key] === undefined) {
         // Exists only on parent
         task[key] = parentValue;
     }
     else {
         // Exists on both
         Object.keys(parentValue).forEach((at) => {
-            if(!this[key][at]) this[key][at] = parentValue[at];
+            if(!task[key]) return;
+
+            if(!task[key][at]) task[key][at] = parentValue[at];
             else {
                 const concated = [];
 
@@ -99,7 +116,7 @@ function deepConcatWithParent(task: Task, key: keyof Task): void {
 }
 
 function flattenLangKeys(task: Task) {
-    const lang = Globals.config.lang;
+    const lang = Globals.config?.lang ?? Lang.EN;
     const langEnd = `_${lang}`;
 
     Object.keys(task).forEach((key) => {

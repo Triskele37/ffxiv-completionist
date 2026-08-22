@@ -8,11 +8,11 @@ export function migrateGatheringLog(store: ChangeStore): void {
     const LOGGING = 'overall.logs.gathering.gathering-log.logging';
     const HARVESTING = 'overall.logs.gathering.gathering-log.harvesting';
 
-    const oldResto = (group) => `${group}.ishgard-restoration.ishgard-restoration`;
-    const oldSkysteel = (group) => `${group}.ishgard-restoration.skysteel-tools`;
+    const oldResto = (group: string) => `${group}.ishgard-restoration.ishgard-restoration`;
+    const oldSkysteel = (group: string) => `${group}.ishgard-restoration.skysteel-tools`;
 
-    const newResto = (group) => `${group}.sidequests.ishgard-restoration`;
-    const newSkysteel = (group) => `${group}.sidequests.skysteel-tools`;
+    const newResto = (group: string) => `${group}.sidequests.ishgard-restoration`;
+    const newSkysteel = (group: string) => `${group}.sidequests.skysteel-tools`;
 
     store.moveGroup(oldResto(MINING), newResto(MINING));
     store.moveGroup(oldSkysteel(MINING), newSkysteel(MINING));

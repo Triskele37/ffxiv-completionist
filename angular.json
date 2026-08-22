@@ -38,8 +38,7 @@
                         ],
                         "styles": [
                             "src/styles.scss",
-                            "node_modules/primeicons/primeicons.css",
-                            "node_modules/primeng/resources/primeng.min.css"
+                            "node_modules/primeicons/primeicons.css"
                         ],
                         "stylePreprocessorOptions": {
                             "includePaths": [
@@ -70,7 +69,7 @@
                             ]
                         },
                         "production": {
-                            "optimization": true,
+                            "optimization": false,
                             "outputHashing": "all",
                             "sourceMap": false,
                             "namedChunks": false,
@@ -156,11 +155,11 @@
             "setParserOptionsProject": true
         },
         "@schematics/angular:component": {
-            "prefix": "xiv",
+            "prefix": "com",
             "style": "scss"
         },
         "@schematics/angular:directive": {
-            "prefix": "xiv"
+            "prefix": "com"
         }
     }
 }

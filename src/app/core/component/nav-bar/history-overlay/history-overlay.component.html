@@ -1,46 +1,60 @@
-<p-button
-    icon="material-icons mi-history"
-    (onClick)="op.toggle($event)"
-></p-button>
+<button
+    data-active-help="APP.ACTIVE_HELP.HISTORY_OVERLAY"
+    pButton
+    (click)="op.toggle($event)"
+>
+    <span class="mi mi-history"></span>
+</button>
 
-<p-overlayPanel #op>
+<p-popover #op>
+    @let noHistory = !svcNavigation.groupHistory().length;
+
     <div class="history-overlay-header">
-        <span>{{'OVERLAY.HISTORY.TITLE' | translate}}</span>
-        <p-button
-            styleClass="p-button-link"
-            icon="material-icons mi-close"
+        <span>{{'APP.HISTORY_OVERLAY.TITLE' | translate}}</span>
+        <button
+            pButton
+            class="p-button-link"
             size="small"
-            [disabled]="!(svcNavigation.groupHistory$ | async).length"
+            [disabled]="noHistory"
+            [pTooltip]="'APP.HISTORY_OVERLAY.CLEAR_ALL' | translate"
             [life]="2000"
-            [pTooltip]="'OVERLAY.HISTORY.CLEAR_ALL' | translate"
-            (onClick)="clearHistory()"
-        ></p-button>
+            (click)="clearHistory()"
+        >
+            <span class="mi mi-close"></span>
+        </button>
     </div>
-
 
     <div class="history-links-container">
-        <div *ngIf="!(svcNavigation.groupHistory$ | async).length" class="no-content">
-            {{'OVERLAY.HISTORY.NO_CONTENT' | translate}}
-        </div>
+        @if(noHistory) {
+            <div class="no-content">
+                {{'APP.HISTORY_OVERLAY.NO_CONTENT' | translate}}
+            </div>
+        }
 
-        <div *ngFor="let group of svcNavigation.groupHistory$ | async" class="history-links">
-            <p-button
-                styleClass="p-button-link"
-                icon="material-icons mi-close"
-                size="small"
-                [life]="2000"
-                [pTooltip]="'OVERLAY.HISTORY.REMOVE_ENTRY' | translate"
-                tooltipPosition="left"
-                (onClick)="removeHistory(group)"
-            ></p-button>
+        @for(group of svcNavigation.groupHistory(); track group.fullStorageKey) {
+            <div class="history-links">
+                <button
+                    pButton
+                    class="p-button-link"
+                    size="small"
+                    [pTooltip]="'APP.HISTORY_OVERLAY.REMOVE_ENTRY' | translate"
+                    [life]="2000"
+                    tooltipPosition="left"
+                    (click)="removeHistory(group)"
+                >
+                    <span class="mi mi-close"></span>
+                </button>
 
-            <p-button
-                styleClass="p-button-link"
-                [life]="2000"
-                [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
-                [label]="group | contentLink"
-                (onClick)="svcNavigation.goToHistory(group); op.hide()"
-            ></p-button>
-        </div>
+                <button
+                    pButton
+                    class="p-button-link"
+                    [pTooltip]="'APP.CONTENT_LINK.GROUP_NAVIGATE' | translate"
+                    [life]="2000"
+                    (click)="svcNavigation.goToHistory(group); op.hide()"
+                >
+                    {{group | contentLink}}
+                </button>
+            </div>
+        }
     </div>
-</p-overlayPanel>
+</p-popover>

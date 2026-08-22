@@ -2,7 +2,7 @@
     "key": "the-masked-carnivale",
     "groupName_en": "The Masked Carnivale",
     "groupName_fr": "La Grande Mascarade",
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -23,257 +23,257 @@
     },
     "tasks": {
         "x0": {
-            "level": "1",
             "name_en": "All's Well That Starts Well",
             "name_fr": "Début du spectacle",
+            "level": "1",
             "standardTime": "0:30",
             "idealTime": "0:20",
             "patch": "4.5"
         },
         "x1": {
-            "level": "2",
             "name_en": "Much Ado About Pudding",
             "name_fr": "Puddings à la mode",
+            "level": "2",
             "standardTime": "3:30",
             "idealTime": "2:30",
             "patch": "4.5"
         },
         "x2": {
-            "level": "3",
             "name_en": "Waiting For Golem",
             "name_fr": "Zipacna, le premier obstacle",
+            "level": "3",
             "standardTime": "3:45",
             "idealTime": "2:45",
             "patch": "4.5"
         },
         "x3": {
-            "level": "4",
             "name_en": "Gentlemen Prefer Swords",
             "name_fr": "Kreios, le destructeur d'acier",
+            "level": "4",
             "standardTime": "3:30",
             "idealTime": "2:35",
             "patch": "4.5"
         },
         "x4": {
-            "level": "5",
             "name_en": "The Threepenny Turtles",
             "name_fr": "La fratrie des gilkhélones",
+            "level": "5",
             "standardTime": "1:20",
             "idealTime": "0:45",
             "patch": "4.5"
         },
         "x5": {
-            "level": "6",
             "name_en": "Eye Society",
             "name_fr": "Vengeance aveugle",
+            "level": "6",
             "standardTime": "3:20",
             "idealTime": "2:25",
             "patch": "4.5"
         },
         "x6": {
-            "level": "7",
             "name_en": "A Chorus Slime",
             "name_fr": "Pure attaque cardiaque",
+            "level": "7",
             "standardTime": "3:30",
             "idealTime": "2:40",
             "patch": "4.5"
         },
         "x7": {
-            "level": "8",
             "name_en": "The Bomb-edy of Errors",
             "name_fr": "Crocs bleus et crocs rouges",
+            "level": "8",
             "standardTime": "3:45",
             "idealTime": "2:45",
             "patch": "4.5"
         },
         "x8": {
-            "level": "9",
             "name_en": "To Kill a Mockingslime",
             "name_fr": "Guimauve, le goût de l'arc-en-cielGuimauve, le goût de l'arc-en-ciel",
+            "level": "9",
             "standardTime": "4:45",
             "idealTime": "3:30",
             "patch": "4.5"
         },
         "x9": {
-            "level": "10",
             "name_en": "A Little Knight Music",
             "name_fr": "Crom Dubh, roi des idoles",
+            "level": "10",
             "standardTime": "4:30",
             "idealTime": "3:10",
             "patch": "4.5"
         },
         "x10": {
-            "level": "11",
             "name_en": "Some Like It Excrutiatingly Hot",
             "name_fr": "Les courtes mèches",
+            "level": "11",
             "standardTime": "3:30",
             "idealTime": "2:30",
             "patch": "4.5"
         },
         "x11": {
-            "level": "12",
             "name_en": "The Plant-om of the Opera",
             "name_fr": "Hydnora, la plante parasite",
+            "level": "12",
             "standardTime": "4:30",
             "idealTime": "3:10",
             "patch": "4.5"
         },
         "x12": {
-            "level": "13",
             "name_en": "Beauty and a Beast",
             "name_fr": "La mystérieuse Carmilla",
+            "level": "13",
             "standardTime": "4:30",
             "idealTime": "3:30",
             "patch": "4.5"
         },
         "x13": {
-            "level": "14",
             "name_en": "Blobs in the Woods",
             "name_fr": "La mort n'a pas de d'ami",
+            "level": "14",
             "standardTime": "3:00",
             "idealTime": "2:30",
             "patch": "4.5"
         },
         "x14": {
-            "level": "15",
             "name_en": "The Me Nobody Nodes",
             "name_fr": "La sphère bestiale, une menace allagoise",
+            "level": "15",
             "standardTime": "4:45",
             "idealTime": "3:45",
             "patch": "4.5"
         },
         "x15": {
-            "level": "16",
             "name_en": "Sunset Bull-evard",
             "name_fr": "Tikbalang, bras tout-puissant",
+            "level": "16",
             "standardTime": "4:30",
             "idealTime": "3:30",
             "patch": "4.5"
         },
         "x16": {
-            "level": "17",
             "name_en": "The Sword of Music",
             "name_fr": "Kreios plie, mais ne rompt pas",
+            "level": "17",
             "standardTime": "5:30",
             "idealTime": "4:15",
             "patch": "4.5"
         },
         "x17": {
-            "level": "18",
             "name_en": "Midsummer Night's Explosion",
             "name_fr": "Rencontre explosive",
+            "level": "18",
             "standardTime": "6:00",
             "idealTime": "4:20",
             "patch": "4.5"
         },
         "x18": {
-            "level": "19",
             "name_en": "On a Clear Day You Can Smell Forever",
             "name_fr": "Miroir, mon beau miroir",
+            "level": "19",
             "standardTime": "5:00",
             "idealTime": "4:00",
             "patch": "4.5"
         },
         "x19": {
-            "level": "20",
             "name_en": "Miss Typhon",
             "name_fr": "Duo de choc : Orthros et maître Typhon",
+            "level": "20",
             "standardTime": "6:00",
             "idealTime": "5:10",
             "patch": "4.5"
         },
         "x20": {
-            "level": "21",
             "name_en": "Chimera on a Hot Tin Roof",
             "name_fr": "La chimèrique colère d'Apademak",
+            "level": "21",
             "standardTime": "4:15",
             "idealTime": "3:15",
             "patch": "4.5"
         },
         "x21": {
-            "level": "22",
             "name_en": "Here Comes the Boom",
             "name_fr": "L'histoire détonante de Papi bombo",
+            "level": "22",
             "standardTime": "5:00",
             "idealTime": "4:00",
             "patch": "4.5"
         },
         "x22": {
-            "level": "23",
             "name_en": "Behemoths and Broomsticks",
             "name_fr": "Kronprinz béhémoth, le prince héritier",
+            "level": "23",
             "standardTime": "5:00",
             "idealTime": "3:45",
             "patch": "4.5"
         },
         "x23": {
-            "level": "24",
             "name_en": "Amazing Technicolor Pit Fiends",
             "name_fr": "Epilogi, l'étrange marionnettiste",
+            "level": "24",
             "standardTime": "6:45",
             "idealTime": "5:40",
             "patch": "4.5"
         },
         "x24": {
-            "level": "25",
             "name_en": "Dirty Rotten Azulmagia",
             "name_fr": "L'abominable Azulmagia",
+            "level": "25",
             "standardTime": "8:45",
             "idealTime": "7:15",
             "patch": "4.5"
         },
         "x25": {
-            "level": "26",
             "name_en": "Papa Mia",
             "name_fr": "Papa Humbaba, le paternel aux gros bras",
+            "level": "26",
             "standardTime": "5:00",
             "idealTime": "4:00",
             "patch": "5.15"
         },
         "x26": {
-            "level": "27",
             "name_en": "Lock Up Your Snorters",
             "name_fr": "Fungaaah ! Et boum !",
+            "level": "27",
             "standardTime": "4:00",
             "idealTime": "2:20",
             "patch": "5.15"
         },
         "x27": {
-            "level": "28",
             "name_en": "Dangerous When Dead",
             "name_fr": "Durinn, marionnettiste d'outre-tombe",
+            "level": "28",
             "standardTime": "6:00",
             "idealTime": "5:00",
             "patch": "5.15"
         },
         "x28": {
-            "level": "29",
             "name_en": "Red, Fraught, and Blue",
             "name_fr": "La mélodie du feu et de l'eau",
+            "level": "29",
             "standardTime": "8:00",
             "idealTime": "7:00",
             "patch": "5.15"
         },
         "x29": {
-            "level": "30",
             "name_en": "The Catch of the Siegfried",
             "name_fr": "Siegfried, le plus grand bretteur du monde",
+            "level": "30",
             "standardTime": "7:30",
             "idealTime": "6:30",
             "patch": "5.15"
         },
         "x30": {
-            "level": "31",
             "name_en": "Anything Gogo's",
             "name_fr": "Gogo le mime",
+            "level": "31",
             "standardTime": "7:40",
             "idealTime": "6:50",
             "patch": "5.45"
         },
         "x31": {
-            "level": "32",
             "name_en": "A Golden Opportunity",
             "name_fr": "Goldor, le mage doré",
+            "level": "32",
             "standardTime": "7:40",
             "idealTime": "6:50",
             "patch": "6.45"

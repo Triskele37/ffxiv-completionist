@@ -7,7 +7,9 @@ import { DataGroup } from '../';
  * Common method of counting
  * */
 type CountTask = (task: Task) => number;
-function countGroup(group: DataGroup, countTask: CountTask): number {
+function countGroup(group: DataGroup | null, countTask: CountTask): number {
+    if(!group) return 0;
+
     let count: number = 0;
     group.tasks?.forEach((task) => count += countTask(task));
     if(group.isBookmarkGroup) return count;
@@ -30,7 +32,7 @@ export function getTotal(group: DataGroup): number {
  * */
 export function getEffectiveTotal(group: DataGroup): number {
     return countGroup(group, (task) => {
-        if(task.completionFlag === Completion.X) return 0;
+        if(task.completionFlag$() === Completion.X) return 0;
         return task.isNumericCompletion ? task.maxValue - task.minValue : 1;
     });
 }
@@ -41,12 +43,12 @@ export function getEffectiveTotal(group: DataGroup): number {
 export function getCompleted(group: DataGroup): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) {
-            if(task.completionFlag === Completion.X) return 0;
-            const num = parseFloat(task.completionFlag);
+            if(task.completionFlag$() === Completion.X) return 0;
+            const num = parseFloat(task.completionFlag$());
             return num >= task.minValue ? num - task.minValue : 0;
         }
 
-        return task.completionFlag === Completion.Y ? 1 : 0;
+        return task.completionFlag$() === Completion.Y ? 1 : 0;
     });
 }
 
@@ -56,13 +58,13 @@ export function getCompleted(group: DataGroup): number {
 export function getRemaining(group: DataGroup): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) {
-            if(task.completionFlag === Completion.X) return 0;
-            const num = parseFloat(task.completionFlag);
+            if(task.completionFlag$() === Completion.X) return 0;
+            const num = parseFloat(task.completionFlag$());
             const tot = task.maxValue - task.minValue;
             return num > task.minValue ? tot - (num - task.minValue) : tot;
         }
 
-        return task.completionFlag === Completion.N ? 1 : 0;
+        return task.completionFlag$() === Completion.N ? 1 : 0;
     });
 }
 
@@ -71,7 +73,7 @@ export function getRemaining(group: DataGroup): number {
  * */
 export function getExcluded(group: DataGroup): number {
     return countGroup(group, (task) => {
-        if(task.completionFlag !== Completion.X) return 0;
+        if(task.completionFlag$() !== Completion.X) return 0;
         return task.isNumericCompletion ? task.maxValue - task.minValue : 1;
     });
 }

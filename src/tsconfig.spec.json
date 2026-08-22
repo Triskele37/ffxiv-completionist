@@ -3,17 +3,15 @@
     "compilerOptions": {
         "outDir": "../out-tsc/spec",
         "module": "commonjs",
+        "target": "ES2022",
         "types": [
-            "jasmine",
+            "jest",
             "node"
         ]
     },
-    "files": [
-        "test.ts",
-        "polyfills-test.ts"
-    ],
     "include": [
         "**/*.spec.ts",
+        "**/*.mock.ts",
         "**/*.d.ts"
     ],
     "exclude": [

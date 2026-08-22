@@ -1,25 +1,29 @@
-.p-scrolltop {
-    width: $scrollTopWidth;
-    height: $scrollTopHeight;
-    border-radius: $scrollTopBorderRadius;
-    box-shadow: $inputOverlayShadow;
-    transition: $actionIconTransition;
+@use "../../_variables";
 
-    &.p-link {
-        background: $scrollTopBg;
+@layer primeng {
+    .p-scrolltop {
+        width: variables.$scrollTopWidth;
+        height: variables.$scrollTopHeight;
+        border-radius: variables.$scrollTopBorderRadius;
+        box-shadow: variables.$inputOverlayShadow;
+        transition: variables.$actionIconTransition;
 
-        &:hover {
-            background: $scrollTopHoverBg;
+        &.p-link {
+            background: variables.$scrollTopBg;
+
+            &:hover {
+                background: variables.$scrollTopHoverBg;
+            }
         }
-    }
 
-    .p-scrolltop-icon {
-        font-size: $scrollTopFontSize;
-        color: $scrollTopTextColor;
-    }
+        .p-scrolltop-icon {
+            font-size: variables.$scrollTopFontSize;
+            color: variables.$scrollTopTextColor;
+        }
 
-    .p-icon {
-        width: $scrollTopFontSize;
-        height: $scrollTopFontSize;
+        .p-icon {
+            width: variables.$scrollTopFontSize;
+            height: variables.$scrollTopFontSize;
+        }
     }
 }

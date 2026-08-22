@@ -4,162 +4,162 @@
     "groupNameShort": "@EXPANSION.DT",
     "tasks": {
         "x0": {
-            "name": "@PLACE.URQOPACHA 1",
+            "name": "@PLACE.DT.URQOPACHA 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [1]
         },
         "x1": {
-            "name": "@PLACE.URQOPACHA 2",
+            "name": "@PLACE.DT.URQOPACHA 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
-            "name": "@PLACE.URQOPACHA 3",
+            "name": "@PLACE.DT.URQOPACHA 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [1],
             "cNext": [3]
         },
         "x3": {
-            "name": "@PLACE.URQOPACHA 4",
+            "name": "@PLACE.DT.URQOPACHA 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [2],
             "cSiblings": ["a.3559"]
         },
         "x10": {
-            "name": "@PLACE.KOZAMAUKA 1",
+            "name": "@PLACE.DT.KOZAMAUKA 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [11]
         },
         "x11": {
-            "name": "@PLACE.KOZAMAUKA 2",
+            "name": "@PLACE.DT.KOZAMAUKA 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [10],
             "cNext": [12]
         },
         "x12": {
-            "name": "@PLACE.KOZAMAUKA 3",
+            "name": "@PLACE.DT.KOZAMAUKA 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [11],
             "cNext": [13]
         },
         "x13": {
-            "name": "@PLACE.KOZAMAUKA 4",
+            "name": "@PLACE.DT.KOZAMAUKA 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [12],
             "cSiblings": ["a.3560"]
         },
         "x20": {
-            "name": "@PLACE.YAK_TEL 1",
+            "name": "@PLACE.DT.YAK_TEL 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [21]
         },
         "x21": {
-            "name": "@PLACE.YAK_TEL 2",
+            "name": "@PLACE.DT.YAK_TEL 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [20],
             "cNext": [22]
         },
         "x22": {
-            "name": "@PLACE.YAK_TEL 3",
+            "name": "@PLACE.DT.YAK_TEL 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [21],
             "cNext": [23]
         },
         "x23": {
-            "name": "@PLACE.YAK_TEL 4",
+            "name": "@PLACE.DT.YAK_TEL 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [22],
             "cSiblings": ["a.3561"]
         },
         "x30": {
-            "name": "@PLACE.SHAALOANI 1",
+            "name": "@PLACE.DT.SHAALOANI 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [31]
         },
         "x31": {
-            "name": "@PLACE.SHAALOANI 2",
+            "name": "@PLACE.DT.SHAALOANI 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [30],
             "cNext": [32]
         },
         "x32": {
-            "name": "@PLACE.SHAALOANI 3",
+            "name": "@PLACE.DT.SHAALOANI 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [31],
             "cNext": [33]
         },
         "x33": {
-            "name": "@PLACE.SHAALOANI 4",
+            "name": "@PLACE.DT.SHAALOANI 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [32],
             "cSiblings": ["a.3562"]
         },
         "x40": {
-            "name": "@PLACE.HERITAGE_FOUND 1",
+            "name": "@PLACE.DT.HERITAGE_FOUND 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [41]
         },
         "x41": {
-            "name": "@PLACE.HERITAGE_FOUND 2",
+            "name": "@PLACE.DT.HERITAGE_FOUND 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [40],
             "cNext": [42]
         },
         "x42": {
-            "name": "@PLACE.HERITAGE_FOUND 3",
+            "name": "@PLACE.DT.HERITAGE_FOUND 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [41],
             "cNext": [43]
         },
         "x43": {
-            "name": "@PLACE.HERITAGE_FOUND 4",
+            "name": "@PLACE.DT.HERITAGE_FOUND 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [42],
             "cSiblings": ["a.3563"]
         },
         "x50": {
-            "name": "@PLACE.LIVING_MEMORY 1",
+            "name": "@PLACE.DT.LIVING_MEMORY 1",
             "requiredFates": 1,
             "patch": "7.0",
             "cNext": [51]
         },
         "x51": {
-            "name": "@PLACE.LIVING_MEMORY 2",
+            "name": "@PLACE.DT.LIVING_MEMORY 2",
             "requiredFates": 6,
             "patch": "7.0",
             "cPrev": [50],
             "cNext": [52]
         },
         "x52": {
-            "name": "@PLACE.LIVING_MEMORY 3",
+            "name": "@PLACE.DT.LIVING_MEMORY 3",
             "requiredFates": 20,
             "patch": "7.0",
             "cPrev": [51],
             "cNext": [53]
         },
         "x53": {
-            "name": "@PLACE.LIVING_MEMORY 4",
+            "name": "@PLACE.DT.LIVING_MEMORY 4",
             "requiredFates": 40,
             "patch": "7.0",
             "cPrev": [52],

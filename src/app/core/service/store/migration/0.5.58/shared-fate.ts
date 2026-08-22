@@ -1,9 +1,11 @@
+import { ChangeStore, ID } from '@service/store/migration/ChangeStore';
+
 /** IDs made unique within all shared fates
  * */
-export function migrateSharedFate(store): void {
+export function migrateSharedFate(store: ChangeStore): void {
     const sharedFate = 'travel.shared-fate';
 
-    const changeAndMove = (zone, oldId, newId) => {
+    const changeAndMove = (zone: string, oldId: ID, newId: ID) => {
         store.changeKey(zone, oldId, newId);
         store.moveTask(zone, sharedFate, newId, true);
     };

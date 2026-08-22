@@ -3,7 +3,7 @@
     "groupName_en": "Raids",
     "groupName_fr": "Raids",
     "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
-    "headers": {
+    "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
         },
@@ -13,6 +13,9 @@
         "unlock": {
             "header": "@HEADER.UNLOCK",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     }
 }

@@ -1,95 +1,216 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit, signal, ViewChild } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
+import { MenuItem } from 'primeng/api';
+import { ButtonDirective } from 'primeng/button';
+import { TieredMenu } from 'primeng/tieredmenu';
 
 import { DataService } from '@data';
+import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
+import { TaskTableComponent } from '@component/task-table/task-table.component';
 import { DataGroup } from '@model/DataGroup';
+import { createDummyGroup } from '@model/DataGroup/createDataGroup/createDummyGroup';
 import { Task } from '@model/Task';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
-
-type ExpandedRows = {
-    [key: string]: boolean;
-};
 
 /**
  * View tasks by patch
  */
 @Component({
-    selector: 'xiv-patch-view',
+    selector: 'com-patch-view',
     templateUrl: './patch-view.component.html',
-    styleUrls: ['./patch-view.component.scss']
+    styleUrls: ['./patch-view.component.scss'],
+    imports: [
+        ButtonDirective,
+        TranslatePipe,
+        FormsModule,
+        TieredMenu,
+
+        SummaryLineComponent,
+        TaskTableComponent,
+    ]
 })
-export class PatchViewComponent {
-    patch: string;
-    patches: string[] = [];
+export class PatchViewComponent implements OnInit, OnDestroy {
+    patchMenuItem = signal<MenuItem[]>([]);
+    isFirstClick: boolean = true;
+
     tasksInPatch: Task[] = [];
 
-    rowKeys: string[] = [];
-    expandedRows: ExpandedRows = {};
-    willCollapseAll: boolean = false;
+    selectedPatch: string = '';
 
-    constructor(private svcData: DataService) {
-        this.getPatches();
+    patchViewGroup = signal(createDummyGroup({
+        isUiGroup: true
+    }));
+
+    constructor(
+        private svcData: DataService,
+        private translate: TranslateService,
+    ) {
+        this.buildPatchMenu();
+        this.patchViewGroup.update((group) => {
+            group.columns = [
+                {
+                    key: 'contentLink',
+                    header: translate.instant('APP.SEARCH.LINK'),
+                    taskLink: true,
+                },
+                {
+                    key: 'parentContentLink',
+                    header: translate.instant('APP.TABLE.GROUP'),
+                    groupLink: true,
+                    filterable: true,
+                }
+            ];
+            return group;
+        });
     }
 
-    getPatches(): void {
-        this.patches = [];
-        this.diveForPatches(this.svcData.data);
-        this.patches.sort(sortPatchStrings);
-        this.patches.reverse();
-        this.patches.push(' ');
+    ngOnInit() {
+        if(this.selectedPatch) this.getTasksByPatch();
     }
 
-    diveForPatches(group: DataGroup): void {
-        if(group.isBookmarkGroup || group.isCustomGroup) return;
+    ngOnDestroy() {
+        this.tasksInPatch.forEach((task) => {
+            delete task.parentContentLink;
+        });
+    }
+
+    _patchMenu: TieredMenu | undefined;
+    @ViewChild('patchMenu', { static: false }) set patchMenu(ref: TieredMenu) {
+        if(!ref) return;
+        this._patchMenu = ref;
+    }
+
+    onSelectorHide(): void {
+        this.isFirstClick = true;
+    }
+
+    buildPatchMenu(): void {
+        // Get an array of just the patch strings
+        const patches: string[] = [];
+        this.diveForPatches(this.svcData.data, patches);
+        patches.sort(sortPatchStrings);
+
+        // Create a map to group them by series (expansion)
+        const seriesMap: Record<string, MenuItem> = {};
+
+        patches.forEach((patch) => {
+            const [series, fullSubPatch] = patch.split('.');
+
+            if(!seriesMap[series]) {
+                const seriesPatch = `${series}.x`;
+                seriesMap[series] = {
+                    label: seriesPatch,
+                    items: [],
+                    command: () => {
+                        if(this.isFirstClick) {
+                            this.isFirstClick = false;
+                            return;
+                        }
+
+                        this.isFirstClick = true;
+                        this._patchMenu!.hide();
+                        this.selectedPatch = seriesPatch;
+                        this.getTasksByPatch();
+                    }
+                };
+            }
+
+            const subPatch = parseInt(fullSubPatch.charAt(0));
+            if(!seriesMap[series].items![subPatch]) {
+                const majorPatch = `${series}.${subPatch}x`;
+                seriesMap[series].items![subPatch] = {
+                    label: majorPatch,
+                    items: [],
+                    command: () => {
+                        this._patchMenu!.hide();
+                        this.selectedPatch = majorPatch;
+                        this.getTasksByPatch();
+                    }
+                };
+            }
+
+            seriesMap[series].items![subPatch].items!.push({
+                label: patch,
+                command: () => {
+                    this.selectedPatch = patch;
+                    this.getTasksByPatch();
+                }
+            });
+        });
+
+        // Convert the maps back to an arrays
+        const menuItems = Object.values(seriesMap);
+        menuItems.forEach((seriesItem) => {
+            seriesItem.items = seriesItem.items!.filter((x) => x);
+        });
+
+        // Add the blank patch item
+        menuItems.unshift({
+            label: this.translate.instant('APP.PATCH_VIEW.NO_PATCH'),
+            command: () => {
+                this.selectedPatch = ' ';
+                this.getTasksByPatch();
+            }
+        });
+
+        // fin
+        this.patchMenuItem.set(menuItems);
+    }
+
+    diveForPatches(group: DataGroup | null, patches: string[]): void {
+        if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
 
         group.tasks?.forEach((task) => {
             if(!task.patch) return;
-            if(!this.patches.includes(task.patch)) {
-                this.patches.push(task.patch);
+            if(!patches.includes(task.patch)) {
+                patches.push(task.patch);
             }
         });
 
-        group.subGroups?.forEach(this.diveForPatches.bind(this));
+        group.subGroups?.forEach((subGroup) => this.diveForPatches(subGroup, patches));
     }
 
     getTasksByPatch(): void {
+        this.tasksInPatch.forEach((task) => {
+            delete task.parentContentLink;
+        });
+
         this.tasksInPatch = [];
-        if(this.patch) this.diveForTasks(this.svcData.data);
+
+        if(this.selectedPatch) {
+            this.diveForTasks(this.svcData.data);
+
+            this.patchViewGroup.update((group) => {
+                group.name = this.selectedPatch;
+                group.tasks = [...this.tasksInPatch];
+                group.updated$.next();
+                return group;
+            });
+        }
     }
 
-    diveForTasks(group: DataGroup): void {
-        if(group.isBookmarkGroup || group.isCustomGroup) return;
+    diveForTasks(group: DataGroup | null): void {
+        if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
 
-        group.tasks?.forEach((task) => {
-            if(task.patch === this.patch || this.patch === ' ' && !task.patch) {
+        for(let task of group.tasks) {
+            let match: boolean = false;
+
+            if(this.selectedPatch === ' ') match = !task.patch;
+            else if(this.selectedPatch.includes('x')) match = this.getPatchRegex(this.selectedPatch).test(task.patch);
+            else match = this.selectedPatch === task.patch;
+
+            if(match) {
+                task.parentContentLink = task._parent.contentLink;
                 this.tasksInPatch.push(task);
             }
-        });
+        }
 
         group.subGroups?.forEach(this.diveForTasks.bind(this));
     }
 
-    setRowsExpanded(expanded: boolean): void {
-        this.rowKeys = this.tasksInPatch.map((task) => task._parent.fullStorageKey);
-
-        // Collapsed rows must use 'null' as the falsy value
-        this.expandedRows = this.rowKeys.reduce((acc, key) => {
-            acc[key] = expanded ? true : null;
-            return acc;
-        }, {});
-
-        this.willCollapseAll = expanded;
-    }
-
-    evaluateToggleAll($event, wasCollapse: boolean): void {
-        // PrimeNG deletes the key when collapsed, add it back in as null if collapsed
-        const rowKey = $event.data._parent.fullStorageKey;
-        if(!this.expandedRows[rowKey]) this.expandedRows[rowKey] = null;
-
-        const hasAnyCollapsed = this.rowKeys.some((key) => !this.expandedRows[key]);
-        const hasAnyExpanded = this.rowKeys.some((key) => this.expandedRows[key]);
-
-        if(wasCollapse) this.willCollapseAll = hasAnyExpanded;
-        else this.willCollapseAll = !hasAnyCollapsed;
+    getPatchRegex(wildcardPatch: string): RegExp {
+        return new RegExp(`^${wildcardPatch.replace('x', '\\d?')}$`);
     }
 
 }

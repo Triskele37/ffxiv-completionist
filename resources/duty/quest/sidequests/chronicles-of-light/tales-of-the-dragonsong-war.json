@@ -4,55 +4,55 @@
     "groupName_fr": "Guerre du chant des dragons - Réminiscences",
     "tasks": {
         "x67011": {
-            "level": 60,
             "name_en": "The Paths We Walk",
             "name_fr": "Voyage au cœur des souvenirs",
+            "level": 60,
             "npc_en": "House Fortemps Manservant",
             "npc_fr": "Serviteur Des Fortemps",
+            "patch": "3.3",
             "cPrev": ["q.67783"],
-            "cNext": ["q.67012"],
-            "patch": "4.31"
+            "cNext": ["q.67012"]
         },
         "x67012": {
-            "level": 60,
             "name_en": "The Oaths We Swear",
             "name_fr": "Dunes de sable et monts enneigés",
+            "level": 60,
             "npc_en": "Higiri",
             "npc_fr": "Higiri",
+            "patch": "3.3",
             "cPrev": ["q.67011"],
-            "cNext": ["q.67013"],
-            "patch": "4.31"
+            "cNext": ["q.67013"]
         },
         "x67013": {
-            "level": 60,
             "name_en": "The Legacies We Leave",
             "name_fr": "Aux confins de la mémoire",
+            "level": 60,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
+            "patch": "3.3",
             "cPrev": ["q.67012"],
-            "cNext": ["q.67014"],
-            "patch": "4.31"
+            "cNext": ["q.67014"]
         },
         "x67014": {
-            "level": 60,
             "name_en": "The Triumphs We Share",
             "name_fr": "Sauver de l'oubli",
+            "level": 60,
             "npc_en": "Sultansworn Elite",
             "npc_fr": "Casque D'argent",
+            "patch": "3.3",
             "cPrev": ["q.67013"],
-            "cNext": ["q.67015"],
-            "patch": "4.31"
+            "cNext": ["q.67015"]
         },
         "x67015": {
-            "level": 60,
             "name_en": "The Burdens We Bear",
             "name_fr": "Le sourire de l'amitié",
+            "level": 60,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "unlock": "e.127",
+            "patch": "3.3",
             "cPrev": ["q.67014"],
-            "cSiblings": ["a.1595", "e.127"],
-            "patch": "4.31",
-            "unlock": "e.127"
+            "cSiblings": ["a.1595", "e.127"]
         }
     }
 }

@@ -4,36 +4,45 @@
     display: contents;
 
     .actions-cell {
+        vertical-align: middle;
         width: 45px;
 
-        .action-dial ::ng-deep .p-button {
+        .action-dial.p-button {
             height: $button-size;
             width: $button-size;
         }
 
-        .actions {
+        .actions-container {
             position: absolute;
-            display: flex;
-            right: 50px;
+            right: 10px;
             margin-top: -$button-size;
             z-index: 1;
             cursor: default;
 
-            > * {
-                position: relative;
+            .actions {
+                display: flex;
 
-                &:not(:last-child):after {
-                    content: "";
+                > * {
+                    position: relative;
+
+                    &:not(:last-child):after {
+                        content: "";
+                        background: var(--surface-500);
+                        border: 1px solid var(--primary-color);
+
+                        width: 35px;
+                        height: $button-size;
+
+                        top: 0;
+                        left: calc(35px / 2);
+                        position: absolute;
+                        z-index: -1;
+                    }
+                }
+
+                .close-dial {
                     background: var(--surface-500);
-                    border: 1px solid var(--primary-color);
-
-                    width: 35px;
-                    height: $button-size - 2;
-
-                    top: 0;
-                    left: calc(35px / 2);
-                    position: absolute;
-                    z-index: -1;
+                    color: var(--text-color);
                 }
             }
         }

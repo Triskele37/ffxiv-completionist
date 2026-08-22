@@ -1,306 +1,306 @@
 {
     "key": "coerthas-central-highlands",
-    "groupName": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+    "groupName": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
     "tasks": {
         "x460": {
-            "level": 35,
             "name_en": "Twelve Ilms of Snow",
             "name_fr": "Un loup pour l'homme",
+            "level": 35,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x464": {
-            "level": 35,
             "name_en": "Gavial",
             "name_fr": "Défi : cric, crac, croc !",
+            "level": 35,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(24, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x466": {
-            "level": 35,
             "name_en": "A Log Up",
             "name_fr": "Prier sa bonne étoile",
+            "level": 35,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(26, 27)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.1"
         },
         "x463": {
-            "level": 36,
             "name_en": "Baa Baa Black Sheep",
             "name_fr": "Défi : tondre le mouton noir",
+            "level": 36,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x465": {
-            "level": 36,
             "name_en": "Whiteout",
             "name_fr": "Conte d'hiver",
+            "level": 36,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x467": {
-            "level": 36,
             "name_en": "Croc-y Road",
             "name_fr": "Imbroglio avec crocos",
+            "level": 36,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x491": {
-            "level": 36,
             "name_en": "Wish Upon a Star",
             "name_fr": "Ce que disent les étoiles",
+            "level": 36,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(26, 28)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.1"
         },
         "x473": {
-            "level": 37,
             "name_en": "A Fire in the Distance",
             "name_fr": "Le comble de la crevasse",
+            "level": 37,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(31, 12)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x474": {
-            "level": 37,
             "name_en": "Coming to a Head",
             "name_fr": "Ici sont les dragons",
+            "level": 37,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 15)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x469": {
-            "level": 38,
             "name_en": "The Grey",
             "name_fr": "Dans la gueule du piège",
+            "level": 38,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(27, 11)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.1"
         },
         "x470": {
-            "level": 38,
             "name_en": "Simply Red",
             "name_fr": "Pillards à corne rouge",
+            "level": 38,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 13)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x472": {
-            "level": 38,
             "name_en": "Spring Forward, Fall Back",
             "name_fr": "La source des ennuis",
+            "level": 38,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(31, 7)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.1"
         },
         "x501": {
-            "level": 38,
             "name_en": "Svara's Flight",
             "name_fr": "Svara s'en est venu : dragon en vue",
+            "level": 38,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(26, 15)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.1"
         },
         "x502": {
-            "level": 38,
             "name_en": "Svara's Fear",
             "name_fr": "Svara s'en est venu : le siège",
+            "level": 38,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 8)",
-            "patch": "2.1",
-            "previousFate": "f.501",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.501",
+            "patch": "2.1"
         },
         "x503": {
-            "level": 38,
             "name_en": "Svara's Fall",
             "name_fr": "Svara s'en est venu : les canons anti-dragon",
+            "level": 38,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 7)",
-            "patch": "2.1",
-            "previousFate": "f.502",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.502",
+            "patch": "2.1"
         },
         "x504": {
-            "level": 38,
             "name_en": "Svara's Fury",
             "name_fr": "Svara s'en est venu : la colère du dragon",
+            "level": 38,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 15)",
-            "patch": "2.1",
-            "previousFate": "f.502",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.502",
+            "patch": "2.1"
         },
         "x475": {
-            "level": 39,
             "name_en": "Bellyful",
             "name_fr": "Défi : dans la gamelle de Gargamelle",
+            "level": 39,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34, 14)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x479": {
-            "level": 39,
             "name_en": "A Freeze Is Coming",
             "name_fr": "Défi : glacial et mortel",
+            "level": 39,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x483": {
-            "level": 39,
             "name_en": "Judge, Jury, and Executioner",
             "name_fr": "Le dernier rempart du jugement",
+            "level": 39,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 17)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x494": {
-            "level": 39,
             "name_en": "Roc of Ages",
             "name_fr": "Défi : volatile pêcheur",
+            "level": 39,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 17)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x507": {
-            "level": 39,
             "name_en": "The Eyes Have It",
             "name_fr": "Défi : l'œil de la tête",
+            "level": 39,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x480": {
-            "level": 40,
             "name_en": "Giant Seps",
             "name_fr": "Défi : le dernier jour de Seps",
+            "level": 40,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(8, 11)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x482": {
-            "level": 40,
             "name_en": "Riddle Me This",
             "name_fr": "Savoir asséner la bonne réponse",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(9, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x493": {
-            "level": 40,
             "name_en": "The Taste of Fear",
             "name_fr": "Défi : se battre Sobek et ongles",
+            "level": 40,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(5, 22)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x496": {
-            "level": 40,
             "name_en": "Front and Center",
             "name_fr": "Qu'ils s'arrêtent à l'Arête",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10, 15)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x497": {
-            "level": 40,
             "name_en": "If This Wall Could Talk",
             "name_fr": "Élémentaires à congeler",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 18)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x484": {
-            "level": 45,
             "name_en": "In the Saint's Wake",
             "name_fr": "Défi : périlleuse pérégrination",
+            "level": 45,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x486": {
-            "level": 45,
             "name_en": "Tower of Power",
             "name_fr": "Un giga problème",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10, 28)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x490": {
-            "level": 46,
             "name_en": "The Bigger They Are",
             "name_fr": "Défi : que ferait un géant sans son chef ?",
+            "level": 46,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 25)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x487": {
-            "level": 47,
             "name_en": "Turn Off Your Hearthlight",
             "name_fr": "Durendaire dur à cuire",
+            "level": 47,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 30)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x489": {
-            "level": 47,
             "name_en": "What's on Your Mind",
             "name_fr": "Ce qui vient du néant doit y repartir",
+            "level": 47,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(9, 27)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x498": {
-            "level": 48,
             "name_en": "Does Anyone Hear It",
             "name_fr": "Déforestation sauvage",
+            "level": 48,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x499": {
-            "level": 49,
             "name_en": "The Four Winds",
             "name_fr": "Défi : les quatre sœurs du malheur",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x500": {
-            "level": 49,
             "name_en": "Inspector Hatchet",
             "name_fr": "Défi : le tronçonneur",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(33, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x508": {
-            "level": 49,
             "name_en": "The Storm Caller",
             "name_fr": "Défi : le prophète du vent",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(33, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x505": {
-            "level": 50,
             "name_en": "Behold Now Behemoth",
             "name_fr": "Défi : l'ire du béhémoth",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(6, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x506": {
-            "level": 50,
             "name_en": "He Taketh It with His Eyes",
             "name_fr": "Défi : contre-traque",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(4, 15)",
-            "patch": "2.1",
-            "previousFate": "f.505",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.505",
+            "patch": "2.1"
         }
     }
 }

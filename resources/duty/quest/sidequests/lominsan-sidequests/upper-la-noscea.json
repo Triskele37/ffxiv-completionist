@@ -4,60 +4,60 @@
     "groupName_fr": "Haute-Noscea",
     "tasks": {
         "x66271": {
-            "level": 23,
             "name_en": "The Hottest of Box Lunches",
             "name_fr": "Le repas de Tanga Tonga",
+            "level": 23,
             "npc_en": "Gegeroon",
             "npc_fr": "Gegeroon",
-            "cNext": ["q.66272"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66272"]
         },
         "x66272": {
-            "level": 23,
             "name_en": "Buried Truth",
             "name_fr": "Les restes de Thalaos",
+            "level": 23,
             "npc_en": "Tanga Tonga",
             "npc_fr": "Tanga Tonga",
-            "cPrev": ["q.66271"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66271"]
         },
         "x66394": {
-            "level": 34,
             "name_en": "One Swallow Does Not a Victory Make",
             "name_fr": "L'appel du front",
+            "level": 34,
             "npc_en": "Blaugybal",
             "npc_fr": "Blaugybal",
+            "patch": "2.0",
             "cPrev": ["q.66393"],
-            "cNext": ["q.66395"],
-            "patch": "4.31"
+            "cNext": ["q.66395"]
         },
         "x66402": {
-            "level": 34,
             "name_en": "The Monster of Bronze Lake",
             "name_fr": "Des doigts de fée",
+            "level": 34,
             "npc_en": "Rukusa Farusa",
             "npc_fr": "Rukusa Farusa",
+            "patch": "2.0",
             "cPrev": ["q.66393"],
-            "cNext": ["q.66404"],
-            "patch": "4.31"
+            "cNext": ["q.66404"]
         },
         "x66403": {
-            "level": 34,
             "name_en": "Red, Red Wine",
             "name_fr": "Du vin chaud pour soigner",
+            "level": 34,
             "npc_en": "A'rhunlika",
             "npc_fr": "A'rhunlika",
-            "cPrev": ["q.66393"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66393"]
         },
         "x66404": {
-            "level": 34,
             "name_en": "The Adventure of the Fainting Goldsmith",
             "name_fr": "Une bonne douche froide",
+            "level": 34,
             "npc_en": "Rukusa Farusa",
             "npc_fr": "Rukusa Farusa",
-            "cPrev": ["q.66402"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66402"]
         }
     }
 }

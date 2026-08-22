@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, effect, OnInit, signal, untracked, ViewChild } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { PanelMenu } from 'primeng/panelmenu';
+import { Tooltip } from 'primeng/tooltip';
+import { Subscription } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
@@ -8,24 +11,34 @@ import { isComplete, isEmpty } from '@model/DataGroup/completion/metrics';
 import { isHiddenGroup } from '@model/DataGroup/ui/isHiddenGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
+import { ViewToken } from '@view/view-token';
 
 @Component({
-    selector: 'xiv-nav-drawer',
+    selector: 'com-nav-drawer',
     templateUrl: './nav-drawer.component.html',
-    styleUrls: ['./nav-drawer.component.scss']
+    styleUrls: ['./nav-drawer.component.scss'],
+    imports: [
+        PanelMenu,
+        Tooltip
+    ]
 })
 export class NavDrawerComponent implements OnInit {
-    items: MenuItem[] = [];
+    // Making this a signal breaks the app
+    items = signal<MenuItem[]>([]);
 
     constructor(
         private svcBookmark: BookmarkService,
         private svcConfig: ConfigStoreService,
+        private svcCustomContent: CustomContentService,
         private svcData: DataService,
         private svcMainMenu: MainMenuService,
-        private svcNavigation: NavigationService
+        public svcNavigation: NavigationService
     ) {
+        // Collapse all groups not in the direct path of the selected group
+        effect(() => this.onSelectedGroupChange());
     }
 
     ngOnInit(): void {
@@ -37,109 +50,140 @@ export class NavDrawerComponent implements OnInit {
         // Update items if any config changes, some affect display
         this.svcConfig.navSettingUpdated$.subscribe(this.buildMenuItems.bind(this));
 
-        // Collapse all groups not in the direct path of the selected group
-        this.svcNavigation.selectedGroup$.subscribe((group) => {
-            let path = group ? getGroupPath(group) : null;
-
-            if(path) {
-                // Remove the "overall" data container
-                if(!group.isUiGroup) path = path.slice(1);
-
-                this.items = this.updateItemCollapse(this.items, path);
-            }
-        });
-
         // Update visible state for "show completed/empty" settings
         this.svcData.data.onUpdated$.subscribe(() => {
-            this.items = this.updateItemFromDataChange(this.items);
+            this.items.set(this.updateItemFromDataChange(this.items()) ?? []);
         });
 
         this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
+        this.svcCustomContent.onGroupUpdated$.subscribe(this.updateCustomGroup.bind(this));
+    }
+
+    _panelMenu: PanelMenu | undefined;
+    @ViewChild('panelMenu', { static: false }) set panelMenu(ref: PanelMenu) {
+        if(!ref) return;
+        this._panelMenu = ref;
+    }
+
+    onSelectedGroupChange() {
+        const group = this.svcNavigation.selectedGroup();
+
+        if(group) {
+            // Remove the "overall" data container
+            // if(!group.isUiGroup) path = path.slice(1);
+
+            const currentItems = untracked(() => this.items());
+            this.items.set(this.updateItemCollapse(currentItems));
+            this._panelMenu?.cd.markForCheck();
+        }
     }
 
     buildMenuItems(): void {
-        this.items = [this.addSubGroup(this.svcMainMenu.data)];
+        const items = [this.addSubGroup(this.svcMainMenu.data)];
 
-        this.svcData.data.subGroups.forEach((subGroup) => {
-            this.items.push(this.addSubGroup(subGroup));
+        this.svcData.data.subGroups?.forEach((subGroup) => {
+            if(subGroup) items.push(this.addSubGroup(subGroup));
         });
+
+        this.items.set(this.updateItemCollapse(items));
     }
 
     updateBookmarkGroup() {
-        const bookmarksIndex = this.items.findIndex(
-            (item) => item.state.group.name === this.svcBookmark.group.name
+        const groupIndex = this.items().findIndex(
+            (item) => item.state?.group.name === this.svcBookmark.group.name
         );
 
-        this.items[bookmarksIndex] = this.addSubGroup(this.svcBookmark.group);
+        this.items.update((items) => {
+            items[groupIndex] = this.addSubGroup(this.svcBookmark.group);
+            return [...items];
+        });
+    }
 
-        // Mutate "items" so changes are detected
-        this.items = [...this.items];
+    updateCustomGroup() {
+        const groupIndex = this.items().findIndex(
+            (item) => item.state?.group.name === this.svcCustomContent.group.name
+        );
+
+        this.items.update((items) => {
+            items[groupIndex] = this.addSubGroup(this.svcCustomContent.group);
+            return this.updateItemCollapse(items);
+        });
     }
 
     // Recursive: Builds a MenuItem for all data groups
     addSubGroup(group: DataGroup, depth: number = 1): MenuItem {
         const item: MenuItem = {
-            label: this.getSubGroupLabel(group),
             escape: false,
             // Allow UI groups to hide themselves
             visible: group.visible && !isHiddenGroup(group, this.svcConfig),
-            state: { group }
+            state: {
+                group,
+                activeHelp: this.getActiveHelpKey(group),
+                isComplete: isComplete(group),
+                isEmpty: isEmpty(group),
+            }
         };
 
         // Add "sub" MenuItems if this group has subGroups
         if(group.subGroups?.size) {
             item.items = [];
             group.subGroups.forEach((subGroup) => {
-                item.items.push(this.addSubGroup(subGroup, depth + 1));
+                if(subGroup) item.items?.push(this.addSubGroup(subGroup, depth + 1));
             });
         }
 
         // The callback when the MenuItem is clicked
         item.command = () => {
-            const selectedGroup = this.svcNavigation.selectedGroup$.value;
+            const selectedGroup = this.svcNavigation.selectedGroup();
+            if(!selectedGroup) return;
+
             const selectedPath = getGroupPath(selectedGroup).join('.');
             const addingPath = getGroupPath(group).join('.');
             const isSameGroup = selectedPath === addingPath;
 
-            this.svcNavigation.setSelectedGroup(isSameGroup ? group._parent : group);
+            const newSelectedGroup = isSameGroup ? group._parent : group;
+            if(newSelectedGroup) this.svcNavigation.setSelectedGroup(newSelectedGroup);
         };
 
         return item;
     }
 
-    getSubGroupLabel(group: DataGroup): string {
-        let label = `<span class="group-label">${group.name}</span>`;
+    getActiveHelpKey(group: DataGroup): string {
+        if(group.isUiGroup) {
+            if(group.component === ViewToken.PatchNotes) return 'APP.ACTIVE_HELP.UPDATES';
+            if(group.component === ViewToken.PatchView) return 'APP.ACTIVE_HELP.PATCH_VIEW';
+            if(group.component === ViewToken.Random) return 'APP.ACTIVE_HELP.RANDOM_VIEW';
+            if(group.component === ViewToken.ChainAnalysis) return 'APP.ACTIVE_HELP.CHAIN_ANALYSIS';
+            if(group.component === ViewToken.Settings) return 'APP.ACTIVE_HELP.SETTINGS';
+        }
 
-        // Don't modify UI groups
-        if(group.isUiGroup) return label;
-
-        if(isComplete(group)) label += '<i class="mi mi-star"></i>';
-        else if(isEmpty(group)) label += '<i class="mi mi-star empty"></i>';
-
-        return label;
+        if(group._key === 'custom') return 'APP.ACTIVE_HELP.CUSTOM_VIEW';
+        else if(group.isBookmarkGroup) return 'APP.ACTIVE_HELP.BOOKMARK_VIEW';
+        return 'APP.ACTIVE_HELP.NAV_DRAWER.DRAWER_ITEM';
     }
 
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
-    updateItemCollapse(
-        items: MenuItem[] | undefined,
-        [...path]: string[],
-    ): MenuItem[] | undefined {
-        const name = path.shift();
+    updateItemCollapse(items: MenuItem[] | undefined): MenuItem[] {
+        const selectedGroupKey = this.svcNavigation.selectedGroup()?.fullStorageKey;
 
         return items?.map((menuItem) => ({
             ...menuItem,
-            expanded: menuItem.state.group.name === name,
-            items: this.updateItemCollapse(menuItem.items, path)
-        }));
+            expanded: selectedGroupKey?.startsWith(menuItem.state?.group.fullStorageKey),
+            items: this.updateItemCollapse(menuItem.items)
+        })) ?? [];
     }
 
     // Recursive: Updates the visible state of all MenuItems
     updateItemFromDataChange(items: MenuItem[] | undefined): MenuItem[] | undefined {
         return items?.map((menuItem) => ({
             ...menuItem,
-            label: this.getSubGroupLabel(menuItem.state.group),
-            visible: menuItem.state.group.visible && !isHiddenGroup(menuItem.state.group, this.svcConfig),
-            items: this.updateItemFromDataChange(menuItem.items)
+            visible: menuItem.state?.group.visible && !isHiddenGroup(menuItem.state.group, this.svcConfig),
+            items: this.updateItemFromDataChange(menuItem.items),
+            state: {
+                ...menuItem.state,
+                isComplete: isComplete(menuItem.state!.group),
+                isEmpty: isEmpty(menuItem.state!.group),
+            },
         }));
     }
 }

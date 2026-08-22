@@ -2,7 +2,7 @@
     "key": "buildings",
     "groupName_en": "Buildings",
     "groupName_fr": "Installations",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -13,95 +13,112 @@
         "unlocks": {
             "header": "@HEADER.UNLOCK",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "name_en": "Cozy Cabin I",
             "name_fr": "Hutte placide I",
+            "requires": "duty.island-sanctuary.rank.0",
             "unlocks": ["duty.island-sanctuary.buildings.3", "duty.island-sanctuary.buildings.7"],
-            "requires": "duty.island-sanctuary.rank.0"
+            "patch": "6.2"
         },
         "x1": {
             "name_en": "Cozy Cabin II",
             "name_fr": "Hutte placide II",
+            "requires": "duty.island-sanctuary.rank.3",
             "unlocks": ["duty.island-sanctuary.buildings.4", "duty.island-sanctuary.buildings.8"],
-            "requires": "duty.island-sanctuary.rank.3"
+            "patch": "6.2"
         },
         "x2": {
             "name_en": "Cozy Cabin III",
             "name_fr": "Hutte placide III",
+            "requires": "duty.island-sanctuary.rank.6",
             "unlocks": ["duty.island-sanctuary.buildings.5", "duty.island-sanctuary.buildings.9"],
-            "requires": "duty.island-sanctuary.rank.6"
+            "patch": "6.2"
         },
         "x22": {
             "name_en": "Cozy Cabin IV",
             "name_fr": "Hutte placide IV",
-            "requires": "duty.island-sanctuary.rank.12"
+            "requires": "duty.island-sanctuary.rank.12",
+            "patch": "6.4"
         },
         "x23": {
             "name_en": "Cozy Cabin V",
             "name_fr": "Hutte placide V",
-            "requires": "duty.island-sanctuary.rank.16"
+            "requires": "duty.island-sanctuary.rank.16",
+            "patch": "6.5"
         },
         "x3": {
             "name_en": "Cropland I",
             "name_fr": "Terre arable I",
+            "requires": "duty.island-sanctuary.rank.1",
             "unlocks_en": "+5 Plots",
             "unlocks_fr": "+5 Parcelles",
-            "requires": "duty.island-sanctuary.rank.1"
+            "patch": "6.2"
         },
         "x4": {
             "name_en": "Cropland II",
             "name_fr": "Terre arable II",
+            "requires": "duty.island-sanctuary.rank.3",
             "unlocks_en": "+5 Plots",
             "unlocks_fr": "+5 Parcelles",
-            "requires": "duty.island-sanctuary.rank.3"
+            "patch": "6.2"
         },
         "x5": {
             "name_en": "Cropland III",
             "name_fr": "Terre arable III",
+            "requires": "duty.island-sanctuary.rank.6",
             "unlocks_en": "+10 Plots",
             "unlocks_fr": "+10 Parcelles",
-            "requires": "duty.island-sanctuary.rank.6"
+            "patch": "6.2"
         },
         "x6": {
             "name_en": "Cropland Automation",
             "name_fr": "Automatisation des champs",
-            "requires": "duty.island-sanctuary.buildings.5"
+            "requires": "duty.island-sanctuary.buildings.5",
+            "patch": "6.2"
         },
         "x7": {
             "name_en": "Pasture I",
             "name_fr": "Pâturage I",
+            "requires": "duty.island-sanctuary.rank.1",
             "unlocks_en": "+5 Animal Slots",
             "unlocks_fr": "+5 Animaux",
-            "requires": "duty.island-sanctuary.rank.1"
+            "patch": "6.2"
         },
         "x8": {
             "name_en": "Pasture II",
             "name_fr": "Pâturage II",
+            "requires": "duty.island-sanctuary.rank.3",
             "unlocks_en": "+5 Animal Slots",
             "unlocks_fr": "+5 Animaux",
-            "requires": "duty.island-sanctuary.rank.3"
+            "patch": "6.2"
         },
         "x9": {
             "name_en": "Pasture III",
             "name_fr": "Pâturage III",
+            "requires": "duty.island-sanctuary.rank.6",
             "unlocks_en": "+10 Animal Slots",
             "unlocks_fr": "+10 Animaux",
-            "requires": "duty.island-sanctuary.rank.6"
+            "patch": "6.2"
         },
         "x10": {
             "name_en": "Pasture Automation",
             "name_fr": "Automatisation du pâturage",
-            "requires": "duty.island-sanctuary.buildings.9"
+            "requires": "duty.island-sanctuary.buildings.9",
+            "patch": "6.2"
         },
         "x11": {
             "name_en": "Granary I",
             "name_fr": "Grange I",
+            "requires": "duty.island-sanctuary.rank.4",
             "unlocks_en": "2 rare items per expedition",
             "unlocks_fr": "2 Objets rares par expédition",
-            "requires": "duty.island-sanctuary.rank.4",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -109,9 +126,10 @@
         "x12": {
             "name_en": "Granary II",
             "name_fr": "Grange II",
+            "requires": "duty.island-sanctuary.rank.5",
             "unlocks_en": "3 rare items per expedition",
             "unlocks_fr": "3 Objets rares par expédition",
-            "requires": "duty.island-sanctuary.rank.5",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -119,9 +137,10 @@
         "x13": {
             "name_en": "Granary III",
             "name_fr": "Grange III",
+            "requires": "duty.island-sanctuary.rank.7",
             "unlocks_en": "4 rare items per expedition",
             "unlocks_fr": "4 Objets rares par expédition",
-            "requires": "duty.island-sanctuary.rank.7",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -129,9 +148,10 @@
         "x26": {
             "name_en": "Granary IV",
             "name_fr": "Grange IV",
+            "requires": "duty.island-sanctuary.rank.13",
             "unlocks_en": "5 rare items per expedition",
             "unlocks_fr": "5 Objets rares par expédition",
-            "requires": "duty.island-sanctuary.rank.13",
+            "patch": "6.4",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -139,9 +159,10 @@
         "x27": {
             "name_en": "Granary V",
             "name_fr": "Grange V",
+            "requires": "duty.island-sanctuary.rank.17",
             "unlocks_en": "6 rare items per expedition",
             "unlocks_fr": "6 Objets rares par expédition",
-            "requires": "duty.island-sanctuary.rank.17",
+            "patch": "6.5",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -150,6 +171,7 @@
             "name_en": "Workshop I",
             "name_fr": "Fabrique I",
             "requires": "duty.island-sanctuary.rank.2",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 4
@@ -157,9 +179,10 @@
         "x15": {
             "name_en": "Workshop II",
             "name_fr": "Fabrique II",
+            "requires": "duty.island-sanctuary.rank.5",
             "unlocks_en": "10% Craft Profit",
             "unlocks_fr": "10% Profit des ventes",
-            "requires": "duty.island-sanctuary.rank.5",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 4
@@ -167,9 +190,10 @@
         "x16": {
             "name_en": "Workshop III",
             "name_fr": "Fabrique III",
+            "requires": "duty.island-sanctuary.rank.7",
             "unlocks_en": "20% Craft Profit",
             "unlocks_fr": "20% Profit des ventes",
-            "requires": "duty.island-sanctuary.rank.7",
+            "patch": "6.2",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 4
@@ -177,9 +201,10 @@
         "x24": {
             "name_en": "Workshop IV",
             "name_fr": "Fabrique IV",
+            "requires": "duty.island-sanctuary.rank.13",
             "unlocks_en": "30% Craft Profit",
             "unlocks_fr": "30% Profit des ventes",
-            "requires": "duty.island-sanctuary.rank.13",
+            "patch": "6.4",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 4
@@ -187,9 +212,10 @@
         "x25": {
             "name_en": "Workshop V",
             "name_fr": "Fabrique V",
+            "requires": "duty.island-sanctuary.rank.18",
             "unlocks_en": "40% Craft Profit",
             "unlocks_fr": "40% Profit des ventes",
-            "requires": "duty.island-sanctuary.rank.18",
+            "patch": "6.5",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 4
@@ -197,60 +223,70 @@
         "x17": {
             "name_en": "Quixotic Windmill",
             "name_fr": "Moulin",
+            "requires": "duty.island-sanctuary.rank.2",
             "unlocks_en": "+5 Max Groove",
             "unlocks_fr": "+5 Enthousiasme max",
-            "requires": "duty.island-sanctuary.rank.2"
+            "patch": "6.2"
         },
         "x18": {
             "name_en": "Towering Tree Fort",
             "name_fr": "Cabane forestière",
+            "requires": "duty.island-sanctuary.rank.2",
             "unlocks_en": "+5 Max Groove",
             "unlocks_fr": "+5 Enthousiasme max",
-            "requires": "duty.island-sanctuary.rank.2"
+            "patch": "6.2"
         },
         "x19": {
             "name_en": "Boiling Bathhouse",
             "name_fr": "Sources thermales",
+            "requires": "duty.island-sanctuary.rank.4",
             "unlocks_en": "+5 Max Groove",
             "unlocks_fr": "+5 Enthousiasme max",
-            "requires": "duty.island-sanctuary.rank.4"
+            "patch": "6.2"
         },
         "x20": {
             "name_en": "Lominsan Lighthouse",
             "name_fr": "Phare",
+            "requires": "duty.island-sanctuary.rank.8",
             "unlocks_en": "+10 Max Groove",
             "unlocks_fr": "+10 Enthousiasme max",
-            "requires": "duty.island-sanctuary.rank.8"
+            "patch": "6.2"
         },
         "x21": {
             "name_en": "Water Otter Fountain",
             "name_fr": "Fontaine ressourçante",
-            "requires": "duty.island-sanctuary.rank.8"
+            "requires": "duty.island-sanctuary.rank.8",
+            "patch": "6.2"
         },
         "x28": {
             "name_en": "Gamboling Garden",
             "name_fr": "Jardin insulaire",
-            "requires": "duty.island-sanctuary.rank.11"
+            "requires": "duty.island-sanctuary.rank.11",
+            "patch": "6.3"
         },
         "x29": {
             "name_en": "Quaint Clock Tower",
             "name_fr": "Beffroi insulaire",
-            "requires": "duty.island-sanctuary.rank.14"
+            "requires": "duty.island-sanctuary.rank.14",
+            "patch": "6.4"
         },
         "x30": {
             "name_en": "Uncharted Course",
             "name_fr": "Accrobranche insulaire",
-            "requires": "duty.island-sanctuary.rank.15"
+            "requires": "duty.island-sanctuary.rank.15",
+            "patch": "6.4"
         },
         "x31": {
             "name_en": "Sanctuary Sanctuary",
             "name_fr": "Sanctuaire insulaire",
-            "requires": "duty.island-sanctuary.rank.18"
+            "requires": "duty.island-sanctuary.rank.18",
+            "patch": "6.5"
         },
         "x32": {
             "name_en": "Aetherial Arbor",
             "name_fr": "Arbre magique insulaire",
-            "requires": "duty.island-sanctuary.rank.18"
+            "requires": "duty.island-sanctuary.rank.18",
+            "patch": "6.5"
         }
     }
 }

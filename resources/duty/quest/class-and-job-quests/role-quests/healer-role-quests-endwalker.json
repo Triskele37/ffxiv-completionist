@@ -4,64 +4,64 @@
     "groupName_fr": "Quêtes de soigneur (Endwalker)",
     "tasks": {
         "x69644": {
-            "level": 85,
             "name_en": "Far from Free",
             "name_fr": "Paix à deux vitesses",
+            "level": 85,
             "npc_en": "Ala Mhigan Delegate",
             "npc_fr": "Attaché Militaire D'Ala Mhigo",
+            "patch": "6.0",
             "cPrev": ["q.69954"],
-            "cNext": ["q.69645"],
-            "patch": "6.0"
+            "cNext": ["q.69645"]
         },
         "x69645": {
-            "level": 86,
             "name_en": "The Butcher's Blade",
             "name_fr": "Le spectre de l'Exécutrice",
+            "level": 86,
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate de la B.A.H.",
+            "patch": "6.0",
             "cPrev": ["q.69644"],
-            "cNext": ["q.69646"],
-            "patch": "6.0"
+            "cNext": ["q.69646"]
         },
         "x69646": {
-            "level": 87,
             "name_en": "A New Battleground",
             "name_fr": "Le héros sans arme",
+            "level": 87,
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate de la B.A.H.",
+            "patch": "6.0",
             "cPrev": ["q.69645"],
-            "cNext": ["q.69647"],
-            "patch": "6.0"
+            "cNext": ["q.69647"]
         },
         "x69647": {
-            "level": 88,
             "name_en": "Laying the Past to Rest",
             "name_fr": "Ressouder les cœurs",
+            "level": 88,
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate de la B.A.H.",
+            "patch": "6.0",
             "cPrev": ["q.69646"],
-            "cNext": ["q.69648"],
-            "patch": "6.0"
+            "cNext": ["q.69648"]
         },
         "x69648": {
-            "level": 89,
             "name_en": "Trail of Skulls",
             "name_fr": "Une piste mortuaire",
+            "level": 89,
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate de la B.A.H.",
+            "patch": "6.0",
             "cPrev": ["q.69647"],
-            "cNext": ["q.69649"],
-            "patch": "6.0"
+            "cNext": ["q.69649"]
         },
         "x69649": {
-            "level": 90,
             "name_en": "The Gift of Mercy",
             "name_fr": "Acceptation",
+            "level": 90,
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate de la B.A.H.",
+            "patch": "6.0",
             "cPrev": ["q.69648"],
-            "cSiblings": ["a.2962"],
-            "patch": "6.0"
+            "cSiblings": ["a.2962"]
         }
     }
 }

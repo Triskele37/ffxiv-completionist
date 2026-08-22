@@ -1,46 +1,50 @@
-.p-dataview {
-    .p-paginator-top {
-        border-width: $tableTopPaginatorBorderWidth;
-        border-radius: 0;
-    }
+@use "../../_variables";
 
-    .p-paginator-bottom {
-        border-width: $tableBottomPaginatorBorderWidth;
-        border-radius: 0;
-    }
+@layer primeng {
+    .p-dataview {
+        .p-paginator-top {
+            border-width: variables.$tableTopPaginatorBorderWidth;
+            border-radius: 0;
+        }
 
-    .p-dataview-header {
-        background: $tableHeaderBg;
-        color: $tableHeaderTextColor;
-        border: $tableHeaderBorder;
-        border-width: $tableHeaderBorderWidth;
-        padding: $tableHeaderPadding;
-        font-weight: $tableHeaderFontWeight;
-    }
+        .p-paginator-bottom {
+            border-width: variables.$tableBottomPaginatorBorderWidth;
+            border-radius: 0;
+        }
 
-    .p-dataview-content {
-        background: $tableBodyRowBg;
-        color: $tableBodyRowTextColor;
-        border: $dataViewContentBorder;
-        padding: $dataViewContentPadding;
-    }
+        .p-dataview-header {
+            background: variables.$tableHeaderBg;
+            color: variables.$tableHeaderTextColor;
+            border: variables.$tableHeaderBorder;
+            border-width: variables.$tableHeaderBorderWidth;
+            padding: variables.$tableHeaderPadding;
+            font-weight: variables.$tableHeaderFontWeight;
+        }
 
-    .p-dataview-footer {
-        background: $tableFooterBg;
-        color: $tableFooterTextColor;
-        border: $tableFooterBorder;
-        border-width: $tableFooterBorderWidth;
-        padding: $tableFooterPadding;
-        font-weight: $tableFooterFontWeight;
-        border-bottom-left-radius: var(--border-radius);
-        border-bottom-right-radius: var(--border-radius);
-    }
+        .p-dataview-content {
+            background: variables.$tableBodyRowBg;
+            color: variables.$tableBodyRowTextColor;
+            border: variables.$dataViewContentBorder;
+            padding: variables.$dataViewContentPadding;
+        }
 
-    .p-dataview-loading-icon {
-        font-size: $loadingIconFontSize;
-    }
+        .p-dataview-footer {
+            background: variables.$tableFooterBg;
+            color: variables.$tableFooterTextColor;
+            border: variables.$tableFooterBorder;
+            border-width: variables.$tableFooterBorderWidth;
+            padding: variables.$tableFooterPadding;
+            font-weight: variables.$tableFooterFontWeight;
+            border-bottom-left-radius: var(--border-radius);
+            border-bottom-right-radius: var(--border-radius);
+        }
 
-    .p-dataview-emptymessage {
-        padding: $panelContentPadding;
+        .p-dataview-loading-icon {
+            font-size: variables.$loadingIconFontSize;
+        }
+
+        .p-dataview-emptymessage {
+            padding: variables.$panelContentPadding;
+        }
     }
 }

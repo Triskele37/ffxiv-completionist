@@ -4,34 +4,34 @@
     "groupName_fr": "Quêtes des façonniers",
     "tasks": {
         "x68766": {
-            "level": 70,
             "name_en": "Cherished Memories",
             "name_fr": "Sauvegarde 001 [Du nouveau chez les façonniers]",
+            "level": 70,
             "npc_en": "Recording Node",
             "npc_fr": "Module D'enregistrement",
+            "patch": "5.0",
             "cPrev": ["q.69191"],
-            "cNext": ["q.68767"],
-            "patch": "5.0"
+            "cNext": ["q.68767"]
         },
         "x68767": {
-            "level": 75,
             "name_en": "For Sentimental Reasons",
             "name_fr": "Sauvegarde 002 [Des souvenirs si précieux]",
+            "level": 75,
             "npc_en": "Thiuna",
             "npc_fr": "Thiuna",
+            "patch": "5.0",
             "cPrev": ["q.68766"],
-            "cNext": ["q.68768"],
-            "patch": "5.0"
+            "cNext": ["q.68768"]
         },
         "x68768": {
-            "level": 80,
             "name_en": "The Notes of Bond Restoring",
             "name_fr": "Sauvegarde 003 [Les liens qui nous unissent]",
+            "level": 80,
             "npc_en": "Thiuna",
             "npc_fr": "Thiuna",
+            "patch": "5.0",
             "cPrev": ["q.68767"],
-            "cSiblings": ["a.2324"],
-            "patch": "5.0"
+            "cSiblings": ["a.2324"]
         }
     }
 }

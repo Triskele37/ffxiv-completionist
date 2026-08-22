@@ -8,8 +8,8 @@
             "name_fr": "En avant, forgez : Amateur",
             "description_en": "Successfully synthesize 50 times for level 1-10 smithing recipes.",
             "description_fr": "Réaliser 50 synthèses de métallurgie de niveau 1 à 10.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.148"]
         },
         "x144": {
@@ -17,8 +17,8 @@
             "name_fr": "En avant, forgez : Recrue",
             "description_en": "Successfully synthesize 300 times for level 11-20 smithing recipes.",
             "description_fr": "Réaliser 300 synthèses de métallurgie de niveau 11 à 20.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.148"]
         },
         "x145": {
@@ -26,8 +26,8 @@
             "name_fr": "En avant, forgez : Initié",
             "description_en": "Successfully synthesize 750 times for level 21-30 smithing recipes.",
             "description_fr": "Réaliser 750 synthèses de métallurgie de niveau 21 à 30.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.148"]
         },
         "x146": {
@@ -35,8 +35,8 @@
             "name_fr": "En avant, forgez : Novice",
             "description_en": "Successfully synthesize 1,500 times for level 31-40 smithing recipes.",
             "description_fr": "Réaliser 1 500 synthèses de métallurgie de niveau 31 à 40.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.148"]
         },
         "x147": {
@@ -44,21 +44,21 @@
             "name_fr": "En avant, forgez : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 smithing recipes.",
             "description_fr": "Réaliser 3 000 synthèses de métallurgie de niveau 41 à 50.",
+            "points": 10,
             "reward": "t.18",
             "patch": "2.0",
-            "points": 10,
-            "cSiblings": ["t.18"],
-            "cCombo": ["a.148"]
+            "cCombo": ["a.148"],
+            "cSiblings": ["t.18"]
         },
         "x148": {
             "name_en": "A Blacksmith's Life for Me",
             "name_fr": "Forcené de la forge",
             "description_en": "Obtain the first five “Working the Bellows” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “En avant, forgez”.",
+            "points": 30,
             "reward_en": "Hammer of the Luminary",
             "reward_fr": "Marteau de virtuose",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.143", "a.144", "a.145", "a.146", "a.147"]
         },
         "x1302": {
@@ -66,48 +66,48 @@
             "name_fr": "En avant, forgez : Expert",
             "description_en": "Successfully synthesize 1,000 times for level 51-60 smithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 51 à 60.",
-            "patch": "3.0",
-            "points": 10
+            "points": 10,
+            "patch": "3.0"
         },
         "x1849": {
             "name_en": "Working the Bellows: Veteran",
             "name_fr": "En avant, forgez : Maître",
             "description_en": "Successfully synthesize 1,000 times for level 61-70 smithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 61 à 70.",
-            "patch": "4.0",
-            "points": 10
+            "points": 10,
+            "patch": "4.0"
         },
         "x2281": {
             "name_en": "Working the Bellows: Master",
             "name_fr": "En avant, forgez : Génie",
             "description_en": "Successfully synthesize 1,000 times for level 71-80 smithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 71 à 80.",
-            "patch": "5.0",
-            "points": 10
+            "points": 10,
+            "patch": "5.0"
         },
         "x2929": {
             "name_en": "Working the Bellows: Genius",
             "name_fr": "En avant, forgez : Prodige",
             "description_en": "Successfully synthesize 1,000 times for level 81-90 smithing recipes.",
             "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 81 à 90.",
-            "patch": "6.0",
-            "points": 10
+            "points": 10,
+            "patch": "6.0"
         },
         "x3468": {
-            "description_en": "Successfully synthesize 1,000 times for level 91-100 smithing recipes.",
-            "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 91 à 100.",
             "name_en": "Working the Bellows: Exemplar",
             "name_fr": "En avant, forgez : As",
-            "patch": "7.0",
-            "points": 10
+            "description_en": "Successfully synthesize 1,000 times for level 91-100 smithing recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de métallurgie de niveau 91 à 100.",
+            "points": 10,
+            "patch": "7.0"
         },
         "x698": {
             "name_en": "I Made That: Blacksmith I",
             "name_fr": "Carnet de notes : forgeron I",
             "description_en": "Craft and record completion of 40 unique blacksmith recipes.",
             "description_fr": "Faire 40 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.699"]
         },
         "x699": {
@@ -115,8 +115,8 @@
             "name_fr": "Carnet de notes : forgeron II",
             "description_en": "Craft and record completion of 90 unique blacksmith recipes.",
             "description_fr": "Faire 90 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.698"],
             "cNext": ["a.700"]
         },
@@ -125,10 +125,10 @@
             "name_fr": "Carnet de notes : forgeron III",
             "description_en": "Craft and record completion of 190 unique blacksmith recipes.",
             "description_fr": "Faire 190 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Master Blacksmith's Ring",
             "reward_fr": "Anneau de maître forgeron",
-            "patch": "2.1",
-            "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.699"],
             "cNext": ["a.1279"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Carnet de notes : forgeron IV",
             "description_en": "Craft and record completion of 270 unique blacksmith recipes.",
             "description_fr": "Faire 270 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.700"],
             "cNext": ["a.1722"]
         },
@@ -147,10 +147,10 @@
             "name_fr": "Carnet de notes : forgeron V",
             "description_en": "Craft and record completion of 380 unique blacksmith recipes.",
             "description_fr": "Faire 380 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Forgekeep's Hammer",
             "reward_fr": "Batte de ferronnier bénie",
             "patch": "3.5",
-            "points": 10,
             "cPrev": ["a.1279"],
             "cNext": ["a.2167"]
         },
@@ -159,10 +159,10 @@
             "name_fr": "Carnet de notes : forgeron VI",
             "description_en": "Craft and record completion of 480 unique blacksmith recipes.",
             "description_fr": "Faire 480 synthèses de forgeron différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Forgeking's Hammer",
             "reward_fr": "Marteau du roi de la forge béni",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.1722"]
         },
         "x753": {
@@ -170,8 +170,8 @@
             "name_fr": "De main de maître : forgeron I",
             "description_en": "Craft 100 high-quality items as a blacksmith.",
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que forgeron.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.754"]
         },
         "x754": {
@@ -179,8 +179,8 @@
             "name_fr": "De main de maître : forgeron II",
             "description_en": "Craft 500 high-quality items as a blacksmith.",
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que forgeron.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.753"],
             "cNext": ["a.755"]
         },
@@ -189,8 +189,8 @@
             "name_fr": "De main de maître : forgeron III",
             "description_en": "Craft 3,000 high-quality items as a blacksmith.",
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que forgeron.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.754"],
             "cNext": ["a.1314"]
         },
@@ -199,8 +199,8 @@
             "name_fr": "De main de maître : forgeron IV",
             "description_en": "Craft 5,000 high-quality items as a blacksmith.",
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que forgeron.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.755"],
             "cNext": ["a.1322"]
         },
@@ -209,9 +209,9 @@
             "name_fr": "De main de maître : forgeron V",
             "description_en": "Craft 10,000 high-quality items as a blacksmith.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant que forgeron.",
+            "points": 10,
             "reward": "t.254",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1314"],
             "cSiblings": ["t.254"]
         },
@@ -220,8 +220,8 @@
             "name_fr": "Enclume d'Azurée I",
             "description_en": "Earn 50,000 points toward your skyward score as a blacksmith.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que forgeron.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2493"],
             "cCombo": ["a.2522"]
         },
@@ -230,8 +230,8 @@
             "name_fr": "Enclume d'Azurée II",
             "description_en": "Earn 150,000 points toward your skyward score as a blacksmith.",
             "description_fr": "Gagner un total de 150 000 points d'azur en tant que forgeron.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2492"],
             "cNext": ["a.2494"]
         },
@@ -240,21 +240,21 @@
             "name_fr": "Enclume d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a blacksmith.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant que forgeron.",
+            "points": 10,
             "reward": "t.491",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2493"],
-            "cSiblings": ["t.491"],
-            "cCombo": ["a.2524"]
+            "cCombo": ["a.2524"],
+            "cSiblings": ["t.491"]
         },
         "x2528": {
             "name_en": "The Height of Smithing",
             "name_fr": "Forgeron du Nichoir",
             "description_en": "As a blacksmith, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la deuxième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.504",
             "patch": "5.21",
-            "points": 10,
             "cSiblings": ["t.504"]
         },
         "x2649": {
@@ -262,9 +262,9 @@
             "name_fr": "Forgeron de Tombeplume",
             "description_en": "As a blacksmith, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la troisième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.529",
             "patch": "5.31",
-            "points": 10,
             "cSiblings": ["t.529"]
         },
         "x2808": {
@@ -272,9 +272,9 @@
             "name_fr": "Forgeron du Nouveau Refrain",
             "description_en": "As a blacksmith, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de forgeron de la quatrième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.566",
             "patch": "5.41",
-            "points": 10,
             "cSiblings": ["t.566"]
         },
         "x2822": {
@@ -282,9 +282,45 @@
             "name_fr": "Métallurgie resplendissante",
             "description_en": "Obtain a resplendent forgefiend's hammer.",
             "description_fr": "Obtenir un marteau du fiélon de la forge resplendissant.",
-            "patch": "5.5",
             "points": 10,
+            "patch": "5.5",
             "cCombo": ["a.2829"]
+        },
+        "x3705": {
+            "name_en": "Rocket Smithing I",
+            "name_fr": "Forgeron du cosmos I",
+            "description_en": "Earn a cosmic class score of 50,000 points as a blacksmith.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant que forgeron.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3706": {
+            "name_en": "Rocket Smithing II",
+            "name_fr": "Forgeron du cosmos II",
+            "description_en": "Earn a cosmic class score of 150,000 points as a blacksmith.",
+            "description_fr": "Gagner un total de 150 000 points cosmiques en tant que forgeron.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3707": {
+            "name_en": "Smithing with the Stars",
+            "name_fr": "Maître forgeron du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as a blacksmith.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques en tant que forgeron.",
+            "points": 10,
+            "reward": "t.783",
+            "patch": "7.21",
+            "cSiblings": ["t.783"]
+        },
+        "x3903": {
+            "name_en": "Master of the Universe: Blacksmith",
+            "name_fr": "Forgeron intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as a blacksmith.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise en tant que forgeron.",
+            "points": 10,
+            "reward": "t.836",
+            "patch": "7.51",
+            "cSiblings": ["t.836"]
         }
     }
 }

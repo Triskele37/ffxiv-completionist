@@ -11,10 +11,10 @@ import { hasChainProps } from './hasChainProps';
  * */
 export function chain(
     task: Task,
-    firstInChain: boolean,
+    firstInChain: boolean | undefined,
     toFlag: CompletionFlag
 ): void {
-    const fromFlag = task.completionFlag;
+    const fromFlag = task.completionFlag$();
     setCompletion(task, toFlag);
 
     // Commit this task to the stored chain
@@ -23,7 +23,7 @@ export function chain(
             task,
             fromFlag,
             // setCompletion may not have ended with toFlag, use actual current value
-            toFlag: task.completionFlag
+            toFlag: task.completionFlag$()
         });
     }
     else {
@@ -34,6 +34,6 @@ export function chain(
     }
 
     if(hasChainProps(task)) {
-        triggerChains(task, task.completionFlag, ChainService.force);
+        triggerChains(task, task.completionFlag$(), ChainService.force);
     }
 }

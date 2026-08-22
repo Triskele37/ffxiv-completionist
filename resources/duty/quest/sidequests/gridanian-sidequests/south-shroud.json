@@ -4,223 +4,223 @@
     "groupName_fr": "Forêt du sud",
     "tasks": {
         "x65979": {
-            "level": 20,
             "name_en": "Leves of Quarrymill",
             "name_fr": "Mandataire du Moulin de la Carrière",
-            "cPrevAny": true,
+            "level": 20,
             "npc_en": "Nyell",
             "npc_fr": "Nyell",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66263": {
-            "level": 22,
             "name_en": "Cloven-hoofed Horrors",
             "name_fr": "Soupe anti-antilopes",
+            "level": 22,
             "npc_en": "Ianna",
             "npc_fr": "Ianna",
-            "cNext": ["q.66264"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66264"]
         },
         "x66264": {
-            "level": 22,
             "name_en": "The Trees Have Eyes",
             "name_fr": "Demande d'offrande",
+            "level": 22,
             "npc_en": "Ianna",
             "npc_fr": "Ianna",
-            "cPrev": ["q.66263"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66263"]
         },
         "x66265": {
-            "level": 22,
             "name_en": "No Guts, No Glory",
             "name_fr": "Plus de poisson chez Buscarron",
+            "level": 22,
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cNext": ["q.66267", "q.66268", "q.66266"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66267", "q.66268", "q.66266"]
         },
         "x66266": {
-            "level": 22,
             "name_en": "Occupational Hazards",
             "name_fr": "Rassurer Yoenne",
-            "unlock": "mi.15",
+            "level": 22,
             "npc_en": "Yoenne",
             "npc_fr": "Yoenne",
-            "cPrev": ["q.66265"],
-            "patch": "4.31"
+            "unlock": "mi.15",
+            "patch": "2.0",
+            "cPrev": ["q.66265"]
         },
         "x66267": {
-            "level": 22,
             "name_en": "Potsherds for Posterity",
             "name_fr": "Les reliques de Gelmorra",
+            "level": 22,
             "npc_en": "Rolandaix",
             "npc_fr": "Rolandaix",
-            "cPrev": ["q.66265"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66265"]
         },
         "x66268": {
-            "level": 22,
             "name_en": "Stash Saboteur",
             "name_fr": "Mieux vaut faire sauter que guérir",
+            "level": 22,
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": ["q.66265"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66265"]
         },
         "x66275": {
-            "level": 23,
             "name_en": "Enemy Mine",
             "name_fr": "L'ennemi de mon ennemi",
+            "level": 23,
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": ["q.66274"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66274"]
         },
         "x66278": {
-            "level": 24,
             "name_en": "Shadows of the Empire",
             "name_fr": "Indésirables Impériaux",
+            "level": 24,
             "npc_en": "Auphiliot",
             "npc_fr": "Auphiliot",
-            "cPrev": ["q.66050"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66050"]
         },
         "x66302": {
-            "level": 26,
             "name_en": "Savage Snares",
             "name_fr": "Pièges pernicieux",
+            "level": 26,
             "npc_en": "Balan",
             "npc_fr": "Balan",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66303": {
-            "level": 26,
             "name_en": "Forest Law",
             "name_fr": "La loi de la Sylve",
+            "level": 26,
             "npc_en": "Wlfric",
             "npc_fr": "Wlfric",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66304": {
-            "level": 26,
             "name_en": "An Apple a Day",
             "name_fr": "Travail saisonnier",
+            "level": 26,
             "npc_en": "Deidra",
             "npc_fr": "Deidra",
-            "cNext": ["q.66305"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66305"]
         },
         "x66305": {
-            "level": 26,
             "name_en": "A Bumper Crop",
             "name_fr": "Offrez des pommes",
+            "level": 26,
             "npc_en": "Fawkes",
             "npc_fr": "Fawkes",
-            "cPrev": ["q.66304"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66304"]
         },
         "x66306": {
-            "level": 26,
             "name_en": "Wretched Hive of Villainy",
             "name_fr": "Du rififi au Guêpier",
+            "level": 26,
             "npc_en": "Faucertaux",
             "npc_fr": "Faucertaux",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66307": {
-            "level": 26,
             "name_en": "In Grandfather's Name",
             "name_fr": "Au nom du grand-père",
+            "level": 26,
             "npc_en": "Cuthbert",
             "npc_fr": "Cuthbert",
-            "cNext": ["q.66308"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66308"]
         },
         "x66308": {
-            "level": 26,
             "name_en": "The Marvelous Mun-Tuy Bean",
             "name_fr": "Mets la sauce",
+            "level": 26,
             "npc_en": "Aedoc",
             "npc_fr": "Aedoc",
+            "patch": "2.0",
             "cPrev": ["q.66307"],
-            "cNext": ["q.66309"],
-            "patch": "4.31"
+            "cNext": ["q.66309"]
         },
         "x66309": {
-            "level": 26,
             "name_en": "Masher for a Day",
             "name_fr": "Le secret de la sauce de Mun-Tuy",
+            "level": 26,
             "npc_en": "Erimmont",
             "npc_fr": "Erimmont",
-            "cPrev": ["q.66308"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66308"]
         },
         "x65980": {
-            "level": 30,
             "name_en": "Leves of Camp Tranquil",
             "name_fr": "Mandataire des Sentes tranquilles",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Merthelin",
             "npc_fr": "Merthelin",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66353": {
-            "level": 30,
             "name_en": "We'll Always Have Ul'dah",
             "name_fr": "Un parfum d'ailleurs",
+            "level": 30,
             "npc_en": "Detoh Moshroca",
             "npc_fr": "Detoh Moshroca",
-            "cPrev": ["q.66350"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66350"]
         },
         "x66354": {
-            "level": 30,
             "name_en": "A Burning Request",
             "name_fr": "Une commande qui tombe à l'eau",
+            "level": 30,
             "npc_en": "Florent",
             "npc_fr": "Florent",
-            "cPrev": ["q.66350"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66350"]
         },
         "x66698": {
-            "level": 30,
             "name_en": "My Feisty Little Chocobo",
             "name_fr": "Meilleur ami de l'homme",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Docette",
             "npc_fr": "Docette",
-            "unlock_en": "Companion",
+            "unlock": "character.companion",
+            "patch": "2.0",
             "cPrev": ["q.66236", "q.66237", "q.66238"],
-            "cNext": ["q.67096"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.67096"]
         },
         "x66546": {
-            "level": 46,
             "name_en": "Slim Pickings",
             "name_fr": "Viande de choix",
+            "level": 46,
             "npc_en": "Isarmoix",
             "npc_fr": "Isarmoix",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66547": {
-            "level": 46,
             "name_en": "Serveth Thy Master",
             "name_fr": "Kerrich le Terrible",
+            "level": 46,
             "npc_en": "Kerrich",
             "npc_fr": "Kerrich",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66548": {
-            "level": 46,
             "name_en": "All You Wanted to Know about Odin",
             "name_fr": "À chacun sa vérité",
+            "level": 46,
             "npc_en": "Simmie",
             "npc_fr": "Simmie",
+            "patch": "2.0",
             "cPrev": ["q.66545"],
-            "cNext": ["q.65969"],
-            "patch": "4.31"
+            "cNext": ["q.65969"]
         }
     }
 }

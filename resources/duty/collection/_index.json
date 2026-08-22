@@ -2,14 +2,17 @@
     "key": "collection",
     "groupName_en": "Collection",
     "groupName_fr": "Objet précieux",
-    "order": ["yo-kai-medallium", "portable-archive", "field-record"],
-    "headers": {
+    "order": ["yo-kai-medallium", "portable-archive", "field-record", "occult-record"],
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
         "source": {
             "header": "@HEADER.SOURCE",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -17,6 +20,7 @@
             "name_en": "Aether Compass",
             "name_fr": "Boussole éthéréenne",
             "source": "q.67133",
+            "patch": "3.0",
             "cSiblings": ["q.67133"]
         }
     }

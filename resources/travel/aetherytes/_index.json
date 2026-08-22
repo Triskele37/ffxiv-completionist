@@ -2,7 +2,7 @@
     "key": "aetherytes",
     "groupName_en": "Aetherytes",
     "groupName_fr": "Éthérites",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -12,6 +12,9 @@
         "type": {
             "header": "@HEADER.TYPE",
             "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.TYPE"
         }
     },
     "order": [

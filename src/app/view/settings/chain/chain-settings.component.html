@@ -1,9 +1,9 @@
 <div
     class="setting bool"
-    [pTooltip]="'MAIN.SETTING.CHAINING.ENABLED.TOOLTIP' | translate"
+    [pTooltip]="'APP.SETTING.CHAINING.ENABLED.TOOLTIP' | translate"
     tooltipPosition="right"
 >
-    <label>{{'MAIN.SETTING.CHAINING.ENABLED.LABEL' | translate}}</label>
+    <label>{{'APP.SETTING.CHAINING.ENABLED.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
         [(ngModel)]="svcSettings.settings.chainingEnabled.value"
@@ -13,30 +13,30 @@
 
 <div
     class="setting number"
-    [pTooltip]="'MAIN.SETTING.CHAINING.HISTORY.TOOLTIP' | translate"
+    [pTooltip]="'APP.SETTING.CHAINING.HISTORY.TOOLTIP' | translate"
     tooltipPosition="right"
 >
-    <label>{{'MAIN.SETTING.CHAINING.HISTORY.LABEL' | translate}}</label>
-    <p-inputNumber
+    <label>{{'APP.SETTING.CHAINING.HISTORY.LABEL' | translate}}</label>
+    <p-input-number
         [(ngModel)]="svcSettings.settings.chainHistoryLimit.value"
         [showButtons]="true"
         [min]="svcSettings.settings.chainHistoryLimit.min"
         [max]="svcSettings.settings.chainHistoryLimit.max"
         (onBlur)="svcSettings.onChangeNumSetting(svcSettings.settings.chainHistoryLimit)"
-    ></p-inputNumber>
+    ></p-input-number>
 </div>
 
 <div
     class="setting number"
-    [pTooltip]="'MAIN.SETTING.CHAINING.THRESHOLD.TOOLTIP' | translate"
+    [pTooltip]="'APP.SETTING.CHAINING.THRESHOLD.TOOLTIP' | translate"
     tooltipPosition="right"
 >
-    <label>{{'MAIN.SETTING.CHAINING.THRESHOLD.LABEL' | translate}}</label>
-    <p-inputNumber
+    <label>{{'APP.SETTING.CHAINING.THRESHOLD.LABEL' | translate}}</label>
+    <p-input-number
         [(ngModel)]="svcSettings.settings.chainMinThreshold.value"
         [showButtons]="true"
         [min]="svcSettings.settings.chainMinThreshold.min"
         [max]="svcSettings.settings.chainMinThreshold.max"
         (onBlur)="svcSettings.onChangeNumSetting(svcSettings.settings.chainMinThreshold)"
-    ></p-inputNumber>
+    ></p-input-number>
 </div>

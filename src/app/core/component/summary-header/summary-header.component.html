@@ -1,19 +1,26 @@
 <div #summaryHeaderContainer>
-    <xiv-summary-line
-        *ngIf="!hideOverall"
-        [group]="allData"
-        [isBig]="true"
-    ></xiv-summary-line>
+    @if(!hideOverall() && allData) {
+        <com-summary-line
+            data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_ALL"
+            [group]="allData"
+            [isBig]="true"
+        ></com-summary-line>
+    }
 
-    <xiv-summary-line
-        *ngIf="!hideGroup && group?._parent && !group?.isUiGroup"
-        [group]="group"
-        [isBig]="true"
-    ></xiv-summary-line>
+    @let group = svcNavigation.selectedGroup();
 
-    <p-contextMenu
-        *ngIf="!!this.group?._parent"
-        [target]="summaryHeaderContainer"
-        [model]="contextMenuItems"
-    ></p-contextMenu>
+    @if(group && group.dataType === 'Group' && group._parent) {
+        @if(!hideGroup() && !group.isUiGroup) {
+            <com-summary-line
+                data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_CURRENT"
+                [group]="group"
+                [isBig]="true"
+            ></com-summary-line>
+        }
+
+        <p-context-menu
+            [target]="summaryHeaderContainer"
+            [model]="contextMenuItems"
+        ></p-context-menu>
+    }
 </div>

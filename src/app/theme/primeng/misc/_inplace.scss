@@ -1,17 +1,21 @@
-.p-inplace {
-    .p-inplace-display {
-        padding: $inplacePadding;
-        border-radius: var(--border-radius);
-        transition: $formElementTransition;
+@use "../_mixins";
+@use "../../_variables";
 
-        &:not(.p-disabled):hover {
-            background: $inplaceHoverBg;
-            color: $inplaceTextHoverColor;
-        }
+@layer primeng {
+    .p-inplace {
+        .p-inplace-display {
+            padding: variables.$inplacePadding;
+            border-radius: var(--border-radius);
+            transition: variables.$formElementTransition;
 
-        &:focus {
-            @include focused();
+            &:not(.p-disabled):hover {
+                background: variables.$inplaceHoverBg;
+                color: variables.$inplaceTextHoverColor;
+            }
+
+            &:focus {
+                @include mixins.focused();
+            }
         }
     }
 }
-

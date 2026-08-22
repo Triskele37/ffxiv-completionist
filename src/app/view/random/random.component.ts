@@ -1,66 +1,92 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ButtonDirective } from 'primeng/button';
+import { InputNumber } from 'primeng/inputnumber';
+import { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
+import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
 import { Completion } from '@constant';
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+// import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { Task } from '@model/Task';
 
 // Cache the last roll for if returning to page
 let lastRandom: Task[] = [];
 
 @Component({
-    selector: 'xiv-random',
+    selector: 'com-random',
     templateUrl: './random.component.html',
-    styleUrls: ['./random.component.scss']
+    styleUrls: ['./random.component.scss'],
+    imports: [
+        ButtonDirective,
+        FormsModule,
+        InputNumber,
+
+        ContentLinkComponent,
+        GroupSelectorComponent,
+    ]
 })
 export class RandomComponent {
     randomCount: number = 10;
     randomTasks: Task[] = [];
 
     group: DataGroup;
+    groupSelectorEvent?: TieredMenuToggleEvent;
 
     constructor(private svcData: DataService) {
         if(lastRandom.length) this.randomTasks = lastRandom;
         this.group = this.svcData.data;
+
+        // this.test();
     }
 
     //TODO: Create a developer settings menu and add this as an action
     // this runs through every task changing its completion to ensure no
-    // links are broken (it takes nearly 10 minutes)
+    // links are broken
     // first = true;
     // test() {
-    //     this.dive(this.svcData.data, 0);
+    //     this.dive(this.svcData.data);
     //     console.log('Done');
     // }
-    // dive(group: DataGroup, depth: number) {
-    //     const tab = new Array(depth).fill(null).join('  ');
-    //     console.log(tab + group._key);
-    //     group.subGroups?.forEach((sg) => this.dive(sg, depth + 1));
+    // dive(group: DataGroup | null) {
+    //     if(!group) return;
+    //     group.subGroups?.forEach((sg) => this.dive(sg));
     //     group.tasks?.forEach((task) => {
     //         try {
     //             if(task.isNumericCompletion) {
-    //                 if(task.completionFlag !== task.defaultCompletion.toString()) {
-    //                     task.changeCompletion(task.defaultCompletion);
+    //                 if(task.completionFlag$() !== task.defaultCompletion.toString()) {
+    //                     changeCompletion(task, task.defaultCompletion);
     //                 }
-    //                 task.changeCompletion(task.maxValue.toString());
-    //                 task.changeCompletion(task.minValue.toString());
+    //                 changeCompletion(task, task.maxValue.toString());
+    //                 changeCompletion(task, task.minValue.toString());
     //             }
     //             else {
-    //                 if(task.completionFlag !== 'N') task.changeCompletion('N');
-    //                 task.changeCompletion('Y', this.first);
-    //                 task.changeCompletion('N');
+    //                 if(task.completionFlag$() !== 'N') changeCompletion(task, 'N');
+    //                 changeCompletion(task, 'Y', this.first);
+    //                 changeCompletion(task, 'N');
     //             }
     //         }
     //         catch(e) {
-    //             console.error(e);
+    //             console.error(group.fullStorageKey, task.name, e);
     //         }
     //         this.first = false;
     //     });
     // }
 
+    onToggleSelector($event: TieredMenuToggleEvent): void {
+        this.groupSelectorEvent = $event;
+    }
+
     onGroupChange(group: DataGroup): void {
         this.group = group;
+        this.groupSelectorEvent = undefined;
+    }
+
+    onSelectorHide(): void {
+        this.groupSelectorEvent = undefined;
     }
 
     onCountChange(): void {
@@ -77,15 +103,17 @@ export class RandomComponent {
         lastRandom = this.randomTasks;
     }
 
-    getIncompleteTasks(group: DataGroup): Task[] {
-        let groupTasks = [];
+    getIncompleteTasks(group: DataGroup | null): Task[] {
+        if(!group) return [];
+
+        let groupTasks: Task[] = [];
 
         group.tasks?.forEach((task) => {
-            if(task.completionFlag === Completion.N) {
+            if(task.completionFlag$() === Completion.N) {
                 groupTasks.push(task);
             }
             else if(task.isNumericCompletion) {
-                const intFlag = parseInt(task.completionFlag, 10);
+                const intFlag = parseInt(task.completionFlag$(), 10);
                 if(intFlag < task.maxValue) {
                     groupTasks.push(task);
                 }
@@ -103,9 +131,9 @@ export class RandomComponent {
         return tasks.filter((task) => {
             if(!task.cPrev && !task.cPrevAny) return true;
 
-            const ids = [].concat(task.cPrev, task.cPrevAny);
+            const ids = ([] as any[]).concat(task.cPrev, task.cPrevAny);
             return this.randomTasks.some((chainedTask) =>
-                chainedTask.completionFlag === Completion.N && ids.includes(chainedTask.id)
+                chainedTask.completionFlag$() === Completion.N && ids.includes(chainedTask.id)
             );
         });
     }

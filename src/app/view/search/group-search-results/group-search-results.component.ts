@@ -1,28 +1,29 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Component, effect } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonGroup } from 'primeng/buttongroup';
+import { Table } from 'primeng/table';
 
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { SearchService } from '@service/search/search.service';
 
 @Component({
-    selector: 'xiv-group-search-results',
+    selector: 'com-group-search-results',
     templateUrl: './group-search-results.component.html',
+    imports: [
+        ButtonGroup,
+        Table,
+        TranslatePipe,
+
+        ContentLinkComponent
+    ],
     styleUrls: ['./group-search-results.component.scss']
 })
-export class GroupSearchResultsComponent implements OnInit, OnDestroy {
-    private sub: Subscription;
-
-    hasResults: boolean;
+export class GroupSearchResultsComponent {
+    hasResults?: boolean;
 
     constructor(public svcSearch: SearchService) {
-    }
-
-    ngOnInit() {
-        this.sub = this.svcSearch.searchGroupMatches$.subscribe((groups) => {
-            this.hasResults = !!groups.length;
+        effect(() => {
+            this.hasResults = !!this.svcSearch.searchGroupMatches().length;
         });
-    }
-
-    ngOnDestroy() {
-        this.sub?.unsubscribe();
     }
 }

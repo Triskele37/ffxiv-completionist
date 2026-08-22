@@ -3,53 +3,59 @@
     "groupName_en": "Unlost World",
     "groupName_fr": "Monde inéphémère",
     "tasks": {
-        "x0": {
+        "x328": {
             "name_en": "The Knowable",
             "name_fr": "Les Acquis",
-            "level": "99",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 99,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(7.1, 14.0)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x1": {
+        "x329": {
             "name_en": "Mu Springs Eternal",
             "name_fr": "Source des mu",
-            "level": "100",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 100,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(12.3, 11.2)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x2": {
+        "x330": {
             "name_en": "Leynode Aero",
             "name_fr": "Nœud tellurique aéro",
-            "level": "99",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 99,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(16.1, 12.9)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         },
-        "x3": {
+        "x331": {
             "name_en": "Canal Town South",
             "name_fr": "Sud de la Cité lacustre",
-            "level": "99",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 99,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(14.1, 34.4)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "7.0"
         },
-        "x4": {
+        "x332": {
             "name_en": "Canal Town North",
             "name_fr": "Nord de la Cité lacustre",
-            "level": "100",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 100,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(9.3, 27.8)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "7.0"
         },
-        "x5": {
+        "x333": {
             "name_en": "Proto Alexandria",
             "name_fr": "Proto-Alexandrie",
-            "level": "100",
-            "zone": "@PLACE.LIVING_MEMORY",
+            "level": 100,
+            "zone": "@PLACE.DT.LIVING_MEMORY",
             "location": "(38.2, 31.3)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "7.0"
         }
     }
 }

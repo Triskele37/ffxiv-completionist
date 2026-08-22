@@ -1,47 +1,52 @@
-.p-fieldset {
-    border: $panelContentBorder;
-    background: $panelContentBg;
-    color: $panelContentTextColor;
-    border-radius: var(--border-radius);
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-fieldset-legend {
-        padding: $panelHeaderPadding;
-        border: $panelHeaderBorder;
-        color: $panelHeaderTextColor;
-        background: $panelHeaderBg;
-        font-weight: $panelHeaderFontWeight;
+@layer primeng {
+    .p-fieldset {
+        border: variables.$panelContentBorder;
+        background: variables.$panelContentBg;
+        color: variables.$panelContentTextColor;
         border-radius: var(--border-radius);
-    }
 
-    &.p-fieldset-toggleable {
         .p-fieldset-legend {
-            padding: 0;
-            transition: $actionIconTransition;
+            padding: variables.$panelHeaderPadding;
+            border: variables.$panelHeaderBorder;
+            color: variables.$panelHeaderTextColor;
+            background: variables.$panelHeaderBg;
+            font-weight: variables.$panelHeaderFontWeight;
+            border-radius: var(--border-radius);
+        }
 
-            a {
-                padding: $panelHeaderPadding;
-                color: $panelHeaderTextColor;
-                border-radius: var(--border-radius);
-                transition: $listItemTransition;
+        &.p-fieldset-toggleable {
+            .p-fieldset-legend {
+                padding: 0;
+                transition: variables.$actionIconTransition;
 
-                .p-fieldset-toggler {
-                    margin-right: var(--inline-spacing);
+                a {
+                    padding: variables.$panelHeaderPadding;
+                    color: variables.$panelHeaderTextColor;
+                    border-radius: var(--border-radius);
+                    transition: variables.$listItemTransition;
+
+                    .p-fieldset-toggler {
+                        margin-right: var(--inline-spacing);
+                    }
+
+                    &:focus-visible {
+                        @include mixins.focused();
+                    }
                 }
 
-                &:focus-visible {
-                    @include focused();
+                &:hover {
+                    background: variables.$panelHeaderHoverBg;
+                    border-color: variables.$panelHeaderHoverBorderColor;
+                    color: variables.$panelHeaderTextHoverColor;
                 }
-            }
-
-            &:hover {
-                background: $panelHeaderHoverBg;
-                border-color: $panelHeaderHoverBorderColor;
-                color: $panelHeaderTextHoverColor;
             }
         }
-    }
 
-    .p-fieldset-content {
-        padding: $panelContentPadding;
+        .p-fieldset-content {
+            padding: variables.$panelContentPadding;
+        }
     }
 }

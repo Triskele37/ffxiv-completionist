@@ -1,50 +1,32 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { SelectChangeEvent } from 'primeng/select';
+import { InputText } from 'primeng/inputtext';
+import { Select } from 'primeng/select';
+import { SortableColumn, SortIcon } from 'primeng/table';
 
 import { Completion } from '@constant';
-import { DataGroup } from '@model/DataGroup';
-import { FilterService } from '@service/filter/filter.service';
-
-import { UniqueValues } from '@component/task-table/types';
+import { Column } from '@model/Column';
+import { TableService } from '@service/table/table.service';
 
 @Component({
-    selector: 'xiv-header-row',
+    selector: 'com-header-row',
     templateUrl: './header-row.component.html',
-    styleUrls: ['./header-row.component.scss']
+    styleUrls: ['./header-row.component.scss'],
+    imports: [
+        InputText,
+        NgClass,
+        Select,
+        SortIcon,
+        SortableColumn,
+    ]
 })
-export class HeaderRowComponent implements OnChanges {
-    @Input() group: DataGroup;
-    @Input() uniqueValues: UniqueValues;
-
+export class HeaderRowComponent {
     Completion = Completion;
-    hasNumericColumns: boolean;
 
-    constructor(public svcFilter: FilterService) {
-    }
-
-    ngOnChanges(changes: SimpleChanges): void {
-        if(changes.group) {
-            this.hasNumericColumns = this.getHasNumericColumns(this.group);
-        }
-    }
-
-    getHasNumericColumns(group: DataGroup): boolean {
-        if(group.isBookmarkGroup) return true;
-        if(group.isNumericCompletion) return true;
-
-        if(group.tasks?.length) {
-            return Object.keys(group.tasks).some(
-                (key) => group.tasks[key].isNumericCompletion
-            );
-        }
-        else { // should be in show all mode
-            let anySubGroupIsNumericCompletion = false;
-
-            group.subGroups?.forEach((subGroup) => {
-                anySubGroupIsNumericCompletion ||= this.getHasNumericColumns(subGroup);
-            });
-
-            return anySubGroupIsNumericCompletion;
-        }
+    constructor(
+        public svcTable: TableService
+    ) {
     }
 
     displayedFilterValue(filterValue: string): string {
@@ -58,13 +40,15 @@ export class HeaderRowComponent implements OnChanges {
         }
     }
 
-    onFilterKeyup($event, column): void {
-        this.svcFilter.modifySearch($event.target.value, column);
+    onFilterKeyup($event: KeyboardEvent, column: Column): void {
+        if(!$event.target) return;
+        const target = $event.target as HTMLInputElement;
+        this.svcTable.filter.modifyFilter(target.value, column);
     }
 
-    onFilterDropdownChange($event, column): void {
-        if($event.value === '') this.svcFilter.modifySearch('Blank', column);
-        else this.svcFilter.modifySearch($event.value, column);
+    onFilterDropdownChange($event: SelectChangeEvent, column: Column): void {
+        if($event.value === '') this.svcTable.filter.modifyFilter('Blank', column);
+        else this.svcTable.filter.modifyFilter($event.value, column);
     }
 
 }

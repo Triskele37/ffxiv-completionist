@@ -1,166 +1,166 @@
 {
     "key": "eastern-la-noscea",
-    "groupName": "@PLACE.EASTERN_LA_NOSCEA",
+    "groupName": "@PLACE.ARR.EASTERN_LA_NOSCEA",
     "tasks": {
         "x278": {
-            "level": 30,
             "name_en": "Careless Whiskers",
             "name_fr": "Maudites moustaches",
+            "level": 30,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 34)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x282": {
-            "level": 30,
             "name_en": "Crab and Go",
             "name_fr": "La fin des crabes",
+            "level": 30,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 35)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x287": {
-            "level": 31,
             "name_en": "Just a Matter of Rut",
             "name_fr": "La saison des amours",
+            "level": 31,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x267": {
-            "level": 32,
             "name_en": "Finding Wine",
             "name_fr": "Partage de la soif",
+            "level": 32,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(21, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x268": {
-            "level": 32,
             "name_en": "The Thirst",
             "name_fr": "Plan de poivrots",
+            "level": 32,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x272": {
-            "level": 32,
             "name_en": "The Pelican Briefing",
             "name_fr": "Appel aux pélicans",
+            "level": 32,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(20, 31)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x280": {
-            "level": 32,
             "name_en": "Jewels of the Isle",
             "name_fr": "Défi : voler aux riches",
+            "level": 32,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 32)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x335": {
-            "level": 32,
             "name_en": "It's Not Lupus",
             "name_fr": "Défi : cancer, le casque de mort",
+            "level": 32,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31, 34)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x560": {
-            "level": 32,
             "name_en": "9 to 5",
             "name_fr": "L'insécurité de l'emploi",
+            "level": 32,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x564": {
-            "level": 32,
             "name_en": "Say My Name",
             "name_fr": "Défi : celui dont on ne doit pas prononcer le nom",
+            "level": 32,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 24)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x566": {
-            "level": 32,
             "name_en": "Cliff Hanger",
             "name_fr": "Quand le liège assiège",
+            "level": 32,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 34)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x271": {
-            "level": 33,
             "name_en": "Thrill of the Hunt",
             "name_fr": "Peur du vide",
+            "level": 33,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(20, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x274": {
-            "level": 33,
             "name_en": "Them",
             "name_fr": "Microcosme",
+            "level": 33,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 27)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x279": {
-            "level": 33,
             "name_en": "No Lip",
             "name_fr": "Colibris voleurs",
+            "level": 33,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(32, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x286": {
-            "level": 33,
             "name_en": "Follow the Light",
             "name_fr": "Suivez la lumière",
+            "level": 33,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x334": {
-            "level": 33,
             "name_en": "Consigned, Sealed, and Undelivered",
             "name_fr": "Complainte d'une fille de choix",
+            "level": 33,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(30, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.0"
         },
         "x562": {
-            "level": 33,
             "name_en": "Sweeter than Honey",
             "name_fr": "Entre miel et terre",
+            "level": 33,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(16, 28)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.1"
         },
         "x563": {
-            "level": 33,
             "name_en": "Ho Ho Ho",
             "name_fr": "Défi : ho, ho, ho !",
+            "level": 33,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 31)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x565": {
-            "level": 33,
             "name_en": "Long Way Home",
             "name_fr": "Laissez-moi rentrer chez moi !",
+            "level": 33,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17, 31)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x561": {
-            "level": 34,
             "name_en": "Closing Time",
             "name_fr": "Défi : alcool triste",
+            "level": 34,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 28)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

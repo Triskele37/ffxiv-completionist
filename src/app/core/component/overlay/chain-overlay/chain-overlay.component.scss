@@ -22,6 +22,8 @@
 
     .overlay-panel {
         .content {
+            gap: 1px;
+
             p-button:not(.undo-button) ::ng-deep .p-button {
                 border-radius: unset;
             }
@@ -51,6 +53,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
+                gap: 1px;
 
                 overflow-y: auto;
                 height: 50vh;
@@ -59,9 +62,11 @@
                 .chain-group {
                     display: flex;
                     width: 100%;
+                    gap: 1px;
 
                     .path ::ng-deep {
                         width: calc(100% - #{$nav-arrow-width});
+                        justify-content: left;
 
                         .p-button {
                             flex-wrap: nowrap;
@@ -100,6 +105,24 @@
             .X {
                 background-color: var(--excluded);
                 color: black;
+            }
+
+            ::ng-deep p-divider {
+                margin-top: 5px;
+                margin-bottom: 0;
+            }
+
+            .previous-chain-container {
+                width: 100%;
+
+                .previous-chains {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    :last-child {
+                        display: none;
+                    }
+                }
             }
         }
     }

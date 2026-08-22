@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x70866": {
+            "name_en": "Frosty Neighbors",
+            "name_fr": "Les esprits des neiges",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70495", "q.70595"],
+            "cNext": ["q.70867"],
+            "cSiblings": ["character.character.societal-relations.125"],
+            "patch": "7.35"
+        },
+        "x70867": {
+            "name_en": "Still as Stone",
+            "name_fr": "Gravé dans la pierre",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70866"],
+            "cNext": ["q.70868"],
+            "cSiblings": ["character.character.societal-relations.126"],
+            "patch": "7.35"
+        },
+        "x70868": {
+            "name_en": "Buried Memories",
+            "name_fr": "Le devoir de mémoire",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70867"],
+            "cNext": ["q.70869"],
+            "cSiblings": ["character.character.societal-relations.127"],
+            "patch": "7.35"
+        },
+        "x70869": {
+            "name_en": "The Pact",
+            "name_fr": "La cérémonie des flocons",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70868"],
+            "cNext": ["q.70870"],
+            "cSiblings": ["character.character.societal-relations.128"],
+            "patch": "7.35"
+        },
+        "x70870": {
+            "name_en": "Forged in Corn",
+            "name_fr": "Une avalanche de joie",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70869"],
+            "cNext": ["q.70871"],
+            "cSiblings": ["character.character.societal-relations.129"],
+            "patch": "7.35"
+        },
+        "x70871": {
+            "name_en": "With High Spirits",
+            "name_fr": "Une amitié impérissable",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 90,
+            "npc_en": "Fahrafahr",
+            "npc_fr": "Fahrafahr",
+            "cPrev": ["q.70870"],
+            "cNext": ["q.70998"],
+            "cSiblings": ["character.character.societal-relations.130"],
+            "patch": "7.35"
+        }
+    }
+}

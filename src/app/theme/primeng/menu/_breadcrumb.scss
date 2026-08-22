@@ -1,40 +1,45 @@
-.p-breadcrumb {
-    background: $breadcrumbBg;
-    border: $breadcrumbBorder;
-    border-radius: var(--border-radius);
-    padding: $breadcrumbPadding;
+@use "../_mixins";
+@use "../../_variables";
 
-    .p-breadcrumb-list {
-        li {
-            .p-menuitem-link {
-                transition: $listItemTransition;
-                border-radius: var(--border-radius);
+@layer primeng {
+    .p-breadcrumb {
+        background: variables.$breadcrumbBg;
+        border: variables.$breadcrumbBorder;
+        border-radius: var(--border-radius);
+        padding: variables.$breadcrumbPadding;
 
-                &:focus-visible {
-                    @include focused();
+        .p-breadcrumb-list {
+            li {
+                .p-menuitem-link {
+                    transition: variables.$listItemTransition;
+                    border-radius: var(--border-radius);
+
+                    &:focus-visible {
+                        @include mixins.focused();
+                    }
+
+                    .p-menuitem-text {
+                        color: variables.$breadcrumbItemTextColor;
+                    }
+
+                    .p-menuitem-icon {
+                        color: variables.$breadcrumbItemIconColor;
+                    }
                 }
 
-                .p-menuitem-text {
-                    color: $breadcrumbItemTextColor;
+                &.p-menuitem-separator {
+                    margin: 0 var(--inline-spacing) 0 var(--inline-spacing);
+                    color: variables.$breadcrumbSeparatorColor;
                 }
 
-                .p-menuitem-icon {
-                    color: $breadcrumbItemIconColor;
-                }
-            }
+                &:last-child {
+                    .p-menuitem-text {
+                        color: variables.$breadcrumbLastItemTextColor;
+                    }
 
-            &.p-menuitem-separator {
-                margin: 0 var(--inline-spacing) 0 var(--inline-spacing);
-                color: $breadcrumbSeparatorColor;
-            }
-
-            &:last-child {
-                .p-menuitem-text {
-                    color: $breadcrumbLastItemTextColor;
-                }
-
-                .p-menuitem-icon {
-                    color: $breadcrumbLastItemIconColor;
+                    .p-menuitem-icon {
+                        color: variables.$breadcrumbLastItemIconColor;
+                    }
                 }
             }
         }

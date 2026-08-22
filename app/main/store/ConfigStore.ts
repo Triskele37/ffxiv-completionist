@@ -3,18 +3,19 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 import { PlayerStore } from './PlayerStore';
+import { ConfigObj } from './ConfigObj';
 
 //TODO: util
-const isObj = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
+const isObj = (v: any) => !!v && typeof v === 'object' && !Array.isArray(v);
 
 export class ConfigStore {
     static path: string;
     static backupPath: string;
     static isServe: boolean;
-    static store = null;
+    static store: ConfigObj | null = null;
 
     //#region------------------------------------------------------- Load/Save
-    static get defaultConfig() {
+    static get defaultConfig(): ConfigObj {
         return {
             'store-name': 'completion',
             'store-loc': app.getPath('userData'),
@@ -66,7 +67,7 @@ export class ConfigStore {
         ConfigStore.store = ConfigStore.defaultConfig;
 
         // Get if it exists
-        let config = {}, successful = true;
+        let config = {} as ConfigObj, successful = true;
         if(fs.existsSync(ConfigStore.path)) {
             try {
                 config = JSON.parse(fs.readFileSync(ConfigStore.path, 'utf8'));
@@ -93,8 +94,13 @@ export class ConfigStore {
         };
     }
 
-    private static overwriteDefault(defaultConfig, loadedConfig): void {
-        Object.keys(defaultConfig).forEach((key) => {
+    private static overwriteDefault(
+        defaultConfig: ConfigObj | any,
+        loadedConfig: ConfigObj | any,
+    ): void {
+        if(!defaultConfig || !loadedConfig) return;
+
+        for(let key of Object.keys(defaultConfig) as (keyof ConfigObj)[]) {
             // key doesn't exist in saved config
             if(loadedConfig[key] === undefined) return;
 
@@ -106,12 +112,12 @@ export class ConfigStore {
 
                 // Only overwrite default array config values if loaded config has items
                 if(Array.isArray(loadedConfig[key])) {
-                    overwriteDefault = loadedConfig[key].length > 0;
+                    overwriteDefault = (loadedConfig[key] as any[]).length > 0;
                 }
 
                 if(overwriteDefault) defaultConfig[key] = loadedConfig[key];
             }
-        });
+        }
     }
 
     static save(): void {
@@ -136,6 +142,8 @@ export class ConfigStore {
     }
 
     static saveBackup(): void {
+        if(!ConfigStore.store) return;
+
         // Ensure admin flag is not stored
         delete ConfigStore.store.isAdmin;
 
@@ -152,7 +160,7 @@ export class ConfigStore {
         event.returnValue = ConfigStore.load();
     }
 
-    static set(event, config): void {
+    static set(event: IpcMainEvent, config: ConfigObj): void {
         ConfigStore.store = config;
         ConfigStore.save();
 
@@ -163,6 +171,8 @@ export class ConfigStore {
 
     //#region------------------------------------------------------- Save Changes
     static newSave(event: IpcMainEvent): void {
+        if(!ConfigStore.store) return;
+
         const result = dialog.showSaveDialogSync({
             defaultPath: path.join(ConfigStore.store['store-loc'], 'completion.json'),
             filters: [{ name: 'JSON', extensions: ['json'] }]
@@ -175,7 +185,9 @@ export class ConfigStore {
     }
 
     static loadSave(event: IpcMainEvent) {
-        const result = dialog.showOpenDialogSync(null, {
+        if(!ConfigStore.store) return;
+
+        const result = dialog.showOpenDialogSync({
             defaultPath: ConfigStore.store['store-loc'],
             properties: ['openFile'],
             filters: [{ name: 'JSON', extensions: ['json'] }]
@@ -187,7 +199,9 @@ export class ConfigStore {
         event.returnValue = !!result;
     }
 
-    private static updateStoreLocation(result) {
+    private static updateStoreLocation(result: string) {
+        if(!ConfigStore.store) return;
+
         // Modify the location the app points to
         const selected = path.parse(result);
         ConfigStore.store['store-loc'] = selected.dir;
@@ -223,7 +237,7 @@ export class ConfigStore {
     }
 
     static loadBackup(event: IpcMainEvent): void {
-        const result = dialog.showOpenDialogSync(null, {
+        const result = dialog.showOpenDialogSync({
             defaultPath: app.getPath('userData'),
             properties: ['openFile'],
             filters: [{ name: 'JSON', extensions: ['json'] }]

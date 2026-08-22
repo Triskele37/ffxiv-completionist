@@ -8,8 +8,8 @@
             "name_fr": "Une goutte de sang",
             "description_en": "Defeat 100 enemies.",
             "description_fr": "Vaincre 100 ennemis.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.2"]
         },
         "x2": {
@@ -17,8 +17,8 @@
             "name_fr": "Une flaque de sang",
             "description_en": "Defeat 500 enemies.",
             "description_fr": "Vaincre 500 ennemis.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.1"],
             "cNext": ["a.3"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "Une mare de sang",
             "description_en": "Defeat 1,000 enemies.",
             "description_fr": "Vaincre 1 000 ennemis.",
-            "patch": "2.0",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.2"],
             "cNext": ["a.4"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "Une rivière de sang",
             "description_en": "Defeat 5,000 enemies.",
             "description_fr": "Vaincre 5 000 ennemis.",
-            "patch": "2.0",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.3"],
             "cNext": ["a.5"]
         },
@@ -47,8 +47,8 @@
             "name_fr": "Une mer de sang",
             "description_en": "Defeat 10,000 enemies.",
             "description_fr": "Vaincre 10 000 ennemis.",
-            "patch": "2.0",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.4"],
             "cNext": ["a.6"]
         },
@@ -57,9 +57,9 @@
             "name_fr": "C'est une véritable boucherie",
             "description_en": "Defeat 50,000 enemies.",
             "description_fr": "Vaincre 50 000 ennemis.",
+            "points": 10,
             "reward": "t.9",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.5"],
             "cNext": ["a.7"],
             "cSiblings": ["t.9"]
@@ -69,10 +69,10 @@
             "name_fr": "Disciple de Halone, la Conquérante",
             "description_en": "Defeat 100,000 enemies.",
             "description_fr": "Vaincre 100 000 ennemis.",
+            "points": 30,
             "reward_en": "Butcher's Crown",
             "reward_fr": "Couronne de massacreur",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.6"],
             "cNext": ["a.1336"]
         },
@@ -81,8 +81,8 @@
             "name_fr": "Un océan de sang",
             "description_en": "Defeat 200,000 enemies.",
             "description_fr": "Vaincre 200 000 ennemis.",
-            "patch": "3.0",
             "points": 30,
+            "patch": "3.0",
             "cPrev": ["a.7"]
         },
         "x728": {
@@ -90,10 +90,10 @@
             "name_fr": "Carnet de chasse : gladiateur",
             "description_en": "Complete all gladiator entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de gladiateur.",
+            "points": 20,
             "reward_en": "Master Gladiator's Ring",
             "reward_fr": "Anneau de maître gladiateur",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.gladiator.all"]
         },
         "x729": {
@@ -101,10 +101,10 @@
             "name_fr": "Carnet de chasse : pugiliste",
             "description_en": "Complete all pugilist entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de pugiliste.",
+            "points": 20,
             "reward_en": "Master Pugilist's Ring",
             "reward_fr": "Anneau de maître pugiliste",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.pugilist.all"]
         },
         "x730": {
@@ -112,10 +112,10 @@
             "name_fr": "Carnet de chasse : maraudeur",
             "description_en": "Complete all marauder entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de maraudeur.",
+            "points": 20,
             "reward_en": "Master Marauder's Ring",
             "reward_fr": "Anneau de maître maraudeur",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.marauder.all"]
         },
         "x731": {
@@ -123,10 +123,10 @@
             "name_fr": "Carnet de chasse : maître d'hast",
             "description_en": "Complete all lancer entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de maître d'hast.",
+            "points": 20,
             "reward_en": "Master Lancer's Ring",
             "reward_fr": "Anneau de maître lancier",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.lancer.all"]
         },
         "x732": {
@@ -134,10 +134,10 @@
             "name_fr": "Carnet de chasse : archer",
             "description_en": "Complete all archer entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire d'archer.",
+            "points": 20,
             "reward_en": "Master Archer's Ring",
             "reward_fr": "Anneau de maître archer",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.archer.all"]
         },
         "x1051": {
@@ -145,10 +145,10 @@
             "name_fr": "Carnet de chasse : surineur",
             "description_en": "Complete all rogue entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de surineur.",
+            "points": 20,
             "reward_en": "Master Rogue's Ring",
             "reward_fr": "Anneau de maître surineur",
             "patch": "2.4",
-            "points": 20,
             "cPrev": ["logs.hunting-log.rogue.all"]
         },
         "x733": {
@@ -156,10 +156,10 @@
             "name_fr": "Carnet de chasse : élémentaliste",
             "description_en": "Complete all conjurer entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire d'élémentaliste.",
+            "points": 20,
             "reward_en": "Master Conjurer's Ring",
             "reward_fr": "Anneau de maître élémentaliste",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.conjurer.all"]
         },
         "x734": {
@@ -167,10 +167,10 @@
             "name_fr": "Carnet de chasse : occultiste",
             "description_en": "Complete all thaumaturge entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire d'occultiste.",
+            "points": 20,
             "reward_en": "Master Thaumaturge's Ring",
             "reward_fr": "Anneau de maître occultiste",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.thaumaturge.all"]
         },
         "x735": {
@@ -178,10 +178,10 @@
             "name_fr": "Carnet de chasse : arcaniste",
             "description_en": "Complete all arcanist entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire d'arcaniste.",
+            "points": 20,
             "reward_en": "Master Arcanist's Ring",
             "reward_fr": "Anneau de maître arcaniste",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.arcanist.all"]
         },
         "x792": {
@@ -189,400 +189,400 @@
             "name_fr": "Béhémoth belliqueux",
             "description_en": "Successfully complete the FATE “He Taketh It with His Eyes” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : contre-traque” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.506"]
+            "patch": "2.0",
+            "cPrev": ["fate.506"]
         },
         "x793": {
             "name_en": "Uncut",
             "name_fr": "Face au dieu",
             "description_en": "Successfully complete the FATE “Steel Reign” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : le Chevalier des ombres” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.196"]
+            "patch": "2.0",
+            "cPrev": ["fate.196"]
         },
         "x794": {
             "name_en": "When the Going Gets Tough",
             "name_fr": "Folle chimère",
             "description_en": "Successfully complete the FATE “Go, Go, Gorgimera” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : gorgimère indigne” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.647"]
+            "patch": "2.0",
+            "cPrev": ["fate.647"]
         },
         "x795": {
             "name_en": "On the Ropes",
             "name_fr": "Je t'ai à l'œil",
             "description_en": "Successfully complete the FATE “The Eyes Have It” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : l'œil de la tête” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.507"]
+            "patch": "2.0",
+            "cPrev": ["fate.507"]
         },
         "x796": {
             "name_en": "Full Remission",
             "name_fr": "Serrer les pinces",
             "description_en": "Successfully complete the FATE “It's Not Lupus” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : cancer, le casque de mort” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.335"]
+            "patch": "2.0",
+            "cPrev": ["fate.335"]
         },
         "x797": {
             "name_en": "Lazy Town",
             "name_fr": "Herbicide",
             "description_en": "Successfully complete the FATE “Lazy for You” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : Laurence pas ravie” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.218"]
+            "patch": "2.0",
+            "cPrev": ["fate.218"]
         },
         "x798": {
             "name_en": "Blood, Sweat, and Blood",
             "name_fr": "Entité entêtée",
             "description_en": "Successfully complete the FATE “Dark Devices - The End” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Culte maudit : l'affront” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.646"]
+            "patch": "2.0",
+            "cPrev": ["fate.646"]
         },
         "x799": {
             "name_en": "Ring of Fire",
             "name_fr": "Cercle de feu",
             "description_en": "Successfully complete either the FATE “Svara's Fall” or “Svara's Fury” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Svara s'en est venu : les canons anti-dragon” ou “Svara s'en est venu : la colère du dragon” avec la meilleure évaluation possible.",
-            "patch": "2.1",
-            "points": 10
+            "points": 10,
+            "patch": "2.0"
         },
         "x800": {
             "name_en": "Boughbury Burning",
             "name_fr": "Se fourrer dans le Guêpier",
             "description_en": "Successfully complete the FATE “Clearing the Hive,” “Defending the Hive,” or “Keeping the Hive” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Nid de guêpes : colonisation”, “Nid de guêpes : alliance défensive” ou “Nid de guêpes : défense du nid” avec la meilleure évaluation possible.",
-            "patch": "2.1",
-            "points": 10
+            "points": 10,
+            "patch": "2.0"
         },
         "x801": {
             "name_en": "Curtain Call",
             "name_fr": "Vaillant viaduc",
             "description_en": "Successfully complete the FATE “Attack on Highbridge: Act III” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Assaut sur Le Viaduc : acte III” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.194"]
+            "patch": "2.0",
+            "cPrev": ["fate.194"]
         },
         "x802": {
             "name_en": "Old Maid",
             "name_fr": "Des coeurls à prendre",
             "description_en": "Successfully complete the FATE “Poor Maid's Misfortune” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Pauvre hameau : des coeurls qui battent” avec la meilleure évaluation possible.",
-            "patch": "2.1",
             "points": 10,
-            "cPrev": ["f.453"]
+            "patch": "2.0",
+            "cPrev": ["fate.453"]
         },
         "x1359": {
             "name_en": "Short-lived, the Queen",
             "name_fr": "Bourreau des coeurls",
             "description_en": "Successfully complete the FATE “Coeurls Chase Boys Chase Coeurls” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : coeurls brisés” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.905"]
+            "patch": "3.0",
+            "cPrev": ["fate.905"]
         },
         "x1360": {
             "name_en": "A Worthy Adversary",
             "name_fr": "Vainqueur de Vedrfolnir",
             "description_en": "Successfully complete the FATE “Vedrfolnir Devoteth” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : duel amical contre Vedrfolnir” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.871"]
+            "patch": "3.0",
+            "cPrev": ["fate.871"]
         },
         "x1361": {
             "name_en": "A Day at the Dzu",
             "name_fr": "L'abominable homme des neiges",
             "description_en": "Successfully complete the FATE “We Fought a Dzu” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : ne pas douter face à Dzu Teh” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.793"]
+            "patch": "3.0",
+            "cPrev": ["fate.793"]
         },
         "x1362": {
             "name_en": "Falling Down",
             "name_fr": "Hutin de Tarasque",
             "description_en": "Successfully complete the FATE “Special Tarasque Force” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : terrasser la Tarasque” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.838"]
+            "patch": "3.0",
+            "cPrev": ["fate.838"]
         },
         "x1363": {
             "name_en": "Neverlasting Gobstopper",
             "name_fr": "Haut la Main indigo",
             "description_en": "Successfully complete the FATE “Metal Gears Revengeance 2” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : vengeurs de ferraille II” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.758"]
+            "patch": "3.0",
+            "cPrev": ["fate.758"]
         },
         "x1364": {
             "name_en": "Tipping the Scales",
             "name_fr": "Le coup du Sombrécaille",
             "description_en": "Successfully complete the FATE “Darkscale Devoureth” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : quand sombre Sombrécaille” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.870"]
+            "patch": "3.0",
+            "cPrev": ["fate.870"]
         },
         "x1365": {
             "name_en": "Fantasy Islet",
             "name_fr": "La terre ne se mange pas",
             "description_en": "Successfully complete the FATE “On Dangerous Ground” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : mangeur de terre gardée” avec la meilleure évaluation possible.",
-            "patch": "3.0",
             "points": 10,
-            "cPrev": ["f.855"]
+            "patch": "3.0",
+            "cPrev": ["fate.855"]
         },
         "x1923": {
             "name_en": "Superseed",
             "name_fr": "Bûcheron providentiel",
             "description_en": "Successfully complete the FATE “The Evil Seed” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : mauvaise graine” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1129"]
+            "patch": "4.0",
+            "cPrev": ["fate.1129"]
         },
         "x1924": {
             "name_en": "What You're Looking For",
             "name_fr": "Dans le baba",
             "description_en": "Successfully complete the FATE “Rattle and Humbaba” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : l'affreux Humbaba” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1194"]
+            "patch": "4.0",
+            "cPrev": ["fate.1194"]
         },
         "x1925": {
             "name_en": "Slay Me a Mountain",
             "name_fr": "La montagne renversée",
             "description_en": "Successfully complete the FATE “Tall Tale” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : ciel, mon sosie” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1277"]
+            "patch": "4.0",
+            "cPrev": ["fate.1277"]
         },
         "x1926": {
             "name_en": "Shucked, Not Stirred",
             "name_fr": "Rêveurs brisés",
             "description_en": "Successfully complete the FATE “Never Say Daimyo” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : amocher les daimyo” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1172"]
+            "patch": "4.0",
+            "cPrev": ["fate.1172"]
         },
         "x1927": {
             "name_en": "Maru Five",
             "name_fr": "Assez joué",
             "description_en": "Successfully complete the FATE “Curiosity Killed the Catfish” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : le géant de fer” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1238"]
+            "patch": "4.0",
+            "cPrev": ["fate.1238"]
         },
         "x1928": {
             "name_en": "Tusk",
             "name_fr": "Le piétineur piétiné",
             "description_en": "Successfully complete the FATE “Wham, Bam, Thank You, Mammoth” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : attention, passage de mammouths” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1267"]
+            "patch": "4.0",
+            "cPrev": ["fate.1267"]
         },
         "x1929": {
             "name_en": "Naughty Girls Need Love, as Well",
             "name_fr": "Les neuf queues entre les jambes",
             "description_en": "Successfully complete the FATE “Foxy Lady” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : la renarde fait surface” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1106"]
+            "patch": "4.0",
+            "cPrev": ["fate.1106"]
         },
         "x1930": {
             "name_en": "Ride On",
             "name_fr": "Dressage électrique",
             "description_en": "Successfully complete the FATE “A Horse Outside” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : l'étalon survolté” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1103"]
+            "patch": "4.0",
+            "cPrev": ["fate.1103"]
         },
         "x1931": {
             "name_en": "Dataq Is Cheap",
             "name_fr": "Le voyage des Dataq",
             "description_en": "Successfully complete the FATE “The Dataqi Chronicles: Dominion” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Défi : le roi des Matangas” avec la meilleure évaluation possible.",
-            "patch": "4.0",
             "points": 10,
-            "cPrev": ["f.1320"]
+            "patch": "4.0",
+            "cPrev": ["fate.1320"]
         },
         "x2337": {
             "name_en": "Not Today",
             "name_fr": "L'allié de la garde",
             "description_en": "Successfully complete the FATE “Deadly Nightshade” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “La menace des Fanes pourpres : les wargs s'en mêlent” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1504"]
+            "patch": "5.0",
+            "cPrev": ["fate.1504"]
         },
         "x2338": {
             "name_en": "Stay Thy Blade",
             "name_fr": "Chasseur de trésors dans le désert",
             "description_en": "Successfully complete the FATE “The Elderblade” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Appel à l'aide : l'épée de l'ancien” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1518"]
+            "patch": "5.0",
+            "cPrev": ["fate.1518"]
         },
         "x2339": {
             "name_en": "Mischief Managed",
             "name_fr": "Confident des Pixies",
             "description_en": "Successfully complete the FATE “Fuath to Be Reckoned With” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Les frères Daen : la bataille finale” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1487"]
+            "patch": "5.0",
+            "cPrev": ["fate.1487"]
         },
         "x2340": {
             "name_en": "Unbowed, Unbent, Unbroken",
             "name_fr": "Les protectrices des ruines",
             "description_en": "Successfully complete the FATE “Tojil Eclipse” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Chasse de Myalna : l'élimination du Tojil” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1450"]
+            "patch": "5.0",
+            "cPrev": ["fate.1450"]
         },
         "x2341": {
             "name_en": "Be Still My (Automatic) Heart",
             "name_fr": "Annihilateur d'automates",
             "description_en": "Successfully complete the FATE “A Finale Most Formidable” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Formidable : l'arme secrète” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1464"]
+            "patch": "5.0",
+            "cPrev": ["fate.1464"]
         },
         "x2342": {
             "name_en": "Another World, Another Turn",
             "name_fr": "Les dents de La Tempête",
             "description_en": "Successfully complete the FATE “The Head, the Tail, the Whole Damned Thing” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “L'annonciatrice du chaos : bataille au sommet des fonds” avec la meilleure évaluation possible.",
-            "patch": "5.0",
             "points": 10,
-            "cPrev": ["f.1432"]
+            "patch": "5.0",
+            "cPrev": ["fate.1432"]
         },
         "x3029": {
             "name_en": "Don't Go into the Light",
             "name_fr": "Daivadipa tapé",
             "description_en": "Successfully complete the FATE “Devout Pilgrims vs. Daivadipa” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Le culte des Mrga : le faux dieu” avec la meilleure évaluation possible.",
-            "patch": "6.0",
             "points": 10,
-            "cPrev": ["f.1763"]
+            "patch": "6.0",
+            "cPrev": ["fate.1763"]
         },
         "x3030": {
             "name_en": "Prototypical",
             "name_fr": "Protokhipique",
             "description_en": "Successfully complete the FATE “Omicron Recall: Killing Order” with the highest rating possible.",
             "description_fr": "Accomplir l'ALÉA “Mémoire vive : arrêter le processus” avec la meilleure évaluation possible.",
-            "patch": "6.0",
             "points": 10,
-            "cPrev": ["f.1855"]
+            "patch": "6.0",
+            "cPrev": ["fate.1855"]
         },
         "x3566": {
-            "cPrev": ["f.1871"],
-            "description_en": "Successfully complete the FATE “The Serpentlord Seethes” with the highest rating possible.",
-            "description_fr": "Accomplir l'ALÉA “Ttokrrone : lutte ensablée” avec la meilleure évaluation possible.",
             "name_en": "Terrible Ttokrrone",
             "name_fr": "Ttokrrone charmé",
+            "description_en": "Successfully complete the FATE “The Serpentlord Seethes” with the highest rating possible.",
+            "description_fr": "Accomplir l'ALÉA “Ttokrrone : lutte ensablée” avec la meilleure évaluation possible.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cPrev": ["fate.1871"]
         },
         "x3567": {
-            "cPrev": ["f.1922"],
-            "description_en": "Successfully complete the FATE “Mascot Murder” with the highest rating possible.",
-            "description_fr": "Accomplir l'ALÉA “Mica le mu : le grand final” avec la meilleure évaluation possible.",
             "name_en": "Thanks for the Mu-mories",
             "name_fr": "Farandole mu-gique",
+            "description_en": "Successfully complete the FATE “Mascot Murder” with the highest rating possible.",
+            "description_fr": "Accomplir l'ALÉA “Mica le mu : le grand final” avec la meilleure évaluation possible.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cPrev": ["fate.1922"]
         },
         "x2343": {
             "name_en": "Free Market Friend: Lakeland",
             "name_fr": "Héros de grand chemin : Grand-Lac",
             "description_en": "Achieve shared FATE rank 3 in Lakeland.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Grand-Lac.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.2"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.2"]
         },
         "x2344": {
             "name_en": "Free Market Friend: Kholusia",
             "name_fr": "Héros de grand chemin : Kholusia",
             "description_en": "Achieve shared FATE rank 3 in Kholusia.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Kholusia.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.5"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.5"]
         },
         "x2345": {
             "name_en": "Free Market Friend: Amh Araeng",
             "name_fr": "Héros de grand chemin : Amh Araeng",
             "description_en": "Achieve shared FATE rank 3 in Amh Araeng.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA en Amh Araeng.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.8"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.8"]
         },
         "x2346": {
             "name_en": "Free Market Friend: Il Mheg",
             "name_fr": "Héros de grand chemin : Il Mheg",
             "description_en": "Achieve shared FATE rank 3 in Il Mheg.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA en Il Mheg.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.11"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.11"]
         },
         "x2347": {
             "name_en": "Free Market Friend: The Rak'tika Greatwood",
             "name_fr": "Héros de grand chemin : Rak'tika",
             "description_en": "Achieve shared FATE rank 3 in the Rak'tika Greatwood.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Rak'tika.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.14"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.14"]
         },
         "x2348": {
             "name_en": "Free Market Friend: The Tempest",
             "name_fr": "Héros de grand chemin : La Tempête",
             "description_en": "Achieve shared FATE rank 3 in the Tempest.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à La Tempête.",
-            "patch": "5.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.shb.17"],
-            "cCombo": ["a.2349"]
+            "patch": "5.0",
+            "cCombo": ["a.2349"],
+            "cSiblings": ["travel.shared-fate.shb.17"]
         },
         "x2349": {
             "name_en": "Merchant's Best Friend",
             "name_fr": "Héros de grand chemin : Norvrandt",
             "description_en": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
             "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions de Grand-Lac, Kholusia, Amh Araeng, Il Mheg, Rak'tika et La Tempête.",
+            "points": 20,
             "reward": "t.459",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.2343", "a.2344", "a.2345", "a.2346", "a.2347", "a.2348"],
             "cSiblings": ["t.459"]
         },
@@ -591,150 +591,150 @@
             "name_fr": "Héros de grand chemin : Le Labyrinthos",
             "description_en": "Achieve shared FATE rank 3 in Labyrinthos.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA dans le Labyrinthos.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.2"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.2"]
         },
         "x3023": {
             "name_en": "Free Market Friend: Thavnair",
             "name_fr": "Héros de grand chemin : Thavnair",
             "description_en": "Achieve shared FATE rank 3 in Thavnair.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Thavnair.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.5"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.5"]
         },
         "x3024": {
             "name_en": "Free Market Friend: Garlemald",
             "name_fr": "Héros de grand chemin : Garlemald",
             "description_en": "Achieve shared FATE rank 3 in Garlemald.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Garlemald.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.8"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.8"]
         },
         "x3025": {
             "name_en": "Free Market Friend: Mare Lamentorum",
             "name_fr": "Héros de grand chemin : Mare Lamentorum",
             "description_en": "Achieve shared FATE rank 3 in Mare Lamentorum.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Mare Lamentorum.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.11"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.11"]
         },
         "x3026": {
             "name_en": "Free Market Friend: Elpis",
             "name_fr": "Héros de grand chemin : Elpis",
             "description_en": "Achieve shared FATE rank 3 in Elpis.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Elpis.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.14"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.14"]
         },
         "x3027": {
             "name_en": "Free Market Friend: Ultima Thule",
             "name_fr": "Héros de grand chemin : Ultima Thulé",
             "description_en": "Achieve shared FATE rank 3 in Ultima Thule.",
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Ultima Thulé.",
-            "patch": "6.0",
             "points": 10,
-            "cSiblings": ["travel.shared-fate.ew.17"],
-            "cCombo": ["a.3028"]
+            "patch": "6.0",
+            "cCombo": ["a.3028"],
+            "cSiblings": ["travel.shared-fate.ew.17"]
         },
         "x3028": {
             "name_en": "Far Trade",
             "name_fr": "La fin d'un chemin",
             "description_en": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
             "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions du Labyrinthos, de Thavnair, de Garlemald, de Mare Lamentorum, d'Elpis et d'Ultima Thulé.",
+            "points": 20,
             "reward": "t.622",
             "patch": "6.0",
-            "points": 20,
             "cPrev": ["a.3022", "a.3023", "a.3024", "a.3025", "a.3026", "a.3027"],
             "cSiblings": ["t.622"]
         },
         "x3559": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.3"],
-            "description_en": "Achieve shared FATE rank 4 in Urqopacha.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Urqopacha.",
             "name_en": "Free Market Friend: Urqopacha",
             "name_fr": "Héros de grand chemin : Urqopacha",
+            "description_en": "Achieve shared FATE rank 4 in Urqopacha.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Urqopacha.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.3"]
         },
         "x3560": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.13"],
-            "description_en": "Achieve shared FATE rank 4 in Kozama'uka.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Kozama'uka.",
             "name_en": "Free Market Friend: Kozama'uka",
             "name_fr": "Héros de grand chemin : Kozama'uka",
+            "description_en": "Achieve shared FATE rank 4 in Kozama'uka.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Kozama'uka.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.13"]
         },
         "x3561": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.23"],
-            "description_en": "Achieve shared FATE rank 4 in Yak T'el.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Yak T'el.",
             "name_en": "Free Market Friend: Yak T'el",
             "name_fr": "Héros de grand chemin : Yak T'el",
+            "description_en": "Achieve shared FATE rank 4 in Yak T'el.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Yak T'el.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.23"]
         },
         "x3562": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.33"],
-            "description_en": "Achieve shared FATE rank 4 in Shaaloani.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA en Shaaloani.",
             "name_en": "Free Market Friend: Shaaloani",
             "name_fr": "Héros de grand chemin : Shaaloani",
+            "description_en": "Achieve shared FATE rank 4 in Shaaloani.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA en Shaaloani.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.33"]
         },
         "x3563": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.43"],
-            "description_en": "Achieve shared FATE rank 4 in Heritage Found.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à L'Hoirie recouvrée.",
             "name_en": "Free Market Friend: Heritage Found",
             "name_fr": "Héros de grand chemin : L'Hoirie recouvrée",
+            "description_en": "Achieve shared FATE rank 4 in Heritage Found.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à L'Hoirie recouvrée.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.43"]
         },
         "x3564": {
-            "cCombo": ["a.3565"],
-            "cSiblings": ["travel.shared-fate.dt.53"],
-            "description_en": "Achieve shared FATE rank 4 in Living Memory.",
-            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à La Mémoire vivante.",
             "name_en": "Free Market Friend: Living Memory",
             "name_fr": "Héros de grand chemin : La Mémoire vivante",
+            "description_en": "Achieve shared FATE rank 4 in Living Memory.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à La Mémoire vivante.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.53"]
         },
         "x3565": {
-			"cPrev": ["a.3559", "a.3560", "a.3561", "a.3562", "a.3563", "a.3564"],
-            "cSiblings": ["t.752"],
-            "description_en": "Obtain “Free Market Friend” achievements for all six regions in Tural.",
-            "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions d'Urqopacha, Kozama'uka, Yak T'el, Shaaloani, L'Hoirie recouvrée et La Mémoire vivante.",
             "name_en": "Transcontinental Trade",
             "name_fr": "Héros de grand chemin : Tural",
-            "patch": "7.0",
+            "description_en": "Obtain “Free Market Friend” achievements for all six regions in Tural.",
+            "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions d'Urqopacha, Kozama'uka, Yak T'el, Shaaloani, L'Hoirie recouvrée et La Mémoire vivante.",
             "points": 20,
-            "reward": "t.752"
+            "reward": "t.752",
+            "patch": "7.0",
+            "cPrev": ["a.3559", "a.3560", "a.3561", "a.3562", "a.3563", "a.3564"],
+            "cSiblings": ["t.752"]
         },
         "x803": {
             "name_en": "Date with Destiny I",
             "name_fr": "Faire face aux imprévus I",
             "description_en": "Successfully complete 10 FATEs.",
             "description_fr": "Accomplir un total de 10 ALÉA.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.804"]
         },
         "x804": {
@@ -742,8 +742,8 @@
             "name_fr": "Faire face aux imprévus II",
             "description_en": "Successfully complete 100 FATEs.",
             "description_fr": "Accomplir un total de 100 ALÉA.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.803"],
             "cNext": ["a.805"]
         },
@@ -752,8 +752,8 @@
             "name_fr": "Faire face aux imprévus III",
             "description_en": "Successfully complete 300 FATEs.",
             "description_fr": "Accomplir un total de 300 ALÉA.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.804"],
             "cNext": ["a.806"]
         },
@@ -762,9 +762,9 @@
             "name_fr": "Faire face aux imprévus IV",
             "description_en": "Successfully complete 1,000 FATEs.",
             "description_fr": "Accomplir un total de 1 000 ALÉA.",
-            "reward": "t.110",
-            "patch": "2.1",
             "points": 10,
+            "reward": "t.110",
+            "patch": "2.0",
             "cPrev": ["a.805"],
             "cNext": ["a.807"],
             "cSiblings": ["t.110"]
@@ -774,10 +774,10 @@
             "name_fr": "Le hasard fait bien les choses",
             "description_en": "Successfully complete 3,000 FATEs.",
             "description_fr": "Accomplir un total de 3 000 ALÉA.",
+            "points": 20,
             "reward_en": "Paragon's Gown",
             "reward_fr": "Manteau d'expert",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.806"],
             "cNext": ["a.1353"]
         },
@@ -786,8 +786,8 @@
             "name_fr": "Faire face aux imprévus V",
             "description_en": "Successfully complete 5,000 FATEs.",
             "description_fr": "Accomplir un total de 5 000 ALÉA.",
-            "patch": "3.0",
             "points": 20,
+            "patch": "3.0",
             "cPrev": ["a.807"],
             "cNext": ["a.1354"]
         },
@@ -796,9 +796,9 @@
             "name_fr": "Faire face aux imprévus VI",
             "description_en": "Successfully complete 10,000 FATEs.",
             "description_fr": "Accomplir un total de 10 000 ALÉA.",
+            "points": 20,
             "reward": "t.264",
             "patch": "3.0",
-            "points": 20,
             "cPrev": ["a.1353"],
             "cSiblings": ["t.264"]
         },
@@ -807,8 +807,8 @@
             "name_fr": "Mon fier destrier I",
             "description_en": "See your companion chocobo to rank 1.",
             "description_fr": "Élever le compagnon chocobo au niveau 1.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.809"],
             "cSiblings": ["character.companion.companion-rank.0"]
         },
@@ -817,8 +817,8 @@
             "name_fr": "Mon fier destrier II",
             "description_en": "See your companion chocobo to rank 5.",
             "description_fr": "Élever le compagnon chocobo au niveau 5.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.808"],
             "cNext": ["a.810"],
             "cSiblings": ["character.companion.companion-rank.4"]
@@ -828,10 +828,10 @@
             "name_fr": "Mon fier destrier III",
             "description_en": "See your companion chocobo to rank 10.",
             "description_fr": "Élever le compagnon chocobo au niveau 10.",
+            "points": 20,
             "reward_en": "Chocobo Suit",
             "reward_fr": "Costume de chocobo",
-            "patch": "2.1",
-            "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.809"],
             "cSiblings": ["character.companion.companion-rank.9"]
         },
@@ -840,8 +840,8 @@
             "name_fr": "Bon Samaritain I",
             "description_en": "Resurrect a player who is not in your party or alliance.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 1 fois.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.1",
             "cNext": ["a.886"]
         },
         "x886": {
@@ -849,8 +849,8 @@
             "name_fr": "Bon Samaritain II",
             "description_en": "Resurrect a player who is not in your party or alliance 20 times.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 20 fois.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.1",
             "cPrev": ["a.885"],
             "cNext": ["a.1355"]
         },
@@ -859,8 +859,8 @@
             "name_fr": "Bon Samaritain III",
             "description_en": "Resurrect a player who is not in your party or alliance 50 times.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 50 fois.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.886"],
             "cNext": ["a.1356"]
         },
@@ -869,8 +869,8 @@
             "name_fr": "Bon Samaritain IV",
             "description_en": "Resurrect a player who is not in your party or alliance 100 times.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 100 fois.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.1355"],
             "cNext": ["a.1357"]
         },
@@ -879,9 +879,9 @@
             "name_fr": "Bon Samaritain V",
             "description_en": "Resurrect a player who is not in your party or alliance 200 times.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 200 fois.",
+            "points": 10,
             "reward": "t.265",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1356"],
             "cSiblings": ["t.265"]
         },
@@ -890,9 +890,9 @@
             "name_fr": "On demande un paladin I",
             "description_en": "Complete 50 high-level duties as a paladin.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que paladin.",
+            "points": 5,
             "reward": "t.151",
             "patch": "2.2",
-            "points": 5,
             "cNext": ["a.920"],
             "cSiblings": ["t.151"]
         },
@@ -901,9 +901,9 @@
             "name_fr": "On demande un paladin II",
             "description_en": "Complete 100 high-level duties as a paladin.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que paladin.",
+            "points": 10,
             "reward": "t.153",
             "patch": "2.2",
-            "points": 10,
             "cPrev": ["a.919"],
             "cNext": ["a.921"],
             "cSiblings": ["t.153"]
@@ -913,9 +913,9 @@
             "name_fr": "Chevalier errant à mi-temps",
             "description_en": "Complete 200 high-level duties as a paladin.",
             "description_fr": "Effectuer 200 missions de haut niveau en tant que paladin.",
+            "points": 20,
             "reward": "mo.32",
             "patch": "2.2",
-            "points": 20,
             "cPrev": ["a.920"]
         },
         "x922": {
@@ -923,9 +923,9 @@
             "name_fr": "On demande un guerrier I",
             "description_en": "Complete 50 high-level duties as a warrior.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que guerrier.",
+            "points": 5,
             "reward": "t.152",
             "patch": "2.2",
-            "points": 5,
             "cNext": ["a.923"],
             "cSiblings": ["t.152"]
         },
@@ -934,9 +934,9 @@
             "name_fr": "On demande un guerrier II",
             "description_en": "Complete 100 high-level duties as a warrior.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que guerrier.",
+            "points": 10,
             "reward": "t.154",
             "patch": "2.2",
-            "points": 10,
             "cPrev": ["a.922"],
             "cNext": ["a.924"],
             "cSiblings": ["t.154"]
@@ -946,9 +946,9 @@
             "name_fr": "Je suis chef de guerre, moi",
             "description_en": "Complete 200 high-level duties as a warrior.",
             "description_fr": "Effectuer 200 missions de haut niveau en tant que guerrier.",
+            "points": 20,
             "reward": "mo.33",
             "patch": "2.2",
-            "points": 20,
             "cPrev": ["a.923"]
         },
         "x1193": {
@@ -956,9 +956,9 @@
             "name_fr": "On demande un chevalier noir I",
             "description_en": "Complete 50 high-level duties as a dark knight.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que chevalier noir.",
+            "points": 5,
             "reward": "t.241",
             "patch": "3.0",
-            "points": 5,
             "cNext": ["a.1194"],
             "cSiblings": ["t.241"]
         },
@@ -967,9 +967,9 @@
             "name_fr": "On demande un chevalier noir II",
             "description_en": "Complete 100 high-level duties as a dark knight.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que chevalier noir.",
+            "points": 10,
             "reward": "t.242",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1193"],
             "cNext": ["a.1195"],
             "cSiblings": ["t.242"]
@@ -979,9 +979,9 @@
             "name_fr": "La séduction du côté obscur",
             "description_en": "Complete 200 high-level duties as a dark knight.",
             "description_fr": "Effectuer 200 missions de haut niveau en tant que chevalier noir.",
+            "points": 20,
             "reward": "mo.124",
             "patch": "3.0",
-            "points": 20,
             "cPrev": ["a.1194"]
         },
         "x1953": {
@@ -989,8 +989,8 @@
             "name_fr": "Paladin philanthrope I",
             "description_en": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cNext": ["a.1954"]
         },
         "x1954": {
@@ -998,8 +998,8 @@
             "name_fr": "Paladin philanthrope II",
             "description_en": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1953"],
             "cNext": ["a.1955"]
         },
@@ -1008,9 +1008,9 @@
             "name_fr": "Paladin philanthrope III",
             "description_en": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "mo.122",
             "patch": "4.0",
-            "points": 20,
             "cPrev": ["a.1954"],
             "cNext": ["a.2387"]
         },
@@ -1019,9 +1019,9 @@
             "name_fr": "Paladin philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.462",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.1955"],
             "cNext": ["a.2990"],
             "cSiblings": ["t.462"]
@@ -1031,31 +1031,31 @@
             "name_fr": "Paladin philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.613",
             "patch": "6.0",
-            "points": 20,
             "cPrev": ["a.2387"],
             "cNext": ["a.3527"],
             "cSiblings": ["t.613"]
         },
         "x3527": {
-            "cPrev": ["a.2990"],
-            "cSiblings": ["t.743"],
-            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
-            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
             "name_en": "Tank You, Paladin VI",
             "name_fr": "Paladin philanthrope VI",
-            "patch": "7.0",
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
             "points": 20,
-            "reward": "t.743"
+            "reward": "t.743",
+            "patch": "7.0",
+            "cPrev": ["a.2990"],
+            "cSiblings": ["t.743"]
         },
         "x1956": {
             "name_en": "Tank You, Warrior I",
             "name_fr": "Guerrier philanthrope I",
             "description_en": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cNext": ["a.1957"]
         },
         "x1957": {
@@ -1063,8 +1063,8 @@
             "name_fr": "Guerrier philanthrope II",
             "description_en": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1956"],
             "cNext": ["a.1958"]
         },
@@ -1073,9 +1073,9 @@
             "name_fr": "Guerrier philanthrope III",
             "description_en": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "mo.123",
             "patch": "4.0",
-            "points": 20,
             "cPrev": ["a.1957"],
             "cNext": ["a.2388"]
         },
@@ -1084,9 +1084,9 @@
             "name_fr": "Guerrier philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.463",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.1958"],
             "cNext": ["a.2991"],
             "cSiblings": ["t.463"]
@@ -1096,31 +1096,31 @@
             "name_fr": "Guerrier philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.614",
             "patch": "6.0",
-            "points": 20,
             "cPrev": ["a.2388"],
             "cNext": ["a.3528"],
             "cSiblings": ["t.614"]
         },
         "x3528": {
-            "cPrev": ["a.2991"],
-            "cSiblings": ["t.744"],
-            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
-            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
             "name_en": "Tank You, Warrior VI",
             "name_fr": "Guerrier philanthrope VI",
-            "patch": "7.0",
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
             "points": 20,
-            "reward": "t.744"
+            "reward": "t.744",
+            "patch": "7.0",
+            "cPrev": ["a.2991"],
+            "cSiblings": ["t.744"]
         },
         "x1959": {
             "name_en": "Tank You, Dark Knight I",
             "name_fr": "Chevalier noir philanthrope I",
             "description_en": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cNext": ["a.1960"]
         },
         "x1960": {
@@ -1128,8 +1128,8 @@
             "name_fr": "Chevalier noir philanthrope II",
             "description_en": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1959"],
             "cNext": ["a.1961"]
         },
@@ -1138,9 +1138,9 @@
             "name_fr": "Chevalier noir philanthrope III",
             "description_en": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "mo.124",
             "patch": "4.0",
-            "points": 20,
             "cPrev": ["a.1960"],
             "cNext": ["a.2389"]
         },
@@ -1149,9 +1149,9 @@
             "name_fr": "Chevalier noir philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.464",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.1961"],
             "cNext": ["a.2992"],
             "cSiblings": ["t.464"]
@@ -1161,31 +1161,31 @@
             "name_fr": "Chevalier noir philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.615",
             "patch": "6.0",
-            "points": 20,
             "cPrev": ["a.2389"],
             "cNext": ["a.3529"],
             "cSiblings": ["t.615"]
         },
         "x3529": {
-            "cPrev": ["a.2992"],
-            "cSiblings": ["t.745"],
-            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
-            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
             "name_en": "Tank You, Dark Knight VI",
             "name_fr": "Chevalier noir philanthrope VI",
-            "patch": "7.0",
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
             "points": 20,
-            "reward": "t.745"
+            "reward": "t.745",
+            "patch": "7.0",
+            "cPrev": ["a.2992"],
+            "cSiblings": ["t.745"]
         },
         "x2390": {
             "name_en": "Tank You, Gunbreaker I",
             "name_fr": "Pistosabreur philanthrope I",
             "description_en": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cNext": ["a.2391"]
         },
         "x2391": {
@@ -1193,9 +1193,9 @@
             "name_fr": "Pistosabreur philanthrope II",
             "description_en": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 200 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 10,
             "reward": "mo.183",
             "patch": "5.0",
-            "points": 10,
             "cPrev": ["a.2390"],
             "cNext": ["a.2392"]
         },
@@ -1204,9 +1204,9 @@
             "name_fr": "Pistosabreur philanthrope III",
             "description_en": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "mo.197",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.2391"],
             "cNext": ["a.2393"]
         },
@@ -1215,9 +1215,9 @@
             "name_fr": "Pistosabreur philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.465",
             "patch": "5.0",
-            "points": 20,
             "cPrev": ["a.2392"],
             "cNext": ["a.2993"],
             "cSiblings": ["t.465"]
@@ -1227,31 +1227,31 @@
             "name_fr": "Pistosabreur philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
+            "points": 20,
             "reward": "t.616",
             "patch": "6.0",
-            "points": 20,
             "cPrev": ["a.2393"],
             "cNext": ["a.3530"],
             "cSiblings": ["t.616"]
         },
         "x3530": {
-            "cPrev": ["a.2993"],
-            "cSiblings": ["t.746"],
-            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
-            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
             "name_en": "Tank You, Gunbreaker VI",
             "name_fr": "Pistosabreur philanthrope VI",
-            "patch": "7.0",
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
             "points": 20,
-            "reward": "t.746"
+            "reward": "t.746",
+            "patch": "7.0",
+            "cPrev": ["a.2993"],
+            "cSiblings": ["t.746"]
         },
         "x2451": {
             "name_en": "Jack of All Trades I",
             "name_fr": "Tout un palmarès I",
             "description_en": "Complete 5 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 5 missions différentes dans le palmarès bleu.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cNext": ["a.2452"]
         },
         "x2452": {
@@ -1259,8 +1259,8 @@
             "name_fr": "Tout un palmarès II",
             "description_en": "Complete 20 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 20 missions différentes dans le palmarès bleu.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cPrev": ["a.2451"],
             "cNext": ["a.2453"]
         },
@@ -1269,9 +1269,9 @@
             "name_fr": "Tout un palmarès III",
             "description_en": "Complete 50 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 50 missions différentes dans le palmarès bleu.",
-            "reward": "t.482",
-            "patch": "5.18",
             "points": 5,
+            "reward": "t.482",
+            "patch": "5.15",
             "cPrev": ["a.2452"],
             "cNext": ["a.2728"],
             "cSiblings": ["t.482"]
@@ -1281,9 +1281,9 @@
             "name_fr": "Tout un palmarès IV",
             "description_en": "Complete 90 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 90 missions différentes dans le palmarès bleu.",
+            "points": 5,
             "reward": "t.551",
             "patch": "5.45",
-            "points": 5,
             "cPrev": ["a.2453"],
             "cNext": ["a.3319"],
             "cSiblings": ["t.551"]
@@ -1293,9 +1293,9 @@
             "name_fr": "Tout un palmarès V",
             "description_en": "Complete 110 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 110 missions différentes dans le palmarès bleu.",
+            "points": 5,
             "reward": "t.693",
             "patch": "6.45",
-            "points": 5,
             "cPrev": ["a.2728"],
             "cSiblings": ["t.693"]
         },
@@ -1304,64 +1304,64 @@
             "name_fr": "Des bleus pour le Seigneur des flammes",
             "description_en": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Ifrit dans le défi “Le Cratère des tisons (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2455": {
             "name_en": "Mightier than the Crag",
             "name_fr": "Des bleus pour l'Ébranleur des terres",
             "description_en": "Complete the Navel (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Titan dans le défi “Le Nombril (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2456": {
             "name_en": "Mightier than the Vortex",
             "name_fr": "Des bleus pour la Souffleuse de rafales",
             "description_en": "Complete the Howling Eye (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Garuda dans le défi “Hurlœil (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2457": {
             "name_en": "Mightier than the King",
             "name_fr": "Des bleus pour le bon roi",
             "description_en": "Complete Thornmarch (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre le bon roi Moggle Mog XII dans le défi “La Lisière de ronces (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2458": {
             "name_en": "Mightier than the Whorl",
             "name_fr": "Des bleus pour le Déchaîneur des marées",
             "description_en": "Complete the Whorleater (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Léviathan dans le défi “Le Briseur de marées (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2459": {
             "name_en": "Mightier than Levin",
             "name_fr": "Des bleus pour le Patriarche fulgurant",
             "description_en": "Complete the Striking Tree (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Ramuh dans le défi “L'Arbre du jugement (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2460": {
             "name_en": "Mightier than the Frost",
             "name_fr": "Des bleus pour la Furie des neiges",
             "description_en": "Complete the Akh Afah Amphitheatre (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Shiva dans le défi “L'Amphithéâtre d'Akh Afah (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2461": {
             "name_en": "Mightier than the Dragon",
             "name_fr": "Des bleus pour Bahamut I",
             "description_en": "Complete the Binding Coil of Bahamut - Turn 5 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2474"]
         },
         "x2462": {
@@ -1369,8 +1369,8 @@
             "name_fr": "Des bleus pour Bahamut II",
             "description_en": "Complete the Second Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2474"]
         },
         "x2463": {
@@ -1378,8 +1378,8 @@
             "name_fr": "Des bleus pour Bahamut III",
             "description_en": "Complete the Final Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2474"]
         },
         "x2464": {
@@ -1387,25 +1387,25 @@
             "name_fr": "Des bleus pour le Maître des lames",
             "description_en": "Complete Thok ast Thok (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Ravana dans le défi “Thok ast Thok (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2465": {
             "name_en": "Mightier than the Expanse",
             "name_fr": "Des bleus pour le Migrateur des brumes",
             "description_en": "Complete the Limitless Blue (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Bismarck dans le défi “L'Immensité bleue (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2466": {
             "name_en": "Mightier than the Round",
             "name_fr": "Des bleus pour le Roi des rois",
             "description_en": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "reward": "t.483",
-            "patch": "5.18",
             "points": 5,
+            "reward": "t.483",
+            "patch": "5.15",
             "cSiblings": ["t.483"]
         },
         "x2467": {
@@ -1413,40 +1413,40 @@
             "name_fr": "Des bleus pour Sephirot",
             "description_en": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Sephirot dans le défi “Unité de contention S1P7 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2468": {
             "name_en": "Mightier than the Horde",
             "name_fr": "Des bleus pour le dragon maléfique",
             "description_en": "Complete the Minstrel's Ballad: Nidhogg's Rage with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Nidhogg dans le défi “L'ire de Nidhogg” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2469": {
             "name_en": "Mightier than the Goddess",
             "name_fr": "Des bleus pour Sophia",
             "description_en": "Complete Containment Bay P1T6 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Sophia dans le défi “Unité de contention P1P6 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2470": {
             "name_en": "Mightier than the Demon",
             "name_fr": "Des bleus pour Zurvan",
             "description_en": "Complete Containment Bay Z1T9 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Zurvan dans le défi “Unité de contention Z1P9 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
-            "points": 5
+            "points": 5,
+            "patch": "5.15"
         },
         "x2471": {
             "name_en": "Mightier than the Manipulator",
             "name_fr": "Des bleus pour Alexander I",
             "description_en": "Complete Alexander - The Burden of the Father (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2475"]
         },
         "x2472": {
@@ -1454,8 +1454,8 @@
             "name_fr": "Des bleus pour Alexander II",
             "description_en": "Complete Alexander - The Burden of the Son (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2475"]
         },
         "x2473": {
@@ -1463,8 +1463,8 @@
             "name_fr": "Des bleus pour Alexander III",
             "description_en": "Complete Alexander - The Soul of the Creator (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cCombo": ["a.2475"]
         },
         "x2474": {
@@ -1472,33 +1472,33 @@
             "name_fr": "Conte bleu de Bahamut",
             "description_en": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Bahamut”.",
-            "reward": "t.484",
-            "patch": "5.18",
             "points": 10,
+            "reward": "t.484",
+            "patch": "5.15",
             "cPrev": ["a.2461", "a.2462", "a.2463"],
-            "cSiblings": ["t.484"],
-            "cCombo": ["a.2476"]
+            "cCombo": ["a.2476"],
+            "cSiblings": ["t.484"]
         },
         "x2475": {
             "name_en": "Masked Conqueror",
             "name_fr": "Conte bleu d'Alexander",
             "description_en": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Alexander”.",
-            "reward": "t.485",
-            "patch": "5.18",
             "points": 10,
+            "reward": "t.485",
+            "patch": "5.15",
             "cPrev": ["a.2471", "a.2472", "a.2473"],
-            "cSiblings": ["t.485"],
-            "cCombo": ["a.2476"]
+            "cCombo": ["a.2476"],
+            "cSiblings": ["t.485"]
         },
         "x2476": {
             "name_en": "True Blue",
             "name_fr": "L'épopée des bleus d'Éorzéa",
             "description_en": "Obtain the achievements “Blue Unchained” and “Masked Conqueror.”",
             "description_fr": "Accomplir les hauts faits “Conte bleu de Bahamut” et “Conte bleu d'Alexander”.",
-            "reward": "mo.200",
-            "patch": "5.18",
             "points": 10,
+            "reward": "mo.200",
+            "patch": "5.15",
             "cPrev": ["a.2474", "a.2475"]
         },
         "x2729": {
@@ -1506,64 +1506,64 @@
             "name_fr": "Des bleus pour le Kami de la fougue",
             "description_en": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Susano dans le défi “La Crique aux tributs (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2730": {
             "name_en": "Mightier than Bliss",
             "name_fr": "Des bleus pour la Béatificatrice onirique",
             "description_en": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Lakshmi dans le défi “Émanation (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2731": {
             "name_en": "Mightier than the Worm",
             "name_fr": "Des bleus pour le Dragon divin",
             "description_en": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Shinryu dans le défi “Le domaine de Shinryu” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2732": {
             "name_en": "Mightier than the Moon",
             "name_fr": "Des bleus pour la Maîtresse de la lune et de la nuit",
             "description_en": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Tsukuyomi dans le défi “Castrum Fluminis (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2733": {
             "name_en": "Mightier than the White",
             "name_fr": "Des bleus pour le Tigre blanc de l'ouest",
             "description_en": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Byakko dans le défi “La Clairière de Jade (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2734": {
             "name_en": "Mightier than the Vermilion",
             "name_fr": "Des bleus pour l'Oiseau vermillon du sud",
             "description_en": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Suzaku dans le défi “Le Nid des Lamentations (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2735": {
             "name_en": "Mightier than the Azure",
             "name_fr": "Des bleus pour le Dragon azur de l'est",
             "description_en": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Seiryû dans le défi “L'Îlot des Amertumes (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
-            "points": 5
+            "points": 5,
+            "patch": "5.45"
         },
         "x2736": {
             "name_en": "Mightier than the Delta",
             "name_fr": "Des bleus pour Oméga I",
             "description_en": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
             "points": 5,
+            "patch": "5.45",
             "cCombo": ["a.2739"]
         },
         "x2737": {
@@ -1571,8 +1571,8 @@
             "name_fr": "Des bleus pour Oméga II",
             "description_en": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
             "points": 5,
+            "patch": "5.45",
             "cCombo": ["a.2739"]
         },
         "x2738": {
@@ -1580,8 +1580,8 @@
             "name_fr": "Des bleus pour Oméga III",
             "description_en": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "5.45",
             "points": 5,
+            "patch": "5.45",
             "cCombo": ["a.2739"]
         },
         "x2739": {
@@ -1589,9 +1589,9 @@
             "name_fr": "Conte bleu d'Oméga",
             "description_en": "Obtain the achievements “Mightier than the Delta,” “Mightier than the Sigma,” and “Mightier than the Alpha.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Oméga”.",
+            "points": 10,
             "reward": "t.552",
             "patch": "5.45",
-            "points": 10,
             "cPrev": ["a.2736", "a.2737", "a.2738"],
             "cSiblings": ["t.552"]
         },
@@ -1600,56 +1600,56 @@
             "name_fr": "Des bleus pour le Monarque féérique",
             "description_en": "Complete the Dancing Plague (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Titania dans le défi “La Valse du Monarque (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3321": {
             "name_en": "Mightier than Perfection",
             "name_fr": "Des bleus pour l'Immaculé",
             "description_en": "Complete the Crown of the Immaculate (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Innocence dans le défi “La Couronne de l'Immaculé (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3322": {
             "name_en": "Mightier than the Underworld",
             "name_fr": "Des bleus pour le Maître des Enfers",
             "description_en": "Complete the Minstrel's Ballad: Hades's Elegy with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre Hadès dans le défi “Le Râle de l'Agonie (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3323": {
             "name_en": "Mightier than Ruby",
             "name_fr": "Des bleus pour l'Arme Rubis",
             "description_en": "Complete the Cinder Drift (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre l'Arme Rubis dans le défi “Les Nuées de Brandons (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3325": {
             "name_en": "Mightier than Emerald",
             "name_fr": "Des bleus pour l'Arme Émeraude",
             "description_en": "Complete Castrum Marinum (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre l'Arme Émeraude dans le défi “Castrum Marinum (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3326": {
             "name_en": "Mightier than Diamond",
             "name_fr": "Des bleus pour l'Arme Diamant",
             "description_en": "Complete the Cloud Deck (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre l'Arme Diamant dans le défi “Le Tillac des Cirrus (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
-            "points": 5
+            "points": 5,
+            "patch": "6.45"
         },
         "x3327": {
             "name_en": "Mightier than the Gate",
             "name_fr": "Des bleus pour Éden I",
             "description_en": "Complete Eden's Gate: Sepulture (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “L'Éveil d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
             "points": 5,
+            "patch": "6.45",
             "cCombo": ["a.3330"]
         },
         "x3328": {
@@ -1657,8 +1657,8 @@
             "name_fr": "Des bleus pour Éden II",
             "description_en": "Complete Eden's Verse: Refulgence (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “Les Accords d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
             "points": 5,
+            "patch": "6.45",
             "cCombo": ["a.3330"]
         },
         "x3329": {
@@ -1666,8 +1666,8 @@
             "name_fr": "Des bleus pour Éden III",
             "description_en": "Complete Eden's Promise: Eternity (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Finir “La Promesse d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "patch": "6.45",
             "points": 5,
+            "patch": "6.45",
             "cCombo": ["a.3330"]
         },
         "x3330": {
@@ -1675,9 +1675,9 @@
             "name_fr": "Conte bleu d'Éden",
             "description_en": "Obtain the achievements “Mightier than the Gate,” “Mightier than the Verse,” and “Mightier than the Promise.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Éden”.",
+            "points": 10,
             "reward": "t.694",
             "patch": "6.45",
-            "points": 10,
             "cPrev": ["a.3327", "a.3328", "a.3329"],
             "cSiblings": ["t.694"]
         }

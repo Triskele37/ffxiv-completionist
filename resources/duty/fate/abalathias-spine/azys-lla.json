@@ -1,183 +1,183 @@
 {
     "key": "azys-lla",
-    "groupName": "@PLACE.AZYS_LLA",
+    "groupName": "@PLACE.HW.AZYS_LLA",
     "tasks": {
         "x877": {
-            "level": 59,
             "name_en": "Prey Online",
             "name_fr": "Proto-Ultima : la menace surgie du passé",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(38, 18), (27, 5), (6,20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x880": {
-            "level": 59,
             "name_en": "A Bug's Death",
             "name_fr": "1001 circuits morts",
+            "level": 59,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(18, 19)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "3.0"
         },
         "x881": {
-            "level": 59,
             "name_en": "The Late Escape",
             "name_fr": "Fuite tardive",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 7)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x882": {
-            "level": 59,
             "name_en": "Still Ticking",
             "name_fr": "Défi : des frasques à la défrag'",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 12)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x883": {
-            "level": 59,
             "name_en": "Life of Brain",
             "name_fr": "Défi : euthanasie cérébrale",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(30, 7)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x884": {
-            "level": 59,
             "name_en": "The Monster Mass",
             "name_fr": "Une masse de monstres",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(37, 16)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x885": {
-            "level": 59,
             "name_en": "Pet, Smart",
             "name_fr": "Défi : couchée, sale bête !",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(35, 12)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x886": {
-            "level": 59,
             "name_en": "The Root of Evil",
             "name_fr": "Des plantes monstres",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(34, 9)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x887": {
-            "level": 59,
             "name_en": "The Mystery Machine",
             "name_fr": "Gare à l'avant-garde",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(38, 24)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x888": {
-            "level": 59,
             "name_en": "Rampant Speculation",
             "name_fr": "Guerre technologique",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 29)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x889": {
-            "level": 59,
             "name_en": "Put the Knives Down",
             "name_fr": "Bas les griffes",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(34, 36)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x890": {
-            "level": 59,
             "name_en": "Scared Sylla",
             "name_fr": "Défi : mettre Sylla à mal",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34, 36)",
-            "patch": "3.0",
-            "previousFate": "f.889",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.889",
+            "patch": "3.0"
         },
         "x891": {
-            "level": 59,
             "name_en": "Phi Slamma Gamma East",
             "name_fr": "Recadrer le quadrant est",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(36, 29)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x892": {
-            "level": 59,
             "name_en": "Phi Slamma Gamma West",
             "name_fr": "Recadrer le quadrant ouest",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 32)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x893": {
-            "level": 59,
             "name_en": "Phi Slamma Gamma South",
             "name_fr": "Recadrer le quadrant sud",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(28, 38)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x894": {
-            "level": 59,
             "name_en": "Yak It Up",
             "name_fr": "Yak à le faire",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(7, 34)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x895": {
-            "level": 59,
             "name_en": "No Greater Goryshche",
             "name_fr": "Défi : décapitation de Goryschche",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x897": {
-            "level": 59,
             "name_en": "Harvest Moon",
             "name_fr": "Alerte dans le vide",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(12, 18)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x898": {
-            "level": 59,
             "name_en": "Out of Sight, Out of Mind",
             "name_fr": "Défi : Sthéno en quarantaine",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(10, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x899": {
-            "level": 59,
             "name_en": "A Room without Books",
             "name_fr": "Traitement d'amphiptère",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 29)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x900": {
-            "level": 59,
             "name_en": "Curiously Strong Things",
             "name_fr": "Reptoïdes tueurs à tuer",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30, 11)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x901": {
-            "level": 59,
             "name_en": "Do Spinners Dream of Electric Rooks",
             "name_fr": "Défi : les drilles rêvent-ils de meules électriques ?",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 13)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         }
     }
 }

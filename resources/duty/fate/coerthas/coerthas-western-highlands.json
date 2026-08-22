@@ -1,218 +1,218 @@
 {
     "key": "coerthas-western-highlands",
-    "groupName": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+    "groupName": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
     "tasks": {
         "x787": {
-            "level": 50,
             "name_en": "Eye in the Sky",
             "name_fr": "Observateurs surveillés",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x788": {
-            "level": 50,
             "name_en": "A Dung Deal",
             "name_fr": "Une histoire de crottin",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(31, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x789": {
-            "level": 50,
             "name_en": "Land of the Freeze",
             "name_fr": "Savoir briser la glace",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 22)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x791": {
-            "level": 50,
             "name_en": "Dawn of the Mylodons",
             "name_fr": "Dans le mylodon",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x792": {
-            "level": 50,
             "name_en": "Don of the Mylodons",
             "name_fr": "Défi : les veules et la Velue",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(30, 21)",
-            "patch": "3.0",
-            "previousFate": "f.791",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.791",
+            "patch": "3.0"
         },
         "x796": {
-            "level": 50,
             "name_en": "Apparent Trap",
             "name_fr": "Défi : gare aux piège-yétis",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27, 14)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x801": {
-            "level": 50,
             "name_en": "Follow the Sleet",
             "name_fr": "Extermination de piège-grésils",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33, 14)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x807": {
-            "level": 50,
             "name_en": "What You See Is What You Get",
             "name_fr": "Défi : taper dans l'œil",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(30, 28)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x809": {
-            "level": 50,
             "name_en": "Panic Rheum",
             "name_fr": "Entre appétit et dégoût",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 18)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x810": {
-            "level": 50,
             "name_en": "Sugar, Sugar",
             "name_fr": "Défi : tartufo et truffe blanche",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 18)",
-            "patch": "3.0",
-            "previousFate": "f.809",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.809",
+            "patch": "3.0"
         },
         "x813": {
-            "level": 50,
             "name_en": "Run, Riders, Run",
             "name_fr": "Les grands méchants loups cendrés",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(31, 34)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x814": {
-            "level": 50,
             "name_en": "One Whiskey, One Goat, One Spear",
             "name_fr": "Défi : Heidrun l'insatiable",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27, 26)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x815": {
-            "level": 50,
             "name_en": "No Ifs, Ands, or Butts",
             "name_fr": "Défi : Alaimbert le risible",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31, 32)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x816": {
-            "level": 50,
             "name_en": "Null and Void",
             "name_fr": "Adieu aux bergthurs",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(31, 32)",
-            "patch": "3.0",
-            "previousFate": "f.815",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.815",
+            "patch": "3.0"
         },
         "x793": {
-            "level": 51,
             "name_en": "We Fought a Dzu",
             "name_fr": "Défi : ne pas douter face à Dzu Teh",
+            "level": 51,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x794": {
-            "level": 51,
             "name_en": "True Convictions",
             "name_fr": "Crier au Convictoire trop vite",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x795": {
-            "level": 51,
             "name_en": "The Polar Express",
             "name_fr": "Glacial garde-manger",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x798": {
-            "level": 51,
             "name_en": "Abominable Me",
             "name_fr": "Plus moche que méchant",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(8, 10)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x800": {
-            "level": 51,
             "name_en": "Requiem for a Dragon",
             "name_fr": "Requiem pour un dragon",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 19)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x802": {
-            "level": 51,
             "name_en": "Sick Pack",
             "name_fr": "Qui a peur de la meute géante ?",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(12, 10)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x805": {
-            "level": 51,
             "name_en": "In Command",
             "name_fr": "Congédier les commandants gelés",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17, 13)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x811": {
-            "level": 51,
             "name_en": "Unsilent Vigil",
             "name_fr": "La chasse aux archéornis",
+            "level": 51,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 14)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x812": {
-            "level": 51,
             "name_en": "Pico de Gallows",
             "name_fr": "Défi : arrête de Picolaton",
+            "level": 51,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(19, 14)",
-            "patch": "3.0",
-            "previousFate": "f.811",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.811",
+            "patch": "3.0"
         },
         "x817": {
-            "level": 51,
             "name_en": "Dishonored",
             "name_fr": "Défi : avec ça, on est Werner",
+            "level": 51,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 22)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x908": {
-            "level": 56,
             "name_en": "Sphenopalatine Ganglioneuralgia",
             "name_fr": "De la glace à piler !",
+            "level": 56,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 27)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x909": {
-            "level": 56,
             "name_en": "A Stihi Situation",
             "name_fr": "Défi : Stihi, c'est fini !",
+            "level": 56,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         }
     }
 }

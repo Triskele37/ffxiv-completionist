@@ -1,118 +1,85 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
+import { NgTemplateOutlet } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { ProgressSpinner } from 'primeng/progressspinner';
+import { ToggleSwitch } from 'primeng/toggleswitch';
+import { Table } from 'primeng/table';
+import { Tooltip } from 'primeng/tooltip';
 
 import { DataService } from '@data';
-import { DataGroup } from '@model/DataGroup';
+import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
+import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { Task } from '@model/Task';
-import { getChildTask } from '@model/DataGroup/children/getChild';
-import { Link } from '@model/Chain/ChainLink';
+import { validateConstraint } from '@model/ValidateChain/validate/validateConstraint';
+import { asChainIssue } from '@model/ValidateChain/util/asChainIssue';
+import { getChainConstraints } from '@model/ValidateChain/getChainConstraints';
+import { ChainConstraint, ChainIssue } from '@model/ValidateChain/types';
+import { SettingsService } from '@view/settings/settings.service';
 
-type ChainIssue = {
-    type: 'PREV_ISSUE' | 'SIBLING_ISSUE';
-    sourceTask: Task;
-    targetTask: Task;
-};
-
-/**
- * Currently only handles
- * - Single cSiblings chain
- * - Single cPrev chain
- *
- * Could add support for:
- * - cPrevAny
- * - numeric completion
- * - 'at' type chains
- * - range chains
- */
 @Component({
-    selector: 'xiv-chain-analysis',
+    selector: 'com-chain-analysis',
     templateUrl: './chain-analysis.component.html',
+    imports: [
+        FormsModule,
+        TranslatePipe,
+        ButtonDirective,
+        ProgressSpinner,
+        ToggleSwitch,
+        Table,
+        Tooltip,
+
+        ContentLinkComponent,
+        CompleteCellComponent,
+        NgTemplateOutlet,
+    ],
     styleUrls: ['./chain-analysis.component.scss']
 })
-export class ChainAnalysisComponent {
+export class ChainAnalysisComponent implements OnInit {
+    constraints: ChainConstraint[] = [];
     issues: ChainIssue[] = [];
-    siblingPairs: string[] = [];
+    isLoading = signal(false);
 
-    constructor(private svcData: DataService) {
-        this.analyzeChainedTasks();
+    constructor(
+        private svcData: DataService,
+        private svcChainViewer: ChainViewerService,
+        public svcSettings: SettingsService
+    ) {
+    }
+
+    ngOnInit() {
+        this.isLoading.set(true);
+        setTimeout(() => {
+            this.constraints = getChainConstraints(this.svcData.data);
+            this.analyzeChainedTasks();
+            this.isLoading.set(false);
+        });
+    }
+
+    onChainingEnabledChange(): void {
+        this.svcSettings.onChangeBoolSetting(this.svcSettings.settings.chainingEnabled);
+        if(this.svcSettings.settings.chainingEnabled.value) {
+            this.svcSettings.onChainingEnabled$.next();
+        }
     }
 
     analyzeChainedTasks(): void {
         this.issues = [];
-        this.siblingPairs = [];
 
-        this.dive(this.svcData.data);
-    }
-
-    dive(group: DataGroup): void {
-        if(group.isBookmarkGroup || group.isCustomGroup) return;
-
-        group.tasks?.forEach((task) => {
-            this.addSiblingIssues(task);
-            this.addPrevIssues(task);
-        });
-
-        group.subGroups?.forEach(this.dive.bind(this));
-    }
-
-    addSiblingIssues(task: Task): void {
-        if(!task.cSiblings) return;
-
-        if(Array.isArray(task.cSiblings)) {
-            task.cSiblings.forEach((siblingLink) => {
-                const siblingTask = this.getChainedTask(task, siblingLink);
-                if(!siblingTask) return;
-                if(task.completionFlag === siblingTask.completionFlag) return;
-                if(this.siblingPairs.includes(this.toPairString(siblingTask, task))) return;
-
-                this.siblingPairs.push(this.toPairString(task, siblingTask));
-                this.issues.push({
-                    type: 'SIBLING_ISSUE',
-                    sourceTask: task,
-                    targetTask: siblingTask,
-                });
-            });
+        for(const constraint of this.constraints) {
+            if(!validateConstraint(constraint)) {
+                this.issues.push(asChainIssue(constraint));
+            }
         }
     }
 
-    addPrevIssues(task: Task): void {
-        if(!task.cPrev) return;
-        if(task.isNumericCompletion) return;
-        if(task.completionFlag !== 'Y') return;
-        if(task.cPrevAny) return;
-
-        if(Array.isArray(task.cPrev)) {
-            task.cPrev.forEach((prevLink) => {
-                const prevTask = this.getChainedTask(task, prevLink);
-                if(!prevTask) return;
-
-                if(task.completionFlag !== prevTask.completionFlag) {
-                    this.issues.push({
-                        type: 'PREV_ISSUE',
-                        sourceTask: task,
-                        targetTask: prevTask,
-                    });
-                }
-            });
-        }
+    onChange(): void {
+        this.analyzeChainedTasks();
     }
 
-    getChainedTask(source: Task, link: Link): Task | undefined {
-        const fullLink = typeof link === 'string' ? link : `${source._parent.fullStorageKey}.${link}`;
-
-        if(fullLink.match(/\.all$/)) return;
-        if(fullLink.match(/\.[0-9]+-[0-9]+$/)) return;
-
-        const task = getChildTask(this.svcData.data, fullLink);
-
-        if(!task) {
-            console.log('broken link:', link, source);
-            return;
-        }
-
-        return task;
-    }
-
-    toPairString(taskA: Task, taskB: Task): string {
-        return `${taskA.fullStorageKey}x${taskB.fullStorageKey}`;
+    onOpenChainViewer(task: Task): void {
+        this.svcChainViewer.openChainViewer(task);
     }
 }

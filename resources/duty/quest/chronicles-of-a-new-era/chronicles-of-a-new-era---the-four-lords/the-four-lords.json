@@ -4,59 +4,63 @@
     "groupName_fr": "Quatre animaux sacrés",
     "tasks": {
         "x68551": {
-            "level": 70,
             "name_en": "An Auspicious Encounter",
             "name_fr": "L'île aux démons",
-            "unlock": ["d.284", "d.290", "o.199"],
+            "level": 70,
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
+            "unlock": ["d.284", "d.290", "o.199"],
+            "patch": "4.2",
             "cPrev": ["q.68560"],
             "cNext": ["q.68552"],
-            "patch": "4.31"
+            "cSiblings": ["d.284", "d.290"]
         },
         "x68552": {
-            "level": 70,
             "name_en": "Tortoise in Time",
             "name_fr": "Un gros coup de vieux",
-            "unlock": "d.536",
+            "level": 70,
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
+            "unlock": "d.536",
+            "patch": "4.3",
             "cPrev": ["q.68551"],
             "cNext": ["q.68688"],
-            "patch": "4.31"
+            "cSiblings": ["d.536"]
         },
         "x68688": {
-            "level": 70,
             "name_en": "The Fire-bird Down Below",
             "name_fr": "Une passion brûlante",
-            "unlock": ["d.596", "e.187"],
+            "level": 70,
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
+            "unlock": ["d.596", "e.187"],
+            "patch": "4.4",
             "cPrev": ["q.68552"],
             "cNext": ["q.68701"],
-            "cSiblings": ["e.187"],
-            "patch": "4.4"
+            "cSiblings": ["d.596", "e.187"]
         },
         "x68701": {
-            "level": 70,
             "name_en": "Surpassing the Samurai",
             "name_fr": "Le serment du Dragon azur",
-            "unlock": "d.637",
+            "level": 70,
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
+            "unlock": "d.637",
+            "patch": "4.5",
             "cPrev": ["q.68688"],
             "cNext": ["q.68702"],
-            "patch": "4.5"
+            "cSiblings": ["d.637"]
         },
         "x68702": {
-            "level": 70,
             "name_en": "The Fifth Lord",
             "name_fr": "Tout juste pareil au songe d'une nuit de printemps",
+            "level": 70,
             "npc_en": "Seiryu",
             "npc_fr": "Seiryû",
-            "cPrev": ["q.68701"],
+            "unlock": "ap.467",
             "patch": "4.5",
-            "unlock": "ap.467"
+            "cPrev": ["q.68701"],
+            "cSiblings": "ap.467"
         }
     }
 }

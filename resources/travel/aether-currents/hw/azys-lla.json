@@ -1,32 +1,37 @@
 {
     "key": "azys-lla",
-    "groupName": "@PLACE.AZYS_LLA",
+    "groupName": "@PLACE.HW.AZYS_LLA",
     "cCombo": ["a.1162"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.67200",
-            "cSiblings": ["q.67200"]
+            "cSiblings": ["q.67200"],
+            "patch": "3.0"
         },
         "x1": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.67201",
-            "cSiblings": ["q.67201"]
+            "cSiblings": ["q.67201"],
+            "patch": "3.0"
         },
         "x2": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.67202",
-            "cSiblings": ["q.67202"]
+            "cSiblings": ["q.67202"],
+            "patch": "3.0"
         },
         "x3": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.67203",
-            "cSiblings": ["q.67203"]
+            "cSiblings": ["q.67203"],
+            "patch": "3.0"
         },
         "x4": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.67204",
-            "cSiblings": ["q.67204"]
+            "cSiblings": ["q.67204"],
+            "patch": "3.0"
         }
     }
 }

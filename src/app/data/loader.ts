@@ -3,19 +3,19 @@ import { TranslateService } from '@ngx-translate/core';
 import { ElectronService } from '@service/electron/electron.service'
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { Globals } from '@constant/Global';
+import { JSONResource } from '@model/JSONResource';
 
 export const refs: {
-    svcElectron: ElectronService;
-    translate: TranslateService;
+    svcElectron: ElectronService | null;
+    translate: TranslateService | null;
 } = {
     svcElectron: null,
     translate: null,
 };
 
-export type JSON = Record<string, any>;
-export type JSON_GROUP = JSON & {
-    headers?: JSON;
-    tasks?: Record<string, JSON & {
+export type JSON_GROUP = JSONResource & {
+    columns?: JSONResource;
+    tasks?: Record<string, JSONResource & {
         hidden?: boolean;
     }>;
 };
@@ -32,13 +32,13 @@ export function loadJson(key: string) {
     let finalJson: JSON_GROUP = {};
 
     try {
-        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, key);
+        const json = refs.svcElectron?.sendSync(IPC_EVENT.LOAD_JSON, key);
 
         try {
             translateCommonKeys(json);
             finalJson = {
                 ...json,
-                headers: mapHeaders(json),
+                columns: mapColumns(json),
                 tasks: mapTasks(json),
             };
         }
@@ -54,28 +54,29 @@ export function loadJson(key: string) {
 }
 
 /**
- * Transform the raw header json to the initial app json
+ * Transform the raw column json to the initial app json
  */
-function mapHeaders(json: JSON_GROUP) {
-    if(!json.headers) return null;
-    return Object.keys(json.headers).map((key) => {
-        const header = {
+function mapColumns(json: JSON_GROUP) {
+    if(!json.columns) return null;
+
+    return Object.keys(json.columns).map((key) => {
+        const column = {
             key,
-            ...json.headers[key],
-            ...defaultHeaderProps(key, json.headers[key])
+            ...json.columns![key],
+            ...defaultColumnProps(key, json.columns![key])
         };
 
-        translateCommonKeys(header);
+        translateCommonKeys(column);
 
-        return header;
+        return column;
     });
 }
 
 /**
- * Apply default header properties
+ * Apply default column properties
  * - e.g. 'patch' has a default width of 100px
  */
-function defaultHeaderProps(key: string, column: JSON) {
+function defaultColumnProps(key: string, column: JSONResource) {
     switch(key) {
         case 'category':
             return {
@@ -105,7 +106,7 @@ function defaultHeaderProps(key: string, column: JSON) {
  * Transform the raw task json to the initial app json (pre-class)
  */
 function mapTasks(json: JSON_GROUP) {
-    const tasks: JSON = {};
+    const tasks: JSONResource = {};
     if(!json.tasks) return tasks;
 
     for(const [id, rawTask] of Object.entries(json.tasks)) {
@@ -132,7 +133,7 @@ function shouldTranslate(value: any) {
 /**
  * Iterate fields on an object, looking for ones that need i18n transformation
  */
-function translateCommonKeys(obj: JSON) {
+function translateCommonKeys(obj: JSONResource) {
     for(const field in obj) {
         const value = obj[field];
 
@@ -167,8 +168,8 @@ function getCommonTranslation(value: string): string {
         for(const commonKey of commonKeys) {
             if(!replacements[commonKey]) {
                 // Attempt to get translation
-                const fullCommonKey = `DATA.${commonKey}`;
-                const commonTranslation = refs.translate.instant(fullCommonKey);
+                const fullCommonKey = `GAME.${commonKey}`;
+                const commonTranslation = refs.translate?.instant(fullCommonKey);
 
                 // No translation if these two are equal
                 if(commonTranslation !== fullCommonKey) {
@@ -179,7 +180,7 @@ function getCommonTranslation(value: string): string {
 
         // Bail if an entry somehow gets this far without replacements
         if(Object.keys(replacements).length === 0) {
-            console.log('Data Jacked:', commonKeys, updatedValue);
+            console.error('Missing i18n key:', commonKeys, updatedValue);
             break;
         }
 
@@ -190,7 +191,7 @@ function getCommonTranslation(value: string): string {
     }
 
     // Special currency handling
-    if(Globals.config.lang === 'fr') {
+    if(Globals.config?.lang === 'fr') {
         updatedValue = updatedValue.replace(NUMBER_REGEX, (n) =>
             n.replace(/[.,]/g, (punct) => punct === '.' ? ',' : '.')
         );

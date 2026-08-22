@@ -4,85 +4,90 @@
     "groupName_fr": "Histoire principale",
     "tasks": {
         "x68632": {
-            "level": 60,
             "name_en": "Something Fishy This Way Comes",
             "name_fr": "Comme un Namazu dans la steppe",
+            "level": 60,
             "npc_en": "Floundering Namazu",
             "npc_fr": "Namazu Affaibli",
             "cPrev": ["q.68053", "q.68276"],
             "cNext": ["q.68633"],
-            "patch": "4.31"
+            "patch": "4.3"
         },
         "x68633": {
-            "level": 60,
             "name_en": "One Size Fits All",
             "name_fr": "Tenue de fête exigée",
+            "level": 60,
             "npc_en": "Seigetsu the Enlightened",
             "npc_fr": "Seigetsu",
             "cPrev": ["q.68632"],
             "cNext": ["q.68634"],
             "cSiblings": ["character.character.societal-relations.67"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "unlock": ["cl.32682"]
         },
         "x68634": {
-            "level": 60,
             "name_en": "Big, Big Fish",
             "name_fr": "Demandez le programme",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
-            "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.68633"],
             "cNext": ["q.68635"],
             "cSiblings": ["character.character.societal-relations.68"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "unlock": ["cl.32683"]
         },
         "x68635": {
-            "level": 60,
             "name_en": "Waiting for Gyodo",
             "name_fr": "Comme la saucisse",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
-            "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.68634"],
             "cNext": ["q.68636"],
             "cSiblings": ["character.character.societal-relations.69"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "unlock": ["cl.32684"]
         },
         "x68636": {
-            "level": 60,
             "name_en": "Out of the Frypan",
             "name_fr": "À la mode xaela",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
-            "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.68635"],
             "cNext": ["q.68637"],
             "cSiblings": ["character.character.societal-relations.70"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "unlock": ["cl.32689"]
         },
         "x68637": {
-            "level": 60,
             "name_en": "Into the Fire",
             "name_fr": "Un Namazu au bûcher",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
-            "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.68636"],
             "cNext": ["q.68638"],
             "cSiblings": ["character.character.societal-relations.71"],
-            "patch": "4.31"
+            "patch": "4.3",
+            "unlock": ["cl.32694"]
         },
         "x68638": {
-            "level": 60,
             "name_en": "Disciples of Creation",
             "name_fr": "Dites-le avec des kakis",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
-            "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.68637"],
             "cNext": ["q.68697"],
             "cSiblings": ["character.character.societal-relations.72"],
-            "patch": "4.31"
+            "patch": "4.3"
         }
     }
 }

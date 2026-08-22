@@ -269,7 +269,8 @@ const range = (start: number, end: number) => {
 
 function migrate(store: ChangeStore, job: string, taskGroups: ZoneTaskMap): void {
     const LEVE_JOB = `${LEVE}.${job}`;
-    Object.keys(taskGroups).forEach((zoneKey) => {
-        store.moveTasks(LEVE_JOB, `${LEVE_JOB}-leves.${zoneKey}`, taskGroups[zoneKey]);
+
+    Object.entries(taskGroups).forEach(([zoneKey, ids]) => {
+        store.moveTasks(LEVE_JOB, `${LEVE_JOB}-leves.${zoneKey}`, ids);
     });
 }

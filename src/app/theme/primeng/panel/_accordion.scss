@@ -1,117 +1,122 @@
-.p-accordion {
-    .p-accordion-header {
-        .p-accordion-header-link {
-            padding: $accordionHeaderPadding;
-            border: $accordionHeaderBorder;
-            color: $accordionHeaderTextColor;
-            background: $accordionHeaderBg;
-            font-weight: $accordionHeaderFontWeight;
-            border-radius: var(--border-radius);
-            transition: $listItemTransition;
+@use "../_mixins";
+@use "../../_variables";
 
-            .p-accordion-toggle-icon {
-                margin-right: var(--inline-spacing);
-            }
-        }
-
-        &:not(.p-disabled) {
+@layer primeng {
+    .p-accordion {
+        .p-accordion-header {
             .p-accordion-header-link {
-                &:focus-visible {
-                    @include focused-inset();
+                padding: variables.$accordionHeaderPadding;
+                border: variables.$accordionHeaderBorder;
+                color: variables.$accordionHeaderTextColor;
+                background: variables.$accordionHeaderBg;
+                font-weight: variables.$accordionHeaderFontWeight;
+                border-radius: var(--border-radius);
+                transition: variables.$listItemTransition;
+
+                .p-accordion-toggle-icon {
+                    margin-right: var(--inline-spacing);
                 }
             }
-        }
 
-        &:not(.p-highlight):not(.p-disabled):hover {
-            .p-accordion-header-link {
-                background: $accordionHeaderHoverBg;
-                border-color: $accordionHeaderHoverBorderColor;
-                color: $accordionHeaderTextHoverColor;
-            }
-        }
-
-        &:not(.p-disabled).p-highlight {
-            .p-accordion-header-link {
-                background: $accordionHeaderActiveBg;
-                border-color: $accordionHeaderActiveBorderColor;
-                color: $accordionHeaderTextActiveColor;
-                border-bottom-right-radius: 0;
-                border-bottom-left-radius: 0;
-            }
-
-            &:hover {
+            &:not(.p-disabled) {
                 .p-accordion-header-link {
-                    border-color: $accordionHeaderActiveHoverBorderColor;
-                    background: $accordionHeaderActiveHoverBg;
-                    color: $accordionHeaderTextActiveHoverColor;
+                    &:focus-visible {
+                        @include mixins.focused-inset();
+                    }
                 }
             }
-        }
-    }
 
-    .p-accordion-content {
-        padding: $accordionContentPadding;
-        border: $accordionContentBorder;
-        background: $accordionContentBg;
-        color: $accordionContentTextColor;
-        border-top: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
-    }
-
-    p-accordiontab {
-        .p-accordion-tab {
-            margin-bottom: $accordionSpacing;
-        }
-
-        @if $accordionSpacing == 0 {
-            .p-accordion-header {
+            &:not(.p-highlight):not(.p-disabled):hover {
                 .p-accordion-header-link {
-                    border-radius: 0;
+                    background: variables.$accordionHeaderHoverBg;
+                    border-color: variables.$accordionHeaderHoverBorderColor;
+                    color: variables.$accordionHeaderTextHoverColor;
                 }
             }
 
-            .p-accordion-content {
-                border-radius: 0;
+            &:not(.p-disabled).p-highlight {
+                .p-accordion-header-link {
+                    background: variables.$accordionHeaderActiveBg;
+                    border-color: variables.$accordionHeaderActiveBorderColor;
+                    color: variables.$accordionHeaderTextActiveColor;
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+
+                &:hover {
+                    .p-accordion-header-link {
+                        border-color: variables.$accordionHeaderActiveHoverBorderColor;
+                        background: variables.$accordionHeaderActiveHoverBg;
+                        color: variables.$accordionHeaderTextActiveHoverColor;
+                    }
+                }
+            }
+        }
+
+        .p-accordion-content {
+            padding: variables.$accordionContentPadding;
+            border: variables.$accordionContentBorder;
+            background: variables.$accordionContentBg;
+            color: variables.$accordionContentTextColor;
+            border-top: 0;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: var(--border-radius);
+            border-bottom-left-radius: var(--border-radius);
+        }
+
+        p-accordiontab {
+            .p-accordion-tab {
+                margin-bottom: variables.$accordionSpacing;
             }
 
-            &:not(:first-child) {
+            @if variables.$accordionSpacing == 0 {
                 .p-accordion-header {
                     .p-accordion-header-link {
-                        border-top: 0 none;
-                    }
-
-                    &:not(.p-highlight):not(.p-disabled):hover,
-                    &:not(.p-disabled).p-highlight:hover {
-                        .p-accordion-header-link {
-                            border-top: 0 none;
-                        }
-                    }
-                }
-            }
-
-            &:first-child {
-                .p-accordion-header {
-                    .p-accordion-header-link {
-                        border-top-right-radius: var(--border-radius);
-                        border-top-left-radius: var(--border-radius);
-                    }
-                }
-            }
-
-            &:last-child {
-                .p-accordion-header:not(.p-highlight) {
-                    .p-accordion-header-link {
-                        border-bottom-right-radius: var(--border-radius);
-                        border-bottom-left-radius: var(--border-radius);
+                        border-radius: 0;
                     }
                 }
 
                 .p-accordion-content {
-                    border-bottom-right-radius: var(--border-radius);
-                    border-bottom-left-radius: var(--border-radius);
+                    border-radius: 0;
+                }
+
+                &:not(:first-child) {
+                    .p-accordion-header {
+                        .p-accordion-header-link {
+                            border-top: 0 none;
+                        }
+
+                        &:not(.p-highlight):not(.p-disabled):hover,
+                        &:not(.p-disabled).p-highlight:hover {
+                            .p-accordion-header-link {
+                                border-top: 0 none;
+                            }
+                        }
+                    }
+                }
+
+                &:first-child {
+                    .p-accordion-header {
+                        .p-accordion-header-link {
+                            border-top-right-radius: var(--border-radius);
+                            border-top-left-radius: var(--border-radius);
+                        }
+                    }
+                }
+
+                &:last-child {
+                    .p-accordion-header:not(.p-highlight) {
+                        .p-accordion-header-link {
+                            border-bottom-right-radius: var(--border-radius);
+                            border-bottom-left-radius: var(--border-radius);
+                        }
+                    }
+
+                    .p-accordion-content {
+                        border-bottom-right-radius: var(--border-radius);
+                        border-bottom-left-radius: var(--border-radius);
+                    }
                 }
             }
         }

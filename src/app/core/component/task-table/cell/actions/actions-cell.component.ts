@@ -1,31 +1,54 @@
-import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy, signal } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { Tooltip } from 'primeng/tooltip';
 import { Subscription } from 'rxjs';
 
 import { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
+
+import { BookmarkActionComponent } from './bookmark/bookmark-action.component';
+import { ConsoleGamesActionComponent } from './console-games/console-games-action.component';
+import { DragActionComponent } from './drag/drag-action.component';
+import { GamerEscapeActionComponent } from './gamer-escape/gamer-escape-action.component';
+import { GarlandActionComponent } from './garland/garland-action.component';
 
 @Component({
-    selector: 'xiv-actions-cell',
+    selector: 'com-actions-cell',
     templateUrl: './actions-cell.component.html',
-    styleUrls: ['./actions-cell.component.scss', './action.scss']
+    styleUrls: ['./actions-cell.component.scss', './action.scss'],
+    imports: [
+        ButtonDirective,
+        Tooltip,
+        TranslatePipe,
+
+        BookmarkActionComponent,
+        ConsoleGamesActionComponent,
+        DragActionComponent,
+        GamerEscapeActionComponent,
+        GarlandActionComponent
+    ]
 })
 export class ActionsCellComponent implements OnInit, OnDestroy {
-    @Input() task: Task;
-    @Input() rowIndex: number;
+    @Input({ required: true }) task!: Task;
+    @Input({ required: true }) rowIndex!: number;
 
-    private storeSub: Subscription;
-    showCopyId: boolean;
+    private storeSub: Subscription | undefined;
 
-    expanded: boolean;
+    showCopyId = signal(false);
+    expanded = signal(false);
 
     constructor(
-        private svcConfigStore: ConfigStoreService
+        private svcConfigStore: ConfigStoreService,
+        private svcChainViewer: ChainViewerService,
     ) {
+        this.showCopyId.set(this.svcConfigStore.data?.isAdmin ?? false);
     }
 
     ngOnInit() {
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
-            this.showCopyId = data.isAdmin;
+            this.showCopyId.set(data.isAdmin);
         });
     }
 
@@ -33,8 +56,16 @@ export class ActionsCellComponent implements OnInit, OnDestroy {
         this.storeSub?.unsubscribe();
     }
 
+    onDialClick(): void {
+        this.expanded.set(!this.expanded());
+    }
+
     onCloseActions(): void {
-        this.expanded = false;
+        this.expanded.set(false);
+    }
+
+    onOpenChainViewer(): void {
+        this.svcChainViewer.openChainViewer(this.task);
     }
 
     copyTaskId(): void {

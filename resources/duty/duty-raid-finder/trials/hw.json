@@ -4,94 +4,122 @@
     "groupNameShort": "@EXPANSION.HW",
     "tasks": {
         "x86": {
-            "level": "53",
             "name_en": "Thok ast Thok (Hard)",
             "name_fr": "Thok as Thok (brutal)",
-            "unlock": "q.67152"
+            "level": "53",
+            "unlock": "q.67152",
+            "patch": "3.0",
+            "cUnlock": ["q.67152"]
         },
         "x88": {
-            "level": "57",
             "name_en": "The Limitless Blue (Hard)",
             "name_fr": "L'Immensité bleue (brutal)",
-            "unlock": "q.67183"
+            "level": "57",
+            "unlock": "q.67183",
+            "patch": "3.0",
+            "cUnlock": ["q.67183"]
         },
         "x90": {
-            "level": "60",
             "name_en": "The Singularity Reactor",
             "name_fr": "Le Réacteur de singularité",
-            "unlock": "q.67205"
+            "level": "60",
+            "unlock": "q.67205",
+            "patch": "3.0",
+            "cUnlock": ["q.67205"]
         },
         "x169": {
-            "level": "60",
             "name_en": "The Final Steps of Faith",
             "name_fr": "La Dernière avancée de la Foi",
-            "unlock": "q.67781"
+            "level": "60",
+            "unlock": "q.67781",
+            "patch": "3.3",
+            "cUnlock": ["q.67781"]
         },
         "x134": {
-            "level": "60",
             "name_en": "Containment Bay S1T7",
             "name_fr": "Unité de contention S1P7",
-            "unlock": "q.67868"
+            "level": "60",
+            "unlock": "q.67766",
+            "patch": "3.2",
+            "cUnlock": ["q.67766"]
         },
         "x183": {
-            "level": "60",
             "name_en": "Containment Bay P1T6",
             "name_fr": "Unité de contention P1P6",
-            "unlock": "q.67766"
+            "level": "60",
+            "unlock": "q.67868",
+            "patch": "3.4",
+            "cUnlock": ["q.67868"]
         },
         "x223": {
-            "level": "60",
             "name_en": "Containment Bay Z1T9",
             "name_fr": "Unité de contention Z1P9",
-            "unlock": "q.67930"
+            "level": "60",
+            "unlock": "q.67930",
+            "patch": "3.5",
+            "cUnlock": ["q.67930"]
         },
         "x89": {
-            "level": "60",
             "name_en": "The Limitless Blue (Extreme)",
             "name_fr": "L'Immensité bleue (extrême)",
+            "level": "60",
             "unlock": "q.67651",
+            "patch": "3.0",
+            "cUnlock": ["q.67651"],
             "cSiblings": ["a.1220"]
         },
         "x87": {
-            "level": "60",
             "name_en": "Thok ast Thok (Extreme)",
             "name_fr": "Thok ast Thok (extrême)",
+            "level": "60",
             "unlock": "q.67652",
+            "patch": "3.0",
+            "cUnlock": ["q.67652"],
             "cSiblings": ["a.1221"]
         },
         "x91": {
-            "level": "60",
             "name_en": "The Minstrel's Ballad: Thordan's Reign",
             "name_fr": "Le règne de Thordan",
+            "level": "60",
             "unlock": "q.67739",
+            "patch": "3.1",
+            "cPrev": ["q.67739"],
             "cSiblings": ["a.1400"]
         },
         "x170": {
-            "level": "60",
             "name_en": "The Minstrel's Ballad: Nidhogg's Rage",
             "name_fr": "L'ire de Nidhogg",
+            "level": "60",
             "unlock": "q.67825",
+            "patch": "3.3",
+            "cPrev": ["q.67825"],
             "cSiblings": ["a.1601"]
         },
         "x135": {
-            "level": "60",
             "name_en": "Containment Bay S1T7 (Extreme)",
             "name_fr": "Unité de contention S1P7 (extrême)",
+            "level": "60",
             "unlock": "q.67817",
+            "patch": "3.2",
+            "cPrev": ["q.67817"],
             "cSiblings": ["a.1485"]
         },
         "x184": {
-            "level": "60",
             "name_en": "Containment Bay P1T6 (Extreme)",
             "name_fr": "Unité de contention P1P6 (extrême)",
+            "level": "60",
             "unlock": "q.67869",
+            "patch": "3.4",
+            "cPrev": ["q.67869"],
             "cSiblings": ["a.1636"]
         },
         "x224": {
-            "level": "60",
             "name_en": "Containment Bay Z1T9 (Extreme)",
             "name_fr": "Unité de contention Z1P9 (extrême)",
+            "level": "60",
             "unlock": "q.67931",
+            "patch": "3.5",
+            "cPrev": ["q.67931"],
             "cSiblings": ["a.1685"]
         }
     }

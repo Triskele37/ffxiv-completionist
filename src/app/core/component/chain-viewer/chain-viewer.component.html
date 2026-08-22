@@ -1,0 +1,49 @@
+@if(task) {
+    <div
+        data-active-help="APP.ACTIVE_HELP.CHAIN_VIEW"
+        class="chain-viewer-modal com-modal"
+    >
+        <div class="chain-viewer">
+            <div class="chain-viewer-toolbar">
+                <div class="title">
+                    {{'APP.CHAIN_VIEW.TITLE' | translate}}
+                </div>
+
+                <div class="toolbar-container">
+                    <div class="toolbar-content">
+                        <div data-active-help="APP.ACTIVE_HELP.CHAIN_VIEW.DEPTH">
+                            <span>{{'APP.CHAIN_VIEW.MAX_DEPTH' | translate}}:</span>
+                            <p-input-number
+                                [(ngModel)]="inputMaxDepth"
+                                [showButtons]="true"
+                                [min]="1"
+                                [max]="99"
+                                (ngModelChange)="updateMaxDepth()"
+                            ></p-input-number>
+                        </div>
+
+                        <div data-active-help="APP.ACTIVE_HELP.CHAIN_VIEW.RETURN">
+                            <span>{{'APP.CHAIN_VIEW.RETURN_TO' | translate}}:</span>
+                            <com-content-link
+                                [content]="svcChainViewer.originalTask!"
+                                [nameOnly]="true"
+                            ></com-content-link>
+                        </div>
+                    </div>
+
+                    <button pButton class="close-button" (click)="onCloseViewer()">
+                        <span class="mi mi-close"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="chain-viewer-content">
+                <com-chain-viewer-node
+                    [task]="task"
+                    [direction]="'root'"
+                    [remainingDepth]="maxDepth()"
+                ></com-chain-viewer-node>
+            </div>
+        </div>
+    </div>
+}

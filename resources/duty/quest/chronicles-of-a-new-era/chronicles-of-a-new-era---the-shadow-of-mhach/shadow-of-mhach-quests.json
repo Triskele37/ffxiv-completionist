@@ -4,76 +4,79 @@
     "groupName_fr": "Ombre de Mhach",
     "tasks": {
         "x67740": {
-            "level": 60,
             "name_en": "Sky Pirates",
             "name_fr": "Les pirates des cieux",
+            "level": 60,
             "npc_en": "Unquiet Trader",
             "npc_fr": "Marchand Inquiet",
+            "patch": "3.1",
             "cPrev": ["q.67205"],
-            "cNext": ["q.67741"],
-            "patch": "4.31"
+            "cNext": ["q.67741"]
         },
         "x67741": {
-            "level": 60,
             "name_en": "To Rule the Skies",
-            "name_fr": "À l'abordage!",
-            "unlock": "d.120",
+            "name_fr": "À l'abordage !",
+            "level": 60,
             "npc_en": "Utata",
             "npc_fr": "Utata",
+            "unlock": "d.120",
+            "patch": "3.1",
             "cPrev": ["q.67740"],
             "cNext": ["q.67821"],
-            "cSiblings": ["a.1388"],
-            "patch": "4.31"
+            "cSiblings": ["d.120", "a.1388"]
         },
         "x67821": {
-            "level": 60,
             "name_en": "The Weeping City",
             "name_fr": "Un défi à double enjeu",
-            "unlock": "d.168",
+            "level": 60,
             "npc_en": "Stacia",
             "npc_fr": "Stacia",
+            "unlock": "d.168",
+            "patch": "3.3",
             "cPrev": ["q.67741"],
             "cNext": ["q.67822"],
-            "patch": "4.31"
+            "cSiblings": ["d.168"]
         },
         "x67822": {
-            "level": 60,
             "name_en": "Freedom for Our Skies",
             "name_fr": "Le combat pour la liberté",
+            "level": 60,
             "npc_en": "Leofard",
             "npc_fr": "Leofard",
+            "patch": "3.3",
             "cPrev": ["q.67821"],
-            "cNext": ["q.67016", "q.67909"],
-            "patch": "4.31"
+            "cNext": ["q.67016", "q.67909"]
         },
         "x67909": {
-            "level": 60,
             "name_en": "Where Shadows Reign",
             "name_fr": "L'armée des ombres",
-            "unlock": ["d.220", "o.146", "o.147"],
+            "level": 60,
             "npc_en": "Stacia",
             "npc_fr": "Stacia",
+            "unlock": ["d.220", "o.146", "o.147"],
+            "patch": "3.5",
             "cPrev": ["q.67822"],
             "cNext": ["q.67910"],
-            "patch": "4.31"
+            "cSiblings": ["d.220"]
         },
         "x67910": {
-            "level": 60,
             "name_en": "A Redbill Farewell",
             "name_fr": "Le foulard lui va si bien",
+            "level": 60,
             "npc_en": "Leofard",
             "npc_fr": "Leofard",
-            "cPrev": ["q.67909"],
-            "patch": "4.31"
+            "unlock": "tto.87",
+            "patch": "3.5",
+            "cPrev": ["q.67909"]
         },
         "x67016": {
-            "level": 60,
             "name_en": "Unidentified Flying Object",
             "name_fr": "Objet volant non identifié",
+            "level": 60,
             "npc_en": "Slipslix",
             "npc_fr": "Slipslix",
-            "cPrev": ["q.67822"],
-            "patch": "4.31"
+            "patch": "3.55",
+            "cPrev": ["q.67822"]
         }
     }
 }

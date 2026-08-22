@@ -4,142 +4,143 @@
     "groupName_fr": "Armes anima",
     "tasks": {
         "x67747": {
-            "level": 60,
             "name_en": "An Unexpected Proposal",
             "name_fr": "De l'esprit des armes",
+            "level": 60,
             "npc_en": "Rowena",
             "npc_fr": "Rowena",
+            "patch": "3.15",
             "cPrev": ["q.67205"],
-            "cNext": ["q.67748"],
-            "patch": "4.31"
+            "cNext": ["q.67748"]
         },
         "x67748": {
-            "level": 60,
             "name_en": "Soul without Life",
             "name_fr": "Les cristaux d'Ardashir",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.15",
             "cPrev": ["q.67747"],
-            "cNext": ["q.67749"],
-            "patch": "4.31"
+            "cNext": ["q.67749"]
         },
         "x67749": {
-            "level": 60,
             "name_en": "Toughening Up",
             "name_fr": "Les marches de l'éveil",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.15",
             "cPrev": ["q.67748"],
-            "cNext": ["q.67750"],
-            "patch": "4.31"
+            "cNext": ["q.67750"]
         },
         "x67750": {
-            "level": 60,
             "name_en": "Coming into Its Own",
             "name_fr": "Anima nova",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.15",
             "cPrev": ["q.67749"],
             "cNext": ["q.67820"],
-            "cSiblings": ["a.1394"],
-            "patch": "4.31"
+            "cSiblings": ["a.1394"]
         },
         "x67820": {
-            "level": 60,
             "name_en": "Finding Your Voice",
             "name_fr": "Parole à l'esprit",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.25",
             "cPrev": ["q.67750"],
-            "cNext": ["q.67864"],
-            "patch": "4.31"
+            "cNext": ["q.67864"]
         },
         "x67864": {
-            "level": 60,
             "name_en": "A Dream Fulfilled",
             "name_fr": "Épanouissement accéléré",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.3",
             "cPrev": ["q.67820"],
-            "cNext": ["q.67915", "q.67870"],
-            "patch": "4.31"
+            "cNext": ["q.67915", "q.67870"]
         },
         "x67915": {
-            "level": 60,
             "name_en": "Future Proof",
             "name_fr": "Souvenirs vivifiants",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.45",
             "cPrev": ["q.67864"],
-            "cNext": ["q.67916", "q.67917", "q.67932"],
-            "patch": "4.31"
+            "cNext": ["q.67916", "q.67917", "q.67932"]
         },
         "x67916": {
-            "level": 60,
             "name_en": "Seeking Inspiration",
             "name_fr": "Au service d'Amphelice",
+            "level": 60,
             "npc_en": "Amphelice",
             "npc_fr": "Amphelice",
-            "cPrev": ["q.67915"],
-            "patch": "4.31"
+            "patch": "3.45",
+            "cPrev": ["q.67915"]
         },
         "x67917": {
-            "level": 60,
             "name_en": "Cut from a Different Cloth",
             "name_fr": "Au service d'Angelet",
+            "level": 60,
             "npc_en": "Angelet",
             "npc_fr": "Angelet",
-            "cPrev": ["q.67915"],
-            "patch": "4.31"
+            "patch": "3.45",
+            "cPrev": ["q.67915"]
         },
         "x67932": {
-            "level": 60,
             "name_en": "Born Again Anima",
             "name_fr": "Le dernier transfert",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.5",
             "cPrev": ["q.67915"],
-            "cNext": ["q.67933", "q.67934"],
-            "patch": "4.31"
+            "cNext": ["q.67934"],
+            "cUnlocks": ["q.67933"]
         },
         "x67933": {
-            "level": 60,
             "name_en": "Some Assembly Required",
             "name_fr": "Fabrication d'une nouvelle pierre d'âme",
+            "level": 60,
             "npc_en": "Processing Node",
             "npc_fr": "Dispositif De Transformation",
-            "cPrev": ["q.67932"],
-            "patch": "4.31"
+            "patch": "3.5",
+            "cUnlock": ["q.67932"]
         },
         "x67934": {
-            "level": 60,
             "name_en": "Body and Soul",
             "name_fr": "Un esprit qui fait corps",
+            "level": 60,
             "npc_en": "Automaton",
             "npc_fr": "Pantin",
+            "unlock": "mi.231",
+            "patch": "3.5",
             "cPrev": ["q.67932"],
-            "cNext": ["q.67939"],
-            "patch": "4.31",
-            "unlock": "mi.231"
+            "cNext": ["q.67939"]
         },
         "x67939": {
-            "level": 60,
             "name_en": "Words of Wisdom",
             "name_fr": "Un courrier qui fait autorité",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
+            "patch": "3.55",
             "cPrev": ["q.67934"],
-            "cNext": ["q.67940"],
-            "patch": "4.31"
+            "cNext": ["q.67940"]
         },
         "x67940": {
-            "level": 60,
             "name_en": "Best Friends Forever",
             "name_fr": "Double complicité",
+            "level": 60,
             "npc_en": "Ardashir",
             "npc_fr": "Ardashir",
-            "cPrev": ["q.67939"],
-            "patch": "4.31"
+            "patch": "3.55",
+            "cPrev": ["q.67939"]
         }
     }
 }

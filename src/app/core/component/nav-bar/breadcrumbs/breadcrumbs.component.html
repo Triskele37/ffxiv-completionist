@@ -1,32 +1,43 @@
-<div class="breadcrumbs-container">
-    <ng-container *ngFor="let breadcrumb of breadcrumbs; let i = index">
+<div
+    data-active-help="APP.ACTIVE_HELP.NAV_BAR.BREADCRUMBS"
+    class="breadcrumbs-container"
+>
+    @for(breadcrumb of breadcrumbs(); track breadcrumb.group.fullStorageKey) {
         <span
+            data-active-help="APP.ACTIVE_HELP.NAV_BAR.BREADCRUMB"
             class="breadcrumb"
             (click)="onItemClick(breadcrumb)"
         >
             {{breadcrumb.label}}
         </span>
 
-        <ng-container *ngIf="i < breadcrumbs.length - 1">
+        @if($index < breadcrumbs().length - 1) {
             <div
+                data-active-help="APP.ACTIVE_HELP.NAV_BAR.BREADCRUMB_ARROW"
                 class="breadcrumb-group-arrow pi"
                 [ngClass]="breadcrumb.isGroupExpanded ? 'pi-chevron-down' : 'pi-chevron-right'"
                 (click)="onArrowClick(breadcrumb); op.toggle($event)"
             ></div>
-        </ng-container>
-    </ng-container>
+        }
+    }
 </div>
 
-<p-overlayPanel
+<p-popover
     #op
     styleClass="breadcrumb-overlay-panel"
     (onHide)="onPanelHide()"
 >
-    <ng-container *ngIf="selectedCrumb">
-        <ng-container *ngFor="let kv of selectedCrumb.group.subGroups | keyvalue: asIsOrder">
-            <div (click)="op.hide()">
-                <xiv-content-link [content]="kv.value" [nameOnly]="true"></xiv-content-link>
-            </div>
-        </ng-container>
-    </ng-container>
-</p-overlayPanel>
+    @let selected = selectedCrumb();
+    @if(selected) {
+        @for(kv of selected.group.subGroups | keyvalue: asIsOrderTransform; track kv.key) {
+            @if(kv.value) {
+                <div (click)="op.hide()">
+                    <com-content-link
+                        [content]="kv.value"
+                        [nameOnly]="true"
+                    ></com-content-link>
+                </div>
+            }
+        }
+    }
+</p-popover>

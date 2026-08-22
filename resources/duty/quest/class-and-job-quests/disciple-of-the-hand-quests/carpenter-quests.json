@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes de menuisier",
     "tasks": {
         "x65674": {
-            "level": 1,
             "name_en": "Way of the Carpenter",
             "name_fr": "La voie de la menuiserie",
+            "level": 1,
             "npc_en": "Corgg",
             "npc_fr": "Corgg",
+            "unlock": "ap.244",
+            "patch": "2.0",
             "cPrev": ["q.65720"],
             "cNext": ["q.65741"],
-            "cSiblings": ["ap.244"],
-            "patch": "4.31",
-            "unlock": "ap.244"
+            "cSiblings": ["ap.244"]
         },
         "x65741": {
-            "level": 1,
             "name_en": "My First Saw",
             "name_fr": "Connaître le bois",
+            "level": 1,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65674"],
-            "cNext": ["q.65675"],
-            "patch": "4.31"
+            "cNext": ["q.65675"]
         },
         "x65675": {
-            "level": 5,
             "name_en": "To Be the Wood",
             "name_fr": "Une grande responsabilité",
+            "level": 5,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65741"],
-            "cNext": ["q.65676"],
-            "patch": "4.31"
+            "cNext": ["q.65676"]
         },
         "x65676": {
-            "level": 10,
             "name_en": "Supplies for the Sick",
             "name_fr": "Faire feu de tout bois",
+            "level": 10,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65675"],
-            "cNext": ["q.65677"],
-            "patch": "4.31"
+            "cNext": ["q.65677"]
         },
         "x65677": {
-            "level": 15,
             "name_en": "A Carpenter in Need",
             "name_fr": "L'amour du bois",
+            "level": 15,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65676"],
-            "cNext": ["q.65678"],
-            "patch": "4.31"
+            "cNext": ["q.65678"]
         },
         "x65678": {
-            "level": 20,
             "name_en": "The Lance's Lesson",
             "name_fr": "Droit comme une lance",
+            "level": 20,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65677"],
-            "cNext": ["q.65704"],
-            "patch": "4.31"
+            "cNext": ["q.65704"]
         },
         "x65704": {
-            "level": 25,
             "name_en": "A Crisis of Confidence",
             "name_fr": "En panne d'inspiration",
+            "level": 25,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65678"],
-            "cNext": ["q.65705"],
-            "patch": "4.31"
+            "cNext": ["q.65705"]
         },
         "x65705": {
-            "level": 30,
             "name_en": "Between Captain and Conjurer",
             "name_fr": "Une leçon de vie",
+            "level": 30,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65704"],
             "cNext": ["q.66072"],
-            "cCombo": ["a.316"],
-            "patch": "4.31"
+            "cCombo": ["a.316"]
         },
         "x66072": {
-            "level": 35,
             "name_en": "Growing Apart",
             "name_fr": "Préparatifs de guerre",
+            "level": 35,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.65705"],
-            "cNext": ["q.66073"],
-            "patch": "4.31"
+            "cNext": ["q.66073"]
         },
         "x66073": {
-            "level": 40,
             "name_en": "Memento Mori",
             "name_fr": "Memento Mori",
+            "level": 40,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.66072"],
-            "cNext": ["q.66074"],
-            "patch": "4.31"
+            "cNext": ["q.66074"]
         },
         "x66074": {
-            "level": 45,
             "name_en": "Gone till the Sixth Astral Moon",
             "name_fr": "L'arc de la discorde",
+            "level": 45,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.66073"],
-            "cNext": ["q.66075"],
-            "patch": "4.31"
+            "cNext": ["q.66075"]
         },
         "x66075": {
-            "level": 50,
             "name_en": "Saving Captain Gairhard",
             "name_fr": "Le temps des adieux",
+            "level": 50,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "2.0",
             "cPrev": ["q.66074"],
-            "cNext": ["q.67533"],
-            "patch": "4.31"
+            "cNext": ["q.67533"]
         },
         "x67533": {
-            "level": 50,
             "name_en": "Lance of a Lifetime",
             "name_fr": "Rien ne se perd",
+            "level": 50,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "3.0",
             "cPrev": ["q.66075", "q.65964"],
-            "cNext": ["q.67534"],
-            "patch": "4.31"
+            "cNext": ["q.67534"]
         },
         "x67534": {
-            "level": 53,
             "name_en": "A-hunting He Will Go",
             "name_fr": "Un arc à bander",
+            "level": 53,
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
+            "patch": "3.0",
             "cPrev": ["q.67533"],
-            "cNext": ["q.67535"],
-            "patch": "4.31"
+            "cNext": ["q.67535"]
         },
         "x67535": {
-            "level": 55,
             "name_en": "Ministers of Grace Defend Him",
             "name_fr": "Doublement gâté",
+            "level": 55,
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
+            "patch": "3.0",
             "cPrev": ["q.67534"],
-            "cNext": ["q.67536"],
-            "patch": "4.31"
+            "cNext": ["q.67536"]
         },
         "x67536": {
-            "level": 58,
             "name_en": "The Son Also Rises",
             "name_fr": "Piège au bois de bouleau",
+            "level": 58,
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
+            "patch": "3.0",
             "cPrev": ["q.67535"],
-            "cNext": ["q.67537"],
-            "patch": "4.31"
+            "cNext": ["q.67537"]
         },
         "x67537": {
-            "level": 60,
             "name_en": "More Fierce than Fire",
             "name_fr": "Ultime partie de chasse",
+            "level": 60,
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
+            "patch": "3.0",
             "cPrev": ["q.67536"],
-            "cNext": ["q.67977"],
-            "patch": "4.31"
+            "cNext": ["q.67977"]
         },
         "x67977": {
-            "level": 60,
             "name_en": "Uncharted Territory",
             "name_fr": "Ça sent le sapin pour Beatin",
+            "level": 60,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "4.0",
             "cPrev": ["q.67537", "q.67895"],
-            "cNext": ["q.67978"],
-            "patch": "4.31"
+            "cNext": ["q.67978"]
         },
         "x67978": {
-            "level": 63,
             "name_en": "The Game of Confidence",
             "name_fr": "Confiance en bois",
+            "level": 63,
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
+            "patch": "4.0",
             "cPrev": ["q.67977"],
-            "cNext": ["q.67979"],
-            "patch": "4.31"
+            "cNext": ["q.67979"]
         },
         "x67979": {
-            "level": 65,
             "name_en": "A Lesson in Listening",
             "name_fr": "La tasse de thé de Cemi",
+            "level": 65,
             "npc_en": "Cemi Jinjahl",
             "npc_fr": "Cemi Jinjahl",
+            "patch": "4.0",
             "cPrev": ["q.67978"],
-            "cNext": ["q.67980"],
-            "patch": "4.31"
+            "cNext": ["q.67980"]
         },
         "x67980": {
-            "level": 68,
             "name_en": "Live and Let Dine",
             "name_fr": "De l'importance de l'étiquette",
+            "level": 68,
             "npc_en": "Kotokaze",
             "npc_fr": "Kotokaze",
+            "patch": "4.0",
             "cPrev": ["q.67979"],
-            "cNext": ["q.67981"],
-            "patch": "4.31"
+            "cNext": ["q.67981"]
         },
         "x67981": {
-            "level": 70,
             "name_en": "Tea Party Rules",
             "name_fr": "Le doigt entre l'arbre et l'écorce",
+            "level": 70,
             "npc_en": "Cemi Jinjahl",
             "npc_fr": "Cemi Jinjahl",
+            "unlock": "ap.268",
+            "patch": "4.0",
             "cPrev": ["q.67980"],
-            "cSiblings": ["ap.268"],
-            "patch": "4.31",
-            "unlock": "ap.268"
+            "cSiblings": ["ap.268"]
         }
     }
 }

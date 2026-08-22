@@ -1,6 +1,13 @@
-import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, effect, computed } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { TranslatePipe } from '@ngx-translate/core';
+import { Badge } from 'primeng/badge';
+import { ButtonDirective } from 'primeng/button';
+import { Divider } from 'primeng/divider';
+import { Tooltip } from 'primeng/tooltip';
 
 import { DataService } from '@data';
+import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
 import { ChainedGroup, ChainStart } from '@service/chain/types';
@@ -8,48 +15,49 @@ import { ChainedGroup, ChainStart } from '@service/chain/types';
 import { Overlay } from '../Overlay';
 
 @Component({
-    selector: 'xiv-chain-overlay',
+    selector: 'com-chain-overlay',
     templateUrl: './chain-overlay.component.html',
     styleUrls: [
         '../overlay.scss',
         './chain-overlay.component.scss'
+    ],
+    imports: [
+        Badge,
+        ButtonDirective,
+        ContentLinkComponent,
+        Divider,
+        NgClass,
+        Tooltip,
+        TranslatePipe
     ]
 })
-export class ChainOverlayComponent extends Overlay implements OnInit, OnChanges, OnDestroy {
-    @Input() disableUndo: boolean;
+export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestroy {
+    @Input() disableUndo?: boolean;
 
-    undoVerified: boolean = false;
-    doNotify: boolean = false;
-
-    chainedTaskCount: { count: number };
-    chainedGroups: ChainedGroup[];
-    chainStart: ChainStart;
+    undoVerified = signal(false);
+    doNotify = signal(false);
 
     constructor(
         private svcData: DataService,
         private svcNavigation: NavigationService,
-        private svcChain: ChainService,
+        public svcChain: ChainService,
     ) {
         super();
+
+        // Enable the badge notification when new chain occurs
+        effect(() => {
+            const chainedTaskCount = this.svcChain.chainedTaskCount();
+            this.doNotify.set(chainedTaskCount > 0);
+        });
+
+        // Reset undo when group changes
+        effect(() => {
+            void this.svcChain.chainedGroups();
+            this.undoVerified.set(false);
+        });
     }
 
     //#region------------------------------------------------------- Life-cycle
-    ngOnInit(): void {
-        this.svcChain.chainedTaskCount$.subscribe((count) => {
-            this.chainedTaskCount = { count };
-            this.doNotify = count > 0;
-        });
-
-        this.svcChain.chainedGroups$.subscribe((groups) => {
-            this.chainedGroups = groups;
-            this.undoVerified = false;
-        });
-
-        this.svcChain.chainStart$.subscribe((task) => {
-            this.chainStart = task;
-        });
-    }
-
     ngOnChanges(changes: SimpleChanges): void {
         this.svcChain.setHistoryDisabled(!!changes.disableUndo.currentValue);
     }
@@ -63,7 +71,7 @@ export class ChainOverlayComponent extends Overlay implements OnInit, OnChanges,
     //#region------------------------------------------------------- Template Actions
     onMouseEnter(): void {
         super.onMouseEnter();
-        if(this.isVisible) this.doNotify = false;
+        if(this.isOverlayVisible()) this.doNotify.set(false);
     }
 
     onToggleShowChainedGroup(group: ChainedGroup): void {
@@ -77,21 +85,21 @@ export class ChainOverlayComponent extends Overlay implements OnInit, OnChanges,
         this.svcNavigation.setBreadcrumbs(path);
     }
 
-    onUndoLastChain(): number {
+    onUndoLastChain(): void {
         // Allow for oopsie clicks
-        if(!this.undoVerified) {
-            this.undoVerified = true;
+        if(!this.undoVerified()) {
+            this.undoVerified.set(true);
             return;
         }
 
-        this.undoVerified = false;
+        this.undoVerified.set(false);
 
         // Fire undo and apply changes to save
         this.svcChain.undoCurrentChain();
         this.svcData.applyDataToStore();
 
         // Make sure the overlay doesn't stick open
-        if(!this.isLocked) this.hide();
+        if(!this.isOverlayLocked()) this.hide();
     }
 
     //#endregion

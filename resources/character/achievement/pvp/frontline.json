@@ -8,8 +8,8 @@
             "name_fr": "Suer au Front I",
             "description_en": "Participate in a Frontline campaign.",
             "description_fr": "Participer pour la première fois au Front.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.931"]
         },
         "x931": {
@@ -17,8 +17,8 @@
             "name_fr": "Suer au Front II",
             "description_en": "Participate in 30 Frontline campaigns.",
             "description_fr": "Participer à 30 batailles du Front.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.930"],
             "cNext": ["a.932"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "Suer au Front III",
             "description_en": "Participate in 50 Frontline campaigns.",
             "description_fr": "Participer à 50 batailles du Front.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.931"],
             "cNext": ["a.933"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "Suer au Front IV",
             "description_en": "Participate in 100 Frontline campaigns.",
             "description_fr": "Participer à 100 batailles du Front.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.932"],
             "cNext": ["a.934"]
         },
@@ -47,9 +47,9 @@
             "name_fr": "Suer au Front V",
             "description_en": "Participate in 300 Frontline campaigns.",
             "description_fr": "Participer à 300 batailles du Front.",
+            "points": 10,
             "reward": "t.155",
             "patch": "2.3",
-            "points": 10,
             "cPrev": ["a.933"],
             "cNext": ["a.935"],
             "cSiblings": ["t.155"]
@@ -59,8 +59,8 @@
             "name_fr": "Un Front d'airain",
             "description_en": "Participate in 1,000 Frontline campaigns.",
             "description_fr": "Participer à 1 000 batailles du Front.",
-            "patch": "2.3",
             "points": 20,
+            "patch": "2.3",
             "cPrev": ["a.934"]
         },
         "x936": {
@@ -68,8 +68,8 @@
             "name_fr": "Avis de tempête sur le Front I",
             "description_en": "Guide the Maelstrom to a Frontline victory.",
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant au Maelstrom.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.937"]
         },
         "x937": {
@@ -77,8 +77,8 @@
             "name_fr": "Avis de tempête sur le Front II",
             "description_en": "Guide the Maelstrom to 30 Frontline victories.",
             "description_fr": "Remporter 30 victoires au Front en appartenant au Maelstrom.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.936"],
             "cNext": ["a.938"]
         },
@@ -87,8 +87,8 @@
             "name_fr": "Avis de tempête sur le Front III",
             "description_en": "Guide the Maelstrom to 50 Frontline victories.",
             "description_fr": "Remporter 50 victoires au Front en appartenant au Maelstrom.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.937"],
             "cNext": ["a.939"]
         },
@@ -97,9 +97,9 @@
             "name_fr": "Avis de tempête sur le Front IV",
             "description_en": "Guide the Maelstrom to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant au Maelstrom.",
+            "points": 5,
             "reward": "mo.36",
             "patch": "2.3",
-            "points": 5,
             "cPrev": ["a.938"],
             "cNext": ["a.940"]
         },
@@ -108,9 +108,9 @@
             "name_fr": "Avis de tempête sur le Front V",
             "description_en": "Guide the Maelstrom to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant au Maelstrom.",
+            "points": 10,
             "reward": "t.156",
             "patch": "2.3",
-            "points": 10,
             "cPrev": ["a.939"],
             "cNext": ["a.941"],
             "cSiblings": ["t.156"]
@@ -120,8 +120,8 @@
             "name_fr": "Figure de proue du Front",
             "description_en": "Guide the Maelstrom to 1,000 Frontline victories.",
             "description_fr": "Remporter 1 000 victoires au Front en appartenant au Maelstrom.",
-            "patch": "2.3",
             "points": 20,
+            "patch": "2.3",
             "cPrev": ["a.940"]
         },
         "x942": {
@@ -129,8 +129,8 @@
             "name_fr": "Nourrir un serpent dans son Front I",
             "description_en": "Guide the Order of the Twin Adder to a Frontline victory.",
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant à l'ordre des Deux Vipères.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.943"]
         },
         "x943": {
@@ -138,8 +138,8 @@
             "name_fr": "Nourrir un serpent dans son Front II",
             "description_en": "Guide the Order of the Twin Adder to 30 Frontline victories.",
             "description_fr": "Remporter 30 victoires au Front en appartenant à l'ordre des Deux Vipères.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.942"],
             "cNext": ["a.944"]
         },
@@ -148,8 +148,8 @@
             "name_fr": "Nourrir un serpent dans son Front III",
             "description_en": "Guide the Order of the Twin Adder to 50 Frontline victories.",
             "description_fr": "Remporter 50 victoires au Front en appartenant à l'ordre des Deux Vipères.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.943"],
             "cNext": ["a.945"]
         },
@@ -158,9 +158,9 @@
             "name_fr": "Nourrir un serpent dans son Front IV",
             "description_en": "Guide the Order of the Twin Adder to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant à l'ordre des Deux Vipères.",
+            "points": 5,
             "reward": "mo.37",
             "patch": "2.3",
-            "points": 5,
             "cPrev": ["a.944"],
             "cNext": ["a.946"]
         },
@@ -169,9 +169,9 @@
             "name_fr": "Nourrir un serpent dans son Front V",
             "description_en": "Guide the Order of the Twin Adder to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant à l'ordre des Deux Vipères.",
+            "points": 10,
             "reward": "t.158",
             "patch": "2.3",
-            "points": 10,
             "cPrev": ["a.945"],
             "cNext": ["a.947"],
             "cSiblings": ["t.158"]
@@ -181,8 +181,8 @@
             "name_fr": "Croc venimeux du Front",
             "description_en": "Guide the Order of the Twin Adder to 1,000 Frontline victories.",
             "description_fr": "Remporter 1 000 victoires au Front en appartenant à l'ordre des Deux Vipères.",
-            "patch": "2.3",
             "points": 20,
+            "patch": "2.3",
             "cPrev": ["a.946"]
         },
         "x948": {
@@ -190,8 +190,8 @@
             "name_fr": "Fouler le sable au Front I",
             "description_en": "Guide the Immortal Flames to a Frontline victory.",
             "description_fr": "Remporter la victoire pour la première fois au Front en appartenant aux Immortels.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.949"]
         },
         "x949": {
@@ -199,8 +199,8 @@
             "name_fr": "Fouler le sable au Front II",
             "description_en": "Guide the Immortal Flames to 30 Frontline victories.",
             "description_fr": "Remporter 30 victoires au Front en appartenant aux Immortels.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.948"],
             "cNext": ["a.950"]
         },
@@ -209,8 +209,8 @@
             "name_fr": "Fouler le sable au Front III",
             "description_en": "Guide the Immortal Flames to 50 Frontline victories.",
             "description_fr": "Remporter 50 victoires au Front en appartenant aux Immortels.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.949"],
             "cNext": ["a.951"]
         },
@@ -219,9 +219,9 @@
             "name_fr": "Fouler le sable au Front IV",
             "description_en": "Guide the Immortal Flames to 100 Frontline victories.",
             "description_fr": "Remporter 100 victoires au Front en appartenant aux Immortels.",
+            "points": 5,
             "reward": "mo.38",
             "patch": "2.3",
-            "points": 5,
             "cPrev": ["a.950"],
             "cNext": ["a.952"]
         },
@@ -230,9 +230,9 @@
             "name_fr": "Fouler le sable au Front V",
             "description_en": "Guide the Immortal Flames to 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front en appartenant aux Immortels.",
+            "points": 10,
             "reward": "t.157",
             "patch": "2.3",
-            "points": 10,
             "cPrev": ["a.951"],
             "cNext": ["a.953"],
             "cSiblings": ["t.157"]
@@ -242,8 +242,8 @@
             "name_fr": "Rose des sables du Front",
             "description_en": "Guide the Immortal Flames to 1,000 Frontline victories.",
             "description_fr": "Remporter 1 000 victoires au Front en appartenant aux Immortels.",
-            "patch": "2.3",
             "points": 20,
+            "patch": "2.3",
             "cPrev": ["a.952"]
         },
         "x954": {
@@ -251,8 +251,8 @@
             "name_fr": "La foire du drone I",
             "description_en": "Destroy an interceptor drone.",
             "description_fr": "Abattre un drone de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.955"]
         },
         "x955": {
@@ -260,8 +260,8 @@
             "name_fr": "La foire du drone II",
             "description_en": "Destroy 30 interceptor drones.",
             "description_fr": "Abattre 30 drones de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.954"],
             "cNext": ["a.956"]
         },
@@ -270,8 +270,8 @@
             "name_fr": "La foire du drone III",
             "description_en": "Destroy 50 interceptor drones.",
             "description_fr": "Abattre 50 drones de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.955"],
             "cNext": ["a.957"]
         },
@@ -280,9 +280,9 @@
             "name_fr": "La foire du drone IV",
             "description_en": "Destroy 100 interceptor drones.",
             "description_fr": "Abattre 100 drones de neutralisation.",
+            "points": 5,
             "reward": "t.159",
             "patch": "2.3",
-            "points": 5,
             "cPrev": ["a.956"],
             "cNext": ["a.958"],
             "cSiblings": ["t.159"]
@@ -292,8 +292,8 @@
             "name_fr": "C'est vraiment pas drone",
             "description_en": "Destroy 300 interceptor drones.",
             "description_fr": "Abattre 300 drones de neutralisation.",
-            "patch": "2.3",
             "points": 10,
+            "patch": "2.3",
             "cPrev": ["a.957"]
         },
         "x959": {
@@ -301,8 +301,8 @@
             "name_fr": "Dans les hautes sphères I",
             "description_en": "Destroy an interceptor node.",
             "description_fr": "Abattre une sphère de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cNext": ["a.960"]
         },
         "x960": {
@@ -310,8 +310,8 @@
             "name_fr": "Dans les hautes sphères II",
             "description_en": "Destroy 5 interceptor nodes.",
             "description_fr": "Abattre 5 sphères de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.959"],
             "cNext": ["a.961"]
         },
@@ -320,8 +320,8 @@
             "name_fr": "Dans les hautes sphères III",
             "description_en": "Destroy 10 interceptor nodes.",
             "description_fr": "Abattre 10 sphères de neutralisation.",
-            "patch": "2.3",
             "points": 5,
+            "patch": "2.3",
             "cPrev": ["a.960"],
             "cNext": ["a.962"]
         },
@@ -330,9 +330,9 @@
             "name_fr": "Dans les hautes sphères IV",
             "description_en": "Destroy 20 interceptor nodes.",
             "description_fr": "Abattre 20 sphères de neutralisation.",
+            "points": 5,
             "reward": "t.160",
             "patch": "2.3",
-            "points": 5,
             "cPrev": ["a.961"],
             "cNext": ["a.963"],
             "cSiblings": ["t.160"]
@@ -342,8 +342,8 @@
             "name_fr": "Qu'elles aillent sphères voir !",
             "description_en": "Destroy 50 interceptor nodes.",
             "description_fr": "Abattre 50 sphères de neutralisation.",
-            "patch": "2.3",
             "points": 10,
+            "patch": "2.3",
             "cPrev": ["a.962"]
         },
         "x1073": {
@@ -351,8 +351,8 @@
             "name_fr": "Va-t-en-guerre I",
             "description_en": "Dispatch an enemy on a Frontline campaign.",
             "description_fr": "Abattre 1 soldat ennemi.",
-            "patch": "2.5",
             "points": 5,
+            "patch": "2.5",
             "cNext": ["a.1074"]
         },
         "x1074": {
@@ -360,8 +360,8 @@
             "name_fr": "Va-t-en-guerre II",
             "description_en": "Dispatch 100 enemies on a Frontline campaign.",
             "description_fr": "Abattre 100 soldats ennemis.",
-            "patch": "2.5",
             "points": 5,
+            "patch": "2.5",
             "cPrev": ["a.1073"],
             "cNext": ["a.1075"]
         },
@@ -370,8 +370,8 @@
             "name_fr": "Va-t-en-guerre III",
             "description_en": "Dispatch 500 enemies on a Frontline campaign.",
             "description_fr": "Abattre 500 soldats ennemis.",
-            "patch": "2.5",
             "points": 5,
+            "patch": "2.5",
             "cPrev": ["a.1074"],
             "cNext": ["a.1076"]
         },
@@ -380,9 +380,9 @@
             "name_fr": "Va-t-en-guerre IV",
             "description_en": "Dispatch 1,000 enemies on a Frontline campaign.",
             "description_fr": "Abattre 1 000 soldats ennemis.",
+            "points": 10,
             "reward": "t.189",
             "patch": "2.5",
-            "points": 10,
             "cPrev": ["a.1075"],
             "cNext": ["a.1077"],
             "cSiblings": ["t.189"]
@@ -392,9 +392,9 @@
             "name_fr": "Grand saigneur",
             "description_en": "Dispatch 5,000 enemies on a Frontline campaign.",
             "description_fr": "Abattre 5 000 soldats ennemis.",
+            "points": 20,
             "reward": "t.190",
             "patch": "2.5",
-            "points": 20,
             "cPrev": ["a.1076"],
             "cSiblings": ["t.190"]
         },
@@ -403,9 +403,9 @@
             "name_fr": "Le roi de l'arène",
             "description_en": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
             "description_fr": "Remporter 200 victoires au Front avec l'une des trois grandes compagnies.",
+            "points": 10,
             "reward": "mo.48",
             "patch": "2.5",
-            "points": 10,
             "cNext": ["a.1201"]
         },
         "x1201": {
@@ -413,8 +413,8 @@
             "name_fr": "Le dieu de l'arène",
             "description_en": "Guide any of the three Grand Companies to a total of 300 Frontline victories.",
             "description_fr": "Remporter 300 victoires au Front avec l'une des trois grandes compagnies.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.01",
             "cPrev": ["a.1132"]
         },
         "x1196": {
@@ -422,8 +422,8 @@
             "name_fr": "Souvenir des tréfonds I",
             "description_en": "Occupy a tomelith on Seal Rock.",
             "description_fr": "Prendre le contrôle d'un mémolithe allagois au Rocher des tréfonds.",
-            "patch": "3.05",
             "points": 5,
+            "patch": "3.05",
             "cNext": ["a.1197"]
         },
         "x1197": {
@@ -431,8 +431,8 @@
             "name_fr": "Souvenir des tréfonds II",
             "description_en": "Occupy 30 tomeliths on Seal Rock.",
             "description_fr": "Prendre le contrôle de mémolithes allagois 30 fois au Rocher des tréfonds.",
-            "patch": "3.05",
             "points": 5,
+            "patch": "3.05",
             "cPrev": ["a.1196"],
             "cNext": ["a.1198"]
         },
@@ -441,8 +441,8 @@
             "name_fr": "Souvenir des tréfonds III",
             "description_en": "Occupy 100 tomeliths on Seal Rock.",
             "description_fr": "Prendre le contrôle de mémolithes allagois 100 fois au Rocher des tréfonds.",
-            "patch": "3.05",
             "points": 5,
+            "patch": "3.05",
             "cPrev": ["a.1197"],
             "cNext": ["a.1199"]
         },
@@ -451,9 +451,9 @@
             "name_fr": "Souvenir des tréfonds IV",
             "description_en": "Occupy 300 tomeliths on Seal Rock.",
             "description_fr": "Prendre le contrôle de mémolithes allagois 300 fois au Rocher des tréfonds.",
+            "points": 5,
             "reward": "t.243",
             "patch": "3.05",
-            "points": 5,
             "cPrev": ["a.1198"],
             "cNext": ["a.1200"],
             "cSiblings": ["t.243"]
@@ -463,8 +463,8 @@
             "name_fr": "Souvenir des tréfonds V",
             "description_en": "Occupy 500 tomeliths on Seal Rock.",
             "description_fr": "Prendre le contrôle de mémolithes allagois 500 fois au Rocher des tréfonds.",
-            "patch": "3.05",
             "points": 10,
+            "patch": "3.05",
             "cPrev": ["a.1199"]
         },
         "x1366": {
@@ -472,10 +472,10 @@
             "name_fr": "Solide comme un rocher I",
             "description_en": "Guide any of the three Grand Companies to victory on Seal Rock.",
             "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies au Rocher des tréfonds.",
+            "points": 5,
             "reward_en": "Field Commander's Helm",
             "reward_fr": "Heaume du commandant stratège",
             "patch": "3.05",
-            "points": 5,
             "cNext": ["a.1367"]
         },
         "x1367": {
@@ -483,10 +483,10 @@
             "name_fr": "Solide comme un rocher II",
             "description_en": "Guide any of the three Grand Companies to a total of 10 Seal Rock campaign victories combined.",
             "description_fr": "Remporter 10 victoires au Rocher des tréfonds.",
+            "points": 5,
             "reward_en": "Field Commander's Boots",
             "reward_fr": "Bottes du commandant stratège",
             "patch": "3.05",
-            "points": 5,
             "cPrev": ["a.1366"],
             "cNext": ["a.1368"]
         },
@@ -495,10 +495,10 @@
             "name_fr": "Solide comme un rocher III",
             "description_en": "Guide any of the three Grand Companies to a total of 30 Seal Rock campaign victories combined.",
             "description_fr": "Remporter 30 victoires au Rocher des tréfonds.",
+            "points": 5,
             "reward_en": "Field Commander's Gloves",
             "reward_fr": "Gants du commandant stratège",
             "patch": "3.05",
-            "points": 5,
             "cPrev": ["a.1367"],
             "cNext": ["a.1369"]
         },
@@ -507,10 +507,10 @@
             "name_fr": "Solide comme un rocher IV",
             "description_en": "Guide any of the three Grand Companies to a total of 50 Seal Rock campaign victories combined.",
             "description_fr": "Remporter 50 victoires au Rocher des tréfonds.",
+            "points": 5,
             "reward_en": "Field Commander's Slops",
             "reward_fr": "Trousses du commandant stratège",
             "patch": "3.05",
-            "points": 5,
             "cPrev": ["a.1368"],
             "cNext": ["a.1370"]
         },
@@ -519,10 +519,10 @@
             "name_fr": "Solide comme un rocher V",
             "description_en": "Guide any of the three Grand Companies to a total of 100 Seal Rock campaign victories combined.",
             "description_fr": "Remporter 100 victoires au Rocher des tréfonds.",
+            "points": 5,
             "reward_en": "Field Commander's Coat",
             "reward_fr": "Manteau du commandant stratège",
             "patch": "3.05",
-            "points": 5,
             "cPrev": ["a.1369"],
             "cNext": ["a.1371"]
         },
@@ -531,8 +531,8 @@
             "name_fr": "Héros des tréfonds",
             "description_en": "Guide any of the three Grand Companies to a total of 300 Seal Rock campaign victories combined.",
             "description_fr": "Remporter 300 victoires au Rocher des tréfonds.",
-            "patch": "3.05",
             "points": 10,
+            "patch": "3.05",
             "cPrev": ["a.1370"]
         },
         "x1559": {
@@ -540,8 +540,8 @@
             "name_fr": "Récolter la gloire I",
             "description_en": "Guide any of the three Grand Companies to victory on the Fields of Glory.",
             "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies aux Champs de la Gloire.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cNext": ["a.1560"]
         },
         "x1560": {
@@ -549,8 +549,8 @@
             "name_fr": "Récolter la gloire II",
             "description_en": "Guide any of the three Grand Companies to a total of 10 Fields of Glory victories.",
             "description_fr": "Remporter 10 victoires aux Champs de la Gloire.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cPrev": ["a.1559"],
             "cNext": ["a.1561"]
         },
@@ -559,8 +559,8 @@
             "name_fr": "Récolter la gloire III",
             "description_en": "Guide any of the three Grand Companies to a total of 30 Fields of Glory victories.",
             "description_fr": "Remporter 30 victoires aux Champs de la Gloire.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cPrev": ["a.1560"],
             "cNext": ["a.1562"]
         },
@@ -569,8 +569,8 @@
             "name_fr": "Récolter la gloire IV",
             "description_en": "Guide any of the three Grand Companies to a total of 50 Fields of Glory victories.",
             "description_fr": "Remporter 50 victoires aux Champs de la Gloire.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cPrev": ["a.1561"],
             "cNext": ["a.1563"]
         },
@@ -579,9 +579,9 @@
             "name_fr": "Récolter la gloire V",
             "description_en": "Guide any of the three Grand Companies to a total of 100 Fields of Glory victories.",
             "description_fr": "Remporter 100 victoires aux Champs de la Gloire.",
+            "points": 5,
             "reward": "mo.91",
             "patch": "3.3",
-            "points": 5,
             "cPrev": ["a.1562"],
             "cNext": ["a.1564"]
         },
@@ -590,9 +590,9 @@
             "name_fr": "Récolter la gloire VI",
             "description_en": "Guide any of the three Grand Companies to a total of 300 Fields of Glory victories.",
             "description_fr": "Remporter 300 victoires aux Champs de la Gloire.",
+            "points": 10,
             "reward": "t.313",
             "patch": "3.3",
-            "points": 10,
             "cPrev": ["a.1563"],
             "cSiblings": ["t.313"]
         },
@@ -601,8 +601,8 @@
             "name_fr": "La sueur de son front I",
             "description_en": "Triumph for the first time in Frontline.",
             "description_fr": "Triompher pour la première fois dans la bataille du jour du Front.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cNext": ["a.2062"]
         },
         "x2062": {
@@ -610,8 +610,8 @@
             "name_fr": "La sueur de son front II",
             "description_en": "Triumph in 10 matches in Frontline.",
             "description_fr": "Triompher 10 fois dans la bataille du jour du Front.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2061"],
             "cNext": ["a.2063"]
         },
@@ -620,8 +620,8 @@
             "name_fr": "La sueur de son front III",
             "description_en": "Triumph in 30 matches in Frontline.",
             "description_fr": "Triompher 30 fois dans la bataille du jour du Front.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2062"],
             "cNext": ["a.2064"]
         },
@@ -630,8 +630,8 @@
             "name_fr": "La sueur de son front IV",
             "description_en": "Triumph in 50 matches in Frontline.",
             "description_fr": "Triompher 50 fois dans la bataille du jour du Front.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2063"],
             "cNext": ["a.2065"]
         },
@@ -640,9 +640,9 @@
             "name_fr": "La sueur de son front V",
             "description_en": "Triumph in 100 matches in Frontline.",
             "description_fr": "Triompher 100 fois dans la bataille du jour du Front.",
+            "points": 10,
             "reward": "mo.168",
             "patch": "4.3",
-            "points": 10,
             "cPrev": ["a.2064"],
             "cNext": ["a.2066"]
         },
@@ -651,9 +651,9 @@
             "name_fr": "La sueur de son front VI",
             "description_en": "Triumph in 300 matches in Frontline.",
             "description_fr": "Triompher 300 fois dans la bataille du jour du Front.",
+            "points": 20,
             "reward": "t.389",
             "patch": "4.3",
-            "points": 20,
             "cPrev": ["a.2065"],
             "cSiblings": ["t.389"]
         },
@@ -662,8 +662,8 @@
             "name_fr": "Conquérant de la terre immaculée I",
             "description_en": "Guide any of the three Grand Companies to victory at Onsal Hakair.",
             "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies à Onsal Hakair.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cNext": ["a.2478"]
         },
         "x2478": {
@@ -671,8 +671,8 @@
             "name_fr": "Conquérant de la terre immaculée II",
             "description_en": "Guide any of the three Grand Companies to a total of 10 victories at Onsal Hakair.",
             "description_fr": "Remporter 10 victoires à Onsal Hakair.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cPrev": ["a.2477"],
             "cNext": ["a.2479"]
         },
@@ -681,8 +681,8 @@
             "name_fr": "Conquérant de la terre immaculée III",
             "description_en": "Guide any of the three Grand Companies to a total of 30 victories at Onsal Hakair.",
             "description_fr": "Remporter 30 victoires à Onsal Hakair.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cPrev": ["a.2478"],
             "cNext": ["a.2480"]
         },
@@ -691,8 +691,8 @@
             "name_fr": "Conquérant de la terre immaculée IV",
             "description_en": "Guide any of the three Grand Companies to a total of 50 victories at Onsal Hakair.",
             "description_fr": "Remporter 50 victoires à Onsal Hakair.",
-            "patch": "5.18",
             "points": 5,
+            "patch": "5.15",
             "cPrev": ["a.2479"],
             "cNext": ["a.2481"]
         },
@@ -701,9 +701,9 @@
             "name_fr": "Conquérant de la terre immaculée V",
             "description_en": "Guide any of the three Grand Companies to a total of 100 victories at Onsal Hakair.",
             "description_fr": "Remporter 100 victoires à Onsal Hakair.",
-            "reward": "mo.204",
-            "patch": "5.18",
             "points": 5,
+            "reward": "mo.204",
+            "patch": "5.15",
             "cPrev": ["a.2480"],
             "cNext": ["a.2482"]
         },
@@ -712,11 +712,62 @@
             "name_fr": "Conquérant de la terre immaculée VI",
             "description_en": "Guide any of the three Grand Companies to a total of 300 victories at Onsal Hakair.",
             "description_fr": "Remporter 300 victoires à Onsal Hakair.",
-            "reward": "t.486",
-            "patch": "5.18",
             "points": 10,
+            "reward": "t.486",
+            "patch": "5.15",
             "cPrev": ["a.2481"],
             "cSiblings": ["t.486"]
+        },
+        "x3831": {
+            "name_en": "Worqor and Peace I",
+            "name_fr": "Par monts et par vaux I",
+            "description_en": "Guide any of the three Grand Companies to victory at Worqor Chirteh.",
+            "description_fr": "Remporter 1 victoire avec l'une des trois grandes compagnies à Worqor Chirteh.",
+            "points": 5,
+            "patch": "7.4"
+        },
+        "x3832": {
+            "name_en": "Worqor and Peace II",
+            "name_fr": "Par monts et par vaux II",
+            "description_en": "Guide any of the three Grand Companies to a total of 10 victories at Worqor Chirteh.",
+            "description_fr": "Remporter 10 victoires à Worqor Chirteh.",
+            "points": 5,
+            "patch": "7.4"
+        },
+        "x3833": {
+            "name_en": "Worqor and Peace III",
+            "name_fr": "Par monts et par vaux III",
+            "description_en": "Guide any of the three Grand Companies to a total of 30 victories at Worqor Chirteh.",
+            "description_fr": "Remporter 30 victoires à Worqor Chirteh.",
+            "points": 5,
+            "patch": "7.4"
+        },
+        "x3834": {
+            "name_en": "Worqor and Peace IV",
+            "name_fr": "Par monts et par vaux IV",
+            "description_en": "Guide any of the three Grand Companies to a total of 50 victories at Worqor Chirteh.",
+            "description_fr": "Remporter 50 victoires à Worqor Chirteh.",
+            "points": 5,
+            "patch": "7.4"
+        },
+        "x3835": {
+            "name_en": "Worqor and Peace V",
+            "name_fr": "Par monts et par vaux V",
+            "description_en": "Guide any of the three Grand Companies to a total of 100 victories at Worqor Chirteh.",
+            "description_fr": "Remporter 100 victoires à Worqor Chirteh.",
+            "points": 5,
+            "reward": "mo.428",
+            "patch": "7.4"
+        },
+        "x3836": {
+            "name_en": "Worqor and Peace VI",
+            "name_fr": "Par monts et par vaux VI",
+            "description_en": "Guide any of the three Grand Companies to a total of 300 victories at Worqor Chirteh.",
+            "description_fr": "Remporter 300 victoires à Worqor Chirteh.",
+            "points": 10,
+            "reward": "t.825",
+            "patch": "7.4",
+            "cSiblings": ["t.825"]
         }
     }
 }

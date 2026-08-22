@@ -1,0 +1,441 @@
+{
+    "key": "leatherworker",
+    "groupName": "@CLASS_JOB.LTW",
+    "tasks": {
+        "x524": {
+            "name_en": "Impenetrable Gloves",
+            "name_fr": "Gants indéchirables",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_A",
+            "patch": "7.21"
+        },
+        "x525": {
+            "name_en": "Reinforced Gas Masks",
+            "name_fr": "Masques à gaz",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_B",
+            "patch": "7.21"
+        },
+        "x526": {
+            "name_en": "Flame-resistant Workboots",
+            "name_fr": "Bottes de travail résistantes au feu",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_B",
+            "patch": "7.21"
+        },
+        "x214": {
+            "name_en": "EX: Base Supplies II",
+            "name_fr": "EX : Amélioration de matériel pour poste avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.213",
+            "patch": "7.21"
+        },
+        "x216": {
+            "name_en": "EX: Specialized Materials II",
+            "name_fr": "EX : Amélioration de matériaux de raffinement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.215",
+            "patch": "7.21"
+        },
+        "x217": {
+            "name_en": "EX+: Large Research Materials",
+            "name_fr": "EX+ : Matériaux de grande taille pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.216",
+            "patch": "7.21"
+        },
+        "x219": {
+            "name_en": "EX+: Rest Facility Furnishings",
+            "name_fr": "EX+ : Mobilier de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.218",
+            "patch": "7.21"
+        },
+        "x221": {
+            "name_en": "EX: Packing Materials II",
+            "name_fr": "EX : Amélioration de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.220",
+            "patch": "7.21"
+        },
+        "x222": {
+            "name_en": "EX+: Rover Packing Materials",
+            "name_fr": "EX+ : Conteneurs de fret pour rovers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.221",
+            "patch": "7.21"
+        },
+        "x224": {
+            "name_en": "EX+: Cosmic Suits II",
+            "name_fr": "EX+ : Amélioration de combinaisons cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.223",
+            "patch": "7.21"
+        },
+        "x225": {
+            "name_en": "EX+: Cosmic Suits III",
+            "name_fr": "EX+ : Perfectionnement de combinaisons cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.224",
+            "patch": "7.21"
+        },
+        "x220": {
+            "name_en": "Packing Materials I",
+            "name_fr": "Préparation de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-1800",
+            "patch": "7.21"
+        },
+        "x223": {
+            "name_en": "EX+: Cosmic Suits I",
+            "name_fr": "EX+ : Préparation de combinaisons cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0600",
+            "patch": "7.21"
+        },
+        "x210": {
+            "name_en": "EX: Familiar Furnishings",
+            "name_fr": "EX : Mobilier typique",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x211": {
+            "name_en": "EX+: Safety Shoes",
+            "name_fr": "EX+ : Chaussures de sécurité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x212": {
+            "name_en": "EX+: Gatherer's Overalls",
+            "name_fr": "EX+ : Habits de récolte",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x202": {
+            "name_en": "High-durability Leather String",
+            "name_fr": "Lanières de cuir résistantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x203": {
+            "name_en": "Premium-grade Paper",
+            "name_fr": "Papier de qualité supérieure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x204": {
+            "name_en": "Research Plant Rug",
+            "name_fr": "Parquet en fibres végétales pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x205": {
+            "name_en": "Thermal Leather",
+            "name_fr": "Cuir isotherme",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x206": {
+            "name_en": "Lunar Flora Test Processing",
+            "name_fr": "Traitement expérimental de végétaux lunaires",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x207": {
+            "name_en": "EX: Test Material Final Processing",
+            "name_fr": "EX : Traitement final de matériaux d'essai",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x208": {
+            "name_en": "EX: Work Pouches",
+            "name_fr": "EX : Petites sacoches de travail",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x209": {
+            "name_en": "EX: High-grade Sofas",
+            "name_fr": "EX : Sofas d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x213": {
+            "name_en": "Base Supplies I",
+            "name_fr": "Préparation de matériel pour poste avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x215": {
+            "name_en": "Specialized Materials I",
+            "name_fr": "Préparation de matériaux de raffinement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x218": {
+            "name_en": "EX: Rest Facility Materials",
+            "name_fr": "EX : Matériaux pour articles de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x194": {
+            "name_en": "Leather First-aid Bags",
+            "name_fr": "Sacs en cuir de première nécessité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x195": {
+            "name_en": "Sterile Leather String",
+            "name_fr": "Lanières de cuir bactéricides",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x196": {
+            "name_en": "High-grade Rugs",
+            "name_fr": "Décorations de sol d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x197": {
+            "name_en": "Transport Leather",
+            "name_fr": "Cuir pour le transport de ressources",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x198": {
+            "name_en": "Long-term Storage Paper",
+            "name_fr": "Papier pour conservation longue durée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x199": {
+            "name_en": "High-grade Rest Chairs",
+            "name_fr": "Mobilier de relaxation d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x200": {
+            "name_en": "Test Material Gloves",
+            "name_fr": "Gants en matériaux expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x201": {
+            "name_en": "High-grade Rest Lounges",
+            "name_fr": "Mobilier de relaxation d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x187": {
+            "name_en": "Heat-resistant Leather String",
+            "name_fr": "Lanières de cuir thermorésistantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x188": {
+            "name_en": "Worker's Bags",
+            "name_fr": "Bagages grande capacité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x189": {
+            "name_en": "Worker's Belts",
+            "name_fr": "Ceintures de travail",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x190": {
+            "name_en": "High-grade Paper",
+            "name_fr": "Papier d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x191": {
+            "name_en": "Sheep Rugs",
+            "name_fr": "Tapis moutonneux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x192": {
+            "name_en": "Cosmoliner Materials",
+            "name_fr": "Matériaux pour cosmo-navette",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x193": {
+            "name_en": "New Material Jackets",
+            "name_fr": "Jaques en matière nouvelle",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x181": {
+            "name_en": "Multi-purpose Leather Straps",
+            "name_fr": "Lanières de cuir multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x182": {
+            "name_en": "First-aid Leather",
+            "name_fr": "Cuir de première nécessité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x183": {
+            "name_en": "Gatherer's Gloves",
+            "name_fr": "Protège-mains pour la récolte",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x184": {
+            "name_en": "Essential Research Materials",
+            "name_fr": "Matériaux pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x185": {
+            "name_en": "Work Pouches",
+            "name_fr": "Sacoches de travail",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x186": {
+            "name_en": "Leather Room Shoes",
+            "name_fr": "Chaussures en cuir d'intérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.LTW",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

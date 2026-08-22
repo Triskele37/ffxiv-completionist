@@ -1,3 +1,7 @@
+@use 'sass:color';
+@use "sass:list";
+@use "../_variables";
+
 @mixin icon-override($icon) {
     &:before {
         content: $icon;
@@ -5,67 +9,67 @@
 }
 
 @mixin focused() {
-    outline: $focusOutline;
-    outline-offset: $focusOutlineOffset;
+    outline: variables.$focusOutline;
+    outline-offset: variables.$focusOutlineOffset;
     box-shadow: var(--focus-shadow);
 }
 
 @mixin focused-inset() {
-    outline: $focusOutline;
-    outline-offset: -1 * $focusOutlineOffset;
+    outline: variables.$focusOutline;
+    outline-offset: -1 * variables.$focusOutlineOffset;
     box-shadow: inset var(--focus-shadow);
 }
 
 @mixin focused-input() {
-    outline: $focusOutline;
-    outline-offset: $inputFocusOutlineOffset;
+    outline: variables.$focusOutline;
+    outline-offset: variables.$inputFocusOutlineOffset;
     box-shadow: var(--focus-shadow);
-	border-color: $inputFocusBorderColor;
+	border-color: variables.$inputFocusBorderColor;
 }
 
 @mixin focused-listitem() {
-    outline: $focusOutline;
-    outline-offset: $focusOutlineOffset;
-    box-shadow: $inputListItemFocusShadow;
+    outline: variables.$focusOutline;
+    outline-offset: variables.$focusOutlineOffset;
+    box-shadow: variables.$inputListItemFocusShadow;
 }
 
 @mixin invalid-input() {
-    border-color: $inputErrorBorderColor;
+    border-color: variables.$inputErrorBorderColor;
 }
 
 @mixin menuitem-link {
-    padding: $menuitemPadding;
-    color: $menuitemTextColor;
-    border-radius: $menuitemBorderRadius;
-    transition: $listItemTransition;
+    padding: variables.$menuitemPadding;
+    color: variables.$menuitemTextColor;
+    border-radius: variables.$menuitemBorderRadius;
+    transition: variables.$listItemTransition;
     user-select: none;
 
     .p-menuitem-text {
-        color: $menuitemTextColor;
+        color: variables.$menuitemTextColor;
     }
 
     .p-menuitem-icon {
-        color: $menuitemIconColor;
+        color: variables.$menuitemIconColor;
         margin-right: var(--inline-spacing);
     }
 
     .p-submenu-icon {
-        color: $menuitemIconColor;
+        color: variables.$menuitemIconColor;
     }
 
     &:not(.p-disabled):hover {
-        background: $menuitemHoverBg;
+        background: variables.$menuitemHoverBg;
 
         .p-menuitem-text {
-            color: $menuitemTextHoverColor;
+            color: variables.$menuitemTextHoverColor;
         }
 
         .p-menuitem-icon {
-            color: $menuitemIconHoverColor;
+            color: variables.$menuitemIconHoverColor;
         }
 
         .p-submenu-icon {
-            color: $menuitemIconHoverColor;
+            color: variables.$menuitemIconHoverColor;
         }
     }
 
@@ -76,50 +80,50 @@
 
 @mixin menuitem {
     > .p-menuitem-content {
-        color: $menuitemTextColor;
-        transition: $listItemTransition;
-        border-radius: $menuitemBorderRadius;
+        color: variables.$menuitemTextColor;
+        transition: variables.$listItemTransition;
+        border-radius: variables.$menuitemBorderRadius;
 
         .p-menuitem-link {
-            color: $menuitemTextColor;
-            padding: $menuitemPadding;
+            color: variables.$menuitemTextColor;
+            padding: variables.$menuitemPadding;
             user-select: none;
 
             .p-menuitem-text {
-                color: $menuitemTextColor;
+                color: variables.$menuitemTextColor;
             }
 
             .p-menuitem-icon {
-                color: $menuitemIconColor;
+                color: variables.$menuitemIconColor;
                 margin-right: var(--inline-spacing);
             }
 
             .p-submenu-icon {
-                color: $menuitemIconColor;
+                color: variables.$menuitemIconColor;
             }
         }
     }
 
     &.p-highlight {
         > .p-menuitem-content {
-            color: $menuitemTextActiveColor;
-            background: $menuitemActiveBg;
+            color: variables.$menuitemTextActiveColor;
+            background: variables.$menuitemActiveBg;
 
             .p-menuitem-link {
                 .p-menuitem-text {
-                    color: $menuitemTextActiveColor;
+                    color: variables.$menuitemTextActiveColor;
                 }
 
                 .p-menuitem-icon,
                 .p-submenu-icon {
-                    color: $menuitemIconActiveColor;
+                    color: variables.$menuitemIconActiveColor;
                 }
             }
         }
 
         &.p-focus {
             > .p-menuitem-content {
-                background: $menuitemActiveFocusBg;
+                background: variables.$menuitemActiveFocusBg;
             }
         }
     }
@@ -127,17 +131,17 @@
     &:not(.p-highlight):not(.p-disabled) {
         &.p-focus {
             > .p-menuitem-content {
-                color: $menuitemTextFocusColor;
-                background: $menuitemFocusBg;
+                color: variables.$menuitemTextFocusColor;
+                background: variables.$menuitemFocusBg;
 
                 .p-menuitem-link {
                     .p-menuitem-text {
-                        color: $menuitemTextFocusColor;
+                        color: variables.$menuitemTextFocusColor;
                     }
 
                     .p-menuitem-icon,
                     .p-submenu-icon {
-                        color: $menuitemIconFocusColor;
+                        color: variables.$menuitemIconFocusColor;
                     }
                 }
             }
@@ -145,17 +149,17 @@
 
         > .p-menuitem-content {
             &:hover {
-                color: $menuitemTextHoverColor;
-                background: $menuitemHoverBg;
+                color: variables.$menuitemTextHoverColor;
+                background: variables.$menuitemHoverBg;
 
                 .p-menuitem-link {
                     .p-menuitem-text {
-                        color: $menuitemTextHoverColor;
+                        color: variables.$menuitemTextHoverColor;
                     }
 
                     .p-menuitem-icon,
                     .p-submenu-icon {
-                        color: $menuitemIconHoverColor;
+                        color: variables.$menuitemIconHoverColor;
                     }
                 }
             }
@@ -164,39 +168,39 @@
 }
 
 @mixin horizontal-rootmenuitem-link {
-    padding: $horizontalMenuRootMenuitemPadding;
-    color: $horizontalMenuRootMenuitemTextColor;
-    border-radius: $horizontalMenuRootMenuitemBorderRadius;
-    transition: $listItemTransition;
+    padding: variables.$horizontalMenuRootMenuitemPadding;
+    color: variables.$horizontalMenuRootMenuitemTextColor;
+    border-radius: variables.$horizontalMenuRootMenuitemBorderRadius;
+    transition: variables.$listItemTransition;
     user-select: none;
 
     .p-menuitem-text {
-        color: $horizontalMenuRootMenuitemTextColor;
+        color: variables.$horizontalMenuRootMenuitemTextColor;
     }
 
     .p-menuitem-icon {
-        color: $horizontalMenuRootMenuitemIconColor;
+        color: variables.$horizontalMenuRootMenuitemIconColor;
         margin-right: var(--inline-spacing);
     }
 
     .p-submenu-icon {
-        color: $horizontalMenuRootMenuitemIconColor;
+        color: variables.$horizontalMenuRootMenuitemIconColor;
         margin-left: var(--inline-spacing);
     }
 
     &:not(.p-disabled):hover {
-        background: $horizontalMenuRootMenuitemHoverBg;
+        background: variables.$horizontalMenuRootMenuitemHoverBg;
 
         .p-menuitem-text {
-            color: $horizontalMenuRootMenuitemTextHoverColor;
+            color: variables.$horizontalMenuRootMenuitemTextHoverColor;
         }
 
         .p-menuitem-icon {
-            color: $horizontalMenuRootMenuitemIconHoverColor;
+            color: variables.$horizontalMenuRootMenuitemIconHoverColor;
         }
 
         .p-submenu-icon {
-            color: $horizontalMenuRootMenuitemIconHoverColor;
+            color: variables.$horizontalMenuRootMenuitemIconHoverColor;
         }
     }
 
@@ -207,25 +211,25 @@
 
 @mixin horizontal-rootmenuitem {
     > .p-menuitem-content {
-        color: $horizontalMenuRootMenuitemTextColor;
-        transition: $listItemTransition;
-        border-radius: $horizontalMenuRootMenuitemBorderRadius;
+        color: variables.$horizontalMenuRootMenuitemTextColor;
+        transition: variables.$listItemTransition;
+        border-radius: variables.$horizontalMenuRootMenuitemBorderRadius;
 
         .p-menuitem-link {
-            padding: $horizontalMenuRootMenuitemPadding;
+            padding: variables.$horizontalMenuRootMenuitemPadding;
             user-select: none;
 
             .p-menuitem-text {
-                color: $horizontalMenuRootMenuitemTextColor;
+                color: variables.$horizontalMenuRootMenuitemTextColor;
             }
 
             .p-menuitem-icon {
-                color: $horizontalMenuRootMenuitemIconColor;
+                color: variables.$horizontalMenuRootMenuitemIconColor;
                 margin-right: var(--inline-spacing);
             }
 
             .p-submenu-icon {
-                color: $horizontalMenuRootMenuitemIconColor;
+                color: variables.$horizontalMenuRootMenuitemIconColor;
                 margin-left: var(--inline-spacing);
             }
         }
@@ -234,17 +238,17 @@
     &:not(.p-highlight):not(.p-disabled) {
         > .p-menuitem-content {
             &:hover {
-                color: $horizontalMenuRootMenuitemTextHoverColor;
-                background: $horizontalMenuRootMenuitemHoverBg;
+                color: variables.$horizontalMenuRootMenuitemTextHoverColor;
+                background: variables.$horizontalMenuRootMenuitemHoverBg;
 
                 .p-menuitem-link {
                     .p-menuitem-text {
-                        color: $horizontalMenuRootMenuitemTextHoverColor;
+                        color: variables.$horizontalMenuRootMenuitemTextHoverColor;
                     }
 
                     .p-menuitem-icon,
                     .p-submenu-icon {
-                        color: $horizontalMenuRootMenuitemIconHoverColor;
+                        color: variables.$horizontalMenuRootMenuitemIconHoverColor;
                     }
                 }
             }
@@ -268,7 +272,7 @@
 }
 
 @mixin scaledPadding($val, $scale) {
-    padding: nth($val, 1) * $scale nth($val, 2) * $scale;
+    padding: list.nth($val, 1) * $scale list.nth($val, 2) * $scale;
 }
 
 @mixin scaledFontSize($val, $scale) {
@@ -291,18 +295,18 @@
 }
 
 @mixin action-icon($enabled: true) {
-    width: $actionIconWidth;
-    height: $actionIconHeight;
-    color: $actionIconColor;
-    border: $actionIconBorder;
-    background: $actionIconBg;
-    border-radius: $actionIconBorderRadius;
-    transition: $actionIconTransition;
+    width: variables.$actionIconWidth;
+    height: variables.$actionIconHeight;
+    color: variables.$actionIconColor;
+    border: variables.$actionIconBorder;
+    background: variables.$actionIconBg;
+    border-radius: variables.$actionIconBorderRadius;
+    transition: variables.$actionIconTransition;
 
     &:enabled:hover {
-        color: $actionIconHoverColor;
-        border-color: $actionIconHoverBorderColor;
-        background: $actionIconHoverBg;
+        color: variables.$actionIconHoverColor;
+        border-color: variables.$actionIconHoverBorderColor;
+        background: variables.$actionIconHoverBg;
     }
 
     &:focus-visible {
@@ -311,27 +315,27 @@
 }
 
 @function tint($color, $percentage) {
-    @return mix(#fff, $color, $percentage);
+    @return color.mix(#fff, $color, $percentage);
 }
 
 @function shade($color, $percentage) {
-    @return mix(#000, $color, $percentage);
+    @return color.mix(#000, $color, $percentage);
 }
 
 @mixin focused-inset() {
-    outline: $focusOutline;
-    outline-offset: $focusOutlineOffset;
+    outline: variables.$focusOutline;
+    outline-offset: variables.$focusOutlineOffset;
     box-shadow: inset var(--focus-shadow);
 }
 
 @mixin menuitem-badge {
-    background: $badgeBg;
-    color: $badgeTextColor;
-    font-size: $badgeFontSize;
-    font-weight: $badgeFontWeight;
-    min-width: $badgeMinWidth;
-    height: $badgeHeight;
-    line-height: $badgeHeight;
+    background: variables.$badgeBg;
+    color: variables.$badgeTextColor;
+    font-size: variables.$badgeFontSize;
+    font-weight: variables.$badgeFontWeight;
+    min-width: variables.$badgeMinWidth;
+    height: variables.$badgeHeight;
+    line-height: variables.$badgeHeight;
     border-radius: var(--border-radius);
     margin-left: var(--inline-spacing);
     padding-left: var(--inline-spacing);

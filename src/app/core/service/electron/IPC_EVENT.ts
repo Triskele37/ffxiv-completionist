@@ -14,6 +14,8 @@ export enum IPC_EVENT {
     BACKUP_SAVE = 'backup-save',
     LOAD_BACKUP_SAVE = 'load-backup-save',
     LOAD_JSON = 'load-json',
+    IMPORT_CUSTOM = 'import-custom',
+    EXPORT_CUSTOM = 'export-custom',
     SEARCH_CONSOLE_GAMES = 'search-console-games',
     SEARCH_GAMER_ESCAPE = 'search-gamer-escape',
     SEARCH_GARLAND_TOOLS = 'search-garland-tools',

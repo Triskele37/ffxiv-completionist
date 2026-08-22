@@ -1,48 +1,57 @@
 {
     "key": "the-lochs",
-    "groupName": "@PLACE.THE_LOCHS",
+    "groupName": "@PLACE.SB.THE_LOCHS",
     "cCombo": ["a.1872"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(35.1, 31.9, 0.7)"
+            "location": "(35.1, 31.9, 0.7)",
+            "patch": "4.0"
         },
         "x1": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(26.7, 22.8, 0.8)"
+            "location": "(26.7, 22.8, 0.8)",
+            "patch": "4.0"
         },
         "x2": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(23.6, 37.2, 0.4)"
+            "location": "(23.6, 37.2, 0.4)",
+            "patch": "4.0"
         },
         "x7": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(13.8, 21.8, 0.1)"
+            "location": "(13.8, 21.8, 0.1)",
+            "patch": "4.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.68419",
-            "cSiblings": ["q.68419"]
+            "cSiblings": ["q.68419"],
+            "patch": "4.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.68417",
-            "cSiblings": ["q.68417"]
+            "cSiblings": ["q.68417"],
+            "patch": "4.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.68416",
-            "cSiblings": ["q.68416"]
+            "cSiblings": ["q.68416"],
+            "patch": "4.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.68413",
-            "cSiblings": ["q.68413"]
+            "cSiblings": ["q.68413"],
+            "patch": "4.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.68089",
-            "cSiblings": ["q.68089"]
+            "cSiblings": ["q.68089"],
+            "patch": "4.0"
         }
     }
 }

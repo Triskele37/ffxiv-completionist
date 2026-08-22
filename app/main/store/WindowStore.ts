@@ -4,6 +4,7 @@ import * as fs from 'fs';
 import { pathToFileURL } from 'url';
 
 import { ConfigStore } from './ConfigStore';
+import { WindowConfig } from './ConfigObj';
 
 /**
  * Debug Flag
@@ -14,8 +15,8 @@ const DEBUG_MODE = false;
 export class WindowStore {
     private static isServe: boolean;
     private static maxOnShow: boolean;
-    static splash: BrowserWindow;
-    static main: BrowserWindow;
+    static splash: BrowserWindow | null = null;
+    static main: BrowserWindow | null;
 
     static create(isServe: boolean): void {
         WindowStore.isServe = isServe;
@@ -26,6 +27,8 @@ export class WindowStore {
     }
 
     static initEvents(): void {
+        if(!WindowStore.main) return;
+
         // Capture window state before close
         WindowStore.main.on('close', () => {
             WindowStore.saveWindowState();
@@ -41,7 +44,11 @@ export class WindowStore {
     }
 
     static showMainWindow(event: IpcMainEvent): void {
-        WindowStore.splash.destroy();
+        if(!WindowStore.main) return;
+
+        WindowStore.splash?.destroy();
+        WindowStore.splash = null;
+
         WindowStore.main.show();
 
         if(WindowStore.maxOnShow) WindowStore.main.maximize();
@@ -49,8 +56,8 @@ export class WindowStore {
         // Fixes redraw issue preventing app interaction
         // Started popping up on release-1-0-0 near commit a70c0ba
         setTimeout(() => {
-            WindowStore.main.blur();
-            WindowStore.main.focus();
+            WindowStore.main?.blur();
+            WindowStore.main?.focus();
         }, 500);
 
         event.returnValue = null;
@@ -97,6 +104,8 @@ export class WindowStore {
     }
 
     static loadWindowUrl(isServe: boolean): void {
+        if(!WindowStore.main) return;
+
         if(isServe) {
             const { default: debug } = require('electron-debug');
             debug();
@@ -135,6 +144,7 @@ export class WindowStore {
     //#region------------------------------------------------------- State
     static loadWindowState() {
         if(!ConfigStore.store) ConfigStore.load();
+        if(!ConfigStore.store) return {} as WindowConfig;
 
         if(WindowStore.isStoredPositionValid(ConfigStore.store.window)) {
             return ConfigStore.store.window;
@@ -146,12 +156,14 @@ export class WindowStore {
                 x: primaryDisplay.workArea.x,
                 y: primaryDisplay.workArea.y,
                 height: primaryDisplay.workArea.height,
-                width: primaryDisplay.workArea.width
+                width: primaryDisplay.workArea.width,
             };
         }
     }
 
     static saveWindowState(): void {
+        if(!ConfigStore.store || !WindowStore.main) return;
+
         ConfigStore.store.window = {
             ...WindowStore.main.getNormalBounds(),
             max: WindowStore.main.isMaximized()

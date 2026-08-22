@@ -4,88 +4,88 @@
     "groupName_fr": "Quêtes de pugiliste",
     "tasks": {
         "x66068": {
-            "level": 1,
             "name_en": "Way of the Pugilist",
             "name_fr": "La voie du pugilat",
+            "level": 1,
             "npc_en": "Gagaruna",
             "npc_fr": "Gagaruna",
+            "patch": "3.1",
             "cPrev": ["q.65714"],
-            "cNext": ["q.66089"],
-            "patch": "4.31"
+            "cNext": ["q.66089"]
         },
         "x66089": {
-            "level": 1,
             "name_en": "My First Hora",
             "name_fr": "Premiers pas à mains nues",
+            "level": 1,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66068"],
-            "cNext": ["q.66090", "q.66234"],
-            "patch": "4.31"
+            "cNext": ["q.66090", "q.66234"]
         },
         "x66090": {
-            "level": 5,
             "name_en": "Harder than Rock",
             "name_fr": "Plus dur que la roche",
-            "cPrevAny": true,
+            "level": 5,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66089", "q.66068"],
-            "cNext": ["q.66234"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.66234"]
         },
         "x66234": {
-            "level": 10,
             "name_en": "Burning Up the Quarter Malm",
             "name_fr": "Plus rapide que l'éclair",
+            "level": 10,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66090", "q.66089"],
-            "cNext": ["q.66094"],
-            "patch": "4.31"
+            "cNext": ["q.66094"]
         },
         "x66094": {
-            "level": 15,
             "name_en": "The Spirit Is Willing",
             "name_fr": "La combativité du maître",
+            "level": 15,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66234"],
-            "cNext": ["q.66098"],
-            "patch": "4.31"
+            "cNext": ["q.66098"]
         },
         "x66098": {
-            "level": 20,
             "name_en": "Keeping the Spirit Alive",
             "name_fr": "Attiser l'ancien feu",
+            "level": 20,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66094"],
-            "cNext": ["q.66102"],
-            "patch": "4.31"
+            "cNext": ["q.66102"]
         },
         "x66102": {
-            "level": 25,
             "name_en": "Star-crossed Rivals",
             "name_fr": "Deux étoiles rivales",
+            "level": 25,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "patch": "2.0",
             "cPrev": ["q.66098"],
-            "cNext": ["q.66103"],
-            "patch": "4.31"
+            "cNext": ["q.66103"]
         },
         "x66103": {
-            "level": 30,
             "name_en": "Return of the Holyfist",
             "name_fr": "Le retour des Poings divins",
+            "level": 30,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
+            "unlock": "ap.159",
+            "patch": "2.0",
             "cPrev": ["q.66102"],
             "cNext": ["q.66597"],
-            "cSiblings": ["ap.159"],
             "cCombo": ["a.313", "a.314"],
-            "patch": "4.31",
-            "unlock": "ap.159"
+            "cSiblings": ["ap.159"]
         }
     }
 }

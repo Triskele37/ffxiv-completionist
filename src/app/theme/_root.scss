@@ -1,3 +1,7 @@
+@use './primeng/mixins';
+@use './primeRoot';
+@use './variables';
+
 :root {
     color-scheme: dark;
 
@@ -66,9 +70,12 @@
     // Other
     --maskbg: rgba(0, 0, 0, 0.32);
     //--focus-shadow: none;
-    --focus-shadow: 0 0 0 1px #{$focusOutlineColor};
-    --highlight-bg: #{$highlightBg};
-    --highlight-text-color: #{$highlightTextColor};
+    --focus-shadow: 0 0 0 1px #{variables.$focusOutlineColor};
+    --highlight-bg: #{variables.$highlightBg};
+    --highlight-text-color: #{variables.$highlightTextColor};
+
+    // Override?
+    --p-primary-300: var(--primary-color);
 }
 
 // Color ranges
@@ -91,15 +98,15 @@
     @each $name, $color in $colors {
         @for $i from 0 through 5 {
             @if ($i == 0) {
-                --#{$name}-50:#{tint($color, (5 - $i) * 19%)};
+                --#{$name}-50:#{mixins.tint($color, (5 - $i) * 19%)};
             }
             @else {
-                --#{$name}-#{$i * 100}:#{tint($color, (5 - $i) * 19%)};
+                --#{$name}-#{$i * 100}:#{mixins.tint($color, (5 - $i) * 19%)};
             }
         }
 
         @for $i from 1 through 4 {
-            --#{$name}-#{($i + 5) * 100}:#{shade($color, $i * 15%)};
+            --#{$name}-#{($i + 5) * 100}:#{mixins.shade($color, $i * 15%)};
         }
     }
 }

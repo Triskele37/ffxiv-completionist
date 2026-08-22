@@ -1,0 +1,77 @@
+{
+    "key": "mech-ops",
+    "groupName_en": "Mech Ops",
+    "groupName_fr": "Interventions mécaniques",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Directive: Destroy Corrupted Crystals",
+            "name_fr": "Destruction : la corruption",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(14.4, 11.2)",
+            "patch": "7.21"
+        },
+        "x1": {
+            "name_en": "Directive: Clear Toxic Lunar Spongoi",
+            "name_fr": "Nettoyage : champignons pas mignons",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(28.9, 30.8)",
+            "patch": "7.21"
+        },
+        "x2": {
+            "name_en": "Directive: Mine Phainite",
+            "name_fr": "Excavation : à la poursuite de la phaennite",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(10.4, 16.6)",
+            "patch": "7.31"
+        },
+        "x3": {
+            "name_en": "Directive: Shatter Glass Clusters",
+            "name_fr": "Destruction : razzia sur les amas",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(33.6, 11.8)",
+            "patch": "7.31"
+        },
+        "x4": {
+            "name_en": "Directive: Dissipate Distortions",
+            "name_fr": "Dissipation : gravité gravissime",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(12.6, 33.7)",
+            "patch": "7.41"
+        },
+        "x5": {
+            "name_en": "Directive: Collect Floatstone",
+            "name_fr": "Récolte : lévitation lapidaire",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(8.5, 7.1)",
+            "patch": "7.41"
+        },
+        "x6": {
+            "name_en": "Directive: Eradicate Toxic Weeds",
+            "name_fr": "Éradication : pollen pouilleux",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(35.7, 22.0)",
+            "patch": "7.51"
+        },
+        "x7": {
+            "name_en": "Directive: Sublimate Ancient Plants",
+            "name_fr": "Sublimation : toucher au sublime",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(8.2, 20.3)",
+            "patch": "7.51"
+        }
+    }
+}

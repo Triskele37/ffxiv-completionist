@@ -4,7 +4,8 @@ import { Subject } from 'rxjs';
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
 import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
-import { getChildGroup, getChildTask } from '@model/DataGroup/children/getChild';
+import { getChildGroup } from '@model/DataGroup/get/getGroup';
+import { getChildTask } from '@model/Task/get/getTask';
 import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -29,7 +30,7 @@ export class BookmarkService {
         this.group.subGroups = new Map();
 
         // Put this group in its placeholder
-        this.svcData.data.subGroups.set(this.group._key, this.group);
+        this.svcData.data.subGroups?.set(this.group._key, this.group);
 
         // Keep task counts in sync when root data updates
         this.svcData.data.onUpdated$.subscribe(() => this.group.updated$.next());
@@ -42,7 +43,7 @@ export class BookmarkService {
 
     // Returns whether something is in the store
     isBookmarked(item: DataGroup | Task): boolean {
-        if(item.xivDataType === 'Group') {
+        if(item.dataType === 'Group') {
             const bookmarks = this.svcSave.get('bookmarked-groups');
             return bookmarks.includes(item.fullStorageKey);
         }
@@ -54,7 +55,7 @@ export class BookmarkService {
 
     // Returns whether the item is now in the store
     toggleBookmark(item: DataGroup | Task): boolean {
-        if(item.xivDataType === 'Group') {
+        if(item.dataType === 'Group') {
             return this.toggleBookmarkGroup(item);
         }
         else {
@@ -64,7 +65,7 @@ export class BookmarkService {
 
     //#region------------------------------------------------------- Tasks
     private initializeBookmarkTasks(): void {
-        this.svcSave.get('bookmarked-tasks').forEach((fullStorageKey) => {
+        this.svcSave.get('bookmarked-tasks').forEach((fullStorageKey: string) => {
             // Remove 'Overall' step
             const path = fullStorageKey.replace(/^overall./, '');
 
@@ -90,7 +91,7 @@ export class BookmarkService {
         return addBookmark;
     }
 
-    private addBookmarkTask(store, task: Task): void {
+    private addBookmarkTask(store: string[], task: Task): void {
         // Sync store
         store.push(task.fullStorageKey);
 
@@ -98,7 +99,7 @@ export class BookmarkService {
         this.group.tasks.push(task);
     }
 
-    private removeBookmarkTask(store, task: Task): void {
+    private removeBookmarkTask(store: string[], task: Task): void {
         // Sync store
         store.splice(store.indexOf(task.fullStorageKey), 1);
 
@@ -114,13 +115,13 @@ export class BookmarkService {
 
     //#region------------------------------------------------------- Groups
     private initializeBookmarkGroups(): void {
-        this.svcSave.get('bookmarked-groups').forEach((fullStorageKey) => {
+        this.svcSave.get('bookmarked-groups').forEach((fullStorageKey: string) => {
             const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the bookmarked group to this group
             const group: DataGroup = getChildGroup(this.svcData.data, path);
             if(group?.fullStorageKey === fullStorageKey) {
-                this.group.subGroups.set(group._key, group);
+                this.group.subGroups?.set(group.fullStorageKey, group);
             }
             else {
                 console.error('Unable to find bookmarked group:', path);
@@ -142,20 +143,20 @@ export class BookmarkService {
         return addBookmark;
     }
 
-    private addBookmarkGroup(store, group: DataGroup): void {
+    private addBookmarkGroup(store: string[], group: DataGroup): void {
         // Sync store
         store.push(group.fullStorageKey);
 
         // Sync app data
-        this.group.subGroups.set(group._key, group);
+        this.group.subGroups?.set(group.fullStorageKey, group);
     }
 
-    private removeBookmarkGroup(store, group: DataGroup): void {
+    private removeBookmarkGroup(store: string[], group: DataGroup): void {
         // Sync store
         store.splice(store.indexOf(group.fullStorageKey), 1);
 
         // Sync app data
-        this.group.subGroups.delete(group._key);
+        this.group.subGroups?.delete(group.fullStorageKey);
         this.group.subGroups = new Map(this.group.subGroups);
     }
 

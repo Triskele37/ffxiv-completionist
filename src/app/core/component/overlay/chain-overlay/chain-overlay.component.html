@@ -1,103 +1,160 @@
 <span
+    data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY"
     class="overlay-container"
     (mouseenter)="onMouseEnter()"
     (mouseleave)="onMouseLeave()"
 >
-    <p-button
-        [styleClass]="isLocked ? '' : 'p-button-outlined'"
-        icon="material-icons mi-link"
-        [ngClass]="{ 'do-notify': doNotify }"
-        (onClick)="onClick()"
-    ></p-button>
+    <button
+        pButton
+        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
+        [ngClass]="{ 'do-notify': doNotify() }"
+        (click)="onClick()"
+    >
+        <span class="mi mi-link"></span>
+    </button>
 
-    <p-badge
-        *ngIf="doNotify"
-        value="{{chainedTaskCount.count}}"
-    ></p-badge>
+    @if(doNotify()) {
+        <p-badge value="{{svcChain.chainedTaskCount()}}"></p-badge>
+    }
 
-    <div *ngIf="isVisible" class="overlay-panel">
-        <!-- Dropdown Content Body with no Data -->
-        <div *ngIf="!chainStart" class="content">
-            <p-button [label]="'OVERLAY.CHAIN.NO_CONTENT' | translate"></p-button>
-        </div>
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <!-- Dropdown Content Body with no Data -->
+            @let chainStart = svcChain.chainStart();
 
-        <!-- Dropdown Content Body with Data -->
-        <span *ngIf="chainStart" class="content">
-            <!-- Undo Button -->
-            <p-button
-                *ngIf="!chainStart.historyDisabled"
-                class="undo-button"
-                [label]="(!undoVerified ? 'OVERLAY.CHAIN.UNDO' : 'OVERLAY.CHAIN.VERIFY') | translate"
-                (onClick)="onUndoLastChain()"
-            ></p-button>
-
-            <!-- Recent Action Info -->
-            <span class="chain-start">
-                <div class="summary">
-                    <div>{{chainStart.path}}</div>
-                    <div class="task">
-                        <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
-                        <i class="material-icons mi-arrow-right-alt"></i>
-                        <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
-                        <span>&nbsp;"{{chainStart.task.name}}"&nbsp;</span>
-                        {{'OVERLAY.CHAIN.CHAINED' | translate:chainedTaskCount}}
-                    </div>
+            @if(!chainStart) {
+                <div class="content">
+                    <button pButton>
+                        {{'APP.CHAIN_OVERLAY.NO_CONTENT' | translate}}
+                    </button>
                 </div>
-                <p-button
-                    styleClass="nav"
-                    icon="material-icons mi-navigate-next"
-                    [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
-                    tooltipPosition="right"
-                    (onClick)="onNavigateToGroup(chainStart)"
-                ></p-button>
-            </span>
+            } @else {
+                <!-- Dropdown Content Body with Data -->
+                <span class="content">
+                    <!-- Undo Button -->
+                    @if(!chainStart.historyDisabled) {
+                        <button
+                            data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.UNDO"
+                            pButton
+                            class="undo-button"
+                            (click)="onUndoLastChain()"
+                        >
+                            {{(!undoVerified() ? 'APP.CHAIN_OVERLAY.UNDO' : 'APP.CHAIN_OVERLAY.VERIFY') | translate}}
+                        </button>
+                    }
 
-            <!-- Chained Groups Scroll Container -->
-            <div class="chain-scroll-container">
-                <ng-container *ngFor="let chainedGroup of chainedGroups">
-                    <!-- Group header button -->
-                    <span class="chain-group">
-                        <p-button
-                            class="path"
-                            icon="pi {{chainedGroup.show ? 'pi-chevron-down' : 'pi-chevron-right'}}"
-                            label="{{chainedGroup.path}} ({{chainedGroup.tasks.length}})"
-                            (onClick)="onToggleShowChainedGroup(chainedGroup)"
-                        ></p-button>
-                        <p-button
+                    <!-- Recent Action Info -->
+                    <span
+                        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAIN_START"
+                        class="chain-start"
+                    >
+                        <div class="summary">
+                            <div>{{chainStart.path}}</div>
+                            <div class="task">
+                                <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
+                                <i class="mi mi-arrow-right-alt"></i>
+                                <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
+                                <span>&nbsp;"{{chainStart.task.name}}"&nbsp;</span>
+                                {{'APP.CHAIN_OVERLAY.CHAINED' | translate:({ count: svcChain.chainedTaskCount() })}}
+                            </div>
+                        </div>
+
+                        <button
+                            pButton
                             class="nav"
-                            icon="material-icons mi-navigate-next"
-                            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+                            [pTooltip]="'APP.CONTENT_LINK.GROUP_NAVIGATE' | translate"
                             tooltipPosition="right"
-                            tooltipStyleClass="chain-navigate-tooltip"
-                            (onClick)="onNavigateToGroup(chainedGroup)"
-                        ></p-button>
+                            (click)="onNavigateToGroup(chainStart)"
+                        >
+                            <span class="mi mi-navigate-next"></span>
+                        </button>
                     </span>
 
-                    <!-- Group Content Items -->
-                    <ng-container *ngIf="chainedGroup.show">
-                        <ng-container *ngFor="let chainedTask of chainedGroup.tasks">
-                            <div
-                                *ngIf="chainedTask.task"
-                                class="chained-task"
-                            >
-                                <span [ngClass]="chainedTask.fromFlag">
-                                    {{chainedTask.fromFlag}}
-                                </span>
-                                <i class="material-icons mi-arrow-right-alt"></i>
-                                <span [ngClass]="chainedTask.task.completionFlag">
-                                    {{chainedTask.task.completionFlag}}
-                                </span>
-                                <span class="task-name">
-                                    <xiv-content-link
-                                        [content]="chainedTask.task"
-                                        [nameOnly]="true"
-                                    ></xiv-content-link>
-                                </span>
-                            </div>
-                        </ng-container>
-                    </ng-container>
-                </ng-container>
-            </div>
-        </span>
-    </div>
+                    <!-- Chained Groups Scroll Container -->
+                    <div
+                        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAINED_GROUPS"
+                        class="chain-scroll-container"
+                    >
+                        @for(chainedGroup of svcChain.chainedGroups(); track chainedGroup.path) {
+                            <!-- Group header button -->
+                            <span class="chain-group">
+                                @let icon = chainedGroup.show ? 'pi-chevron-down' : 'pi-chevron-right';
+                                <button
+                                    pButton
+                                    class="path"
+                                    (click)="onToggleShowChainedGroup(chainedGroup)"
+                                >
+                                    <span class="pi {{icon}}"></span>
+                                    {{`${chainedGroup.path} (${chainedGroup.tasks.length})`}}
+                                </button>
+
+                                <button
+                                    pButton
+                                    class="nav"
+                                    [pTooltip]="'APP.CONTENT_LINK.GROUP_NAVIGATE' | translate"
+                                    tooltipPosition="right"
+                                    tooltipStyleClass="chain-navigate-tooltip"
+                                    (click)="onNavigateToGroup(chainedGroup)"
+                                >
+                                    <span class="mi mi-navigate-next"></span>
+                                </button>
+                            </span>
+
+                            <!-- Group Content Items -->
+                            @if(chainedGroup.show) {
+                                @for(chainedTask of chainedGroup.tasks; track chainedTask.task.fullStorageKey) {
+                                    @if(chainedTask.task) {
+                                        <div class="chained-task">
+                                            <span [ngClass]="chainedTask.fromFlag">
+                                                {{chainedTask.fromFlag}}
+                                            </span>
+
+                                            <i class="mi mi-arrow-right-alt"></i>
+
+                                            <span [ngClass]="chainedTask.task.completionFlag$()">
+                                                {{chainedTask.task.completionFlag$()}}
+                                            </span>
+
+                                            <span class="task-name">
+                                                <com-content-link
+                                                    [content]="chainedTask.task"
+                                                    [nameOnly]="true"
+                                                ></com-content-link>
+                                            </span>
+                                        </div>
+                                    }
+                                }
+                            }
+                        }
+                    </div>
+
+                    <!-- Chain History -->
+                    @let history = svcChain.history();
+                    @let lastChain = history[history.length - 1];
+
+                    <p-divider>
+                        {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{history.length}}/{{svcChain.historyLimit}}
+                        @if(lastChain) {
+                            ({{lastChain.chainStart.task.name}} {{'APP.CHAIN_OVERLAY.HISTORY_NOTE' | translate}})
+                        }
+                    </p-divider>
+
+                    <div
+                        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAIN_HISTORY"
+                        class="previous-chain-container"
+                    >
+                        <div class="previous-chains">
+                            @for(historyStep of history; track historyStep) {
+                                <com-content-link
+                                    [content]="historyStep.chainStart.task"
+                                    [nameOnly]="true"
+                                ></com-content-link>
+                                <i class="mi mi-arrow-right-alt"></i>
+                            }
+                        </div>
+                    </div>
+                </span>
+            }
+        </div>
+    }
 </span>

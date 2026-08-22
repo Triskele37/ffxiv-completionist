@@ -1,9 +1,10 @@
+import { WritableSignal } from '@angular/core';
 import { CompletionFlag } from '@constant';
 import { AtLinks, Links } from '@model/Chain/ChainLink';
 import { DataGroup } from '@model/DataGroup';
 
 export type Task = {
-    xivDataType: 'Task';
+    dataType: 'Task';
 
     //#region--------------------------------- Identification
     /** The numeric id for this task unique within its group */
@@ -25,13 +26,13 @@ export type Task = {
 
     //#region--------------------------------- UI
     /** Whether this task is currently selected in the app */
-    selected: boolean;
+    selected: WritableSignal<boolean>;
 
     //#endregion
 
     //#region--------------------------------- Completion
     /** Current completion setting for this task */
-    completionFlag: CompletionFlag;
+    completionFlag$: WritableSignal<CompletionFlag>;
 
     /** Default completion setting for this task when unmodified */
     defaultCompletion: CompletionFlag;
@@ -57,8 +58,14 @@ export type Task = {
     /** If cPrev should be treated as any or all complete */
     cPrevAny?: boolean;
 
+    /** Tasks that unlock this task */
+    cUnlock?: Links;
+
     /** Tasks that cannot be completed without this one */
     cNext?: Links;
+
+    /** Tasks that this task unlocks */
+    cUnlocks?: Links;
 
     /** Tasks that should mirror this one's completion */
     cSiblings?: Links;

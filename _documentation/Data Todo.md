@@ -18,7 +18,6 @@
 
 **Verify**
 * "Close to Home"s are based on starting class, so 8 different ones
-* Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 
 **Chaining**
 * unsellable/tradable collectables to source? (one-way)
@@ -31,9 +30,6 @@
 
 **Architecture**
 * Finish omitting FATEs
-* Finish removing location from orchestrion-list
-* Deriving sort logic directly from recipe info likely not gonna work
-  * just yolo it using gear slot/class for the majority
 * Convert DataGroup.tasks to Map<string, Task>
 * Implement "build" step for resources so release doesn't transform resources when read
 * Follow up on Model rewrite

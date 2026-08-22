@@ -4,9 +4,13 @@ import { ConfigStore } from './main/store/ConfigStore';
 import { WindowStore } from './main/store/WindowStore';
 import { initActions } from './main/actions';
 import { preloadJson } from './main/actions/preloadJson';
+// import { logMemoryToConsole } from './main/util/logMemoryToConsole';
 
 const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
+
+// Keep here and just comment out when not in use
+// logMemoryToConsole();
 
 async function createWindow() {
     await preloadJson();

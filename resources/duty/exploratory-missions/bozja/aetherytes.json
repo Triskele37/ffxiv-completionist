@@ -2,7 +2,7 @@
     "key": "aetherytes",
     "groupName_en": "Aetherytes",
     "groupName_fr": "Éthérites",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -16,72 +16,75 @@
         },
         "coordinates": {
             "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
-            "rankReq": "1",
             "name_en": "Utya's Aegis",
             "name_fr": "Avant-poste d'Utya",
-            "zone_en": "Bozjan Southern Front",
-            "zone_fr": "Front sud de Bozja",
-            "coordinates": "(14.9, 29.9)"
+            "rankReq": "1",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(14.9, 29.9)",
+            "patch": "5.35"
         },
         "x1": {
-            "rankReq": "5",
             "name_en": "Olana's Stand",
             "name_fr": "Camp avancé d'Olana",
-            "zone_en": "Bozjan Southern Front",
-            "zone_fr": "Front sud de Bozja",
-            "coordinates": "(28.6, 23.6)"
+            "rankReq": "5",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(28.6, 23.6)",
+            "patch": "5.35"
         },
         "x2": {
-            "rankReq": "8",
             "name_en": "Lunya's Stand",
             "name_fr": "Camp avancé de Lunya",
-            "zone_en": "Bozjan Southern Front",
-            "zone_fr": "Front sud de Bozja",
-            "coordinates": "(13.7, 23.6)"
+            "rankReq": "8",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(13.7, 23.6)",
+            "patch": "5.35"
         },
         "x3": {
-            "rankReq": "8",
             "name_en": "Camp Steva",
             "name_fr": "Camp avancé de Steve",
-            "zone_en": "Bozjan Southern Front",
-            "zone_fr": "Front sud de Bozja",
-            "coordinates": "(22.3, 16.8)"
+            "rankReq": "8",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(22.3, 16.8)",
+            "patch": "5.35"
         },
         "x4": {
-            "rankReq": "15",
             "name_en": "Camp Vrdelnis",
             "name_fr": "Avant-poste de Vrdelnis",
-            "zone_en": "Zadnor",
-            "zone_fr": "Zadnor",
-            "coordinates": "(35.0, 34.6)"
+            "rankReq": "15",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(35.0, 34.6)",
+            "patch": "5.55"
         },
         "x5": {
-            "rankReq": "18",
             "name_en": "Zuprtik Point",
             "name_fr": "Camp avancé de Zuprtik",
-            "zone_en": "Zadnor",
-            "zone_fr": "Zadnor",
-            "coordinates": "(14.3, 36.6)"
+            "rankReq": "18",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(14.3, 36.6)",
+            "patch": "5.55"
         },
         "x6": {
-            "rankReq": "22",
             "name_en": "Ljeaban Point",
             "name_fr": "Camp avancé de Ljeaban",
-            "zone_en": "Zadnor",
-            "zone_fr": "Zadnor",
-            "coordinates": "(7.7, 15.6)"
+            "rankReq": "22",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(7.7, 15.6)",
+            "patch": "5.55"
         },
         "x7": {
-            "rankReq": "22",
             "name_en": "Hrmovir Point",
             "name_fr": "Camp avancé de Hrmovir",
-            "zone_en": "Zadnor",
-            "zone_fr": "Zadnor",
-            "coordinates": "(23.5, 18.9)"
+            "rankReq": "22",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(23.5, 18.9)",
+            "patch": "5.55"
         }
     }
 }

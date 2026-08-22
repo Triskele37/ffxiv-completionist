@@ -1,47 +1,63 @@
 <span
+    data-active-help="APP.ACTIVE_HELP.TABLE_ACTION_OVERLAY"
     class="overlay-container"
     (mouseenter)="onMouseEnter()"
     (mouseleave)="onMouseLeave()"
 >
-    <p-button
-        [styleClass]="isLocked ? '' : 'p-button-outlined'"
-        icon="mi mi-tune"
-        (onClick)="onClick()"
-    ></p-button>
+    <button
+        pButton
+        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
+        (click)="onClick()"
+    >
+        <span class="mi mi-tune"></span>
+    </button>
 
-    <div *ngIf="isVisible" class="overlay-panel">
-        <span class="content">
-            <p-button
-                [label]="'OVERLAY.TABLE.TITLE' | translate"
-                [disabled]="true"
-            ></p-button>
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button pButton [disabled]="true">
+                    {{'APP.TABLE_OVERLAY.TITLE' | translate}}
+                </button>
 
-            <p-button
-                *ngIf="!group.isBookmarkGroup && !group.isCustomGroup"
-                [label]="(isBookmarked ? 'OVERLAY.TABLE.REM_BOOKMARK' : 'OVERLAY.TABLE.ADD_BOOKMARK') | translate"
-                [icon]="'material-icons ' + (isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add')"
-                (onClick)="bookmarkGroup()"
-            ></p-button>
+                @if(!group.isBookmarkGroup && !group.isCustomGroup && !group.isUiGroup) {
+                    <button pButton (click)="bookmarkGroup()">
+                        @let icon = isBookmarked() ? 'mi-bookmark-remove' : 'mi-bookmark-add';
+                        <span [class]="'mi ' + icon"></span>
+                        {{(isBookmarked() ? 'APP.TABLE_OVERLAY.REM_BOOKMARK' : 'APP.TABLE_OVERLAY.ADD_BOOKMARK') | translate}}
+                    </button>
+                }
 
-            <p-button
-                *ngIf="isAdmin"
-                [label]="'OVERLAY.TABLE.COPY_DATA' | translate"
-                icon="material-icons mi-file-copy"
-                (onClick)="copyData()"
-            ></p-button>
+                @if(svcTable.rowGroup.groupRows) {
+                    <button pButton (click)="svcTable.rowGroup.expandAll()">
+                        {{'APP.SEARCH.EXPAND' | translate}}
+                    </button>
+                    <button pButton (click)="svcTable.rowGroup.collapseAll()">
+                        {{'APP.SEARCH.COLLAPSE' | translate}}
+                    </button>
+                }
 
-            <p-button
-                *ngIf="showAddTask"
-                label="Add Task"
-                icon="mi mi-add"
-                (onClick)="onAddTaskClick()"
-            ></p-button>
-        </span>
-    </div>
+                @if(isDev()) {
+                    <button pButton (click)="copyData(false)">
+                        <span class="mi mi-file-copy"></span>
+                        {{'APP.TABLE_OVERLAY.COPY_RAW_DATA' | translate}}
+                    </button>
+                    <button pButton (click)="copyData(true)">
+                        <span class="mi mi-file-copy"></span>
+                        {{'APP.TABLE_OVERLAY.COPY_RESOLVED_DATA' | translate}}
+                    </button>
+                    <button pButton (click)="onAddTaskClick()">
+                        <span class="mi mi-add"></span>
+                        Add Task
+                    </button>
+                }
+            </span>
+        </div>
+    }
 </span>
 
-<xiv-add-task-dialog
-    *ngIf="showAddTask"
-    [(visible)]="isAddTaskVisible"
-    [group]="group"
-></xiv-add-task-dialog>
+@if(isDev()) {
+    <com-add-task-dialog
+        [(visible)]="isAddTaskVisible"
+        [group]="group"
+    ></com-add-task-dialog>
+}

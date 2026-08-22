@@ -8,384 +8,384 @@
             "name_fr": "Apprenti mineur",
             "description_en": "Achieve miner level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe mineur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.99"],
             "cSiblingsAt": {
                 "10": ["cj.26"]
-            },
-            "cNext": ["a.99"]
+            }
         },
         "x99": {
             "name_en": "Breaking Rocks in the Hot Sun II",
             "name_fr": "Mineur novice",
             "description_en": "Achieve miner level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe mineur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.98"],
+            "cNext": ["a.100"],
             "cSiblingsAt": {
                 "20": ["cj.26"]
-            },
-            "cPrev": ["a.98"],
-            "cNext": ["a.100"]
+            }
         },
         "x100": {
             "name_en": "Breaking Rocks in the Hot Sun III",
             "name_fr": "Mineur intermédiaire",
             "description_en": "Achieve miner level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe mineur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.99"],
+            "cNext": ["a.101"],
             "cSiblingsAt": {
                 "30": ["cj.26"]
-            },
-            "cPrev": ["a.99"],
-            "cNext": ["a.101"]
+            }
         },
         "x101": {
             "name_en": "Breaking Rocks in the Hot Sun IV",
             "name_fr": "Mineur confirmé",
             "description_en": "Achieve miner level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe mineur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.100"],
+            "cNext": ["a.102"],
             "cSiblingsAt": {
                 "40": ["cj.26"]
-            },
-            "cPrev": ["a.100"],
-            "cNext": ["a.102"]
+            }
         },
         "x102": {
             "name_en": "Breaking Rocks in the Hot Sun V",
             "name_fr": "Mineur vétéran",
             "description_en": "Achieve miner level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe mineur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.101"],
+            "cNext": ["a.1273"],
             "cSiblingsAt": {
                 "50": ["cj.26"]
-            },
-            "cPrev": ["a.101"],
-            "cNext": ["a.1273"]
+            }
         },
         "x1273": {
             "name_en": "Breaking Rocks in the Hot Sun VI",
             "name_fr": "Mineur émérite",
             "description_en": "Achieve miner level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe mineur.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.102"],
+            "cNext": ["a.1844"],
             "cSiblingsAt": {
                 "60": ["cj.26"]
-            },
-            "cPrev": ["a.102"],
-            "cNext": ["a.1844"]
+            }
         },
         "x1844": {
             "name_en": "Breaking Rocks in the Hot Sun VII",
             "name_fr": "Mineur expert",
             "description_en": "Achieve miner level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe mineur.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1273"],
+            "cNext": ["a.2273"],
             "cSiblingsAt": {
                 "70": ["cj.26"]
-            },
-            "cPrev": ["a.1273"],
-            "cNext": ["a.2273"]
+            }
         },
         "x2273": {
             "name_en": "Breaking Rocks in the Hot Sun VIII",
             "name_fr": "Mineur emblématique",
             "description_en": "Achieve miner level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe mineur.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1844"],
+            "cNext": ["a.2921"],
             "cSiblingsAt": {
                 "80": ["cj.26"]
-            },
-            "cPrev": ["a.1844"],
-            "cNext": ["a.2921"]
+            }
         },
         "x2921": {
             "name_en": "Breaking Rocks in the Hot Sun IX",
             "name_fr": "Mineur légendaire",
             "description_en": "Achieve miner level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe mineur.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2273"],
+            "cNext": ["a.3460"],
             "cSiblingsAt": {
                 "90": ["cj.26"]
-            },
-            "cPrev": ["a.2273"],
-            "cNext": ["a.3460"]
+            }
         },
         "x3460": {
-            "cSiblingsAt": {
-                "100": ["cj.26"]
-            },
-            "cPrev": ["a.2921"],
-            "description_en": "Achieve miner level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe mineur.",
             "name_en": "Breaking Rocks in the Hot Sun X",
             "name_fr": "Mineur mythique",
+            "description_en": "Achieve miner level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe mineur.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2921"],
+            "cSiblingsAt": {
+                "100": ["cj.26"]
+            }
         },
         "x103": {
             "name_en": "Fear the Reaper I",
             "name_fr": "Apprenti botaniste",
             "description_en": "Achieve botanist level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe botaniste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.104"],
             "cSiblingsAt": {
                 "10": ["cj.27"]
-            },
-            "cNext": ["a.104"]
+            }
         },
         "x104": {
             "name_en": "Fear the Reaper II",
             "name_fr": "Botaniste novice",
             "description_en": "Achieve botanist level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe botaniste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.103"],
+            "cNext": ["a.105"],
             "cSiblingsAt": {
                 "20": ["cj.27"]
-            },
-            "cPrev": ["a.103"],
-            "cNext": ["a.105"]
+            }
         },
         "x105": {
             "name_en": "Fear the Reaper III",
             "name_fr": "Botaniste intermédiaire",
             "description_en": "Achieve botanist level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe botaniste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.104"],
+            "cNext": ["a.106"],
             "cSiblingsAt": {
                 "30": ["cj.27"]
-            },
-            "cPrev": ["a.104"],
-            "cNext": ["a.106"]
+            }
         },
         "x106": {
             "name_en": "Fear the Reaper IV",
             "name_fr": "Botaniste confirmé",
             "description_en": "Achieve botanist level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe botaniste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.105"],
+            "cNext": ["a.107"],
             "cSiblingsAt": {
                 "40": ["cj.27"]
-            },
-            "cPrev": ["a.105"],
-            "cNext": ["a.107"]
+            }
         },
         "x107": {
             "name_en": "Fear the Reaper V",
             "name_fr": "Botaniste vétéran",
             "description_en": "Achieve botanist level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe botaniste.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.106"],
+            "cNext": ["a.1274"],
             "cSiblingsAt": {
                 "50": ["cj.27"]
-            },
-            "cPrev": ["a.106"],
-            "cNext": ["a.1274"]
+            }
         },
         "x1274": {
             "name_en": "Fear the Reaper VI",
             "name_fr": "Botaniste émérite",
             "description_en": "Achieve botanist level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe botaniste.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.107"],
+            "cNext": ["a.1843"],
             "cSiblingsAt": {
                 "60": ["cj.27"]
-            },
-            "cPrev": ["a.107"],
-            "cNext": ["a.1843"]
+            }
         },
         "x1843": {
             "name_en": "Fear the Reaper VII",
             "name_fr": "Botaniste expert",
             "description_en": "Achieve botanist level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe botaniste.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1274"],
+            "cNext": ["a.2272"],
             "cSiblingsAt": {
                 "70": ["cj.27"]
-            },
-            "cPrev": ["a.1274"],
-            "cNext": ["a.2272"]
+            }
         },
         "x2272": {
             "name_en": "Fear the Reaper VIII",
             "name_fr": "Botaniste emblématique",
             "description_en": "Achieve botanist level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe botaniste.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1843"],
+            "cNext": ["a.2920"],
             "cSiblingsAt": {
                 "80": ["cj.27"]
-            },
-            "cPrev": ["a.1843"],
-            "cNext": ["a.2920"]
+            }
         },
         "x2920": {
             "name_en": "Fear the Reaper IX",
             "name_fr": "Botaniste légendaire",
             "description_en": "Achieve botanist level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe botaniste.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2272"],
+            "cNext": ["a.3459"],
             "cSiblingsAt": {
                 "90": ["cj.27"]
-            },
-            "cPrev": ["a.2272"],
-            "cNext": ["a.3459"]
+            }
         },
         "x3459": {
-            "cSiblingsAt": {
-                "100": ["cj.27"]
-            },
-            "cPrev": ["a.2920"],
-            "description_en": "Achieve botanist level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe botaniste.",
             "name_en": "Fear the Reaper X",
             "name_fr": "Botaniste mythique",
+            "description_en": "Achieve botanist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe botaniste.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2920"],
+            "cSiblingsAt": {
+                "100": ["cj.27"]
+            }
         },
         "x108": {
             "name_en": "Gone Fishin' I",
             "name_fr": "Apprenti pêcheur",
             "description_en": "Achieve fisher level 10.",
             "description_fr": "Atteindre le niveau 10 avec la classe pêcheur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.109"],
             "cSiblingsAt": {
                 "10": ["cj.28"]
-            },
-            "cNext": ["a.109"]
+            }
         },
         "x109": {
             "name_en": "Gone Fishin' II",
             "name_fr": "Pêcheur novice",
             "description_en": "Achieve fisher level 20.",
             "description_fr": "Atteindre le niveau 20 avec la classe pêcheur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.108"],
+            "cNext": ["a.110"],
             "cSiblingsAt": {
                 "20": ["cj.28"]
-            },
-            "cPrev": ["a.108"],
-            "cNext": ["a.110"]
+            }
         },
         "x110": {
             "name_en": "Gone Fishin' III",
             "name_fr": "Pêcheur intermédiaire",
             "description_en": "Achieve fisher level 30.",
             "description_fr": "Atteindre le niveau 30 avec la classe pêcheur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.109"],
+            "cNext": ["a.111"],
             "cSiblingsAt": {
                 "30": ["cj.28"]
-            },
-            "cPrev": ["a.109"],
-            "cNext": ["a.111"]
+            }
         },
         "x111": {
             "name_en": "Gone Fishin' IV",
             "name_fr": "Pêcheur confirmé",
             "description_en": "Achieve fisher level 40.",
             "description_fr": "Atteindre le niveau 40 avec la classe pêcheur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.110"],
+            "cNext": ["a.112"],
             "cSiblingsAt": {
                 "40": ["cj.28"]
-            },
-            "cPrev": ["a.110"],
-            "cNext": ["a.112"]
+            }
         },
         "x112": {
             "name_en": "Gone Fishin' V",
             "name_fr": "Pêcheur vétéran",
             "description_en": "Achieve fisher level 50.",
             "description_fr": "Atteindre le niveau 50 avec la classe pêcheur.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
+            "cPrev": ["a.111"],
+            "cNext": ["a.1275"],
             "cSiblingsAt": {
                 "50": ["cj.28"]
-            },
-            "cPrev": ["a.111"],
-            "cNext": ["a.1275"]
+            }
         },
         "x1275": {
             "name_en": "Gone Fishin' VI",
             "name_fr": "Pêcheur émérite",
             "description_en": "Achieve fisher level 60.",
             "description_fr": "Atteindre le niveau 60 avec la classe pêcheur.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
+            "cPrev": ["a.112"],
+            "cNext": ["a.1845"],
             "cSiblingsAt": {
                 "60": ["cj.28"]
-            },
-            "cPrev": ["a.112"],
-            "cNext": ["a.1845"]
+            }
         },
         "x1845": {
             "name_en": "Gone Fishin' VII",
             "name_fr": "Pêcheur expert",
             "description_en": "Achieve fisher level 70.",
             "description_fr": "Atteindre le niveau 70 avec la classe pêcheur.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
+            "cPrev": ["a.1275"],
+            "cNext": ["a.2274"],
             "cSiblingsAt": {
                 "70": ["cj.28"]
-            },
-            "cPrev": ["a.1275"],
-            "cNext": ["a.2274"]
+            }
         },
         "x2274": {
             "name_en": "Gone Fishin' VIII",
             "name_fr": "Pêcheur emblématique",
             "description_en": "Achieve fisher level 80.",
             "description_fr": "Atteindre le niveau 80 avec la classe pêcheur.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
+            "cPrev": ["a.1845"],
+            "cNext": ["a.2922"],
             "cSiblingsAt": {
                 "80": ["cj.28"]
-            },
-            "cPrev": ["a.1845"],
-            "cNext": ["a.2922"]
+            }
         },
         "x2922": {
             "name_en": "Gone Fishin' IX",
             "name_fr": "Pêcheur légendaire",
             "description_en": "Achieve fisher level 90.",
             "description_fr": "Atteindre le niveau 90 avec la classe pêcheur.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
+            "cPrev": ["a.2274"],
+            "cNext": ["a.3461"],
             "cSiblingsAt": {
                 "90": ["cj.28"]
-            },
-            "cPrev": ["a.2274"],
-            "cNext": ["a.3461"]
+            }
         },
         "x3461": {
-            "cSiblingsAt": {
-                "100": ["cj.28"]
-            },
-            "cPrev": ["a.2922"],
-            "description_en": "Achieve fisher level 100.",
-            "description_fr": "Atteindre le niveau 100 avec la classe pêcheur.",
             "name_en": "Gone Fishin' X",
             "name_fr": "Pêcheur mythique",
+            "description_en": "Achieve fisher level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe pêcheur.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cPrev": ["a.2922"],
+            "cSiblingsAt": {
+                "100": ["cj.28"]
+            }
         }
     }
 }

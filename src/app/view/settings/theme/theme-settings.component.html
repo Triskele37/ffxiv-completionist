@@ -1,30 +1,26 @@
 <div class="setting">
-    <label>{{'MAIN.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
-    <p-buttonGroup>
-        <p-button
-            [label]="'MAIN.SETTING.THEME.PRESETS.DEFAULT' | translate"
-            (onClick)="useDefaultTheme()"
-        ></p-button>
+    <label>{{'APP.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
+    <p-button-group>
+        <button pButton (click)="useDefaultTheme()">
+            {{'APP.SETTING.THEME.PRESETS.DEFAULT' | translate}}
+        </button>
 
-        <p-button
-            [label]="'MAIN.SETTING.THEME.PRESETS.DARK' | translate"
-            (onClick)="useDarkTheme()"
-        ></p-button>
+        <button pButton (click)="useDarkTheme()">
+            {{'APP.SETTING.THEME.PRESETS.DARK' | translate}}
+        </button>
 
-        <p-button
-            [label]="'MAIN.SETTING.THEME.PRESETS.LIGHT' | translate"
-            (onClick)="useLightTheme()"
-        ></p-button>
+        <button pButton (click)="useLightTheme()">
+            {{'APP.SETTING.THEME.PRESETS.LIGHT' | translate}}
+        </button>
 
-        <p-button
-            [label]="'MAIN.SETTING.THEME.PRESETS.CLASSIC' | translate"
-            (onClick)="useClassicTheme()"
-        ></p-button>
-    </p-buttonGroup>
+        <button pButton (click)="useClassicTheme()">
+            {{'APP.SETTING.THEME.PRESETS.CLASSIC' | translate}}
+        </button>
+    </p-button-group>
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.THEME.FONT' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.FONT' | translate}}</label>
     <input
         pInputText
         [(ngModel)]="svcTheme.fontFamily"
@@ -33,126 +29,124 @@
 </div>
 
 <div class="setting">
-    <label>{{'MAIN.SETTING.THEME.FONT_SIZE.LABEL' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.FONT_SIZE.LABEL' | translate}}</label>
 
     <div
         class="font-size-controls"
-        [pTooltip]="'MAIN.SETTING.THEME.FONT_SIZE.TOOLTIP' | translate"
+        [pTooltip]="'APP.SETTING.THEME.FONT_SIZE.TOOLTIP' | translate"
         tooltipPosition="right"
     >
-        <p-inputNumber
+        <p-input-number
             [(ngModel)]="svcTheme.fontSize"
             [showButtons]="true"
             [min]="8"
             [max]="24"
             (onBlur)="svcTheme.setFontSize(svcTheme.fontSize)"
-        ></p-inputNumber>
+        ></p-input-number>
 
-        <p-button
-            styleClass="reset-font-size"
-            icon="mi mi-restart-alt"
-            (onClick)="resetFontSize()"
-        ></p-button>
+        <button
+            pButton
+            class="reset-font-size"
+            (click)="resetFontSize()"
+        >
+            <span class="mi mi-restart-alt"></span>
+        </button>
     </div>
 </div>
 
 <div class="setting-line">
-    <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
 
-    <p-colorPicker
+    <p-color-picker
         [(ngModel)]="svcTheme.primaryColor"
         (onChange)="svcTheme.setPrimaryColor(svcTheme.primaryColor)"
-    ></p-colorPicker>
+    ></p-color-picker>
 
-    <p-colorPicker
+    <p-color-picker
         [(ngModel)]="svcTheme.primaryTextColor"
         (onChange)="svcTheme.setPrimaryTextColor(svcTheme.primaryTextColor)"
-    ></p-colorPicker>
+    ></p-color-picker>
 
-    <label>{{'MAIN.SETTING.THEME.PRIMARY_TEXT' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.PRIMARY_TEXT' | translate}}</label>
 </div>
 
 <div class="setting-line">
-    <label>{{'MAIN.SETTING.THEME.BACKGROUND' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.BACKGROUND' | translate}}</label>
 
-    <p-colorPicker
+    <p-color-picker
         format="hsb"
         [(ngModel)]="svcTheme.backgroundColorHsb"
         (onChange)="svcTheme.setBackgroundColorFromHsb(svcTheme.backgroundColorHsb)"
-    ></p-colorPicker>
+    ></p-color-picker>
 
-    <p-colorPicker
+    <p-color-picker
         format="rgb"
         [(ngModel)]="svcTheme.textColor"
         (onChange)="svcTheme.setTextColor(svcTheme.textColor)"
-    ></p-colorPicker>
+    ></p-color-picker>
 
-    <label>{{'MAIN.SETTING.THEME.TEXT_COLOR' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.TEXT_COLOR' | translate}}</label>
 </div>
 
 <div class="completion-line">
-    <label>{{'MAIN.SETTING.THEME.COMPLETION' | translate}}</label>
+    <label>{{'APP.SETTING.THEME.COMPLETION' | translate}}</label>
 
     <div class="settings">
         <div class="gradient-steps">
-            <ng-container *ngFor="let gradientStep of gradients">
+            @for(gradientStep of gradients; track gradientStep) {
                 <div
                     class="gradient-step"
                     [style.background-color]="gradientStep"
                 ></div>
-            </ng-container>
+            }
         </div>
 
         <div class="color-pickers">
             <span>
                 <i class="i-incomplete"></i>
-                <p-colorPicker
+                <p-color-picker
                     format="rgb"
                     [(ngModel)]="svcTheme.incompleteColor"
                     (onChange)="setIncompleteColor()"
-                ></p-colorPicker>
-                <p-button
-                    icon="mi mi-restart-alt"
-                    (onClick)="resetIncompleteColor()"
-                ></p-button>
+                ></p-color-picker>
+                <button pButton (click)="resetIncompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
             </span>
 
             <span>
-                <p-colorPicker
+                <p-color-picker
                     format="rgb"
                     [(ngModel)]="svcTheme.partialCompleteColor"
                     (onChange)="setPartialCompleteColor()"
-                ></p-colorPicker>
-                <p-button
-                    icon="mi mi-restart-alt"
-                    (onClick)="resetPartialCompleteColor()"
-                ></p-button>
+                ></p-color-picker>
+                <button pButton (click)="resetPartialCompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
             </span>
 
             <span>
                 <i class="i-complete"></i>
-                <p-colorPicker
+                <p-color-picker
                     format="rgb"
                     [(ngModel)]="svcTheme.completeColor"
                     (onChange)="setCompleteColor()"
-                ></p-colorPicker>
-                <p-button
-                    icon="mi mi-restart-alt"
-                    (onClick)="resetCompleteColor()"
-                ></p-button>
+                ></p-color-picker>
+                <button pButton (click)="resetCompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
             </span>
 
             <span>
                 <i class="i-exclude"></i>
-                <p-colorPicker
+                <p-color-picker
                     format="rgb"
                     [(ngModel)]="svcTheme.excludedColor"
                     (onChange)="svcTheme.setExcludedColor(svcTheme.excludedColor)"
-                ></p-colorPicker>
-                <p-button
-                    icon="mi mi-restart-alt"
-                    (onClick)="resetExcludedColor()"
-                ></p-button>
+                ></p-color-picker>
+                <button pButton (click)="resetExcludedColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
             </span>
         </div>
     </div>

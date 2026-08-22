@@ -3,55 +3,55 @@
     "groupName_en": "Norvrandt",
     "groupName_fr": "Norvrandt",
     "tasks": {
-        "x0": {
-            "level": "80★",
+        "x569": {
             "name_en": "Sandalwood Log",
             "name_fr": "Rondin de santal blanc",
-            "zone": "@PLACE.RAK_TIKA",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "coordinates": "(24, 36)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.127",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.0",
-            "closestAetheryte": "travel.aetherytes.norvrandt.127"
+            "patch": "5.0"
         },
-        "x1": {
-            "level": "80★",
+        "x607": {
             "name_en": "Sandalwood Sap",
             "name_fr": "Sève de bois de santal",
-            "zone": "@PLACE.RAK_TIKA",
+            "level": "80 ★",
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "coordinates": "(24, 36)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.127",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.1",
-            "closestAetheryte": "travel.aetherytes.norvrandt.127"
+            "patch": "5.1"
         },
-        "x2": {
-            "level": "80★★",
+        "x611": {
             "name_en": "Merbau Log",
             "name_fr": "Rondin d'intsia bijuga",
-            "zone": "@PLACE.IL_MHEG",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.IL_MHEG",
             "coordinates": "(36, 27)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "5.2",
-            "closestAetheryte": "travel.aetherytes.norvrandt.126"
+            "patch": "5.2"
         },
-        "x3": {
-            "level": "80★★★",
+        "x623": {
             "name_en": "Silver Beech Log",
             "name_fr": "Rondin de hêtre argenté",
-            "zone": "@PLACE.AMH_ARAENG",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
             "coordinates": "(16, 11)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.123"
+            "patch": "5.4"
         },
-        "x4": {
-            "level": "80★★★",
+        "x627": {
             "name_en": "Wattle Petribark",
             "name_fr": "Écorce d'acacia durcie",
-            "zone": "@PLACE.LAKELAND",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.LAKELAND",
             "coordinates": "(5, 26)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.117",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.117"
+            "patch": "5.4"
         }
     }
 }

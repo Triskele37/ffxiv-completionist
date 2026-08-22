@@ -1,31 +1,29 @@
-<ng-container
-    *ngTemplateOutlet="isGroup ? groupLink : taskLink"
-></ng-container>
-
-<ng-template #groupLink>
-    <p-button
-        class="content-link noSelect"
-        styleClass="p-button-link"
+@if(content.dataType === 'Group') {
+    <button
+        data-active-help="APP.ACTIVE_HELP.CONTENT_LINK.GROUP"
+        pButton
+        class="content-link p-button-link"
         tooltipPosition="bottom"
         [pTooltip]="
             (content | contentLink) + '\n' +
-            ('GENERAL.GROUP_NAVIGATE' | translate)
+            ('APP.CONTENT_LINK.GROUP_NAVIGATE' | translate)
         "
-        [label]="content | contentLink:trimGroup:nameOnly"
-        (onClick)="onClickLink()"
-    ></p-button>
-</ng-template>
-
-<ng-template #taskLink>
-    <p-button
-        class="content-link noSelect"
-        styleClass="p-button-link"
+        (click)="onClickLink()"
+    >
+        {{content | contentLink:trimGroup:nameOnly}}
+    </button>
+}
+@else if(content._parent) {
+    <button
+        data-active-help="APP.ACTIVE_HELP.CONTENT_LINK.TASK"
+        class="content-link p-button-link"
         tooltipPosition="bottom"
         [pTooltip]="
             (content._parent | contentLink) + '\n' +
-            ('GENERAL.TASK_NAVIGATE' | translate)
+            ('APP.CONTENT_LINK.TASK_NAVIGATE' | translate)
         "
-        [label]="content | contentLink:trimGroup:nameOnly"
-        (onClick)="onClickLink()"
-    ></p-button>
-</ng-template>
+        (click)="onClickLink()"
+    >
+        {{content | contentLink:trimGroup:nameOnly}}
+    </button>
+}

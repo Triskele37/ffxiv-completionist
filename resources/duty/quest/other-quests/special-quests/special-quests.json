@@ -5,14 +5,15 @@
     "defaultCompletion": "X",
     "tasks": {
         "x67114": {
-            "level": 1,
             "name_en": "The Ties That Bind",
             "name_fr": "Jusqu'à ce que le destin vous sépare",
+            "level": 1,
             "npc_en": "Claribel",
             "npc_fr": "Claribel",
+            "unlock": ["character.character.aesthetician.228", "mo.41", "e.113"],
+            "patch": "2.45",
             "cPrev": ["q.66045"],
-            "patch": "4.31",
-            "unlock": ["character.character.aesthetician.228", "mo.41", "e.113"]
+            "cSiblings": "e.113"
         }
     }
 }

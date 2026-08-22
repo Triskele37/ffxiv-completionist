@@ -4,132 +4,134 @@
     "groupName_fr": "Arrière-pays dravanien",
     "tasks": {
         "x67472": {
-            "level": 58,
             "name_en": "Louder than Words",
             "name_fr": "Avec nous ou contre nous",
-            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.10",
+            "level": 58,
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.10",
+            "patch": "3.0",
             "cPrev": ["q.67191"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.10"]
         },
         "x67483": {
-            "level": 58,
             "name_en": "A Bum Rap",
-            "name_fr": "Surtout pas les fesses!",
+            "name_fr": "Surtout pas les fesses !",
+            "level": 58,
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
-            "cPrev": ["q.67193"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67193"]
         },
         "x67469": {
-            "level": 58,
             "name_en": "Feltsmox Needs Bait",
             "name_fr": "Sortir de la crise avec des yeux",
+            "level": 58,
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
+            "patch": "3.0",
             "cPrev": ["q.67191"],
-            "cNext": ["q.67470"],
-            "patch": "4.31"
+            "cNext": ["q.67470"]
         },
         "x67470": {
-            "level": 58,
             "name_en": "Feltsmox's Reel Problems",
             "name_fr": "Sortir de la crise en tuant des nuisibles",
+            "level": 58,
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
+            "patch": "3.0",
             "cPrev": ["q.67192", "q.67469"],
-            "cNext": ["q.67479"],
-            "patch": "4.31"
+            "cNext": ["q.67479"]
         },
         "x67496": {
-            "level": 58,
             "name_en": "Feltsmox Can't Bear It",
             "name_fr": "Sortir de la crise avec de la viande",
+            "level": 58,
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67479"],
-            "cNext": ["q.67497"],
-            "patch": "4.31"
+            "cNext": ["q.67497"]
         },
         "x67497": {
-            "level": 58,
             "name_en": "Feltsmox Tackles the Morbols",
             "name_fr": "Sortir de la crise en se reconvertissant",
+            "level": 58,
             "npc_en": "Salvaging Goblin",
             "npc_fr": "Récupérateur Gobelin",
-            "cPrev": ["q.67194", "q.67496"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67194", "q.67496"]
         },
         "x67494": {
-            "level": 58,
             "name_en": "A Slimier Stymier",
             "name_fr": "Prolifération gênante",
+            "level": 58,
             "npc_en": "Boomshox",
             "npc_fr": "Boomshox",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67493"],
-            "cNext": ["q.67495"],
-            "patch": "4.31"
+            "cNext": ["q.67495"]
         },
         "x67495": {
-            "level": 58,
             "name_en": "Mission Unpossible",
             "name_fr": "La der des ders",
+            "level": 58,
             "npc_en": "Boomshox",
             "npc_fr": "Boomshox",
-            "cPrev": ["q.67194", "q.67494"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67194", "q.67494"]
         },
         "x67500": {
-            "level": 58,
             "name_en": "What the Boat Brought In",
             "name_fr": "Cinq sur huit",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67499"],
-            "cNext": ["q.67501"],
-            "patch": "4.31"
+            "cNext": ["q.67501"]
         },
         "x67501": {
-            "level": 58,
             "name_en": "Over My Dead Gobbie",
             "name_fr": "Resserrer les liens",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["q.67194", "q.67500"],
-            "patch": "4.31"
+            "unlock": "tto.80",
+            "patch": "3.0",
+            "cPrev": ["q.67194", "q.67500"]
         },
         "x67473": {
-            "level": 58,
             "name_en": "Uncoordinated Defense",
             "name_fr": "Coordination difficile",
+            "level": 58,
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
+            "patch": "3.0",
             "cPrev": ["q.67193", "q.67471"],
-            "cNext": ["q.67478"],
-            "patch": "4.31"
+            "cNext": ["q.67478"]
         },
         "x67480": {
-            "level": 58,
             "name_en": "The Missing Logbook",
             "name_fr": "Cher journal...",
+            "level": 58,
             "npc_en": "Dripwix",
             "npc_fr": "Dripwix",
+            "patch": "3.0",
             "cPrev": ["q.67193", "q.67478"],
-            "cNext": ["q.67484"],
-            "patch": "4.31"
+            "cNext": ["q.67484"]
         },
         "x67738": {
-            "level": 60,
             "name_en": "An Overgrown Ambition",
             "name_fr": "Le trésor inestimable de l'Arboretum",
-            "unlock": "d.41",
+            "level": 60,
             "npc_en": "Tetchy Treasure Hunter",
             "npc_fr": "Chasseuse De Trésors",
+            "unlock": "d.41",
+            "patch": "3.1",
             "cPrev": ["q.67205"],
             "cNext": ["q.68678"],
-            "patch": "4.31"
+            "cSiblings": ["d.41"]
         }
     }
 }

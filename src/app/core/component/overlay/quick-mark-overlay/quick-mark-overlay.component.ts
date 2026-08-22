@@ -1,4 +1,6 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, signal } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
@@ -6,6 +8,7 @@ import { Task } from '@model/Task';
 import { changeCompletion } from '@model/Task/completion/changeCompletion';
 
 import { Overlay } from '../Overlay';
+import { QuickMarkFromToLabelComponent } from './quick-mark-from-to-label/quick-mark-from-to-label.component';
 
 type History = {
     tasks: TaskHistory[];
@@ -19,87 +22,77 @@ type TaskHistory = {
 };
 
 @Component({
-    selector: 'xiv-quick-mark-overlay',
+    selector: 'com-quick-mark-overlay',
     templateUrl: './quick-mark-overlay.component.html',
+    imports: [
+        ButtonDirective,
+        TranslatePipe,
+
+        QuickMarkFromToLabelComponent
+    ],
     styleUrls: [
         '../overlay.scss',
         './quick-mark-overlay.component.scss'
     ]
 })
 export class QuickMarkOverlayComponent extends Overlay {
-    @Input() tasks: Task[];
+    @Input({ required: true }) tasks!: Task[];
     @Output() onMark = new EventEmitter<void>();
-    history: History[] = [];
-    isModalVisible = false;
+
+    historyList = signal<History[]>([]);
+    isModalVisible = signal(false);
 
     // Expose constants to template
     Y = Completion.Y;
     N = Completion.N;
     X = Completion.X;
+    S = 'S' as const;
 
     constructor(private svcData: DataService) {
         super();
     }
 
-    /** Change all tasks in filteredTasks with 'from' flag to 'to' flag
+    /**
+     * Change all tasks with 'from' flag to 'to' flag
      * passing 'selected' to 'from' matches selected tasks
      * */
-    onChangeTaskCompletion(from: Completion, to: Completion): void {
+    onChangeTaskCompletion(from: Completion | null, to: Completion): void {
         const history: History = { from: from || 'selected', to, tasks: [] };
-        this.isModalVisible = true;
+        this.isModalVisible.set(true);
 
         setTimeout(() => {
-            let first = true;
+            let firstInChain = true;
+
             this.tasks.forEach((task) => {
-                const realTo = this.getToFlag(task, from, to);
-                if(realTo !== false) {
+                const actualToFlag = this.getActualToFlag(task, from, to);
+
+                if(actualToFlag !== null) {
                     history.tasks.push({
                         task,
-                        flag: task.completionFlag as Completion
+                        flag: task.completionFlag$() as Completion
                     });
 
-                    first = !changeCompletion(task, realTo, first) && first;
+                    firstInChain = !changeCompletion(task, actualToFlag, firstInChain) && firstInChain;
                 }
             });
 
             if(history.tasks.length) {
                 this.onMark.emit();
-                this.history.push(history);
+                this.addHistory(history);
                 this.svcData.applyDataToStore();
             }
 
-            this.isModalVisible = false;
+            this.isModalVisible.set(false);
         }, 100);
     }
 
-    getToFlag(task: Task, from: Completion, to: Completion): string | false {
-        if(task.isNumericCompletion) {
-            const matches =
-                (!from && task.selected) ||
-                (from === Completion.Y && task.completionFlag === task.maxValue.toString()) ||
-                (from === Completion.N && task.completionFlag !== task.maxValue.toString()) ||
-                (from === Completion.X && task.completionFlag === Completion.X);
-
-            if(matches) {
-                if(to === Completion.Y) return task.maxValue.toString();
-                if(to === Completion.N) return '0';
-                if(to === Completion.X) return Completion.X;
-            }
-        }
-        else {
-            if(!from && task.selected) return to;
-            if(from && task.completionFlag === from) return to;
-        }
-
-        return false;
-    }
-
     onUndoLastChange(): void {
-        const history = this.history.pop();
+        const history = this.popHistory();
+        if(!history) return;
 
         let first = true;
         history.tasks.forEach((changed) => {
-            if(changed.task.completionFlag !== changed.flag) {
+            if(changed.task.completionFlag$() !== changed.flag) {
                 first = !changeCompletion(changed.task, changed.flag, first) && first;
             }
         });
@@ -108,4 +101,61 @@ export class QuickMarkOverlayComponent extends Overlay {
         this.svcData.applyDataToStore();
     }
 
+    //#region------------------------------------------------------- HistoryList
+    // Add a History object
+    addHistory(history: History): void {
+        this.historyList.update((historyList) => [...historyList, history]);
+    }
+
+    // Remove and return the last History object
+    popHistory(): History | undefined {
+        let history: History | undefined;
+        this.historyList.update((allHistory) => {
+            history = allHistory.at(-1);
+            return allHistory.slice(0, -1);
+        });
+        return history;
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Get To Flag
+    // Special handling needed for numeric tasks regarding 'to' flag's value
+    getActualToFlag(task: Task, from: Completion | null, to: Completion): string | null {
+        if(task.isNumericCompletion) {
+            if(this.numericTaskMatches(task, from)) {
+                if(to === Completion.Y) return task.maxValue.toString();
+                if(to === Completion.N) return '0';
+                if(to === Completion.X) return Completion.X;
+            }
+        }
+        else {
+            if(!from && task.selected()) return to;
+            if(from && task.completionFlag$() === from) return to;
+        }
+
+        return null;
+    }
+
+    // Determine if 'task' matches the 'from' flag's intent
+    numericTaskMatches(task: Task, from: Completion | null): boolean {
+        // No 'from' flag, selected task matches
+        if(!from && task.selected()) return true;
+
+        const flag = task.completionFlag$();
+
+        // 'from' is X, task needs X to match
+        if(from === Completion.X && flag === Completion.X) return true;
+
+        // 'from' is Y, numeric flag needs to be maxValue to match
+        if(from === Completion.Y && flag === task.maxValue.toString()) return true;
+
+        // 'from' is N, numeric flag needs to NOT be maxValue
+        if(from === Completion.N && flag !== task.maxValue.toString()) return true;
+
+        // No matches
+        return false;
+    }
+
+    //#endregion
 }

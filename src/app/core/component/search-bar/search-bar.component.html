@@ -1,26 +1,34 @@
-<p-button
+<button
+    data-active-help="APP.ACTIVE_HELP.MAIN_MENU"
+    pButton
     class="home-button"
-    icon="pi pi-chevron-{{(svcNavigation.selectedGroup$ | async)?.isUiGroup ? 'down' : 'right'}}"
-    [label]="'MAIN.TITLE' | translate"
-    (onClick)="onHomeClick()"
-></p-button>
+    (click)="onHomeClick()"
+>
+    @let direction = svcNavigation.selectedGroup()?.isUiGroup ? 'down' : 'right';
+    <span class="pi pi-chevron-{{direction}}"></span>
+    {{'APP.NAME' | translate}}
+</button>
 
 <div
     #searchBar
     class="search-bar"
-    [pTooltip]="svcSearch.searchError$ | async"
+    [pTooltip]="svcSearch.searchError() ?? undefined"
 >
     <input
         #searchInput
+        data-active-help="APP.ACTIVE_HELP.SEARCH.SEARCH_INPUT"
         pInputText
-        [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
-        [ngClass]="svcSearch.searchStatus$ | async"
+        [placeholder]="'APP.SEARCH.PLACEHOLDER' | translate"
+        [ngClass]="svcSearch.searchStatus()"
         [(ngModel)]="searchTerm"
         (keydown)="onSearchKeydown($event)"
     />
 
-    <p-button
-        icon="material-icons mi-search"
-        (onClick)="onSearch()"
-    ></p-button>
+    <button
+        data-active-help="APP.ACTIVE_HELP.SEARCH.SEARCH_BUTTON"
+        pButton
+        (click)="onSearch()"
+    >
+        <span class="mi mi-search"></span>
+    </button>
 </div>

@@ -4,109 +4,113 @@
     "groupName_fr": "Tour de Cristal",
     "tasks": {
         "x67245": {
-            "level": 50,
             "name_en": "Legacy of Allag",
             "name_fr": "L'héritage d'Allag",
+            "level": 50,
             "npc_en": "Outlandish Man",
             "npc_fr": "Homme Étrangement Vêtu",
+            "patch": "2.1",
             "cPrev": ["q.66060"],
-            "cNext": ["q.66736"],
-            "patch": "4.4"
+            "cNext": ["q.66736"]
         },
         "x66736": {
-            "level": 50,
             "name_en": "Sanding It Down",
             "name_fr": "Du sable ou rien",
+            "level": 50,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
+            "patch": "2.1",
             "cPrev": ["q.67245"],
-            "cNext": ["q.66737"],
-            "patch": "4.31"
+            "cNext": ["q.66737"]
         },
         "x66737": {
-            "level": 50,
             "name_en": "A Performance for the Ages",
             "name_fr": "La chasse au sable",
+            "level": 50,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
+            "patch": "2.1",
             "cPrev": ["q.66736"],
-            "cNext": ["q.66738"],
-            "patch": "4.31"
+            "cNext": ["q.66738"]
         },
         "x66738": {
-            "level": 50,
             "name_en": "Labyrinth of the Ancients",
             "name_fr": "Le Dédale antique",
-            "unlock": "d.92",
+            "level": 50,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
+            "unlock": "d.92",
+            "patch": "2.1",
             "cPrev": ["q.66737"],
             "cNext": ["q.66739"],
-            "patch": "4.31"
+            "cSiblings": ["d.92"]
         },
         "x66739": {
-            "level": 50,
             "name_en": "For Prosperity",
             "name_fr": "Le point sur la Tour",
+            "level": 50,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
+            "patch": "2.1",
             "cPrev": ["q.66738"],
-            "cNext": ["q.67010"],
-            "patch": "4.31"
+            "cNext": ["q.67010"]
         },
         "x67010": {
-            "level": 50,
             "name_en": "Syrcus Tower",
             "name_fr": "La Tour de Syrcus",
-            "unlock": "d.102",
+            "level": 50,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
+            "unlock": "d.102",
+            "patch": "2.3",
             "cPrev": ["q.66739"],
             "cNext": ["q.66030"],
-            "patch": "4.31"
+            "cSiblings": ["d.102"]
         },
         "x66030": {
-            "level": 50,
             "name_en": "The World of Darkness",
             "name_fr": "Le Monde des Ténèbres",
-            "unlock": "d.111",
+            "level": 50,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
+            "unlock": "d.111",
+            "patch": "2.5",
             "cPrev": ["q.67010"],
             "cNext": ["q.66031"],
-            "patch": "4.31"
+            "cSiblings": ["d.111"]
         },
         "x66031": {
-            "level": 50,
             "name_en": "The Light of Hope",
             "name_fr": "Un avenir plus radieux",
+            "level": 50,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
+            "unlock": "tto.71",
+            "patch": "2.5",
             "cPrev": ["q.66030"],
             "cNext": ["q.66033"],
-            "cSiblings": ["a.1060"],
-            "patch": "4.31"
+            "cSiblings": ["a.1060"]
         },
         "x66033": {
-            "level": 50,
-            "defaultCompletion": "X",
             "name_en": "But I Hardly Noah",
             "name_fr": "Un nom très ancien",
+            "level": 50,
             "npc_en": "",
             "npc_fr": "",
+            "patch": "2.5",
             "cPrev": ["q.66031"],
             "cNext": ["q.66034"],
-            "patch": "4.31"
+            "defaultCompletion": "X"
         },
         "x66034": {
-            "level": 50,
-            "defaultCompletion": "X",
             "name_en": "The Gift of the Archmagus",
             "name_fr": "Une vraie mine d'orbes",
+            "level": 50,
             "npc_en": "",
             "npc_fr": "",
+            "patch": "2.5",
             "cPrev": ["q.66033"],
-            "patch": "4.31"
+            "defaultCompletion": "X"
         }
     }
 }

@@ -1,7 +1,7 @@
 **Environment Setup**
 
 Ensure at least the following is setup on your system:
-* Node (at least v14)
+* Node (at least v26.5.1)
 * Git
 * Your choice of IDE
 

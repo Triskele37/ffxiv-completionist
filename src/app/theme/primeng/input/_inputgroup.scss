@@ -1,73 +1,77 @@
-.p-inputgroup-addon {
-    background: $inputGroupBg;
-    color: $inputGroupTextColor;
-    border-top: $inputBorder;
-    border-left: $inputBorder;
-    border-bottom: $inputBorder;
-    padding: $inputPadding;
-    min-width: $inputGroupAddOnMinWidth;
+@use "../../_variables";
 
-    &:last-child {
-        border-right: $inputBorder;
-    }
-}
+@layer primeng {
+    .p-inputgroup-addon {
+        background: variables.$inputGroupBg;
+        color: variables.$inputGroupTextColor;
+        border-top: variables.$inputBorder;
+        border-left: variables.$inputBorder;
+        border-bottom: variables.$inputBorder;
+        padding: variables.$inputPadding;
+        min-width: variables.$inputGroupAddOnMinWidth;
 
-.p-inputgroup {
-    > .p-component,
-    > .p-inputwrapper > .p-inputtext,
-    > .p-float-label > .p-component {
-        border-radius: 0;
-        margin: 0;
-
-        + .p-inputgroup-addon {
-            border-left: 0 none;
+        &:last-child {
+            border-right: variables.$inputBorder;
         }
+    }
 
-        &:focus {
-            z-index: 1;
+    .p-inputgroup {
+        > .p-component,
+        > .p-inputwrapper > .p-inputtext,
+        > .p-float-label > .p-component {
+            border-radius: 0;
+            margin: 0;
 
-            ~ label {
+            + .p-inputgroup-addon {
+                border-left: 0 none;
+            }
+
+            &:focus {
                 z-index: 1;
+
+                ~ label {
+                    z-index: 1;
+                }
             }
         }
     }
-}
 
-.p-inputgroup-addon:first-child,
-.p-inputgroup button:first-child,
-.p-inputgroup input:first-child,
-.p-inputgroup > .p-inputwrapper:first-child > .p-component,
-.p-inputgroup > .p-inputwrapper:first-child > .p-component > .p-inputtext {
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
-}
+    .p-inputgroup-addon:first-child,
+    .p-inputgroup button:first-child,
+    .p-inputgroup input:first-child,
+    .p-inputgroup > .p-inputwrapper:first-child > .p-component,
+    .p-inputgroup > .p-inputwrapper:first-child > .p-component > .p-inputtext {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
 
-.p-inputgroup .p-float-label:first-child input {
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
-}
+    .p-inputgroup .p-float-label:first-child input {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
 
-.p-inputgroup-addon:last-child,
-.p-inputgroup button:last-child,
-.p-inputgroup input:last-child,
-.p-inputgroup > .p-inputwrapper:last-child > .p-component,
-.p-inputgroup > .p-inputwrapper:last-child > .p-component > .p-inputtext {
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
-}
+    .p-inputgroup-addon:last-child,
+    .p-inputgroup button:last-child,
+    .p-inputgroup input:last-child,
+    .p-inputgroup > .p-inputwrapper:last-child > .p-component,
+    .p-inputgroup > .p-inputwrapper:last-child > .p-component > .p-inputtext {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
 
-.p-inputgroup .p-float-label:last-child input {
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
-}
+    .p-inputgroup .p-float-label:last-child input {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
 
-.p-fluid {
-    .p-inputgroup {
-        .p-button {
-            width: auto;
+    .p-fluid {
+        .p-inputgroup {
+            .p-button {
+                width: auto;
 
-            &.p-button-icon-only {
-                width: $buttonIconOnlyWidth;
+                &.p-button-icon-only {
+                    width: variables.$buttonIconOnlyWidth;
+                }
             }
         }
     }

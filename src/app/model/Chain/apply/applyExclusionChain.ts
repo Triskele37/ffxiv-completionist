@@ -1,21 +1,27 @@
 import { Completion } from '@constant';
+import { getTasks } from '@model/Task/get/getTasks';
 
 import { applyFlagToTask } from '../applyFlag/applyFlagToTask';
-import { Chainer } from '../Chainer';
-import { getAllTasksFor } from '../getAllTasksFor';
+import { ChainMeta } from '../ChainMeta';
 
-export function applyExclusionChain(chainer: Chainer): void {
-    getAllTasksFor(chainer, chainer.task.cExclude).forEach((task) => {
-        if(chainer.task.completionFlag === Completion.Y) {
-            // Exclude the task if the chaining one is marked Y
-            applyFlagToTask(chainer, Completion.X, task);
+/**
+ * cExclude
+ * A.cExclude(B)
+ * - Y change: B must be excluded
+ * - N change: B must be incomplete
+ * */
+export function applyExclusionChain({ task, force }: ChainMeta): void {
+    // Early bail conditions
+    if(!task.cExclude) return;
+
+    getTasks(task.cExclude, task).forEach((targetTask) => {
+        if(task.completionFlag$() === Completion.Y) {
+            // Exclude the `targetTask` if `task` is marked Y
+            applyFlagToTask(targetTask, Completion.X, force);
         }
-        else if(chainer.task.completionFlag === Completion.N && task.completionFlag === Completion.X) {
-            // Unexclude task if the chaining one is unmarked Y
-            applyFlagToTask(chainer, Completion.N, task);
-        }
-        else if(chainer.task.completionFlag === Completion.X) {
-            // merp
+        else if(task.completionFlag$() === Completion.N && targetTask.completionFlag$() === Completion.X) {
+            // Unexclude `targetTask` if `task` is unmarked Y
+            applyFlagToTask(targetTask, Completion.N, force);
         }
     });
 }

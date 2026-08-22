@@ -4,200 +4,202 @@
     "groupName_fr": "Prélude à l'apocalypse",
     "tasks": {
         "x69543": {
-            "level": 80,
             "name_en": "Alisaie's Quest",
             "name_fr": "La quête d'Alisaie",
+            "level": 80,
             "npc_en": "Krile",
             "npc_fr": "Krile",
+            "patch": "5.4",
             "cPrev": ["q.69318"],
-            "cNext": ["q.69544"],
-            "patch": "5.4"
+            "cNext": ["q.69544"]
         },
         "x69544": {
-            "level": 80,
             "name_en": "The Wisdom of Allag",
             "name_fr": "Le savoir caché d'Allag",
+            "level": 80,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
+            "patch": "5.4",
             "cPrev": ["q.69543"],
-            "cNext": ["q.69545"],
-            "patch": "5.4"
+            "cNext": ["q.69545"]
         },
         "x69545": {
-            "level": 80,
             "name_en": "Reviving the Legacy",
             "name_fr": "L'équipe Noah reformée",
+            "level": 80,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
+            "patch": "5.4",
             "cPrev": ["q.69544"],
-            "cNext": ["q.69546"],
-            "patch": "5.4"
+            "cNext": ["q.69546"]
         },
         "x69546": {
-            "level": 80,
             "name_en": "Forget Us Not",
             "name_fr": "Le fruit de nos efforts",
+            "level": 80,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.4",
             "cPrev": ["q.69545"],
-            "cNext": ["q.69547"],
-            "patch": "5.4"
+            "cNext": ["q.69547"]
         },
         "x69547": {
-            "level": 80,
             "name_en": "Like Master, Like Pupil",
             "name_fr": "Les deux Matoya",
-            "unlock": "d.746",
+            "level": 80,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "unlock": "d.746",
+            "patch": "5.4",
             "cPrev": ["q.69546"],
             "cNext": ["q.69548"],
-            "patch": "5.4"
+            "cSiblings": ["d.746"]
         },
         "x69548": {
-            "level": 80,
             "name_en": "The Admiral's Resolve",
             "name_fr": "La résolution de l'Amirale",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.4",
             "cPrev": ["q.69547"],
-            "cNext": ["q.69549"],
-            "patch": "5.4"
+            "cNext": ["q.69549"]
         },
         "x69549": {
-            "level": 80,
             "name_en": "The Search for Sicard",
             "name_fr": "À la recherche des Bourreaux",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.4",
             "cPrev": ["q.69548"],
-            "cNext": ["q.69550"],
-            "patch": "5.4"
+            "cNext": ["q.69550"]
         },
         "x69550": {
-            "level": 80,
             "name_en": "On Rough Seas",
             "name_fr": "Le cœur en joue",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.4",
             "cPrev": ["q.69549"],
-            "cNext": ["q.69551"],
-            "patch": "5.4"
+            "cNext": ["q.69551"]
         },
         "x69551": {
-            "level": 80,
             "name_en": "The Great Ship Vylbrand",
             "name_fr": "Un navire nommé Vylbrand",
+            "level": 80,
             "npc_en": "Merlwyb",
             "npc_fr": "Merlwyb",
+            "patch": "5.4",
             "cPrev": ["q.69550"],
-            "cNext": ["q.69552"],
-            "patch": "5.4"
+            "cNext": ["q.69552"]
         },
         "x69552": {
-            "level": 80,
             "name_en": "Futures Rewritten",
             "name_fr": "Avenirs réécrits",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.4",
             "cPrev": ["q.69551"],
             "cNext": ["q.69594", "q.69620"],
-            "cSiblings": ["a.2714"],
-            "patch": "5.4"
+            "cSiblings": ["a.2714"]
         },
         "x69594": {
-            "level": 80,
             "name_en": "Unto the Breach",
             "name_fr": "Réunion de crise",
+            "level": 80,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.5",
             "cPrev": ["q.69552"],
-            "cNext": ["q.69595"],
-            "patch": "5.5"
+            "cNext": ["q.69595"]
         },
         "x69595": {
-            "level": 80,
             "name_en": "Here Be Dragons",
             "name_fr": "L'empathie du chevalier dragon",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.5",
             "cPrev": ["q.69594"],
-            "cNext": ["q.69596"],
-            "patch": "5.5"
+            "cNext": ["q.69596"]
         },
         "x69596": {
-            "level": 80,
             "name_en": "Righteous Indignation",
             "name_fr": "Un sursaut d'orgueil",
+            "level": 80,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "patch": "5.5",
             "cPrev": ["q.69595"],
-            "cNext": ["q.69597"],
-            "patch": "5.5"
+            "cNext": ["q.69597"]
         },
         "x69597": {
-            "level": 80,
             "name_en": "For Vengeance",
             "name_fr": "Vers une envolée nouvelle",
+            "level": 80,
             "npc_en": "Restrainment Node",
             "npc_fr": "Module De Contrainte",
+            "patch": "5.5",
             "cPrev": ["q.69596"],
-            "cNext": ["q.69598"],
-            "patch": "5.5"
+            "cNext": ["q.69598"]
         },
         "x69598": {
-            "level": 80,
             "name_en": "The Flames of War",
             "name_fr": "Et soudain, l'embrasement",
-            "unlock": "d.777",
+            "level": 80,
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
+            "unlock": "d.777",
+            "patch": "5.5",
             "cPrev": ["q.69597"],
             "cNext": ["q.69599"],
-            "patch": "5.5"
+            "cSiblings": ["d.777"]
         },
         "x69599": {
-            "level": 80,
             "name_en": "When the Dust Settles",
             "name_fr": "Le coût de la guerre",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.5",
             "cPrev": ["q.69598"],
             "cNext": ["q.69600"],
-            "cSiblings": ["a.2850"],
-            "patch": "5.5"
+            "cSiblings": ["a.2850"]
         },
         "x69600": {
-            "level": 80,
             "name_en": "The Company We Keep",
             "name_fr": "Sous la bannière d'Éorzéa",
+            "level": 80,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.55",
             "cPrev": ["q.69599"],
-            "cNext": ["q.69601"],
-            "patch": "5.55"
+            "cNext": ["q.69601"]
         },
         "x69601": {
-            "level": 80,
             "name_en": "On Official Business",
             "name_fr": "L'ambassadeur du savoir",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.55",
             "cPrev": ["q.69600"],
-            "cNext": ["q.69602"],
-            "patch": "5.55"
+            "cNext": ["q.69602"]
         },
         "x69602": {
-            "level": 80,
             "name_en": "Death Unto Dawn",
             "name_fr": "Aube meurtrière",
+            "level": 80,
             "npc_en": "Kan-E-Senna",
             "npc_fr": "Kan-E-Senna",
+            "unlock": "e.231",
+            "patch": "5.55",
             "cPrev": ["q.69601"],
             "cNext": ["q.69893"],
-            "cSiblings": ["a.2851", "e.231"],
-            "patch": "5.55",
-            "unlock": "e.231"
+            "cSiblings": ["a.2851", "e.231"]
         }
     }
 }

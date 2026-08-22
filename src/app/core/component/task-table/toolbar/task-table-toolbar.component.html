@@ -1,38 +1,51 @@
 <div class="task-table-toolbar">
-    <p-buttonGroup>
-        <ng-container *ngIf="totalTasks">
-            <xiv-quick-mark-overlay
-                [tasks]="tasks"
-                (onMark)="onDataChange.emit()"
-            ></xiv-quick-mark-overlay>
+    @let totalTasks = svcTable.originalTasks.length;
+    @let displayedTasks = svcTable.tasks().length;
 
-            <xiv-selection-overlay
-                [group]="group"
-                [tasks]="tasks"
-            ></xiv-selection-overlay>
+    <p-button-group>
+        <ng-template [ngTemplateOutlet]="templatePre"></ng-template>
 
-            <xiv-chain-overlay
-                [disableUndo]="group.isCustomGroup"
-            ></xiv-chain-overlay>
+        @if(totalTasks) {
+            <com-quick-mark-overlay
+                [tasks]="svcTable.tasks()"
+                (onMark)="onDataChange()"
+            ></com-quick-mark-overlay>
 
-            <xiv-table-action-overlay
-                [group]="group"
-                [tasks]="tasks"
-            ></xiv-table-action-overlay>
-        </ng-container>
+            <com-selection-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-selection-overlay>
 
-        <xiv-custom-task-overlay
-            *ngIf="group.isCustomGroup"
-            [tasks]="tasks"
-        ></xiv-custom-task-overlay>
-    </p-buttonGroup>
+            <com-chain-overlay
+                [disableUndo]="svcTable.group().isCustomGroup"
+            ></com-chain-overlay>
 
-    <span
-        *ngIf="totalTasks"
-        class="row-count"
-        tooltipPosition="bottom"
-        pTooltip="{{totalTasks - tasks.length}} {{'TABLE.HIDDEN' | translate}}"
-    >
-        {{tasks.length}} {{'TABLE.DISPLAYED' | translate}}
-    </span>
+            <com-table-action-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-table-action-overlay>
+        }
+
+        @if(svcTable.group().isCustomGroup) {
+            <com-custom-content-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-custom-content-overlay>
+            <com-merge-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-merge-overlay>
+        }
+    </p-button-group>
+
+    @if(totalTasks) {
+        <span
+            data-active-help="APP.ACTIVE_HELP.TABLE.ROW_COUNT_SUMMARY"
+            class="row-count"
+            tooltipPosition="bottom"
+            pTooltip="{{totalTasks - displayedTasks}} {{'APP.TABLE.HIDDEN' | translate}}"
+        >
+            {{displayedTasks}} {{'APP.TABLE.DISPLAYED' | translate}}
+        </span>
+    }
 </div>

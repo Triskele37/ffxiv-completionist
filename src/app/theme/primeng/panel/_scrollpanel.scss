@@ -1,11 +1,16 @@
-.p-scrollpanel {
-    .p-scrollpanel-bar {
-        background: $scrollPanelTrackBg;
-        border: $scrollPanelTrackBorder;
-        transition: $formElementTransition;
+@use "../_mixins";
+@use "../../_variables";
 
-        &:focus-visible {
-            @include focused();
+@layer primeng {
+    .p-scrollpanel {
+        .p-scrollpanel-bar {
+            background: variables.$scrollPanelTrackBg;
+            border: variables.$scrollPanelTrackBorder;
+            transition: variables.$formElementTransition;
+
+            &:focus-visible {
+                @include mixins.focused();
+            }
         }
     }
 }

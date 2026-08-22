@@ -3,20 +3,22 @@
     "compilerOptions": {
         "outDir": "../out-tsc/app",
         "module": "es2015",
-        "baseUrl": ".",
         "types": [],
         "paths": {
-            "@admin/*": ["app/admin/*"],
-            "@constant": ["app/constant"],
-            "@constant/*": ["app/constant/*"],
-            "@component/*": ["app/core/component/*"],
-            "@data": ["app/data"],
-            "@data/*": ["app/data/*"],
-            "@directive/*": ["app/core/directive/*"],
-            "@model/*": ["app/model/*"],
-            "@pipe/*": ["app/core/pipe/*"],
-            "@service/*": ["app/core/service/*"],
-            "@util/*": ["app/core/util/*"]
+            "@admin/*": ["./app/admin/*"],
+            "@constant": ["./app/constant"],
+            "@constant/*": ["./app/constant/*"],
+            "@component/*": ["./app/core/component/*"],
+            "@data": ["./app/data"],
+            "@data/*": ["./app/data/*"],
+            "@decorator/*": ["./app/core/decorator/*"],
+            "@directive/*": ["./app/core/directive/*"],
+            "@model/*": ["./app/model/*"],
+            "@pipe/*": ["./app/core/pipe/*"],
+            "@service/*": ["./app/core/service/*"],
+            "@test/*": ["./test/*"],
+            "@util/*": ["./app/core/util/*"],
+            "@view/*": ["./app/view/*"]
         }
     },
     "files": [
@@ -31,7 +33,6 @@
     ],
     "angularCompilerOptions": {
         "strictTemplates": true,
-        "fullTemplateTypeCheck": true,
         "annotateForClosureCompiler": true,
         "strictInjectionParameters": true,
         "skipTemplateCodegen": false,

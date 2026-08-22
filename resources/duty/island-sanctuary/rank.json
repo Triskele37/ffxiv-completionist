@@ -2,7 +2,7 @@
     "key": "rank",
     "groupName_en": "Rank",
     "groupName_fr": "Rang",
-    "headers": {
+    "columns": {
         "name": {
             "header_en": "Rank",
             "header_fr": "Rang"
@@ -10,6 +10,9 @@
         "unlocks": {
             "header": "@HEADER.UNLOCK",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -17,6 +20,7 @@
             "name_en": "Rank 1",
             "name_fr": "Rang 1",
             "unlocks": ["duty.island-sanctuary.crafting.tools.0", "duty.island-sanctuary.buildings.0"],
+            "patch": "6.2",
             "cNext": [1]
         },
         "x1": {
@@ -27,6 +31,7 @@
                 "duty.island-sanctuary.buildings.3",
                 "duty.island-sanctuary.buildings.7"
             ],
+            "patch": "6.2",
             "cPrev": [0],
             "cNext": [2]
         },
@@ -40,6 +45,7 @@
                 "duty.island-sanctuary.crafting.feed.2",
                 "duty.island-sanctuary.buildings.14"
             ],
+            "patch": "6.2",
             "cPrev": [1],
             "cNext": [3]
         },
@@ -52,6 +58,7 @@
                 "duty.island-sanctuary.buildings.4",
                 "duty.island-sanctuary.buildings.8"
             ],
+            "patch": "6.2",
             "cPrev": [2],
             "cNext": [4]
         },
@@ -63,6 +70,7 @@
                 "duty.island-sanctuary.crafting.tools.9",
                 "duty.island-sanctuary.buildings.11"
             ],
+            "patch": "6.2",
             "cPrev": [3],
             "cNext": [5]
         },
@@ -75,6 +83,7 @@
                 "duty.island-sanctuary.buildings.12",
                 "duty.island-sanctuary.buildings.15"
             ],
+            "patch": "6.2",
             "cPrev": [4],
             "cNext": [6]
         },
@@ -88,6 +97,7 @@
                 "duty.island-sanctuary.buildings.5",
                 "duty.island-sanctuary.buildings.9"
             ],
+            "patch": "6.2",
             "cPrev": [5],
             "cNext": [7]
         },
@@ -102,6 +112,7 @@
                 "duty.island-sanctuary.buildings.13",
                 "duty.island-sanctuary.buildings.16"
             ],
+            "patch": "6.2",
             "cPrev": [6],
             "cNext": [8]
         },
@@ -109,6 +120,7 @@
             "name_en": "Rank 9",
             "name_fr": "Rang 9",
             "unlocks": ["duty.island-sanctuary.crafting.tools.11"],
+            "patch": "6.2",
             "cPrev": [7],
             "cNext": [9]
         },
@@ -116,12 +128,14 @@
             "name_en": "Rank 10",
             "name_fr": "Rang 10",
             "unlocks": ["duty.island-sanctuary.crafting.tools.12"],
+            "patch": "6.2",
             "cPrev": [8],
             "cNext": [10]
         },
         "x10": {
             "name_en": "Rank 11",
             "name_fr": "Rang 11",
+            "patch": "6.3",
             "cPrev": [9],
             "cNext": [11]
         },
@@ -129,6 +143,7 @@
             "name_en": "Rank 12",
             "name_fr": "Rang 12",
             "unlocks": ["duty.island-sanctuary.crafting.tools.16"],
+            "patch": "6.3",
             "cPrev": [10],
             "cNext": [12]
         },
@@ -140,6 +155,7 @@
                 "duty.island-sanctuary.buildings.22",
                 "duty.island-sanctuary.buildings.26"
             ],
+            "patch": "6.4",
             "cPrev": [11],
             "cNext": [13]
         },
@@ -147,6 +163,7 @@
             "name_en": "Rank 14",
             "name_fr": "Rang 14",
             "unlocks": ["duty.island-sanctuary.buildings.24"],
+            "patch": "6.4",
             "cPrev": [12],
             "cNext": [14]
         },
@@ -154,13 +171,14 @@
             "name_en": "Rank 15",
             "name_fr": "Rang 15",
             "unlocks": ["duty.island-sanctuary.crafting.tools.17"],
+            "patch": "6.4",
             "cPrev": [13],
             "cNext": [15]
         },
         "x15": {
             "name_en": "Rank 16",
             "name_fr": "Rang 16",
-            "unlocks": ["duty.island-sanctuary.crafting.tools.18"],
+            "patch": "6.4",
             "cPrev": [14],
             "cNext": [16]
         },
@@ -172,6 +190,7 @@
                 "duty.island-sanctuary.crafting.tools.15",
                 "duty.island-sanctuary.buildings.23"
             ],
+            "patch": "6.5",
             "cPrev": [15],
             "cNext": [17]
         },
@@ -179,6 +198,7 @@
             "name_en": "Rank 18",
             "name_fr": "Rang 18",
             "unlocks": ["duty.island-sanctuary.buildings.27"],
+            "patch": "6.5",
             "cPrev": [16],
             "cNext": [18]
         },
@@ -186,12 +206,14 @@
             "name_en": "Rank 19",
             "name_fr": "Rang 19",
             "unlocks": ["duty.island-sanctuary.buildings.25"],
+            "patch": "6.5",
             "cPrev": [17],
             "cNext": [19]
         },
         "x19": {
             "name_en": "Rank 20",
             "name_fr": "Rang 20",
+            "patch": "6.5",
             "cPrev": [18]
         }
     }

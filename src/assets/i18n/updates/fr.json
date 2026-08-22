@@ -1,0 +1,123 @@
+{
+    "APP_UPDATES": {
+        "1.0.0": {
+            "ADD": [
+                "Image d'accueil au démarrage",
+                "Personnalisation du thème",
+                "Favoris de groupe et de tâche",
+                "Historique de navigation",
+                "Colonnes triables",
+                "Colonne Groupe dans toutes les vues de tâches",
+                "Générateur de tâches aléatoires pour les tâches incomplètes",
+                "Défilement virtuel pour éviter les tableaux à rendu lent",
+                "Possibilité d'exclure, de filtrer et de marquer rapidement les tâches numériques",
+                "Possibilité de masquer les lignes de résumé globales OU de groupe sélectionnées",
+                "Possibilité d'ouvrir les dossiers de configuration et de sauvegarde depuis la page des paramètres",
+                "Possibilité de sauvegarder les fichiers de configuration et de sauvegarde depuis la page des paramètres",
+                "Possibilité d'écraser la configuration et la sauvegarde active avec une sauvegarde depuis la page des paramètres",
+                "Historique de chaîne et réglage de la limite d'historique de chaîne",
+                "Statistique de poids dans les info-bulles de résumé de groupe"
+            ],
+            "CHANGE": [
+                "Refonte complète de la Recherche",
+                "Actions de ligne condensées en un menu déroulant",
+                "Groupes du menu principal condensés avec une interface à onglets",
+                "Gestion des sauvegardes et sélection de la langue déplacées dans les paramètres",
+                "Fusion automatique des tâches personnalisées déplacée dans la superposition des tâches personnalisées",
+                "Renommé \"Instructions\" en \"Guide\"",
+                "Renommé \"Historique des versions\" en \"Notes de mise à jour\"",
+                "Modification du réordonnancement des tâches personnalisées pour fonctionner avec le menu des actions de ligne"
+            ],
+            "FIX": [
+                "Les tâches exclues par défaut n'apparaissent plus comme incomplètes"
+            ]
+        },
+        "1.0.1": {
+            "ADD": [
+                "Possibilité de trier plusieurs colonnes à la fois",
+                "Possibilité de verrouiller une superposition en place",
+                "Indicateur visuel des sections complétées dans le tiroir de navigation",
+                "Indicateur visuel du nombre de tâches enchaînées dans la superposition de chaîne",
+                "Un bouton retour pour l'historique de navigation le plus récent",
+                "Ajout d'une superposition de chaîne à la vue des résultats de recherche"
+            ],
+            "FIX": [
+                "Ctrl+V effectuant automatiquement une recherche depuis n'importe quel champ de saisie",
+                "Gestion des erreurs de chargement de la configuration et des sauvegardes"
+            ]
+        },
+        "1.0.2": {
+            "ADD": [
+                "Personnalisation du nombre aléatoire et du groupe"
+            ],
+            "FIX": [
+                "Problème où les superpositions devenaient non réactives"
+            ]
+        },
+        "1.0.3": {
+            "CHANGE": [
+                "Réduction du nombre minimum de caractères pour la recherche à 2"
+            ]
+        },
+        "1.0.4": {
+            "ADD": [
+                "Bouton \"Aller au parent\" dans la barre de navigation",
+                "Affichage de la version de l'application dans la barre de titre et en bas à gauche",
+                "Option pour masquer les groupes complétés et vides de la navigation",
+                "Onglet \"Groupes\" dans la recherche de l'application",
+                "Sélection de sous-groupe via les flèches de fil d'Ariane",
+                "Paramètre \"Taille de la police\" dans le thème"
+            ],
+            "CHANGE": [
+                "Une étoile s'affiche désormais pour les groupes complétés dans le tiroir de navigation s'il n'y a aucune tâche exclue restante"
+            ],
+            "FIX": [
+                "Position de fenêtre enregistrée permettant à l'application de démarrer hors écran",
+                "Ajustement de la taille des colonnes \"Tout afficher\" pour les groupes numériques"
+            ]
+        },
+        "1.0.5": {
+            "ADD": [
+                "Ajout de l'analyse de chaîne dans le menu principal",
+                "Ajout de la vue des mises à jour dans le menu principal",
+                "Appuyer sur la touche Échap navigue désormais vers le groupe parent",
+                "Appuyer sur la touche Retour arrière navigue désormais vers le groupe précédent",
+                "Appuyer sur Entrée du pavé numérique déclenche également les recherches dans la boîte de recherche",
+                "Ajout de la possibilité de supprimer des entrées ou d'effacer entièrement l'historique",
+                "Ajout d'un paramètre pour afficher les noms de groupe longs/courts (par défaut court)"
+            ],
+            "CHANGE": [
+                "Inversion du filtre de colonne \"Mise à jour\" pour afficher les mises à jour les plus récentes en premier",
+                "Les tâches s'affichent désormais indépendamment des filtres si elles sont accédées via un lien",
+                "En raison de restrictions de sécurité, les actions qui s'ouvraient dans le navigateur copient désormais uniquement leur lien dans le presse-papiers"
+            ],
+            "FIX": [
+                "Tri maladroit du menu déroulant des filtres numériques",
+                "Tri maladroit de la colonne des mises à jour",
+                "Marquer une tâche puis la filtrer entraîne désormais le défilement automatique du tableau"
+            ]
+        },
+        "1.0.6": {
+            "ADD": [
+                "Custom Content: Groups and import/export",
+                "Chain Viewer (in task row actions)",
+                "Chain Analysis now checks all chain types",
+                "Chain History display in chain overlay with links",
+                "Shift+Click multi-selection in tables",
+                "Summary statistics in Patch View"
+            ],
+            "CHANGE": [
+                "Replaced Guide with Active Help",
+                "Improved patch selector in Patch View",
+                "Patch View now uses the full featured task table",
+                "Column filters now persist per group when changing groups",
+                "Patch Notes now distinguish between app and game data"
+            ],
+            "FIX": [
+                "Bookmarks with same name not all showing",
+                "Allowing backspace to navigate while inside input fields",
+                "Resolved issue with reload causing data to go missing"
+            ]
+        }
+    }
+}

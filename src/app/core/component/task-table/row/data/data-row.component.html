@@ -1,70 +1,37 @@
 <tr
+    class="data-row"
+    [attr.data-active-help]="task._parent.isCustomGroup ? 'APP.ACTIVE_HELP.CUSTOM_VIEW.CUSTOM_TASK_ROW' : 'APP.ACTIVE_HELP.TABLE.TASK_ROW'"
     [pReorderableRow]="rowIndex"
-    [pReorderableRowDisabled]="!dragEnabled"
-    [ngClass]="{ selected: task.selected }"
+    [pReorderableRowDisabled]="!svcTable.group().draggable || svcTable.order.debounceDrag()"
+    [ngClass]="{
+        selected: task.selected(),
+        'even-row': !svcTable.rowGroup.groupRows && rowIndex % 2 === 0
+    }"
     (click)="onClick($event)"
+    (mousedown)="onRowMouseDown($event)"
 >
     <!-- Completion Cell -->
-    <ng-container
-        *ngTemplateOutlet="task.isNumericCompletion ? numericCompletionCell : completionCell"
-    ></ng-container>
+    <com-complete-cell [task]="task"></com-complete-cell>
 
     <!-- Data Cells -->
-    <ng-container *ngFor="let column of group.columns">
-        <td class="data-cell">
-            <ng-container
-                *ngTemplateOutlet="
-                    column.editable ? editCell :
-                    column.key === 'contentLink' ? showAllLinkCell :
-                    superCell;
-                    context: { $implicit: column }"
-            ></ng-container>
-        </td>
-    </ng-container>
+    @for(column of svcTable.group().columns; track column.key) {
+        @if(column.editable) {
+            <com-edit-cell
+                [task]="task"
+                [key]="column.key"
+            ></com-edit-cell>
+        }
+        @else {
+            <com-data-cell
+                [column]="column"
+                [task]="task"
+            ></com-data-cell>
+        }
+    }
 
     <!-- Row Action Cell -->
-    <xiv-actions-cell
+    <com-actions-cell
         [task]="task"
         [rowIndex]="rowIndex"
-    ></xiv-actions-cell>
+    ></com-actions-cell>
 </tr>
-
-<!---------------------------------------------------------------------------------->
-<!--------------------------------- Cell Templates --------------------------------->
-<!---------------------------------------------------------------------------------->
-<ng-template #completionCell>
-    <xiv-complete-cell
-        [task]="task"
-        [flag]="task.completionFlag"
-        (onChange)="completionChange.emit()"
-    ></xiv-complete-cell>
-</ng-template>
-
-<ng-template #numericCompletionCell>
-    <xiv-numeric-complete-cell
-        [task]="task"
-        [value]="task.completionFlag"
-        (onChange)="completionChange.emit()"
-    ></xiv-numeric-complete-cell>
-</ng-template>
-
-<ng-template #editCell let-column>
-    <xiv-edit-cell
-        [task]="task"
-        [key]="column.key"
-    ></xiv-edit-cell>
-</ng-template>
-
-<ng-template #showAllLinkCell>
-    <xiv-content-link
-        [content]="task._parent"
-        [trimGroup]="group"
-    ></xiv-content-link>
-</ng-template>
-
-<ng-template #superCell let-column>
-    <xiv-data-cell
-        [column]="column"
-        [task]="task"
-    ></xiv-data-cell>
-</ng-template>

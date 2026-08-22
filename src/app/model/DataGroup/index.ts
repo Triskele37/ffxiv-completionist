@@ -3,19 +3,20 @@ import { Observable, Subject } from 'rxjs';
 import { CompletionFlag } from '@constant';
 import { Column } from '@model/Column';
 import { Task } from '@model/Task';
+import { ViewToken } from '@view/view-token';
 
 export type DataGroup = {
     updated$: Subject<void>;
     onUpdated$: Observable<void>;
 
     //#region--------------------------------- Identification
-    xivDataType: 'Group';
+    dataType: 'Group';
 
     _key: string;
 
     name: string;
 
-    _parent: DataGroup;
+    _parent: DataGroup | null;
 
     contentLink: string;
 
@@ -28,11 +29,20 @@ export type DataGroup = {
     //#region--------------------------------- Data
     order?: string[];
 
-    subGroups?: Map<string, DataGroup>;
+    subGroups?: Map<string, DataGroup | null>;
 
     tasks: Task[];
 
-    cCombo?; //TODO:
+    cPrev?: Task['cPrev'];
+    cPrevAt?: Task['cPrevAt'];
+    cPrevAny?: Task['cPrevAny'];
+    cNext?: Task['cNext'];
+    cSiblings?: Task['cSiblings'];
+    cSiblingsAt?: Task['cSiblingsAt'];
+    cCombo?: Task['cCombo'];
+    cComboAt?: Task['cComboAt'];
+    cExclude?: Task['cExclude'];
+    cExclusive?: Task['cExclusive'];
 
     columns?: Column[];
 
@@ -52,7 +62,7 @@ export type DataGroup = {
     //#region--------------------------------- UI
     noContent?: boolean;
 
-    component?: any;
+    component?: ViewToken;
 
     draggable?: boolean;
 

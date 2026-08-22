@@ -4,74 +4,74 @@
     "groupName_fr": "Quêtes du département d'anthropologie",
     "tasks": {
         "x69689": {
-            "level": 80,
             "name_en": "Cultured Pursuits",
             "name_fr": "Amour, recherche et culture",
+            "level": 80,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.70009"],
-            "cNext": ["q.69690"],
-            "patch": "6.0"
+            "cNext": ["q.69690"]
         },
         "x69690": {
-            "level": 80,
             "name_en": "Cooking Up a Culture",
             "name_fr": "Couleurs et épices",
+            "level": 80,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69689"],
-            "cNext": ["q.69691"],
-            "patch": "6.0"
+            "cNext": ["q.69691"]
         },
         "x69691": {
-            "level": 83,
             "name_en": "The Culture of Ceruleum",
             "name_fr": "Pas très magique, tout ça",
+            "level": 83,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69690"],
-            "cNext": ["q.69692"],
-            "patch": "6.0"
+            "cNext": ["q.69692"]
         },
         "x69692": {
-            "level": 85,
             "name_en": "The Culture of Carrots",
             "name_fr": "Une culture VRAIMENT lointaine",
+            "level": 85,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69691"],
-            "cNext": ["q.69693"],
-            "patch": "6.0"
+            "cNext": ["q.69693"]
         },
         "x69693": {
-            "level": 85,
             "name_en": "Hinageshi in Hingashi",
             "name_fr": "Les voyages perdent la jeunesse",
+            "level": 85,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69692"],
-            "cNext": ["q.69694"],
-            "patch": "6.0"
+            "cNext": ["q.69694"]
         },
         "x69694": {
-            "level": 88,
             "name_en": "The Culture of the Past",
             "name_fr": "Il était une fois la culture",
+            "level": 88,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69693"],
-            "cNext": ["q.69695"],
-            "patch": "6.0"
+            "cNext": ["q.69695"]
         },
         "x69695": {
-            "level": 90,
             "name_en": "The Culture of Love",
             "name_fr": "Sharlayan la nuit",
+            "level": 90,
             "npc_en": "Hinageshi",
             "npc_fr": "Hinageshi",
+            "patch": "6.0",
             "cPrev": ["q.69694"],
-            "cSiblings": ["a.2969"],
-            "patch": "6.0"
+            "cSiblings": ["a.2969"]
         }
     }
 }

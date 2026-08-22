@@ -1,0 +1,40 @@
+{
+    "key": "duties",
+    "groupName_en": "Duties",
+    "groupName_fr": "Missions",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "levelReq": {
+            "header_en": "Level Required",
+            "header_fr": "Niveau requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "The Forked Tower: Blood",
+            "name_fr": "Tour fourchue de la Force",
+            "levelReq": "20",
+            "patch": "7.25",
+            "cSiblings": ["a.3668"]
+        },
+        "x1": {
+            "name_en": "The Forked Tower: Magic",
+            "name_fr": "Tour fourchue de la Magie",
+            "levelReq": "40",
+            "patch": "7.55",
+            "cSiblings": ["a.4006"]
+        },
+        "x2": {
+            "name_en": "The Forked Tower: Magic (Extreme)",
+            "name_fr": "Tour fourchue de la Magie (extrême)",
+            "levelReq": "40",
+            "patch": "7.55",
+            "cSiblings": ["a.4010"]
+        }
+    }
+}

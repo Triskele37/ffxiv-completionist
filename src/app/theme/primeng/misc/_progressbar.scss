@@ -1,17 +1,21 @@
-.p-progressbar {
-    border: $progressBarBorder;
-    height: $progressBarHeight;
-    background: $progressBarBg;
-    border-radius: var(--border-radius);
+@use "../../_variables";
 
-    .p-progressbar-value {
-        border: 0 none;
-        margin: 0;
-        background: $progressBarValueBg;
-    }
+@layer primeng {
+    .p-progressbar {
+        border: variables.$progressBarBorder;
+        height: variables.$progressBarHeight;
+        background: variables.$progressBarBg;
+        border-radius: var(--border-radius);
 
-    .p-progressbar-label {
-        color: $progressBarValueTextColor;
-        line-height: $progressBarHeight;
+        .p-progressbar-value {
+            border: 0 none;
+            margin: 0;
+            background: variables.$progressBarValueBg;
+        }
+
+        .p-progressbar-label {
+            color: variables.$progressBarValueTextColor;
+            line-height: variables.$progressBarHeight;
+        }
     }
 }

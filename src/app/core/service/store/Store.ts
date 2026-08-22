@@ -2,10 +2,11 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
+import { JSONResource } from '@model/JSONResource';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
-export abstract class Store<StoreType> {
+export abstract class Store<StoreType extends JSONResource> {
     translate: TranslateService;
     primeMessage: MessageService;
     svcElectron: ElectronService;
@@ -16,7 +17,7 @@ export abstract class Store<StoreType> {
     abstract failedSummaryKey: string;
     abstract failedDetailKey: string;
 
-    data: StoreType;
+    data?: StoreType;
     updated$ = new Subject<StoreType>();
 
     protected constructor(
@@ -51,7 +52,7 @@ export abstract class Store<StoreType> {
 
         let obj = this.data;
         for(const segment of segments) {
-            if(obj[segment] === undefined) return null;
+            if(obj?.[segment] === undefined) return null;
             else obj = obj[segment];
         }
 
@@ -61,34 +62,43 @@ export abstract class Store<StoreType> {
     set(path: string, value: any): void {
         const segments = path.split('.');
         const key = segments.pop();
+        if(!key) return;
 
         let obj = this.data;
         for(const segment of segments) {
-            if(!obj[segment]) obj[segment] = {};
+            if(!obj) return;
+
+            if(!obj[segment]) (obj as any)[segment] = {};
             obj = obj[segment];
         }
 
-        obj[key] = value;
+        (obj as any)[key] = value;
 
         this.save();
     }
 
-    delete(path: string): void {
+    delete(path: string): void | null {
         const segments = path.split('.');
         const key = segments.pop();
+        if(!key) return;
 
         let obj = this.data;
         for(const segment of segments) {
+            if(!obj) return null;
+
             if(!obj[segment]) return null;
             else obj = obj[segment];
         }
 
+        if(!obj) return null;
         delete obj[key];
 
         this.save();
     }
 
     save(): void {
+        if(!this.data) return;
+
         this.updated$.next(this.data);
         this.svcElectron.sendSync(this.ipcSaveEvent, this.data);
     }

@@ -1,91 +1,95 @@
-.p-paginator {
-    background: $paginatorBg;
-    color: $paginatorTextColor;
-    border: $paginatorBorder;
-    border-width: $paginatorBorderWidth;
-    padding: $paginatorPadding;
-    border-radius: var(--border-radius);
+@use "../../_variables";
 
-    .p-paginator-first,
-    .p-paginator-prev,
-    .p-paginator-next,
-    .p-paginator-last {
-        background-color: $paginatorElementBg;
-        border: $paginatorElementBorder;
-        color: $paginatorElementIconColor;
-        min-width: $paginatorElementWidth;
-        height: $paginatorElementHeight;
-        margin: $paginatorElementMargin;
-        transition: $listItemTransition;
-        border-radius: $paginatorElementBorderRadius;
+@layer primeng {
+    .p-paginator {
+        background: variables.$paginatorBg;
+        color: variables.$paginatorTextColor;
+        border: variables.$paginatorBorder;
+        border-width: variables.$paginatorBorderWidth;
+        padding: variables.$paginatorPadding;
+        border-radius: var(--border-radius);
 
-        &:not(.p-disabled):not(.p-highlight):hover {
-            background: $paginatorElementHoverBg;
-            border-color: $paginatorElementHoverBorderColor;
-            color: $paginatorElementIconHoverColor;
-        }
-    }
+        .p-paginator-first,
+        .p-paginator-prev,
+        .p-paginator-next,
+        .p-paginator-last {
+            background-color: variables.$paginatorElementBg;
+            border: variables.$paginatorElementBorder;
+            color: variables.$paginatorElementIconColor;
+            min-width: variables.$paginatorElementWidth;
+            height: variables.$paginatorElementHeight;
+            margin: variables.$paginatorElementMargin;
+            transition: variables.$listItemTransition;
+            border-radius: variables.$paginatorElementBorderRadius;
 
-    .p-paginator-first {
-        border-top-left-radius: $paginatorElementBorderRadius;
-        border-bottom-left-radius: $paginatorElementBorderRadius;
-    }
-
-    .p-paginator-last {
-        border-top-right-radius: $paginatorElementBorderRadius;
-        border-bottom-right-radius: $paginatorElementBorderRadius;
-    }
-
-    .p-dropdown {
-        margin-left: var(--inline-spacing);
-        margin-right: var(--inline-spacing);
-        height: $paginatorElementHeight;
-
-        .p-dropdown-label {
-            padding-right: 0;
-        }
-    }
-
-    .p-paginator-page-input {
-        margin-left: var(--inline-spacing);
-        margin-right: var(--inline-spacing);
-
-        .p-inputtext {
-            max-width: $paginatorElementWidth;
-        }
-    }
-
-    .p-paginator-current {
-        background-color: $paginatorElementBg;
-        border: $paginatorElementBorder;
-        color: $paginatorElementIconColor;
-        min-width: $paginatorElementWidth;
-        height: $paginatorElementHeight;
-        margin: $paginatorElementMargin;
-        padding: 0 var(--inline-spacing);
-    }
-
-    .p-paginator-pages {
-        .p-paginator-page {
-            background-color: $paginatorElementBg;
-            border: $paginatorElementBorder;
-            color: $paginatorElementIconColor;
-            min-width: $paginatorElementWidth;
-            height: $paginatorElementHeight;
-            margin: $paginatorElementMargin;
-            transition: $listItemTransition;
-            border-radius: $paginatorElementBorderRadius;
-
-            &.p-highlight {
-                background: $highlightBg;
-                border-color: $highlightBg;
-                color: $highlightTextColor;
+            &:not(.p-disabled):not(.p-highlight):hover {
+                background: variables.$paginatorElementHoverBg;
+                border-color: variables.$paginatorElementHoverBorderColor;
+                color: variables.$paginatorElementIconHoverColor;
             }
+        }
 
-            &:not(.p-highlight):hover {
-                background: $paginatorElementHoverBg;
-                border-color: $paginatorElementHoverBorderColor;
-                color: $paginatorElementIconHoverColor;
+        .p-paginator-first {
+            border-top-left-radius: variables.$paginatorElementBorderRadius;
+            border-bottom-left-radius: variables.$paginatorElementBorderRadius;
+        }
+
+        .p-paginator-last {
+            border-top-right-radius: variables.$paginatorElementBorderRadius;
+            border-bottom-right-radius: variables.$paginatorElementBorderRadius;
+        }
+
+        .p-select {
+            margin-left: var(--inline-spacing);
+            margin-right: var(--inline-spacing);
+            height: variables.$paginatorElementHeight;
+
+            .p-select-label {
+                padding-right: 0;
+            }
+        }
+
+        .p-paginator-page-input {
+            margin-left: var(--inline-spacing);
+            margin-right: var(--inline-spacing);
+
+            .p-inputtext {
+                max-width: variables.$paginatorElementWidth;
+            }
+        }
+
+        .p-paginator-current {
+            background-color: variables.$paginatorElementBg;
+            border: variables.$paginatorElementBorder;
+            color: variables.$paginatorElementIconColor;
+            min-width: variables.$paginatorElementWidth;
+            height: variables.$paginatorElementHeight;
+            margin: variables.$paginatorElementMargin;
+            padding: 0 var(--inline-spacing);
+        }
+
+        .p-paginator-pages {
+            .p-paginator-page {
+                background-color: variables.$paginatorElementBg;
+                border: variables.$paginatorElementBorder;
+                color: variables.$paginatorElementIconColor;
+                min-width: variables.$paginatorElementWidth;
+                height: variables.$paginatorElementHeight;
+                margin: variables.$paginatorElementMargin;
+                transition: variables.$listItemTransition;
+                border-radius: variables.$paginatorElementBorderRadius;
+
+                &.p-highlight {
+                    background: variables.$highlightBg;
+                    border-color: variables.$highlightBg;
+                    color: variables.$highlightTextColor;
+                }
+
+                &:not(.p-highlight):hover {
+                    background: variables.$paginatorElementHoverBg;
+                    border-color: variables.$paginatorElementHoverBorderColor;
+                    color: variables.$paginatorElementIconHoverColor;
+                }
             }
         }
     }

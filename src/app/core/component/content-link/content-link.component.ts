@@ -1,39 +1,43 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+import { ButtonDirective } from 'primeng/button';
+import { Tooltip } from 'primeng/tooltip';
 
+import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
+import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 
-//TODO: potentially move "multiple" piece of xiv-links-cell into here
+//TODO: potentially move "multiple" piece of com-links-cell into here
 @Component({
-    selector: 'xiv-content-link',
+    selector: 'com-content-link',
     templateUrl: './content-link.component.html',
-    styleUrls: ['./content-link.component.scss']
+    styleUrls: ['./content-link.component.scss'],
+    imports: [
+        ButtonDirective,
+        ContentLinkPipe,
+        Tooltip,
+        TranslatePipe
+    ]
 })
-export class ContentLinkComponent implements OnChanges {
-    @Input() content: DataGroup | Task;
-    @Input() trimGroup: DataGroup;
-    @Input() nameOnly: boolean;
+export class ContentLinkComponent {
+    @Input({ required: true }) content!: DataGroup | Task;
+    @Input() trimGroup: DataGroup | undefined;
+    @Input() nameOnly: boolean = false;
 
-    // Used in template
-    isGroup: boolean;
-
-    constructor(private svcNavigation: NavigationService) {
-    }
-
-    ngOnChanges(changes: SimpleChanges): void {
-        if(changes.content) {
-            this.isGroup = this.content.xivDataType === 'Group';
-        }
+    constructor(
+        private svcNavigation: NavigationService,
+        private svcChainViewer: ChainViewerService,
+    ) {
     }
 
     onClickLink(): void {
-        if(this.content.xivDataType === 'Group') {
-            this.svcNavigation.setSelectedGroup(this.content);
+        if(this.content.dataType === 'Task' && this.svcChainViewer.task()) {
+            this.svcChainViewer.changeTargetTask(this.content);
         }
         else {
-            this.svcNavigation.setSelectedTask(this.content);
+            this.svcNavigation.setSelectedContent(this.content);
         }
     }
-
 }

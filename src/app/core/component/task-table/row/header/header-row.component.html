@@ -1,93 +1,86 @@
 <tr class="task-table-header">
-    <ng-container *ngTemplateOutlet="flagHeader"></ng-container>
-
-    <!-- Data Headers -->
-    <ng-container *ngFor="let column of group.columns">
-        <th [style.width.px]="column.width">
-            <div
-                class="column-name"
-                [pSortableColumn]="column.key"
-                [pSortableColumnDisabled]="group.isCustomGroup"
-            >
-                {{column.header}}
-                <p-sortIcon
-                    *ngIf="!group.isCustomGroup"
-                    [field]="column.key"
-                ></p-sortIcon>
-            </div>
-
-            <div *ngIf="column.header" class="column-filter">
-                <ng-container
-                    *ngTemplateOutlet="
-                        column.filterable ? filterableHeader : nonFilterableHeader;
-                        context: { $implicit: column }"
-                ></ng-container>
-            </div>
-        </th>
-    </ng-container>
-
-    <!-- Row Action Header -->
-    <!-- TODO: Move Table Actions Here -->
-    <th class="row-action"></th>
-</tr>
-
-<!---------------------------------------------------------------------------------->
-<!--------------------------------- Cell Templates --------------------------------->
-<!---------------------------------------------------------------------------------->
-<ng-template #flagHeader>
+    <!-- Flag Header -->
     <th
+        data-active-help="APP.ACTIVE_HELP.TABLE.COMPLETION_FILTER"
         class="completion-column"
-        [style.width.px]="hasNumericColumns ? 100 : 60"
+        [style.width.px]="svcTable.hasNumericColumns ? 100 : 60"
     >
         <i
             class="i-complete"
-            [ngClass]="{ enabled: svcFilter.completion.completed }"
-            (click)="svcFilter.onFilterCompletion(Completion.Y)"
+            [ngClass]="{ enabled: svcTable.filter.completion.completed }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.Y)"
         ></i>
 
         <i
             class="i-incomplete"
-            [ngClass]="{ enabled: svcFilter.completion.incomplete }"
-            (click)="svcFilter.onFilterCompletion(Completion.N)"
+            [ngClass]="{ enabled: svcTable.filter.completion.incomplete }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.N)"
         ></i>
 
         <br/>
 
         <i
             class="i-exclude"
-            [ngClass]="{ enabled: svcFilter.completion.excluded }"
-            (click)="svcFilter.onFilterCompletion(Completion.X)"
+            [ngClass]="{ enabled: svcTable.filter.completion.excluded }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.X)"
         ></i>
     </th>
-</ng-template>
 
-<ng-template #filterableHeader let-column>
-    <p-dropdown
-        styleClass="dropdown-filter"
-        [editable]="true"
-        [options]="uniqueValues[column.key]"
-        [showClear]="true"
-        [autoDisplayFirst]="false"
-        appendTo="body"
-        (keyup)="onFilterKeyup($event, column)"
-        (onChange)="onFilterDropdownChange($event, column)"
-    >
-        <ng-template pTemplate="item" let-item>
-            {{displayedFilterValue(item)}}
-        </ng-template>
-    </p-dropdown>
-</ng-template>
+    <!-- Data Headers -->
+    @for(column of svcTable.group().columns; track column.key) {
+        <th [style.width.px]="column.width">
+            @let helpKey = svcTable.group().isCustomGroup ? 'CUSTOM_VIEW.CUSTOM_COLUMN_NAME' : 'TABLE.COLUMN_NAME';
+            <div
+                [attr.data-active-help]="'APP.ACTIVE_HELP.' + helpKey"
+                class="column-name"
+                [pSortableColumn]="column.key"
+                [pSortableColumnDisabled]="svcTable.group().isCustomGroup"
+            >
+                {{column.header}}
+                @if(!svcTable.group().isCustomGroup) {
+                    <p-sort-icon [field]="column.key"></p-sort-icon>
+                }
+            </div>
 
-<ng-template #nonFilterableHeader let-column>
-    <input
-        class="text-filter"
-        pInputText
-        [value]="svcFilter.filters[column.key]?.value"
-        (keyup)="onFilterKeyup($event, column)"
-    />
-    <i
-        *ngIf="svcFilter.filters[column.key]?.value"
-        class="pi pi-times"
-        (click)="svcFilter.modifySearch('', column)"
-    ></i>
-</ng-template>
+            @if(column.header) {
+                <div class="column-filter">
+                    @if(column.filterable) {
+                        <p-select
+                            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_DROPDOWN"
+                            class="dropdown-filter"
+                            [editable]="true"
+                            [options]="svcTable.uniqueValues[column.key]"
+                            [showClear]="true"
+                            appendTo="body"
+                            (keyup)="onFilterKeyup($event, column)"
+                            (onChange)="onFilterDropdownChange($event, column)"
+                        >
+                            <ng-template #item let-item>
+                                {{displayedFilterValue(item)}}
+                            </ng-template>
+                        </p-select>
+                    } @else {
+                        <input
+                            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_INPUT"
+                            class="text-filter"
+                            pInputText
+                            [value]="svcTable.filter.filters[column.key]?.value ?? ''"
+                            (keyup)="onFilterKeyup($event, column)"
+                        />
+
+                        @if(svcTable.filter.filters[column.key]?.value) {
+                            <i
+                                class="pi pi-times"
+                                (click)="svcTable.filter.modifyFilter('', column)"
+                            ></i>
+                        }
+                    }
+                </div>
+            }
+        </th>
+    }
+
+    <!-- Row Action Header -->
+    <!-- TODO: Move Table Actions Here -->
+    <th class="row-action"></th>
+</tr>

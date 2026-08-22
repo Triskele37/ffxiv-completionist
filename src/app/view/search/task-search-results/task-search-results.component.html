@@ -1,92 +1,94 @@
 <div class="task-search-results-header">
-    <p-buttonGroup *ngIf="hasResults">
-        <button
-            pButton
-            [label]="'MAIN.SEARCH.' + (willCollapseAll ? 'COLLAPSE' : 'EXPAND') | translate"
-            (click)="setRowsExpanded(svcSearch.searchTaskMatches$.value, !willCollapseAll)"
-        ></button>
+    @if(hasResults) {
+        <p-button-group>
+            <button pButton (click)="setRowsExpanded(!willCollapseAll)">
+                {{'APP.SEARCH.' + (willCollapseAll ? 'COLLAPSE' : 'EXPAND') | translate}}
+            </button>
 
-        <button
-            pButton
-            [label]="'MAIN.SEARCH.' + (svcSearch.expanded ? 'SEARCH_NAME' : 'SEARCH_COLUMN') | translate"
-            (click)="expandSearch()"
-        ></button>
+            <button pButton class="expand-search-button" (click)="expandSearch()">
+                {{'APP.SEARCH.' + (svcSearch.expanded ? 'SEARCH_NAME' : 'SEARCH_COLUMN') | translate}}
+            </button>
 
-        <xiv-chain-overlay></xiv-chain-overlay>
-    </p-buttonGroup>
+            <com-chain-overlay></com-chain-overlay>
+        </p-button-group>
+    }
 </div>
 
-<div *ngIf="hasResults; else noResults" class="task-search-results-table">
-    <p-table
-        [expandedRowKeys]="expandedRows"
-        [value]="svcSearch.searchTaskMatches$ | async"
-        [scrollable]="true"
-        [ngClass]="{
-            'expanded-search': svcSearch.expanded,
-            'with-dev-keys': showKey
-        }"
-        scrollHeight="flex"
-        rowGroupMode="subheader"
-        groupRowsBy="task._parent.fullStorageKey"
-        dataKey="task._parent.fullStorageKey"
-        styleClass="p-datatable-striped"
-        (onRowCollapse)="evaluateToggleAll($event, true)"
-        (onRowExpand)="evaluateToggleAll($event, false)"
-    >
-        <ng-template pTemplate="header">
-            <tr>
-                <th>{{'MAIN.SEARCH.COMPLETE' | translate}}</th>
-                <th>{{'MAIN.SEARCH.LINK' | translate}}</th>
-                <th *ngIf="svcSearch.expanded">{{'MAIN.SEARCH.VALUE' | translate}}</th>
-                <th *ngIf="svcSearch.expanded">{{'MAIN.SEARCH.COLUMN' | translate}}</th>
-                <th *ngIf="showKey">ID</th>
-            </tr>
-        </ng-template>
-        <ng-template pTemplate="groupheader" let-match let-expanded="expanded">
-            <tr pRowGroupHeader [pRowToggler]="match">
-                <td>
-                    <p-button
-                        styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
-                        [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
-                    ></p-button>
-                </td>
-                <td [colSpan]="1 + (svcSearch.expanded ? 2 : 0) + (showKey ? 1 : 0)">
-                    <xiv-content-link [content]="match.task._parent"></xiv-content-link>
-                </td>
-            </tr>
-        </ng-template>
-        <ng-template pTemplate="rowexpansion" let-match>
-            <tr class="result-row">
-                <ng-container *ngIf="!match.task.isNumericCompletion; else numericCell">
-                    <xiv-complete-cell
+@if(hasResults) {
+    <div class="task-search-results-table">
+        <p-table
+            [expandedRowKeys]="expandedRows()"
+            [value]="svcSearch.searchTaskMatches()"
+            [scrollable]="true"
+            [ngClass]="{
+                'expanded-search': svcSearch.expanded,
+                'with-dev-keys': showKey()
+            }"
+            scrollHeight="flex"
+            rowGroupMode="subheader"
+            groupRowsBy="task._parent.fullStorageKey"
+            dataKey="task.fullStorageKey"
+            class="p-datatable-striped"
+            (onRowCollapse)="evaluateToggleAll()"
+            (onRowExpand)="evaluateToggleAll()"
+        >
+            <ng-template #header>
+                <tr>
+                    <th>{{'APP.SEARCH.COMPLETE' | translate}}</th>
+                    <th>{{'APP.SEARCH.LINK' | translate}}</th>
+                    @if(svcSearch.expanded) {
+                        <th>{{'APP.SEARCH.VALUE' | translate}}</th>
+                        <th>{{'APP.SEARCH.COLUMN' | translate}}</th>
+                    }
+                    @if(showKey()) {
+                        <th>ID</th>
+                    }
+                </tr>
+            </ng-template>
+            <ng-template #groupheader let-match let-expanded="expanded">
+                <tr pRowGroupHeader [pRowToggler]="match">
+                    <td>
+                        @let icon = expanded ? 'pi-chevron-down' : 'pi-chevron-right';
+                        <button
+                            pButton
+                            class="p-button-text p-button-rounded p-button-plain p-mr-2"
+                        >
+                            <span class="pi {{icon}}"></span>
+                        </button>
+                    </td>
+                    <td [colSpan]="1 + (svcSearch.expanded ? 2 : 0) + (showKey() ? 1 : 0)">
+                        <com-content-link [content]="match.task._parent"></com-content-link>
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template #expandedrow let-match>
+                <tr class="result-row">
+                    <com-complete-cell
                         [task]="match.task"
-                        [flag]="match.task.completionFlag"
-                    ></xiv-complete-cell>
-                </ng-container>
-                <ng-template #numericCell>
-                    <xiv-numeric-complete-cell
-                        [task]="match.task"
-                        [value]="match.task.completionFlag"
-                    ></xiv-numeric-complete-cell>
-                </ng-template>
+                    ></com-complete-cell>
 
-                <td>
-                    <xiv-content-link
-                        [content]="match.task"
-                        [nameOnly]="true"
-                    ></xiv-content-link>
-                </td>
-                <td *ngIf="svcSearch.expanded">{{match.value}}</td>
-                <td *ngIf="svcSearch.expanded">{{match.header}}</td>
-                <td *ngIf="showKey">
-                    <p-button label="Copy" (onClick)="onCopyPathClick(match)"></p-button>
-                    {{match.task.fullStorageKey.substr(8)}}
-                </td>
-            </tr>
-        </ng-template>
-    </p-table>
-</div>
-
-<ng-template #noResults>
-    <span>{{'MAIN.SEARCH.NO_RESULTS' | translate}}</span>
-</ng-template>
+                    <td>
+                        <com-content-link
+                            [content]="match.task"
+                            [nameOnly]="true"
+                        ></com-content-link>
+                    </td>
+                    @if(svcSearch.expanded) {
+                        <td>{{match.value}}</td>
+                        <td>{{match.header}}</td>
+                    }
+                    @if(showKey()) {
+                        <td>
+                            <button pButton (click)="onCopyPathClick(match)">
+                                Copy
+                            </button>
+                            {{match.task.fullStorageKey.substr(8)}}
+                        </td>
+                    }
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+} @else {
+    <span>{{'APP.SEARCH.NO_RESULTS' | translate}}</span>
+}

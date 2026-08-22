@@ -1,137 +1,137 @@
 {
     "key": "labyrinthos",
-    "groupName": "@PLACE.LABYRINTHOS",
+    "groupName": "@PLACE.EW.LABYRINTHOS",
     "tasks": {
         "x1743": {
-            "level": 80,
             "name_en": "Incident Files: Seeds of Chaos",
             "name_fr": "Rapport de dégâts : végétaux létaux",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33.6, 14.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1745": {
-            "level": 80,
             "name_en": "Homecrawling",
             "name_fr": "Le mal du pays",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16.2, 6.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1747": {
-            "level": 80,
             "name_en": "Bite the Pellet",
             "name_fr": "La révolution de la chaîne alimentaire",
+            "level": 80,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23.3, 11.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1749": {
-            "level": 80,
             "name_en": "Let It Grow",
             "name_fr": "Défi : l'abominable blob des neiges",
+            "level": 80,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31.6, 8.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1744": {
-            "level": 81,
             "name_en": "Incident Files: Steamed Vegetable",
             "name_fr": "Rapport de dégâts : la fleur du mal",
+            "level": 81,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(29.7, 25.1)",
-            "patch": "6.0",
-            "previousFate": "f.1743",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.1743",
+            "patch": "6.0"
         },
         "x1746": {
-            "level": 81,
             "name_en": "The Hills Are Alive",
             "name_fr": "Drôles de frimousses",
+            "level": 81,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(28.6, 8.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1748": {
-            "level": 81,
             "name_en": "Breakfast, Lunch, and Dinner",
             "name_fr": "22, v'là les poulets !",
+            "level": 81,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30.1, 21.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1750": {
-            "level": 81,
             "name_en": "Acid in Flight, Shepherd's Fright",
             "name_fr": "Toxique dans les prés",
+            "level": 81,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(14.4, 9.4)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "6.0"
         },
         "x1751": {
-            "level": 85,
             "name_en": "Incident Files: Elemental Attraction",
             "name_fr": "Rapport de dégâts : cristal recherche élément désespérément",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23.6, 31.8)",
-            "patch": "6.0",
-            "previousFate": "f.1744",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1744",
+            "patch": "6.0"
         },
         "x1752": {
-            "level": 85,
             "name_en": "Incident Files: Ice of the Tiger",
             "name_fr": "Rapport de dégâts : cryomutation",
+            "level": 85,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18.1, 38.4)",
-            "patch": "6.0",
-            "previousFate": "f.1751",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.1751",
+            "patch": "6.0"
         },
         "x1753": {
-            "level": 88,
             "name_en": "Residual Complications",
             "name_fr": "Danger radiation !",
+            "level": 88,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(6.3, 31.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1754": {
-            "level": 88,
             "name_en": "Moisture Farming",
             "name_fr": "Il faut souffrir pour avoir une belle peau",
+            "level": 88,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(22.9, 35.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         },
         "x1755": {
-            "level": 88,
             "name_en": "Wasted XIV",
             "name_fr": "Pollution gélatineuse",
+            "level": 88,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(9.3, 35.8)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1756": {
-            "level": 88,
             "name_en": "Empty the Nest",
             "name_fr": "L'attaque des doblyns irradiés",
+            "level": 88,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24.1, 23.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "6.0"
         },
         "x1757": {
-            "level": 88,
             "name_en": "The Frailty of Life",
             "name_fr": "Défi : Fraelissa l'insatiable",
+            "level": 88,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(11.8, 19.9)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "6.0"
         },
         "x1758": {
-            "level": 88,
             "name_en": "Sheaves on the Wind",
             "name_fr": "Aux quatre vents",
+            "level": 88,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(8.3, 24.0)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "6.0"
         }
     }
 }

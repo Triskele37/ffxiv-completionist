@@ -12,6 +12,7 @@ import { ElectronService } from '@service/electron/electron.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { JSONResource } from '@model/JSONResource';
 
 @Injectable({
     providedIn: 'root'
@@ -37,8 +38,12 @@ export class DataService {
         this.data.subGroups.set('bookmarks', null);
         this.data.subGroups.set('custom', null);
 
-        this.data.order.forEach((subGroupKey) => {
+        this.data.order?.forEach((subGroupKey) => {
+            if(!this.data.subGroups) return;
+
             const subGroup = fromDefinition(this.data, subGroupKey);
+            if(!subGroup) return;
+
             this.data.subGroups.set(subGroup._key, subGroup);
         });
     }
@@ -63,9 +68,11 @@ export class DataService {
 }
 
 function diveForSave(group: DataGroup): any {
-    const subGroupOrTasks = {};
+    const subGroupOrTasks: JSONResource = {};
 
     group.subGroups?.forEach((subGroup) => {
+        if(!subGroup) return;
+
         // Don't save anything from bookmarks
         if(subGroup.isBookmarkGroup) return;
 
@@ -74,8 +81,8 @@ function diveForSave(group: DataGroup): any {
 
     group.tasks?.forEach((task) => {
         // Task doesn't need to be written if it is its default
-        if(task.defaultCompletion !== task.completionFlag) {
-            subGroupOrTasks[task.storageKey] = task.completionFlag;
+        if(task.defaultCompletion !== task.completionFlag$()) {
+            subGroupOrTasks[task.storageKey] = task.completionFlag$();
         }
     });
 
@@ -84,6 +91,8 @@ function diveForSave(group: DataGroup): any {
 
 function diveForLoad(group: DataGroup, storeGroup: any): void {
     group.subGroups?.forEach((subGroup) => {
+        if(!subGroup) return;
+
         if(storeGroup[subGroup.storageKey]) {
             diveForLoad(subGroup, storeGroup[subGroup.storageKey]);
         }
