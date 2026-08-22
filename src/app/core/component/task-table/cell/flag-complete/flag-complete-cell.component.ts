@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 import { Completion } from '@constant';
+import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { MarkService } from '@service/mark/mark.service';
 import { TableService } from '@service/table/table.service';
@@ -17,6 +18,7 @@ export class FlagCompleteCellComponent {
     @Input() rowSpan?: number;
 
     constructor(
+        private svcChain: ChainService,
         private svcData: DataService,
         private svcMark: MarkService,
         private svcTable: TableService,
@@ -25,7 +27,7 @@ export class FlagCompleteCellComponent {
 
     onTaskCompleteClick(): void {
         const flag = this.task.completionFlag$() === Completion.Y ? Completion.N : Completion.Y;
-        this.svcMark.changeCompletion(this.task, flag, true);
+        this.svcChain.current.changeCompletion(this.task, flag, true);
         this.changeCompletion();
     }
 

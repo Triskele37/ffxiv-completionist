@@ -9,10 +9,10 @@ export function applyMetNumberToTask(
     chainTask: Task,
 ): void {
     if(!chainTask.isNumericCompletion) { // "at" threshold met, must be Y
-        this.svcMark.changeCompletion(chainTask, Completion.Y);
+        this.current.changeCompletion(chainTask, Completion.Y);
     }
     else if(parseInt(num, 10) > parseInt(chainTask.completionFlag$(), 10)) {
         // only apply increases in completion number
-        this.svcMark.changeCompletion(chainTask, num);
+        this.current.changeCompletion(chainTask, num);
     }
 }

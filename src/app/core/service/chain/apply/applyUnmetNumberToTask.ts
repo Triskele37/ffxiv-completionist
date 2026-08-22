@@ -10,13 +10,13 @@ export function applyUnmetNumberToTask(
     siblings: number,
 ): void {
     if(!chainTask.isNumericCompletion) { // "at" threshold not met, must be N
-        this.svcMark.changeCompletion(chainTask, Completion.N);
+        this.current.changeCompletion(chainTask, Completion.N);
     }
     else if(siblings === 1) {
         // cannot assume which sibling should be lowered
         if(parseInt(num, 10) < parseInt(chainTask.completionFlag$(), 10)) {
             // only apply decreases in completion number
-            this.svcMark.changeCompletion(chainTask, num);
+            this.current.changeCompletion(chainTask, num);
         }
     }
 }

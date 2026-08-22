@@ -21,7 +21,7 @@ export function chainUnlock(
     this.svcData.get.getTasks(task.cUnlock, task).forEach((unlockTask) => {
         this.svcData.get.getTasks(unlockTask.cPrev, unlockTask).forEach((unlockPrevTask) => {
             if(unlockPrevTask.isNumericCompletion) {
-                this.svcMark.changeCompletion(unlockPrevTask, originalFlag);
+                this.current.changeCompletion(unlockPrevTask, originalFlag);
             }
             else {
                 this.apply.applyFlagToTask(unlockPrevTask, originalFlag, force);

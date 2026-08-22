@@ -1,7 +1,7 @@
 import { CompletionFlag } from '@constant';
 import { Task } from '@model/Task';
 
-import { MarkServiceContext } from '../types';
+import { ChainServiceContext } from '../types';
 
 /**
  * Update `task.completionFlag$` and apply chaining
@@ -9,7 +9,7 @@ import { MarkServiceContext } from '../types';
  * @returns boolean - indicating whether the task was chained
  * */
 export function changeCompletion(
-    this: MarkServiceContext,
+    this: ChainServiceContext,
     task: Task,
     to: CompletionFlag,
     firstInChain?: boolean
@@ -23,11 +23,11 @@ export function changeCompletion(
 
     // Dodge all of this if chaining is disabled
     if(!this.svcConfig.get('chaining-enabled')) {
-        this.setCompletion(task, to);
+        this.svcMark.setCompletion(task, to);
         return false;
     }
-    else if(this.svcChain.current.shouldChain(task, firstInChain, to)) {
-        this.svcChain.current.chainTask(task, firstInChain, to);
+    else if(this.current.shouldChain(task, firstInChain, to)) {
+        this.current.chainTask(task, firstInChain, to);
         return true;
     }
 

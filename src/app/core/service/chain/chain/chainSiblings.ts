@@ -20,7 +20,7 @@ export function chainSiblings(
 
     this.svcData.get.getTasks(task.cSiblings, task).forEach((task) => {
         if(task.isNumericCompletion) {
-            this.svcMark.changeCompletion(task, originalFlag);
+            this.current.changeCompletion(task, originalFlag);
         }
         else {
             this.apply.applyFlagToTask(task, originalFlag, force);

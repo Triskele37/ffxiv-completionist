@@ -166,7 +166,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     setAsStartingZone(exclusive: Task, pre: Task): void {
         // Toggle the flag to trigger chaining
-        this.svcMark.changeCompletion(exclusive, Completion.Y, true);
+        this.svcChain.current.changeCompletion(exclusive, Completion.Y, true);
         this.svcMark.setCompletion(exclusive, Completion.N);
 
         // Undo the cPrev chain
@@ -222,9 +222,9 @@ export class CharacterSettingsComponent implements OnInit {
         }
 
         // firstInChain must be true for the first zone to be cleared
-        this.svcMark.changeCompletion(gridania, Completion.N, true);
-        this.svcMark.changeCompletion(limsa, Completion.N);
-        this.svcMark.changeCompletion(uldah, Completion.N);
+        this.svcChain.current.changeCompletion(gridania, Completion.N, true);
+        this.svcChain.current.changeCompletion(limsa, Completion.N);
+        this.svcChain.current.changeCompletion(uldah, Completion.N);
     }
 
     //#endregion

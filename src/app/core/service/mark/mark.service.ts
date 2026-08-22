@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import { ChainService } from '@service/chain/chain.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-import { changeCompletion } from './methods/changeCompletion';
 import { setCompletion } from './methods/setCompletion';
 import { setCompletionFlag } from './methods/setCompletionFlag';
 import { setCompletionNumber } from './methods/setCompletionNumber';
@@ -12,17 +10,19 @@ import { getDefaultNumericCompletion } from './methods/getDefaultNumericCompleti
 
 import { MarkServiceContext } from './types';
 
+/**
+ * Service for simple completion marking
+ * - CANNOT depend on chain service (circular)
+ * */
 @Injectable({
     providedIn: 'root'
 })
 export class MarkService implements MarkServiceContext {
     constructor(
-        public svcChain: ChainService,
         public svcConfig: ConfigStoreService,
     ) {
     }
 
-    changeCompletion: MarkServiceContext['changeCompletion'] = changeCompletion.bind(this);
     setCompletion: MarkServiceContext['setCompletion'] = setCompletion.bind(this);
     setCompletionFlag: MarkServiceContext['setCompletionFlag'] = setCompletionFlag.bind(this);
     setCompletionNumber: MarkServiceContext['setCompletionNumber'] = setCompletionNumber.bind(this);

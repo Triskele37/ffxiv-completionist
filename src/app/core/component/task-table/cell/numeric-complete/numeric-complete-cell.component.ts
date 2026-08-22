@@ -4,7 +4,7 @@ import { InputNumber } from 'primeng/inputnumber';
 import { Tooltip } from 'primeng/tooltip';
 
 import { Completion } from '@constant';
-import { MarkService } from '@service/mark/mark.service';
+import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { TableService } from '@service/table/table.service';
 import { Task } from '@model/Task';
@@ -36,8 +36,8 @@ export class NumericCompleteCellComponent implements OnChanges {
     tooltip: string | undefined;
 
     constructor(
+        private svcChain: ChainService,
         private svcData: DataService,
-        private svcMark: MarkService,
         private svcTable: TableService,
     ) {
     }
@@ -59,7 +59,7 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        this.svcMark.changeCompletion(this.task, this.value, true);
+        this.svcChain.current.changeCompletion(this.task, this.value, true);
         this.svcData.apply.dataToStore();
 
         // onBlur and rebinding value can't happen in the same tick

@@ -13,6 +13,6 @@ export function applyFlagToTask(
     const isDefaultExcluded = chainTask.defaultCompletion === Completion.X;
 
     if(!isExcluded || isDefaultExcluded || force) {
-        this.svcMark.changeCompletion(chainTask, flag);
+        this.current.changeCompletion(chainTask, flag);
     }
 }

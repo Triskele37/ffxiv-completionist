@@ -1,4 +1,5 @@
 import type { ChainServiceContext } from '../types';
+import { changeCompletion } from './changeCompletion';
 import { chainTask } from './chainTask';
 import { hasChainProps } from './hasChainProps';
 import { shouldChain } from './shouldChain';
@@ -10,6 +11,7 @@ export type ChainCurrentFacet = ReturnType<typeof createCurrentFacet>;
 
 export function createCurrentFacet(this: ChainServiceContext) {
     return {
+        changeCompletion: changeCompletion.bind(this),
         chainTask: chainTask.bind(this),
         hasChainProps: hasChainProps.bind(this),
         shouldChain: shouldChain.bind(this),

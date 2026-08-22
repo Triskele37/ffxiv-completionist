@@ -3,8 +3,8 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
 import { Completion } from '@constant';
+import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
-import { MarkService } from '@service/mark/mark.service';
 import { Task } from '@model/Task';
 
 import { Overlay } from '../Overlay';
@@ -49,8 +49,8 @@ export class QuickMarkOverlayComponent extends Overlay {
     S = 'S' as const;
 
     constructor(
+        private svcChain: ChainService,
         private svcData: DataService,
-        private svcMark: MarkService,
     ) {
         super();
     }
@@ -75,7 +75,7 @@ export class QuickMarkOverlayComponent extends Overlay {
                         flag: task.completionFlag$() as Completion
                     });
 
-                    firstInChain = !this.svcMark.changeCompletion(
+                    firstInChain = !this.svcChain.current.changeCompletion(
                         task,
                         actualToFlag,
                         firstInChain
@@ -100,7 +100,7 @@ export class QuickMarkOverlayComponent extends Overlay {
         let first = true;
         history.tasks.forEach((changed) => {
             if(changed.task.completionFlag$() !== changed.flag) {
-                first = !this.svcMark.changeCompletion(
+                first = !this.svcChain.current.changeCompletion(
                     changed.task,
                     changed.flag,
                     first
