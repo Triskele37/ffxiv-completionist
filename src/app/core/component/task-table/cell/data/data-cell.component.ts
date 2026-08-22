@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, ViewChild, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
@@ -32,6 +32,9 @@ const PRE_LINK_POST_REGEX = /^([^.]*)\b([a-z]+[a-z0-9-]*\.[a-z0-9-.]+)\b([^.]*)$
     ]
 })
 export class DataCellComponent implements OnChanges {
+    private svcData = inject(DataService);
+    svcTable = inject(TableService);
+
     @Input({ required: true }) column!: Column;
     @Input({ required: true }) task!: Task;
     @Input() value?: string;
@@ -43,12 +46,6 @@ export class DataCellComponent implements OnChanges {
 
     isOverlayLocked: boolean = false;
     @ViewChild('linkPopover') linkPopover: Popover | undefined;
-
-    constructor(
-        private svcData: DataService,
-        public svcTable: TableService
-    ) {
-    }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.task?.currentValue) {

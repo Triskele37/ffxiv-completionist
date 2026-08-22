@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { Divider } from 'primeng/divider';
@@ -37,11 +37,10 @@ type UiUpdate = {
     styleUrls: ['./patch-notes.component.scss']
 })
 export class PatchNotesComponent implements OnInit {
+    svcTranslate = inject(TranslateService);
+
     appUpdates: UiUpdate[] = [];
     gameUpdates: UiUpdate[] = [];
-
-    constructor(public svcTranslate: TranslateService) {
-    }
 
     ngOnInit() {
         this.appUpdates = this.getPatches('APP_UPDATES');

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
@@ -9,8 +9,6 @@ import { InputText } from 'primeng/inputtext';
 import { Tooltip } from 'primeng/tooltip';
 
 import { ThemeService } from '@service/theme/theme.service';
-
-import { SettingsService } from '../settings.service';
 
 @Component({
     selector: 'com-theme-settings',
@@ -28,13 +26,9 @@ import { SettingsService } from '../settings.service';
     ],
 })
 export class ThemeSettingsComponent implements OnInit {
-    gradients?: string[];
+    svcTheme = inject(ThemeService);
 
-    constructor(
-        public svcSettings: SettingsService,
-        public svcTheme: ThemeService
-    ) {
-    }
+    gradients?: string[];
 
     ngOnInit(): void {
         this.updateGradient();

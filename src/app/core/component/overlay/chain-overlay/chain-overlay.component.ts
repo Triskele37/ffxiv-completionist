@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, effect, computed } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, effect, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Badge } from 'primeng/badge';
@@ -32,16 +32,16 @@ import { Overlay } from '../Overlay';
     ]
 })
 export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestroy {
+    private svcData = inject(DataService);
+    private svcNavigation = inject(NavigationService);
+    svcChain = inject(ChainService);
+
     @Input() disableUndo?: boolean;
 
     undoVerified = signal(false);
     doNotify = signal(false);
 
-    constructor(
-        private svcData: DataService,
-        private svcNavigation: NavigationService,
-        public svcChain: ChainService,
-    ) {
+    constructor() {
         super();
 
         // Enable the badge notification when new chain occurs

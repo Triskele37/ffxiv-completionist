@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -26,19 +26,16 @@ import { Status } from '@service/search/SearchTypes';
     ]
 })
 export class SearchBarComponent {
+    private svcData = inject(DataService);
+    private svcMainMenu = inject(MainMenuService);
+    svcNavigation = inject(NavigationService);
+    svcSearch = inject(SearchService);
+
     // double bound, no signal
     searchTerm: string = '';
 
     @ViewChild('searchBar') searchBar: ElementRef | undefined;
     @ViewChild('searchInput') searchInput: ElementRef | undefined;
-
-    constructor(
-        private svcData: DataService,
-        private svcMainMenu: MainMenuService,
-        public svcNavigation: NavigationService,
-        public svcSearch: SearchService,
-    ) {
-    }
 
     // Make Ctrl+F to focus the search input
     @HostListener('window:keydown', ['$event'])

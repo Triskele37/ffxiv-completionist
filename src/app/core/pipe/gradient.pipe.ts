@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform, inject } from '@angular/core';
 
 import { Task } from '@model/Task';
 import { ThemeService } from '@service/theme/theme.service';
@@ -7,8 +7,7 @@ import { ThemeService } from '@service/theme/theme.service';
     name: 'gradient'
 })
 export class GradientPipe implements PipeTransform {
-    constructor(private svcTheme: ThemeService) {
-    }
+    private svcTheme = inject(ThemeService);
 
     // completionFlag$ not used directly so that pipe transforms on value change
     transform(task: Task, value: string): string {

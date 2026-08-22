@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Subject } from 'rxjs';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -12,6 +12,9 @@ import { AnySetting, BoolSetting, NumberSetting, Settings, StringSetting } from 
     providedIn: 'root'
 })
 export class SettingsService {
+    private svcConfigStore = inject(ConfigStoreService);
+    private svcSaveStore = inject(SaveStoreService);
+
     settings: Settings = {
         storeName: { key: 'store-name' },
         storeLocation: { key: 'store-loc' },
@@ -32,10 +35,7 @@ export class SettingsService {
 
     onChainingEnabled$ = new Subject<void>();
 
-    constructor(
-        private svcConfigStore: ConfigStoreService,
-        private svcSaveStore: SaveStoreService,
-    ) {
+    constructor() {
         const load = (obj: any) => {
             if(obj.key) {
                 obj.value = this.getSetting(obj);

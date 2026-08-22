@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Checkbox } from 'primeng/checkbox';
@@ -17,7 +17,5 @@ import { SettingsService } from "../settings.service";
     templateUrl: './completion-settings.component.html'
 })
 export class CompletionSettingsComponent {
-    constructor(public svcSettings: SettingsService) {
-    }
-
+    svcSettings = inject(SettingsService);
 }

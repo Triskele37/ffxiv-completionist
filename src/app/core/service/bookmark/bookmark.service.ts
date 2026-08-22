@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Subject } from 'rxjs';
 
 import { DataService } from '@service/data/data-service';
@@ -15,14 +15,14 @@ import { SaveStoreService } from '@service/store/save-store.service';
     providedIn: 'root'
 })
 export class BookmarkService {
+    private svcData = inject(DataService);
+    private svcSave = inject(SaveStoreService);
+
     group: DataGroup;
 
     onGroupUpdated$ = new Subject<void>();
 
-    constructor(
-        private svcData: DataService,
-        private svcSave: SaveStoreService
-    ) {
+    constructor() {
         const group = this.svcData.loader.loadGroupShallow(this.svcData.data, 'bookmarks');
 
         if(group) {

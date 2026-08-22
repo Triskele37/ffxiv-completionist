@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { AsyncSubject } from 'rxjs';
 
@@ -21,16 +21,16 @@ import { DataServiceContext } from './types';
     providedIn: 'root'
 })
 export class DataService implements DataServiceContext {
+    svcTranslate = inject(TranslateService);
+    svcElectron = inject(ElectronService);
+    svcConfig = inject(ConfigStoreService);
+    svcMark = inject(MarkService);
+    svcSave = inject(SaveStoreService);
+
     data: DataServiceContext['data'];
     whenLoaded$: DataServiceContext['whenLoaded$'] = new AsyncSubject<void>();
 
-    constructor(
-        public svcTranslate: TranslateService,
-        public svcElectron: ElectronService,
-        public svcConfig: ConfigStoreService, // needs to be here to load lang right
-        public svcMark: MarkService,
-        public svcSave: SaveStoreService,
-    ) {
+    constructor() {
         this.data = initializeData.call(this);
     }
 

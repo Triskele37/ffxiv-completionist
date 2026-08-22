@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
@@ -20,17 +20,17 @@ import { CustomGroupMetaMap, CustomTaskMetaMap } from './CustomContentTypes';
     providedIn: 'root'
 })
 export class CustomContentService {
+    private translate = inject(TranslateService);
+    private svcData = inject(DataService);
+    private svcMessage = inject(MessageService);
+    private svcElectron = inject(ElectronService);
+    private svcSaveStore = inject(SaveStoreService);
+
     group: DataGroup;
 
     onGroupUpdated$ = new Subject<void>();
 
-    constructor(
-        private translate: TranslateService,
-        private svcData: DataService,
-        private svcMessage: MessageService,
-        private svcElectron: ElectronService,
-        private svcSaveStore: SaveStoreService
-    ) {
+    constructor() {
         const group = this.svcData.loader.loadGroupShallow(this.svcData.data, 'custom');
 
         if(group) {

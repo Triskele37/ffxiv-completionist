@@ -1,4 +1,4 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, OnInit, signal, inject } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonDirective } from 'primeng/button';
@@ -42,15 +42,12 @@ type ShortLong = {
     styleUrls: ['./character-settings.component.scss']
 })
 export class CharacterSettingsComponent implements OnInit {
-    constructor(
-        private translate: TranslateService,
-        private svcChain: ChainService,
-        private svcData: DataService,
-        private svcElectron: ElectronService,
-        private svcMark: MarkService,
-        public svcSettings: SettingsService,
-    ) {
-    }
+    private translate = inject(TranslateService);
+    private svcChain = inject(ChainService);
+    private svcData = inject(DataService);
+    private svcElectron = inject(ElectronService);
+    private svcMark = inject(MarkService);
+    svcSettings = inject(SettingsService);
 
     ngOnInit(): void {
         const LANGUAGES = 'APP.SETTING.LANGUAGE';

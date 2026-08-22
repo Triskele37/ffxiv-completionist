@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 
@@ -14,17 +14,18 @@ import { SaveStore } from './Store.d';
     providedIn: 'root'
 })
 export class SaveStoreService extends Store<SaveStore> {
+    private svcConfigStore = inject(ConfigStoreService);
+
     ipcGetEvent = IPC_EVENT.GET_SAVE;
     ipcSaveEvent = IPC_EVENT.SET_SAVE;
     failedSummaryKey = 'APP.TOAST.SAVE_FAILED_SUMMARY';
     failedDetailKey = 'APP.TOAST.SAVE_FAILED_DETAIL';
 
-    constructor(
-        translate: TranslateService,
-        primeMessage: MessageService,
-        svcElectron: ElectronService,
-        private svcConfigStore: ConfigStoreService
-    ) {
+    constructor() {
+        const translate = inject(TranslateService);
+        const primeMessage = inject(MessageService);
+        const svcElectron = inject(ElectronService);
+
         super(translate, primeMessage, svcElectron);
 
         const successful = this.load();

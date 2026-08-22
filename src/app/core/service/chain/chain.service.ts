@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { DataService } from '@service/data/data-service';
@@ -15,18 +15,15 @@ import { ChainServiceContext } from './types';
     providedIn: 'root'
 })
 export class ChainService implements ChainServiceContext {
+    svcConfig = inject(ConfigStoreService);
+    svcData = inject(DataService);
+    svcMark = inject(MarkService);
+
     force: boolean = false;
 
     chainedTaskCount: ChainServiceContext['chainedTaskCount'] = signal(0);
     chainedGroups: ChainServiceContext['chainedGroups'] = signal([]);
     chainStart: ChainServiceContext['chainStart'] = signal(null);
-
-    constructor(
-        public svcConfig: ConfigStoreService,
-        public svcData: DataService,
-        public svcMark: MarkService,
-    ) {
-    }
 
     readonly apply: ChainApplyFacet = createApplyFacet.call(this);
     readonly chain: ChainChainFacet = createChainFacet.call(this);

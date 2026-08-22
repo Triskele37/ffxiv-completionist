@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 
 import { DataService } from '@service/data/data-service';
 import { DataGroup } from '@model/DataGroup';
@@ -10,17 +10,17 @@ import { ConfigStoreService } from '@service/store/config-store.service';
     providedIn: 'root'
 })
 export class NavigationService {
+    private svcData = inject(DataService);
+    private svcMainMenu = inject(MainMenuService);
+    private svcConfig = inject(ConfigStoreService);
+
     breadcrumbs = signal<string[]>(['main-menu']);
     selectedGroup = signal<DataGroup | null>(null);
     selectedTask = signal<Task | null>(null);
     groupHistory = signal<DataGroup[]>([]);
     allTaskViewEnabled = signal(false);
 
-    constructor(
-        private svcData: DataService,
-        private svcMainMenu: MainMenuService,
-        private svcConfig: ConfigStoreService
-    ) {
+    constructor() {
         // Load previous breadcrumb state
         const initialBreadcrumbs = this.svcConfig.get('last-breadcrumbs') as string[];
         if(initialBreadcrumbs) {

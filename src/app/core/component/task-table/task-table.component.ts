@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges, TemplateRef, ViewChild } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges, TemplateRef, ViewChild, inject } from '@angular/core';
 import { Table } from 'primeng/table';
 
 import { DataGroup } from '@model/DataGroup';
@@ -29,6 +29,10 @@ import { GroupRowComponent } from './row/group/group-row.component';
     ]
 })
 export class TaskTableComponent implements OnInit, OnChanges {
+    private svcNavigation = inject(NavigationService);
+    private svcSaveStore = inject(SaveStoreService);
+    svcTable = inject(TableService);
+
     @Input({ required: true }) set group(value: DataGroup) {
         this.svcTable.property.setGroup(value);
     };
@@ -48,13 +52,6 @@ export class TaskTableComponent implements OnInit, OnChanges {
     readonly rowHeight: number = 36;
     targetTaskScrollTo: string = '';
     boundVirtualOnScroll = this.onVirtualScrollerScroll.bind(this);
-
-    constructor(
-        private svcNavigation: NavigationService,
-        private svcSaveStore: SaveStoreService,
-        public svcTable: TableService,
-    ) {
-    }
 
     @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
         if(!ref) return;

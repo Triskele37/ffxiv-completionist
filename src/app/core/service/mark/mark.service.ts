@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
@@ -18,10 +18,7 @@ import { MarkServiceContext } from './types';
     providedIn: 'root'
 })
 export class MarkService implements MarkServiceContext {
-    constructor(
-        public svcConfig: ConfigStoreService,
-    ) {
-    }
+    svcConfig = inject(ConfigStoreService);
 
     setCompletion: MarkServiceContext['setCompletion'] = setCompletion.bind(this);
     setCompletionFlag: MarkServiceContext['setCompletionFlag'] = setCompletionFlag.bind(this);

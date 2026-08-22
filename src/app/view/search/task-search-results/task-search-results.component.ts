@@ -1,4 +1,4 @@
-import { Component, effect, OnDestroy, OnInit, signal } from '@angular/core';
+import { Component, effect, OnDestroy, OnInit, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
@@ -33,6 +33,9 @@ import { ExpandedRows } from '@service/table/rowGroup/_types';
     ],
 })
 export class TaskSearchResultsComponent implements OnInit, OnDestroy {
+    svcConfigStore = inject(ConfigStoreService);
+    svcSearch = inject(SearchService);
+
     private storeSub?: Subscription;
 
     showKey = signal(false);
@@ -42,10 +45,7 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
 
     hasResults?: boolean;
 
-    constructor(
-        public svcConfigStore: ConfigStoreService,
-        public svcSearch: SearchService
-    ) {
+    constructor() {
         effect(() => {
             const taskMatches = this.svcSearch.searchTaskMatches()
             this.hasResults = !!taskMatches;

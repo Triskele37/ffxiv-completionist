@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges, signal } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
@@ -21,6 +21,10 @@ import { NavigationService } from '@service/navigation/navigation.service';
     ]
 })
 export class SummaryLineComponent implements OnChanges {
+    private translate = inject(TranslateService);
+    private svcData = inject(DataService);
+    private svcNavigation = inject(NavigationService);
+
     @Input({ required: true }) group!: DataGroup;
     @Input() isBig: boolean = false;
     @Input() showGroup: boolean = false;
@@ -28,13 +32,6 @@ export class SummaryLineComponent implements OnChanges {
     subscription: Subscription | undefined;
     percentComplete = signal<string | null>(null);
     tooltip = signal('');
-
-    constructor(
-        private translate: TranslateService,
-        private svcData: DataService,
-        private svcNavigation: NavigationService
-    ) {
-    }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {

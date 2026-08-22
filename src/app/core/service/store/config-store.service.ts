@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
@@ -20,11 +20,11 @@ export class ConfigStoreService extends Store<ConfigStore> {
 
     navSettingUpdated$ = new Subject<void>();
 
-    constructor(
-        translate: TranslateService,
-        primeMessage: MessageService,
-        svcElectron: ElectronService,
-    ) {
+    constructor() {
+        const translate = inject(TranslateService);
+        const primeMessage = inject(MessageService);
+        const svcElectron = inject(ElectronService);
+
         super(translate, primeMessage, svcElectron);
         this.load();
     }

@@ -1,14 +1,4 @@
-import {
-    Component,
-    EventEmitter,
-    Input,
-    OnChanges,
-    OnInit,
-    Output,
-    signal,
-    SimpleChanges,
-    ViewChild
-} from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output, signal, SimpleChanges, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MenuItem } from 'primeng/api';
 import { TieredMenu, TieredMenuToggleEvent } from 'primeng/tieredmenu';
@@ -25,6 +15,8 @@ import { DataGroup } from '@model/DataGroup';
     ]
 })
 export class GroupSelectorComponent implements OnInit, OnChanges {
+    private svcData = inject(DataService);
+
     @Input() group?: DataGroup;
     @Input() menuEvent?: TieredMenuToggleEvent;
     @Input() omitGroup?: DataGroup;
@@ -35,11 +27,6 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
 
     groupMenuItems = signal<MenuItem[]>([]);
     isFirstClick = true;
-
-    constructor(
-        private svcData: DataService
-    ) {
-    }
 
     _menu: TieredMenu | undefined;
     @ViewChild('menu', { static: false }) set menu(ref: TieredMenu) {

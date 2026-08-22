@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, signal } from '@angular/core';
+import { Component, EventEmitter, Input, Output, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
@@ -36,6 +36,9 @@ type TaskHistory = {
     ]
 })
 export class QuickMarkOverlayComponent extends Overlay {
+    private svcChain = inject(ChainService);
+    private svcData = inject(DataService);
+
     @Input({ required: true }) tasks!: Task[];
     @Output() onMark = new EventEmitter<void>();
 
@@ -47,13 +50,6 @@ export class QuickMarkOverlayComponent extends Overlay {
     N = Completion.N;
     X = Completion.X;
     S = 'S' as const;
-
-    constructor(
-        private svcChain: ChainService,
-        private svcData: DataService,
-    ) {
-        super();
-    }
 
     /**
      * Change all tasks with 'from' flag to 'to' flag

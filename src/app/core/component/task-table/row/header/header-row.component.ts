@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { SelectChangeEvent } from 'primeng/select';
 import { InputText } from 'primeng/inputtext';
@@ -22,12 +22,9 @@ import { TableService } from '@service/table/table.service';
     ]
 })
 export class HeaderRowComponent {
-    Completion = Completion;
+    svcTable = inject(TableService);
 
-    constructor(
-        public svcTable: TableService
-    ) {
-    }
+    Completion = Completion;
 
     displayedFilterValue(filterValue: string): string {
         switch(filterValue) {

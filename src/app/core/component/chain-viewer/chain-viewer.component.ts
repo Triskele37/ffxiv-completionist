@@ -1,4 +1,4 @@
-import { Component, Input, signal } from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
@@ -25,15 +25,12 @@ import { ContentLinkComponent } from '@component/content-link/content-link.compo
     ]
 })
 export class ChainViewerComponent {
+    svcChainViewer = inject(ChainViewerService);
+
     @Input({ required: true }) task!: Task;
 
     inputMaxDepth = 3;
     maxDepth = signal(this.inputMaxDepth);
-
-    constructor(
-        public svcChainViewer: ChainViewerService,
-    ) {
-    }
 
     updateMaxDepth(): void {
         this.maxDepth.set(this.inputMaxDepth);

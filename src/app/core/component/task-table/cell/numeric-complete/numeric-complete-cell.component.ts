@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InputNumber } from 'primeng/inputnumber';
 import { Tooltip } from 'primeng/tooltip';
@@ -26,6 +26,10 @@ import { PercentagePipe } from '@pipe/percentage.pipe';
     ]
 })
 export class NumericCompleteCellComponent implements OnChanges {
+    private svcChain = inject(ChainService);
+    private svcData = inject(DataService);
+    private svcTable = inject(TableService);
+
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) value!: string;
     @Input() rowSpan?: number;
@@ -34,13 +38,6 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     step: number | undefined;
     tooltip: string | undefined;
-
-    constructor(
-        private svcChain: ChainService,
-        private svcData: DataService,
-        private svcTable: TableService,
-    ) {
-    }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.task) {

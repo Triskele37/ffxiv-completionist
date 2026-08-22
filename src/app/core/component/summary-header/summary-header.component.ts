@@ -1,4 +1,4 @@
-import { Component, effect, OnInit, signal } from '@angular/core';
+import { Component, effect, OnInit, signal, inject } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { ContextMenu } from 'primeng/contextmenu';
 
@@ -21,6 +21,9 @@ enum Lines {
     ]
 })
 export class SummaryHeaderComponent implements OnInit {
+    private svcData = inject(DataService);
+    svcNavigation = inject(NavigationService);
+
     // Group given to the 1st summary line
     allData: DataGroup | undefined;
 
@@ -39,10 +42,7 @@ export class SummaryHeaderComponent implements OnInit {
         }
     ];
 
-    constructor(
-        private svcData: DataService,
-        public svcNavigation: NavigationService
-    ) {
+    constructor() {
         effect(() => this.onSelectedGroupChange());
     }
 

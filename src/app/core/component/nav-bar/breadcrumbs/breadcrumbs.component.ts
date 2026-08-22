@@ -1,4 +1,4 @@
-import { Component, effect, OnInit, signal } from '@angular/core';
+import { Component, effect, OnInit, signal, inject } from '@angular/core';
 import { KeyValuePipe, NgClass } from '@angular/common';
 import { Popover } from 'primeng/popover';
 
@@ -27,13 +27,13 @@ export type Breadcrumb = {
     ]
 })
 export class BreadcrumbsComponent implements OnInit {
+    private svcCustomContent = inject(CustomContentService);
+    svcNavigation = inject(NavigationService);
+
     selectedCrumb = signal<Breadcrumb | null>(null);
     breadcrumbs = signal<Breadcrumb[]>([]);
 
-    constructor(
-        private svcCustomContent: CustomContentService,
-        public svcNavigation: NavigationService
-    ) {
+    constructor() {
         effect(() => this.setComputedBreadcrumbs());
     }
 

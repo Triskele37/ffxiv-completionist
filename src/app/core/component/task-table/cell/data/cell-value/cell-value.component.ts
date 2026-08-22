@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, signal, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, signal, SimpleChanges, ViewChild, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { Tooltip } from 'primeng/tooltip';
 
@@ -20,6 +20,8 @@ import { LinkData } from '../LinkData';
     ]
 })
 export class CellValueComponent {
+    svcTable = inject(TableService);
+
     @Input({ required: true }) column!: Column;
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) value!: LinkData;
@@ -27,11 +29,6 @@ export class CellValueComponent {
     tooltip = signal<string | undefined>(undefined);
 
     isTextOnly: boolean = false;
-
-    constructor(
-        public svcTable: TableService
-    ) {
-    }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.column || changes.task) {

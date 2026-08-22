@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, ViewChild, inject } from '@angular/core';
 import { Textarea } from 'primeng/textarea';
 
 import { Task } from '@model/Task';
@@ -13,6 +13,8 @@ import { CustomContentService } from '@service/custom-content/custom-content.ser
     ]
 })
 export class EditCellComponent {
+    private svcCustomContent = inject(CustomContentService);
+
     @Input({ required: true }) task!: Task;
     @Input() key: string = '';
 
@@ -29,11 +31,6 @@ export class EditCellComponent {
                 ref.nativeElement.focus();
             }
         }
-    }
-
-    constructor(
-        private svcCustomContent: CustomContentService,
-    ) {
     }
 
     onCellClick(): void {

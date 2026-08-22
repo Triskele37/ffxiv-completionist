@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
@@ -21,8 +21,8 @@ import { NavigationService } from '@service/navigation/navigation.service';
     ]
 })
 export class HistoryOverlayComponent {
-    constructor(public svcNavigation: NavigationService) {
-    }
+    svcNavigation = inject(NavigationService);
+
 
     clearHistory(): void {
         this.svcNavigation.clearHistory();

@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnDestroy, signal, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, signal, SimpleChanges, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
@@ -28,6 +28,11 @@ import { Overlay } from '../Overlay';
     ]
 })
 export class TableActionOverlayComponent extends Overlay implements OnChanges, OnDestroy {
+    private svcBookmark = inject(BookmarkService);
+    private svcData = inject(DataService);
+    svcConfigStore = inject(ConfigStoreService);
+    svcTable = inject(TableService);
+
     @Input({ required: true }) group!: DataGroup;
     @Input({ required: true }) tasks!: Task[];
 
@@ -37,12 +42,7 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
     isDev = signal(false);
     isAddTaskVisible: boolean = false; // double bound, no signal
 
-    constructor(
-        private svcBookmark: BookmarkService,
-        private svcData: DataService,
-        public svcConfigStore: ConfigStoreService,
-        public svcTable: TableService,
-    ) {
+    constructor() {
         super();
         this.isDev.set(this.svcConfigStore.data?.isAdmin ?? false);
     }

@@ -1,4 +1,4 @@
-import { Component, computed } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from 'primeng/tabs';
 
@@ -25,10 +25,9 @@ import { GroupSearchResultsComponent } from './group-search-results/group-search
     ],
 })
 export class SearchComponent {
-    Status = Status;
+    svcSearch = inject(SearchService);
 
-    constructor(public svcSearch: SearchService) {
-    }
+    Status = Status;
 
     taskMatches = computed(() => this.svcSearch.searchTaskMatches().length);
     groupMatches = computed(() => this.svcSearch.searchGroupMatches().length);

@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform, inject } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
 import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
@@ -11,8 +11,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
     name: 'shouldShowSummaryGroup'
 })
 export class ShouldShowSummaryGroupPipe implements PipeTransform {
-    constructor(private svcConfig: ConfigStoreService) {
-    }
+    private svcConfig = inject(ConfigStoreService);
 
     transform(group: DataGroup | null): boolean {
         if(!group) return false;

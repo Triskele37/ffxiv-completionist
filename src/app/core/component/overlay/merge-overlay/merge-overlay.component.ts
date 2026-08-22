@@ -1,4 +1,4 @@
-import { Component, Input, signal } from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -36,6 +36,11 @@ import { Overlay } from '../Overlay';
     ]
 })
 export class MergeOverlayComponent extends Overlay {
+    private svcData = inject(DataService);
+    private svcChain = inject(ChainService);
+    private svcSearch = inject(SearchService);
+    svcCustomContent = inject(CustomContentService);
+
     @Input({ required: true }) group!: DataGroup;
     @Input({ required: true }) tasks!: Task[];
     isMergeVisible = signal(false);
@@ -49,15 +54,6 @@ export class MergeOverlayComponent extends Overlay {
     currentMergeIsFirstInChain: boolean = false;
     mergeIndex: number = 0;
     tasksToRemove: Task[] = [];
-
-    constructor(
-        private svcData: DataService,
-        private svcChain: ChainService,
-        private svcSearch: SearchService,
-        public svcCustomContent: CustomContentService,
-    ) {
-        super();
-    }
 
     onMouseEnter(): void {
         if(Overlay.anyOverlayLocked) return;

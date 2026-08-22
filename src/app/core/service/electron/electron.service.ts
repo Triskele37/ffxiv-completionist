@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { AsyncSubject } from 'rxjs';
@@ -22,14 +22,14 @@ const SHIM_EVENTS: IPC_EVENT[] = [
     providedIn: 'root'
 })
 export class ElectronService {
+    private svcMessage = inject(MessageService);
+    private translate = inject(TranslateService);
+
     appReady$ = new AsyncSubject<void>();
 
     ipcRenderer?: typeof ipcRenderer;
 
-    constructor(
-        private svcMessage: MessageService,
-        private translate: TranslateService,
-    ) {
+    constructor() {
         // Conditional imports
         if(this.isElectron) {
             this.ipcRenderer = window.require('electron').ipcRenderer;

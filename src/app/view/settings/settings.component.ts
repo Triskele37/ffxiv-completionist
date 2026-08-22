@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from 'primeng/tabs';
 
@@ -27,8 +27,5 @@ import { SettingsService } from './settings.service';
     styleUrls: ['./settings.component.scss']
 })
 export class SettingsComponent {
-    constructor(
-        private svcSettings: SettingsService
-    ) {
-    }
+    private svcSettings = inject(SettingsService);
 }

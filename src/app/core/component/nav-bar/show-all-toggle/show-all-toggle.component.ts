@@ -1,4 +1,4 @@
-import { Component, effect, signal } from '@angular/core';
+import { Component, effect, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -19,9 +19,11 @@ import { NavigationService } from '@service/navigation/navigation.service';
     ]
 })
 export class ShowAllToggleComponent {
+    svcNavigation = inject(NavigationService);
+
     isShowAllVisible = signal(false);
 
-    constructor(public svcNavigation: NavigationService) {
+    constructor() {
         effect(() => {
             this.onSelectedGroupChange(this.svcNavigation.selectedGroup());
         });

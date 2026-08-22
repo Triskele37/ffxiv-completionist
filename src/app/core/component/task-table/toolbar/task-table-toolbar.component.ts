@@ -1,4 +1,4 @@
-import { Component, Input, TemplateRef } from '@angular/core';
+import { Component, Input, TemplateRef, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonGroup } from 'primeng/buttongroup';
@@ -31,12 +31,9 @@ import { TableService } from '@service/table/table.service';
     ]
 })
 export class TaskTableToolbarComponent {
-    @Input() templatePre?: TemplateRef<any>;
+    svcTable = inject(TableService);
 
-    constructor(
-        public svcTable: TableService,
-    ) {
-    }
+    @Input() templatePre?: TemplateRef<any>;
 
     onDataChange(): void {
         this.svcTable.filter.updateFilteredTasks();

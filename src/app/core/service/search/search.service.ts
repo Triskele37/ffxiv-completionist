@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataService } from '@service/data/data-service';
@@ -17,6 +17,9 @@ import { SearchServiceContext } from './types';
     providedIn: 'root'
 })
 export class SearchService implements SearchServiceContext{
+    svcTranslate = inject(TranslateService);
+    svcData = inject(DataService);
+
     searchTerm?: string;
     expanded?: boolean;
 
@@ -24,12 +27,6 @@ export class SearchService implements SearchServiceContext{
     searchError = signal<string | null>(null);
     searchTaskMatches = signal<Match[]> ([]);
     searchGroupMatches = signal<GroupMatch[]>([]);
-
-    constructor(
-        public svcTranslate: TranslateService,
-        public svcData: DataService
-    ) {
-    }
 
     doAppSearch: ReturnType<typeof doAppSearch> = doAppSearch.call(this);
     searchGroups: ReturnType<typeof searchGroups> = searchGroups.call(this);

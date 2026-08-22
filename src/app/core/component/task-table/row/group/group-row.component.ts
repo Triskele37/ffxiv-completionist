@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { ButtonDirective } from 'primeng/button';
 import { RowGroupHeader, RowToggler } from 'primeng/table';
 
@@ -18,12 +18,9 @@ import { TableService } from '@service/table/table.service';
     ]
 })
 export class GroupRowComponent {
+    svcTable = inject(TableService);
+
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) expanded!: boolean;
-
-    constructor(
-        public svcTable: TableService,
-    ) {
-    }
 
 }

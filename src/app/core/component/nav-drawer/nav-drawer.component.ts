@@ -1,4 +1,4 @@
-import { Component, effect, OnInit, signal, untracked, ViewChild } from '@angular/core';
+import { Component, effect, OnInit, signal, untracked, ViewChild, inject } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { PanelMenu } from 'primeng/panelmenu';
 import { Tooltip } from 'primeng/tooltip';
@@ -26,17 +26,17 @@ import { ViewToken } from '@view/view-token';
     ]
 })
 export class NavDrawerComponent implements OnInit {
+    private svcBookmark = inject(BookmarkService);
+    private svcConfig = inject(ConfigStoreService);
+    private svcCustomContent = inject(CustomContentService);
+    private svcData = inject(DataService);
+    private svcMainMenu = inject(MainMenuService);
+    svcNavigation = inject(NavigationService);
+
     // Making this a signal breaks the app
     items = signal<MenuItem[]>([]);
 
-    constructor(
-        private svcBookmark: BookmarkService,
-        private svcConfig: ConfigStoreService,
-        private svcCustomContent: CustomContentService,
-        private svcData: DataService,
-        private svcMainMenu: MainMenuService,
-        public svcNavigation: NavigationService
-    ) {
+    constructor() {
         // Collapse all groups not in the direct path of the selected group
         effect(() => this.onSelectedGroupChange());
     }

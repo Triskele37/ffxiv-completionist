@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit, signal, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { MenuItem } from 'primeng/api';
@@ -31,6 +31,9 @@ import { sortPatchStrings } from '@model/util/sortPatchStrings';
     ]
 })
 export class PatchViewComponent implements OnInit, OnDestroy {
+    private svcData = inject(DataService);
+    private translate = inject(TranslateService);
+
     patchMenuItem = signal<MenuItem[]>([]);
     isFirstClick: boolean = true;
 
@@ -42,21 +45,18 @@ export class PatchViewComponent implements OnInit, OnDestroy {
         isUiGroup: true
     }));
 
-    constructor(
-        private svcData: DataService,
-        private translate: TranslateService,
-    ) {
+    constructor() {
         this.buildPatchMenu();
         this.patchViewGroup.update((group) => {
             group.columns = [
                 {
                     key: 'contentLink',
-                    header: translate.instant('APP.SEARCH.LINK'),
+                    header: this.translate.instant('APP.SEARCH.LINK'),
                     taskLink: true,
                 },
                 {
                     key: 'parentContentLink',
-                    header: translate.instant('APP.TABLE.GROUP'),
+                    header: this.translate.instant('APP.TABLE.GROUP'),
                     groupLink: true,
                     filterable: true,
                 }

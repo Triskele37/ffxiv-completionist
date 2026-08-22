@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { ReorderableRow } from 'primeng/table';
 
@@ -24,13 +24,10 @@ import { TableService } from '@service/table/table.service';
     ]
 })
 export class DataRowComponent {
+    svcTable = inject(TableService);
+
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
-
-    constructor(
-        public svcTable: TableService,
-    ) {
-    }
 
     onClick($event: MouseEvent): void {
         if(!this.parentHasClass($event.target as Element, 'noSelect')) {

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -22,15 +22,12 @@ import { NavigationService } from '@service/navigation/navigation.service';
     ]
 })
 export class ContentLinkComponent {
+    private svcNavigation = inject(NavigationService);
+    private svcChainViewer = inject(ChainViewerService);
+
     @Input({ required: true }) content!: DataGroup | Task;
     @Input() trimGroup: DataGroup | undefined;
     @Input() nameOnly: boolean = false;
-
-    constructor(
-        private svcNavigation: NavigationService,
-        private svcChainViewer: ChainViewerService,
-    ) {
-    }
 
     onClickLink(): void {
         if(this.content.dataType === 'Task' && this.svcChainViewer.task()) {

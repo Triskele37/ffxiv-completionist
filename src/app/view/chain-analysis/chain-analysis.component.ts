@@ -1,4 +1,4 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, OnInit, signal, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -42,18 +42,15 @@ import { SettingsService } from '@view/settings/settings.service';
     styleUrls: ['./chain-analysis.component.scss']
 })
 export class ChainAnalysisComponent implements OnInit {
+    private svcData = inject(DataService);
+    private svcChain = inject(ChainService);
+    private svcChainViewer = inject(ChainViewerService);
+    svcSettings = inject(SettingsService);
+    svcTable = inject(TableService);
+
     constraints: ChainConstraint[] = [];
     issues: ChainIssue[] = [];
     isLoading = signal(false);
-
-    constructor(
-        private svcData: DataService,
-        private svcChain: ChainService,
-        private svcChainViewer: ChainViewerService,
-        public svcSettings: SettingsService,
-        public svcTable: TableService,
-    ) {
-    }
 
     ngOnInit() {
         this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);

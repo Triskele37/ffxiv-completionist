@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
@@ -35,6 +35,8 @@ type Modifier = {
     ]
 })
 export class ChainViewerNodeComponent implements OnChanges {
+    private svcData = inject(DataService);
+
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) remainingDepth!: number;
     @Input({ required: true }) direction!: 'left' | 'root' | 'right';
@@ -46,11 +48,6 @@ export class ChainViewerNodeComponent implements OnChanges {
     chainGraphExcludes: ChainNode[] = [];
 
     showSiblings: boolean = true;
-
-    constructor(
-        private svcData: DataService
-    ) {
-    }
 
     ngOnChanges(changes: SimpleChanges) {
         if(changes.task || changes.remainingDepth) this.setChainGraphs();

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, OnDestroy, signal } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -31,6 +31,9 @@ import { GarlandActionComponent } from './garland/garland-action.component';
     ]
 })
 export class ActionsCellComponent implements OnInit, OnDestroy {
+    private svcConfigStore = inject(ConfigStoreService);
+    private svcChainViewer = inject(ChainViewerService);
+
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
 
@@ -39,10 +42,7 @@ export class ActionsCellComponent implements OnInit, OnDestroy {
     showCopyId = signal(false);
     expanded = signal(false);
 
-    constructor(
-        private svcConfigStore: ConfigStoreService,
-        private svcChainViewer: ChainViewerService,
-    ) {
+    constructor() {
         this.showCopyId.set(this.svcConfigStore.data?.isAdmin ?? false);
     }
 

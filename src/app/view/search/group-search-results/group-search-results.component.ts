@@ -1,4 +1,4 @@
-import { Component, effect } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { Table } from 'primeng/table';
@@ -19,9 +19,11 @@ import { SearchService } from '@service/search/search.service';
     styleUrls: ['./group-search-results.component.scss']
 })
 export class GroupSearchResultsComponent {
+    svcSearch = inject(SearchService);
+
     hasResults?: boolean;
 
-    constructor(public svcSearch: SearchService) {
+    constructor() {
         effect(() => {
             this.hasResults = !!this.svcSearch.searchGroupMatches().length;
         });

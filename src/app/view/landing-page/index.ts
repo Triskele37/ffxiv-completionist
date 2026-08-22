@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
@@ -14,8 +14,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
     ]
 })
 export class LandingPageComponent {
-    constructor(private svcNavigation: NavigationService) {
-    }
+    private svcNavigation = inject(NavigationService);
 
     onPatchNotesClick(): void {
         this.svcNavigation.setBreadcrumbs(['main-menu', 'patch-notes']);

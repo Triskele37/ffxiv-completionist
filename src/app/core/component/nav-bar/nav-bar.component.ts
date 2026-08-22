@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, inject } from '@angular/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 
@@ -24,8 +24,8 @@ import { ShowAllToggleComponent } from './show-all-toggle/show-all-toggle.compon
     ]
 })
 export class NavBarComponent {
-    constructor(public svcNavigation: NavigationService) {
-    }
+    svcNavigation = inject(NavigationService);
+
 
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {

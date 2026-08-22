@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
@@ -18,6 +18,12 @@ import * as TableType from './types';
 
 @Injectable()
 export class TableService implements TableType.TableServiceContext {
+    svcConfig = inject(ConfigStoreService);
+    svcCustomContent = inject(CustomContentService);
+    svcData = inject(DataService);
+    svcNavigation = inject(NavigationService);
+    svcSearch = inject(SearchService);
+
     group = signal<DataGroup>(createDummyGroup());
     originalTasks: Task[] = [];
     tasks = signal<Task[]>([]);
@@ -25,13 +31,7 @@ export class TableService implements TableType.TableServiceContext {
 
     hasNumericColumns = false;
 
-    constructor(
-        public svcConfig: ConfigStoreService,
-        public svcCustomContent: CustomContentService,
-        public svcData: DataService,
-        public svcNavigation: NavigationService,
-        public svcSearch: SearchService,
-    ) {
+    constructor() {
         this.filter.initContext();
     }
 

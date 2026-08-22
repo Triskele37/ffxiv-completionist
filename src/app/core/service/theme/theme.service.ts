@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
@@ -8,6 +8,8 @@ import { HSB, HSL, RGB } from './ThemeTypes';
     providedIn: 'root'
 })
 export class ThemeService {
+    private svcConfig = inject(ConfigStoreService);
+
     root: HTMLElement | null;
 
     // These are all loaded in via config for initial set, just assume exists
@@ -25,7 +27,7 @@ export class ThemeService {
 
     backgroundColorHsb!: HSB;
 
-    constructor(private svcConfig: ConfigStoreService) {
+    constructor() {
         this.root = document.querySelector(':root');
 
         this.loadPrimaryColor();

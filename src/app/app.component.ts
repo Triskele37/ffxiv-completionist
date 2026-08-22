@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, inject } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Toast } from 'primeng/toast';
@@ -39,24 +39,21 @@ import { ThemeService } from '@service/theme/theme.service';
     ]
 })
 export class AppComponent implements OnInit, AfterViewInit {
+    private translate = inject(TranslateService);
+    private svcElectron = inject(ElectronService);
+    private svcData = inject(DataService);
+    private svcBookmark = inject(BookmarkService);
+    private svcCustomContent = inject(CustomContentService);
+    private svcSaveStore = inject(SaveStoreService);
+    private svcTheme = inject(ThemeService);
+    private svcChain = inject(ChainService);
+    svcChainViewer = inject(ChainViewerService);
+
     loading: boolean = true;
     modalText: string = 'Loading...';
     version: string = '';
 
     activeHelpEnabled = false;
-
-    constructor(
-        private translate: TranslateService,
-        private svcElectron: ElectronService,
-        private svcData: DataService,
-        private svcBookmark: BookmarkService,
-        private svcCustomContent: CustomContentService,
-        private svcSaveStore: SaveStoreService,
-        private svcTheme: ThemeService, // inits theme
-        private svcChain: ChainService, // inits chain
-        public svcChainViewer: ChainViewerService,
-    ) {
-    }
 
     ngOnInit(): void {
         try {

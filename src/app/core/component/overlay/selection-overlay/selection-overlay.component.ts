@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
@@ -24,13 +24,11 @@ import { Overlay } from '../Overlay';
     ]
 })
 export class SelectionOverlayComponent extends Overlay {
+    private svcElectron = inject(ElectronService);
+
     @Input({ required: true }) group!: DataGroup;
     @Input({ required: true }) tasks!: Task[];
     @Output() selectChange = new EventEmitter<void>();
-
-    constructor(private svcElectron: ElectronService) {
-        super();
-    }
 
     getSelectedItemResultIds(): number[] {
         return this.tasks

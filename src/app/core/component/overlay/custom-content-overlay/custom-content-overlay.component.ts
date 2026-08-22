@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, signal } from '@angular/core';
+import { Component, Input, OnInit, signal, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
@@ -39,6 +39,10 @@ type SelectFor = 'moveGroup' | 'duplicateGroup' | 'moveTasks';
     ]
 })
 export class CustomContentOverlayComponent extends Overlay implements OnInit {
+    private svcData = inject(DataService);
+    private svcNavigation = inject(NavigationService);
+    svcCustomContent = inject(CustomContentService);
+
     @Input({ required: true }) group!: DataGroup;
     @Input({ required: true }) tasks!: Task[];
 
@@ -54,14 +58,6 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     // Oopsie deletion prevention flags
     verifyGroupDelete: boolean = false;
     verifyTasksDelete: boolean = false;
-
-    constructor(
-        private svcData: DataService,
-        private svcNavigation: NavigationService,
-        public svcCustomContent: CustomContentService,
-    ) {
-        super();
-    }
 
     ngOnInit() {
         this.menuGroup = { ...this.svcCustomContent.group };

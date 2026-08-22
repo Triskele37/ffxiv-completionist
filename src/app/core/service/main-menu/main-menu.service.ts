@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataGroup } from '@model/DataGroup';
@@ -12,12 +12,12 @@ import { ViewToken } from '@view/view-token';
     providedIn: 'root'
 })
 export class MainMenuService {
+    private translate = inject(TranslateService);
+    private svcData = inject(DataService);
+
     data: DataGroup;
 
-    constructor(
-        private translate: TranslateService,
-        private svcData: DataService,
-    ) {
+    constructor() {
         this.data = this.svcData.group.createDataGroup({
             key: 'main-menu',
             groupName: this.translate.instant('APP.NAME'),

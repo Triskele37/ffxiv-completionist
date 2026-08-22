@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Checkbox } from 'primeng/checkbox';
@@ -19,8 +19,7 @@ import { SettingsService } from '../settings.service';
     templateUrl: './chain-settings.component.html'
 })
 export class ChainSettingsComponent {
-    constructor(public svcSettings: SettingsService) {
-    }
+    svcSettings = inject(SettingsService);
 
     onChainingEnabledChange(): void {
         this.svcSettings.onChangeBoolSetting(this.svcSettings.settings.chainingEnabled);

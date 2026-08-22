@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 
 import { Completion } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
@@ -14,16 +14,13 @@ import { Task } from '@model/Task';
     imports: []
 })
 export class FlagCompleteCellComponent {
+    private svcChain = inject(ChainService);
+    private svcData = inject(DataService);
+    private svcMark = inject(MarkService);
+    private svcTable = inject(TableService);
+
     @Input({ required: true }) task!: Task;
     @Input() rowSpan?: number;
-
-    constructor(
-        private svcChain: ChainService,
-        private svcData: DataService,
-        private svcMark: MarkService,
-        private svcTable: TableService,
-    ) {
-    }
 
     onTaskCompleteClick(): void {
         const flag = this.task.completionFlag$() === Completion.Y ? Completion.N : Completion.Y;

@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit, signal } from '@angular/core';
+import { Component, HostListener, OnInit, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DebounceListener } from '@decorator/DebounceListener';
@@ -10,11 +10,10 @@ import { DebounceListener } from '@decorator/DebounceListener';
     imports: []
 })
 export class ActiveHelpComponent implements OnInit {
+    private translate = inject(TranslateService);
+
     activeHelpSummary = signal('');
     activeHelpDetail = signal('');
-
-    constructor(private translate: TranslateService) {
-    }
 
     ngOnInit() {
         this.setActiveHelp('APP.ACTIVE_HELP.ACTIVE_HELP.NO_SELECTION');

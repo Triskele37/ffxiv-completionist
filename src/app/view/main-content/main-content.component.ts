@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, effect, signal, ViewChild, WritableSignal } from '@angular/core';
+import { Component, effect, signal, ViewChild, WritableSignal, inject } from '@angular/core';
 import { KeyValuePipe } from '@angular/common';
 import { Divider } from 'primeng/divider';
 
@@ -30,12 +30,11 @@ import { getComponentFromToken } from '@view/getComponentFromToken';
     ]
 })
 export class MainContentComponent {
+    svcNavigation = inject(NavigationService);
+
     previousSelectedGroup: WritableSignal<DataGroup | null> = signal(null);
 
-    constructor(
-        private cdr: ChangeDetectorRef,
-        public svcNavigation: NavigationService
-    ) {
+    constructor() {
         effect(() => this.onSelectedGroupChange());
     }
 

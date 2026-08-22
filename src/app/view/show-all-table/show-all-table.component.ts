@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { TaskTableComponent } from '@component/task-table/task-table.component';
@@ -14,13 +14,11 @@ import { Task } from '@model/Task';
     ]
 })
 export class ShowAllTableComponent implements OnChanges, OnDestroy {
+    private translate = inject(TranslateService);
+
     @Input({ required: true }) group!: DataGroup;
 
     tasks = signal<Task[]>([]);
-
-    constructor(private translate: TranslateService) {
-
-    }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {

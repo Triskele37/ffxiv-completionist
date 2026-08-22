@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 
@@ -19,11 +19,10 @@ import { IPC_EVENT } from '@service/electron/IPC_EVENT';
     ],
 })
 export class GarlandActionComponent {
+    private svcElectron = inject(ElectronService);
+
     @Input({ required: true }) task!: Task;
     @Output() onClick = new EventEmitter<void>();
-
-    constructor(private svcElectron: ElectronService) {
-    }
 
     searchGarlandTools(): void {
         this.svcElectron.sendSync(IPC_EVENT.SEARCH_GARLAND_TOOLS, this.task.name);

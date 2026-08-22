@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
@@ -30,13 +30,15 @@ let lastRandom: Task[] = [];
     ]
 })
 export class RandomComponent {
+    private svcData = inject(DataService);
+
     randomCount: number = 10;
     randomTasks: Task[] = [];
 
     group: DataGroup;
     groupSelectorEvent?: TieredMenuToggleEvent;
 
-    constructor(private svcData: DataService) {
+    constructor() {
         if(lastRandom.length) this.randomTasks = lastRandom;
         this.group = this.svcData.data;
 
