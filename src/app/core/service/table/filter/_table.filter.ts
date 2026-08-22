@@ -23,6 +23,7 @@ export function createFilterFacet(this: TableServiceContext) {
         filters: {},
         groupFilters: {},
         onFilterUpdate$: new Subject<void>(),
+        onFilterApplied$: new Subject<void>(),
     }
 
     return {

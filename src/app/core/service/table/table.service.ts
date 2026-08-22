@@ -1,6 +1,7 @@
 import { Injectable, signal } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
+import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
@@ -15,11 +16,9 @@ import { createPropertyFacet, TablePropertyFacet } from './property/_table.prope
 import { createSelectionFacet, TableSelectionFacet } from './selection/_table.selection';
 import * as TableType from './types';
 
-@Injectable({
-    providedIn: 'root'
-})
+@Injectable()
 export class TableService implements TableType.TableServiceContext {
-    group = signal<DataGroup>(null as unknown as DataGroup);
+    group = signal<DataGroup>(createDummyGroup());
     originalTasks: Task[] = [];
     tasks = signal<Task[]>([]);
     uniqueValues: TableType.UniqueValues = {};

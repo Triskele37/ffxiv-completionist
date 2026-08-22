@@ -4,7 +4,12 @@ export type TableFilterContext = {
     completion: CompletionFilter;
     filters: Filters;
     groupFilters: Record<string, Filters>;
+
+    // observable for when filter values change
     onFilterUpdate$: Subject<void>;
+
+    // observable for when filters have been applied
+    onFilterApplied$: Subject<void>;
 };
 
 export type CompletionFilter = {

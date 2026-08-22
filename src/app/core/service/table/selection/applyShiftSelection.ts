@@ -11,10 +11,11 @@ export function applyShiftSelection(
     const startIndex = topDown ? this.selection.lastClickedRowIndex : fromIndex;
     const endIndex = topDown ? fromIndex : this.selection.lastClickedRowIndex;
 
+    const tasks = this.tasks();
     for(let i = 0; i <= endIndex; i++) {
         if(i >= startIndex && i <= endIndex) {
-            if(this.tasks()[i].selected() !== newSelectedState) {
-                this.tasks()[i].selected.set(newSelectedState);
+            if(tasks[i].selected() !== newSelectedState) {
+                tasks[i].selected.set(newSelectedState);
             }
         }
     }

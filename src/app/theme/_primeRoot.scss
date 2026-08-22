@@ -13,25 +13,26 @@ html:root, html:host {
     --p-surface-950: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 9%));
 
     //--p-primary-color: light-dark(var(--p-primary-500), var(--p-primary-400));
-    --p-primary-50: color-mix(in srgb, var(--primary-color), white 10%);
-    --p-primary-100: color-mix(in srgb, var(--primary-color), white 8%);
-    --p-primary-200: color-mix(in srgb, var(--primary-color), white 6%);
-    --p-primary-300: color-mix(in srgb, var(--primary-color), white 4%);
-    --p-primary-400: color-mix(in srgb, var(--primary-color), white 2%);
+    --p-primary-50: color-mix(in srgb, var(--primary-color), white 50%);
+    --p-primary-100: color-mix(in srgb, var(--primary-color), white 40%);
+    --p-primary-200: color-mix(in srgb, var(--primary-color), white 30%);
+    --p-primary-300: color-mix(in srgb, var(--primary-color), white 20%);
+    --p-primary-400: color-mix(in srgb, var(--primary-color), white 10%);
     --p-primary-500: var(--primary-color);
-    --p-primary-600: color-mix(in srgb, var(--primary-color), black 2%);
-    --p-primary-700: color-mix(in srgb, var(--primary-color), black 4%);
-    --p-primary-800: color-mix(in srgb, var(--primary-color), black 6%);
-    --p-primary-900: color-mix(in srgb, var(--primary-color), black 8%);
-    --p-primary-950: color-mix(in srgb, var(--primary-color), black 10%);
+    --p-primary-600: color-mix(in srgb, var(--primary-color), black 10%);
+    --p-primary-700: color-mix(in srgb, var(--primary-color), black 20%);
+    --p-primary-800: color-mix(in srgb, var(--primary-color), black 30%);
+    --p-primary-900: color-mix(in srgb, var(--primary-color), black 40%);
+    --p-primary-950: color-mix(in srgb, var(--primary-color), black 50%);
 
     --p-text-color: var(--text-color); //700
     --p-text-hover-color: color-mix(in srgb, var(--text-color), black 2%);
     --p-text-muted-color: color-mix(in srgb, var(--text-color), white 4%);
     --p-text-hover-muted-color: color-mix(in srgb, var(--text-color), white 2%);
 
+    --p-primary-color: var(--p-primary-500);
     --p-primary-contrast-color: var(--primary-color-text);
-    //--p-primary-hover-color: light-dark(var(--p-primary-600), var(--p-primary-300));
+    --p-primary-hover-color: light-dark(var(--p-primary-600), var(--p-primary-400));
     //--p-primary-active-color: light-dark(var(--p-primary-700), var(--p-primary-200));
 
     //--p-highlight-background: light-dark(var(--p-primary-50), color-mix(in srgb, var(--p-primary-400), transparent 84%));

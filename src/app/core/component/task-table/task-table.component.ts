@@ -23,18 +23,21 @@ import { GroupRowComponent } from './row/group/group-row.component';
         HeaderRowComponent,
         DataRowComponent,
         GroupRowComponent,
+    ],
+    providers: [
+        TableService
     ]
 })
 export class TaskTableComponent implements OnInit, OnChanges {
-    @Input({ required: true }) private set group(value: DataGroup) {
+    @Input({ required: true }) set group(value: DataGroup) {
         this.svcTable.property.setGroup(value);
     };
 
-    @Input({ required: true }) private set tasks(value: Task[]) {
+    @Input({ required: true }) set tasks(value: Task[]) {
         this.svcTable.property.setTasks(value);
     };
 
-    @Input({ required: true }) private set groupRows(value: boolean) {
+    @Input() set groupRows(value: boolean) {
         this.svcTable.rowGroup.groupRows = value;
     };
 

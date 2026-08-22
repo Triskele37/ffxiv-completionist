@@ -22,15 +22,15 @@
             display: flex;
             flex-direction: column;
 
-            ::ng-deep > p-button {
-                // Round the first button's upper corners
-                &:first-child .p-button {
-                    border-top-left-radius: var(--border-radius);
+            ::ng-deep > .p-button {
+                // Adjust first button's rounding
+                &:first-child {
+                    border-radius: 0;
                     border-top-right-radius: var(--border-radius);
                 }
 
                 // Round the last button's lower corners
-                &:last-child .p-button {
+                &:last-child {
                     border-bottom-left-radius: var(--border-radius);
                     border-bottom-right-radius: var(--border-radius);
                 }

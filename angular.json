@@ -1,9 +1,7 @@
 {
     "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
     "cli": {
-        "schematicCollections": [
-            "@angular-eslint/schematics"
-        ],
+        "schematicCollections": [],
         "analytics": false
     },
     "version": 1,
@@ -23,6 +21,16 @@
             },
             "prefix": "app",
             "architect": {
+                "lint": {
+                    "builder": "@angular-eslint/builder:lint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "app/**/*",
+                            "scripts/**/*",
+                            "src/**/*"
+                        ]
+                    }
+                },
                 "build": {
                     "builder": "@angular-builders/custom-webpack:browser",
                     "options": {

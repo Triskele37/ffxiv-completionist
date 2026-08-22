@@ -57,7 +57,6 @@
                 <com-complete-cell
                     [task]="issue.task"
                     [rowSpan]="issue.chainedTasks.length"
-                    (onChange)="onChange()"
                 ></com-complete-cell>
                 <td [attr.rowspan]="issue.chainedTasks.length">
                     <com-content-link
@@ -84,7 +83,6 @@
 
             <com-complete-cell
                 [task]="chainedTask"
-                (onChange)="onChange()"
             ></com-complete-cell>
             <td>
                 <com-content-link

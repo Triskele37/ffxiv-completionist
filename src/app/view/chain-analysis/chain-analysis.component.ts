@@ -17,6 +17,7 @@ import { validateConstraint } from '@model/Chain/validate/validateConstraint';
 import { asChainIssue } from '@model/Chain/util/asChainIssue';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
+import { TableService } from '@service/table/table.service';
 import { SettingsService } from '@view/settings/settings.service';
 
 @Component({
@@ -35,6 +36,9 @@ import { SettingsService } from '@view/settings/settings.service';
         CompleteCellComponent,
         NgTemplateOutlet,
     ],
+    providers: [
+        TableService
+    ],
     styleUrls: ['./chain-analysis.component.scss']
 })
 export class ChainAnalysisComponent implements OnInit {
@@ -46,16 +50,17 @@ export class ChainAnalysisComponent implements OnInit {
         private svcData: DataService,
         private svcChain: ChainService,
         private svcChainViewer: ChainViewerService,
-        public svcSettings: SettingsService
+        public svcSettings: SettingsService,
+        public svcTable: TableService,
     ) {
     }
 
     ngOnInit() {
-        this.isLoading.set(true);
-        setTimeout(() => {
-            this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);
+        this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);
+        this.analyzeChainedTasks();
+
+        this.svcTable.filter.onFilterApplied$.subscribe(() => {
             this.analyzeChainedTasks();
-            this.isLoading.set(false);
         });
     }
 
@@ -67,17 +72,19 @@ export class ChainAnalysisComponent implements OnInit {
     }
 
     analyzeChainedTasks(): void {
-        this.issues = [];
+        this.isLoading.set(true);
 
-        for(const constraint of this.constraints) {
-            if(!validateConstraint(constraint)) {
-                this.issues.push(asChainIssue(constraint));
+        setTimeout(() => {
+            this.issues = [];
+
+            for(const constraint of this.constraints) {
+                if(!validateConstraint(constraint)) {
+                    this.issues.push(asChainIssue(constraint));
+                }
             }
-        }
-    }
 
-    onChange(): void {
-        this.analyzeChainedTasks();
+            this.isLoading.set(false);
+        });
     }
 
     onOpenChainViewer(task: Task): void {

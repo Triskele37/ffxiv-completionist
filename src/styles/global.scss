@@ -27,4 +27,9 @@
         border-top-right-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
     }
+
+    // Fix weird button size issue caused by prime hover
+    .p-button, .p-button:hover {
+        border-inline-end: 1px solid var(--primary-color) !important;
+    }
 }
