@@ -14,12 +14,12 @@ export function modifyFilter(
     column: Column
 ): void {
     // Don't run filter unnecessarily
-    if(this.filter.filters[column.key]?.value === value) return;
+    if(!shouldFilter(this.filter.filters[column.key]?.value, value)) return;
 
     // null the filter on removals, replace on add/modify
-    this.filter.filters[column.key] = !value ? null : {
+    this.filter.filters[column.key] = !value?.length ? null : {
         key: column.key,
-        value
+        value: Array.isArray(value) ? [...value] : value,
     };
 
     // Keep track of each group's filter settings
@@ -30,4 +30,22 @@ export function modifyFilter(
     });
 
     this.filter.onFilterUpdate$.next();
+}
+
+function shouldFilter(
+    a: Filter['value'] | undefined,
+    b: Filter['value'] | undefined
+) {
+    if(!a) return !!b;
+    if(!b) return !!a;
+
+    const isStrA = typeof a === 'string';
+    const isStrB = typeof b === 'string';
+
+    if(isStrA || isStrB) {
+        if(isStrA !== isStrB) return true;
+        return a !== b;
+    }
+
+    return a.sort().join('') !== b.sort().join('');
 }

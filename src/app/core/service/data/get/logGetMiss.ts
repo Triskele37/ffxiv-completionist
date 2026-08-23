@@ -1,6 +1,6 @@
 import type { DataServiceContext } from '../types';
 
-const PATH_REGEX = /[a-z-.!,]*/;
+const PATH_REGEX = /^[a-z-.!,]+$/;
 
 /**
  * Log a .get miss if the path is valid

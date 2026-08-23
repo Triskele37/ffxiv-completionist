@@ -20,7 +20,7 @@ export type CompletionFilter = {
 
 export type Filter = {
     key: string;
-    value: string;
+    value: string | string[];
 };
 
 export type Filters = {

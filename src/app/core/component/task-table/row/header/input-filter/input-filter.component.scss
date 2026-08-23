@@ -1,0 +1,19 @@
+:host {
+    display: contents;
+
+    .text-filter {
+        margin-top: 3px;
+        height: 27px;
+        width: 100%;
+
+        padding-right: unset;
+    }
+
+    .clear-input {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+
+        cursor: pointer;
+    }
+}

@@ -25,7 +25,7 @@
                     [virtualScrollDelay]="100"
                     [virtualScrollItemSize]="rowHeight"
                     (onRowReorder)="svcTable.order.onRowReorder($event)"
-                    (sortFunction)="svcTable.order.sortData($event)"
+                    (sortFunction)="sortFunction($event)"
                 >
                     <ng-template #header>
                         <com-header-row></com-header-row>

@@ -1,29 +1,9 @@
 <tr class="task-table-header">
     <!-- Flag Header -->
     <th
-        data-active-help="APP.ACTIVE_HELP.TABLE.COMPLETION_FILTER"
-        class="completion-column"
         [style.width.px]="svcTable.hasNumericColumns ? 100 : 60"
     >
-        <i
-            class="i-complete"
-            [ngClass]="{ enabled: svcTable.filter.completion.completed }"
-            (click)="svcTable.filter.onFilterCompletion(Completion.Y)"
-        ></i>
-
-        <i
-            class="i-incomplete"
-            [ngClass]="{ enabled: svcTable.filter.completion.incomplete }"
-            (click)="svcTable.filter.onFilterCompletion(Completion.N)"
-        ></i>
-
-        <br/>
-
-        <i
-            class="i-exclude"
-            [ngClass]="{ enabled: svcTable.filter.completion.excluded }"
-            (click)="svcTable.filter.onFilterCompletion(Completion.X)"
-        ></i>
+        <com-completion-filter></com-completion-filter>
     </th>
 
     <!-- Data Headers -->
@@ -45,35 +25,9 @@
             @if(column.header) {
                 <div class="column-filter">
                     @if(column.filterable) {
-                        <p-select
-                            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_DROPDOWN"
-                            class="dropdown-filter"
-                            [editable]="true"
-                            [options]="svcTable.uniqueValues[column.key]"
-                            [showClear]="true"
-                            appendTo="body"
-                            (keyup)="onFilterKeyup($event, column)"
-                            (onChange)="onFilterDropdownChange($event, column)"
-                        >
-                            <ng-template #item let-item>
-                                {{displayedFilterValue(item)}}
-                            </ng-template>
-                        </p-select>
+                        <com-option-filter [column]="column"></com-option-filter>
                     } @else {
-                        <input
-                            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_INPUT"
-                            class="text-filter"
-                            pInputText
-                            [value]="svcTable.filter.filters[column.key]?.value ?? ''"
-                            (keyup)="onFilterKeyup($event, column)"
-                        />
-
-                        @if(svcTable.filter.filters[column.key]?.value) {
-                            <i
-                                class="pi pi-times"
-                                (click)="svcTable.filter.modifyFilter('', column)"
-                            ></i>
-                        }
+                        <com-input-filter [column]="column"></com-input-filter>
                     }
                 </div>
             }

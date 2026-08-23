@@ -11,5 +11,7 @@ export function setTasks(
 ): void {
     this.originalTasks = tasks;
 
+    this.order.originalOrder = tasks.map((t) => t.id);
+
     this.filter.updateFilteredTasks();
 }

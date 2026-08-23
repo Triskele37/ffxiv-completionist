@@ -1,5 +1,6 @@
 import type { OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
 import { Component, Input, ViewChild, inject } from '@angular/core';
+import type { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
 import type { DataGroup } from '@model/DataGroup';
@@ -71,6 +72,18 @@ export class TaskTableComponent implements OnInit, OnChanges {
                 console.error('Error in table cleanup:', e);
             }
         };
+    }
+
+    sortFunction($event: SortEvent) {
+        if(this.svcTable.order.shouldReset($event)) {
+            console.log('reset');
+            this.svcTable.order.resetSort($event);
+            this._taskTable?.reset();
+        }
+        else {
+            console.log('sort');
+            this.svcTable.order.sortData($event);
+        }
     }
 
     //#region----------------------------------------------------------- Lifecycle

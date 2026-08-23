@@ -1,0 +1,24 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.TABLE.COMPLETION_FILTER"
+    class="completion-filter"
+>
+    <span>
+        <i
+            class="i-complete"
+            [ngClass]="{ enabled: svcTable.filter.completion.completed }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.Y)"
+        ></i>
+
+        <i
+            class="i-incomplete"
+            [ngClass]="{ enabled: svcTable.filter.completion.incomplete }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.N)"
+        ></i>
+    </span>
+
+    <i
+        class="i-exclude"
+        [ngClass]="{ enabled: svcTable.filter.completion.excluded }"
+        (click)="svcTable.filter.onFilterCompletion(Completion.X)"
+    ></i>
+</span>

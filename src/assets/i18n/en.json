@@ -206,11 +206,19 @@
                 },
                 "COLUMN_NAME": {
                     "SUMMARY": "Column Name & Sort",
-                    "DETAIL": "Click to sort. Click again to invert. Ctrl+Click to sort multiple columns"
+                    "DETAIL": "Click to sort. Click again to invert. Click again to reset. Ctrl+Click to sort multiple columns"
                 },
                 "FILTER_DROPDOWN": {
                     "SUMMARY": "Filter Dropdown",
-                    "DETAIL": "Click to view a list of options to filter by"
+                    "DETAIL": "Click to view a list or add options to filter by",
+                    "CUSTOM_OPTION": {
+                        "SUMMARY": "Custom Filter Option",
+                        "DETAIL": "Type and add a temporary custom filter"
+                    },
+                    "OPTIONS": {
+                        "SUMMARY": "Filter Options",
+                        "DETAIL": "Click one or multiple options"
+                    }
                 },
                 "FILTER_INPUT": {
                     "SUMMARY": "Filter Input",
@@ -484,6 +492,7 @@
             "SHOW_ALL": "Show All Tasks",
             "HIDE_ALL": "Hide All Tasks",
             "VIEW_LINKS": "View All",
+            "CUSTOM_OPTION": "Enter custom filter value...",
             "ROW_ACTION": {
                 "TITLE": "Row Actions",
                 "BOOKMARK": "Bookmark Task",

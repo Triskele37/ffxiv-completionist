@@ -45,7 +45,14 @@ export function filterTasks(
                 return task[key] === filter.value;
             }
             else {
-                return this.svcSearch.fuzzyMatchObject(task, key, filter.value, true, link);
+                if(typeof filter.value === 'string') {
+                    return this.svcSearch.fuzzyMatchObject(task, key, filter.value, true, link);
+                }
+                else {
+                    return filter.value.some((value) =>
+                        this.svcSearch.fuzzyMatchObject(task, key, value, true, link)
+                    );
+                }
             }
         });
     });
