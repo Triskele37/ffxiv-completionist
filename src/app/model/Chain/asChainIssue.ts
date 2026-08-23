@@ -1,4 +1,4 @@
-import type { ChainConstraint, ChainIssue } from '../ChainConstraint';
+import type { ChainConstraint, ChainIssue } from './ChainConstraint';
 
 export function asChainIssue(constraint: ChainConstraint): ChainIssue {
     return {

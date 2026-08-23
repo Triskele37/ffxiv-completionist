@@ -1,4 +1,3 @@
-import { addTaskToIndex } from '@data/taskIndexes';
 import type { DataGroup } from '@model/DataGroup';
 import type { JsonTasks } from '@model/JSONResource';
 
@@ -12,7 +11,7 @@ export function initTasks(
     Object.keys(tasks).forEach((id) => {
         const task = this.task.createTask(tasks[id], group);
 
-        addTaskToIndex(task);
+        this.index.addTaskToIndex(task);
         this.svcMark.setDefaultCompletion(group, task);
 
         group.tasks.push(task);

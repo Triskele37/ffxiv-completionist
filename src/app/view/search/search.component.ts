@@ -4,6 +4,7 @@ import { Tab, TabList, TabPanel, TabPanels, Tabs } from 'primeng/tabs';
 
 import { SearchService } from '@service/search/search.service';
 import { Status } from '@service/search/SearchTypes';
+import { TableService } from '@service/table/table.service';
 
 import { TaskSearchResultsComponent } from './task-search-results/task-search-results.component';
 import { GroupSearchResultsComponent } from './group-search-results/group-search-results.component';
@@ -23,6 +24,9 @@ import { GroupSearchResultsComponent } from './group-search-results/group-search
         TaskSearchResultsComponent,
         GroupSearchResultsComponent
     ],
+    providers: [
+        TableService
+    ]
 })
 export class SearchComponent {
     svcSearch = inject(SearchService);

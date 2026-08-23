@@ -13,12 +13,15 @@ import type { DataGroupFacet } from './group/_data.group';
 import { createGroupFacet } from './group/_data.group';
 import type { DataGetFacet } from './get/_data.get';
 import { createGetFacet } from './get/_data.get';
+import type { DataIndexingFacet } from './indexing/_data.indexing';
+import { createIndexingFacet } from './indexing/_data.indexing';
 import type { DataLinkFacet } from './link/_data.link';
 import { createLinkFacet } from './link/_data.link';
 import type { DataLoaderFacet } from './loader/_data.loader';
 import { createLoaderFacet } from './loader/_data.loader';
 import type { DataTaskFacet } from './task/_data.task';
 import { createTaskFacet } from './task/_data.task';
+
 import { initializeData } from './init/initializeData';
 import { initializeService } from './init/initializeService';
 import type { DataServiceContext } from './types';
@@ -45,6 +48,7 @@ export class DataService implements DataServiceContext {
     readonly apply: DataApplyFacet = createApplyFacet.call(this);
     readonly group: DataGroupFacet = createGroupFacet.call(this);
     readonly get: DataGetFacet = createGetFacet.call(this);
+    readonly index: DataIndexingFacet = createIndexingFacet.call(this);
     readonly link: DataLinkFacet = createLinkFacet.call(this);
     readonly loader: DataLoaderFacet = createLoaderFacet.call(this);
     readonly task: DataTaskFacet = createTaskFacet.call(this);

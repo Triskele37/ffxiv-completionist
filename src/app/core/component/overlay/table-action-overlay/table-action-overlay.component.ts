@@ -6,7 +6,6 @@ import { ButtonDirective } from 'primeng/button';
 import { AddTaskDialogComponent } from '@admin/add-task-dialog/add-task-dialog.component';
 import { DataService } from '@service/data/data-service';
 import type { DataGroup } from '@model/DataGroup';
-import { getChild } from '@service/data/get/getChild';
 import type { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -85,7 +84,7 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
             const taskOutput = columns
                 .map((column) => {
                     if(column.link && resolveLinks) {
-                        const resolvedLink = getChild(this.svcData.data, task[column.key]);
+                        const resolvedLink = this.svcData.get.getChild(this.svcData.data, task[column.key]);
                         return resolvedLink?.name ?? task[column.key];
                     }
                     else {

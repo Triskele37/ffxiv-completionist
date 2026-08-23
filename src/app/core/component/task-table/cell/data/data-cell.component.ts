@@ -7,7 +7,6 @@ import { Popover } from 'primeng/popover';
 import { DataService } from '@service/data/data-service';
 import type { Column } from '@model/Column';
 import type { Task } from '@model/Task';
-import { getChild } from '@service/data/get/getChild';
 import { TableService } from '@service/table/table.service';
 
 import { CellValueComponent } from './cell-value/cell-value.component';
@@ -87,7 +86,7 @@ export class DataCellComponent implements OnChanges {
             const [, pre, link, post] = pathOrValue.match(PRE_LINK_POST_REGEX) ?? [];
 
             if(link) {
-                const content = getChild(this.svcData.data, link);
+                const content = this.svcData.get.getChild(this.svcData.data, link);
                 const linkData: Partial<LinkData> = {};
 
                 if(content) {

@@ -1,10 +1,13 @@
-import { INDEX } from '@data/taskIndexes';
 import type { Task } from '@model/Task';
+
+import type { DataServiceContext } from '../types';
+import { INDEX } from './taskIndexes';
 
 /**
  * Attempt to retrieve a task from INDEX
  */
 export function getIndexedTask(
+    this: DataServiceContext,
     indexKey: string,
     taskId: number | string
 ): Task | undefined {

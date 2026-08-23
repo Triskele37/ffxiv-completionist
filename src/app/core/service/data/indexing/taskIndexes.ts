@@ -41,7 +41,7 @@ export const INDEX: IndexContainer = new Map([
 ]);
 
 // Reverse lookup of storage key to shorthand
-const LOOKUP: Record<string, string> = {};
+export const LOOKUP: Record<string, string> = {};
 for(const [shorthand, meta] of INDEX.entries()) {
     LOOKUP[meta.base] = shorthand;
 }
@@ -55,20 +55,4 @@ function createIndex(base: string, exclude?: string[]): IndexMeta {
         exclude,
         map: new Map<number, Task>
     };
-}
-
-/**
- * Attempt to add a task INDEX
- */
-export function addTaskToIndex(task: Task) {
-    const baseKey = Object.keys(LOOKUP).find((base) => task.fullStorageKey.startsWith(base));
-    if(!baseKey) return;
-
-    const shorthand = LOOKUP[baseKey];
-
-    if(shorthand) {
-        const { exclude, map } = INDEX.get(shorthand) ?? {};
-        if(exclude && exclude.some((e) => task.fullStorageKey.includes(e))) return;
-        map?.set(task.id, task);
-    }
 }

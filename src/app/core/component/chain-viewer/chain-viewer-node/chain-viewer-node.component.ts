@@ -9,7 +9,6 @@ import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import type { Link } from '@model/Chain/ChainLink';
 import type { Task } from '@model/Task';
-import { getChild } from '@service/data/get/getChild';
 
 type ChainNode = {
     task: Task;
@@ -134,7 +133,7 @@ export class ChainViewerNodeComponent implements OnChanges {
             const nodeGroup: ChainNode[] = [];
             linkOrLinks.forEach((link) => {
                 if(typeof link === 'string') {
-                    const content = getChild(this.svcData.data, link);
+                    const content = this.svcData.get.getChild(this.svcData.data, link);
                     if(content?.dataType === 'Task') {
                         nodeGroup.push({ task: content, modifier });
                     }
@@ -148,7 +147,7 @@ export class ChainViewerNodeComponent implements OnChanges {
             else nodeGroups.push(nodeGroup);
         }
         else if(typeof linkOrLinks === 'string') {
-            const content = getChild(this.svcData.data, linkOrLinks);
+            const content = this.svcData.get.getChild(this.svcData.data, linkOrLinks);
             if(content?.dataType === 'Task') {
                 const nodeGroup = [{ task: content, modifier }];
                 if(unshift) nodeGroups.unshift(nodeGroup);

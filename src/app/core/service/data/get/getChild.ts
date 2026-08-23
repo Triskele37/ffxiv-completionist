@@ -1,11 +1,13 @@
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
-import { getIndexedTask } from '@model/Task/get/getIndexedTask';
+
+import type { DataServiceContext } from '../types';
 
 /**
  * ALL Group/Task gets should run through this method
  * */
 export function getChild(
+    this: DataServiceContext,
     group: DataGroup | null | undefined,
     path: string,
 ): DataGroup | Task | null {
@@ -21,7 +23,7 @@ export function getChild(
 
     // See if link is indexed first
     if(segments.length === 2) {
-        const indexedTask = getIndexedTask(segments[0], segments[1]);
+        const indexedTask = this.index.getIndexedTask(segments[0], segments[1]);
         if(indexedTask) return indexedTask;
     }
 

@@ -15,7 +15,7 @@ import { CompleteCellComponent } from '@component/task-table/cell/complete/compl
 import type { Task } from '@model/Task';
 import type { ChainConstraint, ChainIssue } from '@model/Chain/ChainConstraint';
 import { validateConstraint } from '@model/Chain/validate/validateConstraint';
-import { asChainIssue } from '@model/Chain/util/asChainIssue';
+import { asChainIssue } from '@model/Chain/asChainIssue';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { TableService } from '@service/table/table.service';

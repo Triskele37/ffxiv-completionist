@@ -10,6 +10,7 @@ import type { SaveStoreService } from '@service/store/save-store.service';
 import type { DataApplyFacet } from './apply/_data.apply';
 import type { DataGroupFacet } from './group/_data.group';
 import type { DataGetFacet } from './get/_data.get';
+import type { DataIndexingFacet } from './indexing/_data.indexing';
 import type { DataLinkFacet } from './link/_data.link';
 import type { DataLoaderFacet } from './loader/_data.loader';
 import type { DataTaskFacet } from './task/_data.task';
@@ -31,6 +32,7 @@ export interface DataServiceContext {
     apply: DataApplyFacet;
     group: DataGroupFacet;
     get: DataGetFacet;
+    index: DataIndexingFacet;
     link: DataLinkFacet;
     loader: DataLoaderFacet;
     task: DataTaskFacet;
