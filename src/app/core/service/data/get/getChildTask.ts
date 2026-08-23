@@ -1,7 +1,7 @@
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Overload for `getChild` to type assert `Task`

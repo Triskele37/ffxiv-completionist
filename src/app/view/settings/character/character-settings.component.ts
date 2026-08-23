@@ -1,4 +1,5 @@
-import { Component, OnInit, signal, inject } from '@angular/core';
+import type { OnInit} from '@angular/core';
+import { Component, signal, inject } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonDirective } from 'primeng/button';
@@ -10,7 +11,7 @@ import { Tooltip } from 'primeng/tooltip';
 
 import { Completion, Lang } from '@constant';
 import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { MarkService } from '@service/mark/mark.service';

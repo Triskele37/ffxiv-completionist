@@ -1,9 +1,9 @@
-import { Observable, Subject } from 'rxjs';
+import type { Observable, Subject } from 'rxjs';
 
-import { CompletionFlag } from '@constant';
-import { Column } from '@model/Column';
-import { Task } from '@model/Task';
-import { ViewToken } from '@view/view-token';
+import type { CompletionFlag } from '@constant';
+import type { Column } from '@model/Column';
+import type { Task } from '@model/Task';
+import type { ViewToken } from '@view/view-token';
 
 export type DataGroup = {
     updated$: Subject<void>;

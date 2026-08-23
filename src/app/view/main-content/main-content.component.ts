@@ -1,11 +1,12 @@
-import { Component, effect, signal, ViewChild, WritableSignal, inject } from '@angular/core';
+import type { WritableSignal} from '@angular/core';
+import { Component, effect, signal, ViewChild, inject } from '@angular/core';
 import { KeyValuePipe } from '@angular/common';
 import { Divider } from 'primeng/divider';
 
 import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
 import { TaskTableComponent } from '@component/task-table/task-table.component';
 import { AnchorDirective } from '@directive/anchor.directive';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
 import { ShouldShowSummaryGroupPipe } from '@pipe/should-show-group.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';

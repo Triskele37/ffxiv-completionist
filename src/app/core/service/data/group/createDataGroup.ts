@@ -2,12 +2,12 @@ import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 import { Completion } from '@constant';
-import { JSONResource } from '@model/JSONResource';
+import type { JSONResource } from '@model/JSONResource';
 import { getContentLink } from '@model/Link/getContentLink';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Create a fully formed DataGroup given json and its parent

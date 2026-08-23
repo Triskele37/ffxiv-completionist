@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
-import { ConfigStore } from './Store.d';
+import type { ConfigStore } from './Store.d';
 import { Store } from './Store';
 
 @Injectable({

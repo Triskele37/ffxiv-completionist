@@ -1,11 +1,11 @@
 import { signal } from '@angular/core';
 
 import { Completion } from '@constant';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getContentLink } from '@model/Link/getContentLink';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function createTask(
     this: DataServiceContext,

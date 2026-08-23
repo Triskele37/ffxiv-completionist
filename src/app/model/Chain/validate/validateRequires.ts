@@ -1,5 +1,5 @@
 import { isComplete, isCompleteOrExcluded } from '../getCompletion';
-import { ChainConstraint } from '../ChainConstraint';
+import type { ChainConstraint } from '../ChainConstraint';
 
 export function validateRequires(constraint: ChainConstraint): boolean {
     if(!isComplete(constraint.task, constraint.taskThreshold)) return true;

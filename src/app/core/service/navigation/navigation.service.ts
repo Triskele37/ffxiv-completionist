@@ -1,8 +1,8 @@
 import { Injectable, signal, inject } from '@angular/core';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 

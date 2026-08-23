@@ -1,4 +1,4 @@
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 export function applyShiftSelection(
     this: TableServiceContext,

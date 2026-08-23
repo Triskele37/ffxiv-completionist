@@ -1,4 +1,4 @@
-import { Type } from '@angular/core';
+import type { Type } from '@angular/core';
 
 import { PatchNotesComponent } from './patch-notes/patch-notes.component';
 import { PatchViewComponent } from './patch-view/patch-view.component';

@@ -1,16 +1,17 @@
-import { Component, OnDestroy, OnInit, signal, ViewChild, inject } from '@angular/core';
+import type { OnDestroy, OnInit} from '@angular/core';
+import { Component, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
-import { MenuItem } from 'primeng/api';
+import type { MenuItem } from 'primeng/api';
 import { ButtonDirective } from 'primeng/button';
 import { TieredMenu } from 'primeng/tieredmenu';
 
 import { DataService } from '@service/data/data-service';
 import { SummaryLineComponent } from '@component/summary-line/summary-line.component';
 import { TaskTableComponent } from '@component/task-table/task-table.component';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
 /**
@@ -193,7 +194,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
     diveForTasks(group: DataGroup | null): void {
         if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
 
-        for(let task of group.tasks) {
+        for(const task of group.tasks) {
             let match: boolean = false;
 
             if(this.selectedPatch === ' ') match = !task.patch;

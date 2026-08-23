@@ -1,5 +1,5 @@
 import { Completion } from '@constant';
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Paladin trial weapon recipes were combined in 6.0
  * */

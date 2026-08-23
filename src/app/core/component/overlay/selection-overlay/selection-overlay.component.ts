@@ -3,8 +3,8 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 

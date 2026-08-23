@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 export function migrateRelics(store: ChangeStore) {
     migrateManderville(store);

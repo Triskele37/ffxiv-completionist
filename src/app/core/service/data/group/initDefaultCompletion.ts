@@ -1,7 +1,7 @@
-import { CompletionFlag } from '@constant';
-import { DataGroup } from '@model/DataGroup';
+import type { CompletionFlag } from '@constant';
+import type { DataGroup } from '@model/DataGroup';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function initDefaultCompletion(
     this: DataServiceContext,

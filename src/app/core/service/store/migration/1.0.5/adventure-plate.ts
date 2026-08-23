@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const PLATE = 'overall.character.adventure-plate';
 const PLATE_CLASSJOB = 'overall.character.adventure-plate.class-job';

@@ -1,7 +1,7 @@
-import { JSONResource } from '@model/JSONResource';
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { JSONResource } from '@model/JSONResource';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { SaveStoreService } from '../../save-store.service';
+import type { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrateTitles } from './title';

@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { DataGroup } from './index';
+import type { DataGroup } from './index';
 
 /**
  * Common method of counting

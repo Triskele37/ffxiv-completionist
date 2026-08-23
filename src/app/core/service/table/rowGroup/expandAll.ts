@@ -1,5 +1,5 @@
 import type { TableServiceContext } from '../types';
-import { ExpandedRows } from './_types';
+import type { ExpandedRows } from './_types';
 
 export function expandAll(this: TableServiceContext): void {
     this.rowGroup.expandedRows.set(

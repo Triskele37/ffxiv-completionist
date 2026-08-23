@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
+import type { OnChanges, SimpleChanges} from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InputNumber } from 'primeng/inputnumber';
 import { Tooltip } from 'primeng/tooltip';
@@ -7,7 +8,7 @@ import { Completion } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { TableService } from '@service/table/table.service';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { AsStringPipe } from '@pipe/asString.pipe';
 import { GradientPipe } from '@pipe/gradient.pipe';
 import { PercentagePipe } from '@pipe/percentage.pipe';

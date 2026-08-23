@@ -1,6 +1,6 @@
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 const SEPARATOR = ' > ';
 

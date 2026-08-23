@@ -1,8 +1,9 @@
-import { Component, EventEmitter, Input, OnChanges, Output, signal, SimpleChanges, inject } from '@angular/core';
+import type { OnChanges, SimpleChanges} from '@angular/core';
+import { Component, EventEmitter, Input, Output, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 
 @Component({
@@ -18,7 +19,7 @@ export class BookmarkActionComponent implements OnChanges {
     private svcBookmark = inject(BookmarkService);
 
     @Input({ required: true }) task!: Task;
-    @Output() onClick = new EventEmitter<void>();
+    @Output() clicked = new EventEmitter<void>();
 
     isBookmarked = signal(false);
 
@@ -30,6 +31,6 @@ export class BookmarkActionComponent implements OnChanges {
 
     toggleBookmark(): void {
         this.isBookmarked.set(this.svcBookmark.toggleBookmark(this.task));
-        this.onClick.emit();
+        this.clicked.emit();
     }
 }

@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Reorganize Gathering Special Sections
  * */

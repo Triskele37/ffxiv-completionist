@@ -5,7 +5,7 @@ import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { MarkService } from '@service/mark/mark.service';
 import { TableService } from '@service/table/table.service';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 @Component({
     selector: 'com-flag-complete-cell',

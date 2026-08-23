@@ -1,12 +1,12 @@
-import { WritableSignal } from '@angular/core';
+import type { WritableSignal } from '@angular/core';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
-import { ConfigStoreService } from '@service/store/config-store.service';
-import { CustomContentService } from '@service/custom-content/custom-content.service';
-import { DataService } from '@service/data/data-service';
-import { NavigationService } from '@service/navigation/navigation.service';
-import { SearchService } from '@service/search/search.service';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
+import type { ConfigStoreService } from '@service/store/config-store.service';
+import type { CustomContentService } from '@service/custom-content/custom-content.service';
+import type { DataService } from '@service/data/data-service';
+import type { NavigationService } from '@service/navigation/navigation.service';
+import type { SearchService } from '@service/search/search.service';
 
 import type { TableFilterFacet } from './filter/_table.filter';
 import type { TableOrderFacet } from './order/_table.order';

@@ -1,8 +1,8 @@
-import { Completion } from '@constant';
+import type { Completion } from '@constant';
 import { updateCompletion } from '@model/DataGroup/updateCompletion';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { MarkServiceContext } from '../types';
+import type { MarkServiceContext } from '../types';
 
 /**
  * Update `task.completionFlag$` as a flag

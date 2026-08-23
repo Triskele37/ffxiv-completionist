@@ -1,4 +1,5 @@
-import { Component, Input, TemplateRef, inject } from '@angular/core';
+import type { TemplateRef} from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonGroup } from 'primeng/buttongroup';

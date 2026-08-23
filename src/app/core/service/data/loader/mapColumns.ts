@@ -1,7 +1,7 @@
-import { Column } from '@model/Column';
+import type { Column } from '@model/Column';
 
-import { DataServiceContext } from '../types';
-import { JSON_GROUP } from './_types';
+import type { DataServiceContext } from '../types';
+import type { JSON_GROUP } from './_types';
 
 /**
  * Transform the raw column json to the initial app json

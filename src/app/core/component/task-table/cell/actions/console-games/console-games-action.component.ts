@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
@@ -22,11 +22,11 @@ export class ConsoleGamesActionComponent {
     private svcElectron = inject(ElectronService);
 
     @Input({ required: true }) task!: Task;
-    @Output() onClick = new EventEmitter<void>();
+    @Output() clicked = new EventEmitter<void>();
 
     searchConsoleGamesWiki(): void {
         this.svcElectron.sendSync(IPC_EVENT.SEARCH_CONSOLE_GAMES, this.task.name);
-        this.onClick.emit();
+        this.clicked.emit();
     }
 
 }

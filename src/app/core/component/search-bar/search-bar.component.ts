@@ -1,4 +1,5 @@
-import { Component, ElementRef, HostListener, ViewChild, inject } from '@angular/core';
+import type { ElementRef} from '@angular/core';
+import { Component, HostListener, ViewChild, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';

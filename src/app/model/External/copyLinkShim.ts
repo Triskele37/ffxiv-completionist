@@ -1,5 +1,5 @@
-import { TranslateService } from '@ngx-translate/core';
-import { MessageService } from 'primeng/api';
+import type { TranslateService } from '@ngx-translate/core';
+import type { MessageService } from 'primeng/api';
 
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 

@@ -1,16 +1,17 @@
-import { Component, Input, OnInit, signal, inject } from '@angular/core';
+import type { OnInit} from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { IftaLabel } from 'primeng/iftalabel';
 import { InputText } from 'primeng/inputtext';
-import { TieredMenuToggleEvent } from 'primeng/tieredmenu';
+import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 

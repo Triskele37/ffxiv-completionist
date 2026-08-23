@@ -1,11 +1,11 @@
-import { Component, effect, OnInit, signal, untracked, ViewChild, inject } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import type { OnInit} from '@angular/core';
+import { Component, effect, signal, untracked, ViewChild, inject } from '@angular/core';
+import type { MenuItem } from 'primeng/api';
 import { PanelMenu } from 'primeng/panelmenu';
 import { Tooltip } from 'primeng/tooltip';
-import { Subscription } from 'rxjs';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
 import { isComplete, isEmpty } from '@model/DataGroup/metrics';
 import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';

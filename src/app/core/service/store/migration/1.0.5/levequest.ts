@@ -1,5 +1,5 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
-import { ZoneTaskMap } from '../ZoneTaskMap';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ZoneTaskMap } from '../ZoneTaskMap';
 
 const QUEST = 'overall.duty.quest';
 const LEVE = `${QUEST}.levequests`;

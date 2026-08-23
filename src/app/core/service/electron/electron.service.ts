@@ -4,7 +4,7 @@ import { MessageService } from 'primeng/api';
 import { AsyncSubject } from 'rxjs';
 
 // Relying on tree-shaking to not actually include this import
-import { ipcRenderer } from 'electron';
+import type { ipcRenderer } from 'electron';
 
 import { copyLinkShim } from '@model/External/copyLinkShim';
 

@@ -1,12 +1,13 @@
-import { Component, Input, OnChanges, OnDestroy, signal, SimpleChanges, inject } from '@angular/core';
+import type { OnChanges, OnDestroy, SimpleChanges} from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
 import { AddTaskDialogComponent } from '@admin/add-task-dialog/add-task-dialog.component';
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getChild } from '@service/data/get/getChild';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { TableService } from '@service/table/table.service';

@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
 
-import { TableServiceContext } from '../types';
-import { CompletionFilter } from './_types';
+import type { TableServiceContext } from '../types';
+import type { CompletionFilter } from './_types';
 
 const letterToKeyMap: Record<Completion, keyof CompletionFilter> = {
     [Completion.Y]: 'completed',

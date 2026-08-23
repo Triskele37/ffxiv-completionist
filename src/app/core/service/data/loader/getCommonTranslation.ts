@@ -1,4 +1,4 @@
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 const COMMON_KEY_REGEX = /[A-Z]+[A-Z0-9_]+\.[A-Z0-9_.]+/g;
 const NUMBER_REGEX = /\b\d+[,.]+[\d.,]+\b/g;

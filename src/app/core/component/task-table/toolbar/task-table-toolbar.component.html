@@ -8,7 +8,7 @@
         @if(totalTasks) {
             <com-quick-mark-overlay
                 [tasks]="svcTable.tasks()"
-                (onMark)="onDataChange()"
+                (marked)="onDataChange()"
             ></com-quick-mark-overlay>
 
             <com-selection-overlay

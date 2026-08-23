@@ -1,7 +1,7 @@
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Initialize the data structure

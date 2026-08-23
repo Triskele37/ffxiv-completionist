@@ -1,9 +1,9 @@
-import { Links } from '@model/Chain/ChainLink';
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
-import { KeysMatching } from '@model/typeUtils';
+import type { Links } from '@model/Chain/ChainLink';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
+import type { KeysMatching } from '@model/typeUtils';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 type LinkKeys = KeysMatching<DataGroup, Links | undefined>;
 

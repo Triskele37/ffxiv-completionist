@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
+import type { OnChanges, SimpleChanges} from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
@@ -6,8 +7,8 @@ import { Tooltip } from 'primeng/tooltip';
 
 import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
-import { Link } from '@model/Chain/ChainLink';
-import { Task } from '@model/Task';
+import type { Link } from '@model/Chain/ChainLink';
+import type { Task } from '@model/Task';
 import { getChild } from '@service/data/get/getChild';
 
 type ChainNode = {
@@ -67,7 +68,7 @@ export class ChainViewerNodeComponent implements OnChanges {
             const { cPrev, cPrevAny, cPrevAt, cUnlock } = task;
             if(cPrev) this.addChildTaskBefore(cPrev, { key: cPrevAny ? 'ANY' : undefined });
             if(cPrevAt) {
-                for(let k in cPrevAt) {
+                for(const k in cPrevAt) {
                     this.addChildTaskBefore(cPrevAt[k], { at: k });
                 }
             }
@@ -79,7 +80,7 @@ export class ChainViewerNodeComponent implements OnChanges {
             const { cSiblings, cSiblingsAt, cExclude } = task;
             if(cSiblings) this.addChildTaskAbove(cSiblings);
             if(cSiblingsAt) {
-                for(let k in cSiblingsAt) {
+                for(const k in cSiblingsAt) {
                     this.addChildTaskAbove(cSiblingsAt[k], { at: k });
                 }
             }
@@ -90,14 +91,14 @@ export class ChainViewerNodeComponent implements OnChanges {
             const { cNext, cNextAt, cCombo, cComboAt, cUnlocks } = task;
             if(cNext) this.addChildTaskAfter(cNext);
             if(cNextAt) {
-                for(let k in cNextAt) {
+                for(const k in cNextAt) {
                     this.addChildTaskAfter(cNextAt[k], { at: k });
                 }
             }
 
             if(cCombo) this.addChildTaskAfter(cCombo, { key: 'COMBO' });
             if(cComboAt) {
-                for(let k in cComboAt) {
+                for(const k in cComboAt) {
                     this.addChildTaskAfter(cComboAt[k], {key: 'COMBO', at: k });
                 }
             }

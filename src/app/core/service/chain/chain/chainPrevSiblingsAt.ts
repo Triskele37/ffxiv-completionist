@@ -1,8 +1,8 @@
 import { Completion } from '@constant';
-import { AtLinks } from '@model/Chain/ChainLink';
+import type { AtLinks } from '@model/Chain/ChainLink';
 
-import { ChainServiceContext } from '../types';
-import { ChainContext } from './_types';
+import type { ChainServiceContext } from '../types';
+import type { ChainContext } from './_types';
 
 /**
  * TODO - are these two different?

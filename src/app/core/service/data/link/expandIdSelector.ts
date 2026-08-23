@@ -1,6 +1,6 @@
 import { curryIsInRange, parseIdSelector } from '@model/Link/parseIdSelector';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Expand links that end with id selectors

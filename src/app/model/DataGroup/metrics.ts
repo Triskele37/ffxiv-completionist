@@ -1,4 +1,4 @@
-import { DataGroup } from './index';
+import type { DataGroup } from './index';
 import { getEffectiveTotal, getCompleted, getRemaining } from './counts';
 
 export function getPercentComplete(group: DataGroup): string | null {

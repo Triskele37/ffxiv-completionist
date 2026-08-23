@@ -1,8 +1,8 @@
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-import { Match } from '../SearchTypes';
-import { SearchServiceContext } from '../types';
+import type { Match } from '../SearchTypes';
+import type { SearchServiceContext } from '../types';
 
 export function searchTasksForTerm(this: SearchServiceContext) {
     return (

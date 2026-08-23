@@ -1,4 +1,4 @@
-import { DataGroup } from './index';
+import type { DataGroup } from './index';
 
 /**
  * Propagate a change notification to subscribers up through group and parents

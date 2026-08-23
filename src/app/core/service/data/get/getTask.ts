@@ -1,6 +1,6 @@
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Helper for `getChildTask` when lookup is from root

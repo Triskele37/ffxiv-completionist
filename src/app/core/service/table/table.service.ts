@@ -1,20 +1,25 @@
 import { Injectable, signal, inject } from '@angular/core';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { DataService } from '@service/data/data-service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';
 
-import { createFilterFacet, TableFilterFacet } from './filter/_table.filter';
-import { createRowGroupFacet, TableRowGroupFacet } from './rowGroup/_table.rowGroup';
-import { createOrderFacet, TableOrderFacet } from './order/_table.order';
-import { createPropertyFacet, TablePropertyFacet } from './property/_table.property';
-import { createSelectionFacet, TableSelectionFacet } from './selection/_table.selection';
-import * as TableType from './types';
+import type { TableFilterFacet } from './filter/_table.filter';
+import { createFilterFacet } from './filter/_table.filter';
+import type { TableRowGroupFacet } from './rowGroup/_table.rowGroup';
+import { createRowGroupFacet } from './rowGroup/_table.rowGroup';
+import type { TableOrderFacet } from './order/_table.order';
+import { createOrderFacet } from './order/_table.order';
+import type { TablePropertyFacet } from './property/_table.property';
+import { createPropertyFacet } from './property/_table.property';
+import type { TableSelectionFacet } from './selection/_table.selection';
+import { createSelectionFacet } from './selection/_table.selection';
+import type * as TableType from './types';
 
 @Injectable()
 export class TableService implements TableType.TableServiceContext {

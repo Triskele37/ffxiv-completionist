@@ -135,6 +135,6 @@
     [omitGroup]="selectFor === 'moveGroup' ? group : undefined"
     [menuEvent]="groupSelectorEvent"
     [includeRoot]="true"
-    (onGroupChange)="onTargetGroupChange($event)"
-    (onHide)="onSelectorHide()"
+    (groupSelected)="onTargetGroupChange($event)"
+    (hidden)="onSelectorHide()"
 ></com-group-selector>

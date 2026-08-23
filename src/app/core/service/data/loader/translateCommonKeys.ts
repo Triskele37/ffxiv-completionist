@@ -1,6 +1,6 @@
-import { JSONResource } from '@model/JSONResource';
+import type { JSONResource } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Iterate fields on an object, looking for ones that need i18n transformation

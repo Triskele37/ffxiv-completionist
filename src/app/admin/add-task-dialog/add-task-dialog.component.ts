@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Dialog } from 'primeng/dialog';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
 @Component({
     selector: 'com-add-task-dialog',

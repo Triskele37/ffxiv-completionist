@@ -1,6 +1,6 @@
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { SaveStoreService } from '../save-store.service';
+import type { SaveStoreService } from '../save-store.service';
 import { migrateTo_0_5_58 } from './0.5.58';
 import { migrateTo_1_0_0 } from './1.0.0';
 import { migrateTo_1_0_1 } from './1.0.1';

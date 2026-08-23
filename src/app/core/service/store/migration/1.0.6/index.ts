@@ -1,6 +1,6 @@
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { SaveStoreService } from '../../save-store.service';
+import type { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 import { migrateGathering } from './gathering';
 import { migrateFacewear } from './facewear';

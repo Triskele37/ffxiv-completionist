@@ -19,45 +19,44 @@ export default defineConfig([
     },
     {
         files: ['src/**/*.ts'],
+        ignores: ['src/**/*.spec.ts', 'src/**/*.mock.ts'],
         // languageOptions: {
         //     parserOptions: {
-        //         projectService: true,
+        //         projectService: true
         //     }
         // },
-        // parserOptions: {
-        //     project: [
-        //         './tsconfig.serve.json',
-        //         './src/tsconfig.app.json',
-        //         './src/tsconfig.spec.json'
-        //     ],
-        //     'createDefaultProgram': true
-        // },
         extends: [
+            //TODO switch when time to dive down the rabbit hole
+            // ...typescript.configs.recommendedTypeChecked,
             ...typescript.configs.recommended,
             ...angular.configs.tsRecommended,
         ],
         processor: angular.processInlineTemplates,
         rules: {
-            'no-trailing-spaces': 'off',
-            'no-underscore-dangle': 'off',
-            // 'curly': 'off',
-            // 'one-var': 'off',
-
-            // '@typescript-eslint/no-inferrable-types': 'off',
-            // '@typescript-eslint/naming-convention': 'off',
-            // '@typescript-eslint/member-ordering': 'off',
             '@typescript-eslint/no-explicit-any': 'off',
 
-            // '@angular-eslint/directive-selector': 'off',
-            // '@angular-eslint/no-output-on-prefix': 'off',
-            // '@angular-eslint/component-selector': [
-            //     'error',
-            //     {
-            //         type: 'element',
-            //         prefix: 'com',
-            //         style: 'kebab-case'
-            //     }
-            // ]
+            '@typescript-eslint/consistent-type-imports': [
+                'error',
+                {
+                    prefer: 'type-imports'
+                }
+            ],
+        }
+    },
+    {
+        files: ['src/**/*.spec.ts', 'src/**/*.mock.ts'],
+        // languageOptions: {
+        //     parserOptions: {
+        //         projectService: true
+        //     }
+        // },
+        extends: [
+            //TODO switch when time to dive down the rabbit hole
+            // ...typescript.configs.recommendedTypeChecked,
+            ...typescript.configs.recommended,
+        ],
+        rules: {
+            '@typescript-eslint/no-explicit-any': 'off',
         }
     },
     {

@@ -18,17 +18,17 @@
             <div class="actions noSelect">
                 <com-console-games-action
                     [task]="task"
-                    (onClick)="onCloseActions()"
+                    (clicked)="onCloseActions()"
                 ></com-console-games-action>
 
                 <com-gamer-escape-action
                     [task]="task"
-                    (onClick)="onCloseActions()"
+                    (clicked)="onCloseActions()"
                 ></com-gamer-escape-action>
 
                 <com-garland-action
                     [task]="task"
-                    (onClick)="onCloseActions()"
+                    (clicked)="onCloseActions()"
                 ></com-garland-action>
 
                 @if(showCopyId()) {
@@ -54,7 +54,7 @@
 
                     <com-bookmark-action
                         [task]="task"
-                        (onClick)="onCloseActions()"
+                        (clicked)="onCloseActions()"
                     ></com-bookmark-action>
                 }
 

@@ -1,7 +1,7 @@
-import { Completion, CompletionFlag } from '@constant';
-import { Task } from '@model/Task';
+import type { Completion, CompletionFlag } from '@constant';
+import type { Task } from '@model/Task';
 
-import { MarkServiceContext } from '../types';
+import type { MarkServiceContext } from '../types';
 
 /**
  * Update `task.completionFlag$` as either a flag or numeric value

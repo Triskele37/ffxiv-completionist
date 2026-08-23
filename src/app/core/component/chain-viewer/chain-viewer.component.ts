@@ -3,7 +3,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 import { ChainViewerService } from './chain-viewer.service';
 import { ChainViewerNodeComponent } from './chain-viewer-node/chain-viewer-node.component';

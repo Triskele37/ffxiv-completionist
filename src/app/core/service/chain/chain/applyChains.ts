@@ -1,7 +1,7 @@
-import { CompletionFlag } from '@constant';
-import { Task } from '@model/Task';
+import type { CompletionFlag } from '@constant';
+import type { Task } from '@model/Task';
 
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 // Main entry point that fires all chained properties of a task
 export function applyChains(

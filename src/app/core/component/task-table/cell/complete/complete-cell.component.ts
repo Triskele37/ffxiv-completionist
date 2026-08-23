@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 import { FlagCompleteCellComponent } from '../flag-complete/flag-complete-cell.component';
 import { NumericCompleteCellComponent } from '../numeric-complete/numeric-complete-cell.component';

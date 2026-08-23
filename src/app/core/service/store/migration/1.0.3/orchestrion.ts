@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Dungeons split into I and II
  * New Quest group added, split from Other

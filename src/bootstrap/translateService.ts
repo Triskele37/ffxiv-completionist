@@ -1,6 +1,7 @@
-import {
+import type {
     MissingTranslationHandler,
-    MissingTranslationHandlerParams,
+    MissingTranslationHandlerParams} from '@ngx-translate/core';
+import {
     provideMissingTranslationHandler,
     provideTranslateService,
 } from '@ngx-translate/core';

@@ -1,10 +1,11 @@
-import { Component, Input, OnInit, OnDestroy, signal, inject } from '@angular/core';
+import type { OnInit, OnDestroy} from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
-import { Subscription } from 'rxjs';
+import type { Subscription } from 'rxjs';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
 

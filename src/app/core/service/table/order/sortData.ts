@@ -1,6 +1,6 @@
-import { SortEvent } from 'primeng/api';
+import type { SortEvent } from 'primeng/api';
 
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 export function sortData(
     this: TableServiceContext,

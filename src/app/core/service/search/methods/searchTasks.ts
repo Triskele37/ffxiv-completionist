@@ -1,5 +1,5 @@
-import { Match } from '../SearchTypes';
-import { SearchServiceContext } from '../types';
+import type { Match } from '../SearchTypes';
+import type { SearchServiceContext } from '../types';
 
 export function searchTasks(this: SearchServiceContext) {
     return (searchTerm: string, expanded: boolean, partial: boolean): Match[] => {

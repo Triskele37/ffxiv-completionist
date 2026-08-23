@@ -3,7 +3,7 @@ import { ButtonDirective } from 'primeng/button';
 import { RowGroupHeader, RowToggler } from 'primeng/table';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { TableService } from '@service/table/table.service';
 
 @Component({

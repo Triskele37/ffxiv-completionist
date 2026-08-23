@@ -1,4 +1,4 @@
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 // Needs to match task ranges and single task (not .all)
 const ID_SELECTOR_REGEX = /^(.*)\.([0-9,!-]+)$/;

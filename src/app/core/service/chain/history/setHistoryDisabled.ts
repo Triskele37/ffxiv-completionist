@@ -1,4 +1,4 @@
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 export function setHistoryDisabled(
     this: ChainServiceContext,

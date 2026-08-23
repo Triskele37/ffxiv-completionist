@@ -6,13 +6,13 @@ import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { Divider } from 'primeng/divider';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { SearchService } from '@service/search/search.service';
-import { Match } from '@service/search/SearchTypes';
+import type { Match } from '@service/search/SearchTypes';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 
 import { Overlay } from '../Overlay';

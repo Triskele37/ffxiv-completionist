@@ -1,4 +1,4 @@
-import { ChangeStore, ID } from '@service/store/migration/ChangeStore';
+import type { ChangeStore, ID } from '@service/store/migration/ChangeStore';
 
 /** IDs made unique within all shared fates
  * */

@@ -1,9 +1,9 @@
-import { WritableSignal } from '@angular/core';
+import type { WritableSignal } from '@angular/core';
 
-import { Task } from '@model/Task';
-import { ConfigStoreService } from '@service/store/config-store.service';
-import { DataService } from '@service/data/data-service';
-import { MarkService } from '@service/mark/mark.service';
+import type { Task } from '@model/Task';
+import type { ConfigStoreService } from '@service/store/config-store.service';
+import type { DataService } from '@service/data/data-service';
+import type { MarkService } from '@service/mark/mark.service';
 
 import type { ChainApplyFacet } from './apply/_chain.apply';
 import type { ChainChainFacet } from './chain/_chain.chain';

@@ -1,9 +1,9 @@
 import { untracked } from '@angular/core';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 /**
  * Filter change via external, don't trigger onFilterUpdate$

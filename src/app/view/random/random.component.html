@@ -42,6 +42,6 @@
     class="group-selector"
     [includeRoot]="true"
     [menuEvent]="groupSelectorEvent"
-    (onGroupChange)="onGroupChange($event)"
-    (onHide)="onSelectorHide()"
+    (groupSelected)="onGroupChange($event)"
+    (hidden)="onSelectorHide()"
 ></com-group-selector>

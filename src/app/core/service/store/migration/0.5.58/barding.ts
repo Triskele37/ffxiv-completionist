@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Barding ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID

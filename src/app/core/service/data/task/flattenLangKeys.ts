@@ -1,7 +1,7 @@
 import { Lang } from '@constant';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function flattenLangKeys(
     this: DataServiceContext,

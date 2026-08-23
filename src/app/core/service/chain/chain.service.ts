@@ -4,12 +4,17 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 import { DataService } from '@service/data/data-service';
 import { MarkService } from '@service/mark/mark.service';
 
-import { createApplyFacet, ChainApplyFacet } from './apply/_chain.apply';
-import { createChainFacet, ChainChainFacet } from './chain/_chain.chain';
-import { createConstraintFacet, ChainConstraintFacet } from './constraint/_chain.constraint';
-import { createCurrentFacet, ChainCurrentFacet } from './current/_chain.current';
-import { createHistoryFacet, ChainHistoryFacet } from './history/_chain.history';
-import { ChainServiceContext } from './types';
+import type { ChainApplyFacet } from './apply/_chain.apply';
+import { createApplyFacet } from './apply/_chain.apply';
+import type { ChainChainFacet } from './chain/_chain.chain';
+import { createChainFacet } from './chain/_chain.chain';
+import type { ChainConstraintFacet } from './constraint/_chain.constraint';
+import { createConstraintFacet } from './constraint/_chain.constraint';
+import type { ChainCurrentFacet } from './current/_chain.current';
+import { createCurrentFacet } from './current/_chain.current';
+import type { ChainHistoryFacet } from './history/_chain.history';
+import { createHistoryFacet } from './history/_chain.history';
+import type { ChainServiceContext } from './types';
 
 @Injectable({
     providedIn: 'root'

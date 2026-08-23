@@ -1,4 +1,5 @@
-import { Directive, OnDestroy, signal } from '@angular/core';
+import type { OnDestroy} from '@angular/core';
+import { Directive, signal } from '@angular/core';
 
 @Directive()
 export class Overlay implements OnDestroy {

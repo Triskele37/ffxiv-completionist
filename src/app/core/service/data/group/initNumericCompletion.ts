@@ -1,6 +1,6 @@
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function initNumericCompletion(
     this: DataServiceContext,

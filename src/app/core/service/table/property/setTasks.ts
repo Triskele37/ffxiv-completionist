@@ -1,6 +1,6 @@
 import type { TableServiceContext } from '../types';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 /**
  * Hook for any additional processing when updating tasks

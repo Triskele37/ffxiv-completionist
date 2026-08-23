@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Belt recipes were removed in 6.0
  * NOTE: This is only reference for which ids were removed in-game

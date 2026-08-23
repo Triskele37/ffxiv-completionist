@@ -10,8 +10,8 @@ import { searchTasks } from './methods/searchTasks';
 import { searchTasksForTerm } from './methods/searchTasksForTerm';
 import { toggleSearchDepth } from './methods/toggleSearchDepth';
 import { fuzzyMatchObject } from './methods/fuzzyMatchObject';
-import { GroupMatch, Match, Status } from './SearchTypes';
-import { SearchServiceContext } from './types';
+import type { GroupMatch, Match, Status } from './SearchTypes';
+import type { SearchServiceContext } from './types';
 
 @Injectable({
     providedIn: 'root'

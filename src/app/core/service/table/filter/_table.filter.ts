@@ -9,7 +9,7 @@ import { initContext } from './initContext';
 import { modifyFilter } from './modifyFilter';
 import { onFilterCompletion } from './onFilterCompletion';
 import { updateFilteredTasks } from './updateFilteredTasks';
-import { TableFilterContext } from './_types';
+import type { TableFilterContext } from './_types';
 
 export type TableFilterFacet = ReturnType<typeof createFilterFacet>;
 

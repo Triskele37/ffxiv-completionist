@@ -1,7 +1,7 @@
-import { DataGroup } from '@model/DataGroup';
-import { JSONResource } from '@model/JSONResource';
+import type { DataGroup } from '@model/DataGroup';
+import type { JSONResource } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function diveForSave(
     this: DataServiceContext,

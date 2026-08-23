@@ -1,7 +1,7 @@
-import { JSONResource } from '@model/JSONResource';
-import { DataGroup } from '@model/DataGroup';
+import type { JSONResource } from '@model/JSONResource';
+import type { DataGroup } from '@model/DataGroup';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Initialize various UI related properties for this group

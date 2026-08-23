@@ -1,9 +1,10 @@
-import { Component, effect, OnInit, signal, inject } from '@angular/core';
+import type { OnInit} from '@angular/core';
+import { Component, effect, signal, inject } from '@angular/core';
 import { KeyValuePipe, NgClass } from '@angular/common';
 import { Popover } from 'primeng/popover';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { NavigationService } from '@service/navigation/navigation.service';

@@ -1,5 +1,5 @@
 import { Completion } from '@constant';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 export function isComplete(task: Task, threshold?: number): boolean {
     if(task.isNumericCompletion && threshold) {

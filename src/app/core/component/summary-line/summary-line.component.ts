@@ -1,11 +1,12 @@
-import { Component, Input, OnChanges, SimpleChanges, signal, inject } from '@angular/core';
+import type { OnChanges, SimpleChanges} from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
-import { Subscription } from 'rxjs';
+import type { Subscription } from 'rxjs';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
 import { getPercentComplete } from '@model/DataGroup/metrics';
 import { getEffectiveTotal, getCompleted, getRemaining, getExcluded } from '@model/DataGroup/counts';

@@ -5,7 +5,7 @@ import { addHistory } from './addHistory';
 import { setHistoryDisabled } from './setHistoryDisabled';
 import { setHistoryLimit } from './setHistoryLimit';
 import { undoCurrentChain } from './undoCurrentChain';
-import { ChainHistoryFacetContext } from './_types';
+import type { ChainHistoryFacetContext } from './_types';
 
 export type ChainHistoryFacet = ReturnType<typeof createHistoryFacet>;
 

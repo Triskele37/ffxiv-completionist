@@ -1,5 +1,5 @@
 import { INDEX } from '@data/taskIndexes';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 /**
  * Attempt to retrieve a task from INDEX

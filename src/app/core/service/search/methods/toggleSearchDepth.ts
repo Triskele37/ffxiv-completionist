@@ -1,4 +1,4 @@
-import { SearchServiceContext } from '../types';
+import type { SearchServiceContext } from '../types';
 
 export function toggleSearchDepth(this: SearchServiceContext) {
     return (): void => {

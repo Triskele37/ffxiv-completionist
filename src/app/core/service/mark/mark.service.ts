@@ -8,7 +8,7 @@ import { setCompletionNumber } from './methods/setCompletionNumber';
 import { setDefaultCompletion } from './methods/setDefaultCompletion';
 import { getDefaultNumericCompletion } from './methods/getDefaultNumericCompletion';
 
-import { MarkServiceContext } from './types';
+import type { MarkServiceContext } from './types';
 
 /**
  * Service for simple completion marking

@@ -1,4 +1,4 @@
-import { SearchServiceContext } from '../types';
+import type { SearchServiceContext } from '../types';
 
 export function searchGroups(this: SearchServiceContext) {
     return (searchTerm: string, partial: boolean) => {

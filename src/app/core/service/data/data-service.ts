@@ -7,15 +7,21 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 import { MarkService } from '@service/mark/mark.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
-import { createApplyFacet, DataApplyFacet } from './apply/_data.apply';
-import { createGroupFacet, DataGroupFacet } from './group/_data.group';
-import { createGetFacet, DataGetFacet } from './get/_data.get';
-import { createLinkFacet, DataLinkFacet } from './link/_data.link';
-import { createLoaderFacet, DataLoaderFacet } from './loader/_data.loader';
-import { createTaskFacet, DataTaskFacet } from './task/_data.task';
+import type { DataApplyFacet } from './apply/_data.apply';
+import { createApplyFacet } from './apply/_data.apply';
+import type { DataGroupFacet } from './group/_data.group';
+import { createGroupFacet } from './group/_data.group';
+import type { DataGetFacet } from './get/_data.get';
+import { createGetFacet } from './get/_data.get';
+import type { DataLinkFacet } from './link/_data.link';
+import { createLinkFacet } from './link/_data.link';
+import type { DataLoaderFacet } from './loader/_data.loader';
+import { createLoaderFacet } from './loader/_data.loader';
+import type { DataTaskFacet } from './task/_data.task';
+import { createTaskFacet } from './task/_data.task';
 import { initializeData } from './init/initializeData';
 import { initializeService } from './init/initializeService';
-import { DataServiceContext } from './types';
+import type { DataServiceContext } from './types';
 
 @Injectable({
     providedIn: 'root'

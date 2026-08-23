@@ -1,6 +1,6 @@
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { MarkServiceContext } from '../types';
+import type { MarkServiceContext } from '../types';
 /**
  * Get the default value for a numeric task when unmodified
  * */

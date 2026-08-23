@@ -1,6 +1,6 @@
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { SaveStoreService } from '../../save-store.service';
+import type { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrateFates } from './fate';
@@ -11,7 +11,7 @@ import { migratePorters } from './porters';
 import { migrateAetherytes } from './aetherytes';
 import { migrateGatheringLogs } from './gathering-log';
 import { migrateAetherCurrents } from './aether-current';
-import { JSONResource } from '@model/JSONResource';
+import type { JSONResource } from '@model/JSONResource';
 
 export function migrateTo_1_0_0(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.0');

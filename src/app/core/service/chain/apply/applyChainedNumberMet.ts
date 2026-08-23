@@ -1,7 +1,7 @@
-import { Task } from '@model/Task';
-import { Links } from '@model/Chain/ChainLink';
+import type { Task } from '@model/Task';
+import type { Links } from '@model/Chain/ChainLink';
 
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 /**
  * Chain when a numeric is met

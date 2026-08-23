@@ -1,4 +1,4 @@
-import { ChainConstraint } from '../ChainConstraint';
+import type { ChainConstraint } from '../ChainConstraint';
 import {
     isComplete,
     isCompleteOrExcluded,

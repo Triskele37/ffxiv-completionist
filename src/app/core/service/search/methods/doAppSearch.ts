@@ -1,5 +1,6 @@
-import { GroupMatch, Match, Status } from '../SearchTypes';
-import { SearchServiceContext } from '../types';
+import type { GroupMatch, Match} from '../SearchTypes';
+import { Status } from '../SearchTypes';
+import type { SearchServiceContext } from '../types';
 
 export function doAppSearch(this: SearchServiceContext) {
     return (searchTerm: string): void => {

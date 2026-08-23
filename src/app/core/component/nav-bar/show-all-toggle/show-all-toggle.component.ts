@@ -3,7 +3,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 /**

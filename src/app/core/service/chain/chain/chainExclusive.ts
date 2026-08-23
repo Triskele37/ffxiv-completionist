@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
 
-import { ChainServiceContext } from '../types';
-import { ChainContext } from './_types';
+import type { ChainServiceContext } from '../types';
+import type { ChainContext } from './_types';
 
 /**
  * Special handling to cover the case of starting classes and

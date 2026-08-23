@@ -1,4 +1,4 @@
-import { ChainConstraint } from '../ChainConstraint';
+import type { ChainConstraint } from '../ChainConstraint';
 import { isComplete, isExcluded } from '../getCompletion';
 
 export function validateExcludes(constraint: ChainConstraint): boolean {

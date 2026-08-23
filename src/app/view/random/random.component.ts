@@ -2,16 +2,16 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
-import { TieredMenuToggleEvent } from 'primeng/tieredmenu';
+import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
 import { Completion } from '@constant';
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
 // import { changeCompletion } from '@model/Task/completion/changeCompletion';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 // Cache the last roll for if returning to page
 let lastRandom: Task[] = [];

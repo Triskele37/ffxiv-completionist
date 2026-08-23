@@ -2,9 +2,9 @@ import { Injectable, inject } from '@angular/core';
 import { Subject } from 'rxjs';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 /** Handles Group and Task bookmarks

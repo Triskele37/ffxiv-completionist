@@ -1,6 +1,6 @@
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
-import { TableServiceContext, UniqueValues } from '../types';
+import type { TableServiceContext, UniqueValues } from '../types';
 
 /**
  * Retrieve unique values for all filterable columns

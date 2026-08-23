@@ -6,7 +6,7 @@ import { CompleteCellComponent } from '@component/task-table/cell/complete/compl
 import { EditCellComponent } from '@component/task-table/cell/edit/edit-cell.component';
 import { DataCellComponent } from '@component/task-table/cell/data/data-cell.component';
 import { ActionsCellComponent } from '@component/task-table/cell/actions/actions-cell.component';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { TableService } from '@service/table/table.service';
 
 @Component({

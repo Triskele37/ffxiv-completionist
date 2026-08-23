@@ -1,7 +1,7 @@
-import { WritableSignal } from '@angular/core';
-import { CompletionFlag } from '@constant';
-import { AtLinks, Links } from '@model/Chain/ChainLink';
-import { DataGroup } from '@model/DataGroup';
+import type { WritableSignal } from '@angular/core';
+import type { CompletionFlag } from '@constant';
+import type { AtLinks, Links } from '@model/Chain/ChainLink';
+import type { DataGroup } from '@model/DataGroup';
 
 export type Task = {
     dataType: 'Task';

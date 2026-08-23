@@ -1,5 +1,5 @@
-import { WritableSignal } from '@angular/core';
-import { ChainedGroup, ChainStart } from '@service/chain/types';
+import type { WritableSignal } from '@angular/core';
+import type { ChainedGroup, ChainStart } from '@service/chain/types';
 
 export type ChainHistoryFacetContext = {
     history: WritableSignal<ChainHistory[]>;

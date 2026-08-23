@@ -1,6 +1,6 @@
-import { TableRowReorderEvent } from 'primeng/table';
+import type { TableRowReorderEvent } from 'primeng/table';
 
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 /**
  * Custom task reordering

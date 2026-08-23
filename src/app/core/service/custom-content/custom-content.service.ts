@@ -5,16 +5,16 @@ import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
-import { JsonTasks } from '@model/JSONResource';
+import type { DataGroup } from '@model/DataGroup';
+import type { JsonTasks } from '@model/JSONResource';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { getContentLink } from '@model/Link/getContentLink';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { SaveStoreService } from '@service/store/save-store.service';
 
-import { CustomGroupMetaMap, CustomTaskMetaMap } from './CustomContentTypes';
+import type { CustomGroupMetaMap, CustomTaskMetaMap } from './CustomContentTypes';
 
 @Injectable({
     providedIn: 'root'
@@ -58,7 +58,7 @@ export class CustomContentService {
         const storageKey = this.getMetaStorageKey(group);
         const currentMeta = this.svcSaveStore.get(storageKey) || {};
 
-        for(let key in currentMeta) {
+        for(const key in currentMeta) {
             if(key.startsWith('g')) {
                 const subGroup = this.createDataGroupObj(
                     parseInt(key.substring(1), 10),
@@ -324,9 +324,9 @@ export class CustomContentService {
     }
 
     moveTasks(targetGroup: DataGroup, tasks: Task[]): void {
-        const oldParent = tasks[0]._parent;
+        // const oldParent = tasks[0]._parent;
 
-        for(let task of tasks) {
+        for(const task of tasks) {
             // Keep reference to old properties
             const oldMetaStorageKey = this.getMetaStorageKey(task);
             const oldMeta = this.svcSaveStore.get(oldMetaStorageKey) || {};
@@ -378,7 +378,7 @@ export class CustomContentService {
         const parentSave = this.svcSaveStore.get(saveStorageKey);
 
         // Modify *in place* to ensure non-task properties persist
-        for(let task of tasks) {
+        for(const task of tasks) {
             const key = `x${task.id}`;
             const tempMeta = parentMeta[key];
             delete parentMeta[key];

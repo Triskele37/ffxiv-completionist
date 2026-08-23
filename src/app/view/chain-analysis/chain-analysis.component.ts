@@ -1,4 +1,5 @@
-import { Component, OnInit, signal, inject } from '@angular/core';
+import type { OnInit} from '@angular/core';
+import { Component, signal, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -11,8 +12,8 @@ import { Tooltip } from 'primeng/tooltip';
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
-import { Task } from '@model/Task';
-import { ChainConstraint, ChainIssue } from '@model/Chain/ChainConstraint';
+import type { Task } from '@model/Task';
+import type { ChainConstraint, ChainIssue } from '@model/Chain/ChainConstraint';
 import { validateConstraint } from '@model/Chain/validate/validateConstraint';
 import { asChainIssue } from '@model/Chain/util/asChainIssue';
 import { ChainService } from '@service/chain/chain.service';

@@ -1,5 +1,5 @@
-import { ChainServiceContext } from '../types';
-import { ChainHistory } from './_types';
+import type { ChainServiceContext } from '../types';
+import type { ChainHistory } from './_types';
 
 export function undoCurrentChain(
     this: ChainServiceContext,

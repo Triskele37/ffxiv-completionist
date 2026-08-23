@@ -3,7 +3,7 @@ import { signal } from '@angular/core';
 import type { TableServiceContext } from '../types';
 import { expandAll } from './expandAll';
 import { collapseAll } from './collapseAll';
-import { RowGroupContext } from './_types';
+import type { RowGroupContext } from './_types';
 
 export type TableRowGroupFacet = ReturnType<typeof createRowGroupFacet>;
 

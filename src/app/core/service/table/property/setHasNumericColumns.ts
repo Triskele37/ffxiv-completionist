@@ -1,4 +1,4 @@
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
 import type { TableServiceContext } from '../types';
 

@@ -1,4 +1,4 @@
-import { Link } from '@model/Chain/ChainLink';
+import type { Link } from '@model/Chain/ChainLink';
 
 export const curryParentForNumberLink =
     (parent: string) =>

@@ -1,4 +1,4 @@
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
 import type { setCompletion } from './methods/setCompletion';
 import type { setCompletionFlag } from './methods/setCompletionFlag';

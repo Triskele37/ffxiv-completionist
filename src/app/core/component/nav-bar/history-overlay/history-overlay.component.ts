@@ -4,7 +4,7 @@ import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
 import { Tooltip } from 'primeng/tooltip';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 

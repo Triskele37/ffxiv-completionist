@@ -1,6 +1,6 @@
 import type { TableServiceContext } from '../types';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
 /**
  * Hook for any additional processing when updating group

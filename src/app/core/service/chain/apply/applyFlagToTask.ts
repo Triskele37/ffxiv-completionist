@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 export function applyFlagToTask(
     this: ChainServiceContext,

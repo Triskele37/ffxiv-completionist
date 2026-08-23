@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const QUEST = 'overall.duty.quest';
 const CAJ = `${QUEST}.class-and-job-quests`;

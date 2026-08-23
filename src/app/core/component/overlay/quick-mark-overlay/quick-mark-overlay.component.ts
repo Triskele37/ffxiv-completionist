@@ -5,7 +5,7 @@ import { ButtonDirective } from 'primeng/button';
 import { Completion } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 import { Overlay } from '../Overlay';
 import { QuickMarkFromToLabelComponent } from './quick-mark-from-to-label/quick-mark-from-to-label.component';
@@ -40,7 +40,7 @@ export class QuickMarkOverlayComponent extends Overlay {
     private svcData = inject(DataService);
 
     @Input({ required: true }) tasks!: Task[];
-    @Output() onMark = new EventEmitter<void>();
+    @Output() marked = new EventEmitter<void>();
 
     historyList = signal<History[]>([]);
     isModalVisible = signal(false);
@@ -80,7 +80,7 @@ export class QuickMarkOverlayComponent extends Overlay {
             });
 
             if(history.tasks.length) {
-                this.onMark.emit();
+                this.marked.emit();
                 this.addHistory(history);
                 this.svcData.apply.dataToStore();
             }
@@ -104,7 +104,7 @@ export class QuickMarkOverlayComponent extends Overlay {
             }
         });
 
-        this.onMark.emit();
+        this.marked.emit();
         this.svcData.apply.dataToStore();
     }
 

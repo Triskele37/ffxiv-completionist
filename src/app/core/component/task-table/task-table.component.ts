@@ -1,8 +1,9 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges, TemplateRef, ViewChild, inject } from '@angular/core';
+import type { OnChanges, OnInit, SimpleChanges, TemplateRef} from '@angular/core';
+import { Component, Input, ViewChild, inject } from '@angular/core';
 import { Table } from 'primeng/table';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 import { TableService } from '@service/table/table.service';
@@ -66,7 +67,9 @@ export class TaskTableComponent implements OnInit, OnChanges {
                 this.removeScrollListener();
                 og();
             }
-            catch(e) {}
+            catch(e) {
+                console.error('Error in table cleanup:', e);
+            }
         };
     }
 

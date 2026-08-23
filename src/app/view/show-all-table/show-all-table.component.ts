@@ -1,9 +1,10 @@
-import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, inject } from '@angular/core';
+import type { OnChanges, OnDestroy, SimpleChanges} from '@angular/core';
+import { Component, Input, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { TaskTableComponent } from '@component/task-table/task-table.component';
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 
 @Component({
     selector: 'com-show-all-table',

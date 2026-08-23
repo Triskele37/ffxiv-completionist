@@ -1,7 +1,7 @@
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
-import { DataServiceContext } from '../types';
-import { JSON_GROUP } from './_types';
+import type { DataServiceContext } from '../types';
+import type { JSON_GROUP } from './_types';
 
 /**
  * Load the group json file at the given path

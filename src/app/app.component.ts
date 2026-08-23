@@ -1,4 +1,5 @@
-import { AfterViewInit, Component, OnInit, inject } from '@angular/core';
+import type { AfterViewInit, OnInit} from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Toast } from 'primeng/toast';

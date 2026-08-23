@@ -1,6 +1,7 @@
-import { Pipe, PipeTransform, inject } from '@angular/core';
+import type { PipeTransform} from '@angular/core';
+import { Pipe, inject } from '@angular/core';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 

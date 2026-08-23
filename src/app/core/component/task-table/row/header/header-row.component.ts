@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
-import { SelectChangeEvent } from 'primeng/select';
+import type { SelectChangeEvent } from 'primeng/select';
 import { InputText } from 'primeng/inputtext';
 import { Select } from 'primeng/select';
 import { SortableColumn, SortIcon } from 'primeng/table';
 
 import { Completion } from '@constant';
-import { Column } from '@model/Column';
+import type { Column } from '@model/Column';
 import { TableService } from '@service/table/table.service';
 
 @Component({

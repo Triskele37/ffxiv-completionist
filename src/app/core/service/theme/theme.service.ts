@@ -2,7 +2,7 @@ import { Injectable, inject } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-import { HSB, HSL, RGB } from './ThemeTypes';
+import type { HSB, HSL, RGB } from './ThemeTypes';
 
 @Injectable({
     providedIn: 'root'

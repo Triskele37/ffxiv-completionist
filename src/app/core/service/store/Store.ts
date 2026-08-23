@@ -1,10 +1,10 @@
-import { TranslateService } from '@ngx-translate/core';
-import { MessageService } from 'primeng/api';
+import type { TranslateService } from '@ngx-translate/core';
+import type { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
-import { JSONResource } from '@model/JSONResource';
-import { ElectronService } from '@service/electron/electron.service';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
+import type { JSONResource } from '@model/JSONResource';
+import type { ElectronService } from '@service/electron/electron.service';
+import type { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 export abstract class Store<StoreType extends JSONResource> {
     translate: TranslateService;

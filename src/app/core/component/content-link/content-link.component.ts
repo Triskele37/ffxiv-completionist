@@ -4,8 +4,8 @@ import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
 
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 

@@ -1,13 +1,25 @@
-import { Component, ElementRef, Input, signal, SimpleChanges, ViewChild, inject } from '@angular/core';
+import type {
+    ElementRef,
+    SimpleChanges,
+    OnChanges,
+    OnDestroy
+} from '@angular/core';
+import {
+    Component,
+    Input,
+    signal,
+    ViewChild,
+    inject
+} from '@angular/core';
 import { NgClass } from '@angular/common';
 import { Tooltip } from 'primeng/tooltip';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
-import { Column } from '@model/Column';
-import { Task } from '@model/Task';
+import type { Column } from '@model/Column';
+import type { Task } from '@model/Task';
 import { TableService } from '@service/table/table.service';
 
-import { LinkData } from '../LinkData';
+import type { LinkData } from '../LinkData';
 
 @Component({
     selector: 'com-cell-value',
@@ -19,7 +31,7 @@ import { LinkData } from '../LinkData';
         NgClass,
     ]
 })
-export class CellValueComponent {
+export class CellValueComponent implements OnChanges, OnDestroy {
     svcTable = inject(TableService);
 
     @Input({ required: true }) column!: Column;

@@ -1,18 +1,19 @@
-import { Component, effect, OnDestroy, OnInit, signal, inject } from '@angular/core';
+import type { OnDestroy, OnInit} from '@angular/core';
+import { Component, effect, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { RowGroupHeader, RowToggler, Table } from 'primeng/table';
-import { Subscription } from 'rxjs';
+import type { Subscription } from 'rxjs';
 
 import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SearchService } from '@service/search/search.service';
-import { Match } from '@service/search/SearchTypes';
-import { ExpandedRows } from '@service/table/rowGroup/_types';
+import type { Match } from '@service/search/SearchTypes';
+import type { ExpandedRows } from '@service/table/rowGroup/_types';
 
 @Component({
     selector: 'com-task-search-results',

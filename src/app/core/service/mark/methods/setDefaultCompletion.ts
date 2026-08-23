@@ -1,7 +1,7 @@
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
 
-import { MarkServiceContext } from '../types';
+import type { MarkServiceContext } from '../types';
 
 export function setDefaultCompletion(
     this: MarkServiceContext,

@@ -1,7 +1,7 @@
 import { Lang } from '@constant';
-import { JSONResource } from '@model/JSONResource';
+import type { JSONResource } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Retrieve the localized group name

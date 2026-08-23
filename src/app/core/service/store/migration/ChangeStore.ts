@@ -1,8 +1,8 @@
-import { CompletionFlag } from '@constant';
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { CompletionFlag } from '@constant';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { SaveStore } from '../Store.d';
-import { SaveStoreService } from '../save-store.service';
+import type { SaveStore } from '../Store.d';
+import type { SaveStoreService } from '../save-store.service';
 
 export type ID = number | string;
 

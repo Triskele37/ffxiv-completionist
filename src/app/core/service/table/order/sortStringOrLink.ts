@@ -1,6 +1,6 @@
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 const alphanumericRegex = new RegExp(/[^\w.]/g);
 

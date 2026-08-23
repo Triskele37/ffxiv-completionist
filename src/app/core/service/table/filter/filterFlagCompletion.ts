@@ -1,9 +1,9 @@
 import { untracked } from '@angular/core';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { Completion } from '@constant';
 
-import { TableServiceContext } from '../types';
+import type { TableServiceContext } from '../types';
 
 /**
  * Return boolean indicating if task should be filtered out

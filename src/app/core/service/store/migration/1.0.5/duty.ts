@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const DUTY = 'overall.duty';
 const DRF = `${DUTY}.duty-raid-finder`;

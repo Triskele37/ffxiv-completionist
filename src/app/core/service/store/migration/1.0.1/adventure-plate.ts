@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 import { Completion } from '@constant';
 
 /** Adventure Plate added, automatically check received ones

@@ -1,8 +1,9 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import type { PipeTransform } from '@angular/core';
+import { Pipe } from '@angular/core';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { getContentLink } from '@model/Link/getContentLink';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
 /**
  * Returns a pretty path to the passed DataGroup or Task

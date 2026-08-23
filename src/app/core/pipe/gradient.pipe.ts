@@ -1,6 +1,7 @@
-import { Pipe, PipeTransform, inject } from '@angular/core';
+import type { PipeTransform} from '@angular/core';
+import { Pipe, inject } from '@angular/core';
 
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 import { ThemeService } from '@service/theme/theme.service';
 
 @Pipe({

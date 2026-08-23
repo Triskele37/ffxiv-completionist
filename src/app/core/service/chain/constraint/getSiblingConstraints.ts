@@ -1,7 +1,7 @@
-import { ChainConstraint } from '@model/Chain/ChainConstraint';
-import { Task } from '@model/Task';
+import type { ChainConstraint } from '@model/Chain/ChainConstraint';
+import type { Task } from '@model/Task';
 
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 /**
  * Handles chain constraints for:

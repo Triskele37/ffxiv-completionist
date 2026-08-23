@@ -1,7 +1,7 @@
-import { Column } from '@model/Column';
-import { JSONResource } from '@model/JSONResource';
+import type { Column } from '@model/Column';
+import type { JSONResource } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Apply default column properties

@@ -1,10 +1,12 @@
-import { Component, EventEmitter, Input, OnChanges, OnInit, Output, signal, SimpleChanges, ViewChild, inject } from '@angular/core';
+import type { OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import { Component, EventEmitter, Input, Output, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MenuItem } from 'primeng/api';
-import { TieredMenu, TieredMenuToggleEvent } from 'primeng/tieredmenu';
+import type { MenuItem } from 'primeng/api';
+import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
+import { TieredMenu } from 'primeng/tieredmenu';
 
 import { DataService } from '@service/data/data-service';
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 
 @Component({
     selector: 'com-group-selector',
@@ -22,8 +24,8 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
     @Input() omitGroup?: DataGroup;
     @Input() includeRoot?: boolean;
 
-    @Output() onGroupChange = new EventEmitter<DataGroup>();
-    @Output() onHide = new EventEmitter<void>();
+    @Output() groupSelected = new EventEmitter<DataGroup>();
+    @Output() hidden = new EventEmitter<void>();
 
     groupMenuItems = signal<MenuItem[]>([]);
     isFirstClick = true;
@@ -51,7 +53,7 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
 
     onSelectorHide(): void {
         this.isFirstClick = true;
-        this.onHide.emit();
+        this.hidden.emit();
     }
 
     updateMenuItems(): void {
@@ -68,7 +70,7 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
             items.push({
                 label: rootGroup!.name,
                 command: () => {
-                    this.onGroupChange.emit(rootGroup);
+                    this.groupSelected.emit(rootGroup);
                 }
             });
         }
@@ -89,7 +91,7 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
                     this.isFirstClick = false;
                     return;
                 }
-                this.onGroupChange.emit(group);
+                this.groupSelected.emit(group);
             };
 
             items.push(menuItem);

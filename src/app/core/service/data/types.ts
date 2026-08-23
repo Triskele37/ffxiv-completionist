@@ -1,11 +1,11 @@
-import { TranslateService } from '@ngx-translate/core';
-import { AsyncSubject } from 'rxjs';
+import type { TranslateService } from '@ngx-translate/core';
+import type { AsyncSubject } from 'rxjs';
 
-import { DataGroup } from '@model/DataGroup';
-import { ElectronService } from '@service/electron/electron.service';
-import { ConfigStoreService } from '@service/store/config-store.service';
-import { MarkService } from '@service/mark/mark.service';
-import { SaveStoreService } from '@service/store/save-store.service';
+import type { DataGroup } from '@model/DataGroup';
+import type { ElectronService } from '@service/electron/electron.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
+import type { MarkService } from '@service/mark/mark.service';
+import type { SaveStoreService } from '@service/store/save-store.service';
 
 import type { DataApplyFacet } from './apply/_data.apply';
 import type { DataGroupFacet } from './group/_data.group';

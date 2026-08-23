@@ -1,6 +1,6 @@
 import { fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-import { SearchServiceContext } from '../types';
+import type { SearchServiceContext } from '../types';
 
 export function fuzzyMatchObject(this: SearchServiceContext) {
     /**

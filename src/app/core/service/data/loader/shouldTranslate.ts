@@ -1,4 +1,4 @@
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 const COMMON_KEY_PREFIX = '@';
 

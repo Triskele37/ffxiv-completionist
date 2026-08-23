@@ -1,6 +1,6 @@
-import { ConfigStoreService } from '@service/store/config-store.service';
+import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import { DataGroup } from './index';
+import type { DataGroup } from './index';
 import { isComplete, isEmpty } from './metrics';
 
 export function isHiddenGroup(

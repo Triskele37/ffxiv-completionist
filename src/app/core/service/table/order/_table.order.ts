@@ -4,7 +4,7 @@ import type { TableServiceContext } from '../types';
 import { onRowReorder } from './onRowReorder';
 import { sortData } from './sortData';
 import { sortStringOrLink } from './sortStringOrLink';
-import { OrderFacetContext } from './_types';
+import type { OrderFacetContext } from './_types';
 
 export type TableOrderFacet = ReturnType<typeof createOrderFacet>;
 

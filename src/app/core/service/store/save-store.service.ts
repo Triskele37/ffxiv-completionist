@@ -8,7 +8,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { migrateData } from './migration';
 import { Store } from './Store';
-import { SaveStore } from './Store.d';
+import type { SaveStore } from './Store.d';
 
 @Injectable({
     providedIn: 'root'

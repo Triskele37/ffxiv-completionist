@@ -1,7 +1,7 @@
-import { ChainConstraint } from '@model/Chain/ChainConstraint';
-import { DataGroup } from '@model/DataGroup';
+import type { ChainConstraint } from '@model/Chain/ChainConstraint';
+import type { DataGroup } from '@model/DataGroup';
 
-import { ChainServiceContext } from '../types';
+import type { ChainServiceContext } from '../types';
 
 export function getGroupConstraints(
     this: ChainServiceContext,

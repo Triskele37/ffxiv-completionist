@@ -1,5 +1,5 @@
 
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Quest Achievements split into main scenario & job/role
  * */

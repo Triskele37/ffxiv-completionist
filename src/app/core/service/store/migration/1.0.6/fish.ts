@@ -1,4 +1,4 @@
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const GUIDE = 'overall.logs.gathering.fishing-guide';
 const FISHING = `${GUIDE}.fishing`;

@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, OnDestroy, SimpleChanges, signal, effect, inject } from '@angular/core';
+import type { OnChanges, OnDestroy, SimpleChanges} from '@angular/core';
+import { Component, Input, signal, effect, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Badge } from 'primeng/badge';
@@ -10,7 +11,7 @@ import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
-import { ChainedGroup, ChainStart } from '@service/chain/types';
+import type { ChainedGroup, ChainStart } from '@service/chain/types';
 
 import { Overlay } from '../Overlay';
 

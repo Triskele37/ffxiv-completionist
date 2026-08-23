@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
-import { AnySetting, BoolSetting, NumberSetting, Settings, StringSetting } from './settings';
+import type { AnySetting, BoolSetting, NumberSetting, Settings, StringSetting } from './settings';
 
 /** Handles Settings between components
  * */

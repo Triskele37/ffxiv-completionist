@@ -1,6 +1,6 @@
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
 
-import { ChainedTask, ChainServiceContext } from '../types';
+import type { ChainedTask, ChainServiceContext } from '../types';
 
 export function startChain(
     this: ChainServiceContext,

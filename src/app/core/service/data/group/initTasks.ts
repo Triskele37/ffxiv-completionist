@@ -1,8 +1,8 @@
 import { addTaskToIndex } from '@data/taskIndexes';
-import { DataGroup } from '@model/DataGroup';
-import { JsonTasks } from '@model/JSONResource';
+import type { DataGroup } from '@model/DataGroup';
+import type { JsonTasks } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 export function initTasks(
     this: DataServiceContext,

@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
-import { DataGroup } from '@model/DataGroup';
+import type { DataGroup } from '@model/DataGroup';
 import { DataService } from '@service/data/data-service';
 import { ViewToken } from '@view/view-token';
 

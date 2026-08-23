@@ -1,7 +1,7 @@
-import { JSONResource } from '@model/JSONResource';
+import type { JSONResource } from '@model/JSONResource';
 
-import { DataServiceContext } from '../types';
-import { JSON_GROUP } from './_types';
+import type { DataServiceContext } from '../types';
+import type { JSON_GROUP } from './_types';
 
 /**
  * Transform the raw task json to the initial app json (pre-class)

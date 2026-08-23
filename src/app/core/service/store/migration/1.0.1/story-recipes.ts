@@ -1,5 +1,5 @@
 import { Completion } from '@constant';
-import { ChangeStore } from '@service/store/migration/ChangeStore';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Merged Crystarium & Studium story recipes
  * */

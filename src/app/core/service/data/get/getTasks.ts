@@ -1,8 +1,8 @@
-import { Link } from '@model/Chain/ChainLink';
+import type { Link } from '@model/Chain/ChainLink';
 import { curryParentForNumberLink } from '@model/Link/curry';
-import { Task } from '@model/Task';
+import type { Task } from '@model/Task';
 
-import { DataServiceContext } from '../types';
+import type { DataServiceContext } from '../types';
 
 /**
  * Retrieve all tasks in and implied by `data`
