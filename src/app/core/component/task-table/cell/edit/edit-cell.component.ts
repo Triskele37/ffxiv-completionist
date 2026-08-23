@@ -1,4 +1,4 @@
-import type { ElementRef} from '@angular/core';
+import type { ElementRef } from '@angular/core';
 import { Component, Input, ViewChild, inject } from '@angular/core';
 import { Textarea } from 'primeng/textarea';
 

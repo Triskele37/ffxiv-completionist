@@ -1,4 +1,4 @@
-import type { OnChanges, OnDestroy, SimpleChanges} from '@angular/core';
+import type { OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';

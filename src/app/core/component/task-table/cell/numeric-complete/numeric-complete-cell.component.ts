@@ -1,4 +1,4 @@
-import type { OnChanges, SimpleChanges} from '@angular/core';
+import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, Input, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InputNumber } from 'primeng/inputnumber';

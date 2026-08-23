@@ -1,4 +1,4 @@
-import type { OnDestroy, OnInit} from '@angular/core';
+import type { OnDestroy, OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';

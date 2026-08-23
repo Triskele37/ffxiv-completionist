@@ -1,4 +1,4 @@
-import type { OnInit} from '@angular/core';
+import type { OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
 import { KeyValuePipe, NgClass } from '@angular/common';
 import { Popover } from 'primeng/popover';

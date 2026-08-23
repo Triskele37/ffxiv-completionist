@@ -1,4 +1,4 @@
-import type { OnDestroy, OnInit} from '@angular/core';
+import type { OnDestroy, OnInit } from '@angular/core';
 import { Component, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';

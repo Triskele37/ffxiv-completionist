@@ -1,4 +1,4 @@
-import type { OnChanges, SimpleChanges} from '@angular/core';
+import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, EventEmitter, Input, Output, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';

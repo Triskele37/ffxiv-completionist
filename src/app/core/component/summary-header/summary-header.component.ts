@@ -1,4 +1,4 @@
-import type { OnInit} from '@angular/core';
+import type { OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
 import type { MenuItem } from 'primeng/api';
 import { ContextMenu } from 'primeng/contextmenu';

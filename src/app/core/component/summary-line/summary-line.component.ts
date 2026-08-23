@@ -1,4 +1,4 @@
-import type { OnChanges, SimpleChanges} from '@angular/core';
+import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';

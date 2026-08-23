@@ -1,4 +1,4 @@
-import type { OnChanges, OnInit, SimpleChanges, TemplateRef} from '@angular/core';
+import type { OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
 import { Component, Input, ViewChild, inject } from '@angular/core';
 import { Table } from 'primeng/table';
 

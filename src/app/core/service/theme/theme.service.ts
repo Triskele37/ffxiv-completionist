@@ -61,9 +61,9 @@ export class ThemeService {
     }
 
     static hexToRgb(hex: string): string {
-        const r = parseInt(hex.substr(1, 2), 16);
-        const g = parseInt(hex.substr(3, 2), 16);
-        const b = parseInt(hex.substr(5, 2), 16);
+        const r = parseInt(hex.substring(1, 3), 16);
+        const g = parseInt(hex.substring(3, 5), 16);
+        const b = parseInt(hex.substring(5, 7), 16);
         return `${r}, ${g}, ${b}`;
     }
 

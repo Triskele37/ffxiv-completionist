@@ -1,4 +1,4 @@
-import type { WritableSignal} from '@angular/core';
+import type { WritableSignal } from '@angular/core';
 import { Component, effect, signal, ViewChild, inject } from '@angular/core';
 import { KeyValuePipe } from '@angular/common';
 import { Divider } from 'primeng/divider';

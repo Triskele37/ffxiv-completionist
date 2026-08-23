@@ -1,4 +1,4 @@
-import type { GroupMatch, Match} from '../SearchTypes';
+import type { GroupMatch, Match } from '../SearchTypes';
 import { Status } from '../SearchTypes';
 import type { SearchServiceContext } from '../types';
 

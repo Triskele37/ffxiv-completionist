@@ -1,4 +1,4 @@
-import type { OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import type { OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Component, EventEmitter, Input, Output, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import type { MenuItem } from 'primeng/api';

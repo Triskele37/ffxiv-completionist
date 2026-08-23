@@ -1,4 +1,4 @@
-import type { OnInit} from '@angular/core';
+import type { OnInit } from '@angular/core';
 import { Component, HostListener, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 

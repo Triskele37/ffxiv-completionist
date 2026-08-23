@@ -1,4 +1,4 @@
-import type { OnInit} from '@angular/core';
+import type { OnInit } from '@angular/core';
 import { Component, effect, signal, untracked, ViewChild, inject } from '@angular/core';
 import type { MenuItem } from 'primeng/api';
 import { PanelMenu } from 'primeng/panelmenu';

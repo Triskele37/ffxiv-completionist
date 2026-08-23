@@ -1,4 +1,4 @@
-import type { OnDestroy} from '@angular/core';
+import type { OnDestroy } from '@angular/core';
 import { Directive, signal } from '@angular/core';
 
 @Directive()
