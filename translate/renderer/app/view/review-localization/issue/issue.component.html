@@ -1,0 +1,42 @@
+@let issue = svcData.issues()[svcNav.currentIndex()];
+
+<div class="issue-container">
+    <div class="issue-properties">
+        <div class="property-key">
+            <span>{{'UI.ISSUE.KEY' | translate}}:</span>
+            <span>{{'UI.ISSUE.TYPE' | translate}}:</span>
+        </div>
+
+        <div class="property-value">
+            <span class="value">{{issue.key}}</span>
+            <span class="value">{{`ISSUE.${issue.type}` | translate}}</span>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div class="issue-values">
+        <div class="property-key">
+            <span>{{svcData.sourceLang}}:</span>
+            <span>{{svcData.targetLang}}:</span>
+        </div>
+
+        <div class="property-value">
+            <span class="value">{{issue.source}}</span>
+            <span class="value">{{issue.target}}</span>
+        </div>
+    </div>
+
+    <input
+        class="translation-input"
+        [(ngModel)]="translation"
+        [placeholder]="'UI.ISSUE.TRANSLATION' | translate"
+    />
+
+    <button
+        [disabled]="!translation"
+        (click)="onSaveTranslation()"
+    >
+        {{'UI.ISSUE.SAVE_TRANSLATION' | translate}}
+    </button>
+</div>

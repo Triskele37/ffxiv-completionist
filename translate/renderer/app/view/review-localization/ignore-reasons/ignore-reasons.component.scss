@@ -1,0 +1,29 @@
+:host {
+    display: contents;
+
+    .reason-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--content-padding);
+        width: 50%;
+
+        .header {
+            text-decoration: underline;
+        }
+
+        .reasons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--content-padding);
+        }
+
+        .custom-reason {
+            width: 250px;
+        }
+
+        .save-reasons {
+
+        }
+    }
+}

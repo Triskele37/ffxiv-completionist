@@ -42,7 +42,6 @@
             "CHAIN_VIEW": {
                 "SUMMARY": "Chain Viewer",
                 "DETAIL": "Show how tasks are linked. Click content links to change target task",
-
                 "DEPTH": {
                     "SUMMARY": "Max Chain Depth",
                     "DETAIL": "Adjust how many tasks are displayed"
@@ -179,11 +178,11 @@
                 "DETAIL": "Manage app settings and save data"
             },
             "STATISTICS": {
-                "SUMMARY_ALL":  {
+                "SUMMARY_ALL": {
                     "SUMMARY": "Completion Summary - All",
                     "DETAIL": "Shows overall completion progress. Right-click to hide"
                 },
-                "SUMMARY_CURRENT":  {
+                "SUMMARY_CURRENT": {
                     "SUMMARY": "Completion Summary - Current Group",
                     "DETAIL": "Shows completion progress for the current group. Right-click to hide"
                 },

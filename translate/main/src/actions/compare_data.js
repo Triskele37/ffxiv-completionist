@@ -60,9 +60,9 @@ function diveFile(obj, lang1, lang2, fullKeyPath, issues) {
         if (key.endsWith(`_${lang1}`))
             continue;
         if (obj[key] === obj[otherKey]) {
-            if (key.startsWith('npc')) {
+            //TODO - remove
+            if (key.startsWith('npc'))
                 continue;
-            }
             issues.push({
                 key: newFullKeyPath,
                 type: 'UNTRANSLATED',

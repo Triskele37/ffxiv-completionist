@@ -25,11 +25,21 @@ function diveDirectory(dirPath, lang1, lang2, issues) {
             const lang1Path = path_1.default.join(dirPath, lang1 + '.json');
             const i18n_lang1 = (0, loadJson_js_1.loadJson)(lang1Path);
             const lang2Path = path_1.default.join(dirPath, lang2 + '.json');
+            const basePath = dirPath
+                .replace(path_1.default.dirname(exports.I18N_PATH), '')
+                .replaceAll(path_1.default.sep, '.')
+                .substring(1) ?? ''; // leading '.'
             if (fs_1.default.existsSync(lang2Path)) {
                 const i18n_lang2 = (0, loadJson_js_1.loadJson)(lang2Path);
-                dive(i18n_lang1, i18n_lang2, dirPath.split(path_1.default.sep).pop() ?? '', issues);
+                dive(i18n_lang1, i18n_lang2, basePath, issues);
             }
             else {
+                issues.push({
+                    key: basePath,
+                    type: 'MISSING_FILE',
+                    source: undefined,
+                    target: undefined,
+                });
                 console.error(`${lang2Path} does not exist`);
             }
         }

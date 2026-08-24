@@ -5,5 +5,6 @@ export enum IPC_EVENT {
     COMPARE_I18N = 'compare-i18n',
     COMPARE_DATA = 'compare-data',
 
+    SAVE_TRANSLATION = 'save-translation',
     SAVE_VERIFIED = 'save-verified',
 }

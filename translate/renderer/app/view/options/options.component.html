@@ -1,54 +1,55 @@
 <div class="options-container">
-    @if(visible) {
-        <div class="options">
-            <div class="lang-option-container">
-                <div>{{'UI.OPTIONS.LANG' | translate}}</div>
+    <div
+        class="options"
+        [style.width.%]="visible ? 100 : 0"
+    >
+        <div class="lang-option-container">
+            <div>{{'UI.OPTIONS.LANG' | translate}}</div>
 
-                <div class="language-options">
-                    @for(lang of langs; track lang) {
-                        <button
-                            [ngClass]="{ selected: currentLang === lang}"
-                            (click)="onChooseOutputLang(lang)"
-                        >
-                            {{lang}}
-                        </button>
-                    }
-                </div>
-            </div>
-
-            <div class="lang-option-container">
-                <div>{{'UI.OPTIONS.SOURCE' | translate}}</div>
-
-                <div class="language-options">
-                    @for(lang of langs; track lang) {
-                        <button
-                            [ngClass]="{ selected: svcData.sourceLang === lang}"
-                            (click)="onChooseSourceLang(lang)"
-                        >
-                            {{lang}}
-                        </button>
-                    }
-                </div>
-            </div>
-
-            <div class="lang-option-container">
-                <div>{{'UI.OPTIONS.TARGET' | translate}}</div>
-
-                <div class="language-options">
-                    @for(lang of langs; track lang) {
-                        @if(lang !== svcData.sourceLang) {
-                            <button
-                                [ngClass]="{ selected: svcData.targetLang === lang}"
-                                (click)="onChooseTargetLang(lang)"
-                            >
-                                {{lang}}
-                            </button>
-                        }
-                    }
-                </div>
+            <div class="language-options">
+                @for(lang of langs; track lang) {
+                    <button
+                        [ngClass]="{ selected: currentLang === lang}"
+                        (click)="onChooseOutputLang(lang)"
+                    >
+                        {{lang}}
+                    </button>
+                }
             </div>
         </div>
-    }
+
+        <div class="lang-option-container">
+            <div>{{'UI.OPTIONS.SOURCE' | translate}}</div>
+
+            <div class="language-options">
+                @for(lang of langs; track lang) {
+                    <button
+                        [ngClass]="{ selected: svcData.sourceLang === lang}"
+                        (click)="onChooseSourceLang(lang)"
+                    >
+                        {{lang}}
+                    </button>
+                }
+            </div>
+        </div>
+
+        <div class="lang-option-container">
+            <div>{{'UI.OPTIONS.TARGET' | translate}}</div>
+
+            <div class="language-options">
+                @for(lang of langs; track lang) {
+                    @if(lang !== svcData.sourceLang) {
+                        <button
+                            [ngClass]="{ selected: svcData.targetLang === lang}"
+                            (click)="onChooseTargetLang(lang)"
+                        >
+                            {{lang}}
+                        </button>
+                    }
+                }
+            </div>
+        </div>
+    </div>
 
     <div class="actions">
         <button

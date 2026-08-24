@@ -23,8 +23,6 @@ export class AppComponent implements OnInit, AfterViewInit {
     svcData = inject(DataService);
 
     ngOnInit(): void {
-        const lang = localStorage.getItem('lang');
-        this.translate.use(lang || 'en')
         this.translate.get('NAME').subscribe((title) => document.title = `${title}`);
     }
 

@@ -7,12 +7,15 @@
         left: var(--content-padding);
 
         display: flex;
-        gap: calc(var(--content-padding) * 2);
 
         .options {
             display: flex;
             flex-direction: column;
             gap: calc(var(--content-padding) * 2);
+
+            overflow: hidden;
+            transition: width 0.5s;
+            padding-bottom: var(--content-padding);
 
             .lang-option-container {
                 display: flex;

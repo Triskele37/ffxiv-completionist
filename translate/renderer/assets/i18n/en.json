@@ -8,13 +8,16 @@
         },
         "ISSUE": {
             "KEY": "Key",
-            "TYPE": "Type",
-            "SELECT_IGNORE": "Select ignore reason/s",
+            "TYPE": "Issue",
+            "TRANSLATION": "Enter translation...",
+            "SAVE_TRANSLATION": "Save translation",
+            "SELECT_IGNORE": "Ignore reasons",
             "CUSTOM_REASON": "Enter custom...",
-            "SAVE_REASONS": "Save reasons"
+            "SAVE_REASONS": "Save as ignored"
         }
     },
     "ISSUE": {
+        "MISSING_FILE": "Missing file",
         "UNTRANSLATED": "Untranslated value",
         "MISSING_DATA_KEY": "Missing data key",
         "EXTRA_DATA_KEY": "Extra data key",

@@ -2,19 +2,22 @@
     "NAME": "Localization Helper",
     "UI": {
         "OPTIONS": {
-            "LANG": "Output language",
-            "SOURCE": "Source language",
-            "TARGET": "Language to review"
+            "LANG": "Langue de sortie",
+            "SOURCE": "Langue source",
+            "TARGET": "Langue à réviser"
         },
         "ISSUE": {
-            "KEY": "Key",
-            "TYPE": "Type",
-            "SELECT_IGNORE": "Select ignore reason/s",
-            "CUSTOM_REASON": "Enter custom...",
-            "SAVE_REASONS": "Save reasons"
+            "KEY": "Chemin",
+            "TYPE": "Problème",
+            "TRANSLATION": "Enter translation...",
+            "SAVE_TRANSLATION": "Save translation",
+            "SELECT_IGNORE": "Raisons d'ignorer",
+            "CUSTOM_REASON": "Raison personnalisée...",
+            "SAVE_REASONS": "Save as ignored"
         }
     },
     "ISSUE": {
+        "MISSING_FILE": "Missing file",
         "UNTRANSLATED": "Valeur non traduite",
         "MISSING_DATA_KEY": "Clé de données manquante",
         "EXTRA_DATA_KEY": "Clé de données supplémentaire",

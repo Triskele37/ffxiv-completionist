@@ -16,10 +16,13 @@ export class DataService {
     targetLang: Lang = Lang.FR;
 
     verified: any = {};
+
     allI18nIssues: Issue[] = [];
     i18nIssues: Issue[] = [];
+
     allDataIssues: Issue[] = [];
     dataIssues: Issue[] = [];
+
     allIssues: Issue[] = [];
 
     issues: WritableSignal<Issue[]> = signal([]);
@@ -78,18 +81,31 @@ export class DataService {
         return issues.filter((issue) => !diveForKey(this.verified, issue.key, false));
     }
 
+    private removeIssueAtIndex(index: number): void {
+        this.issues.update((issues) => {
+            issues.splice(index, 1)
+            return issues;
+        });
+    }
+
+    saveTranslation(index: number, value: string): boolean {
+        const success: boolean = this.svcElectron.sendSync(
+            IPC_EVENT.SAVE_TRANSLATION,
+            { lang: this.targetLang, issue: this.issues()[index], value }
+        );
+
+        if(success) this.removeIssueAtIndex(index);
+
+        return success;
+    }
+
     saveReasons(index: number, reasons: string[]): boolean {
         const success: boolean = this.svcElectron.sendSync(
             IPC_EVENT.SAVE_VERIFIED,
             { lang: this.targetLang, issue: this.issues()[index], reasons }
         );
 
-        if(success) {
-            this.issues.update((issues) => {
-                issues.splice(index, 1)
-                return issues;
-            });
-        }
+        if(success) this.removeIssueAtIndex(index);
 
         return success;
     }

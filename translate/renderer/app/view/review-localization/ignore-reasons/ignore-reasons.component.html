@@ -1,0 +1,61 @@
+<div class="reason-container">
+    <hr/>
+
+    <span class="header">
+        {{'UI.ISSUE.SELECT_IGNORE' | translate}}
+    </span>
+
+    <div class="reasons">
+        <button
+            [ngClass]="{ selected: reasons['AUTO_TRANSLATED'] }"
+            (click)="toggleReason('AUTO_TRANSLATED')"
+        >
+            {{'REASON.AUTO_TRANSLATED' | translate}}
+        </button>
+        <button
+            [ngClass]="{ selected: reasons['NUMBER_FORMAT'] }"
+            (click)="toggleReason('NUMBER_FORMAT')"
+        >
+            {{'REASON.NUMBER_FORMAT' | translate}}
+        </button>
+        <button
+            [ngClass]="{ selected: reasons['NUMERIC_VALUE'] }"
+            (click)="toggleReason('NUMERIC_VALUE')"
+        >
+            {{'REASON.NUMERIC_VALUE' | translate}}
+        </button>
+        <button
+            [ngClass]="{ selected: reasons['OFFICIAL'] }"
+            (click)="toggleReason('OFFICIAL')"
+        >
+            {{'REASON.OFFICIAL' | translate}}
+        </button>
+        <button
+            [ngClass]="{ selected: reasons['PROPER_NOUN'] }"
+            (click)="toggleReason('PROPER_NOUN')"
+        >
+            {{'REASON.PROPER_NOUN' | translate}}
+        </button>
+        <button
+            [ngClass]="{ selected: reasons['SAME'] }"
+            (click)="toggleReason('SAME')"
+        >
+            {{'REASON.SAME' | translate}}
+        </button>
+    </div>
+
+    <input
+        class="custom-reason"
+        [(ngModel)]="customReason"
+        [placeholder]="'UI.ISSUE.CUSTOM_REASON' | translate"
+        (change)="onCustomReasonChange()"
+    />
+
+    <button
+        class="save-reasons"
+        [disabled]="reasonsArr.length < 1"
+        (click)="onSaveReasons()"
+    >
+        {{'UI.ISSUE.SAVE_REASONS' | translate}}
+    </button>
+</div>

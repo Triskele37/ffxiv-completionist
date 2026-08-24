@@ -5,6 +5,7 @@ import path from 'path';
 import { loadJson } from './loadJson';
 import { Issue } from './types';
 import { VERIFIED_DIR } from './getVerified';
+import { diveToProperty } from './diveToProperty';
 
 type Payload = {
     lang: string;
@@ -19,27 +20,10 @@ export function saveVerified(
     const verifiedPath = path.join(VERIFIED_DIR, `verified_${lang}.json`);
     const verified = loadJson(verifiedPath);
 
-    const segments = issue.key.split('.');
-    const last = segments.pop();
-
-    if(!last) {
-        console.error('Invalid key:', issue.key);
+    const { obj, last } = diveToProperty(verified, issue.key) ?? {};
+    if(!obj || !last) {
         event.returnValue = false;
         return;
-    }
-
-    let obj = verified;
-    while(segments.length) {
-        const next = segments.shift();
-        if(!next) {
-            console.error('Invalid key:', issue.key);
-            event.returnValue = false;
-            return;
-        }
-
-        if(!obj[next]) obj[next] = {};
-
-        obj = obj[next];
     }
 
     obj[last] = reasons.join(' ; ');

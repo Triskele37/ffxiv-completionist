@@ -2,85 +2,34 @@
     <div class="issue-navigation">
         <button
             class="icon-button round-button"
-            (click)="goToPreviousIssue()"
+            (click)="svcNav.goToPreviousIssue(10)"
+        >
+            <i class="mi mi-fast-rewind"></i>
+        </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToPreviousIssue()"
         >
             <i class="mi mi-arrow-back"></i>
         </button>
-        <span>{{currentIndex + 1}} / {{svcData.issues().length}}</span>
+
+        <span>{{svcNav.currentIndex() + 1}} / {{svcData.issues().length}}</span>
+
         <button
             class="icon-button round-button"
-            (click)="goToNextIssue()"
+            (click)="svcNav.goToNextIssue()"
         >
             <i class="mi mi-arrow-forward"></i>
         </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToNextIssue(10)"
+        >
+            <i class="mi mi-fast-forward"></i>
+        </button>
     </div>
 
-    @let issue = svcData.issues()[currentIndex];
+    <com-issue></com-issue>
 
-    <div class="issue-container">
-        <div class="issue-keys">
-            <span>{{'UI.ISSUE.KEY' | translate}}:</span>
-            <span>{{'UI.ISSUE.TYPE' | translate}}:</span>
-            <span>{{svcData.sourceLang}}:</span>
-            <span>{{svcData.targetLang}}:</span>
-        </div>
-
-        <div class="issue-values">
-            <span class="value">{{issue.key}}</span>
-            <span class="value">{{`ISSUE.${issue.type}` | translate}}</span>
-            <span class="value">{{issue.source}}</span>
-            <span class="value">{{issue.target}}</span>
-        </div>
-    </div>
-
-    <div class="reason-container">
-        {{'UI.ISSUE.SELECT_IGNORE' | translate}}
-
-        <button
-            [ngClass]="{ selected: reasons['AUTO_TRANSLATED'] }"
-            (click)="toggleReason('AUTO_TRANSLATED')"
-        >
-            {{'REASON.AUTO_TRANSLATED' | translate}}
-        </button>
-        <button
-            [ngClass]="{ selected: reasons['NUMBER_FORMAT'] }"
-            (click)="toggleReason('NUMBER_FORMAT')"
-        >
-            {{'REASON.NUMBER_FORMAT' | translate}}
-        </button>
-        <button
-            [ngClass]="{ selected: reasons['NUMERIC_VALUE'] }"
-            (click)="toggleReason('NUMERIC_VALUE')"
-        >
-            {{'REASON.NUMERIC_VALUE' | translate}}
-        </button>
-        <button
-            [ngClass]="{ selected: reasons['OFFICIAL'] }"
-            (click)="toggleReason('OFFICIAL')"
-        >
-            {{'REASON.OFFICIAL' | translate}}
-        </button>
-        <button
-            [ngClass]="{ selected: reasons['PROPER_NOUN'] }"
-            (click)="toggleReason('PROPER_NOUN')"
-        >
-            {{'REASON.PROPER_NOUN' | translate}}
-        </button>
-        <button
-            [ngClass]="{ selected: reasons['SAME'] }"
-            (click)="toggleReason('SAME')"
-        >
-            {{'REASON.SAME' | translate}}
-        </button>
-        <input
-            #customReason
-            class="input-reason"
-            placeholder="{{'UI.ISSUE.CUSTOM_REASON' | translate}}"
-            (change)="onCustomReasonChange()"
-        />
-        <br/>
-        <button (click)="saveReasons()">
-            {{'UI.ISSUE.SAVE_REASONS' | translate}}
-        </button>
-    </div>
+    <com-ignore-reasons></com-ignore-reasons>
 </div>

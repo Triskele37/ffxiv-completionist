@@ -5,6 +5,7 @@ import { WindowStore } from '../WindowStore';
 import { compare_i18n } from './compare_i18n';
 import { compareResources } from './compare_data';
 import { getVerified } from './getVerified';
+import { saveDataChange } from './saveDataChange';
 import { saveVerified } from './saveVerified';
 
 export function initActions() {
@@ -12,5 +13,6 @@ export function initActions() {
     ipcMain.on('compare-i18n', compare_i18n);
     ipcMain.on('compare-data', compareResources);
     ipcMain.on('get-verified', getVerified);
+    ipcMain.on('save-translation', saveDataChange);
     ipcMain.on('save-verified', saveVerified);
 }
