@@ -7,13 +7,18 @@ node_modules
 # Compiled output.
 /app-builds
 /build
-/dist
 main.js
-/out-tsc
-/release
 src/**/*.js
 /tmp
 *.js.map
+
+# Electron app build outputs
+/dist
+*/dist
+/release
+*/release
+/out-tsc
+*/out-tsc
 
 # Miscellaneous.
 /.angular/cache

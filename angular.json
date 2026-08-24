@@ -1,56 +1,35 @@
 {
-    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "$schema": "node_modules/@angular/cli/lib/config/schema.json",
     "cli": {
         "schematicCollections": [],
         "analytics": false
     },
     "version": 1,
-    "newProjectRoot": "projects",
     "projects": {
         "ffxiv-completionist": {
             "root": "",
-            "sourceRoot": "src",
+            "sourceRoot": "desktop/renderer",
             "projectType": "application",
-            "schematics": {
-                "@schematics/angular:application": {
-                    "strict": true
-                },
-                "@schematics/angular:component": {
-                    "style": "scss"
-                }
-            },
-            "prefix": "app",
             "architect": {
-                "lint": {
-                    "builder": "@angular-eslint/builder:lint",
-                    "options": {
-                        "lintFilePatterns": [
-                            "app/**/*",
-                            "scripts/**/*",
-                            "src/**/*"
-                        ]
-                    }
-                },
                 "build": {
                     "builder": "@angular-builders/custom-webpack:browser",
                     "options": {
-                        "outputPath": "dist",
-                        "index": "src/index.html",
-                        "main": "src/main.ts",
-                        "tsConfig": "src/tsconfig.app.json",
-                        "polyfills": "src/polyfills.ts",
+                        "outputPath": "desktop/dist",
+                        "index": "desktop/renderer/index.html",
+                        "main": "desktop/renderer/main.ts",
+                        "tsConfig": "desktop/renderer/tsconfig.app.json",
+                        "polyfills": "desktop/renderer/polyfills.ts",
                         "inlineStyleLanguage": "scss",
                         "assets": [
-                            "src/favicon.ico",
-                            "src/assets"
+                            "desktop/renderer/assets"
                         ],
                         "styles": [
-                            "src/styles.scss",
+                            "desktop/renderer/styles.scss",
                             "node_modules/primeicons/primeicons.css"
                         ],
                         "stylePreprocessorOptions": {
                             "includePaths": [
-                                "src/styles"
+                                "desktop/renderer/styles"
                             ]
                         },
                         "scripts": [],
@@ -71,8 +50,8 @@
                             "buildOptimizer": false,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.dev.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.dev.ts"
                                 }
                             ]
                         },
@@ -87,8 +66,8 @@
                             "buildOptimizer": true,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.prod.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.prod.ts"
                                 }
                             ]
                         },
@@ -103,8 +82,8 @@
                             "buildOptimizer": false,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.web.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.web.ts"
                                 }
                             ]
                         },
@@ -119,8 +98,8 @@
                             "buildOptimizer": true,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.web.prod.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.web.prod.ts"
                                 }
                             ]
                         }
@@ -153,21 +132,6 @@
                     }
                 }
             }
-        }
-    },
-    "schematics": {
-        "@angular-eslint/schematics:application": {
-            "setParserOptionsProject": true
-        },
-        "@angular-eslint/schematics:library": {
-            "setParserOptionsProject": true
-        },
-        "@schematics/angular:component": {
-            "prefix": "com",
-            "style": "scss"
-        },
-        "@schematics/angular:directive": {
-            "prefix": "com"
         }
     }
 }

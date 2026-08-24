@@ -27,10 +27,10 @@ from it are subject to the following license
 
 ## Electron Main Process
 ALL code that accesses the file system directly or opens remote sites
-will be contained in the electron main process under `/app`  
+will be contained in the electron main process under `*/main`  
 
 ## Electron Renderer Process
-All UI code exists in this process under `/src`  
+All UI code exists in this process under `*/renderer`  
 Use `ipcRenderer` actions to delegate any file system or remote logic to the main process  
 
 ## Branch Strategy

@@ -20,23 +20,7 @@
         "lib": [
             "es2022",
             "dom"
-        ],
-        "paths": {
-            "@admin/*": ["./src/app/admin/*"],
-            "@constant": ["./src/app/constant"],
-            "@constant/*": ["./src/app/constant/*"],
-            "@component/*": ["./src/app/core/component/*"],
-            "@data": ["./src/app/data"],
-            "@data/*": ["./src/app/data/*"],
-            "@decorator/*": ["./src/app/core/decorator/*"],
-            "@directive/*": ["./src/app/core/directive/*"],
-            "@model/*": ["./src/app/model/*"],
-            "@pipe/*": ["./src/app/core/pipe/*"],
-            "@service/*": ["./src/app/core/service/*"],
-            "@test/*": ["./src/test/*"],
-            "@util/*": ["./src/app/core/util/*"],
-            "@view/*": ["./src/app/view/*"]
-        }
+        ]
     },
     "include": [
         "src/**/*.ts",
@@ -45,6 +29,6 @@
     "exclude": [
         "src/**/*.spec.ts",
         "src/**/*.mock.ts",
-        "node_modules"
+        "./node_modules"
     ]
 }
