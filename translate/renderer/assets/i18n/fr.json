@@ -1,0 +1,31 @@
+{
+    "NAME": "Localization Helper",
+    "UI": {
+        "OPTIONS": {
+            "LANG": "Output language",
+            "SOURCE": "Source language",
+            "TARGET": "Language to review"
+        },
+        "ISSUE": {
+            "KEY": "Key",
+            "TYPE": "Type",
+            "SELECT_IGNORE": "Select ignore reason/s",
+            "CUSTOM_REASON": "Enter custom...",
+            "SAVE_REASONS": "Save reasons"
+        }
+    },
+    "ISSUE": {
+        "UNTRANSLATED": "Valeur non traduite",
+        "MISSING_DATA_KEY": "Clé de données manquante",
+        "EXTRA_DATA_KEY": "Clé de données supplémentaire",
+        "EXTRA_VERIFIED_KEY": "Clé de vérification obsolète"
+    },
+    "REASON": {
+        "AUTO_TRANSLATED": "Valeur auto-traduite",
+        "NUMBER_FORMAT": "Format numérique géré par l’application",
+        "NUMERIC_VALUE": "Valeur numérique",
+        "OFFICIAL": "Nom officiel non traduit",
+        "PROPER_NOUN": "Nom propre",
+        "SAME": "Identique dans les deux langues"
+    }
+}

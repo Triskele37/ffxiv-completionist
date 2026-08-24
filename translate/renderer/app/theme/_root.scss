@@ -1,0 +1,61 @@
+@use 'mixins';
+
+:root {
+    color-scheme: dark;
+
+    // Settings
+    --primary-color: #0f4c75;
+    --primary-color-text: #121212;
+    --text-color-rgb: 255, 255, 255;
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-size: 16px;
+    --font-weight: normal;
+    --bg-hsl: 0, 0%, 12%;
+
+    // Derived from settings
+    --primary-color-light: color-mix(in srgb, var(--primary-color), white 15%);
+    --primary-color-dark: color-mix(in srgb, var(--primary-color), black 15%);
+    --primary-color-darker: color-mix(in srgb, var(--primary-color), black 30%);
+    --primary-color-rgb: 15, 76, 117;
+
+    --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
+
+    --selected: var(--primary-50);
+    --selected-2: rgba(var(--primary-color-rgb), 0.3);
+
+    --primary-50: color-mix(in srgb, var(--primary-color), white 50%);
+    --primary-100: color-mix(in srgb, var(--primary-color), white 40%);
+    --primary-200: color-mix(in srgb, var(--primary-color), white 30%);
+    --primary-300: color-mix(in srgb, var(--primary-color), white 20%);
+    --primary-400: color-mix(in srgb, var(--primary-color), white 10%);
+    --primary-500: var(--primary-color);
+    --primary-600: color-mix(in srgb, var(--primary-color), black 10%);
+    --primary-700: color-mix(in srgb, var(--primary-color), black 20%);
+    --primary-800: color-mix(in srgb, var(--primary-color), black 30%);
+    --primary-900: color-mix(in srgb, var(--primary-color), black 40%);
+    --primary-950: color-mix(in srgb, var(--primary-color), black 50%);
+
+    // Surfaces
+    --surface-50: hsl(var(----bg-hsl) - 10%);
+    --surface-100: hsl(var(----bg-hsl) - 8%);
+    --surface-200: hsl(var(----bg-hsl) - 6%);
+    --surface-300: hsl(var(----bg-hsl) - 4%);
+    --surface-400: hsl(var(----bg-hsl) - 2%);
+    --surface-500: hsl(var(----bg-hsl));
+    --surface-600: hsl(var(----bg-hsl) + 2%);
+    --surface-700: hsl(var(----bg-hsl) + 4%);
+    --surface-800: hsl(var(----bg-hsl) + 6%);
+    --surface-900: hsl(var(----bg-hsl) + 8%);
+
+    // Spacing
+    --content-padding: calc(var(--font-size) * 0.5); // $panelContentPadding
+    --inline-spacing: 0.5rem;
+    --border-radius: 4px;
+    --icon-size: 16px;
+
+    // Other
+    --focus-shadow: 0 0 0 1px var(--primary-color-light);
+    --highlight-bg: rgba(100, 181, 246, .16);
+    --highlight-text-color: rgba(255,255,255,.87);
+}

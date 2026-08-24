@@ -36,32 +36,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.WindowStore = void 0;
 const electron_1 = require("electron");
 const path = __importStar(require("path"));
-const fs = __importStar(require("fs"));
 const url_1 = require("url");
-const ConfigStore_1 = require("./ConfigStore");
 /**
  * Debug Flag
  * - shows the main window regardless of load state (allows console access)
  */
-const DEBUG_MODE = false;
+const DEBUG_MODE = true;
 class WindowStore {
-    static isServe;
-    static maxOnShow;
     static splash = null;
     static main;
-    static create(isServe) {
-        WindowStore.isServe = isServe;
+    static create() {
         WindowStore.loadSplashWindow();
-        WindowStore.loadMainWindow(isServe);
+        WindowStore.loadMainWindow();
         WindowStore.initEvents();
     }
     static initEvents() {
         if (!WindowStore.main)
             return;
-        // Capture window state before close
-        WindowStore.main.on('close', () => {
-            WindowStore.saveWindowState();
-        });
         // Emitted when the window is closed
         WindowStore.main.on('closed', () => {
             // Dereference the window object, usually you would store window
@@ -76,8 +67,6 @@ class WindowStore {
         WindowStore.splash?.destroy();
         WindowStore.splash = null;
         WindowStore.main.show();
-        if (WindowStore.maxOnShow)
-            WindowStore.main.maximize();
         // Fixes redraw issue preventing app interaction
         // Started popping up on release-1-0-0 near commit a70c0ba
         setTimeout(() => {
@@ -93,20 +82,16 @@ class WindowStore {
             height: 200,
             transparent: true,
             frame: false,
-            // alwaysOnTop: true,
             center: true
         });
-        // WindowStore.splash.webContents.openDevTools();
         const splashPath = path.join(electron_1.app.getAppPath(), 'main', 'splash.html');
         const splashUrl = (0, url_1.pathToFileURL)(splashPath);
         WindowStore.splash.loadURL(splashUrl.href);
     }
     //#endregion
     //#region------------------------------------------------------- Main Window
-    static loadMainWindow(isServe) {
-        const oldState = WindowStore.loadWindowState();
+    static loadMainWindow() {
         WindowStore.main = new electron_1.BrowserWindow({
-            ...oldState,
             autoHideMenuBar: true,
             backgroundColor: '#1e1e1e',
             show: DEBUG_MODE,
@@ -116,40 +101,20 @@ class WindowStore {
                 contextIsolation: false,
             },
         });
-        WindowStore.maxOnShow = !!oldState.max;
-        WindowStore.loadWindowUrl(isServe);
+        WindowStore.loadWindowUrl();
         if (DEBUG_MODE)
             WindowStore.main.webContents.openDevTools();
     }
-    static loadWindowUrl(isServe) {
+    static loadWindowUrl() {
         if (!WindowStore.main)
             return;
-        if (isServe) {
-            const { default: debug } = require('electron-debug');
-            debug();
-            const electronModule = path.join(electron_1.app.getAppPath(), '..', 'node_modules', 'electron');
-            require('electron-reload')(electron_1.app.getAppPath(), {
-                electron: require(electronModule)
-            });
-            WindowStore.main.loadURL('http://localhost:4200/');
-        }
-        else {
-            const locations = [
-                // Path when running electron executable
-                path.join(__dirname, '../../index.html'),
-                // win-unpacked & installed
-                path.join(electron_1.app.getAppPath(), 'dist', 'index.html'),
-            ];
-            for (const location of locations) {
-                if (fs.existsSync(location)) {
-                    const url = (0, url_1.pathToFileURL)(location);
-                    void WindowStore.main.loadURL(url.href);
-                    return;
-                }
-            }
-            // Failed to find entry
-            electron_1.app.quit();
-        }
+        const { default: debug } = require('electron-debug');
+        debug();
+        const electronModule = path.join(electron_1.app.getAppPath(), '..', 'node_modules', 'electron');
+        require('electron-reload')(electron_1.app.getAppPath(), {
+            electron: require(electronModule)
+        });
+        WindowStore.main.loadURL('http://localhost:4200/');
     }
     static focusMainWindow() {
         if (WindowStore.main?.isVisible()) {
@@ -157,50 +122,6 @@ class WindowStore {
                 WindowStore.main.restore();
             WindowStore.main.focus();
         }
-    }
-    //#endregion
-    //#region------------------------------------------------------- State
-    static loadWindowState() {
-        if (!ConfigStore_1.ConfigStore.store)
-            ConfigStore_1.ConfigStore.load();
-        if (!ConfigStore_1.ConfigStore.store)
-            return {};
-        if (WindowStore.isStoredPositionValid(ConfigStore_1.ConfigStore.store.window)) {
-            return ConfigStore_1.ConfigStore.store.window;
-        }
-        else {
-            const primaryDisplay = electron_1.screen.getPrimaryDisplay();
-            return {
-                x: primaryDisplay.workArea.x,
-                y: primaryDisplay.workArea.y,
-                height: primaryDisplay.workArea.height,
-                width: primaryDisplay.workArea.width,
-            };
-        }
-    }
-    static saveWindowState() {
-        if (!ConfigStore_1.ConfigStore.store || !WindowStore.main)
-            return;
-        ConfigStore_1.ConfigStore.store.window = {
-            ...WindowStore.main.getNormalBounds(),
-            max: WindowStore.main.isMaximized()
-        };
-        ConfigStore_1.ConfigStore.save();
-    }
-    static isStoredPositionValid(rect) {
-        if (!rect)
-            return false;
-        // Unreasonably small
-        if (rect.height < 100 || rect.width < 100)
-            return false;
-        // Get the window closest to the stored rect
-        const closestWindow = electron_1.screen.getDisplayMatching(rect);
-        // Coordinates are not in a window
-        if (rect.x < closestWindow.bounds.x)
-            return false;
-        if (rect.y < closestWindow.bounds.y)
-            return false;
-        return true;
     }
 }
 exports.WindowStore = WindowStore;

@@ -10,7 +10,7 @@ import { WindowConfig } from './ConfigObj';
  * Debug Flag
  * - shows the main window regardless of load state (allows console access)
  */
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 
 export class WindowStore {
     private static isServe: boolean;
@@ -102,8 +102,7 @@ export class WindowStore {
         WindowStore.maxOnShow = !!oldState.max;
         WindowStore.loadWindowUrl(isServe);
 
-        // if(DEBUG_MODE)
-            WindowStore.main.webContents.openDevTools();
+        if(DEBUG_MODE) WindowStore.main.webContents.openDevTools();
     }
 
     static loadWindowUrl(isServe: boolean): void {

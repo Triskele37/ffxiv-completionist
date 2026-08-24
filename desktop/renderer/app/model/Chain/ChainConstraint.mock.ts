@@ -1,5 +1,5 @@
 import { mockEmptyTask } from '@model/Task/Task.mock';
-import { ChainConstraint } from './types';
+import { ChainConstraint } from './ChainConstraint';
 
 export function mockConstraint(
     properties: Partial<ChainConstraint>

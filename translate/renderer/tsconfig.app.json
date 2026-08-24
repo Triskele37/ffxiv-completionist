@@ -13,7 +13,8 @@
             "@directive/*": ["./app/core/directive/*"],
             "@model/*": ["./app/model/*"],
             "@pipe/*": ["./app/core/pipe/*"],
-            "@service/*": ["./app/core/service/*"],
+            "@service": ["./app/service"],
+            "@service/*": ["./app/service/*"],
             "@test/*": ["./test/*"],
             "@util/*": ["./app/core/util/*"],
             "@view/*": ["./app/view/*"]
@@ -31,6 +32,8 @@
         "**/*.spec.ts",
         "**/*.mock.ts",
         "./env",
+        "dist",
+        "release"
     ],
     "angularCompilerOptions": {
         "strictTemplates": true,

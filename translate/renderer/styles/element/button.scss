@@ -1,0 +1,29 @@
+button {
+    display: flex;
+
+    background: var(--primary-color);
+    color: var(--primary-text-color);
+
+    padding: var(--content-padding);
+
+    border: 1px solid var(--primary-color-light);
+    border-radius: var(--border-radius);
+
+    cursor: pointer;
+
+    &:hover {
+        background: var(--primary-color-dark);
+    }
+
+    &.selected {
+        outline: 2px solid var(--selected);
+    }
+
+    &.icon-button {
+        padding: 0;
+    }
+
+    &.round-button {
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,69 @@
+<div class="options-container">
+    @if(visible) {
+        <div class="options">
+            <div class="lang-option-container">
+                <div>{{'UI.OPTIONS.LANG' | translate}}</div>
+
+                <div class="language-options">
+                    @for(lang of langs; track lang) {
+                        <button
+                            [ngClass]="{ selected: currentLang === lang}"
+                            (click)="onChooseOutputLang(lang)"
+                        >
+                            {{lang}}
+                        </button>
+                    }
+                </div>
+            </div>
+
+            <div class="lang-option-container">
+                <div>{{'UI.OPTIONS.SOURCE' | translate}}</div>
+
+                <div class="language-options">
+                    @for(lang of langs; track lang) {
+                        <button
+                            [ngClass]="{ selected: svcData.sourceLang === lang}"
+                            (click)="onChooseSourceLang(lang)"
+                        >
+                            {{lang}}
+                        </button>
+                    }
+                </div>
+            </div>
+
+            <div class="lang-option-container">
+                <div>{{'UI.OPTIONS.TARGET' | translate}}</div>
+
+                <div class="language-options">
+                    @for(lang of langs; track lang) {
+                        @if(lang !== svcData.sourceLang) {
+                            <button
+                                [ngClass]="{ selected: svcData.targetLang === lang}"
+                                (click)="onChooseTargetLang(lang)"
+                            >
+                                {{lang}}
+                            </button>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="actions">
+        <button
+            class="toggle icon-button round-button"
+            (click)="visible = !visible"
+        >
+            @let icon = visible ? 'back' : 'forward';
+            <i class="mi mi-arrow-{{icon}}"></i>
+        </button>
+
+        <button
+            class="refresh icon-button round-button"
+            (click)="svcData.getIssues()"
+        >
+            <i class="mi mi-refresh"></i>
+        </button>
+    </div>
+</div>

@@ -16,8 +16,8 @@
         "electron:serve-tsc": "tsc -p tsconfig.electron.json",
         "lint": "ng lint",
         "ng": "ng",
-        "ng:serve": "ng serve -c web",
-        "test": "jest",
+        "ng:serve": "ng serve ffxiv-completionist -c web",
+        "test": "jest --config ./renderer/jest.config.js",
         "start": "npm-run-all -p electron:serve ng:serve"
     }
 }

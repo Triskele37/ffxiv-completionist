@@ -1,0 +1,49 @@
+:host {
+    display: contents;
+
+    .review-localization-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: calc(var(--content-padding) * 3);
+
+        height: 100%;
+        width: 100%;
+
+        .issue-navigation {
+            display: flex;
+            align-items: center;
+            gap: var(--content-padding);
+        }
+
+        .issue-container {
+            display: flex;
+            gap: var(--content-padding);
+
+            .issue-keys {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: var(--content-padding);
+            }
+
+            .issue-values {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                gap: var(--content-padding);
+            }
+        }
+
+        .reason-container {
+            display: flex;
+            flex-direction: column;
+            gap: var(--content-padding);
+
+            .input-reason {
+                height: 33px;
+            }
+        }
+    }
+}

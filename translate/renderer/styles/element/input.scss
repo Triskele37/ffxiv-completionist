@@ -1,0 +1,9 @@
+input {
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 0 0 0 5px;
+
+    &:focus-visible {
+        outline: 2px solid var(--selected);
+    }
+}

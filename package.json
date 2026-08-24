@@ -6,7 +6,8 @@
     "private": true,
     "type": "module",
     "workspaces": [
-        "desktop"
+        "desktop",
+        "translate"
     ],
     "scripts": {
         "postinstall": "electron-builder install-app-deps",

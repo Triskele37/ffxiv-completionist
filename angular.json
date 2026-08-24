@@ -7,7 +7,7 @@
     "version": 1,
     "projects": {
         "ffxiv-completionist": {
-            "root": "",
+            "root": "desktop",
             "sourceRoot": "desktop/renderer",
             "projectType": "application",
             "architect": {
@@ -129,6 +129,94 @@
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
                         "buildTarget": "ffxiv-completionist:build"
+                    }
+                }
+            }
+        },
+        "translate": {
+            "root": "translate",
+            "sourceRoot": "translate/renderer",
+            "projectType": "application",
+            "architect": {
+                "build": {
+                    "builder": "@angular-builders/custom-webpack:browser",
+                    "options": {
+                        "outputPath": "translate/dist",
+                        "index": "translate/renderer/index.html",
+                        "main": "translate/renderer/main.ts",
+                        "tsConfig": "translate/renderer/tsconfig.app.json",
+                        "polyfills": "translate/renderer/polyfills.ts",
+                        "inlineStyleLanguage": "scss",
+                        "assets": [
+                            "translate/renderer/assets"
+                        ],
+                        "styles": [
+                            "translate/renderer/styles.scss"
+                        ],
+                        "stylePreprocessorOptions": {
+                            "includePaths": [
+                                "translate/renderer/styles"
+                            ]
+                        },
+                        "scripts": [],
+                        "customWebpackConfig": {
+                            "path": "./angular.webpack.js",
+                            "replaceDuplicatePlugins": true
+                        }
+                    },
+                    "configurations": {
+                        "dev": {
+                            "optimization": false,
+                            "outputHashing": "none",
+                            "sourceMap": true,
+                            "namedChunks": false,
+                            "aot": false,
+                            "extractLicenses": true,
+                            "vendorChunk": false,
+                            "buildOptimizer": false,
+                            "fileReplacements": [
+                                {
+                                    "replace": "translate/renderer/env/env.ts",
+                                    "with": "translate/renderer/env/env.dev.ts"
+                                }
+                            ]
+                        },
+                        "web": {
+                            "optimization": false,
+                            "outputHashing": "none",
+                            "sourceMap": true,
+                            "namedChunks": false,
+                            "aot": false,
+                            "extractLicenses": true,
+                            "vendorChunk": false,
+                            "buildOptimizer": false,
+                            "fileReplacements": [
+                                {
+                                    "replace": "translate/renderer/env/env.ts",
+                                    "with": "translate/renderer/env/env.web.ts"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "serve": {
+                    "builder": "@angular-builders/custom-webpack:dev-server",
+                    "options": {
+                        "buildTarget": "translate:build"
+                    },
+                    "configurations": {
+                        "dev": {
+                            "buildTarget": "translate:build:dev"
+                        },
+                        "web": {
+                            "buildTarget": "translate:build:web"
+                        }
+                    }
+                },
+                "extract-i18n": {
+                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "options": {
+                        "buildTarget": "translate:build"
                     }
                 }
             }
