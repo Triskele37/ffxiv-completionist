@@ -35,6 +35,8 @@ export class DataService {
     allIssues: Issue[] = [];
     issues: WritableSignal<Issue[]> = signal([]);
 
+    groups: string[] = [];
+
     filterView: FilterView = 'ISSUES';
 
     filters: Record<IssueType, boolean> = {
@@ -153,6 +155,14 @@ export class DataService {
         );
 
         this.counts.set(counts);
+
+        this.groups = this.allIssues
+            .map((issue) => issue.key)
+            .map((key) => {
+                if(key.includes('.tasks.')) return key.replace(/\.tasks.*$/, '');
+                else return key.replace(/\.[^.]*$/, '')
+            })
+            .filter((x, i, arr) => arr.indexOf(x) === i);
     }
 
     //#endregion

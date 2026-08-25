@@ -1,10 +1,11 @@
 {
     "NAME": "Localization Helper",
     "UI": {
-        "OPTIONS": {
-            "LANG": "Output language",
-            "SOURCE": "Source language",
-            "TARGET": "Language to review"
+        "FILTER": {
+            "ISSUES": "Unverified",
+            "VERIFIED": "Verified",
+            "TRANSLATED": "Recently Translated",
+            "JUMP_TO": "Jump to group"
         },
         "ISSUE": {
             "KEY": "Key",
@@ -15,12 +16,12 @@
             "SELECT_IGNORE": "Ignore reasons",
             "CUSTOM_REASON": "Enter custom...",
             "SAVE_REASONS": "Save reasons"
+        },
+        "OPTIONS": {
+            "LANG": "Output language",
+            "SOURCE": "Source language",
+            "TARGET": "Language to review"
         }
-    },
-    "FILTER": {
-        "ISSUES": "Unverified",
-        "VERIFIED": "Verified",
-        "TRANSLATED": "Recently Translated"
     },
     "ISSUE": {
         "MISSING_FILE": "Missing file",

@@ -40,16 +40,16 @@
     --primary-950: color-mix(in srgb, var(--primary-color), black 50%);
 
     // Surfaces
-    --surface-50: hsl(var(----bg-hsl) - 10%);
-    --surface-100: hsl(var(----bg-hsl) - 8%);
-    --surface-200: hsl(var(----bg-hsl) - 6%);
-    --surface-300: hsl(var(----bg-hsl) - 4%);
-    --surface-400: hsl(var(----bg-hsl) - 2%);
-    --surface-500: hsl(var(----bg-hsl));
-    --surface-600: hsl(var(----bg-hsl) + 2%);
-    --surface-700: hsl(var(----bg-hsl) + 4%);
-    --surface-800: hsl(var(----bg-hsl) + 6%);
-    --surface-900: hsl(var(----bg-hsl) + 8%);
+    --surface-50: hsl(var(--bg-hsl) - 10%);
+    --surface-100: hsl(var(--bg-hsl) - 8%);
+    --surface-200: hsl(var(--bg-hsl) - 6%);
+    --surface-300: hsl(var(--bg-hsl) - 4%);
+    --surface-400: hsl(var(--bg-hsl) - 2%);
+    --surface-500: hsl(var(--bg-hsl));
+    --surface-600: hsl(var(--bg-hsl) + 2%);
+    --surface-700: hsl(var(--bg-hsl) + 4%);
+    --surface-800: hsl(var(--bg-hsl) + 6%);
+    --surface-900: hsl(var(--bg-hsl) + 8%);
 
     // Spacing
     --content-padding: calc(var(--font-size) * 0.5); // $panelContentPadding

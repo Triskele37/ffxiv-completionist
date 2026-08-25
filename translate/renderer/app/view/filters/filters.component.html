@@ -50,6 +50,17 @@
                 [ngTemplateOutletContext]="{ key: 'STALE' }"
             ></ng-container>
         </div>
+
+        <hr/>
+
+        <span>{{'UI.FILTER.JUMP_TO' | translate}}</span>
+
+        <div class="filter-set">
+            <com-select
+                [options]="svcData.groups"
+                (change)="onSelectGroup($event)"
+            ></com-select>
+        </div>
     </div>
 
     <div class="actions">
@@ -76,7 +87,7 @@
         [ngClass]="{ selected: svcData.filterView === key }"
         (click)="svcData.setFilterView(key)"
     >
-        <span>{{`FILTER.${key}` | translate}}</span>
+        <span>{{`UI.FILTER.${key}` | translate}}</span>
         <span>({{svcData.counts()[key]}})</span>
     </button>
 </ng-template>

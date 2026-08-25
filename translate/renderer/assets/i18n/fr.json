@@ -1,10 +1,11 @@
 {
     "NAME": "Localization Helper",
     "UI": {
-        "OPTIONS": {
-            "LANG": "Langue de sortie",
-            "SOURCE": "Langue source",
-            "TARGET": "Langue à réviser"
+        "FILTER": {
+            "ISSUES": "Unverified",
+            "VERIFIED": "Verified",
+            "TRANSLATED": "Recently Translated",
+            "JUMP_TO": "Jump to group"
         },
         "ISSUE": {
             "KEY": "Chemin",
@@ -15,12 +16,12 @@
             "SELECT_IGNORE": "Raisons d'ignorer",
             "CUSTOM_REASON": "Raison personnalisée...",
             "SAVE_REASONS": "Save reasons"
+        },
+        "OPTIONS": {
+            "LANG": "Langue de sortie",
+            "SOURCE": "Langue source",
+            "TARGET": "Langue à réviser"
         }
-    },
-    "FILTER": {
-        "ISSUES": "Unverified",
-        "VERIFIED": "Verified",
-        "TRANSLATED": "Recently Translated"
     },
     "ISSUE": {
         "MISSING_FILE": "Missing file",

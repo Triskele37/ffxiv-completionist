@@ -1,0 +1,22 @@
+<div class="select-container">
+    <button
+        class="select-button"
+        [attr.data-tooltip]="selected"
+        (click)="handleInputClick()"
+    >
+        <span class="selected">{{selected}}</span>
+        <span class="arrow"><i class="mi mi-arrow-downward"></i></span>
+    </button>
+    @if(visible) {
+        <div class="select-overlay">
+            @for(option of options; track option) {
+                <span
+                    class="select-option"
+                    (click)="handleClick(option)"
+                >
+                    {{option}}
+                </span>
+            }
+        </div>
+    }
+</div>

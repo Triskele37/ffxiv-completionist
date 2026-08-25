@@ -19,7 +19,6 @@
             flex-direction: column;
             gap: var(--content-padding);
 
-            overflow: hidden;
             transition: width 0.5s;
             padding-bottom: var(--content-padding);
             interpolate-size: allow-keywords;

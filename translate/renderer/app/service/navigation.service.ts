@@ -35,4 +35,9 @@ export class NavigationService {
             this.currentIndex.set(this.currentIndex() + jump);
         }
     }
+
+    jumpToGroup(baseKey: string): void {
+        const index = this.svcData.issues().findIndex((i) => i.key.startsWith(baseKey));
+        if(index > -1) this.currentIndex.set(index);
+    }
 }
