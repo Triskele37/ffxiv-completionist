@@ -199,7 +199,4285 @@
                     "ZIRCON": ["PROPER_NOUN"]
                 }
             }
-        }
+        },
+        "APP": {}
     },
-    "resources": {}
+    "resources": {
+        "logs": {
+            "crafting-log": {
+                "alchemist": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "armorer": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "blacksmith": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "carpenter": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "culinarian": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "goldsmith": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "leatherworker": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "weaver": {
+                    "level-based": {
+                        "1-5": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "11-15": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "16-20": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "21-25": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "26-30": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "31-35": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "36-40": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "41-45": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "46-50": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "51-55": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "56-60": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "6-10": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "61-65": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "66-70": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "71-75": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "76-80": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "81-85": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "86-90": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "91-95": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        },
+                        "96-100": {
+                            "json": {
+                                "groupName_fr": ["NUMERIC_VALUE"]
+                            }
+                        }
+                    },
+                    "special-recipes": {
+                        "collectables": {
+                            "50-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "gathering": {
+                "gathering-log": {
+                    "harvesting": {
+                        "collectables": {
+                            "50-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        },
+                        "level": {
+                            "1-5": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "11-15": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "16-20": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "21-25": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "26-30": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "31-35": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "36-40": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "41-45": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "46-50": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "51-55": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "56-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "6-10": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-65": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "66-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-75": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "76-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-85": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "86-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-95": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "96-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    },
+                    "logging": {
+                        "collectables": {
+                            "50-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        },
+                        "level": {
+                            "1-5": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "11-15": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "16-20": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "21-25": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "26-30": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "31-35": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "36-40": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "41-45": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "46-50": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "51-55": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "56-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "6-10": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-65": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "66-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-75": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "76-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-85": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "86-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-95": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "96-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    },
+                    "mining": {
+                        "collectables": {
+                            "50-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        },
+                        "level": {
+                            "1-5": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "11-15": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "16-20": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "21-25": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "26-30": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "31-35": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "36-40": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "41-45": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "46-50": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "51-55": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "56-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "6-10": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-65": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "66-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-75": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "76-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-85": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "86-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-95": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "96-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    },
+                    "quarrying": {
+                        "collectables": {
+                            "50-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        },
+                        "level": {
+                            "1-5": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "11-15": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "16-20": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "21-25": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "26-30": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "31-35": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "36-40": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "41-45": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "46-50": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "51-55": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "56-60": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "6-10": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "61-65": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "66-70": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "71-75": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "76-80": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "81-85": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "86-90": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "91-95": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            },
+                            "96-100": {
+                                "json": {
+                                    "groupName_fr": ["NUMERIC_VALUE"]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "orchestrion-list": {
+                "ambient": {
+                    "json": {
+                        "tasks": {
+                            "x564": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x689": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x690": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "dungeons-i": {
+                    "json": {
+                        "tasks": {
+                            "x502": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x431": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x426": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x559": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x368": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x560": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x396": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x369": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x395": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x557": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x558": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x23": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x22": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x26": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x249": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x326": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x67": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x21": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x62": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x20": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x102": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x248": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x530": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x430": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x421": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x97": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x98": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x99": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x100": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x529": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x101": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x501": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x555": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x130": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x556": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x64": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x24": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x528": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x65": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x155": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x247": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x25": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x432": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x227": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x66": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x103": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x156": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x132": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x131": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x63": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x217": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x500": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x180": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x181": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x228": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x325": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x213": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x182": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x212": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x183": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x210": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x211": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x229": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x251": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x250": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x269": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x214": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x575": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x576": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x577": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x574": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x578": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x579": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x573": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x583": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x612": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x809": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x810": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x811": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "dungeons-ii": {
+                    "json": {
+                        "tasks": {
+                            "x317": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x318": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x319": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x320": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x321": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x322": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x324": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x323": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x344": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x370": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x393": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x416": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x439": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x330": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x475": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x476": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x477": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x478": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x479": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x480": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x481": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x506": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x537": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x538": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x496": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x497": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x539": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x567": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x568": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x596": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x597": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x643": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x648": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x649": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x658": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x659": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x660": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x661": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x662": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x663": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x664": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x665": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x685": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x686": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x693": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x739": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x752": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x771": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x772": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x773": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x774": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x775": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x807": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x808": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x829": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x830": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x834": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "locales-i": {
+                    "json": {
+                        "tasks": {
+                            "x3": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x4": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x49": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x50": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x48": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x58": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x59": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x57": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x165": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x166": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x167": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x76": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x77": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x78": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x92": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x6": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x9": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x7": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x85": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x117": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x89": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x93": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x90": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x119": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x120": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x121": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x164": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x51": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x5": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x54": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x55": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x10": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x56": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x11": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x87": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x88": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x230": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x159": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x160": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x91": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x118": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x86": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x52": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x53": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x94": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x122": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x349": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x174": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x161": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x176": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x177": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x175": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x162": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x178": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x163": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x283": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x284": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x285": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x286": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x203": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x204": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x205": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x206": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x179": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x207": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x231": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x246": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x287": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x382": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x374": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x375": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x429": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x441": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x548": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x549": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x550": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x584": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x603": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "locales-ii": {
+                    "json": {
+                        "tasks": {
+                            "x331": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x332": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x342": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x307": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x308": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x309": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x310": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x311": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x312": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x334": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x335": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x336": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x337": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x338": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x339": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x340": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x341": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x329": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x345": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x371": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x379": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x380": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x383": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x425": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x487": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x488": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x489": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x490": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x491": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x492": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x493": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x494": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x495": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x515": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x516": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x517": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x518": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x519": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x520": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x521": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x523": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x524": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x514": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x546": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x566": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x582": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x591": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x673": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x674": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x675": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x676": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x677": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x678": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x679": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x680": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x681": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x682": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x683": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x684": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x694": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x695": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x696": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x697": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x698": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x699": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x700": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x701": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x708": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x745": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x746": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x728": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x770": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x804": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "online-store-and-bonuses": {
+                    "json": {
+                        "tasks": {
+                            "x114": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x115": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x191": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x192": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x242": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x243": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x244": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x272": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x273": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x274": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x277": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x278": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x279": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x280": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x281": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x282": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x305": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x306": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x358": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x359": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x405": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x406": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x407": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x409": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x433": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x434": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x435": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x445": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x446": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x447": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x448": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x449": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x450": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x451": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x452": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x453": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x454": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x455": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x456": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x457": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x458": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x459": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x460": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x461": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x462": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x503": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x504": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x505": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x533": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x534": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x535": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x562": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x563": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x588": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x589": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x615": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x616": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x617": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x618": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x619": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x620": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x621": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x622": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x623": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x624": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x626": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x627": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x628": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x629": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x630": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x631": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x632": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x633": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x634": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x635": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x641": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x642": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x691": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x692": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x725": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x726": {
+                                "name_fr": ["OFFICIAL"],
+                                "source_fr": ["OFFICIAL"]
+                            },
+                            "x783": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x784": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x785": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x786": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x787": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x789": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x790": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x791": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x792": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x793": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x794": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x795": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x796": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x797": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x798": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x799": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x800": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x801": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x802": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x803": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x831": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x832": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x874": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x875": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x876": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x877": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x878": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x879": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x880": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x881": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x882": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x883": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x884": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x885": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x886": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x887": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x888": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x889": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x890": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "others": {
+                    "json": {
+                        "tasks": {
+                            "x547": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x17": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x47": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x394": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x18": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x19": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x171": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x202": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x346": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x347": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x525": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x526": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x527": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x531": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x8": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x561": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x436": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x270": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x271": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x276": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x123": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x208": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x209": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x288": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x289": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x290": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x237": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x360": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x361": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x412": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x381": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x377": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x410": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x428": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x463": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x387": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x388": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x389": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x390": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x391": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x392": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x413": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x414": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x415": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x438": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x544": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x545": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x572": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x593": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x602": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x736": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x737": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x738": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x732": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x730": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x731": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x735": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x733": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x734": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x776": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x777": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x779": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x780": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x782": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x828": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x861": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x891": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x868": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x869": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x870": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "quests": {
+                    "json": {
+                        "tasks": {
+                            "x12": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x128": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x200": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x442": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x127": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x551": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x552": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x553": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x532": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x13": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x126": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x125": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x14": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x15": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x84": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x129": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x75": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x96": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x79": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x1": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x46": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x74": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x443": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x219": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x376": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x398": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x201": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x172": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x173": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x224": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x225": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x198": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x199": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x378": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x422": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x223": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x266": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x267": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x315": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x423": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x424": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x440": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x444": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x316": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x498": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x522": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x499": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x509": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x585": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x586": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x587": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x590": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x604": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x605": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x606": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x607": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x608": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x609": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x610": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x611": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x613": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x650": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x651": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x644": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x687": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x688": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x723": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x724": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x704": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x749": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x750": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x767": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x768": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x769": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x819": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x820": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x821": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x822": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x823": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x824": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x859": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x860": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x863": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x864": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "raids-i": {
+                    "json": {
+                        "groupName_fr": ["OFFICIAL"],
+                        "tasks": {
+                            "x35": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x36": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x37": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x38": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x218": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x39": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x40": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x41": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x95": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x140": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x42": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x139": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x43": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x44": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x45": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x291": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x142": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x143": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x144": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x145": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x146": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x147": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x108": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x109": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x110": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x111": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x112": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x113": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x141": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x186": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x187": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x188": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x189": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x190": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x232": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x233": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x234": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x235": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x236": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x292": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x293": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x294": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x295": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x296": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x297": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x298": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x265": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x253": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x254": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x255": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x256": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x257": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x258": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x259": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x260": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x261": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x262": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x263": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x264": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x275": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "raids-ii": {
+                    "json": {
+                        "groupName_fr": ["OFFICIAL"],
+                        "tasks": {
+                            "x350": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x351": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x353": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x354": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x355": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x356": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x357": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x372": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x333": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x328": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x363": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x364": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x365": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x399": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x400": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x401": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x402": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x403": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x404": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x419": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x464": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x465": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x352": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x467": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x468": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x470": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x471": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x472": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x473": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x474": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x469": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x485": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x486": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x511": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x512": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x513": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x540": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x541": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x542": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x543": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x569": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x570": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x571": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x598": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x599": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x600": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x601": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x510": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x645": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x646": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x647": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x668": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x669": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x670": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x671": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x672": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x707": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x709": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x710": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x711": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x712": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x713": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x714": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x715": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x716": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x717": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x718": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x719": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x720": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x706": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x705": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x727": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x740": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x741": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x742": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x743": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x744": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x753": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x754": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x788": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x755": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x756": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x757": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x758": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x759": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x760": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x761": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x762": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x763": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x764": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x765": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x766": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x812": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x813": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x814": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x815": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x816": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x817": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x818": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x835": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x836": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x837": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x838": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x839": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x840": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x841": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x842": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x843": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x844": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x848": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x845": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x846": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x847": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x849": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x850": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x851": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x852": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x853": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x854": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x855": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x862": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "seasonal": {
+                    "json": {
+                        "tasks": {
+                            "x16": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x60": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x61": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x80": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x81": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x82": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x83": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x116": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x148": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x149": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x150": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x193": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x220": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x226": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x245": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x299": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x300": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x301": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x302": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x303": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x304": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x348": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x580": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x581": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x594": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x595": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x636": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x637": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x638": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x639": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x640": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x652": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x653": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x654": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x655": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x656": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x722": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x805": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x856": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x857": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x858": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x865": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x866": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x867": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                },
+                "trials": {
+                    "json": {
+                        "tasks": {
+                            "x27": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x28": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x29": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x30": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x31": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x32": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x33": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x34": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x68": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x69": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x70": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x71": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x72": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x73": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x104": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x105": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x106": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x107": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x133": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x134": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x135": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x136": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x137": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x138": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x157": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x158": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x184": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x185": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x215": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x216": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x240": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x241": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x238": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x239": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x252": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x268": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x313": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x314": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x343": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x366": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x386": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x397": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x411": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x427": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x437": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x482": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x483": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x507": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x508": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x536": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x554": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x565": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x592": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x614": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x625": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x666": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x667": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x702": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x703": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x729": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x747": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x748": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x751": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x778": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x806": {
+                                "name_fr": ["OFFICIAL"]
+                            },
+                            "x833": {
+                                "name_fr": ["OFFICIAL"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

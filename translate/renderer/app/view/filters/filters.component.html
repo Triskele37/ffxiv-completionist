@@ -1,8 +1,8 @@
-<div class="filters-container">
-    <div
-        class="filters"
-        [style.width]="visible ? 'auto' : 0"
-    >
+<div
+    class="filters-container"
+    [style.transform]="visible ? 'translateX(0)' : 'translateX(calc(-100% + 24px))'"
+>
+    <div class="filters">
         <span>View</span>
 
         <div class="filter-set button-group vertical">
@@ -57,7 +57,7 @@
 
         <div class="filter-set">
             <com-select
-                [options]="svcData.groups"
+                [options]="svcData.groups()"
                 (change)="onSelectGroup($event)"
             ></com-select>
         </div>

@@ -1,4 +1,4 @@
-import { inject, Injectable, signal, WritableSignal } from '@angular/core';
+import { computed, inject, Injectable, signal, WritableSignal } from '@angular/core';
 import { Lang } from '@constant/Lang';
 
 import { diveForKey } from '@model/diveForKey';
@@ -35,7 +35,7 @@ export class DataService {
     allIssues: Issue[] = [];
     issues: WritableSignal<Issue[]> = signal([]);
 
-    groups: string[] = [];
+    groups = computed(() => this.getIssueGroups());
 
     filterView: FilterView = 'ISSUES';
 
@@ -85,9 +85,12 @@ export class DataService {
     }
 
     saveReasons(index: number): boolean {
+        const issue = this.issues()[index];
+        issue.reasons = issue.reasons?.filter(Boolean);
+
         const success: boolean = this.svcElectron.sendSync(
             IPC_EVENT.SAVE_VERIFIED,
-            { lang: this.targetLang, issue: this.issues()[index] }
+            { lang: this.targetLang, issue }
         );
 
         if(success) this.applyFilters();
@@ -155,14 +158,6 @@ export class DataService {
         );
 
         this.counts.set(counts);
-
-        this.groups = this.allIssues
-            .map((issue) => issue.key)
-            .map((key) => {
-                if(key.includes('.tasks.')) return key.replace(/\.tasks.*$/, '');
-                else return key.replace(/\.[^.]*$/, '')
-            })
-            .filter((x, i, arr) => arr.indexOf(x) === i);
     }
 
     //#endregion
@@ -186,6 +181,16 @@ export class DataService {
             this.sourceLang,
             this.targetLang,
         );
+    }
+
+    private getIssueGroups(): string[] {
+        return this.issues()
+            .map((issue) => issue.key)
+            .map((key) => {
+                if(key.includes('.tasks.')) return key.replace(/\.tasks.*$/, '');
+                else return key.replace(/\.[^.]*$/, '')
+            })
+            .filter((x, i, arr) => arr.indexOf(x) === i);
     }
 
     //#endregion

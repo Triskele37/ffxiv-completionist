@@ -25,5 +25,11 @@
         .save-reasons {
 
         }
+
+        .multiple-checkbox {
+            display: flex;
+            align-items: center;
+            gap: var(--content-padding);
+        }
     }
 }

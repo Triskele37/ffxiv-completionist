@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, HostListener, inject } from '@angular/core';
 
 import { DataService } from '@service/data.service';
 import { NavigationService } from '@service/navigation.service';
@@ -18,4 +18,26 @@ import { IgnoreReasonsComponent } from './ignore-reasons/ignore-reasons.componen
 export class ReviewLocalizationComponent {
     svcData = inject(DataService);
     svcNav = inject(NavigationService);
+
+    // Make Ctrl+F to focus the search input
+    @HostListener('window:keydown', ['$event'])
+    onWindowKeydown($event: KeyboardEvent): void {
+        if($event.ctrlKey) {
+            if($event.key === 'ArrowLeft') {
+                this.svcNav.goToPreviousIssue(10);
+            }
+            else if($event.key === 'ArrowRight') {
+                this.svcNav.goToNextIssue(10);
+            }
+        }
+        else {
+            if($event.key === 'ArrowLeft') {
+                this.svcNav.goToPreviousIssue();
+            }
+            else if($event.key === 'ArrowRight') {
+                this.svcNav.goToNextIssue();
+            }
+        }
+    }
+
 }

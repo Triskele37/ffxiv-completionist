@@ -9,6 +9,9 @@
 
         display: flex;
 
+        transition: transform 0.5s;
+        interpolate-size: allow-keywords;
+
         .button {
             justify-content: space-between;
             gap: var(--content-padding);
@@ -19,9 +22,7 @@
             flex-direction: column;
             gap: var(--content-padding);
 
-            transition: width 0.5s;
             padding-bottom: var(--content-padding);
-            interpolate-size: allow-keywords;
 
             .filter-set {
                 display: flex;
