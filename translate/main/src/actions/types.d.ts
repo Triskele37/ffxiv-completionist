@@ -3,4 +3,5 @@ export type Issue = {
     type: string;
     source: string | undefined;
     target: string | undefined;
+    reasons?: string[];
 };

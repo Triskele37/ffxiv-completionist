@@ -1,6 +1,6 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { NgClass } from '@angular/common';
-import { TranslatePipe } from '@ngx-translate/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 import { DataService } from '@service/data.service';
 import { NavigationService } from '@service/navigation.service';
@@ -16,34 +16,52 @@ import { FormsModule } from '@angular/forms';
         FormsModule,
     ]
 })
-export class IgnoreReasonsComponent {
+export class IgnoreReasonsComponent implements OnInit {
+    svcTranslate = inject(TranslateService);
     svcData = inject(DataService);
     svcNav = inject(NavigationService);
 
-    reasons: Record<string, boolean> = {};
-    reasonsArr: string[] = [];
-
+    reasonKeys: string[] = [];
     customReason: string = '';
 
+    ngOnInit() {
+        this.reasonKeys = Object.keys(this.svcTranslate.instant('REASON'));
+    }
+
     toggleReason(reasonKey: string): void {
-        this.reasons[reasonKey] = !this.reasons[reasonKey];
-        this.updateReasonsArr();
+        const issue = this.svcNav.currentIssue();
+
+        const indexOf = issue.reasons?.indexOf(reasonKey) ?? -1;
+        if(indexOf > -1) issue.reasons!.splice(indexOf, 1);
+        else {
+            if(!issue.reasons) issue.reasons = [];
+            issue.reasons.push(reasonKey);
+        }
     }
 
     onCustomReasonChange(): void {
-        this.updateReasonsArr();
-    }
+        const issue = this.svcNav.currentIssue();
 
-    updateReasonsArr(): void {
-        this.reasonsArr = Object.entries(this.reasons)
-            .map(([key, value]) => value ? key : null)
-            .filter(Boolean) as string[];
+        const indexOf = issue.reasons?.findIndex(
+            (r) => !this.reasonKeys.includes(r)
+        ) ?? -1;
 
-        if(this.customReason) this.reasonsArr.push(this.customReason);
+        if(indexOf > -1 && issue.reasons) {
+            if(this.customReason !== issue.reasons[indexOf]) {
+                issue.reasons[indexOf] = this.customReason;
+            }
+            else if(!this.customReason) {
+                issue.reasons.splice(indexOf, 1);
+            }
+        }
+        else {
+            if(!issue.reasons) issue.reasons = [];
+            issue.reasons.push(this.customReason);
+        }
     }
 
     onSaveReasons(): void {
-        const success = this.svcData.saveReasons(this.svcNav.currentIndex(), this.reasonsArr);
+        const success = this.svcData.saveReasons(this.svcNav.currentIndex());
         if(success) this.svcNav.goToCurrent();
     }
 }

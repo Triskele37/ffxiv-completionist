@@ -1,10 +1,11 @@
 type Obj = Record<string, any>;
 
+// Specifically for verified object
 export function diveForKey(
     obj: Obj,
     fullKey: string,
     failOnMiss: boolean = true
-): string {
+): string[] {
     const segments = fullKey.split('.');
 
     let o = obj;
@@ -17,9 +18,9 @@ export function diveForKey(
         o = o[next];
     }
 
-    if(o && typeof o !== 'string') {
+    if(o && !Array.isArray(o)) {
         if(failOnMiss) console.error('Invalid key:', fullKey);
-        return '';
+        return [];
     }
 
     return o;

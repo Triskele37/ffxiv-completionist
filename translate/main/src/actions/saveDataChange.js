@@ -24,6 +24,7 @@ function saveDataChange(event, payload) {
 function saveI18n({ lang, issue, value }) {
     const segments = issue.key.split('.');
     segments.shift(); // remove i18n segment
+    // Dive segments until the first isn't a directory
     const base = [];
     while (segments.length) {
         const potentialPath = path_1.default.join(compare_i18n_1.I18N_PATH, ...base, segments[0]);
@@ -32,8 +33,10 @@ function saveI18n({ lang, issue, value }) {
         }
         base.push(segments.shift());
     }
+    // Load the i18n at the derived `base`
     const filePath = path_1.default.join(compare_i18n_1.I18N_PATH, base.join(path_1.default.sep), `${lang}.json`);
     const file = (0, loadJson_1.loadJson)(filePath);
+    // Update the value using the remaining `segments` after `base` derivation
     const { obj, last } = (0, diveToProperty_1.diveToProperty)(file, segments.join('.')) ?? {};
     if (!obj || !last)
         return false;
@@ -41,9 +44,10 @@ function saveI18n({ lang, issue, value }) {
     fs_1.default.writeFileSync(filePath, JSON.stringify(file, null, 4));
     return true;
 }
-function saveResources({ lang, issue, value }) {
+function saveResources({ issue, value }) {
     const segments = issue.key.replace('.json.', '.').split('.');
     segments.shift(); // remove resources segment
+    // Dive segments until the first isn't a directory
     const base = [];
     while (segments.length) {
         const potentialPath = path_1.default.join(compare_data_1.RESOURCES_PATH, ...base, segments[0]);
@@ -52,9 +56,11 @@ function saveResources({ lang, issue, value }) {
         }
         base.push(segments.shift());
     }
+    // Load the resource at the derived `base` plus the first segment
     const fileName = segments.shift();
     const filePath = path_1.default.join(compare_data_1.RESOURCES_PATH, base.join(path_1.default.sep), `${fileName}.json`);
     const file = (0, loadJson_1.loadJson)(filePath);
+    // Update the value using the remaining `segments` after `base` derivation
     const { obj, last } = (0, diveToProperty_1.diveToProperty)(file, segments.join('.')) ?? {};
     if (!obj || !last)
         return false;

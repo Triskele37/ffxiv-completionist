@@ -1,0 +1,93 @@
+<div class="filters-container">
+    <div
+        class="filters"
+        [style.width]="visible ? 'auto' : 0"
+    >
+        <span>View</span>
+
+        <div class="filter-set button-group vertical">
+            <ng-container
+                [ngTemplateOutlet]="filterView"
+                [ngTemplateOutletContext]="{ key: 'ISSUES' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filterView"
+                [ngTemplateOutletContext]="{ key: 'VERIFIED' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filterView"
+                [ngTemplateOutletContext]="{ key: 'TRANSLATED' }"
+            ></ng-container>
+<!--            <ng-container-->
+<!--                [ngTemplateOutlet]="filterView"-->
+<!--                [ngTemplateOutletContext]="{ key: 'STALE' }"-->
+<!--            ></ng-container>-->
+        </div>
+
+        <hr/>
+
+        <span>Filter</span>
+
+        <div class="filter-set button-group vertical">
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'MISSING_FILE' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'UNTRANSLATED' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'MISSING_DATA_KEY' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'EXTRA_DATA_KEY' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'EXTRA_VERIFIED_KEY' }"
+            ></ng-container>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button
+            class="toggle icon-button round-button"
+            (click)="visible = !visible"
+        >
+            @let icon = visible ? 'back' : 'forward';
+            <i class="mi mi-arrow-{{icon}}"></i>
+        </button>
+
+        <button
+            class="refresh icon-button round-button"
+            (click)="svcData.getIssues()"
+        >
+            <i class="mi mi-refresh"></i>
+        </button>
+    </div>
+</div>
+
+<ng-template #filterView let-key="key">
+    <button
+        class="button"
+        [ngClass]="{ selected: svcData.filterView === key }"
+        (click)="svcData.setFilterView(key)"
+    >
+        <span>{{`FILTER.${key}` | translate}}</span>
+        <span>({{svcData.counts()[key]}})</span>
+    </button>
+</ng-template>
+
+<ng-template #filter let-key="key">
+    <button
+        class="button"
+        [ngClass]="{ selected: svcData.filters[key] }"
+        (click)="svcData.toggleFilter(key)"
+    >
+        <span>{{`ISSUE.${key}` | translate}}</span>
+        <span>({{svcData.counts()[key]}})</span>
+    </button>
+</ng-template>

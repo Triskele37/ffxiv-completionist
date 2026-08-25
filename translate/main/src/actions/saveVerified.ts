@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 import { loadJson } from './loadJson';
+import { prettyJson } from './prettyJson';
 import { Issue } from './types';
 import { VERIFIED_DIR } from './getVerified';
 import { diveToProperty } from './diveToProperty';
@@ -10,12 +11,11 @@ import { diveToProperty } from './diveToProperty';
 type Payload = {
     lang: string;
     issue: Issue;
-    reasons: string[];
 };
 
 export function saveVerified(
     event: IpcMainEvent,
-    { lang, issue, reasons }: Payload,
+    { lang, issue }: Payload,
 ): void {
     const verifiedPath = path.join(VERIFIED_DIR, `verified_${lang}.json`);
     const verified = loadJson(verifiedPath);
@@ -26,9 +26,14 @@ export function saveVerified(
         return;
     }
 
-    obj[last] = reasons.join(' ; ');
+    if(!issue.reasons?.length) {
+        delete obj[last];
+    }
+    else {
+        obj[last] = issue.reasons;
+    }
 
-    fs.writeFileSync(verifiedPath, JSON.stringify(verified, null, 4));
+    fs.writeFileSync(verifiedPath, prettyJson(verified));
 
     event.returnValue = true;
 }

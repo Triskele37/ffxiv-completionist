@@ -33,5 +33,11 @@
         .translation-input {
             min-width: 300px;
         }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
     }
 }

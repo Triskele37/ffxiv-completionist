@@ -7,9 +7,10 @@ exports.saveVerified = saveVerified;
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const loadJson_1 = require("./loadJson");
+const prettyJson_1 = require("./prettyJson");
 const getVerified_1 = require("./getVerified");
 const diveToProperty_1 = require("./diveToProperty");
-function saveVerified(event, { lang, issue, reasons }) {
+function saveVerified(event, { lang, issue }) {
     const verifiedPath = path_1.default.join(getVerified_1.VERIFIED_DIR, `verified_${lang}.json`);
     const verified = (0, loadJson_1.loadJson)(verifiedPath);
     const { obj, last } = (0, diveToProperty_1.diveToProperty)(verified, issue.key) ?? {};
@@ -17,8 +18,13 @@ function saveVerified(event, { lang, issue, reasons }) {
         event.returnValue = false;
         return;
     }
-    obj[last] = reasons.join(' ; ');
-    fs_1.default.writeFileSync(verifiedPath, JSON.stringify(verified, null, 4));
+    if (!issue.reasons?.length) {
+        delete obj[last];
+    }
+    else {
+        obj[last] = issue.reasons;
+    }
+    fs_1.default.writeFileSync(verifiedPath, (0, prettyJson_1.prettyJson)(verified));
     event.returnValue = true;
 }
 //# sourceMappingURL=saveVerified.js.map

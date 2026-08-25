@@ -11,10 +11,17 @@
             "TYPE": "Issue",
             "TRANSLATION": "Enter translation...",
             "SAVE_TRANSLATION": "Save translation",
+            "UNDO_TRANSLATION": "Undo translation",
             "SELECT_IGNORE": "Ignore reasons",
             "CUSTOM_REASON": "Enter custom...",
-            "SAVE_REASONS": "Save as ignored"
+            "SAVE_REASONS": "Save reasons"
         }
+    },
+    "FILTER": {
+        "ISSUES": "Unverified",
+        "VERIFIED": "Verified",
+        "TRANSLATED": "Recently Translated",
+        "STALE": "Stale"
     },
     "ISSUE": {
         "MISSING_FILE": "Missing file",

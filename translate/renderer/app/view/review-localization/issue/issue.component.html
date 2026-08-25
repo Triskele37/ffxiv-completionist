@@ -1,4 +1,4 @@
-@let issue = svcData.issues()[svcNav.currentIndex()];
+@let issue = svcNav.currentIssue();
 
 <div class="issue-container">
     <div class="issue-properties">
@@ -33,10 +33,18 @@
         [placeholder]="'UI.ISSUE.TRANSLATION' | translate"
     />
 
-    <button
-        [disabled]="!translation"
-        (click)="onSaveTranslation()"
-    >
-        {{'UI.ISSUE.SAVE_TRANSLATION' | translate}}
-    </button>
+    <div class="actions">
+        <button
+            [disabled]="!translation"
+            (click)="onSaveTranslation()"
+        >
+            {{'UI.ISSUE.SAVE_TRANSLATION' | translate}}
+        </button>
+        <button
+            [disabled]="!issue.newValue"
+            (click)="onRemoveTranslation()"
+        >
+            {{'UI.ISSUE.UNDO_TRANSLATION' | translate}}
+        </button>
+    </div>
 </div>

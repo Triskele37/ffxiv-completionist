@@ -1,7 +1,17 @@
 <div class="options-container">
+    <div class="actions">
+        <button
+            class="toggle icon-button round-button"
+            (click)="visible = !visible"
+        >
+            @let icon = visible ? 'forward' : 'back';
+            <i class="mi mi-arrow-{{icon}}"></i>
+        </button>
+    </div>
+
     <div
         class="options"
-        [style.width.%]="visible ? 100 : 0"
+        [style.width]="visible ? 'auto' : 0"
     >
         <div class="lang-option-container">
             <div>{{'UI.OPTIONS.LANG' | translate}}</div>
@@ -49,22 +59,5 @@
                 }
             </div>
         </div>
-    </div>
-
-    <div class="actions">
-        <button
-            class="toggle icon-button round-button"
-            (click)="visible = !visible"
-        >
-            @let icon = visible ? 'back' : 'forward';
-            <i class="mi mi-arrow-{{icon}}"></i>
-        </button>
-
-        <button
-            class="refresh icon-button round-button"
-            (click)="svcData.getIssues()"
-        >
-            <i class="mi mi-refresh"></i>
-        </button>
     </div>
 </div>

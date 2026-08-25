@@ -5,6 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { DataService } from '@service/data.service';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
+import { FiltersComponent } from '@view/filters/filters.component';
 import { OptionsComponent } from '@view/options/options.component';
 import { ReviewLocalizationComponent } from '@view/review-localization/review-localization.component';
 
@@ -13,6 +14,7 @@ import { ReviewLocalizationComponent } from '@view/review-localization/review-lo
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     imports: [
+        FiltersComponent,
         OptionsComponent,
         ReviewLocalizationComponent,
     ]

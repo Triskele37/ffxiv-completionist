@@ -1,40 +1,32 @@
 :host {
     display: contents;
 
-    .options-container {
+    .filters-container {
         position: fixed;
         top: var(--content-padding);
-        right: var(--content-padding);
+        left: var(--content-padding);
+        gap: var(--content-padding);
 
         display: flex;
 
-        .options {
+        .button {
+            justify-content: space-between;
+            gap: var(--content-padding);
+        }
+
+        .filters {
             display: flex;
             flex-direction: column;
-            gap: calc(var(--content-padding) * 2);
+            gap: var(--content-padding);
 
             overflow: hidden;
             transition: width 0.5s;
             padding-bottom: var(--content-padding);
             interpolate-size: allow-keywords;
 
-            .lang-option-container {
+            .filter-set {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                gap: var(--content-padding);
-            }
-
-            .language-options {
-                display: flex;
-                gap: var(--content-padding);
-
-                button {
-                    padding-top: calc(var(--content-padding) / 3);
-                    justify-content: center;
-                    height: 20px;
-                    width: 35px;
-                }
             }
         }
 

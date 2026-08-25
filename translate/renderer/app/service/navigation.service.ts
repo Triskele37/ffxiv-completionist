@@ -1,4 +1,4 @@
-import { inject, Injectable, signal } from '@angular/core';
+import { computed, inject, Injectable, signal } from '@angular/core';
 
 import { DataService } from '@service/data.service';
 
@@ -9,6 +9,7 @@ export class NavigationService {
     svcData = inject(DataService);
 
     currentIndex = signal(0);
+    currentIssue = computed(() => this.svcData.issues()[this.currentIndex()]);
 
     goToPreviousIssue(jump: number = 1): void {
         if(this.currentIndex() - jump < 0) {
