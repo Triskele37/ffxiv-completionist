@@ -2,8 +2,9 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
+import { getVerified } from './getVerified';
 import { loadJson } from './loadJson.js';
-import { Issue } from './types';
+import type { Issue } from './types';
 
 export const RESOURCES_PATH = path.join('..', 'resources');
 
@@ -14,6 +15,7 @@ export function compareResources(
 ): void {
     const issues: Issue[] = [];
 
+    const verified = getVerified(lang2);
     diveDirectories(RESOURCES_PATH, lang1, lang2, issues);
 
     for(const issue of issues) {
@@ -73,7 +75,7 @@ function diveFile(
         if(!Object.hasOwn(obj, otherKey)) {
             issues.push({
                 key: newFullKeyPath,
-                type: 'MISSION_DATA_KEY',
+                type: 'MISSING_DATA_KEY',
                 source: key,
                 target: otherKey,
             });

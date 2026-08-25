@@ -6,19 +6,19 @@ import { Issue, IssueType } from '@model/Issue';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
-export type FilterView = 'ISSUES' | 'VERIFIED' | 'TRANSLATED' | 'STALE';
+export type FilterView = 'ISSUES' | 'VERIFIED' | 'TRANSLATED';
 type COUNT_KEY = FilterView | IssueType;
 
 const getNewCounts = () => ({
     ISSUES: 0,
     VERIFIED: 0,
     TRANSLATED: 0,
-    STALE: 0,
     MISSING_FILE: 0,
     UNTRANSLATED: 0,
     MISSING_DATA_KEY: 0,
     EXTRA_DATA_KEY: 0,
     EXTRA_VERIFIED_KEY: 0,
+    STALE: 0,
 });
 
 @Injectable({
@@ -43,6 +43,7 @@ export class DataService {
         MISSING_DATA_KEY: true,
         EXTRA_DATA_KEY: true,
         EXTRA_VERIFIED_KEY: true,
+        STALE: true,
     };
 
     counts: WritableSignal<Record<COUNT_KEY, number>> = signal(getNewCounts());
@@ -138,13 +139,15 @@ export class DataService {
                     if(this.filterView !== 'ISSUES') return false;
                 }
 
+                // Count before filter return
+                counts[issue.type]++;
+
                 for(const issueType in this.filters) {
                     if(!this.filters[issueType as IssueType] && issue.type === issueType) {
                         return false;
                     }
                 }
 
-                counts[issue.type]++;
                 return true;
             })
         );

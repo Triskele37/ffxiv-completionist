@@ -7,10 +7,12 @@ exports.RESOURCES_PATH = void 0;
 exports.compareResources = compareResources;
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
+const getVerified_1 = require("./getVerified");
 const loadJson_js_1 = require("./loadJson.js");
 exports.RESOURCES_PATH = path_1.default.join('..', 'resources');
 function compareResources(event, lang1, lang2) {
     const issues = [];
+    const verified = (0, getVerified_1.getVerified)(lang2);
     diveDirectories(exports.RESOURCES_PATH, lang1, lang2, issues);
     for (const issue of issues) {
         issue.key = issue.key
@@ -50,7 +52,7 @@ function diveFile(obj, lang1, lang2, fullKeyPath, issues) {
         if (!Object.hasOwn(obj, otherKey)) {
             issues.push({
                 key: newFullKeyPath,
-                type: 'MISSION_DATA_KEY',
+                type: 'MISSING_DATA_KEY',
                 source: key,
                 target: otherKey,
             });

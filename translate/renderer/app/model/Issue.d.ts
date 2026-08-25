@@ -12,4 +12,5 @@ export type IssueType =
     | 'UNTRANSLATED'
     | 'MISSING_DATA_KEY'
     | 'EXTRA_DATA_KEY'
-    | 'EXTRA_VERIFIED_KEY';
+    | 'EXTRA_VERIFIED_KEY'
+    | 'STALE';

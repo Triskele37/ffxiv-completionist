@@ -20,15 +20,15 @@
     "FILTER": {
         "ISSUES": "Unverified",
         "VERIFIED": "Verified",
-        "TRANSLATED": "Recently Translated",
-        "STALE": "Stale"
+        "TRANSLATED": "Recently Translated"
     },
     "ISSUE": {
         "MISSING_FILE": "Missing file",
         "UNTRANSLATED": "Untranslated value",
         "MISSING_DATA_KEY": "Missing data key",
         "EXTRA_DATA_KEY": "Extra data key",
-        "EXTRA_VERIFIED_KEY": "Extra verified key"
+        "EXTRA_VERIFIED_KEY": "Extra verified key",
+        "STALE": "Stale ignore"
     },
     "REASON": {
         "AUTO_TRANSLATED": "Auto-translated",

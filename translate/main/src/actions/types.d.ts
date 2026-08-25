@@ -5,3 +5,5 @@ export type Issue = {
     target: string | undefined;
     reasons?: string[];
 };
+
+export type JSON = Record<string, unknown>;

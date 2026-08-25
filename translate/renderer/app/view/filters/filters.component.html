@@ -18,10 +18,6 @@
                 [ngTemplateOutlet]="filterView"
                 [ngTemplateOutletContext]="{ key: 'TRANSLATED' }"
             ></ng-container>
-<!--            <ng-container-->
-<!--                [ngTemplateOutlet]="filterView"-->
-<!--                [ngTemplateOutletContext]="{ key: 'STALE' }"-->
-<!--            ></ng-container>-->
         </div>
 
         <hr/>
@@ -48,6 +44,10 @@
             <ng-container
                 [ngTemplateOutlet]="filter"
                 [ngTemplateOutletContext]="{ key: 'EXTRA_VERIFIED_KEY' }"
+            ></ng-container>
+            <ng-container
+                [ngTemplateOutlet]="filter"
+                [ngTemplateOutletContext]="{ key: 'STALE' }"
             ></ng-container>
         </div>
     </div>

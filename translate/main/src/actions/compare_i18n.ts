@@ -2,8 +2,10 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
-import type { Issue } from './types';
+import { getVerified } from './getVerified';
 import { loadJson } from './loadJson.js';
+import { Issue, JSON } from './types';
+import { diveToProperty } from './diveToProperty';
 
 export const I18N_PATH = path.join('..', 'desktop', 'renderer', 'assets', 'i18n');
 
@@ -14,7 +16,8 @@ export function compare_i18n(
 ): void {
     const issues: Issue[] = [];
 
-    diveDirectory(I18N_PATH, lang1, lang2, issues);
+    const verified = getVerified(lang2);
+    diveDirectory(I18N_PATH, lang1, lang2, issues, verified);
 
     event.returnValue = issues;
 }
@@ -23,14 +26,15 @@ function diveDirectory(
     dirPath: string,
     lang1: string,
     lang2: string,
-    issues: Issue[]
+    issues: Issue[],
+    verified: JSON,
 ): void {
     const entities = fs.readdirSync(dirPath);
     for(const entity of entities) {
         const entityFullPath = path.join(dirPath, entity);
 
         if(fs.lstatSync(entityFullPath).isDirectory()) {
-            diveDirectory(entityFullPath, lang1, lang2, issues);
+            diveDirectory(entityFullPath, lang1, lang2, issues, verified);
         }
         else if(entity === `${lang1}.json`) {
             const lang1Path = path.join(dirPath, lang1 + '.json');
@@ -44,7 +48,7 @@ function diveDirectory(
 
             if(fs.existsSync(lang2Path)) {
                 const i18n_lang2 = loadJson(lang2Path);
-                dive(i18n_lang1, i18n_lang2, basePath, issues);
+                dive(i18n_lang1, i18n_lang2, basePath, issues, verified);
             }
             else {
                 issues.push({
@@ -63,7 +67,8 @@ function dive(
     objA: any,
     objB: any,
     fullKeyPath: string,
-    issues: Issue[]
+    issues: Issue[],
+    verified: JSON,
 ): void {
     const aIsObject = typeof objA === 'object' && objA !== null;
     const bIsObject = typeof objB === 'object' && objB !== null;
@@ -77,6 +82,17 @@ function dive(
                 source: objA,
                 target: objB,
             });
+        }
+        else {
+            const { obj, last } = diveToProperty(verified, fullKeyPath) ?? {};
+            if(obj && last && obj[last]?.length) {
+                issues.push({
+                    key: fullKeyPath,
+                    type: 'STALE',
+                    source: objA,
+                    target: objB,
+                });
+            }
         }
 
         return;
@@ -96,7 +112,7 @@ function dive(
             continue;
         }
 
-        dive(objA[aKey], objB[aKey], newFullKeyPath, issues);
+        dive(objA[aKey], objB[aKey], newFullKeyPath, issues, verified);
     }
 
     // verify b doesn't have keys a doesn't
