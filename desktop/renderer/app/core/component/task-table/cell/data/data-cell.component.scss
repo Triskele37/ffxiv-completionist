@@ -11,6 +11,10 @@
     // Pull the popover up so it doesn't disappear when locked by moving over the cell below
     margin-top: 0;
 
+    // Prevent prime from freaking out
+    max-height: 200px;
+    overflow-y: auto;
+
     // Remove the overlay arrow
     &:before, &:after {
         display: none;

@@ -37,7 +37,7 @@
   * v-anc-c-dungeons
     * duties
       * records
-  * exploratory-missions
+  * field-operations
     * eureka
       * aetherytes
       * duties

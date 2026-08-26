@@ -26,8 +26,8 @@
         "x66": {
             "name_en": "Modern Aesthetics - Early to Rise",
             "name_fr": "Méthode de coiffure “Lêve-tôt”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.bozja.duties.1",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.bozja.duties.1", "chest.230"],
             "patch": "5.45"
         },
         "x67": {
@@ -41,15 +41,15 @@
         "x72": {
             "name_en": "Modern Aesthetics - Controlled Chaos",
             "name_fr": "Méthode de coiffure “Coupe asymétrique”",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
             "patch": "5.21"
         },
         "x79": {
             "name_en": "Modern Aesthetics - Modern Legend",
             "name_fr": "Méthode de coiffure “Mèches légendaires”",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.11"
         },
@@ -103,8 +103,8 @@
         "x267": {
             "name_en": "Modern Aesthetics - Gyr Abanian Plait",
             "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
-            "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.540",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.110", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.35"
         },
@@ -118,15 +118,15 @@
         "x280": {
             "name_en": "Modern Aesthetics - Saintly Style",
             "name_fr": "Méthode de coiffure “Ailes de saint”",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.318", "chest.319"],
             "patch": "5.31"
         },
         "x281": {
             "name_en": "Modern Aesthetics - Wind Caller",
             "name_fr": "Méthode de coiffure “Vartan”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@150 CURRENCY.EM.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@150 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.35"
         },
@@ -157,8 +157,8 @@
         "x302": {
             "name_en": "Modern Aesthetics - Samsonian Locks",
             "name_fr": "Méthode de coiffure “Cheveux longs”",
-            "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.100", "chest.101", "chest.102", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "3.4"
         },
@@ -207,8 +207,8 @@
         "x397": {
             "name_en": "Modern Aesthetics - Form and Function",
             "name_fr": "Méthode de coiffure “Tresse bandeau”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.PYROS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.206", "chest.207", "chest.230"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.45"
         },
@@ -239,8 +239,8 @@
         "x419": {
             "name_en": "Modern Aesthetics - Both Ways",
             "name_fr": "Méthode de coiffure “Queue-de-cheval sur le côté”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.ZADNOR",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.221", "chest.230"],
             "patch": "5.55"
         },
         "x420": {
@@ -294,7 +294,7 @@
             "name_en": "Modern Aesthetics - A Close Shave",
             "name_fr": "Méthode de coiffure “Coupe à ras”",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": "chest.120",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.35"
         },
@@ -370,10 +370,10 @@
         "x539": {
             "name_en": "Modern Aesthetics - Fulsome Forelocks",
             "name_fr": "Méthode de coiffure “Coupe au bol”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
-                "@PLACE.DT.SOUTH_HORN COFFER.CRESCENT.SILVER"
+                "chest.230"
             ],
             "patch": "7.25"
         },
@@ -383,7 +383,9 @@
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": [
                 "@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)",
-                "@COFFER.TRAVERSE.SILVER / COFFER.TRAVERSE.GOLD / COFFER.TRAVERSE.PLATINUM"
+                "chest.130",
+                "chest.131",
+                "chest.132"
             ],
             "patch": "7.35"
         },
@@ -437,10 +439,10 @@
         "x638": {
             "name_en": "Modern Aesthetics - Bun and the Beautiful",
             "name_fr": "Méthode de coiffure “Chignon tressé”",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
-                "@PLACE.DT.NORTH_HORN COFFER.CRESCENT.BRONZE / COFFER.CRESCENT.SILVER"
+                "chest.232"
             ],
             "patch": "7.55"
         }

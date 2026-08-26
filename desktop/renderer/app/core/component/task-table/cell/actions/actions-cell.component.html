@@ -42,7 +42,7 @@
                     </span>
                 }
 
-                @if(!task._parent.isCustomGroup) {
+                @if(!task._parent.isCustomGroup && !task._parent.disableCompletion) {
                     <span>
                         <div
                             class="action mi mi-remove-red-eye"

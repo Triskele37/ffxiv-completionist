@@ -11,7 +11,9 @@
     (mousedown)="onRowMouseDown($event)"
 >
     <!-- Completion Cell -->
-    <com-complete-cell [task]="task"></com-complete-cell>
+    @if(!svcTable.group().disableCompletion) {
+        <com-complete-cell [task]="task"></com-complete-cell>
+    }
 
     <!-- Data Cells -->
     @for(column of svcTable.group().columns; track column.key) {

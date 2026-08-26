@@ -14,13 +14,6 @@
                 [nameOnly]="true"
             ></com-content-link>
         }
-        @else if(column.taskLink) {
-            <!-- Forced Task Link -->
-            <com-content-link
-                [content]="value"
-                [nameOnly]="true"
-            ></com-content-link>
-        }
         @else if(column.groupLink) {
             <!-- Group Link -->
             <com-content-link

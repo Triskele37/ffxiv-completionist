@@ -25,6 +25,12 @@
             filter: brightness(50%);
         }
 
+        // Group isn't part of normal completion
+        &.nored:before {
+            background-color: var(--primary-color-darker);
+            color: var(--primary-color-text);
+        }
+
         // Large variant
         &.big {
             border-radius: 20px;

@@ -95,24 +95,24 @@
             "name_en": "A Light in the Storm",
             "name_fr": "A Light in the Storm",
             "number": "12",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["d.17", "d.40"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.17", "d.40", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x22": {
             "name_en": "The Dark's Embrace",
             "name_fr": "The Dark's Embrace",
             "number": "13",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["d.3", "d.18"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.3", "d.18", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x26": {
             "name_en": "The Scars of Battle",
             "name_fr": "The Scars of Battle",
             "number": "14",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["d.22", "d.140"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.22", "d.140", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x249": {
@@ -135,16 +135,16 @@
             "name_en": "Horizons Calling",
             "name_fr": "Horizons Calling",
             "number": "17",
-            "category": "@CATEGORY.DUNGEON",
-            "source": ["d.23", "d.172"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.23", "d.172", "chest.111", "chest.112"],
             "patch": "3.3"
         },
         "x21": {
             "name_en": "Dark Vows",
             "name_fr": "Dark Vows",
             "number": "18",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["d.2", "d.24"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.2", "d.24", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x62": {
@@ -159,16 +159,16 @@
             "name_en": "Riptide",
             "name_fr": "Riptide",
             "number": "20",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["d.4", "d.28"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.4", "d.28", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x102": {
             "name_en": "Silver Tears",
             "name_fr": "Silver Tears",
             "number": "21",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.32",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.32", "chest.111", "chest.112"],
             "patch": "3.4"
         },
         "x248": {
@@ -176,7 +176,7 @@
             "name_fr": "Tricksome",
             "number": "22",
             "category": "@CATEGORY.DUNGEON",
-            "source": "d.30",
+            "source": ["d.30", "chest.300", "chest.301"],
             "patch": "4.4"
         },
         "x530": {
@@ -208,7 +208,7 @@
             "name_fr": "Blackbosom",
             "number": "26",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
+            "source": ["chest.101", "chest.102"],
             "patch": "3.45"
         },
         "x98": {
@@ -247,8 +247,8 @@
             "name_en": "Slumber Eternal",
             "name_fr": "Slumber Eternal",
             "number": "31",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.37",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.37", "chest.111", "chest.112"],
             "patch": "3.4"
         },
         "x501": {
@@ -287,16 +287,16 @@
             "name_en": "Ink Long Dry",
             "name_fr": "Ink Long Dry",
             "number": "36",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.31",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.31", "chest.111", "chest.112"],
             "patch": "3.3"
         },
         "x24": {
             "name_en": "Imagination",
             "name_fr": "Imagination",
             "number": "37",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "d.38",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.38", "chest.111", "chest.112"],
             "patch": "3.5"
         },
         "x528": {
@@ -319,8 +319,8 @@
             "name_en": "Poison Ivy",
             "name_fr": "Poison Ivy",
             "number": "40",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.41",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.41", "chest.111", "chest.112"],
             "patch": "4.0"
         },
         "x247": {
@@ -328,15 +328,15 @@
             "name_fr": "Upon the Rocks",
             "number": "41",
             "category": "@CATEGORY.DUNGEON",
-            "source": "d.40",
+            "source": ["d.40", "chest.300", "chest.301"],
             "patch": "4.4"
         },
         "x25": {
             "name_en": "Down the Up Staircase",
             "name_fr": "Down the Up Staircase",
             "number": "42",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "d.141",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.141", "chest.111", "chest.112"],
             "patch": "3.2"
         },
         "x432": {
@@ -359,8 +359,8 @@
             "name_en": "Apologies",
             "name_fr": "Apologies",
             "number": "45",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.171",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.171", "chest.111", "chest.112"],
             "patch": "3.3"
         },
         "x103": {
@@ -375,8 +375,8 @@
             "name_en": "Bibliophobia",
             "name_fr": "Bibliophobia",
             "number": "47",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.196",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.196", "chest.111", "chest.112"],
             "patch": "4.0"
         },
         "x132": {
@@ -423,16 +423,16 @@
             "name_en": "The Open Box",
             "name_fr": "The Open Box",
             "number": "53",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.235",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.235", "chest.111", "chest.112"],
             "patch": "4.1"
         },
         "x181": {
             "name_en": "Most Unworthy",
             "name_fr": "Most Unworthy",
             "number": "54",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.240",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.240", "chest.111", "chest.112"],
             "patch": "4.1"
         },
         "x228": {
@@ -463,72 +463,72 @@
             "name_en": "Deception",
             "name_fr": "Deception",
             "number": "58",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.262",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.262", "chest.111", "chest.112"],
             "patch": "4.1"
         },
         "x212": {
             "name_en": "Their Deadly Mission",
             "name_fr": "Their Deadly Mission",
             "number": "59",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.236",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.236", "chest.111", "chest.112"],
             "patch": "4.2"
         },
         "x183": {
             "name_en": "Far From Home",
             "name_fr": "Far From Home",
             "number": "60",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.279",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.279", "chest.111", "chest.112"],
             "patch": "4.1"
         },
         "x210": {
             "name_en": "Down Where Daemons Dwell",
             "name_fr": "Down Where Daemons Dwell",
             "number": "61",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.284",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.284", "chest.112"],
             "patch": "4.2"
         },
         "x211": {
             "name_en": "Unbreakable (Duality)",
             "name_fr": "Unbreakable (Duality)",
             "number": "62",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.285",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.285", "chest.111", "chest.112"],
             "patch": "4.2"
         },
         "x229": {
             "name_en": "Earth, Wind, and Water",
             "name_fr": "Earth, Wind, and Water",
             "number": "63",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.536",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.536", "chest.121"],
             "patch": "4.3"
         },
         "x251": {
             "name_en": "A Land Long Dead",
             "name_fr": "A Land Long Dead",
             "number": "64",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.585",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.585", "chest.121"],
             "patch": "4.4"
         },
         "x250": {
             "name_en": "From Mud",
             "name_fr": "From Mud",
             "number": "65",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.584",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.584", "chest.121"],
             "patch": "4.4"
         },
         "x269": {
             "name_en": "A Pall Most Murderous",
             "name_fr": "A Pall Most Murderous",
             "number": "66",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.611",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.611", "chest.121"],
             "patch": "4.5"
         },
         "x214": {
@@ -600,7 +600,7 @@
             "name_fr": "The Promise of Plunder",
             "number": "75",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": ["chest.120", "chest.121"],
             "patch": "6.35"
         },
         "x612": {

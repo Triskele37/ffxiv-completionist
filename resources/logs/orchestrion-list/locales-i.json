@@ -80,7 +80,7 @@
             "name_fr": "Navigator's Glory - The Theme of Limsa Lominsa",
             "number": "10",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "chest.301"],
             "patch": "4.05"
         },
         "x166": {
@@ -88,7 +88,7 @@
             "name_fr": "Born of the Boughs - The Theme of Gridania",
             "number": "11",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "chest.301"],
             "patch": "4.05"
         },
         "x167": {
@@ -96,7 +96,7 @@
             "name_fr": "The Twin Faces of Fate - The Theme of Ul'dah",
             "number": "12",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "chest.301"],
             "patch": "4.05"
         },
         "x76": {
@@ -104,7 +104,7 @@
             "name_fr": "On Windy Meadows",
             "number": "13",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "chest.300"],
             "patch": "3.3"
         },
         "x77": {
@@ -112,7 +112,7 @@
             "name_fr": "Whisper of the Land",
             "number": "14",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "chest.300"],
             "patch": "3.3"
         },
         "x78": {
@@ -120,7 +120,7 @@
             "name_fr": "Twilight over Thanalan",
             "number": "15",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "chest.300"],
             "patch": "3.3"
         },
         "x92": {
@@ -128,7 +128,7 @@
             "name_fr": "Unspoken",
             "number": "16",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "chest.300"],
             "patch": "3.4"
         },
         "x6": {
@@ -564,7 +564,7 @@
             "name_fr": "Order Yet Undeciphered",
             "number": "70",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.21"
         },
         "x374": {
@@ -572,7 +572,7 @@
             "name_fr": "Paradise Found",
             "number": "71",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": ["chest.300", "chest.301"],
             "patch": "5.21"
         },
         "x375": {
@@ -580,7 +580,7 @@
             "name_fr": "Fealty",
             "number": "72",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": ["chest.300", "chest.301"],
             "patch": "5.21"
         },
         "x429": {
@@ -588,7 +588,7 @@
             "name_fr": "Painted Skies",
             "number": "73",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.41"
         },
         "x441": {
@@ -596,7 +596,7 @@
             "name_fr": "What Is Love?",
             "number": "74",
             "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)", "@SOURCE.FETE_PRESENT"],
+            "source": ["@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)", "chest.301"],
             "patch": "5.5"
         },
         "x548": {
@@ -628,7 +628,7 @@
             "name_fr": "Crystal Rain",
             "number": "78",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": ["chest.120", "chest.121"],
             "patch": "6.35"
         },
         "x603": {

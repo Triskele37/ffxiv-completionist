@@ -9,10 +9,10 @@
             "DEEP_DUNGEON": "Donjon sans fond",
             "DUNGEON": "Donjon",
             "EVENT": "Événement",
-            "EXPLORATORY_MISSION": "Mission d'exploration",
             "EXPLORATORY_VOYAGE": "Expédition exploratoire",
             "FATE": "ALÉA",
             "FAUX_HOLLOWS": "Touché-tourné",
+            "FIELD_OPERATION": "Mission d'exploration",
             "GATHERING": "Récolte",
             "GOLD_SAUCER": "Gold Saucer",
             "THE_HUNT": "La Chasse",
@@ -102,38 +102,6 @@
             "VPR": "Rôdeur Vipère",
             "PCT": "Pictomancien"
         },
-        "COFFER": {
-            "BOZJA": "Coffre verrouillé du Front sud de Bozja",
-            "ZADNOR": "Coffre verrouillé des Hauts plateaux de Zadnor",
-            "SANCTUARY": "Malle-surprise Insulaire",
-            "SILVER_ANCIENT_RECORD": "Relique archéologique (argent)",
-            "GOLD_ANCIENT_RECORD": "Relique archéologique (or)",
-            "EUREKA": {
-                "ANEMOS": "Coffre verrouillé d'Anemos",
-                "PAGOS": "Coffre verrouillé de Pagos",
-                "PAGOS_BUNNY": "Coffre verrouillé de Pagos - Eurêka: Pagos",
-                "COLD_WARPED": "Coffre glacé",
-                "PYROS": "Coffre verrouillé de Pyros",
-                "PYROS_BUNNY": "Coffre des Lapin du bonheur - Eurêka Pyros",
-                "HEAT_WARPED": "Coffre roussi",
-                "HYDATOS": "Coffre verrouillé d'Hydatos",
-                "HYDATOS_BUNNY": "Coffre des Lapin du bonheur - Eurêka Hydatos",
-                "MOISTURE_WARPED": "Coffre rouillé"
-            },
-            "TRAVERSE": {
-                "SILVER": "Trésor insoupçonné de grade I",
-                "GOLD": "Trésor insoupçonné de grade II",
-                "PLATINUM": "Trésor insoupçonné de grade III",
-                "FIRST_LIGHT": "Trésor lumineux"
-            },
-            "CRESCENT": {
-                "BRONZE": "Coffre de bronze",
-                "SILVER": "Coffre d'argent",
-                "GOLD": "Coffre d'or",
-                "POT": "Pot Coffer",
-                "BUNNY": "Bunny Coffer"
-            }
-        },
         "COSMO": {
             "MISSION_TYPE": {
                 "CLASS_D": "Missions de classe D",
@@ -222,6 +190,7 @@
                 "TWILIGHT_GEMSTONE": "Gemme du crépuscule"
             },
             "ISLAND": {
+                "FELICITOUS_TOKEN": "Avoir de Chamoiselle",
                 "SEAFARERS": "Assignat insulaire azur",
                 "VEGETAL": "Certificat végétal"
             },
@@ -260,9 +229,15 @@
             },
             "CE": {
                 "COSMOCREDIT": "Crédit cosmique",
+                "LUNAR_CREDIT": "Crédit lunaire",
+                "PHAENNA_CREDIT": "Crédit de Phaenna",
                 "PHAENNA_TOKEN_BOOKLET": "Attestation d'exploration d'Phaenna",
+                "OIZYS_CREDIT": "Crédit d'Oizys",
                 "OIZYS_TOKEN_BOOKLET": "Attestation d'exploration d'Oizys",
-                "AUXESIA_TOKEN_BOOKLET": "Attestation d'exploration d'Auxesia"
+                "OIZYS_DRONEBIT": "Jeton de drone (Oizys)",
+                "AUXESIA_CREDIT": "Crédit d'Auxesia",
+                "AUXESIA_TOKEN_BOOKLET": "Attestation d'exploration d'Auxesia",
+                "AUXESIA_DRONEBIT": "Jeton de drone (Auxesia)"
             },
             "SCRIP": {
                 "PRIMARY_CRAFTERS": "Assignat orange d'artisan",
@@ -507,6 +482,7 @@
             "XVI_COLLAB": "Collaboration : Final Fantasy XVI",
             "YO_KAI": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !",
             "FAN_FEST": "Fan Festival",
+            "DIGITAL_FAN_FEST": "Digital Fan Festival",
             "FUJIFILM_COLLAB": "Fujifilm Collab",
             "TWITCH_CAMPAIGN": "Twitch Campaign"
         },
@@ -986,12 +962,9 @@
         },
         "SOURCE": {
             "CRAFTED": "Recette",
-            "COSMIC_FORTUNE": "Cosmic Fortune",
             "DESYNTHESIS": "Recyclage",
-            "FETE_PRESENT": "Boîte à cadeaux de feste",
             "GARDENING": "Jardinage",
             "GATHERED": "Récolté",
-            "KUPO_OF_FORTUNE": "Kupo de la Fortune",
             "MECH_PILOT_REWARD": "Mech Pilot Reward",
             "MOG_STATION": "Station mog",
             "SERIES_REWARD": "Récompense de série",
@@ -1059,6 +1032,7 @@
             "GHANTA": "Ghanta - PLACE.EW.THAVNAIR",
             "HANEKO_BURNEKO": "Haneko Burneko - PLACE.ARR.THE_WAKING_SANDS",
             "HISMENA": "Hismena - PLACE.HW.IDYLLSHIRE",
+            "HORRENDOUS_HOARDER": "Marchandréa",
             "HOUSING_MERCHANT": "Quincaillière",
             "HUNT_BILLMASTER": "Responsable de la Chasse - Base de Grande Compagnie",
             "ILFROY": "Ilfroy - PLACE.SHB.EULMORE",
@@ -1066,6 +1040,7 @@
             "JONATHAS": "Jonathas - PLACE.ARR.OLD_GRIDANIA",
             "JUNKMONGER": "Bazardeur",
             "JUNKMONGER_NONOROON": "Nonoroon Renigle-nid - Hameau des Malheureuses",
+            "KAEDE": "Kaede",
             "KASUMI": "Kasumi - PLACE.THE_GOLD_SAUCER",
             "LEANDRYNE": "Leandryne - PLACE.ARR.NEW_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.SB.RHALGRS_REACH",
@@ -1075,9 +1050,12 @@
             "MESOUAIDONQUE": "Mesouaidonque",
             "MINION_TRADER": "Marchande de mascottes - PLACE.MINION_SQUARE",
             "MOGMUL": "Mogmul - Bahrr Lehs",
+            "NEON": "Neon - PLACE.DT.SOLUTION_NINE",
             "NESVAAZ": "Nesvaaz - PLACE.EW.RADZ_AT_HAN",
+            "ORBITINGWAY": "Orbitingway",
             "OSE_WYD": "Ose Wyd - PLACE.SHB.IL_MHEG",
             "PECULIAR_GOBLIN": "Gobelin Étrange - PLACE.DT.LOWER_JEUNO",
+            "POTKIN": "Potkin - PLACE.HW.THE_FIRMAMENT",
             "RESISTANCE_QUARTERMASTER": "Tacticienne",
             "RESISTANCE_SUPPLIER": "Technicien",
             "ROARICH": "Roarich - PLACE.ARR.UL_DAH_STEPS_OF_NALD",

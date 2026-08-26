@@ -81,8 +81,8 @@
         "x237": {
             "name_en": "Castaway Chocobo Chick",
             "name_fr": "Bébé Chocobo Des Mers",
-            "category": ["@CATEGORY.GATHERING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "d.540"],
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "chest.110", "chest.111", "chest.25", "chest.313", "chest.314"],
             "patch": "4.0"
         },
         "x461": {
@@ -226,8 +226,8 @@
         "x22": {
             "name_en": "Gravel Golem",
             "name_fr": "Golem Graveleux",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.GSM)", "chest.313", "chest.317"],
             "patch": "2.1",
             "cSiblings": ["ap.541"]
         },
@@ -235,15 +235,15 @@
             "name_en": "Wind-up Tonberry",
             "name_fr": "Tomberry Mécanique",
             "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.174", "duty.treasure-hunt.maps.3", "duty.treasure-hunt.duties.0"],
+            "source": ["chest.100", "duty.treasure-hunt.maps.3", "duty.treasure-hunt.duties.0"],
             "patch": "2.1",
             "cSiblings": ["ap.362"]
         },
         "x24": {
             "name_en": "Tiny Tortoise",
             "name_fr": "Tortue Naine",
-            "category": "@CATEGORY.GATHERING",
-            "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "chest.313", "chest.314"],
             "patch": "2.1"
         },
         "x25": {
@@ -265,7 +265,7 @@
             "name_en": "Tiny Bulb",
             "name_fr": "Bulbe Miniature",
             "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.174", "duty.treasure-hunt.maps.2", "duty.treasure-hunt.duties.0"],
+            "source": ["chest.100", "duty.treasure-hunt.maps.2", "duty.treasure-hunt.duties.0"],
             "patch": "2.1"
         },
         "x28": {
@@ -279,15 +279,15 @@
         "x29": {
             "name_en": "Wind-up Dullahan",
             "name_fr": "Dullahan Nain",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.313", "chest.314"],
             "patch": "2.1"
         },
         "x30": {
             "name_en": "Gigantpole",
             "name_fr": "Têtard Géant",
-            "category": "@CATEGORY.GATHERING",
-            "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "chest.313", "chest.317"],
             "patch": "2.1"
         },
         "x31": {
@@ -354,8 +354,8 @@
         "x48": {
             "name_en": "Kidragora",
             "name_fr": "Mini-mini-mandragore",
-            "category": "@CATEGORY.GATHERING",
-            "source": "@SOURCE.GATHERED (CLASS_JOB.BTN)",
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.BTN)", "chest.313", "chest.317"],
             "patch": "2.1",
             "cSiblings": ["ap.383"]
         },
@@ -411,23 +411,23 @@
             "name_en": "Private Pachypodium",
             "name_fr": "Soldate Pachypodium",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": ["chest.121", "chest.122"],
             "patch": "6.35",
             "cSiblings": ["ap.534"]
         },
         "x38": {
             "name_en": "Coblyn Larva",
             "name_fr": "Larve De Coblyn",
-            "category": "@CATEGORY.GATHERING",
-            "source": "@SOURCE.GATHERED (CLASS_JOB.MIN)",
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.MIN)", "chest.313", "chest.314"],
             "patch": "2.1",
             "cSiblings": ["ap.645"]
         },
         "x39": {
             "name_en": "Wind-up Aldgoat",
             "name_fr": "Mini-bouquetin",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.313", "chest.317"],
             "patch": "2.1"
         },
         "x40": {
@@ -493,7 +493,7 @@
                 "@SOURCE.EXPLORATION.FIELD XIII",
                 "@SOURCE.EXPLORATION.HIGHLAND XIII",
                 "@SOURCE.EXPLORATION.WATERSIDE XIII",
-                "d.174",
+                "chest.100",
                 "duty.treasure-hunt.duties.0"
             ],
             "patch": "2.2",
@@ -502,8 +502,8 @@
         "x57": {
             "name_en": "Tight-beaked Parrot",
             "name_fr": "Perroquet Taciturne",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.28", "duty.treasure-hunt.duties.0"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
+            "source": ["d.28", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "2.4",
             "cSiblings": ["ap.384"]
         },
@@ -511,7 +511,7 @@
             "name_en": "Baby Opo-opo",
             "name_fr": "Bébé Opo-opo",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.20", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.20", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "2.2",
             "cSiblings": ["ap.437"]
         },
@@ -564,15 +564,15 @@
             "name_en": "Mummy's Little Mummy",
             "name_fr": "Mini-momie",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.26", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.26", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "2.4",
             "cSiblings": ["ap.542"]
         },
         "x136": {
             "name_en": "Atrophied Atomos",
             "name_fr": "Atomos Atrophié",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "@SOURCE.KUPO_OF_FORTUNE"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "chest.300", "chest.301", "chest.313", "chest.317"],
             "patch": "3.0",
             "cSiblings": ["ap.394"]
         },
@@ -580,7 +580,7 @@
             "name_en": "Gaelikitten",
             "name_fr": "Gaélichaton",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["d.37", "d.174", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["d.37", "chest.100", "duty.treasure-hunt.duties.0", "chest.300", "chest.301"],
             "patch": "3.0",
             "cSiblings": ["ap.395"]
         },
@@ -588,7 +588,7 @@
             "name_en": "Weatherproof Gaelicat",
             "name_fr": "Gaélichat Emmitouflé",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.31",
             "cSiblings": ["ap.474"]
         },
@@ -596,14 +596,14 @@
             "name_en": "Page 63",
             "name_fr": "Page 63",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.31", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.31", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "3.0"
         },
         "x143": {
             "name_en": "Iron Dwarf",
             "name_fr": "Nain D'acier",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.313", "chest.317"],
             "patch": "3.0"
         },
         "x144": {
@@ -616,12 +616,14 @@
         "x157": {
             "name_en": "Paissa Brat",
             "name_fr": "Petiot Païssa",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": [
                 "@800 CURRENCY.SCRIP.SKYBUILDERS",
-                "d.174",
+                "chest.100",
                 "duty.treasure-hunt.maps.8",
-                "duty.treasure-hunt.duties.0"
+                "duty.treasure-hunt.duties.0",
+                "chest.313",
+                "chest.314"
             ],
             "patch": "3.1",
             "cSiblings": ["ap.369"]
@@ -629,15 +631,15 @@
         "x372": {
             "name_en": "Paissa Patissier",
             "name_fr": "Païssa Cuisinier",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.300", "chest.232"],
             "patch": "5.21"
         },
         "x373": {
             "name_en": "Paissa Threadpuller",
             "name_fr": "Païssa Couturier",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.300", "chest.232"],
             "patch": "5.21"
         },
         "x163": {
@@ -651,16 +653,16 @@
         "x166": {
             "name_en": "Korpokkur Kid",
             "name_fr": "Pon-korpokkur",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.41", "d.540"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["d.41", "chest.110", "chest.111", "chest.25"],
             "patch": "3.1",
             "cSiblings": ["ap.370"]
         },
         "x178": {
             "name_en": "Calca",
             "name_fr": "Calca",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.141", "duty.exploratory-missions.eureka.notorious-monsters.pyros.1391"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.141", "duty.field-operations.eureka.notorious-monsters.pyros.1391"],
             "patch": "3.15"
         },
         "x179": {
@@ -674,7 +676,7 @@
             "name_en": "Morpho",
             "name_fr": "Morpho",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.CRAFTING"],
-            "source": ["d.140", "d.540", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["d.140", "chest.110", "chest.111", "chest.300", "chest.301"],
             "patch": "3.15",
             "cSiblings": ["ap.440"]
         },
@@ -699,14 +701,14 @@
             "name_en": "Calamari",
             "name_fr": "Tentacule Minuscule",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRAFTING"],
-            "source": ["d.172", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["d.172", "chest.300"],
             "patch": "3.3"
         },
         "x190": {
             "name_en": "Baby Brachiosaur",
             "name_fr": "Bébé Brachiosaure",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["d.540", "@800 CURRENCY.SCRIP.SKYBUILDERS"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.110", "chest.111", "@800 CURRENCY.SCRIP.SKYBUILDERS", "chest.313", "chest.317"],
             "patch": "3.55b"
         },
         "x194": {
@@ -733,8 +735,8 @@
         "x216": {
             "name_en": "Shaggy Shoat",
             "name_fr": "Marcassin",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.CRAFTING"],
-            "source": ["d.182", "d.540", "@SOURCE.KUPO_OF_FORTUNE"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.CRAFTING", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["d.182", "chest.110", "chest.111", "chest.25", "chest.300"],
             "patch": "3.4",
             "cSiblings": ["ap.399"]
         },
@@ -742,7 +744,7 @@
             "name_en": "Bullpup",
             "name_fr": "Chiot Bulldog",
             "category": "@CATEGORY.DUNGEON",
-            "source": ["d.219", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["d.219", "chest.300", "chest.301"],
             "patch": "3.5"
         },
         "x234": {
@@ -762,15 +764,15 @@
         "x244": {
             "name_en": "Tiny Tatsunoko",
             "name_fr": "Hippocampoupon",
-            "category": ["@CATEGORY.GATHERING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "d.540"],
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "chest.111", "chest.25", "chest.313", "chest.317"],
             "patch": "4.0"
         },
         "x245": {
             "name_en": "Bombfish",
             "name_fr": "Poisson-bombo",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.235", "d.540"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["d.235", "chest.110", "chest.111", "chest.25"],
             "patch": "4.0"
         },
         "x254": {
@@ -797,50 +799,50 @@
         "x285": {
             "name_en": "Wind-up Fafnir",
             "name_fr": "Fafnir Mécanique",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": ["duty.exploratory-missions.eureka.notorious-monsters.anemos.1331", "@COFFER.EUREKA.ANEMOS"],
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.eureka.notorious-monsters.anemos.1331", "chest.200", "chest.230"],
             "patch": "4.25"
         },
         "x287": {
             "name_en": "The Prince of Anemos",
             "name_fr": "Prince D'Anemos",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": ["duty.exploratory-missions.eureka.notorious-monsters.anemos.1348", "@COFFER.EUREKA.ANEMOS"],
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.eureka.notorious-monsters.anemos.1348", "chest.200", "chest.230"],
             "patch": "4.25"
         },
         "x295": {
             "name_en": "Copycat Bulb",
             "name_fr": "Pousse De Cassie",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.PAGOS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.203",
             "patch": "4.4"
         },
         "x315": {
             "name_en": "Dhalmel Calf",
             "name_fr": "Bébé Dhalmel",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": ["@COFFER.EUREKA.PYROS", "@COFFER.EUREKA.HEAT_WARPED"],
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.205", "chest.208", "chest.230"],
             "patch": "4.45"
         },
         "x318": {
             "name_en": "Conditional Virtue",
             "name_fr": "Mini-vertu",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.eureka.duties.0",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.eureka.duties.0",
             "patch": "4.55"
         },
         "x290": {
             "name_en": "Monkey King",
             "name_fr": "Petit Qitian Dasheng",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.536", "d.897", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.536", "chest.220", "chest.221", "chest.120", "chest.121"],
             "patch": "4.3"
         },
         "x312": {
             "name_en": "Mudpie",
             "name_fr": "Pâté De Boue",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.584", "d.897", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.584", "chest.220", "chest.221", "chest.120", "chest.121", "chest.230"],
             "patch": "4.4"
         },
         "x317": {
@@ -854,8 +856,8 @@
         "x319": {
             "name_en": "Yukinko Snowflake",
             "name_fr": "Ko-yukinko",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": ["@COFFER.EUREKA.HYDATOS", "@COFFER.EUREKA.MOISTURE_WARPED"],
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.209", "chest.212"],
             "patch": "4.55",
             "cSiblings": ["ap.402"]
         },
@@ -863,7 +865,7 @@
             "name_en": "Armadillo Bowler",
             "name_fr": "Tatou-boule",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.656", "d.897"],
+            "source": ["d.656", "chest.120", "chest.121", "chest.130", "chest.131", "chest.230"],
             "patch": "5.0"
         },
         "x338": {
@@ -876,29 +878,29 @@
         "x339": {
             "name_en": "Clionid Larva",
             "name_fr": "Jeune Clionide",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.661", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.661", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.0"
         },
         "x347": {
             "name_en": "Tiny Echevore",
             "name_fr": "Échevore Nain",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.649", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.649", "chest.120", "chest.121", "chest.130", "chest.230"],
             "patch": "5.0"
         },
         "x352": {
             "name_en": "Forgiven Hate",
             "name_fr": "Haine Pardonnée",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.659",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.659", "chest.131", "chest.230"],
             "patch": "5.0"
         },
         "x353": {
             "name_en": "Bacon Bits",
             "name_fr": "Bout-de-cochon",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.EXPLORATION.WOODLAND XXV", "@SOURCE.EXPLORATION.QUICK"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXV", "@SOURCE.EXPLORATION.QUICK", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.1",
             "cSiblings": ["ap.405"]
         },
@@ -906,29 +908,29 @@
             "name_en": "Mystic Weapon",
             "name_fr": "Arme Mystique",
             "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.EXPLORATION.FIELD XXV", "@SOURCE.EXPLORATION.QUICK", "d.897"],
+            "source": ["@SOURCE.EXPLORATION.FIELD XXV", "@SOURCE.EXPLORATION.QUICK", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.1"
         },
         "x357": {
             "name_en": "Miniature White Knight",
             "name_fr": "Mini-cavalier Blanc",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,200 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.11"
         },
         "x361": {
             "name_en": "Little Leannan",
             "name_fr": "Mini-Leannan Sith",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.692", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.692", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.1",
             "cSiblings": ["ap.544"]
         },
         "x366": {
             "name_en": "Sungold Talos",
             "name_fr": "Talos D'or",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.4",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
             "patch": "5.2"
         },
         "x367": {
@@ -949,14 +951,14 @@
             "name_en": "Petit Pteranodon",
             "name_fr": "Ptiranodon",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.31"
         },
         "x405": {
             "name_en": "Drippy",
             "name_fr": "Drippy",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.746",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.746", "chest.131"],
             "patch": "5.4",
             "cSiblings": ["ap.442"]
         },
@@ -964,7 +966,7 @@
             "name_en": "Trike",
             "name_fr": "Trike",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.41"
         },
         "x377": {
@@ -984,8 +986,8 @@
         "x433": {
             "name_en": "Prince Lunatender",
             "name_fr": "Prince Pampa Sélénien",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.794", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.794", "chest.120", "chest.121", "chest.230"],
             "patch": "6.0",
             "cSiblings": ["ap.734"]
         },
@@ -1007,8 +1009,8 @@
         "x438": {
             "name_en": "Greener Gleaner",
             "name_fr": "Glaneur Vert",
-            "category": "@CATEGORY.VENTURE",
-            "source": "@SOURCE.EXPLORATION.WOODLAND XXVI - XXVIII",
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXVI - XXVIII", "chest.131"],
             "patch": "6.0",
             "cSiblings": ["ap.482"]
         },
@@ -1066,8 +1068,8 @@
         "x484": {
             "name_en": "Exciting Dynamite",
             "name_fr": "Dynamite Exaltante",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.6",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.6", "chest.130"],
             "patch": "6.4"
         },
         "x485": {
@@ -1137,29 +1139,29 @@
         "x540": {
             "name_en": "Psamathe",
             "name_fr": "Psamathée",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@6 CURRENCY.EM.SANGUINITE",
             "patch": "7.25"
         },
         "x541": {
             "name_en": "Naiad",
             "name_fr": "Naïade",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@6 CURRENCY.EM.SANGUINITE",
             "patch": "7.25"
         },
         "x542": {
             "name_en": "Deimos",
             "name_fr": "Déimos",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@6 CURRENCY.EM.SANGUINITE",
             "patch": "7.25"
         },
         "x548": {
             "name_en": "Tipping Tortoise",
             "name_fr": "Tortue À Pourboires",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@PLACE.DT.SOUTH_HORN COFFER.CRESCENT.POT/COFFER.CRESCENT.BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.231",
             "patch": "7.25"
         },
         "x558": {
@@ -1193,7 +1195,7 @@
         "x585": {
             "name_en": "Tiny Omniscient",
             "name_fr": "Naindex",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (10 CURRENCY.EM.ARCANE_AMULET)",
             "patch": "7.55"
         },
@@ -1223,8 +1225,8 @@
         "x147": {
             "name_en": "Steam-powered Gobwalker G-VII",
             "name_fr": "Gobblindé G-VII À Vapeur",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.313", "chest.314"],
             "patch": "3.0"
         },
         "x358": {
@@ -1352,15 +1354,15 @@
         "x363": {
             "name_en": "Cerberpup",
             "name_fr": "Cerbère Chiot",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,200 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.317"],
             "patch": "5.21"
         },
         "x404": {
             "name_en": "Save the Princess",
             "name_fr": "Garde-la-Princesse",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.bozja.duties.2",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.2",
             "patch": "5.45"
         },
         "x451": {
@@ -1411,8 +1413,8 @@
         "x95": {
             "name_en": "Nana Bear",
             "name_fr": "Ourson De Nanakko",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.313", "chest.317"],
             "patch": "2.4",
             "cSiblings": ["ap.475"]
         },
@@ -1420,7 +1422,7 @@
             "name_en": "Nutkin",
             "name_fr": "Écureuil Grignoteur",
             "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.174", "duty.treasure-hunt.maps.5", "duty.treasure-hunt.duties.0"],
+            "source": ["chest.100", "duty.treasure-hunt.maps.5", "duty.treasure-hunt.duties.0", "chest.301"],
             "patch": "2.3",
             "cSiblings": ["ap.365"]
         },
@@ -1461,7 +1463,7 @@
             "name_en": "Unicolt",
             "name_fr": "Bébé Licorne",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.34", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.34", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "3.0",
             "cSiblings": ["ap.656"]
         },
@@ -1476,7 +1478,7 @@
             "name_en": "Lesser Panda",
             "name_fr": "Petit Panda Roux",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.39", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.39", "chest.100", "duty.treasure-hunt.duties.0"],
             "patch": "3.0",
             "cSiblings": ["ap.396"]
         },
@@ -1484,15 +1486,15 @@
             "name_en": "Gestahl",
             "name_fr": "Gestahl",
             "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.540", "@SOURCE.EXPLORATION.WATERSIDE XVIII, XIX"],
+            "source": ["chest.110", "chest.111", "@SOURCE.EXPLORATION.WATERSIDE XVIII, XIX"],
             "patch": "3.0",
             "cSiblings": ["ap.657"]
         },
         "x197": {
             "name_en": "Dwarf Rabbit",
             "name_fr": "Lapin Nain",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["d.540", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["chest.110", "chest.111", "chest.25", "duty.treasure-hunt.duties.0", "chest.300", "chest.301"],
             "patch": "3.3",
             "cSiblings": ["ap.545"]
         },
@@ -1514,40 +1516,40 @@
         "x246": {
             "name_en": "Bom Boko",
             "name_fr": "Bunbuku",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.EXPLORATION.FIELD XX, XXII", "@SOURCE.EXPLORATION.QUICK", "d.540"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["@SOURCE.EXPLORATION.FIELD XX, XXII", "@SOURCE.EXPLORATION.QUICK", "chest.110", "chest.111", "chest.25"],
             "patch": "4.0",
             "cSiblings": ["ap.443"]
         },
         "x267": {
             "name_en": "Mameshiba",
             "name_fr": "Mame Shiba",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.EXPLORATION.HIGHLAND XXII", "@SOURCE.EXPLORATION.QUICK", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["@SOURCE.EXPLORATION.HIGHLAND XXII", "@SOURCE.EXPLORATION.QUICK", "chest.220", "chest.221", "chest.230"],
             "patch": "4.1",
             "cSiblings": ["ap.374"]
         },
         "x333": {
             "name_en": "Black Hayate",
             "name_fr": "Kuro Shiba",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.676", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.676", "chest.120", "chest.121", "chest.130", "chest.230"],
             "patch": "5.0",
             "cSiblings": ["ap.476"]
         },
         "x271": {
             "name_en": "Koala Joey",
             "name_fr": "Bébé Koala",
-            "category": "@CATEGORY.VENTURE",
-            "source": ["@SOURCE.EXPLORATION.WOODLAND XXII", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXII", "chest.220", "chest.221", "chest.230"],
             "patch": "4.1",
             "cSiblings": ["ap.477"]
         },
         "x279": {
             "name_en": "White Whittret",
             "name_fr": "Fouine Blanche",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.284", "d.897", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.284", "chest.220", "chest.221", "chest.120", "chest.121", "chest.230"],
             "patch": "4.2"
         },
         "x288": {
@@ -1575,16 +1577,16 @@
         "x330": {
             "name_en": "Hedgehoglet",
             "name_fr": "Hérisson Mignon",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3", "chest.232"],
             "patch": "4.5",
             "cSiblings": ["ap.444"]
         },
         "x334": {
             "name_en": "Chameleon",
             "name_fr": "Caméléon",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.651", "d.897", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.651", "chest.221", "chest.120", "chest.121", "chest.130", "chest.230"],
             "patch": "5.0"
         },
         "x506": {
@@ -1636,7 +1638,7 @@
             "name_en": "Meerkat",
             "name_fr": "Suricate",
             "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@VOYAGE.COLDTOE_ISLE", "d.897"],
+            "source": ["@VOYAGE.COLDTOE_ISLE", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.1",
             "cSiblings": ["ap.546"]
         },
@@ -1651,8 +1653,8 @@
         "x409": {
             "name_en": "Anteater",
             "name_fr": "Tamandua",
-            "category": "@CATEGORY.FAUX_HOLLOWS",
-            "source": "@400 CURRENCY.FAUX_LEAF",
+            "category": ["@CATEGORY.FAUX_HOLLOWS", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@400 CURRENCY.FAUX_LEAF", "chest.131"],
             "patch": "5.5"
         },
         "x422": {
@@ -1674,8 +1676,8 @@
         "x431": {
             "name_en": "Hippo Calf",
             "name_fr": "Bébé Hippo",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.789", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.789", "chest.120", "chest.121", "chest.230"],
             "patch": "6.0"
         },
         "x432": {
@@ -1696,23 +1698,23 @@
         "x445": {
             "name_en": "Wind-up Kangaroo",
             "name_fr": "Kangourou Miniature",
-            "category": "@CATEGORY.VENTURE",
-            "source": "@SOURCE.EXPLORATION.HIGHLAND XXVIII",
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@SOURCE.EXPLORATION.HIGHLAND XXVIII", "chest.130"],
             "patch": "6.1"
         },
         "x462": {
             "name_en": "Pterosquirrel",
             "name_fr": "Momonga",
-            "category": "@CATEGORY.FAUX_HOLLOWS",
-            "source": "@400 CURRENCY.FAUX_LEAF",
+            "category": ["@CATEGORY.FAUX_HOLLOWS", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@400 CURRENCY.FAUX_LEAF", "chest.130"],
             "patch": "6.28",
             "cSiblings": ["ap.445"]
         },
         "x448": {
             "name_en": "Chewy",
             "name_fr": "Chihuaouaf",
-            "category": "@CATEGORY.VENTURE",
-            "source": "@SOURCE.EXPLORATION.WOODLAND XXVIII",
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXVIII", "chest.130"],
             "patch": "6.1",
             "cSiblings": ["ap.473"]
         },
@@ -1726,16 +1728,16 @@
         "x467": {
             "name_en": "Corgi",
             "name_fr": "Corgi",
-            "category": "@CATEGORY.FAUX_HOLLOWS",
-            "source": "@400 CURRENCY.FAUX_LEAF",
+            "category": ["@CATEGORY.FAUX_HOLLOWS", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@400 CURRENCY.FAUX_LEAF", "chest.130"],
             "patch": "6.3",
             "cSiblings": ["ap.480"]
         },
         "x483": {
             "name_en": "Chimpanzee",
             "name_fr": "Chimpanzé",
-            "category": "@CATEGORY.FAUX_HOLLOWS",
-            "source": "@400 CURRENCY.FAUX_LEAF",
+            "category": ["@CATEGORY.FAUX_HOLLOWS", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@400 CURRENCY.FAUX_LEAF", "chest.130"],
             "patch": "6.4",
             "cSiblings": ["ap.649"]
         },
@@ -1775,8 +1777,8 @@
         "x511": {
             "name_en": "Not-so-bighorn",
             "name_fr": "Mouflon Mignon",
-            "category": "@CATEGORY.VENTURE",
-            "source": "@SOURCE.EXPLORATION.WOODLAND XXXI",
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXXI", "chest.130"],
             "patch": "7.0"
         },
         "x512": {
@@ -1814,8 +1816,8 @@
         "x533": {
             "name_en": "Spinettesaurus",
             "name_fr": "Spitinosaure",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": "@VOYAGE.THE_CENTRAL_BLUE",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.THE_CENTRAL_BLUE", "chest.130"],
             "patch": "7.1"
         },
         "x543": {
@@ -1836,14 +1838,14 @@
         "x571": {
             "name_en": "La Noscean Shorthair",
             "name_fr": "Noscéen À Poil Court",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@1,600 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.4"
         },
         "x572": {
             "name_en": "Gallant Shepherd",
             "name_fr": "Berger Des Braves",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE",
             "patch": "7.4"
         },
@@ -1865,13 +1867,15 @@
         "x241": {
             "name_en": "Odder Otter",
             "name_fr": "Loutre Choute",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
             "source": [
                 "@SOURCE.EXPLORATION.HIGHLAND XIX - XXII",
                 "@SOURCE.EXPLORATION.WOODLAND XIX - XXII",
                 "@SOURCE.EXPLORATION.WATERSIDE XIX - XXII",
                 "@SOURCE.EXPLORATION.QUICK",
-                "d.540"
+                "chest.110",
+                "chest.111",
+                "chest.25"
             ],
             "patch": "4.0",
             "cSiblings": ["ap.371"]
@@ -1879,10 +1883,11 @@
         "x329": {
             "name_en": "Abroader Otter",
             "name_fr": "Loutre Aloha",
-            "category": ["@CATEGORY.EXPLORATORY_MISSION", "@CATEGORY.SUBAQUATIC_VOYAGE"],
+            "category": ["@CATEGORY.FIELD_OPERATION", "@CATEGORY.SUBAQUATIC_VOYAGE"],
             "source": [
-                "@COFFER.BOZJA",
-                "@COFFER.ZADNOR",
+                "chest.220",
+                "chest.221",
+                "chest.230",
                 "@VOYAGE.DEEPSEA_SITE 7",
                 "@VOYAGE.SEA_OF_ASH 2",
                 "@VOYAGE.SEA_OF_ASH 3",
@@ -1909,34 +1914,35 @@
         "x258": {
             "name_en": "Ghido",
             "name_fr": "Ghido",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.238", "d.540"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["d.238", "chest.110", "chest.111", "chest.25"],
             "patch": "4.0",
             "cSiblings": ["ap.446"]
         },
         "x272": {
             "name_en": "Salt & Pepper Seal",
             "name_fr": "Bébé Phoque",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.279", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.279", "chest.220", "chest.221", "chest.120", "chest.121", "chest.230"],
             "patch": "4.1",
             "cSiblings": ["ap.447"]
         },
         "x273": {
             "name_en": "Axolotl Eft",
             "name_fr": "Axolotl",
-            "category": ["@CATEGORY.EXPLORATORY_MISSION", "@CATEGORY.VENTURE"],
-            "source": ["@COFFER.BOZJA", "@COFFER.ZADNOR", "@SOURCE.EXPLORATION.WATERSIDE XXII", "@SOURCE.EXPLORATION.QUICK"],
+            "category": ["@CATEGORY.FIELD_OPERATION", "@CATEGORY.VENTURE"],
+            "source": ["chest.220", "chest.221", "chest.230", "@SOURCE.EXPLORATION.WATERSIDE XXII", "@SOURCE.EXPLORATION.QUICK"],
             "patch": "4.1",
             "cSiblings": ["ap.448"]
         },
         "x283": {
             "name_en": "Aurelia Polyp",
             "name_fr": "Aurélie Polype",
-            "category": ["@CATEGORY.EXPLORATORY_MISSION", "@CATEGORY.SUBAQUATIC_VOYAGE"],
+            "category": ["@CATEGORY.FIELD_OPERATION", "@CATEGORY.SUBAQUATIC_VOYAGE"],
             "source": [
-                "@COFFER.BOZJA",
-                "@COFFER.ZADNOR",
+                "chest.220",
+                "chest.221",
+                "chest.230",
                 "@VOYAGE.DEEPSEA_SITE 3",
                 "@VOYAGE.THE_UMBRELLA_NARROW",
                 "@VOYAGE.GLUTTONS_BELLY",
@@ -1995,8 +2001,8 @@
         "x469": {
             "name_en": "Suzusaurus",
             "name_fr": "Suzusaurus",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": ["@VOYAGE.BLOODBREAK", "@VOYAGE.LILAC_SEA 2"],
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.BLOODBREAK", "@VOYAGE.LILAC_SEA 2", "chest.130"],
             "patch": "6.3"
         },
         "x479": {
@@ -2038,7 +2044,7 @@
             "name_en": "Bluebird",
             "name_fr": "Oiseau Bleu",
             "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.174", "duty.treasure-hunt.maps.4", "duty.treasure-hunt.maps.8", "duty.treasure-hunt.duties.0"],
+            "source": ["chest.100", "duty.treasure-hunt.maps.4", "duty.treasure-hunt.maps.8", "duty.treasure-hunt.duties.0"],
             "patch": "2.1",
             "cSiblings": ["ap.379"]
         },
@@ -2054,7 +2060,7 @@
             "name_en": "Owlet",
             "name_fr": "Bébé Hibou",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
-            "source": ["d.35", "d.174", "duty.treasure-hunt.duties.0"],
+            "source": ["d.35", "chest.100", "duty.treasure-hunt.duties.0", "chest.301"],
             "patch": "3.0",
             "cSiblings": ["ap.548"]
         },
@@ -2062,15 +2068,15 @@
             "name_en": "Ugly Duckling",
             "name_fr": "Vilain Petit Canard",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["d.33", "d.174", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["d.33", "chest.100", "duty.treasure-hunt.duties.0", "chest.300", "chest.301"],
             "patch": "3.0",
             "cSiblings": ["ap.450"]
         },
         "x162": {
             "name_en": "Hunting Hawk",
             "name_fr": "Buse Chasseuse",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@800 CURRENCY.SCRIP.SKYBUILDERS", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@800 CURRENCY.SCRIP.SKYBUILDERS", "chest.110", "chest.111", "chest.25", "chest.313", "chest.314"],
             "patch": "3.1",
             "cSiblings": ["ap.549"]
         },
@@ -2085,24 +2091,24 @@
         "x247": {
             "name_en": "Road Sparrow",
             "name_fr": "Moineau Voyageur",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.240", "d.540"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.ISLAND_SANCTUARY"],
+            "source": ["d.240", "chest.110", "chest.111", "chest.25"],
             "patch": "4.0",
             "cSiblings": ["ap.400"]
         },
         "x349": {
             "name_en": "Shoebill",
             "name_fr": "Bec-en-sabot",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.652", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.652", "chest.120", "chest.121", "chest.131", "chest.230"],
             "patch": "5.0",
             "cSiblings": ["ap.404"]
         },
         "x371": {
             "name_en": "Silver Dasher",
             "name_fr": "Mésange À Longue Queue",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": "@VOYAGE.THE_OPEN_ROBE",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.THE_OPEN_ROBE", "chest.131"],
             "patch": "5.2",
             "cSiblings": ["ap.481"]
         },
@@ -2140,14 +2146,14 @@
         "x550": {
             "name_en": "Skallic Uolosapa",
             "name_fr": "Uolosapa De Skalla",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@600 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.25"
         },
         "x593": {
             "name_en": "Nymian Uolosapa",
             "name_fr": "Uolosapa De Nym",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
             "patch": "7.55"
         },
@@ -2162,8 +2168,8 @@
         "x531": {
             "name_en": "Toco Toquito",
             "name_fr": "Toucancan",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": "@VOYAGE.NORTH_DELPHINIUM_SEASHELF",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.NORTH_DELPHINIUM_SEASHELF", "chest.130"],
             "patch": "7.1"
         },
         "x561": {
@@ -2183,8 +2189,8 @@
         "x53": {
             "name_en": "Wind-up Qiqirn",
             "name_fr": "Qiqirn Mécanique",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.313", "chest.317"],
             "patch": "2.1",
             "cSiblings": ["ap.359"]
         },
@@ -2287,8 +2293,8 @@
         "x158": {
             "name_en": "Wind-up Illuminatus",
             "name_fr": "Gobelin de la Mimine Bleue",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.313", "chest.314"],
             "patch": "3.1"
         },
         "x362": {
@@ -2456,7 +2462,7 @@
             "name_en": "Wind-up Feo Ul",
             "name_fr": "Feo Ul Miniature",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@COFFER.TRAVERSE.GOLD",
+            "source": "chest.131",
             "patch": "7.35"
         },
         "x444": {
@@ -2478,43 +2484,43 @@
         "x168": {
             "name_en": "Wind-up Ifrit",
             "name_fr": "Petit Ifrit",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.111", "chest.112", "chest.317", "chest.318"],
             "patch": "3.1"
         },
         "x169": {
             "name_en": "Wind-up Garuda",
             "name_fr": "Petite Garuda",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.111", "chest.112", "chest.317", "chest.318"],
             "patch": "3.15"
         },
         "x170": {
             "name_en": "Wind-up Titan",
             "name_fr": "Petit Titan",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.111", "chest.112", "chest.317", "chest.318"],
             "patch": "3.15"
         },
         "x171": {
             "name_en": "Wind-up Leviathan",
             "name_fr": "Petit Léviathan",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.317", "chest.318"],
             "patch": "3.15"
         },
         "x185": {
             "name_en": "Wind-up Ramuh",
             "name_fr": "Petit Ramuh",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.317", "chest.318"],
             "patch": "3.3"
         },
         "x186": {
             "name_en": "Wind-up Shiva",
             "name_fr": "Petite Shiva",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.317", "chest.318"],
             "patch": "3.3"
         },
         "x76": {
@@ -2527,36 +2533,36 @@
         "x263": {
             "name_en": "Wind-up Bismarck",
             "name_fr": "Petit Bismarck",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.317", "chest.318"],
             "patch": "4.0"
         },
         "x265": {
             "name_en": "Wind-up Ravana",
             "name_fr": "Petit Ravana",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540", "@COFFER.BOZJA"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540", "chest.220", "chest.230", "chest.317", "chest.318"],
             "patch": "4.1"
         },
         "x261": {
             "name_en": "Wind-up Susano",
             "name_fr": "Petit Susano",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.112", "chest.317", "chest.318"],
             "patch": "4.0"
         },
         "x262": {
             "name_en": "Wind-up Lakshmi",
             "name_fr": "Petite Lakshmi",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "d.540"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.110", "chest.111", "chest.317", "chest.318"],
             "patch": "4.0"
         },
         "x275": {
             "name_en": "Wind-up Shinryu",
             "name_fr": "Mini-Shinryu",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.220", "chest.221", "chest.230", "chest.317", "chest.318"],
             "patch": "4.1"
         },
         "x297": {
@@ -2571,16 +2577,16 @@
         "x284": {
             "name_en": "Byakko Cub",
             "name_fr": "Bébé Byakko",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.220", "chest.221", "chest.230", "chest.317", "chest.318"],
             "patch": "4.2",
             "cSiblings": ["ap.451"]
         },
         "x303": {
             "name_en": "Scarlet Peacock",
             "name_fr": "Paonne Vermillon",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.220", "chest.221", "chest.230", "chest.317", "chest.318"],
             "patch": "4.4",
             "cSiblings": ["ap.452"]
         },
@@ -2597,8 +2603,8 @@
         "x327": {
             "name_en": "Seitei",
             "name_fr": "Dragonnet Azur",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.220", "chest.221", "chest.230", "chest.317", "chest.318"],
             "patch": "4.5",
             "cSiblings": ["ap.453"]
         },
@@ -2651,8 +2657,8 @@
         "x488": {
             "name_en": "Wind-up Barbariccia",
             "name_fr": "Barbariccia Miniature",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.317", "chest.318"],
             "patch": "6.4"
         },
         "x497": {
@@ -2949,7 +2955,7 @@
             "name_en": "Wind-up Edda",
             "name_fr": "Edda Miniature",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
+            "source": ["chest.101", "chest.102", "chest.103"],
             "patch": "3.4",
             "cSiblings": ["ap.558"]
         },
@@ -3024,16 +3030,16 @@
         "x282": {
             "name_en": "Wind-up Magnai",
             "name_fr": "Magnai Miniature",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.317", "chest.318"],
             "patch": "4.3",
             "cSiblings": ["ap.665"]
         },
         "x294": {
             "name_en": "Wind-up Sadu",
             "name_fr": "Sadu Miniature",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.317", "chest.318"],
             "patch": "4.3",
             "cSiblings": ["ap.667"]
         },
@@ -3135,7 +3141,7 @@
         "x418": {
             "name_en": "Wind-up Gunnhildr",
             "name_fr": "Gunnhildr Miniature",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@100 CURRENCY.EM.BOZJAN_CLUSTER",
             "patch": "5.55"
         },
@@ -3436,16 +3442,16 @@
         "x255": {
             "name_en": "Wind-up Chimera",
             "name_fr": "Chimère Mécanique",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.313", "chest.317"],
             "patch": "4.0",
             "cSiblings": ["ap.401"]
         },
         "x268": {
             "name_en": "Tengu Doll",
             "name_fr": "Poupée Tengu",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.EXPLORATION.FIELD XXII", "@COFFER.BOZJA"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["@SOURCE.EXPLORATION.FIELD XXII", "chest.220", "chest.230"],
             "patch": "4.1"
         },
         "x280": {
@@ -3459,22 +3465,22 @@
         "x286": {
             "name_en": "Wind-up Mithra",
             "name_fr": "Poupée Mithra",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": ["duty.exploratory-missions.eureka.notorious-monsters.anemos.1339", "@COFFER.EUREKA.ANEMOS"],
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.eureka.notorious-monsters.anemos.1339", "chest.200", "chest.230"],
             "patch": "4.25"
         },
         "x296": {
             "name_en": "Wind-up Tarutaru",
             "name_fr": "Poupée Tarutaru",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.PAGOS",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.201", "chest.204", "chest.230"],
             "patch": "4.4"
         },
         "x314": {
             "name_en": "Wind-up Elvaan",
             "name_fr": "Poupée Elvaan",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.eureka.notorious-monsters.pyros.1400",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.eureka.notorious-monsters.pyros.1400", "chest.230"],
             "patch": "4.45"
         },
         "x307": {
@@ -3503,8 +3509,8 @@
         "x374": {
             "name_en": "Ancient One",
             "name_fr": "Poupée Ascienne",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.714",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.714", "chest.131"],
             "patch": "5.2"
         },
         "x379": {
@@ -3556,8 +3562,8 @@
         "x586": {
             "name_en": "Puny Mage",
             "name_fr": "P'tit Mage",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@PLACE.DT.NORTH_HORN - COFFER.CRESCENT.POT/COFFER.CRESCENT.BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.233",
             "patch": "7.55"
         },
         "x52": {
@@ -3579,8 +3585,8 @@
         "x43": {
             "name_en": "Model Vanguard",
             "name_fr": "Maquette Magitek",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.GSM)", "chest.313", "chest.314"],
             "patch": "2.1"
         },
         "x55": {
@@ -3595,8 +3601,8 @@
         "x100": {
             "name_en": "Model Magitek Bit",
             "name_fr": "Micro-drone Magitek",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.BSM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.BSM)", "chest.313", "chest.314"],
             "patch": "2.5"
         },
         "x149": {
@@ -3617,8 +3623,8 @@
         "x321": {
             "name_en": "Wind-up Weapon",
             "name_fr": "Mascotte Blindée",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["d.611", "d.897", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.611", "chest.220", "chest.221", "chest.120", "chest.121", "chest.230"],
             "patch": "4.5"
         },
         "x324": {
@@ -3631,8 +3637,8 @@
         "x348": {
             "name_en": "Sharksucker-class Insubmersible",
             "name_fr": "Sous-marin De Classe Rémora",
-            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@VOYAGE.THE_CENTRAL_CHARNEL_TRENCH", "@VOYAGE.THE_SOUTHERN_CHARNEL_TRENCH", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["@VOYAGE.THE_CENTRAL_CHARNEL_TRENCH", "@VOYAGE.THE_SOUTHERN_CHARNEL_TRENCH", "chest.221", "chest.230"],
             "patch": "5.05"
         },
         "x397": {
@@ -3652,29 +3658,29 @@
         "x383": {
             "name_en": "Magitek Helldiver F1",
             "name_fr": "Plongeur Infernal S1",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.bozja.duties.0",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.bozja.duties.0", "chest.230"],
             "patch": "5.35"
         },
         "x389": {
             "name_en": "Dáinsleif F1",
             "name_fr": "Dáinsleif S1",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.BOZJA",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.220", "chest.230"],
             "patch": "5.35"
         },
         "x411": {
             "name_en": "Magitek Predator F1",
             "name_fr": "Prédateur Magitek S1",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.777", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.777", "chest.120", "chest.121", "chest.230"],
             "patch": "5.5"
         },
         "x425": {
             "name_en": "Optimus Omicron",
             "name_fr": "Omicron Optimus",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["d.784", "d.897"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["d.784", "chest.120", "chest.121", "chest.230"],
             "patch": "6.0",
             "cSiblings": ["ap.486"]
         },
@@ -3718,8 +3724,8 @@
         "x475": {
             "name_en": "Bantam Train",
             "name_fr": "Train Petit Mais Costaud",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.130", "chest.317", "chest.318"],
             "patch": "6.3"
         },
         "x449": {
@@ -3779,14 +3785,14 @@
             "name_en": "Micro Rover",
             "name_fr": "Mini-ouvrier Cosmique",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.SINUS_ARDORUM",
+            "source": "chest.310",
             "patch": "7.21"
         },
         "x553": {
             "name_en": "Model Suit",
             "name_fr": "Mécano Cosmique Factice",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.PHAENNA",
+            "source": "chest.311",
             "patch": "7.31"
         },
         "x555": {
@@ -3809,14 +3815,14 @@
             "name_en": "Droningway",
             "name_fr": "Droningway",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS",
+            "source": "chest.312",
             "patch": "7.41"
         },
         "x583": {
             "name_en": "Lite-loader",
             "name_fr": "Mini-déblayeuse Cosmique",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.AUXESIA",
+            "source": "chest.316",
             "patch": "7.51"
         },
         "x51": {
@@ -3846,8 +3852,8 @@
         "x66": {
             "name_en": "Plush Cushion",
             "name_fr": "Coussin Moelleux",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.300", "chest.301", "chest.313", "chest.314"],
             "patch": "2.2"
         },
         "x328": {
@@ -3861,7 +3867,7 @@
             "name_en": "Magic Broom",
             "name_fr": "Balai Enchanté",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.300"],
             "patch": "2.2",
             "cSiblings": ["ap.363"]
         },
@@ -3869,7 +3875,7 @@
             "name_en": "Miniature Minecart",
             "name_fr": "Wagonnet Mécanique",
             "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@SOURCE.EXPLORATION.HIGHLAND XIV", "d.540"],
+            "source": ["@SOURCE.EXPLORATION.HIGHLAND XIV", "chest.110", "chest.111"],
             "patch": "2.3"
         },
         "x154": {
@@ -3882,8 +3888,8 @@
         "x140": {
             "name_en": "Clockwork Barrow",
             "name_fr": "Brouette Mécanique",
-            "category": "@CATEGORY.CRAFTING",
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "@SOURCE.KUPO_OF_FORTUNE"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.300", "chest.313", "chest.314"],
             "patch": "3.0"
         },
         "x105": {
@@ -3906,15 +3912,15 @@
         "x188": {
             "name_en": "Magic Bucket",
             "name_fr": "Seau D'eau Magique",
-            "category": "@CATEGORY.GATHERING",
-            "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
+            "category": ["@CATEGORY.GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.GATHERED (CLASS_JOB.FSH)", "chest.317", "chest.318"],
             "patch": "3.3"
         },
         "x278": {
             "name_en": "Private Moai",
             "name_fr": "Mini-moai",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.EXPLORATORY_MISSION"],
-            "source": ["@SOURCE.CRAFTED (CLASS_JOB.BSM)", "@COFFER.BOZJA", "@COFFER.ZADNOR"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.FIELD_OPERATION", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.BSM)", "chest.220", "chest.221", "chest.230", "chest.313", "chest.314"],
             "patch": "4.2",
             "cSiblings": ["ap.537"]
         },
@@ -3942,29 +3948,29 @@
         "x413": {
             "name_en": "Benben Stone",
             "name_fr": "Benben",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": "@VOYAGE.THE_DEVILS_CRYPT",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.THE_DEVILS_CRYPT", "chest.131"],
             "patch": "5.5"
         },
         "x414": {
             "name_en": "Wanderer's Campfire",
             "name_fr": "Feu De Camp De Voyageur",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.ALC)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "chest.131", "chest.313"],
             "patch": "5.5"
         },
         "x436": {
             "name_en": "Adventure Basket",
             "name_fr": "Malle D'aventure",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.131", "chest.313", "chest.317"],
             "patch": "6.0"
         },
         "x489": {
             "name_en": "Goggle-eyed Dogu",
             "name_fr": "Dogû Globuleux",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": ["@VOYAGE.LILAC_SEA 2", "@VOYAGE.WINGSREACH"],
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.LILAC_SEA 2", "@VOYAGE.WINGSREACH", "chest.130"],
             "patch": "6.4"
         },
         "x495": {

@@ -18,6 +18,8 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
     const BLRF = 'logs.gathering.gathering-log.logging.regional-folklore';
     store.moveGroup(`${BLRF}.Coerthas`, `${BLRF}.coerthas`);
 
+    store.moveGroup('duty.exploratory-missions', 'duty.field-operations');
+    
     migrateGathering(store);
     migrateFacewear(store);
     migrateFishingGuide(store);

@@ -1,0 +1,22 @@
+{
+    "key": "sinus-ardorum",
+    "groupName": "@PLACE.DT.SINUS_ARDORUM",
+    "tasks": {
+        "x310": {
+            "name_en": "Cosmic Fortune",
+            "name_fr": "Cosmic Fortune",
+            "location": "@PLACE.DT.SINUS_ARDORUM",
+            "requirements": "@VENDOR.ORBITINGWAY (1,000 CURRENCY.CE.LUNAR_CREDIT)",
+            "loot": [
+                "mo.364",
+                "mi.547",
+                "fa.47",
+                "fw.25",
+                "o.745",
+                "o.746",
+                "o.736",
+                "e.286"
+            ]
+        }
+    }
+}

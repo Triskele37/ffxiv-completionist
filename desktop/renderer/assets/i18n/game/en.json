@@ -9,7 +9,7 @@
             "DEEP_DUNGEON": "Deep Dungeon",
             "DUNGEON": "Dungeon",
             "EVENT": "Event",
-            "EXPLORATORY_MISSION": "Exploratory Mission",
+            "FIELD_OPERATION": "Field Operations",
             "EXPLORATORY_VOYAGE": "Exploratory Voyage",
             "FATE": "FATE",
             "FAUX_HOLLOWS": "Faux Hollows",
@@ -102,38 +102,6 @@
             "VPR": "Viper",
             "PCT": "Pictomancer"
         },
-        "COFFER": {
-            "BOZJA": "Southern Front Lockbox",
-            "ZADNOR": "Zadnor Lockbox",
-            "SANCTUARY": "Sanctuary Materiel Container",
-            "SILVER_ANCIENT_RECORD": "Silver Ancient Record",
-            "GOLD_ANCIENT_RECORD": "Gold Ancient Record",
-            "EUREKA": {
-                "ANEMOS": "Anemos Lockbox",
-                "PAGOS": "Pagos Lockbox",
-                "PAGOS_BUNNY": "Happy Bunny Lockbox - Eureka Pagos",
-                "COLD_WARPED": "Cold-warped Lockbox",
-                "PYROS": "Pyros Lockbox",
-                "PYROS_BUNNY": "Happy Bunny Lockbox - Eureka Pyros",
-                "HEAT_WARPED": "Heat-warped Lockbox",
-                "HYDATOS": "Hydatos Lockbox",
-                "HYDATOS_BUNNY": "Happy Bunny Lockbox - Eureka Hydatos",
-                "MOISTURE_WARPED": "Moisture-warped Lockbox"
-            },
-            "TRAVERSE": {
-                "SILVER": "Sack of Silvered Light",
-                "GOLD": "Sack of Gilded Light",
-                "PLATINUM": "Sack of Platinum Light",
-                "FIRST_LIGHT": "Sack of First Light"
-            },
-            "CRESCENT": {
-                "BRONZE": "Bronze Coffer",
-                "SILVER": "Silver Coffer",
-                "GOLD": "Gold Coffer",
-                "POT": "Pot Coffer",
-                "BUNNY": "Bunny Coffer"
-            }
-        },
         "COSMO": {
             "MISSION_TYPE": {
                 "CLASS_D": "Class D",
@@ -222,6 +190,7 @@
                 "TWILIGHT_GEMSTONE": "Twilight Gemstone"
             },
             "ISLAND": {
+                "FELICITOUS_TOKEN": "Felicitous Token",
                 "SEAFARERS": "Seafarer's Cowry",
                 "VEGETAL": "Vegetal Voucher"
             },
@@ -260,9 +229,15 @@
             },
             "CE": {
                 "COSMOCREDIT": "Cosmocredit",
+                "LUNAR_CREDIT": "Lunar Credit",
+                "PHAENNA_CREDIT": "Phaenna Credit",
                 "PHAENNA_TOKEN_BOOKLET": "Phaenna Token Booklet",
+                "OIZYS_CREDIT": "Oizys Credit",
                 "OIZYS_TOKEN_BOOKLET": "Oizys Token Booklet",
-                "AUXESIA_TOKEN_BOOKLET": "Auxesia Token Booklet"
+                "OIZYS_DRONEBIT": "Oizys Dronebit",
+                "AUXESIA_CREDIT": "Auxesia Credit",
+                "AUXESIA_TOKEN_BOOKLET": "Auxesia Token Booklet",
+                "AUXESIA_DRONEBIT": "Auxesia Dronebit"
             },
             "SCRIP": {
                 "PRIMARY_CRAFTERS": "Orange Crafters' Scrip",
@@ -507,6 +482,7 @@
             "XVI_COLLAB": "Final Fantasy XVI Collaboration",
             "YO_KAI": "Yo-Kai Watch",
             "FAN_FEST": "Fan Festival",
+            "DIGITAL_FAN_FEST": "Digital Fan Festival",
             "FUJIFILM_COLLAB": "Fujifilm Collab",
             "TWITCH_CAMPAIGN": "Twitch Campaign"
         },
@@ -986,12 +962,9 @@
         },
         "SOURCE": {
             "CRAFTED": "Crafted",
-            "COSMIC_FORTUNE": "Cosmic Fortune",
             "DESYNTHESIS": "Desynthesis",
-            "FETE_PRESENT": "Fête Present",
             "GARDENING": "Gardening",
             "GATHERED": "Gathered",
-            "KUPO_OF_FORTUNE": "Kupo of Fortune",
             "MECH_PILOT_REWARD": "Mech Pilot Reward",
             "MOG_STATION": "Mog Station",
             "SERIES_REWARD": "Series Reward",
@@ -1059,6 +1032,7 @@
             "GHANTA": "Ghanta - PLACE.EW.THAVNAIR",
             "HANEKO_BURNEKO": "Haneko Burneko - PLACE.ARR.THE_WAKING_SANDS",
             "HISMENA": "Hismena - PLACE.HW.IDYLLSHIRE",
+            "HORRENDOUS_HOARDER": "Horrendous Hoarder",
             "HOUSING_MERCHANT": "Housing Merchant",
             "HUNT_BILLMASTER": "Hunt Billmaster - Grand Company HQ",
             "ILFROY": "Ilfroy - PLACE.SHB.EULMORE",
@@ -1066,6 +1040,7 @@
             "JONATHAS": "Jonathas - PLACE.ARR.OLD_GRIDANIA",
             "JUNKMONGER": "Junkmonger",
             "JUNKMONGER_NONOROON": "Junkmonger Nonoroon - Poor Maid's Mill",
+            "KAEDE": "Kaede",
             "KASUMI": "Kasumi - PLACE.THE_GOLD_SAUCER",
             "LEANDRYNE": "Leandryne - PLACE.ARR.NEW_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.SB.RHALGRS_REACH",
@@ -1075,9 +1050,12 @@
             "MESOUAIDONQUE": "Mesouaidonque",
             "MINION_TRADER": "Minion Trader - PLACE.MINION_SQUARE",
             "MOGMUL": "Mogmul Mogbelly - Bahrr Lehs",
+            "NEON": "Neon - PLACE.DT.SOLUTION_NINE",
             "NESVAAZ": "Nesvaaz - PLACE.EW.RADZ_AT_HAN",
+            "ORBITINGWAY": "Orbitingway",
             "OSE_WYD": "Ose Wyd - PLACE.SHB.IL_MHEG",
             "PECULIAR_GOBLIN": "Peculiar Goblin - PLACE.DT.LOWER_JEUNO",
+            "POTKIN": "Potkin - PLACE.HW.THE_FIRMAMENT",
             "RESISTANCE_QUARTERMASTER": "Resistance Quartermaster",
             "RESISTANCE_SUPPLIER": "Resistance Supplier",
             "ROARICH": "Roarich - PLACE.ARR.UL_DAH_STEPS_OF_NALD",

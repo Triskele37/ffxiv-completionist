@@ -16,11 +16,13 @@ type TaskIndex = Map<number, Task>;
 // This is the actual entity storing indexed tasks via [shorthand][id]
 export const INDEX: IndexContainer = new Map([
     ['a', createIndex('character.achievement')],
+    ['aes', createIndex('character.character.aesthetician')],
     ['ap', createIndex('character.adventure-plate')],
     ['b', createIndex('character.companion.barding')],
+    ['chest', createIndex('reference.chest')],
     ['cj', createIndex('character.character.classes--jobs')],
     ['cl', createIndex('logs.crafting-log', ['master-crafting-books'])],
-    ['cm', createIndex('duty.exploratory-missions.cosmic-exploration.mission-log')],
+    ['cm', createIndex('duty.field-operations.cosmic-exploration.mission-log')],
     ['d', createIndex('duty.duty-raid-finder', ['record'])],
     ['e', createIndex('social.emotes')],
     ['f', createIndex('logs.gathering.fishing-guide.fishing')],

@@ -10,7 +10,7 @@
     @let group = svcNavigation.selectedGroup();
 
     @if(group && group.dataType === 'Group' && group._parent) {
-        @if(!hideGroup() && !group.isUiGroup) {
+        @if(!hideGroup() && !group.isUiGroup && !group.disableCompletion) {
             <com-summary-line
                 data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_CURRENT"
                 [group]="group"

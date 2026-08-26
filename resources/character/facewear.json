@@ -50,22 +50,24 @@
         "x4": {
             "name_en": "Simple Spectacles",
             "name_fr": "Lunettes basiques",
-            "category": "@CATEGORY.PURCHASE",
+            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.FIELD_OPERATION"],
             "source": [
                 "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
                 "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
-                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)"
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)",
+                "chest.230"
             ],
             "patch": "7.0"
         },
         "x5": {
             "name_en": "Monocle",
             "name_fr": "Monocle",
-            "category": "@CATEGORY.PURCHASE",
+            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.FIELD_OPERATION"],
             "source": [
                 "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
                 "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
-                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)"
+                "@VENDOR.MAISENTA (3,000 CURRENCY.GIL)",
+                "chest.230"
             ],
             "patch": "7.0"
         },
@@ -142,15 +144,15 @@
         "x16": {
             "name_en": "Cat Eye Glasses",
             "name_fr": "Lunettes œil-de-chat",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.8",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["duty.treasure-hunt.duties.8", "chest.230"],
             "patch": "7.1"
         },
         "x17": {
             "name_en": "Slim Frame Glasses",
             "name_fr": "Lunettes à monture fine",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.8",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.FIELD_OPERATION"],
+            "source": ["duty.treasure-hunt.duties.8", "chest.230"],
             "patch": "7.1"
         },
         "x18": {
@@ -214,7 +216,7 @@
             "name_en": "Tinted Sunglasses",
             "name_fr": "Lunettes de soleil teintées",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.SINUS_ARDORUM",
+            "source": "chest.310",
             "patch": "7.21"
         },
         "x26": {
@@ -227,10 +229,10 @@
         "x27": {
             "name_en": "Rectangular Glasses",
             "name_fr": "Lunettes à verres dégradés",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
-                "@PLACE.DT.SOUTH_HORN - COFFER.CRESCENT.BRONZE/COFFER.CRESCENT.SILVER"
+                "chest.230"
             ],
             "patch": "7.25"
         },
@@ -273,7 +275,7 @@
             "name_en": "Scaevan Headgear",
             "name_fr": "Accessoire oculaire Scaeva",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.PHAENNA",
+            "source": "chest.311",
             "patch": "7.31"
         },
         "x35": {
@@ -294,7 +296,7 @@
             "name_en": "Cat Eye Reading Glasses",
             "name_fr": "Lunettes de lecture œil de chat",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@COFFER.TRAVERSE.PLATINUM",
+            "source": "chest.132",
             "patch": "7.35"
         },
         "x38": {
@@ -364,7 +366,7 @@
             "name_en": "Holospecs",
             "name_fr": "Holo-lunettes",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS",
+            "source": "chest.312",
             "patch": "7.41"
         },
         "x48": {
@@ -385,7 +387,7 @@
             "name_en": "Holovisor",
             "name_fr": "Holo-lunettes de sécurité",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS",
+            "source": "chest.312",
             "patch": "7.41"
         },
         "x51": {
@@ -398,10 +400,10 @@
         "x52": {
             "name_en": "Simple Oval Spectacles",
             "name_fr": "Lunettes ovales basiques",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
-                "@PLACE.DT.NORTH_HORN - COFFER.CRESCENT.BRONZE/COFFER.CRESCENT.SILVER"
+                "chest.232"
             ],
             "patch": "7.55"
         },
@@ -467,7 +469,7 @@
             "name_en": "Wrap-around Sunglasses",
             "name_fr": "Lunettes enveloppantes",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.AUXESIA",
+            "source": "chest.316",
             "patch": "7.51"
         }
     }

@@ -22,4 +22,7 @@ export function initCompletion(
     this.group.initNumericCompletion(group, !!json.isNumericCompletion);
 
     group.numericDecimal = json.numericDecimal;
+
+    if(json.disableCompletion) group.disableCompletion = json.disableCompletion;
+    if(group._parent?.disableCompletion) group.disableCompletion = true;
 }

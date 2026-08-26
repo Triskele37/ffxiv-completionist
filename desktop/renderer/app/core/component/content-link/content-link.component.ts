@@ -32,8 +32,13 @@ export class ContentLinkComponent {
     onClickLink(): void {
         if(!this.content || typeof this.content !== 'object') return;
 
-        if(this.content.dataType === 'Task' && this.svcChainViewer.task()) {
-            this.svcChainViewer.changeTargetTask(this.content);
+        if(this.content.dataType === 'Task') {
+            if(this.svcChainViewer.task()) {
+                this.svcChainViewer.changeTargetTask(this.content);
+            }
+            else {
+                this.svcNavigation.setSelectedContent(this.content);
+            }
         }
         else if(this.content.dataType === 'Group') {
             this.svcNavigation.setSelectedContent(this.content);

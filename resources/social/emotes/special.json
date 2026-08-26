@@ -609,8 +609,8 @@
             "name_fr": "Grelotter",
             "command_en": "/shiver",
             "command_fr": "/shiver, /grelotter",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.COLD_WARPED",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.204", "chest.230"],
             "patch": "4.4"
         },
         "x169": {
@@ -636,8 +636,8 @@
             "name_fr": "Confirmer",
             "command_en": "/confirm",
             "command_fr": "/confirm, /confirmer",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3", "chest.232"],
             "patch": "4.4"
         },
         "x189": {
@@ -645,8 +645,8 @@
             "name_fr": "Expliquer son plan",
             "command_en": "/scheme",
             "command_fr": "/scheme, /expliquerplan",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.HEAT_WARPED",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.208", "chest.230", "chest.232"],
             "patch": "4.45"
         },
         "x196": {
@@ -683,8 +683,8 @@
             "name_fr": "Posture inclinée",
             "command_en": "/lean",
             "command_fr": "/lean, /sepencher",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.11"
         },
         "x214": {
@@ -692,8 +692,8 @@
             "name_fr": "Monter la garde",
             "command_en": "/guard",
             "command_fr": "/guard, /monterlagarde",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@50 CURRENCY.EM.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@50 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
         "x215": {
@@ -701,8 +701,8 @@
             "name_fr": "Pose de l'occultiste",
             "command_en": "/malevolence",
             "command_fr": "/malevolence, /occultiste",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@50 CURRENCY.EM.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@50 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230", "chest.232"],
             "patch": "5.45"
         },
         "x222": {
@@ -710,8 +710,8 @@
             "name_fr": "Se frotter les mains",
             "command_en": "/wringhands",
             "command_fr": "/wringhands, /sefrotterlesmains, /frottmains",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.ZADNOR",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.221", "chest.230", "chest.232"],
             "patch": "5.55"
         },
         "x223": {
@@ -719,8 +719,8 @@
             "name_fr": "Balayer",
             "command_en": "/sweep, /broom",
             "command_fr": "/sweep, /broom, /balayer, /balai",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.317", "chest.318"],
             "patch": "5.41"
         },
         "x241": {
@@ -819,7 +819,7 @@
             "command_en": "/study",
             "command_fr": "/study, /lireunlivrecontinu, /lirecont",
             "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301"],
             "patch": "7.2"
         },
         "x317": {
@@ -905,10 +905,10 @@
             "name_fr": "Regarder en arrière",
             "command_en": "/lookback",
             "command_fr": "/lookback, /regarderenarrière, /regarr",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
-                "@PLACE.DT.NORTH_HORN - COFFER.CRESCENT.POT/COFFER.CRESCENT.BUNNY"
+                "chest.233"
             ],
             "patch": "7.55"
         },

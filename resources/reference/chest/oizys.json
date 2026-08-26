@@ -1,0 +1,113 @@
+{
+    "key": "oizys",
+    "groupName": "@PLACE.DT.OIZYS",
+    "tasks": {
+        "x312": {
+            "name_en": "Cosmic Fortune",
+            "name_fr": "Cosmic Fortune",
+            "location": "@PLACE.DT.OIZYS",
+            "requirements": "@VENDOR.ORBITINGWAY (1,000 CURRENCY.CE.OIZYS_CREDIT)",
+            "loot": [
+                "b.106",
+                "mo.415",
+                "mi.569",
+                "fw.47",
+                "fw.50",
+                "o.828"
+            ]
+        },
+        "x313": {
+            "name_en": "Bronze Ancient Record",
+            "name_fr": "Relique archéologique (bronze)",
+            "location": "@PLACE.DT.OIZYS",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.OIZYS_DRONEBIT)",
+            "loot": [
+                "mi.436",
+                "mi.136",
+                "mi.190",
+                "mi.237",
+                "mi.363",
+                "mi.140",
+                "mi.38",
+                "mi.30",
+                "mi.22",
+                "mi.162",
+                "mi.143",
+                "mi.48",
+                "mi.357",
+                "mi.100",
+                "mi.43",
+                "mi.95",
+                "mi.157",
+                "mi.66",
+                "mi.278",
+                "mi.147",
+                "mi.244",
+                "mi.24",
+                "mi.414",
+                "mi.39",
+                "mi.255",
+                "mi.29",
+                "mi.158",
+                "mi.53",
+                "fa.6",
+                "fa.7",
+                "fa.1",
+                "fa.13",
+                "fa.2",
+                "e.208",
+                "e.203",
+                "e.213",
+                "e.206"
+            ],
+            "_itemId": 50413
+        },
+        "x314": {
+            "name_en": "Silver Ancient Record",
+            "name_fr": "Relique archéologique (argent)",
+            "location": "@PLACE.DT.OIZYS",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.OIZYS_DRONEBIT)",
+            "loot": [
+                "aes.72",
+                "aes.79",
+                "mi.237",
+                "mi.140",
+                "mi.38",
+                "mi.162",
+                "mi.357",
+                "mi.100",
+                "mi.43",
+                "mi.157",
+                "mi.66",
+                "mi.278",
+                "mi.147",
+                "mi.24",
+                "mi.29",
+                "mi.158",
+                "fa.7",
+                "fa.1",
+                "fa.2",
+                "e.208",
+                "e.203",
+                "e.213",
+                "e.206"
+            ],
+            "_itemId": 50412
+        },
+        "x315": {
+            "name_en": "Gold Ancient Record",
+            "name_fr": "Relique archéologique (or)",
+            "location": "@PLACE.DT.OIZYS",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.OIZYS_DRONEBIT)",
+            "loot": [
+                "aes.72",
+                "aes.79",
+                "mo.371",
+                "mo.225",
+                "mo.211",
+                "e.309"
+            ],
+            "_itemId": 50411
+        }
+    }
+}

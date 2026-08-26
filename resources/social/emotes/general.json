@@ -239,8 +239,8 @@
             "name_fr": "Poing en l'air",
             "command_en": "/fistpump",
             "command_fr": "/fistpump, /poingair",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.MOISTURE_WARPED",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.212", "chest.232"],
             "patch": "4.55"
         },
         "x197": {
@@ -288,8 +288,8 @@
             "name_fr": "Pinceau chocobo : noir",
             "command_en": "/paintblack",
             "command_fr": "/paintblack, /pinchoconoir, /pinceaunoir",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.5",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [225, 226, 227]
         },
@@ -298,8 +298,8 @@
             "name_fr": "Pinceau chocobo : rouge",
             "command_en": "/paintred",
             "command_fr": "/paintred, /pinchocorouge, /pinceaurouge",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.5",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 226, 227]
         },
@@ -308,8 +308,8 @@
             "name_fr": "Pinceau chocobo : jaune",
             "command_en": "/paintyellow",
             "command_fr": "/paintyellow, /pinchocojaune, /pinceaujaune",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.5",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 225, 227]
         },
@@ -318,8 +318,8 @@
             "name_fr": "Pinceau chocobo : bleu",
             "command_en": "/paintblue",
             "command_fr": "/paintblue, /pinchocobleu, /pinceaubleu",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.5",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 225, 226]
         },
@@ -453,7 +453,7 @@
             "command_en": "/limberup, /limber",
             "command_fr": "/limberup, /limber, /séchauffer",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.PHAENNA",
+            "source": "chest.311",
             "patch": "7.31"
         },
         "x312": {
@@ -501,7 +501,7 @@
             "command_en": "/stomp",
             "command_fr": "/stomp, /trépigner",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@COFFER.GOLD_ANCIENT_RECORD - PLACE.DT.OIZYS",
+            "source": "chest.315",
             "patch": "7.4"
         },
         "x245": {
@@ -757,8 +757,8 @@
             "name_fr": "Insister",
             "command_en": "/insist",
             "command_fr": "/insist, /insister",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.21"
         },
         "x206": {
@@ -766,8 +766,8 @@
             "name_fr": "Manger du pain",
             "command_en": "/breakfast, /bread",
             "command_fr": "/breakfast, /bread, /mangerdupain, /mangpain",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.300", "chest.313", "chest.314"],
             "patch": "5.21"
         },
         "x220": {
@@ -775,8 +775,8 @@
             "name_fr": "Manger un onigiri",
             "command_en": "/eatriceball, /riceball",
             "command_fr": "/eatriceball, /riceball, /mangerunonigiri, /mangonigiri",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.317", "chest.318"],
             "patch": "5.41"
         },
         "x221": {
@@ -785,7 +785,7 @@
             "command_en": "/eatapple, /apple",
             "command_fr": "/eatapple, /apple, /mangerunepomme, /mangpomme",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.41"
         },
         "x232": {
@@ -913,8 +913,8 @@
             "name_fr": "Lire un livre",
             "command_en": "/read",
             "command_fr": "/read, /lireunlivre, /lire",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.318", "chest.319"],
             "patch": "5.21"
         },
         "x270": {
@@ -941,8 +941,8 @@
             "name_fr": "Tope là",
             "command_en": "/highfive, /hifive",
             "command_fr": "/highfive, /hifive, /topelà",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.313", "chest.314"],
             "patch": "5.31"
         },
         "x229": {
@@ -1001,7 +1001,7 @@
             "command_en": "/visage",
             "command_fr": "/visage, /immortaliserportrait, /selfie",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@SOURCE.COSMIC_FORTUNE - PLACE.DT.SINUS_ARDORUM",
+            "source": "chest.310",
             "patch": "7.21"
         },
         "x292": {
@@ -1009,10 +1009,10 @@
             "name_fr": "Pirouette",
             "command_en": "/twirl",
             "command_fr": "/twirl, /pirouette",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
-                "@PLACE.DT.SOUTH_HORN COFFER.CRESCENT.POT/COFFER.CRESCENT.BUNNY"
+                "chest.231"
             ],
             "patch": "7.25"
         },

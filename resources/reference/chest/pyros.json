@@ -1,0 +1,43 @@
+{
+    "key": "pyros",
+    "groupName": "@PLACE.SB.EUREKA PLACE.SB.PYROS",
+    "tasks": {
+        "x205": {
+            "name_en": "Pyros Lockbox",
+            "name_fr": "Coffre verrouillé de Pyros",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PYROS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.pyros",
+            "loot": ["mi.315"],
+            "_itemId": 24141
+        },
+        "x206": {
+            "name_en": "Happy Bunny Lockbox (Silver)",
+            "name_fr": "Coffre des Lapin du bonheur (argent)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PYROS",
+            "requirements": [
+                "duty.field-operations.eureka.notorious-monsters.pyros.1407",
+                "duty.field-operations.eureka.notorious-monsters.pyros.1408"
+            ],
+            "loot": ["aes.397", "tt.226"]
+        },
+        "x207": {
+            "name_en": "Happy Bunny Lockbox (Gold)",
+            "name_fr": "Coffre des Lapin du bonheur (or)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PYROS",
+            "requirements": [
+                "duty.field-operations.eureka.notorious-monsters.pyros.1407",
+                "duty.field-operations.eureka.notorious-monsters.pyros.1408"
+            ],
+            "loot": ["aes.397", "mo.178"]
+        },
+        "x208": {
+            "name_en": "Heat-warped Lockbox",
+            "name_fr": "Coffre roussi",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PYROS",
+            "requirements_en": "Kill mutated mobs at higher levels",
+            "requirements_fr": "Kill mutated mobs at higher levels",
+            "loot": ["b.66", "mi.315", "e.189"],
+            "_itemId": 24142
+        }
+    }
+}

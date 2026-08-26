@@ -64,6 +64,8 @@ export type DataGroup = {
 
     component?: ViewToken;
 
+    showAllTasks?: boolean;
+
     draggable?: boolean;
 
     /** Whether to hide in the nav-drawer */
@@ -77,6 +79,8 @@ export type DataGroup = {
     isNumericCompletion: boolean;
 
     numericDecimal: number;
+
+    disableCompletion?: boolean;
 
     //#endregion
 };

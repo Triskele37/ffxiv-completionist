@@ -1,0 +1,56 @@
+{
+    "key": "potd",
+    "groupName_en": "The Palace of the Dead",
+    "groupName_fr": "Palais des morts",
+    "tasks": {
+        "x100": {
+            "name_en": "Bronze-trimmed Sack",
+            "name_fr": "Trésor mystérieux de grade I",
+            "location": "@PLACE.ARR.SOUTH_SHROUD",
+            "requirements": "d.174 1-50",
+            "loot": [
+                "aes.302",
+                "mi.80",
+                "mi.16",
+                "mi.139",
+                "mi.141",
+                "mi.56",
+                "mi.112",
+                "mi.97",
+                "mi.137",
+                "mi.142",
+                "mi.157",
+                "mi.57",
+                "mi.27",
+                "mi.138",
+                "mi.134",
+                "mi.23"
+            ],
+            "_itemId": 16170
+        },
+        "x101": {
+            "name_en": "Iron-trimmed Sack",
+            "name_fr": "Trésor mystérieux de grade II",
+            "location": "@PLACE.ARR.SOUTH_SHROUD",
+            "requirements": "d.174 51-100",
+            "loot": ["aes.302", "mi.219", "o.97"],
+            "_itemId": 16171
+        },
+        "x102": {
+            "name_en": "Silver-trimmed Sack",
+            "name_fr": "Trésor mystérieux de grade III",
+            "location": "@PLACE.ARR.SOUTH_SHROUD",
+            "requirements": "d.174 101-150",
+            "loot": ["aes.302", "b.48", "mi.219", "o.97"],
+            "_itemId": 16172
+        },
+        "x103": {
+            "name_en": "Gold-trimmed Sack",
+            "name_fr": "Trésor mystérieux de grade IV",
+            "location": "@PLACE.ARR.SOUTH_SHROUD",
+            "requirements": "d.174 151-200",
+            "loot": ["b.48", "mo.100", "mi.219"],
+            "_itemId": 16173
+        }
+    }
+}

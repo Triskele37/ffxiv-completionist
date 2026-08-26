@@ -77,8 +77,13 @@ export class DataCellComponent implements OnChanges {
 
     //#region------------------------------------------------------- Update
     compileLinks(): void {
-        this.links = this.getCellValues().map((v) => this.getLinkFromPath(v));
-        this.links = this.links.filter((l) => l.value);
+        if(this.column.taskLink) {
+            this.links = [{ value: this.task, type: 'Task' }];
+        }
+        else {
+            this.links = this.getCellValues().map((v) => this.getLinkFromPath(v));
+            this.links = this.links.filter((l) => l.value);
+        }
     }
 
     getLinkFromPath(pathOrValue: string): LinkData {

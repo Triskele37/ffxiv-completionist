@@ -48,6 +48,8 @@ export class SummaryLineComponent implements OnChanges {
     }
 
     updateTooltip(): void {
+        if(this.group.disableCompletion) return;
+
         let tooltip = '';
 
         if(this.showGroup) {

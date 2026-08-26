@@ -215,22 +215,22 @@
         "x150": {
             "name_en": "Tyrannosaur",
             "name_fr": "Tyrannosaure",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.ANEMOS",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.200",
             "patch": "4.25"
         },
         "x159": {
             "name_en": "Dodo",
             "name_fr": "Dodo",
-            "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.540",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.112", "chest.232"],
             "patch": "4.35"
         },
         "x178": {
             "name_en": "Eldthurs",
             "name_fr": "Eldthurs",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.PYROS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.206", "chest.207", "chest.230"],
             "patch": "4.45"
         },
         "x180": {
@@ -243,7 +243,7 @@
         "x333": {
             "name_en": "Sabotender de la Luna",
             "name_fr": "Pampa de la Luna",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.5"
         },
@@ -272,16 +272,18 @@
         "x211": {
             "name_en": "Ufiti",
             "name_fr": "Ufiti",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.11"
         },
         "x212": {
             "name_en": "Deinonychus",
             "name_fr": "Deinonychus",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Dalriada - Final Boss Chest",
-            "source_fr": "Dalriada - Coffre final",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "duty.field-operations.bozja.duties.3",
+                "chest.230"
+            ],
             "patch": "5.55"
         },
         "x214": {
@@ -345,14 +347,14 @@
             "name_en": "Island Peerifool",
             "name_fr": "Peeriefool Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "@COFFER.SANCTUARY",
+            "source": "chest.25",
             "patch": "6.5"
         },
         "x340": {
             "name_en": "Island Adenium",
             "name_fr": "Adenium Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "@200 CURRENCY.ISLAND.VEGETAL",
+            "source": ["@200 CURRENCY.ISLAND.VEGETAL", "chest.25"],
             "patch": "6.5"
         },
         "x388": {
@@ -396,7 +398,7 @@
         "x288": {
             "name_en": "Troll",
             "name_fr": "Troll",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.1"
         },
@@ -425,10 +427,11 @@
         "x373": {
             "name_en": "Petalodus",
             "name_fr": "Petalodus",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
                 "@99 CURRENCY.EM.SANGUINITE",
-                "@PLACE.DT.SOUTH_HORN - COFFER.CRESCENT.BRONZE/COFFER.CRESCENT.SILVER"
+                "chest.230",
+                "chest.231"
             ],
             "patch": "7.25"
         },
@@ -443,14 +446,18 @@
             "name_en": "Interstellar Leafkin",
             "name_fr": "Sangfeuille Stellaire",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@PLACE.DT.AUXESIA (COFFER.GOLD_ANCIENT_RECORD)",
+            "source": "chest.319",
             "patch": "7.51"
         },
         "x437": {
             "name_en": "Duck-billed Porter",
             "name_fr": "Ornithorynque Porteur",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ARCANE_AMULET)",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ARCANE_AMULET)",
+                "duty.field-operations.occult-crescent.duties.1",
+                "duty.field-operations.occult-crescent.duties.2"
+            ],
             "patch": "7.55"
         },
         "x15": {
@@ -500,7 +507,7 @@
             "name_en": "Black Pegasus",
             "name_fr": "Pégase Des Ténèbres",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
+            "source": "chest.103",
             "patch": "3.4"
         },
         "x83": {
@@ -623,16 +630,16 @@
         "x99": {
             "name_en": "Starlight Bear",
             "name_fr": "Ours de la Fête Des Étoiles",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2017)", "@SOURCE.MOG_STATION"],
             "patch": "4.1",
             "defaultCompletion": "X"
         },
         "x250": {
             "name_en": "Polar Bear",
             "name_fr": "Ours Polaire",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.MOONFIRE_FAIRE (2021)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.MOONFIRE_FAIRE (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -826,7 +833,7 @@
             "name_en": "Dhalmel",
             "name_fr": "Dhalmel",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.21"
         },
         "x401": {
@@ -839,8 +846,8 @@
         "x209": {
             "name_en": "Albino Karakul",
             "name_fr": "Karakul Albinos",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.21"
         },
         "x317": {
@@ -853,8 +860,8 @@
         "x225": {
             "name_en": "Megalotragus",
             "name_fr": "Mégalotragus",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.31"
         },
         "x235": {
@@ -867,22 +874,22 @@
         "x236": {
             "name_en": "Big Shell",
             "name_fr": "Coquénorme",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.41"
         },
         "x242": {
             "name_en": "Antelope Doe",
             "name_fr": "Antilope Biche",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.5"
         },
         "x243": {
             "name_en": "Antelope Stag",
             "name_fr": "Antilope Cerf",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@30 CURRENCY.FETE_TOKEN",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@30 CURRENCY.FETE_TOKEN", "chest.301"],
             "patch": "5.5"
         },
         "x263": {
@@ -895,7 +902,7 @@
         "x266": {
             "name_en": "Calydontis",
             "name_fr": "Calydontis",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.0"
         },
@@ -946,7 +953,7 @@
             "name_en": "Orthos Craklaw",
             "name_fr": "Craqulov Orthos",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": "chest.122",
             "patch": "6.35"
         },
         "x294": {
@@ -960,8 +967,8 @@
         "x302": {
             "name_en": "Starlight Steed",
             "name_fr": "Blitzen Illusoire",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2022)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2022)", "@SOURCE.MOG_STATION"],
             "patch": "6.28",
             "defaultCompletion": "X"
         },
@@ -999,7 +1006,7 @@
             "name_en": "Quaqua",
             "name_fr": "Quaqua",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": ["d.979", "@100 CURRENCY.VCD.ALOALO_COIN"],
+            "source": ["d.979", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.ALOALO_COIN)"],
             "patch": "6.51"
         },
         "x342": {
@@ -1041,7 +1048,10 @@
             "name_en": "Pilgrim's Protector",
             "name_fr": "Protecteur Des Pèlerins",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "@COFFER.TRAVERSE.FIRST_LIGHT"],
+            "source": [
+                "@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)",
+                "chest.133"
+            ],
             "patch": "7.35"
         },
         "x397": {
@@ -1091,14 +1101,17 @@
             "name_en": "Ornamental Shrublet",
             "name_fr": "Petit Enfleuri",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@COFFER.TRAVERSE.SILVER",
+            "source": "chest.130",
             "patch": "7.35"
         },
         "x395": {
             "name_en": "Forgiven Mimicry",
             "name_fr": "Mimétisme Pardonné",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "@COFFER.TRAVERSE.FIRST_LIGHT"],
+            "source": [
+                "@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)",
+                "chest.133"
+            ],
             "patch": "7.35"
         },
         "x9": {
@@ -1111,8 +1124,8 @@
         "x194": {
             "name_en": "Circus Ahriman",
             "name_fr": "Ahriman Du Cirque",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.ALL_SAINTS_WAKE (2019)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2019)", "@SOURCE.MOG_STATION"],
             "patch": "5.0",
             "defaultCompletion": "X"
         },
@@ -1170,8 +1183,8 @@
         "x320": {
             "name_en": "Rising Phoenix",
             "name_fr": "Phénix de la Renaissance",
-            "category": "@CATEGORY.EVENT",
-            "source": "q.70302",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["q.70302", "@SOURCE.MOG_STATION"],
             "patch": "6.48",
             "defaultCompletion": "X"
         },
@@ -1192,8 +1205,8 @@
         "x435": {
             "name_en": "Colibri Callado",
             "name_fr": "Colibri Silencieux",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@PLACE.DT.NORTH_HORN COFFER.CRESCENT.POT/COFFER.CRESCENT.BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.232", "chest.233"],
             "patch": "7.55"
         },
         "x27": {
@@ -1257,8 +1270,11 @@
         "x184": {
             "name_en": "Eurekan Petrel",
             "name_fr": "Hirondelle D'Eurêka",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.EUREKA.HYDATOS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "chest.211",
+                "chest.230"
+            ],
             "patch": "4.55"
         },
         "x215": {
@@ -1320,7 +1336,7 @@
         "x372": {
             "name_en": "Demon Haul",
             "name_fr": "Muraille Démonique",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "a.3668",
             "patch": "7.25"
         },
@@ -1342,7 +1358,7 @@
         "x412": {
             "name_en": "Genie of the Lamp",
             "name_fr": "Esprit de la Lampe",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.VC_DUNGEON",
             "source": ["d.1079", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.CORVOSI_MANUSCRIPT)"],
             "patch": "7.45"
         },
@@ -1559,8 +1575,8 @@
         "x213": {
             "name_en": "Construct 14",
             "name_fr": "Bâtisseur N°14",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@180 CURRENCY.EM.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@180 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
         "x223": {
@@ -1596,8 +1612,8 @@
         "x71": {
             "name_en": "SDS Fenrir",
             "name_fr": "SLE Fenrir",
-            "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
-            "source": "@EVENT.FAN_FEST (2018-2019) / SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.FAN_FEST (2018-2019)", "@SOURCE.MOG_STATION"],
             "patch": "4.4",
             "defaultCompletion": "X"
         },
@@ -1635,7 +1651,7 @@
             "name_en": "Air-wheeler A9",
             "name_fr": "Motodrone A9",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@PLACE.DT.SOLUTION_NINE (7,500,000 CURRENCY.GIL)",
+            "source": "@VENDOR.NEON (7,500,000 CURRENCY.GIL)",
             "patch": "7.0"
         },
         "x429": {
@@ -1678,7 +1694,7 @@
             "name_fr": "Mécano Cosmique",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
             "source": [
-                "@SOURCE.COSMIC_FORTUNE - PLACE.DT.SINUS_ARDORUM",
+                "chest.310",
                 "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.SINUS_ARDORUM"
             ],
             "patch": "7.21"
@@ -1694,7 +1710,7 @@
             "name_en": "Volatile Gravity Vacuum Suit",
             "name_fr": "Mécano Cosmique Localisé",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": ["@SOURCE.COSMIC_FORTUNE - PLACE.DT.OIZYS", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.OIZYS"],
+            "source": ["chest.312", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.OIZYS"],
             "patch": "7.41"
         },
         "x425": {
@@ -1715,7 +1731,7 @@
             "name_en": "Warp Loader",
             "name_fr": "Déblayeuse Cosmique",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": ["@SOURCE.COSMIC_FORTUNE - PLACE.DT.PHAENNA", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.PHAENNA"],
+            "source": ["chest.311", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.PHAENNA"],
             "patch": "7.31"
         },
         "x426": {
@@ -1743,7 +1759,7 @@
             "name_en": "Cosmic Armored Weapon Beta",
             "name_fr": "Arme Blindée Cosmique 2.0",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": ["@SOURCE.COSMIC_FORTUNE - PLACE.DT.AUXESIA", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.AUXESIA"],
+            "source": ["chest.316", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.AUXESIA"],
             "patch": "7.51"
         },
         "x393": {
@@ -1843,23 +1859,25 @@
         "x224": {
             "name_en": "Gabriel α",
             "name_fr": "Gabriel α",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@COFFER.BOZJA",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.220", "chest.230"],
             "patch": "5.35"
         },
         "x241": {
             "name_en": "Gabriel Mark III",
             "name_fr": "Gabriel V3",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.bozja.duties.1",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "duty.field-operations.bozja.duties.1",
+                "chest.230"
+            ],
             "patch": "5.45"
         },
         "x233": {
             "name_en": "Lunar Whale",
             "name_fr": "Baleine Lunaire",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
+            "source": ["@EVENT.DIGITAL_FAN_FEST (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -1909,7 +1927,7 @@
         "x383": {
             "name_en": "Ancient Airship",
             "name_fr": "Aéronef Ancien",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "category": "@CATEGORY.FIELD_OPERATION",
             "source": "@5,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.25"
         },
@@ -1955,8 +1973,8 @@
         "x62": {
             "name_en": "Witch's Broom",
             "name_fr": "Balai De Sorcière",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2015)", "@SOURCE.MOG_STATION"],
             "patch": "3.07",
             "defaultCompletion": "X"
         },
@@ -1980,15 +1998,15 @@
         "x86": {
             "name_en": "Cloud Mallow",
             "name_fr": "Mogrette",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.MOGMUL (200,000 CURRENCY.GIL)",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.HW.THE_CHURNING_MISTS (200,000 CURRENCY.GIL)",
             "patch": "3.3"
         },
         "x106": {
             "name_en": "Eggshilaration System",
             "name_fr": "Lévitœuf",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.HATCHING_TIDE (2017)", "@SOURCE.MOG_STATION"],
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -2009,16 +2027,16 @@
         "x153": {
             "name_en": "Broken Heart (left)",
             "name_fr": "Fauteuil Demi-cœur Gauche Volant",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.VALENTIONES_DAY (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.2",
             "defaultCompletion": "X"
         },
         "x152": {
             "name_en": "Broken Heart (right)",
             "name_fr": "Fauteuil Demi-cœur Droit Volant",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.VALENTIONES_DAY (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.2",
             "defaultCompletion": "X"
         },
@@ -2040,21 +2058,21 @@
         "x427": {
             "name_en": "Royal Magicked Carpet",
             "name_fr": "Tapis Magique Royal",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (100 CURRENCY.VCD.CORVOSI_BRASS)",
             "patch": "7.45"
         },
         "x193": {
             "name_en": "Magicked Bed",
             "name_fr": "Lit Magique",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.232"],
             "patch": "5.05"
         },
         "x324": {
             "name_en": "Magicked Children's Bed",
             "name_fr": "Lit Enfant Magique",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.4"
         },
@@ -2138,7 +2156,7 @@
             "name_en": "Cosmic Countenance",
             "name_fr": "Sourieur Cosmique",
             "category": "@CATEGORY.COSMIC_EXPLORATION",
-            "source": "@COFFER.GOLD_ANCIENT_RECORD - PLACE.DT.OIZYS",
+            "source": "chest.315",
             "patch": "7.41"
         },
         "x22": {
@@ -2193,7 +2211,7 @@
         "x231": {
             "name_en": "Incitatus",
             "name_fr": "Incitatus",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "5.3"
         },
@@ -2264,7 +2282,7 @@
         "x299": {
             "name_en": "Wondrous Lanner",
             "name_fr": "Lanier Merveilleux",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.28"
         },
@@ -2328,7 +2346,7 @@
         "x365": {
             "name_en": "Venturous Kamuy",
             "name_fr": "Kamuy de la Prospérité",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "7.1"
         },

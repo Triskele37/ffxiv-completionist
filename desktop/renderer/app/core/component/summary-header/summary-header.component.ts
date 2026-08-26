@@ -54,7 +54,7 @@ export class SummaryHeaderComponent implements OnInit {
     onSelectedGroupChange() {
         const group = this.svcNavigation.selectedGroup();
 
-        if(!group?._parent) {
+        if(!group?._parent || group.disableCompletion) {
             // Overall can't be hidden if there is no sub group
             this.hideOverall.set(false);
         }

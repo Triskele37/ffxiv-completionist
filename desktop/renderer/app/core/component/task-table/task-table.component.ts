@@ -4,7 +4,6 @@ import type { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
 import type { DataGroup } from '@model/DataGroup';
-import type { Task } from '@model/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 import { TableService } from '@service/table/table.service';
@@ -39,10 +38,6 @@ export class TaskTableComponent implements OnInit, OnChanges {
         this.svcTable.property.setGroup(value);
     };
 
-    @Input({ required: true }) set tasks(value: Task[]) {
-        this.svcTable.property.setTasks(value);
-    };
-
     @Input() set groupRows(value: boolean) {
         this.svcTable.rowGroup.groupRows = value;
     };
@@ -69,7 +64,7 @@ export class TaskTableComponent implements OnInit, OnChanges {
                 og();
             }
             catch(e) {
-                console.error('Error in table cleanup:', e);
+                void e;
             }
         };
     }
@@ -210,7 +205,10 @@ export class TaskTableComponent implements OnInit, OnChanges {
         if(!currentScrollTop) return;
 
         const targetIndex = Math.ceil(currentScrollTop / this.rowHeight);
-        this.targetTaskScrollTo = this.svcTable.tasks()[targetIndex].fullStorageKey;
+        const task = this.svcTable.tasks()[targetIndex];
+        if(!task) return;
+
+        this.targetTaskScrollTo = task.fullStorageKey;
         this.addScrollListener();
     }
 

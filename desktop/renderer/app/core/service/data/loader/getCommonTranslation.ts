@@ -24,8 +24,8 @@ export function getCommonTranslation(
                 const fullCommonKey = `GAME.${commonKey}`;
                 const commonTranslation = this.svcTranslate?.instant(fullCommonKey);
 
-                // No translation if these two are equal
-                if(commonTranslation !== fullCommonKey) {
+                // [] indicates failed translation
+                if(commonTranslation !== `[${fullCommonKey}]`) {
                     replacements[commonKey] = commonTranslation;
                 }
             }

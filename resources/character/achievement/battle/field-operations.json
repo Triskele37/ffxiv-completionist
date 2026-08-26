@@ -12,7 +12,7 @@
             "reward": "mo.186",
             "patch": "4.55",
             "cNext": ["a.2228"],
-            "cSiblings": ["duty.exploratory-missions.eureka.duties.0"]
+            "cSiblings": ["duty.field-operations.eureka.duties.0"]
         },
         "x2228": {
             "name_en": "We're on Your Side II",
@@ -122,7 +122,7 @@
             "reward": "t.542",
             "patch": "5.35",
             "cCombo": ["a.2686"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.45", "t.542"]
+            "cSiblings": ["duty.field-operations.bozja.events.45", "t.542"]
         },
         "x2684": {
             "name_en": "Lyon's Share",
@@ -133,7 +133,7 @@
             "reward": "t.543",
             "patch": "5.35",
             "cCombo": ["a.2686"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.47", "t.543"]
+            "cSiblings": ["duty.field-operations.bozja.events.47", "t.543"]
         },
         "x2685": {
             "name_en": "Burn Baby Burn",
@@ -144,7 +144,7 @@
             "reward": "t.544",
             "patch": "5.35",
             "cCombo": ["a.2686"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.46", "t.544"]
+            "cSiblings": ["duty.field-operations.bozja.events.46", "t.544"]
         },
         "x2686": {
             "name_en": "Close Encounters",
@@ -166,7 +166,7 @@
             "points": 10,
             "patch": "5.35",
             "cNext": ["a.2681"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.0"]
+            "cSiblings": ["duty.field-operations.bozja.duties.0"]
         },
         "x2681": {
             "name_en": "Operation: Eagle's Nest II",
@@ -267,7 +267,7 @@
             "points": 5,
             "patch": "5.45",
             "cNext": ["a.2763"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.1"]
+            "cSiblings": ["duty.field-operations.bozja.duties.1"]
         },
         "x2763": {
             "name_en": "Queen of Swords II",
@@ -297,7 +297,7 @@
             "reward": "mo.235",
             "patch": "5.45",
             "cNext": ["a.2766"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.2"]
+            "cSiblings": ["duty.field-operations.bozja.duties.2"]
         },
         "x2766": {
             "name_en": "Savage Queen of Swords II",
@@ -329,7 +329,7 @@
             "reward": "t.586",
             "patch": "5.55",
             "cCombo": ["a.2880"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.82", "t.586"]
+            "cSiblings": ["duty.field-operations.bozja.events.82", "t.586"]
         },
         "x2878": {
             "name_en": "Might Makes Right",
@@ -340,7 +340,7 @@
             "reward": "t.587",
             "patch": "5.55",
             "cCombo": ["a.2880"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.63", "t.587"]
+            "cSiblings": ["duty.field-operations.bozja.events.63", "t.587"]
         },
         "x2879": {
             "name_en": "Untamed",
@@ -351,7 +351,7 @@
             "reward": "t.588",
             "patch": "5.55",
             "cCombo": ["a.2880"],
-            "cSiblings": ["duty.exploratory-missions.bozja.events.78", "t.588"]
+            "cSiblings": ["duty.field-operations.bozja.events.78", "t.588"]
         },
         "x2880": {
             "name_en": "Close Encounters of the Zadnoran Kind",
@@ -384,7 +384,7 @@
             "points": 10,
             "patch": "5.55",
             "cNext": ["a.2875"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.3"]
+            "cSiblings": ["duty.field-operations.bozja.duties.3"]
         },
         "x2875": {
             "name_en": "Hell to Pay II",
@@ -417,9 +417,9 @@
             "patch": "5.55",
             "cPrevAt": {
                 "10": [
-                    "duty.exploratory-missions.bozja.resistance-honors.0",
-                    "duty.exploratory-missions.bozja.resistance-honors.1",
-                    "duty.exploratory-missions.bozja.resistance-honors.2"
+                    "duty.field-operations.bozja.resistance-honors.0",
+                    "duty.field-operations.bozja.resistance-honors.1",
+                    "duty.field-operations.bozja.resistance-honors.2"
                 ]
             },
             "cSiblings": ["t.591"]
@@ -431,7 +431,7 @@
             "description_fr": "Débloquer les 99 actions oubliées.",
             "points": 10,
             "patch": "5.55",
-            "cPrev": ["duty.exploratory-missions.bozja.lost-actions.all"]
+            "cPrev": ["duty.field-operations.bozja.lost-actions.all"]
         },
         "x3664": {
             "name_en": "Occult Erudition I",

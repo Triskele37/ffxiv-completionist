@@ -1,10 +1,12 @@
 <tr class="task-table-header">
     <!-- Flag Header -->
-    <th
-        [style.width.px]="svcTable.hasNumericColumns ? 100 : 60"
-    >
-        <com-completion-filter></com-completion-filter>
-    </th>
+    @if(!svcTable.group().disableCompletion) {
+        <th
+            [style.width.px]="svcTable.hasNumericColumns ? 100 : 60"
+        >
+            <com-completion-filter></com-completion-filter>
+        </th>
+    }
 
     <!-- Data Headers -->
     @for(column of svcTable.group().columns; track column.key) {

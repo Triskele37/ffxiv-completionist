@@ -3,9 +3,11 @@
         data-active-help="APP.ACTIVE_HELP.TABLE.TASK_TABLE"
         class="task-table-container"
     >
-        <com-task-table-toolbar
-            [templatePre]="toolbarPre"
-        ></com-task-table-toolbar>
+        @if(!svcTable.group().disableCompletion) {
+            <com-task-table-toolbar
+                [templatePre]="toolbarPre"
+            ></com-task-table-toolbar>
+        }
 
         <div class="task-table-scroll-container">
             @if(svcTable.originalTasks.length) {

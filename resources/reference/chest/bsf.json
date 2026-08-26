@@ -1,0 +1,41 @@
+{
+    "key": "bsf",
+    "groupName": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+    "tasks": {
+        "x220": {
+            "name_en": "Southern Front Lockbox",
+            "name_fr": "Coffre verrouillé du Front sud de Bozja",
+            "location": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "requirements": "duty.field-operations.bozja.events",
+            "loot": [
+                "b.62",
+                "b.64",
+                "b.67",
+                "b.59",
+                "b.65",
+                "mi.329",
+                "mi.283",
+                "mi.273",
+                "mi.284",
+                "mi.389",
+                "mi.271",
+                "mi.267",
+                "mi.290",
+                "mi.312",
+                "mi.278",
+                "mi.272",
+                "mi.303",
+                "mi.327",
+                "mi.268",
+                "mi.279",
+                "mi.265",
+                "mi.275",
+                "mi.321",
+                "mo.224",
+                "fa.8",
+                "o.387"
+            ],
+            "_itemId": 31357
+        }
+    }
+}

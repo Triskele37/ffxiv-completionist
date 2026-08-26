@@ -23,7 +23,6 @@ export function parseIdSelector(fullIdSelector: string): ParsedIdSelector {
         };
 
         if(Number.isNaN(range.start) || Number.isNaN(range.end)) {
-            console.log(s, e)
             console.error(`Invalid ID selector: ${rawSelector}`);
         }
 

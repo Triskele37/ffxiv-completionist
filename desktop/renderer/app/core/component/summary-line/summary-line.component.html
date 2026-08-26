@@ -1,6 +1,10 @@
 <div
     class="summary-line"
-    [ngClass]="{ big: isBig, excluded: !percentComplete()}"
+    [ngClass]="{
+        big: isBig,
+        excluded: !percentComplete(),
+        nored: group.disableCompletion
+    }"
     [pTooltip]="tooltip()"
     tooltipPosition="bottom"
     (click)="onClick()"
@@ -9,9 +13,11 @@
         <span class="group-name">
             {{group.name}}
         </span>
-        <span class="percent-complete">
-            {{percentComplete() ? percentComplete() + '%' : '-'}}
-        </span>
+        @if(!group.disableCompletion) {
+            <span class="percent-complete">
+                {{percentComplete() ? percentComplete() + '%' : '-'}}
+            </span>
+        }
     </span>
 
     <span

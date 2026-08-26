@@ -36,10 +36,7 @@
                 }
 
                 @if(group.tasks) {
-                    <com-task-table
-                        [group]="group"
-                        [tasks]="group.tasks"
-                    ></com-task-table>
+                    <com-task-table [group]="group"></com-task-table>
                 }
             }
         </div>

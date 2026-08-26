@@ -1,10 +1,9 @@
 import type { OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
-import { Component, Input, signal, inject } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { TaskTableComponent } from '@component/task-table/task-table.component';
 import type { DataGroup } from '@model/DataGroup';
-import type { Task } from '@model/Task';
 
 @Component({
     selector: 'com-show-all-table',
@@ -19,14 +18,12 @@ export class ShowAllTableComponent implements OnChanges, OnDestroy {
 
     @Input({ required: true }) group!: DataGroup;
 
-    tasks = signal<Task[]>([]);
-
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.clean(changes.group.previousValue);
             this.clean(this.group);
 
-            this.tasks.set(diveForTasks(this.group));
+            this.group.showAllTasks = true;
 
             // Add an extra column containing the group's link
             this.group.columns?.unshift({
@@ -44,22 +41,12 @@ export class ShowAllTableComponent implements OnChanges, OnDestroy {
 
     // Remove the extra link column
     clean(group: DataGroup): void {
-        if(group?.columns?.[0].key === 'contentLink') {
+        if(!group) return;
+
+        delete group.showAllTasks;
+
+        if(group.columns?.[0].key === 'contentLink') {
             group.columns.shift();
         }
     }
-}
-
-// Return a list of every task nested under the given group
-function diveForTasks(group: DataGroup): Task[] {
-    // add current group's tasks
-    const tasks: Task[] = [...group.tasks];
-
-    // dive for more child tasks
-    group.subGroups?.forEach((subGroup) => {
-        if(!subGroup) return;
-        tasks.push(...diveForTasks(subGroup));
-    });
-
-    return tasks;
 }

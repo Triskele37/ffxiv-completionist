@@ -295,24 +295,24 @@
             "name_en": "What Angel Wakes Me",
             "name_fr": "What Angel Wakes Me",
             "number": "37",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "d.658",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.658", "chest.131"],
             "patch": "5.0"
         },
         "x314": {
             "name_en": "Insanity",
             "name_fr": "Insanity",
             "number": "38",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "d.667",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.667", "chest.131"],
             "patch": "5.0"
         },
         "x343": {
             "name_en": "Invincible",
             "name_fr": "Invincible",
             "number": "39",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "d.693",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["d.693", "chest.131"],
             "patch": "5.1"
         },
         "x366": {
@@ -336,7 +336,7 @@
             "name_fr": "Freefall",
             "number": "42",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.31"
         },
         "x411": {
@@ -352,7 +352,7 @@
             "name_fr": "Faith in Her Fury",
             "number": "44",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.41"
         },
         "x437": {

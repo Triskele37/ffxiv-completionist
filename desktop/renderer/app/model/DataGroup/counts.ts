@@ -9,10 +9,11 @@ import type { DataGroup } from './index';
 type CountTask = (task: Task) => number;
 function countGroup(group: DataGroup | null, countTask: CountTask): number {
     if(!group) return 0;
+    if(group.isBookmarkGroup) return 0;
+    if(group.disableCompletion) return 0;
 
     let count: number = 0;
     group.tasks?.forEach((task) => count += countTask(task));
-    if(group.isBookmarkGroup) return count;
     group.subGroups?.forEach((g) => count += countGroup(g, countTask));
     return count;
 }

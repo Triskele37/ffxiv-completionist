@@ -186,7 +186,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
                 group.name = this.selectedPatch;
                 group.tasks = [...this.tasksInPatch];
                 group.updated$.next();
-                return group;
+                return { ...group };
             });
         }
     }
