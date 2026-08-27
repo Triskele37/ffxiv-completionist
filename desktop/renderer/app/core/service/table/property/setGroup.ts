@@ -19,7 +19,7 @@ export function setGroup(
         this.originalTasks = group.tasks;
     }
 
-    this.order.originalOrder = group.tasks.map((t) => t.id);
+    this.order.originalOrder = this.originalTasks.map((t) => t.fullStorageKey);
 
     this.property.setHasNumericColumns();
     this.filter.updateFilteredTasks();

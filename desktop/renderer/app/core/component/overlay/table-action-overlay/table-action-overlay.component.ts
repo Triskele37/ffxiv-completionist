@@ -47,7 +47,7 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
         this.isDev.set(this.svcConfigStore.data?.isAdmin ?? false);
     }
 
-    ngOnChanges(changes: SimpleChanges): void {
+    ngOnChanges(changes: SimpleChanges<TableActionOverlayComponent>): void {
         if(changes.group) {
             this.isBookmarked.set(this.svcBookmark.isBookmarked(this.group));
         }

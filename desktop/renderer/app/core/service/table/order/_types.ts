@@ -3,6 +3,6 @@ import type { SortMeta } from 'primeng/api';
 
 export type OrderFacetContext = {
     activeSortMeta: SortMeta | null;
-    originalOrder: number[];
+    originalOrder: string[];
     debounceDrag: WritableSignal<boolean>;
 };

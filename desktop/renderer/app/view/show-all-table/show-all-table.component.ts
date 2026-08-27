@@ -18,7 +18,7 @@ export class ShowAllTableComponent implements OnChanges, OnDestroy {
 
     @Input({ required: true }) group!: DataGroup;
 
-    ngOnChanges(changes: SimpleChanges): void {
+    ngOnChanges(changes: SimpleChanges<ShowAllTableComponent>): void {
         if(changes.group) {
             this.clean(changes.group.previousValue);
             this.clean(this.group);

@@ -9,8 +9,8 @@ export function resetSort(
     const { originalOrder } = this.order;
 
     $event.data?.sort((taskA, taskB) => {
-        const a = originalOrder.indexOf(taskA.id);
-        const b = originalOrder.indexOf(taskB.id);
+        const a = originalOrder.indexOf(taskA.fullStorageKey);
+        const b = originalOrder.indexOf(taskB.fullStorageKey);
         return a - b;
     });
 }

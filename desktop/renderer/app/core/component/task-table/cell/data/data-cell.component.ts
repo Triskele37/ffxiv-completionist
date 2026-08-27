@@ -1,5 +1,5 @@
 import type { OnChanges, SimpleChanges } from '@angular/core';
-import { Component, Input, ViewChild, inject } from '@angular/core';
+import { Component, inject, Input, ViewChild } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
@@ -47,8 +47,8 @@ export class DataCellComponent implements OnChanges {
     isOverlayLocked: boolean = false;
     @ViewChild('linkPopover') linkPopover: Popover | undefined;
 
-    ngOnChanges(changes: SimpleChanges): void {
-        if(changes.task?.currentValue) {
+    ngOnChanges(changes: SimpleChanges<DataCellComponent>): void {
+        if(changes.task || changes.column || changes.value) {
             this.compileLinks();
         }
     }
@@ -79,6 +79,9 @@ export class DataCellComponent implements OnChanges {
     compileLinks(): void {
         if(this.column.taskLink) {
             this.links = [{ value: this.task, type: 'Task' }];
+        }
+        else if(this.column.groupLink) {
+            this.links = [{ value: this.task._parent, type: 'Group' }];
         }
         else {
             this.links = this.getCellValues().map((v) => this.getLinkFromPath(v));

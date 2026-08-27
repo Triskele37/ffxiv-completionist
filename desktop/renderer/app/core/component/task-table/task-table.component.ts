@@ -1,5 +1,6 @@
-import type { OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
+import type { OnChanges, SimpleChanges, TemplateRef } from '@angular/core';
 import { Component, Input, ViewChild, inject } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import type { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
@@ -29,7 +30,7 @@ import { GroupRowComponent } from './row/group/group-row.component';
         TableService
     ]
 })
-export class TaskTableComponent implements OnInit, OnChanges {
+export class TaskTableComponent implements OnChanges {
     private svcNavigation = inject(NavigationService);
     private svcSaveStore = inject(SaveStoreService);
     svcTable = inject(TableService);
@@ -49,6 +50,16 @@ export class TaskTableComponent implements OnInit, OnChanges {
     readonly rowHeight: number = 36;
     targetTaskScrollTo: string = '';
     boundVirtualOnScroll = this.onVirtualScrollerScroll.bind(this);
+
+    constructor() {
+        this.svcTable.filter.onFilterUpdate$
+            .pipe(takeUntilDestroyed())
+            .subscribe(this.onFilterChange.bind(this));
+
+        this.svcSaveStore.updated$
+            .pipe(takeUntilDestroyed())
+            .subscribe(this.onFilterChange.bind(this));
+    }
 
     @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
         if(!ref) return;
@@ -80,13 +91,8 @@ export class TaskTableComponent implements OnInit, OnChanges {
     }
 
     //#region----------------------------------------------------------- Lifecycle
-    ngOnInit() {
-        this.svcTable.filter.onFilterUpdate$.subscribe(this.onFilterChange.bind(this));
-        this.svcSaveStore.updated$.subscribe(this.onFilterChange.bind(this));
-    }
-
-    ngOnChanges(changes: SimpleChanges): void {
-        if(changes.group || changes.tasks) {
+    ngOnChanges(changes: SimpleChanges<TaskTableComponent>): void {
+        if(changes.group) {
             this.scrollToSelectedTask();
         }
     }
@@ -189,6 +195,8 @@ export class TaskTableComponent implements OnInit, OnChanges {
         const targetIndex = this.svcTable.tasks().findIndex(
             (t) => t.fullStorageKey === this.targetTaskScrollTo
         );
+
+        if(targetIndex < 0) return 0;
 
         if(target?.clientHeight) {
             // Give the scroll handler safety net some space

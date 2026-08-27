@@ -29,6 +29,8 @@ export class ElectronService {
 
     ipcRenderer?: typeof ipcRenderer;
 
+    isReloading: boolean = false;
+
     constructor() {
         // Conditional imports
         if(this.isElectron) {
@@ -36,7 +38,8 @@ export class ElectronService {
 
             // This handles F5 refreshes for dev use
             window.addEventListener('beforeunload', () => {
-                this.ipcRenderer?.invoke(IPC_EVENT.APP_REFRESH);
+                if(!this.isReloading) this.ipcRenderer?.invoke(IPC_EVENT.APP_REFRESH);
+                this.isReloading = false;
             });
         }
     }
@@ -52,6 +55,7 @@ export class ElectronService {
 
     // Let the app layer know about refreshing BEFORE it happens
     async reloadApp(): Promise<void> {
+        this.isReloading = true;
         await this.ipcRenderer?.invoke(IPC_EVENT.APP_REFRESH);
         location.reload();
     }

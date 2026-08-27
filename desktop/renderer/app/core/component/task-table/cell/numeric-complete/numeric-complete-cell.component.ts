@@ -40,7 +40,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     step: number | undefined;
     tooltip: string | undefined;
 
-    ngOnChanges(changes: SimpleChanges): void {
+    ngOnChanges(changes: SimpleChanges<NumericCompleteCellComponent>): void {
         if(changes.task) {
             this.step = this._step;
             this.tooltip = this._tooltip;

@@ -34,7 +34,7 @@ export class SummaryLineComponent implements OnChanges {
     percentComplete = signal<string | null>(null);
     tooltip = signal('');
 
-    ngOnChanges(changes: SimpleChanges): void {
+    ngOnChanges(changes: SimpleChanges<SummaryLineComponent>): void {
         if(changes.group) {
             this.update();
             this.subscription?.unsubscribe();

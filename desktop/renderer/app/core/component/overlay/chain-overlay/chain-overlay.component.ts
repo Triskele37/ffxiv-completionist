@@ -59,8 +59,8 @@ export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestr
     }
 
     //#region------------------------------------------------------- Life-cycle
-    ngOnChanges(changes: SimpleChanges): void {
-        this.svcChain.history.setHistoryDisabled(!!changes.disableUndo.currentValue);
+    ngOnChanges(changes: SimpleChanges<ChainOverlayComponent>): void {
+        this.svcChain.history.setHistoryDisabled(!!changes.disableUndo?.currentValue);
     }
 
     ngOnDestroy(): void {

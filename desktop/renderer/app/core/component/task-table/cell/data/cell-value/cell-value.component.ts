@@ -42,7 +42,7 @@ export class CellValueComponent implements OnChanges, OnDestroy {
 
     isTextOnly: boolean = false;
 
-    ngOnChanges(changes: SimpleChanges): void {
+    ngOnChanges(changes: SimpleChanges<CellValueComponent>): void {
         if(changes.column || changes.task) {
             const wasTextOnly = this.isTextOnly;
 

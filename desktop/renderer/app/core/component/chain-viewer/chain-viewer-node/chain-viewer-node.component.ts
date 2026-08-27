@@ -49,7 +49,7 @@ export class ChainViewerNodeComponent implements OnChanges {
 
     showSiblings: boolean = true;
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges<ChainViewerNodeComponent>): void {
         if(changes.task || changes.remainingDepth) this.setChainGraphs();
     }
 

@@ -1,4 +1,5 @@
 import { Component, Input, inject } from '@angular/core';
+import { NgTemplateOutlet } from '@angular/common';
 import { ButtonDirective } from 'primeng/button';
 import { RowGroupHeader, RowToggler } from 'primeng/table';
 
@@ -11,6 +12,7 @@ import { TableService } from '@service/table/table.service';
     templateUrl: 'group-row.component.html',
     styleUrls: ['./group-row.component.scss'],
     imports: [
+        NgTemplateOutlet,
         ButtonDirective,
         ContentLinkComponent,
         RowGroupHeader,

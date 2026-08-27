@@ -40,7 +40,7 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
         this.updateMenuItems();
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges<GroupSelectorComponent>): void {
         if(changes.menuEvent) {
             if(this.menuEvent) this._menu?.show(this.menuEvent);
             else this._menu?.hide();
