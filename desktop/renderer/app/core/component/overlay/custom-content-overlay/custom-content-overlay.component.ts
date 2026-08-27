@@ -53,7 +53,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
 
     // Move functionality
     menuGroup!: DataGroup;
-    groupSelectorEvent?: TieredMenuToggleEvent;
+    groupSelectorEvent?: PointerEvent;
     selectFor?: SelectFor;
 
     // Oopsie deletion prevention flags
@@ -74,7 +74,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
         this.groupSelectorEvent = undefined;
     }
 
-    showGroupTargetMenu($event: TieredMenuToggleEvent, selectFor: SelectFor) {
+    showGroupTargetMenu($event: PointerEvent, selectFor: SelectFor) {
         this.groupSelectorEvent = $event;
         this.selectFor = selectFor;
     }
@@ -93,6 +93,11 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
         setTimeout(() => {
             this.isModalVisible.set(!!callback());
         }, 100);
+    }
+
+    hide(): void {
+        super.hide();
+        this.onSelectorHide();
     }
 
     //#endregion

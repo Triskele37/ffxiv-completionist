@@ -17,9 +17,14 @@
             border: none;
             padding: 0 0 0 0;
 
-            &:first-child .p-panelmenu-header {
-                .p-panelmenu-submenu-icon {
-                    display: none;
+            &:first-child {
+                .p-panelmenu-header {
+                    // allows font-size changes to work with placement
+                    height: 26px;
+
+                    .p-panelmenu-submenu-icon {
+                        display: none;
+                    }
                 }
             }
 
@@ -35,12 +40,14 @@
             }
         }
 
-        // Create space between user groups and main data groups
-        .p-panelmenu-panel:nth-child(3) {
-            margin-bottom: 10px;
+        // Create space between menu, meta groups, and game data
+        .p-panelmenu-panel {
+            &:nth-child(2), &:nth-child(5) {
+                margin-top: 10px;
 
-            .p-panelmenu-header {
-                box-shadow: 0 10px 0 1px rgba(0 0 0 / 33%);
+                .p-panelmenu-header {
+                    box-shadow: 0 -10px 0 1px rgba(0 0 0 / 33%);
+                }
             }
         }
 
@@ -64,7 +71,7 @@
                 display: inline-block;
                 width: 100%;
 
-                &:has(+ .mi-star) {
+                &.with-icon {
                     width: calc(100% - 16px);
                 }
             }

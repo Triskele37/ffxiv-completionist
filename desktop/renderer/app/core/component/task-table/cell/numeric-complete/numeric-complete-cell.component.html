@@ -5,6 +5,7 @@
         [style.background-color]="task | gradient:task.completionFlag$()"
         [attr.rowspan]="rowSpan"
         [pTooltip]="tooltip"
+        tooltipPosition="left"
         (contextmenu)="onExcludeTaskClick($event)"
     >
         <p-input-number
@@ -18,7 +19,7 @@
         ></p-input-number>
 
         <span class="percentage">
-            {{value | percentage:task.minValue:task.maxValue}}%
+            {{value() | percentage:task.minValue:task.maxValue}}%
         </span>
     </td>
 } @else {
@@ -26,6 +27,7 @@
         data-active-help="APP.ACTIVE_HELP.TABLE.NUMERIC_COMPLETION_CELL"
         class="completion-number-cell excluded noSelect"
         [pTooltip]="task.maxValue | asString"
+        tooltipPosition="left"
         (click)="onExcludeTaskClick($event)"
     >
         X

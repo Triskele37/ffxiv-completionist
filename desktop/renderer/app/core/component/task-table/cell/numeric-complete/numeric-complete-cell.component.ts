@@ -1,5 +1,5 @@
-import type { OnChanges, SimpleChanges } from '@angular/core';
-import { Component, Input, inject } from '@angular/core';
+import { effect, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InputNumber } from 'primeng/inputnumber';
 import { Tooltip } from 'primeng/tooltip';
@@ -32,13 +32,19 @@ export class NumericCompleteCellComponent implements OnChanges {
     private svcTable = inject(TableService);
 
     @Input({ required: true }) task!: Task;
-    @Input({ required: true }) value!: string;
     @Input() rowSpan?: number;
 
+    value = signal('0');
     Completion = Completion;
 
     step: number | undefined;
     tooltip: string | undefined;
+
+    constructor() {
+        effect(() => {
+            this.value.set(this.task.completionFlag$());
+        });
+    }
 
     ngOnChanges(changes: SimpleChanges<NumericCompleteCellComponent>): void {
         if(changes.task) {
@@ -57,12 +63,12 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        this.svcChain.current.changeCompletion(this.task, this.value, true);
+        this.svcChain.current.changeCompletion(this.task, this.value(), true);
         this.svcData.apply.dataToStore();
 
         // onBlur and rebinding value can't happen in the same tick
         setTimeout(() => {
-            this.value = this.task.completionFlag$();
+            this.value.set(this.task.completionFlag$());
             this.svcTable.filter.updateFilteredTasks();
         });
     }
@@ -70,7 +76,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     onExcludeTaskClick($event: MouseEvent): void {
         $event.preventDefault();
 
-        this.value = this.task.completionFlag$() === Completion.X ? '0' : Completion.X;
+        this.value.set(this.task.completionFlag$() === Completion.X ? '0' : Completion.X);
         this.onTaskValueChange();
     }
 

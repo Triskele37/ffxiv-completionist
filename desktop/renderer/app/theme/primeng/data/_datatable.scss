@@ -279,7 +279,7 @@
         &.p-datatable-striped {
             .p-datatable-tbody {
                 :nth-child(even) tr {
-                    background: variables.$tableBodyRowEvenBg;
+                    background: var(--surface-800);
 
                     &.p-highlight {
                         background: variables.$highlightBg;

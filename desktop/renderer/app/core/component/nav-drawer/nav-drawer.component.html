@@ -20,8 +20,9 @@
                 }
 
                 <span
-                    [attr.data-active-help]="item.state.activeHelp"
                     class="group-label"
+                    [ngClass]="{ 'with-icon': item.state.isComplete || item.state.isEmpty }"
+                    [attr.data-active-help]="item.state.activeHelp"
                     [pTooltip]="group.contentLink"
                 >
                     {{group.name}}

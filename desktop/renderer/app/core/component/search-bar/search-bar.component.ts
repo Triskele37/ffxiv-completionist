@@ -52,6 +52,9 @@ export class SearchBarComponent {
         // Prevent back/up hotkeys
         $event.stopPropagation();
 
+        this.svcSearch.searchStatus.set(null);
+        this.svcSearch.searchError.set(null);
+
         // Auto-search if pasted into the input
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
             setTimeout(this.onSearch.bind(this), 50);

@@ -1,11 +1,11 @@
 import type { AtLinks } from '@model/Chain/ChainLink';
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
-import type { KeysMatching } from '@model/typeUtils';
+import type { KeysOfType } from '@model/typeUtils';
 
 import type { DataServiceContext } from '../types';
 
-type AtLinkKeys = KeysMatching<DataGroup, AtLinks | undefined>;
+type AtLinkKeys = KeysOfType<DataGroup, AtLinks | undefined>;
 
 export function deepConcatWithParent<K extends AtLinkKeys>(
     this: DataServiceContext,

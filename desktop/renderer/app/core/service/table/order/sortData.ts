@@ -12,8 +12,9 @@ export function sortData(
         if(!$event.multiSortMeta) return 0;
 
         for(const { field, order } of $event.multiSortMeta) {
-            const a = taskA[field];
-            const b = taskB[field];
+            // In case of an array of values, take the first
+            const a = Array.isArray(taskA[field]) ? taskA[field][0] : taskA[field];
+            const b = Array.isArray(taskB[field]) ? taskB[field][0] : taskB[field];
             let result;
 
             if(!a || !b) result = a ? -1 : b ? 1 : 0;
@@ -29,8 +30,4 @@ export function sortData(
 
         return 0;
     });
-
-    // Table doesn't re-render otherwise
-    // TODO
-    // this.tasks = $event.data;
 }

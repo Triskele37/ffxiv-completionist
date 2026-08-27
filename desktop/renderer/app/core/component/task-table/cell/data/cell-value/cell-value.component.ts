@@ -1,16 +1,5 @@
-import type {
-    ElementRef,
-    SimpleChanges,
-    OnChanges,
-    OnDestroy
-} from '@angular/core';
-import {
-    Component,
-    Input,
-    signal,
-    ViewChild,
-    inject
-} from '@angular/core';
+import { HostListener } from '@angular/core';
+import { Component, ElementRef, inject, Input, signal } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { Tooltip } from 'primeng/tooltip';
 
@@ -31,7 +20,8 @@ import type { LinkData } from '../LinkData';
         NgClass,
     ]
 })
-export class CellValueComponent implements OnChanges, OnDestroy {
+export class CellValueComponent {
+    elementRef = inject(ElementRef);
     svcTable = inject(TableService);
 
     @Input({ required: true }) column!: Column;
@@ -40,83 +30,24 @@ export class CellValueComponent implements OnChanges, OnDestroy {
 
     tooltip = signal<string | undefined>(undefined);
 
-    isTextOnly: boolean = false;
+    get observerTarget(): HTMLElement {
+        return this.elementRef.nativeElement.firstChild;
+    }
 
-    ngOnChanges(changes: SimpleChanges<CellValueComponent>): void {
-        if(changes.column || changes.task) {
-            const wasTextOnly = this.isTextOnly;
+    @HostListener('mouseenter')
+    onMouseEnter() {
+        this.updateTooltip();
+    }
 
-            this.setIsTextOnly();
-
-            if(!wasTextOnly && this.isTextOnly) {
-                this.createObserver();
-                this.observeCellResize();
-            }
-            else if(wasTextOnly && !this.isTextOnly) {
-                this.destroyObserver();
-            }
-
-            this.detectOverflow();
+    updateTooltip(): void {
+        if(this.value.type !== 'Value') {
+            if(this.tooltip()) this.tooltip.set(undefined);
+            return;
         }
+
+        const { clientWidth, scrollWidth } = this.observerTarget;
+        const overflows = clientWidth !== scrollWidth;
+        this.tooltip.set(overflows ? this.value.value : undefined);
     }
-
-    ngOnDestroy(): void {
-        this.destroyObserver();
-    }
-
-    setIsTextOnly() {
-        this.isTextOnly = this.value.type === 'Value'
-            && !this.column.groupLink
-            && !this.column.taskLink;
-    }
-
-    //#region------------------------------------------------------- Ref
-    ref: ElementRef | undefined;
-
-    @ViewChild('cell') set cell(ref: ElementRef) {
-        this.ref = ref;
-        this.observeCellResize();
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Resize Observer
-    observer: ResizeObserver | undefined;
-
-    createObserver(): void {
-        if(this.observer) return;
-
-        this.observer = new ResizeObserver(() => {
-            if(this.isTextOnly) this.detectOverflow();
-        });
-    }
-
-    destroyObserver(): void {
-        this.observer?.disconnect();
-        this.observer = undefined;
-    }
-
-    observeCellResize(): void {
-        if(!this.isTextOnly || !this.ref) return;
-
-        this.observer?.disconnect();
-        this.observer?.observe(this.ref.nativeElement);
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Tooltip
-    detectOverflow(): void {
-        if(!this.ref) return;
-
-        const { clientWidth, scrollWidth } = this.ref.nativeElement;
-
-        this.tooltip.set(
-            clientWidth !== scrollWidth && typeof this.value.value === 'string' ?
-                this.value.value : undefined
-        );
-    }
-
-    //#endregion
 
 }

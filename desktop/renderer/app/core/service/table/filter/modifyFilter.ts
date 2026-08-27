@@ -47,5 +47,7 @@ function shouldFilter(
         return a !== b;
     }
 
-    return a.sort().join('') !== b.sort().join('');
+    if(a.length !== b.length) return true;
+
+    return [...a].sort().join(',') !== [...b].sort().join(',');
 }

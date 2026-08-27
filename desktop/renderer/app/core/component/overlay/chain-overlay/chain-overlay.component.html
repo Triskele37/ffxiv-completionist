@@ -1,14 +1,12 @@
 <span
     data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY"
     class="overlay-container"
-    (mouseenter)="onMouseEnter()"
-    (mouseleave)="onMouseLeave()"
 >
     <button
         pButton
-        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
+        [class]="overlayButtonClass"
         [ngClass]="{ 'do-notify': doNotify() }"
-        (click)="onClick()"
+        (click)="onOverlayButtonClick()"
     >
         <span class="mi mi-link"></span>
     </button>
@@ -129,11 +127,11 @@
                     </div>
 
                     <!-- Chain History -->
-                    @let history = svcChain.history.history();
-                    @let lastChain = history[history.length - 1];
+                    @let chainHistory = svcChain.history.history();
+                    @let lastChain = chainHistory[chainHistory.length - 1];
 
                     <p-divider>
-                        {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{history.length}}/{{svcChain.history.historyLimit}}
+                        {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{chainHistory.length}}/{{svcChain.history.historyLimit}}
                         @if(lastChain) {
                             ({{lastChain.chainStart.task.name}} {{'APP.CHAIN_OVERLAY.HISTORY_NOTE' | translate}})
                         }
@@ -144,7 +142,7 @@
                         class="previous-chain-container"
                     >
                         <div class="previous-chains">
-                            @for(historyStep of history; track historyStep) {
+                            @for(historyStep of chainHistory; track historyStep) {
                                 <com-content-link
                                     [content]="historyStep.chainStart.task"
                                     [nameOnly]="true"

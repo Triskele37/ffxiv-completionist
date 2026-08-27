@@ -15,6 +15,7 @@ import { CustomContentService } from '@service/custom-content/custom-content.ser
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ViewToken } from '@view/view-token';
+import { NgClass } from '@angular/common';
 
 @Component({
     selector: 'com-nav-drawer',
@@ -22,7 +23,8 @@ import { ViewToken } from '@view/view-token';
     styleUrls: ['./nav-drawer.component.scss'],
     imports: [
         PanelMenu,
-        Tooltip
+        Tooltip,
+        NgClass
     ]
 })
 export class NavDrawerComponent implements OnInit {

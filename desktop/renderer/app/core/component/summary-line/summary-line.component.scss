@@ -5,9 +5,13 @@
 
     .summary-line {
         position: relative;
-        border: 1px outset var(--primary-color);
+        color: var(--primary-color-text);
+        text-shadow: -1px -1px 2px var(--primary-color-text-inverted);
         overflow: hidden;
         margin: 5px 10px;
+
+        //border: 1px outset var(--primary-color);
+        box-shadow: 0 0 5px var(--primary-color);
 
         // Contain background in pseudo so filter won't apply to text color when excluded
         &:before {
@@ -22,13 +26,11 @@
         // Entire group is excluded
         &.excluded:before {
             background-color: var(--excluded);
-            filter: brightness(50%);
         }
 
         // Group isn't part of normal completion
         &.nored:before {
             background-color: var(--primary-color-darker);
-            color: var(--primary-color-text);
         }
 
         // Large variant
@@ -38,12 +40,8 @@
             height: 40px;
 
             .summary-info {
-                left: unset;
-                transform: translate(-50%, 0);
-
-                .group-name, .percent-complete {
-                    display: block;
-                }
+                flex-direction: column;
+                justify-content: center;
             }
         }
 
@@ -56,27 +54,33 @@
             width: calc(33% - 20px);
 
             .summary-info {
-                display: flex;
                 justify-content: space-between;
-                width: 100%;
 
                 .group-name {
                     @extend %ellipsis-overflow;
-                    margin: 0 5px;
+                    margin: 0 var(--content-padding);
                 }
 
                 .percent-complete {
-                    margin-right: 5px;
+                    margin-right: var(--content-padding);
                 }
             }
         }
 
         // Common
         .summary-info {
+            display: flex;
+            align-items: center;
+
+            height: 100%;
+            width: 100%;
+
+            // Place in front of incomplete
             position: absolute;
-            top: 1px;
-            width: calc(100% - 10px);
             z-index: 10;
+
+            // Off center by 1px
+            top: 1px;
         }
 
         // Overlays green on completed % of container

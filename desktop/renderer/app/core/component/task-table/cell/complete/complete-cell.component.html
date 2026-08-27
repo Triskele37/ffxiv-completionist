@@ -1,7 +1,6 @@
 @if(task.isNumericCompletion) {
     <com-numeric-complete-cell
         [task]="task"
-        [value]="task.completionFlag$()"
         [rowSpan]="rowSpan"
     ></com-numeric-complete-cell>
 } @else {

@@ -2,7 +2,6 @@ import type { OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Component, EventEmitter, Input, Output, signal, ViewChild, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import type { MenuItem } from 'primeng/api';
-import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 import { TieredMenu } from 'primeng/tieredmenu';
 
 import { DataService } from '@service/data/data-service';
@@ -20,7 +19,7 @@ export class GroupSelectorComponent implements OnInit, OnChanges {
     private svcData = inject(DataService);
 
     @Input() group?: DataGroup;
-    @Input() menuEvent?: TieredMenuToggleEvent;
+    @Input() menuEvent?: PointerEvent;
     @Input() omitGroup?: DataGroup;
     @Input() includeRoot?: boolean;
 

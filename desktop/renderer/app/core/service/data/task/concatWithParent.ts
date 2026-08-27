@@ -1,11 +1,11 @@
 import type { Links } from '@model/Chain/ChainLink';
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
-import type { KeysMatching } from '@model/typeUtils';
+import type { KeysOfType } from '@model/typeUtils';
 
 import type { DataServiceContext } from '../types';
 
-type LinkKeys = KeysMatching<DataGroup, Links | undefined>;
+type LinkKeys = KeysOfType<DataGroup, Links | undefined>;
 
 export function concatWithParent<K extends LinkKeys>(
     this: DataServiceContext,

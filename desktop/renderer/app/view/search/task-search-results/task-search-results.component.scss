@@ -2,6 +2,7 @@ $header-height: 40px;
 
 .task-search-results-header {
     height: $header-height;
+    margin-bottom: var(--content-padding);
 
     .p-button.expand-search-button {
         border-radius: 0;

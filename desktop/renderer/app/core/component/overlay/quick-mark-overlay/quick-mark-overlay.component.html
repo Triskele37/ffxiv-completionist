@@ -1,10 +1,8 @@
 <span
     data-active-help="APP.ACTIVE_HELP.QUICK_MARK_OVERLAY"
     class="overlay-container"
-    (mouseenter)="onMouseEnter()"
-    (mouseleave)="onMouseLeave()"
 >
-    @if (isModalVisible()) {
+    @if(isModalVisible()) {
         <div class="com-modal">
             {{'APP.QUICK_MARK_OVERLAY.PROCESSING' | translate}}...
         </div>
@@ -12,8 +10,8 @@
 
     <button
         pButton
-        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
-        (click)="onClick()"
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
     >
         <span class="mi mi-rule"></span>
     </button>

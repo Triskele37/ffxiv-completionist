@@ -5,13 +5,11 @@
 <span
     data-active-help="APP.ACTIVE_HELP.CUSTOM_CONTENT_OVERLAY"
     class="overlay-container"
-    (mouseenter)="onMouseEnter()"
-    (mouseleave)="onMouseLeave()"
 >
     <button
         pButton
-        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
-        (click)="onClick()"
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
     >
         <span class="mi mi-add"></span>
     </button>

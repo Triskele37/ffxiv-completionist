@@ -27,7 +27,10 @@
     --primary-color-darker: color-mix(in srgb, var(--primary-color), black 30%);
     --primary-color-rgb: 15, 76, 117;
 
+    --primary-color-text-inverted: rgb(from var(--primary-color-text) calc(125 - r) calc(125 - g) calc(125 - b));
+
     --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-inverted: rgb(from var(--text-color) calc(125 - r) calc(125 - g) calc(125 - b));
     --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
 
     --incomplete: rgb(var(--incomplete-rgb));

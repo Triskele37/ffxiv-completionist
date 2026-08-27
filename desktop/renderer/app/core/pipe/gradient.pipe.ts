@@ -12,7 +12,7 @@ export class GradientPipe implements PipeTransform {
 
     // completionFlag$ not used directly so that pipe transforms on value change
     transform(task: Task, value: string): string {
-        const totalComplete = parseInt(value, 10) - task.minValue;
+        const totalComplete = Math.max(parseInt(value, 10), task.minValue) - task.minValue;
         const totalPossible = task.maxValue - task.minValue;
 
         return this.svcTheme.rygGradient(totalComplete / totalPossible);

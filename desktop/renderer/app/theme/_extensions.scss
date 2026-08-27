@@ -6,6 +6,10 @@
         }
     }
 
+    .p-button, .p-button-link {
+        font-size: var(--font-size);
+    }
+
     .p-overlaypanel {
         border: 1px solid var(--surface-700);
 
@@ -33,7 +37,7 @@
     }
 
     .p-link {
-        font-size: 1rem;
+        font-size: var(--font-size);
         font-family: var(--font-family);
         border-radius: 4px;
 
@@ -42,5 +46,10 @@
             outline-offset: 0;
             box-shadow: none;
         }
+    }
+
+    .p-datatable {
+        outline: 3px ridge var(--surface-500);
+        border-radius: var(--border-radius);
     }
 }

@@ -1,22 +1,8 @@
 <div class="setting">
-    <label>{{'APP.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
-    <p-button-group>
-        <button pButton (click)="useDefaultTheme()">
-            {{'APP.SETTING.THEME.PRESETS.DEFAULT' | translate}}
-        </button>
-
-        <button pButton (click)="useDarkTheme()">
-            {{'APP.SETTING.THEME.PRESETS.DARK' | translate}}
-        </button>
-
-        <button pButton (click)="useLightTheme()">
-            {{'APP.SETTING.THEME.PRESETS.LIGHT' | translate}}
-        </button>
-
-        <button pButton (click)="useClassicTheme()">
-            {{'APP.SETTING.THEME.PRESETS.CLASSIC' | translate}}
-        </button>
-    </p-button-group>
+    <label>{{'APP.SETTING.THEME.PRESETS' | translate}}</label>
+    <com-theme-presets
+        (presetApplied)="updateGradient()"
+    ></com-theme-presets>
 </div>
 
 <div class="setting">
@@ -57,15 +43,15 @@
 <div class="setting-line">
     <label>{{'APP.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
 
-    <p-color-picker
-        [(ngModel)]="svcTheme.primaryColor"
-        (onChange)="svcTheme.setPrimaryColor(svcTheme.primaryColor)"
-    ></p-color-picker>
+    <com-color-picker
+        [value]="svcTheme.primaryColor"
+        (changeHex)="svcTheme.setPrimaryColor($event)"
+    ></com-color-picker>
 
-    <p-color-picker
-        [(ngModel)]="svcTheme.primaryTextColor"
-        (onChange)="svcTheme.setPrimaryTextColor(svcTheme.primaryTextColor)"
-    ></p-color-picker>
+    <com-color-picker
+        [value]="svcTheme.primaryTextColor"
+        (changeHex)="svcTheme.setPrimaryTextColor($event)"
+    ></com-color-picker>
 
     <label>{{'APP.SETTING.THEME.PRIMARY_TEXT' | translate}}</label>
 </div>
@@ -73,17 +59,15 @@
 <div class="setting-line">
     <label>{{'APP.SETTING.THEME.BACKGROUND' | translate}}</label>
 
-    <p-color-picker
-        format="hsb"
-        [(ngModel)]="svcTheme.backgroundColorHsb"
-        (onChange)="svcTheme.setBackgroundColorFromHsb(svcTheme.backgroundColorHsb)"
-    ></p-color-picker>
+    <com-color-picker
+        [value]="svcTheme.backgroundColorHsb"
+        (changeHSB)="svcTheme.setBackgroundColorFromHsb($event)"
+    ></com-color-picker>
 
-    <p-color-picker
-        format="rgb"
-        [(ngModel)]="svcTheme.textColor"
-        (onChange)="svcTheme.setTextColor(svcTheme.textColor)"
-    ></p-color-picker>
+    <com-color-picker
+        [value]="svcTheme.textColor"
+        (changeRGB)="svcTheme.setTextColor($event)"
+    ></com-color-picker>
 
     <label>{{'APP.SETTING.THEME.TEXT_COLOR' | translate}}</label>
 </div>
@@ -93,7 +77,7 @@
 
     <div class="settings">
         <div class="gradient-steps">
-            @for(gradientStep of gradients; track gradientStep) {
+            @for(gradientStep of gradients; track `${gradientStep}.${$index}`) {
                 <div
                     class="gradient-step"
                     [style.background-color]="gradientStep"
@@ -102,48 +86,44 @@
         </div>
 
         <div class="color-pickers">
-            <span>
+            <span class="vert-picker">
                 <i class="i-incomplete"></i>
-                <p-color-picker
-                    format="rgb"
-                    [(ngModel)]="svcTheme.incompleteColor"
-                    (onChange)="setIncompleteColor()"
-                ></p-color-picker>
+                <com-color-picker
+                    [value]="svcTheme.incompleteColor"
+                    (changeRGB)="setIncompleteColor($event)"
+                ></com-color-picker>
                 <button pButton (click)="resetIncompleteColor()">
                     <span class="mi mi-restart-alt"></span>
                 </button>
             </span>
 
-            <span>
-                <p-color-picker
-                    format="rgb"
-                    [(ngModel)]="svcTheme.partialCompleteColor"
-                    (onChange)="setPartialCompleteColor()"
-                ></p-color-picker>
+            <span class="vert-picker">
+                <com-color-picker
+                    [value]="svcTheme.partialCompleteColor"
+                    (changeRGB)="setPartialCompleteColor($event)"
+                ></com-color-picker>
                 <button pButton (click)="resetPartialCompleteColor()">
                     <span class="mi mi-restart-alt"></span>
                 </button>
             </span>
 
-            <span>
+            <span class="vert-picker">
                 <i class="i-complete"></i>
-                <p-color-picker
-                    format="rgb"
-                    [(ngModel)]="svcTheme.completeColor"
-                    (onChange)="setCompleteColor()"
-                ></p-color-picker>
+                <com-color-picker
+                    [value]="svcTheme.completeColor"
+                    (changeRGB)="setCompleteColor($event)"
+                ></com-color-picker>
                 <button pButton (click)="resetCompleteColor()">
                     <span class="mi mi-restart-alt"></span>
                 </button>
             </span>
 
-            <span>
+            <span class="vert-picker">
                 <i class="i-exclude"></i>
-                <p-color-picker
-                    format="rgb"
-                    [(ngModel)]="svcTheme.excludedColor"
-                    (onChange)="svcTheme.setExcludedColor(svcTheme.excludedColor)"
-                ></p-color-picker>
+                <com-color-picker
+                    [value]="svcTheme.excludedColor"
+                    (changeRGB)="svcTheme.setExcludedColor($event)"
+                ></com-color-picker>
                 <button pButton (click)="resetExcludedColor()">
                     <span class="mi mi-restart-alt"></span>
                 </button>

@@ -35,13 +35,10 @@
     display: flex;
     align-items: center;
 
-    .p-colorpicker {
-        margin: 5px;
-    }
-
-    ::ng-deep .p-colorpicker-preview {
-        border-radius: var(--p-colorpicker-preview-border-radius);
-        border: 1px solid var(--primary-color);
+    ::ng-deep {
+        .p-inputcolor {
+            margin: 5px;
+        }
     }
 }
 
@@ -76,23 +73,21 @@
             justify-content: space-evenly;
             width: 300px;
 
-            > span {
+            $vert-width: 50px;
+            .vert-picker {
                 position: relative;
-                width: 51px;
                 display: flex;
                 flex-direction: column;
-            }
-
-            .p-colorpicker {
-                margin: 0 5px;
+                width: $vert-width;
             }
 
             .i-incomplete, .i-complete, .i-exclude {
                 pointer-events: none;
                 position: absolute;
                 filter: invert(50%);
+                text-shadow: white 0 0 2px;
                 z-index: 1;
-                top: 2px;
+                top: 6px;
                 left: 14px;
             }
 
@@ -100,18 +95,22 @@
                 filter: invert(90%);
             }
 
-            ::ng-deep .p-colorpicker-preview {
-                border-bottom-left-radius: 0;
-                border-bottom-right-radius: 0;
-                width: 42px;
-            }
+            ::ng-deep {
+                .p-inputcolor {
+                }
 
-            ::ng-deep .p-button {
-                border-top-left-radius: 0;
-                border-top-right-radius: 0;
-                margin: 0 5px;
-                padding: 0;
-                width: 42px;
+                .p-inputcolor-swatch {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    width: $vert-width;
+                }
+
+                .p-button {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 0;
+                    width: $vert-width;
+                }
             }
         }
     }

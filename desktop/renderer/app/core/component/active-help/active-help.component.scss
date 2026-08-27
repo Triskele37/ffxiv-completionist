@@ -13,6 +13,7 @@
     background: var(--surface-500);
     border: 1px solid var(--primary-color);
     border-radius: 10px;
+    box-shadow: 0 0 5px var(--primary-color);
 
     .selected-summary {
         border-bottom: 2px solid var(--primary-color);

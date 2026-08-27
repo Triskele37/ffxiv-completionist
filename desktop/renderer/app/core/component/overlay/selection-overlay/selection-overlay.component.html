@@ -1,13 +1,11 @@
 <span
     data-active-help="APP.ACTIVE_HELP.SELECTION_OVERLAY"
     class="overlay-container"
-    (mouseenter)="onMouseEnter()"
-    (mouseleave)="onMouseLeave()"
 >
     <button
         pButton
-        [class]="isOverlayLocked() ? '' : 'p-button-outlined'"
-        (click)="onClick()"
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
     >
         <span class="mi mi-touch-app"></span>
     </button>
