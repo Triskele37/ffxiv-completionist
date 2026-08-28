@@ -8,5 +8,6 @@ export function sortPatchStrings(patchA: string, patchB: string): number {
     const majorSort = majorA.localeCompare(majorB, undefined, { numeric: true });
     if(majorSort) return majorSort;
 
-    return minorA.localeCompare(minorB);
+    // "!" used to sort "x" before "0"
+    return minorA.replace('x', '!').localeCompare(minorB.replace('x', '!'));
 }

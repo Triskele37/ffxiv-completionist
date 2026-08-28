@@ -2,6 +2,7 @@ import type { OnInit } from '@angular/core';
 import { Component, Input, inject, signal, ViewChild } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputText } from 'primeng/inputtext';
@@ -42,7 +43,17 @@ export class OptionFilterComponent implements OnInit {
 
     @ViewChild('select') select: Select | undefined;
 
+    constructor() {
+        this.svcTable.filter.onFilterApplied$
+            .pipe(takeUntilDestroyed())
+            .subscribe(() => this.init());
+    }
+
     ngOnInit() {
+        this.init();
+    }
+
+    init(): void {
         this.columnOptions = toOptions(this.svcTable.uniqueValues[this.column.key]);
         this.updateOptions();
     }

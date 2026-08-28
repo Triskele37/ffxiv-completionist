@@ -40,8 +40,7 @@ export function initializeData(
         .filter((k) => k !== 'bookmarks' && k !== 'custom');
 
     if(unloaded.length) {
-        console.log('Unloaded groups!');
-        console.log(unloaded);
+        console.warn('Unloaded groups!', unloaded);
     }
 
     return data;

@@ -8,7 +8,12 @@
             border-bottom: 1px solid var(--primary-color);
         }
 
-        &.with-spacer {
+        &.spacer-above {
+            margin-top: 10px;
+            box-shadow: 0 -10px 0 1px rgba(0 0 0 / 33%);
+        }
+
+        &.spacer-below {
             margin-bottom: 10px;
             box-shadow: 0 10px 0 1px rgba(0 0 0 / 33%);
         }

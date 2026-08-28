@@ -1,5 +1,6 @@
 // App specific overrides
-@layer primeng {
+body {
+
     .p-button {
         &.p-button-link {
             color: var(--primary-color-light);
@@ -12,29 +13,27 @@
         font-size: var(--font-size);
     }
 
-    .p-overlaypanel {
-        border: 1px solid var(--surface-700);
+    .p-datatable {
+        box-shadow: -1px 0 5px var(--surface-100);
 
-        &:before {
-            border-bottom-color: var(--surface-700);
+        &.p-datatable-striped .p-datatable-tbody :nth-child(even) tr {
+            background: var(--surface-800);
         }
-    }
 
-    .p-panelmenu {
-        .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action {
-            // Ensure left drawer items are small to account for shenanigans that make
-            // the top level items hide behind the search
-            padding: 2px;
+        .p-datatable-thead tr th {
+            background: var(--surface-800);
+            border-bottom: 1px solid var(--surface-600);
+            padding: calc(var(--content-padding) / 2);
         }
-    }
 
-    .p-tooltip {
-        max-width: unset !important;
-        pointer-events: none !important;
-        z-index: 9999 !important;
+        .p-datatable-tbody tr td {
+            // needs to exist or virtual scroller freaks at bottom of table
+            border-bottom: 1px solid var(--surface-600);
+        }
 
-        .p-tooltip-text {
-            border: 1px solid var(--surface-800);
+        .p-virtualscroller {
+            // so header overlays are visible in small tables
+            min-height: 100%;
         }
     }
 
@@ -50,17 +49,34 @@
         }
     }
 
-    .p-datatable {
-        box-shadow: -1px 0 5px var(--surface-100);
+    .p-overlaypanel {
+        border: 1px solid var(--surface-700);
 
-        .p-datatable-thead tr > th {
-            background: var(--surface-800);
-            border-bottom: 1px solid var(--surface-600);
-            padding: calc(var(--content-padding) / 2);
-        }
-
-        &.p-datatable-striped .p-datatable-tbody :nth-child(even) tr {
-            background: var(--surface-800);
+        &:before {
+            border-bottom-color: var(--surface-700);
         }
     }
+
+    .p-select {
+        .p-select-label {
+            padding-right: 0;
+            text-align: left;
+        }
+
+        .p-select-dropdown {
+            width: 14px;
+            margin-right: var(--content-padding);
+        }
+    }
+
+    .p-tooltip {
+        max-width: unset !important;
+        pointer-events: none !important;
+        z-index: 9999 !important;
+
+        .p-tooltip-text {
+            border: 1px solid var(--surface-800);
+        }
+    }
+
 }

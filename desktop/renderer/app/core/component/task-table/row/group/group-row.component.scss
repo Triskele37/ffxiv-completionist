@@ -1,8 +1,10 @@
+@use 'sizes';
+
 :host {
     display: contents;
 
     .group-row {
-        height: 36px;
+        height: sizes.$table-row-height;
 
         .collapse-cell {
             .p-button {

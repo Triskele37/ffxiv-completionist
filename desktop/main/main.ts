@@ -51,7 +51,7 @@ else {
         });
 
     } catch(e) {
-        console.log(e);
+        console.error(e);
         // Catch Error
         // throw e;
     }

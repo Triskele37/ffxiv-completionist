@@ -2,6 +2,7 @@ import { untracked } from '@angular/core';
 
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
+import { matchWildcardPatch } from '@model/util/patchMatch';
 
 import type { TableServiceContext } from '../types';
 
@@ -42,7 +43,12 @@ export function filterTasks(
                 return !!task[key];
             }
             else if(filter.key === 'patch') {
-                return task[key] === filter.value;
+                if(typeof filter.value === 'string') {
+                    return matchPatch(filter.value, task[key]);
+                }
+                else {
+                    return filter.value.some((value) => matchPatch(value, task[key]));
+                }
             }
             else {
                 if(typeof filter.value === 'string') {
@@ -56,4 +62,9 @@ export function filterTasks(
             }
         });
     });
+}
+
+function matchPatch(filterValue: string, patchValue: string) {
+    if(filterValue.includes('x')) return matchWildcardPatch(filterValue, patchValue);
+    return filterValue === patchValue;
 }

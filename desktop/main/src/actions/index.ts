@@ -6,10 +6,14 @@ import { WindowStore } from '../store/WindowStore';
 
 import { getData } from './getData';
 import { importCustom, exportCustom } from './shareCustom';
+import { preloadJson } from './preloadJson';
 
 export function initActions() {
     ipcMain.on('app-ready', WindowStore.showMainWindow);
-    ipcMain.handle('app-refresh', async () => {});
+    ipcMain.handle('app-refresh', async () => {
+        // allows refreshes to receive updates /resources
+        await preloadJson();
+    });
     ipcMain.on('get-data', getData);
 
     ipcMain.on('get-config', ConfigStore.get);

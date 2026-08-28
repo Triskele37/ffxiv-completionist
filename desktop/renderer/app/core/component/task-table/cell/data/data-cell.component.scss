@@ -1,8 +1,11 @@
+@use "sizes";
+
 :host {
     display: contents;
 
     .data-cell {
         .data-cell-value-container {
+            max-height: sizes.$table-row-height;
         }
     }
 }

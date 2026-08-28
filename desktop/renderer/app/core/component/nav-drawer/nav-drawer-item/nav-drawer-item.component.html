@@ -3,7 +3,8 @@
         class="drawer-item-container"
         [ngClass]="{
             root: isRoot,
-            'with-spacer': group.addSpacer
+            'spacer-above': group.addSpacerAbove,
+            'spacer-below': group.addSpacerBelow
         }"
     >
         @if(!isRoot) {

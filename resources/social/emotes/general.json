@@ -149,7 +149,7 @@
             "command_en": "/hurray, /huzzah",
             "command_fr": "/hurray, /hourra",
             "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
-            "source": "@EVENT.THE_RISING (2014) / @SOURCE.MOG_STATION",
+            "source": "@EVENT.THE_RISING (2014) / SOURCE.MOG_STATION",
             "patch": "2.35",
             "defaultCompletion": "X"
         },
@@ -599,7 +599,7 @@
             "command_en": "/splash",
             "command_fr": "/splash, /éclabousser",
             "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
-            "source": "@EVENT.MOONFIRE_FAIRE (2018) / @SOURCE.MOG_STATION",
+            "source": "@EVENT.MOONFIRE_FAIRE (2018) / SOURCE.MOG_STATION",
             "patch": "4.3",
             "defaultCompletion": "X"
         },
@@ -876,6 +876,7 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.STARLIGHT_CELEBRATION (2025)",
             "patch": "7.4",
+            "cSiblings": [298, 299, "e.301", "e.302", "e.303"],
             "defaultCompletion": "X"
         },
         "x298": {
@@ -886,6 +887,7 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.STARLIGHT_CELEBRATION (2025)",
             "patch": "7.4",
+            "cSiblings": [299, 300, "e.301", "e.302", "e.303"],
             "defaultCompletion": "X"
         },
         "x299": {
@@ -896,6 +898,7 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.STARLIGHT_CELEBRATION (2025)",
             "patch": "7.4",
+            "cSiblings": [298, 300, "e.301", "e.302", "e.303"],
             "defaultCompletion": "X"
         },
         "x277": {

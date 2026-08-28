@@ -27,5 +27,6 @@ export function initUi(
 
     group.visible = json.visible !== false;
 
-    group.addSpacer = json.addSpacer;
+    group.addSpacerAbove = json.addSpacerAbove;
+    group.addSpacerBelow = json.addSpacerBelow;
 }

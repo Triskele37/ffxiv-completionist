@@ -71,8 +71,9 @@ export type DataGroup = {
     /** Whether to hide in the nav-drawer */
     visible?: boolean;
 
-    /** Whether to add a spacer below in the nav-drawer */
-    addSpacer?: boolean;
+    /** Whether to add a spacer in the nav-drawer */
+    addSpacerAbove?: boolean;
+    addSpacerBelow?: boolean;
 
     //#endregion
 

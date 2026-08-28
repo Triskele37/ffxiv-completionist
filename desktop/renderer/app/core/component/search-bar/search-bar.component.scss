@@ -1,7 +1,6 @@
 @use './sizes';
 
 :host {
-    $size: 34px;
     display: contents;
 
     .home-button {
@@ -9,7 +8,7 @@
         font-weight: bold;
         border-radius: 0;
         width: sizes.$nav-drawer-width;
-        height: 25px;
+        height: sizes.$main-menu-button-height;
         left: 0;
         top: 0;
     }
@@ -17,14 +16,14 @@
     .search-bar {
         position: absolute;
         width: 250px;
-        top: 25px;
+        top: sizes.$main-menu-button-height;
 
         // Fixes issue when built where button is offset
         display: flex;
 
         ::ng-deep .p-inputtext {
-            width: calc(#{sizes.$nav-drawer-width} - #{$size});
-            height: $size;
+            width: calc(#{sizes.$nav-drawer-width} - #{sizes.$search-button-size});
+            height: sizes.$search-button-size;
             border-radius: 0;
             border-bottom: 1px solid var(--primary-color);
 
@@ -39,8 +38,8 @@
 
         .p-button {
             border-radius: 0;
-            height: $size;
-            width: $size;
+            height: sizes.$search-button-size;
+            width: sizes.$search-button-size;
         }
     }
 }

@@ -11,17 +11,22 @@ export function getUniqueValues(
     const unique: UniqueValues = {};
 
     // Grab unique values from the filtered task list
-    this.group().columns?.forEach(({ key, ...column }) => {
-        if(!column.filterable) return;
+    for(const { key, ...column } of this.group().columns ?? []) {
+        if(!column.filterable) continue;
         if(!unique[key]) unique[key] = [];
 
         // Grab unique values
-        this.tasks()?.forEach((task) => {
-            [].concat(task[key]).forEach((v) => {
-                const value = this.svcData.get.getLinkedName(v, column.link ?? false)?.toString() ?? '';
-                if(!unique[key].includes(value)) unique[key].push(value);
-            });
-        });
+        for(const task of this.tasks()) {
+            const values = [].concat(task[key]);
+
+            for(const v of values) {
+                const linkedName = this.svcData.get.getLinkedName(v, column.link ?? false);
+                const value = linkedName?.toString() ?? '';
+                if(!unique[key].includes(value)) {
+                    unique[key].push(value);
+                }
+            }
+        }
 
         // Sort
         unique[key].sort((rawA, rawB) => {
@@ -34,7 +39,7 @@ export function getUniqueValues(
 
         // Invert certain column lists
         if(key === 'patch') unique[key].reverse();
-    });
+    }
 
     return unique;
 }

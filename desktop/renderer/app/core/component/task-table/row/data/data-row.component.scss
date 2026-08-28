@@ -1,8 +1,10 @@
+@use 'sizes';
+
 :host {
     display: contents;
 
     .data-row {
-        height: 36px;
+        height: sizes.$table-row-height;
     }
 
     // Create the stripe pattern for rows

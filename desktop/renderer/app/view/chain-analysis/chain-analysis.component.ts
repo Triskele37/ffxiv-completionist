@@ -2,6 +2,7 @@ import type { OnInit } from '@angular/core';
 import { Component, signal, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ProgressSpinner } from 'primeng/progressspinner';
@@ -38,7 +39,7 @@ import { SettingsService } from '@view/settings/settings.service';
         NgTemplateOutlet,
     ],
     providers: [
-        TableService
+        TableService // because of completion cells
     ],
     styleUrls: ['./chain-analysis.component.scss']
 })
@@ -47,19 +48,20 @@ export class ChainAnalysisComponent implements OnInit {
     private svcChain = inject(ChainService);
     private svcChainViewer = inject(ChainViewerService);
     svcSettings = inject(SettingsService);
-    svcTable = inject(TableService);
 
     constraints: ChainConstraint[] = [];
-    issues: ChainIssue[] = [];
+    issues = signal<ChainIssue[]>([]);
     isLoading = signal(false);
+
+    constructor() {
+        this.svcData.data.onUpdated$
+            .pipe(takeUntilDestroyed())
+            .subscribe(() => this.analyzeChainedTasks());
+    }
 
     ngOnInit() {
         this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);
         this.analyzeChainedTasks();
-
-        this.svcTable.filter.onFilterApplied$.subscribe(() => {
-            this.analyzeChainedTasks();
-        });
     }
 
     onChainingEnabledChange(): void {
@@ -73,15 +75,19 @@ export class ChainAnalysisComponent implements OnInit {
         this.isLoading.set(true);
 
         setTimeout(() => {
-            this.issues = [];
+            this.issues.update(() => {
+                const issues = [];
 
-            for(const constraint of this.constraints) {
-                if(!validateConstraint(constraint)) {
-                    this.issues.push(asChainIssue(constraint));
+                for(const constraint of this.constraints) {
+                    if(!validateConstraint(constraint)) {
+                        issues.push(asChainIssue(constraint));
+                    }
                 }
-            }
 
-            this.isLoading.set(false);
+                this.isLoading.set(false);
+
+                return issues;
+            });
         });
     }
 

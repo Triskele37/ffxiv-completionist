@@ -15,11 +15,11 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
     const CURRENT = 'overall.travel.aether-currents';
     store.moveGroup(`${CURRENT}.shb.the-raktika-greatwood`, `${CURRENT}.shb.the-rak-tika-greatwood`);
 
-    const BLRF = 'logs.gathering.gathering-log.logging.regional-folklore';
+    const BLRF = 'overall.logs.gathering.gathering-log.logging.regional-folklore';
     store.moveGroup(`${BLRF}.Coerthas`, `${BLRF}.coerthas`);
 
-    store.moveGroup('duty.exploratory-missions', 'duty.field-operations');
-    
+    store.moveGroup('overall.duty.exploratory-missions', 'overall.duty.field-operations');
+
     migrateGathering(store);
     migrateFacewear(store);
     migrateFishingGuide(store);

@@ -10,7 +10,7 @@
 >
     <div class="header">
         <span>
-            {{issues.length}} {{'APP.TABLE.DISPLAYED' | translate}}
+            {{issues().length}} {{'APP.TABLE.DISPLAYED' | translate}}
         </span>
 
         <div
@@ -26,10 +26,10 @@
         </div>
     </div>
 
-    @if(issues.length) {
+    @if(issues().length) {
         <div class="issue-table">
             <p-table
-                [value]="issues"
+                [value]="issues()"
                 [scrollable]="true"
                 class="p-datatable-striped"
                 scrollHeight="flex"

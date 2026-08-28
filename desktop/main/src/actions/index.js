@@ -7,9 +7,13 @@ const PlayerStore_1 = require("../store/PlayerStore");
 const WindowStore_1 = require("../store/WindowStore");
 const getData_1 = require("./getData");
 const shareCustom_1 = require("./shareCustom");
+const preloadJson_1 = require("./preloadJson");
 function initActions() {
     electron_1.ipcMain.on('app-ready', WindowStore_1.WindowStore.showMainWindow);
-    electron_1.ipcMain.handle('app-refresh', async () => { });
+    electron_1.ipcMain.handle('app-refresh', async () => {
+        // allows refreshes to receive updates /resources
+        await (0, preloadJson_1.preloadJson)();
+    });
     electron_1.ipcMain.on('get-data', getData_1.getData);
     electron_1.ipcMain.on('get-config', ConfigStore_1.ConfigStore.get);
     electron_1.ipcMain.on('set-config', ConfigStore_1.ConfigStore.set);

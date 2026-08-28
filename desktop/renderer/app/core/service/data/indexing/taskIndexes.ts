@@ -22,7 +22,7 @@ export const INDEX: IndexContainer = new Map([
     ['chest', createIndex('reference.chest')],
     ['cj', createIndex('character.character.classes--jobs')],
     ['cl', createIndex('logs.crafting-log', ['master-crafting-books'])],
-    ['cm', createIndex('duty.field-operations.cosmic-exploration.mission-log')],
+    ['cm', createIndex('duty.cosmic-exploration.mission-log')],
     ['d', createIndex('duty.duty-raid-finder', ['record'])],
     ['e', createIndex('social.emotes')],
     ['f', createIndex('logs.gathering.fishing-guide.fishing')],

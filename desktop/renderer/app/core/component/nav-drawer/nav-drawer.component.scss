@@ -7,4 +7,14 @@
     width: sizes.$nav-drawer-width + 1;
 
     overflow-x: hidden;
+
+    ::ng-deep > com-nav-drawer-item:first-child > .drawer-item-container {
+        > .drawer-item-button {
+            height: sizes.$search-button-size - 10px;
+        }
+
+        > .drawer-item-children {
+            padding-top: 10px;
+        }
+    }
 }

@@ -12,6 +12,7 @@ import { TaskTableComponent } from '@component/task-table/task-table.component';
 import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import type { Task } from '@model/Task';
+import { matchWildcardPatch } from '@model/util/patchMatch';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
 /**
@@ -198,7 +199,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
             let match: boolean = false;
 
             if(this.selectedPatch === ' ') match = !task.patch;
-            else if(this.selectedPatch.includes('x')) match = this.getPatchRegex(this.selectedPatch).test(task.patch);
+            else if(this.selectedPatch.includes('x')) match = matchWildcardPatch(this.selectedPatch, task.patch);
             else match = this.selectedPatch === task.patch;
 
             if(match) {
@@ -208,10 +209,6 @@ export class PatchViewComponent implements OnInit, OnDestroy {
         }
 
         group.subGroups?.forEach(this.diveForTasks.bind(this));
-    }
-
-    getPatchRegex(wildcardPatch: string): RegExp {
-        return new RegExp(`^${wildcardPatch.replace('x', '\\d?')}$`);
     }
 
 }
