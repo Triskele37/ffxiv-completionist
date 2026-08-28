@@ -2,6 +2,7 @@ import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import type { DataGroup } from '@model/DataGroup';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { DataService } from '@service/data/data-service';
 import { ViewToken } from '@view/view-token';
 
@@ -13,6 +14,7 @@ import { ViewToken } from '@view/view-token';
 })
 export class MainMenuService {
     private translate = inject(TranslateService);
+    private svcConfigStore = inject(ConfigStoreService);
     private svcData = inject(DataService);
 
     data: DataGroup;
@@ -32,6 +34,10 @@ export class MainMenuService {
         this.addChainAnalysis();
         this.addSettings();
         this.addSearch();
+
+        this.svcConfigStore.updated$.subscribe((data) => {
+            if(data.isAdmin) this.addDevTools();
+        });
     }
 
     addPatchNotes(): void {
@@ -93,5 +99,17 @@ export class MainMenuService {
         }, this.data);
 
         this.data.subGroups?.set(search._key, search);
+    }
+
+    addDevTools(): void {
+        if(this.data.subGroups?.get('dev-tools')) return;
+
+        const devTools = this.svcData.group.createDataGroup({
+            key: 'dev-tools',
+            groupName: 'Dev Tools',
+            component: ViewToken.DevTools
+        }, this.data);
+
+        this.data.subGroups?.set(devTools._key, devTools);
     }
 }

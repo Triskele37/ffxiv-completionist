@@ -1,9 +1,8 @@
-import type { OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
+import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
-import { AddTaskDialogComponent } from '@admin/add-task-dialog/add-task-dialog.component';
 import { DataService } from '@service/data/data-service';
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
@@ -23,11 +22,9 @@ import { Overlay } from '../Overlay';
     imports: [
         ButtonDirective,
         TranslatePipe,
-
-        AddTaskDialogComponent
     ]
 })
-export class TableActionOverlayComponent extends Overlay implements OnChanges, OnDestroy {
+export class TableActionOverlayComponent extends Overlay implements OnChanges {
     private svcBookmark = inject(BookmarkService);
     private svcData = inject(DataService);
     svcConfigStore = inject(ConfigStoreService);
@@ -40,7 +37,6 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
 
     // Dev properties
     isDev = signal(false);
-    isAddTaskVisible: boolean = false; // double bound, no signal
 
     constructor() {
         super();
@@ -51,10 +47,6 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
         if(changes.group) {
             this.isBookmarked.set(this.svcBookmark.isBookmarked(this.group));
         }
-    }
-
-    ngOnDestroy() {
-        super.ngOnDestroy();
     }
 
     bookmarkGroup(): void {
@@ -98,14 +90,6 @@ export class TableActionOverlayComponent extends Overlay implements OnChanges, O
 
         console.log('tasks', this.tasks);
         console.log(tasksOutput.join('\n'));
-    }
-
-    /**
-     * Placeholder TODO
-     * Opens dialog to add task data directly to resources of the current table
-     * */
-    onAddTaskClick(): void {
-        this.isAddTaskVisible = true;
     }
 
 }

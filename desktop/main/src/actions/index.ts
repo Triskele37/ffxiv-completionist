@@ -4,17 +4,13 @@ import { ConfigStore } from '../store/ConfigStore';
 import { PlayerStore } from '../store/PlayerStore';
 import { WindowStore } from '../store/WindowStore';
 
-import { clearCache, preloadJson } from './preloadJson';
-import { loadJson } from './loadJson';
+import { getData } from './getData';
 import { importCustom, exportCustom } from './shareCustom';
 
 export function initActions() {
     ipcMain.on('app-ready', WindowStore.showMainWindow);
-    ipcMain.handle('app-refresh', async () => {
-        clearCache();
-        await preloadJson();
-    });
-    ipcMain.on('load-json', loadJson);
+    ipcMain.handle('app-refresh', async () => {});
+    ipcMain.on('get-data', getData);
 
     ipcMain.on('get-config', ConfigStore.get);
     ipcMain.on('set-config', ConfigStore.set);

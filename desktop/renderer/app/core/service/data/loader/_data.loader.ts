@@ -11,8 +11,17 @@ import { getCommonTranslation } from './getCommonTranslation';
 
 export type DataLoaderFacet = ReturnType<typeof createLoaderFacet>;
 
+type LoaderContext = {
+    dataCache: Record<string, any>;
+};
+
 export function createLoaderFacet(this: DataServiceContext) {
+    const context: LoaderContext = {
+        dataCache: {},
+    };
+
     return {
+        ...context,
         loadGroupShallow: loadGroupShallow.bind(this),
         loadGroupDeep: loadGroupDeep.bind(this),
         loadJson: loadJson.bind(this),

@@ -2,7 +2,6 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
-import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
@@ -10,7 +9,6 @@ import { Completion } from '@constant';
 import { DataService } from '@service/data/data-service';
 import type { DataGroup } from '@model/DataGroup';
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
-// import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import type { Task } from '@model/Task';
 
 // Cache the last roll for if returning to page
@@ -36,49 +34,14 @@ export class RandomComponent {
     randomTasks: Task[] = [];
 
     group: DataGroup;
-    groupSelectorEvent?: TieredMenuToggleEvent;
+    groupSelectorEvent?: PointerEvent;
 
     constructor() {
         if(lastRandom.length) this.randomTasks = lastRandom;
         this.group = this.svcData.data;
-
-        // this.test();
     }
 
-    //TODO: Create a developer settings menu and add this as an action
-    // this runs through every task changing its completion to ensure no
-    // links are broken
-    // first = true;
-    // test() {
-    //     this.dive(this.svcData.data);
-    //     console.log('Done');
-    // }
-    // dive(group: DataGroup | null) {
-    //     if(!group) return;
-    //     group.subGroups?.forEach((sg) => this.dive(sg));
-    //     group.tasks?.forEach((task) => {
-    //         try {
-    //             if(task.isNumericCompletion) {
-    //                 if(task.completionFlag$() !== task.defaultCompletion.toString()) {
-    //                     changeCompletion(task, task.defaultCompletion);
-    //                 }
-    //                 changeCompletion(task, task.maxValue.toString());
-    //                 changeCompletion(task, task.minValue.toString());
-    //             }
-    //             else {
-    //                 if(task.completionFlag$() !== 'N') changeCompletion(task, 'N');
-    //                 changeCompletion(task, 'Y', this.first);
-    //                 changeCompletion(task, 'N');
-    //             }
-    //         }
-    //         catch(e) {
-    //             console.error(group.fullStorageKey, task.name, e);
-    //         }
-    //         this.first = false;
-    //     });
-    // }
-
-    onToggleSelector($event: TieredMenuToggleEvent): void {
+    onToggleSelector($event: PointerEvent): void {
         this.groupSelectorEvent = $event;
     }
 

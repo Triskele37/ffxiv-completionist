@@ -43,19 +43,8 @@
                         <span class="mi mi-file-copy"></span>
                         {{'APP.TABLE_OVERLAY.COPY_RESOLVED_DATA' | translate}}
                     </button>
-                    <button pButton (click)="onAddTaskClick()">
-                        <span class="mi mi-add"></span>
-                        Add Task
-                    </button>
                 }
             </span>
         </div>
     }
 </span>
-
-@if(isDev()) {
-    <com-add-task-dialog
-        [(visible)]="isAddTaskVisible"
-        [group]="group"
-    ></com-add-task-dialog>
-}

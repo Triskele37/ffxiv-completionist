@@ -12,12 +12,17 @@ export const JSON_CACHE: Record<string, object> = {};
  */
 export async function preloadJson() {
     const resourceRoot = getResourcesRoot();
-    await diveResources(path.normalize(resourceRoot));
-}
+    const cachePath = path.join(path.normalize(resourceRoot), 'data.json');
 
-export function clearCache() {
-    for(let k in JSON_CACHE) {
-        delete JSON_CACHE[k];
+    if(!fs.existsSync(cachePath)) {
+        await diveResources(path.normalize(resourceRoot));
+        fs.writeFileSync(cachePath, JSON.stringify(JSON_CACHE));
+    }
+    else {
+        const cachedCache = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+        for(const k in cachedCache) {
+            JSON_CACHE[k] = cachedCache[k];
+        }
     }
 }
 
@@ -25,13 +30,15 @@ export function clearCache() {
  * Recursively dive the resource directory for json
  */
 async function diveResources(root: string, p: string = root): Promise<void> {
-    const dir = await fs.promises.readdir(p);
-    await Promise.all(dir.map(async (entity) => {
-        const entityPath = path.join(p, entity);
-        const lStat = await fs.promises.lstat(entityPath);
+    const dir = await fs.promises.readdir(p, { withFileTypes: true });
 
-        if(lStat.isDirectory()) await diveResources(root, entityPath);
-        else if(entityPath.endsWith('.json')) {
+    await Promise.all(dir.map(async (entity) => {
+        const entityPath = path.join(p, entity.name);
+
+        if(entity.isDirectory()) {
+            await diveResources(root, entityPath);
+        }
+        else if(entity.name.endsWith('.json')) {
             const file = await fs.promises.readFile(entityPath, 'utf8');
             const cacheKey = pathToKey(root, entityPath);
 

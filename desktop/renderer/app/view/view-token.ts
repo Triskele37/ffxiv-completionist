@@ -5,4 +5,5 @@ export enum ViewToken {
     Random = 'Random',
     Settings = 'Settings',
     Search = 'Search',
+    DevTools = 'DevTools',
 }

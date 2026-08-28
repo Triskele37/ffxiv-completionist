@@ -1,5 +1,3 @@
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
-
 import type { DataServiceContext } from '../types';
 import type { JSON_GROUP } from './_types';
 
@@ -13,7 +11,22 @@ export function loadJson(
     let finalJson: JSON_GROUP = {};
 
     try {
-        const json = this.svcElectron?.sendSync(IPC_EVENT.LOAD_JSON, key);
+        let json;
+
+        // Check if passed group has a self-named file
+        if(this.loader.dataCache[key]) {
+            json = this.loader.dataCache[key];
+            delete this.loader.dataCache[key];
+        }
+
+        // Check if passed group has/is an index file
+        const keyIfIndex = [key, '_index'].filter((p) => p).join('.');
+        if(this.loader.dataCache[keyIfIndex]) {
+            json = this.loader.dataCache[keyIfIndex];
+            delete this.loader.dataCache[keyIfIndex];
+        }
+
+        if(!json) throw new Error('Key not in cache');
 
         try {
             this.loader.translateCommonKeys(json);

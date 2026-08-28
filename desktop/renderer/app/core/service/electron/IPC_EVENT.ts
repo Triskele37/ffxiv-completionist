@@ -13,7 +13,7 @@ export enum IPC_EVENT {
     OPEN_SAVE = 'open-save',
     BACKUP_SAVE = 'backup-save',
     LOAD_BACKUP_SAVE = 'load-backup-save',
-    LOAD_JSON = 'load-json',
+    GET_DATA = 'get-data',
     IMPORT_CUSTOM = 'import-custom',
     EXPORT_CUSTOM = 'export-custom',
     SEARCH_CONSOLE_GAMES = 'search-console-games',

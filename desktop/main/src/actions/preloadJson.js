@@ -35,7 +35,6 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.JSON_CACHE = void 0;
 exports.preloadJson = preloadJson;
-exports.clearCache = clearCache;
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 /**
@@ -48,24 +47,29 @@ exports.JSON_CACHE = {};
  */
 async function preloadJson() {
     const resourceRoot = getResourcesRoot();
-    await diveResources(path.normalize(resourceRoot));
-}
-function clearCache() {
-    for (let k in exports.JSON_CACHE) {
-        delete exports.JSON_CACHE[k];
+    const cachePath = path.join(path.normalize(resourceRoot), 'data.json');
+    if (!fs.existsSync(cachePath)) {
+        await diveResources(path.normalize(resourceRoot));
+        fs.writeFileSync(cachePath, JSON.stringify(exports.JSON_CACHE));
+    }
+    else {
+        const cachedCache = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+        for (const k in cachedCache) {
+            exports.JSON_CACHE[k] = cachedCache[k];
+        }
     }
 }
 /**
  * Recursively dive the resource directory for json
  */
 async function diveResources(root, p = root) {
-    const dir = await fs.promises.readdir(p);
+    const dir = await fs.promises.readdir(p, { withFileTypes: true });
     await Promise.all(dir.map(async (entity) => {
-        const entityPath = path.join(p, entity);
-        const lStat = await fs.promises.lstat(entityPath);
-        if (lStat.isDirectory())
+        const entityPath = path.join(p, entity.name);
+        if (entity.isDirectory()) {
             await diveResources(root, entityPath);
-        else if (entityPath.endsWith('.json')) {
+        }
+        else if (entity.name.endsWith('.json')) {
             const file = await fs.promises.readFile(entityPath, 'utf8');
             const cacheKey = pathToKey(root, entityPath);
             try {
