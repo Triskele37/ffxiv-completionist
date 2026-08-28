@@ -24,7 +24,8 @@ export class MainMenuService {
             key: 'main-menu',
             groupName: this.translate.instant('APP.NAME'),
             noContent: true,
-            isUiGroup: true
+            isUiGroup: true,
+            addSpacer: true,
         }, null);
 
         this.data.subGroups = new Map();

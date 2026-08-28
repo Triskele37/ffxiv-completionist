@@ -7,6 +7,12 @@ import * as path from 'path';
 export const JSON_CACHE: Record<string, object> = {};
 
 /**
+ * CachedCache is a PoC, invalidation isn't figured out yet
+ * it does reduce preload significantly though
+ * */
+const DISABLE_CACHED_CACHE = true;
+
+/**
  * Preload all json asynchronously before the app loads to speed up init time
  * - Keep in memory (~10MB) to completely remove slowdown of file read during app run
  */
@@ -14,7 +20,7 @@ export async function preloadJson() {
     const resourceRoot = getResourcesRoot();
     const cachePath = path.join(path.normalize(resourceRoot), 'data.json');
 
-    if(!fs.existsSync(cachePath)) {
+    if(DISABLE_CACHED_CACHE || !fs.existsSync(cachePath)) {
         await diveResources(path.normalize(resourceRoot));
         fs.writeFileSync(cachePath, JSON.stringify(JSON_CACHE));
     }

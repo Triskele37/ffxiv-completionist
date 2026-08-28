@@ -26,4 +26,6 @@ export function initUi(
     }
 
     group.visible = json.visible !== false;
+
+    group.addSpacer = json.addSpacer;
 }

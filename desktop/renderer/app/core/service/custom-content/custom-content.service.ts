@@ -312,6 +312,8 @@ export class CustomContentService {
         // Update app tree
         const task = this.svcData.task.createTask({ id: nextId, name, notes }, group);
         group.tasks.push(task);
+
+        this.onGroupUpdated$.next();
     }
 
     editTaskMeta(task: Task, key: string, value: string): void {
@@ -348,9 +350,6 @@ export class CustomContentService {
             this.svcSaveStore.set(task.fullStorageKey, oldSave);
         }
 
-        // Trigger rerender (nav drawer stars, summary lines)
-        // oldParent.updated$.next();
-        // tasks[0]._parent.updated$.next();
         this.onGroupUpdated$.next();
     }
 
@@ -403,6 +402,7 @@ export class CustomContentService {
     removeTaskFromAppTree(group: DataGroup, task: Task): void {
         const index = group.tasks.findIndex((t) => t.id === task.id);
         group.tasks.splice(index, 1);
+        this.onGroupUpdated$.next();
     }
 
     // Remove from save & meta stores

@@ -7,6 +7,8 @@
     }
 
     .p-button, .p-button-link {
+        cursor: pointer;
+
         font-size: var(--font-size);
     }
 
@@ -49,7 +51,16 @@
     }
 
     .p-datatable {
-        outline: 3px ridge var(--surface-500);
-        border-radius: var(--border-radius);
+        box-shadow: -1px 0 5px var(--surface-100);
+
+        .p-datatable-thead tr > th {
+            background: var(--surface-800);
+            border-bottom: 1px solid var(--surface-600);
+            padding: calc(var(--content-padding) / 2);
+        }
+
+        &.p-datatable-striped .p-datatable-tbody :nth-child(even) tr {
+            background: var(--surface-800);
+        }
     }
 }

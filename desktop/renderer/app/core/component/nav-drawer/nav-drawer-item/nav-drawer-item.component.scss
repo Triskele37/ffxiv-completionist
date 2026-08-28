@@ -1,0 +1,106 @@
+@use './ellipsis-overflow' as *;
+
+:host {
+    display: contents;
+
+    .drawer-item-container {
+        &.root {
+            border-bottom: 1px solid var(--primary-color);
+        }
+
+        &.with-spacer {
+            margin-bottom: 10px;
+            box-shadow: 0 10px 0 1px rgba(0 0 0 / 33%);
+        }
+    }
+
+    .drawer-item-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 24px;
+        padding: 0 3px;
+
+        cursor: pointer;
+        background: var(--p-surface-600);
+
+        border-top: 1px solid var(--primary-color);
+
+        &:hover {
+            background: var(--p-surface-400);
+        }
+
+        .left-content {
+            display: flex;
+            align-items: center;
+
+            width: 100%;
+
+            .button-arrow {
+                padding-left: 2px;
+            }
+
+            .group-label {
+                @extend %ellipsis-overflow;
+
+                display: inline-block;
+                padding-left: 3px;
+                width: 100%;
+
+                &.selected {
+                    font-weight: bold;
+                }
+
+                &.with-icon {
+                    width: calc(100% - 16px);
+                }
+            }
+        }
+
+        .right-content {
+            display: flex;
+
+            .mi.mi-star {
+                color: var(--completed);
+                font-size: 16px;
+
+                &.empty {
+                    color: var(--excluded);
+                }
+            }
+        }
+    }
+
+    .drawer-item-children {
+        interpolate-size: allow-keywords;
+        height: auto;
+        overflow: hidden;
+
+        &.fade-in {
+            animation: fade-in 0.3s ease-out;
+        }
+
+        @keyframes fade-in {
+            from { height: 0; }
+            to { height: auto; }
+        }
+
+        &.fade-out {
+            animation: fade-out 0.3s ease-in;
+        }
+
+        @keyframes fade-out {
+            from { height: auto; }
+            to { height: 0; }
+        }
+
+        // Only apply to nested children
+        ::ng-deep .drawer-item-children {
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-left: 1px solid var(--primary-color);
+            border-bottom: 1px solid var(--primary-color);
+        }
+    }
+}

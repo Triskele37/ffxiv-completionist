@@ -7,10 +7,9 @@
 
     // Create the stripe pattern for rows
     .even-row {
-        background: var(--surface-500);
+        background: var(--surface-800);
     }
 
-    //TODO all cells
     ::ng-deep .table-cell {
         vertical-align: middle;
     }
