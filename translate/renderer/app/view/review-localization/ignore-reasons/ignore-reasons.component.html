@@ -25,12 +25,19 @@
         (change)="onCustomReasonChange()"
     />
 
-    <button
-        class="save-reasons"
-        (click)="onSaveReasons()"
-    >
-        {{'UI.ISSUE.SAVE_REASONS' | translate}}
-    </button>
+	<div class="save-button-container">
+		<button
+			class="save-reasons"
+			(click)="onSaveReasons()"
+		>
+			{{'UI.ISSUE.SAVE_REASONS' | translate}}
+		</button>
+		@if(showSaved) {
+			<div class="saved-notification">
+				{{'UI.ISSUE.REASONS_SAVED' | translate}}
+			</div>
+		}
+	</div>
 
     <div class="multiple-checkbox">
         <input [(ngModel)]="allowMultiple" type="checkbox"/>

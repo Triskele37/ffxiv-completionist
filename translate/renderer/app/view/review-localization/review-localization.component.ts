@@ -1,5 +1,6 @@
 import { Component, HostListener, inject } from '@angular/core';
 
+import { isIgnoredElement } from '@model/isIgnoredElement';
 import { DataService } from '@service/data.service';
 import { NavigationService } from '@service/navigation.service';
 
@@ -19,9 +20,11 @@ export class ReviewLocalizationComponent {
     svcData = inject(DataService);
     svcNav = inject(NavigationService);
 
-    // Make Ctrl+F to focus the search input
+    // Arrow navigation
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
+		if(isIgnoredElement($event.target as HTMLElement)) return;
+		
         if($event.ctrlKey) {
             if($event.key === 'ArrowLeft') {
                 this.svcNav.goToPreviousIssue(10);

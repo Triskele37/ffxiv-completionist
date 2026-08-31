@@ -2,6 +2,7 @@ import { Component, HostListener, inject } from '@angular/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 
+import { isIgnoredElement } from '@model/util/isIgnoredElement';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
@@ -31,7 +32,7 @@ export class NavBarComponent {
     onWindowKeydown($event: KeyboardEvent): void {
         const selectedGroup = this.svcNavigation.selectedGroup();
         if(selectedGroup?.isCustomGroup && selectedGroup._key === 'custom') return;
-        if(($event.target as HTMLElement).tagName === 'INPUT') return;
+		if(isIgnoredElement($event.target as HTMLElement)) return;
 
         if($event.code === 'Escape') this.goToParent();
         if($event.code === 'Backspace') this.goBack();

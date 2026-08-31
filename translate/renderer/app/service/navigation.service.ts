@@ -9,7 +9,14 @@ export class NavigationService {
     svcData = inject(DataService);
 
     currentIndex = signal(0);
-    currentIssue = computed(() => this.svcData.issues()[this.currentIndex()]);
+    currentIssue = computed(() => {
+		const issues = this.svcData.issues();
+		const index = this.currentIndex();
+		if(issues[index]) return issues[index];
+		
+		this.currentIndex.set(0);
+		return issues[0];
+	});
 
     goToPreviousIssue(jump: number = 1): void {
         if(this.currentIndex() - jump < 0) {

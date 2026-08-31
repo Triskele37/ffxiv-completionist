@@ -22,7 +22,7 @@ export class FiltersComponent {
     svcData = inject(DataService);
     svcNav = inject(NavigationService);
 
-    visible: boolean = true;
+    visible: boolean = false;
 
     onSelectGroup($event: string): void {
         this.svcNav.jumpToGroup($event);

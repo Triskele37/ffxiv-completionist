@@ -27,11 +27,18 @@
         </div>
     </div>
 
-    <input
-        class="translation-input"
-        [(ngModel)]="translation"
-        [placeholder]="'UI.ISSUE.TRANSLATION' | translate"
-    />
+	<div class="translation-input-container">
+		<input
+			class="translation-input"
+			[(ngModel)]="translation"
+			[placeholder]="'UI.ISSUE.TRANSLATION' | translate"
+		/>
+		@if(showSaved) {
+			<div class="saved-notification">
+				{{'UI.ISSUE.TRANSLATION_SAVED' | translate}}
+			</div>
+		}
+	</div>
 
     <div class="actions">
         <button

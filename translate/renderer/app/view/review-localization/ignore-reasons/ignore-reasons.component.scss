@@ -26,6 +26,21 @@
 
         }
 
+		.save-button-container {
+			position: relative;
+		}
+		
+		.saved-notification {
+			position: absolute;
+			background: var(--surface-500);
+			border: 1px solid var(--primary-500);
+			border-radius: var(--border-radius);
+			padding: 5px;
+			transform: translateX(100%);
+			top: 0;
+			right: -10px;
+		}
+
         .multiple-checkbox {
             display: flex;
             align-items: center;

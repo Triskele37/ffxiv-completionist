@@ -19,17 +19,22 @@ export class IssueComponent {
     svcNav = inject(NavigationService);
 
     translation: string = '';
+	showSaved: boolean = false;
 
     constructor() {
         effect(() => {
             const issue = this.svcNav.currentIssue();
-            if(issue.newValue) this.translation = issue.newValue;
+            this.translation = issue.newValue ?? '';
         });
     }
 
     onSaveTranslation(): void {
         const success = this.svcData.saveTranslation(this.svcNav.currentIndex(), this.translation);
-        if(success) this.translation = '';
+        if(success) {
+			this.translation = '';
+			this.showSaved = true;
+			setTimeout(() => this.showSaved = false, 3000);
+		}
     }
 
     onRemoveTranslation(): void {

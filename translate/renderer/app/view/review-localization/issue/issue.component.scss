@@ -30,6 +30,10 @@
             gap: var(--content-padding);
         }
 
+		.translation-input-container {
+			position: relative;
+		}
+		
         .translation-input {
             min-width: 300px;
         }
@@ -40,5 +44,16 @@
             gap: var(--content-padding);
             width: 100%;
         }
+		
+		.saved-notification {
+			position: absolute;
+			background: var(--surface-500);
+			border: 1px solid var(--primary-500);
+			border-radius: var(--border-radius);
+			transform: translateX(100%);
+			right: -10px;
+			top: 0;
+			padding: 5px;
+		}
     }
 }

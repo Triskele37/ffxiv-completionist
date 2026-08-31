@@ -24,6 +24,7 @@ export class IgnoreReasonsComponent implements OnInit {
     allowMultiple: boolean = false;
     reasonKeys: string[] = [];
     customReason: string = '';
+	showSaved: boolean = false;
 
     constructor() {
         effect(() => {
@@ -78,6 +79,10 @@ export class IgnoreReasonsComponent implements OnInit {
 
     onSaveReasons(): void {
         const success = this.svcData.saveReasons(this.svcNav.currentIndex());
-        if(success) this.svcNav.goToCurrent();
+        if(success) {
+			this.svcNav.goToCurrent();
+			this.showSaved = true;
+			setTimeout(() => this.showSaved = false, 3000);
+		}
     }
 }
