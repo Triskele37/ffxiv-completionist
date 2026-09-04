@@ -1,0 +1,14 @@
+.search-container {
+    height: 100%;
+    width: 100%;
+
+    ::ng-deep {
+        // Trickle height down so result tables know their scrollable height
+        .p-tabs { height: 100%; }
+        .p-tabpanels {
+            background: var(--surface-900);
+            height: calc(100% - 50px);
+        }
+        .p-tabview-panel { height: 100%; }
+    }
+}

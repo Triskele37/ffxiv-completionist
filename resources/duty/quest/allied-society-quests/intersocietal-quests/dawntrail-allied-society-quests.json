@@ -1,0 +1,32 @@
+{
+    "key": "dawntrail-allied-society-quests",
+    "groupName_en": "Dawntrail Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés (Dawntrail)",
+    "tasks": {
+        "x70998": {
+            "name_en": "Touring Tural",
+            "name_fr": "À la turalienne",
+            "level": 100,
+            "npc_en": "Zelihali",
+            "npc_fr": "Zelihali",
+            "cPrev": ["q.70734", "q.70796", "q.70871"],
+            "cNext": ["q.70999"],
+            "patch": "7.55"
+        },
+        "x70999": {
+            "name_en": "Hero's Day Off",
+            "name_fr": "Instant de détente, instant de bonheur",
+            "level": 100,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70998"],
+            "cSiblings": [
+                "a.3939",
+                "character.character.societal-relations.131",
+                "character.character.societal-relations.132",
+                "character.character.societal-relations.133"
+            ],
+            "patch": "7.55"
+        }
+    }
+}

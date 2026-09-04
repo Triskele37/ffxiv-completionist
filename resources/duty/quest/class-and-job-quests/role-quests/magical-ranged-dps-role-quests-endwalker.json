@@ -4,64 +4,64 @@
     "groupName_fr": "Quêtes de DPS magique (Endwalker)",
     "tasks": {
         "x69662": {
-            "level": 85,
             "name_en": "Our Aching Souls",
             "name_fr": "Ishgard en proie aux tourments",
+            "level": 85,
             "npc_en": "Ishgardian Delegate",
             "npc_fr": "Attaché Militaire D'Ishgard",
+            "patch": "6.0",
             "cPrev": ["q.69954"],
-            "cNext": ["q.69663"],
-            "patch": "6.0"
+            "cNext": ["q.69663"]
         },
         "x69663": {
-            "level": 86,
             "name_en": "No Forgiveness, No Deliverance",
             "name_fr": "Ni pardon, ni salut",
+            "level": 86,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "6.0",
             "cPrev": ["q.69662"],
-            "cNext": ["q.69664"],
-            "patch": "6.0"
+            "cNext": ["q.69664"]
         },
         "x69664": {
-            "level": 87,
             "name_en": "Only Justice, Only Vengeance",
             "name_fr": "Vengeresse justice",
+            "level": 87,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "6.0",
             "cPrev": ["q.69663"],
-            "cNext": ["q.69665"],
-            "patch": "6.0"
+            "cNext": ["q.69665"]
         },
         "x69665": {
-            "level": 88,
             "name_en": "Wills Unending, Faith Unbending",
             "name_fr": "Une pieuse résolution",
+            "level": 88,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "6.0",
             "cPrev": ["q.69664"],
-            "cNext": ["q.69666"],
-            "patch": "6.0"
+            "cNext": ["q.69666"]
         },
         "x69666": {
-            "level": 89,
             "name_en": "O Mighty Fury, Guide Us to Victory",
             "name_fr": "Sous l'égide de Halone",
+            "level": 89,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "6.0",
             "cPrev": ["q.69665"],
-            "cNext": ["q.69667"],
-            "patch": "6.0"
+            "cNext": ["q.69667"]
         },
         "x69667": {
-            "level": 90,
             "name_en": "Ever March Heavensward",
             "name_fr": "La voie du renouveau",
+            "level": 90,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "6.0",
             "cPrev": ["q.69666"],
-            "cSiblings": ["a.2965"],
-            "patch": "6.0"
+            "cSiblings": ["a.2965"]
         }
     }
 }

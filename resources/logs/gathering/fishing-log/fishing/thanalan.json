@@ -3,197 +3,221 @@
     "groupName_en": "Thanalan",
     "groupName_fr": "Thanalan",
     "tasks": {
-        "x0": {
+        "x72": {
             "name_en": "Nophica's Wells",
             "name_fr": "Sources de Nophica",
-            "level": "5",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 5,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(24, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x1": {
+        "x73": {
             "name_en": "The Footfalls",
             "name_fr": "Vallée des Pas perdus",
-            "level": "10",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 10,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(17, 15)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x2": {
+        "x70": {
             "name_en": "Vesper Bay",
             "name_fr": "Baie des Vêpres",
-            "level": "15",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 15,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(11, 12)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
-        "x3": {
+        "x71": {
             "name_en": "Crescent Cove",
             "name_fr": "Crique du Croissant",
-            "level": "20",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 20,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(14, 18)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
-        "x4": {
+        "x69": {
             "name_en": "The Silver Bazaar",
             "name_fr": "Bazar argenté",
-            "level": "25",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 25,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(15, 29)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
-        "x5": {
+        "x74": {
             "name_en": "Cape Westwind",
             "name_fr": "Cap Vendouest",
-            "level": "45",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 45,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(9, 6)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
-        "x6": {
+        "x103": {
             "name_en": "Moondrip",
             "name_fr": "Gouttelune",
-            "level": "45",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 45,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(17, 6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x7": {
+        "x95": {
             "name_en": "Parata's Peace",
             "name_fr": "Repos de Parata",
-            "level": "50",
-            "zone": "@PLACE.WESTERN_THANALAN",
+            "level": 50,
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
             "location": "(15, 6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x8": {
+        "x75": {
             "name_en": "Upper Soot Creek",
-            "name_fr": "Amant de la Suie",
-            "level": "5",
-            "zone": "@PLACE.CENTRAL_THANALAN",
+            "name_fr": "Amont de la Suie",
+            "level": 5,
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
             "location": "(23, 18)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x9": {
+        "x76": {
             "name_en": "Lower Soot Creek",
             "name_fr": "Aval de la Suie",
-            "level": "10",
-            "zone": "@PLACE.CENTRAL_THANALAN",
+            "level": 10,
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
             "location": "(16, 23)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x10": {
+        "x96": {
             "name_en": "The Clutch",
             "name_fr": "Le Nid",
-            "level": "10",
-            "zone": "@PLACE.CENTRAL_THANALAN",
+            "level": 10,
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
             "location": "(29, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x11": {
+        "x77": {
             "name_en": "The Unholy Heir",
             "name_fr": "Le Damné",
-            "level": "15",
-            "zone": "@PLACE.CENTRAL_THANALAN",
+            "level": 15,
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
             "location": "(27, 19)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x12": {
+        "x78": {
             "name_en": "North Drybone",
             "name_fr": "Nord des Os desséchés",
-            "level": "15",
-            "zone": "@PLACE.EASTERN_THANALAN",
+            "level": 15,
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
             "location": "(13, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x13": {
+        "x79": {
             "name_en": "South Drybone",
             "name_fr": "Sud des Os desséchés",
-            "level": "15",
-            "zone": "@PLACE.EASTERN_THANALAN",
+            "level": 15,
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
             "location": "(17, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x14": {
+        "x80": {
             "name_en": "Yugr'am River",
             "name_fr": "Rivière de Yugr'am",
-            "level": "30",
-            "zone": "@PLACE.EASTERN_THANALAN",
+            "level": 30,
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
             "location": "(25, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x15": {
+        "x82": {
             "name_en": "The Burning Wall",
             "name_fr": "Mur incandescent",
-            "level": "40",
-            "zone": "@PLACE.EASTERN_THANALAN",
+            "level": 40,
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
             "location": "(29, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x16": {
+        "x83": {
             "name_en": "Burnt Lizard Creek",
             "name_fr": "Ruisseau du Lézard brûlé",
-            "level": "25",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "level": 25,
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(21, 15)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x17": {
+        "x84": {
             "name_en": "Zahar'ak",
             "name_fr": "Zahar'ak",
-            "level": "35",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "level": 35,
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(25, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x18": {
+        "x85": {
             "name_en": "Forgotten Springs",
-            "name_fr": "Oasis oublié",
-            "level": "35",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "name_fr": "Oasis oubliée",
+            "level": 35,
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(15, 31)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x19": {
+        "x86": {
             "name_en": "Sagolii Desert",
             "name_fr": "Désert de Sagolii",
-            "level": "35",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "level": 35,
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(12, 35)",
-            "type": "@FISH.TYPE.DUNEFISHING"
+            "type": "@FISH.TYPE.DUNEFISHING",
+            "patch": "2.0"
         },
-        "x20": {
+        "x87": {
             "name_en": "Sagolii Dunes",
             "name_fr": "Dunes de Sagolii",
-            "level": "35",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "level": 35,
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(27, 37)",
-            "type": "@FISH.TYPE.DUNEFISHING"
+            "type": "@FISH.TYPE.DUNEFISHING",
+            "patch": "2.0"
         },
-        "x21": {
+        "x89": {
             "name_en": "Bluefog",
             "name_fr": "Brumebleue",
-            "level": "40",
-            "zone": "@PLACE.NORTHERN_THANALAN",
+            "level": 40,
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
             "location": "(24, 25)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x22": {
+        "x88": {
             "name_en": "Ceruleum Field",
             "name_fr": "Champ de céruleum",
-            "level": "45",
-            "zone": "@PLACE.NORTHERN_THANALAN",
+            "level": 45,
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
             "location": "(16, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x23": {
+        "x106": {
             "name_en": "The Goblet",
             "name_fr": "La Coupe",
-            "level": "30",
-            "zone": "@PLACE.THE_GOBLET",
-            "location": "@PLACE.THE_GOBLET",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "level": 30,
+            "zone": "@PLACE.ARR.THE_GOBLET",
+            "location": "@PLACE.ARR.THE_GOBLET",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.1"
         }
     }
 }

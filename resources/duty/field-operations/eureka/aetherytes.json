@@ -1,0 +1,120 @@
+{
+    "key": "aetherytes",
+    "groupName_en": "Aetherytes",
+    "groupName_fr": "Éthérites",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "eLvlReq": {
+            "header_en": "eLvl Required",
+            "header_fr": "Niveau d'objet requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Port Surgate",
+            "name_fr": "Port Surgate",
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "1",
+            "patch": "4.25"
+        },
+        "x1": {
+            "name_en": "Abandoned Laboratory",
+            "name_fr": "Laboratoire abandonné",
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "9",
+            "patch": "4.25"
+        },
+        "x2": {
+            "name_en": "Windtorn Cabin",
+            "name_fr": "Réfuge délabré",
+            "zone": "@PLACE.SB.ANEMOS",
+            "eLvlReq": "9",
+            "patch": "4.25"
+        },
+        "x3": {
+            "name_en": "Icepoint",
+            "name_fr": "L'Engelure",
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "20",
+            "patch": "4.36"
+        },
+        "x4": {
+            "name_en": "Vlondette's Retreat",
+            "name_fr": "Villa de Vlondette",
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "21",
+            "patch": "4.36"
+        },
+        "x5": {
+            "name_en": "Geothermal Studies",
+            "name_fr": "Laboratoire de géothermie",
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "23",
+            "patch": "4.36"
+        },
+        "x6": {
+            "name_en": "Gravitational Studies",
+            "name_fr": "Laboratoire d'études antigravitationnelles",
+            "zone": "@PLACE.SB.PAGOS",
+            "eLvlReq": "25",
+            "patch": "4.36"
+        },
+        "x7": {
+            "name_en": "Northpoint",
+            "name_fr": "Le Septentrion",
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "35",
+            "patch": "4.45"
+        },
+        "x8": {
+            "name_en": "The Dragon Star Observatory",
+            "name_fr": "Observatoire de l'étoile du dragon",
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "37",
+            "patch": "4.45"
+        },
+        "x9": {
+            "name_en": "The Firing Chamber",
+            "name_fr": "Site d'expérimentations calorifuges",
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "39",
+            "patch": "4.45"
+        },
+        "x10": {
+            "name_en": "Carbonatite Quarry",
+            "name_fr": "Carrière de carbonatite",
+            "zone": "@PLACE.SB.PYROS",
+            "eLvlReq": "41",
+            "patch": "4.45"
+        },
+        "x11": {
+            "name_en": "Central Point",
+            "name_fr": "Le Mitan",
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "50",
+            "patch": "4.55"
+        },
+        "x12": {
+            "name_en": "Unverified Research",
+            "name_fr": "Ancien atelier de recherche",
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "51",
+            "patch": "4.55"
+        },
+        "x13": {
+            "name_en": "Dormitory",
+            "name_fr": "Dortoir en ruine",
+            "zone": "@PLACE.SB.HYDATOS",
+            "eLvlReq": "55",
+            "patch": "4.55"
+        }
+    }
+}

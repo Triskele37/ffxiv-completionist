@@ -4,133 +4,176 @@
     "groupNameShort": "@EXPANSION.ARR",
     "tasks": {
         "x93": {
-            "level": "50",
             "name_en": "The Binding Coil of Bahamut - Turn 1",
             "name_fr": "Le Labyrinthe de Bahamut I",
-            "unlock": "q.66695"
+            "level": "50",
+            "unlock": "q.66695",
+            "patch": "2.0",
+            "cPrev": ["q.66695"]
         },
         "x94": {
-            "level": "50",
             "name_en": "The Binding Coil of Bahamut - Turn 2",
             "name_fr": "Le Labyrinthe de Bahamut II",
-            "unlock": "q.66695"
+            "level": "50",
+            "unlock": "q.66695",
+            "patch": "2.0",
+            "cPrev": ["q.66695"]
         },
         "x95": {
-            "level": "50",
             "name_en": "The Binding Coil of Bahamut - Turn 3",
             "name_fr": "Le Labyrinthe de Bahamut III",
-            "unlock": "q.66695"
+            "level": "50",
+            "unlock": "q.66695",
+            "patch": "2.0",
+            "cPrev": ["q.66695"]
         },
         "x96": {
-            "level": "50",
             "name_en": "The Binding Coil of Bahamut - Turn 4",
             "name_fr": "Le Labyrinthe de Bahamut IV",
-            "unlock": "q.66695"
+            "level": "50",
+            "unlock": "q.66695",
+            "patch": "2.0",
+            "cPrev": ["q.66695"]
         },
         "x97": {
-            "level": "50",
             "name_en": "The Binding Coil of Bahamut - Turn 5",
             "name_fr": "Le Labyrinthe de Bahamut V",
+            "level": "50",
             "unlock": "q.66695",
+            "patch": "2.0",
+            "cPrev": ["q.66695"],
+            "cNext": ["q.66696"],
             "cSiblings": ["a.747"]
         },
         "x98": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut - Turn 1",
             "name_fr": "Les Méandres de Bahamut I",
-            "unlock": "q.66849"
+            "level": "50",
+            "unlock": "q.66849",
+            "patch": "2.25",
+            "cPrev": ["q.66849"]
         },
         "x99": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut - Turn 2",
             "name_fr": "Les Méandres de Bahamut II",
-            "unlock": "q.66849"
+            "level": "50",
+            "unlock": "q.66849",
+            "patch": "2.25",
+            "cPrev": ["q.66849"]
         },
         "x100": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut - Turn 3",
             "name_fr": "Les Méandres de Bahamut III",
-            "unlock": "q.66849"
+            "level": "50",
+            "unlock": "q.66849",
+            "patch": "2.25",
+            "cPrev": ["q.66849"]
         },
         "x101": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut - Turn 4",
             "name_fr": "Les Méandres de Bahamut IV",
+            "level": "50",
             "unlock": "q.66849",
+            "patch": "2.25",
+            "cPrev": ["q.66849"],
+            "cNext": ["q.66850"],
             "cSiblings": ["a.887"]
         },
         "x107": {
-            "level": "50",
             "name_en": "The Final Coil of Bahamut - Turn 1",
             "name_fr": "L'Abîme de Bahamut I",
-            "unlock": "q.65579"
+            "level": "50",
+            "unlock": "q.65579",
+            "patch": "2.4",
+            "cPrev": ["q.65579"]
         },
         "x108": {
-            "level": "50",
             "name_en": "The Final Coil of Bahamut - Turn 2",
             "name_fr": "L'Abîme de Bahamut II",
-            "unlock": "q.65579"
+            "level": "50",
+            "unlock": "q.65579",
+            "patch": "2.4",
+            "cPrev": ["q.65579"]
         },
         "x109": {
-            "level": "50",
             "name_en": "The Final Coil of Bahamut - Turn 3",
             "name_fr": "L'Abîme de Bahamut III",
-            "unlock": "q.65579"
+            "level": "50",
+            "unlock": "q.65579",
+            "patch": "2.4",
+            "cPrev": ["q.65579"]
         },
         "x110": {
-            "level": "50",
             "name_en": "The Final Coil of Bahamut - Turn 4",
             "name_fr": "L'Abîme de Bahamut IV",
+            "level": "50",
             "unlock": "q.65579",
+            "patch": "2.4",
+            "cPrev": ["q.65579"],
+            "cNext": ["q.65580"],
             "cSiblings": ["a.1040"]
         },
         "x103": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut (Savage) - Turn 1",
             "name_fr": "Les Méandres de Bahamut I (sadique)",
+            "level": "50",
             "unlock": "q.67095",
+            "patch": "2.3",
+            "cPrev": ["q.67095"],
             "cSiblings": ["a.997"]
         },
         "x104": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut (Savage) - Turn 2",
             "name_fr": "Les Méandres de Bahamut II (sadique)",
+            "level": "50",
             "unlock": "q.67095",
+            "patch": "2.3",
+            "cPrev": ["q.67095"],
             "cSiblings": ["a.998"]
         },
         "x105": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut (Savage) - Turn 3",
             "name_fr": "Les Méandres de Bahamut III (sadique)",
+            "level": "50",
             "unlock": "q.67095",
+            "patch": "2.3",
+            "cPrev": ["q.67095"],
             "cSiblings": ["a.999"]
         },
         "x106": {
-            "level": "50",
             "name_en": "The Second Coil of Bahamut (Savage) - Turn 4",
             "name_fr": "Les Méandres de Bahamut IV (sadique)",
+            "level": "50",
             "unlock": "q.67095",
+            "patch": "2.3",
+            "cPrev": ["q.67095"],
             "cSiblings": ["a.1000"]
         },
         "x92": {
-            "level": "50",
             "name_en": "The Labyrinth of the Ancients",
             "name_fr": "La Tour de Cristal - Dédale antique",
+            "level": "50",
             "unlock": "q.66738",
+            "patch": "2.0",
+            "cUnlock": ["q.66738"],
             "cSiblings": ["a.883"]
         },
         "x102": {
-            "level": "50",
             "name_en": "Syrcus Tower",
             "name_fr": "La Tour de Cristal - Tour de Syrcus",
+            "level": "50",
             "unlock": "q.67010",
+            "patch": "2.3",
+            "cUnlock": ["q.67010"],
             "cSiblings": ["a.995"]
         },
         "x111": {
-            "level": "50",
             "name_en": "The World of Darkness",
             "name_fr": "La Tour de Cristal - Monde des Ténèbres",
+            "level": "50",
             "unlock": "q.66030",
+            "patch": "2.5",
+            "cUnlock": ["q.66030"],
             "cSiblings": ["a.1068"]
         }
     }

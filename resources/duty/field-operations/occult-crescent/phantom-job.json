@@ -1,0 +1,212 @@
+{
+    "key": "phantom-job",
+    "groupName_en": "Phantom Job",
+    "groupName_fr": "Phantom Job",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Phantom Freelancer",
+            "name_fr": "Freelance fantôme",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 24
+        },
+        "x1": {
+            "name_en": "Phantom Knight",
+            "name_fr": "Paladin fantôme",
+            "source": "q.70848",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x2": {
+            "name_en": "Phantom Berserker",
+            "name_fr": "Berserker fantôme",
+            "source": "duty.field-operations.occult-crescent.events.35",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x3": {
+            "name_en": "Phantom Monk",
+            "name_fr": "Moine fantôme",
+            "source": "q.70848",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x4": {
+            "name_en": "Phantom Ranger",
+            "name_fr": "Rôdeur fantôme",
+            "source": "duty.field-operations.occult-crescent.events.34",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x5": {
+            "name_en": "Phantom Samurai",
+            "name_fr": "Samouraï fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x6": {
+            "name_en": "Phantom Bard",
+            "name_fr": "Barde fantôme",
+            "source": "q.70848",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x7": {
+            "name_en": "Phantom Geomancer",
+            "name_fr": "Géomancien fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x8": {
+            "name_en": "Phantom Time Mage",
+            "name_fr": "Chronomancien fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x9": {
+            "name_en": "Phantom Cannoneer",
+            "name_fr": "Artilleur fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x10": {
+            "name_en": "Phantom Chemist",
+            "name_fr": "Alchimiste fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x11": {
+            "name_en": "Phantom Oracle",
+            "name_fr": "Devin fantôme",
+            "source": "duty.field-operations.occult-crescent.events.42",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x12": {
+            "name_en": "Phantom Thief",
+            "name_fr": "Voleur fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+            "patch": "7.25",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x13": {
+            "name_en": "Phantom Mystic Knight",
+            "name_fr": "Chevalier mage fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.4",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x14": {
+            "name_en": "Phantom Gladiator",
+            "name_fr": "Gladiateur fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+            "patch": "7.4",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x15": {
+            "name_en": "Phantom Dancer",
+            "name_fr": "Danseur fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+            "patch": "7.4",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x16": {
+            "name_en": "Phantom Ninja",
+            "name_fr": "Ninja fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x17": {
+            "name_en": "Phantom White Mage",
+            "name_fr": "Mage blanc fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x18": {
+            "name_en": "Phantom Black Mage",
+            "name_fr": "Mage noir fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x19": {
+            "name_en": "Phantom Dragoon",
+            "name_fr": "Chevalier dragon fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x20": {
+            "name_en": "Phantom Summoner",
+            "name_fr": "Invocateur fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 5
+        },
+        "x21": {
+            "name_en": "Phantom Blue Mage",
+            "name_fr": "Mage bleu fantôme",
+            "source": "duty.field-operations.occult-crescent.events.59",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x22": {
+            "name_en": "Phantom Red Mage",
+            "name_fr": "Mage rouge fantôme",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 6
+        },
+        "x23": {
+            "name_en": "Phantom Necromancer",
+            "name_fr": "Nécromancien fantôme",
+            "source": "duty.field-operations.occult-crescent.events.57",
+            "patch": "7.55",
+            "minValue": 0,
+            "maxValue": 5
+        }
+    }
+}

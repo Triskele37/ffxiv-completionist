@@ -1,0 +1,50 @@
+<div id="app">
+    @if(loading) {
+        <div id="loading-modal">
+            {{modalText}}
+        </div>
+    }
+
+    <div class="left-container">
+        <com-nav-drawer></com-nav-drawer>
+        <com-search-bar></com-search-bar>
+        <div class="drawer-footer">
+            <button
+                data-active-help="APP.ACTIVE_HELP.ACTIVE_HELP"
+                pButton
+                class="active-help-toggle"
+                (click)="toggleActiveHelp()"
+            >
+                @let icon = activeHelpEnabled ? 'mi-help-outline' : 'mi-help';
+                <i class="mi {{icon}}"></i>
+            </button>
+
+            <div
+                data-active-help="APP.ACTIVE_HELP.MISC.VERSION"
+                class="version"
+            >
+                {{'APP.VERSION' | translate}} {{version}}
+            </div>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <com-summary-header></com-summary-header>
+        <com-nav-bar></com-nav-bar>
+
+        <com-main-content></com-main-content>
+    </div>
+</div>
+
+@let chainViewerTask = svcChainViewer.task();
+@if(chainViewerTask) {
+    <com-chain-viewer [task]="chainViewerTask"></com-chain-viewer>
+}
+
+@if(activeHelpEnabled) {
+    <com-active-help></com-active-help>
+}
+
+<p-toast
+    position="top-left"
+></p-toast>

@@ -4,33 +4,33 @@
     "groupName_fr": "L'appel du néant",
     "tasks": {
         "x69522": {
-            "level": 80,
             "name_en": "The Hero's Journey",
             "name_fr": "Retour vers les reflets",
+            "level": 80,
             "npc_en": "Cyella",
             "npc_fr": "Cyella",
-            "cNext": ["q.69523"],
-            "patch": "5.4"
+            "patch": "5.4",
+            "cNext": ["q.69523"]
         },
         "x69523": {
-            "level": 80,
             "name_en": "One Step Closer",
             "name_fr": "Un déjà-vu troublant",
+            "level": 80,
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
+            "patch": "5.4",
             "cPrev": ["q.69522"],
-            "cNext": ["q.69524"],
-            "patch": "5.4"
+            "cNext": ["q.69524"]
         },
         "x69524": {
-            "level": 80,
             "name_en": "A Bounty of Hunters",
             "name_fr": "Le héros en formation",
+            "level": 80,
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
+            "patch": "5.4",
             "cPrev": ["q.69523"],
-            "cSiblings": ["a.2715"],
-            "patch": "5.4"
+            "cSiblings": ["a.2715"]
         }
     }
 }

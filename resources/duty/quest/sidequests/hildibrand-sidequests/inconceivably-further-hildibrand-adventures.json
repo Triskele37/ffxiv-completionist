@@ -4,13 +4,92 @@
     "groupName_fr": "Hildibrand, le retour (Dawntrail)",
     "tasks": {
         "x70728": {
-            "cPrev": ["q.70336", "q.70495"],
-            "level": 100,
             "name_en": "The Case of the Displaced Inspector",
             "name_fr": "Dur comme un œuf",
+            "level": 100,
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
-            "patch": "7.15"
+            "patch": "7.15",
+            "cPrev": ["q.70336", "q.70495"]
+        },
+        "x70831": {
+            "name_en": "Wizened Testimony",
+            "name_fr": "Les temps comme les œufs sont durs",
+            "level": 100,
+            "npc_en": "Nashu Mhakaracca",
+            "npc_fr": "Nashu Mhakaracca",
+            "patch": "7.25",
+            "cPrev": ["q.70728"],
+            "cNext": ["q.70832"]
+        },
+        "x70832": {
+            "name_en": "The Case of the Fiendish Fugitives",
+            "name_fr": "N'a-qu'un-œuf",
+            "level": 100,
+            "npc_en": "Hardiboiled",
+            "npc_fr": "Hildibrut",
+            "patch": "7.25",
+            "cPrev": ["q.70831"],
+            "cNext": ["q.70914"]
+        },
+        "x70914": {
+            "name_en": "A Vandal in the Wild",
+            "name_fr": "Le Bon, le Brut et le Vandale",
+            "level": 100,
+            "npc_en": "Hardiboiled",
+            "npc_fr": "Hildibrut",
+            "patch": "7.35",
+            "cPrev": ["q.70832"],
+            "cNext": ["q.70915"]
+        },
+        "x70915": {
+            "name_en": "On the Trail of Destruction",
+            "name_fr": "Le passé est un œuf cassé",
+            "level": 100,
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "patch": "7.35",
+            "cPrev": ["q.70914"],
+            "cNext": ["q.70982"]
+        },
+        "x70982": {
+            "name_en": "A Need for Speed",
+            "name_fr": "Un destrier flambant n'œuf",
+            "level": 100,
+            "npc_en": "Hardiboiled",
+            "npc_fr": "Hildibrut",
+            "patch": "7.45",
+            "cPrev": ["q.70915"],
+            "cNext": ["q.70983"]
+        },
+        "x70983": {
+            "name_en": "Meteorites and Meteor-wrongs",
+            "name_fr": "Œuf qui roule n'amasse pas maousse",
+            "level": 100,
+            "npc_en": "Hildibrand",
+            "npc_fr": "Hildibrand",
+            "patch": "7.45",
+            "cPrev": ["q.70982"],
+            "cNext": ["q.71017"]
+        },
+        "x71017": {
+            "name_en": "Detecting a Lead",
+            "name_fr": "Double enquête, double omelette",
+            "level": 100,
+            "npc_en": "Hardiboiled",
+            "npc_fr": "Hildibrut",
+            "patch": "7.55",
+            "cPrev": ["q.70983"],
+            "cNext": ["q.71018"]
+        },
+        "x71018": {
+            "name_en": "Clotted Crime",
+            "name_fr": "Les deux durs à cuire",
+            "level": 100,
+            "npc_en": "Hardiboiled",
+            "npc_fr": "Hildibrut",
+            "patch": "7.55",
+            "cPrev": ["q.71017"]
         }
     }
 }

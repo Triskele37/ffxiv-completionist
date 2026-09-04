@@ -4,333 +4,365 @@
     "groupName_fr": "Idyllée",
     "tasks": {
         "x67086": {
-            "level": 1,
             "name_en": "Fiery Wings, Fiery Hearts",
             "name_fr": "Une brûlante amitié",
-            "unlock": "mo.105",
+            "level": 1,
             "npc_en": "Walking Atlas",
             "npc_fr": "Aventurier Improvisé Guide",
+            "unlock": "mo.105",
+            "patch": "3.5",
             "cPrev": ["mo.90", "mo.104", "mo.76", "mo.77", "mo.98", "mo.78", "mo.75"],
-            "cSiblings": ["a.1694"],
-            "patch": "4.31"
+            "cSiblings": ["a.1694"]
         },
         "x67087": {
-            "level": 60,
             "name_en": "Arms Wide Open",
             "name_fr": "Zhloe Aliapoh et ses commandes spéciales",
+            "level": 60,
             "npc_en": "Geimlona",
             "npc_fr": "Geimlona",
             "unlock_en": "Custom Deliveries: Zhloe Aliapoh",
+            "unlock_fr": "Custom Deliveries: Zhloe Aliapoh",
+            "patch": "3.55",
             "cPrev": ["q.67634"],
             "cNext": ["q.68713"],
-            "cSiblings": ["a.1774"],
-            "patch": "4.31"
+            "cSiblings": ["a.1774"]
         },
         "x68713": {
-            "level": 66,
             "name_en": "Between a Rock and the Hard Place",
             "name_fr": "Adkiragh et ses commandes spéciales",
+            "level": 66,
             "npc_en": "Geimlona",
             "npc_fr": "Geimlona",
             "unlock_en": "Custom Deliveries: Adkiragh",
+            "unlock_fr": "Custom Deliveries: Adkiragh",
+            "patch": "4.5",
             "cPrev": ["q.68089", "q.67087", "q.68294"],
             "cNext": ["q.68714"],
-            "cSiblings": ["a.2183"],
-            "patch": "4.5"
+            "cSiblings": ["a.2183"]
         },
         "x68714": {
-            "level": 66,
             "name_en": "He Ain't Piggy, He's My Brother",
             "name_fr": "Au bord du gouffre et le dos au mur",
+            "level": 66,
             "npc_en": "Melodie",
             "npc_fr": "Melodie",
-            "cPrev": ["q.68713"],
-            "patch": "4.5"
+            "patch": "4.5",
+            "cPrev": ["q.68713"]
         },
         "x67467": {
-            "level": 58,
             "name_en": "Stop Bugging Me",
             "name_fr": "Les insectes ne sont pas nos amis",
+            "level": 58,
             "npc_en": "Woolnix",
             "npc_fr": "Woolnix",
-            "cPrev": ["q.67191"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67191"]
         },
         "x67468": {
-            "level": 58,
             "name_en": "Community Service",
             "name_fr": "Panier percé",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["q.67191"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67191"]
         },
         "x67474": {
-            "level": 58,
             "name_en": "Cry Havoc",
             "name_fr": "D'un revers de Main indigo",
+            "level": 58,
             "npc_en": "Holepix",
             "npc_fr": "Holepix",
-            "cPrev": ["q.67192"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67192"]
         },
         "x67475": {
-            "level": 58,
             "name_en": "Sacking the Foe",
             "name_fr": "Jamais sans mon bric-à-brac",
+            "level": 58,
             "npc_en": "Drydox",
             "npc_fr": "Drydox",
-            "cPrev": ["q.67192"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67192"]
         },
         "x67476": {
-            "level": 58,
             "name_en": "Can You Hear Me Now",
             "name_fr": "Si tu m'embêtes, je t'embêterai aussi",
+            "level": 58,
             "npc_en": "Halfsix",
             "npc_fr": "Halfsix",
-            "cPrev": ["q.67192"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67192"]
         },
         "x67477": {
-            "level": 58,
             "name_en": "A New Leaf",
             "name_fr": "Le bouquet garni",
+            "level": 58,
             "npc_en": "Loudjox",
             "npc_fr": "Loudjox",
-            "cPrev": ["q.67192"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67192"]
         },
         "x67479": {
-            "level": 58,
             "name_en": "Feltsmox Switches Bait",
             "name_fr": "Sortir de la crise avec un nouvel hameçon",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
+            "patch": "3.0",
             "cPrev": ["q.67192", "q.67470"],
-            "cNext": ["q.67496"],
-            "patch": "4.31"
+            "cNext": ["q.67496"]
         },
         "x67481": {
-            "level": 58,
             "name_en": "Ebb and Aetherflow",
             "name_fr": "L'entretien des éthérites",
-            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.11",
+            "level": 58,
             "npc_en": "Halfsix",
             "npc_fr": "Halfsix",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.11",
+            "patch": "3.0",
             "cPrev": ["q.67193"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.11"]
         },
         "x67482": {
-            "level": 58,
             "name_en": "The Vangob Job",
-            "name_fr": "Mort aux machines!",
+            "name_fr": "Mort aux machines !",
+            "level": 58,
             "npc_en": "Holepix",
             "npc_fr": "Holepix",
-            "cPrev": ["q.67193"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67193"]
         },
         "x67493": {
-            "level": 58,
             "name_en": "Many Hands Make Light Checkwork",
             "name_fr": "Gobeline en détresse",
+            "level": 58,
             "npc_en": "Drydox",
             "npc_fr": "Drydox",
+            "patch": "3.0",
             "cPrev": ["q.67194"],
-            "cNext": ["q.67494"],
-            "patch": "4.31"
+            "cNext": ["q.67494"]
         },
         "x67499": {
-            "level": 58,
             "name_en": "Taking Stock",
             "name_fr": "Les voleurs d'Idyllée",
-            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.12",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.12",
+            "patch": "3.0",
             "cPrev": ["q.67194"],
             "cNext": ["q.67500"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.12"]
         },
         "x67498": {
-            "level": 58,
             "name_en": "Watchcogs",
             "name_fr": "La valse des pantins",
+            "level": 58,
             "npc_en": "Woolnix",
             "npc_fr": "Woolnix",
-            "cPrev": ["q.67194"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67194"]
         },
         "x67471": {
-            "level": 58,
             "name_en": "The Pick of the Bunch",
             "name_fr": "Mauvais client, bonne pioche",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67193"],
-            "cNext": ["q.67473", "q.67478"],
-            "patch": "4.31"
+            "cNext": ["q.67473", "q.67478"]
         },
         "x67478": {
-            "level": 58,
             "name_en": "Administrative Difficulties",
             "name_fr": "Le Gobelin et la Main",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67193", "q.67471", "q.67473"],
-            "cNext": ["q.67480"],
-            "patch": "4.31"
+            "cNext": ["q.67480"]
         },
         "x67484": {
-            "level": 58,
             "name_en": "Red Tape",
             "name_fr": "Dans les règles de l'art",
+            "level": 58,
             "npc_en": "Dripwix",
             "npc_fr": "Dripwix",
+            "patch": "3.0",
             "cPrev": ["q.67193", "q.67480"],
-            "cNext": ["q.67485"],
-            "patch": "4.31"
+            "cNext": ["q.67485"]
         },
         "x67485": {
-            "level": 58,
             "name_en": "The Golden Rule",
             "name_fr": "Quasi-retour aux sources",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67193", "q.67484"],
-            "cNext": ["q.67486"],
-            "patch": "4.31"
+            "cNext": ["q.67486"]
         },
         "x67486": {
-            "level": 58,
             "name_en": "The New Arrivals",
             "name_fr": "Les deux nouveaux",
+            "level": 58,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67485"],
-            "cNext": ["q.67487", "q.67488"],
-            "patch": "4.31"
+            "cNext": ["q.67487", "q.67488"]
         },
         "x67487": {
-            "level": 58,
             "name_en": "Notched Bone's Suspicions",
             "name_fr": "La suspicion de Notched Bone",
+            "level": 58,
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67486"],
-            "cNext": ["q.67489"],
-            "patch": "4.31"
+            "cNext": ["q.67489"]
         },
         "x67488": {
-            "level": 58,
             "name_en": "Dedean's Doubts",
             "name_fr": "Les soupçons de Dedean",
+            "level": 58,
             "npc_en": "Dedean",
             "npc_fr": "Dedean",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67486"],
-            "cNext": ["q.67489"],
-            "patch": "4.31"
+            "cNext": ["q.67489"]
         },
         "x67489": {
-            "level": 58,
             "name_en": "Lean and Hungry Gentlemen",
             "name_fr": "La faim justifie les moyens",
+            "level": 58,
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67487", "q.67488"],
-            "cNext": ["q.67490"],
-            "patch": "4.31"
+            "cNext": ["q.67490"]
         },
         "x67490": {
-            "level": 58,
             "name_en": "Private Investigations",
             "name_fr": "Un Gobelin très louche",
+            "level": 58,
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67489"],
-            "cNext": ["q.67491"],
-            "patch": "4.31"
+            "cNext": ["q.67491"]
         },
         "x67491": {
-            "level": 58,
             "name_en": "Ancient Goblin Secrets",
             "name_fr": "Des techniques incroyables",
+            "level": 58,
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
+            "patch": "3.0",
             "cPrev": ["q.67194", "q.67490"],
-            "cNext": ["q.67492"],
-            "patch": "4.31"
+            "cNext": ["q.67492"]
         },
         "x67492": {
-            "level": 58,
             "name_en": "Cityfriends",
             "name_fr": "Des Gobelins et des humains",
+            "level": 58,
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["q.67194", "q.67491"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67194", "q.67491"]
         },
         "x67657": {
-            "level": 59,
             "name_en": "Top Marks",
             "name_fr": "Ishgard, terre de chasseurs",
+            "level": 59,
             "npc_en": "Yloise",
             "npc_fr": "Yloise",
+            "patch": "3.0",
             "cPrev": ["q.67656"],
-            "cNext": ["q.67658"],
-            "patch": "4.31"
+            "cNext": ["q.67658"]
         },
         "x67654": {
-            "level": 60,
             "name_en": "A Striking Opportunity",
             "name_fr": "Défilé de mannequins",
+            "level": 60,
             "npc_en": "Boisterous Bruiser",
             "npc_fr": "Aventurier Musclé",
             "unlock_en": "Sea, Stone, Sky",
+            "unlock_fr": "Sea, Stone, Sky",
+            "patch": "3.2",
             "cPrev": ["q.67205"],
-            "cNext": ["q.68476", "q.69137", "q.69709"],
-            "patch": "4.31"
+            "cNext": ["q.68476", "q.69137", "q.69709"]
         },
         "x67922": {
-            "level": 60,
             "name_en": "Let Me Gubal That for You",
             "name_fr": "Cherche bibliothécaire",
-            "unlock": "d.196",
+            "level": 60,
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
+            "unlock": "d.196",
+            "patch": "3.4",
             "cPrev": ["q.67205"],
-            "patch": "4.31"
+            "cSiblings": ["d.196"]
         },
         "x67928": {
-            "level": 60,
             "name_en": "Keeping Up with the Aliapohs",
             "name_fr": "Aventures imaginaires",
+            "level": 60,
             "npc_en": "Unctuous Adventurer",
             "npc_fr": "Aventurier Jovial",
-            "unlock_en": "Wondrous Tails",
-            "cNext": ["q.69501"],
-            "patch": "4.31"
+            "unlock": "@CATEGORY.WONDROUS_TAILS",
+            "patch": "3.4",
+            "cNext": ["q.69501"]
         },
         "x67938": {
-            "level": 60,
             "name_en": "The Fires of Sohm Al",
             "name_fr": "Pour le repos des dragons",
-            "unlock": ["d.221", "o.131"],
+            "level": 60,
             "npc_en": "Gossamer Moogle",
             "npc_fr": "Mog Duveteux",
+            "unlock": ["d.221", "o.131"],
+            "patch": "3.5",
             "cPrev": ["q.67205"],
-            "patch": "4.31"
+            "cSiblings": ["d.221"]
         },
         "x69501": {
-            "level": 80,
             "name_en": "Fantastic Mr. Faux",
             "name_fr": "Touchicoti, tournicoton",
+            "level": 80,
             "npc_en": "Painfully Ishgardian Man",
             "npc_fr": "Voyageur Ishgardais",
-            "unlock_en": "Faux Hollows",
-            "cPrev": ["q.67928", "q.69190"],
-            "patch": "5.3"
+            "unlock": [
+                "@CATEGORY.FAUX_HOLLOWS",
+                "d.91011",
+                "d.91010",
+                "d.91009",
+                "d.91008",
+                "d.91007",
+                "d.91006",
+                "d.91005",
+                "d.91004",
+                "d.91003",
+                "d.91002",
+                "d.91001",
+                "d.91000",
+                "d.90999"
+            ],
+            "patch": "5.3",
+            "cPrev": [
+                "q.67928",
+                "q.69190",
+                "d.91007",
+                "d.91002",
+                "d.91003",
+                "d.91004",
+                "d.91005",
+                "d.91006",
+                "d.90999",
+                "d.91000",
+                "d.91001"
+            ]
         }
     }
 }

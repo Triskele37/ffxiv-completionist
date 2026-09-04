@@ -3,15 +3,45 @@
     "groupName_en": "Yok Tural",
     "groupName_fr": "Yok Tural",
     "tasks": {
-        "x0": {
-            "level": "100★",
+        "x788": {
             "name_en": "Ipe Log",
             "name_fr": "Rondin d'ipe",
-            "zone": "@PLACE.KOZAMAUKA",
+            "level": "100 ★",
+            "zone": "@PLACE.DT.KOZAMAUKA",
             "coordinates": "(7, 33)",
             "closestAetheryte": "travel.aetherytes.tural.176",
             "nodeTimer": "00:00 / 12:00",
             "patch": "7.0"
+        },
+        "x802": {
+            "name_en": "Cordia Log",
+            "name_fr": "Rondin de cordia",
+            "level": "100 ★★",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "coordinates": "(36, 22)",
+            "closestAetheryte": "travel.aetherytes.tural.179",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "7.2"
+        },
+        "x809": {
+            "name_en": "Cordia Sap",
+            "name_fr": "Sève durcie de cordia",
+            "level": "100 ★★",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "coordinates": "(36, 22)",
+            "closestAetheryte": "travel.aetherytes.tural.179",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "7.3"
+        },
+        "x815": {
+            "name_en": "Carnauba Leaf",
+            "name_fr": "Feuille de palmier à cire",
+            "level": "100 ★★★",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "coordinates": "(14.7, 10.2)",
+            "closestAetheryte": "travel.aetherytes.tural.174",
+            "nodeTimer": "04:00 / 16:00",
+            "patch": "7.4"
         }
     }
 }

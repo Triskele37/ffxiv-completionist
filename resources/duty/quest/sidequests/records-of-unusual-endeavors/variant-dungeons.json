@@ -4,67 +4,91 @@
     "groupName_fr": "Donjons à embranchements",
     "tasks": {
         "x70182": {
-            "level": 90,
             "name_en": "A Key to the Past",
             "name_fr": "Sultane en sous-sol",
-            "unlock": "d.868",
+            "level": 90,
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
+            "unlock": ["d.868", "tto.110", "d.878"],
+            "patch": "6.25",
             "cPrev": ["q.70187"],
-            "cNext": ["q.70185"],
-            "patch": "6.28"
+            "cNext": ["q.70185", "d.878"],
+            "cSiblings": ["d.868"]
         },
         "x70185": {
-            "level": 90,
             "name_en": "For Coin, Country, and Comrades",
             "name_fr": "Un secret en héritage",
+            "level": 90,
             "npc_en": "Kokoshu",
             "npc_fr": "Kokoshu",
+            "patch": "6.25",
             "cPrev": ["q.70182"],
-            "cSiblings": ["a.3152"],
-            "patch": "6.28"
+            "cSiblings": ["a.3152"]
         },
         "x70269": {
-            "level": 90,
             "name_en": "Mononoke Aware",
             "name_fr": "Randonnée spirituelle",
-            "unlock": "d.945",
+            "level": 90,
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
+            "unlock": ["d.945", "tto.113", "d.946"],
+            "patch": "6.45",
             "cPrev": ["q.70187"],
-            "cNext": ["q.70270"],
-            "patch": "6.45"
+            "cNext": ["q.70270", "d.946"],
+            "cSiblings": ["d.945"]
         },
         "x70270": {
-            "level": 90,
             "name_en": "Of Price and Ruin",
             "name_fr": "Orphelins d'Orient",
+            "level": 90,
             "npc_en": "Tsubaki",
             "npc_fr": "Tsubaki",
+            "patch": "6.45",
             "cPrev": ["q.70269"],
-            "cSiblings": ["a.3336"],
-            "patch": "6.45"
+            "cSiblings": ["a.3336"]
         },
         "x70325": {
-            "level": 90,
             "name_en": "Stranger from Paradise",
             "name_fr": "L'île du peuple oublié",
-            "unlock": "d.961",
+            "level": 90,
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
+            "unlock": "d.961",
+            "patch": "6.51",
             "cPrev": ["q.70187", "q.70071"],
-            "cNext": ["q.70326"],
-            "patch": "6.51"
+            "cNext": ["q.70326", "d.979"],
+            "cSiblings": ["d.961"]
         },
         "x70326": {
-            "level": 90,
             "name_en": "A Fish a Day",
             "name_fr": "Le cadeau de Matsya",
+            "level": 90,
             "npc_en": "Kalika",
             "npc_fr": "Kalika",
+            "patch": "6.51",
             "cPrev": ["q.70325"],
-            "cSiblings": ["a.3346"],
-            "patch": "6.51"
+            "cSiblings": ["a.3346"]
+        },
+        "x70977": {
+            "name_en": "A Spellbinding Read",
+            "name_fr": "Un livre captivant",
+            "level": 90,
+            "npc_en": "Shallow Moor",
+            "npc_fr": "Shallow Moor",
+            "unlock": ["d.1066", "d.1084"],
+            "patch": "7.45",
+            "cPrev": ["q.70187"],
+            "cNext": ["q.70978", "d.1084"],
+            "cSiblings": ["d.1066"]
+        },
+        "x70978": {
+            "name_en": "Starting a New Chapter",
+            "name_fr": "Une histoire sans fin",
+            "level": 90,
+            "npc_en": "Fyrgeim",
+            "npc_fr": "Fyrgeim",
+            "patch": "7.45",
+            "cPrev": ["q.70977"]
         }
     }
 }

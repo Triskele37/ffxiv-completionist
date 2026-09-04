@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "declaration": false,
+        "module": "commonjs",
+        "moduleResolution": "bundler",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES2022",
+        "types": [
+            "node"
+        ],
+        "lib": [
+            "es2022",
+            "dom"
+        ]
+    },
+    "files": [
+        "main/main.ts"
+    ],
+    "exclude": []
+}

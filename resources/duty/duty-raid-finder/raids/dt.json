@@ -4,75 +4,256 @@
     "groupNameShort": "@EXPANSION.DT",
     "tasks": {
         "x985": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M1",
             "name_fr": "Poids mi-lourds CCA - match 1",
-            "unlock": "q.70497"
+            "level": "100",
+            "unlock": "q.70497",
+            "patch": "7.01",
+            "cUnlock": ["q.70497"]
         },
         "x987": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M2",
             "name_fr": "Poids mi-lourds CCA - match 2",
-            "unlock": "q.70498"
+            "level": "100",
+            "unlock": "q.70498",
+            "patch": "7.01",
+            "cUnlock": ["q.70498"]
         },
         "x989": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M3",
             "name_fr": "Poids mi-lourds CCA - match 3",
-            "unlock": "q.70500"
+            "level": "100",
+            "unlock": "q.70500",
+            "patch": "7.01",
+            "cUnlock": ["q.70500"]
         },
         "x991": {
-            "cSiblings": ["a.3572"],
-            "level": "100",
             "name_en": "AAC Light-heavyweight M4",
             "name_fr": "Poids mi-lourds CCA - match 4",
-            "unlock": "q.70501"
+            "level": "100",
+            "unlock": "q.70501",
+            "patch": "7.01",
+            "cUnlock": ["q.70501"],
+            "cSiblings": ["a.3572"]
+        },
+        "x1019": {
+            "name_en": "AAC Cruiserweight M1",
+            "name_fr": "Poids lourds-légers CCA - match 1",
+            "level": 100,
+            "unlock": "q.70826",
+            "patch": "7.2",
+            "cUnlock": ["q.70826"]
+        },
+        "x1021": {
+            "name_en": "AAC Cruiserweight M2",
+            "name_fr": "Poids lourds-légers CCA - match 2",
+            "level": 100,
+            "unlock": "q.70827",
+            "patch": "7.2",
+            "cUnlock": ["q.70827"]
+        },
+        "x1023": {
+            "name_en": "AAC Cruiserweight M3",
+            "name_fr": "Poids lourds-légers CCA - match 3",
+            "level": 100,
+            "unlock": "q.70828",
+            "patch": "7.2",
+            "cUnlock": ["q.70828"]
+        },
+        "x1025": {
+            "name_en": "AAC Cruiserweight M4",
+            "name_fr": "Poids lourds-légers CCA - match 4",
+            "level": 100,
+            "unlock": "q.70830",
+            "patch": "7.2",
+            "cUnlock": ["q.70830"],
+            "cSiblings": ["a.3627"]
+        },
+        "x1068": {
+            "name_en": "AAC Heavyweight M1",
+            "name_fr": "Poids lourds CCA - match 1",
+            "level": 100,
+            "unlock": "q.70972",
+            "patch": "7.4",
+            "cUnlock": ["q.70972"]
+        },
+        "x1070": {
+            "name_en": "AAC Heavyweight M2",
+            "name_fr": "Poids lourds CCA - match 2",
+            "level": 100,
+            "unlock": "q.70973",
+            "patch": "7.4",
+            "cUnlock": ["q.70973"]
+        },
+        "x1072": {
+            "name_en": "AAC Heavyweight M3",
+            "name_fr": "Poids lourds CCA - match 3",
+            "level": 100,
+            "unlock": "q.70975",
+            "patch": "7.4",
+            "cUnlock": ["q.70975"]
+        },
+        "x1074": {
+            "name_en": "AAC Heavyweight M4",
+            "name_fr": "Poids lourds CCA - match 4",
+            "level": 100,
+            "unlock": "q.70976",
+            "patch": "7.4",
+            "cUnlock": ["q.70976"],
+            "cSiblings": ["a.3865"]
         },
         "x986": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M1 (Savage)",
             "name_fr": "Poids mi-lourds CCA - match 1 (sadique)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70501",
+            "patch": "7.05",
+            "cPrev": ["q.70501"]
         },
         "x988": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M2 (Savage)",
             "name_fr": "Poids mi-lourds CCA - match 2 (sadique)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70501",
+            "patch": "7.05",
+            "cPrev": ["q.70501"]
         },
         "x990": {
-            "level": "100",
             "name_en": "AAC Light-heavyweight M3 (Savage)",
             "name_fr": "Poids mi-lourds CCA - match 3 (sadique)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70501",
+            "patch": "7.05",
+            "cPrev": ["q.70501"]
         },
         "x992": {
-            "cSiblings": ["a.3575"],
-            "level": "100",
             "name_en": "AAC Light-heavyweight M4 (Savage)",
             "name_fr": "Poids mi-lourds CCA - match 4 (sadique)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70501",
+            "patch": "7.05",
+            "cPrev": ["q.70501"],
+            "cSiblings": ["a.3575"]
+        },
+        "x1020": {
+            "name_en": "AAC Cruiserweight M1 (Savage)",
+            "name_fr": "Poids lourds-légers CCA - match 1 (sadique)",
+            "level": 100,
+            "unlock": "q.70830",
+            "patch": "7.2",
+            "cPrev": ["q.70830"]
+        },
+        "x1022": {
+            "name_en": "AAC Cruiserweight M2 (Savage)",
+            "name_fr": "Poids lourds-légers CCA - match 2 (sadique)",
+            "level": 100,
+            "unlock": "q.70830",
+            "patch": "7.2",
+            "cPrev": ["q.70830"]
+        },
+        "x1024": {
+            "name_en": "AAC Cruiserweight M3 (Savage)",
+            "name_fr": "Poids lourds-légers CCA - match 3 (sadique)",
+            "level": 100,
+            "unlock": "q.70830",
+            "patch": "7.2",
+            "cPrev": ["q.70830"]
+        },
+        "x1026": {
+            "name_en": "AAC Cruiserweight M4 (Savage)",
+            "name_fr": "Poids lourds-légers CCA - match 4 (sadique)",
+            "level": 100,
+            "unlock": "q.70830",
+            "patch": "7.2",
+            "cPrev": ["q.70830"],
+            "cSiblings": ["a.3630"]
+        },
+        "x1069": {
+            "name_en": "AAC Heavyweight M1 (Savage)",
+            "name_fr": "Poids lourds CCA - match 1 (sadique)",
+            "level": 100,
+            "unlock": "q.70976",
+            "patch": "7.4",
+            "cPrev": ["q.70976"]
+        },
+        "x1071": {
+            "name_en": "AAC Heavyweight M2 (Savage)",
+            "name_fr": "Poids lourds CCA - match 2 (sadique)",
+            "level": 100,
+            "unlock": "q.70976",
+            "patch": "7.4",
+            "cPrev": ["q.70976"]
+        },
+        "x1073": {
+            "name_en": "AAC Heavyweight M3 (Savage)",
+            "name_fr": "Poids lourds CCA - match 3 (sadique)",
+            "level": 100,
+            "unlock": "q.70976",
+            "patch": "7.4",
+            "cPrev": ["q.70976"]
+        },
+        "x1075": {
+            "name_en": "AAC Heavyweight M4 (Savage)",
+            "name_fr": "Poids lourds CCA - match 4 (sadique)",
+            "level": 100,
+            "unlock": "q.70976",
+            "patch": "7.4",
+            "cPrev": ["q.70976"],
+            "cSiblings": ["a.3868"]
         },
         "x1015": {
-            "cSiblings": ["a.3606"],
-            "level": "100",
             "name_en": "Jeuno: The First Walk",
             "name_fr": "Jeuno - La première perambulation",
-            "unlock": "q.70769"
+            "level": "100",
+            "unlock": "q.70769",
+            "patch": "7.1",
+            "cUnlock": ["q.70769"],
+            "cSiblings": ["a.3606"]
+        },
+        "x1058": {
+            "name_en": "San d'Oria: The Second Walk",
+            "name_fr": "San d'Oria - La deuxième perambulation",
+            "level": 100,
+            "unlock": "q.70862",
+            "patch": "7.3",
+            "cUnlock": ["q.70862"],
+            "cSiblings": ["a.3806"]
+        },
+        "x1117": {
+            "name_en": "Windurst: The Third Walk",
+            "name_fr": "Windurst - La troisième perambulation",
+            "level": 100,
+            "unlock": "q.71015",
+            "patch": "7.5",
+            "cUnlock": ["q.71015"],
+            "cSiblings": ["a.3980"]
         },
         "x1010": {
-            "cSiblings": ["a.3616"],
-            "level": "100",
             "name_en": "The Cloud of Darkness (Chaotic)",
             "name_fr": "La Tour de Ténèbres (chaotique)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70540",
+            "patch": "7.15",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3616"]
         },
         "x1006": {
-            "cSiblings": ["a.3617"],
-            "level": "100",
             "name_en": "Futures Rewritten (Ultimate)",
             "name_fr": "Avenirs réécrits (fatal)",
-            "unlock": ""
+            "level": "100",
+            "unlock": ["d.992", "q.70540"],
+            "patch": "7.11",
+            "cPrev": ["d.992", "q.70540"],
+            "cSiblings": ["a.3617"]
+        },
+        "x1094": {
+            "name_en": "Dancing Mad (Ultimate)",
+            "name_fr": "Danse démente (fatal)",
+            "level": 100,
+            "unlock": ["d.1075", "q.70540"],
+            "patch": "7.51",
+            "cPrev": ["d.1075", "q.70540"],
+            "cSiblings": ["a.4069"]
         }
     }
 }

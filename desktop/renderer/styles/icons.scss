@@ -1,0 +1,54 @@
+@use 'material-icons/css/material-icons' as *;
+@use 'material-icons/iconfont/material-icons' as *;
+
+.material-icons {
+    font-size: calc(var(--font-size) * 1.5);
+}
+
+.i-complete {
+    @extend .material-icons;
+    color: var(--completed);
+    text-shadow: var(--text-color) 0 0 2px;
+
+    &::before {
+        content: "\e5ca"; // .mi-check
+    }
+}
+
+.i-incomplete {
+    @extend .material-icons;
+    color: var(--incomplete);
+    text-shadow: var(--text-color) 0 0 2px;
+
+    &::before {
+        content: "\e5cd"; // .mi-close
+    }
+}
+
+.i-exclude {
+    @extend .material-icons;
+    color: var(--excluded);
+    text-shadow: var(--text-color) 0 0 2px;
+
+    &::before {
+        content: "\e5cd"; // .mi-close
+    }
+}
+
+.i-selected {
+    @extend .material-icons;
+    color: var(--primary-color-text);
+
+    &::before {
+        content: "\e913"; // .mi-touch-app
+    }
+}
+
+.i-arrow {
+    @extend .material-icons;
+    color: var(--primary-color-text);
+
+    &::before {
+        content: "\e941"; // .mi-arrow-right-alt
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "key": "post-dawntrail-main-scenario-quests-ii",
+    "groupName_en": "Post-Dawntrail Main Scenario Quests II",
+    "groupName_fr": "Les machinations des Hivernautes",
+    "tasks": {
+        "x70962": {
+            "name_en": "With the Winds",
+            "name_fr": "Vers la pointe du compas",
+            "level": 100,
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.4",
+            "cPrev": ["q.70909"],
+            "cNext": ["q.70963"]
+        },
+        "x70963": {
+            "name_en": "Through the Thunder",
+            "name_fr": "Nuée noire",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.4",
+            "cPrev": ["q.70962"],
+            "cNext": ["q.70964"]
+        },
+        "x70964": {
+            "name_en": "Beyond the Mountains",
+            "name_fr": "Un continent nébuleux",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "unlock": "d.1064",
+            "patch": "7.4",
+            "cPrev": ["q.70963"],
+            "cNext": ["q.70965"],
+            "cSiblings": ["d.1064"]
+        },
+        "x70965": {
+            "name_en": "Around the City",
+            "name_fr": "Sous le dôme de Tréno",
+            "level": 100,
+            "npc_en": "Lumull",
+            "npc_fr": "Lumull",
+            "patch": "7.4",
+            "cPrev": ["q.70964"],
+            "cNext": ["q.70966"]
+        },
+        "x70966": {
+            "name_en": "To Work",
+            "name_fr": "Frère et sœur",
+            "level": 100,
+            "npc_en": "Lumull",
+            "npc_fr": "Lumull",
+            "patch": "7.4",
+            "cPrev": ["q.70965"],
+            "cNext": ["q.70967"]
+        },
+        "x70967": {
+            "name_en": "In Her Heart",
+            "name_fr": "Les tourments d'une Milalla",
+            "level": 100,
+            "npc_en": "Eyaney",
+            "npc_fr": "Eyaney",
+            "patch": "7.4",
+            "cPrev": ["q.70966"],
+            "cNext": ["q.70968"]
+        },
+        "x70968": {
+            "name_en": "Toward Trouble",
+            "name_fr": "Quelles que soient les difficultés",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.4",
+            "cPrev": ["q.70967"],
+            "cNext": ["q.70969"]
+        },
+        "x70969": {
+            "name_en": "Where We Call Home",
+            "name_fr": "Solidarité entre voisins",
+            "level": 100,
+            "npc_en": "Lumull",
+            "npc_fr": "Lumull",
+            "unlock": "d.1076",
+            "patch": "7.4",
+            "cPrev": ["q.70968"],
+            "cNext": ["q.70970"],
+            "cSiblings": ["d.1076"]
+        },
+        "x70970": {
+            "name_en": "Into the Mist",
+            "name_fr": "Voyage au bout de la brume",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.4",
+            "cPrev": ["q.70969"],
+            "cNext": ["q.71006"]
+        },
+        "x71006": {
+            "name_en": "In Fate's Footsteps",
+            "name_fr": "Le fil rouge du destin",
+            "level": 100,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "7.5",
+            "cPrev": ["q.70970"],
+            "cNext": ["q.71007"]
+        },
+        "x71007": {
+            "name_en": "Two Worlds Entwined",
+            "name_fr": "Deux mondes voisins",
+            "level": 100,
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "unlock": "d.1011",
+            "patch": "7.5",
+            "cPrev": ["q.71006"],
+            "cNext": ["q.71008"],
+            "cSiblings": ["d.1011"]
+        },
+        "x71008": {
+            "name_en": "A Grave Presentiment",
+            "name_fr": "Sombre présage",
+            "level": 100,
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "unlock": "d.1115",
+            "patch": "7.5",
+            "cPrev": ["q.71007"],
+            "cNext": ["q.71005", "q.71009"],
+            "cSiblings": ["d.1115"]
+        },
+        "x71009": {
+            "name_en": "A Beacon from Beyond",
+            "name_fr": "Une lueur naissante, une ombre menaçante",
+            "level": 100,
+            "npc_en": "Zero",
+            "npc_fr": "Zero",
+            "patch": "7.5",
+            "cPrev": ["q.71008"],
+            "cNext": ["q.71010"]
+        },
+        "x71010": {
+            "name_en": "Trail to the Heavens",
+            "name_fr": "Le chemin vers le lointain",
+            "level": 100,
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "patch": "7.5",
+            "cPrev": ["q.71009"]
+        }
+    }
+}

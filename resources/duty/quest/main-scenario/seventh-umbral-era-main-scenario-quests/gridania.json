@@ -4,12 +4,14 @@
     "groupName_fr": "Gridania",
     "tasks": {
         "x65660": {
-            "level": 1,
             "name_en": "Close to Home",
             "name_fr": "Une visite s'impose",
+            "level": 1,
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
             "unlock_en": "Return",
+            "unlock_fr": "Return",
+            "patch": "3.1",
             "cPrev": ["q.65575"],
             "cNext": ["q.65568", "q.65570", "q.65564"],
             "cExclude": ["q.65645", "q.66106"],
@@ -48,220 +50,221 @@
                 "q.65756",
                 "q.65596",
                 "q.65914"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x65564": {
-            "level": 4,
             "name_en": "To the Bannock",
             "name_fr": "Visite au Bannock",
+            "level": 4,
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
+            "patch": "2.0",
             "cPrev": ["q.65660"],
-            "cNext": ["q.65737"],
-            "patch": "4.31"
+            "cNext": ["q.65737"]
         },
         "x65737": {
-            "level": 5,
             "name_en": "Passing Muster",
             "name_fr": "Galfrid le styliste",
+            "level": 5,
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
+            "patch": "2.0",
             "cPrev": ["q.65564"],
-            "cNext": ["q.65981"],
-            "patch": "4.31"
+            "cNext": ["q.65981"]
         },
         "x65981": {
-            "level": 5,
             "name_en": "Chasing Shadows",
             "name_fr": "Chasse à l'ombre",
+            "level": 5,
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
+            "patch": "2.0",
             "cPrev": ["q.65737"],
-            "cNext": ["q.69390"],
-            "patch": "4.31"
+            "cNext": ["q.69390"]
         },
         "x69390": {
-            "level": 7,
             "name_en": "Eggs over Queasy",
             "name_fr": "Mieux vaut prévenir que guérir",
+            "level": 7,
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
+            "patch": "5.3",
             "cPrev": ["q.65981"],
-            "cNext": ["q.65711", "q.65708"],
-            "patch": "5.3"
+            "cNext": ["q.65711", "q.65708"]
         },
         "x65711": {
-            "level": 8,
             "name_en": "Surveying the Damage",
             "name_fr": "À la recherche du matériel perdu",
+            "level": 8,
             "npc_en": "Monranguin",
             "npc_fr": "Monranguin",
+            "patch": "2.0",
             "cPrev": ["q.69390"],
-            "cNext": ["q.65663", "q.69391"],
-            "patch": "4.31"
+            "cNext": ["q.65663", "q.69391"]
         },
         "x69391": {
-            "level": 9,
             "name_en": "A Soldier's Breakfast",
             "name_fr": "Tuer dans l'œuf",
+            "level": 9,
             "npc_en": "Pauline",
             "npc_fr": "Pauline",
+            "patch": "5.3",
             "cPrev": ["q.65711"],
-            "cNext": ["q.65665"],
-            "patch": "5.3"
+            "cNext": ["q.65665"]
         },
         "x65665": {
-            "level": 9,
             "name_en": "Spirithold Broken",
             "name_fr": "Le fantôme de la prison",
+            "level": 9,
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
             "unlock_en": "Inn Rooms",
+            "unlock_fr": "Inn Rooms",
+            "patch": "2.0",
             "cPrev": ["q.69391"],
-            "cNext": ["q.65756", "q.65712"],
-            "patch": "4.31"
+            "cNext": ["q.65756", "q.65712"]
         },
         "x65712": {
-            "level": 10,
             "name_en": "On to Bentbranch",
             "name_fr": "De si jolis chocobos",
+            "level": 10,
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
+            "patch": "2.0",
             "cPrev": ["q.65665"],
-            "cNext": ["q.65912"],
-            "patch": "4.31"
+            "cNext": ["q.65912"]
         },
         "x65912": {
-            "level": 10,
             "name_en": "You Shall Not Trespass",
             "name_fr": "Action, réaction!",
+            "level": 10,
             "npc_en": "Keitha",
             "npc_fr": "Keitha",
+            "patch": "2.0",
             "cPrev": ["q.65712"],
-            "cNext": ["q.65913", "q.65914"],
-            "patch": "4.31"
+            "cNext": ["q.65913", "q.65914"]
         },
         "x65913": {
-            "level": 11,
             "name_en": "Don't Look Down",
             "name_fr": "Menace fongique",
+            "level": 11,
             "npc_en": "Osha Jaab",
             "npc_fr": "Osha Jaab",
+            "patch": "2.0",
             "cPrev": ["q.65912"],
-            "cNext": ["q.65915"],
-            "patch": "4.31"
+            "cNext": ["q.65915"]
         },
         "x65915": {
-            "level": 11,
             "name_en": "In the Grim Darkness of the Forest",
             "name_fr": "L'ombre d'un doute",
+            "level": 11,
             "npc_en": "Theodore",
             "npc_fr": "Theodore",
+            "patch": "2.0",
             "cPrev": ["q.65913"],
-            "cNext": ["q.65916"],
-            "patch": "4.31"
+            "cNext": ["q.65916"]
         },
         "x65916": {
-            "level": 11,
             "name_en": "Threat Level Elevated",
             "name_fr": "Appel à la vigilance",
+            "level": 11,
             "npc_en": "Roseline",
             "npc_fr": "Roseline",
+            "patch": "2.0",
             "cPrev": ["q.65915"],
-            "cNext": ["q.65917"],
-            "patch": "4.31"
+            "cNext": ["q.65917"]
         },
         "x65917": {
-            "level": 12,
             "name_en": "Migrant Marauders",
             "name_fr": "Une mystérieuse créature ailée",
+            "level": 12,
             "npc_en": "Eylgar",
             "npc_fr": "Eylgar",
+            "patch": "2.0",
             "cPrev": ["q.65916"],
-            "cNext": ["q.65920"],
-            "patch": "4.31"
+            "cNext": ["q.65920"]
         },
         "x65920": {
-            "level": 13,
             "name_en": "A Hearer Is Often Late",
             "name_fr": "Entretien avec les esprits",
+            "level": 13,
             "npc_en": "Lothaire",
             "npc_fr": "Lothaire",
+            "patch": "2.0",
             "cPrev": ["q.65917"],
-            "cNext": ["q.65923"],
-            "patch": "4.31"
+            "cNext": ["q.65923"]
         },
         "x65923": {
-            "level": 13,
             "name_en": "Salvaging the Scene",
             "name_fr": "Accident de la route",
+            "level": 13,
             "npc_en": "Armelle",
             "npc_fr": "Armelle",
+            "patch": "2.0",
             "cPrev": ["q.65920"],
-            "cNext": ["q.65697"],
-            "patch": "4.31"
+            "cNext": ["q.65697"]
         },
         "x65697": {
-            "level": 14,
             "name_en": "Leia's Legacy",
             "name_fr": "On achève bien les chocobos",
+            "level": 14,
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
+            "patch": "2.0",
             "cPrev": ["q.65923"],
-            "cNext": ["q.65982"],
-            "patch": "4.31"
+            "cNext": ["q.65982"]
         },
         "x65982": {
-            "level": 14,
             "name_en": "Dread Is in the Air",
             "name_fr": "Mauvais présage",
+            "level": 14,
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
+            "patch": "2.0",
             "cPrev": ["q.65697"],
-            "cNext": ["q.65983"],
-            "patch": "4.31"
+            "cNext": ["q.65983"]
         },
         "x65983": {
-            "level": 14,
             "name_en": "To Guard a Guardian",
             "name_fr": "L'arbre doyen",
+            "level": 14,
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
+            "patch": "2.0",
             "cPrev": ["q.65982"],
-            "cNext": ["q.65984"],
-            "patch": "4.31"
+            "cNext": ["q.65984"]
         },
         "x65984": {
-            "level": 14,
             "name_en": "Festive Endeavors",
             "name_fr": "Avant les réjouissances",
+            "level": 14,
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
-            "cPrev": ["q.65983"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65983"]
         },
         "x65985": {
-            "level": 14,
             "name_en": "Renewing the Covenant",
             "name_fr": "La fête des Spirituales",
+            "level": 14,
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cNext": ["q.66043", "q.66961", "q.66962", "q.66963"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66043", "q.66961", "q.66962", "q.66963"]
         },
         "x66043": {
-            "level": 15,
             "name_en": "The Gridanian Envoy",
             "name_fr": "L'émissaire de Gridania",
+            "level": 15,
             "npc_en": "Kan-E-Senna",
             "npc_fr": "Kan-E-Senna",
+            "unlock": "mi.52",
             "unlock_en": "Airships",
+            "unlock_fr": "Airships",
+            "patch": "2.0",
             "cPrev": ["q.65985"],
             "cNext": ["q.65970", "q.67677", "q.67960", "q.66210", "q.68669", "q.68743", "q.69499", "q.69532", "q.69590"],
-            "cSiblings": ["a.311"],
-            "patch": "4.31",
-            "unlock": "mi.52"
+            "cSiblings": ["a.311"]
         }
     }
 }

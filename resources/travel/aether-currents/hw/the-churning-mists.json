@@ -1,48 +1,57 @@
 {
     "key": "the-churning-mists",
-    "groupName": "@PLACE.THE_CHURNING_MISTS",
+    "groupName": "@PLACE.HW.THE_CHURNING_MISTS",
     "cCombo": ["a.1160"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(29.3, 19.9, 0.5)"
+            "location": "(29.3, 19.9, 0.5)",
+            "patch": "3.0"
         },
         "x6": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(30.9, 35.7, 0.3)"
+            "location": "(30.9, 35.7, 0.3)",
+            "patch": "3.0"
         },
         "x7": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(20.6, 27.0, 0.7)"
+            "location": "(20.6, 27.0, 0.7)",
+            "patch": "3.0"
         },
         "x9": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(7.0, 27.4, 2.0)"
+            "location": "(7.0, 27.4, 2.0)",
+            "patch": "3.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.67355",
-            "cSiblings": ["q.67355"]
+            "cSiblings": ["q.67355"],
+            "patch": "3.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.67371",
-            "cSiblings": ["q.67371"]
+            "cSiblings": ["q.67371"],
+            "patch": "3.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.67359",
-            "cSiblings": ["q.67359"]
+            "cSiblings": ["q.67359"],
+            "patch": "3.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.67364",
-            "cSiblings": ["q.67364"]
+            "cSiblings": ["q.67364"],
+            "patch": "3.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.67170",
-            "cSiblings": ["q.67170"]
+            "cSiblings": ["q.67170"],
+            "patch": "3.0"
         }
     }
 }

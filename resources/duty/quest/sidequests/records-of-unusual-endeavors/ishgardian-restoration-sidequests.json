@@ -4,254 +4,254 @@
     "groupName_fr": "Reconstruction d'Ishgard : quêtes annexes",
     "tasks": {
         "x69373": {
-            "level": 60,
             "name_en": "If Songs Had Wings",
             "name_fr": "Le chant d'une nouvelle ère",
+            "level": 60,
             "npc_en": "Ehll Tou",
             "npc_fr": "Ehll Tou",
+            "patch": "5.21",
             "cPrev": ["q.69264"],
-            "cNext": ["q.69425"],
-            "patch": "5.21"
+            "cNext": ["q.69425"]
         },
         "x69425": {
-            "level": 70,
             "name_en": "O Crafter, My Crafter",
             "name_fr": "Ehll Tou et ses commandes spéciales",
+            "level": 70,
             "npc_en": "Ehll Tou",
             "npc_fr": "Ehll Tou",
             "unlock_en": "Custom Deliveries: Ehll Tou",
             "unlock_fr": "Commandes spéciales: Ehll Tou",
+            "patch": "5.3",
             "cPrev": ["q.69373", "q.67634"],
             "cNext": ["q.69426"],
-            "cSiblings": ["a.2623"],
-            "patch": "5.3"
+            "cSiblings": ["a.2623"]
         },
         "x69426": {
-            "level": 70,
             "name_en": "An Ode to Unity",
             "name_fr": "L'harmonie retrouvée",
+            "level": 70,
             "npc_en": "Ehll Tou",
             "npc_fr": "Ehll Tou",
+            "patch": "5.3",
             "cPrev": ["q.69425"],
-            "cNext": ["q.69427"],
-            "patch": "5.3"
+            "cNext": ["q.69427"]
         },
         "x69427": {
-            "level": 70,
             "name_en": "On Ehll Tou's Wings",
             "name_fr": "À vol de dragonnette",
-            "unlock": "mo.230",
+            "level": 70,
             "npc_en": "Hautdilong",
             "npc_fr": "Hautdilong",
-            "cPrev": ["q.69426"],
-            "patch": "5.3"
+            "unlock": "mo.230",
+            "patch": "5.3",
+            "cPrev": ["q.69426"]
         },
         "x69374": {
-            "level": 60,
             "name_en": "Adventurers and Admirers",
             "name_fr": "Aventuriers et admirateurs",
+            "level": 60,
             "npc_en": "Earnest Adventurer",
             "npc_fr": "Aventurière Sérieuse",
+            "patch": "5.21",
             "cPrev": ["q.69264", "q.67792"],
-            "cNext": ["q.69498"],
-            "patch": "5.21"
+            "cNext": ["q.69498"]
         },
         "x69498": {
-            "level": 60,
             "name_en": "Calling All Adventurers",
             "name_fr": "Une guilde pour les associer tous",
+            "level": 60,
             "npc_en": "Philestiaux",
             "npc_fr": "Philestiaux",
-            "cPrev": ["q.69494", "q.69374"],
-            "patch": "5.31"
+            "patch": "5.31",
+            "cPrev": ["q.69494", "q.69374"]
         },
         "x69497": {
-            "level": 60,
             "name_en": "A Gathering of Gaelicats",
             "name_fr": "De maréchal à missionnaire",
+            "level": 60,
             "npc_en": "House Haillenarte Soldier",
             "npc_fr": "Soldat Des Haillenarte",
-            "cPrev": ["q.69494"],
-            "patch": "5.31"
+            "patch": "5.31",
+            "cPrev": ["q.69494"]
         },
         "x69540": {
-            "level": 60,
             "name_en": "Of Steam, Sweat, and Water",
             "name_fr": "L'étiquette des Bains floconneux",
+            "level": 60,
             "npc_en": "Blissful Bather",
             "npc_fr": "Amateur De Bains Chauds",
-            "cPrev": ["q.69538"],
-            "patch": "5.41"
+            "patch": "5.41",
+            "cPrev": ["q.69538"]
         },
         "x69541": {
-            "level": 60,
             "name_en": "Swords to Plowshares",
             "name_fr": "Détonante reconversion",
+            "level": 60,
             "npc_en": "Edilaude",
             "npc_fr": "Edilaude",
-            "cPrev": ["q.69538"],
-            "patch": "5.41"
+            "patch": "5.41",
+            "cPrev": ["q.69538"]
         },
         "x69542": {
-            "level": 60,
             "name_en": "Planting the Seed",
             "name_fr": "Urbanité azuréenne",
+            "level": 60,
             "npc_en": "Small Sack",
             "npc_fr": "Petit Sac",
-            "cPrev": ["q.69538"],
-            "patch": "5.41"
+            "patch": "5.41",
+            "cPrev": ["q.69538"]
         },
         "x69496": {
-            "level": 60,
             "name_en": "The Brume Lifts",
             "name_fr": "Un vent de renouveau commercial",
+            "level": 60,
             "npc_en": "Charlemend De Durendaire",
             "npc_fr": "Comte Charlemend De Durendaire",
+            "patch": "5.31",
             "cPrev": ["q.69494"],
-            "cNext": ["q.69615"],
-            "patch": "5.31"
+            "cNext": ["q.69615"]
         },
         "x69615": {
-            "level": 70,
             "name_en": "You Can Count on It",
             "name_fr": "Le comte de Durendaire et ses commandes spéciales",
+            "level": 70,
             "npc_en": "Francel",
             "npc_fr": "Francel",
             "unlock_en": "Custom Deliveries: Charlemend",
             "unlock_fr": "Custom Deliveries: Charlemend",
+            "patch": "5.5",
             "cPrev": ["q.69538", "q.69496", "q.67634"],
             "cNext": ["q.69616"],
-            "cSiblings": ["a.2835"],
-            "patch": "5.5"
+            "cSiblings": ["a.2835"]
         },
         "x69616": {
-            "level": 70,
             "name_en": "Those Who Serve",
             "name_fr": "Un futur main dans la main",
+            "level": 70,
             "npc_en": "Maurilette",
             "npc_fr": "Maurilette",
-            "cPrev": ["q.69615"],
-            "patch": "5.5"
+            "patch": "5.5",
+            "cPrev": ["q.69615"]
         },
         "x69375": {
-            "level": 60,
             "name_en": "Shadow over the Orphanage",
             "name_fr": "Peur sur l'orphelinat",
+            "level": 60,
             "npc_en": "Ruffled Resident",
             "npc_fr": "Demoiselle Fébrile",
+            "patch": "5.21",
             "cPrev": ["q.69264"],
-            "cNext": ["q.69376"],
-            "patch": "5.21"
+            "cNext": ["q.69376"]
         },
         "x69376": {
-            "level": 60,
             "name_en": "Small Hands, Big Hearts",
             "name_fr": "Les doyens de l'orphelinat",
+            "level": 60,
             "npc_en": "Peyraquile",
             "npc_fr": "Peyraquile",
+            "patch": "5.21",
             "cPrev": ["q.69375"],
-            "cNext": ["q.69495"],
-            "patch": "5.21"
+            "cNext": ["q.69495"]
         },
         "x69495": {
-            "level": 60,
             "name_en": "A Fashionable Friendship",
             "name_fr": "Couture de classe",
+            "level": 60,
             "npc_en": "Peyraquile",
             "npc_fr": "Peyraquile",
+            "patch": "5.31",
             "cPrev": ["q.69494", "q.69376"],
-            "cNext": ["q.69539"],
-            "patch": "5.31"
+            "cNext": ["q.69539"]
         },
         "x69539": {
-            "level": 60,
             "name_en": "Warm Hands, Warm Hearts",
             "name_fr": "Les trois font la paire",
+            "level": 60,
             "npc_en": "Peyraquile",
             "npc_fr": "Peyraquile",
-            "cPrev": ["q.69538", "q.69495"],
-            "patch": "5.41"
+            "patch": "5.41",
+            "cPrev": ["q.69538", "q.69495"]
         },
         "x69384": {
-            "level": 80,
             "name_en": "Mislaid Plans",
             "name_fr": "Un projet en acier trempé",
+            "level": 80,
             "npc_en": "Skysteel Engineer",
             "npc_fr": "Ingénieur de la Manufacture",
+            "patch": "5.25",
             "cPrev": ["q.69208"],
-            "cNext": ["q.69385"],
-            "patch": "5.25"
+            "cNext": ["q.69385"]
         },
         "x69385": {
-            "level": 80,
             "name_en": "Work It Harder, Make It Better",
             "name_fr": "Les outils rivés au ciel",
+            "level": 80,
             "npc_en": "Neillemard",
             "npc_fr": "Neillemard",
+            "patch": "5.25",
             "cPrev": ["q.69384"],
             "cNext": ["q.69428"],
-            "cSiblings": ["a.2568"],
-            "patch": "5.25"
+            "cSiblings": ["a.2568"]
         },
         "x69428": {
-            "level": 80,
             "name_en": "In Everyone's Best Interests",
             "name_fr": "Une collaboratrice qui ne perd pas le nord",
+            "level": 80,
             "npc_en": "Neillemard",
             "npc_fr": "Neillemard",
+            "patch": "5.35",
             "cPrev": ["q.69385"],
-            "cNext": ["q.69429"],
-            "patch": "5.35"
+            "cNext": ["q.69429"]
         },
         "x69429": {
-            "level": 80,
             "name_en": "Ever Skyward",
             "name_fr": "Des outils tels des étoiles",
+            "level": 80,
             "npc_en": "Nimie",
             "npc_fr": "Nimie",
+            "patch": "5.35",
             "cPrev": ["q.69428"],
-            "cNext": ["q.69430"],
-            "patch": "5.35"
+            "cNext": ["q.69430"]
         },
         "x69430": {
-            "level": 80,
             "name_en": "The Tools of Tomorrow",
             "name_fr": "Un ciel nouveau à l'horizon",
+            "level": 80,
             "npc_en": "Nimie",
             "npc_fr": "Nimie",
+            "patch": "5.35",
             "cPrev": ["q.69429"],
-            "cNext": ["q.69518"],
-            "patch": "5.35"
+            "cNext": ["q.69518"]
         },
         "x69518": {
-            "level": 80,
             "name_en": "Oddness in the End",
             "name_fr": "La perfection faite outil",
+            "level": 80,
             "npc_en": "Neillemard",
             "npc_fr": "Neillemard",
+            "patch": "5.45",
             "cPrev": ["q.69430"],
-            "cNext": ["q.69519"],
-            "patch": "5.45"
+            "cNext": ["q.69519"]
         },
         "x69519": {
-            "level": 80,
             "name_en": "The Pinnacle of Possibility",
             "name_fr": "Amélioration ultime",
+            "level": 80,
             "npc_en": "Emeny",
             "npc_fr": "Emeny",
+            "patch": "5.45",
             "cPrev": ["q.69518"],
-            "cNext": ["q.69520"],
-            "patch": "5.45"
+            "cNext": ["q.69520"]
         },
         "x69520": {
-            "level": 80,
             "name_en": "Greater Heights",
             "name_fr": "Vers de nouveaux cieux d'acier",
+            "level": 80,
             "npc_en": "Joellie",
             "npc_fr": "Joellie",
+            "patch": "5.45",
             "cPrev": ["q.69519"],
-            "cSiblings": ["a.2798"],
-            "patch": "5.45"
+            "cSiblings": ["a.2798"]
         }
     }
 }

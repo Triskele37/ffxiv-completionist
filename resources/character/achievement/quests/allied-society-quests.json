@@ -8,8 +8,8 @@
             "name_fr": "Couver sous les cendres I",
             "description_en": "Attain rank 1 reputation (neutral) with the Brotherhood of Ash.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Amalj'aa de la Ligue des cendres.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.1",
             "cNext": ["a.864"],
             "cSiblings": ["character.character.societal-relations.0"]
         },
@@ -18,8 +18,8 @@
             "name_fr": "Couver sous les cendres II",
             "description_en": "Attain rank 2 reputation (recognized) with the Brotherhood of Ash.",
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Amalj'aa de la Ligue des cendres.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.1",
             "cPrev": ["a.863"],
             "cNext": ["a.865"],
             "cSiblings": ["character.character.societal-relations.1"]
@@ -29,8 +29,8 @@
             "name_fr": "Couver sous les cendres III",
             "description_en": "Attain rank 3 reputation (friendly) with the Brotherhood of Ash.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Amalj'aa de la Ligue des cendres.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.1",
             "cPrev": ["a.864"],
             "cNext": ["a.866"],
             "cSiblings": ["character.character.societal-relations.2"]
@@ -40,9 +40,9 @@
             "name_fr": "Mettre en cendres",
             "description_en": "Attain rank 4 reputation (trusted) with the Brotherhood of Ash.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Amalj'aa de la Ligue des cendres.",
+            "points": 20,
             "reward": "t.145",
             "patch": "2.1",
-            "points": 20,
             "cPrev": ["a.865"],
             "cSiblings": ["character.character.societal-relations.3", "t.145"]
         },
@@ -51,8 +51,8 @@
             "name_fr": "Aide du Refuge I",
             "description_en": "Attain rank 1 reputation (neutral) with the sylphs of Little Solace.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Sylphes du Refuge.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.1",
             "cNext": ["a.868"],
             "cSiblings": ["character.character.societal-relations.5"]
         },
@@ -61,8 +61,8 @@
             "name_fr": "Aide du Refuge II",
             "description_en": "Attain rank 2 reputation (recognized) with the sylphs of Little Solace.",
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Sylphes du Refuge.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.1",
             "cPrev": ["a.867"],
             "cNext": ["a.869"],
             "cSiblings": ["character.character.societal-relations.6"]
@@ -72,8 +72,8 @@
             "name_fr": "Aide du Refuge III",
             "description_en": "Attain rank 3 reputation (friendly) with the sylphs of Little Solace.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Sylphes du Refuge.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.1",
             "cPrev": ["a.868"],
             "cNext": ["a.870"],
             "cSiblings": ["character.character.societal-relations.7"]
@@ -83,9 +83,9 @@
             "name_fr": "Pilier du Refuge",
             "description_en": "Attain rank 4 reputation (trusted) with the sylphs of Little Solace.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Sylphes du Refuge.",
+            "points": 20,
             "reward": "t.146",
             "patch": "2.1",
-            "points": 20,
             "cPrev": ["a.869"],
             "cSiblings": ["character.character.societal-relations.8", "t.146"]
         },
@@ -94,8 +94,8 @@
             "name_fr": "789e désordre I",
             "description_en": "Attain rank 1 reputation (neutral) with the 789th Order kobolds.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Kobolds du 789e ordre.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cNext": ["a.905"],
             "cSiblings": ["character.character.societal-relations.10"]
         },
@@ -104,8 +104,8 @@
             "name_fr": "789e désordre II",
             "description_en": "Attain rank 2 reputation (recognized) with the 789th Order kobolds.",
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Kobolds du 789e ordre.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cPrev": ["a.904"],
             "cNext": ["a.906"],
             "cSiblings": ["character.character.societal-relations.11"]
@@ -115,8 +115,8 @@
             "name_fr": "789e désordre III",
             "description_en": "Attain rank 3 reputation (friendly) with the 789th Order kobolds.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Kobolds du 789e ordre.",
-            "patch": "2.2",
             "points": 10,
+            "patch": "2.2",
             "cPrev": ["a.905"],
             "cNext": ["a.907"],
             "cSiblings": ["character.character.societal-relations.12"]
@@ -126,9 +126,9 @@
             "name_fr": "Bonne à tout faire pour Kobolds",
             "description_en": "Attain rank 4 reputation (trusted) with the 789th Order kobolds.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Kobolds du 789e ordre.",
+            "points": 20,
             "reward": "t.148",
             "patch": "2.2",
-            "points": 20,
             "cPrev": ["a.906"],
             "cSiblings": ["character.character.societal-relations.13", "t.148"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Être toutes ouïes I",
             "description_en": "Attain rank 1 reputation (neutral) with Novv's Clutch.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès du Frai de Novv.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cNext": ["a.909"],
             "cSiblings": ["character.character.societal-relations.15"]
         },
@@ -147,8 +147,8 @@
             "name_fr": "Être toutes ouïes II",
             "description_en": "Attain rank 2 reputation (recognized) with Novv's Clutch.",
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès du Frai de Novv.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cPrev": ["a.908"],
             "cNext": ["a.910"],
             "cSiblings": ["character.character.societal-relations.16"]
@@ -158,8 +158,8 @@
             "name_fr": "Être toutes ouïes III",
             "description_en": "Attain rank 3 reputation (friendly) with Novv's Clutch.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès du Frai de Novv.",
-            "patch": "2.2",
             "points": 10,
+            "patch": "2.2",
             "cPrev": ["a.909"],
             "cNext": ["a.911"],
             "cSiblings": ["character.character.societal-relations.17"]
@@ -169,9 +169,9 @@
             "name_fr": "Avoir les ouïes fines",
             "description_en": "Attain rank 4 reputation (trusted) with Novv's Clutch.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès du Frai de Novv.",
+            "points": 20,
             "reward": "t.149",
             "patch": "2.2",
-            "points": 20,
             "cPrev": ["a.910"],
             "cSiblings": ["character.character.societal-relations.18", "t.149"]
         },
@@ -180,8 +180,8 @@
             "name_fr": "Quel drôle d'oiseau I",
             "description_en": "Attain rank 1 reputation (neutral) with the Ehcatl Nine.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
-            "patch": "2.35",
             "points": 5,
+            "patch": "2.35",
             "cNext": ["a.1023"],
             "cSiblings": ["character.character.societal-relations.20"]
         },
@@ -190,8 +190,8 @@
             "name_fr": "Quel drôle d'oiseau II",
             "description_en": "Attain rank 3 reputation (friendly) with the Ehcatl Nine.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
-            "patch": "2.35",
             "points": 5,
+            "patch": "2.35",
             "cPrev": ["a.1022"],
             "cNext": ["a.1024"],
             "cSiblings": ["character.character.societal-relations.22"]
@@ -201,8 +201,8 @@
             "name_fr": "Quel drôle d'oiseau III",
             "description_en": "Attain rank 5 reputation (respected) with the Ehcatl Nine.",
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
-            "patch": "2.35",
             "points": 10,
+            "patch": "2.35",
             "cPrev": ["a.1023"],
             "cNext": ["a.1025"],
             "cSiblings": ["character.character.societal-relations.24"]
@@ -212,9 +212,9 @@
             "name_fr": "À l'Ixal de l'Homme",
             "description_en": "Attain rank 7 reputation (sworn) with the Ehcatl Nine.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
+            "points": 20,
             "reward": "t.176",
             "patch": "2.35",
-            "points": 20,
             "cPrev": ["a.1024"],
             "cSiblings": ["character.character.societal-relations.26", "t.176"]
         },
@@ -223,9 +223,9 @@
             "name_fr": "L'ami des hommes-bêtes",
             "description_en": "Complete the quest “Friends Forever.”",
             "description_fr": "Accomplir la quête “L'union des liens sacrés”.",
+            "points": 20,
             "reward": "t.177",
             "patch": "2.35",
-            "points": 20,
             "cSiblings": ["q.67009", "t.177"]
         },
         "x1395": {
@@ -233,8 +233,8 @@
             "name_fr": "Bien-vanu à Gundu I",
             "description_en": "Attain rank 1 reputation (neutral) with the Gundu tribe.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
-            "patch": "3.1",
             "points": 5,
+            "patch": "3.1",
             "cNext": ["a.1396"],
             "cSiblings": ["character.character.societal-relations.28"]
         },
@@ -243,8 +243,8 @@
             "name_fr": "Bien-vanu à Gundu II",
             "description_en": "Attain rank 3 reputation (friendly) with the Gundu tribe.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
-            "patch": "3.1",
             "points": 5,
+            "patch": "3.1",
             "cPrev": ["a.1395"],
             "cNext": ["a.1397"],
             "cSiblings": ["character.character.societal-relations.30"]
@@ -254,8 +254,8 @@
             "name_fr": "Bien-vanu à Gundu III",
             "description_en": "Attain rank 5 reputation (respected) with the Gundu tribe.",
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
-            "patch": "3.1",
             "points": 10,
+            "patch": "3.1",
             "cPrev": ["a.1396"],
             "cNext": ["a.1398"],
             "cSiblings": ["character.character.societal-relations.32"]
@@ -265,9 +265,9 @@
             "name_fr": "Ce pas vanu à Gundu",
             "description_en": "Attain rank 7 reputation (sworn) with the Gundu tribe.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
+            "points": 20,
             "reward": "t.274",
             "patch": "3.1",
-            "points": 20,
             "cPrev": ["a.1397"],
             "cSiblings": ["character.character.societal-relations.34", "t.274"]
         },
@@ -276,8 +276,8 @@
             "name_fr": "Bonne âme égarée I",
             "description_en": "Attain rank 3 reputation (friendly) with the Vath.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Égarés de Loth ast Vath.",
-            "patch": "3.15",
             "points": 5,
+            "patch": "3.2",
             "cNext": ["a.1496"],
             "cSiblings": ["character.character.societal-relations.37"]
         },
@@ -286,8 +286,8 @@
             "name_fr": "Bonne âme égarée II",
             "description_en": "Attain rank 4 reputation (trusted) with the Vath.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Égarés de Loth ast Vath.",
-            "patch": "3.15",
             "points": 5,
+            "patch": "3.2",
             "cPrev": ["a.1495"],
             "cNext": ["a.1497"],
             "cSiblings": ["character.character.societal-relations.38"]
@@ -297,8 +297,8 @@
             "name_fr": "Bonne âme égarée III",
             "description_en": "Attain rank 6 reputation (honored) with the Vath.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Égarés de Loth ast Vath.",
-            "patch": "3.15",
             "points": 10,
+            "patch": "3.2",
             "cPrev": ["a.1496"],
             "cNext": ["a.1498"],
             "cSiblings": ["character.character.societal-relations.40"]
@@ -308,9 +308,9 @@
             "name_fr": "Égarés retrouvés",
             "description_en": "Attain rank 7 reputation (sworn) with the Vath.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Égarés de Loth ast Vath.",
-            "reward": "t.291",
-            "patch": "3.15",
             "points": 20,
+            "reward": "t.291",
+            "patch": "3.2",
             "cPrev": ["a.1497"],
             "cSiblings": ["character.character.societal-relations.41", "t.291"]
         },
@@ -319,8 +319,8 @@
             "name_fr": "Amateur d'architecture mogderne I",
             "description_en": "Attain rank 1 reputation (neutral) with the Mogmenders of Moghome.",
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Mogdernisateurs célestes.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cNext": ["a.1619"],
             "cSiblings": ["character.character.societal-relations.44"]
         },
@@ -329,8 +329,8 @@
             "name_fr": "Amateur d'architecture mogderne II",
             "description_en": "Attain rank 3 reputation (friendly) with the Mogmenders of Moghome.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Mogdernisateurs célestes.",
-            "patch": "3.3",
             "points": 5,
+            "patch": "3.3",
             "cPrev": ["a.1618"],
             "cNext": ["a.1620"],
             "cSiblings": ["character.character.societal-relations.46"]
@@ -340,8 +340,8 @@
             "name_fr": "Amateur d'architecture mogderne III",
             "description_en": "Attain rank 5 reputation (respected) with the Mogmenders of Moghome.",
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Mogdernisateurs célestes.",
-            "patch": "3.3",
             "points": 10,
+            "patch": "3.3",
             "cPrev": ["a.1619"],
             "cNext": ["a.1621"],
             "cSiblings": ["character.character.societal-relations.48"]
@@ -351,9 +351,9 @@
             "name_fr": "Bienfaiteur des Mogdernisateurs",
             "description_en": "Attain rank 7 reputation (sworn) with the Mogmenders of Moghome.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Mogdernisateurs célestes.",
+            "points": 20,
             "reward": "t.296",
             "patch": "3.3",
-            "points": 20,
             "cPrev": ["a.1620"],
             "cSiblings": ["character.character.societal-relations.50", "t.296"]
         },
@@ -362,9 +362,9 @@
             "name_fr": "Petit meurtre entre amis",
             "description_en": "Complete the quest “Eternity, Loyalty, Honesty.”",
             "description_fr": "Accomplir la quête “Une amitié germée du chaos semé”.",
+            "points": 20,
             "reward": "t.339",
             "patch": "3.5",
-            "points": 20,
             "cSiblings": ["q.67921", "t.339"]
         },
         "x1997": {
@@ -372,8 +372,8 @@
             "name_fr": "Nul ne perd ses Verts I",
             "description_en": "Attain rank 3 reputation (friendly) with the Divine Circle.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Verts.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cNext": ["a.1998"],
             "cSiblings": ["character.character.societal-relations.53"]
         },
@@ -382,8 +382,8 @@
             "name_fr": "Nul ne perd ses Verts II",
             "description_en": "Attain rank 4 reputation (trusted) with the Divine Circle.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Verts.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1997"],
             "cNext": ["a.1999"],
             "cSiblings": ["character.character.societal-relations.54"]
@@ -393,8 +393,8 @@
             "name_fr": "Nul ne perd ses Verts III",
             "description_en": "Attain rank 6 reputation (honored) with the Divine Circle.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Verts.",
-            "patch": "4.1",
             "points": 10,
+            "patch": "4.1",
             "cPrev": ["a.1998"],
             "cNext": ["a.2000"],
             "cSiblings": ["character.character.societal-relations.56"]
@@ -404,9 +404,9 @@
             "name_fr": "Chacun a son Vert à soi",
             "description_en": "Attain rank 7 reputation (sworn) with the Divine Circle.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Verts.",
+            "points": 20,
             "reward": "t.140",
             "patch": "4.1",
-            "points": 20,
             "cPrev": ["a.1999"],
             "cSiblings": ["character.character.societal-relations.57", "t.140"]
         },
@@ -415,8 +415,8 @@
             "name_fr": "Croquer la pomme I",
             "description_en": "Attain rank 3 reputation (friendly) with the Velodyna Gatekeepers.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des garde-frontières de la Velodyna.",
-            "patch": "4.2",
             "points": 5,
+            "patch": "4.2",
             "cNext": ["a.2015"],
             "cSiblings": ["character.character.societal-relations.60"]
         },
@@ -425,8 +425,8 @@
             "name_fr": "Croquer la pomme II",
             "description_en": "Attain rank 4 reputation (trusted) with the Velodyna Gatekeepers.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des garde-frontières de la Velodyna.",
-            "patch": "4.2",
             "points": 5,
+            "patch": "4.2",
             "cPrev": ["a.2014"],
             "cNext": ["a.2016"],
             "cSiblings": ["character.character.societal-relations.61"]
@@ -436,8 +436,8 @@
             "name_fr": "Croquer la pomme III",
             "description_en": "Attain rank 6 reputation (honored) with the Velodyna Gatekeepers.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des garde-frontières de la Velodyna.",
-            "patch": "4.2",
             "points": 10,
+            "patch": "4.2",
             "cPrev": ["a.2015"],
             "cNext": ["a.2017"],
             "cSiblings": ["character.character.societal-relations.63"]
@@ -447,9 +447,9 @@
             "name_fr": "Le serpent de la Velodyna",
             "description_en": "Attain rank 7 reputation (sworn) with the Velodyna Gatekeepers.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des garde-frontières de la Velodyna.",
+            "points": 20,
             "reward": "t.221",
             "patch": "4.2",
-            "points": 20,
             "cPrev": ["a.2016"],
             "cSiblings": ["character.character.societal-relations.64", "t.221"]
         },
@@ -458,8 +458,8 @@
             "name_fr": "Gentil organisateur I",
             "description_en": "Attain rank 3 reputation (friendly) with the Seven Hundred Seventy-Seven.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès du comité d'organisation de la grande frairie namazu.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cNext": ["a.2100"],
             "cSiblings": ["character.character.societal-relations.67"]
         },
@@ -468,8 +468,8 @@
             "name_fr": "Gentil organisateur II",
             "description_en": "Attain rank 4 reputation (trusted) with the Seven Hundred Seventy-Seven.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès du comité d'organisation de la grande frairie namazu.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2099"],
             "cNext": ["a.2101"],
             "cSiblings": ["character.character.societal-relations.68"]
@@ -479,8 +479,8 @@
             "name_fr": "Gentil organisateur III",
             "description_en": "Attain rank 6 reputation (honored) with the Seven Hundred Seventy-Seven.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès du comité d'organisation de la grande frairie namazu.",
-            "patch": "4.3",
             "points": 10,
+            "patch": "4.3",
             "cPrev": ["a.2100"],
             "cNext": ["a.2102"],
             "cSiblings": ["character.character.societal-relations.70"]
@@ -490,9 +490,9 @@
             "name_fr": "Dans le vent de l'illumination",
             "description_en": "Attain rank 7 reputation (sworn) with the Seven Hundred Seventy-Seven.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès du comité d'organisation de la grande frairie namazu.",
+            "points": 20,
             "reward": "t.393",
             "patch": "4.3",
-            "points": 20,
             "cPrev": ["a.2101"],
             "cSiblings": ["character.character.societal-relations.71", "t.393"]
         },
@@ -501,9 +501,9 @@
             "name_fr": "D'est en ouest",
             "description_en": "Complete the quest “What a Wonder-full World.”",
             "description_fr": "Accomplir la quête “Exaltation sur le pont”.",
+            "points": 20,
             "reward": "t.419",
             "patch": "4.56",
-            "points": 20,
             "cSiblings": ["q.68700", "t.419"]
         },
         "x2436": {
@@ -511,8 +511,8 @@
             "name_fr": "On croit rêver I",
             "description_en": "Attain rank 3 reputation (friendly) with the Dreamspinners.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Pixies du jardin aux rêves.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cNext": ["a.2437"],
             "cSiblings": ["character.character.societal-relations.86"]
         },
@@ -521,8 +521,8 @@
             "name_fr": "On croit rêver II",
             "description_en": "Attain rank 4 reputation (trusted) with the Dreamspinners.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Pixies du jardin aux rêves.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2436"],
             "cNext": ["a.2438"],
             "cSiblings": ["character.character.societal-relations.87"]
@@ -532,8 +532,8 @@
             "name_fr": "On croit rêver III",
             "description_en": "Attain rank 6 reputation (honored) with the Dreamspinners.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Pixies du jardin aux rêves.",
-            "patch": "5.1",
             "points": 10,
+            "patch": "5.1",
             "cPrev": ["a.2437"],
             "cNext": ["a.2439"],
             "cSiblings": ["character.character.societal-relations.89"]
@@ -543,9 +543,9 @@
             "name_fr": "Tisse-rêve honoraire",
             "description_en": "Attain rank 7 reputation (sworn) with the Dreamspinners.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Pixies du jardin aux rêves.",
+            "points": 20,
             "reward": "t.479",
             "patch": "5.1",
-            "points": 20,
             "cPrev": ["a.2438"],
             "cSiblings": ["character.character.societal-relations.90", "t.479"]
         },
@@ -554,8 +554,8 @@
             "name_fr": "Les aventuriers de la stèle perdue I",
             "description_en": "Attain rank 3 reputation (friendly) with the Stewards.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Qitari du plateau de Hopl.",
-            "patch": "5.2",
             "points": 5,
+            "patch": "5.2",
             "cNext": ["a.2598"],
             "cSiblings": ["character.character.societal-relations.80"]
         },
@@ -564,8 +564,8 @@
             "name_fr": "Les aventuriers de la stèle perdue II",
             "description_en": "Attain rank 4 reputation (trusted) with the Stewards.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Qitari du plateau de Hopl.",
-            "patch": "5.2",
             "points": 5,
+            "patch": "5.2",
             "cPrev": ["a.2597"],
             "cNext": ["a.2599"],
             "cSiblings": ["character.character.societal-relations.81"]
@@ -575,8 +575,8 @@
             "name_fr": "Les aventuriers de la stèle perdue III",
             "description_en": "Attain rank 6 reputation (honored) with the Stewards.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Qitari du plateau de Hopl.",
-            "patch": "5.2",
             "points": 10,
+            "patch": "5.2",
             "cPrev": ["a.2598"],
             "cNext": ["a.2600"],
             "cSiblings": ["character.character.societal-relations.83"]
@@ -586,9 +586,9 @@
             "name_fr": "Scribe de Ronka",
             "description_en": "Attain rank 7 reputation (sworn) with the Stewards.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Qitari du plateau de Hopl.",
+            "points": 20,
             "reward": "t.521",
             "patch": "5.2",
-            "points": 20,
             "cPrev": ["a.2599"],
             "cSiblings": ["character.character.societal-relations.84", "t.521"]
         },
@@ -597,8 +597,8 @@
             "name_fr": "Ronitt : automatank I",
             "description_en": "Attain rank 3 reputation (friendly) with Watts's Anvil.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Nains du Garage Watts.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cNext": ["a.2639"],
             "cSiblings": ["character.character.societal-relations.74"]
         },
@@ -607,8 +607,8 @@
             "name_fr": "Ronitt : automatank II",
             "description_en": "Attain rank 4 reputation (trusted) with Watts's Anvil.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Nains du Garage Watts.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2638"],
             "cNext": ["a.2640"],
             "cSiblings": ["character.character.societal-relations.75"]
@@ -618,8 +618,8 @@
             "name_fr": "Ronitt : automatank III",
             "description_en": "Attain rank 6 reputation (honored) with Watts's Anvil.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Nains du Garage Watts.",
-            "patch": "5.3",
             "points": 10,
+            "patch": "5.3",
             "cPrev": ["a.2639"],
             "cNext": ["a.2641"],
             "cSiblings": ["character.character.societal-relations.77"]
@@ -629,9 +629,9 @@
             "name_fr": "La bande du Garage",
             "description_en": "Attain rank 7 reputation (sworn) with Watts's Anvil.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Nains du Garage Watts.",
+            "points": 20,
             "reward": "t.526",
             "patch": "5.3",
-            "points": 20,
             "cPrev": ["a.2640"],
             "cSiblings": ["character.character.societal-relations.78", "t.526"]
         },
@@ -640,8 +640,8 @@
             "name_fr": "Les livreurs de Thavnair I",
             "description_en": "Attain rank 3 reputation (friendly) with the Hippo Riders.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Hippotracteurs.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cNext": ["a.3056"],
             "cSiblings": ["character.character.societal-relations.92"]
         },
@@ -650,8 +650,8 @@
             "name_fr": "Les livreurs de Thavnair II",
             "description_en": "Attain rank 4 reputation (trusted) with the Hippo Riders.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Hippotracteurs.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3055"],
             "cNext": ["a.3057"],
             "cSiblings": ["character.character.societal-relations.93"]
@@ -661,8 +661,8 @@
             "name_fr": "Les livreurs de Thavnair III",
             "description_en": "Attain rank 6 reputation (honored) with the Hippo Riders.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Hippotracteurs.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.15",
             "cPrev": ["a.3056"],
             "cNext": ["a.3058"],
             "cSiblings": ["character.character.societal-relations.95"]
@@ -672,9 +672,9 @@
             "name_fr": "Fan des Hippotracteurs",
             "description_en": "Attain rank 7 reputation (sworn) with the Hippo Riders.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Hippotracteurs.",
-            "reward": "t.633",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.633",
+            "patch": "6.15",
             "cPrev": ["a.3057"],
             "cSiblings": ["character.character.societal-relations.96", "t.633"]
         },
@@ -683,8 +683,8 @@
             "name_fr": "∈nTité αLliÉε I",
             "description_en": "Attain rank 3 reputation (friendly) with the staff and patrons of the Last Dregs.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Omicrons des Dernières Réminiscences.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.25",
             "cNext": ["a.3124"],
             "cSiblings": ["character.character.societal-relations.98"]
         },
@@ -693,8 +693,8 @@
             "name_fr": "∈nTité αLliÉε II",
             "description_en": "Attain rank 4 reputation (trusted) with the staff and patrons of the Last Dregs.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Omicrons des Dernières Réminiscences.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.25",
             "cPrev": ["a.3123"],
             "cNext": ["a.3125"],
             "cSiblings": ["character.character.societal-relations.99"]
@@ -704,8 +704,8 @@
             "name_fr": "∈nTité αLliÉε III",
             "description_en": "Attain rank 6 reputation (honored) with the staff and patrons of the Last Dregs.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Omicrons des Dernières Réminiscences.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.25",
             "cPrev": ["a.3124"],
             "cNext": ["a.3126"],
             "cSiblings": ["character.character.societal-relations.101"]
@@ -715,9 +715,9 @@
             "name_fr": "Caféophile des confins",
             "description_en": "Attain rank 7 reputation (sworn) with the staff and patrons of the Last Dregs.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Omicrons des Dernières Réminiscences.",
-            "reward": "t.655",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.655",
+            "patch": "6.25",
             "cPrev": ["a.3125"],
             "cSiblings": ["character.character.societal-relations.102", "t.655"]
         },
@@ -726,8 +726,8 @@
             "name_fr": "Rêveur sélène I",
             "description_en": "Attain rank 3 reputation (friendly) with the Dreaming Ways.",
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Loporrites des Ateliers Dreaming.",
-            "patch": "6.35",
             "points": 5,
+            "patch": "6.35",
             "cNext": ["a.3189"],
             "cSiblings": ["character.character.societal-relations.104"]
         },
@@ -736,8 +736,8 @@
             "name_fr": "Rêveur sélène II",
             "description_en": "Attain rank 4 reputation (trusted) with the Dreaming Ways.",
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Loporrites des Ateliers Dreaming.",
-            "patch": "6.35",
             "points": 5,
+            "patch": "6.35",
             "cPrev": ["a.3188"],
             "cNext": ["a.3190"],
             "cSiblings": ["character.character.societal-relations.105"]
@@ -747,8 +747,8 @@
             "name_fr": "Rêveur sélène III",
             "description_en": "Attain rank 6 reputation (honored) with the Dreaming Ways.",
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Loporrites des Ateliers Dreaming.",
-            "patch": "6.35",
             "points": 10,
+            "patch": "6.35",
             "cPrev": ["a.3189"],
             "cNext": ["a.3191"],
             "cSiblings": ["character.character.societal-relations.107"]
@@ -758,9 +758,9 @@
             "name_fr": "Marchand de sable lunaire",
             "description_en": "Attain rank 7 reputation (sworn) with the Dreaming Ways.",
             "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Loporrites des Ateliers Dreaming.",
+            "points": 20,
             "reward": "t.666",
             "patch": "6.35",
-            "points": 20,
             "cPrev": ["a.3190"],
             "cSiblings": ["character.character.societal-relations.108", "t.666"]
         },
@@ -769,43 +769,120 @@
             "name_fr": "Les Fous volants",
             "description_en": "Complete the quest “A Dream Worth Chasing.”",
             "description_fr": "Accomplir la quête “La grande course aux confins de l'univers”.",
-            "patch": "6.55",
             "points": 20,
+            "patch": "6.55",
             "cSiblings": ["q.70324"]
         },
-		"x3588": {
-            "description_en": "Attain rank 3 reputation (friendly) with the Turali Travel Agency.",
-            "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+        "x3588": {
             "name_en": "Pelu Proponent I",
             "name_fr": "Conseiller touristique I",
-            "patch": "7.1",
-            "points": 5
+            "description_en": "Attain rank 3 reputation (friendly) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "points": 5,
+            "patch": "7.1"
         },
         "x3589": {
-            "description_en": "Attain rank 4 reputation (trusted) with the Turali Travel Agency.",
-            "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
             "name_en": "Pelu Proponent II",
             "name_fr": "Conseiller touristique II",
-            "patch": "7.1",
-            "points": 5
+            "description_en": "Attain rank 4 reputation (trusted) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "points": 5,
+            "patch": "7.1"
         },
         "x3590": {
-            "description_en": "Attain rank 6 reputation (honored) with the Turali Travel Agency.",
-            "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
             "name_en": "Pelu Proponent III",
             "name_fr": "Conseiller touristique III",
-            "patch": "7.1",
-            "points": 10
+            "description_en": "Attain rank 6 reputation (honored) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "points": 10,
+            "patch": "7.1"
         },
         "x3591": {
-            "cSiblings": ["t.762"],
-            "description_en": "Attain rank 7 reputation (sworn) with the Turali Travel Agency.",
-            "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
             "name_en": "Extra-special Advisor",
             "name_fr": "Tural Voyages Conseil",
-            "patch": "7.1",
+            "description_en": "Attain rank 7 reputation (sworn) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
             "points": 20,
-            "reward": "t.762"
+            "reward": "t.762",
+            "patch": "7.1",
+            "cSiblings": ["t.762"]
+        },
+        "x3621": {
+            "name_en": "Eat Your Vegetables I",
+            "name_fr": "À la mode de Mamook I",
+            "description_en": "Attain rank 3 reputation (friendly) with the farmers of Gok Golma.",
+            "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des fermiers de Gok Golma.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3622": {
+            "name_en": "Eat Your Vegetables II",
+            "name_fr": "À la mode de Mamook II",
+            "description_en": "Attain rank 4 reputation (trusted) with the farmers of Gok Golma.",
+            "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des fermiers de Gok Golma.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3623": {
+            "name_en": "Eat Your Vegetables III",
+            "name_fr": "À la mode de Mamook III",
+            "description_en": "Attain rank 6 reputation (honored) with the farmers of Gok Golma.",
+            "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des fermiers de Gok Golma.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3624": {
+            "name_en": "Harvest of Hope",
+            "name_fr": "Le champ bleu",
+            "description_en": "Attain rank 7 reputation (sworn) with the farmers of Gok Golma.",
+            "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des fermiers de Gok Golma.",
+            "points": 20,
+            "reward": "t.772",
+            "patch": "7.25",
+            "cSiblings": ["t.772"]
+        },
+        "x3774": {
+            "name_en": "Winter's Warmth I",
+            "name_fr": "Séjour à l'autel I",
+            "description_en": "Attain rank 3 reputation (friendly) with the Hands of Zirgorteh.",
+            "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des bienfaiteurs de Zirgorteh.",
+            "points": 5,
+            "patch": "7.35"
+        },
+        "x3775": {
+            "name_en": "Winter's Warmth II",
+            "name_fr": "Séjour à l'autel II",
+            "description_en": "Attain rank 4 reputation (trusted) with the Hands of Zirgorteh.",
+            "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des bienfaiteurs de Zirgorteh.",
+            "points": 5,
+            "patch": "7.35"
+        },
+        "x3776": {
+            "name_en": "Winter's Warmth III",
+            "name_fr": "Séjour à l'autel III",
+            "description_en": "Attain rank 6 reputation (honored) with the Hands of Zirgorteh.",
+            "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des bienfaiteurs de Zirgorteh.",
+            "points": 10,
+            "patch": "7.35"
+        },
+        "x3777": {
+            "name_en": "Peak Performance",
+            "name_fr": "Travail en haute altitude",
+            "description_en": "Attain rank 7 reputation (sworn) with the Hands of Zirgorteh.",
+            "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des bienfaiteurs de Zirgorteh.",
+            "points": 20,
+            "reward": "t.806",
+            "patch": "7.35",
+            "cSiblings": ["t.806"]
+        },
+        "x3939": {
+            "name_en": "A Beautiful Day in the Neighborhood",
+            "name_fr": "La fraternité turalienne",
+            "description_en": "Complete the quest “Hero's Day Off.”",
+            "description_fr": "Accomplir la quête “Instant de détente, instant de bonheur”.",
+            "points": 20,
+            "patch": "7.55",
+            "cSiblings": ["q.70999"]
         }
     }
 }

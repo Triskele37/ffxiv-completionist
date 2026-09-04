@@ -2,7 +2,7 @@
     "key": "deep-dungeons",
     "groupName_en": "Deep Dungeons",
     "groupName_fr": "Donjon sans fond",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -28,12 +28,11 @@
         "x174": {
             "name_en": "The Palace of the Dead",
             "name_fr": "Palais des morts",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(25.2, 20.6)",
-            "patch": "3.35",
-            "minValue": 0,
-            "maxValue": 200,
             "unlock": "q.67092",
+            "patch": "3.35",
+            "cPrev": ["q.67092"],
             "cPrevAt": {
                 "51": ["q.67923"]
             },
@@ -47,17 +46,18 @@
                 "100": ["a.1655"],
                 "150": ["a.1656"],
                 "200": ["a.1657"]
-            }
+            },
+            "minValue": 0,
+            "maxValue": 200
         },
         "x540": {
             "name_en": "Heaven-on-High",
             "name_fr": "Pilier des Cieux",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(21.4, 9.2)",
-            "patch": "4.35",
-            "minValue": 0,
-            "maxValue": 100,
             "unlock": "q.68667",
+            "patch": "4.35",
+            "cPrev": ["q.68667"],
             "cPrevAt": {
                 "31": "q.68668"
             },
@@ -68,17 +68,18 @@
                 "30": ["a.2049"],
                 "50": ["a.2050"],
                 "100": ["a.2051"]
-            }
+            },
+            "minValue": 0,
+            "maxValue": 100
         },
         "x897": {
             "name_en": "Eureka Orthos",
             "name_fr": "Eurêka Orthos",
-            "zone": "@PLACE.MOR_DHONA",
+            "zone": "@PLACE.ARR.MOR_DHONA",
             "location": "(34.8, 19.3)",
-            "patch": "6.35",
-            "minValue": 0,
-            "maxValue": 100,
             "unlock": "q.70199",
+            "patch": "6.35",
+            "cPrev": ["q.70199"],
             "cSiblingsAt": {
                 "0": ["q.70199"],
                 "10": ["a.3174"],
@@ -86,7 +87,51 @@
                 "30": ["a.3176"],
                 "50": ["a.3177"],
                 "100": ["a.3178"]
-            }
+            },
+            "minValue": 0,
+            "maxValue": 100
+        },
+        "x1032": {
+            "name_en": "Pilgrim's Traverse",
+            "name_fr": "Le Sanctuaire des pèlerins",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "location": "(29.9, 6.0)",
+            "unlock": "q.70941",
+            "patch": "7.35",
+            "cPrev": ["q.70941"],
+            "cSiblingsAt": {
+                "10": ["a.3807"],
+                "20": ["a.3808"],
+                "30": ["a.3809"],
+                "50": ["a.3810"],
+                "70": ["a.3824"],
+                "100": ["a.3811"]
+            },
+            "minValue": 0,
+            "maxValue": 100
+        },
+        "x1065": {
+            "name_en": "The Final Verse",
+            "name_fr": "Le Verset final",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "location": "(29.9, 6.0)",
+            "unlock": "d.1032 99",
+            "patch": "7.35",
+            "isNumericCompletion": false
+        },
+        "x1063": {
+            "name_en": "The Final Verse (Quantum)",
+            "name_fr": "Le Verset final (quantique)",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "location": "(29.9, 6.0)",
+            "unlock": ["d.1032 100", "q.70943"],
+            "patch": "7.35",
+            "cPrev": ["q.70943"],
+            "cPrevAt": {
+                "100": ["d.1032"]
+            },
+            "cSiblings": ["a.3818"],
+            "isNumericCompletion": false
         }
     }
 }

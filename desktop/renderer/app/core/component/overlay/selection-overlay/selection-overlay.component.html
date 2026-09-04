@@ -1,0 +1,47 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.SELECTION_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <span class="mi mi-touch-app"></span>
+    </button>
+
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button
+                    pButton
+                    [disabled]="true"
+                >
+                    {{'APP.SELECTION_OVERLAY.TITLE' | translate}}
+                </button>
+
+                <button pButton (click)="onSelectChange(true)">
+                    {{'APP.SELECTION_OVERLAY.SELECT_ALL' | translate}}
+                </button>
+                <button pButton (click)="onSelectChange(false)">
+                    {{'APP.SELECTION_OVERLAY.DESELECT_ALL' | translate}}
+                </button>
+                <button pButton (click)="onSelectChange(null)">
+                    {{'APP.SELECTION_OVERLAY.INVERT' | translate}}
+                </button>
+
+                <p-divider align="center">
+                    {{'APP.SELECTION_OVERLAY.ACTIONS' | translate}}
+                </p-divider>
+
+                <button pButton [disabled]="!group.isCraftingLogGroup" (click)="openInGarland()">
+                    {{'APP.SELECTION_OVERLAY.GARLAND' | translate}}
+                </button>
+
+                <button pButton [disabled]="!group.isCraftingLogGroup" (click)="openInTeamcraft()">
+                    {{'APP.SELECTION_OVERLAY.TEAMCRAFT' | translate}}
+                </button>
+            </span>
+        </div>
+    }
+</span>

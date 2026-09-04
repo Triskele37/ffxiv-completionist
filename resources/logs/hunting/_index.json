@@ -2,7 +2,7 @@
     "key": "hunting-log",
     "groupName_en": "Hunting Log",
     "groupName_fr": "Bestiaire",
-    "headers": {
+    "columns": {
         "rank": {
             "width": 75,
             "header_en": "Rank",
@@ -21,6 +21,9 @@
         "location": {
             "header": "@HEADER.LOCATION",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.patch"
         }
     },
     "order": [

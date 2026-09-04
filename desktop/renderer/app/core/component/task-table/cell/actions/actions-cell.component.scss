@@ -1,0 +1,50 @@
+:host {
+    $button-size: 25px;
+
+    display: contents;
+
+    .actions-cell {
+        vertical-align: middle;
+        width: 45px;
+
+        .action-dial.p-button {
+            height: $button-size;
+            width: $button-size;
+        }
+
+        .actions-container {
+            position: absolute;
+            right: 10px;
+            margin-top: -$button-size;
+            z-index: 1;
+            cursor: default;
+
+            .actions {
+                display: flex;
+
+                > * {
+                    position: relative;
+
+                    &:not(:last-child):after {
+                        content: "";
+                        background: var(--surface-500);
+                        border: 1px solid var(--primary-color);
+
+                        width: 35px;
+                        height: $button-size;
+
+                        top: 0;
+                        left: calc(35px / 2);
+                        position: absolute;
+                        z-index: -1;
+                    }
+                }
+
+                .close-dial {
+                    background: var(--surface-500);
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

@@ -4,417 +4,438 @@
     "groupName_fr": "Mor Dhona",
     "tasks": {
         "x65968": {
-            "level": 1,
             "name_en": "A Legend for a Legend",
             "name_fr": "Qui se ressemble s'assemble",
-            "unlock": "mo.47",
+            "level": 1,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
+            "unlock": "mo.47",
+            "patch": "2.5",
             "cPrev": ["mo.28", "mo.43", "mo.31", "mo.30", "mo.40", "mo.29"],
-            "cSiblings": ["a.1063"],
-            "patch": "4.31"
+            "cSiblings": ["a.1063"]
         },
         "x67094": {
-            "level": 1,
             "name_en": "Simply to Dye For",
             "name_fr": "Une armure arc-en-ciel",
+            "level": 1,
             "npc_en": "Alys",
             "npc_fr": "Alys",
             "unlock_en": "Augmented Artifact Armor",
-            "cPrev": ["q.66235"],
-            "patch": "4.31"
+            "unlock_fr": "Augmented Artifact Armor",
+            "patch": "2.3",
+            "cPrev": ["q.66235"]
         },
         "x66957": {
-            "level": 15,
             "name_en": "A Self-improving Man",
             "name_fr": "L'homme le plus classe du monde",
+            "level": 15,
             "npc_en": "Wiscard",
             "npc_fr": "Wiscard",
             "unlock_en": "Glamours",
+            "unlock_fr": "Glamours",
+            "patch": "2.2",
             "cNext": ["q.66958"],
-            "cExclude": ["q.68553"],
-            "patch": "4.31"
+            "cExclude": ["q.68553"]
         },
         "x66958": {
-            "level": 15,
             "name_en": "Submission Impossible",
             "name_fr": "Juste une illusion",
+            "level": 15,
             "npc_en": "Wiscard",
             "npc_fr": "Wiscard",
+            "patch": "2.2",
             "cPrev": ["q.66957"],
-            "cExclude": ["q.68554"],
-            "patch": "4.31"
+            "cExclude": ["q.68554"]
         },
         "x66524": {
-            "level": 44,
             "name_en": "Crazy about Crystals",
             "name_fr": "Un grrros empêcheur de tourner en rond",
+            "level": 44,
             "npc_en": "Npah Tayuun",
             "npc_fr": "Npah Tayuun",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66533": {
-            "level": 44,
             "name_en": "Passing the Smell Test",
             "name_fr": "Un animal de compagnie insolite",
+            "level": 44,
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cNext": ["q.66535"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66535"]
         },
         "x65554": {
-            "level": 45,
             "name_en": "Leves of Saint Coinach's Find",
             "name_fr": "Mandataire de la Trouvaille de Saint-Coinach",
-            "cPrevAny": true,
+            "level": 45,
             "npc_en": "K'leytai",
             "npc_fr": "K'leytai",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66523": {
-            "level": 45,
             "name_en": "Problem with Plasma",
             "name_fr": "Quelle catalyse",
+            "level": 45,
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cPrev": ["q.66535"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66535"]
         },
         "x66525": {
-            "level": 45,
             "name_en": "Dirt and Ashes",
             "name_fr": "Les âmes des revenants",
+            "level": 45,
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cNext": ["q.66534"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66534"]
         },
         "x66526": {
-            "level": 45,
             "name_en": "The Sons Also Rise",
             "name_fr": "La Trouvaille de Saint-Coinach",
+            "level": 45,
             "npc_en": "Kakamehi",
             "npc_fr": "Kakamehi",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66527": {
-            "level": 45,
             "name_en": "Playing the Postman",
             "name_fr": "Des nouvelles de la maison",
+            "level": 45,
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cNext": ["q.66532"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66532"]
         },
         "x66528": {
-            "level": 45,
             "name_en": "Hit the Hippogryphs",
             "name_fr": "Recherche archéologue musclé",
+            "level": 45,
             "npc_en": "Rammbroes",
             "npc_fr": "Rammbroes",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66529": {
-            "level": 45,
             "name_en": "Straight Outta Abalathia",
             "name_fr": "Des monstres qui n'aiment pas les fouilles",
+            "level": 45,
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cNext": ["q.66531"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66531"]
         },
         "x66530": {
-            "level": 45,
             "name_en": "Moon Sliver and Me",
             "name_fr": "Le secret de Dalamud",
+            "level": 45,
             "npc_en": "Klynthota",
             "npc_fr": "Klynthota",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66531": {
-            "level": 45,
             "name_en": "Holier than Thou",
             "name_fr": "Un lieu saint géant",
+            "level": 45,
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cPrev": ["q.66529"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66529"]
         },
         "x66532": {
-            "level": 45,
             "name_en": "Dropping Out",
             "name_fr": "Une histoire qui commence par la chute",
+            "level": 45,
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cPrev": ["q.66527"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66527"]
         },
         "x66534": {
-            "level": 45,
             "name_en": "The Organ of Choice",
             "name_fr": "L'appât du gain",
+            "level": 45,
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
+            "patch": "2.0",
             "cPrev": ["q.66525"],
-            "cNext": ["q.66536"],
-            "patch": "4.31"
+            "cNext": ["q.66536"]
         },
         "x66535": {
-            "level": 45,
             "name_en": "The Trickster of the Toll",
             "name_fr": "Flemmite aiguë",
+            "level": 45,
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
+            "patch": "2.0",
             "cPrev": ["q.66533"],
-            "cNext": ["q.66523"],
-            "patch": "4.31"
+            "cNext": ["q.66523"]
         },
         "x66536": {
-            "level": 45,
             "name_en": "Heart of Cermet",
             "name_fr": "S'en mettre plein les fouilles",
+            "level": 45,
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cPrev": ["q.66534"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66534"]
         },
         "x65700": {
-            "level": 50,
             "name_en": "Magiteknical Difficulties",
             "name_fr": "Il est beau mon canon",
+            "level": 50,
             "npc_en": "Slafborn",
             "npc_fr": "Slafborn",
-            "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "patch": "2.3",
+            "cPrev": ["q.66060"]
         },
         "x66677": {
-            "level": 50,
             "name_en": "Morbid Motivation",
             "name_fr": "Échange de bons procédés",
+            "level": 50,
             "npc_en": "Brangwine",
             "npc_fr": "Brangwine",
             "unlock_en": "Mystery Map",
-            "cPrev": ["q.66676"],
-            "patch": "4.31"
+            "unlock_fr": "Mystery Map",
+            "patch": "2.28",
+            "cPrev": ["q.66676"]
         },
         "x66751": {
-            "level": 50,
             "name_en": "Maniac Manor",
             "name_fr": "Le manoir dont on ne revient pas",
-            "unlock": "d.19",
+            "level": 50,
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
+            "unlock": "d.19",
+            "patch": "2.1",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.19"]
         },
         "x66752": {
-            "level": 50,
             "name_en": "Out of Sight, Out of Mine",
             "name_fr": "Les profondeurs de Clochecuivre",
-            "unlock": "d.18",
+            "level": 50,
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
+            "unlock": "d.18",
+            "patch": "2.1",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.18"]
         },
         "x66946": {
-            "level": 50,
             "name_en": "This Time's for Fun",
             "name_fr": "L'invitation au carnage",
-            "unlock": "d.21",
+            "level": 50,
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
+            "unlock": "d.21",
+            "patch": "2.2",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.21"]
         },
         "x66947": {
-            "level": 50,
             "name_en": "Curds and Slay",
             "name_fr": "Une recette bien gardée",
-            "unlock": "d.20",
+            "level": 50,
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
+            "unlock": "d.20",
+            "patch": "2.2",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.20"]
         },
         "x66959": {
-            "level": 50,
             "name_en": "Just Tooling Around",
             "name_fr": "Les bons ouvriers ont toujours de bons outils",
+            "level": 50,
             "npc_en": "Guiding Star",
             "npc_fr": "Guiding Star",
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x67061": {
-            "level": 50,
             "name_en": "Blood for Stone",
             "name_fr": "La reprise du Vigile de Pierre",
-            "unlock": "d.25",
+            "level": 50,
             "npc_en": "Faillicie",
             "npc_fr": "Faillicie",
+            "unlock": "d.25",
+            "patch": "2.3",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.25"]
         },
         "x67062": {
-            "level": 50,
             "name_en": "King of the Hull",
             "name_fr": "Le trésor caché de Crèvecarène",
-            "unlock": "d.23",
+            "level": 50,
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
+            "unlock": "d.23",
+            "patch": "2.3",
             "cPrev": ["q.66060"],
             "cNext": ["q.67784"],
-            "patch": "4.31"
+            "cSiblings": ["d.23"]
         },
         "x66844": {
-            "level": 50,
             "name_en": "The Ultimate Ballad",
             "name_fr": "La ballade du fléau d'Ultima",
-            "unlock": "d.68",
+            "level": 50,
             "npc_en": "Alys",
             "npc_fr": "Alys",
+            "unlock": "d.68",
+            "patch": "2.1",
             "cPrev": ["q.66060"],
             "cNext": ["q.67095"],
-            "patch": "4.31"
+            "cSiblings": ["d.68"]
         },
         "x67095": {
-            "level": 50,
             "name_en": "Sing Me Another Song",
             "name_fr": "La ballade des vainqueurs des Méandres",
-            "unlock": ["d.103", "d.104", "d.105", "d.106"],
+            "level": 50,
             "npc_en": "Alys",
             "npc_fr": "Alys",
+            "unlock": ["d.103", "d.104", "d.105", "d.106"],
+            "patch": "2.3",
             "cPrev": ["q.66844"],
-            "patch": "4.31"
+            "cNext": ["d.103", "d.104", "d.105", "d.106"]
         },
         "x65630": {
-            "level": 50,
             "name_en": "It's Definitely Pirates",
             "name_fr": "Les oubliés de Sastasha",
-            "unlock": "d.28",
+            "level": 50,
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
+            "unlock": "d.28",
+            "patch": "2.4",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.28"]
         },
         "x65632": {
-            "level": 50,
             "name_en": "The Wrath of Qarn",
             "name_fr": "Les profanateurs de Qarn",
-            "unlock": "d.26",
+            "level": 50,
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
+            "unlock": "d.26",
+            "patch": "2.4",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.26"]
         },
         "x65966": {
-            "level": 50,
             "name_en": "For Keep's Sake",
             "name_fr": "Retour en piste à Amdapor",
-            "unlock": "d.29",
+            "level": 50,
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
+            "unlock": "d.29",
+            "patch": "2.5",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.29"]
         },
         "x65967": {
-            "level": 50,
             "name_en": "Not Easy Being Green",
             "name_fr": "Invasion au Palais du Vagabond",
-            "unlock": "d.30",
+            "level": 50,
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
+            "unlock": "d.30",
+            "patch": "2.5",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.30"]
         },
         "x67632": {
-            "level": 55,
             "name_en": "Beloved of the Builder",
             "name_fr": "De nouveaux sommets",
+            "level": 55,
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": ["q.67118"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67118"]
         },
         "x67633": {
-            "level": 56,
             "name_en": "No Longer a Collectable",
             "name_fr": "Le maître de l'éthérolyse",
+            "level": 56,
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": ["q.67118"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67118"]
         },
         "x67634": {
-            "level": 60,
             "name_en": "Go West, Craftsman",
             "name_fr": "De nouveaux horizons",
+            "level": 60,
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
             "unlock_en": "Aetherial Reduction",
+            "unlock_fr": "Aetherial Reduction",
+            "patch": "3.0",
             "cPrev": ["q.67118", "q.67631"],
-            "cNext": ["q.67087", "q.67635", "q.68477", "q.69711", "q.69139", "q.69425", "q.69615"],
-            "patch": "4.31"
+            "cNext": ["q.67087", "q.67635", "q.68477", "q.69711", "q.69139", "q.69425", "q.69615"]
         },
         "x67739": {
-            "level": 60,
             "name_en": "Thordan's Reign",
             "name_fr": "La ballade du dieu autoproclamé",
-            "unlock": "d.91",
+            "level": 60,
             "npc_en": "Alys",
             "npc_fr": "Alys",
+            "unlock": "d.91",
+            "patch": "3.1",
             "cPrev": ["q.67205"],
-            "patch": "4.31"
+            "cNext": ["d.91"]
         },
         "x67825": {
-            "level": 60,
             "name_en": "Nidhogg's Rage",
             "name_fr": "La ballade de l'Avancée de la Foi",
-            "unlock": "d.170",
+            "level": 60,
             "npc_en": "Alys",
             "npc_fr": "Alys",
+            "unlock": "d.170",
+            "patch": "3.3",
             "cPrev": ["q.67783"],
-            "patch": "4.31"
+            "cNext": ["d.170"]
         },
         "x67644": {
-            "level": 60,
             "name_en": "A Song of Steam and Steel",
             "name_fr": "La ballade du géant mécanique",
-            "unlock": ["d.116", "d.117", "d.118", "d.119"],
+            "level": 60,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
+            "unlock": ["d.116", "d.117", "d.118", "d.119"],
+            "patch": "3.05",
             "cPrev": ["q.67630"],
-            "patch": "4.31"
+            "cNext": ["d.116", "d.117", "d.118", "d.119"]
         },
         "x67790": {
-            "level": 60,
             "name_en": "A Refrain for the Undaunted",
             "name_fr": "Un chant mythologico-mécanique",
-            "unlock": ["d.147", "d.148", "d.149", "d.150"],
+            "level": 60,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
+            "unlock": ["d.147", "d.148", "d.149", "d.150"],
+            "patch": "3.2",
             "cPrev": ["q.67789"],
-            "patch": "4.31"
+            "cNext": ["d.147", "d.148", "d.149", "d.150"]
         },
         "x67876": {
-            "level": 60,
             "name_en": "Who Lives, Who Dies, Who Retells Your Story",
             "name_fr": "Un lied mécanico-temporel",
-            "unlock": ["d.186", "d.187", "d.188", "d.189"],
+            "level": 60,
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
+            "unlock": ["d.190", "d.191", "d.192", "d.193"],
+            "patch": "3.4",
             "cPrev": ["q.67875"],
-            "patch": "4.31"
+            "cNext": ["d.190", "d.191", "d.192", "d.193"]
         },
         "x68722": {
-            "level": 70,
             "name_en": "Take with a Tonze of Salt",
             "name_fr": "La Salaisonnerie a fait des petits",
+            "level": 70,
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["q.68717"],
-            "patch": "4.5"
+            "patch": "4.5",
+            "cPrev": ["q.68717"]
         }
     }
 }

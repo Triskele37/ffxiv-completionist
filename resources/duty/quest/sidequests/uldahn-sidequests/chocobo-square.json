@@ -4,23 +4,23 @@
     "groupName_fr": "Square des chocobos",
     "tasks": {
         "x65972": {
-            "level": 15,
             "name_en": "So You Want to Be a Jockey",
             "name_fr": "Avant de faire les courses",
+            "level": 15,
             "npc_en": "Race Chocobo Registrar",
             "npc_fr": "Responsable Des Inscriptions",
+            "patch": "2.51",
             "cPrev": ["q.65970"],
-            "cNext": ["q.66101"],
-            "patch": "4.31"
+            "cNext": ["q.66101"]
         },
         "x66112": {
-            "level": 15,
             "name_en": "Like Sire Like Fledgling",
-            "name_fr": "Comment on fait les bébés chocobos?",
+            "name_fr": "Comment on fait les bébés chocobos ?",
+            "level": 15,
             "npc_en": "Chocobokeep",
             "npc_fr": "Écuyère",
-            "cPrev": ["q.66101"],
-            "patch": "4.31"
+            "patch": "2.51",
+            "cPrev": ["q.66101"]
         }
     }
 }

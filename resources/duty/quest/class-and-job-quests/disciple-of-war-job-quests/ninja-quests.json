@@ -4,229 +4,229 @@
     "groupName_fr": "Quêtes de ninja",
     "tasks": {
         "x65748": {
-            "level": 30,
             "name_en": "Peasants by Day, Ninjas by Night",
             "name_fr": "Les visiteurs de l'ombre",
+            "level": 30,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "unlock": "ap.175",
+            "patch": "2.4",
             "cPrev": ["q.65691", "q.66049"],
             "cNext": ["q.65749"],
-            "cSiblings": ["ap.175"],
-            "patch": "4.31",
-            "unlock": "ap.175"
+            "cSiblings": ["ap.175"]
         },
         "x65749": {
-            "level": 30,
             "name_en": "My First Mudra",
             "name_fr": "Le cœur et les lames",
+            "level": 30,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65748"],
-            "cNext": ["q.65750"],
-            "patch": "4.31"
+            "cNext": ["q.65750"]
         },
         "x65750": {
-            "level": 35,
             "name_en": "Killer Combinations",
             "name_fr": "Il ne suffira pas d'un signe",
+            "level": 35,
             "npc_en": "Tsubame",
             "npc_fr": "Tsubame",
+            "patch": "2.4",
             "cPrev": ["q.65749"],
-            "cNext": ["q.65751"],
-            "patch": "4.31"
+            "cNext": ["q.65751"]
         },
         "x65751": {
-            "level": 35,
             "name_en": "Once Upon a Time in Doma",
             "name_fr": "L'épreuve de la cascade",
+            "level": 35,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65750"],
-            "cNext": ["q.65752"],
-            "patch": "4.31"
+            "cNext": ["q.65752"]
         },
         "x65752": {
-            "level": 40,
             "name_en": "Pirates versus Ninjas",
             "name_fr": "La chasse est ouverte",
+            "level": 40,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65751"],
-            "cNext": ["q.65753"],
-            "patch": "4.31"
+            "cNext": ["q.65753"]
         },
         "x65753": {
-            "level": 40,
             "name_en": "Ninja Bathin'",
             "name_fr": "Sur les traces de Karasu",
+            "level": 40,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65752"],
-            "cNext": ["q.65768"],
-            "patch": "4.31"
+            "cNext": ["q.65768"]
         },
         "x65768": {
-            "level": 45,
             "name_en": "Tough Guys",
             "name_fr": "Tenue de ninja exigée",
+            "level": 45,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65753"],
-            "cNext": ["q.65769"],
-            "patch": "4.31"
+            "cNext": ["q.65769"]
         },
         "x65769": {
-            "level": 45,
             "name_en": "The Crow Knows",
             "name_fr": "À cœur ouvert",
+            "level": 45,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65768"],
-            "cNext": ["q.65770"],
-            "patch": "4.31"
+            "cNext": ["q.65770"]
         },
         "x65770": {
-            "level": 50,
             "name_en": "Master and Student",
             "name_fr": "Écouter son cœur",
+            "level": 50,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "2.4",
             "cPrev": ["q.65769"],
             "cNext": ["q.67115", "q.65771"],
-            "cSiblings": ["a.1052"],
-            "patch": "4.31"
+            "cSiblings": ["a.1052"]
         },
         "x67115": {
-            "level": 50,
             "name_en": "A Relic Reborn (Yoshimitsu)",
             "name_fr": "Restauration des Yoshimitsu",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.65770", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.4",
+            "cPrev": ["q.65770", "q.66241"]
         },
         "x65771": {
-            "level": 50,
             "name_en": "Strangers in a Strange Land",
             "name_fr": "De nouveaux visiteurs d'Orient",
+            "level": 50,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.65770", "q.65964"],
-            "cNext": ["q.67220"],
-            "patch": "4.31"
+            "cNext": ["q.67220"]
         },
         "x67220": {
-            "level": 52,
             "name_en": "The Impossible Girl",
             "name_fr": "Une princesse forte tête",
+            "level": 52,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.65771"],
-            "cNext": ["q.67221"],
-            "patch": "4.31"
+            "cNext": ["q.67221"]
         },
         "x67221": {
-            "level": 54,
             "name_en": "Ninja Assassin",
             "name_fr": "La dernière ombre",
+            "level": 54,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.67220"],
-            "cNext": ["q.67222"],
-            "patch": "4.31"
+            "cNext": ["q.67222"]
         },
         "x67222": {
-            "level": 56,
             "name_en": "Medieval Espionage",
             "name_fr": "Une promesse, une mission",
+            "level": 56,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.67221"],
-            "cNext": ["q.67223"],
-            "patch": "4.31"
+            "cNext": ["q.67223"]
         },
         "x67223": {
-            "level": 58,
             "name_en": "Staying Alive",
             "name_fr": "Sieste en forêt",
+            "level": 58,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.67222"],
-            "cNext": ["q.67224"],
-            "patch": "4.31"
+            "cNext": ["q.67224"]
         },
         "x67224": {
-            "level": 60,
             "name_en": "In Her Defense",
             "name_fr": "Unis pour Inokuni",
+            "level": 60,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "3.0",
             "cPrev": ["q.67223"],
             "cNext": ["q.68484"],
-            "cSiblings": ["a.1150"],
-            "patch": "4.31"
+            "cSiblings": ["a.1150"]
         },
         "x68484": {
-            "level": 60,
             "name_en": "Search for the Stolen Scroll",
             "name_fr": "À la poursuite du parchemin perdu",
+            "level": 60,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "4.0",
             "cPrev": ["q.67224", "q.67895"],
-            "cNext": ["q.68485"],
-            "patch": "4.31"
+            "cNext": ["q.68485"]
         },
         "x68485": {
-            "level": 63,
             "name_en": "Ninja Bathin' Redux",
             "name_fr": "Un, deux, trois, nous irons aux bains",
+            "level": 63,
             "npc_en": "Yomei",
             "npc_fr": "Yomei",
+            "patch": "4.0",
             "cPrev": ["q.68484"],
-            "cNext": ["q.68486"],
-            "patch": "4.31"
+            "cNext": ["q.68486"]
         },
         "x68486": {
-            "level": 65,
             "name_en": "A Game of Life and Death",
             "name_fr": "La renarde et les oisillons",
+            "level": 65,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "4.0",
             "cPrev": ["q.68485"],
-            "cNext": ["q.68487"],
-            "patch": "4.31"
+            "cNext": ["q.68487"]
         },
         "x68487": {
-            "level": 68,
             "name_en": "True Enlightenment",
             "name_fr": "L'histoire secrète de Sasuke",
+            "level": 68,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "4.0",
             "cPrev": ["q.68486"],
-            "cNext": ["q.68488"],
-            "patch": "4.31"
+            "cNext": ["q.68488"]
         },
         "x68488": {
-            "level": 70,
             "name_en": "When Clans Collide",
             "name_fr": "La bataille des clans",
+            "level": 70,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
+            "patch": "4.0",
             "cPrev": ["q.68487"],
             "cNext": ["q.68755"],
-            "cSiblings": ["a.1806"],
-            "patch": "4.31"
+            "cSiblings": ["a.1806"]
         },
         "x68755": {
-            "level": 80,
             "name_en": "Oboro's Big Idea",
             "name_fr": "Et pour quelques coupes de plus",
+            "level": 80,
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": ["q.68488", "q.68814", "q.69190"],
-            "cSiblings": ["ap.310", "a.2315"],
+            "unlock": "ap.310",
             "patch": "5.0",
-            "unlock": "ap.310"
+            "cPrev": ["q.68488", "q.68814", "q.69190"],
+            "cSiblings": ["ap.310", "a.2315"]
         }
     }
 }

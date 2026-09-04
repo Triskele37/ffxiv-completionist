@@ -4,244 +4,274 @@
     "cCombo": ["a.738"],
     "tasks": {
         "x0": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 01",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(20, 27)",
+            "rank": "1",
             "mob_en": "Amalj'aa Hunter x3",
-            "mob_fr": "Chasseur amalj'aa x3"
+            "mob_fr": "Chasseur amalj'aa x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(20, 27)",
+            "patch": "2.0"
         },
         "x1": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 02",
+            "rank": "1",
+            "mob_en": "Doctore x3",
+            "mob_fr": "Laniste x3",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Doctore x3",
-            "mob_fr": "Laniste x3"
+            "patch": "2.0"
         },
         "x2": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 03",
+            "rank": "1",
+            "mob_en": "Firemane x1",
+            "mob_fr": "Crin-de-feu x1",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Firemane x1",
-            "mob_fr": "Crin-de-feu x1"
+            "patch": "2.0"
         },
         "x3": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 04",
+            "rank": "1",
+            "mob_en": "Thunderclap Guivre x1",
+            "mob_fr": "Guivre foudroyante x1",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Thunderclap Guivre x1",
-            "mob_fr": "Guivre foudroyante x1"
+            "patch": "2.0"
         },
         "x4": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 05",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(19, 21)",
+            "rank": "1",
             "mob_en": "Sylvan Sough x3",
-            "mob_fr": "Mumureur sylvain x3"
+            "mob_fr": "Mumureur sylvain x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(19, 21)",
+            "patch": "2.0"
         },
         "x5": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 06",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(11, 22)",
+            "rank": "1",
             "mob_en": "Kobold Footman x3",
-            "mob_fr": "Fantassin kobold x3"
+            "mob_fr": "Fantassin kobold x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(11, 22)",
+            "patch": "2.0"
         },
         "x6": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 07",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(12, 22)",
+            "rank": "1",
             "mob_en": "Kobold Pickman x3",
-            "mob_fr": "Piocheur kobold x3"
+            "mob_fr": "Piocheur kobold x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(12, 22)",
+            "patch": "2.0"
         },
         "x7": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 08",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(20, 15)",
+            "rank": "1",
             "mob_en": "Amalj'aa Seer x3",
-            "mob_fr": "Voyant amalj'aa x3"
+            "mob_fr": "Voyant amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(20, 15)",
+            "patch": "2.0"
         },
         "x8": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 09",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(22, 28)",
+            "rank": "1",
             "mob_en": "Ixali Lightwing x3",
-            "mob_fr": "Ixal aile-légère x3"
+            "mob_fr": "Ixal aile-légère x3",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(22, 28)",
+            "patch": "2.0"
         },
         "x9": {
-            "rank": "1",
             "name": "@SOCIETY.FLAMES 10",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(32, 27)",
+            "rank": "1",
             "mob_en": "Ixali Boundwing x1",
-            "mob_fr": "Ixal aile-garrotée x1"
+            "mob_fr": "Ixal aile-garrotée x1",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(32, 27)",
+            "patch": "2.0"
         },
         "x10": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 11",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(26, 34)",
+            "rank": "2",
             "mob_en": "Amalj'aa Halberdier x3",
-            "mob_fr": "Hallebardier amalj'aa x3"
+            "mob_fr": "Hallebardier amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(26, 34)",
+            "patch": "2.0"
         },
         "x11": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 12",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(28, 25)",
+            "rank": "2",
             "mob_en": "Kobold Missionary x3",
-            "mob_fr": "Missionaire kobold x3"
+            "mob_fr": "Missionaire kobold x3",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(28, 25)",
+            "patch": "2.0"
         },
         "x12": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 13",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(29, 18)",
+            "rank": "2",
             "mob_en": "Kobold Sidesman x3",
-            "mob_fr": "Bedeau kobold x3"
+            "mob_fr": "Bedeau kobold x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(29, 18)",
+            "patch": "2.0"
         },
         "x13": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 14",
+            "rank": "2",
+            "mob_en": "Sand Bat x3",
+            "mob_fr": "Chauve-souris des sables x3",
             "zone": "@PLACE.DUNGEON",
             "location": "d.12",
-            "mob_en": "Sand Bat x3",
-            "mob_fr": "Chauve-souris des sables x3"
+            "patch": "2.0"
         },
         "x14": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 15",
+            "rank": "2",
+            "mob_en": "Sabotender Desertor x2",
+            "mob_fr": "Pampa déserteur x2",
             "zone": "@PLACE.DUNGEON",
             "location": "d.12",
-            "mob_en": "Sabotender Desertor x2",
-            "mob_fr": "Pampa déserteur x2"
+            "patch": "2.0"
         },
         "x15": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 16",
+            "rank": "2",
+            "mob_en": "Myrmidon Princess x1",
+            "mob_fr": "Princesse myrmidone x1",
             "zone": "@PLACE.DUNGEON",
             "location": "d.12",
-            "mob_en": "Myrmidon Princess x1",
-            "mob_fr": "Princesse myrmidone x1"
+            "patch": "2.0"
         },
         "x16": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 17",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(23, 16)",
+            "rank": "2",
             "mob_en": "Kobold Quarryman x3",
-            "mob_fr": "Terrassier kobold x3"
+            "mob_fr": "Terrassier kobold x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(23, 16)",
+            "patch": "2.0"
         },
         "x17": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 18",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(25, 24)",
+            "rank": "2",
             "mob_en": "Sylvan Screech x3",
-            "mob_fr": "Crieur sylvain x3"
+            "mob_fr": "Crieur sylvain x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(25, 24)",
+            "patch": "2.0"
         },
         "x18": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 19",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(19, 22)",
+            "rank": "2",
             "mob_en": "Shelfsprine Sahagin x3",
-            "mob_fr": "Sahuagin épine-des-profondeurs"
+            "mob_fr": "Sahuagin épine-des-profondeurs",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(19, 22)",
+            "patch": "2.0"
         },
         "x19": {
-            "rank": "2",
             "name": "@SOCIETY.FLAMES 20",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(24, 28)",
+            "rank": "2",
             "mob_en": "Amalj'aa Archer x3",
-            "mob_fr": "Archer amalj'aa x3"
+            "mob_fr": "Archer amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(24, 28)",
+            "patch": "2.0"
         },
         "x20": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 21",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(20, 20)",
+            "rank": "3",
             "mob_en": "Ixali Windtalon x3",
-            "mob_fr": "Ixal serres-vent x3"
+            "mob_fr": "Ixal serres-vent x3",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(20, 20)",
+            "patch": "2.0"
         },
         "x21": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 22",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(21, 10)",
+            "rank": "3",
             "mob_en": "Sylpheed Sigh x3",
-            "mob_fr": "Soupireur sylphe x3"
+            "mob_fr": "Soupireur sylphe x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(21, 10)",
+            "patch": "2.0"
         },
         "x22": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 23",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(21, 9)",
+            "rank": "3",
             "mob_en": "U'Ghamaro Priest x3",
-            "mob_fr": "Prêtre d'U'Ghamaro x3"
+            "mob_fr": "Prêtre d'U'Ghamaro x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(21, 9)",
+            "patch": "2.0"
         },
         "x23": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 24",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(15, 15)",
+            "rank": "3",
             "mob_en": "Sapsa Shelfspine x3",
-            "mob_fr": "Épine-des-profondeurs de Sapsa x3"
+            "mob_fr": "Épine-des-profondeurs de Sapsa x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(15, 15)",
+            "patch": "2.0"
         },
         "x24": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 25",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(32, 18)",
+            "rank": "3",
             "mob_en": "Zahar'ak Thaumaturge x3",
-            "mob_fr": "Occultiste de Zahar'ak x3"
+            "mob_fr": "Occultiste de Zahar'ak x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(32, 18)",
+            "patch": "2.0"
         },
         "x25": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 26",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 17)",
+            "rank": "3",
             "mob_en": "Natalan Windtalon x4",
-            "mob_fr": "Serres-vent de Natalan x4"
+            "mob_fr": "Serres-vent de Natalan x4",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 17)",
+            "patch": "2.0"
         },
         "x26": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 27",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 18)",
+            "rank": "3",
             "mob_en": "Natalan Boldwing x5",
-            "mob_fr": "Aile-hardie de Natalan x5"
+            "mob_fr": "Aile-hardie de Natalan x5",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 18)",
+            "patch": "2.0"
         },
         "x27": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 28",
+            "rank": "3",
+            "mob_en": "Tonberry x8",
+            "mob_fr": "Tomberry x8",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Tonberry x8",
-            "mob_fr": "Tomberry x8"
+            "patch": "2.0"
         },
         "x28": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 29",
+            "rank": "3",
+            "mob_en": "Corrupted Nymian x3",
+            "mob_fr": "Nymien corrompu x3",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Corrupted Nymian x3",
-            "mob_fr": "Nymien corrompu x3"
+            "patch": "2.0"
         },
         "x29": {
-            "rank": "3",
             "name": "@SOCIETY.FLAMES 30",
+            "rank": "3",
+            "mob_en": "Soldier of Nym x3",
+            "mob_fr": "Soldat de Nym x3",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Soldier of Nym x3",
-            "mob_fr": "Soldat de Nym x3"
+            "patch": "2.0"
         }
     }
 }

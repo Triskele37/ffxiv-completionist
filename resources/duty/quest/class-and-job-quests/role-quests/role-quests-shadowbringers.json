@@ -4,23 +4,23 @@
     "groupName_fr": "Quêtes de rôle (Shadowbringers)",
     "tasks": {
         "x69165": {
-            "level": 80,
             "name_en": "Shadow Walk with Me",
             "name_fr": "L'héroïne de l'ombre",
+            "level": 80,
             "npc_en": "Glynard",
             "npc_fr": "Glynard",
+            "patch": "5.0",
             "cNext": ["q.69521"],
-            "cSiblings": ["a.2305"],
-            "patch": "5.0"
+            "cSiblings": ["a.2305"]
         },
         "x69521": {
-            "level": 80,
             "name_en": "Safekeeping",
             "name_fr": "Les cristaux du souvenir",
+            "level": 80,
             "npc_en": "Cyella",
             "npc_fr": "Cyella",
-            "cPrev": ["q.69165", "q.69318"],
-            "patch": "5.4"
+            "patch": "5.4",
+            "cPrev": ["q.69165", "q.69318"]
         }
     }
 }

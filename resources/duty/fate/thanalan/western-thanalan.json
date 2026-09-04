@@ -1,150 +1,150 @@
 {
     "key": "western-thanalan",
-    "groupName": "@PLACE.WESTERN_THANALAN",
+    "groupName": "@PLACE.ARR.WESTERN_THANALAN",
     "tasks": {
         "x342": {
-            "level": 5,
             "name_en": "Needles to Slay",
             "name_fr": "Épineux végétaux",
+            "level": 5,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x356": {
-            "level": 5,
             "name_en": "A Matter of Rust",
             "name_fr": "Une question de minerai",
+            "level": 5,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x343": {
-            "level": 6,
             "name_en": "Things that Make You Go Home",
             "name_fr": "Investir dans la pierre",
+            "level": 6,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x344": {
-            "level": 8,
             "name_en": "Deface the Facts",
             "name_fr": "V pour vandalisme",
+            "level": 8,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(20, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x345": {
-            "level": 8,
             "name_en": "Please Hammers, Don't Hurt Them",
             "name_fr": "Bruyants volatiles",
+            "level": 8,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x346": {
-            "level": 8,
             "name_en": "The Cores",
             "name_fr": "Le nerf de la terre",
+            "level": 8,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(17, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x347": {
-            "level": 9,
             "name_en": "Doomed",
             "name_fr": "Défi : maudit crapaud maudit",
+            "level": 9,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(24, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x348": {
-            "level": 9,
             "name_en": "The Villain",
             "name_fr": "Défi : le hors-la-loi",
+            "level": 9,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(22, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x349": {
-            "level": 10,
             "name_en": "Copied Peistes",
             "name_fr": "La peste soit des peistes",
+            "level": 10,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x350": {
-            "level": 10,
             "name_en": "Dog Eat Dog",
             "name_fr": "Attention, hourets méchants",
+            "level": 10,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x361": {
-            "level": 10,
             "name_en": "Pound for Pound",
             "name_fr": "Coup sur coup",
+            "level": 10,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x352": {
-            "level": 13,
             "name_en": "Bigger Fish to Fry",
             "name_fr": "Sauvetage de pêcheurs",
+            "level": 13,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 16)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x353": {
-            "level": 13,
             "name_en": "Bubble Trouble",
             "name_fr": "Défi : douceur locale",
+            "level": 13,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15, 16)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x367": {
-            "level": 20,
             "name_en": "Staying Dead",
             "name_fr": "Retour à la mort",
+            "level": 20,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 11)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x357": {
-            "level": 21,
             "name_en": "There Might Be Giants",
             "name_fr": "Défi : un gênant géant",
+            "level": 21,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13, 10)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x354": {
-            "level": 22,
             "name_en": "Tripped Up by the Fruit of Another",
             "name_fr": "Attention, sol glissant",
+            "level": 22,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(14, 9)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.0"
         },
         "x366": {
-            "level": 22,
             "name_en": "He's Got Legs",
             "name_fr": "Défi : le monstre aux grandes pattes",
+            "level": 22,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 6)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x355": {
-            "level": 23,
             "name_en": "Juggernaut Down",
             "name_fr": "Les décombres du juggernaut",
+            "level": 23,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 7)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         }
     }
 }

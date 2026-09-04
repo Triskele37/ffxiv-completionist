@@ -4,72 +4,72 @@
     "groupName_fr": "La Tarufacture de Tataru",
     "tasks": {
         "x70119": {
-            "level": 90,
             "name_en": "Small Business, Big Dreams",
             "name_fr": "Opération promotionnelle",
+            "level": 90,
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
+            "patch": "6.15",
             "cPrev": ["q.70062"],
-            "cNext": ["q.70186", "q.70198"],
-            "patch": "6.28"
+            "cNext": ["q.70186", "q.70198"]
         },
         "x70186": {
-            "level": 90,
             "name_en": "Soaring Profits",
             "name_fr": "Échantillons et tribulations",
+            "level": 90,
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": ["q.70119"],
-            "patch": "6.28"
+            "patch": "6.2",
+            "cPrev": ["q.70119"]
         },
         "x70198": {
-            "level": 90,
             "name_en": "An Auspicious Opportunity",
             "name_fr": "Arnaque, couture et boutique",
+            "level": 90,
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": ["q.70119"],
-            "patch": "6.3"
+            "patch": "6.3",
+            "cPrev": ["q.70119"]
         },
         "x70297": {
-            "level": 90,
             "name_en": "Aggressive Expansion",
             "name_fr": "Voyageur, représentant et... pilote",
+            "level": 90,
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
+            "patch": "6.4",
             "cPrev": ["q.70119"],
-            "cNext": ["q.70298"],
-            "patch": "6.4"
+            "cNext": ["q.70298"]
         },
         "x70298": {
-            "level": 90,
             "name_en": "Forever in Our Hearts",
             "name_fr": "Son rêve, le temps d'une toile",
+            "level": 90,
             "npc_en": "Gaius",
             "npc_fr": "Gaius",
-            "cPrev": ["q.70297"],
-            "patch": "6.4"
+            "patch": "6.4",
+            "cPrev": ["q.70297"]
         },
         "x70348": {
-            "level": 90,
             "name_en": "Treasured Bonds",
             "name_fr": "L'appel des racines",
+            "level": 90,
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
+            "patch": "6.55",
             "cPrev": ["q.70186", "q.70198"],
-            "cNext": ["q.70349"],
-            "patch": "6.55"
+            "cNext": ["q.70349"]
         },
         "x70349": {
-            "level": 90,
             "name_en": "More Precious than Gil",
-            "name_fr": "Longue vie à la Tarufacture!",
+            "name_fr": "Longue vie à la Tarufacture !",
+            "level": 90,
             "npc_en": "Hasdahd",
             "npc_fr": "Hasdahd",
-            "cPrev": ["q.70348"],
-            "cSiblings": ["a.3410"],
+            "unlock": ["ap.573", "b.95"],
             "patch": "6.55",
-            "unlock": ["ap.573", "b.95"]
+            "cPrev": ["q.70348"],
+            "cSiblings": ["a.3410"]
         }
     }
 }

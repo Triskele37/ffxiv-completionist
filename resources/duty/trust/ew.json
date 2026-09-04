@@ -8,79 +8,79 @@
         "x0": {
             "name_en": "Alphinaud",
             "name_fr": "Alphinaud",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.HEALER",
-            "patch":  "6.0",
+            "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x1": {
             "name_en": "Alisaie",
             "name_fr": "Alisaie",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.RANGED_MAGICAL_DPS",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x2": {
             "name_en": "Thancred",
             "name_fr": "Thancred",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.TANK",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x3": {
             "name_en": "Urianger",
             "name_fr": "Urianger",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.HEALER",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x4": {
             "name_en": "Y'shtola",
             "name_fr": "Y'shtola",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.RANGED_MAGICAL_DPS",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x6": {
             "name_en": "Estinien",
             "name_fr": "Estinien",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.MELEE_DPS",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         },
         "x5": {
             "name_en": "G'raha Tia",
             "name_fr": "G'raha Tia",
-            "minValue": 81,
-            "maxValue": 90,
             "role": "@ROLE.ALL_ROUNDER",
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            }
+            },
+            "minValue": 81,
+            "maxValue": 90
         }
     }
 }

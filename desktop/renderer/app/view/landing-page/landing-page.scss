@@ -1,0 +1,12 @@
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+
+    .text-container {
+        padding: 10px;
+    }
+
+    .p-button-link {
+        width: min-content;
+    }
+}

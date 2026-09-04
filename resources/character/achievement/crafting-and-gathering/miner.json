@@ -8,8 +8,8 @@
             "name_fr": "Payer de mine : la Noscea I",
             "description_en": "Mine 20 times at level 1-10 mineral deposits in La Noscea.",
             "description_fr": "Extraire 20 fois dans des filons ou carrières de niveaux 1 à 10 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.190"]
         },
         "x186": {
@@ -17,8 +17,8 @@
             "name_fr": "Payer de mine : la Noscea II",
             "description_en": "Mine 300 times at level 11-20 mineral deposits in La Noscea.",
             "description_fr": "Extraire 300 fois dans des filons ou carrières de niveaux 11 à 20 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.190"]
         },
         "x187": {
@@ -26,8 +26,8 @@
             "name_fr": "Payer de mine : la Noscea III",
             "description_en": "Mine 1,000 times at level 21-30 mineral deposits in La Noscea.",
             "description_fr": "Extraire 1 000 fois dans des filons ou carrières de niveaux 21 à 30 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.190"]
         },
         "x188": {
@@ -35,8 +35,8 @@
             "name_fr": "Payer de mine : la Noscea IV",
             "description_en": "Mine 2,000 times at level 31-40 mineral deposits in La Noscea.",
             "description_fr": "Extraire 2 000 fois dans des filons ou carrières de niveaux 31 à 40 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.190"]
         },
         "x189": {
@@ -44,8 +44,8 @@
             "name_fr": "Payer de mine : la Noscea V",
             "description_en": "Mine 4,000 times at level 41-50 mineral deposits in La Noscea.",
             "description_fr": "Extraire 4 000 fois dans des filons ou carrières de niveaux 41 à 50 dans la Noscea.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.190"]
         },
         "x190": {
@@ -53,20 +53,20 @@
             "name_fr": "Bonne pioche : la Noscea",
             "description_en": "Obtain all five “Mining Your Own Business: La Noscea” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Payer de mine : la Noscea”.",
+            "points": 10,
             "reward": "t.25",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.185", "a.186", "a.187", "a.188", "a.189"],
-            "cSiblings": ["t.25"],
-            "cCombo": ["a.203"]
+            "cCombo": ["a.203"],
+            "cSiblings": ["t.25"]
         },
         "x191": {
             "name_en": "Mining Your Own Business: Black Shroud I",
             "name_fr": "Payer de mine : Sombrelinceul I",
             "description_en": "Mine 20 times at level 1-10 mineral deposits in the Black Shroud.",
             "description_fr": "Extraire 20 fois dans des filons ou carrières de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.196"]
         },
         "x192": {
@@ -74,8 +74,8 @@
             "name_fr": "Payer de mine : Sombrelinceul II",
             "description_en": "Mine 300 times at level 11-20 mineral deposits in the Black Shroud.",
             "description_fr": "Extraire 300 fois dans des filons ou carrières de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.196"]
         },
         "x193": {
@@ -83,8 +83,8 @@
             "name_fr": "Payer de mine : Sombrelinceul III",
             "description_en": "Mine 1,000 times at level 21-30 mineral deposits in the Black Shroud.",
             "description_fr": "Extraire 1 000 fois dans des filons ou carrières de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.196"]
         },
         "x194": {
@@ -92,8 +92,8 @@
             "name_fr": "Payer de mine : Sombrelinceul IV",
             "description_en": "Mine 2,000 times at level 31-40 mineral deposits in the Black Shroud.",
             "description_fr": "Extraire 2 000 fois dans des filons ou carrières de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.196"]
         },
         "x195": {
@@ -101,8 +101,8 @@
             "name_fr": "Payer de mine : Sombrelinceul V",
             "description_en": "Mine 4,000 times at level 41-50 mineral deposits in the Black Shroud.",
             "description_fr": "Extraire 4 000 fois dans des filons ou carrières de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.196"]
         },
         "x196": {
@@ -110,20 +110,20 @@
             "name_fr": "Bonne pioche : Sombrelinceul",
             "description_en": "Obtain all five “Mining Your Own Business: Black Shroud” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Payer de mine : Sombrelinceul”.",
+            "points": 10,
             "reward": "t.26",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.191", "a.192", "a.193", "a.194", "a.195"],
-            "cSiblings": ["t.26"],
-            "cCombo": ["a.203"]
+            "cCombo": ["a.203"],
+            "cSiblings": ["t.26"]
         },
         "x197": {
             "name_en": "Mining Your Own Business: Thanalan I",
             "name_fr": "Payer de mine : Thanalan I",
             "description_en": "Mine 20 times at level 1-10 mineral deposits in Thanalan.",
             "description_fr": "Extraire 20 fois dans des filons ou carrières de niveaux 1 à 10 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.202"]
         },
         "x198": {
@@ -131,8 +131,8 @@
             "name_fr": "Payer de mine : Thanalan II",
             "description_en": "Mine 300 times at level 11-20 mineral deposits in Thanalan.",
             "description_fr": "Extraire 300 fois dans des filons ou carrières de niveaux 11 à 20 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.202"]
         },
         "x199": {
@@ -140,8 +140,8 @@
             "name_fr": "Payer de mine : Thanalan III",
             "description_en": "Mine 1,000 times at level 21-30 mineral deposits in Thanalan.",
             "description_fr": "Extraire 1 000 fois dans des filons ou carrières de niveaux 21 à 30 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.202"]
         },
         "x200": {
@@ -149,8 +149,8 @@
             "name_fr": "Payer de mine : Thanalan IV",
             "description_en": "Mine 2,000 times at level 31-40 mineral deposits in Thanalan.",
             "description_fr": "Extraire 2 000 fois dans des filons ou carrières de niveaux 31 à 40 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.202"]
         },
         "x201": {
@@ -158,8 +158,8 @@
             "name_fr": "Payer de mine : Thanalan V",
             "description_en": "Mine 4,000 times at level 41-50 mineral deposits in Thanalan.",
             "description_fr": "Extraire 4 000 fois dans des filons ou carrières de niveaux 41 à 50 dans le Thanalan.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.202"]
         },
         "x202": {
@@ -167,22 +167,22 @@
             "name_fr": "Bonne pioche : Thanalan",
             "description_en": "Obtain all five “Mining Your Own Business: Thanalan” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Payer de mine : Thanalan”.",
+            "points": 10,
             "reward": "t.27",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.197", "a.198", "a.199", "a.200", "a.201"],
-            "cSiblings": ["t.27"],
-            "cCombo": ["a.203"]
+            "cCombo": ["a.203"],
+            "cSiblings": ["t.27"]
         },
         "x203": {
             "name_en": "A Miner's Life for Me: Greater Eorzea",
             "name_fr": "Prospecteur prolifique",
             "description_en": "Obtain the “A Miner's Life for Me” achievements for La Noscea, the Black Shroud, and Thanalan.",
             "description_fr": "Accomplir les trois hauts faits de la série “Bonne pioche”.",
+            "points": 30,
             "reward_en": "Pick of the Luminary",
             "reward_fr": "Pioche de virtuose",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.190", "a.196", "a.202"]
         },
         "x1309": {
@@ -190,48 +190,48 @@
             "name_fr": "Payer de mine : terres du nord",
             "description_en": "Gather 5,000 times at level 51-60 mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveaux 51 à 60.",
-            "patch": "3.0",
-            "points": 10
+            "points": 10,
+            "patch": "3.0"
         },
         "x1857": {
             "name_en": "Mining Stormblood",
             "name_fr": "Payer de mine : terres de l'est",
             "description_en": "Gather 5,000 times at level 61-70 mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveau 61 à 70.",
-            "patch": "4.0",
-            "points": 10
+            "points": 10,
+            "patch": "4.0"
         },
         "x2289": {
             "name_en": "Mining Shadowbringers",
             "name_fr": "Payer de mine : terres de Ténèbres",
             "description_en": "Gather 5,000 times at level 71-80 mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveau 71 à 80.",
-            "patch": "5.0",
-            "points": 10
+            "points": 10,
+            "patch": "5.0"
         },
         "x2937": {
             "name_en": "Mining the End",
             "name_fr": "Payer de mine : terres des finitudes",
             "description_en": "Gather 5,000 times at level 81-90 mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveau 81 à 90.",
-            "patch": "6.0",
-            "points": 10
+            "points": 10,
+            "patch": "6.0"
         },
         "x3476": {
-            "description_en": "Gather 5,000 times at level 91-100 mineral deposits or rocky outcrops.",
-            "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveau 91 à 100.",
             "name_en": "Mining Dawntrail",
             "name_fr": "Payer de mine : terres de l'aurore",
-            "patch": "7.0",
-            "points": 10
+            "description_en": "Gather 5,000 times at level 91-100 mineral deposits or rocky outcrops.",
+            "description_fr": "Extraire 5 000 fois dans des filons ou carrières de niveau 91 à 100.",
+            "points": 10,
+            "patch": "7.0"
         },
         "x719": {
             "name_en": "I Found That: Miner I",
             "name_fr": "Carnet de notes : mineur I",
             "description_en": "Mine and record discovery of 15 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 15 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.720"]
         },
         "x720": {
@@ -239,8 +239,8 @@
             "name_fr": "Carnet de notes : mineur II",
             "description_en": "Mine and record discovery of 30 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 30 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.719"],
             "cNext": ["a.721"]
         },
@@ -249,10 +249,10 @@
             "name_fr": "Carnet de notes : mineur III",
             "description_en": "Mine and record discovery of 50 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 50 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
             "reward_en": "Master Miner's Ring",
             "reward_fr": "Anneau de maître mineur",
-            "patch": "2.1",
-            "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.720"],
             "cNext": ["a.1286"]
         },
@@ -261,8 +261,8 @@
             "name_fr": "Carnet de notes : mineur IV",
             "description_en": "Mine and record discovery of 100 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 100 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.721"],
             "cNext": ["a.1729"]
         },
@@ -271,10 +271,10 @@
             "name_fr": "Carnet de notes : mineur V",
             "description_en": "Mine and record discovery of 150 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 150 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
             "reward_en": "Blessed Minekeep's Pickaxe",
             "reward_fr": "Pioche de carrier bénie",
             "patch": "3.5",
-            "points": 10,
             "cPrev": ["a.1286"],
             "cNext": ["a.2174"]
         },
@@ -283,10 +283,10 @@
             "name_fr": "Carnet de notes : mineur VI",
             "description_en": "Mine and record discovery of 180 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 180 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
             "reward_en": "Blessed Mineking's Pickaxe",
             "reward_fr": "Pioche du roi des carrières bénie",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.1729"],
             "cNext": ["a.2830"]
         },
@@ -295,9 +295,9 @@
             "name_fr": "Carnet de notes : mineur VII",
             "description_en": "Mine and record discovery of 220 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 220 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
             "reward": "character.relic-gear.resplendent.8",
             "patch": "5.5",
-            "points": 10,
             "cPrev": ["a.2174"],
             "cNext": ["a.3375"]
         },
@@ -306,19 +306,29 @@
             "name_fr": "Carnet de notes : mineur VIII",
             "description_en": "Mine and record discovery of 260 unique items that can only be gathered as a miner.",
             "description_fr": "Récolter 260 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
             "reward": "t.702",
             "patch": "6.5",
-            "points": 10,
             "cPrev": ["a.2830"],
             "cSiblings": ["t.702"]
+        },
+        "x3981": {
+            "name_en": "I Found That: Miner IX",
+            "name_fr": "Carnet de notes : mineur IX",
+            "description_en": "Mine and record discovery of 280 unique items that can only be gathered as a miner.",
+            "description_fr": "Récolter 280 objets différents en tant que mineur et les avoir notés dans le carnet de récolte.",
+            "points": 10,
+            "reward": "t.862",
+            "patch": "7.5",
+            "cSiblings": ["t.862"]
         },
         "x774": {
             "name_en": "An Eye for Quantity: Miner I",
             "name_fr": "Bonne trouvaille : mineur I",
             "description_en": "Gather 300 items with the Gatherer's Boon effect as a miner.",
             "description_fr": "Récolter un total de 300 objets grâce aux chances de récolte supplémentaire en tant que mineur.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.775"]
         },
         "x775": {
@@ -326,8 +336,8 @@
             "name_fr": "Bonne trouvaille : mineur II",
             "description_en": "Gather 1,500 items with the Gatherer's Boon effect as a miner.",
             "description_fr": "Récolter un total de 1 500 objets grâce aux chances de récolte supplémentaire en tant que mineur.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.774"],
             "cNext": ["a.776"]
         },
@@ -336,8 +346,8 @@
             "name_fr": "Bonne trouvaille : mineur III",
             "description_en": "Gather 10,000 items with the Gatherer's Boon effect as a miner.",
             "description_fr": "Récolter un total de 10 000 objets grâce aux chances de récolte supplémentaire en tant que mineur.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.775"],
             "cNext": ["a.1329"]
         },
@@ -346,9 +356,9 @@
             "name_fr": "Bonne trouvaille : mineur IV",
             "description_en": "Gather 20,000 items with the Gatherer's Boon effect as a miner.",
             "description_fr": "Récolter un total de 20 000 objets grâce aux chances de récolte supplémentaire en tant que mineur.",
+            "points": 10,
             "reward": "t.261",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.776"],
             "cSiblings": ["t.261"]
         },
@@ -357,8 +367,8 @@
             "name_fr": "Pioche d'Azurée I",
             "description_en": "Earn 50,000 points toward your skyward score as a miner.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que mineur.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2514"],
             "cCombo": ["a.2523"]
         },
@@ -367,8 +377,8 @@
             "name_fr": "Pioche d'Azurée II",
             "description_en": "Earn 150,000 points toward your skyward score as a miner.",
             "description_fr": "Gagner un total de 150 000 points d'azur en tant que mineur.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2513"],
             "cNext": ["a.2515"]
         },
@@ -377,20 +387,20 @@
             "name_fr": "Pioche d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a miner.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant que mineur.",
+            "points": 10,
             "reward": "t.498",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2514"],
-            "cSiblings": ["t.498"],
-            "cCombo": ["a.2525"]
+            "cCombo": ["a.2525"],
+            "cSiblings": ["t.498"]
         },
         "x2541": {
             "name_en": "With Mines Unclouded I",
             "name_fr": "Mineur des illusions I",
             "description_en": "Mine 50 clouded mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 50 fois dans des filons ou carrières brumeux du Diadème.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2542"]
         },
         "x2542": {
@@ -398,8 +408,8 @@
             "name_fr": "Mineur des illusions II",
             "description_en": "Mine 500 clouded mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 500 fois dans des filons ou carrières brumeux du Diadème.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2541"],
             "cNext": ["a.2543"]
         },
@@ -408,8 +418,8 @@
             "name_fr": "Mineur des illusions III",
             "description_en": "Mine 1,000 clouded mineral deposits or rocky outcrops.",
             "description_fr": "Extraire 1 000 fois dans des filons ou carrières brumeux du Diadème.",
-            "patch": "5.21",
             "points": 10,
+            "patch": "5.21",
             "cPrev": ["a.2542"]
         },
         "x2535": {
@@ -417,9 +427,9 @@
             "name_fr": "Mineur du Nichoir",
             "description_en": "As a miner, submit 50,000 expert recipe materials for the second phase of the Ishgardian restoration.",
             "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la deuxième phase de reconstruction d'Azurée récoltés en tant que mineur.",
+            "points": 10,
             "reward": "t.511",
             "patch": "5.21",
-            "points": 10,
             "cSiblings": ["t.511"]
         },
         "x2656": {
@@ -427,9 +437,9 @@
             "name_fr": "Mineur de Tombeplume",
             "description_en": "As a miner, submit 50,000 expert recipe materials for the third phase of the Ishgardian restoration.",
             "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la troisième phase de reconstruction d'Azurée récoltés en tant que mineur.",
+            "points": 10,
             "reward": "t.536",
             "patch": "5.31",
-            "points": 10,
             "cSiblings": ["t.536"]
         },
         "x2815": {
@@ -437,10 +447,46 @@
             "name_fr": "Mineur du Nouveau Refrain",
             "description_en": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la quatrième phase de reconstruction d'Azurée récoltés en tant que mineur.",
+            "points": 10,
             "reward": "t.573",
             "patch": "5.41",
-            "points": 10,
             "cSiblings": ["t.573"]
+        },
+        "x3726": {
+            "name_en": "Rocket Geology I",
+            "name_fr": "Mineur du cosmos I",
+            "description_en": "Earn a cosmic class score of 50,000 points as a miner.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant que mineur.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3727": {
+            "name_en": "Rocket Geology II",
+            "name_fr": "Mineur du cosmos II",
+            "description_en": "Earn a cosmic class score of 150,000 points as a miner.",
+            "description_fr": "Gagner un total de 150 000 points cosmiques en tant que mineur.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3728": {
+            "name_en": "Mining with the Stars",
+            "name_fr": "Maître mineur du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as a miner.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques en tant que mineur.",
+            "points": 10,
+            "reward": "t.790",
+            "patch": "7.21",
+            "cSiblings": ["t.790"]
+        },
+        "x3910": {
+            "name_en": "Master of the Universe: Miner",
+            "name_fr": "Mineur intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as a miner.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise en tant que mineur.",
+            "points": 10,
+            "reward": "t.843",
+            "patch": "7.51",
+            "cSiblings": ["t.843"]
         }
     }
 }

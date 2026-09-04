@@ -1,0 +1,32 @@
+{
+    "key": "occult-crescent",
+    "groupName_en": "Occult Crescent",
+    "groupName_fr": "L'île de Lunule",
+    "columns": {
+        "name": {
+            "header": "@HEADER.ZONE HEADER.LEVEL"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": ["phantom-job", "aetherytes", "events", "duties"],
+    "tasks": {
+        "x0": {
+            "name": "@PLACE.DT.SOUTH_HORN",
+            "patch": "7.25",
+            "defaultCompletion": 0,
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 20
+        },
+        "x1": {
+            "name": "@PLACE.DT.NORTH_HORN",
+            "patch": "7.55",
+            "defaultCompletion": 20,
+            "isNumericCompletion": true,
+            "minValue": 20,
+            "maxValue": 40
+        }
+    }
+}

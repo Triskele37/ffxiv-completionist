@@ -3,9 +3,6 @@
 
 **Missing**
 * Delivery Moogle quests after "Thwack-a-Mole" have no chain information (anywhere)
-* DSR Unlock Quasi
-* asphodelos savage unlock quasi quest (Recount tales of Asphodelos?)
-* abyssos savage unlock quasi quest
 * Unlocks
   * various quests
   * "Just Deserts" unlocks "Guild Leves"
@@ -18,12 +15,12 @@
 
 **Verify**
 * "Close to Home"s are based on starting class, so 8 different ones
-* Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 
 **Chaining**
 * unsellable/tradable collectables to source? (one-way)
   * mounts/minions/cards/fate achievements
   * i.e. an achievement doesn't chain the mount, but the mount chains the achievement
+  * cUnlock & cUnlocks helps with this
 * V&C Achievements to duties
 * Relic weapon to quests?
 
@@ -31,12 +28,9 @@
 
 **Architecture**
 * Finish omitting FATEs
-* Finish removing location from orchestrion-list
-* Deriving sort logic directly from recipe info likely not gonna work
-  * just yolo it using gear slot/class for the majority
-* Convert DataGroup.tasks to Map<string, Task>
-* Implement "build" step for resources so release doesn't transform resources when read
-* Follow up on Model rewrite
-  * Hoist into root so model can be shared between ipcMain/ipcRenderer
+* Add DataGroup.tasksById Map<string, Task> for lookup
+* Re-add DataGroup.subGroups DataGroup[] for iteration
+	* rename current Map<string, DataGroup> to subGroupsByKey for lookup
+* Tech-debt
+  * Pull shared logic up to a /common for shared ipcMain/ipcRenderer types/logic
   * Unit tests
-  * Find and pull out more model logic from within components

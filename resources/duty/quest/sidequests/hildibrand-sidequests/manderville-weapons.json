@@ -4,82 +4,82 @@
     "groupName_fr": "Armes des Manderville",
     "tasks": {
         "x70188": {
-            "level": 90,
             "name_en": "Make It a Manderville",
             "name_fr": "Le secret ancestral des Manderville",
+            "level": 90,
             "npc_en": "House Manderville Manservant",
             "npc_fr": "Domestique Des Manderville",
+            "patch": "6.25",
             "cPrev": ["q.70178"],
             "cNext": ["q.70189", "q.70261"],
-            "cSiblings": ["a.3127"],
-            "patch": "6.28"
+            "cSiblings": ["a.3127"]
         },
         "x70189": {
-            "level": 90,
             "name_en": "Make Another Manderville",
             "name_fr": "Une nouvelle arme des Manderville",
+            "level": 90,
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": ["q.70188"],
-            "patch": "6.28"
+            "patch": "6.25",
+            "cPrev": ["q.70188"]
         },
         "x70261": {
-            "level": 90,
             "name_en": "Well-oiled",
             "name_fr": "L'instinct combatif",
+            "level": 90,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "6.35",
             "cPrev": ["q.70255", "q.70188"],
-            "cNext": ["q.70262"],
-            "patch": "6.35"
+            "cNext": ["q.70262"]
         },
         "x70262": {
-            "level": 90,
             "name_en": "The Next Mander-level",
             "name_fr": "Les armes éblouissantes des Manderville",
+            "level": 90,
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": ["q.70261", "q.70189"],
-            "patch": "6.35"
+            "patch": "6.35",
+            "cPrev": ["q.70261", "q.70189"]
         },
         "x70307": {
-            "level": 90,
             "name_en": "A Spirited Reforging",
             "name_fr": "Quand les forgerons boivent, les armes trinquent",
+            "level": 90,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "6.45",
             "cPrev": ["q.70291", "q.70261"],
-            "cNext": ["q.70308"],
-            "patch": "6.45"
+            "cNext": ["q.70308"]
         },
         "x70308": {
-            "level": 90,
             "name_en": "In Need of Adjustment",
             "name_fr": "Les armes majestueuses des Manderville",
+            "level": 90,
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": ["q.70262", "q.70307"],
-            "patch": "6.45"
+            "patch": "6.45",
+            "cPrev": ["q.70262", "q.70307"]
         },
         "x70342": {
-            "level": 90,
             "name_en": "Resonating with Perfection",
             "name_fr": "La dernière danse",
+            "level": 90,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
+            "patch": "6.55",
             "cPrev": ["q.70336", "q.70307"],
             "cNext": ["q.70343"],
-            "cSiblings": ["a.3374"],
-            "patch": "6.55"
+            "cSiblings": ["a.3374"]
         },
         "x70343": {
-            "level": 90,
             "name_en": "Positively Mandervillous",
             "name_fr": "Les armes manderveilleuses des Manderville",
+            "level": 90,
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": ["q.70342", "q.70308"],
-            "patch": "6.55"
+            "patch": "6.55",
+            "cPrev": ["q.70342", "q.70308"]
         }
     }
 }

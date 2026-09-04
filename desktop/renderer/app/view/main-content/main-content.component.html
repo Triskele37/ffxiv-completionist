@@ -1,0 +1,44 @@
+@let group = svcNavigation.selectedGroup();
+
+<div class="main-content">
+    @if(!group || group.noContent) {
+        <com-landing-page></com-landing-page>
+    }
+    @else if(group.component) {
+        <div class="custom-group-component">
+            <ng-template anchor></ng-template>
+        </div>
+    }
+    @else {
+        <div class="table-content">
+            @if(svcNavigation.allTaskViewEnabled()) {
+                <com-show-all-table
+                    [group]="group"
+                ></com-show-all-table>
+            } @else {
+                @if(group.subGroups?.size) {
+                    <div class="group-summary-section">
+                        @let asMap = group.subGroups | keyvalue: asIsOrder;
+                        @for(subGroup of asMap; track subGroup.key) {
+                            @if(subGroup.value | shouldShowSummaryGroup) {
+                                <com-summary-line
+                                    data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_SUB"
+                                    [group]="subGroup.value!"
+                                    [showGroup]="group.isBookmarkGroup ?? false"
+                                ></com-summary-line>
+                            }
+                        }
+                    </div>
+
+                    @if(group.tasks?.length) {
+                        <p-divider></p-divider>
+                    }
+                }
+
+                @if(group.tasks) {
+                    <com-task-table [group]="group"></com-task-table>
+                }
+            }
+        </div>
+    }
+</div>

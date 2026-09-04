@@ -1,14 +1,18 @@
 {
     "key": "ilsabard",
-    "groupName": "@PLACE.ILSABARD",
+    "groupName": "@PLACE.EW.ILSABARD",
     "tasks": {
         "x0": {
-            "name": "@PLACE.THAVNAIR",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THAVNAIR (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Thavnair Riding Map",
+            "name_fr": "Carte détaillée de Thavnair",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.THAVNAIR (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         },
         "x1": {
-            "name": "@PLACE.GARLEMALD",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.GARLEMALD (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Garlemald Riding Map",
+            "name_fr": "Carte détaillée de Garlemald",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.GARLEMALD (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "6.0"
         }
     }
 }

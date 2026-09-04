@@ -1,0 +1,138 @@
+@if(isModalVisible()) {
+    <div class="com-modal"></div>
+}
+
+<span
+    data-active-help="APP.ACTIVE_HELP.CUSTOM_CONTENT_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <span class="mi mi-add"></span>
+    </button>
+
+    @let isRootCustom = group._key === 'custom';
+
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel add-overlay">
+            <span class="content">
+                <div class="task-property-input">
+                    <p-ifta-label>
+                        <input pInputText [(ngModel)]="newContentName"/>
+                        <label>{{'APP.CUSTOM_OVERLAY.NAME_INPUT' | translate}}</label>
+                    </p-ifta-label>
+                </div>
+                <div class="task-property-input">
+                    <p-ifta-label>
+                        <input pInputText [(ngModel)]="newTaskNotes"/>
+                        <label>{{'APP.CUSTOM_OVERLAY.NOTE_INPUT' | translate}}</label>
+                    </p-ifta-label>
+                </div>
+
+                <p-button-group>
+                    <p-button-group class="horizontal-group">
+                        <button pButton (click)="addTask()">
+                            {{'APP.CUSTOM_OVERLAY.ADD_TASK' | translate}}
+                        </button>
+                        <button pButton (click)="addGroup()">
+                            {{'APP.CUSTOM_OVERLAY.ADD_GROUP' | translate}}
+                        </button>
+                    </p-button-group>
+                    <button
+                        data-active-help="APP.ACTIVE_HELP.CUSTOM_CONTENT_OVERLAY.IMPORT_GROUP"
+                        pButton
+                        (click)="importGroup()"
+                    >
+                        {{'APP.CUSTOM_OVERLAY.IMPORT_GROUP' | translate}}
+                    </button>
+                </p-button-group>
+
+                <p-divider>
+                    {{'APP.CUSTOM_OVERLAY.SELECTED_TASKS' | translate}}
+                </p-divider>
+
+                <!-- Task Actions -->
+                <p-button-group>
+                    <p-button-group class="horizontal-group">
+                        <button pButton (click)="showGroupTargetMenu($event, 'moveTasks')">
+                            {{'APP.CUSTOM_OVERLAY.MOVE_TASKS' | translate}}
+                        </button>
+                    </p-button-group>
+                    <p-button-group class="horizontal-group">
+                        @if(!verifyTasksDelete) {
+                            <button pButton (click)="deleteSelectedTasks()">
+                                {{'APP.CUSTOM_OVERLAY.DELETE_TASKS' | translate}}
+                            </button>
+                        } @else {
+                            <button pButton [disabled]="true">
+                                {{'APP.CUSTOM_OVERLAY.VERIFY_DELETE' | translate}}
+                            </button>
+                            <button pButton (click)="cancelDeleteTasks()">
+                                {{'APP.CUSTOM_OVERLAY.CANCEL' | translate}}
+                            </button>
+                            <button pButton (click)="deleteSelectedTasks()">
+                                {{'APP.CUSTOM_OVERLAY.DELETE' | translate}}
+                            </button>
+                        }
+                    </p-button-group>
+                </p-button-group>
+
+                <p-divider>
+                    {{'APP.CUSTOM_OVERLAY.CURRENT_GROUP' | translate}}
+                </p-divider>
+
+                <!-- Group Actions -->
+                <p-button-group>
+                    <p-button-group class="horizontal-group">
+                        <button pButton [disabled]="isRootCustom" (click)="renameGroup()">
+                            {{'APP.CUSTOM_OVERLAY.RENAME_GROUP' | translate}}
+                        </button>
+                        <button pButton [disabled]="isRootCustom" (click)="showGroupTargetMenu($event, 'moveGroup')">
+                            {{'APP.CUSTOM_OVERLAY.MOVE_GROUP' | translate}}
+                        </button>
+                        <button pButton [disabled]="isRootCustom" (click)="showGroupTargetMenu($event, 'duplicateGroup')">
+                            {{'APP.CUSTOM_OVERLAY.DUPLICATE_GROUP' | translate}}
+                        </button>
+                        <button
+                            data-active-help="APP.ACTIVE_HELP.CUSTOM_CONTENT_OVERLAY.EXPORT_GROUP"
+                            pButton
+                            (click)="exportGroup()"
+                        >
+                            {{'APP.CUSTOM_OVERLAY.EXPORT_GROUP' | translate}}
+                        </button>
+                    </p-button-group>
+                    <p-button-group class="horizontal-group">
+                        @if(!verifyGroupDelete) {
+                            <button pButton [disabled]="isRootCustom" (click)="deleteCurrentGroup()">
+                                {{'APP.CUSTOM_OVERLAY.DELETE_GROUP' | translate}}
+                            </button>
+                        } @else {
+                            <button pButton [disabled]="true">
+                                {{'APP.CUSTOM_OVERLAY.VERIFY_DELETE' | translate}}
+                            </button>
+                            <button pButton (click)="cancelDeleteGroup()">
+                                {{'APP.CUSTOM_OVERLAY.CANCEL' | translate}}
+                            </button>
+                            <button pButton (click)="deleteCurrentGroup()">
+                                {{'APP.CUSTOM_OVERLAY.DELETE' | translate}}
+                            </button>
+                        }
+                    </p-button-group>
+                </p-button-group>
+            </span>
+        </div>
+    }
+</span>
+
+<com-group-selector
+    class="group-selector"
+    [group]="menuGroup"
+    [omitGroup]="selectFor === 'moveGroup' ? group : undefined"
+    [menuEvent]="groupSelectorEvent"
+    [includeRoot]="true"
+    (groupSelected)="onTargetGroupChange($event)"
+    (hidden)="onSelectorHide()"
+></com-group-selector>

@@ -3,25 +3,25 @@
     "groupName_en": "Coerthas",
     "groupName_fr": "Coerthas",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x338": {
             "name_en": "Violet Quartz",
             "name_fr": "Quartz violet",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "coordinates": "(37, 16)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.64",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "2.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.64"
+            "patch": "2.0"
         },
-        "x1": {
-            "level": "60★",
+        "x337": {
             "name_en": "Astral Moraine",
             "name_fr": "Granulat astral",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "coordinates": "(37, 16)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.64",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "2.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.64"
+            "patch": "2.0"
         }
     }
 }

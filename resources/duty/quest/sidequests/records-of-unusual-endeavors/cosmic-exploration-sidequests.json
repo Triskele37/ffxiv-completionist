@@ -1,0 +1,144 @@
+{
+    "key": "cosmic-exploration-sidequests",
+    "groupName_en": "Cosmic Exploration Sidequests",
+    "groupName_fr": "Exploration cosmique : quêtes annexes",
+    "tasks": {
+        "x70859": {
+            "name_en": "A Manager's Patience",
+            "name_fr": "Le courroux de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.21",
+            "cPrev": ["q.70790"],
+            "cNext": ["q.70860"]
+        },
+        "x70860": {
+            "name_en": "A Manager's Persistence",
+            "name_fr": "L'obstination de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.21",
+            "cPrev": ["q.70859"],
+            "cNext": ["q.70947"]
+        },
+        "x70947": {
+            "name_en": "A Manager's Discernment",
+            "name_fr": "La perspicacité de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.31",
+            "cPrev": ["q.70946", "q.70860"],
+            "cNext": ["q.70950"]
+        },
+        "x70948": {
+            "name_en": "Perspective Reflected",
+            "name_fr": "Le verre de l'avenir",
+            "level": 10,
+            "npc_en": "Ishgardian Glassworker",
+            "npc_fr": "Verrier Ishgardais",
+            "patch": "7.31",
+            "cPrev": ["q.70946"],
+            "cNext": ["q.70950"]
+        },
+        "x70949": {
+            "name_en": "Pilot Wanted",
+            "name_fr": "On recherche un pilote",
+            "level": 10,
+            "npc_en": "Vacuum Suit Specialist",
+            "npc_fr": "Mécanicienne À Temps Plein",
+            "patch": "7.31",
+            "cPrev": ["q.70946"],
+            "cNext": ["q.70950"]
+        },
+        "x70950": {
+            "name_en": "A Manager's Delegation",
+            "name_fr": "L'implication de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.31",
+            "cPrev": ["q.70947", "q.70948", "q.70949"],
+            "cNext": ["q.70986"]
+        },
+        "x70986": {
+            "name_en": "A Manager's Prudence",
+            "name_fr": "L'empathie de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.41",
+            "cPrev": ["q.70985", "q.70950"],
+            "cNext": ["q.70988"]
+        },
+        "x70987": {
+            "name_en": "Terror along the Tracks",
+            "name_fr": "La navette de l'épouvante",
+            "level": 10,
+            "npc_en": "Cosmoliner Engineer",
+            "npc_fr": "Mécanicien De Navette",
+            "patch": "7.41",
+            "cPrev": ["q.70985"],
+            "cNext": ["q.70988"]
+        },
+        "x70988": {
+            "name_en": "A Manager's Power",
+            "name_fr": "La force de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.41",
+            "cPrev": ["q.70986", "q.70987"],
+            "cNext": ["q.71022"]
+        },
+        "x70989": {
+            "name_en": "An Interstellar Field Trip",
+            "name_fr": "Une visite très académique",
+            "level": 10,
+            "npc_en": "Theorizingway",
+            "npc_fr": "Theorizingway",
+            "patch": "7.41",
+            "cPrev": ["q.70985", "q.70010"],
+            "cNext": ["q.71025"]
+        },
+        "x71022": {
+            "name_en": "A Manager's Foresight",
+            "name_fr": "La prévoyance de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.51",
+            "cPrev": ["q.71020", "q.70988"],
+            "cNext": ["q.71023"]
+        },
+        "x71023": {
+            "name_en": "A Manager's Fulfillment",
+            "name_fr": "Dans la peau de la gestionnaire",
+            "level": 10,
+            "npc_en": "Mumukko",
+            "npc_fr": "Mumukko",
+            "patch": "7.51",
+            "cPrev": ["q.71022"]
+        },
+        "x71024": {
+            "name_en": "Despite Our Rest Efforts",
+            "name_fr": "Cache-cache 2.0",
+            "level": 10,
+            "npc_en": "Lively Loporrit",
+            "npc_fr": "Loporrite Pêchue",
+            "patch": "7.51",
+            "cPrev": ["q.71020"]
+        },
+        "x71025": {
+            "name_en": "Another Interstellar Field Trip",
+            "name_fr": "Une deuxième visite très académique",
+            "level": 10,
+            "npc_en": "Theorizingway",
+            "npc_fr": "Theorizingway",
+            "patch": "7.51",
+            "cPrev": ["q.71020", "q.70989"]
+        }
+    }
+}

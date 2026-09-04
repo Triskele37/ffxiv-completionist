@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes de couturier",
     "tasks": {
         "x66070": {
-            "level": 1,
             "name_en": "Way of the Weaver",
             "name_fr": "La voie de la couture",
+            "level": 1,
             "npc_en": "Maronne",
             "npc_fr": "Maronne",
+            "unlock": "ap.249",
+            "patch": "2.0",
             "cPrev": ["q.65725"],
             "cNext": ["q.66071"],
-            "cSiblings": ["ap.249"],
-            "patch": "4.31",
-            "unlock": "ap.249"
+            "cSiblings": ["ap.249"]
         },
         "x66071": {
-            "level": 1,
             "name_en": "My First Needle",
             "name_fr": "De fil en aiguille",
+            "level": 1,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66070"],
-            "cNext": ["q.66123"],
-            "patch": "4.31"
+            "cNext": ["q.66123"]
         },
         "x66123": {
-            "level": 5,
             "name_en": "Once More unto the Breeches",
             "name_fr": "À braies raccourcies",
+            "level": 5,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66071"],
-            "cNext": ["q.66125"],
-            "patch": "4.31"
+            "cNext": ["q.66125"]
         },
         "x66125": {
-            "level": 10,
             "name_en": "Alternative Applications",
             "name_fr": "Des étoffes pour les héros",
+            "level": 10,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66123"],
-            "cNext": ["q.66126"],
-            "patch": "4.31"
+            "cNext": ["q.66126"]
         },
         "x66126": {
-            "level": 15,
             "name_en": "Practical Needs",
             "name_fr": "Mettre des gants",
+            "level": 15,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66125"],
-            "cNext": ["q.66127"],
-            "patch": "4.31"
+            "cNext": ["q.66127"]
         },
         "x66127": {
-            "level": 20,
             "name_en": "Materia Concerns",
             "name_fr": "Les torchons et les serviettes",
+            "level": 20,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66126"],
-            "cNext": ["q.66128"],
-            "patch": "4.31"
+            "cNext": ["q.66128"]
         },
         "x66128": {
-            "level": 25,
             "name_en": "That Velveteen Dress",
             "name_fr": "Il y a aiguille sous roche",
+            "level": 25,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66127"],
-            "cNext": ["q.66129"],
-            "patch": "4.31"
+            "cNext": ["q.66129"]
         },
         "x66129": {
-            "level": 30,
             "name_en": "Miner on a Mission",
             "name_fr": "Ne perdons pas le fil",
+            "level": 30,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66128"],
             "cNext": ["q.66187"],
-            "cCombo": ["a.316"],
-            "patch": "4.31"
+            "cCombo": ["a.316"]
         },
         "x66187": {
-            "level": 35,
             "name_en": "Designed by Committee",
             "name_fr": "Mauvaise coordination",
+            "level": 35,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66129"],
-            "cNext": ["q.66188"],
-            "patch": "4.31"
+            "cNext": ["q.66188"]
         },
         "x66188": {
-            "level": 40,
             "name_en": "A Subtle Inquiry",
-            "name_fr": "Froid, moi? Jamais",
+            "name_fr": "Froid, moi ? Jamais",
+            "level": 40,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66187"],
-            "cNext": ["q.66189"],
-            "patch": "4.31"
+            "cNext": ["q.66189"]
         },
         "x66189": {
-            "level": 45,
             "name_en": "The Intervention",
             "name_fr": "Le nouvel habit du mineur",
+            "level": 45,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66188"],
-            "cNext": ["q.66190"],
-            "patch": "4.31"
+            "cNext": ["q.66190"]
         },
         "x66190": {
-            "level": 50,
             "name_en": "A Miner Reborn",
             "name_fr": "Coudre pour en découdre",
+            "level": 50,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "2.0",
             "cPrev": ["q.66189"],
-            "cNext": ["q.67538"],
-            "patch": "4.31"
+            "cNext": ["q.67538"]
         },
         "x67538": {
-            "level": 50,
             "name_en": "The Social Knitwork",
             "name_fr": "Tendances ishgardaises",
+            "level": 50,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "3.0",
             "cPrev": ["q.66190", "q.65964"],
-            "cNext": ["q.67539"],
-            "patch": "4.31"
+            "cNext": ["q.67539"]
         },
         "x67539": {
-            "level": 53,
             "name_en": "Tomboy Foolery",
             "name_fr": "La plus belle pour aller goûter",
+            "level": 53,
             "npc_en": "Averil",
             "npc_fr": "Averil",
+            "patch": "3.0",
             "cPrev": ["q.67538"],
-            "cNext": ["q.67540"],
-            "patch": "4.31"
+            "cNext": ["q.67540"]
         },
         "x67540": {
-            "level": 55,
             "name_en": "For Lover and Country",
             "name_fr": "Une fille entêtée",
+            "level": 55,
             "npc_en": "Averil",
             "npc_fr": "Averil",
+            "patch": "3.0",
             "cPrev": ["q.67539"],
-            "cNext": ["q.67541"],
-            "patch": "4.31"
+            "cNext": ["q.67541"]
         },
         "x67541": {
-            "level": 58,
             "name_en": "Spinning the Truth",
             "name_fr": "Une mère inquiète",
+            "level": 58,
             "npc_en": "Averil",
             "npc_fr": "Averil",
+            "patch": "3.0",
             "cPrev": ["q.67540"],
-            "cNext": ["q.67542"],
-            "patch": "4.31"
+            "cNext": ["q.67542"]
         },
         "x67542": {
-            "level": 60,
             "name_en": "Never Leave without a Good-bye",
             "name_fr": "L'histoire se répète",
+            "level": 60,
             "npc_en": "Averil",
             "npc_fr": "Averil",
+            "patch": "3.0",
             "cPrev": ["q.67541"],
-            "cNext": ["q.67967"],
-            "patch": "4.31"
+            "cNext": ["q.67967"]
         },
         "x67967": {
-            "level": 60,
             "name_en": "When East Meets West",
             "name_fr": "Invités de la marque",
+            "level": 60,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "4.0",
             "cPrev": ["q.67542", "q.67895"],
-            "cNext": ["q.67968"],
-            "patch": "4.31"
+            "cNext": ["q.67968"]
         },
         "x67968": {
-            "level": 63,
             "name_en": "The Butterfly Effect",
             "name_fr": "L'effet Kotocho",
+            "level": 63,
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
+            "patch": "4.0",
             "cPrev": ["q.67967"],
-            "cNext": ["q.67969"],
-            "patch": "4.31"
+            "cNext": ["q.67969"]
         },
         "x67969": {
-            "level": 65,
             "name_en": "The Crane's Caveat",
             "name_fr": "Kotocho de lumière",
+            "level": 65,
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
+            "patch": "4.0",
             "cPrev": ["q.67968"],
-            "cNext": ["q.67970"],
-            "patch": "4.31"
+            "cNext": ["q.67970"]
         },
         "x67970": {
-            "level": 68,
             "name_en": "A Geiko for All Seasons",
             "name_fr": "Tradition contre modernité",
+            "level": 68,
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
+            "patch": "4.0",
             "cPrev": ["q.67969"],
-            "cNext": ["q.67971"],
-            "patch": "4.31"
+            "cNext": ["q.67971"]
         },
         "x67971": {
-            "level": 70,
             "name_en": "Send Me an Angel",
             "name_fr": "Elle veut juste une dernière danse",
+            "level": 70,
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
+            "unlock": "ap.273",
+            "patch": "4.0",
             "cPrev": ["q.67970"],
-            "cSiblings": ["ap.273"],
-            "patch": "4.31",
-            "unlock": "ap.273"
+            "cSiblings": ["ap.273"]
         }
     }
 }

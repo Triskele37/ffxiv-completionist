@@ -4,129 +4,132 @@
     "groupName_fr": "Retour à Ivalice",
     "tasks": {
         "x68539": {
-            "level": 70,
             "name_en": "Dramatis Personae",
             "name_fr": "Les artistes maudits",
+            "level": 70,
             "npc_en": "Keiten",
             "npc_fr": "Keiten",
+            "patch": "4.1",
             "cPrev": ["q.68089"],
-            "cNext": ["q.68540"],
-            "patch": "4.31"
+            "cNext": ["q.68540"]
         },
         "x68540": {
-            "level": 70,
             "name_en": "A City Fallen",
             "name_fr": "La Cité royale de Rabanastre",
-            "unlock": ["d.281", "o.189", "o.190"],
+            "level": 70,
             "npc_en": "Ramza Bas Lexentale",
             "npc_fr": "Ramza Bas Lexentale",
+            "unlock": ["d.281", "o.189", "o.190"],
+            "patch": "4.1",
             "cPrev": ["q.68539"],
             "cNext": ["q.68625"],
-            "patch": "4.31"
+            "cSiblings": ["d.281"]
         },
         "x68625": {
-            "level": 70,
             "name_en": "Uninvited",
             "name_fr": "Reptiles et boules de poils",
+            "level": 70,
             "npc_en": "Lina Mewrilah",
             "npc_fr": "Lina Mewrilah",
+            "patch": "4.3",
             "cPrev": ["q.68540"],
-            "cNext": ["q.68627"],
-            "patch": "4.31"
+            "cNext": ["q.68627"]
         },
         "x68627": {
-            "level": 70,
             "name_en": "Desire",
             "name_fr": "Le phare de tous les mystères",
+            "level": 70,
             "npc_en": "Jenomis Cen Lexentale",
             "npc_fr": "Jenomis Cen Lexentale",
+            "unlock": "o.232",
+            "patch": "4.3",
             "cPrev": ["q.68625"],
-            "cNext": ["q.68628"],
-            "patch": "4.31",
-            "unlock": "o.232"
+            "cNext": ["q.68628"]
         },
         "x68628": {
-            "level": 70,
             "name_en": "Annihilation",
             "name_fr": "La lumière au bout du monde",
-            "unlock": ["d.550", "o.233"],
+            "level": 70,
             "npc_en": "Jenomis Cen Lexentale",
             "npc_fr": "Jenomis Cen Lexentale",
+            "unlock": ["d.550", "o.233"],
+            "patch": "4.3",
             "cPrev": ["q.68627"],
             "cNext": ["q.68723"],
-            "patch": "4.31"
+            "cSiblings": ["d.550"]
         },
         "x68723": {
-            "level": 70,
             "name_en": "The Path of Most Resistance",
             "name_fr": "La résistance dalmasquienne",
+            "level": 70,
             "npc_en": "Lina Mewrilah",
             "npc_fr": "Lina Mewrilah",
+            "patch": "4.5",
             "cPrev": ["q.68628"],
-            "cNext": ["q.68724"],
-            "patch": "4.5"
+            "cNext": ["q.68724"]
         },
         "x68724": {
-            "level": 70,
             "name_en": "Welcome to Their Jungle",
             "name_fr": "Vestiges dans la jungle",
+            "level": 70,
             "npc_en": "Montblanc",
             "npc_fr": "Montblanc",
+            "patch": "4.5",
             "cPrev": ["q.68723"],
-            "cNext": ["q.68725"],
-            "patch": "4.5"
+            "cNext": ["q.68725"]
         },
         "x68725": {
-            "level": 70,
             "name_en": "The City of Lost Angels",
             "name_fr": "L'ange du monastère",
-            "unlock": ["d.636", "o.292", "o.293"],
+            "level": 70,
             "npc_en": "Jenomis Cen Lexentale",
             "npc_fr": "Jenomis Cen Lexentale",
+            "unlock": ["d.636", "o.292", "o.293", "tto.64"],
+            "patch": "4.5",
             "cPrev": ["q.68724"],
             "cNext": ["q.68626", "q.69370"],
-            "patch": "4.5"
+            "cSiblings": ["d.636"]
         },
         "x68626": {
-            "level": 70,
             "name_en": "My Power, My Pleasure, My Pain",
             "name_fr": "La rose des vins",
+            "level": 70,
             "npc_en": "Wandering Dramaturge",
             "npc_fr": "Auteur Étranger",
+            "patch": "4.3",
             "cPrev": ["q.68725"],
-            "cNext": ["q.68726"],
-            "patch": "4.31"
+            "cNext": ["q.68726"]
         },
         "x68726": {
-            "level": 70,
             "name_en": "In Bad Taste",
             "name_fr": "À escroc, escroc et demi",
+            "level": 70,
             "npc_en": "Wandering Dramaturge",
             "npc_fr": "Auteur Étranger",
+            "patch": "4.5",
             "cPrev": ["q.68626"],
-            "cSiblings": ["a.2243"],
-            "patch": "4.5"
+            "cSiblings": ["a.2243"]
         },
         "x68629": {
-            "level": 1,
-            "defaultCompletion": "X",
             "name_en": "Makin' Bacon (Bread)",
             "name_fr": "L'accompagnement idéal du vin",
+            "level": 1,
             "npc_en": "",
             "npc_fr": "",
+            "patch": "4.3",
             "cPrev": ["q.68628"],
             "cNext": ["q.68727"],
-            "patch": "4.31"
+            "defaultCompletion": "X"
         },
         "x68727": {
-            "level": 1,
-            "defaultCompletion": "X",
             "name_en": "Wok on By",
             "name_fr": "L'accompagnement idéal du saké",
+            "level": 1,
             "npc_en": "",
             "npc_fr": "",
+            "patch": "4.5",
             "cPrev": ["q.68629", "q.68726"],
-            "patch": "4.5"
+            "defaultCompletion": "X"
         }
     }
 }

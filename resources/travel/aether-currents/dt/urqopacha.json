@@ -1,72 +1,87 @@
 {
     "key": "urqopacha",
-    "groupName": "@PLACE.URQOPACHA",
+    "groupName": "@PLACE.DT.URQOPACHA",
     "cCombo": ["a.3540"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(29.4, 26.7, 3.0)"
+            "location": "(29.4, 26.7, 3.0)",
+            "patch": "7.0"
         },
         "x1": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(28.8, 21.2, 2.8)"
+            "location": "(28.8, 21.2, 2.8)",
+            "patch": "7.0"
         },
         "x2": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(22.8, 36.4, 2.2)"
+            "location": "(22.8, 36.4, 2.2)",
+            "patch": "7.0"
         },
         "x3": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(18.7, 9.8, 1.2)"
+            "location": "(18.7, 9.8, 1.2)",
+            "patch": "7.0"
         },
         "x4": {
             "name": "@TRAVEL.COMPASS_CURRENT 5",
-            "location": "(29.7, 7.8, 0.8)"
+            "location": "(29.7, 7.8, 0.8)",
+            "patch": "7.0"
         },
         "x5": {
             "name": "@TRAVEL.COMPASS_CURRENT 6",
-            "location": "(17.4, 17.4, 1.4)"
+            "location": "(17.4, 17.4, 1.4)",
+            "patch": "7.0"
         },
         "x6": {
             "name": "@TRAVEL.COMPASS_CURRENT 7",
-            "location": "(5.2, 23.5, 2.7)"
+            "location": "(5.2, 23.5, 2.7)",
+            "patch": "7.0"
         },
         "x7": {
             "name": "@TRAVEL.COMPASS_CURRENT 8",
-            "location": "(17.5, 20.3, 2.4)"
+            "location": "(17.5, 20.3, 2.4)",
+            "patch": "7.0"
         },
         "x8": {
             "name": "@TRAVEL.COMPASS_CURRENT 9",
-            "location": "(12.3, 11.5, 1.9)"
+            "location": "(12.3, 11.5, 1.9)",
+            "patch": "7.0"
         },
         "x9": {
             "name": "@TRAVEL.COMPASS_CURRENT 10",
-            "location": "(28.5, 16.7, 1.1)"
+            "location": "(28.5, 16.7, 1.1)",
+            "patch": "7.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.70591",
-            "cSiblings": ["q.70591"]
+            "cSiblings": ["q.70591"],
+            "patch": "7.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.70583",
-            "cSiblings": ["q.70583"]
+            "cSiblings": ["q.70583"],
+            "patch": "7.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.70587",
-            "cSiblings": ["q.70587"]
+            "cSiblings": ["q.70587"],
+            "patch": "7.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.70575",
-            "cSiblings": ["q.70575"]
+            "cSiblings": ["q.70575"],
+            "patch": "7.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.70431",
-            "cSiblings": ["q.70431"]
+            "cSiblings": ["q.70431"],
+            "patch": "7.0"
         }
     }
 }

@@ -1,48 +1,57 @@
 {
     "key": "il-mheg",
-    "groupName": "@PLACE.IL_MHEG",
+    "groupName": "@PLACE.SHB.IL_MHEG",
     "cCombo": ["a.2332"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(20.3, 14.9, 1.1)"
+            "location": "(20.3, 14.9, 1.1)",
+            "patch": "5.0"
         },
         "x1": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(30.1, 6.0, 0.9)"
+            "location": "(30.1, 6.0, 0.9)",
+            "patch": "5.0"
         },
         "x4": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(21.8, 4.4, 1.1)"
+            "location": "(21.8, 4.4, 1.1)",
+            "patch": "5.0"
         },
         "x7": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(16.8, 24.6, 0.0)"
+            "location": "(16.8, 24.6, 0.0)",
+            "patch": "5.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.68963",
-            "cSiblings": ["q.68963"]
+            "cSiblings": ["q.68963"],
+            "patch": "5.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.68940",
-            "cSiblings": ["q.68940"]
+            "cSiblings": ["q.68940"],
+            "patch": "5.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.68934",
-            "cSiblings": ["q.68934"]
+            "cSiblings": ["q.68934"],
+            "patch": "5.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.68931",
-            "cSiblings": ["q.68931"]
+            "cSiblings": ["q.68931"],
+            "patch": "5.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.68856",
-            "cSiblings": ["q.68856"]
+            "cSiblings": ["q.68856"],
+            "patch": "5.0"
         }
     }
 }

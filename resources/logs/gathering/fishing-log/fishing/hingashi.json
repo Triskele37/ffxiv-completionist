@@ -3,29 +3,32 @@
     "groupName_en": "Hingashi",
     "groupName_fr": "Hingashi",
     "tasks": {
-        "x0": {
+        "x157": {
             "name_en": "Kugane Piers",
             "name_fr": "Jetées de Kugane",
-            "level": "63",
-            "zone": "@PLACE.KUGANE",
+            "level": 63,
+            "zone": "@PLACE.SB.KUGANE",
             "location": "(12, 10.5)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x1": {
+        "x197": {
             "name_en": "Shirogane",
             "name_fr": "Shirogane",
-            "level": "63",
-            "zone": "@PLACE.SHIROGANE",
+            "level": 63,
+            "zone": "@PLACE.SB.SHIROGANE",
             "location": "(8, 14)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x2": {
+        "x198": {
             "name_en": "The Silver Canal",
             "name_fr": "Canaux de Shirogane",
-            "level": "65",
-            "zone": "@PLACE.SHIROGANE",
+            "level": 65,
+            "zone": "@PLACE.SB.SHIROGANE",
             "location": "(10, 11)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         }
     }
 }

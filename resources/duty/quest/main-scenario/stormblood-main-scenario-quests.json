@@ -4,456 +4,460 @@
     "groupName_fr": "Récits d'une tempête de sang",
     "tasks": {
         "x67982": {
-            "level": 60,
             "name_en": "Beyond the Great Wall",
             "name_fr": "Au-delà de la muraille",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.67895"],
-            "cNext": ["q.67983"],
-            "patch": "4.31"
+            "cNext": ["q.67983"]
         },
         "x67983": {
-            "level": 60,
             "name_en": "Lyse Takes the Lead",
-            "name_fr": "Suivez la guide!",
+            "name_fr": "Suivez la guide !",
+            "level": 60,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.67982"],
-            "cNext": ["q.67984"],
-            "patch": "4.31"
+            "cNext": ["q.67984"]
         },
         "x67984": {
-            "level": 60,
             "name_en": "The Promise of a New Beginning",
             "name_fr": "La proposition de l'Alliance",
+            "level": 60,
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
+            "patch": "4.0",
             "cPrev": ["q.67983"],
-            "cNext": ["q.67985"],
-            "patch": "4.31"
+            "cNext": ["q.67985"]
         },
         "x67985": {
-            "level": 60,
             "name_en": "A Haven for the Bold",
             "name_fr": "L'Étendue du Destructeur",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "tto.3",
+            "patch": "4.0",
             "cPrev": ["q.67984"],
-            "cNext": ["q.67986", "q.68456"],
-            "patch": "4.31"
+            "cNext": ["q.67986", "q.68456"]
         },
         "x67986": {
-            "level": 60,
             "name_en": "A Bargain Struck",
             "name_fr": "La décision de Conrad",
+            "level": 60,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.67985"],
-            "cNext": ["q.67991", "q.67987"],
-            "patch": "4.31"
+            "cNext": ["q.67991", "q.67987"]
         },
         "x67987": {
-            "level": 60,
             "name_en": "A Friend of a Friend in Need",
             "name_fr": "La mission de M'naago",
+            "level": 60,
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
+            "patch": "4.0",
             "cPrev": ["q.67986"],
-            "cNext": ["q.67988"],
-            "patch": "4.31"
+            "cNext": ["q.67988"]
         },
         "x67988": {
-            "level": 60,
             "name_en": "Signed, Sealed, to Be Delivered",
             "name_fr": "La missive de Conrad",
+            "level": 60,
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
+            "patch": "4.0",
             "cPrev": ["q.67987"],
-            "cNext": ["q.68175", "q.68179", "q.68180", "q.68178", "q.67989", "q.68176", "q.68177"],
-            "patch": "4.31"
+            "cNext": ["q.68175", "q.68179", "q.68180", "q.68178", "q.67989", "q.68176", "q.68177"]
         },
         "x67989": {
-            "level": 60,
             "name_en": "Best Served with Cold Steel",
             "name_fr": "Le prototype magitek",
+            "level": 60,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "patch": "4.0",
             "cPrev": ["q.67988"],
-            "cNext": ["q.67990"],
-            "patch": "4.31"
+            "cNext": ["q.67990"]
         },
         "x67990": {
-            "level": 60,
             "name_en": "Let Fill Your Hearts with Pride",
             "name_fr": "La conviction d'une messagère",
+            "level": 60,
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
+            "patch": "4.0",
             "cPrev": ["q.67989"],
-            "cNext": ["q.67997"],
-            "patch": "4.31"
+            "cNext": ["q.67997"]
         },
         "x67991": {
-            "level": 60,
             "name_en": "A Familiar Face Forgotten",
             "name_fr": "La mission de Meffrid",
+            "level": 60,
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
+            "patch": "4.0",
             "cPrev": ["q.67986"],
-            "cNext": ["q.67992"],
-            "patch": "4.31"
+            "cNext": ["q.67992"]
         },
         "x67992": {
-            "level": 60,
             "name_en": "The Prodigal Daughter",
             "name_fr": "Retour au village natal",
+            "level": 60,
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
+            "patch": "4.0",
             "cPrev": ["q.67991"],
-            "cNext": ["q.68490", "q.68491"],
-            "patch": "4.31"
+            "cNext": ["q.68490", "q.68491"]
         },
         "x68490": {
-            "level": 60,
             "name_en": "Hard Country",
             "name_fr": "Remède pour jambes douloureuses",
+            "level": 60,
             "npc_en": "Griseldis",
             "npc_fr": "Griseldis",
+            "patch": "4.0",
             "cPrev": ["q.67992"],
-            "cNext": ["q.67993"],
-            "patch": "4.31"
+            "cNext": ["q.67993"]
         },
         "x68491": {
-            "level": 60,
             "name_en": "Death by a Thousand Rocks",
             "name_fr": "Livraison d'“objet oublié”",
+            "level": 60,
             "npc_en": "Angry Coeurl",
             "npc_fr": "Angry Coeurl",
+            "patch": "4.0",
             "cPrev": ["q.67992"],
-            "cNext": ["q.67993"],
-            "patch": "4.31"
+            "cNext": ["q.67993"]
         },
         "x67993": {
-            "level": 60,
             "name_en": "A Life More Ordinary",
             "name_fr": "Les gens d'Ala Gannha",
+            "level": 60,
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
+            "patch": "4.0",
             "cPrev": ["q.68490", "q.68491"],
-            "cNext": ["q.67994"],
-            "patch": "4.31"
+            "cNext": ["q.67994"]
         },
         "x67994": {
-            "level": 60,
             "name_en": "The Color of Angry Qiqirn",
             "name_fr": "La Ziggourat",
+            "level": 60,
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
+            "patch": "4.0",
             "cPrev": ["q.67993"],
-            "cNext": ["q.67995"],
-            "patch": "4.31"
+            "cNext": ["q.67995"]
         },
         "x67995": {
-            "level": 60,
             "name_en": "The Black Wolf's Pups",
             "name_fr": "Cruelle jeunesse",
+            "level": 60,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.67994"],
-            "cNext": ["q.68182", "q.68183", "q.68186", "q.68181", "q.67996", "q.68184", "q.68185"],
-            "patch": "4.31"
+            "cNext": ["q.68182", "q.68183", "q.68186", "q.68181", "q.67996", "q.68184", "q.68185"]
         },
         "x67996": {
-            "level": 60,
             "name_en": "Homeward Bound",
             "name_fr": "Malgré les différends",
+            "level": 60,
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
+            "patch": "4.0",
             "cPrev": ["q.67995"],
-            "cNext": ["q.67997"],
-            "patch": "4.31"
+            "cNext": ["q.67997"]
         },
         "x67997": {
-            "level": 60,
             "name_en": "Where Men Go as One",
             "name_fr": "La tactique, c'est l'attaque",
+            "level": 60,
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
+            "patch": "4.0",
             "cPrev": ["q.67990", "q.67996"],
-            "cNext": ["q.68171", "q.68172", "q.68173"],
-            "patch": "4.31"
+            "cNext": ["q.68171", "q.68172", "q.68173"]
         },
         "x68171": {
-            "level": 60,
             "name_en": "Future Rust, Future Dust",
             "name_fr": "Faire la guerre par amour",
+            "level": 60,
             "npc_en": "Beves",
             "npc_fr": "Beves",
+            "patch": "4.0",
             "cPrev": ["q.67997"],
-            "cNext": ["q.68174"],
-            "patch": "4.31"
+            "cNext": ["q.68174"]
         },
         "x68172": {
-            "level": 60,
             "name_en": "A Dash of Green",
             "name_fr": "La soupe aux cailloux et au chiendent",
+            "level": 60,
             "npc_en": "Ahelissa",
             "npc_fr": "Ahelissa",
+            "patch": "4.0",
             "cPrev": ["q.67997"],
-            "cNext": ["q.68174"],
-            "patch": "4.31"
+            "cNext": ["q.68174"]
         },
         "x68173": {
-            "level": 60,
             "name_en": "Ye Wayward Brothers",
             "name_fr": "Plus l'attente est longue...",
+            "level": 60,
             "npc_en": "Ananta Battlemaid",
             "npc_fr": "Guerrière Ananta",
+            "patch": "4.0",
             "cPrev": ["q.67997"],
-            "cNext": ["q.68174"],
-            "patch": "4.31"
+            "cNext": ["q.68174"]
         },
         "x68174": {
-            "level": 60,
             "name_en": "Token of Faith",
             "name_fr": "Avoir la foi bien accrochée",
+            "level": 60,
             "npc_en": "Swarthy Resistance Fighter",
             "npc_fr": "Guerrier Roegadyn",
+            "patch": "4.0",
             "cPrev": ["q.68171", "q.68172", "q.68173"],
-            "cNext": ["q.67998"],
-            "patch": "4.31"
+            "cNext": ["q.67998"]
         },
         "x67998": {
-            "level": 61,
             "name_en": "Crossing the Velodyna",
             "name_fr": "Le choix de Raubahn",
+            "level": 61,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68174"],
-            "cNext": ["q.67999"],
-            "patch": "4.31"
+            "cNext": ["q.67999"]
         },
         "x67999": {
-            "level": 61,
             "name_en": "In Crimson It Began",
             "name_fr": "Dans le feu ardent",
+            "level": 61,
             "npc_en": "Pipin",
             "npc_fr": "Pipin",
+            "patch": "4.0",
             "cPrev": ["q.67998"],
-            "cNext": ["q.68000"],
-            "patch": "4.31"
+            "cNext": ["q.68000"]
         },
         "x68000": {
-            "level": 61,
             "name_en": "The Fires Fade",
             "name_fr": "Certains succombent, d'autres subsistent",
+            "level": 61,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "patch": "4.0",
             "cPrev": ["q.67999"],
-            "cNext": ["q.68191", "q.68188", "q.68001", "q.68190", "q.68189", "q.68187", "q.68192", "q.68193", "q.68194"],
-            "patch": "4.31"
+            "cNext": ["q.68191", "q.68188", "q.68001", "q.68190", "q.68189", "q.68187", "q.68192", "q.68193", "q.68194"]
         },
         "x68001": {
-            "level": 61,
             "name_en": "Bereft of Hearth and Home",
             "name_fr": "Le convoi de blessés",
+            "level": 61,
             "npc_en": "Pipin",
             "npc_fr": "Pipin",
+            "patch": "4.0",
             "cPrev": ["q.68000"],
-            "cNext": ["q.68002"],
-            "patch": "4.31"
+            "cNext": ["q.68002"]
         },
         "x68002": {
-            "level": 61,
             "name_en": "Divide and Conquer",
             "name_fr": "Une intervention revigorante",
+            "level": 61,
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
+            "patch": "4.0",
             "cPrev": ["q.68001"],
-            "cNext": ["q.68197", "q.68196", "q.68003", "q.68195", "q.68198", "q.68199", "q.68200"],
-            "patch": "4.31"
+            "cNext": ["q.68197", "q.68196", "q.68003", "q.68195", "q.68198", "q.68199", "q.68200"]
         },
         "x68003": {
-            "level": 61,
             "name_en": "Lies, Damn Lies, and Pirates",
             "name_fr": "En quête d'un navire",
+            "level": 61,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68002"],
-            "cNext": ["q.68004"],
-            "patch": "4.31"
+            "cNext": ["q.68004"]
         },
         "x68004": {
-            "level": 61,
             "name_en": "Tales from the Far East",
             "name_fr": "Renseignements sur Doma",
+            "level": 61,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68003"],
-            "cNext": ["q.68005"],
-            "patch": "4.31"
+            "cNext": ["q.68005"]
         },
         "x68005": {
-            "level": 61,
             "name_en": "Not without Incident",
             "name_fr": "Une grande traversée",
-            "unlock": ["d.238"],
+            "level": 61,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": ["d.238"],
+            "patch": "4.0",
             "cPrev": ["q.68004"],
             "cNext": ["q.68006"],
-            "cSiblings": ["a.1787"],
-            "patch": "4.31"
+            "cSiblings": ["d.238", "a.1787"]
         },
         "x68006": {
-            "level": 61,
             "name_en": "The Man from Ul'dah",
-            "name_fr": "Bienvenue à Kugane!",
+            "name_fr": "Bienvenue à Kugane !",
+            "level": 61,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68005"],
-            "cNext": ["q.68007"],
-            "patch": "4.31"
+            "cNext": ["q.68007"]
         },
         "x68007": {
-            "level": 61,
             "name_en": "Where the Streets Are Paved with Koban",
             "name_fr": "Le port aux quais d'or",
+            "level": 61,
             "npc_en": "Hancock",
             "npc_fr": "Hancock",
+            "patch": "4.0",
             "cPrev": ["q.68006"],
-            "cNext": ["q.68008"],
-            "patch": "4.31"
+            "cNext": ["q.68008"]
         },
         "x68008": {
-            "level": 61,
             "name_en": "By the Grace of Lord Lolorito",
             "name_fr": "Le Bazar de Rubis",
+            "level": 61,
             "npc_en": "Hancock",
             "npc_fr": "Hancock",
+            "unlock": ["tto.12", "tto.68"],
+            "patch": "4.0",
             "cPrev": ["q.68007"],
-            "cNext": ["q.68009", "q.68202", "q.68204", "q.68201", "q.68205", "q.68167", "q.68203", "q.68472"],
-            "patch": "4.31"
+            "cNext": ["q.68009", "q.68202", "q.68204", "q.68201", "q.68205", "q.68167", "q.68203", "q.68472"]
         },
         "x68009": {
-            "level": 61,
             "name_en": "A Good Samurai Is Hard to Find",
             "name_fr": "Sur les traces des Domiens",
+            "level": 61,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68008"],
-            "cNext": ["q.68010"],
-            "patch": "4.31"
+            "cNext": ["q.68010"]
         },
         "x68010": {
-            "level": 61,
             "name_en": "It's Probably a Trap",
             "name_fr": "Un capitaine pas comme les autres",
+            "level": 61,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68009"],
-            "cNext": ["q.68011"],
-            "patch": "4.31"
+            "cNext": ["q.68011"]
         },
         "x68011": {
-            "level": 61,
             "name_en": "Making the Catfish Sing",
             "name_fr": "Les aveux de Gyodo",
+            "level": 61,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68010"],
-            "cNext": ["q.68012", "q.68206", "q.68207", "q.68208"],
-            "patch": "4.31"
+            "cNext": ["q.68012", "q.68206", "q.68207", "q.68208"]
         },
         "x68012": {
-            "level": 62,
             "name_en": "Once More, to the Ruby Sea",
             "name_fr": "En route pour Othard",
+            "level": 62,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68011"],
             "cNext": ["q.68013"],
-            "cSiblings": ["a.1788"],
-            "patch": "4.31"
+            "cSiblings": ["a.1788"]
         },
         "x68013": {
-            "level": 62,
             "name_en": "Open Water",
             "name_fr": "Baignade avec Lyse",
+            "level": 62,
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
+            "patch": "4.0",
             "cPrev": ["q.68012"],
-            "cNext": ["q.68014"],
-            "patch": "4.31"
+            "cNext": ["q.68014"]
         },
         "x68014": {
-            "level": 62,
             "name_en": "Boys with Boats",
             "name_fr": "Les pirates de la Confédération",
+            "level": 62,
             "npc_en": "Tansui",
             "npc_fr": "Tansui",
+            "unlock": "tto.54",
+            "patch": "4.0",
             "cPrev": ["q.68013"],
-            "cNext": ["q.68209", "q.68212", "q.68211", "q.68210", "q.68015", "q.68213", "q.68214"],
-            "patch": "4.31"
+            "cNext": ["q.68209", "q.68212", "q.68211", "q.68210", "q.68015", "q.68213", "q.68214"]
         },
         "x68015": {
-            "level": 62,
             "name_en": "To Bend with the Wind",
             "name_fr": "Un continent hostile",
+            "level": 62,
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
+            "patch": "4.0",
             "cPrev": ["q.68014"],
-            "cNext": ["q.68016"],
-            "patch": "4.31"
+            "cNext": ["q.68016"]
         },
         "x68016": {
-            "level": 62,
             "name_en": "Confederate Consternation",
             "name_fr": "Le hameau des parias",
+            "level": 62,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": "e.154",
+            "patch": "4.0",
             "cPrev": ["q.68015"],
             "cNext": ["q.68217", "q.68489", "q.68215"],
-            "cSiblings": ["e.154"],
-            "patch": "4.31",
-            "unlock": "e.154"
+            "cSiblings": ["e.154"]
         },
         "x68217": {
-            "level": 62,
             "name_en": "The Solace of the Sea",
             "name_fr": "Soigner le mal de mer",
+            "level": 62,
             "npc_en": "Afumi",
             "npc_fr": "Afumi",
+            "patch": "4.0",
             "cPrev": ["q.68016"],
-            "cNext": ["q.68017"],
-            "patch": "4.31"
+            "cNext": ["q.68017"]
         },
         "x68489": {
-            "level": 62,
             "name_en": "The Arrows of Misfortune",
             "name_fr": "C'est comme ça qu'on décarcasse",
+            "level": 62,
             "npc_en": "Kajika",
             "npc_fr": "Kajika",
+            "patch": "4.0",
             "cPrev": ["q.68016"],
-            "cNext": ["q.68017"],
-            "patch": "4.31"
+            "cNext": ["q.68017"]
         },
         "x68215": {
-            "level": 62,
             "name_en": "The Last Voyage",
             "name_fr": "Partir un jour sans retour",
+            "level": 62,
             "npc_en": "Aranami",
             "npc_fr": "Aranami",
+            "patch": "4.0",
             "cPrev": ["q.68016"],
-            "cNext": ["q.68017"],
-            "patch": "4.31"
+            "cNext": ["q.68017"]
         },
         "x68017": {
-            "level": 62,
             "name_en": "Alisaie's Stones",
             "name_fr": "Des pirates dans le besoin",
+            "level": 62,
             "npc_en": "Hirase",
             "npc_fr": "Hirase",
+            "patch": "4.0",
             "cPrev": ["q.68215", "q.68217", "q.68489"],
             "cNext": [
                 "q.68223",
@@ -467,48 +471,49 @@
                 "q.68222",
                 "q.68225",
                 "q.68226"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x68018": {
-            "level": 62,
             "name_en": "Under the Sea",
             "name_fr": "Tamamizu la Verte",
+            "level": 62,
             "npc_en": "Rasho",
             "npc_fr": "Rasho",
+            "patch": "4.0",
             "cPrev": ["q.68017"],
-            "cNext": ["q.68019"],
-            "patch": "4.31"
+            "cNext": ["q.68019"]
         },
         "x68019": {
-            "level": 62,
             "name_en": "Of Kojin and Kami",
             "name_fr": "Une myriade de kami",
+            "level": 62,
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
+            "patch": "4.0",
             "cPrev": ["q.68018"],
-            "cNext": ["q.68229", "q.68230", "q.68228", "q.68227", "q.68020", "q.68231", "q.68232"],
-            "patch": "4.31"
+            "cNext": ["q.68229", "q.68230", "q.68228", "q.68227", "q.68020", "q.68231", "q.68232"]
         },
         "x68020": {
-            "level": 63,
             "name_en": "In Soroban We Trust",
             "name_fr": "Plongée dans les fonds marins",
+            "level": 63,
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
+            "unlock": "e.151",
             "unlock_en": "Diving",
+            "unlock_fr": "Diving",
+            "patch": "4.0",
             "cPrev": ["q.68019"],
             "cNext": ["q.68021", "q.68458"],
-            "cSiblings": ["e.151"],
-            "patch": "4.31",
-            "unlock": "e.151"
+            "cSiblings": ["e.151"]
         },
         "x68021": {
-            "level": 63,
             "name_en": "Forever and Ever Apart",
             "name_fr": "Ao Ra en autarcie",
+            "level": 63,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68020"],
             "cNext": [
                 "q.68168",
@@ -524,58 +529,58 @@
                 "q.68240",
                 "q.68241",
                 "q.68243"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x68022": {
-            "level": 63,
             "name_en": "In Darkness the Magatama Dreams",
             "name_fr": "Expédition sous-marine",
+            "level": 63,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68021"],
-            "cNext": ["q.68023"],
-            "patch": "4.31"
+            "cNext": ["q.68023"]
         },
         "x68023": {
-            "level": 63,
             "name_en": "The Whims of the Divine",
             "name_fr": "Le retour du joyau sacré",
+            "level": 63,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68022"],
-            "cNext": ["q.68247", "q.68244", "q.68024", "q.68245", "q.68246", "q.68248"],
-            "patch": "4.31"
+            "cNext": ["q.68247", "q.68244", "q.68024", "q.68245", "q.68246", "q.68248"]
         },
         "x68024": {
-            "level": 63,
             "name_en": "Breaking and Delivering",
             "name_fr": "L'île au trésor",
+            "level": 63,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68023"],
-            "cNext": ["q.68025"],
-            "patch": "4.31"
+            "cNext": ["q.68025"]
         },
         "x68025": {
-            "level": 63,
             "name_en": "The Lord of the Revel",
             "name_fr": "Que la fête commence",
-            "unlock": ["d.243", "travel.mount-speed.the-far-east.1"],
+            "level": 63,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": ["d.243", "travel.mount-speed.the-far-east.1"],
+            "patch": "4.0",
             "cPrev": ["q.68024"],
             "cNext": ["q.68026"],
-            "cSiblings": ["travel.mount-speed.the-far-east.1"],
-            "patch": "4.31"
+            "cSiblings": ["d.243", "travel.mount-speed.the-far-east.1"]
         },
         "x68026": {
-            "level": 63,
             "name_en": "Tide Goes in, Imperials Go Out",
             "name_fr": "Isari, village libéré",
-            "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
+            "level": 63,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
+            "patch": "4.0",
             "cPrev": ["q.68025"],
             "cNext": [
                 "q.68667",
@@ -593,118 +598,118 @@
                 "q.68255",
                 "q.68509"
             ],
-            "cSiblings": ["a.1789", "travel.aether-currents.sb.the-ruby-sea.14"],
-            "patch": "4.31"
+            "cSiblings": ["a.1789", "travel.aether-currents.sb.the-ruby-sea.14"]
         },
         "x68027": {
-            "level": 63,
             "name_en": "A Silence in Three Parts",
             "name_fr": "La quiétude de Yanxia",
+            "level": 63,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68026"],
-            "cNext": ["q.68028"],
-            "patch": "4.31"
+            "cNext": ["q.68028"]
         },
         "x68028": {
-            "level": 64,
             "name_en": "Life after Doma",
             "name_fr": "Le prix de la rébellion",
+            "level": 64,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68027"],
-            "cNext": ["q.68470"],
-            "patch": "4.31"
+            "cNext": ["q.68470"]
         },
         "x68470": {
-            "level": 64,
             "name_en": "A Glimpse of Madness",
             "name_fr": "Un reste d'intrépidité",
+            "level": 64,
             "npc_en": "Liberation Front Guard",
             "npc_fr": "Combattant de la Rébellion Domienne",
+            "patch": "4.0",
             "cPrev": ["q.68028"],
-            "cNext": ["q.68029"],
-            "patch": "4.31"
+            "cNext": ["q.68029"]
         },
         "x68029": {
-            "level": 64,
             "name_en": "The Stubborn Remainder",
             "name_fr": "La triste réalité domienne",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68470"],
-            "cNext": ["q.68260", "q.68264", "q.68030", "q.68261", "q.68265"],
-            "patch": "4.31"
+            "cNext": ["q.68260", "q.68264", "q.68030", "q.68261", "q.68265"]
         },
         "x68030": {
-            "level": 64,
             "name_en": "The Ones We Leave Behind",
             "name_fr": "La douleur de ceux qui restent",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68029"],
-            "cNext": ["q.68266", "q.68269", "q.68031", "q.68268", "q.68262", "q.68263", "q.68267"],
-            "patch": "4.31"
+            "cNext": ["q.68266", "q.68269", "q.68031", "q.68268", "q.68262", "q.68263", "q.68267"]
         },
         "x68031": {
-            "level": 64,
             "name_en": "A New Ruby Tithe",
             "name_fr": "Persécutions sans fin",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68030"],
-            "cNext": ["q.68032"],
-            "patch": "4.31"
+            "cNext": ["q.68032"]
         },
         "x68032": {
-            "level": 64,
             "name_en": "The Will to Live",
             "name_fr": "Mascarade au castrum",
-            "unlock": "travel.mount-speed.the-far-east.3",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "unlock": "travel.mount-speed.the-far-east.3",
+            "patch": "4.0",
             "cPrev": ["q.68031"],
             "cNext": ["q.68033"],
-            "cSiblings": ["travel.mount-speed.the-far-east.3"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.the-far-east.3"]
         },
         "x68033": {
-            "level": 64,
             "name_en": "Daughter of the Deep",
             "name_fr": "Enfant des profondeurs",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68032"],
-            "cNext": ["q.68471"],
-            "patch": "4.31"
+            "cNext": ["q.68471"]
         },
         "x68471": {
-            "level": 64,
             "name_en": "Path of No Return",
             "name_fr": "Une détermination de shinobi",
+            "level": 64,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68033"],
-            "cNext": ["q.68034"],
-            "patch": "4.31"
+            "cNext": ["q.68034"]
         },
         "x68034": {
-            "level": 64,
             "name_en": "The Time between the Seconds",
-            "name_fr": "Sus à Zenos!",
+            "name_fr": "Sus à Zenos !",
+            "level": 64,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68471"],
-            "cNext": ["q.68035"],
-            "patch": "4.31"
+            "cNext": ["q.68035"]
         },
         "x68035": {
-            "level": 64,
             "name_en": "All the Little Angels",
             "name_fr": "Le premier pas en avant",
-            "unlock": "travel.aether-currents.sb.yanxia.14",
+            "level": 64,
             "npc_en": "Isse",
             "npc_fr": "Isse",
+            "unlock": "travel.aether-currents.sb.yanxia.14",
+            "patch": "4.0",
             "cPrev": ["q.68034"],
             "cNext": [
                 "q.68278",
@@ -727,146 +732,148 @@
                 "q.68285",
                 "q.68287"
             ],
-            "cSiblings": ["a.1790", "travel.aether-currents.sb.yanxia.14"],
-            "patch": "4.31"
+            "cSiblings": ["a.1790", "travel.aether-currents.sb.yanxia.14"]
         },
         "x68166": {
-            "level": 65,
             "name_en": "Here There Be Xaela",
             "name_fr": "En route vers la steppe",
+            "level": 65,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68035"],
-            "cNext": ["q.68036"],
-            "patch": "4.31"
+            "cNext": ["q.68036"]
         },
         "x68036": {
-            "level": 65,
             "name_en": "The Search for Lord Hien",
             "name_fr": "Le Ralliement",
+            "level": 65,
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
+            "patch": "4.0",
             "cPrev": ["q.68166"],
-            "cNext": ["q.68292", "q.68037", "q.68288", "q.68289", "q.68290", "q.68291", "q.68293"],
-            "patch": "4.31"
+            "cNext": ["q.68292", "q.68037", "q.68288", "q.68289", "q.68290", "q.68291", "q.68293"]
         },
         "x68037": {
-            "level": 65,
             "name_en": "A Season for War",
             "name_fr": "Le Tsagaan Sar",
+            "level": 65,
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
+            "patch": "4.0",
             "cPrev": ["q.68036"],
-            "cNext": ["q.68296", "q.68298", "q.68299", "q.68294", "q.68038", "q.68295", "q.68297"],
-            "patch": "4.31"
+            "cNext": ["q.68296", "q.68298", "q.68299", "q.68294", "q.68038", "q.68295", "q.68297"]
         },
         "x68038": {
-            "level": 65,
             "name_en": "An Impossible Dream",
             "name_fr": "L'écho d'un peuple",
+            "level": 65,
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
+            "patch": "4.0",
             "cPrev": ["q.68037"],
-            "cNext": ["q.68039"],
-            "patch": "4.31"
+            "cNext": ["q.68039"]
         },
         "x68039": {
-            "level": 65,
             "name_en": "Stars in the Dark",
             "name_fr": "Oracle prophétique",
+            "level": 65,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68038"],
-            "cNext": ["q.68040", "q.68303", "q.68301", "q.68300", "q.68302"],
-            "patch": "4.31"
+            "cNext": ["q.68040", "q.68303", "q.68301", "q.68300", "q.68302"]
         },
         "x68040": {
-            "level": 65,
             "name_en": "A Warrior's Welcome",
             "name_fr": "La tâche capitale",
+            "level": 65,
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
+            "patch": "4.0",
             "cPrev": ["q.68039"],
-            "cNext": ["q.68041", "q.68305", "q.68304", "q.68306"],
-            "patch": "4.31"
+            "cNext": ["q.68041", "q.68305", "q.68304", "q.68306"]
         },
         "x68041": {
-            "level": 65,
             "name_en": "The Heart of Nations",
             "name_fr": "Bienvenue chez les Mol",
+            "level": 65,
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
+            "patch": "4.0",
             "cPrev": ["q.68040"],
-            "cNext": ["q.68307", "q.68309", "q.68308", "q.68042"],
-            "patch": "4.31"
+            "cNext": ["q.68307", "q.68309", "q.68308", "q.68042"]
         },
         "x68042": {
-            "level": 65,
             "name_en": "A Trial Before the Trial",
             "name_fr": "Les aléas de la steppe",
+            "level": 65,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68041"],
-            "cNext": ["q.68043"],
-            "patch": "4.31"
+            "cNext": ["q.68043"]
         },
         "x68043": {
-            "level": 65,
             "name_en": "In the Footsteps of Bardam the Brave",
             "name_fr": "La Force de Bardam",
-            "unlock": ["d.240", "mo.125"],
+            "level": 65,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": ["d.240", "mo.125"],
+            "patch": "4.0",
             "cPrev": ["q.68042"],
             "cNext": ["q.68044"],
-            "patch": "4.31"
+            "cSiblings": ["d.240"]
         },
         "x68044": {
-            "level": 65,
             "name_en": "The Children of Azim",
             "name_fr": "L'hospitalité oronir",
+            "level": 65,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68043"],
-            "cNext": ["q.68314", "q.68045", "q.68311", "q.68312", "q.68310", "q.68313"],
-            "patch": "4.31"
+            "cNext": ["q.68314", "q.68045", "q.68311", "q.68312", "q.68310", "q.68313"]
         },
         "x68045": {
-            "level": 66,
             "name_en": "The Labors of Magnai",
             "name_fr": "À chacun sa corvée",
+            "level": 66,
             "npc_en": "Baatu",
             "npc_fr": "Baatu",
+            "patch": "4.0",
             "cPrev": ["q.68044"],
-            "cNext": ["q.68315", "q.68046", "q.68316", "q.68317"],
-            "patch": "4.31"
+            "cNext": ["q.68315", "q.68046", "q.68316", "q.68317"]
         },
         "x68046": {
-            "level": 66,
             "name_en": "For Love of the Moon",
             "name_fr": "Un seigneur, des agneaux",
+            "level": 66,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68045"],
-            "cNext": ["q.68318", "q.68319", "q.68320", "q.68321", "q.68047"],
-            "patch": "4.31"
+            "cNext": ["q.68318", "q.68319", "q.68320", "q.68321", "q.68047"]
         },
         "x68047": {
-            "level": 66,
             "name_en": "Sworn Enemies of the Sun",
             "name_fr": "D'une tribu à l'autre",
+            "level": 66,
             "npc_en": "Magnai",
             "npc_fr": "Magnai",
+            "patch": "4.0",
             "cPrev": ["q.68046"],
-            "cNext": ["q.68048"],
-            "patch": "4.31"
+            "cNext": ["q.68048"]
         },
         "x68048": {
-            "level": 66,
             "name_en": "The Undying Ones",
             "name_fr": "À la découverte des Dotharl",
+            "level": 66,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "unlock": "tto.82",
+            "patch": "4.0",
             "cPrev": ["q.68047"],
             "cNext": [
                 "q.68327",
@@ -883,368 +890,369 @@
                 "q.68329",
                 "q.68330",
                 "q.68332"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x68049": {
-            "level": 66,
             "name_en": "A Final Peace",
             "name_fr": "Les trompe-la-mort",
+            "level": 66,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68048"],
-            "cNext": ["q.68050"],
-            "patch": "4.31"
+            "cNext": ["q.68050"]
         },
         "x68050": {
-            "level": 66,
             "name_en": "As the Gods Will",
             "name_fr": "Liberté retrouvée",
+            "level": 66,
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
+            "patch": "4.0",
             "cPrev": ["q.68049"],
-            "cNext": ["q.68051"],
-            "patch": "4.31"
+            "cNext": ["q.68051"]
         },
         "x68051": {
-            "level": 66,
             "name_en": "Naadam",
-            "name_fr": "Au Naadam!",
-            "unlock": "travel.mount-speed.the-far-east.5",
+            "name_fr": "Au Naadam !",
+            "level": 66,
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
+            "unlock": "travel.mount-speed.the-far-east.5",
+            "patch": "4.0",
             "cPrev": ["q.68050"],
             "cNext": ["q.68052"],
-            "cSiblings": ["travel.mount-speed.the-far-east.5"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.the-far-east.5"]
         },
         "x68052": {
-            "level": 66,
             "name_en": "Glory to the Khagan",
             "name_fr": "Jubilation collective",
-            "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
+            "level": 66,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
+            "patch": "4.0",
             "cPrev": ["q.68051"],
             "cNext": ["q.68337", "q.68338", "q.68053", "q.68336", "q.68339"],
-            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.14"]
         },
         "x68053": {
-            "level": 66,
             "name_en": "In Crimson They Walked",
             "name_fr": "Tour d'adieu",
+            "level": 66,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68052"],
             "cNext": ["q.68632", "q.68054"],
-            "cSiblings": ["a.1791"],
-            "patch": "4.31"
+            "cSiblings": ["a.1791"]
         },
         "x68054": {
-            "level": 66,
             "name_en": "The Hour of Reckoning",
             "name_fr": "Retour aux affaires",
+            "level": 66,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68053"],
-            "cNext": ["q.68055"],
-            "patch": "4.31"
+            "cNext": ["q.68055"]
         },
         "x68055": {
-            "level": 67,
             "name_en": "The Room Where It Happened",
             "name_fr": "La soif d'indépendance",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68054"],
-            "cNext": ["q.68482"],
-            "patch": "4.31"
+            "cNext": ["q.68482"]
         },
         "x68482": {
-            "level": 67,
             "name_en": "How Tataru Got Her Groove Back",
             "name_fr": "Tataru l'entremetteuse",
+            "level": 67,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "4.0",
             "cPrev": ["q.68055"],
-            "cNext": ["q.68342", "q.68341", "q.68343", "q.68344", "q.68346", "q.68340", "q.68056", "q.68345", "q.68347"],
-            "patch": "4.31"
+            "cNext": ["q.68342", "q.68341", "q.68343", "q.68344", "q.68346", "q.68340", "q.68056", "q.68345", "q.68347"]
         },
         "x68056": {
-            "level": 67,
             "name_en": "Seeds of Despair",
             "name_fr": "Les germes du désespoir",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68482"],
-            "cNext": ["q.68057"],
-            "patch": "4.31"
+            "cNext": ["q.68057"]
         },
         "x68057": {
-            "level": 67,
             "name_en": "The Limits of Our Endurance",
             "name_fr": "L'union des Domiens",
+            "level": 67,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68056"],
-            "cNext": ["q.68483"],
-            "patch": "4.31"
+            "cNext": ["q.68483"]
         },
         "x68483": {
-            "level": 67,
             "name_en": "Broken Steel, Broken Men",
             "name_fr": "Du métal pour survivre",
+            "level": 67,
             "npc_en": "Tsuranuki",
             "npc_fr": "Tsuranuki",
+            "patch": "4.0",
             "cPrev": ["q.68057"],
-            "cNext": ["q.68058"],
-            "patch": "4.31"
+            "cNext": ["q.68058"]
         },
         "x68058": {
-            "level": 67,
             "name_en": "The Doma Within",
             "name_fr": "Un seigneur et son château",
+            "level": 67,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68483"],
-            "cNext": ["q.68059"],
-            "patch": "4.31"
+            "cNext": ["q.68059"]
         },
         "x68059": {
-            "level": 67,
             "name_en": "On the Eve of Destiny",
             "name_fr": "Un dernier verre",
+            "level": 67,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "patch": "4.0",
             "cPrev": ["q.68058"],
-            "cNext": ["q.68060"],
-            "patch": "4.31"
+            "cNext": ["q.68060"]
         },
         "x68060": {
-            "level": 67,
             "name_en": "The Die Is Cast",
             "name_fr": "L'aube de la libération",
-            "unlock": "d.241",
+            "level": 67,
             "npc_en": "Hien",
             "npc_fr": "Hien",
+            "unlock": "d.241",
+            "patch": "4.0",
             "cPrev": ["q.68059"],
             "cNext": ["q.68061"],
-            "patch": "4.31"
+            "cSiblings": ["d.241"]
         },
         "x68061": {
-            "level": 67,
             "name_en": "The World Turned Upside Down",
             "name_fr": "Doma retrouvée",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68060"],
-            "cNext": ["q.68349", "q.68350", "q.68351", "q.68062", "q.68348"],
-            "patch": "4.31"
+            "cNext": ["q.68349", "q.68350", "q.68351", "q.68062", "q.68348"]
         },
         "x68062": {
-            "level": 67,
             "name_en": "A Swift and Secret Departure",
             "name_fr": "Un départ discret",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68061"],
             "cNext": ["q.68063"],
-            "cSiblings": ["a.1792"],
-            "patch": "4.31"
+            "cSiblings": ["a.1792"]
         },
         "x68063": {
-            "level": 67,
             "name_en": "While You Were Away",
             "name_fr": "Accueil inattendu au port",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68062"],
-            "cNext": ["q.68064"],
-            "patch": "4.31"
+            "cNext": ["q.68064"]
         },
         "x68064": {
-            "level": 67,
             "name_en": "Rhalgr's Beacon",
             "name_fr": "La Comète de Rhalgr",
+            "level": 67,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "patch": "4.0",
             "cPrev": ["q.68063"],
-            "cNext": ["q.68065"],
-            "patch": "4.31"
+            "cNext": ["q.68065"]
         },
         "x68065": {
-            "level": 67,
             "name_en": "The Fortunes of War",
             "name_fr": "La chasse aux ennemis",
+            "level": 67,
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
+            "patch": "4.0",
             "cPrev": ["q.68064"],
-            "cNext": ["q.68066"],
-            "patch": "4.31"
+            "cNext": ["q.68066"]
         },
         "x68066": {
-            "level": 67,
             "name_en": "Rising Fortunes, Rising Spirits",
             "name_fr": "Bienvenue chez les M",
+            "level": 67,
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
+            "patch": "4.0",
             "cPrev": ["q.68065"],
-            "cNext": ["q.68357", "q.68067", "q.68356"],
-            "patch": "4.31"
+            "cNext": ["q.68357", "q.68067", "q.68356"]
         },
         "x68067": {
-            "level": 67,
             "name_en": "The Lure of the Dream",
             "name_fr": "Deux tribus, une déesse",
+            "level": 67,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68066"],
-            "cNext": ["q.68352", "q.68354", "q.68355", "q.68353", "q.68068"],
-            "patch": "4.31"
+            "cNext": ["q.68352", "q.68354", "q.68355", "q.68353", "q.68068"]
         },
         "x68068": {
-            "level": 67,
             "name_en": "The Lady of Bliss",
             "name_fr": "Lakshmi",
-            "unlock": ["d.263", "travel.mount-speed.gyr-abania.1"],
+            "level": 67,
             "npc_en": "Vajra",
             "npc_fr": "Vajra",
+            "unlock": ["d.263", "travel.mount-speed.gyr-abania.1"],
+            "patch": "4.0",
             "cPrev": ["q.68067"],
             "cNext": ["q.68069"],
-            "cSiblings": ["travel.mount-speed.gyr-abania.1"],
-            "patch": "4.31"
+            "cSiblings": ["d.263", "travel.mount-speed.gyr-abania.1"]
         },
         "x68069": {
-            "level": 67,
             "name_en": "The Silence of the Gods",
             "name_fr": "L'hospitalité des M",
-            "unlock": "travel.aether-currents.sb.the-fringes.14",
+            "level": 67,
             "npc_en": "Vajra",
             "npc_fr": "Vajra",
+            "unlock": "travel.aether-currents.sb.the-fringes.14",
+            "patch": "4.0",
             "cPrev": ["q.68068"],
             "cNext": ["q.68358", "q.68362", "q.68070", "q.68359", "q.68360", "q.68361", "q.68363", "q.68364"],
-            "cSiblings": ["travel.aether-currents.sb.the-fringes.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.14"]
         },
         "x68070": {
-            "level": 68,
             "name_en": "The First of Many",
             "name_fr": "En route vers Les Pics",
+            "level": 68,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68069"],
-            "cNext": ["q.68071"],
-            "patch": "4.31"
+            "cNext": ["q.68071"]
         },
         "x68071": {
-            "level": 68,
             "name_en": "Strong and Unified",
             "name_fr": "Conseil militaire à Ala Ghiri",
+            "level": 68,
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
+            "patch": "4.0",
             "cPrev": ["q.68070"],
-            "cNext": ["q.68366", "q.68365", "q.68368", "q.68072", "q.68367", "q.68369"],
-            "patch": "4.31"
+            "cNext": ["q.68366", "q.68365", "q.68368", "q.68072", "q.68367", "q.68369"]
         },
         "x68072": {
-            "level": 68,
             "name_en": "Hells Open",
             "name_fr": "Une mission de soutien",
+            "level": 68,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68071"],
-            "cNext": ["q.68073"],
-            "patch": "4.31"
+            "cNext": ["q.68073"]
         },
         "x68073": {
-            "level": 68,
             "name_en": "Heavens Weep",
             "name_fr": "Chaos à Specula Imperatoris",
+            "level": 68,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "4.0",
             "cPrev": ["q.68072"],
-            "cNext": ["q.68074"],
-            "patch": "4.31"
+            "cNext": ["q.68074"]
         },
         "x68074": {
-            "level": 68,
             "name_en": "The Road Home",
             "name_fr": "Un triste repli",
+            "level": 68,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68073"],
-            "cNext": ["q.68075"],
-            "patch": "4.31"
+            "cNext": ["q.68075"]
         },
         "x68075": {
-            "level": 68,
             "name_en": "For the Living and the Dead",
             "name_fr": "La peine au fond du cœur",
+            "level": 68,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68074"],
-            "cNext": ["q.68370", "q.68371", "q.68373", "q.68383", "q.68384", "q.68382", "q.68372", "q.68374", "q.68076"],
-            "patch": "4.31"
+            "cNext": ["q.68370", "q.68371", "q.68373", "q.68383", "q.68384", "q.68382", "q.68372", "q.68374", "q.68076"]
         },
         "x68076": {
-            "level": 68,
             "name_en": "Above the Churning Waters",
             "name_fr": "Avec vue sur la forteresse",
+            "level": 68,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68075"],
-            "cNext": ["q.68077"],
-            "patch": "4.31"
+            "cNext": ["q.68077"]
         },
         "x68077": {
-            "level": 68,
             "name_en": "The Path Forward",
             "name_fr": "L'atout de Pipin",
+            "level": 68,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68076"],
-            "cNext": ["q.68378", "q.68380", "q.68078", "q.68375", "q.68376", "q.68377", "q.68379", "q.68381"],
-            "patch": "4.31"
+            "cNext": ["q.68378", "q.68380", "q.68078", "q.68375", "q.68376", "q.68377", "q.68379", "q.68381"]
         },
         "x68078": {
-            "level": 68,
             "name_en": "With Tired Hands We Toil",
             "name_fr": "À la solde de l'ennemi",
+            "level": 68,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68077"],
-            "cNext": ["q.68079"],
-            "patch": "4.31"
+            "cNext": ["q.68079"]
         },
         "x68079": {
-            "level": 68,
             "name_en": "Where Courage Endures",
             "name_fr": "Du courage au cœur",
+            "level": 68,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68078"],
-            "cNext": ["q.68387", "q.68391", "q.68389", "q.68385", "q.68386", "q.68388", "q.68390", "q.68392", "q.68080"],
-            "patch": "4.31"
+            "cNext": ["q.68387", "q.68391", "q.68389", "q.68385", "q.68386", "q.68388", "q.68390", "q.68392", "q.68080"]
         },
         "x68080": {
-            "level": 69,
             "name_en": "The Price of Freedom",
             "name_fr": "Infiltration à Castrum Abania",
-            "unlock": ["d.242", "travel.mount-speed.gyr-abania.3"],
+            "level": 69,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": ["d.242", "travel.mount-speed.gyr-abania.3"],
+            "patch": "4.0",
             "cPrev": ["q.68079"],
             "cNext": ["q.68081"],
-            "cSiblings": ["travel.mount-speed.gyr-abania.3"],
-            "patch": "4.31"
+            "cSiblings": ["d.242", "travel.mount-speed.gyr-abania.3"]
         },
         "x68081": {
-            "level": 69,
             "name_en": "Raubahn's Invitation",
             "name_fr": "Le calcul de Raubahn",
+            "level": 69,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "patch": "4.0",
             "cPrev": ["q.68080"],
             "cNext": [
                 "q.68082",
@@ -1257,27 +1265,27 @@
                 "q.68397",
                 "q.68398",
                 "q.68401"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x68082": {
-            "level": 69,
             "name_en": "Liberty or Death",
-            "name_fr": "La liberté ou la mort!",
-            "unlock": "travel.aether-currents.sb.the-peaks.14",
+            "name_fr": "La liberté ou la mort !",
+            "level": 69,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "unlock": "travel.aether-currents.sb.the-peaks.14",
+            "patch": "4.0",
             "cPrev": ["q.68081"],
             "cNext": ["q.68402", "q.68083", "q.68403"],
-            "cSiblings": ["travel.aether-currents.sb.the-peaks.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.14"]
         },
         "x68083": {
-            "level": 69,
             "name_en": "The Lady in Red",
             "name_fr": "Dans le creux de la main",
+            "level": 69,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68082"],
             "cNext": [
                 "q.68404",
@@ -1291,74 +1299,75 @@
                 "q.68409",
                 "q.68410"
             ],
-            "cSiblings": ["a.1793"],
-            "patch": "4.31"
+            "cSiblings": ["a.1793"]
         },
         "x68084": {
-            "level": 69,
             "name_en": "Upon the Great Loch's Shore",
             "name_fr": "Rassemblements aux Lacs",
+            "level": 69,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "patch": "4.0",
             "cPrev": ["q.68083"],
-            "cNext": ["q.68413", "q.68416", "q.68415", "q.68085", "q.68414"],
-            "patch": "4.31"
+            "cNext": ["q.68413", "q.68416", "q.68415", "q.68085", "q.68414"]
         },
         "x68085": {
-            "level": 69,
             "name_en": "The Key to Victory",
             "name_fr": "La clef des canaux",
+            "level": 69,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68084"],
-            "cNext": ["q.68086"],
-            "patch": "4.31"
+            "cNext": ["q.68086"]
         },
         "x68086": {
-            "level": 69,
             "name_en": "The Resonant",
             "name_fr": "La ruse d'Urianger",
-            "unlock": "travel.mount-speed.gyr-abania.5",
+            "level": 69,
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
+            "unlock": "travel.mount-speed.gyr-abania.5",
+            "patch": "4.0",
             "cPrev": ["q.68085"],
             "cNext": ["q.68087"],
-            "cSiblings": ["travel.mount-speed.gyr-abania.5"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.gyr-abania.5"]
         },
         "x68087": {
-            "level": 69,
             "name_en": "The Legacy of Our Fathers",
             "name_fr": "La marche pour la liberté",
+            "level": 69,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "4.0",
             "cPrev": ["q.68086"],
-            "cNext": ["q.68417", "q.68419", "q.68088", "q.68418", "q.68420"],
-            "patch": "4.31"
+            "cNext": ["q.68417", "q.68419", "q.68088", "q.68418", "q.68420"]
         },
         "x68088": {
-            "level": 70,
             "name_en": "The Measure of His Reach",
             "name_fr": "La grande porte d'Ala Mhigo",
+            "level": 70,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
+            "patch": "4.0",
             "cPrev": ["q.68087"],
-            "cNext": ["q.68089"],
-            "patch": "4.31"
+            "cNext": ["q.68089"]
         },
         "x68089": {
-            "level": 70,
             "name_en": "Stormblood",
             "name_fr": "Tempête de sang",
+            "level": 70,
+            "npc_en": "Pipin",
+            "npc_fr": "Pipin",
             "unlock": [
                 "d.247",
                 "d.239",
                 "travel.aether-currents.sb.the-lochs.14",
                 "travel.mount-speed.gyr-abania.0",
-                "travel.mount-speed.the-far-east.0"
+                "travel.mount-speed.the-far-east.0",
+                "tto.65"
             ],
-            "npc_en": "Pipin",
-            "npc_fr": "Pipin",
+            "patch": "4.0",
             "cPrev": ["q.68088"],
             "cNext": [
                 "q.68614",
@@ -1381,12 +1390,13 @@
                 "q.68544"
             ],
             "cSiblings": [
+                "d.247",
+                "d.239",
                 "a.1794",
                 "travel.aether-currents.sb.the-lochs.14",
                 "travel.mount-speed.gyr-abania.0",
                 "travel.mount-speed.the-far-east.0"
-            ],
-            "patch": "4.31"
+            ]
         }
     }
 }

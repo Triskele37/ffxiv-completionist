@@ -1,0 +1,35 @@
+<div class="review-localization-container">
+    <div class="issue-navigation">
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToPreviousIssue(10)"
+        >
+            <i class="mi mi-fast-rewind"></i>
+        </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToPreviousIssue()"
+        >
+            <i class="mi mi-arrow-back"></i>
+        </button>
+
+        <span>{{svcNav.currentIndex() + 1}} / {{svcData.issues().length}}</span>
+
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToNextIssue()"
+        >
+            <i class="mi mi-arrow-forward"></i>
+        </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToNextIssue(10)"
+        >
+            <i class="mi mi-fast-forward"></i>
+        </button>
+    </div>
+
+    <com-issue></com-issue>
+
+    <com-ignore-reasons></com-ignore-reasons>
+</div>

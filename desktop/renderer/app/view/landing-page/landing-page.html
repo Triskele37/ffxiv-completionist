@@ -1,0 +1,23 @@
+<div class="landing-page-container">
+    <h1>{{'APP.LANDING.HEADER' | translate}}</h1>
+
+    <div class="text-container">
+        {{'APP.LANDING.GETTING_STARTED' | translate}}
+    </div>
+
+    <button
+        pButton
+        class="p-button-link"
+        (click)="onPatchNotesClick()"
+    >
+        {{'APP.LANDING.UPDATES' | translate}}
+    </button>
+
+    <button
+        pButton
+        class="p-button-link"
+        (click)="onCompletionClick()"
+    >
+        {{'APP.LANDING.COMPLETION' | translate}}
+    </button>
+</div>

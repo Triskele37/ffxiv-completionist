@@ -1,0 +1,95 @@
+@if(isLoading()) {
+    <div class="com-modal">
+        <p-progress-spinner></p-progress-spinner>
+    </div>
+}
+
+<div
+    data-active-help="APP.ACTIVE_HELP.CHAIN_ANALYSIS"
+    class="chain-analysis"
+>
+    <div class="header">
+        <span>
+            {{issues().length}} {{'APP.TABLE.DISPLAYED' | translate}}
+        </span>
+
+        <div
+            class="chaining-toggle"
+            [pTooltip]="'APP.SETTING.CHAINING.ENABLED.TOOLTIP' | translate"
+            tooltipPosition="left"
+        >
+            <label>{{'APP.SETTING.CHAINING.ENABLED.LABEL' | translate}}</label>
+            <p-toggle-switch
+                [(ngModel)]="svcSettings.settings.chainingEnabled.value"
+                (onChange)="onChainingEnabledChange()"
+            ></p-toggle-switch>
+        </div>
+    </div>
+
+    @if(issues().length) {
+        <div class="issue-table">
+            <p-table
+                [value]="issues()"
+                [scrollable]="true"
+                class="p-datatable-striped"
+                scrollHeight="flex"
+            >
+                <ng-template #body let-issue>
+                    <span class="hover-target">
+                        <ng-container
+                            [ngTemplateOutlet]="issueRow"
+                            [ngTemplateOutletContext]="{ issue }"
+                        ></ng-container>
+                    </span>
+                </ng-template>
+            </p-table>
+        </div>
+    }
+    @else if(!isLoading()) {
+        {{'APP.SEARCH.NO_RESULTS' | translate}}
+    }
+</div>
+
+<ng-template #issueRow let-issue="issue">
+    @for(chainedTask of issue.chainedTasks; track chainedTask.fullStorageKey; let i = $index) {
+        <tr class="issue-row">
+            @if(i === 0) {
+                <com-complete-cell
+                    [task]="issue.task"
+                    [rowSpan]="issue.chainedTasks.length"
+                ></com-complete-cell>
+                <td [attr.rowspan]="issue.chainedTasks.length">
+                    <com-content-link
+                        [content]="issue.task"
+                        [nameOnly]="true"
+                    ></com-content-link>
+                </td>
+                <td
+                    class="issue-description"
+                    [rowSpan]="issue.chainedTasks.length"
+                >
+                    <button
+                        pButton
+                        class="chain-view-button p-button-text p-button-rounded"
+                        [pTooltip]="'APP.TABLE.ROW_ACTION.VIEW_CHAINS' | translate"
+                        tooltipPosition="top"
+                        (click)="onOpenChainViewer(issue.task)"
+                    >
+                        <i class="mi mi-remove-red-eye"></i>
+                        {{issue.description | translate: { threshold: issue.taskThreshold || issue.chainThreshold } }}
+                    </button>
+                </td>
+            }
+
+            <com-complete-cell
+                [task]="chainedTask"
+            ></com-complete-cell>
+            <td>
+                <com-content-link
+                    [content]="chainedTask"
+                    [nameOnly]="true"
+                ></com-content-link>
+            </td>
+        </tr>
+    }
+</ng-template>

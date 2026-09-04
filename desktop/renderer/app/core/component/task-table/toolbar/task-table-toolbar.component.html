@@ -1,0 +1,51 @@
+<div class="task-table-toolbar">
+    @let totalTasks = svcTable.originalTasks.length;
+    @let displayedTasks = svcTable.tasks().length;
+
+    <p-button-group>
+        <ng-template [ngTemplateOutlet]="templatePre"></ng-template>
+
+        @if(totalTasks) {
+            <com-quick-mark-overlay
+                [tasks]="svcTable.tasks()"
+                (marked)="onDataChange()"
+            ></com-quick-mark-overlay>
+
+            <com-selection-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-selection-overlay>
+
+            <com-chain-overlay
+                [disableUndo]="svcTable.group().isCustomGroup"
+            ></com-chain-overlay>
+
+            <com-table-action-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-table-action-overlay>
+        }
+
+        @if(svcTable.group().isCustomGroup) {
+            <com-custom-content-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-custom-content-overlay>
+            <com-merge-overlay
+                [group]="svcTable.group()"
+                [tasks]="svcTable.tasks()"
+            ></com-merge-overlay>
+        }
+    </p-button-group>
+
+    @if(totalTasks) {
+        <span
+            data-active-help="APP.ACTIVE_HELP.TABLE.ROW_COUNT_SUMMARY"
+            class="row-count"
+            tooltipPosition="bottom"
+            pTooltip="{{totalTasks - displayedTasks}} {{'APP.TABLE.HIDDEN' | translate}}"
+        >
+            {{displayedTasks}} {{'APP.TABLE.DISPLAYED' | translate}}
+        </span>
+    }
+</div>

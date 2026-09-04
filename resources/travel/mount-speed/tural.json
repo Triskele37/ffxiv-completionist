@@ -1,26 +1,36 @@
 {
     "key": "tural",
-    "groupName": "@PLACE.TURAL",
+    "groupName": "@PLACE.DT.TURAL",
     "tasks": {
         "x1": {
-            "name": "@PLACE.URQOPACHA",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Urqopacha Riding Map",
+            "name_fr": "Carte détaillée d'Urqopacha",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.URQOPACHA (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         },
         "x2": {
-            "name": "@PLACE.KOZAMAUKA",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KOZAMAUKA (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Kozama'uka Riding Map",
+            "name_fr": "Carte détaillée de Kozama'uka",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.KOZAMAUKA (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         },
         "x3": {
-            "name": "@PLACE.YAK_TEL",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Yak T'el Riding Map",
+            "name_fr": "Carte détaillée de la forêt de Yak T'el",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.YAK_TEL (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         },
         "x4": {
-            "name": "@PLACE.SHAALOANI",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHAALOANI (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Shaaloani Riding Map",
+            "name_fr": "Carte détaillée de la Shaaloani",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.SHAALOANI (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         },
         "x5": {
-            "name": "@PLACE.HERITAGE_FOUND",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.HERITAGE_FOUND (90 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Heritage Found Riding Map",
+            "name_fr": "Carte détaillée de L'Hoirie recouvrée",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.HERITAGE_FOUND (90 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0"
         }
     }
 }

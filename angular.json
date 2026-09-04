@@ -1,49 +1,35 @@
 {
-    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "$schema": "node_modules/@angular/cli/lib/config/schema.json",
     "cli": {
-        "schematicCollections": [
-            "@angular-eslint/schematics"
-        ],
+        "schematicCollections": [],
         "analytics": false
     },
     "version": 1,
-    "newProjectRoot": "projects",
     "projects": {
         "ffxiv-completionist": {
-            "root": "",
-            "sourceRoot": "src",
+            "root": "desktop",
+            "sourceRoot": "desktop/renderer",
             "projectType": "application",
-            "schematics": {
-                "@schematics/angular:application": {
-                    "strict": true
-                },
-                "@schematics/angular:component": {
-                    "style": "scss"
-                }
-            },
-            "prefix": "app",
             "architect": {
                 "build": {
                     "builder": "@angular-builders/custom-webpack:browser",
                     "options": {
-                        "outputPath": "dist",
-                        "index": "src/index.html",
-                        "main": "src/main.ts",
-                        "tsConfig": "src/tsconfig.app.json",
-                        "polyfills": "src/polyfills.ts",
+                        "outputPath": "desktop/dist",
+                        "index": "desktop/renderer/index.html",
+                        "main": "desktop/renderer/main.ts",
+                        "tsConfig": "desktop/renderer/tsconfig.app.json",
+                        "polyfills": "desktop/renderer/polyfills.ts",
                         "inlineStyleLanguage": "scss",
                         "assets": [
-                            "src/favicon.ico",
-                            "src/assets"
+                            "desktop/renderer/assets"
                         ],
                         "styles": [
-                            "src/styles.scss",
-                            "node_modules/primeicons/primeicons.css",
-                            "node_modules/primeng/resources/primeng.min.css"
+                            "desktop/renderer/styles.scss",
+                            "node_modules/primeicons/primeicons.css"
                         ],
                         "stylePreprocessorOptions": {
                             "includePaths": [
-                                "src/styles"
+                                "desktop/renderer/styles"
                             ]
                         },
                         "scripts": [],
@@ -64,13 +50,13 @@
                             "buildOptimizer": false,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.dev.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.dev.ts"
                                 }
                             ]
                         },
                         "production": {
-                            "optimization": true,
+                            "optimization": false,
                             "outputHashing": "all",
                             "sourceMap": false,
                             "namedChunks": false,
@@ -80,8 +66,8 @@
                             "buildOptimizer": true,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.prod.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.prod.ts"
                                 }
                             ]
                         },
@@ -96,8 +82,8 @@
                             "buildOptimizer": false,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.web.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.web.ts"
                                 }
                             ]
                         },
@@ -112,8 +98,8 @@
                             "buildOptimizer": true,
                             "fileReplacements": [
                                 {
-                                    "replace": "src/environments/environment.ts",
-                                    "with": "src/environments/environment.web.prod.ts"
+                                    "replace": "desktop/renderer/env/env.ts",
+                                    "with": "desktop/renderer/env/env.web.prod.ts"
                                 }
                             ]
                         }
@@ -146,21 +132,94 @@
                     }
                 }
             }
-        }
-    },
-    "schematics": {
-        "@angular-eslint/schematics:application": {
-            "setParserOptionsProject": true
         },
-        "@angular-eslint/schematics:library": {
-            "setParserOptionsProject": true
-        },
-        "@schematics/angular:component": {
-            "prefix": "xiv",
-            "style": "scss"
-        },
-        "@schematics/angular:directive": {
-            "prefix": "xiv"
+        "translate": {
+            "root": "translate",
+            "sourceRoot": "translate/renderer",
+            "projectType": "application",
+            "architect": {
+                "build": {
+                    "builder": "@angular-builders/custom-webpack:browser",
+                    "options": {
+                        "outputPath": "translate/dist",
+                        "index": "translate/renderer/index.html",
+                        "main": "translate/renderer/main.ts",
+                        "tsConfig": "translate/renderer/tsconfig.app.json",
+                        "polyfills": "translate/renderer/polyfills.ts",
+                        "inlineStyleLanguage": "scss",
+                        "assets": [
+                            "translate/renderer/assets"
+                        ],
+                        "styles": [
+                            "translate/renderer/styles.scss"
+                        ],
+                        "stylePreprocessorOptions": {
+                            "includePaths": [
+                                "translate/renderer/styles"
+                            ]
+                        },
+                        "scripts": [],
+                        "customWebpackConfig": {
+                            "path": "./angular.webpack.js",
+                            "replaceDuplicatePlugins": true
+                        }
+                    },
+                    "configurations": {
+                        "dev": {
+                            "optimization": false,
+                            "outputHashing": "none",
+                            "sourceMap": true,
+                            "namedChunks": false,
+                            "aot": false,
+                            "extractLicenses": true,
+                            "vendorChunk": false,
+                            "buildOptimizer": false,
+                            "fileReplacements": [
+                                {
+                                    "replace": "translate/renderer/env/env.ts",
+                                    "with": "translate/renderer/env/env.dev.ts"
+                                }
+                            ]
+                        },
+                        "web": {
+                            "optimization": false,
+                            "outputHashing": "none",
+                            "sourceMap": true,
+                            "namedChunks": false,
+                            "aot": false,
+                            "extractLicenses": true,
+                            "vendorChunk": false,
+                            "buildOptimizer": false,
+                            "fileReplacements": [
+                                {
+                                    "replace": "translate/renderer/env/env.ts",
+                                    "with": "translate/renderer/env/env.web.ts"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "serve": {
+                    "builder": "@angular-builders/custom-webpack:dev-server",
+                    "options": {
+                        "buildTarget": "translate:build"
+                    },
+                    "configurations": {
+                        "dev": {
+                            "buildTarget": "translate:build:dev"
+                        },
+                        "web": {
+                            "buildTarget": "translate:build:web"
+                        }
+                    }
+                },
+                "extract-i18n": {
+                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "options": {
+                        "buildTarget": "translate:build"
+                    }
+                }
+            }
         }
     }
 }

@@ -4,25 +4,27 @@
     "groupName_fr": "Le Pilier des Cieux",
     "tasks": {
         "x68667": {
-            "level": 61,
             "name_en": "Knocking on Heaven's Door",
             "name_fr": "Le Pilier des Cieux",
+            "level": 61,
             "npc_en": "Hamakaze",
             "npc_fr": "Hamakaze",
-            "unlock_en": "Heaven-on-High",
+            "unlock": "d.540",
+            "patch": "4.35",
             "cPrev": ["q.68026"],
-            "cNext": ["q.68668"],
-            "patch": "4.35"
+            "cNext": ["q.68668", "d.540"]
         },
         "x68668": {
-            "level": 61,
             "name_en": "On the Shoulders of Giants",
             "name_fr": "Aller plus haut",
+            "level": 61,
             "npc_en": "Kyusei",
             "npc_fr": "Kyusei",
+            "unlock": "tto.51",
             "unlock_en": "Heaven-on-High: Floors 30+",
-            "cPrev": ["q.68667"],
-            "patch": "4.35"
+            "unlock_fr": "Heaven-on-High: Floors 30+",
+            "patch": "4.35",
+            "cPrev": ["q.68667"]
         }
     }
 }

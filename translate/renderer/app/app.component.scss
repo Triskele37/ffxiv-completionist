@@ -1,0 +1,13 @@
+#app {
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: var(--content-padding);
+    box-sizing: border-box;
+}

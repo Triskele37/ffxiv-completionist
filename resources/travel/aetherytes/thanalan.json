@@ -1,162 +1,188 @@
 {
     "key": "thanalan",
-    "groupName": "@PLACE.THANALAN",
+    "groupName": "@PLACE.ARR.THANALAN",
     "tasks": {
         "x28": {
             "name_en": "Ul'dah - Steps of Nald",
             "name_fr": "Ul'dah - Faubourg de Nald / Place de l'Éthérite (Guilde des pugilistes/Immortels)",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x29": {
             "name_en": "Adventurers' Guild",
             "name_fr": "Guilde des aventuriers",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x30": {
             "name_en": "Thaumaturges' Guild",
             "name_fr": "Guilde des occultistes",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x31": {
             "name_en": "Gladiators' Guild",
             "name_fr": "Guilde des gladiateurs (Colisée)",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x32": {
             "name_en": "Miners' Guild",
             "name_fr": "Guilde des mineurs (Ciel azur)",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x34": {
             "name_en": "Weavers' Guild",
             "name_fr": "Guilde des couturiers",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x35": {
             "name_en": "Goldsmiths' Guild",
             "name_fr": "Guilde des orfèvres",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x37": {
             "name_en": "Sapphire Avenue Exchange",
             "name_fr": "Marché (Avenue du Saphir)",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x33": {
             "name_en": "Alchemists' Guild",
             "name_fr": "Guilde des alchimistes",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x36": {
             "name_en": "The Chamber of Rule",
             "name_fr": "Hall de la Loi",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x38": {
             "name_en": "Horizon",
             "name_fr": "Horizon",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x39": {
             "name_en": "Black Brush Station",
             "name_fr": "Gare de Roncenoire",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x40": {
             "name_en": "Camp Drybone",
             "name_fr": "Camp des Os desséchés",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x41": {
             "name_en": "Little Ala Mhigo",
             "name_fr": "Petite Ala Mhigo",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x42": {
             "name_en": "Forgotten Springs",
             "name_fr": "Oasis oubliée",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x43": {
             "name_en": "Camp Bluefog",
             "name_fr": "Camp de Brumebleue",
-            "zone": "@PLACE.NORTHERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x44": {
             "name_en": "Ceruleum Processing Plant",
             "name_fr": "Usine de céruleum",
-            "zone": "@PLACE.NORTHERN_THANALAN",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x45": {
             "name_en": "The Gold Saucer",
             "name_fr": "Gold Saucer / Place de l'Éthérite du Gold Saucer",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.51"
         },
         "x46": {
             "name_en": "Entrance & Card Squares",
             "name_fr": "Hall d'accueil (Square des duellistes)",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x47": {
             "name_en": "Wonder Square East",
             "name_fr": "Square des merveilles est",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x48": {
             "name_en": "Wonder Square West",
             "name_fr": "Square des merveilles ouest",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x49": {
             "name_en": "Event Square",
             "name_fr": "Square des spectacles",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x50": {
             "name_en": "Cactpot Board",
             "name_fr": "Comptoir du Méga Cactpot",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x51": {
             "name_en": "Round Square",
             "name_fr": "Square du rond-point",
             "zone": "@PLACE.THE_GOLD_SAUCER",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x52": {
             "name_en": "Chocobo Square",
             "name_fr": "Square des chocobos",
             "zone": "@PLACE.CHOCOBO_SQUARE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         },
         "x53": {
             "name_en": "Minion Square",
             "name_fr": "Square des chocobos (square des mascottes)",
             "zone": "@PLACE.CHOCOBO_SQUARE",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.51"
         }
     }
 }

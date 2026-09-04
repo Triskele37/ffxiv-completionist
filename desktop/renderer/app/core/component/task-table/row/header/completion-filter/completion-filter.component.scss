@@ -1,0 +1,60 @@
+:host {
+    display: contents;
+
+    .completion-filter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        // No idea what's causing this to be necessary
+        position: relative;
+        height: 36px;
+        top: 7px;
+
+        &.numeric {
+            width: 100px;
+        }
+
+        .i-complete {
+            margin-right: 4px;
+
+            &.enabled {
+                background: var(--completed);
+            }
+
+            &:not(.enabled) {
+                color: var(--completed);
+            }
+        }
+
+        .i-incomplete {
+            &.enabled {
+                background: var(--incomplete);
+            }
+
+            &:not(.enabled) {
+                color: var(--incomplete);
+            }
+        }
+
+        .i-exclude {
+            margin-top: -4px;
+
+            &.enabled {
+                background: var(--excluded);
+            }
+
+            &:not(.enabled) {
+                color: var(--excluded);
+            }
+        }
+
+        .i-complete, .i-incomplete, .i-exclude {
+            cursor: pointer;
+            color: var(--surface-500);
+            border-radius: 50%;
+            background: var(--surface-400);
+        }
+    }
+}

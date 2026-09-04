@@ -2,7 +2,7 @@
     "key": "mount-guide",
     "groupName_en": "Mount Guide",
     "groupName_fr": "Montures",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -53,9 +53,10 @@
         "x41": {
             "name_en": "Ceremony Chocobo",
             "name_fr": "Chocobo De Cérémonie",
-            "category": "@CATEGORY.QUEST",
+            "category": "@CATEGORY.PREMIUM",
             "source": "q.67114",
-            "patch": "2.45"
+            "patch": "2.45",
+            "defaultCompletion": "X"
         },
         "x52": {
             "name_en": "Amber Draught Chocobo",
@@ -77,9 +78,8 @@
         "x25": {
             "name_en": "Fat Chocobo",
             "name_fr": "Gros Chocobo",
-            "category": "@CATEGORY.EVENT",
-            "source_en": "In-Game Item Campaign",
-            "source_fr": "In-Game Item Campaign",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.A_REALM_REBORN)",
             "patch": "2.2",
             "defaultCompletion": "X"
         },
@@ -116,6 +116,14 @@
             "patch": "3.35",
             "defaultCompletion": "X"
         },
+        "x417": {
+            "name_en": "Inflatable Mograft",
+            "name_fr": "Caravane Flottante Mog",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.MOONFIRE_FAIRE (2026)",
+            "patch": "7.5",
+            "defaultCompletion": "X"
+        },
         "x4": {
             "name_en": "Goobbue",
             "name_fr": "Goobbue",
@@ -129,15 +137,16 @@
             "name_en": "Laurel Goobbue",
             "name_fr": "Goobbue Couronné",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.EAST_SHROUD (120,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ARR.EAST_SHROUD (120,000 CURRENCY.GIL)",
             "patch": "2.1"
         },
         "x336": {
             "name_en": "Peatie",
             "name_fr": "Peatie",
-            "category": "@CATEGORY.QUEST",
+            "category": "@CATEGORY.EVENT",
             "source": "q.70347",
-            "patch": "6.5"
+            "patch": "6.5",
+            "defaultCompletion": "X"
         },
         "x59": {
             "name_en": "Twintania",
@@ -165,7 +174,7 @@
         "x73": {
             "name_en": "Zu",
             "name_fr": "Zu",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.EXPLORATORY_VOYAGE",
             "source_en": "Spoils Collector - 1 Iron Voyage Spoil",
             "source_fr": "Officier du logement - 1 Espoille d'expédition en fonte",
             "patch": "3.15"
@@ -206,22 +215,22 @@
         "x150": {
             "name_en": "Tyrannosaur",
             "name_fr": "Tyrannosaure",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@SOURCE.LOCKBOX.ANEMOS",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.200",
             "patch": "4.25"
         },
         "x159": {
             "name_en": "Dodo",
             "name_fr": "Dodo",
-            "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.540",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.112", "chest.232"],
             "patch": "4.35"
         },
         "x178": {
             "name_en": "Eldthurs",
             "name_fr": "Eldthurs",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@SOURCE.LOCKBOX.PYROS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.206", "chest.207", "chest.230"],
             "patch": "4.45"
         },
         "x180": {
@@ -234,7 +243,7 @@
         "x333": {
             "name_en": "Sabotender de la Luna",
             "name_fr": "Pampa de la Luna",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.5"
         },
@@ -242,7 +251,7 @@
             "name_en": "Barreltender",
             "name_fr": "Maousse-pampa",
             "category": "@CATEGORY.GATHERING",
-            "source": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (100 CURRENCY.MOUNT_TOKEN)",
+            "source": "@VENDOR.SPLENDORS - PLACE.DT.SOLUTION_NINE (100 CURRENCY.MOUNT_TOKEN)",
             "patch": "7.1"
         },
         "x187": {
@@ -263,16 +272,18 @@
         "x211": {
             "name_en": "Ufiti",
             "name_fr": "Ufiti",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.11"
         },
         "x212": {
             "name_en": "Deinonychus",
             "name_fr": "Deinonychus",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Dalriada - Final Boss Chest",
-            "source_fr": "Dalriada - Coffre final",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "duty.field-operations.bozja.duties.3",
+                "chest.230"
+            ],
             "patch": "5.55"
         },
         "x214": {
@@ -336,15 +347,31 @@
             "name_en": "Island Peerifool",
             "name_fr": "Peeriefool Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "@SOURCE.LOCKBOX.SANCTUARY",
+            "source": "chest.25",
             "patch": "6.5"
         },
         "x340": {
             "name_en": "Island Adenium",
             "name_fr": "Adenium Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "@200 CURRENCY.ISLAND.VEGETAL",
+            "source": ["@200 CURRENCY.ISLAND.VEGETAL", "chest.25"],
             "patch": "6.5"
+        },
+        "x388": {
+            "name_en": "His Royal Headness On Parade",
+            "name_fr": "Sa Trognesté Boubouille",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.2",
+            "defaultCompletion": "X"
+        },
+        "x396": {
+            "name_en": "Ambulario",
+            "name_fr": "Citrouille Ambulante",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.ALL_SAINTS_WAKE (2025)",
+            "patch": "7.35",
+            "defaultCompletion": "X"
         },
         "x269": {
             "name_en": "Papa Paissa",
@@ -361,12 +388,27 @@
             "source": "@VENDOR.NESVAAZ (3 CURRENCY.HUNT.RESPLENDENT_FEATHER)",
             "patch": "6.1"
         },
+        "x381": {
+            "name_en": "Branchbearer",
+            "name_fr": "Sylveplume",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.DT.YAK_TEL (18 CURRENCY.SOCIETY.MAMOOL_JA)",
+            "patch": "7.25"
+        },
         "x288": {
             "name_en": "Troll",
             "name_fr": "Troll",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.1"
+        },
+        "x414": {
+            "name_en": "Uolon",
+            "name_fr": "Uolon",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.MOOGLE_TREASURE_TROVE",
+            "patch": "7.4",
+            "defaultCompletion": "X"
         },
         "x291": {
             "name_en": "Vinegaroon",
@@ -374,6 +416,49 @@
             "category": "@CATEGORY.THE_HUNT",
             "source": "@3,200 CURRENCY.HUNT.SACK_OF_NUTS",
             "patch": "6.1"
+        },
+        "x357": {
+            "name_en": "Eggeater",
+            "name_fr": "Dévor'œufs",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
+            "source": "@600 CURRENCY.FAUX_LEAF",
+            "patch": "7.2"
+        },
+        "x373": {
+            "name_en": "Petalodus",
+            "name_fr": "Petalodus",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@99 CURRENCY.EM.SANGUINITE",
+                "chest.230",
+                "chest.231"
+            ],
+            "patch": "7.25"
+        },
+        "x359": {
+            "name_en": "Alexandrian Axe Beak",
+            "name_fr": "Bec-hache",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
+            "source": "@600 CURRENCY.FAUX_LEAF",
+            "patch": "7.5"
+        },
+        "x409": {
+            "name_en": "Interstellar Leafkin",
+            "name_fr": "Sangfeuille Stellaire",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.319",
+            "patch": "7.51"
+        },
+        "x437": {
+            "name_en": "Duck-billed Porter",
+            "name_fr": "Ornithorynque Porteur",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ARCANE_AMULET)",
+                "duty.field-operations.occult-crescent.duties.1",
+                "duty.field-operations.occult-crescent.duties.2"
+            ],
+            "patch": "7.55"
         },
         "x15": {
             "name_en": "Unicorn",
@@ -422,7 +507,7 @@
             "name_en": "Black Pegasus",
             "name_fr": "Pégase Des Ténèbres",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
+            "source": "chest.103",
             "patch": "3.4"
         },
         "x83": {
@@ -489,21 +574,21 @@
             "name_en": "Behemoth",
             "name_fr": "Béhémoth",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "source": "@VENDOR.JONATHAS (6 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x19": {
             "name_en": "Cavalry Drake",
             "name_fr": "Draconide De Cavalerie",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SOUTHERN_THANALAN (120,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ARR.SOUTHERN_THANALAN (120,000 CURRENCY.GIL)",
             "patch": "2.1"
         },
         "x26": {
             "name_en": "Cavalry Elbst",
             "name_fr": "Elbst De Cavalerie",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.WESTERN_LA_NOSCEA (120,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ARR.WESTERN_LA_NOSCEA (120,000 CURRENCY.GIL)",
             "patch": "2.2"
         },
         "x32": {
@@ -545,16 +630,16 @@
         "x99": {
             "name_en": "Starlight Bear",
             "name_fr": "Ours de la Fête Des Étoiles",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2017)", "@SOURCE.MOG_STATION"],
             "patch": "4.1",
             "defaultCompletion": "X"
         },
         "x250": {
             "name_en": "Polar Bear",
             "name_fr": "Ours Polaire",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.MOONFIRE_FAIRE (2021)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.MOONFIRE_FAIRE (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -562,7 +647,7 @@
             "name_en": "Direwolf",
             "name_fr": "Loup Sinistre",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.NORTH_SHROUD (120,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ARR.NORTH_SHROUD (120,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x46": {
@@ -607,7 +692,7 @@
             "name_en": "True Griffin",
             "name_fr": "Vrai Griffon",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_FRINGES (18 CURRENCY.SOCIETY.ANANTA)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_FRINGES (18 CURRENCY.SOCIETY.ANANTA)",
             "patch": "4.2"
         },
         "x108": {
@@ -659,8 +744,8 @@
         "x130": {
             "name_en": "Ixion",
             "name_fr": "Ixion",
-            "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.ESCHINA (12 CURRENCY.FATE.IXION)",
+            "category": ["@CATEGORY.FATE", "@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
+            "source": ["@VENDOR.ESCHINA (12 CURRENCY.FATE.IXION)", "@1 CURRENCY.KHLOE.SILVER", "@300 CURRENCY.FAUX_LEAF"],
             "patch": "4.0"
         },
         "x313": {
@@ -698,7 +783,7 @@
             "name_en": "Marid",
             "name_fr": "Marid",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_FRINGES (18 CURRENCY.SOCIETY.ANANTA)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_FRINGES (18 CURRENCY.SOCIETY.ANANTA)",
             "patch": "4.2"
         },
         "x314": {
@@ -748,14 +833,21 @@
             "name_en": "Dhalmel",
             "name_fr": "Dhalmel",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
+            "source": "chest.300",
             "patch": "5.21"
+        },
+        "x401": {
+            "name_en": "Interstellar Dhalmel",
+            "name_fr": "Dhalmel De L'espace",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (29,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.31"
         },
         "x209": {
             "name_en": "Albino Karakul",
             "name_fr": "Karakul Albinos",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.21"
         },
         "x317": {
@@ -768,8 +860,8 @@
         "x225": {
             "name_en": "Megalotragus",
             "name_fr": "Mégalotragus",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.31"
         },
         "x235": {
@@ -782,22 +874,22 @@
         "x236": {
             "name_en": "Big Shell",
             "name_fr": "Coquénorme",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.41"
         },
         "x242": {
             "name_en": "Antelope Doe",
             "name_fr": "Antilope Biche",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@8,400 CURRENCY.SCRIP.SKYBUILDERS",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.5"
         },
         "x243": {
             "name_en": "Antelope Stag",
             "name_fr": "Antilope Cerf",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@30 CURRENCY.FETE_TOKEN",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@30 CURRENCY.FETE_TOKEN", "chest.301"],
             "patch": "5.5"
         },
         "x263": {
@@ -810,7 +902,7 @@
         "x266": {
             "name_en": "Calydontis",
             "name_fr": "Calydontis",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.0"
         },
@@ -854,14 +946,14 @@
             "name_en": "Hippo Cart",
             "name_fr": "Hippochar",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THAVNAIR (18 CURRENCY.SOCIETY.ARKASODARA)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.EW.THAVNAIR (18 CURRENCY.SOCIETY.ARKASODARA)",
             "patch": "6.28"
         },
         "x292": {
             "name_en": "Orthos Craklaw",
             "name_fr": "Craqulov Orthos",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": "chest.122",
             "patch": "6.35"
         },
         "x294": {
@@ -875,9 +967,17 @@
         "x302": {
             "name_en": "Starlight Steed",
             "name_fr": "Blitzen Illusoire",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2022)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2022)", "@SOURCE.MOG_STATION"],
             "patch": "6.28",
+            "defaultCompletion": "X"
+        },
+        "x419": {
+            "name_en": "Starlight Sleigh",
+            "name_fr": "Traîneau Des Étoiles",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.STARLIGHT_CELEBRATION (2026)",
+            "patch": "7.5",
             "defaultCompletion": "X"
         },
         "x304": {
@@ -891,7 +991,7 @@
             "name_en": "Shishioji",
             "name_fr": "Shishiôji",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": ["d.946", "@100 CURRENCY.VCD.SHISHU_COIN"],
+            "source": ["d.946", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.SHISHU_COIN)"],
             "patch": "6.45"
         },
         "x323": {
@@ -906,14 +1006,14 @@
             "name_en": "Quaqua",
             "name_fr": "Quaqua",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": ["d.979", "@100 CURRENCY.VCD.ALOALO_COIN"],
+            "source": ["d.979", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.ALOALO_COIN)"],
             "patch": "6.51"
         },
         "x342": {
             "name_en": "Ty'aitya",
             "name_fr": "Ty'aitya",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.MOR_DHONA (500 CURRENCY.FATE.TURALI_VOUCHER)",
+            "source": "@VENDOR.EDELINA (500 CURRENCY.FATE.TURALI_VOUCHER)",
             "patch": "7.0"
         },
         "x344": {
@@ -927,14 +1027,14 @@
             "name_en": "Mehwapyarra",
             "name_fr": "Mehwapyarra",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (12 CURRENCY.FATE.TTOKRRONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.SOLUTION_NINE (12 CURRENCY.FATE.TTOKRRONE)",
             "patch": "7.0"
         },
         "x350": {
             "name_en": "Rroneek",
             "name_fr": "Rroneek",
             "category": "@CATEGORY.GATHERING",
-            "source": "@VENDOR.SPLENDORS - PLACE.SOLUTION_NINE (100 CURRENCY.MOUNT_TOKEN)",
+            "source": "@VENDOR.SPLENDORS - PLACE.DT.SOLUTION_NINE (100 CURRENCY.MOUNT_TOKEN)",
             "patch": "7.0"
         },
         "x283": {
@@ -944,18 +1044,43 @@
             "source": "@VENDOR.RYUBOOL (3,200 CURRENCY.HUNT.SACK_OF_NUTS)",
             "patch": "7.1"
         },
+        "x379": {
+            "name_en": "Pilgrim's Protector",
+            "name_fr": "Protecteur Des Pèlerins",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": [
+                "@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)",
+                "chest.133"
+            ],
+            "patch": "7.35"
+        },
+        "x397": {
+            "name_en": "Shagcoat Cat",
+            "name_fr": "Chat À Poil Long",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.3",
+            "defaultCompletion": "X"
+        },
+        "x400": {
+            "name_en": "Yan",
+            "name_fr": "Belhamel",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.9",
+            "patch": "7.3"
+        },
         "x164": {
             "name_en": "Mikoshi",
             "name_fr": "Mikoshi",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_AZIM_STEPPE - (20 @CURRENCY.SOCIETY.NAMAZU)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_AZIM_STEPPE - (20 CURRENCY.SOCIETY.NAMAZU)",
             "patch": "4.3"
         },
         "x252": {
             "name_en": "Gilded Mikoshi",
             "name_fr": "Mikoshi Doré",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.TABETH (50,000,000 CURRENCY.GIL)",
+            "source": "@VENDOR.EDELINA (50,000,000 CURRENCY.GIL)",
             "patch": "5.5"
         },
         "x200": {
@@ -972,18 +1097,35 @@
             "source": "q.70253",
             "patch": "6.3"
         },
+        "x408": {
+            "name_en": "Ornamental Shrublet",
+            "name_fr": "Petit Enfleuri",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "chest.130",
+            "patch": "7.35"
+        },
+        "x395": {
+            "name_en": "Forgiven Mimicry",
+            "name_fr": "Mimétisme Pardonné",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": [
+                "@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)",
+                "chest.133"
+            ],
+            "patch": "7.35"
+        },
         "x9": {
             "name_en": "Ahriman",
             "name_fr": "Ahriman",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "source": "@VENDOR.JONATHAS (6 CURRENCY.ACHIEVEMENT)",
             "patch": "2.0"
         },
         "x194": {
             "name_en": "Circus Ahriman",
             "name_fr": "Ahriman Du Cirque",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.ALL_SAINTS_WAKE (2019)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2019)", "@SOURCE.MOG_STATION"],
             "patch": "5.0",
             "defaultCompletion": "X"
         },
@@ -998,7 +1140,7 @@
             "name_en": "Kongamato",
             "name_fr": "Kongamato",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_DRAVANIAN_FORELANDS (200,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.HW.THE_DRAVANIAN_FORELANDS (200,000 CURRENCY.GIL)",
             "patch": "3.15"
         },
         "x125": {
@@ -1012,7 +1154,7 @@
             "name_en": "Portly Porxie",
             "name_fr": "Porxie Potelé",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.IL_MHEG - (18 CURRENCY.SOCIETY.PIXIE)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.IL_MHEG - (18 CURRENCY.SOCIETY.PIXIE)",
             "patch": "5.1"
         },
         "x274": {
@@ -1041,9 +1183,10 @@
         "x320": {
             "name_en": "Rising Phoenix",
             "name_fr": "Phénix de la Renaissance",
-            "category": "@CATEGORY.QUEST",
-            "source": "q.70302",
-            "patch": "6.48"
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["q.70302", "@SOURCE.MOG_STATION"],
+            "patch": "6.48",
+            "defaultCompletion": "X"
         },
         "x334": {
             "name_en": "Spectral Statice",
@@ -1059,18 +1202,25 @@
             "source": "@VENDOR.UAHSHEPYA (3 CURRENCY.HUNT.TWILIGHT_GEMSTONE)",
             "patch": "7.05"
         },
+        "x435": {
+            "name_en": "Colibri Callado",
+            "name_fr": "Colibri Silencieux",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.232", "chest.233"],
+            "patch": "7.55"
+        },
         "x27": {
             "name_en": "Bomb Palanquin",
             "name_fr": "Balancelle Bombo",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.OUTER_LA_NOSCEA (120,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ARR.OUTER_LA_NOSCEA (120,000 CURRENCY.GIL)",
             "patch": "2.2"
         },
         "x53": {
             "name_en": "Sanuwa",
             "name_fr": "Sanuwa",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_SEA_OF_CLOUDS (200,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.HW.THE_SEA_OF_CLOUDS (200,000 CURRENCY.GIL)",
             "patch": "3.1"
         },
         "x111": {
@@ -1099,7 +1249,7 @@
             "name_en": "Striped Ray",
             "name_fr": "Raie Rayée",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_RUBY_SEA (12 CURRENCY.SOCIETY.KOJIN)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_RUBY_SEA (12 CURRENCY.SOCIETY.KOJIN)",
             "patch": "4.1"
         },
         "x154": {
@@ -1120,22 +1270,25 @@
         "x184": {
             "name_en": "Eurekan Petrel",
             "name_fr": "Hirondelle D'Eurêka",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@SOURCE.LOCKBOX.HYDATOS_BUNNY",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "chest.211",
+                "chest.230"
+            ],
             "patch": "4.55"
         },
         "x215": {
             "name_en": "Great Vessel of Ronka",
             "name_fr": "Jarre Du Serpent Marin",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.RAK_TIKA (18 CURRENCY.SOCIETY.QITARI)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.RAK_TIKA (18 CURRENCY.SOCIETY.QITARI)",
             "patch": "5.2"
         },
         "x253": {
             "name_en": "Resplendent Vessel of Ronka",
             "name_fr": "Jarre Du Serpent Doré",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.EDELINA (25,000,000 CURRENCY.GIL)",
+            "source": "@VENDOR.TABETH (25,000,000 CURRENCY.GIL)",
             "patch": "5.5"
         },
         "x218": {
@@ -1156,7 +1309,7 @@
             "name_en": "Miw Miisv",
             "name_fr": "Miw Miisv",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.ULTIMA_THULE (18 CURRENCY.SOCIETY.OMICRON)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.EW.ULTIMA_THULE (18 CURRENCY.SOCIETY.OMICRON)",
             "patch": "6.28"
         },
         "x319": {
@@ -1177,8 +1330,37 @@
             "name_en": "Punutiy",
             "name_fr": "Punutiy",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (18 CURRENCY.SOCIETY.PELUPELU)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.DT.KOZAMAUKA (18 CURRENCY.SOCIETY.PELUPELU)",
             "patch": "7.1"
+        },
+        "x372": {
+            "name_en": "Demon Haul",
+            "name_fr": "Muraille Démonique",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "a.3668",
+            "patch": "7.25"
+        },
+        "x394": {
+            "name_en": "Wanyudo",
+            "name_fr": "Wanyûdô",
+            "category": "@CATEGORY.PVP",
+            "source": "@SOURCE.SERIES_REWARD",
+            "patch": "7.4",
+            "defaultCompletion": "X"
+        },
+        "x411": {
+            "name_en": "Dynamite",
+            "name_fr": "Dynamite",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
+            "source": "@600 CURRENCY.FAUX_LEAF",
+            "patch": "7.4"
+        },
+        "x412": {
+            "name_en": "Genie of the Lamp",
+            "name_fr": "Esprit de la Lampe",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": ["d.1079", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.CORVOSI_MANUSCRIPT)"],
+            "patch": "7.45"
         },
         "x6": {
             "name_en": "Magitek Armor",
@@ -1217,11 +1399,18 @@
             "source": "d.247",
             "patch": "4.0"
         },
+        "x440": {
+            "name_en": "Cosmic Predator",
+            "name_fr": "Prédateur Cosmique",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (60 CURRENCY.CE.AUXESIA_TOKEN_BOOKLET)",
+            "patch": "7.51"
+        },
         "x145": {
             "name_en": "Magitek Death Claw",
             "name_fr": "Griffe D'arrestation Magitek",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "source": "@VENDOR.JONATHAS (6 CURRENCY.ACHIEVEMENT)",
             "patch": "4.2"
         },
         "x162": {
@@ -1295,6 +1484,21 @@
             "patch": "5.2",
             "defaultCompletion": "X"
         },
+        "x390": {
+            "name_en": "Magitek Slasher",
+            "name_fr": "Tailladeur Magitek",
+            "category": "@CATEGORY.PVP",
+            "source": "@SOURCE.SERIES_REWARD",
+            "patch": "7.2",
+            "defaultCompletion": "X"
+        },
+        "x430": {
+            "name_en": "Magitek Scorpion",
+            "name_fr": "Scorpion Gardien",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@430 CURRENCY.MGC",
+            "patch": "7.55"
+        },
         "x58": {
             "name_en": "Gobwalker",
             "name_fr": "Gobblindé",
@@ -1339,6 +1543,14 @@
             "source": "d.594",
             "patch": "4.4"
         },
+        "x432": {
+            "name_en": "Rocket Punch",
+            "name_fr": "Astéropoing",
+            "category": "",
+            "source": "",
+            "patch": "",
+            "hidden": true
+        },
         "x191": {
             "name_en": "Ironfrog Mover",
             "name_fr": "Grenouilleur M",
@@ -1363,15 +1575,15 @@
         "x213": {
             "name_en": "Construct 14",
             "name_fr": "Bâtisseur N°14",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@180 CURRENCY.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@180 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
         "x223": {
             "name_en": "Rolling Tankard",
             "name_fr": "Automatank",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.LAKELAND (18 CURRENCY.SOCIETY.DWARF)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.LAKELAND (18 CURRENCY.SOCIETY.DWARF)",
             "patch": "5.3"
         },
         "x264": {
@@ -1400,9 +1612,17 @@
         "x71": {
             "name_en": "SDS Fenrir",
             "name_fr": "SLE Fenrir",
-            "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
-            "source": "@EVENT.FAN_FEST (2018-2019) / @SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.FAN_FEST (2018-2019)", "@SOURCE.MOG_STATION"],
             "patch": "4.4",
+            "defaultCompletion": "X"
+        },
+        "x421": {
+            "name_en": "Hardy-Daytona",
+            "name_fr": "Hardy-Daytona",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.45",
             "defaultCompletion": "X"
         },
         "x277": {
@@ -1431,8 +1651,15 @@
             "name_en": "Air-wheeler A9",
             "name_fr": "Motodrone A9",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@PLACE.SOLUTION_NINE (7,500,000 CURRENCY.GIL)",
+            "source": "@VENDOR.NEON (7,500,000 CURRENCY.GIL)",
             "patch": "7.0"
+        },
+        "x429": {
+            "name_en": "Night Stallion",
+            "name_fr": "Étalon Nocturne",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.71018",
+            "patch": "7.55"
         },
         "x349": {
             "name_en": "Monowheel S1",
@@ -1447,6 +1674,100 @@
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2886",
             "patch": "5.55"
+        },
+        "x382": {
+            "name_en": "Air-wheeler C9",
+            "name_fr": "Motodrone C9",
+            "category": "@CATEGORY.RAID",
+            "source": "d.1026",
+            "patch": "7.2"
+        },
+        "x413": {
+            "name_en": "Lowrider T1RANT",
+            "name_fr": "Lowrider T1",
+            "category": "@CATEGORY.RAID",
+            "source": "d.1075",
+            "patch": "7.4"
+        },
+        "x364": {
+            "name_en": "Vacuum Suit",
+            "name_fr": "Mécano Cosmique",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": [
+                "chest.310",
+                "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.SINUS_ARDORUM"
+            ],
+            "patch": "7.21"
+        },
+        "x385": {
+            "name_en": "High Mobility Vacuum Suit",
+            "name_fr": "Super Mécano Cosmique Mobile",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "a.3739",
+            "patch": "7.21"
+        },
+        "x415": {
+            "name_en": "Volatile Gravity Vacuum Suit",
+            "name_fr": "Mécano Cosmique Localisé",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": ["chest.312", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.OIZYS"],
+            "patch": "7.41"
+        },
+        "x425": {
+            "name_en": "Rapid-fab Vacuum Suit",
+            "name_fr": "Mécano Cosmique De Série",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (20,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.41"
+        },
+        "x445": {
+            "name_en": "Excavating Vacuum Suit",
+            "name_fr": "Mécano Cosmique Excavateur",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (20,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.51"
+        },
+        "x386": {
+            "name_en": "Warp Loader",
+            "name_fr": "Déblayeuse Cosmique",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": ["chest.311", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.PHAENNA"],
+            "patch": "7.31"
+        },
+        "x426": {
+            "name_en": "Alert Red Warp Loader",
+            "name_fr": "Déblayeuse Cosmique Rouge",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (20,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.41"
+        },
+        "x446": {
+            "name_en": "Carbide Grey Warp Loader",
+            "name_fr": "Déblayeuse Cosmique Grise",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (20,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.51"
+        },
+        "x416": {
+            "name_en": "Cosmic Armored Weapon",
+            "name_fr": "Arme Blindée Cosmique",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (60 CURRENCY.CE.OIZYS_TOKEN_BOOKLET)",
+            "patch": "7.45"
+        },
+        "x438": {
+            "name_en": "Cosmic Armored Weapon Beta",
+            "name_fr": "Arme Blindée Cosmique 2.0",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": ["chest.316", "@SOURCE.MECH_PILOT_REWARD - PLACE.DT.AUXESIA"],
+            "patch": "7.51"
+        },
+        "x393": {
+            "name_en": "Vurgar the Loyal",
+            "name_fr": "Vurgar",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.DT.URQOPACHA (18 CURRENCY.SOCIETY.YOK_HUY)",
+            "patch": "7.35"
         },
         "x48": {
             "name_en": "Logistics System",
@@ -1538,23 +1859,25 @@
         "x224": {
             "name_en": "Gabriel α",
             "name_fr": "Gabriel α",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@SOURCE.LOCKBOX.BOZJA",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.220", "chest.230"],
             "patch": "5.35"
         },
         "x241": {
             "name_en": "Gabriel Mark III",
             "name_fr": "Gabriel V3",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.bozja.duties.1",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "duty.field-operations.bozja.duties.1",
+                "chest.230"
+            ],
             "patch": "5.45"
         },
         "x233": {
             "name_en": "Lunar Whale",
             "name_fr": "Baleine Lunaire",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
+            "source": ["@EVENT.DIGITAL_FAN_FEST (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -1569,7 +1892,7 @@
             "name_en": "Moon-hopper",
             "name_fr": "Bondisseur Lunaire",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.MARE_LAMENTORUM (18 CURRENCY.SOCIETY.LOPORRIT)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.EW.MARE_LAMENTORUM (18 CURRENCY.SOCIETY.LOPORRIT)",
             "patch": "6.35"
         },
         "x290": {
@@ -1601,6 +1924,20 @@
             "source": "a.3464",
             "patch": "7.0"
         },
+        "x383": {
+            "name_en": "Ancient Airship",
+            "name_fr": "Aéronef Ancien",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@5,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
+            "patch": "7.25"
+        },
+        "x402": {
+            "name_en": "Cosmoboard",
+            "name_fr": "Cosmo-planche",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (60 CURRENCY.CE.PHAENNA_TOKEN_BOOKLET)",
+            "patch": "7.31"
+        },
         "x135": {
             "name_en": "Nezha Chariot",
             "name_fr": "Roues Feu-et-Vent",
@@ -1626,11 +1963,18 @@
             "patch": "7.11",
             "defaultCompletion": "X"
         },
+        "x428": {
+            "name_en": "Turali Snowman",
+            "name_fr": "Bonhomme De Neige Turalien",
+            "category": "@CATEGORY.PVP",
+            "source": "a.3835",
+            "patch": "7.4"
+        },
         "x62": {
             "name_en": "Witch's Broom",
             "name_fr": "Balai De Sorcière",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2015)", "@SOURCE.MOG_STATION"],
             "patch": "3.07",
             "defaultCompletion": "X"
         },
@@ -1654,15 +1998,15 @@
         "x86": {
             "name_en": "Cloud Mallow",
             "name_fr": "Mogrette",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.MOGMUL (200,000 CURRENCY.GIL)",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.HW.THE_CHURNING_MISTS (200,000 CURRENCY.GIL)",
             "patch": "3.3"
         },
         "x106": {
             "name_en": "Eggshilaration System",
             "name_fr": "Lévitœuf",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.HATCHING_TIDE (2017)", "@SOURCE.MOG_STATION"],
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -1683,16 +2027,16 @@
         "x153": {
             "name_en": "Broken Heart (left)",
             "name_fr": "Fauteuil Demi-cœur Gauche Volant",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.VALENTIONES_DAY (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.2",
             "defaultCompletion": "X"
         },
         "x152": {
             "name_en": "Broken Heart (right)",
             "name_fr": "Fauteuil Demi-cœur Droit Volant",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.VALENTIONES_DAY (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.2",
             "defaultCompletion": "X"
         },
@@ -1700,7 +2044,7 @@
             "name_en": "Sil'dihn Throne",
             "name_fr": "Trône Sildien",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": "@VENDOR.TRISASSANT (100 CURRENCY.VCD.SILDIHN_SILVER)",
+            "source": ["d.878", "@VENDOR.TRISASSANT (100 CURRENCY.VCD.SILDIHN_SILVER)"],
             "patch": "6.28"
         },
         "x175": {
@@ -1711,17 +2055,24 @@
             "patch": "4.5",
             "defaultCompletion": "X"
         },
+        "x427": {
+            "name_en": "Royal Magicked Carpet",
+            "name_fr": "Tapis Magique Royal",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (100 CURRENCY.VCD.CORVOSI_BRASS)",
+            "patch": "7.45"
+        },
         "x193": {
             "name_en": "Magicked Bed",
             "name_fr": "Lit Magique",
-            "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.232"],
             "patch": "5.05"
         },
         "x324": {
             "name_en": "Magicked Children's Bed",
             "name_fr": "Lit Enfant Magique",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.4"
         },
@@ -1776,15 +2127,37 @@
             "name_en": "Shroud of Darkness",
             "name_fr": "Exhalaison De Ténèbres",
             "category": "@CATEGORY.RAID",
-            "source": "@VENDOR.UAHSHEPYA (99 CURRENCY.CLOUDDARK_DEMIMATERIA_I)",
+            "source": "@VENDOR.UAHSHEPYA (99 CURRENCY.DUTY.CLOUDDARK_DEMIMATERIA_I)",
             "patch": "7.15"
         },
         "x361": {
             "name_en": "Dais of Darkness",
             "name_fr": "Domaine Ténébreux",
             "category": "@CATEGORY.RAID",
-            "source": "@VENDOR.UAHSHEPYA (75 CURRENCY.CLOUDDARK_DEMIMATERIA_II)",
+            "source": "@VENDOR.UAHSHEPYA (75 CURRENCY.DUTY.CLOUDDARK_DEMIMATERIA_II)",
             "patch": "7.15"
+        },
+        "x362": {
+            "name_en": "Hovering Hot Pot",
+            "name_fr": "Fondue Orientale",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.25",
+            "defaultCompletion": "X"
+        },
+        "x403": {
+            "name_en": "Chandelier of First Light",
+            "name_fr": "Chandelier de la Lumière Originelle",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "a.3817",
+            "patch": "7.35"
+        },
+        "x371": {
+            "name_en": "Cosmic Countenance",
+            "name_fr": "Sourieur Cosmique",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.315",
+            "patch": "7.41"
         },
         "x22": {
             "name_en": "Nightmare",
@@ -1838,9 +2211,16 @@
         "x231": {
             "name_en": "Incitatus",
             "name_fr": "Incitatus",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "5.3"
+        },
+        "x337": {
+            "name_en": "Alsvid",
+            "name_fr": "Alsvid",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.TWITCH_CAMPAIGN (2026)",
+            "patch": "7.55"
         },
         "x47": {
             "name_en": "Kirin",
@@ -1902,7 +2282,7 @@
         "x299": {
             "name_en": "Wondrous Lanner",
             "name_fr": "Lanier Merveilleux",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.28"
         },
@@ -1966,7 +2346,7 @@
         "x365": {
             "name_en": "Venturous Kamuy",
             "name_fr": "Kamuy de la Prospérité",
-            "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
+            "category": ["@CATEGORY.WONDROUS_TAILS", "@CATEGORY.FAUX_HOLLOWS"],
             "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "7.1"
         },
@@ -2093,24 +2473,59 @@
         },
         "x345": {
             "name_en": "Wings of Ruin",
-            "name_fr": "Aile Du Désastre",
+            "name_fr": "Paire D'ailes Du Désastre",
             "category": "@CATEGORY.TRIAL",
             "source": "d.833",
             "patch": "7.0"
         },
         "x346": {
             "name_en": "Wings of Resolve",
-            "name_fr": "Aile de la Détermination",
+            "name_fr": "Paire D'ailes de la Détermination",
             "category": "@CATEGORY.TRIAL",
             "source": "d.996",
             "patch": "7.0"
         },
         "x363": {
             "name_en": "Wings of Eternity",
-            "name_fr": "Aile De L'Éternelle",
+            "name_fr": "Paire D'ailes De L'Éternelle",
             "category": "@CATEGORY.TRIAL",
             "source": "d.1017",
             "patch": "7.1"
+        },
+        "x389": {
+            "name_en": "Wings of the Knighthood",
+            "name_fr": "Paire D'ailes Du Serment",
+            "category": "@CATEGORY.TRIAL",
+            "source": "d.1031",
+            "patch": "7.2"
+        },
+        "x407": {
+            "name_en": "Wings of Death",
+            "name_fr": "Paire D'ailes de la Mort",
+            "category": "@CATEGORY.TRIAL",
+            "source": "d.1062",
+            "patch": "7.3"
+        },
+        "x422": {
+            "name_en": "Wings of Mist",
+            "name_fr": "Paire D'ailes De Brume",
+            "category": "@CATEGORY.TRIAL",
+            "source": "d.1077",
+            "patch": "7.4"
+        },
+        "x444": {
+            "name_en": "Wings of Nihility",
+            "name_fr": "Paire D'ailes Du Nihilisme",
+            "category": "@CATEGORY.TRIAL",
+            "source": "d.1116",
+            "patch": "7.5"
+        },
+        "x420": {
+            "name_en": "Wings of Legacy",
+            "name_fr": "Paire D'ailes De L'héritage",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.71005",
+            "patch": "7.5"
         },
         "x50": {
             "name_en": "Midgardsormr",
@@ -2166,8 +2581,7 @@
             "name_en": "Goten",
             "name_fr": "Gôten",
             "category": "@CATEGORY.EVENT",
-            "source_en": "GARO Collaboration",
-            "source_fr": "GARO Collaboration",
+            "source": "a.1771",
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -2175,8 +2589,7 @@
             "name_en": "Ginga",
             "name_fr": "Ginga",
             "category": "@CATEGORY.EVENT",
-            "source_en": "GARO Collaboration",
-            "source_fr": "GARO Collaboration",
+            "source": "a.1772",
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -2184,8 +2597,7 @@
             "name_en": "Raigo",
             "name_fr": "Raigo",
             "category": "@CATEGORY.EVENT",
-            "source_en": "GARO Collaboration",
-            "source_fr": "GARO Collaboration",
+            "source": "a.1773",
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -2195,6 +2607,20 @@
             "category": "@CATEGORY.TRIAL",
             "source": "d.475",
             "patch": "4.4"
+        },
+        "x398": {
+            "name_en": "Seikret",
+            "name_fr": "Seikret",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70910",
+            "patch": "7.35"
+        },
+        "x399": {
+            "name_en": "Felyne Support Team Cart",
+            "name_fr": "Charrette De L'équipe De Soutien",
+            "category": "@CATEGORY.TRIAL",
+            "source": ["@VENDOR.SMITHY_2 (99 CURRENCY.DUTY.GUARDIAN_ARKVELD_CERTIFICATE)", "d.1043", "d.1044"],
+            "patch": "7.35"
         },
         "x284": {
             "name_en": "Pod 602",

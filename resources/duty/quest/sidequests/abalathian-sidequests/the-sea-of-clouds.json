@@ -4,352 +4,353 @@
     "groupName_fr": "L'Écume des cieux d'Abalathia",
     "tasks": {
         "x67274": {
-            "level": 50,
             "name_en": "The Way of the Dodo",
             "name_fr": "Un festin pour les gastornis",
+            "level": 50,
             "npc_en": "Caribault",
             "npc_fr": "Caribault",
-            "cPrev": ["q.67116"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67116"]
         },
         "x67275": {
-            "level": 50,
             "name_en": "Made to Order",
             "name_fr": "Les plateaux du cœur",
+            "level": 50,
             "npc_en": "Rose Knight Cook",
             "npc_fr": "Cantinière de la Garnison",
-            "cPrev": ["q.67128"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67128"]
         },
         "x67284": {
-            "level": 50,
             "name_en": "Clipped Wings",
             "name_fr": "Délicates ailes félines",
-            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.10",
+            "level": 50,
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
+            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.10",
+            "patch": "3.0",
             "cPrev": ["q.67134"],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.10"]
         },
         "x67276": {
-            "level": 50,
             "name_en": "Bargaining Chip",
             "name_fr": "Un repas pour motiver les troupes",
+            "level": 50,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
+            "patch": "3.0",
             "cPrev": ["q.67126"],
-            "cNext": ["q.67277"],
-            "patch": "4.31"
+            "cNext": ["q.67277"]
         },
         "x67277": {
-            "level": 50,
             "name_en": "Dragons in the Mist",
             "name_fr": "Un dragon pour motiver les troupes",
+            "level": 50,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
+            "patch": "3.0",
             "cPrev": ["q.67126", "q.67276"],
-            "cNext": ["q.67285"],
-            "patch": "4.31"
+            "cNext": ["q.67285"]
         },
         "x67285": {
-            "level": 50,
             "name_en": "Unclear Motives",
             "name_fr": "Une enquête pour motiver les troupes",
+            "level": 50,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
+            "patch": "3.0",
             "cPrev": ["q.67134", "q.67277"],
-            "cNext": ["q.67292"],
-            "patch": "4.31"
+            "cNext": ["q.67292"]
         },
         "x67292": {
-            "level": 51,
             "name_en": "Featherbrained Schemes",
             "name_fr": "Une victoire pour motiver les troupes",
+            "level": 51,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": ["q.67139", "q.67285"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67139", "q.67285"]
         },
         "x67291": {
-            "level": 51,
             "name_en": "Behind Enemy Lines",
             "name_fr": "Défendre les provisions",
+            "level": 51,
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
+            "patch": "3.0",
             "cPrev": ["q.67139"],
-            "cNext": ["q.67293"],
-            "patch": "4.31"
+            "cNext": ["q.67293"]
         },
         "x67293": {
-            "level": 51,
             "name_en": "Calling Back the Troops",
             "name_fr": "Les oubliés de la retraite",
+            "level": 51,
             "npc_en": "Terremiaux",
             "npc_fr": "Terremiaux",
+            "patch": "3.0",
             "cPrev": ["q.67139", "q.67291"],
-            "cNext": ["q.67294"],
-            "patch": "4.31"
+            "cNext": ["q.67294"]
         },
         "x67294": {
-            "level": 51,
             "name_en": "A Hasty Recovery",
             "name_fr": "Reprendre les armes",
+            "level": 51,
             "npc_en": "Terremiaux",
             "npc_fr": "Terremiaux",
-            "cPrev": ["q.67139", "q.67293"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67139", "q.67293"]
         },
         "x67435": {
-            "level": 56,
             "name_en": "Crying over Spilled Food",
             "name_fr": "Des païssas pas si rusés",
+            "level": 56,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67410"],
-            "cNext": ["q.67440"],
-            "patch": "4.31"
+            "cNext": ["q.67440"]
         },
         "x67440": {
-            "level": 56,
             "name_en": "A Tall Order to Fill",
             "name_fr": "Quand les dhalmels s'en mêlent",
+            "level": 56,
             "npc_en": "Gildon",
             "npc_fr": "Gildon",
-            "cPrev": ["q.67173", "q.67410", "q.67435"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67410", "q.67435"]
         },
         "x67436": {
-            "level": 56,
             "name_en": "Beefing Up the Reserves",
             "name_fr": "Du wisent bien saignant",
+            "level": 56,
             "npc_en": "Fabrellet",
             "npc_fr": "Fabrellet",
+            "patch": "3.0",
             "cPrev": ["q.67173", "q.67410"],
-            "cNext": ["q.67439"],
-            "patch": "4.31"
+            "cNext": ["q.67439"]
         },
         "x67439": {
-            "level": 56,
             "name_en": "Hatching Ideas",
             "name_fr": "L'œuf de Fabrellet",
+            "level": 56,
             "npc_en": "Fabrellet",
             "npc_fr": "Fabrellet",
-            "cPrev": ["q.67173", "q.67410", "q.67436"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67410", "q.67436"]
         },
         "x67437": {
-            "level": 56,
             "name_en": "Search and Rescue",
             "name_fr": "Les roses égarées",
+            "level": 56,
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
-            "cPrev": ["q.67173", "q.67410"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67410"]
         },
         "x67438": {
-            "level": 56,
             "name_en": "A Cropper's Duty",
             "name_fr": "Bien noir et bien frais",
+            "level": 56,
             "npc_en": "Caribault",
             "npc_fr": "Caribault",
-            "cPrev": ["q.67173", "q.67410"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67410"]
         },
         "x67443": {
-            "level": 57,
             "name_en": "Nutritious and Delicious",
             "name_fr": "Le cinquième wamouracampa",
+            "level": 57,
             "npc_en": "Conu Vanu",
             "npc_fr": "Conu Vanu",
-            "cPrev": ["q.67182"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67182"]
         },
         "x67444": {
-            "level": 57,
             "name_en": "The Feast Must Go On",
             "name_fr": "Endymions dégriffés",
+            "level": 57,
             "npc_en": "Hinu Vali",
             "npc_fr": "Hinu Vali",
-            "cPrev": ["q.67182"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67182"]
         },
         "x67445": {
-            "level": 57,
             "name_en": "Sleepless in Ok' Zundu",
             "name_fr": "Gazon béni",
-            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.13",
+            "level": 57,
             "npc_en": "Ganu Vali",
             "npc_fr": "Ganu Vali",
+            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.13",
+            "patch": "3.0",
             "cPrev": ["q.67182"],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.13"]
         },
         "x67448": {
-            "level": 57,
             "name_en": "Returning What's Ours",
             "name_fr": "Retour à l'envoyeur",
+            "level": 57,
             "npc_en": "Hinu Vali",
             "npc_fr": "Hinu Vali",
-            "cPrev": ["q.67183"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67183"]
         },
         "x67449": {
-            "level": 57,
             "name_en": "One Flew over the Vundu's Nest",
-            "name_fr": "Sanuwa pas se passer comme ça!",
+            "name_fr": "Sanuwa pas se passer comme ça !",
+            "level": 57,
             "npc_en": "Ganu Vali",
             "npc_fr": "Ganu Vali",
-            "cPrev": ["q.67183"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67183"]
         },
         "x67453": {
-            "level": 57,
             "name_en": "Winds of Ill Omen",
             "name_fr": "Le respect des totems",
+            "level": 57,
             "npc_en": "Aanu Vanu",
             "npc_fr": "Aanu Vanu",
-            "cPrev": ["q.67183"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67183"]
         },
         "x67456": {
-            "level": 57,
             "name_en": "For Your Spies Only",
             "name_fr": "Au service secret des Zundu",
+            "level": 57,
             "npc_en": "Zundu Intelligencer",
             "npc_fr": "Maître-espion Zundu",
+            "patch": "3.0",
             "cPrev": ["q.67183"],
-            "cNext": ["q.67455"],
-            "patch": "4.31"
+            "cNext": ["q.67455"]
         },
         "x67455": {
-            "level": 57,
             "name_en": "Not Free as a Bird",
             "name_fr": "Comme un Zundu en cage",
+            "level": 57,
             "npc_en": "Captured Zundu Youth",
             "npc_fr": "Zundu Captif",
+            "patch": "3.0",
             "cPrev": ["q.67183", "q.67456"],
-            "cNext": ["q.67454"],
-            "patch": "4.31"
+            "cNext": ["q.67454"]
         },
         "x67454": {
-            "level": 57,
             "name_en": "On Wings of Vanu",
             "name_fr": "Des captifs observateurs",
+            "level": 57,
             "npc_en": "Sonu Vanu",
             "npc_fr": "Sonu Vanu",
-            "cPrev": ["q.67183", "q.67455"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67183", "q.67455"]
         },
         "x67457": {
-            "level": 57,
             "name_en": "An Awkward Situation",
             "name_fr": "Le sacrifice des Vundu",
+            "level": 57,
             "npc_en": "Zundu Sacrifice",
             "npc_fr": "Zundu Apeuré",
-            "cPrev": ["q.67183"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67183"]
         },
         "x67446": {
-            "level": 57,
             "name_en": "Flying the Nest",
             "name_fr": "Réveil difficile",
-            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.14",
+            "level": 57,
             "npc_en": "Guna Vanu",
             "npc_fr": "Guna Vanu",
+            "unlock": "travel.aether-currents.hw.the-sea-of-clouds.14",
+            "patch": "3.0",
             "cPrev": ["q.67182"],
             "cNext": ["q.67447"],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.14"]
         },
         "x67447": {
-            "level": 57,
             "name_en": "Growing Pains",
             "name_fr": "L'offrande de Gunu Vanu",
+            "level": 57,
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
+            "patch": "3.0",
             "cPrev": ["q.67182", "q.67446"],
-            "cNext": ["q.67450"],
-            "patch": "4.31"
+            "cNext": ["q.67450"]
         },
         "x67450": {
-            "level": 57,
             "name_en": "Ok' Zundu's Got Talent",
             "name_fr": "Danse avec les Zundu",
+            "level": 57,
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
+            "patch": "3.0",
             "cPrev": ["q.67182", "q.67447"],
-            "cNext": ["q.67451"],
-            "patch": "4.31"
+            "cNext": ["q.67451"]
         },
         "x67451": {
-            "level": 57,
             "name_en": "Lazing Saddles",
             "name_fr": "Une monture de brave",
+            "level": 57,
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
+            "patch": "3.0",
             "cPrev": ["q.67182", "q.67450"],
-            "cNext": ["q.67452"],
-            "patch": "4.31"
+            "cNext": ["q.67452"]
         },
         "x67452": {
-            "level": 57,
             "name_en": "The Black Storm",
-            "name_fr": "Gare aux Garlemauvais!",
+            "name_fr": "Gare aux Garlemauvais !",
+            "level": 57,
             "npc_en": "Gunu Vanu",
             "npc_fr": "Gunu Vanu",
-            "cPrev": ["q.67182", "q.67451"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67182", "q.67451"]
         },
         "x67510": {
-            "level": 59,
             "name_en": "A Tale of Two Moogles",
             "name_fr": "Des Mogs de la forêt dans les nuages",
+            "level": 59,
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
+            "patch": "3.0",
             "cPrev": ["q.67197", "q.67509"],
-            "cNext": ["q.67511"],
-            "patch": "4.31"
+            "cNext": ["q.67511"]
         },
         "x67511": {
-            "level": 59,
             "name_en": "Birds of a Feather",
             "name_fr": "Un voyage pour des noix",
+            "level": 59,
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
+            "patch": "3.0",
             "cPrev": ["q.67197", "q.67510"],
-            "cNext": ["q.67512"],
-            "patch": "4.31"
+            "cNext": ["q.67512"]
         },
         "x67512": {
-            "level": 59,
             "name_en": "An Eggcellent Disguise",
             "name_fr": "Une méprise salvatrice",
+            "level": 59,
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
+            "patch": "3.0",
             "cPrev": ["q.67197", "q.67511"],
-            "cNext": ["q.67513"],
-            "patch": "4.31"
+            "cNext": ["q.67513"]
         },
         "x67513": {
-            "level": 59,
             "name_en": "The Skies That Bind",
             "name_fr": "La légende des Mogs célestes",
+            "level": 59,
             "npc_en": "Kupli Kuki",
             "npc_fr": "Kupli Kuki",
+            "patch": "3.0",
             "cPrev": ["q.67197", "q.67512"],
-            "cNext": ["q.67514"],
-            "patch": "4.31"
+            "cNext": ["q.67514"]
         },
         "x67648": {
-            "level": 60,
             "name_en": "Reap What You Sow",
             "name_fr": "Oncques à Nalloncques",
-            "unlock": "d.33",
+            "level": 60,
             "npc_en": "Sanu Vanu",
             "npc_fr": "Sanu Vanu",
+            "unlock": "d.33",
+            "patch": "3.0",
             "cPrev": ["q.67205"],
-            "patch": "4.31"
+            "cSiblings": ["d.33"]
         }
     }
 }

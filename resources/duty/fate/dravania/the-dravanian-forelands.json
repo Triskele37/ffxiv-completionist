@@ -1,209 +1,209 @@
 {
     "key": "the-dravanian-forelands",
-    "groupName": "@PLACE.THE_DRAVANIAN_FORELANDS",
+    "groupName": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
     "tasks": {
         "x818": {
-            "level": 52,
             "name_en": "By the Horns",
             "name_fr": "Défi : un mâle de chocobo",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x819": {
-            "level": 52,
             "name_en": "Ladies First",
             "name_fr": "De mauvais chasseurs, ce sont...",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(35, 26)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x820": {
-            "level": 52,
             "name_en": "Run, Run Away",
             "name_fr": "Défi : Yowie ne vit qu'une fois",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(38, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x821": {
-            "level": 52,
             "name_en": "Birds of a Feather",
             "name_fr": "Ça en vaut La Penne",
+            "level": 52,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(32, 19)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "3.0"
         },
         "x822": {
-            "level": 52,
             "name_en": "Glawackus On, Glawackus Off",
             "name_fr": "Défi : Glawackus le gourmand",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(36, 8)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x823": {
-            "level": 52,
             "name_en": "Bear Apparent",
             "name_fr": "Touche pas à nos saumons",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30, 16)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x824": {
-            "level": 52,
             "name_en": "Who's the Moss",
             "name_fr": "Pique-puces de Mossy Peak",
+            "level": 52,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(35, 17)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "3.0"
         },
         "x825": {
-            "level": 52,
             "name_en": "The Rite Stuff",
             "name_fr": "Sus aux hérétiques !",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 13)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x826": {
-            "level": 52,
             "name_en": "Dead Meat",
             "name_fr": "Vathe-ci Vathe-là",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x827": {
-            "level": 52,
             "name_en": "The Whole Truth",
             "name_fr": "Gare à toi, hérétique !",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x828": {
-            "level": 52,
             "name_en": "Nothing but the Truth",
             "name_fr": "Défi : la pacification d'Hubairtien",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(25, 22)",
-            "patch": "3.0",
-            "previousFate": "f.827",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.827",
+            "patch": "3.0"
         },
         "x829": {
-            "level": 52,
             "name_en": "Drone Under",
             "name_fr": "Repousser les Gnathes",
+            "level": 52,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x833": {
-            "level": 52,
             "name_en": "The Migas Touch",
             "name_fr": "Défi : la folie de Migas",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(22, 30)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x902": {
-            "level": 52,
             "name_en": "Long Live the Coeurl",
             "name_fr": "Défi : mort à la reine des coeurls",
+            "level": 52,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(35, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x830": {
-            "level": 53,
             "name_en": "El Miacid",
             "name_fr": "Ça Vathe mieux comme ça",
+            "level": 53,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x831": {
-            "level": 53,
             "name_en": "Cerf's Up",
             "name_fr": "Bas les hippogriffes",
+            "level": 53,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 27)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x832": {
-            "level": 53,
             "name_en": "Elephant in the Brume",
             "name_fr": "Défi : l'exécution de Svarog",
+            "level": 53,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(16, 35)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x834": {
-            "level": 53,
             "name_en": "Hearing Voices",
             "name_fr": "Ça tourne au vinaigrier",
+            "level": 53,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 18)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x835": {
-            "level": 53,
             "name_en": "The Mourning After",
             "name_fr": "Défi : Robairlain l'écailleux",
+            "level": 53,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 6)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x836": {
-            "level": 53,
             "name_en": "Stamp the Yard",
             "name_fr": "Gallimimus en furie",
+            "level": 53,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x838": {
-            "level": 53,
             "name_en": "Special Tarasque Force",
             "name_fr": "Défi : terrasser la Tarasque",
+            "level": 53,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13, 36)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x837": {
-            "level": 57,
             "name_en": "Come to My Arms",
             "name_fr": "Un flux de dragons fulgurants",
+            "level": 57,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 8)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x903": {
-            "level": 57,
             "name_en": "Coeurls Chase Boys",
             "name_fr": "Défi : du coeurl à l'ouvrage",
+            "level": 57,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(37, 27)",
-            "patch": "3.0",
-            "previousFate": "f.902",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.902",
+            "patch": "3.0"
         },
         "x910": {
-            "level": 57,
             "name_en": "Ware the Maiden Fair",
             "name_fr": "Défi : la vierge marrie",
+            "level": 57,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 38)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x905": {
-            "level": 60,
             "name_en": "Coeurls Chase Boys Chase Coeurls",
             "name_fr": "Défi : coeurls brisés",
+            "level": 60,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31, 5)",
-            "patch": "3.0",
-            "previousFate": "f.903",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.903",
+            "patch": "3.0"
         }
     }
 }

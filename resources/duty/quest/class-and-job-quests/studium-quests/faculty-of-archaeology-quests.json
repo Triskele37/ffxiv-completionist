@@ -4,75 +4,75 @@
     "groupName_fr": "Quêtes du département d'archéologie",
     "tasks": {
         "x69668": {
-            "level": 80,
             "name_en": "Professor Rurusha's New Friend",
             "name_fr": "La petite relique du professeur Rurusha",
+            "level": 80,
             "npc_en": "Boric",
             "npc_fr": "Boric",
+            "patch": "6.0",
             "cPrev": ["q.70009"],
-            "cNext": ["q.69669"],
-            "patch": "6.0"
+            "cNext": ["q.69669"]
         },
         "x69669": {
-            "level": 80,
             "name_en": "The Dormant Dhyata",
             "name_fr": "La relique au bois dormant",
+            "level": 80,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69668"],
-            "cNext": ["q.69670"],
-            "patch": "6.0"
+            "cNext": ["q.69670"]
         },
         "x69670": {
-            "level": 83,
             "name_en": "Gears of Gold",
             "name_fr": "Rouages et engrenages",
+            "level": 83,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69669"],
-            "cNext": ["q.69671"],
-            "patch": "6.0"
+            "cNext": ["q.69671"]
         },
         "x69671": {
-            "level": 85,
             "name_en": "Rubbished Research",
             "name_fr": "Le fond des fonds",
+            "level": 85,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69670"],
-            "cNext": ["q.69672"],
-            "patch": "6.0"
+            "cNext": ["q.69672"]
         },
         "x69672": {
-            "level": 85,
             "name_en": "Boric's Choice",
             "name_fr": "Un assistant inquiet",
+            "level": 85,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69671"],
-            "cNext": ["q.69673"],
-            "patch": "6.0"
+            "cNext": ["q.69673"]
         },
         "x69673": {
-            "level": 88,
             "name_en": "A Friend in Need",
             "name_fr": "La convocation de Rurusha",
+            "level": 88,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69672"],
-            "cNext": ["q.69674"],
-            "patch": "6.0"
+            "cNext": ["q.69674"]
         },
         "x69674": {
-            "level": 90,
             "name_en": "Wayback Machine",
             "name_fr": "Discussion ancestrale",
+            "level": 90,
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
+            "patch": "6.0",
             "cPrev": ["q.69673"],
             "cNext": ["q.70010"],
-            "cSiblings": ["a.2966"],
-            "patch": "6.0"
+            "cSiblings": ["a.2966"]
         }
     }
 }

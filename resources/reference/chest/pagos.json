@@ -1,0 +1,43 @@
+{
+    "key": "pagos",
+    "groupName": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
+    "tasks": {
+        "x201": {
+            "name_en": "Pagos Lockbox",
+            "name_fr": "Coffre verrouillé de Pagos",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.pagos",
+            "loot": ["mi.296"],
+            "_itemId": 23142
+        },
+        "x202": {
+            "name_en": "Happy Bunny Lockbox (Silver)",
+            "name_fr": "Coffre verrouillé de Pagos (argent)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
+            "requirements": [
+                "duty.field-operations.eureka.notorious-monsters.pagos.1367",
+                "duty.field-operations.eureka.notorious-monsters.pagos.1368"
+            ],
+            "loot": ["tt.226"]
+        },
+        "x203": {
+            "name_en": "Happy Bunny Lockbox (Gold)",
+            "name_fr": "Coffre verrouillé de Pagos (or)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
+            "requirements": [
+                "duty.field-operations.eureka.notorious-monsters.pagos.1367",
+                "duty.field-operations.eureka.notorious-monsters.pagos.1368"
+            ],
+            "loot": ["mi.295"]
+        },
+        "x204": {
+            "name_en": "Cold-warped Lockbox",
+            "name_fr": "Coffre glacé",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
+            "requirements_en": "Kill mutated mobs at higher levels",
+            "requirements_fr": "Kill mutated mobs at higher levels",
+            "loot": ["mi.296", "e.181"],
+            "_itemId": 23379
+        }
+    }
+}

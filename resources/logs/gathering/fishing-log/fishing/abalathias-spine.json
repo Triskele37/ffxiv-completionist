@@ -3,101 +3,113 @@
     "groupName_en": "Abalathia's Spine",
     "groupName_fr": "Abalathia",
     "tasks": {
-        "x0": {
+        "x135": {
             "name_en": "Voor Sian Siran",
             "name_fr": "Voor Sian Siran",
-            "level": "52",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": 52,
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "location": "(29, 35)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x1": {
+        "x136": {
             "name_en": "The Eddies",
             "name_fr": "Les Remous",
-            "level": "60",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": 60,
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "location": "(30, 39)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x2": {
+        "x137": {
             "name_en": "Cloudtop",
             "name_fr": "Cime-des-nuages",
-            "level": "53",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": 53,
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "location": "(14, 38)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.CLOUDFISHING",
+            "patch": "3.0"
         },
-        "x3": {
+        "x138": {
             "name_en": "The Blue Window",
             "name_fr": "La Fenêtre bleue",
-            "level": "56",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": 56,
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "location": "(7, 11)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.CLOUDFISHING",
+            "patch": "3.0"
         },
-        "x4": {
+        "x139": {
             "name_en": "Mok Oogl Island",
             "name_fr": "Île Mok Oogl",
-            "level": "56",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": 56,
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "location": "(15, 7)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.CLOUDFISHING",
+            "patch": "3.0"
         },
-        "x5": {
+        "x140": {
             "name_en": "Alpha Quadrant",
             "name_fr": "Quadrant alpha",
-            "level": "58",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 58,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(16, 12)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "3.0"
         },
-        "x6": {
+        "x141": {
             "name_en": "Aetherochemical Spill",
             "name_fr": "Nappe de liquide magismologique",
-            "level": "59",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 59,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(30, 6)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "3.0"
         },
-        "x7": {
-            "name_en": "Hyperstellar Downconvertor",
+        "x142": {
+            "name_en": "Hyperstellar Downconverter",
             "name_fr": "Convertisseur hyperstellaire",
-            "level": "60",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 60,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(6, 16)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "3.0"
         },
-        "x8": {
+        "x143": {
             "name_en": "Delta Quadrant",
             "name_fr": "Quadrant delta",
-            "level": "59",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 59,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(10, 31)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x9": {
+        "x144": {
             "name_en": "The Pappus Tree",
             "name_fr": "L'arbre à pappus",
-            "level": "60",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 60,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(6, 35)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x10": {
+        "x145": {
             "name_en": "The Habisphere",
             "name_fr": "Écosphère",
-            "level": "60",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 60,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(38, 18)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.CLOUDFISHING",
+            "patch": "3.0"
         },
-        "x11": {
+        "x146": {
             "name_en": "The Flagship",
             "name_fr": "Navire amiral",
-            "level": "60",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": 60,
+            "zone": "@PLACE.HW.AZYS_LLA",
             "location": "(21, 21)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "3.0"
         }
     }
 }

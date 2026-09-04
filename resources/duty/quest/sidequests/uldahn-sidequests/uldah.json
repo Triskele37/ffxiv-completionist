@@ -4,166 +4,166 @@
     "groupName_fr": "Ul'dah",
     "tasks": {
         "x66130": {
-            "level": 1,
             "name_en": "Coming to Ul'dah",
             "name_fr": "Bienvenue à Ul'dah",
+            "level": 1,
             "npc_en": "Wymond",
             "npc_fr": "Wymond",
-            "cNext": ["q.66106"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66106"]
         },
         "x65685": {
-            "level": 1,
             "name_en": "Due Diligence",
             "name_fr": "L'enveloppe de l'informateur",
+            "level": 1,
             "npc_en": "Wymond",
             "npc_fr": "Wymond",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65686": {
-            "level": 1,
             "name_en": "Motivational Speaking",
             "name_fr": "Éléments de persuasion",
+            "level": 1,
             "npc_en": "Gelther",
             "npc_fr": "Gelther",
-            "cNext": ["q.65687"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65687"]
         },
         "x65687": {
-            "level": 1,
             "name_en": "Gil for Gold",
             "name_fr": "Promesse en toc",
+            "level": 1,
             "npc_en": "Didilata",
             "npc_fr": "Didilata",
+            "patch": "2.0",
             "cPrev": ["q.65686"],
-            "cNext": ["q.65689"],
-            "patch": "4.31"
+            "cNext": ["q.65689"]
         },
         "x65689": {
-            "level": 1,
             "name_en": "Unholy Matrimony",
             "name_fr": "La vie en haut de l'affiche",
+            "level": 1,
             "npc_en": "Hihito",
             "npc_fr": "Hihito",
-            "cPrev": ["q.65687"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65687"]
         },
         "x65701": {
-            "level": 1,
             "name_en": "The Great Gladiator",
             "name_fr": "Débuts remarqués",
+            "level": 1,
             "npc_en": "Zazarikku",
             "npc_fr": "Zazarikku",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65703": {
-            "level": 1,
             "name_en": "With Open Arms",
             "name_fr": "Bienvenue dans le monde de la mode",
+            "level": 1,
             "npc_en": "Juliana",
             "npc_fr": "Juliana",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65932": {
-            "level": 1,
             "name_en": "No Lady Is an Island",
             "name_fr": "Par ici la monnaie",
+            "level": 1,
             "npc_en": "Genevieve",
             "npc_fr": "Genevieve",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65928": {
-            "level": 2,
             "name_en": "Decisions, Decisions",
             "name_fr": "La perfection au féminin",
+            "level": 2,
             "npc_en": "Bitter Snow",
             "npc_fr": "Bitter Snow",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65929": {
-            "level": 2,
             "name_en": "Vox Populi",
             "name_fr": "Les goûts et les couleurs",
+            "level": 2,
             "npc_en": "Aethelwine",
             "npc_fr": "Aethelwine",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65930": {
-            "level": 2,
             "name_en": "A Luxury Long Lost",
             "name_fr": "Charité intéressée",
+            "level": 2,
             "npc_en": "Alewyn",
             "npc_fr": "Alewyn",
-            "cNext": ["q.65931"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65931"]
         },
         "x65931": {
-            "level": 2,
             "name_en": "The Wealth of Nations",
             "name_fr": "Pas les mêmes valeurs",
+            "level": 2,
             "npc_en": "Landebert",
             "npc_fr": "Landebert",
-            "cPrev": ["q.65930"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65930"]
         },
         "x65699": {
-            "level": 3,
             "name_en": "Tougher than Leather",
             "name_fr": "Cuir pour durs à cuire",
+            "level": 3,
             "npc_en": "Jajakuta",
             "npc_fr": "Jajakuta",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66107": {
-            "level": 3,
             "name_en": "Beet Red Beetles Beat Red",
             "name_fr": "Coccinelles envahissantes",
+            "level": 3,
             "npc_en": "Wolkan",
             "npc_fr": "Wolkan",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66108": {
-            "level": 3,
             "name_en": "In the Name of Science",
             "name_fr": "Au nom de la science",
+            "level": 3,
             "npc_en": "Erasmus",
             "npc_fr": "Erasmus",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x70723": {
-            "cPrev": ["q.66045"],
-            "level": 1,
             "name_en": "Bottled Fantasy",
             "name_fr": "Une décoction miraculeuse",
+            "level": 1,
             "npc_en": "Medicine Merchant",
             "npc_fr": "Apothicaire Suspect",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.66045"]
         },
         "x65925": {
-            "level": 4,
             "name_en": "Fantastic Voyage",
             "name_fr": "Les horaires en retard",
+            "level": 4,
             "npc_en": "Kekezani",
             "npc_fr": "Kekezani",
-            "cPrev": ["q.66106"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66106"]
         },
         "x65926": {
-            "level": 4,
             "name_en": "Catch Your Breath",
             "name_fr": "À bout de souffle",
+            "level": 4,
             "npc_en": "Botulf",
             "npc_fr": "Botulf",
-            "cPrev": ["q.66106"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66106"]
         },
         "x66223": {
-            "level": 10,
             "name_en": "Leves of Horizon",
             "name_fr": "Mandataire d'Horizon",
+            "level": 10,
             "npc_en": "Eustace",
             "npc_fr": "Eustace",
-            "unlock_en": "Leves",
+            "patch": "2.0",
             "cPrev": ["q.65856"],
             "cNext": [
                 "q.65594",
@@ -180,102 +180,104 @@
                 "q.66232",
                 "q.66231",
                 "q.65554"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x66963": {
-            "level": 14,
             "name_en": "Help Me, Lord of the Dance",
             "name_fr": "Juste une dernière danse",
-            "unlock": "e.103",
-            "cPrevAny": true,
+            "level": 14,
             "npc_en": "P'molminn",
             "npc_fr": "P'molminn",
+            "unlock": "e.103",
+            "patch": "2.2",
             "cPrev": ["q.66088", "q.66081", "q.65985"],
-            "cSiblings": ["e.103"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cSiblings": ["e.103"]
         },
         "x65970": {
-            "level": 15,
             "name_en": "It Could Happen to You",
             "name_fr": "Destination Gold Saucer",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Well-heeled Youth",
             "npc_fr": "Jeune Homme Chanceux",
             "unlock_en": "Gold Saucer",
+            "unlock_fr": "Gold Saucer",
+            "patch": "2.51",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cNext": ["q.65971", "q.65972", "q.65973", "q.66024", "q.66025", "q.68617", "q.68737"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.65971", "q.65972", "q.65973", "q.66024", "q.66025", "q.68617", "q.68737"]
         },
         "x66970": {
-            "level": 17,
             "name_en": "An Ill-conceived Venture",
             "name_fr": "Chevalier servant (Ul'dah)",
+            "level": 17,
             "npc_en": "Troubled Adventurer",
             "npc_fr": "Aventurier Dans L'embarras",
-            "unlock_en": "Retainer Ventures",
-            "cExclude": ["q.66968", "q.66969"],
-            "patch": "4.31"
+            "patch": "3.1",
+            "cExclude": ["q.66968", "q.66969"]
         },
         "x66238": {
-            "level": 20,
             "name_en": "My Little Chocobo (Immortal Flames)",
             "name_fr": "À chacun sa monture (Ul'dah)",
-            "unlock": "mo.1",
+            "level": 20,
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
+            "unlock": "mo.1",
+            "patch": "2.0",
             "cNext": ["q.66698"],
-            "cExclude": ["q.66236", "q.66237"],
-            "patch": "4.31"
+            "cExclude": ["q.66236", "q.66237"]
         },
         "x65688": {
-            "level": 30,
             "name_en": "Gone to Pieces",
             "name_fr": "Des avantages du recyclage",
+            "level": 30,
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
             "unlock_en": "Desynthesis",
-            "cPrev": ["q.65808"],
-            "patch": "4.31"
+            "unlock_fr": "Desynthesis",
+            "patch": "2.3",
+            "cPrev": ["q.65808"]
         },
         "x66455": {
-            "level": 38,
             "name_en": "Hold for Customer Support",
             "name_fr": "Le cœur du problème",
+            "level": 38,
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
+            "patch": "2.0",
             "cPrev": ["q.66454"],
-            "cNext": ["q.66456"],
-            "patch": "4.31"
+            "cNext": ["q.66456"]
         },
         "x66457": {
-            "level": 38,
             "name_en": "Dishonor Before Death",
             "name_fr": "Une vie de déshonneur",
-            "unlock": "d.12",
+            "level": 38,
             "npc_en": "Sibold",
             "npc_fr": "Sibold",
-            "patch": "4.31"
+            "unlock": "d.12",
+            "patch": "2.0",
+            "cSiblings": ["d.12"]
         },
         "x66459": {
-            "level": 38,
             "name_en": "A Tale of Three Cities",
             "name_fr": "Graissage de patte",
+            "level": 38,
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
-            "cPrev": ["q.66458"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66458"]
         },
         "x67060": {
-            "level": 50,
             "name_en": "Corpse Groom",
             "name_fr": "Les noces funèbres de Tam-Tara",
-            "unlock": "d.24",
+            "level": 50,
             "npc_en": "Paiyo Reiyo",
             "npc_fr": "Paiyo Reiyo",
+            "unlock": "d.24",
+            "patch": "2.3",
             "cPrev": ["q.66060"],
             "cNext": ["q.67093"],
-            "patch": "4.31"
+            "cSiblings": ["d.24"]
         }
     }
 }

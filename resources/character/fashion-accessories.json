@@ -2,7 +2,7 @@
     "key": "fashion-accessories",
     "groupName_en": "Fashion Accessories",
     "groupName_fr": "Accessoires de mode",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -21,15 +21,15 @@
         "x1": {
             "name_en": "Parasol",
             "name_fr": "Ombrelle",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.21"
         },
         "x2": {
             "name_en": "Sky Blue Parasol",
             "name_fr": "Ombrelle D'azur",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "chest.300", "chest.301", "chest.313", "chest.314"],
             "patch": "5.21"
         },
         "x3": {
@@ -57,22 +57,22 @@
         "x6": {
             "name_en": "Calming Checkered Parasol",
             "name_fr": "Ombrelle À Carreaux Bleue",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@900 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.317"],
             "patch": "5.31"
         },
         "x7": {
             "name_en": "Cheerful Checkered Parasol",
             "name_fr": "Ombrelle À Carreaux Rouge",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.31"
         },
         "x8": {
             "name_en": "Classy Checkered Parasol",
             "name_fr": "Ombrelle À Carreaux Noire",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@SOURCE.LOCKBOX.BOZJA",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.220",
             "patch": "5.35"
         },
         "x10": {
@@ -85,22 +85,22 @@
         "x11": {
             "name_en": "Pleasant Dot Parasol",
             "name_fr": "Ombrelle Bleue À Pois",
-            "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "@25 CURRENCY.BOZJAN_CLUSTER",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@25 CURRENCY.EM.BOZJAN_CLUSTER",
             "patch": "5.45"
         },
         "x12": {
             "name_en": "Prim Dot Parasol",
             "name_fr": "Ombrelle Rose À Pois",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.IL_MHEG (100,000 CURRENCY.GIL)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.IL_MHEG (100,000 CURRENCY.GIL)",
             "patch": "5.4"
         },
         "x13": {
             "name_en": "Pastoral Dot Parasol",
             "name_fr": "Ombrelle Vert D'eau À Pois",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "@SOURCE.FETE_PRESENT"],
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.317"],
             "patch": "5.41"
         },
         "x14": {
@@ -130,7 +130,7 @@
         },
         "x23": {
             "name_en": "White Lace Parasol",
-            "name_fr": "Ombrelle À Dentelle Blanche",
+            "name_fr": "Ombrelle À Collerette Blanche",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.6",
             "patch": "6.1"
@@ -160,7 +160,7 @@
             "name_en": "Raindrop Defense System",
             "name_fr": "Système De Protection Anti-gouttes",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
+            "source": "chest.120",
             "patch": "6.35"
         },
         "x34": {
@@ -195,7 +195,7 @@
             "name_en": "Neon Parasol",
             "name_fr": "Ombrelle À Néons",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (500 CURRENCY.FATE.GEMSTONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.DT.SOLUTION_NINE (500 CURRENCY.FATE.GEMSTONE)",
             "patch": "7.0"
         },
         "x40": {
@@ -214,19 +214,86 @@
             "defaultCompletion": "X"
         },
         "x42": {
-            "hidden": true,
             "name_en": "Mandragora Parasol",
             "name_fr": "Ombrelle Mandragore",
             "category": "",
             "source": "",
-            "patch": "7.1"
+            "patch": "7.1",
+            "hidden": true
         },
         "x43": {
             "name_en": "Archon Egg Parasol",
             "name_fr": "Paraplœuf",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.HATCHINGTIDE (2025)",
+            "source": "@EVENT.HATCHING_TIDE (2025)",
             "patch": "7.1",
+            "defaultCompletion": "X"
+        },
+        "x45": {
+            "name_en": "Black Embroidered Parasol",
+            "name_fr": "Ombrelle À Dentelles Noire",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
+                "chest.231"
+            ],
+            "patch": "7.25"
+        },
+        "x46": {
+            "name_en": "White Embroidered Parasol",
+            "name_fr": "Ombrelle À Dentelles Blanche",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
+                "chest.231"
+            ],
+            "patch": "7.25"
+        },
+        "x47": {
+            "name_en": "Loparasol",
+            "name_fr": "Ombrelle Loporrite",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.310",
+            "patch": "7.21"
+        },
+        "x49": {
+            "name_en": "Mizutsune Parasol",
+            "name_fr": "Ombrelle Mizutsune Felyne",
+            "category": "@CATEGORY.TRIAL",
+            "source": "@VENDOR.SMITHY_2 (3 CURRENCY.DUTY.GUARDIAN_SCALE)",
+            "patch": "7.35"
+        },
+        "x50": {
+            "name_en": "Pixie Parasol",
+            "name_fr": "Ombrelle Pixie",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": [
+                "@VENDOR.OSE_WYD (30 CURRENCY.DD.FIRST_LIGHT_RELIC)",
+                "chest.130",
+                "chest.132"
+            ],
+            "patch": "7.35"
+        },
+        "x51": {
+            "name_en": "Blue Pixie Parasol",
+            "name_fr": "Ombrelle Pixie Bleue",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "chest.133",
+            "patch": "7.35"
+        },
+        "x53": {
+            "name_en": "Corvosi Parasol",
+            "name_fr": "Ombrelle Corvosienne",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "d.1066",
+            "patch": "7.45"
+        },
+        "x54": {
+            "name_en": "Spriggan Parasol",
+            "name_fr": "Ombrelle Spriggan",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.FAN_FEST",
+            "patch": "7.4",
             "defaultCompletion": "X"
         },
         "x9": {
@@ -246,8 +313,8 @@
         "x18": {
             "name_en": "Archangel Wings",
             "name_fr": "Ailes D'archange",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.6",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["duty.treasure-hunt.duties.6", "chest.232"],
             "patch": "6.05"
         },
         "x19": {
@@ -275,7 +342,7 @@
             "name_en": "Statice's Wings",
             "name_fr": "Ailes De Statice",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": "@3 CURRENCY.VCD.ALOALO_POTSHERD",
+            "source": "@VENDOR.TRISASSANT (3 CURRENCY.VCD.ALOALO_POTSHERD)",
             "patch": "6.51"
         },
         "x35": {
@@ -289,8 +356,47 @@
             "name_en": "Pelupack",
             "name_fr": "Sac De Voyage Pelupelu",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (10 CURRENCY.SOCIETY.PELUPELU)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.DT.KOZAMAUKA (10 CURRENCY.SOCIETY.PELUPELU)",
             "patch": "7.1"
+        },
+        "x52": {
+            "name_en": "Senor Otter Pack",
+            "name_fr": "Sac À Dos Señor Loutre",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.MAKE_IT_RAIN (2026)",
+            "patch": "7.5",
+            "defaultCompletion": "X"
+        },
+        "x48": {
+            "name_en": "Torch",
+            "name_fr": "Torche",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.3"
+        },
+        "x58": {
+            "name_en": "Antique Lantern",
+            "name_fr": "Lanterne Ancienne",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
+                "chest.233"
+            ],
+            "patch": "7.55"
+        },
+        "x57": {
+            "name_en": "Shovel",
+            "name_fr": "Pelle",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.318",
+            "patch": "7.51"
+        },
+        "x55": {
+            "name_en": "Avalanche Gatling Gun",
+            "name_fr": "Mitrailleuse Rotative D'Avalanche",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@430 CURRENCY.MGC",
+            "patch": "7.55"
         }
     }
 }

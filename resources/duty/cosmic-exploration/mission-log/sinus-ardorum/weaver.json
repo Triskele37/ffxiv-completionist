@@ -1,0 +1,441 @@
+{
+    "key": "weaver",
+    "groupName": "@CLASS_JOB.WVR",
+    "tasks": {
+        "x527": {
+            "name_en": "Spare Cloth",
+            "name_fr": "Tissus pour entretien",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_B",
+            "patch": "7.21"
+        },
+        "x528": {
+            "name_en": "Flame-resistant Work Cloth",
+            "name_fr": "Tissus résistants au feu",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_B",
+            "patch": "7.21"
+        },
+        "x529": {
+            "name_en": "Fungal Cloth",
+            "name_fr": "Nouveaux tissus mycéliens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_A",
+            "patch": "7.21"
+        },
+        "x259": {
+            "name_en": "EX: Cosmoliner Materials II",
+            "name_fr": "EX : Amélioration de matériaux pour cosmo-navette",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.258",
+            "patch": "7.21"
+        },
+        "x261": {
+            "name_en": "EX: Specialized Materials II",
+            "name_fr": "EX : Amélioration de matériaux de raffinement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.260",
+            "patch": "7.21"
+        },
+        "x262": {
+            "name_en": "EX+: Large Research Materials",
+            "name_fr": "EX+ : Matériaux de grande taille pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.261",
+            "patch": "7.21"
+        },
+        "x264": {
+            "name_en": "EX+: Rest Facility Furnishings",
+            "name_fr": "EX+ : Articles de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.263",
+            "patch": "7.21"
+        },
+        "x266": {
+            "name_en": "EX: Packing Materials II",
+            "name_fr": "EX : Amélioration de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.265",
+            "patch": "7.21"
+        },
+        "x267": {
+            "name_en": "EX+: Rover Packing Materials",
+            "name_fr": "EX+ : Conteneurs de fret pour rovers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.266",
+            "patch": "7.21"
+        },
+        "x269": {
+            "name_en": "EX+: Crew Suits II",
+            "name_fr": "EX+ : Amélioration d'uniformes cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.268",
+            "patch": "7.21"
+        },
+        "x270": {
+            "name_en": "EX+: Crew Suits III",
+            "name_fr": "EX+ : Perfectionnement d'uniformes cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.269",
+            "patch": "7.21"
+        },
+        "x265": {
+            "name_en": "Packing Materials I",
+            "name_fr": "Préparation de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2200",
+            "patch": "7.21"
+        },
+        "x268": {
+            "name_en": "EX+: Crew Suits I",
+            "name_fr": "EX+ : Préparation d'uniformes cosmiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1000",
+            "patch": "7.21"
+        },
+        "x255": {
+            "name_en": "EX: Familiar Furnishings",
+            "name_fr": "EX : Décorations de sol typiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x256": {
+            "name_en": "EX+: Cold-weather Work Hats",
+            "name_fr": "EX+ : Chapeaux thermiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x257": {
+            "name_en": "EX+: Crafter's Overalls",
+            "name_fr": "EX+ : Habits d'artisanat",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x247": {
+            "name_en": "High-durability Yarn",
+            "name_fr": "Pelotes de fil résistant",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x248": {
+            "name_en": "High-grade Composite Fiber",
+            "name_fr": "Fibres composites d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x249": {
+            "name_en": "High-grade Bedroom Curtains",
+            "name_fr": "Rideaux pour salle de repos d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x250": {
+            "name_en": "First-aid Bandaging",
+            "name_fr": "Bandages de premiers secours",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x251": {
+            "name_en": "Lunar Flora Test Processing",
+            "name_fr": "Traitement expérimental de végétaux lunaires",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x252": {
+            "name_en": "EX: Test Material Final Processing",
+            "name_fr": "EX : Traitement final de matériaux d'essai",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x253": {
+            "name_en": "EX: Weaving Materials",
+            "name_fr": "EX : Matériaux pour synthèse de fibres",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x254": {
+            "name_en": "EX: Rest Cushions",
+            "name_fr": "EX : Ensemble de coussins de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x258": {
+            "name_en": "Cosmoliner Materials I",
+            "name_fr": "Préparation de matériaux pour cosmo-navette",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x260": {
+            "name_en": "Specialized Materials I",
+            "name_fr": "Préparation de matériaux de raffinement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x263": {
+            "name_en": "EX: Rest Facility Materials",
+            "name_fr": "EX : Matériaux pour articles de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x239": {
+            "name_en": "Work Rope",
+            "name_fr": "Corde de travail",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x240": {
+            "name_en": "Sterile Yarn",
+            "name_fr": "Pelotes de fil bactéricides",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x241": {
+            "name_en": "High-grade Curtains",
+            "name_fr": "Rideaux d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x242": {
+            "name_en": "Transport Yarn",
+            "name_fr": "Étoffes pour le transport de ressources",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x243": {
+            "name_en": "Heat-resistant Composite Fiber",
+            "name_fr": "Fibres composites résistantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x244": {
+            "name_en": "Rest Supplies",
+            "name_fr": "Accessoires de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x245": {
+            "name_en": "Test Material Hats",
+            "name_fr": "Chapeaux en matériaux expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x246": {
+            "name_en": "Rest Cushions",
+            "name_fr": "Coussins de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x232": {
+            "name_en": "Heat-resistant Yarn",
+            "name_fr": "Pelotes de fil thermorésistant",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x233": {
+            "name_en": "Room Garments",
+            "name_fr": "Vêtements d'intérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x234": {
+            "name_en": "Multi-purpose Fabric",
+            "name_fr": "Serviettes multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x235": {
+            "name_en": "Composite Fiber",
+            "name_fr": "Fibres composites",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x236": {
+            "name_en": "Infirmary Curtains",
+            "name_fr": "Rideaux médicaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x237": {
+            "name_en": "Cosmoliner Materials",
+            "name_fr": "Matériaux pour cosmo-navette",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x238": {
+            "name_en": "New Material Trousers",
+            "name_fr": "Pantalons en matière nouvelle",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x226": {
+            "name_en": "Multi-purpose Yarn",
+            "name_fr": "Pelotes de fil multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x227": {
+            "name_en": "First-aid Cloth",
+            "name_fr": "Étoffes de première nécessité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x228": {
+            "name_en": "Gatherer's Helmets",
+            "name_fr": "Protège-têtes pour la récolte",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x229": {
+            "name_en": "Essential Research Materials",
+            "name_fr": "Matériaux pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x230": {
+            "name_en": "Multi-purpose String",
+            "name_fr": "Filins professionnels multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x231": {
+            "name_en": "Divider Curtains",
+            "name_fr": "Rideaux de partition",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

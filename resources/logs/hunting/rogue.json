@@ -4,404 +4,454 @@
     "cCombo": ["a.1051"],
     "tasks": {
         "x0": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 01",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(22, 22)",
+            "rank": "1",
             "mob_en": "Wharf Rat x3",
-            "mob_fr": "Rat x3"
+            "mob_fr": "Rat x3",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(22, 22)",
+            "patch": "2.4"
         },
         "x1": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 02",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(29, 21)",
+            "rank": "1",
             "mob_en": "Lost Lamb x3",
-            "mob_fr": "Agneau égaré x3"
+            "mob_fr": "Agneau égaré x3",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(29, 21)",
+            "patch": "2.4"
         },
         "x2": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 03",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(25, 24)",
+            "rank": "1",
             "mob_en": "Aurelia x3",
-            "mob_fr": "Aurélie x3"
+            "mob_fr": "Aurélie x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(25, 24)",
+            "patch": "2.4"
         },
         "x3": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 04",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(28, 20)",
+            "rank": "1",
             "mob_en": "Wild Dodo x3",
-            "mob_fr": "Dodo x3"
+            "mob_fr": "Dodo x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(28, 20)",
+            "patch": "2.4"
         },
         "x4": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 05",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(23, 22), (23, 21)",
+            "rank": "1",
             "mob_en": "Pugil x2, Goblin Fisher x1",
-            "mob_fr": "Pugil x2, Pêcheur gobelin x1"
+            "mob_fr": "Pugil x2, Pêcheur gobelin x1",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(23, 22), (23, 21)",
+            "patch": "2.4"
         },
         "x5": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 06",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(22, 17)",
+            "rank": "1",
             "mob_en": "Tiny Mandragora x3",
-            "mob_fr": "Mini-mandragore x3"
+            "mob_fr": "Mini-mandragore x3",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(22, 17)",
+            "patch": "2.4"
         },
         "x6": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 07",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(26, 15)",
+            "rank": "1",
             "mob_en": "Cave Bat x3",
-            "mob_fr": "Chauve-souris cavernicole x3"
+            "mob_fr": "Chauve-souris cavernicole x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(26, 15)",
+            "patch": "2.4"
         },
         "x7": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 08",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(30, 14)",
+            "rank": "1",
             "mob_en": "Galago x3",
-            "mob_fr": "Galago x3"
+            "mob_fr": "Galago x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(30, 14)",
+            "patch": "2.4"
         },
         "x8": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 09",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(19, 17)",
+            "rank": "1",
             "mob_en": "Grounded Pirate x1, Grounded Raider x1",
-            "mob_fr": "Pirate échoué x1, Maraudeur échoué x1"
+            "mob_fr": "Pirate échoué x1, Maraudeur échoué x1",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(19, 17)",
+            "patch": "2.4"
         },
         "x9": {
-            "rank": "1",
             "name": "@CLASS_JOB.ROG 10",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(16, 14)",
+            "rank": "1",
             "mob_en": "Megalocrab x3",
-            "mob_fr": "Mégalocrabe x3"
+            "mob_fr": "Mégalocrabe x3",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(16, 14)",
+            "patch": "2.4"
         },
         "x10": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 11",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(21, 35)",
+            "rank": "2",
             "mob_en": "Wild Jackal x3",
-            "mob_fr": "Chacal sauvage x3"
+            "mob_fr": "Chacal sauvage x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(21, 35)",
+            "patch": "2.4"
         },
         "x11": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 12",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(35, 30), (33, 28)",
+            "rank": "2",
             "mob_en": "Roseling x1, Sewer Mole x2",
-            "mob_fr": "Callisia x1, Taupe d'égout x2"
+            "mob_fr": "Callisia x1, Taupe d'égout x2",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(35, 30), (33, 28)",
+            "patch": "2.4"
         },
         "x12": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 13",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(32, 28)",
+            "rank": "2",
             "mob_en": "Fat Dodo x3",
-            "mob_fr": "Dodo dodu x3"
+            "mob_fr": "Dodo dodu x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(32, 28)",
+            "patch": "2.4"
         },
         "x13": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 14",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(21, 34)",
+            "rank": "2",
             "mob_en": "Moraby Mole x3",
-            "mob_fr": "Taupe de Moraby x3"
+            "mob_fr": "Taupe de Moraby x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(21, 34)",
+            "patch": "2.4"
         },
         "x14": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 15",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(18, 35)",
+            "rank": "2",
             "mob_en": "Qiqirn Eggdigger x3",
-            "mob_fr": "Qiqirn déterre-œuf x3"
+            "mob_fr": "Qiqirn déterre-œuf x3",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(18, 35)",
+            "patch": "2.4"
         },
         "x15": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 16",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(27, 24)",
+            "rank": "2",
             "mob_en": "Puk Hatchling x3",
-            "mob_fr": "Puk x3"
+            "mob_fr": "Puk x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(27, 24)",
+            "patch": "2.4"
         },
         "x16": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 17",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(24, 22)",
+            "rank": "2",
             "mob_en": "Rothlyt Pelican x3",
-            "mob_fr": "Pélican de Rothlyt x3"
+            "mob_fr": "Pélican de Rothlyt x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(24, 22)",
+            "patch": "2.4"
         },
         "x17": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 18",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(23, 21), (25, 23)",
+            "rank": "2",
             "mob_en": "Killer Mantis x2, Hedgemole x1",
-            "mob_fr": "Mante tueuse x2, Héritaupe x1"
+            "mob_fr": "Mante tueuse x2, Héritaupe x1",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(23, 21), (25, 23)",
+            "patch": "2.4"
         },
         "x18": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 19",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(13, 25)",
+            "rank": "2",
             "mob_en": "Wild Wolf x3",
-            "mob_fr": "Loup sauvage x3"
+            "mob_fr": "Loup sauvage x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(13, 25)",
+            "patch": "2.4"
         },
         "x19": {
-            "rank": "2",
             "name": "@CLASS_JOB.ROG 20",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(13, 25)",
+            "rank": "2",
             "mob_en": "Bumble Beetle x3",
-            "mob_fr": "Scarabourdon x3"
+            "mob_fr": "Scarabourdon x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(13, 25)",
+            "patch": "2.4"
         },
         "x20": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 21",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(16, 21)",
+            "rank": "3",
             "mob_en": "Black Bat x3",
-            "mob_fr": "Chauve-souris noire x3"
+            "mob_fr": "Chauve-souris noire x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(16, 21)",
+            "patch": "2.4"
         },
         "x21": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 22",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(23, 30)",
+            "rank": "3",
             "mob_en": "Gall Gnat x3",
-            "mob_fr": "Taon galeux x3"
+            "mob_fr": "Taon galeux x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(23, 30)",
+            "patch": "2.4"
         },
         "x22": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 23",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(23, 29)",
+            "rank": "3",
             "mob_en": "Overgrown Ivy x3",
-            "mob_fr": "Lierre envahissant x3"
+            "mob_fr": "Lierre envahissant x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(23, 29)",
+            "patch": "2.4"
         },
         "x23": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 24",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(19, 22)",
+            "rank": "3",
             "mob_en": "Bark Eft x3",
-            "mob_fr": "Triton noir x3"
+            "mob_fr": "Triton noir x3",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(19, 22)",
+            "patch": "2.4"
         },
         "x24": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 25",
-            "zone": "@PLACE.SOUTH_SHROUD",
+            "rank": "3",
+            "mob_en": "Redbelly Larcener x2, Redbelly Lookout x2",
+            "mob_fr": "Vide-gousset Ventrerouge x2, Guetteur Ventrerouge x2",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
             "location": "(16, 22), (15, 22)",
-            "mob_en": "Redbelly Larcener x2, Redbelly Lookout x1",
-            "mob_fr": "Vide-gousset Ventrerouge x2, Guetteur Ventrerouge x2"
+            "patch": "2.4"
         },
         "x25": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 26",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(23, 20)",
+            "rank": "3",
             "mob_en": "Antelope Stag x3",
-            "mob_fr": "Antilope cerf x3"
+            "mob_fr": "Antilope cerf x3",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(23, 20)",
+            "patch": "2.4"
         },
         "x26": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 27",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(24, 21)",
+            "rank": "3",
             "mob_en": "River Yarzon x3",
-            "mob_fr": "Yarzon des rivières x3"
+            "mob_fr": "Yarzon des rivières x3",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(24, 21)",
+            "patch": "2.4"
         },
         "x27": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 28",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(22, 8), (22, 11)",
+            "rank": "3",
             "mob_en": "Corpse Brigade Knuckledancer x2, Corpse Brigade Firedancer x2",
-            "mob_fr": "Lutteur de la brigade des Cadavres x2, Sorcier de la brigade des Cadavres x2"
+            "mob_fr": "Lutteur de la brigade des Cadavres x2, Sorcier de la brigade des Cadavres x2",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(22, 8), (22, 11)",
+            "patch": "2.4"
         },
         "x28": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 29",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(28, 21)",
+            "rank": "3",
             "mob_en": "Coeurlclaw Cutter x2, Coeurlclaw Hunter x2",
-            "mob_fr": "Trancheuse Griffecoeurl x2, Chasseresse Griffecoeurl x2"
+            "mob_fr": "Trancheuse Griffecoeurl x2, Chasseresse Griffecoeurl x2",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(28, 21)",
+            "patch": "2.4"
         },
         "x29": {
-            "rank": "3",
             "name": "@CLASS_JOB.ROG 30",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
+            "rank": "3",
+            "mob_en": "Sandstone Golem x3",
+            "mob_fr": "Golem de grès x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
             "location": "(22, 12)",
-            "mob_en": "Sandstone Golem x2",
-            "mob_fr": "Golem de grès x3"
+            "patch": "2.4"
         },
         "x30": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 31",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(28, 32)",
+            "rank": "4",
             "mob_en": "Large Buffalo x3",
-            "mob_fr": "Bufle x3"
+            "mob_fr": "Bufle x3",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(28, 32)",
+            "patch": "2.4"
         },
         "x31": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 32",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(16, 26)",
+            "rank": "4",
             "mob_en": "Grass Raptor x3",
-            "mob_fr": "Raptor des plaines x3"
+            "mob_fr": "Raptor des plaines x3",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(16, 26)",
+            "patch": "2.4"
         },
         "x32": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 33",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(26, 32), (29, 24)",
+            "rank": "4",
             "mob_en": "Qiqirn Gullroaster x2, Colibri x2",
-            "mob_fr": "Qiqirn grille-mouette x2, Colibri x2"
+            "mob_fr": "Qiqirn grille-mouette x2, Colibri x2",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(26, 32), (29, 24)",
+            "patch": "2.4"
         },
         "x33": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 34",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(14, 14), (17, 16)",
+            "rank": "4",
             "mob_en": "Coeurl x1, Highland Condor x2",
-            "mob_fr": "Coeurl x1, Condor des hautes terres x2"
+            "mob_fr": "Coeurl x1, Condor des hautes terres x2",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(14, 14), (17, 16)",
+            "patch": "2.4"
         },
         "x34": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 35",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(15, 16)",
+            "rank": "4",
             "mob_en": "Basalt Golem x3",
-            "mob_fr": "Golem de basalte x3"
+            "mob_fr": "Golem de basalte x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(15, 16)",
+            "patch": "2.4"
         },
         "x35": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 36",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(20, 15)",
+            "rank": "4",
             "mob_en": "Velociraptor x4",
-            "mob_fr": "Velociraptor x4"
+            "mob_fr": "Velociraptor x4",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(20, 15)",
+            "patch": "2.4"
         },
         "x36": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 37",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(24, 20), (26, 24)",
+            "rank": "4",
             "mob_en": "Highland Goobbue x2, Feral Croc x2",
-            "mob_fr": "Goobue des hautes terres x2, Crocodile sauvage x2"
+            "mob_fr": "Goobue des hautes terres x2, Crocodile sauvage x2",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(24, 20), (26, 24)",
+            "patch": "2.4"
         },
         "x37": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 38",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(29, 11)",
+            "rank": "4",
             "mob_en": "Redhorn Ogre x3",
-            "mob_fr": "Ogre corne-rouge x3"
+            "mob_fr": "Ogre corne-rouge x3",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(29, 11)",
+            "patch": "2.4"
         },
         "x38": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 39",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(32, 12)",
+            "rank": "4",
             "mob_en": "Taurus x3",
-            "mob_fr": "Taurus x3"
+            "mob_fr": "Taurus x3",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(32, 12)",
+            "patch": "2.4"
         },
         "x39": {
-            "rank": "4",
             "name": "@CLASS_JOB.ROG 40",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(18, 16)",
+            "rank": "4",
             "mob_en": "Chinchilla x2, Bateleur x2",
-            "mob_fr": "Chinchilla x2, Bateleur des dunes x2"
+            "mob_fr": "Chinchilla x2, Bateleur des dunes x2",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(18, 16)",
+            "patch": "2.4"
         },
         "x40": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 41",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(25, 24)",
+            "rank": "5",
             "mob_en": "Golden Fleece x4",
-            "mob_fr": "Toison d'or x4"
+            "mob_fr": "Toison d'or x4",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(25, 24)",
+            "patch": "2.4"
         },
         "x41": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 42",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(29, 26)",
+            "rank": "5",
             "mob_en": "Quartz Doblyn x4",
-            "mob_fr": "Doblyn de quartz x4"
+            "mob_fr": "Doblyn de quartz x4",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(29, 26)",
+            "patch": "2.4"
         },
         "x42": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 43",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(18, 8)",
+            "rank": "5",
             "mob_en": "Nix x4",
-            "mob_fr": "Nix x4"
+            "mob_fr": "Nix x4",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(18, 8)",
+            "patch": "2.4"
         },
         "x43": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 44",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(13, 10)",
+            "rank": "5",
             "mob_en": "Mudpuppy x4",
-            "mob_fr": "Protée x4"
+            "mob_fr": "Protée x4",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(13, 10)",
+            "patch": "2.4"
         },
         "x44": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 45",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(16, 15)",
+            "rank": "5",
             "mob_en": "Daring Harrier x2, Raging Harrier x2",
-            "mob_fr": "Harceleur casse-cou x2, Harceleur enragé x2"
+            "mob_fr": "Harceleur casse-cou x2, Harceleur enragé x2",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(16, 15)",
+            "patch": "2.4"
         },
         "x45": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 46",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(28, 12), (28, 13)",
+            "rank": "5",
             "mob_en": "Gigas Shramana x2, Gigas Sozu x2",
-            "mob_fr": "Gigas Shramana x2, Gigas sôzu x2"
+            "mob_fr": "Gigas Shramana x2, Gigas sôzu x2",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(28, 12), (28, 13)",
+            "patch": "2.4"
         },
         "x46": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 47",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(32, 8)",
+            "rank": "5",
             "mob_en": "Hippogryph x4",
-            "mob_fr": "Hippogriffe x4"
+            "mob_fr": "Hippogriffe x4",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(32, 8)",
+            "patch": "2.4"
         },
         "x47": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 48",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(30, 5)",
+            "rank": "5",
             "mob_en": "Hapalit x4",
-            "mob_fr": "Hapalit x4"
+            "mob_fr": "Hapalit x4",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(30, 5)",
+            "patch": "2.4"
         },
         "x48": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 49",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(28, 20), (25, 21)",
+            "rank": "5",
             "mob_en": "2nd Cohort Eques x5, 2nd Cohort Signifer x2",
-            "mob_fr": "Eques de la 2e cohorte x5, Signifer de la 2e cohorte x2"
+            "mob_fr": "Eques de la 2e cohorte x5, Signifer de la 2e cohorte x2",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(28, 20), (25, 21)",
+            "patch": "2.4"
         },
         "x49": {
-            "rank": "5",
             "name": "@CLASS_JOB.ROG 50",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(30, 19), (30, 20)",
+            "rank": "5",
             "mob_en": "2nd Cohort Secutor x2, 2nd Cohort Vanguard x4",
-            "mob_fr": "Secutor de la 2e cohorte x2, Avant-garde de la 2e cohorte x4"
+            "mob_fr": "Secutor de la 2e cohorte x2, Avant-garde de la 2e cohorte x4",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(30, 19), (30, 20)",
+            "patch": "2.4"
         }
     }
 }

@@ -1,0 +1,112 @@
+{
+    "key": "auxesia",
+    "groupName": "@PLACE.DT.AUXESIA",
+    "tasks": {
+        "x316": {
+            "name_en": "Cosmic Fortune",
+            "name_fr": "Cosmic Fortune",
+            "location": "@PLACE.DT.AUXESIA",
+            "requirements": "@VENDOR.ORBITINGWAY (1,000 CURRENCY.CE.AUXESIA_CREDIT)",
+            "loot": [
+                "mo.438",
+                "mi.583",
+                "fw.61",
+                "o.861",
+                "o.891"
+            ]
+        },
+        "x317": {
+            "name_en": "Arboreal Bronze Ancient Record",
+            "name_fr": "Relique archéologique (bronze blanc)",
+            "location": "@PLACE.DT.AUXESIA",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.AUXESIA_DRONEBIT)",
+            "loot": [
+                "mi.436",
+                "mi.136",
+                "mi.190",
+                "mi.475",
+                "mi.284",
+                "mi.363",
+                "mi.30",
+                "mi.22",
+                "mi.143",
+                "mi.48",
+                "mi.188",
+                "mi.95",
+                "mi.303",
+                "mi.327",
+                "mi.244",
+                "mi.39",
+                "mi.488",
+                "mi.263",
+                "mi.255",
+                "mi.169",
+                "mi.168",
+                "mi.262",
+                "mi.171",
+                "mi.282",
+                "mi.53",
+                "mi.185",
+                "mi.265",
+                "mi.294",
+                "mi.275",
+                "mi.186",
+                "mi.261",
+                "mi.170",
+                "fa.6",
+                "fa.13",
+                "e.220",
+                "e.223"
+            ],
+            "_itemId": 52095
+        },
+        "x318": {
+            "name_en": "Civic Silver Ancient Record",
+            "name_fr": "Relique archéologique (argent bleu)",
+            "location": "@PLACE.DT.AUXESIA",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.AUXESIA_DRONEBIT)",
+            "loot": [
+                "aes.280",
+                "mi.475",
+                "mi.284",
+                "mi.188",
+                "mi.303",
+                "mi.327",
+                "mi.488",
+                "mi.263",
+                "mi.169",
+                "mi.168",
+                "mi.262",
+                "mi.171",
+                "mi.282",
+                "mi.185",
+                "mi.265",
+                "mi.294",
+                "mi.275",
+                "mi.186",
+                "mi.261",
+                "mi.170",
+                "fa.57",
+                "e.220",
+                "e.207",
+                "e.223"
+            ],
+            "_itemId": 52094
+        },
+        "x319": {
+            "name_en": "Botanic Gold Ancient Record",
+            "name_fr": "Relique archéologique (or vert)",
+            "location": "@PLACE.DT.AUXESIA",
+            "requirements": "@VENDOR.KAEDE (200 CURRENCY.CE.AUXESIA_DRONEBIT)",
+            "loot": [
+                "aes.280",
+                "mo.209",
+                "mo.242",
+                "mo.236",
+                "mo.409",
+                "e.207"
+            ],
+            "_itemId": 52093
+        }
+    }
+}

@@ -4,49 +4,180 @@
     "groupNameShort": "@EXPANSION.DT",
     "tasks": {
         "x832": {
-            "level": "93",
             "name_en": "Worqor Lar Dor",
             "name_fr": "Worqor Lar Dor",
-            "unlock": "q.70430"
+            "level": "93",
+            "unlock": "q.70430",
+            "patch": "7.0",
+            "cUnlock": ["q.70430"]
         },
         "x995": {
-            "level": "99",
             "name_en": "Everkeep",
             "name_fr": "Le Pinacle de l'Éternité",
-            "unlock": "q.70481"
+            "level": "99",
+            "unlock": "q.70481",
+            "patch": "7.0",
+            "cUnlock": ["q.70481"]
         },
         "x984": {
-            "level": "100",
             "name_en": "The Interphos",
             "name_fr": "Interphos",
-            "unlock": "q.70495"
+            "level": "100",
+            "unlock": "q.70495",
+            "patch": "7.0",
+            "cUnlock": ["q.70495"]
+        },
+        "x1030": {
+            "name_en": "Recollection",
+            "name_fr": "Le Sanctuaire du Serment",
+            "level": 100,
+            "unlock": "q.70840",
+            "patch": "7.2",
+            "cUnlock": ["q.70840"]
+        },
+        "x1043": {
+            "name_en": "The Windward Wilds",
+            "name_fr": "Chasse à l'Arkveld Gardien",
+            "level": 100,
+            "unlock": "q.70910",
+            "patch": "7.35",
+            "cUnlock": ["q.70910"]
+        },
+        "x1061": {
+            "name_en": "The Ageless Necropolis",
+            "name_fr": "La Nécropole intemporelle",
+            "level": 100,
+            "unlock": "q.70907",
+            "patch": "7.3",
+            "cUnlock": ["q.70907"]
+        },
+        "x1076": {
+            "name_en": "Hell on Rails",
+            "name_fr": "Le Convoi maléfique",
+            "level": 100,
+            "unlock": "q.70969",
+            "patch": "7.4",
+            "cUnlock": ["q.70969"]
+        },
+        "x1115": {
+            "name_en": "The Unmaking",
+            "name_fr": "L'Anticréation",
+            "level": 100,
+            "unlock": "q.71008",
+            "patch": "7.5",
+            "cUnlock": ["q.71008"]
         },
         "x833": {
-            "cSiblings": ["a.3526"],
-            "level": "100",
             "name_en": "Worqor Lar Dor (Extreme)",
             "name_fr": "Worqor Lar Dor (extrême)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70540",
+            "patch": "7.0",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3526"]
         },
         "x996": {
-            "cSiblings": ["a.3525"],
-            "level": "100",
             "name_en": "Everkeep (Extreme)",
             "name_fr": "Le Pinacle de l'Éternité (extrême)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70540",
+            "patch": "7.0",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3525"]
         },
         "x1017": {
-            "cSiblings": ["a.3605"],
-            "level": "100",
             "name_en": "The Minstrel's Ballad: Sphene's Burden",
             "name_fr": "Interphos (extrême)",
-            "unlock": ""
+            "level": "100",
+            "unlock": "q.70540",
+            "patch": "7.1",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3605"]
+        },
+        "x1031": {
+            "name_en": "Recollection (Extreme)",
+            "name_fr": "Le Sanctuaire du Serment (extrême)",
+            "level": 100,
+            "unlock": "q.70540",
+            "patch": "7.2",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3626"]
+        },
+        "x1044": {
+            "name_en": "The Windward Wilds (Extreme)",
+            "name_fr": "Chasse à l'Arkveld Gardien (extrême)",
+            "level": 100,
+            "unlock": "q.70540",
+            "patch": "7.35",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3823"]
+        },
+        "x1062": {
+            "name_en": "The Minstrel's Ballad: Necron's Embrace",
+            "name_fr": "La Nécropole intemporelle (extrême)",
+            "level": 100,
+            "unlock": "q.70540",
+            "patch": "7.3",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3805"]
+        },
+        "x1077": {
+            "name_en": "Hell on Rails (Extreme)",
+            "name_fr": "Le Convoi maléfique (extrême)",
+            "level": 100,
+            "unlock": "q.70540",
+            "patch": "7.4",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3889"]
+        },
+        "x1116": {
+            "name_en": "The Unmaking (Extreme)",
+            "name_fr": "L'Anticréation (extrême)",
+            "level": 100,
+            "unlock": "q.70540",
+            "patch": "7.5",
+            "cPrev": ["q.70540"],
+            "cSiblings": ["a.3979"]
         },
         "x91007": {
-            "level": "100",
             "name_en": "The Jade Stoa (Unreal)",
             "name_fr": "La Clairière de Jade (irréel)",
-            "unlock": "q.69501"
+            "level": "100",
+            "unlock": "q.69501",
+            "patch": "7.1",
+            "cPrev": ["q.69501"]
+        },
+        "x91008": {
+            "name_en": "Hells' Kier (Unreal)",
+            "name_fr": "Le Nid des Lamentations (irréel)",
+            "level": "100",
+            "unlock": "q.69501",
+            "patch": "7.2",
+            "cPrev": ["q.69501"]
+        },
+        "x91009": {
+            "name_en": "The Wreath of Snakes (Unreal)",
+            "name_fr": "L'Îlot des Amertumes (irréel)",
+            "level": "100",
+            "unlock": "q.69501",
+            "patch": "7.3",
+            "cPrev": ["q.69501"]
+        },
+        "x91010": {
+            "name_en": "Tsukuyomi's Pain (Unreal)",
+            "name_fr": "Castrum Fluminis (irréel)",
+            "level": "100",
+            "unlock": "q.69501",
+            "patch": "7.4",
+            "cPrev": ["q.69501"]
+        },
+        "x91011": {
+            "name_en": "Shinryu's Domain (Unreal)",
+            "name_fr": "Le Domaine de Shinryu (irréel)",
+            "level": 100,
+            "unlock": "q.69501",
+            "patch": "7.5",
+            "cPrev": ["q.69501"]
         }
     }
 }

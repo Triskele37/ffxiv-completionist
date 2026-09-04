@@ -1,0 +1,19 @@
+:host {
+    display: contents;
+
+    .review-localization-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: calc(var(--content-padding) * 3);
+
+        height: 100%;
+        width: 100%;
+
+        .issue-navigation {
+            display: flex;
+            align-items: center;
+            gap: var(--content-padding);
+        }
+    }
+}

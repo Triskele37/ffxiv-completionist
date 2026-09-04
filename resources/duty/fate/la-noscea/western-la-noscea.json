@@ -1,192 +1,192 @@
 {
     "key": "western-la-noscea",
-    "groupName": "@PLACE.WESTERN_LA_NOSCEA",
+    "groupName": "@PLACE.ARR.WESTERN_LA_NOSCEA",
     "tasks": {
         "x291": {
-            "level": 10,
             "name_en": "Shredding Wheat",
             "name_fr": "Sauvagerie animale",
+            "level": 10,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(34, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x306": {
-            "level": 10,
             "name_en": "Barometz Soup",
             "name_fr": "Défi : soupe de Barometz",
+            "level": 10,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(36, 28)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x304": {
-            "level": 12,
             "name_en": "The Last Straw",
             "name_fr": "Destruction de nids",
+            "level": 12,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x650": {
-            "level": 12,
             "name_en": "Tender Buttons",
             "name_fr": "Défi : volatile carnivore",
+            "level": 12,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(32, 28)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x295": {
-            "level": 13,
             "name_en": "(I Just) Died in Six Arms Tonight",
             "name_fr": "Défi : le crabe de légende",
+            "level": 13,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(30, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x308": {
-            "level": 15,
             "name_en": "Goblin Chain",
             "name_fr": "Barrage de Gobelins",
+            "level": 15,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x310": {
-            "level": 15,
             "name_en": "Between Aurochs",
             "name_fr": "Expulsion d'aurochs",
+            "level": 15,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x289": {
-            "level": 16,
             "name_en": "Absolutely, Positively",
             "name_fr": "Livraison de missive",
+            "level": 16,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(26, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.0"
         },
         "x312": {
-            "level": 16,
             "name_en": "In the Sac",
             "name_fr": "Sac mortel",
+            "level": 16,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x298": {
-            "level": 17,
             "name_en": "Don't Call Him a Fishback",
             "name_fr": "De redoutables aquatiques",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(24, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x303": {
-            "level": 17,
             "name_en": "Letters from Tidegate",
             "name_fr": "Lettres du front",
+            "level": 17,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(24, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x297": {
-            "level": 18,
             "name_en": "Iron Contra Affair",
             "name_fr": "La fin de la contrebande",
+            "level": 18,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(28, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x309": {
-            "level": 18,
             "name_en": "Tryp Fantastic",
             "name_fr": "Défi : l'adieu au mercenaire",
+            "level": 18,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 22)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x576": {
-            "level": 40,
             "name_en": "Dead Man's Rest",
             "name_fr": "C'est pas l'homme qui prend la mer...",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 32)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x577": {
-            "level": 40,
             "name_en": "The King's Justice",
             "name_fr": "Défi : mante à l'eau",
+            "level": 40,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 34)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x568": {
-            "level": 44,
             "name_en": "Gauging North Tidegate",
             "name_fr": "Reconnaissance au barrage du nord",
+            "level": 44,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x569": {
-            "level": 44,
             "name_en": "Breaching North Tidegate",
             "name_fr": "Percée du barrage du nord",
+            "level": 44,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 19)",
-            "patch": "2.1",
-            "previousFate": "f.568",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.568",
+            "patch": "2.1"
         },
         "x572": {
-            "level": 44,
             "name_en": "Sharknado",
             "name_fr": "Défi : qui veut la peau du requin ?",
+            "level": 44,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x570": {
-            "level": 45,
             "name_en": "Gauging South Tidegate",
             "name_fr": "Reconnaissance au barrage du sud",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x571": {
-            "level": 45,
             "name_en": "Breaching South Tidegate",
             "name_fr": "Percée du barrage du sud",
+            "level": 45,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 22)",
-            "patch": "2.1",
-            "previousFate": "f.570",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.570",
+            "patch": "2.1"
         },
         "x574": {
-            "level": 46,
             "name_en": "Tail of a Whale",
             "name_fr": "La tentation du serpent de mer",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(17, 16)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x575": {
-            "level": 48,
             "name_en": "Watch Your Tongue",
             "name_fr": "Marquée de votre lame",
+            "level": 48,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 17)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x578": {
-            "level": 49,
             "name_en": "Making Waves",
             "name_fr": "Défi : le messager des vagues",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(11, 13)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

@@ -1,7 +1,7 @@
 **Environment Setup**
 
 Ensure at least the following is setup on your system:
-* Node (at least v14)
+* Node (at least v26.5.1)
 * Git
 * Your choice of IDE
 
@@ -12,13 +12,12 @@ Ensure at least the following is setup on your system:
 
 **Node Modules**
 
-Multiple directories within this project need to have modules installed  
+Currently, only the top-level directory in this project needs to have modules installed  
 * `ffxiv-completionist`
-* `ffxiv-completionist/app`
   
 To install node modules:
 1. Open a console window
-2. Navigate to the relevant directory
+2. Navigate to the relevant directory within it
 3. Run `npm install`
 
 **Running the app**
@@ -33,8 +32,9 @@ The app will now serve and automatically open once built
 
 **Development Notes**
 
-Any changes to `src` files will trigger the hot reload i.e. update the served app with those changes  
-Any changes to `app` requires the serve command to be restarted in order to take effect  
+Any changes to `/renderer` files will trigger the hot reload i.e. update the served app with those changes  
+Any changes to `/main` requires the serve command to be restarted in order to take effect  
+The repo contains a workspace for each electron app, only a few commands are provided at root for simplicity  
 
 **Release**
 

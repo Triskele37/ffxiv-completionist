@@ -1,0 +1,57 @@
+{
+    "key": "resistance-honors",
+    "groupName_en": "Resistance Honors",
+    "groupName_fr": "Médailles de la résistance",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "proofs": {
+            "header_en": "Proofs",
+            "header_fr": "Preuves"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": "0",
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Sun of Fortitude",
+            "name_fr": "Comète de l'égide",
+            "proofs_en": "Every 2 stacks increases proof cost by 1",
+            "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
+            "patch": "5.55",
+            "cComboAt": {
+                "10": ["a.2882"]
+            },
+            "minValue": 0,
+            "maxValue": 10
+        },
+        "x1": {
+            "name_en": "Sun of Valor",
+            "name_fr": "Comète de la furie",
+            "proofs_en": "Every 2 stacks increases proof cost by 1",
+            "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
+            "patch": "5.55",
+            "cComboAt": {
+                "10": ["a.2882"]
+            },
+            "minValue": 0,
+            "maxValue": 10
+        },
+        "x2": {
+            "name_en": "Sun of Succor",
+            "name_fr": "Comète du salut",
+            "proofs_en": "Every 2 stacks increases proof cost by 1",
+            "proofs_fr": "Toutes les 2 médailles obtenues augmentent le coût en preuves de 1",
+            "patch": "5.55",
+            "cComboAt": {
+                "10": ["a.2882"]
+            },
+            "minValue": 0,
+            "maxValue": 10
+        }
+    }
+}

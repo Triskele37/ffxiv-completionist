@@ -3,69 +3,77 @@
     "groupName_en": "Yok Tural",
     "groupName_fr": "Yok Tural",
     "tasks": {
-        "x0": {
+        "x55": {
             "name_en": "Karvarhur the First",
             "name_fr": "Berceau de Karvarhur",
-            "level": "95",
-            "zone": "@PLACE.URQOPACHA",
+            "level": 95,
+            "zone": "@PLACE.DT.URQOPACHA",
             "location": "(6.2, 20.1)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x1": {
+        "x56": {
             "name_en": "Eastern Marsh Ligaka",
             "name_fr": "Est des marais de Ligaka",
-            "level": "95",
-            "zone": "@PLACE.KOZAMAUKA",
+            "level": 95,
+            "zone": "@PLACE.DT.KOZAMAUKA",
             "location": "(27.4, 30.3)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x2": {
+        "x57": {
             "name_en": "Western Marsh Ligaka",
             "name_fr": "Ouest des marais de Ligaka",
-            "level": "95",
-            "zone": "@PLACE.KOZAMAUKA",
+            "level": 95,
+            "zone": "@PLACE.DT.KOZAMAUKA",
             "location": "(21.2, 33.1)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x3": {
+        "x62": {
             "name_en": "Marsh Ligaka Depths",
             "name_fr": "Profondeurs des marais de Ligaka",
-            "level": "95",
-            "zone": "@PLACE.KOZAMAUKA",
+            "level": 95,
+            "zone": "@PLACE.DT.KOZAMAUKA",
             "location": "(25.0, 31.2)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x4": {
+        "x58": {
             "name_en": "Xd'aa Talat Tsoly",
             "name_fr": "Xd'aa Talat Tsoly",
-            "level": "95",
-            "zone": "@PLACE.YAK_TEL",
+            "level": 95,
+            "zone": "@PLACE.DT.YAK_TEL",
             "location": "(5.3, 7.4)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x5": {
+        "x59": {
             "name_en": "Western Iq Rrax Tsoly",
             "name_fr": "Ouest de l'Iq Rrax Tsoly",
-            "level": "100",
-            "zone": "@PLACE.YAK_TEL",
+            "level": 100,
+            "zone": "@PLACE.DT.YAK_TEL",
             "location": "(28.5, 4.9)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x6": {
+        "x60": {
             "name_en": "Eastern Iq Rrax Tsoly",
             "name_fr": "Est de l'Iq Rrax Tsoly",
-            "level": "100",
-            "zone": "@PLACE.YAK_TEL",
+            "level": 100,
+            "zone": "@PLACE.DT.YAK_TEL",
             "location": "(34.9, 7.6)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         },
-        "x7": {
+        "x63": {
             "name_en": "Iq Rrax Tsoly Depths",
             "name_fr": "Profondeurs de l'Iq Rrax Tsoly",
-            "level": "100",
-            "zone": "@PLACE.YAK_TEL",
+            "level": 100,
+            "zone": "@PLACE.DT.YAK_TEL",
             "location": "(31.3, 6.9)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "7.0"
         }
     }
 }

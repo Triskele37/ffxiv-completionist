@@ -4,88 +4,88 @@
     "groupName_fr": "Quêtes d'occultiste",
     "tasks": {
         "x65880": {
-            "level": 1,
             "name_en": "Way of the Thaumaturge",
             "name_fr": "La voie de l'occultisme",
+            "level": 1,
             "npc_en": "Yayake",
             "npc_fr": "Yayake",
+            "patch": "3.1",
             "cPrev": ["q.65719"],
-            "cNext": ["q.65882"],
-            "patch": "4.31"
+            "cNext": ["q.65882"]
         },
         "x65882": {
-            "level": 1,
             "name_en": "My First Scepter",
             "name_fr": "Le sceptre de l'initiation",
+            "level": 1,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "patch": "2.0",
             "cPrev": ["q.65880"],
-            "cNext": ["q.65885", "q.65883"],
-            "patch": "4.31"
+            "cNext": ["q.65885", "q.65883"]
         },
         "x65883": {
-            "level": 5,
             "name_en": "The Threat of Intimacy",
             "name_fr": "La menace imminente",
-            "cPrevAny": true,
+            "level": 5,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "patch": "2.0",
             "cPrev": ["q.65880", "q.65882"],
-            "cNext": ["q.65885"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.65885"]
         },
         "x65885": {
-            "level": 10,
             "name_en": "The Threat of Paucity",
             "name_fr": "Le tarissement fatal",
+            "level": 10,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "patch": "2.0",
             "cPrev": ["q.65882", "q.65883"],
-            "cNext": ["q.65886"],
-            "patch": "4.31"
+            "cNext": ["q.65886"]
         },
         "x65886": {
-            "level": 15,
             "name_en": "The Threat of Superiority",
             "name_fr": "La supériorité ennemie",
+            "level": 15,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "patch": "2.0",
             "cPrev": ["q.65885"],
-            "cNext": ["q.65887"],
-            "patch": "4.31"
+            "cNext": ["q.65887"]
         },
         "x65887": {
-            "level": 20,
             "name_en": "The Threat of Perplexity",
             "name_fr": "L'encerclement nuisible",
+            "level": 20,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "patch": "2.0",
             "cPrev": ["q.65886"],
-            "cNext": ["q.65888"],
-            "patch": "4.31"
+            "cNext": ["q.65888"]
         },
         "x65888": {
-            "level": 25,
             "name_en": "The Hidden Chapter",
             "name_fr": "Une lueur au fond de l'abîme",
+            "level": 25,
             "npc_en": "Cocobygo",
             "npc_fr": "Cocobygo",
+            "patch": "2.0",
             "cPrev": ["q.65887"],
-            "cNext": ["q.65889"],
-            "patch": "4.31"
+            "cNext": ["q.65889"]
         },
         "x65889": {
-            "level": 30,
             "name_en": "Facing Your Demons",
             "name_fr": "L'occulte courage",
+            "level": 30,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
+            "unlock": "ap.163",
+            "patch": "2.0",
             "cPrev": ["q.65888"],
             "cNext": ["q.66609"],
-            "cSiblings": ["ap.163"],
             "cCombo": ["a.313", "a.315"],
-            "patch": "4.31",
-            "unlock": "ap.163"
+            "cSiblings": ["ap.163"]
         }
     }
 }

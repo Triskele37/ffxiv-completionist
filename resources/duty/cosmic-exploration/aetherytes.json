@@ -1,0 +1,161 @@
+{
+    "key": "aetherytes",
+    "groupName_en": "Aetherytes",
+    "groupName_fr": "Éthérites",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Moongate Hub",
+            "name_fr": "Station sélénienne",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(21.4, 20.8)",
+            "patch": "7.21"
+        },
+        "x1": {
+            "name_en": "Calabash Cove",
+            "name_fr": "La Gourde",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(10.6, 10.8)",
+            "patch": "7.21"
+        },
+        "x2": {
+            "name_en": "Weddingway's Bower",
+            "name_fr": "Pépinière de Weddingway",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(30.0, 31.4)",
+            "patch": "7.21"
+        },
+        "x3": {
+            "name_en": "Gleamslope",
+            "name_fr": "Mont scintillant",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(9.0, 29.4)",
+            "patch": "7.21"
+        },
+        "x4": {
+            "name_en": "Lunar Nadir",
+            "name_fr": "Nadir lunaire",
+            "zone": "@PLACE.DT.SINUS_ARDORUM",
+            "coordinates": "(34.1, 9.9)",
+            "patch": "7.21"
+        },
+        "x5": {
+            "name_en": "Glassblowers' Beacon",
+            "name_fr": "Station Souffleverre",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(28.1, 13.8)",
+            "patch": "7.31"
+        },
+        "x6": {
+            "name_en": "Iridized Rise",
+            "name_fr": "Marches iridescentes",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(18.3, 27.7)",
+            "patch": "7.31"
+        },
+        "x7": {
+            "name_en": "The Saltpeter Shore",
+            "name_fr": "Berges de Salpêtre",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(8.6, 8.8)",
+            "patch": "7.31"
+        },
+        "x8": {
+            "name_en": "Capsule Chasm",
+            "name_fr": "Gouffre aux Capsules",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(34.9, 29.9)",
+            "patch": "7.31"
+        },
+        "x9": {
+            "name_en": "Fusingway Vent",
+            "name_fr": "Cheminée de Fusingway",
+            "zone": "@PLACE.DT.PHAENNA",
+            "coordinates": "(9.5, 35.9)",
+            "patch": "7.31"
+        },
+        "x10": {
+            "name_en": "Terra Firma",
+            "name_fr": "Station Terra Firma",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(18.1, 23.0)",
+            "patch": "7.41"
+        },
+        "x11": {
+            "name_en": "Northwestern Regolift",
+            "name_fr": "Nord-ouest du Reg levant",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(18.6, 9.7)",
+            "patch": "7.41"
+        },
+        "x12": {
+            "name_en": "Cape Geras",
+            "name_fr": "Cap Géras",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(12.4, 36.6)",
+            "patch": "7.41"
+        },
+        "x13": {
+            "name_en": "Shadefleet",
+            "name_fr": "Bâtiment ombré",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(36.1, 19.4)",
+            "patch": "7.41"
+        },
+        "x14": {
+            "name_en": "Desert Burrow",
+            "name_fr": "Terrier désertique",
+            "zone": "@PLACE.DT.OIZYS",
+            "coordinates": "(18.9, 5.4)",
+            "patch": "7.41"
+        },
+        "x15": {
+            "name_en": "The Timberlodge",
+            "name_fr": "Havre forestier",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(26.7, 28.5)",
+            "patch": "7.51"
+        },
+        "x16": {
+            "name_en": "Full Bloom Gardens",
+            "name_fr": "Jardins luxuriants",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(16.9, 10.2)",
+            "patch": "7.51"
+        },
+        "x17": {
+            "name_en": "Pileus Pergola",
+            "name_fr": "Pileus Pergola",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(16.6, 27.8)",
+            "patch": "7.51"
+        },
+        "x18": {
+            "name_en": "Sylvan Stacks",
+            "name_fr": "Bibliothèques sylvestres",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(9.4, 14.0)",
+            "patch": "7.51"
+        },
+        "x19": {
+            "name_en": "Stratostone Stand",
+            "name_fr": "Parcelle verdoyante",
+            "zone": "@PLACE.DT.AUXESIA",
+            "coordinates": "(7.9, 33.9)",
+            "patch": "7.51"
+        }
+    }
+}

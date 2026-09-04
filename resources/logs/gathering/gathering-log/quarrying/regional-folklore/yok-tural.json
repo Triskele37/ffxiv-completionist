@@ -2,5 +2,26 @@
     "key": "yok-tural",
     "groupName_en": "Yok Tural",
     "groupName_fr": "Yok Tural",
-    "tasks": {}
+    "tasks": {
+        "x785": {
+            "name_en": "Turali Alumen",
+            "name_fr": "Alun turalien",
+            "level": "100 ★",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "coordinates": "(37, 30)",
+            "closestAetheryte": "travel.aetherytes.tural.173",
+            "nodeTimer": "08:00 / 20:00",
+            "patch": "7.0"
+        },
+        "x804": {
+            "name_en": "Raw Rhodochrosite",
+            "name_fr": "Rhodochrosite brute",
+            "level": "100 ★★",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "coordinates": "(12, 18)",
+            "closestAetheryte": "travel.aetherytes.tural.174",
+            "nodeTimer": "08:00 / 20:00",
+            "patch": "7.2"
+        }
+    }
 }

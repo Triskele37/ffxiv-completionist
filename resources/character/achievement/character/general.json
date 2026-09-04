@@ -8,38 +8,38 @@
             "name_fr": "Maître de la guerre",
             "description_en": "Achieve level 50 as a gladiator, pugilist, marauder, archer, and lancer.",
             "description_fr": "Atteindre le niveau 50 avec les classes gladiateur, pugiliste, maraudeur, archer et maître d'hast.",
+            "points": 20,
             "reward": "t.13",
             "patch": "2.0",
-            "points": 20,
             "cPrevAt": {
                 "50": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11"]
             },
-            "cSiblings": ["t.13"],
-            "cCombo": ["a.56"]
+            "cCombo": ["a.56"],
+            "cSiblings": ["t.13"]
         },
         "x55": {
             "name_en": "Mastering Magic I",
             "name_fr": "Maître de la magie",
             "description_en": "Achieve level 50 as a conjurer, thaumaturge, and arcanist.",
             "description_fr": "Atteindre le niveau 50 avec les classes élémentaliste, occultiste et arcaniste.",
+            "points": 20,
             "reward": "t.14",
             "patch": "2.0",
-            "points": 20,
             "cPrevAt": {
                 "50": ["cj.4", "cj.5", "cj.14", "cj.15"]
             },
-            "cSiblings": ["t.14"],
-            "cCombo": ["a.56"]
+            "cCombo": ["a.56"],
+            "cSiblings": ["t.14"]
         },
         "x56": {
             "name_en": "A Life of Adventure I",
             "name_fr": "Maître du corps et de l'esprit",
             "description_en": "Obtain the achievements “Mastering War I” and “Mastering Magic I.”",
             "description_fr": "Accomplir les hauts faits “Maître de la guerre” et “Maître de la magie”.",
+            "points": 30,
             "reward_en": "Paragon's Crown",
             "reward_fr": "Couronne d'expert",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.44", "a.55"],
             "cCombo": ["a.1190"]
         },
@@ -48,38 +48,38 @@
             "name_fr": "Virtuose de la guerre",
             "description_en": "Achieve level 60 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, and machinist.",
             "description_fr": "Atteindre le niveau 60 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir et machiniste.",
+            "points": 20,
             "reward": "t.239",
             "patch": "3.0",
-            "points": 20,
             "cPrevAt": {
                 "60": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12"]
             },
-            "cSiblings": ["t.239"],
-            "cCombo": ["a.1190"]
+            "cCombo": ["a.1190"],
+            "cSiblings": ["t.239"]
         },
         "x1189": {
             "name_en": "Mastering Magic II",
             "name_fr": "Virtuose de la magie",
             "description_en": "Achieve level 60 as a conjurer, thaumaturge, arcanist, and astrologian.",
             "description_fr": "Atteindre le niveau 60 avec les classes ou jobs élémentaliste, occultiste, arcaniste et astromancien.",
+            "points": 20,
             "reward": "t.240",
             "patch": "3.0",
-            "points": 20,
             "cPrevAt": {
                 "60": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6"]
             },
-            "cSiblings": ["t.240"],
-            "cCombo": ["a.1190"]
+            "cCombo": ["a.1190"],
+            "cSiblings": ["t.240"]
         },
         "x1190": {
             "name_en": "A Life of Adventure II",
             "name_fr": "Virtuose du corps et de l'esprit",
             "description_en": "Obtain the achievements “Mastering War II” and “Mastering Magic II.”",
             "description_fr": "Accomplir les hauts faits “Virtuose de la guerre” et “Virtuose de la magie”.",
+            "points": 30,
             "reward_en": "Warlord's Crown",
             "reward_fr": "Couronne de seigneur de guerre",
             "patch": "3.0",
-            "points": 30,
             "cPrev": ["a.56", "a.1188", "a.1189"],
             "cCombo": ["a.1834"]
         },
@@ -88,38 +88,38 @@
             "name_fr": "Prodige de la guerre",
             "description_en": "Achieve level 70 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, and samurai.",
             "description_fr": "Atteindre le niveau 70 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste et samouraï.",
+            "points": 20,
             "reward": "t.375",
             "patch": "4.0",
-            "points": 20,
             "cPrevAt": {
                 "70": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10"]
             },
-            "cSiblings": ["t.375"],
-            "cCombo": ["a.1834"]
+            "cCombo": ["a.1834"],
+            "cSiblings": ["t.375"]
         },
         "x1833": {
             "name_en": "Mastering Magic III",
             "name_fr": "Prodige de la magie",
             "description_en": "Achieve level 70 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
             "description_fr": "Atteindre le niveau 70 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien et mage rouge.",
+            "points": 20,
             "reward": "t.376",
             "patch": "4.0",
-            "points": 20,
             "cPrevAt": {
                 "70": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16"]
             },
-            "cSiblings": ["t.376"],
-            "cCombo": ["a.1834"]
+            "cCombo": ["a.1834"],
+            "cSiblings": ["t.376"]
         },
         "x1834": {
             "name_en": "A Life of Adventure III",
             "name_fr": "Prodige du corps et de l'esprit",
             "description_en": "Obtain the achievements “Mastering War III” and “Mastering Magic III.”",
             "description_fr": "Accomplir les hauts faits “Prodige de la guerre” et “Prodige de la magie”.",
+            "points": 30,
             "reward_en": "Dynasty Crown",
             "reward_fr": "Couronne de dynastie",
             "patch": "4.0",
-            "points": 30,
             "cPrev": ["a.1190", "a.1832", "a.1833"],
             "cCombo": ["a.2277"]
         },
@@ -128,37 +128,37 @@
             "name_fr": "Icône de la guerre",
             "description_en": "Achieve level 80 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, and dancer.",
             "description_fr": "Atteindre le niveau 80 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur et danseur.",
+            "points": 20,
             "reward": "t.422",
             "patch": "5.0",
-            "points": 20,
             "cPrevAt": {
                 "80": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10", "cj.3", "cj.13"]
             },
-            "cSiblings": ["t.422"],
-            "cCombo": ["a.2277"]
+            "cCombo": ["a.2277"],
+            "cSiblings": ["t.422"]
         },
         "x2276": {
             "name_en": "Mastering Magic IV",
             "name_fr": "Icône de la magie",
             "description_en": "Achieve level 80 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
             "description_fr": "Atteindre le niveau 80 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien et mage rouge.",
+            "points": 20,
             "reward": "t.423",
             "patch": "5.0",
-            "points": 20,
             "cPrevAt": {
                 "80": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16"]
             },
-            "cSiblings": ["t.423"],
-            "cCombo": ["a.2277"]
+            "cCombo": ["a.2277"],
+            "cSiblings": ["t.423"]
         },
         "x2277": {
             "name_en": "A Life of Adventure IV",
             "name_fr": "Icône du corps et de l'esprit",
             "description_en": "Obtain the achievements “Mastering War IV” and “Mastering Magic IV.”",
             "description_fr": "Accomplir les hauts faits “Icône de la guerre” et “Icône de la magie”.",
+            "points": 30,
             "reward": "mo.187",
             "patch": "5.0",
-            "points": 30,
             "cPrev": ["a.1834", "a.2275", "a.2276"],
             "cCombo": ["a.2925"]
         },
@@ -167,86 +167,87 @@
             "name_fr": "Légende de la guerre",
             "description_en": "Achieve level 90 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, and reaper.",
             "description_fr": "Atteindre le niveau 90 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur, danseur et faucheur.",
+            "points": 20,
             "reward": "t.593",
             "patch": "6.0",
-            "points": 20,
             "cPrevAt": {
                 "90": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10", "cj.3", "cj.13", "cj.30"]
             },
-            "cSiblings": ["t.593"],
-            "cCombo": ["a.2925"]
+            "cCombo": ["a.2925"],
+            "cSiblings": ["t.593"]
         },
         "x2924": {
             "name_en": "Mastering Magic V",
             "name_fr": "Légende de la magie",
             "description_en": "Achieve level 90 as a conjurer, thaumaturge, arcanist, astrologian, red mage, and sage.",
             "description_fr": "Atteindre le niveau 90 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien, mage rouge et sage.",
+            "points": 20,
             "reward": "t.594",
             "patch": "6.0",
-            "points": 20,
             "cPrevAt": {
                 "90": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16", "cj.29"]
             },
-            "cSiblings": ["t.594"],
-            "cCombo": ["a.2925"]
+            "cCombo": ["a.2925"],
+            "cSiblings": ["t.594"]
         },
         "x2925": {
             "name_en": "A Life of Adventure V",
             "name_fr": "Légende du corps et de l'esprit",
             "description_en": "Obtain the achievements “Mastering War V” and “Mastering Magic V.”",
             "description_fr": "Accomplir les hauts faits “Légende de la guerre” et “Légende de la magie”.",
+            "points": 30,
             "reward_en": "Migratory Plume",
             "reward_fr": "Plumage des migrateurs",
             "patch": "6.0",
-            "points": 30,
-            "cPrev": ["a.2277", "a.2923", "a.2924"]
+            "cPrev": ["a.2277", "a.2923", "a.2924"],
+            "cCombo": ["a.3464"]
         },
         "x3462": {
-            "cCombo": ["a.3464"],
+            "name_en": "Mastering War VI",
+            "name_fr": "Mythe de la guerre",
+            "description_en": "Achieve level 100 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, reaper, and viper.",
+            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur, danseur, faucheur et rôdeur vipère.",
+            "points": 20,
+            "reward": "t.725",
+            "patch": "7.0",
             "cPrevAt": {
                 "100": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10", "cj.3", "cj.13", "cj.30", "cj.31"]
             },
-            "cSiblings": ["t.725"],
-            "description_en": "Achieve level 100 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, reaper, and viper.",
-            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur, danseur, faucheur et rôdeur vipère.",
-            "name_en": "Mastering War VI",
-            "name_fr": "Mythe de la guerre",
-            "patch": "7.0",
-            "points": 20,
-            "reward": "t.725"
+            "cCombo": ["a.3464"],
+            "cSiblings": ["t.725"]
         },
         "x3463": {
-            "cCombo": ["a.3464"],
+            "name_en": "Mastering Magic VI",
+            "name_fr": "Mythe de la magie",
+            "description_en": "Achieve level 100 as a conjurer, thaumaturge, arcanist, astrologian, red mage, sage, and pictomancer.",
+            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien, mage rouge, sage et pictomancien.",
+            "points": 20,
+            "reward": "t.726",
+            "patch": "7.0",
             "cPrevAt": {
                 "100": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16", "cj.29", "cj.32"]
             },
-            "cSiblings": ["t.726"],
-            "description_en": "Achieve level 100 as a conjurer, thaumaturge, arcanist, astrologian, red mage, sage, and pictomancer.",
-            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien, mage rouge, sage et pictomancien.",
-            "name_en": "Mastering Magic VI",
-            "name_fr": "Mythe de la magie",
-            "patch": "7.0",
-            "points": 20,
-            "reward": "t.726"
+            "cCombo": ["a.3464"],
+            "cSiblings": ["t.726"]
         },
         "x3464": {
-            "cPrev": ["a.2925", "a.3462", "a.3463"],
-            "description_en": "Obtain the achievements “Mastering War VI” and “Mastering Magic VI.”",
-            "description_fr": "Accomplir les hauts faits “Mythe de la guerre” et “Mythe de la magie”.",
             "name_en": "A Life of Adventure VI",
             "name_fr": "Mythe du corps et de l'esprit",
-            "patch": "7.0",
+            "description_en": "Obtain the achievements “Mastering War VI” and “Mastering Magic VI.”",
+            "description_fr": "Accomplir les hauts faits “Mythe de la guerre” et “Mythe de la magie”.",
             "points": 30,
-            "reward": "mo.347"
+            "reward": "mo.347",
+            "patch": "7.0",
+            "cPrev": ["a.2925", "a.3462", "a.3463"]
         },
         "x97": {
             "name_en": "Mastering the Hand I",
             "name_fr": "Maître de la main",
             "description_en": "Achieve level 50 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
             "description_fr": "Atteindre le niveau 50 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
             "reward": "t.15",
             "patch": "2.0",
-            "points": 20,
             "cPrevAt": {
                 "50": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
@@ -257,9 +258,9 @@
             "name_fr": "Maître de la terre",
             "description_en": "Achieve level 50 as a miner, botanist, and fisher.",
             "description_fr": "Atteindre le niveau 50 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
             "reward": "t.16",
             "patch": "2.0",
-            "points": 20,
             "cPrevAt": {
                 "50": ["cj.26", "cj.27", "cj.28"]
             },
@@ -270,9 +271,9 @@
             "name_fr": "Virtuose de la main",
             "description_en": "Achieve level 60 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
             "description_fr": "Atteindre le niveau 60 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
             "reward": "t.248",
             "patch": "3.0",
-            "points": 20,
             "cPrevAt": {
                 "60": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
@@ -283,9 +284,9 @@
             "name_fr": "Virtuose de la terre",
             "description_en": "Achieve level 60 as a miner, botanist, and fisher.",
             "description_fr": "Atteindre le niveau 60 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
             "reward": "t.249",
             "patch": "3.0",
-            "points": 20,
             "cPrevAt": {
                 "60": ["cj.26", "cj.27", "cj.28"]
             },
@@ -296,9 +297,9 @@
             "name_fr": "Prodige de la main",
             "description_en": "Achieve level 70 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
             "description_fr": "Atteindre le niveau 70 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
             "reward": "t.377",
             "patch": "4.0",
-            "points": 20,
             "cPrevAt": {
                 "70": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
@@ -309,9 +310,9 @@
             "name_fr": "Prodige de la terre",
             "description_en": "Achieve level 70 as a miner, botanist, and fisher.",
             "description_fr": "Atteindre le niveau 70 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
             "reward": "t.378",
             "patch": "4.0",
-            "points": 20,
             "cPrevAt": {
                 "70": ["cj.26", "cj.27", "cj.28"]
             },
@@ -322,9 +323,9 @@
             "name_fr": "Icône de la main",
             "description_en": "Achieve level 80 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
             "description_fr": "Atteindre le niveau 80 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
             "reward": "t.424",
             "patch": "5.0",
-            "points": 20,
             "cPrevAt": {
                 "80": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
@@ -335,9 +336,9 @@
             "name_fr": "Icône de la terre",
             "description_en": "Achieve level 80 as a miner, botanist, and fisher.",
             "description_fr": "Atteindre le niveau 80 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
             "reward": "t.425",
             "patch": "5.0",
-            "points": 20,
             "cPrevAt": {
                 "80": ["cj.26", "cj.27", "cj.28"]
             },
@@ -348,9 +349,9 @@
             "name_fr": "Légende de la main",
             "description_en": "Achieve level 90 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
             "description_fr": "Atteindre le niveau 90 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
             "reward": "t.595",
             "patch": "6.0",
-            "points": 20,
             "cPrevAt": {
                 "90": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
@@ -361,47 +362,47 @@
             "name_fr": "Légende de la terre",
             "description_en": "Achieve level 90 as a miner, botanist, and fisher.",
             "description_fr": "Atteindre le niveau 90 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
             "reward": "t.596",
             "patch": "6.0",
-            "points": 20,
             "cPrevAt": {
                 "90": ["cj.26", "cj.27", "cj.28"]
             },
             "cSiblings": ["t.596"]
         },
         "x3465": {
+            "name_en": "Mastering the Hand VI",
+            "name_fr": "Mythe de la main",
+            "description_en": "Achieve level 100 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+            "description_fr": "Atteindre le niveau 100 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "points": 20,
+            "reward": "t.727",
+            "patch": "7.0",
             "cPrevAt": {
                 "100": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
             },
-            "cSiblings": ["t.727"],
-            "description_en": "Achieve level 100 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-            "description_fr": "Atteindre le niveau 100 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
-            "name_en": "Mastering the Hand VI",
-            "name_fr": "Mythe de la main",
-            "patch": "7.0",
-            "points": 20,
-            "reward": "t.727"
+            "cSiblings": ["t.727"]
         },
         "x3466": {
+            "name_en": "Mastering the Land VI",
+            "name_fr": "Mythe de la terre",
+            "description_en": "Achieve level 100 as a miner, botanist, and fisher.",
+            "description_fr": "Atteindre le niveau 100 avec les classes mineur, botaniste et pêcheur.",
+            "points": 20,
+            "reward": "t.728",
+            "patch": "7.0",
             "cPrevAt": {
                 "100": ["cj.26", "cj.27", "cj.28"]
             },
-            "cSiblings": ["t.728"],
-            "description_en": "Achieve level 100 as a miner, botanist, and fisher.",
-            "description_fr": "Atteindre le niveau 100 avec les classes mineur, botaniste et pêcheur.",
-            "name_en": "Mastering the Land VI",
-            "name_fr": "Mythe de la terre",
-            "patch": "7.0",
-            "points": 20,
-            "reward": "t.728"
+            "cSiblings": ["t.728"]
         },
         "x912": {
             "name_en": "Can't Someone Else Do It I",
             "name_fr": "Le gras et la tâche I",
             "description_en": "Complete 5 retainer ventures.",
             "description_fr": "Envoyer son servant accomplir une tâche à 5 reprises.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cNext": ["a.913"]
         },
         "x913": {
@@ -409,8 +410,8 @@
             "name_fr": "Le gras et la tâche II",
             "description_en": "Complete 50 retainer ventures.",
             "description_fr": "Envoyer son servant accomplir une tâche à 50 reprises.",
-            "patch": "2.2",
             "points": 5,
+            "patch": "2.2",
             "cPrev": ["a.912"],
             "cNext": ["a.914"]
         },
@@ -419,8 +420,8 @@
             "name_fr": "Le gras et la tâche III",
             "description_en": "Complete 100 retainer ventures.",
             "description_fr": "Envoyer son servant accomplir une tâche à 100 reprises.",
-            "patch": "2.2",
             "points": 10,
+            "patch": "2.2",
             "cPrev": ["a.913"],
             "cNext": ["a.915"]
         },
@@ -429,8 +430,8 @@
             "name_fr": "Pauvre, pauvre tâche",
             "description_en": "Complete 500 retainer ventures.",
             "description_fr": "Envoyer son servant accomplir une tâche à 500 reprises.",
-            "patch": "2.2",
             "points": 20,
+            "patch": "2.2",
             "cPrev": ["a.914"]
         },
         "x1020": {
@@ -438,17 +439,17 @@
             "name_fr": "Meilleur ami des chocobos",
             "description_en": "Train another player's chocobo companion 30 times.",
             "description_fr": "Entraîner les chocobos d'autres joueurs 30 fois.",
+            "points": 5,
             "reward": "b.26",
-            "patch": "2.3",
-            "points": 5
+            "patch": "2.3"
         },
         "x1157": {
             "name_en": "Freebird: Coerthas Western Highlands",
             "name_fr": "Aux quatre vents : Hautes terres du Coerthas occidental",
             "description_en": "Attune with all the aether currents in the Coerthas western highlands.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Hautes terres du Coerthas occidental.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.coerthas-western-highlands.all"],
             "cCombo": ["a.1163"]
         },
@@ -457,8 +458,8 @@
             "name_fr": "Aux quatre vents : Avant-pays dravanien",
             "description_en": "Attune with all the aether currents in the Dravanian forelands.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de l'Avant-pays dravanien.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.the-dravanian-forelands.all"],
             "cCombo": ["a.1163"]
         },
@@ -467,8 +468,8 @@
             "name_fr": "Aux quatre vents : Arrière-pays dravanien",
             "description_en": "Attune with all the aether currents in the Dravanian hinterlands.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de l'Arrière-pays dravanien.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.the-dravanian-hinterlands.all"],
             "cCombo": ["a.1163"]
         },
@@ -477,8 +478,8 @@
             "name_fr": "Aux quatre vents : L'Écume des cieux de Dravania",
             "description_en": "Attune with all the aether currents in the Churning Mists.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de L'Écume des cieux de Dravania.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.the-churning-mists.all"],
             "cCombo": ["a.1163"]
         },
@@ -487,8 +488,8 @@
             "name_fr": "Aux quatre vents : L'Écume des cieux d'Abalathia",
             "description_en": "Attune with all the aether currents in the Sea of Clouds.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de L'Écume des cieux d'Abalathia.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.the-sea-of-clouds.all"],
             "cCombo": ["a.1163"]
         },
@@ -497,8 +498,8 @@
             "name_fr": "Aux quatre vents : Azys Lla",
             "description_en": "Attune with all the aether currents on Azys Lla.",
             "description_fr": "S'harmoniser avec tous les vents éthérés d'Azys Lla.",
-            "patch": "3.0",
             "points": 5,
+            "patch": "3.0",
             "cPrev": ["travel.aether-currents.hw.azys-lla.all"],
             "cCombo": ["a.1163"]
         },
@@ -507,8 +508,8 @@
             "name_fr": "Navigateur des cieux du nord",
             "description_en": "Obtain “Freebird” achievements for the Coerthas western highlands, the Dravanian forelands, the Dravanian hinterlands, the Churning Mists, the Sea of Clouds, and Azys Lla.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Hautes terres du Coerthas occidental, de l'Avant-pays dravanien, de l'Arrière-pays dravanien, de L'Écume des cieux de Dravania, de L'Écume des cieux d'Abalathia et d'Azys Lla.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.1157", "a.1158", "a.1159", "a.1160", "a.1161", "a.1162"]
         },
         "x1870": {
@@ -516,8 +517,8 @@
             "name_fr": "Aux quatre vents : Les Marges",
             "description_en": "Attune with all the aether currents in the Fringes.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Marges.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.the-fringes.all"],
             "cCombo": ["a.1876"]
         },
@@ -526,8 +527,8 @@
             "name_fr": "Aux quatre vents : Les Pics",
             "description_en": "Attune with all the aether currents in the Peaks.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Pics.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.the-peaks.all"],
             "cCombo": ["a.1876"]
         },
@@ -536,8 +537,8 @@
             "name_fr": "Aux quatre vents : Les Lacs",
             "description_en": "Attune with all the aether currents in the Lochs.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Lacs.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.the-lochs.all"],
             "cCombo": ["a.1876"]
         },
@@ -546,8 +547,8 @@
             "name_fr": "Aux quatre vents : Mer de Rubis",
             "description_en": "Attune with all the aether currents in the Ruby Sea.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de la Mer de Rubis.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.the-ruby-sea.all"],
             "cCombo": ["a.1876"]
         },
@@ -556,8 +557,8 @@
             "name_fr": "Aux quatre vents : Yanxia",
             "description_en": "Attune with all the aether currents in Yanxia.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Yanxia.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.yanxia.all"],
             "cCombo": ["a.1876"]
         },
@@ -566,8 +567,8 @@
             "name_fr": "Aux quatre vents : Steppe d'Azim",
             "description_en": "Attune with all the aether currents in the Azim Steppe.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de la Steppe d'Azim.",
-            "patch": "4.0",
             "points": 5,
+            "patch": "4.0",
             "cPrev": ["travel.aether-currents.sb.the-azim-steppe.all"],
             "cCombo": ["a.1876"]
         },
@@ -576,8 +577,8 @@
             "name_fr": "Navigateur des cieux de l'est",
             "description_en": "Obtain “Freebird” achievements for the Fringes, the Peaks, the Lochs, the Ruby Sea, Yanxia, and the Azim Steppe.",
             "description_fr": "S'harmoniser avec tous les vents éthérés des Marges, des Pics, des Lacs, de la Mer de Rubis, de Yanxia et de la Steppe d'Azim.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1870", "a.1871", "a.1872", "a.1873", "a.1874", "a.1875"]
         },
         "x2329": {
@@ -585,8 +586,8 @@
             "name_fr": "Aux quatre vents : Grand-Lac",
             "description_en": "Attune with all the aether currents in Lakeland.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Grand-Lac.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.lakeland.all"],
             "cCombo": ["a.2335"]
         },
@@ -595,8 +596,8 @@
             "name_fr": "Aux quatre vents : Kholusia",
             "description_en": "Attune with all the aether currents in Kholusia.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Kholusia",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.kholusia.all"],
             "cCombo": ["a.2335"]
         },
@@ -605,8 +606,8 @@
             "name_fr": "Aux quatre vents : Amh Araeng",
             "description_en": "Attune with all the aether currents in Amh Araeng.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de l'Amh Araeng.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.amh-araeng.all"],
             "cCombo": ["a.2335"]
         },
@@ -615,8 +616,8 @@
             "name_fr": "Aux quatre vents : Il Mheg",
             "description_en": "Attune with all the aether currents in Il Mheg.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de l'Il Mheg.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.il-mheg.all"],
             "cCombo": ["a.2335"]
         },
@@ -625,8 +626,8 @@
             "name_fr": "Aux quatre vents : Rak'tika",
             "description_en": "Attune with all the aether currents in the Rak'tika Greatwood.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Rak'tika.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.the-raktika-greatwood.all"],
             "cCombo": ["a.2335"]
         },
@@ -635,8 +636,8 @@
             "name_fr": "Aux quatre vents : La Tempête",
             "description_en": "Attune with all the aether currents in the Tempest.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de La Tempête.",
-            "patch": "5.0",
             "points": 5,
+            "patch": "5.0",
             "cPrev": ["travel.aether-currents.shb.the-tempest.all"],
             "cCombo": ["a.2335"]
         },
@@ -645,8 +646,8 @@
             "name_fr": "Navigateur des cieux ténébreux",
             "description_en": "Obtain “Freebird” achievements for Lakeland, Kholusia, Amh Araeng, Il Mheg, the Rak'tika Greatwood, and the Tempest.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Grand-Lac, de Kholusia, de l'Amh Araeng, de l'Il Mheg, de Rak'tika et de La Tempête.",
-            "patch": "5.0",
             "points": 10,
+            "patch": "5.0",
             "cPrev": ["a.2329", "a.2330", "a.2331", "a.2332", "a.2333", "a.2334"]
         },
         "x3003": {
@@ -654,8 +655,8 @@
             "name_fr": "Aux quatre vents : Le Labyrinthos",
             "description_en": "Attune with all the aether currents in Labyrinthos.",
             "description_fr": "S'harmoniser avec tous les vents éthérés du Labyrinthos.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.labyrinthos.all"],
             "cCombo": ["a.3009"]
         },
@@ -664,8 +665,8 @@
             "name_fr": "Aux quatre vents : Thavnair",
             "description_en": "Attune with all the aether currents in Thavnair.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Thavnair.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.thavnair.all"],
             "cCombo": ["a.3009"]
         },
@@ -674,8 +675,8 @@
             "name_fr": "Aux quatre vents : Garlemald",
             "description_en": "Attune with all the aether currents in Garlemald.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Garlemald.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.garlemald.all"],
             "cCombo": ["a.3009"]
         },
@@ -684,8 +685,8 @@
             "name_fr": "Aux quatre vents : Mare Lamentorum",
             "description_en": "Attune with all the aether currents in Mare Lamentorum.",
             "description_fr": "S'harmoniser avec tous les vents éthérés de Mare Lamentorum.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.mare-lamentorum.all"],
             "cCombo": ["a.3009"]
         },
@@ -694,8 +695,8 @@
             "name_fr": "Aux quatre vents : Elpis",
             "description_en": "Attune with all the aether currents in Elpis.",
             "description_fr": "S'harmoniser avec tous les vents éthérés d'Elpis.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.elpis.all"],
             "cCombo": ["a.3009"]
         },
@@ -704,8 +705,8 @@
             "name_fr": "Aux quatre vents : Ultima Thulé",
             "description_en": "Attune with all the aether currents in Ultima Thule.",
             "description_fr": "S'harmoniser avec tous les vents éthérés d'Ultima Thulé.",
-            "patch": "6.0",
             "points": 5,
+            "patch": "6.0",
             "cPrev": ["travel.aether-currents.ew.ultima-thule.all"],
             "cCombo": ["a.3009"]
         },
@@ -714,80 +715,80 @@
             "name_fr": "Navigateur des cieux infinis",
             "description_en": "Obtain “Freebird” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
             "description_fr": "S'harmoniser avec tous les vents éthérés du Labyrinthos, de Thavnair, de Garlemald, de Mare Lamentorum, d'Elpis et d'Ultima Thulé.",
-            "patch": "6.0",
             "points": 10,
+            "patch": "6.0",
             "cPrev": ["a.3003", "a.3004", "a.3005", "a.3006", "a.3007", "a.3008"]
         },
         "x3540": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Urqopacha.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha.",
             "name_en": "Freebird: Urqopacha",
             "name_fr": "Aux quatre vents : Urqopacha",
+            "description_en": "Attune with all the aether currents in Urqopacha.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3541": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Kozama'uka.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés de Kozama'uka.",
             "name_en": "Freebird: Kozama'uka",
             "name_fr": "Aux quatre vents : Kozama'uka",
+            "description_en": "Attune with all the aether currents in Kozama'uka.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Kozama'uka.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3542": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Yak T'el.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés de Yak T'el.",
             "name_en": "Freebird: Yak T'el",
             "name_fr": "Aux quatre vents : Yak T'el",
+            "description_en": "Attune with all the aether currents in Yak T'el.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Yak T'el.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3543": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Shaaloani.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés de Shaaloani.",
             "name_en": "Freebird: Shaaloani",
             "name_fr": "Aux quatre vents : Shaaloani",
+            "description_en": "Attune with all the aether currents in Shaaloani.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Shaaloani.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3544": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Heritage Found.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés de L'Hoirie recouvrée.",
             "name_en": "Freebird: Heritage Found",
             "name_fr": "Aux quatre vents : L'Hoirie recouvrée",
+            "description_en": "Attune with all the aether currents in Heritage Found.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de L'Hoirie recouvrée.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3545": {
-            "cCombo": ["a.3546"],
-            "description_en": "Attune with all the aether currents in Living Memory.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés de La Mémoire vivante.",
             "name_en": "Freebird: Living Memory",
             "name_fr": "Aux quatre vents : La Mémoire vivante",
+            "description_en": "Attune with all the aether currents in Living Memory.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de La Mémoire vivante.",
+            "points": 5,
             "patch": "7.0",
-            "points": 5
+            "cCombo": ["a.3546"]
         },
         "x3546": {
-            "cPrev": ["a.3540", "a.3541", "a.3542", "a.3543", "a.3544", "a.3545"],
-            "description_en": "Obtain “Freebird” achievements for Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, and Living Memory.",
-            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha, de Kozama'uka, de Yak T'el, de Shaaloani, de l'Hoirie recouvrée, et de la Mémoire vivante.",
             "name_en": "Frequent Flyer V",
             "name_fr": "Navigateur des cieux de l'ouest",
+            "description_en": "Obtain “Freebird” achievements for Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, and Living Memory.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha, de Kozama'uka, de Yak T'el, de Shaaloani, de l'Hoirie recouvrée, et de la Mémoire vivante.",
+            "points": 10,
             "patch": "7.0",
-            "points": 10
+            "cPrev": ["a.3540", "a.3541", "a.3542", "a.3543", "a.3544", "a.3545"]
         },
         "x1472": {
             "name_en": "I Hope Mentor Will Notice Me I",
             "name_fr": "Mentor, mentor I",
             "description_en": "Complete 10 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 10 missions avec la “mission aléatoire : mentor”.",
-            "patch": "3.15",
             "points": 5,
+            "patch": "3.2",
             "cNext": ["a.1473"]
         },
         "x1473": {
@@ -795,9 +796,9 @@
             "name_fr": "Mentor, mentor II",
             "description_en": "Complete 50 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 50 missions avec la “mission aléatoire : mentor”.",
-            "reward": "t.286",
-            "patch": "3.15",
             "points": 5,
+            "reward": "t.286",
+            "patch": "3.2",
             "cPrev": ["a.1472"],
             "cNext": ["a.1474"],
             "cSiblings": ["t.286"]
@@ -807,10 +808,10 @@
             "name_fr": "Mentor, mentor III",
             "description_en": "Complete 200 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 200 missions avec la “mission aléatoire : mentor”.",
+            "points": 5,
             "reward_en": "Expeditioner's Flyers",
             "reward_fr": "Casquette à lunettes d'expédition",
-            "patch": "3.15",
-            "points": 5,
+            "patch": "3.2",
             "cPrev": ["a.1473"],
             "cNext": ["a.1475"]
         },
@@ -819,9 +820,9 @@
             "name_fr": "Mentor, mentor IV",
             "description_en": "Complete 500 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 500 missions avec la “mission aléatoire : mentor”.",
-            "reward": "t.287",
-            "patch": "3.15",
             "points": 5,
+            "reward": "t.287",
+            "patch": "3.2",
             "cPrev": ["a.1474"],
             "cNext": ["a.1603"],
             "cSiblings": ["t.287"]
@@ -831,10 +832,10 @@
             "name_fr": "Mentor, mentor V",
             "description_en": "Complete 1,000 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 1 000 missions avec la “mission aléatoire : mentor”.",
+            "points": 10,
             "reward_en": "Dragon Monocle",
             "reward_fr": "Monocle dragon",
             "patch": "3.3",
-            "points": 10,
             "cPrev": ["a.1475"],
             "cNext": ["a.1604"]
         },
@@ -843,9 +844,9 @@
             "name_fr": "Mentor, mentor VI",
             "description_en": "Complete 2,000 duties via Duty Roulette: Mentor.",
             "description_fr": "Réussir 2 000 missions avec la “mission aléatoire : mentor”.",
+            "points": 20,
             "reward": "mo.83",
             "patch": "3.3",
-            "points": 20,
             "cPrev": ["a.1603"]
         },
         "x1648": {
@@ -853,8 +854,8 @@
             "name_fr": "Aventurier imaginaire I",
             "description_en": "Successfully complete a series of Wondrous Tails.",
             "description_fr": "Obtenir 1 récompense des Aventures imaginaires de Khloe.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cNext": ["a.1649"]
         },
         "x1649": {
@@ -862,9 +863,9 @@
             "name_fr": "Aventurier imaginaire II",
             "description_en": "Successfully complete 5 series of Wondrous Tails.",
             "description_fr": "Obtenir 5 récompenses des Aventures imaginaires de Khloe.",
+            "points": 5,
             "reward": "t.317",
             "patch": "3.4",
-            "points": 5,
             "cPrev": ["a.1648"],
             "cNext": ["a.1650"],
             "cSiblings": ["t.317"]
@@ -874,8 +875,8 @@
             "name_fr": "Aventurier imaginaire III",
             "description_en": "Successfully complete 10 series of Wondrous Tails.",
             "description_fr": "Obtenir 10 récompenses des Aventures imaginaires de Khloe.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1649"],
             "cNext": ["a.1651"]
         },
@@ -884,8 +885,8 @@
             "name_fr": "Aventurier imaginaire IV",
             "description_en": "Successfully complete 20 series of Wondrous Tails.",
             "description_fr": "Obtenir 20 récompenses des Aventures imaginaires de Khloe.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1650"],
             "cNext": ["a.1652"]
         },
@@ -894,8 +895,8 @@
             "name_fr": "Aventurier imaginaire V",
             "description_en": "Successfully complete 30 series of Wondrous Tails.",
             "description_fr": "Obtenir 30 récompenses des Aventures imaginaires de Khloe.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1651"],
             "cNext": ["a.1653"]
         },
@@ -904,8 +905,8 @@
             "name_fr": "Aventurier imaginaire VI",
             "description_en": "Successfully complete 40 series of Wondrous Tails.",
             "description_fr": "Obtenir 40 récompenses des Aventures imaginaires de Khloe.",
-            "patch": "3.4",
             "points": 5,
+            "patch": "3.4",
             "cPrev": ["a.1652"],
             "cNext": ["a.1654"]
         },
@@ -914,9 +915,9 @@
             "name_fr": "Aventurier imaginaire VII",
             "description_en": "Successfully complete 50 series of Wondrous Tails.",
             "description_fr": "Obtenir 50 récompenses des Aventures imaginaires de Khloe.",
+            "points": 10,
             "reward": "t.318",
             "patch": "3.4",
-            "points": 10,
             "cPrev": ["a.1653"],
             "cSiblings": ["t.318"]
         },
@@ -925,8 +926,8 @@
             "name_fr": "Renard sacripant I",
             "description_en": "Play Faux Hollows for the first time.",
             "description_fr": "Jouer pour la première fois à Touché-tourné.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cNext": ["a.2635"]
         },
         "x2635": {
@@ -934,9 +935,9 @@
             "name_fr": "Renard sacripant II",
             "description_en": "Play Faux Hollows 5 times.",
             "description_fr": "Jouer 5 fois à Touché-tourné.",
+            "points": 5,
             "reward": "t.524",
             "patch": "5.3",
-            "points": 5,
             "cPrev": ["a.2634"],
             "cNext": ["a.2636"],
             "cSiblings": ["t.524"]
@@ -946,8 +947,8 @@
             "name_fr": "Renard sacripant III",
             "description_en": "Play Faux Hollows 20 times.",
             "description_fr": "Jouer 20 fois à Touché-tourné.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2635"],
             "cNext": ["a.2637"]
         },
@@ -956,9 +957,9 @@
             "name_fr": "Renard sacripant IV",
             "description_en": "Play Faux Hollows 50 times.",
             "description_fr": "Jouer 50 fois à Touché-tourné.",
+            "points": 10,
             "reward": "t.525",
             "patch": "5.3",
-            "points": 10,
             "cPrev": ["a.2636"],
             "cSiblings": ["t.525"]
         },
@@ -967,8 +968,8 @@
             "name_fr": "Satisfait ou remboursé I",
             "description_en": "Achieve a satisfaction level of 1 with Zhloe Aliapoh.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cNext": ["a.1775"]
         },
         "x1775": {
@@ -976,8 +977,8 @@
             "name_fr": "Satisfait ou remboursé II",
             "description_en": "Achieve a satisfaction level of 2 with Zhloe Aliapoh.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1774"],
             "cNext": ["a.1776"]
         },
@@ -986,8 +987,8 @@
             "name_fr": "Satisfait ou remboursé III",
             "description_en": "Achieve a satisfaction level of 3 with Zhloe Aliapoh.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1775"],
             "cNext": ["a.1777"]
         },
@@ -996,8 +997,8 @@
             "name_fr": "Satisfait ou remboursé IV",
             "description_en": "Achieve a satisfaction level of 4 with Zhloe Aliapoh.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Zhloe Aliapoh.",
-            "patch": "3.55b",
             "points": 5,
+            "patch": "3.55",
             "cPrev": ["a.1776"],
             "cNext": ["a.1778"]
         },
@@ -1006,9 +1007,9 @@
             "name_fr": "Satisfait ou remboursé V",
             "description_en": "Achieve a satisfaction level of 5 with Zhloe Aliapoh.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès de Zhloe Aliapoh.",
-            "reward": "t.349",
-            "patch": "3.55b",
             "points": 10,
+            "reward": "t.349",
+            "patch": "3.55",
             "cPrev": ["a.1777"],
             "cSiblings": ["t.349"]
         },
@@ -1017,8 +1018,8 @@
             "name_fr": "Pension de guerre I",
             "description_en": "Achieve a satisfaction level of 1 with M'naago.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cNext": ["a.1970"]
         },
         "x1970": {
@@ -1026,8 +1027,8 @@
             "name_fr": "Pension de guerre II",
             "description_en": "Achieve a satisfaction level of 2 with M'naago.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1969"],
             "cNext": ["a.1971"]
         },
@@ -1036,8 +1037,8 @@
             "name_fr": "Pension de guerre III",
             "description_en": "Achieve a satisfaction level of 3 with M'naago.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1970"],
             "cNext": ["a.1972"]
         },
@@ -1046,8 +1047,8 @@
             "name_fr": "Pension de guerre IV",
             "description_en": "Achieve a satisfaction level of 4 with M'naago.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de M'naago.",
-            "patch": "4.1",
             "points": 5,
+            "patch": "4.1",
             "cPrev": ["a.1971"],
             "cNext": ["a.1973"]
         },
@@ -1056,9 +1057,9 @@
             "name_fr": "Pension de guerre V",
             "description_en": "Achieve a satisfaction level of 5 with M'naago.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès de M'naago.",
+            "points": 10,
             "reward": "t.118",
             "patch": "4.1",
-            "points": 10,
             "cPrev": ["a.1972"],
             "cSiblings": ["t.118"]
         },
@@ -1067,8 +1068,8 @@
             "name_fr": "Bulle économique I",
             "description_en": "Achieve a satisfaction level of 1 with Kurenai.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cNext": ["a.2068"]
         },
         "x2068": {
@@ -1076,8 +1077,8 @@
             "name_fr": "Bulle économique II",
             "description_en": "Achieve a satisfaction level of 2 with Kurenai.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2067"],
             "cNext": ["a.2069"]
         },
@@ -1086,8 +1087,8 @@
             "name_fr": "Bulle économique III",
             "description_en": "Achieve a satisfaction level of 3 with Kurenai.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2068"],
             "cNext": ["a.2070"]
         },
@@ -1096,8 +1097,8 @@
             "name_fr": "Bulle économique IV",
             "description_en": "Achieve a satisfaction level of 4 with Kurenai.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Kurenai.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cPrev": ["a.2069"],
             "cNext": ["a.2071"]
         },
@@ -1106,9 +1107,9 @@
             "name_fr": "Bulle économique V",
             "description_en": "Achieve a satisfaction level of 5 with Kurenai.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès de Kurenai.",
+            "points": 10,
             "reward": "t.390",
             "patch": "4.3",
-            "points": 10,
             "cPrev": ["a.2070"],
             "cSiblings": ["t.390"]
         },
@@ -1117,8 +1118,8 @@
             "name_fr": "Pilier de taverne I",
             "description_en": "Achieve a satisfaction level of 1 with Adkiragh.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cNext": ["a.2184"]
         },
         "x2184": {
@@ -1126,8 +1127,8 @@
             "name_fr": "Pilier de taverne II",
             "description_en": "Achieve a satisfaction level of 2 with Adkiragh.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2183"],
             "cNext": ["a.2185"]
         },
@@ -1136,8 +1137,8 @@
             "name_fr": "Pilier de taverne III",
             "description_en": "Achieve a satisfaction level of 3 with Adkiragh.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2184"],
             "cNext": ["a.2186"]
         },
@@ -1146,8 +1147,8 @@
             "name_fr": "Pilier de taverne IV",
             "description_en": "Achieve a satisfaction level of 4 with Adkiragh.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Adkiragh.",
-            "patch": "4.5",
             "points": 5,
+            "patch": "4.5",
             "cPrev": ["a.2185"],
             "cNext": ["a.2187"]
         },
@@ -1156,9 +1157,9 @@
             "name_fr": "Pilier de taverne V",
             "description_en": "Achieve a satisfaction level of 5 with Adkiragh.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès d'Adkiragh.",
+            "points": 10,
             "reward": "t.411",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.2186"],
             "cSiblings": ["t.411"]
         },
@@ -1167,8 +1168,8 @@
             "name_fr": "Nul miel sans fiel I",
             "description_en": "Achieve a satisfaction level of 1 with Kai-Shirr.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cNext": ["a.2426"]
         },
         "x2426": {
@@ -1176,8 +1177,8 @@
             "name_fr": "Nul miel sans fiel II",
             "description_en": "Achieve a satisfaction level of 2 with Kai-Shirr.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2425"],
             "cNext": ["a.2427"]
         },
@@ -1186,8 +1187,8 @@
             "name_fr": "Nul miel sans fiel III",
             "description_en": "Achieve a satisfaction level of 3 with Kai-Shirr.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2426"],
             "cNext": ["a.2428"]
         },
@@ -1196,8 +1197,8 @@
             "name_fr": "Nul miel sans fiel IV",
             "description_en": "Achieve a satisfaction level of 4 with Kai-Shirr.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Kai-Shirr.",
-            "patch": "5.1",
             "points": 5,
+            "patch": "5.1",
             "cPrev": ["a.2427"],
             "cNext": ["a.2429"]
         },
@@ -1206,9 +1207,9 @@
             "name_fr": "Nul miel sans fiel V",
             "description_en": "Achieve a satisfaction level of 5 with Kai-Shirr.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès de Kai-Shirr.",
+            "points": 10,
             "reward": "t.477",
             "patch": "5.1",
-            "points": 10,
             "cPrev": ["a.2428"],
             "cSiblings": ["t.477"]
         },
@@ -1217,8 +1218,8 @@
             "name_fr": "Chant artisanal I",
             "description_en": "Achieve a satisfaction level of 1 with Ehll Tou.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cNext": ["a.2624"]
         },
         "x2624": {
@@ -1226,8 +1227,8 @@
             "name_fr": "Chant artisanal II",
             "description_en": "Achieve a satisfaction level of 2 with Ehll Tou.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2623"],
             "cNext": ["a.2625"]
         },
@@ -1236,8 +1237,8 @@
             "name_fr": "Chant artisanal III",
             "description_en": "Achieve a satisfaction level of 3 with Ehll Tou.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2624"],
             "cNext": ["a.2626"]
         },
@@ -1246,8 +1247,8 @@
             "name_fr": "Chant artisanal IV",
             "description_en": "Achieve a satisfaction level of 4 with Ehll Tou.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Ehll Tou.",
-            "patch": "5.3",
             "points": 5,
+            "patch": "5.3",
             "cPrev": ["a.2625"],
             "cNext": ["a.2627"]
         },
@@ -1256,9 +1257,9 @@
             "name_fr": "Chant artisanal V",
             "description_en": "Achieve a satisfaction level of 5 with Ehll Tou.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès d'Ehll Tou.",
+            "points": 10,
             "reward": "t.522",
             "patch": "5.3",
-            "points": 10,
             "cPrev": ["a.2626"],
             "cSiblings": ["t.522"]
         },
@@ -1267,8 +1268,8 @@
             "name_fr": "Le comte est bon I",
             "description_en": "Achieve a satisfaction level of 1 with Charlemend.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès du comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cNext": ["a.2836"]
         },
         "x2836": {
@@ -1276,8 +1277,8 @@
             "name_fr": "Le comte est bon II",
             "description_en": "Achieve a satisfaction level of 2 with Charlemend.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès du comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2835"],
             "cNext": ["a.2837"]
         },
@@ -1286,8 +1287,8 @@
             "name_fr": "Le comte est bon III",
             "description_en": "Achieve a satisfaction level of 3 with Charlemend.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès du comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2836"],
             "cNext": ["a.2838"]
         },
@@ -1296,8 +1297,8 @@
             "name_fr": "Le comte est bon IV",
             "description_en": "Achieve a satisfaction level of 4 with Charlemend.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès du comte de Durendaire.",
-            "patch": "5.5",
             "points": 5,
+            "patch": "5.5",
             "cPrev": ["a.2837"],
             "cNext": ["a.2839"]
         },
@@ -1306,9 +1307,9 @@
             "name_fr": "Le comte est bon V",
             "description_en": "Achieve a satisfaction level of 5 with Charlemend.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès du comte de Durendaire.",
+            "points": 10,
             "reward": "t.581",
             "patch": "5.5",
-            "points": 10,
             "cPrev": ["a.2838"],
             "cSiblings": ["t.581"]
         },
@@ -1317,8 +1318,8 @@
             "name_fr": "Œuvre caritative I",
             "description_en": "Achieve a satisfaction level of 1 with Ameliance.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cNext": ["a.3060"]
         },
         "x3060": {
@@ -1326,8 +1327,8 @@
             "name_fr": "Œuvre caritative II",
             "description_en": "Achieve a satisfaction level of 2 with Ameliance.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3059"],
             "cNext": ["a.3061"]
         },
@@ -1336,8 +1337,8 @@
             "name_fr": "Œuvre caritative III",
             "description_en": "Achieve a satisfaction level of 3 with Ameliance.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3060"],
             "cNext": ["a.3062"]
         },
@@ -1346,8 +1347,8 @@
             "name_fr": "Œuvre caritative IV",
             "description_en": "Achieve a satisfaction level of 4 with Ameliance.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Ameliance.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.15",
             "cPrev": ["a.3061"],
             "cNext": ["a.3063"]
         },
@@ -1356,9 +1357,9 @@
             "name_fr": "Œuvre caritative V",
             "description_en": "Achieve a satisfaction level of 5 with Ameliance.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès d'Ameliance.",
-            "reward": "t.634",
-            "patch": "6.28",
             "points": 10,
+            "reward": "t.634",
+            "patch": "6.15",
             "cPrev": ["a.3062"],
             "cSiblings": ["t.634"]
         },
@@ -1367,8 +1368,8 @@
             "name_fr": "Il pleut, il pleut, berger I",
             "description_en": "Achieve a satisfaction level of 1 with Anden.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cNext": ["a.3164"]
         },
         "x3164": {
@@ -1376,8 +1377,8 @@
             "name_fr": "Il pleut, il pleut, berger II",
             "description_en": "Achieve a satisfaction level of 2 with Anden.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3163"],
             "cNext": ["a.3165"]
         },
@@ -1386,8 +1387,8 @@
             "name_fr": "Il pleut, il pleut, berger III",
             "description_en": "Achieve a satisfaction level of 3 with Anden.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3164"],
             "cNext": ["a.3166"]
         },
@@ -1396,8 +1397,8 @@
             "name_fr": "Il pleut, il pleut, berger IV",
             "description_en": "Achieve a satisfaction level of 4 with Anden.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Anden.",
-            "patch": "6.3",
             "points": 5,
+            "patch": "6.3",
             "cPrev": ["a.3165"],
             "cNext": ["a.3167"]
         },
@@ -1406,9 +1407,9 @@
             "name_fr": "Il pleut, il pleut, berger V",
             "description_en": "Achieve a satisfaction level of 5 with Anden.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès d'Anden.",
+            "points": 10,
             "reward": "t.659",
             "patch": "6.3",
-            "points": 10,
             "cPrev": ["a.3166"],
             "cSiblings": ["t.659"]
         },
@@ -1417,8 +1418,8 @@
             "name_fr": "Je sers la science et c'est ma joie I",
             "description_en": "Achieve a satisfaction level of 1 with Margrat.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cNext": ["a.3352"]
         },
         "x3352": {
@@ -1426,8 +1427,8 @@
             "name_fr": "Je sers la science et c'est ma joie II",
             "description_en": "Achieve a satisfaction level of 2 with Margrat.",
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3351"],
             "cNext": ["a.3353"]
         },
@@ -1436,8 +1437,8 @@
             "name_fr": "Je sers la science et c'est ma joie III",
             "description_en": "Achieve a satisfaction level of 3 with Margrat.",
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3352"],
             "cNext": ["a.3354"]
         },
@@ -1446,8 +1447,8 @@
             "name_fr": "Je sers la science et c'est ma joie IV",
             "description_en": "Achieve a satisfaction level of 4 with Margrat.",
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Margrat.",
-            "patch": "6.5",
             "points": 5,
+            "patch": "6.5",
             "cPrev": ["a.3353"],
             "cNext": ["a.3355"]
         },
@@ -1456,69 +1457,111 @@
             "name_fr": "Je sers la science et c'est ma joie V",
             "description_en": "Achieve a satisfaction level of 5 with Margrat.",
             "description_fr": "Atteindre le rang 5 de satisfaction auprès de Margrat.",
+            "points": 10,
             "reward": "t.699",
             "patch": "6.5",
-            "points": 10,
             "cPrev": ["a.3354"],
             "cSiblings": ["t.699"]
         },
         "x3592": {
-            "cNext": ["a.3593"],
-            "description_en": "Achieve a satisfaction level of 1 with Nitowikwe.",
-            "description_fr": "Atteindre le rang 1 de satisfaction auprès de Nitowikwe.",
             "name_en": "Satisfaction Guaranteed: Nitowikwe I",
             "name_fr": "Train-train quotidien I",
+            "description_en": "Achieve a satisfaction level of 1 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 1 de satisfaction auprès de Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cNext": ["a.3593"]
         },
         "x3593": {
-            "cPrev": ["a.3592"],
-            "cNext": ["a.3594"],
-            "description_en": "Achieve a satisfaction level of 2 with Nitowikwe.",
-            "description_fr": "Atteindre le rang 2 de satisfaction auprès de Nitowikwe.",
             "name_en": "Satisfaction Guaranteed: Nitowikwe II",
             "name_fr": "Train-train quotidien II",
+            "description_en": "Achieve a satisfaction level of 2 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 2 de satisfaction auprès de Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3592"],
+            "cNext": ["a.3594"]
         },
         "x3594": {
-            "cPrev": ["a.3593"],
-            "cNext": ["a.3595"],
-            "description_en": "Achieve a satisfaction level of 3 with Nitowikwe.",
-            "description_fr": "Atteindre le rang 3 de satisfaction auprès de Nitowikwe.",
             "name_en": "Satisfaction Guaranteed: Nitowikwe III",
             "name_fr": "Train-train quotidien III",
+            "description_en": "Achieve a satisfaction level of 3 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 3 de satisfaction auprès de Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3593"],
+            "cNext": ["a.3595"]
         },
         "x3595": {
-            "cPrev": ["a.3594"],
-            "cNext": ["a.3596"],
-            "description_en": "Achieve a satisfaction level of 4 with Nitowikwe.",
-            "description_fr": "Atteindre le rang 4 de satisfaction auprès de Nitowikwe.",
             "name_en": "Satisfaction Guaranteed: Nitowikwe IV",
             "name_fr": "Train-train quotidien IV",
+            "description_en": "Achieve a satisfaction level of 4 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 4 de satisfaction auprès de Nitowikwe.",
+            "points": 5,
             "patch": "7.15",
-            "points": 5
+            "cPrev": ["a.3594"],
+            "cNext": ["a.3596"]
         },
         "x3596": {
-            "cPrev": ["a.3595"],
-            "cSiblings": ["t.763"],
-            "description_en": "Achieve a satisfaction level of 5 with Nitowikwe.",
-            "description_fr": "Atteindre le rang 5 de satisfaction auprès de Nitowikwe.",
             "name_en": "Satisfaction Guaranteed: Nitowikwe V",
             "name_fr": "Train-train quotidien V",
-            "patch": "7.15",
+            "description_en": "Achieve a satisfaction level of 5 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 5 de satisfaction auprès de Nitowikwe.",
             "points": 10,
-            "reward": "t.763"
+            "reward": "t.763",
+            "patch": "7.15",
+            "cPrev": ["a.3595"],
+            "cSiblings": ["t.763"]
+        },
+        "x3986": {
+            "name_en": "Satisfaction Guaranteed: Aunt Tii's Tacos I",
+            "name_fr": "Aficionado du taco I",
+            "description_en": "Achieve a satisfaction level of 1 with Tiisol Ja.",
+            "description_fr": "Atteindre le rang 1 de satisfaction auprès de Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3987": {
+            "name_en": "Satisfaction Guaranteed: Aunt Tii's Tacos II",
+            "name_fr": "Aficionado du taco II",
+            "description_en": "Achieve a satisfaction level of 2 with Tiisol Ja.",
+            "description_fr": "Atteindre le rang 2 de satisfaction auprès de Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3988": {
+            "name_en": "Satisfaction Guaranteed: Aunt Tii's Tacos III",
+            "name_fr": "Aficionado du taco III",
+            "description_en": "Achieve a satisfaction level of 3 with Tiisol Ja.",
+            "description_fr": "Atteindre le rang 3 de satisfaction auprès de Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3989": {
+            "name_en": "Satisfaction Guaranteed: Aunt Tii's Tacos IV",
+            "name_fr": "Aficionado du taco IV",
+            "description_en": "Achieve a satisfaction level of 4 with Tiisol Ja.",
+            "description_fr": "Atteindre le rang 4 de satisfaction auprès de Tiisol Ja.",
+            "points": 5,
+            "patch": "7.51"
+        },
+        "x3990": {
+            "name_en": "Satisfaction Guaranteed: Aunt Tii's Tacos V",
+            "name_fr": "Aficionado du taco V",
+            "description_en": "Achieve a satisfaction level of 5 with Tiisol Ja.",
+            "description_fr": "Atteindre le rang 5 de satisfaction auprès de Tiisol Ja.",
+            "points": 10,
+            "reward": "t.865",
+            "patch": "7.51",
+            "cSiblings": ["t.865"]
         },
         "x2001": {
             "name_en": "You Look Marvelous I",
             "name_fr": "Classe mannequin I",
             "description_en": "Be awarded a total of 80 points in the Fashion Report.",
             "description_fr": "Obtenir une note supérieure à 80 à la Revue de mode.",
-            "patch": "4.2",
             "points": 5,
+            "patch": "4.2",
             "cNext": ["a.2002"]
         },
         "x2002": {
@@ -1526,8 +1569,8 @@
             "name_fr": "Classe mannequin II",
             "description_en": "Be awarded a total of 90 points in the Fashion Report.",
             "description_fr": "Obtenir une note supérieure à 90 à la Revue de mode.",
-            "patch": "4.2",
             "points": 5,
+            "patch": "4.2",
             "cPrev": ["a.2001"],
             "cNext": ["a.2003"]
         },
@@ -1536,9 +1579,9 @@
             "name_fr": "Classe mannequin III",
             "description_en": "Be awarded a total of 100 points in the Fashion Report.",
             "description_fr": "Obtenir une note de 100 à la Revue de mode.",
+            "points": 10,
             "reward": "t.141",
             "patch": "4.2",
-            "points": 10,
             "cPrev": ["a.2002"],
             "cSiblings": ["t.141"]
         },
@@ -1547,8 +1590,8 @@
             "name_fr": "Œuvres de charité I",
             "description_en": "See the Doman Enclave through the first phase of reconstruction.",
             "description_fr": "Aider à reconstruire la première partie du quartier enclavé de Doma.",
-            "patch": "4.3",
             "points": 5,
+            "patch": "4.3",
             "cNext": ["a.2081"]
         },
         "x2081": {
@@ -1556,8 +1599,8 @@
             "name_fr": "Œuvres de charité II",
             "description_en": "See the Doman Enclave through the second phase of reconstruction.",
             "description_fr": "Aider à reconstruire la deuxième partie du quartier enclavé de Doma.",
-            "patch": "4.3",
             "points": 10,
+            "patch": "4.3",
             "cPrev": ["a.2080"],
             "cNext": ["a.2129"]
         },
@@ -1566,8 +1609,8 @@
             "name_fr": "Œuvres de charité III",
             "description_en": "See the Doman Enclave through the third phase of reconstruction.",
             "description_fr": "Aider à reconstruire la troisième partie du quartier enclavé de Doma.",
-            "patch": "4.4",
             "points": 10,
+            "patch": "4.4",
             "cPrev": ["a.2081"],
             "cNext": ["a.2130"]
         },
@@ -1576,8 +1619,8 @@
             "name_fr": "Œuvres de charité IV",
             "description_en": "See the Doman Enclave through the fourth phase of reconstruction.",
             "description_fr": "Aider à reconstruire la quatrième partie du quartier enclavé de Doma.",
-            "patch": "4.4",
             "points": 10,
+            "patch": "4.4",
             "cPrev": ["a.2129"],
             "cNext": ["a.2131"]
         },
@@ -1586,9 +1629,9 @@
             "name_fr": "Œuvres de charité V",
             "description_en": "See the Doman Enclave through the fifth and final phase of reconstruction.",
             "description_fr": "Aider à reconstruire la dernière partie du quartier enclavé de Doma.",
+            "points": 20,
             "reward": "t.403",
             "patch": "4.4",
-            "points": 20,
             "cPrev": ["a.2130"],
             "cSiblings": ["q.68689", "t.403"]
         },
@@ -1597,9 +1640,9 @@
             "name_fr": "Des liens à toute épreuve",
             "description_en": "Achieve trust level 80 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, and Ryne.",
             "description_fr": "Faire atteindre le niveau 80 à Alphinaud, Alisaie, Thancred, Y'shtola, Urianger et Ryne dans le cadre du système d'adjuration.",
+            "points": 20,
             "reward": "t.458",
             "patch": "5.0",
-            "points": 20,
             "cPrevAt": {
                 "80": [
                     "duty.trust.shb.0",
@@ -1617,9 +1660,9 @@
             "name_fr": "Unis par l'espoir",
             "description_en": "Achieve trust level 90 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, G'raha Tia, and Estinien.",
             "description_fr": "Monter au niveau 90 les alter ego d'Alphinaud, d'Alisaie, de Thancred, d'Urianger, de Y'shtola, de G'raha Tia et d'Estinien.",
+            "points": 20,
             "reward": "t.612",
             "patch": "6.0",
-            "points": 20,
             "cPrevAt": {
                 "90": [
                     "duty.trust.ew.0",
@@ -1634,6 +1677,13 @@
             "cSiblings": ["t.612"]
         },
         "x3509": {
+            "name_en": "Bound by Amity",
+            "name_fr": "Pouvoir de l'amitié",
+            "description_en": "Achieve trust level 100 with all available avatars in Dawntrail.",
+            "description_fr": "Monter au niveau 100 les alter ego d'Alphinaud, d'Alisaie, de Thancred, d'Urianger, de Y'shtola, de G'raha Tia, d'Estinien et de Krile.",
+            "points": 20,
+            "reward": "t.742",
+            "patch": "7.0",
             "cPrevAt": {
                 "100": [
                     "duty.trust.dt.0",
@@ -1646,23 +1696,16 @@
                     "duty.trust.dt.7"
                 ]
             },
-            "cSiblings": ["t.742"],
-            "description_en": "Achieve trust level 100 with all available avatars in Dawntrail.",
-            "description_fr": "Monter au niveau 100 les alter ego d'Alphinaud, d'Alisaie, de Thancred, d'Urianger, de Y'shtola, de G'raha Tia, d'Estinien et de Krile.",
-            "name_en": "Bound by Amity",
-            "name_fr": "Pouvoir de l'amitié",
-            "patch": "7.0",
-            "points": 20,
-            "reward": "t.742"
+            "cSiblings": ["t.742"]
         },
         "x3089": {
             "name_en": "No Mammet Is an Island",
             "name_fr": "Pas d'île pas de vie",
             "description_en": "Achieve sanctuary rank 10 in your island sanctuary.",
             "description_fr": "Atteindre le rang 10 sur la Félicité insulaire.",
-            "reward": "t.645",
-            "patch": "6.28",
             "points": 10,
+            "reward": "t.645",
+            "patch": "6.2",
             "cNext": ["a.3186"],
             "cSiblings": ["t.645"]
         },
@@ -1671,8 +1714,8 @@
             "name_fr": "Paix et Félicité",
             "description_en": "Achieve sanctuary rank 12 in your island sanctuary.",
             "description_fr": "Atteindre le rang 12 sur la Félicité insulaire.",
-            "patch": "6.3",
             "points": 10,
+            "patch": "6.3",
             "cPrev": ["a.3089"],
             "cNext": ["a.3186"]
         },
@@ -1681,8 +1724,8 @@
             "name_fr": "Luxe, calme et Félicité",
             "description_en": "Achieve sanctuary rank 16 in your island sanctuary.",
             "description_fr": "Atteindre le rang 16 sur la Félicité insulaire.",
-            "patch": "6.4",
             "points": 10,
+            "patch": "6.4",
             "cPrev": ["a.3186"],
             "cNext": ["a.3399"]
         },
@@ -1691,9 +1734,9 @@
             "name_fr": "Félicité légendaire",
             "description_en": "Achieve sanctuary rank 20 in your island sanctuary.",
             "description_fr": "Atteindre le rang 20 sur la Félicité insulaire.",
+            "points": 10,
             "reward": "t.707",
             "patch": "6.5",
-            "points": 10,
             "cPrev": ["a.3254"],
             "cSiblings": ["t.707"]
         },
@@ -1702,8 +1745,8 @@
             "name_fr": "Maître de la collecte I",
             "description_en": "Gather resources from the wilds of your island sanctuary 1,000 times.",
             "description_fr": "Effectuer 1 000 collectes sur les landes de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.2",
             "cNext": ["a.3091"]
         },
         "x3091": {
@@ -1711,8 +1754,8 @@
             "name_fr": "Maître de la collecte II",
             "description_en": "Gather resources from the wilds of your island sanctuary 3,000 times.",
             "description_fr": "Effectuer 3 000 collectes sur les landes de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.2",
             "cPrev": ["a.3090"],
             "cNext": ["a.3092"]
         },
@@ -1721,8 +1764,8 @@
             "name_fr": "Maître de la collecte III",
             "description_en": "Gather resources from the wilds of your island sanctuary 30,000 times.",
             "description_fr": "Effectuer 30 000 collectes sur les landes de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 20,
+            "patch": "6.2",
             "cPrev": ["a.3091"]
         },
         "x3093": {
@@ -1730,8 +1773,8 @@
             "name_fr": "Éleveur né I",
             "description_en": "Gather leavings from animals in your island sanctuary pasture 100 times.",
             "description_fr": "Récupérer 100 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.2",
             "cNext": ["a.3094"]
         },
         "x3094": {
@@ -1739,8 +1782,8 @@
             "name_fr": "Éleveur né II",
             "description_en": "Gather leavings from animals in your island sanctuary pasture 500 times.",
             "description_fr": "Récupérer 500 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.2",
             "cPrev": ["a.3093"],
             "cNext": ["a.3095"]
         },
@@ -1749,8 +1792,8 @@
             "name_fr": "Éleveur né III",
             "description_en": "Gather leavings from animals in your island sanctuary pasture 5,000 times.",
             "description_fr": "Récupérer 5 000 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 20,
+            "patch": "6.2",
             "cPrev": ["a.3094"]
         },
         "x3096": {
@@ -1758,8 +1801,8 @@
             "name_fr": "Main verte I",
             "description_en": "Gather produce from your island sanctuary cropland 50 times.",
             "description_fr": "Récolter 50 cultures sur la Félicité insulaire.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.2",
             "cNext": ["a.3097"]
         },
         "x3097": {
@@ -1767,8 +1810,8 @@
             "name_fr": "Main verte II",
             "description_en": "Gather produce from your island sanctuary cropland 250 times.",
             "description_fr": "Récolter 250 cultures sur la Félicité insulaire.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.2",
             "cPrev": ["a.3096"],
             "cNext": ["a.3098"]
         },
@@ -1777,8 +1820,8 @@
             "name_fr": "Main verte III",
             "description_en": "Gather produce from your island sanctuary cropland 2,500 times.",
             "description_fr": "Récolter 2 500 cultures sur la Félicité insulaire.",
-            "patch": "6.28",
             "points": 20,
+            "patch": "6.2",
             "cPrev": ["a.3097"]
         },
         "x3099": {
@@ -1786,8 +1829,8 @@
             "name_fr": "Joueur de la grange I",
             "description_en": "Collect 50 rare materials via island granary foraging expeditions.",
             "description_fr": "Récupérer 50 raretés à la grange de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.2",
             "cNext": ["a.3100"]
         },
         "x3100": {
@@ -1795,8 +1838,8 @@
             "name_fr": "Joueur de la grange II",
             "description_en": "Collect 200 rare materials via island granary foraging expeditions.",
             "description_fr": "Récupérer 200 raretés à la grange de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.2",
             "cPrev": ["a.3099"],
             "cNext": ["a.3101"]
         },
@@ -1805,8 +1848,8 @@
             "name_fr": "Joueur de la grange III",
             "description_en": "Collect 2,000 rare materials via island granary foraging expeditions.",
             "description_fr": "Récupérer 2 000 raretés à la grange de la Félicité insulaire.",
-            "patch": "6.28",
             "points": 20,
+            "patch": "6.2",
             "cPrev": ["a.3100"]
         },
         "x3102": {
@@ -1814,8 +1857,8 @@
             "name_fr": "Commerçant né I",
             "description_en": "Accrue isleworks earnings totaling at least 10,000 cowries across a seven-cycle period.",
             "description_fr": "Obtenir 10 000 assignats grâce au commerce insulaire sur une période de 7 cycles.",
-            "patch": "6.28",
             "points": 10,
+            "patch": "6.2",
             "cNext": ["a.3103"]
         },
         "x3103": {
@@ -1823,9 +1866,9 @@
             "name_fr": "Commerçant né II",
             "description_en": "Accrue isleworks earnings totaling at least 17,000 cowries across a seven-cycle period.",
             "description_fr": "Obtenir 17 000 assignats grâce au commerce insulaire sur une période de 7 cycles.",
-            "reward": "t.646",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.646",
+            "patch": "6.2",
             "cPrev": ["a.3102"],
             "cSiblings": ["t.646"]
         },
@@ -1834,9 +1877,9 @@
             "name_fr": "Commerçant né III",
             "description_en": "Accrue isleworks earnings totaling at least 33,000 cowries across a seven-cycle period.",
             "description_fr": "Obtenir 33 000 assignats grâce au commerce insulaire sur une période de 7 cycles.",
+            "points": 20,
             "reward": "t.678",
             "patch": "6.4",
-            "points": 20,
             "cPrev": ["a.3103"],
             "cSiblings": ["t.678"]
         },
@@ -1845,9 +1888,9 @@
             "name_fr": "Plein aux assignats",
             "description_en": "Earn a total of 500,000 seafarer's cowries in your island sanctuary.",
             "description_fr": "Obtenir un total de 500 000 assignats insulaire azur.",
-            "reward": "t.647",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.647",
+            "patch": "6.2",
             "cSiblings": ["t.647"]
         }
     }

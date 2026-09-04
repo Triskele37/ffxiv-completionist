@@ -1,48 +1,57 @@
 {
     "key": "lakeland",
-    "groupName": "@PLACE.LAKELAND",
+    "groupName": "@PLACE.SHB.LAKELAND",
     "cCombo": ["a.2329"],
     "tasks": {
         "x1": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(9.4, 17.7, 0.5)"
+            "location": "(9.4, 17.7, 0.5)",
+            "patch": "5.0"
         },
         "x2": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(18.6, 18.4, 0.1)"
+            "location": "(18.6, 18.4, 0.1)",
+            "patch": "5.0"
         },
         "x5": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(34.6, 17.0, 0.4)"
+            "location": "(34.6, 17.0, 0.4)",
+            "patch": "5.0"
         },
         "x9": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(33.5, 28.8, 0.3)"
+            "location": "(33.5, 28.8, 0.3)",
+            "patch": "5.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.68922",
-            "cSiblings": ["q.68922"]
+            "cSiblings": ["q.68922"],
+            "patch": "5.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.68921",
-            "cSiblings": ["q.68921"]
+            "cSiblings": ["q.68921"],
+            "patch": "5.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.68920",
-            "cSiblings": ["q.68920"]
+            "cSiblings": ["q.68920"],
+            "patch": "5.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.68916",
-            "cSiblings": ["q.68916"]
+            "cSiblings": ["q.68916"],
+            "patch": "5.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.68840",
-            "cSiblings": ["q.68840"]
+            "cSiblings": ["q.68840"],
+            "patch": "5.0"
         }
     }
 }

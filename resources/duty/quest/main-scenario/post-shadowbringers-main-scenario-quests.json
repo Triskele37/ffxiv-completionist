@@ -4,334 +4,337 @@
     "groupName_fr": "Le retour des Héritiers",
     "tasks": {
         "x69209": {
-            "level": 80,
             "name_en": "Shaken Resolve",
             "name_fr": "Vacillements dans l'éther",
+            "level": 80,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "5.1",
             "cPrev": ["q.69190"],
-            "cNext": ["q.69210"],
-            "patch": "5.1"
+            "cNext": ["q.69210"]
         },
         "x69210": {
-            "level": 80,
             "name_en": "A Grand Adventure",
             "name_fr": "L'ermite du palais elfique",
-            "unlock": "d.692",
+            "level": 80,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "unlock": "d.692",
+            "patch": "5.1",
             "cPrev": ["q.69209"],
             "cNext": ["q.69211"],
-            "patch": "5.1"
+            "cSiblings": ["d.692"]
         },
         "x69211": {
-            "level": 80,
             "name_en": "A Welcome Guest",
             "name_fr": "Érudite bienveillance",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.1",
             "cPrev": ["q.69210"],
-            "cNext": ["q.69212"],
-            "patch": "5.1"
+            "cNext": ["q.69212"]
         },
         "x69212": {
-            "level": 80,
             "name_en": "Good for the Soul",
             "name_fr": "Renaissance spirituelle",
+            "level": 80,
             "npc_en": "Beq Lugg",
             "npc_fr": "Beq Lugg",
+            "patch": "5.1",
             "cPrev": ["q.69211"],
-            "cNext": ["q.69213"],
-            "patch": "5.1"
+            "cNext": ["q.69213"]
         },
         "x69213": {
-            "level": 80,
             "name_en": "Nowhere to Turn",
             "name_fr": "Une épouse aux abois",
+            "level": 80,
             "npc_en": "Kai-Shirr",
             "npc_fr": "Kai-Shirr",
+            "patch": "5.1",
             "cPrev": ["q.69212"],
-            "cNext": ["q.69214"],
-            "patch": "5.1"
+            "cNext": ["q.69214"]
         },
         "x69214": {
-            "level": 80,
             "name_en": "A Notable Absence",
             "name_fr": "Le gouverneur malgré lui",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.1",
             "cPrev": ["q.69213"],
-            "cNext": ["q.69215"],
-            "patch": "5.1"
+            "cNext": ["q.69215"]
         },
         "x69215": {
-            "level": 80,
             "name_en": "For the People",
             "name_fr": "Le Libéré à l'épreuve",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.1",
             "cPrev": ["q.69214"],
-            "cNext": ["q.69216"],
-            "patch": "5.1"
+            "cNext": ["q.69216"]
         },
         "x69216": {
-            "level": 80,
             "name_en": "Finding Good Help",
             "name_fr": "Talos dans la nature",
+            "level": 80,
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
+            "patch": "5.1",
             "cPrev": ["q.69215"],
-            "cNext": ["q.69217"],
-            "patch": "5.1"
+            "cNext": ["q.69217"]
         },
         "x69217": {
-            "level": 80,
             "name_en": "Moving Forward",
             "name_fr": "Eulmoriens ou rien",
+            "level": 80,
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
-            "cPrev": ["q.69216"],
-            "cNext": ["q.69218", "q.69265"],
+            "unlock": "o.342",
             "patch": "5.1",
-            "unlock": "o.342"
+            "cPrev": ["q.69216"],
+            "cNext": ["q.69218", "q.69265"]
         },
         "x69218": {
-            "level": 80,
             "name_en": "Vows of Virtue, Deeds of Cruelty",
             "name_fr": "Vœux de vertu, actes de cruauté",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.1",
             "cPrev": ["q.69217"],
             "cNext": ["q.69286", "q.69297", "q.69477"],
-            "cSiblings": ["a.2424"],
-            "patch": "5.1"
+            "cSiblings": ["a.2424"]
         },
         "x69297": {
-            "level": 80,
             "name_en": "Old Enemies, New Threats",
             "name_fr": "Une menace inattendue",
+            "level": 80,
             "npc_en": "Krile",
             "npc_fr": "Krile",
+            "patch": "5.2",
             "cPrev": ["q.69218"],
-            "cNext": ["q.69298", "q.69319"],
-            "patch": "5.2"
+            "cNext": ["q.69298", "q.69319"]
         },
         "x69298": {
-            "level": 80,
             "name_en": "The Way Home",
             "name_fr": "Le conducteur spirituel",
+            "level": 80,
             "npc_en": "Krile",
             "npc_fr": "Krile",
+            "patch": "5.2",
             "cPrev": ["q.69297"],
-            "cNext": ["q.69299"],
-            "patch": "5.2"
+            "cNext": ["q.69299"]
         },
         "x69299": {
-            "level": 80,
             "name_en": "Seeking Counsel",
             "name_fr": "Les tracas de Lyna",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.2",
             "cPrev": ["q.69298"],
-            "cNext": ["q.69300"],
-            "patch": "5.2"
+            "cNext": ["q.69300"]
         },
         "x69300": {
-            "level": 80,
             "name_en": "Facing the Truth",
             "name_fr": "Que lumière soit faite",
+            "level": 80,
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
+            "patch": "5.2",
             "cPrev": ["q.69299"],
-            "cNext": ["q.69301"],
-            "patch": "5.2"
+            "cNext": ["q.69301"]
         },
         "x69301": {
-            "level": 80,
             "name_en": "A Sleep Disturbed",
             "name_fr": "La légende de Tiuna",
+            "level": 80,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.2",
             "cPrev": ["q.69300"],
-            "cNext": ["q.69302"],
-            "patch": "5.2"
+            "cNext": ["q.69302"]
         },
         "x69302": {
-            "level": 80,
             "name_en": "An Old Friend",
             "name_fr": "Le mépris d'Ardbert",
+            "level": 80,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.2",
             "cPrev": ["q.69301"],
-            "cNext": ["q.69303"],
-            "patch": "5.2"
+            "cNext": ["q.69303"]
         },
         "x69303": {
-            "level": 80,
             "name_en": "Deep Designs",
             "name_fr": "Du rififi chez les Flets",
+            "level": 80,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.2",
             "cPrev": ["q.69302"],
-            "cNext": ["q.69304"],
-            "patch": "5.2"
+            "cNext": ["q.69304"]
         },
         "x69304": {
-            "level": 80,
             "name_en": "A Whale's Tale",
             "name_fr": "Ken le confident",
+            "level": 80,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.2",
             "cPrev": ["q.69303"],
-            "cNext": ["q.69305"],
-            "patch": "5.2"
+            "cNext": ["q.69305"]
         },
         "x69305": {
-            "level": 80,
             "name_en": "Beneath the Surface",
             "name_fr": "Vingt mille malms sous les mers",
-            "unlock": "d.714",
+            "level": 80,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "unlock": "d.714",
+            "patch": "5.2",
             "cPrev": ["q.69304"],
             "cNext": ["q.69306"],
-            "patch": "5.2"
+            "cSiblings": ["d.714"]
         },
         "x69306": {
-            "level": 80,
             "name_en": "Echoes of a Fallen Star",
             "name_fr": "Échos d'une étoile déchue",
+            "level": 80,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.2",
             "cPrev": ["q.69305"],
             "cNext": ["q.69307", "q.69329"],
-            "cSiblings": ["a.2587"],
-            "patch": "5.2"
+            "cSiblings": ["a.2587"]
         },
         "x69307": {
-            "level": 80,
             "name_en": "In the Name of the Light",
             "name_fr": "La légende du Guerrier de la Lumière",
+            "level": 80,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "patch": "5.3",
             "cPrev": ["q.69306"],
-            "cNext": ["q.69308"],
-            "patch": "5.3"
+            "cNext": ["q.69308"]
         },
         "x69308": {
-            "level": 80,
             "name_en": "Heroic Dreams",
             "name_fr": "Un appel du fond des âges",
+            "level": 80,
             "npc_en": "Eirwel",
             "npc_fr": "Eirwel",
+            "patch": "5.3",
             "cPrev": ["q.69307"],
-            "cNext": ["q.69309"],
-            "patch": "5.3"
+            "cNext": ["q.69309"]
         },
         "x69309": {
-            "level": 80,
             "name_en": "Fraying Threads",
             "name_fr": "Lien évanescent",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "patch": "5.3",
             "cPrev": ["q.69308"],
-            "cNext": ["q.69310"],
-            "patch": "5.3"
+            "cNext": ["q.69310"]
         },
         "x69310": {
-            "level": 80,
             "name_en": "Food for the Soul",
             "name_fr": "Loin des yeux, près du cœur",
+            "level": 80,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "5.3",
             "cPrev": ["q.69309"],
-            "cNext": ["q.69311"],
-            "patch": "5.3"
+            "cNext": ["q.69311"]
         },
         "x69311": {
-            "level": 80,
             "name_en": "Faded Memories",
             "name_fr": "Souvenir périssable",
+            "level": 80,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.3",
             "cPrev": ["q.69310"],
-            "cNext": ["q.69312"],
-            "patch": "5.3"
+            "cNext": ["q.69312"]
         },
         "x69312": {
-            "level": 80,
             "name_en": "Etched in the Stars",
             "name_fr": "Voyage sur l'écliptique",
+            "level": 80,
             "npc_en": "Peculiar Crystal",
             "npc_fr": "Cristal Insolite",
+            "patch": "5.3",
             "cPrev": ["q.69311"],
-            "cNext": ["q.69313"],
-            "patch": "5.3"
+            "cNext": ["q.69313"]
         },
         "x69313": {
-            "level": 80,
             "name_en": "The Converging Light",
             "name_fr": "Des Guerriers pas comme les autres",
-            "unlock": "d.737",
+            "level": 80,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "unlock": "d.737",
+            "patch": "5.3",
             "cPrev": ["q.69312"],
             "cNext": ["q.69314"],
-            "patch": "5.3"
+            "cSiblings": ["d.737"]
         },
         "x69314": {
-            "level": 80,
             "name_en": "Hope's Confluence",
             "name_fr": "Porteur d'espoir",
-            "unlock": "d.738",
+            "level": 80,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "unlock": "d.738",
+            "patch": "5.3",
             "cPrev": ["q.69313"],
             "cNext": ["q.69315"],
-            "patch": "5.3"
+            "cSiblings": ["d.738"]
         },
         "x69315": {
-            "level": 80,
             "name_en": "Nothing Unsaid",
             "name_fr": "Un dernier tour de Norvrandt",
+            "level": 80,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.3",
             "cPrev": ["q.69314"],
-            "cNext": ["q.69316"],
-            "patch": "5.3"
+            "cNext": ["q.69316"]
         },
         "x69316": {
-            "level": 80,
             "name_en": "The Journey Continues",
             "name_fr": "Adieu, vieille branche",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.3",
             "cPrev": ["q.69315"],
-            "cNext": ["q.69317"],
-            "patch": "5.3"
+            "cNext": ["q.69317"]
         },
         "x69317": {
-            "level": 80,
             "name_en": "Unto the Morrow",
             "name_fr": "Demain t'appartient",
+            "level": 80,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": ["q.69316"],
-            "cNext": ["q.69318"],
+            "unlock": "mi.381",
             "patch": "5.3",
-            "unlock": "mi.381"
+            "cPrev": ["q.69316"],
+            "cNext": ["q.69318"]
         },
         "x69318": {
-            "level": 80,
             "name_en": "Reflections in Crystal",
             "name_fr": "Rémanences de cristal",
+            "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
-            "unlock_en": "G'raha Tia Trust",
+            "patch": "5.3",
             "cPrev": ["q.69317"],
             "cNext": ["q.69543", "q.69511", "q.69521"],
-            "cSiblings": ["a.2642"],
-            "patch": "5.3"
+            "cSiblings": ["a.2642"]
         }
     }
 }

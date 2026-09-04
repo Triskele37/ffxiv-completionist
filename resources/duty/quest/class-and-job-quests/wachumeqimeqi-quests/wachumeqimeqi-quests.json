@@ -4,24 +4,24 @@
     "groupName_fr": "Quêtes du bazar aux Mille Perles",
     "tasks": {
         "x70502": {
-            "cNext": ["q.70504", "q.70511", "q.70518", "q.70525", "q.70532"],
-            "cPrev": ["q.70418"],
-            "level": 90,
             "name_en": "Wrought in Wachumeqimeqi",
             "name_fr": "Wachumeqimeqi, le bazar aux Mille Perles",
+            "level": 90,
             "npc_en": "Ropli",
             "npc_fr": "Ropli",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70418"],
+            "cNext": ["q.70504", "q.70511", "q.70518", "q.70525", "q.70532"]
         },
         "x70503": {
-            "cPrev": ["q.70510", "q.70517", "q.70524"],
-            "cSiblings": ["a.3609"],
-            "level": 100,
             "name_en": "Appreciated Value",
             "name_fr": "La grande foire aux mille mercis",
+            "level": 100,
             "npc_en": "Ropli",
             "npc_fr": "Ropli",
-            "patch": "7.15"
+            "patch": "7.15",
+            "cPrev": ["q.70510", "q.70517", "q.70524", "q.70531", "q.70538"],
+            "cSiblings": ["a.3609"]
         }
     }
 }

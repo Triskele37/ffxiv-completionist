@@ -1,0 +1,102 @@
+{
+    "GAME_UPDATES": {
+        "1.0.0": {
+            "ADD": [
+                "Resources up to FFXIV 6.08",
+                "Links for most task info that directly reference another task",
+                "Duty > Duty/Raid Finder > Deep Dungeon",
+                "Duty > Squadron"
+            ],
+            "CHANGE": [
+                "Applied in-game categories and order to Emotes",
+                "BSM \"Arms\" recipes were marked complete if the sword was crafted",
+                "ARM \"Arms\" recipes were marked complete if the shield was crafted"
+            ],
+            "FIX": [
+                "Various data/chain corrections",
+                "ShB Trust NPCs now start at 71"
+            ]
+        },
+        "1.0.1": {
+            "ADD": [
+                "Resources up to FFXIV 6.15",
+                "French Localization Completed"
+            ],
+            "CHANGE": [
+                "Grouped Role Quests by expansion",
+                "Merged \"Drop\" and \"Acquired\" columns for triad cards",
+                "Sorted Minion Guide by in-game order",
+                "Merged Crystarium & Studium recipes into Shared log"
+            ],
+            "FIX": [
+                "Various data/chain corrections",
+                "Several columns showing raw link paths",
+                "SCH/SMN chaining together improperly"
+            ]
+        },
+        "1.0.2": {
+            "ADD": [
+                "Resources up to FFXIV 6.28",
+                "Previous FATE column"
+            ],
+            "FIX": [
+                "Various data/chain corrections"
+            ],
+            "REMOVE": [
+                "Removed Namazu crafting log chains, as the chained quests can be completed via DoL"
+            ]
+        },
+        "1.0.3": {
+            "ADD": [
+                "Resources up to FFXIV 6.38"
+            ],
+            "FIX": [
+                "Various data/chain corrections"
+            ]
+        },
+        "1.0.4": {
+            "ADD": [
+                "Resources up to FFXIV 6.58",
+                "Treasure Hunt group",
+                "Gold Saucer Chocobo group",
+                "Patch data for Gathering logs, Crafting logs, and Journal"
+            ],
+            "CHANGE": [
+                "Reworked Orchestrion data"
+            ],
+            "FIX": [
+                "Various data/chain corrections"
+            ]
+        },
+        "1.0.5": {
+            "ADD": [
+                "Resources up to FFXIV 7.15"
+            ],
+            "CHANGE": [
+                "Moved starting class from config files to save files"
+            ],
+            "REMOVE": [
+                "Please note that facewear will not automatically migrate from the old format"
+            ]
+        },
+        "1.0.6": {
+            "ADD": [
+                "Resources up to FFXIV 7.55",
+                "All content now has patch, reviewed all patch values",
+                "Additional BLU spell sources and category column",
+                "All missing chains between duties and quest",
+                "Added first non-completion group to 'Reference'"
+            ],
+            "CHANGE": [
+                "Merged BLU spell location and enemy columns",
+                "Name of 'Triple Triad' and two GC plate deco tasks to more clearly indicate they are a single unlock for multiple things",
+                "Renamed 'Exploratory Mission' to 'Field Operation'"
+            ],
+            "FIX": [
+                "Manderville relic linking",
+                "Quests unlocking quests treated as a simple chain, added unlock concept to chaining",
+                "Other various value and link fixes"
+            ]
+        }
+    }
+}

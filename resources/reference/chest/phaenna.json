@@ -1,0 +1,19 @@
+{
+    "key": "phaenna",
+    "groupName": "@PLACE.DT.PHAENNA",
+    "tasks": {
+        "x311": {
+            "name_en": "Cosmic Fortune",
+            "name_fr": "Cosmic Fortune",
+            "location": "@PLACE.DT.PHAENNA",
+            "requirements": "@VENDOR.ORBITINGWAY (1,000 CURRENCY.CE.PHAENNA_CREDIT)",
+            "loot": [
+                "mo.386",
+                "mi.553",
+                "fw.33",
+                "o.776",
+                "e.304"
+            ]
+        }
+    }
+}

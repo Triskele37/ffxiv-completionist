@@ -4,32 +4,33 @@
     "groupName_fr": "Chroniques des Ténèbres",
     "tasks": {
         "x68815": {
-            "level": 70,
             "name_en": "The Syrcus Trench",
             "name_fr": "La traversée",
+            "level": 70,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": ["q.68721"],
-            "cNext": ["q.68816"],
+            "unlock": "o.315",
             "patch": "5.0",
-            "unlock": "o.315"
+            "cPrev": ["q.68721"],
+            "cNext": ["q.68816"]
         },
         "x68816": {
-            "level": 70,
             "name_en": "City of the First",
             "name_fr": "À la découverte de Cristarium",
+            "level": 70,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.68815"],
-            "cNext": ["q.68817"],
-            "patch": "5.0"
+            "cNext": ["q.68817"]
         },
         "x68817": {
-            "level": 70,
             "name_en": "Travelers of Norvrandt",
             "name_fr": "Les Héritiers du premier reflet",
+            "level": 70,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.68816"],
             "cNext": [
                 "q.68827",
@@ -43,360 +44,363 @@
                 "q.68884",
                 "q.69140",
                 "q.69133"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x68818": {
-            "level": 70,
             "name_en": "In Search of Alphinaud",
             "name_fr": "Sur les traces d'Alphinaud",
+            "level": 70,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.68817"],
-            "cNext": ["q.68819"],
-            "patch": "5.0"
+            "cNext": ["q.68819"]
         },
         "x68819": {
-            "level": 70,
             "name_en": "A Still Tide",
             "name_fr": "Pour une poignée de brins de thym",
+            "level": 70,
             "npc_en": "Szem Djenmai",
             "npc_fr": "Szem Djenmai",
+            "patch": "5.0",
             "cPrev": ["q.68818"],
-            "cNext": ["q.68885", "q.68887", "q.68820", "q.68886"],
-            "patch": "5.0"
+            "cNext": ["q.68885", "q.68887", "q.68820", "q.68886"]
         },
         "x68820": {
-            "level": 70,
             "name_en": "Open Arms, Closed Gate",
             "name_fr": "Le Vestibule",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68819"],
-            "cNext": ["q.68888", "q.68889", "q.68890", "q.68821", "q.68891"],
-            "patch": "5.0"
+            "cNext": ["q.68888", "q.68889", "q.68890", "q.68821", "q.68891"]
         },
         "x68821": {
-            "level": 70,
             "name_en": "A Fickle Existence",
             "name_fr": "L'envers d'Eulmore",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68820"],
-            "cNext": ["q.68896", "q.68907", "q.68822", "q.68895", "q.68892", "q.68893", "q.68894"],
-            "patch": "5.0"
+            "cNext": ["q.68896", "q.68907", "q.68822", "q.68895", "q.68892", "q.68893", "q.68894"]
         },
         "x68822": {
-            "level": 70,
             "name_en": "City of Final Pleasures",
             "name_fr": "La ville des derniers plaisirs",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68821"],
-            "cNext": ["q.68823", "q.69139"],
-            "patch": "5.0"
+            "cNext": ["q.68823", "q.69139"]
         },
         "x68823": {
-            "level": 70,
             "name_en": "Free to Sightsee",
             "name_fr": "À la découverte d'Eulmore",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68822"],
-            "cNext": ["q.68824"],
-            "patch": "5.0"
+            "cNext": ["q.68824"]
         },
         "x68824": {
-            "level": 70,
             "name_en": "A Taste of Honey",
             "name_fr": "Plus de plaisir, moins de souci",
+            "level": 70,
             "npc_en": "Amiable Maiden",
             "npc_fr": "Libérée Délicate",
+            "patch": "5.0",
             "cPrev": ["q.68823"],
-            "cNext": ["q.68825"],
-            "patch": "5.0"
+            "cNext": ["q.68825"]
         },
         "x68825": {
-            "level": 70,
             "name_en": "A Blessed Instrument",
             "name_fr": "Les bienheureux",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68824"],
-            "cNext": ["q.68826"],
-            "patch": "5.0"
+            "cNext": ["q.68826"]
         },
         "x68826": {
-            "level": 70,
             "name_en": "Emergent Splendor",
             "name_fr": "La cime baignée de lumière",
+            "level": 70,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.68825"],
-            "cNext": ["q.68836"],
-            "patch": "5.0"
+            "cNext": ["q.68836"]
         },
         "x68827": {
-            "level": 70,
             "name_en": "In Search of Alisaie",
             "name_fr": "Sur les traces d'Alisaie",
+            "level": 70,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.68817"],
-            "cNext": ["q.68828"],
-            "patch": "5.0"
+            "cNext": ["q.68828"]
         },
         "x68828": {
-            "level": 70,
             "name_en": "City of the Mord",
             "name_fr": "Le marché des Mords",
+            "level": 70,
             "npc_en": "Cassard",
             "npc_fr": "Cassard",
+            "patch": "5.0",
             "cPrev": ["q.68827"],
-            "cNext": ["q.68829", "q.68897", "q.68898", "q.68899", "q.68902", "q.68901"],
-            "patch": "5.0"
+            "cNext": ["q.68829", "q.68897", "q.68898", "q.68899", "q.68902", "q.68901"]
         },
         "x68829": {
-            "level": 70,
             "name_en": "Working Off the Meal",
             "name_fr": "La tournée des étals",
+            "level": 70,
             "npc_en": "Cassard",
             "npc_fr": "Cassard",
+            "patch": "5.0",
             "cPrev": ["q.68828"],
-            "cNext": ["q.68911", "q.68830"],
-            "patch": "5.0"
+            "cNext": ["q.68911", "q.68830"]
         },
         "x68830": {
-            "level": 70,
             "name_en": "A Desert Crossing",
             "name_fr": "À travers les dunes d'ambre",
+            "level": 70,
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
+            "patch": "5.0",
             "cPrev": ["q.68829"],
-            "cNext": ["q.68831"],
-            "patch": "5.0"
+            "cNext": ["q.68831"]
         },
         "x68831": {
-            "level": 70,
             "name_en": "Following in Her Footprints",
             "name_fr": "Retrouvailles de haut vol",
+            "level": 70,
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
+            "patch": "5.0",
             "cPrev": ["q.68830"],
-            "cNext": ["q.68832"],
-            "patch": "5.0"
+            "cNext": ["q.68832"]
         },
         "x68832": {
-            "level": 70,
             "name_en": "Culling Their Ranks",
             "name_fr": "Chasse aux purgateurs",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.68831"],
-            "cNext": ["q.68833", "q.68903", "q.68904", "q.68905", "q.68906"],
-            "patch": "5.0"
+            "cNext": ["q.68833", "q.68903", "q.68904", "q.68905", "q.68906"]
         },
         "x68833": {
-            "level": 70,
             "name_en": "A Purchase of Fruit",
             "name_fr": "Le dernier fruit",
+            "level": 70,
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
+            "patch": "5.0",
             "cPrev": ["q.68832"],
-            "cNext": ["q.68834"],
-            "patch": "5.0"
+            "cNext": ["q.68834"]
         },
         "x68834": {
-            "level": 70,
             "name_en": "The Time Left to Us",
             "name_fr": "Le départ de trop",
+            "level": 70,
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
+            "patch": "5.0",
             "cPrev": ["q.68833"],
-            "cNext": ["q.68835"],
-            "patch": "5.0"
+            "cNext": ["q.68835"]
         },
         "x68835": {
-            "level": 70,
             "name_en": "Tears on the Sand",
             "name_fr": "La mission d'Alisaie",
+            "level": 70,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.68834"],
-            "cNext": ["q.68836"],
-            "patch": "5.0"
+            "cNext": ["q.68836"]
         },
         "x68836": {
-            "level": 71,
             "name_en": "The Lightwardens",
             "name_fr": "Un grand purgateur à Grand-Lac",
-            "unlock": "d.676",
+            "level": 71,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "unlock": "d.676",
+            "patch": "5.0",
             "cPrev": ["q.68826", "q.68835"],
             "cNext": ["q.68837"],
-            "patch": "5.0"
+            "cSiblings": ["d.676"]
         },
         "x68837": {
-            "level": 71,
             "name_en": "Warrior of Darkness",
             "name_fr": "Le guerrier de la légende",
+            "level": 71,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "unlock": "tto.6",
+            "patch": "5.0",
             "cPrev": ["q.68836"],
             "cNext": ["q.68916", "q.68838", "q.68809", "q.68915", "q.68779", "q.68803", "q.69159"],
-            "cSiblings": ["a.2293"],
-            "patch": "5.0"
+            "cSiblings": ["a.2293"]
         },
         "x68838": {
-            "level": 72,
             "name_en": "An Unwelcome Guest",
             "name_fr": "Visite impromptue",
+            "level": 72,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "patch": "5.0",
             "cPrev": ["q.68837"],
-            "cNext": ["q.68839"],
-            "patch": "5.0"
+            "cNext": ["q.68839"]
         },
         "x68839": {
-            "level": 72,
             "name_en": "The Crystarium's Resolve",
             "name_fr": "La résolution de Cristarium",
+            "level": 72,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.68838"],
-            "cNext": ["q.68840", "q.69191"],
-            "patch": "5.0"
+            "cNext": ["q.68840", "q.69191"]
         },
         "x68840": {
-            "level": 72,
             "name_en": "Logistics of War",
             "name_fr": "Logistique amaro",
-            "unlock": "travel.aether-currents.shb.lakeland.14",
+            "level": 72,
             "npc_en": "Szem Djenmai",
             "npc_fr": "Szem Djenmai",
+            "unlock": "travel.aether-currents.shb.lakeland.14",
+            "patch": "5.0",
             "cPrev": ["q.68839"],
             "cNext": ["q.68920", "q.68921", "q.68922", "q.68841", "q.68924", "q.68925", "q.68926", "q.68927"],
-            "cSiblings": ["travel.aether-currents.shb.lakeland.14"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.lakeland.14"]
         },
         "x68841": {
-            "level": 72,
             "name_en": "The Oracle of Light",
             "name_fr": "À l'assaut du fort",
+            "level": 72,
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
+            "patch": "5.0",
             "cPrev": ["q.68840"],
-            "cNext": ["q.68842"],
-            "patch": "5.0"
+            "cNext": ["q.68842"]
         },
         "x68842": {
-            "level": 72,
             "name_en": "Il Mheg, the Faerie Kingdom",
             "name_fr": "Le royaume féérique",
+            "level": 72,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.68841"],
-            "cNext": ["q.68931", "q.68843", "q.68844", "q.68845", "q.68929", "q.68928", "q.68930"],
-            "patch": "5.0"
+            "cNext": ["q.68931", "q.68843", "q.68844", "q.68845", "q.68929", "q.68928", "q.68930"]
         },
         "x68843": {
-            "level": 72,
             "name_en": "Sul Uin's Request",
             "name_fr": "Lydha Lran, village fleuri",
+            "level": 72,
             "npc_en": "Sul Uin",
             "npc_fr": "Sul Uin",
+            "patch": "5.0",
             "cPrev": ["q.68842"],
-            "cNext": ["q.68846"],
-            "patch": "5.0"
+            "cNext": ["q.68846"]
         },
         "x68844": {
-            "level": 72,
             "name_en": "Ys Iala's Errand",
             "name_fr": "Un appétit pour la farce",
+            "level": 72,
             "npc_en": "Ys Iala",
             "npc_fr": "Ys Iala",
+            "patch": "5.0",
             "cPrev": ["q.68842"],
-            "cNext": ["q.68846"],
-            "patch": "5.0"
+            "cNext": ["q.68846"]
         },
         "x68845": {
-            "level": 72,
             "name_en": "Oul Sigun's Plea",
             "name_fr": "Les enfeuillés",
+            "level": 72,
             "npc_en": "Oul Sigun",
             "npc_fr": "Oul Sigun",
+            "patch": "5.0",
             "cPrev": ["q.68842"],
-            "cNext": ["q.68846"],
-            "patch": "5.0"
+            "cNext": ["q.68846"]
         },
         "x68846": {
-            "level": 72,
             "name_en": "Unto the Truth",
             "name_fr": "Feo Ul à la rescousse",
+            "level": 72,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.68843", "q.68844", "q.68845"],
-            "cNext": ["q.68934", "q.68847", "q.68936"],
-            "patch": "5.0"
+            "cNext": ["q.68934", "q.68847", "q.68936"]
         },
         "x68847": {
-            "level": 72,
             "name_en": "Courting Cooperation",
             "name_fr": "Les cours du lettré",
+            "level": 72,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68846"],
-            "cNext": ["q.68940", "q.68937", "q.68938", "q.68848", "q.68939"],
-            "patch": "5.0"
+            "cNext": ["q.68940", "q.68937", "q.68938", "q.68848", "q.68939"]
         },
         "x68848": {
-            "level": 73,
             "name_en": "The Key to the Castle",
             "name_fr": "Ne pas toucher",
-            "unlock": "d.649",
+            "level": 73,
             "npc_en": "Sul Uin",
             "npc_fr": "Sul Uin",
+            "unlock": "d.649",
+            "patch": "5.0",
             "cPrev": ["q.68847"],
             "cNext": ["q.68849"],
-            "patch": "5.0"
+            "cSiblings": ["d.649"]
         },
         "x68849": {
-            "level": 73,
             "name_en": "A Visit to the Nu Mou",
             "name_fr": "Visite chez les Nu Mou",
+            "level": 73,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68848"],
-            "cNext": ["q.68850"],
-            "patch": "5.0"
+            "cNext": ["q.68850"]
         },
         "x68850": {
-            "level": 73,
             "name_en": "A Fitting Payment",
             "name_fr": "Transaction équitable",
+            "level": 73,
             "npc_en": "Wyd Aenc",
             "npc_fr": "Wyd Aenc",
+            "patch": "5.0",
             "cPrev": ["q.68849"],
-            "cNext": ["q.68851"],
-            "patch": "5.0"
+            "cNext": ["q.68851"]
         },
         "x68851": {
-            "level": 73,
             "name_en": "Spore Sweeper",
             "name_fr": "Coup de balai",
+            "level": 73,
             "npc_en": "Ys Gyuf",
             "npc_fr": "Ys Gyuf",
+            "patch": "5.0",
             "cPrev": ["q.68850"],
-            "cNext": ["q.68852"],
-            "patch": "5.0"
+            "cNext": ["q.68852"]
         },
         "x68852": {
-            "level": 73,
             "name_en": "The Lawless Ones",
             "name_fr": "Ceux qui musardent",
+            "level": 73,
             "npc_en": "Wyd Lad",
             "npc_fr": "Wyd Lad",
+            "patch": "5.0",
             "cPrev": ["q.68851"],
             "cNext": [
                 "q.68944",
@@ -411,25 +415,25 @@
                 "q.68954",
                 "q.68853",
                 "q.68948"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x68853": {
-            "level": 73,
             "name_en": "The Elder's Answer",
             "name_fr": "La puissance du Monarque",
+            "level": 73,
             "npc_en": "Wyd Lad",
             "npc_fr": "Wyd Lad",
+            "patch": "5.0",
             "cPrev": ["q.68852"],
-            "cNext": ["q.68854"],
-            "patch": "5.0"
+            "cNext": ["q.68854"]
         },
         "x68854": {
-            "level": 73,
             "name_en": "A Resounding Roar",
             "name_fr": "Combattre la gentillesse",
+            "level": 73,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68853"],
             "cNext": [
                 "q.68963",
@@ -443,168 +447,168 @@
                 "q.68968",
                 "q.68957",
                 "q.68969"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x68855": {
-            "level": 73,
             "name_en": "Memento of a Friend",
             "name_fr": "Le souvenir d'un ami",
+            "level": 73,
             "npc_en": "Seto",
             "npc_fr": "Seto",
+            "patch": "5.0",
             "cPrev": ["q.68854"],
-            "cNext": ["q.68856"],
-            "patch": "5.0"
+            "cNext": ["q.68856"]
         },
         "x68856": {
-            "level": 73,
             "name_en": "Acht-la Ormh Inn",
             "name_fr": "Passation de pouvoir",
-            "unlock": ["d.657", "travel.aether-currents.shb.il-mheg.14"],
+            "level": 73,
             "npc_en": "Seto",
             "npc_fr": "Seto",
+            "unlock": ["d.657", "travel.aether-currents.shb.il-mheg.14", "tto.33"],
+            "patch": "5.0",
             "cPrev": ["q.68855"],
             "cNext": ["q.68961", "q.68857", "q.68962"],
-            "cSiblings": ["travel.aether-currents.shb.il-mheg.14"],
-            "patch": "5.0"
+            "cSiblings": ["d.657", "travel.aether-currents.shb.il-mheg.14"]
         },
         "x68857": {
-            "level": 73,
             "name_en": "The Wheel Turns",
             "name_fr": "Entre entente et méfiance",
+            "level": 73,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.68856"],
             "cNext": ["q.68858", "q.69219"],
-            "cSiblings": ["a.2294"],
-            "patch": "5.0"
+            "cSiblings": ["a.2294"]
         },
         "x68858": {
-            "level": 74,
             "name_en": "A Party Soon Divided",
             "name_fr": "Une visite de courtoisie",
+            "level": 74,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "patch": "5.0",
             "cPrev": ["q.68857"],
-            "cNext": ["q.68972", "q.68859", "q.68971", "q.68973", "q.68992"],
-            "patch": "5.0"
+            "cNext": ["q.68972", "q.68859", "q.68971", "q.68973", "q.68992"]
         },
         "x68859": {
-            "level": 74,
             "name_en": "A Little Faith",
             "name_fr": "L'église de l'Aurore",
+            "level": 74,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68858"],
-            "cNext": ["q.68860"],
-            "patch": "5.0"
+            "cNext": ["q.68860"]
         },
         "x68860": {
-            "level": 74,
             "name_en": "Into the Dark",
             "name_fr": "Le peuple de la Nuit",
+            "level": 74,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68859"],
-            "cNext": ["q.68861"],
-            "patch": "5.0"
+            "cNext": ["q.68861"]
         },
         "x68861": {
-            "level": 74,
             "name_en": "A Day in the Neighborhood",
             "name_fr": "Us et coutumes",
+            "level": 74,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68860"],
-            "cNext": ["q.68980", "q.68976", "q.68979", "q.68978", "q.68862", "q.68977"],
-            "patch": "5.0"
+            "cNext": ["q.68980", "q.68976", "q.68979", "q.68978", "q.68862", "q.68977"]
         },
         "x68862": {
-            "level": 74,
             "name_en": "A Helping Hand",
             "name_fr": "Jardinage enténébré",
+            "level": 74,
             "npc_en": "Runar",
             "npc_fr": "Runar",
+            "patch": "5.0",
             "cPrev": ["q.68861"],
-            "cNext": ["q.68863"],
-            "patch": "5.0"
+            "cNext": ["q.68863"]
         },
         "x68863": {
-            "level": 74,
             "name_en": "Lost but Not Forgotten",
             "name_fr": "La pierre baptismale",
+            "level": 74,
             "npc_en": "Runar",
             "npc_fr": "Runar",
+            "patch": "5.0",
             "cPrev": ["q.68862"],
-            "cNext": ["q.68864"],
-            "patch": "5.0"
+            "cNext": ["q.68864"]
         },
         "x68864": {
-            "level": 74,
             "name_en": "Saying Good-bye",
             "name_fr": "Repos éternel dans le ciel étoilé",
+            "level": 74,
             "npc_en": "Runar",
             "npc_fr": "Runar",
+            "patch": "5.0",
             "cPrev": ["q.68863"],
-            "cNext": ["q.68985", "q.68986", "q.68983", "q.68865", "q.68990", "q.68991", "q.68984", "q.68987", "q.68989"],
-            "patch": "5.0"
+            "cNext": ["q.68985", "q.68986", "q.68983", "q.68865", "q.68990", "q.68991", "q.68984", "q.68987", "q.68989"]
         },
         "x68865": {
-            "level": 74,
             "name_en": "Stirring Up Trouble",
             "name_fr": "La guerre des bestioles",
+            "level": 74,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68864"],
-            "cNext": ["q.68866"],
-            "patch": "5.0"
+            "cNext": ["q.68866"]
         },
         "x68866": {
-            "level": 74,
             "name_en": "A Beeautiful Plan",
             "name_fr": "Légendes sur les murs",
+            "level": 74,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68865"],
-            "cNext": ["q.68867"],
-            "patch": "5.0"
+            "cNext": ["q.68867"]
         },
         "x68867": {
-            "level": 74,
             "name_en": "An Unwanted Proposal",
             "name_fr": "Alliances vénéneuses",
+            "level": 74,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68866"],
-            "cNext": ["q.69192", "q.68868"],
-            "patch": "5.0"
+            "cNext": ["q.69192", "q.68868"]
         },
         "x68868": {
-            "level": 74,
             "name_en": "Put to the Proof",
             "name_fr": "Le sceau de Ronka",
+            "level": 74,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68867"],
-            "cNext": ["q.68869"],
-            "patch": "5.0"
+            "cNext": ["q.68869"]
         },
         "x68869": {
-            "level": 75,
             "name_en": "Into the Wood",
             "name_fr": "Les gardiennes des vestiges",
+            "level": 75,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68868"],
-            "cNext": ["q.68870"],
-            "patch": "5.0"
+            "cNext": ["q.68870"]
         },
         "x68870": {
-            "level": 75,
             "name_en": "Top of the Tree",
             "name_fr": "Passage vers les chutes",
+            "level": 75,
             "npc_en": "Cymet",
             "npc_fr": "Cymet",
+            "patch": "5.0",
             "cPrev": ["q.68869"],
             "cNext": [
                 "q.69003",
@@ -619,55 +623,55 @@
                 "q.69000",
                 "q.69002",
                 "q.69005"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x68871": {
-            "level": 75,
             "name_en": "Look to the Stars",
             "name_fr": "Statues et totems",
+            "level": 75,
             "npc_en": "Almet",
             "npc_fr": "Almet",
+            "patch": "5.0",
             "cPrev": ["q.68870"],
-            "cNext": ["q.68872"],
-            "patch": "5.0"
+            "cNext": ["q.68872"]
         },
         "x68872": {
-            "level": 75,
             "name_en": "Mi Casa, Toupasa",
             "name_fr": "La grande pyramide d'Ux'ner",
+            "level": 75,
             "npc_en": "Almet",
             "npc_fr": "Almet",
+            "patch": "5.0",
             "cPrev": ["q.68871"],
-            "cNext": ["q.68873"],
-            "patch": "5.0"
+            "cNext": ["q.68873"]
         },
         "x68873": {
-            "level": 75,
             "name_en": "Legend of the Not-so-hidden Temple",
             "name_fr": "Le Confessionnal de Toupasa l'ancien",
+            "level": 75,
             "npc_en": "Almet",
             "npc_fr": "Almet",
+            "patch": "5.0",
             "cPrev": ["q.68872"],
-            "cNext": ["q.68874"],
-            "patch": "5.0"
+            "cNext": ["q.68874"]
         },
         "x68874": {
-            "level": 75,
             "name_en": "The Aftermath",
             "name_fr": "Antidotes pour tous",
+            "level": 75,
             "npc_en": "Almet",
             "npc_fr": "Almet",
+            "patch": "5.0",
             "cPrev": ["q.68873"],
-            "cNext": ["q.68875"],
-            "patch": "5.0"
+            "cNext": ["q.68875"]
         },
         "x68875": {
-            "level": 75,
             "name_en": "In Good Faith",
             "name_fr": "Divin Ascien",
+            "level": 75,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.68874"],
             "cNext": [
                 "q.68876",
@@ -681,118 +685,118 @@
                 "q.69012",
                 "q.69019",
                 "q.69021"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x68876": {
-            "level": 75,
             "name_en": "The Burden of Knowledge",
             "name_fr": "L'Enchevêtrement des Qitari",
-            "unlock": ["d.651", "travel.aether-currents.shb.the-raktika-greatwood.14"],
+            "level": 75,
             "npc_en": "Almet",
             "npc_fr": "Almet",
+            "unlock": ["d.651", "travel.aether-currents.shb.the-rak-tika-greatwood.14"],
+            "patch": "5.0",
             "cPrev": ["q.68875"],
             "cNext": ["q.68877"],
-            "cSiblings": ["travel.aether-currents.shb.the-raktika-greatwood.14"],
-            "patch": "5.0"
+            "cSiblings": ["d.651", "travel.aether-currents.shb.the-rak-tika-greatwood.14"]
         },
         "x68877": {
-            "level": 75,
             "name_en": "Bearing with It",
             "name_fr": "Au revoir, sombre forêt",
+            "level": 75,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68876"],
-            "cNext": ["q.68878", "q.69330"],
-            "patch": "5.0"
+            "cNext": ["q.68878", "q.69330"]
         },
         "x68878": {
-            "level": 76,
             "name_en": "Out of the Wood",
             "name_fr": "Espoirs et inquiétudes",
+            "level": 76,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.68877"],
             "cNext": ["q.69142"],
-            "cSiblings": ["a.2295"],
-            "patch": "5.0"
+            "cSiblings": ["a.2295"]
         },
         "x69142": {
-            "level": 76,
             "name_en": "When It Rains",
             "name_fr": "La purgation de Grand-Lac",
+            "level": 76,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "patch": "5.0",
             "cPrev": ["q.68878"],
-            "cNext": ["q.69143"],
-            "patch": "5.0"
+            "cNext": ["q.69143"]
         },
         "x69143": {
-            "level": 76,
             "name_en": "Word from On High",
             "name_fr": "Un lac de souffrances",
+            "level": 76,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.69142"],
-            "cNext": ["q.69144"],
-            "patch": "5.0"
+            "cNext": ["q.69144"]
         },
         "x69144": {
-            "level": 76,
             "name_en": "Small Favors",
             "name_fr": "Le doute de soi",
+            "level": 76,
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
+            "patch": "5.0",
             "cPrev": ["q.69143"],
-            "cNext": ["q.69145"],
-            "patch": "5.0"
+            "cNext": ["q.69145"]
         },
         "x69145": {
-            "level": 76,
             "name_en": "The Best Way Out",
             "name_fr": "La résolution d'une jeune fille",
+            "level": 76,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.69144"],
-            "cNext": ["q.69146"],
-            "patch": "5.0"
+            "cNext": ["q.69146"]
         },
         "x69146": {
-            "level": 76,
             "name_en": "Free Trade",
             "name_fr": "Des Mords sans le souq",
+            "level": 76,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.69145"],
-            "cNext": ["q.69022", "q.69024", "q.69025", "q.69026", "q.69027", "q.69023", "q.69147"],
-            "patch": "5.0"
+            "cNext": ["q.69022", "q.69024", "q.69025", "q.69026", "q.69027", "q.69023", "q.69147"]
         },
         "x69147": {
-            "level": 76,
             "name_en": "The Trolley Problem",
             "name_fr": "Les chariots de Biran",
+            "level": 76,
             "npc_en": "Zhun Zun",
             "npc_fr": "Zhun Zun",
+            "patch": "5.0",
             "cPrev": ["q.69146"],
-            "cNext": ["q.69148"],
-            "patch": "5.0"
+            "cNext": ["q.69148"]
         },
         "x69148": {
-            "level": 76,
             "name_en": "Rust and Ruin",
             "name_fr": "Un fâcheux chagrin",
+            "level": 76,
             "npc_en": "Thaffe",
             "npc_fr": "Thaffe",
+            "patch": "5.0",
             "cPrev": ["q.69147"],
-            "cNext": ["q.69149"],
-            "patch": "5.0"
+            "cNext": ["q.69149"]
         },
         "x69149": {
-            "level": 76,
             "name_en": "On Track",
             "name_fr": "Réparateurs sur rails",
+            "level": 76,
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
+            "patch": "5.0",
             "cPrev": ["q.69148"],
             "cNext": [
                 "q.69039",
@@ -810,178 +814,178 @@
                 "q.69031",
                 "q.69042",
                 "q.69044"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x69150": {
-            "level": 76,
             "name_en": "Down for Maintenance",
             "name_fr": "Le talos de la dernière chance",
+            "level": 76,
             "npc_en": "Jeryk",
             "npc_fr": "Jeryk",
+            "patch": "5.0",
             "cPrev": ["q.69149"],
-            "cNext": ["q.69151"],
-            "patch": "5.0"
+            "cNext": ["q.69151"]
         },
         "x69151": {
-            "level": 76,
             "name_en": "The Truth Hurts",
             "name_fr": "Noyaux dans les mines",
+            "level": 76,
             "npc_en": "Jeryk",
             "npc_fr": "Jeryk",
+            "patch": "5.0",
             "cPrev": ["q.69150"],
-            "cNext": ["q.69047", "q.69152", "q.69035"],
-            "patch": "5.0"
+            "cNext": ["q.69047", "q.69152", "q.69035"]
         },
         "x69152": {
-            "level": 77,
             "name_en": "A Convenient Distraction",
             "name_fr": "Une pièce qui vaut son pesant d'or",
+            "level": 77,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.69151"],
-            "cNext": ["q.69153"],
-            "patch": "5.0"
+            "cNext": ["q.69153"]
         },
         "x69153": {
-            "level": 77,
             "name_en": "A Dirty Job",
             "name_fr": "L'œil de lion",
+            "level": 77,
             "npc_en": "Guthjon",
             "npc_fr": "Guthjon",
+            "patch": "5.0",
             "cPrev": ["q.69152"],
-            "cNext": ["q.69061", "q.69154"],
-            "patch": "5.0"
+            "cNext": ["q.69061", "q.69154"]
         },
         "x69154": {
-            "level": 77,
             "name_en": "Have a Heart",
             "name_fr": "Un testament précieux",
+            "level": 77,
             "npc_en": "Guthjon",
             "npc_fr": "Guthjon",
+            "patch": "5.0",
             "cPrev": ["q.69153"],
-            "cNext": ["q.69155"],
-            "patch": "5.0"
+            "cNext": ["q.69155"]
         },
         "x69155": {
-            "level": 77,
             "name_en": "Full Steam Ahead",
             "name_fr": "Sur les rails de Nabaath Areng",
+            "level": 77,
             "npc_en": "Magnus",
             "npc_fr": "Magnus",
+            "patch": "5.0",
             "cPrev": ["q.69154"],
-            "cNext": ["q.69156"],
-            "patch": "5.0"
+            "cNext": ["q.69156"]
         },
         "x69156": {
-            "level": 77,
             "name_en": "Crossing Paths",
             "name_fr": "La prêtresse de la Lumière",
+            "level": 77,
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
+            "patch": "5.0",
             "cPrev": ["q.69155"],
-            "cNext": ["q.69157"],
-            "patch": "5.0"
+            "cNext": ["q.69157"]
         },
         "x69157": {
-            "level": 77,
             "name_en": "A Fresh Start",
             "name_fr": "Le Puits de Malikah",
-            "unlock": ["d.656", "travel.aether-currents.shb.amh-araeng.14"],
+            "level": 77,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["d.656", "travel.aether-currents.shb.amh-araeng.14"],
+            "patch": "5.0",
             "cPrev": ["q.69156"],
             "cNext": ["q.69158", "q.69066", "q.69067", "q.69068"],
-            "cSiblings": ["travel.aether-currents.shb.amh-araeng.14"],
-            "patch": "5.0"
+            "cSiblings": ["d.656", "travel.aether-currents.shb.amh-araeng.14"]
         },
         "x69158": {
-            "level": 77,
             "name_en": "More than a Hunch",
             "name_fr": "Douleurs de Lumière",
+            "level": 77,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "patch": "5.0",
             "cPrev": ["q.69157"],
             "cNext": ["q.69069", "q.69166"],
-            "cSiblings": ["a.2296"],
-            "patch": "5.0"
+            "cSiblings": ["a.2296"]
         },
         "x69166": {
-            "level": 77,
             "name_en": "Return to Eulmore",
             "name_fr": "Retour à Kholusia",
+            "level": 77,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "patch": "5.0",
             "cPrev": ["q.69158"],
-            "cNext": ["q.69167"],
-            "patch": "5.0"
+            "cNext": ["q.69167"]
         },
         "x69167": {
-            "level": 77,
             "name_en": "A Feast of Lies",
             "name_fr": "Une ignoble vérité",
+            "level": 77,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.69166"],
-            "cNext": ["q.69168"],
-            "patch": "5.0"
+            "cNext": ["q.69168"]
         },
         "x69168": {
-            "level": 77,
             "name_en": "Paradise Fallen",
             "name_fr": "Dur réveil pour Eulmore",
+            "level": 77,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.69167"],
-            "cNext": ["q.69169", "q.69055", "q.69056", "q.69059", "q.69060", "q.69052", "q.69054", "q.69057", "q.69058"],
-            "patch": "5.0"
+            "cNext": ["q.69169", "q.69055", "q.69056", "q.69059", "q.69060", "q.69052", "q.69054", "q.69057", "q.69058"]
         },
         "x69169": {
-            "level": 78,
             "name_en": "The Ladder",
             "name_fr": "Le compte est bon",
+            "level": 78,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "5.0",
             "cPrev": ["q.69168"],
-            "cNext": ["q.69170"],
-            "patch": "5.0"
+            "cNext": ["q.69170"]
         },
         "x69170": {
-            "level": 78,
             "name_en": "The View from Above",
             "name_fr": "La grande ascension",
+            "level": 78,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.69169"],
-            "cNext": ["q.69079", "q.69080", "q.69081", "q.69171"],
-            "patch": "5.0"
+            "cNext": ["q.69079", "q.69080", "q.69081", "q.69171"]
         },
         "x69171": {
-            "level": 78,
             "name_en": "In Mt. Gulg's Shadow",
             "name_fr": "Objectif Gulg",
+            "level": 78,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.69170"],
-            "cNext": ["q.69172"],
-            "patch": "5.0"
+            "cNext": ["q.69172"]
         },
         "x69172": {
-            "level": 78,
             "name_en": "A Gigantic Undertaking",
             "name_fr": "Une idée géante",
+            "level": 78,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.69171"],
-            "cNext": ["q.69173"],
-            "patch": "5.0"
+            "cNext": ["q.69173"]
         },
         "x69173": {
-            "level": 78,
             "name_en": "Meet the Tholls",
-            "name_fr": "Pan dans ta barbe!",
+            "name_fr": "Pan dans ta barbe !",
+            "level": 78,
             "npc_en": "Tristol",
             "npc_fr": "Tristol",
+            "patch": "5.0",
             "cPrev": ["q.69172"],
             "cNext": [
                 "q.69092",
@@ -997,117 +1001,119 @@
                 "q.69088",
                 "q.69090",
                 "q.69174"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x69174": {
-            "level": 78,
             "name_en": "A-Digging We Will Go",
             "name_fr": "Un Nain sous bonne escorte",
+            "level": 78,
             "npc_en": "Xamott",
             "npc_fr": "Xamott",
+            "patch": "5.0",
             "cPrev": ["q.69173"],
-            "cNext": ["q.69175"],
-            "patch": "5.0"
+            "cNext": ["q.69175"]
         },
         "x69175": {
-            "level": 78,
             "name_en": "The Duergar's Tewel",
             "name_fr": "La guerre des barbes",
+            "level": 78,
             "npc_en": "Korutt",
             "npc_fr": "Korutt",
+            "patch": "5.0",
             "cPrev": ["q.69174"],
-            "cNext": ["q.69176"],
-            "patch": "5.0"
+            "cNext": ["q.69176"]
         },
         "x69176": {
-            "level": 78,
             "name_en": "Rich Veins of Hope",
             "name_fr": "Bonnes pioches",
+            "level": 78,
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
+            "patch": "5.0",
             "cPrev": ["q.69175"],
-            "cNext": ["q.69073", "q.69075", "q.69076", "q.69078", "q.69082", "q.69177", "q.69074"],
-            "patch": "5.0"
+            "cNext": ["q.69073", "q.69075", "q.69076", "q.69078", "q.69082", "q.69177", "q.69074"]
         },
         "x69177": {
-            "level": 78,
             "name_en": "That None Shall Ever Again",
             "name_fr": "La contribution du peuple de la Nuit",
+            "level": 78,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "tto.9",
+            "patch": "5.0",
             "cPrev": ["q.69176"],
-            "cNext": ["q.69178"],
-            "patch": "5.0"
+            "cNext": ["q.69178"]
         },
         "x69178": {
-            "level": 78,
             "name_en": "A Breath of Respite",
             "name_fr": "Un dernier instant de répit",
+            "level": 78,
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
+            "patch": "5.0",
             "cPrev": ["q.69177"],
-            "cNext": ["q.69179"],
-            "patch": "5.0"
+            "cNext": ["q.69179"]
         },
         "x69179": {
-            "level": 79,
             "name_en": "Extinguishing the Last Light",
             "name_fr": "Le dernier grand purgateur",
-            "unlock": ["d.659", "d.666", "travel.aether-currents.shb.kholusia.14"],
+            "level": 79,
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
+            "unlock": ["d.659", "d.666", "travel.aether-currents.shb.kholusia.14"],
+            "patch": "5.0",
             "cPrev": ["q.69178"],
             "cNext": ["q.69180"],
-            "cSiblings": ["a.2297", "travel.aether-currents.shb.kholusia.14"],
-            "patch": "5.0"
+            "cSiblings": ["d.659", "d.666", "a.2297", "travel.aether-currents.shb.kholusia.14"]
         },
         "x69180": {
-            "level": 79,
             "name_en": "Reassuring the Masses",
             "name_fr": "Lendemain de défaite",
+            "level": 79,
             "npc_en": "Manager of Suites",
             "npc_fr": "Intendant Des Pendants",
+            "unlock": "tto.41",
+            "patch": "5.0",
             "cPrev": ["q.69179"],
-            "cNext": ["q.69181"],
-            "patch": "5.0"
+            "cNext": ["q.69181"]
         },
         "x69181": {
-            "level": 79,
             "name_en": "In His Garden",
             "name_fr": "Sur les traces de l'exarque",
+            "level": 79,
             "npc_en": "Katliss",
             "npc_fr": "Katliss",
+            "patch": "5.0",
             "cPrev": ["q.69180"],
-            "cNext": ["q.69182"],
-            "patch": "5.0"
+            "cNext": ["q.69182"]
         },
         "x69182": {
-            "level": 79,
             "name_en": "The Unbroken Thread",
             "name_fr": "Le messager de l'espoir",
+            "level": 79,
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
+            "patch": "5.0",
             "cPrev": ["q.69181"],
-            "cNext": ["q.69100", "q.69101", "q.69103", "q.69102", "q.69104", "q.69183"],
-            "patch": "5.0"
+            "cNext": ["q.69100", "q.69101", "q.69103", "q.69102", "q.69104", "q.69183"]
         },
         "x69183": {
-            "level": 79,
             "name_en": "To Storm-tossed Seas",
             "name_fr": "Le grand plongeon",
+            "level": 79,
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
+            "patch": "5.0",
             "cPrev": ["q.69182"],
-            "cNext": ["q.69105", "q.69106", "q.69107", "q.69110", "q.69108", "q.69111", "q.69109", "q.69184"],
-            "patch": "5.0"
+            "cNext": ["q.69105", "q.69106", "q.69107", "q.69110", "q.69108", "q.69111", "q.69109", "q.69184"]
         },
         "x69184": {
-            "level": 79,
             "name_en": "Waiting in the Depths",
             "name_fr": "Randonnée sous-marine",
+            "level": 79,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "5.0",
             "cPrev": ["q.69183"],
             "cNext": [
                 "q.69124",
@@ -1123,68 +1129,68 @@
                 "q.69116",
                 "q.69119",
                 "q.69123"
-            ],
-            "patch": "5.0"
+            ]
         },
         "x69185": {
-            "level": 79,
             "name_en": "City of the Ancients",
             "name_fr": "Les vestiges des anciens",
+            "level": 79,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.69184"],
-            "cNext": ["q.69186"],
-            "patch": "5.0"
+            "cNext": ["q.69186"]
         },
         "x69186": {
-            "level": 79,
             "name_en": "The Light of Inspiration",
-            "name_fr": "Un visage connu?",
+            "name_fr": "Un visage connu ?",
+            "level": 79,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "5.0",
             "cPrev": ["q.69185"],
-            "cNext": ["q.69187"],
-            "patch": "5.0"
+            "cNext": ["q.69187"]
         },
         "x69187": {
-            "level": 80,
             "name_en": "The Illuminated Land",
             "name_fr": "L'étendue nitescente",
+            "level": 80,
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
+            "patch": "5.0",
             "cPrev": ["q.69186"],
-            "cNext": ["q.69188"],
-            "patch": "5.0"
+            "cNext": ["q.69188"]
         },
         "x69188": {
-            "level": 80,
             "name_en": "The End of a World",
             "name_fr": "La cité des ombres",
+            "level": 80,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "patch": "5.0",
             "cPrev": ["q.69187"],
-            "cNext": ["q.69189", "q.69128", "q.69129", "q.69130"],
-            "patch": "5.0"
+            "cNext": ["q.69189", "q.69128", "q.69129", "q.69130"]
         },
         "x69189": {
-            "level": 80,
             "name_en": "A Greater Purpose",
             "name_fr": "Le fardeau d'Emet-Selch",
-            "unlock": "travel.aether-currents.shb.the-tempest.14",
+            "level": 80,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "travel.aether-currents.shb.the-tempest.14",
+            "patch": "5.0",
             "cPrev": ["q.69188"],
             "cNext": ["q.69190"],
-            "cSiblings": ["travel.aether-currents.shb.the-tempest.14"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.14"]
         },
         "x69190": {
-            "level": 80,
             "name_en": "Shadowbringers",
             "name_fr": "Porteurs d'ombre",
-            "unlock": ["d.652", "d.687", "mi.306"],
+            "level": 80,
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
+            "unlock": ["d.652", "d.687", "mi.306", "tto.61"],
+            "patch": "5.0",
             "cPrev": ["q.69189"],
             "cNext": [
                 "q.69137",
@@ -1215,8 +1221,7 @@
                 "q.68762",
                 "q.69569"
             ],
-            "cSiblings": ["a.2298"],
-            "patch": "5.0"
+            "cSiblings": ["d.652", "d.687", "a.2298"]
         }
     }
 }

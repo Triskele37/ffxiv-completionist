@@ -3,141 +3,158 @@
     "groupName_en": "Coerthas",
     "groupName_fr": "Coerthas",
     "tasks": {
-        "x0": {
+        "x26": {
             "name_en": "Coerthas River",
             "name_fr": "Rivière Coerthas",
-            "level": "35",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 35,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(20, 30)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x1": {
+        "x31": {
             "name_en": "Daniffen Pass",
             "name_fr": "Défilé de Daniffen",
-            "level": "35",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 35,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(13, 23)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x2": {
+        "x28": {
             "name_en": "The Nail",
             "name_fr": "L'Épée",
-            "level": "40",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 40,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(16, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x3": {
+        "x30": {
             "name_en": "Dragonhead Latrines",
             "name_fr": "Camp de la Tête du dragon",
-            "level": "40",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 40,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(28, 17)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x4": {
+        "x32": {
             "name_en": "Exploratory Ice Hole",
             "name_fr": "Puits de glace",
-            "level": "40",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 40,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(6, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x5": {
+        "x29": {
             "name_en": "The Weeping Saint",
             "name_fr": "Le Saint affligé",
-            "level": "45",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 45,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(31, 7)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x6": {
+        "x33": {
             "name_en": "Snowcloak",
             "name_fr": "Manteneige",
-            "level": "45",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 45,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(3, 21)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
-        "x7": {
+        "x34": {
             "name_en": "Sea of Clouds",
             "name_fr": "Mer de nuages d'Ishgard",
-            "level": "45",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 45,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(13, 14)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.SKYFISHING",
+            "patch": "2.0"
         },
-        "x8": {
+        "x27": {
             "name_en": "Witchdrop",
             "name_fr": "Gouffre des hérétiques",
-            "level": "50",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "level": 50,
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(33, 18)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.SKYFISHING",
+            "patch": "2.0"
         },
-        "x9": {
+        "x109": {
             "name_en": "Riversmeet",
             "name_fr": "Deux-Rivières",
-            "level": "50",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 50,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(32, 27)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x10": {
+        "x110": {
             "name_en": "Greytail Falls",
             "name_fr": "Chutes de Grisequeue",
-            "level": "51",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 51,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(35, 26)",
-            "type": "@FISH.TYPE.CLOUDFISHING"
+            "type": "@FISH.TYPE.SKYFISHING",
+            "patch": "3.0"
         },
-        "x11": {
+        "x111": {
             "name_en": "Unfrozen Pond",
             "name_fr": "Étang dégelé",
-            "level": "52",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 52,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(28, 18)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x12": {
+        "x112": {
             "name_en": "Clearpool",
             "name_fr": "Clairétang",
-            "level": "60",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 60,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(36, 6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x13": {
+        "x113": {
             "name_en": "Dragonspit",
-            "name_fr": "Galire-de-dragon",
-            "level": "60",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "name_fr": "Glaire-de-dragon",
+            "level": 60,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(8, 10)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x14": {
+        "x114": {
             "name_en": "South Banepool",
             "name_fr": "Malétang (berge sud)",
-            "level": "53",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 53,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(21, 11)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x15": {
+        "x115": {
             "name_en": "Ashpool",
             "name_fr": "Cendrétang",
-            "level": "52",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 52,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(14, 15)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         },
-        "x16": {
+        "x116": {
             "name_en": "West Banepool",
             "name_fr": "Malétang (berge ouest)",
-            "level": "53",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "level": 53,
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(13, 8)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "3.0"
         }
     }
 }

@@ -1,0 +1,79 @@
+<td
+    data-active-help="APP.ACTIVE_HELP.TABLE.ROW_ACTIONS"
+    class="actions-cell noSelect"
+>
+    @let icon = expanded() ? 'pi-chevron-right' : 'pi-chevron-left';
+    <button
+        pButton
+        class="action-dial p-button-text p-button-rounded p-button-plain p-mr-2"
+        [pTooltip]="expanded() ? '' : ('APP.TABLE.ROW_ACTION.TITLE' | translate)"
+        tooltipPosition="left"
+        (click)="onDialClick()"
+    >
+        <span class="pi {{icon}}"></span>
+    </button>
+
+    @if(expanded()) {
+        <div class="actions-container">
+            <div class="actions noSelect">
+                <com-console-games-action
+                    [task]="task"
+                    (clicked)="onCloseActions()"
+                ></com-console-games-action>
+
+                <com-gamer-escape-action
+                    [task]="task"
+                    (clicked)="onCloseActions()"
+                ></com-gamer-escape-action>
+
+                <com-garland-action
+                    [task]="task"
+                    (clicked)="onCloseActions()"
+                ></com-garland-action>
+
+                @if(showCopyId()) {
+                    <span>
+                        <div
+                            class="action mi mi-content-copy"
+                            tooltipPosition="top"
+                            pTooltip="Copy ID"
+                            (click)="copyTaskId()"
+                        ></div>
+                    </span>
+                }
+
+                @if(!task._parent.isCustomGroup && !task._parent.disableCompletion) {
+                    <span>
+                        <div
+                            class="action mi mi-remove-red-eye"
+                            [pTooltip]="'APP.TABLE.ROW_ACTION.VIEW_CHAINS' | translate"
+                            tooltipPosition="top"
+                            (click)="onOpenChainViewer()"
+                        ></div>
+                    </span>
+
+                    <com-bookmark-action
+                        [task]="task"
+                        (clicked)="onCloseActions()"
+                    ></com-bookmark-action>
+                }
+
+                @if(task._parent.draggable) {
+                    <com-drag-action
+                        [rowIndex]="rowIndex"
+                    ></com-drag-action>
+                }
+
+                <span>
+                    <button
+                        pButton
+                        class="action close-dial"
+                        (click)="onDialClick()"
+                    >
+                        <span class="pi pi-chevron-right"></span>
+                    </button>
+                </span>
+            </div>
+        </div>
+    }
+</td>

@@ -8,8 +8,8 @@
             "name_fr": "Les Ailes du courage I",
             "description_en": "Participate in a Rival Wings campaign.",
             "description_fr": "Participer pour la première fois aux Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 5,
+            "patch": "4.15",
             "cNext": ["a.1933"]
         },
         "x1933": {
@@ -17,8 +17,8 @@
             "name_fr": "Les Ailes du courage II",
             "description_en": "Participate in a Rival Wings campaign 50 times.",
             "description_fr": "Participer à 50 batailles des Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 5,
+            "patch": "4.15",
             "cPrev": ["a.1932"],
             "cNext": ["a.1934"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "Les Ailes du courage III",
             "description_en": "Participate in a Rival Wings campaign 100 times.",
             "description_fr": "Participer à 100 batailles des Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 5,
+            "patch": "4.15",
             "cPrev": ["a.1933"],
             "cNext": ["a.1935"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "Les Ailes du courage IV",
             "description_en": "Participate in a Rival Wings campaign 500 times.",
             "description_fr": "Participer à 500 batailles des Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 10,
+            "patch": "4.15",
             "cPrev": ["a.1934"],
             "cNext": ["a.1936"]
         },
@@ -47,9 +47,9 @@
             "name_fr": "Les Ailes du courage V",
             "description_en": "Participate in a Rival Wings campaign 1,000 times.",
             "description_fr": "Participer à 1 000 batailles des Ailes rivales (machinerie).",
+            "points": 20,
             "reward": "t.120",
             "patch": "4.15",
-            "points": 20,
             "cPrev": ["a.1935"],
             "cSiblings": ["t.120"]
         },
@@ -58,8 +58,8 @@
             "name_fr": "Les Ailes du triomphe I",
             "description_en": "Emerge victorious in a Rival Wings campaign.",
             "description_fr": "Triompher pour la première fois aux Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 5,
+            "patch": "4.15",
             "cNext": ["a.1938"]
         },
         "x1938": {
@@ -67,8 +67,8 @@
             "name_fr": "Les Ailes du triomphe II",
             "description_en": "Emerge victorious in a Rival Wings campaign 50 times.",
             "description_fr": "Triompher 50 fois aux Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 5,
+            "patch": "4.15",
             "cPrev": ["a.1937"],
             "cNext": ["a.1939"]
         },
@@ -77,9 +77,9 @@
             "name_fr": "Les Ailes du triomphe III",
             "description_en": "Emerge victorious in a Rival Wings campaign 100 times.",
             "description_fr": "Triompher 100 fois aux Ailes rivales (machinerie).",
+            "points": 5,
             "reward": "mo.141",
             "patch": "4.15",
-            "points": 5,
             "cPrev": ["a.1938"],
             "cNext": ["a.1940"]
         },
@@ -88,8 +88,8 @@
             "name_fr": "Les Ailes du triomphe IV",
             "description_en": "Emerge victorious in a Rival Wings campaign 500 times.",
             "description_fr": "Triompher 500 fois aux Ailes rivales (machinerie).",
-            "patch": "4.15",
             "points": 10,
+            "patch": "4.15",
             "cPrev": ["a.1939"],
             "cNext": ["a.1941"]
         },
@@ -98,9 +98,9 @@
             "name_fr": "Les Ailes du triomphe V",
             "description_en": "Emerge victorious in a Rival Wings campaign 1,000 times.",
             "description_fr": "Triompher 1 000 fois aux Ailes rivales (machinerie).",
+            "points": 20,
             "reward": "t.121",
             "patch": "4.15",
-            "points": 20,
             "cPrev": ["a.1940"],
             "cSiblings": ["t.121"]
         },
@@ -109,9 +109,9 @@
             "name_fr": "Les Ailes dérobées",
             "description_en": "Emerge victorious in a Hidden Gorge campaign 100 times.",
             "description_fr": "Triompher 100 fois à Gorge dérobée (machinerie).",
+            "points": 5,
             "reward": "mo.185",
-            "patch": "4.55",
-            "points": 5
+            "patch": "4.55"
         }
     }
 }

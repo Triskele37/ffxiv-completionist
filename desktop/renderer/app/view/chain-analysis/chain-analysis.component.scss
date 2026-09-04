@@ -1,0 +1,76 @@
+.chain-analysis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .header {
+        padding-bottom: var(--content-padding);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .chaining-toggle {
+            display: flex;
+            align-items: center;
+            gap: var(--content-padding);
+        }
+    }
+
+    .issue-table {
+        flex-grow: 1;
+        overflow: auto;
+
+        td {
+            vertical-align: middle;
+            padding: 0;
+        }
+
+        .chain-view-button {
+            vertical-align: middle;
+
+            i {
+                height: 24px;
+                width: 24px;
+            }
+        }
+
+        .issue-description {
+            padding: 0 10px;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        com-complete-cell ::ng-deep td {
+            width: 100px;
+        }
+    }
+
+    .hover-target {
+        display: contents;
+        &:hover ::ng-deep {
+            $top-inset: inset 0 2px var(--primary-color);
+            $bot-inset: inset 0 -2px var(--primary-color);
+
+            > tr:first-child td {
+                &:not(.completion-flag-cell:hover, .completion-number-cell:hover) {
+                    box-shadow: $top-inset;
+                }
+            }
+
+            > tr:first-child td[rowspan], > tr:first-child:last-child td {
+                &:not(.completion-flag-cell:hover, .completion-number-cell:hover) {
+                    box-shadow: $top-inset, $bot-inset;
+                }
+            }
+
+            > tr:last-child td {
+                &:not(.completion-flag-cell:hover, .completion-number-cell:hover) {
+                    box-shadow: $bot-inset;
+                }
+            }
+        }
+    }
+
+    .issue-row {
+    }
+}

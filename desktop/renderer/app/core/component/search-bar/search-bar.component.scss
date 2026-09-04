@@ -1,0 +1,45 @@
+@use './sizes';
+
+:host {
+    display: contents;
+
+    .home-button {
+        position: absolute;
+        font-weight: bold;
+        border-radius: 0;
+        width: sizes.$nav-drawer-width;
+        height: sizes.$main-menu-button-height;
+        left: 0;
+        top: 0;
+    }
+
+    .search-bar {
+        position: absolute;
+        width: 250px;
+        top: sizes.$main-menu-button-height;
+
+        // Fixes issue when built where button is offset
+        display: flex;
+
+        ::ng-deep .p-inputtext {
+            width: calc(#{sizes.$nav-drawer-width} - #{sizes.$search-button-size});
+            height: sizes.$search-button-size;
+            border-radius: 0;
+            border-bottom: 1px solid var(--primary-color);
+
+            &.success {
+                box-shadow: inset 0 0 15px var(--completed);
+            }
+
+            &.failure {
+                box-shadow: inset 0 0 15px var(--incomplete);
+            }
+        }
+
+        .p-button {
+            border-radius: 0;
+            height: sizes.$search-button-size;
+            width: sizes.$search-button-size;
+        }
+    }
+}

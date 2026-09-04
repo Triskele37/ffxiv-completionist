@@ -8,8 +8,8 @@
             "name_fr": "Alchimiste d'acier : Amateur",
             "description_en": "Successfully synthesize 50 times for level 1-10 alchemy recipes.",
             "description_fr": "Réaliser 50 synthèses d'alchimie de niveau 1 à 10.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.178"]
         },
         "x174": {
@@ -17,8 +17,8 @@
             "name_fr": "Alchimiste d'acier : Recrue",
             "description_en": "Successfully synthesize 300 times for level 11-20 alchemy recipes.",
             "description_fr": "Réaliser 300 synthèses d'alchimie de niveau 11 à 20.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.178"]
         },
         "x175": {
@@ -26,8 +26,8 @@
             "name_fr": "Alchimiste d'acier : Initié",
             "description_en": "Successfully synthesize 750 times for level 21-30 alchemy recipes.",
             "description_fr": "Réaliser 750 synthèses d'alchimie de niveau 21 à 30.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.178"]
         },
         "x176": {
@@ -35,8 +35,8 @@
             "name_fr": "Alchimiste d'acier : Novice",
             "description_en": "Successfully synthesize 1,500 times for level 31-40 alchemy recipes.",
             "description_fr": "Réaliser 1 500 synthèses d'alchimie de niveau 31 à 40.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cCombo": ["a.178"]
         },
         "x177": {
@@ -44,21 +44,21 @@
             "name_fr": "Alchimiste d'acier : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 alchemy recipes.",
             "description_fr": "Réaliser 3 000 synthèses d'alchimie de niveau 41 à 50.",
+            "points": 10,
             "reward": "t.23",
             "patch": "2.0",
-            "points": 10,
-            "cSiblings": ["t.23"],
-            "cCombo": ["a.178"]
+            "cCombo": ["a.178"],
+            "cSiblings": ["t.23"]
         },
         "x178": {
             "name_en": "An Alchemist's Life for Me",
             "name_fr": "Élite des élixirs",
             "description_en": "Obtain the first five “Mixing it Up” achievements.",
             "description_fr": "Accomplir les cinq hauts faits de la série “Alchimiste d'acier”.",
+            "points": 30,
             "reward_en": "Alembic of the Luminary",
             "reward_fr": "Alambic de virtuose",
             "patch": "2.0",
-            "points": 30,
             "cPrev": ["a.173", "a.174", "a.175", "a.176", "a.177"]
         },
         "x1307": {
@@ -66,48 +66,48 @@
             "name_fr": "Alchimiste d'acier : Expert",
             "description_en": "Successfully synthesize 1,000 times for level 51-60 alchemy recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 51 à 60.",
-            "patch": "3.0",
-            "points": 10
+            "points": 10,
+            "patch": "3.0"
         },
         "x1854": {
             "name_en": "Mixing It Up: Veteran",
             "name_fr": "Alchimiste d'acier : Maître",
             "description_en": "Successfully synthesize 1,000 times for level 61-70 alchemy recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 61 à 70.",
-            "patch": "4.0",
-            "points": 10
+            "points": 10,
+            "patch": "4.0"
         },
         "x2286": {
             "name_en": "Mixing It Up: Master",
             "name_fr": "Alchimiste d'acier : Génie",
             "description_en": "Successfully synthesize 1,000 times for level 71-80 alchemy recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 71 à 80.",
-            "patch": "5.0",
-            "points": 10
+            "points": 10,
+            "patch": "5.0"
         },
         "x2934": {
             "name_en": "Mixing It Up: Genius",
             "name_fr": "Alchimiste d'acier : Prodige",
             "description_en": "Successfully synthesize 1,000 times for level 81-90 alchemy recipes.",
             "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 81 à 90.",
-            "patch": "6.0",
-            "points": 10
+            "points": 10,
+            "patch": "6.0"
         },
         "x3473": {
-            "description_en": "Successfully synthesize 1,000 times for level 91-100 alchemy recipes.",
-            "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 91 à 100.",
             "name_en": "Mixing It Up: Exemplar",
             "name_fr": "Alchimiste d'acier : As",
-            "patch": "7.0",
-            "points": 10
+            "description_en": "Successfully synthesize 1,000 times for level 91-100 alchemy recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'alchimie de niveau 91 à 100.",
+            "points": 10,
+            "patch": "7.0"
         },
         "x713": {
             "name_en": "I Made That: Alchemist I",
             "name_fr": "Carnet de notes : alchimiste I",
             "description_en": "Craft and record completion of 30 unique alchemist recipes.",
             "description_fr": "Faire 30 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.714"]
         },
         "x714": {
@@ -115,8 +115,8 @@
             "name_fr": "Carnet de notes : alchimiste II",
             "description_en": "Craft and record completion of 60 unique alchemist recipes.",
             "description_fr": "Faire 60 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.713"],
             "cNext": ["a.715"]
         },
@@ -125,10 +125,10 @@
             "name_fr": "Carnet de notes : alchimiste III",
             "description_en": "Craft and record completion of 110 unique alchemist recipes.",
             "description_fr": "Faire 110 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Master Alchemist's Ring",
             "reward_fr": "Anneau de maître alchimiste",
-            "patch": "2.1",
-            "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.714"],
             "cNext": ["a.1284"]
         },
@@ -137,8 +137,8 @@
             "name_fr": "Carnet de notes : alchimiste IV",
             "description_en": "Craft and record completion of 170 unique alchemist recipes.",
             "description_fr": "Faire 170 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.715"],
             "cNext": ["a.1727"]
         },
@@ -147,10 +147,10 @@
             "name_fr": "Carnet de notes : alchimiste V",
             "description_en": "Craft and record completion of 270 unique alchemist recipes.",
             "description_fr": "Faire 270 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Cauldronkeep's Alembic",
             "reward_fr": "Alambic d'apothicaire béni",
             "patch": "3.5",
-            "points": 10,
             "cPrev": ["a.1284"],
             "cNext": ["a.2172"]
         },
@@ -159,10 +159,10 @@
             "name_fr": "Carnet de notes : alchimiste VI",
             "description_en": "Craft and record completion of 370 unique alchemist recipes.",
             "description_fr": "Faire 370 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
+            "points": 10,
             "reward_en": "Blessed Cauldronking's Alembic",
             "reward_fr": "Alambic du roi de l'apothicairerie béni",
             "patch": "4.5",
-            "points": 10,
             "cPrev": ["a.1727"]
         },
         "x768": {
@@ -170,8 +170,8 @@
             "name_fr": "De main de maître : alchimiste I",
             "description_en": "Craft 100 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'alchimiste.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.769"]
         },
         "x769": {
@@ -179,8 +179,8 @@
             "name_fr": "De main de maître : alchimiste II",
             "description_en": "Craft 500 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'alchimiste.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.768"],
             "cNext": ["a.770"]
         },
@@ -189,8 +189,8 @@
             "name_fr": "De main de maître : alchimiste III",
             "description_en": "Craft 3,000 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'alchimiste.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.769"],
             "cNext": ["a.1319"]
         },
@@ -199,8 +199,8 @@
             "name_fr": "De main de maître : alchimiste IV",
             "description_en": "Craft 5,000 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'alchimiste.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.770"],
             "cNext": ["a.1327"]
         },
@@ -209,9 +209,9 @@
             "name_fr": "De main de maître : alchimiste V",
             "description_en": "Craft 10,000 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant qu'alchimiste.",
+            "points": 10,
             "reward": "t.259",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["a.1319"],
             "cSiblings": ["t.259"]
         },
@@ -220,8 +220,8 @@
             "name_fr": "Alambic d'Azurée I",
             "description_en": "Earn 50,000 points toward your skyward score as an alchemist.",
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'alchimiste.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cNext": ["a.2508"],
             "cCombo": ["a.2522"]
         },
@@ -230,8 +230,8 @@
             "name_fr": "Alambic d'Azurée II",
             "description_en": "Earn 150,000 points toward your skyward score as an alchemist.",
             "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'alchimiste.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cPrev": ["a.2507"],
             "cNext": ["a.2509"]
         },
@@ -240,21 +240,21 @@
             "name_fr": "Alambic d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as an alchemist.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant qu'alchimiste.",
+            "points": 10,
             "reward": "t.496",
             "patch": "5.21",
-            "points": 10,
             "cPrev": ["a.2508"],
-            "cSiblings": ["t.496"],
-            "cCombo": ["a.2524"]
+            "cCombo": ["a.2524"],
+            "cSiblings": ["t.496"]
         },
         "x2533": {
             "name_en": "The Height of Alchemy",
             "name_fr": "Alchimiste du Nichoir",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la deuxième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.509",
             "patch": "5.21",
-            "points": 10,
             "cSiblings": ["t.509"]
         },
         "x2654": {
@@ -262,9 +262,9 @@
             "name_fr": "Alchimiste de Tombeplume",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la troisième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.534",
             "patch": "5.31",
-            "points": 10,
             "cSiblings": ["t.534"]
         },
         "x2813": {
@@ -272,9 +272,9 @@
             "name_fr": "Alchimiste du Nouveau Refrain",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la quatrième phase de reconstruction d'Azurée.",
+            "points": 10,
             "reward": "t.571",
             "patch": "5.41",
-            "points": 10,
             "cSiblings": ["t.571"]
         },
         "x2827": {
@@ -282,9 +282,45 @@
             "name_fr": "Alchimie resplendissante",
             "description_en": "Obtain a resplendent cauldronfiend's alembic.",
             "description_fr": "Obtenir un alambic du fiélon de l'apothicairerie resplendissant.",
-            "patch": "5.5",
             "points": 10,
+            "patch": "5.5",
             "cCombo": ["a.2829"]
+        },
+        "x3720": {
+            "name_en": "Rocket Science I",
+            "name_fr": "Alchimiste du cosmos I",
+            "description_en": "Earn a cosmic class score of 50,000 points as an alchemist.",
+            "description_fr": "Gagner un total de 50 000 points cosmiques en tant qu'alchimiste.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3721": {
+            "name_en": "Rocket Science II",
+            "name_fr": "Alchimiste du cosmos II",
+            "description_en": "Earn a cosmic class score of 150,000 points as an alchemist.",
+            "description_fr": "Gagner un total de 150 000 points cosmiques en tant qu'alchimiste.",
+            "points": 5,
+            "patch": "7.21"
+        },
+        "x3722": {
+            "name_en": "Distilling with the Stars",
+            "name_fr": "Maître alchimiste du cosmos",
+            "description_en": "Earn a cosmic class score of 500,000 points as an alchemist.",
+            "description_fr": "Gagner un total de 500 000 points cosmiques en tant qu'alchimiste.",
+            "points": 10,
+            "reward": "t.788",
+            "patch": "7.21",
+            "cSiblings": ["t.788"]
+        },
+        "x3908": {
+            "name_en": "Master of the Universe: Alchemist",
+            "name_fr": "Alchimiste intersidéral",
+            "description_en": "Earn 500,000 tool mastery points as an alchemist.",
+            "description_fr": "Gagner un total de 500 000 points de maîtrise en tant qu'alchimiste.",
+            "points": 10,
+            "reward": "t.841",
+            "patch": "7.51",
+            "cSiblings": ["t.841"]
         }
     }
 }

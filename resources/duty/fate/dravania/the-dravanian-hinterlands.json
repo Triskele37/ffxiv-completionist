@@ -1,241 +1,241 @@
 {
     "key": "the-dravanian-hinterlands",
-    "groupName": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+    "groupName": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
     "tasks": {
         "x756": {
-            "level": 58,
             "name_en": "Metal Gears Rising",
             "name_fr": "Bouts de ferraille",
+            "level": 58,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(32, 24)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "3.0"
         },
         "x757": {
-            "level": 58,
             "name_en": "Metal Gears Revengeance",
             "name_fr": "Vengeurs de ferraille",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(32, 22)",
-            "patch": "3.0",
-            "previousFate": "f.756",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.756",
+            "patch": "3.0"
         },
         "x758": {
-            "level": 58,
             "name_en": "Metal Gears Revengeance 2",
             "name_fr": "Défi : vengeurs de ferraille II",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31, 22)",
-            "patch": "3.0",
-            "previousFate": "f.757",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.757",
+            "patch": "3.0"
         },
         "x759": {
-            "level": 58,
             "name_en": "Tarantula Hawk, Pro Stinger",
             "name_fr": "Tarentules en rupture de stock",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 30)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x760": {
-            "level": 58,
             "name_en": "Wild Wilde Death",
             "name_fr": "D'une pierre deux nuisibles",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33, 26)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x761": {
-            "level": 58,
             "name_en": "Gets the Red Out",
             "name_fr": "Défi : une épitaphe pour Épaphos",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(38, 22)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x763": {
-            "level": 58,
             "name_en": "Olympus Has Pollen",
             "name_fr": "Rhume des narbroois",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x764": {
-            "level": 58,
             "name_en": "Feed Me, See More",
             "name_fr": "Défi : Ruginis à éliminer",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(36, 24)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x766": {
-            "level": 58,
             "name_en": "Pop Goes the Whizzle",
             "name_fr": "Mécanismes à enrayer",
+            "level": 58,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(21, 18)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "3.0"
         },
         "x767": {
-            "level": 58,
             "name_en": "Revenge of the Vengeful Revengeance",
             "name_fr": "Défi : Moundrinix le virtuose",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(22, 18)",
-            "patch": "3.0",
-            "previousFate": "f.766",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.766",
+            "patch": "3.0"
         },
         "x768": {
-            "level": 58,
             "name_en": "Ratel and Hum",
             "name_fr": "Ratels au casse-pipe",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(37, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x769": {
-            "level": 58,
             "name_en": "Dobharch Did It for the Best",
             "name_fr": "Défi : Dobharch la matriarche",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(28, 26)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x770": {
-            "level": 58,
             "name_en": "Infant Vangob",
             "name_fr": "Écrabouillage d'Écrabouilleuse",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x772": {
-            "level": 58,
             "name_en": "On Melancholic Hill",
             "name_fr": "Défi : broyer du Moira",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x773": {
-            "level": 58,
             "name_en": "Sun Bear, Sun Bear, What Do You Eat",
             "name_fr": "Bruan aime, bruan reste",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 22)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x774": {
-            "level": 58,
             "name_en": "The Bear Up There",
             "name_fr": "Défi : Dubhe ration",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(7, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x775": {
-            "level": 58,
             "name_en": "The Birds and the Bears",
             "name_fr": "Pauvres bruans",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 29)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x779": {
-            "level": 58,
             "name_en": "Toss 'Em Back",
             "name_fr": "Vilains opkens",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(11, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x780": {
-            "level": 58,
             "name_en": "Tome Raider",
             "name_fr": "Le bien dérobé d'un bibliophile voleur",
+            "level": 58,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(13, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "3.0"
         },
         "x785": {
-            "level": 58,
             "name_en": "Out of the Woodwork",
             "name_fr": "Prendre les gens pour des cocons",
+            "level": 58,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(10, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x786": {
-            "level": 58,
             "name_en": "Silkworm",
             "name_fr": "Défi : défiler Habetrot",
+            "level": 58,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 19)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x762": {
-            "level": 59,
             "name_en": "Makes the Very Best...Nests",
             "name_fr": "Le bal des demoiselles",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 34)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x771": {
-            "level": 59,
             "name_en": "Morbol Man",
             "name_fr": "Morbol d'air frais",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x777": {
-            "level": 59,
             "name_en": "Poroggo Stuck",
             "name_fr": "Escorte de poroggo",
+            "level": 59,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(10, 30)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "3.0"
         },
         "x778": {
-            "level": 59,
             "name_en": "Frog Days of Summer",
             "name_fr": "Des poroggos courroucés",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20, 37)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x781": {
-            "level": 59,
             "name_en": "Cockatrice Block",
             "name_fr": "Cocatrix de bibliothèque",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 38)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x782": {
-            "level": 59,
             "name_en": "Come Shells or High Water",
             "name_fr": "Biféricéras à terrasser",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x783": {
-            "level": 59,
             "name_en": "Toad Alone",
             "name_fr": "Défi : triste Bero Roggo",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(11, 34)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x784": {
-            "level": 59,
             "name_en": "How Do You Feed a Hungry Manlike Monster",
             "name_fr": "Défi : un poisson bipède et vorace",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(14, 36)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         }
     }
 }

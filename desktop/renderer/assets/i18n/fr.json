@@ -1,0 +1,523 @@
+{
+    "APP": {
+        "NAME": "FFXIV Completionist",
+        "VERSION": "Version",
+        "ACTIVE_HELP": {
+            "ACTIVE_HELP": {
+                "SUMMARY": "Active Help Toggle",
+                "DETAIL": "Toggles display of the active help tool",
+                "NO_SELECTION": {
+                    "SUMMARY": "Active Help Enabled",
+                    "DETAIL": "Hover something for more info"
+                }
+            },
+            "BOOKMARK_VIEW": {
+                "SUMMARY": "Bookmarks",
+                "DETAIL": "Navigates to the bookmarks page"
+            },
+            "CHAIN_ANALYSIS": {
+                "SUMMARY": "Chain Analysis",
+                "DETAIL": "Display tasks out of sync with other tasks"
+            },
+            "CHAIN_OVERLAY": {
+                "SUMMARY": "Chain Overlay",
+                "DETAIL": "Review changes caused by task completion",
+                "UNDO": {
+                    "SUMMARY": "Undo Chain",
+                    "DETAIL": "Undo the most recent chain of completion changes"
+                },
+                "CHAIN_START": {
+                    "SUMMARY": "Chain Start",
+                    "DETAIL": "Shows the task that caused the current set of completion changes"
+                },
+                "CHAINED_GROUPS": {
+                    "SUMMARY": "Chained Tasks",
+                    "DETAIL": "Shows all tasks changed by the current chain"
+                },
+                "CHAIN_HISTORY": {
+                    "SUMMARY": "Chain History",
+                    "DETAIL": "View the task that started previous chains. Undo the current chain first to undo or view their information"
+                }
+            },
+            "CHAIN_VIEW": {
+                "SUMMARY": "Chain Viewer",
+                "DETAIL": "Show how tasks are linked. Click content links to change target task",
+                "DEPTH": {
+                    "SUMMARY": "Max Chain Depth",
+                    "DETAIL": "Adjust how many tasks are displayed"
+                },
+                "RETURN": {
+                    "SUMMARY": "Return to Root",
+                    "DETAIL": "Return chain viewer's root to the task it was opened with"
+                }
+            },
+            "CONTENT_LINK": {
+                "GROUP": {
+                    "SUMMARY": "Group Content Link",
+                    "DETAIL": "Opens the group shown"
+                },
+                "TASK": {
+                    "SUMMARY": "Task Content Link",
+                    "DETAIL": "Opens the task shown"
+                }
+            },
+            "CUSTOM_VIEW": {
+                "SUMMARY": "Custom Content",
+                "DETAIL": "Create and manage custom content",
+                "CUSTOM_COLUMN_NAME": {
+                    "SUMMARY": "Column Name",
+                    "DETAIL": "Type of information in the column"
+                },
+                "CUSTOM_TASK_ROW": {
+                    "SUMMARY": "Task Row",
+                    "DETAIL": "Shows information on the row's task. Click to select and/or edit. Reorder using row action menu"
+                }
+            },
+            "CUSTOM_CONTENT_OVERLAY": {
+                "SUMMARY": "Custom Content Overlay",
+                "DETAIL": "Manage custom content in the current group",
+                "IMPORT_GROUP": {
+                    "SUMMARY": "Import Group",
+                    "DETAIL": "Import a custom content from a JSON file compatible with the app"
+                },
+                "EXPORT_GROUP": {
+                    "SUMMARY": "Export Group",
+                    "DETAIL": "Save the current group, its tasks, and sub-groups for backup or sharing"
+                }
+            },
+            "HISTORY_OVERLAY": {
+                "SUMMARY": "Navigation History",
+                "DETAIL": "Navigate to recently visited groups"
+            },
+            "MAIN_MENU": {
+                "SUMMARY": "Main Menu",
+                "DETAIL": "Toggle main menu items"
+            },
+            "MERGE_OVERLAY": {
+                "SUMMARY": "Merge Overlay",
+                "DETAIL": "Apply custom task completion to the app's standard tasks",
+                "AUTO_MERGE": {
+                    "SUMMARY": "Auto Merge",
+                    "DETAIL": "Automatically merge tasks matching one app task, then delete the custom task"
+                },
+                "MANUAL_MERGE": {
+                    "SUMMARY": "Manual Merge",
+                    "DETAIL": "Choose which task each custom task should be merged with when there is more than one possible match"
+                }
+            },
+            "NAV_BAR": {
+                "PREVIOUS_GROUP": {
+                    "SUMMARY": "Back Button",
+                    "DETAIL": "Return to the previously opened group"
+                },
+                "GO_TO_PARENT": {
+                    "SUMMARY": "Parent Button",
+                    "DETAIL": "Go to the group containing the current group"
+                },
+                "SHOW_ALL_TOGGLE": {
+                    "SUMMARY": "Show All Toggle",
+                    "DETAIL": "Toggle showing tasks from the current group and all of its sub-groups together"
+                },
+                "BREADCRUMBS": {
+                    "SUMMARY": "Breadcrumbs",
+                    "DETAIL": "Shows the path to the current group. Restored when reopening the app"
+                },
+                "BREADCRUMB": {
+                    "SUMMARY": "Breadcrumb",
+                    "DETAIL": "Navigate to the group"
+                },
+                "BREADCRUMB_ARROW": {
+                    "SUMMARY": "Breadcrumb Groups",
+                    "DETAIL": "Choose a sub-group from this point in navigation"
+                }
+            },
+            "NAV_DRAWER": {
+                "SUMMARY": "Navigation Drawer",
+                "DETAIL": "Navigate through the game's groups",
+                "DRAWER_ITEM": {
+                    "SUMMARY": "Drawer Group",
+                    "DETAIL": "Open the group or toggle its sub-groups in the drawer"
+                },
+                "EMPTY_STAR": {
+                    "SUMMARY": "Empty Star",
+                    "DETAIL": "Indicates that the group contains no tasks"
+                },
+                "COMPLETE_STAR": {
+                    "SUMMARY": "Complete Star",
+                    "DETAIL": "Indicates all tasks are complete or excluded"
+                }
+            },
+            "PATCH_VIEW": {
+                "SUMMARY": "Patch View",
+                "DETAIL": "View of all tasks within the chosen game patch"
+            },
+            "QUICK_MARK_OVERLAY": {
+                "SUMMARY": "Quick Mark Overlay",
+                "DETAIL": "Quickly mark multiple tasks at once. Tasks hidden by filters are not affected"
+            },
+            "RANDOM_VIEW": {
+                "SUMMARY": "Random",
+                "DETAIL": "Choose a random unfinished task from the selected group"
+            },
+            "SEARCH": {
+                "SEARCH_INPUT": {
+                    "SUMMARY": "Search Input",
+                    "DETAIL": "Search for tasks by name. Press Enter to search. Use Ctrl/Cmd+F to focus."
+                },
+                "SEARCH_BUTTON": {
+                    "SUMMARY": "Search Button",
+                    "DETAIL": "Search all tasks by text in Search Input"
+                }
+            },
+            "SELECTION_OVERLAY": {
+                "SUMMARY": "Selection Overlay",
+                "DETAIL": "Modify which tasks are selected or open multiple recipes externally"
+            },
+            "SETTINGS": {
+                "SUMMARY": "Settings",
+                "DETAIL": "Manage app settings and save data"
+            },
+            "STATISTICS": {
+                "SUMMARY_ALL": {
+                    "SUMMARY": "Completion Summary - All",
+                    "DETAIL": "Shows overall completion progress. Right-click to hide"
+                },
+                "SUMMARY_CURRENT": {
+                    "SUMMARY": "Completion Summary - Current Group",
+                    "DETAIL": "Shows completion progress for the current group. Right-click to hide"
+                },
+                "SUMMARY_SUB": {
+                    "SUMMARY": "Completion Summary - Group",
+                    "DETAIL": "Shows completion progress for the group. Click to open the group"
+                }
+            },
+            "TABLE": {
+                "ROW_COUNT_SUMMARY": {
+                    "SUMMARY": "Row Count Summary",
+                    "DETAIL": "Shows how many tasks are displayed and how many are hidden by filters"
+                },
+                "TASK_TABLE": {
+                    "SUMMARY": "Task Table",
+                    "DETAIL": "Displays tasks in the current group"
+                },
+                "COMPLETION_FILTER": {
+                    "SUMMARY": "Completion Filters",
+                    "DETAIL": "Show/hide tasks based on completion status. Choices persist between groups and app close"
+                },
+                "COLUMN_NAME": {
+                    "SUMMARY": "Column Name & Sort",
+                    "DETAIL": "Click to sort. Click again to invert. Click again to reset. Ctrl+Click to sort multiple columns"
+                },
+                "FILTER_DROPDOWN": {
+                    "SUMMARY": "Filter Dropdown",
+                    "DETAIL": "Click to view a list or add options to filter by",
+                    "CUSTOM_OPTION": {
+                        "SUMMARY": "Custom Filter Option",
+                        "DETAIL": "Type and add a temporary custom filter"
+                    },
+                    "OPTIONS": {
+                        "SUMMARY": "Filter Options",
+                        "DETAIL": "Click one or multiple options"
+                    }
+                },
+                "FILTER_INPUT": {
+                    "SUMMARY": "Filter Input",
+                    "DETAIL": "Filter the column by text, ignoring capitalization. Use \"_\" to find empty values. Use \"*\" to find non-empty values"
+                },
+                "FILTER_INPUT_CLEAR": {
+                    "SUMMARY": "Clear Filter Input",
+                    "DETAIL": "Clear the filter for the column"
+                },
+                "TASK_ROW": {
+                    "SUMMARY": "Task Row",
+                    "DETAIL": "Shows information on the row's task. Click to select"
+                },
+                "FLAG_COMPLETION_CELL": {
+                    "SUMMARY": "Standard Completion Cell",
+                    "DETAIL": "Left-click to toggle the task's completion. Right-click to exclude. Changes are saved immediately"
+                },
+                "NUMERIC_COMPLETION_CELL": {
+                    "SUMMARY": "Numeric Completion Cell",
+                    "DETAIL": "Enter a numeric completion value. Hover to see expected range. Right click to exclude. Changes are saved when you leave the field"
+                },
+                "ROW_ACTIONS": {
+                    "SUMMARY": "Row Actions",
+                    "DETAIL": "Open additional actions for the task"
+                }
+            },
+            "TABLE_ACTION_OVERLAY": {
+                "SUMMARY": "Table Action Overlay",
+                "DETAIL": "Actions for the current group"
+            },
+            "UPDATES": {
+                "SUMMARY": "Patch Notes",
+                "DETAIL": "View all changes associated with an app patch"
+            },
+            "MISC": {
+                "GROUP_SELECTOR": {
+                    "SUMMARY": "Group Selector",
+                    "DETAIL": "Choose any group in the app"
+                },
+                "PATCH_SELECTOR": {
+                    "SUMMARY": "Patch Selector",
+                    "DETAIL": "Choose any patch with data. Parent patches can be selected"
+                },
+                "VERSION": {
+                    "SUMMARY": "App Version",
+                    "DETAIL": "The version of the installed application"
+                }
+            }
+        },
+        "CHAIN_ANALYSIS": {
+            "TITLE": "Analyse de Chaîne",
+            "REQUIRES": "requires",
+            "REQUIRES_ANY": "requires at least one of",
+            "MATCH": "must match",
+            "EXCLUDES": "must exclude",
+            "LEFT_AT_LEAST": "must be at least {{threshold}} for",
+            "RIGHT_AT_LEAST": "requires at least {{threshold}}"
+        },
+        "CHAIN_OVERLAY": {
+            "NO_CONTENT": "Aucune information de liaison à afficher",
+            "UNDO": "Annuler cette liaison",
+            "VERIFY": "Êtes-vous sûrs ?",
+            "CHAINED": "Lier à {{count}} autre tâche/s",
+            "CHAIN_HISTORY": "Chain History",
+            "HISTORY_NOTE": "becomes current after undo"
+        },
+        "CHAIN_VIEW": {
+            "TITLE": "Chain Viewer",
+            "MAX_DEPTH": "Max Depth",
+            "RETURN_TO": "Return to",
+            "CHAIN_ANY": "One needed",
+            "CHAIN_COMBO": "Combos into",
+            "CHAIN_SIBLING": "Sibling to",
+            "CHAIN_EXCLUDE": "Excludes",
+            "CHAIN_UNLOCK": "Unlocks"
+        },
+        "CONTENT_LINK": {
+            "GROUP_NAVIGATE": "Naviguer vers cette catégorie",
+            "TASK_NAVIGATE": "Naviguer vers cette tâche"
+        },
+        "CUSTOM_OVERLAY": {
+            "NAME_INPUT": "Nom du contenu personnalisé",
+            "NOTE_INPUT": "Notes de tâche personnalisées",
+            "ADD_TASK": "Ajouter une tâche",
+            "ADD_GROUP": "Ajouter un groupe",
+            "IMPORT_GROUP": "Import Group",
+            "INVALID": "Chosen import has incorrect structure",
+            "EXPORT_GROUP": "Export Group",
+            "CURRENT_GROUP": "Groupe actuel",
+            "RENAME_GROUP": "Renommer",
+            "MOVE_GROUP": "Déplacer",
+            "DUPLICATE_GROUP": "Dupliquer",
+            "DELETE_GROUP": "Supprimer",
+            "VERIFY_DELETE": "Supprimer ?",
+            "SELECTED_TASKS": "Tâches sélectionnées",
+            "MOVE_TASKS": "Déplacer",
+            "DELETE_TASKS": "Supprimer",
+            "DELETE": "Supprimer",
+            "CANCEL": "Annuler"
+        },
+        "HISTORY_OVERLAY": {
+            "TITLE": "Historique",
+            "NO_CONTENT": "Rien à afficher",
+            "CLEAR_ALL": "Effacer toutes les entrées",
+            "REMOVE_ENTRY": "Effacer cette entrée"
+        },
+        "LANDING": {
+            "HEADER": "Bienvenue sur l'application FFXIV Completionist!",
+            "GETTING_STARTED": "Click the \"?\" in the bottom left to enable Active Help",
+            "UPDATES": "Nouveauté",
+            "COMPLETION": "Aperçu de la complétion"
+        },
+        "MERGE_OVERLAY": {
+            "AUTO": "Fusionner les tâches avec une correspondance",
+            "MERGE": "Fusionner les tâches de l'application",
+            "MATCH": "Correspondances trouvées",
+            "NO_MATCH": "Aucune correspondance trouvée",
+            "SKIP": "Passer",
+            "EXIT": "Quitter",
+            "SELECT": "Sélectionner une correspondance"
+        },
+        "PATCH_VIEW": {
+            "TITLE": "Vue du Patch",
+            "CHOOSE": "Choisir un patch",
+            "NO_PATCH": "Aucun patch",
+            "SELECT_FILTER": "Select a filter"
+        },
+        "QUICK_MARK_OVERLAY": {
+            "TITLE": "Commandes de Coche-rapide",
+            "PROCESSING": "En traitement",
+            "N-Y": "Non complété -> complété",
+            "N-X": "Non complété -> exclu",
+            "Y-N": "Complété -> non complété",
+            "Y-X": "Complété -> exclu",
+            "X-N": "Exclu -> non complété",
+            "X-Y": "Exclu -> complété",
+            "S-Y": "Sélectionné -> complété",
+            "S-N": "Sélectioné -> non complété",
+            "S-X": "Sélectioné -> exclu",
+            "UNDO": "Annuler la dernière Coche-rapide"
+        },
+        "RANDOM_VIEW": {
+            "TITLE": "Aléatoire"
+        },
+        "SEARCH": {
+            "TITLE": "Recherche",
+            "PLACEHOLDER": "Recherche",
+            "NO_SEARCH": "Veuillez rentrer un terme de recherche",
+            "TOO_SHORT": "Veuillez rentrer un minimum de 2 caractères",
+            "NO_RESULTS": "Aucun résultat trouvée",
+            "EXPAND": "Étendre les résultats",
+            "COLLAPSE": "Rétracter les résultats",
+            "SEARCH_NAME": "Rechercher dans les colonnes nommées",
+            "SEARCH_COLUMN": "Rechercher dans toutes les colonnes",
+            "COMPLETE": "Complété",
+            "COLUMN": "Colonne",
+            "VALUE": "Valeur",
+            "LINK": "Lien",
+            "GROUP_TAB": "Catégorie",
+            "TASK_TAB": "Tâches"
+        },
+        "SELECTION_OVERLAY": {
+            "TITLE": "Commandes de sélection",
+            "SELECT_ALL": "Sélectionner toutes les tâches",
+            "DESELECT_ALL": "Désélectionner toutes les tâches",
+            "INVERT": "Inverser la sélection",
+            "ACTIONS": "Tâches sélectionnées",
+            "GARLAND": "Ouvrir dans Garland Tools",
+            "TEAMCRAFT": "Ouvrir dans Teamcraft"
+        },
+        "SETTING": {
+            "TITLE": "Options",
+            "CHARACTER": {
+                "TITLE": "Personnage"
+            },
+            "LANGUAGE": {
+                "LABEL": "Langues",
+                "ENGLISH": "Anglais",
+                "FRENCH": "Français"
+            },
+            "CLASSES": {
+                "LABEL": "Classe de départ",
+                "TOOLTIP": "Changer cette valeur exclura tout contenu innaccessible\n Réinitialise la complétion de tout contenu enchaînée au quête de début de A Realm Reborn",
+                "PLACEHOLDER": "Sélectionner une classe"
+            },
+            "SAVE": {
+                "LOCATION": "Lieu du fichier de sauvegarde",
+                "NAME": "Nom du fichier de sauvegarde",
+                "CHANGE": "Modifier la sauvegarde",
+                "OPEN": "Ouvrir le dossier",
+                "BACKUP": "Backup",
+                "LOAD_BACKUP": "Charger la Backup",
+                "NEW": "Créer nouveau",
+                "LOAD": "Charger existant",
+                "SAVE": "Sauvegarde",
+                "CONFIG": "Configuration",
+                "BOTH": "Les deux"
+            },
+            "THEME": {
+                "TITLE": "Thème",
+                "RESET": "Réinitialiser",
+                "PRIMARY_COLOR": "Couleur principale",
+                "PRIMARY_TEXT": "Couleur principale du texte",
+                "TEXT_COLOR": "Couleur du texte",
+                "FONT": "Police",
+                "FONT_SIZE": {
+                    "LABEL": "Taille de police",
+                    "TOOLTIP": "Modifier fortement la taille de la police peut engendrer un UI de mauvaise qualité."
+                },
+                "BACKGROUND": "Fond",
+                "COMPLETION": "Complétion",
+                "PRESETS": "Préconfigurations"
+            },
+            "COMPLETION": {
+                "TITLE": "Complétion",
+                "COMPLETE_GROUP": {
+                    "LABEL": "Afficher les groupes complétés",
+                    "TOOLTIP": "Active ou non l'affichage des groupes complétés"
+                },
+                "EMPTY_GROUP": {
+                    "LABEL": "Afficher les groupes vides",
+                    "TOOLTIP": "Active ou non l'affichage des groupes vides"
+                },
+                "COMPLETE_TASK": {
+                    "LABEL": "Montrer les tâches complètes",
+                    "TOOLTIP": "Les tâches complétées seront affichées dans les tableaux"
+                },
+                "INCOMPLETE_TASK": {
+                    "LABEL": "Montrer les tâches incomplètes",
+                    "TOOLTIP": "Les tâches incomplètes seront affichées dans les tableaux"
+                },
+                "EXCLUDED_TASK": {
+                    "LABEL": "Montrer les tâches exclues",
+                    "TOOLTIP": "Les tâches exclues seront affichées dans les tableaux"
+                }
+            },
+            "CHAINING": {
+                "TITLE": "Liaison",
+                "ENABLED": {
+                    "LABEL": "Liaison activée",
+                    "TOOLTIP": "Active ou désactive la complétion automatique des tâches liées à la complétion d'autres tâches"
+                },
+                "HISTORY": {
+                    "LABEL": "Limite de l'historique",
+                    "TOOLTIP": "Le nombre de liaison affichées dans l'historique dont l'annulation est permise"
+                },
+                "THRESHOLD": {
+                    "LABEL": "Seuil minimal",
+                    "TOOLTIP": "Le menu de liaison rétractera automatiquement les catégories quand le nombre d'objets reliés atteint ce nombre"
+                }
+            },
+            "GROUP_NAME": {
+                "LABEL": "Nom de groupes raccourcis"
+            }
+        },
+        "STATISTICS": {
+            "REMAINING": "Tâche Restante",
+            "EXCLUDED": "Tâche Exclue",
+            "WEIGHT": "Poids"
+        },
+        "TABLE": {
+            "DISPLAYED": "Lignes affichées",
+            "GROUP": "Catégorie",
+            "HIDDEN": "Cachées",
+            "SHOW_ALL": "Afficher les tâches",
+            "HIDE_ALL": "Cacher les tâches",
+            "VIEW_LINKS": "Afficher la totalité",
+            "CUSTOM_OPTION": "Enter custom filter value...",
+            "ROW_ACTION": {
+                "TITLE": "Commandes sur les lignes",
+                "BOOKMARK": "Ajouter un marque-page à la tâche",
+                "UNBOOKMARK": "Enlever le marque-page à la tâche",
+                "REORDER": "Réarranger la ligne",
+                "VIEW_CHAINS": "View Chains",
+                "GARLAND": "Garland Tools",
+                "ESCAPE": "Gamer Escape",
+                "CONSOLE": "Console Games Wiki"
+            }
+        },
+        "TABLE_OVERLAY": {
+            "TITLE": "Commandes sur le tableau",
+            "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
+            "REM_BOOKMARK": "Enlever le marque-page à la catégorie",
+            "COPY_RAW_DATA": "Copier les lignes",
+            "COPY_RESOLVED_DATA": "Copier les lignes"
+        },
+        "TOAST": {
+            "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",
+            "CONFIG_FAILED_DETAIL": "Utilisation de la dernière version fonctionnelle",
+            "LINK_COPIED": "Lien copié dans le presse-papiers",
+            "SAVE_FAILED_SUMMARY": "Échec du chargement de la progression",
+            "SAVE_FAILED_DETAIL": "Une sauvegarde temporaire a été créée"
+        },
+        "UPDATES": {
+            "TITLE": "Notes de mise à jour",
+            "ADD": "Ajouts",
+            "CHANGE": "Modifications",
+            "FIX": "Corrections",
+            "REMOVE": "Removals"
+        }
+    }
+}

@@ -4,249 +4,213 @@
     "groupName_fr": "Page 8",
     "tasks": {
         "x230": {
-            "number": "211",
             "name_en": "Gosetsu",
             "name_fr": "Gosetsu",
+            "number": "211",
             "source": "a.2078",
             "patch": "4.3"
         },
         "x221": {
-            "number": "212",
             "name_en": "Wanyudo & Katasharin",
             "name_fr": "Wanyûdô & Katasharin",
-            "source": "character.gold-saucer.triple-triad-opponents.51",
-            "source_en": ["Heaven on High: Silver Sack", "Heaven on High: Gold Sack"],
-            "source_fr": [
-                "Le Pilier des Cieux: Trésor énigmatique de grade I",
-                "Le Pilier des Cieux: Trésor énigmatique de grade I"
-            ],
+            "number": "212",
+            "source": ["tto.51", "chest.110", "chest.111"],
             "patch": "4.35"
         },
         "x222": {
-            "number": "213",
             "name_en": "Hatamoto",
             "name_fr": "Hatamoto",
-            "source": "character.gold-saucer.triple-triad-opponents.51",
-            "source_en": ["Heaven on High: Silver Sack", "Heaven on High: Gold Sack"],
-            "source_fr": [
-                "Le Pilier des Cieux: Trésor énigmatique de grade I",
-                "Le Pilier des Cieux: Trésor énigmatique de grade I"
-            ],
+            "number": "213",
+            "source": ["tto.51", "chest.110", "chest.111"],
             "patch": "4.35"
         },
         "x225": {
-            "number": "214",
             "name_en": "Hiruko",
             "name_fr": "Hiruko",
-            "source": "character.gold-saucer.triple-triad-opponents.51",
-            "source_en": "Heaven on High: Gold Sack",
-            "source_fr": "Le Pilier des Cieux: Trésor énigmatique de grade II",
+            "number": "214",
+            "source": ["tto.51", "chest.111"],
             "patch": "4.35"
         },
         "x223": {
-            "number": "215",
             "name_en": "Yukinko",
             "name_fr": "Yukinko",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.27",
-                "duty.exploratory-missions.eureka.notorious-monsters.pagos.1351"
-            ],
+            "number": "215",
+            "source": ["tto.27", "duty.field-operations.eureka.notorious-monsters.pagos.1351"],
             "patch": "4.4"
         },
         "x226": {
-            "number": "216",
             "name_en": "Happy Bunny",
             "name_fr": "Lapin Du Bonheur",
-            "source": "character.gold-saucer.triple-triad-opponents.27",
-            "source_en": ["Eureka Pagos: Silver Coffer", "Eureka Pyros: Silver Coffer", "Eureka Hydatos: Silver Coffer"],
-            "source_fr": [
-                "Eurêka Pagos : coffre d'argent",
-                "Eurêka Pyros : coffre d'argent",
-                "Eurêka Hydatos : coffre d'argent"
-            ],
+            "number": "216",
+            "source": ["tto.27", "chest.202", "chest.206", "chest.210"],
             "patch": "4.4"
         },
         "x227": {
-            "number": "217",
             "name_en": "Louhi",
             "name_fr": "Louhi",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.27",
-                "duty.exploratory-missions.eureka.notorious-monsters.pagos.1364"
-            ],
+            "number": "217",
+            "source": ["tto.27", "duty.field-operations.eureka.notorious-monsters.pagos.1364"],
             "patch": "4.4"
         },
         "x232": {
-            "number": "218",
             "name_en": "Muud Suud",
             "name_fr": "Moudsoud",
+            "number": "218",
             "source": "@1,500 CURRENCY.MGP",
             "patch": "4.4"
         },
         "x233": {
-            "number": "219",
             "name_en": "Tokkapchi",
             "name_fr": "Tokkapchi",
+            "number": "219",
             "source": "d.584",
             "patch": "4.4"
         },
         "x234": {
-            "number": "220",
             "name_en": "Mist Dragon",
             "name_fr": "Dragon Des Brumes",
+            "number": "220",
             "source": "d.585",
             "patch": "4.4"
         },
         "x235": {
-            "number": "221",
             "name_en": "Suzaku",
             "name_fr": "Suzaku",
+            "number": "221",
             "source": ["d.596", "d.597"],
             "patch": "4.4"
         },
         "x238": {
-            "number": "222",
             "name_en": "Asahi Sas Brutus",
             "name_fr": "Asahi Sas Brutus",
-            "source": "character.gold-saucer.triple-triad-opponents.63",
+            "number": "222",
+            "source": "tto.63",
             "patch": "4.4"
         },
         "x240": {
-            "number": "223",
             "name_en": "Omega",
             "name_fr": "Oméga",
-            "source": ["character.gold-saucer.triple-triad-opponents.67", "d.589", "d.590", "d.593", "d.594"],
+            "number": "223",
+            "source": ["tto.67", "d.589", "d.590", "d.593", "d.594"],
             "patch": "4.4"
         },
         "x231": {
-            "number": "224",
             "name_en": "Karakuri Hanya",
             "name_fr": "Hannya Karakuri",
-            "source": "character.gold-saucer.triple-triad-opponents.37",
+            "number": "224",
+            "source": "tto.37",
             "patch": "4.45"
         },
         "x236": {
-            "number": "225",
             "name_en": "Pazuzu",
             "name_fr": "Pazuzu",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.27",
-                "duty.exploratory-missions.eureka.notorious-monsters.anemos.1329"
-            ],
+            "number": "225",
+            "source": ["tto.27", "duty.field-operations.eureka.notorious-monsters.anemos.1329"],
             "patch": "4.45"
         },
         "x237": {
-            "number": "226",
             "name_en": "Penthesilea",
             "name_fr": "Penthésilée",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.36",
-                "duty.exploratory-missions.eureka.notorious-monsters.pyros.1404"
-            ],
+            "number": "226",
+            "source": ["tto.36", "duty.field-operations.eureka.notorious-monsters.pyros.1404"],
             "patch": "4.45"
         },
         "x239": {
-            "number": "227",
             "name_en": "Yojimbo & Daigoro",
             "name_fr": "Yojimbo & Daigoro",
-            "source": "character.gold-saucer.triple-triad-opponents.37",
+            "number": "227",
+            "source": "tto.37",
             "patch": "4.45"
         },
         "x241": {
-            "number": "228",
             "name_en": "Stormblood Tataru Taru",
             "name_fr": "Tataru (Stormblood)",
+            "number": "228",
             "source": "@96,000 CURRENCY.MGP",
             "patch": "4.5"
         },
         "x244": {
-            "number": "229",
             "name_en": "Prometheus",
             "name_fr": "Prometheus",
+            "number": "229",
             "source": "d.611",
             "patch": "4.5"
         },
         "x246": {
-            "number": "230",
             "name_en": "Seiryu",
             "name_fr": "Seiryû",
+            "number": "230",
             "source": ["d.637", "d.638"],
             "patch": "4.5"
         },
         "x247": {
-            "number": "231",
             "name_en": "Alpha",
             "name_fr": "Alpha",
-            "source": "character.gold-saucer.triple-triad-opponents.67",
+            "number": "231",
+            "source": "tto.67",
             "patch": "4.5"
         },
         "x248": {
-            "number": "232",
             "name_en": "Great Gold Whisker",
             "name_fr": "Altesse Namazu Nain Doré",
-            "source": "character.gold-saucer.triple-triad-opponents.8",
+            "number": "232",
+            "source": "tto.8",
             "patch": "4.5"
         },
         "x250": {
-            "number": "233",
             "name_en": "Ultima, the High Seraph",
             "name_fr": "Ultima, La Grande Séraphine",
-            "source": ["character.gold-saucer.triple-triad-opponents.64", "d.636"],
+            "number": "233",
+            "source": ["tto.64", "d.636"],
             "patch": "4.5"
         },
         "x251": {
-            "number": "234",
             "name_en": "Stormblood Alphinaud & Alisaie",
             "name_fr": "Alphinaud & Alisaie (Stormblood)",
-            "source": "character.gold-saucer.triple-triad-opponents.79",
+            "number": "234",
+            "source": "tto.79",
             "patch": "4.5"
         },
         "x242": {
-            "number": "235",
             "name_en": "Dvergr",
             "name_fr": "Dvergr",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.36",
-                "duty.exploratory-missions.eureka.notorious-monsters.hydatos.1418"
-            ],
+            "number": "235",
+            "source": ["tto.36", "duty.field-operations.eureka.notorious-monsters.hydatos.1418"],
             "patch": "4.55"
         },
         "x243": {
-            "number": "236",
             "name_en": "Ejika Tsunjika",
             "name_fr": "Ejika Tsunjika",
-            "source": "character.gold-saucer.triple-triad-opponents.36",
+            "number": "236",
+            "source": "tto.36",
             "patch": "4.55"
         },
         "x245": {
-            "number": "237",
             "name_en": "Provenance Watcher",
             "name_fr": "Gardien De Provenance",
-            "source": [
-                "character.gold-saucer.triple-triad-opponents.36",
-                "duty.exploratory-missions.eureka.notorious-monsters.hydatos.1423"
-            ],
+            "number": "237",
+            "source": ["tto.36", "duty.field-operations.eureka.notorious-monsters.hydatos.1423"],
             "patch": "4.55"
         },
         "x249": {
-            "number": "238",
             "name_en": "Stormblood Gilgamesh",
             "name_fr": "Gilgamesh (Stormblood)",
+            "number": "238",
             "source": "d.595",
             "patch": "4.56"
         },
         "x253": {
-            "number": "239",
             "name_en": "Amaro",
             "name_fr": "Amaro",
-            "source": "character.gold-saucer.triple-triad-opponents.6",
+            "number": "239",
+            "source": "tto.6",
             "patch": "5.0"
         },
         "x254": {
-            "number": "240",
             "name_en": "Evil Weapon",
             "name_fr": "Arme Maligne",
-            "source": "character.gold-saucer.triple-triad-opponents.2",
+            "number": "240",
+            "source": "tto.2",
             "patch": "5.0"
         }
     }

@@ -3,35 +3,35 @@
     "groupName_en": "Dravania",
     "groupName_fr": "Dravania",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x384": {
             "name_en": "Snurbleberry",
             "name_fr": "Lainuchairelle",
-            "zone": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
             "coordinates": "(39, 26)",
-            "nodeTimer": "10:00 / 22:00",
             "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.68",
+            "nodeTimer": "10:00 / 22:00",
             "patch": "3.0"
         },
-        "x1": {
-            "level": "60★",
+        "x379": {
             "name_en": "Seventh Heaven",
             "name_fr": "Fleur astrale",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
             "coordinates": "(17, 36)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.73"
+            "patch": "3.0"
         },
-        "x2": {
-            "level": "60★★★",
+        "x419": {
             "name_en": "Noble Sage",
             "name_fr": "Sauge noble",
-            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "level": "60 ★★★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
             "coordinates": "(33, 30)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "3.4",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70"
+            "patch": "3.4"
         }
     }
 }

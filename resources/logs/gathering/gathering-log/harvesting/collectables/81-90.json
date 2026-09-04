@@ -3,44 +3,44 @@
     "groupName_en": "81-90",
     "groupName_fr": "81-90",
     "tasks": {
-        "x0": {
-            "level": "81",
+        "x10770": {
             "name_en": "Rarefied Thavnairian Perilla Leaf",
             "name_fr": "Périlla thavnairoise collectionnable",
-            "zone": "@PLACE.THAVNAIR",
+            "level": "81",
+            "zone": "@PLACE.EW.THAVNAIR",
             "coordinates": "(24.0, 30.6)",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.150"
+            "closestAetheryte": "travel.aetherytes.ilsabard.150",
+            "patch": "6.0"
         },
-        "x1": {
-            "level": "89",
+        "x10775": {
             "name_en": "Rarefied Dark Rye",
             "name_fr": "Seigle noir collectionnable",
-            "zone": "@PLACE.LABYRINTHOS",
+            "level": "89",
+            "zone": "@PLACE.EW.LABYRINTHOS",
             "coordinates": "(9.8, 22.1)",
+            "closestAetheryte": "travel.aetherytes.others.149",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.149"
+            "patch": "6.0"
         },
-        "x2": {
-            "level": "90★",
+        "x10777": {
             "name_en": "Rarefied Iceberg Lettuce",
             "name_fr": "Laitue iceberg collectionnable",
-            "zone": "@PLACE.LABYRINTHOS",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.LABYRINTHOS",
             "coordinates": "(9.8, 22.1)",
+            "closestAetheryte": "travel.aetherytes.others.149",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.149"
+            "patch": "6.0"
         },
-        "x3": {
-            "level": "90★",
+        "x10778": {
             "name_en": "Rarefied AR-Caean Cotton Boll",
             "name_fr": "Fleur de coton de Caean collectionnable",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "coordinates": "(9.5, 33.2)",
+            "closestAetheryte": "travel.aetherytes.others.160",
             "nodeTimer": "08:00 / 20:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.160"
+            "patch": "6.0"
         }
     }
 }

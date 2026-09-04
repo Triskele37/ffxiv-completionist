@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes d'alchimiste",
     "tasks": {
         "x66111": {
-            "level": 1,
             "name_en": "Way of the Alchemist",
             "name_fr": "La voie de l'alchimie",
+            "level": 1,
             "npc_en": "Deitrich",
             "npc_fr": "Deitrich",
+            "unlock": "ap.250",
+            "patch": "2.0",
             "cPrev": ["q.65726"],
             "cNext": ["q.66113"],
-            "cSiblings": ["ap.250"],
-            "patch": "4.31",
-            "unlock": "ap.250"
+            "cSiblings": ["ap.250"]
         },
         "x66113": {
-            "level": 1,
             "name_en": "My First Alembic",
             "name_fr": "L'or liquide",
+            "level": 1,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66111"],
-            "cNext": ["q.66114"],
-            "patch": "4.31"
+            "cNext": ["q.66114"]
         },
         "x66114": {
-            "level": 5,
             "name_en": "The Second Principle",
             "name_fr": "Le deuxième principe",
+            "level": 5,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66113"],
-            "cNext": ["q.66116"],
-            "patch": "4.31"
+            "cNext": ["q.66116"]
         },
         "x66116": {
-            "level": 10,
             "name_en": "All of Your Beeswax",
             "name_fr": "Les durs devoirs de maître de guilde",
+            "level": 10,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66114"],
-            "cNext": ["q.66117"],
-            "patch": "4.31"
+            "cNext": ["q.66117"]
         },
         "x66117": {
-            "level": 15,
             "name_en": "For Fair Love",
             "name_fr": "Le pouvoir en bouteille",
+            "level": 15,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66116"],
-            "cNext": ["q.66118"],
-            "patch": "4.31"
+            "cNext": ["q.66118"]
         },
         "x66118": {
-            "level": 20,
             "name_en": "The Arcanist's Tome",
             "name_fr": "Les arcanes de l'alchimie",
+            "level": 20,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66117"],
-            "cNext": ["q.66119"],
-            "patch": "4.31"
+            "cNext": ["q.66119"]
         },
         "x66119": {
-            "level": 25,
             "name_en": "Practical Alchemy",
             "name_fr": "Une alchimie utile",
+            "level": 25,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66118"],
-            "cNext": ["q.66120"],
-            "patch": "4.31"
+            "cNext": ["q.66120"]
         },
         "x66120": {
-            "level": 30,
             "name_en": "Baleful Brews",
             "name_fr": "Poisons pour tous",
+            "level": 30,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66119"],
             "cNext": ["q.66183"],
-            "cCombo": ["a.316"],
-            "patch": "4.31"
+            "cCombo": ["a.316"]
         },
         "x66183": {
-            "level": 35,
             "name_en": "Cease and Assist",
             "name_fr": "Jamais la paix",
+            "level": 35,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66120"],
-            "cNext": ["q.66184"],
-            "patch": "4.31"
+            "cNext": ["q.66184"]
         },
         "x66184": {
-            "level": 40,
             "name_en": "Might Made Right",
             "name_fr": "De la force en bouteille",
+            "level": 40,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66183"],
-            "cNext": ["q.66185"],
-            "patch": "4.31"
+            "cNext": ["q.66185"]
         },
         "x66185": {
-            "level": 45,
             "name_en": "Ultimate Alchemy",
             "name_fr": "Alchimie ultime",
+            "level": 45,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66184"],
-            "cNext": ["q.66186"],
-            "patch": "4.31"
+            "cNext": ["q.66186"]
         },
         "x66186": {
-            "level": 50,
             "name_en": "Momentary Miracle",
             "name_fr": "Un miracle fugace",
+            "level": 50,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "2.0",
             "cPrev": ["q.66185"],
-            "cNext": ["q.67601"],
-            "patch": "4.31"
+            "cNext": ["q.67601"]
         },
         "x67601": {
-            "level": 50,
             "name_en": "Without a Trace",
             "name_fr": "Simple mais profond",
+            "level": 50,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "3.0",
             "cPrev": ["q.66186", "q.65964"],
-            "cNext": ["q.67602"],
-            "patch": "4.31"
+            "cNext": ["q.67602"]
         },
         "x67602": {
-            "level": 53,
             "name_en": "Magic Marks the Spot",
             "name_fr": "Pris à leur propre jeu",
+            "level": 53,
             "npc_en": "Wiltwaek",
             "npc_fr": "Wiltwaek",
+            "patch": "3.0",
             "cPrev": ["q.67601"],
-            "cNext": ["q.67603"],
-            "patch": "4.31"
+            "cNext": ["q.67603"]
         },
         "x67603": {
-            "level": 55,
             "name_en": "From Hells",
             "name_fr": "Cœur de cristal",
+            "level": 55,
             "npc_en": "Wiltwaek",
             "npc_fr": "Wiltwaek",
+            "patch": "3.0",
             "cPrev": ["q.67602"],
-            "cNext": ["q.67604"],
-            "patch": "4.31"
+            "cNext": ["q.67604"]
         },
         "x67604": {
-            "level": 58,
             "name_en": "Burden of Proof",
             "name_fr": "Le mystère des jumeaux",
+            "level": 58,
             "npc_en": "Wiltwaek",
             "npc_fr": "Wiltwaek",
+            "patch": "3.0",
             "cPrev": ["q.67603"],
-            "cNext": ["q.67605"],
-            "patch": "4.31"
+            "cNext": ["q.67605"]
         },
         "x67605": {
-            "level": 60,
             "name_en": "What Death Can Join Together",
             "name_fr": "Spectranalyse",
+            "level": 60,
             "npc_en": "Wiltwaek",
             "npc_fr": "Wiltwaek",
+            "patch": "3.0",
             "cPrev": ["q.67604"],
-            "cNext": ["q.67972"],
-            "patch": "4.31"
+            "cNext": ["q.67972"]
         },
         "x67972": {
-            "level": 60,
             "name_en": "Not Quite Dead Yet",
             "name_fr": "Un cadavre dans le désert",
+            "level": 60,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "4.0",
             "cPrev": ["q.67605", "q.67895"],
-            "cNext": ["q.67973"],
-            "patch": "4.31"
+            "cNext": ["q.67973"]
         },
         "x67973": {
-            "level": 63,
             "name_en": "The Forbidden Blade",
             "name_fr": "Dépasser les limites de la création",
+            "level": 63,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "4.0",
             "cPrev": ["q.67972"],
-            "cNext": ["q.67974"],
-            "patch": "4.31"
+            "cNext": ["q.67974"]
         },
         "x67974": {
-            "level": 65,
             "name_en": "Do Goldsmiths Dream of Gilded Sheep",
             "name_fr": "L'orfèvre au bois dormant",
+            "level": 65,
             "npc_en": "Severian",
             "npc_fr": "Severian",
+            "patch": "4.0",
             "cPrev": ["q.67973"],
-            "cNext": ["q.67975"],
-            "patch": "4.31"
+            "cNext": ["q.67975"]
         },
         "x67975": {
-            "level": 68,
             "name_en": "No Sin Unpunished",
             "name_fr": "Péché et rédemption",
+            "level": 68,
             "npc_en": "Greinfarr",
             "npc_fr": "Greinfarr",
+            "patch": "4.0",
             "cPrev": ["q.67974"],
-            "cNext": ["q.67976"],
-            "patch": "4.31"
+            "cNext": ["q.67976"]
         },
         "x67976": {
-            "level": 70,
             "name_en": "A Love Beyond Lifetimes",
             "name_fr": "Par-delà la mort",
+            "level": 70,
             "npc_en": "Popokkuli",
             "npc_fr": "Popokkuli",
+            "unlock": "ap.274",
+            "patch": "4.0",
             "cPrev": ["q.67975"],
-            "cSiblings": ["ap.274"],
-            "patch": "4.31",
-            "unlock": "ap.274"
+            "cSiblings": ["ap.274"]
         }
     }
 }

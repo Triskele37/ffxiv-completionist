@@ -4,182 +4,240 @@
     "groupNameShort": "@EXPANSION.SHB",
     "tasks": {
         "x653": {
-            "level": "80",
             "name_en": "Eden's Gate: Resurrection",
             "name_fr": "L'Éveil d'Éden - Résurrection",
-            "unlock": "q.68792"
+            "level": "80",
+            "unlock": "q.68792",
+            "patch": "5.01",
+            "cUnlock": ["q.68792"]
         },
         "x684": {
-            "level": "80",
             "name_en": "Eden's Gate: Descent",
             "name_fr": "L'Éveil d'Éden - Descente",
-            "unlock": "q.68793"
+            "level": "80",
+            "unlock": "q.68793",
+            "patch": "5.01",
+            "cUnlock": ["q.68793"]
         },
         "x682": {
-            "level": "80",
             "name_en": "Eden's Gate: Inundation",
             "name_fr": "L'Éveil d'Éden - Déluge",
-            "unlock": "q.68794"
+            "level": "80",
+            "unlock": "q.68794",
+            "patch": "5.01",
+            "cUnlock": ["q.68794"]
         },
         "x689": {
-            "level": "80",
             "name_en": "Eden's Gate: Sepulture",
             "name_fr": "L'Éveil d'Éden - Inhumation",
+            "level": "80",
             "unlock": "q.68795",
+            "patch": "5.01",
+            "cUnlock": ["q.68795"],
             "cSiblings": ["a.2409"]
         },
-        "x654": {
-            "level": "80",
-            "name_en": "Eden's Gate: Resurrection (Savage)",
-            "name_fr": "L'Éveil d'Éden - Résurrection (sadique)",
-            "unlock": "q.68795"
-        },
-        "x685": {
-            "level": "80",
-            "name_en": "Eden's Gate: Descent (Savage)",
-            "name_fr": "L'Éveil d'Éden - Descente (sadique)",
-            "unlock": "q.68795"
-        },
-        "x683": {
-            "level": "80",
-            "name_en": "Eden's Gate: Inundation (Savage)",
-            "name_fr": "L'Éveil d'Éden - Déluge (sadique)",
-            "unlock": "q.68795"
-        },
-        "x690": {
-            "level": "80",
-            "name_en": "Eden's Gate: Sepulture (Savage)",
-            "name_fr": "L'Éveil d'Éden - Inhumation (sadique)",
-            "unlock": "q.68795",
-            "cSiblings": ["a.2412"]
-        },
-        "x694": {
-            "level": "80",
-            "name_en": "The Epic of Alexander (Ultimate)",
-            "name_fr": "L'Odyssée d'Alexander (fatal)",
-            "unlock": "d.690",
-            "cSiblings": ["a.2444"]
-        },
         "x715": {
-            "level": "80",
             "name_en": "Eden's Verse: Fulmination",
             "name_fr": "Les Accords d'Éden - Fulmination",
-            "unlock": "q.69324"
+            "level": "80",
+            "unlock": "q.69324",
+            "patch": "5.2",
+            "cUnlock": ["q.69324"]
         },
         "x719": {
-            "level": "80",
             "name_en": "Eden's Verse: Furor",
             "name_fr": "Les Accords d'Éden - Fureur",
-            "unlock": "q.69325"
+            "level": "80",
+            "unlock": "q.69325",
+            "patch": "5.2",
+            "cUnlock": ["q.69325"]
         },
         "x726": {
-            "level": "80",
             "name_en": "Eden's Verse: Iconoclasm",
             "name_fr": "Les Accords d'Éden - Iconoclasme",
-            "unlock": "q.69326"
+            "level": "80",
+            "unlock": "q.69326",
+            "patch": "5.2",
+            "cUnlock": ["q.69326"]
         },
         "x728": {
-            "level": "80",
             "name_en": "Eden's Verse: Refulgence",
             "name_fr": "Les Accords d'Éden - Éclat",
+            "level": "80",
             "unlock": "q.69327",
+            "patch": "5.2",
+            "cUnlock": ["q.69327"],
             "cSiblings": ["a.2591"]
         },
-        "x716": {
-            "level": "80",
-            "name_en": "Eden's Verse: Fulmination (Savage)",
-            "name_fr": "Les Accords d'Éden - Fulmination (sadique)",
-            "unlock": "q.69327"
-        },
-        "x720": {
-            "level": "80",
-            "name_en": "Eden's Verse: Furor (Savage)",
-            "name_fr": "Les Accords d'Éden - Fureur (sadique)",
-            "unlock": "q.69327"
-        },
-        "x727": {
-            "level": "80",
-            "name_en": "Eden's Verse: Iconoclasm (Savage)",
-            "name_fr": "Les Accords d'Éden - Iconoclasme (sadique)",
-            "unlock": "q.69327"
-        },
-        "x729": {
-            "level": "80",
-            "name_en": "Eden's Verse: Refulgence (Savage)",
-            "name_fr": "Les Accords d'Éden - Éclat (sadique)",
-            "unlock": "q.69327",
-            "cSiblings": ["a.2594"]
-        },
         "x749": {
-            "level": "80",
             "name_en": "Eden's Promise: Umbra",
             "name_fr": "La Promesse d'Éden - Nuée",
-            "unlock": "q.69512"
+            "level": "80",
+            "unlock": "q.69512",
+            "patch": "5.4",
+            "cUnlock": ["q.69512"]
         },
         "x747": {
-            "level": "80",
             "name_en": "Eden's Promise: Litany",
             "name_fr": "La Promesse d'Éden - Litanie",
-            "unlock": "q.69513"
+            "level": "80",
+            "unlock": "q.69513",
+            "patch": "5.4",
+            "cUnlock": ["q.69513"]
         },
         "x751": {
-            "level": "80",
             "name_en": "Eden's Promise: Anamorphosis",
             "name_fr": "La Promesse d'Éden - Anamorphose",
-            "unlock": "q.69514"
+            "level": "80",
+            "unlock": "q.69514",
+            "patch": "5.4",
+            "cUnlock": ["q.69514"],
+            "cNext": [758]
         },
         "x758": {
-            "level": "80",
             "name_en": "Eden's Promise: Eternity",
             "name_fr": "La Promesse d'Éden - Éternité",
+            "level": "80",
             "unlock": "q.69514",
+            "patch": "5.4",
+            "cPrev": [751],
+            "cUnlock": ["q.69514"],
             "cSiblings": ["a.2719"]
         },
-        "x750": {
+        "x654": {
+            "name_en": "Eden's Gate: Resurrection (Savage)",
+            "name_fr": "L'Éveil d'Éden - Résurrection (sadique)",
             "level": "80",
+            "unlock": "q.68796",
+            "patch": "5.05",
+            "cPrev": ["q.68796"]
+        },
+        "x685": {
+            "name_en": "Eden's Gate: Descent (Savage)",
+            "name_fr": "L'Éveil d'Éden - Descente (sadique)",
+            "level": "80",
+            "unlock": "q.68796",
+            "patch": "5.05",
+            "cPrev": ["q.68796"]
+        },
+        "x683": {
+            "name_en": "Eden's Gate: Inundation (Savage)",
+            "name_fr": "L'Éveil d'Éden - Déluge (sadique)",
+            "level": "80",
+            "unlock": "q.68796",
+            "patch": "5.05",
+            "cPrev": ["q.68796"]
+        },
+        "x690": {
+            "name_en": "Eden's Gate: Sepulture (Savage)",
+            "name_fr": "L'Éveil d'Éden - Inhumation (sadique)",
+            "level": "80",
+            "unlock": "q.68796",
+            "patch": "5.05",
+            "cPrev": ["q.68796"],
+            "cSiblings": ["a.2412"]
+        },
+        "x716": {
+            "name_en": "Eden's Verse: Fulmination (Savage)",
+            "name_fr": "Les Accords d'Éden - Fulmination (sadique)",
+            "level": "80",
+            "unlock": "q.69328",
+            "patch": "5.2",
+            "cPrev": ["q.69328"]
+        },
+        "x720": {
+            "name_en": "Eden's Verse: Furor (Savage)",
+            "name_fr": "Les Accords d'Éden - Fureur (sadique)",
+            "level": "80",
+            "unlock": "q.69328",
+            "patch": "5.2",
+            "cPrev": ["q.69328"]
+        },
+        "x727": {
+            "name_en": "Eden's Verse: Iconoclasm (Savage)",
+            "name_fr": "Les Accords d'Éden - Iconoclasme (sadique)",
+            "level": "80",
+            "unlock": "q.69328",
+            "patch": "5.2",
+            "cPrev": ["q.69328"]
+        },
+        "x729": {
+            "name_en": "Eden's Verse: Refulgence (Savage)",
+            "name_fr": "Les Accords d'Éden - Éclat (sadique)",
+            "level": "80",
+            "unlock": "q.69328",
+            "patch": "5.2",
+            "cPrev": ["q.69328"],
+            "cSiblings": ["a.2594"]
+        },
+        "x750": {
             "name_en": "Eden's Promise: Umbra (Savage)",
             "name_fr": "La Promesse d'Éden - Nuée (sadique)",
-            "unlock": "q.69515"
+            "level": "80",
+            "unlock": "q.69515",
+            "patch": "5.4",
+            "cPrev": ["q.69515"]
         },
         "x748": {
-            "level": "80",
             "name_en": "Eden's Promise: Litany (Savage)",
             "name_fr": "La Promesse d'Éden - Litanie (sadique)",
-            "unlock": "q.69515"
+            "level": "80",
+            "unlock": "q.69515",
+            "patch": "5.4",
+            "cPrev": ["q.69515"]
         },
         "x752": {
-            "level": "80",
             "name_en": "Eden's Promise: Anamorphosis (Savage)",
             "name_fr": "La Promesse d'Éden - Anamorphose (sadique)",
-            "unlock": "q.69515"
+            "level": "80",
+            "unlock": "q.69515",
+            "patch": "5.4",
+            "cPrev": ["q.69515"]
         },
         "x759": {
-            "level": "80",
             "name_en": "Eden's Promise: Eternity (Savage)",
             "name_fr": "La Promesse d'Éden - Éternité (sadique)",
+            "level": "80",
             "unlock": "q.69515",
+            "patch": "5.4",
+            "cPrev": ["q.69515"],
             "cSiblings": ["a.2722"]
         },
         "x700": {
-            "level": "80",
             "name_en": "The Copied Factory",
             "name_fr": "Réplique de l'usine désaffectée",
+            "level": "80",
             "unlock": "q.69254",
+            "patch": "5.1",
+            "cUnlock": ["q.69254"],
             "cSiblings": ["a.2443"]
         },
         "x736": {
-            "level": "80",
             "name_en": "The Puppets' Bunker",
             "name_fr": "La base militaire des Pantins",
+            "level": "80",
             "unlock": "q.69489",
+            "patch": "5.3",
+            "cUnlock": ["q.69489"],
             "cSiblings": ["a.2622"]
         },
         "x779": {
-            "level": "80",
             "name_en": "The Tower at Paradigm's Breach",
             "name_fr": "La tour de la Contingence",
+            "level": "80",
             "unlock": "q.69571",
+            "patch": "5.5",
+            "cUnlock": ["q.69571"],
             "cSiblings": ["a.2847"]
+        },
+        "x694": {
+            "name_en": "The Epic of Alexander (Ultimate)",
+            "name_fr": "L'Odyssée d'Alexander (fatal)",
+            "level": "80",
+            "unlock": ["d.690", "q.68479"],
+            "patch": "5.1",
+            "cPrev": ["d.690", "q.68479"],
+            "cSiblings": ["a.2444"]
         }
     }
 }

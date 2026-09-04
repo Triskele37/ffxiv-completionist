@@ -1,239 +1,239 @@
 {
     "key": "southern-thanalan",
-    "groupName": "@PLACE.SOUTHERN_THANALAN",
+    "groupName": "@PLACE.ARR.SOUTHERN_THANALAN",
     "tasks": {
         "x421": {
-            "level": 25,
             "name_en": "Downwind",
             "name_fr": "Odeur alléchante",
+            "level": 25,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 14)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x434": {
-            "level": 26,
             "name_en": "Run Like a Flame",
             "name_fr": "Course-poursuite mortelle",
+            "level": 26,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(18, 18)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.0"
         },
         "x420": {
-            "level": 27,
             "name_en": "The Corpse Bribe",
             "name_fr": "Adieu les pots-de-vin",
+            "level": 27,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20, 8)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x419": {
-            "level": 28,
             "name_en": "Adventures in Throat Slitting",
             "name_fr": "Défi : mise à mort",
+            "level": 28,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(22, 9)",
-            "patch": "2.0",
-            "previousFate": "f.456",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.456",
+            "patch": "2.0"
         },
         "x441": {
-            "level": 28,
             "name_en": "Harder, Bigger, Faster, Stronger",
             "name_fr": "Survie du plus apte",
+            "level": 28,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 12)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x456": {
-            "level": 28,
             "name_en": "Bump and Grind",
             "name_fr": "Défi : exécution sommaire",
+            "level": 28,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23, 10)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x422": {
-            "level": 29,
             "name_en": "Soul Man",
             "name_fr": "Tout pour l'âme",
+            "level": 29,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(25, 12)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x429": {
-            "level": 31,
             "name_en": "Children of the Sands",
             "name_fr": "Enfants des sables",
+            "level": 31,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 32)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x437": {
-            "level": 31,
             "name_en": "Fish out of Water",
             "name_fr": "Mise en ordre",
+            "level": 31,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 38)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x432": {
-            "level": 32,
             "name_en": "From Point A",
             "name_fr": "Escorte culturelle",
+            "level": 32,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(19, 34)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.0"
         },
         "x436": {
-            "level": 32,
             "name_en": "Blood, Augur, Hex, Magicks",
             "name_fr": "Défi : une magie maléfique",
+            "level": 32,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(25, 34)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x455": {
-            "level": 32,
             "name_en": "Revenge of the Worms",
             "name_fr": "La revanche des vers",
+            "level": 32,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 30)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x424": {
-            "level": 45,
             "name_en": "Heroes of the 2nd",
             "name_fr": "Protéger ses arrières",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21, 16)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x552": {
-            "level": 45,
             "name_en": "Taken",
             "name_fr": "Que décline son armée",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x423": {
-            "level": 46,
             "name_en": "Bigger than Life",
             "name_fr": "Défi : attention, Aspidochélon méchant",
+            "level": 46,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x545": {
-            "level": 46,
             "name_en": "Call Me, Mayhaps",
             "name_fr": "Le feu sacré",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 18)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x546": {
-            "level": 46,
             "name_en": "Book of Pride",
             "name_fr": "Défi : Bibireze le maudit",
+            "level": 46,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x548": {
-            "level": 46,
             "name_en": "Tempered, Tempered",
             "name_fr": "Feu aux poudres",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 23)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x549": {
-            "level": 46,
             "name_en": "Full of Rigor Mortis",
             "name_fr": "Le maillon faible",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 27)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x555": {
-            "level": 46,
             "name_en": "Fallen Corpses Writhe in Style",
             "name_fr": "D'élégants morts-vivants",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(16, 25)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x427": {
-            "level": 48,
             "name_en": "Diamond in the Rough",
             "name_fr": "Défi : la meilleure défense...",
+            "level": 48,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x550": {
-            "level": 48,
             "name_en": "An Inconvenient Truth",
             "name_fr": "La horde de la discorde",
+            "level": 48,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x551": {
-            "level": 48,
             "name_en": "Future Shock",
             "name_fr": "Horoscope du jour",
+            "level": 48,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 25)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x558": {
-            "level": 48,
             "name_en": "He's a Firestarter",
             "name_fr": "Défi : l'attiseur des flammes infernales",
+            "level": 48,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(26, 21)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x430": {
-            "level": 49,
             "name_en": "Return to Cinder",
             "name_fr": "Défi : sombre futur pour le voyant",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(24, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x431": {
-            "level": 49,
             "name_en": "Hunters and the Hunted",
             "name_fr": "Chasser ou être chassé",
+            "level": 49,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(23, 27)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x553": {
-            "level": 49,
             "name_en": "Gyve Talk",
             "name_fr": "Massacre derrière la herse",
+            "level": 49,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x554": {
-            "level": 49,
             "name_en": "Spark off the Bench",
             "name_fr": "Défi : un Hepugg à épurer",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(32, 19)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x557": {
-            "level": 49,
             "name_en": "Quenching the Flame",
             "name_fr": "L'élite des Crocs",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(32, 20)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

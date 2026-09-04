@@ -1,0 +1,35 @@
+@let isTextOnly = value.type === 'Value';
+
+<span
+    class="cell-value"
+    [ngClass]="{ 'text-only': isTextOnly, link: !isTextOnly }"
+    [pTooltip]="tooltip()"
+    tooltipPosition="bottom"
+>
+    @if(value.type === 'Value') {
+        <span>{{value.value}}</span>
+    }
+    @else {
+        <!-- Content links to other content -->
+        @if(value.pre) {
+            <span>{{value.pre}}</span>
+        }
+
+        @if(value.type === 'Group') {
+            <com-content-link
+                [content]="value.value"
+                [trimGroup]="column.trimGroup ? svcTable.group() : undefined"
+            ></com-content-link>
+        }
+        @else if(value.type === 'Task') {
+            <com-content-link
+                [content]="value.value"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+
+        @if(value.post) {
+            <span>{{value.post}}</span>
+        }
+    }
+</span>

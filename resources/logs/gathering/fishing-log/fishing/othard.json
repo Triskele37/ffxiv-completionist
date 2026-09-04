@@ -3,197 +3,221 @@
     "groupName_en": "Othard",
     "groupName_fr": "Othard",
     "tasks": {
-        "x0": {
+        "x158": {
             "name_en": "The Ruby Price",
             "name_fr": "Batteries de Rubis",
-            "level": "62",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 62,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(38.4, 38.5)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x1": {
-            "name_en": "Hell's Lid",
+        "x159": {
+            "name_en": "Hells' Lid",
             "name_fr": "Couvercle des enfers",
-            "level": "62",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 62,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(25.9, 33.3)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x2": {
+        "x160": {
             "name_en": "The Isle of Bekko",
             "name_fr": "Île de Bekko",
-            "level": "65",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 65,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(34.6, 19.7)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x3": {
+        "x161": {
             "name_en": "Shoal Rock",
             "name_fr": "Okinoiwa",
-            "level": "63",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 63,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(32.5, 8.3)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x4": {
+        "x162": {
             "name_en": "Onokoro",
             "name_fr": "Onokoro",
-            "level": "64",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 64,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(22.1, 11)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x5": {
+        "x163": {
             "name_en": "Isari",
             "name_fr": "Isari",
-            "level": "64",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 64,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(8.5, 12)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x6": {
+        "x164": {
             "name_en": "The Isle of Zekki",
             "name_fr": "Île de Zekki",
-            "level": "70",
-            "zone": "@PLACE.THE_RUBY_SEA",
+            "level": 70,
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
             "location": "(x8.3, y26.6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "4.0"
         },
-        "x7": {
+        "x165": {
             "name_en": "The Heron's Nest",
             "name_fr": "Nid du Héron",
-            "level": "64",
-            "zone": "@PLACE.YANXIA",
+            "level": 64,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(34.7, 14)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x8": {
+        "x166": {
             "name_en": "The Heron's Way",
             "name_fr": "Course du Héron",
-            "level": "64",
-            "zone": "@PLACE.YANXIA",
+            "level": 64,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(35.6, 17)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x9": {
+        "x167": {
             "name_en": "Namai",
             "name_fr": "Namai",
-            "level": "64",
-            "zone": "@PLACE.YANXIA",
+            "level": 64,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(29.5, 15.5)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x10": {
+        "x172": {
             "name_en": "The One River (East)",
             "name_fr": "Muni (est)",
-            "level": "65",
-            "zone": "@PLACE.YANXIA",
+            "level": 65,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(20, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x11": {
+        "x173": {
             "name_en": "The One River (West)",
             "name_fr": "Muni (ouest)",
-            "level": "70",
-            "zone": "@PLACE.YANXIA",
+            "level": 70,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(11, 33)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x12": {
+        "x174": {
             "name_en": "Plum Spring",
             "name_fr": "Source des Pruniers",
-            "level": "70",
-            "zone": "@PLACE.YANXIA",
+            "level": 70,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(37, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x13": {
+        "x169": {
             "name_en": "Prism Canyon",
             "name_fr": "Vallée aux Prismes",
-            "level": "67",
-            "zone": "@PLACE.YANXIA",
+            "level": 67,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(32, 7)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x14": {
+        "x168": {
             "name_en": "Prism Lake",
             "name_fr": "Lac aux Prismes",
-            "level": "67",
-            "zone": "@PLACE.YANXIA",
+            "level": 67,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(29, 6)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x15": {
+        "x171": {
             "name_en": "Mercantile Docks",
             "name_fr": "Quais de commerce",
-            "level": "67",
-            "zone": "@PLACE.YANXIA",
+            "level": 67,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(11, 13)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x16": {
+        "x170": {
             "name_en": "Doma Castle",
             "name_fr": "Château de Doma",
-            "level": "67",
-            "zone": "@PLACE.YANXIA",
+            "level": 67,
+            "zone": "@PLACE.SB.YANXIA",
             "location": "(14, 7)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x17": {
+        "x175": {
             "name_en": "Nem Khaal",
             "name_fr": "Nem Khaal",
-            "level": "60",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(31, 26)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x18": {
+        "x176": {
             "name_en": "Hak Khaal",
             "name_fr": "Hak Khaal",
-            "level": "66",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(29, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x19": {
+        "x177": {
             "name_en": "Upper Yat Khaal",
             "name_fr": "Yat Khaal (amont)",
-            "level": "67",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(17,18)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x20": {
+        "x178": {
             "name_en": "Azim Khaat",
             "name_fr": "Azim Khaat",
-            "level": "70",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(23,23)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x21": {
+        "x179": {
             "name_en": "Tao Khaal",
             "name_fr": "Tao Khaal",
-            "level": "67",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(16, 14)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x22": {
+        "x180": {
             "name_en": "Lower Yat Khaal",
             "name_fr": "Yat Khaal (aval)",
-            "level": "67",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(22, 28)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         },
-        "x23": {
+        "x181": {
             "name_en": "Dotharl Khaa",
             "name_fr": "Dotharl Khaa",
-            "level": "67",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "level": 60,
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
             "location": "(12.4, 33.1)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "4.0"
         }
     }
 }

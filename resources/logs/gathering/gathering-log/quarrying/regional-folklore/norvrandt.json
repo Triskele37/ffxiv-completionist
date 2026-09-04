@@ -3,35 +3,35 @@
     "groupName_en": "Norvrandt",
     "groupName_fr": "Norvrandt",
     "tasks": {
-        "x0": {
-            "level": "80★★",
+        "x609": {
             "name_en": "Purpure Shell Chip",
             "name_fr": "Éclat de perle purpurine",
-            "zone": "@PLACE.THE_TEMPEST",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
             "coordinates": "(34, 31)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.130",
             "nodeTimer": "06:00 / 18:00",
-            "patch": "5.2",
-            "closestAetheryte": "travel.aetherytes.norvrandt.130"
+            "patch": "5.2"
         },
-        "x1": {
-            "level": "80★★",
+        "x610": {
             "name_en": "Ashen Alumen",
             "name_fr": "Alun cendré",
-            "zone": "@PLACE.AMH_ARAENG",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
             "coordinates": "(20, 8)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "5.2",
-            "closestAetheryte": "travel.aetherytes.norvrandt.123"
+            "patch": "5.2"
         },
-        "x2": {
-            "level": "80★★★",
+        "x625": {
             "name_en": "Solstice Stone",
             "name_fr": "Cristal solsticial",
-            "zone": "@PLACE.IL_MHEG",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.IL_MHEG",
             "coordinates": "(36, 9)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "5.4",
-            "closestAetheryte": "travel.aetherytes.norvrandt.126"
+            "patch": "5.4"
         }
     }
 }

@@ -4,174 +4,228 @@
     "groupNameShort": "@EXPANSION.HW",
     "tasks": {
         "x112": {
-            "level": "60",
             "name_en": "Alexander - The Fist of the Father",
             "name_fr": "Alexander - Le Poing du Père",
-            "unlock": "q.67626"
+            "level": "60",
+            "unlock": "q.67626",
+            "patch": "3.01",
+            "cUnlock": ["q.67626"]
         },
         "x113": {
-            "level": "60",
             "name_en": "Alexander - The Cuff of the Father",
             "name_fr": "Alexander - Le Poignet du Père",
-            "unlock": "q.67627"
+            "level": "60",
+            "unlock": "q.67627",
+            "patch": "3.01",
+            "cUnlock": ["q.67627"]
         },
         "x114": {
-            "level": "60",
             "name_en": "Alexander - The Arm of the Father",
             "name_fr": "Alexander - Le Bras du Père",
-            "unlock": "q.67628"
+            "level": "60",
+            "unlock": "q.67628",
+            "patch": "3.01",
+            "cUnlock": ["q.67628"]
         },
         "x115": {
-            "level": "60",
             "name_en": "Alexander - The Burden of the Father",
             "name_fr": "Alexander - Le Fardeau du Père",
+            "level": "60",
             "unlock": "q.67629",
+            "patch": "3.01",
+            "cUnlock": ["q.67629"],
             "cSiblings": ["a.1228"]
         },
-        "x116": {
-            "level": "60",
-            "name_en": "Alexander - The Fist of the Father (Savage)",
-            "name_fr": "Alexander - Le Poing du Père (sadique)",
-            "unlock": "q.67644"
-        },
-        "x117": {
-            "level": "60",
-            "name_en": "Alexander - The Cuff of the Father (Savage)",
-            "name_fr": "Alexander - Le Poignet du Père (sadique)",
-            "unlock": "q.67644"
-        },
-        "x118": {
-            "level": "60",
-            "name_en": "Alexander - The Arm of the Father (Savage)",
-            "name_fr": "Alexander - Le Bras du Père (sadique)",
-            "unlock": "q.67644"
-        },
-        "x119": {
-            "level": "60",
-            "name_en": "Alexander - The Burden of the Father (Savage)",
-            "name_fr": "Alexander - Le Fardeau du Père (sadique)",
-            "unlock": "q.67644",
-            "cSiblings": ["a.1231"]
-        },
         "x136": {
-            "level": "60",
             "name_en": "Alexander - The Fist of the Son",
             "name_fr": "Alexander - Le Poing du Fils",
-            "unlock": "q.67785"
+            "level": "60",
+            "unlock": "q.67785",
+            "patch": "3.2",
+            "cUnlock": ["q.67785"]
         },
         "x137": {
-            "level": "60",
             "name_en": "Alexander - The Cuff of the Son",
             "name_fr": "Alexander - Le Poignet du Fils",
-            "unlock": "q.67786"
+            "level": "60",
+            "unlock": "q.67786",
+            "patch": "3.2",
+            "cUnlock": ["q.67786"]
         },
         "x138": {
-            "level": "60",
             "name_en": "Alexander - The Arm of the Son",
             "name_fr": "Alexander - Le Bras du Fils",
-            "unlock": "q.67787"
+            "level": "60",
+            "unlock": "q.67787",
+            "patch": "3.2",
+            "cUnlock": ["q.67787"]
         },
         "x139": {
-            "level": "60",
             "name_en": "Alexander - The Burden of the Son",
             "name_fr": "Alexander - Le Fardeau du Fils",
+            "level": "60",
             "unlock": "q.67788",
+            "patch": "3.2",
+            "cUnlock": ["q.67788"],
             "cSiblings": ["a.1476"]
         },
-        "x147": {
-            "level": "60",
-            "name_en": "Alexander - The Fist of the Son (Savage)",
-            "name_fr": "Alexander - Le Poing du Fils (sadique)",
-            "unlock": "q.67790"
-        },
-        "x148": {
-            "level": "60",
-            "name_en": "Alexander - The Cuff of the Son (Savage)",
-            "name_fr": "Alexander - Le Poignet du Fils (sadique)",
-            "unlock": "q.67790"
-        },
-        "x149": {
-            "level": "60",
-            "name_en": "Alexander - The Arm of the Son (Savage)",
-            "name_fr": "Alexander - Le Bras du Fils (sadique)",
-            "unlock": "q.67790"
-        },
-        "x150": {
-            "level": "60",
-            "name_en": "Alexander - The Burden of the Son (Savage)",
-            "name_fr": "Alexander - Le Fardeau du Fils (sadique)",
-            "unlock": "q.67790",
-            "cSiblings": ["a.1479"]
-        },
         "x186": {
-            "level": "60",
             "name_en": "Alexander - The Eyes of the Creator",
             "name_fr": "Alexander - Les Yeux du Créateur",
-            "unlock": "q.67871"
+            "level": "60",
+            "unlock": "q.67871",
+            "patch": "3.4",
+            "cUnlock": ["q.67871"]
         },
         "x187": {
-            "level": "60",
             "name_en": "Alexander - The Breath of the Creator",
             "name_fr": "Alexander - Le Souffle du Créateur",
-            "unlock": "q.67872"
+            "level": "60",
+            "unlock": "q.67872",
+            "patch": "3.4",
+            "cUnlock": ["q.67872"]
         },
         "x188": {
-            "level": "60",
             "name_en": "Alexander - The Heart of the Creator",
             "name_fr": "Alexander - Le Cœur du Créateur",
-            "unlock": "q.67873"
+            "level": "60",
+            "unlock": "q.67873",
+            "patch": "3.4",
+            "cUnlock": ["q.67873"]
         },
         "x189": {
-            "level": "60",
             "name_en": "Alexander - The Soul of the Creator",
             "name_fr": "Alexander - L'Âme du Créateur",
+            "level": "60",
             "unlock": "q.67874",
+            "patch": "3.4",
+            "cUnlock": ["q.67874"],
             "cSiblings": ["a.1639"]
         },
-        "x190": {
+        "x116": {
+            "name_en": "Alexander - The Fist of the Father (Savage)",
+            "name_fr": "Alexander - Le Poing du Père (sadique)",
             "level": "60",
+            "unlock": "q.67644",
+            "patch": "3.05",
+            "cPrev": ["q.67644"]
+        },
+        "x117": {
+            "name_en": "Alexander - The Cuff of the Father (Savage)",
+            "name_fr": "Alexander - Le Poignet du Père (sadique)",
+            "level": "60",
+            "unlock": "q.67644",
+            "patch": "3.05",
+            "cPrev": ["q.67644"]
+        },
+        "x118": {
+            "name_en": "Alexander - The Arm of the Father (Savage)",
+            "name_fr": "Alexander - Le Bras du Père (sadique)",
+            "level": "60",
+            "unlock": "q.67644",
+            "patch": "3.05",
+            "cPrev": ["q.67644"]
+        },
+        "x119": {
+            "name_en": "Alexander - The Burden of the Father (Savage)",
+            "name_fr": "Alexander - Le Fardeau du Père (sadique)",
+            "level": "60",
+            "unlock": "q.67644",
+            "patch": "3.05",
+            "cPrev": ["q.67644"],
+            "cSiblings": ["a.1231"]
+        },
+        "x147": {
+            "name_en": "Alexander - The Fist of the Son (Savage)",
+            "name_fr": "Alexander - Le Poing du Fils (sadique)",
+            "level": "60",
+            "unlock": "q.67790",
+            "patch": "3.2",
+            "cPrev": ["q.67790"]
+        },
+        "x148": {
+            "name_en": "Alexander - The Cuff of the Son (Savage)",
+            "name_fr": "Alexander - Le Poignet du Fils (sadique)",
+            "level": "60",
+            "unlock": "q.67790",
+            "patch": "3.2",
+            "cPrev": ["q.67790"]
+        },
+        "x149": {
+            "name_en": "Alexander - The Arm of the Son (Savage)",
+            "name_fr": "Alexander - Le Bras du Fils (sadique)",
+            "level": "60",
+            "unlock": "q.67790",
+            "patch": "3.2",
+            "cPrev": ["q.67790"]
+        },
+        "x150": {
+            "name_en": "Alexander - The Burden of the Son (Savage)",
+            "name_fr": "Alexander - Le Fardeau du Fils (sadique)",
+            "level": "60",
+            "unlock": "q.67790",
+            "patch": "3.2",
+            "cPrev": ["q.67790"],
+            "cSiblings": ["a.1479"]
+        },
+        "x190": {
             "name_en": "Alexander - The Eyes of the Creator (Savage)",
             "name_fr": "Alexander - Les Yeux du Créateur (sadique)",
-            "unlock": "q.67876"
+            "level": "60",
+            "unlock": "q.67876",
+            "patch": "3.4",
+            "cPrev": ["q.67876"]
         },
         "x191": {
-            "level": "60",
             "name_en": "Alexander - The Breath of the Creator (Savage)",
             "name_fr": "Alexander - Le Souffle du Créateur (sadique)",
-            "unlock": "q.67876"
+            "level": "60",
+            "unlock": "q.67876",
+            "patch": "3.4",
+            "cPrev": ["q.67876"]
         },
         "x192": {
-            "level": "60",
             "name_en": "Alexander - The Heart of the Creator (Savage)",
             "name_fr": "Alexander - Le Cœur du Créateur (sadique)",
-            "unlock": "q.67876"
+            "level": "60",
+            "unlock": "q.67876",
+            "patch": "3.4",
+            "cPrev": ["q.67876"]
         },
         "x193": {
-            "level": "60",
             "name_en": "Alexander - The Soul of the Creator (Savage)",
             "name_fr": "Alexander - L'Âme du Créateur (sadique)",
+            "level": "60",
             "unlock": "q.67876",
+            "patch": "3.4",
+            "cPrev": ["q.67876"],
             "cSiblings": ["a.1642"]
         },
         "x120": {
-            "level": "60",
             "name_en": "The Void Ark",
             "name_fr": "L'Arche du néant",
+            "level": "60",
             "unlock": "q.67741",
+            "patch": "3.1",
+            "cUnlock": ["q.67741"],
             "cSiblings": ["a.1399"]
         },
         "x168": {
-            "level": "60",
             "name_en": "The Weeping City of Mhach",
             "name_fr": "La Cité défendue de Mhach",
+            "level": "60",
             "unlock": "q.67821",
+            "patch": "3.3",
+            "cUnlock": ["q.67821"],
             "cSiblings": ["a.1574"]
         },
         "x220": {
-            "level": "60",
             "name_en": "Dun Scaith",
             "name_fr": "Dun Scaith",
+            "level": "60",
             "unlock": "q.67909",
+            "patch": "3.5",
+            "cUnlock": ["q.67909"],
             "cSiblings": ["a.1689"]
         }
     }

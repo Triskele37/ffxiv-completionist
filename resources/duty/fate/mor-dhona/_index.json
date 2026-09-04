@@ -1,118 +1,118 @@
 {
     "key": "mor-dhona",
-    "groupName": "@PLACE.MOR_DHONA",
+    "groupName": "@PLACE.ARR.MOR_DHONA",
     "tasks": {
         "x514": {
-            "level": 44,
             "name_en": "Mud about You",
             "name_fr": "Enchevêtrement fatal",
+            "level": 44,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(14, 12)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x517": {
-            "level": 44,
             "name_en": "Good to Be Bud",
             "name_fr": "Trop de morbols tuent les morbols",
+            "level": 44,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(13, 12)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x530": {
-            "level": 44,
             "name_en": "V for Vinedetta",
             "name_fr": "Défi : parfum trompeur",
+            "level": 44,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13, 10)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x512": {
-            "level": 45,
             "name_en": "Toll Collector",
             "name_fr": "Des crapauds en trop",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 9)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x516": {
-            "level": 45,
             "name_en": "Black and Nburu",
             "name_fr": "Défi : sonner le Glas pour Nburu",
+            "level": 45,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(15, 13)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x523": {
-            "level": 45,
             "name_en": "Among Giants",
             "name_fr": "Sus aux gigas",
+            "level": 45,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 11)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x529": {
-            "level": 45,
             "name_en": "The Prodigal Son",
             "name_fr": "Une escorte pour la science",
+            "level": 45,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(22, 8)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "2.1"
         },
         "x520": {
-            "level": 46,
             "name_en": "Standing Guard",
             "name_fr": "Ces tests doivent échouer",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(12, 12)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x522": {
-            "level": 46,
             "name_en": "One Giant Leap",
             "name_fr": "Chacun sa terre sainte",
+            "level": 46,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(29, 13)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.1"
         },
         "x524": {
-            "level": 46,
             "name_en": "Another Day, Another Demon",
             "name_fr": "À chaque jour suffit son monstre",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(27, 10)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x525": {
-            "level": 46,
             "name_en": "That's What Adventurers Are For",
             "name_fr": "Défi : Dioné-nous la force",
+            "level": 46,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(29, 14)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x526": {
-            "level": 46,
             "name_en": "Home Is Where the Horn Is",
             "name_fr": "Pas les bienvenus",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(32, 11)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.1"
         },
         "x527": {
-            "level": 46,
             "name_en": "Gone with the Shadow",
             "name_fr": "Défi : en proie aux ombres",
+            "level": 46,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(27, 6)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         },
         "x521": {
-            "level": 48,
             "name_en": "Another Notch on the Torch",
             "name_fr": "Défi : Porus et les 1000 chasseurs",
+            "level": 48,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(31, 5)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.1"
         }
     }
 }

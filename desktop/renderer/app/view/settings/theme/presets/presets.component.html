@@ -1,0 +1,51 @@
+<p-button-group>
+    @for(preset of standardPresets; track preset.primary) {
+        <ng-container
+            [ngTemplateOutlet]="themeButton"
+            [ngTemplateOutletContext]="{ $implicit: preset }"
+        ></ng-container>
+    }
+
+    <button
+        class="additional-themes"
+        pButton
+        (click)="op.toggle($event)"
+    >
+        <i class="pi pi-chevron-down"></i>
+    </button>
+</p-button-group>
+
+<p-popover #op appendTo="self">
+    <div class="preset-popover">
+        @for(preset of presets; track preset.primary) {
+            <ng-container
+                [ngTemplateOutlet]="themeButton"
+                [ngTemplateOutletContext]="{ $implicit: preset }"
+            ></ng-container>
+        }
+    </div>
+</p-popover>
+
+<ng-template #themeButton let-preset>
+    <button
+        pButton
+        class="theme-button"
+        [style.--tb-primary]="preset.primary"
+        [style.--tb-primary-text]="preset.primaryText"
+        [style.--tb-background]="preset.background"
+        [style.--tb-background-text]="preset.backgroundText"
+        [style.--tb-incomplete]="preset.incomplete"
+        [style.--tb-partial]="preset.partial"
+        [style.--tb-complete]="preset.complete"
+        [style.--tb-exclude]="preset.exclude"
+        (click)="applyPreset(preset)"
+    >
+        <div class="primary-swatch">
+            ♠♥
+        </div>
+        <div class="background-swatch">
+            ♠♥
+        </div>
+        <div class="completion-gradient"></div>
+    </button>
+</ng-template>

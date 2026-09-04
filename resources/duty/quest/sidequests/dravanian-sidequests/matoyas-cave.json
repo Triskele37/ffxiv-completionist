@@ -4,65 +4,65 @@
     "groupName_fr": "Caverne de Matoya",
     "tasks": {
         "x67502": {
-            "level": 59,
             "name_en": "Saro Roggo's Common Life",
             "name_fr": "Le serviteur poroggo",
-            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.14",
+            "level": 59,
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.14",
+            "patch": "3.0",
             "cPrev": ["q.67195"],
             "cNext": ["q.67503", "q.67504", "q.67505"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.14"]
         },
         "x67503": {
-            "level": 59,
             "name_en": "A Straightforward Fancy",
             "name_fr": "Le rêve d'un balai",
+            "level": 59,
             "npc_en": "Straightforward Broom",
             "npc_fr": "Balai Agité",
+            "patch": "3.0",
             "cPrev": ["q.67195", "q.67502"],
-            "cNext": ["q.67506"],
-            "patch": "4.31"
+            "cNext": ["q.67506"]
         },
         "x67504": {
-            "level": 59,
             "name_en": "A Statuesque Interest",
             "name_fr": "Le désir d'un balai",
+            "level": 59,
             "npc_en": "Statuesque Broom",
             "npc_fr": "Balai Brillant",
+            "patch": "3.0",
             "cPrev": ["q.67195", "q.67502"],
-            "cNext": ["q.67506"],
-            "patch": "4.31"
+            "cNext": ["q.67506"]
         },
         "x67505": {
-            "level": 59,
             "name_en": "A Self-possessed Pastime",
             "name_fr": "La curiosité d'un balai",
+            "level": 59,
             "npc_en": "Self-possessed Broom",
             "npc_fr": "Balai Capricieux",
+            "patch": "3.0",
             "cPrev": ["q.67195", "q.67502"],
-            "cNext": ["q.67506"],
-            "patch": "4.31"
+            "cNext": ["q.67506"]
         },
         "x67506": {
-            "level": 59,
             "name_en": "The Magic Word",
             "name_fr": "L'incantation révélatrice",
+            "level": 59,
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
+            "patch": "3.0",
             "cPrev": ["q.67503", "q.67504", "q.67505"],
-            "cNext": ["q.67507"],
-            "patch": "4.31"
+            "cNext": ["q.67507"]
         },
         "x67507": {
-            "level": 59,
             "name_en": "Have I Toad You Lately",
             "name_fr": "En désespoâr de cause",
+            "level": 59,
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
-            "cPrev": ["q.67195", "q.67506"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67195", "q.67506"]
         }
     }
 }

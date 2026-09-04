@@ -8,8 +8,8 @@
             "name_fr": "Le nerf de la guerre I",
             "description_en": "Complete 5 guildhests.",
             "description_fr": "Accomplir un total de 5 opérations de guilde.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.342"]
         },
         "x342": {
@@ -17,8 +17,8 @@
             "name_fr": "Le nerf de la guerre II",
             "description_en": "Complete 10 guildhests.",
             "description_fr": "Accomplir un total de 10 opérations de guilde.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.341"],
             "cNext": ["a.343"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "Le nerf de la guerre III",
             "description_en": "Complete 20 guildhests.",
             "description_fr": "Accomplir un total de 20 opérations de guilde.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.342"],
             "cNext": ["a.344"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "Le nerf de la guerre IV",
             "description_en": "Complete 30 guildhests.",
             "description_fr": "Accomplir un total de 30 opérations de guilde.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.343"],
             "cNext": ["a.345"]
         },
@@ -47,8 +47,8 @@
             "name_fr": "Le nerf de la guerre V",
             "description_en": "Complete 50 guildhests.",
             "description_fr": "Accomplir un total de 50 opérations de guilde.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.344"],
             "cNext": ["a.346"]
         },
@@ -57,9 +57,9 @@
             "name_fr": "À la guerre comme à la guerre",
             "description_en": "Complete 100 guildhests.",
             "description_fr": "Accomplir un total de 100 opérations de guilde.",
+            "points": 10,
             "reward": "t.53",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.345"],
             "cNext": ["a.347"],
             "cSiblings": ["t.53"]
@@ -69,8 +69,8 @@
             "name_fr": "Commander et conquérir",
             "description_en": "Complete 200 guildhests.",
             "description_fr": "Accomplir un total de 200 opérations de guilde.",
-            "patch": "2.0",
             "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.346"]
         },
         "x644": {
@@ -78,8 +78,8 @@
             "name_fr": "Un plan d'opérations I",
             "description_en": "Complete 3 unique guildhests.",
             "description_fr": "Accomplir 3 opérations de guilde différentes.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.645"]
         },
         "x645": {
@@ -87,8 +87,8 @@
             "name_fr": "Un plan d'opérations II",
             "description_en": "Complete 7 unique guildhests.",
             "description_fr": "Accomplir 7 opérations de guilde différentes.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.644"],
             "cNext": ["a.646"]
         },
@@ -97,8 +97,8 @@
             "name_fr": "Un plan d'opérations III",
             "description_en": "Complete 14 unique guildhests.",
             "description_fr": "Accomplir 14 opérations de guilde différentes.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.645"]
         },
         "x1595": {
@@ -106,8 +106,8 @@
             "name_fr": "Voyage au cœur des souvenirs",
             "description_en": "Complete the quest “The Burdens We Bear.”",
             "description_fr": "Accomplir la quête “Le sourire de l'amitié”.",
-            "patch": "3.3",
             "points": 10,
+            "patch": "3.3",
             "cSiblings": ["q.67015"]
         },
         "x902": {
@@ -115,9 +115,9 @@
             "name_fr": "Noyés, mes poissons",
             "description_en": "Complete the quest “The Beast of Brewer's Beacon.”",
             "description_fr": "Accomplir la quête “Des poissons de légende”.",
+            "points": 10,
             "reward": "t.150",
             "patch": "2.2",
-            "points": 10,
             "cSiblings": ["q.66966", "t.150"]
         },
         "x1575": {
@@ -125,9 +125,9 @@
             "name_fr": "Reposez enfin en paix",
             "description_en": "Complete the quest “The Nightmare's End.”",
             "description_fr": "Accomplir la quête “La réunion de deux bagues”.",
+            "points": 10,
             "reward": "t.314",
             "patch": "3.35",
-            "points": 10,
             "cSiblings": ["q.67093", "t.314"]
         },
         "x1680": {
@@ -135,9 +135,9 @@
             "name_fr": "Six cents fulms sous terre",
             "description_en": "Complete the quest “Dead but Not Gone.”",
             "description_fr": "Accomplir la quête “Repos éternel”.",
+            "points": 10,
             "reward": "t.324",
             "patch": "3.45",
-            "points": 10,
             "cSiblings": ["q.67924", "t.324"]
         },
         "x900": {
@@ -145,8 +145,8 @@
             "name_fr": "Les secrets des profondeurs",
             "description_en": "Complete the quest “Alisaie's Pledge.”",
             "description_fr": "Accomplir la quête “Replongés dans l'abîme”.",
-            "patch": "2.2",
             "points": 10,
+            "patch": "2.2",
             "cSiblings": ["q.66696"]
         },
         "x901": {
@@ -154,8 +154,8 @@
             "name_fr": "La décision d'Alisaie",
             "description_en": "Complete the quest “Alisaie's Resolve.”",
             "description_fr": "Accomplir la quête “Des vérités qui dérangent”.",
-            "patch": "2.2",
             "points": 20,
+            "patch": "2.2",
             "cSiblings": ["q.66850"]
         },
         "x1030": {
@@ -163,9 +163,9 @@
             "name_fr": "La vérité de l'Abîme",
             "description_en": "Complete the quest “Alisaie's Path.”",
             "description_fr": "Accomplir la quête “Nouveau départ”.",
+            "points": 20,
             "reward": "t.178",
             "patch": "2.4",
-            "points": 20,
             "cSiblings": ["q.65580", "t.178"]
         },
         "x1164": {
@@ -173,9 +173,9 @@
             "name_fr": "Le château de métal",
             "description_en": "Complete the quest “Enigma.”",
             "description_fr": "Accomplir la quête “Le trésor de Roundrox”.",
-            "reward": "t.235",
-            "patch": "3.0",
             "points": 10,
+            "reward": "t.235",
+            "patch": "3.01",
             "cSiblings": ["q.67630", "t.235"]
         },
         "x1494": {
@@ -183,9 +183,9 @@
             "name_fr": "Le dernier élément",
             "description_en": "Complete the quest “A Gob in the Machine.”",
             "description_fr": "Accomplir la quête “Une question de temps”.",
-            "reward": "t.290",
-            "patch": "3.15",
             "points": 10,
+            "reward": "t.290",
+            "patch": "3.2",
             "cSiblings": ["q.67789", "t.290"]
         },
         "x1629": {
@@ -193,9 +193,9 @@
             "name_fr": "Les ailes du temps",
             "description_en": "Complete the quest “Of Endings and Beginnings.”",
             "description_fr": "Accomplir la quête “Droit vers le futur”.",
+            "points": 10,
             "reward": "t.315",
             "patch": "3.4",
-            "points": 10,
             "cSiblings": ["q.67875", "t.315"]
         },
         "x1796": {
@@ -203,9 +203,9 @@
             "name_fr": "Sujet de test modèle",
             "description_en": "Complete the quest “The Anomaly.”",
             "description_fr": "Accomplir la quête “L'anomalie”.",
+            "points": 10,
             "reward": "t.359",
             "patch": "4.01",
-            "points": 10,
             "cSiblings": ["q.68469", "t.359"]
         },
         "x1388": {
@@ -213,9 +213,9 @@
             "name_fr": "Aventurier de l'Arche",
             "description_en": "Complete the quest “To Rule the Skies.”",
             "description_fr": "Accomplir la quête “À l'abordage !”.",
+            "points": 10,
             "reward": "t.272",
             "patch": "3.1",
-            "points": 10,
             "cSiblings": ["q.67741", "t.272"]
         },
         "x1031": {
@@ -223,9 +223,9 @@
             "name_fr": "Adepte de Nepto",
             "description_en": "Complete the quest “Feast of Famine.”",
             "description_fr": "Accomplir la quête “Une légende de la pêche”.",
+            "points": 30,
             "reward": "t.179",
             "patch": "2.4",
-            "points": 30,
             "cSiblings": ["q.65782", "t.179"]
         },
         "x1004": {
@@ -233,9 +233,9 @@
             "name_fr": "Bougez avec la Poste mog",
             "description_en": "Complete the quest “Of Errant Epistles.”",
             "description_fr": "Accomplir la quête “Plus qu'un métier, une vocation”.",
+            "points": 10,
             "reward": "t.175",
             "patch": "2.3",
-            "points": 10,
             "cSiblings": ["q.67017", "t.175"]
         },
         "x1130": {
@@ -243,9 +243,9 @@
             "name_fr": "Facteur capital",
             "description_en": "Complete the quest “The Little Postmoogle That Could.”",
             "description_fr": "Accomplir la quête “La grande famille de la Poste mog”.",
+            "points": 10,
             "reward": "t.212",
             "patch": "2.55",
-            "points": 10,
             "cSiblings": ["q.65898", "t.212"]
         },
         "x1005": {
@@ -253,8 +253,8 @@
             "name_fr": "Une histoire bien énigmatique",
             "description_en": "Complete the quest “The Greatest Story Never Told.”",
             "description_fr": "Accomplir la quête “Il était une fois un explorateur”.",
-            "patch": "2.3",
             "points": 10,
+            "patch": "2.3",
             "cSiblings": ["q.66973"]
         },
         "x789": {
@@ -262,8 +262,8 @@
             "name_fr": "Faiseur d'histoires I",
             "description_en": "Complete 10 unique quests.",
             "description_fr": "Accomplir 10 quêtes différentes.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.790"]
         },
         "x790": {
@@ -271,8 +271,8 @@
             "name_fr": "Faiseur d'histoires II",
             "description_en": "Complete 30 unique quests.",
             "description_fr": "Accomplir 30 quêtes différentes.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.789"],
             "cNext": ["a.791"]
         },
@@ -281,8 +281,8 @@
             "name_fr": "Faiseur d'histoires III",
             "description_en": "Complete 100 unique quests.",
             "description_fr": "Accomplir 100 quêtes différentes.",
-            "patch": "2.1",
             "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.790"]
         },
         "x1058": {
@@ -290,8 +290,8 @@
             "name_fr": "Forgeur d'arme légendaire",
             "description_en": "Complete the quest “His Dark Materia.”",
             "description_fr": "Accomplir la quête “Dernier fragment d'un long voyage”.",
-            "patch": "2.45",
             "points": 10,
+            "patch": "2.45",
             "cSiblings": ["q.65897"]
         },
         "x1060": {
@@ -299,9 +299,9 @@
             "name_fr": "Le visiteur des Ténèbres",
             "description_en": "Complete the quest “The Light of Hope.”",
             "description_fr": "Accomplir la quête “Un avenir plus radieux”.",
+            "points": 20,
             "reward": "t.184",
             "patch": "2.5",
-            "points": 20,
             "cSiblings": ["q.66031", "t.184"]
         },
         "x1061": {
@@ -309,9 +309,9 @@
             "name_fr": "Plus grand fan du détective",
             "description_en": "Complete the quest “Her Last Vow.”",
             "description_fr": "Accomplir la quête “Boucler la boucle”.",
+            "points": 20,
             "reward": "t.185",
             "patch": "2.5",
-            "points": 20,
             "cSiblings": ["q.66038", "t.185"]
         },
         "x1080": {
@@ -319,8 +319,8 @@
             "name_fr": "Brave du zodiaque",
             "description_en": "Complete the quest “The Vital Title.”",
             "description_fr": "Accomplir la quête “Un titre pour deux”.",
-            "patch": "2.51",
             "points": 20,
+            "patch": "2.51",
             "cSiblings": ["q.67823"]
         },
         "x1165": {
@@ -328,9 +328,9 @@
             "name_fr": "L'appel de la Triade guerrière",
             "description_en": "Complete the quests “Thok Around the Clock” and “The Diabolical Bismarck.”",
             "description_fr": "Accomplir les quêtes “La colère du Maître des lames” et “Les nuées du Migrateur des brumes”.",
+            "points": 10,
             "reward": "t.236",
             "patch": "3.0",
-            "points": 10,
             "cPrev": ["q.67652", "q.67651"],
             "cSiblings": ["t.236"]
         },
@@ -339,20 +339,20 @@
             "name_fr": "Fou des volants",
             "description_en": "Complete the quest “I Believe I Can Fly.”",
             "description_fr": "Accomplir la quête “Vole, beau volatile !”.",
+            "points": 10,
             "reward": "t.237",
             "patch": "3.0",
-            "points": 10,
-            "defaultCompletion": "X",
-            "cSiblings": ["t.237"]
+            "cSiblings": ["t.237"],
+            "defaultCompletion": "X"
         },
         "x1405": {
             "name_en": "Back to School I",
             "name_fr": "Séminariste du scolasticat I",
             "description_en": "Complete the quest “More than Meets Her Eye.”",
             "description_fr": "Accomplir la quête “Révoltes populaires”.",
+            "points": 10,
             "reward": "t.277",
             "patch": "3.15",
-            "points": 10,
             "cSiblings": ["q.67691", "t.277"]
         },
         "x1628": {
@@ -360,8 +360,8 @@
             "name_fr": "Séminariste du scolasticat II",
             "description_en": "Complete the quest “Finding Ulaa.”",
             "description_fr": "Accomplir la quête “Ulaa, es-tu là ?”.",
-            "patch": "3.4",
             "points": 10,
+            "patch": "3.4",
             "cSiblings": ["q.67746"]
         },
         "x1692": {
@@ -369,9 +369,9 @@
             "name_fr": "Séminariste du scolasticat III",
             "description_en": "Complete the quest “The Life and Lies of Father Saturnois.”",
             "description_fr": "Accomplir la quête “Justice pour tous”.",
+            "points": 10,
             "reward": "t.342",
             "patch": "3.5",
-            "points": 10,
             "cSiblings": ["q.67900", "t.342"]
         },
         "x1693": {
@@ -379,9 +379,9 @@
             "name_fr": "Chérir chaque jour les richesses en chaque chose",
             "description_en": "Complete the quest “If I Could Turn Back Time.”",
             "description_fr": "Accomplir la quête “Chacun son meilleur jour”.",
+            "points": 10,
             "reward": "t.343",
             "patch": "3.5",
-            "points": 10,
             "cSiblings": ["q.67908", "t.343"]
         },
         "x1394": {
@@ -389,9 +389,9 @@
             "name_fr": "Ami des anima",
             "description_en": "Complete the quest “Coming into Its Own.”",
             "description_fr": "Accomplir la quête “Anima nova”.",
+            "points": 10,
             "reward": "t.273",
             "patch": "3.15",
-            "points": 10,
             "cSiblings": ["q.67750", "t.273"]
         },
         "x1492": {
@@ -399,9 +399,9 @@
             "name_fr": "De l'eau bouillie pour les chats",
             "description_en": "Complete the quest “Kettle to the Mettle.”",
             "description_fr": "Accomplir la quête “La goutte d'eau qui fait déborder la bouilloire”.",
-            "reward": "t.288",
-            "patch": "3.15",
             "points": 10,
+            "reward": "t.288",
+            "patch": "3.2",
             "cSiblings": ["q.67206", "t.288"]
         },
         "x2234": {
@@ -409,9 +409,9 @@
             "name_fr": "Adieu, gentilhomme... ?",
             "description_en": "Complete the quest “Don't Do the Dewprism.”",
             "description_fr": "Accomplir la quête “Lever le voile céleste”.",
+            "points": 10,
             "reward": "t.418",
             "patch": "4.56",
-            "points": 10,
             "cSiblings": ["q.68704", "t.418"]
         },
         "x3127": {
@@ -419,8 +419,8 @@
             "name_fr": "Un peu d'huile de coude",
             "description_en": "Complete the quest “Make It a Manderville.”",
             "description_fr": "Accomplir la quête “Le secret ancestral des Manderville”.",
-            "patch": "6.28",
             "points": 5,
+            "patch": "6.25",
             "cSiblings": ["q.70188"]
         },
         "x3374": {
@@ -428,9 +428,9 @@
             "name_fr": "Manderveilleusement Manderville",
             "description_en": "Complete the quest “Resonating with Perfection.”",
             "description_fr": "Accomplir la quête “La dernière danse”.",
+            "points": 5,
             "reward": "t.701",
             "patch": "6.55",
-            "points": 5,
             "cSiblings": ["t.701", "q.70342"]
         },
         "x3415": {
@@ -438,17 +438,26 @@
             "name_fr": "La vérité est ailleurs",
             "description_en": "Complete the quest “Gentlemen at Heart.”",
             "description_fr": "Accomplir la quête “Le cadeau des Dieux”.",
-            "patch": "6.55",
             "points": 10,
+            "patch": "6.55",
             "cSiblings": ["q.70336"]
+        },
+        "x3941": {
+            "name_en": "Gently Does It",
+            "name_fr": "Dur, mais gentilhomme avant tout",
+            "description_en": "Complete the quest “Clotted Crime.”",
+            "description_fr": "Accomplir la quête “Les deux durs à cuire”.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["q.71018"]
         },
         "x2567": {
             "name_en": "Second Chances",
             "name_fr": "Il n'est jamais trop tard",
             "description_en": "Complete the quest “To Thaw a Frozen Heart.”",
             "description_fr": "Accomplir la quête “Une nouvelle chance”.",
-            "patch": "5.21",
             "points": 5,
+            "patch": "5.21",
             "cSiblings": ["q.69264"]
         },
         "x2711": {
@@ -456,8 +465,8 @@
             "name_fr": "Un nouveau cœur pour Azurée",
             "description_en": "Complete the quest “May Featherfall Flourish.”",
             "description_fr": "Accomplir la quête “Un nouveau cœur pour Azurée”.",
-            "patch": "5.31",
             "points": 5,
+            "patch": "5.31",
             "cSiblings": ["q.69494"]
         },
         "x2818": {
@@ -465,8 +474,8 @@
             "name_fr": "Avenir couleur azur",
             "description_en": "Complete the quest “Smiles Cross the Sky.”",
             "description_fr": "Accomplir la quête “Entre ciel et terre, un océan de sourires”.",
-            "patch": "5.41",
             "points": 5,
+            "patch": "5.41",
             "cSiblings": ["q.69538"]
         },
         "x2568": {
@@ -474,8 +483,8 @@
             "name_fr": "Acier à scier",
             "description_en": "Complete the quest “Work It Harder, Make It Better.”",
             "description_fr": "Accomplir la quête “Les outils rivés au ciel”.",
-            "patch": "5.25",
             "points": 5,
+            "patch": "5.25",
             "cSiblings": ["q.69385"]
         },
         "x2798": {
@@ -483,8 +492,8 @@
             "name_fr": "Par-delà les cieux d'acier",
             "description_en": "Complete the quest “Greater Heights.”",
             "description_fr": "Accomplir la quête “Vers de nouveaux cieux d'acier”.",
-            "patch": "5.45",
             "points": 10,
+            "patch": "5.45",
             "cSiblings": ["q.69520"]
         },
         "x2607": {
@@ -492,8 +501,8 @@
             "name_fr": "Passé élucidé",
             "description_en": "Complete the quest “The Bozja Incident.”",
             "description_fr": "Accomplir la quête “Prélude à la catastrophe”.",
-            "patch": "5.25",
             "points": 10,
+            "patch": "5.25",
             "cSiblings": ["q.69372"]
         },
         "x2670": {
@@ -501,8 +510,8 @@
             "name_fr": "Libérateur du Front sud de Bozja",
             "description_en": "Complete the quest “The Lady of Blades.”",
             "description_fr": "Accomplir la quête “L'épée sacrée Garde-la-Reine”.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cSiblings": ["q.69487"]
         },
         "x2760": {
@@ -510,8 +519,8 @@
             "name_fr": "Que les Dieux gardent la Reine",
             "description_en": "Complete the quest “Fit for a Queen.”",
             "description_fr": "Accomplir la quête “Que les Dieux gardent la Reine”.",
-            "patch": "5.45",
             "points": 10,
+            "patch": "5.45",
             "cSiblings": ["q.69562"]
         },
         "x2884": {
@@ -519,9 +528,9 @@
             "name_fr": "La marche de la reine sanglante",
             "description_en": "Complete the quest “March of the Bloody Queen.”",
             "description_fr": "Accomplir la quête “La marche de la reine sanglante”.",
+            "points": 10,
             "reward": "t.592",
             "patch": "5.55",
-            "points": 10,
             "cSiblings": ["q.69624", "t.592"]
         },
         "x2887": {
@@ -529,8 +538,8 @@
             "name_fr": "Werlyt brisé, Werlyt martyrisé, mais Werlyt libéré !",
             "description_en": "Complete the quest “Forever at Your Side.”",
             "description_fr": "Accomplir la quête “Toujours près de toi”.",
-            "patch": "5.5",
             "points": 10,
+            "patch": "5.5",
             "cSiblings": ["q.69568"]
         },
         "x3152": {
@@ -538,9 +547,9 @@
             "name_fr": "Pour le peuple et ses voisins",
             "description_en": "Complete the quest “For Coin, Country, and Comrades.”",
             "description_fr": "Accomplir la quête “Un secret en héritage”.",
-            "reward": "t.656",
-            "patch": "6.28",
             "points": 20,
+            "reward": "t.656",
+            "patch": "6.25",
             "cSiblings": ["q.70185", "t.656"]
         },
         "x3336": {
@@ -548,9 +557,9 @@
             "name_fr": "Une histoire d'orphelins",
             "description_en": "Complete the quest “Of Price and Ruin.”",
             "description_fr": "Accomplir la quête “Orphelins d'Orient”.",
+            "points": 20,
             "reward": "t.695",
             "patch": "6.45",
-            "points": 20,
             "cSiblings": ["q.70270", "t.695"]
         },
         "x3346": {
@@ -558,18 +567,28 @@
             "name_fr": "Du poisson pour le poupon",
             "description_en": "Complete the quest “A Fish a Day.”",
             "description_fr": "Accomplir la quête “Le cadeau de Matsya”.",
+            "points": 20,
             "reward": "t.697",
             "patch": "6.51",
-            "points": 20,
             "cSiblings": ["q.70326", "t.697"]
+        },
+        "x3896": {
+            "name_en": "A Timeless Tale",
+            "name_fr": "Une histoire sans fin",
+            "description_en": "Complete the quest “Starting a New Chapter.”",
+            "description_fr": "Accomplir la quête “Une histoire sans fin”.",
+            "points": 20,
+            "reward": "t.830",
+            "patch": "7.45",
+            "cSiblings": ["t.830", "q.70978"]
         },
         "x3192": {
             "name_en": "Crystal Accord",
             "name_fr": "Merveille attitrée de Mowen",
             "description_en": "Complete the quest “An Adaptive Tool.”",
             "description_fr": "Accomplir la quête “Dites-le avec des outils”.",
-            "patch": "6.35",
             "points": 5,
+            "patch": "6.35",
             "cSiblings": ["q.70268"]
         },
         "x3304": {
@@ -577,8 +596,8 @@
             "name_fr": "Merveille favorite de Mowen",
             "description_en": "Complete the quest “La Vie Mowen.”",
             "description_fr": "Accomplir la quête “Une soirée bien arrosée”.",
-            "patch": "6.45",
             "points": 5,
+            "patch": "6.45",
             "cSiblings": ["q.70306"]
         },
         "x3373": {
@@ -586,9 +605,9 @@
             "name_fr": "Merveille d'honneur de Mowen",
             "description_en": "Complete the quest “Dearly Bekettled.”",
             "description_fr": "Accomplir la quête “Une bouilloire pour deux”.",
+            "points": 5,
             "reward": "t.724",
             "patch": "6.51",
-            "points": 5,
             "cSiblings": ["t.724", "q.70341"]
         },
         "x3410": {
@@ -596,18 +615,63 @@
             "name_fr": "Le dernier coup de collier ?",
             "description_en": "Complete the quest “More Precious than Gil.”",
             "description_fr": "Accomplir la quête “Longue vie à la Tarufacture !”.",
-            "patch": "6.55",
             "points": 10,
+            "patch": "6.55",
             "cSiblings": ["q.70349"]
+        },
+        "x3634": {
+            "name_en": "Highly Crescentialed",
+            "name_fr": "Au sud, rien de nouveau",
+            "description_en": "Complete the quest “Mysteries Abide.”",
+            "description_fr": "Accomplir la quête “Le mystère reste entier”.",
+            "points": 10,
+            "patch": "7.25",
+            "cSiblings": ["q.70854"]
+        },
+        "x3937": {
+            "name_en": "Universally Crescentialed",
+            "name_fr": "Le périple sans fin",
+            "description_en": "Complete the quest “Wisdom's End.”",
+            "description_fr": "Accomplir la quête “Le dernier enseignement”.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["q.71054"]
+        },
+        "x3938": {
+            "name_en": "A Knife to Remember",
+            "name_fr": "Affûteur fantôme",
+            "description_en": "Complete the quest “All Too Fleeting.”",
+            "description_fr": "Accomplir la quête “Finale fantasmagorie”.",
+            "points": 10,
+            "patch": "7.55",
+            "cSiblings": ["q.71042"]
+        },
+        "x3935": {
+            "name_en": "Witness to the Stars",
+            "name_fr": "Nom d'une étoile !",
+            "description_en": "Complete the quest “His Gift, His Way.”",
+            "description_fr": "Accomplir la quête “Toujours à point nommé !”.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["q.71021"]
+        },
+        "x3936": {
+            "name_en": "Assistant Manager",
+            "name_fr": "Consultant gestionnaire",
+            "description_en": "Complete the quest “A Manager's Fulfillment.”",
+            "description_fr": "Accomplir la quête “Dans la peau de la gestionnaire”.",
+            "points": 10,
+            "patch": "7.51",
+            "cSiblings": ["q.71023"]
         },
         "x2243": {
             "name_en": "Live to Serve",
             "name_fr": "Qu'importe le flacon...",
             "description_en": "Complete the quest “In Bad Taste.”",
             "description_fr": "Accomplir la quête “À escroc, escroc et demi”.",
+            "points": 10,
             "reward": "t.421",
             "patch": "4.5",
-            "points": 10,
             "cSiblings": ["q.68726", "t.421"]
         },
         "x2852": {
@@ -615,9 +679,9 @@
             "name_fr": "Comme les deux doigts de la main",
             "description_en": "Complete the quest “Whence the Heart Leads.”",
             "description_fr": "Accomplir la quête “Comme les deux doigts de la main”.",
+            "points": 10,
             "reward": "t.584",
             "patch": "5.55",
-            "points": 10,
             "cSiblings": ["q.69589", "t.584"]
         },
         "x3247": {
@@ -625,27 +689,45 @@
             "name_fr": "Entrelacs temporel",
             "description_en": "Complete the quest “Guided by the Past.”",
             "description_fr": "Accomplir la quête “Rétrospections”.",
-            "patch": "6.4",
             "points": 10,
+            "patch": "6.4",
             "cSiblings": ["q.70296"]
+        },
+        "x3864": {
+            "name_en": "Ascension",
+            "name_fr": "Champion céleste",
+            "description_en": "Complete the quest “Glory Incarnate.”",
+            "description_fr": "Accomplir la quête “Le serpent séculaire”.",
+            "points": 10,
+            "patch": "7.4",
+            "cSiblings": ["q.70976"]
         },
         "x3408": {
             "name_en": "For Eorzea, For Etheirys",
             "name_fr": "Enfant béni des Dieux",
             "description_en": "Complete the quest “Embraced by Gods.”",
             "description_fr": "Accomplir la quête “Éorzéa, terre bénie des Dieux”.",
+            "points": 10,
             "reward": "t.709",
             "patch": "6.5",
-            "points": 10,
             "cSiblings": ["t.709", "q.70328"]
+        },
+        "x3940": {
+            "name_en": "On the Other Side",
+            "name_fr": "Notre porte vous sera toujours ouverte",
+            "description_en": "Complete the quest “Distant Promises.”",
+            "description_fr": "Accomplir la quête “Promesses lointaines”.",
+            "points": 10,
+            "patch": "7.5",
+            "cSiblings": ["q.71016"]
         },
         "x3282": {
             "name_en": "The Man, the Myth, the Legend",
             "name_fr": "Porteur d'espoir",
             "description_en": "Complete the quest “Preserving the Future.”",
             "description_fr": "Accomplir la quête “Transmettre l'espoir aux générations futures”.",
-            "patch": "6.48",
             "points": 5,
+            "patch": "6.48",
             "cSiblings": ["q.70316"]
         },
         "x2108": {
@@ -653,10 +735,20 @@
             "name_fr": "Le roi des cieux",
             "description_en": "Complete the quest “The New King on the Block.”",
             "description_fr": "Accomplir la quête “Le roi des cieux”.",
-            "reward": "t.398",
-            "patch": "4.4",
             "points": 10,
+            "reward": "t.398",
+            "patch": "4.36",
             "cSiblings": ["q.67090", "t.398"]
+        },
+        "x3822": {
+            "name_en": "Guardian Hunter",
+            "name_fr": "Le Spectre Blanc",
+            "description_en": "Complete the quest “The White Wanderer.”",
+            "description_fr": "Accomplir la quête “Le Spectre Blanc”.",
+            "points": 10,
+            "reward": "t.818",
+            "patch": "7.35",
+            "cSiblings": ["t.818", "q.70910"]
         }
     }
 }

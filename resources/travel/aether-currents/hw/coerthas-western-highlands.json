@@ -1,48 +1,57 @@
 {
     "key": "coerthas-western-highlands",
-    "groupName": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+    "groupName": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
     "cCombo": ["a.1157"],
     "tasks": {
         "x2": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(30.6, 33.7, 1.3)"
+            "location": "(30.6, 33.7, 1.3)",
+            "patch": "3.0"
         },
         "x3": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(31.5, 11.8, 1.1)"
+            "location": "(31.5, 11.8, 1.1)",
+            "patch": "3.0"
         },
         "x4": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(9.3, 15.0, 0.8)"
+            "location": "(9.3, 15.0, 0.8)",
+            "patch": "3.0"
         },
         "x7": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(15.8, 22.3, 0.8)"
+            "location": "(15.8, 22.3, 0.8)",
+            "patch": "3.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.67280",
-            "cSiblings": ["q.67280"]
+            "cSiblings": ["q.67280"],
+            "patch": "3.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.67647",
-            "cSiblings": ["q.67647"]
+            "cSiblings": ["q.67647"],
+            "patch": "3.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.67296",
-            "cSiblings": ["q.67296"]
+            "cSiblings": ["q.67296"],
+            "patch": "3.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.67295",
-            "cSiblings": ["q.67295"]
+            "cSiblings": ["q.67295"],
+            "patch": "3.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.67144",
-            "cSiblings": ["q.67144"]
+            "cSiblings": ["q.67144"],
+            "patch": "3.0"
         }
     }
 }

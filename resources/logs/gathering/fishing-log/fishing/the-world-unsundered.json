@@ -3,29 +3,32 @@
     "groupName_en": "The World Unsundered",
     "groupName_fr": "Ancien monde",
     "tasks": {
-        "x0": {
+        "x275": {
             "name_en": "Rumination's Ramble",
             "name_fr": "Le Péripatéticien",
-            "level": "86",
-            "zone": "@PLACE.ELPIS",
+            "level": 86,
+            "zone": "@PLACE.EW.ELPIS",
             "location": "(11.2, 19.4)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         },
-        "x2": {
+        "x276": {
             "name_en": "The Lower Hungering Gardens",
             "name_fr": "Contrebas de la Plantation carnassière",
-            "level": "87",
-            "zone": "@PLACE.ELPIS",
+            "level": 87,
+            "zone": "@PLACE.EW.ELPIS",
             "location": "(25.0, 10.1)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         },
-        "x1": {
+        "x277": {
             "name_en": "Lethe",
             "name_fr": "Le Léthé",
-            "level": "87",
-            "zone": "@PLACE.ELPIS",
+            "level": 87,
+            "zone": "@PLACE.EW.ELPIS",
             "location": "(33.5, 15.0)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         }
     }
 }

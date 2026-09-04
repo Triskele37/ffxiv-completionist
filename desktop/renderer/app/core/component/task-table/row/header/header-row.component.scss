@@ -1,0 +1,21 @@
+:host {
+    display: contents;
+
+    .task-table-header {
+        .column-name {
+            text-align: center;
+        }
+
+        .column-filter {
+        }
+
+        .row-action {
+            width: 40px;
+        }
+
+        th {
+            // Scrolls row-action-icon behind th
+            z-index: 2;
+        }
+    }
+}

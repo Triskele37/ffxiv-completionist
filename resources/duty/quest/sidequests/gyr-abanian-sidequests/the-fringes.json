@@ -4,277 +4,278 @@
     "groupName_fr": "Les Marges",
     "tasks": {
         "x68175": {
-            "level": 60,
             "name_en": "Magiteknical Failure",
             "name_fr": "Traque en armure",
-            "unlock": "travel.aether-currents.sb.the-fringes.13",
+            "level": 60,
             "npc_en": "Loezkirz",
             "npc_fr": "Loezkirz",
+            "unlock": "travel.aether-currents.sb.the-fringes.13",
+            "patch": "4.0",
             "cPrev": ["q.67988"],
-            "cSiblings": ["travel.aether-currents.sb.the-fringes.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.13"]
         },
         "x68176": {
-            "level": 60,
             "name_en": "Gross Encounters",
             "name_fr": "Jeu de piste",
+            "level": 60,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
+            "patch": "4.0",
             "cPrev": ["q.67988"],
-            "cNext": ["q.68408"],
-            "patch": "4.31"
+            "cNext": ["q.68408"]
         },
         "x68177": {
-            "level": 60,
             "name_en": "Prison Break",
             "name_fr": "Alliance désunie",
+            "level": 60,
             "npc_en": "Maelstrom Officer",
             "npc_fr": "Soldat Du Maelstrom",
-            "cPrev": ["q.67988"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.67988"]
         },
         "x68178": {
-            "level": 60,
             "name_en": "What a Tangled Web We Weave",
             "name_fr": "Le grand saut",
+            "level": 60,
             "npc_en": "Resistance Fighter",
             "npc_fr": "Sous-officier Expérimenté",
-            "cPrev": ["q.67988"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.67988"]
         },
         "x68180": {
-            "level": 60,
             "name_en": "Spicing Things Up",
             "name_fr": "Un problème au menu",
+            "level": 60,
             "npc_en": "Quincompaix",
             "npc_fr": "Quincompaix",
-            "cPrev": ["q.67988"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.67988"]
         },
         "x68179": {
-            "level": 60,
             "name_en": "Doing Her Part",
             "name_fr": "Empire contre nature",
+            "level": 60,
             "npc_en": "Lucinne",
             "npc_fr": "Lucinne",
+            "patch": "4.0",
             "cPrev": ["q.67988"],
-            "cNext": ["q.68196"],
-            "patch": "4.31"
+            "cNext": ["q.68196"]
         },
         "x68196": {
-            "level": 61,
             "name_en": "A Second Assessment",
             "name_fr": "La Queue de la Comète",
+            "level": 61,
             "npc_en": "Lucinne",
             "npc_fr": "Lucinne",
-            "cPrev": ["q.68002", "q.68179"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68002", "q.68179"]
         },
         "x68195": {
-            "level": 61,
             "name_en": "A Good Role Model",
             "name_fr": "L'idole des jeunes recrues",
+            "level": 61,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
-            "cPrev": ["q.68002"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68002"]
         },
         "x68197": {
-            "level": 61,
             "name_en": "The Hidden Truth",
             "name_fr": "Amères disparitions",
-            "unlock": "travel.aether-currents.sb.the-fringes.12",
+            "level": 61,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
+            "unlock": "travel.aether-currents.sb.the-fringes.12",
+            "patch": "4.0",
             "cPrev": ["q.68002"],
             "cNext": ["q.68198"],
-            "cSiblings": ["travel.aether-currents.sb.the-fringes.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.12"]
         },
         "x68198": {
-            "level": 61,
             "name_en": "Drawing a Blank",
             "name_fr": "Le village abandonné",
+            "level": 61,
             "npc_en": "Tahla Molkoh",
             "npc_fr": "Tahla Molkoh",
+            "patch": "4.0",
             "cPrev": ["q.68002", "q.68197"],
-            "cNext": ["q.68199"],
-            "patch": "4.31"
+            "cNext": ["q.68199"]
         },
         "x68199": {
-            "level": 61,
             "name_en": "Seeking Answers",
             "name_fr": "Au fond de la grotte",
+            "level": 61,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
+            "patch": "4.0",
             "cPrev": ["q.68002", "q.68198"],
-            "cNext": ["q.68200"],
-            "patch": "4.31"
+            "cNext": ["q.68200"]
         },
         "x68200": {
-            "level": 61,
             "name_en": "The Honest Truth",
             "name_fr": "Un loup déguisé en agneau",
+            "level": 61,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
+            "patch": "4.0",
             "cPrev": ["q.68002", "q.68199"],
-            "cNext": ["q.68364"],
-            "patch": "4.31"
+            "cNext": ["q.68364"]
         },
         "x68352": {
-            "level": 67,
             "name_en": "Unexpected Guests",
             "name_fr": "Querelle de chasseurs",
-            "unlock": "travel.aether-currents.sb.the-fringes.11",
+            "level": 67,
             "npc_en": "Prapti",
             "npc_fr": "Prapti",
+            "unlock": "travel.aether-currents.sb.the-fringes.11",
+            "patch": "4.0",
             "cPrev": ["q.68067"],
-            "cSiblings": ["travel.aether-currents.sb.the-fringes.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.11"]
         },
         "x68353": {
-            "level": 67,
             "name_en": "Delicate as a Flower",
             "name_fr": "Faveurs divines",
+            "level": 67,
             "npc_en": "Garima",
             "npc_fr": "Garima",
-            "cPrev": ["q.68067"],
-            "patch": "4.31"
+            "unlock": "tto.32",
+            "patch": "4.0",
+            "cPrev": ["q.68067"]
         },
         "x68354": {
-            "level": 67,
             "name_en": "Slug It Out",
             "name_fr": "Les limaces alcooliques",
+            "level": 67,
             "npc_en": "Jayanti",
             "npc_fr": "Jayanti",
-            "cPrev": ["q.68067"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68067"]
         },
         "x68355": {
-            "level": 67,
             "name_en": "Hard to Swallow",
             "name_fr": "Un bijou de famille",
+            "level": 67,
             "npc_en": "Vira Bowmaid",
             "npc_fr": "Archère Vira",
-            "cPrev": ["q.68067"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68067"]
         },
         "x68356": {
-            "level": 67,
             "name_en": "Gold Rush",
             "name_fr": "Les âmes de pierre",
+            "level": 67,
             "npc_en": "M'linhbo",
             "npc_fr": "M'linhbo",
-            "cPrev": ["q.68066"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68066"]
         },
         "x68357": {
-            "level": 67,
             "name_en": "Eyes Bigger than Her Stomach",
             "name_fr": "La peur du ventre vide",
-            "unlock": "travel.aether-currents.sb.the-fringes.10",
+            "level": 67,
             "npc_en": "M'zimzizi",
             "npc_fr": "M'zimzizi",
+            "unlock": "travel.aether-currents.sb.the-fringes.10",
+            "patch": "4.0",
             "cPrev": ["q.68066"],
-            "cSiblings": ["travel.aether-currents.sb.the-fringes.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-fringes.10"]
         },
         "x68358": {
-            "level": 67,
             "name_en": "The Perfect Gift",
             "name_fr": "Marketing pour Anantas",
+            "level": 67,
             "npc_en": "M'septha",
             "npc_fr": "M'septha",
-            "cPrev": ["q.68069"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68069"]
         },
         "x68359": {
-            "level": 67,
             "name_en": "Spooked",
             "name_fr": "Les fantômes des cimes",
+            "level": 67,
             "npc_en": "M'gizzoh",
             "npc_fr": "M'gizzoh",
-            "cPrev": ["q.68069"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68069"]
         },
         "x68360": {
-            "level": 67,
             "name_en": "A New Contender",
             "name_fr": "Nunh à la place du Nunh",
+            "level": 67,
             "npc_en": "M'rahz Nunh",
             "npc_fr": "M'rahz Nunh",
+            "patch": "4.0",
             "cPrev": ["q.68069"],
-            "cNext": ["q.68361"],
-            "patch": "4.31"
+            "cNext": ["q.68361"]
         },
         "x68361": {
-            "level": 67,
             "name_en": "Down but Not Out",
             "name_fr": "Le retour de la revanche",
+            "level": 67,
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
+            "patch": "4.0",
             "cPrev": ["q.68069", "q.68360"],
-            "cNext": ["q.68362"],
-            "patch": "4.31"
+            "cNext": ["q.68362"]
         },
         "x68362": {
-            "level": 67,
             "name_en": "Make a Man Out of You",
             "name_fr": "Un entraînement explosif",
+            "level": 67,
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
+            "patch": "4.0",
             "cPrev": ["q.68069", "q.68361"],
-            "cNext": ["q.68363"],
-            "patch": "4.31"
+            "cNext": ["q.68363"]
         },
         "x68363": {
-            "level": 67,
             "name_en": "Honoring Family",
             "name_fr": "L'épée du serment",
+            "level": 67,
             "npc_en": "M'zhet Tia",
             "npc_fr": "M'zhet Tia",
+            "patch": "4.0",
             "cPrev": ["q.68069", "q.68362"],
-            "cNext": ["q.68364"],
-            "patch": "4.31"
+            "cNext": ["q.68364"]
         },
         "x68364": {
-            "level": 67,
             "name_en": "The Rose Blooms Twice",
             "name_fr": "L'arbre surnaturel",
+            "level": 67,
             "npc_en": "M'rahz Nunh",
             "npc_fr": "M'rahz Nunh",
+            "patch": "4.0",
             "cPrev": ["q.68069", "q.68363", "q.68200"],
-            "cNext": ["q.68572"],
-            "patch": "4.31"
+            "cNext": ["q.68572"]
         },
         "x68407": {
-            "level": 69,
             "name_en": "Confessions of the Heart",
             "name_fr": "Champ de bataille et d'amour",
+            "level": 69,
             "npc_en": "Kakalai",
             "npc_fr": "Kakalai",
+            "patch": "4.0",
             "cPrev": ["q.68083", "q.68405"],
-            "cNext": ["q.68409"],
-            "patch": "4.31"
+            "cNext": ["q.68409"]
         },
         "x68408": {
-            "level": 69,
             "name_en": "Falling Down on the Job",
             "name_fr": "Un œil de lynx",
+            "level": 69,
             "npc_en": "Serpent Marshal Brookstone",
             "npc_fr": "Swethryk Brookstone",
+            "patch": "4.0",
             "cPrev": ["q.68083", "q.68405", "q.68176"],
-            "cNext": ["q.68409"],
-            "patch": "4.31"
+            "cNext": ["q.68409"]
         },
         "x68409": {
-            "level": 69,
             "name_en": "My Dear Brother",
             "name_fr": "Le sens du devoir",
+            "level": 69,
             "npc_en": "Somber Sibling",
             "npc_fr": "Femme Chagrinée",
-            "cPrev": ["q.68083", "q.68407", "q.68408"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68083", "q.68407", "q.68408"]
         }
     }
 }

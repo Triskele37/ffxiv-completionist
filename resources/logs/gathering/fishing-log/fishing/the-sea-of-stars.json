@@ -3,93 +3,104 @@
     "groupName_en": "The Sea of Stars",
     "groupName_fr": "Espace intersidéral",
     "tasks": {
-        "x0": {
+        "x272": {
             "name_en": "Greatest Endsvale",
             "name_fr": "La Garenne sempervirente",
-            "level": "84",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": 84,
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "location": "(33.9, 10.0)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         },
-        "x1": {
+        "x273": {
             "name_en": "The Chlorophospond",
             "name_fr": "Mare aux chlorophoi",
-            "level": "85",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": 85,
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "location": "(31.3, 31.8)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "6.0"
         },
-        "x2": {
+        "x274": {
             "name_en": "The Frozen Fissure",
             "name_fr": "Crevasses du pergélisol",
-            "level": "85",
-            "zone": "@PLACE.MARE_LAMENTORUM",
+            "level": 85,
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
             "location": "(22.5, 31.6)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "6.0"
         },
-        "x6": {
+        "x280": {
             "name_en": "Apohelos 18-α",
             "name_fr": "Hélos Dékaokto α",
-            "level": "90",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 90,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(7.0, 22.5)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "6.0"
         },
-        "x4": {
+        "x279": {
             "name_en": "Apohelos 18-β",
             "name_fr": "Hélos Dékaokto β",
-            "level": "89",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 89,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(9.3, 30.8)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "6.0"
         },
-        "x3": {
+        "x278": {
             "name_en": "Apohelos 18-γ",
             "name_fr": "Hélos Dékaokto γ",
-            "level": "88",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 88,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(20.6, 36.5)",
-            "type": "@FISH.TYPE.AETHERFISHING"
+            "type": "@FISH.TYPE.AETHERFISHING",
+            "patch": "6.0"
         },
-        "x10": {
+        "x281": {
             "name_en": "The Wellspring of Regret",
             "name_fr": "Source des Velléitaires",
-            "level": "90",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 84,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(14.4, 11.1)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         },
-        "x7": {
+        "x282": {
             "name_en": "Abode of the Ea",
             "name_fr": "Demeure des Éas",
-            "level": "90",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 84,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(22.4, 8.2)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "6.0"
         },
-        "x5": {
+        "x283": {
             "name_en": "Limne 18",
-            "name_fr": "Limne Dékaokto",
-            "level": "89",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "name_fr": "Limné Dékaokto",
+            "level": 89,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(7.3, 35.4)",
-            "type": "@FISH.TYPE.STARFISHING"
+            "type": "@FISH.TYPE.STARFISHING",
+            "patch": "6.0"
         },
-        "x8": {
+        "x284": {
             "name_en": "Limne 3-α",
             "name_fr": "Limné Tria α",
-            "level": "90",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 90,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(36.8, 9.0)",
-            "type": "@FISH.TYPE.STARFISHING"
+            "type": "@FISH.TYPE.STARFISHING",
+            "patch": "6.0"
         },
-        "x9": {
+        "x285": {
             "name_en": "Limne 3-β",
             "name_fr": "Limné Tria β",
-            "level": "90",
-            "zone": "@PLACE.ULTIMA_THULE",
+            "level": 90,
+            "zone": "@PLACE.EW.ULTIMA_THULE",
             "location": "(25.0, 17.0)",
-            "type": "@FISH.TYPE.STARFISHING"
+            "type": "@FISH.TYPE.STARFISHING",
+            "patch": "6.0"
         }
     }
 }

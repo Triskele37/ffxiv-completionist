@@ -2,7 +2,7 @@
     "key": "duties",
     "groupName_en": "Duties",
     "groupName_fr": "Missions",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -68,6 +68,12 @@
             "name_fr": "Cénote Ja Ja Gural",
             "source": "duty.treasure-hunt.maps.18",
             "patch": "7.05"
+        },
+        "x9": {
+            "name_en": "Vault Oneiron",
+            "name_fr": "le coffre d'Oneiron",
+            "source": "duty.treasure-hunt.maps.19",
+            "patch": "7.3"
         }
     }
 }

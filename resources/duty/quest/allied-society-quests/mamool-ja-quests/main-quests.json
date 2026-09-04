@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x70791": {
+            "name_en": "Cultivating Hope",
+            "name_fr": "Un champ d'espoir",
+            "level": 90,
+            "npc_en": "Gotoll Ja",
+            "npc_fr": "Gotoll Ja",
+            "cPrev": ["q.70495", "q.70654"],
+            "cNext": ["q.70792"],
+            "cSiblings": ["character.character.societal-relations.119"],
+            "patch": "7.25"
+        },
+        "x70792": {
+            "name_en": "Doppro Tradition",
+            "name_fr": "Association de bienfaiteurs",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 90,
+            "npc_en": "Ruvoll Ja",
+            "npc_fr": "Ruvoll Ja",
+            "cPrev": ["q.70791"],
+            "cNext": ["q.70793"],
+            "cSiblings": ["character.character.societal-relations.120"],
+            "patch": "7.25"
+        },
+        "x70793": {
+            "name_en": "A Hoobigo's Return",
+            "name_fr": "L'appel aux Hoobigo",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 90,
+            "npc_en": "Ruvoll Ja",
+            "npc_fr": "Ruvoll Ja",
+            "cPrev": ["q.70792"],
+            "cNext": ["q.70794"],
+            "cSiblings": ["character.character.societal-relations.121"],
+            "patch": "7.25"
+        },
+        "x70794": {
+            "name_en": "The Boon of Boonewa",
+            "name_fr": "Lumineuses légumineuses",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 90,
+            "npc_en": "Ruvoll Ja",
+            "npc_fr": "Ruvoll Ja",
+            "cPrev": ["q.70793"],
+            "cNext": ["q.70795"],
+            "cSiblings": ["character.character.societal-relations.122"],
+            "patch": "7.25"
+        },
+        "x70795": {
+            "name_en": "A New Yak T'el",
+            "name_fr": "Chef, la recette (de l'amitié) !",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 90,
+            "npc_en": "Ruvoll Ja",
+            "npc_fr": "Ruvoll Ja",
+            "cPrev": ["q.70794"],
+            "cNext": ["q.70796"],
+            "cSiblings": ["character.character.societal-relations.123"],
+            "patch": "7.25"
+        },
+        "x70796": {
+            "name_en": "The Pride of Mamook",
+            "name_fr": "Qu'est-ce qu'on déguste ?",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 90,
+            "npc_en": "Ruvoll Ja",
+            "npc_fr": "Ruvoll Ja",
+            "cPrev": ["q.70795"],
+            "cNext": ["q.70998"],
+            "cSiblings": ["character.character.societal-relations.124"],
+            "patch": "7.25"
+        }
+    }
+}

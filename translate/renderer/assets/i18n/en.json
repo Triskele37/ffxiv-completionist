@@ -1,0 +1,44 @@
+{
+    "NAME": "Localization Helper",
+    "UI": {
+        "FILTER": {
+            "ISSUES": "Unverified",
+            "VERIFIED": "Verified",
+            "TRANSLATED": "Recently Translated",
+            "JUMP_TO": "Jump to group"
+        },
+        "ISSUE": {
+            "KEY": "Key",
+            "TYPE": "Issue",
+            "TRANSLATION": "Enter translation...",
+            "SAVE_TRANSLATION": "Save translation",
+            "UNDO_TRANSLATION": "Undo translation",
+            "SELECT_IGNORE": "Ignore reasons",
+            "CUSTOM_REASON": "Enter custom...",
+            "SAVE_REASONS": "Save reasons",
+			"TRANSLATION_SAVED": "Translation Saved",
+			"REASONS_SAVED": "Reason/s Saved"
+        },
+        "OPTIONS": {
+            "LANG": "Output language",
+            "SOURCE": "Source language",
+            "TARGET": "Language to review"
+        }
+    },
+    "ISSUE": {
+        "MISSING_FILE": "Missing file",
+        "UNTRANSLATED": "Untranslated value",
+        "MISSING_DATA_KEY": "Missing data key",
+        "EXTRA_DATA_KEY": "Extra data key",
+        "EXTRA_VERIFIED_KEY": "Extra verified key",
+        "STALE": "Stale ignore"
+    },
+    "REASON": {
+        "AUTO_TRANSLATED": "Auto-translated",
+        "NUMBER_FORMAT": "App corrects number format",
+        "NUMERIC_VALUE": "Numeric value",
+        "OFFICIAL": "Name officially untranslated",
+        "PROPER_NOUN": "Proper noun",
+        "SAME": "Same text in both languages"
+    }
+}

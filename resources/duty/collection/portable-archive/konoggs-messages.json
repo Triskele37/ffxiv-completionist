@@ -2,7 +2,7 @@
     "key": "konoggs-messages",
     "groupName_en": "Konogg's Messages",
     "groupName_fr": "Messages de Konogg",
-    "headers": {
+    "columns": {
         "quest": {
             "link": true,
             "header_en": "Quest",
@@ -20,16 +20,16 @@
         "x0": {
             "name_en": "Message from Konogg 1",
             "name_fr": "1er message de Konogg",
-            "patch": "5.5",
             "quest": "q.69580",
+            "patch": "5.5",
             "cNext": [1],
             "cSiblings": ["q.69580"]
         },
         "x1": {
             "name_en": "Message from Konogg 2",
             "name_fr": "2e message de Konogg",
-            "patch": "5.5",
             "quest": "q.69581",
+            "patch": "5.5",
             "cPrev": [0],
             "cNext": [2],
             "cSiblings": ["q.69581"]
@@ -37,8 +37,8 @@
         "x2": {
             "name_en": "Message from Konogg 3",
             "name_fr": "3e message de Konogg",
-            "patch": "5.5",
             "quest": "q.69582",
+            "patch": "5.5",
             "cPrev": [1],
             "cNext": [3],
             "cSiblings": ["q.69582"]
@@ -46,8 +46,8 @@
         "x3": {
             "name_en": "Message from Konogg 4",
             "name_fr": "4e message de Konogg",
-            "patch": "5.5",
             "quest": "q.69583",
+            "patch": "5.5",
             "cPrev": [2],
             "cNext": [4],
             "cSiblings": ["q.69583"]
@@ -55,8 +55,8 @@
         "x4": {
             "name_en": "Message from Konogg 5",
             "name_fr": "5e message de Konogg",
-            "patch": "5.5",
             "quest": "q.69584",
+            "patch": "5.5",
             "cPrev": [3],
             "cNext": [5],
             "cSiblings": ["q.69584"]
@@ -64,8 +64,8 @@
         "x5": {
             "name_en": "Message from Konogg 6",
             "name_fr": "6e message de Konogg",
-            "patch": "5.5",
             "quest": "q.69585",
+            "patch": "5.5",
             "cPrev": [4],
             "cSiblings": ["q.69585"]
         }

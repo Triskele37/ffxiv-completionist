@@ -1,0 +1,72 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.QUICK_MARK_OVERLAY"
+    class="overlay-container"
+>
+    @if(isModalVisible()) {
+        <div class="com-modal">
+            {{'APP.QUICK_MARK_OVERLAY.PROCESSING' | translate}}...
+        </div>
+    }
+
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <span class="mi mi-rule"></span>
+    </button>
+
+    @if(isOverlayVisible() || isModalVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button pButton [disabled]="true">
+                    {{'APP.QUICK_MARK_OVERLAY.TITLE' | translate}}
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(N, Y)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(N, X)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(Y, N)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(Y, X)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(X, N)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(X, Y)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(null, Y)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(null, N)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton (click)="onChangeTaskCompletion(null, X)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <button
+                    pButton
+                    [disabled]="!historyList().length"
+                    (click)="onUndoLastChange()"
+                >
+                    {{'APP.QUICK_MARK_OVERLAY.UNDO' | translate}}
+                </button>
+            </span>
+        </div>
+    }
+</span>

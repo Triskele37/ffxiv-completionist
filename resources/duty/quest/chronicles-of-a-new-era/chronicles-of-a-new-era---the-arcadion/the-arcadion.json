@@ -4,67 +4,208 @@
     "groupName_fr": "L'Arcadion",
     "tasks": {
         "x70496": {
-            "cNext": ["q.70497"],
-            "cPrev": ["q.70495"],
-            "level": 100,
             "name_en": "A New Challenger Appears",
             "name_fr": "Le nouveau challenger de l'Arcadion",
+            "level": 100,
             "npc_en": "Stylish Stranger",
             "npc_fr": "Homme Au Chapeau De Cow-boy",
-            "patch": "7.01"
+            "patch": "7.01",
+            "cPrev": ["q.70495"],
+            "cNext": ["q.70497"]
         },
         "x70497": {
-            "cNext": ["q.70498"],
-            "cPrev": ["q.70496"],
-            "level": 100,
             "name_en": "The Claw in the Dark",
             "name_fr": "La combattante féline aux griffes acérées",
+            "level": 100,
             "npc_en": "Metem",
             "npc_fr": "Metem",
             "unlock": "d.985",
-            "patch": "7.01"
+            "patch": "7.01",
+            "cPrev": ["q.70496"],
+            "cNext": ["q.70498"],
+            "cSiblings": ["d.985"]
         },
         "x70498": {
-            "cNext": ["q.70499"],
-            "cPrev": ["q.70497"],
-            "level": 100,
             "name_en": "Sweet Poison",
             "name_fr": "Un charme piquant et venimeux",
+            "level": 100,
             "npc_en": "Metem",
             "npc_fr": "Metem",
             "unlock": "d.987",
-            "patch": "7.01"
+            "patch": "7.01",
+            "cPrev": ["q.70497"],
+            "cNext": ["q.70499"],
+            "cSiblings": ["d.987"]
         },
         "x70499": {
-            "cNext": ["q.70500"],
-            "cPrev": ["q.70498"],
-            "level": 100,
             "name_en": "Yaana's Yarn",
             "name_fr": "Les sœurs des Trois Queues",
+            "level": 100,
             "npc_en": "Yaana",
             "npc_fr": "Yaana",
-            "patch": "7.01"
+            "patch": "7.01",
+            "cPrev": ["q.70498"],
+            "cNext": ["q.70500"]
         },
         "x70500": {
-            "cNext": ["q.70501"],
-            "cPrev": ["q.70499"],
-            "level": 100,
             "name_en": "Vile Heat",
             "name_fr": "Une brute explosive et sans scrupules",
+            "level": 100,
             "npc_en": "Yaana",
             "npc_fr": "Yaana",
             "unlock": "d.989",
-            "patch": "7.01"
+            "patch": "7.01",
+            "cPrev": ["q.70499"],
+            "cNext": ["q.70501"],
+            "cSiblings": ["d.989"]
         },
         "x70501": {
-            "cPrev": ["q.70500"],
-            "level": 100,
             "name_en": "The Neoteric Witch",
             "name_fr": "L'Enchanteresse électrique",
+            "level": 100,
             "npc_en": "Yaana",
             "npc_fr": "Yaana",
-            "unlock": "d.991",
-            "patch": "7.01"
+            "unlock": ["d.991", "d.986", "d.988", "d.990", "d.992"],
+            "patch": "7.01",
+            "cPrev": ["q.70500"],
+            "cNext": ["q.70825", "d.986", "d.988", "d.990", "d.992"],
+            "cSiblings": ["d.991"]
+        },
+        "x70825": {
+            "name_en": "Souls under Siege",
+            "name_fr": "Le mal rongeur d'âme",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.2",
+            "cPrev": ["q.70501"],
+            "cNext": ["q.70826"]
+        },
+        "x70826": {
+            "name_en": "The Dancing King",
+            "name_fr": "Sous les éclairs des stroboscopes",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1019",
+            "patch": "7.2",
+            "cPrev": ["q.70825"],
+            "cNext": ["q.70827"],
+            "cSiblings": ["d.1019"]
+        },
+        "x70827": {
+            "name_en": "Art at War",
+            "name_fr": "Les joies de la peinture",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1021",
+            "patch": "7.2",
+            "cPrev": ["q.70826"],
+            "cNext": ["q.70828"],
+            "cSiblings": ["d.1021"]
+        },
+        "x70828": {
+            "name_en": "Twisted Vengeance",
+            "name_fr": "La revanche du roi de la triche",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1023",
+            "patch": "7.2",
+            "cPrev": ["q.70827"],
+            "cNext": ["q.70829"],
+            "cSiblings": ["d.1023"]
+        },
+        "x70829": {
+            "name_en": "Family Matters",
+            "name_fr": "Dispute en famille",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.2",
+            "cPrev": ["q.70828"],
+            "cNext": ["q.70830"]
+        },
+        "x70830": {
+            "name_en": "The Lone Wolf",
+            "name_fr": "Le loup solitaire",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": ["d.1025", "d.1020", "d.1022", "d.1024", "d.1026"],
+            "patch": "7.2",
+            "cPrev": ["q.70829"],
+            "cNext": ["q.70971", "d.1020", "d.1022", "d.1024", "d.1026"],
+            "cSiblings": ["d.1025"]
+        },
+        "x70971": {
+            "name_en": "Feral Fandom",
+            "name_fr": "L'écho des fans",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.4",
+            "cPrev": ["q.70830"],
+            "cNext": ["q.70972"]
+        },
+        "x70972": {
+            "name_en": "The Breathtaker",
+            "name_fr": "Bâillon, domination, sans modération",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1068",
+            "patch": "7.4",
+            "cPrev": ["q.70971"],
+            "cNext": ["q.70973"],
+            "cSiblings": ["d.1068"]
+        },
+        "x70973": {
+            "name_en": "Daring Devils",
+            "name_fr": "Ni chaud ni froid",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1070",
+            "patch": "7.4",
+            "cPrev": ["q.70972"],
+            "cNext": ["q.70974"],
+            "cSiblings": ["d.1070"]
+        },
+        "x70974": {
+            "name_en": "Challenger and Champion",
+            "name_fr": "Challenger contre Champion",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.4",
+            "cPrev": ["q.70973"],
+            "cNext": ["q.70975"]
+        },
+        "x70975": {
+            "name_en": "Iron Fist",
+            "name_fr": "Le despote destructeur",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": "d.1072",
+            "patch": "7.4",
+            "cPrev": ["q.70974"],
+            "cNext": ["q.70976"],
+            "cSiblings": ["d.1072"]
+        },
+        "x70976": {
+            "name_en": "Glory Incarnate",
+            "name_fr": "Le serpent séculaire",
+            "level": 100,
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "unlock": ["d.1074", "d.1069", "d.1071", "d.1073", "d.1075"],
+            "patch": "7.4",
+            "cPrev": ["q.70975"],
+            "cNext": ["d.1069", "d.1071", "d.1073", "d.1075"],
+            "cSiblings": ["d.1074"]
         }
     }
 }

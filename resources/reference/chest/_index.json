@@ -1,0 +1,70 @@
+{
+    "key": "chest",
+    "groupName_en": "Chest",
+    "groupName_fr": "Chest",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION",
+            "filterable": true,
+            "link": true
+        },
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
+        },
+        "loot": {
+            "header_en": "Loot",
+            "header_fr": "Loot",
+            "link": true
+        }
+    },
+    "order": [
+        "potd",
+        "hoh",
+        "eo",
+        "pt",
+
+        "anemos",
+        "pagos",
+        "pyros",
+        "hydatos",
+        "bsf",
+        "zadnor",
+        "south-horn",
+        "north-horn",
+
+        "resto",
+
+        "sinus-ardorum",
+        "phaenna",
+        "oizys",
+        "auxesia"
+    ],
+    "tasks": {
+        "x25": {
+            "name_en": "Sanctuary Materiel Container",
+            "name_fr": "Malle-surprise Insulaire",
+            "location": "@PLACE.ISLAND_SANCTUARY",
+            "requirements": "@VENDOR.HORRENDOUS_HOARDER (10 CURRENCY.ISLAND.FELICITOUS_TOKEN)",
+            "loot": [
+                "mo.340",
+                "mo.339",
+                "mi.245",
+                "mi.246",
+                "mi.237",
+                "mi.197",
+                "mi.258",
+                "mi.162",
+                "mi.166",
+                "mi.241",
+                "mi.247",
+                "mi.216",
+                "mi.244"
+            ],
+            "_itemId": 41667
+        }
+    }
+}

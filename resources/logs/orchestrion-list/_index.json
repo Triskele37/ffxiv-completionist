@@ -2,7 +2,7 @@
     "key": "orchestrion-list",
     "groupName_en": "Orchestrion List",
     "groupName_fr": "Morceaux de l'orchestrion",
-    "headers": {
+    "columns": {
         "number": {
             "header": "@HEADER.NUMBER",
             "width": 100
@@ -16,10 +16,6 @@
         "source": {
             "header": "@HEADER.SOURCE",
             "link": true
-        },
-        "location": {
-            "header": "@HEADER.LOCATION",
-            "filterable": true
         },
         "patch": {
             "header": "@HEADER.PATCH"

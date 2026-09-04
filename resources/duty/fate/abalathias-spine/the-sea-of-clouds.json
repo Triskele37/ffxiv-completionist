@@ -1,210 +1,210 @@
 {
     "key": "the-sea-of-clouds",
-    "groupName": "@PLACE.THE_SEA_OF_CLOUDS",
+    "groupName": "@PLACE.HW.THE_SEA_OF_CLOUDS",
     "tasks": {
         "x839": {
-            "level": 50,
             "name_en": "Mint Condition",
             "name_fr": "Des répulsifs attirants",
+            "level": 50,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(14, 37)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "3.0"
         },
         "x840": {
-            "level": 50,
             "name_en": "Saved the Nests for Last",
             "name_fr": "Des oiseaux soporifiques",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20, 32)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x841": {
-            "level": 50,
             "name_en": "One Turned Over the Cloudkin's Nest",
             "name_fr": "Défi : la diatribe de Diatryma",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20, 32)",
-            "patch": "3.0",
-            "previousFate": "f.840",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.840",
+            "patch": "3.0"
         },
         "x842": {
-            "level": 50,
             "name_en": "Food Fight",
             "name_fr": "Un rongeur, un volatile, une belle pagaille",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(28, 32)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x843": {
-            "level": 50,
             "name_en": "Leech the Sky",
             "name_fr": "Hirudothérapie géante",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(25, 35)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x844": {
-            "level": 50,
             "name_en": "Anzu Trois",
             "name_fr": "Et zou, plus d'anzus !",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 35)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x845": {
-            "level": 50,
             "name_en": "Youth Must Be Severed",
             "name_fr": "La guerre des Gundu",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(30, 30)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x846": {
-            "level": 50,
             "name_en": "A Long Way Down",
             "name_fr": "Défi : de haut en bas",
+            "level": 50,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(36, 33)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x847": {
-            "level": 50,
             "name_en": "This Is How We Gundu",
             "name_fr": "Jeter la première pierre",
+            "level": 50,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(34, 30)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x851": {
-            "level": 57,
             "name_en": "Come to My Window",
             "name_fr": "Un abus de demainsels",
+            "level": 57,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(6, 20)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x852": {
-            "level": 57,
             "name_en": "Obey their Thirst",
             "name_fr": "Des noyaux désaltérants",
+            "level": 57,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(12, 12)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "3.0"
         },
         "x853": {
-            "level": 57,
             "name_en": "The Fugitive",
             "name_fr": "Le repose-pieds fugitif",
+            "level": 57,
+            "type": "@FATE.TYPE.ESCORT",
             "location": "(28, 10)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.ESCORT"
+            "patch": "3.0"
         },
         "x854": {
-            "level": 57,
             "name_en": "Zuns on the Run",
             "name_fr": "Le repose-pieds pris à contre-pied",
+            "level": 57,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(17, 10)",
-            "patch": "3.0",
-            "previousFate": "f.853",
-            "type": "@FATE.TYPE.DEFENSE"
+            "previousFate": "fate.853",
+            "patch": "3.0"
         },
         "x855": {
-            "level": 57,
             "name_en": "On Dangerous Ground",
             "name_fr": "Défi : mangeur de terre gardée",
+            "level": 57,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 13)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x856": {
-            "level": 57,
             "name_en": "Leather and Mace",
             "name_fr": "Des durs en cuir",
+            "level": 57,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(26, 10)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x857": {
-            "level": 57,
             "name_en": "Hearts Like Steel, Fists Like Thunder",
             "name_fr": "Les ennemis de mes ennemis...",
+            "level": 57,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 15)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x860": {
-            "level": 57,
             "name_en": "Bones",
             "name_fr": "Défi : il y a un os à plume",
+            "level": 57,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(23, 19)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x861": {
-            "level": 59,
             "name_en": "Bismarcking Time",
             "name_fr": "Défi : l'incantateur des brumes",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x862": {
-            "level": 59,
             "name_en": "Let There Be Acolytes",
             "name_fr": "Les acolytes de l'incantateur",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(20, 23)",
-            "patch": "3.0",
-            "previousFate": "f.861",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "fate.861",
+            "patch": "3.0"
         },
         "x863": {
-            "level": 59,
             "name_en": "A Disturbing Lack of Faith",
             "name_fr": "Défi : l'incantateur des brumes revient",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(20, 23)",
-            "patch": "3.0",
-            "previousFate": "f.862",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "previousFate": "fate.862",
+            "patch": "3.0"
         },
         "x864": {
-            "level": 59,
             "name_en": "Guano a Mano",
             "name_fr": "Alerte aux bombardements aériens",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(36.4, 36.4)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x865": {
-            "level": 59,
             "name_en": "The Sound of Madness",
             "name_fr": "Défi : Podarge au pot",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(10, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x866": {
-            "level": 59,
             "name_en": "You Eat What You Aren't",
             "name_fr": "Défi : dans les griffes d'Akhekhu",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(36, 8)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         },
         "x867": {
-            "level": 59,
             "name_en": "A Dream, Perchance to Eat",
             "name_fr": "Oiseaux peu lyriques",
+            "level": 59,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(22, 6)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "3.0"
         },
         "x875": {
-            "level": 59,
             "name_en": "Rebel Yehl",
             "name_fr": "Défi : clouer le bec à Yehl",
+            "level": 59,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(37, 14)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "3.0"
         }
     }
 }

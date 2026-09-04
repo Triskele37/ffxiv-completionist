@@ -1,0 +1,117 @@
+.font-size-controls {
+    display: flex;
+
+    ::ng-deep {
+        .p-inputnumber-input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .p-inputnumber-increment-button {
+            border-top-right-radius: 0;
+        }
+
+        .p-inputnumber-decrement-button {
+            border-bottom-right-radius: 0;
+        }
+
+        .reset-font-size.p-button {
+            border-left: 1px solid var(--primary-color-text);
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+
+.setting-line, .completion-line {
+    label:first-child, .title {
+        text-align: right;
+        padding-right: 5px;
+        width: 170px;
+    }
+}
+
+.setting-line {
+    display: flex;
+    align-items: center;
+
+    ::ng-deep {
+        .p-inputcolor {
+            margin: 5px;
+        }
+    }
+}
+
+.completion-line {
+    display: flex;
+
+    label:first-child {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .settings {
+        margin-top: 5px;
+
+        .gradient-steps {
+            display: flex;
+            border-radius: 9px;
+            overflow: hidden;
+            margin-bottom: 5px;
+            height: 20px;
+            width: 300px;
+
+            .gradient-step {
+                display: inline-block;
+                width: 3px;
+                height: 20px;
+            }
+        }
+
+        .color-pickers {
+            display: flex;
+            justify-content: space-evenly;
+            width: 300px;
+
+            $vert-width: 50px;
+            .vert-picker {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                width: $vert-width;
+            }
+
+            .i-incomplete, .i-complete, .i-exclude {
+                pointer-events: none;
+                position: absolute;
+                filter: invert(50%);
+                text-shadow: white 0 0 2px;
+                z-index: 1;
+                top: 6px;
+                left: 14px;
+            }
+
+            .i-exclude {
+                filter: invert(90%);
+            }
+
+            ::ng-deep {
+                .p-inputcolor {
+                }
+
+                .p-inputcolor-swatch {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    width: $vert-width;
+                }
+
+                .p-button {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 0;
+                    width: $vert-width;
+                }
+            }
+        }
+    }
+}

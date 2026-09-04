@@ -1,0 +1,908 @@
+{
+    "key": "events",
+    "groupName_en": "Events",
+    "groupName_fr": "Événements",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "type": {
+            "header": "@HEADER.TYPE",
+            "filterable": true
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x1604": {
+            "name_en": "All Pets Are Off",
+            "name_fr": "Belles plantes",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(17.0, 26.8)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1606": {
+            "name_en": "Brought to Heal",
+            "name_fr": "Miséricorde impériale",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(28.6, 26.1)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1602": {
+            "name_en": "Can Carnivorous Plants Bloom Even on a Battlefield?",
+            "name_fr": "Des racines et des crocs",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(33.5, 19.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1605": {
+            "name_en": "Conflicting with the First Law",
+            "name_fr": "Que des numéros dix",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(33.5, 29.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1624": {
+            "name_en": "Demonstrably Demonic",
+            "name_fr": "Par l'hémoglobine alléchés",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.3, 20.4)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1622": {
+            "name_en": "Desperately Seeking Something",
+            "name_fr": "Ceux qui creusent",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.5, 17.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1625": {
+            "name_en": "For Absent Friends",
+            "name_fr": "Miséricorde vengeresse",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.3, 18.2)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1612": {
+            "name_en": "Heavy Boots of Lead",
+            "name_fr": "Force ouvrière",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(30.7, 22.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1615": {
+            "name_en": "Help Wanted",
+            "name_fr": "Résister ou mourir",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(18.2, 20.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1620": {
+            "name_en": "I'm a Mechanical Man",
+            "name_fr": "Plan B",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.8, 18.0)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1627": {
+            "name_en": "Let Slip the Dogs of War",
+            "name_fr": "Brigade canine",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.1, 15.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1601": {
+            "name_en": "More Machine Now than Man",
+            "name_fr": "Machines aux trousses",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(27.9, 28.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1621": {
+            "name_en": "Murder Death Kill",
+            "name_fr": "Des machines et des hommes",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.1, 15.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1619": {
+            "name_en": "My Family and Other Animals",
+            "name_fr": "L'incorruptible",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.3, 15.2)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1613": {
+            "name_en": "No Camping Allowed",
+            "name_fr": "Idéaux irréconciliables",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(17.6, 23.4)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1598": {
+            "name_en": "None of Them Knew They Were Robots",
+            "name_fr": "Les araignées de fer",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.4, 27.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1626": {
+            "name_en": "Of Steel and Flame",
+            "name_fr": "Le fer et le feu",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.3, 18.2)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1610": {
+            "name_en": "Parts and Recreation",
+            "name_fr": "La bataille de l'innovation",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.4, 21.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1616": {
+            "name_en": "Pyromancer Supreme",
+            "name_fr": "Duel brûlant",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(18.2, 20.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1608": {
+            "name_en": "Red (Chocobo) Alert",
+            "name_fr": "Quand les chocobos voient rouge",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(27.0, 18.5)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1614": {
+            "name_en": "Scavenger of Man's Sorrow",
+            "name_fr": "Les dévoreurs d'âmes",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.2, 22.8)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1603": {
+            "name_en": "Seeq and Destroy",
+            "name_fr": "Ménagerie guerrière",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(28.6, 26.0)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1597": {
+            "name_en": "Sneak & Spell",
+            "name_fr": "Les yeux de l'ennemi",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.2, 26.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1623": {
+            "name_en": "Supplies Party",
+            "name_fr": "Casser la voie",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.9, 14.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1599": {
+            "name_en": "The Beasts Must Die",
+            "name_fr": "Museler le Chien",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.0, 27.1)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1611": {
+            "name_en": "The Element of Supplies",
+            "name_fr": "Couper les vivres",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(17.6, 23.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1607": {
+            "name_en": "The Monster Mash",
+            "name_fr": "Le retour du chien fidèle",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(30.8, 22.2)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1628": {
+            "name_en": "The War Against the Machines",
+            "name_fr": "Cent mille guerriers de métal",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.3, 20.4)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1618": {
+            "name_en": "The Wild Bunch",
+            "name_fr": "Sans maîtres ni loi",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.9, 14.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1609": {
+            "name_en": "Unicorn Flakes",
+            "name_fr": "La licorne des plaines",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.DEFENSE",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(31.6, 17.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1600": {
+            "name_en": "Unrest for the Wicked",
+            "name_fr": "Pas de quartier",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.3, 27.6)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1617": {
+            "name_en": "Waste the Rainbow",
+            "name_fr": "De toutes les couleurs",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.5, 17.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x33": {
+            "name_en": "Kill It with Fire",
+            "name_fr": "Grandeur et pestilence",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(17.2, 27.0)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x34": {
+            "name_en": "Metal Fox Chaos",
+            "name_fr": "Le guerrier de métal",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(14.3, 18.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x35": {
+            "name_en": "Patriot Games",
+            "name_fr": "Les fusils du patriote",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(14.2, 21.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x36": {
+            "name_en": "Rise of the Robots",
+            "name_fr": "Le soulèvement des machines",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(21.0, 17.8)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x37": {
+            "name_en": "The Baying of the Hound(s)",
+            "name_fr": "Le chien des enfers",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(22.0, 29.0)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x38": {
+            "name_en": "The Final Furlong",
+            "name_fr": "Menace spectrale",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(31.9, 17.6)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x39": {
+            "name_en": "The Fires of War",
+            "name_fr": "Brasier de guerre",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(20.6, 24.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x40": {
+            "name_en": "The Hunt for Red Choctober",
+            "name_fr": "Une ruée en rouge",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(26.8, 18.4)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x41": {
+            "name_en": "The Shadow of Death's Hand",
+            "name_fr": "Les ailes noires de la mort",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(35.4, 26.2)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x42": {
+            "name_en": "Trampled Under Hoof",
+            "name_fr": "L'œil du malin",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(9.9, 18.3)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x43": {
+            "name_en": "Vigil for the Lost",
+            "name_fr": "Vigile de feu",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(27.9, 30.0)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x44": {
+            "name_en": "Where Strode the Behemoth",
+            "name_fr": "Le mastodonte enragé",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(23.6, 14.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x45": {
+            "name_en": "Aces High",
+            "name_fr": "Force divine",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(31.6, 26.8)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x46": {
+            "name_en": "And the Flames Went Higher",
+            "name_fr": "L'envol du phénix",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(18.7, 15.9)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x47": {
+            "name_en": "Beast of Man",
+            "name_fr": "Le Roi bestial",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(23.2, 20.6)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x48": {
+            "name_en": "A Familiar Face",
+            "name_fr": "Le Grand Ordonnateur",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(28.0, 29.7)",
+            "patch": "5.35",
+            "level": 80
+        },
+        "x1728": {
+            "name_en": "A Just Pursuit",
+            "name_fr": "Recherché dans deux pays",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.7, 27.7)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1737": {
+            "name_en": "A Relic Unleashed",
+            "name_fr": "Sans issue",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.5, 14.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1721": {
+            "name_en": "A Wrench in the Reconnaissance Effort",
+            "name_fr": "Ni vu ni connu",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(29.4, 35.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1727": {
+            "name_en": "An End to Atrocities",
+            "name_fr": "L'immaculée contre le malsain",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(4.9, 25.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1719": {
+            "name_en": "An Immoral Dilemma",
+            "name_fr": "Malheureuses retrouvailles",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(22.8, 34.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1722": {
+            "name_en": "Another Pilot Episode",
+            "name_fr": "Dabog, soldat augmenté",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(28.1, 29.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1742": {
+            "name_en": "Attack of the Machines",
+            "name_fr": "Fabrication en série",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(12.1, 13.6)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1740": {
+            "name_en": "Attack of the Supersoldiers",
+            "name_fr": "Il est plus d'un",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(16.7, 16.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1723": {
+            "name_en": "Breaking the Ice",
+            "name_fr": "Qui s'y frotte s'y pique",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.9, 31.2)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1725": {
+            "name_en": "Challenge Accepted",
+            "name_fr": "Un problème de taille",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(7.2, 28.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1720": {
+            "name_en": "Deadly Divination",
+            "name_fr": "Le prêtre pernicieux",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.9, 31.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1731": {
+            "name_en": "Demented Mentor",
+            "name_fr": "Magie couleur sang",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(7.2, 28.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x61": {
+            "name_en": "Feeling the Burn",
+            "name_fr": "On arrête le progrès",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(16.7, 16.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x62": {
+            "name_en": "From Beyond the Grave",
+            "name_fr": "Le Sycophante",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(20.3, 37.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x63": {
+            "name_en": "Head of the Snake",
+            "name_fr": "Mener par l'exemple",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(5.3, 31.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x64": {
+            "name_en": "Here Comes the Cavalry",
+            "name_fr": "Un cavalier qui surgit hors de la nuit",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(6.5, 37.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1739": {
+            "name_en": "Hypertuned Havoc",
+            "name_fr": "Une opportunité en or",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(16.7, 16.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x66": {
+            "name_en": "Lean, Mean, Magitek Machines",
+            "name_fr": "Réusinage de code",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(15.3, 13.1)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x67": {
+            "name_en": "Looks to Die For",
+            "name_fr": "Écaillage en règle",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(17.5, 9.9)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1736": {
+            "name_en": "Mean-spirited",
+            "name_fr": "Le trésor du clan Urabe",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.5, 14.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1724": {
+            "name_en": "Meet the Puppetmaster",
+            "name_fr": "Celui qui tire les ficelles",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.1, 37.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x70": {
+            "name_en": "Never Cry Wolf",
+            "name_fr": "Et n'y Hród'viens plus!",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(4.9, 25.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1717": {
+            "name_en": "Of Beasts and Braggadocio",
+            "name_fr": "Un jour, je serai la meilleure dresseuse",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(24.1, 37.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x72": {
+            "name_en": "On Serpents' Wings",
+            "name_fr": "Zirnitrop",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.WAVES",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(31.5, 37.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1718": {
+            "name_en": "Parts and Parcel",
+            "name_fr": "Les astres du jour et de la nuit",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(22.8, 34.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1735": {
+            "name_en": "Seeq and You Will Find",
+            "name_fr": "Non, c'est non!",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.4, 16.6)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1732": {
+            "name_en": "Sever the Strings",
+            "name_fr": "Ainsi font les petites marionnettes",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(11.7, 27.7)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1734": {
+            "name_en": "Still Only Counts as One",
+            "name_fr": "Clarricie, sans défense ou presque",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.6, 10.4)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1730": {
+            "name_en": "Supersoldier Rising",
+            "name_fr": "Guet-apens magitek",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(8.1, 24.0)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x78": {
+            "name_en": "Taking the Lyon's Share",
+            "name_fr": "La revanche de Lyon",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(22.5, 13.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1729": {
+            "name_en": "Tanking Up",
+            "name_fr": "Y a qu'à se baisser",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(8.1, 24.0)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1726": {
+            "name_en": "Th'uban the Terrible",
+            "name_fr": "Le dernier des dinosaures",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(8.6, 34.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1733": {
+            "name_en": "The Beasts Are Back",
+            "name_fr": "Des bêtes en pagagaille",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(25.5, 14.3)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x82": {
+            "name_en": "The Broken Blade",
+            "name_fr": "Dabog l'hyper-renforcé",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.DUEL",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(26.5, 35.7)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1741": {
+            "name_en": "The Student Becalms the Master",
+            "name_fr": "L'élève dépasse le maître",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(14.6, 10.4)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x84": {
+            "name_en": "There Would Be Blood",
+            "name_fr": "Le Roi des cendres",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(13.7, 26.1)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x85": {
+            "name_en": "Time to Burn",
+            "name_fr": "Le Titan",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(10.5, 21.5)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x1738": {
+            "name_en": "When Mages Rage",
+            "name_fr": "Des cailloux, des cailloux, des cailloux!",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "category": "@FATE.CATEGORY.SKIRMISH",
+            "coordinates": "(20.4, 16.6)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x87": {
+            "name_en": "With Diremite and Main",
+            "name_fr": "C'est dans ma nature",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(17.1, 32.1)",
+            "patch": "5.55",
+            "level": 80
+        },
+        "x88": {
+            "name_en": "Worn to a Shadow",
+            "name_fr": "Oiseau d'enfer",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "category": "@FATE.CATEGORY.CRITICAL_ENGAGEMENT",
+            "coordinates": "(11.9, 7.7)",
+            "patch": "5.55",
+            "level": 80
+        }
+    }
+}

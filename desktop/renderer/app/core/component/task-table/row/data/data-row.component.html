@@ -1,0 +1,39 @@
+<tr
+    class="data-row"
+    [attr.data-active-help]="task._parent.isCustomGroup ? 'APP.ACTIVE_HELP.CUSTOM_VIEW.CUSTOM_TASK_ROW' : 'APP.ACTIVE_HELP.TABLE.TASK_ROW'"
+    [pReorderableRow]="rowIndex"
+    [pReorderableRowDisabled]="!svcTable.group().draggable || svcTable.order.debounceDrag()"
+    [ngClass]="{
+        selected: task.selected(),
+        'even-row': !svcTable.rowGroup.groupRows && rowIndex % 2 === 0
+    }"
+    (click)="onClick($event)"
+    (mousedown)="onRowMouseDown($event)"
+>
+    <!-- Completion Cell -->
+    @if(!svcTable.group().disableCompletion) {
+        <com-complete-cell [task]="task"></com-complete-cell>
+    }
+
+    <!-- Data Cells -->
+    @for(column of svcTable.group().columns; track column.key) {
+        @if(column.editable) {
+            <com-edit-cell
+                [task]="task"
+                [key]="column.key"
+            ></com-edit-cell>
+        }
+        @else {
+            <com-data-cell
+                [column]="column"
+                [task]="task"
+            ></com-data-cell>
+        }
+    }
+
+    <!-- Row Action Cell -->
+    <com-actions-cell
+        [task]="task"
+        [rowIndex]="rowIndex"
+    ></com-actions-cell>
+</tr>

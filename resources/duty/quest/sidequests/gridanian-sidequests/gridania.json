@@ -4,146 +4,146 @@
     "groupName_fr": "Gridania",
     "tasks": {
         "x65575": {
-            "level": 1,
             "name_en": "Coming to Gridania",
             "name_fr": "Bienvenue à Gridania",
+            "level": 1,
             "npc_en": "Bertennant",
             "npc_fr": "Bertennant",
-            "cNext": ["q.65537", "q.65660"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65537", "q.65660"]
         },
         "x65537": {
-            "level": 1,
             "name_en": "A Good Adventurer Is Hard to Find",
             "name_fr": "Savoir tendre la main",
+            "level": 1,
             "npc_en": "Bernadette",
             "npc_fr": "Bernadette",
+            "patch": "2.0",
             "cPrev": ["q.65575"],
-            "cNext": ["q.65573"],
-            "patch": "4.31"
+            "cNext": ["q.65573"]
         },
         "x65556": {
-            "level": 1,
             "name_en": "Incense and Sensibility",
             "name_fr": "Le souhait de Mellaine",
+            "level": 1,
             "npc_en": "Mellaine",
             "npc_fr": "Mellaine",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65560": {
-            "level": 1,
             "name_en": "Coarse Correspondence",
             "name_fr": "Une lettre mystérieuse",
+            "level": 1,
             "npc_en": "F'mibhas",
             "npc_fr": "F'mibhas",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65563": {
-            "level": 1,
             "name_en": "Preserving the Past",
             "name_fr": "Préserver le passé",
+            "level": 1,
             "npc_en": "Idele",
             "npc_fr": "Idele",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65585": {
-            "level": 1,
             "name_en": "I Am Millicent, Hear Me Roar",
             "name_fr": "En attendant la relève",
+            "level": 1,
             "npc_en": "Duimessand",
             "npc_fr": "Duimessand",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65574": {
-            "level": 2,
             "name_en": "Parsemontrenomics",
             "name_fr": "Faire d'une pierre deux coups",
+            "level": 2,
             "npc_en": "Parsemontret",
             "npc_fr": "Parsemontret",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65576": {
-            "level": 2,
             "name_en": "For Friendship",
             "name_fr": "Un geste pour un sourire",
+            "level": 2,
             "npc_en": "Nicoliaux",
             "npc_fr": "Nicoliaux",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65577": {
-            "level": 2,
             "name_en": "Covered in Roses",
             "name_fr": "Un tapis de roses",
+            "level": 2,
             "npc_en": "Samiane",
             "npc_fr": "Samiane",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65578": {
-            "level": 2,
             "name_en": "Sylphic Gratitude",
             "name_fr": "Citrouilles en vadrouille",
+            "level": 2,
             "npc_en": "Estaine",
             "npc_fr": "Estaine",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65561": {
-            "level": 3,
             "name_en": "Quarrels with Squirrels",
             "name_fr": "Les rongeurs de minuit",
+            "level": 3,
             "npc_en": "Boiselont",
             "npc_fr": "Boiselont",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65562": {
-            "level": 3,
             "name_en": "Once Bitten, Twice Shy",
             "name_fr": "Chat échaudé craint l'eau froide",
+            "level": 3,
             "npc_en": "Ethelred",
             "npc_fr": "Ethelred",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65567": {
-            "level": 3,
             "name_en": "Essential Oil",
             "name_fr": "Huile essentielle",
+            "level": 3,
             "npc_en": "Braya",
             "npc_fr": "Braya",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65568": {
-            "level": 4,
             "name_en": "A Hard Nut to Crack",
             "name_fr": "Visite à l'écurie",
+            "level": 4,
             "npc_en": "Tatasosa",
             "npc_fr": "Tatasosa",
-            "cPrev": ["q.65660"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65660"]
         },
         "x65570": {
-            "level": 4,
             "name_en": "Derision of Labor",
             "name_fr": "Livraison de nourriture",
+            "level": 4,
             "npc_en": "Celestine",
             "npc_fr": "Celestine",
-            "cPrev": ["q.65660"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65660"]
         },
         "x65573": {
-            "level": 4,
             "name_en": "Population Control",
-            "name_fr": "Il va y avoir des spores!",
+            "name_fr": "Il va y avoir des spores !",
+            "level": 4,
             "npc_en": "Chansteloup",
             "npc_fr": "Chansteloup",
-            "cPrev": ["q.65537"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65537"]
         },
         "x65756": {
-            "level": 10,
             "name_en": "Leves of Bentbranch",
             "name_fr": "Mandataire de Brancharquée",
+            "level": 10,
             "npc_en": "Gontrant",
             "npc_fr": "Gontrant",
-            "unlock_en": "Leves",
+            "patch": "2.0",
             "cPrev": ["q.65665"],
             "cNext": [
                 "q.65596",
@@ -160,130 +160,130 @@
                 "q.66232",
                 "q.66231",
                 "q.65554"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x66961": {
-            "level": 14,
             "name_en": "Saw That One Coming",
-            "name_fr": "Mais si on danse?",
-            "unlock": "e.102",
-            "cPrevAny": true,
+            "name_fr": "Mais si on danse ?",
+            "level": 14,
             "npc_en": "Eral",
             "npc_fr": "Eral",
+            "unlock": "e.102",
+            "patch": "2.2",
             "cPrev": ["q.66088", "q.66081", "q.65985"],
-            "cSiblings": ["e.102"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cSiblings": ["e.102"]
         },
         "x66968": {
-            "level": 17,
             "name_en": "An Ill-conceived Venture",
             "name_fr": "Chevalier servant (Gridania)",
+            "level": 17,
             "npc_en": "Troubled Adventurer",
             "npc_fr": "Aventurier Dans L'embarras",
-            "unlock_en": "Retainer Ventures",
-            "cExclude": ["q.66969", "q.66970"],
-            "patch": "4.31"
+            "patch": "2.2",
+            "cExclude": ["q.66969", "q.66970"]
         },
         "x65698": {
-            "level": 20,
             "name_en": "A Sight to Behold",
             "name_fr": "Un carnet vers l'exploration",
+            "level": 20,
             "npc_en": "Naoh Gamduhla",
             "npc_fr": "Naoh Gamduhla",
-            "unlock_en": "Sightseeing Log",
+            "unlock": "logs.sightseeing-log",
+            "patch": "2.28",
             "cPrev": ["q.66049"],
-            "cNext": ["q.68456", "q.69140", "q.69710", "q.67643"],
-            "patch": "4.31"
+            "cNext": ["q.68456", "q.69140", "q.69710", "q.67643"]
         },
         "x66236": {
-            "level": 20,
             "name_en": "My Little Chocobo (Twin Adder)",
             "name_fr": "À chacun sa monture (Gridania)",
-            "unlock": "mo.1",
+            "level": 20,
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
+            "unlock": "mo.1",
+            "patch": "2.0",
             "cNext": ["q.66698"],
-            "cExclude": ["q.66237", "q.66238"],
-            "patch": "4.31"
+            "cExclude": ["q.66237", "q.66238"]
         },
         "x66338": {
-            "level": 29,
             "name_en": "Broadening Horizons",
             "name_fr": "Élargir son horizon",
+            "level": 29,
             "npc_en": "Tyoh Moui",
             "npc_fr": "Tyoh Moui",
-            "cNext": ["q.66339"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66339"]
         },
         "x66339": {
-            "level": 29,
             "name_en": "Beneath the Planks",
             "name_fr": "Sous les planches",
+            "level": 29,
             "npc_en": "Roustebant",
             "npc_fr": "Roustebant",
-            "cPrev": ["q.66338"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66338"]
         },
         "x65730": {
-            "level": 30,
             "name_en": "Unicorn Power",
             "name_fr": "Ma petite licorne",
+            "level": 30,
             "npc_en": "Braya",
             "npc_fr": "Braya",
-            "cPrev": ["q.65977"],
-            "patch": "4.31",
-            "unlock": "mo.15"
+            "unlock": "mo.15",
+            "patch": "2.0",
+            "cPrev": ["q.65977"]
         },
         "x66505": {
-            "level": 43,
             "name_en": "Adventurer for Hire",
             "name_fr": "Au nom de la rose",
+            "level": 43,
             "npc_en": "Selaine",
             "npc_fr": "Selaine",
-            "cNext": ["q.66506"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66506"]
         },
         "x66544": {
-            "level": 46,
             "name_en": "Who Was That Man in Black",
             "name_fr": "Témoins du mal",
+            "level": 46,
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
+            "patch": "2.0",
             "cPrev": ["q.66543"],
-            "cNext": ["q.66545"],
-            "patch": "4.31"
+            "cNext": ["q.66545"]
         },
         "x66545": {
-            "level": 46,
             "name_en": "The Dark Divinity",
             "name_fr": "Briseur de sceau",
+            "level": 46,
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
+            "patch": "2.0",
             "cPrev": ["q.66544"],
-            "cNext": ["q.66548"],
-            "patch": "4.31"
+            "cNext": ["q.66548"]
         },
         "x66925": {
-            "level": 50,
             "name_en": "One Night in Amdapor",
             "name_fr": "La Cité des enfers perdus",
-            "unlock": "d.22",
+            "level": 50,
             "npc_en": "E-Sumi-Yan",
             "npc_fr": "E-Sumi-Yan",
+            "unlock": "d.22",
+            "patch": "2.2",
             "cPrev": ["q.66060"],
             "cNext": ["q.67818"],
-            "patch": "4.31"
+            "cSiblings": ["d.22"]
         },
         "x67818": {
-            "level": 60,
             "name_en": "One More Night in Amdapor",
             "name_fr": "Les profondeurs d'Amdapor",
-            "unlock": "d.140",
+            "level": 60,
             "npc_en": "E-Sumi-Yan",
             "npc_fr": "E-Sumi-Yan",
+            "unlock": "d.140",
+            "patch": "3.2",
             "cPrev": ["q.66925", "q.67205"],
-            "patch": "4.31"
+            "cSiblings": ["d.140"]
         }
     }
 }

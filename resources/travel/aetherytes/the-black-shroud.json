@@ -1,78 +1,90 @@
 {
     "key": "the-black-shroud",
-    "groupName": "@PLACE.THE_BLACK_SHROUD",
+    "groupName": "@PLACE.ARR.THE_BLACK_SHROUD",
     "tasks": {
         "x16": {
             "name_en": "New Gridania",
             "name_fr": "Nouvelle Gridania / Place de l'Éthérite (Guilde des aventuriers/menuisiers/Deux Vipères)",
-            "zone": "@PLACE.NEW_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x17": {
             "name_en": "Archers' Guild",
             "name_fr": "Guilde des archers",
-            "zone": "@PLACE.NEW_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x18": {
             "name_en": "Leatherworkers' Guild & Shaded Bower",
             "name_fr": "Marché (Guilde des tanneurs)",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x19": {
             "name_en": "Lancers' Guild",
             "name_fr": "Guilde des maîtres d'hast",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x20": {
             "name_en": "Conjurers' Guild",
             "name_fr": "Guilde des élémentalistes",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x21": {
             "name_en": "Botanists' Guild",
             "name_fr": "Guilde des botanistes",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x22": {
             "name_en": "Mih Khetto's Amphitheatre",
             "name_fr": "Amphithéâtre de Mih Khetto",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "type": "@TYPE.AETHERYTE.SHARD"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "type": "@TYPE.AETHERYTE.SHARD",
+            "patch": "2.0"
         },
         "x23": {
             "name_en": "Bentbranch Meadows",
             "name_fr": "Ranch de Brancharquée",
-            "zone": "@PLACE.CENTRAL_SHROUD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x24": {
             "name_en": "The Hawthorne Hut",
             "name_fr": "Hutte des Hawthorne",
-            "zone": "@PLACE.EAST_SHROUD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x25": {
             "name_en": "Quarrymill",
             "name_fr": "Moulin de la Carrière",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x26": {
             "name_en": "Camp Tranquil",
             "name_fr": "Camp des Sentes tranquilles",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         },
         "x27": {
             "name_en": "Fallgourd Float",
             "name_fr": "Radeau de la Calebasse",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "type": "@TYPE.AETHERYTE.CRYSTAL"
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "type": "@TYPE.AETHERYTE.CRYSTAL",
+            "patch": "2.0"
         }
     }
 }

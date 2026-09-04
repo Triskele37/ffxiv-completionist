@@ -1,30 +1,42 @@
 {
     "key": "norvrandt",
-    "groupName": "@PLACE.NORVRANDT",
+    "groupName": "@PLACE.SHB.NORVRANDT",
     "tasks": {
         "x0": {
-            "name": "@PLACE.LAKELAND",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LAKELAND (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Lakeland Riding Map",
+            "name_fr": "Carte détaillée de Grand-Lac",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.LAKELAND (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         },
         "x1": {
-            "name": "@PLACE.KHOLUSIA",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KHOLUSIA (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Kholusia Riding Map",
+            "name_fr": "Carte détaillée de Kholusia",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.KHOLUSIA (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         },
         "x2": {
-            "name": "@PLACE.AMH_ARAENG",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.AMH_ARAENG (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Amh Araeng Riding Map",
+            "name_fr": "Carte détaillée de l'Amh Araeng",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.AMH_ARAENG (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         },
         "x3": {
-            "name": "@PLACE.IL_MHEG",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Il Mheg Riding Map",
+            "name_fr": "Carte détaillée d'Il Mheg",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.IL_MHEG (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         },
         "x4": {
-            "name": "@PLACE.RAK_TIKA",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Rak'tika Greatwood Riding Map",
+            "name_fr": "Carte détaillée de Rak'tika",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.RAK_TIKA (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         },
         "x5": {
-            "name": "@PLACE.THE_TEMPEST",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_TEMPEST (70 CURRENCY.FATE.GEMSTONE)"
+            "name_en": "Tempest Riding Map",
+            "name_fr": "Carte détaillée de La Tempête",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHB.THE_TEMPEST (70 CURRENCY.FATE.GEMSTONE)",
+            "patch": "5.0"
         }
     }
 }

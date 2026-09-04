@@ -1,102 +1,102 @@
 {
     "key": "upper-la-noscea",
-    "groupName": "@PLACE.UPPER_LA_NOSCEA",
+    "groupName": "@PLACE.ARR.UPPER_LA_NOSCEA",
     "tasks": {
         "x451": {
-            "level": 20,
             "name_en": "Poor Maid's Mess",
             "name_fr": "Pauvre hameau : des rats qui grignotent",
+            "level": 20,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(12, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x452": {
-            "level": 20,
             "name_en": "Poor Maid's Mishap",
             "name_fr": "Pauvre hameau : des Kobolds qui saccagent",
+            "level": 20,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x453": {
-            "level": 20,
             "name_en": "Poor Maid's Misfortune",
             "name_fr": "Pauvre hameau : des coeurls qui battent",
+            "level": 20,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(12, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x323": {
-            "level": 21,
             "name_en": "Giant Enemy Crab",
             "name_fr": "Défi : crabe qui ne pond pas...",
+            "level": 21,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(13, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x314": {
-            "level": 23,
             "name_en": "Simurgh Is the Word",
             "name_fr": "Défi : Simurgh le redoutable",
+            "level": 23,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(8, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x320": {
-            "level": 30,
             "name_en": "The Road More Traveled",
             "name_fr": "Mamool repart chez maman",
+            "level": 30,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(32, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x322": {
-            "level": 30,
             "name_en": "Truth in Faerie Tales",
             "name_fr": "Défi : attention, ça mord",
+            "level": 30,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(34, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x321": {
-            "level": 31,
             "name_en": "Nine-ilm Snails",
             "name_fr": "Frapper dans l'œuf",
+            "level": 31,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(33, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x329": {
-            "level": 31,
             "name_en": "Shell Shocked",
             "name_fr": "Défi : prudence avec l'eau chaude...",
+            "level": 31,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(28, 24)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x331": {
-            "level": 33,
             "name_en": "Peeping Ja",
             "name_fr": "Défi : un baigneur gênant",
+            "level": 33,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(28, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x332": {
-            "level": 33,
             "name_en": "Hop, Skip, and a Jump",
             "name_fr": "Trop d'œufs, bonjour les dégâts",
+            "level": 33,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(28, 22)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x317": {
-            "level": 34,
             "name_en": "Surprise",
             "name_fr": "Escorte pour le Guet",
+            "level": 34,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(26, 18)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         }
     }
 }

@@ -4,19 +4,22 @@
     "groupName_fr": "Fourrages",
     "tasks": {
         "x0": {
-            "rank": ["duty.island-sanctuary.rank.2"],
             "name_en": "Island Sweetfeed",
-            "name_fr": "Fruits fourragers insulaires"
+            "name_fr": "Fruits fourragers insulaires",
+            "unlock": "duty.island-sanctuary.rank.2",
+            "patch": "6.2"
         },
         "x1": {
-            "rank": ["duty.island-sanctuary.rank.2"],
             "name_en": "Island Greenfeed",
-            "name_fr": "Légumes fourragers insulaires"
+            "name_fr": "Légumes fourragers insulaires",
+            "unlock": "duty.island-sanctuary.rank.2",
+            "patch": "6.2"
         },
         "x2": {
-            "rank": ["duty.island-sanctuary.rank.2"],
             "name_en": "Premium Island Greenfeed",
-            "name_fr": "Légumes fourragers insulaires de qualité"
+            "name_fr": "Légumes fourragers insulaires de qualité",
+            "unlock": "duty.island-sanctuary.rank.2",
+            "patch": "6.2"
         }
     }
 }

@@ -8,19 +8,19 @@
             "name_fr": "Réunion d'anciens élèves I",
             "description_en": "Clear the Baldesion Arsenal.",
             "description_fr": "Finir l'Arsenal de Baldesion.",
+            "points": 5,
             "reward": "mo.186",
             "patch": "4.55",
-            "points": 5,
             "cNext": ["a.2228"],
-            "cSiblings": ["duty.exploratory-missions.eureka.duties.0"]
+            "cSiblings": ["duty.field-operations.eureka.duties.0"]
         },
         "x2228": {
             "name_en": "We're on Your Side II",
             "name_fr": "Réunion d'anciens élèves II",
             "description_en": "Clear the Baldesion Arsenal 5 times.",
             "description_fr": "Finir l'Arsenal de Baldesion 5 fois.",
-            "patch": "4.55",
             "points": 5,
+            "patch": "4.55",
             "cPrev": ["a.2227"],
             "cNext": ["a.2229"]
         },
@@ -29,8 +29,8 @@
             "name_fr": "Réunion d'anciens élèves III",
             "description_en": "Clear the Baldesion Arsenal 10 times.",
             "description_fr": "Finir l'Arsenal de Baldesion 10 fois.",
-            "patch": "4.55",
             "points": 5,
+            "patch": "4.55",
             "cPrev": ["a.2228"]
         },
         "x2676": {
@@ -38,8 +38,8 @@
             "name_fr": "Prendre la mouche I",
             "description_en": "Successfully complete 10 skirmishes in Bozja.",
             "description_fr": "Remporter 10 escarmouches sur le front bozjien.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cNext": ["a.2677"]
         },
         "x2677": {
@@ -47,8 +47,8 @@
             "name_fr": "Prendre la mouche II",
             "description_en": "Successfully complete 50 skirmishes in Bozja.",
             "description_fr": "Remporter 50 escarmouches sur le front bozjien.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cPrev": ["a.2676"],
             "cNext": ["a.2678"]
         },
@@ -57,8 +57,8 @@
             "name_fr": "Prendre la mouche III",
             "description_en": "Successfully complete 100 skirmishes in Bozja.",
             "description_fr": "Remporter 100 escarmouches sur le front bozjien.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cPrev": ["a.2677"],
             "cNext": ["a.2679"]
         },
@@ -67,9 +67,9 @@
             "name_fr": "Prendre la mouche IV",
             "description_en": "Successfully complete 500 skirmishes in Bozja.",
             "description_fr": "Remporter 500 escarmouches sur le front bozjien.",
+            "points": 10,
             "reward": "t.540",
             "patch": "5.35",
-            "points": 10,
             "cPrev": ["a.2678"],
             "cSiblings": ["t.540"]
         },
@@ -78,8 +78,8 @@
             "name_fr": "Rôle crucial I",
             "description_en": "Complete 10 critical engagements in Bozja.",
             "description_fr": "Remporter 10 affrontements cruciaux sur le front bozjien.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cNext": ["a.2673"]
         },
         "x2673": {
@@ -87,8 +87,8 @@
             "name_fr": "Rôle crucial II",
             "description_en": "Complete 50 critical engagements in Bozja.",
             "description_fr": "Remporter 50 affrontements cruciaux sur le front bozjien.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cPrev": ["a.2672"],
             "cNext": ["a.2674"]
         },
@@ -97,8 +97,8 @@
             "name_fr": "Rôle crucial III",
             "description_en": "Complete 100 critical engagements in Bozja.",
             "description_fr": "Remporter 100 affrontements cruciaux sur le front bozjien.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cPrev": ["a.2673"],
             "cNext": ["a.2675"]
         },
@@ -107,9 +107,9 @@
             "name_fr": "Rôle crucial IV",
             "description_en": "Complete 500 critical engagements in Bozja.",
             "description_fr": "Remporter 500 affrontements cruciaux sur le front bozjien.",
+            "points": 20,
             "reward": "t.539",
             "patch": "5.35",
-            "points": 20,
             "cPrev": ["a.2674"],
             "cSiblings": ["t.539"]
         },
@@ -118,63 +118,63 @@
             "name_fr": "Battons-nous en duel, Gabriel !",
             "description_en": "Defeat Gabriel in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Gabriel sur le Front sud de Bozja.",
+            "points": 10,
             "reward": "t.542",
             "patch": "5.35",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.45", "t.542"],
-            "cCombo": ["a.2686"]
+            "cCombo": ["a.2686"],
+            "cSiblings": ["duty.field-operations.bozja.events.45", "t.542"]
         },
         "x2684": {
             "name_en": "Lyon's Share",
             "name_fr": "Battons-nous en duel, Lyon !",
             "description_en": "Defeat Lyon the Beast King in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Lyon le Roi bestial sur le Front sud de Bozja.",
+            "points": 10,
             "reward": "t.543",
             "patch": "5.35",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.47", "t.543"],
-            "cCombo": ["a.2686"]
+            "cCombo": ["a.2686"],
+            "cSiblings": ["duty.field-operations.bozja.events.47", "t.543"]
         },
         "x2685": {
             "name_en": "Burn Baby Burn",
             "name_fr": "Battons-nous en duel, Sartauvoir !",
             "description_en": "Defeat Sartauvoir quo Soranus in a duel at the Bozjan southern front.",
             "description_fr": "Remporter un duel contre Sartauvoir quo Soranus sur le Front sud de Bozja.",
+            "points": 10,
             "reward": "t.544",
             "patch": "5.35",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.46", "t.544"],
-            "cCombo": ["a.2686"]
+            "cCombo": ["a.2686"],
+            "cSiblings": ["duty.field-operations.bozja.events.46", "t.544"]
         },
         "x2686": {
             "name_en": "Close Encounters",
             "name_fr": "Duelliste d'élite",
             "description_en": "Obtain the achievements “Missing an Angel,” “Lyon's Share,” and “Burn Baby Burn.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Battons-nous en duel”.",
+            "points": 20,
             "reward": "t.545",
             "patch": "5.35",
-            "points": 20,
             "cPrev": ["a.2683", "a.2684", "a.2685"],
-            "cSiblings": ["t.545"],
-            "cCombo": ["a.2881"]
+            "cCombo": ["a.2881"],
+            "cSiblings": ["t.545"]
         },
         "x2680": {
             "name_en": "Operation: Eagle's Nest I",
             "name_fr": "Entrer par la grande porte I",
             "description_en": "Clear Castrum Lacus Litore.",
             "description_fr": "Prendre Castrum Lacus Litore sur le Front sud de Bozja.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cNext": ["a.2681"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.0"]
+            "cSiblings": ["duty.field-operations.bozja.duties.0"]
         },
         "x2681": {
             "name_en": "Operation: Eagle's Nest II",
             "name_fr": "Entrer par la grande porte II",
             "description_en": "Clear Castrum Lacus Litore 10 times.",
             "description_fr": "Prendre 10 fois Castrum Lacus Litore sur le Front sud de Bozja.",
-            "patch": "5.35",
             "points": 10,
+            "patch": "5.35",
             "cPrev": ["a.2680"],
             "cNext": ["a.2682"]
         },
@@ -183,9 +183,9 @@
             "name_fr": "Entrer par la grande porte III",
             "description_en": "Clear Castrum Lacus Litore 50 times.",
             "description_fr": "Prendre 50 fois Castrum Lacus Litore sur le Front sud de Bozja.",
+            "points": 20,
             "reward": "t.541",
             "patch": "5.35",
-            "points": 20,
             "cPrev": ["a.2681"],
             "cSiblings": ["t.541"]
         },
@@ -194,8 +194,8 @@
             "name_fr": "Savoir ancestral I",
             "description_en": "Have 10 forgotten fragments appraised.",
             "description_fr": "Faire expertiser 10 éclats oubliés.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cNext": ["a.2688"]
         },
         "x2688": {
@@ -203,8 +203,8 @@
             "name_fr": "Savoir ancestral II",
             "description_en": "Have 100 forgotten fragments appraised.",
             "description_fr": "Faire expertiser 100 éclats oubliés.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cPrev": ["a.2687"],
             "cNext": ["a.2689"]
         },
@@ -213,8 +213,8 @@
             "name_fr": "Savoir ancestral III",
             "description_en": "Have 500 forgotten fragments appraised.",
             "description_fr": "Faire expertiser 500 éclats oubliés.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cPrev": ["a.2688"],
             "cNext": ["a.2690"]
         },
@@ -223,10 +223,10 @@
             "name_fr": "Savoir ancestral IV",
             "description_en": "Have 1,000 forgotten fragments appraised.",
             "description_fr": "Faire expertiser 1 000 éclats oubliés.",
+            "points": 10,
             "reward_en": "Bozjan Earring",
             "reward_fr": "Boucle d'oreille bozjienne",
             "patch": "5.35",
-            "points": 10,
             "cPrev": ["a.2689"]
         },
         "x2691": {
@@ -234,8 +234,8 @@
             "name_fr": "Bon Samaritain de Bozja I",
             "description_en": "Resurrect another player in a Save the Queen area 10 times.",
             "description_fr": "Ressusciter 10 fois un autre joueur en Bozja.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cNext": ["a.2692"]
         },
         "x2692": {
@@ -243,8 +243,8 @@
             "name_fr": "Bon Samaritain de Bozja II",
             "description_en": "Resurrect another player in a Save the Queen area 100 times.",
             "description_fr": "Ressusciter 100 fois un autre joueur en Bozja.",
-            "patch": "5.35",
             "points": 5,
+            "patch": "5.35",
             "cPrev": ["a.2691"],
             "cNext": ["a.2693"]
         },
@@ -253,9 +253,9 @@
             "name_fr": "Bon Samaritain de Bozja III",
             "description_en": "Resurrect another player in a Save the Queen area 500 times.",
             "description_fr": "Ressusciter 500 fois un autre joueur en Bozja.",
+            "points": 10,
             "reward": "t.546",
             "patch": "5.35",
-            "points": 10,
             "cPrev": ["a.2692"],
             "cSiblings": ["t.546"]
         },
@@ -264,18 +264,18 @@
             "name_fr": "Délabrer le Delubrum I",
             "description_en": "Clear Delubrum Reginae.",
             "description_fr": "Finir Delubrum Reginae.",
-            "patch": "5.45",
             "points": 5,
+            "patch": "5.45",
             "cNext": ["a.2763"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.1"]
+            "cSiblings": ["duty.field-operations.bozja.duties.1"]
         },
         "x2763": {
             "name_en": "Queen of Swords II",
             "name_fr": "Délabrer le Delubrum II",
             "description_en": "Clear Delubrum Reginae 10 times.",
             "description_fr": "Finir Delubrum Reginae 10 fois.",
-            "patch": "5.45",
             "points": 10,
+            "patch": "5.45",
             "cPrev": ["a.2762"],
             "cNext": ["a.2764"]
         },
@@ -284,8 +284,8 @@
             "name_fr": "Délabrer le Delubrum III",
             "description_en": "Clear Delubrum Reginae 50 times.",
             "description_fr": "Finir Delubrum Reginae 50 fois.",
-            "patch": "5.45",
             "points": 20,
+            "patch": "5.45",
             "cPrev": ["a.2763"]
         },
         "x2765": {
@@ -293,20 +293,20 @@
             "name_fr": "Qu'une bouchée de la Reine I",
             "description_en": "Clear Delubrum Reginae (Savage).",
             "description_fr": "Finir Delubrum Reginae (sadique).",
+            "points": 5,
             "reward": "mo.235",
             "patch": "5.45",
-            "points": 5,
             "cNext": ["a.2766"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.2"]
+            "cSiblings": ["duty.field-operations.bozja.duties.2"]
         },
         "x2766": {
             "name_en": "Savage Queen of Swords II",
             "name_fr": "Qu'une bouchée de la Reine II",
             "description_en": "Clear Delubrum Reginae (Savage) 5 times.",
             "description_fr": "Finir Delubrum Reginae (sadique) 5 fois.",
+            "points": 10,
             "reward": "t.564",
             "patch": "5.45",
-            "points": 10,
             "cPrev": ["a.2765"],
             "cNext": ["a.2767"],
             "cSiblings": ["t.564"]
@@ -316,8 +316,8 @@
             "name_fr": "Qu'une bouchée de la Reine III",
             "description_en": "Clear Delubrum Reginae (Savage) 10 times.",
             "description_fr": "Finir Delubrum Reginae (sadique) 10 fois.",
-            "patch": "5.45",
             "points": 20,
+            "patch": "5.45",
             "cPrev": ["a.2766"]
         },
         "x2877": {
@@ -325,54 +325,54 @@
             "name_fr": "Battons-nous en duel, Dabog !",
             "description_en": "Defeat Hypertuned Dabog in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Dabog sur les Hauts plateaux de Zadnor.",
+            "points": 10,
             "reward": "t.586",
             "patch": "5.55",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.82", "t.586"],
-            "cCombo": ["a.2880"]
+            "cCombo": ["a.2880"],
+            "cSiblings": ["duty.field-operations.bozja.events.82", "t.586"]
         },
         "x2878": {
             "name_en": "Might Makes Right",
             "name_fr": "Battons-nous en duel, Menenius !",
             "description_en": "Defeat Menenius sas Lanatus in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Menenius sur les Hauts plateaux de Zadnor.",
+            "points": 10,
             "reward": "t.587",
             "patch": "5.55",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.63", "t.587"],
-            "cCombo": ["a.2880"]
+            "cCombo": ["a.2880"],
+            "cSiblings": ["duty.field-operations.bozja.events.63", "t.587"]
         },
         "x2879": {
             "name_en": "Untamed",
             "name_fr": "Battons-nous en duel, Roi bestial !",
             "description_en": "Defeat Lyon the Beast King in a duel in Zadnor.",
             "description_fr": "Remporter un duel contre Lyon sur les Hauts plateaux de Zadnor.",
+            "points": 10,
             "reward": "t.588",
             "patch": "5.55",
-            "points": 10,
-            "cSiblings": ["duty.exploratory-missions.bozja.events.78", "t.588"],
-            "cCombo": ["a.2880"]
+            "cCombo": ["a.2880"],
+            "cSiblings": ["duty.field-operations.bozja.events.78", "t.588"]
         },
         "x2880": {
             "name_en": "Close Encounters of the Zadnoran Kind",
             "name_fr": "Duelliste d'élite de Zadnor",
             "description_en": "Obtain the achievements “Test Complete,” “Might Makes Right,” and “Untamed.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Battons-nous en duel” sur les Hauts plateaux de Zadnor.",
+            "points": 20,
             "reward": "t.589",
             "patch": "5.55",
-            "points": 20,
             "cPrev": ["a.2877", "a.2878", "a.2879"],
-            "cSiblings": ["t.589"],
-            "cCombo": ["a.2881"]
+            "cCombo": ["a.2881"],
+            "cSiblings": ["t.589"]
         },
         "x2881": {
             "name_en": "Sharper than Blades",
             "name_fr": "Lame de Gunnhildr",
             "description_en": "Obtain the achievements “Close Encounters” and “Close Encounters of the Zadnoran Kind.”",
             "description_fr": "Accomplir les hauts faits “Duelliste d'élite” et “Duelliste d'élite de Zadnor”.",
+            "points": 20,
             "reward": "t.590",
             "patch": "5.55",
-            "points": 20,
             "cPrev": ["a.2686", "a.2880"],
             "cSiblings": ["t.590"]
         },
@@ -381,18 +381,18 @@
             "name_fr": "Touché coulé I",
             "description_en": "Clear the Dalriada in Zadnor.",
             "description_fr": "Prendre le Dalriada sur les Hauts plateaux de Zadnor.",
-            "patch": "5.55",
             "points": 10,
+            "patch": "5.55",
             "cNext": ["a.2875"],
-            "cSiblings": ["duty.exploratory-missions.bozja.duties.3"]
+            "cSiblings": ["duty.field-operations.bozja.duties.3"]
         },
         "x2875": {
             "name_en": "Hell to Pay II",
             "name_fr": "Touché coulé II",
             "description_en": "Clear the Dalriada in Zadnor 10 times.",
             "description_fr": "Prendre 10 fois le Dalriada sur les Hauts plateaux de Zadnor.",
-            "patch": "5.55",
             "points": 10,
+            "patch": "5.55",
             "cPrev": ["a.2874"],
             "cNext": ["a.2876"]
         },
@@ -401,9 +401,9 @@
             "name_fr": "Touché coulé III",
             "description_en": "Clear the Dalriada in Zadnor 50 times.",
             "description_fr": "Prendre 50 fois le Dalriada sur les Hauts plateaux de Zadnor.",
+            "points": 20,
             "reward": "t.585",
             "patch": "5.55",
-            "points": 20,
             "cPrev": ["a.2875"],
             "cSiblings": ["t.585"]
         },
@@ -412,14 +412,14 @@
             "name_fr": "La Comète de Bozja",
             "description_en": "Earn 10 Suns of Fortitude, 10 Suns of Valor, and 10 Suns of Succor.",
             "description_fr": "Obtenir 10 médailles de la résistance de chaque type (Comète de l'égide, Comète de la furie, Comète du salut).",
+            "points": 10,
             "reward": "t.591",
             "patch": "5.55",
-            "points": 10,
             "cPrevAt": {
                 "10": [
-                    "duty.exploratory-missions.bozja.resistance-honors.0",
-                    "duty.exploratory-missions.bozja.resistance-honors.1",
-                    "duty.exploratory-missions.bozja.resistance-honors.2"
+                    "duty.field-operations.bozja.resistance-honors.0",
+                    "duty.field-operations.bozja.resistance-honors.1",
+                    "duty.field-operations.bozja.resistance-honors.2"
                 ]
             },
             "cSiblings": ["t.591"]
@@ -429,9 +429,486 @@
             "name_fr": "L'éclat du passé",
             "description_en": "Unlock 99 lost actions.",
             "description_fr": "Débloquer les 99 actions oubliées.",
-            "patch": "5.55",
             "points": 10,
-            "cPrev": ["duty.exploratory-missions.bozja.lost-actions.all"]
+            "patch": "5.55",
+            "cPrev": ["duty.field-operations.bozja.lost-actions.all"]
+        },
+        "x3664": {
+            "name_en": "Occult Erudition I",
+            "name_fr": "À la poursuite du savoir insulaire I",
+            "description_en": "Complete 10 FATEs on the Occult Crescent: South Horn.",
+            "description_fr": "Accomplir 10 ALÉA sur l'île de Lunule méridionale.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3665": {
+            "name_en": "Occult Erudition II",
+            "name_fr": "À la poursuite du savoir insulaire II",
+            "description_en": "Complete 50 FATEs on the Occult Crescent: South Horn.",
+            "description_fr": "Accomplir 50 ALÉA sur l'île de Lunule méridionale.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3666": {
+            "name_en": "Occult Erudition III",
+            "name_fr": "À la poursuite du savoir insulaire III",
+            "description_en": "Complete 100 FATEs on the Occult Crescent: South Horn.",
+            "description_fr": "Accomplir 100 ALÉA sur l'île de Lunule méridionale.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3667": {
+            "name_en": "Occult Erudition IV",
+            "name_fr": "À la poursuite du savoir insulaire IV",
+            "description_en": "Complete 500 FATEs on the Occult Crescent: South Horn.",
+            "description_fr": "Accomplir 500 ALÉA sur l'île de Lunule méridionale.",
+            "points": 10,
+            "reward": "t.775",
+            "patch": "7.25",
+            "cSiblings": ["t.775"]
+        },
+        "x3660": {
+            "name_en": "Critical Thinking I",
+            "name_fr": "Décennale critique I",
+            "description_en": "Complete 10 critical encounters on the Occult Crescent: South Horn.",
+            "description_fr": "Remporter 10 confrontations critiques sur l'île de Lunule méridionale.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3661": {
+            "name_en": "Critical Thinking II",
+            "name_fr": "Décennale critique II",
+            "description_en": "Complete 50 critical encounters on the Occult Crescent: South Horn.",
+            "description_fr": "Remporter 50 confrontations critiques sur l'île de Lunule méridionale.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3662": {
+            "name_en": "Critical Thinking III",
+            "name_fr": "Décennale critique III",
+            "description_en": "Complete 100 critical encounters on the Occult Crescent: South Horn.",
+            "description_fr": "Remporter 100 confrontations critiques sur l'île de Lunule méridionale.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3663": {
+            "name_en": "Critical Thinking IV",
+            "name_fr": "Décennale critique IV",
+            "description_en": "Complete 500 critical encounters on the Occult Crescent: South Horn.",
+            "description_fr": "Remporter 500 confrontations critiques sur l'île de Lunule méridionale.",
+            "points": 20,
+            "reward": "t.774",
+            "patch": "7.25",
+            "cSiblings": ["t.774"]
+        },
+        "x3668": {
+            "name_en": "A Fork to Be Reckoned With I",
+            "name_fr": "Tour de force I",
+            "description_en": "Complete the Forked Tower: Blood for the first time.",
+            "description_fr": "Finir la Tour fourchue de la Force.",
+            "points": 10,
+            "reward": "mo.372",
+            "patch": "7.25"
+        },
+        "x3669": {
+            "name_en": "A Fork to Be Reckoned With II",
+            "name_fr": "Tour de force II",
+            "description_en": "Complete the Forked Tower: Blood 10 times.",
+            "description_fr": "Finir 10 fois la Tour fourchue de la Force.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3670": {
+            "name_en": "A Fork to Be Reckoned With III",
+            "name_fr": "Tour de force III",
+            "description_en": "Complete the Forked Tower: Blood 50 times.",
+            "description_fr": "Finir 50 fois la Tour fourchue de la Force.",
+            "points": 10,
+            "patch": "7.25"
+        },
+        "x3671": {
+            "name_en": "A Fork to Be Reckoned With IV",
+            "name_fr": "Tour de force IV",
+            "description_en": "Complete the Forked Tower: Blood 100 times.",
+            "description_fr": "Finir 100 fois la Tour fourchue de la Force.",
+            "points": 20,
+            "reward": "t.776",
+            "patch": "7.25",
+            "cSiblings": ["t.776"]
+        },
+        "x3675": {
+            "name_en": "Phantomastery I",
+            "name_fr": "Maître fantôme I",
+            "description_en": "Master a phantom job.",
+            "description_fr": "Maîtriser 1 job de soutien.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3676": {
+            "name_en": "Phantomastery II",
+            "name_fr": "Maître fantôme II",
+            "description_en": "Master 5 phantom jobs.",
+            "description_fr": "Maîtriser 5 jobs de soutien.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3677": {
+            "name_en": "Phantomastery III",
+            "name_fr": "Maître fantôme III",
+            "description_en": "Master 10 phantom jobs.",
+            "description_fr": "Maîtriser 10 jobs de soutien.",
+            "points": 5,
+            "reward": "t.796",
+            "patch": "7.25",
+            "cSiblings": ["t.796"]
+        },
+        "x4017": {
+            "name_en": "Phantomastery IV",
+            "name_fr": "Maître fantôme IV",
+            "description_en": "Master 16 phantom jobs.",
+            "description_fr": "Maîtriser 16 jobs de soutien.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4018": {
+            "name_en": "Phantomastery V",
+            "name_fr": "Tyran fantôme",
+            "description_en": "Master 24 phantom jobs.",
+            "description_fr": "Maîtriser 24 jobs de soutien.",
+            "points": 10,
+            "reward": "t.873",
+            "patch": "7.55",
+            "cSiblings": ["t.873"]
+        },
+        "x3672": {
+            "name_en": "Magic Is the Best Medicine I",
+            "name_fr": "Défibrilateur méridional I",
+            "description_en": "Resurrect another player on the Occult Crescent: South Horn 10 times.",
+            "description_fr": "Ressusciter 10 fois un autre joueur sur l'île de Lunule méridionale.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3673": {
+            "name_en": "Magic Is the Best Medicine II",
+            "name_fr": "Défibrilateur méridional II",
+            "description_en": "Resurrect another player on the Occult Crescent: South Horn 100 times.",
+            "description_fr": "Ressusciter 100 fois un autre joueur sur l'île de Lunule méridionale.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3674": {
+            "name_en": "Magic Is the Best Medicine III",
+            "name_fr": "Défibrilateur méridional III",
+            "description_en": "Resurrect another player on the Occult Crescent: South Horn 500 times.",
+            "description_fr": "Ressusciter 500 fois un autre joueur sur l'île de Lunule méridionale.",
+            "points": 10,
+            "reward": "t.777",
+            "patch": "7.25",
+            "cSiblings": ["t.777"]
+        },
+        "x3678": {
+            "name_en": "Horns of Plenty I",
+            "name_fr": "Le Triangle aux trésors I",
+            "description_en": "Open 10 treasure coffers found during your excursions on the Occult Crescent.",
+            "description_fr": "Ouvrir 10 coffres au trésor sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3679": {
+            "name_en": "Horns of Plenty II",
+            "name_fr": "Le Triangle aux trésors II",
+            "description_en": "Open 100 treasure coffers found during your excursions on the Occult Crescent.",
+            "description_fr": "Ouvrir 100 coffres au trésor sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3680": {
+            "name_en": "Horns of Plenty III",
+            "name_fr": "Le Triangle aux trésors III",
+            "description_en": "Open 1,000 treasure coffers found during your excursions on the Occult Crescent.",
+            "description_fr": "Ouvrir 1 000 coffres au trésor sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3681": {
+            "name_en": "Horns of Plenty IV",
+            "name_fr": "Le Triangle aux trésors IV",
+            "description_en": "Open 5,000 treasure coffers found during your excursions on the Occult Crescent.",
+            "description_fr": "Ouvrir 5 000 coffres au trésor sur l'île de Lunule.",
+            "points": 5,
+            "reward": "t.778",
+            "patch": "7.25",
+            "cSiblings": ["t.778"]
+        },
+        "x4019": {
+            "name_en": "Shades' Treasury",
+            "name_fr": "Trésorier insulaire",
+            "description_en": "Open 10,000 treasure coffers found during your excursions on the Occult Crescent.",
+            "description_fr": "Ouvrir 10 000 coffres au trésor sur l'île de Lunule.",
+            "points": 20,
+            "reward": "t.874",
+            "patch": "7.51",
+            "cSiblings": ["t.874"]
+        },
+        "x3682": {
+            "name_en": "In Pot Pursuit I",
+            "name_fr": "Fortune du pot I",
+            "description_en": "Open 10 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
+            "description_fr": "Ouvrir 10 coffres de pot persistant sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3683": {
+            "name_en": "In Pot Pursuit II",
+            "name_fr": "Fortune du pot II",
+            "description_en": "Open 50 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
+            "description_fr": "Ouvrir 50 coffres de pot persistant sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3684": {
+            "name_en": "In Pot Pursuit III",
+            "name_fr": "Fortune du pot III",
+            "description_en": "Open 200 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
+            "description_fr": "Ouvrir 200 coffres de pot persistant sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3685": {
+            "name_en": "In Pot Pursuit IV",
+            "name_fr": "Fortune du pot IV",
+            "description_en": "Open 1,000 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
+            "description_fr": "Ouvrir 1 000 coffres de pot persistant sur l'île de Lunule.",
+            "points": 5,
+            "reward": "t.779",
+            "patch": "7.25",
+            "cSiblings": ["t.779"]
+        },
+        "x4020": {
+            "name_en": "Pot in the Act",
+            "name_fr": "Despote des pots",
+            "description_en": "Open 2,000 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
+            "description_fr": "Ouvrir 2 000 coffres de pot persistant sur l'île de Lunule.",
+            "points": 20,
+            "reward": "t.875",
+            "patch": "7.51",
+            "cSiblings": ["t.875"]
+        },
+        "x3686": {
+            "name_en": "Where Rabbits Roam I",
+            "name_fr": "Carotte sans bâton I",
+            "description_en": "Open 10 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
+            "description_fr": "Ouvrir 10 coffres de lapin du bonheur sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3687": {
+            "name_en": "Where Rabbits Roam II",
+            "name_fr": "Carotte sans bâton II",
+            "description_en": "Open 50 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
+            "description_fr": "Ouvrir 50 coffres de lapin du bonheur sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3688": {
+            "name_en": "Where Rabbits Roam III",
+            "name_fr": "Carotte sans bâton III",
+            "description_en": "Open 200 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
+            "description_fr": "Ouvrir 200 coffres de lapin du bonheur sur l'île de Lunule.",
+            "points": 5,
+            "patch": "7.25"
+        },
+        "x3689": {
+            "name_en": "Where Rabbits Roam IV",
+            "name_fr": "Carotte sans bâton IV",
+            "description_en": "Open 1,000 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
+            "description_fr": "Ouvrir 1 000 coffres de lapin du bonheur sur l'île de Lunule.",
+            "points": 5,
+            "reward": "t.780",
+            "patch": "7.25",
+            "cSiblings": ["t.780"]
+        },
+        "x4021": {
+            "name_en": "...Riches Abound",
+            "name_fr": "Carotteur en série",
+            "description_en": "Open 2,000 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
+            "description_fr": "Ouvrir 2 000 coffres de lapin du bonheur sur l'île de Lunule.",
+            "points": 20,
+            "reward": "t.876",
+            "patch": "7.51",
+            "cSiblings": ["t.876"]
+        },
+        "x4022": {
+            "name_en": "Fifth Astral Blues",
+            "name_fr": "Incollable insulaire",
+            "description_en": "Learn all possible actions as a Phantom Blue Mage.",
+            "description_fr": "Apprendre toutes les actions de magie bleue du mage bleu fantôme.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4002": {
+            "name_en": "Occult Enlightenment I",
+            "name_fr": "Destinée défiée I",
+            "description_en": "Complete 10 FATEs on the Occult Crescent: North Horn.",
+            "description_fr": "Accomplir 10 ALÉA sur l'île de Lunule septentrionale.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4003": {
+            "name_en": "Occult Enlightenment II",
+            "name_fr": "Destinée défiée II",
+            "description_en": "Complete 50 FATEs on the Occult Crescent: North Horn.",
+            "description_fr": "Accomplir 50 ALÉA sur l'île de Lunule septentrionale.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4004": {
+            "name_en": "Occult Enlightenment III",
+            "name_fr": "Destinée défiée III",
+            "description_en": "Complete 100 FATEs on the Occult Crescent: North Horn.",
+            "description_fr": "Accomplir 100 ALÉA sur l'île de Lunule septentrionale.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4005": {
+            "name_en": "Occult Enlightenment IV",
+            "name_fr": "Destinée défiée IV",
+            "description_en": "Complete 500 FATEs on the Occult Crescent: North Horn.",
+            "description_fr": "Accomplir 500 ALÉA sur l'île de Lunule septentrionale.",
+            "points": 10,
+            "reward": "t.868",
+            "patch": "7.55",
+            "cSiblings": ["t.868"]
+        },
+        "x3998": {
+            "name_en": "Critical Analysis I",
+            "name_fr": "Critique averti I",
+            "description_en": "Complete 10 critical encounters on the Occult Crescent: North Horn.",
+            "description_fr": "Remporter 10 confrontations critiques sur l'île de Lunule septentrionale.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x3999": {
+            "name_en": "Critical Analysis II",
+            "name_fr": "Critique averti II",
+            "description_en": "Complete 50 critical encounters on the Occult Crescent: North Horn.",
+            "description_fr": "Remporter 50 confrontations critiques sur l'île de Lunule septentrionale.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4000": {
+            "name_en": "Critical Analysis III",
+            "name_fr": "Critique averti III",
+            "description_en": "Complete 100 critical encounters on the Occult Crescent: North Horn.",
+            "description_fr": "Remporter 100 confrontations critiques sur l'île de Lunule septentrionale.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4001": {
+            "name_en": "Critical Analysis IV",
+            "name_fr": "Critique averti IV",
+            "description_en": "Complete 500 critical encounters on the Occult Crescent: North Horn.",
+            "description_fr": "Remporter 500 confrontations critiques sur l'île de Lunule septentrionale.",
+            "points": 20,
+            "reward": "t.867",
+            "patch": "7.55",
+            "cSiblings": ["t.867"]
+        },
+        "x4006": {
+            "name_en": "A Show of Fork I",
+            "name_fr": "Tour de magie I",
+            "description_en": "Complete the Forked Tower: Magic for the first time.",
+            "description_fr": "Finir la Tour fourchue de la Magie.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4007": {
+            "name_en": "A Show of Fork II",
+            "name_fr": "Tour de magie II",
+            "description_en": "Complete the Forked Tower: Magic 5 times.",
+            "description_fr": "Finir 5 fois la Tour fourchue de la Magie.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4008": {
+            "name_en": "A Show of Fork III",
+            "name_fr": "Tour de magie III",
+            "description_en": "Complete the Forked Tower: Magic 20 times.",
+            "description_fr": "Finir 20 fois la Tour fourchue de la Magie.",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4009": {
+            "name_en": "A Show of Fork IV",
+            "name_fr": "Tour de magie IV",
+            "description_en": "Complete the Forked Tower: Magic 50 times.",
+            "description_fr": "Finir 50 fois la Tour fourchue de la Magie.",
+            "points": 20,
+            "reward": "t.869",
+            "patch": "7.55",
+            "cSiblings": ["t.869"]
+        },
+        "x4010": {
+            "name_en": "Tour de Fork I",
+            "name_fr": "Indexation terminée I",
+            "description_en": "Complete the Forked Tower: Magic (Extreme) for the first time.",
+            "description_fr": "Finir la Tour fourchue de la Magie (extrême).",
+            "points": 10,
+            "reward": "t.870",
+            "patch": "7.55",
+            "cSiblings": ["t.870"]
+        },
+        "x4011": {
+            "name_en": "Tour de Fork II",
+            "name_fr": "Indexation terminée II",
+            "description_en": "Complete the Forked Tower: Magic (Extreme) 5 times.",
+            "description_fr": "Finir 5 fois la Tour fourchue de la Magie (extrême).",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4012": {
+            "name_en": "Tour de Fork III",
+            "name_fr": "Indexation terminée III",
+            "description_en": "Complete the Forked Tower: Magic (Extreme) 20 times.",
+            "description_fr": "Finir 20 fois la Tour fourchue de la Magie (extrême).",
+            "points": 10,
+            "patch": "7.55"
+        },
+        "x4013": {
+            "name_en": "Tour de Fork IV",
+            "name_fr": "Indexation terminée IV",
+            "description_en": "Complete the Forked Tower: Magic (Extreme) 50 times.",
+            "description_fr": "Finir 50 fois la Tour fourchue de la Magie (extrême).",
+            "points": 20,
+            "reward": "t.871",
+            "patch": "7.55",
+            "cSiblings": ["t.871"]
+        },
+        "x4014": {
+            "name_en": "Phantom Physicking I",
+            "name_fr": "Défibrilateur septentrional I",
+            "description_en": "Resurrect another player on the Occult Crescent: North Horn 10 times.",
+            "description_fr": "Ressusciter 10 fois un autre joueur sur l'île de Lunule septentrionale.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4015": {
+            "name_en": "Phantom Physicking II",
+            "name_fr": "Défibrilateur septentrional II",
+            "description_en": "Resurrect another player on the Occult Crescent: North Horn 100 times.",
+            "description_fr": "Ressusciter 100 fois un autre joueur sur l'île de Lunule septentrionale.",
+            "points": 5,
+            "patch": "7.55"
+        },
+        "x4016": {
+            "name_en": "Phantom Physicking III",
+            "name_fr": "Défibrilateur septentrional III",
+            "description_en": "Resurrect another player on the Occult Crescent: North Horn 500 times.",
+            "description_fr": "Ressusciter 500 fois un autre joueur sur l'île de Lunule septentrionale.",
+            "points": 10,
+            "reward": "t.872",
+            "patch": "7.55",
+            "cSiblings": ["t.872"]
         }
     }
 }

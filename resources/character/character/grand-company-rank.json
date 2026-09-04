@@ -2,7 +2,7 @@
     "key": "grand-company-rank",
     "groupName_en": "Grand Company Rank",
     "groupName_fr": "Rangs de Grande Compagnie",
-    "headers": {
+    "columns": {
         "name": {
             "header_en": "Rank",
             "header_fr": "Rang"
@@ -73,14 +73,8 @@
             "name_en": "Storm Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement_en": [
-                "logs.hunting-log.maelstrom to Rank 1",
-                "@5,000 CURRENCY.SEAL.STORM"
-            ],
-            "requirement_fr": [
-                "logs.hunting-log.maelstrom pour le Rang 1",
-                "@5.000 CURRENCY.SEAL.STORM"
-            ],
+            "requirement_en": ["logs.hunting-log.maelstrom to Rank 1", "@5,000 CURRENCY.SEAL.STORM"],
+            "requirement_fr": ["logs.hunting-log.maelstrom pour le Rang 1", "@5.000 CURRENCY.SEAL.STORM"],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie limséen maximum",
@@ -128,16 +122,8 @@
             "name_en": "Second Storm Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement_en": [
-                "q.66667",
-                "logs.hunting-log.maelstrom to Rank 2",
-                "@9,000 CURRENCY.SEAL.STORM"
-            ],
-            "requirement_fr": [
-                "q.66667",
-                "logs.hunting-log.maelstrom pour le Rang 2",
-                "@9.000 CURRENCY.SEAL.STORM"
-            ],
+            "requirement_en": ["q.66667", "logs.hunting-log.maelstrom to Rank 2", "@9,000 CURRENCY.SEAL.STORM"],
+            "requirement_fr": ["q.66667", "logs.hunting-log.maelstrom pour le Rang 2", "@9.000 CURRENCY.SEAL.STORM"],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie limséen maximum", "Escouade de Grande Compagnie"],
             "patch": "2.0",
@@ -220,14 +206,8 @@
             "name_en": "Serpent Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement_en": [
-                "logs.hunting-log.order-of-the-twin-adder to Rank 1",
-                "@5,000 CURRENCY.SEAL.SERPENT"
-            ],
-            "requirement_fr": [
-                "logs.hunting-log.order-of-the-twin-adder pour le Rang 1",
-                "@5.000 CURRENCY.SEAL.SERPENT"
-            ],
+            "requirement_en": ["logs.hunting-log.order-of-the-twin-adder to Rank 1", "@5,000 CURRENCY.SEAL.SERPENT"],
+            "requirement_fr": ["logs.hunting-log.order-of-the-twin-adder pour le Rang 1", "@5.000 CURRENCY.SEAL.SERPENT"],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie gridanien maximum",
@@ -275,16 +255,8 @@
             "name_en": "Second Serpent Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement_en": [
-                "q.66668",
-                "logs.hunting-log.order-of-the-twin-adder to Rank 2",
-                "@9,000 CURRENCY.SEAL.SERPENT"
-            ],
-            "requirement_fr": [
-                "q.66668",
-                "logs.hunting-log.order-of-the-twin-adder pour le Rang 2",
-                "@9.000 CURRENCY.SEAL.SERPENT"
-            ],
+            "requirement_en": ["q.66668", "logs.hunting-log.order-of-the-twin-adder to Rank 2", "@9,000 CURRENCY.SEAL.SERPENT"],
+            "requirement_fr": ["q.66668", "logs.hunting-log.order-of-the-twin-adder pour le Rang 2", "@9.000 CURRENCY.SEAL.SERPENT"],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie gridanien maximum", "Escouade de Grande Compagnie"],
             "patch": "2.0",
@@ -367,14 +339,8 @@
             "name_en": "Flame Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement_en": [
-                "logs.hunting-log.immortal-flames to Rank 1",
-                "@5,000 CURRENCY.SEAL.FLAME"
-            ],
-            "requirement_fr": [
-                "logs.hunting-log.immortal-flames pour le Rang 1",
-                "@5.000 CURRENCY.SEAL.FLAME"
-            ],
+            "requirement_en": ["logs.hunting-log.immortal-flames to Rank 1", "@5,000 CURRENCY.SEAL.FLAME"],
+            "requirement_fr": ["logs.hunting-log.immortal-flames pour le Rang 1", "@5.000 CURRENCY.SEAL.FLAME"],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie uldien maximum",
@@ -422,16 +388,8 @@
             "name_en": "Second Flame Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement_en": [
-                "q.66669",
-                "logs.hunting-log.immortal-flames to Rank 2",
-                "@9,000 CURRENCY.SEAL.FLAME"
-            ],
-            "requirement_fr": [
-                "q.66669",
-                "logs.hunting-log.immortal-flames pour le Rang 2",
-                "@9.000 CURRENCY.SEAL.FLAME"
-            ],
+            "requirement_en": ["q.66669", "logs.hunting-log.immortal-flames to Rank 2", "@9,000 CURRENCY.SEAL.FLAME"],
+            "requirement_fr": ["q.66669", "logs.hunting-log.immortal-flames pour le Rang 2", "@9.000 CURRENCY.SEAL.FLAME"],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie uldien maximum", "Escouade de Grande Compagnie"],
             "patch": "2.0",

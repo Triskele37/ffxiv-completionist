@@ -4,107 +4,107 @@
     "groupName_fr": "Quêtes de surineur",
     "tasks": {
         "x65638": {
-            "level": 1,
             "name_en": "My First Daggers",
             "name_fr": "Les guerriers de l'ombre",
+            "level": 1,
             "npc_en": "Lonwoerd",
             "npc_fr": "Lonwoerd",
+            "patch": "2.4",
             "cPrev": ["q.65637"],
-            "cNext": ["q.65640"],
-            "patch": "4.31"
+            "cNext": ["q.65640"]
         },
         "x65640": {
-            "level": 1,
             "name_en": "Stabbers in Yer Fambles",
             "name_fr": "Jamais sans mes lames",
+            "level": 1,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65638"],
-            "cNext": ["q.65646"],
-            "patch": "4.31"
+            "cNext": ["q.65646"]
         },
         "x65646": {
-            "level": 5,
             "name_en": "A Dainty Dilemma",
             "name_fr": "Bric-à-brac en vrac",
+            "level": 5,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65640"],
-            "cNext": ["q.65662"],
-            "patch": "4.31"
+            "cNext": ["q.65662"]
         },
         "x65662": {
-            "level": 10,
             "name_en": "Stray into the Shadows",
             "name_fr": "Une faim de loup",
+            "level": 10,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65646"],
-            "cNext": ["q.65680"],
-            "patch": "4.31"
+            "cNext": ["q.65680"]
         },
         "x65680": {
-            "level": 15,
             "name_en": "Stifled Screams",
             "name_fr": "Un cri dans la nuit",
+            "level": 15,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65662"],
-            "cNext": ["q.65681"],
-            "patch": "4.31"
+            "cNext": ["q.65681"]
         },
         "x65681": {
-            "level": 15,
             "name_en": "Slave to the Code",
             "name_fr": "Tout s'achète, tout se vend",
+            "level": 15,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65680"],
-            "cNext": ["q.65682"],
-            "patch": "4.31"
+            "cNext": ["q.65682"]
         },
         "x65682": {
-            "level": 20,
             "name_en": "Grinners in the Mist",
             "name_fr": "Lueur dans la brume",
+            "level": 20,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65681"],
-            "cNext": ["q.65684"],
-            "patch": "4.31"
+            "cNext": ["q.65684"]
         },
         "x65684": {
-            "level": 25,
             "name_en": "Sweet Sorrows",
             "name_fr": "Ténèbres en pleurs",
+            "level": 25,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65682"],
-            "cNext": ["q.65690"],
-            "patch": "4.31"
+            "cNext": ["q.65690"]
         },
         "x65690": {
-            "level": 30,
             "name_en": "Market for Death",
             "name_fr": "Thalaos et Thanatos",
+            "level": 30,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "patch": "2.4",
             "cPrev": ["q.65684"],
-            "cNext": ["q.65691"],
-            "patch": "4.31"
+            "cNext": ["q.65691"]
         },
         "x65691": {
-            "level": 30,
             "name_en": "Cloying Victory",
             "name_fr": "La victoire au bout du surin",
+            "level": 30,
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
+            "unlock": "ap.161",
+            "patch": "2.4",
             "cPrev": ["q.65690"],
             "cNext": ["q.65748"],
-            "cSiblings": ["ap.161"],
             "cCombo": ["a.313"],
-            "patch": "4.31",
-            "unlock": "ap.161"
+            "cSiblings": ["ap.161"]
         }
     }
 }

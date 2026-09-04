@@ -2,7 +2,7 @@
     "key": "mahjong-voices",
     "groupName_en": "Mahjong Voices",
     "groupName_fr": "",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.NAME"
         },
@@ -18,61 +18,103 @@
         }
     },
     "tasks": {
-        "x12": {
+        "x1": {
             "name_en": "Alphinaud",
             "name_fr": "Alphinaud",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.67205",
             "patch": "7.1"
         },
-        "x16": {
+        "x2": {
             "name_en": "Alisaie",
             "name_fr": "Alisaie",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.68089",
             "patch": "7.1"
         },
-        "x2": {
+        "x3": {
             "name_en": "Thancred",
             "name_fr": "Thancred",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.69190",
             "patch": "7.1"
         },
-        "x6": {
+        "x4": {
             "name_en": "Urianger",
             "name_fr": "Urianger",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.69190",
             "patch": "7.1"
         },
-        "x15": {
+        "x5": {
             "name_en": "Y'shtola",
             "name_fr": "Y'shtola",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.69190",
             "patch": "7.1"
         },
-        "x11": {
+        "x6": {
             "name_en": "Estinien",
             "name_fr": "Estinien",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.70000",
             "patch": "7.1"
         },
-        "x9": {
+        "x7": {
             "name_en": "G'raha Tia",
             "name_fr": "G'raha Tia",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.70000",
             "patch": "7.1"
         },
-        "x5": {
+        "x8": {
             "name_en": "Krile",
             "name_fr": "Krile",
             "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
             "requirements": "q.70495",
             "patch": "7.1"
+        },
+        "x9": {
+            "name_en": "Wuk Lamat",
+            "name_fr": "Wuk Lamat",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70909",
+            "patch": "7.3"
+        },
+        "x10": {
+            "name_en": "Koana",
+            "name_fr": "Koana",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70909",
+            "patch": "7.3"
+        },
+        "x11": {
+            "name_en": "Bakool Ja Ja",
+            "name_fr": "Bakool Ja Ja",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70909",
+            "patch": "7.3"
+        },
+        "x12": {
+            "name_en": "Erenville",
+            "name_fr": "Erenville",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70909",
+            "patch": "7.4"
+        },
+        "x13": {
+            "name_en": "Metem",
+            "name_fr": "Metem",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70976",
+            "patch": "7.4"
+        },
+        "x14": {
+            "name_en": "Zero",
+            "name_fr": "Zero",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70286",
+            "patch": "7.5"
         }
     }
 }

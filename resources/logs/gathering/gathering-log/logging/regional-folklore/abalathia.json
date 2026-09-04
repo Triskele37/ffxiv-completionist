@@ -3,25 +3,25 @@
     "groupName_en": "Abalathia",
     "groupName_fr": "Abalathia",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x381": {
             "name_en": "Honeydew Almonds",
             "name_fr": "Amandes mielleuses",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "coordinates": "(24, 6)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66"
+            "patch": "3.0"
         },
-        "x1": {
-            "level": "60★",
+        "x380": {
             "name_en": "Wattle Bark",
             "name_fr": "Écorce d'acacia",
-            "zone": "@PLACE.AZYS_LLA",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.AZYS_LLA",
             "coordinates": "(22, 10)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.67"
+            "patch": "3.0"
         }
     }
 }

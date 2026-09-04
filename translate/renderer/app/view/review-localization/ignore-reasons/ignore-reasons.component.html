@@ -1,0 +1,46 @@
+<div class="reason-container">
+    @let issue = svcNav.currentIssue();
+
+    <hr/>
+
+    <span class="header">
+        {{'UI.ISSUE.SELECT_IGNORE' | translate}}
+    </span>
+
+    <div class="reasons">
+        @for(reasonKey of reasonKeys; track reasonKey) {
+            <button
+                [ngClass]="{ selected: issue.reasons?.includes(reasonKey) }"
+                (click)="toggleReason(reasonKey)"
+            >
+                {{`REASON.${reasonKey}` | translate}}
+            </button>
+        }
+    </div>
+
+    <input
+        class="custom-reason"
+        [(ngModel)]="customReason"
+        [placeholder]="'UI.ISSUE.CUSTOM_REASON' | translate"
+        (change)="onCustomReasonChange()"
+    />
+
+	<div class="save-button-container">
+		<button
+			class="save-reasons"
+			(click)="onSaveReasons()"
+		>
+			{{'UI.ISSUE.SAVE_REASONS' | translate}}
+		</button>
+		@if(showSaved) {
+			<div class="saved-notification">
+				{{'UI.ISSUE.REASONS_SAVED' | translate}}
+			</div>
+		}
+	</div>
+
+    <div class="multiple-checkbox">
+        <input [(ngModel)]="allowMultiple" type="checkbox"/>
+        <span>Allow Multiple</span>
+    </div>
+</div>

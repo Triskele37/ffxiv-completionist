@@ -1,7 +1,0 @@
-<p-button
-    *ngIf="isShowAllVisible"
-    icon="mi mi-{{svcNavigation.allTaskViewEnabled ? 'close-fullscreen' : 'open-in-full'}}"
-    tooltipPosition="bottom"
-    [pTooltip]="(svcNavigation.allTaskViewEnabled ? 'TABLE.HIDE_ALL' : 'TABLE.SHOW_ALL') | translate"
-    (onClick)="emitShowAllChange(!svcNavigation.allTaskViewEnabled)"
-></p-button>

@@ -1,0 +1,23 @@
+<div class="select-container">
+    <div class="select-button" (click)="handleInputClick()">
+        <input
+            class="select-input"
+            [(ngModel)]="selected"
+            [attr.data-tooltip]="selected"
+            (keyup)="handleKeyUp()"
+        />
+        <span class="arrow"><i class="mi mi-arrow-downward"></i></span>
+    </div>
+    @if(visible) {
+        <div class="select-overlay">
+            @for(option of filteredOptions; track option) {
+                <span
+                    class="select-option"
+                    (click)="handleClick(option)"
+                >
+                    {{option}}
+                </span>
+            }
+        </div>
+    }
+</div>

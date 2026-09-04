@@ -1,48 +1,57 @@
 {
     "key": "the-ruby-sea",
-    "groupName": "@PLACE.THE_RUBY_SEA",
+    "groupName": "@PLACE.SB.THE_RUBY_SEA",
     "cCombo": ["a.1873"],
     "tasks": {
         "x0": {
             "name": "@TRAVEL.COMPASS_CURRENT 1",
-            "location": "(5.3, 26.1, 0.3)"
+            "location": "(5.3, 26.1, 0.3)",
+            "patch": "4.0"
         },
         "x2": {
             "name": "@TRAVEL.COMPASS_CURRENT 2",
-            "location": "(35.3, 20.4, 0.0)"
+            "location": "(35.3, 20.4, 0.0)",
+            "patch": "4.0"
         },
         "x5": {
             "name": "@TRAVEL.COMPASS_CURRENT 3",
-            "location": "(21.9, 9.0, 0.2)"
+            "location": "(21.9, 9.0, 0.2)",
+            "patch": "4.0"
         },
         "x9": {
             "name": "@TRAVEL.COMPASS_CURRENT 4",
-            "location": "(29.9, 37.5, 0.1)"
+            "location": "(29.9, 37.5, 0.1)",
+            "patch": "4.0"
         },
         "x10": {
             "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.68168",
-            "cSiblings": ["q.68168"]
+            "cSiblings": ["q.68168"],
+            "patch": "4.0"
         },
         "x11": {
             "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.68229",
-            "cSiblings": ["q.68229"]
+            "cSiblings": ["q.68229"],
+            "patch": "4.0"
         },
         "x12": {
             "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.68223",
-            "cSiblings": ["q.68223"]
+            "cSiblings": ["q.68223"],
+            "patch": "4.0"
         },
         "x13": {
             "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.68209",
-            "cSiblings": ["q.68209"]
+            "cSiblings": ["q.68209"],
+            "patch": "4.0"
         },
         "x14": {
             "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.68026",
-            "cSiblings": ["q.68026"]
+            "cSiblings": ["q.68026"],
+            "patch": "4.0"
         }
     }
 }

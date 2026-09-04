@@ -4,12 +4,14 @@
     "groupName_fr": "Ul'Dah",
     "tasks": {
         "x66106": {
-            "level": 1,
             "name_en": "Close to Home",
             "name_fr": "Une visite s'impose",
+            "level": 1,
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
             "unlock_en": "Return",
+            "unlock_fr": "Return",
+            "patch": "2.0",
             "cPrev": ["q.66130"],
             "cNext": ["q.65925", "q.65926", "q.66131"],
             "cExclude": ["q.65660", "q.65645"],
@@ -57,229 +59,230 @@
                 "q.65878",
                 "q.66041",
                 "q.66042"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x66131": {
-            "level": 4,
             "name_en": "We Must Rebuild",
             "name_fr": "Destination gare de triage",
+            "level": 4,
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
+            "patch": "2.0",
             "cPrev": ["q.66106"],
-            "cNext": ["q.66207"],
-            "patch": "4.31"
+            "cNext": ["q.66207"]
         },
         "x66207": {
-            "level": 5,
             "name_en": "Nothing to See Here",
             "name_fr": "Un bretzel pour le goûter",
+            "level": 5,
             "npc_en": "Papashan",
             "npc_fr": "Papashan",
+            "patch": "2.0",
             "cPrev": ["q.66131"],
-            "cNext": ["q.66086"],
-            "patch": "4.31"
+            "cNext": ["q.66086"]
         },
         "x66086": {
-            "level": 5,
             "name_en": "Underneath the Sultantree",
             "name_fr": "Sous l'Arbre du Sultan",
+            "level": 5,
             "npc_en": "Papashan",
             "npc_fr": "Papashan",
+            "patch": "2.0",
             "cPrev": ["q.66207"],
-            "cNext": ["q.65839", "q.65857"],
-            "patch": "4.31"
+            "cNext": ["q.65839", "q.65857"]
         },
         "x65839": {
-            "level": 6,
             "name_en": "Step Nine",
             "name_fr": "Dites-le avec une citrouille",
+            "level": 6,
             "npc_en": "Cicidoa",
             "npc_fr": "Cicidoa",
+            "patch": "2.0",
             "cPrev": ["q.66086"],
-            "cNext": ["q.69388"],
-            "patch": "4.31"
+            "cNext": ["q.69388"]
         },
         "x69388": {
-            "level": 8,
             "name_en": "Prudence at This Junction",
             "name_fr": "Tenue adéquate exigée",
+            "level": 8,
             "npc_en": "Roger",
             "npc_fr": "Roger",
+            "patch": "5.3",
             "cPrev": ["q.65839"],
-            "cNext": ["q.65843", "q.65924"],
-            "patch": "5.3"
+            "cNext": ["q.65843", "q.65924"]
         },
         "x65843": {
-            "level": 9,
             "name_en": "Out of House and Home",
             "name_fr": "Amateurs de minerai dérangeants",
+            "level": 9,
             "npc_en": "Warin",
             "npc_fr": "Warin",
+            "patch": "2.0",
             "cPrev": ["q.69388"],
-            "cNext": ["q.65862", "q.65856"],
-            "patch": "4.31"
+            "cNext": ["q.65862", "q.65856"]
         },
         "x65856": {
-            "level": 9,
             "name_en": "Way Down in the Hole",
             "name_fr": "Manque de veine",
+            "level": 9,
             "npc_en": "Zuzumeda",
             "npc_fr": "Zuzumeda",
             "unlock_en": "Inn Rooms",
+            "unlock_fr": "Inn Rooms",
+            "patch": "2.0",
             "cPrev": ["q.65843"],
-            "cNext": ["q.66223", "q.66159"],
-            "patch": "4.31"
+            "cNext": ["q.66223", "q.66159"]
         },
         "x66159": {
-            "level": 10,
             "name_en": "Takin' What They're Givin'",
             "name_fr": "Du travail à l'Horizon",
+            "level": 10,
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
+            "patch": "2.0",
             "cPrev": ["q.65856"],
-            "cNext": ["q.65864"],
-            "patch": "4.31"
+            "cNext": ["q.65864"]
         },
         "x65864": {
-            "level": 10,
             "name_en": "Supply and Demands",
             "name_fr": "Circonstances atténuantes",
+            "level": 10,
             "npc_en": "Dadanen",
             "npc_fr": "Dadanen",
+            "patch": "2.0",
             "cPrev": ["q.66159"],
-            "cNext": ["q.66039", "q.66040"],
-            "patch": "4.31"
+            "cNext": ["q.66039", "q.66040"]
         },
         "x66039": {
-            "level": 10,
             "name_en": "Give It to Me Raw",
             "name_fr": "À la poursuite de la nashachite",
+            "level": 10,
             "npc_en": "Drunken Stag",
             "npc_fr": "Drunken Stag",
+            "patch": "2.0",
             "cPrev": ["q.65864"],
-            "cNext": ["q.65865"],
-            "patch": "4.31"
+            "cNext": ["q.65865"]
         },
         "x65865": {
-            "level": 11,
             "name_en": "The Perfect Swarm",
             "name_fr": "Opération anti-moucherons",
+            "level": 11,
             "npc_en": "Drunken Stag",
             "npc_fr": "Drunken Stag",
+            "patch": "2.0",
             "cPrev": ["q.66039"],
-            "cNext": ["q.65877", "q.65866"],
-            "patch": "4.31"
+            "cNext": ["q.65877", "q.65866"]
         },
         "x65866": {
-            "level": 11,
             "name_en": "Last Letter to Lost Hope",
             "name_fr": "Courrier égaré",
+            "level": 11,
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
+            "patch": "2.0",
             "cPrev": ["q.65865"],
-            "cNext": ["q.66109", "q.66066", "q.66067", "q.69389"],
-            "patch": "4.31"
+            "cNext": ["q.66109", "q.66066", "q.66067", "q.69389"]
         },
         "x69389": {
-            "level": 12,
             "name_en": "Heir Today, Gone Tomorrow",
             "name_fr": "Baron que de nom",
+            "level": 12,
             "npc_en": "Leofric",
             "npc_fr": "Leofric",
+            "patch": "5.3",
             "cPrev": ["q.65866"],
-            "cNext": ["q.65868"],
-            "patch": "5.3"
+            "cNext": ["q.65868"]
         },
         "x65868": {
-            "level": 12,
             "name_en": "Passing the Blade",
             "name_fr": "Un don lourd de sens",
+            "level": 12,
             "npc_en": "Leofric",
             "npc_fr": "Leofric",
+            "patch": "2.0",
             "cPrev": ["q.69389"],
-            "cNext": ["q.65869", "q.65878", "q.66041", "q.66042"],
-            "patch": "4.31"
+            "cNext": ["q.65869", "q.65878", "q.66041", "q.66042"]
         },
         "x65869": {
-            "level": 13,
             "name_en": "Following Footfalls",
             "name_fr": "Visite aux vestiges",
+            "level": 13,
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
+            "patch": "2.0",
             "cPrev": ["q.65868"],
-            "cNext": ["q.65870"],
-            "patch": "4.31"
+            "cNext": ["q.65870"]
         },
         "x65870": {
-            "level": 13,
             "name_en": "Storms on the Horizon",
             "name_fr": "Le poisson du festin",
+            "level": 13,
             "npc_en": "Nunuzofu",
             "npc_fr": "Nunuzofu",
+            "patch": "2.0",
             "cPrev": ["q.65869"],
-            "cNext": ["q.65872"],
-            "patch": "4.31"
+            "cNext": ["q.65872"]
         },
         "x65872": {
-            "level": 14,
             "name_en": "Oh Captain, My Captain",
             "name_fr": "L'honneur des lames de cuivre",
+            "level": 14,
             "npc_en": "Merilda",
             "npc_fr": "Merilda",
+            "patch": "2.0",
             "cPrev": ["q.65870"],
-            "cNext": ["q.66164"],
-            "patch": "4.31"
+            "cNext": ["q.66164"]
         },
         "x66164": {
-            "level": 14,
             "name_en": "Secrets and Lies",
             "name_fr": "Une correspondance suspecte",
+            "level": 14,
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
+            "patch": "2.0",
             "cPrev": ["q.65872"],
-            "cNext": ["q.66087"],
-            "patch": "4.31"
+            "cNext": ["q.66087"]
         },
         "x66087": {
-            "level": 14,
             "name_en": "Duty, Honor, Country",
             "name_fr": "Les ténèbres qui menacent la couronne",
+            "level": 14,
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
+            "patch": "2.0",
             "cPrev": ["q.66164"],
-            "cNext": ["q.66177"],
-            "patch": "4.31"
+            "cNext": ["q.66177"]
         },
         "x66177": {
-            "level": 14,
             "name_en": "A Matter of Tradition",
             "name_fr": "Les préparatifs de la soirée",
+            "level": 14,
             "npc_en": "Owyne",
             "npc_fr": "Owyne",
-            "cPrev": ["q.66087"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66087"]
         },
         "x66088": {
-            "level": 14,
             "name_en": "A Royal Reception",
             "name_fr": "Une soirée au palais",
+            "level": 14,
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cNext": ["q.66064", "q.66961", "q.66962", "q.66963"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66064", "q.66961", "q.66962", "q.66963"]
         },
         "x66064": {
-            "level": 15,
             "name_en": "The Ul'dahn Envoy",
             "name_fr": "L'émissaire d'Ul'dah",
+            "level": 15,
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
             "unlock_en": "Airships",
+            "unlock_fr": "Airships",
+            "patch": "2.0",
             "cPrev": ["q.66088"],
             "cNext": ["q.66210", "q.65970", "q.67677", "q.67960", "q.68669", "q.68743", "q.69499", "q.69532", "q.69590"],
-            "cSiblings": ["a.312"],
-            "patch": "4.31"
+            "cSiblings": ["a.312"]
         }
     }
 }

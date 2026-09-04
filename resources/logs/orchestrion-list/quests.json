@@ -4,112 +4,105 @@
     "groupName_fr": "Quêtes",
     "tasks": {
         "x12": {
-            "number": "1",
             "name_en": "Prelude – Discoveries",
             "name_fr": "Prelude – Discoveries",
+            "number": "1",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1433",
-            "patch": "3.15"
+            "patch": "3.2"
         },
         "x128": {
-            "number": "2",
             "name_en": "Forever Lost",
             "name_fr": "Forever Lost",
+            "number": "2",
             "category": "@CATEGORY.QUEST",
             "source": "q.67891",
             "patch": "3.5"
         },
         "x200": {
-            "number": "3",
             "name_en": "Daring Dalliances",
             "name_fr": "Daring Dalliances",
+            "number": "3",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.KASUMI (5,000 CURRENCY.GIL)",
-            "location": "@PLACE.THE_GOLD_SAUCER",
+            "source": "@VENDOR.KASUMI - PLACE.THE_GOLD_SAUCER (5,000 CURRENCY.GIL)",
             "patch": "4.2"
         },
         "x442": {
-            "number": "4",
             "name_en": "By Design",
             "name_fr": "By Design",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": ["@VOYAGE.BLOODBREAK", "@VOYAGE.SEA_OF_JADE 5", "@VOYAGE.SIRENSONG_SEA 3"],
+            "number": "4",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.BLOODBREAK", "@VOYAGE.SEA_OF_JADE 5", "@VOYAGE.SIRENSONG_SEA 3", "chest.131"],
             "patch": "5.5"
         },
         "x127": {
-            "number": "5",
             "name_en": "Canticle",
             "name_fr": "Canticle",
+            "number": "5",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
-            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "3.5"
         },
         "x551": {
-            "number": "6",
             "name_en": "Dewdrops & Moonbeams",
             "name_fr": "Dewdrops & Moonbeams",
+            "number": "6",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@40,000 CURRENCY.SEAL.SERPENT",
-            "location": "@PLACE.NEW_GRIDANIA",
-            "patch": "6.28"
+            "source": "@VENDOR.GC_QUARTERMASTER - PLACE.ARR.NEW_GRIDANIA (40,000 CURRENCY.SEAL.SERPENT)",
+            "patch": "6.2"
         },
         "x552": {
-            "number": "7",
             "name_en": "Ripples in the Sea",
             "name_fr": "Ripples in the Sea",
+            "number": "7",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@40,000 CURRENCY.SEAL.STORM",
-            "location": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "patch": "6.28"
+            "source": "@VENDOR.GC_QUARTERMASTER - PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS (40,000 CURRENCY.SEAL.STORM)",
+            "patch": "6.2"
         },
         "x553": {
-            "number": "8",
             "name_en": "The Sands' Secrets",
             "name_fr": "The Sands' Secrets",
+            "number": "8",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@40,000 CURRENCY.SEAL.FLAME",
-            "location": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "patch": "6.28"
+            "source": "@VENDOR.GC_QUARTERMASTER - PLACE.ARR.UL_DAH_STEPS_OF_NALD (40,000 CURRENCY.SEAL.FLAME)",
+            "patch": "6.2"
         },
         "x532": {
-            "number": "9",
             "name_en": "Starlight and Sellswords",
             "name_fr": "Starlight and Sellswords",
+            "number": "9",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
-            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.1"
         },
         "x13": {
-            "number": "10",
             "name_en": "Agent of Inquiry",
             "name_fr": "Agent of Inquiry",
+            "number": "10",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@30,000 CURRENCY.MGP",
-            "location": "@PLACE.THE_GOLD_SAUCER",
-            "patch": "3.15"
+            "patch": "3.2"
         },
         "x126": {
-            "number": "11",
             "name_en": "Steel Reason",
             "name_fr": "Steel Reason",
+            "number": "11",
             "category": "@CATEGORY.QUEST",
             "source": "q.67892",
             "patch": "3.56"
         },
         "x125": {
-            "number": "12",
             "name_en": "Imperial Will",
             "name_fr": "Imperial Will",
+            "number": "12",
             "category": "@CATEGORY.QUEST",
             "source": "q.67894",
             "patch": "3.56"
         },
         "x14": {
-            "number": "13",
             "name_en": "The Only Path",
             "name_fr": "The Only Path",
+            "number": "13",
             "category": "@CATEGORY.TREASURE_HUNT / CATEGORY.CRAFTING",
             "source": [
                 "duty.treasure-hunt.maps.0",
@@ -118,510 +111,631 @@
                 "duty.treasure-hunt.maps.7",
                 "duty.treasure-hunt.maps.8"
             ],
-            "patch": "3.15"
+            "patch": "3.2"
         },
         "x15": {
-            "number": "14",
             "name_en": "A World Apart",
             "name_fr": "A World Apart",
+            "number": "14",
             "category": "@CATEGORY.EXPLORATORY_VOYAGE / CATEGORY.CRAFTING",
-            "source": "@VOYAGE.AIR - 23",
-            "patch": "3.15"
+            "source": "@VOYAGE.AIR 23",
+            "patch": "3.2"
         },
         "x84": {
-            "number": "15",
             "name_en": "The Seventh Sun",
             "name_fr": "The Seventh Sun",
+            "number": "15",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1635",
             "patch": "3.4"
         },
         "x129": {
-            "number": "16",
             "name_en": "Breaking Boundaries",
             "name_fr": "Breaking Boundaries",
+            "number": "16",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
-            "source": ["duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "chest.300"],
             "patch": "3.5"
         },
         "x75": {
-            "number": "17",
             "name_en": "Defender of the Realm",
             "name_fr": "Defender of the Realm",
+            "number": "17",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1623",
             "patch": "3.3"
         },
         "x96": {
-            "number": "18",
             "name_en": "Battle Theme 1.x",
             "name_fr": "Battle Theme 1.x",
+            "number": "18",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@20,000 CURRENCY.MGP",
-            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.4"
         },
         "x79": {
-            "number": "19",
             "name_en": "Dragonsong",
             "name_fr": "Dragonsong",
+            "number": "19",
             "category": "@CATEGORY.QUEST",
             "source": "q.67783",
             "patch": "3.3"
         },
         "x1": {
-            "number": "20",
             "name_en": "A Cold Wind",
             "name_fr": "A Cold Wind",
+            "number": "20",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@5,000 CURRENCY.MGP",
-            "location": "@PLACE.THE_GOLD_SAUCER",
-            "patch": "3.15"
+            "patch": "3.2"
         },
         "x46": {
-            "number": "21",
             "name_en": "Contention",
             "name_fr": "Contention",
+            "number": "21",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HISMENA (750 CURRENCY.TOMESTONE.POETIC)",
-            "location": "@PLACE.IDYLLSHIRE",
-            "patch": "3.15"
+            "patch": "3.2"
         },
         "x74": {
-            "number": "22",
             "name_en": "Engage",
             "name_fr": "Engage",
+            "number": "22",
             "category": "@CATEGORY.EXPLORATORY_VOYAGE / CATEGORY.CRAFTING",
             "source": "@VOYAGE.AIR 18",
             "patch": "3.3"
         },
         "x124": {
-            "number": "23",
             "name_en": "He Who Continues the Attack",
             "name_fr": "He who Continues the Attack",
+            "number": "23",
             "category": "@CATEGORY.QUEST",
             "source": "q.67894",
             "patch": "3.56"
         },
         "x443": {
-            "number": "24",
             "name_en": "Freedom",
             "name_fr": "Freedom",
+            "number": "24",
             "category": "@CATEGORY.GATHERING",
             "source": "@VENDOR.SCRIP_EXCHANGE (200 CURRENCY.SCRIP.SECONDARY_GATHERERS)",
             "patch": "5.5"
         },
         "x219": {
-            "number": "25",
             "name_en": "Fragments of Forever",
             "name_fr": "Fragments of Forever",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
-            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
+            "number": "25",
+            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)", "chest.131"],
             "patch": "4.2"
         },
         "x376": {
-            "number": "26",
             "name_en": "Stone and Steel",
             "name_fr": "Stone and Steel",
+            "number": "26",
             "category": "@CATEGORY.CRAFTING",
-            "source": "@SOURCE.KUPO_OF_FORTUNE",
-            "location": "@PLACE.THE_FIRMAMENT",
+            "source": ["chest.300", "chest.301"],
             "patch": "5.21"
         },
         "x398": {
-            "number": "27",
             "name_en": "The Heavens' Ward",
             "name_fr": "The Heavens' Ward",
+            "number": "27",
             "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
-            "location": "@PLACE.THE_FIRMAMENT",
+            "source": "@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)",
             "patch": "5.31"
         },
         "x201": {
-            "number": "28",
             "name_en": "Prelude - Long March Home",
             "name_fr": "Prelude - Long March Home",
+            "number": "28",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2006",
             "patch": "4.2"
         },
         "x172": {
-            "number": "29",
             "name_en": "The Measure of His Reach",
             "name_fr": "The Measure of His Reach",
+            "number": "29",
             "category": "@CATEGORY.QUEST",
             "source": "q.68507",
             "patch": "4.1"
         },
         "x173": {
-            "number": "30",
             "name_en": "The Measure of Our Reach",
             "name_fr": "The Measure of Our Reach",
+            "number": "30",
             "category": "@CATEGORY.QUEST",
             "source": "q.68501",
             "patch": "4.1"
         },
         "x224": {
-            "number": "31",
             "name_en": "Far East of Eorzea",
             "name_fr": "Far East of Eorzea",
+            "number": "31",
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "@VENDOR.CONFEDERATE_CUSTODIAN (10 CURRENCY.DD.EMPYREAN)",
-            "location": "@PLACE.THE_RUBY_SEA",
             "patch": "4.35"
         },
         "x225": {
-            "number": "32",
             "name_en": "Parting Ways",
             "name_fr": "Parting Ways",
+            "number": "32",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.540",
+            "source": ["chest.110", "chest.112"],
             "patch": "4.35"
         },
         "x198": {
-            "number": "33",
             "name_en": "Cyan's Theme",
             "name_fr": "Cyan's Theme",
+            "number": "33",
             "category": "@CATEGORY.QUEST",
             "source": "q.68565",
             "patch": "4.2"
         },
         "x199": {
-            "number": "34",
             "name_en": "Iroha",
             "name_fr": "Iroha",
+            "number": "34",
             "category": "@CATEGORY.QUEST",
             "source": "q.68551",
             "patch": "4.2"
         },
         "x378": {
-            "number": "35",
             "name_en": "Bedlam's Brink",
             "name_fr": "Bedlam's Brink",
-            "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER (350 CURRENCY.FATE.GEMSTONE)",
-            "location": "@PLACE.THE_TEMPEST",
+            "number": "35",
+            "category": ["@CATEGORY.FATE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VENDOR.GEMSTONE_TRADER - PLACE.SHB.THE_TEMPEST (350 CURRENCY.FATE.GEMSTONE)", "chest.131"],
             "patch": "5.2"
         },
         "x422": {
-            "number": "36",
             "name_en": "Everywhere and Nowhere",
             "name_fr": "Everywhere and Nowhere",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.5",
+            "number": "36",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.5", "chest.131"],
             "patch": "5.4"
         },
         "x223": {
-            "number": "37",
             "name_en": "Victory or Death",
             "name_fr": "Victory or Death",
+            "number": "37",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "Junkmonger - 5,000 gil",
-            "source_fr": "Quincaillière - 5.000 gils",
-            "location": "@PLACE.THE_DOMAN_ENCLAVE",
+            "source": "@VENDOR.JUNKMONGER - PLACE.SB.THE_DOMAN_ENCLAVE (5,000 CURRENCY.GIL)",
             "patch": "4.3"
         },
         "x266": {
-            "number": "38",
             "name_en": "A Dream in Flight",
             "name_fr": "A Dream in Flight",
+            "number": "38",
             "category": "@CATEGORY.QUEST",
             "source": "q.68693",
             "patch": "4.4"
         },
         "x267": {
-            "number": "39",
             "name_en": "Ending",
             "name_fr": "Ending",
+            "number": "39",
             "category": "@CATEGORY.QUEST",
             "source": "q.68693",
             "patch": "4.4"
         },
         "x315": {
-            "number": "40",
             "name_en": "Shadowbringers",
             "name_fr": "Shadowbringers",
+            "number": "40",
             "category": "@CATEGORY.QUEST",
             "source": "q.68815",
             "patch": "5.0"
         },
         "x423": {
-            "number": "41",
             "name_en": "Tomorrow and Tomorrow - Reprise",
             "name_fr": "Tomorrow and Tomorrow - Reprise",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.4",
+            "number": "41",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
             "patch": "5.4"
         },
         "x424": {
-            "number": "42",
             "name_en": "Dangerous Words",
             "name_fr": "Dangerous Words",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.4",
+            "number": "42",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
             "patch": "5.4"
         },
         "x440": {
-            "number": "43",
             "name_en": "And Love You Shall Find",
             "name_fr": "And Love You Shall Find",
+            "number": "43",
             "category": "@CATEGORY.QUEST",
             "source": "q.69567",
             "patch": "5.5"
         },
         "x444": {
-            "number": "44",
             "name_en": "A Better Tomorrow",
             "name_fr": "A Better Tomorrow",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.4",
+            "number": "44",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
             "patch": "5.5"
         },
         "x373": {
-            "number": "45",
             "name_en": "Vamo' alla Flamenco (Shadowbringers)",
             "name_fr": "Vamo' alla Flamenco",
+            "number": "45",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@50,000 CURRENCY.MGP",
-            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "5.2"
         },
         "x385": {
-            "number": "46",
             "name_en": "Eternal Wind (Shadowbringers)",
             "name_fr": "Eternal Wind - Shadowbringers",
+            "number": "46",
             "category": "@CATEGORY.TRIAL / CATEGORY.CRAFTING",
             "source": "d.739",
             "patch": "5.3"
         },
         "x316": {
-            "number": "47",
             "name_en": "Tomorrow and Tomorrow",
             "name_fr": "Tomorrow and Tomorrow",
+            "number": "47",
             "category": "@CATEGORY.QUEST",
             "source": "a.2298",
             "patch": "5.0"
         },
         "x498": {
-            "number": "48",
             "name_en": "Endwalker – Footfalls",
             "name_fr": "Endwalker – Footfalls",
+            "number": "48",
             "category": "@CATEGORY.QUEST",
             "source": "q.70000",
             "patch": "6.0"
         },
         "x522": {
-            "number": "49",
             "name_en": "Home Beyond the Horizon",
             "name_fr": "Home Beyond the Horizon",
+            "number": "49",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER (350 CURRENCY.FATE.GEMSTONE)",
-            "location": "@PLACE.GARLEMALD",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EW.GARLEMALD (350 CURRENCY.FATE.GEMSTONE)",
             "patch": "6.1"
         },
         "x499": {
-            "number": "50",
             "name_en": "Flow",
             "name_fr": "Flow",
+            "number": "50",
             "category": "@CATEGORY.QUEST",
             "source": "q.70000",
             "patch": "6.0"
         },
         "x509": {
-            "number": "51",
             "name_en": "Flow Together",
             "name_fr": "Flow Together",
+            "number": "51",
             "category": "@CATEGORY.QUEST",
             "source": "q.70123",
-            "patch": "6.28"
+            "patch": "6.15"
         },
         "x585": {
-            "number": "52",
             "name_en": "Bliss",
             "name_fr": "Bliss",
+            "number": "52",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
-            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.3"
         },
         "x586": {
-            "number": "53",
             "name_en": "Sacred Bonds",
             "name_fr": "Sacred Bonds",
+            "number": "53",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
-            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.3"
         },
         "x587": {
-            "number": "54",
             "name_en": "Dreams Aloft",
             "name_fr": "Dreams Aloft",
+            "number": "54",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": ["@VOYAGE.FORTUNES_FORD", "@VOYAGE.THE_CRYSTAL_FONT"],
             "patch": "6.3"
         },
         "x590": {
-            "number": "55",
             "name_en": "Somewhere in the World (Ambitions Writhe)",
             "name_fr": "Somewhere in the World (Ambitions Writhe)",
+            "number": "55",
             "category": "@CATEGORY.QUEST",
             "source": "q.70197",
             "patch": "6.3"
         },
         "x604": {
-            "number": "56",
             "name_en": "Fracture",
             "name_fr": "Fracture",
+            "number": "56",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x605": {
-            "number": "57",
             "name_en": "Conundrum",
             "name_fr": "Conundrum",
+            "number": "57",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x606": {
-            "number": "58",
             "name_en": "Return of the Hero",
             "name_fr": "Return of the Hero",
+            "number": "58",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x607": {
-            "number": "59",
             "name_en": "Kiss of Chaos",
             "name_fr": "Kiss of Chaos",
+            "number": "59",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x608": {
-            "number": "60",
             "name_en": "Machinations",
             "name_fr": "Machinations",
+            "number": "60",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x609": {
-            "number": "61",
             "name_en": "Damnation",
             "name_fr": "Damnation",
+            "number": "61",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x610": {
-            "number": "62",
             "name_en": "Skullduggery",
             "name_fr": "Skullduggery",
+            "number": "62",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x611": {
-            "number": "63",
             "name_en": "Tranquility",
             "name_fr": "Tranquility",
+            "number": "63",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
+            "source": [
+                "@VENDOR.LEANDRYNE (1,000 CURRENCY.GIL)",
+                "@VENDOR.SYZNTHOTA (1,000 CURRENCY.GIL)",
+                "@VENDOR.FOWKE (1,000 CURRENCY.GIL)"
+            ],
             "patch": "6.4"
         },
         "x613": {
-            "number": "64",
             "name_en": "Meteor",
             "name_fr": "Meteor",
+            "number": "64",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "location": "@PLACE.OLD_GRIDANIA",
             "patch": "6.4"
         },
         "x650": {
-            "number": "65",
             "name_en": "Pennons Aloft",
             "name_fr": "Pennons Aloft",
+            "number": "65",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": ["@VOYAGE.WINGSREACH"],
             "patch": "6.5"
         },
         "x651": {
-            "number": "66",
             "name_en": "From Fear to Fortitude",
             "name_fr": "From Fear to Fortitude",
+            "number": "66",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": ["@VOYAGE.THE_FLORAL_REEF"],
             "patch": "6.5"
         },
         "x644": {
-            "number": "67",
             "name_en": "A Gentleman to Walk with Me",
             "name_fr": "A Gentleman to Walk with Me",
+            "number": "67",
             "category": "@CATEGORY.QUEST",
             "source": "q.70336",
-            "location": "@PLACE.THAVNAIR",
             "patch": "6.55"
         },
         "x687": {
             "name_en": "Dawntrail",
             "name_fr": "Dawntrail",
+            "number": "68",
             "category": "@CATEGORY.QUEST",
             "source": "q.70447",
-            "patch": "7.0",
-            "number": "68"
+            "patch": "7.0"
         },
         "x688": {
             "name_en": "Smile",
             "name_fr": "Smile",
+            "number": "69",
             "category": "@CATEGORY.QUEST",
             "source": "q.70495",
-            "patch": "7.0",
-            "number": "69"
+            "patch": "7.0"
         },
         "x723": {
             "name_en": "Nature's Bounty",
             "name_fr": "Nature's Bounty",
+            "number": "70",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": "@VOYAGE.THE_INDIGO_SHALLOWS",
-            "patch": "7.1",
-            "number": "70"
+            "patch": "7.1"
         },
         "x724": {
             "name_en": "Cast Stones in Shadow",
             "name_fr": "Cast Stones in Shadow",
+            "number": "71",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.8",
-            "patch": "7.1",
-            "number": "71"
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.1"
         },
         "x704": {
             "name_en": "Bright Bustle",
             "name_fr": "Bright Bustle",
+            "number": "72",
             "category": "@CATEGORY.QUEST",
             "source": "q.70727",
-            "number": "72"
+            "patch": "7.16"
+        },
+        "x749": {
+            "name_en": "In Dawn's Embrace",
+            "name_fr": "In Dawn's Embrace",
+            "number": "73",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.STARTAIL_SHALLOWS", "@VOYAGE.STARTAIL_TRENCH"],
+            "patch": "7.2"
+        },
+        "x750": {
+            "name_en": "Fun and Games",
+            "name_fr": "Fun and Games",
+            "number": "74",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.2"
+        },
+        "x767": {
+            "name_en": "Coffee Break",
+            "name_fr": "Coffee Break",
+            "number": "75",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.STARTAIL_TRENCH", "@VOYAGE.THE_SUNKEN_JAWBONE"],
+            "patch": "7.3"
+        },
+        "x768": {
+            "name_en": "Etched in Memory",
+            "name_fr": "Etched in Memory",
+            "number": "76",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.3"
+        },
+        "x769": {
+            "name_en": "The Promise of Tomorrow",
+            "name_fr": "The Promise of Tomorrow",
+            "number": "77",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70727",
+            "patch": "7.3"
+        },
+        "x819": {
+            "name_en": "Hearts Tread and Trampled",
+            "name_fr": "Hearts Tread and Trampled",
+            "number": "78",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.VYRSTRANT", "@VOYAGE.THE_PUFFIN_ASSEMBLY"],
+            "patch": "7.4"
+        },
+        "x820": {
+            "name_en": "Taco Delight",
+            "name_fr": "Taco Delight",
+            "number": "79",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.4"
+        },
+        "x821": {
+            "name_en": "Fall into Forever",
+            "name_fr": "Fall into Forever",
+            "number": "80",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.THE_SUNKEN_JAWBONE", "@VOYAGE.THE_PUFFIN_ASSEMBLY"],
+            "patch": "7.4"
+        },
+        "x822": {
+            "name_en": "Blade Unbroken",
+            "name_fr": "Blade Unbroken",
+            "number": "81",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.4"
+        },
+        "x823": {
+            "name_en": "Mind Unclouded",
+            "name_fr": "Mind Unclouded",
+            "number": "82",
+            "category": ["@CATEGORY.QUEST", "@CATEGORY.ACHIEVEMENT"],
+            "source": ["q.70495", "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)"],
+            "patch": "7.4"
+        },
+        "x824": {
+            "name_en": "Coming to Know You",
+            "name_fr": "Coming to Know You",
+            "number": "83",
+            "category": ["@CATEGORY.QUEST", "@CATEGORY.ACHIEVEMENT"],
+            "source": ["q.70495", "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)"],
+            "patch": "7.4"
+        },
+        "x859": {
+            "name_en": "For Hope and Happiness",
+            "name_fr": "For Hope and Happiness",
+            "number": "84",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.8", "duty.treasure-hunt.duties.9"],
+            "patch": "7.5"
+        },
+        "x860": {
+            "name_en": "Fond Farewells",
+            "name_fr": "Fond Farewells",
+            "number": "85",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.THE_PUFFIN_ASSEMBLY",
+            "patch": "7.5"
+        },
+        "x863": {
+            "name_en": "Pulper of Inquiry",
+            "name_fr": "Pulper of Inquiry",
+            "number": "86",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.71018",
+            "patch": "7.55"
+        },
+        "x864": {
+            "name_en": "FINAL FANTASY IX: Battle 2",
+            "name_fr": "FINAL FANTASY IX: Battle 2",
+            "number": "87",
+            "category": ["@CATEGORY.QUEST", "@CATEGORY.GOLD_SAUCER"],
+            "source": ["q.71018", "@20,000 CURRENCY.MGP"],
+            "patch": "7.55"
         }
     }
 }

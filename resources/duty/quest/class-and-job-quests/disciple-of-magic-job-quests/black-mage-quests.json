@@ -4,199 +4,199 @@
     "groupName_fr": "Quêtes de mage noir",
     "tasks": {
         "x66609": {
-            "level": 30,
             "name_en": "Taking the Black",
             "name_fr": "La voix des Marchands",
+            "level": 30,
             "npc_en": "Yayake",
             "npc_fr": "Yayake",
+            "unlock": "ap.181",
+            "patch": "2.0",
             "cPrev": ["q.65889", "q.66049"],
             "cNext": ["q.66610"],
-            "cSiblings": ["ap.181"],
-            "patch": "4.31",
-            "unlock": "ap.181"
+            "cSiblings": ["ap.181"]
         },
         "x66610": {
-            "level": 35,
             "name_en": "You'll Never Go Back",
             "name_fr": "L'appel du sang",
+            "level": 35,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "2.0",
             "cPrev": ["q.66609"],
-            "cNext": ["q.66611"],
-            "patch": "4.31"
+            "cNext": ["q.66611"]
         },
         "x66611": {
-            "level": 40,
             "name_en": "International Relations",
             "name_fr": "Des amis étrangers",
+            "level": 40,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "2.0",
             "cPrev": ["q.66610"],
-            "cNext": ["q.66612"],
-            "patch": "4.31"
+            "cNext": ["q.66612"]
         },
         "x66612": {
-            "level": 45,
             "name_en": "The Voidgate Breathes Gloomy",
             "name_fr": "La corruption du néant",
+            "level": 45,
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
+            "patch": "2.0",
             "cPrev": ["q.66611"],
-            "cNext": ["q.66613"],
-            "patch": "4.31"
+            "cNext": ["q.66613"]
         },
         "x66613": {
-            "level": 45,
             "name_en": "The Blood Must Flow",
             "name_fr": "Les habits du pouvoir",
+            "level": 45,
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
+            "patch": "2.0",
             "cPrev": ["q.66612"],
-            "cNext": ["q.66614"],
-            "patch": "4.31"
+            "cNext": ["q.66614"]
         },
         "x66614": {
-            "level": 50,
             "name_en": "Always Bet on Black",
             "name_fr": "La voie de la magie noire",
+            "level": 50,
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
+            "patch": "2.0",
             "cPrev": ["q.66613"],
             "cNext": ["q.66659", "q.67214"],
-            "cSiblings": ["a.413"],
-            "patch": "4.31"
+            "cSiblings": ["a.413"]
         },
         "x66659": {
-            "level": 50,
             "name_en": "A Relic Reborn (Stardust Rod)",
             "name_fr": "Restauration du Sceptre étoilé",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.66614", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66614", "q.66241"]
         },
         "x67214": {
-            "level": 50,
             "name_en": "Black Books",
             "name_fr": "L'héritage de Ququruka",
+            "level": 50,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.66614", "q.65964"],
-            "cNext": ["q.67215"],
-            "patch": "4.31"
+            "cNext": ["q.67215"]
         },
         "x67215": {
-            "level": 52,
             "name_en": "An Unexpected Journey",
-            "name_fr": "Qui veut du mal à l'Amalj'aa?",
+            "name_fr": "Qui veut du mal à l'Amalj'aa ?",
+            "level": 52,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.67214"],
-            "cNext": ["q.67216"],
-            "patch": "4.31"
+            "cNext": ["q.67216"]
         },
         "x67216": {
-            "level": 54,
             "name_en": "A Cunning Plan",
             "name_fr": "Le Kobold a eu moins de bol",
+            "level": 54,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.67215"],
-            "cNext": ["q.67217"],
-            "patch": "4.31"
+            "cNext": ["q.67217"]
         },
         "x67217": {
-            "level": 56,
             "name_en": "Black Squawk Down",
             "name_fr": "L'Ixal exilé pris en chasse",
+            "level": 56,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.67216"],
-            "cNext": ["q.67218"],
-            "patch": "4.31"
+            "cNext": ["q.67218"]
         },
         "x67218": {
-            "level": 58,
             "name_en": "Destruction in the Name of Justice",
             "name_fr": "Un allié un peu trop zélé",
+            "level": 58,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.67217"],
-            "cNext": ["q.67219"],
-            "patch": "4.31"
+            "cNext": ["q.67219"]
         },
         "x67219": {
-            "level": 60,
             "name_en": "The Defiant Ones",
             "name_fr": "Un mariage explosif",
+            "level": 60,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "3.0",
             "cPrev": ["q.67218"],
             "cNext": ["q.68124"],
-            "cSiblings": ["a.1147"],
-            "patch": "4.31"
+            "cSiblings": ["a.1147"]
         },
         "x68124": {
-            "level": 60,
             "name_en": "Shades of Shatotto",
             "name_fr": "Souvenirs d'outre-tombe",
+            "level": 60,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "4.0",
             "cPrev": ["q.67219", "q.67895"],
-            "cNext": ["q.68125"],
-            "patch": "4.31"
+            "cNext": ["q.68125"]
         },
         "x68125": {
-            "level": 63,
             "name_en": "Golems Gone Wild",
             "name_fr": "Cavale minérale",
+            "level": 63,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "4.0",
             "cPrev": ["q.68124"],
-            "cNext": ["q.68126"],
-            "patch": "4.31"
+            "cNext": ["q.68126"]
         },
         "x68126": {
-            "level": 65,
             "name_en": "When the Golems Get Tough",
             "name_fr": "Roc indépendant",
+            "level": 65,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "4.0",
             "cPrev": ["q.68125"],
-            "cNext": ["q.68127"],
-            "patch": "4.31"
+            "cNext": ["q.68127"]
         },
         "x68127": {
-            "level": 68,
             "name_en": "Unnatural Selection",
             "name_fr": "Des golems et des gemmes",
+            "level": 68,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "4.0",
             "cPrev": ["q.68126"],
-            "cNext": ["q.68128"],
-            "patch": "4.31"
+            "cNext": ["q.68128"]
         },
         "x68128": {
-            "level": 70,
             "name_en": "One Golem to Rule Them All",
             "name_fr": "Il n'en restera qu'un",
+            "level": 70,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
+            "patch": "4.0",
             "cPrev": ["q.68127"],
             "cNext": ["q.68752"],
-            "cSiblings": ["a.1803"],
-            "patch": "4.31"
+            "cSiblings": ["a.1803"]
         },
         "x68752": {
-            "level": 80,
             "name_en": "A Home for a Tome",
-            "name_fr": "Lalai, censurée!",
+            "name_fr": "Lalai, censurée !",
+            "level": 80,
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": ["q.68128", "q.69164", "q.69190"],
-            "cSiblings": ["ap.316", "a.2312"],
+            "unlock": "ap.316",
             "patch": "5.0",
-            "unlock": "ap.316"
+            "cPrev": ["q.68128", "q.69164", "q.69190"],
+            "cSiblings": ["ap.316", "a.2312"]
         }
     }
 }

@@ -4,55 +4,56 @@
     "groupName_fr": "Quêtes du Maelstrom",
     "tasks": {
         "x66640": {
-            "level": 30,
             "name_en": "A Pup No Longer (Maelstrom)",
             "name_fr": "L'Antre des loups (Maelstrom)",
+            "level": 30,
             "npc_en": "R'ashaht Rhiki",
             "npc_fr": "R'ashaht Rhiki",
+            "patch": "2.1",
             "cNext": ["q.68543", "q.67063", "q.67064", "q.67065"],
-            "cExclude": ["q.66641", "q.66642"],
-            "patch": "4.31"
+            "cExclude": ["q.66641", "q.66642"]
         },
         "x67064": {
-            "level": 30,
             "name_en": "Like Civilized Men and Women (Maelstrom)",
             "name_fr": "Le Front (Maelstrom)",
-            "cPrevAny": true,
+            "level": 30,
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
             "unlock_en": "Duty: Frontline",
+            "unlock_fr": "Duty: Frontline",
+            "patch": "2.3",
             "cPrev": ["q.66641", "q.66642", "q.66640"],
-            "cExclude": ["q.67063", "q.67065"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cExclude": ["q.67063", "q.67065"]
         },
         "x66664": {
-            "level": 44,
             "name_en": "Shadows Uncast (Maelstrom)",
             "name_fr": "Opération Dzemael (Maelstrom)",
+            "level": 44,
             "npc_en": "R'ashaht Rhiki",
             "npc_fr": "R'ashaht Rhiki",
-            "cNext": ["q.66667"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66667"]
         },
         "x66667": {
-            "level": 47,
             "name_en": "Gilding the Bilious (Maelstrom)",
             "name_fr": "Opération Val d'Aurum (Maelstrom)",
+            "level": 47,
             "npc_en": "R'ashaht Rhiki",
             "npc_fr": "R'ashaht Rhiki",
-            "cPrev": ["q.66664"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66664"]
         },
         "x67100": {
-            "level": 50,
             "name_en": "Let the Hunt Begin (Maelstrom)",
             "name_fr": "Faire bonne chasse (Maelstrom)",
+            "level": 50,
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
-            "unlock_en": "The Hunt",
+            "unlock": "duty.the-hunt",
+            "patch": "2.3",
             "cNext": ["q.67655"],
-            "cExclude": ["q.67099", "q.67101"],
-            "patch": "4.31"
+            "cExclude": ["q.67099", "q.67101"]
         }
     }
 }

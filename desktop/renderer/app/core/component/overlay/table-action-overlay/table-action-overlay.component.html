@@ -1,0 +1,50 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.TABLE_ACTION_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <span class="mi mi-tune"></span>
+    </button>
+
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button pButton [disabled]="true">
+                    {{'APP.TABLE_OVERLAY.TITLE' | translate}}
+                </button>
+
+                @if(!group.isBookmarkGroup && !group.isCustomGroup && !group.isUiGroup) {
+                    <button pButton (click)="bookmarkGroup()">
+                        @let icon = isBookmarked() ? 'mi-bookmark-remove' : 'mi-bookmark-add';
+                        <span [class]="'mi ' + icon"></span>
+                        {{(isBookmarked() ? 'APP.TABLE_OVERLAY.REM_BOOKMARK' : 'APP.TABLE_OVERLAY.ADD_BOOKMARK') | translate}}
+                    </button>
+                }
+
+                @if(svcTable.rowGroup.groupRows) {
+                    <button pButton (click)="svcTable.rowGroup.expandAll()">
+                        {{'APP.SEARCH.EXPAND' | translate}}
+                    </button>
+                    <button pButton (click)="svcTable.rowGroup.collapseAll()">
+                        {{'APP.SEARCH.COLLAPSE' | translate}}
+                    </button>
+                }
+
+                @if(isDev()) {
+                    <button pButton (click)="copyData(false)">
+                        <span class="mi mi-file-copy"></span>
+                        {{'APP.TABLE_OVERLAY.COPY_RAW_DATA' | translate}}
+                    </button>
+                    <button pButton (click)="copyData(true)">
+                        <span class="mi mi-file-copy"></span>
+                        {{'APP.TABLE_OVERLAY.COPY_RESOLVED_DATA' | translate}}
+                    </button>
+                }
+            </span>
+        </div>
+    }
+</span>

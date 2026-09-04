@@ -4,265 +4,268 @@
     "groupName_fr": "Guerre du chant des dragons - Épilogue",
     "tasks": {
         "x67692": {
-            "level": 60,
             "name_en": "An Uncertain Future",
             "name_fr": "Un avenir incertain",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.1",
             "cPrev": ["q.67205"],
-            "cNext": ["q.67693"],
-            "patch": "4.31"
+            "cNext": ["q.67693"]
         },
         "x67693": {
-            "level": 60,
             "name_en": "Breaking the Cycle",
             "name_fr": "Prise de contact",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.1",
             "cPrev": ["q.67692"],
-            "cNext": ["q.67694"],
-            "patch": "4.31"
+            "cNext": ["q.67694"]
         },
         "x67694": {
-            "level": 60,
             "name_en": "Another Time, Another Place",
             "name_fr": "Retrouvailles inattendues",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.1",
             "cPrev": ["q.67693"],
-            "cNext": ["q.67695"],
-            "patch": "4.31"
+            "cNext": ["q.67695"]
         },
         "x67695": {
-            "level": 60,
             "name_en": "In the Eye of the Beholder",
             "name_fr": "L'œil de cristal",
+            "level": 60,
             "npc_en": "Krile",
             "npc_fr": "Krile",
+            "patch": "3.1",
             "cPrev": ["q.67694"],
-            "cNext": ["q.67696"],
-            "patch": "4.31"
+            "cNext": ["q.67696"]
         },
         "x67696": {
-            "level": 60,
             "name_en": "A Little Slow, a Little Late",
             "name_fr": "Une ténébreuse rencontre",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.1",
             "cPrev": ["q.67695"],
-            "cNext": ["q.67697"],
-            "patch": "4.31"
+            "cNext": ["q.67697"]
         },
         "x67697": {
-            "level": 60,
             "name_en": "Dreams of the Lost",
             "name_fr": "Peur sur la sainte Cité",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.1",
             "cPrev": ["q.67696"],
-            "cNext": ["q.67698"],
-            "patch": "4.31"
+            "cNext": ["q.67698"]
         },
         "x67698": {
-            "level": 60,
             "name_en": "Against the Dying of the Light",
             "name_fr": "Pulsions pyromanes",
+            "level": 60,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "patch": "3.1",
             "cPrev": ["q.67697"],
-            "cNext": ["q.67699"],
-            "patch": "4.31"
+            "cNext": ["q.67699"]
         },
         "x67699": {
-            "level": 60,
             "name_en": "As Goes Light, So Goes Darkness",
             "name_fr": "Entre Lumière et Ténèbres",
+            "level": 60,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "unlock": "mi.173",
+            "patch": "3.1",
             "cPrev": ["q.67698"],
             "cNext": ["q.67767", "q.67766"],
-            "cSiblings": ["a.1387"],
-            "patch": "4.31",
-            "unlock": "mi.173"
+            "cSiblings": ["a.1387"]
         },
         "x67767": {
-            "level": 60,
             "name_en": "As It Once Was",
             "name_fr": "Heureuses retrouvailles",
+            "level": 60,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "3.2",
             "cPrev": ["q.67699"],
-            "cNext": ["q.67768"],
-            "patch": "4.31"
+            "cNext": ["q.67768"]
         },
         "x67768": {
-            "level": 60,
             "name_en": "The Word of the Mother",
             "name_fr": "La voix de la planète",
-            "unlock": ["d.141", "mi.181"],
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": ["d.141", "mi.181"],
+            "patch": "3.2",
             "cPrev": ["q.67767"],
             "cNext": ["q.67769"],
-            "patch": "4.31"
+            "cSiblings": ["d.141"]
         },
         "x67769": {
-            "level": 60,
             "name_en": "This War of Ours",
             "name_fr": "Guerre et paix",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.2",
             "cPrev": ["q.67768"],
-            "cNext": ["q.67770"],
-            "patch": "4.31"
+            "cNext": ["q.67770"]
         },
         "x67770": {
-            "level": 60,
             "name_en": "Staunch Conviction",
             "name_fr": "La foi en l'avenir",
+            "level": 60,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "patch": "3.2",
             "cPrev": ["q.67769"],
-            "cNext": ["q.67771"],
-            "patch": "4.31"
+            "cNext": ["q.67771"]
         },
         "x67771": {
-            "level": 60,
             "name_en": "Once More, a Favor",
-            "name_fr": "Loup, y es-tu?",
+            "name_fr": "Loup, y es-tu ?",
+            "level": 60,
             "npc_en": "Emmanellain",
             "npc_fr": "Emmanellain",
+            "patch": "3.2",
             "cPrev": ["q.67770"],
-            "cNext": ["q.67772"],
-            "patch": "4.31"
+            "cNext": ["q.67772"]
         },
         "x67772": {
-            "level": 60,
             "name_en": "For Those We Have Lost",
             "name_fr": "Le retour du réel",
+            "level": 60,
             "npc_en": "Emmanellain",
             "npc_fr": "Emmanellain",
+            "patch": "3.2",
             "cPrev": ["q.67771"],
-            "cNext": ["q.67773"],
-            "patch": "4.31"
+            "cNext": ["q.67773"]
         },
         "x67773": {
-            "level": 60,
             "name_en": "Consequences",
             "name_fr": "À la force du poing",
+            "level": 60,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "3.2",
             "cPrev": ["q.67772"],
-            "cNext": ["q.67774"],
-            "patch": "4.31"
+            "cNext": ["q.67774"]
         },
         "x67774": {
-            "level": 60,
             "name_en": "Choices",
             "name_fr": "L'union sacrée",
+            "level": 60,
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
+            "patch": "3.2",
             "cPrev": ["q.67773"],
-            "cNext": ["q.67775"],
-            "patch": "4.31"
+            "cNext": ["q.67775"]
         },
         "x67775": {
-            "level": 60,
             "name_en": "A Spectacle for the Ages",
             "name_fr": "La grande manœuvre éorzéenne",
-            "unlock": "e.122",
+            "level": 60,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "unlock": "e.122",
+            "patch": "3.2",
             "cPrev": ["q.67774"],
             "cNext": ["q.67776"],
-            "cSiblings": ["e.122"],
-            "patch": "4.31"
+            "cSiblings": ["e.122"]
         },
         "x67776": {
-            "level": 60,
             "name_en": "For Those We Can Yet Save",
             "name_fr": "Vers de meilleurs lendemains",
+            "level": 60,
             "npc_en": "Aymeric",
             "npc_fr": "Aymeric",
+            "patch": "3.2",
             "cPrev": ["q.67775"],
-            "cNext": ["q.67777"],
-            "patch": "4.31"
+            "cNext": ["q.67777"]
         },
         "x67777": {
-            "level": 60,
             "name_en": "Causes and Costs",
             "name_fr": "Le destin en marche",
-            "unlock": "e.121",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "e.121",
+            "patch": "3.2",
             "cPrev": ["q.67776"],
             "cNext": ["q.67778"],
-            "cSiblings": ["a.1493", "e.121"],
-            "patch": "4.31"
+            "cSiblings": ["a.1493", "e.121"]
         },
         "x67778": {
-            "level": 60,
             "name_en": "The Man Within",
             "name_fr": "Âmes en peine",
+            "level": 60,
             "npc_en": "House Fortemps Knight",
             "npc_fr": "Chevalier Des Fortemps",
+            "patch": "3.3",
             "cPrev": ["q.67777"],
-            "cNext": ["q.67779"],
-            "patch": "4.31"
+            "cNext": ["q.67779"]
         },
         "x67779": {
-            "level": 60,
             "name_en": "An Ally for Ishgard",
             "name_fr": "Prélude au cataclysme",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.3",
             "cPrev": ["q.67778"],
-            "cNext": ["q.67780"],
-            "patch": "4.31"
+            "cNext": ["q.67780"]
         },
         "x67780": {
-            "level": 60,
             "name_en": "Winning Over the Wyrm",
             "name_fr": "L'épreuve du dragon sacré",
-            "unlock": "d.171",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "d.171",
+            "patch": "3.3",
             "cPrev": ["q.67779"],
             "cNext": ["q.67781"],
-            "patch": "4.31"
+            "cSiblings": ["d.171"]
         },
         "x67781": {
-            "level": 60,
             "name_en": "An End to the Song",
             "name_fr": "Unis face au mal",
-            "unlock": "d.169",
+            "level": 60,
             "npc_en": "Aymeric",
             "npc_fr": "Aymeric",
+            "unlock": "d.169",
+            "patch": "3.3",
             "cPrev": ["q.67780"],
             "cNext": ["q.67782"],
-            "patch": "4.31"
+            "cSiblings": ["d.169"]
         },
         "x67782": {
-            "level": 60,
             "name_en": "Heroes of the Hour",
             "name_fr": "Visite au manoir",
+            "level": 60,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.3",
             "cPrev": ["q.67781"],
-            "cNext": ["q.67783"],
-            "patch": "4.31"
+            "cNext": ["q.67783"]
         },
         "x67783": {
-            "level": 60,
             "name_en": "Litany of Peace",
             "name_fr": "Un chant pour l'avenir",
+            "level": 60,
             "npc_en": "Aymeric",
             "npc_fr": "Aymeric",
+            "unlock": ["mi.193", "o.79"],
+            "patch": "3.3",
             "cPrev": ["q.67782"],
             "cNext": ["q.67011", "q.67825", "q.67877", "q.69208", "q.69708", "q.69268"],
-            "cSiblings": ["a.1594"],
-            "patch": "4.31",
-            "unlock": ["mi.193", "o.79"]
+            "cSiblings": ["a.1594"]
         }
     }
 }

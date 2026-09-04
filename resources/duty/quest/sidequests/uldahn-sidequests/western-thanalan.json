@@ -4,258 +4,265 @@
     "groupName_fr": "Thanalan occidental",
     "tasks": {
         "x66973": {
-            "level": 1,
             "name_en": "The Greatest Story Never Told",
             "name_fr": "Il était une fois un explorateur",
+            "level": 1,
             "npc_en": "Valiant Hart",
             "npc_fr": "Valiant Hart",
+            "patch": "2.3",
             "cPrev": ["q.66060"],
-            "cSiblings": ["a.1005"],
-            "patch": "4.31"
+            "cSiblings": ["a.1005"]
         },
         "x65758": {
-            "level": 4,
             "name_en": "Nor Rain nor Heat nor Gloom of Night",
             "name_fr": "Les caisses d'Oswell",
+            "level": 4,
             "npc_en": "Oswell",
             "npc_fr": "Oswell",
-            "cNext": ["q.65760"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65760"]
         },
         "x65759": {
-            "level": 5,
             "name_en": "A Dab'll Do Ya",
             "name_fr": "Une lotion qui a du piquant",
+            "level": 5,
             "npc_en": "Guntram",
             "npc_fr": "Guntram",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65767": {
-            "level": 5,
             "name_en": "Ticked Off",
             "name_fr": "Plume à gratter",
+            "level": 5,
             "npc_en": "Imme",
             "npc_fr": "Imme",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66749": {
-            "level": 5,
             "name_en": "Where the Heart Is (The Goblet)",
             "name_fr": "La maison de mes rêves à La Coupe",
+            "level": 5,
             "npc_en": "Imme",
             "npc_fr": "Imme",
-            "patch": "4.31"
+            "patch": "2.1"
         },
         "x65760": {
-            "level": 6,
             "name_en": "I Believe You Can Fly",
             "name_fr": "Déploie tes ailes",
+            "level": 6,
             "npc_en": "Oswell",
             "npc_fr": "Oswell",
+            "patch": "2.0",
             "cPrev": ["q.65758"],
-            "cNext": ["q.65762"],
-            "patch": "4.31"
+            "cNext": ["q.65762"]
         },
         "x65762": {
-            "level": 6,
             "name_en": "Reasonable /Doubt",
             "name_fr": "Des intrus au Bazar",
+            "level": 6,
             "npc_en": "Kikipu",
             "npc_fr": "Kikipu",
+            "patch": "2.0",
             "cPrev": ["q.65760"],
-            "cNext": ["q.65766"],
-            "patch": "4.31"
+            "cNext": ["q.65766"]
         },
         "x65763": {
-            "level": 7,
             "name_en": "Greasing the Cogs",
             "name_fr": "De l'huile pour les Marteaux",
+            "level": 7,
             "npc_en": "Fafafono",
             "npc_fr": "Fafafono",
-            "cNext": ["q.65761"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65761"]
         },
         "x65764": {
-            "level": 7,
             "name_en": "Getting Your Bearings",
             "name_fr": "Le compas de papa",
+            "level": 7,
             "npc_en": "Danyell",
             "npc_fr": "Danyell",
-            "cNext": ["q.65765", "q.65766"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65765", "q.65766"]
         },
         "x65761": {
-            "level": 8,
             "name_en": "So Close yet So Far",
             "name_fr": "Le Bazar désargenté",
+            "level": 8,
             "npc_en": "Fafafono",
             "npc_fr": "Fafafono",
-            "cPrev": ["q.65763"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65763"]
         },
         "x65765": {
-            "level": 8,
             "name_en": "Tackle the Problem",
             "name_fr": "L'heure de lever l'ancre",
+            "level": 8,
             "npc_en": "Galfridus",
             "npc_fr": "Galfridus",
+            "patch": "2.0",
             "cPrev": ["q.65764"],
-            "cNext": ["q.65766"],
-            "patch": "4.31"
+            "cNext": ["q.65766"]
         },
         "x65766": {
-            "level": 9,
             "name_en": "Search and Seizure",
             "name_fr": "Une lueur d'espoir pour le Bazar",
+            "level": 9,
             "npc_en": "Kikipu",
             "npc_fr": "Kikipu",
-            "cPrev": ["q.65764", "q.65765", "q.65762"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65764", "q.65765", "q.65762"]
         },
         "x65594": {
-            "level": 10,
             "name_en": "Simply the Hest",
             "name_fr": "Opérations de guilde (Ul'dah)",
+            "level": 10,
             "npc_en": "Totonowa",
             "npc_fr": "Totonowa",
-            "unlock_en": "Guildhests",
-            "cPrev": ["q.66223"],
-            "patch": "4.31"
+            "unlock": "duty.duty-raid-finder.guildhests",
+            "patch": "3.1",
+            "cPrev": ["q.66223"]
         },
         "x65873": {
-            "level": 10,
             "name_en": "By the Toe",
             "name_fr": "Le piégeur piégé",
+            "level": 10,
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65875": {
-            "level": 10,
             "name_en": "For Their Eyes Only",
             "name_fr": "Dans le rouge des yeux",
+            "level": 10,
             "npc_en": "Zuzutyro",
             "npc_fr": "Zuzutyro",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65877": {
-            "level": 11,
             "name_en": "The Scent of a Mongrel",
             "name_fr": "Ça sang le brûlé",
+            "level": 11,
             "npc_en": "Chechezan",
             "npc_fr": "Chechezan",
-            "cPrev": ["q.65865"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65865"]
         },
         "x66040": {
-            "level": 11,
             "name_en": "No Tool Gets Left Behind",
             "name_fr": "Irremplaçables outils",
+            "level": 11,
             "npc_en": "Torrid Whisper",
             "npc_fr": "Torrid Whisper",
-            "cPrev": ["q.65864"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65864"]
         },
         "x66042": {
-            "level": 12,
             "name_en": "This Fishwife's Life",
             "name_fr": "Les filets de l'espoir",
+            "level": 12,
             "npc_en": "Edalene",
             "npc_fr": "Edalene",
-            "cPrev": ["q.65868"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65868"]
         },
         "x65878": {
-            "level": 13,
             "name_en": "Lominsan Rubbish",
             "name_fr": "Le fainéant du Croissant",
+            "level": 13,
             "npc_en": "Osment",
             "npc_fr": "Osment",
-            "cPrev": ["q.65868"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65868"]
         },
         "x66041": {
-            "level": 13,
             "name_en": "Angling Ankle-biters",
             "name_fr": "Ménage préventif",
+            "level": 13,
             "npc_en": "Totoruna",
             "npc_fr": "Totoruna",
-            "cPrev": ["q.65868"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65868"]
         },
         "x66235": {
-            "level": 15,
             "name_en": "Color Your World",
             "name_fr": "Les secrets de la teinture",
+            "level": 15,
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
             "unlock_en": "Dyeing",
-            "cNext": ["q.67094"],
-            "patch": "4.31"
+            "unlock_fr": "Dyeing",
+            "patch": "2.0",
+            "cNext": ["q.67094"]
         },
         "x68553": {
-            "level": 15,
             "name_en": "If I Had a Glamour",
             "name_fr": "Les mirages de la mode",
+            "level": 15,
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
             "unlock_en": "Glamour",
+            "unlock_fr": "Glamour",
+            "patch": "4.1",
             "cNext": ["q.68554"],
-            "cExclude": ["q.66957"],
-            "patch": "4.31"
+            "cExclude": ["q.66957"]
         },
         "x68554": {
-            "level": 15,
             "name_en": "Absolutely Glamourous",
             "name_fr": "Le mirage est dans le jus",
+            "level": 15,
             "npc_en": "Swyrgeim",
             "npc_fr": "Swyrgeim",
+            "patch": "4.1",
             "cPrev": ["q.68553"],
-            "cExclude": ["q.66958"],
-            "patch": "4.31"
+            "cExclude": ["q.66958"]
         },
         "x66960": {
-            "level": 17,
             "name_en": "Seeds of Change",
             "name_fr": "Du grain aux graines",
+            "level": 17,
             "npc_en": "Tatafu",
             "npc_fr": "Tatafu",
-            "patch": "4.31"
+            "patch": "2.2"
         },
         "x66233": {
-            "level": 20,
             "name_en": "Hallo Halatali",
             "name_fr": "En route pour Halatali",
-            "unlock": "d.7",
+            "level": 20,
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
+            "unlock": "d.7",
+            "patch": "2.0",
             "cPrev": ["q.66110"],
-            "patch": "4.31"
+            "cSiblings": ["d.7"]
         },
         "x66300": {
-            "level": 35,
             "name_en": "Braving New Depths",
             "name_fr": "Départ pour Qarn",
-            "unlock": "d.9",
+            "level": 35,
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
-            "patch": "4.31"
+            "unlock": "d.9",
+            "patch": "2.0",
+            "cSiblings": ["d.9"]
         },
         "x66550": {
-            "level": 47,
             "name_en": "Going for Gold",
             "name_fr": "Bienvenue au Val",
-            "unlock": "d.5",
+            "level": 47,
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
-            "patch": "4.31"
+            "unlock": "d.5",
+            "patch": "2.0",
+            "cSiblings": ["d.5"]
         },
         "x66241": {
-            "level": 50,
             "name_en": "The Weaponsmith of Legend",
             "name_fr": "Le forgeron légendaire",
+            "level": 50,
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
+            "unlock": "tto.88",
+            "patch": "2.0",
             "cPrev": ["q.66060"],
             "cNext": [
                 "q.66656",
@@ -268,27 +275,28 @@
                 "q.66663",
                 "q.66662",
                 "q.67115"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x66406": {
-            "level": 50,
             "name_en": "Trauma Queen",
             "name_fr": "Le palais d'Allene",
-            "unlock": "d.10",
+            "level": 50,
             "npc_en": "Allene",
             "npc_fr": "Allene",
-            "patch": "4.31"
+            "unlock": "d.10",
+            "patch": "2.0",
+            "cSiblings": ["d.10"]
         },
         "x66671": {
-            "level": 50,
             "name_en": "Ghosts of Amdapor",
             "name_fr": "Les fantômes d'Amdapor",
-            "unlock": "d.14",
+            "level": 50,
             "npc_en": "Nedrick Ironheart",
             "npc_fr": "Nedrick Ironheart",
+            "unlock": "d.14",
+            "patch": "2.0",
             "cPrev": ["q.66060"],
-            "patch": "4.31"
+            "cSiblings": ["d.14"]
         }
     }
 }

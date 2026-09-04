@@ -3,15 +3,15 @@
     "groupName_en": "Abalathia",
     "groupName_fr": "Abalathia",
     "tasks": {
-        "x0": {
-            "level": "60★",
+        "x335": {
             "name_en": "Sun Mica",
             "name_fr": "Mica doré",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "level": "60 ★",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
             "coordinates": "(35, 39)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.65",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "3.0",
-            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.65"
+            "patch": "3.0"
         }
     }
 }

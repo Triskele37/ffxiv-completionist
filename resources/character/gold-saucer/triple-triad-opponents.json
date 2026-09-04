@@ -2,14 +2,15 @@
     "key": "triple-triad-opponents",
     "groupName_en": "Triple Triad Opponents",
     "groupName_fr": "Adversaires de Triple Triade",
-    "headers": {
+    "columns": {
         "name": {
             "header_en": "Opponent",
             "header_fr": "Adversaire"
         },
         "drops": {
             "link": true,
-            "header_en": "Drops"
+            "header_en": "Drops",
+            "header_fr": "Drops"
         },
         "zone": {
             "header": "@HEADER.ZONE"
@@ -27,1139 +28,1211 @@
         }
     },
     "tasks": {
+        "x133": {
+            "name_en": "Xiisal Ja",
+            "name_fr": "Xiisal Ja",
+            "drops": ["tt.475"],
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "location": "(14.6, 11.4)",
+            "quest": "q.70997",
+            "patch": "7.51"
+        },
+        "x132": {
+            "name_en": "Elvaan Red Mage",
+            "name_fr": "Mage rouge elvaan",
+            "drops": ["tt.472"],
+            "zone": "@PLACE.DT.LOWER_JEUNO",
+            "location": "(6.7, 6.3)",
+            "quest": "q.71016",
+            "patch": "7.5"
+        },
+        "x131": {
+            "name_en": "Hume Thief",
+            "name_fr": "Voleuse hume",
+            "drops": ["tt.469", "tt.470"],
+            "zone": "@PLACE.DT.LOWER_JEUNO",
+            "location": "(6.4, 6.9)",
+            "quest": "q.71016",
+            "patch": "7.5"
+        },
+        "x130": {
+            "name_en": "Camalbusert",
+            "name_fr": "Camalbusert",
+            "drops": ["tt.459", "tt.460"],
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(14.6, 11.1)",
+            "quest": "q.70977",
+            "patch": "7.45"
+        },
+        "x129": {
+            "name_en": "Tokorzur",
+            "name_fr": "Tokorzur",
+            "drops": ["tt.451"],
+            "zone": "@PLACE.DT.ZIRGORTEH",
+            "location": "(8.0, 4.4)",
+            "quest": "q.70871",
+            "patch": "7.35"
+        },
+        "x128": {
+            "name_en": "Hume Black Mage",
+            "name_fr": "Mage noir hume",
+            "drops": ["tt.446"],
+            "zone": "@PLACE.DT.LOWER_JEUNO",
+            "location": "(5.5, 5.7)",
+            "quest": "q.70865",
+            "patch": "7.3"
+        },
+        "x127": {
+            "name_en": "Pudeel Ja",
+            "name_fr": "Pudeel Ja",
+            "drops": ["tt.442", "tt.443"],
+            "zone": "@PLACE.DT.YAK_TEL",
+            "location": "(33.2, 36.5)",
+            "quest": "q.70796",
+            "patch": "7.25"
+        },
+        "x126": {
+            "name_en": "Malevolent Weasel",
+            "name_fr": "Malevolent Weasel",
+            "drops": ["tt.437"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.6, 6.2)",
+            "quest": "q.65973",
+            "patch": "7.2"
+        },
         "x125": {
             "name_en": "Miitso",
             "name_fr": "Miitso",
-            "zone": "@PLACE.LOWER_JEUNO",
-            "location": "(6.4, 6.1)",
-            "patch": "7.1",
             "drops": ["tt.430", "tt.431"],
-            "quest": "q.70772"
+            "zone": "@PLACE.DT.LOWER_JEUNO",
+            "location": "(6.4, 6.1)",
+            "quest": "q.70772",
+            "patch": "7.1"
         },
         "x124": {
             "name_en": "Pawkukwe",
             "name_fr": "Pawkukwe",
-            "zone": "@PLACE.LOWER_JEUNO",
-            "location": "(6.7, 7.1)",
-            "patch": "7.1",
             "drops": ["tt.428", "tt.429"],
-            "quest": "q.70772"
+            "zone": "@PLACE.DT.LOWER_JEUNO",
+            "location": "(6.7, 7.1)",
+            "quest": "q.70772",
+            "patch": "7.1"
         },
         "x123": {
             "name_en": "Gavoll Ja",
             "name_fr": "Gavoll Ja",
-            "zone": "@PLACE.TULIYOLLAL",
-            "location": "(15.7, 2.9)",
-            "patch": "7.0",
             "drops": ["tt.413"],
-            "quest": "q.70456"
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "location": "(15.7, 2.9)",
+            "quest": "q.70456",
+            "patch": "7.0"
         },
         "x122": {
             "name_en": "Larisa",
             "name_fr": "Larisa",
-            "zone": "@PLACE.SOLUTION_NINE",
-            "location": "(5.8, 13.9)",
-            "patch": "7.0",
             "drops": ["tt.412"],
-            "quest": "q.70486"
+            "zone": "@PLACE.DT.SOLUTION_NINE",
+            "location": "(5.8, 13.9)",
+            "quest": "q.70486",
+            "patch": "7.0"
         },
         "x121": {
             "name_en": "Uataaye",
             "name_fr": "Uataaye",
-            "zone": "@PLACE.HERITAGE_FOUND",
-            "location": "(19.5, 9.4)",
-            "patch": "7.0",
             "drops": ["tt.411"],
-            "quest": "q.70464"
+            "zone": "@PLACE.DT.HERITAGE_FOUND",
+            "location": "(19.5, 9.4)",
+            "quest": "q.70464",
+            "patch": "7.0"
         },
         "x120": {
             "name_en": "Luwyawa",
             "name_fr": "Luwyawa",
-            "zone": "@PLACE.SHAALOANI",
-            "location": "(28.9, 30.4)",
-            "patch": "7.0",
             "drops": ["tt.410"],
-            "quest": "q.70448"
+            "zone": "@PLACE.DT.SHAALOANI",
+            "location": "(28.9, 30.4)",
+            "quest": "q.70448",
+            "patch": "7.0"
         },
         "x119": {
             "name_en": "Br'uk Noq'",
             "name_fr": "Br'uk Noq'",
-            "zone": "@PLACE.YAK_TEL",
-            "location": "(12.7, 14.8)",
-            "patch": "7.0",
             "drops": ["tt.409"],
-            "quest": "q.70444"
+            "zone": "@PLACE.DT.YAK_TEL",
+            "location": "(12.7, 14.8)",
+            "quest": "q.70444",
+            "patch": "7.0"
         },
         "x118": {
             "name_en": "Warsowok",
             "name_fr": "Warsowok",
-            "zone": "@PLACE.KOZAMAUKA",
-            "location": "(11.5, 27.2)",
-            "patch": "7.0",
             "drops": ["tt.408"],
-            "quest": "q.70416"
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "location": "(11.5, 27.2)",
+            "quest": "q.70416",
+            "patch": "7.0"
         },
         "x117": {
             "name_en": "Wopli",
             "name_fr": "Wopli",
-            "zone": "@PLACE.URQOPACHA",
-            "location": "(28.5, 12.9)",
-            "patch": "7.0",
             "drops": ["tt.407"],
-            "quest": "q.70413"
+            "zone": "@PLACE.DT.URQOPACHA",
+            "location": "(28.5, 12.9)",
+            "quest": "q.70413",
+            "patch": "7.0"
         },
         "x116": {
             "name_en": "Nyikweni",
             "name_fr": "Nyikweni",
-            "zone": "@PLACE.TULIYOLLAL",
-            "location": "(15.0, 13.6)",
-            "patch": "7.0",
             "drops": ["tt.406"],
-            "quest": "q.70413"
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "location": "(15.0, 13.6)",
+            "quest": "q.70413",
+            "patch": "7.0"
         },
         "x115": {
             "name_en": "Maillart",
             "name_fr": "Maillart",
-            "zone": "@PLACE.OLD_SHARLAYAN",
-            "location": "(8.5, 15.2)",
-            "patch": "6.5",
             "drops": ["tt.398", "tt.399"],
-            "quest": "q.70328"
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(8.5, 15.2)",
+            "quest": "q.70328",
+            "patch": "6.5"
         },
         "x114": {
             "name_en": "Ylaire",
             "name_fr": "Ylaire",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "location": "(7.8, 10.9)",
-            "patch": "6.5",
             "drops": ["tt.394", "tt.395", "tt.396"],
-            "quest": "q.70205"
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "location": "(7.8, 10.9)",
+            "quest": "q.70205",
+            "patch": "6.5"
         },
         "x113": {
             "name_en": "Tokimori",
             "name_fr": "Tokimori",
-            "zone": "@PLACE.KUGANE",
-            "location": "(8.9, 8.8)",
-            "patch": "6.45",
             "drops": ["tt.378"],
-            "quest": "q.70269"
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(8.9, 8.8)",
+            "quest": "q.70269",
+            "patch": "6.45"
         },
         "x112": {
             "name_en": "Ruissenaud",
             "name_fr": "Ruissenaud",
-            "zone": "@PLACE.LABYRINTHOS",
-            "location": "(8.9, 27.3)",
-            "patch": "6.4",
             "drops": ["tt.382", "tt.385"],
-            "quest": "q.70296"
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(8.9, 27.3)",
+            "quest": "q.70296",
+            "patch": "6.4"
         },
         "x111": {
             "name_en": "Gamingway",
             "name_fr": "Gamingway",
-            "zone": "@PLACE.MARE_LAMENTORUM",
-            "location": "(18.1, 16.1)",
-            "patch": "6.35",
             "drops": ["tt.369"],
-            "quest": "q.70222"
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(18.1, 16.2)",
+            "quest": "q.70222",
+            "patch": "6.35"
         },
         "x110": {
             "name_en": "Kilfufu",
             "name_fr": "Kilfufu",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "location": "(13, 8)",
-            "patch": "6.25",
             "drops": ["tt.358"],
-            "quest": "q.70182"
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "location": "(12.5, 8.3)",
+            "quest": "q.70182",
+            "patch": "6.25"
         },
         "x109": {
             "name_en": "Ghasa",
             "name_fr": "Ghasa",
-            "zone": "@PLACE.THAVNAIR",
-            "location": "(20, 28)",
-            "patch": "6.15",
             "drops": ["tt.348"],
-            "quest": "q.70085"
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(19.6, 28.4)",
+            "quest": "q.70085",
+            "patch": "6.15"
         },
         "x108": {
             "name_en": "Prudence",
             "name_fr": "Prudence",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(30.6, 12.3)",
-            "patch": "6.1",
             "drops": ["tt.350", "tt.351"],
-            "quest": "q.70075"
-        },
-        "x106": {
-            "name_en": "Celia",
-            "name_fr": "Celia",
-            "zone": "@PLACE.OLD_SHARLAYAN",
-            "location": "(15.8, 7.0)",
-            "patch": "6.0",
-            "drops": ["tt.338", "tt.341"],
-            "quest": "q.70000"
-        },
-        "x102": {
-            "name_en": "Qetanur",
-            "name_fr": "Qetanur",
-            "zone": "@PLACE.THAVNAIR",
-            "location": "(19.7, 9.2)",
-            "patch": "6.0",
-            "drops": "tt.328",
-            "quest": "q.69910"
-        },
-        "x104": {
-            "name_en": "Cheatingway",
-            "name_fr": "Cheatingway",
-            "zone": "@PLACE.OLD_SHARLAYAN",
-            "location": "(11.1, 8.9)",
-            "patch": "6.0",
-            "drops": ["tt.331", "tt.332"],
-            "quest": "q.69985"
-        },
-        "x101": {
-            "name_en": "Sladkey",
-            "name_fr": "Sladkey",
-            "zone": "@PLACE.GANGOS",
-            "location": "(5, 6)",
-            "patch": "5.55",
-            "drops": ["tt.321", "tt.322"],
-            "quest": "q.69624"
-        },
-        "x55": {
-            "name_en": "Arsieu",
-            "name_fr": "Arsieu",
-            "zone": "@PLACE.GANGOS",
-            "location": "(5.9, 6.6)",
-            "patch": "5.35",
-            "drops": ["tt.299", "tt.298"],
-            "quest": "q.69487"
-        },
-        "x28": {
-            "name_en": "Cobleva",
-            "name_fr": "Cobleva",
-            "zone": "@PLACE.LAKELAND",
-            "location": "(14.3, 7.8)",
-            "patch": "5.3",
-            "drops": ["tt.294", "tt.296"],
-            "quest": "q.69437"
-        },
-        "x64": {
-            "name_en": "Hanagasa",
-            "name_fr": "Hanagasa",
-            "zone": "@PLACE.KUGANE",
-            "location": "(10.4, 11.9)",
-            "patch": "5.2",
-            "drops": ["tt.209", "tt.208", "tt.250", "tt.229"],
-            "quest": "q.68725"
-        },
-        "x51": {
-            "name_en": "Ushiogi",
-            "name_fr": "Ushiogi",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "location": "(21.7, 7.9)",
-            "patch": "4.35",
-            "drops": ["tt.222", "tt.225", "tt.221"],
-            "quest": "q.68668"
-        },
-        "x77": {
-            "name_en": "Masatsuchi",
-            "name_fr": "Masatsuchi",
-            "zone": "@PLACE.YANXIA",
-            "location": "(29.5, 20.2)",
-            "patch": "4.2",
-            "drops": ["tt.211", "tt.218"],
-            "quest": "q.68268"
-        },
-        "x3": {
-            "name_en": "Ercanbald",
-            "name_fr": "Ercanbald",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "location": "(9.8, 9.8)",
-            "patch": "4.0",
-            "drops": ["tt.86", "tt.186"],
-            "quest": "q.67985"
-        },
-        "x8": {
-            "name_en": "Gyoei",
-            "name_fr": "Gyoei",
-            "zone": "@PLACE.YANXIA",
-            "location": "(15.7, 31.9)",
-            "patch": "4.0",
-            "drops": ["tt.183", "tt.248"],
-            "quest": "q.68281"
-        },
-        "x78": {
-            "name_en": "Master Mogzin",
-            "name_fr": "Mogzin",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
-            "location": "(15, 28)",
-            "patch": "3.3",
-            "drops": ["tt.43", "tt.146", "tt.153", "tt.124"],
-            "quest": "q.67863"
-        },
-        "x0": {
-            "name_en": "Triple Triad Master",
-            "name_fr": "Croupière",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(4, 7)",
-            "patch": "2.51",
-            "drops": "tt.4",
-            "quest": ""
-        },
-        "x13": {
-            "name_en": "Maisenta",
-            "name_fr": "Maisenta",
-            "zone": "@PLACE.NEW_GRIDANIA",
-            "location": "(11, 11)",
-            "patch": "2.51",
-            "drops": ["tt.8", "tt.16"],
-            "quest": ""
-        },
-        "x20": {
-            "name_en": "Roger",
-            "name_fr": "Roger",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(19, 20)",
-            "patch": "2.51",
-            "drops": ["tt.9", "tt.5"],
-            "quest": ""
-        },
-        "x11": {
-            "name_en": "Jonas of the Three Spades",
-            "name_fr": "Jonas le Valet de pique",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(4, 7)",
-            "patch": "2.51",
-            "drops": ["tt.15", "tt.20"],
-            "quest": ""
-        },
-        "x15": {
-            "name_en": "Memeroon",
-            "name_fr": "Memeroon",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(14, 24)",
-            "patch": "2.51",
-            "drops": ["tt.14", "tt.128", "tt.37", "tt.2"],
-            "quest": ""
-        },
-        "x49": {
-            "name_en": "Swift",
-            "name_fr": "Swift",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "location": "(8.4, 8.9)",
-            "patch": "2.51",
-            "drops": ["tt.59", "tt.40", "tt.113", "tt.67"],
-            "quest": "q.66221"
-        },
-        "x103": {
-            "name_en": "Aiglephine",
-            "name_fr": "Aiglephine",
-            "zone": "@PLACE.LABYRINTHOS",
-            "location": "(29.3, 13.2)",
-            "patch": "6.0",
-            "drops": "tt.327",
-            "quest": "q.69898"
-        },
-        "x30": {
-            "name_en": "Droyn",
-            "name_fr": "Droyn",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "location": "(11.8, 13.0)",
-            "patch": "5.45",
-            "drops": ["tt.309", "character.blue-mage.the-masked-carnivale.29"],
-            "quest": "q.69273"
-        },
-        "x74": {
-            "name_en": "Lewto-Sue",
-            "name_fr": "Lewto-Sue",
-            "zone": "@PLACE.AMH_ARAENG",
-            "location": "(26, 16)",
-            "patch": "5.4",
-            "drops": ["tt.314", "tt.313"],
-            "quest": "q.69515"
-        },
-        "x31": {
-            "name_en": "Eo Sigun",
-            "name_fr": "Eo Sigun",
-            "zone": "@PLACE.IL_MHEG",
-            "location": "(22.2, 3.6)",
-            "patch": "5.1",
-            "drops": ["tt.276", "tt.274"],
-            "quest": "q.69219"
-        },
-        "x92": {
-            "name_en": "Umber Torrent",
-            "name_fr": "Umber Torrent",
-            "zone": "@PLACE.THE_LOCHS",
-            "location": "(16.4, 24.7)",
-            "patch": "4.0",
-            "drops": ["tt.217", "tt.189"],
-            "quest": "q.68508"
-        },
-        "x32": {
-            "name_en": "Garima",
-            "name_fr": "Garima",
-            "zone": "@PLACE.THE_FRINGES",
-            "location": "(28.2, 19.9)",
-            "patch": "4.0",
-            "drops": ["tt.185", "tt.205"],
-            "quest": "q.68353"
-        },
-        "x38": {
-            "name_en": "House Fortemps Manservant",
-            "name_fr": "Serviteur des Fortemps",
-            "zone": "@PLACE.FORTEMPS_MANOR",
-            "location": "(11, 11)",
-            "patch": "3.2",
-            "drops": ["tt.133", "tt.134", "tt.121"],
-            "quest": "q.67205"
-        },
-        "x18": {
-            "name_en": "Mother Miounne",
-            "name_fr": "Mother Miounne",
-            "zone": "@PLACE.NEW_GRIDANIA",
-            "location": "(11, 13)",
-            "patch": "2.51",
-            "drops": ["tt.12", "tt.30"],
-            "quest": "q.66046"
-        },
-        "x24": {
-            "name_en": "Wymond",
-            "name_fr": "Wymond",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "location": "(9.8, 8.7)",
-            "patch": "2.51",
-            "drops": ["tt.8", "tt.141"],
-            "quest": ""
-        },
-        "x35": {
-            "name_en": "Helmhart",
-            "name_fr": "Helmhart",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(20, 21)",
-            "patch": "2.51",
-            "drops": ["tt.34", "tt.22"],
-            "quest": ""
-        },
-        "x89": {
-            "name_en": "Ruhtwyda of the Three Hearts",
-            "name_fr": "Ruthwyda la Dame de cœur",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(3, 7)",
-            "patch": "2.51",
-            "drops": ["tt.45", "tt.50"],
-            "quest": ""
-        },
-        "x105": {
-            "name_en": "Mehryde",
-            "name_fr": "Mehryde",
-            "zone": "@PLACE.RADZ_AT_HAN",
-            "location": "(10.8, 7.6)",
-            "patch": "6.0",
-            "drops": "tt.330",
-            "quest": "q.69805"
-        },
-        "x48": {
-            "name_en": "Redard",
-            "name_fr": "Redard",
-            "zone": "@PLACE.RAK_TIKA",
-            "location": "(20.4, 27.2)",
-            "patch": "5.2",
-            "drops": ["tt.287", "tt.284"],
-            "quest": "q.69330"
-        },
-        "x9": {
-            "name_en": "Ibenart",
-            "name_fr": "Ibenart",
-            "zone": "@PLACE.KHOLUSIA",
-            "location": "(19.1, 17.4)",
-            "patch": "5.0",
-            "drops": "tt.255",
-            "quest": "q.69177"
-        },
-        "x21": {
-            "name_en": "Saushs Koal",
-            "name_fr": "Saushs Koal",
-            "zone": "@PLACE.THE_TEMPEST",
-            "location": "(31.4, 17.3)",
-            "patch": "5.0",
-            "drops": "tt.259",
-            "quest": "q.69113"
-        },
-        "x33": {
-            "name_en": "Gyuf Uin",
-            "name_fr": "Gyuf Uin",
-            "zone": "@PLACE.IL_MHEG",
-            "location": "(16.1, 30.7)",
-            "patch": "5.0",
-            "drops": "tt.257",
-            "quest": "q.68856"
-        },
-        "x2": {
-            "name_en": "Drery",
-            "name_fr": "Drery",
-            "zone": "@PLACE.AMH_ARAENG",
-            "location": "(11.9, 16.9)",
-            "patch": "5.0",
-            "drops": ["tt.254", "tt.256"],
-            "quest": "q.69046"
-        },
-        "x36": {
-            "name_en": "Hetsukaze",
-            "name_fr": "Hetsukaze",
-            "zone": "@PLACE.KUGANE",
-            "location": "(8.0, 13.6)",
-            "patch": "4.45",
-            "drops": ["tt.243", "tt.237", "tt.242", "tt.245"],
-            "quest": "q.68149"
-        },
-        "x87": {
-            "name_en": "Redbill Storeboy",
-            "name_fr": "Intendant des Becs-rouges",
-            "zone": "@PLACE.IDYLLSHIRE",
-            "location": "(3.8, 4.5)",
-            "patch": "3.1",
-            "drops": ["tt.152", "tt.179", "tt.112", "tt.129"],
-            "quest": "q.67910"
-        },
-        "x54": {
-            "name_en": "Yusui",
-            "name_fr": "Yusui",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "location": "(31.6, 37.1)",
-            "patch": "4.2",
-            "drops": "tt.214",
-            "quest": "q.68014"
-        },
-        "x12": {
-            "name_en": "Kotokaze",
-            "name_fr": "Kotokaze",
-            "zone": "@PLACE.KUGANE",
-            "location": "(10.2, 10.2)",
-            "patch": "4.0",
-            "drops": "tt.187",
-            "quest": "q.68008"
-        },
-        "x40": {
-            "name_en": "Kaizan",
-            "name_fr": "Kaizan",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "location": "(22.3, 8.6)",
-            "patch": "4.0",
-            "drops": "tt.193",
-            "quest": "q.68216"
-        },
-        "x50": {
-            "name_en": "Tsuzura",
-            "name_fr": "Tsuzura",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "location": "(28.5, 16.4)",
-            "patch": "4.0",
-            "drops": "tt.184",
-            "quest": "q.68227"
-        },
-        "x25": {
-            "name_en": "Wyra \"Greenhands\" Lyehga",
-            "name_fr": "Wyra Lyehga La Main Verte",
-            "zone": "@PLACE.BATTLE_HALL",
-            "location": "(3.3, 3.3)",
-            "patch": "3.4",
-            "drops": "tt.154",
-            "quest": ""
-        },
-        "x91": {
-            "name_en": "Tapklix",
-            "name_fr": "Tapklix",
-            "zone": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
-            "location": "(21, 18)",
-            "patch": "3.1",
-            "drops": ["tt.163", "tt.136", "tt.117"],
-            "quest": "q.67789"
-        },
-        "x42": {
-            "name_en": "Linu Vali",
-            "name_fr": "Linu Vali",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
-            "location": "(6, 14)",
-            "patch": "3.0",
-            "drops": ["tt.98", "tt.123", "tt.147"],
-            "quest": "q.67761"
-        },
-        "x29": {
-            "name_en": "Dominiac",
-            "name_fr": "Dominiac",
-            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
-            "location": "(16, 22)",
-            "patch": "3.0",
-            "drops": ["tt.101", "tt.86"],
-            "quest": "q.67434"
-        },
-        "x7": {
-            "name_en": "Guhtwint of the Three Diamonds",
-            "name_fr": "Guthwint l'As de carreau",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(4, 7)",
-            "patch": "2.51",
-            "drops": ["tt.13", "tt.27"],
-            "quest": ""
-        },
-        "x17": {
-            "name_en": "Momodi",
-            "name_fr": "Momodi",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "location": "(11.9, 9.6)",
-            "patch": "2.51",
-            "drops": "tt.28",
-            "quest": "q.66046"
-        },
-        "x4": {
-            "name_en": "F'hobhas",
-            "name_fr": "F'hobhas",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(23, 13)",
-            "patch": "2.51",
-            "drops": "tt.36",
-            "quest": ""
-        },
-        "x23": {
-            "name_en": "Trachtoum",
-            "name_fr": "Trachtoum",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(35, 15)",
-            "patch": "2.51",
-            "drops": ["tt.20", "tt.41"],
-            "quest": "q.66053"
-        },
-        "x10": {
-            "name_en": "Joellaut",
-            "name_fr": "Joellaut",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(13, 15)",
-            "patch": "2.51",
-            "drops": ["tt.59", "tt.15"],
-            "quest": ""
-        },
-        "x5": {
-            "name_en": "Fufulupa",
-            "name_fr": "Fufulupa",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(22, 17)",
-            "patch": "2.51",
-            "drops": ["tt.25", "tt.46"],
-            "quest": "q.66046"
-        },
-        "x1": {
-            "name_en": "Baderon",
-            "name_fr": "Baderon",
-            "zone": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "location": "(11, 11)",
-            "patch": "2.51",
-            "drops": ["tt.29", "tt.18"],
-            "quest": "q.66046"
-        },
-        "x16": {
-            "name_en": "Mimidoa",
-            "name_fr": "Mimidoa",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(25, 35)",
-            "patch": "2.51",
-            "drops": ["tt.33", "tt.21"],
-            "quest": "q.66503"
-        },
-        "x26": {
-            "name_en": "Aurifort of the Three Clubs",
-            "name_fr": "Aurifort l'As de trèfle",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(4, 7)",
-            "patch": "2.51",
-            "drops": ["tt.12", "tt.27"],
-            "quest": ""
-        },
-        "x47": {
-            "name_en": "Piralnaut",
-            "name_fr": "Piralnaut",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(17, 26)",
-            "patch": "2.51",
-            "drops": ["tt.35", "tt.24"],
-            "quest": ""
-        },
-        "x90": {
-            "name_en": "Sezul Totoloc",
-            "name_fr": "Sezul Totoloc",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(24, 23)",
-            "patch": "2.51",
-            "drops": ["tt.38", "tt.33", "tt.58", "tt.162"],
-            "quest": "q.67029"
-        },
-        "x56": {
-            "name_en": "Buscarron",
-            "name_fr": "Buscarron",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(18.1, 19.8)",
-            "patch": "2.51",
-            "drops": ["tt.23", "tt.48", "tt.44"],
-            "quest": "q.66050"
-        },
-        "x85": {
-            "name_en": "Ourdilic",
-            "name_fr": "Ourdilic",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(6, 22)",
-            "patch": "2.51",
-            "drops": ["tt.38", "tt.26", "tt.11"],
-            "quest": ""
-        },
-        "x75": {
-            "name_en": "Marcette",
-            "name_fr": "Marcette",
-            "zone": "@PLACE.CENTRAL_SHROUD",
-            "location": "(16, 18)",
-            "patch": "2.51",
-            "drops": ["tt.35", "tt.42"],
-            "quest": ""
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(30.6, 12.3)",
+            "quest": "q.70075",
+            "patch": "6.1"
         },
         "x107": {
             "name_en": "Worldly Imperial",
             "name_fr": "Garlemaldais avec de l'entregent",
-            "zone": "@PLACE.GARLEMALD",
-            "location": "(31.8, 17.0)",
-            "patch": "6.0",
             "drops": "tt.340",
-            "quest": "q.69929"
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(31.8, 17.0)",
+            "quest": "q.69929",
+            "patch": "6.0"
         },
-        "x58": {
-            "name_en": "Furtive Former Imperial",
-            "name_fr": "Soldat Impérial plein d'entrain",
-            "zone": "@PLACE.TERNCLIFF",
-            "location": "(5.0, 6.3)",
-            "patch": "5.3",
-            "drops": "tt.302",
-            "quest": "q.69431"
+        "x106": {
+            "name_en": "Celia",
+            "name_fr": "Celia",
+            "drops": ["tt.338", "tt.341"],
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(15.8, 7.0)",
+            "quest": "q.70000",
+            "patch": "6.0"
         },
-        "x6": {
-            "name_en": "Glynard",
-            "name_fr": "Glynard",
-            "zone": "@PLACE.THE_CRYSTARIUM",
-            "location": "(10.8, 15.2)",
-            "patch": "5.0",
-            "drops": "tt.253",
-            "quest": "q.68837"
+        "x105": {
+            "name_en": "Mehryde",
+            "name_fr": "Mehryde",
+            "drops": "tt.330",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(10.8, 7.6)",
+            "quest": "q.69805",
+            "patch": "6.0"
         },
-        "x34": {
-            "name_en": "Hargra",
-            "name_fr": "Hargra",
-            "zone": "@PLACE.RAK_TIKA",
-            "location": "(18.5, 26.0)",
-            "patch": "5.0",
-            "drops": ["tt.258", "tt.268"],
-            "quest": "q.68991"
+        "x104": {
+            "name_en": "Cheatingway",
+            "name_fr": "Cheatingway",
+            "drops": ["tt.331", "tt.332"],
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(11.1, 8.9)",
+            "quest": "q.69985",
+            "patch": "6.0"
         },
-        "x61": {
-            "name_en": "Grewenn",
-            "name_fr": "Grewenn",
-            "zone": "@PLACE.EULMORE",
-            "location": "(12.5, 9.9)",
-            "patch": "5.0",
-            "drops": ["tt.266", "tt.270"],
-            "quest": "q.69190"
+        "x103": {
+            "name_en": "Aiglephine",
+            "name_fr": "Aiglephine",
+            "drops": "tt.327",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(29.3, 13.2)",
+            "quest": "q.69898",
+            "patch": "6.0"
         },
-        "x79": {
-            "name_en": "Mero Roggo",
-            "name_fr": "Mero Roggo",
-            "zone": "@PLACE.THE_DRAVANIAN_HINTERLANDS",
-            "location": "(12.7, 36.8)",
-            "patch": "3.0",
-            "drops": ["tt.94", "tt.130", "tt.161", "tt.251"],
-            "quest": "q.68685"
+        "x102": {
+            "name_en": "Qetanur",
+            "name_fr": "Qetanur",
+            "drops": "tt.328",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(19.7, 9.2)",
+            "quest": "q.69910",
+            "patch": "6.0"
         },
-        "x67": {
-            "name_en": "Ironworks Hand",
-            "name_fr": "Employé des Forges",
-            "zone": "@PLACE.RHALGRS_REACH",
-            "location": "(13.7, 11.3)",
-            "patch": "4.5",
-            "drops": ["tt.247", "tt.240", "tt.197"],
-            "quest": "q.68693"
-        },
-        "x27": {
-            "name_en": "Botan",
-            "name_fr": "Botan",
-            "zone": "@PLACE.KUGANE",
-            "location": "(7.8, 14,.7)",
-            "patch": "4.36",
-            "drops": ["tt.226", "tt.227", "tt.236", "tt.223"],
-            "quest": "q.68148"
-        },
-        "x44": {
-            "name_en": "Nell Half-full",
-            "name_fr": "Nell la Boit-sans-soif",
-            "zone": "@PLACE.BATTLE_HALL",
-            "location": "(3.3, 3.7)",
-            "patch": "3.4",
-            "drops": "tt.164",
-            "quest": ""
-        },
-        "x19": {
-            "name_en": "Prideful Stag",
-            "name_fr": "Prideful Stag le Parvenu",
-            "zone": "@PLACE.BATTLE_HALL",
-            "location": "(3.7, 3.3)",
-            "patch": "3.4",
-            "drops": "tt.158",
-            "quest": ""
-        },
-        "x57": {
-            "name_en": "Flichoirel the Lordling",
-            "name_fr": "Flichoirel le Seigneurial",
-            "zone": "@PLACE.BATTLE_HALL",
-            "location": "(3.7, 3.7)",
-            "patch": "3.4",
-            "drops": ["tt.155", "tt.167"],
-            "quest": ""
-        },
-        "x22": {
-            "name_en": "Seika",
-            "name_fr": "Seika",
-            "zone": "@PLACE.IDYLLSHIRE",
-            "location": "(6.7, 7.4)",
-            "patch": "3.1",
-            "drops": ["tt.106", "tt.107", "tt.117"],
-            "quest": "q.67630"
-        },
-        "x45": {
-            "name_en": "Noes",
-            "name_fr": "Noes",
-            "zone": "@PLACE.OLD_GRIDANIA",
-            "location": "(10, 5)",
-            "patch": "3.0",
-            "drops": ["tt.81", "tt.131"],
-            "quest": ""
-        },
-        "x53": {
-            "name_en": "Yellow Moon",
-            "name_fr": "Yellow Moon",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "location": "(14, 13)",
-            "patch": "3.0",
-            "drops": "tt.84",
-            "quest": ""
-        },
-        "x95": {
-            "name_en": "Yayake",
-            "name_fr": "Yayake",
-            "zone": "@PLACE.UL_DAH_STEPS_OF_NALD",
-            "location": "(7.3, 12.4)",
-            "patch": "3.0",
-            "drops": ["tt.96", "tt.127"],
-            "quest": ""
-        },
-        "x72": {
-            "name_en": "Landenel",
-            "name_fr": "Landenel",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(16, 28)",
-            "patch": "2.51",
-            "drops": ["tt.52", "tt.41"],
-            "quest": "q.66053"
-        },
-        "x41": {
-            "name_en": "Lamlyn",
-            "name_fr": "Lamlyn",
-            "zone": "@PLACE.LAKELAND",
-            "location": "(35.4, 20.2)",
-            "patch": "5.0",
-            "drops": "tt.265",
-            "quest": "q.69180"
-        },
-        "x37": {
-            "name_en": "Hokushin",
-            "name_fr": "Hokushin",
-            "zone": "@PLACE.KUGANE",
-            "location": "(14.4, 11.2)",
-            "patch": "4.45",
-            "drops": ["tt.231", "tt.239"],
-            "quest": "q.68687"
-        },
-        "x68": {
-            "name_en": "Kikimo",
-            "name_fr": "Kikimo",
-            "zone": "@PLACE.KUGANE",
-            "location": "(8.6, 14.0)",
-            "patch": "4.2",
-            "drops": "tt.219",
-            "quest": "q.68008"
-        },
-        "x46": {
-            "name_en": "O'kalkaya",
-            "name_fr": "O'kalkaya",
-            "zone": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "location": "(12, 13)",
-            "patch": "4.0",
-            "drops": ["tt.144", "tt.65", "tt.149"],
-            "quest": "q.67784"
-        },
-        "x43": {
-            "name_en": "Mordyn",
-            "name_fr": "Mordyn",
-            "zone": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "location": "(11, 7)",
-            "patch": "2.51",
-            "drops": ["tt.145", "tt.65", "tt.126"],
-            "quest": "q.67784"
-        },
-        "x52": {
-            "name_en": "Vath Deftarm",
-            "name_fr": "Futé",
-            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
-            "location": "(23, 19)",
-            "patch": "3.0",
-            "drops": ["tt.97", "tt.109", "tt.85"],
-            "quest": "q.67796"
-        },
-        "x71": {
-            "name_en": "Klynthota",
-            "name_fr": "Klynthota",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(30, 13)",
-            "patch": "3.2",
-            "drops": ["tt.140", "tt.132", "tt.135", "tt.150"],
-            "quest": "q.66031"
-        },
-        "x94": {
-            "name_en": "Wawalago",
-            "name_fr": "Wawalago",
-            "zone": "@PLACE.LIMSA_LOMINSA_LOWER_DECKS",
-            "location": "(8, 15)",
-            "patch": "3.0",
-            "drops": "tt.89",
-            "quest": ""
-        },
-        "x60": {
-            "name_en": "Gibrillont",
-            "name_fr": "Gibrillont",
-            "zone": "@PLACE.FOUNDATION",
-            "location": "(13, 12)",
-            "patch": "3.0",
-            "drops": "tt.88",
-            "quest": "q.67118"
-        },
-        "x59": {
-            "name_en": "Gegeruju",
-            "name_fr": "Gegeruju",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(35, 30)",
-            "patch": "2.51",
-            "drops": ["tt.56", "tt.49"],
-            "quest": "q.66053"
-        },
-        "x93": {
-            "name_en": "Voracious Vath",
-            "name_fr": "Vathe Vorace",
-            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
-            "location": "(23, 19)",
-            "patch": "3.1",
-            "drops": ["tt.105", "tt.109"],
-            "quest": "q.67329"
-        },
-        "x62": {
-            "name_en": "Hab",
-            "name_fr": "Hab",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(24, 40)",
-            "patch": "2.51",
-            "drops": ["tt.45", "tt.62", "tt.46"],
-            "quest": "q.66558"
+        "x101": {
+            "name_en": "Sladkey",
+            "name_fr": "Sladkey",
+            "drops": ["tt.321", "tt.322"],
+            "zone": "@PLACE.SHB.GANGOS",
+            "location": "(5.7, 6.7)",
+            "quest": "q.69624",
+            "patch": "5.55"
         },
         "x100": {
             "name_en": "Vorsaile Heuloix",
             "name_fr": "Vorsaile Heuloix",
-            "zone": "@PLACE.NEW_GRIDANIA",
-            "location": "(9.7, 11.0)",
-            "patch": "2.51",
             "drops": ["tt.66", "tt.48", "tt.53", "tt.43"],
-            "quest": "q.66221"
-        },
-        "x63": {
-            "name_en": "Hachinan",
-            "name_fr": "Hachinan",
-            "zone": "@PLACE.YANXIA",
-            "location": "(26.4, 12.9)",
-            "patch": "4.0",
-            "drops": ["tt.238", "tt.201"],
-            "quest": "q.68610"
-        },
-        "x98": {
-            "name_en": "Isobe",
-            "name_fr": "Isobe",
-            "zone": "@PLACE.THE_RUBY_SEA",
-            "location": "(20.2, 19.5)",
-            "patch": "4.2",
-            "drops": ["tt.212", "tt.220"],
-            "quest": "q.68243"
-        },
-        "x65": {
-            "name_en": "Imperial Deserter",
-            "name_fr": "Soldat impérial",
-            "zone": "@PLACE.THE_LOCHS",
-            "location": "(32.8, 30.1)",
-            "patch": "4.0",
-            "drops": ["tt.207", "tt.192", "tt.198"],
-            "quest": "q.68089"
-        },
-        "x73": {
-            "name_en": "Laniaitte",
-            "name_fr": "Laniaitte",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
-            "location": "(16, 37)",
-            "patch": "3.1",
-            "drops": ["tt.104", "tt.103"],
-            "quest": "q.67410"
-        },
-        "x96": {
-            "name_en": "Elaisse",
-            "name_fr": "Elaisse",
-            "zone": "@PLACE.THE_PILLARS",
-            "location": "(7, 10)",
-            "patch": "3.1",
-            "drops": ["tt.102", "tt.142"],
-            "quest": "q.67406"
-        },
-        "x76": {
-            "name_en": "Marielle",
-            "name_fr": "Marielle",
-            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
-            "location": "(15, 37)",
-            "patch": "3.0",
-            "drops": ["tt.93", "tt.143"],
-            "quest": "q.67132"
-        },
-        "x39": {
-            "name_en": "Idle Imperial",
-            "name_fr": "Impérial désœuvré",
-            "zone": "@PLACE.AZYS_LLA",
-            "location": "(28, 31)",
-            "patch": "3.0",
-            "drops": ["tt.148", "tt.91", "tt.119", "tt.151"],
-            "quest": "q.67199"
-        },
-        "x86": {
-            "name_en": "R'ashaht Rhiki",
-            "name_fr": "R'ashaht Rhiki",
-            "zone": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "location": "(13, 12)",
-            "patch": "2.51",
-            "drops": ["tt.54", "tt.65", "tt.49"],
-            "quest": "q.66221"
-        },
-        "x69": {
-            "name_en": "King Elmer III",
-            "name_fr": "Elmer le Roi",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(3, 7)",
-            "patch": "2.51",
-            "drops": ["tt.61", "tt.45"],
-            "quest": ""
-        },
-        "x66": {
-            "name_en": "Indolent Imperial",
-            "name_fr": "Impérial paresseux",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(11, 17)",
-            "patch": "2.51",
-            "drops": ["tt.64", "tt.31", "tt.47", "tt.32"],
-            "quest": ""
-        },
-        "x83": {
-            "name_en": "Nigen",
-            "name_fr": "Nigen",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "location": "(31.9, 11.5)",
-            "patch": "4.0",
-            "drops": ["tt.194", "tt.188"],
-            "quest": "q.68308"
-        },
-        "x84": {
-            "name_en": "Ogodei",
-            "name_fr": "Ogodei",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "location": "(22, 20.7)",
-            "patch": "4.0",
-            "drops": ["tt.195", "tt.188"],
-            "quest": "q.68311"
-        },
-        "x82": {
-            "name_en": "Munglig",
-            "name_fr": "Munglig",
-            "zone": "@PLACE.THE_AZIM_STEPPE",
-            "location": "(12.2, 33.7)",
-            "patch": "4.0",
-            "drops": ["tt.196", "tt.188"],
-            "quest": "q.68048"
-        },
-        "x97": {
-            "name_en": "Hall Overseer",
-            "name_fr": "Croupier de l'arène",
-            "zone": "@PLACE.BATTLE_HALL",
-            "location": "(3.5, 3.5)",
-            "patch": "2.51",
-            "drops": ["tt.73", "tt.160"],
-            "quest": ""
-        },
-        "x14": {
-            "name_en": "Marcechamp",
-            "name_fr": "Marcechamp",
-            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
-            "location": "(31, 23)",
-            "patch": "3.0",
-            "drops": "tt.90",
-            "quest": "q.67148"
-        },
-        "x81": {
-            "name_en": "Mogmill",
-            "name_fr": "Mogmill",
-            "zone": "@PLACE.THE_CHURNING_MISTS",
-            "location": "(28, 35)",
-            "patch": "3.0",
-            "drops": ["tt.83", "tt.115", "tt.82", "tt.108"],
-            "quest": "q.67376"
-        },
-        "x80": {
-            "name_en": "Midnight Dew",
-            "name_fr": "Midnight Dew",
-            "zone": "@PLACE.IDYLLSHIRE",
-            "location": "(5.5, 6.6)",
-            "patch": "3.0",
-            "drops": ["tt.92", "tt.111"],
-            "quest": "q.67501"
-        },
-        "x88": {
-            "name_en": "Rowena",
-            "name_fr": "Rowena",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(21.9, 5.1)",
-            "patch": "2.51",
-            "drops": ["tt.34", "tt.60"],
-            "quest": "q.66241"
-        },
-        "x70": {
-            "name_en": "Kiuka",
-            "name_fr": "Kiuka",
-            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
-            "location": "(6.9, 5.9)",
-            "patch": "4.0",
-            "drops": "tt.202",
-            "quest": ""
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "location": "(9.7, 11.0)",
+            "quest": "q.66221",
+            "patch": "2.51"
         },
         "x99": {
             "name_en": "Lewena",
             "name_fr": "Lewena",
-            "zone": "@PLACE.THE_GOLD_SAUCER",
-            "location": "(4, 6)",
-            "patch": "2.51",
             "drops": ["tt.72", "tt.70", "tt.73"],
-            "quest": ""
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.8, 6.1)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x98": {
+            "name_en": "Isobe",
+            "name_fr": "Isobe",
+            "drops": ["tt.212", "tt.220"],
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "location": "(20.2, 19.5)",
+            "quest": "q.68243",
+            "patch": "4.2"
+        },
+        "x97": {
+            "name_en": "Hall Overseer",
+            "name_fr": "Croupier de l'arène",
+            "drops": ["tt.73", "tt.160"],
+            "zone": "@PLACE.BATTLE_HALL",
+            "location": "(3.5, 3.5)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x96": {
+            "name_en": "Elaisse",
+            "name_fr": "Elaisse",
+            "drops": ["tt.102", "tt.142"],
+            "zone": "@PLACE.HW.THE_PILLARS",
+            "location": "(7.8, 10.8)",
+            "quest": "q.67406",
+            "patch": "3.1"
+        },
+        "x95": {
+            "name_en": "Yayake",
+            "name_fr": "Yayake",
+            "drops": ["tt.96", "tt.127"],
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "location": "(7.3, 12.4)",
+            "quest": "",
+            "patch": "3.0"
+        },
+        "x94": {
+            "name_en": "Wawalago",
+            "name_fr": "Wawalago",
+            "drops": "tt.89",
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_LOWER_DECKS",
+            "location": "(8.1, 15.3)",
+            "quest": "",
+            "patch": "3.0"
+        },
+        "x93": {
+            "name_en": "Voracious Vath",
+            "name_fr": "Vathe Vorace",
+            "drops": ["tt.105", "tt.109"],
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "location": "(22.6, 18.8)",
+            "quest": "q.67329",
+            "patch": "3.1"
+        },
+        "x92": {
+            "name_en": "Umber Torrent",
+            "name_fr": "Umber Torrent",
+            "drops": ["tt.217", "tt.189"],
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "location": "(16.4, 24.7)",
+            "quest": "q.68508",
+            "patch": "4.0"
+        },
+        "x91": {
+            "name_en": "Tapklix",
+            "name_fr": "Tapklix",
+            "drops": ["tt.163", "tt.136", "tt.117"],
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "location": "(21.0, 17.8)",
+            "quest": "q.67789",
+            "patch": "3.1"
+        },
+        "x90": {
+            "name_en": "Sezul Totoloc",
+            "name_fr": "Sezul Totoloc",
+            "drops": ["tt.38", "tt.33", "tt.58", "tt.162"],
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(24.5, 23.5)",
+            "quest": "q.67029",
+            "patch": "2.51"
+        },
+        "x89": {
+            "name_en": "Ruhtwyda of the Three Hearts",
+            "name_fr": "Ruthwyda la Dame de cœur",
+            "drops": ["tt.45", "tt.50"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(3.9, 7.5)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x88": {
+            "name_en": "Rowena",
+            "name_fr": "Rowena",
+            "drops": ["tt.34", "tt.60"],
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(21.9, 5.1)",
+            "quest": "q.66241",
+            "patch": "2.51"
+        },
+        "x87": {
+            "name_en": "Redbill Storeboy",
+            "name_fr": "Intendant des Becs-rouges",
+            "drops": ["tt.152", "tt.179", "tt.112", "tt.129"],
+            "zone": "@PLACE.HW.IDYLLSHIRE",
+            "location": "(3.8, 4.5)",
+            "quest": "q.67910",
+            "patch": "3.1"
+        },
+        "x86": {
+            "name_en": "R'ashaht Rhiki",
+            "name_fr": "R'ashaht Rhiki",
+            "drops": ["tt.54", "tt.65", "tt.49"],
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(13, 12)",
+            "quest": "q.66221",
+            "patch": "2.51"
+        },
+        "x85": {
+            "name_en": "Ourdilic",
+            "name_fr": "Ourdilic",
+            "drops": ["tt.38", "tt.26", "tt.11"],
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(6.2, 22.6)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x84": {
+            "name_en": "Ogodei",
+            "name_fr": "Ogodei",
+            "drops": ["tt.195", "tt.188"],
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "location": "(22.1, 20.8)",
+            "quest": "q.68311",
+            "patch": "4.0"
+        },
+        "x83": {
+            "name_en": "Nigen",
+            "name_fr": "Nigen",
+            "drops": ["tt.194", "tt.188"],
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "location": "(31.9, 11.5)",
+            "quest": "q.68308",
+            "patch": "4.0"
+        },
+        "x82": {
+            "name_en": "Munglig",
+            "name_fr": "Munglig",
+            "drops": ["tt.196", "tt.188"],
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "location": "(12.2, 33.7)",
+            "quest": "q.68048",
+            "patch": "4.0"
+        },
+        "x81": {
+            "name_en": "Mogmill",
+            "name_fr": "Mogmill",
+            "drops": ["tt.83", "tt.115", "tt.82", "tt.108"],
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "location": "(27.0, 34.4)",
+            "quest": "q.67376",
+            "patch": "3.0"
+        },
+        "x80": {
+            "name_en": "Midnight Dew",
+            "name_fr": "Midnight Dew",
+            "drops": ["tt.92", "tt.111"],
+            "zone": "@PLACE.HW.IDYLLSHIRE",
+            "location": "(5.5, 6.6)",
+            "quest": "q.67501",
+            "patch": "3.0"
+        },
+        "x79": {
+            "name_en": "Mero Roggo",
+            "name_fr": "Mero Roggo",
+            "drops": ["tt.94", "tt.130", "tt.161", "tt.251"],
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "location": "(12.7, 36.8)",
+            "quest": "q.68685",
+            "patch": "3.0"
+        },
+        "x78": {
+            "name_en": "Master Mogzin",
+            "name_fr": "Mogzin",
+            "drops": ["tt.43", "tt.146", "tt.153", "tt.124"],
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "location": "(15, 28)",
+            "quest": "q.67863",
+            "patch": "3.3"
+        },
+        "x77": {
+            "name_en": "Masatsuchi",
+            "name_fr": "Masatsuchi",
+            "drops": ["tt.211", "tt.218"],
+            "zone": "@PLACE.SB.YANXIA",
+            "location": "(29.5, 20.2)",
+            "quest": "q.68268",
+            "patch": "4.2"
+        },
+        "x76": {
+            "name_en": "Marielle",
+            "name_fr": "Marielle",
+            "drops": ["tt.93", "tt.143"],
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "location": "(14.7, 36.7)",
+            "quest": "q.67132",
+            "patch": "3.0"
+        },
+        "x75": {
+            "name_en": "Marcette",
+            "name_fr": "Marcette",
+            "drops": ["tt.35", "tt.42"],
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "location": "(16.6, 18.7)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x74": {
+            "name_en": "Lewto-Sue",
+            "name_fr": "Lewto-Sue",
+            "drops": ["tt.314", "tt.313"],
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "location": "(26.9, 16.3)",
+            "quest": "q.69515",
+            "patch": "5.4"
+        },
+        "x73": {
+            "name_en": "Laniaitte",
+            "name_fr": "Laniaitte",
+            "drops": ["tt.104", "tt.103"],
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "location": "(16.2, 36.3)",
+            "quest": "q.67410",
+            "patch": "3.1"
+        },
+        "x72": {
+            "name_en": "Landenel",
+            "name_fr": "Landenel",
+            "drops": ["tt.52", "tt.41"],
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(16.9, 28.3)",
+            "quest": "q.66053",
+            "patch": "2.51"
+        },
+        "x71": {
+            "name_en": "Klynthota",
+            "name_fr": "Klynthota",
+            "drops": ["tt.140", "tt.132", "tt.135", "tt.150"],
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(30.5, 13.7)",
+            "quest": "q.66031",
+            "patch": "3.2"
+        },
+        "x70": {
+            "name_en": "Kiuka",
+            "name_fr": "Kiuka",
+            "drops": "tt.202",
+            "zone": "@PLACE.SB.THE_DOMAN_ENCLAVE",
+            "location": "(6.9, 5.9)",
+            "quest": "",
+            "patch": "4.0"
+        },
+        "x69": {
+            "name_en": "King Elmer III",
+            "name_fr": "Elmer le Roi",
+            "drops": ["tt.61", "tt.45"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(3.8, 7.9)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x68": {
+            "name_en": "Kikimo",
+            "name_fr": "Kikimo",
+            "drops": "tt.219",
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(8.6, 14.0)",
+            "quest": "q.68008",
+            "patch": "4.2"
+        },
+        "x67": {
+            "name_en": "Ironworks Hand",
+            "name_fr": "Employé des Forges",
+            "drops": ["tt.247", "tt.240", "tt.197"],
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "location": "(13.7, 11.3)",
+            "quest": "q.68693",
+            "patch": "4.5"
+        },
+        "x66": {
+            "name_en": "Indolent Imperial",
+            "name_fr": "Impérial paresseux",
+            "drops": ["tt.64", "tt.31", "tt.47", "tt.32"],
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(12.0, 17.4)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x65": {
+            "name_en": "Imperial Deserter",
+            "name_fr": "Soldat impérial",
+            "drops": ["tt.207", "tt.192", "tt.198"],
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "location": "(32.8, 30.1)",
+            "quest": "q.68089",
+            "patch": "4.0"
+        },
+        "x64": {
+            "name_en": "Hanagasa",
+            "name_fr": "Hanagasa",
+            "drops": ["tt.209", "tt.208", "tt.250", "tt.229"],
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(10.4, 11.9)",
+            "quest": "q.68725",
+            "patch": "5.2"
+        },
+        "x63": {
+            "name_en": "Hachinan",
+            "name_fr": "Hachinan",
+            "drops": ["tt.238", "tt.201"],
+            "zone": "@PLACE.SB.YANXIA",
+            "location": "(26.4, 12.9)",
+            "quest": "q.68610",
+            "patch": "4.0"
+        },
+        "x62": {
+            "name_en": "Hab",
+            "name_fr": "Hab",
+            "drops": ["tt.45", "tt.62", "tt.46"],
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(24.9, 41.0)",
+            "quest": "q.66558",
+            "patch": "2.51"
+        },
+        "x61": {
+            "name_en": "Grewenn",
+            "name_fr": "Grewenn",
+            "drops": ["tt.266", "tt.270"],
+            "zone": "@PLACE.SHB.EULMORE",
+            "location": "(12.5, 9.9)",
+            "quest": "q.69190",
+            "patch": "5.0"
+        },
+        "x60": {
+            "name_en": "Gibrillont",
+            "name_fr": "Gibrillont",
+            "drops": "tt.88",
+            "zone": "@PLACE.HW.FOUNDATION",
+            "location": "(13.0, 11.9)",
+            "quest": "q.67118",
+            "patch": "3.0"
+        },
+        "x59": {
+            "name_en": "Gegeruju",
+            "name_fr": "Gegeruju",
+            "drops": ["tt.56", "tt.49"],
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(33.9, 30.6)",
+            "quest": "q.66053",
+            "patch": "2.51"
+        },
+        "x58": {
+            "name_en": "Furtive Former Imperial",
+            "name_fr": "Soldat Impérial plein d'entrain",
+            "drops": "tt.302",
+            "zone": "@PLACE.SHB.TERNCLIFF",
+            "location": "(5.0, 6.3)",
+            "quest": "q.69431",
+            "patch": "5.3"
+        },
+        "x57": {
+            "name_en": "Flichoirel the Lordling",
+            "name_fr": "Flichoirel le Seigneurial",
+            "drops": ["tt.155", "tt.167"],
+            "zone": "@PLACE.BATTLE_HALL",
+            "location": "(3.7, 3.7)",
+            "quest": "",
+            "patch": "3.4"
+        },
+        "x56": {
+            "name_en": "Buscarron",
+            "name_fr": "Buscarron",
+            "drops": ["tt.23", "tt.48", "tt.44"],
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(18.1, 19.8)",
+            "quest": "q.66050",
+            "patch": "2.51"
+        },
+        "x55": {
+            "name_en": "Arsieu",
+            "name_fr": "Arsieu",
+            "drops": ["tt.299", "tt.298"],
+            "zone": "@PLACE.SHB.GANGOS",
+            "location": "(5.9, 6.6)",
+            "quest": "q.69487",
+            "patch": "5.35"
+        },
+        "x54": {
+            "name_en": "Yusui",
+            "name_fr": "Yusui",
+            "drops": "tt.214",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "location": "(31.6, 37.1)",
+            "quest": "q.68014",
+            "patch": "4.2"
+        },
+        "x53": {
+            "name_en": "Yellow Moon",
+            "name_fr": "Yellow Moon",
+            "drops": "tt.84",
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "location": "(14.1, 13.3)",
+            "quest": "",
+            "patch": "3.0"
+        },
+        "x52": {
+            "name_en": "Vath Deftarm",
+            "name_fr": "Futé",
+            "drops": ["tt.97", "tt.109", "tt.85"],
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "location": "(23, 19)",
+            "quest": "q.67796",
+            "patch": "3.0"
+        },
+        "x51": {
+            "name_en": "Ushiogi",
+            "name_fr": "Ushiogi",
+            "drops": ["tt.222", "tt.225", "tt.221"],
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "location": "(21.7, 7.9)",
+            "quest": "q.68668",
+            "patch": "4.35"
+        },
+        "x50": {
+            "name_en": "Tsuzura",
+            "name_fr": "Tsuzura",
+            "drops": "tt.184",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "location": "(28.5, 16.4)",
+            "quest": "q.68227",
+            "patch": "4.0"
+        },
+        "x49": {
+            "name_en": "Swift",
+            "name_fr": "Swift",
+            "drops": ["tt.59", "tt.40", "tt.113", "tt.67"],
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "location": "(8.4, 8.9)",
+            "quest": "q.66221",
+            "patch": "2.51"
+        },
+        "x48": {
+            "name_en": "Redard",
+            "name_fr": "Redard",
+            "drops": ["tt.287", "tt.284"],
+            "zone": "@PLACE.SHB.RAK_TIKA",
+            "location": "(20.4, 27.2)",
+            "quest": "q.69330",
+            "patch": "5.2"
+        },
+        "x47": {
+            "name_en": "Piralnaut",
+            "name_fr": "Piralnaut",
+            "drops": ["tt.35", "tt.24"],
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(17.5, 26.6)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x46": {
+            "name_en": "O'kalkaya",
+            "name_fr": "O'kalkaya",
+            "drops": ["tt.144", "tt.65", "tt.149"],
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(12.2, 14.0)",
+            "quest": "q.67784",
+            "patch": "4.0"
+        },
+        "x45": {
+            "name_en": "Noes",
+            "name_fr": "Noes",
+            "drops": ["tt.81", "tt.131"],
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "location": "(10.6, 5.5)",
+            "quest": "",
+            "patch": "3.0"
+        },
+        "x44": {
+            "name_en": "Nell Half-full",
+            "name_fr": "Nell la Boit-sans-soif",
+            "drops": "tt.164",
+            "zone": "@PLACE.BATTLE_HALL",
+            "location": "(3.3, 3.7)",
+            "quest": "",
+            "patch": "3.4"
+        },
+        "x43": {
+            "name_en": "Mordyn",
+            "name_fr": "Mordyn",
+            "drops": ["tt.145", "tt.65", "tt.126"],
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(11.3, 8.0)",
+            "quest": "q.67784",
+            "patch": "2.51"
+        },
+        "x42": {
+            "name_en": "Linu Vali",
+            "name_fr": "Linu Vali",
+            "drops": ["tt.98", "tt.123", "tt.147"],
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "location": "(6, 14)",
+            "quest": "q.67761",
+            "patch": "3.0"
+        },
+        "x41": {
+            "name_en": "Lamlyn",
+            "name_fr": "Lamlyn",
+            "drops": "tt.265",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "location": "(35.4, 20.2)",
+            "quest": "q.69180",
+            "patch": "5.0"
+        },
+        "x40": {
+            "name_en": "Kaizan",
+            "name_fr": "Kaizan",
+            "drops": "tt.193",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "location": "(22.3, 8.6)",
+            "quest": "q.68216",
+            "patch": "4.0"
+        },
+        "x39": {
+            "name_en": "Idle Imperial",
+            "name_fr": "Impérial désœuvré",
+            "drops": ["tt.148", "tt.91", "tt.119", "tt.151"],
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "location": "(26.8, 30.2)",
+            "quest": "q.67199",
+            "patch": "3.0"
+        },
+        "x38": {
+            "name_en": "House Fortemps Manservant",
+            "name_fr": "Serviteur des Fortemps",
+            "drops": ["tt.133", "tt.134", "tt.121"],
+            "zone": "@PLACE.HW.FORTEMPS_MANOR",
+            "location": "(11, 11)",
+            "quest": "q.67205",
+            "patch": "3.2"
+        },
+        "x37": {
+            "name_en": "Hokushin",
+            "name_fr": "Hokushin",
+            "drops": ["tt.231", "tt.239"],
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(14.4, 11.2)",
+            "quest": "q.68687",
+            "patch": "4.45"
+        },
+        "x36": {
+            "name_en": "Hetsukaze",
+            "name_fr": "Hetsukaze",
+            "drops": ["tt.243", "tt.237", "tt.242", "tt.245"],
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(8.0, 13.6)",
+            "quest": "q.68149",
+            "patch": "4.45"
+        },
+        "x35": {
+            "name_en": "Helmhart",
+            "name_fr": "Helmhart",
+            "drops": ["tt.34", "tt.22"],
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(20.2, 21.4)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x34": {
+            "name_en": "Hargra",
+            "name_fr": "Hargra",
+            "drops": ["tt.258", "tt.268"],
+            "zone": "@PLACE.SHB.RAK_TIKA",
+            "location": "(18.5, 26.0)",
+            "quest": "q.68991",
+            "patch": "5.0"
+        },
+        "x33": {
+            "name_en": "Gyuf Uin",
+            "name_fr": "Gyuf Uin",
+            "drops": "tt.257",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "location": "(16.1, 30.7)",
+            "quest": "q.68856",
+            "patch": "5.0"
+        },
+        "x32": {
+            "name_en": "Garima",
+            "name_fr": "Garima",
+            "drops": ["tt.185", "tt.205"],
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "location": "(28.2, 19.9)",
+            "quest": "q.68353",
+            "patch": "4.0"
+        },
+        "x31": {
+            "name_en": "Eo Sigun",
+            "name_fr": "Eo Sigun",
+            "drops": ["tt.276", "tt.274"],
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "location": "(22.2, 3.6)",
+            "quest": "q.69219",
+            "patch": "5.1"
+        },
+        "x30": {
+            "name_en": "Droyn",
+            "name_fr": "Droyn",
+            "drops": ["tt.309", "tt.310"],
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_THAL",
+            "location": "(11.8, 13.0)",
+            "quest": "q.69273",
+            "patch": "5.45"
+        },
+        "x29": {
+            "name_en": "Dominiac",
+            "name_fr": "Dominiac",
+            "drops": ["tt.101", "tt.86"],
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "location": "(15.9, 21.6)",
+            "quest": "q.67434",
+            "patch": "3.0"
+        },
+        "x28": {
+            "name_en": "Cobleva",
+            "name_fr": "Cobleva",
+            "drops": ["tt.294", "tt.296"],
+            "zone": "@PLACE.SHB.LAKELAND",
+            "location": "(14.3, 7.8)",
+            "quest": "q.69437",
+            "patch": "5.3"
+        },
+        "x27": {
+            "name_en": "Botan",
+            "name_fr": "Botan",
+            "drops": ["tt.226", "tt.227", "tt.236", "tt.223"],
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(7.8, 14.7)",
+            "quest": "q.68148",
+            "patch": "4.36"
+        },
+        "x26": {
+            "name_en": "Aurifort of the Three Clubs",
+            "name_fr": "Aurifort l'As de trèfle",
+            "drops": ["tt.12", "tt.27"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.1, 7.8)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x25": {
+            "name_en": "Wyra \"Greenhands\" Lyehga",
+            "name_fr": "Wyra Lyehga La Main Verte",
+            "drops": "tt.154",
+            "zone": "@PLACE.BATTLE_HALL",
+            "location": "(3.3, 3.3)",
+            "quest": "",
+            "patch": "3.4"
+        },
+        "x24": {
+            "name_en": "Wymond",
+            "name_fr": "Wymond",
+            "drops": ["tt.8", "tt.141"],
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "location": "(9.8, 8.7)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x23": {
+            "name_en": "Trachtoum",
+            "name_fr": "Trachtoum",
+            "drops": ["tt.20", "tt.41"],
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(35.7, 15.9)",
+            "quest": "q.66053",
+            "patch": "2.51"
+        },
+        "x22": {
+            "name_en": "Seika",
+            "name_fr": "Seika",
+            "drops": ["tt.106", "tt.107", "tt.117"],
+            "zone": "@PLACE.HW.IDYLLSHIRE",
+            "location": "(6.7, 7.4)",
+            "quest": "q.67630",
+            "patch": "3.1"
+        },
+        "x21": {
+            "name_en": "Saushs Koal",
+            "name_fr": "Saushs Koal",
+            "drops": "tt.259",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
+            "location": "(31.4, 17.3)",
+            "quest": "q.69113",
+            "patch": "5.0"
+        },
+        "x20": {
+            "name_en": "Roger",
+            "name_fr": "Roger",
+            "drops": ["tt.9", "tt.5"],
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(19.5, 20.7)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x19": {
+            "name_en": "Prideful Stag",
+            "name_fr": "Prideful Stag le Parvenu",
+            "drops": "tt.158",
+            "zone": "@PLACE.BATTLE_HALL",
+            "location": "(3.7, 3.3)",
+            "quest": "",
+            "patch": "3.4"
+        },
+        "x18": {
+            "name_en": "Mother Miounne",
+            "name_fr": "Mother Miounne",
+            "drops": ["tt.12", "tt.30"],
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "location": "(11.7, 13.6)",
+            "quest": "q.66046",
+            "patch": "2.51"
+        },
+        "x17": {
+            "name_en": "Momodi",
+            "name_fr": "Momodi",
+            "drops": "tt.28",
+            "zone": "@PLACE.ARR.UL_DAH_STEPS_OF_NALD",
+            "location": "(11.6, 9.6)",
+            "quest": "q.66046",
+            "patch": "2.51"
+        },
+        "x16": {
+            "name_en": "Mimidoa",
+            "name_fr": "Mimidoa",
+            "drops": ["tt.33", "tt.21"],
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(25.2, 35.1)",
+            "quest": "q.66503",
+            "patch": "2.51"
+        },
+        "x15": {
+            "name_en": "Memeroon",
+            "name_fr": "Memeroon",
+            "drops": ["tt.14", "tt.128", "tt.37", "tt.2"],
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(14.7, 24.3)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x14": {
+            "name_en": "Marcechamp",
+            "name_fr": "Marcechamp",
+            "drops": "tt.90",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "location": "(31, 23)",
+            "quest": "q.67148",
+            "patch": "3.0"
+        },
+        "x13": {
+            "name_en": "Maisenta",
+            "name_fr": "Maisenta",
+            "drops": ["tt.8", "tt.16"],
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "location": "(11.5, 11.3)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x12": {
+            "name_en": "Kotokaze",
+            "name_fr": "Kotokaze",
+            "drops": "tt.187",
+            "zone": "@PLACE.SB.KUGANE",
+            "location": "(10.2, 10.2)",
+            "quest": "q.68008",
+            "patch": "4.0"
+        },
+        "x11": {
+            "name_en": "Jonas of the Three Spades",
+            "name_fr": "Jonas le Valet de pique",
+            "drops": ["tt.15", "tt.20"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.7, 7.4)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x10": {
+            "name_en": "Joellaut",
+            "name_fr": "Joellaut",
+            "drops": ["tt.59", "tt.15"],
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(13.3, 15.6)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x9": {
+            "name_en": "Ibenart",
+            "name_fr": "Ibenart",
+            "drops": "tt.255",
+            "zone": "@PLACE.SHB.KHOLUSIA",
+            "location": "(19.1, 17.4)",
+            "quest": "q.69177",
+            "patch": "5.0"
+        },
+        "x8": {
+            "name_en": "Gyoei",
+            "name_fr": "Gyoei",
+            "drops": ["tt.183", "tt.248"],
+            "zone": "@PLACE.SB.YANXIA",
+            "location": "(15.7, 31.9)",
+            "quest": "q.68281",
+            "patch": "4.0"
+        },
+        "x7": {
+            "name_en": "Guhtwint of the Three Diamonds",
+            "name_fr": "Guthwint l'As de carreau",
+            "drops": ["tt.13", "tt.27"],
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.3, 7.0)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x6": {
+            "name_en": "Glynard",
+            "name_fr": "Glynard",
+            "drops": "tt.253",
+            "zone": "@PLACE.SHB.THE_CRYSTARIUM",
+            "location": "(10.8, 15.2)",
+            "quest": "q.68837",
+            "patch": "5.0"
+        },
+        "x5": {
+            "name_en": "Fufulupa",
+            "name_fr": "Fufulupa",
+            "drops": ["tt.25", "tt.46"],
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(22.7, 17.2)",
+            "quest": "q.66046",
+            "patch": "2.51"
+        },
+        "x4": {
+            "name_en": "F'hobhas",
+            "name_fr": "F'hobhas",
+            "drops": "tt.36",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(23.6, 13.9)",
+            "quest": "",
+            "patch": "2.51"
+        },
+        "x3": {
+            "name_en": "Ercanbald",
+            "name_fr": "Ercanbald",
+            "drops": ["tt.86", "tt.186"],
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "location": "(9.8, 9.8)",
+            "quest": "q.67985",
+            "patch": "4.0"
+        },
+        "x2": {
+            "name_en": "Drery",
+            "name_fr": "Drery",
+            "drops": ["tt.254", "tt.256"],
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "location": "(11.9, 16.9)",
+            "quest": "q.69046",
+            "patch": "5.0"
+        },
+        "x1": {
+            "name_en": "Baderon",
+            "name_fr": "Baderon",
+            "drops": ["tt.29", "tt.18"],
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(11.7, 11.1)",
+            "quest": "q.66046",
+            "patch": "2.51"
+        },
+        "x0": {
+            "name_en": "Triple Triad Master",
+            "name_fr": "Croupière",
+            "drops": "tt.4",
+            "zone": "@PLACE.THE_GOLD_SAUCER",
+            "location": "(4.2, 7.5)",
+            "quest": "",
+            "patch": "2.51"
         }
     }
 }

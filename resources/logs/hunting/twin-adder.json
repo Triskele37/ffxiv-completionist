@@ -4,244 +4,274 @@
     "cCombo": ["a.737"],
     "tasks": {
         "x0": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 01",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(18, 27)",
+            "rank": "1",
             "mob_en": "Amalj'aa Javelinier x3",
-            "mob_fr": "Javelinier amalj'aa x3"
+            "mob_fr": "Javelinier amalj'aa x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(18, 27)",
+            "patch": "2.0"
         },
         "x1": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 02",
+            "rank": "1",
+            "mob_en": "Heckler Imp x5",
+            "mob_fr": "Imp chahuteur x5",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Heckler Imp x5",
-            "mob_fr": "Imp chahuteur x5"
+            "patch": "2.0"
         },
         "x2": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 03",
+            "rank": "1",
+            "mob_en": "Scythe Mantis x5",
+            "mob_fr": "Mante faucheuse x5",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Scythe Mantis x5",
-            "mob_fr": "Mante faucheuse x5"
+            "patch": "2.0"
         },
         "x3": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 04",
+            "rank": "1",
+            "mob_en": "Coliseum Python x5",
+            "mob_fr": "Python du Colisée x5",
             "zone": "@PLACE.DUNGEON",
             "location": "d.7",
-            "mob_en": "Coliseum Python x5",
-            "mob_fr": "Python du Colisée x5"
+            "patch": "2.0"
         },
         "x4": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 05",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(19, 21)",
+            "rank": "1",
             "mob_en": "Sylvan Scream x3",
-            "mob_fr": "Hurleur sylvain x3"
+            "mob_fr": "Hurleur sylvain x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(19, 21)",
+            "patch": "2.0"
         },
         "x5": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 06",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(12, 22)",
+            "rank": "1",
             "mob_en": "Kobold Pickman x3",
-            "mob_fr": "Piocheur kobold x3"
+            "mob_fr": "Piocheur kobold x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(12, 22)",
+            "patch": "2.0"
         },
         "x6": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 07",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(21, 15)",
+            "rank": "1",
             "mob_en": "Amalj'aa Bruiser x3",
-            "mob_fr": "Tabasseur amalj'aa x3"
+            "mob_fr": "Tabasseur amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(21, 15)",
+            "patch": "2.0"
         },
         "x7": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 08",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(22, 27)",
+            "rank": "1",
             "mob_en": "Ixali Deftalon x3",
-            "mob_fr": "Ixal serres-vives x3"
+            "mob_fr": "Ixal serres-vives x3",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(22, 27)",
+            "patch": "2.0"
         },
         "x8": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 09",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(25, 20)",
+            "rank": "1",
             "mob_en": "Amalj'aa Ranger x3",
-            "mob_fr": "Ranger amalj'aa x3"
+            "mob_fr": "Ranger amalj'aa x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(25, 20)",
+            "patch": "2.0"
         },
         "x9": {
-            "rank": "1",
             "name": "@SOCIETY.ADDER 10",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 27)",
+            "rank": "1",
             "mob_en": "Ixali Fearcaller x1",
-            "mob_fr": "Terroriseur ixal x1"
+            "mob_fr": "Terroriseur ixal x1",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 27)",
+            "patch": "2.0"
         },
         "x10": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 11",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(25, 33)",
+            "rank": "2",
             "mob_en": "Amalj'aa Sniper x3",
-            "mob_fr": "Tireur amalj'aa x3"
+            "mob_fr": "Tireur amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(25, 33)",
+            "patch": "2.0"
         },
         "x11": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 12",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(28, 25)",
+            "rank": "2",
             "mob_en": "Kobold Missionary x3",
-            "mob_fr": "Missionaire kobold x3"
+            "mob_fr": "Missionaire kobold x3",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(28, 25)",
+            "patch": "2.0"
         },
         "x12": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 13",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(29, 18)",
+            "rank": "2",
             "mob_en": "Kobold Sidesman x3",
-            "mob_fr": "Bedeau kobold x3"
+            "mob_fr": "Bedeau kobold x3",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(29, 18)",
+            "patch": "2.0"
         },
         "x13": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 14",
+            "rank": "2",
+            "mob_en": "Temple Bee x4",
+            "mob_fr": "Abeille du temple x4",
             "zone": "@PLACE.DUNGEON",
             "location": "d.9",
-            "mob_en": "Temple Bee x4",
-            "mob_fr": "Abeille du temple x4"
+            "patch": "2.0"
         },
         "x14": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 15",
+            "rank": "2",
+            "mob_en": "Temple Guardian x1",
+            "mob_fr": "Gardien du temple x1",
             "zone": "@PLACE.DUNGEON",
             "location": "d.9",
-            "mob_en": "Temple Guardian x1",
-            "mob_fr": "Gardien du temple x1"
+            "patch": "2.0"
         },
         "x15": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 16",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(22, 15)",
+            "rank": "2",
             "mob_en": "Kobold Roundsman x3",
-            "mob_fr": "Livreur kobold x3"
+            "mob_fr": "Livreur kobold x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(22, 15)",
+            "patch": "2.0"
         },
         "x16": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 17",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(28, 17)",
+            "rank": "2",
             "mob_en": "Sylvan Snarl x3",
-            "mob_fr": "Grondeur sylvain x3"
+            "mob_fr": "Grondeur sylvain x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(28, 17)",
+            "patch": "2.0"
         },
         "x17": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 18",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(18, 20)",
+            "rank": "2",
             "mob_en": "Shelfclaw Sahagin x3",
-            "mob_fr": "Sahuagin griffe-des-profondeurs x3"
+            "mob_fr": "Sahuagin griffe-des-profondeurs x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(18, 20)",
+            "patch": "2.0"
         },
         "x18": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 19",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(18, 23)",
+            "rank": "2",
             "mob_en": "Amalj'aa Lancer x3",
-            "mob_fr": "Lancier amalj'aa x3"
+            "mob_fr": "Lancier amalj'aa x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(18, 23)",
+            "patch": "2.0"
         },
         "x19": {
-            "rank": "2",
             "name": "@SOCIETY.ADDER 20",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(23, 9)",
+            "rank": "2",
             "mob_en": "U'Ghamaro Roundsman x3",
-            "mob_fr": "Livreur d'U'Ghamaro x3"
+            "mob_fr": "Livreur d'U'Ghamaro x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(23, 9)",
+            "patch": "2.0"
         },
         "x20": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 21",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(20, 20)",
+            "rank": "3",
             "mob_en": "Ixali Windtalon x3",
-            "mob_fr": "Ixal serres-vent x3"
+            "mob_fr": "Ixal serres-vent x3",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(20, 20)",
+            "patch": "2.0"
         },
         "x21": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 22",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(28, 17)",
+            "rank": "3",
             "mob_en": "Sylpheed Snarl x3",
-            "mob_fr": "Grondeur sylvain x3"
+            "mob_fr": "Grondeur sylvain x3",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(28, 17)",
+            "patch": "2.0"
         },
         "x22": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 23",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(21, 5)",
+            "rank": "3",
             "mob_en": "U'Ghamaro Quarryman x3",
-            "mob_fr": "Terrassier d'U'Ghamaro x3"
+            "mob_fr": "Terrassier d'U'Ghamaro x3",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(21, 5)",
+            "patch": "2.0"
         },
         "x23": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 24",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(16, 14)",
+            "rank": "3",
             "mob_en": "Sapsa Shelftooth x3",
-            "mob_fr": "Dent-des-profondeurs de Sapsa x3"
+            "mob_fr": "Dent-des-profondeurs de Sapsa x3",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(16, 14)",
+            "patch": "2.0"
         },
         "x24": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 25",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(26, 20)",
+            "rank": "3",
             "mob_en": "Zahar'ak Pugilist x3",
-            "mob_fr": "Pugiliste de Zahar'ak x3"
+            "mob_fr": "Pugiliste de Zahar'ak x3",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(26, 20)",
+            "patch": "2.0"
         },
         "x25": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 26",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 17)",
+            "rank": "3",
             "mob_en": "Natalan Swiftbeak x4",
-            "mob_fr": "Bec-vif de Natalan x4"
+            "mob_fr": "Bec-vif de Natalan x4",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 17)",
+            "patch": "2.0"
         },
         "x26": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 27",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 18)",
+            "rank": "3",
             "mob_en": "Natalan Boldwing x4",
-            "mob_fr": "Aile-hardie de Natalan x4"
+            "mob_fr": "Aile-hardie de Natalan x4",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 18)",
+            "patch": "2.0"
         },
         "x27": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 28",
+            "rank": "3",
+            "mob_en": "Tonberry x7",
+            "mob_fr": "Tomberry x7",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Tonberry x7",
-            "mob_fr": "Tomberry x7"
+            "patch": "2.0"
         },
         "x28": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 29",
+            "rank": "3",
+            "mob_en": "Bronze Beetle x6",
+            "mob_fr": "Scarabée de bronze x6",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Bronze Beetle x6",
-            "mob_fr": "Scarabée de bronze x6"
+            "patch": "2.0"
         },
         "x29": {
-            "rank": "3",
             "name": "@SOCIETY.ADDER 30",
+            "rank": "3",
+            "mob_en": "Keeper of Halidom x1",
+            "mob_fr": "Gardien du sanctuaire x1",
             "zone": "@PLACE.DUNGEON",
             "location": "d.10",
-            "mob_en": "Keeper of Halidom x1",
-            "mob_fr": "Gardien du sanctuaire x1"
+            "patch": "2.0"
         }
     }
 }

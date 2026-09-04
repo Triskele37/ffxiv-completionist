@@ -4,65 +4,65 @@
     "groupName_fr": "Quêtes de soigneur (Shadowbringers)",
     "tasks": {
         "x68803": {
-            "level": 70,
             "name_en": "Traditions and Travails",
             "name_fr": "Giott l'invincible",
+            "level": 70,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68837"],
-            "cNext": ["q.68804"],
-            "patch": "5.0"
+            "cNext": ["q.68804"]
         },
         "x68804": {
-            "level": 72,
             "name_en": "Affronts and Allies",
             "name_fr": "Le pouvoir de Sophrosyne",
+            "level": 72,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68803"],
-            "cNext": ["q.68805"],
-            "patch": "5.0"
+            "cNext": ["q.68805"]
         },
         "x68805": {
-            "level": 74,
             "name_en": "The Scientific Method",
             "name_fr": "Expérimentations thérapeutiques",
+            "level": 74,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68804"],
-            "cNext": ["q.68806"],
-            "patch": "5.0"
+            "cNext": ["q.68806"]
         },
         "x68806": {
-            "level": 76,
             "name_en": "The Lost and the Found",
             "name_fr": "Magie ancestrale",
+            "level": 76,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68805"],
-            "cNext": ["q.68807"],
-            "patch": "5.0"
+            "cNext": ["q.68807"]
         },
         "x68807": {
-            "level": 78,
             "name_en": "Never to Return",
             "name_fr": "Le secret des galeries naines",
+            "level": 78,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68806"],
-            "cNext": ["q.68808"],
-            "patch": "5.0"
+            "cNext": ["q.68808"]
         },
         "x68808": {
-            "level": 80,
             "name_en": "The Soul of Temperance",
             "name_fr": "Fière exilée",
+            "level": 80,
             "npc_en": "Giott",
             "npc_fr": "Giott",
+            "patch": "5.0",
             "cPrev": ["q.68807"],
             "cNext": ["q.68754", "q.68751", "q.68758"],
-            "cSiblings": ["a.2302"],
-            "patch": "5.0"
+            "cSiblings": ["a.2302"]
         }
     }
 }

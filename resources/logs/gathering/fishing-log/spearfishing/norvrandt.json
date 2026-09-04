@@ -3,158 +3,158 @@
     "groupName_en": "Norvrandt",
     "groupName_fr": "Norvrandt",
     "tasks": {
-        "x0": {
+        "x16": {
             "name_en": "Northeast Source",
             "name_fr": "Nord-est de L'Origine",
-            "level": "70",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "level": 70,
+            "zone": "@PLACE.SHB.LAKELAND",
             "location": "(14.1, 31.1)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x1": {
+        "x17": {
             "name_en": "The Isle of Ken",
             "name_fr": "Île de Ken",
-            "level": "75",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "level": 75,
+            "zone": "@PLACE.SHB.LAKELAND",
             "location": "(7.5, 32.3)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x2": {
+        "x18": {
             "name_en": "Southeast Source",
             "name_fr": "Sud-est de L'Origine",
-            "level": "75",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "level": 75,
+            "zone": "@PLACE.SHB.LAKELAND",
             "location": "(13.9, 37.5)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x3": {
+        "x33": {
             "name_en": "Eastern Isle of Ken",
             "name_fr": "Est de l'île de Ken",
-            "level": "75",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "level": 75,
+            "zone": "@PLACE.SHB.LAKELAND",
             "location": "(12.2, 36.2)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x15": {
+        "x50": {
             "name_en": "Southwestern Isle of Ken",
-            "name_fr": "Southwestern Isle of Ken",
-            "level": "85",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
+            "name_fr": "Sud-ouest de l'île de Ken",
+            "level": 85,
+            "zone": "@PLACE.SHB.LAKELAND",
             "location": "(5.2, 37.2)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.3"
         },
-        "x4": {
+        "x19": {
             "name_en": "North Lyhe Ghiah",
             "name_fr": "Nord du Lyhe Ghiah",
-            "level": "75",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "level": 75,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(20.4, 13.4)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x5": {
+        "x20": {
             "name_en": "Deepwood Swim",
-            "name_fr": "Boid profond",
-            "level": "75",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "name_fr": "Bois Profond",
+            "level": 75,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(19.7, 21.9)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x6": {
+        "x21": {
             "name_en": "Central Longmirror Lake",
             "name_fr": "Centre du lac Psyché",
-            "level": "80",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "level": 80,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(25.5, 25.5)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x7": {
+        "x22": {
             "name_en": "Thysm Lran",
             "name_fr": "Thysm Lran",
-            "level": "80",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "level": 80,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(30.2, 29.1)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x8": {
+        "x23": {
             "name_en": "South Longmirror Lake",
             "name_fr": "Sud du lac Psyché",
-            "level": "80",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "level": 80,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(29.3, 36.7)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x9": {
+        "x34": {
             "name_en": "East Longmirror Lake",
             "name_fr": "Est du lac Psyché",
-            "level": "80",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "level": 80,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(30.0, 24.7)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x16": {
+        "x51": {
             "name_en": "The House of the First Light",
-            "name_fr": "The House of the First Light",
-            "level": "85",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
+            "name_fr": "Alentours de l'Abbaye de l'Aurore",
+            "level": 85,
+            "zone": "@PLACE.SHB.IL_MHEG",
             "location": "(15.5, 16.9)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.3"
         },
-        "x10": {
+        "x24": {
             "name_en": "North Lake Tusi Mek'ta",
             "name_fr": "Nord du lac Tusi Mek'ta",
-            "level": "80",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "level": 80,
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "location": "(5.3, 25.7)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x11": {
+        "x25": {
             "name_en": "The Covered Halls of Dwatl",
             "name_fr": "Sanctuaire englouti de Dwatl",
-            "level": "80",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "level": 80,
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "location": "(9.5, 29.9)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x12": {
+        "x26": {
             "name_en": "Central Lake Tusi Mek'ta",
             "name_fr": "Centre du lac Tusi Mek'ta",
-            "level": "70",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "level": 70,
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "location": "(6.3, 27.7)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x13": {
+        "x27": {
             "name_en": "South Lake Tusi Mek'ta",
             "name_fr": "Sud du lac Tusi Mek'ta",
-            "level": "70",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "level": 70,
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "location": "(4.7, 30.3)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         },
-        "x14": {
+        "x35": {
             "name_en": "Deep Lake Tusi Mek'ta",
-            "name_fr": "Pronfondeurs du lac Tusi Mek'ta",
-            "level": "80",
-            "zone_en": "The Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
+            "name_fr": "Profondeurs du lac Tusi Mek'ta",
+            "level": 80,
+            "zone": "@PLACE.SHB.RAK_TIKA",
             "location": "(5.7, 29.1)",
-            "type": "@FISH.TYPE.SPEARFISHING"
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "5.0"
         }
     }
 }

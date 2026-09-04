@@ -4,199 +4,199 @@
     "groupName_fr": "Quêtes de paladin",
     "tasks": {
         "x66591": {
-            "level": 30,
             "name_en": "Paladin's Pledge",
             "name_fr": "Le serment du paladin",
+            "level": 30,
             "npc_en": "Lulutsu",
             "npc_fr": "Lulutsu",
+            "unlock": "ap.165",
+            "patch": "2.0",
             "cPrev": ["q.65801", "q.66049"],
             "cNext": ["q.66592"],
-            "cSiblings": ["ap.165"],
-            "patch": "4.31",
-            "unlock": "ap.165"
+            "cSiblings": ["ap.165"]
         },
         "x66592": {
-            "level": 35,
             "name_en": "Honor Lost",
             "name_fr": "Un rêve d'enfant",
+            "level": 35,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "2.0",
             "cPrev": ["q.66591"],
-            "cNext": ["q.66593"],
-            "patch": "4.31"
+            "cNext": ["q.66593"]
         },
         "x66593": {
-            "level": 40,
             "name_en": "Power Struggles",
             "name_fr": "Luttes de pouvoir",
+            "level": 40,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "2.0",
             "cPrev": ["q.66592"],
-            "cNext": ["q.66594"],
-            "patch": "4.31"
+            "cNext": ["q.66594"]
         },
         "x66594": {
-            "level": 45,
             "name_en": "Poisoned Hearts",
             "name_fr": "Un poison nommé Solkzagyl",
+            "level": 45,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "2.0",
             "cPrev": ["q.66593"],
-            "cNext": ["q.66595"],
-            "patch": "4.31"
+            "cNext": ["q.66595"]
         },
         "x66595": {
-            "level": 45,
             "name_en": "Parley in the Sagolii",
             "name_fr": "Des négociations à haut risque",
+            "level": 45,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "2.0",
             "cPrev": ["q.66594"],
-            "cNext": ["q.66596"],
-            "patch": "4.31"
+            "cNext": ["q.66596"]
         },
         "x66596": {
-            "level": 50,
             "name_en": "Keeping the Oath",
             "name_fr": "À chacun son chemin",
+            "level": 50,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "2.0",
             "cPrev": ["q.66595"],
             "cNext": ["q.66656", "q.67568"],
-            "cSiblings": ["a.407"],
-            "patch": "4.31"
+            "cSiblings": ["a.407"]
         },
         "x66656": {
-            "level": 50,
             "name_en": "A Relic Reborn (Curtana)",
             "name_fr": "Restauration de Curtana",
+            "level": 50,
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": ["q.66596", "q.66241"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66596", "q.66241"]
         },
         "x67568": {
-            "level": 50,
             "name_en": "An Exemplary Example",
             "name_fr": "Sur la piste de l'Épée sacrée",
+            "level": 50,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "3.0",
             "cPrev": ["q.66596", "q.65964"],
-            "cNext": ["q.67569"],
-            "patch": "4.31"
+            "cNext": ["q.67569"]
         },
         "x67569": {
-            "level": 52,
             "name_en": "The Paladin Who Cried Wolf",
             "name_fr": "Un nouvel espoir",
+            "level": 52,
             "npc_en": "Papashan",
             "npc_fr": "Papashan",
+            "patch": "3.0",
             "cPrev": ["q.67568"],
-            "cNext": ["q.67570"],
-            "patch": "4.31"
+            "cNext": ["q.67570"]
         },
         "x67570": {
-            "level": 54,
             "name_en": "Big Sollerets to Fill",
             "name_fr": "La détermination du chagrin",
+            "level": 54,
             "npc_en": "Constaint",
             "npc_fr": "Constaint",
+            "patch": "3.0",
             "cPrev": ["q.67569"],
-            "cNext": ["q.67571"],
-            "patch": "4.31"
+            "cNext": ["q.67571"]
         },
         "x67571": {
-            "level": 56,
             "name_en": "Hey Soul Crystal",
             "name_fr": "La volonté du cristal",
+            "level": 56,
             "npc_en": "Constaint",
             "npc_fr": "Constaint",
+            "patch": "3.0",
             "cPrev": ["q.67570"],
-            "cNext": ["q.67572"],
-            "patch": "4.31"
+            "cNext": ["q.67572"]
         },
         "x67572": {
-            "level": 58,
             "name_en": "All According to Plan",
             "name_fr": "Le mal à la racine",
+            "level": 58,
             "npc_en": "Constaint",
             "npc_fr": "Constaint",
+            "patch": "3.0",
             "cPrev": ["q.67571"],
-            "cNext": ["q.67573"],
-            "patch": "4.31"
+            "cNext": ["q.67573"]
         },
         "x67573": {
-            "level": 60,
             "name_en": "This Little Sword of Mine",
             "name_fr": "Un vrai paladin",
+            "level": 60,
             "npc_en": "Constaint",
             "npc_fr": "Constaint",
+            "patch": "3.0",
             "cPrev": ["q.67572"],
             "cNext": ["q.68107"],
-            "cSiblings": ["a.1141"],
-            "patch": "4.31"
+            "cSiblings": ["a.1141"]
         },
         "x68107": {
-            "level": 60,
             "name_en": "Tournament of the Century",
             "name_fr": "Invitation au Colisée",
+            "level": 60,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
+            "patch": "4.0",
             "cPrev": ["q.67573", "q.67895"],
-            "cNext": ["q.68108"],
-            "patch": "4.31"
+            "cNext": ["q.68108"]
         },
         "x68108": {
-            "level": 63,
             "name_en": "In Thal's Name",
             "name_fr": "Le tournoi commémoratif du sultanat",
+            "level": 63,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "4.0",
             "cPrev": ["q.68107"],
-            "cNext": ["q.68109"],
-            "patch": "4.31"
+            "cNext": ["q.68109"]
         },
         "x68109": {
-            "level": 65,
             "name_en": "In Nald's Name",
             "name_fr": "Le gladiateur masqué",
+            "level": 65,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "4.0",
             "cPrev": ["q.68108"],
-            "cNext": ["q.68110"],
-            "patch": "4.31"
+            "cNext": ["q.68110"]
         },
         "x68110": {
-            "level": 68,
             "name_en": "Fade to Black Lotus",
             "name_fr": "Un chantage odieux",
+            "level": 68,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "4.0",
             "cPrev": ["q.68109"],
-            "cNext": ["q.68111"],
-            "patch": "4.31"
+            "cNext": ["q.68111"]
         },
         "x68111": {
-            "level": 70,
             "name_en": "Raising the Sword",
             "name_fr": "La finale des champions",
+            "level": 70,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "4.0",
             "cPrev": ["q.68110"],
             "cNext": ["q.68746"],
-            "cSiblings": ["a.1797"],
-            "patch": "4.31"
+            "cSiblings": ["a.1797"]
         },
         "x68746": {
-            "level": 80,
             "name_en": "Worth Fighting For",
             "name_fr": "Protection rapprochée",
+            "level": 80,
             "npc_en": "Jenlyns",
             "npc_fr": "Jenlyns",
-            "cPrev": ["q.68111", "q.68784", "q.69190"],
-            "cSiblings": ["ap.300", "a.2306"],
+            "unlock": "ap.300",
             "patch": "5.0",
-            "unlock": "ap.300"
+            "cPrev": ["q.68111", "q.68784", "q.69190"],
+            "cSiblings": ["ap.300", "a.2306"]
         }
     }
 }

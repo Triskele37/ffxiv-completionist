@@ -1,0 +1,21 @@
+<td class="table-cell edit-cell">
+    @if(task.selected()) {
+        <span class="edit-cell-textarea-container">
+            <textarea
+                #editInput
+                pInputTextarea
+                class="noSelect"
+                rows="1"
+                [value]="task[key]"
+                (click)="onTextAreaClick()"
+                (focusout)="onTextAreaFocusOut()"
+                (change)="onTextAreaChange($event)"
+                (keyup)="onTextAreaKeyup($event)"
+            ></textarea>
+        </span>
+    } @else {
+        <div class="static-cell" (click)="onCellClick()">
+            {{task[key]}}
+        </div>
+    }
+</td>

@@ -4,404 +4,454 @@
     "cCombo": ["a.728"],
     "tasks": {
         "x0": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 01",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(22, 24)",
+            "rank": "1",
             "mob_en": "Little Ladybug x3",
-            "mob_fr": "Coccinelle x3"
+            "mob_fr": "Coccinelle x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(22, 24)",
+            "patch": "2.0"
         },
         "x1": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 02",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(20, 25)",
+            "rank": "1",
             "mob_en": "Star Marmot x3",
-            "mob_fr": "Marmotte x3"
+            "mob_fr": "Marmotte x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(20, 25)",
+            "patch": "2.0"
         },
         "x2": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 03",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(26, 25)",
+            "rank": "1",
             "mob_en": "Cactuar x3",
-            "mob_fr": "Cactuar x3"
+            "mob_fr": "Cactuar x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(26, 25)",
+            "patch": "2.0"
         },
         "x3": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 04",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(22, 26)",
+            "rank": "1",
             "mob_en": "Snapping Shrew x3",
-            "mob_fr": "Musaraigne agressive x3"
+            "mob_fr": "Musaraigne agressive x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(22, 26)",
+            "patch": "2.0"
         },
         "x4": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 05",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(22, 25)",
+            "rank": "1",
             "mob_en": "Hammer Beak x3",
-            "mob_fr": "Bec-marteau x3"
+            "mob_fr": "Bec-marteau x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(22, 25)",
+            "patch": "2.0"
         },
         "x5": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 06",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(21, 16)",
+            "rank": "1",
             "mob_en": "Antling Worker x3",
-            "mob_fr": "Fourmi ouvrière x3"
+            "mob_fr": "Fourmi ouvrière x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(21, 16)",
+            "patch": "2.0"
         },
         "x6": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 07",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(23, 27)",
+            "rank": "1",
             "mob_en": "Earth Sprite x3",
-            "mob_fr": "Élémentaire de terre x3"
+            "mob_fr": "Élémentaire de terre x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(23, 27)",
+            "patch": "2.0"
         },
         "x7": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 08",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(17, 23)",
+            "rank": "1",
             "mob_en": "Spriggan Graverobber x3",
-            "mob_fr": "Spriggan pilleur de tombe x3"
+            "mob_fr": "Spriggan pilleur de tombe x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(17, 23)",
+            "patch": "2.0"
         },
         "x8": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 09",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(16, 19)",
+            "rank": "1",
             "mob_en": "Qiqirn Shellsweeper x3",
-            "mob_fr": "Qiqirn casse-coquille x3"
+            "mob_fr": "Qiqirn casse-coquille x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(16, 19)",
+            "patch": "2.0"
         },
         "x9": {
-            "rank": "1",
             "name": "@CLASS_JOB.GLA 10",
-            "zone": ["@PLACE.CENTRAL_THANALAN", "@PLACE.WESTERN_THANALAN"],
-            "location": "(24, 18), (22, 21)",
+            "rank": "1",
             "mob_en": "Antling Soldier x3, Dusty Mongrel x3",
-            "mob_fr": "Fourmi soldat x3, Houret poussiéreux x3"
+            "mob_fr": "Fourmi soldat x3, Houret poussiéreux x3",
+            "zone": ["@PLACE.ARR.CENTRAL_THANALAN", "@PLACE.ARR.WESTERN_THANALAN"],
+            "location": "(24, 18), (22, 21)",
+            "patch": "2.0"
         },
         "x10": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 11",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(26, 18), (26, 16)",
+            "rank": "2",
             "mob_en": "Bomb x3, Copper Coblyn x3",
-            "mob_fr": "Bombo x3, Coblyn de cuivre x3"
+            "mob_fr": "Bombo x3, Coblyn de cuivre x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(26, 18), (26, 16)",
+            "patch": "2.0"
         },
         "x11": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 12",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(25, 21)",
+            "rank": "2",
             "mob_en": "Cochineal Cactuar x3",
-            "mob_fr": "Cactuar nopal x3"
+            "mob_fr": "Cactuar nopal x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(25, 21)",
+            "patch": "2.0"
         },
         "x12": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 13",
-            "zone": "@PLACE.CENTRAL_THANALAN",
-            "location": "(23, 20)",
+            "rank": "2",
             "mob_en": "Quiveron Guard x3",
-            "mob_fr": "Garde des Quiveron x3"
+            "mob_fr": "Garde des Quiveron x3",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "location": "(23, 20)",
+            "patch": "2.0"
         },
         "x13": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 14",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(23, 26)",
+            "rank": "2",
             "mob_en": "Giant Tortoise x3",
-            "mob_fr": "Tortue géante x3"
+            "mob_fr": "Tortue géante x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(23, 26)",
+            "patch": "2.0"
         },
         "x14": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 15",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(15, 15)",
+            "rank": "2",
             "mob_en": "Thickshell x3",
-            "mob_fr": "Coquépaisse x3"
+            "mob_fr": "Coquépaisse x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(15, 15)",
+            "patch": "2.0"
         },
         "x15": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 16",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(17, 14)",
+            "rank": "2",
             "mob_en": "Scaphite x3",
-            "mob_fr": "Scaphite x3"
+            "mob_fr": "Scaphite x3",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(17, 14)",
+            "patch": "2.0"
         },
         "x16": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 17",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(12, 16)",
+            "rank": "2",
             "mob_en": "Tuco-tuco x3",
-            "mob_fr": "Tuco-tuco x3"
+            "mob_fr": "Tuco-tuco x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(12, 16)",
+            "patch": "2.0"
         },
         "x17": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 18",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(15, 23)",
+            "rank": "2",
             "mob_en": "Myotragus Billy x3",
-            "mob_fr": "Bouquetin myotragus x3"
+            "mob_fr": "Bouquetin myotragus x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(15, 23)",
+            "patch": "2.0"
         },
         "x18": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 19",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(14, 18)",
+            "rank": "2",
             "mob_en": "Vandalous Imp x3",
-            "mob_fr": "Imp vandale x3"
+            "mob_fr": "Imp vandale x3",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(14, 18)",
+            "patch": "2.0"
         },
         "x19": {
-            "rank": "2",
             "name": "@CLASS_JOB.GLA 20",
-            "zone": ["@PLACE.EASTERN_THANALAN", "@PLACE.WESTERN_THANALAN"],
-            "location": "(14, 16), (13, 11)",
+            "rank": "2",
             "mob_en": "Rotting Noble x3, Bloated Bogy x3",
-            "mob_fr": "Noble putrescent x3, Épouvantôme boursouflé x3"
+            "mob_fr": "Noble putrescent x3, Épouvantôme boursouflé x3",
+            "zone": ["@PLACE.ARR.EASTERN_THANALAN", "@PLACE.ARR.WESTERN_THANALAN"],
+            "location": "(14, 16), (13, 11)",
+            "patch": "2.0"
         },
         "x20": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 21",
-            "zone": ["@PLACE.UPPER_LA_NOSCEA", "@PLACE.SOUTH_SHROUD"],
-            "location": "(13, 24), (21, 22)",
+            "rank": "3",
             "mob_en": "Stoneshell x4, Kedtrap x3",
-            "mob_fr": "Coquepierre x4, Piège-pou x3"
+            "mob_fr": "Coquepierre x4, Piège-pou x3",
+            "zone": ["@PLACE.ARR.UPPER_LA_NOSCEA", "@PLACE.ARR.SOUTH_SHROUD"],
+            "location": "(13, 24), (21, 22)",
+            "patch": "2.0"
         },
         "x21": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 22",
-            "zone": "@PLACE.WESTERN_THANALAN",
-            "location": "(13, 11)",
+            "rank": "3",
             "mob_en": "Lead Coblyn x4",
-            "mob_fr": "Coblyn de plomb x4"
+            "mob_fr": "Coblyn de plomb x4",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "location": "(13, 11)",
+            "patch": "2.0"
         },
         "x22": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 23",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(19, 19)",
+            "rank": "3",
             "mob_en": "Overgrown Offering x4",
-            "mob_fr": "Otyugh monstreux x4"
+            "mob_fr": "Otyugh monstreux x4",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(19, 19)",
+            "patch": "2.0"
         },
         "x23": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 24",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(9, 20)",
+            "rank": "3",
             "mob_en": "Coeurl Pup x4",
-            "mob_fr": "Jeune coeurl x4"
+            "mob_fr": "Jeune coeurl x4",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(9, 20)",
+            "patch": "2.0"
         },
         "x24": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 25",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(17, 27)",
+            "rank": "3",
             "mob_en": "Balloon x4",
-            "mob_fr": "Ballon x4"
+            "mob_fr": "Ballon x4",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(17, 27)",
+            "patch": "2.0"
         },
         "x25": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 26",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(17, 15)",
+            "rank": "3",
             "mob_en": "Sabotender x4",
-            "mob_fr": "Pampa x4"
+            "mob_fr": "Pampa x4",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(17, 15)",
+            "patch": "2.0"
         },
         "x26": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 27",
-            "zone": "@PLACE.EASTERN_THANALAN",
-            "location": "(24, 22)",
+            "rank": "3",
             "mob_en": "Qiqirn Roerunner x4",
-            "mob_fr": "Qiqirn gobe-oisillon x4"
+            "mob_fr": "Qiqirn gobe-oisillon x4",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "location": "(24, 22)",
+            "patch": "2.0"
         },
         "x27": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 28",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(27, 21)",
+            "rank": "3",
             "mob_en": "Goblin Thug x4",
-            "mob_fr": "Malfrat gobelin x4"
+            "mob_fr": "Malfrat gobelin x4",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(27, 21)",
+            "patch": "2.0"
         },
         "x28": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 29",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(28, 21)",
+            "rank": "3",
             "mob_en": "Coeurlclaw Cutter x4",
-            "mob_fr": "Trancheuse Griffecoeurl x4"
+            "mob_fr": "Trancheuse Griffecoeurl x4",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(28, 21)",
+            "patch": "2.0"
         },
         "x29": {
-            "rank": "3",
             "name": "@CLASS_JOB.GLA 30",
-            "zone": ["@PLACE.EASTERN_LA_NOSCEA", "@PLACE.OUTER_LA_NOSCEA"],
-            "location": "(28, 35), (14, 18)",
+            "rank": "3",
             "mob_en": "Apkallu x4, Pteroc x3",
-            "mob_fr": "Apkallu x4, Ptéroc des embruns x3"
+            "mob_fr": "Apkallu x4, Ptéroc des embruns x3",
+            "zone": ["@PLACE.ARR.EASTERN_LA_NOSCEA", "@PLACE.ARR.OUTER_LA_NOSCEA"],
+            "location": "(28, 35), (14, 18)",
+            "patch": "2.0"
         },
         "x30": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 31",
-            "zone": ["@PLACE.CENTRAL_SHROUD", "@PLACE.UPPER_LA_NOSCEA"],
-            "location": "(11, 22), (28, 25)",
+            "rank": "4",
             "mob_en": "Floating Eye x4, Mamool Ja Sophist x3",
-            "mob_fr": "Œil flottant x4, Sophiste mamool ja x3"
+            "mob_fr": "Œil flottant x4, Sophiste mamool ja x3",
+            "zone": ["@PLACE.ARR.CENTRAL_SHROUD", "@PLACE.ARR.UPPER_LA_NOSCEA"],
+            "location": "(11, 22), (28, 25)",
+            "patch": "2.0"
         },
         "x31": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 32",
-            "zone": ["@PLACE.UPPER_LA_NOSCEA", "@PLACE.SOUTH_SHROUD"],
-            "location": "(30, 25), (20, 27)",
+            "rank": "4",
             "mob_en": "Uragnite x4, Adamantoise x3",
-            "mob_fr": "Uragnite x4, Adamankhélone x3"
+            "mob_fr": "Uragnite x4, Adamankhélone x3",
+            "zone": ["@PLACE.ARR.UPPER_LA_NOSCEA", "@PLACE.ARR.SOUTH_SHROUD"],
+            "location": "(30, 25), (20, 27)",
+            "patch": "2.0"
         },
         "x32": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 33",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(22, 32)",
+            "rank": "4",
             "mob_en": "Sandworm x4",
-            "mob_fr": "Ver des sables x4"
+            "mob_fr": "Ver des sables x4",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(22, 32)",
+            "patch": "2.0"
         },
         "x33": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 34",
-            "zone": "@PLACE.CENTRAL_SHROUD",
-            "location": "(15, 21)",
+            "rank": "4",
             "mob_en": "Deathgaze x4",
-            "mob_fr": "Mortalis x4"
+            "mob_fr": "Mortalis x4",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "location": "(15, 21)",
+            "patch": "2.0"
         },
         "x34": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 35",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(20, 15)",
+            "rank": "4",
             "mob_en": "Velociraptor x4",
-            "mob_fr": "Velociraptor x4"
+            "mob_fr": "Velociraptor x4",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(20, 15)",
+            "patch": "2.0"
         },
         "x35": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 36",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(21, 37)",
+            "rank": "4",
             "mob_en": "Fallen Wizard x4",
-            "mob_fr": "Magicien déchu x4"
+            "mob_fr": "Magicien déchu x4",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(21, 37)",
+            "patch": "2.0"
         },
         "x36": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 37",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(31, 14)",
+            "rank": "4",
             "mob_en": "Snow Wolf Pup x4",
-            "mob_fr": "Louveteau des neiges x4"
+            "mob_fr": "Louveteau des neiges x4",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(31, 14)",
+            "patch": "2.0"
         },
         "x37": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 38",
-            "zone": "@PLACE.SOUTH_SHROUD",
-            "location": "(22, 26)",
+            "rank": "4",
             "mob_en": "Treant x4",
-            "mob_fr": "Tréant x4"
+            "mob_fr": "Tréant x4",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "location": "(22, 26)",
+            "patch": "2.0"
         },
         "x38": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 39",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(27, 14)",
+            "rank": "4",
             "mob_en": "Vodoriga x4",
-            "mob_fr": "Vodoriga x4"
+            "mob_fr": "Vodoriga x4",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(27, 14)",
+            "patch": "2.0"
         },
         "x39": {
-            "rank": "4",
             "name": "@CLASS_JOB.GLA 40",
-            "zone": ["@PLACE.COERTHAS_CENTRAL_HIGHLANDS", "@PLACE.NORTHERN_THANALAN"],
-            "location": "(12, 18), (21, 15)",
+            "rank": "4",
             "mob_en": "Hippocerf x4, Grenade x3",
-            "mob_fr": "Hippocerf x4, Grenado x3"
+            "mob_fr": "Hippocerf x4, Grenado x3",
+            "zone": ["@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS", "@PLACE.ARR.NORTHERN_THANALAN"],
+            "location": "(12, 18), (21, 15)",
+            "patch": "2.0"
         },
         "x40": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 41",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(12, 35)",
+            "rank": "5",
             "mob_en": "Preying Mantis x5, Lammergeyer x2",
-            "mob_fr": "Mante prédatrice x5, Gypaète x2"
+            "mob_fr": "Mante prédatrice x5, Gypaète x2",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(12, 35)",
+            "patch": "2.0"
         },
         "x41": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 42",
-            "zone": "@PLACE.EAST_SHROUD",
-            "location": "(27, 22), (29, 21)",
+            "rank": "5",
             "mob_en": "Old-growth Treant x5, 3rd Cohort Eques x2",
-            "mob_fr": "Tréant centenaire x5, Eques de la 3e cohorte x2"
+            "mob_fr": "Tréant centenaire x5, Eques de la 3e cohorte x2",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "location": "(27, 22), (29, 21)",
+            "patch": "2.0"
         },
         "x42": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 43",
-            "zone": ["@PLACE.WESTERN_LA_NOSCEA", "@PLACE.EAST_SHROUD"],
-            "location": "(14, 35), (23, 21)",
+            "rank": "5",
             "mob_en": "Dead Man's Moan x5, Morbol x2",
-            "mob_fr": "Mort gémissant x5, Morbol x2"
+            "mob_fr": "Mort gémissant x5, Morbol x2",
+            "zone": ["@PLACE.ARR.WESTERN_LA_NOSCEA", "@PLACE.ARR.EAST_SHROUD"],
+            "location": "(14, 35), (23, 21)",
+            "patch": "2.0"
         },
         "x43": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 44",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(13, 10)",
+            "rank": "5",
             "mob_en": "Mudpuppy x5",
-            "mob_fr": "Protée x5"
+            "mob_fr": "Protée x5",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(13, 10)",
+            "patch": "2.0"
         },
         "x44": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 45",
-            "zone": "@PLACE.MOR_DHONA",
-            "location": "(24, 12)",
+            "rank": "5",
             "mob_en": "Lake Cobra x5",
-            "mob_fr": "Cobra des lacs x5"
+            "mob_fr": "Cobra des lacs x5",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "location": "(24, 12)",
+            "patch": "2.0"
         },
         "x45": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 46",
-            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
-            "location": "(12, 27)",
+            "rank": "5",
             "mob_en": "Giant Lugger x3",
-            "mob_fr": "Géant jouteur x3"
+            "mob_fr": "Géant jouteur x3",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(12, 27)",
+            "patch": "2.0"
         },
         "x46": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 47",
-            "zone": "@PLACE.SOUTHERN_THANALAN",
-            "location": "(21, 20)",
+            "rank": "5",
             "mob_en": "Tempered Orator x5",
-            "mob_fr": "Psalmodieur subjugué x5"
+            "mob_fr": "Psalmodieur subjugué x5",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "location": "(21, 20)",
+            "patch": "2.0"
         },
         "x47": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 48",
-            "zone": "@PLACE.NORTH_SHROUD",
-            "location": "(21, 21)",
+            "rank": "5",
             "mob_en": "Dullahan x5",
-            "mob_fr": "Dullahan x5"
+            "mob_fr": "Dullahan x5",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "location": "(21, 21)",
+            "patch": "2.0"
         },
         "x48": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 49",
-            "zone": "@PLACE.NORTHERN_THANALAN",
-            "location": "(22, 24)",
+            "rank": "5",
             "mob_en": "Basilisk x5",
-            "mob_fr": "Basilic x5"
+            "mob_fr": "Basilic x5",
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
+            "location": "(22, 24)",
+            "patch": "2.0"
         },
         "x49": {
-            "rank": "5",
             "name": "@CLASS_JOB.GLA 50",
-            "zone": ["@PLACE.MOR_DHONA", "@PLACE.EASTERN_LA_NOSCEA"],
-            "location": "(32, 14), (30, 20)",
+            "rank": "5",
             "mob_en": "Gigas Bhikkhu x5, 2nd Cohort Hoplomachus x5",
-            "mob_fr": "Gigas bhikkhu x5, Hoplomachus de la 2e cohorte x5"
+            "mob_fr": "Gigas bhikkhu x5, Hoplomachus de la 2e cohorte x5",
+            "zone": ["@PLACE.ARR.MOR_DHONA", "@PLACE.ARR.EASTERN_LA_NOSCEA"],
+            "location": "(32, 14), (30, 20)",
+            "patch": "2.0"
         }
     }
 }

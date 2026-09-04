@@ -1,0 +1,14 @@
+<input
+    data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_INPUT"
+    class="text-filter"
+    pInputText
+    [value]="svcTable.filter.filters[column.key]?.value ?? ''"
+    (keyup)="onFilterKeyup($event, column)"
+/>
+
+@if(svcTable.filter.filters[column.key]?.value) {
+    <i
+        class="clear-input pi pi-times"
+        (click)="svcTable.filter.modifyFilter('', column)"
+    ></i>
+}

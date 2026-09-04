@@ -4,107 +4,107 @@
     "groupName_fr": "Hildibrand, le retour",
     "tasks": {
         "x70078": {
-            "level": 90,
             "name_en": "The Sleeping Gentleman",
-            "name_fr": "Il dit “pardonné”?",
+            "name_fr": "Il dit “pardonné” ?",
+            "level": 90,
             "npc_en": "Excitable Youth",
             "npc_fr": "Jeune Lalafell",
+            "patch": "6.15",
             "cPrev": ["q.70000", "q.68704"],
-            "cNext": ["q.70079"],
-            "patch": "6.28"
+            "cNext": ["q.70079"]
         },
         "x70079": {
-            "level": 90,
             "name_en": "A Soulful Reunion",
-            "name_fr": "Un corps à prendre?",
+            "name_fr": "Un corps à prendre ?",
+            "level": 90,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
+            "patch": "6.15",
             "cPrev": ["q.70078"],
-            "cNext": ["q.70177"],
-            "patch": "6.28"
+            "cNext": ["q.70177"]
         },
         "x70177": {
-            "level": 90,
             "name_en": "Lunar Conspiracy",
             "name_fr": "Emmène-moi jusqu'à la lune",
+            "level": 90,
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
+            "patch": "6.25",
             "cPrev": ["q.70079"],
-            "cNext": ["q.70178"],
-            "patch": "6.28"
+            "cNext": ["q.70178"]
         },
         "x70178": {
-            "level": 90,
             "name_en": "The Imperfect Gentleman",
             "name_fr": "Une armée de gentilshommes",
+            "level": 90,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
+            "patch": "6.25",
             "cPrev": ["q.70177"],
-            "cNext": ["q.70188", "q.70254"],
-            "patch": "6.28"
+            "cNext": ["q.70188", "q.70254"]
         },
         "x70254": {
-            "level": 90,
             "name_en": "The Spectacle of Inspection",
             "name_fr": "Les dérives du clonage",
+            "level": 90,
             "npc_en": "Delion",
             "npc_fr": "Delion",
+            "patch": "6.35",
             "cPrev": ["q.70178"],
-            "cNext": ["q.70255"],
-            "patch": "6.35"
+            "cNext": ["q.70255"]
         },
         "x70255": {
-            "level": 90,
             "name_en": "Generational Bonding",
             "name_fr": "Tel gentilhomme, tel gentilhomme",
+            "level": 90,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
+            "patch": "6.35",
             "cPrev": ["q.70254"],
-            "cNext": ["q.70261", "q.70290"],
-            "patch": "6.35"
+            "cNext": ["q.70261", "q.70290"]
         },
         "x70290": {
-            "level": 90,
             "name_en": "By Agents Unknown",
             "name_fr": "Un coupable microscopique",
+            "level": 90,
             "npc_en": "Delion",
             "npc_fr": "Delion",
+            "patch": "6.45",
             "cPrev": ["q.70255"],
-            "cNext": ["q.70291"],
-            "patch": "6.45"
+            "cNext": ["q.70291"]
         },
         "x70291": {
-            "level": 90,
             "name_en": "Not from Around Here",
             "name_fr": "Un visiteur, venu d'ailleurs",
+            "level": 90,
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": ["q.70290"],
-            "cNext": ["q.70307", "q.70335"],
+            "unlock": "mi.454",
             "patch": "6.45",
-            "unlock": "mi.454"
+            "cPrev": ["q.70290"],
+            "cNext": ["q.70307", "q.70335"]
         },
         "x70335": {
-            "level": 90,
             "name_en": "Of Duplicity and Duplication",
             "name_fr": "Une poêle dans la tête",
+            "level": 90,
             "npc_en": "Delion",
             "npc_fr": "Delion",
+            "patch": "6.55",
             "cPrev": ["q.70291"],
-            "cNext": ["q.70336"],
-            "patch": "6.55"
+            "cNext": ["q.70336"]
         },
         "x70336": {
-            "level": 90,
             "name_en": "Gentlemen at Heart",
             "name_fr": "Le cadeau des Dieux",
-            "unlock": ["d.69", "mo.290", "o.644"],
+            "level": 90,
             "npc_en": "Godbert",
             "npc_fr": "Godbert",
+            "unlock": ["d.69", "mo.290", "o.644"],
+            "patch": "6.55",
             "cPrev": ["q.70335"],
             "cNext": ["q.70342"],
-            "cSiblings": ["a.3415"],
-            "patch": "6.55"
+            "cSiblings": ["d.69", "a.3415"]
         }
     }
 }

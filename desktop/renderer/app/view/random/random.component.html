@@ -1,0 +1,47 @@
+<div
+    data-active-help="APP.ACTIVE_HELP.RANDOM_VIEW"
+    class="random-container"
+>
+    <div class="random">
+        <button
+            class="group-selector-button"
+            pButton
+            (click)="onToggleSelector($event)"
+        >
+            {{group.name}}
+        </button>
+
+        <p-input-number
+            class="numeric-input"
+            [(ngModel)]="randomCount"
+            [showButtons]="true"
+            [min]="1"
+            [max]="30"
+            (onBlur)="onCountChange()"
+        ></p-input-number>
+
+        <button
+            pButton
+            class="random-button"
+            (click)="onGenerateRandomClick()"
+        >
+            <span class="mi mi-casino"></span>
+        </button>
+
+        @for(task of randomTasks; track task.fullStorageKey) {
+            <com-content-link
+                class="random-result"
+                [content]="task"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+    </div>
+</div>
+
+<com-group-selector
+    class="group-selector"
+    [includeRoot]="true"
+    [menuEvent]="groupSelectorEvent"
+    (groupSelected)="onGroupChange($event)"
+    (hidden)="onSelectorHide()"
+></com-group-selector>

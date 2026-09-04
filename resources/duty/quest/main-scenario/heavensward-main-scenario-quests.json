@@ -4,31 +4,33 @@
     "groupName_fr": "Chroniques ishgardaises",
     "tasks": {
         "x67116": {
-            "level": 50,
             "name_en": "Coming to Ishgard",
             "name_fr": "Vers la sainte Cité",
+            "level": 50,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.65964"],
-            "cNext": ["q.67274", "q.67117"],
-            "patch": "4.31"
+            "cNext": ["q.67274", "q.67117"]
         },
         "x67117": {
-            "level": 50,
             "name_en": "Taking in the Sights",
             "name_fr": "Visite touristique",
+            "level": 50,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67116"],
-            "cNext": ["q.67118"],
-            "patch": "4.31"
+            "cNext": ["q.67118"]
         },
         "x67118": {
-            "level": 50,
             "name_en": "The Better Half",
             "name_fr": "Les bas-fonds",
+            "level": 50,
             "npc_en": "House Fortemps Manservant",
             "npc_fr": "Serviteur Des Fortemps",
+            "unlock": "tto.60",
+            "patch": "3.0",
             "cPrev": ["q.67117"],
             "cNext": [
                 "q.67632",
@@ -44,251 +46,252 @@
                 "q.67119",
                 "q.67126",
                 "q.67262"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67119": {
-            "level": 50,
             "name_en": "Over the Wall",
             "name_fr": "Le Nid du faucon",
+            "level": 50,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "3.0",
             "cPrev": ["q.67118"],
-            "cNext": ["q.67268", "q.67269", "q.67270", "q.67120"],
-            "patch": "4.31"
+            "cNext": ["q.67268", "q.67269", "q.67270", "q.67120"]
         },
         "x67120": {
-            "level": 50,
             "name_en": "Work in Progress",
             "name_fr": "Murs en travaux",
+            "level": 50,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
+            "patch": "3.0",
             "cPrev": ["q.67119"],
-            "cNext": ["q.67121"],
-            "patch": "4.31"
+            "cNext": ["q.67121"]
         },
         "x67121": {
-            "level": 50,
             "name_en": "The First and Foremost",
             "name_fr": "Rénover La Pique",
+            "level": 50,
             "npc_en": "Rothe",
             "npc_fr": "Rothe",
+            "patch": "3.0",
             "cPrev": ["q.67120"],
-            "cNext": ["q.67122"],
-            "patch": "4.31"
+            "cNext": ["q.67122"]
         },
         "x67122": {
-            "level": 50,
             "name_en": "From on High",
             "name_fr": "Amour interdit",
+            "level": 50,
             "npc_en": "Thierremont",
             "npc_fr": "Thierremont",
+            "patch": "3.0",
             "cPrev": ["q.67121"],
-            "cNext": ["q.67272", "q.67123", "q.67271"],
-            "patch": "4.31"
+            "cNext": ["q.67272", "q.67123", "q.67271"]
         },
         "x67123": {
-            "level": 50,
             "name_en": "Reconnaissance Lost",
             "name_fr": "Patrouille aux Deux-Rivières",
+            "level": 50,
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
+            "patch": "3.0",
             "cPrev": ["q.67122"],
-            "cNext": ["q.67124"],
-            "patch": "4.31"
+            "cNext": ["q.67124"]
         },
         "x67124": {
-            "level": 50,
             "name_en": "At the End of Our Hope",
             "name_fr": "Retrouvailles à Gorgagne",
+            "level": 50,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "3.0",
             "cPrev": ["q.67123"],
-            "cNext": ["q.67273", "q.67125"],
-            "patch": "4.31"
+            "cNext": ["q.67273", "q.67125"]
         },
         "x67125": {
-            "level": 50,
             "name_en": "Knights Be Not Proud",
             "name_fr": "Les remords d'Artoirel",
+            "level": 50,
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
+            "patch": "3.0",
             "cPrev": ["q.67124"],
-            "cNext": ["q.67133"],
-            "patch": "4.31"
+            "cNext": ["q.67133"]
         },
         "x67126": {
-            "level": 50,
             "name_en": "Onwards and Upwards",
             "name_fr": "Premier vol pour Cime-des-nuages",
+            "level": 50,
             "npc_en": "Emmanellain",
             "npc_fr": "Emmanellain",
+            "patch": "3.0",
             "cPrev": ["q.67118"],
-            "cNext": ["q.67276", "q.67127", "q.67277"],
-            "patch": "4.31"
+            "cNext": ["q.67276", "q.67127", "q.67277"]
         },
         "x67127": {
-            "level": 50,
             "name_en": "An Indispensable Ally",
             "name_fr": "Se débarrasser du gêneur",
+            "level": 50,
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
+            "patch": "3.0",
             "cPrev": ["q.67126"],
-            "cNext": ["q.67128"],
-            "patch": "4.31"
+            "cNext": ["q.67128"]
         },
         "x67128": {
-            "level": 50,
             "name_en": "Meeting the Neighbors",
             "name_fr": "Premier contact avec les Vanu Vanu",
+            "level": 50,
             "npc_en": "Laniaitte",
             "npc_fr": "Laniaitte",
+            "patch": "3.0",
             "cPrev": ["q.67127"],
-            "cNext": ["q.67275", "q.67129"],
-            "patch": "4.31"
+            "cNext": ["q.67275", "q.67129"]
         },
         "x67129": {
-            "level": 50,
             "name_en": "Sense of Urgency",
             "name_fr": "Le spleen du Rosier",
+            "level": 50,
             "npc_en": "Marielle",
             "npc_fr": "Marielle",
+            "patch": "3.0",
             "cPrev": ["q.67128"],
-            "cNext": ["q.67130"],
-            "patch": "4.31"
+            "cNext": ["q.67130"]
         },
         "x67130": {
-            "level": 50,
             "name_en": "Hope Springs Eternal",
             "name_fr": "Les cristaux, ça coule de source",
+            "level": 50,
             "npc_en": "Marielle",
             "npc_fr": "Marielle",
+            "patch": "3.0",
             "cPrev": ["q.67129"],
-            "cNext": ["q.67131"],
-            "patch": "4.31"
+            "cNext": ["q.67131"]
         },
         "x67131": {
-            "level": 50,
             "name_en": "A Series of Unfortunate Events",
             "name_fr": "Dans les serres des Vanu Vanu",
+            "level": 50,
             "npc_en": "Honoroit",
             "npc_fr": "Honoroit",
+            "patch": "3.0",
             "cPrev": ["q.67130"],
-            "cNext": ["q.67132"],
-            "patch": "4.31"
+            "cNext": ["q.67132"]
         },
         "x67132": {
-            "level": 50,
             "name_en": "A Reward Long in Coming",
             "name_fr": "Un retour douloureux",
+            "level": 50,
             "npc_en": "Emmanellain",
             "npc_fr": "Emmanellain",
+            "unlock": "tto.76",
+            "patch": "3.0",
             "cPrev": ["q.67131"],
-            "cNext": ["q.67133"],
-            "patch": "4.31"
+            "cNext": ["q.67133"]
         },
         "x67133": {
-            "level": 50,
             "name_en": "Divine Intervention",
             "name_fr": "Les chevaliers de l'Azur",
-            "unlock": ["duty.collection.0", "mo.45"],
+            "level": 50,
             "npc_en": "House Fortemps Steward",
             "npc_fr": "Majordome Des Fortemps",
+            "unlock": ["duty.collection.0", "mo.45"],
+            "patch": "3.0",
             "cPrev": ["q.67125", "q.67132"],
             "cNext": ["q.67134"],
-            "cSiblings": ["duty.collection.0"],
-            "patch": "4.31"
+            "cSiblings": ["duty.collection.0"]
         },
         "x67134": {
-            "level": 50,
             "name_en": "Disclosure",
             "name_fr": "L'audience",
+            "level": 50,
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
+            "patch": "3.0",
             "cPrev": ["q.67133"],
             "cNext": ["q.67280", "q.67284", "q.67281", "q.67282", "q.67283", "q.67285", "q.67278", "q.67279", "q.67135"],
-            "cSiblings": ["a.1133"],
-            "patch": "4.31"
+            "cSiblings": ["a.1133"]
         },
         "x67135": {
-            "level": 51,
             "name_en": "Flame General Affairs",
             "name_fr": "Ul'dah après la tempête",
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67134"],
-            "cNext": ["q.67136"],
-            "patch": "4.31"
+            "cNext": ["q.67136"]
         },
         "x67136": {
-            "level": 51,
             "name_en": "In Search of Raubahn",
             "name_fr": "Un général aux fers",
+            "level": 51,
             "npc_en": "Higiri",
             "npc_fr": "Higiri",
+            "patch": "3.0",
             "cPrev": ["q.67135"],
-            "cNext": ["q.67137"],
-            "patch": "4.31"
+            "cNext": ["q.67137"]
         },
         "x67137": {
-            "level": 51,
             "name_en": "Keeping the Flame Alive",
             "name_fr": "Le sauvetage de Raubahn",
+            "level": 51,
             "npc_en": "Hozan",
             "npc_fr": "Hozan",
+            "patch": "3.0",
             "cPrev": ["q.67136"],
             "cNext": ["q.67138"],
-            "cSiblings": ["a.1134"],
-            "patch": "4.31"
+            "cSiblings": ["a.1134"]
         },
         "x67138": {
-            "level": 51,
             "name_en": "To Siege or Not to Siege",
             "name_fr": "La résolution des aventuriers",
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67137"],
-            "cNext": ["q.67139"],
-            "patch": "4.31"
+            "cNext": ["q.67139"]
         },
         "x67139": {
-            "level": 51,
             "name_en": "Alphinaud's Way",
             "name_fr": "Le plan d'Alphinaud",
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67138"],
-            "cNext": ["q.67288", "q.67294", "q.67292", "q.67140", "q.67286", "q.67287", "q.67291", "q.67293"],
-            "patch": "4.31"
+            "cNext": ["q.67288", "q.67294", "q.67292", "q.67140", "q.67286", "q.67287", "q.67291", "q.67293"]
         },
         "x67140": {
-            "level": 51,
             "name_en": "In Search of Iceheart",
             "name_fr": "À la recherche de Cœur-de-glace",
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "mi.130",
+            "patch": "3.0",
             "cPrev": ["q.67139"],
-            "cNext": ["q.67141"],
-            "patch": "4.31",
-            "unlock": "mi.130"
+            "cNext": ["q.67141"]
         },
         "x67141": {
-            "level": 51,
             "name_en": "From One Heretic to Another",
             "name_fr": "Hérétiques et épistoliers",
+            "level": 51,
             "npc_en": "Expedition Leader",
             "npc_fr": "Capitaine de la Brigade De Recherche",
+            "patch": "3.0",
             "cPrev": ["q.67140"],
-            "cNext": ["q.67142"],
-            "patch": "4.31"
+            "cNext": ["q.67142"]
         },
         "x67142": {
-            "level": 51,
             "name_en": "Sounding Out the Amphitheatre",
             "name_fr": "Du sang sur les planches",
-            "unlock": ["travel.mount-speed.ishgard-and-coerthas.2"],
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.2"],
+            "patch": "3.0",
             "cPrev": ["q.67141"],
             "cNext": [
                 "q.67296",
@@ -302,87 +305,88 @@
                 "q.67301",
                 "q.67302"
             ],
-            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.2"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.2"]
         },
         "x67143": {
-            "level": 51,
             "name_en": "Camp of the Convictors",
             "name_fr": "Le Convictoire",
+            "level": 51,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67142"],
-            "cNext": ["q.67144", "q.67295", "q.67299", "q.67303", "q.67304"],
-            "patch": "4.31"
+            "cNext": ["q.67144", "q.67295", "q.67299", "q.67303", "q.67304"]
         },
         "x67144": {
-            "level": 51,
             "name_en": "Purple Flame, Purple Flame",
             "name_fr": "Une trahison millénaire",
-            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.14",
+            "level": 51,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.14",
+            "patch": "3.0",
             "cPrev": ["q.67143"],
             "cNext": ["q.67290", "q.67145"],
-            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.14"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.14"]
         },
         "x67145": {
-            "level": 52,
             "name_en": "Where the Chocobos Roam",
             "name_fr": "En route vers la confrontation",
+            "level": 52,
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
+            "patch": "3.0",
             "cPrev": ["q.67144"],
-            "cNext": ["q.67307", "q.67311", "q.67312", "q.67146", "q.67306", "q.67308", "q.67309", "q.67310", "q.67643"],
-            "patch": "4.31"
+            "cNext": ["q.67307", "q.67311", "q.67312", "q.67146", "q.67306", "q.67308", "q.67309", "q.67310", "q.67643"]
         },
         "x67146": {
-            "level": 52,
             "name_en": "Worse than Dragons",
             "name_fr": "Attention aux Gnathes",
+            "level": 52,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
+            "patch": "3.0",
             "cPrev": ["q.67145"],
-            "cNext": ["q.67147"],
-            "patch": "4.31"
+            "cNext": ["q.67147"]
         },
         "x67147": {
-            "level": 52,
             "name_en": "The Trine Towers",
             "name_fr": "La tour des dragons",
+            "level": 52,
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
+            "patch": "3.0",
             "cPrev": ["q.67146"],
-            "cNext": ["q.67148", "q.67318", "q.67313", "q.67317", "q.67319"],
-            "patch": "4.31"
+            "cNext": ["q.67148", "q.67318", "q.67313", "q.67317", "q.67319"]
         },
         "x67148": {
-            "level": 52,
             "name_en": "Gifts for the Outcasts",
             "name_fr": "Un cadeau de circonstance",
+            "level": 52,
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
+            "unlock": "tto.14",
+            "patch": "3.0",
             "cPrev": ["q.67147"],
-            "cNext": ["q.67314", "q.67315", "q.67320", "q.67149", "q.67316", "q.67321"],
-            "patch": "4.31"
+            "cNext": ["q.67314", "q.67315", "q.67320", "q.67149", "q.67316", "q.67321"]
         },
         "x67149": {
-            "level": 52,
             "name_en": "The Nonmind",
             "name_fr": "Les Égarés",
+            "level": 52,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67148"],
-            "cNext": ["q.67328", "q.67150", "q.67322", "q.67323", "q.67324", "q.67326", "q.67327", "q.67325"],
-            "patch": "4.31"
+            "cNext": ["q.67328", "q.67150", "q.67322", "q.67323", "q.67324", "q.67326", "q.67327", "q.67325"]
         },
         "x67150": {
-            "level": 53,
             "name_en": "A Gnathic Deity",
             "name_fr": "Le dieu des Gnathes",
+            "level": 53,
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
+            "patch": "3.0",
             "cPrev": ["q.67149"],
             "cNext": [
                 "q.67334",
@@ -400,223 +404,223 @@
                 "q.67333",
                 "q.67339",
                 "q.67350"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67151": {
-            "level": 53,
             "name_en": "Breaking into Hives",
             "name_fr": "Un pari dangereux",
+            "level": 53,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
-            "cNext": ["q.67341", "q.67344", "q.67152", "q.67340", "q.67342", "q.67343"],
-            "patch": "4.31"
+            "cNext": ["q.67341", "q.67344", "q.67152", "q.67340", "q.67342", "q.67343"]
         },
         "x67152": {
-            "level": 53,
             "name_en": "Lord of the Hive",
             "name_fr": "Le Maître des lames",
-            "unlock": ["d.86", "travel.mount-speed.ishgard-and-coerthas.9"],
+            "level": 53,
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
+            "unlock": ["d.86", "travel.mount-speed.ishgard-and-coerthas.9"],
+            "patch": "3.0",
             "cPrev": ["q.67151"],
             "cNext": ["q.67153", "q.67346", "q.67352", "q.67353", "q.67354", "q.67791", "q.67345", "q.67347", "q.67349"],
-            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.9"],
-            "patch": "4.31"
+            "cSiblings": ["d.86", "travel.mount-speed.ishgard-and-coerthas.9"]
         },
         "x67153": {
-            "level": 53,
             "name_en": "Mourn in Passing",
             "name_fr": "Les cimes de Sohm Al",
-            "unlock": ["d.37", "travel.aether-currents.hw.the-dravanian-forelands.14"],
+            "level": 53,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": ["d.37", "travel.aether-currents.hw.the-dravanian-forelands.14"],
+            "patch": "3.0",
             "cPrev": ["q.67152"],
             "cNext": ["q.67154"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.14"],
-            "patch": "4.31"
+            "cSiblings": ["d.37", "travel.aether-currents.hw.the-dravanian-forelands.14"]
         },
         "x67154": {
-            "level": 53,
             "name_en": "Beyond the Clouds",
             "name_fr": "Des silhouettes inattendues",
+            "level": 53,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67153"],
-            "cNext": ["q.67155"],
-            "patch": "4.31"
+            "cNext": ["q.67155"]
         },
         "x67155": {
-            "level": 54,
             "name_en": "Mountaintop Diplomacy",
             "name_fr": "Les Mogs célestes",
+            "level": 54,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67154"],
-            "cNext": ["q.67156", "q.67158", "q.67157"],
-            "patch": "4.31"
+            "cNext": ["q.67156", "q.67158", "q.67157"]
         },
         "x67156": {
-            "level": 54,
             "name_en": "Moghan's Trial",
             "name_fr": "L'épreuve de Moghan",
+            "level": 54,
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
+            "patch": "3.0",
             "cPrev": ["q.67155"],
-            "cNext": ["q.67355", "q.67159"],
-            "patch": "4.31"
+            "cNext": ["q.67355", "q.67159"]
         },
         "x67157": {
-            "level": 54,
             "name_en": "Mogmug's Trial",
             "name_fr": "L'épreuve de Mogmug",
+            "level": 54,
             "npc_en": "Mogmug",
             "npc_fr": "Mogmug",
+            "patch": "3.0",
             "cPrev": ["q.67155"],
-            "cNext": ["q.67356", "q.67159"],
-            "patch": "4.31"
+            "cNext": ["q.67356", "q.67159"]
         },
         "x67158": {
-            "level": 54,
             "name_en": "Mogwin's Trial",
             "name_fr": "L'épreuve de Mogwin",
+            "level": 54,
             "npc_en": "Mogwin",
             "npc_fr": "Mogwin",
+            "patch": "3.0",
             "cPrev": ["q.67155"],
-            "cNext": ["q.67358", "q.67159"],
-            "patch": "4.31"
+            "cNext": ["q.67358", "q.67159"]
         },
         "x67159": {
-            "level": 54,
             "name_en": "Moglin's Judgment",
             "name_fr": "Tout est kupo qui finit kuppo",
+            "level": 54,
             "npc_en": "Moglin",
             "npc_fr": "Moglin",
+            "patch": "3.0",
             "cPrev": ["q.67156", "q.67157", "q.67158"],
-            "cNext": ["q.67160", "q.67357", "q.67360"],
-            "patch": "4.31"
+            "cNext": ["q.67160", "q.67357", "q.67360"]
         },
         "x67160": {
-            "level": 54,
             "name_en": "Leaving Moghome",
             "name_fr": "L'avertissement de l'Oracle",
+            "level": 54,
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
+            "patch": "3.0",
             "cPrev": ["q.67159"],
-            "cNext": ["q.67359", "q.67161"],
-            "patch": "4.31"
+            "cNext": ["q.67359", "q.67161"]
         },
         "x67161": {
-            "level": 54,
             "name_en": "The Road to Zenith",
             "name_fr": "Un pont au-dessus des nuages",
+            "level": 54,
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
+            "patch": "3.0",
             "cPrev": ["q.67160"],
-            "cNext": ["q.67361", "q.67162", "q.67362", "q.67363"],
-            "patch": "4.31"
+            "cNext": ["q.67361", "q.67162", "q.67362", "q.67363"]
         },
         "x67162": {
-            "level": 54,
             "name_en": "Waiting for the Wind to Change",
             "name_fr": "Le feu de la sincérité",
-            "unlock": ["travel.mount-speed.ishgard-and-coerthas.13"],
+            "level": 54,
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.13"],
+            "patch": "3.0",
             "cPrev": ["q.67161"],
             "cNext": ["q.67163"],
-            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.13"]
         },
         "x67163": {
-            "level": 54,
             "name_en": "Heart of Ice",
             "name_fr": "L'illusion brisée",
+            "level": 54,
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
+            "patch": "3.0",
             "cPrev": ["q.67162"],
-            "cNext": ["q.67371", "q.67368", "q.67164", "q.67367"],
-            "patch": "4.31"
+            "cNext": ["q.67371", "q.67368", "q.67164", "q.67367"]
         },
         "x67164": {
-            "level": 54,
             "name_en": "The Wyrm's Lair",
             "name_fr": "Le Nid du dragon",
+            "level": 54,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67163"],
-            "cNext": ["q.67365", "q.67366", "q.67369", "q.67165", "q.67364", "q.67370"],
-            "patch": "4.31"
+            "cNext": ["q.67365", "q.67366", "q.67369", "q.67165", "q.67364", "q.67370"]
         },
         "x67165": {
-            "level": 54,
             "name_en": "New Winds, Old Friends",
             "name_fr": "La technologie au service de l'aventure",
+            "level": 54,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "patch": "3.0",
             "cPrev": ["q.67164"],
-            "cNext": ["q.67166"],
-            "patch": "4.31"
+            "cNext": ["q.67166"]
         },
         "x67166": {
-            "level": 54,
             "name_en": "A General Summons",
             "name_fr": "Un message du désert",
+            "level": 54,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "3.0",
             "cPrev": ["q.67165"],
-            "cNext": ["q.67167"],
-            "patch": "4.31"
+            "cNext": ["q.67167"]
         },
         "x67167": {
-            "level": 54,
             "name_en": "Awakening in Ul'dah",
             "name_fr": "Ul'dah martyrisée, mais Ul'dah libérée",
+            "level": 54,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67166"],
-            "cNext": ["q.67168"],
-            "patch": "4.31"
+            "cNext": ["q.67168"]
         },
         "x67168": {
-            "level": 54,
             "name_en": "A Brave Resolution",
             "name_fr": "Une dévotion à toute épreuve",
+            "level": 54,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67167"],
-            "cNext": ["q.65581", "q.65636", "q.65586", "q.67169"],
-            "patch": "4.31"
+            "cNext": ["q.65581", "q.65636", "q.65586", "q.67169"]
         },
         "x67169": {
-            "level": 55,
             "name_en": "Ready to Fly",
             "name_fr": "Dans l'œil du cyclone",
+            "level": 55,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67168"],
-            "cNext": ["q.67170"],
-            "patch": "4.31"
+            "cNext": ["q.67170"]
         },
         "x67170": {
-            "level": 55,
             "name_en": "Into the Aery",
             "name_fr": "La colère du dragon",
-            "unlock": ["d.39", "travel.aether-currents.hw.the-churning-mists.14", "mo.55"],
+            "level": 55,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "unlock": ["d.39", "travel.aether-currents.hw.the-churning-mists.14", "mo.55"],
+            "patch": "3.0",
             "cPrev": ["q.67169"],
             "cNext": ["q.67171", "q.67856"],
-            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.14"],
-            "patch": "4.31"
+            "cSiblings": ["d.39", "travel.aether-currents.hw.the-churning-mists.14"]
         },
         "x67171": {
-            "level": 55,
             "name_en": "The Song Begins",
             "name_fr": "Et la guerre commença",
+            "level": 55,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "patch": "3.0",
             "cPrev": ["q.67170"],
             "cNext": [
                 "q.67372",
@@ -652,26 +656,26 @@
                 "q.67402",
                 "q.67403",
                 "q.67404"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67172": {
-            "level": 56,
             "name_en": "Unrest in Ishgard",
             "name_fr": "Émeute à Ishgard",
+            "level": 56,
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
+            "patch": "3.0",
             "cPrev": ["q.67171"],
             "cNext": ["q.67173"],
-            "cSiblings": ["a.1135"],
-            "patch": "4.31"
+            "cSiblings": ["a.1135"]
         },
         "x67173": {
-            "level": 56,
             "name_en": "He Who Would Not Be Denied",
             "name_fr": "Le mensonge de l'Église",
+            "level": 56,
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
+            "patch": "3.0",
             "cPrev": ["q.67172"],
             "cNext": [
                 "q.67437",
@@ -711,255 +715,260 @@
                 "q.67432",
                 "q.67435",
                 "q.67440"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67174": {
-            "level": 56,
             "name_en": "Ill-weather Friends",
             "name_fr": "Soutien révolutionnaire",
+            "level": 56,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67173"],
-            "cNext": ["q.67529"],
-            "patch": "4.31"
+            "cNext": ["q.67529"]
         },
         "x67529": {
-            "level": 56,
             "name_en": "The Spice of Life",
             "name_fr": "La sagesse du tavernier",
+            "level": 56,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67174"],
-            "cNext": ["q.67530"],
-            "patch": "4.31"
+            "cNext": ["q.67530"]
         },
         "x67530": {
-            "level": 56,
             "name_en": "Noble Indiscretions",
             "name_fr": "Le vin de la mémoire I",
+            "level": 56,
             "npc_en": "Gibrillont",
             "npc_fr": "Gibrillont",
+            "patch": "3.0",
             "cPrev": ["q.67529"],
-            "cNext": ["q.67531"],
-            "patch": "4.31"
+            "cNext": ["q.67531"]
         },
         "x67531": {
-            "level": 56,
             "name_en": "A Child Apart",
             "name_fr": "Le vin de la mémoire II",
+            "level": 56,
             "npc_en": "Gibrillont",
             "npc_fr": "Gibrillont",
+            "patch": "3.0",
             "cPrev": ["q.67530"],
-            "cNext": ["q.67532"],
-            "patch": "4.31"
+            "cNext": ["q.67532"]
         },
         "x67532": {
-            "level": 56,
             "name_en": "Bloodlines",
             "name_fr": "La différence de la Bâtarde",
+            "level": 56,
             "npc_en": "Gibrillont",
             "npc_fr": "Gibrillont",
+            "patch": "3.0",
             "cPrev": ["q.67531"],
-            "cNext": ["q.67175"],
-            "patch": "4.31"
+            "cNext": ["q.67175"]
         },
         "x67175": {
-            "level": 57,
             "name_en": "Fire and Blood",
             "name_fr": "Face-à-face inattendus",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67532"],
-            "cNext": ["q.67176"],
-            "patch": "4.31"
+            "cNext": ["q.67176"]
         },
         "x67176": {
-            "level": 57,
             "name_en": "A Knight's Calling",
             "name_fr": "Le devoir du chevalier",
-            "unlock": "d.34",
+            "level": 57,
             "npc_en": "Hilda",
             "npc_fr": "Hilda",
+            "unlock": "d.34",
+            "patch": "3.0",
             "cPrev": ["q.67175"],
             "cNext": ["q.67177"],
-            "patch": "4.31"
+            "cSiblings": ["d.34"]
         },
         "x67177": {
-            "level": 57,
             "name_en": "The Sins of Antiquity",
             "name_fr": "La conviction de l'Archevêque",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67176"],
             "cNext": ["q.67441", "q.67442", "q.67178"],
-            "cSiblings": ["a.1136"],
-            "patch": "4.31"
+            "cSiblings": ["a.1136"]
         },
         "x67178": {
-            "level": 57,
             "name_en": "In Search of the Soleil",
             "name_fr": "À la poursuite de l'Archevêque",
+            "level": 57,
             "npc_en": "Lucia",
             "npc_fr": "Lucia",
+            "patch": "3.0",
             "cPrev": ["q.67177"],
-            "cNext": ["q.67179"],
-            "patch": "4.31"
+            "cNext": ["q.67179"]
         },
         "x67179": {
-            "level": 57,
             "name_en": "Into the Blue",
             "name_fr": "Vers L'Écume des cieux d'Abalathia",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67178"],
-            "cNext": ["q.67180"],
-            "patch": "4.31"
+            "cNext": ["q.67180"]
         },
         "x67180": {
-            "level": 57,
             "name_en": "Familiar Faces",
             "name_fr": "Bubuler à l'aide",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67179"],
-            "cNext": ["q.67181"],
-            "patch": "4.31"
+            "cNext": ["q.67181"]
         },
         "x67181": {
-            "level": 57,
             "name_en": "Devourer of Worlds",
             "name_fr": "Un nid d'hommes-hiboux",
+            "level": 57,
             "npc_en": "Lonu Vanu",
             "npc_fr": "Lonu Vanu",
+            "patch": "3.0",
             "cPrev": ["q.67180"],
-            "cNext": ["q.67182"],
-            "patch": "4.31"
+            "cNext": ["q.67182"]
         },
         "x67182": {
-            "level": 57,
             "name_en": "Black and the White",
             "name_fr": "La légende du Migrateur des brumes",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67181"],
-            "cNext": ["q.67183", "q.67445", "q.67446", "q.67443", "q.67444", "q.67447", "q.67451", "q.67450", "q.67452"],
-            "patch": "4.31"
+            "cNext": ["q.67183", "q.67445", "q.67446", "q.67443", "q.67444", "q.67447", "q.67451", "q.67450", "q.67452"]
         },
         "x67183": {
-            "level": 57,
             "name_en": "Bolt, Chain, and Island",
             "name_fr": "La pêche à la baleine",
+            "level": 57,
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
             "unlock": [
                 "d.88",
                 "travel.aether-currents.hw.the-sea-of-clouds.11",
                 "travel.mount-speed.ishgard-and-coerthas.4"
             ],
-            "npc_en": "Alphinaud",
-            "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67182"],
             "cNext": ["q.67448", "q.67455", "q.67457", "q.67184", "q.67449", "q.67453", "q.67454", "q.67456"],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.11", "travel.mount-speed.ishgard-and-coerthas.4"],
-            "patch": "4.31"
+            "cSiblings": [
+                "d.88",
+                "travel.aether-currents.hw.the-sea-of-clouds.11",
+                "travel.mount-speed.ishgard-and-coerthas.4"
+            ]
         },
         "x67184": {
-            "level": 57,
             "name_en": "A Difference of Opinion",
             "name_fr": "Une impérieuse présence",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "mi.133",
+            "patch": "3.0",
             "cPrev": ["q.67183"],
-            "cNext": ["q.67185", "q.67700"],
-            "patch": "4.31",
-            "unlock": "mi.133"
+            "cNext": ["q.67185", "q.67700"]
         },
         "x67185": {
-            "level": 57,
             "name_en": "One Good Turn",
             "name_fr": "Un obstacle de plus",
+            "level": 57,
             "npc_en": "Cid",
             "npc_fr": "Cid",
+            "patch": "3.0",
             "cPrev": ["q.67184"],
             "cNext": ["q.67186"],
-            "cSiblings": ["a.1137"],
-            "patch": "4.31"
+            "cSiblings": ["a.1137"]
         },
         "x67186": {
-            "level": 57,
             "name_en": "An Engineering Enterprise",
             "name_fr": "Un espoir de retrouvaille",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67185"],
-            "cNext": ["q.67187"],
-            "patch": "4.31"
+            "cNext": ["q.67187"]
         },
         "x67187": {
-            "level": 57,
             "name_en": "Aetherial Trail",
             "name_fr": "Le sort interdit",
+            "level": 57,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "3.0",
             "cPrev": ["q.67186"],
-            "cNext": ["q.67188"],
-            "patch": "4.31"
+            "cNext": ["q.67188"]
         },
         "x67188": {
-            "level": 57,
             "name_en": "Lost in the Lifestream",
             "name_fr": "Sauvetage en éther",
+            "level": 57,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67187"],
-            "cNext": ["q.67189"],
-            "patch": "4.31"
+            "cNext": ["q.67189"]
         },
         "x67189": {
-            "level": 57,
             "name_en": "Tataru's Surprise",
             "name_fr": "Un cadeau de convalescence",
+            "level": 57,
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
+            "patch": "3.0",
             "cPrev": ["q.67188"],
-            "cNext": ["q.67464", "q.67465", "q.67190", "q.67458", "q.67459", "q.67460", "q.67461", "q.67463", "q.67466"],
-            "patch": "4.31"
+            "cNext": ["q.67464", "q.67465", "q.67190", "q.67458", "q.67459", "q.67460", "q.67461", "q.67463", "q.67466"]
         },
         "x67190": {
-            "level": 57,
             "name_en": "Onward to Sharlayan",
             "name_fr": "Départ vers l'arrière-pays",
+            "level": 57,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "3.0",
             "cPrev": ["q.67189"],
-            "cNext": ["q.67191"],
-            "patch": "4.31"
+            "cNext": ["q.67191"]
         },
         "x67191": {
-            "level": 58,
             "name_en": "A Great New Nation",
             "name_fr": "Une cité pas si abandonnée",
+            "level": 58,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "patch": "3.0",
             "cPrev": ["q.67190"],
-            "cNext": ["q.67472", "q.67468", "q.67469", "q.67192", "q.67467"],
-            "patch": "4.31"
+            "cNext": ["q.67472", "q.67468", "q.67469", "q.67192", "q.67467"]
         },
         "x67192": {
-            "level": 58,
             "name_en": "Golems Begone",
             "name_fr": "Des mots pulvérisateurs",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67191"],
-            "cNext": ["q.67475", "q.67477", "q.67479", "q.67476", "q.67193", "q.67470", "q.67474"],
-            "patch": "4.31"
+            "cNext": ["q.67475", "q.67477", "q.67479", "q.67476", "q.67193", "q.67470", "q.67474"]
         },
         "x67193": {
-            "level": 58,
             "name_en": "An Illuminati Incident",
-            "name_fr": "De quoi en faire un fromage?",
+            "name_fr": "De quoi en faire un fromage ?",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67192"],
             "cNext": [
                 "q.67481",
@@ -972,15 +981,15 @@
                 "q.67482",
                 "q.67483",
                 "q.67485"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67194": {
-            "level": 58,
             "name_en": "Leaving Idyllshire",
             "name_fr": "L'espérée traversée",
+            "level": 58,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "patch": "3.0",
             "cPrev": ["q.67193"],
             "cNext": [
                 "q.67499",
@@ -1000,134 +1009,132 @@
                 "q.67498",
                 "q.67500",
                 "q.67501"
-            ],
-            "patch": "4.31"
+            ]
         },
         "x67195": {
-            "level": 59,
             "name_en": "Matoya's Cave",
             "name_fr": "La caverne de Matoya",
-            "unlock": ["travel.mount-speed.ishgard-and-coerthas.11"],
+            "level": 59,
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.11"],
+            "patch": "3.0",
             "cPrev": ["q.67194"],
             "cNext": ["q.67196", "q.67502", "q.67503", "q.67504", "q.67505", "q.67507"],
-            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.11"]
         },
         "x67196": {
-            "level": 59,
             "name_en": "Forbidden Knowledge",
             "name_fr": "Dépoussiérage de livres",
-            "unlock": ["d.31", "travel.aether-currents.hw.the-dravanian-hinterlands.13"],
+            "level": 59,
             "npc_en": "Matoya",
             "npc_fr": "Matoya",
+            "unlock": ["d.31", "travel.aether-currents.hw.the-dravanian-hinterlands.13"],
+            "patch": "3.0",
             "cPrev": ["q.67195"],
             "cNext": ["q.67197"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.13"],
-            "patch": "4.31"
+            "cSiblings": ["d.31", "travel.aether-currents.hw.the-dravanian-hinterlands.13"]
         },
         "x67197": {
-            "level": 59,
             "name_en": "An Eye for Aether",
             "name_fr": "L'Œil du bélier",
+            "level": 59,
             "npc_en": "Matoya",
             "npc_fr": "Matoya",
+            "patch": "3.0",
             "cPrev": ["q.67196"],
-            "cNext": ["q.67511", "q.67512", "q.67198", "q.67508", "q.67509", "q.67510", "q.67513", "q.67514"],
-            "patch": "4.31"
+            "cNext": ["q.67511", "q.67512", "q.67198", "q.67508", "q.67509", "q.67510", "q.67513", "q.67514"]
         },
         "x67198": {
-            "level": 59,
             "name_en": "Hour of Departure",
             "name_fr": "L'heure du départ",
+            "level": 59,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "patch": "3.0",
             "cPrev": ["q.67197"],
             "cNext": ["q.67199"],
-            "cSiblings": ["a.1138"],
-            "patch": "4.31"
+            "cSiblings": ["a.1138"]
         },
         "x67199": {
-            "level": 59,
             "name_en": "The First Flight of the Excelsior",
             "name_fr": "L'Entreprise Excelsior",
+            "level": 59,
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
+            "unlock": "tto.39",
+            "patch": "3.0",
             "cPrev": ["q.67198"],
-            "cNext": ["q.67200"],
-            "patch": "4.31"
+            "cNext": ["q.67200"]
         },
         "x67200": {
-            "level": 59,
             "name_en": "Systematic Exploration",
             "name_fr": "Allag, l'autre empire",
-            "unlock": "travel.aether-currents.hw.azys-lla.0",
+            "level": 59,
             "npc_en": "Cid",
             "npc_fr": "Cid",
+            "unlock": "travel.aether-currents.hw.azys-lla.0",
+            "patch": "3.0",
             "cPrev": ["q.67199"],
             "cNext": ["q.67201", "q.67515", "q.67516", "q.67517", "q.67518"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.0"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.0"]
         },
         "x67201": {
-            "level": 59,
             "name_en": "In Node We Trust",
             "name_fr": "Suivez le guide",
-            "unlock": "travel.aether-currents.hw.azys-lla.1",
+            "level": 59,
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
+            "unlock": "travel.aether-currents.hw.azys-lla.1",
+            "patch": "3.0",
             "cPrev": ["q.67200"],
             "cNext": ["q.67202", "q.67519", "q.67520", "q.67521"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.1"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.1"]
         },
         "x67202": {
-            "level": 59,
             "name_en": "Chimerical Maintenance",
             "name_fr": "L'île des chimères",
-            "unlock": "travel.aether-currents.hw.azys-lla.2",
+            "level": 59,
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
+            "unlock": "travel.aether-currents.hw.azys-lla.2",
+            "patch": "3.0",
             "cPrev": ["q.67201"],
             "cNext": ["q.67203", "q.67524", "q.67522", "q.67523", "q.67525"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.2"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.2"]
         },
         "x67203": {
-            "level": 59,
             "name_en": "Close Encounters of the VIth Kind",
             "name_fr": "Revanche impériale",
-            "unlock": [
-                "travel.aether-currents.hw.azys-lla.3",
-                "travel.mount-speed.ishgard-and-coerthas.6"
-            ],
+            "level": 59,
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
+            "unlock": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard-and-coerthas.6"],
+            "patch": "3.0",
             "cPrev": ["q.67202"],
             "cNext": ["q.67204", "q.67526", "q.67527", "q.67528"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard-and-coerthas.6"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard-and-coerthas.6"]
         },
         "x67204": {
-            "level": 59,
             "name_en": "Fetters of Lament",
             "name_fr": "Un dragon aux fers",
-            "unlock": ["travel.aether-currents.hw.azys-lla.4", "mo.50"],
+            "level": 59,
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
+            "unlock": ["travel.aether-currents.hw.azys-lla.4", "mo.50"],
+            "patch": "3.0",
             "cPrev": ["q.67203"],
             "cNext": ["q.67205"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.4"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.4"]
         },
         "x67205": {
-            "level": 60,
             "name_en": "Heavensward",
             "name_fr": "Les yeux rivés au ciel",
-            "unlock": ["d.38", "d.90", "travel.mount-speed.ishgard-and-coerthas.8"],
+            "level": 60,
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
+            "unlock": ["d.38", "d.90", "travel.mount-speed.ishgard-and-coerthas.8", "tto.38"],
+            "patch": "3.0",
             "cPrev": ["q.67204"],
             "cNext": [
                 "q.67654",
@@ -1151,8 +1158,7 @@
                 "q.67762",
                 "q.67818"
             ],
-            "cSiblings": ["a.1139", "travel.mount-speed.ishgard-and-coerthas.8"],
-            "patch": "4.31"
+            "cSiblings": ["d.38", "d.90", "a.1139", "travel.mount-speed.ishgard-and-coerthas.8"]
         }
     }
 }

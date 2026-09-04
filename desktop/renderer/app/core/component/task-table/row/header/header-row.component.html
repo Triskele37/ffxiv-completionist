@@ -1,0 +1,42 @@
+<tr class="task-table-header">
+    <!-- Flag Header -->
+    @if(!svcTable.group().disableCompletion) {
+        <th
+            [style.width.px]="svcTable.hasNumericColumns ? 100 : 60"
+        >
+            <com-completion-filter></com-completion-filter>
+        </th>
+    }
+
+    <!-- Data Headers -->
+    @for(column of svcTable.group().columns; track column.key) {
+        <th [style.width.px]="column.width">
+            @let helpKey = svcTable.group().isCustomGroup ? 'CUSTOM_VIEW.CUSTOM_COLUMN_NAME' : 'TABLE.COLUMN_NAME';
+            <div
+                [attr.data-active-help]="'APP.ACTIVE_HELP.' + helpKey"
+                class="column-name"
+                [pSortableColumn]="column.key"
+                [pSortableColumnDisabled]="svcTable.group().isCustomGroup"
+            >
+                {{column.header}}
+                @if(!svcTable.group().isCustomGroup) {
+                    <p-sort-icon [field]="column.key"></p-sort-icon>
+                }
+            </div>
+
+            @if(column.header) {
+                <div class="column-filter">
+                    @if(column.filterable) {
+                        <com-option-filter [column]="column"></com-option-filter>
+                    } @else {
+                        <com-input-filter [column]="column"></com-input-filter>
+                    }
+                </div>
+            }
+        </th>
+    }
+
+    <!-- Row Action Header -->
+    <!-- TODO: Move Table Actions Here -->
+    <th class="row-action"></th>
+</tr>

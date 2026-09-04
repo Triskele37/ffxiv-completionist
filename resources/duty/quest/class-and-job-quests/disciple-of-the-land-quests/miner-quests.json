@@ -4,228 +4,228 @@
     "groupName_fr": "Quêtes de mineur",
     "tasks": {
         "x66133": {
-            "level": 1,
             "name_en": "Way of the Miner",
             "name_fr": "La voie de l'extraction minière",
+            "level": 1,
             "npc_en": "Linette",
             "npc_fr": "Linette",
+            "unlock": "ap.276",
+            "patch": "2.0",
             "cPrev": ["q.65728"],
             "cNext": ["q.66135"],
-            "cSiblings": ["ap.276"],
-            "patch": "4.31",
-            "unlock": "ap.276"
+            "cSiblings": ["ap.276"]
         },
         "x66135": {
-            "level": 1,
             "name_en": "My First Pickaxe",
             "name_fr": "Premiers coups de pioche",
+            "level": 1,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66133"],
-            "cNext": ["q.66136"],
-            "patch": "4.31"
+            "cNext": ["q.66136"]
         },
         "x66136": {
-            "level": 5,
             "name_en": "Know Thy Land",
             "name_fr": "Tomber sur un os",
+            "level": 5,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66135"],
-            "cNext": ["q.66138"],
-            "patch": "4.31"
+            "cNext": ["q.66138"]
         },
         "x66138": {
-            "level": 10,
             "name_en": "The Cutting Edge",
             "name_fr": "Une roche noire et tranchante",
+            "level": 10,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66136"],
-            "cNext": ["q.66139"],
-            "patch": "4.31"
+            "cNext": ["q.66139"]
         },
         "x66139": {
-            "level": 15,
             "name_en": "Getting in Deep",
             "name_fr": "Le ponte de l'extraction minière",
+            "level": 15,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66138"],
-            "cNext": ["q.66140"],
-            "patch": "4.31"
+            "cNext": ["q.66140"]
         },
         "x66140": {
-            "level": 20,
             "name_en": "Old Wisdom, New Ways",
             "name_fr": "Matière à extraire",
+            "level": 20,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66139"],
-            "cNext": ["q.66141"],
-            "patch": "4.31"
+            "cNext": ["q.66141"]
         },
         "x66141": {
-            "level": 25,
             "name_en": "Water from Stone",
             "name_fr": "Une eau qui fait tourner la tête",
+            "level": 25,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66140"],
-            "cNext": ["q.66142"],
-            "patch": "4.31"
+            "cNext": ["q.66142"]
         },
         "x66142": {
-            "level": 30,
             "name_en": "Obsidian Race",
             "name_fr": "Un sombre duel minier",
+            "level": 30,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66141"],
             "cNext": ["q.66179"],
-            "cCombo": ["a.317"],
-            "patch": "4.31"
+            "cCombo": ["a.317"]
         },
         "x66179": {
-            "level": 35,
             "name_en": "Amethysts Are Forever",
             "name_fr": "Les gemmes de la détermination",
+            "level": 35,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66142"],
-            "cNext": ["q.66180"],
-            "patch": "4.31"
+            "cNext": ["q.66180"]
         },
         "x66180": {
-            "level": 40,
             "name_en": "To Die For",
             "name_fr": "L'orgueil friable du mineur",
+            "level": 40,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66179"],
-            "cNext": ["q.66181"],
-            "patch": "4.31"
+            "cNext": ["q.66181"]
         },
         "x66181": {
-            "level": 45,
             "name_en": "Gulley of Woes",
             "name_fr": "À vouloir briller comme l'électrum",
+            "level": 45,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66180"],
-            "cNext": ["q.66182"],
-            "patch": "4.31"
+            "cNext": ["q.66182"]
         },
         "x66182": {
-            "level": 50,
             "name_en": "Canyon of Regret",
             "name_fr": "Un passé de sombracier",
+            "level": 50,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "2.0",
             "cPrev": ["q.66181"],
-            "cNext": ["q.67616"],
-            "patch": "4.31"
+            "cNext": ["q.67616"]
         },
         "x67616": {
-            "level": 50,
             "name_en": "Breaking New Ground",
             "name_fr": "Le poussin et le professeur",
+            "level": 50,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "3.0",
             "cPrev": ["q.66182", "q.65964"],
-            "cNext": ["q.67617"],
-            "patch": "4.31"
+            "cNext": ["q.67617"]
         },
         "x67617": {
-            "level": 53,
             "name_en": "Sellspade",
             "name_fr": "Les compagnons du risque",
+            "level": 53,
             "npc_en": "Haimirich",
             "npc_fr": "Haimirich",
+            "patch": "3.0",
             "cPrev": ["q.67616"],
-            "cNext": ["q.67618"],
-            "patch": "4.31"
+            "cNext": ["q.67618"]
         },
         "x67618": {
-            "level": 55,
             "name_en": "The Same Vein",
             "name_fr": "Titane anti-dragons",
+            "level": 55,
             "npc_en": "Haimirich",
             "npc_fr": "Haimirich",
+            "patch": "3.0",
             "cPrev": ["q.67617"],
-            "cNext": ["q.67619"],
-            "patch": "4.31"
+            "cNext": ["q.67619"]
         },
         "x67619": {
-            "level": 58,
             "name_en": "Digging Deeper",
             "name_fr": "Argent durement gagné",
+            "level": 58,
             "npc_en": "Haimirich",
             "npc_fr": "Haimirich",
+            "patch": "3.0",
             "cPrev": ["q.67618"],
-            "cNext": ["q.67620"],
-            "patch": "4.31"
+            "cNext": ["q.67620"]
         },
         "x67620": {
-            "level": 60,
             "name_en": "The Hole Truth",
             "name_fr": "Le héros d'Idyllée",
+            "level": 60,
             "npc_en": "Haimirich",
             "npc_fr": "Haimirich",
+            "patch": "3.0",
             "cPrev": ["q.67619"],
-            "cNext": ["q.68090"],
-            "patch": "4.31"
+            "cNext": ["q.68090"]
         },
         "x68090": {
-            "level": 60,
             "name_en": "Gift of the Gob",
             "name_fr": "La fabrique de Stickqix",
+            "level": 60,
             "npc_en": "Adalberta",
             "npc_fr": "Adalberta",
+            "patch": "4.0",
             "cPrev": ["q.67620", "q.67895"],
-            "cNext": ["q.68091"],
-            "patch": "4.31"
+            "cNext": ["q.68091"]
         },
         "x68091": {
-            "level": 63,
             "name_en": "Thick Skin",
             "name_fr": "Les têtes de pioche",
+            "level": 63,
             "npc_en": "Nonowato",
             "npc_fr": "Nonowato",
+            "patch": "4.0",
             "cPrev": ["q.68090"],
-            "cNext": ["q.68092"],
-            "patch": "4.31"
+            "cNext": ["q.68092"]
         },
         "x68092": {
-            "level": 65,
             "name_en": "Pedal to the Metal",
             "name_fr": "Pour petits OU grands",
+            "level": 65,
             "npc_en": "Nonowato",
             "npc_fr": "Nonowato",
+            "patch": "4.0",
             "cPrev": ["q.68091"],
-            "cNext": ["q.68093"],
-            "patch": "4.31"
+            "cNext": ["q.68093"]
         },
         "x68093": {
-            "level": 68,
             "name_en": "Where the Money Takes You",
-            "name_fr": "Son nom c'est reviens!",
+            "name_fr": "Son nom c'est reviens !",
+            "level": 68,
             "npc_en": "Nonowato",
             "npc_fr": "Nonowato",
+            "patch": "4.0",
             "cPrev": ["q.68092"],
-            "cNext": ["q.68094"],
-            "patch": "4.31"
+            "cNext": ["q.68094"]
         },
         "x68094": {
-            "level": 70,
             "name_en": "A Miner Success",
             "name_fr": "Un rêve réalisé, un futur assuré",
+            "level": 70,
             "npc_en": "Nonowato",
             "npc_fr": "Nonowato",
+            "unlock": "ap.285",
+            "patch": "4.0",
             "cPrev": ["q.68093"],
-            "cSiblings": ["ap.285"],
-            "patch": "4.31",
-            "unlock": "ap.285"
+            "cSiblings": ["ap.285"]
         }
     }
 }

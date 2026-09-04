@@ -4,568 +4,569 @@
     "groupName_fr": "Avant-pays dravanien",
     "tasks": {
         "x67307": {
-            "level": 52,
             "name_en": "Some Bad News",
             "name_fr": "On a tous nos problèmes",
-            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.11",
+            "level": 52,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
+            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.11",
+            "patch": "3.0",
             "cPrev": ["q.67145"],
             "cNext": ["q.67308", "q.67309", "q.67310"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.11"]
         },
         "x67308": {
-            "level": 52,
             "name_en": "Something's Bugging the Chocobos",
-            "name_fr": "Attrapez les puces!",
+            "name_fr": "Attrapez les puces !",
+            "level": 52,
             "npc_en": "Leonulfe",
             "npc_fr": "Leonulfe",
-            "cPrev": ["q.67145", "q.67307"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67145", "q.67307"]
         },
         "x67309": {
-            "level": 52,
             "name_en": "Why Does the Caged Bird Sing",
             "name_fr": "Le cri du cœur",
+            "level": 52,
             "npc_en": "Guenaret",
             "npc_fr": "Guenaret",
-            "cPrev": ["q.67145", "q.67307"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67145", "q.67307"]
         },
         "x67310": {
-            "level": 52,
             "name_en": "Saving the Bait",
             "name_fr": "Des proies faciles",
+            "level": 52,
             "npc_en": "Aimebert",
             "npc_fr": "Aimebert",
-            "cPrev": ["q.67145", "q.67307"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67145", "q.67307"]
         },
         "x67306": {
-            "level": 52,
             "name_en": "Clever Chicks",
             "name_fr": "Malin comme un oiseau",
+            "level": 52,
             "npc_en": "Virgeaume",
             "npc_fr": "Virgeaume",
+            "patch": "3.0",
             "cPrev": ["q.67145"],
-            "cNext": ["q.67314"],
-            "patch": "4.31"
+            "cNext": ["q.67314"]
         },
         "x67314": {
-            "level": 52,
             "name_en": "A Trap to Yawn For",
             "name_fr": "Pas de bras, pas de chocobos",
+            "level": 52,
             "npc_en": "Virgeaume",
             "npc_fr": "Virgeaume",
-            "cPrev": ["q.67148", "q.67306"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67148", "q.67306"]
         },
         "x67315": {
-            "level": 52,
             "name_en": "Needs More Salt",
             "name_fr": "Limaces coriaces",
+            "level": 52,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
+            "patch": "3.0",
             "cPrev": ["q.67148"],
-            "cNext": ["q.67320", "q.67316"],
-            "patch": "4.31"
+            "cNext": ["q.67320", "q.67316"]
         },
         "x67320": {
-            "level": 52,
             "name_en": "Wet Strings Attached",
             "name_fr": "L'aventurier de l'arc perdu",
+            "level": 52,
             "npc_en": "Harrowed Hunter",
             "npc_fr": "Chasseuse Ennuyée",
-            "cPrev": ["q.67148", "q.67315"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67148", "q.67315"]
         },
         "x67316": {
-            "level": 52,
             "name_en": "Uninvited Guests",
             "name_fr": "Ours encombrants",
+            "level": 52,
             "npc_en": "Tailfeather Hunter",
             "npc_fr": "Chasseur de la Penne",
+            "patch": "3.0",
             "cPrev": ["q.67148", "q.67315"],
-            "cNext": ["q.67321"],
-            "patch": "4.31"
+            "cNext": ["q.67321"]
         },
         "x67321": {
-            "level": 52,
             "name_en": "What Remaclon Saw",
             "name_fr": "Ivre, il aperçoit des dragons",
+            "level": 52,
             "npc_en": "Remaclon",
             "npc_fr": "Remaclon",
+            "patch": "3.0",
             "cPrev": ["q.67148", "q.67316"],
-            "cNext": ["q.67458"],
-            "patch": "4.31"
+            "cNext": ["q.67458"]
         },
         "x67311": {
-            "level": 52,
             "name_en": "I Wanna Be the Hunter",
             "name_fr": "Le coup du champignon",
+            "level": 52,
             "npc_en": "Loupard",
             "npc_fr": "Loupard",
+            "patch": "3.0",
             "cPrev": ["q.67145"],
-            "cNext": ["q.67312"],
-            "patch": "4.31"
+            "cNext": ["q.67312"]
         },
         "x67312": {
-            "level": 52,
             "name_en": "A Natural Instinct",
             "name_fr": "Elle a du flair, cette petite",
+            "level": 52,
             "npc_en": "Loupard",
             "npc_fr": "Loupard",
+            "patch": "3.0",
             "cPrev": ["q.67145", "q.67311"],
-            "cNext": ["q.67313"],
-            "patch": "4.31"
+            "cNext": ["q.67313"]
         },
         "x67313": {
-            "level": 52,
             "name_en": "First Impressions Last",
             "name_fr": "Partenaire particulier",
+            "level": 52,
             "npc_en": "Loupard",
             "npc_fr": "Loupard",
+            "patch": "3.1",
             "cPrev": ["q.67147", "q.67312"],
-            "cNext": ["q.67317"],
-            "patch": "4.31"
+            "cNext": ["q.67317"]
         },
         "x67317": {
-            "level": 52,
             "name_en": "The Man Who Slew Too Much",
             "name_fr": "Entre le bon et le mauvais chasseur",
+            "level": 52,
             "npc_en": "Loupard",
             "npc_fr": "Loupard",
+            "patch": "3.0",
             "cPrev": ["q.67147", "q.67313"],
-            "cNext": ["q.67318"],
-            "patch": "4.31"
+            "cNext": ["q.67318"]
         },
         "x67318": {
-            "level": 52,
             "name_en": "A Budding Partnership",
             "name_fr": "Prenez cette fleur",
+            "level": 52,
             "npc_en": "Loupard",
             "npc_fr": "Loupard",
+            "patch": "3.0",
             "cPrev": ["q.67147", "q.67317"],
-            "cNext": ["q.67319"],
-            "patch": "4.31"
+            "cNext": ["q.67319"]
         },
         "x67319": {
-            "level": 52,
             "name_en": "Persistence Makes Perfect",
             "name_fr": "Tourner la page",
+            "level": 52,
             "npc_en": "Q'yantaa",
             "npc_fr": "Q'yantaa",
+            "patch": "3.0",
             "cPrev": ["q.67147", "q.67318"],
-            "cNext": ["q.67458"],
-            "patch": "4.31"
+            "cNext": ["q.67458"]
         },
         "x67322": {
-            "level": 52,
             "name_en": "To Each His Own",
             "name_fr": "Chacun ses goûts",
+            "level": 52,
             "npc_en": "Cibleroit",
             "npc_fr": "Cibleroit",
+            "patch": "3.0",
             "cPrev": ["q.67149"],
-            "cNext": ["q.67324", "q.67325"],
-            "patch": "4.31"
+            "cNext": ["q.67324", "q.67325"]
         },
         "x67323": {
-            "level": 52,
             "name_en": "Low-hanging Fruit",
             "name_fr": "La passion des fruits",
+            "level": 52,
             "npc_en": "The Hungerer",
             "npc_fr": "Gloutonne",
+            "patch": "3.0",
             "cPrev": ["q.67149"],
-            "cNext": ["q.67324", "q.67325"],
-            "patch": "4.31"
+            "cNext": ["q.67324", "q.67325"]
         },
         "x67324": {
-            "level": 52,
             "name_en": "Freedom of Choice",
             "name_fr": "Le gras, c'est la vie",
+            "level": 52,
             "npc_en": "Cibleroit",
             "npc_fr": "Cibleroit",
-            "cPrev": ["q.67149", "q.67322", "q.67323"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67149", "q.67322", "q.67323"]
         },
         "x67325": {
-            "level": 52,
             "name_en": "Aggressive Pruning",
             "name_fr": "Tout n'est pas bon dans la mélia",
+            "level": 52,
             "npc_en": "The Hungerer",
             "npc_fr": "Gloutonne",
-            "cPrev": ["q.67149", "q.67322", "q.67323"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67149", "q.67322", "q.67323"]
         },
         "x67326": {
-            "level": 52,
             "name_en": "Stolen Munitions",
             "name_fr": "Un vol nécessaire",
-            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.13",
+            "level": 52,
             "npc_en": "Vath Fleetfoot",
             "npc_fr": "Idaten",
+            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.13",
+            "patch": "3.0",
             "cPrev": ["q.67149"],
             "cNext": ["q.67328", "q.67331"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.13"]
         },
         "x67327": {
-            "level": 52,
             "name_en": "Feat of Clay",
             "name_fr": "Du torchis pour construire",
+            "level": 52,
             "npc_en": "Voracious Vath",
             "npc_fr": "Vathe Vorace",
+            "patch": "3.0",
             "cPrev": ["q.67149"],
-            "cNext": ["q.67329"],
-            "patch": "4.31"
+            "cNext": ["q.67329"]
         },
         "x67328": {
-            "level": 52,
             "name_en": "Natural Repellent",
             "name_fr": "Une fumée salvatrice",
+            "level": 52,
             "npc_en": "Vath Storyteller",
             "npc_fr": "Conteur Des Vathes",
+            "patch": "3.0",
             "cPrev": ["q.67149", "q.67326"],
-            "cNext": ["q.67332"],
-            "patch": "4.31"
+            "cNext": ["q.67332"]
         },
         "x67333": {
-            "level": 53,
             "name_en": "The Hunter Becomes the Kweh",
             "name_fr": "Le chocobo justicier",
-            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.12",
+            "level": 53,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
+            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.12",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
             "cNext": ["q.67334"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.12"]
         },
         "x67334": {
-            "level": 53,
             "name_en": "Chocobo's Last Stand",
             "name_fr": "Le sale boulot",
+            "level": 53,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
-            "cPrev": ["q.67150", "q.67333"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67150", "q.67333"]
         },
         "x67331": {
-            "level": 53,
             "name_en": "Treason and Plot",
             "name_fr": "Pas assez de poudre",
+            "level": 53,
             "npc_en": "Vath Fleetfoot",
             "npc_fr": "Idaten",
-            "cPrev": ["q.67150", "q.67326"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67150", "q.67326"]
         },
         "x67329": {
-            "level": 53,
             "name_en": "Yellow Stones",
             "name_fr": "L'or jaunâtre",
+            "level": 53,
             "npc_en": "Voracious Vath",
             "npc_fr": "Vathe Vorace",
-            "cPrev": ["q.67150", "q.67327"],
-            "patch": "4.31"
+            "unlock": "tto.93",
+            "patch": "3.0",
+            "cPrev": ["q.67150", "q.67327"]
         },
         "x67332": {
-            "level": 53,
             "name_en": "Vindictive Vath Vendetta",
             "name_fr": "Vathe pour vendetta",
+            "level": 53,
             "npc_en": "Vath Storyteller",
             "npc_fr": "Conteur Des Vathes",
-            "cPrev": ["q.67150", "q.67328"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67150", "q.67328"]
         },
         "x67330": {
-            "level": 53,
             "name_en": "A Curious Herb",
             "name_fr": "Arrêter le fret",
+            "level": 53,
             "npc_en": "Vath Strongarm",
             "npc_fr": "Transporteur Des Vathes",
-            "cPrev": ["q.67150"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67150"]
         },
         "x67340": {
-            "level": 53,
             "name_en": "Awakened",
             "name_fr": "Un Égaré de plus",
+            "level": 53,
             "npc_en": "Nonmind Drone",
             "npc_fr": "Gnathe Exilé",
+            "patch": "3.0",
             "cPrev": ["q.67151"],
-            "cNext": ["q.67341", "q.67342"],
-            "patch": "4.31"
+            "cNext": ["q.67341", "q.67342"]
         },
         "x67341": {
-            "level": 53,
             "name_en": "It's the Thought That Counts",
             "name_fr": "Dites-le avec des peaux",
+            "level": 53,
             "npc_en": "Nonmind Drone",
             "npc_fr": "Gnathe Exilé",
-            "cPrev": ["q.67151", "q.67340"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67151", "q.67340"]
         },
         "x67342": {
-            "level": 53,
             "name_en": "Advanced Vathematics",
             "name_fr": "Jamais seuls dans leur tête",
+            "level": 53,
             "npc_en": "Astute Vath",
             "npc_fr": "Gnathe Astucieux",
-            "cPrev": ["q.67151", "q.67340"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67151", "q.67340"]
         },
         "x67343": {
-            "level": 53,
             "name_en": "Something Worth Protecting",
             "name_fr": "Protéger les Égarés",
+            "level": 53,
             "npc_en": "Vath Fleetfoot",
             "npc_fr": "Idaten",
+            "patch": "3.0",
             "cPrev": ["q.67151"],
-            "cNext": ["q.67344"],
-            "patch": "4.31"
+            "cNext": ["q.67344"]
         },
         "x67344": {
-            "level": 53,
             "name_en": "Nipped in the Bud",
             "name_fr": "Mauvais transit",
+            "level": 53,
             "npc_en": "Vath Fleetfoot",
             "npc_fr": "Idaten",
-            "cPrev": ["q.67151", "q.67343"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67151", "q.67343"]
         },
         "x67335": {
-            "level": 53,
             "name_en": "How to Feed Your Dragon",
             "name_fr": "Le miacis, c'est miam",
+            "level": 53,
             "npc_en": "Toh Y Thrah",
             "npc_fr": "Toh Y Thrah",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
-            "cNext": ["q.67336"],
-            "patch": "4.31"
+            "cNext": ["q.67336"]
         },
         "x67336": {
-            "level": 53,
             "name_en": "Hungry for Seconds",
             "name_fr": "Les œufs, c'est mieux",
+            "level": 53,
             "npc_en": "Toh Y Thrah",
             "npc_fr": "Toh Y Thrah",
+            "patch": "3.0",
             "cPrev": ["q.67150", "q.67335"],
-            "cNext": ["q.67337"],
-            "patch": "4.31"
+            "cNext": ["q.67337"]
         },
         "x67337": {
-            "level": 53,
             "name_en": "A Taste of the Peculiar",
             "name_fr": "Place à la nourriture humaine",
+            "level": 53,
             "npc_en": "Toh Y Thrah",
             "npc_fr": "Toh Y Thrah",
-            "cPrev": ["q.67150", "q.67336"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67150", "q.67336"]
         },
         "x67338": {
-            "level": 53,
             "name_en": "A Lesson in Humility",
             "name_fr": "Une leçon pour les dragons",
-            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.10",
+            "level": 53,
             "npc_en": "Ess Khas",
             "npc_fr": "Ess Khas",
+            "unlock": "travel.aether-currents.hw.the-dravanian-forelands.10",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
             "cNext": ["q.67348"],
-            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-forelands.10"]
         },
         "x67348": {
-            "level": 53,
             "name_en": "Back in the Game",
             "name_fr": "Un duel pour le plaisir",
+            "level": 53,
             "npc_en": "Ess Khas",
             "npc_fr": "Ess Khas",
+            "patch": "3.0",
             "cPrev": ["q.67150", "q.67338"],
-            "cNext": ["q.67347", "q.67349"],
-            "patch": "4.31"
+            "cNext": ["q.67347", "q.67349"]
         },
         "x67349": {
-            "level": 53,
             "name_en": "Where Dragons Lie",
             "name_fr": "Morne terre sacrée",
+            "level": 53,
             "npc_en": "Ess Khas",
             "npc_fr": "Ess Khas",
-            "cPrev": ["q.67152", "q.67348"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67152", "q.67348"]
         },
         "x67339": {
-            "level": 53,
             "name_en": "No Smoking Allowed",
             "name_fr": "La pestilence des Gnathes",
+            "level": 53,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
-            "cNext": ["q.67345"],
-            "patch": "4.31"
+            "cNext": ["q.67345"]
         },
         "x67345": {
-            "level": 53,
             "name_en": "Like Gnaths to a Flame",
-            "name_fr": "Halte aux nuisibles!",
+            "name_fr": "Halte aux nuisibles !",
+            "level": 53,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
+            "patch": "3.0",
             "cPrev": ["q.67152", "q.67339"],
-            "cNext": ["q.67346"],
-            "patch": "4.31"
+            "cNext": ["q.67346"]
         },
         "x67346": {
-            "level": 53,
             "name_en": "Fit to Be Tied",
             "name_fr": "L'arbre apaisant",
+            "level": 53,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
-            "cPrev": ["q.67152", "q.67345"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67152", "q.67345"]
         },
         "x67347": {
-            "level": 53,
             "name_en": "Blunders in Dragonsitting",
             "name_fr": "Perdu de vue",
+            "level": 53,
             "npc_en": "Indomitable Wyvern",
             "npc_fr": "Wyverne Indomptable",
-            "cPrev": ["q.67152", "q.67348"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67152", "q.67348"]
         },
         "x67350": {
-            "level": 53,
             "name_en": "When Mother Calls",
             "name_fr": "Cache Kal",
+            "level": 53,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
+            "patch": "3.0",
             "cPrev": ["q.67150"],
-            "cNext": ["q.67351"],
-            "patch": "4.31"
+            "cNext": ["q.67351"]
         },
         "x67351": {
-            "level": 53,
             "name_en": "A Dragon and His Boy",
             "name_fr": "Kal chasse",
+            "level": 53,
             "npc_en": "Kal Myhk",
             "npc_fr": "Kal Myhk",
+            "patch": "3.0",
             "cPrev": ["q.67150", "q.67350"],
-            "cNext": ["q.67352"],
-            "patch": "4.31"
+            "cNext": ["q.67352"]
         },
         "x67352": {
-            "level": 53,
             "name_en": "Between Friends and Family",
             "name_fr": "Humains inhumains",
+            "level": 53,
             "npc_en": "Kal Myhk",
             "npc_fr": "Kal Myhk",
+            "patch": "3.0",
             "cPrev": ["q.67152", "q.67351"],
-            "cNext": ["q.67353"],
-            "patch": "4.31"
+            "cNext": ["q.67353"]
         },
         "x67353": {
-            "level": 53,
             "name_en": "The Heart of a Dragon",
             "name_fr": "Un savoir oublié",
+            "level": 53,
             "npc_en": "Kal Myhk",
             "npc_fr": "Kal Myhk",
+            "patch": "3.0",
             "cPrev": ["q.67152", "q.67352"],
-            "cNext": ["q.67354"],
-            "patch": "4.31"
+            "cNext": ["q.67354"]
         },
         "x67354": {
-            "level": 53,
             "name_en": "Let Bygones Be Bygones",
             "name_fr": "Le mal par le mal",
+            "level": 53,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
-            "cPrev": ["q.67152", "q.67353"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67152", "q.67353"]
         },
         "x67464": {
-            "level": 57,
             "name_en": "Smarter than the Average Beast",
-            "name_fr": "L'est où la cuisse?",
+            "name_fr": "L'est où la cuisse ?",
+            "level": 57,
             "npc_en": "Marcechamp",
             "npc_fr": "Marcechamp",
-            "cPrev": ["q.67189"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67189"]
         },
         "x67458": {
-            "level": 57,
             "name_en": "Getting a Legtrap Up",
             "name_fr": "Chasse aux pièges",
+            "level": 57,
             "npc_en": "Hervoix",
             "npc_fr": "Hervoix",
+            "patch": "3.0",
             "cPrev": ["q.67189", "q.67319", "q.67321"],
-            "cNext": ["q.67459", "q.67460", "q.67461"],
-            "patch": "4.31"
+            "cNext": ["q.67459", "q.67460", "q.67461"]
         },
         "x67459": {
-            "level": 57,
             "name_en": "Pest Control",
             "name_fr": "Une phobie peut en cacher une autre",
+            "level": 57,
             "npc_en": "Hervoix",
             "npc_fr": "Hervoix",
+            "patch": "3.0",
             "cPrev": ["q.67189", "q.67458"],
-            "cNext": ["q.67462"],
-            "patch": "4.31"
+            "cNext": ["q.67462"]
         },
         "x67460": {
-            "level": 57,
             "name_en": "A Step in the Right Direction",
             "name_fr": "Pièges interdits",
+            "level": 57,
             "npc_en": "Hervoix",
             "npc_fr": "Hervoix",
+            "patch": "3.0",
             "cPrev": ["q.67189", "q.67458"],
-            "cNext": ["q.67462"],
-            "patch": "4.31"
+            "cNext": ["q.67462"]
         },
         "x67461": {
-            "level": 57,
             "name_en": "Garbage Duty",
             "name_fr": "Opération forêt propre",
+            "level": 57,
             "npc_en": "Hervoix",
             "npc_fr": "Hervoix",
+            "patch": "3.0",
             "cPrev": ["q.67189", "q.67458"],
-            "cNext": ["q.67462"],
-            "patch": "4.31"
+            "cNext": ["q.67462"]
         },
         "x67462": {
-            "level": 57,
             "name_en": "A Hunter's True Nature",
             "name_fr": "Un équilibre à préserver",
+            "level": 57,
             "npc_en": "Hervoix",
             "npc_fr": "Hervoix",
+            "patch": "3.0",
             "cPrev": ["q.67459", "q.67460", "q.67461"],
-            "cNext": ["q.67463"],
-            "patch": "4.31"
+            "cNext": ["q.67463"]
         },
         "x67463": {
-            "level": 57,
             "name_en": "Smells Like Team Spirit",
             "name_fr": "La vengeance de Bauricoin",
+            "level": 57,
             "npc_en": "O'bhen Tia",
             "npc_fr": "O'bhen Tia",
-            "cPrev": ["q.67189", "q.67462"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67189", "q.67462"]
         },
         "x67466": {
-            "level": 57,
             "name_en": "The Best Defense",
             "name_fr": "Frappe préventive",
+            "level": 57,
             "npc_en": "Vath Fleetfoot",
             "npc_fr": "Idaten",
-            "cPrev": ["q.67189"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67189"]
         },
         "x67465": {
-            "level": 57,
             "name_en": "From the Jaws of Hunger",
             "name_fr": "Le petit creux de Gullinkambi",
+            "level": 57,
             "npc_en": "Gullinkambi",
             "npc_fr": "Gullinkambi",
-            "cPrev": ["q.67189"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67189"]
         }
     }
 }

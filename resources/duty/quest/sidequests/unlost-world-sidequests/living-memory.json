@@ -4,76 +4,84 @@
     "groupName_fr": "La Mémoire vivante",
     "tasks": {
         "x70710": {
-            "cPrev": ["q.70486"],
-            "level": 90,
             "name_en": "Well-wishing at the Wishing Well",
             "name_fr": "Une pièce dans la fontaine",
+            "level": 90,
             "npc_en": "Tenacious Tour Guide",
             "npc_fr": "Jeune Guide",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.living-memory.13",
+            "patch": "7.0",
+            "cPrev": ["q.70486"],
+            "cSiblings": "travel.aether-currents.dt.living-memory.13"
         },
         "x70711": {
-            "cPrev": ["q.70486"],
-            "level": 90,
             "name_en": "The Canals of History",
             "name_fr": "Le cycle perpétuel de la médecine",
+            "level": 90,
             "npc_en": "Daguerreo Archivist",
             "npc_fr": "Employée de la Médicothèque",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70486"]
         },
         "x70712": {
-            "cPrev": ["q.70488"],
-            "level": 90,
             "name_en": "Perplexing Puzzles, Endless Fun",
             "name_fr": "Je veux être ton oisillon",
+            "level": 90,
             "npc_en": "Lively Lass",
             "npc_fr": "Fillette Joyeuse",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.living-memory.12",
+            "patch": "7.0",
+            "cPrev": ["q.70488"],
+            "cSiblings": "travel.aether-currents.dt.living-memory.12"
         },
         "x70713": {
-            "cPrev": ["q.70488"],
-            "level": 90,
             "name_en": "Brotherly Bonds Know No Barrier",
             "name_fr": "Le grand frère disparu",
+            "level": 90,
             "npc_en": "Clever Youngling",
             "npc_fr": "Jeune Garçon Perspicace",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70488"]
         },
         "x70714": {
-            "cPrev": ["q.70491"],
-            "level": 90,
             "name_en": "Volcanic Disruptions",
             "name_fr": "Le trou à scorpions",
+            "level": 90,
             "npc_en": "Restless Milalla",
             "npc_fr": "Milalla Nerveux",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.living-memory.11",
+            "patch": "7.0",
+            "cPrev": ["q.70491"],
+            "cSiblings": "travel.aether-currents.dt.living-memory.11"
         },
         "x70715": {
-            "cPrev": ["q.70491"],
-            "level": 90,
             "name_en": "Blueprint Protocol",
             "name_fr": "Le plan d'une vie",
+            "level": 90,
             "npc_en": "Exhausted Engineer",
             "npc_fr": "Ingénieure Milalla",
-            "patch": "7.0"
+            "unlock": "travel.aether-currents.dt.living-memory.10",
+            "patch": "7.0",
+            "cPrev": ["q.70491"],
+            "cSiblings": "travel.aether-currents.dt.living-memory.10"
         },
         "x70716": {
-            "cPrev": ["q.70495"],
-            "level": 90,
             "name_en": "Lindblum, We Hardly Knew Ye",
             "name_fr": "Lindblum, l'oubliée",
+            "level": 90,
             "npc_en": "Amiable Elder",
             "npc_fr": "Vieille Dame Paisible",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70495"]
         },
         "x70717": {
-            "cPrev": ["q.70495"],
-            "level": 90,
             "name_en": "Leaving This Place for Good",
             "name_fr": "L'appel des forêts",
+            "level": 90,
             "npc_en": "Budding Botanist",
             "npc_fr": "Botaniste En Herbe",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cPrev": ["q.70495"]
         }
     }
 }

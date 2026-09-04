@@ -1,0 +1,133 @@
+<div class="setting">
+    <label>{{'APP.SETTING.THEME.PRESETS' | translate}}</label>
+    <com-theme-presets
+        (presetApplied)="updateGradient()"
+    ></com-theme-presets>
+</div>
+
+<div class="setting">
+    <label>{{'APP.SETTING.THEME.FONT' | translate}}</label>
+    <input
+        pInputText
+        [(ngModel)]="svcTheme.fontFamily"
+        (change)="svcTheme.setFontFamily(svcTheme.fontFamily)"
+    />
+</div>
+
+<div class="setting">
+    <label>{{'APP.SETTING.THEME.FONT_SIZE.LABEL' | translate}}</label>
+
+    <div
+        class="font-size-controls"
+        [pTooltip]="'APP.SETTING.THEME.FONT_SIZE.TOOLTIP' | translate"
+        tooltipPosition="right"
+    >
+        <p-input-number
+            [(ngModel)]="svcTheme.fontSize"
+            [showButtons]="true"
+            [min]="8"
+            [max]="24"
+            (onBlur)="svcTheme.setFontSize(svcTheme.fontSize)"
+        ></p-input-number>
+
+        <button
+            pButton
+            class="reset-font-size"
+            (click)="resetFontSize()"
+        >
+            <span class="mi mi-restart-alt"></span>
+        </button>
+    </div>
+</div>
+
+<div class="setting-line">
+    <label>{{'APP.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
+
+    <com-color-picker
+        [value]="svcTheme.primaryColor"
+        (changeHex)="svcTheme.setPrimaryColor($event)"
+    ></com-color-picker>
+
+    <com-color-picker
+        [value]="svcTheme.primaryTextColor"
+        (changeHex)="svcTheme.setPrimaryTextColor($event)"
+    ></com-color-picker>
+
+    <label>{{'APP.SETTING.THEME.PRIMARY_TEXT' | translate}}</label>
+</div>
+
+<div class="setting-line">
+    <label>{{'APP.SETTING.THEME.BACKGROUND' | translate}}</label>
+
+    <com-color-picker
+        [value]="svcTheme.backgroundColorHsb"
+        (changeHSB)="svcTheme.setBackgroundColorFromHsb($event)"
+    ></com-color-picker>
+
+    <com-color-picker
+        [value]="svcTheme.textColor"
+        (changeRGB)="svcTheme.setTextColor($event)"
+    ></com-color-picker>
+
+    <label>{{'APP.SETTING.THEME.TEXT_COLOR' | translate}}</label>
+</div>
+
+<div class="completion-line">
+    <label>{{'APP.SETTING.THEME.COMPLETION' | translate}}</label>
+
+    <div class="settings">
+        <div class="gradient-steps">
+            @for(gradientStep of gradients; track `${gradientStep}.${$index}`) {
+                <div
+                    class="gradient-step"
+                    [style.background-color]="gradientStep"
+                ></div>
+            }
+        </div>
+
+        <div class="color-pickers">
+            <span class="vert-picker">
+                <i class="i-incomplete"></i>
+                <com-color-picker
+                    [value]="svcTheme.incompleteColor"
+                    (changeRGB)="setIncompleteColor($event)"
+                ></com-color-picker>
+                <button pButton (click)="resetIncompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
+            </span>
+
+            <span class="vert-picker">
+                <com-color-picker
+                    [value]="svcTheme.partialCompleteColor"
+                    (changeRGB)="setPartialCompleteColor($event)"
+                ></com-color-picker>
+                <button pButton (click)="resetPartialCompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
+            </span>
+
+            <span class="vert-picker">
+                <i class="i-complete"></i>
+                <com-color-picker
+                    [value]="svcTheme.completeColor"
+                    (changeRGB)="setCompleteColor($event)"
+                ></com-color-picker>
+                <button pButton (click)="resetCompleteColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
+            </span>
+
+            <span class="vert-picker">
+                <i class="i-exclude"></i>
+                <com-color-picker
+                    [value]="svcTheme.excludedColor"
+                    (changeRGB)="svcTheme.setExcludedColor($event)"
+                ></com-color-picker>
+                <button pButton (click)="resetExcludedColor()">
+                    <span class="mi mi-restart-alt"></span>
+                </button>
+            </span>
+        </div>
+    </div>
+</div>

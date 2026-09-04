@@ -1,0 +1,79 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.MERGE_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <span class="mi mi-merge"></span>
+    </button>
+
+    @if(isMergeVisible()) {
+        <div class="com-modal" (click)="modalNoNo($event)"></div>
+    }
+
+    @if(isOverlayVisible() && !isMergeVisible()) {
+        <div class="overlay-panel merge-control-overlay">
+            <span class="content">
+                <p-button-group>
+                    <button
+                        data-active-help="APP.ACTIVE_HELP.MERGE_OVERLAY.AUTO_MERGE"
+                        pButton
+                        (click)="autoMergeSingleMatches()"
+                    >
+                        {{'APP.MERGE_OVERLAY.AUTO' | translate}}
+                    </button>
+                    <button
+                        data-active-help="APP.ACTIVE_HELP.MERGE_OVERLAY.MANUAL_MERGE"
+                        pButton
+                        (click)="mergeCustomTasks()"
+                    >
+                        {{'APP.MERGE_OVERLAY.MERGE' | translate}}
+                    </button>
+                </p-button-group>
+            </span>
+        </div>
+    }
+    @else if(!isOverlayVisible() && isMergeVisible()) {
+        <div
+            class="overlay-panel merge-overlay"
+            [ngClass]="{'manual-merge': !isAutoMergeEnabled()}"
+        >
+            <span class="content">
+                <div class="merge-details">
+                    @if(mergeMatches().length) {
+                        {{mergeMatches().length}} {{'APP.MERGE_OVERLAY.MATCH' | translate}}
+                    } @else {
+                        {{'APP.MERGE_OVERLAY.NO_MATCH' | translate}}
+                    }
+                    <br/><br/>
+                    {{mergeTask().name}}<br/>
+                    {{mergeTask().notes}}
+                </div>
+
+                <p-button-group>
+                    <button pButton (click)="goToNextMerge()">
+                        {{'APP.MERGE_OVERLAY.SKIP' | translate}}
+                    </button>
+                    <button pButton (click)="exitMerge()">
+                        {{'APP.MERGE_OVERLAY.EXIT' | translate}}
+                    </button>
+                </p-button-group>
+
+                @if(mergeMatches().length > 0) {
+                    <p-divider align="center">
+                        {{'APP.MERGE_OVERLAY.SELECT' | translate}}
+                    </p-divider>
+
+                    @for(match of mergeMatches(); track match.task.fullStorageKey) {
+                        <button pButton (click)="confirmCurrentMerge(match.task)">
+                            {{match.task | contentLink}}
+                        </button>
+                    }
+                }
+            </span>
+        </div>
+    }
+</span>

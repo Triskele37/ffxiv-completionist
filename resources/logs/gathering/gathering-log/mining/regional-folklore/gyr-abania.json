@@ -3,45 +3,45 @@
     "groupName_en": "Gyr Abania",
     "groupName_fr": "Gyr Abania",
     "tasks": {
-        "x0": {
-            "level": "70★",
+        "x443": {
             "name_en": "Chromite Ore",
             "name_fr": "Minerai de chromite",
-            "zone": "@PLACE.THE_PEAKS",
+            "level": "70 ★",
+            "zone": "@PLACE.SB.THE_PEAKS",
             "coordinates": "(16, 33.9)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.80",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "4.0",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.80"
+            "patch": "4.0"
         },
-        "x1": {
-            "level": "70★",
+        "x506": {
             "name_en": "Gyr Abanian Spring Water",
             "name_fr": "Eau de source de Gyr Abania",
-            "zone": "@PLACE.THE_PEAKS",
+            "level": "70 ★",
+            "zone": "@PLACE.SB.THE_PEAKS",
             "coordinates": "(16, 33.9)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.80",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "4.1",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.80"
+            "patch": "4.1"
         },
-        "x2": {
-            "level": "70★★★",
+        "x522": {
             "name_en": "Gyr Abanian Ore",
-            "name_fr": "Minerai de gyrabanien",
-            "zone": "@PLACE.THE_FRINGES",
+            "name_fr": "Minerai gyrabanien",
+            "level": "70 ★★★",
+            "zone": "@PLACE.SB.THE_FRINGES",
             "coordinates": "(31, 27)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.78",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "4.4",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.78"
+            "patch": "4.4"
         },
-        "x3": {
-            "level": "70★★★",
+        "x523": {
             "name_en": "Evergleam Ore",
             "name_fr": "Minerai de pérennéclat",
-            "zone": "@PLACE.THE_LOCHS",
+            "level": "70 ★★★",
+            "zone": "@PLACE.SB.THE_LOCHS",
             "coordinates": "(22, 13)",
+            "closestAetheryte": "travel.aetherytes.gyr-abania.81",
             "nodeTimer": "10:00 / 22:00",
-            "patch": "4.4",
-            "closestAetheryte": "travel.aetherytes.gyr-abania.81"
+            "patch": "4.4"
         }
     }
 }

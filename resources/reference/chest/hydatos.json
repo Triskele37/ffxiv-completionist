@@ -1,0 +1,37 @@
+{
+    "key": "hydatos",
+    "groupName": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
+    "tasks": {
+        "x209": {
+            "name_en": "Hydatos Lockbox",
+            "name_fr": "Coffre verrouillé d'Hydatos",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos",
+            "loot": ["mi.319", "o.288"],
+            "_itemId": 24848
+        },
+        "x210": {
+            "name_en": "Happy Bunny Lockbox (Silver)",
+            "name_fr": "Coffre des Lapin du bonheur (argent)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos.1425",
+            "loot": ["tt.226"]
+        },
+        "x211": {
+            "name_en": "Happy Bunny Lockbox (Gold)",
+            "name_fr": "Coffre des Lapin du bonheur (or)",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos.1425",
+            "loot": ["mo.184"]
+        },
+        "x212": {
+            "name_en": "Moisture-warped Lockbox",
+            "name_fr": "Coffre rouillé",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
+            "requirements_en": "Kill mutated mobs at higher levels",
+            "requirements_fr": "Kill mutated mobs at higher levels",
+            "loot": ["mi.319", "o.289", "e.195"],
+            "_itemId": 24849
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "key": "the-occult-crescent",
+    "groupName_en": "The Occult Crescent",
+    "groupName_fr": "Île de Lunule",
+    "tasks": {
+        "x70845": {
+            "name_en": "One Last Hurrah",
+            "name_fr": "La dernière aventure de Ketenramm",
+            "level": 100,
+            "npc_en": "Expedition Messenger",
+            "npc_fr": "Messager De L'expédition",
+            "patch": "7.25",
+            "cPrev": ["q.70495"],
+            "cNext": ["q.70846"]
+        },
+        "x70846": {
+            "name_en": "The Phantom Village",
+            "name_fr": "La ville fantôme",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.25",
+            "cPrev": ["q.70845"],
+            "cNext": ["q.70847"]
+        },
+        "x70847": {
+            "name_en": "Unfamiliar Territory",
+            "name_fr": "Un familier peu familier",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.25",
+            "cPrev": ["q.70846"],
+            "cNext": ["q.70848", "q.70855"]
+        },
+        "x70848": {
+            "name_en": "New Job, Old Tricks",
+            "name_fr": "S.O.S. jobs fantômes",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.25",
+            "cPrev": ["q.70847"],
+            "cNext": ["q.70849"]
+        },
+        "x70849": {
+            "name_en": "The Ancient Arts of War",
+            "name_fr": "Le b.a.-ba du soutien",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.25",
+            "cPrev": ["q.70848"],
+            "cNext": ["q.70850"]
+        },
+        "x70850": {
+            "name_en": "Creatures of the Crescent",
+            "name_fr": "Le bestiaire de Lunule",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.25",
+            "cPrev": ["q.70849"],
+            "cNext": ["q.70851"]
+        },
+        "x70851": {
+            "name_en": "A Ruined Land",
+            "name_fr": "Une exploration qui va croissant",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.25",
+            "cPrev": ["q.70850"],
+            "cNext": ["q.70852"]
+        },
+        "x70852": {
+            "name_en": "A Common Thread",
+            "name_fr": "Une piste qui mène aux ruines",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.25",
+            "cPrev": ["q.70851"],
+            "cNext": ["q.70853"]
+        },
+        "x70853": {
+            "name_en": "Past and Crescent",
+            "name_fr": "Le cercle des civilisations disparues",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.25",
+            "cPrev": ["q.70852"],
+            "cNext": ["q.70854"]
+        },
+        "x70854": {
+            "name_en": "Mysteries Abide",
+            "name_fr": "Le mystère reste entier",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.25",
+            "cPrev": ["q.70853"],
+            "cNext": ["q.71047"]
+        },
+        "x71047": {
+            "name_en": "Occult Reunion",
+            "name_fr": "Retour au croissant",
+            "level": 100,
+            "npc_en": "Expedition Messenger",
+            "npc_fr": "Messager De L'expédition",
+            "patch": "7.55",
+            "cPrev": ["q.70854"],
+            "cNext": ["q.71048"]
+        },
+        "x71048": {
+            "name_en": "The North Horn Beckons",
+            "name_fr": "Au nord, c'est l'exploration",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.55",
+            "cPrev": ["q.71047"],
+            "cNext": ["q.71049"]
+        },
+        "x71049": {
+            "name_en": "A Confluence Conundrum",
+            "name_fr": "Un nœud à démêler",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.55",
+            "cPrev": ["q.71048"],
+            "cNext": ["q.71050"]
+        },
+        "x71050": {
+            "name_en": "Aetherial Oddities",
+            "name_fr": "Courants alternatifs",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.55",
+            "cPrev": ["q.71049"],
+            "cNext": ["q.71051"]
+        },
+        "x71051": {
+            "name_en": "A Familiar Issue",
+            "name_fr": "La chasse au familier",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.55",
+            "cPrev": ["q.71050"],
+            "cNext": ["q.71052"]
+        },
+        "x71052": {
+            "name_en": "The Observant Servant",
+            "name_fr": "L'omniscience incarnée",
+            "level": 100,
+            "npc_en": "Iris",
+            "npc_fr": "Iris",
+            "patch": "7.55",
+            "cPrev": ["q.71051"],
+            "cNext": ["q.71053"]
+        },
+        "x71053": {
+            "name_en": "In the Shadow of the Tower",
+            "name_fr": "Le maître à l'index",
+            "level": 100,
+            "npc_en": "Ketenramm",
+            "npc_fr": "Ketenramm",
+            "patch": "7.55",
+            "cPrev": ["q.71052"],
+            "cNext": ["q.71054"]
+        },
+        "x71054": {
+            "name_en": "Wisdom's End",
+            "name_fr": "Le dernier enseignement",
+            "level": 100,
+            "npc_en": "Archive",
+            "npc_fr": "Archive",
+            "patch": "7.55",
+            "cPrev": ["q.71053"]
+        }
+    }
+}

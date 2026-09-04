@@ -1,0 +1,45 @@
+$setting-height: 40px;
+
+.settings-page {
+    ::ng-deep .setting {
+        display: flex;
+        align-items: center;
+        margin: 4px 0;
+        height: $setting-height;
+
+        &.bool {
+            width: 250px;
+        }
+
+        &.number {
+            width: 300px;
+        }
+
+        label:first-child {
+            display: inline-block;
+            padding-right: 10px;
+            text-align: right;
+            width: 200px;
+        }
+
+        .p-button {
+            height: $setting-height;
+        }
+
+        .p-select {
+            align-items: center;
+            height: $setting-height;
+            width: 150px;
+        }
+
+        .p-inputnumber-input {
+            padding-inline-end: unset;
+            height: $setting-height;
+            width: 60px;
+        }
+
+        .p-inputnumber-button {
+            width: 20px;
+        }
+    }
+}

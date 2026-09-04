@@ -4,97 +4,98 @@
     "groupName_fr": "Quêtes d'arcaniste",
     "tasks": {
         "x65988": {
-            "level": 1,
             "name_en": "Way of the Arcanist",
             "name_fr": "La voie de l'arcanisme",
+            "level": 1,
             "npc_en": "Murie",
             "npc_fr": "Murie",
-            "cNext": ["q.65990"],
-            "patch": "4.31"
+            "patch": "3.1",
+            "cPrev": ["q.65987"],
+            "cNext": ["q.65990"]
         },
         "x65990": {
-            "level": 1,
             "name_en": "My First Grimoire",
             "name_fr": "Entrée en matière",
+            "level": 1,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65988"],
-            "cNext": ["q.65993", "q.65991"],
-            "patch": "4.31"
+            "cNext": ["q.65993", "q.65991"]
         },
         "x65991": {
-            "level": 5,
             "name_en": "What's in the Box",
             "name_fr": "Probabilité de rencontre statistico-arcanique",
-            "cPrevAny": true,
+            "level": 5,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65988", "q.65990"],
-            "cNext": ["q.65993"],
-            "patch": "4.31"
+            "cPrevAny": true,
+            "cNext": ["q.65993"]
         },
         "x65993": {
-            "level": 10,
             "name_en": "Tactical Planning",
             "name_fr": "Risque d'explosion gobelino-tangentielle",
+            "level": 10,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65990", "q.65991"],
-            "cNext": ["q.66639"],
-            "patch": "4.31"
+            "cNext": ["q.66639"]
         },
         "x66639": {
-            "level": 15,
             "name_en": "Topaz Teachings",
             "name_fr": "Un allié de topaze éthéro-protective",
+            "level": 15,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65993"],
-            "cNext": ["q.65994"],
-            "patch": "4.31"
+            "cNext": ["q.65994"]
         },
         "x65994": {
-            "level": 15,
             "name_en": "Over the Rails",
             "name_fr": "Trajectoire surpriso-gravitationnelle de grimoire",
+            "level": 15,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.66639"],
-            "cNext": ["q.65995"],
-            "patch": "4.31"
+            "cNext": ["q.65995"]
         },
         "x65995": {
-            "level": 20,
             "name_en": "Pincer Maneuver",
             "name_fr": "Réappropriation qiqirno-hygrométrique",
+            "level": 20,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65994"],
-            "cNext": ["q.65996"],
-            "patch": "4.31"
+            "cNext": ["q.65996"]
         },
         "x65996": {
-            "level": 25,
             "name_en": "Grimoire Fandango",
             "name_fr": "Parcours cynético-énigmatique",
+            "level": 25,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
             "cPrev": ["q.65995"],
-            "cNext": ["q.65997"],
-            "patch": "4.31"
+            "cNext": ["q.65997"]
         },
         "x65997": {
-            "level": 30,
             "name_en": "Sinking Doesmaga",
             "name_fr": "Démonstration stratégico-réaliste",
+            "level": 30,
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
+            "unlock": "ap.164",
+            "patch": "2.0",
             "cPrev": ["q.65996"],
             "cNext": ["q.66633", "q.66627"],
-            "cSiblings": ["ap.164"],
             "cCombo": ["a.313", "a.315"],
-            "patch": "4.31",
-            "unlock": "ap.164"
+            "cSiblings": ["ap.164"]
         }
     }
 }

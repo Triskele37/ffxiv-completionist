@@ -1,0 +1,52 @@
+{
+    "key": "north-horn",
+    "groupName": "@PLACE.DT.NORTH_HORN",
+    "tasks": {
+        "x232": {
+            "name_en": "Bronze/Silver Coffer",
+            "name_fr": "Coffre bronze/d'argent",
+            "location": "@PLACE.DT.NORTH_HORN",
+            "requirements": "-",
+            "loot": [
+                "aes.638",
+                "aes.267",
+                "aes.302",
+                "b.108",
+                "mo.435",
+                "mo.193",
+                "mo.159",
+                "mi.330",
+                "mi.372",
+                "mi.373",
+                "fa.18",
+                "fw.52",
+                "o.868",
+                "o.869",
+                "o.870",
+                "e.215",
+                "e.224",
+                "e.225",
+                "e.226",
+                "e.227",
+                "e.222",
+                "e.189",
+                "e.195",
+                "e.188"
+            ]
+        },
+        "x233": {
+            "name_en": "Bunny/Pot Coffer",
+            "name_fr": "Bunny/Pot Coffer",
+            "location": "@PLACE.DT.NORTH_HORN",
+            "requirements": [
+                "duty.field-operations.occult-crescent.events.2072",
+                "duty.field-operations.occult-crescent.events.2073"
+            ],
+            "loot": [
+                "mo.435",
+                "mi.586",
+                "e.332"
+            ]
+        }
+    }
+}

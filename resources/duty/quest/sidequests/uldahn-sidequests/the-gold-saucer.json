@@ -4,44 +4,46 @@
     "groupName_fr": "Gold Saucer",
     "tasks": {
         "x65971": {
-            "level": 15,
             "name_en": "World of Wonders",
-            "name_fr": "Bienvenue au Gold Saucer!",
+            "name_fr": "Bienvenue au Gold Saucer !",
+            "level": 15,
             "npc_en": "Airship Ticketer",
             "npc_fr": "Employé Des Vols Hautvent",
+            "unlock": "ap.298",
+            "patch": "2.51",
             "cPrev": ["q.65970"],
-            "cSiblings": ["ap.298"],
-            "patch": "4.31",
-            "unlock": "ap.298"
+            "cSiblings": ["ap.298"]
         },
         "x68617": {
-            "level": 15,
             "name_en": "Passion for Fashion",
             "name_fr": "Le masque et le costume",
+            "level": 15,
             "npc_en": "Lewena",
             "npc_fr": "Lewena",
             "unlock_en": "The Fashion Report",
-            "cPrev": ["q.65970"],
-            "patch": "4.31"
+            "unlock_fr": "The Fashion Report",
+            "patch": "4.2",
+            "cPrev": ["q.65970"]
         },
         "x68737": {
-            "level": 15,
             "name_en": "Every Little Thing She Does Is Mahjong",
             "name_fr": "Les tuiles font le mur",
+            "level": 15,
             "npc_en": "Lewena",
             "npc_fr": "Lewena",
             "unlock_en": "Mahjong",
-            "cPrev": ["q.65970"],
-            "patch": "4.5"
+            "unlock_fr": "Mahjong",
+            "patch": "4.5",
+            "cPrev": ["q.65970"]
         },
         "x69617": {
-            "level": 1,
             "name_en": "The Adventurer with All the Cards",
             "name_fr": "Toutes les cartes en main",
+            "level": 1,
             "npc_en": "Gold Saucer Attendant",
             "npc_fr": "Réceptionniste",
-            "patch": "5.55",
-            "unlock": "mo.254"
+            "unlock": "mo.254",
+            "patch": "5.55"
         }
     }
 }

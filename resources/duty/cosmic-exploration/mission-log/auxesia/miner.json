@@ -1,0 +1,278 @@
+{
+    "key": "miner",
+    "groupName": "@CLASS_JOB.MIN",
+    "tasks": {
+        "x1694": {
+            "name_en": "Rare Gold Artichoke Ore",
+            "name_fr": "Récolte de fruits riches en minéraux rares",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_B",
+            "patch": "7.51"
+        },
+        "x1695": {
+            "name_en": "Machina Repair Plating Materials",
+            "name_fr": "Matériaux de plaques métalliques pour mécano cosmique",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_2_A",
+            "patch": "7.51"
+        },
+        "x1619": {
+            "name_en": "Master: Auxesia Geological Research",
+            "name_fr": "MM : Recherche sur l'histoire géologique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1620": {
+            "name_en": "Master: Auxesia Botanical Research",
+            "name_fr": "MM : Recherche sur l'histoire botanique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1621": {
+            "name_en": "Master: Auxesia Ecological Research",
+            "name_fr": "MM : Recherche sur l'histoire biologique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1615": {
+            "name_en": "EX: Collection of Oizys-strain Samples",
+            "name_fr": "EX : Récolte continue de matériaux d'Oizys",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1600",
+            "patch": "7.51"
+        },
+        "x1616": {
+            "name_en": "EX+: Aether-rich Mineral Survey",
+            "name_fr": "EX+ : Étude de minéraux à forte teneur en éther",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0400",
+            "patch": "7.51"
+        },
+        "x1617": {
+            "name_en": "EX+: Rare Alchemical Material Procurement",
+            "name_fr": "EX+ : Livraison de matériaux alchimiques rares",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1618": {
+            "name_en": "EX+: Aether-rich Sample Extraction",
+            "name_fr": "EX+ : Extraction de matériaux à forte teneur en éther",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1607": {
+            "name_en": "Northeast Full Bloom Gardens Survey",
+            "name_fr": "Étude géologique du secteur nord-est des Jardins luxuriants",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1608": {
+            "name_en": "Onionroot Ore Procurement",
+            "name_fr": "Livraison de morceaux d'oignons auxesiens",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1609": {
+            "name_en": "Tricolored Onionroot Ore Procurement",
+            "name_fr": "Livraison de morceaux de tri-oignons auxesiens",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1610": {
+            "name_en": "Conductive Ore Procurement",
+            "name_fr": "Livraison de minerai brut hautement réactif",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1611": {
+            "name_en": "Multi-purpose Reductions",
+            "name_fr": "Éthérolyse de matériaux polyvalents",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1612": {
+            "name_en": "Precious Metal Reductions",
+            "name_fr": "Extraction de métaux précieux",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1613": {
+            "name_en": "EX: Ruins Material Procurement",
+            "name_fr": "EX : Livraison de matériaux des vestiges urbains",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1614": {
+            "name_en": "EX: Granny Nickel Mining Analysis",
+            "name_fr": "EX : Essais de récolte continue de pommes nickelées",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1602": {
+            "name_en": "South Pileus Pergola Survey",
+            "name_fr": "Étude géologique du secteur sud de Pileus Pergola",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1603": {
+            "name_en": "Archaeological Material Survey",
+            "name_fr": "Étude des vestiges archéologiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1604": {
+            "name_en": "Research Subject Bulk Procurement",
+            "name_fr": "Livraison de matériaux pour analyse",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1605": {
+            "name_en": "Urban Aethernet Distribution Survey",
+            "name_fr": "Étude du réseau d'éther urbain",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1606": {
+            "name_en": "Auxesia Mining Analysis",
+            "name_fr": "Essais de récolte continue sur Auxesia",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1598": {
+            "name_en": "New Growth City Survey",
+            "name_fr": "Étude géologique de la cité de la Feuillaison",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1599": {
+            "name_en": "Aetheric Mineral Survey",
+            "name_fr": "Étude de minéraux éthéréens",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1600": {
+            "name_en": "Anomalous Sample Procurement",
+            "name_fr": "Livraison d'échantillons aux valeurs anormales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1601": {
+            "name_en": "Arcane Remnant Distribution Survey",
+            "name_fr": "Étude des résidus magiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1594": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude géologique des alentours de la base",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1595": {
+            "name_en": "Ruins Infrastructure Survey",
+            "name_fr": "Étude des infrastructures urbaines",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1596": {
+            "name_en": "Fundamental Mineral Procurement",
+            "name_fr": "Livraison de minerais communs",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1597": {
+            "name_en": "Treestone Rush",
+            "name_fr": "Récolte continue de mudstone végétale",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

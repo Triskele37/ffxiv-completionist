@@ -8,16 +8,16 @@
             "name_fr": "Engagez-vous, qu'ils disaient (Deux Vipères)",
             "description_en": "Officially enlist in the Order of the Twin Adder.",
             "description_fr": "Prêter allégeance à l'ordre des Deux Vipères en tant que recrue officielle.",
-            "patch": "2.0",
-            "points": 5
+            "points": 5,
+            "patch": "2.0"
         },
         "x534": {
             "name_en": "A Snake in the Brass I",
             "name_fr": "Garde des sceaux I (Deux Vipères)",
             "description_en": "Earn 10,000 Serpent Seals.",
             "description_fr": "Gagner 10 000 sceaux de compagnie gridaniens.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.535"]
         },
         "x535": {
@@ -25,8 +25,8 @@
             "name_fr": "Garde des sceaux II (Deux Vipères)",
             "description_en": "Earn 50,000 Serpent Seals.",
             "description_fr": "Gagner 50 000 sceaux de compagnie gridaniens.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.534"],
             "cNext": ["a.536"]
         },
@@ -35,9 +35,9 @@
             "name_fr": "Garde des sceaux III (Deux Vipères)",
             "description_en": "Earn 100,000 Serpent Seals.",
             "description_fr": "Gagner 100 000 sceaux de compagnie gridaniens.",
+            "points": 10,
             "reward": "t.90",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.535"],
             "cNext": ["a.537"],
             "cSiblings": ["t.90"]
@@ -47,10 +47,10 @@
             "name_fr": "Médaille de la feuille d'acajou",
             "description_en": "Earn 500,000 Serpent Seals.",
             "description_fr": "Gagner 500 000 sceaux de compagnie gridaniens.",
+            "points": 20,
             "reward_en": "Twin Adder Escutcheon",
             "reward_fr": "Escuchon des Deux Vipères",
             "patch": "2.0",
-            "points": 20,
             "cPrev": ["a.536"]
         },
         "x546": {
@@ -58,8 +58,8 @@
             "name_fr": "Vipères aux poings I",
             "description_en": "Complete 10 company levequests for the Order of the Twin Adder.",
             "description_fr": "Accomplir un total de 10 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.547"]
         },
         "x547": {
@@ -67,8 +67,8 @@
             "name_fr": "Vipères aux poings II",
             "description_en": "Complete 100 company levequests for the Order of the Twin Adder.",
             "description_fr": "Accomplir un total de 100 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.546"],
             "cNext": ["a.548"]
         },
@@ -77,9 +77,9 @@
             "name_fr": "Vipères aux poings III",
             "description_en": "Complete 200 company levequests for the Order of the Twin Adder.",
             "description_fr": "Accomplir un total de 200 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
+            "points": 10,
             "reward": "t.93",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.547"],
             "cNext": ["a.549"],
             "cSiblings": ["t.93"]
@@ -89,10 +89,10 @@
             "name_fr": "Médaille de la feuille d'acier",
             "description_en": "Complete 500 company levequests for the Order of the Twin Adder.",
             "description_fr": "Accomplir un total de 500 mandats de compagnie pour le compte de l'ordre des Deux Vipères.",
+            "points": 20,
             "reward_en": "Lily and Serpent Bracelet",
             "reward_fr": "Bracelet du lys aux vipères",
             "patch": "2.0",
-            "points": 20,
             "cPrev": ["a.548"]
         },
         "x558": {
@@ -100,8 +100,8 @@
             "name_fr": "Fournisseur officiel des Deux Vipères I",
             "description_en": "Complete 10 supply missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 10 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.559"]
         },
         "x559": {
@@ -109,8 +109,8 @@
             "name_fr": "Fournisseur officiel des Deux Vipères II",
             "description_en": "Complete 50 supply missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 50 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.558"],
             "cNext": ["a.560"]
         },
@@ -119,9 +119,9 @@
             "name_fr": "Fournisseur officiel des Deux Vipères III",
             "description_en": "Complete 200 supply missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 200 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
+            "points": 10,
             "reward": "t.96",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.559"],
             "cNext": ["a.561"],
             "cSiblings": ["t.96"]
@@ -131,10 +131,10 @@
             "name_fr": "Médaille de la feuille de sycomore",
             "description_en": "Complete 500 supply missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 500 missions de ravitaillement de matériel pour le compte de l'ordre des Deux Vipères.",
+            "points": 20,
             "reward_en": "Lily and Serpent Earrings",
             "reward_fr": "Boucles d'oreilles du lys aux vipères",
             "patch": "2.0",
-            "points": 20,
             "cPrev": ["a.560"]
         },
         "x570": {
@@ -142,8 +142,8 @@
             "name_fr": "Pourvoyeur de ressources des Deux Vipères I",
             "description_en": "Complete 10 provisioning missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 10 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.571"]
         },
         "x571": {
@@ -151,8 +151,8 @@
             "name_fr": "Pourvoyeur de ressources des Deux Vipères II",
             "description_en": "Complete 30 provisioning missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 30 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.570"],
             "cNext": ["a.572"]
         },
@@ -161,9 +161,9 @@
             "name_fr": "Pourvoyeur de ressources des Deux Vipères III",
             "description_en": "Complete 100 provisioning missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 100 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
+            "points": 10,
             "reward": "t.99",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.571"],
             "cNext": ["a.573"],
             "cSiblings": ["t.99"]
@@ -173,10 +173,10 @@
             "name_fr": "Médaille de la feuille de saule",
             "description_en": "Complete 200 provisioning missions for the Order of the Twin Adder.",
             "description_fr": "Effectuer un total de 200 missions de ravitaillement de ressources pour le compte de l'ordre des Deux Vipères.",
+            "points": 20,
             "reward_en": "Lily and Serpent Ring",
             "reward_fr": "Anneau du lys aux vipères",
             "patch": "2.0",
-            "points": 20,
             "cPrev": ["a.572"]
         },
         "x689": {
@@ -184,8 +184,8 @@
             "name_fr": "Dans le jaune I",
             "description_en": "Complete 5 unique Order of the Twin Adder levequests.",
             "description_fr": "Accomplir 5 mandats différents pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.690"]
         },
         "x690": {
@@ -193,8 +193,8 @@
             "name_fr": "Dans le jaune II",
             "description_en": "Complete 10 unique Order of the Twin Adder levequests.",
             "description_fr": "Accomplir 10 mandats différents pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.1",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.689"],
             "cNext": ["a.691"]
         },
@@ -203,8 +203,8 @@
             "name_fr": "Dans le jaune III",
             "description_en": "Complete 15 unique Order of the Twin Adder levequests.",
             "description_fr": "Accomplir 15 mandats différents pour le compte de l'ordre des Deux Vipères.",
-            "patch": "2.1",
             "points": 10,
+            "patch": "2.0",
             "cPrev": ["a.690"]
         },
         "x737": {
@@ -212,9 +212,9 @@
             "name_fr": "Carnet de chasse : Deux Vipères",
             "description_en": "Complete all Order of the Twin Adder entries in the hunting log.",
             "description_fr": "Finir toutes les catégories du bestiaire de l'ordre des Deux Vipères.",
-            "reward": "mi.7",
-            "patch": "2.1",
             "points": 20,
+            "reward": "mi.7",
+            "patch": "2.0",
             "cPrev": ["logs.hunting-log.order-of-the-twin-adder.all"]
         }
     }

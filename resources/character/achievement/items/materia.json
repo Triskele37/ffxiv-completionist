@@ -8,8 +8,8 @@
             "name_fr": "L'art et la matéria I",
             "description_en": "Successfully affix 10 materia.",
             "description_fr": "Sertir avec succès 10 matérias.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.297"]
         },
         "x297": {
@@ -17,8 +17,8 @@
             "name_fr": "L'art et la matéria II",
             "description_en": "Successfully affix 50 materia.",
             "description_fr": "Sertir avec succès 50 matérias.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.296"],
             "cNext": ["a.298"]
         },
@@ -27,8 +27,8 @@
             "name_fr": "L'art et la matéria III",
             "description_en": "Successfully affix 100 materia.",
             "description_fr": "Sertir avec succès 100 matérias.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.297"],
             "cNext": ["a.299"]
         },
@@ -37,8 +37,8 @@
             "name_fr": "L'art et la matéria IV",
             "description_en": "Successfully affix 500 materia.",
             "description_fr": "Sertir avec succès 500 matérias.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.298"],
             "cNext": ["a.300"]
         },
@@ -47,9 +47,9 @@
             "name_fr": "Disciple de Mutamix",
             "description_en": "Successfully affix 1,000 materia.",
             "description_fr": "Sertir avec succès 1 000 matérias.",
+            "points": 10,
             "reward": "t.43",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.299"],
             "cNext": ["a.1333"],
             "cSiblings": ["t.43"]
@@ -59,8 +59,8 @@
             "name_fr": "L'art et la matéria V",
             "description_en": "Successfully affix 2,500 materia.",
             "description_fr": "Sertir avec succès 2 500 matérias.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.300"],
             "cNext": ["a.1334"]
         },
@@ -69,8 +69,8 @@
             "name_fr": "L'art et la matéria VI",
             "description_en": "Successfully affix 5,000 materia.",
             "description_fr": "Sertir avec succès 5 000 matérias.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.1333"],
             "cNext": ["a.1905"]
         },
@@ -79,8 +79,8 @@
             "name_fr": "L'art et la matéria VII",
             "description_en": "Successfully affix 10,000 materia.",
             "description_fr": "Sertir avec succès 10 000 matérias.",
-            "patch": "4.0",
             "points": 10,
+            "patch": "4.0",
             "cPrev": ["a.1334"]
         },
         "x301": {
@@ -88,8 +88,8 @@
             "name_fr": "La chance du débutant",
             "description_en": "Successfully affix two materia to the same piece of gear.",
             "description_fr": "Sertir deux matérias sur une même pièce d'équipement.",
-            "patch": "2.0",
             "points": 10,
+            "patch": "2.0",
             "cNext": ["a.302"]
         },
         "x302": {
@@ -97,8 +97,8 @@
             "name_fr": "Heureux au jeu",
             "description_en": "Successfully affix three materia to the same piece of gear.",
             "description_fr": "Sertir trois matérias sur une même pièce d'équipement.",
-            "patch": "2.0",
             "points": 20,
+            "patch": "2.0",
             "cPrev": ["a.301"],
             "cNext": ["a.303"]
         },
@@ -107,8 +107,8 @@
             "name_fr": "Une chance insolente",
             "description_en": "Successfully affix four materia to the same piece of gear.",
             "description_fr": "Sertir quatre matérias sur une même pièce d'équipement.",
-            "patch": "2.0",
             "points": 30,
+            "patch": "2.0",
             "cPrev": ["a.302"],
             "cNext": ["a.304"]
         },
@@ -117,10 +117,10 @@
             "name_fr": "C'est pas de la chance, c'est du savoir-faire",
             "description_en": "Successfully affix five materia to the same piece of gear.",
             "description_fr": "Sertir cinq matérias sur une même pièce d'équipement.",
+            "points": 40,
             "reward_en": "Gambler's Crown",
             "reward_fr": "Couronne de chanceux",
             "patch": "2.0",
-            "points": 40,
             "cPrev": ["a.303"]
         },
         "x305": {
@@ -128,8 +128,8 @@
             "name_fr": "Ça peut toujours sertir I",
             "description_en": "Successfully extract materia from 10 spiritbound items.",
             "description_fr": "Matérialiser 10 objets.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cNext": ["a.306"]
         },
         "x306": {
@@ -137,8 +137,8 @@
             "name_fr": "Ça peut toujours sertir II",
             "description_en": "Successfully extract materia from 50 spiritbound items.",
             "description_fr": "Matérialiser 50 objets.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.305"],
             "cNext": ["a.307"]
         },
@@ -147,8 +147,8 @@
             "name_fr": "Ça peut toujours sertir III",
             "description_en": "Successfully extract materia from 100 spiritbound items.",
             "description_fr": "Matérialiser 100 objets.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.306"],
             "cNext": ["a.308"]
         },
@@ -157,8 +157,8 @@
             "name_fr": "Ça peut toujours sertir IV",
             "description_en": "Successfully extract materia from 500 spiritbound items.",
             "description_fr": "Matérialiser 500 objets.",
-            "patch": "2.0",
             "points": 5,
+            "patch": "2.0",
             "cPrev": ["a.307"],
             "cNext": ["a.309"]
         },
@@ -167,9 +167,9 @@
             "name_fr": "Expert en la matéria",
             "description_en": "Successfully extract materia from 1,000 spiritbound items.",
             "description_fr": "Matérialiser 1 000 objets.",
+            "points": 10,
             "reward": "t.44",
             "patch": "2.0",
-            "points": 10,
             "cPrev": ["a.308"],
             "cNext": ["a.1335"],
             "cSiblings": ["t.44"]
@@ -179,8 +179,8 @@
             "name_fr": "Ça peut toujours sertir V",
             "description_en": "Successfully extract materia from 5,000 spiritbound items.",
             "description_fr": "Matérialiser 5 000 objets.",
-            "patch": "3.0",
             "points": 10,
+            "patch": "3.0",
             "cPrev": ["a.309"]
         },
         "x927": {
@@ -188,8 +188,8 @@
             "name_fr": "Joli coup de chance",
             "description_en": "Obtain materia of a higher grade through transmutation.",
             "description_fr": "Obtenir un excellent résultat via la transmatérialisation de matérias.",
-            "patch": "2.25",
-            "points": 10
+            "points": 10,
+            "patch": "2.25"
         }
     }
 }

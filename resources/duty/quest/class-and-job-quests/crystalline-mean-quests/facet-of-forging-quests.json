@@ -4,34 +4,34 @@
     "groupName_fr": "Quêtes des métallurgistes",
     "tasks": {
         "x68763": {
-            "level": 70,
             "name_en": "Iola, Forgemaster",
             "name_fr": "La motivation d'une métallurgiste",
+            "level": 70,
             "npc_en": "Iola",
             "npc_fr": "Iola",
+            "patch": "5.0",
             "cPrev": ["q.69191"],
-            "cNext": ["q.68764"],
-            "patch": "5.0"
+            "cNext": ["q.68764"]
         },
         "x68764": {
-            "level": 75,
             "name_en": "To Struggle Nu Mou",
             "name_fr": "Voyage d'affaires chez les Nu Mou",
+            "level": 75,
             "npc_en": "Iola",
             "npc_fr": "Iola",
+            "patch": "5.0",
             "cPrev": ["q.68763"],
-            "cNext": ["q.68765"],
-            "patch": "5.0"
+            "cNext": ["q.68765"]
         },
         "x68765": {
-            "level": 80,
             "name_en": "The Iron Bellows",
             "name_fr": "Pour la grande gloire de la soufflerie",
+            "level": 80,
             "npc_en": "Iola",
             "npc_fr": "Iola",
+            "patch": "5.0",
             "cPrev": ["q.68764"],
-            "cSiblings": ["a.2323"],
-            "patch": "5.0"
+            "cSiblings": ["a.2323"]
         }
     }
 }

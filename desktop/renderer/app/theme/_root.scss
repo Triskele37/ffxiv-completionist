@@ -1,0 +1,66 @@
+@use './primeRoot';
+
+:root {
+    color-scheme: dark;
+
+    // User Defined Settings
+    --primary-color: #0f4c75;
+    --primary-color-text: #121212;
+    --text-color-rgb: 255, 255, 255;
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-size: 16px;
+    --font-weight: normal;
+    --bg-h: 0;
+    --bg-s: 0%;
+    --bg-l: 12%;
+    --incomplete-rgb: 117, 25, 15;
+    --partial-complete-rgb: 204, 204, 0;
+    --test: #cccc00;
+    --completed-rgb: 15, 117, 56;
+    --excluded-rgb: 170, 170, 170;
+
+    // Derived From Settings
+    --primary-color-light: color-mix(in srgb, var(--primary-color), white 15%);
+    --primary-color-dark: color-mix(in srgb, var(--primary-color), black 15%);
+    --primary-color-darker: color-mix(in srgb, var(--primary-color), black 30%);
+    --primary-color-rgb: 15, 76, 117;
+
+    --primary-color-text-inverted: rgb(from var(--primary-color-text) calc(125 - r) calc(125 - g) calc(125 - b));
+
+    --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-inverted: rgb(from var(--text-color) calc(125 - r) calc(125 - g) calc(125 - b));
+    --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
+
+    // Completion
+    --incomplete: rgb(var(--incomplete-rgb));
+    --partial-complete: rgb(var(--partial-complete-rgb));
+    --completed: rgb(var(--completed-rgb));
+    --excluded: rgb(var(--excluded-rgb));
+
+    // Surfaces
+    --surface-50: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 10%));
+    --surface-100: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 8%));
+    --surface-200: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 6%));
+    --surface-300: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 4%));
+    --surface-400: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 2%));
+    --surface-500: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+    --surface-600: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 2%));
+    --surface-700: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 4%));
+    --surface-800: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 6%));
+    --surface-900: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 8%));
+
+    // Spacing
+    --content-padding: calc(var(--font-size) * 0.5);
+    --inline-spacing: 0.5rem;
+    --border-radius: 4px;
+    --icon-size: 16px; //TODO - implement
+
+    // Other
+    --selected: rgba(var(--primary-color-rgb), 0.5);
+    --selected-2: rgba(var(--primary-color-rgb), 0.3);
+
+    --maskbg: rgba(0, 0, 0, 0.32);
+
+    // Override?
+    --p-primary-300: var(--primary-color);
+}

@@ -1,0 +1,34 @@
+@let dataGroup = svcTable.group();
+
+<tr
+    class="group-row"
+    pRowGroupHeader
+    [pRowToggler]="task"
+>
+    @if(!dataGroup.disableCompletion) {
+        <td class="collapse-cell">
+            <ng-container [ngTemplateOutlet]="collapseButton"></ng-container>
+        </td>
+    }
+
+    <td
+        class="link-cell"
+        [attr.colspan]="dataGroup.columns?.length ?? 1"
+    >
+        @if(dataGroup.disableCompletion) {
+            <ng-container [ngTemplateOutlet]="collapseButton"></ng-container>
+        }
+
+        <com-content-link [content]="task._parent"></com-content-link>
+    </td>
+
+    <!-- Action column placeholder -->
+    <td></td>
+</tr>
+
+<ng-template #collapseButton>
+    @let icon = expanded ? 'pi-chevron-down' : 'pi-chevron-right';
+    <button pButton class="p-button-rounded p-button-text">
+        <span class="pi {{icon}}"></span>
+    </button>
+</ng-template>

@@ -2,13 +2,16 @@
     "key": "mount-speed",
     "groupName_en": "Mount Speed",
     "groupName_fr": "Vitesse des Montures",
-    "headers": {
+    "columns": {
         "name": {
             "header": "@HEADER.ZONE"
         },
         "source": {
             "header": "@HEADER.SOURCE",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "order": [

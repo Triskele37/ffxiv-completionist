@@ -3,64 +3,64 @@
     "groupName_en": "81-90",
     "groupName_fr": "81-90",
     "tasks": {
-        "x0": {
-            "level": "81",
+        "x10771": {
             "name_en": "Rarefied Palm Log",
             "name_fr": "Rondin de palmier collectionnable",
-            "zone": "@PLACE.THAVNAIR",
+            "level": "81",
+            "zone": "@PLACE.EW.THAVNAIR",
             "coordinates": "(14.4, 14.5)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.151"
+            "patch": "6.0"
         },
-        "x1": {
-            "level": "83",
+        "x10772": {
             "name_en": "Rarefied Red Pine Log",
             "name_fr": "Rondin de pin sylvestre collectionnable",
-            "zone": "@PLACE.GARLEMALD",
+            "level": "83",
+            "zone": "@PLACE.EW.GARLEMALD",
             "coordinates": "(35.1, 5.8)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.154",
             "nodeTimer": "04:00 / 16:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.154"
+            "patch": "6.0"
         },
-        "x2": {
-            "level": "85",
+        "x10773": {
             "name_en": "Rarefied Coconut",
             "name_fr": "Noix de coco collectionnable",
-            "zone": "@PLACE.THAVNAIR",
+            "level": "85",
+            "zone": "@PLACE.EW.THAVNAIR",
             "coordinates": "(14.4, 14.5)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
             "nodeTimer": "02:00 / 14:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.ilsabard.151"
+            "patch": "6.0"
         },
-        "x3": {
-            "level": "87",
+        "x10774": {
             "name_en": "Rarefied Sykon",
             "name_fr": "Sycon collectionnable",
-            "zone": "@PLACE.ELPIS",
+            "level": "87",
+            "zone": "@PLACE.EW.ELPIS",
             "coordinates": "(25.0, 5.6)",
+            "closestAetheryte": "travel.aetherytes.others.159",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.159"
+            "patch": "6.0"
         },
-        "x4": {
-            "level": "90",
+        "x10779": {
             "name_en": "Rarefied Ironwood Log",
             "name_fr": "Rondin de bois de fer collectionnable",
-            "zone": "@PLACE.ELPIS",
-            "coordinates": "(27.9, 25.2)",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.157"
-        },
-        "x5": {
             "level": "90",
+            "zone": "@PLACE.EW.ELPIS",
+            "coordinates": "(27.9, 25.2)",
+            "closestAetheryte": "travel.aetherytes.others.157",
+            "patch": "6.0"
+        },
+        "x10776": {
             "name_en": "Rarefied Elder Nutmeg",
             "name_fr": "Muscade de l'ancien temps collectionnable",
-            "zone": "@PLACE.ELPIS",
+            "level": "90",
+            "zone": "@PLACE.EW.ELPIS",
             "coordinates": "(25.0, 5.6)",
+            "closestAetheryte": "travel.aetherytes.others.159",
             "nodeTimer": "00:00 / 12:00",
-            "patch": "6.0",
-            "closestAetheryte": "travel.aetherytes.others.159"
+            "patch": "6.0"
         }
     }
 }

@@ -4,281 +4,281 @@
     "groupName_fr": "Grand-Lac",
     "tasks": {
         "x68917": {
-            "level": 70,
             "name_en": "Stock and Barrel",
             "name_fr": "Le jour d'après",
+            "level": 70,
             "npc_en": "Guard Quartermaster",
             "npc_fr": "Officier de la Logistique",
+            "patch": "5.0",
             "cPrev": ["q.68916"],
-            "cNext": ["q.68919"],
-            "patch": "5.0"
+            "cNext": ["q.68919"]
         },
         "x68918": {
-            "level": 70,
             "name_en": "Classical Condition",
             "name_fr": "À la recherche de l'amaro perdu",
+            "level": 70,
             "npc_en": "Riqi-Mao",
             "npc_fr": "Riqi-Mao",
+            "patch": "5.0",
             "cPrev": ["q.68916"],
-            "cNext": ["q.68919"],
-            "patch": "5.0"
+            "cNext": ["q.68919"]
         },
         "x68919": {
-            "level": 70,
             "name_en": "Desperate Measures",
             "name_fr": "Montrer l'exemple",
+            "level": 70,
             "npc_en": "Bjorn",
             "npc_fr": "Bjorn",
-            "cPrev": ["q.68917", "q.68918"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68917", "q.68918"]
         },
         "x68920": {
-            "level": 70,
             "name_en": "Imperative Repairs",
             "name_fr": "Mettre la main au mortier",
-            "unlock": "travel.aether-currents.shb.lakeland.12",
+            "level": 70,
             "npc_en": "Seanard",
             "npc_fr": "Seanard",
+            "unlock": "travel.aether-currents.shb.lakeland.12",
+            "patch": "5.0",
             "cPrev": ["q.68840"],
-            "cSiblings": ["travel.aether-currents.shb.lakeland.12"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.lakeland.12"]
         },
         "x68921": {
-            "level": 70,
             "name_en": "The Astute Amaro",
             "name_fr": "Celui qui murmurait à l'oreille des amaros",
-            "unlock": "travel.aether-currents.shb.lakeland.11",
+            "level": 70,
             "npc_en": "Sentry Captain",
             "npc_fr": "Capitaine de la Garnison",
+            "unlock": "travel.aether-currents.shb.lakeland.11",
+            "patch": "5.0",
             "cPrev": ["q.68840"],
-            "cSiblings": ["travel.aether-currents.shb.lakeland.11"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.lakeland.11"]
         },
         "x68922": {
-            "level": 70,
             "name_en": "An Unreasonable Request",
-            "name_fr": "Une nouvelle recrue?",
-            "unlock": "travel.aether-currents.shb.lakeland.10",
+            "name_fr": "Une nouvelle recrue ?",
+            "level": 70,
             "npc_en": "Teanna",
             "npc_fr": "Teanna",
+            "unlock": "travel.aether-currents.shb.lakeland.10",
+            "patch": "5.0",
             "cPrev": ["q.68840"],
             "cNext": ["q.68923"],
-            "cSiblings": ["travel.aether-currents.shb.lakeland.10"],
-            "patch": "5.0"
+            "cSiblings": ["travel.aether-currents.shb.lakeland.10"]
         },
         "x68923": {
-            "level": 70,
             "name_en": "You've Got the Tatch",
             "name_fr": "Opération livraison",
+            "level": 70,
             "npc_en": "Mynes",
             "npc_fr": "Mynes",
-            "cPrev": ["q.68922"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68922"]
         },
         "x68924": {
-            "level": 70,
             "name_en": "All That Heavenly Glory",
             "name_fr": "La tête dans les étoiles",
+            "level": 70,
             "npc_en": "Aiscar",
             "npc_fr": "Aiscar",
-            "cPrev": ["q.68840"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68840"]
         },
         "x68925": {
-            "level": 70,
             "name_en": "Beers for Fears",
             "name_fr": "Enquête nocturne",
+            "level": 70,
             "npc_en": "Sai-Qesh",
             "npc_fr": "Sai-Qesh",
-            "cPrev": ["q.68840"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68840"]
         },
         "x68926": {
-            "level": 70,
             "name_en": "Loot Justice Mode",
             "name_fr": "L'affaire de l'épée volée",
+            "level": 70,
             "npc_en": "Lethenmaer",
             "npc_fr": "Lethenmaer",
-            "cPrev": ["q.68840"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68840"]
         },
         "x68927": {
-            "level": 70,
             "name_en": "Inglourious Bath Stewards",
-            "name_fr": "Un repos bien mérité?",
+            "name_fr": "Un repos bien mérité ?",
+            "level": 70,
             "npc_en": "Sue-Lewq",
             "npc_fr": "Sue-Lewq",
-            "cPrev": ["q.68840"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68840"]
         },
         "x68971": {
-            "level": 70,
             "name_en": "Lofty Goals",
             "name_fr": "Des pierres témoins de l'Histoire",
+            "level": 70,
             "npc_en": "High-strung Historian",
             "npc_fr": "Historien Consciencieux",
-            "cPrev": ["q.68858"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68858"]
         },
         "x68972": {
-            "level": 70,
             "name_en": "You Had One Jobb",
-            "name_fr": "Pas digéré, pas perdu!",
+            "name_fr": "Pas digéré, pas perdu !",
+            "level": 70,
             "npc_en": "Ungainly Guardsman",
             "npc_fr": "Soldat Benêt",
-            "cPrev": ["q.68858"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68858"]
         },
         "x68973": {
-            "level": 70,
             "name_en": "Of Graveyards and Gremlins",
             "name_fr": "Les vilains saccageurs de tombes",
+            "level": 70,
             "npc_en": "Joanric",
             "npc_fr": "Joanric",
-            "cPrev": ["q.68858"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68858"]
         },
         "x68992": {
-            "level": 70,
             "name_en": "On Her Own",
             "name_fr": "Comment vivre sans son père",
+            "level": 70,
             "npc_en": "Callea",
             "npc_fr": "Callea",
+            "patch": "5.0",
             "cPrev": ["q.68858"],
-            "cNext": ["q.68993"],
-            "patch": "5.0"
+            "cNext": ["q.68993"]
         },
         "x68993": {
-            "level": 70,
             "name_en": "Carrying On",
-            "name_fr": "Prendre un nouveau départ à Cristarium?",
+            "name_fr": "Prendre un nouveau départ à Cristarium ?",
+            "level": 70,
             "npc_en": "Nielden",
             "npc_fr": "Nielden",
+            "patch": "5.0",
             "cPrev": ["q.68992"],
-            "cNext": ["q.68994"],
-            "patch": "5.0"
+            "cNext": ["q.68994"]
         },
         "x68994": {
-            "level": 70,
             "name_en": "In Father's Footsteps",
             "name_fr": "Les vieilles recettes du père",
+            "level": 70,
             "npc_en": "Callea",
             "npc_fr": "Callea",
+            "patch": "5.0",
             "cPrev": ["q.68993"],
-            "cNext": ["q.68995"],
-            "patch": "5.0"
+            "cNext": ["q.68995"]
         },
         "x68995": {
-            "level": 70,
             "name_en": "Her True Calling",
             "name_fr": "Tel père, telle fille",
+            "level": 70,
             "npc_en": "Callea",
             "npc_fr": "Callea",
+            "patch": "5.0",
             "cPrev": ["q.68994"],
-            "cNext": ["q.69051"],
-            "patch": "5.0"
+            "cNext": ["q.69051"]
         },
         "x69070": {
-            "level": 70,
             "name_en": "His Secret Shame",
             "name_fr": "Une culpabilité paralysante",
+            "level": 70,
             "npc_en": "Mauwyl",
             "npc_fr": "Mauwyl",
+            "patch": "5.0",
             "cPrev": ["q.69069"],
-            "cNext": ["q.69071"],
-            "patch": "5.0"
+            "cNext": ["q.69071"]
         },
         "x69071": {
-            "level": 70,
             "name_en": "A Much-needed Respite",
             "name_fr": "La chaleur de l'amitié",
+            "level": 70,
             "npc_en": "Mauwyl",
             "npc_fr": "Mauwyl",
+            "patch": "5.0",
             "cPrev": ["q.69070"],
-            "cNext": ["q.69072"],
-            "patch": "5.0"
+            "cNext": ["q.69072"]
         },
         "x69072": {
-            "level": 70,
             "name_en": "Resolve Regained",
             "name_fr": "Combattre pour ses amis",
+            "level": 70,
             "npc_en": "Tolas",
             "npc_fr": "Tolas",
+            "patch": "5.0",
             "cPrev": ["q.69071"],
-            "cNext": ["q.69051"],
-            "patch": "5.0"
+            "cNext": ["q.69051"]
         },
         "x69051": {
-            "level": 70,
             "name_en": "Flowering Friendships",
             "name_fr": "Tisser des liens",
+            "level": 70,
             "npc_en": "Tolas",
             "npc_fr": "Tolas",
-            "cPrev": ["q.68995", "q.69072"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.68995", "q.69072"]
         },
         "x69105": {
-            "level": 70,
             "name_en": "The Sullen Man",
             "name_fr": "Des pêcheurs maussades",
+            "level": 70,
             "npc_en": "Dadfort",
             "npc_fr": "Dadfort",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69106": {
-            "level": 70,
             "name_en": "Rite of Passage",
             "name_fr": "Rite de passage dans les ruines",
+            "level": 70,
             "npc_en": "Thafe",
             "npc_fr": "Thafe",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69107": {
-            "level": 70,
             "name_en": "Bigger Fish to Dry",
-            "name_fr": "Et alors, il vient, mon poisson séché?",
+            "name_fr": "Et alors, il vient, mon poisson séché ?",
+            "level": 70,
             "npc_en": "Casswren",
             "npc_fr": "Casswren",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69108": {
-            "level": 70,
             "name_en": "Treasure-hunting Tykes",
             "name_fr": "Chasseurs de trésors en herbe",
+            "level": 70,
             "npc_en": "Yalric",
             "npc_fr": "Yalric",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69109": {
-            "level": 70,
             "name_en": "With Furious Anger",
             "name_fr": "Une colère qui motive",
+            "level": 70,
             "npc_en": "Chora-Kai",
             "npc_fr": "Chora-Kai",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69110": {
-            "level": 70,
             "name_en": "Scrumptious Squirmers",
             "name_fr": "Pourvu que ça grouille",
+            "level": 70,
             "npc_en": "Ambarth",
             "npc_fr": "Ambarth",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         },
         "x69111": {
-            "level": 70,
             "name_en": "Simple Treasures",
             "name_fr": "La pêche “au” harpon",
+            "level": 70,
             "npc_en": "Ortwil",
             "npc_fr": "Ortwil",
-            "cPrev": ["q.69183"],
-            "patch": "5.0"
+            "patch": "5.0",
+            "cPrev": ["q.69183"]
         }
     }
 }

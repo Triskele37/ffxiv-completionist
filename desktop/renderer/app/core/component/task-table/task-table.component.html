@@ -1,0 +1,53 @@
+@if(svcTable.group().columns) {
+    <div
+        data-active-help="APP.ACTIVE_HELP.TABLE.TASK_TABLE"
+        class="task-table-container"
+    >
+        @if(!svcTable.group().disableCompletion) {
+            <com-task-table-toolbar
+                [templatePre]="toolbarPre"
+            ></com-task-table-toolbar>
+        }
+
+        <div class="task-table-scroll-container">
+            @if(svcTable.originalTasks.length) {
+                <p-table
+                    #taskTable
+                    [class]="svcTable.rowGroup.groupRows ? 'p-datatable-striped' : ''"
+                    [customSort]="true"
+                    dataKey="_parent.fullStorageKey"
+                    [expandedRowKeys]="svcTable.rowGroup.expandedRows()"
+                    [groupRowsBy]="svcTable.rowGroup.groupRows ? '_parent.fullStorageKey' : undefined"
+                    [rowGroupMode]="svcTable.rowGroup.groupRows ? 'subheader' : undefined"
+                    scrollHeight="flex"
+                    [scrollable]="true"
+                    sortMode="multiple"
+                    [value]="svcTable.tasks()"
+                    [virtualScroll]="!svcTable.rowGroup.groupRows"
+                    [virtualScrollDelay]="100"
+                    [virtualScrollItemSize]="rowHeight"
+                    (onRowReorder)="svcTable.order.onRowReorder($event)"
+                    (sortFunction)="sortFunction($event)"
+                >
+                    <ng-template #header>
+                        <com-header-row></com-header-row>
+                    </ng-template>
+
+                    @if(svcTable.rowGroup.groupRows) {
+                        <ng-template #groupheader let-task let-expanded="expanded">
+                            <com-group-row [task]="task" [expanded]="expanded"></com-group-row>
+                        </ng-template>
+
+                        <ng-template #expandedrow let-task let-index="rowIndex">
+                            <com-data-row [rowIndex]="index" [task]="task"></com-data-row>
+                        </ng-template>
+                    } @else {
+                        <ng-template #body let-task let-index="rowIndex">
+                            <com-data-row [rowIndex]="index" [task]="task"></com-data-row>
+                        </ng-template>
+                    }
+                </p-table>
+            }
+        </div>
+    </div>
+}

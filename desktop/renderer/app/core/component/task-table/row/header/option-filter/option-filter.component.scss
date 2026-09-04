@@ -1,0 +1,66 @@
+:host {
+    display: contents;
+
+    .dropdown-filter {
+        margin-top: 3px;
+        height: 27px;
+        width: 100%;
+        align-items: center;
+    }
+
+    // Special positioning for patch on screen edge
+    .dropdown-filter.patch ::ng-deep .p-overlay {
+        inset-inline-start: -100px !important;
+    }
+
+    ::ng-deep .p-overlay {
+        .p-select-overlay {
+            border: 1px solid var(--primary-color);
+            border-bottom-right-radius: 0;
+        }
+
+        .p-select-list-container {
+            scroll-behavior: smooth;
+        }
+
+        .custom-option-line {
+            display: flex;
+            width: 100%;
+            border-bottom: 1px solid var(--primary-color);
+            border-top-left-radius: var(--border-radius);
+
+            .custom-option-input {
+                height: 32px;
+                flex-grow: 1;
+                border-radius: 0;
+                border-top-left-radius: var(--border-radius);
+            }
+
+            .clear-icon {
+                position: absolute;
+                right: 40px;
+                top: 10px;
+
+                cursor: pointer;
+            }
+
+            .add-option {
+                border-radius: 0;
+                border-top-right-radius: var(--border-radius);
+                height: 32px;
+                width: 32px;
+            }
+        }
+
+        .option-line {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .remove-option {
+                color: var(--text-color);
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.nav-bar-container {
+    display: flex;
+    margin: 0 10px;
+
+    // Make pretty border radius for nav buttons
+    ::ng-deep .p-buttongroup {
+        & > :not(:first-child) {
+            &.p-button, .p-button {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+
+        & > :not(:last-child) {
+            &.p-button, .p-button {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+        }
+    }
+
+    // Consistent and smaller button size
+    ::ng-deep .p-button {
+        height: 100%;
+        width: 34px;
+    }
+}

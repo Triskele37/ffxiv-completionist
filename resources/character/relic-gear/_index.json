@@ -8,12 +8,14 @@
         "eureka",
         "resistance",
         "manderville",
+        "phantom",
         "lucis-tools",
         "skysteel-tools",
         "resplendent-tools",
-        "splendorous-tools"
+        "splendorous-tools",
+        "cosmic-tools"
     ],
-    "headers": {
+    "columns": {
         "iLevel": {
             "header_en": "iLvl",
             "header_fr": "Nv d'objet"
@@ -22,13 +24,15 @@
             "header": "@HEADER.NAME"
         },
         "job": {
-            "filterable": true,
-            "header_en": "Job",
-            "header_fr": "Job"
+            "header": "@HEADER.JOB",
+            "filterable": true
         },
         "requirements": {
             "header": "@HEADER.REQUIREMENTS",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     }
 }

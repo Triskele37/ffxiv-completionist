@@ -1,0 +1,8 @@
+@use './ellipsis-overflow' as *;
+
+.content-link {
+    display: inline-block;
+    max-width: 100%;
+
+    @extend %ellipsis-overflow;
+}

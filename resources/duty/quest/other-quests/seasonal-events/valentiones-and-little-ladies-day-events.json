@@ -4,25 +4,25 @@
     "groupName_fr": "Valention & fête des demoiselles",
     "tasks": {
         "x69532": {
-            "level": 15,
             "name_en": "A Delivery of Love",
             "name_fr": "Le courrier du cœur",
-            "cPrevAny": true,
+            "level": 15,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
+            "patch": "5.4",
             "cPrev": ["q.66043", "q.66064", "q.66082"],
-            "cNext": ["q.69533"],
-            "patch": "5.4"
+            "cPrevAny": true,
+            "cNext": ["q.69533"]
         },
         "x69533": {
-            "level": 15,
             "name_en": "Little Lady Adventurer",
             "name_fr": "Les demoiselles de la Valention",
+            "level": 15,
             "npc_en": "Elyne",
             "npc_fr": "Elyne",
+            "patch": "5.4",
             "cPrev": ["q.69532"],
-            "cSiblings": ["a.2806"],
-            "patch": "5.4"
+            "cSiblings": ["a.2806"]
         }
     }
 }

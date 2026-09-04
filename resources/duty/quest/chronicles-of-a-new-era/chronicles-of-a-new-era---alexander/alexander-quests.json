@@ -4,170 +4,184 @@
     "groupName_fr": "Alexander",
     "tasks": {
         "x67626": {
-            "level": 60,
             "name_en": "Disarmed",
             "name_fr": "Un danger mécanique",
-            "unlock": "d.112",
+            "level": 60,
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
+            "unlock": "d.112",
+            "patch": "3.01",
             "cPrev": ["q.67205"],
             "cNext": ["q.67627"],
-            "patch": "4.31"
+            "cSiblings": ["d.112"]
         },
         "x67627": {
-            "level": 60,
             "name_en": "Steel and Steam",
             "name_fr": "Une forteresse mobile",
-            "unlock": "d.113",
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": "d.113",
+            "patch": "3.01",
             "cPrev": ["q.67626"],
             "cNext": ["q.67628"],
-            "patch": "4.31"
+            "cSiblings": ["d.113"]
         },
         "x67628": {
-            "level": 60,
             "name_en": "Tinker, Seeker, Soldier, Spy",
             "name_fr": "Le dernier élément",
-            "unlock": "d.114",
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": "d.114",
+            "patch": "3.01",
             "cPrev": ["q.67627"],
             "cNext": ["q.67629"],
-            "patch": "4.31"
+            "cSiblings": ["d.114"]
         },
         "x67629": {
-            "level": 60,
             "name_en": "The Pulsing Heart",
             "name_fr": "Le cœur du géant",
-            "unlock": "d.115",
+            "level": 60,
             "npc_en": "Mide",
             "npc_fr": "Mide",
+            "unlock": "d.115",
+            "patch": "3.01",
             "cPrev": ["q.67628"],
             "cNext": ["q.67630"],
-            "patch": "4.31"
+            "cSiblings": ["d.115"]
         },
         "x67630": {
-            "level": 60,
             "name_en": "Enigma",
             "name_fr": "Le trésor de Roundrox",
+            "level": 60,
             "npc_en": "Redbrix",
             "npc_fr": "Redbrix",
+            "unlock": "tto.22",
+            "patch": "3.01",
             "cPrev": ["q.67629"],
             "cNext": ["q.67785", "q.67644"],
-            "cSiblings": ["a.1164"],
-            "patch": "4.31"
+            "cSiblings": ["a.1164"]
         },
         "x67785": {
-            "level": 60,
             "name_en": "Rearmed",
             "name_fr": "Le petit monde de Roundrox",
-            "unlock": "d.136",
+            "level": 60,
             "npc_en": "Roundrox",
             "npc_fr": "Roundrox",
+            "unlock": "d.136",
+            "patch": "3.2",
             "cPrev": ["q.67630"],
             "cNext": ["q.67786"],
-            "patch": "4.31"
+            "cSiblings": ["d.136"]
         },
         "x67786": {
-            "level": 60,
             "name_en": "The Folly of Youth",
             "name_fr": "Doutes et regrets",
-            "unlock": "d.137",
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": "d.137",
+            "patch": "3.2",
             "cPrev": ["q.67785"],
             "cNext": ["q.67787"],
-            "patch": "4.31"
+            "cSiblings": ["d.137"]
         },
         "x67787": {
-            "level": 60,
             "name_en": "Toppling the Tyrant",
             "name_fr": "Intervention cérébrale",
-            "unlock": "d.138",
+            "level": 60,
             "npc_en": "Mide",
             "npc_fr": "Mide",
+            "unlock": "d.138",
+            "patch": "3.2",
             "cPrev": ["q.67786"],
             "cNext": ["q.67788"],
-            "patch": "4.31"
+            "cSiblings": ["d.138"]
         },
         "x67788": {
-            "level": 60,
             "name_en": "One Step Behind",
             "name_fr": "Étranges prédictions",
-            "unlock": "d.139",
+            "level": 60,
             "npc_en": "Backrix",
             "npc_fr": "Backrix",
+            "unlock": "d.139",
+            "patch": "3.2",
             "cPrev": ["q.67787"],
             "cNext": ["q.67789"],
-            "patch": "4.31"
+            "cSiblings": ["d.139"]
         },
         "x67789": {
-            "level": 60,
             "name_en": "A Gob in the Machine",
             "name_fr": "Une question de temps",
+            "level": 60,
             "npc_en": "Backrix",
             "npc_fr": "Backrix",
+            "unlock": "tto.91",
+            "patch": "3.2",
             "cPrev": ["q.67788"],
             "cNext": ["q.67790", "q.67871"],
-            "cSiblings": ["a.1494"],
-            "patch": "4.31"
+            "cSiblings": ["a.1494"]
         },
         "x67871": {
-            "level": 60,
             "name_en": "The Coeurl and the Colossus",
             "name_fr": "Un danger en accélération",
-            "unlock": "d.186",
+            "level": 60,
             "npc_en": "Mide",
             "npc_fr": "Mide",
+            "unlock": "d.186",
+            "patch": "3.4",
             "cPrev": ["q.67789"],
             "cNext": ["q.67872"],
-            "patch": "4.31"
+            "cSiblings": ["d.186"]
         },
         "x67872": {
-            "level": 60,
             "name_en": "Biggs and Wedge's Excellent Adventure",
             "name_fr": "Au-delà des couloirs du temps",
-            "unlock": "d.187",
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": "d.187",
+            "patch": "3.4",
             "cPrev": ["q.67871"],
             "cNext": ["q.67873"],
-            "patch": "4.31"
+            "cSiblings": ["d.187"]
         },
         "x67873": {
-            "level": 60,
             "name_en": "Thus Spake Quickthinx",
             "name_fr": "Le futur annoncé",
-            "unlock": ["d.188", "o.112"],
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": ["d.188", "o.112"],
+            "patch": "3.4",
             "cPrev": ["q.67872"],
             "cNext": ["q.67874"],
-            "patch": "4.31"
+            "cSiblings": ["d.188"]
         },
         "x67874": {
-            "level": 60,
             "name_en": "Judgment Day",
             "name_fr": "Le temps du jugement",
-            "unlock": ["d.189", "o.113"],
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": ["d.189", "o.113"],
+            "patch": "3.4",
             "cPrev": ["q.67873"],
             "cNext": ["q.67875"],
-            "patch": "4.31"
+            "cSiblings": ["d.189"]
         },
         "x67875": {
-            "level": 60,
             "name_en": "Of Endings and Beginnings",
             "name_fr": "Droit vers le futur",
+            "level": 60,
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
+            "unlock": ["o.108", "o.109", "o.110", "o.111"],
+            "patch": "3.4",
             "cPrev": ["q.67874"],
             "cNext": ["q.67876"],
-            "cSiblings": ["a.1629"],
-            "patch": "4.31",
-            "unlock": ["o.108", "o.109", "o.110", "o.111"]
+            "cSiblings": ["a.1629"]
         }
     }
 }

@@ -4,498 +4,500 @@
     "groupName_fr": "Steppe d'Azim",
     "tasks": {
         "x68288": {
-            "level": 65,
             "name_en": "Silent Banquet",
             "name_fr": "Le prestige des Qestir",
+            "level": 65,
             "npc_en": "Oroniri Youth",
             "npc_fr": "Jeune Homme Oronir",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68289": {
-            "level": 65,
             "name_en": "Who Needs Words",
             "name_fr": "Agir sans mot dire",
+            "level": 65,
             "npc_en": "Khaishan",
             "npc_fr": "Khaishan",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68290": {
-            "level": 65,
             "name_en": "Rip-off Reunion",
             "name_fr": "Le juste prix",
+            "level": 65,
             "npc_en": "Tamachag",
             "npc_fr": "Tamachag",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68291": {
-            "level": 65,
             "name_en": "Merchant for a Day",
             "name_fr": "L'art d'abuser du besoin ou du désir",
+            "level": 65,
             "npc_en": "Baidur",
             "npc_fr": "Baidur",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68292": {
-            "level": 65,
             "name_en": "You Buuz, You Lose",
             "name_fr": "Chambui fait le buuz",
+            "level": 65,
             "npc_en": "Chambui",
             "npc_fr": "Chambui",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68293": {
-            "level": 65,
             "name_en": "Fishing for Customers",
             "name_fr": "La spécialité d'Isari",
+            "level": 65,
             "npc_en": "Uto",
             "npc_fr": "Uto",
-            "cPrev": ["q.68036"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68036"]
         },
         "x68294": {
-            "level": 65,
             "name_en": "Purbol Rain",
             "name_fr": "Le lot d'un successeur adarkim",
+            "level": 65,
             "npc_en": "Adarkim Warrior",
             "npc_fr": "Homme Adarkim",
+            "patch": "4.0",
             "cPrev": ["q.68037"],
-            "cNext": ["q.68713"],
-            "patch": "4.31"
+            "cNext": ["q.68713"]
         },
         "x68295": {
-            "level": 65,
             "name_en": "Stranger Danger",
             "name_fr": "La garderie du Ralliement",
+            "level": 65,
             "npc_en": "Togene",
             "npc_fr": "Togene",
-            "cPrev": ["q.68037"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68037"]
         },
         "x68296": {
-            "level": 65,
             "name_en": "Words Are Very Unnecessary",
             "name_fr": "Un homme de bien des mots",
-            "unlock": "travel.aether-currents.sb.the-azim-steppe.13",
+            "level": 65,
             "npc_en": "Tamachag",
             "npc_fr": "Tamachag",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.13",
+            "patch": "4.0",
             "cPrev": ["q.68037"],
             "cNext": ["q.68297"],
-            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.13"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.13"]
         },
         "x68297": {
-            "level": 65,
             "name_en": "Words Are Trivial",
             "name_fr": "Danse de caractère",
+            "level": 65,
             "npc_en": "Gascot",
             "npc_fr": "Gascot",
+            "patch": "4.0",
             "cPrev": ["q.68037", "q.68296"],
-            "cNext": ["q.68298"],
-            "patch": "4.31"
+            "cNext": ["q.68298"]
         },
         "x68298": {
-            "level": 65,
             "name_en": "Words Are Meaningless",
             "name_fr": "La parole est d'argent...",
+            "level": 65,
             "npc_en": "Gascot",
             "npc_fr": "Gascot",
+            "patch": "4.0",
             "cPrev": ["q.68037", "q.68297"],
-            "cNext": ["q.68299"],
-            "patch": "4.31"
+            "cNext": ["q.68299"]
         },
         "x68299": {
-            "level": 65,
             "name_en": "Enjoy the Silence",
             "name_fr": "Mais le silence est d'or",
+            "level": 65,
             "npc_en": "Cotota",
             "npc_fr": "Cotota",
-            "cPrev": ["q.68037", "q.68298"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68037", "q.68298"]
         },
         "x68300": {
-            "level": 65,
             "name_en": "Oh Matron",
             "name_fr": "Des matamata pour un mariage",
+            "level": 65,
             "npc_en": "Mol Maiden",
             "npc_fr": "Jeune Fille Mol",
-            "cPrev": ["q.68039"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68039"]
         },
         "x68301": {
-            "level": 65,
             "name_en": "A Dicey Situation",
             "name_fr": "Des os à tomber",
+            "level": 65,
             "npc_en": "Buqatai",
             "npc_fr": "Buqatai",
-            "cPrev": ["q.68039"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68039"]
         },
         "x68302": {
-            "level": 65,
             "name_en": "Absolute Faith",
             "name_fr": "Du souci pour Nigen",
+            "level": 65,
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
+            "patch": "4.0",
             "cPrev": ["q.68039"],
-            "cNext": ["q.68304"],
-            "patch": "4.31"
+            "cNext": ["q.68304"]
         },
         "x68303": {
-            "level": 65,
             "name_en": "Silence of the Lambs",
             "name_fr": "Le fromage de Cotan",
+            "level": 65,
             "npc_en": "Cotan",
             "npc_fr": "Cotan",
-            "cPrev": ["q.68039"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68039"]
         },
         "x68304": {
-            "level": 65,
             "name_en": "Keeping the Faith",
             "name_fr": "Encore du souci pour Nigen",
+            "level": 65,
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
+            "patch": "4.0",
             "cPrev": ["q.68040", "q.68302"],
-            "cNext": ["q.68308"],
-            "patch": "4.31"
+            "cNext": ["q.68308"]
         },
         "x68305": {
-            "level": 65,
             "name_en": "Tent That Rocked",
             "name_fr": "Un nouveau pilier pour Mol Iloh",
+            "level": 65,
             "npc_en": "Caur",
             "npc_fr": "Caur",
-            "cPrev": ["q.68040"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68040"]
         },
         "x68306": {
-            "level": 65,
             "name_en": "Sacred Sweeping",
             "name_fr": "Nettoyage risqué",
+            "level": 65,
             "npc_en": "Ujin",
             "npc_fr": "Ujin",
-            "cPrev": ["q.68040"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68040"]
         },
         "x68307": {
-            "level": 65,
             "name_en": "Sheep Snatcher",
             "name_fr": "Retrouve-moi un mouton",
-            "unlock": "travel.aether-currents.sb.the-azim-steppe.12",
+            "level": 65,
             "npc_en": "Sukegei",
             "npc_fr": "Sukegei",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.12",
+            "patch": "4.0",
             "cPrev": ["q.68041"],
-            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.12"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.12"]
         },
         "x68308": {
-            "level": 65,
             "name_en": "And Dzo It Goes",
             "name_fr": "Toujours du souci pour Nigen",
+            "level": 65,
             "npc_en": "Nigen",
             "npc_fr": "Nigen",
-            "cPrev": ["q.68041", "q.68304"],
-            "patch": "4.31"
+            "unlock": "tto.83",
+            "patch": "4.0",
+            "cPrev": ["q.68041", "q.68304"]
         },
         "x68309": {
-            "level": 65,
             "name_en": "Shop till the Warrior of Light Drops",
             "name_fr": "Fièvre acheteuse",
+            "level": 65,
             "npc_en": "Mol Maiden",
             "npc_fr": "Femme Mol",
-            "cPrev": ["q.68041"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68041"]
         },
         "x68310": {
-            "level": 65,
             "name_en": "The Judgment",
             "name_fr": "Un caquet à rabattre",
+            "level": 65,
             "npc_en": "Abaka",
             "npc_fr": "Abaka",
-            "cPrev": ["q.68044"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68044"]
         },
         "x68311": {
-            "level": 65,
             "name_en": "A Warm Welcome",
             "name_fr": "Un heureux événement",
+            "level": 65,
             "npc_en": "Ogodei",
             "npc_fr": "Ogodei",
-            "cPrev": ["q.68044"],
-            "patch": "4.31"
+            "unlock": "tto.84",
+            "patch": "4.0",
+            "cPrev": ["q.68044"]
         },
         "x68312": {
-            "level": 65,
             "name_en": "The Fingers of Azim",
             "name_fr": "Rasade divine",
+            "level": 65,
             "npc_en": "Charakha",
             "npc_fr": "Charakha",
-            "cPrev": ["q.68044"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68044"]
         },
         "x68313": {
-            "level": 65,
             "name_en": "The Ideal Budugan Warrior",
-            "name_fr": "Allez, viens!",
+            "name_fr": "Allez, viens !",
+            "level": 65,
             "npc_en": "Budugan Warrior",
             "npc_fr": "Guerrier Buduga",
-            "cPrev": ["q.68044"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68044"]
         },
         "x68314": {
-            "level": 65,
             "name_en": "The Lights That Guide Us Home",
-            "name_fr": "Remets de l'huile!",
+            "name_fr": "Remets de l'huile !",
+            "level": 65,
             "npc_en": "Guyug",
             "npc_fr": "Guyug",
-            "cPrev": ["q.68044"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68044"]
         },
         "x68315": {
-            "level": 66,
             "name_en": "The World without Her",
             "name_fr": "Une compagne prévenante",
+            "level": 66,
             "npc_en": "Sorocan",
             "npc_fr": "Sorocan",
-            "cPrev": ["q.68045"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68045"]
         },
         "x68316": {
-            "level": 66,
             "name_en": "Spoils of War",
             "name_fr": "Hommage par procuration",
+            "level": 66,
             "npc_en": "Yabuqa",
             "npc_fr": "Yabuqa",
-            "cPrev": ["q.68045"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68045"]
         },
         "x68317": {
-            "level": 66,
             "name_en": "Broken Flowers",
             "name_fr": "Les fleurs du moche",
+            "level": 66,
             "npc_en": "Oroniri Hunter",
             "npc_fr": "Chasseur Oronir",
-            "cPrev": ["q.68045"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68045"]
         },
         "x68318": {
-            "level": 66,
             "name_en": "Forty Years and Counting",
             "name_fr": "Quarante ans, toujours Poucet",
-            "unlock": "travel.aether-currents.sb.the-azim-steppe.11",
+            "level": 66,
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.11",
+            "patch": "4.0",
             "cPrev": ["q.68046"],
             "cNext": ["q.68319"],
-            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.11"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.11"]
         },
         "x68319": {
-            "level": 66,
             "name_en": "Chasing Rainbows",
             "name_fr": "Le vaillant petit cuistot",
+            "level": 66,
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
+            "patch": "4.0",
             "cPrev": ["q.68046", "q.68318"],
-            "cNext": ["q.68320"],
-            "patch": "4.31"
+            "cNext": ["q.68320"]
         },
         "x68320": {
-            "level": 66,
             "name_en": "The Tournament",
             "name_fr": "Le perdant magnifique",
+            "level": 66,
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
+            "patch": "4.0",
             "cPrev": ["q.68046", "q.68319"],
-            "cNext": ["q.68321"],
-            "patch": "4.31"
+            "cNext": ["q.68321"]
         },
         "x68321": {
-            "level": 66,
             "name_en": "The Strongest among Us",
             "name_fr": "Il n'y a pas de sot métier",
+            "level": 66,
             "npc_en": "Esugen",
             "npc_fr": "Esugen",
+            "patch": "4.0",
             "cPrev": ["q.68046", "q.68320"],
-            "cNext": ["q.68331"],
-            "patch": "4.31"
+            "cNext": ["q.68331"]
         },
         "x68322": {
-            "level": 66,
             "name_en": "Welcome to the Family",
             "name_fr": "Le bon fils",
+            "level": 66,
             "npc_en": "Unbloodied Dotharl",
             "npc_fr": "Jeune Dotharl",
+            "patch": "4.0",
             "cPrev": ["q.68048"],
-            "cNext": ["q.68333", "q.68334", "q.68332"],
-            "patch": "4.31"
+            "cNext": ["q.68333", "q.68334", "q.68332"]
         },
         "x68323": {
-            "level": 66,
             "name_en": "Brainy Bears",
             "name_fr": "Paissez en paix",
+            "level": 66,
             "npc_en": "Dagasi",
             "npc_fr": "Dagasi",
-            "cPrev": ["q.68048"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68048"]
         },
         "x68324": {
-            "level": 66,
             "name_en": "Child's Play",
             "name_fr": "Marche tout droit",
+            "level": 66,
             "npc_en": "Dotharli Warrior",
             "npc_fr": "Guerrier Dotharl",
-            "cPrev": ["q.68048"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68048"]
         },
         "x68325": {
-            "level": 66,
             "name_en": "Dastardly Diremites",
             "name_fr": "Marcher dans le sable",
+            "level": 66,
             "npc_en": "Agujam",
             "npc_fr": "Agujam",
-            "cPrev": ["q.68048"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68048"]
         },
         "x68326": {
-            "level": 66,
             "name_en": "Nhaama's Sweet Embrace",
             "name_fr": "Rejoindre la lune",
+            "level": 66,
             "npc_en": "Dotharli Youth",
             "npc_fr": "Jeune Fille Dotharl",
-            "cPrev": ["q.68048"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68048"]
         },
         "x68327": {
-            "level": 66,
             "name_en": "Mauci of the Seven Worries",
-            "name_fr": "Erreur sur la réincarnation?",
-            "unlock": "travel.aether-currents.sb.the-azim-steppe.10",
+            "name_fr": "Erreur sur la réincarnation ?",
+            "level": 66,
             "npc_en": "Mauci",
             "npc_fr": "Mauci",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.10",
+            "patch": "4.0",
             "cPrev": ["q.68048"],
             "cNext": ["q.68328"],
-            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.10"],
-            "patch": "4.31"
+            "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.10"]
         },
         "x68328": {
-            "level": 66,
             "name_en": "Watch and Learn",
             "name_fr": "Une leçon, une correction",
+            "level": 66,
             "npc_en": "Mauci",
             "npc_fr": "Mauci",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68327"],
-            "cNext": ["q.68329"],
-            "patch": "4.31"
+            "cNext": ["q.68329"]
         },
         "x68329": {
-            "level": 66,
             "name_en": "The Power of the Fist",
             "name_fr": "Si c'est Mauci, j'y vais aussi",
+            "level": 66,
             "npc_en": "Khulan",
             "npc_fr": "Khulan",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68328"],
-            "cNext": ["q.68330"],
-            "patch": "4.31"
+            "cNext": ["q.68330"]
         },
         "x68330": {
-            "level": 66,
             "name_en": "Do or Die",
             "name_fr": "Sept Poings",
+            "level": 66,
             "npc_en": "Khulan",
             "npc_fr": "Khulan",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68329"],
-            "cNext": ["q.68331"],
-            "patch": "4.31"
+            "cNext": ["q.68331"]
         },
         "x68331": {
-            "level": 66,
             "name_en": "Hungry Like the Wolf",
             "name_fr": "Amitié intertribale",
+            "level": 66,
             "npc_en": "Kishiligh",
             "npc_fr": "Kishiligh",
-            "cPrev": ["q.68048", "q.68321", "q.68330"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68048", "q.68321", "q.68330"]
         },
         "x68332": {
-            "level": 66,
             "name_en": "Ibakha Dreams of Birds",
             "name_fr": "Ibakha a l'œil",
+            "level": 66,
             "npc_en": "Bujir",
             "npc_fr": "Bujir",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68322"],
-            "cNext": ["q.68335"],
-            "patch": "4.31"
+            "cNext": ["q.68335"]
         },
         "x68333": {
-            "level": 66,
             "name_en": "The Melody of Ceol Aen",
             "name_fr": "Un patrimoine culturel immatériel",
+            "level": 66,
             "npc_en": "Caalun",
             "npc_fr": "Caalun",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68322"],
-            "cNext": ["q.68335"],
-            "patch": "4.31"
+            "cNext": ["q.68335"]
         },
         "x68334": {
-            "level": 66,
             "name_en": "Food Glorious Food",
             "name_fr": "Plus besoin de poubelles",
+            "level": 66,
             "npc_en": "Ibakha",
             "npc_fr": "Ibakha",
+            "patch": "4.0",
             "cPrev": ["q.68048", "q.68322"],
-            "cNext": ["q.68335"],
-            "patch": "4.31"
+            "cNext": ["q.68335"]
         },
         "x68335": {
-            "level": 66,
             "name_en": "Spelunker of Light",
             "name_fr": "Défense d'entrer",
+            "level": 66,
             "npc_en": "Uyagiri Youth",
             "npc_fr": "Jeune Uyagir",
-            "cPrev": ["q.68332", "q.68333", "q.68334"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68332", "q.68333", "q.68334"]
         },
         "x68336": {
-            "level": 66,
             "name_en": "Wouldn't Hurt a Fly",
             "name_fr": "Sur des charbons ardents",
+            "level": 66,
             "npc_en": "Mild-mannered Mol",
             "npc_fr": "Mol Doux",
-            "cPrev": ["q.68052"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68052"]
         },
         "x68337": {
-            "level": 66,
             "name_en": "Honor in Victory",
             "name_fr": "Le poids du protocole",
+            "level": 66,
             "npc_en": "Bujeg",
             "npc_fr": "Bujeg",
-            "cPrev": ["q.68052"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68052"]
         },
         "x68338": {
-            "level": 66,
             "name_en": "A Sheep to Fly For",
             "name_fr": "Des germes tués dans l'œuf",
+            "level": 66,
             "npc_en": "Jenkshi",
             "npc_fr": "Jenkshi",
-            "cPrev": ["q.68052"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68052"]
         },
         "x68339": {
-            "level": 66,
             "name_en": "Steppe of Hard Knocks",
             "name_fr": "Faible fils deviendra fort",
+            "level": 66,
             "npc_en": "Maqali",
             "npc_fr": "Maqali",
-            "cPrev": ["q.68052"],
-            "patch": "4.31"
+            "patch": "4.0",
+            "cPrev": ["q.68052"]
         }
     }
 }

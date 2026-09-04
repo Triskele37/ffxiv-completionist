@@ -1,0 +1,22 @@
+{
+    "key": "anemos",
+    "groupName": "@PLACE.SB.EUREKA PLACE.SB.ANEMOS",
+    "tasks": {
+        "x200": {
+            "name_en": "Anemos Lockbox",
+            "name_fr": "Coffre verrouillé d'Anemos",
+            "location": "@PLACE.SB.EUREKA PLACE.SB.ANEMOS",
+            "requirements": "duty.field-operations.eureka.notorious-monsters.anemos",
+            "loot": [
+                "b.61",
+                "mo.150",
+                "mi.285",
+                "mi.286",
+                "mi.287",
+                "o.208",
+                "o.209"
+            ],
+            "_itemId": 22508
+        }
+    }
+}

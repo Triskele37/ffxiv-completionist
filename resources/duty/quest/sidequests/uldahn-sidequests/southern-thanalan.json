@@ -4,199 +4,199 @@
     "groupName_fr": "Thanalan méridional",
     "tasks": {
         "x66228": {
-            "level": 25,
             "name_en": "Leves of Little Ala Mhigo",
             "name_fr": "Mandataire de Petite Ala Mhigo",
-            "cPrevAny": true,
+            "level": 25,
             "npc_en": "Esmond",
             "npc_fr": "Esmond",
+            "patch": "2.0",
             "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
+            "cPrevAny": true
         },
         "x66294": {
-            "level": 25,
             "name_en": "Bad Blood",
             "name_fr": "Les bonnes intentions d'Hihira",
+            "level": 25,
             "npc_en": "Hihira",
             "npc_fr": "Hihira",
+            "patch": "2.0",
             "cPrev": ["q.66293"],
-            "cNext": ["q.66295"],
-            "patch": "4.31"
+            "cNext": ["q.66295"]
         },
         "x66295": {
-            "level": 25,
             "name_en": "Prickly Patients",
             "name_fr": "Infusion pour guérison",
+            "level": 25,
             "npc_en": "Hihira",
             "npc_fr": "Hihira",
-            "cPrev": ["q.66294"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66294"]
         },
         "x66296": {
-            "level": 25,
             "name_en": "Blast from the Past",
             "name_fr": "Histoire de fantômes belahdiens",
+            "level": 25,
             "npc_en": "Annabel",
             "npc_fr": "Annabel",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66315": {
-            "level": 27,
             "name_en": "Corpse Confrontation",
             "name_fr": "La bataille des Cadavres",
+            "level": 27,
             "npc_en": "Hremfing",
             "npc_fr": "Hremfing",
-            "cPrev": ["q.66314"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66314"]
         },
         "x66316": {
-            "level": 27,
             "name_en": "What's Your Poison",
             "name_fr": "Poison contre poison",
+            "level": 27,
             "npc_en": "Amelot",
             "npc_fr": "Amelot",
-            "cNext": ["q.66317"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66317"]
         },
         "x66317": {
-            "level": 27,
             "name_en": "Death from Above",
             "name_fr": "Bourdonnement funeste",
+            "level": 27,
             "npc_en": "Amelot",
             "npc_fr": "Amelot",
-            "cPrev": ["q.66316"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66316"]
         },
         "x66359": {
-            "level": 31,
             "name_en": "Fetch the Freshman",
             "name_fr": "Besoin d'un coup de patte",
+            "level": 31,
             "npc_en": "U'tykha Tia",
             "npc_fr": "U'tykha Tia",
-            "cNext": ["q.66365"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66365"]
         },
         "x66360": {
-            "level": 31,
             "name_en": "Survey Says",
             "name_fr": "Sondage d'opinion publique",
+            "level": 31,
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
-            "cNext": ["q.66361"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66361"]
         },
         "x66361": {
-            "level": 31,
             "name_en": "Tools of Office",
             "name_fr": "Un carquois vide",
+            "level": 31,
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
+            "patch": "2.0",
             "cPrev": ["q.66360"],
-            "cNext": ["q.66364"],
-            "patch": "4.31"
+            "cNext": ["q.66364"]
         },
         "x66362": {
-            "level": 31,
             "name_en": "Minority Rapport",
             "name_fr": "Ségrégation sociale",
+            "level": 31,
             "npc_en": "Riridesu",
             "npc_fr": "Riridesu",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66363": {
-            "level": 31,
             "name_en": "Heat of the Moment",
             "name_fr": "Il fait trop chaud pour travailler",
+            "level": 31,
             "npc_en": "Mumugoi",
             "npc_fr": "Mumugoi",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66364": {
-            "level": 31,
             "name_en": "The Eyes Have It",
             "name_fr": "Des regards et des hommes",
+            "level": 31,
             "npc_en": "U'rahtalo",
             "npc_fr": "U'rahtalo",
-            "cPrev": ["q.66361"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66361"]
         },
         "x66365": {
-            "level": 31,
             "name_en": "Mind Games",
-            "name_fr": "Du nerf!",
+            "name_fr": "Du nerf !",
+            "level": 31,
             "npc_en": "U'tykha Tia",
             "npc_fr": "U'tykha Tia",
+            "patch": "2.0",
             "cPrev": ["q.66359"],
-            "cNext": ["q.66366"],
-            "patch": "4.31"
+            "cNext": ["q.66366"]
         },
         "x66366": {
-            "level": 31,
             "name_en": "U Don't Know Me",
             "name_fr": "Deux caractères opposés",
+            "level": 31,
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
-            "cPrev": ["q.66365"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66365"]
         },
         "x66557": {
-            "level": 47,
             "name_en": "What's It to U",
             "name_fr": "Une question de confiance",
+            "level": 47,
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
+            "patch": "2.0",
             "cPrev": ["q.67089"],
-            "cNext": ["q.66559"],
-            "patch": "4.31"
+            "cNext": ["q.66559"]
         },
         "x66558": {
-            "level": 47,
             "name_en": "Zombies Are People Too",
             "name_fr": "De piquants compagnons",
-            "unlock": "mi.33",
+            "level": 47,
             "npc_en": "Hab",
             "npc_fr": "Hab",
-            "cPrev": ["q.67089"],
-            "patch": "4.31"
+            "unlock": ["mi.33", "tto.62"],
+            "patch": "2.0",
+            "cPrev": ["q.67089"]
         },
         "x66559": {
-            "level": 47,
             "name_en": "U! Ow! That Stings",
             "name_fr": "Une deuxième chance",
+            "level": 47,
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
+            "patch": "2.0",
             "cPrev": ["q.66557"],
-            "cNext": ["q.66560"],
-            "patch": "4.31"
+            "cNext": ["q.66560"]
         },
         "x66560": {
-            "level": 47,
             "name_en": "True U",
             "name_fr": "Un nouveau commencement",
+            "level": 47,
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": ["q.66559"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66559"]
         },
         "x68422": {
-            "level": 70,
             "name_en": "For Wilred",
             "name_fr": "Inquiétudes à dissiper",
+            "level": 70,
             "npc_en": "Gundobald",
             "npc_fr": "Gundobald",
+            "patch": "4.0",
             "cPrev": ["q.68089", "q.68421"],
-            "cNext": ["q.68423"],
-            "patch": "4.31"
+            "cNext": ["q.68423"]
         },
         "x68423": {
-            "level": 70,
             "name_en": "Journey's Beginning",
             "name_fr": "Revoir sa patrie",
+            "level": 70,
             "npc_en": "Bertliana",
             "npc_fr": "Bertliana",
+            "patch": "4.0",
             "cPrev": ["q.68089", "q.68422"],
-            "cNext": ["q.68424"],
-            "patch": "4.31"
+            "cNext": ["q.68424"]
         }
     }
 }

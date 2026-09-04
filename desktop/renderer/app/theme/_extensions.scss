@@ -1,0 +1,82 @@
+// App specific overrides
+body {
+
+    .p-button {
+        &.p-button-link {
+            color: var(--primary-color-light);
+        }
+    }
+
+    .p-button, .p-button-link {
+        cursor: pointer;
+
+        font-size: var(--font-size);
+    }
+
+    .p-datatable {
+        box-shadow: -1px 0 5px var(--surface-100);
+
+        &.p-datatable-striped .p-datatable-tbody :nth-child(even) tr {
+            background: var(--surface-800);
+        }
+
+        .p-datatable-thead tr th {
+            background: var(--surface-800);
+            border-bottom: 1px solid var(--surface-600);
+            padding: calc(var(--content-padding) / 2);
+        }
+
+        .p-datatable-tbody tr td {
+            // needs to exist or virtual scroller freaks at bottom of table
+            border-bottom: 1px solid var(--surface-600);
+        }
+
+        .p-virtualscroller {
+            // so header overlays are visible in small tables
+            min-height: 100%;
+        }
+    }
+
+    .p-link {
+        font-size: var(--font-size);
+        font-family: var(--font-family);
+        border-radius: 4px;
+
+        &:focus {
+            outline: 0 none;
+            outline-offset: 0;
+            box-shadow: none;
+        }
+    }
+
+    .p-overlaypanel {
+        border: 1px solid var(--surface-700);
+
+        &:before {
+            border-bottom-color: var(--surface-700);
+        }
+    }
+
+    .p-select {
+        .p-select-label {
+            padding-right: 0;
+            text-align: left;
+        }
+
+        .p-select-dropdown {
+            width: 14px;
+            margin-right: var(--content-padding);
+        }
+    }
+
+    .p-tooltip {
+        max-width: unset !important;
+        pointer-events: none !important;
+        z-index: 9999 !important;
+
+        .p-tooltip-text {
+            border: 1px solid var(--surface-800);
+        }
+    }
+
+}

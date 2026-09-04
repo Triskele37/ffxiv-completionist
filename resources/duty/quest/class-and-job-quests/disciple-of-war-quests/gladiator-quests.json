@@ -4,87 +4,87 @@
     "groupName_fr": "Quêtes de gladiateur",
     "tasks": {
         "x65821": {
-            "level": 1,
             "name_en": "Way of the Gladiator",
             "name_fr": "La voie de l'épée",
+            "level": 1,
             "npc_en": "Lulutsu",
             "npc_fr": "Lulutsu",
+            "patch": "2.0",
             "cPrev": ["q.65713"],
-            "cNext": ["q.65822"],
-            "patch": "4.31"
+            "cNext": ["q.65822"]
         },
         "x65822": {
-            "level": 1,
             "name_en": "My First Gladius",
             "name_fr": "Le glaive du commencement",
+            "level": 1,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65821"],
-            "cNext": ["q.65824", "q.65792"],
-            "patch": "4.31"
+            "cNext": ["q.65824", "q.65792"]
         },
         "x65792": {
-            "level": 5,
             "name_en": "Kicking the Hornet's Nest",
             "name_fr": "La pointe sur l'inimitié",
+            "level": 5,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65822"],
-            "cNext": ["q.65824"],
-            "patch": "4.31"
+            "cNext": ["q.65824"]
         },
         "x65824": {
-            "level": 10,
             "name_en": "Ul'dah's Most Wanted",
             "name_fr": "Une mystérieuse série de meurtres",
+            "level": 10,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65822", "q.65792"],
-            "cNext": ["q.65798"],
-            "patch": "4.31"
+            "cNext": ["q.65798"]
         },
         "x65798": {
-            "level": 15,
             "name_en": "That Old Familiar Feeling",
             "name_fr": "Le feu qui brûle en soi",
+            "level": 15,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65824"],
-            "cNext": ["q.65799"],
-            "patch": "4.31"
+            "cNext": ["q.65799"]
         },
         "x65799": {
-            "level": 20,
             "name_en": "The Face of Thal",
             "name_fr": "Un autre nom surgi du passé",
+            "level": 20,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65798"],
-            "cNext": ["q.65800"],
-            "patch": "4.31"
+            "cNext": ["q.65800"]
         },
         "x65800": {
-            "level": 25,
             "name_en": "On Holy Ground",
             "name_fr": "Épée contre poings",
+            "level": 25,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "patch": "2.0",
             "cPrev": ["q.65799"],
-            "cNext": ["q.65801"],
-            "patch": "4.31"
+            "cNext": ["q.65801"]
         },
         "x65801": {
-            "level": 30,
             "name_en": "The Rematch",
             "name_fr": "Les lames jumelles de Nald'thal",
+            "level": 30,
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
+            "unlock": "ap.156",
+            "patch": "2.0",
             "cPrev": ["q.65800"],
             "cNext": ["q.66591"],
-            "cSiblings": ["ap.156"],
             "cCombo": ["a.313", "a.314"],
-            "patch": "4.31",
-            "unlock": "ap.156"
+            "cSiblings": ["ap.156"]
         }
     }
 }

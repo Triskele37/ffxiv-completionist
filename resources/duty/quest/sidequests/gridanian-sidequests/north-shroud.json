@@ -4,272 +4,272 @@
     "groupName_fr": "Forêt du nord",
     "tasks": {
         "x65706": {
-            "level": 5,
             "name_en": "Jumping at Shadows",
             "name_fr": "Effroyables petits acari",
+            "level": 5,
             "npc_en": "Bodwine",
             "npc_fr": "Bodwine",
-            "cNext": ["q.65707"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65707"]
         },
         "x65709": {
-            "level": 5,
             "name_en": "The Nose Knows",
             "name_fr": "Une livraison de boules puantes",
+            "level": 5,
             "npc_en": "Vionne",
             "npc_fr": "Vionne",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65731": {
-            "level": 5,
             "name_en": "A Glim Harvest",
             "name_fr": "Un champignon ramassé, une vie conservée",
+            "level": 5,
             "npc_en": "Linyeve",
             "npc_fr": "Linyeve",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x65639": {
-            "level": 6,
             "name_en": "Death to the Bean Thieves",
             "name_fr": "La main dans le sac",
+            "level": 6,
             "npc_en": "Q'djawana",
             "npc_fr": "Q'djawana",
+            "patch": "2.0",
             "cPrev": ["q.65735"],
-            "cNext": ["q.65634"],
-            "patch": "4.31"
+            "cNext": ["q.65634"]
         },
         "x65707": {
-            "level": 6,
             "name_en": "The Valued Vilekin",
             "name_fr": "De prodigieux pucerons",
+            "level": 6,
             "npc_en": "Bodwine",
             "npc_fr": "Bodwine",
+            "patch": "2.0",
             "cPrev": ["q.65706"],
-            "cNext": ["q.65710"],
-            "patch": "4.31"
+            "cNext": ["q.65710"]
         },
         "x65735": {
-            "level": 6,
             "name_en": "A Clear Sign",
             "name_fr": "Décrasser les bornes",
+            "level": 6,
             "npc_en": "Paulemont",
             "npc_fr": "Paulemont",
-            "cNext": ["q.65639"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65639"]
         },
         "x65631": {
-            "level": 7,
             "name_en": "Hematophagic Harassment",
             "name_fr": "La confiance, ça se mérite",
+            "level": 7,
             "npc_en": "Eadbert",
             "npc_fr": "Eadbert",
-            "cNext": ["q.65633"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.65633"]
         },
         "x65710": {
-            "level": 7,
             "name_en": "No Quarter Given",
             "name_fr": "Voler dans les plumes des Ixali",
+            "level": 7,
             "npc_en": "Guithrit",
             "npc_fr": "Guithrit",
-            "cPrev": ["q.65707"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65707"]
         },
         "x65633": {
-            "level": 8,
             "name_en": "Harriers of the Hedgetree",
             "name_fr": "Patrouille à l'orée du bois",
+            "level": 8,
             "npc_en": "Eadbert",
             "npc_fr": "Eadbert",
+            "patch": "2.0",
             "cPrev": ["q.65631"],
-            "cNext": ["q.65635"],
-            "patch": "4.31"
+            "cNext": ["q.65635"]
         },
         "x65634": {
-            "level": 8,
             "name_en": "Drink Your Beans, Dear",
             "name_fr": "Faut pas gâcher",
+            "level": 8,
             "npc_en": "Dametta",
             "npc_fr": "Dametta",
+            "patch": "2.0",
             "cPrev": ["q.65639"],
-            "cNext": ["q.65635"],
-            "patch": "4.31"
+            "cNext": ["q.65635"]
         },
         "x65635": {
-            "level": 9,
             "name_en": "The Kindness of Strangers",
             "name_fr": "Un admirateur inconnu",
+            "level": 9,
             "npc_en": "Emeria",
             "npc_fr": "Emeria",
-            "cPrev": ["q.65633", "q.65634"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.65633", "q.65634"]
         },
         "x66324": {
-            "level": 28,
             "name_en": "Potable Perils",
             "name_fr": "La clef de ses soucis",
+            "level": 28,
             "npc_en": "Somerhild",
             "npc_fr": "Somerhild",
-            "cNext": ["q.66328"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66328"]
         },
         "x66325": {
-            "level": 28,
             "name_en": "No News Is Good News",
             "name_fr": "Pas de nouvelles, bonnes nouvelles",
+            "level": 28,
             "npc_en": "Godwin",
             "npc_fr": "Godwin",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66326": {
-            "level": 28,
             "name_en": "Save the Trees",
             "name_fr": "Arbres en péril",
+            "level": 28,
             "npc_en": "Oriane",
             "npc_fr": "Oriane",
-            "cNext": ["q.66327"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66327"]
         },
         "x66327": {
-            "level": 28,
             "name_en": "Pumiceous Pursuits",
             "name_fr": "Pierre à son âme",
+            "level": 28,
             "npc_en": "Oriane",
             "npc_fr": "Oriane",
-            "cPrev": ["q.66326"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66326"]
         },
         "x66328": {
-            "level": 28,
             "name_en": "Cleaning House",
             "name_fr": "Par amour de l'art",
+            "level": 28,
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
+            "patch": "2.0",
             "cPrev": ["q.66324"],
-            "cNext": ["q.66329"],
-            "patch": "4.31"
+            "cNext": ["q.66329"]
         },
         "x66329": {
-            "level": 28,
             "name_en": "Trouble on the Road",
             "name_fr": "Un retard inquiétant",
+            "level": 28,
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
+            "patch": "2.0",
             "cPrev": ["q.66328"],
-            "cNext": ["q.66332"],
-            "patch": "4.31"
+            "cNext": ["q.66332"]
         },
         "x66330": {
-            "level": 28,
             "name_en": "A Welcome Overstayed",
             "name_fr": "La fugue de Gogolata",
+            "level": 28,
             "npc_en": "Gogolata",
             "npc_fr": "Gogolata",
-            "cNext": ["q.66331"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66331"]
         },
         "x66331": {
-            "level": 28,
             "name_en": "No Place Like Home",
             "name_fr": "Les aveux de Gogolata",
+            "level": 28,
             "npc_en": "Gogolata",
             "npc_fr": "Gogolata",
-            "cPrev": ["q.66330"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66330"]
         },
         "x66332": {
-            "level": 28,
             "name_en": "Meals for Miners",
             "name_fr": "Le repas des prospecteurs",
+            "level": 28,
             "npc_en": "Aeluuin",
             "npc_fr": "Aeluuin",
-            "cPrev": ["q.66329"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66329"]
         },
         "x66333": {
-            "level": 28,
             "name_en": "Digging in the Dark",
             "name_fr": "Et la lumière fut",
+            "level": 28,
             "npc_en": "Ademar",
             "npc_fr": "Ademar",
-            "cNext": ["q.66334"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cNext": ["q.66334"]
         },
         "x66334": {
-            "level": 28,
             "name_en": "A Leg Up",
             "name_fr": "Courtes échelles",
+            "level": 28,
             "npc_en": "Ademar",
             "npc_fr": "Ademar",
-            "cPrev": ["q.66333"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66333"]
         },
         "x66421": {
-            "level": 36,
             "name_en": "Hunger Is the Best Sauce",
             "name_fr": "Ça jette un froid",
+            "level": 36,
             "npc_en": "Idristan",
             "npc_fr": "Idristan",
-            "patch": "4.31"
+            "patch": "2.0"
         },
         "x66442": {
-            "level": 37,
             "name_en": "Tit for Tat",
             "name_fr": "La chasse aux volatiles",
+            "level": 37,
             "npc_en": "Isaudorel",
             "npc_fr": "Isaudorel",
+            "patch": "2.0",
             "cPrev": ["q.66441"],
-            "cNext": ["q.66443"],
-            "patch": "4.31"
+            "cNext": ["q.66443"]
         },
         "x66443": {
-            "level": 37,
             "name_en": "Inquire at the Spire",
             "name_fr": "Une haine viscérale",
+            "level": 37,
             "npc_en": "Ireine",
             "npc_fr": "Ireine",
+            "patch": "2.0",
             "cPrev": ["q.66442"],
-            "cNext": ["q.66444"],
-            "patch": "4.31"
+            "cNext": ["q.66444"]
         },
         "x66444": {
-            "level": 37,
             "name_en": "Don't Shut Me Out",
-            "name_fr": "Oh, la belle rouge!",
+            "name_fr": "Oh, la belle rouge !",
+            "level": 37,
             "npc_en": "Miah Molkot",
             "npc_fr": "Miah Molkot",
+            "patch": "2.0",
             "cPrev": ["q.66443"],
-            "cNext": ["q.66445"],
-            "patch": "4.31"
+            "cNext": ["q.66445"]
         },
         "x66445": {
-            "level": 37,
             "name_en": "From Gridania, with Love",
             "name_fr": "Un important message",
+            "level": 37,
             "npc_en": "Miah Molkot",
             "npc_fr": "Miah Molkot",
-            "cPrev": ["q.66444"],
-            "patch": "4.31"
+            "patch": "2.0",
+            "cPrev": ["q.66444"]
         },
         "x66676": {
-            "level": 50,
             "name_en": "One Man's Trash",
             "name_fr": "Une carte au trésor inestimable",
+            "level": 50,
             "npc_en": "Ealdwine",
             "npc_fr": "Ealdwine",
+            "patch": "2.28",
             "cPrev": ["q.66998"],
-            "cNext": ["q.66677", "q.65896"],
-            "patch": "4.31"
+            "cNext": ["q.66677", "q.65896"]
         },
         "x67206": {
-            "level": 50,
             "name_en": "Kettle to the Mettle",
             "name_fr": "La goutte d'eau qui fait déborder la bouilloire",
+            "level": 50,
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
+            "patch": "3.2",
             "cPrev": ["q.67823"],
-            "cSiblings": ["a.1492"],
-            "patch": "4.31"
+            "cSiblings": ["a.1492"]
         }
     }
 }

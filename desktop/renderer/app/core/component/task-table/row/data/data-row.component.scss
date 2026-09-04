@@ -1,0 +1,18 @@
+@use 'sizes';
+
+:host {
+    display: contents;
+
+    .data-row {
+        height: sizes.$table-row-height;
+    }
+
+    // Create the stripe pattern for rows
+    .even-row {
+        background: var(--surface-800);
+    }
+
+    ::ng-deep .table-cell {
+        vertical-align: middle;
+    }
+}

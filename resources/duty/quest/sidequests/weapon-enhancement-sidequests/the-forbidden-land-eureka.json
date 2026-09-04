@@ -4,14 +4,14 @@
     "groupName_fr": "La terre interdite d'Eurêka",
     "tasks": {
         "x68614": {
-            "level": 70,
             "name_en": "And We Shall Call It Eureka",
             "name_fr": "Eurêka, l'île mystérieuse",
+            "level": 70,
             "npc_en": "Galiena",
             "npc_fr": "Galiena",
-            "unlock_en": "Eureka",
-            "cPrev": ["q.68089"],
-            "patch": "4.31"
+            "unlock": "duty.field-operations.eureka",
+            "patch": "4.25",
+            "cPrev": ["q.68089"]
         }
     }
 }

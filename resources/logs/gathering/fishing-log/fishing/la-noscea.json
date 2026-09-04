@@ -3,357 +3,401 @@
     "groupName_en": "La Noscea",
     "groupName_fr": "Noscea",
     "tasks": {
-        "x0": {
+        "x36": {
             "name_en": "Limsa Lominsa Upper Decks",
             "name_fr": "Limsa Lominsa - Le Tillac",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x1": {
-            "name_en": "Limsa Lominsa Lower Decks",
-            "name_fr": "Limsa Lominsa - L'Entrepont",
-            "level": "1",
-            "zone": "@PLACE.LIMSA_LOMINSA",
-            "location": "@PLACE.LIMSA_LOMINSA_LOWER_DECKS",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x2": {
-            "name_en": "Zephyr Drift",
-            "name_fr": "Dérive du Zéphyr",
-            "level": "1",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(18, 21)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x3": {
-            "name_en": "Rogue River",
-            "name_fr": "Rivière des requins",
-            "level": "1",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(21, 21)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x4": {
-            "name_en": "West Agelyss River",
-            "name_fr": "Ouest de la rivière d'Agelyss",
-            "level": "1",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(20, 17)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x5": {
-            "name_en": "Summerford",
-            "name_fr": "Vergers d'Estival",
-            "level": "5",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(14, 15)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x6": {
-            "name_en": "Nym River",
-            "name_fr": "Rivière de Nym",
-            "level": "5",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(17, 14)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x7": {
-            "name_en": "Woad Whisper Canyon",
-            "name_fr": "Canyon des Chuchotements",
-            "level": "15",
-            "zone": "@PLACE.MIDDLE_LA_NOSCEA",
-            "location": "(21, 12)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x8": {
-            "name_en": "The Mourning Widow",
-            "name_fr": "La Veuve éplorée",
-            "level": "1",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(24, 23)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x9": {
-            "name_en": "Moraby Bay",
-            "name_fr": "Baie de Moraby",
-            "level": "5",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(24, 23)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x10": {
-            "name_en": "Cedarwood",
-            "name_fr": "La Cédrière",
-            "level": "10",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(34, 17)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x11": {
-            "name_en": "Oschon's Torch",
-            "name_fr": "Torche d'Oschon",
-            "level": "10",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(24, 39)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x12": {
-            "name_en": "Candlekeep Quay",
-            "name_fr": "Quai de la Torche",
-            "level": "10",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(20, 38)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x13": {
-            "name_en": "Moraby Drydocks",
-            "name_fr": "Atolls de sel",
-            "level": "15",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(26, 34)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x14": {
-            "name_en": "Empty Heart",
-            "name_fr": "Cœur-Vide",
-            "level": "15",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(21, 34)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x15": {
-            "name_en": "The Salt Strand",
-            "name_fr": "Atolls de sel",
-            "level": "20",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(17, 36)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x16": {
-            "name_en": "Blind Iron Mines",
-            "name_fr": "Mines du Fer aveugle",
-            "level": "20",
-            "zone": "@PLACE.LOWER_LA_NOSCEA",
-            "location": "(27, 15)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x17": {
-            "name_en": "South Bloodshore",
-            "name_fr": "Sud des Rives sanglantes",
-            "level": "25",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(32, 34)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x18": {
-            "name_en": "Costa del Sol",
-            "name_fr": "Costa del Sol",
-            "level": "30",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(35, 29)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x19": {
-            "name_en": "North Bloodshore",
-            "name_fr": "Nord des Rives sanglantes",
-            "level": "35",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(32, 24)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x20": {
-            "name_en": "Rhotano Sea (Privateer Forecastle)",
-            "name_fr": "Mer de Rhotano (proue)",
-            "level": "50",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(39, 24)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x21": {
-            "name_en": "Rhotano Sea (Privateer Sterncastle)",
-            "name_fr": "Mer de Rhotano (poupe)",
-            "level": "50",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(38, 24)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x22": {
-            "name_en": "Hidden Falls",
-            "name_fr": "Chute chachée",
-            "level": "35",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(30, 23)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x23": {
-            "name_en": "East Agelyss River",
-            "name_fr": "Est de la rivière d'Agelyss",
-            "level": "40",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(22, 25)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x24": {
-            "name_en": "Raincatcher Gully",
-            "name_fr": "Ravine des Cueillepluies",
-            "level": "40",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(20, 30)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x25": {
-            "name_en": "The Juggernaut",
-            "name_fr": "Le Juggernaut",
-            "level": "40",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(17, 32)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x26": {
-            "name_en": "Red Mantis Falls",
-            "name_fr": "Cascade des Mantes rouges",
-            "level": "45",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(15, 27)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x27": {
-            "name_en": "North Isle of Endless Summer",
-            "name_fr": "Île de l'Éternel été (nord)",
-            "level": "50",
-            "zone": "@PLACE.EASTERN_LA_NOSCEA",
-            "location": "(36, 26)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x28": {
-            "name_en": "Swiftperch",
-            "name_fr": "Le Martinet",
-            "level": "10",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(34, 32)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x29": {
-            "name_en": "Skull Valley",
-            "name_fr": "Vallée du Crâne",
-            "level": "15",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(25, 27)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x30": {
-            "name_en": "The Brewer's Beacon",
-            "name_fr": "Phare des Brasseurs",
-            "level": "15",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(30, 30)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x31": {
-            "name_en": "Halfstone",
-            "name_fr": "Demipierre",
-            "level": "35",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(17, 20)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x32": {
-            "name_en": "Isles of Umbra Northshore",
-            "name_fr": "Côte nord des Îles d'Ombra",
-            "level": "40",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(15, 29)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x33": {
-            "name_en": "The Ship Graveyard",
-            "name_fr": "Cimetière de bateaux",
-            "level": "45",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(15, 35)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x34": {
-            "name_en": "Sapsa Spawning Grounds",
-            "name_fr": "Frai de Sapsa",
-            "level": "45",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(17, 15)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "level": 1,
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "@PLACE.ARR.LIMSA_LOMINSA_UPPER_DECKS",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
         "x35": {
-            "name_en": "Isles of Umbra Southshore",
-            "name_fr": "Côte sud des Îles d'Ombra",
-            "level": "50",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(12, 36)",
-            "type": "@FISH.TYPE.SALTWATER"
-        },
-        "x36": {
-            "name_en": "Reaver Hide",
-            "name_fr": "Wharf des pillards",
-            "level": "50",
-            "zone": "@PLACE.WESTERN_LA_NOSCEA",
-            "location": "(14, 12)",
-            "type": "@FISH.TYPE.SALTWATER"
+            "name_en": "Limsa Lominsa Lower Decks",
+            "name_fr": "Limsa Lominsa - L'Entrepont",
+            "level": 1,
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_LOWER_DECKS",
+            "location": "@PLACE.ARR.LIMSA_LOMINSA_LOWER_DECKS",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
         "x37": {
-            "name_en": "Oakwood",
-            "name_fr": "La Chênaie",
-            "level": "20",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(13, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
-        },
-        "x38": {
-            "name_en": "Fool Falls",
-            "name_fr": "Cascades des Idiots",
-            "level": "20",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(9, 20)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "name_en": "Zephyr Drift",
+            "name_fr": "Dérive du Zéphyr",
+            "level": 1,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(18, 21)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
         "x39": {
-            "name_en": "Bronze Lake Shallows",
-            "name_fr": "Bas-fonds du lac d'Airain",
-            "level": "30",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(33, 24)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "name_en": "Rogue River",
+            "name_fr": "Rivière des requins",
+            "level": 1,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(21, 21)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
         "x40": {
-            "name_en": "Northeast Bronze Lake",
-            "name_fr": "Nord-est du lac d'Airain",
-            "level": "35",
-            "zone": "@PLACE.UPPER_LA_NOSCEA",
-            "location": "(27, 22)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "name_en": "West Agelyss River",
+            "name_fr": "Ouest de la rivière d'Agelyss",
+            "level": 1,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(20, 17)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x38": {
+            "name_en": "Summerford",
+            "name_fr": "Vergers d'Estival",
+            "level": 5,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(14, 15)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
         },
         "x41": {
-            "name_en": "The Long Climb",
-            "name_fr": "L'Ascension",
-            "level": "40",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(15, 11)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "name_en": "Nym River",
+            "name_fr": "Rivière de Nym",
+            "level": 5,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(17, 14)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
         "x42": {
-            "name_en": "Northwest Bronze Lake",
-            "name_fr": "Nord-ouest du lac d'Airain",
-            "level": "35",
-            "zone": "@PLACE.OUTER_LA_NOSCEA",
-            "location": "(19, 18)",
-            "type": "@FISH.TYPE.FRESHWATER"
+            "name_en": "Woad Whisper Canyon",
+            "name_fr": "Canyon des Chuchotements",
+            "level": 15,
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "location": "(21, 12)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
         },
         "x43": {
+            "name_en": "The Mourning Widow",
+            "name_fr": "La Veuve éplorée",
+            "level": 1,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(24, 23)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x44": {
+            "name_en": "Moraby Bay",
+            "name_fr": "Baie de Moraby",
+            "level": 5,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(24, 23)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x45": {
+            "name_en": "Cedarwood",
+            "name_fr": "La Cédrière",
+            "level": 10,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(34, 17)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x47": {
+            "name_en": "Oschon's Torch",
+            "name_fr": "Torche d'Oschon",
+            "level": 10,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(24, 39)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x49": {
+            "name_en": "Candlekeep Quay",
+            "name_fr": "Quai de la Torche",
+            "level": 10,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(20, 38)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x46": {
+            "name_en": "Moraby Drydocks",
+            "name_fr": "Chantier naval de Moraby",
+            "level": 15,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(26, 34)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x50": {
+            "name_en": "Empty Heart",
+            "name_fr": "Cœur-Vide",
+            "level": 15,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(21, 34)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x48": {
+            "name_en": "The Salt Strand",
+            "name_fr": "Atolls de sel",
+            "level": 20,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(17, 36)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x97": {
+            "name_en": "Blind Iron Mines",
+            "name_fr": "Mines du Fer aveugle",
+            "level": 20,
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "location": "(27, 15)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x51": {
+            "name_en": "South Bloodshore",
+            "name_fr": "Sud des Rives sanglantes",
+            "level": 25,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(32, 34)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x52": {
+            "name_en": "Costa del Sol",
+            "name_fr": "Costa del Sol",
+            "level": 30,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(35, 29)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x53": {
+            "name_en": "North Bloodshore",
+            "name_fr": "Nord des Rives sanglantes",
+            "level": 35,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(32, 24)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x107": {
+            "name_en": "Rhotano Sea (Privateer Forecastle)",
+            "name_fr": "Mer de Rhotano (proue)",
+            "level": 50,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(39, 24)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x108": {
+            "name_en": "Rhotano Sea (Privateer Sterncastle)",
+            "name_fr": "Mer de Rhotano (poupe)",
+            "level": 50,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(38, 24)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x54": {
+            "name_en": "Hidden Falls",
+            "name_fr": "Chute cachée",
+            "level": 35,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(30, 23)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x55": {
+            "name_en": "East Agelyss River",
+            "name_fr": "Est de la rivière d'Agelyss",
+            "level": 40,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(22, 25)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x56": {
+            "name_en": "Raincatcher Gully",
+            "name_fr": "Ravine des Cueillepluies",
+            "level": 40,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(20, 30)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x57": {
+            "name_en": "The Juggernaut",
+            "name_fr": "Le Juggernaut",
+            "level": 40,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(17, 32)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x58": {
+            "name_en": "Red Mantis Falls",
+            "name_fr": "Cascade des Mantes rouges",
+            "level": 45,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(15, 27)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x156": {
+            "name_en": "North Isle of Endless Summer",
+            "name_fr": "Île de l'Éternel été (nord)",
+            "level": 50,
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "location": "(36, 26)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x59": {
+            "name_en": "Swiftperch",
+            "name_fr": "Le Martinet",
+            "level": 10,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(34, 32)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x60": {
+            "name_en": "Skull Valley",
+            "name_fr": "Vallée du Crâne",
+            "level": 15,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(25, 27)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x64": {
+            "name_en": "The Brewer's Beacon",
+            "name_fr": "Phare des Brasseurs",
+            "level": 15,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(30, 30)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x61": {
+            "name_en": "Halfstone",
+            "name_fr": "Demipierre",
+            "level": 35,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(17, 20)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x62": {
+            "name_en": "Isles of Umbra Northshore",
+            "name_fr": "Côte nord des îles d'Ombra",
+            "level": 40,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(15, 29)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x65": {
+            "name_en": "The Ship Graveyard",
+            "name_fr": "Cimetière de bateaux",
+            "level": 45,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(15, 35)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x101": {
+            "name_en": "Sapsa Spawning Grounds",
+            "name_fr": "Frai de Sapsa",
+            "level": 45,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(17, 15)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x63": {
+            "name_en": "Isles of Umbra Southshore",
+            "name_fr": "Côte sud des îles d'Ombra",
+            "level": 50,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(12, 36)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x102": {
+            "name_en": "Reaver Hide",
+            "name_fr": "Wharf des pillards",
+            "level": 50,
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "location": "(14, 12)",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.0"
+        },
+        "x66": {
+            "name_en": "Oakwood",
+            "name_fr": "La Chênaie",
+            "level": 20,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(13, 24)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x67": {
+            "name_en": "Fool Falls",
+            "name_fr": "Cascades des Idiots",
+            "level": 20,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(9, 20)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x98": {
+            "name_en": "Bronze Lake Shallows",
+            "name_fr": "Bas-fonds du lac d'Airain",
+            "level": 30,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(33, 24)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x68": {
+            "name_en": "Northeast Bronze Lake",
+            "name_fr": "Nord-est du lac d'Airain",
+            "level": 35,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(27, 22)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x99": {
+            "name_en": "The Long Climb",
+            "name_fr": "L'Ascension",
+            "level": 40,
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(15, 11)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x155": {
+            "name_en": "Northwest Bronze Lake",
+            "name_fr": "Nord-ouest du lac d'Airain",
+            "level": 35,
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "location": "(19, 18)",
+            "type": "@FISH.TYPE.FRESHWATER",
+            "patch": "2.0"
+        },
+        "x104": {
             "name_en": "Mist",
             "name_fr": "Brumée",
-            "level": "30",
-            "zone": "@PLACE.MIST",
-            "location": "@PLACE.MIST",
-            "type": "@FISH.TYPE.SALTWATER"
+            "level": 30,
+            "zone": "@PLACE.ARR.MIST",
+            "location": "@PLACE.ARR.MIST",
+            "type": "@FISH.TYPE.SALTWATER",
+            "patch": "2.1"
         }
     }
 }

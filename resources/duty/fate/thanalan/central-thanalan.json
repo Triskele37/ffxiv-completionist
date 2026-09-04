@@ -1,110 +1,110 @@
 {
     "key": "central-thanalan",
-    "groupName": "@PLACE.CENTRAL_THANALAN",
+    "groupName": "@PLACE.ARR.CENTRAL_THANALAN",
     "tasks": {
         "x370": {
-            "level": 5,
             "name_en": "Something to Prove",
             "name_fr": "Défi : quelque chose à prouver",
+            "level": 5,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(21, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x373": {
-            "level": 5,
             "name_en": "Like an Eft out of Water",
             "name_fr": "Comme un triton hors de l'eau",
+            "level": 5,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(21, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x378": {
-            "level": 5,
             "name_en": "Let them Eat Cactus",
             "name_fr": "Salade de cactuars",
+            "level": 5,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(23, 16)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x375": {
-            "level": 6,
             "name_en": "Survivor Rats",
             "name_fr": "Des rats bien téméraires",
+            "level": 6,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(18, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x374": {
-            "level": 7,
             "name_en": "Wrecked Rats",
             "name_fr": "Ivres comme des rats",
+            "level": 7,
+            "type": "@FATE.TYPE.DEFENSE",
             "location": "(19, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "patch": "2.0"
         },
         "x383": {
-            "level": 7,
             "name_en": "Big Time",
             "name_fr": "Massacre de volatiles",
+            "level": 7,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(15, 22)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x389": {
-            "level": 7,
             "name_en": "A Warm Welcome",
             "name_fr": "Défi : un accueil brûlant",
+            "level": 7,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(18, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x376": {
-            "level": 9,
             "name_en": "Cracked",
             "name_fr": "Défi : fêlure",
+            "level": 9,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x379": {
-            "level": 9,
             "name_en": "For the Queen",
             "name_fr": "Pour la reine",
+            "level": 9,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(19, 15)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x381": {
-            "level": 11,
             "name_en": "A Few Arrows Short of a Quiver",
             "name_fr": "Le manoir aux voleurs",
+            "level": 11,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
             "location": "(23, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "patch": "2.0"
         },
         "x393": {
-            "level": 12,
             "name_en": "Leaving the Nest",
             "name_fr": "Défi : sortie du nid",
+            "level": 12,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(17, 15)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         },
         "x377": {
-            "level": 14,
             "name_en": "Orobon Part Two: The Spawning",
             "name_fr": "Animé par la vengeance",
+            "level": 14,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
             "location": "(29, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "patch": "2.0"
         },
         "x385": {
-            "level": 14,
             "name_en": "Cold-blooded",
             "name_fr": "Défi : cruelle créature",
+            "level": 14,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
             "location": "(28, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "patch": "2.0"
         }
     }
 }

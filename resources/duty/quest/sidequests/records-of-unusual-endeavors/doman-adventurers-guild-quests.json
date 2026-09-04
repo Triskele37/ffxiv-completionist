@@ -4,33 +4,33 @@
     "groupName_fr": "Clan des aventuriers de Doma",
     "tasks": {
         "x65581": {
-            "level": 54,
             "name_en": "Toll Booty",
             "name_fr": "Les trésors du camp dévasté",
+            "level": 54,
             "npc_en": "Rhesh Polaali",
             "npc_fr": "Rhesh Polaali",
+            "patch": "3.0",
             "cPrev": ["q.67168"],
-            "cNext": ["q.65586"],
-            "patch": "4.31"
+            "cNext": ["q.65586"]
         },
         "x65586": {
-            "level": 54,
             "name_en": "Li'l Rascals",
             "name_fr": "Des suspects trop parfaits",
+            "level": 54,
             "npc_en": "Yozan",
             "npc_fr": "Yozan",
+            "patch": "3.0",
             "cPrev": ["q.67168", "q.65581"],
-            "cNext": ["q.65636"],
-            "patch": "4.31"
+            "cNext": ["q.65636"]
         },
         "x65636": {
-            "level": 54,
             "name_en": "Short Arms of the Law",
             "name_fr": "À malin, malin et demi",
+            "level": 54,
             "npc_en": "Yozan",
             "npc_fr": "Yozan",
-            "cPrev": ["q.67168", "q.65586"],
-            "patch": "4.31"
+            "patch": "3.0",
+            "cPrev": ["q.67168", "q.65586"]
         }
     }
 }

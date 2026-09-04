@@ -1,0 +1,28 @@
+{
+    "key": "notorious-monsters",
+    "groupName_en": "Notorious Monsters",
+    "groupName_fr": "Monstres Célèbres",
+    "order": ["anemos", "pagos", "pyros", "hydatos"],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.FATE"
+        },
+        "notoriousMonster": {
+            "header_en": "Notorious Monster",
+            "header_fr": "Monstre Célèbre"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION"
+        },
+        "reward": {
+            "header": "@HEADER.REWARD",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}
