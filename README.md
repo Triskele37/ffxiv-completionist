@@ -15,9 +15,17 @@ Use `ipcRenderer` actions to delegate any file system or remote logic to the mai
 
 ## Branch Strategy
 `master` - Currently released version  
-`development` - Working branch for upcoming release
+`development` - Working branch for current release
+`release-x-y-z` - Working branch for upcoming release
 
 Tag `master` each release for historical reference
+
+## Workspaces
+desktop - named workspace for main app
+translate - named workspace for translation helper app
+
+Commands can be run from root using `npm run <command> -w <workspace>`  
+Commands can also be run directly from workspace roots without `-w`  
 
 ## Commands
 `npm run start` - Main development command

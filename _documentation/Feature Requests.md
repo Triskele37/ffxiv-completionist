@@ -11,7 +11,6 @@
     * Types: Patch, Status, Class/Job/s, Zone
 * Data
   * 70 DoW/DoM quest chain to Antiquated relics
-  * Chain duties to quest completion where applicable
   * Chain confirmation over a configurable count
     * Requires simulation of chaining
   * Chain ocean fish to achievements?

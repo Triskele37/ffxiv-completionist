@@ -7,9 +7,9 @@ node_modules
 # Compiled output.
 /app-builds
 /build
-main.js
-src/**/*.js
 /tmp
+main.js
+**/main/**/*.js
 *.js.map
 
 resources/data.json
