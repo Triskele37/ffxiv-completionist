@@ -1,3 +1,5 @@
+export type ConfigLoad = { data: ConfigObj; successful: boolean; };
+
 export type ConfigObj = {
     'store-name': string;
     'store-loc': string;
@@ -15,7 +17,7 @@ export type ConfigObj = {
     isAdmin?: boolean;
 };
 
-type TableFilterConfig = {
+export type TableFilterConfig = {
     completed: boolean;
     incomplete: boolean;
     excluded: boolean;
@@ -29,7 +31,7 @@ export type WindowConfig = {
     max?: boolean;
 };
 
-type ThemeConfig = {
+export type ThemeConfig = {
     'primary-color': string;
     'primary-text': string;
     'background': string;

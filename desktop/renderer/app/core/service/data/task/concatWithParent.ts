@@ -1,7 +1,7 @@
+import type { KeysOfType } from '@common/typeUtils';
 import type { Links } from '@model/Chain/ChainLink';
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
-import type { KeysOfType } from '@model/typeUtils';
 
 import type { DataServiceContext } from '../types';
 

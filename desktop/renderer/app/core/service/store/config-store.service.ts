@@ -3,8 +3,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import { ElectronService } from '@service/electron/electron.service';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 import type { ConfigStore } from './Store.d';
 import { Store } from './Store';

@@ -1,10 +1,10 @@
-import { app, BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
+import { app, BrowserWindow, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 import { pathToFileURL } from 'url';
 
+import { WindowConfig } from '../../../common/Config';
 import { ConfigStore } from './ConfigStore';
-import { WindowConfig } from './ConfigObj';
 
 /**
  * Debug Flag
@@ -43,7 +43,7 @@ export class WindowStore {
         });
     }
 
-    static showMainWindow(event: IpcMainEvent): void {
+    static showMainWindow(): void {
         if(!WindowStore.main) return;
 
         WindowStore.splash?.destroy();
@@ -52,8 +52,6 @@ export class WindowStore {
         WindowStore.main.show();
 
         if(WindowStore.maxOnShow) WindowStore.main.maximize();
-
-        event.returnValue = null;
     }
 
     //#region------------------------------------------------------- Splash Window

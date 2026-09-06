@@ -1,10 +1,9 @@
-import { app, dialog, IpcMainEvent, shell } from 'electron';
+import { app, dialog, shell } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 
+import { PlayerSave, SaveLoad } from '../../../common/PlayerSave';
 import { ConfigStore } from './ConfigStore';
-
-type PlayerSave = Record<string, any>;
 
 export class PlayerStore {
     static path: string;
@@ -24,7 +23,7 @@ export class PlayerStore {
         };
     }
 
-    static load(): { data: any, successful: boolean } {
+    static load(): SaveLoad {
         if(!ConfigStore.store) return { data: {}, successful: false };
 
         const base = ConfigStore.store['store-loc'] || app.getPath('userData');
@@ -81,30 +80,25 @@ export class PlayerStore {
     //#endregion
 
     //#region------------------------------------------------------- App Methods
-    static get(event: IpcMainEvent) {
+    static get(): SaveLoad {
         if(!ConfigStore.store) ConfigStore.load();
-        event.returnValue = PlayerStore.load();
+        return PlayerStore.load();
     }
 
-    static set(event: IpcMainEvent, newSave: PlayerSave) {
+    static set(newSave: PlayerSave): void {
         PlayerStore.store = newSave;
         PlayerStore.save();
-        event.returnValue = null;
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Backup Utils
-    static open(event: IpcMainEvent) {
+    static open() {
         if(ConfigStore.store) shell.openPath(ConfigStore.store['store-loc']);
-        event.returnValue = null;
     }
 
-    static backup(event: IpcMainEvent) {
-        if(!ConfigStore.store) {
-            event.returnValue = null;
-            return;
-        }
+    static backup(): void {
+        if(!ConfigStore.store) return;
 
         const fileName = `${ConfigStore.store['store-name']}-${PlayerStore.store.version}-backup.json`;
         const result = dialog.showSaveDialogSync({
@@ -118,15 +112,10 @@ export class PlayerStore {
                 JSON.stringify(PlayerStore.store, null, 4)
             );
         }
-
-        event.returnValue = null;
     }
 
-    static loadBackup(event: IpcMainEvent) {
-        if(!ConfigStore.store) {
-            event.returnValue = false;
-            return;
-        }
+    static loadBackup(): boolean {
+        if(!ConfigStore.store) return false;
 
         const result = dialog.showOpenDialogSync({
             defaultPath: ConfigStore.store['store-loc'],
@@ -136,15 +125,12 @@ export class PlayerStore {
 
         // Do stuff only if something was selected
         if(result?.[0]) {
-            PlayerStore.set({} as any,
-                JSON.parse(fs.readFileSync(result[0], 'utf8'))
-            );
+            PlayerStore.set(JSON.parse(fs.readFileSync(result[0], 'utf8')));
 
-            event.returnValue = true;
+            return true;
         }
-        else {
-            event.returnValue = false;
-        }
+		
+		return false;
     }
 
     //#endregion

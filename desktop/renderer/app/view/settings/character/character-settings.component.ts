@@ -10,13 +10,13 @@ import { Select } from 'primeng/select';
 import { Tooltip } from 'primeng/tooltip';
 
 import { Completion, Lang } from '@constant';
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import type { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { MarkService } from '@service/mark/mark.service';
 import { ElectronService } from '@service/electron/electron.service';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 import { SettingsService } from "../settings.service";
 

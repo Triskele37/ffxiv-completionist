@@ -1,7 +1,7 @@
 import type { TranslateService } from '@ngx-translate/core';
 import type { MessageService } from 'primeng/api';
 
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
+import { IPC_EVENT } from '@common/IPC_EVENT';
 
 import { getConsoleGamesWikiSearchUrl } from './consolegameswiki';
 import { getTeamCraftGroupUrl } from './ffxivteamcraft';

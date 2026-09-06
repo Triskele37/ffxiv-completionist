@@ -1,5 +1,5 @@
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import { createElectronServiceMock, ElectronService } from '@service/electron/electron.service.mock';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { createMessageServiceMock, MessageService } from '@test/MessageService.mock';
 import { createTranslateMock, TranslateService } from '@test/TranslateService.mock';
 import { Store } from './Store';

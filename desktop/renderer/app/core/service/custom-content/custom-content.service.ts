@@ -4,14 +4,14 @@ import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
-import { DataService } from '@service/data/data-service';
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { DataGroup } from '@model/DataGroup';
 import type { JsonTasks } from '@model/JSONResource';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import { getContentLink } from '@model/Link/getContentLink';
 import type { Task } from '@model/Task';
+import { DataService } from '@service/data/data-service';
 import { ElectronService } from '@service/electron/electron.service';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 import type { CustomGroupMetaMap, CustomTaskMetaMap } from './CustomContentTypes';

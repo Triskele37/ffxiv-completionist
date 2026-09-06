@@ -1,6 +1,6 @@
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 import type { DataServiceContext } from '../types';
 

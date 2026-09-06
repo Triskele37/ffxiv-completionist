@@ -4,6 +4,7 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Toast } from 'primeng/toast';
 
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import { ActiveHelpComponent } from '@component/active-help/active-help.component';
 import { ChainViewerComponent } from '@component/chain-viewer/chain-viewer.component';
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
@@ -13,7 +14,6 @@ import { SearchBarComponent } from '@component/search-bar/search-bar.component';
 import { SummaryHeaderComponent } from '@component/summary-header/summary-header.component';
 import { DataService } from '@service/data/data-service';
 import { ElectronService } from '@service/electron/electron.service';
-import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { SaveStoreService } from '@service/store/save-store.service';

@@ -1,7 +1,9 @@
-import { dialog, IpcMainEvent } from 'electron';
+import { dialog } from 'electron';
 import * as fs from 'fs';
 
-export function importCustom(event: IpcMainEvent) {
+import { CustomMeta } from '../../../common/CustomContent';
+
+export function importCustom(): CustomMeta | false | null {
     const results = dialog.showOpenDialogSync({
         properties: ['openFile'],
         filters: [{ name: 'JSON', extensions: ['json'] }]
@@ -10,18 +12,17 @@ export function importCustom(event: IpcMainEvent) {
     if(results?.[0]) {
         try {
             const json = JSON.parse(fs.readFileSync(results[0], 'utf8'));
-            event.returnValue = isValidMeta(json) ? json : false;
-            return;
+            return isValidMeta(json) ? json : false;
         }
         catch(e) {
             console.error('Unable to parse imported custom group', e);
         }
     }
 
-    event.returnValue = null;
+    return null;
 }
 
-function isValidMeta(importedMeta: any): boolean {
+function isValidMeta(importedMeta: CustomMeta): boolean {
     if(!importedMeta) return false;
     if(typeof importedMeta !== 'object') return false;
     if(!importedMeta.name) return false;
@@ -50,7 +51,7 @@ function isValidMeta(importedMeta: any): boolean {
     return true;
 }
 
-export function exportCustom(event: IpcMainEvent, customGroupMeta: any) {
+export function exportCustom(customGroupMeta: CustomMeta): void {
     const fileName = `${customGroupMeta.name}.json`;
 
     const result = dialog.showSaveDialogSync({
@@ -61,6 +62,4 @@ export function exportCustom(event: IpcMainEvent, customGroupMeta: any) {
     if(result) {
         fs.writeFileSync(result, JSON.stringify(customGroupMeta, null, 4));
     }
-
-    event.returnValue = 'test';
 }

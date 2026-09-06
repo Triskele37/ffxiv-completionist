@@ -1,9 +1,9 @@
-import { app, dialog, IpcMainEvent, shell } from 'electron';
+import { app, dialog, shell } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 
+import { ConfigLoad, ConfigObj } from '../../../common/Config';
 import { PlayerStore } from './PlayerStore';
-import { ConfigObj } from './ConfigObj';
 
 //TODO: util
 const isObj = (v: any) => !!v && typeof v === 'object' && !Array.isArray(v);
@@ -54,7 +54,7 @@ export class ConfigStore {
         };
     }
 
-    static load(): { data: any, successful: boolean } {
+    static load(): ConfigLoad {
         // Determine config file name (protects devs from nuking their config)
         const configName = ConfigStore.isServe ? 'config-dev.json' : 'config.json';
         ConfigStore.path = path.join(app.getPath('userData'), configName);
@@ -156,22 +156,20 @@ export class ConfigStore {
     //#endregion
 
     //#region------------------------------------------------------- App Methods
-    static get(event: IpcMainEvent): void {
-        event.returnValue = ConfigStore.load();
+    static get(): ConfigLoad {
+        return ConfigStore.load();
     }
 
-    static set(event: IpcMainEvent, config: ConfigObj): void {
+    static set(config: ConfigObj): void {
         ConfigStore.store = config;
         ConfigStore.save();
-
-        event.returnValue = null;
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Save Changes
-    static newSave(event: IpcMainEvent): void {
-        if(!ConfigStore.store) return;
+    static newSave(): boolean {
+        if(!ConfigStore.store) return false;
 
         const result = dialog.showSaveDialogSync({
             defaultPath: path.join(ConfigStore.store['store-loc'], 'completion.json'),
@@ -181,11 +179,11 @@ export class ConfigStore {
         // Do stuff only if something was selected
         if(result) ConfigStore.updateStoreLocation(result);
 
-        event.returnValue = !!result;
+        return !!result;
     }
 
-    static loadSave(event: IpcMainEvent) {
-        if(!ConfigStore.store) return;
+    static loadSave(): boolean {
+        if(!ConfigStore.store) return false;
 
         const result = dialog.showOpenDialogSync({
             defaultPath: ConfigStore.store['store-loc'],
@@ -196,7 +194,7 @@ export class ConfigStore {
         // Do stuff only if something was selected
         if(result) ConfigStore.updateStoreLocation(result[0]);
 
-        event.returnValue = !!result;
+        return !!result;
     }
 
     private static updateStoreLocation(result: string) {
@@ -214,12 +212,11 @@ export class ConfigStore {
     //#endregion
 
     //#region------------------------------------------------------- Backup Utils
-    static open(event: IpcMainEvent): void {
+    static open(): void {
         shell.openPath(app.getPath('userData'));
-        event.returnValue = null;
     }
 
-    static backup(event: IpcMainEvent): void {
+    static backup(): void {
         const fileName = `config-${PlayerStore.store.version}-backup.json`;
         const result = dialog.showSaveDialogSync({
             defaultPath: path.join(app.getPath('userData'), fileName),
@@ -232,11 +229,9 @@ export class ConfigStore {
                 JSON.stringify(ConfigStore.store, null, 4)
             );
         }
-
-        event.returnValue = null;
     }
 
-    static loadBackup(event: IpcMainEvent): void {
+    static loadBackup(): boolean {
         const result = dialog.showOpenDialogSync({
             defaultPath: app.getPath('userData'),
             properties: ['openFile'],
@@ -252,15 +247,11 @@ export class ConfigStore {
 
             if(successful) {
                 ConfigStore.save();
-                event.returnValue = true;
-            }
-            else {
-                event.returnValue = false;
+                return true;
             }
         }
-        else {
-            event.returnValue = false;
-        }
+		
+		return false;
     }
 
     //#endregion

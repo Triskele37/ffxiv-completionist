@@ -3,6 +3,7 @@
     "compilerOptions": {
         "outDir": "../out-tsc/app",
         "paths": {
+			"@common/*": ["../common/*"],
             "@admin/*": ["./app/admin/*"],
             "@constant": ["./app/constant"],
             "@constant/*": ["./app/constant/*"],

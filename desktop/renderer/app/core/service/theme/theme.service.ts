@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HSBColor, HSLColor, RGBColor } from 'primeng/inputcolor';
 
-import type { KeysOfType } from '@model/typeUtils';
+import type { KeysOfType } from '@common/typeUtils';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 type RGBKeys = KeysOfType<ThemeService, RGBColor>;

@@ -1,10 +1,9 @@
-import { IpcMainEvent } from 'electron';
-
+import { JsonCache } from '../../../common/JsonCache';
 import { JSON_CACHE } from './preloadJson';
 
 /**
  * Simple handoff of cached data to renderer
  */
-export function getData(event: IpcMainEvent): void {
-    event.returnValue = JSON_CACHE;
+export function getData(): JsonCache {
+    return JSON_CACHE;
 }

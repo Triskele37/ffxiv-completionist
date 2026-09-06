@@ -6,9 +6,8 @@ import { AsyncSubject } from 'rxjs';
 // Relying on tree-shaking to not actually include this import
 import type { ipcRenderer } from 'electron';
 
+import { IPC_EVENT } from '@common/IPC_EVENT';
 import { copyLinkShim } from '@model/External/copyLinkShim';
-
-import { IPC_EVENT } from './IPC_EVENT';
 
 const SHIM_EVENTS: IPC_EVENT[] = [
     IPC_EVENT.SEARCH_CONSOLE_GAMES,
