@@ -1,7 +1,7 @@
 import { app } from 'electron';
 
 import { GlobalStore } from '../globalStore';
-import { focusMainWindow } from '../window';
+import { focusMainWindow, initializeWindows } from '../window';
 import { createWindow } from './createWindow';
 import { initializeMemoryLogger } from './initializeMemoryLogger';
 import { setupCsp } from './setupCsp';
@@ -14,7 +14,9 @@ export function initEvents() {
         setupCsp();
 
         // Timeout to work around https://github.com/electron/electron/issues/15947
-        setTimeout(createWindow, 400)
+        setTimeout(() => {
+            void createWindow().catch(console.error);
+        }, 400)
     });
 
     // Re-focus main window if user attempted to open a 2nd instance of the app
@@ -35,7 +37,7 @@ export function initEvents() {
         // On OS X it's common to re-create a window in the app when the
         // dock icon is clicked and there are no other windows open
         if(GlobalStore.mainWindow === null) {
-            createWindow();
+            initializeWindows();
         }
     });
 }

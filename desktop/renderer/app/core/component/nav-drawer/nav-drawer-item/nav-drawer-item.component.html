@@ -10,9 +10,13 @@
         @if(!isRoot) {
             <div
                 class="drawer-item-button"
+                [pTooltip]="group.contentLink"
                 (click)="handleClick()"
             >
-                <div class="left-content">
+                <div
+                    class="left-content"
+                    [attr.data-active-help]="activeHelp"
+                >
                     @if(group.subGroups?.size) {
                         <div class="button-arrow">
                             @if(isExpanded()) {
@@ -30,8 +34,6 @@
                             selected: isSelected(),
                             'with-icon': isComplete || isEmpty
                         }"
-                        [attr.data-active-help]="activeHelp"
-                        [pTooltip]="group.contentLink"
                     >
                         {{group.name}}
                     </span>
