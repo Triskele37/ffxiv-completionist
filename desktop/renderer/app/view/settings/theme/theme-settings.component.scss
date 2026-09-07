@@ -84,8 +84,7 @@
             .i-incomplete, .i-complete, .i-exclude {
                 pointer-events: none;
                 position: absolute;
-                filter: invert(50%);
-                text-shadow: white 0 0 2px;
+                filter: invert(50%) drop-shadow(0 0 2px white);
                 z-index: 1;
                 top: 6px;
                 left: 14px;

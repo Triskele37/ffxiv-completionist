@@ -1,5 +1,6 @@
 import type { AfterViewInit, OnInit } from '@angular/core';
 import { Component, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Toast } from 'primeng/toast';
@@ -26,6 +27,7 @@ import { ThemeService } from '@service/theme/theme.service';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     imports: [
+        NgIcon,
         ButtonDirective,
         Toast,
         TranslatePipe,

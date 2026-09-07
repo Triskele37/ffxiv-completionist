@@ -51,11 +51,16 @@
     --surface-800: hsl(var(--bg-hsl) + 6%);
     --surface-900: hsl(var(--bg-hsl) + 8%);
 
+    // Icon
+    --icon-size: calc(var(--font-size) * 1.5);
+    --icon-size-small: var(--font-size);
+    --ng-icon__size: var(--icon-size);
+    --ng-icon__color: var(--primary-color-text);
+
     // Spacing
     --content-padding: calc(var(--font-size) * 0.5); // $panelContentPadding
     --inline-spacing: 0.5rem;
     --border-radius: 4px;
-    --icon-size: 16px;
 
     // Other
     --focus-shadow: 0 0 0 1px var(--primary-color-light);

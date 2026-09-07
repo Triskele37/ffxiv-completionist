@@ -3,7 +3,7 @@
     pButton
     (click)="op.toggle($event)"
 >
-    <span class="mi mi-history"></span>
+    <ng-icon name="matHistory"></ng-icon>
 </button>
 
 <p-popover #op>
@@ -20,7 +20,7 @@
             [life]="2000"
             (click)="clearHistory()"
         >
-            <span class="mi mi-close"></span>
+            <ng-icon name="matClose"></ng-icon>
         </button>
     </div>
 
@@ -42,7 +42,7 @@
                     tooltipPosition="left"
                     (click)="removeHistory(group)"
                 >
-                    <span class="mi mi-close"></span>
+                    <ng-icon name="matClose"></ng-icon>
                 </button>
 
                 <button

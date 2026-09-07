@@ -75,7 +75,7 @@
                         tooltipPosition="top"
                         (click)="onOpenChainViewer(issue.task)"
                     >
-                        <i class="mi mi-remove-red-eye"></i>
+                        <ng-icon name="matRemoveRedEye"></ng-icon>
                         {{issue.description | translate: { threshold: issue.taskThreshold || issue.chainThreshold } }}
                     </button>
                 </td>

@@ -1,5 +1,6 @@
 import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, EventEmitter, Input, Output, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 
@@ -11,8 +12,9 @@ import { BookmarkService } from '@service/bookmark/bookmark.service';
     templateUrl: './bookmark-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
-        Tooltip,
-        TranslatePipe
+        TranslatePipe,
+        NgIcon,
+        Tooltip
     ],
 })
 export class BookmarkActionComponent implements OnChanges {

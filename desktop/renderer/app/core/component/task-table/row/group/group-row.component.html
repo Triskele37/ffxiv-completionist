@@ -27,8 +27,12 @@
 </tr>
 
 <ng-template #collapseButton>
-    @let icon = expanded ? 'pi-chevron-down' : 'pi-chevron-right';
     <button pButton class="p-button-rounded p-button-text">
-        <span class="pi {{icon}}"></span>
+        @if(expanded) {
+            <ng-icon name="matKeyboardArrowDown"></ng-icon>
+        }
+        @else {
+            <ng-icon name="matKeyboardArrowRight"></ng-icon>
+        }
     </button>
 </ng-template>

@@ -1,6 +1,7 @@
 import type { OnInit } from '@angular/core';
 import { Component, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { Divider } from 'primeng/divider';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from 'primeng/tabs';
@@ -28,6 +29,7 @@ type UiUpdate = {
     imports: [
         NgTemplateOutlet,
         TranslatePipe,
+        NgIcon,
         Divider,
         Tabs,
         TabList,

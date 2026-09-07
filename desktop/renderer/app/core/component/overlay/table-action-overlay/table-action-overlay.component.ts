@@ -1,5 +1,6 @@
 import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
@@ -20,6 +21,7 @@ import { Overlay } from '../Overlay';
         './table-action-overlay.component.scss'
     ],
     imports: [
+        NgIcon,
         ButtonDirective,
         TranslatePipe,
     ]

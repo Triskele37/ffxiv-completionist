@@ -1,4 +1,5 @@
 import { Component, HostListener, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 
 import { isIgnoredElement } from '@model/isIgnoredElement';
 import { DataService } from '@service/data.service';
@@ -12,6 +13,7 @@ import { IgnoreReasonsComponent } from './ignore-reasons/ignore-reasons.componen
     templateUrl: './review-localization.component.html',
     styleUrls: ['./review-localization.component.scss'],
     imports: [
+        NgIcon,
         IssueComponent,
         IgnoreReasonsComponent,
     ]
@@ -24,7 +26,7 @@ export class ReviewLocalizationComponent {
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
 		if(isIgnoredElement($event.target as HTMLElement)) return;
-		
+
         if($event.ctrlKey) {
             if($event.key === 'ArrowLeft') {
                 this.svcNav.goToPreviousIssue(10);

@@ -15,8 +15,12 @@
                 class="active-help-toggle"
                 (click)="toggleActiveHelp()"
             >
-                @let icon = activeHelpEnabled ? 'mi-help-outline' : 'mi-help';
-                <i class="mi {{icon}}"></i>
+                @if(activeHelpEnabled) {
+                    <ng-icon name="matHelpOutline"></ng-icon>
+                }
+                @else {
+                    <ng-icon name="matHelp"></ng-icon>
+                }
             </button>
 
             <div

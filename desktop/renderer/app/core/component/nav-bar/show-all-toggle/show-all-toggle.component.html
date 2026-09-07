@@ -7,7 +7,11 @@
         [pTooltip]="(enabled ? 'APP.TABLE.HIDE_ALL' : 'APP.TABLE.SHOW_ALL') | translate"
         (click)="emitShowAllChange(!enabled)"
     >
-        @let icon = enabled ? 'mi-close-fullscreen' : 'mi-open-in-full';
-        <span class="mi {{icon}}"></span>
+        @if(enabled) {
+            <ng-icon name="matCloseFullscreen"></ng-icon>
+        }
+        @else {
+            <ng-icon name="matOpenInFull"></ng-icon>
+        }
     </button>
 }

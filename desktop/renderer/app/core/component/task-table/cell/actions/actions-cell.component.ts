@@ -1,5 +1,6 @@
 import type { OnInit, OnDestroy } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -20,9 +21,10 @@ import { GarlandActionComponent } from './garland/garland-action.component';
     templateUrl: './actions-cell.component.html',
     styleUrls: ['./actions-cell.component.scss', './action.scss'],
     imports: [
+        TranslatePipe,
+        NgIcon,
         ButtonDirective,
         Tooltip,
-        TranslatePipe,
 
         BookmarkActionComponent,
         ConsoleGamesActionComponent,

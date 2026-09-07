@@ -1,8 +1,7 @@
-import type { OnInit } from '@angular/core';
-import { Component, Input, inject, signal, ViewChild } from '@angular/core';
+import { Component, effect, Input, inject, signal, ViewChild } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputText } from 'primeng/inputtext';
@@ -24,13 +23,14 @@ import { toOptions, toOption } from './option';
         FormsModule,
         NgClass,
         TranslatePipe,
+        NgIcon,
         ButtonDirective,
         InputText,
         Select,
         Tooltip,
     ]
 })
-export class OptionFilterComponent implements OnInit {
+export class OptionFilterComponent {
     svcTable = inject(TableService);
 
     @Input({ required: true }) column!: Column;
@@ -44,17 +44,27 @@ export class OptionFilterComponent implements OnInit {
     @ViewChild('select') select: Select | undefined;
 
     constructor() {
-        this.svcTable.filter.onFilterApplied$
-            .pipe(takeUntilDestroyed())
-            .subscribe(() => this.init());
+        effect(() => this.updateForGroupChange());
     }
 
-    ngOnInit() {
-        this.init();
-    }
+    updateForGroupChange(): void {
+        void this.svcTable.group();
 
-    init(): void {
+        const filters = this.svcTable.filter.filters[this.column.key]?.value;
+        if(filters) {
+            this.selectedOptions = ([] as string[]).concat(filters);
+            this.selectedDisplay.set(this.selectedOptions.join(', '));
+        }
+        else {
+            this.selectedOptions = [];
+            this.selectedDisplay.set('');
+        }
+
         this.columnOptions = toOptions(this.svcTable.uniqueValues[this.column.key]);
+        this.customOptions = this.selectedOptions
+            .filter((o) => !this.columnOptions.find((oo) => oo.value === o))
+            .map(toOption);
+
         this.updateOptions();
     }
 

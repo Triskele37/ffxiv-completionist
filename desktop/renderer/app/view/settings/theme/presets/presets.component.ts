@@ -1,4 +1,5 @@
 import { Component, EventEmitter, inject, Output } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 
@@ -12,9 +13,10 @@ import { Popover } from 'primeng/popover';
     selector: 'com-theme-presets',
     templateUrl: 'presets.component.html',
     imports: [
+        NgTemplateOutlet,
+        NgIcon,
         ButtonGroup,
         ButtonDirective,
-        NgTemplateOutlet,
         Popover
     ],
     styleUrls: ['presets.component.scss']

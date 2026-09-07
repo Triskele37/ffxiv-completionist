@@ -8,7 +8,7 @@
         [ngClass]="{ 'do-notify': doNotify() }"
         (click)="onOverlayButtonClick()"
     >
-        <span class="mi mi-link"></span>
+        <ng-icon name="matLink"></ng-icon>
     </button>
 
     @if(doNotify()) {
@@ -50,7 +50,7 @@
                             <div>{{chainStart.path}}</div>
                             <div class="task">
                                 <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
-                                <i class="mi mi-arrow-right-alt"></i>
+                                <ng-icon name="matArrowRightAlt"></ng-icon>
                                 <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
                                 <span>&nbsp;"{{chainStart.task.name}}"&nbsp;</span>
                                 {{'APP.CHAIN_OVERLAY.CHAINED' | translate:({ count: svcChain.chainedTaskCount() })}}
@@ -64,7 +64,7 @@
                             tooltipPosition="right"
                             (click)="onNavigateToGroup(chainStart)"
                         >
-                            <span class="mi mi-navigate-next"></span>
+                            <ng-icon name="matNavigateNext"></ng-icon>
                         </button>
                     </span>
 
@@ -76,13 +76,17 @@
                         @for(chainedGroup of svcChain.chainedGroups(); track chainedGroup.path) {
                             <!-- Group header button -->
                             <span class="chain-group">
-                                @let icon = chainedGroup.show ? 'pi-chevron-down' : 'pi-chevron-right';
                                 <button
                                     pButton
                                     class="path"
                                     (click)="onToggleShowChainedGroup(chainedGroup)"
                                 >
-                                    <span class="pi {{icon}}"></span>
+                                    @if(chainedGroup.show) {
+                                        <ng-icon name="matKeyboardArrowDown"></ng-icon>
+                                    }
+                                    @else {
+                                        <ng-icon name="matKeyboardArrowRight"></ng-icon>
+                                    }
                                     {{`${chainedGroup.path} (${chainedGroup.tasks.length})`}}
                                 </button>
 
@@ -94,7 +98,7 @@
                                     tooltipStyleClass="chain-navigate-tooltip"
                                     (click)="onNavigateToGroup(chainedGroup)"
                                 >
-                                    <span class="mi mi-navigate-next"></span>
+                                    <ng-icon name="matNavigateNext"></ng-icon>
                                 </button>
                             </span>
 
@@ -107,7 +111,7 @@
                                                 {{chainedTask.fromFlag}}
                                             </span>
 
-                                            <i class="mi mi-arrow-right-alt"></i>
+                                            <ng-icon name="matArrowRightAlt"></ng-icon>
 
                                             <span [ngClass]="chainedTask.task.completionFlag$()">
                                                 {{chainedTask.task.completionFlag$()}}
@@ -147,7 +151,7 @@
                                     [content]="historyStep.chainStart.task"
                                     [nameOnly]="true"
                                 ></com-content-link>
-                                <i class="mi mi-arrow-right-alt"></i>
+                                <ng-icon name="matArrowRightAlt"></ng-icon>
                             }
                         </div>
                     </div>

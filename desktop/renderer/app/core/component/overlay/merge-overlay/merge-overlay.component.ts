@@ -1,6 +1,7 @@
 import { Component, Input, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
@@ -25,12 +26,13 @@ import { Overlay } from '../Overlay';
         './merge-overlay.component.scss'
     ],
     imports: [
-        ButtonDirective,
-        ButtonGroup,
-        Divider,
         FormsModule,
         NgClass,
         TranslatePipe,
+        NgIcon,
+        ButtonDirective,
+        ButtonGroup,
+        Divider,
 
         ContentLinkPipe
     ]

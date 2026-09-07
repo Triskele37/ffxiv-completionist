@@ -29,7 +29,12 @@
             <div class="update-name" (click)="update.expanded = !update.expanded">
                 {{update.name}}
 
-                <i class="pi pi-chevron-{{update.expanded ? 'up' : 'down'}}"></i>
+                @if(update.expanded) {
+                    <ng-icon name="matKeyboardArrowUp"></ng-icon>
+                }
+                @else {
+                    <ng-icon name="matKeyboardArrowDown"></ng-icon>
+                }
             </div>
         </p-divider>
 

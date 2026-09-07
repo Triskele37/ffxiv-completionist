@@ -48,12 +48,16 @@
             <ng-template #groupheader let-match let-expanded="expanded">
                 <tr pRowGroupHeader [pRowToggler]="match">
                     <td>
-                        @let icon = expanded ? 'pi-chevron-down' : 'pi-chevron-right';
                         <button
                             pButton
                             class="p-button-text p-button-rounded p-button-plain p-mr-2"
                         >
-                            <span class="pi {{icon}}"></span>
+                            @if(expanded) {
+                                <ng-icon name="matKeyboardArrowDown"></ng-icon>
+                            }
+                            @else {
+                                <ng-icon name="matKeyboardArrowRight"></ng-icon>
+                            }
                         </button>
                     </td>
                     <td [colSpan]="1 + (svcSearch.expanded ? 2 : 0) + (showKey() ? 1 : 0)">

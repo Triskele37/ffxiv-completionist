@@ -7,6 +7,8 @@
 	- Bookmarks & Custom need a "no data" display
 	- Nav-drawer item needs tooltip on higher element (isn't on full rectangle)
 	- Work "disableCompletion" into partials, so standard Emotes don't cause immediate completion for a fresh save
+	- `optimization` still disabled on build
+	    - double check now that builders were updated
 
 - Responsive (@min-width 750)
 	- Prime tab content overflows w/o wrap
@@ -15,6 +17,6 @@
 	- Large filter select overlay becomes unreadable (use patch view small X)
 	- Table overlays don't adjust left
 	- ellipsis overflowed summary-lines don't have tooltip
-	
 
-
+- Missing Data
+    - Fish Bait

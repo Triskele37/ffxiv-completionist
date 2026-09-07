@@ -31,6 +31,12 @@
     --text-color-inverted: rgb(from var(--text-color) calc(125 - r) calc(125 - g) calc(125 - b));
     --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
 
+    // Icon
+    --icon-size: calc(var(--font-size) * 1.5);
+    --icon-size-small: var(--font-size);
+    --ng-icon__size: var(--icon-size);
+    --ng-icon__color: var(--primary-color-text);
+
     // Completion
     --incomplete: rgb(var(--incomplete-rgb));
     --partial-complete: rgb(var(--partial-complete-rgb));
@@ -53,7 +59,6 @@
     --content-padding: calc(var(--font-size) * 0.5);
     --inline-spacing: 0.5rem;
     --border-radius: 4px;
-    --icon-size: 16px; //TODO - implement
 
     // Other
     --selected: rgba(var(--primary-color-rgb), 0.5);

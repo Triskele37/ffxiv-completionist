@@ -2,7 +2,6 @@
     data-active-help="APP.ACTIVE_HELP.TABLE.ROW_ACTIONS"
     class="actions-cell noSelect"
 >
-    @let icon = expanded() ? 'pi-chevron-right' : 'pi-chevron-left';
     <button
         pButton
         class="action-dial p-button-text p-button-rounded p-button-plain p-mr-2"
@@ -10,7 +9,12 @@
         tooltipPosition="left"
         (click)="onDialClick()"
     >
-        <span class="pi {{icon}}"></span>
+        @if(expanded()) {
+            <ng-icon name="matKeyboardArrowRight"></ng-icon>
+        }
+        @else {
+            <ng-icon name="matKeyboardArrowLeft"></ng-icon>
+        }
     </button>
 
     @if(expanded()) {
@@ -33,23 +37,25 @@
 
                 @if(showCopyId()) {
                     <span>
-                        <div
-                            class="action mi mi-content-copy"
+                        <ng-icon
+                            name="matContentCopy"
+                            class="action"
                             tooltipPosition="top"
                             pTooltip="Copy ID"
                             (click)="copyTaskId()"
-                        ></div>
+                        ></ng-icon>
                     </span>
                 }
 
                 @if(!task._parent.isCustomGroup && !task._parent.disableCompletion) {
                     <span>
-                        <div
-                            class="action mi mi-remove-red-eye"
+                        <ng-icon
+                            name="matRemoveRedEye"
+                            class="action"
                             [pTooltip]="'APP.TABLE.ROW_ACTION.VIEW_CHAINS' | translate"
                             tooltipPosition="top"
                             (click)="onOpenChainViewer()"
-                        ></div>
+                        ></ng-icon>
                     </span>
 
                     <com-bookmark-action
@@ -70,7 +76,7 @@
                         class="action close-dial"
                         (click)="onDialClick()"
                     >
-                        <span class="pi pi-chevron-right"></span>
+                        <ng-icon name="matKeyboardArrowRight"></ng-icon>
                     </button>
                 </span>
             </div>

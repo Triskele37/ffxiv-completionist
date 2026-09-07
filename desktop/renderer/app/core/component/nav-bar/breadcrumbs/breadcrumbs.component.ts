@@ -1,6 +1,7 @@
 import type { OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
-import { KeyValuePipe, NgClass } from '@angular/common';
+import { KeyValuePipe } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { Popover } from 'primeng/popover';
 
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
@@ -21,10 +22,10 @@ export type Breadcrumb = {
     templateUrl: './breadcrumbs.component.html',
     styleUrls: ['./breadcrumbs.component.scss'],
     imports: [
-        ContentLinkComponent,
         KeyValuePipe,
-        NgClass,
+        NgIcon,
         Popover,
+        ContentLinkComponent,
     ]
 })
 export class BreadcrumbsComponent implements OnInit {

@@ -76,7 +76,9 @@ $width: 200px;
         }
     }
 
-    .mi-compare-arrows, .mi-alt-route, .mi-call-merge {
+    ng-icon[name="matCompareArrows"],
+    ng-icon[name="matAltRoute"],
+    ng-icon[name="matCallMerge"] {
         transform: rotate(90deg);
     }
 

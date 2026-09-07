@@ -1,6 +1,7 @@
 import type { OnDestroy, OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
@@ -20,11 +21,12 @@ import type { ExpandedRows } from '@service/table/rowGroup/_types';
     templateUrl: './task-search-results.component.html',
     styleUrls: ['./task-search-results.component.scss'],
     imports: [
+        NgClass,
+        TranslatePipe,
+        NgIcon,
         ButtonGroup,
         ButtonDirective,
-        TranslatePipe,
         Table,
-        NgClass,
         RowGroupHeader,
         RowToggler,
 

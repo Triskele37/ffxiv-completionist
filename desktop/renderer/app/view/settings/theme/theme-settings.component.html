@@ -35,7 +35,7 @@
             class="reset-font-size"
             (click)="resetFontSize()"
         >
-            <span class="mi mi-restart-alt"></span>
+            <ng-icon name="matRestartAlt"></ng-icon>
         </button>
     </div>
 </div>
@@ -87,13 +87,13 @@
 
         <div class="color-pickers">
             <span class="vert-picker">
-                <i class="i-incomplete"></i>
+                <ng-icon name="matClose" class="i-incomplete"></ng-icon>
                 <com-color-picker
                     [value]="svcTheme.incompleteColor"
                     (changeRGB)="setIncompleteColor($event)"
                 ></com-color-picker>
                 <button pButton (click)="resetIncompleteColor()">
-                    <span class="mi mi-restart-alt"></span>
+                    <ng-icon name="matRestartAlt"></ng-icon>
                 </button>
             </span>
 
@@ -103,29 +103,29 @@
                     (changeRGB)="setPartialCompleteColor($event)"
                 ></com-color-picker>
                 <button pButton (click)="resetPartialCompleteColor()">
-                    <span class="mi mi-restart-alt"></span>
+                    <ng-icon name="matRestartAlt"></ng-icon>
                 </button>
             </span>
 
             <span class="vert-picker">
-                <i class="i-complete"></i>
+                <ng-icon name="matCheck" class="i-complete"></ng-icon>
                 <com-color-picker
                     [value]="svcTheme.completeColor"
                     (changeRGB)="setCompleteColor($event)"
                 ></com-color-picker>
                 <button pButton (click)="resetCompleteColor()">
-                    <span class="mi mi-restart-alt"></span>
+                    <ng-icon name="matRestartAlt"></ng-icon>
                 </button>
             </span>
 
             <span class="vert-picker">
-                <i class="i-exclude"></i>
+                <ng-icon name="matClose" class="i-exclude"></ng-icon>
                 <com-color-picker
                     [value]="svcTheme.excludedColor"
                     (changeRGB)="svcTheme.setExcludedColor($event)"
                 ></com-color-picker>
                 <button pButton (click)="resetExcludedColor()">
-                    <span class="mi mi-restart-alt"></span>
+                    <ng-icon name="matRestartAlt"></ng-icon>
                 </button>
             </span>
         </div>

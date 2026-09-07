@@ -2,6 +2,7 @@ import type { ElementRef } from '@angular/core';
 import { Component, HostListener, ViewChild, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputText } from 'primeng/inputtext';
@@ -18,8 +19,9 @@ import { Status } from '@service/search/SearchTypes';
     templateUrl: './search-bar.component.html',
     styleUrls: ['./search-bar.component.scss'],
     imports: [
-        ButtonDirective,
         FormsModule,
+        NgIcon,
+        ButtonDirective,
         InputText,
         NgClass,
         Tooltip,

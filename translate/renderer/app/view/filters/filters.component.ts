@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { NgClass, NgTemplateOutlet } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 
 import { SelectComponent } from '../../component/select/select.component';
@@ -11,9 +12,10 @@ import { NavigationService } from '@service/navigation.service';
     templateUrl: './filters.component.html',
     styleUrls: ['./filters.component.scss'],
     imports: [
-        TranslatePipe,
         NgClass,
         NgTemplateOutlet,
+        TranslatePipe,
+        NgIcon,
 
         SelectComponent,
     ]

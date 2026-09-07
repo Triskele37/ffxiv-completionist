@@ -39,7 +39,7 @@
             .clear-icon {
                 position: absolute;
                 right: 40px;
-                top: 10px;
+                top: 8px;
 
                 cursor: pointer;
             }
@@ -60,6 +60,7 @@
 
             .remove-option {
                 color: var(--text-color);
+                padding: 0;
             }
         }
     }

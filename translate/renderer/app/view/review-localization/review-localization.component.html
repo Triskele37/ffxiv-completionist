@@ -4,13 +4,13 @@
             class="icon-button round-button"
             (click)="svcNav.goToPreviousIssue(10)"
         >
-            <i class="mi mi-fast-rewind"></i>
+            <ng-icon name="matFastRewind"></ng-icon>
         </button>
         <button
             class="icon-button round-button"
             (click)="svcNav.goToPreviousIssue()"
         >
-            <i class="mi mi-arrow-back"></i>
+            <ng-icon name="matArrowBack"></ng-icon>
         </button>
 
         <span>{{svcNav.currentIndex() + 1}} / {{svcData.issues().length}}</span>
@@ -19,13 +19,13 @@
             class="icon-button round-button"
             (click)="svcNav.goToNextIssue()"
         >
-            <i class="mi mi-arrow-forward"></i>
+            <ng-icon name="matArrowForward"></ng-icon>
         </button>
         <button
             class="icon-button round-button"
             (click)="svcNav.goToNextIssue(10)"
         >
-            <i class="mi mi-fast-forward"></i>
+            <ng-icon name="matFastForward"></ng-icon>
         </button>
     </div>
 

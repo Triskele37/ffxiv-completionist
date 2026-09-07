@@ -1,6 +1,7 @@
 import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, Input, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -29,6 +30,7 @@ type Modifier = {
     imports: [
         TranslatePipe,
         NgTemplateOutlet,
+        NgIcon,
         ButtonDirective,
         Tooltip,
         ContentLinkComponent

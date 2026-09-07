@@ -1,12 +1,12 @@
 import type { OnInit } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { IftaLabel } from 'primeng/iftalabel';
 import { InputText } from 'primeng/inputtext';
-import type { TieredMenuToggleEvent } from 'primeng/tieredmenu';
 
 import { GroupSelectorComponent } from '@component/group-selector/group-selector.component';
 import { DataService } from '@service/data/data-service';
@@ -28,12 +28,13 @@ type SelectFor = 'moveGroup' | 'duplicateGroup' | 'moveTasks';
         './custom-content-overlay.component.scss'
     ],
     imports: [
+        FormsModule,
+        TranslatePipe,
+        NgIcon,
         ButtonDirective,
         ButtonGroup,
-        FormsModule,
         IftaLabel,
         InputText,
-        TranslatePipe,
         Divider,
 
         GroupSelectorComponent,

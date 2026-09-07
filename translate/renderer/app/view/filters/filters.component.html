@@ -68,15 +68,19 @@
             class="toggle icon-button round-button"
             (click)="visible = !visible"
         >
-            @let icon = visible ? 'back' : 'forward';
-            <i class="mi mi-arrow-{{icon}}"></i>
+            @if(visible) {
+                <ng-icon name="matArrowBack"></ng-icon>
+            }
+            @else {
+                <ng-icon name="matArrowForward"></ng-icon>
+            }
         </button>
 
         <button
             class="refresh icon-button round-button"
             (click)="svcData.getIssues()"
         >
-            <i class="mi mi-refresh"></i>
+            <ng-icon name="matRefresh"></ng-icon>
         </button>
     </div>
 </div>

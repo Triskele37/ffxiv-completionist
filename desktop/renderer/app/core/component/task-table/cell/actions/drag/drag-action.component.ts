@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ReorderableRowHandle } from 'primeng/table';
 import { Tooltip } from 'primeng/tooltip';
@@ -8,9 +9,10 @@ import { Tooltip } from 'primeng/tooltip';
     templateUrl: './drag-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
-        ReorderableRowHandle,
+        TranslatePipe,
+        NgIcon,
         Tooltip,
-        TranslatePipe
+        ReorderableRowHandle
     ],
 })
 export class DragActionComponent {

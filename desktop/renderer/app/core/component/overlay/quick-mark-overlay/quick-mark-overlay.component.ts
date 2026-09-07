@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 
@@ -25,8 +26,9 @@ type TaskHistory = {
     selector: 'com-quick-mark-overlay',
     templateUrl: './quick-mark-overlay.component.html',
     imports: [
-        ButtonDirective,
         TranslatePipe,
+        NgIcon,
+        ButtonDirective,
 
         QuickMarkFromToLabelComponent
     ],

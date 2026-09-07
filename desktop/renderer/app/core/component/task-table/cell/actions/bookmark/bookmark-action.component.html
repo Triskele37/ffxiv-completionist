@@ -1,15 +1,17 @@
 @if(isBookmarked()) {
-    <div
-        class="action mi mi-bookmark-remove"
+    <ng-icon
+        name="matBookmarkRemove"
+        class="action"
         [pTooltip]="'APP.TABLE.ROW_ACTION.UNBOOKMARK' | translate"
         tooltipPosition="top"
         (click)="toggleBookmark()"
-    ></div>
+    ></ng-icon>
 } @else {
-    <div
-        class="action mi mi-bookmark-add"
+    <ng-icon
+        name="matBookmarkAdd"
+        class="action"
         [pTooltip]="'APP.TABLE.ROW_ACTION.BOOKMARK' | translate"
         tooltipPosition="top"
         (click)="toggleBookmark()"
-    ></div>
+    ></ng-icon>
 }

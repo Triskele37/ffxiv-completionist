@@ -2,7 +2,7 @@
 .overlay-container {
     $nav-arrow-width: 38px;
 
-    .do-notify ::ng-deep .mi-link {
+    .do-notify ::ng-deep ng-icon[name="matLink"] {
         animation: chainNotificationPulse 2s infinite;
     }
 

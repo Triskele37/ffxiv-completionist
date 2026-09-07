@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, Component, effect, inject, Input, OnChanges, signal, SimpleChanges } from '@angular/core';
 import { KeyValuePipe, NgClass } from '@angular/common';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { NgIcon } from '@ng-icons/core';
 import { Tooltip } from 'primeng/tooltip';
 import { Observable } from 'rxjs';
 
@@ -23,6 +24,7 @@ import { ViewToken } from '@view/view-token';
     imports: [
         KeyValuePipe,
         NgClass,
+        NgIcon,
         Tooltip
     ],
     styleUrls: ['nav-drawer-item.component.scss']

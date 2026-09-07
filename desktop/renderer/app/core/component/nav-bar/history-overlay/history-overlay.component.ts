@@ -1,4 +1,5 @@
 import { Component, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Popover } from 'primeng/popover';
@@ -13,11 +14,12 @@ import { NavigationService } from '@service/navigation/navigation.service';
     templateUrl: './history-overlay.component.html',
     styleUrls: ['./history-overlay.component.scss'],
     imports: [
+        TranslatePipe,
+        NgIcon,
         ButtonDirective,
         ContentLinkPipe,
         Popover,
-        Tooltip,
-        TranslatePipe
+        Tooltip
     ]
 })
 export class HistoryOverlayComponent {

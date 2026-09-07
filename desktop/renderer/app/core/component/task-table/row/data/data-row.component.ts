@@ -30,7 +30,7 @@ export class DataRowComponent {
     @Input({ required: true }) rowIndex!: number;
 
     onClick($event: MouseEvent): void {
-        if(!this.parentHasClass($event.target as Element, 'noSelect')) {
+        if(!this.parentHasClass($event, 'noSelect')) {
             const newSelectedState = !this.task.selected();
 
             const lastClickedIndex = this.svcTable.selection.lastClickedRowIndex;
@@ -50,10 +50,9 @@ export class DataRowComponent {
         if($event.shiftKey) $event.preventDefault();
     }
 
-    //NOTE: parent chain is broken if element is inside an @if or ng-container
-    parentHasClass(element: Element, className: string): boolean {
-        if(element.classList?.contains(className)) return true;
-        if(!element.parentNode) return false;
-        return this.parentHasClass(element.parentNode as Element, className);
+    parentHasClass(event: MouseEvent, className: string): boolean {
+        return event.composedPath().some(
+            (target) => (target as Element).classList?.contains(className)
+        );
     }
 }

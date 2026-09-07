@@ -12,12 +12,13 @@
         </span>
 
         @if($index < breadcrumbs().length - 1) {
-            <div
+            @let icon = breadcrumb.isGroupExpanded ? 'matKeyboardArrowDown' : 'matKeyboardArrowRight';
+            <ng-icon
+                [name]="icon"
                 data-active-help="APP.ACTIVE_HELP.NAV_BAR.BREADCRUMB_ARROW"
-                class="breadcrumb-group-arrow pi"
-                [ngClass]="breadcrumb.isGroupExpanded ? 'pi-chevron-down' : 'pi-chevron-right'"
+                class="breadcrumb-group-arrow small"
                 (click)="onArrowClick(breadcrumb); op.toggle($event)"
-            ></div>
+            ></ng-icon>
         }
     }
 </div>

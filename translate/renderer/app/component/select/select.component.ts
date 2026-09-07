@@ -11,13 +11,15 @@ import {
     ElementRef
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 
 @Component({
     selector: 'com-select',
     templateUrl: './select.component.html',
     styleUrls: ['./select.component.scss'],
     imports: [
-        FormsModule
+        FormsModule,
+        NgIcon
     ]
 })
 export class SelectComponent implements OnInit, OnChanges {

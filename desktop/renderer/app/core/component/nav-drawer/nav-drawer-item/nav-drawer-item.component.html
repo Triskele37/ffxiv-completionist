@@ -16,10 +16,10 @@
                     @if(group.subGroups?.size) {
                         <div class="button-arrow">
                             @if(isExpanded()) {
-                                <i class="pi pi-chevron-down"></i>
+                                <ng-icon name="matKeyboardArrowDown" class="small"></ng-icon>
                             }
                             @else {
-                                <i class="pi pi-chevron-right"></i>
+                                <ng-icon name="matKeyboardArrowRight" class="small"></ng-icon>
                             }
                         </div>
                     }
@@ -40,16 +40,18 @@
                 <div class="right-content">
                     @if(!group.isUiGroup) {
                         @if(isComplete) {
-                            <i
+                            <ng-icon
                                 data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.COMPLETE_STAR"
-                                class="mi mi-star"
-                            ></i>
+                                name="matStar"
+                                class="small"
+                            ></ng-icon>
                         }
                         @else if(isEmpty) {
-                            <i
+                            <ng-icon
                                 data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.EMPTY_STAR"
-                                class="mi mi-star empty"
-                            ></i>
+                                name="matStar"
+                                class="empty small"
+                            ></ng-icon>
                         }
                     }
                 </div>

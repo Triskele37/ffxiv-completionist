@@ -1,4 +1,5 @@
 import { Component, effect, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
@@ -13,9 +14,10 @@ import { NavigationService } from '@service/navigation/navigation.service';
     selector: 'com-show-all-toggle',
     templateUrl: './show-all-toggle.component.html',
     imports: [
+        TranslatePipe,
+        NgIcon,
         ButtonDirective,
         Tooltip,
-        TranslatePipe,
     ]
 })
 export class ShowAllToggleComponent {

@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
 
@@ -19,8 +20,9 @@ let lastRandom: Task[] = [];
     templateUrl: './random.component.html',
     styleUrls: ['./random.component.scss'],
     imports: [
-        ButtonDirective,
         FormsModule,
+        NgIcon,
+        ButtonDirective,
         InputNumber,
 
         ContentLinkComponent,

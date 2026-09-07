@@ -15,6 +15,7 @@
 
 **Verify**
 * "Close to Home"s are based on starting class, so 8 different ones
+* Post-SB jobs still get a first-time bonus for Guilhests that doesn't show in UI?
 
 **Chaining**
 * unsellable/tradable collectables to source? (one-way)
@@ -23,6 +24,7 @@
   * cUnlock & cUnlocks helps with this
 * V&C Achievements to duties
 * Relic weapon to quests?
+* automate PVP plate/achievement reward link
 
 **Localization**
 

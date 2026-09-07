@@ -1,4 +1,5 @@
 import { Component, Input, signal, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { InputNumber } from 'primeng/inputnumber';
@@ -16,6 +17,7 @@ import { ContentLinkComponent } from '@component/content-link/content-link.compo
     styleUrls: ['./chain-viewer.component.scss'],
     imports: [
         TranslatePipe,
+        NgIcon,
         ButtonDirective,
         InputNumber,
 

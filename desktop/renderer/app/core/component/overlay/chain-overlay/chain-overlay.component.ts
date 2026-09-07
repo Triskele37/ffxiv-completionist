@@ -1,6 +1,7 @@
 import type { OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
 import { Component, Input, signal, effect, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Badge } from 'primeng/badge';
 import { ButtonDirective } from 'primeng/button';
@@ -23,13 +24,14 @@ import { Overlay } from '../Overlay';
         './chain-overlay.component.scss'
     ],
     imports: [
+        NgClass,
+        TranslatePipe,
+        NgIcon,
         Badge,
         ButtonDirective,
         ContentLinkComponent,
         Divider,
-        NgClass,
-        Tooltip,
-        TranslatePipe
+        Tooltip
     ]
 })
 export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestroy {

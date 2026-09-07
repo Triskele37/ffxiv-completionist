@@ -1,6 +1,7 @@
 import type { OnInit } from '@angular/core';
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { RGBColor } from 'primeng/inputcolor';
@@ -18,12 +19,13 @@ import { ThemePresetsComponent } from './presets/presets.component';
     templateUrl: './theme-settings.component.html',
     styleUrls: ['./theme-settings.component.scss'],
     imports: [
-        ButtonDirective,
         FormsModule,
+        TranslatePipe,
+        NgIcon,
+        ButtonDirective,
         InputNumber,
         InputText,
         Tooltip,
-        TranslatePipe,
         ColorPickerComponent,
 
         ThemePresetsComponent

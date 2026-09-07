@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
@@ -17,9 +18,10 @@ import { Overlay } from '../Overlay';
         './selection-overlay.component.scss'
     ],
     imports: [
+        TranslatePipe,
+        NgIcon,
         ButtonDirective,
-        Divider,
-        TranslatePipe
+        Divider
     ]
 })
 export class SelectionOverlayComponent extends Overlay {

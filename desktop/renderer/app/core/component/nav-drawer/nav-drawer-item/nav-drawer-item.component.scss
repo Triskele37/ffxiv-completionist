@@ -66,9 +66,8 @@
         .right-content {
             display: flex;
 
-            .mi.mi-star {
+            ng-icon[name="matStar"] {
                 color: var(--completed);
-                font-size: 16px;
 
                 &.empty {
                     color: var(--excluded);

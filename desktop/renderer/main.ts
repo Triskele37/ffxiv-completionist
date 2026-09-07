@@ -5,6 +5,7 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { AppComponent } from './app/app.component';
 import { APP_CONFIG } from './env/env';
 import { provideCompletionistPrimeNG } from './bootstrap/primeNg';
+import { provideNgIcons } from './bootstrap/provideIcons';
 import { provideCompletionistTranslateService } from './bootstrap/translateService';
 import { provideCompletionistAppInitializer } from './bootstrap/appInitializer';
 
@@ -16,6 +17,7 @@ bootstrapApplication(AppComponent, {
     providers: [
         provideZoneChangeDetection(),
         ...provideCompletionistPrimeNG(),
+        ...provideNgIcons(),
         provideCompletionistTranslateService(),
         provideHttpClient(withInterceptors([])),
         provideCompletionistAppInitializer(),

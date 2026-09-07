@@ -4,8 +4,12 @@
     class="home-button"
     (click)="onHomeClick()"
 >
-    @let direction = svcNavigation.selectedGroup()?.isUiGroup ? 'down' : 'right';
-    <span class="pi pi-chevron-{{direction}}"></span>
+    @if(svcNavigation.selectedGroup()?.isUiGroup) {
+        <ng-icon name="matKeyboardArrowDown"></ng-icon>
+    }
+    @else {
+        <ng-icon name="matKeyboardArrowRight"></ng-icon>
+    }
     {{'APP.NAME' | translate}}
 </button>
 
@@ -29,6 +33,6 @@
         pButton
         (click)="onSearch()"
     >
-        <span class="mi mi-search"></span>
+        <ng-icon name="matSearch"></ng-icon>
     </button>
 </div>

@@ -4,8 +4,12 @@
             class="toggle icon-button round-button"
             (click)="visible = !visible"
         >
-            @let icon = visible ? 'forward' : 'back';
-            <i class="mi mi-arrow-{{icon}}"></i>
+            @if(visible) {
+                <ng-icon name="matArrowForward"></ng-icon>
+            }
+            @else {
+                <ng-icon name="matArrowBack"></ng-icon>
+            }
         </button>
     </div>
 

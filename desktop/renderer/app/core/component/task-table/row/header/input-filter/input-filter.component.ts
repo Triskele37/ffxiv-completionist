@@ -1,4 +1,5 @@
 import { Component, Input, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { InputText } from 'primeng/inputtext';
 
 import type { Column } from '@model/Column';
@@ -9,6 +10,7 @@ import { TableService } from '@service/table/table.service';
     templateUrl: './input-filter.component.html',
     styleUrls: ['./input-filter.component.scss'],
     imports: [
+        NgIcon,
         InputText,
     ]
 })

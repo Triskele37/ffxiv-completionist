@@ -24,17 +24,18 @@
                 [placeholder]="'APP.TABLE.CUSTOM_OPTION' | translate"
             />
             @if(customOptionInput.value) {
-                <i
-                    class="clear-icon pi pi-times"
+                <ng-icon
+                    name="matClear"
+                    class="clear-icon small"
                     (click)="preventOverlayClose($event); customOptionInput.value = ''"
-                ></i>
+                ></ng-icon>
             }
             <button
                 class="add-option"
                 pButton
                 (click)="onAddCustomOption(customOptionInput.value)"
             >
-                <i class="mi mi-add"></i>
+                <ng-icon name="matAdd"></ng-icon>
             </button>
         </span>
     </ng-template>
@@ -62,7 +63,7 @@
                     variant="text"
                     (click)="preventOverlayClose($event); onRemoveCustomOption(item)"
                 >
-                    <i class="pi pi-times"></i>
+                    <ng-icon name="matClear" class="small"></ng-icon>
                 </button>
             }
         </span>

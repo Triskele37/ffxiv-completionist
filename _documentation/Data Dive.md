@@ -20,3 +20,9 @@ BeastTribe.Unknown1 - The quest that puts them at Allied vs Bloodsworn
 
 **DynamicEvent**
 Special bozja/crescent fates (like duels)
+
+**Adventure**
+Sightseeing log?
+
+**EmjVoiceNpc**
+Mahjong Voices

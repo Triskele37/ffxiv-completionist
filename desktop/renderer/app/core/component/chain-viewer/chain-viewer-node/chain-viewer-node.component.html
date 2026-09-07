@@ -39,24 +39,24 @@
                     @let showExcludeTasks = !showSiblings || !chainGraphSiblings.length;
 
                     @if(chainGraphSiblings.length) {
-                        <i
-                            class="mi mi-compare-arrows"
+                        <ng-icon
+                            name="matCompareArrows"
                             [class]="showSiblingTasks ? 'selected' : 'disabled'"
                             [pTooltip]="'APP.CHAIN_VIEW.CHAIN_SIBLING' | translate"
-                        ></i>
+                        ></ng-icon>
                     }
 
                     @if(chainGraphExcludes.length) {
-                        <i
-                            class="mi mi-link-off"
+                        <ng-icon
+                            name="matLinkOff"
                             [class]="showExcludeTasks ? 'selected' : 'disabled'"
                             [pTooltip]="'APP.CHAIN_VIEW.CHAIN_EXCLUDE' | translate"
-                        ></i>
+                        ></ng-icon>
                     }
 
                     @if(chainGraphSiblings.length && chainGraphExcludes.length) {
                         <button pButton [iconOnly]="true" (click)="toggleSiblingExclude()">
-                            <i class="mi mi-change-circle"></i>
+                            <ng-icon name="matChangeCircle"></ng-icon>
                         </button>
                     }
                 </div>
@@ -127,20 +127,20 @@
 
 <ng-template #modifierTemplate>
     @if(!modifier || (!modifier.key && !modifier.at)) {
-        <i class="mi mi-arrow-right-alt"></i>
+        <ng-icon name="matArrowRightAlt"></ng-icon>
     }
     @else if(modifier.key === 'ANY') {
-        <i class="mi mi-alt-route" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_ANY' | translate"></i>
+        <ng-icon name="matAltRoute" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_ANY' | translate"></ng-icon>
     }
     @else if(modifier.key === 'COMBO') {
-        <i class="mi mi-call-merge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></i>
+        <ng-icon name="matCallMerge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></ng-icon>
     }
     @else if(modifier.key?.endsWith('COMBO')) {
         <span>{{modifier.key!.replace('COMBO', '')}}</span>
-        <i class="mi mi-call-merge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></i>
+        <ng-icon name="matCallMerge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></ng-icon>
     }
     @else if(modifier.key === 'UNLOCK') {
-        <i class="mi mi-lock-open" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_UNLOCK' | translate"></i>
+        <ng-icon name="matLockOpen" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_UNLOCK' | translate"></ng-icon>
     }
     @else {
         <span>{{modifier.at}}</span>

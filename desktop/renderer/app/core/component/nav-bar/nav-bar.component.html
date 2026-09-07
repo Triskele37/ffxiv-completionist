@@ -6,7 +6,7 @@
             [disabled]="!svcNavigation.groupHistory().length"
             (click)="goBack()"
         >
-            <span class="mi mi-arrow-back"></span>
+            <ng-icon name="matArrowBack"></ng-icon>
         </button>
 
         <button
@@ -15,7 +15,7 @@
             [disabled]="!svcNavigation.selectedGroup()?._parent"
             (click)="goToParent()"
         >
-            <span class="mi mi-arrow-upward"></span>
+            <ng-icon name="matArrowUpward"></ng-icon>
         </button>
 
         <com-history-overlay></com-history-overlay>

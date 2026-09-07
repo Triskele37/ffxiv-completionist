@@ -1,6 +1,7 @@
 import type { OnInit } from '@angular/core';
 import { Component, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 import { Lang } from '@constant/Lang';
@@ -11,8 +12,9 @@ import { DataService } from '@service/data.service';
     templateUrl: './options.component.html',
     styleUrls: ['./options.component.scss'],
     imports: [
-        TranslatePipe,
         NgClass,
+        TranslatePipe,
+        NgIcon,
     ]
 })
 export class OptionsComponent implements OnInit {

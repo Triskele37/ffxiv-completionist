@@ -1,4 +1,5 @@
 import { Component, HostListener, inject } from '@angular/core';
+import { NgIcon } from '@ng-icons/core';
 import { ButtonDirective } from 'primeng/button';
 import { ButtonGroup } from 'primeng/buttongroup';
 
@@ -17,9 +18,10 @@ import { ShowAllToggleComponent } from './show-all-toggle/show-all-toggle.compon
     templateUrl: './nav-bar.component.html',
     styleUrls: ['./nav-bar.component.scss'],
     imports: [
-        BreadcrumbsComponent,
-        ButtonGroup,
+        NgIcon,
         ButtonDirective,
+        ButtonGroup,
+        BreadcrumbsComponent,
         HistoryOverlayComponent,
         ShowAllToggleComponent,
     ]

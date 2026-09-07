@@ -3,6 +3,7 @@ import { Component, signal, inject } from '@angular/core';
 import { NgTemplateOutlet } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { ProgressSpinner } from 'primeng/progressspinner';
@@ -28,6 +29,7 @@ import { SettingsService } from '@view/settings/settings.service';
     imports: [
         FormsModule,
         TranslatePipe,
+        NgIcon,
         ButtonDirective,
         ProgressSpinner,
         ToggleSwitch,
