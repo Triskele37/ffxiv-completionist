@@ -3,18 +3,15 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
+import { ConfigLoad, ConfigObj } from '@common/Config';
 import { ElectronService } from '@service/electron/electron.service';
 
-import type { ConfigStore } from './Store.d';
 import { Store } from './Store';
 
 @Injectable({
     providedIn: 'root'
 })
-export class ConfigStoreService extends Store<ConfigStore> {
-    ipcGetEvent = IPC_EVENT.GET_CONFIG;
-    ipcSaveEvent = IPC_EVENT.SET_CONFIG;
+export class ConfigStoreService extends Store<ConfigObj> {
     failedSummaryKey = 'APP.TOAST.CONFIG_FAILED_SUMMARY';
     failedDetailKey = 'APP.TOAST.CONFIG_FAILED_DETAIL';
 
@@ -27,6 +24,14 @@ export class ConfigStoreService extends Store<ConfigStore> {
 
         super(translate, primeMessage, svcElectron);
         this.load();
+    }
+
+    getStore(): ConfigLoad {
+        return this.svcElectron.getConfig();
+    }
+
+    setStore(config: ConfigObj): void {
+        this.svcElectron.setConfig(config);
     }
 
     set(key: string, value: any): void {

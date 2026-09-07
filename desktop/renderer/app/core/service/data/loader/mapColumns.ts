@@ -9,8 +9,8 @@ import type { JSON_GROUP } from './_types';
 export function mapColumns(
     this: DataServiceContext,
     json: JSON_GROUP,
-): Column[] | null {
-    if(!json.columns) return null;
+): Column[] | undefined {
+    if(!json.columns) return;
 
     return Object.keys(json.columns).map((key) => {
         const column: Column = {

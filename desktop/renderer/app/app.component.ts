@@ -4,7 +4,6 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Toast } from 'primeng/toast';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import { ActiveHelpComponent } from '@component/active-help/active-help.component';
 import { ChainViewerComponent } from '@component/chain-viewer/chain-viewer.component';
 import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
@@ -83,7 +82,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit(): void {
         // Hide the loading splash and show the main window
-        this.svcElectron.sendSync(IPC_EVENT.APP_READY);
+        this.svcElectron.onAppReady();
         this.svcElectron.setAppReady();
     }
 

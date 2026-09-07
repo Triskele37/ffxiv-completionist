@@ -1,4 +1,7 @@
-export type ConfigLoad = { data: ConfigObj; successful: boolean; };
+export type ConfigLoad = {
+    data: ConfigObj;
+    successful: boolean;
+};
 
 export type ConfigObj = {
     'store-name': string;

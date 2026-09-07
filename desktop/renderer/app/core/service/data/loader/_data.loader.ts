@@ -1,3 +1,5 @@
+import { JsonCache } from '@common/JsonCache';
+
 import type { DataServiceContext } from '../types';
 import { loadGroupShallow } from './loadGroupShallow';
 import { loadGroupDeep } from './loadGroupDeep';
@@ -12,7 +14,7 @@ import { getCommonTranslation } from './getCommonTranslation';
 export type DataLoaderFacet = ReturnType<typeof createLoaderFacet>;
 
 type LoaderContext = {
-    dataCache: Record<string, any>;
+    dataCache: JsonCache;
 };
 
 export function createLoaderFacet(this: DataServiceContext) {

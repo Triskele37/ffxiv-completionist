@@ -10,7 +10,6 @@ import { Select } from 'primeng/select';
 import { Tooltip } from 'primeng/tooltip';
 
 import { Completion, Lang } from '@constant';
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import type { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
@@ -230,7 +229,7 @@ export class CharacterSettingsComponent implements OnInit {
     //#region------------------------------------------------------- Change Save
     onNewSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.sendSync(IPC_EVENT.NEW_SAVE);
+            const confirmed = this.svcElectron.newSave();
             if(confirmed) {
                 this.isReloadVisible.set(true);
                 this.svcElectron.reloadApp();
@@ -241,7 +240,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     onLoadSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_SAVE);
+            const confirmed = this.svcElectron.loadSave();
             if(confirmed) {
                 this.isReloadVisible.set(true);
                 this.svcElectron.reloadApp();
@@ -254,11 +253,11 @@ export class CharacterSettingsComponent implements OnInit {
 
     //#region------------------------------------------------------- Open Folder
     onOpenConfigClick(): void {
-        this.svcElectron.sendSync(IPC_EVENT.OPEN_CONFIG);
+        this.svcElectron.openConfig();
     }
 
     onOpenSaveClick(): void {
-        this.svcElectron.sendSync(IPC_EVENT.OPEN_SAVE);
+        this.svcElectron.openSave();
     }
 
     onOpenBothClick(): void {
@@ -273,14 +272,14 @@ export class CharacterSettingsComponent implements OnInit {
 
     onBackupConfigClick(): void {
         this.showModal(() => {
-            this.svcElectron.sendSync(IPC_EVENT.BACKUP_CONFIG);
+            this.svcElectron.backupConfig();
             return this.isBackingUpBoth;
         });
     }
 
     onBackupSaveClick(): void {
         this.showModal(() => {
-            this.svcElectron.sendSync(IPC_EVENT.BACKUP_SAVE);
+            this.svcElectron.backupSave();
             this.isBackingUpBoth = false;
         });
     }
@@ -297,7 +296,7 @@ export class CharacterSettingsComponent implements OnInit {
     //#region------------------------------------------------------- Load Backup
     onLoadBackupConfigClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_CONFIG);
+            const confirmed = this.svcElectron.loadBackupConfig();
             if(confirmed) {
                 this.isReloadVisible.set(true);
                 this.svcElectron.reloadApp();
@@ -308,7 +307,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     onLoadBackupSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_SAVE);
+            const confirmed = this.svcElectron.loadBackupSave();
             if(confirmed) {
                 this.isReloadVisible.set(true);
                 this.svcElectron.reloadApp();

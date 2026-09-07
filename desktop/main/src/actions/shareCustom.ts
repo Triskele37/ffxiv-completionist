@@ -1,7 +1,7 @@
 import { dialog } from 'electron';
 import * as fs from 'fs';
 
-import { CustomMeta } from '../../../common/CustomContent';
+import { CustomMeta, CustomTask } from '../../../common/CustomContent';
 
 export function importCustom(): CustomMeta | false | null {
     const results = dialog.showOpenDialogSync({
@@ -32,12 +32,12 @@ function isValidMeta(importedMeta: CustomMeta): boolean {
         if(k === 'name') continue;
 
         if(/^g[0-9]+$/.test(k)) {
-            if(!isValidMeta(importedMeta[k])) return false;
+            if(!isValidMeta(importedMeta[k] as CustomMeta)) return false;
             continue;
         }
 
         if(/^x[0-9]+$/.test(k)) {
-            const { name, notes, ...rest } = importedMeta[k];
+            const { name, notes, ...rest } = importedMeta[k] as CustomTask;
             if(typeof name !== 'string' || !name) return false;
             if(typeof notes !== 'string') return false;
             if(Object.keys(rest).length) return false;

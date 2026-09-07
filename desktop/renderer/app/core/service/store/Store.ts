@@ -2,7 +2,6 @@ import type { TranslateService } from '@ngx-translate/core';
 import type { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
-import type { IPC_EVENT } from '@common/IPC_EVENT';
 import type { JSONResource } from '@model/JSONResource';
 import type { ElectronService } from '@service/electron/electron.service';
 
@@ -10,9 +9,6 @@ export abstract class Store<StoreType extends JSONResource> {
     translate: TranslateService;
     primeMessage: MessageService;
     svcElectron: ElectronService;
-
-    abstract ipcGetEvent: IPC_EVENT;
-    abstract ipcSaveEvent: IPC_EVENT;
 
     abstract failedSummaryKey: string;
     abstract failedDetailKey: string;
@@ -30,8 +26,11 @@ export abstract class Store<StoreType extends JSONResource> {
         this.svcElectron = svcElectron;
     }
 
+    abstract getStore(): { data: StoreType; successful: boolean };
+    abstract setStore(data: StoreType): void;
+
     load(): boolean {
-        const { data, successful } = this.svcElectron.sendSync(this.ipcGetEvent);
+        const { data, successful } = this.getStore();
 
         if(!successful) {
             this.svcElectron.appReady$.subscribe(() => {
@@ -100,7 +99,7 @@ export abstract class Store<StoreType extends JSONResource> {
         if(!this.data) return;
 
         this.updated$.next(this.data);
-        this.svcElectron.sendSync(this.ipcSaveEvent, this.data);
+        this.setStore(this.data);
     }
 
 }

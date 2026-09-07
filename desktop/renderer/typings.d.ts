@@ -1,3 +1,5 @@
+import type { MainApi } from '@common/MainApi';
+
 /* SystemJS module definition */
 declare const nodeModule: NodeModule;
 
@@ -5,7 +7,8 @@ interface NodeModule {
     id: string;
 }
 
-interface Window {
-    process: any;
-    require: any;
+declare global {
+    interface Window {
+        electron: MainApi;
+    }
 }

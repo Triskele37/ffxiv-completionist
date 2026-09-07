@@ -2,7 +2,6 @@ import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Tooltip } from 'primeng/tooltip';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 
@@ -25,7 +24,7 @@ export class GarlandActionComponent {
     @Output() clicked = new EventEmitter<void>();
 
     searchGarlandTools(): void {
-        this.svcElectron.sendSync(IPC_EVENT.SEARCH_GARLAND_TOOLS, this.task.name);
+        this.svcElectron.searchGarlandTools(this.task.name);
         this.clicked.emit();
     }
 }

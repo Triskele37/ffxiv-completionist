@@ -1,10 +1,11 @@
 import { app } from 'electron';
 
-import { ConfigStore } from './src/store/ConfigStore';
-import { WindowStore } from './src/store/WindowStore';
 import { initActions } from './src/actions';
 import { preloadJson } from './src/actions/preloadJson';
 // import { logMemoryToConsole } from './main/util/logMemoryToConsole';
+
+import { GlobalStore } from './src/globalStore';
+import { focusMainWindow, initializeWindows } from './src/window';
 
 const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
@@ -15,8 +16,8 @@ const isServe = args.some((val) => val === '--serve');
 async function createWindow() {
     await preloadJson();
 
-    ConfigStore.isServe = isServe;
-    WindowStore.create(isServe);
+    GlobalStore.isServe = isServe;
+    initializeWindows();
     initActions();
 }
 
@@ -25,13 +26,17 @@ if(!singleLock) app.quit();
 else {
     try {
         // Re-focus main window if user attempted to open a 2nd instance of the app
-        app.on('second-instance', () => WindowStore.focusMainWindow());
+        app.on('second-instance', () => {
+            focusMainWindow()
+        });
 
         // This method will be called when Electron has finished initialization and is ready to create browser windows.
         // Some APIs can only be used after this event occurs.
         // Added 400 ms to fix the black background issue while using transparent window.
         // More detais at https://github.com/electron/electron/issues/15947
-        app.on('ready', () => setTimeout(createWindow, 400));
+        app.on('ready', () => {
+            setTimeout(createWindow, 400)
+        });
 
         // Quit when all windows are closed.
         app.on('window-all-closed', () => {
@@ -45,7 +50,7 @@ else {
         app.on('activate', () => {
             // On OS X it's common to re-create a window in the app when the
             // dock icon is clicked and there are no other windows open.
-            if(WindowStore.main === null) {
+            if(GlobalStore.mainWindow === null) {
                 createWindow();
             }
         });

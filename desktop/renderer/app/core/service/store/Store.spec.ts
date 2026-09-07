@@ -1,4 +1,3 @@
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import { createElectronServiceMock, ElectronService } from '@service/electron/electron.service.mock';
 import { createMessageServiceMock, MessageService } from '@test/MessageService.mock';
 import { createTranslateMock, TranslateService } from '@test/TranslateService.mock';
@@ -10,11 +9,14 @@ type TestStoreData = {
     c: string;
 };
 
+type TestStoreGet = {
+    data: TestStoreData;
+    successful: boolean;
+};
+
 class TestStore extends Store<TestStoreData> {
     failedDetailKey = '';
     failedSummaryKey = '';
-    ipcGetEvent = IPC_EVENT.GET_SAVE;
-    ipcSaveEvent = IPC_EVENT.SET_SAVE;
 
     constructor(
         translate: TranslateService,
@@ -22,6 +24,14 @@ class TestStore extends Store<TestStoreData> {
         svcElectron: ElectronService
     ) {
         super(translate, svcMessage, svcElectron);
+    }
+
+    getStore(): TestStoreGet {
+        return this.svcElectron.getSave() as unknown as TestStoreGet;
+    }
+
+    setStore(data: TestStoreData): void {
+        this.svcElectron.setSave(data as unknown as any);
     }
 }
 
@@ -43,8 +53,12 @@ describe('Store', () => {
 
     describe('load', () => {
         it('should set data from the return from ipcRenderer', () => {
-            const response = { successful: true, data: { a: { b: { c: 'x' } }, c: 'y' } };
-            jest.spyOn(svcElectron, 'sendSync').mockReturnValue(response);
+            const response: TestStoreGet = {
+                successful: true,
+                data: { a: { b: { c: 'x' } }, c: 'y' }
+            };
+
+            jest.spyOn(svcElectron, 'getSave').mockReturnValue(response as any);
 
             store.load();
 
@@ -133,9 +147,9 @@ describe('Store', () => {
 
     describe('save', () => {
         it('should save via svcElectron', () => {
-            expect(svcElectron.sendSync).not.toHaveBeenCalled();
+            expect(svcElectron.setSave).not.toHaveBeenCalled();
             store.save();
-            expect(svcElectron.sendSync).toHaveBeenCalledWith(store.ipcSaveEvent, store.data);
+            expect(svcElectron.setSave).toHaveBeenCalledWith(store.data);
         });
     });
 });

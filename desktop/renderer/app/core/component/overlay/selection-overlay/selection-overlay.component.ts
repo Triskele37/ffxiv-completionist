@@ -3,7 +3,6 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
@@ -56,7 +55,7 @@ export class SelectionOverlayComponent extends Overlay {
             while(parent?._parent?._parent?.isCraftingLogGroup) parent = parent._parent;
             const groupName = `${parent?.name} - ${this.group.name}`;
 
-            this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_GARLAND_TOOLS, ids, groupName);
+            this.svcElectron.openInGarlandTools(ids, groupName);
         }
     }
 
@@ -64,7 +63,7 @@ export class SelectionOverlayComponent extends Overlay {
         const ids = this.getSelectedItemResultIds();
 
         if(ids.length) {
-            this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_TEAMCRAFT, ids);
+            this.svcElectron.openInTeamcraft(ids);
         }
     }
 }

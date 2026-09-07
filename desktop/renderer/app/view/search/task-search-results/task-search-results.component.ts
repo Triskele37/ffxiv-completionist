@@ -58,7 +58,7 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
 
     ngOnInit(): void {
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
-            this.showKey.set(data.isAdmin);
+            this.showKey.set(!!data.isAdmin);
         });
     }
 

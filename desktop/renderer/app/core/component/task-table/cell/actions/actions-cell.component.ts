@@ -49,7 +49,7 @@ export class ActionsCellComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
-            this.showCopyId.set(data.isAdmin);
+            this.showCopyId.set(!!data.isAdmin);
         });
     }
 

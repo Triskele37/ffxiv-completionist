@@ -4,7 +4,6 @@ import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { DataGroup } from '@model/DataGroup';
 import type { JsonTasks } from '@model/JSONResource';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
@@ -103,7 +102,7 @@ export class CustomContentService {
 
     //#region------------------------------------------------------- Import/Export
     importGroup(parentGroup: DataGroup): DataGroup | undefined {
-        const importedMeta = this.svcElectron.sendSync(IPC_EVENT.IMPORT_CUSTOM);
+        const importedMeta = this.svcElectron.importCustom();
 
         if(importedMeta === false) {
             this.svcMessage.add({
@@ -136,7 +135,7 @@ export class CustomContentService {
         const metaStorageKey = this.getMetaStorageKey(group);
         const groupMeta = this.svcSaveStore.get(metaStorageKey) || {};
 
-        this.svcElectron.sendSync(IPC_EVENT.EXPORT_CUSTOM, groupMeta);
+        this.svcElectron.exportCustom(groupMeta);
     }
 
     //#endregion

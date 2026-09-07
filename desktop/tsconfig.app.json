@@ -1,0 +1,45 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/renderer",
+        "paths": {
+			"@common/*": ["./common/*"],
+            "@admin/*": ["./renderer/app/admin/*"],
+            "@constant": ["./renderer/app/constant"],
+            "@constant/*": ["./renderer/app/constant/*"],
+            "@component/*": ["./renderer/app/core/component/*"],
+            "@data": ["./renderer/app/data"],
+            "@data/*": ["./renderer/app/data/*"],
+            "@decorator/*": ["./renderer/app/core/decorator/*"],
+            "@directive/*": ["./renderer/app/core/directive/*"],
+            "@model/*": ["./renderer/app/model/*"],
+            "@pipe/*": ["./renderer/app/core/pipe/*"],
+            "@service/*": ["./renderer/app/core/service/*"],
+            "@test/*": ["./renderer/test/*"],
+            "@util/*": ["./renderer/app/core/util/*"],
+            "@view/*": ["./renderer/app/view/*"]
+        }
+    },
+    "files": [
+        "renderer/main.ts",
+        "renderer/polyfills.ts"
+    ],
+    "include": [
+        "renderer/**/*.ts",
+        "renderer/**/*.d.ts"
+    ],
+    "exclude": [
+        "renderer/**/*.spec.ts",
+        "renderer/**/*.mock.ts",
+        "renderer/env"
+    ],
+    "angularCompilerOptions": {
+        "strictTemplates": true,
+        "annotateForClosureCompiler": true,
+        "strictInjectionParameters": true,
+        "skipTemplateCodegen": false,
+        "preserveWhitespaces": true,
+        "skipMetadataEmit": false,
+        "disableTypeScriptVersionCheck": true
+    }
+}

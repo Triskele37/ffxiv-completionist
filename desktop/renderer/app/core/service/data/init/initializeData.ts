@@ -1,4 +1,3 @@
-import { IPC_EVENT } from '@common/IPC_EVENT';
 import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 
@@ -11,7 +10,7 @@ export function initializeData(
     this: DataServiceContext,
 ): DataGroup {
     // Inject the full data cache into the renderer
-    this.loader.dataCache = this.svcElectron?.sendSync(IPC_EVENT.GET_DATA);
+    this.loader.dataCache = this.svcElectron?.getData();
 
     // Load the root DataGroup
     const data = this.loader.loadGroupShallow(null, '');

@@ -1,7 +1,7 @@
 import type { TranslateService } from '@ngx-translate/core';
 import type { MessageService } from 'primeng/api';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
+import { MainApi } from '@common/MainApi';
 
 import { getConsoleGamesWikiSearchUrl } from './consolegameswiki';
 import { getTeamCraftGroupUrl } from './ffxivteamcraft';
@@ -16,26 +16,26 @@ import { getGarlandToolsSearchUrl, getGarlandToolsGroupUrl } from './garlandtool
 export function copyLinkShim(
     svcMessage: MessageService,
     translate: TranslateService,
-    ipcEvent: IPC_EVENT,
+    ipcEvent: keyof MainApi,
     ...args: any[]
 ): void {
     const [termOrIds, groupName] = args;
     let link: string;
 
     switch(ipcEvent) {
-        case IPC_EVENT.SEARCH_CONSOLE_GAMES:
+        case 'searchConsoleGames':
             link = getConsoleGamesWikiSearchUrl(termOrIds);
             break;
-        case IPC_EVENT.SEARCH_GAMER_ESCAPE:
+        case 'searchGamerEscape':
             link = getGamerEscapeSearchUrl(termOrIds);
             break;
-        case IPC_EVENT.SEARCH_GARLAND_TOOLS:
+        case 'searchGarlandTools':
             link = getGarlandToolsSearchUrl(termOrIds);
             break;
-        case IPC_EVENT.OPEN_IN_GARLAND_TOOLS:
+        case 'openInGarlandTools':
             link = getGarlandToolsGroupUrl(groupName, termOrIds);
             break;
-        case IPC_EVENT.OPEN_IN_TEAMCRAFT:
+        case 'openInTeamcraft':
             link = getTeamCraftGroupUrl(termOrIds);
             break;
         default: return;

@@ -17,7 +17,7 @@
                         "outputPath": "desktop/dist",
                         "index": "desktop/renderer/index.html",
                         "main": "desktop/renderer/main.ts",
-                        "tsConfig": "desktop/renderer/tsconfig.app.json",
+                        "tsConfig": "desktop/tsconfig.app.json",
                         "polyfills": "desktop/renderer/polyfills.ts",
                         "inlineStyleLanguage": "scss",
                         "assets": [
@@ -144,7 +144,7 @@
                         "outputPath": "translate/dist",
                         "index": "translate/renderer/index.html",
                         "main": "translate/renderer/main.ts",
-                        "tsConfig": "translate/renderer/tsconfig.app.json",
+                        "tsConfig": "translate/tsconfig.app.json",
                         "polyfills": "translate/renderer/polyfills.ts",
                         "inlineStyleLanguage": "scss",
                         "assets": [

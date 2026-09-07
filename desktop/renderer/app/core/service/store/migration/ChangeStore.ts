@@ -1,7 +1,7 @@
+import type { PlayerSave } from '@common/PlayerSave';
 import type { CompletionFlag } from '@constant';
 import type { ConfigStoreService } from '@service/store/config-store.service';
 
-import type { SaveStore } from '../Store.d';
 import type { SaveStoreService } from '../save-store.service';
 
 export type ID = number | string;
@@ -9,8 +9,8 @@ export type ID = number | string;
 export class ChangeStore {
     svcConfigStore: ConfigStoreService;
     svcSaveStore: SaveStoreService;
-    newStore: SaveStore;
-    oldStore: SaveStore;
+    newStore: PlayerSave;
+    oldStore: PlayerSave;
 
     constructor(
         svcConfigStore: ConfigStoreService,
@@ -22,7 +22,7 @@ export class ChangeStore {
         this.svcSaveStore = svcSaveStore;
 
         // Create the initial store object for new users
-        const save: SaveStore = this.svcSaveStore.data || {
+        const save: PlayerSave = this.svcSaveStore.data || {
             overall: {},
             custom: {},
             'bookmarked-groups': [],

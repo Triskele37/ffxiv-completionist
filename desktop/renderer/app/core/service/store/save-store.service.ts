@@ -2,22 +2,19 @@ import { Injectable, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 
-import { IPC_EVENT } from '@common/IPC_EVENT';
+import { PlayerSave, SaveLoad } from '@common/PlayerSave';
 import { ElectronService } from '@service/electron/electron.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { migrateData } from './migration';
 import { Store } from './Store';
-import type { SaveStore } from './Store.d';
 
 @Injectable({
     providedIn: 'root'
 })
-export class SaveStoreService extends Store<SaveStore> {
+export class SaveStoreService extends Store<PlayerSave> {
     private svcConfigStore = inject(ConfigStoreService);
 
-    ipcGetEvent = IPC_EVENT.GET_SAVE;
-    ipcSaveEvent = IPC_EVENT.SET_SAVE;
     failedSummaryKey = 'APP.TOAST.SAVE_FAILED_SUMMARY';
     failedDetailKey = 'APP.TOAST.SAVE_FAILED_DETAIL';
 
@@ -32,6 +29,14 @@ export class SaveStoreService extends Store<SaveStore> {
 
         // On failure, the config must be reloaded since it is changed in the main process
         if(!successful) this.svcConfigStore.load();
+    }
+
+    getStore(): SaveLoad {
+        return this.svcElectron.getSave();
+    }
+
+    setStore(save: PlayerSave): void {
+        this.svcElectron.setSave(save);
     }
 
     migrateData(): void {
