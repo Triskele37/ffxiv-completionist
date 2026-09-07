@@ -3,7 +3,7 @@
     "compilerOptions": {
         "outDir": "./out-tsc/app",
         "paths": {
-            "@admin/*": ["./renderer/app/admin/*"],
+            "@common/*": ["./common/*"],
             "@constant": ["./renderer/app/constant"],
             "@constant/*": ["./renderer/app/constant/*"],
             "@component/*": ["./renderer/app/core/component/*"],

@@ -4,7 +4,6 @@ export default {
     testMatch: ['./**/*.spec.ts'],
     setupFilesAfterEnv: ['./setup-jest.ts'],
     moduleNameMapper: {
-        "^@admin/(.*)$": ["<rootDir>/app/admin/$1"],
         "^@constant$": ["<rootDir>/app/constant"],
         "^@constant/(.*)$": ["<rootDir>/app/constant/$1"],
         "^@component/(.*)$": ["<rootDir>/app/core/component/$1"],

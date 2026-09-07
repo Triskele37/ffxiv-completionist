@@ -2,9 +2,10 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
+import { Issue } from '../../../common/Issue';
 import { getVerified } from './getVerified';
 import { loadJson } from './loadJson.js';
-import { Issue, JSON } from './types';
+import { JSON } from './types';
 import { diveToProperty } from './diveToProperty';
 
 export const I18N_PATH = path.join('..', 'desktop', 'renderer', 'assets', 'i18n');

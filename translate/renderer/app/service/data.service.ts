@@ -1,8 +1,8 @@
 import { computed, inject, Injectable, signal, WritableSignal } from '@angular/core';
 import { Lang } from '@constant/Lang';
 
+import { Issue, IssueType } from '@common/Issue';
 import { diveForKey } from '@model/diveForKey';
-import { Issue, IssueType } from '@model/Issue';
 import { ElectronService } from '@service/electron/electron.service';
 import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 

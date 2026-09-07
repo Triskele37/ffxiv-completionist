@@ -2,9 +2,9 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
+import { Issue } from '../../../common/Issue';
 import { getVerified } from './getVerified';
 import { loadJson } from './loadJson.js';
-import type { Issue } from './types';
 
 export const RESOURCES_PATH = path.join('..', 'resources');
 

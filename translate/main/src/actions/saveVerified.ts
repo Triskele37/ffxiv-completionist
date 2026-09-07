@@ -2,9 +2,9 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
+import { Issue } from '../../../common/Issue';
 import { loadJson } from './loadJson';
 import { prettyJson } from './prettyJson';
-import { Issue } from './types';
 import { VERIFIED_DIR } from './getVerified';
 import { diveToProperty } from './diveToProperty';
 

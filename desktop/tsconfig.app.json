@@ -4,7 +4,6 @@
         "outDir": "./out-tsc/renderer",
         "paths": {
 			"@common/*": ["./common/*"],
-            "@admin/*": ["./renderer/app/admin/*"],
             "@constant": ["./renderer/app/constant"],
             "@constant/*": ["./renderer/app/constant/*"],
             "@component/*": ["./renderer/app/core/component/*"],

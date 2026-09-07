@@ -44,8 +44,7 @@ export function loadSave(): SaveLoad {
         const key = k as keyof PlayerSave;
 
         if(save[key] !== undefined) {
-            // @ts-ignore - annoying key traversal bs
-            GlobalStore.save[key] = save[key];
+            GlobalStore.save[key] = save[key] as never;
         }
     }
 

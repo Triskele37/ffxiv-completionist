@@ -12,13 +12,16 @@
             "projectType": "application",
             "architect": {
                 "build": {
-                    "builder": "@angular-builders/custom-webpack:browser",
+                    "builder": "@angular/build:application",
                     "options": {
-                        "outputPath": "desktop/dist",
+                        "browser": "desktop/renderer/main.ts",
                         "index": "desktop/renderer/index.html",
-                        "main": "desktop/renderer/main.ts",
                         "tsConfig": "desktop/tsconfig.app.json",
-                        "polyfills": "desktop/renderer/polyfills.ts",
+                        "outputPath": {
+                            "base": "desktop/dist",
+                            "browser": ""
+                        },
+                        "polyfills": ["desktop/renderer/polyfills.ts"],
                         "inlineStyleLanguage": "scss",
                         "assets": [
                             "desktop/renderer/assets"
@@ -32,11 +35,7 @@
                                 "desktop/renderer/styles"
                             ]
                         },
-                        "scripts": [],
-                        "customWebpackConfig": {
-                            "path": "./angular.webpack.js",
-                            "replaceDuplicatePlugins": true
-                        }
+                        "scripts": []
                     },
                     "configurations": {
                         "dev": {
@@ -46,8 +45,6 @@
                             "namedChunks": false,
                             "aot": true,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": false,
                             "fileReplacements": [
                                 {
                                     "replace": "desktop/renderer/env/env.ts",
@@ -62,8 +59,6 @@
                             "namedChunks": false,
                             "aot": true,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": true,
                             "fileReplacements": [
                                 {
                                     "replace": "desktop/renderer/env/env.ts",
@@ -78,8 +73,6 @@
                             "namedChunks": false,
                             "aot": true,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": false,
                             "fileReplacements": [
                                 {
                                     "replace": "desktop/renderer/env/env.ts",
@@ -94,8 +87,6 @@
                             "namedChunks": false,
                             "aot": true,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": true,
                             "fileReplacements": [
                                 {
                                     "replace": "desktop/renderer/env/env.ts",
@@ -106,7 +97,7 @@
                     }
                 },
                 "serve": {
-                    "builder": "@angular-builders/custom-webpack:dev-server",
+                    "builder": "@angular/build:dev-server",
                     "options": {
                         "buildTarget": "ffxiv-completionist:build"
                     },
@@ -126,7 +117,7 @@
                     }
                 },
                 "extract-i18n": {
-                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "builder": "@angular/build:extract-i18n",
                     "options": {
                         "buildTarget": "ffxiv-completionist:build"
                     }
@@ -139,13 +130,16 @@
             "projectType": "application",
             "architect": {
                 "build": {
-                    "builder": "@angular-builders/custom-webpack:browser",
+                    "builder": "@angular/build:application",
                     "options": {
-                        "outputPath": "translate/dist",
+                        "browser": "translate/renderer/main.ts",
                         "index": "translate/renderer/index.html",
-                        "main": "translate/renderer/main.ts",
                         "tsConfig": "translate/tsconfig.app.json",
-                        "polyfills": "translate/renderer/polyfills.ts",
+                        "outputPath": {
+                            "base": "translate/dist",
+                            "browser": ""
+                        },
+                        "polyfills": ["translate/renderer/polyfills.ts"],
                         "inlineStyleLanguage": "scss",
                         "assets": [
                             "translate/renderer/assets"
@@ -158,11 +152,7 @@
                                 "translate/renderer/styles"
                             ]
                         },
-                        "scripts": [],
-                        "customWebpackConfig": {
-                            "path": "./angular.webpack.js",
-                            "replaceDuplicatePlugins": true
-                        }
+                        "scripts": []
                     },
                     "configurations": {
                         "dev": {
@@ -172,8 +162,6 @@
                             "namedChunks": false,
                             "aot": false,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": false,
                             "fileReplacements": [
                                 {
                                     "replace": "translate/renderer/env/env.ts",
@@ -188,8 +176,6 @@
                             "namedChunks": false,
                             "aot": false,
                             "extractLicenses": true,
-                            "vendorChunk": false,
-                            "buildOptimizer": false,
                             "fileReplacements": [
                                 {
                                     "replace": "translate/renderer/env/env.ts",
@@ -200,7 +186,7 @@
                     }
                 },
                 "serve": {
-                    "builder": "@angular-builders/custom-webpack:dev-server",
+                    "builder": "@angular/build:dev-server",
                     "options": {
                         "buildTarget": "translate:build"
                     },
@@ -214,7 +200,7 @@
                     }
                 },
                 "extract-i18n": {
-                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "builder": "@angular/build:extract-i18n",
                     "options": {
                         "buildTarget": "translate:build"
                     }

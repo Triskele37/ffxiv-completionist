@@ -2,9 +2,9 @@ import { IpcMainEvent } from 'electron';
 import fs from 'fs';
 import path from 'path';
 
+import { Issue } from '../../../common/Issue';
 import { loadJson } from './loadJson';
 import { prettyJson } from './prettyJson';
-import { Issue } from './types';
 
 import { I18N_PATH } from './compare_i18n';
 import { RESOURCES_PATH } from './compare_data';
