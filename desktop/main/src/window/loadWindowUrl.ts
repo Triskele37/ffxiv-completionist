@@ -21,7 +21,9 @@ function loadForServe(): void {
         electron: require(electronModule)
     });
 
-    GlobalStore.mainWindow.loadURL('http://localhost:4200/');
+    const url = 'http://localhost:4200/';
+    GlobalStore.senderUrl = url;
+    GlobalStore.mainWindow.loadURL(url);
 }
 
 function loadForProd(): void {
@@ -37,6 +39,7 @@ function loadForProd(): void {
     for(const location of locations) {
         if(fs.existsSync(location)) {
             const url = pathToFileURL(location);
+            GlobalStore.senderUrl = url.href;
             void GlobalStore.mainWindow.loadURL(url.href);
             return;
         }

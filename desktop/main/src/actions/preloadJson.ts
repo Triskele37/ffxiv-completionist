@@ -9,8 +9,10 @@ export const JSON_CACHE: Record<string, object> = {};
 /**
  * CachedCache is a PoC, invalidation isn't figured out yet
  * it does reduce preload significantly though
+ * - when implemented, resources should be one level deeper, and the check below unneccessary
  * */
 const DISABLE_CACHED_CACHE = true;
+const CACHE_NAME = 'preloadedData.json';
 
 /**
  * Preload all json asynchronously before the app loads to speed up init time
@@ -18,11 +20,14 @@ const DISABLE_CACHED_CACHE = true;
  */
 export async function preloadJson() {
     const resourceRoot = getResourcesRoot();
-    const cachePath = path.join(path.normalize(resourceRoot), 'data.json');
+    const cachePath = path.join(path.normalize(resourceRoot), CACHE_NAME);
 
     if(DISABLE_CACHED_CACHE || !fs.existsSync(cachePath)) {
         await diveResources(path.normalize(resourceRoot));
-        fs.writeFileSync(cachePath, JSON.stringify(JSON_CACHE));
+
+        if(!DISABLE_CACHED_CACHE) {
+            fs.writeFileSync(cachePath, JSON.stringify(JSON_CACHE));
+        }
     }
     else {
         const cachedCache = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
@@ -45,6 +50,8 @@ async function diveResources(root: string, p: string = root): Promise<void> {
             await diveResources(root, entityPath);
         }
         else if(entity.name.endsWith('.json')) {
+            if(entity.name === CACHE_NAME && entityPath === path.join(root, CACHE_NAME)) return;
+
             const file = await fs.promises.readFile(entityPath, 'utf8');
             const cacheKey = pathToKey(root, entityPath);
 

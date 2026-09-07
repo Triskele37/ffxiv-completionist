@@ -3,8 +3,8 @@ export type Option = {
     isCustom?: boolean;
 };
 
-export function toOptions(values: string[]): Option[] {
-    return values.map(toOption);
+export function toOptions(values: string[] | undefined): Option[] {
+    return values?.map(toOption) ?? [];
 }
 
 export function toOption(value: string): Option {

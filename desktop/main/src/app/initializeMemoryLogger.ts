@@ -1,10 +1,13 @@
 import { app } from 'electron';
+import { GlobalStore } from '../globalStore';
 
 /**
  * Logs memory usage to console every interval
  * - One of the "Tab" lines is dev tools
  * */
-export function logMemoryToConsole(): void {
+export function initializeMemoryLogger(): void {
+    if(!GlobalStore.LOG_MEMORY) return;
+
     setInterval(() => {
         console.table(
             app.getAppMetrics().map((p) => ({

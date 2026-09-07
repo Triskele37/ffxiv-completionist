@@ -15,10 +15,13 @@ export function loadMainWindow(): void {
         show: GlobalStore.DEBUG_MAIN_WINDOW,
         webPreferences: {
             preload: path.join(app.getAppPath(), 'main', 'preload.js'),
-            // explicitly set these to the secure values
+            // SEC: explicitly set these despite them being default
             contextIsolation: true,
             nodeIntegration: false,
             sandbox: true,
+            allowRunningInsecureContent: false,
+            experimentalFeatures: false,
+            webSecurity: true,
         },
     });
 

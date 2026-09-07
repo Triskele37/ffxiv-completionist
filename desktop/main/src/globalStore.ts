@@ -9,12 +9,14 @@ export const GlobalStore: GlobalStore = {
     mainWindow: null,
 
     DEBUG_SPLASH_WINDOW: false,
-    DEBUG_MAIN_WINDOW: true,
-    LOG_IPC_CHAIN: true,
+    DEBUG_MAIN_WINDOW: false,
+    LOG_MEMORY: false,
+    LOG_IPC_CHAIN: false,
 };
 
 type GlobalStore = {
     isServe?: boolean;
+    senderUrl?: string;
 
     splashWindow: BrowserWindow | null;
     mainWindow: BrowserWindow | null;
@@ -31,5 +33,6 @@ type GlobalStore = {
     // Debug Flags
     DEBUG_SPLASH_WINDOW: boolean;
     DEBUG_MAIN_WINDOW: boolean; // shows the main window regardless of load state (allows console access)
+    LOG_MEMORY: boolean;
     LOG_IPC_CHAIN: boolean;
 };
