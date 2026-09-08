@@ -121,9 +121,7 @@ export class TaskTableComponent implements OnChanges {
             );
 
             if(index > -1) {
-                // Clear the svcNav's selectedTask
                 this.targetTaskScrollTo = selectedTask.fullStorageKey;
-                this.svcNavigation.selectedTask.set(null);
 
                 // Initiate a scroll to the task
                 const noReally = setInterval(() => {
