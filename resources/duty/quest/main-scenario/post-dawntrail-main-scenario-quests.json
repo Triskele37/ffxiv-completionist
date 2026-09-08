@@ -156,7 +156,8 @@
             "npc_fr": "Sphene",
             "patch": "7.2",
             "cPrev": ["q.70841"],
-            "cNext": ["q.70900"]
+            "cNext": ["q.70900"],
+            "cSiblings": ["a.3633"]
         },
         "x70900": {
             "name_en": "Targeted Tragedy",
@@ -256,9 +257,11 @@
             "level": 100,
             "npc_en": "Shale",
             "npc_fr": "Shale",
+            "unlock": "o.769",
             "patch": "7.3",
             "cPrev": ["q.70908"],
-            "cNext": ["q.70962", "q.70996"]
+            "cNext": ["q.70962", "q.70996"],
+            "cSiblings": ["a.3773"]
         }
     }
 }

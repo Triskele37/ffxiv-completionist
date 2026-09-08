@@ -93,9 +93,11 @@
             "level": 100,
             "npc_en": "Krile",
             "npc_fr": "Krile",
+            "unlock": "o.804",
             "patch": "7.4",
             "cPrev": ["q.70969"],
-            "cNext": ["q.71006"]
+            "cNext": ["q.71006"],
+            "cSiblings": ["a.3863"]
         },
         "x71006": {
             "name_en": "In Fate's Footsteps",
@@ -148,7 +150,8 @@
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "patch": "7.5",
-            "cPrev": ["q.71009"]
+            "cPrev": ["q.71009"],
+            "cSiblings": ["a.3942"]
         }
     }
 }

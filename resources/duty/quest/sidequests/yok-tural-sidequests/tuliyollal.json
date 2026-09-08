@@ -10,7 +10,8 @@
             "npc_en": "Tonawawtan Boy",
             "npc_fr": "Petit Tonawawta",
             "patch": "7.5",
-            "cPrev": ["q.71008"]
+            "cPrev": ["q.71008"],
+            "unlock": "mo.420"
         },
         "x70553": {
             "name_en": "The Many Multitudes of Mamool Ja",
@@ -137,7 +138,8 @@
             "npc_en": "Cornservant",
             "npc_fr": "Sire Épidemaïs",
             "patch": "7.2",
-            "cPrev": ["q.70709", "q.70495"]
+            "cPrev": ["q.70709", "q.70495"],
+            "unlock": "mi.536"
         },
         "x70545": {
             "name_en": "A New Dawn, a New Hunt",
@@ -216,7 +218,8 @@
             "npc_en": "Tiisol Ja",
             "npc_fr": "Tiisol Ja",
             "patch": "7.51",
-            "cPrev": ["q.70996"]
+            "cPrev": ["q.70996"],
+            "unlock": ["tto.133", "e.330", "e.331"]
         }
     }
 }

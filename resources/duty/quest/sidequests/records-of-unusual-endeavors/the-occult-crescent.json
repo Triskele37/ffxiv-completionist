@@ -11,7 +11,8 @@
             "npc_fr": "Messager De L'expédition",
             "patch": "7.25",
             "cPrev": ["q.70495"],
-            "cNext": ["q.70846"]
+            "cNext": ["q.70846"],
+            "unlock": "duty.collection.occult-record.0"
         },
         "x70846": {
             "name_en": "The Phantom Village",
@@ -21,7 +22,8 @@
             "npc_fr": "Ketenramm",
             "patch": "7.25",
             "cPrev": ["q.70845"],
-            "cNext": ["q.70847"]
+            "cNext": ["q.70847"],
+            "unlock": "duty.collection.occult-record.2"
         },
         "x70847": {
             "name_en": "Unfamiliar Territory",
@@ -31,7 +33,8 @@
             "npc_fr": "Archive",
             "patch": "7.25",
             "cPrev": ["q.70846"],
-            "cNext": ["q.70848", "q.70855"]
+            "cNext": ["q.70848", "q.70855"],
+            "unlock": "duty.collection.occult-record.3"
         },
         "x70848": {
             "name_en": "New Job, Old Tricks",
@@ -41,7 +44,12 @@
             "npc_fr": "Ketenramm",
             "patch": "7.25",
             "cPrev": ["q.70847"],
-            "cNext": ["q.70849"]
+            "cNext": ["q.70849"],
+            "unlock": [
+                "duty.field-operations.occult-crescent.phantom-job.1",
+                "duty.field-operations.occult-crescent.phantom-job.3",
+                "duty.field-operations.occult-crescent.phantom-job.6"
+            ]
         },
         "x70849": {
             "name_en": "The Ancient Arts of War",
@@ -51,7 +59,8 @@
             "npc_fr": "Archive",
             "patch": "7.25",
             "cPrev": ["q.70848"],
-            "cNext": ["q.70850"]
+            "cNext": ["q.70850"],
+            "unlock": "duty.collection.occult-record.5"
         },
         "x70850": {
             "name_en": "Creatures of the Crescent",
@@ -91,7 +100,8 @@
             "npc_fr": "Archive",
             "patch": "7.25",
             "cPrev": ["q.70852"],
-            "cNext": ["q.70854"]
+            "cNext": ["q.70854"],
+            "unlock": "duty.collection.occult-record.24"
         },
         "x70854": {
             "name_en": "Mysteries Abide",
@@ -180,7 +190,8 @@
             "npc_en": "Archive",
             "npc_fr": "Archive",
             "patch": "7.55",
-            "cPrev": ["q.71053"]
+            "cPrev": ["q.71053"],
+            "unlock": "duty.collection.occult-record.58"
         }
     }
 }
