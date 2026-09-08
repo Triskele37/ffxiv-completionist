@@ -15,10 +15,15 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
     const CURRENT = 'overall.travel.aether-currents';
     store.moveGroup(`${CURRENT}.shb.the-raktika-greatwood`, `${CURRENT}.shb.the-rak-tika-greatwood`);
 
+    // Fix capitalized key
     const BLRF = 'overall.logs.gathering.gathering-log.logging.regional-folklore';
     store.moveGroup(`${BLRF}.Coerthas`, `${BLRF}.coerthas`);
 
+    // Rename EM to FO
     store.moveGroup('overall.duty.exploratory-missions', 'overall.duty.field-operations');
+
+    // correct Araya key
+    store.safeChangeKeys('duty.duty-raid-finder.trials.ew', [[69, 944]]);
 
     migrateGathering(store);
     migrateFacewear(store);
