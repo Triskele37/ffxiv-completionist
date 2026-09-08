@@ -16,12 +16,12 @@ export function defaultColumnProps(
         case 'category':
             return {
                 filterable: column.filterable ?? true,
-                width: column.width ?? 250,
+                // width: column.width ?? 250,
             };
         case 'patch':
             return {
                 filterable: column.filterable ?? true,
-                width: column.width ?? 100,
+                width: column.width ?? 90,
             };
         case 'zone':
             return {

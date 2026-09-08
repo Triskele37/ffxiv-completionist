@@ -19,7 +19,17 @@ $setting-height: 40px;
             display: inline-block;
             padding-right: 10px;
             text-align: right;
+            flex-shrink: 0;
             width: 200px;
+        }
+
+        label:last-child {
+            width: calc(100% - 200px);
+            overflow-x: auto;
+
+            &::-webkit-scrollbar {
+                height: 10px;
+            }
         }
 
         .p-button {

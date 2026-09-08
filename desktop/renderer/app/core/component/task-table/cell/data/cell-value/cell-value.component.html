@@ -1,8 +1,6 @@
-@let isTextOnly = value.type === 'Value';
-
 <span
     class="cell-value"
-    [ngClass]="{ 'text-only': isTextOnly, link: !isTextOnly }"
+    [ngClass]="{ 'text-only': value.type === 'Value', link: value.type !== 'Value' }"
     [pTooltip]="tooltip()"
     tooltipPosition="bottom"
 >

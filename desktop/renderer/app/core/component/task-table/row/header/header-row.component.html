@@ -10,7 +10,9 @@
 
     <!-- Data Headers -->
     @for(column of svcTable.group().columns; track column.key) {
-        <th [style.width.px]="column.width">
+        <th
+            [style.width.px]="column.width"
+        >
             @let helpKey = svcTable.group().isCustomGroup ? 'CUSTOM_VIEW.CUSTOM_COLUMN_NAME' : 'TABLE.COLUMN_NAME';
             <div
                 [attr.data-active-help]="'APP.ACTIVE_HELP.' + helpKey"

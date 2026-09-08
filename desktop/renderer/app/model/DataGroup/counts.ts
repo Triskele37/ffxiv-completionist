@@ -7,14 +7,20 @@ import type { DataGroup } from './index';
  * Common method of counting
  * */
 type CountTask = (task: Task) => number;
-function countGroup(group: DataGroup | null, countTask: CountTask): number {
+function countGroup(
+    group: DataGroup | null,
+    countTask: CountTask,
+    forceCount: boolean = false,
+): number {
     if(!group) return 0;
-    if(group.isBookmarkGroup) return 0;
-    if(group.disableCompletion) return 0;
+    if(!forceCount) {
+        if(group.isBookmarkGroup) return 0;
+        if(group.disableCompletion) return 0;
+    }
 
     let count: number = 0;
     group.tasks?.forEach((task) => count += countTask(task));
-    group.subGroups?.forEach((g) => count += countGroup(g, countTask));
+    group.subGroups?.forEach((g) => count += countGroup(g, countTask, forceCount));
     return count;
 }
 
@@ -25,7 +31,7 @@ export function getTotal(group: DataGroup): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) return task.maxValue - task.minValue;
         return 1;
-    });
+    }, true);
 }
 
 /**

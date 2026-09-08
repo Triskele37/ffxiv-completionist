@@ -37,6 +37,7 @@
     .update-notes {
         interpolate-size: allow-keywords;
         transition: height 1s;
+        white-space: normal;
         overflow: hidden;
 
         .section {

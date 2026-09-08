@@ -9,13 +9,5 @@
 	- `optimization` still disabled on build
 	    - still an issue after build rework
 
-- Responsive (@min-width 750)
-	- Prime tab content overflows w/o wrap
-		- also see save location string
-	- Table headers overlap when table is small (real bad)
-	- Large filter select overlay becomes unreadable (use patch view small X)
-	- Table overlays don't adjust left
-	- ellipsis overflowed summary-lines don't have tooltip
-
 - Missing Data
     - Fish Bait

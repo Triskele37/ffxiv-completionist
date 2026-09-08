@@ -8,12 +8,13 @@
         align-items: center;
     }
 
-    // Special positioning for patch on screen edge
-    .dropdown-filter.patch ::ng-deep .p-overlay {
-        inset-inline-start: -100px !important;
-    }
-
     ::ng-deep .p-overlay {
+        max-width: 300px;
+        width: fit-content;
+
+        // Prime dumb (left/right determined in header-row)
+        inset-inline-start: unset !important;
+
         .p-select-overlay {
             border: 1px solid var(--primary-color);
             border-bottom-right-radius: 0;
