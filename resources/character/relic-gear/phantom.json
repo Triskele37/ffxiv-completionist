@@ -62,7 +62,7 @@
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [61],
+            "cNext": [21],
             "cSiblings": ["a.3643"]
         },
         "x21": {
@@ -72,8 +72,8 @@
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [60],
-            "cNext": [62],
+            "cPrev": [20],
+            "cNext": [22],
             "cSiblings": ["a.3757"]
         },
         "x22": {
@@ -83,8 +83,8 @@
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [61],
-            "cNext": [63],
+            "cPrev": [21],
+            "cNext": [23],
             "cSiblings": ["a.3847"]
         },
         "x23": {
@@ -94,8 +94,8 @@
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [62],
-            "cNext": [64],
+            "cPrev": [22],
+            "cNext": [24],
             "cSiblings": ["a.3954"]
         },
         "x24": {
@@ -105,7 +105,7 @@
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [63]
+            "cPrev": [23]
         },
         "x30": {
             "name_en": "Phantom Bardiche Umbrae",
@@ -114,7 +114,7 @@
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [21],
+            "cNext": [31],
             "cSiblings": ["a.3639"]
         },
         "x31": {
@@ -124,8 +124,8 @@
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [20],
-            "cNext": [22],
+            "cPrev": [30],
+            "cNext": [32],
             "cSiblings": ["a.3753"]
         },
         "x32": {
@@ -135,8 +135,8 @@
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [21],
-            "cNext": [23],
+            "cPrev": [31],
+            "cNext": [33],
             "cSiblings": ["a.3843"]
         },
         "x33": {
@@ -146,8 +146,8 @@
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [22],
-            "cNext": [24],
+            "cPrev": [32],
+            "cNext": [34],
             "cSiblings": ["a.3950"]
         },
         "x34": {
@@ -157,7 +157,7 @@
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [23]
+            "cPrev": [33]
         },
         "x40": {
             "name_en": "Phantom Spear Umbrae",
@@ -166,7 +166,7 @@
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [51],
+            "cNext": [41],
             "cSiblings": ["a.3642"]
         },
         "x41": {
@@ -176,8 +176,8 @@
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [50],
-            "cNext": [52],
+            "cPrev": [40],
+            "cNext": [42],
             "cSiblings": ["a.3756"]
         },
         "x42": {
@@ -187,8 +187,8 @@
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [51],
-            "cNext": [53],
+            "cPrev": [41],
+            "cNext": [43],
             "cSiblings": ["a.3846"]
         },
         "x43": {
@@ -198,8 +198,8 @@
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [52],
-            "cNext": [54],
+            "cPrev": [42],
+            "cNext": [44],
             "cSiblings": ["a.3953"]
         },
         "x44": {
@@ -209,7 +209,7 @@
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [53]
+            "cPrev": [43]
         },
         "x50": {
             "name_en": "Phantom Harp Bow Umbrae",
@@ -218,7 +218,7 @@
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [111],
+            "cNext": [51],
             "cSiblings": ["a.3648"]
         },
         "x51": {
@@ -228,8 +228,8 @@
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [110],
-            "cNext": [112],
+            "cPrev": [50],
+            "cNext": [52],
             "cSiblings": ["a.3762"]
         },
         "x52": {
@@ -239,8 +239,8 @@
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [111],
-            "cNext": [113],
+            "cPrev": [51],
+            "cNext": [53],
             "cSiblings": ["a.3852"]
         },
         "x53": {
@@ -250,8 +250,8 @@
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [112],
-            "cNext": [114],
+            "cPrev": [52],
+            "cNext": [54],
             "cSiblings": ["a.3959"]
         },
         "x54": {
@@ -261,7 +261,7 @@
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [113]
+            "cPrev": [53]
         },
         "x60": {
             "name_en": "Phantom Cleavers Umbrae",
@@ -270,7 +270,7 @@
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [71],
+            "cNext": [61],
             "cSiblings": ["a.3644"]
         },
         "x61": {
@@ -280,8 +280,8 @@
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [70],
-            "cNext": [72],
+            "cPrev": [60],
+            "cNext": [62],
             "cSiblings": ["a.3758"]
         },
         "x62": {
@@ -291,8 +291,8 @@
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [71],
-            "cNext": [73],
+            "cPrev": [61],
+            "cNext": [63],
             "cSiblings": ["a.3848"]
         },
         "x63": {
@@ -302,8 +302,8 @@
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [72],
-            "cNext": [74],
+            "cPrev": [62],
+            "cNext": [64],
             "cSiblings": ["a.3955"]
         },
         "x64": {
@@ -313,7 +313,7 @@
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [73]
+            "cPrev": [63]
         },
         "x70": {
             "name_en": "Phantom Crook Umbrae",
@@ -322,7 +322,7 @@
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [181],
+            "cNext": [71],
             "cSiblings": ["a.3655"]
         },
         "x71": {
@@ -332,8 +332,8 @@
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [180],
-            "cNext": [182],
+            "cPrev": [70],
+            "cNext": [72],
             "cSiblings": ["a.3769"]
         },
         "x72": {
@@ -343,8 +343,8 @@
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [181],
-            "cNext": [183],
+            "cPrev": [71],
+            "cNext": [73],
             "cSiblings": ["a.3859"]
         },
         "x73": {
@@ -354,8 +354,8 @@
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [182],
-            "cNext": [184],
+            "cPrev": [72],
+            "cNext": [74],
             "cSiblings": ["a.3966"]
         },
         "x74": {
@@ -365,7 +365,7 @@
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [183]
+            "cPrev": [73]
         },
         "x80": {
             "name_en": "Phantom Staff Umbrae",
@@ -374,7 +374,7 @@
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [141],
+            "cNext": [81],
             "cSiblings": ["a.3651"]
         },
         "x81": {
@@ -384,8 +384,8 @@
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [140],
-            "cNext": [142],
+            "cPrev": [80],
+            "cNext": [82],
             "cSiblings": ["a.3765"]
         },
         "x82": {
@@ -395,8 +395,8 @@
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [141],
-            "cNext": [143],
+            "cPrev": [81],
+            "cNext": [83],
             "cSiblings": ["a.3855"]
         },
         "x83": {
@@ -406,8 +406,8 @@
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [142],
-            "cNext": [144],
+            "cPrev": [82],
+            "cNext": [84],
             "cSiblings": ["a.3962"]
         },
         "x84": {
@@ -417,7 +417,7 @@
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [143]
+            "cPrev": [83]
         },
         "x90": {
             "name_en": "Phantom Index Umbrae",
@@ -426,7 +426,7 @@
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [151],
+            "cNext": [91],
             "cSiblings": ["a.3652"]
         },
         "x91": {
@@ -436,8 +436,8 @@
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [150],
-            "cNext": [152],
+            "cPrev": [90],
+            "cNext": [92],
             "cSiblings": ["a.3766"]
         },
         "x92": {
@@ -447,8 +447,8 @@
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [151],
-            "cNext": [153],
+            "cPrev": [91],
+            "cNext": [93],
             "cSiblings": ["a.3856"]
         },
         "x93": {
@@ -458,8 +458,8 @@
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [152],
-            "cNext": [154],
+            "cPrev": [92],
+            "cNext": [94],
             "cSiblings": ["a.3963"]
         },
         "x94": {
@@ -469,7 +469,7 @@
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [153]
+            "cPrev": [93]
         },
         "x100": {
             "name_en": "Phantom Codex Umbrae",
@@ -478,7 +478,7 @@
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [191],
+            "cNext": [101],
             "cSiblings": ["a.3656"]
         },
         "x101": {
@@ -488,8 +488,8 @@
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [190],
-            "cNext": [192],
+            "cPrev": [100],
+            "cNext": [102],
             "cSiblings": ["a.3770"]
         },
         "x102": {
@@ -499,8 +499,8 @@
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [191],
-            "cNext": [193],
+            "cPrev": [101],
+            "cNext": [103],
             "cSiblings": ["a.3860"]
         },
         "x103": {
@@ -510,8 +510,8 @@
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [192],
-            "cNext": [194],
+            "cPrev": [102],
+            "cNext": [104],
             "cSiblings": ["a.3967"]
         },
         "x104": {
@@ -521,7 +521,7 @@
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [193]
+            "cPrev": [103]
         },
         "x110": {
             "name_en": "Phantom Guillotine Umbrae",
@@ -530,7 +530,7 @@
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [31],
+            "cNext": [111],
             "cSiblings": ["a.3640"]
         },
         "x111": {
@@ -540,8 +540,8 @@
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [30],
-            "cNext": [32],
+            "cPrev": [110],
+            "cNext": [112],
             "cSiblings": ["a.3754"]
         },
         "x112": {
@@ -551,8 +551,8 @@
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [31],
-            "cNext": [33],
+            "cPrev": [111],
+            "cNext": [113],
             "cSiblings": ["a.3844"]
         },
         "x113": {
@@ -562,8 +562,8 @@
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [32],
-            "cNext": [34],
+            "cPrev": [112],
+            "cNext": [114],
             "cSiblings": ["a.3951"]
         },
         "x114": {
@@ -573,7 +573,7 @@
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [33]
+            "cPrev": [113]
         },
         "x120": {
             "name_en": "Phantom Arquebus Umbrae",
@@ -634,7 +634,7 @@
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [201],
+            "cNext": [131],
             "cSiblings": ["a.3657"]
         },
         "x131": {
@@ -644,8 +644,8 @@
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [200],
-            "cNext": [202],
+            "cPrev": [130],
+            "cNext": [132],
             "cSiblings": ["a.3771"]
         },
         "x132": {
@@ -655,8 +655,8 @@
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [201],
-            "cNext": [203],
+            "cPrev": [131],
+            "cNext": [133],
             "cSiblings": ["a.3861"]
         },
         "x133": {
@@ -666,8 +666,8 @@
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [202],
-            "cNext": [204],
+            "cPrev": [132],
+            "cNext": [134],
             "cSiblings": ["a.3968"]
         },
         "x134": {
@@ -677,7 +677,7 @@
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [203]
+            "cPrev": [133]
         },
         "x140": {
             "name_en": "Phantom Blade Umbrae",
@@ -686,7 +686,7 @@
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [81],
+            "cNext": [141],
             "cSiblings": ["a.3646"]
         },
         "x141": {
@@ -696,8 +696,8 @@
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [80],
-            "cNext": [82],
+            "cPrev": [140],
+            "cNext": [142],
             "cSiblings": ["a.3760"]
         },
         "x142": {
@@ -707,8 +707,8 @@
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [81],
-            "cNext": [83],
+            "cPrev": [141],
+            "cNext": [143],
             "cSiblings": ["a.3850"]
         },
         "x143": {
@@ -718,8 +718,8 @@
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [82],
-            "cNext": [84],
+            "cPrev": [142],
+            "cNext": [144],
             "cSiblings": ["a.3957"]
         },
         "x144": {
@@ -729,7 +729,7 @@
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [83]
+            "cPrev": [143]
         },
         "x150": {
             "name_en": "Phantom Rapier Umbrae",
@@ -738,7 +738,7 @@
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [161],
+            "cNext": [151],
             "cSiblings": ["a.3653"]
         },
         "x151": {
@@ -748,8 +748,8 @@
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [160],
-            "cNext": [162],
+            "cPrev": [150],
+            "cNext": [152],
             "cSiblings": ["a.3767"]
         },
         "x152": {
@@ -759,8 +759,8 @@
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [161],
-            "cNext": [163],
+            "cPrev": [151],
+            "cNext": [153],
             "cSiblings": ["a.3857"]
         },
         "x153": {
@@ -770,8 +770,8 @@
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [162],
-            "cNext": [164],
+            "cPrev": [152],
+            "cNext": [154],
             "cSiblings": ["a.3964"]
         },
         "x154": {
@@ -781,7 +781,7 @@
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [163]
+            "cPrev": [153]
         },
         "x160": {
             "name_en": "Phantom Bayonet Umbrae",
@@ -790,7 +790,7 @@
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [41],
+            "cNext": [161],
             "cSiblings": ["a.3641"]
         },
         "x161": {
@@ -800,8 +800,8 @@
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [40],
-            "cNext": [42],
+            "cPrev": [160],
+            "cNext": [162],
             "cSiblings": ["a.3755"]
         },
         "x162": {
@@ -811,8 +811,8 @@
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [41],
-            "cNext": [43],
+            "cPrev": [161],
+            "cNext": [163],
             "cSiblings": ["a.3845"]
         },
         "x163": {
@@ -822,8 +822,8 @@
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [42],
-            "cNext": [44],
+            "cPrev": [162],
+            "cNext": [164],
             "cSiblings": ["a.3952"]
         },
         "x164": {
@@ -833,7 +833,7 @@
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [43]
+            "cPrev": [163]
         },
         "x170": {
             "name_en": "Phantom Terpna Umbrae",
@@ -842,7 +842,7 @@
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [131],
+            "cNext": [171],
             "cSiblings": ["a.3650"]
         },
         "x171": {
@@ -852,8 +852,8 @@
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [130],
-            "cNext": [132],
+            "cPrev": [170],
+            "cNext": [172],
             "cSiblings": ["a.3764"]
         },
         "x172": {
@@ -863,8 +863,8 @@
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [131],
-            "cNext": [133],
+            "cPrev": [171],
+            "cNext": [173],
             "cSiblings": ["a.3854"]
         },
         "x173": {
@@ -874,8 +874,8 @@
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [132],
-            "cNext": [134],
+            "cPrev": [172],
+            "cNext": [174],
             "cSiblings": ["a.3961"]
         },
         "x174": {
@@ -885,7 +885,7 @@
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [133]
+            "cPrev": [173]
         },
         "x180": {
             "name_en": "Phantom War Scythe Umbrae",
@@ -894,7 +894,7 @@
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [91],
+            "cNext": [181],
             "cSiblings": ["a.3647"]
         },
         "x181": {
@@ -904,8 +904,8 @@
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [90],
-            "cNext": [92],
+            "cPrev": [180],
+            "cNext": [182],
             "cSiblings": ["a.3761"]
         },
         "x182": {
@@ -915,8 +915,8 @@
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [91],
-            "cNext": [93],
+            "cPrev": [181],
+            "cNext": [183],
             "cSiblings": ["a.3851"]
         },
         "x183": {
@@ -926,8 +926,8 @@
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [92],
-            "cNext": [94],
+            "cPrev": [182],
+            "cNext": [184],
             "cSiblings": ["a.3958"]
         },
         "x184": {
@@ -937,7 +937,7 @@
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [93]
+            "cPrev": [183]
         },
         "x190": {
             "name_en": "Phantom Pendulums Umbrae",
@@ -946,7 +946,7 @@
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [211],
+            "cNext": [191],
             "cSiblings": ["a.3658"]
         },
         "x191": {
@@ -956,8 +956,8 @@
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [210],
-            "cNext": [212],
+            "cPrev": [190],
+            "cNext": [192],
             "cSiblings": ["a.3772"]
         },
         "x192": {
@@ -967,8 +967,8 @@
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [211],
-            "cNext": [213],
+            "cPrev": [191],
+            "cNext": [193],
             "cSiblings": ["a.3862"]
         },
         "x193": {
@@ -978,8 +978,8 @@
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [212],
-            "cNext": [214],
+            "cPrev": [192],
+            "cNext": [194],
             "cSiblings": ["a.3969"]
         },
         "x194": {
@@ -989,7 +989,7 @@
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [213]
+            "cPrev": [193]
         },
         "x200": {
             "name_en": "Phantom Twinfangs Umbrae",
@@ -998,7 +998,7 @@
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [101],
+            "cNext": [201],
             "cSiblings": ["a.3645"]
         },
         "x201": {
@@ -1008,8 +1008,8 @@
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [100],
-            "cNext": [102],
+            "cPrev": [200],
+            "cNext": [202],
             "cSiblings": ["a.3759"]
         },
         "x202": {
@@ -1019,8 +1019,8 @@
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [101],
-            "cNext": [103],
+            "cPrev": [201],
+            "cNext": [203],
             "cSiblings": ["a.3849"]
         },
         "x203": {
@@ -1030,8 +1030,8 @@
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [102],
-            "cNext": [104],
+            "cPrev": [202],
+            "cNext": [204],
             "cSiblings": ["a.3956"]
         },
         "x204": {
@@ -1041,7 +1041,7 @@
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [103]
+            "cPrev": [203]
         },
         "x210": {
             "name_en": "Phantom Flat Brush Umbrae",
@@ -1050,7 +1050,7 @@
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.1",
             "patch": "7.31",
-            "cNext": [171],
+            "cNext": [211],
             "cSiblings": ["a.3654"]
         },
         "x211": {
@@ -1060,8 +1060,8 @@
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.2",
             "patch": "7.25",
-            "cPrev": [170],
-            "cNext": [172],
+            "cPrev": [210],
+            "cNext": [212],
             "cSiblings": ["a.3768"]
         },
         "x212": {
@@ -1071,8 +1071,8 @@
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.3",
             "patch": "7.41",
-            "cPrev": [171],
-            "cNext": [173],
+            "cPrev": [211],
+            "cNext": [213],
             "cSiblings": ["a.3858"]
         },
         "x213": {
@@ -1082,8 +1082,8 @@
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.4",
             "patch": "7.55",
-            "cPrev": [172],
-            "cNext": [174],
+            "cPrev": [212],
+            "cNext": [214],
             "cSiblings": ["a.3965"]
         },
         "x214": {
@@ -1093,7 +1093,7 @@
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.5",
             "patch": "7.55",
-            "cPrev": [173]
+            "cPrev": [213]
         }
     }
 }
