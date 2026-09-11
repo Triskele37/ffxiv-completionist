@@ -5,13 +5,16 @@ import { focusMainWindow, initializeWindows } from '../window';
 import { createWindow } from './createWindow';
 import { initializeMemoryLogger } from './initializeMemoryLogger';
 import { setupCsp } from './setupCsp';
+// import { applyHandlers, initProtocols } from './setupProtocol';
 
 export function initEvents() {
     initializeMemoryLogger();
+    // initProtocols();
 
     // Main ready for full initialization
     app.on('ready', () => {
         setupCsp();
+        // applyHandlers();
 
         // Timeout to work around https://github.com/electron/electron/issues/15947
         setTimeout(() => {
