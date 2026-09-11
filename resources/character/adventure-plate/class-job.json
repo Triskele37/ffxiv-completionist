@@ -507,6 +507,14 @@
             "patch": "7.0",
             "cSiblings": ["q.70384"]
         },
+        "x1133": {
+            "name_en": "Beastmaster (Simple)",
+            "name_fr": "Dresseur (standard)",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.71026",
+            "decorations": "@PORTRAIT.BACKGROUND",
+            "patch": "7.56"
+        },
         "x178": {
             "name_en": "Bard (Simple)",
             "name_fr": "Barde (standard)",
@@ -789,6 +797,14 @@
             "source": "@1,500 CURRENCY.TROPHY_CRYSTAL",
             "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"],
             "patch": "7.0"
+        },
+        "x1098": {
+            "name_en": "Beastmaster (Ornate)",
+            "name_fr": "Dresseur (dynamique)",
+            "category": "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN",
+            "source": "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.FADED_REMNANT_OF_RESILIENCE)",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT", "@PLATE.PATTERN"],
+            "patch": "7.56"
         },
         "x137": {
             "name_en": "Bard (Ornate)",

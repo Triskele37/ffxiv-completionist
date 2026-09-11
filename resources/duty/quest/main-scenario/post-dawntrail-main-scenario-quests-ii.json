@@ -151,7 +151,47 @@
             "npc_fr": "Alphinaud",
             "patch": "7.5",
             "cPrev": ["q.71009"],
+            "cNext": ["q.71011"],
             "cSiblings": ["a.3942"]
+        },
+        "x71011": {
+            "name_en": "A Winter's Dream",
+            "name_fr": "Nostalgie dans les neiges",
+            "level": 100,
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "patch": "7.56",
+            "cNext": ["q.71012"],
+            "cPrev": ["q.71010"]
+        },
+        "x71012": {
+            "name_en": "A Rush of Cold Wind",
+            "name_fr": "L'heure de briser la glace",
+            "level": 100,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71013"],
+            "cPrev": ["q.71011"]
+        },
+        "x71013": {
+            "name_en": "The World Locked in Ice",
+            "name_fr": "Le monde gelé",
+            "level": 100,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71014"],
+            "cPrev": ["q.71012"]
+        },
+        "x71014": {
+            "name_en": "Windborne",
+            "name_fr": "Portés par le vent",
+            "level": 100,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cPrev": ["q.71013"]
         }
     }
 }

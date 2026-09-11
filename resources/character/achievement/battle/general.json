@@ -1680,6 +1680,390 @@
             "patch": "6.45",
             "cPrev": ["a.3327", "a.3328", "a.3329"],
             "cSiblings": ["t.694"]
+        },
+        "x4028": {
+            "name_en": "A Beast in the Hand I",
+            "name_fr": "Adepte des bêtes I",
+            "description_en": "Befriend 10 unique beasts.",
+            "description_fr": "Obtenir 10 bêtes dans le bestiaire de dresseur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4029": {
+            "name_en": "A Beast in the Hand II",
+            "name_fr": "Adepte des bêtes II",
+            "description_en": "Befriend 20 unique beasts.",
+            "description_fr": "Obtenir 20 bêtes dans le bestiaire de dresseur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4030": {
+            "name_en": "A Beast in the Hand III",
+            "name_fr": "Adepte des bêtes III",
+            "description_en": "Befriend 30 unique beasts.",
+            "description_fr": "Obtenir 30 bêtes dans le bestiaire de dresseur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4031": {
+            "name_en": "A Beast in the Hand IV",
+            "name_fr": "Adepte des bêtes IV",
+            "description_en": "Befriend 40 unique beasts.",
+            "description_fr": "Obtenir 40 bêtes dans le bestiaire de dresseur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4032": {
+            "name_en": "A Beast in the Hand V",
+            "name_fr": "Adepte des bêtes V",
+            "description_en": "Befriend 50 unique beasts.",
+            "description_fr": "Obtenir 50 bêtes dans le bestiaire de dresseur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4033": {
+            "name_en": "Crucible Checkmate I",
+            "name_fr": "Échec et mat I",
+            "description_en": "Clear the First Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau.",
+            "points": 5,
+            "patch": "7.56",
+            "cSiblings": ["d.1088"]
+        },
+        "x4034": {
+            "name_en": "Crucible Checkmate II",
+            "name_fr": "Échec et mat II",
+            "description_en": "Clear the Second Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau.",
+            "points": 5,
+            "patch": "7.56",
+            "cSiblings": ["d.1089"]
+        },
+        "x4035": {
+            "name_en": "Crucible Checkmate III",
+            "name_fr": "Échec et mat III",
+            "description_en": "Clear the Third Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 3e plateau.",
+            "points": 5,
+            "patch": "7.56",
+            "cSiblings": ["d.1090"]
+        },
+        "x4036": {
+            "name_en": "Crucible Reforged I",
+            "name_fr": "Expert et mat I",
+            "description_en": "Clear the First Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau expert.",
+            "points": 5,
+            "patch": "7.56",
+            "cSiblings": ["d.1091"]
+        },
+        "x4037": {
+            "name_en": "Crucible Reforged II",
+            "name_fr": "Expert et mat II",
+            "description_en": "Clear the Second Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau expert.",
+            "points": 5,
+            "patch": "7.56",
+            "cSiblings": ["d.1092"]
+        },
+        "x4038": {
+            "name_en": "Hot in Here I",
+            "name_fr": "Arpenteur du sentier I",
+            "description_en": "Clear the First Board of the Unbroken under the third degree.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau dans le mode de jeu “Sentier bestial III”.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4039": {
+            "name_en": "Hot in Here II",
+            "name_fr": "Arpenteur du sentier II",
+            "description_en": "Clear the Second Board of the Unbroken under the third degree.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau dans le mode de jeu “Sentier bestial III”.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4040": {
+            "name_en": "Hot in Here III",
+            "name_fr": "Arpenteur du sentier III",
+            "description_en": "Clear the Third Board of the Unbroken under the third degree.",
+            "description_fr": "Finir le Dédale bestial - 3e plateau dans le mode de jeu “Sentier bestial III”.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4041": {
+            "name_en": "Calcination I",
+            "name_fr": "Expert du sentier I",
+            "description_en": "Clear the First Master's Board under the third degree.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau expert dans le mode de jeu “Sentier bestial III”.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4042": {
+            "name_en": "Calcination II",
+            "name_fr": "Expert du sentier II",
+            "description_en": "Clear the Second Master's Board under the third degree.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau expert dans le mode de jeu “Sentier bestial III”.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4043": {
+            "name_en": "Eighth Rank I",
+            "name_fr": "Traversée éclatante I",
+            "description_en": "Achieve Apex rank or above on the First Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4044": {
+            "name_en": "Unbreakable I",
+            "name_fr": "Traversée exceptionnelle I",
+            "description_en": "Achieve Legendary rank on the First Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4045": {
+            "name_en": "Eighth Rank II",
+            "name_fr": "Traversée éclatante II",
+            "description_en": "Achieve Apex rank or above on the Second Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4046": {
+            "name_en": "Unbreakable II",
+            "name_fr": "Traversée exceptionnelle II",
+            "description_en": "Achieve Legendary rank on the Second Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4047": {
+            "name_en": "Eighth Rank III",
+            "name_fr": "Traversée éclatante III",
+            "description_en": "Achieve Apex rank or above on the Third Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 3e plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4048": {
+            "name_en": "Unbreakable III",
+            "name_fr": "Traversée exceptionnelle III",
+            "description_en": "Achieve Legendary rank on the Third Board of the Unbroken.",
+            "description_fr": "Finir le Dédale bestial - 3e plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4049": {
+            "name_en": "Built Different I",
+            "name_fr": "Périple resplendissant I",
+            "description_en": "Achieve Apex rank or above on the First Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau expert en obtenant le rang “dresseur d'exception” ou supérieur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4050": {
+            "name_en": "Legends Never Die I",
+            "name_fr": "Périple glorieux I",
+            "description_en": "Achieve Legendary rank on the First Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 1er plateau expert en obtenant le rang “dresseur légendaire” ou supérieur.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4051": {
+            "name_en": "Built Different II",
+            "name_fr": "Périple resplendissant II",
+            "description_en": "Achieve Apex rank or above on the Second Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau expert en obtenant le rang “dresseur d'exception” ou supérieur.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4052": {
+            "name_en": "Legends Never Die II",
+            "name_fr": "Périple glorieux II",
+            "description_en": "Achieve Legendary rank on the Second Master's Board.",
+            "description_fr": "Finir le Dédale bestial - 2e plateau expert en obtenant le rang “dresseur légendaire” ou supérieur.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4053": {
+            "name_en": "Freeing the Beast",
+            "name_fr": "Expert du Dédale",
+            "description_en": "Achieve Apex rank or above on the Crucible's first three boards and two master's boards.",
+            "description_fr": "Obtenir le rang “dresseur d'exception” ou supérieur aux 1er, 2e et 3e plateaux ainsi qu'aux 1er et 2e plateaux experts du Dédale bestial.",
+            "points": 5,
+            "reward": "t.877",
+            "patch": "7.56",
+            "cSiblings": ["t.877"]
+        },
+        "x4054": {
+            "name_en": "Crucible Master",
+            "name_fr": "Maître du Dédale",
+            "description_en": "Achieve Legendary rank on the Crucible's first three boards and two master's boards.",
+            "description_fr": "Obtenir le rang “dresseur légendaire” ou supérieur aux 1er, 2e et 3e plateaux ainsi qu'aux 1er et 2e plateaux experts du Dédale bestial.",
+            "points": 10,
+            "reward": "t.891",
+            "patch": "7.56",
+            "cSiblings": ["t.891"]
+        },
+        "x4055": {
+            "name_en": "Unbroken Endgame",
+            "name_fr": "Grand maître du Dédale",
+            "description_en": "Clear the Crucible's first three boards and two master's boards under the third degree.",
+            "description_fr": "Terminer les 1er, 2e et 3e plateaux ainsi que les 1er et 2e plateaux experts du Dédale bestial dans le mode de jeu “Sentier bestial III”.",
+            "points": 20,
+            "reward": "t.892",
+            "patch": "7.56",
+            "cSiblings": ["t.892"]
+        },
+        "x4061": {
+            "name_en": "Beastkin Mate",
+            "name_fr": "Ami des thériens",
+            "description_en": "Obtain the bonus “Beastkin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des thériens” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.878",
+            "patch": "7.56",
+            "cSiblings": ["t.878"]
+        },
+        "x4062": {
+            "name_en": "Vilekin Mate",
+            "name_fr": "Ami des insectoïdes",
+            "description_en": "Obtain the bonus “Vilekin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des insectoïdes” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.879",
+            "patch": "7.56",
+            "cSiblings": ["t.879"]
+        },
+        "x4063": {
+            "name_en": "Cloudkin Mate",
+            "name_fr": "Ami des ptériens",
+            "description_en": "Obtain the bonus “Cloudkin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des ptériens” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.880",
+            "patch": "7.56",
+            "cSiblings": ["t.880"]
+        },
+        "x4064": {
+            "name_en": "Seedkin Mate",
+            "name_fr": "Ami des floréens",
+            "description_en": "Obtain the bonus “Seedkin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des floréens” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.881",
+            "patch": "7.56",
+            "cSiblings": ["t.881"]
+        },
+        "x4065": {
+            "name_en": "Wavekin Mate",
+            "name_fr": "Ami des hydrides",
+            "description_en": "Obtain the bonus “Wavekin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des hydrides” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.882",
+            "patch": "7.56",
+            "cSiblings": ["t.882"]
+        },
+        "x4066": {
+            "name_en": "Scalekin Mate",
+            "name_fr": "Ami des cuirassiens",
+            "description_en": "Obtain the bonus “Scalekin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des cuirassiens” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.883",
+            "patch": "7.56",
+            "cSiblings": ["t.883"]
+        },
+        "x4067": {
+            "name_en": "Soulkin Mate",
+            "name_fr": "Ami des animides",
+            "description_en": "Obtain the bonus “Soulkin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des animides” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.884",
+            "patch": "7.56",
+            "cSiblings": ["t.884"]
+        },
+        "x4068": {
+            "name_en": "Ashkin Mate",
+            "name_fr": "Ami des nécroïdes",
+            "description_en": "Obtain the bonus “Ashkin Gambit” on the Second Master's Board.",
+            "description_fr": "Obtenir le bonus “maîtrise des nécroïdes” dans le Dédale bestial - 2e plateau expert.",
+            "points": 10,
+            "reward": "t.885",
+            "patch": "7.56",
+            "cSiblings": ["t.885"]
+        },
+        "x4056": {
+            "name_en": "Friend to the Fierce I",
+            "name_fr": "Entraînement bestial I",
+            "description_en": "Achieve rank 25 or higher with 10 beasts.",
+            "description_fr": "Atteindre le rang 25 ou spérieur avec 10 bêtes.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4057": {
+            "name_en": "Friend to the Fierce II",
+            "name_fr": "Entraînement bestial II",
+            "description_en": "Achieve rank 25 or higher with 20 beasts.",
+            "description_fr": "Atteindre le rang 25 ou spérieur avec 20 bêtes.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4058": {
+            "name_en": "Friend to the Fierce III",
+            "name_fr": "Entraînement bestial III",
+            "description_en": "Achieve rank 25 or higher with 30 beasts.",
+            "description_fr": "Atteindre le rang 25 ou spérieur avec 30 bêtes.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4059": {
+            "name_en": "Friend to the Fierce IV",
+            "name_fr": "Entraînement bestial IV",
+            "description_en": "Achieve rank 25 or higher with 40 beasts.",
+            "description_fr": "Atteindre le rang 25 ou spérieur avec 40 bêtes.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4060": {
+            "name_en": "Friend to the Fierce V",
+            "name_fr": "Entraînement bestial V",
+            "description_en": "Achieve rank 25 or higher with 50 beasts.",
+            "description_fr": "Atteindre le rang 25 ou spérieur avec 50 bêtes.",
+            "points": 10,
+            "patch": "7.56"
+        },
+        "x4075": {
+            "name_en": "Beast of the Best",
+            "name_fr": "Roi du Dédale",
+            "description_en": "Place first in Crucible Rankings.",
+            "description_fr": "Terminer le Dédale bestial à la 1re place du classement.",
+            "points": 20,
+            "reward": "t.888",
+            "patch": "7.56",
+            "cSiblings": ["t.888"]
+        },
+        "x4076": {
+            "name_en": "Running Feral",
+            "name_fr": "Prince du Dédale",
+            "description_en": "Place highly in Crucible Rankings.",
+            "description_fr": "Terminer le Dédale bestial dans les premières places du classement.",
+            "points": 20,
+            "reward": "t.889",
+            "patch": "7.56",
+            "cSiblings": ["t.889"]
+        },
+        "x4077": {
+            "name_en": "Crucible Contender",
+            "name_fr": "As du Dédale",
+            "description_en": "Place in Crucible Rankings.",
+            "description_fr": "Obtenir une place au classement du Dédale bestial.",
+            "points": 20,
+            "reward": "mo.367",
+            "patch": "7.56"
         }
     }
 }

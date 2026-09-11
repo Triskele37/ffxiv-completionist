@@ -969,6 +969,40 @@
             "cPrev": ["a.3406"],
             "cSiblings": ["t.708"],
             "defaultCompletion": "X"
+        },
+        "x4070": {
+            "name_en": "Masterstroke I",
+            "name_fr": "Prodige du pianotage I",
+            "description_en": "Clear Keybound Brawler for the first time.",
+            "description_fr": "Réussir 1 fois Frappe fatale.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4071": {
+            "name_en": "Masterstroke II",
+            "name_fr": "Prodige du pianotage II",
+            "description_en": "Clear Keybound Brawler 10 times.",
+            "description_fr": "Réussir 10 fois Frappe fatale.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4072": {
+            "name_en": "Masterstroke III",
+            "name_fr": "Prodige du pianotage III",
+            "description_en": "Clear Keybound Brawler 50 times.",
+            "description_fr": "Réussir 50 fois Frappe fatale.",
+            "points": 5,
+            "patch": "7.56"
+        },
+        "x4073": {
+            "name_en": "Masterstroke IV",
+            "name_fr": "Prodige du pianotage IV",
+            "description_en": "Clear Keybound Brawler 100 times.",
+            "description_fr": "Réussir 100 fois Frappe fatale.",
+            "points": 10,
+            "reward": "t.887",
+            "patch": "7.56",
+            "cSiblings": ["t.887"]
         }
     }
 }

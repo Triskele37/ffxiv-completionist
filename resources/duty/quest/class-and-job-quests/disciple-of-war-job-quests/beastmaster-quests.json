@@ -1,0 +1,107 @@
+{
+    "key": "beastmaster-quests",
+    "groupName_en": "Beastmaster Quests",
+    "groupName_fr": "Quêtes de dresseur",
+    "tasks": {
+        "x71026": {
+            "name_en": "Strangers in the Wood",
+            "name_fr": "Un drôle d'animal",
+            "level": 50,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71027"],
+            "cPrev": ["q.70058"]
+        },
+        "x71027": {
+            "name_en": "The Wilds Call",
+            "name_fr": "Mon premier compagnon",
+            "level": 1,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71028"],
+            "cPrev": ["q.71026"]
+        },
+        "x71028": {
+            "name_en": "Hearts Aligned",
+            "name_fr": "La leçon de dressage",
+            "level": 8,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71029"],
+            "cPrev": ["q.71027"]
+        },
+        "x71029": {
+            "name_en": "Master of the Lhu",
+            "name_fr": "La bête humaine",
+            "level": 18,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71030"],
+            "cPrev": ["q.71028"]
+        },
+        "x71030": {
+            "name_en": "Into the Crucible",
+            "name_fr": "Un voyage d'apprentissage",
+            "level": 30,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71031"],
+            "cPrev": ["q.71029"]
+        },
+        "x71031": {
+            "name_en": "Wit as Weaponry",
+            "name_fr": "La fierté de l'aînée",
+            "level": 30,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71032"],
+            "cPrev": ["q.71030"]
+        },
+        "x71032": {
+            "name_en": "Gobsmacked",
+            "name_fr": "Double rivalité",
+            "level": 40,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71033"],
+            "cPrev": ["q.71031"]
+        },
+        "x71033": {
+            "name_en": "Sin of Blood",
+            "name_fr": "La repentance d'une dresseuse",
+            "level": 40,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71034"],
+            "cPrev": ["q.71032"]
+        },
+        "x71034": {
+            "name_en": "A Beastmaster's Path",
+            "name_fr": "La gardienne affamée",
+            "level": 50,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71035"],
+            "cPrev": ["q.71033"]
+        },
+        "x71035": {
+            "name_en": "Bonds Unbroken",
+            "name_fr": "Des liens incassables",
+            "level": 50,
+            "npc_en": "",
+            "npc_fr": "",
+            "patch": "7.56",
+            "cNext": ["q.71036"],
+            "cPrev": ["q.71034"]
+        }
+    }
+}
