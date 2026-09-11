@@ -19,7 +19,8 @@
                         "tsConfig": "desktop/tsconfig.app.json",
                         "outputPath": {
                             "base": "desktop/dist",
-                            "browser": ""
+                            "browser": "",
+                            "media": "assets"
                         },
                         "polyfills": ["desktop/renderer/polyfills.ts"],
                         "inlineStyleLanguage": "scss",
