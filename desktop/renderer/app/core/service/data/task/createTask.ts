@@ -31,6 +31,8 @@ export function createTask(
     // Inherit properties from parent group if not explicitly defined on task json
     this.task.inheritFromParent(task, 'defaultCompletion');
     this.task.inheritFromParent(task, 'isNumericCompletion');
+    this.task.inheritFromParent(task, 'minValue');
+    this.task.inheritFromParent(task, 'maxValue');
     this.task.inheritFromParent(task, 'cPrevAny');
 
     // Combine properties defined on parent

@@ -12,8 +12,11 @@ export function setDefaultCompletion(
         // default explicitly on task, use task's
         this.setCompletion(task, task.defaultCompletion);
     }
-    else {
+    else if(group.defaultCompletion) {
         // default not explicitly on task, use parent group's
         this.setCompletion(task, group.defaultCompletion);
+    }
+    else {
+        console.error('No default completion:', task);
     }
 }

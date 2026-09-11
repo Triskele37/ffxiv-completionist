@@ -19,6 +19,9 @@
             "header_en": "Loot",
             "header_fr": "Loot",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "order": [
@@ -64,6 +67,7 @@
                 "mi.216",
                 "mi.244"
             ],
+            "patch": "6.5",
             "_itemId": 41667
         }
     }

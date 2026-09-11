@@ -23,6 +23,8 @@
     },
     "defaultCompletion": 0,
     "isNumericCompletion": true,
+    "minValue": 0,
+    "maxValue": 100,
     "tasks": {
         "x0": {
             "name_en": "Paladin / Gladiator",
@@ -50,9 +52,7 @@
                 "80": ["a.2246"],
                 "90": ["a.2892"],
                 "100": ["a.3429"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x1": {
             "name_en": "Warrior / Marauder",
@@ -80,9 +80,7 @@
                 "80": ["a.2248"],
                 "90": ["a.2894"],
                 "100": ["a.3431"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x2": {
             "name_en": "Dark Knight",
@@ -108,8 +106,7 @@
                 "90": ["a.2901"],
                 "100": ["a.3438"]
             },
-            "minValue": 30,
-            "maxValue": 100
+            "minValue": 30
         },
         "x3": {
             "name_en": "Gunbreaker",
@@ -129,8 +126,7 @@
                 "90": ["a.2906"],
                 "100": ["a.3443"]
             },
-            "minValue": 60,
-            "maxValue": 100
+            "minValue": 60
         },
         "x4": {
             "name_en": "White Mage / Conjurer",
@@ -158,9 +154,7 @@
                 "80": ["a.2251"],
                 "90": ["a.2897"],
                 "100": ["a.3434"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x5": {
             "name_en": "Scholar / Arcanist",
@@ -189,9 +183,7 @@
                 "80": ["a.2253"],
                 "90": ["a.2899"],
                 "100": ["a.3436"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x6": {
             "name_en": "Astrologian",
@@ -217,8 +209,7 @@
                 "90": ["a.2903"],
                 "100": ["a.3440"]
             },
-            "minValue": 30,
-            "maxValue": 100
+            "minValue": 30
         },
         "x29": {
             "name_en": "Sage",
@@ -236,8 +227,7 @@
                 "90": ["a.2911"],
                 "100": ["a.3446"]
             },
-            "minValue": 70,
-            "maxValue": 100
+            "minValue": 70
         },
         "x7": {
             "name_en": "Monk / Pugilist",
@@ -265,9 +255,7 @@
                 "80": ["a.2247"],
                 "90": ["a.2893"],
                 "100": ["a.3430"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x8": {
             "name_en": "Dragoon / Lancer",
@@ -295,9 +283,7 @@
                 "80": ["a.2249"],
                 "90": ["a.2895"],
                 "100": ["a.3432"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x9": {
             "name_en": "Ninja / Rogue",
@@ -324,9 +310,7 @@
                 "80": ["a.2254"],
                 "90": ["a.2900"],
                 "100": ["a.3437"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x10": {
             "name_en": "Samurai",
@@ -349,8 +333,7 @@
                 "90": ["a.2905"],
                 "100": ["a.3442"]
             },
-            "minValue": 50,
-            "maxValue": 100
+            "minValue": 50
         },
         "x30": {
             "name_en": "Reaper",
@@ -368,8 +351,7 @@
                 "90": ["a.2909"],
                 "100": ["a.3445"]
             },
-            "minValue": 70,
-            "maxValue": 100
+            "minValue": 70
         },
         "x31": {
             "name_en": "Viper",
@@ -385,8 +367,23 @@
                 "90": ["a.3447"],
                 "100": ["a.3448"]
             },
-            "minValue": 80,
-            "maxValue": 100
+            "minValue": 80
+        },
+        "x33": {
+            "name_en": "Beastmaster",
+            "name_fr": "Dresseur",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": "q.71026",
+            "patch": "7.56",
+            "cSiblingsAt": {
+                "10": ["a.4023"],
+                "20": ["a.4024"],
+                "30": ["a.4025"],
+                "40": ["a.4026"],
+                "50": ["a.4027"]
+            },
+            "maxValue": 50
         },
         "x11": {
             "name_en": "Bard / Archer",
@@ -414,9 +411,7 @@
                 "80": ["a.2250"],
                 "90": ["a.2896"],
                 "100": ["a.3433"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x12": {
             "name_en": "Machinist",
@@ -442,8 +437,7 @@
                 "90": ["a.2902"],
                 "100": ["a.3439"]
             },
-            "minValue": 30,
-            "maxValue": 100
+            "minValue": 30
         },
         "x13": {
             "name_en": "Dancer",
@@ -463,8 +457,7 @@
                 "90": ["a.2907"],
                 "100": ["a.3444"]
             },
-            "minValue": 60,
-            "maxValue": 100
+            "minValue": 60
         },
         "x14": {
             "name_en": "Black Mage / Thaumaturge",
@@ -492,9 +485,7 @@
                 "80": ["a.2252"],
                 "90": ["a.2898"],
                 "100": ["a.3435"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x15": {
             "name_en": "Summoner / Arcanist",
@@ -523,9 +514,7 @@
                 "80": ["a.2253"],
                 "90": ["a.2899"],
                 "100": ["a.3436"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x16": {
             "name_en": "Red Mage",
@@ -548,8 +537,7 @@
                 "90": ["a.2904"],
                 "100": ["a.3441"]
             },
-            "minValue": 50,
-            "maxValue": 100
+            "minValue": 50
         },
         "x32": {
             "name_en": "Pictomancer",
@@ -565,8 +553,7 @@
                 "90": ["a.3449"],
                 "100": ["a.3450"]
             },
-            "minValue": 80,
-            "maxValue": 100
+            "minValue": 80
         },
         "x17": {
             "name_en": "Blue Mage",
@@ -585,7 +572,6 @@
                 "70": ["a.2725"],
                 "80": ["a.3316"]
             },
-            "minValue": 0,
             "maxValue": 80
         },
         "x18": {
@@ -614,9 +600,7 @@
                 "80": ["a.2264"],
                 "90": ["a.2912"],
                 "100": ["a.3451"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x19": {
             "name_en": "Blacksmith",
@@ -644,9 +628,7 @@
                 "80": ["a.2265"],
                 "90": ["a.2913"],
                 "100": ["a.3452"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x20": {
             "name_en": "Armorer",
@@ -674,9 +656,7 @@
                 "80": ["a.2266"],
                 "90": ["a.2914"],
                 "100": ["a.3453"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x21": {
             "name_en": "Goldsmith",
@@ -704,9 +684,7 @@
                 "80": ["a.2267"],
                 "90": ["a.2915"],
                 "100": ["a.3454"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x22": {
             "name_en": "Leatherworker",
@@ -734,9 +712,7 @@
                 "80": ["a.2268"],
                 "90": ["a.2916"],
                 "100": ["a.3455"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x23": {
             "name_en": "Weaver",
@@ -764,9 +740,7 @@
                 "80": ["a.2269"],
                 "90": ["a.2917"],
                 "100": ["a.3456"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x24": {
             "name_en": "Alchemist",
@@ -794,9 +768,7 @@
                 "80": ["a.2270"],
                 "90": ["a.2918"],
                 "100": ["a.3457"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x25": {
             "name_en": "Culinarian",
@@ -824,9 +796,7 @@
                 "80": ["a.2271"],
                 "90": ["a.2919"],
                 "100": ["a.3458"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x26": {
             "name_en": "Miner",
@@ -854,9 +824,7 @@
                 "80": ["a.2273"],
                 "90": ["a.2921"],
                 "100": ["a.3460"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x27": {
             "name_en": "Botanist",
@@ -884,9 +852,7 @@
                 "80": ["a.2272"],
                 "90": ["a.2920"],
                 "100": ["a.3459"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         },
         "x28": {
             "name_en": "Fisher",
@@ -914,9 +880,7 @@
                 "80": ["a.2274"],
                 "90": ["a.2922"],
                 "100": ["a.3461"]
-            },
-            "minValue": 0,
-            "maxValue": 100
+            }
         }
     }
 }

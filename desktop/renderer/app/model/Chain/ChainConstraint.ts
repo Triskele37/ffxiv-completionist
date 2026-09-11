@@ -1,4 +1,5 @@
 import type { Task } from '@model/Task';
+import { ChainKeys } from '@model/Chain/ChainLink';
 
 export type ChainIssue = ChainConstraint & {
     description: string;
@@ -10,7 +11,7 @@ export type ChainConstraint = {
     chainedTasks: Task[];
 
     // Chain type causing the issue
-    relation: ChainRelation;
+    relation: ChainKeys;
 
     // context for At chains
     taskThreshold?: number;
@@ -22,17 +23,3 @@ type ChainConstraintType =
     | 'REQUIRES_ANY'
     | 'MATCH'
     | 'EXCLUDES';
-
-type ChainRelation =
-    | 'cPrev'
-    | 'cPrevAt'
-    | 'cPrevAny'
-    | 'cNext'
-    | 'cUnlock'
-    | 'cUnlocks'
-    | 'cSiblings'
-    | 'cSiblingsAt'
-    | 'cCombo'
-    | 'cComboAt'
-    | 'cExclude'
-    | 'cExclusive';

@@ -8,6 +8,7 @@
             "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
             "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos",
             "loot": ["mi.319", "o.288"],
+            "patch": "4.55",
             "_itemId": 24848
         },
         "x210": {
@@ -15,14 +16,16 @@
             "name_fr": "Coffre des Lapin du bonheur (argent)",
             "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
             "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos.1425",
-            "loot": ["tt.226"]
+            "loot": ["tt.226"],
+            "patch": "4.55"
         },
         "x211": {
             "name_en": "Happy Bunny Lockbox (Gold)",
             "name_fr": "Coffre des Lapin du bonheur (or)",
             "location": "@PLACE.SB.EUREKA PLACE.SB.HYDATOS",
             "requirements": "duty.field-operations.eureka.notorious-monsters.hydatos.1425",
-            "loot": ["mo.184"]
+            "loot": ["mo.184"],
+            "patch": "4.55"
         },
         "x212": {
             "name_en": "Moisture-warped Lockbox",
@@ -31,6 +34,7 @@
             "requirements_en": "Kill mutated mobs at higher levels",
             "requirements_fr": "Kill mutated mobs at higher levels",
             "loot": ["mi.319", "o.289", "e.195"],
+            "patch": "4.55",
             "_itemId": 24849
         }
     }

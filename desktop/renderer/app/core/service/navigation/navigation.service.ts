@@ -113,9 +113,14 @@ export class NavigationService {
     addGroupHistory(): void {
         const selectedGroup = this.selectedGroup();
 
-        if(!selectedGroup) return; // Must exist
-        if(selectedGroup.isUiGroup) return; // Must not be Main Menu
-        if(!selectedGroup.tasks?.length) return; // Must have tasks
+        if(!selectedGroup?.contentLink) return; // Must exist
+
+        if(selectedGroup.isUiGroup) {
+            if(!selectedGroup.contentLink) return;
+        }
+        else {
+            if(!selectedGroup.tasks?.length) return; // Must have tasks
+        }
 
         // Push a pretty history string
         const newHistory = [...this.groupHistory()];

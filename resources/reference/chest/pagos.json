@@ -8,6 +8,7 @@
             "location": "@PLACE.SB.EUREKA PLACE.SB.PAGOS",
             "requirements": "duty.field-operations.eureka.notorious-monsters.pagos",
             "loot": ["mi.296"],
+            "patch": "4.36",
             "_itemId": 23142
         },
         "x202": {
@@ -18,7 +19,8 @@
                 "duty.field-operations.eureka.notorious-monsters.pagos.1367",
                 "duty.field-operations.eureka.notorious-monsters.pagos.1368"
             ],
-            "loot": ["tt.226"]
+            "loot": ["tt.226"],
+            "patch": "4.36"
         },
         "x203": {
             "name_en": "Happy Bunny Lockbox (Gold)",
@@ -28,7 +30,8 @@
                 "duty.field-operations.eureka.notorious-monsters.pagos.1367",
                 "duty.field-operations.eureka.notorious-monsters.pagos.1368"
             ],
-            "loot": ["mi.295"]
+            "loot": ["mi.295"],
+            "patch": "4.36"
         },
         "x204": {
             "name_en": "Cold-warped Lockbox",
@@ -37,6 +40,7 @@
             "requirements_en": "Kill mutated mobs at higher levels",
             "requirements_fr": "Kill mutated mobs at higher levels",
             "loot": ["mi.296", "e.181"],
+            "patch": "4.36",
             "_itemId": 23379
         }
     }

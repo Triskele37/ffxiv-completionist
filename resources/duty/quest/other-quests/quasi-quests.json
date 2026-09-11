@@ -895,6 +895,37 @@
             "unlock": "d.1084",
             "patch": "7.45",
             "cNext": ["d.1084"]
+        },
+        "x71036": {
+            "name_en": "Free for All",
+            "name_fr": "Un défi pour les mordus",
+            "level": 50,
+            "npc_en": "Sylmond",
+            "npc_fr": "Sylmond",
+            "unlock": "character.beastmaster.crucible-of-the-unbroken.1091",
+            "patch": "7.56",
+            "cPrev": ["q.71035"],
+            "cNext": ["character.beastmaster.crucible-of-the-unbroken.1091"]
+        },
+        "x71037": {
+            "name_en": "Mastery Rematch",
+            "name_fr": "Soif de revanche",
+            "level": 50,
+            "npc_en": "Sylmond",
+            "npc_fr": "Sylmond",
+            "unlock": "character.beastmaster.crucible-of-the-unbroken.1092",
+            "patch": "7.56",
+            "cPrev": ["character.beastmaster.crucible-of-the-unbroken.1091"],
+            "cNext": ["character.beastmaster.crucible-of-the-unbroken.1092"]
+        },
+        "x71045": {
+            "name_en": "Blazing Trails",
+            "name_fr": "Arpenter le sentier bestial",
+            "level": 50,
+            "npc_en": "Sylmond",
+            "npc_fr": "Sylmond",
+            "patch": "7.56",
+            "cPrev": ["character.beastmaster.crucible-of-the-unbroken.1092"]
         }
     }
 }

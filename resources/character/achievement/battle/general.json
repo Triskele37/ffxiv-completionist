@@ -1687,7 +1687,8 @@
             "description_en": "Befriend 10 unique beasts.",
             "description_fr": "Obtenir 10 bêtes dans le bestiaire de dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4029]
         },
         "x4029": {
             "name_en": "A Beast in the Hand II",
@@ -1695,7 +1696,9 @@
             "description_en": "Befriend 20 unique beasts.",
             "description_fr": "Obtenir 20 bêtes dans le bestiaire de dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4028],
+            "cNext": [4030]
         },
         "x4030": {
             "name_en": "A Beast in the Hand III",
@@ -1703,7 +1706,9 @@
             "description_en": "Befriend 30 unique beasts.",
             "description_fr": "Obtenir 30 bêtes dans le bestiaire de dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4029],
+            "cNext": [4031]
         },
         "x4031": {
             "name_en": "A Beast in the Hand IV",
@@ -1711,7 +1716,9 @@
             "description_en": "Befriend 40 unique beasts.",
             "description_fr": "Obtenir 40 bêtes dans le bestiaire de dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4030],
+            "cNext": [4032]
         },
         "x4032": {
             "name_en": "A Beast in the Hand V",
@@ -1719,7 +1726,8 @@
             "description_en": "Befriend 50 unique beasts.",
             "description_fr": "Obtenir 50 bêtes dans le bestiaire de dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4031]
         },
         "x4033": {
             "name_en": "Crucible Checkmate I",
@@ -1728,7 +1736,7 @@
             "description_fr": "Finir le Dédale bestial - 1er plateau.",
             "points": 5,
             "patch": "7.56",
-            "cSiblings": ["d.1088"]
+            "cSiblings": ["character.beastmaster.crucible-of-the-unbroken.1088"]
         },
         "x4034": {
             "name_en": "Crucible Checkmate II",
@@ -1737,7 +1745,7 @@
             "description_fr": "Finir le Dédale bestial - 2e plateau.",
             "points": 5,
             "patch": "7.56",
-            "cSiblings": ["d.1089"]
+            "cSiblings": ["character.beastmaster.crucible-of-the-unbroken.1089"]
         },
         "x4035": {
             "name_en": "Crucible Checkmate III",
@@ -1746,7 +1754,7 @@
             "description_fr": "Finir le Dédale bestial - 3e plateau.",
             "points": 5,
             "patch": "7.56",
-            "cSiblings": ["d.1090"]
+            "cSiblings": ["character.beastmaster.crucible-of-the-unbroken.1090"]
         },
         "x4036": {
             "name_en": "Crucible Reforged I",
@@ -1755,7 +1763,7 @@
             "description_fr": "Finir le Dédale bestial - 1er plateau expert.",
             "points": 5,
             "patch": "7.56",
-            "cSiblings": ["d.1091"]
+            "cSiblings": ["character.beastmaster.crucible-of-the-unbroken.1091"]
         },
         "x4037": {
             "name_en": "Crucible Reforged II",
@@ -1764,7 +1772,7 @@
             "description_fr": "Finir le Dédale bestial - 2e plateau expert.",
             "points": 5,
             "patch": "7.56",
-            "cSiblings": ["d.1092"]
+            "cSiblings": ["character.beastmaster.crucible-of-the-unbroken.1092"]
         },
         "x4038": {
             "name_en": "Hot in Here I",
@@ -1772,7 +1780,8 @@
             "description_en": "Clear the First Board of the Unbroken under the third degree.",
             "description_fr": "Finir le Dédale bestial - 1er plateau dans le mode de jeu “Sentier bestial III”.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cCombo": [4055]
         },
         "x4039": {
             "name_en": "Hot in Here II",
@@ -1780,7 +1789,8 @@
             "description_en": "Clear the Second Board of the Unbroken under the third degree.",
             "description_fr": "Finir le Dédale bestial - 2e plateau dans le mode de jeu “Sentier bestial III”.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cCombo": [4055]
         },
         "x4040": {
             "name_en": "Hot in Here III",
@@ -1788,7 +1798,8 @@
             "description_en": "Clear the Third Board of the Unbroken under the third degree.",
             "description_fr": "Finir le Dédale bestial - 3e plateau dans le mode de jeu “Sentier bestial III”.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cCombo": [4055]
         },
         "x4041": {
             "name_en": "Calcination I",
@@ -1796,7 +1807,8 @@
             "description_en": "Clear the First Master's Board under the third degree.",
             "description_fr": "Finir le Dédale bestial - 1er plateau expert dans le mode de jeu “Sentier bestial III”.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cCombo": [4055]
         },
         "x4042": {
             "name_en": "Calcination II",
@@ -1804,7 +1816,8 @@
             "description_en": "Clear the Second Master's Board under the third degree.",
             "description_fr": "Finir le Dédale bestial - 2e plateau expert dans le mode de jeu “Sentier bestial III”.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cCombo": [4055]
         },
         "x4043": {
             "name_en": "Eighth Rank I",
@@ -1812,7 +1825,9 @@
             "description_en": "Achieve Apex rank or above on the First Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 1er plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4044],
+            "cCombo": [4053]
         },
         "x4044": {
             "name_en": "Unbreakable I",
@@ -1820,7 +1835,9 @@
             "description_en": "Achieve Legendary rank on the First Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 1er plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4043],
+            "cCombo": [4054]
         },
         "x4045": {
             "name_en": "Eighth Rank II",
@@ -1828,7 +1845,9 @@
             "description_en": "Achieve Apex rank or above on the Second Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 2e plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4046],
+            "cCombo": [4053]
         },
         "x4046": {
             "name_en": "Unbreakable II",
@@ -1836,7 +1855,9 @@
             "description_en": "Achieve Legendary rank on the Second Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 2e plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4045],
+            "cCombo": [4054]
         },
         "x4047": {
             "name_en": "Eighth Rank III",
@@ -1844,7 +1865,9 @@
             "description_en": "Achieve Apex rank or above on the Third Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 3e plateau en obtenant le rang “dresseur d'exception” ou supérieur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4048],
+            "cCombo": [4053]
         },
         "x4048": {
             "name_en": "Unbreakable III",
@@ -1852,7 +1875,9 @@
             "description_en": "Achieve Legendary rank on the Third Board of the Unbroken.",
             "description_fr": "Finir le Dédale bestial - 3e plateau en obtenant le rang “dresseur légendaire” ou supérieur.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4047],
+            "cCombo": [4054]
         },
         "x4049": {
             "name_en": "Built Different I",
@@ -1860,7 +1885,9 @@
             "description_en": "Achieve Apex rank or above on the First Master's Board.",
             "description_fr": "Finir le Dédale bestial - 1er plateau expert en obtenant le rang “dresseur d'exception” ou supérieur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4050],
+            "cCombo": [4053]
         },
         "x4050": {
             "name_en": "Legends Never Die I",
@@ -1868,7 +1895,9 @@
             "description_en": "Achieve Legendary rank on the First Master's Board.",
             "description_fr": "Finir le Dédale bestial - 1er plateau expert en obtenant le rang “dresseur légendaire” ou supérieur.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4049],
+            "cCombo": [4054]
         },
         "x4051": {
             "name_en": "Built Different II",
@@ -1876,7 +1905,9 @@
             "description_en": "Achieve Apex rank or above on the Second Master's Board.",
             "description_fr": "Finir le Dédale bestial - 2e plateau expert en obtenant le rang “dresseur d'exception” ou supérieur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4052],
+            "cCombo": [4053]
         },
         "x4052": {
             "name_en": "Legends Never Die II",
@@ -1884,7 +1915,9 @@
             "description_en": "Achieve Legendary rank on the Second Master's Board.",
             "description_fr": "Finir le Dédale bestial - 2e plateau expert en obtenant le rang “dresseur légendaire” ou supérieur.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4051],
+            "cCombo": [4054]
         },
         "x4053": {
             "name_en": "Freeing the Beast",
@@ -1892,8 +1925,9 @@
             "description_en": "Achieve Apex rank or above on the Crucible's first three boards and two master's boards.",
             "description_fr": "Obtenir le rang “dresseur d'exception” ou supérieur aux 1er, 2e et 3e plateaux ainsi qu'aux 1er et 2e plateaux experts du Dédale bestial.",
             "points": 5,
-            "reward": "t.877",
+            "reward": ["ap.1135", "t.877"],
             "patch": "7.56",
+            "cPrev": [4043, 4045, 4047, 4049, 4051],
             "cSiblings": ["t.877"]
         },
         "x4054": {
@@ -1904,6 +1938,7 @@
             "points": 10,
             "reward": "t.891",
             "patch": "7.56",
+            "cPrev": [4044, 4046, 4048, 4050, 4052],
             "cSiblings": ["t.891"]
         },
         "x4055": {
@@ -1914,6 +1949,7 @@
             "points": 20,
             "reward": "t.892",
             "patch": "7.56",
+            "cPrev": [4038, 4039, 4040, 4041, 4042],
             "cSiblings": ["t.892"]
         },
         "x4061": {
@@ -2002,7 +2038,8 @@
             "description_en": "Achieve rank 25 or higher with 10 beasts.",
             "description_fr": "Atteindre le rang 25 ou spérieur avec 10 bêtes.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4057]
         },
         "x4057": {
             "name_en": "Friend to the Fierce II",
@@ -2010,7 +2047,9 @@
             "description_en": "Achieve rank 25 or higher with 20 beasts.",
             "description_fr": "Atteindre le rang 25 ou spérieur avec 20 bêtes.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4056],
+            "cNext": [4058]
         },
         "x4058": {
             "name_en": "Friend to the Fierce III",
@@ -2018,7 +2057,9 @@
             "description_en": "Achieve rank 25 or higher with 30 beasts.",
             "description_fr": "Atteindre le rang 25 ou spérieur avec 30 bêtes.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4057],
+            "cNext": [4059]
         },
         "x4059": {
             "name_en": "Friend to the Fierce IV",
@@ -2026,7 +2067,9 @@
             "description_en": "Achieve rank 25 or higher with 40 beasts.",
             "description_fr": "Atteindre le rang 25 ou spérieur avec 40 bêtes.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4058],
+            "cNext": [4060]
         },
         "x4060": {
             "name_en": "Friend to the Fierce V",
@@ -2034,7 +2077,8 @@
             "description_en": "Achieve rank 25 or higher with 50 beasts.",
             "description_fr": "Atteindre le rang 25 ou spérieur avec 50 bêtes.",
             "points": 10,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4059]
         },
         "x4075": {
             "name_en": "Beast of the Best",

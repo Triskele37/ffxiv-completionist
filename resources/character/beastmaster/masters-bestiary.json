@@ -1,0 +1,552 @@
+{
+    "key": "masters-bestiary",
+    "groupName_en": "Master's Bestiary",
+    "groupName_fr": "Master's Bestiary",
+    "columns": {
+        "number": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY",
+            "oneLineTextList": true,
+            "filterable": true
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "minValue": 0,
+    "maxValue": 25,
+    "tasks": {
+        "x0": {
+            "name_en": "Cu Sith",
+            "name_fr": "Cu Sith",
+            "number": "1",
+            "category": "@CATEGORY.QUEST",
+            "source": ["q.71026"],
+            "patch": "7.56"
+        },
+        "x1": {
+            "name_en": "Squirrel",
+            "name_fr": "Écureuil",
+            "number": "2",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.GROUND_SQUIRREL (2) PLACE.ARR.CENTRAL_SHROUD (22.5, 17.8)"
+            ],
+            "patch": "7.56"
+        },
+        "x2": {
+            "name_en": "Lamb",
+            "name_fr": "Mouton",
+            "number": "3",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.LOST_LAMB (3) PLACE.ARR.MIDDLE_LA_NOSCEA (23.4, 24.4)"
+            ],
+            "patch": "7.56"
+        },
+        "x3": {
+            "name_en": "Pugil",
+            "name_fr": "Pugil",
+            "number": "4",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.PUGIL (4) PLACE.ARR.MIDDLE_LA_NOSCEA (23.2, 22.1)"
+            ],
+            "patch": "7.56"
+        },
+        "x4": {
+            "name_en": "Opo Opo",
+            "name_fr": "Opo Opo",
+            "number": "5",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.OPO_OPO (5) PLACE.ARR.NORTH_SHROUD (27.5, 25.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x5": {
+            "name_en": "Dodo",
+            "name_fr": "Dodo",
+            "number": "6",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.WILD_DODO (4) PLACE.ARR.LOWER_LA_NOSCEA (28.4, 20.7)"
+            ],
+            "patch": "7.56"
+        },
+        "x6": {
+            "name_en": "Coblyn",
+            "name_fr": "Coblyn",
+            "number": "7",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.RUSTY_COBLYN (6) PLACE.ARR.WESTERN_THANALAN (21.5, 26.2)"
+            ],
+            "patch": "7.56"
+        },
+        "x7": {
+            "name_en": "Diremite",
+            "name_fr": "Acarus",
+            "number": "8",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.DIREMITE (10) PLACE.ARR.CENTRAL_SHROUD (19.4, 18.5)"
+            ],
+            "patch": "7.56"
+        },
+        "x8": {
+            "name_en": "Megalocrab",
+            "name_fr": "Mégalocrabe",
+            "number": "9",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.MEGALOCRAB (10) PLACE.ARR.MIDDLE_LA_NOSCEA (16.5, 14.4)"
+            ],
+            "patch": "7.56"
+        },
+        "x9": {
+            "name_en": "Wespe",
+            "name_fr": "Frelon",
+            "number": "10",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.HUGE_HORNET (1) PLACE.ARR.CENTRAL_THANALAN (20.0, 26.6)"
+            ],
+            "patch": "7.56"
+        },
+        "x10": {
+            "name_en": "Vulture",
+            "name_fr": "Vautour",
+            "number": "11",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.NESTING_BUZZARD (6) PLACE.ARR.WESTERN_THANALAN (21.2, 25.5)"
+            ],
+            "patch": "7.56"
+        },
+        "x11": {
+            "name_en": "Mandragora",
+            "name_fr": "Mandragore",
+            "number": "12",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.TINY_MANDRAGORA (5) PLACE.ARR.MIDDLE_LA_NOSCEA (23.9, 18.1)"
+            ],
+            "patch": "7.56"
+        },
+        "x12": {
+            "name_en": "Geshunpest",
+            "name_fr": "Gespenst",
+            "number": "13",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.GESHUNPEST (14) PLACE.ARR.CENTRAL_SHROUD (19.4, 27.7)"
+            ],
+            "patch": "7.56"
+        },
+        "x13": {
+            "name_en": "Puk",
+            "name_fr": "Puk",
+            "number": "14",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.PUK_HATCHLING (4) PLACE.ARR.MIDDLE_LA_NOSCEA (23.2, 20.2)"
+            ],
+            "patch": "7.56"
+        },
+        "x14": {
+            "name_en": "Crab",
+            "name_fr": "Crabe",
+            "number": "15",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.FOSSILSHELL (15) d.4",
+                "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x15": {
+            "name_en": "Mantis",
+            "name_fr": "Mante",
+            "number": "16",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.KILLER_MANTIS (16) PLACE.ARR.WESTERN_LA_NOSCEA (21.8, 23.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x16": {
+            "name_en": "Slime",
+            "name_fr": "Gluant",
+            "number": "17",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.ICHOROUS_IRE (17) d.3",
+                "@VENDOR.KORNAGO_MERCHANT (20 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x17": {
+            "name_en": "Dullahan",
+            "name_fr": "Dullahan",
+            "number": "18",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.DOCTORE (20) d.7",
+                "@VENDOR.KORNAGO_MERCHANT (20 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x18": {
+            "name_en": "Bat",
+            "name_fr": "Chauve-souris",
+            "number": "19",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.CAVE_BAT (7) PLACE.ARR.LOWER_LA_NOSCEA (27.2, 15.1)"
+            ],
+            "patch": "7.56"
+        },
+        "x19": {
+            "name_en": "Flying Trap",
+            "name_fr": "Piège-volant",
+            "number": "20",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.ROSELET (10) PLACE.ARR.CENTRAL_SHROUD (23.2, 34.7)"
+            ],
+            "patch": "7.56"
+        },
+        "x20": {
+            "name_en": "Ziz",
+            "name_fr": "Ziz",
+            "number": "21",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.ROTHLYT_PELICAN (16) PLACE.ARR.WESTERN_LA_NOSCEA (24.1, 22.9)"
+            ],
+            "patch": "7.56"
+        },
+        "x21": {
+            "name_en": "Sabotender",
+            "name_fr": "Pampa",
+            "number": "22",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.CACTUAR (3) PLACE.ARR.WESTERN_THANALAN (28.2, 24.9)"
+            ],
+            "patch": "7.56"
+        },
+        "x22": {
+            "name_en": "Golem",
+            "name_fr": "Golem",
+            "number": "23",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.FATE"],
+            "source": [
+                "@ENEMY.SANDSTONE_GOLEM (29) PLACE.ARR.SOUTHERN_THANALAN (23.0, 12.5)",
+                "@ENEMY.STONE_GOLEM (25) fate.180"
+            ],
+            "patch": "7.56"
+        },
+        "x23": {
+            "name_en": "Apkallu",
+            "name_fr": "Apkallu",
+            "number": "24",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.APKALLU (30) PLACE.ARR.EASTERN_LA_NOSCEA (27.4, 35.6)"
+            ],
+            "patch": "7.56"
+        },
+        "x24": {
+            "name_en": "Adamantoise",
+            "name_fr": "Adamankhélone",
+            "number": "25",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.GIANT_TORTOISE (12) PLACE.ARR.CENTRAL_THANALAN (24.6, 30.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x25": {
+            "name_en": "Buffalo",
+            "name_fr": "Buffle",
+            "number": "26",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.WOUNDED_AUROCHS (8) PLACE.ARR.MIDDLE_LA_NOSCEA (18.7, 17.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x26": {
+            "name_en": "Uragnite",
+            "name_fr": "Uragnite",
+            "number": "27",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.SCAPHITE (14) PLACE.ARR.WESTERN_THANALAN (17.1, 15.0)"
+            ],
+            "patch": "7.56"
+        },
+        "x27": {
+            "name_en": "Worm",
+            "name_fr": "Ver Géant",
+            "number": "28",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.FATE", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.SANDWORM (31) PLACE.ARR.SOUTHERN_THANALAN (13.9, 28.9)",
+                "@ENEMY.SANDWORM (29) fate.429",
+                "@VENDOR.KORNAGO_MERCHANT (15 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x28": {
+            "name_en": "Spriggan",
+            "name_fr": "Spriggan",
+            "number": "29",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.SPRIGGAN_GRAVEROBBER (7) PLACE.ARR.CENTRAL_THANALAN (17.4, 23.5)"
+            ],
+            "patch": "7.56"
+        },
+        "x29": {
+            "name_en": "Goobbue",
+            "name_fr": "Goobbue",
+            "number": "30",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.MOSSLESS_GOOBBUE (12) PLACE.ARR.LOWER_LA_NOSCEA (25.5, 26.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x30": {
+            "name_en": "Gigantoad",
+            "name_fr": "Crapaud Géant",
+            "number": "31",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.RIVERBANK_TOAD (4) PLACE.ARR.LOWER_LA_NOSCEA (24.7, 23.0)"
+            ],
+            "patch": "7.56"
+        },
+        "x31": {
+            "name_en": "Colibri",
+            "name_fr": "Colibri",
+            "number": "32",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.FATE"],
+            "source": [
+                "@ENEMY.COLIBRI (33) PLACE.ARR.EASTERN_LA_NOSCEA (31.2, 24.6)",
+                "@ENEMY.COLIBRI (30) fate.279"
+            ],
+            "patch": "7.56"
+        },
+        "x32": {
+            "name_en": "Coeurl",
+            "name_fr": "Coeurl",
+            "number": "33",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.MASTER_COEURL (24) PLACE.ARR.UPPER_LA_NOSCEA (8.6, 21.4)",
+                "@ENEMY.CHOPPER (15) d.4"
+            ],
+            "patch": "7.56"
+        },
+        "x33": {
+            "name_en": "Raptor",
+            "name_fr": "Raptor",
+            "number": "34",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.ANOLE (9) PLACE.ARR.CENTRAL_SHROUD (31.0, 20.3)"
+            ],
+            "patch": "7.56"
+        },
+        "x34": {
+            "name_en": "Drake",
+            "name_fr": "Draconide",
+            "number": "35",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.SUNDRAKE (32) PLACE.ARR.SOUTHERN_THANALAN (24.1, 36.9)",
+                "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x35": {
+            "name_en": "Treant",
+            "name_fr": "Tréant",
+            "number": "36",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.TREANT_SAPLING (12) PLACE.ARR.CENTRAL_SHROUD (27.3, 15.6)"
+            ],
+            "patch": "7.56"
+        },
+        "x36": {
+            "name_en": "Antling",
+            "name_fr": "Fourmi",
+            "number": "37",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.MYRMIDON_PRINCESS (38) d.12",
+                "@VENDOR.KORNAGO_MERCHANT (20 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x37": {
+            "name_en": "Chimera",
+            "name_fr": "Chimère",
+            "number": "38",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.CHIMERA (38) d.12",
+                "@VENDOR.KORNAGO_MERCHANT (30 CURRENCY.FADED_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x38": {
+            "name_en": "Morbol",
+            "name_fr": "Morbol",
+            "number": "39",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.STROPER (31) PLACE.ARR.CENTRAL_SHROUD (13.5, 22.2)"
+            ],
+            "patch": "7.56"
+        },
+        "x39": {
+            "name_en": "Ghost",
+            "name_fr": "Fantôme",
+            "number": "40",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.BOGY (7) PLACE.ARR.MIDDLE_LA_NOSCEA (20.2, 18.7)"
+            ],
+            "patch": "7.56"
+        },
+        "x40": {
+            "name_en": "Salamander",
+            "name_fr": "Salamandre",
+            "number": "41",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.BLACK_EFT (6) PLACE.ARR.CENTRAL_SHROUD (26.5, 20.2)"
+            ],
+            "patch": "7.56"
+        },
+        "x41": {
+            "name_en": "Cobra",
+            "name_fr": "Cobra",
+            "number": "42",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.LAKE_COBRA (45) PLACE.ARR.MOR_DHONA (25.4, 12.7)",
+                "@ENEMY.COLISEUM_PYTHON (20) d.7"
+            ],
+            "patch": "7.56"
+        },
+        "x42": {
+            "name_en": "Hydra",
+            "name_fr": "Hydre",
+            "number": "43",
+            "category": ["@CATEGORY.TRIAL", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.HYDRA (50) d.75",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x43": {
+            "name_en": "Damselfly",
+            "name_fr": "Demoiselle",
+            "number": "44",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.THE_HUNT", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.GADFLY (50) d.22",
+                "duty.the-hunt.arr.2921 (50)",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x44": {
+            "name_en": "Rotting Goobbue",
+            "name_fr": "Goobbue Putrescent",
+            "number": "45",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.DECAYING_GOURMAND (50) d.22",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x45": {
+            "name_en": "Zu",
+            "name_fr": "Zu",
+            "number": "46",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.FATE", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.ZU (50) d.17",
+                "@ENEMY.ANZU_CRONE (47) fate.844",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x46": {
+            "name_en": "Ice Golem",
+            "name_fr": "Golem de Glace",
+            "number": "47",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.WANDIL (50) d.27",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x47": {
+            "name_en": "Karlabos",
+            "name_fr": "Karlabos",
+            "number": "48",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.KARLABOS (50) d.28",
+                "@VENDOR.KORNAGO_MERCHANT (35 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x48": {
+            "name_en": "Rafflesia",
+            "name_fr": "Rafflesia",
+            "number": "49",
+            "category": ["@CATEGORY.RAID", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.RAFFLESIA (50) d.98",
+                "@VENDOR.KORNAGO_MERCHANT (40 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        },
+        "x49": {
+            "name_en": "Behemoth",
+            "name_fr": "Béhémoth",
+            "number": "50",
+            "category": ["@CATEGORY.RAID", "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN"],
+            "source": [
+                "@ENEMY.KING_BEHEMOTH (50) d.92",
+                "@VENDOR.KORNAGO_MERCHANT (40 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)"
+            ],
+            "patch": "7.56"
+        }
+    }
+}

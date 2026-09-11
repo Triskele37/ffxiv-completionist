@@ -15,6 +15,9 @@ import type { Task } from '@model/Task';
 import { matchWildcardPatch } from '@model/util/patchMatch';
 import { sortPatchStrings } from '@model/util/sortPatchStrings';
 
+// remember last selection
+let lastSelectedPatch: string = '';
+
 /**
  * View tasks by patch
  */
@@ -41,7 +44,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
 
     tasksInPatch: Task[] = [];
 
-    selectedPatch: string = '';
+    selectedPatch: string = lastSelectedPatch;
 
     patchViewGroup = signal(createDummyGroup({
         isUiGroup: true
@@ -72,6 +75,8 @@ export class PatchViewComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy() {
+        lastSelectedPatch = this.selectedPatch;
+
         this.tasksInPatch.forEach((task) => {
             delete task.parentContentLink;
         });

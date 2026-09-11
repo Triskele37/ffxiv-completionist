@@ -4,6 +4,8 @@
     "groupNameShort": "@EXPANSION.EW",
     "defaultCompletion": 81,
     "isNumericCompletion": true,
+    "minValue": 81,
+    "maxValue": 90,
     "tasks": {
         "x0": {
             "name_en": "Alphinaud",
@@ -12,9 +14,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x1": {
             "name_en": "Alisaie",
@@ -23,9 +23,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x2": {
             "name_en": "Thancred",
@@ -34,9 +32,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x3": {
             "name_en": "Urianger",
@@ -45,9 +41,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x4": {
             "name_en": "Y'shtola",
@@ -56,9 +50,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x6": {
             "name_en": "Estinien",
@@ -67,9 +59,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         },
         "x5": {
             "name_en": "G'raha Tia",
@@ -78,9 +68,7 @@
             "patch": "6.0",
             "cComboAt": {
                 "90": ["a.2972"]
-            },
-            "minValue": 81,
-            "maxValue": 90
+            }
         }
     }
 }

@@ -78,11 +78,15 @@ export type DataGroup = {
     //#endregion
 
     //#region--------------------------------- Completion
-    defaultCompletion: CompletionFlag;
+    defaultCompletion?: CompletionFlag;
 
-    isNumericCompletion: boolean;
+    isNumericCompletion?: boolean;
 
-    numericDecimal: number;
+    numericDecimal?: number;
+
+    minValue?: number;
+
+    maxValue?: number;
 
     disableCompletion?: boolean;
 

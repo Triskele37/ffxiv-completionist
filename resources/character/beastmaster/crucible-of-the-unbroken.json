@@ -1,0 +1,63 @@
+{
+    "key": "crucible-of-the-unbroken",
+    "groupName_en": "Crucible of the Unbroken",
+    "groupName_fr": "Crucible of the Unbroken",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x1088": {
+            "name_en": "First Board of the Unbroken",
+            "name_fr": "Dédale bestial - 1er plateau",
+            "unlock": "q.71030",
+            "patch": "7.56",
+            "cPrev": ["q.71030"],
+            "cNext": ["q.71031"],
+            "cSiblings": ["a.4033"]
+        },
+        "x1089": {
+            "name_en": "Second Board of the Unbroken",
+            "name_fr": "Dédale bestial - 2e plateau",
+            "unlock": "q.71032",
+            "patch": "7.56",
+            "cPrev": ["q.71032"],
+            "cNext": ["q.71033"],
+            "cSiblings": ["a.4034"]
+        },
+        "x1090":{
+            "name_en": "Third Board of the Unbroken",
+            "name_fr": "Dédale bestial - 3e plateau",
+            "unlock": "q.71034",
+            "patch": "7.56",
+            "cPrev": ["q.71034"],
+            "cNext": ["q.71035"],
+            "cSiblings": ["a.4035"]
+        },
+        "x1091": {
+            "name_en": "First Master's Board",
+            "name_fr": "Dédale bestial - 1er plateau expert",
+            "unlock": "q.71036",
+            "patch": "7.56",
+            "cPrev": ["q.71036"],
+            "cNext": ["q.71037"],
+            "cSiblings": ["a.4036"]
+        },
+        "x1092":{
+            "name_en": "Second Master's Board",
+            "name_fr": "Dédale bestial - 2e plateau expert",
+            "unlock": "q.71037",
+            "patch": "7.56",
+            "cPrev": ["q.71037"],
+            "cSiblings": ["a.4037"]
+        }
+    }
+}

@@ -1,23 +1,20 @@
-import type { KeysOfType } from '@common/typeUtils';
-import type { Links } from '@model/Chain/ChainLink';
-import type { DataGroup } from '@model/DataGroup';
+import type { ChainKeys } from '@model/Chain/ChainLink';
+import { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
 
 import type { DataServiceContext } from '../types';
 
-type LinkKeys = KeysOfType<DataGroup, Links | undefined>;
-
-export function concatWithParent<K extends LinkKeys>(
+export function concatWithParent<K extends ChainKeys>(
     this: DataServiceContext,
     task: Task,
     key: K,
 ): void {
-    const parentValue = task._parent[key];
+    const parentValue = task._parent[key as keyof DataGroup];
     if(!parentValue) return;
 
     if(task[key] === undefined) {
         // Exists only on parent
-        task[key] = parentValue;
+        task[key] = parentValue as any;
     }
     else {
         // Exists on both
@@ -29,6 +26,6 @@ export function concatWithParent<K extends LinkKeys>(
         if(Array.isArray(task[key])) concated.push(...task[key] as any);
         else concated.push(task[key]);
 
-        task[key] = concated;
+        task[key] = concated as any;
     }
 }

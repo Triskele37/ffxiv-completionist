@@ -4,6 +4,8 @@
     "groupNameShort": "@EXPANSION.DT",
     "defaultCompletion": 91,
     "isNumericCompletion": true,
+    "minValue": 91,
+    "maxValue": 100,
     "tasks": {
         "x0": {
             "name_en": "Alphinaud",
@@ -12,9 +14,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x1": {
             "name_en": "Alisaie",
@@ -23,9 +23,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x2": {
             "name_en": "Thancred",
@@ -34,9 +32,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x3": {
             "name_en": "Urianger",
@@ -45,9 +41,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x4": {
             "name_en": "Y'shtola",
@@ -56,9 +50,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x6": {
             "name_en": "Estinien",
@@ -67,9 +59,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x5": {
             "name_en": "G'raha Tia",
@@ -78,9 +68,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         },
         "x7": {
             "name_en": "Krile",
@@ -89,9 +77,7 @@
             "patch": "7.0",
             "cComboAt": {
                 "100": ["a.3509"]
-            },
-            "minValue": 91,
-            "maxValue": 100
+            }
         }
     }
 }

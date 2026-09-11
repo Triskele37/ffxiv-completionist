@@ -976,7 +976,8 @@
             "description_en": "Clear Keybound Brawler for the first time.",
             "description_fr": "Réussir 1 fois Frappe fatale.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4071]
         },
         "x4071": {
             "name_en": "Masterstroke II",
@@ -984,7 +985,9 @@
             "description_en": "Clear Keybound Brawler 10 times.",
             "description_fr": "Réussir 10 fois Frappe fatale.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4070],
+            "cNext": [4072]
         },
         "x4072": {
             "name_en": "Masterstroke III",
@@ -992,7 +995,9 @@
             "description_en": "Clear Keybound Brawler 50 times.",
             "description_fr": "Réussir 50 fois Frappe fatale.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4071],
+            "cNext": [4073]
         },
         "x4073": {
             "name_en": "Masterstroke IV",
@@ -1002,6 +1007,7 @@
             "points": 10,
             "reward": "t.887",
             "patch": "7.56",
+            "cPrev": [4072],
             "cSiblings": ["t.887"]
         }
     }

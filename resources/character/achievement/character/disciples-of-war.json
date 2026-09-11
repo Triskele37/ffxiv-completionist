@@ -1218,7 +1218,11 @@
             "description_en": "Achieve beastmaster level 10.",
             "description_fr": "Atteindre le niveau 10 avec le job dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cNext": [4024],
+            "cSiblingsAt": {
+                "10": ["cj.33"]
+            }
         },
         "x4024": {
             "name_en": "Wild Child II",
@@ -1226,7 +1230,12 @@
             "description_en": "Achieve beastmaster level 20.",
             "description_fr": "Atteindre le niveau 20 avec le job dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4023],
+            "cNext": [4025],
+            "cSiblingsAt": {
+                "20": ["cj.33"]
+            }
         },
         "x4025": {
             "name_en": "Wild Child III",
@@ -1234,7 +1243,12 @@
             "description_en": "Achieve beastmaster level 30.",
             "description_fr": "Atteindre le niveau 30 avec le job dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4024],
+            "cNext": [4026],
+            "cSiblingsAt": {
+                "30": ["cj.33"]
+            }
         },
         "x4026": {
             "name_en": "Wild Child IV",
@@ -1242,7 +1256,12 @@
             "description_en": "Achieve beastmaster level 40.",
             "description_fr": "Atteindre le niveau 40 avec le job dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4025],
+            "cNext": [4027],
+            "cSiblingsAt": {
+                "40": ["cj.33"]
+            }
         },
         "x4027": {
             "name_en": "Wild Child V",
@@ -1250,7 +1269,11 @@
             "description_en": "Achieve beastmaster level 50.",
             "description_fr": "Atteindre le niveau 50 avec le job dresseur.",
             "points": 5,
-            "patch": "7.56"
+            "patch": "7.56",
+            "cPrev": [4026],
+            "cSiblingsAt": {
+                "50": ["cj.33"]
+            }
         }
     }
 }
