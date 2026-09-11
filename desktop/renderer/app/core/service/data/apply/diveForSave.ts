@@ -13,7 +13,7 @@ export function diveForSave(
         if(!subGroup) return;
 
         // Don't save anything from bookmarks
-        if(subGroup.isBookmarkGroup) return;
+        if(subGroup.type !== 'Data' && subGroup.type !== 'Custom') return;
 
         subGroupOrTasks[subGroup.storageKey] = this.apply.diveForSave(subGroup);
     });

@@ -104,16 +104,20 @@
                 "Chain Analysis now checks all chain types",
                 "Chain History display in chain overlay with links",
                 "Shift+Click multi-selection in tables",
-                "Multi-select filter and sort reset",
+                "Multi-select for option filters",
+                "Ability reset sort order",
                 "Summary statistics in Patch View",
-                "Several new theme presets"
+                "Several new theme presets",
+                "Editable task notes"
             ],
             "CHANGE": [
-                "Replaced Guide with Active Help",
+                "Replaced Guide with Active Help (bottom left icon)",
                 "Improved patch selector in Patch View",
                 "Patch View now uses the full featured task table",
+                "Selected patch view now persists between navigations",
                 "Column filters now persist per group when changing groups",
                 "Patch Notes now distinguish between app and game data",
+                "Non-data groups are now included in navigation history",
                 "Theme color pickers now take hex codes"
             ],
             "FIX": [

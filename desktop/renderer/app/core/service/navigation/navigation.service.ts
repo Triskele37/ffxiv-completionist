@@ -115,7 +115,7 @@ export class NavigationService {
 
         if(!selectedGroup?.contentLink) return; // Must exist
 
-        if(selectedGroup.isUiGroup) {
+        if(selectedGroup.type === 'UI') {
             if(!selectedGroup.contentLink) return;
         }
         else {

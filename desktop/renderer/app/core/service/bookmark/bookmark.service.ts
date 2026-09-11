@@ -27,7 +27,6 @@ export class BookmarkService {
 
         if(group) {
             this.group = group;
-            this.group.isBookmarkGroup = true;
             this.group.subGroups = new Map();
 
             // Put this group in its placeholder

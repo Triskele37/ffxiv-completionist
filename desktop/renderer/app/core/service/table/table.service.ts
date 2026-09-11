@@ -40,6 +40,10 @@ export class TableService implements TableType.TableServiceContext {
         this.filter.initContext();
     }
 
+    forceUpdate(): void {
+        this.property.setGroup(this.group());
+    }
+
     readonly property: TablePropertyFacet = createPropertyFacet.call(this);
     readonly filter: TableFilterFacet = createFilterFacet.call(this);
     readonly order: TableOrderFacet = createOrderFacet.call(this);

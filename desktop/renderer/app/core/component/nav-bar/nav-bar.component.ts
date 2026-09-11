@@ -32,8 +32,6 @@ export class NavBarComponent {
 
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
-        const selectedGroup = this.svcNavigation.selectedGroup();
-        if(selectedGroup?.isCustomGroup && selectedGroup._key === 'custom') return;
 		if(isIgnoredElement($event.target as HTMLElement)) return;
 
         if($event.code === 'Escape') this.goToParent();

@@ -16,8 +16,8 @@ export class ShouldShowSummaryGroupPipe implements PipeTransform {
 
     transform(group: DataGroup | null): boolean {
         if(!group) return false;
-        if(group.isBookmarkGroup) return false;
-        if(group.isCustomGroup && group._key === 'custom') return false;
+        if(group.type !== 'Data' && group.type !== 'Custom') return false;
+        if(group.type === 'Custom' && group._key === 'custom') return false;
 
         return !isHiddenGroup(group, this.svcConfig);
     }

@@ -37,27 +37,15 @@
                     ></com-garland-action>
 
                     @if(showCopyId()) {
-                        <span>
-                            <ng-icon
-                                name="matContentCopy"
-                                class="action"
-                                tooltipPosition="top"
-                                pTooltip="Copy ID"
-                                (click)="copyTaskId()"
-                            ></ng-icon>
-                        </span>
+                        <com-copy-id-action
+                            [task]="task"
+                        ></com-copy-id-action>
                     }
 
-                    @if(!task._parent.isCustomGroup && !task._parent.disableCompletion) {
-                        <span>
-                            <ng-icon
-                                name="matRemoveRedEye"
-                                class="action"
-                                [pTooltip]="'APP.TABLE.ROW_ACTION.VIEW_CHAINS' | translate"
-                                tooltipPosition="top"
-                                (click)="onOpenChainViewer()"
-                            ></ng-icon>
-                        </span>
+                    @if(svcTable.group().type !== 'Custom' && !svcTable.group().disableCompletion) {
+                        <com-view-chains-action
+                            [task]="task"
+                        ></com-view-chains-action>
 
                         <com-bookmark-action
                             [task]="task"
@@ -65,7 +53,13 @@
                         ></com-bookmark-action>
                     }
 
-                    @if(task._parent.draggable) {
+                    @if(svcTable.group().type !== 'Note') {
+                        <com-edit-note-action
+                            [task]="task"
+                        ></com-edit-note-action>
+                    }
+
+                    @if(svcTable.group().draggable) {
                         <com-drag-action
                             [rowIndex]="rowIndex"
                         ></com-drag-action>

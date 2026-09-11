@@ -1,12 +1,15 @@
 <tr
     class="data-row"
-    [attr.data-active-help]="task._parent.isCustomGroup ? 'APP.ACTIVE_HELP.CUSTOM_VIEW.CUSTOM_TASK_ROW' : 'APP.ACTIVE_HELP.TABLE.TASK_ROW'"
+    [attr.data-active-help]="task._parent.type === 'Custom' ? 'APP.ACTIVE_HELP.CUSTOM_VIEW.CUSTOM_TASK_ROW' : 'APP.ACTIVE_HELP.TABLE.TASK_ROW'"
     [pReorderableRow]="rowIndex"
     [pReorderableRowDisabled]="!svcTable.group().draggable || svcTable.order.debounceDrag()"
     [ngClass]="{
         selected: task.selected(),
-        'even-row': !svcTable.rowGroup.groupRows && rowIndex % 2 === 0
+        'even-row': !svcTable.rowGroup.groupRows && rowIndex % 2 === 0,
+        'has-note': !!note
     }"
+    [pTooltip]="note"
+    tooltipPosition="top"
     (click)="onClick($event)"
     (mousedown)="onRowMouseDown($event)"
 >

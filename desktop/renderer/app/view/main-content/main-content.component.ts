@@ -45,7 +45,7 @@ export class MainContentComponent {
         const refExisted = !!this.previousSelectedGroup?.()?.component;
         this.previousSelectedGroup.set(this.svcNavigation.selectedGroup());
 
-        if(this.svcNavigation.selectedGroup()?.isUiGroup) {
+        if(this.svcNavigation.selectedGroup()?.type === 'UI') {
             // When the previous selectedGroup had a custom component, load immediately
             // Otherwise rely on 'set anchor' to load the component
             if(refExisted && this.svcNavigation.selectedGroup()?.component) {

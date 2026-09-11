@@ -43,7 +43,7 @@
                         border: 1px solid var(--primary-color);
 
                         width: 35px;
-                        height: $button-size;
+                        height: $button-size - 1px;
 
                         top: 0;
                         left: calc(35px / 2);

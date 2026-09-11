@@ -13,15 +13,15 @@
         <th
             [style.width.px]="column.width"
         >
-            @let helpKey = svcTable.group().isCustomGroup ? 'CUSTOM_VIEW.CUSTOM_COLUMN_NAME' : 'TABLE.COLUMN_NAME';
+            @let helpKey = svcTable.group().draggable ? 'CUSTOM_VIEW.CUSTOM_COLUMN_NAME' : 'TABLE.COLUMN_NAME';
             <div
                 [attr.data-active-help]="'APP.ACTIVE_HELP.' + helpKey"
                 class="column-name"
                 [pSortableColumn]="column.key"
-                [pSortableColumnDisabled]="svcTable.group().isCustomGroup"
+                [pSortableColumnDisabled]="svcTable.group().draggable"
             >
                 {{column.header}}
-                @if(!svcTable.group().isCustomGroup) {
+                @if(!svcTable.group().draggable) {
                     <p-sort-icon [field]="column.key"></p-sort-icon>
                 }
             </div>

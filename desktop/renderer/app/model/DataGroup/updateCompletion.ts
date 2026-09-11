@@ -6,7 +6,7 @@ import type { DataGroup } from './index';
  * */
 export function updateCompletion(group: DataGroup): void {
     // Bookmark groups are duplicates, bail
-    if(group.isBookmarkGroup) return;
+    if(group.type !== 'Data' && group.type !== 'Custom') return;
 
     group.updated$.next();
 

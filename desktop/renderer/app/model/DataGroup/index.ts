@@ -49,11 +49,7 @@ export type DataGroup = {
     //#endregion
 
     //#region--------------------------------- Group Type Flags
-    isUiGroup?: boolean;
-
-    isCustomGroup?: boolean;
-
-    isBookmarkGroup?: boolean;
+    type: 'Data' | 'UI' | 'Custom' | 'Bookmark' | 'Note';
 
     isCraftingLogGroup?: boolean;
 

@@ -4,7 +4,7 @@
     class="home-button"
     (click)="onHomeClick()"
 >
-    @if(svcNavigation.selectedGroup()?.isUiGroup) {
+    @if(svcNavigation.selectedGroup()?.type === 'UI') {
         <ng-icon name="matKeyboardArrowDown"></ng-icon>
     }
     @else {

@@ -24,7 +24,7 @@
                                 <com-summary-line
                                     data-active-help="APP.ACTIVE_HELP.STATISTICS.SUMMARY_SUB"
                                     [group]="subGroup.value!"
-                                    [showGroup]="group.isBookmarkGroup ?? false"
+                                    [showGroupInTooltip]="group.type === 'Bookmark'"
                                 ></com-summary-line>
                             }
                         }

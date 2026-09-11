@@ -80,10 +80,7 @@ export class MergeOverlayComponent extends Overlay {
         this.mergeTask.set(this.group.tasks[this.mergeIndex]);
         this.mergeMatches.set(this.svcSearch
             .searchTasks(this.mergeTask().name, false, false)
-            .filter((match) =>
-                !match.task._parent.isBookmarkGroup &&
-                !match.task._parent.isCustomGroup
-            ));
+            .filter((match) => match.task._parent.type === 'Data'));
 
         // Auto-merge single task matches
         if(this.isAutoMergeEnabled()) {

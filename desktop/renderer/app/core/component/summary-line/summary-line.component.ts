@@ -28,7 +28,7 @@ export class SummaryLineComponent implements OnChanges {
 
     @Input({ required: true }) group!: DataGroup;
     @Input() isBig: boolean = false;
-    @Input() showGroup: boolean = false;
+    @Input() showGroupInTooltip: boolean = false;
 
     subscription: Subscription | undefined;
     percentComplete = signal<string | null>(null);
@@ -48,11 +48,9 @@ export class SummaryLineComponent implements OnChanges {
     }
 
     updateTooltip(): void {
-        // if(this.group.disableCompletion) return;
-
         let tooltip = '';
 
-        if(this.showGroup) {
+        if(this.showGroupInTooltip) {
             const groupPath = getGroupPath(this.group);
             groupPath.shift(); // remove overall
             groupPath.pop(); // remove group name
@@ -63,7 +61,7 @@ export class SummaryLineComponent implements OnChanges {
         tooltip += this.group.name + '\n\n';
 
         if(this.group.disableCompletion) {
-            const effectiveTotal = getTotal(this.group);
+            const effectiveTotal = getTotal(this.group, true);
             tooltip += effectiveTotal.toLocaleString();
         }
         else {

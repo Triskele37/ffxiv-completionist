@@ -17,7 +17,7 @@
                     {{'APP.TABLE_OVERLAY.TITLE' | translate}}
                 </button>
 
-                @if(!group.isBookmarkGroup && !group.isCustomGroup && !group.isUiGroup) {
+                @if(group.type === 'Data') {
                     <button pButton (click)="bookmarkGroup()">
                         @if(isBookmarked()) {
                             <ng-icon name="matBookmarkRemove"></ng-icon>

@@ -14,6 +14,7 @@ import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
+import { TableService } from '@service/table/table.service';
 
 import { Overlay } from '../Overlay';
 import { Divider } from 'primeng/divider';
@@ -44,6 +45,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     private svcData = inject(DataService);
     private svcNavigation = inject(NavigationService);
     svcCustomContent = inject(CustomContentService);
+    svcTable = inject(TableService);
 
     @Input({ required: true }) group!: DataGroup;
     @Input({ required: true }) tasks!: Task[];
@@ -172,6 +174,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
         if(this.newContentName.length < 3) return; // Prevent short names
         this.svcCustomContent.createTask(this.group, this.newContentName, this.newTaskNotes);
         this.svcData.apply.dataToStore();
+        this.svcTable.forceUpdate();
     }
 
     moveSelectedTasks(targetGroup: DataGroup): void {

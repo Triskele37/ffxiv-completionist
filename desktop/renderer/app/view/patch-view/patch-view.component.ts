@@ -47,7 +47,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
     selectedPatch: string = lastSelectedPatch;
 
     patchViewGroup = signal(createDummyGroup({
-        isUiGroup: true
+        type: 'UI'
     }));
 
     constructor() {
@@ -166,7 +166,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
     }
 
     diveForPatches(group: DataGroup | null, patches: string[]): void {
-        if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
+        if(!group || group.type !== 'Data') return;
 
         group.tasks?.forEach((task) => {
             if(!task.patch) return;
@@ -198,7 +198,7 @@ export class PatchViewComponent implements OnInit, OnDestroy {
     }
 
     diveForTasks(group: DataGroup | null): void {
-        if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
+        if(!group || group.type !== 'Data') return;
 
         for(const task of group.tasks) {
             let match: boolean = false;

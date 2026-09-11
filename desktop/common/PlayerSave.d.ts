@@ -6,6 +6,7 @@ export type SaveLoad = {
 export type PlayerSave = {
     overall: Record<string, any>;
     custom: Record<string, any>;
+    notes: Record<string, string>;
     'bookmarked-groups': string[];
     'bookmarked-tasks': string[];
     'starting-class': string;

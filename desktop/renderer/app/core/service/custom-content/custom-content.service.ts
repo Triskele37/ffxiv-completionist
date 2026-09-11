@@ -34,7 +34,6 @@ export class CustomContentService {
 
         if(group) {
             this.group = group;
-            this.group.isCustomGroup = true;
             this.group.draggable = true;
 
             // Replace the placeholder for this group
@@ -143,7 +142,7 @@ export class CustomContentService {
     //#region------------------------------------------------------- Custom Group
     createDataGroupObj(id: number, groupName: string, parent: DataGroup): DataGroup {
         const group = this.svcData.group.createDataGroup({ key: `g${id}`, groupName }, parent);
-        group.isCustomGroup = true;
+        group.type = 'Custom';
         group.draggable = true;
         return group;
     }

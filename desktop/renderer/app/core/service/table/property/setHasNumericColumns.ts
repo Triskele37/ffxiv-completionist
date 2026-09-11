@@ -10,7 +10,8 @@ export function setHasNumericColumns(
 
 function getHasNumericColumns(group: DataGroup | null) {
     if(!group) return false;
-    if(group.isBookmarkGroup) return true;
+    if(group.type === 'Bookmark') return true;
+    if(group.type === 'Note') return true;
     if(group.isNumericCompletion) return true;
 
     if(group.tasks?.length) {

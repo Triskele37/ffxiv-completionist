@@ -8,6 +8,7 @@ export function createDummyGroup(properties: Partial<DataGroup> = {}): DataGroup
 
     return {
         dataType: 'Group',
+        type: 'Data',
         name: '',
         _parent: null,
         tasks: [],

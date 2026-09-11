@@ -16,6 +16,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { DataService } from '@service/data/data-service';
 import { NavigationService } from '@service/navigation/navigation.service';
+import { NoteService } from '@service/note/note.service';
 import { ViewToken } from '@view/view-token';
 
 @Component({
@@ -35,6 +36,7 @@ export class NavDrawerItemComponent implements OnChanges {
     svcCustomContent = inject(CustomContentService);
     svcData = inject(DataService);
     svcNavigation = inject(NavigationService);
+    svcNote = inject(NoteService);
     cdr = inject(ChangeDetectorRef);
 
     @Input({ required: true }) group!: DataGroup;
@@ -62,8 +64,9 @@ export class NavDrawerItemComponent implements OnChanges {
         this.observableHarness(this.svcConfig.navSettingUpdated$);
 
         // Listen for groups who's content can change
-        this.observableHarness(this.svcBookmark.onGroupUpdated$, () => !!this.group.isBookmarkGroup);
-        this.observableHarness(this.svcCustomContent.onGroupUpdated$, () => !!this.group.isCustomGroup);
+        this.observableHarness(this.svcBookmark.onGroupUpdated$, () => this.group.type === 'Bookmark');
+        this.observableHarness(this.svcNote.onGroupUpdated$, () => this.group.type === 'Note');
+        this.observableHarness(this.svcCustomContent.onGroupUpdated$, () => this.group.type === 'Custom');
     }
 
     ngOnChanges(changes: SimpleChanges<NavDrawerItemComponent>) {
@@ -84,9 +87,16 @@ export class NavDrawerItemComponent implements OnChanges {
         this.isHidden = !this.group.visible || isHiddenGroup(this.group, this.svcConfig);
         this.isExpanded.set(this.getIsExpanded());
         this.isSelected.set(this.getIsSelected());
-        this.isComplete = isComplete(this.group);
-        this.isEmpty = !this.group.isBookmarkGroup && isEmpty(this.group);
         this.activeHelp = this.getActiveHelpKey(this.group);
+
+        if(this.group.type !== 'UI') {
+            this.isComplete = isComplete(this.group, true);
+            this.isEmpty = isEmpty(this.group, true);
+        }
+        else {
+            this.isComplete = false;
+            this.isEmpty = false;
+        }
     }
 
     getIsExpanded(): boolean {
@@ -98,7 +108,7 @@ export class NavDrawerItemComponent implements OnChanges {
     }
 
     getActiveHelpKey(group: DataGroup): string {
-        if(group.isUiGroup) {
+        if(group.type === 'UI') {
             if(group.component === ViewToken.PatchNotes) return 'APP.ACTIVE_HELP.UPDATES';
             if(group.component === ViewToken.PatchView) return 'APP.ACTIVE_HELP.PATCH_VIEW';
             if(group.component === ViewToken.Random) return 'APP.ACTIVE_HELP.RANDOM_VIEW';
@@ -107,7 +117,8 @@ export class NavDrawerItemComponent implements OnChanges {
         }
 
         if(group._key === 'custom') return 'APP.ACTIVE_HELP.CUSTOM_VIEW';
-        else if(group.isBookmarkGroup) return 'APP.ACTIVE_HELP.BOOKMARK_VIEW';
+        else if(group.type === 'Bookmark') return 'APP.ACTIVE_HELP.BOOKMARK_VIEW';
+        else if(group.type === 'Note') return 'APP.ACTIVE_HELP.NOTE_VIEW';
         return 'APP.ACTIVE_HELP.NAV_DRAWER.DRAWER_ITEM';
     }
 

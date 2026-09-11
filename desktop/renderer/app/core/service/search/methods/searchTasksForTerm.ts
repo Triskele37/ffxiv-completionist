@@ -15,7 +15,8 @@ export function searchTasksForTerm(this: SearchServiceContext) {
 
         // Recurse downward
         group.subGroups?.forEach((subGroup) => {
-            if(!subGroup || subGroup.isBookmarkGroup) return;
+            if(!subGroup) return;
+            if(subGroup.type !== 'Data' && subGroup.type !== 'Custom') return;
             matches.push(...this.searchTasksForTerm(subGroup, searchTerm, expanded, partial));
         });
 

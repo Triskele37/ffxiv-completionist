@@ -35,6 +35,7 @@ export function createDataGroup(
         defaultCompletion: Completion.N,
         isNumericCompletion: false,
         numericDecimal: 0,
+        type: json.type || parent?.type || 'Data',
     };
 
     if(json.order) group.order = json.order;

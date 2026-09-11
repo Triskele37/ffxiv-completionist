@@ -147,6 +147,10 @@
                     "DETAIL": "Indicates all tasks are complete or excluded"
                 }
             },
+            "NOTE_VIEW": {
+                "SUMMARY": "Notes",
+                "DETAIL": "View/edit any note in one table"
+            },
             "PATCH_VIEW": {
                 "SUMMARY": "Patch View",
                 "DETAIL": "View of all tasks within the chosen game patch"
@@ -493,6 +497,7 @@
                 "UNBOOKMARK": "Enlever le marque-page à la tâche",
                 "REORDER": "Réarranger la ligne",
                 "VIEW_CHAINS": "View Chains",
+                "EDIT_NOTE": "Edit Note",
                 "GARLAND": "Garland Tools",
                 "ESCAPE": "Gamer Escape",
                 "CONSOLE": "Console Games Wiki"

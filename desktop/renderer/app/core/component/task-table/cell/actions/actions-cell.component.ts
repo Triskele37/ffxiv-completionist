@@ -8,13 +8,16 @@ import type { Subscription } from 'rxjs';
 
 import type { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service';
+import { TableService } from '@service/table/table.service';
 
 import { BookmarkActionComponent } from './bookmark/bookmark-action.component';
 import { ConsoleGamesActionComponent } from './console-games/console-games-action.component';
+import { CopyIdActionComponent } from './copy-id/copy-id-action.component';
 import { DragActionComponent } from './drag/drag-action.component';
+import { EditNoteActionComponent } from './edit-note/edit-note-action.component';
 import { GamerEscapeActionComponent } from './gamer-escape/gamer-escape-action.component';
 import { GarlandActionComponent } from './garland/garland-action.component';
+import { ViewChainsActionComponent } from './view-chains/view-chains-action.component';
 
 @Component({
     selector: 'com-actions-cell',
@@ -29,13 +32,16 @@ import { GarlandActionComponent } from './garland/garland-action.component';
         BookmarkActionComponent,
         ConsoleGamesActionComponent,
         DragActionComponent,
+        EditNoteActionComponent,
         GamerEscapeActionComponent,
-        GarlandActionComponent
+        GarlandActionComponent,
+        ViewChainsActionComponent,
+        CopyIdActionComponent
     ]
 })
 export class ActionsCellComponent implements OnInit, OnDestroy {
     private svcConfigStore = inject(ConfigStoreService);
-    private svcChainViewer = inject(ChainViewerService);
+    svcTable = inject(TableService);
 
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
@@ -65,15 +71,6 @@ export class ActionsCellComponent implements OnInit, OnDestroy {
 
     onCloseActions(): void {
         this.expanded.set(false);
-    }
-
-    onOpenChainViewer(): void {
-        this.svcChainViewer.openChainViewer(this.task);
-    }
-
-    copyTaskId(): void {
-        const path = this.task.fullStorageKey.replace('overall.', '');
-        navigator.clipboard.writeText(path);
     }
 
 }

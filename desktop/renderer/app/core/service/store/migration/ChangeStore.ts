@@ -25,6 +25,7 @@ export class ChangeStore {
         const save: PlayerSave = this.svcSaveStore.data || {
             overall: {},
             custom: {},
+            notes: {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
             'starting-class': '',

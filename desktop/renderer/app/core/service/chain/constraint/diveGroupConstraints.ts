@@ -8,7 +8,7 @@ export function diveGroupConstraints(
     group: DataGroup | null,
     constraints: ChainConstraint[]
 ): void {
-    if(!group || group.isBookmarkGroup || group.isCustomGroup) return;
+    if(!group || group.type !== 'Data') return;
 
     group.tasks?.forEach((task) => {
         constraints.push(...this.constraint.getTaskConstraints(task));

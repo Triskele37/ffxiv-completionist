@@ -17,7 +17,7 @@
             ></com-selection-overlay>
 
             <com-chain-overlay
-                [disableUndo]="svcTable.group().isCustomGroup"
+                [disableUndo]="svcTable.group().type === 'Custom'"
             ></com-chain-overlay>
 
             <com-table-action-overlay
@@ -26,7 +26,7 @@
             ></com-table-action-overlay>
         }
 
-        @if(svcTable.group().isCustomGroup) {
+        @if(svcTable.group().type === 'Custom') {
             <com-custom-content-overlay
                 [group]="svcTable.group()"
                 [tasks]="svcTable.tasks()"

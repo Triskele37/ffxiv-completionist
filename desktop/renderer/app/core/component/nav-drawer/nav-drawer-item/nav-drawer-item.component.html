@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="right-content">
-                    @if(!group.isUiGroup) {
+                    @if(group.type !== 'UI') {
                         @if(isComplete) {
                             <ng-icon
                                 data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.COMPLETE_STAR"

@@ -1,0 +1,26 @@
+::ng-deep body .note-overlay {
+    inset-inline-start: calc(100% - 275px) !important;
+    --p-popover-arrow-left: 175px !important;
+
+    // Flip position to over element
+    margin-top: -90px;
+
+    &:before, &:after {
+        top: 51px;
+    }
+
+    .p-popover-content {
+        position: absolute;
+        right: -220px;
+        padding: var(--content-padding);
+        background: var(--surface-900);
+        border-radius: var(--border-radius);
+        box-shadow: 0 0 5px var(--surface-400);
+    }
+
+    .p-inputtext {
+        field-sizing: content;
+        min-width: 200px;
+        max-width: 90vw;
+    }
+}

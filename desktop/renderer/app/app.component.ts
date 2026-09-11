@@ -15,6 +15,7 @@ import { SummaryHeaderComponent } from '@component/summary-header/summary-header
 import { DataService } from '@service/data/data-service';
 import { ElectronService } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
+import { NoteService } from '@service/note/note.service';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 import { MainContentComponent } from '@view/main-content/main-content.component';
@@ -45,6 +46,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     private svcElectron = inject(ElectronService);
     private svcData = inject(DataService);
     private svcBookmark = inject(BookmarkService);
+    private svcNote = inject(NoteService);
     private svcCustomContent = inject(CustomContentService);
     private svcSaveStore = inject(SaveStoreService);
     private svcTheme = inject(ThemeService);
@@ -66,6 +68,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
             // Must occur after data for migration change
             this.svcBookmark.initializeBookmarks();
+            this.svcNote.initializeNotes();
 
             this.version = this.svcSaveStore.data?.version ?? '';
 

@@ -23,8 +23,8 @@ export class MainMenuService {
         this.data = this.svcData.group.createDataGroup({
             key: 'main-menu',
             groupName: this.translate.instant('APP.NAME'),
+            type: 'UI',
             noContent: true,
-            isUiGroup: true,
             addSpacerBelow: true,
         }, null);
 

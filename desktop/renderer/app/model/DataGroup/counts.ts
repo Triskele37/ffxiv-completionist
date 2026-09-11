@@ -14,7 +14,8 @@ function countGroup(
 ): number {
     if(!group) return 0;
     if(!forceCount) {
-        if(group.isBookmarkGroup) return 0;
+        if(group.type === 'Bookmark') return 0;
+        if(group.type === 'Note') return 0;
         if(group.disableCompletion) return 0;
     }
 
@@ -27,27 +28,27 @@ function countGroup(
 /**
  * Total tasks including excluded
  * */
-export function getTotal(group: DataGroup): number {
+export function getTotal(group: DataGroup, force: boolean = false): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) return task.maxValue - task.minValue;
         return 1;
-    }, true);
+    }, force);
 }
 
 /**
  * Total task excluding excluded
  * */
-export function getEffectiveTotal(group: DataGroup): number {
+export function getEffectiveTotal(group: DataGroup, force: boolean = false): number {
     return countGroup(group, (task) => {
         if(task.completionFlag$() === Completion.X) return 0;
         return task.isNumericCompletion ? task.maxValue - task.minValue : 1;
-    });
+    }, force);
 }
 
 /**
  * Total completed tasks
  * */
-export function getCompleted(group: DataGroup): number {
+export function getCompleted(group: DataGroup, force: boolean = false): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) {
             if(task.completionFlag$() === Completion.X) return 0;
@@ -56,13 +57,13 @@ export function getCompleted(group: DataGroup): number {
         }
 
         return task.completionFlag$() === Completion.Y ? 1 : 0;
-    });
+    }, force);
 }
 
 /**
  * Total remaining task excluding excluded
  * */
-export function getRemaining(group: DataGroup): number {
+export function getRemaining(group: DataGroup, force: boolean = false): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) {
             if(task.completionFlag$() === Completion.X) return 0;
@@ -72,15 +73,15 @@ export function getRemaining(group: DataGroup): number {
         }
 
         return task.completionFlag$() === Completion.N ? 1 : 0;
-    });
+    }, force);
 }
 
 /**
  * Total excluded tasks
  * */
-export function getExcluded(group: DataGroup): number {
+export function getExcluded(group: DataGroup, force: boolean = false): number {
     return countGroup(group, (task) => {
         if(task.completionFlag$() !== Completion.X) return 0;
         return task.isNumericCompletion ? task.maxValue - task.minValue : 1;
-    });
+    }, force);
 }

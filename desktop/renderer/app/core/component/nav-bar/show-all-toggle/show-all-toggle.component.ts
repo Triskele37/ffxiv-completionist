@@ -34,8 +34,7 @@ export class ShowAllToggleComponent {
     onSelectedGroupChange(selectedGroup: DataGroup | null): void {
         if(!selectedGroup) return;
 
-        const { isUiGroup, isBookmarkGroup } = selectedGroup;
-        if(isUiGroup || isBookmarkGroup) {
+        if(selectedGroup.type !== 'Data' && selectedGroup.type !== 'Custom') {
             this.isShowAllVisible.set(false);
         } else {
             this.isShowAllVisible.set(!!(selectedGroup.subGroups && selectedGroup.columns));

@@ -13,10 +13,6 @@ export function initUi(
 ): void {
     group.isCraftingLogGroup = !!(json.isCraftingLogGroup ?? group._parent?.isCraftingLogGroup);
 
-    if(group._parent?.isUiGroup || json.isUiGroup) {
-        group.isUiGroup = true;
-    }
-
     if(json.component) {
         group.component = json.component;
     }

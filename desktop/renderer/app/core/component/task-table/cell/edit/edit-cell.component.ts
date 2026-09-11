@@ -4,6 +4,8 @@ import { Textarea } from 'primeng/textarea';
 
 import type { Task } from '@model/Task';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
+import { NoteService } from '@service/note/note.service';
+import { TableService } from '@service/table/table.service';
 
 @Component({
     selector: 'com-edit-cell',
@@ -15,6 +17,8 @@ import { CustomContentService } from '@service/custom-content/custom-content.ser
 })
 export class EditCellComponent {
     private svcCustomContent = inject(CustomContentService);
+    private svcNote = inject(NoteService);
+    private svcTable = inject(TableService);
 
     @Input({ required: true }) task!: Task;
     @Input() key: string = '';
@@ -49,7 +53,6 @@ export class EditCellComponent {
 
     onTextAreaKeyup($event: KeyboardEvent): void {
         if($event.key === 'Enter') {
-            this.onTextAreaChange($event);
             this.task.selected.set(false);
             return;
         }
@@ -61,9 +64,21 @@ export class EditCellComponent {
 
     onTextAreaChange($event: Event): void {
         const value = ($event.target as HTMLTextAreaElement).value?.trim();
-        if(!value) return;
 
-        this.svcCustomContent.editTaskMeta(this.task, this.key, value);
+        // Prevent removing name fields
+        if(this.key === 'name' && !value) return;
+
+        if(this.svcTable.group().type === 'Custom') {
+            this.svcCustomContent.editTaskMeta(this.task, this.key, value);
+            this.svcTable.forceUpdate();
+        }
+        else if(this.svcTable.group().type === 'Note') {
+            this.svcNote.editNote(this.task, value);
+            this.svcTable.forceUpdate();
+        }
+        else {
+            console.error('Editing unknown group type');
+        }
     }
 
 }

@@ -5,6 +5,14 @@
 
     .data-row {
         height: sizes.$table-row-height;
+
+        &.has-note ::ng-deep >:nth-child(2) td {
+            box-shadow: inset 15px 0 10px -10px var(--primary-color);
+        }
+
+        &.has-note.selected ::ng-deep >:nth-child(2) td {
+            box-shadow: inset 15px 0 10px -10px var(--surface-900);
+        }
     }
 
     // Create the stripe pattern for rows

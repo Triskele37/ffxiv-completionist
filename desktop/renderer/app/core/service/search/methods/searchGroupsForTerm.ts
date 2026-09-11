@@ -10,7 +10,7 @@ export function searchGroupsForTerm(this: SearchServiceContext) {
         searchTerm: string,
         partial: boolean,
     ): GroupMatch[] => {
-        if(group.isBookmarkGroup) return [];
+        if(group.type !== 'Data' && group.type !== 'Custom') return [];
 
         const matches: GroupMatch[] = [];
 

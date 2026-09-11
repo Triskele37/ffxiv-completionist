@@ -3,6 +3,8 @@ import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 
 import type { DataServiceContext } from '../types';
 
+const expectedUnloadeds = ['bookmarks', 'notes', 'custom'];
+
 /**
  * Initialize the data structure
  * */
@@ -22,6 +24,7 @@ export function initializeData(
     // Add dynamic groups
     data.subGroups = new Map();
     data.subGroups.set('bookmarks', null);
+    data.subGroups.set('notes', null);
     data.subGroups.set('custom', null);
 
     // Add child data groups
@@ -36,7 +39,7 @@ export function initializeData(
 
     // Log unloaded groups
     const unloaded = Object.keys(this.loader.dataCache)
-        .filter((k) => k !== 'bookmarks' && k !== 'custom');
+        .filter((k) => !expectedUnloadeds.includes(k));
 
     if(unloaded.length) {
         console.warn('Unloaded groups!', unloaded);
