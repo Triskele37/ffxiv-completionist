@@ -100,8 +100,6 @@ export class TaskTableComponent implements OnChanges {
     onFilterChange(): void {
         // Cache the current scrollTop for scrollback
         if(!this.targetTaskScrollTo) this.setTargetScrollTo();
-        //TODO the component should not be doing this
-        // this.svcTable.filter.updateFilteredTasks();
     }
 
     //#endregion
@@ -122,7 +120,9 @@ export class TaskTableComponent implements OnChanges {
             );
 
             if(index > -1) {
+                // Clear the svcNav's selectedTask
                 this.targetTaskScrollTo = selectedTask.fullStorageKey;
+                this.svcNavigation.selectedTask.set(null);
 
                 // Initiate a scroll to the task
                 const noReally = setInterval(() => {

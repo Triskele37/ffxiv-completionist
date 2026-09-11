@@ -1,5 +1,3 @@
-import { untracked } from '@angular/core';
-
 import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
 import { matchWildcardPatch } from '@model/util/patchMatch';
@@ -15,11 +13,9 @@ export function filterTasks(
     group: DataGroup,
     tasks: Task[],
 ): Task[] {
-    const selectedTask = untracked(() => this.svcNavigation.selectedTask());
-
     return tasks.filter((task) => {
-        // Don't filter out a nav selected task
-        if(task === selectedTask) return true;
+        // Don't filter out selected tasks
+        if(task.selected()) return true;
 
         const completionFilter = task.isNumericCompletion ?
             this.filter.filterNumericCompletion.bind(this) :

@@ -29,6 +29,7 @@ export function modifyFilter(
         this.filter.groupFilters[selectedGroup.fullStorageKey] = this.filter.filters;
     });
 
+    this.filter.updateFilteredTasks();
     this.filter.onFilterUpdate$.next();
 }
 

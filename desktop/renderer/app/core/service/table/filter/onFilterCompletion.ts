@@ -21,5 +21,6 @@ export function onFilterCompletion(
     this.filter.completion[key] = !this.filter.completion[key];
     this.svcConfig.set(`table-filters.${key}`, this.filter.completion[key]);
 
+    this.filter.updateFilteredTasks();
     this.filter.onFilterUpdate$.next();
 }

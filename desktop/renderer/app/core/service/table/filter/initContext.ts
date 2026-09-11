@@ -19,6 +19,7 @@ export function initContext(
     effect(() => {
         const selectedGroup = this.svcNavigation.selectedGroup();
         this.filter.filters = this.filter.groupFilters[selectedGroup?.fullStorageKey ?? ''] ?? {};
+        this.filter.updateFilteredTasks();
         this.filter.onFilterUpdate$.next();
     });
 }
