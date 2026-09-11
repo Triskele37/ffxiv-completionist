@@ -15,7 +15,7 @@
         }
 
         .action-dial {
-            margin: ((sizes.$table-row-height - $button-size) / 2) - 1px;
+            margin: calc(((#{sizes.$table-row-height} - $button-size) / 2) - 1px);
             padding: 0;
 
             .p-button, ng-icon {
