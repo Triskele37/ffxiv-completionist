@@ -378,7 +378,8 @@
             "level": 15,
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "patch": "7.3"
+            "patch": "7.3",
+            "cSiblings": ["a.3788"]
         },
         "x71000": {
             "name_en": "Dashing through the Starlight",
@@ -396,7 +397,8 @@
             "npc_en": "Laurenssen",
             "npc_fr": "Laurenssen",
             "patch": "7.5",
-            "cPrev": ["q.71000"]
+            "cPrev": ["q.71000"],
+            "cSiblings": ["a.3946"]
         }
     }
 }

@@ -111,7 +111,8 @@
             "npc_fr": "Ketenramm",
             "patch": "7.25",
             "cPrev": ["q.70853"],
-            "cNext": ["q.71047"]
+            "cNext": ["q.71047"],
+            "cSiblings": ["a.3634"]
         },
         "x71047": {
             "name_en": "Occult Reunion",
@@ -190,8 +191,9 @@
             "npc_en": "Archive",
             "npc_fr": "Archive",
             "patch": "7.55",
+            "unlock": "duty.collection.occult-record.58",
             "cPrev": ["q.71053"],
-            "unlock": "duty.collection.occult-record.58"
+            "cSiblings": ["a.3937"]
         }
     }
 }

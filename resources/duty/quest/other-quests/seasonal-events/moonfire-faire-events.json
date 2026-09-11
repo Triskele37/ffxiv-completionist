@@ -418,7 +418,8 @@
             "level": 30,
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "patch": "7.25"
+            "patch": "7.25",
+            "cSiblings": ["a.3636"]
         },
         "x70993": {
             "name_en": "Earning Your Water Wings",
@@ -427,7 +428,8 @@
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
             "patch": "7.5",
-            "cNext": ["q.70994"]
+            "cNext": ["q.70994"],
+            "cSiblings": ["a.3874"]
         },
         "x70994": {
             "name_en": "Whoever Floats Your Raft",
