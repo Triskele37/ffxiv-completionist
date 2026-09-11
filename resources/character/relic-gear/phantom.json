@@ -4,22 +4,22 @@
     "groupName_fr": "Phantom",
     "tasks": {
         "x10": {
-            "name_en": "Phantom Sword Umbrae",
-            "name_fr": "Épée fantôme umbra",
+            "name_en": "Phantom Sword Penumbrae",
+            "name_fr": "Épée fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.PLD",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [11],
             "cSiblings": ["a.3638"]
         },
         "x11": {
-            "name_en": "Phantom Sword Penumbrae",
-            "name_fr": "Épée fantôme penumbra",
+            "name_en": "Phantom Sword Umbrae",
+            "name_fr": "Épée fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.PLD",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [10],
             "cNext": [12],
             "cSiblings": ["a.3752"]
@@ -56,22 +56,22 @@
             "cPrev": [13]
         },
         "x20": {
-            "name_en": "Phantom Knuckles Umbrae",
-            "name_fr": "Poings fantômes umbra",
+            "name_en": "Phantom Knuckles Penumbrae",
+            "name_fr": "Poings fantômes penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [21],
             "cSiblings": ["a.3643"]
         },
         "x21": {
-            "name_en": "Phantom Knuckles Penumbrae",
-            "name_fr": "Poings fantômes penumbra",
+            "name_en": "Phantom Knuckles Umbrae",
+            "name_fr": "Poings fantômes umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.MNK",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [20],
             "cNext": [22],
             "cSiblings": ["a.3757"]
@@ -108,22 +108,22 @@
             "cPrev": [23]
         },
         "x30": {
-            "name_en": "Phantom Bardiche Umbrae",
-            "name_fr": "Bardiche fantôme umbra",
+            "name_en": "Phantom Bardiche Penumbrae",
+            "name_fr": "Bardiche fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [31],
             "cSiblings": ["a.3639"]
         },
         "x31": {
-            "name_en": "Phantom Bardiche Penumbrae",
-            "name_fr": "Bardiche fantôme penumbra",
+            "name_en": "Phantom Bardiche Umbrae",
+            "name_fr": "Bardiche fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.WAR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [30],
             "cNext": [32],
             "cSiblings": ["a.3753"]
@@ -160,22 +160,22 @@
             "cPrev": [33]
         },
         "x40": {
-            "name_en": "Phantom Spear Umbrae",
-            "name_fr": "Hast fantôme umbra",
+            "name_en": "Phantom Spear Penumbrae",
+            "name_fr": "Hast fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [41],
             "cSiblings": ["a.3642"]
         },
         "x41": {
-            "name_en": "Phantom Spear Penumbrae",
-            "name_fr": "Hast fantôme penumbra",
+            "name_en": "Phantom Spear Umbrae",
+            "name_fr": "Hast fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.DRG",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [40],
             "cNext": [42],
             "cSiblings": ["a.3756"]
@@ -212,22 +212,22 @@
             "cPrev": [43]
         },
         "x50": {
-            "name_en": "Phantom Harp Bow Umbrae",
-            "name_fr": "Arc-harpe fantôme umbra",
+            "name_en": "Phantom Harp Bow Penumbrae",
+            "name_fr": "Arc-harpe fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [51],
             "cSiblings": ["a.3648"]
         },
         "x51": {
-            "name_en": "Phantom Harp Bow Penumbrae",
-            "name_fr": "Arc-harpe fantôme penumbra",
+            "name_en": "Phantom Harp Bow Umbrae",
+            "name_fr": "Arc-harpe fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.BRD",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [50],
             "cNext": [52],
             "cSiblings": ["a.3762"]
@@ -264,22 +264,22 @@
             "cPrev": [53]
         },
         "x60": {
-            "name_en": "Phantom Cleavers Umbrae",
-            "name_fr": "Couperets fantômes umbra",
+            "name_en": "Phantom Cleavers Penumbrae",
+            "name_fr": "Couperets fantômes penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [61],
             "cSiblings": ["a.3644"]
         },
         "x61": {
-            "name_en": "Phantom Cleavers Penumbrae",
-            "name_fr": "Couperets fantômes penumbra",
+            "name_en": "Phantom Cleavers Umbrae",
+            "name_fr": "Couperets fantômes umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.NIN",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [60],
             "cNext": [62],
             "cSiblings": ["a.3758"]
@@ -316,22 +316,22 @@
             "cPrev": [63]
         },
         "x70": {
-            "name_en": "Phantom Crook Umbrae",
-            "name_fr": "Crosse fantôme umbra",
+            "name_en": "Phantom Crook Penumbrae",
+            "name_fr": "Crosse fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [71],
             "cSiblings": ["a.3655"]
         },
         "x71": {
-            "name_en": "Phantom Crook Penumbrae",
-            "name_fr": "Crosse fantôme penumbra",
+            "name_en": "Phantom Crook Umbrae",
+            "name_fr": "Crosse fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.WHM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [70],
             "cNext": [72],
             "cSiblings": ["a.3769"]
@@ -368,22 +368,22 @@
             "cPrev": [73]
         },
         "x80": {
-            "name_en": "Phantom Staff Umbrae",
-            "name_fr": "Bâton fantôme umbra",
+            "name_en": "Phantom Staff Penumbrae",
+            "name_fr": "Bâton fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [81],
             "cSiblings": ["a.3651"]
         },
         "x81": {
-            "name_en": "Phantom Staff Penumbrae",
-            "name_fr": "Bâton fantôme penumbra",
+            "name_en": "Phantom Staff Umbrae",
+            "name_fr": "Bâton fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.BLM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [80],
             "cNext": [82],
             "cSiblings": ["a.3765"]
@@ -420,22 +420,22 @@
             "cPrev": [83]
         },
         "x90": {
-            "name_en": "Phantom Index Umbrae",
-            "name_fr": "Index fantôme umbra",
+            "name_en": "Phantom Index Penumbrae",
+            "name_fr": "Index fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [91],
             "cSiblings": ["a.3652"]
         },
         "x91": {
-            "name_en": "Phantom Index Penumbrae",
-            "name_fr": "Index fantôme penumbra",
+            "name_en": "Phantom Index Umbrae",
+            "name_fr": "Index fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.SMN",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [90],
             "cNext": [92],
             "cSiblings": ["a.3766"]
@@ -472,22 +472,22 @@
             "cPrev": [93]
         },
         "x100": {
-            "name_en": "Phantom Codex Umbrae",
-            "name_fr": "Codex fantôme umbra",
+            "name_en": "Phantom Codex Penumbrae",
+            "name_fr": "Codex fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [101],
             "cSiblings": ["a.3656"]
         },
         "x101": {
-            "name_en": "Phantom Codex Penumbrae",
-            "name_fr": "Codex fantôme penumbra",
+            "name_en": "Phantom Codex Umbrae",
+            "name_fr": "Codex fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.SCH",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [100],
             "cNext": [102],
             "cSiblings": ["a.3770"]
@@ -524,22 +524,22 @@
             "cPrev": [103]
         },
         "x110": {
-            "name_en": "Phantom Guillotine Umbrae",
-            "name_fr": "Fendoir fantôme umbra",
+            "name_en": "Phantom Guillotine Penumbrae",
+            "name_fr": "Fendoir fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [111],
             "cSiblings": ["a.3640"]
         },
         "x111": {
-            "name_en": "Phantom Guillotine Penumbrae",
-            "name_fr": "Fendoir fantôme penumbra",
+            "name_en": "Phantom Guillotine Umbrae",
+            "name_fr": "Fendoir fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.DRK",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [110],
             "cNext": [112],
             "cSiblings": ["a.3754"]
@@ -576,22 +576,22 @@
             "cPrev": [113]
         },
         "x120": {
-            "name_en": "Phantom Arquebus Umbrae",
-            "name_fr": "Arquebuse fantôme umbra",
+            "name_en": "Phantom Arquebus Penumbrae",
+            "name_fr": "Arquebuse fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.MCH",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [121],
             "cSiblings": ["a.3649"]
         },
         "x121": {
-            "name_en": "Phantom Arquebus Penumbrae",
-            "name_fr": "Arquebuse fantôme penumbra",
+            "name_en": "Phantom Arquebus Umbrae",
+            "name_fr": "Arquebuse fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.MCH",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [120],
             "cNext": [122],
             "cSiblings": ["a.3763"]
@@ -628,22 +628,22 @@
             "cPrev": [123]
         },
         "x130": {
-            "name_en": "Phantom Star Globe Umbrae",
-            "name_fr": "Globe céleste fantôme umbra",
+            "name_en": "Phantom Star Globe Penumbrae",
+            "name_fr": "Globe céleste fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [131],
             "cSiblings": ["a.3657"]
         },
         "x131": {
-            "name_en": "Phantom Star Globe Penumbrae",
-            "name_fr": "Globe céleste fantôme penumbra",
+            "name_en": "Phantom Star Globe Umbrae",
+            "name_fr": "Globe céleste fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.AST",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [130],
             "cNext": [132],
             "cSiblings": ["a.3771"]
@@ -680,22 +680,22 @@
             "cPrev": [133]
         },
         "x140": {
-            "name_en": "Phantom Blade Umbrae",
-            "name_fr": "Lame fantôme umbra",
+            "name_en": "Phantom Blade Penumbrae",
+            "name_fr": "Lame fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [141],
             "cSiblings": ["a.3646"]
         },
         "x141": {
-            "name_en": "Phantom Blade Penumbrae",
-            "name_fr": "Lame fantôme penumbra",
+            "name_en": "Phantom Blade Umbrae",
+            "name_fr": "Lame fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.SAM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [140],
             "cNext": [142],
             "cSiblings": ["a.3760"]
@@ -732,22 +732,22 @@
             "cPrev": [143]
         },
         "x150": {
-            "name_en": "Phantom Rapier Umbrae",
-            "name_fr": "Rapière fantôme umbra",
+            "name_en": "Phantom Rapier Penumbrae",
+            "name_fr": "Rapière fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [151],
             "cSiblings": ["a.3653"]
         },
         "x151": {
-            "name_en": "Phantom Rapier Penumbrae",
-            "name_fr": "Rapière fantôme penumbra",
+            "name_en": "Phantom Rapier Umbrae",
+            "name_fr": "Rapière fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.RDM",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [150],
             "cNext": [152],
             "cSiblings": ["a.3767"]
@@ -784,22 +784,22 @@
             "cPrev": [153]
         },
         "x160": {
-            "name_en": "Phantom Bayonet Umbrae",
-            "name_fr": "Baïonnette fantôme umbra",
+            "name_en": "Phantom Bayonet Penumbrae",
+            "name_fr": "Baïonnette fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [161],
             "cSiblings": ["a.3641"]
         },
         "x161": {
-            "name_en": "Phantom Bayonet Penumbrae",
-            "name_fr": "Baïonnette fantôme penumbra",
+            "name_en": "Phantom Bayonet Umbrae",
+            "name_fr": "Baïonnette fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.GNB",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [160],
             "cNext": [162],
             "cSiblings": ["a.3755"]
@@ -836,22 +836,22 @@
             "cPrev": [163]
         },
         "x170": {
-            "name_en": "Phantom Terpna Umbrae",
-            "name_fr": "Terpna fantômes umbra",
+            "name_en": "Phantom Terpna Penumbrae",
+            "name_fr": "Terpna fantômes penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [171],
             "cSiblings": ["a.3650"]
         },
         "x171": {
-            "name_en": "Phantom Terpna Penumbrae",
-            "name_fr": "Terpna fantômes penumbra",
+            "name_en": "Phantom Terpna Umbrae",
+            "name_fr": "Terpna fantômes umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.DNC",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [170],
             "cNext": [172],
             "cSiblings": ["a.3764"]
@@ -888,22 +888,22 @@
             "cPrev": [173]
         },
         "x180": {
-            "name_en": "Phantom War Scythe Umbrae",
-            "name_fr": "Faux de guerre fantôme umbra",
+            "name_en": "Phantom War Scythe Penumbrae",
+            "name_fr": "Faux de guerre fantôme penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [181],
             "cSiblings": ["a.3647"]
         },
         "x181": {
-            "name_en": "Phantom War Scythe Penumbrae",
-            "name_fr": "Faux de guerre fantôme penumbra",
+            "name_en": "Phantom War Scythe Umbrae",
+            "name_fr": "Faux de guerre fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.RPR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [180],
             "cNext": [182],
             "cSiblings": ["a.3761"]
@@ -940,22 +940,22 @@
             "cPrev": [183]
         },
         "x190": {
-            "name_en": "Phantom Pendulums Umbrae",
-            "name_fr": "Pendules fantômes umbra",
+            "name_en": "Phantom Pendulums Penumbrae",
+            "name_fr": "Pendules fantômes penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [191],
             "cSiblings": ["a.3658"]
         },
         "x191": {
-            "name_en": "Phantom Pendulums Penumbrae",
-            "name_fr": "Pendules fantômes penumbra",
+            "name_en": "Phantom Pendulums Umbrae",
+            "name_fr": "Pendules fantômes umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.SGE",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [190],
             "cNext": [192],
             "cSiblings": ["a.3772"]
@@ -992,22 +992,22 @@
             "cPrev": [193]
         },
         "x200": {
-            "name_en": "Phantom Twinfangs Umbrae",
-            "name_fr": "Crochets fantômes umbra",
+            "name_en": "Phantom Twinfangs Penumbrae",
+            "name_fr": "Crochets fantômes penumbra",
             "iLevel": "745",
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [201],
             "cSiblings": ["a.3645"]
         },
         "x201": {
-            "name_en": "Phantom Twinfangs Penumbrae",
-            "name_fr": "Crochets fantômes penumbra",
+            "name_en": "Phantom Twinfangs Umbrae",
+            "name_fr": "Crochets fantômes umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.VPR",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [200],
             "cNext": [202],
             "cSiblings": ["a.3759"]
@@ -1044,22 +1044,22 @@
             "cPrev": [203]
         },
         "x210": {
-            "name_en": "Phantom Flat Brush Umbrae",
-            "name_fr": "Pinceau plat fantôme umbra",
+            "name_en": "Phantom Flat Brush Penumbrae",
+            "name_fr": "",
             "iLevel": "745",
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.1",
-            "patch": "7.31",
+            "patch": "7.25",
             "cNext": [211],
             "cSiblings": ["a.3654"]
         },
         "x211": {
-            "name_en": "Phantom Flat Brush Penumbrae",
-            "name_fr": "",
+            "name_en": "Phantom Flat Brush Umbrae",
+            "name_fr": "Pinceau plat fantôme umbra",
             "iLevel": "760",
             "job": "@CLASS_JOB.PCT",
             "requirements": "@REQUIREMENT.PHANTOM.2",
-            "patch": "7.25",
+            "patch": "7.31",
             "cPrev": [210],
             "cNext": [212],
             "cSiblings": ["a.3768"]

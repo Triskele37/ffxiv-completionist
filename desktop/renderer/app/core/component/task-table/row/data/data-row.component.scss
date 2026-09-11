@@ -10,6 +10,11 @@
     // Create the stripe pattern for rows
     .even-row {
         background: var(--surface-800);
+
+        // Invert button hover color
+        ::ng-deep .p-button-rounded:hover {
+            background: var(--surface-600);
+        }
     }
 
     ::ng-deep .table-cell {

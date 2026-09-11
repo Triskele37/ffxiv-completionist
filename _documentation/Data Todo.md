@@ -16,6 +16,8 @@
 **Verify**
 * "Close to Home"s are based on starting class, so 8 different ones
 * Post-SB jobs still get a first-time bonus for Guilhests that doesn't show in UI?
+* not all cosmic mission logs are in order
+  * might specifically be EX missions
 
 **Chaining**
 * unsellable/tradable collectables to source? (one-way)

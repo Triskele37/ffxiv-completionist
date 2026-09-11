@@ -27,8 +27,8 @@ body {
         }
 
         .p-datatable-tbody tr td {
-            // needs to exist or virtual scroller freaks at bottom of table
-            border-bottom: 1px solid var(--surface-600);
+            // magical padding: 1px somehow
+            padding: 0;
         }
 
         .p-virtualscroller {

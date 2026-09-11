@@ -1,5 +1,4 @@
-import type { OnInit } from '@angular/core';
-import { Component, effect, signal, inject } from '@angular/core';
+import { Component, effect, inject, OnInit, signal, ViewChild } from '@angular/core';
 import { KeyValuePipe } from '@angular/common';
 import { NgIcon } from '@ng-icons/core';
 import { Popover } from 'primeng/popover';
@@ -46,6 +45,8 @@ export class BreadcrumbsComponent implements OnInit {
     // Provide the transform method of the pipe for the keyvalue pipe's input
     asIsOrderTransform = AsIsOrderPipe.prototype.transform;
 
+    @ViewChild('op') op: Popover | undefined;
+
     // Callback fired when a section of the breadcrumbs is clicked
     onItemClick(item: Breadcrumb): void {
         if(item.navigationIndex !== undefined) {
@@ -71,24 +72,33 @@ export class BreadcrumbsComponent implements OnInit {
     }
 
     //#region------------------------------------------------------- Group Expansion
-    onArrowClick(breadcrumb: Breadcrumb): void {
+    onArrowClick($event: PointerEvent, breadcrumb: Breadcrumb): void {
+        $event.stopPropagation();
         this.toggleGroupExpanded(breadcrumb);
+        this.op?.toggle($event);
     }
 
     onPanelHide() {
-        this.collapseAllGroups();
+        this.breadcrumbs.update((breadcrumbs) => {
+            breadcrumbs.forEach((b) => b.isGroupExpanded = false);
+            return [...breadcrumbs];
+        });
     }
 
     toggleGroupExpanded(breadcrumb: Breadcrumb) {
-        const isGroupExpanded = !breadcrumb.isGroupExpanded;
-        this.collapseAllGroups();
+        this.breadcrumbs.update((breadcrumbs) => {
+            breadcrumbs.forEach((b, i) => {
+                if(i === breadcrumb.navigationIndex) {
+                    b.isGroupExpanded = !b.isGroupExpanded;
+                }
+                else {
+                    b.isGroupExpanded = false;
+                }
+            });
+            return [...breadcrumbs];
+        });
 
-        breadcrumb.isGroupExpanded = isGroupExpanded;
-        this.selectedCrumb.set(isGroupExpanded ? breadcrumb : null);
-    }
-
-    collapseAllGroups() {
-        this.breadcrumbs().forEach((b) => b.isGroupExpanded = false);
+        this.selectedCrumb.set(breadcrumb.isGroupExpanded ? breadcrumb : null);
     }
 
     //#endregion

@@ -19,7 +19,7 @@ export function parseIdSelector(fullIdSelector: string): ParsedIdSelector {
         const [s, e] = selector.split('-');
         const range: IdRange = {
             start: parseInt(s),
-            end: e === undefined ? parseInt(e) : parseInt(s)
+            end: e === undefined ? parseInt(s) : parseInt(e)
         };
 
         if(Number.isNaN(range.start) || Number.isNaN(range.end)) {

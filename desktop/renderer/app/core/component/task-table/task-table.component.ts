@@ -100,7 +100,8 @@ export class TaskTableComponent implements OnChanges {
     onFilterChange(): void {
         // Cache the current scrollTop for scrollback
         if(!this.targetTaskScrollTo) this.setTargetScrollTo();
-        this.svcTable.filter.updateFilteredTasks();
+        //TODO the component should not be doing this
+        // this.svcTable.filter.updateFilteredTasks();
     }
 
     //#endregion

@@ -439,7 +439,8 @@
             "description_en": "Complete 10 FATEs on the Occult Crescent: South Horn.",
             "description_fr": "Accomplir 10 ALÉA sur l'île de Lunule méridionale.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3665]
         },
         "x3665": {
             "name_en": "Occult Erudition II",
@@ -447,7 +448,9 @@
             "description_en": "Complete 50 FATEs on the Occult Crescent: South Horn.",
             "description_fr": "Accomplir 50 ALÉA sur l'île de Lunule méridionale.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3664],
+            "cNext": [3666]
         },
         "x3666": {
             "name_en": "Occult Erudition III",
@@ -455,7 +458,9 @@
             "description_en": "Complete 100 FATEs on the Occult Crescent: South Horn.",
             "description_fr": "Accomplir 100 ALÉA sur l'île de Lunule méridionale.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3665],
+            "cNext": [3667]
         },
         "x3667": {
             "name_en": "Occult Erudition IV",
@@ -465,6 +470,7 @@
             "points": 10,
             "reward": "t.775",
             "patch": "7.25",
+            "cPrev": [3666],
             "cSiblings": ["t.775"]
         },
         "x3660": {
@@ -473,7 +479,8 @@
             "description_en": "Complete 10 critical encounters on the Occult Crescent: South Horn.",
             "description_fr": "Remporter 10 confrontations critiques sur l'île de Lunule méridionale.",
             "points": 10,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3661]
         },
         "x3661": {
             "name_en": "Critical Thinking II",
@@ -481,7 +488,9 @@
             "description_en": "Complete 50 critical encounters on the Occult Crescent: South Horn.",
             "description_fr": "Remporter 50 confrontations critiques sur l'île de Lunule méridionale.",
             "points": 10,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3660],
+            "cNext": [3662]
         },
         "x3662": {
             "name_en": "Critical Thinking III",
@@ -489,7 +498,9 @@
             "description_en": "Complete 100 critical encounters on the Occult Crescent: South Horn.",
             "description_fr": "Remporter 100 confrontations critiques sur l'île de Lunule méridionale.",
             "points": 10,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3662],
+            "cNext": [3663]
         },
         "x3663": {
             "name_en": "Critical Thinking IV",
@@ -499,6 +510,7 @@
             "points": 20,
             "reward": "t.774",
             "patch": "7.25",
+            "cPrev": [3662],
             "cSiblings": ["t.774"]
         },
         "x3668": {
@@ -508,7 +520,8 @@
             "description_fr": "Finir la Tour fourchue de la Force.",
             "points": 10,
             "reward": "mo.372",
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3669]
         },
         "x3669": {
             "name_en": "A Fork to Be Reckoned With II",
@@ -516,7 +529,9 @@
             "description_en": "Complete the Forked Tower: Blood 10 times.",
             "description_fr": "Finir 10 fois la Tour fourchue de la Force.",
             "points": 10,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3668],
+            "cNext": [3670]
         },
         "x3670": {
             "name_en": "A Fork to Be Reckoned With III",
@@ -524,7 +539,9 @@
             "description_en": "Complete the Forked Tower: Blood 50 times.",
             "description_fr": "Finir 50 fois la Tour fourchue de la Force.",
             "points": 10,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3669],
+            "cNext": [3671]
         },
         "x3671": {
             "name_en": "A Fork to Be Reckoned With IV",
@@ -534,6 +551,7 @@
             "points": 20,
             "reward": "t.776",
             "patch": "7.25",
+            "cPrev": [3670],
             "cSiblings": ["t.776"]
         },
         "x3675": {
@@ -542,7 +560,8 @@
             "description_en": "Master a phantom job.",
             "description_fr": "Maîtriser 1 job de soutien.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3676]
         },
         "x3676": {
             "name_en": "Phantomastery II",
@@ -550,7 +569,9 @@
             "description_en": "Master 5 phantom jobs.",
             "description_fr": "Maîtriser 5 jobs de soutien.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3675],
+            "cNext": [3677]
         },
         "x3677": {
             "name_en": "Phantomastery III",
@@ -560,6 +581,8 @@
             "points": 5,
             "reward": "t.796",
             "patch": "7.25",
+            "cPrev": [3676],
+            "cNext": [4017],
             "cSiblings": ["t.796"]
         },
         "x4017": {
@@ -568,7 +591,9 @@
             "description_en": "Master 16 phantom jobs.",
             "description_fr": "Maîtriser 16 jobs de soutien.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4017],
+            "cNext": [4018]
         },
         "x4018": {
             "name_en": "Phantomastery V",
@@ -578,6 +603,7 @@
             "points": 10,
             "reward": "t.873",
             "patch": "7.55",
+            "cPrev": [4018],
             "cSiblings": ["t.873"]
         },
         "x3672": {
@@ -586,7 +612,8 @@
             "description_en": "Resurrect another player on the Occult Crescent: South Horn 10 times.",
             "description_fr": "Ressusciter 10 fois un autre joueur sur l'île de Lunule méridionale.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3673]
         },
         "x3673": {
             "name_en": "Magic Is the Best Medicine II",
@@ -594,7 +621,9 @@
             "description_en": "Resurrect another player on the Occult Crescent: South Horn 100 times.",
             "description_fr": "Ressusciter 100 fois un autre joueur sur l'île de Lunule méridionale.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3672],
+            "cNext": [3674]
         },
         "x3674": {
             "name_en": "Magic Is the Best Medicine III",
@@ -604,6 +633,7 @@
             "points": 10,
             "reward": "t.777",
             "patch": "7.25",
+            "cPrev": [3673],
             "cSiblings": ["t.777"]
         },
         "x3678": {
@@ -612,7 +642,8 @@
             "description_en": "Open 10 treasure coffers found during your excursions on the Occult Crescent.",
             "description_fr": "Ouvrir 10 coffres au trésor sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3679]
         },
         "x3679": {
             "name_en": "Horns of Plenty II",
@@ -620,7 +651,9 @@
             "description_en": "Open 100 treasure coffers found during your excursions on the Occult Crescent.",
             "description_fr": "Ouvrir 100 coffres au trésor sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3678],
+            "cNext": [3680]
         },
         "x3680": {
             "name_en": "Horns of Plenty III",
@@ -628,7 +661,9 @@
             "description_en": "Open 1,000 treasure coffers found during your excursions on the Occult Crescent.",
             "description_fr": "Ouvrir 1 000 coffres au trésor sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3679],
+            "cNext": [3681]
         },
         "x3681": {
             "name_en": "Horns of Plenty IV",
@@ -638,6 +673,8 @@
             "points": 5,
             "reward": "t.778",
             "patch": "7.25",
+            "cPrev": [3680],
+            "cNext": [4019],
             "cSiblings": ["t.778"]
         },
         "x4019": {
@@ -648,6 +685,7 @@
             "points": 20,
             "reward": "t.874",
             "patch": "7.51",
+            "cPrev": [3681],
             "cSiblings": ["t.874"]
         },
         "x3682": {
@@ -656,7 +694,8 @@
             "description_en": "Open 10 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
             "description_fr": "Ouvrir 10 coffres de pot persistant sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3683]
         },
         "x3683": {
             "name_en": "In Pot Pursuit II",
@@ -664,7 +703,9 @@
             "description_en": "Open 50 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
             "description_fr": "Ouvrir 50 coffres de pot persistant sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3682],
+            "cNext": [3684]
         },
         "x3684": {
             "name_en": "In Pot Pursuit III",
@@ -672,7 +713,9 @@
             "description_en": "Open 200 treasure coffers revealed to you by persistent pots on the Occult Crescent.",
             "description_fr": "Ouvrir 200 coffres de pot persistant sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3683],
+            "cNext": [3685]
         },
         "x3685": {
             "name_en": "In Pot Pursuit IV",
@@ -682,6 +725,8 @@
             "points": 5,
             "reward": "t.779",
             "patch": "7.25",
+            "cPrev": [3684],
+            "cNext": [4020],
             "cSiblings": ["t.779"]
         },
         "x4020": {
@@ -692,6 +737,7 @@
             "points": 20,
             "reward": "t.875",
             "patch": "7.51",
+            "cPrev": [3685],
             "cSiblings": ["t.875"]
         },
         "x3686": {
@@ -700,7 +746,8 @@
             "description_en": "Open 10 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
             "description_fr": "Ouvrir 10 coffres de lapin du bonheur sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cNext": [3687]
         },
         "x3687": {
             "name_en": "Where Rabbits Roam II",
@@ -708,7 +755,9 @@
             "description_en": "Open 50 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
             "description_fr": "Ouvrir 50 coffres de lapin du bonheur sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3686],
+            "cNext": [3688]
         },
         "x3688": {
             "name_en": "Where Rabbits Roam III",
@@ -716,7 +765,9 @@
             "description_en": "Open 200 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",
             "description_fr": "Ouvrir 200 coffres de lapin du bonheur sur l'île de Lunule.",
             "points": 5,
-            "patch": "7.25"
+            "patch": "7.25",
+            "cPrev": [3687],
+            "cNext": [3689]
         },
         "x3689": {
             "name_en": "Where Rabbits Roam IV",
@@ -726,6 +777,8 @@
             "points": 5,
             "reward": "t.780",
             "patch": "7.25",
+            "cPrev": [3688],
+            "cNext": [4021],
             "cSiblings": ["t.780"]
         },
         "x4021": {
@@ -736,6 +789,7 @@
             "points": 20,
             "reward": "t.876",
             "patch": "7.51",
+            "cPrev": [3689],
             "cSiblings": ["t.876"]
         },
         "x4022": {
@@ -752,7 +806,8 @@
             "description_en": "Complete 10 FATEs on the Occult Crescent: North Horn.",
             "description_fr": "Accomplir 10 ALÉA sur l'île de Lunule septentrionale.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cNext": [4003]
         },
         "x4003": {
             "name_en": "Occult Enlightenment II",
@@ -760,7 +815,9 @@
             "description_en": "Complete 50 FATEs on the Occult Crescent: North Horn.",
             "description_fr": "Accomplir 50 ALÉA sur l'île de Lunule septentrionale.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4002],
+            "cNext": [4004]
         },
         "x4004": {
             "name_en": "Occult Enlightenment III",
@@ -768,7 +825,9 @@
             "description_en": "Complete 100 FATEs on the Occult Crescent: North Horn.",
             "description_fr": "Accomplir 100 ALÉA sur l'île de Lunule septentrionale.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4003],
+            "cNext": [4005]
         },
         "x4005": {
             "name_en": "Occult Enlightenment IV",
@@ -778,6 +837,7 @@
             "points": 10,
             "reward": "t.868",
             "patch": "7.55",
+            "cPrev": [4004],
             "cSiblings": ["t.868"]
         },
         "x3998": {
@@ -786,7 +846,8 @@
             "description_en": "Complete 10 critical encounters on the Occult Crescent: North Horn.",
             "description_fr": "Remporter 10 confrontations critiques sur l'île de Lunule septentrionale.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cNext": [3999]
         },
         "x3999": {
             "name_en": "Critical Analysis II",
@@ -794,7 +855,9 @@
             "description_en": "Complete 50 critical encounters on the Occult Crescent: North Horn.",
             "description_fr": "Remporter 50 confrontations critiques sur l'île de Lunule septentrionale.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [3998],
+            "cNext": [4000]
         },
         "x4000": {
             "name_en": "Critical Analysis III",
@@ -802,7 +865,9 @@
             "description_en": "Complete 100 critical encounters on the Occult Crescent: North Horn.",
             "description_fr": "Remporter 100 confrontations critiques sur l'île de Lunule septentrionale.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [3999],
+            "cNext": [4001]
         },
         "x4001": {
             "name_en": "Critical Analysis IV",
@@ -812,6 +877,7 @@
             "points": 20,
             "reward": "t.867",
             "patch": "7.55",
+            "cPrev": [4000],
             "cSiblings": ["t.867"]
         },
         "x4006": {
@@ -820,7 +886,8 @@
             "description_en": "Complete the Forked Tower: Magic for the first time.",
             "description_fr": "Finir la Tour fourchue de la Magie.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cNext": [4007]
         },
         "x4007": {
             "name_en": "A Show of Fork II",
@@ -828,7 +895,9 @@
             "description_en": "Complete the Forked Tower: Magic 5 times.",
             "description_fr": "Finir 5 fois la Tour fourchue de la Magie.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4006],
+            "cNext": [4008]
         },
         "x4008": {
             "name_en": "A Show of Fork III",
@@ -836,7 +905,9 @@
             "description_en": "Complete the Forked Tower: Magic 20 times.",
             "description_fr": "Finir 20 fois la Tour fourchue de la Magie.",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4007],
+            "cNext": [4009]
         },
         "x4009": {
             "name_en": "A Show of Fork IV",
@@ -846,6 +917,7 @@
             "points": 20,
             "reward": "t.869",
             "patch": "7.55",
+            "cPrev": [4008],
             "cSiblings": ["t.869"]
         },
         "x4010": {
@@ -856,6 +928,7 @@
             "points": 10,
             "reward": "t.870",
             "patch": "7.55",
+            "cNext": [4011],
             "cSiblings": ["t.870"]
         },
         "x4011": {
@@ -864,7 +937,9 @@
             "description_en": "Complete the Forked Tower: Magic (Extreme) 5 times.",
             "description_fr": "Finir 5 fois la Tour fourchue de la Magie (extrême).",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4010],
+            "cNext": [4012]
         },
         "x4012": {
             "name_en": "Tour de Fork III",
@@ -872,7 +947,9 @@
             "description_en": "Complete the Forked Tower: Magic (Extreme) 20 times.",
             "description_fr": "Finir 20 fois la Tour fourchue de la Magie (extrême).",
             "points": 10,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4011],
+            "cNext": [4013]
         },
         "x4013": {
             "name_en": "Tour de Fork IV",
@@ -882,6 +959,7 @@
             "points": 20,
             "reward": "t.871",
             "patch": "7.55",
+            "cPrev": [4012],
             "cSiblings": ["t.871"]
         },
         "x4014": {
@@ -890,7 +968,8 @@
             "description_en": "Resurrect another player on the Occult Crescent: North Horn 10 times.",
             "description_fr": "Ressusciter 10 fois un autre joueur sur l'île de Lunule septentrionale.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cNext": [4015]
         },
         "x4015": {
             "name_en": "Phantom Physicking II",
@@ -898,7 +977,9 @@
             "description_en": "Resurrect another player on the Occult Crescent: North Horn 100 times.",
             "description_fr": "Ressusciter 100 fois un autre joueur sur l'île de Lunule septentrionale.",
             "points": 5,
-            "patch": "7.55"
+            "patch": "7.55",
+            "cPrev": [4014],
+            "cNext": [4016]
         },
         "x4016": {
             "name_en": "Phantom Physicking III",
@@ -908,6 +989,7 @@
             "points": 10,
             "reward": "t.872",
             "patch": "7.55",
+            "cPrev": [4015],
             "cSiblings": ["t.872"]
         }
     }
