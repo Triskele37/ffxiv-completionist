@@ -1,0 +1,55 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.TABLE_ACTION_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        [class]="overlayButtonClass"
+        (click)="onOverlayButtonClick()"
+    >
+        <ng-icon name="matTune"></ng-icon>
+    </button>
+
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <button pButton [disabled]="true">
+                    {{'APP.TABLE_OVERLAY.TITLE' | translate}}
+                </button>
+
+                @if(group.type === 'Data') {
+                    <button pButton (click)="bookmarkGroup()">
+                        @if(isBookmarked()) {
+                            <ng-icon name="matBookmarkRemove"></ng-icon>
+                            {{'APP.TABLE_OVERLAY.REM_BOOKMARK' | translate}}
+                        }
+                        @else {
+                            <ng-icon name="matBookmarkAdd"></ng-icon>
+                            {{'APP.TABLE_OVERLAY.ADD_BOOKMARK' | translate}}
+                        }
+                    </button>
+                }
+
+                @if(svcTable.rowGroup.groupRows) {
+                    <button pButton (click)="svcTable.rowGroup.expandAll()">
+                        {{'APP.SEARCH.EXPAND' | translate}}
+                    </button>
+                    <button pButton (click)="svcTable.rowGroup.collapseAll()">
+                        {{'APP.SEARCH.COLLAPSE' | translate}}
+                    </button>
+                }
+
+                @if(isDev()) {
+                    <button pButton (click)="copyData(false)">
+                        <ng-icon name="matFileCopy"></ng-icon>
+                        {{'APP.TABLE_OVERLAY.COPY_RAW_DATA' | translate}}
+                    </button>
+                    <button pButton (click)="copyData(true)">
+                        <ng-icon name="matFileCopy"></ng-icon>
+                        {{'APP.TABLE_OVERLAY.COPY_RESOLVED_DATA' | translate}}
+                    </button>
+                }
+            </span>
+        </div>
+    }
+</span>

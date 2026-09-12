@@ -1,0 +1,11 @@
+@let flag = task.completionFlag$();
+
+<td
+    data-active-help="APP.ACTIVE_HELP.TABLE.FLAG_COMPLETION_CELL"
+    class="completion-flag-cell {{flag}} noSelect"
+    [attr.rowspan]="rowSpan"
+    (click)="onTaskCompleteClick()"
+    (contextmenu)="onExcludeTaskClick($event)"
+>
+    {{flag}}
+</td>

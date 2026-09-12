@@ -1,0 +1,62 @@
+// Prime :root var Overrides
+html:root, html:host {
+    --p-surface-0: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 11%));
+    --p-surface-50: var(--surface-50);
+    --p-surface-100: var(--surface-100);
+    --p-surface-200: var(--surface-200);
+    --p-surface-300: var(--surface-300);
+    --p-surface-400: var(--surface-400);
+    --p-surface-500: var(--surface-500);
+    --p-surface-600: var(--surface-600);
+    --p-surface-700: var(--surface-700);
+    --p-surface-800: var(--surface-800);
+    --p-surface-900: var(--surface-900);
+    --p-surface-950: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 9%));
+
+    //--p-primary-color: light-dark(var(--p-primary-500), var(--p-primary-400));
+    --p-primary-50: color-mix(in srgb, var(--primary-color), white 50%);
+    --p-primary-100: color-mix(in srgb, var(--primary-color), white 40%);
+    --p-primary-200: color-mix(in srgb, var(--primary-color), white 30%);
+    --p-primary-300: color-mix(in srgb, var(--primary-color), white 20%);
+    --p-primary-400: color-mix(in srgb, var(--primary-color), white 10%);
+    --p-primary-500: var(--primary-color);
+    --p-primary-600: color-mix(in srgb, var(--primary-color), black 10%);
+    --p-primary-700: color-mix(in srgb, var(--primary-color), black 20%);
+    --p-primary-800: color-mix(in srgb, var(--primary-color), black 30%);
+    --p-primary-900: color-mix(in srgb, var(--primary-color), black 40%);
+    --p-primary-950: color-mix(in srgb, var(--primary-color), black 50%);
+
+    --p-text-color: var(--text-color); //700
+    --p-text-hover-color: color-mix(in srgb, var(--text-color), black 2%);
+    --p-text-muted-color: color-mix(in srgb, var(--text-color), white 4%);
+    --p-text-hover-muted-color: color-mix(in srgb, var(--text-color), white 2%);
+
+    --p-primary-color: var(--p-primary-500);
+    --p-primary-contrast-color: var(--primary-color-text);
+    --p-primary-hover-color: light-dark(var(--p-primary-600), var(--p-primary-400));
+    //--p-primary-active-color: light-dark(var(--p-primary-700), var(--p-primary-200));
+
+    //--p-highlight-background: light-dark(var(--p-primary-50), color-mix(in srgb, var(--p-primary-400), transparent 84%));
+    //--p-highlight-focus-background: light-dark(var(--p-primary-100), color-mix(in srgb, var(--p-primary-400), transparent 76%));
+    //--p-highlight-color: light-dark(var(--p-primary-700), rgba(255, 255, 255, .87));
+    //--p-highlight-focus-color: light-dark(var(--p-primary-800), rgba(255, 255, 255, .87));
+
+    //--p-mask-transition-duration: 0.3s;
+    //--p-mask-background: light-dark(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+    //--p-mask-color: var(--p-surface-200);
+
+    //--p-form-field-border-color: var();
+    --p-form-field-color: var(--p-text-color);
+    --p-form-field-icon-color: var(--p-text-color);
+    --p-form-field-placeholder-color: var(--p-text-color-secondary);
+    --p-navigation-item-focus-background: var(--p-surface-500);
+    --p-navigation-item-focus-color: var(--p-text-hover-color);
+    --p-navigation-submenu-icon-color: var(--p-text-color);
+    --p-navigation-submenu-icon-focus-color: var(--p-text-color-secondary);
+    --p-tooltip-color: var(--p-text-color);
+
+    --p-button-text-plain-color: var(--p-text-color);
+    --p-inputnumber-button-color: var(--p-text-color);
+    --p-datatable-row-background: var(--p-surface-600);
+    --p-datatable-row-striped-background: var(--p-surface-700);
+}

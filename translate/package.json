@@ -1,0 +1,13 @@
+{
+    "name": "translate",
+    "version": "1.0.0",
+    "main": "./main/main.js",
+    "scripts": {
+        "electron": "electron",
+        "electron:serve": "wait-on tcp:4200 && npm run electron:serve-tsc && electron . --serve",
+        "electron:serve-tsc": "tsc -p tsconfig.electron.json",
+        "ng": "ng",
+        "ng:serve": "ng serve translate -c web",
+        "start": "npm-run-all -p electron:serve ng:serve"
+    }
+}

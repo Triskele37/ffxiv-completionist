@@ -1,0 +1,68 @@
+{
+    "key": "tank-role-quests-dawntrail",
+    "groupName_en": "Tank Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de tank (Dawntrail)",
+    "tasks": {
+        "x70354": {
+            "name_en": "The Narwhal Beckons",
+            "name_fr": "Narvals dans la neige",
+            "level": 90,
+            "npc_en": "Loazenikwe",
+            "npc_fr": "Loazenikwe",
+            "patch": "7.0",
+            "cPrev": ["q.70353"],
+            "cNext": ["q.70355"]
+        },
+        "x70355": {
+            "name_en": "Sleepless in Ishgard",
+            "name_fr": "Le guerrier qui ne dort jamais",
+            "level": 92,
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0",
+            "cPrev": ["q.70354"],
+            "cNext": ["q.70356"]
+        },
+        "x70356": {
+            "name_en": "Between Sleep and Death",
+            "name_fr": "Entre le sommeil et la mort",
+            "level": 94,
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0",
+            "cPrev": ["q.70355"],
+            "cNext": ["q.70357"]
+        },
+        "x70357": {
+            "name_en": "Beacon in the Darkness",
+            "name_fr": "Le philtre des nuits blanches",
+            "level": 96,
+            "npc_en": "Firmalbert",
+            "npc_fr": "Firmalbert",
+            "patch": "7.0",
+            "cPrev": ["q.70356"],
+            "cNext": ["q.70358"]
+        },
+        "x70358": {
+            "name_en": "Awakened, Not Stirred",
+            "name_fr": "Les limites humaines",
+            "level": 98,
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0",
+            "cPrev": ["q.70357"],
+            "cNext": ["q.70359"]
+        },
+        "x70359": {
+            "name_en": "Dreams of a New Day",
+            "name_fr": "Rêves éveillés",
+            "level": 100,
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0",
+            "cPrev": ["q.70358"],
+            "cNext": ["q.70724"],
+            "cSiblings": ["a.3499"]
+        }
+    }
+}

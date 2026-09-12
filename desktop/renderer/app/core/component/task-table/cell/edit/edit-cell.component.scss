@@ -1,0 +1,22 @@
+:host {
+    display: contents;
+
+    .edit-cell {
+        .edit-cell-textarea-container {
+            display: flex;
+
+            ::ng-deep .p-textarea {
+                overflow: hidden;
+                resize: none;
+                width: 100%;
+                height: 25px !important;
+                line-height: 25px;
+                padding: 0 5px;
+            }
+        }
+
+        .static-cell {
+            padding-left: var(--content-padding);
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "unevaluatedProperties": false,
+    "allOf": [
+        { "$ref": "#/$defs/SharedProperties" },
+        {
+            "type": "object",
+            "required": [
+                "key"
+            ],
+            "properties": {
+                "key": { "type": "string" },
+                "type": { "$ref": "#/$defs/GroupType" },
+                "order": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "columns": {
+                    "type": "object",
+                    "patternProperties": {
+                        "^.*$": { "$ref": "#/$defs/Column" }
+                    }
+                },
+                "tasks": {
+                    "type": "object",
+                    "patternProperties": {
+                        "^x\\d+$": { "$ref": "#/$defs/Task" }
+                    }
+                },
+                "addSpacerAbove": { "type": "boolean" },
+                "addSpacerBelow": { "type": "boolean" },
+                "numericDecimal": { "type": "number" },
+                "disableCompletion": { "type": "boolean" },
+                "isCraftingLogGroup": { "type": "boolean" }
+            },
+            "patternProperties": {
+                "^groupName(_[a-z]{2})?$": { "type": "string" },
+                "^groupNameShort(_[a-z]{2})?$": { "type": "string" }
+            }
+        }
+    ],
+    "$defs": {
+        "Column": {
+            "additionalProperties": false,
+            "properties": {
+                "link": { "type": "boolean" },
+                "groupLink": { "type": "boolean" },
+                "taskLink": { "type": "boolean" },
+                "trimGroup": { "type": "boolean" },
+                "editable": { "type": "boolean" },
+                "filterable": { "type": "boolean" },
+                "oneLineTextList": { "type": "boolean" },
+                "width": { "type": "number" }
+            },
+            "patternProperties": {
+                "^header(_[a-z]{2})?$": { "type": "string" }
+            }
+        },
+        "GroupType": {
+            "anyOf": [
+                { "const": "Custom" },
+                { "const": "Bookmark" },
+                { "const": "Note" }
+            ]
+        },
+        "Link": {
+            "anyOf": [
+                { "type": "string" },
+                { "type": "number" }
+            ]
+        },
+        "Links": {
+            "anyOf": [
+                { "$ref": "#/$defs/Link" },
+                {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/Link" }
+                }
+            ]
+        },
+        "AtLinks": {
+            "type": "object",
+            "patternProperties": {
+                "^.*$": { "$ref": "#/$defs/Links" }
+            }
+        },
+        "SharedProperties": {
+            "type": "object",
+            "properties": {
+                "defaultCompletion": {
+                    "oneOf": [
+                        { "const": "Y" },
+                        { "const": "N" },
+                        { "const": "X" },
+                        { "type": "number" }
+                    ]
+                },
+
+                "isNumericCompletion": { "type": "boolean" },
+                "minValue": { "type": "number" },
+                "maxValue": { "type": "number" },
+
+                "cPrev": { "$ref": "#/$defs/Links" },
+                "cPrevAt": { "$ref": "#/$defs/AtLinks" },
+                "cPrevAny": { "type": "boolean" },
+                "cNext": { "$ref": "#/$defs/Links" },
+                "cSiblings": { "$ref": "#/$defs/Links" },
+                "cSiblingsAt": { "$ref": "#/$defs/AtLinks" },
+                "cCombo": { "$ref": "#/$defs/Links" },
+                "cComboAt": { "$ref": "#/$defs/AtLinks" },
+                "cExclude": { "$ref": "#/$defs/Links" },
+                "cExclusive": { "$ref": "#/$defs/Links" }
+            }
+        },
+        "Task": {
+            "type": "object",
+            "allOf": [
+                { "$ref": "#/$defs/SharedProperties" },
+                {
+                    "type": "object",
+                    "patternProperties": {
+                        "^name(_[a-z]{2})?$": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

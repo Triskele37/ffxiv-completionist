@@ -1,0 +1,11 @@
+@if(task.isNumericCompletion) {
+    <com-numeric-complete-cell
+        [task]="task"
+        [rowSpan]="rowSpan"
+    ></com-numeric-complete-cell>
+} @else {
+    <com-flag-complete-cell
+        [task]="task"
+        [rowSpan]="rowSpan"
+    ></com-flag-complete-cell>
+}

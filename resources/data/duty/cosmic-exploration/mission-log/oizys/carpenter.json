@@ -1,0 +1,278 @@
+{
+    "key": "carpenter",
+    "groupName": "@CLASS_JOB.CRP",
+    "tasks": {
+        "x1348": {
+            "name_en": "Hydrophytic Flora Biofuel",
+            "name_fr": "Combustible végétal",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_2_A",
+            "patch": "7.41"
+        },
+        "x1349": {
+            "name_en": "Relic Restoration Brushes",
+            "name_fr": "Balais pour restauration",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_A",
+            "patch": "7.41"
+        },
+        "x1066": {
+            "name_en": "EX+: Renewable Fuel II",
+            "name_fr": "EX+ : Étude améliorée de carburants renouvelables",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1065",
+            "patch": "7.41"
+        },
+        "x1067": {
+            "name_en": "EX+: Renewable Fuel III",
+            "name_fr": "EX+ : Étude perfectionnée de carburants renouvelables",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1066",
+            "patch": "7.41"
+        },
+        "x1063": {
+            "name_en": "EX+: Planetary Resource Utilization",
+            "name_fr": "EX+ : Contrôle de l'exploitation des ressources planétaires",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.41"
+        },
+        "x1065": {
+            "name_en": "EX+: Renewable Fuel I",
+            "name_fr": "EX+ : Étude de carburants renouvelables",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.41"
+        },
+        "x1062": {
+            "name_en": "EX: Beach Break Supplies",
+            "name_fr": "EX : Articles de vacances à la plage",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1064": {
+            "name_en": "EX+: Organic Material Advanced Processing",
+            "name_fr": "EX+ : Traitement avancé de ressources végétales",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1053": {
+            "name_en": "Additional Enhanced Fiber",
+            "name_fr": "Matériaux fibreux innovants supplémentaires",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1054": {
+            "name_en": "Fuel Processing and Storage",
+            "name_fr": "Traitement de matériaux combustibles et conservation d'échantillons",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1055": {
+            "name_en": "High-performance Cushioning Materials",
+            "name_fr": "Matériaux amortisseurs ultraperformants",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1056": {
+            "name_en": "Stabilization Research",
+            "name_fr": "Aide à l'élaboration de solutions antigravitationnelles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1057": {
+            "name_en": "Resilient Resource Specialist Processing",
+            "name_fr": "Traitement de pointe de ressources d'adaptation environnementale",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1058": {
+            "name_en": "Secure Tents",
+            "name_fr": "Tente de haute sécurité",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1059": {
+            "name_en": "EX: Mass-produced Transportation Materials",
+            "name_fr": "EX : Aide à la production massive de matériaux de transport",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1060": {
+            "name_en": "EX: Excavation Necessities",
+            "name_fr": "EX : Matériels d'excavation essentiels",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1061": {
+            "name_en": "EX: Excavation Equipment",
+            "name_fr": "EX : Appui matériel au site d'excavation",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1048": {
+            "name_en": "Enhanced Fiber",
+            "name_fr": "Matériaux fibreux innovants",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1049": {
+            "name_en": "Resilient Resource Advanced Processing",
+            "name_fr": "Traitement avancé de ressources d'adaptation environnementale",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1050": {
+            "name_en": "Improved Cushioning Materials II",
+            "name_fr": "Amélioration de matériaux amortisseurs renforcés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1051": {
+            "name_en": "Stabilizing Materials III",
+            "name_fr": "Perfectionnement de matériaux antigravitationnels",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1052": {
+            "name_en": "Resilient Tents",
+            "name_fr": "Tentes adaptées à l'environnement",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1044": {
+            "name_en": "Additional Multi-purpose Fiber",
+            "name_fr": "Matériaux fibreux multi-usage supplémentaires",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1045": {
+            "name_en": "Resilient Resource Processing II",
+            "name_fr": "Traitement amélioré de ressources d'adaptation environnementale",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1046": {
+            "name_en": "Improved Cushioning Materials I",
+            "name_fr": "Matériaux amortisseurs renforcés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1047": {
+            "name_en": "Stabilizing Materials II",
+            "name_fr": "Amélioration de matériaux antigravitationnels",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1040": {
+            "name_en": "Multi-purpose Fiber",
+            "name_fr": "Matériaux fibreux multi-usage",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1041": {
+            "name_en": "Resilient Resource Processing I",
+            "name_fr": "Traitement de ressources d'adaptation environnementale",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1042": {
+            "name_en": "Cushioned Packaging Materials",
+            "name_fr": "Matériaux amortisseurs pour transport",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1043": {
+            "name_en": "Stabilizing Materials I",
+            "name_fr": "Matériaux antigravitationnels",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}

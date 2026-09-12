@@ -1,0 +1,141 @@
+{
+    "key": "red-mage-quests",
+    "groupName_en": "Red Mage Quests",
+    "groupName_fr": "Quêtes de mage rouge",
+    "tasks": {
+        "x68112": {
+            "name_en": "Taking the Red",
+            "name_fr": "Le vagabond rouge",
+            "level": 50,
+            "npc_en": "Distraught Lass",
+            "npc_fr": "Fillette Aux Yeux Humides",
+            "unlock": "ap.183",
+            "patch": "4.0",
+            "cNext": ["q.68113"],
+            "cSiblings": ["ap.183"]
+        },
+        "x68113": {
+            "name_en": "The Crimson Duelist",
+            "name_fr": "Théorie et pratique",
+            "level": 50,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68112"],
+            "cNext": ["q.68114"]
+        },
+        "x68114": {
+            "name_en": "A Rewarding Struggle",
+            "name_fr": "Piéger le piège",
+            "level": 52,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68113"],
+            "cNext": ["q.68115"]
+        },
+        "x68115": {
+            "name_en": "Tracking the Cabal",
+            "name_fr": "Cargaison mystère",
+            "level": 54,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68114"],
+            "cNext": ["q.68116"]
+        },
+        "x68116": {
+            "name_en": "A Vermilion Vendetta",
+            "name_fr": "Opération remémoration",
+            "level": 56,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68115"],
+            "cNext": ["q.68117"]
+        },
+        "x68117": {
+            "name_en": "On Lambard's Trail",
+            "name_fr": "Diversion musclée",
+            "level": 58,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68116"],
+            "cNext": ["q.68118"]
+        },
+        "x68118": {
+            "name_en": "Stained in Scarlet",
+            "name_fr": "Un vieux compte à régler",
+            "level": 60,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68117"],
+            "cNext": ["q.68119"],
+            "cSiblings": ["a.1810"]
+        },
+        "x68119": {
+            "name_en": "The Color of Her Hair",
+            "name_fr": "Symptômes inquiétants",
+            "level": 60,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68118", "q.67895"],
+            "cNext": ["q.68120"]
+        },
+        "x68120": {
+            "name_en": "Traced in Blood",
+            "name_fr": "Le fil rouge de l'histoire",
+            "level": 63,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68119"],
+            "cNext": ["q.68121"]
+        },
+        "x68121": {
+            "name_en": "Nightkin",
+            "name_fr": "L'ironie du sang",
+            "level": 65,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68120"],
+            "cNext": ["q.68122"]
+        },
+        "x68122": {
+            "name_en": "Child of Lilith",
+            "name_fr": "La piste du cauchemar",
+            "level": 68,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68121"],
+            "cNext": ["q.68123"]
+        },
+        "x68123": {
+            "name_en": "With Heart and Steel",
+            "name_fr": "Transmigration démoniaque",
+            "level": 70,
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "patch": "4.0",
+            "cPrev": ["q.68122"],
+            "cNext": ["q.68760"],
+            "cSiblings": ["a.1811"]
+        },
+        "x68760": {
+            "name_en": "Succession of Steel",
+            "name_fr": "La relève de l'Ouragan pourpre",
+            "level": 80,
+            "npc_en": "Arya",
+            "npc_fr": "Arya",
+            "unlock": "ap.318",
+            "patch": "5.0",
+            "cPrev": ["q.68123", "q.69164", "q.69190"],
+            "cSiblings": ["ap.318", "a.2319"]
+        }
+    }
+}

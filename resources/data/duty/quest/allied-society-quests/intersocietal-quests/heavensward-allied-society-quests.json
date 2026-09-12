@@ -1,0 +1,53 @@
+{
+    "key": "heavensward-allied-society-quests",
+    "groupName_en": "Heavensward Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés (Heavensward)",
+    "tasks": {
+        "x67918": {
+            "name_en": "When Good Dragons Go Bad",
+            "name_fr": "Vathe à tout faire",
+            "level": 60,
+            "npc_en": "Drydox",
+            "npc_fr": "Drydox",
+            "cNext": ["q.67919"],
+            "patch": "3.5"
+        },
+        "x67919": {
+            "name_en": "Who Was That Masked Man",
+            "name_fr": "À futé, futé et demi",
+            "level": 60,
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "cPrev": ["q.67918"],
+            "cNext": ["q.67920"],
+            "patch": "3.5"
+        },
+        "x67920": {
+            "name_en": "Lift Me to the Moon",
+            "name_fr": "Une danse, mais pas un cha-cha",
+            "level": 60,
+            "npc_en": "Vath Deftarm",
+            "npc_fr": "Futé",
+            "cPrev": ["q.67919"],
+            "cNext": ["q.67921"],
+            "patch": "3.5"
+        },
+        "x67921": {
+            "name_en": "Eternity, Loyalty, Honesty",
+            "name_fr": "Une amitié germée du chaos semé",
+            "level": 60,
+            "npc_en": "Vath Deftarm",
+            "npc_fr": "Futé",
+            "cPrev": ["q.67920"],
+            "cSiblings": [
+                "character.character.societal-relations.36",
+                "character.character.societal-relations.43",
+                "character.character.societal-relations.52",
+                "a.1627",
+                "e.145"
+            ],
+            "patch": "3.5",
+            "unlock": "e.145"
+        }
+    }
+}

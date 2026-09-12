@@ -1,0 +1,199 @@
+{
+    "key": "east-shroud",
+    "groupName": "@PLACE.ARR.EAST_SHROUD",
+    "tasks": {
+        "x143": {
+            "name_en": "Now I See Bees I Won",
+            "name_fr": "Le miel et les abeilles",
+            "level": 11,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(11, 24)",
+            "patch": "2.0"
+        },
+        "x214": {
+            "name_en": "Carrion Baggage",
+            "name_fr": "Le festin des vautours",
+            "level": 11,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(12, 26)",
+            "patch": "2.0"
+        },
+        "x144": {
+            "name_en": "Royal Rumble",
+            "name_fr": "Défi : match au sommet",
+            "level": 16,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(19, 27)",
+            "patch": "2.0"
+        },
+        "x149": {
+            "name_en": "Stopping the Spread",
+            "name_fr": "Stop à la propagation",
+            "level": 17,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(21, 26)",
+            "patch": "2.0"
+        },
+        "x150": {
+            "name_en": "Jack of All Trades",
+            "name_fr": "Défi : les fauteurs de trouble",
+            "level": 19,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(20, 29)",
+            "patch": "2.0"
+        },
+        "x212": {
+            "name_en": "Ivy League",
+            "name_fr": "Les envahisseurs",
+            "level": 19,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(20, 29)",
+            "patch": "2.0"
+        },
+        "x152": {
+            "name_en": "Protecting the Patch",
+            "name_fr": "La protection du Massif",
+            "level": 20,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(18, 25)",
+            "patch": "2.0"
+        },
+        "x218": {
+            "name_en": "Lazy for You",
+            "name_fr": "Défi : Laurence pas ravie",
+            "level": 20,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(23, 29)",
+            "patch": "2.0"
+        },
+        "x217": {
+            "name_en": "What Have You Done for Mead Lately",
+            "name_fr": "L'appel de l'hydromel",
+            "level": 21,
+            "type": "@FATE.TYPE.ESCORT",
+            "location": "(17, 26)",
+            "patch": "2.0"
+        },
+        "x213": {
+            "name_en": "Thunderstruck",
+            "name_fr": "L'offrande",
+            "level": 23,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(19, 21)",
+            "patch": "2.0"
+        },
+        "x607": {
+            "name_en": "Collecting Keepsakes",
+            "name_fr": "Vivre libre ou mourir",
+            "level": 40,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "location": "(26, 24)",
+            "patch": "2.1"
+        },
+        "x608": {
+            "name_en": "All Vine and No Popotoes",
+            "name_fr": "Occlusion d'otyughs",
+            "level": 40,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(26, 23)",
+            "patch": "2.1"
+        },
+        "x610": {
+            "name_en": "The Enemy of My Enemy",
+            "name_fr": "Entre deux feux",
+            "level": 42,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(27, 21)",
+            "patch": "2.1"
+        },
+        "x611": {
+            "name_en": "The Enmity of My Enemy",
+            "name_fr": "Subjugués ingrats",
+            "level": 42,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(27, 21)",
+            "previousFate": "fate.610",
+            "patch": "2.1"
+        },
+        "x691": {
+            "name_en": "A Wrench in the Works",
+            "name_fr": "Défi : bon pour la ferraille",
+            "level": 42,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(29, 21)",
+            "patch": "2.1"
+        },
+        "x609": {
+            "name_en": "The Squirrel Trapper's Wife",
+            "name_fr": "Défi : Cassienova",
+            "level": 43,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(23, 20)",
+            "patch": "2.1"
+        },
+        "x612": {
+            "name_en": "Below His Station",
+            "name_fr": "Défi : une option sur l'optio",
+            "level": 44,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(32, 20)",
+            "patch": "2.1"
+        },
+        "x615": {
+            "name_en": "Got Milkroot",
+            "name_fr": "Repénalisation",
+            "level": 46,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(28, 17)",
+            "patch": "2.1"
+        },
+        "x616": {
+            "name_en": "Breaking Dawn",
+            "name_fr": "Défi : Daxio le chimiste",
+            "level": 47,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(32, 14)",
+            "patch": "2.1"
+        },
+        "x619": {
+            "name_en": "Bush Blade",
+            "name_fr": "Défi : vilain Volxia",
+            "level": 47,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(29, 13)",
+            "patch": "2.1"
+        },
+        "x618": {
+            "name_en": "Handful of Dreams",
+            "name_fr": "Un rêve sans fin",
+            "level": 49,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(24, 11)",
+            "patch": "2.1"
+        },
+        "x620": {
+            "name_en": "Everything's Better",
+            "name_fr": "Flapi chapeau",
+            "level": 49,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(23, 14)",
+            "patch": "2.1"
+        },
+        "x622": {
+            "name_en": "The Gale that Rocks the Cradle",
+            "name_fr": "Défi : une pulsion contre Pulxio",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(20, 10)",
+            "patch": "2.1"
+        },
+        "x692": {
+            "name_en": "What a Boar",
+            "name_fr": "Défi : ben mon cochon !",
+            "level": 49,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(23, 17)",
+            "patch": "2.1"
+        }
+    }
+}

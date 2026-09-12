@@ -1,0 +1,83 @@
+{
+    "key": "dt",
+    "groupName": "@EXPANSION.DAWNTRAIL",
+    "groupNameShort": "@EXPANSION.DT",
+    "defaultCompletion": 91,
+    "isNumericCompletion": true,
+    "minValue": 91,
+    "maxValue": 100,
+    "tasks": {
+        "x0": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "role": "@ROLE.HEALER",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x1": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "role": "@ROLE.TANK",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x3": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "role": "@ROLE.HEALER",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x4": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x6": {
+            "name_en": "Estinien",
+            "name_fr": "Estinien",
+            "role": "@ROLE.MELEE_DPS",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x5": {
+            "name_en": "G'raha Tia",
+            "name_fr": "G'raha Tia",
+            "role": "@ROLE.ALL_ROUNDER",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        },
+        "x7": {
+            "name_en": "Krile",
+            "name_fr": "Krile",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3509"]
+            }
+        }
+    }
+}

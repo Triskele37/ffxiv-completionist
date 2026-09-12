@@ -1,0 +1,18 @@
+{
+    "key": "crafting",
+    "groupName_en": "Crafting",
+    "groupName_fr": "Atelier",
+    "order": ["tools", "feed", "restraints"],
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

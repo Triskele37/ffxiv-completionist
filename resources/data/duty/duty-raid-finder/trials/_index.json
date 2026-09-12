@@ -1,0 +1,21 @@
+{
+    "key": "trials",
+    "groupName_en": "Trials",
+    "groupName_fr": "Défis",
+    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

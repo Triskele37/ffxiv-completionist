@@ -1,0 +1,538 @@
+{
+    "resultVersion": "1.0.1",
+    "actionGroups": {
+        "role-quests": [
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.tank",
+                "to": "overall.duty.quests.class--job.role.shb",
+                "ids": [68779, 68780, 68781, 68782, 68783, 68784]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.tank",
+                "to": "overall.duty.quests.class--job.role.ew",
+                "ids": [69638, 69639, 69640, 69641, 69642, 69643]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.healer",
+                "to": "overall.duty.quests.class--job.role.shb",
+                "ids": [68803, 68804, 68805, 68806, 68807, 68808]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.healer",
+                "to": "overall.duty.quests.class--job.role.ew",
+                "ids": [69644, 69645, 69646, 69647, 69648, 69649]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.physical-dps",
+                "to": "overall.duty.quests.class--job.role.shb",
+                "ids": [68809, 68810, 68811, 68812, 68813, 68814]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.melee-dps",
+                "to": "overall.duty.quests.class--job.role.ew",
+                "ids": [69650, 69651, 69652, 69653, 69654, 69655]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.physical-ranged-dps",
+                "to": "overall.duty.quests.class--job.role.ew",
+                "ids": [69656, 69657, 69658, 69659, 69660, 69661]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.magical-ranged-dps",
+                "to": "overall.duty.quests.class--job.role.shb",
+                "ids": [69159, 69160, 69161, 69162, 69163, 69164]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role.magical-ranged-dps",
+                "to": "overall.duty.quests.class--job.role.ew",
+                "ids": [69662, 69663, 69664, 69665, 69666, 69667]
+            },
+            {
+                "type": "moveTasks",
+                "from": "overall.duty.quests.class--job.role",
+                "to": "overall.duty.quests.class--job.role.shb",
+                "ids": [69165, 69521]
+            },
+            {
+                "type": "MultiAction",
+                "withValues": [
+                    "tank",
+                    "healer",
+                    "physical-dps",
+                    "melee-dps",
+                    "physical-ranged-dps",
+                    "magical-ranged-dps"
+                ],
+                "as": "role",
+                "actions": [
+                    {
+                        "type": "deleteGroup",
+                        "group": "overall.duty.quests.class--job.role.{role}"
+                    }
+                ]
+            }
+        ],
+        "adventure-plate": [
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.gladiator",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65801, 0]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.paladin",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68746, 1]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.paladin",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66591, 2]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.marauder",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65855, 4]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.warrior",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68748, 5]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.warrior",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66585, 6]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dark-knight",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68757, 8]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dark-knight",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67589, 9]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.gunbreaker",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68761, 11]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.gunbreaker",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68797, 12]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic.conjurer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65977, 14]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.white-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68751, 15]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.white-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66615, 16]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic.arcanist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65997, 18]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.scholar",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68754, 19]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.scholar",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66633, 20]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.astrologian",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68758, 22]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.astrologian",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67548, 23]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.sage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69608, 25]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.sage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69603, 26]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.pugilist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66103, 28]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.monk",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68747, 29]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.monk",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66597, 30]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.lancer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65975, 32]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dragoon",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68749, 33]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dragoon",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66603, 34]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.rogue",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65691, 36]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.ninja",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68755, 37]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.ninja",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65748, 38]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.samurai",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68759, 40]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.samurai",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68095, 41]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.reaper",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69614, 43]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.reaper",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69609, 44]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war.archer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65612, 46]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.bard",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68750, 47]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.bard",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66621, 48]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.machinist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68756, 50]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.machinist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67232, 51]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dancer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68762, 53]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-war-job.dancer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68785, 54]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic.thaumaturge",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65889, 56]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.black-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68752, 57]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.black-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66609, 58]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.summoner",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69569, 60]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.summoner",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66627, 61]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.red-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68760, 63]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.red-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68112, 64]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.blue-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[69530, 66]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-magic-job.blue-mage",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68728, 67]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.carpenter",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67981, 68]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.carpenter",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65674, 69]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.blacksmith",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68155, 70]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.blacksmith",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65827, 71]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.armorer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68134, 72]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.armorer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65809, 73]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.goldsmith",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68139, 74]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.goldsmith",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66144, 75]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.leatherworker",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68151, 76]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.leatherworker",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65641, 77]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.weaver",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67971, 78]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.weaver",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66070, 79]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.alchemist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[67976, 80]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.alchemist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66111, 81]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.culinarian",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68144, 82]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-hand.culinarian",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65807, 83]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.miner",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68094, 84]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.miner",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66133, 85]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.botanist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68160, 86]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.botanist",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65539, 87]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.fisher",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[68435, 88]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.class--job.disciple-of-the-land.fisher",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66643, 89]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.sidequests.uldahn.the-gold-saucer",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[65971, 90]]
+            },
+            {
+                "type": "matchLeft",
+                "leftGroup": "overall.duty.quests.main-scenario.seventh-umbral-era",
+                "rightGroup": "overall.character.adventure-plate",
+                "ids": [[66196, 91]]
+            }
+        ],
+        "fix": [
+            {
+                "type": "moveTask",
+                "from": "overall.logs.gathering.gathering-log.logging.level.56-60",
+                "to": "overall.logs.gathering.gathering-log.logging.level.61-65",
+                "id": 11
+            },
+            {
+                "type": "deleteTask",
+                "group": "overall.duty.dutyraid-finder.trials.arr",
+                "id": 3
+            }
+        ]
+    }
+}

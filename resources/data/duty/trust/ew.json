@@ -1,0 +1,74 @@
+{
+    "key": "ew",
+    "groupName": "@EXPANSION.ENDWALKER",
+    "groupNameShort": "@EXPANSION.EW",
+    "defaultCompletion": 81,
+    "isNumericCompletion": true,
+    "minValue": 81,
+    "maxValue": 90,
+    "tasks": {
+        "x0": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "role": "@ROLE.HEALER",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x1": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "role": "@ROLE.TANK",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x3": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "role": "@ROLE.HEALER",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x4": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x6": {
+            "name_en": "Estinien",
+            "name_fr": "Estinien",
+            "role": "@ROLE.MELEE_DPS",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        },
+        "x5": {
+            "name_en": "G'raha Tia",
+            "name_fr": "G'raha Tia",
+            "role": "@ROLE.ALL_ROUNDER",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2972"]
+            }
+        }
+    }
+}

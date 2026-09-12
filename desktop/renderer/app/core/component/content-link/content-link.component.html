@@ -1,0 +1,31 @@
+@if(content && typeof content === 'object') {
+    @if(content.dataType === 'Group') {
+        <button
+            data-active-help="APP.ACTIVE_HELP.CONTENT_LINK.GROUP"
+            pButton
+            class="content-link p-button-link"
+            tooltipPosition="bottom"
+            [pTooltip]="
+                (content | contentLink) + '\n' +
+                ('APP.CONTENT_LINK.GROUP_NAVIGATE' | translate)
+            "
+            (click)="onClickLink()"
+        >
+            {{content | contentLink:trimGroup:nameOnly}}
+        </button>
+    }
+    @else if(content.dataType === 'Task' && content._parent) {
+        <button
+            data-active-help="APP.ACTIVE_HELP.CONTENT_LINK.TASK"
+            class="content-link p-button-link"
+            tooltipPosition="bottom"
+            [pTooltip]="
+                (content._parent | contentLink) + '\n' +
+                ('APP.CONTENT_LINK.TASK_NAVIGATE' | translate)
+            "
+            (click)="onClickLink()"
+        >
+            {{content | contentLink:trimGroup:nameOnly}}
+        </button>
+    }
+}

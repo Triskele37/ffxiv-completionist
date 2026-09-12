@@ -1,0 +1,441 @@
+{
+    "key": "culinarian",
+    "groupName": "@CLASS_JOB.CUL",
+    "tasks": {
+        "x533": {
+            "name_en": "Cured Foodstuffs",
+            "name_fr": "Aliments de longue conservation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_B",
+            "patch": "7.21"
+        },
+        "x534": {
+            "name_en": "Nutrient Supplement Jelly",
+            "name_fr": "Gelée nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_B",
+            "patch": "7.21"
+        },
+        "x535": {
+            "name_en": "Irregular Spongoi Analysis",
+            "name_fr": "Étude des champignons anormaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_B",
+            "patch": "7.21"
+        },
+        "x349": {
+            "name_en": "EX: Worker's Banquet Preparation II",
+            "name_fr": "EX : Amélioration d'en-cas pour ouvriers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.348",
+            "patch": "7.21"
+        },
+        "x351": {
+            "name_en": "EX: Loporrit Dietary Improvement II",
+            "name_fr": "EX : Amélioration de régime adapté pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.350",
+            "patch": "7.21"
+        },
+        "x352": {
+            "name_en": "EX+: Loporrit Dietary Improvement III",
+            "name_fr": "EX+ : Régime adapté pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.351",
+            "patch": "7.21"
+        },
+        "x354": {
+            "name_en": "EX+: Aquaculture Feed II",
+            "name_fr": "EX+ : Amélioration de pâtées pour élevage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.353",
+            "patch": "7.21"
+        },
+        "x356": {
+            "name_en": "EX: Highly Nutritious Foodstuffs II",
+            "name_fr": "EX : Amélioration d'aliments de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.355",
+            "patch": "7.21"
+        },
+        "x357": {
+            "name_en": "EX+: Highly Nutritious Foodstuffs III",
+            "name_fr": "EX+ : Aliments de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.356",
+            "patch": "7.21"
+        },
+        "x359": {
+            "name_en": "EX+: Whole Meals II",
+            "name_fr": "EX+ : Amélioration de repas complets",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.358",
+            "patch": "7.21"
+        },
+        "x360": {
+            "name_en": "EX+: Whole Meals III",
+            "name_fr": "EX+ : Perfectionnement de repas complets",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.359",
+            "patch": "7.21"
+        },
+        "x355": {
+            "name_en": "Highly Nutritious Foodstuffs I",
+            "name_fr": "Préparation d'aliments de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0600",
+            "patch": "7.21"
+        },
+        "x358": {
+            "name_en": "EX+: Whole Meals I",
+            "name_fr": "EX+ : Préparation de repas complets",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-1800",
+            "patch": "7.21"
+        },
+        "x345": {
+            "name_en": "EX: Portable Nutrients",
+            "name_fr": "EX : Revitalisants portables",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x346": {
+            "name_en": "EX+: Cured Seafood",
+            "name_fr": "EX+ : Traitement de produits de la mer fumés",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x347": {
+            "name_en": "EX+: Cured Meat",
+            "name_fr": "EX+ : Traitement de viande animale fumée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x337": {
+            "name_en": "Water-resistant Lubricant",
+            "name_fr": "Huile étanche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x338": {
+            "name_en": "Stellar Adhesive",
+            "name_fr": "Colle d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x339": {
+            "name_en": "Liquid Nutrient Supplements",
+            "name_fr": "Ravitaillement en boissons revigorantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x340": {
+            "name_en": "Cafeteria Goods",
+            "name_fr": "Petit déjeuner pour cantine",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x341": {
+            "name_en": "Lunar Seafood Processing",
+            "name_fr": "Traitement expérimental de produits aquatiques séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x342": {
+            "name_en": "EX: Stable Food Mass Production",
+            "name_fr": "EX : Fabrication en série de nouveaux aliments pour conservation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x343": {
+            "name_en": "EX: Sharlayan Dish Inspection",
+            "name_fr": "EX : Étude de reproduction de cuisine sharlayanaise",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x344": {
+            "name_en": "EX: Simple Field Rations",
+            "name_fr": "EX : Reproduction de cuisine rapide pour activités en extérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x348": {
+            "name_en": "Worker's Banquet Preparation I",
+            "name_fr": "Préparation d'en-cas pour ouvriers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x350": {
+            "name_en": "Loporrit Dietary Improvement I",
+            "name_fr": "Préparation de régime adapté pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x353": {
+            "name_en": "EX: Aquaculture Feed I",
+            "name_fr": "EX : Préparation de pâtées pour élevage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x329": {
+            "name_en": "Experimental Foodstuffs",
+            "name_fr": "Produits de nouvelle génération pour conservation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x330": {
+            "name_en": "Water-resistant Lubricant",
+            "name_fr": "Huile étanche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x331": {
+            "name_en": "Experimental Potables",
+            "name_fr": "Boissons de nouvelle génération",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x332": {
+            "name_en": "Launch Party Foodstuffs",
+            "name_fr": "Cuisine de grâce",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x333": {
+            "name_en": "Home-cooked Seafood Meal",
+            "name_fr": "Reproduction de nourriture typique aux ingrédients aquatiques séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x334": {
+            "name_en": "Nutrient-rich Lunar Food",
+            "name_fr": "Produits récoltés séléniens pour nutrition équilibrée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x335": {
+            "name_en": "Bakery Inspection",
+            "name_fr": "Étude de fondation de boulangerie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x336": {
+            "name_en": "Mushroom Processing",
+            "name_fr": "Traitement de préparations aux champignons",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x322": {
+            "name_en": "Heat-resistant Lubricant",
+            "name_fr": "Huile thermorésistante",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x323": {
+            "name_en": "Nutrient-rich Foodstuffs",
+            "name_fr": "Aliments pour nutrition équilibrée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x324": {
+            "name_en": "Construction Paint",
+            "name_fr": "Peinture de construction",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x325": {
+            "name_en": "Portable Foodstuffs",
+            "name_fr": "Nourriture portable",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x326": {
+            "name_en": "Nutrient-rich Seafood Processing",
+            "name_fr": "Traitement de produits de la mer de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x327": {
+            "name_en": "Emergency Foodstuff Development",
+            "name_fr": "Rations alimentaires d'urgence",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x328": {
+            "name_en": "Essential Whole Meals",
+            "name_fr": "Reproduction de repas complets essentiels",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x316": {
+            "name_en": "Standard Lubricant",
+            "name_fr": "Huile multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x317": {
+            "name_en": "Spice Processing",
+            "name_fr": "Traitement de condiments de produits récoltés",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x318": {
+            "name_en": "Building Adhesive",
+            "name_fr": "Colle de construction",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x319": {
+            "name_en": "Aquatic Nutrient Concentrate",
+            "name_fr": "Bouillons de produits aquatiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x320": {
+            "name_en": "Aquatic Ink",
+            "name_fr": "Encre aqueuse",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x321": {
+            "name_en": "Medicated Feed Research",
+            "name_fr": "Recherche sur la médecine nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CUL",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

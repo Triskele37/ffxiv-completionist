@@ -1,0 +1,95 @@
+{
+    "resultVersion": "1.0.2",
+    "actionGroups": {
+        "titles": [
+            {
+                "type": "changeKeys",
+                "group": "overall.character.character.title",
+                "ids": [
+                    [645, 633],
+                    [646, 634],
+                    [647, 635]
+                ]
+            }
+        ],
+        "crafting-log": [
+            {
+                "type": "moveTask",
+                "from": "overall.logs.crafting-log.blacksmith.housing.indoor",
+                "to": "overall.logs.crafting-log.blacksmith.housing.tables-rugs",
+                "id": 37374
+            },
+            {
+                "type": "moveTask",
+                "from": "overall.logs.crafting-log.carpenter.housing.indoor",
+                "to": "overall.logs.crafting-log.carpenter.housing.tabletop",
+                "id": 35574
+            },
+            {
+                "type": "moveTask",
+                "from": "overall.logs.crafting-log.goldsmith.housing.indoor",
+                "to": "overall.logs.crafting-log.goldsmith.housing.tables-rugs",
+                "id": 35576
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.logs.crafting-log.alchemist.ornaments",
+                "to": "overall.logs.crafting-log.alchemist.ornaments.ornaments-1"
+            }
+        ],
+        "beast-tribe": [
+            {
+                "type": "moveGroup",
+                "from": "overall.character.character.beast-tribe-reputation",
+                "to": "overall.character.character.tribal-relations"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.character.achievement.quests.beast-tribe-quests",
+                "to": "overall.character.achievement.quests.tribal-quests"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.duty.quests.beast-tribe",
+                "to": "overall.duty.quests.tribal-quests"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.duty.quests.sidequests.side-story.allied-beast-tribe",
+                "to": "overall.duty.quests.sidequests.side-story.allied-tribal-quests"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.duty.quests.sidequests.side-story.heavensward-beast-tribe",
+                "to": "overall.duty.quests.sidequests.side-story.heavensward-tribal-quests"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.duty.quests.sidequests.side-story.stormblood-beast-tribe",
+                "to": "overall.duty.quests.sidequests.side-story.stormblood-tribal-quests"
+            },
+            {
+                "type": "moveGroup",
+                "from": "overall.logs.crafting-log.shared.beast-tribe-quests",
+                "to": "overall.logs.crafting-log.shared.tribal-quests"
+            }
+        ],
+        "remove": [
+            {
+                "type": "deleteTask",
+                "group": "overall.duty.dutyraid-finder.trial.arr",
+                "id": 5
+            },
+            {
+                "type": "deleteTask",
+                "group": "duty.quests.chronicles-of-a-new-era.return-to-ivalice",
+                "id": 68629
+            },
+            {
+                "type": "deleteTask",
+                "group": "duty.quests.chronicles-of-a-new-era.return-to-ivalice",
+                "id": 68727
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+@use 'sizes';
+
+:host {
+    display: contents;
+
+    .group-row {
+        height: sizes.$table-row-height;
+
+        .collapse-cell {
+            .p-button {
+                height: 30px;
+                width: 30px;
+            }
+        }
+
+        td {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+@if(!isHidden) {
+    <div
+        class="drawer-item-container"
+        [ngClass]="{
+            root: isRoot,
+            'spacer-above': group.addSpacerAbove,
+            'spacer-below': group.addSpacerBelow
+        }"
+    >
+        @if(!isRoot) {
+            <div
+                class="drawer-item-button"
+                [pTooltip]="group.contentLink"
+                (click)="handleClick()"
+            >
+                <div
+                    class="left-content"
+                    [attr.data-active-help]="activeHelp"
+                >
+                    @if(group.subGroups?.size) {
+                        <div class="button-arrow">
+                            @if(isExpanded()) {
+                                <ng-icon name="matKeyboardArrowDown" class="small"></ng-icon>
+                            }
+                            @else {
+                                <ng-icon name="matKeyboardArrowRight" class="small"></ng-icon>
+                            }
+                        </div>
+                    }
+
+                    <span
+                        class="group-label"
+                        [ngClass]="{
+                            selected: isSelected(),
+                            'with-icon': isComplete || isEmpty
+                        }"
+                    >
+                        {{group.name}}
+                    </span>
+                </div>
+
+                <div class="right-content">
+                    @if(group.type !== 'UI') {
+                        @if(isComplete) {
+                            <ng-icon
+                                data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.COMPLETE_STAR"
+                                name="matStar"
+                                class="small"
+                            ></ng-icon>
+                        }
+                        @else if(isEmpty) {
+                            <ng-icon
+                                data-active-help="APP.ACTIVE_HELP.NAV_DRAWER.EMPTY_STAR"
+                                name="matStar"
+                                class="empty small"
+                            ></ng-icon>
+                        }
+                    }
+                </div>
+            </div>
+        }
+
+        @if(group.subGroups?.size && (isExpanded() || isRoot)) {
+            <div
+                class="drawer-item-children"
+                animate.enter="fade-in"
+                animate.leave="fade-out"
+            >
+                @let asMap = group.subGroups | keyvalue: asIsOrder;
+                @for(subGroup of asMap; track subGroup.key) {
+                    @if(subGroup.value) {
+                        <com-nav-drawer-item
+                            [group]="subGroup.value"
+                        ></com-nav-drawer-item>
+                    }
+                }
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,413 @@
+{
+    "key": "miner",
+    "groupName": "@CLASS_JOB.MIN",
+    "tasks": {
+        "x1031": {
+            "name_en": "Lightning Rod Materials",
+            "name_fr": "Matériaux pour paratonnerre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_B",
+            "patch": "7.31"
+        },
+        "x1032": {
+            "name_en": "Rare Glass Resources",
+            "name_fr": "Ressources rares en verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_A",
+            "patch": "7.31"
+        },
+        "x1033": {
+            "name_en": "Metallic Materials",
+            "name_fr": "Livraison d'éléments métalliques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_3_B",
+            "patch": "7.31"
+        },
+        "x914": {
+            "name_en": "Heat Sink Materials",
+            "name_fr": "Aide à l'étude de matériaux pour soudage thermique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.897",
+            "patch": "7.31"
+        },
+        "x915": {
+            "name_en": "EX: Glass-fusing Materials",
+            "name_fr": "EX : Matériaux pour machine à fusion du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.898",
+            "patch": "7.31"
+        },
+        "x916": {
+            "name_en": "EX: Conductive Core Materials",
+            "name_fr": "EX : Matériaux pour noyau conducteur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.915",
+            "patch": "7.31"
+        },
+        "x918": {
+            "name_en": "EX: Reflective Materials",
+            "name_fr": "EX : Matériaux pour miroir hautement réfléchissant",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.910",
+            "patch": "7.31"
+        },
+        "x919": {
+            "name_en": "EX+: Geothermal Survey",
+            "name_fr": "EX+ : Étude des sols des hauteurs volcaniques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.918",
+            "patch": "7.31"
+        },
+        "x921": {
+            "name_en": "EX+: Optical Noise Reduction Research",
+            "name_fr": "EX+ : Recherche sur la réduction du bruit optique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.920",
+            "patch": "7.31"
+        },
+        "x922": {
+            "name_en": "EX+: Resonance Damping Materials",
+            "name_fr": "EX+ : Matériaux d'atténuation des vibrations",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.921",
+            "patch": "7.31"
+        },
+        "x891": {
+            "name_en": "EX+: Rare Material Extraction",
+            "name_fr": "EX+ : Éthérolyse de matériaux rares",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1600",
+            "patch": "7.31"
+        },
+        "x910": {
+            "name_en": "Precise Riverbed Survey",
+            "name_fr": "Étude des sols avancée du fond de la rivière",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0200-0400",
+            "patch": "7.31"
+        },
+        "x920": {
+            "name_en": "EX+: Fine-grade Heat-resistant Materials",
+            "name_fr": "EX+ : Composants résistants à la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-1800",
+            "patch": "7.31"
+        },
+        "x896": {
+            "name_en": "EX+: Hyper-refractive Lenses",
+            "name_fr": "EX+ : Aide à la fabrication de lentilles ultra-réfractantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x917": {
+            "name_en": "EX: Capsule Chasm Survey",
+            "name_fr": "EX : Étude des sols du gouffre aux Capsules",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x897": {
+            "name_en": "Glass Polishing Research",
+            "name_fr": "Aide à l'étude de matériaux pour polissage du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x898": {
+            "name_en": "EX: Energy Panel Materials",
+            "name_fr": "EX : Matériaux pour structure de panneau énergétique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x899": {
+            "name_en": "Copper Vitrilith Selection",
+            "name_fr": "Sélection de verre bronze",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x900": {
+            "name_en": "Alloy Procurement",
+            "name_fr": "Matériaux pour alliage métallique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x901": {
+            "name_en": "EX: Transmitter Materials",
+            "name_fr": "EX : Matériaux pour dispositif de transmission",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x906": {
+            "name_en": "Soda-lime Float Survey",
+            "name_fr": "Étude des sols avancée des alentours des Flots sodocalciques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x907": {
+            "name_en": "Mineral Distribution Survey",
+            "name_fr": "Étude conjointe sur la distribution des minerais",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x908": {
+            "name_en": "Glass Refinement Materials",
+            "name_fr": "Matériaux pour l'affinage du verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x909": {
+            "name_en": "EX: Alchemical Refinement Materials",
+            "name_fr": "EX : Extraction d'ingrédients d'alchimie pour éthérolyse",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x884": {
+            "name_en": "Glassblown Grotto Survey",
+            "name_fr": "Étude géologique de l'antre des Souffleurs de verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x885": {
+            "name_en": "Heat-resistant Materials",
+            "name_fr": "Matériaux résistants à la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x886": {
+            "name_en": "Water Purification Materials",
+            "name_fr": "Matériaux pour la purification de l'eau",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x887": {
+            "name_en": "Material Collection Evaluation",
+            "name_fr": "Essais de techniques de récolte",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x892": {
+            "name_en": "Iridescent Vitrilith Collection",
+            "name_fr": "Récolte continue de verre irisé",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x893": {
+            "name_en": "Cosmoliner Conduction Materials",
+            "name_fr": "Matériaux conducteurs pour cosmo-navette",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x894": {
+            "name_en": "Fine-grade Processing Materials",
+            "name_fr": "Matériaux pour transformation avancée",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x895": {
+            "name_en": "Polarized Lens Materials",
+            "name_fr": "Matériaux pour lentille polarisante",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x902": {
+            "name_en": "Soda-lime Float Survey",
+            "name_fr": "Étude des sols des alentours des Flots sodocalciques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x903": {
+            "name_en": "Rare Minerals",
+            "name_fr": "Minerais rares",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x904": {
+            "name_en": "Pegmatite Ore Collection",
+            "name_fr": "Récolte continue de pegmatite",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x905": {
+            "name_en": "Lens Development Materials",
+            "name_fr": "Matériaux d'essais pour lentilles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x911": {
+            "name_en": "Masonry Materials",
+            "name_fr": "Matériaux de construction",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x912": {
+            "name_en": "Sustained Productivity Evaluation",
+            "name_fr": "Essais de techniques de récolte continue",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x913": {
+            "name_en": "Geological Materials",
+            "name_fr": "Roches naturelles de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x881": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude géologique des alentours de la station",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x882": {
+            "name_en": "Mech Route Survey",
+            "name_fr": "Inspection d'itinéraire pour les machines",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x883": {
+            "name_en": "Phaenna Resource Survey",
+            "name_fr": "Étude des ressources de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x888": {
+            "name_en": "Millefiorite Collection",
+            "name_fr": "Récolte continue de verre Milliaflore",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x889": {
+            "name_en": "Training Implementation",
+            "name_fr": "Enquête sur les exercices en conditions réelles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x890": {
+            "name_en": "Multi-purpose Glass Materials",
+            "name_fr": "Matériaux pour verre multi-usage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<div
+    data-active-help="APP.ACTIVE_HELP.SETTINGS"
+    class="settings-page"
+>
+    <p-tabs value="characterSettings">
+        <p-tablist>
+            <p-tab value="characterSettings">
+                {{'APP.SETTING.CHARACTER.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="completionSettings">
+                {{'APP.SETTING.COMPLETION.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="chainSettings">
+                {{'APP.SETTING.CHAINING.TITLE' | translate}}
+            </p-tab>
+            <p-tab value="themeSettings">
+                {{'APP.SETTING.THEME.TITLE' | translate}}
+            </p-tab>
+        </p-tablist>
+        <p-tabpanels>
+            <p-tabpanel value="characterSettings">
+                <com-character-settings></com-character-settings>
+            </p-tabpanel>
+            <p-tabpanel value="completionSettings">
+                <com-completion-settings></com-completion-settings>
+            </p-tabpanel>
+            <p-tabpanel value="chainSettings">
+                <com-chain-settings></com-chain-settings>
+            </p-tabpanel>
+            <p-tabpanel value="themeSettings">
+                <com-theme-settings></com-theme-settings>
+            </p-tabpanel>
+        </p-tabpanels>
+    </p-tabs>
+</div>

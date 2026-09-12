@@ -1,0 +1,26 @@
+{
+    "key": "duties",
+    "groupName_en": "Duties",
+    "groupName_fr": "Missions",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "eLvlReq": {
+            "header_en": "eLvl Required",
+            "header_fr": "Niveau d'objet requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "The Baldesion Arsenal",
+            "name_fr": "L'Arsenal de Baldesion",
+            "eLvlReq": "60",
+            "patch": "4.55",
+            "cSiblings": ["a.2227"]
+        }
+    }
+}

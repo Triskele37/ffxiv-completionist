@@ -1,0 +1,45 @@
+.overlay-container {
+    position: relative;
+
+    .overlay-panel {
+        background: var(--surface-900);
+        position: absolute;
+        z-index: 1000;
+        left: 0;
+
+        // Pretty border
+        border: 1px solid var(--primary-color);
+        border-radius: var(--border-radius);
+        border-top-left-radius: 0;
+
+        // Apply border radius to content
+        overflow: hidden;
+
+        // Pull overlay up 1px so borders overlap
+        margin-top: -1px;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            ::ng-deep > .p-button {
+                // Adjust first button's rounding
+                &:first-child {
+                    border-radius: 0;
+                    border-top-right-radius: var(--border-radius);
+                }
+
+                // Round the last button's lower corners
+                &:last-child {
+                    border-bottom-left-radius: var(--border-radius);
+                    border-bottom-right-radius: var(--border-radius);
+                }
+
+                .p-button {
+                    border-radius: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

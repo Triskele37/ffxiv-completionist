@@ -1,0 +1,21 @@
+@use './ellipsis-overflow' as *;
+
+:host {
+    display: contents;
+
+    .cell-value {
+    }
+
+    // Align non-link first nodes to same link padding
+    .cell-value:has(> :first-child:not(com-content-link)) {
+        padding: calc(var(--content-padding) * .75) var(--content-padding);
+    }
+
+    .cell-value.text-only {
+        @extend %ellipsis-overflow;
+        display: block;
+    }
+
+    .cell-value.link {
+    }
+}

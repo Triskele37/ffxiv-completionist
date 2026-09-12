@@ -1,0 +1,278 @@
+{
+    "key": "weaver",
+    "groupName": "@CLASS_JOB.WVR",
+    "tasks": {
+        "x1688": {
+            "name_en": "Incineration Masks",
+            "name_fr": "Masques de protection contre le feu",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_B",
+            "patch": "7.51"
+        },
+        "x1689": {
+            "name_en": "Drone Repair Tool Pouch",
+            "name_fr": "Ceinture porte-outils pour réparation de drones",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_2_B",
+            "patch": "7.51"
+        },
+        "x1535": {
+            "name_en": "Master: Improved Crew Suits",
+            "name_fr": "MM : Amélioration d'uniforme pour l'exploration cosmique",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1536": {
+            "name_en": "Master: Improved Captain's Suits",
+            "name_fr": "MM : Amélioration de tenue de capitaine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1537": {
+            "name_en": "Master: Star Admiral's Ornamentation",
+            "name_fr": "MM : Amélioration de tenue d'amiral",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1531": {
+            "name_en": "EX: Auxesian Fuel Development",
+            "name_fr": "EX : Combustible pour Auxesia",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0400",
+            "patch": "7.51"
+        },
+        "x1532": {
+            "name_en": "EX+: Portable Weatherproof Supplies",
+            "name_fr": "EX+ : Matériaux résistants aux intempéries portatifs",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1600",
+            "patch": "7.51"
+        },
+        "x1533": {
+            "name_en": "EX+: Explorer Suits",
+            "name_fr": "EX+ : Combinaison de voyageur",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1534": {
+            "name_en": "EX+: Voyager Resource Research",
+            "name_fr": "EX+ : Analyse des matériaux de pionnier",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1523": {
+            "name_en": "Additional Enhanced Rope",
+            "name_fr": "Cordages innovants additionnels",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1524": {
+            "name_en": "Reinforced Construction Material Replication",
+            "name_fr": "Reproduction et traitement de matériaux de construction renforcés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1525": {
+            "name_en": "Alchemical Compound Development",
+            "name_fr": "Composés alchimiques à usage localisé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1526": {
+            "name_en": "Botanic Supplies",
+            "name_fr": "Matériaux pour jardinage",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1527": {
+            "name_en": "Habitation Furniture Renewal",
+            "name_fr": "Remplacement de mobilier",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1528": {
+            "name_en": "Weatherproof Material Development II",
+            "name_fr": "Amélioration de matériaux d'exploration résistants aux intempéries",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1529": {
+            "name_en": "EX: Resilient Survey Equipment",
+            "name_fr": "EX : Optimisation écologique des outils d'exploration",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1530": {
+            "name_en": "EX: Superior Transport Supplies",
+            "name_fr": "EX : Matériaux pour le transport de qualité supérieure",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1518": {
+            "name_en": "Enhanced Rope",
+            "name_fr": "Cordages innovants",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1519": {
+            "name_en": "Reinforced Materials Advanced Processing",
+            "name_fr": "Traitement avancé de matériaux de construction renforcés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1520": {
+            "name_en": "Advanced Restoration Supplies",
+            "name_fr": "Approvisionnement stratégique en matériaux pour la reconstruction",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1521": {
+            "name_en": "Transport Supply Overhaul",
+            "name_fr": "Amélioration des matériaux pour le transport",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1522": {
+            "name_en": "Weatherproof Material Development I",
+            "name_fr": "Matériaux d'exploration résistants aux intempéries",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1514": {
+            "name_en": "Additional Multi-purpose Rope",
+            "name_fr": "Cordages polyvalents supplémentaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1515": {
+            "name_en": "Reinforced Material Research",
+            "name_fr": "Poursuite de la recherche sur les matériaux de construction renforcés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1516": {
+            "name_en": "Additional Restoration Supplies",
+            "name_fr": "Approvisionnement en matériaux pour la reconstruction",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1517": {
+            "name_en": "Transport Supply Samples II",
+            "name_fr": "Amélioration de matériaux pour le transport des échantillons",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1510": {
+            "name_en": "Multi-purpose Rope",
+            "name_fr": "Livraison de cordages polyvalents",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1511": {
+            "name_en": "Reinforced Construction Materials",
+            "name_fr": "Recherche sur les matériaux de construction renforcés",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1512": {
+            "name_en": "Ruin Restoration Supplies",
+            "name_fr": "Matériaux pour la reconstruction",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1513": {
+            "name_en": "Transport Supply Samples I",
+            "name_fr": "Matériaux pour le transport des échantillons",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.WVR",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

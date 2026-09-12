@@ -1,0 +1,33 @@
+{
+    "key": "quest",
+    "groupName_en": "Quests",
+    "groupName_fr": "Quêtes",
+    "order": [
+        "main-scenario",
+        "chronicles-of-a-new-era",
+        "sidequests",
+        "allied-society-quests",
+        "class-and-job-quests",
+        "other-quests",
+        "levequests"
+    ],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "npc": {
+            "header_en": "NPC",
+            "header_fr": "PNJ"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

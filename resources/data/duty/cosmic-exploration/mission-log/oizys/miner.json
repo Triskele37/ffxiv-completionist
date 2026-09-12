@@ -1,0 +1,278 @@
+{
+    "key": "miner",
+    "groupName": "@CLASS_JOB.MIN",
+    "tasks": {
+        "x1364": {
+            "name_en": "Gilded Coral Rush",
+            "name_fr": "Récolte de coraux métalliques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_2_A",
+            "patch": "7.41"
+        },
+        "x1365": {
+            "name_en": "Long-lost Carrot Mining",
+            "name_fr": "Récolte de pierres oubliées",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_B",
+            "patch": "7.41"
+        },
+        "x1290": {
+            "name_en": "EX+: Voyager Ecological Research",
+            "name_fr": "EX+ : Analyse organique des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1289",
+            "patch": "7.41"
+        },
+        "x1291": {
+            "name_en": "EX+: Voyager Excavation Research",
+            "name_fr": "EX+ : Fouilles de vestiges des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1290",
+            "patch": "7.41"
+        },
+        "x1288": {
+            "name_en": "EX+: Survey of Rare Aetheric Minerals",
+            "name_fr": "EX+ : Étude de minéraux éthéréens rares",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1600",
+            "patch": "7.41"
+        },
+        "x1289": {
+            "name_en": "EX+: Ruin Excavation Support",
+            "name_fr": "EX+ : Fouilles des ruines souterraines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0200-0400",
+            "patch": "7.41"
+        },
+        "x1281": {
+            "name_en": "Multi-purpose Reductions",
+            "name_fr": "Éthérolyse de matériaux polyvalents",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1287": {
+            "name_en": "EX+: Crucial Initiative Reductions",
+            "name_fr": "EX+ : Éthérolyse de ressources d'exploration",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1277": {
+            "name_en": "Unmoored Anchor Survey",
+            "name_fr": "Étude des sols autour de L'Ancre",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1278": {
+            "name_en": "Unique Resource Procurement",
+            "name_fr": "Livraison de nouvelles matières premières",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1279": {
+            "name_en": "Oizys Alumen Procurement",
+            "name_fr": "Livraison d'alun d'Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1280": {
+            "name_en": "Mineral Gravitational Stabilizers",
+            "name_fr": "Livraison de poudre antigravitationnelle",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1282": {
+            "name_en": "Oizys Historical Reductions",
+            "name_fr": "Éthérolyse des strates d'Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1283": {
+            "name_en": "EX: Aether-rich Mineral Survey",
+            "name_fr": "EX : Livraison de minéraux chargés en éther",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1284": {
+            "name_en": "EX: Indicolite Rush",
+            "name_fr": "EX : Récolte continue d'indicolite",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1285": {
+            "name_en": "EX: Bedrock Distribution Survey",
+            "name_fr": "EX : Étude des strates",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1286": {
+            "name_en": "EX: Extreme Mining Analysis",
+            "name_fr": "EX : Essais de récolte continue de matériaux rares",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1272": {
+            "name_en": "Cape Geras Survey",
+            "name_fr": "Étude des sols du cap Géras",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1273": {
+            "name_en": "Equipment Repair Essentials",
+            "name_fr": "Étude de matériaux d'entretien",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1274": {
+            "name_en": "Forming Aetheric Waveforms",
+            "name_fr": "Livraison de matériaux éthéréens",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1275": {
+            "name_en": "Aetheric Distribution Survey",
+            "name_fr": "Étude de matériaux éthéréens",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1276": {
+            "name_en": "Oizys Mining Analysis",
+            "name_fr": "Essais de récolte continue sur Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1268": {
+            "name_en": "Erg Eris Survey",
+            "name_fr": "Étude du désert de l'Emporte-brise",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1269": {
+            "name_en": "Aetheric Mineral Survey",
+            "name_fr": "Étude de minéraux éthéréens",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1270": {
+            "name_en": "Antigravity Sample Procurement",
+            "name_fr": "Livraison de matériel antigravitationnel",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1271": {
+            "name_en": "Antigravity Distribution Survey",
+            "name_fr": "Étude de matériaux antigravitationnels",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1264": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude des sols autour de la base",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1265": {
+            "name_en": "Gravity Distribution Survey",
+            "name_fr": "Étude de la gravité environnante",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1266": {
+            "name_en": "Fundamental Mineral Procurement",
+            "name_fr": "Livraison de minerais communs",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1267": {
+            "name_en": "Oizys Agate Rush",
+            "name_fr": "Récolte continue d'agates d'Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.MIN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}

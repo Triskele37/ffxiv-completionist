@@ -1,0 +1,18 @@
+<div class="from-to-label-container">
+    <span class="from-to-icons">
+        <ng-icon
+            [name]="fromIcon()"
+            class="{{fromClass()}}"
+        ></ng-icon>
+
+        <ng-icon name="matArrowRightAlt"></ng-icon>
+
+        <ng-icon
+            [name]="toIcon()"
+            class="{{toClass()}}"
+        ></ng-icon>
+    </span>
+    <span class="from-to-text">
+        {{'APP.QUICK_MARK_OVERLAY.' + textKey() | translate}}
+    </span>
+</div>

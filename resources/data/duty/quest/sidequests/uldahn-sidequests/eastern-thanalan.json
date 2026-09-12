@@ -1,0 +1,254 @@
+{
+    "key": "eastern-thanalan",
+    "groupName_en": "Eastern Thanalan",
+    "groupName_fr": "Thanalan oriental",
+    "tasks": {
+        "x66224": {
+            "name_en": "Leves of Camp Drybone",
+            "name_fr": "Mandataire des Os desséchés",
+            "level": 15,
+            "npc_en": "Poponagu",
+            "npc_fr": "Poponagu",
+            "patch": "2.0",
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
+            "cPrevAny": true
+        },
+        "x66160": {
+            "name_en": "A Dying Wish",
+            "name_fr": "Le dernier repas",
+            "level": 17,
+            "npc_en": "Tutusi",
+            "npc_fr": "Tutusi",
+            "patch": "2.0",
+            "cNext": ["q.66166", "q.66173"]
+        },
+        "x66166": {
+            "name_en": "The Circle of Life",
+            "name_fr": "Un goobbue à la main verte",
+            "level": 17,
+            "npc_en": "Tutusi",
+            "npc_fr": "Tutusi",
+            "patch": "2.0",
+            "cPrev": ["q.66160"]
+        },
+        "x66173": {
+            "name_en": "Green Thumb",
+            "name_fr": "Avoir la main verte",
+            "level": 17,
+            "npc_en": "Jospaire",
+            "npc_fr": "Jospaire",
+            "patch": "2.0",
+            "cPrev": ["q.66160"]
+        },
+        "x66161": {
+            "name_en": "All Dogs Go to Hell",
+            "name_fr": "Pas de pitié pour les hourets",
+            "level": 18,
+            "npc_en": "Caitlyn",
+            "npc_fr": "Caitlyn",
+            "patch": "2.0",
+            "cNext": ["q.66167"]
+        },
+        "x66162": {
+            "name_en": "Buzzing at Church",
+            "name_fr": "À réveiller les morts",
+            "level": 18,
+            "npc_en": "Esmour",
+            "npc_fr": "Esmour",
+            "patch": "2.0",
+            "cNext": ["q.66165"]
+        },
+        "x66163": {
+            "name_en": "Lichyard Lilies",
+            "name_fr": "Fleuriste d'un jour",
+            "level": 18,
+            "npc_en": "Airell",
+            "npc_fr": "Airell",
+            "patch": "2.0",
+            "cPrev": ["q.66178"]
+        },
+        "x66165": {
+            "name_en": "Honoring the Dead",
+            "name_fr": "L'amour d'un frère",
+            "level": 18,
+            "npc_en": "Eaduuard",
+            "npc_fr": "Eaduuard",
+            "patch": "2.0",
+            "cPrev": ["q.66162"]
+        },
+        "x66178": {
+            "name_en": "Dead Bodies Everywhere",
+            "name_fr": "J'irai nettoyer vos tombes",
+            "level": 18,
+            "npc_en": "Airell",
+            "npc_fr": "Airell",
+            "patch": "2.0",
+            "cNext": ["q.66163"]
+        },
+        "x66167": {
+            "name_en": "Steaking Claims",
+            "name_fr": "Animation au Bazar doré",
+            "level": 19,
+            "npc_en": "Caitlyn",
+            "npc_fr": "Caitlyn",
+            "patch": "2.0",
+            "cPrev": ["q.66156", "q.66161"],
+            "cNext": ["q.66168"]
+        },
+        "x66168": {
+            "name_en": "Now Hiring",
+            "name_fr": "Permis de construire",
+            "level": 19,
+            "npc_en": "Beneger",
+            "npc_fr": "Beneger",
+            "patch": "2.0",
+            "cPrev": ["q.66167"],
+            "cNext": ["q.66170"]
+        },
+        "x66169": {
+            "name_en": "Impish Implications",
+            "name_fr": "Des mineurs imp-ressionnables",
+            "level": 19,
+            "npc_en": "Lululo",
+            "npc_fr": "Lululo",
+            "patch": "2.0",
+            "cNext": ["q.66171"]
+        },
+        "x66170": {
+            "name_en": "There's Mythril in Them Thar Hills",
+            "name_fr": "La brillance de l'espoir",
+            "level": 19,
+            "npc_en": "Beneger",
+            "npc_fr": "Beneger",
+            "patch": "2.0",
+            "cPrev": ["q.66168"]
+        },
+        "x66171": {
+            "name_en": "Purging the Earth",
+            "name_fr": "Mettre à terre les élémentaires",
+            "level": 19,
+            "npc_en": "Lululo",
+            "npc_fr": "Lululo",
+            "patch": "2.0",
+            "cPrev": ["q.66169"]
+        },
+        "x66285": {
+            "name_en": "Strawman Defense",
+            "name_fr": "Un travail d'épouvantail",
+            "level": 24,
+            "npc_en": "Claudian",
+            "npc_fr": "Claudien",
+            "patch": "2.0",
+            "cNext": ["q.66289"]
+        },
+        "x66286": {
+            "name_en": "Buzz Off, Birds",
+            "name_fr": "Des volants gênants",
+            "level": 24,
+            "npc_en": "Gogoshu",
+            "npc_fr": "Gogoshu",
+            "patch": "2.0",
+            "cNext": ["q.66290"]
+        },
+        "x66287": {
+            "name_en": "Hair Club for Hyur",
+            "name_fr": "À un cheveu près",
+            "level": 24,
+            "npc_en": "Helmhart",
+            "npc_fr": "Helmhart",
+            "patch": "2.0",
+            "cNext": ["q.66493"]
+        },
+        "x66289": {
+            "name_en": "Scholarly Funds",
+            "name_fr": "Des fonds pour la science",
+            "level": 25,
+            "npc_en": "Claudian",
+            "npc_fr": "Claudien",
+            "patch": "2.0",
+            "cPrev": ["q.66285"]
+        },
+        "x66290": {
+            "name_en": "The Perils of Pilgrimage",
+            "name_fr": "Pèlerins en péril",
+            "level": 25,
+            "npc_en": "Kyokyozo",
+            "npc_fr": "Kyokyozo",
+            "patch": "2.0",
+            "cPrev": ["q.66286"],
+            "cNext": ["q.66291"]
+        },
+        "x66291": {
+            "name_en": "Friendlier Skies",
+            "name_fr": "Signez la pétition !",
+            "level": 25,
+            "npc_en": "Kyokyozo",
+            "npc_fr": "Kyokyozo",
+            "patch": "2.0",
+            "cPrev": ["q.66290"]
+        },
+        "x66409": {
+            "name_en": "Plagued by Indecision",
+            "name_fr": "Désinsectiser Désespérance",
+            "level": 35,
+            "npc_en": "Iliud",
+            "npc_fr": "Iliud",
+            "patch": "2.0",
+            "cPrev": ["q.66053"]
+        },
+        "x66410": {
+            "name_en": "The Voyage of the Goobbue",
+            "name_fr": "Visite au goobbue",
+            "level": 35,
+            "npc_en": "Barryn",
+            "npc_fr": "Barryn",
+            "patch": "2.0",
+            "cPrev": ["q.66053"],
+            "cNext": ["q.66411"]
+        },
+        "x66411": {
+            "name_en": "Scent of Cinnamon",
+            "name_fr": "Au nom du père",
+            "level": 35,
+            "npc_en": "Barryn",
+            "npc_fr": "Barryn",
+            "patch": "2.0",
+            "cPrev": ["q.66410"]
+        },
+        "x66415": {
+            "name_en": "Mr. Slipshod and Ms. Uptight",
+            "name_fr": "Parent en retard",
+            "level": 35,
+            "npc_en": "Fuandrec",
+            "npc_fr": "Fuandrec",
+            "patch": "2.0",
+            "cPrev": ["q.66053"]
+        },
+        "x66416": {
+            "name_en": "Out of Whole Cloth",
+            "name_fr": "Manque de tissu",
+            "level": 35,
+            "npc_en": "Dedeju",
+            "npc_fr": "Dedeju",
+            "patch": "2.0",
+            "cPrev": ["q.66053"]
+        },
+        "x66493": {
+            "name_en": "Tresses in Distress",
+            "name_fr": "Catastrophe capillaire",
+            "level": 41,
+            "npc_en": "Helmhart",
+            "npc_fr": "Helmhart",
+            "patch": "2.0",
+            "cPrev": ["q.66287"]
+        },
+        "x66494": {
+            "name_en": "D Is for Dead",
+            "name_fr": "Clair comme du quartz",
+            "level": 41,
+            "npc_en": "Floating Stone",
+            "npc_fr": "Floating Stone",
+            "patch": "2.0"
+        }
+    }
+}

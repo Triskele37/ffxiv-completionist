@@ -1,0 +1,256 @@
+{
+    "key": "resistance-rank",
+    "groupName_en": "Resistance Rank",
+    "groupName_fr": "Rang de résistance",
+    "columns": {
+        "name": {
+            "width": 75,
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "questUnlock": {
+            "link": true,
+            "header_en": "Quest Unlocked",
+            "header_fr": "Quête débloquée"
+        },
+        "areaUnlock": {
+            "link": true,
+            "header_en": "Area Unlocked",
+            "header_fr": "Zone débloquée"
+        },
+        "fragmentUnlock": {
+            "header_en": "Fragments Unlocked",
+            "header_fr": "Fragments débloqués"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name": "1",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "patch": "5.35",
+            "cNext": [1]
+        },
+        "x1": {
+            "name": "2",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69480",
+            "fragmentUnlock_en": "Skill, Preparation, Caution",
+            "fragmentUnlock_fr": "Perfectionnement, Soutien, Fougue",
+            "patch": "5.35",
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "name": "3",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "patch": "5.35",
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "name": "4",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "patch": "5.35",
+            "cPrev": [2],
+            "cNext": [4]
+        },
+        "x4": {
+            "name": "5",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69481",
+            "areaUnlock_en": "Old Bozja",
+            "areaUnlock_fr": "Ancienne Bozja",
+            "fragmentUnlock_en": "Awakening, Ingenuity, Care",
+            "fragmentUnlock_fr": "Hypnose, Maîtrise, Guérison",
+            "patch": "5.35",
+            "cPrev": [3],
+            "cNext": [5]
+        },
+        "x5": {
+            "name": "6",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69482",
+            "patch": "5.35",
+            "cPrev": [4],
+            "cNext": [6]
+        },
+        "x6": {
+            "name": "7",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69483",
+            "patch": "5.35",
+            "cPrev": [5],
+            "cNext": [7]
+        },
+        "x7": {
+            "name": "8",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69484",
+            "areaUnlock_en": "Alermuc Climb",
+            "areaUnlock_fr": "Bourg d'Alermuc",
+            "fragmentUnlock_en": "Violence, Resolve, Support, Compassion",
+            "fragmentUnlock_fr": "Élimination, Résolution, Abnégation, Bénédiction",
+            "patch": "5.35",
+            "cPrev": [6],
+            "cNext": [8]
+        },
+        "x8": {
+            "name": "9",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": ["q.69485", "q.69486"],
+            "patch": "5.35",
+            "cPrev": [7],
+            "cNext": [9]
+        },
+        "x9": {
+            "name": "10",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "questUnlock": "q.69487",
+            "areaUnlock": "duty.field-operations.bozja.duties.0",
+            "fragmentUnlock_en": "Observation",
+            "fragmentUnlock_fr": "Exploration",
+            "patch": "5.35",
+            "cPrev": [8],
+            "cNext": [10]
+        },
+        "x10": {
+            "name": "11",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "fragmentUnlock_en": "Mastery, Superstition",
+            "fragmentUnlock_fr": "Exaltation, Croyance",
+            "patch": "5.35",
+            "cPrev": [9],
+            "cNext": [11]
+        },
+        "x11": {
+            "name": "12",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "fragmentUnlock_en": "Sagacity",
+            "fragmentUnlock_fr": "Tactique",
+            "patch": "5.35",
+            "cPrev": [10],
+            "cNext": [12]
+        },
+        "x12": {
+            "name": "13",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "fragmentUnlock_en": "Becoming, Deception",
+            "fragmentUnlock_fr": "Transe, Feinte",
+            "patch": "5.35",
+            "cPrev": [11],
+            "cNext": [13]
+        },
+        "x13": {
+            "name": "14",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "fragmentUnlock_en": "Transcendence, Loss",
+            "fragmentUnlock_fr": "Aubaine, Altruisme",
+            "patch": "5.35",
+            "cPrev": [12],
+            "cNext": [14]
+        },
+        "x14": {
+            "name": "15",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "fragmentUnlock_en": "Caprice, Clarity, Contention, Divinity, Finesse, Fortitude",
+            "fragmentUnlock_fr": "Finesse, Sagacité, Fine lame, Oraison, Archerie, Bravoure",
+            "patch": "5.35",
+            "cPrev": [13],
+            "cNext": [15]
+        },
+        "x15": {
+            "name": "16",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69621",
+            "fragmentUnlock_en": "History, Rage, Ferocity",
+            "fragmentUnlock_fr": "Distorsion, Impétuosité, Férocité",
+            "patch": "5.55",
+            "cPrev": [14],
+            "cNext": [16]
+        },
+        "x16": {
+            "name": "17",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "patch": "5.55",
+            "cPrev": [15],
+            "cNext": [17]
+        },
+        "x17": {
+            "name": "18",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69628",
+            "areaUnlock_en": "The Western Plateau",
+            "areaUnlock_fr": "Plateau ouest",
+            "fragmentUnlock_en": "Moonlight, Hope, Aristry",
+            "fragmentUnlock_fr": "Clair de lune, Miracle, Expertise",
+            "patch": "5.55",
+            "cPrev": [16],
+            "cNext": [18]
+        },
+        "x18": {
+            "name": "19",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "patch": "5.55",
+            "cPrev": [17],
+            "cNext": [19]
+        },
+        "x19": {
+            "name": "20",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69622",
+            "patch": "5.55",
+            "cPrev": [18],
+            "cNext": [20]
+        },
+        "x20": {
+            "name": "21",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "patch": "5.55",
+            "cPrev": [19],
+            "cNext": [21]
+        },
+        "x21": {
+            "name": "22",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69629",
+            "areaUnlock_en": "The Northern Plateau",
+            "areaUnlock_fr": "Plateau nord",
+            "fragmentUnlock_en": "Desperation, Tenacity, Inspiration",
+            "fragmentUnlock_fr": "Protection, Vivacité, Dynamisme",
+            "patch": "5.55",
+            "cPrev": [20],
+            "cNext": [22]
+        },
+        "x22": {
+            "name": "23",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69623",
+            "patch": "5.55",
+            "cPrev": [21],
+            "cNext": [23]
+        },
+        "x23": {
+            "name": "24",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "patch": "5.55",
+            "cPrev": [22],
+            "cNext": [24]
+        },
+        "x24": {
+            "name": "25",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "questUnlock": "q.69624",
+            "areaUnlock": "duty.field-operations.bozja.duties.3",
+            "fragmentUnlock_en": "Heroism, Cunning, Revelation",
+            "fragmentUnlock_fr": "Héroïsme, Percée, Illumination",
+            "patch": "5.55",
+            "cPrev": [23]
+        }
+    }
+}

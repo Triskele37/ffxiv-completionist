@@ -1,0 +1,101 @@
+{
+    "key": "arcanist-quests",
+    "groupName_en": "Arcanist Quests",
+    "groupName_fr": "Quêtes d'arcaniste",
+    "tasks": {
+        "x65988": {
+            "name_en": "Way of the Arcanist",
+            "name_fr": "La voie de l'arcanisme",
+            "level": 1,
+            "npc_en": "Murie",
+            "npc_fr": "Murie",
+            "patch": "3.1",
+            "cPrev": ["q.65987"],
+            "cNext": ["q.65990"]
+        },
+        "x65990": {
+            "name_en": "My First Grimoire",
+            "name_fr": "Entrée en matière",
+            "level": 1,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65988"],
+            "cNext": ["q.65993", "q.65991"]
+        },
+        "x65991": {
+            "name_en": "What's in the Box",
+            "name_fr": "Probabilité de rencontre statistico-arcanique",
+            "level": 5,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65988", "q.65990"],
+            "cPrevAny": true,
+            "cNext": ["q.65993"]
+        },
+        "x65993": {
+            "name_en": "Tactical Planning",
+            "name_fr": "Risque d'explosion gobelino-tangentielle",
+            "level": 10,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65990", "q.65991"],
+            "cNext": ["q.66639"]
+        },
+        "x66639": {
+            "name_en": "Topaz Teachings",
+            "name_fr": "Un allié de topaze éthéro-protective",
+            "level": 15,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65993"],
+            "cNext": ["q.65994"]
+        },
+        "x65994": {
+            "name_en": "Over the Rails",
+            "name_fr": "Trajectoire surpriso-gravitationnelle de grimoire",
+            "level": 15,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.66639"],
+            "cNext": ["q.65995"]
+        },
+        "x65995": {
+            "name_en": "Pincer Maneuver",
+            "name_fr": "Réappropriation qiqirno-hygrométrique",
+            "level": 20,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65994"],
+            "cNext": ["q.65996"]
+        },
+        "x65996": {
+            "name_en": "Grimoire Fandango",
+            "name_fr": "Parcours cynético-énigmatique",
+            "level": 25,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "2.0",
+            "cPrev": ["q.65995"],
+            "cNext": ["q.65997"]
+        },
+        "x65997": {
+            "name_en": "Sinking Doesmaga",
+            "name_fr": "Démonstration stratégico-réaliste",
+            "level": 30,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "unlock": "ap.164",
+            "patch": "2.0",
+            "cPrev": ["q.65996"],
+            "cNext": ["q.66633", "q.66627"],
+            "cCombo": ["a.313", "a.315"],
+            "cSiblings": ["ap.164"]
+        }
+    }
+}

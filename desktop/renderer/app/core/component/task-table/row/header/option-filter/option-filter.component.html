@@ -1,0 +1,71 @@
+<p-select
+    #select
+    data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_DROPDOWN"
+    class="dropdown-filter"
+    [ngClass]="{ patch: column.key === 'patch' }"
+    [multiple]="true"
+    [options]="options"
+    [(ngModel)]="selectedOptions"
+    [showClear]="true"
+    appendTo="self"
+    optionLabel="value"
+    optionValue="value"
+    (onChange)="onFilterDropdownChange($event)"
+>
+    <ng-template #header>
+        <span
+            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_DROPDOWN.CUSTOM_OPTION"
+            class="custom-option-line"
+        >
+            <input
+                #customOptionInput
+                class="custom-option-input"
+                pInputText
+                [placeholder]="'APP.TABLE.CUSTOM_OPTION' | translate"
+            />
+            @if(customOptionInput.value) {
+                <ng-icon
+                    name="matClear"
+                    class="clear-icon small"
+                    (click)="preventOverlayClose($event); customOptionInput.value = ''"
+                ></ng-icon>
+            }
+            <button
+                class="add-option"
+                pButton
+                (click)="onAddCustomOption(customOptionInput.value)"
+            >
+                <ng-icon name="matAdd"></ng-icon>
+            </button>
+        </span>
+    </ng-template>
+    <ng-template #selectedItem>
+        <span
+            [pTooltip]="selectedDisplay()"
+            tooltipPosition="top"
+        >
+            {{selectedDisplay()}}
+        </span>
+    </ng-template>
+    <ng-template #item let-item>
+        <span
+            data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_DROPDOWN.OPTIONS"
+            class="option-line"
+        >
+            <span>
+                {{item.value || 'Blank'}}
+            </span>
+
+            @if(item.isCustom) {
+                <button
+                    class="remove-option"
+                    pButton
+                    variant="text"
+                    (click)="preventOverlayClose($event); onRemoveCustomOption(item)"
+                >
+                    <ng-icon name="matClear" class="small"></ng-icon>
+                </button>
+            }
+        </span>
+    </ng-template>
+</p-select>

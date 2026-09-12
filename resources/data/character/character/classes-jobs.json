@@ -1,0 +1,886 @@
+{
+    "key": "classes--jobs",
+    "groupName_en": "Classes & Jobs",
+    "groupName_fr": "Classes & Jobs",
+    "columns": {
+        "name": {
+            "header_en": "Job / Class",
+            "header_fr": "Job / Classe"
+        },
+        "role": {
+            "filterable": true,
+            "header_en": "Role",
+            "header_fr": "Rôle"
+        },
+        "startingQuest": {
+            "link": true,
+            "header_en": "Starting Quest",
+            "header_fr": "Quête de départ"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "minValue": 0,
+    "maxValue": 100,
+    "tasks": {
+        "x0": {
+            "name_en": "Paladin / Gladiator",
+            "name_fr": "Paladin / Gladiateur",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "startingQuest": ["q.65821", "q.66591"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.44"],
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.19"],
+                "20": ["a.20"],
+                "30": ["a.21"],
+                "40": ["a.22"],
+                "50": ["a.23"],
+                "60": ["a.1167"],
+                "70": ["a.1814"],
+                "80": ["a.2246"],
+                "90": ["a.2892"],
+                "100": ["a.3429"]
+            }
+        },
+        "x1": {
+            "name_en": "Warrior / Marauder",
+            "name_fr": "Guerrier / Maraudeur",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "startingQuest": ["q.65846", "q.66585"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.44"],
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.29"],
+                "20": ["a.30"],
+                "30": ["a.31"],
+                "40": ["a.32"],
+                "50": ["a.33"],
+                "60": ["a.1169"],
+                "70": ["a.1816"],
+                "80": ["a.2248"],
+                "90": ["a.2894"],
+                "100": ["a.3431"]
+            }
+        },
+        "x2": {
+            "name_en": "Dark Knight",
+            "name_fr": "Chevalier noir",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "startingQuest": "q.67589",
+            "patch": "3.0",
+            "cComboAt": {
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "30": ["a.1176"],
+                "40": ["a.1177"],
+                "50": ["a.1178"],
+                "60": ["a.1179"],
+                "70": ["a.1823"],
+                "80": ["a.2255"],
+                "90": ["a.2901"],
+                "100": ["a.3438"]
+            },
+            "minValue": 30
+        },
+        "x3": {
+            "name_en": "Gunbreaker",
+            "name_fr": "Pistosabreur",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "startingQuest": "q.68797",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "70": ["a.2260"],
+                "80": ["a.2261"],
+                "90": ["a.2906"],
+                "100": ["a.3443"]
+            },
+            "minValue": 60
+        },
+        "x4": {
+            "name_en": "White Mage / Conjurer",
+            "name_fr": "Mage blanc / Élémentaliste",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "startingQuest": ["q.65669", "q.66615"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.55"],
+                "60": ["a.1189"],
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.45"],
+                "20": ["a.46"],
+                "30": ["a.47"],
+                "40": ["a.48"],
+                "50": ["a.49"],
+                "60": ["a.1172"],
+                "70": ["a.1819"],
+                "80": ["a.2251"],
+                "90": ["a.2897"],
+                "100": ["a.3434"]
+            }
+        },
+        "x5": {
+            "name_en": "Scholar / Arcanist",
+            "name_fr": "Érudit / Arcaniste",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "startingQuest": ["q.65988", "q.66633"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.55"],
+                "60": ["a.1189"],
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblings": [15],
+            "cSiblingsAt": {
+                "10": ["a.592"],
+                "20": ["a.593"],
+                "30": ["a.594"],
+                "40": ["a.595"],
+                "50": ["a.596"],
+                "60": ["a.1174"],
+                "70": ["a.1821"],
+                "80": ["a.2253"],
+                "90": ["a.2899"],
+                "100": ["a.3436"]
+            }
+        },
+        "x6": {
+            "name_en": "Astrologian",
+            "name_fr": "Astromancien",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "startingQuest": "q.67548",
+            "patch": "3.0",
+            "cComboAt": {
+                "60": ["a.1189"],
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "30": ["a.1184"],
+                "40": ["a.1185"],
+                "50": ["a.1186"],
+                "60": ["a.1187"],
+                "70": ["a.1825"],
+                "80": ["a.2257"],
+                "90": ["a.2903"],
+                "100": ["a.3440"]
+            },
+            "minValue": 30
+        },
+        "x29": {
+            "name_en": "Sage",
+            "name_fr": "Sage",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "startingQuest": "q.69603",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "80": ["a.2910"],
+                "90": ["a.2911"],
+                "100": ["a.3446"]
+            },
+            "minValue": 70
+        },
+        "x7": {
+            "name_en": "Monk / Pugilist",
+            "name_fr": "Moine / Pugiliste",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": ["q.66068", "q.66597"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.44"],
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.24"],
+                "20": ["a.25"],
+                "30": ["a.26"],
+                "40": ["a.27"],
+                "50": ["a.28"],
+                "60": ["a.1168"],
+                "70": ["a.1815"],
+                "80": ["a.2247"],
+                "90": ["a.2893"],
+                "100": ["a.3430"]
+            }
+        },
+        "x8": {
+            "name_en": "Dragoon / Lancer",
+            "name_fr": "Chevalier dragon / Maître d'hast",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": ["q.65668", "q.66603"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.44"],
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.34"],
+                "20": ["a.35"],
+                "30": ["a.36"],
+                "40": ["a.37"],
+                "50": ["a.38"],
+                "60": ["a.1170"],
+                "70": ["a.1817"],
+                "80": ["a.2249"],
+                "90": ["a.2895"],
+                "100": ["a.3432"]
+            }
+        },
+        "x9": {
+            "name_en": "Ninja / Rogue",
+            "name_fr": "Ninja / Surineur",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": ["q.65638", "q.65748"],
+            "patch": "2.4",
+            "cComboAt": {
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.1046"],
+                "20": ["a.1047"],
+                "30": ["a.1048"],
+                "40": ["a.1049"],
+                "50": ["a.1050"],
+                "60": ["a.1175"],
+                "70": ["a.1822"],
+                "80": ["a.2254"],
+                "90": ["a.2900"],
+                "100": ["a.3437"]
+            }
+        },
+        "x10": {
+            "name_en": "Samurai",
+            "name_fr": "Samouraï",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": "q.68095",
+            "patch": "4.0",
+            "cComboAt": {
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "50": ["a.1829"],
+                "60": ["a.1830"],
+                "70": ["a.1831"],
+                "80": ["a.2259"],
+                "90": ["a.2905"],
+                "100": ["a.3442"]
+            },
+            "minValue": 50
+        },
+        "x30": {
+            "name_en": "Reaper",
+            "name_fr": "Faucheur",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": "q.69609",
+            "patch": "6.0",
+            "cComboAt": {
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "80": ["a.2908"],
+                "90": ["a.2909"],
+                "100": ["a.3445"]
+            },
+            "minValue": 70
+        },
+        "x31": {
+            "name_en": "Viper",
+            "name_fr": "Rôdeur Vipère",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": "q.70384",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "90": ["a.3447"],
+                "100": ["a.3448"]
+            },
+            "minValue": 80
+        },
+        "x33": {
+            "name_en": "Beastmaster",
+            "name_fr": "Dresseur",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "startingQuest": "q.71026",
+            "patch": "7.56",
+            "cSiblingsAt": {
+                "10": ["a.4023"],
+                "20": ["a.4024"],
+                "30": ["a.4025"],
+                "40": ["a.4026"],
+                "50": ["a.4027"]
+            },
+            "maxValue": 50
+        },
+        "x11": {
+            "name_en": "Bard / Archer",
+            "name_fr": "Barde / Archer",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "startingQuest": ["q.65667", "q.66621"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.44"],
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.39"],
+                "20": ["a.40"],
+                "30": ["a.41"],
+                "40": ["a.42"],
+                "50": ["a.43"],
+                "60": ["a.1171"],
+                "70": ["a.1818"],
+                "80": ["a.2250"],
+                "90": ["a.2896"],
+                "100": ["a.3433"]
+            }
+        },
+        "x12": {
+            "name_en": "Machinist",
+            "name_fr": "Machiniste",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "startingQuest": "q.67232",
+            "patch": "3.0",
+            "cComboAt": {
+                "60": ["a.1188"],
+                "70": ["a.1832"],
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "30": ["a.1180"],
+                "40": ["a.1181"],
+                "50": ["a.1182"],
+                "60": ["a.1183"],
+                "70": ["a.1824"],
+                "80": ["a.2256"],
+                "90": ["a.2902"],
+                "100": ["a.3439"]
+            },
+            "minValue": 30
+        },
+        "x13": {
+            "name_en": "Dancer",
+            "name_fr": "Danseur",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "startingQuest": "q.68785",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2275"],
+                "90": ["a.2923"],
+                "100": ["a.3462"]
+            },
+            "cSiblingsAt": {
+                "70": ["a.2262"],
+                "80": ["a.2263"],
+                "90": ["a.2907"],
+                "100": ["a.3444"]
+            },
+            "minValue": 60
+        },
+        "x14": {
+            "name_en": "Black Mage / Thaumaturge",
+            "name_fr": "Mage noir / Occultiste",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "startingQuest": ["q.65880", "q.66609"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.55"],
+                "60": ["a.1189"],
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.50"],
+                "20": ["a.51"],
+                "30": ["a.52"],
+                "40": ["a.53"],
+                "50": ["a.54"],
+                "60": ["a.1173"],
+                "70": ["a.1820"],
+                "80": ["a.2252"],
+                "90": ["a.2898"],
+                "100": ["a.3435"]
+            }
+        },
+        "x15": {
+            "name_en": "Summoner / Arcanist",
+            "name_fr": "Invocateur / Arcaniste",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "startingQuest": ["q.65988", "q.66627"],
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.55"],
+                "60": ["a.1189"],
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblings": [5],
+            "cSiblingsAt": {
+                "10": ["a.592"],
+                "20": ["a.593"],
+                "30": ["a.594"],
+                "40": ["a.595"],
+                "50": ["a.596"],
+                "60": ["a.1174"],
+                "70": ["a.1821"],
+                "80": ["a.2253"],
+                "90": ["a.2899"],
+                "100": ["a.3436"]
+            }
+        },
+        "x16": {
+            "name_en": "Red Mage",
+            "name_fr": "Mage rouge",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "startingQuest": "q.68112",
+            "patch": "4.0",
+            "cComboAt": {
+                "70": ["a.1833"],
+                "80": ["a.2276"],
+                "90": ["a.2924"],
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "50": ["a.1826"],
+                "60": ["a.1827"],
+                "70": ["a.1828"],
+                "80": ["a.2258"],
+                "90": ["a.2904"],
+                "100": ["a.3441"]
+            },
+            "minValue": 50
+        },
+        "x32": {
+            "name_en": "Pictomancer",
+            "name_fr": "Pictomancien",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "startingQuest": "q.70390",
+            "patch": "7.0",
+            "cComboAt": {
+                "100": ["a.3463"]
+            },
+            "cSiblingsAt": {
+                "90": ["a.3449"],
+                "100": ["a.3450"]
+            },
+            "minValue": 80
+        },
+        "x17": {
+            "name_en": "Blue Mage",
+            "name_fr": "Mage bleu",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "startingQuest": "q.68728",
+            "patch": "4.5",
+            "cSiblingsAt": {
+                "10": ["a.2194"],
+                "20": ["a.2195"],
+                "30": ["a.2196"],
+                "40": ["a.2197"],
+                "50": ["a.2198"],
+                "60": ["a.2446"],
+                "70": ["a.2725"],
+                "80": ["a.3316"]
+            },
+            "maxValue": 80
+        },
+        "x18": {
+            "name_en": "Carpenter",
+            "name_fr": "Menuisier",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.65674",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.57"],
+                "20": ["a.58"],
+                "30": ["a.59"],
+                "40": ["a.60"],
+                "50": ["a.61"],
+                "60": ["a.1265"],
+                "70": ["a.1835"],
+                "80": ["a.2264"],
+                "90": ["a.2912"],
+                "100": ["a.3451"]
+            }
+        },
+        "x19": {
+            "name_en": "Blacksmith",
+            "name_fr": "Forgeron",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.65827",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.62"],
+                "20": ["a.63"],
+                "30": ["a.64"],
+                "40": ["a.65"],
+                "50": ["a.66"],
+                "60": ["a.1266"],
+                "70": ["a.1836"],
+                "80": ["a.2265"],
+                "90": ["a.2913"],
+                "100": ["a.3452"]
+            }
+        },
+        "x20": {
+            "name_en": "Armorer",
+            "name_fr": "Armurier",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.65809",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.67"],
+                "20": ["a.68"],
+                "30": ["a.69"],
+                "40": ["a.70"],
+                "50": ["a.71"],
+                "60": ["a.1267"],
+                "70": ["a.1837"],
+                "80": ["a.2266"],
+                "90": ["a.2914"],
+                "100": ["a.3453"]
+            }
+        },
+        "x21": {
+            "name_en": "Goldsmith",
+            "name_fr": "Orfèvre",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.66144",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.72"],
+                "20": ["a.73"],
+                "30": ["a.74"],
+                "40": ["a.75"],
+                "50": ["a.76"],
+                "60": ["a.1268"],
+                "70": ["a.1838"],
+                "80": ["a.2267"],
+                "90": ["a.2915"],
+                "100": ["a.3454"]
+            }
+        },
+        "x22": {
+            "name_en": "Leatherworker",
+            "name_fr": "Tanneur",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.65641",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.77"],
+                "20": ["a.78"],
+                "30": ["a.79"],
+                "40": ["a.80"],
+                "50": ["a.81"],
+                "60": ["a.1269"],
+                "70": ["a.1839"],
+                "80": ["a.2268"],
+                "90": ["a.2916"],
+                "100": ["a.3455"]
+            }
+        },
+        "x23": {
+            "name_en": "Weaver",
+            "name_fr": "Couturier",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.66070",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.82"],
+                "20": ["a.83"],
+                "30": ["a.84"],
+                "40": ["a.85"],
+                "50": ["a.86"],
+                "60": ["a.1270"],
+                "70": ["a.1840"],
+                "80": ["a.2269"],
+                "90": ["a.2917"],
+                "100": ["a.3456"]
+            }
+        },
+        "x24": {
+            "name_en": "Alchemist",
+            "name_fr": "Alchimiste",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.66111",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.87"],
+                "20": ["a.88"],
+                "30": ["a.89"],
+                "40": ["a.90"],
+                "50": ["a.91"],
+                "60": ["a.1271"],
+                "70": ["a.1841"],
+                "80": ["a.2270"],
+                "90": ["a.2918"],
+                "100": ["a.3457"]
+            }
+        },
+        "x25": {
+            "name_en": "Culinarian",
+            "name_fr": "Cuisinier",
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "startingQuest": "q.65807",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.97"],
+                "60": ["a.1276"],
+                "70": ["a.1846"],
+                "80": ["a.2278"],
+                "90": ["a.2926"],
+                "100": ["a.3465"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.92"],
+                "20": ["a.93"],
+                "30": ["a.94"],
+                "40": ["a.95"],
+                "50": ["a.96"],
+                "60": ["a.1272"],
+                "70": ["a.1842"],
+                "80": ["a.2271"],
+                "90": ["a.2919"],
+                "100": ["a.3458"]
+            }
+        },
+        "x26": {
+            "name_en": "Miner",
+            "name_fr": "Mineur",
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "startingQuest": "q.66133",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.113"],
+                "60": ["a.1277"],
+                "70": ["a.1847"],
+                "80": ["a.2279"],
+                "90": ["a.2927"],
+                "100": ["a.3466"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.98"],
+                "20": ["a.99"],
+                "30": ["a.100"],
+                "40": ["a.101"],
+                "50": ["a.102"],
+                "60": ["a.1273"],
+                "70": ["a.1844"],
+                "80": ["a.2273"],
+                "90": ["a.2921"],
+                "100": ["a.3460"]
+            }
+        },
+        "x27": {
+            "name_en": "Botanist",
+            "name_fr": "Botaniste",
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "startingQuest": "q.65539",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.113"],
+                "60": ["a.1277"],
+                "70": ["a.1847"],
+                "80": ["a.2279"],
+                "90": ["a.2927"],
+                "100": ["a.3466"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.103"],
+                "20": ["a.104"],
+                "30": ["a.105"],
+                "40": ["a.106"],
+                "50": ["a.107"],
+                "60": ["a.1274"],
+                "70": ["a.1843"],
+                "80": ["a.2272"],
+                "90": ["a.2920"],
+                "100": ["a.3459"]
+            }
+        },
+        "x28": {
+            "name_en": "Fisher",
+            "name_fr": "Pêcheur",
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "startingQuest": "q.66643",
+            "patch": "2.0",
+            "cComboAt": {
+                "50": ["a.113"],
+                "60": ["a.1277"],
+                "70": ["a.1847"],
+                "80": ["a.2279"],
+                "90": ["a.2927"],
+                "100": ["a.3466"]
+            },
+            "cSiblingsAt": {
+                "10": ["a.108"],
+                "20": ["a.109"],
+                "30": ["a.110"],
+                "40": ["a.111"],
+                "50": ["a.112"],
+                "60": ["a.1275"],
+                "70": ["a.1845"],
+                "80": ["a.2274"],
+                "90": ["a.2922"],
+                "100": ["a.3461"]
+            }
+        }
+    }
+}

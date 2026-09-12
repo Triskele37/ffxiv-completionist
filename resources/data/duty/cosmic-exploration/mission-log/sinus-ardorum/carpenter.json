@@ -1,0 +1,441 @@
+{
+    "key": "carpenter",
+    "groupName": "@CLASS_JOB.CRP",
+    "tasks": {
+        "x512": {
+            "name_en": "Work Ladders",
+            "name_fr": "Échelles de chantier",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_B",
+            "patch": "7.21"
+        },
+        "x513": {
+            "name_en": "Kindling",
+            "name_fr": "Bois d'allumage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_B",
+            "patch": "7.21"
+        },
+        "x514": {
+            "name_en": "Fungal Building Materials",
+            "name_fr": "Nouveaux matériaux fongiques de construction",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_A",
+            "patch": "7.21"
+        },
+        "x34": {
+            "name_en": "EX: Power Transmission Shafts II",
+            "name_fr": "EX : Amélioration de cardan de transmission",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.33",
+            "patch": "7.21"
+        },
+        "x36": {
+            "name_en": "EX: Specialized Materials II",
+            "name_fr": "EX : Amélioration de matériaux de perfectionnement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.35",
+            "patch": "7.21"
+        },
+        "x37": {
+            "name_en": "EX+: Research Water Tank",
+            "name_fr": "EX+ : Grand bassin pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.36",
+            "patch": "7.21"
+        },
+        "x39": {
+            "name_en": "EX+: Rest Facility Furnishings",
+            "name_fr": "EX+ : Mobilier de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.38",
+            "patch": "7.21"
+        },
+        "x41": {
+            "name_en": "EX: Packing Materials II",
+            "name_fr": "EX : Amélioration de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.40",
+            "patch": "7.21"
+        },
+        "x42": {
+            "name_en": "EX+: Rover Packing Materials",
+            "name_fr": "EX+ : Conteneurs de fret pour rovers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.41",
+            "patch": "7.21"
+        },
+        "x44": {
+            "name_en": "EX+: Biofuel II",
+            "name_fr": "EX+ : Amélioration de combustible biologique",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.43",
+            "patch": "7.21"
+        },
+        "x45": {
+            "name_en": "EX+: Biofuel III",
+            "name_fr": "EX+ : Perfectionnement de combustible biologique",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.44",
+            "patch": "7.21"
+        },
+        "x40": {
+            "name_en": "Packing Materials I",
+            "name_fr": "Préparation de matériaux pour conteneurs",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.21"
+        },
+        "x43": {
+            "name_en": "EX+: Biofuel I",
+            "name_fr": "EX+ : Préparation de combustible biologique",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1400",
+            "patch": "7.21"
+        },
+        "x30": {
+            "name_en": "EX: Work Support Equipment",
+            "name_fr": "EX : Infrastructures d'assistance",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x31": {
+            "name_en": "EX+: High-quality Crafting Tools",
+            "name_fr": "EX+ : Approvisionnement en outils d'artisanat",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x32": {
+            "name_en": "EX+: Elevating Platforms",
+            "name_fr": "EX+ : Structures de travail en hauteur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x22": {
+            "name_en": "High-durability Fiberboard",
+            "name_fr": "Planches en bois aggloméré résistantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x23": {
+            "name_en": "Premium-grade Paper",
+            "name_fr": "Papier de qualité supérieure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x24": {
+            "name_en": "Starship Insulation",
+            "name_fr": "Isolation thermique pour vaisseau spatial",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x25": {
+            "name_en": "High Burn Charcoal",
+            "name_fr": "Charbon pour haute température",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x26": {
+            "name_en": "Lunar Flora Test Processing",
+            "name_fr": "Traitement expérimental de végétaux lunaires",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x27": {
+            "name_en": "EX: Test Material Final Processing",
+            "name_fr": "EX : Traitement final de matériaux d'essai",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x28": {
+            "name_en": "EX: Serving Trays",
+            "name_fr": "EX : Plateaux de service",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x29": {
+            "name_en": "EX: Bunk Beds",
+            "name_fr": "EX : Lits superposés",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x33": {
+            "name_en": "Power Transmission Shafts I",
+            "name_fr": "Préparation de cardan de transmission",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x35": {
+            "name_en": "Specialized Materials I",
+            "name_fr": "Préparation de matériaux de perfectionnement",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x38": {
+            "name_en": "EX: Rest Facility Materials",
+            "name_fr": "EX : Matériaux pour articles de relaxation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x14": {
+            "name_en": "Resupplying Containers",
+            "name_fr": "Conteneurs de transport",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x15": {
+            "name_en": "Thick Fiberboard",
+            "name_fr": "Épaisses planches en bois aggloméré",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x16": {
+            "name_en": "High-quality Insulation Materials",
+            "name_fr": "Isolation thermique d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x17": {
+            "name_en": "Heat-resistant Resin",
+            "name_fr": "Résine thermorésistante",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x18": {
+            "name_en": "Long-term Storage Paper",
+            "name_fr": "Papier longue conservation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x19": {
+            "name_en": "Habitation Module Chairs",
+            "name_fr": "Mobilier d'intérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x20": {
+            "name_en": "Test Material Gathering Tools",
+            "name_fr": "Outils de récolte expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x21": {
+            "name_en": "High-quality Rest Beds",
+            "name_fr": "Literie d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x7": {
+            "name_en": "Thin Fiberboard",
+            "name_fr": "Fines planches en bois aggloméré",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x8": {
+            "name_en": "Carpentry Provisions",
+            "name_fr": "Matériel de menuiserie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x9": {
+            "name_en": "Worker's Weaving Tools",
+            "name_fr": "Nécessaires de couture",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x10": {
+            "name_en": "Data Entry Paper",
+            "name_fr": "Papier pour l'enregistrement de données",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x11": {
+            "name_en": "Interior Insulation Materials",
+            "name_fr": "Isolation thermique intérieure",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x12": {
+            "name_en": "Cosmoliner Supplies",
+            "name_fr": "Matériaux pour cosmo-navette",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x13": {
+            "name_en": "New Material Earrings",
+            "name_fr": "Boucles d'oreilles en matière nouvelle",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x1": {
+            "name_en": "Multi-purpose Fiberboard",
+            "name_fr": "Planches en bois aggloméré multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x2": {
+            "name_en": "Fieldwork Fuel",
+            "name_fr": "Combustible pour l'exploration",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x3": {
+            "name_en": "Gathering Miscellany",
+            "name_fr": "Accessoires de récolte",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x4": {
+            "name_en": "Essential Research Materials",
+            "name_fr": "Matériaux pour la recherche",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x5": {
+            "name_en": "Charcoal Longevity Testing",
+            "name_fr": "Traitement longue durée pour charbon de bois",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x6": {
+            "name_en": "General-purpose Bedding",
+            "name_fr": "Literie classique",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

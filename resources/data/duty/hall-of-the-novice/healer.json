@@ -1,0 +1,49 @@
+{
+    "key": "healer",
+    "groupName": "@ROLE.HEALER",
+    "tasks": {
+        "x0": {
+            "name_en": "Avoid Area of Effect Attacks",
+            "name_fr": "Éviter les attaques à aire d'effet",
+            "level": "15",
+            "role": "@ROLE.HEALER",
+            "patch": "3.2",
+            "cNext": [1]
+        },
+        "x1": {
+            "name_en": "Heal an Ally",
+            "name_fr": "Soigner un allié",
+            "level": "15",
+            "role": "@ROLE.HEALER",
+            "patch": "3.2",
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "name_en": "Heal Multiple Allies",
+            "name_fr": "Soigner plusieurs alliés",
+            "level": "15",
+            "role": "@ROLE.HEALER",
+            "patch": "3.2",
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "name_en": "Avoid Engaged Targets",
+            "name_fr": "Combattre en évitant les attaques ennemies",
+            "level": "15",
+            "role": "@ROLE.HEALER",
+            "patch": "3.2",
+            "cPrev": [2],
+            "cNext": [4]
+        },
+        "x4": {
+            "name_en": "Final Exercise",
+            "name_fr": "Exercice final",
+            "level": "15",
+            "role": "@ROLE.HEALER",
+            "patch": "3.2",
+            "cPrev": [3]
+        }
+    }
+}

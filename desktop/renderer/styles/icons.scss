@@ -1,0 +1,31 @@
+body ng-icon {
+    color: currentColor;
+    overflow: unset !important;
+
+    &.small {
+        height: var(--icon-size-small);
+        width: var(--icon-size-small);
+    }
+}
+
+.i-complete, .i-incomplete, .i-exclude, .i-selected {
+    svg {
+        filter: drop-shadow(0 0 2px var(--text-color));
+    }
+}
+
+.i-complete {
+    color: var(--completed);
+}
+
+.i-incomplete {
+    color: var(--incomplete);
+}
+
+.i-exclude {
+    color: var(--excluded);
+}
+
+.i-selected {
+    color: var(--primary-color-text);
+}

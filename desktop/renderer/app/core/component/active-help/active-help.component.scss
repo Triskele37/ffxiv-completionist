@@ -1,0 +1,28 @@
+@use './sizes';
+
+.active-help-overlay {
+    position: fixed;
+    bottom: sizes.$version-height + 10px;
+    left: 0;
+
+    height: 100px;
+    min-width: sizes.$nav-drawer-width - 10px;
+    margin: 5px;
+    padding: 5px;
+
+    background: var(--surface-500);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--primary-color);
+
+    .selected-summary {
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 2px;
+        white-space: nowrap;
+    }
+
+    .selected-detail {
+        padding-top: 2px;
+        white-space: pre-line;
+    }
+}

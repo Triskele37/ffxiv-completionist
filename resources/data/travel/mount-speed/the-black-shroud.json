@@ -1,0 +1,60 @@
+{
+    "key": "the-black-shroud",
+    "groupName": "@PLACE.ARR.THE_BLACK_SHROUD",
+    "tasks": {
+        "x0": {
+            "name": "@PLACE.ARR.THE_LAVENDER_BEDS",
+            "source": "q.66060",
+            "patch": "2.0",
+            "cSiblings": ["q.66060"]
+        },
+        "x1": {
+            "name": "@PLACE.ARR.CENTRAL_SHROUD",
+            "source": "q.66260",
+            "patch": "2.0",
+            "cSiblings": ["q.66260"]
+        },
+        "x2": {
+            "name_en": "Central Shroud Riding Map",
+            "name_fr": "Carte détaillée de la Forêt centrale",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
+        },
+        "x3": {
+            "name": "@PLACE.ARR.EAST_SHROUD",
+            "source": "q.66260",
+            "patch": "2.0",
+            "cSiblings": ["q.66260"]
+        },
+        "x4": {
+            "name_en": "East Shroud Riding Map",
+            "name_fr": "Carte détaillée de la Forêt de l'est",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
+        },
+        "x5": {
+            "name": "@PLACE.ARR.SOUTH_SHROUD",
+            "source": "q.66312",
+            "patch": "2.0",
+            "cSiblings": ["q.66312"]
+        },
+        "x6": {
+            "name_en": "South Shroud Riding Map",
+            "name_fr": "Carte détaillée de la Forêt du sud",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
+        },
+        "x7": {
+            "name": "@PLACE.ARR.NORTH_SHROUD",
+            "source": "q.66335",
+            "patch": "2.0",
+            "cSiblings": ["q.66335"]
+        },
+        "x8": {
+            "name_en": "North Shroud Riding Map",
+            "name_fr": "Carte détaillée de la Forêt du nord",
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.SEAL.ALLIED)",
+            "patch": "4.0"
+        }
+    }
+}

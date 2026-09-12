@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x70729": {
+            "name_en": "An Intrepid New Enterprise",
+            "name_fr": "Commerce d'un nouveau genre",
+            "level": 90,
+            "npc_en": "Blue-garbed Pelu",
+            "npc_fr": "Pelupelu Vêtue De Bleu",
+            "cPrev": ["q.70495"],
+            "cNext": ["q.70730"],
+            "cSiblings": ["character.character.societal-relations.113", "e.285"],
+            "patch": "7.1",
+            "unlock": "e.285"
+        },
+        "x70730": {
+            "name_en": "A Tentative First Tour",
+            "name_fr": "Tural Voyages, en route pour l'aventure",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 90,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70729"],
+            "cNext": ["q.70731"],
+            "cSiblings": ["character.character.societal-relations.114"],
+            "patch": "7.1"
+        },
+        "x70731": {
+            "name_en": "Earthenshire Awaits",
+            "name_fr": "Envolez-vous pour l'inconnu avec Tural Voyages",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 90,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70730"],
+            "cNext": ["q.70732"],
+            "cSiblings": ["character.character.societal-relations.115"],
+            "patch": "7.1"
+        },
+        "x70732": {
+            "name_en": "Recruitment Drive",
+            "name_fr": "Tural Voyages embauche !",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 90,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70731"],
+            "cNext": ["q.70733"],
+            "cSiblings": ["character.character.societal-relations.116"],
+            "patch": "7.1"
+        },
+        "x70733": {
+            "name_en": "A Guest from Across the Salt",
+            "name_fr": "Tural Voyages, créateur de liens",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 90,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70732"],
+            "cNext": ["q.70734"],
+            "cSiblings": ["character.character.societal-relations.117"],
+            "patch": "7.1"
+        },
+        "x70734": {
+            "name_en": "Partners in Pel",
+            "name_fr": "Tural Voyages exauce vos rêves",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 90,
+            "npc_en": "Liplu",
+            "npc_fr": "Liplu",
+            "cPrev": ["q.70733"],
+            "cSiblings": ["character.character.societal-relations.118"],
+            "patch": "7.1"
+        }
+    }
+}

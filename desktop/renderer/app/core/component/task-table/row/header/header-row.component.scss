@@ -1,0 +1,33 @@
+:host {
+    display: contents;
+
+    .task-table-header {
+        .column-name {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .column-filter {
+        }
+
+        .row-action {
+            width: 40px;
+        }
+
+        th {
+            // Scrolls row-action-icon behind th
+            z-index: 2;
+        }
+
+        // First 3 columns get a left aligned dropdown overlay
+        th:not(:nth-last-child(2)) ::ng-deep .dropdown-filter .p-overlay {
+            inset-inline-start: 0 !important;
+        }
+
+        // Other columns get a right aligned dropdown overlay
+        th:nth-last-child(2) ::ng-deep .dropdown-filter .p-overlay {
+            inset-inline-start: unset !important;
+            right: 0;
+        }
+    }
+}

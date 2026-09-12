@@ -1,0 +1,28 @@
+{
+    "key": "valentiones-and-little-ladies-day-events",
+    "groupName_en": "Valentione's & Little Ladies' Day Events",
+    "groupName_fr": "Valention & fête des demoiselles",
+    "tasks": {
+        "x69532": {
+            "name_en": "A Delivery of Love",
+            "name_fr": "Le courrier du cœur",
+            "level": 15,
+            "npc_en": "Lisette De Valentione",
+            "npc_fr": "Lisette De Valention",
+            "patch": "5.4",
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cPrevAny": true,
+            "cNext": ["q.69533"]
+        },
+        "x69533": {
+            "name_en": "Little Lady Adventurer",
+            "name_fr": "Les demoiselles de la Valention",
+            "level": 15,
+            "npc_en": "Elyne",
+            "npc_fr": "Elyne",
+            "patch": "5.4",
+            "cPrev": ["q.69532"],
+            "cSiblings": ["a.2806"]
+        }
+    }
+}

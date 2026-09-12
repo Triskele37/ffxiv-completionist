@@ -1,0 +1,90 @@
+{
+    "key": "aetherytes",
+    "groupName_en": "Aetherytes",
+    "groupName_fr": "Éthérites",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "rankReq": {
+            "header_en": "Rank Required",
+            "header_fr": "Rang requis"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Zone"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Utya's Aegis",
+            "name_fr": "Avant-poste d'Utya",
+            "rankReq": "1",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(14.9, 29.9)",
+            "patch": "5.35"
+        },
+        "x1": {
+            "name_en": "Olana's Stand",
+            "name_fr": "Camp avancé d'Olana",
+            "rankReq": "5",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(28.6, 23.6)",
+            "patch": "5.35"
+        },
+        "x2": {
+            "name_en": "Lunya's Stand",
+            "name_fr": "Camp avancé de Lunya",
+            "rankReq": "8",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(13.7, 23.6)",
+            "patch": "5.35"
+        },
+        "x3": {
+            "name_en": "Camp Steva",
+            "name_fr": "Camp avancé de Steve",
+            "rankReq": "8",
+            "zone": "@PLACE.SHB.BOZJAN_SOUTHERN_FRONT",
+            "coordinates": "(22.3, 16.8)",
+            "patch": "5.35"
+        },
+        "x4": {
+            "name_en": "Camp Vrdelnis",
+            "name_fr": "Avant-poste de Vrdelnis",
+            "rankReq": "15",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(35.0, 34.6)",
+            "patch": "5.55"
+        },
+        "x5": {
+            "name_en": "Zuprtik Point",
+            "name_fr": "Camp avancé de Zuprtik",
+            "rankReq": "18",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(14.3, 36.6)",
+            "patch": "5.55"
+        },
+        "x6": {
+            "name_en": "Ljeaban Point",
+            "name_fr": "Camp avancé de Ljeaban",
+            "rankReq": "22",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(7.7, 15.6)",
+            "patch": "5.55"
+        },
+        "x7": {
+            "name_en": "Hrmovir Point",
+            "name_fr": "Camp avancé de Hrmovir",
+            "rankReq": "22",
+            "zone": "@PLACE.SHB.ZADNOR",
+            "coordinates": "(23.5, 18.9)",
+            "patch": "5.55"
+        }
+    }
+}

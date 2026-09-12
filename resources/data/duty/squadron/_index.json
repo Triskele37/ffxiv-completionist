@@ -1,0 +1,34 @@
+{
+    "key": "squadron",
+    "groupName_en": "Squadron",
+    "groupName_fr": "Escouade de Grande Compagnie",
+    "order": ["command-missions", "squadron", "stats"],
+    "columns": {
+        "name": {
+            "header_en": "Value",
+            "header_fr": "Valeur",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Squadron Rank",
+            "name_fr": "Rang de l'escouade",
+            "patch": "3.4",
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x1": {
+            "name_en": "Squadron Attributes",
+            "name_fr": "Capacités de l'escouade",
+            "patch": "3.4",
+            "minValue": 0,
+            "maxValue": 400
+        }
+    }
+}

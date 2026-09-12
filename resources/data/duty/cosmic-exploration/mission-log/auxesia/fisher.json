@@ -1,0 +1,278 @@
+{
+    "key": "fisher",
+    "groupName": "@CLASS_JOB.FSH",
+    "tasks": {
+        "x1698": {
+            "name_en": "Luminescent Aquatic Flora",
+            "name_fr": "Plantes aquatiques bioluminescentes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_A",
+            "patch": "7.51"
+        },
+        "x1699": {
+            "name_en": "Incense Materials",
+            "name_fr": "Plantes aquatiques pour encens",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_2_A",
+            "patch": "7.51"
+        },
+        "x1675": {
+            "name_en": "Master: Botanifish Diversity Survey",
+            "name_fr": "MM : Étude de biodiversité des poissons-plantes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1676": {
+            "name_en": "Master: Botanifish Ecosystem Survey",
+            "name_fr": "MM : Étude d'écosystème des poissons-plantes indigènes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1677": {
+            "name_en": "Master: Legendary Botanifish Survey",
+            "name_fr": "MM : Étude des poissons-plantes légendaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1671": {
+            "name_en": "EX: Large Mutant Distribution Survey",
+            "name_fr": "EX : Grands spécimens mutants en urgence",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.51"
+        },
+        "x1672": {
+            "name_en": "EX+: Full Bloom Fountain Specimen Survey",
+            "name_fr": "EX+ : Étude à la fontaine luxuriante",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.51"
+        },
+        "x1673": {
+            "name_en": "EX+: Western Nervure Cultivation Survey",
+            "name_fr": "EX+ : Étude environnementale pour pisciculture à l'ouest de la Nervure routière",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1674": {
+            "name_en": "EX+: Stratostone Shores Environmental Survey",
+            "name_fr": "EX+ : Étude corrélative de l'environnement de la parcelle du rivage",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1663": {
+            "name_en": "Emerald Springs Specimen Survey",
+            "name_fr": "Étude au bassin d'Émeraude",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1664": {
+            "name_en": "Freshwater Arthrolure Testing",
+            "name_fr": "Étude sur l'utilisation des bras universels d'eau douce",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1665": {
+            "name_en": "Aquatic Mechanism Operational Survey",
+            "name_fr": "Étude opérationnelle des organismes de la cité sous-marine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1666": {
+            "name_en": "Emerald Springs Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement du bassin d'Émeraude",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1667": {
+            "name_en": "Valuable Northern-central Specimens",
+            "name_fr": "Collecte d'échantillons de la partie nord du Foyer primaire",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1668": {
+            "name_en": "Aquatic Mechanism Distribution Survey",
+            "name_fr": "Étude de grands organismes sous-marins",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1669": {
+            "name_en": "EX: Northern-central Specimen Survey",
+            "name_fr": "EX : Étude à la partie nord du Foyer primaire",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1670": {
+            "name_en": "EX: Large Aquatic Organism Distribution Survey",
+            "name_fr": "EX : Étude de grands spécimens aquatiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1658": {
+            "name_en": "Sprouting Towerling Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement autour de la Pousse épanouie",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1659": {
+            "name_en": "Cosmic Tarantula Testing",
+            "name_fr": "Étude sur l'utilisation de tarentules cosmiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1660": {
+            "name_en": "Botanifish Research",
+            "name_fr": "Recherche sur les poissons-plantes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1661": {
+            "name_en": "Valuable Ruin Specimens",
+            "name_fr": "Collecte d'échantillons des ruines",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1662": {
+            "name_en": "Aquatic Flora Distribution Survey",
+            "name_fr": "Étude de ressources végétales aquatiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1654": {
+            "name_en": "Large Aquatic Specimen Distribution Survey",
+            "name_fr": "Étude de grands spécimens aquatiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1655": {
+            "name_en": "Auxesia Bait Suitability Testing",
+            "name_fr": "Étude de la viabilité d'appâts spécifiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1656": {
+            "name_en": "Large Aquatic Specimen Collection",
+            "name_fr": "Grands échantillons aquatiques en urgence",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1657": {
+            "name_en": "Valuable Southern-central Specimens",
+            "name_fr": "Collecte d'échantillons de la partie sud du centre urbain",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1650": {
+            "name_en": "Aquaculture Impact Survey",
+            "name_fr": "Étude de l'impact environnemental sur la pisciculture",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1651": {
+            "name_en": "Timberpond Specimen Survey",
+            "name_fr": "Étude au Havre forestier",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1652": {
+            "name_en": "Timberpond Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement du Havre forestier",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1653": {
+            "name_en": "Regular Base Resupply",
+            "name_fr": "Livraison de matériaux temporaires pour la station",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

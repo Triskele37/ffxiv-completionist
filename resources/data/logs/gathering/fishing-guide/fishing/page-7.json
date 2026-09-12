@@ -1,0 +1,807 @@
+{
+    "key": "page-7",
+    "groupName_en": "Page 7",
+    "groupName_fr": "Page 7",
+    "tasks": {
+        "x601": {
+            "name_en": "Hak Bitterling",
+            "name_fr": "Bouvière de Hak",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.176",
+            "patch": "4.0"
+        },
+        "x602": {
+            "name_en": "Whitehorse",
+            "name_fr": "Chevalier servant",
+            "bait": "@FISH.BAIT.SILKWORM",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
+        },
+        "x603": {
+            "name_en": "Sculptor",
+            "name_fr": "Sculpteur",
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
+        },
+        "x604": {
+            "name_en": "Pearl-eye",
+            "name_fr": "Œil-de-perle",
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.0"
+        },
+        "x605": {
+            "name_en": "Steelshark",
+            "name_fr": "Requin-acier",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.0"
+        },
+        "x606": {
+            "name_en": "Harutsuge",
+            "name_fr": "Harutsuge-uo",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.0"
+        },
+        "x607": {
+            "name_en": "Silken Koi",
+            "name_fr": "Koï satiné",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.0"
+        },
+        "x608": {
+            "name_en": "Hanatatsu",
+            "name_fr": "Hanatatsu",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.0"
+        },
+        "x609": {
+            "name_en": "Deemster",
+            "name_fr": "Magistrat",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.193",
+            "patch": "4.0"
+        },
+        "x610": {
+            "name_en": "Swordfish",
+            "name_fr": "Espadon",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.162",
+            "patch": "4.0"
+        },
+        "x611": {
+            "name_en": "Plum Gazer",
+            "name_fr": "Témoin des Pruniers",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.0"
+        },
+        "x612": {
+            "name_en": "Zekki Gator",
+            "name_fr": "Requin de Zekki",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.164",
+            "patch": "4.0"
+        },
+        "x613": {
+            "name_en": "Wraithfish",
+            "name_fr": "Poisson-spectre",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.0"
+        },
+        "x614": {
+            "name_en": "Castaway Chocobo Chick",
+            "name_fr": "Bébé chocobo des mers",
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.156",
+            "patch": "4.0"
+        },
+        "x615": {
+            "name_en": "Little Perykos",
+            "name_fr": "Petit Perykos",
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.156",
+            "patch": "4.0"
+        },
+        "x616": {
+            "name_en": "Gyr Abanian Chub",
+            "name_fr": "Chevesne gyrabanien",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.1"
+        },
+        "x617": {
+            "name_en": "Coral Horse",
+            "name_fr": "Cheval corallin",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.1"
+        },
+        "x618": {
+            "name_en": "Maiden's Heart",
+            "name_fr": "Marimo d'amour",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.165",
+            "patch": "4.1"
+        },
+        "x619": {
+            "name_en": "Velodyna Salmon",
+            "name_fr": "Saumon de la Velodyna",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.188",
+            "patch": "4.1"
+        },
+        "x620": {
+            "name_en": "Purple Buckler",
+            "name_fr": "Égide améthyste",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.1"
+        },
+        "x621": {
+            "name_en": "Cardinalfish",
+            "name_fr": "Poisson-cardinal",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.1"
+        },
+        "x622": {
+            "name_en": "Rockfish",
+            "name_fr": "Poisson-caillou",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.195",
+            "patch": "4.1"
+        },
+        "x623": {
+            "name_en": "Ukiki",
+            "name_fr": "Ukiki",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.1"
+        },
+        "x624": {
+            "name_en": "Violet Prismfish",
+            "name_fr": "Poisson-prisme violet",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.1"
+        },
+        "x625": {
+            "name_en": "Guppy",
+            "name_fr": "Guppy",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.178",
+            "patch": "4.1"
+        },
+        "x626": {
+            "name_en": "Redtail",
+            "name_fr": "Poisson-chat à queue rouge",
+            "bait": "f.498",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.184",
+            "patch": "4.2"
+        },
+        "x627": {
+            "name_en": "Mirage Mahi",
+            "name_fr": "Mahi-mahi mirage",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.189",
+            "patch": "4.2"
+        },
+        "x628": {
+            "name_en": "Alligator Snapping Turtle",
+            "name_fr": "Tortue alligator",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.194",
+            "patch": "4.2"
+        },
+        "x629": {
+            "name_en": "Saltmill",
+            "name_fr": "Moud-sel",
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.2"
+        },
+        "x630": {
+            "name_en": "Ribbon Eel",
+            "name_fr": "Murène ruban",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.2"
+        },
+        "x631": {
+            "name_en": "Bonsai Fish",
+            "name_fr": "Poisson-bonsaï",
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.198",
+            "patch": "4.2"
+        },
+        "x632": {
+            "name_en": "Triplespine",
+            "name_fr": "Triplépine",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.2"
+        },
+        "x633": {
+            "name_en": "Usuginu Octopus",
+            "name_fr": "Poulpe usuginu",
+            "bait": "@FISH.BAIT.LIVE_SHRIMP",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.160",
+            "patch": "4.2"
+        },
+        "x634": {
+            "name_en": "Red Prismfish",
+            "name_fr": "Poisson-prisme rouge",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.2"
+        },
+        "x635": {
+            "name_en": "Elder Gourami",
+            "name_fr": "Gourami ancêtre",
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.179",
+            "patch": "4.2"
+        },
+        "x636": {
+            "name_en": "Shrieker",
+            "name_fr": "Hurleur",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.3"
+        },
+        "x637": {
+            "name_en": "White Goldfish",
+            "name_fr": "Poisson-prisme blanc",
+            "bait": "f.634",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.3"
+        },
+        "x638": {
+            "name_en": "Firelight Goldfish",
+            "name_fr": "Poisson-prisme orange",
+            "bait": "f.634",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.3"
+        },
+        "x639": {
+            "name_en": "Hookstealer",
+            "name_fr": "Voleur d'hameçon",
+            "bait": "f.509",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.182",
+            "patch": "4.3"
+        },
+        "x640": {
+            "name_en": "Sapphire Fan",
+            "name_fr": "Éventail de saphir",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.3"
+        },
+        "x641": {
+            "name_en": "The Archbishop",
+            "name_fr": "Archevêque",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.3"
+        },
+        "x642": {
+            "name_en": "Bondsplitter",
+            "name_fr": "Divorceur",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.3"
+        },
+        "x643": {
+            "name_en": "The Undecided",
+            "name_fr": "Girouette",
+            "bait": "f.509",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.191",
+            "patch": "4.3"
+        },
+        "x644": {
+            "name_en": "Diamond-eye",
+            "name_fr": "Œil-de-diamant",
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.3"
+        },
+        "x645": {
+            "name_en": "Rising Dragon",
+            "name_fr": "Dragon du firmament",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.KUGANE",
+            "primeLocation": "fh.157",
+            "patch": "4.3"
+        },
+        "x646": {
+            "name_en": "The Gambler",
+            "name_fr": "Flambeur",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.197",
+            "patch": "4.3"
+        },
+        "x647": {
+            "name_en": "The Winter Queen",
+            "name_fr": "Reine d'hiver",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.3"
+        },
+        "x648": {
+            "name_en": "Rakshasa",
+            "name_fr": "Rakshasa",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.164",
+            "patch": "4.3"
+        },
+        "x649": {
+            "name_en": "Bokuden",
+            "name_fr": "Bokuden",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.170",
+            "patch": "4.3"
+        },
+        "x650": {
+            "name_en": "Hagoromo Koi",
+            "name_fr": "Koï au hagoromo",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.174",
+            "patch": "4.3"
+        },
+        "x651": {
+            "name_en": "The Word of God",
+            "name_fr": "Iconoclaste",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.179",
+            "patch": "4.3"
+        },
+        "x652": {
+            "name_en": "Yat Khan",
+            "name_fr": "Khan de Yat",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.180",
+            "patch": "4.3"
+        },
+        "x653": {
+            "name_en": "Curefish",
+            "name_fr": "Guérisandre",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.3"
+        },
+        "x654": {
+            "name_en": "Lake Sphairai",
+            "name_fr": "Poisson Sphairai",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.187",
+            "patch": "4.3"
+        },
+        "x655": {
+            "name_en": "Warmscale Pleco",
+            "name_fr": "Pléco chaudécailles",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "4.3"
+        },
+        "x656": {
+            "name_en": "Shirogane Clam",
+            "name_fr": "Huître argentée",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.3"
+        },
+        "x657": {
+            "name_en": "Illuminati Mask",
+            "name_fr": "Masque indigo",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.131",
+            "patch": "4.3"
+        },
+        "x658": {
+            "name_en": "Indigo Prismfish",
+            "name_fr": "Poisson-prisme indigo",
+            "bait": "f.624",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.4"
+        },
+        "x659": {
+            "name_en": "Green Prismfish",
+            "name_fr": "Poisson-prisme vert",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.4"
+        },
+        "x660": {
+            "name_en": "Watcher Catfish",
+            "name_fr": "Poisson-chat pourpré",
+            "bait": "f.509",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.183",
+            "patch": "4.4"
+        },
+        "x661": {
+            "name_en": "Bloodtail Zombie",
+            "name_fr": "Zombi à queue rouge",
+            "bait": "f.498",
+            "zone": "@PLACE.SB.RHALGRS_REACH",
+            "primeLocation": "fh.184",
+            "patch": "4.4"
+        },
+        "x662": {
+            "name_en": "Hardhead Trout",
+            "name_fr": "Truite tête de cermet",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.4"
+        },
+        "x663": {
+            "name_en": "Downstream Loach",
+            "name_fr": "Loche de l'aval",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.188",
+            "patch": "4.4"
+        },
+        "x664": {
+            "name_en": "Corpse Chub",
+            "name_fr": "Chevesne cadavérique",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.189",
+            "patch": "4.4"
+        },
+        "x665": {
+            "name_en": "The Last Tear",
+            "name_fr": "Ultime larme",
+            "bait": "@FISH.BAIT.SALMON_ROE",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.192",
+            "patch": "4.4"
+        },
+        "x666": {
+            "name_en": "Hemon",
+            "name_fr": "Hémon",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.194",
+            "patch": "4.4"
+        },
+        "x667": {
+            "name_en": "Moksha",
+            "name_fr": "Moksha",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.193",
+            "patch": "4.4"
+        },
+        "x668": {
+            "name_en": "Princess Killifish",
+            "name_fr": "Princesse killi",
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.SHIROGANE",
+            "primeLocation": "fh.198",
+            "patch": "4.4"
+        },
+        "x669": {
+            "name_en": "Ku'er",
+            "name_fr": "Coeurl des mers",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.4"
+        },
+        "x670": {
+            "name_en": "Argonautica",
+            "name_fr": "Anguille-serpent de mer",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.162",
+            "patch": "4.4"
+        },
+        "x671": {
+            "name_en": "Hagoromo Bijin",
+            "name_fr": "Belle au hagoromo",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.173",
+            "patch": "4.4"
+        },
+        "x672": {
+            "name_en": "Duskfish",
+            "name_fr": "Poisson crépusculaire",
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.178",
+            "patch": "4.4"
+        },
+        "x673": {
+            "name_en": "Blade Skipper",
+            "name_fr": "Gobie des fanes",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.177",
+            "patch": "4.4"
+        },
+        "x674": {
+            "name_en": "Lily of the Veil",
+            "name_fr": "Poisson-voile mhigois",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.195",
+            "patch": "4.5"
+        },
+        "x675": {
+            "name_en": "The Vegetarian",
+            "name_fr": "Liopleurodon végétarien",
+            "bait": "f.523",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.5"
+        },
+        "x676": {
+            "name_en": "Seven Stars",
+            "name_fr": "Requin aux sept étoiles",
+            "bait": "@FISH.BAIT.BLUE_BOBBIT",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.160",
+            "patch": "4.5"
+        },
+        "x677": {
+            "name_en": "Pinhead",
+            "name_fr": "Poisson porte-épines",
+            "bait": "@FISH.BAIT.LIVE_SHRIMP",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.163",
+            "patch": "4.5"
+        },
+        "x678": {
+            "name_en": "Pomegranate Trout",
+            "name_fr": "Truite sanguinaire",
+            "bait": "@FISH.BAIT.NIGHTCRAWLER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.165",
+            "patch": "4.5"
+        },
+        "x679": {
+            "name_en": "Glarramundi",
+            "name_fr": "Diable du Héron",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.166",
+            "patch": "4.5"
+        },
+        "x680": {
+            "name_en": "Hermit's End",
+            "name_fr": "Ermite de l'étang",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.167",
+            "patch": "4.5"
+        },
+        "x681": {
+            "name_en": "Suiten Ippeki",
+            "name_fr": "Suiten ippeki",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.171",
+            "patch": "4.5"
+        },
+        "x682": {
+            "name_en": "Axelrod",
+            "name_fr": "Avale-roux",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.172",
+            "patch": "4.5"
+        },
+        "x683": {
+            "name_en": "The Unraveled Bow",
+            "name_fr": "Rayon de prisme",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.169",
+            "patch": "4.5"
+        },
+        "x684": {
+            "name_en": "Nhaama's Treasure",
+            "name_fr": "Trésor de Nhaama",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.181",
+            "patch": "4.5"
+        },
+        "x685": {
+            "name_en": "Garden Skipper",
+            "name_fr": "Gobie des champs",
+            "bait": "@FISH.BAIT.MIDGE_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.175",
+            "patch": "4.5"
+        },
+        "x686": {
+            "name_en": "Banderole",
+            "name_fr": "Pléco oriflamme",
+            "bait": "f.555",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.176",
+            "patch": "4.5"
+        },
+        "x687": {
+            "name_en": "Northern Oyster",
+            "name_fr": "Huître du Nord",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.115",
+            "patch": "4.5"
+        },
+        "x688": {
+            "name_en": "Ruby Laver",
+            "name_fr": "Sargasse tamamo brune",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.161",
+            "patch": "4.5"
+        },
+        "x689": {
+            "name_en": "Chakrafish",
+            "name_fr": "Poisson chatkra",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.186",
+            "patch": "4.5"
+        },
+        "x690": {
+            "name_en": "Wicked Wartfish",
+            "name_fr": "Lotte de la bouche des enfers",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.159",
+            "patch": "4.5"
+        },
+        "x691": {
+            "name_en": "Othardian Salmon",
+            "name_fr": "Saumon d'Othard",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.172",
+            "patch": "4.5"
+        },
+        "x692": {
+            "name_en": "Warden of the Seven Hues",
+            "name_fr": "Poisson-prisme arc-en-ciel",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "fh.168",
+            "patch": "4.56"
+        },
+        "x693": {
+            "name_en": "Xenacanthus",
+            "name_fr": "Xenacanthus",
+            "bait": "f.662",
+            "zone": "@PLACE.SB.THE_FRINGES",
+            "primeLocation": "fh.185",
+            "patch": "4.56"
+        },
+        "x694": {
+            "name_en": "Drepanaspis",
+            "name_fr": "Drepanapsis",
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW",
+            "zone": "@PLACE.SB.THE_PEAKS",
+            "primeLocation": "fh.190",
+            "patch": "4.56"
+        },
+        "x695": {
+            "name_en": "Stethacanthus",
+            "name_fr": "Stethacanthus",
+            "bait": "f.586",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "fh.196",
+            "patch": "4.56"
+        },
+        "x696": {
+            "name_en": "The Ruby Dragon",
+            "name_fr": "Kôryû",
+            "bait": "f.669",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "fh.158",
+            "patch": "4.56"
+        },
+        "x697": {
+            "name_en": "The Unconditional",
+            "name_fr": "Absolu",
+            "bait": "@FISH.BAIT.STONEFLY_LARVA",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "fh.181",
+            "patch": "4.56"
+        },
+        "x698": {
+            "name_en": "Eighteyes Eel",
+            "name_fr": "Octoculus",
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "primeLocation": "fh.202",
+            "patch": "5.0"
+        },
+        "x699": {
+            "name_en": "Crystal Knife",
+            "name_fr": "Couteau de cristal",
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.THE_CRYSTARIUM",
+            "primeLocation": "fh.199",
+            "patch": "5.0"
+        },
+        "x700": {
+            "name_en": "Laxan Carp",
+            "name_fr": "Carpe de Ganlag",
+            "bait": "@FISH.BAIT.FRUIT_WORM",
+            "zone": "@PLACE.SHB.THE_CRYSTARIUM",
+            "primeLocation": "fh.199",
+            "patch": "5.0"
+        }
+    }
+}

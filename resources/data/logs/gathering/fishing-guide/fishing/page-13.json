@@ -1,0 +1,751 @@
+{
+    "key": "page-13",
+    "groupName_en": "Page 13",
+    "groupName_fr": "Page 13",
+    "tasks": {
+        "x1201": {
+            "name_en": "Poet's Pipe",
+            "name_fr": "Ocarina-du-barde",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.286",
+            "patch": "6.4"
+        },
+        "x1202": {
+            "name_en": "Marine Matanga",
+            "name_fr": "Matanga marin",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.286",
+            "patch": "6.4"
+        },
+        "x1203": {
+            "name_en": "Hatatate",
+            "name_fr": "Gobie porte-drapeau",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.288",
+            "patch": "6.4"
+        },
+        "x1204": {
+            "name_en": "Silent Shark",
+            "name_fr": "Requin souris",
+            "bait": "f.1182",
+            "primeLocation": "fh.288",
+            "patch": "6.4"
+        },
+        "x1205": {
+            "name_en": "Shisui Goby",
+            "name_fr": "Gobie valet",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.290",
+            "patch": "6.4"
+        },
+        "x1206": {
+            "name_en": "Violet Sentry",
+            "name_fr": "Gardien saphir",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.290",
+            "patch": "6.4"
+        },
+        "x1207": {
+            "name_en": "Brocade Carp",
+            "name_fr": "Carpe de brocart",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.292",
+            "patch": "6.4"
+        },
+        "x1208": {
+            "name_en": "Yanxian Sturgeon",
+            "name_fr": "Esturgeon yanxien",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.292",
+            "patch": "6.4"
+        },
+        "x1209": {
+            "name_en": "Dusk Shark",
+            "name_fr": "Requin crépusculaire",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.286",
+            "patch": "6.4"
+        },
+        "x1210": {
+            "name_en": "Mizuhiki",
+            "name_fr": "Mizuhiki",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.288",
+            "patch": "6.4"
+        },
+        "x1211": {
+            "name_en": "Heavensent Shark",
+            "name_fr": "Requin-tigre céleste",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.290",
+            "patch": "6.4"
+        },
+        "x1212": {
+            "name_en": "Fishy Shark",
+            "name_fr": "Requin d'herbiers",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.292",
+            "patch": "6.4"
+        },
+        "x1213": {
+            "name_en": "Mermaid Scale",
+            "name_fr": "Écaille-de-sirène",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1214": {
+            "name_en": "Broadhead",
+            "name_fr": "Pointe-seiche",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1215": {
+            "name_en": "Vivid Pink Shrimp",
+            "name_fr": "Crevette fuchsia",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1216": {
+            "name_en": "Sunken Coelacanth",
+            "name_fr": "Cœlacanthe abyssal",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1217": {
+            "name_en": "Siren's Sigh",
+            "name_fr": "Soupir-de-sirène",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1218": {
+            "name_en": "Black-jawed Helicoprion",
+            "name_fr": "Hélicoprion noir",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1219": {
+            "name_en": "Impostopus",
+            "name_fr": "Poulpe imposteur",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1220": {
+            "name_en": "Jade Mantis Shrimp",
+            "name_fr": "Mante de jade",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1221": {
+            "name_en": "Nymeia's Wheel",
+            "name_fr": "Rouet de Nymeia",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1222": {
+            "name_en": "Snapping Koban",
+            "name_fr": "Murène koban",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1223": {
+            "name_en": "Silkweft Prawn",
+            "name_fr": "Crevette hôsai",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1224": {
+            "name_en": "Stingfin Trevally",
+            "name_fr": "Carangue étoilée",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1225": {
+            "name_en": "Swordtip Squid",
+            "name_fr": "Calmar épée",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1226": {
+            "name_en": "Mailfish",
+            "name_fr": "Poisson-armure",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1227": {
+            "name_en": "Idaten's Bolt",
+            "name_fr": "Poisson volant d'Idaten",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1228": {
+            "name_en": "Maelstrom Turban",
+            "name_fr": "Turbo tatsumaki",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1229": {
+            "name_en": "Shoshitsuki",
+            "name_fr": "Shôshitsuki",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1230": {
+            "name_en": "Spadefish",
+            "name_fr": "Poisson-guitare à tête de pelle",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1231": {
+            "name_en": "Fleeting Squid",
+            "name_fr": "Calmar fugace",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1232": {
+            "name_en": "Bowbarb Lobster",
+            "name_fr": "Langouste archère",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1233": {
+            "name_en": "Pitch Pickle",
+            "name_fr": "Holothurie rayée",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1234": {
+            "name_en": "Senbei Octopus",
+            "name_fr": "Poulpe senbei",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1235": {
+            "name_en": "Tentacle Thresher",
+            "name_fr": "Requin octopophage",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1236": {
+            "name_en": "Bekko Rockhugger",
+            "name_fr": "Lompe de Bekko",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1237": {
+            "name_en": "Yellow Iris",
+            "name_fr": "Iris jaune",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1238": {
+            "name_en": "Crimson Sentry",
+            "name_fr": "Gardien rubis",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1239": {
+            "name_en": "Flying Squid",
+            "name_fr": "Toutenon",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1240": {
+            "name_en": "Gensui Shrimp",
+            "name_fr": "Crevette Gensui",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1241": {
+            "name_en": "Yato-no-kami",
+            "name_fr": "Yato-no-Kami",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1242": {
+            "name_en": "Heron's Eel",
+            "name_fr": "Anguille du Héron",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1243": {
+            "name_en": "Crowshadow Mussel",
+            "name_fr": "Moule perlière",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1244": {
+            "name_en": "Yanxian Goby",
+            "name_fr": "Gobie yanxien",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1245": {
+            "name_en": "Iridescent Trout",
+            "name_fr": "Truite iridescente",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1246": {
+            "name_en": "Un-Namazu",
+            "name_fr": "Primo-Namazu",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1247": {
+            "name_en": "Gakugyo",
+            "name_fr": "Gakugyo",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1248": {
+            "name_en": "Ginrin Goshiki",
+            "name_fr": "Ginrin goshiki",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1249": {
+            "name_en": "Spectral Coelacanth",
+            "name_fr": "Cœlacanthe spectral",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.286",
+            "patch": "6.4"
+        },
+        "x1250": {
+            "name_en": "Spectral Wrasse",
+            "name_fr": "Labre spectral",
+            "bait": "@FISH.BAIT.RAGWORM",
+            "primeLocation": "fh.288",
+            "patch": "6.4"
+        },
+        "x1251": {
+            "name_en": "Spectral Snake Eel",
+            "name_fr": "Anguille-serpent spectrale",
+            "bait": "@FISH.BAIT.KRILL",
+            "primeLocation": "fh.290",
+            "patch": "6.4"
+        },
+        "x1252": {
+            "name_en": "Spectral Kotsu Zetsu",
+            "name_fr": "Kotsu zetsu spectral",
+            "bait": "@FISH.BAIT.PLUMP_WORM",
+            "primeLocation": "fh.292",
+            "patch": "6.4"
+        },
+        "x1253": {
+            "name_en": "Taniwha",
+            "name_fr": "Taniwha",
+            "bait": "@FISH.BAIT.MACKEREL_STRIP",
+            "primeLocation": "fh.287",
+            "patch": "6.4"
+        },
+        "x1254": {
+            "name_en": "Glass Dragon",
+            "name_fr": "Ruriryû",
+            "bait": "f.1222",
+            "primeLocation": "fh.289",
+            "patch": "6.4"
+        },
+        "x1255": {
+            "name_en": "Hells' Claw",
+            "name_fr": "Pince-des-enfers",
+            "bait": "@FISH.BAIT.SQUID_STRIP",
+            "primeLocation": "fh.291",
+            "patch": "6.4"
+        },
+        "x1256": {
+            "name_en": "Jewel of Plum Spring",
+            "name_fr": "Joyau de printemps",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "primeLocation": "fh.293",
+            "patch": "6.4"
+        },
+        "x1257": {
+            "name_en": "The Fury's Aegis",
+            "name_fr": "Égide de la Conquérante",
+            "bait": "@FISH.BAIT.LEECH",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "primeLocation": "fh.258",
+            "patch": "6.4"
+        },
+        "x1258": {
+            "name_en": "Gold Dustfish",
+            "name_fr": "Poisson doton jaune",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "primeLocation": "fh.217",
+            "patch": "6.4"
+        },
+        "x1259": {
+            "name_en": "Forgiven Melancholy",
+            "name_fr": "Mélancolie pardonnée",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "primeLocation": "fh.206",
+            "patch": "6.4"
+        },
+        "x1260": {
+            "name_en": "Oil Slick",
+            "name_fr": "Nappe-d'huile",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.KHOLUSIA",
+            "primeLocation": "fh.208",
+            "patch": "6.4"
+        },
+        "x1261": {
+            "name_en": "Gonzalo's Grace",
+            "name_fr": "Limace Gonzalo",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
+            "primeLocation": "fh.233",
+            "patch": "6.4"
+        },
+        "x1262": {
+            "name_en": "Circuit Tilapia",
+            "name_fr": "Tilapia du Circuit",
+            "bait": "f.1042",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "primeLocation": "fh.259",
+            "patch": "6.5"
+        },
+        "x1263": {
+            "name_en": "Durdina Fish",
+            "name_fr": "Poisson de Durdina",
+            "bait": "f.1053",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "fh.262",
+            "patch": "6.5"
+        },
+        "x1264": {
+            "name_en": "Mayaman",
+            "name_fr": "Caïman de la Maya",
+            "bait": "@FISH.BAIT.MAYFLY",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "fh.268",
+            "patch": "6.5"
+        },
+        "x1265": {
+            "name_en": "Chlorophos Deathworm",
+            "name_fr": "Ver chlorophos",
+            "bait": "f.1091",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "primeLocation": "fh.273",
+            "patch": "6.5"
+        },
+        "x1266": {
+            "name_en": "Starscale Ephemeris",
+            "name_fr": "Étoile-orbitale",
+            "bait": "@FISH.BAIT.MAYFLY",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "primeLocation": "fh.282",
+            "patch": "6.5"
+        },
+        "x1267": {
+            "name_en": "E.B.E.-852738",
+            "name_fr": "E.B.E-852738",
+            "bait": "@FISH.BAIT.STARDUST",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "primeLocation": "fh.285",
+            "patch": "6.5"
+        },
+        "x1268": {
+            "name_en": "Ossicula",
+            "name_fr": "Poisson-osselet",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "primeLocation": "fh.272",
+            "patch": "6.5"
+        },
+        "x1269": {
+            "name_en": "Kitty Herring",
+            "name_fr": "Hareng félidé",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "primeLocation": "fh.271",
+            "patch": "6.5"
+        },
+        "x1270": {
+            "name_en": "Sarikuyruk",
+            "name_fr": "Sarikuryuk",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "fh.263",
+            "patch": "6.5"
+        },
+        "x1271": {
+            "name_en": "Stargilt Lobster",
+            "name_fr": "Homard doré",
+            "bait": "@FISH.BAIT.GREY_WORM",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "primeLocation": "fh.280",
+            "patch": "6.5"
+        },
+        "x1272": {
+            "name_en": "Deadwood Shadow",
+            "name_fr": "Branche-noire",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.RAK_TIKA",
+            "primeLocation": "fh.245",
+            "patch": "6.51"
+        },
+        "x1273": {
+            "name_en": "Ronkan Bullion",
+            "name_fr": "Lingot ronka",
+            "bait": "f.1274",
+            "zone": "@PLACE.SHB.RAK_TIKA",
+            "primeLocation": "fh.245",
+            "patch": "6.51"
+        },
+        "x1274": {
+            "name_en": "Golding",
+            "name_fr": "Poisson-pièce-d'or",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.RAK_TIKA",
+            "primeLocation": "fh.245",
+            "patch": "6.51"
+        },
+        "x1275": {
+            "name_en": "Little Bounty",
+            "name_fr": "Guppy d'Abondance",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "primeLocation": "fh.224",
+            "patch": "6.51"
+        },
+        "x1276": {
+            "name_en": "Saint Fathric's Face",
+            "name_fr": "Obstination de Saint-Fathric",
+            "bait": "@FISH.BAIT.SELECT_BAIT_BALL",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "primeLocation": "fh.224",
+            "patch": "6.51"
+        },
+        "x1277": {
+            "name_en": "Hyphalosaurus",
+            "name_fr": "Hyphalosaure",
+            "bait": "f.1042",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "primeLocation": "fh.259",
+            "patch": "6.55"
+        },
+        "x1278": {
+            "name_en": "Gharlichthys",
+            "name_fr": "Gharlichthys",
+            "bait": "@FISH.BAIT.MACKEREL_STRIP",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "fh.269",
+            "patch": "6.55"
+        },
+        "x1279": {
+            "name_en": "Snowy Parexus",
+            "name_fr": "Parexus nival",
+            "bait": "@FISH.BAIT.MAYFLY",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "primeLocation": "fh.270",
+            "patch": "6.55"
+        },
+        "x1280": {
+            "name_en": "Furcacauda",
+            "name_fr": "Furcacauda",
+            "bait": "@FISH.BAIT.SKY_SPOON_LURE",
+            "zone": "@PLACE.EW.ELPIS",
+            "primeLocation": "fh.277",
+            "patch": "6.55"
+        },
+        "x1281": {
+            "name_en": "Lopoceras Elegans",
+            "name_fr": "Lopoceras elegans",
+            "bait": "@FISH.BAIT.CHIMERA_WORM",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "primeLocation": "fh.273",
+            "patch": "6.55"
+        },
+        "x1282": {
+            "name_en": "Sidereal Whale",
+            "name_fr": "Baleine sidérale",
+            "bait": "f.1131",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "primeLocation": "fh.285",
+            "patch": "6.55"
+        },
+        "x1283": {
+            "name_en": "Mosquito Fish",
+            "name_fr": "Guppy sauvage",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.294",
+            "patch": "7.0"
+        },
+        "x1284": {
+            "name_en": "Pel Frog",
+            "name_fr": "Grenouille-pel",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.294",
+            "patch": "7.0"
+        },
+        "x1285": {
+            "name_en": "Petticoat Tetra",
+            "name_fr": "Tétra noir",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.294",
+            "patch": "7.0"
+        },
+        "x1286": {
+            "name_en": "Reasonscale Silverside",
+            "name_fr": "Capucette de la Raison",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.295",
+            "patch": "7.0"
+        },
+        "x1287": {
+            "name_en": "Stardust Shrimp",
+            "name_fr": "Crevette poussière d'étoiles",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.295",
+            "patch": "7.0"
+        },
+        "x1288": {
+            "name_en": "Shallows Sot",
+            "name_fr": "Jacasse éméchée",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.295",
+            "patch": "7.0"
+        },
+        "x1289": {
+            "name_en": "Ghostfish",
+            "name_fr": "Poisson fantôme",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.295",
+            "patch": "7.0"
+        },
+        "x1290": {
+            "name_en": "Permit",
+            "name_fr": "Carangue argentée",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.295",
+            "patch": "7.0"
+        },
+        "x1291": {
+            "name_en": "Floating Fife",
+            "name_fr": "Poisson-flûte",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.296",
+            "patch": "7.0"
+        },
+        "x1292": {
+            "name_en": "Blue Purse",
+            "name_fr": "Poisson-ange pécunier",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.296",
+            "patch": "7.0"
+        },
+        "x1293": {
+            "name_en": "Goldfin Cavalli",
+            "name_fr": "Carangue dorée",
+            "bait": "@FISH.BAIT.CRIMSON_LUGWORM",
+            "zone": "@PLACE.DT.TULIYOLLAL",
+            "primeLocation": "fh.296",
+            "patch": "7.0"
+        },
+        "x1295": {
+            "name_en": "Sea Alpaca",
+            "name_fr": "Alpaga de mer",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.297",
+            "patch": "7.0"
+        },
+        "x1296": {
+            "name_en": "Marbled Hatchetfish",
+            "name_fr": "Poisson-hache",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.297",
+            "patch": "7.0"
+        },
+        "x1297": {
+            "name_en": "Starsnipper",
+            "name_fr": "Galathée étoilée",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.297",
+            "patch": "7.0"
+        },
+        "x1298": {
+            "name_en": "Urqotrout",
+            "name_fr": "Truite pacha",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.297",
+            "patch": "7.0"
+        },
+        "x1299": {
+            "name_en": "Yok Huy Stonecutter",
+            "name_fr": "Tranche-pierres",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.297",
+            "patch": "7.0"
+        },
+        "x1300": {
+            "name_en": "Chirwagur Loach",
+            "name_fr": "Gardon de Chirwagur",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.298",
+            "patch": "7.0"
+        },
+        "x1301": {
+            "name_en": "Alright Alright Alright",
+            "name_fr": "Bien bien bien",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "fh.298",
+            "patch": "7.0"
+        }
+    }
+}

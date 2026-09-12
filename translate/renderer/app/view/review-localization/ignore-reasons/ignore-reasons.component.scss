@@ -1,0 +1,50 @@
+:host {
+    display: contents;
+
+    .reason-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--content-padding);
+        width: 50%;
+
+        .header {
+            text-decoration: underline;
+        }
+
+        .reasons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--content-padding);
+        }
+
+        .custom-reason {
+            width: 250px;
+        }
+
+        .save-reasons {
+
+        }
+
+		.save-button-container {
+			position: relative;
+		}
+		
+		.saved-notification {
+			position: absolute;
+			background: var(--surface-500);
+			border: 1px solid var(--primary-500);
+			border-radius: var(--border-radius);
+			padding: 5px;
+			transform: translateX(100%);
+			top: 0;
+			right: -10px;
+		}
+
+        .multiple-checkbox {
+            display: flex;
+            align-items: center;
+            gap: var(--content-padding);
+        }
+    }
+}

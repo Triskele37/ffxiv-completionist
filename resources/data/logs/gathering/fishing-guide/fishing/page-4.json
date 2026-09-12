@@ -1,0 +1,807 @@
+{
+    "key": "page-4",
+    "groupName_en": "Page 4",
+    "groupName_fr": "Page 4",
+    "tasks": {
+        "x301": {
+            "name_en": "Cloud Coral",
+            "name_fr": "Corail des nuages",
+            "bait": "@FISH.BAIT.BALLOON_BUG",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.110",
+            "patch": "3.0"
+        },
+        "x302": {
+            "name_en": "Ice Faerie",
+            "name_fr": "Fée des glaces",
+            "bait": "@FISH.BAIT.CADDISFLY_LARVA",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "3.0"
+        },
+        "x303": {
+            "name_en": "Skyworm",
+            "name_fr": "Ver céleste",
+            "bait": "@FISH.BAIT.BALLOON_BUG",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.110",
+            "patch": "3.0"
+        },
+        "x304": {
+            "name_en": "Coerthan Crab",
+            "name_fr": "Crabe du Coerthas",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.109",
+            "patch": "3.0"
+        },
+        "x305": {
+            "name_en": "Fanged Clam",
+            "name_fr": "Palourde crochue",
+            "bait": "f.302",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.114",
+            "patch": "3.0"
+        },
+        "x306": {
+            "name_en": "Lake Urchin",
+            "name_fr": "Oursin des lacs",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "3.0"
+        },
+        "x307": {
+            "name_en": "Whilom Catfish",
+            "name_fr": "Poisson-chat de Vairlame",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x308": {
+            "name_en": "Blueclaw Shrimp",
+            "name_fr": "Crevette géante bleue",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x309": {
+            "name_en": "Starflower",
+            "name_fr": "Fleur des étoiles",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.137",
+            "patch": "3.0"
+        },
+        "x310": {
+            "name_en": "Glacier Core",
+            "name_fr": "Noyau de glacier",
+            "bait": "@FISH.BAIT.BALLOON_BUG",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.110",
+            "patch": "3.0"
+        },
+        "x311": {
+            "name_en": "Ogre Horn Snail",
+            "name_fr": "Escargot corne d'ogre",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.113",
+            "patch": "3.0"
+        },
+        "x312": {
+            "name_en": "Sorcerer Fish",
+            "name_fr": "Poisson ensorceleur",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.111",
+            "patch": "3.0"
+        },
+        "x313": {
+            "name_en": "Hotrod",
+            "name_fr": "Poisson-canne",
+            "bait": "f.302",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.112",
+            "patch": "3.0"
+        },
+        "x314": {
+            "name_en": "Maiboi",
+            "name_fr": "Maïboï",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.135",
+            "patch": "3.0"
+        },
+        "x315": {
+            "name_en": "Three-lip Carp",
+            "name_fr": "Carpe à trois lèvres",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x316": {
+            "name_en": "Bullfrog",
+            "name_fr": "Grenouille-taureau",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.135",
+            "patch": "3.0"
+        },
+        "x317": {
+            "name_en": "Cloudfish",
+            "name_fr": "Poisson-nuage",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.135",
+            "patch": "3.0"
+        },
+        "x318": {
+            "name_en": "Mahu Wai",
+            "name_fr": "Mahu waï",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.137",
+            "patch": "3.0"
+        },
+        "x319": {
+            "name_en": "Rock Mussel",
+            "name_fr": "Moule des roches",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x320": {
+            "name_en": "Buoyant Oviform",
+            "name_fr": "Œuf volant",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.137",
+            "patch": "3.0"
+        },
+        "x321": {
+            "name_en": "Whiteloom",
+            "name_fr": "Chanterelle céleste",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.138",
+            "patch": "3.0"
+        },
+        "x322": {
+            "name_en": "Blue Cloud Coral",
+            "name_fr": "Corail céruléen",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.137",
+            "patch": "3.0"
+        },
+        "x323": {
+            "name_en": "Seema Patrician",
+            "name_fr": "Seema noble",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.114",
+            "patch": "3.0"
+        },
+        "x324": {
+            "name_en": "Ammonite",
+            "name_fr": "Ammonite",
+            "bait": "f.24",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.114",
+            "patch": "3.0"
+        },
+        "x325": {
+            "name_en": "Bubble Eye",
+            "name_fr": "Poisson télescope",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.135",
+            "patch": "3.0"
+        },
+        "x326": {
+            "name_en": "Grass Carp",
+            "name_fr": "Carpe de roseau",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.117",
+            "patch": "3.0"
+        },
+        "x327": {
+            "name_en": "Pipira Pira",
+            "name_fr": "Pipira pira",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x328": {
+            "name_en": "Dravanian Squeaker",
+            "name_fr": "Silure renversé",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.131",
+            "patch": "3.0"
+        },
+        "x329": {
+            "name_en": "Kissing Fish",
+            "name_fr": "Gourami embrasseur",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.129",
+            "patch": "3.0"
+        },
+        "x330": {
+            "name_en": "Mitre Slug",
+            "name_fr": "Limace-mitre",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.137",
+            "patch": "3.0"
+        },
+        "x331": {
+            "name_en": "Lava Crab",
+            "name_fr": "Crabe de lave",
+            "bait": "@FISH.BAIT.MAGMA_WORM",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.121",
+            "patch": "3.0"
+        },
+        "x332": {
+            "name_en": "Storm Core",
+            "name_fr": "Cœur-d'orage",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.138",
+            "patch": "3.0"
+        },
+        "x333": {
+            "name_en": "Scholar Sculpin",
+            "name_fr": "Chabot érudit",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.127",
+            "patch": "3.0"
+        },
+        "x334": {
+            "name_en": "Gigant Grouper",
+            "name_fr": "Garoupa géant",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.115",
+            "patch": "3.0"
+        },
+        "x335": {
+            "name_en": "Vanuhead",
+            "name_fr": "Tête-de-Vanu",
+            "bait": "@FISH.BAIT.BLADED_STEEL_JIG",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.136",
+            "patch": "3.0"
+        },
+        "x336": {
+            "name_en": "Marble Oscar",
+            "name_fr": "Oscar marbré",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.119",
+            "patch": "3.0"
+        },
+        "x337": {
+            "name_en": "Lungfish",
+            "name_fr": "Dipnoi",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.144",
+            "patch": "3.0"
+        },
+        "x338": {
+            "name_en": "Tigerfish",
+            "name_fr": "Poisson tigre",
+            "bait": "f.316",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.126",
+            "patch": "3.0"
+        },
+        "x339": {
+            "name_en": "Sky Faerie",
+            "name_fr": "Fée lunaire",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.138",
+            "patch": "3.0"
+        },
+        "x340": {
+            "name_en": "Granite Crab",
+            "name_fr": "Crabe de granite",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.121",
+            "patch": "3.0"
+        },
+        "x341": {
+            "name_en": "Aithon's Colt",
+            "name_fr": "Poulain d'Aithon",
+            "bait": "@FISH.BAIT.MAGMA_WORM",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.123",
+            "patch": "3.0"
+        },
+        "x342": {
+            "name_en": "Shipworm",
+            "name_fr": "Taret",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.127",
+            "patch": "3.0"
+        },
+        "x343": {
+            "name_en": "Hedgemole Cricket",
+            "name_fr": "Courtilière nageuse",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.126",
+            "patch": "3.0"
+        },
+        "x344": {
+            "name_en": "Mogpom",
+            "name_fr": "Marimog",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.130",
+            "patch": "3.0"
+        },
+        "x345": {
+            "name_en": "Magma Tree",
+            "name_fr": "Arbre de magma",
+            "bait": "@FISH.BAIT.MAGMA_WORM",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.122",
+            "patch": "3.0"
+        },
+        "x346": {
+            "name_en": "Cloud Rider",
+            "name_fr": "Saute-nuage",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.132",
+            "patch": "3.0"
+        },
+        "x347": {
+            "name_en": "Dravanian Bass",
+            "name_fr": "Bar dravanien",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.118",
+            "patch": "3.0"
+        },
+        "x348": {
+            "name_en": "Coerthan Puffer",
+            "name_fr": "Tétrodon du Coerthas",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.109",
+            "patch": "3.0"
+        },
+        "x349": {
+            "name_en": "Snowcaller",
+            "name_fr": "Poisson cherche-neige",
+            "bait": "f.302",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "3.0"
+        },
+        "x350": {
+            "name_en": "Dragonhead",
+            "name_fr": "Crâne-de-dragon",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.120",
+            "patch": "3.0"
+        },
+        "x351": {
+            "name_en": "Mercy Staff",
+            "name_fr": "Déesse des neiges",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.116",
+            "patch": "3.0"
+        },
+        "x352": {
+            "name_en": "Rime Eater",
+            "name_fr": "Gobe-givre",
+            "bait": "f.310",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.110",
+            "patch": "3.0"
+        },
+        "x353": {
+            "name_en": "Warmwater Bichir",
+            "name_fr": "Polyptère solaire",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.119",
+            "patch": "3.0"
+        },
+        "x354": {
+            "name_en": "Noontide Oscar",
+            "name_fr": "Oscar blanc",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.129",
+            "patch": "3.0"
+        },
+        "x355": {
+            "name_en": "Shadowhisker",
+            "name_fr": "Silure-jaguar",
+            "bait": "f.308",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.117",
+            "patch": "3.0"
+        },
+        "x356": {
+            "name_en": "Gobbie Mask",
+            "name_fr": "Poulpe gobelin",
+            "bait": "f.391",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.133",
+            "patch": "3.0"
+        },
+        "x357": {
+            "name_en": "Blue Medusa",
+            "name_fr": "Méduse céruléenne",
+            "bait": "f.339",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.132",
+            "patch": "3.0"
+        },
+        "x358": {
+            "name_en": "Cindersmith",
+            "name_fr": "Gibbule de basalte",
+            "bait": "@FISH.BAIT.MAGMA_WORM",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.123",
+            "patch": "3.0"
+        },
+        "x359": {
+            "name_en": "Bullwhip",
+            "name_fr": "Gobie-fouet",
+            "bait": "@FISH.BAIT.FIEND_WORM",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.140",
+            "patch": "3.0"
+        },
+        "x360": {
+            "name_en": "Tiny Axolotl",
+            "name_fr": "Axolotl angélique",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.144",
+            "patch": "3.0"
+        },
+        "x361": {
+            "name_en": "High Allagan Helmet",
+            "name_fr": "Limule haut-allagoise",
+            "bait": "f.362",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.140",
+            "patch": "3.0"
+        },
+        "x362": {
+            "name_en": "Platinum Fish",
+            "name_fr": "Cyprin platiné",
+            "bait": "@FISH.BAIT.FIEND_WORM",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.140",
+            "patch": "3.0"
+        },
+        "x363": {
+            "name_en": "Aether Eye",
+            "name_fr": "Œil-d'éther",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.144",
+            "patch": "3.0"
+        },
+        "x364": {
+            "name_en": "Azysfish",
+            "name_fr": "Killi d'Azys",
+            "bait": "@FISH.BAIT.FIEND_WORM",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.142",
+            "patch": "3.0"
+        },
+        "x365": {
+            "name_en": "Crystalfin",
+            "name_fr": "Poisson de cristal",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.144",
+            "patch": "3.0"
+        },
+        "x366": {
+            "name_en": "Sweetfish",
+            "name_fr": "Poisson-sucre",
+            "bait": "@FISH.BAIT.BLADED_STEEL_JIG",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.125",
+            "patch": "3.0"
+        },
+        "x367": {
+            "name_en": "Orn Butterfly",
+            "name_fr": "Poisson-papillon",
+            "bait": "f.343",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.126",
+            "patch": "3.0"
+        },
+        "x368": {
+            "name_en": "Hundred Fin",
+            "name_fr": "Rascasse à crête",
+            "bait": "@FISH.BAIT.STONEFLY_NYMPH",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.131",
+            "patch": "3.0"
+        },
+        "x369": {
+            "name_en": "Autumn Leaf",
+            "name_fr": "Poisson-feuille",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.125",
+            "patch": "3.0"
+        },
+        "x370": {
+            "name_en": "Manasail",
+            "name_fr": "Voile-de-mana",
+            "bait": "f.339",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.134",
+            "patch": "3.0"
+        },
+        "x371": {
+            "name_en": "Sky Sweeper",
+            "name_fr": "Rémora céleste",
+            "bait": "f.339",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.138",
+            "patch": "3.0"
+        },
+        "x372": {
+            "name_en": "Magma Louse",
+            "name_fr": "Pou de magma",
+            "bait": "f.340",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.123",
+            "patch": "3.0"
+        },
+        "x373": {
+            "name_en": "Cometoise",
+            "name_fr": "Tortue comète",
+            "bait": "f.340",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.121",
+            "patch": "3.0"
+        },
+        "x374": {
+            "name_en": "Aetherochemical Compound #123",
+            "name_fr": "Produit expérimental n°123",
+            "bait": "f.362",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.141",
+            "patch": "3.0"
+        },
+        "x375": {
+            "name_en": "Brown Bolo",
+            "name_fr": "Boomerang brun",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.134",
+            "patch": "3.0"
+        },
+        "x376": {
+            "name_en": "Philosopher's Stone",
+            "name_fr": "Telline d'aspirant",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.128",
+            "patch": "3.0"
+        },
+        "x377": {
+            "name_en": "Fountfish",
+            "name_fr": "Poisson-arbalétrier",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.143",
+            "patch": "3.0"
+        },
+        "x378": {
+            "name_en": "Weston Bowfin",
+            "name_fr": "Poisson-loutre",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.131",
+            "patch": "3.0"
+        },
+        "x379": {
+            "name_en": "Letter Puffer",
+            "name_fr": "Tétrodon-ballon",
+            "bait": "f.339",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.132",
+            "patch": "3.0"
+        },
+        "x380": {
+            "name_en": "Star Faerie",
+            "name_fr": "Fée aurorale",
+            "bait": "f.391",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.133",
+            "patch": "3.0"
+        },
+        "x381": {
+            "name_en": "Gloaming Coral",
+            "name_fr": "Corail crépusculaire",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.132",
+            "patch": "3.0"
+        },
+        "x382": {
+            "name_en": "Albino Octopus",
+            "name_fr": "Poulpe blanc",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.111",
+            "patch": "3.0"
+        },
+        "x383": {
+            "name_en": "Dragon's Soul",
+            "name_fr": "Âme-de-dragon",
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.132",
+            "patch": "3.0"
+        },
+        "x384": {
+            "name_en": "Tornado Shark",
+            "name_fr": "Requin-tornade",
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.138",
+            "patch": "3.0"
+        },
+        "x385": {
+            "name_en": "Warballoon",
+            "name_fr": "Méduse-dirigeable",
+            "bait": "f.303",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.110",
+            "patch": "3.0"
+        },
+        "x386": {
+            "name_en": "Fossiltongue",
+            "name_fr": "Arowana fossile",
+            "bait": "@FISH.BAIT.MAGMA_WORM",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.124",
+            "patch": "3.0"
+        },
+        "x387": {
+            "name_en": "Proto-hropken",
+            "name_fr": "Protohropken",
+            "bait": "f.362",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.141",
+            "patch": "3.0"
+        },
+        "x388": {
+            "name_en": "Caiman",
+            "name_fr": "Caïman",
+            "bait": "f.316",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "primeLocation": "fh.120",
+            "patch": "3.0"
+        },
+        "x389": {
+            "name_en": "Euphotic Pirarucu",
+            "name_fr": "Pirarucu allagois",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.143",
+            "patch": "3.0"
+        },
+        "x390": {
+            "name_en": "Illuminati Perch",
+            "name_fr": "Perche Main indigo",
+            "bait": "@FISH.BAIT.BRUTE_LEECH",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+            "primeLocation": "fh.125",
+            "patch": "3.0"
+        },
+        "x391": {
+            "name_en": "Rudderfish",
+            "name_fr": "Poisson-javelot",
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.133",
+            "patch": "3.0"
+        },
+        "x392": {
+            "name_en": "Bomb Puffer",
+            "name_fr": "Tétrodon-bombe",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.145",
+            "patch": "3.0"
+        },
+        "x393": {
+            "name_en": "Mucous Minnow",
+            "name_fr": "Carpe muqueuse",
+            "bait": "f.362",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.142",
+            "patch": "3.0"
+        },
+        "x394": {
+            "name_en": "Unidentified Flying Biomass",
+            "name_fr": "Organisme volant non identifié",
+            "bait": "@FISH.BAIT.RED_BALLOON",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.145",
+            "patch": "3.0"
+        },
+        "x395": {
+            "name_en": "Hospitalier Fish",
+            "name_fr": "Poisson-docteur",
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.113",
+            "patch": "3.0"
+        },
+        "x396": {
+            "name_en": "Scorpionfly",
+            "name_fr": "Crevette-scorpion",
+            "bait": "@FISH.BAIT.METAL_SPINNER",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.139",
+            "patch": "3.0"
+        },
+        "x397": {
+            "name_en": "Rockclimber",
+            "name_fr": "Gobie grimpeur",
+            "bait": "@FISH.BAIT.GOBLIN_JIG",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.143",
+            "patch": "3.0"
+        },
+        "x398": {
+            "name_en": "Blood Skipper",
+            "name_fr": "Gobie sanglant",
+            "bait": "@FISH.BAIT.FIEND_WORM",
+            "zone": "@PLACE.HW.AZYS_LLA",
+            "primeLocation": "fh.140",
+            "patch": "3.0"
+        },
+        "x399": {
+            "name_en": "Cobrafish",
+            "name_fr": "Poisson-cobra",
+            "bait": "f.391",
+            "zone": "@PLACE.HW.THE_CHURNING_MISTS",
+            "primeLocation": "fh.134",
+            "patch": "3.0"
+        },
+        "x400": {
+            "name_en": "Moogle Spirit",
+            "name_fr": "Esprit-de-Vanu",
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "primeLocation": "fh.139",
+            "patch": "3.0"
+        }
+    }
+}

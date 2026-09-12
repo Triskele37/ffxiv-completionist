@@ -1,0 +1,30 @@
+.random {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    .group-selector-button {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 1px solid var(--surface-500);
+        width: 100%;
+    }
+
+    // Remove border radius entirely from middle input
+    .numeric-input ::ng-deep .p-inputtext, .p-inputnumber-button {
+        border-radius: 0;
+    }
+
+    .random-button {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 1px solid var(--surface-500);
+
+        min-width: 200px;
+        width: 100%;
+    }
+
+    .random-result ::ng-deep .p-button-link {
+        width: 100%;
+    }
+}

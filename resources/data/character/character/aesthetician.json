@@ -1,0 +1,457 @@
+{
+    "key": "aesthetician",
+    "groupName_en": "Aesthetician",
+    "groupName_fr": "Esthéticien",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "lockedFor": {
+            "header_en": "Locked For",
+            "header_fr": "Verrouillé Pour",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x66": {
+            "name_en": "Modern Aesthetics - Early to Rise",
+            "name_fr": "Méthode de coiffure “Lêve-tôt”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["duty.field-operations.bozja.duties.1", "chest.230"],
+            "patch": "5.45"
+        },
+        "x67": {
+            "name_en": "Modern Aesthetics - Sharlayan Studies",
+            "name_fr": "Méthode de coiffure “Prodige sharlayanais”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "5.4",
+            "defaultCompletion": "X"
+        },
+        "x72": {
+            "name_en": "Modern Aesthetics - Controlled Chaos",
+            "name_fr": "Méthode de coiffure “Coupe asymétrique”",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
+            "patch": "5.21"
+        },
+        "x79": {
+            "name_en": "Modern Aesthetics - Modern Legend",
+            "name_fr": "Méthode de coiffure “Mèches légendaires”",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.11"
+        },
+        "x227": {
+            "name_en": "Modern Cosmetics - A Wicked Wake",
+            "name_fr": "Méthode de maquillage : Veillée des saints",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "2.38",
+            "defaultCompletion": "X"
+        },
+        "x228": {
+            "name_en": "Eternal Bonding",
+            "name_fr": "Lien éternel",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67114",
+            "patch": "2.4"
+        },
+        "x230": {
+            "name_en": "Modern Aesthetics - Lexen-tails",
+            "name_fr": "Méthode de coiffure “Ramza & Alma”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "4.5"
+        },
+        "x231": {
+            "name_en": "Modern Aesthetics - Lucian Locks",
+            "name_fr": "Méthode de coiffure “Noctis”",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.XV_COLLAB",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "4.56",
+            "defaultCompletion": "X"
+        },
+        "x239": {
+            "name_en": "Modern Cosmetics - Clowning Around",
+            "name_fr": "Méthode de maquillage : clown",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.ALL_SAINTS_WAKE (2022)",
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
+        "x243": {
+            "name_en": "Modern Aesthetics - Ponytails",
+            "name_fr": "Méthode de coiffure “Queue de cheval”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@8,000 CURRENCY.MGP",
+            "patch": "2.51"
+        },
+        "x267": {
+            "name_en": "Modern Aesthetics - Gyr Abanian Plait",
+            "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.110", "chest.232"],
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "4.35"
+        },
+        "x268": {
+            "name_en": "Modern Aesthetics - Fashionably Feathered",
+            "name_fr": "Méthode de coiffure “Brushing souple”",
+            "category": "@CATEGORY.PVP",
+            "source": "@18,000 CURRENCY.WOLF_MARK",
+            "patch": "4.3"
+        },
+        "x280": {
+            "name_en": "Modern Aesthetics - Saintly Style",
+            "name_fr": "Méthode de coiffure “Ailes de saint”",
+            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.318", "chest.319"],
+            "patch": "5.31"
+        },
+        "x281": {
+            "name_en": "Modern Aesthetics - Wind Caller",
+            "name_fr": "Méthode de coiffure “Vartan”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["@150 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "5.35"
+        },
+        "x286": {
+            "name_en": "Modern Aesthetics - Adventure",
+            "name_fr": "Méthode de coiffure “Aventurier”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@14 CURRENCY.MGP",
+            "patch": "3.1"
+        },
+        "x287": {
+            "name_en": "Modern Aesthetics - Curls",
+            "name_fr": "Méthode de coiffure “Boucles”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@9,600 CURRENCY.MGP",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.1"
+        },
+        "x290": {
+            "name_en": "Modern Aesthetics - Scion Special Issue",
+            "name_fr": "Méthode de coiffure “Meneuse des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.1",
+            "defaultCompletion": "X"
+        },
+        "x302": {
+            "name_en": "Modern Aesthetics - Samsonian Locks",
+            "name_fr": "Méthode de coiffure “Cheveux longs”",
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "source": ["chest.100", "chest.101", "chest.102", "chest.232"],
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.4"
+        },
+        "x303": {
+            "name_en": "Modern Aesthetics - Pulse",
+            "name_fr": "Méthode de coiffure “Lightning et Snow”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "3.15",
+            "defaultCompletion": "X"
+        },
+        "x321": {
+            "name_en": "Modern Aesthetics - Scion Special Issue II",
+            "name_fr": "Méthode de coiffure “Surineur des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.FEMALE, CHARA.MALE CHARA.HROTHGAR",
+            "patch": "3.35",
+            "defaultCompletion": "X"
+        },
+        "x322": {
+            "name_en": "Modern Aesthetics - Scion Special Issue III",
+            "name_fr": "Méthode de coiffure “Élémentaliste des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "3.35",
+            "defaultCompletion": "X"
+        },
+        "x337": {
+            "name_en": "Modern Aesthetics - Rainmaker",
+            "name_fr": "Méthode de coiffure “Flambeur”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@5,000 CURRENCY.MGP",
+            "patch": "3.55b"
+        },
+        "x338": {
+            "name_en": "Modern Aesthetics - Master & Commander",
+            "name_fr": "Méthode de coiffure “Capitaine général”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "3.55b",
+            "defaultCompletion": "X"
+        },
+        "x397": {
+            "name_en": "Modern Aesthetics - Form and Function",
+            "name_fr": "Méthode de coiffure “Tresse bandeau”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.206", "chest.207", "chest.230"],
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "4.45"
+        },
+        "x398": {
+            "name_en": "Modern Aesthetics - Styled for Hire",
+            "name_fr": "Méthode de coiffure “Mercenaire”",
+            "category": "@CATEGORY.PVP",
+            "source": "@18,000 CURRENCY.WOLF_MARK",
+            "patch": "4.4"
+        },
+        "x399": {
+            "name_en": "Modern Aesthetics - Strife",
+            "name_fr": "Méthode de coiffure “Strife”",
+            "category": "@CATEGORY.EVENT",
+            "source_en": "Community Events Reward",
+            "source_fr": "Concours d'art & costume du Fan Festival 2018",
+            "lockedFor": "@CHARA.HROTHGAR",
+            "patch": "4.4",
+            "defaultCompletion": "X"
+        },
+        "x413": {
+            "name_en": "Modern Aesthetics - Great Lengths",
+            "name_fr": "Méthode de coiffure “Cheveux longs classiques”",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "patch": "5.0"
+        },
+        "x419": {
+            "name_en": "Modern Aesthetics - Both Ways",
+            "name_fr": "Méthode de coiffure “Queue-de-cheval sur le côté”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": ["chest.221", "chest.230"],
+            "patch": "5.55"
+        },
+        "x420": {
+            "name_en": "Modern Aesthetics - Battle-ready Bobs",
+            "name_fr": "Méthode de coiffure “2B”",
+            "category": "@CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
+        },
+        "x421": {
+            "name_en": "Modern Aesthetics - Scanning for Style",
+            "name_fr": "Méthode de coiffure “9S”",
+            "category": "@CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
+        },
+        "x435": {
+            "name_en": "Modern Aesthetics - Liberating Locks",
+            "name_fr": "Méthode de coiffure “Libératrice des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
+        "x441": {
+            "name_en": "Modern Aesthetics - Tall Tails",
+            "name_fr": "Méthode de coiffure “Queue de cheval haute”",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
+            "patch": "6.28"
+        },
+        "x442": {
+            "name_en": "Modern Aesthetics - Practical Ponytails",
+            "name_fr": "Méthode de coiffure “Queue de cheval sommaire”",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.28"
+        },
+        "x447": {
+            "name_en": "Modern Aesthetics - Sharlayan Rebellion",
+            "name_fr": "Méthode de coiffure “Dissidente de Sharlayan”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.3",
+            "defaultCompletion": "X"
+        },
+        "x448": {
+            "name_en": "Modern Aesthetics - A Close Shave",
+            "name_fr": "Méthode de coiffure “Coupe à ras”",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "chest.120",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.35"
+        },
+        "x460": {
+            "name_en": "Modern Aesthetics - Ambitious Ends",
+            "name_fr": "Méthode de coiffure “Coupe mi-longue négligée”",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@6 CURRENCY.VCD.ROKKON_POTSHERD",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.45"
+        },
+        "x476": {
+            "name_en": "Modern Aesthetics - The Bold and the Braid",
+            "name_fr": "Méthode de coiffure “Tresses collées sur le côté”",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@6 CURRENCY.VCD.ALOALO_POTSHERD",
+            "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
+            "patch": "6.51"
+        },
+        "x483": {
+            "name_en": "Modern Aesthetics - It Takes Two",
+            "name_fr": "Méthode de coiffure “Coupe en deux blocs légère”",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.maps.18",
+            "patch": "7.0"
+        },
+        "x485": {
+            "name_en": "Modern Aesthetics - Doing the Wave",
+            "name_fr": "Méthode de coiffure “Carré ondulé”",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.1"
+        },
+        "x486": {
+            "name_en": "Modern Aesthetics - A Half Times Two",
+            "name_fr": "Méthode de coiffure “Coupe demi-couettes”",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.UAHSHEPYA (49 CURRENCY.DUTY.CLOUDDARK_DEMIMATERIA_II)",
+            "patch": "7.15"
+        },
+        "x487": {
+            "name_en": "Modern Aesthetics - Scion Special Issue IV",
+            "name_fr": "Méthode de coiffure “Exarque des Héritiers”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.1",
+            "defaultCompletion": "X"
+        },
+        "x488": {
+            "name_en": "Modern Aesthetics - Voidswept Strands",
+            "name_fr": "Méthode de coiffure “Carré gradué”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.1",
+            "defaultCompletion": "X"
+        },
+        "x489": {
+            "name_en": "Modern Aesthetics - Head Hound",
+            "name_fr": "Méthode de coiffure “Queue de cheval tressée”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.1",
+            "defaultCompletion": "X"
+        },
+        "x538": {
+            "name_en": "Modern Aesthetics - The Warden",
+            "name_fr": "Méthode de coiffure “Azeyma”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.2",
+            "defaultCompletion": "X"
+        },
+        "x539": {
+            "name_en": "Modern Aesthetics - Fulsome Forelocks",
+            "name_fr": "Méthode de coiffure “Coupe au bol”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
+                "chest.230"
+            ],
+            "patch": "7.25"
+        },
+        "x550": {
+            "name_en": "Modern Aesthetics - Simple and Clean",
+            "name_fr": "Méthode de coiffure “Simple et lisse”",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": [
+                "@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)",
+                "chest.130",
+                "chest.131",
+                "chest.132"
+            ],
+            "patch": "7.35"
+        },
+        "x551": {
+            "name_en": "Modern Aesthetics - Hairscape M",
+            "name_fr": "Méthode de coiffure “Oméga-M”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.38",
+            "defaultCompletion": "X"
+        },
+        "x552": {
+            "name_en": "Modern Aesthetics - Hairscape F",
+            "name_fr": "Méthode de coiffure “Oméga-F”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.38",
+            "defaultCompletion": "X"
+        },
+        "x573": {
+            "name_en": "Modern Aesthetics - Realms-ruffled",
+            "name_fr": "Méthode de coiffure “Vagabond des dimensions”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.4",
+            "defaultCompletion": "X"
+        },
+        "x574": {
+            "name_en": "Modern Aesthetics - Tail of the Teller",
+            "name_fr": "Méthode de coiffure “Voyante d'En”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.4",
+            "defaultCompletion": "X"
+        },
+        "x575": {
+            "name_en": "Modern Aesthetics - Fit for a Princess",
+            "name_fr": "Méthode de coiffure “Princesse de Vibra”",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
+            "patch": "7.4",
+            "defaultCompletion": "X"
+        },
+        "x576": {
+            "name_en": "Modern Aesthetics - Shadowhunter Chic",
+            "name_fr": "Méthode de coiffure “Gaius”",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (20 CURRENCY.VCD.CORVOSI_BRASS)",
+            "patch": "7.45"
+        },
+        "x637": {
+            "name_en": "Modern Aesthetics - Loosened Locks",
+            "name_fr": "Méthode de coiffure “Carré avec demi-chignon”",
+            "category": "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN",
+            "source": "@VENDOR.KORNAGO_MERCHANT (500 CURRENCY.FADED_REMNANT_OF_RESILIENCE)",
+            "patch": "7.56"
+        },
+        "x638": {
+            "name_en": "Modern Aesthetics - Bun and the Beautiful",
+            "name_fr": "Méthode de coiffure “Chignon tressé”",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
+                "chest.232"
+            ],
+            "patch": "7.55"
+        }
+    }
+}

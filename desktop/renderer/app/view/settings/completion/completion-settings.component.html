@@ -1,0 +1,66 @@
+<div
+    class="setting bool"
+    [pTooltip]="'APP.SETTING.COMPLETION.COMPLETE_GROUP.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'APP.SETTING.COMPLETION.COMPLETE_GROUP.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.showCompletedGroups.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.showCompletedGroups)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'APP.SETTING.COMPLETION.EMPTY_GROUP.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'APP.SETTING.COMPLETION.EMPTY_GROUP.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.showEmptyGroups.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.showEmptyGroups)"
+    ></p-checkbox>
+</div>
+
+<br/>
+
+<div
+    class="setting bool"
+    [pTooltip]="'APP.SETTING.COMPLETION.COMPLETE_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'APP.SETTING.COMPLETION.COMPLETE_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.tableFilters.completed.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.completed)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'APP.SETTING.COMPLETION.INCOMPLETE_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'APP.SETTING.COMPLETION.INCOMPLETE_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.tableFilters.incomplete.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.incomplete)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'APP.SETTING.COMPLETION.EXCLUDED_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'APP.SETTING.COMPLETION.EXCLUDED_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.tableFilters.excluded.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.excluded)"
+    ></p-checkbox>
+</div>

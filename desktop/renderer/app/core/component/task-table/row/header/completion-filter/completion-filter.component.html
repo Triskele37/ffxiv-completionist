@@ -1,0 +1,27 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.TABLE.COMPLETION_FILTER"
+    class="completion-filter"
+>
+    <span>
+        <ng-icon
+            name="matCheck"
+            class="i-complete"
+            [ngClass]="{ enabled: svcTable.filter.completion.completed }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.Y)"
+        ></ng-icon>
+
+        <ng-icon
+            name="matClose"
+            class="i-incomplete"
+            [ngClass]="{ enabled: svcTable.filter.completion.incomplete }"
+            (click)="svcTable.filter.onFilterCompletion(Completion.N)"
+        ></ng-icon>
+    </span>
+
+    <ng-icon
+        name="matClose"
+        class="i-exclude"
+        [ngClass]="{ enabled: svcTable.filter.completion.excluded }"
+        (click)="svcTable.filter.onFilterCompletion(Completion.X)"
+    ></ng-icon>
+</span>

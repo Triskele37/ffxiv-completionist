@@ -1,0 +1,915 @@
+{
+    "key": "lost-actions",
+    "groupName_en": "Lost Actions",
+    "groupName_fr": "Actions oubliées",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "fragment": {
+            "filterable": true,
+            "header_en": "Forgotten Fragment",
+            "header_fr": "Éclat oublié"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "cCombo": ["a.2883"],
+    "tasks": {
+        "x0": {
+            "name_en": "Lost Focus",
+            "name_fr": "Focalisation oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Violence",
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
+        },
+        "x1": {
+            "name_en": "Lost Font of Magic",
+            "name_fr": "Fontaine de magie oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Sagacity",
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
+        },
+        "x2": {
+            "name_en": "Lost Font of Power",
+            "name_fr": "Fontaine de puissance oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Sagacity",
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
+        },
+        "x3": {
+            "name_en": "Lost Slash",
+            "name_fr": "Taillaide oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Violence",
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
+        },
+        "x4": {
+            "name_en": "Lost Death",
+            "name_fr": "Mort oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Violence",
+            "fragment_fr": "Élimination",
+            "patch": "5.35"
+        },
+        "x5": {
+            "name_en": "Banner of Noble Ends",
+            "name_fr": "Seuil de la frénésie",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x6": {
+            "name_en": "Banner of Honored Sacrifice",
+            "name_fr": "Seuil de l'abnégation",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x7": {
+            "name_en": "Banner of Honed Acuity",
+            "name_fr": "Seuil de la perception",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x8": {
+            "name_en": "Lost Fair Trade",
+            "name_fr": "Échange équitable oublié",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Caprice",
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
+        },
+        "x9": {
+            "name_en": "Lost Flare Star",
+            "name_fr": "Astre flamboyant oublié",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Clarity",
+            "fragment_fr": "Sagacité",
+            "patch": "5.35"
+        },
+        "x84": {
+            "name_en": "Lost Chainspell",
+            "name_fr": "Avalanche de sorts oubliée",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Artistry",
+            "fragment_fr": "Expertise",
+            "patch": "5.45"
+        },
+        "x85": {
+            "name_en": "Lost Assassination",
+            "name_fr": "Assassinat oublié",
+            "category_en": "Offensive",
+            "category_fr": "Attaquant",
+            "fragment_en": "Artistry",
+            "fragment_fr": "Expertise",
+            "patch": "5.45"
+        },
+        "x10": {
+            "name_en": "Lost Manawall",
+            "name_fr": "Mur de lana oublié",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x11": {
+            "name_en": "Banner of Tireless Conviction",
+            "name_fr": "Seuil de la patience",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x12": {
+            "name_en": "Banner of Firm Resolve",
+            "name_fr": "Seuil de la préservation",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x13": {
+            "name_en": "Lost Incense",
+            "name_fr": "Incitation oubliée",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x86": {
+            "name_en": "Lost Excellence",
+            "name_fr": "Excellence oubliée",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Heroism",
+            "fragment_fr": "Héroïsme",
+            "patch": "5.45"
+        },
+        "x87": {
+            "name_en": "Lost Blood Rage",
+            "name_fr": "Rage sanguinaire oubliée",
+            "category_en": "Defensive",
+            "category_fr": "Défenseur",
+            "fragment_en": "Cunning",
+            "fragment_fr": "Percée",
+            "patch": "5.45"
+        },
+        "x14": {
+            "name_en": "Banner of Solemn Clarity",
+            "name_fr": "Seuil de la contemplation",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Resolve",
+            "fragment_fr": "Résolution",
+            "patch": "5.35"
+        },
+        "x15": {
+            "name_en": "Lost Cure",
+            "name_fr": "Soin oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x16": {
+            "name_en": "Lost Cure II",
+            "name_fr": "Extra Soint oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Compassion",
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
+        },
+        "x17": {
+            "name_en": "Lost Cure III",
+            "name_fr": "Méga Soin oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x18": {
+            "name_en": "Lost Cure IV",
+            "name_fr": "Giga Soin oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Compassion",
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
+        },
+        "x19": {
+            "name_en": "Lost Arise",
+            "name_fr": "Maxi-Vie oubliée",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Compassion",
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
+        },
+        "x20": {
+            "name_en": "Lost Sacrifice",
+            "name_fr": "Sacrifice oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Loss",
+            "fragment_fr": "Altruisme",
+            "patch": "5.35"
+        },
+        "x88": {
+            "name_en": "Lost Reraise",
+            "name_fr": "Auréole oubliée",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Hope",
+            "fragment_fr": "Miracle",
+            "patch": "5.45"
+        },
+        "x89": {
+            "name_en": "Lost Full Cure",
+            "name_fr": "Maxi Soin oublié",
+            "category_en": "Restorative",
+            "category_fr": "Soigneur",
+            "fragment_en": "Revelation",
+            "fragment_fr": "Illumination",
+            "patch": "5.45"
+        },
+        "x21": {
+            "name_en": "Lost Spellforge",
+            "name_fr": "Forgesort oublié",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x22": {
+            "name_en": "Lost Steelsting",
+            "name_fr": "Morsure de l'acier oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x23": {
+            "name_en": "Lost Protect",
+            "name_fr": "Bouclier oublié",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x24": {
+            "name_en": "Lost Shell",
+            "name_fr": "Barrière oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x25": {
+            "name_en": "Lost Reflect",
+            "name_fr": "Miroir oublié",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Support",
+            "fragment_fr": "Support",
+            "patch": "5.35"
+        },
+        "x26": {
+            "name_en": "Lost Stoneskin",
+            "name_fr": "Cuirasse oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Support",
+            "fragment_fr": "Support",
+            "patch": "5.35"
+        },
+        "x27": {
+            "name_en": "Lost Bravery",
+            "name_fr": "Bravoure oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Support",
+            "fragment_fr": "Support",
+            "patch": "5.35"
+        },
+        "x28": {
+            "name_en": "Lost Aethershield",
+            "name_fr": "Égide d'éther oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Fortitude",
+            "fragment_fr": "Bravoure",
+            "patch": "5.35"
+        },
+        "x29": {
+            "name_en": "Lost Dervish",
+            "name_fr": "Célérité extrême oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Finesse",
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
+        },
+        "x90": {
+            "name_en": "Lost Stoneskin II",
+            "name_fr": "Extra Cuirasse oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Ferocity, Rage",
+            "fragment_fr": "Férocité",
+            "patch": "5.45"
+        },
+        "x91": {
+            "name_en": "Lost Protect II",
+            "name_fr": "Bouclier II oublié",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Desperation",
+            "fragment_fr": "Protection",
+            "patch": "5.45"
+        },
+        "x92": {
+            "name_en": "Lost Shell II",
+            "name_fr": "Barrière II oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Desperation",
+            "fragment_fr": "Protection",
+            "patch": "5.45"
+        },
+        "x93": {
+            "name_en": "Lost Bubble",
+            "name_fr": "Vitalité oubliée",
+            "category_en": "Beneficial",
+            "category_fr": "Auxiliaire",
+            "fragment_en": "Tenacity",
+            "fragment_fr": "Vivacité",
+            "patch": "5.45"
+        },
+        "x30": {
+            "name_en": "Lost Stealth",
+            "name_fr": "Furtivité oubliée",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Caution",
+            "fragment_fr": "Fougue",
+            "patch": "5.35"
+        },
+        "x31": {
+            "name_en": "Lost Swift",
+            "name_fr": "Vélocité oubliée",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x32": {
+            "name_en": "Lost Font of Skill",
+            "name_fr": "Fontaine de technique oubliée",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Sagacity",
+            "fragment_fr": "Tactique",
+            "patch": "5.35"
+        },
+        "x33": {
+            "name_en": "Mimic",
+            "name_fr": "Mime",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Caprice",
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
+        },
+        "x34": {
+            "name_en": "Lost Perception",
+            "name_fr": "Vision radar oubliée",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Observation",
+            "fragment_fr": "Observation",
+            "patch": "5.35"
+        },
+        "x94": {
+            "name_en": "Lost Impetus",
+            "name_fr": "Impulsion oubliée",
+            "category_en": "Tactical",
+            "category_fr": "Éclaireur",
+            "fragment_en": "Inspiration",
+            "fragment_fr": "Dynamisme",
+            "patch": "5.45"
+        },
+        "x35": {
+            "name_en": "Lost Paralyze III",
+            "name_fr": "Méga Paralysie oubliée",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x36": {
+            "name_en": "Lost Banish III",
+            "name_fr": "Méga Bannissement oublié",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x37": {
+            "name_en": "Lost Dispel",
+            "name_fr": "Dissipation oubliée",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Ingenuity",
+            "fragment_fr": "Maîtrise",
+            "patch": "5.35"
+        },
+        "x38": {
+            "name_en": "Lost Rend Armor",
+            "name_fr": "Brise-armure oublié",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Contention",
+            "fragment_fr": "Fine lame",
+            "patch": "5.35"
+        },
+        "x39": {
+            "name_en": "Lost Seraph Strike",
+            "name_fr": "Frappe séraphine oubliée",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Divinity",
+            "fragment_fr": "Oraison",
+            "patch": "5.35"
+        },
+        "x95": {
+            "name_en": "Lost Burst",
+            "name_fr": "Bouillonnement oublié",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Rage",
+            "fragment_fr": "Impétuosité",
+            "patch": "5.45"
+        },
+        "x96": {
+            "name_en": "Lost Rampage",
+            "name_fr": "Ravage oublié",
+            "category_en": "Detrimental",
+            "category_fr": "Sapeur",
+            "fragment_en": "Ferocity",
+            "fragment_fr": "Férocité",
+            "patch": "5.45"
+        },
+        "x40": {
+            "name_en": "Dynamis Dice",
+            "name_fr": "Dé du destin",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Caprice",
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
+        },
+        "x41": {
+            "name_en": "Resistance Phoenix",
+            "name_fr": "Plume de phénix de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Preparation",
+            "fragment_fr": "Soutien",
+            "patch": "5.35"
+        },
+        "x42": {
+            "name_en": "Resistance Reraiser",
+            "name_fr": "Vitaplume de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Care",
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
+        },
+        "x43": {
+            "name_en": "Resistance Potion Kit",
+            "name_fr": "Kit de potion de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Care",
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
+        },
+        "x44": {
+            "name_en": "Resistance Ether Kit",
+            "name_fr": "Kit d'éther de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Care",
+            "fragment_fr": "Guérison",
+            "patch": "5.35"
+        },
+        "x45": {
+            "name_en": "Resistance Medikit",
+            "name_fr": "Kit médical de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Compassion",
+            "fragment_fr": "Bénédiction",
+            "patch": "5.35"
+        },
+        "x46": {
+            "name_en": "Resistance Potion",
+            "name_fr": "Potion de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Preparation",
+            "fragment_fr": "Soutien",
+            "patch": "5.35"
+        },
+        "x47": {
+            "name_en": "Essence of the Aetherweaver",
+            "name_fr": "Breuvage magique de prêtre guerrier",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Skill",
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
+        },
+        "x48": {
+            "name_en": "Essence of the Martialist",
+            "name_fr": "Breuvage magique de protecteur intrépide",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Skill",
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
+        },
+        "x49": {
+            "name_en": "Essence of the Savior",
+            "name_fr": "Breuvage magique du vivificateur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Skill",
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
+        },
+        "x50": {
+            "name_en": "Essence of the Veteran",
+            "name_fr": "Breuvage magique de mage guerrier",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Skill",
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
+        },
+        "x51": {
+            "name_en": "Essence of the Platebearer",
+            "name_fr": "Breuvage magique de soldat cuirassé",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Skill",
+            "fragment_fr": "Perfectionnement",
+            "patch": "5.35"
+        },
+        "x52": {
+            "name_en": "Essence of the Guardian",
+            "name_fr": "Breuvage magique de gardien",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x53": {
+            "name_en": "Essence of the Ordained",
+            "name_fr": "Breuvage magique de prêtre",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x54": {
+            "name_en": "Essence of the Skirmisher",
+            "name_fr": "Breuvage magique de combattant",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x55": {
+            "name_en": "Essence of the Watcher",
+            "name_fr": "Breuvage magique d'éclaireur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x56": {
+            "name_en": "Essence of the Profane",
+            "name_fr": "Breuvage magique de prêtre hérétique",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x57": {
+            "name_en": "Essence of the Irregular",
+            "name_fr": "Breuvage magique de guerrier enragé",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x58": {
+            "name_en": "Essence of the Breathtaker",
+            "name_fr": "Breuvage magique de voleur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Awakening",
+            "fragment_fr": "Hypnose",
+            "patch": "5.35"
+        },
+        "x59": {
+            "name_en": "Essence of the Bloodsucker",
+            "name_fr": "Breuvage magique de vampire",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Superstition",
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
+        },
+        "x60": {
+            "name_en": "Essence of the Beast",
+            "name_fr": "Breuvage magique d'homme-loup",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Superstition",
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
+        },
+        "x61": {
+            "name_en": "Essence of the Templar",
+            "name_fr": "Breuvage magique de chevalier sacré",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Superstition",
+            "fragment_fr": "Croyance",
+            "patch": "5.35"
+        },
+        "x62": {
+            "name_en": "Deep Essence of the Aetherweaver",
+            "name_fr": "Breuvage miraculeux de prêtre guerrier",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Mastery",
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
+        },
+        "x63": {
+            "name_en": "Deep Essence of the Martialist",
+            "name_fr": "Breuvage miraculeux de protecteur intrépide",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Mastery",
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
+        },
+        "x64": {
+            "name_en": "Deep Essence of the Savior",
+            "name_fr": "Breuvage miraculeux de vivificateur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Mastery",
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
+        },
+        "x65": {
+            "name_en": "Deep Essence of the Veteran",
+            "name_fr": "Breuvage miraculeux de mage guerrier",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Mastery",
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
+        },
+        "x66": {
+            "name_en": "Deep Essence of the Platebearer",
+            "name_fr": "Breuvage miraculeux de soldat cuirassé",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Mastery",
+            "fragment_fr": "Exaltation",
+            "patch": "5.35"
+        },
+        "x67": {
+            "name_en": "Deep Essence of the Guardian",
+            "name_fr": "Breuvage miraculeux de gardien",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x68": {
+            "name_en": "Deep Essence of the Ordained",
+            "name_fr": "Breuvage miraculeux de prétre",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x69": {
+            "name_en": "Deep Essence of the Skirmisher",
+            "name_fr": "Breuvage miraculeux de combattant",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x70": {
+            "name_en": "Deep Essence of the Watcher",
+            "name_fr": "Breuvage miraculeux d'éclaireur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x71": {
+            "name_en": "Deep Essence of the Profane",
+            "name_fr": "Breuvage miraculeux de prêtre hérétique",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x72": {
+            "name_en": "Deep Essence of the Irregular",
+            "name_fr": "Breuvage miraculeux  de guerrier enragé",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x73": {
+            "name_en": "Deep Essence of the Breathtaker",
+            "name_fr": "Breuvage miraculeux de voleur",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Becoming",
+            "fragment_fr": "Transe",
+            "patch": "5.35"
+        },
+        "x74": {
+            "name_en": "Deep Essence of the Bloodsucker",
+            "name_fr": "Breuvage miraculeux de vampire",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Transcendence",
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
+        },
+        "x75": {
+            "name_en": "Deep Essence of the Beast",
+            "name_fr": "Breuvage miraculeux d'homme-loup",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Transcendence",
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
+        },
+        "x76": {
+            "name_en": "Deep Essence of the Templar",
+            "name_fr": "Breuvage miraculeux de chevalier sacré",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Transcendence",
+            "fragment_fr": "Aubaine",
+            "patch": "5.35"
+        },
+        "x77": {
+            "name_en": "Pure Essence of the Gambler",
+            "name_fr": "Breuvage érémétique de risque-tout",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Deception",
+            "fragment_fr": "Feinte",
+            "patch": "5.35"
+        },
+        "x78": {
+            "name_en": "Pure Essence of the Elder",
+            "name_fr": "Breuvage érémétique de sage",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Clarity",
+            "fragment_fr": "Sagacité",
+            "patch": "5.35"
+        },
+        "x79": {
+            "name_en": "Pure Essence of the Duelist",
+            "name_fr": "Breuvage érémétique de fine lame",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Contention",
+            "fragment_fr": "Fine lame",
+            "patch": "5.35"
+        },
+        "x80": {
+            "name_en": "Pure Essence of the Fiendhunter",
+            "name_fr": "Breuvage érémétique d'archer émérite",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Finesse",
+            "fragment_fr": "Finesse",
+            "patch": "5.35"
+        },
+        "x81": {
+            "name_en": "Pure Essence of the Indomitable",
+            "name_fr": "Breuvage érémétique de héros illustre",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Fortitude",
+            "fragment_fr": "Bravoure",
+            "patch": "5.35"
+        },
+        "x82": {
+            "name_en": "Pure Essence of the Divine",
+            "name_fr": "Breuvage érémétique de saint",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Divinity",
+            "fragment_fr": "Oraison",
+            "patch": "5.35"
+        },
+        "x97": {
+            "name_en": "Lodestone",
+            "name_fr": "Pierre de rapatriement",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "History",
+            "fragment_fr": "Distorsion",
+            "patch": "5.45"
+        },
+        "x98": {
+            "name_en": "Light Curtain",
+            "name_fr": "Rideau de lumière",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Moonlight",
+            "fragment_fr": "Clair de lune",
+            "patch": "5.45"
+        },
+        "x99": {
+            "name_en": "Resistance Elixir",
+            "name_fr": "Élixir de la résistance",
+            "category_en": "Item-Related",
+            "category_fr": "Objets",
+            "fragment_en": "Cunning, Heroism, Revelation",
+            "fragment_fr": "Percée, Héroïsme, Illumination",
+            "patch": "5.45"
+        }
+    }
+}

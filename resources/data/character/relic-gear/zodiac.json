@@ -1,0 +1,1097 @@
+{
+    "key": "zodiac",
+    "groupName_en": "Zodiac",
+    "groupName_fr": "Zodiaque",
+    "tasks": {
+        "x0": {
+            "name_en": "Artemis Bow",
+            "name_fr": "Arc d'Artémis",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [1],
+            "cSiblings": ["a.133"]
+        },
+        "x1": {
+            "name_en": "Artemis Bow Zenith",
+            "name_fr": "Arc d'Artémis zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "name_en": "Artemis Bow Atma",
+            "name_fr": "Arc d'Artémis âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "name_en": "Artemis Bow Animus",
+            "name_fr": "Arc d'Artémis animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [2],
+            "cNext": [4],
+            "cCombo": ["a.925"]
+        },
+        "x4": {
+            "name_en": "Artemis Bow Novus",
+            "name_fr": "Arc d'Artémis novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [3],
+            "cNext": [5],
+            "cCombo": ["a.926"]
+        },
+        "x5": {
+            "name_en": "Artemis Bow Nexus",
+            "name_fr": "Arc d'Artémis nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [4],
+            "cNext": [6],
+            "cCombo": ["a.1028"]
+        },
+        "x6": {
+            "name_en": "Yoichi Bow",
+            "name_fr": "Arc de Yoichi",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [5],
+            "cNext": [7],
+            "cCombo": ["a.1054"]
+        },
+        "x7": {
+            "name_en": "Yoichi Bow Zeta",
+            "name_fr": "Arc de Yoichi zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.BRD",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [6],
+            "cCombo": ["a.1081"]
+        },
+        "x8": {
+            "name_en": "Stardust Rod",
+            "name_fr": "Sceptre étoilé",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [9],
+            "cSiblings": ["a.135"]
+        },
+        "x9": {
+            "name_en": "Stardust Rod Zenith",
+            "name_fr": "Sceptre étoilé zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [8],
+            "cNext": [10]
+        },
+        "x10": {
+            "name_en": "Stardust Rod Atma",
+            "name_fr": "Sceptre étoilé âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [9],
+            "cNext": [11]
+        },
+        "x11": {
+            "name_en": "Stardust Rod Animus",
+            "name_fr": "Sceptre étoilé animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [10],
+            "cNext": [12],
+            "cCombo": ["a.925"]
+        },
+        "x12": {
+            "name_en": "Stardust Rod Novus",
+            "name_fr": "Sceptre étoilé novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [11],
+            "cNext": [13],
+            "cCombo": ["a.926"]
+        },
+        "x13": {
+            "name_en": "Stardust Rod Nexus",
+            "name_fr": "Sceptre étoilé nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [12],
+            "cNext": [14],
+            "cCombo": ["a.1028"]
+        },
+        "x14": {
+            "name_en": "Lilith Rod",
+            "name_fr": "Sceptre de Lilith",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [13],
+            "cNext": [15],
+            "cCombo": ["a.1054"]
+        },
+        "x15": {
+            "name_en": "Lilith Rod Zeta",
+            "name_fr": "Sceptre de Lilith zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.BLM",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [14],
+            "cCombo": ["a.1081"]
+        },
+        "x16": {
+            "name_en": "Gae Bolg",
+            "name_fr": "Gae bolg",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [17],
+            "cSiblings": ["a.132"]
+        },
+        "x17": {
+            "name_en": "Gae Bolg Zenith",
+            "name_fr": "Gae bolg zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [16],
+            "cNext": [18]
+        },
+        "x18": {
+            "name_en": "Gae Bolg Atma",
+            "name_fr": "Gae bolg âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [17],
+            "cNext": [19]
+        },
+        "x19": {
+            "name_en": "Gae Bolg Animus",
+            "name_fr": "Gae bolg animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [18],
+            "cNext": [20],
+            "cCombo": ["a.925"]
+        },
+        "x20": {
+            "name_en": "Gae Bolg Novus",
+            "name_fr": "Gae bolg novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [19],
+            "cNext": [21],
+            "cCombo": ["a.926"]
+        },
+        "x21": {
+            "name_en": "Gae Bolg Nexus",
+            "name_fr": "Gae bolg nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [20],
+            "cNext": [22],
+            "cCombo": ["a.1028"]
+        },
+        "x22": {
+            "name_en": "Longinus",
+            "name_fr": "Longinus",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [21],
+            "cNext": [23],
+            "cCombo": ["a.1054"]
+        },
+        "x23": {
+            "name_en": "Longinus Zeta",
+            "name_fr": "Longinus zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.DRG",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [22],
+            "cCombo": ["a.1081"]
+        },
+        "x24": {
+            "name_en": "Sphairai",
+            "name_fr": "Sphairai",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [25],
+            "cSiblings": ["a.130"]
+        },
+        "x25": {
+            "name_en": "Sphairai Zenith",
+            "name_fr": "Sphairai zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [24],
+            "cNext": [26]
+        },
+        "x26": {
+            "name_en": "Sphairai Atma",
+            "name_fr": "Sphairai âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [25],
+            "cNext": [27]
+        },
+        "x27": {
+            "name_en": "Sphairai Animus",
+            "name_fr": "Sphairai animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [26],
+            "cNext": [28],
+            "cCombo": ["a.925"]
+        },
+        "x28": {
+            "name_en": "Sphairai Novus",
+            "name_fr": "Sphairai novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [27],
+            "cNext": [29],
+            "cCombo": ["a.926"]
+        },
+        "x29": {
+            "name_en": "Sphairai Nexus",
+            "name_fr": "Sphairai nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [28],
+            "cNext": [30],
+            "cCombo": ["a.1028"]
+        },
+        "x30": {
+            "name_en": "Kaiser Knuckles",
+            "name_fr": "Griffes Kaiser",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [29],
+            "cNext": [31],
+            "cCombo": ["a.1054"]
+        },
+        "x31": {
+            "name_en": "Kaiser Knuckles Zeta",
+            "name_fr": "Griffes Kaiser zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.MNK",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [30],
+            "cCombo": ["a.1081"]
+        },
+        "x32": {
+            "name_en": "Yoshimitsu",
+            "name_fr": "Yoshimitsu",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.4",
+            "cNext": [33],
+            "cSiblings": ["a.1053"]
+        },
+        "x33": {
+            "name_en": "Yoshimitsu Zenith",
+            "name_fr": "Yoshimitsu zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.4",
+            "cPrev": [32],
+            "cNext": [34]
+        },
+        "x34": {
+            "name_en": "Yoshimitsu Atma",
+            "name_fr": "Yoshimitsu âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.4",
+            "cPrev": [33],
+            "cNext": [35]
+        },
+        "x35": {
+            "name_en": "Yoshimitsu Animus",
+            "name_fr": "Yoshimitsu animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.4",
+            "cPrev": [34],
+            "cNext": [36],
+            "cCombo": ["a.925"]
+        },
+        "x36": {
+            "name_en": "Yoshimitsu Novus",
+            "name_fr": "Yoshimitsu novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.4",
+            "cPrev": [35],
+            "cNext": [37],
+            "cCombo": ["a.926"]
+        },
+        "x37": {
+            "name_en": "Yoshimitsu Nexus",
+            "name_fr": "Yoshimitsu nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.4",
+            "cPrev": [36],
+            "cNext": [38],
+            "cCombo": ["a.1028"]
+        },
+        "x38": {
+            "name_en": "Sasuke's Blades",
+            "name_fr": "Sasuke",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [37],
+            "cNext": [39],
+            "cCombo": ["a.1054"]
+        },
+        "x39": {
+            "name_en": "Sasuke's Blades Zeta",
+            "name_fr": "Sasuke zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.NIN",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [38],
+            "cCombo": ["a.1081"]
+        },
+        "x40": {
+            "name_en": "Curtana",
+            "name_fr": "Curtana",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [41],
+            "cSiblings": ["a.129"]
+        },
+        "x41": {
+            "name_en": "Curtana Zenith",
+            "name_fr": "Curtana zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [40],
+            "cNext": [42]
+        },
+        "x42": {
+            "name_en": "Curtana Atma",
+            "name_fr": "Curtana âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [41],
+            "cNext": [43]
+        },
+        "x43": {
+            "name_en": "Curtana Animus",
+            "name_fr": "Curtana animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [42],
+            "cNext": [44],
+            "cCombo": ["a.925"]
+        },
+        "x44": {
+            "name_en": "Curtana Novus",
+            "name_fr": "Curtana novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [43],
+            "cNext": [45],
+            "cCombo": ["a.926"]
+        },
+        "x45": {
+            "name_en": "Curtana Nexus",
+            "name_fr": "Curtana nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [44],
+            "cNext": [46],
+            "cCombo": ["a.1028"]
+        },
+        "x46": {
+            "name_en": "Excalibur",
+            "name_fr": "Excalibur",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [45],
+            "cNext": [47],
+            "cCombo": ["a.1054"]
+        },
+        "x47": {
+            "name_en": "Excalibur Zeta",
+            "name_fr": "Excalibur zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.PLD",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [46],
+            "cCombo": ["a.1081"]
+        },
+        "x48": {
+            "name_en": "Omnilex",
+            "name_fr": "Omnilex",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [49],
+            "cSiblings": ["a.598"]
+        },
+        "x49": {
+            "name_en": "Omnilex Zenith",
+            "name_fr": "Omnilex zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [48],
+            "cNext": [50]
+        },
+        "x50": {
+            "name_en": "Omnilex Atma",
+            "name_fr": "Omnilex âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [49],
+            "cNext": [51]
+        },
+        "x51": {
+            "name_en": "Omnilex Animus",
+            "name_fr": "Omnilex animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [50],
+            "cNext": [52],
+            "cCombo": ["a.925"]
+        },
+        "x52": {
+            "name_en": "Omnilex Novus",
+            "name_fr": "Omnilex novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [51],
+            "cNext": [53],
+            "cCombo": ["a.926"]
+        },
+        "x53": {
+            "name_en": "Omnilex Nexus",
+            "name_fr": "Omnilex nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [52],
+            "cNext": [54],
+            "cCombo": ["a.1028"]
+        },
+        "x54": {
+            "name_en": "Last Resort",
+            "name_fr": "Dernier recours",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [53],
+            "cNext": [55],
+            "cCombo": ["a.1054"]
+        },
+        "x55": {
+            "name_en": "Last Resort Zeta",
+            "name_fr": "Dernier recours zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.SCH",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [54],
+            "cCombo": ["a.1081"]
+        },
+        "x56": {
+            "name_en": "The Veil of Wiyu",
+            "name_fr": "Œilvert",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [57],
+            "cSiblings": ["a.597"]
+        },
+        "x57": {
+            "name_en": "The Veil of Wiyu Zenith",
+            "name_fr": "Œilvert zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [56],
+            "cNext": [58]
+        },
+        "x58": {
+            "name_en": "The Veil of Wiyu Atma",
+            "name_fr": "Œilvert âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [57],
+            "cNext": [59]
+        },
+        "x59": {
+            "name_en": "The Veil of Wiyu Animus",
+            "name_fr": "Œilvert animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [58],
+            "cNext": [60],
+            "cCombo": ["a.925"]
+        },
+        "x60": {
+            "name_en": "The Veil of Wiyu Novus",
+            "name_fr": "Œilvert novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [59],
+            "cNext": [61],
+            "cCombo": ["a.926"]
+        },
+        "x61": {
+            "name_en": "The Veil of Wiyu Nexus",
+            "name_fr": "Œilvert nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [60],
+            "cNext": [62],
+            "cCombo": ["a.1028"]
+        },
+        "x62": {
+            "name_en": "Apocalypse",
+            "name_fr": "Apocalypse",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [61],
+            "cNext": [63],
+            "cCombo": ["a.1054"]
+        },
+        "x63": {
+            "name_en": "Apocalypse Zeta",
+            "name_fr": "Apocalypse zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.SMN",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [62],
+            "cCombo": ["a.1081"]
+        },
+        "x64": {
+            "name_en": "Bravura",
+            "name_fr": "Bravura",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [65],
+            "cSiblings": ["a.131"]
+        },
+        "x65": {
+            "name_en": "Bravura Zenith",
+            "name_fr": "Bravura zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [64],
+            "cNext": [66]
+        },
+        "x66": {
+            "name_en": "Bravura Atma",
+            "name_fr": "Bravura âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [65],
+            "cNext": [67]
+        },
+        "x67": {
+            "name_en": "Bravura Animus",
+            "name_fr": "Bravura animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [66],
+            "cNext": [68],
+            "cCombo": ["a.925"]
+        },
+        "x68": {
+            "name_en": "Bravura Novus",
+            "name_fr": "Bravura novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [67],
+            "cNext": [69],
+            "cCombo": ["a.926"]
+        },
+        "x69": {
+            "name_en": "Bravura Nexus",
+            "name_fr": "Bravura nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [68],
+            "cNext": [70],
+            "cCombo": ["a.1028"]
+        },
+        "x70": {
+            "name_en": "Ragnarok",
+            "name_fr": "Ragnarok",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [69],
+            "cNext": [71],
+            "cCombo": ["a.1054"]
+        },
+        "x71": {
+            "name_en": "Ragnarok Zeta",
+            "name_fr": "Ragnarok zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.WAR",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [70],
+            "cCombo": ["a.1081"]
+        },
+        "x72": {
+            "name_en": "Thyrus",
+            "name_fr": "Thyrse",
+            "iLevel": "80",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
+            "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
+            "patch": "2.0",
+            "cNext": [73],
+            "cSiblings": ["a.134"]
+        },
+        "x73": {
+            "name_en": "Thyrus Zenith",
+            "name_fr": "Thyrse zénith",
+            "iLevel": "90",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "Thavnairian Mists (60 Poetics) x3",
+            "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
+            "patch": "2.0",
+            "cPrev": [72],
+            "cNext": [74]
+        },
+        "x74": {
+            "name_en": "Thyrus Atma",
+            "name_fr": "Thyrse âtma",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.2",
+            "cPrev": [73],
+            "cNext": [75]
+        },
+        "x75": {
+            "name_en": "Thyrus Animus",
+            "name_fr": "Thyrse animus",
+            "iLevel": "100",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
+            "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
+            "patch": "2.2",
+            "cPrev": [74],
+            "cNext": [76],
+            "cCombo": ["a.925"]
+        },
+        "x76": {
+            "name_en": "Thyrus Novus",
+            "name_fr": "Thyrse novus",
+            "iLevel": "110",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
+            "requirements_fr": [
+                "Encre enchantée de haute qualité (25 Poétiques) x3",
+                "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
+            ],
+            "patch": "2.28",
+            "cPrev": [75],
+            "cNext": [77],
+            "cCombo": ["a.926"]
+        },
+        "x77": {
+            "name_en": "Thyrus Nexus",
+            "name_fr": "Thyrse nexus",
+            "iLevel": "115",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "-",
+            "requirements_fr": "-",
+            "patch": "2.38",
+            "cPrev": [76],
+            "cNext": [78],
+            "cCombo": ["a.1028"]
+        },
+        "x78": {
+            "name_en": "Nirvana",
+            "name_fr": "Nirvâna",
+            "iLevel": "125",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": [
+                "Bombard Core (20,000 GC Seals) x4",
+                "Sacred Spring Water (200 Poetics) x4",
+                "Bronze Lake Crystal (100,000 Gil)",
+                "Allagan Resin (100,000 Gil)",
+                "Furite Sand (100,000 Gil)",
+                "Brass Kettle (100,000 Gil)"
+            ],
+            "requirements_fr": [
+                "Noyau de grand monstre explosif (20.000 Sceaux GC) x4",
+                "Eau de montagne sacrée (200 Poétiques)",
+                "Cristal d'airain (100.000 gils)",
+                "Résine allagoise (100.000 gils)",
+                "Sable de halonite (100.000 gils)",
+                "Bouilloire en laiton (100.000 gils)"
+            ],
+            "patch": "2.45",
+            "cPrev": [77],
+            "cNext": [79],
+            "cCombo": ["a.1054"]
+        },
+        "x79": {
+            "name_en": "Nirvana Zeta",
+            "name_fr": "Nirvâna zêta",
+            "iLevel": "135",
+            "job": "@CLASS_JOB.WHM",
+            "requirements_en": "Mahatma (50 Poetics) x12",
+            "requirements_fr": "Mahatma (50 Poétiques) x12",
+            "patch": "2.51",
+            "cPrev": [78],
+            "cCombo": ["a.1081"]
+        }
+    }
+}

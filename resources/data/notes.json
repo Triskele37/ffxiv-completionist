@@ -1,0 +1,17 @@
+{
+    "key": "notes",
+    "groupName_en": "Notes",
+    "groupName_fr": "Notes",
+    "type": "Note",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME",
+            "taskLink": true
+        },
+        "_note": {
+            "header_en": "Note",
+            "header_fr": "Commentaire",
+            "editable": true
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "key": "a-realm-reborn-allied-society-quests",
+    "groupName_en": "A Realm Reborn Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés",
+    "tasks": {
+        "x67001": {
+            "name_en": "Call of the Wild (Twin Adder)",
+            "name_fr": "Rappelle-toi, Barbare (Deux Vipères)",
+            "level": 50,
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cNext": ["q.67004"],
+            "cExclude": ["q.67002", "q.67003"],
+            "patch": "2.35"
+        },
+        "x67002": {
+            "name_en": "Call of the Wild (Maelstrom)",
+            "name_fr": "Rappelle-toi, Barbare (Maelstrom)",
+            "level": 50,
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "cNext": ["q.67004"],
+            "cExclude": ["q.67001", "q.67003"],
+            "patch": "2.35"
+        },
+        "x67003": {
+            "name_en": "Call of the Wild (Immortal Flames)",
+            "name_fr": "Rappelle-toi, Barbare (Immortels)",
+            "level": 50,
+            "npc_en": "Mimio Mio",
+            "npc_fr": "Mimio Mio",
+            "cNext": ["q.67004"],
+            "cExclude": ["q.67002", "q.67001"],
+            "patch": "2.35"
+        },
+        "x67004": {
+            "name_en": "Little Sylphs Lost",
+            "name_fr": "Réflexions au Refuge",
+            "level": 50,
+            "npc_en": "Gavin",
+            "npc_fr": "Gavin",
+            "cPrev": ["q.67001", "q.67002", "q.67003"],
+            "cPrevAny": true,
+            "cNext": ["q.67005"],
+            "patch": "2.35"
+        },
+        "x67005": {
+            "name_en": "Clutching at Straws",
+            "name_fr": "Coup dur à la Couvée",
+            "level": 50,
+            "npc_en": "Voyce",
+            "npc_fr": "Voyce",
+            "cPrev": ["q.67004"],
+            "cNext": ["q.67006"],
+            "patch": "2.35"
+        },
+        "x67006": {
+            "name_en": "Digging for Answers",
+            "name_fr": "Désordre au 789e ordre",
+            "level": 50,
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "cPrev": ["q.67005"],
+            "cNext": ["q.67007"],
+            "patch": "2.35"
+        },
+        "x67007": {
+            "name_en": "Rattled in Ehcatl",
+            "name_fr": "Hécatombe sur Ehcatl",
+            "level": 50,
+            "npc_en": "Skaetswys",
+            "npc_fr": "Skaetswys",
+            "cPrev": ["q.67006"],
+            "cNext": ["q.67008"],
+            "patch": "2.35"
+        },
+        "x67008": {
+            "name_en": "Ash Not What Your Brotherhood Can Do for You",
+            "name_fr": "Intrigue à la Ligue",
+            "level": 50,
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "cPrev": ["q.67007"],
+            "cNext": ["q.67009"],
+            "patch": "2.35"
+        },
+        "x67009": {
+            "name_en": "Friends Forever",
+            "name_fr": "L'union des liens sacrés",
+            "level": 50,
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "cPrev": ["q.67008"],
+            "cSiblings": [
+                "character.character.societal-relations.4",
+                "character.character.societal-relations.9",
+                "character.character.societal-relations.14",
+                "character.character.societal-relations.19",
+                "character.character.societal-relations.27",
+                "a.1026"
+            ],
+            "patch": "2.35"
+        }
+    }
+}

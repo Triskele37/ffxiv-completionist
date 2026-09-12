@@ -1,0 +1,195 @@
+{
+    "key": "record",
+    "groupName_en": "Record",
+    "groupName_fr": "Enregistrement",
+    "columns": {
+        "entry": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "steps": {
+            "header_en": "Steps",
+            "header_fr": "Étapes"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "A Land of Abundance",
+            "name_fr": "A Land of Abundance",
+            "entry": "1",
+            "steps_en": ["Take the left path", "Interact with the damaged fence", "Attack Willful Wind"],
+            "steps_fr": ["Take the left path", "Interact with the damaged fence", "Attack Willful Wind"],
+            "patch": "7.45"
+        },
+        "x1": {
+            "name_en": "A Carpet Soars",
+            "name_fr": "A Carpet Soars",
+            "entry": "2",
+            "steps_en": ["Take the left path", "Interact with the damaged fence", "Ignore Willful Wind"],
+            "steps_fr": ["Take the left path", "Interact with the damaged fence", "Ignore Willful Wind"],
+            "patch": "7.45"
+        },
+        "x2": {
+            "name_en": "A Foe of Flame",
+            "name_fr": "A Foe of Flame",
+            "entry": "3",
+            "steps_en": [
+                "Take the left path",
+                "Interact with the damaged fence",
+                "Get hit by the AoE while next to the stone railing"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Interact with the damaged fence",
+                "Get hit by the AoE while next to the stone railing"
+            ],
+            "patch": "7.45"
+        },
+        "x3": {
+            "name_en": "Fragrant Fruits",
+            "name_fr": "Fragrant Fruits",
+            "entry": "4",
+            "steps_en": ["Take the left path", "Do not interact with the damaged fence"],
+            "steps_fr": ["Take the left path", "Do not interact with the damaged fence"],
+            "patch": "7.45"
+        },
+        "x4": {
+            "name_en": "The Sunlit Expanse",
+            "name_fr": "The Sunlit Expanse",
+            "entry": "5",
+            "steps_en": ["Take the right path", "Choose the dialog with 'seaweed'", "Allow the goobbue to inhale the rocks"],
+            "steps_fr": ["Take the right path", "Choose the dialog with 'seaweed'", "Allow the goobbue to inhale the rocks"],
+            "patch": "7.45"
+        },
+        "x5": {
+            "name_en": "Treasure at the Ocean's Floor",
+            "name_fr": "Treasure at the Ocean's Floor",
+            "entry": "6",
+            "steps_en": [
+                "Take the right path",
+                "Choose the dialog with 'seaweed'",
+                "Kill the goobbue before it inhales the rocks"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Choose the dialog with 'seaweed'",
+                "Kill the goobbue before it inhales the rocks"
+            ],
+            "patch": "7.45"
+        },
+        "x6": {
+            "name_en": "Ruler of the Radiant Sea",
+            "name_fr": "Ruler of the Radiant Sea",
+            "entry": "7",
+            "steps_en": ["Take the right path", "Choose the dialog with 'beach'", "Interact with the Giant Conch Shell"],
+            "steps_fr": ["Take the right path", "Choose the dialog with 'beach'", "Interact with the Giant Conch Shell"],
+            "patch": "7.45"
+        },
+        "x7": {
+            "name_en": "The Ocean's Bounty",
+            "name_fr": "The Ocean's Bounty",
+            "entry": "8",
+            "steps_en": [
+                "Take the right path",
+                "Choose the dialog with 'beach'",
+                "Do not interact with the Giant Conch Shell"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Choose the dialog with 'beach'",
+                "Do not interact with the Giant Conch Shell"
+            ],
+            "patch": "7.45"
+        },
+        "x8": {
+            "name_en": "Valley of Extremes",
+            "name_fr": "Valley of Extremes",
+            "entry": "9",
+            "steps_en": [
+                "Take the middle path",
+                "Choose the dialog with 'mushrooms'",
+                "Hit the 3 rock clusters with Stone Puppet's 'Magnetic Rock'"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Choose the dialog with 'mushrooms'",
+                "Hit the 3 rock clusters with Stone Puppet's 'Magnetic Rock'"
+            ],
+            "patch": "7.45"
+        },
+        "x9": {
+            "name_en": "A Blade Engraven",
+            "name_fr": "A Blade Engraven",
+            "entry": "10",
+            "steps_en": [
+                "Take the middle path",
+                "Choose the dialog with 'mushrooms'",
+                "Do not hit the 3 rock clusters with Stone Puppet's 'Magnetic Rock'"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Choose the dialog with 'mushrooms'",
+                "Do not hit the 3 rock clusters with Stone Puppet's 'Magnetic Rock'"
+            ],
+            "patch": "7.45"
+        },
+        "x10": {
+            "name_en": "Master of the Unyielding Blade",
+            "name_fr": "Master of the Unyielding Blade",
+            "entry": "11",
+            "steps_en": [
+                "Take the middle path",
+                "Choose the dialog with 'Floating rocks'",
+                "Stand near the 3 large rocks until they glow"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Choose the dialog with 'Floating rocks'",
+                "Stand near the 3 large rocks until they glow"
+            ],
+            "patch": "7.45"
+        },
+        "x11": {
+            "name_en": "In a Harsh Nature",
+            "name_fr": "In a Harsh Nature",
+            "entry": "12",
+            "steps_en": [
+                "Take the middle path",
+                "Choose the dialog with 'Floating rocks'",
+                "Do not stand near the 3 large rocks until they glow"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Choose the dialog with 'Floating rocks'",
+                "Do not stand near the 3 large rocks until they glow"
+            ],
+            "patch": "7.45"
+        },
+        "x12": {
+            "name_en": "The Eye of the Beholder",
+            "name_fr": "The Eye of the Beholder",
+            "entry": "13",
+            "steps_en": [
+                "Take the right path",
+                "Choose the dialog with 'seaweed'",
+                "/bow at the Shimmering Stage altar",
+                "/s I am returned!",
+                "Stand on the shapes in order (green, purple, magenta, blue)"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Choose the dialog with 'seaweed'",
+                "/bow at the Shimmering Stage altar",
+                "/s I am returned!",
+                "Stand on the shapes in order (green, purple, magenta, blue)"
+            ],
+            "patch": "7.45"
+        }
+    }
+}

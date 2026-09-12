@@ -1,0 +1,807 @@
+{
+    "key": "page-3",
+    "groupName_en": "Page 3",
+    "groupName_fr": "Page 3",
+    "tasks": {
+        "x201": {
+            "name_en": "Dream Goby",
+            "name_fr": "Gobie de rêve",
+            "bait": "@FISH.BAIT.CRAYFISH_BALL",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "primeLocation": "fh.75",
+            "patch": "2.2"
+        },
+        "x202": {
+            "name_en": "Navigator's Brand",
+            "name_fr": "Sabre de Llymlaen",
+            "bait": "@FISH.BAIT.YUMIZUNO",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.64",
+            "patch": "2.2"
+        },
+        "x203": {
+            "name_en": "Dark Ambusher",
+            "name_fr": "Gobie assassin",
+            "bait": "f.6",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "primeLocation": "fh.6",
+            "patch": "2.2"
+        },
+        "x204": {
+            "name_en": "Judgeray",
+            "name_fr": "Raie juge",
+            "bait": "@FISH.BAIT.WILDFOWL_FLY",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "primeLocation": "fh.19",
+            "patch": "2.2"
+        },
+        "x205": {
+            "name_en": "Bloody Brewer",
+            "name_fr": "Pipira sanguinaire",
+            "bait": "@FISH.BAIT.CRAYFISH_BALL",
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "primeLocation": "fh.91",
+            "patch": "2.2"
+        },
+        "x206": {
+            "name_en": "Faerie Queen",
+            "name_fr": "Reine des fées",
+            "bait": "@FISH.BAIT.SPINNERBAIT",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "primeLocation": "fh.50",
+            "patch": "2.2"
+        },
+        "x207": {
+            "name_en": "Slime King",
+            "name_fr": "Roi gluant",
+            "bait": "@FISH.BAIT.CRAYFISH_BALL",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "primeLocation": "fh.76",
+            "patch": "2.2"
+        },
+        "x208": {
+            "name_en": "Blue Widow",
+            "name_fr": "Veuve indigo",
+            "bait": "@FISH.BAIT.FLOATING_MINNOW",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "primeLocation": "fh.18",
+            "patch": "2.2"
+        },
+        "x209": {
+            "name_en": "Ghost Carp",
+            "name_fr": "Carpe fantôme",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "primeLocation": "fh.3",
+            "patch": "2.2"
+        },
+        "x210": {
+            "name_en": "Carp Diem",
+            "name_fr": "Carpe diem",
+            "bait": "@FISH.BAIT.CROW_FLY",
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "primeLocation": "fh.100",
+            "patch": "2.2"
+        },
+        "x211": {
+            "name_en": "Mud Pilgrim",
+            "name_fr": "Pèlerin de vase",
+            "bait": "@FISH.BAIT.MIDGE_BASKET",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "primeLocation": "fh.79",
+            "patch": "2.2"
+        },
+        "x212": {
+            "name_en": "Old Softie",
+            "name_fr": "Vieille Molly",
+            "bait": "@FISH.BAIT.BLOODWORM",
+            "zone": "@PLACE.ARR.CENTRAL_THANALAN",
+            "primeLocation": "fh.96",
+            "patch": "2.2"
+        },
+        "x213": {
+            "name_en": "Marrow Sucker",
+            "name_fr": "Escargot nécrophage",
+            "bait": "@FISH.BAIT.SYRPHID_BASKET",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "primeLocation": "fh.78",
+            "patch": "2.2"
+        },
+        "x214": {
+            "name_en": "Chirurgeon",
+            "name_fr": "Chirurgien",
+            "bait": "f.6",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "primeLocation": "fh.2",
+            "patch": "2.2"
+        },
+        "x215": {
+            "name_en": "Mud Golem",
+            "name_fr": "Golem de vase",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.73",
+            "patch": "2.2"
+        },
+        "x216": {
+            "name_en": "Octomammoth",
+            "name_fr": "Mégalopoulpe",
+            "bait": "f.15",
+            "zone": "@PLACE.ARR.LIMSA_LOMINSA_LOWER_DECKS",
+            "primeLocation": "fh.35",
+            "patch": "2.2"
+        },
+        "x217": {
+            "name_en": "Matron Carp",
+            "name_fr": "Carpe maîtresse",
+            "bait": "@FISH.BAIT.BLOODWORM",
+            "zone": "@PLACE.ARR.OLD_GRIDANIA",
+            "primeLocation": "fh.81",
+            "patch": "2.2"
+        },
+        "x218": {
+            "name_en": "High Perch",
+            "name_fr": "Grande perche",
+            "bait": "@FISH.BAIT.SINKING_MINNOW",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "primeLocation": "fh.41",
+            "patch": "2.2"
+        },
+        "x219": {
+            "name_en": "Syldra",
+            "name_fr": "Syldra",
+            "bait": "@FISH.BAIT.SPOON_WORM",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "primeLocation": "fh.45",
+            "patch": "2.2"
+        },
+        "x220": {
+            "name_en": "Rivet Oyster",
+            "name_fr": "Huître rivet",
+            "bait": "@FISH.BAIT.HEAVY_STEEL_JIG",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.70",
+            "patch": "2.2"
+        },
+        "x221": {
+            "name_en": "Jacques the Snipper",
+            "name_fr": "Jacques l'écorcheur",
+            "bait": "@FISH.BAIT.GOBY_BALL",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "primeLocation": "fh.46",
+            "patch": "2.2"
+        },
+        "x222": {
+            "name_en": "Stormdancer",
+            "name_fr": "Poisson rafale",
+            "bait": "@FISH.BAIT.STEM_BORER",
+            "zone": "@PLACE.ARR.NEW_GRIDANIA",
+            "primeLocation": "fh.90",
+            "patch": "2.2"
+        },
+        "x223": {
+            "name_en": "Glimmerscale",
+            "name_fr": "Cyprin de platine",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.72",
+            "patch": "2.2"
+        },
+        "x224": {
+            "name_en": "Cupfish",
+            "name_fr": "Poisson-flan",
+            "bait": "@FISH.BAIT.SYRPHID_BASKET",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "primeLocation": "fh.97",
+            "patch": "2.3"
+        },
+        "x225": {
+            "name_en": "Meteor Survivor",
+            "name_fr": "Survivant du météore",
+            "bait": "@FISH.BAIT.RAT_TAIL",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "primeLocation": "fh.48",
+            "patch": "2.3"
+        },
+        "x226": {
+            "name_en": "Joan of Trout",
+            "name_fr": "Jeanne de Truite",
+            "bait": "@FISH.BAIT.CROW_FLY",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "fh.67",
+            "patch": "2.3"
+        },
+        "x227": {
+            "name_en": "Toramafish",
+            "name_fr": "Poisson torama",
+            "bait": "f.119",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "fh.66",
+            "patch": "2.3"
+        },
+        "x228": {
+            "name_en": "Fingers",
+            "name_fr": "Doigts",
+            "bait": "@FISH.BAIT.NORTHERN_KRILL",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.71",
+            "patch": "2.3"
+        },
+        "x229": {
+            "name_en": "The Assassin",
+            "name_fr": "Assassin",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "primeLocation": "fh.10",
+            "patch": "2.3"
+        },
+        "x230": {
+            "name_en": "Vip Viper",
+            "name_fr": "Vipère-vipe",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.11",
+            "patch": "2.3"
+        },
+        "x231": {
+            "name_en": "The Greatest Bream in the World",
+            "name_fr": "Brème de Bianaq grandissime",
+            "bait": "@FISH.BAIT.SHRIMP_CAGE_FEEDER",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.51",
+            "patch": "2.3"
+        },
+        "x232": {
+            "name_en": "Dirty Herry",
+            "name_fr": "Hareng charognard",
+            "bait": "@FISH.BAIT.NORTHERN_KRILL",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.69",
+            "patch": "2.3"
+        },
+        "x233": {
+            "name_en": "Old Hollow Eyes",
+            "name_fr": "Vieux yeux creux",
+            "bait": "f.41",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.83",
+            "patch": "2.3"
+        },
+        "x234": {
+            "name_en": "Sylphsbane",
+            "name_fr": "Fléau des Sylphes",
+            "bait": "f.41",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "primeLocation": "fh.7",
+            "patch": "2.3"
+        },
+        "x235": {
+            "name_en": "Floating Boulder",
+            "name_fr": "Roche flottante",
+            "bait": "@FISH.BAIT.BASS_BALL",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.13",
+            "patch": "2.3"
+        },
+        "x236": {
+            "name_en": "The Grinner",
+            "name_fr": "Sourieuse",
+            "bait": "@FISH.BAIT.SYRPHID_BASKET",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.14",
+            "patch": "2.3"
+        },
+        "x237": {
+            "name_en": "Shark Tuna",
+            "name_fr": "Thon-requin",
+            "bait": "f.83",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.52",
+            "patch": "2.3"
+        },
+        "x238": {
+            "name_en": "Worm of Nym",
+            "name_fr": "Ver de Nym",
+            "bait": "@FISH.BAIT.BUTTERWORM",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "fh.98",
+            "patch": "2.3"
+        },
+        "x239": {
+            "name_en": "Twitchbeard",
+            "name_fr": "Barbe palpitante",
+            "bait": "f.83",
+            "zone": "@PLACE.ARR.MIST",
+            "primeLocation": "fh.104",
+            "patch": "2.3"
+        },
+        "x240": {
+            "name_en": "The Warden's Wand",
+            "name_fr": "Bâton du maton",
+            "bait": "@FISH.BAIT.HONEY_WORM",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "primeLocation": "fh.80",
+            "patch": "2.3"
+        },
+        "x241": {
+            "name_en": "Spearnose",
+            "name_fr": "Nez d'hast",
+            "bait": "@FISH.BAIT.CADDISFLY_LARVA",
+            "zone": "@PLACE.ARR.THE_GOBLET",
+            "primeLocation": "fh.106",
+            "patch": "2.3"
+        },
+        "x242": {
+            "name_en": "Levinlight",
+            "name_fr": "Fuildre",
+            "bait": "@FISH.BAIT.SYRPHID_BASKET",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "primeLocation": "fh.4",
+            "patch": "2.3"
+        },
+        "x243": {
+            "name_en": "The Sinker",
+            "name_fr": "Naufrageur",
+            "bait": "@FISH.BAIT.SINKING_MINNOW",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.12",
+            "patch": "2.3"
+        },
+        "x244": {
+            "name_en": "The Gobfather",
+            "name_fr": "Gobeuse de Gobelins",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.15",
+            "patch": "2.3"
+        },
+        "x245": {
+            "name_en": "Sweetnewt",
+            "name_fr": "Triton doucereux",
+            "bait": "f.31",
+            "zone": "@PLACE.ARR.THE_LAVENDER_BEDS",
+            "primeLocation": "fh.105",
+            "patch": "2.3"
+        },
+        "x246": {
+            "name_en": "Bombardfish",
+            "name_fr": "Poisson bombardo",
+            "bait": "@FISH.BAIT.HERRING_BALL",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.53",
+            "patch": "2.3"
+        },
+        "x247": {
+            "name_en": "The Salter",
+            "name_fr": "Saleur",
+            "bait": "@FISH.BAIT.HONEY_WORM",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.54",
+            "patch": "2.3"
+        },
+        "x248": {
+            "name_en": "The Lone Ripper",
+            "name_fr": "Éventreur solitaire",
+            "bait": "@FISH.BAIT.HEAVY_STEEL_JIG",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.61",
+            "patch": "2.3"
+        },
+        "x249": {
+            "name_en": "King of the Spring",
+            "name_fr": "Reine des sources",
+            "bait": "@FISH.BAIT.SPINNERBAIT",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "fh.68",
+            "patch": "2.3"
+        },
+        "x250": {
+            "name_en": "Discobolus",
+            "name_fr": "Discobole",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.84",
+            "patch": "2.3"
+        },
+        "x251": {
+            "name_en": "Iron Noose",
+            "name_fr": "Nœud de fer",
+            "bait": "@FISH.BAIT.SPINNER",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.85",
+            "patch": "2.3"
+        },
+        "x252": {
+            "name_en": "Olgoi-Khorkhoi",
+            "name_fr": "Olgoi-Khorkhoi",
+            "bait": "f.102",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.87",
+            "patch": "2.3"
+        },
+        "x253": {
+            "name_en": "Magic Carpet",
+            "name_fr": "Tapis volant",
+            "bait": "f.102",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.86",
+            "patch": "2.3"
+        },
+        "x254": {
+            "name_en": "Daniffen's Mark",
+            "name_fr": "Signe de Daniffen",
+            "bait": "@FISH.BAIT.WILDFOWL_FLY",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.26",
+            "patch": "2.3"
+        },
+        "x255": {
+            "name_en": "Charon's Lantern",
+            "name_fr": "Lanterne de Charon",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.31",
+            "patch": "2.3"
+        },
+        "x256": {
+            "name_en": "The Green Jester",
+            "name_fr": "Fou vert",
+            "bait": "@FISH.BAIT.HONEY_WORM",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "primeLocation": "fh.5",
+            "patch": "2.3"
+        },
+        "x257": {
+            "name_en": "Bloodbath",
+            "name_fr": "Bain de sang",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "primeLocation": "fh.92",
+            "patch": "2.3"
+        },
+        "x258": {
+            "name_en": "Son of Levin",
+            "name_fr": "Prince de la foudre",
+            "bait": "@FISH.BAIT.CADDISFLY_LARVA",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.16",
+            "patch": "2.3"
+        },
+        "x259": {
+            "name_en": "Thundergut",
+            "name_fr": "Boyau du tonnerre",
+            "bait": "@FISH.BAIT.STEM_BORER",
+            "zone": "@PLACE.ARR.OUTER_LA_NOSCEA",
+            "primeLocation": "fh.99",
+            "patch": "2.3"
+        },
+        "x260": {
+            "name_en": "The Drowned Sniper",
+            "name_fr": "Tireur noyé",
+            "bait": "@FISH.BAIT.SNURBLE_FLY",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.55",
+            "patch": "2.3"
+        },
+        "x261": {
+            "name_en": "The Terpsichorean",
+            "name_fr": "Terpsichorien",
+            "bait": "@FISH.BAIT.HONEY_WORM",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.56",
+            "patch": "2.3"
+        },
+        "x262": {
+            "name_en": "Mirrorscale",
+            "name_fr": "Écaille-miroir",
+            "bait": "f.41",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.57",
+            "patch": "2.3"
+        },
+        "x263": {
+            "name_en": "Helmsman's Hand",
+            "name_fr": "Main du timonier",
+            "bait": "f.12",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.62",
+            "patch": "2.3"
+        },
+        "x264": {
+            "name_en": "The Thousand-year Itch",
+            "name_fr": "Irritation millénaire",
+            "bait": "@FISH.BAIT.STEM_BORER",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "primeLocation": "fh.82",
+            "patch": "2.3"
+        },
+        "x265": {
+            "name_en": "Hannibal",
+            "name_fr": "Hannibal",
+            "bait": "f.119",
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
+            "primeLocation": "fh.89",
+            "patch": "2.3"
+        },
+        "x266": {
+            "name_en": "Dawn Maiden",
+            "name_fr": "Jouvencelle de l'aube",
+            "bait": "@FISH.BAIT.WILDFOWL_FLY",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.30",
+            "patch": "2.3"
+        },
+        "x267": {
+            "name_en": "Starbright",
+            "name_fr": "Lueur stellaire",
+            "bait": "f.24",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.28",
+            "patch": "2.3"
+        },
+        "x268": {
+            "name_en": "The Matriarch",
+            "name_fr": "Matriarche",
+            "bait": "f.24",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.32",
+            "patch": "2.3"
+        },
+        "x269": {
+            "name_en": "Shadowstreak",
+            "name_fr": "Trace d'ombre",
+            "bait": "@FISH.BAIT.TOPWATER_FROG",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "primeLocation": "fh.20",
+            "patch": "2.3"
+        },
+        "x270": {
+            "name_en": "The Captain's Chalice",
+            "name_fr": "Calice du capitaine",
+            "bait": "f.83",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.101",
+            "patch": "2.3"
+        },
+        "x271": {
+            "name_en": "Anomalocaris",
+            "name_fr": "Anomalocaris",
+            "bait": "f.134",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.34",
+            "patch": "2.3"
+        },
+        "x272": {
+            "name_en": "Frilled Shark",
+            "name_fr": "Requin frangé",
+            "bait": "f.169",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.65",
+            "patch": "2.3"
+        },
+        "x273": {
+            "name_en": "Aetherlouse",
+            "name_fr": "Pou d'éther",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.22",
+            "patch": "2.3"
+        },
+        "x274": {
+            "name_en": "Imperial Goldfish",
+            "name_fr": "Cyprin impérial",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.58",
+            "patch": "2.4"
+        },
+        "x275": {
+            "name_en": "The Old Man in the Sea",
+            "name_fr": "Vieil homme à la mer",
+            "bait": "f.58",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.107",
+            "patch": "2.4"
+        },
+        "x276": {
+            "name_en": "Nepto Dragon",
+            "name_fr": "Dragon de Nepto",
+            "bait": "@FISH.BAIT.NORTHERN_KRILL",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.108",
+            "patch": "2.4"
+        },
+        "x277": {
+            "name_en": "Coelacanthus",
+            "name_fr": "Coelacanthus",
+            "bait": "f.83",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.63",
+            "patch": "2.4"
+        },
+        "x278": {
+            "name_en": "Endoceras",
+            "name_fr": "Endoceras",
+            "bait": "f.83",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.63",
+            "patch": "2.4"
+        },
+        "x279": {
+            "name_en": "Seahag",
+            "name_fr": "Sorcière des mers",
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "primeLocation": "fh.102",
+            "patch": "2.4"
+        },
+        "x280": {
+            "name_en": "Ignus Horn",
+            "name_fr": "Corne infernale",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.25",
+            "patch": "2.4"
+        },
+        "x281": {
+            "name_en": "Void Bass",
+            "name_fr": "Bar du néant",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.23",
+            "patch": "2.4"
+        },
+        "x282": {
+            "name_en": "Cornelia",
+            "name_fr": "Cornelia",
+            "bait": "@FISH.BAIT.RAINBOW_SPOON_LURE",
+            "zone": "@PLACE.ARR.NORTH_SHROUD",
+            "primeLocation": "fh.21",
+            "patch": "2.4"
+        },
+        "x283": {
+            "name_en": "Ninja Betta",
+            "name_fr": "Betta ninja",
+            "bait": "f.130",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.24",
+            "patch": "2.4"
+        },
+        "x284": {
+            "name_en": "Canavan",
+            "name_fr": "Canavan",
+            "bait": "f.146",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.94",
+            "patch": "2.4"
+        },
+        "x285": {
+            "name_en": "Kuno the Killer",
+            "name_fr": "Kuno le tueur",
+            "bait": "f.130",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.94",
+            "patch": "2.4"
+        },
+        "x286": {
+            "name_en": "Pirate's Bane",
+            "name_fr": "Naufrageur de pirates",
+            "bait": "f.116",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.74",
+            "patch": "2.4"
+        },
+        "x287": {
+            "name_en": "Ndendecki",
+            "name_fr": "Ndendecki",
+            "bait": "f.130",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.103",
+            "patch": "2.4"
+        },
+        "x288": {
+            "name_en": "Bat-o'-Nine-Tails",
+            "name_fr": "Flagrum de mer",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "primeLocation": "fh.95",
+            "patch": "2.4"
+        },
+        "x289": {
+            "name_en": "Wootz Knifefish Zenith",
+            "name_fr": "Poisson couteau wootz zénith",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.NORTHERN_THANALAN",
+            "primeLocation": "fh.88",
+            "patch": "2.4"
+        },
+        "x290": {
+            "name_en": "Helicoprion",
+            "name_fr": "Hélicoprion",
+            "bait": "f.102",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "primeLocation": "fh.86",
+            "patch": "2.4"
+        },
+        "x291": {
+            "name_en": "Darkstar",
+            "name_fr": "Sombrétoile",
+            "bait": "f.24",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.29",
+            "patch": "2.4"
+        },
+        "x292": {
+            "name_en": "Blue Corpse",
+            "name_fr": "Cadavre bleu",
+            "bait": "@FISH.BAIT.CADDISFLY_LARVA",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.33",
+            "patch": "2.4"
+        },
+        "x293": {
+            "name_en": "Mahar",
+            "name_fr": "Mahar",
+            "bait": "f.134",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.27",
+            "patch": "2.4"
+        },
+        "x294": {
+            "name_en": "Shonisaurus",
+            "name_fr": "Shonisaurus",
+            "bait": "f.293",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "primeLocation": "fh.27",
+            "patch": "2.4"
+        },
+        "x295": {
+            "name_en": "Magicked Mushroom",
+            "name_fr": "Crabe hallucinogène",
+            "bait": "f.119",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "primeLocation": "fh.9",
+            "patch": "2.4"
+        },
+        "x296": {
+            "name_en": "Giant Takitaro",
+            "name_fr": "Takitaro géant",
+            "bait": "@FISH.BAIT.GLOWWORM",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.17",
+            "patch": "2.4"
+        },
+        "x297": {
+            "name_en": "Namitaro",
+            "name_fr": "Namitaro",
+            "bait": "@FISH.BAIT.TOPWATER_FROG",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "primeLocation": "fh.17",
+            "patch": "2.4"
+        },
+        "x298": {
+            "name_en": "Blood Red Bonytongue",
+            "name_fr": "Arowana sanguin",
+            "bait": "f.90",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "primeLocation": "fh.93",
+            "patch": "2.4"
+        },
+        "x299": {
+            "name_en": "Gigant Clam",
+            "name_fr": "Cocoquillage géant",
+            "bait": "@FISH.BAIT.HEAVY_STEEL_JIG",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "primeLocation": "fh.51",
+            "patch": "2.5"
+        },
+        "x300": {
+            "name_en": "Icepick",
+            "name_fr": "Pic-à-glace",
+            "bait": "@FISH.BAIT.CADDISFLY_LARVA",
+            "zone": "@PLACE.HW.COERTHAS_WESTERN_HIGHLANDS",
+            "primeLocation": "fh.111",
+            "patch": "3.0"
+        }
+    }
+}

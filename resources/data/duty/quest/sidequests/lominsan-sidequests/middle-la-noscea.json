@@ -1,0 +1,78 @@
+{
+    "key": "middle-la-noscea",
+    "groupName_en": "Middle La Noscea",
+    "groupName_fr": "Noscea centrale",
+    "tasks": {
+        "x66007": {
+            "name_en": "Rocks in a Hard Place",
+            "name_fr": "Aménagement agricole",
+            "level": 5,
+            "npc_en": "Grynewyda",
+            "npc_fr": "Grynewyda",
+            "patch": "2.0"
+        },
+        "x66008": {
+            "name_en": "The Time Is Ripe",
+            "name_fr": "Les fruits du soleil",
+            "level": 6,
+            "npc_en": "Bhirdraeg",
+            "npc_fr": "Bhirdraeg",
+            "patch": "2.0",
+            "cPrev": ["q.65998"],
+            "cNext": ["q.66009"]
+        },
+        "x66006": {
+            "name_en": "Yarzon, Yarzoff",
+            "name_fr": "Une rivière source de danger",
+            "level": 7,
+            "npc_en": "Ostfyr",
+            "npc_fr": "Ostfyr",
+            "patch": "2.0"
+        },
+        "x66009": {
+            "name_en": "Orange Crush",
+            "name_fr": "Touche pas à mes petites bêtes",
+            "level": 7,
+            "npc_en": "Bhirdraeg",
+            "npc_fr": "Bhirdraeg",
+            "patch": "2.0",
+            "cPrev": ["q.66008"]
+        },
+        "x66010": {
+            "name_en": "A Pound of Cure",
+            "name_fr": "Remède contre les bagarres",
+            "level": 8,
+            "npc_en": "Khanmhar",
+            "npc_fr": "Khanmhar",
+            "patch": "2.0",
+            "cPrev": ["q.66002"]
+        },
+        "x65935": {
+            "name_en": "Out to Dry",
+            "name_fr": "Sans se serrer la pince",
+            "level": 10,
+            "npc_en": "W'dhovaka",
+            "npc_fr": "W'dhovaka",
+            "patch": "2.0"
+        },
+        "x65936": {
+            "name_en": "Keeping It Fresh",
+            "name_fr": "Il est frais, mon poisson",
+            "level": 10,
+            "npc_en": "Kazai Buoyzai",
+            "npc_fr": "Kazai Buoyzai",
+            "patch": "2.0",
+            "cPrev": ["q.65933"],
+            "cNext": ["q.65937"]
+        },
+        "x65937": {
+            "name_en": "Baiting Buzzards",
+            "name_fr": "Busard, vous avez dit busard",
+            "level": 10,
+            "npc_en": "Kazai Buoyzai",
+            "npc_fr": "Kazai Buoyzai",
+            "patch": "2.0",
+            "cPrev": ["q.65936"]
+        }
+    }
+}

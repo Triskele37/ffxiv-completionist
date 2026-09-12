@@ -1,0 +1,498 @@
+{
+    "key": "botanist",
+    "groupName": "@CLASS_JOB.BTN",
+    "tasks": {
+        "x539": {
+            "name_en": "Medicinal Sclerotia",
+            "name_fr": "Noyaux fongiques aux propriétés médicinales",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_B",
+            "patch": "7.21"
+        },
+        "x540": {
+            "name_en": "Sporing Mist Analysis",
+            "name_fr": "Étude de l'impact du nuage de spores",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_B",
+            "patch": "7.21"
+        },
+        "x541": {
+            "name_en": "Mutated Spongoi",
+            "name_fr": "Champignons comestibles",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_A",
+            "patch": "7.21"
+        },
+        "x439": {
+            "name_en": "EX: Hub Vicinity Gathering II",
+            "name_fr": "EX : Étude des ressources aux alentours de la station",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.438",
+            "patch": "7.21"
+        },
+        "x441": {
+            "name_en": "EX: High-grade Energization Materials II",
+            "name_fr": "EX : Matériaux pour générateurs à haute énergie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.440",
+            "patch": "7.21"
+        },
+        "x442": {
+            "name_en": "EX+: High-grade Energization Materials III",
+            "name_fr": "EX+ : Matériaux pour générateurs à haute énergie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.441",
+            "patch": "7.21"
+        },
+        "x444": {
+            "name_en": "EX+: Fine-grade Water Filter Materials II",
+            "name_fr": "EX+ : Composants de filtre à eau avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.443",
+            "patch": "7.21"
+        },
+        "x446": {
+            "name_en": "EX+: Fine-grade Air Filter Materials III",
+            "name_fr": "EX : Composants de filtre à air avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.447",
+            "patch": "7.21"
+        },
+        "x447": {
+            "name_en": "EX: Fine-grade Air Filter Materials II",
+            "name_fr": "EX+ : Composants de filtre à air avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.445",
+            "patch": "7.21"
+        },
+        "x449": {
+            "name_en": "EX+: Folkloric Materials II",
+            "name_fr": "EX+ : Matériaux de légende II",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.448",
+            "patch": "7.21"
+        },
+        "x450": {
+            "name_en": "EX+: Folkloric Materials III",
+            "name_fr": "EX+ : Matériaux de légende III",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.449",
+            "patch": "7.21"
+        },
+        "x445": {
+            "name_en": "Fine-grade Air Filter Materials I",
+            "name_fr": "Composants de filtre à air avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1000-1200",
+            "patch": "7.21"
+        },
+        "x448": {
+            "name_en": "EX+: Folkloric Materials I",
+            "name_fr": "EX+ : Matériaux de légende",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2200-2400",
+            "patch": "7.21"
+        },
+        "x435": {
+            "name_en": "EX: Precise Lunar Nadir Survey",
+            "name_fr": "EX : Étude approfondie du Nadir lunaire",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x436": {
+            "name_en": "EX+: Rare Material Extraction",
+            "name_fr": "EX+ : Récupération de matériaux rares",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x437": {
+            "name_en": "EX+: Supplemental Processing Materials",
+            "name_fr": "EX+ : Matériaux auxiliaires pour transformation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x505": {
+            "name_en": "EX+: Lunar Tools",
+            "name_fr": "EX+ : Outils pour la récolte de matériaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x506": {
+            "name_en": "EX+: High Burn Furnace",
+            "name_fr": "EX+ : Fabrication de fours à haute température",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x507": {
+            "name_en": "EX+: Mushroom-borne Comfort",
+            "name_fr": "EX+ : Champignons d'intérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x427": {
+            "name_en": "Tanning Agents",
+            "name_fr": "Nouveaux matériaux de tannerie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x428": {
+            "name_en": "Experimental Cultivars",
+            "name_fr": "Végétation de la zone expérimentale",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x429": {
+            "name_en": "Fiberboard Materials",
+            "name_fr": "Matériaux pour panneaux en fibre",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x430": {
+            "name_en": "Fungi Collection",
+            "name_fr": "Récolte continue de champignons séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x431": {
+            "name_en": "Fiber Collection Appraisal",
+            "name_fr": "Techniques d'acquisition de fibre",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x432": {
+            "name_en": "EX: Precise Survey",
+            "name_fr": "EX : Étude des sols avancée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x433": {
+            "name_en": "EX: Alchemical Refinement Materials",
+            "name_fr": "EX : Extraction d'ingrédients d'alchimie pour éthérolyse",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x434": {
+            "name_en": "EX: Southwestern Survey",
+            "name_fr": "EX : Étude des ressources au sud-ouest",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x438": {
+            "name_en": "Hub Vicinity Gathering I",
+            "name_fr": "Étude des ressources aux alentours de la station",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x440": {
+            "name_en": "High-grade Energization Materials I",
+            "name_fr": "Matériaux pour générateurs à haute énergie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x443": {
+            "name_en": "EX: Fine-grade Water Filter Materials I",
+            "name_fr": "EX : Composants de filtre à eau avancé",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x502": {
+            "name_en": "EX: Lunar Tanning Agents",
+            "name_fr": "EX : Approvisionnement en matériaux de tannerie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x503": {
+            "name_en": "EX: Special Spongoi Processing",
+            "name_fr": "EX : Traitement de mycélium rare",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x504": {
+            "name_en": "EX: Freshness Preservation",
+            "name_fr": "EX : Transformation d'aliments frais",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x419": {
+            "name_en": "Outer Sector Survey",
+            "name_fr": "Étude des sols du secteur extérieur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x420": {
+            "name_en": "Insulation Materials",
+            "name_fr": "Matériaux résistants à la chaleur",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x421": {
+            "name_en": "Thick Fiberboard Materials",
+            "name_fr": "Matériaux pour panneaux en fibre épais",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x422": {
+            "name_en": "Blue Fiber Collection Appraisal",
+            "name_fr": "Récolte continue de fibre bleue",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x423": {
+            "name_en": "Technique Appraisal",
+            "name_fr": "Programme de recherche des techniques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x424": {
+            "name_en": "Energization Materials",
+            "name_fr": "Matériaux pour générateurs d'énergie",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x425": {
+            "name_en": "Fine-grade Processing Materials",
+            "name_fr": "Matériaux pour transformation avancée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x426": {
+            "name_en": "Stellar Repair Materials",
+            "name_fr": "Matériaux de haute qualité pour réparations",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x412": {
+            "name_en": "Central Radius Survey",
+            "name_fr": "Étude des sols du secteur central",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x413": {
+            "name_en": "Processing Fibers",
+            "name_fr": "Fibres pour transformation",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x414": {
+            "name_en": "Thin Fiberboard Materials",
+            "name_fr": "Matériaux pour panneaux en fibre fins",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x415": {
+            "name_en": "Sustained Productivity Review",
+            "name_fr": "Évaluation des méthodes de récolte en continu",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x416": {
+            "name_en": "Material Collection Appraisal",
+            "name_fr": "Évaluation des méthodes d'obtention de matériaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x417": {
+            "name_en": "Branch Collection",
+            "name_fr": "Nouveaux points de collecte de branchages",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x418": {
+            "name_en": "Water Filter Materials",
+            "name_fr": "Matériaux pour filtres à eau",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x406": {
+            "name_en": "Hub Vicinity Survey",
+            "name_fr": "Étude des sols aux alentours de la station",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x407": {
+            "name_en": "Eastern Vicinity Survey",
+            "name_fr": "Étude des ressources à l'est",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x408": {
+            "name_en": "Productivity Review",
+            "name_fr": "Enquête sur les normes de travail",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x409": {
+            "name_en": "Hydrofication Materials",
+            "name_fr": "Matériaux d'essai pour la purification de l'eau",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x410": {
+            "name_en": "Multi-purpose Fiberboard Materials",
+            "name_fr": "Matériaux pour panneaux en fibre multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x411": {
+            "name_en": "Air Filter Materials",
+            "name_fr": "Matériaux pour filtres à air",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+- On Laptop
+	- Some components had solid black background on several themes
+		- Prime Tab, Inputs, History Overlay, Divider text
+		- different npm install?
+	- Dev save wasn't default (went to standard Roaming)
+
+- Probably both
+	- Bookmarks & Custom need a "no data" display
+	- Work "disableCompletion" into partials, so standard Emotes don't cause immediate completion for a fresh save
+	- `optimization` still disabled on build
+	    - still an issue after build rework
+
+- External action icons stop loading after 1st refresh in dev O_o
+
+- Missing Data
+    - Fish Bait
+
+- Table flickering on filter and select is out of hand

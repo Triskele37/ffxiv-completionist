@@ -1,0 +1,62 @@
+@use 'sizes';
+
+:host {
+    $button-size: 26px;
+
+    display: contents;
+
+    .actions-cell {
+        vertical-align: middle;
+        width: 45px;
+
+        // Prevent content from affecting row heights
+        .content-container {
+            max-height: sizes.$table-row-height;
+        }
+
+        .action-dial {
+            margin: calc(((#{sizes.$table-row-height} - $button-size) / 2) - 1px);
+            padding: 0;
+
+            .p-button, ng-icon {
+                height: $button-size;
+                width: $button-size;
+            }
+        }
+
+        .actions-container {
+            position: absolute;
+            right: 4px;
+            margin-top: -32px;
+            z-index: 1;
+            cursor: default;
+
+            .actions {
+                display: flex;
+
+                > * {
+                    position: relative;
+
+                    &:not(:last-child):after {
+                        content: "";
+                        background: var(--surface-500);
+                        border: 1px solid var(--primary-color);
+
+                        width: 35px;
+                        height: $button-size - 1px;
+
+                        top: 0;
+                        left: calc(35px / 2);
+                        position: absolute;
+                        z-index: -1;
+                    }
+                }
+
+                .close-dial {
+                    background: var(--surface-500);
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

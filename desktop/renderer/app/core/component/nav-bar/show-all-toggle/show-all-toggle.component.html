@@ -1,0 +1,17 @@
+@if(isShowAllVisible()) {
+    @let enabled = svcNavigation.allTaskViewEnabled();
+    <button
+        data-active-help="APP.ACTIVE_HELP.NAV_BAR.SHOW_ALL_TOGGLE"
+        pButton
+        tooltipPosition="bottom"
+        [pTooltip]="(enabled ? 'APP.TABLE.HIDE_ALL' : 'APP.TABLE.SHOW_ALL') | translate"
+        (click)="emitShowAllChange(!enabled)"
+    >
+        @if(enabled) {
+            <ng-icon name="matCloseFullscreen"></ng-icon>
+        }
+        @else {
+            <ng-icon name="matOpenInFull"></ng-icon>
+        }
+    </button>
+}

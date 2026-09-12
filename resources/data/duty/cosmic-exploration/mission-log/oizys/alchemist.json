@@ -1,0 +1,278 @@
+{
+    "key": "alchemist",
+    "groupName": "@CLASS_JOB.ALC",
+    "tasks": {
+        "x1360": {
+            "name_en": "Ruin Remedy",
+            "name_fr": "Agent nettoyant pour restauration",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_A",
+            "patch": "7.41"
+        },
+        "x1361": {
+            "name_en": "Emergency Salves",
+            "name_fr": "Onguent pour premiers secours",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_B",
+            "patch": "7.41"
+        },
+        "x1234": {
+            "name_en": "EX+: Cosmic Tool Enhancement II",
+            "name_fr": "EX+ : Amélioration des outils cosmiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1233",
+            "patch": "7.41"
+        },
+        "x1235": {
+            "name_en": "EX+: Cosmic Tool Enhancement III",
+            "name_fr": "EX+ : Perfectionnement des outils cosmiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1234",
+            "patch": "7.41"
+        },
+        "x1231": {
+            "name_en": "EX+: Terminal Restoration Supplies",
+            "name_fr": "EX+ : Matériaux pour la restauration des structures cristallines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.41"
+        },
+        "x1233": {
+            "name_en": "EX+: Cosmic Tool Enhancement I",
+            "name_fr": "EX+ : Renforcement des outils cosmiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0600-0800",
+            "patch": "7.41"
+        },
+        "x1230": {
+            "name_en": "EX: Outskirts Supply Improvements",
+            "name_fr": "EX : Amélioration du ravitaillement des postes extérieurs",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1232": {
+            "name_en": "EX+: Excavation Materials",
+            "name_fr": "EX+ : Matériaux pour fouilles archéologiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1221": {
+            "name_en": "High-purity Water",
+            "name_fr": "Obtention d'eau ultra-pure",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1222": {
+            "name_en": "Advanced Communicator Ferrofluid",
+            "name_fr": "Ferrofluide pour matériel de communication avancé",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1223": {
+            "name_en": "Ruin Reinforcement Components",
+            "name_fr": "Matériaux de renforcement des ruines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1224": {
+            "name_en": "Recycled Fuel Research III",
+            "name_fr": "Amélioration de l'élaboration de carburant recyclé",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1225": {
+            "name_en": "High-quality Foodstuffs II",
+            "name_fr": "Amélioration des réserves d'aliments préservés de qualité",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1226": {
+            "name_en": "High-quality Foodstuffs III",
+            "name_fr": "Perfectionnement des réserves d'aliments préservés de qualité",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1227": {
+            "name_en": "EX: Archon Loaf Improvement Plan",
+            "name_fr": "EX : Amélioration du sagepain",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1228": {
+            "name_en": "EX: Refined Yeast Research",
+            "name_fr": "EX : Recherche sur les levures",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1229": {
+            "name_en": "EX: Experimental Fermentation",
+            "name_fr": "EX : Inspection des cultures",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1216": {
+            "name_en": "Water Supply Samples",
+            "name_fr": "Échantillons de sources d'eau",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1217": {
+            "name_en": "Mammet Ferrofluid",
+            "name_fr": "Ferrofluide pour poupées magiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1218": {
+            "name_en": "Windproof Materials",
+            "name_fr": "Aide à la fabrication de matériaux résistants aux tempêtes",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1219": {
+            "name_en": "Recycled Fuel Research II",
+            "name_fr": "Support à l'élaboration de combustibles recyclés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1220": {
+            "name_en": "High-quality Foodstuffs I",
+            "name_fr": "Réserves d'aliments préservés de qualité",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1212": {
+            "name_en": "Water Supply Preservation",
+            "name_fr": "Protection des sources d'eau",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1213": {
+            "name_en": "Precision Instrument Ferrofluid",
+            "name_fr": "Ferrofluide pour machines de précision",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1214": {
+            "name_en": "Refined Quakeproof Materials",
+            "name_fr": "Amélioration des matériaux antisismiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1215": {
+            "name_en": "Recycled Fuel Refinement",
+            "name_fr": "Amélioration des combustibles recyclés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1208": {
+            "name_en": "Emergency Water Supply",
+            "name_fr": "Réserves d'eau d'urgence",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1209": {
+            "name_en": "Survey Ferrofluid",
+            "name_fr": "Ferrofluide pour matériel d'exploration",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1210": {
+            "name_en": "Quakeproof Materials",
+            "name_fr": "Aide à la fabrication de matériaux antisismiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1211": {
+            "name_en": "Recycled Fuel Research I",
+            "name_fr": "Recherche sur les combustibles recyclés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}

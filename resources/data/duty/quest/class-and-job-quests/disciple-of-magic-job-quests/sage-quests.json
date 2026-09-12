@@ -1,0 +1,69 @@
+{
+    "key": "sage-quests",
+    "groupName_en": "Sage Quests",
+    "groupName_fr": "Quêtes de sage",
+    "tasks": {
+        "x69603": {
+            "name_en": "Sage's Path",
+            "name_fr": "Le serment du sage",
+            "level": 70,
+            "npc_en": "Sharlayan Maiden",
+            "npc_fr": "Jeune Fille Au Style Nordique",
+            "unlock": "ap.172",
+            "patch": "6.0",
+            "cNext": ["q.69604"],
+            "cSiblings": ["ap.172"]
+        },
+        "x69604": {
+            "name_en": "Sage's Focus",
+            "name_fr": "Principes de noologie",
+            "level": 70,
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "patch": "6.0",
+            "cPrev": ["q.69603"],
+            "cNext": ["q.69605"]
+        },
+        "x69605": {
+            "name_en": "Sands of Despair",
+            "name_fr": "Sur la piste du chicotin",
+            "level": 73,
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "patch": "6.0",
+            "cPrev": ["q.69604"],
+            "cNext": ["q.69606"]
+        },
+        "x69606": {
+            "name_en": "A Poisoned Gift",
+            "name_fr": "Le vrai visage du bon docteur",
+            "level": 75,
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "patch": "6.0",
+            "cPrev": ["q.69605"],
+            "cNext": ["q.69607"]
+        },
+        "x69607": {
+            "name_en": "Pledge of Hope",
+            "name_fr": "Devoir et espoir",
+            "level": 78,
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "patch": "6.0",
+            "cPrev": ["q.69606"],
+            "cNext": ["q.69608"]
+        },
+        "x69608": {
+            "name_en": "Life Ephemeral, Path Eternal",
+            "name_fr": "Existences éphémères et savoir éternel",
+            "level": 80,
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "unlock": "ap.307",
+            "patch": "6.0",
+            "cPrev": ["q.69607"],
+            "cSiblings": ["ap.307", "a.2960"]
+        }
+    }
+}

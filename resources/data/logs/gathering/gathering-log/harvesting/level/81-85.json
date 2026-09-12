@@ -1,0 +1,221 @@
+{
+    "key": "81-85",
+    "groupName_en": "81-85",
+    "groupName_fr": "81-85",
+    "tasks": {
+        "x675": {
+            "name_en": "Iceberg Lettuce",
+            "name_fr": "Laitue iceberg",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(28.0, 17.0)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x674": {
+            "name_en": "Dark Rye",
+            "name_fr": "Seigle noir",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(28.0, 17.0)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x673": {
+            "name_en": "Dark Hemp",
+            "name_fr": "Mûrier à papier",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(28.0, 17.0)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x697": {
+            "name_en": "Aetheroconductive Feather",
+            "name_fr": "Composants de matériel d'écriture scolaire",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(28.0, 17.0)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.mining.level.81-85.697"]
+        },
+        "x698": {
+            "name_en": "Aetheroconductive Focus Materials",
+            "name_fr": "Composants de fournitures scolaires magiques",
+            "level": "81",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(22.5, 9.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.698"]
+        },
+        "x712": {
+            "name_en": "Raw Sheep Fodder",
+            "name_fr": "Pâture pour mouton",
+            "level": "81",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "coordinates": "(16.8, 10.0)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.125",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.712"]
+        },
+        "x739": {
+            "name_en": "Cushion Care Package Materials",
+            "name_fr": "Matériau pour amélioration de confort d'assise",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(28.0, 17.0)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.5"
+        },
+        "x691": {
+            "name_en": "Hannish Staple",
+            "name_fr": "Élément nécessaire à la reproduction de la culture de Radz-at-Han",
+            "level": "81",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(22.5, 9.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "patch": "6.0"
+        },
+        "x677": {
+            "name_en": "Thavnairian Paprika",
+            "name_fr": "Poivron de Thavnair",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(22.5, 9.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "patch": "6.0"
+        },
+        "x676": {
+            "name_en": "Thavnairian Perilla Leaf",
+            "name_fr": "Périlla thavnairoise",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(22.5, 9.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "patch": "6.0"
+        },
+        "x713": {
+            "name_en": "Combustible Fuel",
+            "name_fr": "Charbon",
+            "level": "82",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "coordinates": "(13.2, 11.1)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.713"]
+        },
+        "x740": {
+            "name_en": "Feline Fascinators",
+            "name_fr": "Friandise pour bien-être félin",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(22.5, 9.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "patch": "6.5"
+        },
+        "x678": {
+            "name_en": "Cucumber",
+            "name_fr": "Concombre",
+            "level": "83",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(25.4, 26.2)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        },
+        "x679": {
+            "name_en": "Eblan Lentils",
+            "name_fr": "Lentilles d'Éblana",
+            "level": "83",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(25.4, 26.2)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        },
+        "x714": {
+            "name_en": "Natural Ingredients",
+            "name_fr": "Ingrédient de plat de Voeburt",
+            "level": "83",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "coordinates": "(13.2, 11.1)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.714"]
+        },
+        "x741": {
+            "name_en": "Mesmerizing Miniature Materials",
+            "name_fr": "Élément pour réplique de monstre saisissante",
+            "level": "83",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(25.4, 26.2)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.5"
+        },
+        "x681": {
+            "name_en": "Beet",
+            "name_fr": "Betterave",
+            "level": "84",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(25.4, 26.2)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        },
+        "x680": {
+            "name_en": "Snow Flax",
+            "name_fr": "Lin boréal",
+            "level": "84",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(25.4, 26.2)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        },
+        "x715": {
+            "name_en": "Crafters' Supplies",
+            "name_fr": "Matériau de mouton fait-main",
+            "level": "84",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "coordinates": "(16.8, 10.0)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.125",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.715"]
+        },
+        "x682": {
+            "name_en": "Carrot of Happiness",
+            "name_fr": "Carotte du bonheur",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(34.3, 27.7)",
+            "closestAetheryte": "travel.aetherytes.others.156",
+            "patch": "6.0"
+        },
+        "x716": {
+            "name_en": "Lovely Knickknacks",
+            "name_fr": "Matériau de boîte de jolis cadeaux",
+            "level": "85",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
+            "coordinates": "(20.0, 9.5)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.mining.level.81-85.716"]
+        },
+        "x742": {
+            "name_en": "Energizing Eye-lixir Materials",
+            "name_fr": "Élément pour remède oculaire miracle",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(34.3, 27.7)",
+            "closestAetheryte": "travel.aetherytes.others.156",
+            "patch": "6.5"
+        },
+        "x693": {
+            "name_en": "Lunar Staple",
+            "name_fr": "Élément nécessaire à la reproduction d'une culture hors du commun",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(34.3, 27.7)",
+            "closestAetheryte": "travel.aetherytes.others.156",
+            "patch": "6.0"
+        }
+    }
+}

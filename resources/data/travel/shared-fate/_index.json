@@ -1,0 +1,23 @@
+{
+    "key": "shared-fate",
+    "groupName_en": "Shared FATE",
+    "groupName_fr": "ALÉA",
+    "columns": {
+        "name": {
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "requiredFates": {
+            "header_en": "Required FATEs",
+            "header_fr": "ALÉAs requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "shb",
+        "ew",
+        "dt"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+        "x69219": {
+            "name_en": "Manic Pixie Dream Realm",
+            "name_fr": "Entre rêve et réalité",
+            "level": 70,
+            "npc_en": "Pink Pixie",
+            "npc_fr": "Pixie Rose",
+            "cPrev": ["q.68857"],
+            "cNext": ["q.69220"],
+            "cSiblings": ["character.character.societal-relations.86"],
+            "patch": "5.1",
+            "unlock": "tto.31"
+        },
+        "x69220": {
+            "name_en": "Sustenance for the Soul",
+            "name_fr": "La disette du cœur",
+            "reputation": "@REPUTATION.FRIENDLY",
+            "level": 70,
+            "npc_en": "Tyr Beq",
+            "npc_fr": "Tyr Beq",
+            "cPrev": ["q.69219"],
+            "cNext": ["q.69221"],
+            "cSiblings": ["character.character.societal-relations.87"],
+            "patch": "5.1"
+        },
+        "x69221": {
+            "name_en": "The Heart's Oasis",
+            "name_fr": "L'oasis des sentiments",
+            "reputation": "@REPUTATION.TRUSTED",
+            "level": 70,
+            "npc_en": "Tyr Beq",
+            "npc_fr": "Tyr Beq",
+            "cPrev": ["q.69220"],
+            "cNext": ["q.69222"],
+            "cSiblings": ["character.character.societal-relations.88"],
+            "patch": "5.1"
+        },
+        "x69222": {
+            "name_en": "A Cry from the Ashes",
+            "name_fr": "Le cri ignoré",
+            "reputation": "@REPUTATION.RESPECTED",
+            "level": 70,
+            "npc_en": "Tyr Beq",
+            "npc_fr": "Tyr Beq",
+            "cPrev": ["q.69221"],
+            "cNext": ["q.69223"],
+            "cSiblings": ["character.character.societal-relations.89"],
+            "patch": "5.1"
+        },
+        "x69223": {
+            "name_en": "As the Heart Bids",
+            "name_fr": "À l'écoute de soi",
+            "reputation": "@REPUTATION.HONORED",
+            "level": 70,
+            "npc_en": "Tyr Beq",
+            "npc_fr": "Tyr Beq",
+            "cPrev": ["q.69222"],
+            "cNext": ["q.69224"],
+            "cSiblings": ["character.character.societal-relations.90"],
+            "patch": "5.1"
+        },
+        "x69224": {
+            "name_en": "Forever and a Dream",
+            "name_fr": "Des rêves à cœur joie",
+            "reputation": "@REPUTATION.SWORN",
+            "level": 70,
+            "npc_en": "Tyr Beq",
+            "npc_fr": "Tyr Beq",
+            "cPrev": ["q.69223"],
+            "cSiblings": ["character.character.societal-relations.91"],
+            "patch": "5.1"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+<td
+    data-active-help="APP.ACTIVE_HELP.TABLE.ROW_ACTIONS"
+    class="actions-cell noSelect"
+>
+    <div class="content-container">
+        <button
+            pButton
+            class="action-dial p-button-text p-button-rounded p-button-plain p-mr-2"
+            [pTooltip]="expanded() ? '' : ('APP.TABLE.ROW_ACTION.TITLE' | translate)"
+            tooltipPosition="left"
+            (click)="onDialClick()"
+        >
+            @if(expanded()) {
+                <ng-icon name="matKeyboardArrowRight"></ng-icon>
+            }
+            @else {
+                <ng-icon name="matKeyboardArrowLeft"></ng-icon>
+            }
+        </button>
+
+        @if(expanded()) {
+            <div class="actions-container">
+                <div class="actions noSelect">
+                    <com-console-games-action
+                        [task]="task"
+                        (clicked)="onCloseActions()"
+                    ></com-console-games-action>
+
+                    <com-gamer-escape-action
+                        [task]="task"
+                        (clicked)="onCloseActions()"
+                    ></com-gamer-escape-action>
+
+                    <com-garland-action
+                        [task]="task"
+                        (clicked)="onCloseActions()"
+                    ></com-garland-action>
+
+                    @if(showCopyId()) {
+                        <com-copy-id-action
+                            [task]="task"
+                        ></com-copy-id-action>
+                    }
+
+                    @if(svcTable.group().type !== 'Custom' && !svcTable.group().disableCompletion) {
+                        <com-view-chains-action
+                            [task]="task"
+                        ></com-view-chains-action>
+
+                        <com-bookmark-action
+                            [task]="task"
+                            (clicked)="onCloseActions()"
+                        ></com-bookmark-action>
+                    }
+
+                    @if(svcTable.group().type !== 'Note') {
+                        <com-edit-note-action
+                            [task]="task"
+                        ></com-edit-note-action>
+                    }
+
+                    @if(svcTable.group().draggable) {
+                        <com-drag-action
+                            [rowIndex]="rowIndex"
+                        ></com-drag-action>
+                    }
+
+                    <span>
+                        <button
+                            pButton
+                            class="action close-dial"
+                            (click)="onDialClick()"
+                        >
+                            <ng-icon name="matKeyboardArrowRight"></ng-icon>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        }
+    </div>
+</td>

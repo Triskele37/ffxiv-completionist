@@ -1,0 +1,37 @@
+{
+    "key": "norvrandt",
+    "groupName_en": "Norvrandt",
+    "groupName_fr": "Norvrandt",
+    "tasks": {
+        "x609": {
+            "name_en": "Purpure Shell Chip",
+            "name_fr": "Éclat de perle purpurine",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
+            "coordinates": "(34, 31)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.130",
+            "nodeTimer": "06:00 / 18:00",
+            "patch": "5.2"
+        },
+        "x610": {
+            "name_en": "Ashen Alumen",
+            "name_fr": "Alun cendré",
+            "level": "80 ★★",
+            "zone": "@PLACE.SHB.AMH_ARAENG",
+            "coordinates": "(20, 8)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.123",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "5.2"
+        },
+        "x625": {
+            "name_en": "Solstice Stone",
+            "name_fr": "Cristal solsticial",
+            "level": "80 ★★★",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "coordinates": "(36, 9)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.126",
+            "nodeTimer": "02:00 / 14:00",
+            "patch": "5.4"
+        }
+    }
+}

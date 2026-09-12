@@ -1,0 +1,116 @@
+{
+    "key": "myths-of-the-realm",
+    "groupName_en": "Myths of the Realm",
+    "groupName_fr": "Le Mythe éorzéen",
+    "tasks": {
+        "x70072": {
+            "name_en": "A Mission in Mor Dhona",
+            "name_fr": "Le monde chimérique",
+            "level": 90,
+            "npc_en": "Fresh-faced Student",
+            "npc_fr": "Membre Des Élèves De Baldesion",
+            "patch": "6.1",
+            "cPrev": ["q.70066"],
+            "cNext": ["q.70073"]
+        },
+        "x70073": {
+            "name_en": "The Realm of the Gods",
+            "name_fr": "Divins démêlés",
+            "level": 90,
+            "npc_en": "G'raha Tia",
+            "npc_fr": "G'raha Tia",
+            "unlock": "d.866",
+            "patch": "6.1",
+            "cPrev": ["q.70072"],
+            "cNext": ["q.70074"],
+            "cSiblings": ["d.866"]
+        },
+        "x70074": {
+            "name_en": "A Divine Dilemma",
+            "name_fr": "Le paradoxe du panthéon",
+            "level": 90,
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "patch": "6.1",
+            "cPrev": ["q.70073"],
+            "cNext": ["q.70075"]
+        },
+        "x70075": {
+            "name_en": "The Face of an Explorer",
+            "name_fr": "Explorateur Deryk",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "unlock": "tto.108",
+            "patch": "6.1",
+            "cPrev": ["q.70074"],
+            "cNext": ["q.70202"]
+        },
+        "x70202": {
+            "name_en": "Return to the Phantom Realm",
+            "name_fr": "Retour à Omphalos",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "unlock": "d.911",
+            "patch": "6.3",
+            "cPrev": ["q.70075"],
+            "cNext": ["q.70203"],
+            "cSiblings": ["d.911"]
+        },
+        "x70203": {
+            "name_en": "In Heavenly Company",
+            "name_fr": "Un voyage lapidaire",
+            "level": 90,
+            "npc_en": "Menphina",
+            "npc_fr": "Menphina La Bien-aimante",
+            "patch": "6.3",
+            "cPrev": ["q.70202"],
+            "cNext": ["q.70204"]
+        },
+        "x70204": {
+            "name_en": "Divine Nonintervention",
+            "name_fr": "La quête de Krile",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "patch": "6.3",
+            "cPrev": ["q.70203"],
+            "cNext": ["q.70205"]
+        },
+        "x70205": {
+            "name_en": "The Secret of the Twelve",
+            "name_fr": "Le secret des Douze",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "unlock": "tto.114",
+            "patch": "6.3",
+            "cPrev": ["q.70204"],
+            "cNext": ["q.70327"]
+        },
+        "x70327": {
+            "name_en": "The Heart of the Myth",
+            "name_fr": "L'ultime bénédiction",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "unlock": "d.962",
+            "patch": "6.5",
+            "cPrev": ["q.70205"],
+            "cNext": ["q.70328"],
+            "cSiblings": ["d.962", "a.3408"]
+        },
+        "x70328": {
+            "name_en": "Embraced by Gods",
+            "name_fr": "Éorzéa, terre bénie des Dieux",
+            "level": 90,
+            "npc_en": "Deryk",
+            "npc_fr": "Deryk",
+            "unlock": ["ap.572", "o.510", "tto.115"],
+            "patch": "6.5",
+            "cPrev": ["q.70327"],
+            "cSiblings": ["a.3408"]
+        }
+    }
+}

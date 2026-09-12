@@ -1,0 +1,621 @@
+{
+    "key": "others",
+    "groupName_en": "Others",
+    "groupName_fr": "Divers",
+    "tasks": {
+        "x547": {
+            "name_en": "Born to Ride",
+            "name_fr": "Born to Ride",
+            "number": "1",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
+            "patch": "6.2"
+        },
+        "x17": {
+            "name_en": "Tenacity",
+            "name_fr": "Tenacity",
+            "number": "2",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.AMBER_TRADER (3 CURRENCY.AMBER)",
+            "patch": "5.25"
+        },
+        "x47": {
+            "name_en": "When a Tree Falls",
+            "name_fr": "When a Tree Falls",
+            "number": "3",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.AMBER_TRADER (6 CURRENCY.AMBER)",
+            "patch": "3.2"
+        },
+        "x394": {
+            "name_en": "Hard to Miss",
+            "name_fr": "Hard to Miss",
+            "number": "4",
+            "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["@VOYAGE.TANGAROAS_PROW", "chest.131"],
+            "patch": "5.3"
+        },
+        "x18": {
+            "name_en": "Blood for Blood",
+            "name_fr": "Blood for Blood",
+            "number": "5",
+            "category": "@CATEGORY.PVP / CATEGORY.CRAFTING",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (5,000 CURRENCY.WOLF_MARK)",
+            "patch": "3.2"
+        },
+        "x19": {
+            "name_en": "Starved",
+            "name_fr": "Starved",
+            "number": "6",
+            "category": "@CATEGORY.PVP / CATEGORY.CRAFTING",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (10,000 CURRENCY.WOLF_MARK)",
+            "patch": "3.2"
+        },
+        "x171": {
+            "name_en": "Birds of Prey",
+            "name_fr": "Birds of Prey",
+            "number": "7",
+            "category": "@CATEGORY.PVP",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (10,000 CURRENCY.WOLF_MARK)",
+            "patch": "4.15"
+        },
+        "x202": {
+            "name_en": "Rival Wings",
+            "name_fr": "Rival Wings",
+            "number": "8",
+            "category": "@CATEGORY.PVP",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (10,000 CURRENCY.WOLF_MARK)",
+            "patch": "4.2"
+        },
+        "x346": {
+            "name_en": "A Fierce Air Forceth",
+            "name_fr": "A Fierce Air Forceth",
+            "number": "9",
+            "category": "@CATEGORY.PVP",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (10,000 CURRENCY.WOLF_MARK)",
+            "patch": "5.15"
+        },
+        "x347": {
+            "name_en": "A Fine Air Forbiddeth",
+            "name_fr": "A Fine Air Forbiddeth",
+            "number": "10",
+            "category": "@CATEGORY.PVP",
+            "source": "@PLACE.ARR.WOLVES_DEN_PIER (10,000 CURRENCY.WOLF_MARK)",
+            "patch": "5.15"
+        },
+        "x525": {
+            "name_en": "Warming Up",
+            "name_fr": "Warming Up",
+            "number": "11",
+            "category": "@CATEGORY.PVP",
+            "source": "@VENDOR.CRYSTAL_QUARTERMASTER (1,000 CURRENCY.TROPHY_CRYSTAL)",
+            "patch": "6.1"
+        },
+        "x526": {
+            "name_en": "Festival of the Hunt (Endwalker)",
+            "name_fr": "Festival of the Hunt (Endwalker)",
+            "number": "12",
+            "category": "@CATEGORY.PVP",
+            "source": "@VENDOR.CRYSTAL_QUARTERMASTER (1,000 CURRENCY.TROPHY_CRYSTAL)",
+            "patch": "6.1"
+        },
+        "x527": {
+            "name_en": "Run! (Endwalker)",
+            "name_fr": "Run! (Endwalker)",
+            "number": "13",
+            "category": "@CATEGORY.PVP",
+            "source": "@VENDOR.CRYSTAL_QUARTERMASTER (1,000 CURRENCY.TROPHY_CRYSTAL)",
+            "patch": "6.1"
+        },
+        "x531": {
+            "name_en": "Gateway to Paradise",
+            "name_fr": "Gateway to Paradise",
+            "number": "14",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "patch": "6.1"
+        },
+        "x8": {
+            "name_en": "Sport of Kings",
+            "name_fr": "Sport of Kings",
+            "number": "15",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@15,000 CURRENCY.MGP",
+            "patch": "3.2"
+        },
+        "x561": {
+            "name_en": "Shuffle or Boogie",
+            "name_fr": "Shuffle or Boogie",
+            "number": "16",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "patch": "6.2"
+        },
+        "x436": {
+            "name_en": "Shuffle or Boogie (Shadowbringers)",
+            "name_fr": "Shuffle or Boogie (Shadowbringers)",
+            "number": "17",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "a.2801",
+            "patch": "5.4"
+        },
+        "x270": {
+            "name_en": "Game Theory",
+            "name_fr": "Game Theory",
+            "number": "18",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@30,000 CURRENCY.MGP",
+            "patch": "4.5"
+        },
+        "x271": {
+            "name_en": "Doman Distractions",
+            "name_fr": "Doman Distractions",
+            "number": "19",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "a.2180",
+            "patch": "4.5"
+        },
+        "x276": {
+            "name_en": "Rise of Heroes (Chiptune Version)",
+            "name_fr": "Rise of Heroes (Chiptune Version)",
+            "number": "20",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@50,000 CURRENCY.MGP",
+            "patch": "4.45"
+        },
+        "x123": {
+            "name_en": "Jewel",
+            "name_fr": "Jewel",
+            "number": "21",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@VENDOR.ENIE (600 CURRENCY.SCRIP.SKYBUILDERS)",
+            "patch": "3.55"
+        },
+        "x208": {
+            "name_en": "Wicked Winds Whisper",
+            "name_fr": "Wicked Winds Whisper",
+            "number": "22",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.200",
+            "patch": "4.25"
+        },
+        "x209": {
+            "name_en": "No Quarter",
+            "name_fr": "No Quarter",
+            "number": "23",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.200",
+            "patch": "4.25"
+        },
+        "x288": {
+            "name_en": "Gates of Paradise - The Garden of Ru'Hmet",
+            "name_fr": "Gates of Paradise - The Garden of Ru'Hmet",
+            "number": "24",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.209",
+            "patch": "4.55"
+        },
+        "x289": {
+            "name_en": "Onslaught",
+            "name_fr": "Onslaught",
+            "number": "25",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.212",
+            "patch": "4.55"
+        },
+        "x290": {
+            "name_en": "Turmoil",
+            "name_fr": "Turmoil",
+            "number": "26",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.eureka.duties.0",
+            "patch": "4.55"
+        },
+        "x237": {
+            "name_en": "Cornerstone of the New World - Astera",
+            "name_fr": "Cornerstone of the New World - Astera",
+            "number": "27",
+            "category": "@CATEGORY.TRIAL",
+            "source": "@VENDOR.SMITHY_1 (10 CURRENCY.DUTY.RATHALOS_SCALE)",
+            "patch": "4.36"
+        },
+        "x360": {
+            "name_en": "Nail of the Heavens",
+            "name_fr": "Nail of the Heavens",
+            "number": "28",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
+            "patch": "5.15"
+        },
+        "x361": {
+            "name_en": "Imperium",
+            "name_fr": "Imperium",
+            "number": "29",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
+            "patch": "5.15"
+        },
+        "x412": {
+            "name_en": "Gogo's Theme",
+            "name_fr": "Gogo's Theme",
+            "number": "30",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
+            "patch": "5.45"
+        },
+        "x381": {
+            "name_en": "On Our Fates Alight",
+            "name_fr": "On Our Fates Alight",
+            "number": "31",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
+            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
+            "patch": "5.2"
+        },
+        "x377": {
+            "name_en": "The Mendicant's Relish",
+            "name_fr": "The Mendicant's Relish",
+            "number": "32",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)",
+            "patch": "5.21"
+        },
+        "x410": {
+            "name_en": "New Foundations",
+            "name_fr": "New Foundations",
+            "number": "33",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.69538",
+            "patch": "5.41"
+        },
+        "x428": {
+            "name_en": "Hearthward",
+            "name_fr": "Hearthward",
+            "number": "34",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": ["@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)", "chest.301"],
+            "patch": "5.41"
+        },
+        "x463": {
+            "name_en": "Skyrise",
+            "name_fr": "Skyrise",
+            "number": "35",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@VENDOR.ENIE (1,200 CURRENCY.SCRIP.SKYBUILDERS)",
+            "patch": "5.5"
+        },
+        "x387": {
+            "name_en": "Wind on the Plains",
+            "name_fr": "Wind on the Plains",
+            "number": "36",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "chest.220",
+            "patch": "5.35"
+        },
+        "x388": {
+            "name_en": "Blood on the Wind",
+            "name_fr": "Blood on the Wind",
+            "number": "37",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@VENDOR.RESISTANCE_SUPPLIER - PLACE.SHB.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.EM.BOZJAN_CLUSTER)",
+            "patch": "5.35"
+        },
+        "x389": {
+            "name_en": "Discord: Imperial (Zodiac Age Version)",
+            "name_fr": "Discord: Imperial (Zodiac Age Version)",
+            "number": "38",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@VENDOR.RESISTANCE_SUPPLIER - PLACE.SHB.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.EM.BOZJAN_CLUSTER)",
+            "patch": "5.35"
+        },
+        "x390": {
+            "name_en": "Into the Fortress (Zodiac Age Version)",
+            "name_fr": "Into the Fortress (Zodiac Age Version)",
+            "number": "39",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.0",
+            "patch": "5.35"
+        },
+        "x391": {
+            "name_en": "Battle with an Esper (Zodiac Age Version)",
+            "name_fr": "Battle with an Esper (Zodiac Age Version)",
+            "number": "40",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.0",
+            "patch": "5.35"
+        },
+        "x392": {
+            "name_en": "Life and Death (Zodiac Age Version)",
+            "name_fr": "Life and Death (Zodiac Age Version)",
+            "number": "41",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.0",
+            "patch": "5.35"
+        },
+        "x413": {
+            "name_en": "The Sochen Cave Palace (Zodiac Age Version)",
+            "name_fr": "The Sochen Cave Palace (Zodiac Age Version)",
+            "number": "42",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.1",
+            "patch": "5.45"
+        },
+        "x414": {
+            "name_en": "Giving Chase (Zodiac Age Version)",
+            "name_fr": "Giving Chase (Zodiac Age Version)",
+            "number": "43",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.1",
+            "patch": "5.45"
+        },
+        "x415": {
+            "name_en": "The Queen Awakens",
+            "name_fr": "The Queen Awakens",
+            "number": "44",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.1",
+            "patch": "5.45"
+        },
+        "x438": {
+            "name_en": "Wrath of the Harrier",
+            "name_fr": "Wrath of the Harrier",
+            "number": "45",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "duty.field-operations.bozja.duties.3",
+            "patch": "5.55"
+        },
+        "x544": {
+            "name_en": "A Quiet Moment",
+            "name_fr": "A Quiet Moment",
+            "number": "46",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@PLACE.ISLAND_SANCTUARY (4,000 CURRENCY.ISLAND.SEAFARERS)",
+            "patch": "6.2"
+        },
+        "x545": {
+            "name_en": "Island Paradise",
+            "name_fr": "Island Paradise",
+            "number": "47",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@PLACE.ISLAND_SANCTUARY (4,000 CURRENCY.ISLAND.SEAFARERS)",
+            "patch": "6.2"
+        },
+        "x572": {
+            "name_en": "A Victory Fanfare Reborn",
+            "name_fr": "A Victory Fanfare Reborn",
+            "number": "48",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
+            "patch": "6.3"
+        },
+        "x593": {
+            "name_en": "Subterranean Sanctuary",
+            "name_fr": "Subterranean Sanctuary",
+            "number": "49",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@PLACE.ISLAND_SANCTUARY (4,000 CURRENCY.ISLAND.SEAFARERS)",
+            "patch": "6.4"
+        },
+        "x602": {
+            "name_en": "Battle 2 from FINAL FANTASY III",
+            "name_fr": "Battle 2 from FINAL FANTASY III",
+            "number": "50",
+            "category": "@CATEGORY.PURCHASE",
+            "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
+            "patch": "6.45"
+        },
+        "x736": {
+            "name_en": "Stargazers",
+            "name_fr": "Stargazers",
+            "number": "51",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.310",
+            "patch": "7.21"
+        },
+        "x737": {
+            "name_en": "Hey, Cid!",
+            "name_fr": "Hey, Cid!",
+            "number": "52",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (6,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.21"
+        },
+        "x738": {
+            "name_en": "The Airship",
+            "name_fr": "The Airship",
+            "number": "53",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (6,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.21"
+        },
+        "x732": {
+            "name_en": "Town Theme (Dawntrail)",
+            "name_fr": "Town Theme (Dawntrail)",
+            "number": "54",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+                "chest.230"
+            ],
+            "patch": "7.25"
+        },
+        "x730": {
+            "name_en": "Garden Relics",
+            "name_fr": "Garden Relics",
+            "number": "55",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+                "chest.230"
+            ],
+            "patch": "7.25"
+        },
+        "x731": {
+            "name_en": "Garden Ruins",
+            "name_fr": "Garden Ruins",
+            "number": "56",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE)",
+                "chest.230"
+            ],
+            "patch": "7.25"
+        },
+        "x735": {
+            "name_en": "FINAL FANTASY V: Battle 1 (Dawntrail)",
+            "name_fr": "FINAL FANTASY V: Battle 1 (Dawntrail)",
+            "number": "57",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (10 CURRENCY.EM.SANGUINITE)",
+            "patch": "7.25"
+        },
+        "x733": {
+            "name_en": "A New World (Dawntrail)",
+            "name_fr": "A New World (Dawntrail)",
+            "number": "58",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE)",
+                "chest.230"
+            ],
+            "patch": "7.25"
+        },
+        "x734": {
+            "name_en": "Exdeath's Castle (Dawntrail)",
+            "name_fr": "Exdeath's Castle (Dawntrail)",
+            "number": "59",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (10 CURRENCY.EM.SANGUINITE)",
+            "patch": "7.25"
+        },
+        "x776": {
+            "name_en": "Kaleidoscope",
+            "name_fr": "Kaleidoscope",
+            "number": "60",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.311",
+            "patch": "7.31"
+        },
+        "x777": {
+            "name_en": "Carrots of Passion",
+            "name_fr": "Carrots of Passion",
+            "number": "61",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "@VENDOR.MESOUAIDONQUE (6,000 CURRENCY.CE.COSMOCREDIT)",
+            "patch": "7.31"
+        },
+        "x779": {
+            "name_en": "White Wraith",
+            "name_fr": "White Wraith",
+            "number": "62",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.SMITHY_2 (1 CURRENCY.DUTY.GUARDIAN_SCALE)",
+            "patch": "7.35"
+        },
+        "x780": {
+            "name_en": "Base Camp (Day)",
+            "name_fr": "Base Camp (Day)",
+            "number": "63",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.SMITHY_2 (1 CURRENCY.DUTY.GUARDIAN_SCALE)",
+            "patch": "7.35"
+        },
+        "x781": {
+            "name_en": "Kunafa, Windsong Village - Plenty (Day)",
+            "name_fr": "Kunafa, Windsong Village - Fallow (Day)",
+            "number": "64",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.SMITHY_2 (1 CURRENCY.DUTY.GUARDIAN_SCALE)",
+            "patch": "7.35"
+        },
+        "x782": {
+            "name_en": "Moment of Peace",
+            "name_fr": "Moment of Peace",
+            "number": "65",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.SMITHY_2 (1 CURRENCY.DUTY.GUARDIAN_SCALE)",
+            "patch": "7.35"
+        },
+        "x828": {
+            "name_en": "The Uncharted Road",
+            "name_fr": "The Uncharted Road",
+            "number": "66",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.312",
+            "patch": "7.41"
+        },
+        "x861": {
+            "name_en": "Landscaping",
+            "name_fr": "Landscaping",
+            "number": "67",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.316",
+            "patch": "7.51"
+        },
+        "x891": {
+            "name_en": "Carrots of Brilliance",
+            "name_fr": "Carrots of Brilliance",
+            "number": "68",
+            "category": "@CATEGORY.COSMIC_EXPLORATION",
+            "source": "chest.316",
+            "patch": "7.51"
+        },
+        "x868": {
+            "name_en": "Dungeon (Dawntrail)",
+            "name_fr": "Dungeon (Dawntrail)",
+            "number": "69",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+                "chest.232"
+            ],
+            "patch": "7.55"
+        },
+        "x869": {
+            "name_en": "Sealed Away (Dawntrail)",
+            "name_fr": "Sealed Away (Dawntrail)",
+            "number": "70",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+                "chest.230",
+                "chest.232"
+            ],
+            "patch": "7.55"
+        },
+        "x870": {
+            "name_en": "To the North Mountain (Dawntrail)",
+            "name_fr": "To the North Mountain (Dawntrail)",
+            "number": "71",
+            "category": "@CATEGORY.FIELD_OPERATION",
+            "source": [
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_OBOL)",
+                "chest.232"
+            ],
+            "patch": "7.55"
+        },
+        "x871": {
+            "name_en": "Starkest Scale",
+            "name_fr": "Starkest Scale",
+            "number": "72",
+            "category": "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN",
+            "source": "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)",
+            "patch": "7.56"
+        },
+        "x872": {
+            "name_en": "Fiercest Fang",
+            "name_fr": "Fiercest Fang",
+            "number": "73",
+            "category": "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN",
+            "source": "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)",
+            "patch": "7.56"
+        },
+        "x873": {
+            "name_en": "Swiftest Wing",
+            "name_fr": "Swiftest Wing",
+            "number": "74",
+            "category": "@CATEGORY.CRUCIBLE_OF_THE_UNBROKEN",
+            "source": "@VENDOR.KORNAGO_MERCHANT (10 CURRENCY.BRIGHT_REMNANT_OF_RESILIENCE)",
+            "patch": "7.56"
+        }
+    }
+}

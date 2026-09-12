@@ -1,0 +1,20 @@
+{
+    "key": "hall-of-the-novice",
+    "groupName_en": "Hall of the Novice",
+    "groupName_fr": "Salle des novices",
+    "order": ["tank", "dps", "healer", "tactical"],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "role": {
+            "header": "@HEADER.ROLE"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

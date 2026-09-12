@@ -1,0 +1,47 @@
+{
+    "key": "duties",
+    "groupName_en": "Duties",
+    "groupName_fr": "Missions",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "rankReq": {
+            "header_en": "Rank Required",
+            "header_fr": "Rang requis"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Castrum Lacus Litore",
+            "name_fr": "Assaut sur Castrum Lacus Litore",
+            "rankReq": "10",
+            "patch": "5.35",
+            "cSiblings": ["a.2680"]
+        },
+        "x1": {
+            "name_en": "Delubrum Reginae",
+            "name_fr": "Delubrum Reginae",
+            "rankReq": "10",
+            "patch": "5.45",
+            "cSiblings": ["a.2762"]
+        },
+        "x2": {
+            "name_en": "Delubrum Reginae (Savage)",
+            "name_fr": "Delubrum Reginae (Sadique)",
+            "rankReq": "15",
+            "patch": "5.45",
+            "cSiblings": ["a.2765"]
+        },
+        "x3": {
+            "name_en": "The Dalriada",
+            "name_fr": "Assaut sur le Dalriada",
+            "rankReq": "25",
+            "patch": "5.55",
+            "cSiblings": ["a.2874"]
+        }
+    }
+}

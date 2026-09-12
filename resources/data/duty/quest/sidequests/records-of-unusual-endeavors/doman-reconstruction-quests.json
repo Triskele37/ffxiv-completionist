@@ -1,0 +1,47 @@
+{
+    "key": "doman-reconstruction-quests",
+    "groupName_en": "Doman Reconstruction Quests",
+    "groupName_fr": "Reconstruction du quartier enclavé",
+    "tasks": {
+        "x68622": {
+            "name_en": "Precious Reclamation",
+            "name_fr": "Le grand rapatriement",
+            "level": 70,
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "patch": "4.2",
+            "cPrev": ["q.68561"],
+            "cNext": ["q.68623"]
+        },
+        "x68623": {
+            "name_en": "A Thousand and One Farewells",
+            "name_fr": "Derniers au revoir",
+            "level": 70,
+            "npc_en": "Hozan",
+            "npc_fr": "Hozan",
+            "patch": "4.2",
+            "cPrev": ["q.68622"],
+            "cNext": ["q.68677"]
+        },
+        "x68677": {
+            "name_en": "It Takes an Enclave",
+            "name_fr": "Un quartier à rebâtir",
+            "level": 70,
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "unlock_en": "Doman Enclave Reconstruction",
+            "unlock_fr": "Doman Enclave Reconstruction",
+            "patch": "4.3",
+            "cPrev": ["q.68623"]
+        },
+        "x68689": {
+            "name_en": "Lighting the Way",
+            "name_fr": "Les lumières de l'enclave",
+            "level": 70,
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "patch": "4.4",
+            "cSiblings": ["a.2131"]
+        }
+    }
+}

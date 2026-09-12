@@ -1,0 +1,21 @@
+{
+    "key": "dungeons",
+    "groupName_en": "Dungeons",
+    "groupName_fr": "Donjons",
+    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

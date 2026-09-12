@@ -1,0 +1,20 @@
+<span>
+    <ng-icon
+        name="matEdit"
+        class="action"
+        [pTooltip]="'APP.TABLE.ROW_ACTION.EDIT_NOTE' | translate"
+        tooltipPosition="top"
+        (click)="op.toggle($event)"
+    ></ng-icon>
+
+    <p-popover
+        #op
+        styleClass="note-overlay"
+    >
+        <input
+            pInputText
+            [(ngModel)]="note"
+            (change)="editNote()"
+        >
+    </p-popover>
+</span>

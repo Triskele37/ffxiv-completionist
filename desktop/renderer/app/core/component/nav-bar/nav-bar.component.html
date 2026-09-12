@@ -1,0 +1,26 @@
+<div class="nav-bar-container">
+    <p-button-group>
+        <button
+            data-active-help="APP.ACTIVE_HELP.NAV_BAR.PREVIOUS_GROUP"
+            pButton
+            [disabled]="!svcNavigation.groupHistory().length"
+            (click)="goBack()"
+        >
+            <ng-icon name="matArrowBack"></ng-icon>
+        </button>
+
+        <button
+            data-active-help="APP.ACTIVE_HELP.NAV_BAR.GO_TO_PARENT"
+            pButton
+            [disabled]="!svcNavigation.selectedGroup()?._parent"
+            (click)="goToParent()"
+        >
+            <ng-icon name="matArrowUpward"></ng-icon>
+        </button>
+
+        <com-history-overlay></com-history-overlay>
+        <com-show-all-toggle></com-show-all-toggle>
+    </p-button-group>
+
+    <com-breadcrumbs></com-breadcrumbs>
+</div>

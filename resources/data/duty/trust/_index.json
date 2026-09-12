@@ -1,0 +1,18 @@
+{
+    "key": "trust",
+    "groupName_en": "Trust",
+    "groupName_fr": "Adjuration",
+    "order": ["shb", "ew", "dt"],
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "role": {
+            "header_en": "Role",
+            "header_fr": "Rôle"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    }
+}

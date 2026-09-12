@@ -1,0 +1,19 @@
+{
+    "key": "special-quests",
+    "groupName_en": "Special Quests",
+    "groupName_fr": "Quêtes spéciales",
+    "defaultCompletion": "X",
+    "tasks": {
+        "x67114": {
+            "name_en": "The Ties That Bind",
+            "name_fr": "Jusqu'à ce que le destin vous sépare",
+            "level": 1,
+            "npc_en": "Claribel",
+            "npc_fr": "Claribel",
+            "unlock": ["aes.228", "mo.41", "e.113"],
+            "patch": "2.45",
+            "cPrev": ["q.66045"],
+            "cSiblings": "e.113"
+        }
+    }
+}

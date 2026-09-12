@@ -1,0 +1,202 @@
+{
+    "key": "summoner-quests",
+    "groupName_en": "Summoner Quests",
+    "groupName_fr": "Quêtes d'invocateur",
+    "tasks": {
+        "x66627": {
+            "name_en": "Austerities of Flame",
+            "name_fr": "Le baptême du feu",
+            "level": 30,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "unlock": "ap.182",
+            "patch": "2.0",
+            "cPrev": ["q.65997", "q.66049"],
+            "cNext": ["q.66628"],
+            "cSiblings": ["ap.182"]
+        },
+        "x66628": {
+            "name_en": "Austerities of Earth",
+            "name_fr": "L'appel de la terre",
+            "level": 35,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "2.0",
+            "cPrev": ["q.66627"],
+            "cNext": ["q.66629"]
+        },
+        "x66629": {
+            "name_en": "Shadowing the Summoner",
+            "name_fr": "À la poursuite d'une ombre",
+            "level": 40,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "2.0",
+            "cPrev": ["q.66628"],
+            "cNext": ["q.66630"]
+        },
+        "x66630": {
+            "name_en": "Allagan Attire",
+            "name_fr": "Vestiges de la mode allagoise",
+            "level": 45,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "2.0",
+            "cPrev": ["q.66629"],
+            "cNext": ["q.66631"]
+        },
+        "x66631": {
+            "name_en": "Austerities of Wind",
+            "name_fr": "Libre comme le vent",
+            "level": 45,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "2.0",
+            "cPrev": ["q.66630"],
+            "cNext": ["q.66632"]
+        },
+        "x66632": {
+            "name_en": "Primal Burdens",
+            "name_fr": "La fin ne justifie pas toujours les moyens",
+            "level": 50,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "2.0",
+            "cPrev": ["q.66631"],
+            "cNext": ["q.66662", "q.67636", "q.67896"],
+            "cSiblings": ["a.599"]
+        },
+        "x66662": {
+            "name_en": "A Relic Reborn (The Veil of Wiyu)",
+            "name_fr": "Restauration de l'Œilvert",
+            "level": 50,
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "patch": "2.0",
+            "cPrev": ["q.66632", "q.66241"]
+        },
+        "x67636": {
+            "name_en": "A Fitting Tomestone",
+            "name_fr": "Un pouvoir fulgurant ?",
+            "level": 50,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "3.0",
+            "cPrev": ["q.66632", "q.65964"],
+            "cNext": ["q.67637"]
+        },
+        "x67637": {
+            "name_en": "A Matter of Fact",
+            "name_fr": "Le retour d'une ombre",
+            "level": 52,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "3.0",
+            "cPrev": ["q.67636"],
+            "cNext": ["q.67638"]
+        },
+        "x67638": {
+            "name_en": "A Miner Negotiation",
+            "name_fr": "Les leçons de l'Histoire",
+            "level": 54,
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "patch": "3.0",
+            "cPrev": ["q.67637"],
+            "cNext": ["q.67639"]
+        },
+        "x67639": {
+            "name_en": "Mad, Bad, and Ebon-clad",
+            "name_fr": "Invocateur de marionnettes",
+            "level": 56,
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "patch": "3.0",
+            "cPrev": ["q.67638"],
+            "cNext": ["q.67640"]
+        },
+        "x67640": {
+            "name_en": "I Could Have Tranced All Night",
+            "name_fr": "Une transe ancestrale",
+            "level": 58,
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "patch": "3.0",
+            "cPrev": ["q.67639"],
+            "cNext": ["q.67641"]
+        },
+        "x67641": {
+            "name_en": "A Flare for the Dramatic",
+            "name_fr": "Du brasier naît la paix",
+            "level": 60,
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "patch": "3.0",
+            "cPrev": ["q.67640"],
+            "cNext": ["q.68161"],
+            "cSiblings": ["a.1148"]
+        },
+        "x68161": {
+            "name_en": "A Book with Bite",
+            "name_fr": "Un livre pour le moins savant",
+            "level": 60,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "4.0",
+            "cPrev": ["q.67641", "q.67895"],
+            "cNext": ["q.68162"]
+        },
+        "x68162": {
+            "name_en": "Performing for Prin",
+            "name_fr": "Duels d'invocateurs",
+            "level": 63,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "4.0",
+            "cPrev": ["q.68161"],
+            "cNext": ["q.68163"]
+        },
+        "x68163": {
+            "name_en": "An Egi-stential Crisis",
+            "name_fr": "Une menace invisible",
+            "level": 65,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "4.0",
+            "cPrev": ["q.68162"],
+            "cNext": ["q.68164"]
+        },
+        "x68164": {
+            "name_en": "Off the Record",
+            "name_fr": "En quête de savoirs perdus",
+            "level": 68,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "4.0",
+            "cPrev": ["q.68163"],
+            "cNext": ["q.68165"]
+        },
+        "x68165": {
+            "name_en": "An Art for the Living",
+            "name_fr": "L'invocateur invoqué",
+            "level": 70,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "patch": "4.0",
+            "cPrev": ["q.68164"],
+            "cNext": ["q.69569"],
+            "cSiblings": ["a.1804"]
+        },
+        "x69569": {
+            "name_en": "To Be Second Best",
+            "name_fr": "La dubitation d'un invocateur",
+            "level": 80,
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "unlock": "ap.317",
+            "patch": "5.5",
+            "cPrev": ["q.68165", "q.69164", "q.69190"],
+            "cSiblings": ["ap.317", "a.2313"]
+        }
+    }
+}

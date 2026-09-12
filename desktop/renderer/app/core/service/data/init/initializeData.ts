@@ -1,0 +1,49 @@
+import type { DataGroup } from '@model/DataGroup';
+import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
+
+import type { DataServiceContext } from '../types';
+
+const expectedUnloadeds = ['bookmarks', 'notes', 'custom'];
+
+/**
+ * Initialize the data structure
+ * */
+export function initializeData(
+    this: DataServiceContext,
+): DataGroup {
+    // Inject the full data cache into the renderer
+    this.loader.dataCache = this.svcElectron?.getData();
+
+    // Load the root DataGroup
+    const data = this.loader.loadGroupShallow(null, '');
+    if(!data) {
+        console.error('Failed to load data');
+        return createDummyGroup();
+    }
+
+    // Add dynamic groups
+    data.subGroups = new Map();
+    data.subGroups.set('bookmarks', null);
+    data.subGroups.set('notes', null);
+    data.subGroups.set('custom', null);
+
+    // Add child data groups
+    data.order?.forEach((subGroupKey) => {
+        if(!data.subGroups) return;
+
+        const subGroup = this.loader.loadGroupDeep(data, subGroupKey);
+        if(!subGroup) return;
+
+        data.subGroups.set(subGroup._key, subGroup);
+    });
+
+    // Log unloaded groups
+    const unloaded = Object.keys(this.loader.dataCache.data)
+        .filter((k) => !expectedUnloadeds.includes(k));
+
+    if(unloaded.length) {
+        console.warn('Unloaded groups!', unloaded);
+    }
+
+    return data;
+}

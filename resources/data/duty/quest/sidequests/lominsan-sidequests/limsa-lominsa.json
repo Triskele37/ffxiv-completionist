@@ -1,0 +1,302 @@
+{
+    "key": "limsa-lominsa",
+    "groupName_en": "Limsa Lominsa",
+    "groupName_fr": "Limsa Lominsa",
+    "tasks": {
+        "x65643": {
+            "name_en": "Coming to Limsa Lominsa",
+            "name_fr": "Bienvenue à Limsa Lominsa",
+            "level": 1,
+            "npc_en": "Ryssfloh",
+            "npc_fr": "Ryssfloh",
+            "patch": "2.0",
+            "cNext": ["q.65645", "q.65647"]
+        },
+        "x65647": {
+            "name_en": "Making a Name",
+            "name_fr": "C'est l'intention qui compte",
+            "level": 1,
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "patch": "2.0",
+            "cPrev": ["q.65643"],
+            "cNext": ["q.65648"]
+        },
+        "x65648": {
+            "name_en": "Suspiciously Sober",
+            "name_fr": "Un marin suspect",
+            "level": 1,
+            "npc_en": "Ahldskyf",
+            "npc_fr": "Ahldskyf",
+            "patch": "2.0",
+            "cPrev": ["q.65647"]
+        },
+        "x65649": {
+            "name_en": "Proper Procedure",
+            "name_fr": "De la timidité du marchand gobelin",
+            "level": 1,
+            "npc_en": "Sweetnix Rosycheeks",
+            "npc_fr": "Sweetnix Rosycheeks",
+            "patch": "2.0"
+        },
+        "x65650": {
+            "name_en": "The Right Price",
+            "name_fr": "La transparence des prix",
+            "level": 1,
+            "npc_en": "Swozblaet",
+            "npc_fr": "Swozblaet",
+            "patch": "2.0"
+        },
+        "x65651": {
+            "name_en": "Duty Calls",
+            "name_fr": "Inquisition fiscale",
+            "level": 1,
+            "npc_en": "P'tahjha",
+            "npc_fr": "P'tahjha",
+            "patch": "2.0"
+        },
+        "x65859": {
+            "name_en": "Edelweiss, Edelweiss",
+            "name_fr": "Échange de politesses",
+            "level": 1,
+            "npc_en": "J'nasshym",
+            "npc_fr": "J'nasshym",
+            "patch": "2.4"
+        },
+        "x69379": {
+            "name_en": "All the Fish in the Sea",
+            "name_fr": "L'Ambition fait le poisson",
+            "level": 1,
+            "npc_en": "Fhilsnoe",
+            "npc_fr": "Fhilsnoe",
+            "unlock": "logs.gathering.fishing-log.fishing.the-high-seas",
+            "patch": "5.2",
+            "cPrev": ["q.66644"]
+        },
+        "x65653": {
+            "name_en": "A Thousand Words",
+            "name_fr": "Un portrait fidèle",
+            "level": 2,
+            "npc_en": "Latisha",
+            "npc_fr": "Latisha",
+            "patch": "2.0"
+        },
+        "x65654": {
+            "name_en": "Licensed to Reave",
+            "name_fr": "Des épices de haute mer",
+            "level": 2,
+            "npc_en": "Mordyn",
+            "npc_fr": "Mordyn",
+            "patch": "2.0"
+        },
+        "x65655": {
+            "name_en": "Lost and Found",
+            "name_fr": "La jumelle diligente",
+            "level": 2,
+            "npc_en": "Ginnade",
+            "npc_fr": "Ginnade",
+            "patch": "2.0",
+            "cNext": ["q.65656"]
+        },
+        "x65656": {
+            "name_en": "I Stay the Streetlight",
+            "name_fr": "La jumelle délégante",
+            "level": 2,
+            "npc_en": "N'tanmo",
+            "npc_fr": "N'tanmo",
+            "patch": "2.0",
+            "cPrev": ["q.65655"]
+        },
+        "x65652": {
+            "name_en": "A Sheepish Request",
+            "name_fr": "Le saigneur des agneaux",
+            "level": 3,
+            "npc_en": "H'lahono",
+            "npc_fr": "H'lahono",
+            "patch": "2.0"
+        },
+        "x65657": {
+            "name_en": "Back in the Water",
+            "name_fr": "La pêche aux bateaux",
+            "level": 3,
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu",
+            "patch": "2.0"
+        },
+        "x66197": {
+            "name_en": "The Rats in the Wharf",
+            "name_fr": "Un pont à ne pas rater",
+            "level": 3,
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "patch": "2.0"
+        },
+        "x65658": {
+            "name_en": "Glory Days",
+            "name_fr": "Une saveur médusante",
+            "level": 4,
+            "npc_en": "S'dhodjbi",
+            "npc_fr": "S'dhodjbi",
+            "patch": "2.0",
+            "cPrev": ["q.65645"]
+        },
+        "x66198": {
+            "name_en": "Soothing the Savage Siren",
+            "name_fr": "Vague à l'âme d'une sirène",
+            "level": 4,
+            "npc_en": "O'kalkaya",
+            "npc_fr": "O'kalkaya",
+            "patch": "2.0"
+        },
+        "x66199": {
+            "name_en": "Fool Me Once",
+            "name_fr": "C'est vraiment l'intention qui compte",
+            "level": 4,
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "patch": "2.0",
+            "cPrev": ["q.65645"],
+            "cNext": ["q.66011"]
+        },
+        "x66229": {
+            "name_en": "Leves of Swiftperch",
+            "name_fr": "Mandataire du Martinet",
+            "level": 10,
+            "npc_en": "T'mokkri",
+            "npc_fr": "T'mokkri",
+            "patch": "2.0",
+            "cPrev": ["q.66005"],
+            "cNext": [
+                "q.65757",
+                "q.65979",
+                "q.66224",
+                "q.66230",
+                "q.66228",
+                "q.65550",
+                "q.65552",
+                "q.65553",
+                "q.65980",
+                "q.65551",
+                "q.66232",
+                "q.66231",
+                "q.65554",
+                "q.65595"
+            ]
+        },
+        "x66962": {
+            "name_en": "Good for What Ales You",
+            "name_fr": "Danse avec les fous",
+            "level": 14,
+            "npc_en": "Dodozan",
+            "npc_fr": "Dodozan",
+            "unlock": "e.101",
+            "patch": "2.2",
+            "cPrev": ["q.66088", "q.66081", "q.65985"],
+            "cPrevAny": true,
+            "cSiblings": ["e.101"]
+        },
+        "x66746": {
+            "name_en": "Beauty Is Only Scalp Deep",
+            "name_fr": "L'égorgeur aux ciseaux",
+            "level": 15,
+            "npc_en": "S'dhodjbi",
+            "npc_fr": "S'dhodjbi",
+            "patch": "2.1",
+            "cPrev": ["q.66209", "q.66210", "q.66210"],
+            "cPrevAny": true,
+            "cNext": ["q.67109"]
+        },
+        "x66967": {
+            "name_en": "Rising to the Challenge",
+            "name_fr": "Un carnet oublié",
+            "level": 15,
+            "npc_en": "I'tolwann",
+            "npc_fr": "I'tolwann",
+            "patch": "2.2",
+            "cPrev": ["q.66209", "q.66210", "q.66210"],
+            "cPrevAny": true,
+            "cNext": ["q.67925", "q.67926", "q.67927"]
+        },
+        "x66969": {
+            "name_en": "An Ill-conceived Venture",
+            "name_fr": "Chevalier servant (Limsa Lominsa)",
+            "level": 17,
+            "npc_en": "Troubled Adventurer",
+            "npc_fr": "Aventurier Dans L'embarras",
+            "patch": "3.1",
+            "cExclude": ["q.66968", "q.66970"]
+        },
+        "x66237": {
+            "name_en": "My Little Chocobo (Maelstrom)",
+            "name_fr": "À chacun sa monture (Limsa Lominsa)",
+            "level": 20,
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "unlock": "mo.1",
+            "patch": "2.0",
+            "cNext": ["q.66698"],
+            "cExclude": ["q.66236", "q.66238"]
+        },
+        "x70300": {
+            "name_en": "A Faerie Tale Come True",
+            "name_fr": "Fée déguisée",
+            "level": 30,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "6.4",
+            "cPrev": ["q.66633"]
+        },
+        "x66966": {
+            "name_en": "The Beast of Brewer's Beacon",
+            "name_fr": "Des poissons de légende",
+            "level": 50,
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu",
+            "patch": "2.2",
+            "cPrev": ["q.66654"],
+            "cNext": ["q.65782"],
+            "cSiblings": ["a.902"]
+        },
+        "x65782": {
+            "name_en": "Feast of Famine",
+            "name_fr": "Une légende de la pêche",
+            "level": 50,
+            "npc_en": "Wawalago",
+            "npc_fr": "Wawalago",
+            "patch": "2.4",
+            "cPrev": ["q.66966"],
+            "cSiblings": ["a.1031"]
+        },
+        "x67896": {
+            "name_en": "An Egi by Any Other Name",
+            "name_fr": "Egi déguisé",
+            "level": 50,
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "patch": "3.5",
+            "cPrev": ["q.66632"]
+        },
+        "x67737": {
+            "name_en": "Things Are Getting Sirius",
+            "name_fr": "L'appel du phare",
+            "level": 60,
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "unlock": "d.40",
+            "patch": "3.1",
+            "cPrev": ["q.67205", "q.66745"],
+            "cSiblings": ["d.40"]
+        },
+        "x67784": {
+            "name_en": "Storming the Hull",
+            "name_fr": "Retour à Crèvecarène",
+            "level": 60,
+            "npc_en": "Denston",
+            "npc_fr": "Denston",
+            "unlock": ["d.172", "tto.46", "tto.43"],
+            "patch": "3.3",
+            "cPrev": ["q.67205", "q.67062"],
+            "cSiblings": ["d.172"]
+        }
+    }
+}

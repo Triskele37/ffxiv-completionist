@@ -1,0 +1,57 @@
+@use './ellipsis-overflow' as *;
+
+:host {
+    display: contents;
+
+    .task-table-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: var(--inline-spacing);
+
+        .task-table-scroll-container {
+            display: inline-block;
+
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    ::ng-deep .p-datatable {
+        .p-datatable-table {
+            table-layout: fixed;
+
+            // Fixes virtual scroller fighting upward scrolling
+            overflow-anchor: none;
+
+            .p-datatable-tbody {
+                :nth-child(odd) .selected td:not(.noSelect) {
+                    background-color: var(--selected);
+                }
+
+                :nth-child(even) .selected td:not(.noSelect) {
+                    background-color: var(--selected-2);
+                }
+            }
+        }
+
+        tr {
+            td {
+                cursor: pointer;
+
+                // Prevent any overflow into sibling cells
+                overflow: hidden;
+
+                ::ng-deep .p-button {
+                    // Ensure buttons take the width of their cell
+                    //width: 100%;
+
+                    .p-button-label {
+                        @extend %ellipsis-overflow;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

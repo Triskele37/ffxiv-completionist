@@ -1,0 +1,719 @@
+{
+    "key": "page-3",
+    "groupName_en": "Page 3",
+    "groupName_fr": "Page 3",
+    "tasks": {
+        "x20200": {
+            "name_en": "Dusky Shark",
+            "name_fr": "Requin requiem de sable",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.41",
+            "patch": "6.0"
+        },
+        "x20201": {
+            "name_en": "Agama's Palm",
+            "name_fr": "Paume-d'Agama",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20202": {
+            "name_en": "Rummy-nosed Tetra",
+            "name_fr": "Tétra à nez rouge",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20203": {
+            "name_en": "Monksblade",
+            "name_fr": "Sabre-du-moine",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20204": {
+            "name_en": "Atamra Cichlid",
+            "name_fr": "Cichlidé amra",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20205": {
+            "name_en": "Root of Maya",
+            "name_fr": "Racine-de-la-Maya",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20206": {
+            "name_en": "Floral Snakehead",
+            "name_fr": "Tête-de-serpent florale",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.42",
+            "patch": "6.0"
+        },
+        "x20207": {
+            "name_en": "Skipping Stone",
+            "name_fr": "Crabe-pagaie",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20208": {
+            "name_en": "Red-spotted Blenny",
+            "name_fr": "Blennie à points rouges",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20209": {
+            "name_en": "Deepbody Boarfish",
+            "name_fr": "Poisson-sanglier",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20210": {
+            "name_en": "Grey Mullet",
+            "name_fr": "Mulet à grosse tête",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20211": {
+            "name_en": "Prayer Cushion",
+            "name_fr": "Coussin-de-prière",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20212": {
+            "name_en": "Uzumaki",
+            "name_fr": "Uzumaki",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20213": {
+            "name_en": "Jointed Razorfish",
+            "name_fr": "Poisson-rasoir strié",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20214": {
+            "name_en": "Mini Yasha",
+            "name_fr": "Mini-yasha",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20215": {
+            "name_en": "Righteye Flounder",
+            "name_fr": "Flétan d'Othard",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20216": {
+            "name_en": "Othardian Lumpsucker",
+            "name_fr": "Lompe d'Othard",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20217": {
+            "name_en": "Sawshark",
+            "name_fr": "Requin-scie",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20218": {
+            "name_en": "Bluefin Trevally",
+            "name_fr": "Carangue bleue",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.44",
+            "patch": "6.0"
+        },
+        "x20219": {
+            "name_en": "Natron Puffer",
+            "name_fr": "Fugu de natron",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20220": {
+            "name_en": "Diamond Dagger",
+            "name_fr": "Dague-de-diamant",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20221": {
+            "name_en": "Queenly Fan",
+            "name_fr": "Éventail-royal",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20222": {
+            "name_en": "Pale Panther",
+            "name_fr": "Panthère pâle",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20223": {
+            "name_en": "Saltsquid",
+            "name_fr": "Calmar salin",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20224": {
+            "name_en": "Platinum Hammerhead",
+            "name_fr": "Requin-marteau platine",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.45",
+            "patch": "6.0"
+        },
+        "x20225": {
+            "name_en": "Othardian Wrasse",
+            "name_fr": "Labre d'Othard",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.39",
+            "patch": "6.0"
+        },
+        "x20226": {
+            "name_en": "Shogun's Kabuto",
+            "name_fr": "Kabuto-du-shogun",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.46",
+            "patch": "6.0"
+        },
+        "x20227": {
+            "name_en": "Pipefish",
+            "name_fr": "Syngnathe",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.46",
+            "patch": "6.0"
+        },
+        "x20228": {
+            "name_en": "Xiphactinus",
+            "name_fr": "Xiphactinus",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.47",
+            "patch": "6.0"
+        },
+        "x20229": {
+            "name_en": "Kitefin Shark",
+            "name_fr": "Squale liche",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.43",
+            "patch": "6.0"
+        },
+        "x20230": {
+            "name_en": "Tebqeyiq Smelt",
+            "name_fr": "Éperlan de Tebqeyiq",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_FAST",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "primeLocation": "sfh.47",
+            "patch": "6.0"
+        },
+        "x20231": {
+            "name_en": "Inksquid",
+            "name_fr": "Calmar encrier",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.48",
+            "patch": "6.15"
+        },
+        "x20232": {
+            "name_en": "Auroral Clam",
+            "name_fr": "Palourde nacrée",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.49",
+            "patch": "6.15"
+        },
+        "x20233": {
+            "name_en": "Ken Kiln",
+            "name_fr": "Ken Kiln",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "primeLocation": "sfh.50",
+            "patch": "6.3"
+        },
+        "x20234": {
+            "name_en": "Glorianda's Tear",
+            "name_fr": "Larme de Glorianda",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SHB.IL_MHEG",
+            "primeLocation": "sfh.51",
+            "patch": "6.3"
+        },
+        "x20235": {
+            "name_en": "Verdigris Guppy",
+            "name_fr": "Guppy vert-de-gris",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20236": {
+            "name_en": "Lakeskipper",
+            "name_fr": "Gobie saute-lac",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20237": {
+            "name_en": "Bronze Eel",
+            "name_fr": "Anguille bronze",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20238": {
+            "name_en": "Striped Peacock Bass",
+            "name_fr": "Tucunaré rayé",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20239": {
+            "name_en": "Bronze Trout",
+            "name_fr": "Grande truite d'airain",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20240": {
+            "name_en": "Nosceasaur",
+            "name_fr": "Nosceasaure",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.52",
+            "patch": "6.3"
+        },
+        "x20241": {
+            "name_en": "Empyreal Spiral",
+            "name_fr": "Spirale étoilée",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.53",
+            "patch": "6.5"
+        },
+        "x20242": {
+            "name_en": "Opal Tetra",
+            "name_fr": "Tétra opalin",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.FAST",
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "primeLocation": "sfh.54",
+            "patch": "6.5"
+        },
+        "x20243": {
+            "name_en": "Turali Loach",
+            "name_fr": "Loche turalienne",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20244": {
+            "name_en": "Yok Huy Toad",
+            "name_fr": "Crapaud yok huy",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20245": {
+            "name_en": "Stone Pleco",
+            "name_fr": "Pléco pierreux",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20246": {
+            "name_en": "Shark Catfish",
+            "name_fr": "Poisson-chat requin",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20247": {
+            "name_en": "Zeh Lar Dor",
+            "name_fr": "Zeh Lar Dor",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20248": {
+            "name_en": "Karvarichthys",
+            "name_fr": "Karvarichthys",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.DT.URQOPACHA",
+            "primeLocation": "sfh.55",
+            "patch": "7.0"
+        },
+        "x20249": {
+            "name_en": "Severum",
+            "name_fr": "Severum",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20250": {
+            "name_en": "Ligaka Blossom",
+            "name_fr": "Poisson de Ligaka",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20251": {
+            "name_en": "Potglaze Stingray",
+            "name_fr": "Raie mobeline",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20252": {
+            "name_en": "Emberwisp",
+            "name_fr": "Torche du malandrin",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20253": {
+            "name_en": "Ihuyka Colossoma",
+            "name_fr": "Ihuyka colossoma",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20254": {
+            "name_en": "Torchtail",
+            "name_fr": "Flambe-queue",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.56",
+            "patch": "7.0"
+        },
+        "x20255": {
+            "name_en": "Variegated Sisterscale",
+            "name_fr": "Sœur de l'arc-en-ciel",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20256": {
+            "name_en": "Kozama'uka Characin",
+            "name_fr": "Characin de Kozama'uka",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20257": {
+            "name_en": "Charcoal Eel",
+            "name_fr": "Anguille charbon",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20258": {
+            "name_en": "Rainbow Pipira",
+            "name_fr": "Pipira arc-en-ciel",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20259": {
+            "name_en": "Lau Lau",
+            "name_fr": "Lau Lau",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20260": {
+            "name_en": "Ligaka Pirarucu",
+            "name_fr": "Pirarucu de Ligaka",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.57",
+            "patch": "7.0"
+        },
+        "x20261": {
+            "name_en": "Piraputanga",
+            "name_fr": "Piraputanga",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.62",
+            "patch": "7.0"
+        },
+        "x20262": {
+            "name_en": "Purussaurus",
+            "name_fr": "Purussaurus",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.DT.KOZAMAUKA",
+            "primeLocation": "sfh.62",
+            "patch": "7.0"
+        },
+        "x20263": {
+            "name_en": "Turali Land Crab",
+            "name_fr": "Crabe bleu du Tural",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20264": {
+            "name_en": "Crested Goby",
+            "name_fr": "Gobie à crète",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20265": {
+            "name_en": "Tsoly Turtle",
+            "name_fr": "Tortue des tsoly",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20266": {
+            "name_en": "Viperfish",
+            "name_fr": "Poisson-vipère",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20267": {
+            "name_en": "Horizon Crocodile",
+            "name_fr": "Crocodile de L'Horizon",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20268": {
+            "name_en": "Tsoly Gar",
+            "name_fr": "Brochet crocodile des tsoly",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.58",
+            "patch": "7.0"
+        },
+        "x20269": {
+            "name_en": "Sunlit Prism",
+            "name_fr": "Poisson-prisme",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20270": {
+            "name_en": "Fategazer",
+            "name_fr": "Œil-du-destin",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20271": {
+            "name_en": "Frillfin Goby",
+            "name_fr": "Gobie à nageoires à volants",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20272": {
+            "name_en": "Black Ibruq",
+            "name_fr": "Ibruq noir",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20273": {
+            "name_en": "Speckled Peacock Bass",
+            "name_fr": "Bar paon moucheté",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20274": {
+            "name_en": "Golden Characin",
+            "name_fr": "Characin doré",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.59",
+            "patch": "7.0"
+        },
+        "x20275": {
+            "name_en": "Deadleaf Minnow",
+            "name_fr": "Fondule feuillemorte",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20276": {
+            "name_en": "Glistening Discus",
+            "name_fr": "Discus étincelant",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20277": {
+            "name_en": "Lightning Eel",
+            "name_fr": "Anguille feu-du-ciel",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20278": {
+            "name_en": "Longwhisker Lungfish",
+            "name_fr": "Dipneuste à moustaches",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20279": {
+            "name_en": "Minted Arowana",
+            "name_fr": "Arowana cousu d'or",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20280": {
+            "name_en": "Br'aaxfish",
+            "name_fr": "Poisson-br'aax",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.60",
+            "patch": "7.0"
+        },
+        "x20281": {
+            "name_en": "Iq Rrax Crab",
+            "name_fr": "Crabe iq rrax",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.63",
+            "patch": "7.0"
+        },
+        "x20282": {
+            "name_en": "Wivre Cod",
+            "name_fr": "Morue wivre",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@PLACE.DT.YAK_TEL",
+            "primeLocation": "sfh.63",
+            "patch": "7.0"
+        },
+        "x20283": {
+            "name_en": "Warmouth",
+            "name_fr": "Crapet sac-à-lait",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        },
+        "x20284": {
+            "name_en": "Shaaloani Goby",
+            "name_fr": "Gobie de Shaaloani",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SUPER_SLOW",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        },
+        "x20285": {
+            "name_en": "Sauger",
+            "name_fr": "Doré noir",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        },
+        "x20286": {
+            "name_en": "Niikwerepi Bass",
+            "name_fr": "Bar de Niikwerepi",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        },
+        "x20287": {
+            "name_en": "Longnose Gar",
+            "name_fr": "Lépisosté osseux",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        },
+        "x20288": {
+            "name_en": "Midnight Carp",
+            "name_fr": "Carpe de minuit",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.DT.SHAALOANI",
+            "primeLocation": "sfh.61",
+            "patch": "7.0"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "key": "world-unsundered",
+    "groupName_en": "World Unsundered",
+    "groupName_fr": "Ancien monde",
+    "tasks": {
+        "x658": {
+            "name_en": "Stonehard Water",
+            "name_fr": "Eau extrêmement dure",
+            "level": "90",
+            "zone": "@PLACE.EW.ELPIS",
+            "coordinates": "(13.6, 7.2)",
+            "closestAetheryte": "travel.aetherytes.others.159",
+            "nodeTimer": "04:00 / 16:00",
+            "patch": "6.0",
+            "cSiblings": [
+                "logs.gathering.gathering-log.mining.regional-folklore.ilsabard-and-northern-empty.658",
+                "logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars.658"
+            ]
+        },
+        "x660": {
+            "name_en": "Rhodium Sand",
+            "name_fr": "Sable de rhodium",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.ELPIS",
+            "coordinates": "(13.6, 7.2)",
+            "closestAetheryte": "travel.aetherytes.others.159",
+            "nodeTimer": "04:00 / 16:00",
+            "patch": "6.0"
+        }
+    }
+}
