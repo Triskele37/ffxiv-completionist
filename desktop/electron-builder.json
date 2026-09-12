@@ -19,7 +19,11 @@
     "extraResources": [
         {
             "from": "../resources",
-            "to": "resources"
+            "to": "resources",
+            "filter": [
+                "**/*",
+                "!**/preloadedData.json"
+            ]
         }
     ],
     "win": {

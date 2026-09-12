@@ -38,7 +38,7 @@ export function initializeData(
     });
 
     // Log unloaded groups
-    const unloaded = Object.keys(this.loader.dataCache)
+    const unloaded = Object.keys(this.loader.dataCache.data)
         .filter((k) => !expectedUnloadeds.includes(k));
 
     if(unloaded.length) {

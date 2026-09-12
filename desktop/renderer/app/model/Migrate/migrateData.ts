@@ -13,11 +13,12 @@ export function migrateData(
     svcElectron: ElectronService,
     svcSaveStore: SaveStoreService,
 ): void {
+    const currentVersion = svcElectron.getVersion();
     const getVer = () => svcSaveStore.get('version');
 
     if(!getVer()) {
         console.log('No version found, setting to current');
-        svcSaveStore.set('version', '1.0.6');
+        svcSaveStore.set('version', currentVersion);
         return;
     }
 
@@ -34,8 +35,8 @@ export function migrateData(
         }
     }
 
-    if(getVer() !== '1.0.6') {
+    if(getVer() !== currentVersion) {
         console.error('Unsupported version', getVer());
-        svcSaveStore.set('version', '1.0.6');
+        svcSaveStore.set('version', currentVersion);
     }
 }

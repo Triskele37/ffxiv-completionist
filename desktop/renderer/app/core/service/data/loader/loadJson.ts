@@ -14,16 +14,16 @@ export function loadJson(
         let json;
 
         // Check if passed group has a self-named file
-        if(this.loader.dataCache[key]) {
-            json = this.loader.dataCache[key];
-            delete this.loader.dataCache[key];
+        if(this.loader.dataCache?.data[key]) {
+            json = this.loader.dataCache.data[key];
+            delete this.loader.dataCache.data[key];
         }
 
         // Check if passed group has/is an index file
         const keyIfIndex = [key, '_index'].filter((p) => p).join('.');
-        if(this.loader.dataCache[keyIfIndex]) {
-            json = this.loader.dataCache[keyIfIndex];
-            delete this.loader.dataCache[keyIfIndex];
+        if(this.loader.dataCache?.data[keyIfIndex]) {
+            json = this.loader.dataCache.data[keyIfIndex];
+            delete this.loader.dataCache.data[keyIfIndex];
         }
 
         if(!json) throw new Error('Key not in cache');

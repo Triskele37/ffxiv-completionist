@@ -8,6 +8,7 @@ import { MainApi, MainSyncApi, MainAsyncApi } from '../common/MainApi';
 
 const syncApiKeys: (keyof MainSyncApi)[] = [
     'onAppReady',
+    'getVersion',
     'getData',
     'getMigration',
     'getConfig',

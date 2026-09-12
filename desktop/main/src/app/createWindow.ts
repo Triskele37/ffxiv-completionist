@@ -1,9 +1,9 @@
-import { initActions } from '../actions';
-import { preloadJson } from '../actions/preloadJson';
+import { initActions } from '../actions/initActions';
+import { preloadData } from '../data/preloadData';
 import { initializeWindows } from '../window';
 
 export async function createWindow() {
-    await preloadJson();
+    await preloadData();
 
     initActions();
     initializeWindows();

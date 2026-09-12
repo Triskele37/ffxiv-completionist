@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 
 import { Migration } from '../../../common/Migration';
-import { getResourcesRoot } from './getResourcesRoot';
+import { getResourcesRoot } from '../util/getResourcesRoot';
 
 export function getMigration(version: string): Migration | undefined {
     const resourceRoot = getResourcesRoot();

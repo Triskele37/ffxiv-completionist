@@ -14,12 +14,12 @@ import { getCommonTranslation } from './getCommonTranslation';
 export type DataLoaderFacet = ReturnType<typeof createLoaderFacet>;
 
 type LoaderContext = {
-    dataCache: JsonCache;
+    dataCache: JsonCache | null;
 };
 
 export function createLoaderFacet(this: DataServiceContext) {
     const context: LoaderContext = {
-        dataCache: {},
+        dataCache: null,
     };
 
     return {

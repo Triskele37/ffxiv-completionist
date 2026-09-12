@@ -1,1 +1,4 @@
-export type JsonCache = Record<string, object>;
+export type JsonCache = {
+    _version: string;
+    data: Record<string, object>;
+};

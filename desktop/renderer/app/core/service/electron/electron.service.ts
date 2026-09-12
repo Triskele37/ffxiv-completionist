@@ -48,6 +48,10 @@ export class ElectronService implements MainApi {
         window.electron.onAppReady();
     }
 
+    getVersion(): string {
+        return window.electron.getVersion();
+    }
+
     getData(): JsonCache {
         return window.electron.getData();
     }

@@ -70,7 +70,7 @@ export class AppComponent implements OnInit, AfterViewInit {
             this.svcBookmark.initializeBookmarks();
             this.svcNote.initializeNotes();
 
-            this.version = this.svcSaveStore.data?.version ?? '';
+            this.version = this.svcElectron.getVersion();
 
             this.loading = false;
         }
@@ -81,7 +81,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
         // Keep window title synced
         this.translate.get('APP.NAME').subscribe((title) => {
-            document.title = `${title} - ${this.svcSaveStore.data?.version}`;
+            document.title = `${title} - ${this.version}`;
         });
     }
 

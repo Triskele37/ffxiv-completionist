@@ -7,6 +7,7 @@ import { Migration } from './Migration';
 
 export interface MainApi {
 	onAppReady: () => void;
+    getVersion: () => string;
     getData: () => JsonCache;
     getMigration: (version: string) => Migration | undefined;
 
