@@ -10,7 +10,7 @@
             "link": true
         },
         "patch": {
-            "patch": "@HEADER.PATCH"
+            "header": "@HEADER.PATCH"
         }
     },
     "defaultCompletion": 0,

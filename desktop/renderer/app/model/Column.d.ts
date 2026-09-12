@@ -11,10 +11,8 @@ export type Column = {
     // Type
     editable?: boolean;
     filterable?: boolean;
-    filterType?: 'number';
 
     // Style
     oneLineTextList?: boolean;
-    centered?: boolean;
     width?: number;
 };
