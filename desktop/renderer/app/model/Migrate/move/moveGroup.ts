@@ -1,6 +1,8 @@
 import type { PlayerSave } from '@common/PlayerSave';
 
+import { ensureDeepPath } from '../retrieve/ensureDeepPath';
 import { getDeepProperty } from '../retrieve/getDeepProperty';
+import { isOrIsChildOf } from '../util/isOrIsChildOf';
 import { splitLastSegment } from '../util/splitLastSegment';
 import { rebaseGroupMeta } from './rebaseMeta';
 
@@ -24,12 +26,17 @@ export function moveGroup(
             ...oldGroup
         };
 
-        // Remove the old group location from the new store
-        const [oldLeftHand, oldRightHand] = splitLastSegment(oldGroupPath);
-        delete getDeepProperty(save, oldLeftHand)[oldRightHand];
+        if(!isOrIsChildOf(newGroupPath, oldGroupPath)) {
+            // Remove the old group location from the new store
+            const [oldLeftHand, oldRightHand] = splitLastSegment(oldGroupPath);
+            delete getDeepProperty(save, oldLeftHand)[oldRightHand];
+        }
+        else {
+            // TODO ???
+        }
 
         // Set the new location (done after delete in case paths converge)
-        getDeepProperty(save, newLeftHand)[newRightHand] = newGroup;
+        ensureDeepPath(save, newLeftHand)[newRightHand] = newGroup;
     }
 
     // Attempt move for meta regardless since its not tied to the completion structure

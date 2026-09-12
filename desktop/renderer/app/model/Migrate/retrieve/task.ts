@@ -1,7 +1,7 @@
 import type { PlayerSave } from '@common/PlayerSave';
+import type { ID } from '@common/Migration';
 import { CompletionFlag } from '@constant';
 
-import type { ID } from '../types';
 import { ensureDeepPath } from './ensureDeepPath';
 import { getDeepProperty } from './getDeepProperty';
 
@@ -14,7 +14,7 @@ export function getTask(
     taskId: ID,
 ): CompletionFlag {
     const group = getDeepProperty(save, groupPath);
-    return group?.[taskId];
+    return group?.[taskId.toString()];
 }
 
 /**
@@ -27,5 +27,5 @@ export function setTask(
     flag: CompletionFlag,
 ): void {
     const group = ensureDeepPath(save, groupPath);
-    group[taskId] = flag;
+    group[taskId.toString()] = flag;
 }

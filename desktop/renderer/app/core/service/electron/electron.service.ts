@@ -8,6 +8,7 @@ import { JsonCache } from '@common/JsonCache';
 import { ConfigLoad, ConfigObj } from '@common/Config';
 import { PlayerSave, SaveLoad } from '@common/PlayerSave';
 import { CustomMeta } from '@common/CustomContent';
+import { Migration } from '@common/Migration';
 
 import { copyLinkShim } from '@model/External/copyLinkShim';
 
@@ -49,6 +50,10 @@ export class ElectronService implements MainApi {
 
     getData(): JsonCache {
         return window.electron.getData();
+    }
+
+    getMigration(version: string): Migration | undefined {
+        return window.electron.getMigration(version);
     }
 
     getConfig(): ConfigLoad {

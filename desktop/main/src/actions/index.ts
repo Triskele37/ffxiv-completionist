@@ -7,6 +7,7 @@ import * as Config from '../config';
 import * as Save from '../save';
 import { showMainWindow } from '../window';
 import { getData } from './getData';
+import { getMigration } from './getMigration';
 import { importCustom, exportCustom } from './shareCustom';
 import { preloadJson } from './preloadJson';
 
@@ -36,6 +37,7 @@ function validateSender(frame: any): boolean {
 const mainApi: Partial<MainSyncApi> = {
 	onAppReady: showMainWindow,
 	getData: getData,
+    getMigration: getMigration,
 
     getConfig: Config.loadConfig,
     setConfig: Config.setConfig,

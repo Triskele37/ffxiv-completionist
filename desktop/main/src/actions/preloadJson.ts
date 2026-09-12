@@ -1,6 +1,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+import { getResourcesRoot } from './getResourcesRoot';
+
 /**
  * - keys like (logs.orchestrion-list.ambient)
  */
@@ -9,7 +11,6 @@ export const JSON_CACHE: Record<string, object> = {};
 /**
  * CachedCache is a PoC, invalidation isn't figured out yet
  * it does reduce preload significantly though
- * - when implemented, resources should be one level deeper, and the check below unneccessary
  * */
 const DISABLE_CACHED_CACHE = true;
 const CACHE_NAME = 'preloadedData.json';
@@ -23,7 +24,8 @@ export async function preloadJson() {
     const cachePath = path.join(path.normalize(resourceRoot), CACHE_NAME);
 
     if(DISABLE_CACHED_CACHE || !fs.existsSync(cachePath)) {
-        await diveResources(path.normalize(resourceRoot));
+        const dataRoot = path.join(path.normalize(resourceRoot), 'data');
+        await diveResources(dataRoot);
 
         if(!DISABLE_CACHED_CACHE) {
             fs.writeFileSync(cachePath, JSON.stringify(JSON_CACHE));
@@ -50,8 +52,6 @@ async function diveResources(root: string, p: string = root): Promise<void> {
             await diveResources(root, entityPath);
         }
         else if(entity.name.endsWith('.json')) {
-            if(entity.name === CACHE_NAME && entityPath === path.join(root, CACHE_NAME)) return;
-
             const file = await fs.promises.readFile(entityPath, 'utf8');
             const cacheKey = pathToKey(root, entityPath);
 
@@ -76,16 +76,4 @@ function pathToKey(root: string, p: string): string {
         .split(path.sep) // Split so we can join on a different character
         .filter((pp) => pp) // Remove empty pieces
         .join('.');
-}
-
-/**
- * Get the resource root based on environment
- */
-function getResourcesRoot() {
-    const isDev = process.resourcesPath.includes('electron') &&
-        process.resourcesPath.includes('node_modules');
-
-    return isDev
-        ? path.join('..', 'resources') // relative to main.ts
-        : path.join(process.resourcesPath, 'resources');
 }

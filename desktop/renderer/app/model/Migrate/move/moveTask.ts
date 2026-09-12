@@ -1,6 +1,6 @@
 import type { PlayerSave } from '@common/PlayerSave';
+import type { ID, Range } from '@common/Migration';
 
-import type { ID } from '../types';
 import { ensureDeepPath } from '../retrieve/ensureDeepPath';
 import { getDeepProperty } from '../retrieve/getDeepProperty';
 import { rebaseTaskMeta } from './rebaseMeta';
@@ -34,9 +34,20 @@ export function moveTasks(
     save: PlayerSave,
     oldGroupPath: string,
     newGroupPath: string,
-    taskIds: ID[],
+    idsOrRanges: (ID | Range)[],
 ): void {
-    for(const taskId of taskIds) {
-        moveTask(save, oldGroupPath, newGroupPath, taskId);
+    for(const idOrRange of idsOrRanges) {
+        if(typeof idOrRange !== 'object') {
+            moveTask(save, oldGroupPath, newGroupPath, idOrRange);
+        }
+        else {
+            const { start, end } = idOrRange;
+            const startInt = typeof start === 'string' ? parseInt(start, 10) : start;
+            const endInt = typeof end === 'string' ? parseInt(end, 10) : end;
+
+            for(let i = startInt; i <= endInt; i++) {
+                moveTask(save, oldGroupPath, newGroupPath, i);
+            }
+        }
     }
 }

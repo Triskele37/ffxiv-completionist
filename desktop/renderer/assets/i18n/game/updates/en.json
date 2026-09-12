@@ -96,6 +96,9 @@
                 "Manderville relic linking",
                 "Quests unlocking quests treated as a simple chain, added unlock concept to chaining",
                 "Other various value and link fixes"
+            ],
+            "REMOVE": [
+                "Save migration support for versions prior to 1.0.0"
             ]
         }
     }

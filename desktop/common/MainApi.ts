@@ -3,10 +3,12 @@ import { ConfigLoad, ConfigObj } from './Config';
 import { CustomMeta } from './CustomContent';
 import { JsonCache } from './JsonCache';
 import { PlayerSave, SaveLoad } from './PlayerSave';
+import { Migration } from './Migration';
 
 export interface MainApi {
 	onAppReady: () => void;
     getData: () => JsonCache;
+    getMigration: (version: string) => Migration | undefined;
 
     getConfig: () => ConfigLoad;
     setConfig: (config: ConfigObj) => void;

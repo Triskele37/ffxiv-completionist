@@ -3,10 +3,10 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 
 import { PlayerSave, SaveLoad } from '@common/PlayerSave';
+import { migrateData } from '@model/Migrate/migrateData';
 import { ElectronService } from '@service/electron/electron.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-import { migrateData } from './migration';
 import { Store } from './Store';
 
 @Injectable({
@@ -40,6 +40,6 @@ export class SaveStoreService extends Store<PlayerSave> {
     }
 
     migrateData(): void {
-        migrateData(this.svcConfigStore, this);
+        migrateData(this.svcConfigStore, this.svcElectron, this);
     }
 }

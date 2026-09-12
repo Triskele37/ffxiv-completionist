@@ -6,7 +6,7 @@ import { Issue } from '../../../common/Issue';
 import { getVerified } from './getVerified';
 import { loadJson } from './loadJson.js';
 
-export const RESOURCES_PATH = path.join('..', 'resources');
+export const RESOURCES_PATH = path.join('..', 'resources', 'data');
 
 export function compareResources(
     event: IpcMainEvent,
