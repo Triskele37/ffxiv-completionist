@@ -13,7 +13,7 @@ export function migrateSightseeing(store: ChangeStore): void {
 }
 
 function migrateArr(store: ChangeStore): void {
-    store.safeChangeKeys(`${SIGHTSEEING_LOG}.arr`, [
+    store.changeKeys(`${SIGHTSEEING_LOG}.arr`, [
         [0, 2162688], [1, 2162689], [2, 2162690], [3, 2162691], [4, 2162692],
         [5, 2162693], [6, 2162694], [7, 2162695], [8, 2162696], [9, 2162697],
         [10, 2162698], [11, 2162699], [12, 2162700], [13, 2162701], [14, 2162702],
@@ -31,11 +31,11 @@ function migrateArr(store: ChangeStore): void {
         [70, 2162758], [71, 2162759], [72, 2162760], [73, 2162761], [74, 2162762],
         [75, 2162763], [76, 2162764], [77, 2162765], [78, 2162766], [79, 2162767]
     ]);
-    store.moveGroup(`${SIGHTSEEING_LOG}.arr`, `${SIGHTSEEING_LOG}.a-realm-reborn`, true);
+    store.moveGroup(`${SIGHTSEEING_LOG}.arr`, `${SIGHTSEEING_LOG}.a-realm-reborn`);
 }
 
 function migrateHw(store: ChangeStore): void {
-    store.safeChangeKeys(`${SIGHTSEEING_LOG}.hw`, [
+    store.changeKeys(`${SIGHTSEEING_LOG}.hw`, [
         [0, 2162768], [1, 2162769], [2, 2162770], [3, 2162771], [4, 2162772],
         [5, 2162773], [6, 2162774], [7, 2162775], [8, 2162776], [9, 2162777],
         [10, 2162778], [11, 2162779], [12, 2162780], [13, 2162781], [14, 2162782],
@@ -50,11 +50,11 @@ function migrateHw(store: ChangeStore): void {
         [55, 2162823], [56, 2162824], [57, 2162825], [58, 2162826], [59, 2162827],
         [60, 2162828], [61, 2162829]
     ]);
-    store.moveGroup(`${SIGHTSEEING_LOG}.hw`, `${SIGHTSEEING_LOG}.heavensward`, true);
+    store.moveGroup(`${SIGHTSEEING_LOG}.hw`, `${SIGHTSEEING_LOG}.heavensward`);
 }
 
 function migrateSb(store: ChangeStore): void {
-    store.safeChangeKeys(`${SIGHTSEEING_LOG}.sb`, [
+    store.changeKeys(`${SIGHTSEEING_LOG}.sb`, [
         [0, 2162830], [1, 2162831], [2, 2162832], [3, 2162833], [4, 2162834],
         [5, 2162835], [6, 2162836], [7, 2162837], [8, 2162838], [9, 2162839],
         [10, 2162840], [11, 2162841], [12, 2162842], [13, 2162843], [14, 2162844],
@@ -69,11 +69,11 @@ function migrateSb(store: ChangeStore): void {
         [55, 2162885], [56, 2162886], [57, 2162887], [58, 2162888], [59, 2162889],
         [60, 2162890], [61, 2162891]
     ]);
-    store.moveGroup(`${SIGHTSEEING_LOG}.sb`, `${SIGHTSEEING_LOG}.stormblood`, true);
+    store.moveGroup(`${SIGHTSEEING_LOG}.sb`, `${SIGHTSEEING_LOG}.stormblood`);
 }
 
 function migrateShb(store: ChangeStore): void {
-    store.safeChangeKeys(`${SIGHTSEEING_LOG}.shb`, [
+    store.changeKeys(`${SIGHTSEEING_LOG}.shb`, [
         [0, 2162892], [1, 2162893], [2, 2162894], [3, 2162895], [4, 2162896],
         [5, 2162897], [6, 2162898], [7, 2162899], [8, 2162900], [9, 2162901],
         [10, 2162902], [11, 2162903], [12, 2162904], [13, 2162905], [14, 2162906],
@@ -84,11 +84,11 @@ function migrateShb(store: ChangeStore): void {
         [35, 2162927], [36, 2162928], [37, 2162929], [38, 2162930], [39, 2162931],
         [40, 2162932], [41, 2162933], [42, 2162934], [43, 2162935], [44, 2162936]
     ]);
-    store.moveGroup(`${SIGHTSEEING_LOG}.shb`, `${SIGHTSEEING_LOG}.shadowbringers`, true);
+    store.moveGroup(`${SIGHTSEEING_LOG}.shb`, `${SIGHTSEEING_LOG}.shadowbringers`);
 }
 
 function migrateEw(store: ChangeStore): void {
-    store.safeChangeKeys(`${SIGHTSEEING_LOG}.ew`, [
+    store.changeKeys(`${SIGHTSEEING_LOG}.ew`, [
         [0, 2162937], [1, 2162938], [2, 2162939], [3, 2162940], [4, 2162941],
         [5, 2162942], [6, 2162943], [7, 2162944], [8, 2162945], [9, 2162946],
         [10, 2162947], [11, 2162948], [12, 2162949], [13, 2162950], [14, 2162951],
@@ -100,5 +100,5 @@ function migrateEw(store: ChangeStore): void {
         [40, 2162977], [41, 2162978], [42, 2162979], [43, 2162980], [44, 2162981],
         [45, 2162982]
     ]);
-    store.moveGroup(`${SIGHTSEEING_LOG}.ew`, `${SIGHTSEEING_LOG}.endwalker`, true);
+    store.moveGroup(`${SIGHTSEEING_LOG}.ew`, `${SIGHTSEEING_LOG}.endwalker`);
 }

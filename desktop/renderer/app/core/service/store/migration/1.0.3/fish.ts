@@ -59,7 +59,7 @@ export function migrateFish(store: ChangeStore): void {
     for(let oldId = 0; oldId <= 4; oldId++) {
         const newId = oldId + 50; // 2 pages already on page 12
         store.changeKey(lastOldFPage, oldId, newId);
-        store.moveTask(lastOldFPage, lastNewFPage, newId, true);
+        store.moveTask(lastOldFPage, lastNewFPage, newId);
     }
 
     // Cleanup empty pages
@@ -150,6 +150,6 @@ function movePage(
         const newId = (25 * quarter) + i;
         if(quarter > 0) store.changeKey(fromPath, i, newId);
 
-        store.moveTask(fromPath, toPath, newId, true);
+        store.moveTask(fromPath, toPath, newId);
     }
 }

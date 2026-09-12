@@ -34,13 +34,13 @@ function migrateDeepDungeons(store: ChangeStore): void {
     store.changeKey(OLD_DD, 0, 174);
     store.changeKey(OLD_DD, 1, 540);
     store.changeKey(OLD_DD, 2, 897);
-    store.moveGroup(OLD_DD, NEW_DD, true);
+    store.moveGroup(OLD_DD, NEW_DD);
 }
 
 function migrateDungeons(store: ChangeStore): void {
     const DUNGEONS = `${DRF}.dungeons`;
 
-    store.safeChangeKeys(`${DUNGEONS}.arr`, [
+    store.changeKeys(`${DUNGEONS}.arr`, [
         [0, 4],
         [1, 2],
         [2, 3],
@@ -435,14 +435,14 @@ function migrateVCDungeons(store: ChangeStore): void {
     store.changeKey(`${OLD_VC}.sildihn-subterrane`, 1, 878);
     store.changeKey(`${OLD_VC}.sildihn-subterrane`, 2, 879);
 
-    store.moveGroup(OLD_VC, NEW_VC, true);
+    store.moveGroup(OLD_VC, NEW_VC);
 }
 
 function migrateHunts(store: ChangeStore): void {
     const HUNTS = `${DUTY}.the-hunt`;
     store.moveGroup(`${DRF}.the-hunt`, HUNTS);
 
-    store.safeChangeKeys(`${HUNTS}.arr`, [
+    store.changeKeys(`${HUNTS}.arr`, [
         [0, 2926],
         [1, 2929],
         [2, 2930],

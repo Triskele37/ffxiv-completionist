@@ -47,13 +47,12 @@ export function migrateQuests(store: ChangeStore): void {
 
     // Actually updated the quest reference for Steps of Faith
     const SAE = `${QUEST}.main-scenario.seventh-astral-era-main-scenario-quests`;
-    store.changeKey(SAE, 65955, 70127, true);
+    store.changeKey(SAE, 65955, 70127);
 
     store.moveTask(
         `${QUEST}.sidequests.weapon-enhancement-sidequests.resistance-weapons`,
         `${QUEST}.other-quests.quasi-quests`,
-        69577,
-        true
+        69577
     );
 }
 
@@ -158,7 +157,7 @@ function migrateDohlRoleQuests(store: ChangeStore): void {
     const OLD_CM = `${CAJ}.crystalline-mean`;
     const NEW_CM = `${OLD_CM}-quests`;
     store.moveTasks(OLD_CM, `${OLD_CM}.crystalline-mean-quests`, [68778, 69191]);
-    store.moveGroup(OLD_CM, NEW_CM, true);
+    store.moveGroup(OLD_CM, NEW_CM);
     store.moveGroup(...withQuests(NEW_CM, 'facet-of-forging'));
     store.moveGroup(...withQuests(NEW_CM, 'facet-of-crafting'));
     store.moveGroup(...withQuests(NEW_CM, 'facet-of-nourishing'));
@@ -168,7 +167,7 @@ function migrateDohlRoleQuests(store: ChangeStore): void {
     const OLD_S = `${CAJ}.studium`;
     const NEW_S = `${OLD_S}-quests`;
     store.moveTasks(OLD_S, `${OLD_S}.studium-quests`, [70009, 70010]);
-    store.moveGroup(OLD_S, NEW_S, true);
+    store.moveGroup(OLD_S, NEW_S);
     store.moveGroup(...withQuests(NEW_S, 'faculty-of-aetherology'));
     store.moveGroup(...withQuests(NEW_S, 'faculty-of-anthropology'));
     store.moveGroup(...withQuests(NEW_S, 'faculty-of-archaeology'));
@@ -294,35 +293,34 @@ function migrateSidequests(store: ChangeStore): void {
 
 function migrateOtherQuests(store: ChangeStore): void {
     const OTHER = `${QUEST}.other-quests`;
-    store.moveGroup(...withQuests(QUEST, 'other'), true);
+    store.moveGroup(...withQuests(QUEST, 'other'));
 
     const GC = `${OTHER}.grand-company-quests`;
-    store.moveGroup(...withQuests(OTHER, 'grand-company'), true);
-    store.moveGroup(...withQuests(GC, 'immortal-flames'), true);
-    store.moveGroup(...withQuests(GC, 'maelstrom'), true);
-    store.moveGroup(...withQuests(GC, 'order-of-the-twin-adder'), true);
+    store.moveGroup(...withQuests(OTHER, 'grand-company'));
+    store.moveGroup(...withQuests(GC, 'immortal-flames'));
+    store.moveGroup(...withQuests(GC, 'maelstrom'));
+    store.moveGroup(...withQuests(GC, 'order-of-the-twin-adder'));
 
     const SEASONAL = `${OTHER}.seasonal-events`;
     store.moveGroup(...withEvents(OTHER, 'seasonal'));
-    store.moveGroup(...withEvents(SEASONAL, 'all-saints-wake'), true);
-    store.moveGroup(`${SEASONAL}.egg-hunts`, `${SEASONAL}.hatching-tide-events`, true);
-    store.moveGroup(...withEvents(SEASONAL, 'heavensturn'), true);
-    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-and-hatching-tide'), true);
-    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-day'), true);
-    store.moveGroup(...withEvents(SEASONAL, 'moonfire-faire'), true);
-    store.moveGroup(...withEvents(SEASONAL, 'rising'), true);
-    store.moveGroup(...withEvents(SEASONAL, 'starlight-celebration'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'all-saints-wake'));
+    store.moveGroup(`${SEASONAL}.egg-hunts`, `${SEASONAL}.hatching-tide-events`);
+    store.moveGroup(...withEvents(SEASONAL, 'heavensturn'));
+    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-and-hatching-tide'));
+    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-day'));
+    store.moveGroup(...withEvents(SEASONAL, 'moonfire-faire'));
+    store.moveGroup(...withEvents(SEASONAL, 'rising'));
+    store.moveGroup(...withEvents(SEASONAL, 'starlight-celebration'));
     store.moveGroup(
         `${SEASONAL}.valentiones-little-ladies-day`,
-        `${SEASONAL}.valentiones-and-little-ladies-day-events`,
-        true
+        `${SEASONAL}.valentiones-and-little-ladies-day-events`
     );
-    store.moveGroup(...withEvents(SEASONAL, 'valentiones-day'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'valentiones-day'));
 
     const SPECIAL = `${OTHER}.special-quests`;
-    store.moveGroup(...withQuests(OTHER, 'special'), true);
+    store.moveGroup(...withQuests(OTHER, 'special'));
     store.moveTask(SPECIAL, `${SPECIAL}.special-quests`, 67114);
-    store.moveGroup(...withQuests(SPECIAL, 'collaboration'), true);
+    store.moveGroup(...withQuests(SPECIAL, 'collaboration'));
 }
 
 function migrateTribalAGAIN(store: ChangeStore): void {

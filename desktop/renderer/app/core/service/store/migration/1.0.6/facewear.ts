@@ -4,7 +4,7 @@ import type { ChangeStore } from '@service/store/migration/ChangeStore';
  * Facewear key changes from Generated Resources
  */
 export function migrateFacewear(store: ChangeStore): void {
-    store.safeChangeKeys('overall.character.facewear', [
+    store.changeKeys('overall.character.facewear', [
         [14, 0], // Oval Spectacles
         [1, 1], // Shaded Spectacles
         [2, 2], // Classic Spectacles

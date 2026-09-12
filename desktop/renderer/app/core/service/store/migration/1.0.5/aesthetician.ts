@@ -7,7 +7,7 @@ const AESTHETICIAN = 'overall.character.character.aesthetician';
 export function migrateAesthetician(store: ChangeStore): void {
     store.deleteTask(AESTHETICIAN, 15);
 
-    store.safeChangeKeys(AESTHETICIAN, [
+    store.changeKeys(AESTHETICIAN, [
         [0, 286], // Adventure
         [1, 72], // Controlled Chaos
         [2, 287], // Curls

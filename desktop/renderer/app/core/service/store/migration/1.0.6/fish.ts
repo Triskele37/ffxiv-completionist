@@ -13,7 +13,7 @@ export function migrateFishingGuide(store: ChangeStore): void {
 }
 
 function migrateFishFish(store: ChangeStore): void {
-    store.safeChangeKeys(`${FISHING}.page-1`, [
+    store.changeKeys(`${FISHING}.page-1`, [
         [0, 1], // Malm Kelp
         [1, 2], // Crayfish
         [2, 3], // Chub
@@ -116,7 +116,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 100], // Dustfish
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-2`, [
+    store.changeKeys(`${FISHING}.page-2`, [
         [0, 101], // Golden Loach
         [1, 102], // Storm Rider
         [2, 103], // Trader Eel
@@ -219,7 +219,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 200], // Sabertooth Cod
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-3`, [
+    store.changeKeys(`${FISHING}.page-3`, [
         [0, 201], // Dream Goby
         [1, 202], // Navigator's Brand
         [2, 203], // Dark Ambusher
@@ -322,7 +322,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 300], // Icepick
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-4`, [
+    store.changeKeys(`${FISHING}.page-4`, [
         [0, 301], // Cloud Coral
         [1, 302], // Ice Faerie
         [2, 303], // Skyworm
@@ -425,7 +425,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 400], // Moogle Spirit
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-5`, [
+    store.changeKeys(`${FISHING}.page-5`, [
         [0, 401], // Oil Eel
         [1, 402], // Jeweled Jellyfish
         [2, 403], // Battle Galley
@@ -528,7 +528,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 500], // Rapids Jumper
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-6`, [
+    store.changeKeys(`${FISHING}.page-6`, [
         [0, 501], // Adamantite Bichir
         [1, 502], // Bone Melter
         [2, 503], // Fallen Leaf
@@ -631,7 +631,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 600], // Sweatfish
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-7`, [
+    store.changeKeys(`${FISHING}.page-7`, [
         [0, 601], // Hak Bitterling
         [1, 602], // Whitehorse
         [2, 603], // Sculptor
@@ -734,7 +734,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 700], // Laxan Carp
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-8`, [
+    store.changeKeys(`${FISHING}.page-8`, [
         [0, 701], // Asteroidea
         [1, 702], // Hard Candy
         [2, 703], // Abyssal Snail
@@ -837,7 +837,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 800], // Rainbow Shrimp
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-9`, [
+    store.changeKeys(`${FISHING}.page-9`, [
         [0, 801], // Ondobane
         [1, 802], // Seatrap
         [2, 803], // Stargazer
@@ -940,7 +940,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 900], // Spectral Megalodon
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-10`, [
+    store.changeKeys(`${FISHING}.page-10`, [
         [0, 901], // Spectral Discus
         [1, 902], // Spectral Sea Bo
         [2, 903], // Spectral Bass
@@ -1043,7 +1043,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 1000], // Dammroen Herring
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-11`, [
+    store.changeKeys(`${FISHING}.page-11`, [
         [0, 1001], // Celestial
         [1, 1002], // Deephaunt
         [2, 1003], // Golden Pipira
@@ -1146,7 +1146,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 1100], // Mangar
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-12`, [
+    store.changeKeys(`${FISHING}.page-12`, [
         [0, 1101], // Dermogenys
         [1, 1102], // Antheia
         [2, 1103], // Colossoma
@@ -1249,7 +1249,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 1200], // Singular Shrimp
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-13`, [
+    store.changeKeys(`${FISHING}.page-13`, [
         [0, 1201], // Poet's Pipe
         [1, 1202], // Marine Matanga
         [2, 1203], // Hatatate
@@ -1352,7 +1352,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 1301], // Alright Alright Alright
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-14`, [
+    store.changeKeys(`${FISHING}.page-14`, [
         [0, 1302], // Zorlortor
         [1, 1303], // Shooting Starscale
         [2, 1304], // First Feastfish
@@ -1455,7 +1455,7 @@ function migrateFishFish(store: ChangeStore): void {
         [99, 1404], // Knight Goby
     ]);
 
-    store.safeChangeKeys(`${FISHING}.page-15`, [
+    store.changeKeys(`${FISHING}.page-15`, [
         [0, 1405], // Windspath Eel
         [1, 1406], // Harlequin Lancer
         [2, 1407], // Cleyran Carp
@@ -1492,7 +1492,7 @@ function migrateFishFish(store: ChangeStore): void {
 }
 
 function migrateSpearfishing(store: ChangeStore): void {
-    store.safeChangeKeys(`${SPEARFISHING}.page-1`, [
+    store.changeKeys(`${SPEARFISHING}.page-1`, [
         [0, 20000], // Wentletrap
         [1, 20001], // Black Boxfish
         [2, 20002], // Glass Manta
@@ -1595,7 +1595,7 @@ function migrateSpearfishing(store: ChangeStore): void {
         [99, 20099], // Grey Carp
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING}.page-2`, [
+    store.changeKeys(`${SPEARFISHING}.page-2`, [
         [0, 20100], // Lilac Goby
         [1, 20101], // Purple Ghost
         [2, 20102], // Gazing Glass
@@ -1698,7 +1698,7 @@ function migrateSpearfishing(store: ChangeStore): void {
         [99, 20199], // Daemir's Alloy
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING}.page-3`, [
+    store.changeKeys(`${SPEARFISHING}.page-3`, [
         [0, 20200], // Dusky Shark
         [1, 20201], // Agama's Palm
         [2, 20202], // Rummy-nosed Tetra

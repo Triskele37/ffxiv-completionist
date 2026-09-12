@@ -5,7 +5,7 @@ import type { ChangeStore } from '@service/store/migration/ChangeStore';
 export function migrateTripleTriadCards(store: ChangeStore): void {
     const TT = 'overall.character.gold-saucer.triple-triad-card-list';
 
-    store.safeChangeKeys(`${TT}.last-page`, [
+    store.changeKeys(`${TT}.last-page`, [
         [0, 68], // Warrior of Light
         [1, 69], // Firion
         [2, 70], // Onion Knight
@@ -23,7 +23,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [14, 405], // Clive Rosfield
     ]);
 
-    store.safeChangeKeys(`${TT}.page-1`, [
+    store.changeKeys(`${TT}.page-1`, [
         [0, 1], // Dodo
         [1, 2], // Tonberry
         [2, 3], // Sabotender
@@ -56,7 +56,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 30], // Mother Miounne
     ]);
 
-    store.safeChangeKeys(`${TT}.page-2`, [
+    store.changeKeys(`${TT}.page-2`, [
         [0, 31], // Livia sas Junius
         [1, 32], // Rhitahtyn sas Arvina
         [2, 33], // Biggs & Wedge
@@ -89,7 +89,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 60], // Louisoix Leveilleur
     ]);
 
-    store.safeChangeKeys(`${TT}.page-3`, [
+    store.changeKeys(`${TT}.page-3`, [
         [0, 61], // Bahamut
         [1, 62], // Hildibrand & Nashu Mhakaracca
         [2, 63], // Nanamo Ul Namo
@@ -122,7 +122,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 103], // Paissa
     ]);
 
-    store.safeChangeKeys(`${TT}.page-4`, [
+    store.changeKeys(`${TT}.page-4`, [
         [0, 104], // Dhalmel
         [1, 105], // Bandersnatch
         [2, 106], // Crawler
@@ -155,7 +155,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 133], // Artoirel de Fortemps
     ]);
 
-    store.safeChangeKeys(`${TT}.page-5`, [
+    store.changeKeys(`${TT}.page-5`, [
         [0, 134], // Emmanellain de Fortemps
         [1, 135], // Xande
         [2, 136], // Brute Justice
@@ -188,7 +188,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 163], // Alexander Prime
     ]);
 
-    store.safeChangeKeys(`${TT}.page-6`, [
+    store.changeKeys(`${TT}.page-6`, [
         [0, 164], // Brendt, Brennan, & Bremondt
         [1, 165], // Heavensward Thancred
         [2, 166], // Heavensward Y'shtola
@@ -221,7 +221,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 193], // Rasho
     ]);
 
-    store.safeChangeKeys(`${TT}.page-7`, [
+    store.changeKeys(`${TT}.page-7`, [
         [0, 194], // Cirina
         [1, 195], // Magnai
         [2, 196], // Sadu
@@ -254,7 +254,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 229], // Yiazmat
     ]);
 
-    store.safeChangeKeys(`${TT}.page-8`, [
+    store.changeKeys(`${TT}.page-8`, [
         [0, 230], // Gosetsu
         [1, 221], // Wanyudo & Katasharin
         [2, 222], // Hatamoto
@@ -287,7 +287,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 254], // Evil Weapon
     ]);
 
-    store.safeChangeKeys(`${TT}.page-9`, [
+    store.changeKeys(`${TT}.page-9`, [
         [0, 255], // Lord and Lady Chai
         [1, 256], // Gigantender
         [2, 257], // Feo Ul
@@ -320,7 +320,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 284], // Qitari
     ]);
 
-    store.safeChangeKeys(`${TT}.page-10`, [
+    store.changeKeys(`${TT}.page-10`, [
         [0, 285], // Gnoll
         [1, 287], // Batsquatch
         [2, 288], // Forgiven Obscenity
@@ -353,7 +353,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 309], // Azulmagia
     ]);
 
-    store.safeChangeKeys(`${TT}.page-11`, [
+    store.changeKeys(`${TT}.page-11`, [
         [0, 310], // Siegfried
         [1, 311], // Gogo, Master of Mimicry
         [2, 317], // Keeper of the Keys
@@ -386,7 +386,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 345], // Hydaelyn
     ]);
 
-    store.safeChangeKeys(`${TT}.page-12`, [
+    store.changeKeys(`${TT}.page-12`, [
         [0, 346], // Zenos Galvus
         [1, 335], // Erichthonios
         [2, 347], // Rampart
@@ -419,7 +419,7 @@ export function migrateTripleTriadCards(store: ChangeStore): void {
         [29, 369], // Dreamingway
     ]);
 
-    store.safeChangeKeys(`${TT}.page-13`, [
+    store.changeKeys(`${TT}.page-13`, [
         [0, 372], // Suprae-Lugae
         [1, 373], // Gancanagh
         [2, 377], // Venat

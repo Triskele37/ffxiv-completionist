@@ -1,4 +1,5 @@
-import type { ChangeStore, ID } from '@service/store/migration/ChangeStore';
+import type { ID } from '@model/Migrate/types';
+import type { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** IDs made unique within all shared fates
  * */
@@ -7,7 +8,7 @@ export function migrateSharedFate(store: ChangeStore): void {
 
     const changeAndMove = (zone: string, oldId: ID, newId: ID) => {
         store.changeKey(zone, oldId, newId);
-        store.moveTask(zone, sharedFate, newId, true);
+        store.moveTask(zone, sharedFate, newId);
     };
 
     // Update with new IDs & remove subGroups

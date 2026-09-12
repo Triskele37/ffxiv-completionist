@@ -29,7 +29,7 @@ function migrateGroups(store: ChangeStore): void {
 }
 
 function migrateMining(store: ChangeStore): void {
-    store.safeChangeKeys(`${GLOG}.mining.collectables.50-70`, [
+    store.changeKeys(`${GLOG}.mining.collectables.50-70`, [
         [0, 10598], // Rarefied Pyrite
         [1, 10599], // Rarefied Chalcocite
         [2, 10600], // Rarefied Limonite
@@ -42,7 +42,7 @@ function migrateMining(store: ChangeStore): void {
         [9, 10606], // Rarefied Raw Azurite
         [10, 10607], // Rarefied Silvergrace Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.collectables.71-80`, [
+    store.changeKeys(`${GLOG}.mining.collectables.71-80`, [
         [0, 10608], // Rarefied Titancopper Ore
         [1, 10618], // Rarefied Bluespirit Ore
         [2, 10609], // Rarefied Raw Lazurite
@@ -53,21 +53,21 @@ function migrateMining(store: ChangeStore): void {
         [7, 10614], // Rarefied Tungsten Ore
         [8, 10615], // Rarefied Gyr Abanian Alumen
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.collectables.81-90`, [
+    store.changeKeys(`${GLOG}.mining.collectables.81-90`, [
         [0, 10760], // Rarefied High Durium Ore
         [1, 10761], // Rarefied Raw Ametrine
         [2, 10762], // Rarefied Bismuth Ore
         [3, 10763], // Rarefied Sharlayan Rock Salt
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.collectables.91-100`, [
+    store.changeKeys(`${GLOG}.mining.collectables.91-100`, [
         [0, 10187], // Rarefied Raw Ihuykanite
         [1, 10189], // Rarefied Raw Dark Amber
         [2, 10190], // Rarefied Titanium Gold Ore
         [3, 10191], // Rarefied White Gold Ore
         [4, 10192], // Rarefied Magnesite Ore
         [5, 10193], // Rarefied Ra'Kaznar Ore
-    ], true);
-    store.safeChangeKeys(`${GLOG}.mining.level.1-5`, [
+    ]);
+    store.changeKeys(`${GLOG}.mining.level.1-5`, [
         [0, 75], // Copper Ore
         [1, 1], // Fire Shard
         [2, 2], // Ice Shard
@@ -78,10 +78,10 @@ function migrateMining(store: ChangeStore): void {
         [7, 73], // Muddy Water
         [8, 69], // Bone Chip
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.11-15`, [
+    store.changeKeys(`${GLOG}.mining.level.11-15`, [
         [0, 74], // Iron Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.16-20`, [
+    store.changeKeys(`${GLOG}.mining.level.16-20`, [
         [0, 58], // Raw Malachite
         [1, 48], // Raw Sphene
         [2, 55], // Raw Fluorite
@@ -89,11 +89,11 @@ function migrateMining(store: ChangeStore): void {
         [4, 70], // Sunrise Tellin
         [5, 38], // Alumen
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.21-25`, [
+    store.changeKeys(`${GLOG}.mining.level.21-25`, [
         [0, 49], // Effervescent Water
         [1, 66], // Silver Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.26-30`, [
+    store.changeKeys(`${GLOG}.mining.level.26-30`, [
         [0, 7], // Fire Crystal
         [1, 8], // Ice Crystal
         [2, 9], // Wind Crystal
@@ -103,7 +103,7 @@ function migrateMining(store: ChangeStore): void {
         [6, 76], // Wyvern Obsidian
         [7, 297], // Saltpeter
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.31-35`, [
+    store.changeKeys(`${GLOG}.mining.level.31-35`, [
         [0, 41], // Raw Garnet
         [1, 219], // Granite
         [2, 293], // Little Worm
@@ -114,20 +114,20 @@ function migrateMining(store: ChangeStore): void {
         [7, 37], // Raw Amethyst
         [8, 36], // Raw Aquamarine
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.36-40`, [
+    store.changeKeys(`${GLOG}.mining.level.36-40`, [
         [0, 52], // Raw Tourmaline
         [1, 47], // Raw Spinel
         [2, 46], // Raw Zircon
         [3, 45], // Jade
         [4, 54], // Black Alumen
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.41-45`, [
+    store.changeKeys(`${GLOG}.mining.level.41-45`, [
         [0, 50], // Raw Turquoise
         [1, 72], // Electrum Ore
         [2, 39], // Raw Amber
         [3, 62], // Raw Rubellite
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.46-50`, [
+    store.changeKeys(`${GLOG}.mining.level.46-50`, [
         [0, 53], // Basilisk Egg
         [1, 65], // Cobalt Ore
         [2, 64], // Adamantoise Shell
@@ -154,7 +154,7 @@ function migrateMining(store: ChangeStore): void {
         [23, 298], // Dragon Obsidian
         [24, 290], // Virgin Basilisk Egg
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.51-55`, [
+    store.changeKeys(`${GLOG}.mining.level.51-55`, [
         [0, 321], // Pyrite
         [1, 303], // Raw Agate
         [2, 302], // Raw Tiger's Eye
@@ -168,7 +168,7 @@ function migrateMining(store: ChangeStore): void {
         [10, 306], // Raw Star Ruby
         [11, 305], // Raw Star Sapphire
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.56-60`, [
+    store.changeKeys(`${GLOG}.mining.level.56-60`, [
         [0, 329], // Light Kidney Ore
         [1, 308], // Raw Opal
         [2, 310], // Abalathian Spring Water
@@ -194,7 +194,7 @@ function migrateMining(store: ChangeStore): void {
         [22, 429], // Raw Triphane
         [23, 428], // Gyr Abanian Alumen
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.6-10`, [
+    store.changeKeys(`${GLOG}.mining.level.6-10`, [
         [0, 71], // Tin Ore
         [1, 44], // Raw Sunstone
         [2, 61], // Raw Lapis Lazuli
@@ -203,7 +203,7 @@ function migrateMining(store: ChangeStore): void {
         [5, 68], // Obsidian
         [6, 217], // Potter's Clay
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.61-65`, [
+    store.changeKeys(`${GLOG}.mining.level.61-65`, [
         [0, 430], // Gyr Abanian Mineral Water
         [1, 431], // Raw Kyanite
         [2, 517], // Harpoon Head
@@ -215,7 +215,7 @@ function migrateMining(store: ChangeStore): void {
         [8, 435], // Doman Iron Ore
         [9, 527], // Malleable Still Material
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.66-70`, [
+    store.changeKeys(`${GLOG}.mining.level.66-70`, [
         [0, 437], // Schorl
         [1, 436], // Raw Azurite
         [2, 438], // Durium Ore
@@ -230,7 +230,7 @@ function migrateMining(store: ChangeStore): void {
         [11, 531], // Raw Hematite
         [12, 514], // Yanxian Soil
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.71-75`, [
+    store.changeKeys(`${GLOG}.mining.level.71-75`, [
         [10, 636], // Patient Necessity Materials
         [0, 533], // Truegold Ore
         [1, 532], // Raw Diaspore
@@ -245,7 +245,7 @@ function migrateMining(store: ChangeStore): void {
         [8, 618], // Printing Paraphernalia
         [9, 599], // Megafauna Leftovers
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.76-80`, [
+    store.changeKeys(`${GLOG}.mining.level.76-80`, [
         [0, 538], // Raw Triplite
         [1, 540], // Gale Rock
         [2, 541], // Solarite
@@ -258,7 +258,7 @@ function migrateMining(store: ChangeStore): void {
         [9, 545], // Raw Onyx
         [10, 621], // Thunder Rock
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.81-85`, [
+    store.changeKeys(`${GLOG}.mining.level.81-85`, [
         [0, 641], // Sharlayan Rock Salt
         [1, 640], // Raw Ametrine
         [5, 697], // Aetheroconductive Feather
@@ -269,13 +269,13 @@ function migrateMining(store: ChangeStore): void {
         [8, 742], // Energizing Eye-lixir Materials
         [4, 693], // Lunar Staple
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.86-90`, [
+    store.changeKeys(`${GLOG}.mining.level.86-90`, [
         [0, 644], // Manganese Ore
         [1, 694], // Elpis Staple
         [2, 645], // Chondrite
         [3, 646], // Ghostly Umbral Rock
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.91-95`, [
+    store.changeKeys(`${GLOG}.mining.level.91-95`, [
         [0, 744], // Mountain Chromite Ore
         [1, 797], // Locomotive Lubricant
         [2, 798], // Carriage Furnishing Supplies
@@ -286,7 +286,7 @@ function migrateMining(store: ChangeStore): void {
         [7, 748], // Ruthenium Ore
         [8, 749], // Cobalt Tungsten Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.level.96-100`, [
+    store.changeKeys(`${GLOG}.mining.level.96-100`, [
         [0, 750], // Raw Pink Beryl
         [1, 751], // Yak T'el Spring Water
         [2, 752], // Titanium Gold Ore
@@ -294,37 +294,37 @@ function migrateMining(store: ChangeStore): void {
         [4, 755], // White Gold Ore
         [5, 756], // Ra'Kaznar Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.abalathia`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.abalathia`, [
         [0, 336], // Red Alumen
         [1, 404], // Smithsonite Ore
         [2, 406], // Meteorite
         [3, 421], // Luminium Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.alexandria`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.alexandria`, [
         [0, 787], // Harmonite Ore
         [1, 796], // Alexandrian Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.coerthas`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.coerthas`, [
         [0, 420], // Tungstite
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.dravania`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.dravania`, [
         [0, 334], // Aurum Regis Ore
         [1, 402], // Lumythrite Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.gyr-abania`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.gyr-abania`, [
         [0, 443], // Chromite Ore
         [1, 506], // Gyr Abanian Spring Water
         [2, 522], // Gyr Abanian Ore
         [3, 523], // Evergleam Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.ilsabard-and-northern-empty`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.ilsabard-and-northern-empty`, [
         [0, 658], // Stonehard Water
         [1, 647], // Rime Dolomite
         [2, 695], // Raw Eblan Danburite
         [3, 704], // Prime Siderite
         [4, 705], // Sublime Siderite
-    ], true);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.norvrandt`, [
+    ]);
+    store.changeKeys(`${GLOG}.mining.regional-folklore.norvrandt`, [
         [0, 547], // Tungsten Ore
         [1, 546], // Prismstone
         [2, 606], // Beryllium Ore
@@ -333,14 +333,14 @@ function migrateMining(store: ChangeStore): void {
         [5, 624], // Dolomite
         [6, 628], // Hard Water
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.othard`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.othard`, [
         [0, 442], // Palladium Ore
         [1, 508], // Nightsteel Ore
         [2, 509], // Silvergrace Ore
         [3, 512], // Hawk's Eye
         [4, 521], // Azim Spring Water
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.sea-of-stars`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.sea-of-stars`, [
         [0, 707], // Ilmenite
         [1, 721], // Prime Achondrite
         [2, 722], // Sublime Achondrite
@@ -348,13 +348,13 @@ function migrateMining(store: ChangeStore): void {
         [4, 735], // Prime Fossilized Dragon's Scale
         [5, 736], // Sublime Fossilized Dragon's Scale
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.world-unsundered`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.world-unsundered`, [
         [0, 727], // Raw Spodumene
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.regional-folklore.xak-tural`, [
+    store.changeKeys(`${GLOG}.mining.regional-folklore.xak-tural`, [
         [0, 786], // Fine Silver Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.sidequests.ishgard-restoration`, [
+    store.changeKeys(`${GLOG}.mining.sidequests.ishgard-restoration`, [
         [0, 10644], // Grade 4 Skybuilders' Iron Ore
         [1, 10649], // Grade 4 Skybuilders' Ore
         [2, 10650], // Grade 4 Skybuilders' Rock Salt
@@ -377,7 +377,7 @@ function migrateMining(store: ChangeStore): void {
         [19, 10678], // Grade 4 Artisanal Skybuilders' Spring Water
         [20, 10679], // Grade 4 Artisanal Skybuilders' Ice Stalagmite
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.sidequests.skysteel-tools`, [
+    store.changeKeys(`${GLOG}.mining.sidequests.skysteel-tools`, [
         [0, 10522], // Oddly Specific Obsidian
         [1, 10523], // Oddly Specific Mineral Sand
         [2, 10527], // Oddly Specific Striking Stone
@@ -389,7 +389,7 @@ function migrateMining(store: ChangeStore): void {
         [8, 10596], // Oddly Delicate Adamantite Ore
         [9, 10597], // Oddly Delicate Raw Jade
     ]);
-    store.safeChangeKeys(`${GLOG}.mining.sidequests.splendorous-tools`, [
+    store.changeKeys(`${GLOG}.mining.sidequests.splendorous-tools`, [
         [0, 10832], // Connoisseur's Prismstone
         [1, 10833], // Splendorous Water Shard
         [2, 10836], // Connoisseur's Red Malachite
@@ -406,13 +406,13 @@ function migrateMining(store: ChangeStore): void {
 }
 
 function migrateQuarrying(store: ChangeStore): void {
-    store.safeChangeKeys(`${GLOG}.quarrying.collectables.50-70`, [
+    store.changeKeys(`${GLOG}.quarrying.collectables.50-70`, [
         [0, 10616], // Rarefied Mythrite Sand
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.collectables.71-80`, [
+    store.changeKeys(`${GLOG}.quarrying.collectables.71-80`, [
         [0, 10619], // Rarefied Manasilver Sand
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.collectables.81-90`, [
+    store.changeKeys(`${GLOG}.quarrying.collectables.81-90`, [
         [0, 10764], // Rarefied Phrygian Gold Ore
         [1, 10765], // Rarefied Blue Zircon
         [2, 10769], // Rarefied Chloroschist
@@ -420,11 +420,11 @@ function migrateQuarrying(store: ChangeStore): void {
         [4, 10767], // Rarefied Annite
         [5, 10768], // Rarefied Pewter Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.collectables.91-100`, [
+    store.changeKeys(`${GLOG}.quarrying.collectables.91-100`, [
         [0, 10188], // Rarefied Artificial Volcanic Rock
         [1, 10194], // Rarefied Ash Soil
-    ], true);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.1-5`, [
+    ]);
+    store.changeKeys(`${GLOG}.quarrying.level.1-5`, [
         [0, 1], // Fire Shard
         [1, 2], // Ice Shard
         [2, 3], // Wind Shard
@@ -432,7 +432,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [4, 5], // Lightning Shard
         [5, 6], // Water Shard
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.11-15`, [
+    store.changeKeys(`${GLOG}.quarrying.level.11-15`, [
         [0, 216], // Fine Sand
         [1, 95], // Copper Sand
         [2, 87], // Rock Salt
@@ -440,12 +440,12 @@ function migrateQuarrying(store: ChangeStore): void {
         [4, 82], // Iron Sand
         [5, 92], // Cinnabar
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.16-20`, [
+    store.changeKeys(`${GLOG}.quarrying.level.16-20`, [
         [0, 218], // Limestone
         [1, 93], // Mudstone
         [2, 24], // Grade 1 Carbonized Matter
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.21-25`, [
+    store.changeKeys(`${GLOG}.quarrying.level.21-25`, [
         [0, 94], // Earth Rock
         [1, 80], // Silver Sand
         [2, 86], // Fire Rock
@@ -454,7 +454,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [5, 98], // Lightning Rock
         [6, 90], // Water Rock
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.26-30`, [
+    store.changeKeys(`${GLOG}.quarrying.level.26-30`, [
         [0, 84], // Bomb Ash
         [1, 7], // Fire Crystal
         [2, 8], // Ice Crystal
@@ -476,17 +476,17 @@ function migrateQuarrying(store: ChangeStore): void {
         [18, 259], // Grade 1 Shroud Topsoil
         [19, 262], // Grade 1 Thanalan Topsoil
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.31-35`, [
+    store.changeKeys(`${GLOG}.quarrying.level.31-35`, [
         [0, 100], // Mythril Sand
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.36-40`, [
+    store.changeKeys(`${GLOG}.quarrying.level.36-40`, [
         [0, 81], // Grenade Ash
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.41-45`, [
+    store.changeKeys(`${GLOG}.quarrying.level.41-45`, [
         [0, 78], // Electrum Sand
         [1, 215], // Marble
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.46-50`, [
+    store.changeKeys(`${GLOG}.quarrying.level.46-50`, [
         [0, 257], // Grade 2 La Noscean Topsoil
         [1, 260], // Grade 2 Shroud Topsoil
         [2, 263], // Grade 2 Thanalan Topsoil
@@ -509,12 +509,12 @@ function migrateQuarrying(store: ChangeStore): void {
         [19, 387], // Dark Matter Cluster
         [20, 287], // Pumice
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.51-55`, [
+    store.changeKeys(`${GLOG}.quarrying.level.51-55`, [
         [0, 299], // Mythrite Sand
         [1, 322], // Yellow Quartz
         [2, 325], // Green Quartz
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.56-60`, [
+    store.changeKeys(`${GLOG}.quarrying.level.56-60`, [
         [0, 326], // Abalathian Rock Salt
         [1, 327], // Fire Moraine
         [2, 328], // Lightning Moraine
@@ -531,7 +531,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [13, 403], // Lumythrite Sand
         [14, 409], // Radiant Astral Moraine
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.61-65`, [
+    store.changeKeys(`${GLOG}.quarrying.level.61-65`, [
         [0, 445], // Stiperstone
         [1, 446], // Koppranickel Sand
         [2, 516], // Pinch of Active Ingredients
@@ -540,7 +540,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [5, 519], // Shisui Jewel
         [6, 520], // Cloudkin Feather
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.66-70`, [
+    store.changeKeys(`${GLOG}.quarrying.level.66-70`, [
         [0, 450], // Perlite
         [1, 634], // Dacite
         [2, 449], // Durium Sand
@@ -557,7 +557,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [13, 549], // Coarse Saltpeter
         [14, 548], // Yellow Alumen
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.71-75`, [
+    store.changeKeys(`${GLOG}.quarrying.level.71-75`, [
         [0, 550], // Hard Mudstone
         [1, 551], // Truegold Sand
         [2, 614], // Gathering Tool Paraphernalia
@@ -565,7 +565,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [4, 552], // Manasilver Sand
         [5, 639], // High Tea Ingredients
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.76-80`, [
+    store.changeKeys(`${GLOG}.quarrying.level.76-80`, [
         [0, 553], // Volcanic Tuff
         [1, 554], // Titancopper Sand
         [5, 19], // Art Supply Materials
@@ -573,7 +573,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [3, 556], // Shade Quartz
         [4, 621], // Thunder Rock
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.81-85`, [
+    store.changeKeys(`${GLOG}.quarrying.level.81-85`, [
         [0, 648], // High Durium Sand
         [1, 649], // Chloroschist
         [7, 698], // Aetheroconductive Focus Materials
@@ -592,7 +592,7 @@ function migrateQuarrying(store: ChangeStore): void {
         [6, 652], // Eblan Alumen
         [13, 715], // Crafters' Supplies
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.86-90`, [
+    store.changeKeys(`${GLOG}.quarrying.level.86-90`, [
         [0, 653], // Raw Blue Zircon
         [1, 657], // Lunar Quartz
         [2, 654], // Annite
@@ -601,48 +601,48 @@ function migrateQuarrying(store: ChangeStore): void {
         [4, 656], // Raw Star Quartz
         [5, 717], // Earthen Quartz
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.91-95`, [
+    store.changeKeys(`${GLOG}.quarrying.level.91-95`, [
         [0, 746], // Mountain Rock Salt
         [1, 800], // Industrial Sanitizing Fluid
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.level.96-100`, [
+    store.changeKeys(`${GLOG}.quarrying.level.96-100`, [
         [0, 791], // Electrocoal
         [1, 753], // Magnesia Powder
         [2, 792], // Brightwind Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.abalathia`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.abalathia`, [
         [0, 335], // Sun Mica
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.coerthas`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.coerthas`, [
         [0, 338], // Violet Quartz
         [1, 337], // Astral Moraine
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.dravania`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.dravania`, [
         [0, 339], // Blue Quartz
         [1, 422], // Zeolite Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.ilsabard-and-northern-empty`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.ilsabard-and-northern-empty`, [
         [0, 706], // Raw Rutilated Quartz
         [1, 708], // Ash Diatomite
         [2, 719], // Raw Zoisite
         [3, 725], // Maghemite
         [4, 731], // Prime Chloroschist
         [5, 732], // Sublime Chloroschist
-    ], true);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.norvrandt`, [
+    ]);
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.norvrandt`, [
         [0, 609], // Purpure Shell Chip
         [1, 610], // Ashen Alumen
         [2, 625], // Solstice Stone
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.sea-of-stars`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.sea-of-stars`, [
         [0, 658], // Stonehard Water
         [1, 659], // Lunar Adamantite Ore
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.regional-folklore.world-unsundered`, [
+    store.changeKeys(`${GLOG}.quarrying.regional-folklore.world-unsundered`, [
         [0, 658], // Stonehard Water
         [1, 660], // Rhodium Sand
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.sidequests.ishgard-restoration`, [
+    store.changeKeys(`${GLOG}.quarrying.sidequests.ishgard-restoration`, [
         [0, 10645], // Grade 4 Skybuilders' Iron Sand
         [1, 10651], // Grade 4 Skybuilders' Mythrite Sand
         [2, 10660], // Grade 4 Skybuilders' Gold Sand
@@ -659,14 +659,14 @@ function migrateQuarrying(store: ChangeStore): void {
         [13, 10681], // Grade 4 Artisanal Skybuilders' Prismstone
         [14, 10685], // Grade 4 Skybuilders' Umbral Levinsand
     ]);
-    store.safeChangeKeys(`${GLOG}.quarrying.sidequests.skysteel-tools`, [
+    store.changeKeys(`${GLOG}.quarrying.sidequests.skysteel-tools`, [
         [0, 10527], // Oddly Specific Striking Stone
         [1, 10526], // Oddly Specific Dark Matter
     ]);
 }
 
 function migrateLogging(store: ChangeStore): void {
-    store.safeChangeKeys(`${GLOG}.logging.collectables.50-70`, [
+    store.changeKeys(`${GLOG}.logging.collectables.50-70`, [
         [0, 10620], // Rarefied Dark Chestnut Sap
         [1, 10621], // Rarefied Dark Chestnut Log
         [2, 10622], // Rarefied Dark Chestnut Branch
@@ -678,7 +678,7 @@ function migrateLogging(store: ChangeStore): void {
         [8, 10628], // Rarefied Pine Resin
         [9, 10629], // Rarefied Pine Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.collectables.71-80`, [
+    store.changeKeys(`${GLOG}.logging.collectables.71-80`, [
         [0, 10630], // Rarefied Pixie Apple
         [1, 10631], // Rarefied White Oak Log
         [2, 10632], // Rarefied Miracle Apple Log
@@ -688,7 +688,7 @@ function migrateLogging(store: ChangeStore): void {
         [6, 10636], // Rarefied Coral
         [7, 10637], // Rarefied Urunday Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.collectables.81-90`, [
+    store.changeKeys(`${GLOG}.logging.collectables.81-90`, [
         [0, 10771], // Rarefied Palm Log
         [1, 10772], // Rarefied Red Pine Log
         [2, 10773], // Rarefied Coconut
@@ -696,13 +696,13 @@ function migrateLogging(store: ChangeStore): void {
         [4, 10779], // Rarefied Ironwood Log
         [5, 10776], // Rarefied Elder Nutmeg
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.collectables.91-100`, [
+    store.changeKeys(`${GLOG}.logging.collectables.91-100`, [
         [0, 10198], // Rarefied Sweet Kukuru Bean
         [1, 10199], // Rarefied Acacia Bark
         [2, 10200], // Rarefied Dark Mahogany Log
         [3, 10201], // Rarefied Acacia Log
-    ], true);
-    store.safeChangeKeys(`${GLOG}.logging.level.1-5`, [
+    ]);
+    store.changeKeys(`${GLOG}.logging.level.1-5`, [
         [0, 137], // Latex
         [1, 1], // Fire Shard
         [2, 2], // Ice Shard
@@ -717,11 +717,11 @@ function migrateLogging(store: ChangeStore): void {
         [11, 132], // Maple Branch
         [12, 141], // Beehive Chip
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.11-15`, [
+    store.changeKeys(`${GLOG}.logging.level.11-15`, [
         [0, 110], // Elm Log
         [1, 122], // Gridanian Chestnut
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.16-20`, [
+    store.changeKeys(`${GLOG}.logging.level.16-20`, [
         [0, 128], // Faerie Apple
         [1, 238], // Faerie Apple Seeds
         [2, 117], // Sun Lemon
@@ -731,12 +731,12 @@ function migrateLogging(store: ChangeStore): void {
         [6, 135], // Yew Branch
         [7, 24], // Grade 1 Carbonized Matter
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.21-25`, [
+    store.changeKeys(`${GLOG}.logging.level.21-25`, [
         [0, 108], // Gridanian Walnut
         [1, 127], // Matron's Mistletoe
         [2, 109], // Walnut Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.26-30`, [
+    store.changeKeys(`${GLOG}.logging.level.26-30`, [
         [0, 7], // Fire Crystal
         [1, 8], // Ice Crystal
         [2, 9], // Wind Crystal
@@ -753,24 +753,24 @@ function migrateLogging(store: ChangeStore): void {
         [13, 123], // Chocobo Feather
         [14, 106], // Alligator Pear
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.31-35`, [
+    store.changeKeys(`${GLOG}.logging.level.31-35`, [
         [0, 111], // Oak Branch
         [1, 112], // Oak Log
         [2, 121], // Tarantula
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.36-40`, [
+    store.changeKeys(`${GLOG}.logging.level.36-40`, [
         [0, 102], // Iron Acorn
         [1, 130], // Mahogany Log
         [2, 125], // Nutmeg
         [3, 101], // Almonds
         [4, 255], // Almond Seeds
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.41-45`, [
+    store.changeKeys(`${GLOG}.logging.level.41-45`, [
         [0, 119], // Mirror Apple
         [1, 242], // Mirror Apple Seeds
         [2, 131], // Mistletoe
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.46-50`, [
+    store.changeKeys(`${GLOG}.logging.level.46-50`, [
         [0, 140], // Rosewood Log
         [1, 139], // Rosewood Branch
         [2, 13], // Fire Cluster
@@ -797,14 +797,14 @@ function migrateLogging(store: ChangeStore): void {
         [23, 288], // Cypress Log
         [24, 342], // Cedar Branch
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.51-55`, [
+    store.changeKeys(`${GLOG}.logging.level.51-55`, [
         [0, 366], // Porcini
         [1, 349], // Dark Chestnut Log
         [2, 369], // Dravanian Mistletoe
         [3, 351], // Dark Chestnut
         [4, 350], // Dark Chestnut Branch
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.56-60`, [
+    store.changeKeys(`${GLOG}.logging.level.56-60`, [
         [0, 371], // Heavens Lemon
         [1, 393], // Wind Widow
         [2, 375], // Cloud Banana
@@ -817,7 +817,7 @@ function migrateLogging(store: ChangeStore): void {
         [9, 399], // Camphorwood Log
         [10, 400], // Camphorwood Branch
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.6-10`, [
+    store.changeKeys(`${GLOG}.logging.level.6-10`, [
         [0, 116], // Cock Feather
         [1, 124], // Tinolqa Mistletoe
         [2, 138], // La Noscean Orange
@@ -828,7 +828,7 @@ function migrateLogging(store: ChangeStore): void {
         [7, 115], // Cloves
         [8, 114], // Crow Feather
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.61-65`, [
+    store.changeKeys(`${GLOG}.logging.level.61-65`, [
         [0, 455], // Loquat
         [1, 456], // Beech Log
         [11, 454], // Beech Branch
@@ -840,7 +840,7 @@ function migrateLogging(store: ChangeStore): void {
         [7, 459], // Pine Log
         [8, 527], // Malleable Still Material
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.66-70`, [
+    store.changeKeys(`${GLOG}.logging.level.66-70`, [
         [0, 462], // Persimmon Leaf
         [1, 463], // Persimmon
         [2, 464], // Persimmon Log
@@ -853,7 +853,7 @@ function migrateLogging(store: ChangeStore): void {
         [9, 605], // Kholusian Miscellany
         [10, 515], // Yanxian Verbena
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.71-75`, [
+    store.changeKeys(`${GLOG}.logging.level.71-75`, [
         [0, 559], // Pixie Apple
         [1, 558], // Frantoio
         [2, 560], // White Oak Log
@@ -867,14 +867,14 @@ function migrateLogging(store: ChangeStore): void {
         [7, 563], // Gianthive Chip
         [10, 639], // High Tea Ingredients
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.76-80`, [
+    store.changeKeys(`${GLOG}.logging.level.76-80`, [
         [0, 564], // Amber Cloves
         [1, 565], // Sandteak Log
         [2, 566], // Harcot
         [3, 568], // Lemonette
         [4, 567], // Lignum Vitae Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.81-85`, [
+    store.changeKeys(`${GLOG}.logging.level.81-85`, [
         [0, 661], // Horse Chestnut Log
         [1, 664], // Coconut
         [2, 663], // Palm Syrup
@@ -885,14 +885,14 @@ function migrateLogging(store: ChangeStore): void {
         [4, 692], // Garlean Staple
         [5, 665], // Red Pine Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.86-90`, [
+    store.changeKeys(`${GLOG}.logging.level.86-90`, [
         [0, 666], // Ironwood Log
         [1, 667], // Sykon
         [2, 668], // Elder Nutmeg Seeds
         [3, 669], // Integral Log
         [4, 670], // Palm Chippings
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.91-95`, [
+    store.changeKeys(`${GLOG}.logging.level.91-95`, [
         [0, 798], // Carriage Furnishing Supplies
         [1, 761], // Wild Ja Tiika Bananas
         [2, 764], // Royal Maple Sap
@@ -903,29 +903,29 @@ function migrateLogging(store: ChangeStore): void {
         [7, 771], // Turali Pineapple
         [8, 770], // Dark Mahogany Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.level.96-100`, [
+    store.changeKeys(`${GLOG}.logging.level.96-100`, [
         [0, 777], // Mesquite Beans
         [1, 774], // Acacia Log
         [2, 776], // Acacia Bark
         [3, 775], // Claro Walnut Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.abalathia`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.abalathia`, [
         [0, 381], // Honeydew Almonds
         [1, 380], // Wattle Bark
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.dravania`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.dravania`, [
         [0, 401], // Old-growth Camphorwood Log
         [1, 407], // Crystallized Sap
         [2, 418], // Brown Mushroom
         [3, 416], // Teak Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.gyr-abania`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.gyr-abania`, [
         [0, 467], // Torreya Log
         [1, 510], // Black Willow Log
         [2, 513], // Hardened Veteran Tree Sap
         [3, 524], // Urunday Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.ilsabard-and-northern-empty`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.ilsabard-and-northern-empty`, [
         [0, 710], // Haritaki
         [1, 711], // Bayberry
         [2, 720], // Mornveil Tree Bark
@@ -934,28 +934,28 @@ function migrateLogging(store: ChangeStore): void {
         [5, 734], // Sublime Haritaki
         [6, 737], // Prime Kukuru Beans
         [7, 738], // Sublime Kukuru Beans
-    ], true);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.norvrandt`, [
+    ]);
+    store.changeKeys(`${GLOG}.logging.regional-folklore.norvrandt`, [
         [0, 569], // Sandalwood Log
         [1, 607], // Sandalwood Sap
         [2, 611], // Merbau Log
         [3, 623], // Silver Beech Log
         [4, 627], // Wattle Petribark
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.world-unsundered`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.world-unsundered`, [
         [0, 671], // Potent Spice
         [1, 672], // Mempisang Log
         [2, 709], // Paldao Log
         [3, 723], // Prime Sphongos
         [4, 724], // Sublime Sphongos
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.xak-tural`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.xak-tural`, [
         [0, 789], // Nopaliflower
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.regional-folklore.yok-tural`, [
+    store.changeKeys(`${GLOG}.logging.regional-folklore.yok-tural`, [
         [0, 788], // Ipe Log
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.sidequests.ishgard-restoration`, [
+    store.changeKeys(`${GLOG}.logging.sidequests.ishgard-restoration`, [
         [0, 10642], // Grade 4 Skybuilders' Switch
         [1, 10646], // Grade 4 Skybuilders' Mahogany Log
         [2, 10652], // Grade 4 Skybuilders' Spruce Log
@@ -972,7 +972,7 @@ function migrateLogging(store: ChangeStore): void {
         [13, 10672], // Grade 4 Artisanal Skybuilders' Log
         [14, 10682], // Grade 4 Skybuilders' Umbral Galewood Branch
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.sidequests.skysteel-tools`, [
+    store.changeKeys(`${GLOG}.logging.sidequests.skysteel-tools`, [
         [0, 10520], // Oddly Specific Latex
         [1, 10521], // Oddly Specific Fossil Dust
         [2, 10524], // Oddly Specific Amber
@@ -984,7 +984,7 @@ function migrateLogging(store: ChangeStore): void {
         [8, 10595], // Oddly Delicate Birch Log
         [9, 10594], // Oddly Delicate Feather
     ]);
-    store.safeChangeKeys(`${GLOG}.logging.sidequests.splendorous-tools`, [
+    store.changeKeys(`${GLOG}.logging.sidequests.splendorous-tools`, [
         [0, 10834], // Connoisseur's Wattle Petribark
         [1, 10835], // Splendorous Earth Shard
         [2, 10838], // Connoisseur's Levin Mint
@@ -1001,27 +1001,27 @@ function migrateLogging(store: ChangeStore): void {
 }
 
 function migrateHarvesting(store: ChangeStore): void {
-    store.safeChangeKeys(`${GLOG}.harvesting.collectables.50-70`, [
+    store.changeKeys(`${GLOG}.harvesting.collectables.50-70`, [
         [0, 10638], // Rarefied Rainbow Cotton Boll
         [1, 10639], // Rarefied Bloodhemp
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.collectables.71-80`, [
+    store.changeKeys(`${GLOG}.harvesting.collectables.71-80`, [
         [0, 10640], // Rarefied Bright Flax
         [1, 10641], // Rarefied Night Pepper
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.collectables.81-90`, [
+    store.changeKeys(`${GLOG}.harvesting.collectables.81-90`, [
         [0, 10770], // Rarefied Thavnairian Perilla Leaf
         [1, 10775], // Rarefied Dark Rye
         [2, 10777], // Rarefied Iceberg Lettuce
         [3, 10778], // Rarefied AR-Caean Cotton Boll
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.collectables.91-100`, [
+    store.changeKeys(`${GLOG}.harvesting.collectables.91-100`, [
         [0, 10195], // Rarefied Kozama'uka Chamomile
         [1, 10197], // Rarefied Mountain Flax
         [2, 10196], // Rarefied Wild Agave
         [3, 10202], // Rarefied Windsbalm Bay Leaf
-    ], true);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.1-5`, [
+    ]);
+    store.changeKeys(`${GLOG}.harvesting.level.1-5`, [
         [0, 1], // Fire Shard
         [1, 2], // Ice Shard
         [2, 3], // Wind Shard
@@ -1035,7 +1035,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [10, 414], // Levinlight Seeds
         [11, 415], // Waterlight Seeds
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.11-15`, [
+    store.changeKeys(`${GLOG}.harvesting.level.11-15`, [
         [0, 158], // Chanterelle
         [1, 206], // Lowland Grapes
         [2, 200], // Rye
@@ -1071,7 +1071,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [32, 175], // Highland Parsley
         [33, 190], // Marjoram
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.16-20`, [
+    store.changeKeys(`${GLOG}.harvesting.level.16-20`, [
         [0, 178], // Paprika
         [1, 151], // Galago Mint
         [2, 226], // Paprika Seeds
@@ -1085,7 +1085,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [10, 225], // Desert Seedling
         [11, 188], // White Scorpion
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.21-25`, [
+    store.changeKeys(`${GLOG}.harvesting.level.21-25`, [
         [0, 179], // Pixie Plums
         [1, 240], // Pixie Plum Seeds
         [2, 186], // Button Mushroom
@@ -1100,7 +1100,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [11, 196], // Millioncorn
         [12, 232], // Millioncorn Seeds
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.26-30`, [
+    store.changeKeys(`${GLOG}.harvesting.level.26-30`, [
         [0, 157], // Jade Peas
         [1, 7], // Fire Crystal
         [2, 8], // Ice Crystal
@@ -1114,7 +1114,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [10, 234], // Midland Cabbage Seeds
         [11, 197], // Moor Leech
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.31-35`, [
+    store.changeKeys(`${GLOG}.harvesting.level.31-35`, [
         [0, 210], // Flax
         [1, 295], // Yafaemi Wildgrass
         [2, 252], // Linseed
@@ -1131,7 +1131,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [13, 167], // Dragon Pepper
         [14, 166], // Desert Saffron
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.36-40`, [
+    store.changeKeys(`${GLOG}.harvesting.level.36-40`, [
         [0, 184], // Blood Currants
         [1, 241], // Blood Currant Seeds
         [2, 191], // Mugwort
@@ -1139,14 +1139,14 @@ function migrateHarvesting(store: ChangeStore): void {
         [4, 160], // Ramhorn Zucchini
         [5, 164], // Thyme
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.41-45`, [
+    store.changeKeys(`${GLOG}.harvesting.level.41-45`, [
         [0, 155], // Sagolii Sage
         [1, 181], // Black Scorpion
         [2, 208], // Rolanberry
         [3, 243], // Rolanberry Seeds
         [4, 163], // Dart Frog
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.46-50`, [
+    store.changeKeys(`${GLOG}.harvesting.level.46-50`, [
         [0, 156], // Thanalan Tea Leaves
         [1, 199], // Lava Toad
         [2, 222], // Maiden Grass
@@ -1173,7 +1173,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [23, 394], // Old World Fig Seeds
         [24, 291], // Rosemary
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.51-55`, [
+    store.changeKeys(`${GLOG}.harvesting.level.51-55`, [
         [0, 344], // Rainbow Cotton Boll
         [1, 367], // Pearl Sprouts
         [2, 346], // Mist Dill
@@ -1187,7 +1187,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [10, 352], // Emerald Beans
         [11, 370], // Chives
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.56-60`, [
+    store.changeKeys(`${GLOG}.harvesting.level.56-60`, [
         [0, 373], // Highland Oregano
         [1, 630], // Pot Marjoram
         [2, 372], // Granular Clay
@@ -1222,7 +1222,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [31, 469], // Gyr Abanian Wheat
         [32, 470], // Bloodhemp
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.61-65`, [
+    store.changeKeys(`${GLOG}.harvesting.level.61-65`, [
         [0, 516], // Pinch of Active Ingredients
         [1, 472], // Mountain Popoto
         [2, 471], // Buckwheat Kernels
@@ -1241,7 +1241,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [15, 482], // Kudzu Vine
         [16, 520], // Cloudkin Feather
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.66-70`, [
+    store.changeKeys(`${GLOG}.harvesting.level.66-70`, [
         [0, 483], // Daikon Radish
         [1, 484], // Gyr Abanian Carrot
         [2, 485], // Lotus Root
@@ -1268,7 +1268,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [23, 515], // Yanxian Verbena
         [24, 570], // Night Pepper
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.71-75`, [
+    store.changeKeys(`${GLOG}.harvesting.level.71-75`, [
         [0, 573], // Purple Carrot
         [1, 574], // Curly Parsley
         [2, 571], // Blood Tomato
@@ -1288,7 +1288,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [15, 618], // Printing Paraphernalia
         [16, 599], // Megafauna Leftovers
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.76-80`, [
+    store.changeKeys(`${GLOG}.harvesting.level.76-80`, [
         [0, 583], // Russet Popoto
         [1, 585], // White Clay
         [2, 584], // Sweet Alyssum
@@ -1306,7 +1306,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [13, 595], // Bog Sage
         [14, 622], // Levin Mint
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.81-85`, [
+    store.changeKeys(`${GLOG}.harvesting.level.81-85`, [
         [0, 675], // Iceberg Lettuce
         [1, 674], // Dark Rye
         [2, 673], // Dark Hemp
@@ -1331,7 +1331,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [22, 742], // Energizing Eye-lixir Materials
         [11, 693], // Lunar Staple
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.86-90`, [
+    store.changeKeys(`${GLOG}.harvesting.level.86-90`, [
         [0, 683], // Scarlet Moko Grass
         [1, 688], // Ewer Clay
         [2, 684], // Giant Popoto
@@ -1342,7 +1342,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [6, 687], // Alien Onion
         [7, 718], // Sophora Roots
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.91-95`, [
+    store.changeKeys(`${GLOG}.harvesting.level.91-95`, [
         [0, 759], // Ut'ohmu Tomato
         [1, 757], // Snow Cotton
         [2, 797], // Locomotive Lubricant
@@ -1355,7 +1355,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [9, 765], // Mountain Flax
         [10, 766], // Kozama'uka Chamomile
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.level.96-100`, [
+    store.changeKeys(`${GLOG}.harvesting.level.96-100`, [
         [0, 773], // White Pepper
         [1, 772], // Sarcenet
         [2, 793], // Goldbranch
@@ -1368,52 +1368,52 @@ function migrateHarvesting(store: ChangeStore): void {
         [9, 784], // Broccoli
         [10, 794], // Volcanic Grass
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.abalathia`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.abalathia`, [
         [0, 417], // Star Cotton Boll
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.alexandria`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.alexandria`, [
         [0, 790], // Blackseed Cotton Boll
         [1, 795], // Optical Fibergrass
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.coerthas`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.coerthas`, [
         [0, 383], // Dravanian Paprika
         [1, 382], // Vanilla Beans
         [2, 397], // Frost Cotton Boll
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.dravania`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.dravania`, [
         [0, 384], // Snurbleberry
         [1, 379], // Seventh Heaven
         [2, 419], // Noble Sage
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.gyr-abania`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.gyr-abania`, [
         [0, 511], // Hingan Flax
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.ilsabard-and-northern-empty`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.ilsabard-and-northern-empty`, [
         [0, 671], // Potent Spice
         [1, 689], // Golden Cocoon
         [2, 696], // Thavnairian Corn
         [3, 729], // Field Mustard
-    ], true);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.norvrandt`, [
+    ]);
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.norvrandt`, [
         [0, 596], // Ethereal Cocoon
         [1, 612], // Duskblooms
         [2, 613], // Imperial Fern
         [3, 619], // Tender Dill
         [4, 626], // Raindrop Cotton Boll
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.othard`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.othard`, [
         [0, 500], // Rhea
         [1, 507], // Azim Cotton Boll
         [2, 525], // Yanxian Cotton Boll
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.regional-folklore.sea-of-stars`, [
+    store.changeKeys(`${GLOG}.harvesting.regional-folklore.sea-of-stars`, [
         [0, 671], // Potent Spice
         [1, 690], // Double-edged Herb
         [2, 702], // Prime Crystalbloom
         [3, 703], // Sublime Crystalbloom
         [4, 730], // Lovingbloom
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.sidequests.ishgard-restoration`, [
+    store.changeKeys(`${GLOG}.harvesting.sidequests.ishgard-restoration`, [
         [0, 10643], // Grade 4 Skybuilders' Hemp
         [1, 10648], // Grade 4 Skybuilders' Cotton Boll
         [2, 10647], // Grade 4 Skybuilders' Sesame
@@ -1436,7 +1436,7 @@ function migrateHarvesting(store: ChangeStore): void {
         [19, 10676], // Grade 4 Artisanal Skybuilders' Barbgrass
         [20, 10683], // Grade 4 Skybuilders' Umbral Dirtleaf
     ]);
-    store.safeChangeKeys(`${GLOG}.harvesting.sidequests.skysteel-tools`, [
+    store.changeKeys(`${GLOG}.harvesting.sidequests.skysteel-tools`, [
         [0, 10520], // Oddly Specific Latex
         [1, 10521], // Oddly Specific Fossil Dust
         [2, 10524], // Oddly Specific Amber

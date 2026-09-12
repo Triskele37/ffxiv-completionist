@@ -3,7 +3,7 @@ import type { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Mount changes from Generated Resources
  * */
 export function migrateMounts(store: ChangeStore): void {
-    store.safeChangeKeys(`overall.character.mount-guide`, [
+    store.changeKeys(`overall.character.mount-guide`, [
         [340, 340], // Island Adenium
         [339, 339], // Island Peerifool
         [338, 338], // Quaqua

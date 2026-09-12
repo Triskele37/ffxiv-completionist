@@ -6,7 +6,7 @@ export function migrateRelics(store: ChangeStore) {
 
 // Remap to standardized 'namespaced' ids for sanity
 function migrateManderville(store: ChangeStore) {
-    store.safeChangeKeys('overall.character.relic-gear.manderville', [
+    store.changeKeys('overall.character.relic-gear.manderville', [
         [0, 11],
         [19, 12],
         [38, 13],

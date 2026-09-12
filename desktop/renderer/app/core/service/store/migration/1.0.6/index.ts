@@ -23,7 +23,7 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
     store.moveGroup('overall.duty.exploratory-missions', 'overall.duty.field-operations');
 
     // correct Araya key
-    store.safeChangeKeys('duty.duty-raid-finder.trials.ew', [[69, 944]]);
+    store.changeKeys('overall.duty.duty-raid-finder.trials.ew', [[69, 944]]);
 
     migrateGathering(store);
     migrateFacewear(store);
@@ -35,7 +35,7 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
 
     // 'Training with Lieh' changed to 'School of Hard Nocks'
     const ARCHER = 'overall.duty.quest.class-and-job-quests.disciple-of-war-quests.archer-quests';
-    store.safeChangeKeys(ARCHER, [[65670, 65603]])
+    store.changeKeys(ARCHER, [[65670, 65603]])
 
     store.write();
 }
@@ -43,7 +43,7 @@ export function migrateTo_1_0_6(svcConfigStore: ConfigStoreService, svcSaveStore
 function migrateMahjongVoices(store: ChangeStore): void {
     const MAHJONG_VOICES = 'overall.character.gold-saucer.mahjong-voices';
 
-    store.safeChangeKeys(MAHJONG_VOICES, [
+    store.changeKeys(MAHJONG_VOICES, [
         [12, 1], // Alphinaud
         [16, 2], // Alisaie
         [2, 3],  // Thancred

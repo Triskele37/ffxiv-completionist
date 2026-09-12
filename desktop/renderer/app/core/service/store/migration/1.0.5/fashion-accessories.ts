@@ -9,7 +9,7 @@ export function migrateFashionAccessories(store: ChangeStore): void {
     store.deleteTask('overall.character.fashion-accessories', 24);
     store.deleteTask('overall.character.fashion-accessories', 32);
 
-    store.safeChangeKeys('overall.character.fashion-accessories', [
+    store.changeKeys('overall.character.fashion-accessories', [
         [6, 1], // Parasol
         [11, 2], // Sky Blue Parasol
         [12, 3], // Vermilion Paper Parasol

@@ -3,7 +3,7 @@ import type { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Minion changes from Generated Resources
  * */
 export function migrateMinions(store: ChangeStore): void {
-    store.safeChangeKeys(`overall.character.minion-guide`, [
+    store.changeKeys(`overall.character.minion-guide`, [
         [249, 3], // Wayward Hatchling
         [218, 9], // Storm Hatchling
         [206, 10], // Serpent Hatchling

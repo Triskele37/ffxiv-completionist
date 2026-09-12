@@ -79,14 +79,12 @@ function migrateGatherer(store: ChangeStore, key: string): void {
     //#region Collectables
     store.moveGroup(
         `${SPECIAL}.collectables-1`,
-        `${GATHERER}.collectables.level-50-70`,
-        true
+        `${GATHERER}.collectables.level-50-70`
     );
 
     store.moveGroup(
         `${SPECIAL}.collectables-2`,
-        `${GATHERER}.collectables.level-71-80`,
-        true
+        `${GATHERER}.collectables.level-71-80`
     );
 
     //#endregion
@@ -94,38 +92,32 @@ function migrateGatherer(store: ChangeStore, key: string): void {
     //#region Folklore
     store.moveGroup(
         `${SPECIAL}.coerthan-folklore`,
-        `${GATHERER}.regional-folklore.coerthas`,
-        true
+        `${GATHERER}.regional-folklore.coerthas`
     );
 
     store.moveGroup(
         `${SPECIAL}.dravanian-folklore`,
-        `${GATHERER}.regional-folklore.dravania`,
-        true
+        `${GATHERER}.regional-folklore.dravania`
     );
 
     store.moveGroup(
         `${SPECIAL}.abalathian-folklore`,
-        `${GATHERER}.regional-folklore.abalathia`,
-        true
+        `${GATHERER}.regional-folklore.abalathia`
     );
 
     store.moveGroup(
         `${SPECIAL}.gyr-abanian-folklore`,
-        `${GATHERER}.regional-folklore.gyr-abania`,
-        true
+        `${GATHERER}.regional-folklore.gyr-abania`
     );
 
     store.moveGroup(
         `${SPECIAL}.othardian-folklore`,
-        `${GATHERER}.regional-folklore.othard`,
-        true
+        `${GATHERER}.regional-folklore.othard`
     );
 
     store.moveGroup(
         `${SPECIAL}.vrandtic-folklore`,
-        `${GATHERER}.regional-folklore.norvrandt`,
-        true
+        `${GATHERER}.regional-folklore.norvrandt`
     );
 
     //#endregion
@@ -133,14 +125,12 @@ function migrateGatherer(store: ChangeStore, key: string): void {
     //#region Ishgard Resto
     store.moveGroup(
         `${SPECIAL}.ishgard-restoration`,
-        `${GATHERER}.ishgard-restoration.ishgard-restoration`,
-        true
+        `${GATHERER}.ishgard-restoration.ishgard-restoration`
     );
 
     store.moveGroup(
         `${SPECIAL}.skysteel-tools`,
-        `${GATHERER}.ishgard-restoration.skysteel-tools`,
-        true
+        `${GATHERER}.ishgard-restoration.skysteel-tools`
     );
 
     //#endregion

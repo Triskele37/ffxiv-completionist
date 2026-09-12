@@ -20,7 +20,7 @@ function moveAndChange(
 ) {
     idPairs.forEach(([oldId, newId]) => {
         store.moveTask(from, to, oldId);
-        store.changeKey(to, oldId, newId, true);
+        store.changeKey(to, oldId, newId);
     });
 }
 

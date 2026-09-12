@@ -13,7 +13,7 @@ export function migrateFishingHoles(store: ChangeStore): void {
 }
 
 function migrateFishingLog(store: ChangeStore): void {
-    store.safeChangeKeys(`${FISHING_LOG}.abalathias-spine`, [
+    store.changeKeys(`${FISHING_LOG}.abalathias-spine`, [
         [0, 135], // Voor Sian Siran
         [1, 136], // The Eddies
         [2, 137], // Cloudtop
@@ -28,7 +28,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [11, 146], // The Flagship
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.coerthas`, [
+    store.changeKeys(`${FISHING_LOG}.coerthas`, [
         [0, 26], // Coerthas River
         [1, 31], // Daniffen Pass
         [2, 28], // The Nail
@@ -48,7 +48,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [16, 116], // West Banepool
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.dravania`, [
+    store.changeKeys(`${FISHING_LOG}.dravania`, [
         [0, 117], // The Hundred Throes
         [1, 118], // Whilom River
         [2, 119], // The Smoldering Wastes
@@ -69,7 +69,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [17, 134], // Tharl Oom Khash
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.gyr-abania`, [
+    store.changeKeys(`${FISHING_LOG}.gyr-abania`, [
         [0, 182], // Upper Mirage Creek
         [1, 183], // Rhalgr's Reach
         [2, 184], // The Outer Fist
@@ -87,13 +87,13 @@ function migrateFishingLog(store: ChangeStore): void {
         [14, 196], // Loch Seld
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.hingashi`, [
+    store.changeKeys(`${FISHING_LOG}.hingashi`, [
         [0, 157], // Kugane Piers
         [1, 197], // Shirogane
         [2, 198], // The Silver Canal
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.ilsabard`, [
+    store.changeKeys(`${FISHING_LOG}.ilsabard`, [
         [0, 260], // Meghaduta
         [2, 261], // Yedlihmad
         [1, 262], // The Thavnairian Coast
@@ -108,7 +108,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [10, 271], // The Stainless Course
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.la-noscea`, [
+    store.changeKeys(`${FISHING_LOG}.la-noscea`, [
         [0, 36], // Limsa Lominsa Upper Decks
         [1, 35], // Limsa Lominsa Lower Decks
         [2, 37], // Zephyr Drift
@@ -155,7 +155,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [43, 104], // Mist
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.mor-dhona`, [
+    store.changeKeys(`${FISHING_LOG}.mor-dhona`, [
         [0, 22], // North Silvertear
         [1, 25], // The Deep Tangle
         [2, 93], // Singing Shards
@@ -164,7 +164,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [5, 94], // The North Shards
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.norvrandt`, [
+    store.changeKeys(`${FISHING_LOG}.norvrandt`, [
         [0, 199], // The Trivium
         [1, 200], // The Quadrivium
         [2, 201], // Crystarium Personal Suites
@@ -206,7 +206,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [38, 236], // The Norvrandt Slope
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.othard`, [
+    store.changeKeys(`${FISHING_LOG}.othard`, [
         [0, 158], // The Ruby Price
         [1, 159], // Hells' Lid
         [2, 160], // The Isle of Bekko
@@ -233,7 +233,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [23, 181], // Dotharl Khaa
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.thanalan`, [
+    store.changeKeys(`${FISHING_LOG}.thanalan`, [
         [0, 72], // Nophica's Wells
         [1, 73], // The Footfalls
         [2, 70], // Vesper Bay
@@ -260,7 +260,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [23, 106], // The Goblet
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.the-black-shroud`, [
+    store.changeKeys(`${FISHING_LOG}.the-black-shroud`, [
         [0, 90], // Jadeite Flood
         [1, 91], // Lower Black Tea Brook
         [2, 81], // Whispering Gorge
@@ -289,7 +289,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [25, 105], // The Lavender Beds
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.the-high-seas`, [
+    store.changeKeys(`${FISHING_LOG}.the-high-seas`, [
         [0, 237], // Outer Galadion Bay
         [1, 238], // Galadion Spectral Current
         [2, 239], // The Southern Strait of Merlthor
@@ -314,7 +314,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [21, 293], // One River Spectral Current
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.the-northern-empty`, [
+    store.changeKeys(`${FISHING_LOG}.the-northern-empty`, [
         [0, 252], // Scholar's Harbor
         [1, 253], // Oinops
         [2, 254], // Reflecting Pool
@@ -325,7 +325,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [5, 259], // Deepmoat
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.the-sea-of-stars`, [
+    store.changeKeys(`${FISHING_LOG}.the-sea-of-stars`, [
         [0, 272], // Greatest Endsvale
         [1, 273], // The Chlorophospond
         [2, 274], // The Frozen Fissure
@@ -339,13 +339,13 @@ function migrateFishingLog(store: ChangeStore): void {
         [9, 285], // Limne 3-β
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.the-world-unsundered`, [
+    store.changeKeys(`${FISHING_LOG}.the-world-unsundered`, [
         [0, 275], // Rumination's Ramble
         [2, 276], // The Lower Hungering Gardens
         [1, 277], // Lethe
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.unlost-world`, [
+    store.changeKeys(`${FISHING_LOG}.unlost-world`, [
         [0, 328], // The Knowable
         [1, 329], // Mu Springs Eternal
         [2, 330], // Leynode Aero
@@ -354,7 +354,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [5, 333], // Proto Alexandria
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.xak-tural`, [
+    store.changeKeys(`${FISHING_LOG}.xak-tural`, [
         [0, 327], // Residential Sector
         [1, 319], // Niikwerepi
         [2, 320], // Lake Toari
@@ -366,7 +366,7 @@ function migrateFishingLog(store: ChangeStore): void {
         [8, 326], // Alexandrian Ruins
     ]);
 
-    store.safeChangeKeys(`${FISHING_LOG}.yok-tural`, [
+    store.changeKeys(`${FISHING_LOG}.yok-tural`, [
         [0, 294], // Downripple
         [2, 295], // The For'ard Cabins
         [3, 296], // High Tide Harbor
@@ -396,7 +396,7 @@ function migrateFishingLog(store: ChangeStore): void {
 }
 
 function migrateSpearfishingLog(store: ChangeStore): void {
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.gyr-abania`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.gyr-abania`, [
         [0, 13], // Loch Seld Northwestern Lakebed
         [1, 14], // Loch Seld Central Lakebed
         [2, 15], // Loch Seld Southeastern Lakebed
@@ -405,7 +405,7 @@ function migrateSpearfishingLog(store: ChangeStore): void {
         [5, 48], // Loch Seld Southwestern Loch Seld
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.ilsabard`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.ilsabard`, [
         [0, 36], // Southern Akyaali
         [4, 40], // Western Akyaali
         [2, 41], // Southern Great Runoff
@@ -413,12 +413,12 @@ function migrateSpearfishingLog(store: ChangeStore): void {
         [1, 47], // Outer Akyaali
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.la-noscea`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.la-noscea`, [
         [0, 52], // Northeast Bronze Lake Depths
         [1, 54], // Northwest Bronze Lake Depths
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.norvrandt`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.norvrandt`, [
         [0, 16], // Northeast Source
         [1, 17], // The Isle of Ken
         [2, 18], // Southeast Source
@@ -438,7 +438,7 @@ function migrateSpearfishingLog(store: ChangeStore): void {
         [14, 35], // Deep Lake Tusi Mek'ta
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.othard`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.othard`, [
         [0, 0], // Ruby Price Depths
         [1, 1], // Tamamizu
         [2, 2], // Sui-no-Sato
@@ -466,11 +466,11 @@ function migrateSpearfishingLog(store: ChangeStore): void {
         [16, 31], // Azim Khaat Southern Lakebed
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.xak-tural`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.xak-tural`, [
         [0, 61], // Northern Lake Toari
     ]);
 
-    store.safeChangeKeys(`${SPEARFISHING_LOG}.yok-tural`, [
+    store.changeKeys(`${SPEARFISHING_LOG}.yok-tural`, [
         [0, 55], // Karvarhur the First
         [1, 56], // Eastern Marsh Ligaka
         [2, 57], // Western Marsh Ligaka

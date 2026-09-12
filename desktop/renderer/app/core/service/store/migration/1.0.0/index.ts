@@ -65,7 +65,7 @@ export function migrateTo_1_0_0(svcConfigStore: ConfigStoreService, svcSaveStore
     migrateAetherCurrents(store);
 
     // Fix "defaultCompletion": "X" being ignored
-    diveForClear(store.newStore.overall);
+    diveForClear(store.newSave.overall);
 
     store.write();
 }
