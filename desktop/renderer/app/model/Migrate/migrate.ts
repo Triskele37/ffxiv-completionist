@@ -14,9 +14,11 @@ export function migrate(
 ): void {
     const store = new ChangeStore(svcConfigStore, svcSaveStore, migration.resultVersion);
 
-    for(const actionGroup in migration.actionGroups) {
-        for(const action of migration.actionGroups[actionGroup]) {
-            performAction(action, store);
+    if(migration.actionGroups) {
+        for(const actionGroup in migration.actionGroups) {
+            for(const action of migration.actionGroups[actionGroup]) {
+                performAction(action, store);
+            }
         }
     }
 
