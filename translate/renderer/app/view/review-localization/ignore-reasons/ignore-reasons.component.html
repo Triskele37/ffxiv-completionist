@@ -1,5 +1,5 @@
 <div class="reason-container">
-    @let issue = svcNav.currentIssue();
+    @let issue = svcNav.getCurrentIssue();
 
     <hr/>
 
@@ -32,7 +32,7 @@
 		>
 			{{'UI.ISSUE.SAVE_REASONS' | translate}}
 		</button>
-		@if(showSaved) {
+		@if(showSaved()) {
 			<div class="saved-notification">
 				{{'UI.ISSUE.REASONS_SAVED' | translate}}
 			</div>

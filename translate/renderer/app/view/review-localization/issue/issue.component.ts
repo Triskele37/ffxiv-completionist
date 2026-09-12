@@ -1,4 +1,4 @@
-import { Component, effect, inject } from '@angular/core';
+import { Component, effect, inject, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 
 import { DataService } from '@service/data.service';
@@ -19,26 +19,27 @@ export class IssueComponent {
     svcNav = inject(NavigationService);
 
     translation: string = '';
-	showSaved: boolean = false;
+	showSaved = signal(false);
 
     constructor() {
         effect(() => {
-            const issue = this.svcNav.currentIssue();
+            const issue = this.svcNav.getCurrentIssue();
             this.translation = issue.newValue ?? '';
         });
     }
 
     onSaveTranslation(): void {
         const success = this.svcData.saveTranslation(this.svcNav.currentIndex(), this.translation);
+
         if(success) {
 			this.translation = '';
-			this.showSaved = true;
-			setTimeout(() => this.showSaved = false, 3000);
+			this.showSaved.set(true);
+			setTimeout(() => this.showSaved.set(false), 2000);
 		}
     }
 
     onRemoveTranslation(): void {
-        const issue = this.svcNav.currentIssue();
+        const issue = this.svcNav.getCurrentIssue();
         if(!issue.target) return;
 
         const success = this.svcData.saveTranslation(this.svcNav.currentIndex(), issue.target);

@@ -1,4 +1,4 @@
-@let issue = svcNav.currentIssue();
+@let issue = svcNav.getCurrentIssue();
 
 <div class="issue-container">
     <div class="issue-properties">
@@ -33,7 +33,7 @@
 			[(ngModel)]="translation"
 			[placeholder]="'UI.ISSUE.TRANSLATION' | translate"
 		/>
-		@if(showSaved) {
+		@if(showSaved()) {
 			<div class="saved-notification">
 				{{'UI.ISSUE.TRANSLATION_SAVED' | translate}}
 			</div>

@@ -1,4 +1,4 @@
-import { Component, effect, inject, OnInit } from '@angular/core';
+import { Component, effect, inject, OnInit, signal } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
@@ -24,11 +24,11 @@ export class IgnoreReasonsComponent implements OnInit {
     allowMultiple: boolean = false;
     reasonKeys: string[] = [];
     customReason: string = '';
-	showSaved: boolean = false;
+	showSaved = signal(false);
 
     constructor() {
         effect(() => {
-            const issue = this.svcNav.currentIssue();
+            const issue = this.svcNav.getCurrentIssue();
             const totalReasons = issue?.reasons?.length ?? 0;
             if(totalReasons > 1) this.allowMultiple = true;
             const [customReason] = issue.reasons?.filter((r) => !this.reasonKeys.includes(r)) ?? [];
@@ -39,12 +39,12 @@ export class IgnoreReasonsComponent implements OnInit {
     ngOnInit() {
         this.reasonKeys = Object.keys(this.svcTranslate.instant('REASON'));
 
-        const reasons = this.svcNav.currentIssue().reasons?.length ?? 0;
+        const reasons = this.svcNav.getCurrentIssue().reasons?.length ?? 0;
         if(reasons > 1) this.allowMultiple = true;
     }
 
     toggleReason(reasonKey: string): void {
-        const issue = this.svcNav.currentIssue();
+        const issue = this.svcNav.getCurrentIssue();
 
         const indexOf = issue.reasons?.indexOf(reasonKey) ?? -1;
         if(indexOf > -1) issue.reasons!.splice(indexOf, 1);
@@ -57,7 +57,7 @@ export class IgnoreReasonsComponent implements OnInit {
     }
 
     onCustomReasonChange(): void {
-        const issue = this.svcNav.currentIssue();
+        const issue = this.svcNav.getCurrentIssue();
 
         const indexOf = issue.reasons?.findIndex(
             (r) => !this.reasonKeys.includes(r)
@@ -81,8 +81,8 @@ export class IgnoreReasonsComponent implements OnInit {
         const success = this.svcData.saveReasons(this.svcNav.currentIndex());
         if(success) {
 			this.svcNav.goToCurrent();
-			this.showSaved = true;
-			setTimeout(() => this.showSaved = false, 3000);
+			this.showSaved.set(true);
+			setTimeout(() => this.showSaved.set(false), 2000);
 		}
     }
 }

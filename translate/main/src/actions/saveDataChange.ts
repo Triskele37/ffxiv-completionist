@@ -7,7 +7,7 @@ import { loadJson } from './loadJson';
 import { prettyJson } from './prettyJson';
 
 import { I18N_PATH } from './compare_i18n';
-import { RESOURCES_PATH } from './compare_data';
+import { RESOURCES_PATH, RESOURCES_ROOT } from './compare_data';
 import { diveToProperty } from './diveToProperty';
 
 type Payload = {
@@ -22,7 +22,7 @@ export function saveDataChange(event: IpcMainEvent, payload: Payload): void {
     if(payload.issue.key.startsWith(path.basename(I18N_PATH))) {
         success = saveI18n(payload);
     }
-    else if(payload.issue.key.startsWith(path.basename(RESOURCES_PATH))) {
+    else if(payload.issue.key.startsWith(RESOURCES_ROOT)) {
         success = saveResources(payload);
     }
 
@@ -61,6 +61,7 @@ function saveI18n({ lang, issue, value }: Payload): boolean {
 function saveResources({ issue, value }: Payload): boolean {
     const segments = issue.key.replace('.json.', '.').split('.');
     segments.shift(); // remove resources segment
+    segments.shift(); // remove data segment
 
     // Dive segments until the first isn't a directory
     const base: string[] = [];
