@@ -38,6 +38,6 @@ export const mainApi: Partial<MainSyncApi> = {
 export const mainAsyncApi: Partial<MainAsyncApi> = {
     onAppRefresh: async () => {
         // allows refreshes to receive updates /resources
-        await preloadData();
+        await preloadData(true);
     }
 };

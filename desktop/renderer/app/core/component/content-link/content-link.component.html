@@ -5,6 +5,7 @@
             pButton
             class="content-link p-button-link"
             tooltipPosition="bottom"
+            [life]="3000"
             [pTooltip]="
                 (content | contentLink) + '\n' +
                 ('APP.CONTENT_LINK.GROUP_NAVIGATE' | translate)
@@ -19,6 +20,7 @@
             data-active-help="APP.ACTIVE_HELP.CONTENT_LINK.TASK"
             class="content-link p-button-link"
             tooltipPosition="bottom"
+            [life]="3000"
             [pTooltip]="
                 (content._parent | contentLink) + '\n' +
                 ('APP.CONTENT_LINK.TASK_NAVIGATE' | translate)

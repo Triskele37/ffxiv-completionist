@@ -28,10 +28,9 @@
 
 * Enum completion type
   * like for Societal Relations
+  * would need dynamic column values
 * Map Dialog
   * for anything with coordinates
-* Fishing Hole Dialog
-  * view information about fish at a hole similar to the in-game UI
 * Tracker
   * track time-based allowances / duty resets
   * make cap & timer?
@@ -58,8 +57,6 @@
     * Gathering windows
 * Feedback on Random view when selected group has no incomplete tasks
   * or hide complete groups?
-* Custom application container
-  * specifically title bar
 * Data
   * Toy Chest?
     * Cheap Dungeon has 5 levels

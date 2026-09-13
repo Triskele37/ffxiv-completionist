@@ -15,11 +15,11 @@ const JSON_CACHE: JsonCache = {
     data: {}
 };
 
-export function loadCache(): boolean {
+export function loadCache(invalidateCache: boolean = false): boolean {
     const resourceRoot = getResourcesRoot();
     const cachePath = path.join(path.normalize(resourceRoot), CACHE_NAME);
 
-    if(fs.existsSync(cachePath)) {
+    if(!invalidateCache && fs.existsSync(cachePath)) {
         try {
             const cachedCache = JSON.parse(fs.readFileSync(cachePath, 'utf8')) as JsonCache;
 
