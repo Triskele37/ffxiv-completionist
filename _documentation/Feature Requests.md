@@ -14,7 +14,6 @@
   * Chain confirmation over a configurable count
     * Requires simulation of chaining
   * Chain ocean fish to achievements?
-  * Fish iLvl
 
 **Todonts**
 
