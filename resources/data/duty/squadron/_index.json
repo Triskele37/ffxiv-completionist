@@ -2,7 +2,11 @@
     "key": "squadron",
     "groupName_en": "Squadron",
     "groupName_fr": "Escouade de Grande Compagnie",
-    "order": ["command-missions", "squadron", "stats"],
+    "order": [
+        "command-missions",
+        "squadron",
+        "stats"
+    ],
     "columns": {
         "name": {
             "header_en": "Value",

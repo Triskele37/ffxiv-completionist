@@ -2,7 +2,14 @@
     "key": "dungeons",
     "groupName_en": "Dungeons",
     "groupName_fr": "Donjons",
-    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
+    "order": [
+        "dt",
+        "ew",
+        "shb",
+        "sb",
+        "hw",
+        "arr"
+    ],
     "columns": {
         "level": {
             "header": "@HEADER.LEVEL"

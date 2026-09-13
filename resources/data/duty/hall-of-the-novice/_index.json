@@ -2,7 +2,12 @@
     "key": "hall-of-the-novice",
     "groupName_en": "Hall of the Novice",
     "groupName_fr": "Salle des novices",
-    "order": ["tank", "dps", "healer", "tactical"],
+    "order": [
+        "tank",
+        "dps",
+        "healer",
+        "tactical"
+    ],
     "columns": {
         "level": {
             "header": "@HEADER.LEVEL"

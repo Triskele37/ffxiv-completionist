@@ -2,7 +2,11 @@
     "key": "adventure-plate",
     "groupName_en": "Adventure Plate",
     "groupName_fr": "Carte de personnage",
-    "order": ["class-job", "minion", "pvp"],
+    "order": [
+        "class-job",
+        "minion",
+        "pvp"
+    ],
     "columns": {
         "name": {
             "header": "@HEADER.NAME"

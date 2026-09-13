@@ -2,7 +2,11 @@
     "key": "log",
     "groupName_en": "Log",
     "groupName_fr": "Carnet bleu",
-    "order": ["dungeon", "trial", "raid"],
+    "order": [
+        "dungeon",
+        "trial",
+        "raid"
+    ],
     "columns": {
         "level": {
             "header": "@HEADER.LEVEL"
