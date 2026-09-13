@@ -98,7 +98,7 @@ export class TaskTableComponent implements OnChanges {
     }
 
     onFilterChange(): void {
-        // Cache the current scrollTop for scrollback
+        // Cache the current scroll target for scrollback
         if(!this.targetTaskScrollTo) this.setTargetScrollTo();
     }
 
@@ -161,6 +161,10 @@ export class TaskTableComponent implements OnChanges {
             this.removeScrollListener();
         }
         else {
+            if(target.scrollTop === 0 && targetScrollTop !== 0) {
+                target.scrollTop = targetScrollTop;
+            }
+
             // Necessary because prime is also doing stuff here
             setTimeout(() => {
                 this.scrollContainer!.scrollTo({ top: targetScrollTop });
