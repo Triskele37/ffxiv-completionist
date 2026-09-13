@@ -3,6 +3,7 @@ export enum ViewToken {
     PatchView = 'PatchView',
     ChainAnalysis = 'ChainAnalysis',
     Random = 'Random',
+    TypingMinigame = 'TypingMinigame',
     Settings = 'Settings',
     Search = 'Search',
     DevTools = 'DevTools',

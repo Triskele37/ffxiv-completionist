@@ -4,6 +4,7 @@ import { PatchNotesComponent } from './patch-notes/patch-notes.component';
 import { PatchViewComponent } from './patch-view/patch-view.component';
 import { ChainAnalysisComponent } from './chain-analysis/chain-analysis.component';
 import { RandomComponent } from './random/random.component';
+import { TypingMinigameComponent } from './minigame/typing/typing-minigame.component';
 import { SettingsComponent } from './settings/settings.component';
 import { SearchComponent } from './search/search.component';
 import { DevToolsComponent } from './dev-tools/dev-tools.component';
@@ -15,6 +16,7 @@ export function getComponentFromToken(token: ViewToken | undefined): Type<any> |
         case ViewToken.PatchView: return PatchViewComponent;
         case ViewToken.ChainAnalysis: return ChainAnalysisComponent;
         case ViewToken.Random: return RandomComponent;
+        case ViewToken.TypingMinigame: return TypingMinigameComponent;
         case ViewToken.Settings: return SettingsComponent;
         case ViewToken.Search: return SearchComponent;
         case ViewToken.DevTools: return DevToolsComponent;

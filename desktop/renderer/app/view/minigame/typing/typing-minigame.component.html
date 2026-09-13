@@ -1,0 +1,106 @@
+<div
+    data-active-help="APP.ACTIVE_HELP.TYPING_MINIGAME.DETAILED"
+    class="typing-minigame-container"
+>
+    <div class="controls">
+        <div
+            data-active-help="APP.ACTIVE_HELP.TYPING_MINIGAME.BOMBS"
+            class="bombs"
+        >
+            @if(bombs().length <= 5) {
+                @for(bomb of bombs(); track $index) {
+                    <ng-icon name="matBrightness5"></ng-icon>
+                }
+            }
+            @else {
+                <ng-icon name="matBrightness5"></ng-icon> x {{bombs().length}}
+            }
+
+            <div class="bomb-progress">
+                <ng-icon name="matBrightness5"></ng-icon>
+                <div class="reveal-cover p{{bombProgress()}}"></div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            @if(gameRunning) {
+                <button pButton (click)="stopGame()">
+                    {{'APP.TYPING_MINIGAME.STOP' | translate}}
+                </button>
+            }
+            @else {
+                <button pButton (click)="startGame()">
+                    {{'APP.TYPING_MINIGAME.START' | translate}}
+                </button>
+            }
+
+            <div class="stats">
+                <span data-active-help="APP.ACTIVE_HELP.TYPING_MINIGAME.HEALTH">
+                    {{'APP.TYPING_MINIGAME.HEALTH' | translate}}: {{health()}}
+                </span>
+                <span data-active-help="APP.ACTIVE_HELP.TYPING_MINIGAME.SCORE">
+                    {{'APP.TYPING_MINIGAME.SCORE' | translate}}: {{score()}}
+                </span>
+                <span data-active-help="APP.ACTIVE_HELP.TYPING_MINIGAME.STREAK">
+                    {{'APP.TYPING_MINIGAME.STREAK' | translate}}: {{streak}}
+                </span>
+            </div>
+        </div>
+    </div>
+
+    @if(showStatistics) {
+        <div class="statistics-container">
+            <span class="header">
+                {{'APP.TYPING_MINIGAME.STATS' | translate}}
+            </span>
+
+            <div class="statistics">
+                <div class="labels">
+                    <span>{{'APP.TYPING_MINIGAME.HIGH_STREAK' | translate}}:</span>
+                    <span>{{'APP.TYPING_MINIGAME.BOMBS' | translate}}:</span>
+                    <span>{{'APP.TYPING_MINIGAME.LETTERS' | translate}}:</span>
+                    <span>{{'APP.TYPING_MINIGAME.WORDS' | translate}}:</span>
+                    @for(difficulty of difficulties; track difficulty.stars) {
+                        <span>{{difficulty.stars}}:</span>
+                    }
+                </div>
+                <div class="values">
+                    <span>{{highestStreak}}</span>
+                    <span>{{bombsUsed}}</span>
+                    <span>{{lettersTyped}}</span>
+                    <span>{{wordsTyped}}</span>
+
+                    @for(difficulty of difficulties; track difficulty.stars) {
+                        <span>{{difficulty.wordsTypes}}</span>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    @for(word of activeWords(); track word.value) {
+        <div
+            class="active-word"
+            [style.transition]="'top ' + (tickSpeed / 1000) + 's linear'"
+            [style.left.px]="word.x"
+            [style.top.px]="word.y"
+            [style.--danger]="word.y / playHeight"
+        >
+            <div class="difficulty-indicator">
+                {{word.difficulty}}
+            </div>
+
+            @if(targetWord === word) {
+                <div class="target-indicator">
+                    <ng-icon name="matArrowUpward"></ng-icon>
+                </div>
+            }
+
+            @for(letter of word.letters; track $index) {
+                <div
+                    class="letter {{letter.hit ? 'hit' : 'unhit'}}"
+                >{{letter.char || '&nbsp;'}}</div>
+            }
+        </div>
+    }
+</div>

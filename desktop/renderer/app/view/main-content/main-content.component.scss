@@ -10,6 +10,11 @@
         // Prevent x overflow (find another way, this breaks task-table injection)
         //white-space: normal;
 
+        // special handling for minigame controls
+        &:has(com-typing-minigame) {
+            overflow: visible;
+        }
+
         // Scrollbar
         overflow-y: auto;
         height: calc(100vh - 112px);

@@ -29,9 +29,9 @@ import { ShowAllToggleComponent } from './show-all-toggle/show-all-toggle.compon
 export class NavBarComponent {
     svcNavigation = inject(NavigationService);
 
-
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
+        if(this.svcNavigation.selectedGroup()?.type === 'UI') return;
 		if(isIgnoredElement($event.target as HTMLElement)) return;
 
         if($event.code === 'Escape') this.goToParent();

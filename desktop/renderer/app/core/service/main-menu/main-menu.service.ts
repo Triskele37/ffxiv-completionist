@@ -32,6 +32,7 @@ export class MainMenuService {
         this.addPatchNotes();
         this.addPatchView();
         this.addRandom();
+        this.addTypingMinigame();
         this.addChainAnalysis();
         this.addSettings();
         this.addSearch();
@@ -69,6 +70,16 @@ export class MainMenuService {
         }, this.data);
 
         this.data.subGroups?.set(random._key, random);
+    }
+
+    addTypingMinigame(): void {
+        const keyboundCompletionist = this.svcData.group.createDataGroup({
+            key: 'keybound-completionist',
+            groupName: this.translate.instant('APP.TYPING_MINIGAME.TITLE'),
+            component: ViewToken.TypingMinigame
+        }, this.data);
+
+        this.data.subGroups?.set(keyboundCompletionist._key, keyboundCompletionist);
     }
 
     addChainAnalysis(): void {

@@ -163,6 +163,30 @@
                 "SUMMARY": "Random",
                 "DETAIL": "Choose a random unfinished task from the selected group"
             },
+            "TYPING_MINIGAME": {
+                "SUMMARY": "Keybound Completionist",
+                "DETAIL": "Play Keybound Completionist minigame",
+                "DETAILED": {
+                    "SUMMARY": "Keybound Completionist",
+                    "DETAIL": "Play Keybound Completionist minigame. Press Escape to untarget words"
+                },
+                "SCORE": {
+                    "SUMMARY": "Score",
+                    "DETAIL": "Letters and words typed increases score. Not missing words multiplies score. Longer words multiply score. Finishing words earlier multiplies score. Spaces and casing are optional but give score"
+                },
+                "HEALTH": {
+                    "SUMMARY": "Health",
+                    "DETAIL": "Drops when words reach bottom"
+                },
+                "BOMBS": {
+                    "SUMMARY": "Bombs",
+                    "DETAIL": "Press Tab to clear all words and gain half their word score values. Gain one for every 4 very long word completed"
+                },
+                "STREAK": {
+                    "SUMMARY": "Streak",
+                    "DETAIL": "Increases until a word is missed. Multiplies score"
+                }
+            },
             "SEARCH": {
                 "SEARCH_INPUT": {
                     "SUMMARY": "Search Input",
@@ -366,6 +390,19 @@
         },
         "RANDOM_VIEW": {
             "TITLE": "Aléatoire"
+        },
+        "TYPING_MINIGAME": {
+            "TITLE": "Keybound Completionist",
+            "START": "Start Game",
+            "STOP": "Stop Game",
+            "HEALTH": "Health",
+            "SCORE": "Score",
+            "STREAK": "Streak",
+            "STATS": "Round Statistics",
+            "HIGH_STREAK": "Highest Streak",
+            "BOMBS": "Bombs",
+            "LETTERS": "Letters",
+            "WORDS": "Words"
         },
         "SEARCH": {
             "TITLE": "Recherche",

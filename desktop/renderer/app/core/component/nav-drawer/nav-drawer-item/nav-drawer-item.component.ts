@@ -112,6 +112,7 @@ export class NavDrawerItemComponent implements OnChanges {
             if(group.component === ViewToken.PatchNotes) return 'APP.ACTIVE_HELP.UPDATES';
             if(group.component === ViewToken.PatchView) return 'APP.ACTIVE_HELP.PATCH_VIEW';
             if(group.component === ViewToken.Random) return 'APP.ACTIVE_HELP.RANDOM_VIEW';
+            if(group.component === ViewToken.TypingMinigame) return 'APP.ACTIVE_HELP.TYPING_MINIGAME';
             if(group.component === ViewToken.ChainAnalysis) return 'APP.ACTIVE_HELP.CHAIN_ANALYSIS';
             if(group.component === ViewToken.Settings) return 'APP.ACTIVE_HELP.SETTINGS';
         }
