@@ -9,9 +9,9 @@
             "level": 90,
             "npc_en": "Jammingway",
             "npc_fr": "Jammingway",
+            "patch": "6.55",
             "cPrev": ["q.70086", "q.70142"],
-            "cNext": ["q.70324"],
-            "patch": "6.55"
+            "cNext": ["q.70324"]
         },
         "x70324": {
             "name_en": "A Dream Worth Chasing",
@@ -19,15 +19,15 @@
             "level": 90,
             "npc_en": "Jammingway",
             "npc_fr": "Jammingway",
+            "unlock": "e.269",
+            "patch": "6.55",
             "cPrev": ["q.70323"],
             "cSiblings": [
                 "a.3411",
                 "character.character.societal-relations.110",
                 "character.character.societal-relations.111",
                 "character.character.societal-relations.112"
-            ],
-            "patch": "6.55",
-            "unlock": "e.269"
+            ]
         }
     }
 }

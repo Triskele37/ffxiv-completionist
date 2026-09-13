@@ -637,7 +637,12 @@
             "command_en": "/confirm",
             "command_fr": "/confirm, /confirmer",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
-            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3", "chest.232"],
+            "source": [
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2",
+                "duty.treasure-hunt.duties.3",
+                "chest.232"
+            ],
             "patch": "4.4"
         },
         "x189": {
@@ -910,10 +915,7 @@
             "command_en": "/lookback",
             "command_fr": "/lookback, /regarderenarrière, /regarr",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": [
-                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
-                "chest.233"
-            ],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)", "chest.233"],
             "patch": "7.55"
         },
         "x138": {

@@ -9,10 +9,10 @@
             "level": 50,
             "npc_en": "Sonu Vanu",
             "npc_fr": "Sonu Vanu",
+            "patch": "3.1",
             "cPrev": ["q.67184"],
             "cNext": ["q.67701"],
-            "cSiblings": ["character.character.societal-relations.28"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.28"]
         },
         "x67701": {
             "name_en": "A Tribal Reunion",
@@ -21,10 +21,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "patch": "3.1",
             "cPrev": ["q.67700"],
             "cNext": ["q.67702"],
-            "cSiblings": ["character.character.societal-relations.29"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.29"]
         },
         "x67702": {
             "name_en": "Linu's Lovely Bones",
@@ -33,10 +33,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "patch": "3.1",
             "cPrev": ["q.67701"],
             "cNext": ["q.67703"],
-            "cSiblings": ["character.character.societal-relations.30"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.30"]
         },
         "x67703": {
             "name_en": "In the Skycage over the Sea",
@@ -45,10 +45,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "patch": "3.1",
             "cPrev": ["q.67702"],
             "cNext": ["q.67704"],
-            "cSiblings": ["character.character.societal-relations.31"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.31"]
         },
         "x67704": {
             "name_en": "Fishing for Friendship",
@@ -57,10 +57,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "patch": "3.1",
             "cPrev": ["q.67703"],
             "cNext": ["q.67705"],
-            "cSiblings": ["character.character.societal-relations.32"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.32"]
         },
         "x67705": {
             "name_en": "Sundrop the Beat",
@@ -69,11 +69,11 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "unlock": "e.120",
+            "patch": "3.1",
             "cPrev": ["q.67704"],
             "cNext": ["q.67706"],
-            "cSiblings": ["character.character.societal-relations.33", "e.120"],
-            "patch": "3.1",
-            "unlock": "e.120"
+            "cSiblings": ["character.character.societal-relations.33", "e.120"]
         },
         "x67706": {
             "name_en": "Nest Side Story",
@@ -82,10 +82,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
+            "patch": "3.1",
             "cPrev": ["q.67705"],
             "cNext": ["q.67761"],
-            "cSiblings": ["character.character.societal-relations.34"],
-            "patch": "3.1"
+            "cSiblings": ["character.character.societal-relations.34"]
         },
         "x67761": {
             "name_en": "The Nest of Honor",
@@ -94,10 +94,10 @@
             "level": 50,
             "npc_en": "Linu Vali",
             "npc_fr": "Linu Vali",
-            "cPrev": ["q.67706"],
-            "cSiblings": ["character.character.societal-relations.35"],
+            "unlock": "tto.42",
             "patch": "3.1",
-            "unlock": "tto.42"
+            "cPrev": ["q.67706"],
+            "cSiblings": ["character.character.societal-relations.35"]
         }
     }
 }

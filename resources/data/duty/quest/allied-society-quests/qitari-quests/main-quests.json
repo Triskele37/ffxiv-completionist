@@ -9,11 +9,11 @@
             "level": 70,
             "npc_en": "Concerned Mother",
             "npc_fr": "Mère Inquiète",
+            "unlock": "tto.48",
+            "patch": "5.2",
             "cPrev": ["q.68877", "q.69018"],
             "cNext": ["q.69331"],
-            "cSiblings": ["character.character.societal-relations.80"],
-            "patch": "5.2",
-            "unlock": "tto.48"
+            "cSiblings": ["character.character.societal-relations.80"]
         },
         "x69331": {
             "name_en": "Wisdom of the Night",
@@ -22,10 +22,10 @@
             "level": 70,
             "npc_en": "Chaqurl Qhotl",
             "npc_fr": "Chaqurl Qhotl",
+            "patch": "5.2",
             "cPrev": ["q.69330"],
             "cNext": ["q.69336", "q.69337"],
-            "cSiblings": ["character.character.societal-relations.81"],
-            "patch": "5.2"
+            "cSiblings": ["character.character.societal-relations.81"]
         },
         "x69336": {
             "name_en": "The First Stela: Of Ronkan Might",
@@ -34,10 +34,10 @@
             "level": 70,
             "npc_en": "Qitarl Natl",
             "npc_fr": "Qitarl Natl",
+            "patch": "5.2",
             "cPrev": ["q.69331"],
             "cNext": ["q.69332"],
-            "cExclude": ["q.69337"],
-            "patch": "5.2"
+            "cExclude": ["q.69337"]
         },
         "x69337": {
             "name_en": "The First Stela: Of Ronkan Benevolence",
@@ -46,10 +46,10 @@
             "level": 70,
             "npc_en": "Chaqurl Qhotl",
             "npc_fr": "Chaqurl Qhotl",
+            "patch": "5.2",
             "cPrev": ["q.69331"],
             "cNext": ["q.69332"],
-            "cExclude": ["q.69336"],
-            "patch": "5.2"
+            "cExclude": ["q.69336"]
         },
         "x69332": {
             "name_en": "Delving Deeper",
@@ -58,11 +58,11 @@
             "level": 70,
             "npc_en": "Qitari Serpent",
             "npc_fr": "Grand Serpent Des Qitari ?",
+            "patch": "5.2",
             "cPrev": ["q.69336", "q.69337"],
             "cPrevAny": true,
             "cNext": ["q.69338", "q.69339"],
-            "cSiblings": ["character.character.societal-relations.82"],
-            "patch": "5.2"
+            "cSiblings": ["character.character.societal-relations.82"]
         },
         "x69338": {
             "name_en": "The Second Stela: The Hunters and the Hunted",
@@ -71,10 +71,10 @@
             "level": 70,
             "npc_en": "Qitarl Natl",
             "npc_fr": "Qitarl Natl",
+            "patch": "5.2",
             "cPrev": ["q.69332"],
             "cNext": ["q.69333"],
-            "cExclude": ["q.69339"],
-            "patch": "5.2"
+            "cExclude": ["q.69339"]
         },
         "x69339": {
             "name_en": "The Second Stela: Fast Friends",
@@ -83,10 +83,10 @@
             "level": 70,
             "npc_en": "Chaqurl Qhotl",
             "npc_fr": "Chaqurl Qhotl",
+            "patch": "5.2",
             "cPrev": ["q.69332"],
             "cNext": ["q.69333"],
-            "cExclude": ["q.69338"],
-            "patch": "5.2"
+            "cExclude": ["q.69338"]
         },
         "x69333": {
             "name_en": "A Chilling Fate",
@@ -95,11 +95,11 @@
             "level": 70,
             "npc_en": "Qitari Serpent",
             "npc_fr": "Grand Serpent Des Qitari ?",
+            "patch": "5.2",
             "cPrev": ["q.69338", "q.69339"],
             "cPrevAny": true,
             "cNext": ["q.69340", "q.69341"],
-            "cSiblings": ["character.character.societal-relations.83"],
-            "patch": "5.2"
+            "cSiblings": ["character.character.societal-relations.83"]
         },
         "x69340": {
             "name_en": "The Third Stela: A Famine for Fishmen",
@@ -108,10 +108,10 @@
             "level": 70,
             "npc_en": "Qitarl Natl",
             "npc_fr": "Qitarl Natl",
+            "patch": "5.2",
             "cPrev": ["q.69333"],
             "cNext": ["q.69334"],
-            "cExclude": ["q.69341"],
-            "patch": "5.2"
+            "cExclude": ["q.69341"]
         },
         "x69341": {
             "name_en": "The Third Stela: A Feast for Fishmen",
@@ -120,10 +120,10 @@
             "level": 70,
             "npc_en": "Chaqurl Qhotl",
             "npc_fr": "Chaqurl Qhotl",
+            "patch": "5.2",
             "cPrev": ["q.69333"],
             "cNext": ["q.69334"],
-            "cExclude": ["q.69340"],
-            "patch": "5.2"
+            "cExclude": ["q.69340"]
         },
         "x69334": {
             "name_en": "What Ails the Forest",
@@ -132,11 +132,11 @@
             "level": 70,
             "npc_en": "Qitari Serpent",
             "npc_fr": "Grand Serpent Des Qitari ?",
+            "patch": "5.2",
             "cPrev": ["q.69340", "q.69341"],
             "cPrevAny": true,
             "cNext": ["q.69335"],
-            "cSiblings": ["character.character.societal-relations.84"],
-            "patch": "5.2"
+            "cSiblings": ["character.character.societal-relations.84"]
         },
         "x69335": {
             "name_en": "Glory Be to the Scree",
@@ -145,9 +145,9 @@
             "level": 70,
             "npc_en": "Chaqurl Qhotl",
             "npc_fr": "Chaqurl Qhotl",
+            "patch": "5.2",
             "cPrev": ["q.69334"],
-            "cSiblings": ["character.character.societal-relations.85"],
-            "patch": "5.2"
+            "cSiblings": ["character.character.societal-relations.85"]
         }
     }
 }

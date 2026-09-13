@@ -9,9 +9,9 @@
             "level": 70,
             "npc_en": "East Aldenard Trading Company Assistant",
             "npc_fr": "Apprenti de la F.C.A.O.",
+            "patch": "4.56",
             "cPrev": ["q.68514", "q.68577", "q.68638"],
-            "cNext": ["q.68698"],
-            "patch": "4.56"
+            "cNext": ["q.68698"]
         },
         "x68698": {
             "name_en": "Ruby Seas under Ruby Skies",
@@ -19,9 +19,9 @@
             "level": 70,
             "npc_en": "J'olhmyn",
             "npc_fr": "J'olhmyn",
+            "patch": "4.56",
             "cPrev": ["q.68697"],
-            "cNext": ["q.68699"],
-            "patch": "4.56"
+            "cNext": ["q.68699"]
         },
         "x68699": {
             "name_en": "Fish in a Barrel",
@@ -29,9 +29,9 @@
             "level": 70,
             "npc_en": "J'olhmyn",
             "npc_fr": "J'olhmyn",
+            "patch": "4.56",
             "cPrev": ["q.68698"],
-            "cNext": ["q.68700"],
-            "patch": "4.56"
+            "cNext": ["q.68700"]
         },
         "x68700": {
             "name_en": "What a Wonder-full World",
@@ -39,6 +39,8 @@
             "level": 70,
             "npc_en": "Kabuto",
             "npc_fr": "Kabuto",
+            "unlock": "e.194",
+            "patch": "4.56",
             "cPrev": ["q.68699"],
             "cSiblings": [
                 "character.character.societal-relations.59",
@@ -46,9 +48,7 @@
                 "character.character.societal-relations.73",
                 "a.2235",
                 "e.194"
-            ],
-            "patch": "4.56",
-            "unlock": "e.194"
+            ]
         }
     }
 }

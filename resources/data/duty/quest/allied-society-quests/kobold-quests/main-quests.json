@@ -9,9 +9,9 @@
             "level": 41,
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
+            "patch": "2.2",
             "cPrev": ["q.66488"],
-            "cNext": ["q.66857"],
-            "patch": "2.2"
+            "cNext": ["q.66857"]
         },
         "x66857": {
             "name_en": "How Low Can You Go",
@@ -19,10 +19,10 @@
             "level": 41,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
+            "patch": "2.2",
             "cPrev": ["q.66856"],
             "cNext": ["q.66858"],
-            "cSiblings": ["character.character.societal-relations.10"],
-            "patch": "2.2"
+            "cSiblings": ["character.character.societal-relations.10"]
         },
         "x66858": {
             "name_en": "No-good Zo Ga's Ambition",
@@ -31,10 +31,10 @@
             "level": 44,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
+            "patch": "2.2",
             "cPrev": ["q.66857"],
             "cNext": ["q.66859"],
-            "cSiblings": ["character.character.societal-relations.11"],
-            "patch": "2.2"
+            "cSiblings": ["character.character.societal-relations.11"]
         },
         "x66859": {
             "name_en": "The Kobold and the Beautiful",
@@ -43,10 +43,10 @@
             "level": 48,
             "npc_en": "Skaetswys",
             "npc_fr": "Skaetswys",
+            "patch": "2.2",
             "cPrev": ["q.66858"],
             "cNext": ["q.66860"],
-            "cSiblings": ["character.character.societal-relations.12"],
-            "patch": "2.2"
+            "cSiblings": ["character.character.societal-relations.12"]
         },
         "x66860": {
             "name_en": "Revenge of the Furred",
@@ -55,9 +55,9 @@
             "level": 48,
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
+            "patch": "2.2",
             "cPrev": ["q.66859"],
-            "cSiblings": ["character.character.societal-relations.13"],
-            "patch": "2.2"
+            "cSiblings": ["character.character.societal-relations.13"]
         }
     }
 }

@@ -9,10 +9,10 @@
             "level": 100,
             "npc_en": "Expedition Messenger",
             "npc_fr": "Messager De L'expédition",
+            "unlock": "duty.collection.occult-record.0",
             "patch": "7.25",
             "cPrev": ["q.70495"],
-            "cNext": ["q.70846"],
-            "unlock": "duty.collection.occult-record.0"
+            "cNext": ["q.70846"]
         },
         "x70846": {
             "name_en": "The Phantom Village",
@@ -20,10 +20,10 @@
             "level": 100,
             "npc_en": "Ketenramm",
             "npc_fr": "Ketenramm",
+            "unlock": "duty.collection.occult-record.2",
             "patch": "7.25",
             "cPrev": ["q.70845"],
-            "cNext": ["q.70847"],
-            "unlock": "duty.collection.occult-record.2"
+            "cNext": ["q.70847"]
         },
         "x70847": {
             "name_en": "Unfamiliar Territory",
@@ -31,10 +31,10 @@
             "level": 100,
             "npc_en": "Archive",
             "npc_fr": "Archive",
+            "unlock": "duty.collection.occult-record.3",
             "patch": "7.25",
             "cPrev": ["q.70846"],
-            "cNext": ["q.70848", "q.70855"],
-            "unlock": "duty.collection.occult-record.3"
+            "cNext": ["q.70848", "q.70855"]
         },
         "x70848": {
             "name_en": "New Job, Old Tricks",
@@ -42,14 +42,14 @@
             "level": 100,
             "npc_en": "Ketenramm",
             "npc_fr": "Ketenramm",
-            "patch": "7.25",
-            "cPrev": ["q.70847"],
-            "cNext": ["q.70849"],
             "unlock": [
                 "duty.field-operations.occult-crescent.phantom-job.1",
                 "duty.field-operations.occult-crescent.phantom-job.3",
                 "duty.field-operations.occult-crescent.phantom-job.6"
-            ]
+            ],
+            "patch": "7.25",
+            "cPrev": ["q.70847"],
+            "cNext": ["q.70849"]
         },
         "x70849": {
             "name_en": "The Ancient Arts of War",
@@ -57,10 +57,10 @@
             "level": 100,
             "npc_en": "Archive",
             "npc_fr": "Archive",
+            "unlock": "duty.collection.occult-record.5",
             "patch": "7.25",
             "cPrev": ["q.70848"],
-            "cNext": ["q.70850"],
-            "unlock": "duty.collection.occult-record.5"
+            "cNext": ["q.70850"]
         },
         "x70850": {
             "name_en": "Creatures of the Crescent",
@@ -98,10 +98,10 @@
             "level": 100,
             "npc_en": "Archive",
             "npc_fr": "Archive",
+            "unlock": "duty.collection.occult-record.24",
             "patch": "7.25",
             "cPrev": ["q.70852"],
-            "cNext": ["q.70854"],
-            "unlock": "duty.collection.occult-record.24"
+            "cNext": ["q.70854"]
         },
         "x70854": {
             "name_en": "Mysteries Abide",
@@ -190,8 +190,8 @@
             "level": 100,
             "npc_en": "Archive",
             "npc_fr": "Archive",
-            "patch": "7.55",
             "unlock": "duty.collection.occult-record.58",
+            "patch": "7.55",
             "cPrev": ["q.71053"],
             "cSiblings": ["a.3937"]
         }

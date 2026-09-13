@@ -9,10 +9,10 @@
             "level": 50,
             "npc_en": "Vath Storyteller",
             "npc_fr": "Conteur Des Vathes",
+            "patch": "3.2",
             "cPrev": ["q.67152"],
             "cNext": ["q.67792"],
-            "cSiblings": ["character.character.societal-relations.37"],
-            "patch": "3.2"
+            "cSiblings": ["character.character.societal-relations.37"]
         },
         "x67792": {
             "name_en": "Adventurers Don't Get Cold Feet",
@@ -21,10 +21,10 @@
             "level": 50,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "patch": "3.2",
             "cPrev": ["q.67791"],
             "cNext": ["q.67793", "q.69374"],
-            "cSiblings": ["character.character.societal-relations.38"],
-            "patch": "3.2"
+            "cSiblings": ["character.character.societal-relations.38"]
         },
         "x67793": {
             "name_en": "An Acquired Taste",
@@ -33,10 +33,10 @@
             "level": 50,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "patch": "3.2",
             "cPrev": ["q.67792"],
             "cNext": ["q.67794"],
-            "cSiblings": ["character.character.societal-relations.39"],
-            "patch": "3.2"
+            "cSiblings": ["character.character.societal-relations.39"]
         },
         "x67794": {
             "name_en": "Your Enemy and Mine",
@@ -45,10 +45,10 @@
             "level": 50,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "patch": "3.2",
             "cPrev": ["q.67793"],
             "cNext": ["q.67795"],
-            "cSiblings": ["character.character.societal-relations.40"],
-            "patch": "3.2"
+            "cSiblings": ["character.character.societal-relations.40"]
         },
         "x67795": {
             "name_en": "Resistance Is Futile",
@@ -57,10 +57,10 @@
             "level": 50,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "patch": "3.2",
             "cPrev": ["q.67794"],
             "cNext": ["q.67796"],
-            "cSiblings": ["character.character.societal-relations.41"],
-            "patch": "3.2"
+            "cSiblings": ["character.character.societal-relations.41"]
         },
         "x67796": {
             "name_en": "A Symbiotic Friendship",
@@ -69,10 +69,10 @@
             "level": 50,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
-            "cPrev": ["q.67795"],
-            "cSiblings": ["character.character.societal-relations.42"],
+            "unlock": "tto.52",
             "patch": "3.2",
-            "unlock": "tto.52"
+            "cPrev": ["q.67795"],
+            "cSiblings": ["character.character.societal-relations.42"]
         }
     }
 }

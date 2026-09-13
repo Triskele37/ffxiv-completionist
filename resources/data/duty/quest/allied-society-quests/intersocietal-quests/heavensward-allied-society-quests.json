@@ -9,8 +9,8 @@
             "level": 60,
             "npc_en": "Drydox",
             "npc_fr": "Drydox",
-            "cNext": ["q.67919"],
-            "patch": "3.5"
+            "patch": "3.5",
+            "cNext": ["q.67919"]
         },
         "x67919": {
             "name_en": "Who Was That Masked Man",
@@ -18,9 +18,9 @@
             "level": 60,
             "npc_en": "Master Mogzin",
             "npc_fr": "Mogzin",
+            "patch": "3.5",
             "cPrev": ["q.67918"],
-            "cNext": ["q.67920"],
-            "patch": "3.5"
+            "cNext": ["q.67920"]
         },
         "x67920": {
             "name_en": "Lift Me to the Moon",
@@ -28,9 +28,9 @@
             "level": 60,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "patch": "3.5",
             "cPrev": ["q.67919"],
-            "cNext": ["q.67921"],
-            "patch": "3.5"
+            "cNext": ["q.67921"]
         },
         "x67921": {
             "name_en": "Eternity, Loyalty, Honesty",
@@ -38,6 +38,8 @@
             "level": 60,
             "npc_en": "Vath Deftarm",
             "npc_fr": "Futé",
+            "unlock": "e.145",
+            "patch": "3.5",
             "cPrev": ["q.67920"],
             "cSiblings": [
                 "character.character.societal-relations.36",
@@ -45,9 +47,7 @@
                 "character.character.societal-relations.52",
                 "a.1627",
                 "e.145"
-            ],
-            "patch": "3.5",
-            "unlock": "e.145"
+            ]
         }
     }
 }

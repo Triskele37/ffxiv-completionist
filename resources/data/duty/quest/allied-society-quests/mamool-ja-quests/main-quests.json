@@ -9,10 +9,10 @@
             "level": 90,
             "npc_en": "Gotoll Ja",
             "npc_fr": "Gotoll Ja",
+            "patch": "7.25",
             "cPrev": ["q.70495", "q.70654"],
             "cNext": ["q.70792"],
-            "cSiblings": ["character.character.societal-relations.119"],
-            "patch": "7.25"
+            "cSiblings": ["character.character.societal-relations.119"]
         },
         "x70792": {
             "name_en": "Doppro Tradition",
@@ -21,10 +21,10 @@
             "level": 90,
             "npc_en": "Ruvoll Ja",
             "npc_fr": "Ruvoll Ja",
+            "patch": "7.25",
             "cPrev": ["q.70791"],
             "cNext": ["q.70793"],
-            "cSiblings": ["character.character.societal-relations.120"],
-            "patch": "7.25"
+            "cSiblings": ["character.character.societal-relations.120"]
         },
         "x70793": {
             "name_en": "A Hoobigo's Return",
@@ -33,10 +33,10 @@
             "level": 90,
             "npc_en": "Ruvoll Ja",
             "npc_fr": "Ruvoll Ja",
+            "patch": "7.25",
             "cPrev": ["q.70792"],
             "cNext": ["q.70794"],
-            "cSiblings": ["character.character.societal-relations.121"],
-            "patch": "7.25"
+            "cSiblings": ["character.character.societal-relations.121"]
         },
         "x70794": {
             "name_en": "The Boon of Boonewa",
@@ -45,10 +45,10 @@
             "level": 90,
             "npc_en": "Ruvoll Ja",
             "npc_fr": "Ruvoll Ja",
+            "patch": "7.25",
             "cPrev": ["q.70793"],
             "cNext": ["q.70795"],
-            "cSiblings": ["character.character.societal-relations.122"],
-            "patch": "7.25"
+            "cSiblings": ["character.character.societal-relations.122"]
         },
         "x70795": {
             "name_en": "A New Yak T'el",
@@ -57,10 +57,10 @@
             "level": 90,
             "npc_en": "Ruvoll Ja",
             "npc_fr": "Ruvoll Ja",
+            "patch": "7.25",
             "cPrev": ["q.70794"],
             "cNext": ["q.70796"],
-            "cSiblings": ["character.character.societal-relations.123"],
-            "patch": "7.25"
+            "cSiblings": ["character.character.societal-relations.123"]
         },
         "x70796": {
             "name_en": "The Pride of Mamook",
@@ -69,11 +69,11 @@
             "level": 90,
             "npc_en": "Ruvoll Ja",
             "npc_fr": "Ruvoll Ja",
+            "unlock": "tto.127",
+            "patch": "7.25",
             "cPrev": ["q.70795"],
             "cNext": ["q.70998"],
-            "cSiblings": ["character.character.societal-relations.124"],
-            "patch": "7.25",
-            "unlock": "tto.127"
+            "cSiblings": ["character.character.societal-relations.124"]
         }
     }
 }

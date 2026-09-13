@@ -9,9 +9,9 @@
             "level": 50,
             "npc_en": "Scarlet",
             "npc_fr": "Scarlet",
+            "patch": "2.35",
             "cNext": ["q.67004"],
-            "cExclude": ["q.67002", "q.67003"],
-            "patch": "2.35"
+            "cExclude": ["q.67002", "q.67003"]
         },
         "x67002": {
             "name_en": "Call of the Wild (Maelstrom)",
@@ -19,9 +19,9 @@
             "level": 50,
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
+            "patch": "2.35",
             "cNext": ["q.67004"],
-            "cExclude": ["q.67001", "q.67003"],
-            "patch": "2.35"
+            "cExclude": ["q.67001", "q.67003"]
         },
         "x67003": {
             "name_en": "Call of the Wild (Immortal Flames)",
@@ -29,9 +29,9 @@
             "level": 50,
             "npc_en": "Mimio Mio",
             "npc_fr": "Mimio Mio",
+            "patch": "2.35",
             "cNext": ["q.67004"],
-            "cExclude": ["q.67002", "q.67001"],
-            "patch": "2.35"
+            "cExclude": ["q.67002", "q.67001"]
         },
         "x67004": {
             "name_en": "Little Sylphs Lost",
@@ -39,10 +39,10 @@
             "level": 50,
             "npc_en": "Gavin",
             "npc_fr": "Gavin",
+            "patch": "2.35",
             "cPrev": ["q.67001", "q.67002", "q.67003"],
             "cPrevAny": true,
-            "cNext": ["q.67005"],
-            "patch": "2.35"
+            "cNext": ["q.67005"]
         },
         "x67005": {
             "name_en": "Clutching at Straws",
@@ -50,9 +50,9 @@
             "level": 50,
             "npc_en": "Voyce",
             "npc_fr": "Voyce",
+            "patch": "2.35",
             "cPrev": ["q.67004"],
-            "cNext": ["q.67006"],
-            "patch": "2.35"
+            "cNext": ["q.67006"]
         },
         "x67006": {
             "name_en": "Digging for Answers",
@@ -60,9 +60,9 @@
             "level": 50,
             "npc_en": "Novv",
             "npc_fr": "Novv",
+            "patch": "2.35",
             "cPrev": ["q.67005"],
-            "cNext": ["q.67007"],
-            "patch": "2.35"
+            "cNext": ["q.67007"]
         },
         "x67007": {
             "name_en": "Rattled in Ehcatl",
@@ -70,9 +70,9 @@
             "level": 50,
             "npc_en": "Skaetswys",
             "npc_fr": "Skaetswys",
+            "patch": "2.35",
             "cPrev": ["q.67006"],
-            "cNext": ["q.67008"],
-            "patch": "2.35"
+            "cNext": ["q.67008"]
         },
         "x67008": {
             "name_en": "Ash Not What Your Brotherhood Can Do for You",
@@ -80,9 +80,9 @@
             "level": 50,
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
+            "patch": "2.35",
             "cPrev": ["q.67007"],
-            "cNext": ["q.67009"],
-            "patch": "2.35"
+            "cNext": ["q.67009"]
         },
         "x67009": {
             "name_en": "Friends Forever",
@@ -90,6 +90,7 @@
             "level": 50,
             "npc_en": "Hamujj Gah",
             "npc_fr": "Hamujj Gah",
+            "patch": "2.35",
             "cPrev": ["q.67008"],
             "cSiblings": [
                 "character.character.societal-relations.4",
@@ -98,8 +99,7 @@
                 "character.character.societal-relations.19",
                 "character.character.societal-relations.27",
                 "a.1026"
-            ],
-            "patch": "2.35"
+            ]
         }
     }
 }

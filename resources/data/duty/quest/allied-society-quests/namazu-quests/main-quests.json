@@ -9,9 +9,9 @@
             "level": 60,
             "npc_en": "Floundering Namazu",
             "npc_fr": "Namazu Affaibli",
+            "patch": "4.3",
             "cPrev": ["q.68053", "q.68276"],
-            "cNext": ["q.68633"],
-            "patch": "4.3"
+            "cNext": ["q.68633"]
         },
         "x68633": {
             "name_en": "One Size Fits All",
@@ -19,11 +19,11 @@
             "level": 60,
             "npc_en": "Seigetsu the Enlightened",
             "npc_fr": "Seigetsu",
+            "unlock": ["cl.32682"],
+            "patch": "4.3",
             "cPrev": ["q.68632"],
             "cNext": ["q.68634"],
-            "cSiblings": ["character.character.societal-relations.67"],
-            "patch": "4.3",
-            "unlock": ["cl.32682"]
+            "cSiblings": ["character.character.societal-relations.67"]
         },
         "x68634": {
             "name_en": "Big, Big Fish",
@@ -32,11 +32,11 @@
             "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
+            "unlock": ["cl.32683"],
+            "patch": "4.3",
             "cPrev": ["q.68633"],
             "cNext": ["q.68635"],
-            "cSiblings": ["character.character.societal-relations.68"],
-            "patch": "4.3",
-            "unlock": ["cl.32683"]
+            "cSiblings": ["character.character.societal-relations.68"]
         },
         "x68635": {
             "name_en": "Waiting for Gyodo",
@@ -45,11 +45,11 @@
             "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
+            "unlock": ["cl.32684"],
+            "patch": "4.3",
             "cPrev": ["q.68634"],
             "cNext": ["q.68636"],
-            "cSiblings": ["character.character.societal-relations.69"],
-            "patch": "4.3",
-            "unlock": ["cl.32684"]
+            "cSiblings": ["character.character.societal-relations.69"]
         },
         "x68636": {
             "name_en": "Out of the Frypan",
@@ -58,11 +58,11 @@
             "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
+            "unlock": ["cl.32689"],
+            "patch": "4.3",
             "cPrev": ["q.68635"],
             "cNext": ["q.68637"],
-            "cSiblings": ["character.character.societal-relations.70"],
-            "patch": "4.3",
-            "unlock": ["cl.32689"]
+            "cSiblings": ["character.character.societal-relations.70"]
         },
         "x68637": {
             "name_en": "Into the Fire",
@@ -71,11 +71,11 @@
             "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
+            "unlock": ["cl.32694"],
+            "patch": "4.3",
             "cPrev": ["q.68636"],
             "cNext": ["q.68638"],
-            "cSiblings": ["character.character.societal-relations.71"],
-            "patch": "4.3",
-            "unlock": ["cl.32694"]
+            "cSiblings": ["character.character.societal-relations.71"]
         },
         "x68638": {
             "name_en": "Disciples of Creation",
@@ -84,10 +84,10 @@
             "level": 60,
             "npc_en": "Gyoshin",
             "npc_fr": "Gyoshin",
+            "patch": "4.3",
             "cPrev": ["q.68637"],
             "cNext": ["q.68697"],
-            "cSiblings": ["character.character.societal-relations.72"],
-            "patch": "4.3"
+            "cSiblings": ["character.character.societal-relations.72"]
         }
     }
 }

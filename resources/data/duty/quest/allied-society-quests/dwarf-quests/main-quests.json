@@ -9,11 +9,11 @@
             "level": 70,
             "npc_en": "Affable Townsdwarf",
             "npc_fr": "Nain Insouciant",
+            "unlock": ["cl.34167"],
+            "patch": "5.3",
             "cPrev": ["q.69096"],
             "cNext": ["q.69433"],
-            "cSiblings": ["character.character.societal-relations.74"],
-            "patch": "5.3",
-            "unlock": ["cl.34167"]
+            "cSiblings": ["character.character.societal-relations.74"]
         },
         "x69433": {
             "name_en": "A Piss-up in a Brewery",
@@ -22,11 +22,11 @@
             "level": 70,
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
+            "unlock": ["cl.34168"],
+            "patch": "5.3",
             "cPrev": ["q.69432"],
             "cNext": ["q.69434"],
-            "cSiblings": ["character.character.societal-relations.75"],
-            "patch": "5.3",
-            "unlock": ["cl.34168"]
+            "cSiblings": ["character.character.societal-relations.75"]
         },
         "x69434": {
             "name_en": "I Heard You Like Tanks",
@@ -35,11 +35,11 @@
             "level": 70,
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
+            "unlock": ["cl.34169"],
+            "patch": "5.3",
             "cPrev": ["q.69433"],
             "cNext": ["q.69435"],
-            "cSiblings": ["character.character.societal-relations.76"],
-            "patch": "5.3",
-            "unlock": ["cl.34169"]
+            "cSiblings": ["character.character.societal-relations.76"]
         },
         "x69435": {
             "name_en": "Tanking Is Hard",
@@ -48,11 +48,11 @@
             "level": 70,
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
+            "unlock": ["cl.34170"],
+            "patch": "5.3",
             "cPrev": ["q.69434"],
             "cNext": ["q.69436"],
-            "cSiblings": ["character.character.societal-relations.77"],
-            "patch": "5.3",
-            "unlock": ["cl.34170"]
+            "cSiblings": ["character.character.societal-relations.77"]
         },
         "x69436": {
             "name_en": "Chief Concerns",
@@ -61,11 +61,11 @@
             "level": 70,
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
+            "unlock": ["cl.34171"],
+            "patch": "5.3",
             "cPrev": ["q.69435"],
             "cNext": ["q.69437"],
-            "cSiblings": ["character.character.societal-relations.78"],
-            "patch": "5.3",
-            "unlock": ["cl.34171"]
+            "cSiblings": ["character.character.societal-relations.78"]
         },
         "x69437": {
             "name_en": "Tanks for the Memory",
@@ -74,10 +74,10 @@
             "level": 70,
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
-            "cPrev": ["q.69436"],
-            "cSiblings": ["character.character.societal-relations.79"],
+            "unlock": "tto.28",
             "patch": "5.3",
-            "unlock": "tto.28"
+            "cPrev": ["q.69436"],
+            "cSiblings": ["character.character.societal-relations.79"]
         }
     }
 }

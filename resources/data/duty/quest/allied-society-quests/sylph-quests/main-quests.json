@@ -9,9 +9,9 @@
             "level": 42,
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
+            "patch": "2.1",
             "cPrev": ["q.66488"],
-            "cNext": ["q.66789"],
-            "patch": "2.1"
+            "cNext": ["q.66789"]
         },
         "x66789": {
             "name_en": "Voyce of Concern",
@@ -19,10 +19,10 @@
             "level": 42,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
+            "patch": "2.1",
             "cPrev": ["q.66788"],
             "cNext": ["q.66790"],
-            "cSiblings": ["character.character.societal-relations.5"],
-            "patch": "2.1"
+            "cSiblings": ["character.character.societal-relations.5"]
         },
         "x66790": {
             "name_en": "Pilfered Podlings",
@@ -31,10 +31,10 @@
             "level": 45,
             "npc_en": "Voyce",
             "npc_fr": "Voyce",
+            "patch": "2.1",
             "cPrev": ["q.66789"],
             "cNext": ["q.66791"],
-            "cSiblings": ["character.character.societal-relations.6"],
-            "patch": "2.1"
+            "cSiblings": ["character.character.societal-relations.6"]
         },
         "x66791": {
             "name_en": "Idle Hands",
@@ -43,10 +43,10 @@
             "level": 48,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
+            "patch": "2.1",
             "cPrev": ["q.66790"],
             "cNext": ["q.66792"],
-            "cSiblings": ["character.character.societal-relations.7"],
-            "patch": "2.1"
+            "cSiblings": ["character.character.societal-relations.7"]
         },
         "x66792": {
             "name_en": "Feathers and Folly",
@@ -55,9 +55,9 @@
             "level": 48,
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
+            "patch": "2.1",
             "cPrev": ["q.66791"],
-            "cSiblings": ["character.character.societal-relations.8"],
-            "patch": "2.1"
+            "cSiblings": ["character.character.societal-relations.8"]
         }
     }
 }

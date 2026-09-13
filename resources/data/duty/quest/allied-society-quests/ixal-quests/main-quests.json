@@ -9,9 +9,9 @@
             "level": 1,
             "npc_en": "Scarlet",
             "npc_fr": "Scarlet",
+            "patch": "2.35",
             "cPrev": ["q.66488"],
-            "cNext": ["q.67023"],
-            "patch": "2.35"
+            "cNext": ["q.67023"]
         },
         "x67023": {
             "name_en": "Reaching for Cloud Nine",
@@ -19,11 +19,11 @@
             "level": 1,
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
+            "unlock": ["cl.30544"],
+            "patch": "2.35",
             "cPrev": ["q.67022"],
             "cNext": ["q.67024", "q.67105"],
-            "cSiblings": ["character.character.societal-relations.20"],
-            "patch": "2.35",
-            "unlock": ["cl.30544"]
+            "cSiblings": ["character.character.societal-relations.20"]
         },
         "x67024": {
             "name_en": "A Designer Job",
@@ -32,11 +32,11 @@
             "level": 3,
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
+            "unlock": ["cl.30545"],
+            "patch": "2.35",
             "cPrev": ["q.67023"],
             "cNext": ["q.67025"],
-            "cSiblings": ["character.character.societal-relations.21"],
-            "patch": "2.35",
-            "unlock": ["cl.30545"]
+            "cSiblings": ["character.character.societal-relations.21"]
         },
         "x67025": {
             "name_en": "The Boy from Gridania",
@@ -45,11 +45,11 @@
             "level": 6,
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
+            "unlock": ["cl.30546"],
+            "patch": "2.35",
             "cPrev": ["q.67024"],
             "cNext": ["q.67026"],
-            "cSiblings": ["character.character.societal-relations.22"],
-            "patch": "2.35",
-            "unlock": ["cl.30546"]
+            "cSiblings": ["character.character.societal-relations.22"]
         },
         "x67026": {
             "name_en": "Lathe to the Party",
@@ -58,10 +58,10 @@
             "level": 10,
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
+            "patch": "2.35",
             "cPrev": ["q.67025"],
             "cNext": ["q.67027"],
-            "cSiblings": ["character.character.societal-relations.23"],
-            "patch": "2.35"
+            "cSiblings": ["character.character.societal-relations.23"]
         },
         "x67027": {
             "name_en": "Standing at the Helm",
@@ -70,11 +70,11 @@
             "level": 15,
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
+            "unlock": ["cl.30547"],
+            "patch": "2.35",
             "cPrev": ["q.67026"],
             "cNext": ["q.67028"],
-            "cSiblings": ["character.character.societal-relations.24"],
-            "patch": "2.35",
-            "unlock": ["cl.30547"]
+            "cSiblings": ["character.character.societal-relations.24"]
         },
         "x67028": {
             "name_en": "Never Be Royal",
@@ -83,10 +83,10 @@
             "level": 16,
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
+            "patch": "2.35",
             "cPrev": ["q.67027"],
             "cNext": ["q.67029"],
-            "cSiblings": ["character.character.societal-relations.25"],
-            "patch": "2.35"
+            "cSiblings": ["character.character.societal-relations.25"]
         },
         "x67029": {
             "name_en": "Spread Your Wings and Soar",
@@ -95,10 +95,10 @@
             "level": 18,
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
-            "cPrev": ["q.67028"],
-            "cSiblings": ["character.character.societal-relations.26"],
+            "unlock": ["tto.90", "cl.30548", "cl.30549"],
             "patch": "2.35",
-            "unlock": ["tto.90", "cl.30548", "cl.30549"]
+            "cPrev": ["q.67028"],
+            "cSiblings": ["character.character.societal-relations.26"]
         }
     }
 }

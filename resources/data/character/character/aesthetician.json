@@ -371,22 +371,14 @@
             "name_en": "Modern Aesthetics - Fulsome Forelocks",
             "name_fr": "Méthode de coiffure “Coupe au bol”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": [
-                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)",
-                "chest.230"
-            ],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)", "chest.230"],
             "patch": "7.25"
         },
         "x550": {
             "name_en": "Modern Aesthetics - Simple and Clean",
             "name_fr": "Méthode de coiffure “Simple et lisse”",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": [
-                "@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)",
-                "chest.130",
-                "chest.131",
-                "chest.132"
-            ],
+            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)", "chest.130", "chest.131", "chest.132"],
             "patch": "7.35"
         },
         "x551": {
@@ -447,10 +439,7 @@
             "name_en": "Modern Aesthetics - Bun and the Beautiful",
             "name_fr": "Méthode de coiffure “Chignon tressé”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": [
-                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)",
-                "chest.232"
-            ],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)", "chest.232"],
             "patch": "7.55"
         }
     }

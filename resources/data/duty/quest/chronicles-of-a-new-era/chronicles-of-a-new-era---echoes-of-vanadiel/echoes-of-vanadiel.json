@@ -83,10 +83,10 @@
             "level": 100,
             "npc_en": "Bakool Ja Ja",
             "npc_fr": "Bakool Ja Ja",
+            "unlock": ["tto.128", "o.763"],
             "patch": "7.3",
             "cPrev": ["q.70864"],
-            "cNext": ["q.71015"],
-            "unlock": ["tto.128", "o.763"]
+            "cNext": ["q.71015"]
         },
         "x71015": {
             "name_en": "The Hollow Promise",
@@ -106,8 +106,8 @@
             "level": 100,
             "npc_en": "Alxaal",
             "npc_fr": "Alxaal",
-            "patch": "7.5",
             "unlock": ["ap.1097", "tto.132", "tto.131", "o.845", "o.846", "o.847", "o.849"],
+            "patch": "7.5",
             "cPrev": ["q.71015"],
             "cSiblings": ["a.3940"]
         }

@@ -9,10 +9,10 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "patch": "7.35",
             "cPrev": ["q.70495", "q.70595"],
             "cNext": ["q.70867"],
-            "cSiblings": ["character.character.societal-relations.125"],
-            "patch": "7.35"
+            "cSiblings": ["character.character.societal-relations.125"]
         },
         "x70867": {
             "name_en": "Still as Stone",
@@ -21,10 +21,10 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "patch": "7.35",
             "cPrev": ["q.70866"],
             "cNext": ["q.70868"],
-            "cSiblings": ["character.character.societal-relations.126"],
-            "patch": "7.35"
+            "cSiblings": ["character.character.societal-relations.126"]
         },
         "x70868": {
             "name_en": "Buried Memories",
@@ -33,10 +33,10 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "patch": "7.35",
             "cPrev": ["q.70867"],
             "cNext": ["q.70869"],
-            "cSiblings": ["character.character.societal-relations.127"],
-            "patch": "7.35"
+            "cSiblings": ["character.character.societal-relations.127"]
         },
         "x70869": {
             "name_en": "The Pact",
@@ -45,10 +45,10 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "patch": "7.35",
             "cPrev": ["q.70868"],
             "cNext": ["q.70870"],
-            "cSiblings": ["character.character.societal-relations.128"],
-            "patch": "7.35"
+            "cSiblings": ["character.character.societal-relations.128"]
         },
         "x70870": {
             "name_en": "Forged in Corn",
@@ -57,10 +57,10 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "patch": "7.35",
             "cPrev": ["q.70869"],
             "cNext": ["q.70871"],
-            "cSiblings": ["character.character.societal-relations.129"],
-            "patch": "7.35"
+            "cSiblings": ["character.character.societal-relations.129"]
         },
         "x70871": {
             "name_en": "With High Spirits",
@@ -69,11 +69,11 @@
             "level": 90,
             "npc_en": "Fahrafahr",
             "npc_fr": "Fahrafahr",
+            "unlock": "tto.129",
+            "patch": "7.35",
             "cPrev": ["q.70870"],
             "cNext": ["q.70998"],
-            "cSiblings": ["character.character.societal-relations.130"],
-            "patch": "7.35",
-            "unlock": "tto.129"
+            "cSiblings": ["character.character.societal-relations.130"]
         }
     }
 }
