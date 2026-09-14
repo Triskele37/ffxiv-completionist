@@ -193,7 +193,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
     //#endregion
 
     //#region ------------------------------------------------------- Tick
-    gameSpeed: number = 10;
+    gameSpeed: number = 1;
     tickSpeed: number = 200 / this.gameSpeed;
     tickInterval: any;
 
