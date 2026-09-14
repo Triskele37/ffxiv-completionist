@@ -1,4 +1,4 @@
-import { Component, Input, inject, SimpleChanges, OnChanges } from '@angular/core';
+import { Component, Input, inject, signal, effect } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgClass } from '@angular/common';
 import { ReorderableRow } from 'primeng/table';
@@ -28,7 +28,7 @@ import { TableService } from '@service/table/table.service';
         ActionsCellComponent
     ]
 })
-export class DataRowComponent implements OnChanges {
+export class DataRowComponent {
     svcNote = inject(NoteService);
     svcSave = inject(SaveStoreService);
     svcTable = inject(TableService);
@@ -36,21 +36,26 @@ export class DataRowComponent implements OnChanges {
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
 
-    note: string | undefined;
+    note = signal<string | undefined>(undefined);
 
     constructor() {
         this.svcSave.updated$
             .pipe(takeUntilDestroyed())
             .subscribe(this.updateNote.bind(this));
-    }
 
-    ngOnChanges(changes: SimpleChanges<DataRowComponent>) {
-        if(changes.task) this.updateNote();
+        effect(() => {
+            void this.svcTable.group();
+            this.updateNote();
+        });
     }
 
     updateNote(): void {
-        if(this.svcTable.group().type === 'Note') return;
-        this.note = this.svcNote.getNote(this.task);
+        if(this.svcTable.group().type === 'Note') {
+            this.note.set(undefined);
+            return;
+        }
+
+        this.note.set(this.svcNote.getNote(this.task));
     }
 
     onClick($event: MouseEvent): void {

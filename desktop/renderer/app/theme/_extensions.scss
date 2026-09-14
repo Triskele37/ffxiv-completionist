@@ -1,9 +1,12 @@
 // App specific overrides
 body {
-
     .p-button {
         &.p-button-link {
             color: var(--primary-color-light);
+        }
+
+        &:not(.p-button-link):not(.p-button-text) {
+            outline: 1px solid var(--primary-color-dark);
         }
     }
 

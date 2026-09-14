@@ -9,6 +9,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { HistoryOverlayComponent } from './history-overlay/history-overlay.component';
 import { ShowAllToggleComponent } from './show-all-toggle/show-all-toggle.component';
+import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 
 /**
  * The navigation bar active in the main view
@@ -24,6 +25,7 @@ import { ShowAllToggleComponent } from './show-all-toggle/show-all-toggle.compon
         BreadcrumbsComponent,
         HistoryOverlayComponent,
         ShowAllToggleComponent,
+        ChainOverlayComponent,
     ]
 })
 export class NavBarComponent {

@@ -6,6 +6,7 @@ export type Column = {
     link?: boolean;
     groupLink?: boolean;
     taskLink?: boolean;
+    mixedLink?: boolean;
     trimGroup?: boolean;
 
     // Type

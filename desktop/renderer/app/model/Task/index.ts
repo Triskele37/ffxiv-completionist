@@ -22,6 +22,10 @@ export type Task = {
 
     fullStorageKey: string;
 
+    // meta
+    _note?: string;
+    _mixedType?: 'Group' | 'Task';
+
     //#endregion
 
     //#region--------------------------------- UI

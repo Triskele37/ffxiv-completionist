@@ -48,7 +48,6 @@ type TaskBase = {
 
 // The first task to start a chain
 export type ChainStart = TaskBase & {
-    historyDisabled: boolean;
     path: string;
 };
 

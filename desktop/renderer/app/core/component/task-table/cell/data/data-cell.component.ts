@@ -77,7 +77,18 @@ export class DataCellComponent implements OnChanges {
 
     //#region------------------------------------------------------- Update
     compileLinks(): void {
-        if(this.column.taskLink) {
+        if(this.column.mixedLink) {
+            if(this.task._mixedType === 'Task') {
+                this.links = [{ value: this.task, type: 'Task' }];
+            }
+            else if(this.task._mixedType === 'Group') {
+                this.links = [{
+                    value: this.task._parent.subGroups?.get(this.task.storageKey) ?? this.task._parent,
+                    type: 'Group'
+                }];
+            }
+        }
+        else if(this.column.taskLink) {
             this.links = [{ value: this.task, type: 'Task' }];
         }
         else if(this.column.groupLink) {

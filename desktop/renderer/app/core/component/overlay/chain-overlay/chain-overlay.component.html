@@ -30,16 +30,14 @@
                 <!-- Dropdown Content Body with Data -->
                 <span class="content">
                     <!-- Undo Button -->
-                    @if(!chainStart.historyDisabled) {
-                        <button
-                            data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.UNDO"
-                            pButton
-                            class="undo-button"
-                            (click)="onUndoLastChain()"
-                        >
-                            {{(!undoVerified() ? 'APP.CHAIN_OVERLAY.UNDO' : 'APP.CHAIN_OVERLAY.VERIFY') | translate}}
-                        </button>
-                    }
+                    <button
+                        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.UNDO"
+                        pButton
+                        class="undo-button"
+                        (click)="onUndoLastChain()"
+                    >
+                        {{(!undoVerified() ? 'APP.CHAIN_OVERLAY.UNDO' : 'APP.CHAIN_OVERLAY.VERIFY') | translate}}
+                    </button>
 
                     <!-- Recent Action Info -->
                     <span

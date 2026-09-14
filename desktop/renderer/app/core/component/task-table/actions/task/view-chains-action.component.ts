@@ -8,13 +8,21 @@ import { ChainViewerService } from '@component/chain-viewer/chain-viewer.service
 
 @Component({
     selector: 'com-view-chains-action',
-    templateUrl: './view-chains-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
         TranslatePipe,
         NgIcon,
         Tooltip,
-    ]
+    ],
+    template: `
+        <ng-icon
+            name="matRemoveRedEye"
+            class="action"
+            [pTooltip]="'APP.TABLE.ROW_ACTION.VIEW_CHAINS' | translate"
+            tooltipPosition="top"
+            (click)="onOpenChainViewer()"
+        ></ng-icon>
+    `
 })
 export class ViewChainsActionComponent {
     private svcChainViewer = inject(ChainViewerService);
@@ -24,5 +32,4 @@ export class ViewChainsActionComponent {
     onOpenChainViewer(): void {
         this.svcChainViewer.openChainViewer(this.task);
     }
-
 }

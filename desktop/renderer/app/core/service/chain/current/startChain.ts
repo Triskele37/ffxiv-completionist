@@ -12,7 +12,6 @@ export function startChain(
     this.history.addHistory();
 
     this.chainStart.set({
-        historyDisabled: this.history.historyDisabled ?? false,
         task,
         fromFlag,
         toFlag,

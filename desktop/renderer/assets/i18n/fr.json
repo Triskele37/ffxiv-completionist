@@ -268,14 +268,14 @@
                     "SUMMARY": "Numeric Completion Cell",
                     "DETAIL": "Enter a numeric completion value. Hover to see expected range. Right click to exclude. Changes are saved when you leave the field"
                 },
+                "GROUP_ACTIONS": {
+                    "SUMMARY": "Group Actions",
+                    "DETAIL": "Actions for the current group"
+                },
                 "ROW_ACTIONS": {
                     "SUMMARY": "Row Actions",
                     "DETAIL": "Open additional actions for the task"
                 }
-            },
-            "TABLE_ACTION_OVERLAY": {
-                "SUMMARY": "Table Action Overlay",
-                "DETAIL": "Actions for the current group"
             },
             "UPDATES": {
                 "SUMMARY": "Patch Notes",
@@ -529,7 +529,15 @@
             "SHOW_ALL": "Afficher les tâches",
             "HIDE_ALL": "Cacher les tâches",
             "VIEW_LINKS": "Afficher la totalité",
+            "NO_DATA": "No data to display",
             "CUSTOM_OPTION": "Enter custom filter value...",
+            "GROUP_ACTION": {
+                "TITLE": "Group Actions",
+                "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
+                "REM_BOOKMARK": "Enlever le marque-page à la catégorie",
+                "COPY_RAW_DATA": "Copier les lignes",
+                "COPY_RESOLVED_DATA": "Copier les lignes"
+            },
             "ROW_ACTION": {
                 "TITLE": "Commandes sur les lignes",
                 "BOOKMARK": "Ajouter un marque-page à la tâche",
@@ -541,13 +549,6 @@
                 "ESCAPE": "Gamer Escape",
                 "CONSOLE": "Console Games Wiki"
             }
-        },
-        "TABLE_OVERLAY": {
-            "TITLE": "Commandes sur le tableau",
-            "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
-            "REM_BOOKMARK": "Enlever le marque-page à la catégorie",
-            "COPY_RAW_DATA": "Copier les lignes",
-            "COPY_RESOLVED_DATA": "Copier les lignes"
         },
         "TOAST": {
             "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",

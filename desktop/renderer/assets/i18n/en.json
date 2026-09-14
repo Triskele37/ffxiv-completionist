@@ -268,14 +268,14 @@
                     "SUMMARY": "Numeric Completion Cell",
                     "DETAIL": "Enter a numeric completion value. Hover to see expected range. Right click to exclude. Changes are saved when you leave the field"
                 },
+                "GROUP_ACTIONS": {
+                    "SUMMARY": "Group Actions",
+                    "DETAIL": "Actions for the current group"
+                },
                 "ROW_ACTIONS": {
                     "SUMMARY": "Row Actions",
                     "DETAIL": "Open additional actions for the task"
                 }
-            },
-            "TABLE_ACTION_OVERLAY": {
-                "SUMMARY": "Table Action Overlay",
-                "DETAIL": "Actions for the current group"
             },
             "UPDATES": {
                 "SUMMARY": "Patch Notes",
@@ -529,7 +529,15 @@
             "SHOW_ALL": "Show All Tasks",
             "HIDE_ALL": "Hide All Tasks",
             "VIEW_LINKS": "View All",
+            "NO_DATA": "No data to display",
             "CUSTOM_OPTION": "Enter custom filter value...",
+            "GROUP_ACTION": {
+                "TITLE": "Group Actions",
+                "ADD_BOOKMARK": "Bookmark Group",
+                "REM_BOOKMARK": "Unbookmark Group",
+                "COPY_RAW_DATA": "Copy Raw Data",
+                "COPY_RESOLVED_DATA": "Copy Resolved Data"
+            },
             "ROW_ACTION": {
                 "TITLE": "Row Actions",
                 "BOOKMARK": "Bookmark Task",
@@ -541,13 +549,6 @@
                 "ESCAPE": "Gamer Escape",
                 "CONSOLE": "Console Games Wiki"
             }
-        },
-        "TABLE_OVERLAY": {
-            "TITLE": "Table Actions",
-            "ADD_BOOKMARK": "Bookmark Group",
-            "REM_BOOKMARK": "Unbookmark Group",
-            "COPY_RAW_DATA": "Copy Raw Data",
-            "COPY_RESOLVED_DATA": "Copy Resolved Data"
         },
         "TOAST": {
             "CONFIG_FAILED_SUMMARY": "Failed To Load Config",

@@ -2,7 +2,6 @@ import { signal } from '@angular/core';
 
 import type { ChainServiceContext } from '../types';
 import { addHistory } from './addHistory';
-import { setHistoryDisabled } from './setHistoryDisabled';
 import { setHistoryLimit } from './setHistoryLimit';
 import { undoCurrentChain } from './undoCurrentChain';
 import type { ChainHistoryFacetContext } from './_types';
@@ -18,7 +17,6 @@ export function createHistoryFacet(this: ChainServiceContext) {
     return {
         ...context,
         addHistory: addHistory.bind(this),
-        setHistoryDisabled: setHistoryDisabled.bind(this),
         setHistoryLimit: setHistoryLimit.bind(this),
         undoCurrentChain: undoCurrentChain.bind(this),
     };

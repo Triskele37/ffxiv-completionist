@@ -1,68 +1,52 @@
-import type { OnInit, OnDestroy } from '@angular/core';
 import { Component, Input, signal, inject } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
-import type { Subscription } from 'rxjs';
 
+import * as TaskActionComponent from '@component/task-table/actions/task';
+import { EditNoteActionComponent } from '@component/task-table/actions/common';
 import type { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { TableService } from '@service/table/table.service';
 
-import { BookmarkActionComponent } from './bookmark/bookmark-action.component';
-import { ConsoleGamesActionComponent } from './console-games/console-games-action.component';
-import { CopyIdActionComponent } from './copy-id/copy-id-action.component';
-import { DragActionComponent } from './drag/drag-action.component';
-import { EditNoteActionComponent } from './edit-note/edit-note-action.component';
-import { GamerEscapeActionComponent } from './gamer-escape/gamer-escape-action.component';
-import { GarlandActionComponent } from './garland/garland-action.component';
-import { ViewChainsActionComponent } from './view-chains/view-chains-action.component';
-
 @Component({
     selector: 'com-actions-cell',
     templateUrl: './actions-cell.component.html',
-    styleUrls: ['./actions-cell.component.scss', './action.scss'],
+    styleUrls: ['./actions-cell.component.scss', '../../actions/action.scss'],
     imports: [
         TranslatePipe,
         NgIcon,
         ButtonDirective,
         Tooltip,
 
-        BookmarkActionComponent,
-        ConsoleGamesActionComponent,
-        DragActionComponent,
+        TaskActionComponent.BookmarkActionComponent,
+        TaskActionComponent.ConsoleGamesActionComponent,
+        TaskActionComponent.DragActionComponent,
         EditNoteActionComponent,
-        GamerEscapeActionComponent,
-        GarlandActionComponent,
-        ViewChainsActionComponent,
-        CopyIdActionComponent
+        TaskActionComponent.GamerEscapeActionComponent,
+        TaskActionComponent.GarlandActionComponent,
+        TaskActionComponent.ViewChainsActionComponent,
+        TaskActionComponent.CopyIdActionComponent
     ]
 })
-export class ActionsCellComponent implements OnInit, OnDestroy {
+export class ActionsCellComponent {
     private svcConfigStore = inject(ConfigStoreService);
     svcTable = inject(TableService);
 
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
 
-    private storeSub: Subscription | undefined;
-
     showCopyId = signal(false);
     expanded = signal(false);
 
     constructor() {
         this.showCopyId.set(this.svcConfigStore.data?.isAdmin ?? false);
-    }
 
-    ngOnInit() {
-        this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
-            this.showCopyId.set(!!data.isAdmin);
-        });
-    }
-
-    ngOnDestroy() {
-        this.storeSub?.unsubscribe();
+        this.svcConfigStore.updated$
+            .pipe(takeUntilDestroyed())
+            .subscribe((data) => this.showCopyId.set(!!data.isAdmin));
     }
 
     onDialClick(): void {
@@ -72,5 +56,4 @@ export class ActionsCellComponent implements OnInit, OnDestroy {
     onCloseActions(): void {
         this.expanded.set(false);
     }
-
 }

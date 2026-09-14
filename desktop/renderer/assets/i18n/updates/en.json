@@ -108,7 +108,7 @@
                 "Ability reset sort order",
                 "Summary statistics in Patch View",
                 "Several new theme presets",
-                "Editable task notes",
+                "Editable group and task notes",
                 "Keybound Completionist minigame"
             ],
             "CHANGE": [
@@ -119,7 +119,9 @@
                 "Column filters now persist per group when changing groups",
                 "Patch Notes now distinguish between app and game data",
                 "Non-data groups are now included in navigation history",
-                "Theme color pickers now take hex codes"
+                "Theme color pickers now take hex codes",
+                "Moved chain overlay to nav bar",
+                "Moved group actions to table header"
             ],
             "FIX": [
                 "Bookmarks with same name not all showing",

@@ -1,4 +1,9 @@
-<tr class="task-table-header">
+<tr
+    class="task-table-header"
+    [pTooltip]="note()"
+    tooltipPosition="top"
+    [ngClass]="{ 'has-note': !!note() }"
+>
     <!-- Flag Header -->
     @if(!svcTable.group().disableCompletion) {
         <th
@@ -39,6 +44,5 @@
     }
 
     <!-- Row Action Header -->
-    <!-- TODO: Move Table Actions Here -->
-    <th class="row-action"></th>
+    <com-actions-group></com-actions-group>
 </tr>

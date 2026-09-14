@@ -1,6 +1,7 @@
 import type { OnChanges, SimpleChanges, TemplateRef } from '@angular/core';
 import { Component, Input, ViewChild, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { TranslatePipe } from '@ngx-translate/core';
 import type { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
@@ -19,6 +20,7 @@ import { GroupRowComponent } from './row/group/group-row.component';
     templateUrl: 'task-table.component.html',
     styleUrls: ['./task-table.component.scss'],
     imports: [
+        TranslatePipe,
         Table,
 
         TaskTableToolbarComponent,

@@ -6,26 +6,29 @@ import type { Task } from '@model/Task';
 import { ElectronService } from '@service/electron/electron.service';
 
 @Component({
-    selector: 'com-console-games-action',
-    templateUrl: './console-games-action.component.html',
-    styleUrls: [
-        './console-games-action.component.scss',
-        '../action.scss'
-    ],
+    selector: 'com-garland-action',
+    styleUrls: ['../action.scss'],
     imports: [
         Tooltip,
         TranslatePipe
     ],
+    template: `
+        <div
+            class="action icon garland-icon"
+            tooltipPosition="top"
+            [pTooltip]="'APP.TABLE.ROW_ACTION.GARLAND' | translate"
+            (click)="searchGarlandTools()"
+        ></div>
+    `
 })
-export class ConsoleGamesActionComponent {
+export class GarlandActionComponent {
     private svcElectron = inject(ElectronService);
 
     @Input({ required: true }) task!: Task;
     @Output() clicked = new EventEmitter<void>();
 
-    searchConsoleGamesWiki(): void {
-        this.svcElectron.searchConsoleGames(this.task.name);
+    searchGarlandTools(): void {
+        this.svcElectron.searchGarlandTools(this.task.name);
         this.clicked.emit();
     }
-
 }

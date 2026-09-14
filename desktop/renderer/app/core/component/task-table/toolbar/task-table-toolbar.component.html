@@ -15,15 +15,6 @@
                 [group]="svcTable.group()"
                 [tasks]="svcTable.tasks()"
             ></com-selection-overlay>
-
-            <com-chain-overlay
-                [disableUndo]="svcTable.group().type === 'Custom'"
-            ></com-chain-overlay>
-
-            <com-table-action-overlay
-                [group]="svcTable.group()"
-                [tasks]="svcTable.tasks()"
-            ></com-table-action-overlay>
         }
 
         @if(svcTable.group().type === 'Custom') {

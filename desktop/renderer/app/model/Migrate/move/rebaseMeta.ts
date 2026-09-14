@@ -31,9 +31,9 @@ export function rebaseGroupMeta(
     if(save['bookmarked-groups']) {
         for(let i = 0; i < save['bookmarked-groups'].length; i++) {
             const bookmark = save['bookmarked-groups'][i];
+
             if(isOrIsChildOf(bookmark, oldGroupPath)) {
-                save['bookmarked-groups'][i] = save['bookmarked-groups'][i]
-                    .replace(oldGroupPath, newGroupPath);
+                save['bookmarked-groups'][i] = bookmark.replace(oldGroupPath, newGroupPath);
             }
         }
     }
@@ -42,9 +42,9 @@ export function rebaseGroupMeta(
     if(save['bookmarked-tasks']) {
         for(let i = 0; i < save['bookmarked-tasks'].length; i++) {
             const bookmark = save['bookmarked-tasks'][i];
+
             if(isOrIsChildOf(bookmark, oldGroupPath)) {
-                save['bookmarked-tasks'][i] = save['bookmarked-tasks'][i]
-                    .replace(oldGroupPath, newGroupPath);
+                save['bookmarked-tasks'][i] = bookmark.replace(oldGroupPath, newGroupPath);
             }
         }
     }

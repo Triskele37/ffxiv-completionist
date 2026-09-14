@@ -6,12 +6,20 @@ import type { Task } from '@model/Task';
 
 @Component({
     selector: 'com-copy-id-action',
-    templateUrl: './copy-id-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
         NgIcon,
         Tooltip,
-    ]
+    ],
+    template: `
+        <ng-icon
+            name="matContentCopy"
+            class="action"
+            pTooltip="Copy ID"
+            tooltipPosition="top"
+            (click)="copyTaskId()"
+        ></ng-icon>
+    `
 })
 export class CopyIdActionComponent {
     @Input({ required: true }) task!: Task;

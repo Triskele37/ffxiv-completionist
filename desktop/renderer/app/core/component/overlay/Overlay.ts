@@ -8,7 +8,7 @@ export class Overlay implements OnDestroy {
     isOverlayVisible = signal(false);
     isOverlayLocked = signal(false);
 
-    overlayButtonClass: string = 'p-button-outlined';
+    overlayButtonClass: string = '';
 
     ngOnDestroy(): void {
         // Safety net for static lock value
@@ -56,7 +56,7 @@ export class Overlay implements OnDestroy {
         this.isOverlayLocked.set(locked);
         Overlay.anyOverlayLocked = locked;
 
-        this.overlayButtonClass = locked ? '' : 'p-button-outlined'
+        this.overlayButtonClass = locked ? 'p-button-outlined' : ''
     }
 
     //#endregion

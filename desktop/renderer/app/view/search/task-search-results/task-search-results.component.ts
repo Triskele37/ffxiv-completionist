@@ -8,7 +8,6 @@ import { ButtonGroup } from 'primeng/buttongroup';
 import { RowGroupHeader, RowToggler, Table } from 'primeng/table';
 import type { Subscription } from 'rxjs';
 
-import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -30,7 +29,6 @@ import type { ExpandedRows } from '@service/table/rowGroup/_types';
         RowGroupHeader,
         RowToggler,
 
-        ChainOverlayComponent,
         ContentLinkComponent,
         CompleteCellComponent
     ],

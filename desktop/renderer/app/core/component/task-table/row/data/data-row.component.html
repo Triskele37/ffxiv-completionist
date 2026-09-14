@@ -6,9 +6,9 @@
     [ngClass]="{
         selected: task.selected(),
         'even-row': !svcTable.rowGroup.groupRows && rowIndex % 2 === 0,
-        'has-note': !!note
+        'has-note': !!note()
     }"
-    [pTooltip]="note"
+    [pTooltip]="note()"
     tooltipPosition="top"
     (click)="onClick($event)"
     (mousedown)="onRowMouseDown($event)"

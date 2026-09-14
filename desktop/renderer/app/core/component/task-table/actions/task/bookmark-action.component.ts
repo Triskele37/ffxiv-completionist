@@ -9,13 +9,25 @@ import { BookmarkService } from '@service/bookmark/bookmark.service';
 
 @Component({
     selector: 'com-bookmark-action',
-    templateUrl: './bookmark-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
         TranslatePipe,
         NgIcon,
         Tooltip
     ],
+    template: `
+        @let tKey = isBookmarked()
+            ? 'APP.TABLE.ROW_ACTION.UNBOOKMARK'
+            : 'APP.TABLE.ROW_ACTION.BOOKMARK';
+
+        <ng-icon
+            [name]="isBookmarked() ? 'matBookmarkRemove' : 'matBookmarkAdd'"
+            class="action"
+            [pTooltip]="tKey | translate"
+            tooltipPosition="top"
+            (click)="toggleBookmark()"
+        ></ng-icon>
+    `
 })
 export class BookmarkActionComponent implements OnChanges {
     private svcBookmark = inject(BookmarkService);

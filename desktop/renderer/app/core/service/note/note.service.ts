@@ -1,13 +1,15 @@
 import { Injectable, inject } from '@angular/core';
 import { Subject } from 'rxjs';
 
-import { DataService } from '@service/data/data-service';
 import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
 import type { Task } from '@model/Task';
+import { DataService } from '@service/data/data-service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 const NOTE_KEY = '_note';
+
+type Notable = DataGroup | Task;
 
 /**
  * Handles Task notes
@@ -48,11 +50,14 @@ export class NoteService {
             // Remove 'Overall' step
             const path = k.replace(/^overall./, '');
 
-            // Add the task to this group
-            const task = this.svcData.get.getTask(path);
-            if(task) {
-                const note = this.getNote(task);
+            // Add the notable to this group
+            const notable = this.svcData.get.getChild(this.svcData.data, path);
+            if(notable) {
+                const note = this.getNote(notable);
+
                 if(note) {
+                    const task = notable.dataType === 'Group' ? this.createNoteTask(notable) : notable;
+                    task._mixedType = notable.dataType;
                     task[NOTE_KEY] = note;
                     this.group.tasks.push(task);
                 }
@@ -66,12 +71,34 @@ export class NoteService {
         }
     }
 
-    getNote(task: Task): string | undefined {
-        const notes = this.svcSave.get('notes');
-        return notes[task.fullStorageKey];
+    private createNoteTask(group: DataGroup) {
+        return this.svcData.task.createTask({
+            id: group._key,
+            name: group.name,
+            contentLink: group.contentLink,
+        }, group._parent!);
     }
 
-    editNote(task: Task, note: string | undefined): void {
+    getNote(notable: Notable | undefined): string | undefined {
+        if(!notable) return;
+        const notes = this.svcSave.get('notes');
+        return notes[notable.fullStorageKey];
+    }
+
+    getNoteTask(notable: Notable | undefined): Task | undefined {
+        if(!notable) return;
+
+        for(const task of this.group.tasks) {
+            if(task.fullStorageKey === notable.fullStorageKey) return task;
+        }
+    }
+
+    editNote(notable: Notable | undefined, note: string | undefined): void {
+        if(!notable) return;
+
+        const task = this.getNoteTask(notable) ?? (
+            notable.dataType === 'Group' ? this.createNoteTask(notable) : notable
+        );
         if(task[NOTE_KEY] === note) return;
 
         if(note) this.saveNote(task, note);

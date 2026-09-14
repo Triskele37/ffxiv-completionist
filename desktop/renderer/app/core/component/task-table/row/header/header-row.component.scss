@@ -5,6 +5,10 @@
         .column-name {
             text-align: center;
             overflow: hidden;
+
+            &:hover {
+                background: unset;
+            }
         }
 
         .column-filter {
@@ -12,6 +16,10 @@
 
         .row-action {
             width: 40px;
+        }
+
+        &.has-note ::ng-deep >:nth-child(2) {
+            box-shadow: inset 15px 0 10px -10px var(--primary-color);
         }
 
         th {

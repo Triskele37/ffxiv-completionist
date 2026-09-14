@@ -8,7 +8,6 @@ export function addHistory(
     if(
         this.svcConfig.get('chain-history-limit') > this.history.history().length && // Chain limit won't be exceeded
         chainStart !== null && // chainStart exists
-        !chainStart?.historyDisabled && // Initial task didn't disable history
         this.chainedTaskCount() // There are tasks chained
     ) {
         this.history.history.update((history) => {

@@ -20,8 +20,13 @@
     }
 
     // Consistent and smaller button size
-    ::ng-deep .p-button {
-        height: 100%;
-        width: 34px;
+    ::ng-deep .p-buttongroup {
+        > .p-button,
+        > :not(.p-button) > .p-button,
+        > :not(.p-button) > :not(.p-button) > .p-button
+        {
+            height: 100%;
+            width: 34px;
+        }
     }
 }

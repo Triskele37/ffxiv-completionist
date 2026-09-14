@@ -1,5 +1,4 @@
-import type { OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
-import { Component, Input, signal, effect, inject } from '@angular/core';
+import { Component, signal, effect, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -34,12 +33,10 @@ import { Overlay } from '../Overlay';
         Tooltip
     ]
 })
-export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestroy {
+export class ChainOverlayComponent extends Overlay {
     private svcData = inject(DataService);
     private svcNavigation = inject(NavigationService);
     svcChain = inject(ChainService);
-
-    @Input() disableUndo?: boolean;
 
     undoVerified = signal(false);
     doNotify = signal(false);
@@ -59,17 +56,6 @@ export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestr
             this.undoVerified.set(false);
         });
     }
-
-    //#region------------------------------------------------------- Life-cycle
-    ngOnChanges(changes: SimpleChanges<ChainOverlayComponent>): void {
-        this.svcChain.history.setHistoryDisabled(!!changes.disableUndo?.currentValue);
-    }
-
-    ngOnDestroy(): void {
-        this.svcChain.history.setHistoryDisabled(false);
-    }
-
-    //#endregion
 
     //#region------------------------------------------------------- Template Actions
     onMouseEnter(): void {
@@ -100,9 +86,6 @@ export class ChainOverlayComponent extends Overlay implements OnChanges, OnDestr
         // Fire undo and apply changes to save
         this.svcChain.history.undoCurrentChain();
         this.svcData.apply.dataToStore();
-
-        // Make sure the overlay doesn't stick open
-        if(!this.isOverlayLocked()) this.hide();
     }
 
     //#endregion

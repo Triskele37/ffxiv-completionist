@@ -10,7 +10,6 @@ import { Select } from 'primeng/select';
 import { Tooltip } from 'primeng/tooltip';
 
 import { Completion, Lang } from '@constant';
-import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import type { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
@@ -36,8 +35,6 @@ type ShortLong = {
         Select,
         Tooltip,
         TranslatePipe,
-
-        ChainOverlayComponent
     ],
     styleUrls: ['./character-settings.component.scss']
 })

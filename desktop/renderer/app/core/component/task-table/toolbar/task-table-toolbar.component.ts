@@ -5,12 +5,10 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonGroup } from 'primeng/buttongroup';
 import { Tooltip } from 'primeng/tooltip';
 
-import { ChainOverlayComponent } from '@component/overlay/chain-overlay/chain-overlay.component';
 import { CustomContentOverlayComponent } from '@component/overlay/custom-content-overlay/custom-content-overlay.component';
 import { MergeOverlayComponent } from '@component/overlay/merge-overlay/merge-overlay.component';
 import { QuickMarkOverlayComponent } from '@component/overlay/quick-mark-overlay/quick-mark-overlay.component';
 import { SelectionOverlayComponent } from '@component/overlay/selection-overlay/selection-overlay.component';
-import { TableActionOverlayComponent } from '@component/overlay/table-action-overlay/table-action-overlay.component';
 import { TableService } from '@service/table/table.service';
 
 @Component({
@@ -23,12 +21,10 @@ import { TableService } from '@service/table/table.service';
         Tooltip,
         TranslatePipe,
 
-        ChainOverlayComponent,
         CustomContentOverlayComponent,
         MergeOverlayComponent,
         QuickMarkOverlayComponent,
         SelectionOverlayComponent,
-        TableActionOverlayComponent,
     ]
 })
 export class TaskTableToolbarComponent {

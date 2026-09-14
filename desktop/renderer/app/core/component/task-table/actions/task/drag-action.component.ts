@@ -6,7 +6,6 @@ import { Tooltip } from 'primeng/tooltip';
 
 @Component({
     selector: 'com-drag-action',
-    templateUrl: './drag-action.component.html',
     styleUrls: ['../action.scss'],
     imports: [
         TranslatePipe,
@@ -14,6 +13,15 @@ import { Tooltip } from 'primeng/tooltip';
         Tooltip,
         ReorderableRowHandle
     ],
+    template: `
+        <ng-icon
+            pReorderableRowHandle
+            name="matDragHandle"
+            class="action"
+            tooltipPosition="top"
+            [pTooltip]="'APP.TABLE.ROW_ACTION.REORDER' | translate"
+        ></ng-icon>
+    `
 })
 export class DragActionComponent {
     @Input({ required: true }) rowIndex!: number;

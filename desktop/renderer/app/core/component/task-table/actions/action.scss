@@ -1,0 +1,83 @@
+@use './sizes';
+
+$outer-button-size: 26px;
+$inner-button-size: 25px;
+
+.actions-cell {
+    vertical-align: middle;
+    width: 45px;
+
+    // Prevent content from affecting row heights
+    .content-container {
+        max-height: sizes.$table-row-height;
+    }
+
+    .action-dial {
+        margin: calc(((#{sizes.$table-row-height} - $outer-button-size) / 2) - 1px);
+        padding: 0;
+
+        .p-button, ng-icon {
+            height: $outer-button-size;
+            width: $outer-button-size;
+        }
+    }
+}
+
+.action {
+    background-color: var(--surface-500);
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+    border-radius: 50%;
+
+    // Size & Spacing
+    height: $inner-button-size;
+    width: $inner-button-size;
+    font-size: $inner-button-size - 5px;
+    margin: 0 5px;
+
+    // Center non-icon actions
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 5px 3px var(--primary-color);
+    }
+}
+
+.actions-container {
+    position: absolute;
+    right: 4px;
+    margin-top: -32px;
+    z-index: 1;
+    cursor: default;
+
+    .actions {
+        display: flex;
+
+        > * {
+            position: relative;
+
+            &:not(:last-child):after {
+                content: "";
+                background: var(--surface-500);
+                border: 1px solid var(--primary-color);
+
+                width: 35px;
+                height: $inner-button-size - 1px;
+
+                top: 0;
+                left: calc(35px / 2);
+                position: absolute;
+                z-index: -1;
+            }
+        }
+
+        .close-dial {
+            background: var(--surface-500);
+            color: var(--text-color);
+        }
+    }
+}
