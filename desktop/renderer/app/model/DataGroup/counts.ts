@@ -20,7 +20,7 @@ function countGroup(
     }
 
     let count: number = 0;
-    group.tasks?.forEach((task) => count += countTask(task));
+    group.tasks?.forEach((task) => count += !task.disableCompletion ? countTask(task) : 0);
     group.subGroups?.forEach((g) => count += countGroup(g, countTask, forceCount));
     return count;
 }

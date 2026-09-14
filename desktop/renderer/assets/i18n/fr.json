@@ -261,12 +261,16 @@
                     "DETAIL": "Shows information on the row's task. Click to select"
                 },
                 "FLAG_COMPLETION_CELL": {
-                    "SUMMARY": "Standard Completion Cell",
+                    "SUMMARY": "Flag Completion Cell",
                     "DETAIL": "Left-click to toggle the task's completion. Right-click to exclude. Changes are saved immediately"
                 },
                 "NUMERIC_COMPLETION_CELL": {
                     "SUMMARY": "Numeric Completion Cell",
                     "DETAIL": "Enter a numeric completion value. Hover to see expected range. Right click to exclude. Changes are saved when you leave the field"
+                },
+                "STANDARD_COMPLETION_CELL": {
+                    "SUMMARY": "Standard Completion Cell",
+                    "DETAIL": "Task is immediately available. Cannot be changed"
                 },
                 "GROUP_ACTIONS": {
                     "SUMMARY": "Group Actions",

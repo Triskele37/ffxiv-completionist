@@ -1001,20 +1001,20 @@
             "name_fr": "S'asseoir",
             "command_en": "/lounge, /sit, /sit, /lounge",
             "command_fr": "/lounge, /sit, /asseoir, /lounge",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x52": {
             "name_en": "Sit on Ground",
             "name_fr": "S'asseoir par terre",
             "command_en": "/groundsit",
             "command_fr": "/groundsit, /asseoirparterre",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         }
     }
 }

@@ -97,7 +97,7 @@
                         { "type": "number" }
                     ]
                 },
-
+                "disableCompletion": { "type": "boolean" },
                 "isNumericCompletion": { "type": "boolean" },
                 "minValue": { "type": "number" },
                 "maxValue": { "type": "number" },

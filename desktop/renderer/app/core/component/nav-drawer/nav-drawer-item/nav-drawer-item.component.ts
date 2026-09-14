@@ -77,7 +77,7 @@ export class NavDrawerItemComponent implements OnChanges {
         observable
             .pipe(takeUntilDestroyed())
             .subscribe(() => {
-                if(!must) return;
+                if(must && !must()) return;
                 this.updateGroupProperties();
                 this.cdr.markForCheck();
             });

@@ -1,11 +1,20 @@
-@if(task.isNumericCompletion) {
-    <com-numeric-complete-cell
-        [task]="task"
-        [rowSpan]="rowSpan"
-    ></com-numeric-complete-cell>
-} @else {
-    <com-flag-complete-cell
-        [task]="task"
-        [rowSpan]="rowSpan"
-    ></com-flag-complete-cell>
+@if(!task.disableCompletion) {
+    @if(task.isNumericCompletion) {
+        <com-numeric-complete-cell
+            [task]="task"
+            [rowSpan]="rowSpan"
+        ></com-numeric-complete-cell>
+    }
+    @else {
+        <com-flag-complete-cell
+            [task]="task"
+            [rowSpan]="rowSpan"
+        ></com-flag-complete-cell>
+    }
+}
+@else {
+    <td
+        data-active-help="APP.ACTIVE_HELP.TABLE.STANDARD_COMPLETION_CELL"
+        class="standard-completion"
+    ></td>
 }

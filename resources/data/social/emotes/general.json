@@ -28,10 +28,10 @@
             "name_fr": "Saluer",
             "command_en": "/salute",
             "command_fr": "/salute, /saluer",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x59": {
             "name_en": "Imperial Salute",
@@ -78,40 +78,40 @@
             "name_fr": "Stimuler",
             "command_en": "/rally",
             "command_fr": "/rally, /stimuler",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x9": {
             "name_en": "Comfort",
             "name_fr": "Consoler",
             "command_en": "/comfort",
             "command_fr": "/comfort, /consoler",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x30": {
             "name_en": "Psych",
             "name_fr": "Se motiver",
             "command_en": "/psych",
             "command_fr": "/psych, /motivation, /moral",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x58": {
             "name_en": "Pray",
             "name_fr": "Prier",
             "command_en": "/pray",
             "command_fr": "/pray, /prier",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x263": {
             "name_en": "Hand to Heart",
@@ -608,40 +608,40 @@
             "name_fr": "Somnoler",
             "command_en": "/doze",
             "command_fr": "/doze, /somnoler",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x27": {
             "name_en": "Point",
             "name_fr": "Montrer",
             "command_en": "/point",
             "command_fr": "/point, /montrer",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x22": {
             "name_en": "Lookout",
             "name_fr": "Scruter",
             "command_en": "/lookout",
             "command_fr": "/lookout, /scruter",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x23": {
             "name_en": "Me",
             "name_fr": "Moi",
             "command_en": "/me",
             "command_fr": "/me, /moi",
-            "category": "",
+            "category": "@CATEGORY.STANDARD",
             "source": "@SOURCE.STANDARD",
             "patch": "2.0",
-            "defaultCompletion": "Y"
+            "disableCompletion": true
         },
         "x123": {
             "name_en": "Backflip",
