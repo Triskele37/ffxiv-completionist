@@ -31,11 +31,11 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
     autoplayIndex = 0;
     autoplayStart = 0;
     autoplayTimeouts: AutoPlay[] = [
-        { name: 'Beginner', timeout: 400 },
-        { name: 'Average', timeout: 250 },
-        { name: 'Pro', timeout: 170 },
-        { name: 'Advanced', timeout: 120 },
-        { name: 'Elite', timeout: 80 },
+        // { name: 'Beginner', timeout: 400 },
+        // { name: 'Average', timeout: 250 },
+        // { name: 'Pro', timeout: 170 },
+        // { name: 'Advanced', timeout: 120 },
+        // { name: 'Elite', timeout: 80 },
         // { name: 'Meme', timeout: 1, override: 2 }
     ];
 
@@ -134,9 +134,11 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
         this.stopTicks();
 
         if(this.autoplayTimeouts.length) {
-            console.log('-----------', this.autoplayTimeouts[this.autoplayIndex].name);
-            console.log('Played for:', Date.now() - this.autoplayStart);
-            this.game.logStatistics();
+            console.log([
+                `----------- ${this.autoplayTimeouts[this.autoplayIndex].name}`,
+                `Played for: ${(Date.now() - this.autoplayStart) * this.gameSpeed}`,
+                ...this.game.getStatisticsLog()
+            ].join('\n'));
 
             this.autoplayIndex++;
             const nextAutoplay = this.autoplayTimeouts[this.autoplayIndex];
@@ -172,9 +174,11 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
             if(this.game.state === 'paused') return;
 
-            if(this.game.activeWords().length >= 6 && this.game.bombs().length) {
-                this.useBomb();
-                return;
+            for(const word of this.game.activeWords()) {
+                if(word.y > this.playAreaHeight - 100 && this.game.bombs().length) {
+                    this.useBomb();
+                    return;
+                }
             }
 
             for(const letter of this.game.activeWords()[0]?.letters ?? []) {
@@ -195,6 +199,8 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
     minWordSpeed: number = 1000 / this.gameSpeed;
     baseWordSpeed: number = 3000 / this.gameSpeed;
+    wordSpeedRamp: number = 20 / this.gameSpeed;
+    wordCc: number = 1000 / this.gameSpeed;
 
     msBeforeBottom: number = 15000 / this.gameSpeed;
     ticksBeforeBottom: number = this.msBeforeBottom / this.tickSpeed;
@@ -223,7 +229,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
                     updatedWords.splice(i, 1);
                     i--;
                 }
-                else if(this.game.targetWord !== word || (Date.now() - this.lastTypedTime) > 1000) {
+                else if(this.game.targetWord !== word || (Date.now() - this.lastTypedTime) > this.wordCc) {
                     word.y += this.playAreaHeight / this.ticksBeforeBottom;
                 }
             }
@@ -239,7 +245,10 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
     }
 
     getNextWordTick(currentTick: number, word: Word | undefined): number {
-        const millis = Math.max(this.minWordSpeed, this.baseWordSpeed - (this.game.wordsTyped * 20));
+        const millis = Math.max(
+            this.minWordSpeed,
+            this.baseWordSpeed - (this.game.wordsTyped * this.wordSpeedRamp)
+        );
         const ticks = Math.round(millis / this.tickSpeed);
         const offset = word ? this.getWordDifficulty(word).index * 2 : 0;
         return currentTick + ticks + offset;
@@ -426,7 +435,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
     getHeightMult(word: Word): number {
         const factor = (this.playAreaHeight - word.y) / this.playAreaHeight;
-        return Math.max(0.1, factor * this.heightScoreFactor);
+        return Math.max(0.5, factor * this.heightScoreFactor);
     }
 
     getStreakMult(): number {

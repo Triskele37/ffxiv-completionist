@@ -145,16 +145,15 @@ export class TypingMinigameService {
         }
     }
 
-    logStatistics(): void {
-        console.log('Score:', this.score());
-        console.log('Streak:', this.highestStreak);
-        console.log('Bombs:', this.bombsUsed);
-        console.log('Letters:', this.lettersTyped);
-        console.log('Words:', this.wordsTyped);
-
-        for(const difficulty of this.difficulties) {
-            console.log(`${difficulty.stars}:`, difficulty.wordsTypes);
-        }
+    getStatisticsLog(): string[] {
+        return [
+            `Score: ${this.score()}`,
+            `Streak: ${this.highestStreak}`,
+            `Bombs: ${this.bombsUsed}`,
+            `Letters: ${this.lettersTyped}`,
+            `Words: ${this.wordsTyped}`,
+            ...this.difficulties.map((d) => `${d.stars}: ${d.wordsTypes}`)
+        ];
     }
 
     //#endregion
