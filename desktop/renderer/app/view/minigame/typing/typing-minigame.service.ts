@@ -65,6 +65,7 @@ export class TypingMinigameService {
     ];
 
     private initDifficulties(): void {
+        // Find start/end indexes in `words` for each difficulty
         for(let i = 0; i < this.words.length; i++) {
             const wordL = this.words[i].length;
 

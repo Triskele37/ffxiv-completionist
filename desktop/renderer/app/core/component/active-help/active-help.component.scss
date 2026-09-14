@@ -2,8 +2,8 @@
 
 .active-help-overlay {
     position: fixed;
-    bottom: sizes.$version-height + 10px;
-    left: 0;
+    bottom: var(--content-padding);
+    left: calc(#{sizes.$nav-drawer-width} + var(--content-padding));
 
     min-height: 100px;
     min-width: sizes.$nav-drawer-width - 10px;

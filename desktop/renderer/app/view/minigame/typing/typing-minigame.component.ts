@@ -30,7 +30,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
     autoplayIndex = 0;
     autoplayStart = 0;
-    autoplayTimeouts: AutoPlay[] = [
+    autoplays: AutoPlay[] = [
         // { name: 'Beginner', timeout: 400 },
         // { name: 'Average', timeout: 250 },
         // { name: 'Pro', timeout: 170 },
@@ -40,8 +40,8 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
     ];
 
     ngAfterViewInit() {
-        if(this.autoplayTimeouts.length) {
-            this.autoplayGame(this.autoplayTimeouts[0]);
+        if(this.autoplays.length) {
+            this.autoplayGame(this.autoplays[0]);
         }
     }
 
@@ -53,6 +53,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
     @HostListener('window:keydown', ['$event'])
     onWindowKeydown($event: KeyboardEvent): void {
+        if(!$event.isTrusted) return;
         if(this.game.state !== 'running') return;
 
         $event.preventDefault();
@@ -60,6 +61,9 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
         if($event.key === 'Enter') {
             this.game.targetWord = null;
+        }
+        else if($event.key === 'Escape') {
+            this.togglePauseGame();
         }
         else if($event.key === 'Tab' && this.game.bombs().length > 0) {
             this.useBomb();
@@ -133,15 +137,15 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
         this.game.targetWord = null;
         this.stopTicks();
 
-        if(this.autoplayTimeouts.length) {
+        if(this.autoplays.length) {
             console.log([
-                `----------- ${this.autoplayTimeouts[this.autoplayIndex].name}`,
+                `----------- ${this.autoplays[this.autoplayIndex].name}`,
                 `Played for: ${(Date.now() - this.autoplayStart) * this.gameSpeed}`,
                 ...this.game.getStatisticsLog()
             ].join('\n'));
 
             this.autoplayIndex++;
-            const nextAutoplay = this.autoplayTimeouts[this.autoplayIndex];
+            const nextAutoplay = this.autoplays[this.autoplayIndex];
             if(nextAutoplay) {
                 setTimeout(() => this.autoplayGame(nextAutoplay), 1000);
             }
@@ -343,19 +347,35 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
 
     setTargetWord(typedLetter: string): void {
         this.game.targetWord = this.game.activeWords().find((word) => {
-            for(const letter of word.letters) {
+            for(let i = 0; i < word.letters.length; i++) {
+                const letter = word.letters[i];
                 if(letter.hit) continue;
-                if(letter.char === typedLetter) return true;
-                if(letter.char.toLowerCase() === typedLetter.toLowerCase()) return true;
+
+                if(matches(letter.char, typedLetter)) return true;
+
+                if(letter.char === ' ') {
+                    if(matches(word.letters[i + 1].char, typedLetter)) return true;
+                }
+
                 break;
             }
         }) ?? null;
+
+        function matches(a: string, b: string) {
+            if(a === b) return true;
+            return a.toLowerCase() === b.toLowerCase();
+        }
     }
 
     finishLetter(word: Word, letter: Letter, typedLetter: string): number {
+        // Check for match
         const caseMatch = letter.char === typedLetter;
         const match = letter.char.toLowerCase() === typedLetter.toLowerCase();
         if(!caseMatch && !match) return 0;
+
+        // mark all previous letters complete
+        const stop = word.letters.findIndex((l) => l === letter);
+        for(let i = 0; i < stop; i++) word.letters[i].hit = true;
 
         letter.hit = true;
         this.game.lettersTyped++;
@@ -366,7 +386,7 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
         const wordFinished = word.letters
             .filter((l) => l.char !== ' ')
             .every((l) => l.hit);
-        
+
         if(!wordFinished) return 0;
 
         this.getWordDifficulty(word).wordsTypes++;

@@ -73,6 +73,7 @@ $z-ui: 101;
         padding: var(--content-padding);
         border: 1px solid var(--primary-color);
         border-radius: var(--border-radius);
+        box-shadow: 0 0 5px var(--primary-color);
     }
 
     .statistics-container {
