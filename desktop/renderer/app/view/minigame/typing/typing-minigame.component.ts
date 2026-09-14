@@ -318,10 +318,12 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
                 const wordScore = this.finishWord(this.game.targetWord!);
 
                 if(letterScore || wordScore) {
+                    // Knockback word
                     this.game.targetWord!.y = Math.max(
                         0,
                         this.game.targetWord!.y - (this.playAreaHeight / this.ticksBeforeBottom)
                     );
+
                     this.game.score.update((s) => s + letterScore + wordScore);
                 }
 
@@ -361,7 +363,10 @@ export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
     }
 
     finishWord(word: Word): number {
-        const wordFinished = word.letters.every((l) => l.hit);
+        const wordFinished = word.letters
+            .filter((l) => l.char !== ' ')
+            .every((l) => l.hit);
+        
         if(!wordFinished) return 0;
 
         this.getWordDifficulty(word).wordsTypes++;
