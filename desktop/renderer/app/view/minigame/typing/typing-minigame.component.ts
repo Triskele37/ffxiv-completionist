@@ -1,17 +1,17 @@
-import { Component, ElementRef, HostListener, inject, signal } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, inject, OnDestroy, ViewChild } from '@angular/core';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
+import { ButtonGroup } from 'primeng/buttongroup';
 
-import { DataGroup } from '@model/DataGroup';
-import { DataService } from '@service/data/data-service';
-
-import { Difficulty, Letter, Word } from './types';
-
-const NameRegex = /^[a-zA-Z0-9 ,.'!?:+\-/]*$/;
-// const NameRegex = /^[\x20-\x7E]*$/;
+import { Difficulty } from './Difficulty';
+import { Letter, Word } from './types';
+import { TypingMinigameService } from './typing-minigame.service';
+import { NgClass } from '@angular/common';
 
 const MIN_BOMB = 3; // index of min difficulty for bombs
+
+type AutoPlay = { name: string; timeout: number; override?: number; };
 
 @Component({
     selector: 'com-typing-minigame',
@@ -21,109 +21,96 @@ const MIN_BOMB = 3; // index of min difficulty for bombs
         NgIcon,
         TranslatePipe,
         ButtonDirective,
+        ButtonGroup,
+        NgClass,
     ]
 })
-export class TypingMinigameComponent {
-    private svcData = inject(DataService);
-    private elementRef = inject(ElementRef);
+export class TypingMinigameComponent implements AfterViewInit, OnDestroy {
+    game = inject(TypingMinigameService);
 
-    gameRunning: boolean = false;
-    words: string[] = [];
-    activeWords = signal<Word[]>([]);
-
-    // Tick Config
-    tick = signal(0);
-    tickSpeed: number = 200;
-    tickInterval: any;
-    wordSpeed: number = this.tickSpeed * 15;
-    wordTimeout: any;
-
-    pxPerTick: number = 10;
-    playHeight: number = 0;
-    targetWord: Word | null = null;
-
-    // Difficulties
-    difficulties: Difficulty[] = [
-        new Difficulty(10, 1, 40),
-        new Difficulty(20, 2, 70),
-        new Difficulty(30, 3, 90),
-        new Difficulty(40, 4, 99),
-        new Difficulty(Infinity, 5, 100),
+    autoplayIndex = 0;
+    autoplayStart = 0;
+    autoplayTimeouts: AutoPlay[] = [
+        { name: 'Beginner', timeout: 400 },
+        { name: 'Average', timeout: 250 },
+        { name: 'Pro', timeout: 170 },
+        { name: 'Advanced', timeout: 120 },
+        { name: 'Elite', timeout: 80 },
+        // { name: 'Meme', timeout: 1, override: 2 }
     ];
 
-    // Resources
-    scorePerLetter: number = 1;
-    scorePerWord: number = 10;
-    heightScoreFactor: number = 2;
-    caseScoreFactor: number = 1.1;
-    score = signal(0);
-    streak: number = 0;
-    healthPerHit: number = 5;
-    health = signal(100);
-    bombs = signal([null]);
-    bombProgress = signal(0);
-    lastBombAt: number = 0;
-
-    // Statistics
-    showStatistics: boolean = false;
-    highestStreak: number = 0;
-    lettersTyped: number = 0;
-    wordsTyped: number = 0;
-    bombsUsed: number = 0;
-
-    constructor() {
-        this.populateWords();
+    ngAfterViewInit() {
+        if(this.autoplayTimeouts.length) {
+            this.autoplayGame(this.autoplayTimeouts[0]);
+        }
     }
 
-    //#region ------------------------------------------------------- Init
-    populateWords(): void {
-        this.words = this.getFlatNames(this.svcData.data)
-            .filter((n) => n.length > 2)
-            .filter((n) => NameRegex.test(n));
-
-        this.words.sort((a, b) => a.length - b.length);
-
-        this.initDifficulties();
+    ngOnDestroy() {
+        if(this.game.state === 'running') {
+            this.togglePauseGame();
+        }
     }
 
-    getFlatNames(group: DataGroup): string[] {
-        const arr: string[] = [];
+    @HostListener('window:keydown', ['$event'])
+    onWindowKeydown($event: KeyboardEvent): void {
+        if(this.game.state !== 'running') return;
 
-        const nameColumn = group.columns?.find((c) => c.key === 'name');
-        if(group.tasks && !nameColumn?.link) {
-            arr.push(...group.tasks.map((t) => t.name));
+        $event.preventDefault();
+        $event.stopPropagation();
+
+        if($event.key === 'Enter') {
+            this.game.targetWord = null;
+        }
+        else if($event.key === 'Tab' && this.game.bombs().length > 0) {
+            this.useBomb();
+        }
+        else {
+            this.onLetterTyped($event.key);
+        }
+    }
+
+    //#region ------------------------------------------------------- Play Area
+    @ViewChild('playArea') playArea!: ElementRef;
+
+    // Only used so a getter isn't attached in the template
+    playHeight: number = 0;
+
+    get playAreaWidth(): number {
+        return this.playArea.nativeElement.clientWidth;
+    }
+
+    get playAreaHeight(): number {
+        return this.playArea.nativeElement.clientHeight;
+    }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Difficulty
+    getRandomDifficultyRange(): Difficulty {
+        // Give pity word of bomb difficulty after 100 non-bomb
+        if(this.game.wordsTyped - this.game.lastBombAt > 100) {
+            this.game.lastBombAt = this.game.wordsTyped;
+            return this.game.difficulties[MIN_BOMB];
         }
 
-        const subGroups = group.subGroups?.values() ?? [];
-        for(const subGroup of subGroups) {
-            if(subGroup) arr.push(...this.getFlatNames(subGroup));
-        }
+        const difficulty = this.game.getRandomDifficulty();
 
-        return arr;
+        // Update last bomb difficulty word to track pity
+        if(difficulty.index >= MIN_BOMB) this.game.lastBombAt = this.game.wordsTyped;
+
+        return difficulty;
     }
 
-    initDifficulties(): void {
-        for(let i = 0; i < this.difficulties.length; i++) {
-            this.difficulties[i].setStars(i + 1);
-            if(i < this.difficulties.length - 1) {
-                this.difficulties[i + 1].minLength = this.difficulties[i].maxLength + 1;
+    getWordDifficulty(word: Word | string): Difficulty {
+        const wordLength = (typeof word === 'string' ? word : word.value).length;
+
+        for(const difficulty of this.game.difficulties) {
+            if(wordLength >= difficulty.minLength && wordLength <= difficulty.maxLength) {
+                return difficulty
             }
         }
 
-        for(let i = 0; i < this.words.length; i++) {
-            const wordL = this.words[i].length;
-
-            for(let j = 0; j < this.difficulties.length - 1; j++) {
-                const difficulty = this.difficulties[j];
-
-                if(difficulty.end === 0 && wordL > difficulty.maxLength) {
-                    difficulty.end = i - 1;
-                    this.difficulties[j + 1].start = i;
-                }
-            }
-        }
-
-        this.difficulties[this.difficulties.length - 1].end = this.words.length - 1;
+        return this.game.difficulties[0];
     }
 
     //#endregion
@@ -131,111 +118,151 @@ export class TypingMinigameComponent {
     //#region ------------------------------------------------------- Play
     startGame(): void {
         // setTimeout(() => this.stopGame(), 5000);
-        // this.memeGame();
 
-        this.showStatistics = false;
-        this.activeWords.set([]);
-
-        // Reset resources
-        this.tick.set(0);
-        this.score.set(0);
-        this.health.set(100);
-        this.bombs.set([null]);
-        this.highestStreak = 0;
-        this.streak = 0;
-        this.playHeight = this.getPlayArea()[1];
-
-        // Reset statistics
-        this.wordsTyped = 0;
-        for(const difficulty of this.difficulties) {
-            difficulty.reset();
-        }
-        this.lettersTyped = 0;
-        this.bombsUsed = 0;
+        this.game.resetState();
+        this.playHeight = this.playAreaHeight;
 
         // Game tick
-        this.tickInterval = setInterval(() => this.onTick(), this.tickSpeed);
-        this.gameRunning = true;
-
-        this.addWord();
+        this.startTicks();
+        this.game.state = 'running';
     }
 
     stopGame(): void {
-        this.gameRunning = false;
-        this.showStatistics = true;
-        this.targetWord = null;
+        this.game.state = 'stopped';
+        this.game.showStatistics = true;
+        this.game.targetWord = null;
+        this.stopTicks();
 
-        clearInterval(this.tickInterval);
-        clearTimeout(this.wordTimeout);
+        if(this.autoplayTimeouts.length) {
+            console.log('-----------', this.autoplayTimeouts[this.autoplayIndex].name);
+            console.log('Played for:', Date.now() - this.autoplayStart);
+            this.game.logStatistics();
+
+            this.autoplayIndex++;
+            const nextAutoplay = this.autoplayTimeouts[this.autoplayIndex];
+            if(nextAutoplay) {
+                setTimeout(() => this.autoplayGame(nextAutoplay), 1000);
+            }
+        }
     }
 
-    memeGame(): void {
-        this.tickSpeed = 2;
+    togglePauseGame(): void {
+        if(this.game.state === 'running') {
+            this.game.state = 'paused';
+            this.stopTicks();
+        }
+        else if(this.game.state === 'paused') {
+            setTimeout(() => {
+                this.game.state = 'running';
+                this.startTicks();
+            }, 1000);
+        }
+    }
+
+    autoplayGame(config: AutoPlay): void {
+        this.tickSpeed = config.override ?? this.tickSpeed;
+        this.autoplayStart = Date.now();
+        this.startGame();
 
         const inter = setInterval(() => {
-            for(const letter of this.activeWords()[0]?.letters ?? []) {
-                if(!letter.hit) {
-                    this.hitLetters(letter.char);
-                    // break;
-                }
+            if(this.game.wordsTyped > 10000 || this.game.state === 'stopped') {
+                clearInterval(inter);
+                return;
             }
 
-            if(this.wordsTyped > 10000) clearInterval(inter);
-        }, 1);
+            if(this.game.state === 'paused') return;
+
+            if(this.game.activeWords().length >= 6 && this.game.bombs().length) {
+                this.useBomb();
+                return;
+            }
+
+            for(const letter of this.game.activeWords()[0]?.letters ?? []) {
+                if(!letter.hit) {
+                    this.onLetterTyped(letter.char);
+                    break;
+                }
+            }
+        }, config.timeout / this.gameSpeed);
+    }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Tick
+    gameSpeed: number = 10;
+    tickSpeed: number = 200 / this.gameSpeed;
+    tickInterval: any;
+
+    minWordSpeed: number = 1000 / this.gameSpeed;
+    baseWordSpeed: number = 3000 / this.gameSpeed;
+
+    msBeforeBottom: number = 15000 / this.gameSpeed;
+    ticksBeforeBottom: number = this.msBeforeBottom / this.tickSpeed;
+
+    startTicks(): void {
+        this.tickInterval = setInterval(() => this.onTick(), this.tickSpeed);
+    }
+
+    stopTicks(): void {
+        clearInterval(this.tickInterval);
     }
 
     onTick(): void {
-        this.tick.set(this.tick() + 1);
+        const tick = this.game.tick() + 1;
+        this.game.tick.set(tick);
 
-        const [, height] = this.getPlayArea();
-        this.activeWords.update((activeWords) => {
+        this.game.activeWords.update((activeWords) => {
             const updatedWords = [...activeWords];
 
             for(let i = 0; i < updatedWords.length; i++) {
                 const word = updatedWords[i];
 
-                if(word.y > (height - 40)) {
+                if(word.y > (this.playAreaHeight - 40)) {
                     this.takeDamage();
+                    if(this.game.targetWord === word) this.game.targetWord = null;
                     updatedWords.splice(i, 1);
                     i--;
                 }
-                else {
-                    word.y += this.pxPerTick;
+                else if(this.game.targetWord !== word || (Date.now() - this.lastTypedTime) > 1000) {
+                    word.y += this.playAreaHeight / this.ticksBeforeBottom;
                 }
             }
 
-            return [...updatedWords];
+            return updatedWords;
         });
+
+        if(this.game.nextWord <= tick) {
+            const word = this.addWord();
+
+            this.game.nextWord = this.getNextWordTick(tick, word);
+        }
     }
 
-    getPlayArea(): [number, number] {
-        const { clientWidth, clientHeight } = this.elementRef.nativeElement.firstChild;
-        return [clientWidth, clientHeight];
+    getNextWordTick(currentTick: number, word: Word | undefined): number {
+        const millis = Math.max(this.minWordSpeed, this.baseWordSpeed - (this.game.wordsTyped * 20));
+        const ticks = Math.round(millis / this.tickSpeed);
+        const offset = word ? this.getWordDifficulty(word).index * 2 : 0;
+        return currentTick + ticks + offset;
     }
 
     //#endregion
 
-    //#region ------------------------------------------------------- Add Word
-    addWord(): void {
-        if(!this.gameRunning) return;
+    //#region ------------------------------------------------------- Word
+    addWord(): Word | undefined {
+        if(!this.game.state) return;
 
-        const name = this.pickRandomWord();
+        const word = this.pickRandomWord();
+        this.game.activeWords.update((activeNames) => [...activeNames, word]);
 
-        this.activeWords.update((activeNames) => [...activeNames, name]);
-
-        this.wordTimeout = setTimeout(() =>
-            this.addWord(),
-            Math.max(this.wordSpeed - this.tick(), this.tickSpeed)
-        );
+        return word;
     }
 
     pickRandomWord(): Word {
         const wordValue = this.getRandomWord();
 
-        const [width] = this.getPlayArea();
         const wordWidth = wordValue.length * 10;
         const start = 100;
-        const end = width - (100 + wordWidth);
+        const end = this.playAreaWidth - (100 + wordWidth);
         const randomX = Math.floor(Math.random() * (end - start + 1)) + start;
 
         const difficulty = this.getWordDifficulty(wordValue);
@@ -256,96 +283,43 @@ export class TypingMinigameComponent {
         while(true) {
             const { start, end } = this.getRandomDifficultyRange();
             const rIndex = Math.floor(Math.random() * (end - start + 1)) + start;
-            const word = this.words[rIndex];
-            const exists = this.activeWords().some((w) => w.value === word);
+            const word = this.game.words[rIndex];
+            const exists = this.game.activeWords().some((w) => w.value === word);
             if(!exists) return word;
         }
-    }
-
-    getRandomDifficultyRange(): Difficulty {
-        if(this.wordsTyped - this.lastBombAt > 100) {
-            this.lastBombAt = this.wordsTyped;
-            return this.difficulties[MIN_BOMB];
-        }
-
-        const rDifficulty = Math.floor(Math.random() * 100);
-
-        let outDifficulty = this.difficulties[this.difficulties.length - 1];
-        for(const difficulty of this.difficulties) {
-            if(rDifficulty <= difficulty.percentile) {
-                outDifficulty = difficulty;
-                break;
-            }
-        }
-
-        const index = this.difficulties.indexOf(outDifficulty);
-        if(index >= MIN_BOMB) this.lastBombAt = this.wordsTyped;
-
-        return outDifficulty;
     }
 
     //#endregion
 
     //#region ------------------------------------------------------- Hit
-    @HostListener('window:keydown', ['$event'])
-    onWindowKeydown($event: KeyboardEvent): void {
-        if(!this.gameRunning) return;
+    lastTypedTime: number = 0;
 
-        $event.preventDefault();
-        $event.stopPropagation();
+    onLetterTyped(typedLetter: string): void {
+        this.lastTypedTime = Date.now();
 
-        if($event.key === 'Escape') {
-            this.targetWord = null;
-        }
-        else if($event.key === 'Tab' && this.bombs().length > 0) {
-            this.useBomb();
-        }
-        else {
-            this.hitLetters($event.key);
-        }
-    }
-
-    useBomb(): void {
-        this.bombs.update((b) => b.filter((_, i) => i > 0));
-        this.bombsUsed++;
-        this.targetWord = null;
-
-        let addedScore = 0;
-        for(const word of this.activeWords()) {
-            addedScore += this.getWordScore(word);
-        }
-        this.score.update((s) => s + Math.floor(addedScore * 0.5));
-
-        this.activeWords.set([]);
-    }
-
-    hitLetters(typedLetter: string): void {
-        this.activeWords.update((activeWords) => {
+        this.game.activeWords.update((activeWords) => {
             const updatedWords = [...activeWords];
 
-            if(!this.targetWord) {
-                this.targetWord = updatedWords.find((word) => {
-                    for(const letter of word.letters) {
-                        if(letter.hit) continue;
-                        if(letter.char === typedLetter) return true;
-                        if(letter.char.toLowerCase() === typedLetter) return true;
-                        break;
-                    }
-                }) ?? null;
-            }
+            if(!this.game.targetWord) this.setTargetWord(typedLetter);
 
-            this.targetWord?.letters.some((letter) => {
+            this.game.targetWord?.letters.some((letter) => {
                 if(letter.hit) return;
 
-                const caseMatch = letter.char === typedLetter;
-                const match = letter.char.toLowerCase() === typedLetter;
+                const letterScore = this.finishLetter(this.game.targetWord!, letter, typedLetter);
+                const wordScore = this.finishWord(this.game.targetWord!);
 
-                if(caseMatch || match) {
-                    if(this.finishLetter(this.targetWord!, letter, caseMatch)) {
-                        const index = this.activeWords().indexOf(this.targetWord!);
-                        updatedWords.splice(index, 1);
-                        this.targetWord = null;
-                    }
+                if(letterScore || wordScore) {
+                    this.game.targetWord!.y = Math.max(
+                        0,
+                        this.game.targetWord!.y - (this.playAreaHeight / this.ticksBeforeBottom)
+                    );
+                    this.game.score.update((s) => s + letterScore + wordScore);
+                }
+
+                if(wordScore) {
+                    const index = this.game.activeWords().indexOf(this.game.targetWord!);
+                    updatedWords.splice(index, 1);
+                    this.game.targetWord = null;
                 }
 
                 // Allow skipping spaces
@@ -356,41 +330,41 @@ export class TypingMinigameComponent {
         });
     }
 
-    finishLetter(word: Word, letter: Letter, caseMatch: boolean): boolean {
-        let wordFinished = false;
+    setTargetWord(typedLetter: string): void {
+        this.game.targetWord = this.game.activeWords().find((word) => {
+            for(const letter of word.letters) {
+                if(letter.hit) continue;
+                if(letter.char === typedLetter) return true;
+                if(letter.char.toLowerCase() === typedLetter.toLowerCase()) return true;
+                break;
+            }
+        }) ?? null;
+    }
+
+    finishLetter(word: Word, letter: Letter, typedLetter: string): number {
+        const caseMatch = letter.char === typedLetter;
+        const match = letter.char.toLowerCase() === typedLetter.toLowerCase();
+        if(!caseMatch && !match) return 0;
 
         letter.hit = true;
-        let addedScore = this.getLetterScore(word, caseMatch);
-        this.lettersTyped++;
-
-        // Remove word if last letter hit
-        if(word.letters.indexOf(letter) === word.letters.length - 1) {
-            addedScore += this.finishWord(word);
-            wordFinished = true;
-        }
-
-        this.score.update((s) => s + addedScore);
-        return wordFinished;
+        this.game.lettersTyped++;
+        return this.getLetterScore(word, caseMatch);
     }
 
     finishWord(word: Word): number {
-        this.getWordDifficulty(word).wordsTypes++;
-        this.wordsTyped++;
-        this.streak++;
+        const wordFinished = word.letters.every((l) => l.hit);
+        if(!wordFinished) return 0;
 
-        if(this.streak > this.highestStreak) {
-            this.highestStreak = this.streak;
+        this.getWordDifficulty(word).wordsTypes++;
+        this.game.wordsTyped++;
+        this.game.streak.update((s) => s + 1);
+
+        if(this.game.streak() > this.game.highestStreak) {
+            this.game.highestStreak = this.game.streak();
         }
 
-        // Gain bomb progress for long words
-        if(word.value.length >= this.difficulties[MIN_BOMB].maxLength) {
-            if(this.bombProgress() % 4 === 0) {
-                this.bombs.update((bs) => [...bs, null]);
-                this.bombProgress.set(0);
-            }
-            else {
-                this.bombProgress.update((p) => p + 1);
-            }
+        if(word.value.length >= this.game.difficulties[MIN_BOMB].minLength) {
+            this.incrementBombProgress();
         }
 
         return this.getWordScore(word);
@@ -398,26 +372,65 @@ export class TypingMinigameComponent {
 
     //#endregion
 
-    //#region ------------------------------------------------------- Score
-    getWordDifficulty(word: Word | string): Difficulty {
-        const wordLength = (typeof word === 'string' ? word : word.value).length;
+    //#region ------------------------------------------------------- Health
+    healthPerHit: number = 5;
 
-        for(const difficulty of this.difficulties) {
-            if(wordLength >= difficulty.minLength && wordLength <= difficulty.maxLength) {
-                return difficulty
-            }
-        }
+    takeDamage(): void {
+        this.game.streak.set(0);
 
-        return this.difficulties[0];
+        this.game.health.update((h) => {
+            const newHealth = h - this.healthPerHit;
+            if(newHealth <= 0) this.stopGame();
+            return Math.max(newHealth, 0);
+        });
     }
 
+    //#endregion
+
+    //#region ------------------------------------------------------- Bomb
+    useBomb(): void {
+        this.game.bombs.update((b) => b.filter((_, i) => i > 0));
+        this.game.bombsUsed++;
+        this.game.targetWord = null;
+
+        let addedScore = 0;
+        for(const word of this.game.activeWords()) {
+            addedScore += this.getWordScore(word);
+        }
+
+        this.game.score.update((s) => s + Math.floor(addedScore * 0.5));
+
+        this.game.activeWords.set([]);
+    }
+
+    incrementBombProgress(): void {
+        this.game.bombProgress.update((p) => {
+            const next = p + 1;
+
+            if(next >= 4) {
+                this.game.bombs.update((bs) => [...bs, true]);
+                return 0;
+            }
+
+            return next;
+        });
+    }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Score
+    scorePerLetter: number = 1;
+    scorePerWord: number = 10;
+    heightScoreFactor: number = 2;
+    caseScoreFactor: number = 1.1;
+
     getHeightMult(word: Word): number {
-        const factor = (this.playHeight - word.y) / this.playHeight;
-        return Math.max(0, factor * this.heightScoreFactor);
+        const factor = (this.playAreaHeight - word.y) / this.playAreaHeight;
+        return Math.max(0.1, factor * this.heightScoreFactor);
     }
 
     getStreakMult(): number {
-        return 1 + (this.streak / 100);
+        return 1 + (this.game.streak() / 100);
     }
 
     getLetterScore(word: Word, caseMatch: boolean): number {
@@ -439,15 +452,6 @@ export class TypingMinigameComponent {
         );
     }
 
-    takeDamage(): void {
-        this.streak = 0;
-
-        this.health.update((h) => {
-            const newHealth = h - this.healthPerHit;
-            if(newHealth <= 0) this.stopGame();
-            return Math.max(newHealth, 0);
-        });
-    }
-
     //#endregion
+
 }

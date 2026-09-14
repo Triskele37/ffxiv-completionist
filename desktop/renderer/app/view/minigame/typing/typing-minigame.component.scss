@@ -1,5 +1,7 @@
 @use './sizes';
 
+$z-ui: 101;
+
 .typing-minigame-container {
     position: relative;
 
@@ -47,17 +49,30 @@
             }
         }
 
-        .bottom {
-            display: flex;
-            gap: var(--content-padding);
+        .buttons ::ng-deep {
+            &, .p-buttongroup {
+                width: 100%;
+            }
 
-            .stats {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding-top: 2px;
+            button {
+                width: 50%;
             }
         }
+    }
+
+    .stats {
+        position: fixed;
+        top: 70px;
+        left: 50%;
+        z-index: $z-ui;
+
+        display: flex;
+        gap: var(--content-padding);
+
+        background: var(--surface-500);
+        padding: var(--content-padding);
+        border: 1px solid var(--primary-color);
+        border-radius: var(--border-radius);
     }
 
     .statistics-container {
@@ -71,7 +86,7 @@
         border: 1px solid var(--primary-color);
         border-radius: var(--border-radius);
         gap: var(--content-padding);
-        z-index: 1;
+        z-index: $z-ui;
 
         .header {
             text-align: center;
@@ -111,6 +126,10 @@
             var(--incomplete) calc(var(--danger) * 100%),
             var(--completed)
         );
+
+        &.paused .letter {
+            color: transparent;
+        }
 
         .difficulty-indicator {
             position: absolute;

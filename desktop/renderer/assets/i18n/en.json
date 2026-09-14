@@ -168,7 +168,7 @@
                 "DETAIL": "Play Keybound Completionist minigame",
                 "DETAILED": {
                     "SUMMARY": "Keybound Completionist",
-                    "DETAIL": "Play Keybound Completionist minigame. Press Escape to untarget words"
+                    "DETAIL": "Play Keybound Completionist minigame. Press Enter to untarget words"
                 },
                 "SCORE": {
                     "SUMMARY": "Score",
@@ -395,6 +395,8 @@
             "TITLE": "Keybound Completionist",
             "START": "Start Game",
             "STOP": "Stop Game",
+            "PAUSE": "Pause",
+            "UNPAUSE": "Unpause",
             "HEALTH": "Health",
             "SCORE": "Score",
             "STREAK": "Streak",
