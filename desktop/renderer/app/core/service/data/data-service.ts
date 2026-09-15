@@ -23,7 +23,6 @@ import { getGroupName } from './group/getGroupName';
 import { initColumns } from './group/initColumns';
 import { initCompletion } from './group/initCompletion';
 import { initDefaultCompletion } from './group/initDefaultCompletion';
-import { initNumericCompletion } from './group/initNumericCompletion';
 import { initTasks } from './group/initTasks';
 import { initUi } from './group/initUi';
 
@@ -36,9 +35,6 @@ import { getTasks } from './get/getTasks';
 import { getLinkedName } from './get/getLinkedName';
 import { logGetMiss } from './get/logGetMiss';
 import { logGetMismatch } from './get/logGetMismatch';
-
-import { addTaskToIndex } from './indexing/addTaskToIndex';
-import { getIndexedTask } from './indexing/getIndexedTask';
 
 import { expandLink } from './link/expandLink';
 import { expandAllLink } from './link/expandAllLink';
@@ -95,7 +91,6 @@ export class DataService {
     get initColumns() { return initColumns(this); }
     get initCompletion() { return initCompletion(this); }
     get initDefaultCompletion() { return initDefaultCompletion(this); }
-    get initNumericCompletion() { return initNumericCompletion(this); }
     get initTasks() { return initTasks(this); }
     get initUi() { return initUi(this); }
 
@@ -112,12 +107,6 @@ export class DataService {
     get getLinkedName() { return getLinkedName(this); }
     get logGetMiss() { return logGetMiss(this); }
     get logGetMismatch() { return logGetMismatch(this); }
-
-    //#endregion
-
-    //#region ------------------------------------------------------- Indexing
-    get addTaskToIndex() { return addTaskToIndex(this); }
-    get getIndexedTask() { return getIndexedTask(this); }
 
     //#endregion
 

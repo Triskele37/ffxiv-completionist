@@ -7,6 +7,7 @@ import type { DataService } from '../data-service';
  * Apply default column properties
  * - e.g. 'patch' has a default width of 100px
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function defaultColumnProps(service: DataService) {
     return (
         key: string,

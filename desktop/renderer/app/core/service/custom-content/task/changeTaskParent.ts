@@ -4,6 +4,7 @@ import { getContentLink } from '@model/Link/getContentLink';
 
 import type { CustomContentService } from '../custom-content.service';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function changeTaskParent(service: CustomContentService) {
     return (
         task: Task,

@@ -3,6 +3,7 @@ import { getContentLink } from '@model/Link/getContentLink';
 
 import type { CustomContentService } from '../custom-content.service';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function changeGroupParent(service: CustomContentService) {
     return (
         group: DataGroup,

@@ -5,6 +5,7 @@ const PATH_REGEX = /^[a-z-.!,]+$/;
 /**
  * Log a .get miss if the path is valid
  * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function logGetMiss(service: DataService) {
     return (
         expectedType: string,

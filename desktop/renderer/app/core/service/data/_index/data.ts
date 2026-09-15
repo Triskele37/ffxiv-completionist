@@ -1,17 +1,12 @@
 import type { Task } from '@model/Task';
 
+import type { IndexContainer, IndexMeta } from './types';
+
 /**
  * Quick lookup indexes for groups with purely unique ids for their tasks
  * - Uses Task id for the Map key
  * - Map is used to ensure uniqueness and additional perf/size gains over a raw object
- */
-type IndexContainer = Map<string, IndexMeta>;
-type IndexMeta = {
-    base: string;
-    exclude?: string[];
-    map: TaskIndex;
-};
-type TaskIndex = Map<number, Task>;
+ * */
 
 // This is the actual entity storing indexed tasks via [shorthand][id]
 export const INDEX: IndexContainer = new Map([

@@ -1,6 +1,7 @@
 import type { CustomContentService } from '../custom-content.service';
 import type { CustomGroupMetaMap, CustomTaskMetaMap } from '../types';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function getNextKeyForMeta(service: CustomContentService) {
     return (
         metaMap: CustomGroupMetaMap | CustomTaskMetaMap,

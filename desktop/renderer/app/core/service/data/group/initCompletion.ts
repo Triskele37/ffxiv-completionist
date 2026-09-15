@@ -19,7 +19,8 @@ export function initCompletion(service: DataService) {
             service.initDefaultCompletion(group, group._parent.defaultCompletion);
         }
 
-        service.initNumericCompletion(group, !!json.isNumericCompletion);
+        group.isNumericCompletion = !!json.isNumericCompletion;
+        group.tasks.forEach((task) => task.isNumericCompletion = !!json.isNumericCompletion);
 
         group.numericDecimal = json.numericDecimal;
         group.minValue = json.minValue;

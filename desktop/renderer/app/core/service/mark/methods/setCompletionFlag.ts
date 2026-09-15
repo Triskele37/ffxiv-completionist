@@ -7,6 +7,7 @@ import type { MarkService } from '../mark.service';
 /**
  * Update `task.completionFlag$` as a flag
  * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function setCompletionFlag(service: MarkService) {
     return (
         task: Task,

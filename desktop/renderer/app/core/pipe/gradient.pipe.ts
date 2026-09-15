@@ -3,7 +3,6 @@ import { Pipe, inject } from '@angular/core';
 
 import type { Task } from '@model/Task';
 import { ThemeService } from '@service/theme/theme.service';
-import { completionGradient } from '@service/theme/styles/completion-gradient';
 
 @Pipe({
     name: 'gradient'

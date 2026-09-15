@@ -11,6 +11,15 @@
             "sourceRoot": "desktop/renderer",
             "projectType": "application",
             "architect": {
+                "lint": {
+                    "builder": "@angular-eslint/builder:lint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "**/main/**/*",
+                            "**/renderer/**/*"
+                        ]
+                    }
+                },
                 "build": {
                     "builder": "@angular/build:application",
                     "options": {

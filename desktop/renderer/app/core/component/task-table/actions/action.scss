@@ -105,7 +105,7 @@ ng-icon.action {
             position: absolute;
             z-index: 2;
             height: 100%;
-            width: ($button-size / 2) + 1px;
+            width: calc(($button-size / 2) + 1px);
             right: 0;
             top: 0;
         }

@@ -5,6 +5,7 @@ import type { DataService } from '../data-service';
 
 type SharedKey = keyof DataGroup & keyof Task;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function inheritFromParent<K extends SharedKey>(service: DataService) {
     return (
         task: Task,

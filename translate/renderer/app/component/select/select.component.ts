@@ -24,7 +24,7 @@ import { NgIcon } from '@ng-icons/core';
 })
 export class SelectComponent implements OnInit, OnChanges {
     @Input({ required: true }) options!: string[];
-    @Output() change = new EventEmitter<string>();
+    @Output() changed = new EventEmitter<string>();
     elementRef = inject(ElementRef);
 
     visible: boolean = false;
@@ -63,7 +63,7 @@ export class SelectComponent implements OnInit, OnChanges {
         this.visible = false;
 
         if(this.options.includes(option)) {
-            this.change.emit(option);
+            this.changed.emit(option);
         }
     }
 }

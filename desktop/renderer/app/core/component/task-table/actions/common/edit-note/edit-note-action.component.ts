@@ -1,4 +1,4 @@
-import { Component, inject, Input } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -44,7 +44,7 @@ import { NoteService } from '@service/note/note.service';
         </span>
     `
 })
-export class EditNoteActionComponent {
+export class EditNoteActionComponent implements OnInit {
     svcNote = inject(NoteService);
 
     @Input() group?: DataGroup;

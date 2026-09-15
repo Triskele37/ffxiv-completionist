@@ -4,6 +4,7 @@ import type { Task } from '@model/Task';
 
 import type { DataService } from '../data-service';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function concatWithParent<K extends ChainKeys>(service: DataService) {
     return (
         task: Task,

@@ -5,6 +5,7 @@ import type { MarkService } from '../mark.service';
 /**
  * Get the default value for a numeric task when unmodified
  * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function getDefaultNumericCompletion(service: MarkService) {
     return (
         task: Task,

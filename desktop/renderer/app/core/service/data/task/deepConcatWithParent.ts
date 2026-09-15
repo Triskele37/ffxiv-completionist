@@ -7,6 +7,7 @@ import type { DataService } from '../data-service';
 
 type AtLinkKeys = KeysOfType<DataGroup, AtLinks | undefined>;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function deepConcatWithParent<K extends AtLinkKeys>(service: DataService) {
     return (
         task: Task,

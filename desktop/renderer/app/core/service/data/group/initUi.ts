@@ -6,6 +6,7 @@ import type { DataService } from '../data-service';
 /**
  * Initialize various UI related properties for this group
  * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function initUi(service: DataService) {
     return (
         group: DataGroup,

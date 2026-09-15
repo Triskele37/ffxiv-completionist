@@ -18,8 +18,13 @@ export default defineConfig([
         ]
     },
     {
-        files: ['src/**/*.ts'],
-        ignores: ['src/**/*.spec.ts', 'src/**/*.mock.ts'],
+        files: [
+            '**/renderer/**/*.ts',
+        ],
+        ignores: [
+            '**/renderer/**/*.spec.ts',
+            '**/renderer/**/*.mock.ts'
+        ],
         // languageOptions: {
         //     parserOptions: {
         //         projectService: true
@@ -34,17 +39,13 @@ export default defineConfig([
         processor: angular.processInlineTemplates,
         rules: {
             '@typescript-eslint/no-explicit-any': 'off',
-
-            '@typescript-eslint/consistent-type-imports': [
-                'error',
-                {
-                    prefer: 'type-imports'
-                }
-            ],
         }
     },
     {
-        files: ['src/**/*.spec.ts', 'src/**/*.mock.ts'],
+        files: [
+            '**/renderer/**/*.spec.ts',
+            '**/renderer/**/*.mock.ts'
+        ],
         // languageOptions: {
         //     parserOptions: {
         //         projectService: true
@@ -60,7 +61,7 @@ export default defineConfig([
         }
     },
     {
-        files: ['src/**/*.html'],
+        files: ['**/renderer/**/*.html'],
         extends: [
             ...angular.configs.templateRecommended
         ],

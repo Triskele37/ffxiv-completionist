@@ -3,7 +3,10 @@ import type { Task } from '@model/Task';
 
 import type { CustomContentService } from '../custom-content.service';
 
-// Custom content meta is one level higher than expected from svcSaveStore
+/**
+ * Custom content meta is one level higher than expected from svcSaveStore
+ * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function getMetaStorageKey(service: CustomContentService) {
     return (
         data: DataGroup | Task,

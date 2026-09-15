@@ -2,10 +2,12 @@ import type { DataGroup } from '@model/DataGroup';
 import type { Task } from '@model/Task';
 
 import type { DataService } from '../data-service';
+import { getIndexedTask } from '../_index/methods';
 
 /**
  * ALL Group/Task gets should run through this method
  * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function getChild(service: DataService) {
     return (
         group: DataGroup | null | undefined,
@@ -23,7 +25,7 @@ export function getChild(service: DataService) {
 
         // See if link is indexed first
         if(segments.length === 2) {
-            const indexedTask = service.getIndexedTask(segments[0], segments[1]);
+            const indexedTask = getIndexedTask(segments[0], segments[1]);
             if(indexedTask) return indexedTask;
         }
 

@@ -2,6 +2,7 @@ import type { Task } from '@model/Task';
 
 import type { ChainService } from '../chain.service';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function hasChainProps(service: ChainService) {
     /**
      * @param task - The task to check for chaining on
