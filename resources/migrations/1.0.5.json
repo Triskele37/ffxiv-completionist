@@ -4,6 +4,11 @@
         "fixes": [
             {
                 "type": "moveGroup",
+                "from": "overall",
+                "to": "game"
+            },
+            {
+                "type": "moveGroup",
                 "from": "game.logs.gathering.gathering-log.logging.regional-folklore.Coerthas",
                 "to": "game.logs.gathering.gathering-log.logging.regional-folklore.coerthas"
             },
