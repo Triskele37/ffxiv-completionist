@@ -23,12 +23,10 @@
             <p-popover
                 #linkPopover
                 styleClass="link-overlay"
+                [pt]="pt"
             >
                 <ng-template #content>
-                    <div
-                        class="overlay-container"
-                        (mouseleave)="onOverlayLeave()"
-                    >
+                    <div class="overlay-container">
                         @for(link of links; track link.value) {
                             <com-cell-value
                                 [task]="task"

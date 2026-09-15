@@ -2,7 +2,7 @@ import type { OnChanges, SimpleChanges } from '@angular/core';
 import { Component, inject, Input, ViewChild } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
-import { Popover } from 'primeng/popover';
+import { Popover, PopoverPassThroughOptions } from 'primeng/popover';
 
 import { DataService } from '@service/data/data-service';
 import type { Column } from '@model/Column';
@@ -46,6 +46,12 @@ export class DataCellComponent implements OnChanges {
 
     isOverlayLocked: boolean = false;
     @ViewChild('linkPopover') linkPopover: Popover | undefined;
+
+    pt: PopoverPassThroughOptions = {
+        root: {
+            onmouseleave: () => this.onOverlayLeave()
+        }
+    };
 
     ngOnChanges(changes: SimpleChanges<DataCellComponent>): void {
         if(changes.task || changes.column || changes.value) {
