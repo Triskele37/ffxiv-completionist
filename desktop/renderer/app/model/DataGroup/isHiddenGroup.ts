@@ -8,7 +8,7 @@ export function isHiddenGroup(
     svcConfig: ConfigStoreService
 ): boolean {
     if(group.type !== 'Data') return false;
-    if(group.fullStorageKey.startsWith('overall.reference')) return false;
+    if(group.fullStorageKey.startsWith('game.reference')) return false;
 
     const showCompletedGroups = svcConfig.get('show-completed-groups');
     if(isComplete(group) && !showCompletedGroups) return true;

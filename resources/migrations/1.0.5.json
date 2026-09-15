@@ -4,27 +4,27 @@
         "fixes": [
             {
                 "type": "moveGroup",
-                "from": "overall.travel.aether-currents.shb.the-raktika-greatwood",
-                "to": "overall.travel.aether-currents.shb.the-rak-tika-greatwood"
+                "from": "game.travel.aether-currents.shb.the-raktika-greatwood",
+                "to": "game.travel.aether-currents.shb.the-rak-tika-greatwood"
             },
             {
                 "type": "moveGroup",
-                "from": "overall.logs.gathering.gathering-log.logging.regional-folklore.Coerthas",
-                "to": "overall.logs.gathering.gathering-log.logging.regional-folklore.coerthas"
+                "from": "game.logs.gathering.gathering-log.logging.regional-folklore.Coerthas",
+                "to": "game.logs.gathering.gathering-log.logging.regional-folklore.coerthas"
             },
             {
                 "type": "moveGroup",
-                "from": "overall.duty.exploratory-missions",
-                "to": "overall.duty.field-operations"
+                "from": "game.duty.exploratory-missions",
+                "to": "game.duty.field-operations"
             },
             {
                 "type": "changeKeys",
-                "group": "overall.duty.duty-raid-finder.trials.ew",
+                "group": "game.duty.duty-raid-finder.trials.ew",
                 "ids": [[69, 944]]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.duty.quest.class-and-job-quests.disciple-of-war-quests.archer-quests",
+                "group": "game.duty.quest.class-and-job-quests.disciple-of-war-quests.archer-quests",
                 "ids": [[65670, 65603]]
             }
         ],
@@ -41,13 +41,13 @@
                 "actions": [
                     {
                         "type": "moveGroup",
-                        "from": "overall.logs.gathering.gathering-log.{method}.collectables.96-100",
-                        "to": "overall.logs.gathering.gathering-log.{method}.collectables.91-100"
+                        "from": "game.logs.gathering.gathering-log.{method}.collectables.96-100",
+                        "to": "game.logs.gathering.gathering-log.{method}.collectables.91-100"
                     },
                     {
                         "type": "moveGroup",
-                        "from": "overall.logs.gathering.gathering-log.{method}.regional-folklore.ilsabard-northern-empty",
-                        "to": "overall.logs.gathering.gathering-log.{method}.regional-folklore.ilsabard-and-northern-empty"
+                        "from": "game.logs.gathering.gathering-log.{method}.regional-folklore.ilsabard-northern-empty",
+                        "to": "game.logs.gathering.gathering-log.{method}.regional-folklore.ilsabard-and-northern-empty"
                     }
                 ]
             }
@@ -55,7 +55,7 @@
         "gathering-mining": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.collectables.50-70",
+                "group": "game.logs.gathering.gathering-log.mining.collectables.50-70",
                 "ids": [
         [0, 10598],
         [1, 10599],
@@ -72,7 +72,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.collectables.71-80",
+                "group": "game.logs.gathering.gathering-log.mining.collectables.71-80",
                 "ids": [
         [0, 10608],
         [1, 10618],
@@ -87,7 +87,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.collectables.81-90",
+                "group": "game.logs.gathering.gathering-log.mining.collectables.81-90",
                 "ids": [
         [0, 10760],
         [1, 10761],
@@ -97,7 +97,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.collectables.91-100",
+                "group": "game.logs.gathering.gathering-log.mining.collectables.91-100",
                 "ids": [
         [0, 10187],
         [1, 10189],
@@ -109,7 +109,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.1-5",
+                "group": "game.logs.gathering.gathering-log.mining.level.1-5",
                 "ids": [
         [0, 75],
         [1, 1],
@@ -124,14 +124,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.11-15",
+                "group": "game.logs.gathering.gathering-log.mining.level.11-15",
                 "ids": [
         [0, 74]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.16-20",
+                "group": "game.logs.gathering.gathering-log.mining.level.16-20",
                 "ids": [
         [0, 58],
         [1, 48],
@@ -143,7 +143,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.21-25",
+                "group": "game.logs.gathering.gathering-log.mining.level.21-25",
                 "ids": [
         [0, 49],
         [1, 66]
@@ -151,7 +151,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.26-30",
+                "group": "game.logs.gathering.gathering-log.mining.level.26-30",
                 "ids": [
         [0, 7],
         [1, 8],
@@ -165,7 +165,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.31-35",
+                "group": "game.logs.gathering.gathering-log.mining.level.31-35",
                 "ids": [
         [0, 41],
         [1, 219],
@@ -180,7 +180,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.36-40",
+                "group": "game.logs.gathering.gathering-log.mining.level.36-40",
                 "ids": [
         [0, 52],
         [1, 47],
@@ -191,7 +191,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.41-45",
+                "group": "game.logs.gathering.gathering-log.mining.level.41-45",
                 "ids": [
         [0, 50],
         [1, 72],
@@ -201,7 +201,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.46-50",
+                "group": "game.logs.gathering.gathering-log.mining.level.46-50",
                 "ids": [
         [0, 53],
         [1, 65],
@@ -232,7 +232,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.51-55",
+                "group": "game.logs.gathering.gathering-log.mining.level.51-55",
                 "ids": [
         [0, 321],
         [1, 303],
@@ -250,7 +250,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.56-60",
+                "group": "game.logs.gathering.gathering-log.mining.level.56-60",
                 "ids": [
         [0, 329],
         [1, 308],
@@ -280,7 +280,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.6-10",
+                "group": "game.logs.gathering.gathering-log.mining.level.6-10",
                 "ids": [
         [0, 71],
         [1, 44],
@@ -293,7 +293,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.61-65",
+                "group": "game.logs.gathering.gathering-log.mining.level.61-65",
                 "ids": [
         [0, 430],
         [1, 431],
@@ -309,7 +309,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.66-70",
+                "group": "game.logs.gathering.gathering-log.mining.level.66-70",
                 "ids": [
         [0, 437],
         [1, 436],
@@ -328,7 +328,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.71-75",
+                "group": "game.logs.gathering.gathering-log.mining.level.71-75",
                 "ids": [
         [10, 636],
         [0, 533],
@@ -347,7 +347,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.76-80",
+                "group": "game.logs.gathering.gathering-log.mining.level.76-80",
                 "ids": [
         [0, 538],
         [1, 540],
@@ -364,7 +364,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.81-85",
+                "group": "game.logs.gathering.gathering-log.mining.level.81-85",
                 "ids": [
         [0, 641],
         [1, 640],
@@ -379,7 +379,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.86-90",
+                "group": "game.logs.gathering.gathering-log.mining.level.86-90",
                 "ids": [
         [0, 644],
         [1, 694],
@@ -389,7 +389,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.91-95",
+                "group": "game.logs.gathering.gathering-log.mining.level.91-95",
                 "ids": [
         [0, 744],
         [1, 797],
@@ -404,7 +404,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.level.96-100",
+                "group": "game.logs.gathering.gathering-log.mining.level.96-100",
                 "ids": [
         [0, 750],
         [1, 751],
@@ -416,7 +416,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.abalathia",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.abalathia",
                 "ids": [
         [0, 336],
         [1, 404],
@@ -426,7 +426,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.alexandria",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.alexandria",
                 "ids": [
         [0, 787],
         [1, 796]
@@ -434,14 +434,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.coerthas",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.coerthas",
                 "ids": [
         [0, 420]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.dravania",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.dravania",
                 "ids": [
         [0, 334],
         [1, 402]
@@ -449,7 +449,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.gyr-abania",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.gyr-abania",
                 "ids": [
         [0, 443],
         [1, 506],
@@ -459,7 +459,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.ilsabard-and-northern-empty",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.ilsabard-and-northern-empty",
                 "ids": [
         [0, 658],
         [1, 647],
@@ -470,7 +470,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.norvrandt",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.norvrandt",
                 "ids": [
         [0, 547],
         [1, 546],
@@ -483,7 +483,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.othard",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.othard",
                 "ids": [
         [0, 442],
         [1, 508],
@@ -494,7 +494,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.sea-of-stars",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.sea-of-stars",
                 "ids": [
         [0, 707],
         [1, 721],
@@ -506,21 +506,21 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.world-unsundered",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.world-unsundered",
                 "ids": [
         [0, 727]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.regional-folklore.xak-tural",
+                "group": "game.logs.gathering.gathering-log.mining.regional-folklore.xak-tural",
                 "ids": [
         [0, 786]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.sidequests.ishgard-restoration",
+                "group": "game.logs.gathering.gathering-log.mining.sidequests.ishgard-restoration",
                 "ids": [
         [0, 10644],
         [1, 10649],
@@ -547,7 +547,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.sidequests.skysteel-tools",
+                "group": "game.logs.gathering.gathering-log.mining.sidequests.skysteel-tools",
                 "ids": [
         [0, 10522],
         [1, 10523],
@@ -563,7 +563,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.mining.sidequests.splendorous-tools",
+                "group": "game.logs.gathering.gathering-log.mining.sidequests.splendorous-tools",
                 "ids": [
         [0, 10832],
         [1, 10833],
@@ -583,21 +583,21 @@
         "gathering-quarrying": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.collectables.50-70",
+                "group": "game.logs.gathering.gathering-log.quarrying.collectables.50-70",
                 "ids": [
         [0, 10616]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.collectables.71-80",
+                "group": "game.logs.gathering.gathering-log.quarrying.collectables.71-80",
                 "ids": [
         [0, 10619]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.collectables.81-90",
+                "group": "game.logs.gathering.gathering-log.quarrying.collectables.81-90",
                 "ids": [
         [0, 10764],
         [1, 10765],
@@ -609,7 +609,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.collectables.91-100",
+                "group": "game.logs.gathering.gathering-log.quarrying.collectables.91-100",
                 "ids": [
         [0, 10188],
         [1, 10194]
@@ -617,7 +617,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.1-5",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.1-5",
                 "ids": [
         [0, 1],
         [1, 2],
@@ -629,7 +629,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.11-15",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.11-15",
                 "ids": [
         [0, 216],
         [1, 95],
@@ -641,7 +641,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.16-20",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.16-20",
                 "ids": [
         [0, 218],
         [1, 93],
@@ -650,7 +650,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.21-25",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.21-25",
                 "ids": [
         [0, 94],
         [1, 80],
@@ -663,7 +663,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.26-30",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.26-30",
                 "ids": [
         [0, 84],
         [1, 7],
@@ -689,21 +689,21 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.31-35",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.31-35",
                 "ids": [
         [0, 100]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.36-40",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.36-40",
                 "ids": [
         [0, 81]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.41-45",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.41-45",
                 "ids": [
         [0, 78],
         [1, 215]
@@ -711,7 +711,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.46-50",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.46-50",
                 "ids": [
         [0, 257],
         [1, 260],
@@ -738,7 +738,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.51-55",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.51-55",
                 "ids": [
         [0, 299],
         [1, 322],
@@ -747,7 +747,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.56-60",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.56-60",
                 "ids": [
         [0, 326],
         [1, 327],
@@ -768,7 +768,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.61-65",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.61-65",
                 "ids": [
         [0, 445],
         [1, 446],
@@ -781,7 +781,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.66-70",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.66-70",
                 "ids": [
         [0, 450],
         [1, 634],
@@ -802,7 +802,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.71-75",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.71-75",
                 "ids": [
         [0, 550],
         [1, 551],
@@ -814,7 +814,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.76-80",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.76-80",
                 "ids": [
         [0, 553],
         [1, 554],
@@ -826,7 +826,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.81-85",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.81-85",
                 "ids": [
         [0, 648],
         [1, 649],
@@ -849,7 +849,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.86-90",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.86-90",
                 "ids": [
         [0, 653],
         [1, 657],
@@ -862,7 +862,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.91-95",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.91-95",
                 "ids": [
         [0, 746],
         [1, 800]
@@ -870,7 +870,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.96-100",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.96-100",
                 "ids": [
         [0, 791],
         [1, 753],
@@ -879,14 +879,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.abalathia",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.abalathia",
                 "ids": [
         [0, 335]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.coerthas",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.coerthas",
                 "ids": [
         [0, 338],
         [1, 337]
@@ -894,7 +894,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.dravania",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.dravania",
                 "ids": [
         [0, 339],
         [1, 422]
@@ -902,7 +902,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.ilsabard-and-northern-empty",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.ilsabard-and-northern-empty",
                 "ids": [
         [0, 706],
         [1, 708],
@@ -914,7 +914,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.norvrandt",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.norvrandt",
                 "ids": [
         [0, 609],
         [1, 610],
@@ -923,7 +923,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.sea-of-stars",
                 "ids": [
         [0, 658],
         [1, 659]
@@ -931,7 +931,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered",
+                "group": "game.logs.gathering.gathering-log.quarrying.regional-folklore.world-unsundered",
                 "ids": [
         [0, 658],
         [1, 660]
@@ -939,7 +939,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.sidequests.ishgard-restoration",
+                "group": "game.logs.gathering.gathering-log.quarrying.sidequests.ishgard-restoration",
                 "ids": [
         [0, 10645],
         [1, 10651],
@@ -960,7 +960,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.quarrying.sidequests.skysteel-tools",
+                "group": "game.logs.gathering.gathering-log.quarrying.sidequests.skysteel-tools",
                 "ids": [
         [0, 10527],
         [1, 10526]
@@ -970,7 +970,7 @@
         "gathering-logging": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.collectables.50-70",
+                "group": "game.logs.gathering.gathering-log.logging.collectables.50-70",
                 "ids": [
         [0, 10620],
         [1, 10621],
@@ -986,7 +986,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.collectables.71-80",
+                "group": "game.logs.gathering.gathering-log.logging.collectables.71-80",
                 "ids": [
         [0, 10630],
         [1, 10631],
@@ -1000,7 +1000,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.collectables.81-90",
+                "group": "game.logs.gathering.gathering-log.logging.collectables.81-90",
                 "ids": [
         [0, 10771],
         [1, 10772],
@@ -1012,7 +1012,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.collectables.91-100",
+                "group": "game.logs.gathering.gathering-log.logging.collectables.91-100",
                 "ids": [
         [0, 10198],
         [1, 10199],
@@ -1022,7 +1022,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.1-5",
+                "group": "game.logs.gathering.gathering-log.logging.level.1-5",
                 "ids": [
         [0, 137],
         [1, 1],
@@ -1041,7 +1041,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.11-15",
+                "group": "game.logs.gathering.gathering-log.logging.level.11-15",
                 "ids": [
         [0, 110],
         [1, 122]
@@ -1049,7 +1049,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.16-20",
+                "group": "game.logs.gathering.gathering-log.logging.level.16-20",
                 "ids": [
         [0, 128],
         [1, 238],
@@ -1063,7 +1063,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.21-25",
+                "group": "game.logs.gathering.gathering-log.logging.level.21-25",
                 "ids": [
         [0, 108],
         [1, 127],
@@ -1072,7 +1072,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.26-30",
+                "group": "game.logs.gathering.gathering-log.logging.level.26-30",
                 "ids": [
         [0, 7],
         [1, 8],
@@ -1093,7 +1093,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.31-35",
+                "group": "game.logs.gathering.gathering-log.logging.level.31-35",
                 "ids": [
         [0, 111],
         [1, 112],
@@ -1102,7 +1102,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.36-40",
+                "group": "game.logs.gathering.gathering-log.logging.level.36-40",
                 "ids": [
         [0, 102],
         [1, 130],
@@ -1113,7 +1113,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.41-45",
+                "group": "game.logs.gathering.gathering-log.logging.level.41-45",
                 "ids": [
         [0, 119],
         [1, 242],
@@ -1122,7 +1122,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.46-50",
+                "group": "game.logs.gathering.gathering-log.logging.level.46-50",
                 "ids": [
         [0, 140],
         [1, 139],
@@ -1153,7 +1153,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.51-55",
+                "group": "game.logs.gathering.gathering-log.logging.level.51-55",
                 "ids": [
         [0, 366],
         [1, 349],
@@ -1164,7 +1164,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.56-60",
+                "group": "game.logs.gathering.gathering-log.logging.level.56-60",
                 "ids": [
         [0, 371],
         [1, 393],
@@ -1181,7 +1181,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.6-10",
+                "group": "game.logs.gathering.gathering-log.logging.level.6-10",
                 "ids": [
         [0, 116],
         [1, 124],
@@ -1196,7 +1196,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.61-65",
+                "group": "game.logs.gathering.gathering-log.logging.level.61-65",
                 "ids": [
         [0, 455],
         [1, 456],
@@ -1212,7 +1212,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.66-70",
+                "group": "game.logs.gathering.gathering-log.logging.level.66-70",
                 "ids": [
         [0, 462],
         [1, 463],
@@ -1229,7 +1229,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.71-75",
+                "group": "game.logs.gathering.gathering-log.logging.level.71-75",
                 "ids": [
         [0, 559],
         [1, 558],
@@ -1247,7 +1247,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.76-80",
+                "group": "game.logs.gathering.gathering-log.logging.level.76-80",
                 "ids": [
         [0, 564],
         [1, 565],
@@ -1258,7 +1258,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.81-85",
+                "group": "game.logs.gathering.gathering-log.logging.level.81-85",
                 "ids": [
         [0, 661],
         [1, 664],
@@ -1273,7 +1273,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.86-90",
+                "group": "game.logs.gathering.gathering-log.logging.level.86-90",
                 "ids": [
         [0, 666],
         [1, 667],
@@ -1284,7 +1284,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.91-95",
+                "group": "game.logs.gathering.gathering-log.logging.level.91-95",
                 "ids": [
         [0, 798],
         [1, 761],
@@ -1299,7 +1299,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.level.96-100",
+                "group": "game.logs.gathering.gathering-log.logging.level.96-100",
                 "ids": [
         [0, 777],
         [1, 774],
@@ -1309,7 +1309,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.abalathia",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.abalathia",
                 "ids": [
         [0, 381],
         [1, 380]
@@ -1317,7 +1317,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.dravania",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.dravania",
                 "ids": [
         [0, 401],
         [1, 407],
@@ -1327,7 +1327,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.gyr-abania",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.gyr-abania",
                 "ids": [
         [0, 467],
         [1, 510],
@@ -1337,7 +1337,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.ilsabard-and-northern-empty",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.ilsabard-and-northern-empty",
                 "ids": [
         [0, 710],
         [1, 711],
@@ -1351,7 +1351,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.norvrandt",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.norvrandt",
                 "ids": [
         [0, 569],
         [1, 607],
@@ -1362,7 +1362,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.world-unsundered",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.world-unsundered",
                 "ids": [
         [0, 671],
         [1, 672],
@@ -1373,21 +1373,21 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.xak-tural",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.xak-tural",
                 "ids": [
         [0, 789]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.regional-folklore.yok-tural",
+                "group": "game.logs.gathering.gathering-log.logging.regional-folklore.yok-tural",
                 "ids": [
         [0, 788]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.sidequests.ishgard-restoration",
+                "group": "game.logs.gathering.gathering-log.logging.sidequests.ishgard-restoration",
                 "ids": [
         [0, 10642],
         [1, 10646],
@@ -1408,7 +1408,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.sidequests.skysteel-tools",
+                "group": "game.logs.gathering.gathering-log.logging.sidequests.skysteel-tools",
                 "ids": [
         [0, 10520],
         [1, 10521],
@@ -1424,7 +1424,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.logging.sidequests.splendorous-tools",
+                "group": "game.logs.gathering.gathering-log.logging.sidequests.splendorous-tools",
                 "ids": [
         [0, 10834],
         [1, 10835],
@@ -1444,7 +1444,7 @@
         "gathering-harvesting": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.collectables.50-70",
+                "group": "game.logs.gathering.gathering-log.harvesting.collectables.50-70",
                 "ids": [
         [0, 10638],
         [1, 10639]
@@ -1452,7 +1452,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.collectables.71-80",
+                "group": "game.logs.gathering.gathering-log.harvesting.collectables.71-80",
                 "ids": [
         [0, 10640],
         [1, 10641]
@@ -1460,7 +1460,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.collectables.81-90",
+                "group": "game.logs.gathering.gathering-log.harvesting.collectables.81-90",
                 "ids": [
         [0, 10770],
         [1, 10775],
@@ -1470,7 +1470,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.collectables.91-100",
+                "group": "game.logs.gathering.gathering-log.harvesting.collectables.91-100",
                 "ids": [
         [0, 10195],
         [1, 10197],
@@ -1480,7 +1480,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.1-5",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.1-5",
                 "ids": [
         [0, 1],
         [1, 2],
@@ -1498,7 +1498,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.11-15",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.11-15",
                 "ids": [
         [0, 158],
         [1, 206],
@@ -1538,7 +1538,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.16-20",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.16-20",
                 "ids": [
         [0, 178],
         [1, 151],
@@ -1556,7 +1556,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.21-25",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.21-25",
                 "ids": [
         [0, 179],
         [1, 240],
@@ -1575,7 +1575,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.26-30",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.26-30",
                 "ids": [
         [0, 157],
         [1, 7],
@@ -1593,7 +1593,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.31-35",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.31-35",
                 "ids": [
         [0, 210],
         [1, 295],
@@ -1614,7 +1614,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.36-40",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.36-40",
                 "ids": [
         [0, 184],
         [1, 241],
@@ -1626,7 +1626,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.41-45",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.41-45",
                 "ids": [
         [0, 155],
         [1, 181],
@@ -1637,7 +1637,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.46-50",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.46-50",
                 "ids": [
         [0, 156],
         [1, 199],
@@ -1668,7 +1668,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.51-55",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.51-55",
                 "ids": [
         [0, 344],
         [1, 367],
@@ -1686,7 +1686,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.56-60",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.56-60",
                 "ids": [
         [0, 373],
         [1, 630],
@@ -1725,7 +1725,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.61-65",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.61-65",
                 "ids": [
         [0, 516],
         [1, 472],
@@ -1748,7 +1748,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.66-70",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.66-70",
                 "ids": [
         [0, 483],
         [1, 484],
@@ -1779,7 +1779,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.71-75",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.71-75",
                 "ids": [
         [0, 573],
         [1, 574],
@@ -1803,7 +1803,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.76-80",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.76-80",
                 "ids": [
         [0, 583],
         [1, 585],
@@ -1825,7 +1825,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.81-85",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.81-85",
                 "ids": [
         [0, 675],
         [1, 674],
@@ -1854,7 +1854,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.86-90",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.86-90",
                 "ids": [
         [0, 683],
         [1, 688],
@@ -1869,7 +1869,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.91-95",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.91-95",
                 "ids": [
         [0, 759],
         [1, 757],
@@ -1886,7 +1886,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.level.96-100",
+                "group": "game.logs.gathering.gathering-log.harvesting.level.96-100",
                 "ids": [
         [0, 773],
         [1, 772],
@@ -1903,14 +1903,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.abalathia",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.abalathia",
                 "ids": [
         [0, 417]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.alexandria",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.alexandria",
                 "ids": [
         [0, 790],
         [1, 795]
@@ -1918,7 +1918,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.coerthas",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.coerthas",
                 "ids": [
         [0, 383],
         [1, 382],
@@ -1927,7 +1927,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.dravania",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.dravania",
                 "ids": [
         [0, 384],
         [1, 379],
@@ -1936,14 +1936,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.gyr-abania",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.gyr-abania",
                 "ids": [
         [0, 511]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-and-northern-empty",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-and-northern-empty",
                 "ids": [
         [0, 671],
         [1, 689],
@@ -1953,7 +1953,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.norvrandt",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.norvrandt",
                 "ids": [
         [0, 596],
         [1, 612],
@@ -1964,7 +1964,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.othard",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.othard",
                 "ids": [
         [0, 500],
         [1, 507],
@@ -1973,7 +1973,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.regional-folklore.sea-of-stars",
+                "group": "game.logs.gathering.gathering-log.harvesting.regional-folklore.sea-of-stars",
                 "ids": [
         [0, 671],
         [1, 690],
@@ -1984,7 +1984,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.sidequests.ishgard-restoration",
+                "group": "game.logs.gathering.gathering-log.harvesting.sidequests.ishgard-restoration",
                 "ids": [
         [0, 10643],
         [1, 10648],
@@ -2011,7 +2011,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.gathering-log.harvesting.sidequests.skysteel-tools",
+                "group": "game.logs.gathering.gathering-log.harvesting.sidequests.skysteel-tools",
                 "ids": [
         [0, 10520],
         [1, 10521],
@@ -2023,7 +2023,7 @@
         "facewear": [
             {
                 "type": "changeKeys",
-                "group": "overall.character.facewear",
+                "group": "game.character.facewear",
                 "ids": [
                     [14, 0],
                     [1, 1],
@@ -2049,7 +2049,7 @@
         "fishing-guide": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-1",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-1",
                 "ids": [
         [0, 1],
         [1, 2],
@@ -2155,7 +2155,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-2",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-2",
                 "ids": [
         [0, 101],
         [1, 102],
@@ -2261,7 +2261,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-3",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-3",
                 "ids": [
         [0, 201],
         [1, 202],
@@ -2367,7 +2367,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-4",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-4",
                 "ids": [
         [0, 301],
         [1, 302],
@@ -2473,7 +2473,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-5",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-5",
                 "ids": [
         [0, 401],
         [1, 402],
@@ -2579,7 +2579,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-6",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-6",
                 "ids": [
         [0, 501],
         [1, 502],
@@ -2685,7 +2685,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-7",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-7",
                 "ids": [
         [0, 601],
         [1, 602],
@@ -2791,7 +2791,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-8",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-8",
                 "ids": [
         [0, 701],
         [1, 702],
@@ -2897,7 +2897,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-9",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-9",
                 "ids": [
         [0, 801],
         [1, 802],
@@ -3003,7 +3003,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-10",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-10",
                 "ids": [
         [0, 901],
         [1, 902],
@@ -3109,7 +3109,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-11",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-11",
                 "ids": [
         [0, 1001],
         [1, 1002],
@@ -3215,7 +3215,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-12",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-12",
                 "ids": [
         [0, 1101],
         [1, 1102],
@@ -3321,7 +3321,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-13",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-13",
                 "ids": [
         [0, 1201],
         [1, 1202],
@@ -3427,7 +3427,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-14",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-14",
                 "ids": [
         [0, 1302],
         [1, 1303],
@@ -3533,7 +3533,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.fishing.page-15",
+                "group": "game.logs.gathering.fishing-guide.fishing.page-15",
                 "ids": [
         [0, 1405],
         [1, 1406],
@@ -3571,7 +3571,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.spearfishing.page-1",
+                "group": "game.logs.gathering.fishing-guide.spearfishing.page-1",
                 "ids": [
         [0, 20000],
         [1, 20001],
@@ -3677,7 +3677,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.spearfishing.page-2",
+                "group": "game.logs.gathering.fishing-guide.spearfishing.page-2",
                 "ids": [
         [0, 20100],
         [1, 20101],
@@ -3783,7 +3783,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-guide.spearfishing.page-3",
+                "group": "game.logs.gathering.fishing-guide.spearfishing.page-3",
                 "ids": [
         [0, 20200],
         [1, 20201],
@@ -3880,7 +3880,7 @@
         "fishing-log": [
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.abalathias-spine",
+                "group": "game.logs.gathering.fishing-log.fishing.abalathias-spine",
                 "ids": [
         [0, 135],
         [1, 136],
@@ -3898,7 +3898,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.coerthas",
+                "group": "game.logs.gathering.fishing-log.fishing.coerthas",
                 "ids": [
         [0, 26],
         [1, 31],
@@ -3921,7 +3921,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.dravania",
+                "group": "game.logs.gathering.fishing-log.fishing.dravania",
                 "ids": [
         [0, 117],
         [1, 118],
@@ -3945,7 +3945,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.gyr-abania",
+                "group": "game.logs.gathering.fishing-log.fishing.gyr-abania",
                 "ids": [
         [0, 182],
         [1, 183],
@@ -3966,7 +3966,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.hingashi",
+                "group": "game.logs.gathering.fishing-log.fishing.hingashi",
                 "ids": [
         [0, 157],
         [1, 197],
@@ -3975,7 +3975,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.ilsabard",
+                "group": "game.logs.gathering.fishing-log.fishing.ilsabard",
                 "ids": [
         [0, 260],
         [2, 261],
@@ -3993,7 +3993,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.la-noscea",
+                "group": "game.logs.gathering.fishing-log.fishing.la-noscea",
                 "ids": [
         [0, 36],
         [1, 35],
@@ -4043,7 +4043,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.mor-dhona",
+                "group": "game.logs.gathering.fishing-log.fishing.mor-dhona",
                 "ids": [
         [0, 22],
         [1, 25],
@@ -4055,7 +4055,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.norvrandt",
+                "group": "game.logs.gathering.fishing-log.fishing.norvrandt",
                 "ids": [
         [0, 199],
         [1, 200],
@@ -4100,7 +4100,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.othard",
+                "group": "game.logs.gathering.fishing-log.fishing.othard",
                 "ids": [
         [0, 158],
         [1, 159],
@@ -4130,7 +4130,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.thanalan",
+                "group": "game.logs.gathering.fishing-log.fishing.thanalan",
                 "ids": [
         [0, 72],
         [1, 73],
@@ -4160,7 +4160,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.the-black-shroud",
+                "group": "game.logs.gathering.fishing-log.fishing.the-black-shroud",
                 "ids": [
         [0, 90],
         [1, 91],
@@ -4192,7 +4192,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.the-high-seas",
+                "group": "game.logs.gathering.fishing-log.fishing.the-high-seas",
                 "ids": [
         [0, 237],
         [1, 238],
@@ -4220,7 +4220,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.the-northern-empty",
+                "group": "game.logs.gathering.fishing-log.fishing.the-northern-empty",
                 "ids": [
         [0, 252],
         [1, 253],
@@ -4234,7 +4234,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.the-sea-of-stars",
+                "group": "game.logs.gathering.fishing-log.fishing.the-sea-of-stars",
                 "ids": [
         [0, 272],
         [1, 273],
@@ -4251,7 +4251,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.the-world-unsundered",
+                "group": "game.logs.gathering.fishing-log.fishing.the-world-unsundered",
                 "ids": [
         [0, 275],
         [2, 276],
@@ -4260,7 +4260,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.unlost-world",
+                "group": "game.logs.gathering.fishing-log.fishing.unlost-world",
                 "ids": [
         [0, 328],
         [1, 329],
@@ -4272,7 +4272,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.xak-tural",
+                "group": "game.logs.gathering.fishing-log.fishing.xak-tural",
                 "ids": [
         [0, 327],
         [1, 319],
@@ -4287,7 +4287,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.fishing.yok-tural",
+                "group": "game.logs.gathering.fishing-log.fishing.yok-tural",
                 "ids": [
         [0, 294],
         [2, 295],
@@ -4318,7 +4318,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.gyr-abania",
+                "group": "game.logs.gathering.fishing-log.spearfishing.gyr-abania",
                 "ids": [
         [0, 13],
         [1, 14],
@@ -4330,7 +4330,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.ilsabard",
+                "group": "game.logs.gathering.fishing-log.spearfishing.ilsabard",
                 "ids": [
         [0, 36],
         [4, 40],
@@ -4341,7 +4341,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.la-noscea",
+                "group": "game.logs.gathering.fishing-log.spearfishing.la-noscea",
                 "ids": [
         [0, 52],
         [1, 54]
@@ -4349,7 +4349,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.norvrandt",
+                "group": "game.logs.gathering.fishing-log.spearfishing.norvrandt",
                 "ids": [
         [0, 16],
         [1, 17],
@@ -4372,7 +4372,7 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.othard",
+                "group": "game.logs.gathering.fishing-log.spearfishing.othard",
                 "ids": [
         [0, 0],
         [1, 1],
@@ -4403,14 +4403,14 @@
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.xak-tural",
+                "group": "game.logs.gathering.fishing-log.spearfishing.xak-tural",
                 "ids": [
         [0, 61]
     ]
             },
             {
                 "type": "changeKeys",
-                "group": "overall.logs.gathering.fishing-log.spearfishing.yok-tural",
+                "group": "game.logs.gathering.fishing-log.spearfishing.yok-tural",
                 "ids": [
         [0, 55],
         [1, 56],
@@ -4426,7 +4426,7 @@
         "mahjong-voices": [
             {
                 "type": "changeKeys",
-                "group": "overall.character.gold-saucer.mahjong-voices",
+                "group": "game.character.gold-saucer.mahjong-voices",
                 "ids": [
                     [12, 1],
                     [16, 2],
@@ -4442,7 +4442,7 @@
         "dyes": [
             {
                 "type": "deleteTasks",
-                "group": "overall.logs.crafting-log.shared.dyes",
+                "group": "game.logs.crafting-log.shared.dyes",
                 "ids": [
                     { "start": 30001, "end": 30013 },
                     { "start": 30105, "end": 30110 },
@@ -4451,19 +4451,19 @@
             },
             {
                 "type": "deleteTasks",
-                "group": "overall.logs.gathering.gathering-log.logging.level.26-30",
+                "group": "game.logs.gathering.gathering-log.logging.level.26-30",
                 "ids": [29, 30, 31, 32, 33, 34, 35]
             },
             {
                 "type": "deleteTasks",
-                "group": "overall.logs.gathering.gathering-log.quarrying.level.26-30",
+                "group": "game.logs.gathering.gathering-log.quarrying.level.26-30",
                 "ids": [29, 30, 31, 32, 33, 34, 35]
             }
         ],
         "manderville-relics": [
             {
                 "type": "changeKeys",
-                "group": "overall.character.relic-gear.manderville",
+                "group": "game.character.relic-gear.manderville",
                 "ids": [
                     [0, 11],
                     [19, 12],

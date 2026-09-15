@@ -25,7 +25,7 @@ export class CopyIdActionComponent {
     @Input({ required: true }) task!: Task;
 
     copyTaskId(): void {
-        const path = this.task.fullStorageKey.replace('overall.', '');
+        const path = this.task.fullStorageKey.replace('game.', '');
         navigator.clipboard.writeText(path);
     }
 

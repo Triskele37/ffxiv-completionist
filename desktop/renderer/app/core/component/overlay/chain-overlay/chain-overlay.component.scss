@@ -1,55 +1,79 @@
-// Shared container class for all overlays
-.overlay-container {
-    $nav-arrow-width: 38px;
+:host {
+    .chain-history-button {
+        overflow: visible;
 
-    .do-notify ::ng-deep ng-icon[name="matLink"] {
-        animation: chainNotificationPulse 2s infinite;
+        .do-notify ::ng-deep ng-icon[name="matLink"] {
+            animation: chainNotificationPulse 2s infinite;
+        }
+
+        ::ng-deep .p-badge {
+            $size: 14px;
+
+            position: absolute;
+            transform: translateX(-50%);
+            bottom: -($size * 0.5);
+            left: 50%;
+            z-index: 999;
+
+            border: 1px solid var(--surface-500);
+            background: var(--primary-color-light);
+
+            line-height: $size;
+            height: $size;
+            min-width: $size;
+        }
     }
 
-    ::ng-deep .p-badge {
-        $size: 14px;
-
-        position: absolute;
-        transform: translateX(-50%);
-        bottom: -($size * 0.5);
-        left: 50%;
-        z-index: 999;
-
-        border: 1px solid var(--surface-500);
-        background: var(--primary-color-light);
-
-        line-height: $size;
-        height: $size;
-        min-width: $size;
+    ::ng-deep .p-popover-content {
+        padding: 0;
+        padding-top: 1px;
     }
 
-    .overlay-panel {
-        .content {
-            gap: 1px;
+    .chain-history-popover-container {
+        border: 1px solid var(--primary-color);
+        border-radius: var(--border-radius);
+        overflow: hidden;
 
-            p-button:not(.undo-button) ::ng-deep .p-button {
-                border-radius: unset;
+        .no-content {
+            padding: var(--content-padding);
+        }
+
+        .chain-history-container {
+            display: flex;
+            flex-direction: column;
+            gap: var(--content-padding);
+            width: 700px;
+
+            .undo-button-container {
+                .undo-button {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    width: 100%;
+                }
+
+                ::ng-deep > p-button-group > .p-buttongroup {
+                    width: 100%;
+
+                    > .p-button:nth-child(1) {
+                        border-top-left-radius: var(--content-padding);
+                        width: 33%;
+                    }
+
+                    > .p-button:nth-child(2) {
+                        width: 34%;
+                    }
+
+                    > .p-button:nth-child(3) {
+                        border-bottom-right-radius: 0;
+                        width: 33%;
+                    }
+                }
             }
 
             .chain-start {
                 display: flex;
-
-                .summary {
-                    display: inline-flex;
-                    flex-direction: column;
-                    align-items: center;
-                    width: calc(100% - #{$nav-arrow-width});
-
-                    .task {
-                        display: flex;
-                        align-items: center;
-                    }
-                }
-
-                ::ng-deep .p-button.nav {
-                    height: 50px;
-                    width: $nav-arrow-width;
-                }
+                align-items: center;
+                justify-content: center;
             }
 
             .chain-scroll-container {
@@ -58,31 +82,39 @@
                 align-items: flex-start;
                 gap: 1px;
 
+                box-shadow: 0 10px 10px -10px var(--primary-color);
+
                 overflow-y: auto;
-                height: 50vh;
-                min-width: 700px;
+                min-height: 202px;
+                max-height: 50vh;
+                width: 100%;
 
                 .chain-group {
                     display: flex;
+                    align-items: center;
+                    padding: 2px;
+                    padding-left: var(--content-padding);
                     width: 100%;
-                    gap: 1px;
+                    border-top: 1px solid var(--primary-color);
 
-                    .path ::ng-deep {
-                        width: calc(100% - #{$nav-arrow-width});
-                        justify-content: left;
-
-                        .p-button {
-                            flex-wrap: nowrap;
-                            height: 38px;
-                            width: 100%;
-                        }
+                    $icon-size: 28px;
+                    .toggle-collapse {
+                        flex-shrink: 0;
+                        border-radius: 50%;
+                        height: $icon-size;
+                        width: $icon-size;
                     }
 
-                    .nav ::ng-deep {
-                        .p-button {
-                            height: 38px;
-                            width: $nav-arrow-width;
-                        }
+                    $count-width: 50px;
+                    .count {
+                        padding-left: var(--content-padding);
+                        flex-shrink: 0;
+                        text-align: center;
+                        width: $count-width;
+                    }
+
+                    .group-link {
+                        width: calc(100% - ($icon-size + $count-width));
                     }
                 }
 
@@ -92,48 +124,59 @@
                     padding: 0 0 0 25px;
                     width: 100%;
 
+                    ng-icon {
+                        line-height: unset;
+                    }
+
                     .task-name {
-                        padding-left: 10px;
+                        padding-left: var(--content-padding);
                     }
                 }
             }
 
             .Y, .N, .X {
                 display: inline-block;
-                padding: 3px;
+                padding: 0 3px;
             }
 
-            .Y { background-color: var(--completed); }
-            .N { background-color: var(--incomplete); }
+            .Y {
+                background-color: var(--completed);
+            }
+
+            .N {
+                background-color: var(--incomplete);
+            }
+
             .X {
                 background-color: var(--excluded);
                 color: black;
             }
 
-            ::ng-deep p-divider {
-                margin-top: 5px;
-                margin-bottom: 0;
-            }
+            .chain-history-list-container {
+                ::ng-deep p-divider {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
 
-            .previous-chain-container {
-                width: 100%;
+                .divider-content {
+                    text-align: center;
+                }
 
-                .previous-chains {
-                    display: flex;
-                    flex-wrap: wrap;
+                .previous-chain-container {
+                    width: 100%;
 
-                    :last-child {
-                        display: none;
+                    .previous-chains {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        :last-child {
+                            display: none;
+                        }
                     }
                 }
             }
         }
     }
-}
-
-// Push navigation tooltips outside the overlay
-::ng-deep .chain-navigate-tooltip {
-    margin-left: 10px;
 }
 
 @keyframes chainNotificationPulse {

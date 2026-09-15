@@ -28,7 +28,7 @@ export class ChangeStore {
 
         // Create the initial store object for new users
         const save: PlayerSave = this.svcSaveStore.data || {
-            overall: {},
+            game: {},
             custom: {},
             notes: {},
             'bookmarked-groups': [],

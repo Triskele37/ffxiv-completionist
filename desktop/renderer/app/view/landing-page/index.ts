@@ -21,6 +21,6 @@ export class LandingPageComponent {
     }
 
     onCompletionClick(): void {
-        this.svcNavigation.setBreadcrumbs(['overall']);
+        this.svcNavigation.setBreadcrumbs(['game']);
     }
 }

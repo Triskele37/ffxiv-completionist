@@ -47,8 +47,8 @@ export class NoteService {
         const notes = this.svcSave.get('notes');
 
         for(const k in notes) {
-            // Remove 'Overall' step
-            const path = k.replace(/^overall./, '');
+            // Remove 'game' step
+            const path = k.replace(/^game./, '');
 
             // Add the notable to this group
             const notable = this.svcData.get.getChild(this.svcData.data, path);

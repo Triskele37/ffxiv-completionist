@@ -52,7 +52,7 @@ export class SummaryLineComponent implements OnChanges {
 
         if(this.showGroupInTooltip) {
             const groupPath = getGroupPath(this.group);
-            groupPath.shift(); // remove overall
+            groupPath.shift(); // remove game key
             groupPath.pop(); // remove group name
 
             tooltip += `${groupPath.join(' > ')}\n`;
@@ -80,7 +80,7 @@ export class SummaryLineComponent implements OnChanges {
             tooltip += this.translate.instant('APP.STATISTICS.EXCLUDED');
             tooltip += `: ${excluded.toLocaleString()}`;
 
-            // Don't add weight for overall
+            // Don't add weight for root group
             if(weight !== 100) {
                 tooltip += '\n\n';
                 tooltip += this.translate.instant('APP.STATISTICS.WEIGHT');

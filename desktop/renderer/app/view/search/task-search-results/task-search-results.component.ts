@@ -95,7 +95,7 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
     }
 
     onCopyPathClick(match: Match): void {
-        const path = match.task.fullStorageKey.replace('overall.', '');
+        const path = match.task.fullStorageKey.replace('game.', '');
         navigator.clipboard.writeText(path);
     }
 

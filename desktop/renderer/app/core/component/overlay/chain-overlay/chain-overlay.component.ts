@@ -1,19 +1,17 @@
 import { Component, signal, effect, inject } from '@angular/core';
-import { NgClass } from '@angular/common';
+import { NgClass, NgTemplateOutlet } from '@angular/common';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Badge } from 'primeng/badge';
 import { ButtonDirective } from 'primeng/button';
 import { Divider } from 'primeng/divider';
-import { Tooltip } from 'primeng/tooltip';
+import { Popover } from 'primeng/popover';
 
 import { DataService } from '@service/data/data-service';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
-import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
-import type { ChainedGroup, ChainStart } from '@service/chain/types';
-
-import { Overlay } from '../Overlay';
+import type { ChainedGroup } from '@service/chain/types';
+import { ButtonGroup } from 'primeng/buttongroup';
 
 @Component({
     selector: 'com-chain-overlay',
@@ -24,26 +22,25 @@ import { Overlay } from '../Overlay';
     ],
     imports: [
         NgClass,
+        NgTemplateOutlet,
         TranslatePipe,
         NgIcon,
         Badge,
         ButtonDirective,
         ContentLinkComponent,
         Divider,
-        Tooltip
+        Popover,
+        ButtonGroup
     ]
 })
-export class ChainOverlayComponent extends Overlay {
+export class ChainOverlayComponent {
     private svcData = inject(DataService);
-    private svcNavigation = inject(NavigationService);
     svcChain = inject(ChainService);
 
     undoVerified = signal(false);
     doNotify = signal(false);
 
     constructor() {
-        super();
-
         // Enable the badge notification when new chain occurs
         effect(() => {
             const chainedTaskCount = this.svcChain.chainedTaskCount();
@@ -57,36 +54,28 @@ export class ChainOverlayComponent extends Overlay {
         });
     }
 
-    //#region------------------------------------------------------- Template Actions
     onMouseEnter(): void {
-        super.onMouseEnter();
-        if(this.isOverlayVisible()) this.doNotify.set(false);
+        this.doNotify.set(false);
     }
 
     onToggleShowChainedGroup(group: ChainedGroup): void {
         group.show = !group.show;
     }
 
-    onNavigateToGroup(chain: ChainStart | ChainedGroup): void {
-        const task = 'task' in chain ? chain.task : chain.tasks[0].task;
-        const path = task.fullStorageKey.split('.');
-        path.pop();
-        this.svcNavigation.setBreadcrumbs(path);
-    }
-
-    onUndoLastChain(): void {
+    onUndoLastChain(confirmed?: boolean): void {
         // Allow for oopsie clicks
-        if(!this.undoVerified()) {
+        if(confirmed === undefined) {
             this.undoVerified.set(true);
             return;
         }
 
         this.undoVerified.set(false);
 
+        if(!confirmed) return;
+
         // Fire undo and apply changes to save
         this.svcChain.history.undoCurrentChain();
         this.svcData.apply.dataToStore();
     }
 
-    //#endregion
 }

@@ -13,7 +13,7 @@ export function applyChains(
     const chainMeta = { task, flag, force };
 
     // Don't chain again if this task has already chained
-    // if(DataGroup.overall.chainedTasks && !!DataGroup.overall.chainedTasks[`x${chainer.task.id}`]) {
+    // if(DataGroup.game.chainedTasks && !!DataGroup.game.chainedTasks[`x${chainer.task.id}`]) {
     //     return;
     // }
 

@@ -53,7 +53,7 @@ for(const [shorthand, meta] of INDEX.entries()) {
  */
 function createIndex(base: string, exclude?: string[]): IndexMeta {
     return {
-        base: 'overall.' + base,
+        base: 'game.' + base,
         exclude,
         map: new Map<number, Task>
     };

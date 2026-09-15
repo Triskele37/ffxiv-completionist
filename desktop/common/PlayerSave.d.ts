@@ -4,7 +4,7 @@ export type SaveLoad = {
 };
 
 export type PlayerSave = {
-    overall: Record<string, any>;
+    game: Record<string, any>;
     custom: Record<string, any>;
     notes: Record<string, string>;
     'bookmarked-groups': string[];

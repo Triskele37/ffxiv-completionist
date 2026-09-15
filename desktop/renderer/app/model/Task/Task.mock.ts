@@ -9,7 +9,7 @@ export function mockFullTask(options: Partial<Task> = {}): Task {
         name: 'Mock Task',
         _parent: undefined as any,
         storageKey: '0',
-        fullStorageKey: 'overall.0',
+        fullStorageKey: 'game.0',
         contentLink: '0',
 
         // UI

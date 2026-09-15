@@ -2,7 +2,7 @@ import { PlayerSave } from '../../../common/PlayerSave';
 
 export function getDefaultSave(): PlayerSave {
     return {
-        'overall': {},
+        'game': {},
         'custom': {},
         notes: {},
         'bookmarked-groups': [],

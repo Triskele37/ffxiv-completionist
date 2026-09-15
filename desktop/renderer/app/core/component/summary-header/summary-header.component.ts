@@ -1,5 +1,6 @@
 import type { OnInit } from '@angular/core';
 import { Component, effect, signal, inject } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import type { MenuItem } from 'primeng/api';
 import { ContextMenu } from 'primeng/contextmenu';
 
@@ -9,7 +10,7 @@ import type { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 enum Lines {
-    Overall = 0,
+    Game = 0,
     Group = 1
 }
 
@@ -22,6 +23,7 @@ enum Lines {
     ]
 })
 export class SummaryHeaderComponent implements OnInit {
+    private svcTranslate = inject(TranslateService);
     private svcData = inject(DataService);
     svcNavigation = inject(NavigationService);
 
@@ -34,11 +36,11 @@ export class SummaryHeaderComponent implements OnInit {
     // Actions available when right clicking either bar
     contextMenuItems: MenuItem[] = [
         {
-            label: 'Hide Overall',
+            label: this.svcTranslate.instant('APP.STATISTICS.HIDE_GAME'),
             command: this.toggleOverall.bind(this),
             state: { hide: false }
         }, {
-            label: 'Hide Group Line',
+            label: this.svcTranslate.instant('APP.STATISTICS.HIDE_GROUP'),
             command: this.toggleGroup.bind(this)
         }
     ];
@@ -59,8 +61,8 @@ export class SummaryHeaderComponent implements OnInit {
             this.hideOverall.set(false);
         }
         else {
-            // Reapply overall as hidden if it was before navigating to the overall page
-            this.hideOverall.set(this.contextMenuItems[Lines.Overall].state?.hide);
+            // Reapply game as hidden if it was before navigating to the game page
+            this.hideOverall.set(this.contextMenuItems[Lines.Game].state?.hide);
         }
 
         this.updateContextMenuItems();
@@ -68,7 +70,7 @@ export class SummaryHeaderComponent implements OnInit {
 
     toggleOverall(): void {
         this.hideOverall.set(!this.hideOverall());
-        this.contextMenuItems[Lines.Overall].state = { hide: this.hideOverall() };
+        this.contextMenuItems[Lines.Game].state = { hide: this.hideOverall() };
         this.updateContextMenuItems();
     }
 
@@ -78,16 +80,20 @@ export class SummaryHeaderComponent implements OnInit {
     }
 
     updateContextMenuItems(): void {
-        const overall = this.contextMenuItems[Lines.Overall];
+        const game = this.contextMenuItems[Lines.Game];
         const group = this.contextMenuItems[Lines.Group];
 
         // Overall
-        overall.label = this.hideOverall() ? 'Show Overall Line' : 'Hide Overall Line';
-        overall.disabled = this.hideGroup();
+        game.disabled = this.hideGroup();
+        game.label = this.hideOverall()
+            ? this.svcTranslate.instant('APP.STATISTICS.SHOW_GAME')
+            : this.svcTranslate.instant('APP.STATISTICS.HIDE_GAME');
 
         // Group
-        group.label = this.hideGroup() ? 'Show Group Line' : 'Hide Group Line';
         group.disabled = this.hideOverall();
+        group.label = this.hideGroup()
+            ? this.svcTranslate.instant('APP.STATISTICS.SHOW_GROUP')
+            : this.svcTranslate.instant('APP.STATISTICS.HIDE_GROUP');
 
         // Force pContextMenu to update
         this.contextMenuItems = [...this.contextMenuItems];

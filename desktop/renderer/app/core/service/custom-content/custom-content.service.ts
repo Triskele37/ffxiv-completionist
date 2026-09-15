@@ -91,7 +91,7 @@ export class CustomContentService {
 
     // Custom content meta is one level higher than expected from svcSaveStore
     getMetaStorageKey(data: DataGroup | Task) {
-        let modifiedStorageKey = data.fullStorageKey.replace('overall.', '');
+        let modifiedStorageKey = data.fullStorageKey.replace('game.', '');
 
         if(data.dataType === 'Group') return modifiedStorageKey;
 

@@ -208,7 +208,7 @@
             "STATISTICS": {
                 "SUMMARY_ALL": {
                     "SUMMARY": "Completion Summary - All",
-                    "DETAIL": "Shows overall completion progress. Right-click to hide"
+                    "DETAIL": "Shows game completion progress. Right-click to hide"
                 },
                 "SUMMARY_CURRENT": {
                     "SUMMARY": "Completion Summary - Current Group",
@@ -522,6 +522,10 @@
             }
         },
         "STATISTICS": {
+            "SHOW_GAME": "Show Game Line",
+            "HIDE_GAME": "Hide Game Line",
+            "SHOW_GROUP": "Show Group Line",
+            "HIDE_GROUP": "Hide Group Line",
             "REMAINING": "Tâche Restante",
             "EXCLUDED": "Tâche Exclue",
             "WEIGHT": "Poids"

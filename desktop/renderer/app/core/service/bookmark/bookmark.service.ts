@@ -71,8 +71,8 @@ export class BookmarkService {
     //#region------------------------------------------------------- Tasks
     private initializeBookmarkTasks(): void {
         this.svcSave.get('bookmarked-tasks').forEach((fullStorageKey: string) => {
-            // Remove 'Overall' step
-            const path = fullStorageKey.replace(/^overall./, '');
+            // Remove 'game' step
+            const path = fullStorageKey.replace(/^game./, '');
 
             // Add the task to this group
             const task = this.svcData.get.getTask(path);
@@ -121,7 +121,7 @@ export class BookmarkService {
     //#region------------------------------------------------------- Groups
     private initializeBookmarkGroups(): void {
         this.svcSave.get('bookmarked-groups').forEach((fullStorageKey: string) => {
-            const path = fullStorageKey.replace(/^overall./, '');
+            const path = fullStorageKey.replace(/^game./, '');
 
             // Add the bookmarked group to this group
             const group = this.svcData.get.getGroup(path);
