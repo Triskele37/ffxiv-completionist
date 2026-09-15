@@ -1,0 +1,206 @@
+{
+    "key": "kugane",
+    "groupName_en": "Kugane",
+    "groupName_fr": "Kugane",
+    "tasks": {
+        "x68736": {
+            "name_en": "A Lone Wolf No More",
+            "name_fr": "Le huitième en a neuf",
+            "level": 1,
+            "npc_en": "News Hawker",
+            "npc_fr": "Crieur De Journaux",
+            "unlock": "mo.181",
+            "patch": "4.5",
+            "cPrev": ["mo.144", "mo.115", "mo.172", "mo.182", "mo.133", "mo.158", "mo.116"],
+            "cSiblings": ["a.2161"]
+        },
+        "x68675": {
+            "name_en": "The Seaweed Is Always Greener",
+            "name_fr": "Kurenai et ses commandes spéciales",
+            "level": 62,
+            "npc_en": "Kojin Hireling",
+            "npc_fr": "Émissaire Kojin",
+            "unlock_en": "Custom Deliveries: Kurenai",
+            "unlock_fr": "Custom Deliveries: Kurenai",
+            "patch": "4.3",
+            "cPrev": ["q.68541", "q.68243"],
+            "cNext": ["q.68676"],
+            "cSiblings": ["a.2067"]
+        },
+        "x68167": {
+            "name_en": "I Dream of Shirogane",
+            "name_fr": "Le cadre idyllique de Shirogane",
+            "level": 61,
+            "npc_en": "Tsurubami",
+            "npc_fr": "Tsurubami",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68201": {
+            "name_en": "Dedication to the Craft",
+            "name_fr": "Fabriqué à Kugane",
+            "level": 61,
+            "npc_en": "Near Eastern Merchant",
+            "npc_fr": "Marchande Proche-orientale",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68202": {
+            "name_en": "A Drink in the Tub",
+            "name_fr": "Les bains arrosés",
+            "level": 61,
+            "npc_en": "Amaji",
+            "npc_fr": "Amaji",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68203": {
+            "name_en": "I'll Show You Angry",
+            "name_fr": "Équilibre de marché",
+            "level": 61,
+            "npc_en": "Modest Maiden",
+            "npc_fr": "Fille Craintive",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68204": {
+            "name_en": "A Picture Is Worth a Thousand Moms",
+            "name_fr": "Nouvel angle, nouvelle facette",
+            "level": 61,
+            "npc_en": "Foreignly Lass",
+            "npc_fr": "Jeune Fille Étrangère",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68205": {
+            "name_en": "Zero Tolerance Teahouse",
+            "name_fr": "Histoire enivrante",
+            "level": 61,
+            "npc_en": "Teahouse Serving Girl",
+            "npc_fr": "Serveuse À L'Umineko",
+            "patch": "4.0",
+            "cPrev": ["q.68008"]
+        },
+        "x68206": {
+            "name_en": "Where the Wild Pandas Are",
+            "name_fr": "Choupinets fuyards",
+            "level": 61,
+            "npc_en": "Graceful Geiko",
+            "npc_fr": "Ravissante Geiko",
+            "patch": "4.0",
+            "cPrev": ["q.68011"]
+        },
+        "x68207": {
+            "name_en": "A Bleak Diagnosis",
+            "name_fr": "Un mal incurable",
+            "level": 61,
+            "npc_en": "Yamabiko",
+            "npc_fr": "Yamabiko",
+            "patch": "4.0",
+            "cPrev": ["q.68011"]
+        },
+        "x68208": {
+            "name_en": "To Bathe a Garlean",
+            "name_fr": "L'eau des sources thermales de Bokaisen",
+            "level": 61,
+            "npc_en": "Peddler of Peculiars",
+            "npc_fr": "Homme À Tout Faire",
+            "patch": "4.0",
+            "cPrev": ["q.68011"]
+        },
+        "x68348": {
+            "name_en": "The Perfect Woman",
+            "name_fr": "L'envers du décor",
+            "level": 67,
+            "npc_en": "Ijin Merchant",
+            "npc_fr": "Marchand Étranger",
+            "patch": "4.0",
+            "cPrev": ["q.68061"]
+        },
+        "x68349": {
+            "name_en": "Child Labor",
+            "name_fr": "Chaque nation a ses mœurs",
+            "level": 67,
+            "npc_en": "Keisetsu",
+            "npc_fr": "Keisetsu",
+            "patch": "4.0",
+            "cPrev": ["q.68061"]
+        },
+        "x68350": {
+            "name_en": "In the Line of Duty",
+            "name_fr": "À l'article de la mort",
+            "level": 67,
+            "npc_en": "Injured Sekiseigumi Blade",
+            "npc_fr": "Samouraï Du Sekiseigumi Blessé",
+            "patch": "4.0",
+            "cPrev": ["q.68061"]
+        },
+        "x68351": {
+            "name_en": "The Weight of a Dream",
+            "name_fr": "Excès de zèle",
+            "level": 67,
+            "npc_en": "Puissant Porter",
+            "npc_fr": "Porteur Hyurois",
+            "patch": "4.0",
+            "cPrev": ["q.68061"]
+        },
+        "x68472": {
+            "name_en": "One-star Veteran Clan Hunt",
+            "name_fr": "De la chasse...",
+            "level": 61,
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "One-star Veteran Clan Hunt",
+            "unlock_fr": "One-star Veteran Clan Hunt",
+            "patch": "4.0",
+            "cPrev": ["q.67658", "q.68008"],
+            "cNext": ["q.68473"]
+        },
+        "x68473": {
+            "name_en": "Two-star Veteran Clan Hunt",
+            "name_fr": "Encore de la chasse...",
+            "level": 63,
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Two-star Veteran Clan Hunt",
+            "unlock_fr": "Two-star Veteran Clan Hunt",
+            "patch": "4.0",
+            "cPrev": ["q.68472"],
+            "cNext": ["q.68474"]
+        },
+        "x68474": {
+            "name_en": "Three-star Veteran Clan Hunt",
+            "name_fr": "Toujours de la chasse",
+            "level": 66,
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Three-star Veteran Clan Hunt",
+            "unlock_fr": "Three-star Veteran Clan Hunt",
+            "patch": "4.0",
+            "cPrev": ["q.68473"],
+            "cNext": ["q.68475"]
+        },
+        "x68475": {
+            "name_en": "Elite Veteran Clan Hunt",
+            "name_fr": "La crème des chasseurs",
+            "level": 70,
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Elite Veteran Clan Hunt",
+            "unlock_fr": "Elite Veteran Clan Hunt",
+            "patch": "4.0",
+            "cPrev": ["q.68474"]
+        },
+        "x68170": {
+            "name_en": "King of the Castle",
+            "name_fr": "Enlèvement au château",
+            "level": 70,
+            "npc_en": "East Aldenard Trading Company Associate",
+            "npc_fr": "Associé de la F.C.A.O.",
+            "unlock": "d.262",
+            "patch": "4.0",
+            "cPrev": ["q.68089"],
+            "cSiblings": ["d.262"]
+        }
+    }
+}

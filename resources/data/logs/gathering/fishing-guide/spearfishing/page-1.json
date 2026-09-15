@@ -1,0 +1,917 @@
+{
+    "key": "page-1",
+    "groupName_en": "Page 1",
+    "groupName_fr": "Page 1",
+    "tasks": {
+        "x20000": {
+            "name_en": "Wentletrap",
+            "name_fr": "Mollusque de rubis",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20001": {
+            "name_en": "Black Boxfish",
+            "name_fr": "Poisson-coffre noir",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20002": {
+            "name_en": "Glass Manta",
+            "name_fr": "Raie de verre",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.1",
+            "patch": "4.0"
+        },
+        "x20003": {
+            "name_en": "Regal Silverside",
+            "name_fr": "Capucette royale",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.2",
+            "patch": "4.0"
+        },
+        "x20004": {
+            "name_en": "Snowflake Moray",
+            "name_fr": "Murène flocon",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.4",
+            "patch": "4.0"
+        },
+        "x20005": {
+            "name_en": "Hoppfish",
+            "name_fr": "Poisson sauteur",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20006": {
+            "name_en": "Lightscale",
+            "name_fr": "Légèrécaille",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20007": {
+            "name_en": "Grass Fugu",
+            "name_fr": "Fugu de roseau",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20008": {
+            "name_en": "Giant Eel",
+            "name_fr": "Anguille géante",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20009": {
+            "name_en": "Kamina Crab",
+            "name_fr": "Crabe kamina",
+            "iLvl": "205",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.8",
+            "patch": "4.0"
+        },
+        "x20010": {
+            "name_en": "Spider Crab",
+            "name_fr": "Crabe araignée",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20011": {
+            "name_en": "Little Dragonfish",
+            "name_fr": "Petit poisson-dragon",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.1",
+            "patch": "4.0"
+        },
+        "x20012": {
+            "name_en": "Black Fanfish",
+            "name_fr": "Poisson-éventail noir",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.2",
+            "patch": "4.0"
+        },
+        "x20013": {
+            "name_en": "Zebra Shark",
+            "name_fr": "Requin-zèbre",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.HYPER_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.3",
+            "patch": "4.0"
+        },
+        "x20014": {
+            "name_en": "Nophica's Comb",
+            "name_fr": "Peigne de Nophica",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.4",
+            "patch": "4.0"
+        },
+        "x20015": {
+            "name_en": "Warty Wartfish",
+            "name_fr": "Poisson-furoncle",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20016": {
+            "name_en": "Common Whelk",
+            "name_fr": "Bulot ordinaire",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20017": {
+            "name_en": "Hairless Barb",
+            "name_fr": "Barbeau imberbe",
+            "iLvl": "210",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.8",
+            "patch": "4.0"
+        },
+        "x20018": {
+            "name_en": "Hatchetfish",
+            "name_fr": "Poisson-hachette",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20019": {
+            "name_en": "Threadfish",
+            "name_fr": "Poisson-fil",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20020": {
+            "name_en": "Garden Eel",
+            "name_fr": "Anguille de jardin",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.1",
+            "patch": "4.0"
+        },
+        "x20021": {
+            "name_en": "Eastern Sea Pickle",
+            "name_fr": "Holothurie",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.2",
+            "patch": "4.0"
+        },
+        "x20022": {
+            "name_en": "Brindlebass",
+            "name_fr": "Mérou géant",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.3",
+            "patch": "4.0"
+        },
+        "x20023": {
+            "name_en": "Demon Stonefish",
+            "name_fr": "Poisson-pierre démon",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.4",
+            "patch": "4.0"
+        },
+        "x20024": {
+            "name_en": "Armored Crayfish",
+            "name_fr": "Écrevisse blindée",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20025": {
+            "name_en": "Bighead Carp",
+            "name_fr": "Carpe à grosse tête",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20026": {
+            "name_en": "Zeni Clam",
+            "name_fr": "Palourde zeni",
+            "iLvl": "215",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.8",
+            "patch": "4.0"
+        },
+        "x20027": {
+            "name_en": "Corpse-eater",
+            "name_fr": "Nécrophage",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.0",
+            "patch": "4.0"
+        },
+        "x20028": {
+            "name_en": "Ronin Trevally",
+            "name_fr": "Carangue rônin",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.1",
+            "patch": "4.0"
+        },
+        "x20029": {
+            "name_en": "Toothsome Grouper",
+            "name_fr": "Garoupa enchanteur",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.2",
+            "patch": "4.0"
+        },
+        "x20030": {
+            "name_en": "Horned Turban",
+            "name_fr": "Turbo cornu",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.3",
+            "patch": "4.0"
+        },
+        "x20031": {
+            "name_en": "Ruby Sea Star",
+            "name_fr": "Étoile de rubis",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.4",
+            "patch": "4.0"
+        },
+        "x20032": {
+            "name_en": "Gauntlet Crab",
+            "name_fr": "Crabe gantelet",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20033": {
+            "name_en": "Hermit Goby",
+            "name_fr": "Gobie ermite",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.7",
+            "patch": "4.0"
+        },
+        "x20034": {
+            "name_en": "Skythorn",
+            "name_fr": "Épine céleste",
+            "iLvl": "220",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.8",
+            "patch": "4.0"
+        },
+        "x20035": {
+            "name_en": "Swordtip",
+            "name_fr": "Calmar-crayon",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.1",
+            "patch": "4.0"
+        },
+        "x20036": {
+            "name_en": "False Scad",
+            "name_fr": "Faux chinchard",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.2",
+            "patch": "4.0"
+        },
+        "x20037": {
+            "name_en": "Snow Crab",
+            "name_fr": "Crabe des neiges",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.3",
+            "patch": "4.0"
+        },
+        "x20038": {
+            "name_en": "Red-eyed Lates",
+            "name_fr": "Lates aux yeux rouges",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.4",
+            "patch": "4.0"
+        },
+        "x20039": {
+            "name_en": "Common Bitterling",
+            "name_fr": "Bouvière ordinaire",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20040": {
+            "name_en": "Fifty-summer Cod",
+            "name_fr": "Morue des cinquante étés",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.6",
+            "patch": "4.0"
+        },
+        "x20041": {
+            "name_en": "Nagxian Mullet",
+            "name_fr": "Mulet de Nagxia",
+            "iLvl": "225",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.8",
+            "patch": "4.0"
+        },
+        "x20042": {
+            "name_en": "Redcoat",
+            "name_fr": "Tunique rouge",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20043": {
+            "name_en": "Yanxian Tiger Prawn",
+            "name_fr": "Crevette tigrée de Yanxia",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20044": {
+            "name_en": "Tengu Fan",
+            "name_fr": "Palourde tengu",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20045": {
+            "name_en": "Star Turban",
+            "name_fr": "Turbo étoilé",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20046": {
+            "name_en": "Blue-fish",
+            "name_fr": "Tassergal",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20047": {
+            "name_en": "Steppe Bullfrog",
+            "name_fr": "Grenouille-taureau des steppes",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20048": {
+            "name_en": "Cavalry Catfish",
+            "name_fr": "Poisson-chat de cavalerie",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20049": {
+            "name_en": "Redfin",
+            "name_fr": "Perche franche",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.12",
+            "patch": "4.0"
+        },
+        "x20050": {
+            "name_en": "Moondisc",
+            "name_fr": "Discus lunaire",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20051": {
+            "name_en": "Bleached Bonytongue",
+            "name_fr": "Arowana décoloré",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20052": {
+            "name_en": "Salt Shark",
+            "name_fr": "Requin salin",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.14",
+            "patch": "4.0"
+        },
+        "x20053": {
+            "name_en": "King's Mantle",
+            "name_fr": "Manteau du roi",
+            "iLvl": "230",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20054": {
+            "name_en": "Sea Lamp",
+            "name_fr": "Lanterne des mers",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20055": {
+            "name_en": "Amberjack",
+            "name_fr": "Sériole",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20056": {
+            "name_en": "Cherry Salmon",
+            "name_fr": "Saumon masou",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20057": {
+            "name_en": "Yu-no-hana Crab",
+            "name_fr": "Crabe yunohana",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20058": {
+            "name_en": "Dotharli Gudgeon",
+            "name_fr": "Goujon dotharl",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20059": {
+            "name_en": "River Clam",
+            "name_fr": "Palourde de rivière",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.12",
+            "patch": "4.0"
+        },
+        "x20060": {
+            "name_en": "Grass Shark",
+            "name_fr": "Requin de roseau",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.12",
+            "patch": "4.0"
+        },
+        "x20061": {
+            "name_en": "Typhoon Shrimp",
+            "name_fr": "Crevette typhon",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20062": {
+            "name_en": "Rock Oyster",
+            "name_fr": "Huître rocheuse",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.14",
+            "patch": "4.0"
+        },
+        "x20063": {
+            "name_en": "Salt Urchin",
+            "name_fr": "Oursin salin",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20064": {
+            "name_en": "Carpenter Crab",
+            "name_fr": "Crabe charpentier",
+            "iLvl": "245",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20065": {
+            "name_en": "Spiny Lobster",
+            "name_fr": "Langouste",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20066": {
+            "name_en": "Mitsukuri Shark",
+            "name_fr": "Requin-lutin",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20067": {
+            "name_en": "Doman Bubble Eye",
+            "name_fr": "Poisson télescope de Doma",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20068": {
+            "name_en": "Dragon Squeaker",
+            "name_fr": "Silure draconique",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20069": {
+            "name_en": "Dawn Herald",
+            "name_fr": "Héraut de l'Aube",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20070": {
+            "name_en": "Salt Cellar",
+            "name_fr": "Escargot salin",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20071": {
+            "name_en": "White Sturgeon",
+            "name_fr": "Esturgeon blanc",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.14",
+            "patch": "4.0"
+        },
+        "x20072": {
+            "name_en": "Tithe Collector",
+            "name_fr": "Garoupa géant salin",
+            "iLvl": "260",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20073": {
+            "name_en": "Bashful Batfish",
+            "name_fr": "Platax ombré",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20074": {
+            "name_en": "River Bream",
+            "name_fr": "Pagre de rivière",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20075": {
+            "name_en": "Snipe Eel",
+            "name_fr": "Poisson-avocette",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20076": {
+            "name_en": "Cherubfish",
+            "name_fr": "Poisson-ange",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20077": {
+            "name_en": "Dusk Herald",
+            "name_fr": "Héraut du Crépuscule",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20078": {
+            "name_en": "Glaring Perch",
+            "name_fr": "Perche flamboyante",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.12",
+            "patch": "4.0"
+        },
+        "x20079": {
+            "name_en": "Abalathian Pipira",
+            "name_fr": "Pipira d'Abalathia",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20080": {
+            "name_en": "Steel Loach",
+            "name_fr": "Loche d'acier",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.14",
+            "patch": "4.0"
+        },
+        "x20081": {
+            "name_en": "Ivory Sole",
+            "name_fr": "Sole d'ivoire",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20082": {
+            "name_en": "Motley Beakfish",
+            "name_fr": "Ishidaï bigarré",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.0"
+        },
+        "x20083": {
+            "name_en": "Thousandfang",
+            "name_fr": "Mille-crocs",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20084": {
+            "name_en": "Ichthyosaur",
+            "name_fr": "Ichtyosaure",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.9",
+            "patch": "4.0"
+        },
+        "x20085": {
+            "name_en": "Sailfin",
+            "name_fr": "Hakkaku",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation": "sfh.10",
+            "patch": "4.0"
+        },
+        "x20086": {
+            "name_en": "Fangshi",
+            "name_fr": "Fangshi",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.YANXIA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20087": {
+            "name_en": "Flamefish",
+            "name_fr": "Poisson-flamme",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.11",
+            "patch": "4.0"
+        },
+        "x20088": {
+            "name_en": "Fickle Krait",
+            "name_fr": "Bongare volage",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation": "sfh.12",
+            "patch": "4.0"
+        },
+        "x20089": {
+            "name_en": "Eternal Eye",
+            "name_fr": "Prunelle éternelle",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20090": {
+            "name_en": "Soul of the Stallion",
+            "name_fr": "Âme de l'étalon",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_AZIM_STEPPE",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20091": {
+            "name_en": "Flood Tuna",
+            "name_fr": "Thon du déluge",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.13",
+            "patch": "4.0"
+        },
+        "x20092": {
+            "name_en": "Mercenary Crab",
+            "name_fr": "Crabe mercenaire",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.14",
+            "patch": "4.0"
+        },
+        "x20093": {
+            "name_en": "Ashfish",
+            "name_fr": "Poisson-cendre",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation": "sfh.15",
+            "patch": "4.0"
+        },
+        "x20094": {
+            "name_en": "Silken Sunfish",
+            "name_fr": "Poisson-lune satiné",
+            "iLvl": "275",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20095": {
+            "name_en": "Mosasaur",
+            "name_fr": "Mosasaure",
+            "iLvl": "290",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@PLACE.SB.THE_LOCHS",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20096": {
+            "name_en": "Tiny Tatsunoko",
+            "name_fr": "Hippocampoupon",
+            "iLvl": "1",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.0"
+        },
+        "x20097": {
+            "name_en": "Ichimonji",
+            "name_fr": "Ichimonji",
+            "iLvl": "300",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.MEGA_FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation": "sfh.5",
+            "patch": "4.1"
+        },
+        "x20098": {
+            "name_en": "Snailfish",
+            "name_fr": "Poisson-limace",
+            "iLvl": "300",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@PLACE.SB.THE_RUBY_SEA",
+            "primeLocation_en": "Unspoiled Teeming Waters",
+            "primeLocation_fr": "Courant poissonneux",
+            "patch": "4.1"
+        },
+        "x20099": {
+            "name_en": "Grey Carp",
+            "name_fr": "Carpe grise",
+            "iLvl": "390",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW",
+            "zone": "@PLACE.SHB.LAKELAND",
+            "primeLocation": "sfh.17",
+            "patch": "5.0"
+        }
+    }
+}

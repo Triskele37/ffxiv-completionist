@@ -1,0 +1,14 @@
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
+
+export type Match = {
+    header: string;
+    value: number | string;
+    task: Task;
+};
+
+export type GroupMatch = {
+    header: string;
+    value: number | string;
+    group: DataGroup;
+};

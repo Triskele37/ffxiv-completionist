@@ -1,0 +1,8 @@
+:host {
+    display: contents;
+
+    .standard-completion {
+        background: var(--completed);
+        box-shadow: 0 0 2px var(--surface-600);
+    }
+}

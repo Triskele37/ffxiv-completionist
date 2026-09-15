@@ -1,0 +1,441 @@
+{
+    "key": "alchemist",
+    "groupName": "@CLASS_JOB.ALC",
+    "tasks": {
+        "x530": {
+            "name_en": "Aether-resistant Agent",
+            "name_fr": "Agents de protection spéciaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_1_A",
+            "patch": "7.21"
+        },
+        "x531": {
+            "name_en": "Gas Poisoning Antidote",
+            "name_fr": "Solutions antitoxiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_2_B",
+            "patch": "7.21"
+        },
+        "x532": {
+            "name_en": "Flamethrower Fuel",
+            "name_fr": "Carburant pour lance-flammes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.SINUS_3_A",
+            "patch": "7.21"
+        },
+        "x304": {
+            "name_en": "EX: Natural Remedy Inspection II",
+            "name_fr": "EX : Amélioration de remèdes expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.303",
+            "patch": "7.21"
+        },
+        "x306": {
+            "name_en": "EX: Loporrit Habitat Improvements II",
+            "name_fr": "EX : Amélioration de finitions d'habitat pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.305",
+            "patch": "7.21"
+        },
+        "x307": {
+            "name_en": "EX+: Loporrit Habitat Improvements III",
+            "name_fr": "EX+ : Finitions d'habitat pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.306",
+            "patch": "7.21"
+        },
+        "x309": {
+            "name_en": "EX+: Aquaculture Feed II",
+            "name_fr": "EX+ : Amélioration de pâtées pour élevage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.308",
+            "patch": "7.21"
+        },
+        "x311": {
+            "name_en": "EX: Nutrient Jelly Materials II",
+            "name_fr": "EX : Amélioration de boissons gélatineuses de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.310",
+            "patch": "7.21"
+        },
+        "x312": {
+            "name_en": "EX+: Nutrient Jelly",
+            "name_fr": "EX+ : Boissons gélatineuses de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.311",
+            "patch": "7.21"
+        },
+        "x314": {
+            "name_en": "EX+: Dichromatic Compound II",
+            "name_fr": "EX+ : Amélioration de potions alchimiques multicolores",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.313",
+            "patch": "7.21"
+        },
+        "x315": {
+            "name_en": "EX+: Dichromatic Compound III",
+            "name_fr": "EX+ : Perfectionnement de potions alchimiques multicolores",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.314",
+            "patch": "7.21"
+        },
+        "x310": {
+            "name_en": "Nutrient Jelly Materials I",
+            "name_fr": "Préparation de boissons gélatineuses de haute qualité nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.21"
+        },
+        "x313": {
+            "name_en": "EX+: Dichromatic Compound I",
+            "name_fr": "EX+ : Préparation de potions alchimiques multicolores",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1400",
+            "patch": "7.21"
+        },
+        "x300": {
+            "name_en": "EX: Artisan's Mixtures",
+            "name_fr": "EX : Médicaments pour artisans",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x301": {
+            "name_en": "EX+: Rust Repellent",
+            "name_fr": "EX+ : Produits antirouille",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Umbral Wind",
+            "condition_fr": "Vent ombral",
+            "patch": "7.21"
+        },
+        "x302": {
+            "name_en": "EX+: Stable Medicine",
+            "name_fr": "EX+ : Conservateurs alimentaires",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Moon Dust",
+            "condition_fr": "Tempêtes de régolithe",
+            "patch": "7.21"
+        },
+        "x292": {
+            "name_en": "Water-resistant Bricks",
+            "name_fr": "Briques étanches",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x293": {
+            "name_en": "Stellar Adhesive",
+            "name_fr": "Mortier d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x294": {
+            "name_en": "Nutrient Stabilizer",
+            "name_fr": "Médicaments pour nutrition équilibrée",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x295": {
+            "name_en": "Cafeteria Goods",
+            "name_fr": "Vaisselle de cuisine pour cantine",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x296": {
+            "name_en": "Lunar Seafood Processing",
+            "name_fr": "Traitement expérimental de produits aquatiques séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x297": {
+            "name_en": "EX: Emergency Potables",
+            "name_fr": "EX : Boissons de réserve",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x298": {
+            "name_en": "EX: Cosmetic Research Materials",
+            "name_fr": "EX : Recherche sur les produits de maquillage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x299": {
+            "name_en": "EX: Replica Ornamental Plants",
+            "name_fr": "EX : Reproduction de plantes décoratives",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x303": {
+            "name_en": "Natural Remedy Inspection I",
+            "name_fr": "Préparation de remèdes expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x305": {
+            "name_en": "Loporrit Habitat Improvements I",
+            "name_fr": "Préparation de finitions d'habitat pour Loporrite",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x308": {
+            "name_en": "EX: Aquaculture Feed I",
+            "name_fr": "EX : Préparation de pâtées pour élevage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x284": {
+            "name_en": "Lunar Spice Processing",
+            "name_fr": "Traitement de condiments de végétaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x285": {
+            "name_en": "Water-resistant Bricks",
+            "name_fr": "Briques étanches",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x286": {
+            "name_en": "Research Medicine",
+            "name_fr": "Ravitaillement en médicaments expérimentaux",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x287": {
+            "name_en": "Holy Water",
+            "name_fr": "Eau sacrée pour potions alchimiques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x288": {
+            "name_en": "Lunar Flooring",
+            "name_fr": "Dallages de matériaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x289": {
+            "name_en": "Stellar Nutrients",
+            "name_fr": "Revitalisants d'excellente qualité",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x290": {
+            "name_en": "Miniature Gardens",
+            "name_fr": "Jardins de petite taille",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x291": {
+            "name_en": "Decorative Lunar Plants",
+            "name_fr": "Plantes décoratives de végétaux séléniens",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x277": {
+            "name_en": "Heat-resistant Bricks",
+            "name_fr": "Briques thermorésistantes",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x278": {
+            "name_en": "Health Drinks",
+            "name_fr": "Boissons toniques",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x279": {
+            "name_en": "Construction Paint",
+            "name_fr": "Peinture de construction",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x280": {
+            "name_en": "Traditional Veneer",
+            "name_fr": "Dallages traditionnels",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x281": {
+            "name_en": "Night Lighting",
+            "name_fr": "Articles d'éclairage nocturne",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x282": {
+            "name_en": "Emergency Foodstuffs Development",
+            "name_fr": "Rations alimentaires d'urgence",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x283": {
+            "name_en": "Experimental Potables",
+            "name_fr": "Boissons de nouvelle génération",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x271": {
+            "name_en": "Foundation Bricks",
+            "name_fr": "Briques multi-usage",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x272": {
+            "name_en": "Spice Processing",
+            "name_fr": "Traitement de condiments de produits récoltés",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x273": {
+            "name_en": "Building Adhesive",
+            "name_fr": "Mortier de construction",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x274": {
+            "name_en": "Nutrient Supplements",
+            "name_fr": "Ravitaillement en nourriture pour ouvriers",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x275": {
+            "name_en": "Aquatic Adhesive",
+            "name_fr": "Colle aqueuse",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        },
+        "x276": {
+            "name_en": "Medicated Feed Research",
+            "name_fr": "Recherche sur la médecine nutritive",
+            "planet": "@PLACE.DT.SINUS_ARDORUM",
+            "crafter": "@CLASS_JOB.ALC",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.21"
+        }
+    }
+}

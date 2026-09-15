@@ -1,0 +1,278 @@
+{
+    "key": "fisher",
+    "groupName": "@CLASS_JOB.FSH",
+    "tasks": {
+        "x1368": {
+            "name_en": "Iron Coral Collection",
+            "name_fr": "Récupération de coraux métalliques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_2_A",
+            "patch": "7.41"
+        },
+        "x1369": {
+            "name_en": "Sunken Relic Salvage",
+            "name_fr": "Récupération de ruines englouties",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_A",
+            "patch": "7.41"
+        },
+        "x1346": {
+            "name_en": "EX+: Voyager Relic Survey II",
+            "name_fr": "EX+ : Soutien supplémentaire à l'étude des vestiges",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1345",
+            "patch": "7.41"
+        },
+        "x1347": {
+            "name_en": "EX+: Ruin Currents Environmental Survey",
+            "name_fr": "EX+ : Étude des flux aquatiques dans les profondeurs des vestiges",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1346",
+            "patch": "7.41"
+        },
+        "x1343": {
+            "name_en": "EX+: Dune Resource Emergency II",
+            "name_fr": "EX+ : Grands échantillons améliorés des bas-fonds en urgence",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.41"
+        },
+        "x1345": {
+            "name_en": "EX+: Voyager Relic Survey I",
+            "name_fr": "EX+ : Soutien à l'étude des vestiges",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1800-2000",
+            "patch": "7.41"
+        },
+        "x1342": {
+            "name_en": "EX: Gravitational Sphere Impact",
+            "name_fr": "EX : Collecte d'échantillons soumis à l'influence des anomalies gravitationnelles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1344": {
+            "name_en": "EX+: Cosmokrill Testing",
+            "name_fr": "EX+ : Étude sur l'utilisation de krills cosmiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1333": {
+            "name_en": "Collapsed Tunnel Specimen Survey",
+            "name_fr": "Étude à la galerie effondrée",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1334": {
+            "name_en": "Red Cosmomaggot Testing",
+            "name_fr": "Étude sur l'utilisation de paniers de mouches écarlates cosmiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1335": {
+            "name_en": "Edible Marine Life Survey",
+            "name_fr": "Étude de la comestibilité de produits océaniques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1336": {
+            "name_en": "Moros Well Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement du Puits de Moros",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1337": {
+            "name_en": "Valuable Marine Specimens",
+            "name_fr": "Collecte d'échantillons océaniques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1338": {
+            "name_en": "Marine Distribution Survey",
+            "name_fr": "Étude de spécimens océaniques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1339": {
+            "name_en": "EX: Large Mutant Distribution Survey",
+            "name_fr": "EX : Étude de grands spécimens mutants",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1340": {
+            "name_en": "EX: Dune Resource Emergency I",
+            "name_fr": "EX : Grands échantillons des bas-fonds en urgence",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1341": {
+            "name_en": "EX: Desert Burrow Environmental Survey",
+            "name_fr": "EX : Étude corrélative de l'environnement du Terrier désertique",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1328": {
+            "name_en": "Magnetic Horizon Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement de la Lisière d'Eau",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1329": {
+            "name_en": "Freshwater Arthrolure Testing",
+            "name_fr": "Étude sur l'utilisation de bras universels d'eau douce",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1330": {
+            "name_en": "Oceanic Impesctor Research",
+            "name_fr": "Soutien à l'étude des usurpoissons océaniques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1331": {
+            "name_en": "Valuable Ruin Specimens",
+            "name_fr": "Collecte d'échantillons des ruines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1332": {
+            "name_en": "Anomaly Adaptation Aquaculture Survey",
+            "name_fr": "Étude sur l'adaptation de la pisciculture aux anomalies gravitationnelles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1324": {
+            "name_en": "Large Aquatic Life-form Distribution Survey",
+            "name_fr": "Étude de grands spécimens aquatiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1325": {
+            "name_en": "Oizys Bait Suitability Testing",
+            "name_fr": "Étude de la viabilité d'appâts spécifiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1326": {
+            "name_en": "Large Aquatic Resource Emergency",
+            "name_fr": "Grands échantillons aquatiques en urgence",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1327": {
+            "name_en": "Valuable Plains Specimens",
+            "name_fr": "Collecte d'échantillons du plateau",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1320": {
+            "name_en": "Anomaly Impact Aquaculture Survey",
+            "name_fr": "Étude de l'impact des anomalies gravitationnelles sur la pisciculture",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1321": {
+            "name_en": "Megalithopolis Specimen Survey",
+            "name_fr": "Étude à l'est de Mégalithopolis",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1322": {
+            "name_en": "Foregone Oasis Environmental Survey",
+            "name_fr": "Étude corrélative de l'environnement de l'Oasis des Pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1323": {
+            "name_en": "Regular Base Resupply",
+            "name_fr": "Livraison de matériaux temporaires pour la station",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}

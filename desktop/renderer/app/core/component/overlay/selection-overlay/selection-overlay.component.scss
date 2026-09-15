@@ -1,0 +1,16 @@
+// Shared container class for all overlays
+.overlay-panel {
+    .content {
+        min-width: 200px;
+
+        .overlay-title {
+            text-align: center;
+            padding: var(--content-padding);
+        }
+
+        ::ng-deep .p-divider {
+            margin: 5px 0;
+            user-select: none;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "key": "emotes",
+    "groupName_en": "Emotes",
+    "groupName_fr": "Emotes",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "command": {
+            "header_en": "Command",
+            "header_fr": "Commande"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY",
+            "filterable": true
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH",
+            "filterable": true
+        }
+    },
+    "order": [
+        "general",
+        "special",
+        "expressions"
+    ]
+}

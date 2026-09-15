@@ -1,0 +1,91 @@
+{
+    "key": "81-85",
+    "groupName_en": "81-85",
+    "groupName_fr": "81-85",
+    "tasks": {
+        "x641": {
+            "name_en": "Sharlayan Rock Salt",
+            "name_fr": "Sel gemme des mers du Nord",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(32.3, 9.6)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x640": {
+            "name_en": "Raw Ametrine",
+            "name_fr": "Amétrine brute",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(32.3, 9.6)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x697": {
+            "name_en": "Aetheroconductive Feather",
+            "name_fr": "Composants de matériel d'écriture scolaire",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(32.3, 9.6)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.697"]
+        },
+        "x642": {
+            "name_en": "High Durium Ore",
+            "name_fr": "Minerai de durium noble",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(19.4, 30.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.150",
+            "patch": "6.0"
+        },
+        "x701": {
+            "name_en": "School Supply Materials",
+            "name_fr": "Composants d'affaires de soutien scolaire",
+            "level": "83",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(19.4, 30.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.150",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.logging.level.81-85.701"]
+        },
+        "x643": {
+            "name_en": "Bismuth Ore",
+            "name_fr": "Minerai de bismuth",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(29.4, 35.8)",
+            "closestAetheryte": "travel.aetherytes.others.155",
+            "patch": "6.0"
+        },
+        "x716": {
+            "name_en": "Lovely Knickknacks",
+            "name_fr": "Matériau de boîte de jolis cadeaux",
+            "level": "85",
+            "zone": "@PLACE.SHB.THE_TEMPEST",
+            "coordinates": "(28.9, 4.4)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.129",
+            "patch": "6.3",
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.716"]
+        },
+        "x742": {
+            "name_en": "Energizing Eye-lixir Materials",
+            "name_fr": "Élément pour remède oculaire miracle",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(29.5, 35.9)",
+            "closestAetheryte": "travel.aetherytes.others.155",
+            "patch": "6.5"
+        },
+        "x693": {
+            "name_en": "Lunar Staple",
+            "name_fr": "Élément nécessaire à la reproduction d'une culture hors du commun",
+            "level": "85",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(29.4, 35.8)",
+            "closestAetheryte": "travel.aetherytes.others.155",
+            "patch": "6.0"
+        }
+    }
+}

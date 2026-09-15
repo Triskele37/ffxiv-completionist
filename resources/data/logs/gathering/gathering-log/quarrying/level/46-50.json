@@ -1,0 +1,215 @@
+{
+    "key": "46-50",
+    "groupName_en": "46-50",
+    "groupName_fr": "46-50",
+    "tasks": {
+        "x257": {
+            "name_en": "Grade 2 La Noscean Topsoil",
+            "name_fr": "Terreau noscéen II",
+            "level": "46",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "coordinates": "(22, 34)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.8",
+            "patch": "2.2"
+        },
+        "x260": {
+            "name_en": "Grade 2 Shroud Topsoil",
+            "name_fr": "Terreau sombrelinçois II",
+            "level": "46",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(18, 24)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "patch": "2.2"
+        },
+        "x263": {
+            "name_en": "Grade 2 Thanalan Topsoil",
+            "name_fr": "Terreau thanalanais II",
+            "level": "46",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "coordinates": "(18, 28)",
+            "closestAetheryte_en": "Ul'Dah -> Gate of the Sultana",
+            "closestAetheryte_fr": "Ul'Dah -> Porte de Nanamo",
+            "patch": "2.2"
+        },
+        "x289": {
+            "name_en": "Black Limestone",
+            "name_fr": "Calcaire noir",
+            "level": "50",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "coordinates": "(34, 28)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.11",
+            "patch": "2.5"
+        },
+        "x13": {
+            "name_en": "Fire Cluster",
+            "name_fr": "Agrégat de feu",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x14": {
+            "name_en": "Ice Cluster",
+            "name_fr": "Agrégat de glace",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x15": {
+            "name_en": "Wind Cluster",
+            "name_fr": "Agrégat de vent",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x16": {
+            "name_en": "Earth Cluster",
+            "name_fr": "Agrégat de terre",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x17": {
+            "name_en": "Lightning Cluster",
+            "name_fr": "Agrégat de foudre",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x18": {
+            "name_en": "Water Cluster",
+            "name_fr": "Agrégat d'eau",
+            "level": "50",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.0"
+        },
+        "x91": {
+            "name_en": "Astral Rock",
+            "name_fr": "Roche astrale",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.COERTHAS_CENTRAL_HIGHLANDS",
+            "coordinates": "(23, 23)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.63",
+            "nodeTimer": "21:00",
+            "patch": "2.0"
+        },
+        "x79": {
+            "name_en": "Gold Sand",
+            "name_fr": "Sable d'or",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "coordinates": "(25, 22)",
+            "closestAetheryte": "travel.aetherytes.thanalan.40",
+            "nodeTimer": "05:00",
+            "patch": "2.0"
+        },
+        "x85": {
+            "name_en": "Volcanic Rock Salt",
+            "name_fr": "Sel gemme noscéen",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(21, 32)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.10",
+            "nodeTimer": "17:00",
+            "patch": "2.0"
+        },
+        "x265": {
+            "name_en": "Umbral Rock",
+            "name_fr": "Roche ombrale",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "coordinates": "(16, 31)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.26",
+            "nodeTimer": "06:00",
+            "patch": "2.2"
+        },
+        "x292": {
+            "name_en": "Unaspected Crystal",
+            "name_fr": "Cristal terni",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.MOR_DHONA",
+            "coordinates": "(28, 12)",
+            "closestAetheryte": "travel.aetherytes.others.131",
+            "nodeTimer": "13:00 / 17:00 / 21:00",
+            "patch": "2.5"
+        },
+        "x258": {
+            "name_en": "Grade 3 La Noscean Topsoil",
+            "name_fr": "Terreau noscéen III",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.MIDDLE_LA_NOSCEA",
+            "coordinates": "(25, 27)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.7",
+            "nodeTimer": "19:00",
+            "patch": "2.2"
+        },
+        "x261": {
+            "name_en": "Grade 3 Shroud Topsoil",
+            "name_fr": "Terreau sombrelinçois III",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.SOUTH_SHROUD",
+            "coordinates": "(16, 31)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.26",
+            "nodeTimer": "06:00",
+            "patch": "2.2"
+        },
+        "x264": {
+            "name_en": "Grade 3 Thanalan Topsoil",
+            "name_fr": "Terreau thanalanais III",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.WESTERN_THANALAN",
+            "coordinates": "(18, 27)",
+            "closestAetheryte_en": "Ul'Dah -> Gate of the Sultana",
+            "closestAetheryte_fr": "Ul'Dah -> Porte de Nanamo",
+            "nodeTimer": "05:00",
+            "patch": "2.2"
+        },
+        "x276": {
+            "name_en": "Antumbral Rock",
+            "name_fr": "Roche antéombrale",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "coordinates": "(26, 19)",
+            "closestAetheryte": "travel.aetherytes.thanalan.40",
+            "nodeTimer": "02:00",
+            "patch": "2.3"
+        },
+        "x387": {
+            "name_en": "Dark Matter Cluster",
+            "name_fr": "Agrégat de matière sombre",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "coordinates": "(25, 22)",
+            "closestAetheryte": "travel.aetherytes.thanalan.40",
+            "nodeTimer": "05:00",
+            "patch": "3.0"
+        },
+        "x287": {
+            "name_en": "Pumice",
+            "name_fr": "Pierre ponce",
+            "level": "50 ★★★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(17, 26)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.10",
+            "nodeTimer": "01:00",
+            "patch": "2.45"
+        }
+    }
+}

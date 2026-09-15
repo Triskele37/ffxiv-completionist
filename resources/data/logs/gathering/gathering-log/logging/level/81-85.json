@@ -1,0 +1,91 @@
+{
+    "key": "81-85",
+    "groupName_en": "81-85",
+    "groupName_fr": "81-85",
+    "tasks": {
+        "x661": {
+            "name_en": "Horse Chestnut Log",
+            "name_fr": "Rondin de châtaignier des chevaux",
+            "level": "81",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(15.5, 6.6)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.0"
+        },
+        "x664": {
+            "name_en": "Coconut",
+            "name_fr": "Noix de coco",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(17.0, 22.3)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
+            "patch": "6.0"
+        },
+        "x663": {
+            "name_en": "Palm Syrup",
+            "name_fr": "Sirop de palme",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(17.0, 22.3)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
+            "patch": "6.0"
+        },
+        "x662": {
+            "name_en": "Palm Log",
+            "name_fr": "Rondin de palmier",
+            "level": "82",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(17.0, 22.3)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
+            "patch": "6.0"
+        },
+        "x699": {
+            "name_en": "Luncheon Coffer Materials",
+            "name_fr": "Composants pour boîte à déjeuner magique",
+            "level": "82",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(16.0, 28.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.699"]
+        },
+        "x700": {
+            "name_en": "Aetheroconductive Mammet Materials",
+            "name_fr": "Composants pour poupée d'entraînement magique",
+            "level": "82",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "coordinates": "(15.5, 6.6)",
+            "closestAetheryte": "travel.aetherytes.others.147",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.quarrying.level.81-85.700"]
+        },
+        "x701": {
+            "name_en": "School Supply Materials",
+            "name_fr": "Composants d'affaires de soutien scolaire",
+            "level": "83",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(17.0, 22.3)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151",
+            "patch": "6.15",
+            "cSiblings": ["logs.gathering.gathering-log.mining.level.81-85.701"]
+        },
+        "x692": {
+            "name_en": "Garlean Staple",
+            "name_fr": "Élément nécessaire à la reproduction de la culture de Garlemald",
+            "level": "83",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(16.0, 28.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        },
+        "x665": {
+            "name_en": "Red Pine Log",
+            "name_fr": "Rondin de pin sylvestre",
+            "level": "84",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(16.0, 28.9)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153",
+            "patch": "6.0"
+        }
+    }
+}

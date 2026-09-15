@@ -1,0 +1,51 @@
+{
+    "key": "ilsabard-and-northern-empty",
+    "groupName_en": "Ilsabard/Northern Empty",
+    "groupName_fr": "Mers du N./Ilsabard",
+    "tasks": {
+        "x671": {
+            "name_en": "Potent Spice",
+            "name_fr": "Épices naturelles",
+            "level": "90",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(25.3, 21.7)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "nodeTimer": "08:00 / 20:00",
+            "patch": "6.0",
+            "cSiblings": [
+                "logs.gathering.gathering-log.harvesting.regional-folklore.sea-of-stars.671",
+                "logs.gathering.gathering-log.logging.regional-folklore.world-unsundered.671"
+            ]
+        },
+        "x689": {
+            "name_en": "Golden Cocoon",
+            "name_fr": "Cocon doré",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(25.3, 21.7)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "nodeTimer": "08:00 / 20:00",
+            "patch": "6.0"
+        },
+        "x696": {
+            "name_en": "Thavnairian Corn",
+            "name_fr": "Épi de maïs thavnairois",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "coordinates": "(25.3, 21.7)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.152",
+            "nodeTimer": "08:00 / 20:00",
+            "patch": "6.1"
+        },
+        "x729": {
+            "name_en": "Field Mustard",
+            "name_fr": "Navette",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "coordinates": "(17.8, 12.5)",
+            "closestAetheryte": "travel.aetherytes.ilsabard.154",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "6.4"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "key": "the-four-lords",
+    "groupName_en": "The Four Lords",
+    "groupName_fr": "Quatre animaux sacrés",
+    "tasks": {
+        "x68551": {
+            "name_en": "An Auspicious Encounter",
+            "name_fr": "L'île aux démons",
+            "level": 70,
+            "npc_en": "Soroban",
+            "npc_fr": "Soroban",
+            "unlock": ["d.284", "d.290", "o.199"],
+            "patch": "4.2",
+            "cPrev": ["q.68560"],
+            "cNext": ["q.68552"],
+            "cSiblings": ["d.284", "d.290"]
+        },
+        "x68552": {
+            "name_en": "Tortoise in Time",
+            "name_fr": "Un gros coup de vieux",
+            "level": 70,
+            "npc_en": "Bunchin",
+            "npc_fr": "Bunchin",
+            "unlock": "d.536",
+            "patch": "4.3",
+            "cPrev": ["q.68551"],
+            "cNext": ["q.68688"],
+            "cSiblings": ["d.536"]
+        },
+        "x68688": {
+            "name_en": "The Fire-bird Down Below",
+            "name_fr": "Une passion brûlante",
+            "level": 70,
+            "npc_en": "Bunchin",
+            "npc_fr": "Bunchin",
+            "unlock": ["d.596", "e.187"],
+            "patch": "4.4",
+            "cPrev": ["q.68552"],
+            "cNext": ["q.68701"],
+            "cSiblings": ["d.596", "e.187"]
+        },
+        "x68701": {
+            "name_en": "Surpassing the Samurai",
+            "name_fr": "Le serment du Dragon azur",
+            "level": 70,
+            "npc_en": "Bunchin",
+            "npc_fr": "Bunchin",
+            "unlock": "d.637",
+            "patch": "4.5",
+            "cPrev": ["q.68688"],
+            "cNext": ["q.68702"],
+            "cSiblings": ["d.637"]
+        },
+        "x68702": {
+            "name_en": "The Fifth Lord",
+            "name_fr": "Tout juste pareil au songe d'une nuit de printemps",
+            "level": 70,
+            "npc_en": "Seiryu",
+            "npc_fr": "Seiryû",
+            "unlock": "ap.467",
+            "patch": "4.5",
+            "cPrev": ["q.68701"],
+            "cSiblings": "ap.467"
+        }
+    }
+}

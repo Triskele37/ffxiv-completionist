@@ -1,0 +1,278 @@
+{
+    "key": "botanist",
+    "groupName": "@CLASS_JOB.BTN",
+    "tasks": {
+        "x1696": {
+            "name_en": "Flamethrower Alternative",
+            "name_fr": "Éradication de plantes en zone interdite aux armes incendiaires",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_1_A",
+            "patch": "7.51"
+        },
+        "x1697": {
+            "name_en": "Fungi Samples",
+            "name_fr": "Échantillons de champignons",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.AUXESIA_2_B",
+            "patch": "7.51"
+        },
+        "x1647": {
+            "name_en": "Master: Auxesia Geological Research",
+            "name_fr": "MM : Recherche sur l'histoire géologique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1648": {
+            "name_en": "Master: Auxesia Botanical Research",
+            "name_fr": "MM : Recherche sur l'histoire botanique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1649": {
+            "name_en": "Master: Auxesia Ecological Research",
+            "name_fr": "MM : Recherche sur l'histoire biologique de la planète",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TOOL_MASTERY",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1643": {
+            "name_en": "EX: Mineralized Log Collection",
+            "name_fr": "EX : Récolte continue de bois minéralisé",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2400",
+            "patch": "7.51"
+        },
+        "x1644": {
+            "name_en": "EX+: Aether-rich Bark Survey",
+            "name_fr": "EX : Étude des écorces à haute teneur en éther",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1200",
+            "patch": "7.51"
+        },
+        "x1645": {
+            "name_en": "EX+: Rare Alchemical Material Procurement",
+            "name_fr": "EX+ : Livraison de matériaux alchimiques rares",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.51"
+        },
+        "x1646": {
+            "name_en": "EX+: Aether-rich Sample Extraction",
+            "name_fr": "EX+ : Extraction de matériaux à forte teneur en éther",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.51"
+        },
+        "x1635": {
+            "name_en": "Highwood Estates Survey",
+            "name_fr": "Étude des plantes de la Haute pépinière",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1636": {
+            "name_en": "Copycube Sample Procurement",
+            "name_fr": "Livraison de cubes copieurs",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1637": {
+            "name_en": "Rainbow Copycube Flowers Procurement",
+            "name_fr": "Livraison de cubes copieurs arc-en-ciel",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1638": {
+            "name_en": "Conductive Fiber Procurement",
+            "name_fr": "Livraison de fibres hautement conductrices",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1639": {
+            "name_en": "Multi-purpose Reductions",
+            "name_fr": "Éthérolyse de matériaux polyvalents",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1640": {
+            "name_en": "Resource Reductions for Research",
+            "name_fr": "Extraction de graines destinées à la recherche",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1641": {
+            "name_en": "EX: Ruins Material Procurement",
+            "name_fr": "EX : Livraison de matériaux des vestiges urbains",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1642": {
+            "name_en": "EX: Dayspring Dew Harvesting Analysis",
+            "name_fr": "EX. : Essais de récolte continue de rameaux de printanier de bruine",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1630": {
+            "name_en": "Pileus Pergola Survey",
+            "name_fr": "Étude des plantes à Pileus Pergola",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1631": {
+            "name_en": "Survey of Anomalous Materials",
+            "name_fr": "Étude des échantillons aux valeurs anormales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1632": {
+            "name_en": "Research Subject Bulk Procurement",
+            "name_fr": "Livraison de matériaux pour analyse",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1633": {
+            "name_en": "Urban Aethernet Distribution Survey",
+            "name_fr": "Étude du réseau d'éther urbain",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1634": {
+            "name_en": "Auxesia Harvesting Analysis",
+            "name_fr": "Essais de récolte continue sur Auxesia",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1626": {
+            "name_en": "New Growth City Survey",
+            "name_fr": "Étude des plantes de la cité de la Feuillaison",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1627": {
+            "name_en": "Aetheric Flora Survey",
+            "name_fr": "Étude de l'éther végétal",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1628": {
+            "name_en": "Anomalous Sample Procurement",
+            "name_fr": "Livraison d'échantillons aux valeurs anormales",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1629": {
+            "name_en": "Arcane Remnant Distribution Survey",
+            "name_fr": "Étude des résidus magiques",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1622": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude des végétaux des alentours de la base",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1623": {
+            "name_en": "Aetherial Current Survey",
+            "name_fr": "Étude des nœuds éthérés environnants",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1624": {
+            "name_en": "Fundamental Flora Procurement",
+            "name_fr": "Livraison de plantes communes",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        },
+        "x1625": {
+            "name_en": "New Growth Beech Log",
+            "name_fr": "Récolte continue de bois de la plage de la Feuillaison",
+            "planet": "@PLACE.DT.AUXESIA",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.51"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+body ng-icon {
+    color: currentColor;
+    flex-shrink: 0;
+
+    &.small {
+        height: var(--icon-size-small);
+        width: var(--icon-size-small);
+    }
+}
+
+.i-complete, .i-incomplete, .i-exclude, .i-selected {
+    svg {
+        filter: drop-shadow(0 0 2px var(--text-color));
+    }
+}
+
+.i-complete {
+    color: var(--completed);
+}
+
+.i-incomplete {
+    color: var(--incomplete);
+}
+
+.i-exclude {
+    color: var(--excluded);
+}
+
+.i-selected {
+    color: var(--primary-color-text);
+}
+
+.icon {
+    background-size: cover !important;
+
+    &.console-games-icon {
+        background: url('../assets/icons/consolegames.png');
+    }
+
+    &.gamer-escape-icon {
+        background: url('../assets/icons/gamerescape.png');
+    }
+
+    &.garland-icon {
+        background: url('../assets/icons/garland.png');
+    }
+}

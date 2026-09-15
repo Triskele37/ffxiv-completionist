@@ -1,0 +1,33 @@
+/*
+    Uses class ".deep-button" to allow considering 1-2 descendants deep
+*/
+.p-buttongroup {
+    display: flex;
+
+    // Rounding on first button
+    :first-child:not(:only-child) {
+        &.p-button, > .deep-button, > * > .deep-button {
+            border-radius: var(--border-radius) 0 0 var(--border-radius);
+        }
+    }
+
+    :not(:first-child):not(:last-child) {
+        &.p-button, > .deep-button, > * > .deep-button {
+            border-radius: 0;
+        }
+    }
+
+    // Rounding on last button
+    :last-child:not(:only-child) {
+        &.p-button, > .deep-button, > * > .deep-button {
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+    }
+
+    // Fix weird button size issue caused by prime hover
+    .p-button, .p-button:hover {
+        &:not(.p-button-link) {
+            border-inline-end: 1px solid var(--primary-color) !important;
+        }
+    }
+}

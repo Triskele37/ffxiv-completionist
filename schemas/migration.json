@@ -1,0 +1,232 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["resultVersion"],
+    "properties": {
+        "resultVersion": {
+            "type": "string"
+        },
+        "actionGroups": {
+            "type": "object",
+            "patternProperties": {
+                "^.*$": {
+                    "$ref": "#/$defs/ActionList"
+                }
+            }
+        }
+    },
+    "$defs": {
+        "ID": {
+            "anyOf": [
+                { "type": "string" },
+                { "type": "number" }
+            ]
+        },
+        "Range": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["start", "end"],
+            "properties": {
+                "start": { "type": "number" },
+                "end": { "type": "number" }
+            }
+        },
+        "TupleNumber": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "items": false,
+                "prefixItems": [
+                    { "type": "number" },
+                    { "type": "number" }
+                ]
+            }
+        },
+        "MultiAction": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "as", "withValues", "actions"],
+            "properties": {
+                "type": { "const": "MultiAction" },
+                "as": { "type": "string" },
+                "withValues": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "actions": { "$ref": "#/$defs/ActionList" }
+            }
+        },
+        "changeAndMoveTasks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "to", "ids"],
+            "properties": {
+                "type": { "const": "changeAndMoveTasks" },
+                "from": { "type": "string" },
+                "to": { "type": "string" },
+                "ids": { "$ref": "#/$defs/TupleNumber" }
+            }
+        },
+        "changeKey": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "group", "from", "to"],
+            "properties": {
+                "type": { "const": "changeKey" },
+                "group": { "type": "string" },
+                "from": { "$ref": "#/$defs/ID" },
+                "to": { "$ref": "#/$defs/ID" }
+            }
+        },
+        "changeKeys": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "group", "ids"],
+            "properties": {
+                "type": { "const": "changeKeys" },
+                "group": { "type": "string" },
+                "ids": { "$ref": "#/$defs/TupleNumber" }
+            }
+        },
+        "deleteGroup": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "group"],
+            "properties": {
+                "type": { "const": "deleteGroup" },
+                "group": { "type": "string" }
+            }
+        },
+        "deleteTask": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "group", "id"],
+            "properties": {
+                "type": { "const": "deleteTask" },
+                "group": { "type": "string" },
+                "id": { "$ref": "#/$defs/ID" }
+            }
+        },
+        "deleteTasks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "group", "ids"],
+            "properties": {
+                "type": { "const": "deleteTasks" },
+                "group": { "type": "string" },
+                "ids": {
+                    "type": "array",
+                    "items": {
+                        "anyOf": [
+                            { "$ref": "#/$defs/ID" },
+                            { "$ref": "#/$defs/Range" }
+                        ]
+                    }
+                }
+            }
+        },
+        "matchLeft": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "leftGroup", "rightGroup", "ids"],
+            "properties": {
+                "type": { "const": "matchLeft" },
+                "leftGroup": { "type": "string" },
+                "rightGroup": { "type": "string" },
+                "ids": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/$defs/ID"
+                        }
+                    }
+                }
+            }
+        },
+        "mergeTask": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "fromId", "to", "toId"],
+            "properties": {
+                "type": { "const": "mergeTask" },
+                "from": { "type": "string" },
+                "fromId": { "$ref": "#/$defs/ID" },
+                "to": { "type": "string" },
+                "toId": { "$ref": "#/$defs/ID" }
+            }
+        },
+        "moveAndChangeTasks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "to", "ids"],
+            "properties": {
+                "type": { "const": "moveAndChangeTasks" },
+                "from": { "type": "string" },
+                "to": { "type": "string" },
+                "ids": { "$ref": "#/$defs/TupleNumber" }
+            }
+        },
+        "moveGroup": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "to"],
+            "properties": {
+                "type": { "const": "moveGroup" },
+                "from": { "type": "string" },
+                "to": { "type": "string" }
+            }
+        },
+        "moveTask": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "to", "id"],
+            "properties": {
+                "type": { "const": "moveTask" },
+                "from": { "type": "string" },
+                "to": { "type": "string" },
+                "id": { "$ref": "#/$defs/ID" }
+            }
+        },
+        "moveTasks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "from", "to", "ids"],
+            "properties": {
+                "type": { "const": "moveTasks" },
+                "from": { "type": "string" },
+                "to": { "type": "string" },
+                "ids": {
+                    "type": "array",
+                    "items": {
+                        "anyOf": [
+                            { "$ref": "#/$defs/ID" },
+                            { "$ref": "#/$defs/Range" }
+                        ]
+                    }
+                }
+            }
+        },
+        "ActionList": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    { "$ref": "#/$defs/MultiAction" },
+                    { "$ref": "#/$defs/changeAndMoveTasks" },
+                    { "$ref": "#/$defs/changeKey" },
+                    { "$ref": "#/$defs/changeKeys" },
+                    { "$ref": "#/$defs/deleteGroup" },
+                    { "$ref": "#/$defs/deleteTask" },
+                    { "$ref": "#/$defs/deleteTasks" },
+                    { "$ref": "#/$defs/matchLeft" },
+                    { "$ref": "#/$defs/mergeTask" },
+                    { "$ref": "#/$defs/moveAndChangeTasks" },
+                    { "$ref": "#/$defs/moveGroup" },
+                    { "$ref": "#/$defs/moveTask" },
+                    { "$ref": "#/$defs/moveTasks" }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "key": "46-50",
+    "groupName_en": "46-50",
+    "groupName_fr": "46-50",
+    "tasks": {
+        "x156": {
+            "name_en": "Thanalan Tea Leaves",
+            "name_fr": "Feuilles de thé du Thanalan",
+            "level": "48",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "coordinates": "(13, 31)",
+            "closestAetheryte": "travel.aetherytes.thanalan.42",
+            "patch": "2.0"
+        },
+        "x199": {
+            "name_en": "Lava Toad",
+            "name_fr": "Crapaud lavique",
+            "level": "49",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "coordinates": "(13, 31)",
+            "closestAetheryte": "travel.aetherytes.thanalan.42",
+            "patch": "2.0"
+        },
+        "x222": {
+            "name_en": "Maiden Grass",
+            "name_fr": "Eulalie",
+            "level": "50",
+            "zone": "@PLACE.ARR.SOUTHERN_THANALAN",
+            "coordinates": "(13, 31)",
+            "closestAetheryte": "travel.aetherytes.thanalan.42",
+            "patch": "2.1"
+        },
+        "x13": {
+            "name_en": "Fire Cluster",
+            "name_fr": "Agrégat de feu",
+            "level": "50",
+            "zone": "@PLACE.DT.LIVING_MEMORY",
+            "coordinates": "(27, 7)",
+            "closestAetheryte": "travel.aetherytes.others.195",
+            "nodeTimer": "16:00",
+            "patch": "2.0"
+        },
+        "x14": {
+            "name_en": "Ice Cluster",
+            "name_fr": "Agrégat de glace",
+            "level": "50",
+            "zone": "@PLACE.SHB.KHOLUSIA",
+            "coordinates": "(13, 13)",
+            "closestAetheryte": "travel.aetherytes.norvrandt.120",
+            "nodeTimer": "01:00 / 05:00 / 09:00",
+            "patch": "2.0"
+        },
+        "x15": {
+            "name_en": "Wind Cluster",
+            "name_fr": "Agrégat de vent",
+            "level": "50",
+            "zone": "@PLACE.HW.THE_SEA_OF_CLOUDS",
+            "coordinates": "(23, 12)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.66",
+            "nodeTimer": "01:00 / 05:00 / 09:00",
+            "patch": "2.0"
+        },
+        "x16": {
+            "name_en": "Earth Cluster",
+            "name_fr": "Agrégat de terre",
+            "level": "50",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "coordinates": "(10, 32)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.71",
+            "nodeTimer": "01:00 / 05:00 / 09:00",
+            "patch": "2.0"
+        },
+        "x174": {
+            "name_en": "Dzemael Tomato",
+            "name_fr": "Tomate Dzemael",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(18, 26)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.10",
+            "nodeTimer": "13:00",
+            "patch": "2.0"
+        },
+        "x182": {
+            "name_en": "Black Truffle",
+            "name_fr": "Truffe noire",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "coordinates": "(12, 16)",
+            "closestAetheryte": "travel.aetherytes.thanalan.40",
+            "nodeTimer": "13:00",
+            "patch": "2.0"
+        },
+        "x177": {
+            "name_en": "Honey Lemon",
+            "name_fr": "Citron miel",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(26, 32)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.9",
+            "nodeTimer": "05:00",
+            "patch": "2.0"
+        },
+        "x212": {
+            "name_en": "Silkworm Cocoon",
+            "name_fr": "Cocon de ver à soie",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(22, 26)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "01:00",
+            "patch": "2.0"
+        },
+        "x168": {
+            "name_en": "Trillium",
+            "name_fr": "Trille",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(17, 19)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "05:00",
+            "patch": "2.0"
+        },
+        "x169": {
+            "name_en": "Trillium Bulb",
+            "name_fr": "Bulbe de trille",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(13, 23)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "21:00",
+            "patch": "2.0"
+        },
+        "x195": {
+            "name_en": "Kidragora",
+            "name_fr": "Mini-mini-mandragore",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(13, 23)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "21:00",
+            "patch": "2.0"
+        },
+        "x235": {
+            "name_en": "Dzemael Tomato Seeds",
+            "name_fr": "Graines de tomate Dzemael",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(18, 26)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.10",
+            "nodeTimer": "13:00",
+            "patch": "2.2"
+        },
+        "x244": {
+            "name_en": "Honey Lemon Seeds",
+            "name_fr": "Graines de citronnier miel",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_LA_NOSCEA",
+            "coordinates": "(26, 32)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.9",
+            "nodeTimer": "05:00",
+            "patch": "2.2"
+        },
+        "x292": {
+            "name_en": "Unaspected Crystal",
+            "name_fr": "Cristal terni",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(22, 25)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "01:00",
+            "patch": "2.5"
+        },
+        "x296": {
+            "name_en": "Mazlaya Greens",
+            "name_fr": "Herbes de Mazlaya",
+            "level": "50 ★",
+            "zone": "@PLACE.ARR.EASTERN_THANALAN",
+            "coordinates": "(12, 16)",
+            "closestAetheryte": "travel.aetherytes.thanalan.40",
+            "nodeTimer": "13:00",
+            "patch": "2.51"
+        },
+        "x273": {
+            "name_en": "La Noscean Leek",
+            "name_fr": "Poireau noscéen",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "coordinates": "(34, 28)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.11",
+            "nodeTimer": "08:00",
+            "patch": "2.2"
+        },
+        "x274": {
+            "name_en": "Young Cieldalaes Spinach",
+            "name_fr": "Jeunes épinards des Cieldalaes",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.LOWER_LA_NOSCEA",
+            "coordinates": "(32, 11)",
+            "closestAetheryte_en": "Limsa Lominsa -> Tempest Gate",
+            "closestAetheryte_fr": "Limsa Lominsa -> Porte du Zéphyr",
+            "nodeTimer": "06:00",
+            "patch": "2.2"
+        },
+        "x284": {
+            "name_en": "Waterfowl Feather",
+            "name_fr": "Plume de sauvagine",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.WESTERN_LA_NOSCEA",
+            "coordinates": "(34, 28)",
+            "closestAetheryte": "travel.aetherytes.la-noscea.11",
+            "nodeTimer": "08:00",
+            "patch": "2.3"
+        },
+        "x271": {
+            "name_en": "Shroud Tea Leaves",
+            "name_fr": "Feuilles de thé de Tinolqa",
+            "level": "50 ★★",
+            "zone": "@PLACE.ARR.CENTRAL_SHROUD",
+            "coordinates": "(16, 20)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.23",
+            "nodeTimer": "02:00",
+            "patch": "2.2"
+        },
+        "x387": {
+            "name_en": "Dark Matter Cluster",
+            "name_fr": "Agrégat de matière sombre",
+            "level": "50 ★★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "coordinates": "(26, 13)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70",
+            "nodeTimer": "02:00 / 14:00",
+            "patch": "3.0"
+        },
+        "x365": {
+            "name_en": "Old World Fig",
+            "name_fr": "Figue du vieux continent",
+            "level": "50 ★★★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "coordinates": "(26,12)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70",
+            "nodeTimer": "02:00 / 14:00",
+            "patch": "3.0"
+        },
+        "x394": {
+            "name_en": "Old World Fig Seeds",
+            "name_fr": "Graines de figuier du vieux continent",
+            "level": "50 ★★★",
+            "zone": "@PLACE.HW.THE_DRAVANIAN_FORELANDS",
+            "coordinates": "(26,12)",
+            "closestAetheryte": "travel.aetherytes.ishgard-and-coerthas.70",
+            "nodeTimer": "02:00 / 14:00",
+            "patch": "3.1"
+        },
+        "x291": {
+            "name_en": "Rosemary",
+            "name_fr": "Romarin",
+            "level": "50 ★★★",
+            "zone": "@PLACE.ARR.EAST_SHROUD",
+            "coordinates": "(22, 30)",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24",
+            "nodeTimer": "17:00",
+            "patch": "2.5"
+        }
+    }
+}

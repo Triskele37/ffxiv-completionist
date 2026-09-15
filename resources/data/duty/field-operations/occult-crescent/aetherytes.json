@@ -1,0 +1,98 @@
+{
+    "key": "aetherytes",
+    "groupName_en": "Aetherytes",
+    "groupName_fr": "Éthérites",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "coordinates": {
+            "header": "@HEADER.COORDINATES"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Expedition Base Camp",
+            "name_fr": "Camp de base",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "coordinates": "(38.0, 7.6)",
+            "patch": "7.25"
+        },
+        "x1": {
+            "name_en": "The Wanderer's Haven",
+            "name_fr": "Refuge du Vagabond",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "coordinates": "(18.0, 9.0)",
+            "patch": "7.25"
+        },
+        "x2": {
+            "name_en": "Crystallized Caverns",
+            "name_fr": "Cavernes de cristal",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "coordinates": "(14.2, 19.2)",
+            "patch": "7.25"
+        },
+        "x3": {
+            "name_en": "Eldergrowth",
+            "name_fr": "Vieilleracine",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "coordinates": "(27.4, 27.4)",
+            "patch": "7.25"
+        },
+        "x4": {
+            "name_en": "Stonemarsh",
+            "name_fr": "Lagune lapidaire",
+            "zone": "@PLACE.DT.SOUTH_HORN",
+            "coordinates": "(13.7, 27.0)",
+            "patch": "7.25"
+        },
+        "x5": {
+            "name_en": "North Horn Base Camp",
+            "name_fr": "Camp de base nord",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(39.1, 39.1)",
+            "patch": "7.55"
+        },
+        "x6": {
+            "name_en": "The Crown of Karnak",
+            "name_fr": "Couronne de Karnak",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(30.5, 32.1)",
+            "patch": "7.55"
+        },
+        "x7": {
+            "name_en": "Sinking Sanctuary",
+            "name_fr": "Sanctuaire englouti",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(28.6, 10.3)",
+            "patch": "7.55"
+        },
+        "x8": {
+            "name_en": "Suspended Masonry",
+            "name_fr": "Structures suspendues",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(10.4, 33.4)",
+            "patch": "7.55"
+        },
+        "x9": {
+            "name_en": "Moldering Outskirts",
+            "name_fr": "Faubourgs décrépis",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(13.7, 12.7)",
+            "patch": "7.55"
+        },
+        "x10": {
+            "name_en": "Unhallowed Hamlet",
+            "name_fr": "Hameau hanté",
+            "zone": "@PLACE.DT.NORTH_HORN",
+            "coordinates": "(21.1, 20.6)",
+            "patch": "7.55"
+        }
+    }
+}

@@ -1,0 +1,218 @@
+<button
+    pButton
+    class="chain-history-button"
+    [ngClass]="{ 'do-notify': doNotify() }"
+    (click)="op.toggle($event)"
+>
+    <ng-icon name="matLink"></ng-icon>
+
+    @if(doNotify()) {
+        <p-badge value="{{svcChain.chainedTaskCount()}}"></p-badge>
+    }
+</button>
+
+<p-popover
+    data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY"
+    appendTo="self"
+    #op
+    (mouseenter)="onMouseEnter()"
+>
+    <div class="chain-history-popover-container">
+        @let chainStart = svcChain.chainStart();
+
+        @if(!chainStart) {
+            <div class="no-content">
+                {{'APP.CHAIN_OVERLAY.NO_CONTENT' | translate}}
+            </div>
+        }
+        @else {
+            <span class="chain-history-container">
+                <!-- Undo Button -->
+                <ng-container [ngTemplateOutlet]="tUndo"></ng-container>
+
+                <!-- Recent Action Info -->
+                <ng-container [ngTemplateOutlet]="tChainStart"></ng-container>
+
+                <!-- Chained Groups Scroll Container -->
+                <div
+                    data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAINED_GROUPS"
+                    class="chain-scroll-container"
+                >
+                    @for(chainedGroup of svcChain.chainedGroups(); track chainedGroup.path) {
+                        <ng-container
+                            [ngTemplateOutlet]="tChainedGroupHeader"
+                            [ngTemplateOutletContext]="{ $implicit: chainedGroup }"
+                        ></ng-container>
+
+                        <!-- Group Content Items -->
+                        @if(chainedGroup.show) {
+                            @for(chainedTask of chainedGroup.tasks; track chainedTask.task.fullStorageKey) {
+                                @if(chainedTask.task) {
+                                    <ng-container
+                                        [ngTemplateOutlet]="tChainedTask"
+                                        [ngTemplateOutletContext]="{ $implicit: chainedTask }"
+                                    ></ng-container>
+                                }
+                            }
+                        }
+                    }
+                </div>
+
+                <ng-container [ngTemplateOutlet]="tChainHistory"></ng-container>
+            </span>
+        }
+    </div>
+</p-popover>
+
+<!--------------------------------- Undo Button --------------------------------->
+<ng-template #tUndo>
+    <div
+        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.UNDO"
+        class="undo-button-container"
+    >
+        @if(!undoVerified()) {
+            <button
+                pButton
+                variant="outlined"
+                class="undo-button"
+                (click)="onUndoLastChain()"
+            >
+                {{'APP.CHAIN_OVERLAY.UNDO' | translate}}
+            </button>
+        }
+        @else {
+            <p-button-group>
+                <button
+                    pButton
+                    [disabled]="true"
+                    variant="outlined"
+                >
+                    {{'APP.CHAIN_OVERLAY.VERIFY' | translate}}
+                </button>
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onUndoLastChain(false)"
+                >
+                    {{'APP.CUSTOM_OVERLAY.CANCEL' | translate}}
+                </button>
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onUndoLastChain(true)"
+                >
+                    {{'APP.CHAIN_OVERLAY.UNDO' | translate}}
+                </button>
+            </p-button-group>
+        }
+    </div>
+</ng-template>
+
+<!--------------------------------- Chain Start --------------------------------->
+<ng-template #tChainStart>
+    @let chainStart = svcChain.chainStart()!;
+
+    <span
+        data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAIN_START"
+        class="chain-start"
+    >
+        <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
+
+        <ng-icon name="matArrowRightAlt"></ng-icon>
+
+        <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
+
+        <com-content-link
+            [content]="chainStart.task"
+            [nameOnly]="true"
+        ></com-content-link>
+
+        {{'APP.CHAIN_OVERLAY.CHAINED' | translate:({ count: svcChain.chainedTaskCount() })}}
+    </span>
+</ng-template>
+
+<!----------------------------- Chained Group Header ----------------------------->
+<ng-template #tChainedGroupHeader let-group>
+    <span class="chain-group">
+        <button
+            pButton
+            class="toggle-collapse"
+            variant="outlined"
+            (click)="onToggleShowChainedGroup(group)"
+        >
+            @if(group.show) {
+                <ng-icon name="matKeyboardArrowDown"></ng-icon>
+            }
+            @else {
+                <ng-icon name="matKeyboardArrowRight"></ng-icon>
+            }
+        </button>
+
+        <span class="count">
+            ({{group.tasks.length}})
+        </span>
+
+        <span class="group-link">
+            <com-content-link [content]="group.tasks[0].task._parent"></com-content-link>
+        </span>
+    </span>
+</ng-template>
+
+<!--------------------------------- Chained Task --------------------------------->
+<ng-template #tChainedTask let-task>
+    <div class="chained-task">
+        <span [ngClass]="task.fromFlag">
+            {{task.fromFlag}}
+        </span>
+
+        <ng-icon name="matArrowRightAlt"></ng-icon>
+
+        <span [ngClass]="task.task.completionFlag$()">
+            {{task.task.completionFlag$()}}
+        </span>
+
+        <span class="task-name">
+            <com-content-link
+                [content]="task.task"
+                [nameOnly]="true"
+            ></com-content-link>
+        </span>
+    </div>
+</ng-template>
+
+<!-------------------------------- Chain History -------------------------------->
+<ng-template #tChainHistory>
+    <div class="chain-history-list-container">
+        @let chainHistory = svcChain.history();
+        @let lastChain = chainHistory[chainHistory.length - 1];
+
+        <p-divider>
+            <div class="divider-content">
+                <div>
+                    @let count = `${chainHistory.length}/${svcChain.historyLimit}`;
+                    {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{count}}
+                </div>
+                @if(lastChain) {
+                    <div>
+                        ({{lastChain.chainStart.task.name}} {{'APP.CHAIN_OVERLAY.HISTORY_NOTE' | translate}})
+                    </div>
+                }
+            </div>
+        </p-divider>
+
+        <div
+            data-active-help="APP.ACTIVE_HELP.CHAIN_OVERLAY.CHAIN_HISTORY"
+            class="previous-chain-container"
+        >
+            <div class="previous-chains">
+                @for(historyStep of chainHistory; track historyStep) {
+                    <com-content-link
+                        [content]="historyStep.chainStart.task"
+                        [nameOnly]="true"
+                    ></com-content-link>
+                    <ng-icon name="matArrowRightAlt"></ng-icon>
+                }
+            </div>
+        </div>
+    </div>
+</ng-template>

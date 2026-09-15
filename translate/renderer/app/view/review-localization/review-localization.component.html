@@ -1,0 +1,35 @@
+<div class="review-localization-container">
+    <div class="issue-navigation">
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToPreviousIssue(10)"
+        >
+            <ng-icon name="matFastRewind"></ng-icon>
+        </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToPreviousIssue()"
+        >
+            <ng-icon name="matArrowBack"></ng-icon>
+        </button>
+
+        <span>{{svcNav.currentIndex() + 1}} / {{svcData.issues().length}}</span>
+
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToNextIssue()"
+        >
+            <ng-icon name="matArrowForward"></ng-icon>
+        </button>
+        <button
+            class="icon-button round-button"
+            (click)="svcNav.goToNextIssue(10)"
+        >
+            <ng-icon name="matFastForward"></ng-icon>
+        </button>
+    </div>
+
+    <com-issue></com-issue>
+
+    <com-ignore-reasons></com-ignore-reasons>
+</div>

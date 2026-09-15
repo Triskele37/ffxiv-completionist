@@ -1,0 +1,349 @@
+{
+    "key": "thavnair",
+    "groupName_en": "Thavnair",
+    "groupName_fr": "Thavnair",
+    "tasks": {
+        "x69732": {
+            "name_en": "Fruit Savior",
+            "name_fr": "Pas de gâchis",
+            "level": 80,
+            "npc_en": "Qefiraz",
+            "npc_fr": "Qefiraz",
+            "patch": "6.0",
+            "cPrev": ["q.69906"]
+        },
+        "x69733": {
+            "name_en": "Shelling Out",
+            "name_fr": "La zone de l'amitié",
+            "level": 80,
+            "npc_en": "Mehrunnah",
+            "npc_fr": "Mehrunnah",
+            "patch": "6.0",
+            "cPrev": ["q.69906"]
+        },
+        "x69734": {
+            "name_en": "Tikka Hike",
+            "name_fr": "Tikka de fête",
+            "level": 80,
+            "npc_en": "Auri Girl",
+            "npc_fr": "Petite Fille Aoranne",
+            "patch": "6.0",
+            "cPrev": ["q.69906"]
+        },
+        "x70025": {
+            "name_en": "Steppe Child",
+            "name_fr": "L'aventurière de la Steppe d'Azim",
+            "level": 80,
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "unlock": "travel.aether-currents.ew.thavnair.12",
+            "patch": "6.0",
+            "cPrev": ["q.69906"],
+            "cNext": ["q.70026"],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.12"]
+        },
+        "x70026": {
+            "name_en": "The Matanga along the Way",
+            "name_fr": "Des Matangas partout",
+            "level": 80,
+            "npc_en": "Kancana",
+            "npc_fr": "Kancana",
+            "patch": "6.0",
+            "cPrev": ["q.70025"],
+            "cNext": ["q.70027"]
+        },
+        "x70027": {
+            "name_en": "Ogul Repays Her Favors",
+            "name_fr": "De l'importance de retourner une faveur",
+            "level": 80,
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "patch": "6.0",
+            "cPrev": ["q.70026"],
+            "cNext": ["q.70028"]
+        },
+        "x70028": {
+            "name_en": "The Yedlihmad Hunt",
+            "name_fr": "Chasse à l'homme à Yedlihmad",
+            "level": 80,
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "patch": "6.0",
+            "cPrev": ["q.70027"],
+            "cNext": ["q.70033"]
+        },
+        "x69735": {
+            "name_en": "The Great Heist",
+            "name_fr": "Petit larcin au Grand Œuvre",
+            "level": 80,
+            "npc_en": "Varpasa",
+            "npc_fr": "Varpasa",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69736": {
+            "name_en": "Wish Upon a Crystal",
+            "name_fr": "Le pouvoir des gemmes",
+            "level": 80,
+            "npc_en": "Yedjina",
+            "npc_fr": "Yedjina",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69737": {
+            "name_en": "High Importance, Low Urgency",
+            "name_fr": "Doléances inavouables",
+            "level": 80,
+            "npc_en": "Nashrifhal",
+            "npc_fr": "Nashrifhal",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69738": {
+            "name_en": "Paint, Perfume, and Pecs",
+            "name_fr": "Un homme de culture",
+            "level": 80,
+            "npc_en": "Muscular Alchemist",
+            "npc_fr": "Alchimiste Musclé",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69739": {
+            "name_en": "Alchemist or Dancer",
+            "name_fr": "Réorientation et réfections",
+            "level": 80,
+            "npc_en": "Jalamuc",
+            "npc_fr": "Jalamuc",
+            "unlock": "travel.aether-currents.ew.thavnair.11",
+            "patch": "6.0",
+            "cPrev": ["q.69909"],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.11"]
+        },
+        "x69740": {
+            "name_en": "A Nose for Trouble",
+            "name_fr": "Les Arkasodaras ont de la trompe",
+            "level": 80,
+            "npc_en": "Timid Arkasodara",
+            "npc_fr": "Arkasodara Timoré",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69741": {
+            "name_en": "Missing Alchemist",
+            "name_fr": "Ça passe ou ça tasse",
+            "level": 80,
+            "npc_en": "Honest Alchemist",
+            "npc_fr": "Alchimiste Sincère",
+            "patch": "6.0",
+            "cPrev": ["q.69909"]
+        },
+        "x69742": {
+            "name_en": "Hamsa Retrieval",
+            "name_fr": "Hamsou, où es-tou ?",
+            "level": 80,
+            "npc_en": "Reensarudh",
+            "npc_fr": "Reensarudh",
+            "patch": "6.0",
+            "cPrev": ["q.69910"]
+        },
+        "x69743": {
+            "name_en": "High Hopes for the Hatchery",
+            "name_fr": "Couver le couvoir",
+            "level": 80,
+            "npc_en": "Arkasodara Youth",
+            "npc_fr": "Jeune Arkasodara",
+            "patch": "6.0",
+            "cPrev": ["q.69910"]
+        },
+        "x69744": {
+            "name_en": "Cutting Edge Solutions",
+            "name_fr": "Un agent taillé pour la taille",
+            "level": 80,
+            "npc_en": "Apasa",
+            "npc_fr": "Apasa",
+            "patch": "6.0",
+            "cPrev": ["q.69910"]
+        },
+        "x69745": {
+            "name_en": "Rushing up That Hill",
+            "name_fr": "Au bouleau",
+            "level": 80,
+            "npc_en": "Kusuma",
+            "npc_fr": "Kusuma",
+            "patch": "6.0",
+            "cPrev": ["q.69910"]
+        },
+        "x69792": {
+            "name_en": "The Guardian's Shield",
+            "name_fr": "L'amulette de la gardienne",
+            "level": 80,
+            "npc_en": "Viraban",
+            "npc_fr": "Viraban",
+            "patch": "6.0",
+            "cPrev": ["q.69952"]
+        },
+        "x69793": {
+            "name_en": "In Agama's Footsteps",
+            "name_fr": "À la hauteur d'Agama",
+            "level": 80,
+            "npc_en": "Weary Radiant",
+            "npc_fr": "Soldate De L'Ost Rayonnant Fatiguée",
+            "unlock": "travel.aether-currents.ew.thavnair.14",
+            "patch": "6.0",
+            "cPrev": ["q.69952"],
+            "cNext": ["q.69796", "q.69797"],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.14"]
+        },
+        "x69795": {
+            "name_en": "Radiant Patrol",
+            "name_fr": "La patrouille de l'Ost rayonnant",
+            "level": 80,
+            "npc_en": "Radiant Host Captain",
+            "npc_fr": "Caporale De L'Ost Rayonnant",
+            "unlock": "travel.aether-currents.ew.thavnair.13",
+            "patch": "6.0",
+            "cPrev": ["q.69952"],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.13"]
+        },
+        "x69799": {
+            "name_en": "Flowers for the Family",
+            "name_fr": "La fillette aux fleurs",
+            "level": 80,
+            "npc_en": "Troubled Father",
+            "npc_fr": "Père Affolé",
+            "patch": "6.0",
+            "cPrev": ["q.69952"]
+        },
+        "x69800": {
+            "name_en": "My Father My Fisher",
+            "name_fr": "Des poissons pour le village",
+            "level": 80,
+            "npc_en": "Fretful Arkasodara",
+            "npc_fr": "Jeune Fille Arkasodara",
+            "patch": "6.0",
+            "cPrev": ["q.69952"],
+            "cNext": ["q.69796", "q.69797"]
+        },
+        "x69804": {
+            "name_en": "An Unexpected Guide",
+            "name_fr": "Un guide plutôt étrange",
+            "level": 80,
+            "npc_en": "Strange Hanuman Langur",
+            "npc_fr": "Hanuman Langur Étrange",
+            "patch": "6.0",
+            "cPrev": ["q.69952"]
+        },
+        "x69794": {
+            "name_en": "Quick Heels",
+            "name_fr": "Livraison médicale",
+            "level": 80,
+            "npc_en": "Utpala",
+            "npc_fr": "Utpala",
+            "patch": "6.0",
+            "cPrev": ["q.69953"]
+        },
+        "x69798": {
+            "name_en": "My Friend the Yeti",
+            "name_fr": "L'Arkasodara qui murmurait à l'oreille du yéti",
+            "level": 80,
+            "npc_en": "Arkasodara Youth",
+            "npc_fr": "Jeune Arkasodara",
+            "patch": "6.0",
+            "cPrev": ["q.69953"]
+        },
+        "x69801": {
+            "name_en": "A Pisaca's Purpose",
+            "name_fr": "L'écaille du pishacha",
+            "level": 80,
+            "npc_en": "Qeryde",
+            "npc_fr": "Qeryde",
+            "patch": "6.0",
+            "cPrev": ["q.69953"]
+        },
+        "x69802": {
+            "name_en": "Tea Foretell",
+            "name_fr": "Le thé divinatoire",
+            "level": 80,
+            "npc_en": "Mihsaja",
+            "npc_fr": "Mihsaja",
+            "patch": "6.0",
+            "cPrev": ["q.69953"]
+        },
+        "x69803": {
+            "name_en": "Dreams of Venom",
+            "name_fr": "Le chasseur de serpent",
+            "level": 80,
+            "npc_en": "Seasoned Hunter",
+            "npc_fr": "Chasseur Expérimenté",
+            "patch": "6.0",
+            "cPrev": ["q.69953"]
+        },
+        "x69796": {
+            "name_en": "Treasure Hunters",
+            "name_fr": "L'énigme de la jungle des Sangha",
+            "level": 80,
+            "npc_en": "Auri Dancer",
+            "npc_fr": "Danseur Aoran",
+            "patch": "6.0",
+            "cPrev": ["q.69953", "q.69800", "q.69793"]
+        },
+        "x69797": {
+            "name_en": "Curry for the Watch",
+            "name_fr": "Livraison volante",
+            "level": 80,
+            "npc_en": "Jubkhal",
+            "npc_fr": "Jubkhal",
+            "patch": "6.0",
+            "cPrev": ["q.69953", "q.69800", "q.69793"]
+        },
+        "x70029": {
+            "name_en": "What's in a Parent",
+            "name_fr": "Le bébé de l'alchimiste",
+            "level": 80,
+            "npc_en": "Yezahn",
+            "npc_fr": "Yezahn",
+            "patch": "6.0",
+            "cPrev": ["q.69953"],
+            "cNext": ["q.70030"]
+        },
+        "x70030": {
+            "name_en": "Curing What Ails",
+            "name_fr": "Qui a cueilli le soma ?",
+            "level": 80,
+            "npc_en": "Yezahn",
+            "npc_fr": "Yezahn",
+            "patch": "6.0",
+            "cPrev": ["q.70029"],
+            "cNext": ["q.70031"]
+        },
+        "x70031": {
+            "name_en": "The Sins We Bear",
+            "name_fr": "Compétences et péchés",
+            "level": 80,
+            "npc_en": "Sula",
+            "npc_fr": "Sula",
+            "patch": "6.0",
+            "cPrev": ["q.70030"],
+            "cNext": ["q.70032"]
+        },
+        "x70032": {
+            "name_en": "Societal Alchemy",
+            "name_fr": "Conseils d'un alchimiste",
+            "level": 80,
+            "npc_en": "Yezahn",
+            "npc_fr": "Yezahn",
+            "patch": "6.0",
+            "cPrev": ["q.70031"],
+            "cNext": ["q.70033"]
+        },
+        "x70033": {
+            "name_en": "A Budding Adventure",
+            "name_fr": "Vent de prairie en forêt",
+            "level": 80,
+            "npc_en": "Yezahn",
+            "npc_fr": "Yezahn",
+            "patch": "6.0",
+            "cPrev": ["q.70032", "q.70028"]
+        }
+    }
+}

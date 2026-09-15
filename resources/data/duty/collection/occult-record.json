@@ -1,0 +1,518 @@
+{
+    "key": "occult-record",
+    "groupName_en": "Occult Record",
+    "groupName_fr": "Calepin du croissant",
+    "columns": {
+        "number": {
+            "header": "@HEADER.NUMBER",
+            "width": 75
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Ketenramm Blaufystsyn",
+            "name_fr": "Ketenramm Blaufystsyn",
+            "number": "1",
+            "source": "q.70845",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x1": {
+            "name_en": "The Phantom Village",
+            "name_fr": "Ville fantôme",
+            "number": "2",
+            "source": "@PLACE.DT.PHANTOM_VILLAGE (6.1, 4.9)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x2": {
+            "name_en": "The Archive",
+            "name_fr": "Archive",
+            "number": "3",
+            "source": "q.70846",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x3": {
+            "name_en": "Iris",
+            "name_fr": "Iris",
+            "number": "4",
+            "source": "q.70847",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x4": {
+            "name_en": "The Expedition Base Camp",
+            "name_fr": "Camp de base",
+            "number": "5",
+            "source": "@PLACE.DT.SOUTH_HORN (38.6, 7.6)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x5": {
+            "name_en": "Phantom Jobs",
+            "name_fr": "Jobs de soutien",
+            "number": "6",
+            "source": "q.70849",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x6": {
+            "name_en": "The Lost Citadel",
+            "name_fr": "Forteresse perdue",
+            "number": "7",
+            "source": "@PLACE.DT.SOUTH_HORN (31.3, 17.0)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x7": {
+            "name_en": "Trade Tortoise",
+            "name_fr": "Tortue à pièces",
+            "number": "8",
+            "source": "duty.field-operations.occult-crescent.events.45",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x8": {
+            "name_en": "The Vanishing Slope",
+            "name_fr": "Versant des Visions",
+            "number": "9",
+            "source": "@PLACE.DT.SOUTH_HORN (20.2, 12.2)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x9": {
+            "name_en": "Nymian Petalodus",
+            "name_fr": "Petalodus de Nym",
+            "number": "10",
+            "source": "duty.field-operations.occult-crescent.events.41",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x10": {
+            "name_en": "Persistent Pot",
+            "name_fr": "Pots persistants",
+            "number": "11",
+            "source": [
+                "duty.field-operations.occult-crescent.events.1976",
+                "duty.field-operations.occult-crescent.events.1977"
+            ],
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x11": {
+            "name_en": "Heathcliff",
+            "name_fr": "Quiètes collines",
+            "number": "12",
+            "source": "@PLACE.DT.SOUTH_HORN (23.2, 21.6)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x12": {
+            "name_en": "The Fell Warren",
+            "name_fr": "Cité dédaléenne",
+            "number": "13",
+            "source": "@PLACE.DT.SOUTH_HORN (10.1, 22.4)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x13": {
+            "name_en": "Mythic Idol",
+            "name_fr": "Idole mythique",
+            "number": "14",
+            "source": "duty.field-operations.occult-crescent.events.39",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x14": {
+            "name_en": "The Shadowed City",
+            "name_fr": "Cité des Interdits",
+            "number": "15",
+            "source": "@PLACE.DT.SOUTH_HORN (24.2, 32.8)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x15": {
+            "name_en": "Black Chocobo",
+            "name_fr": "Chocobos noirs",
+            "number": "16",
+            "source": "duty.field-operations.occult-crescent.events.34",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x16": {
+            "name_en": "Crescent Berserker",
+            "name_fr": "Berserker de Lunule",
+            "number": "17",
+            "source": "duty.field-operations.occult-crescent.events.35",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x17": {
+            "name_en": "Eldergrowth",
+            "name_fr": "Vieilleracine",
+            "number": "18",
+            "source": "@PLACE.DT.SOUTH_HORN (18.5, 33.9)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x18": {
+            "name_en": "The Abandoned Ascent",
+            "name_fr": "L'Ascension archaïque",
+            "number": "19",
+            "source": "@PLACE.DT.SOUTH_HORN (15.6, 29.5)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x19": {
+            "name_en": "Cloister Demon",
+            "name_fr": "Démon du Cloître",
+            "number": "20",
+            "source": "duty.field-operations.occult-crescent.events.37",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x20": {
+            "name_en": "The Silent Streets",
+            "name_fr": "Immeubles d'habitation élevés",
+            "number": "21",
+            "source": "@PLACE.DT.SOUTH_HORN (36.6, 33.7)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x21": {
+            "name_en": "The Ancient Stoneworks",
+            "name_fr": "Atelier à golems",
+            "number": "22",
+            "source": "@PLACE.DT.SOUTH_HORN (36.0, 33.7)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x22": {
+            "name_en": "The Wanderer's Haven",
+            "name_fr": "Refuge du Vagabond",
+            "number": "23",
+            "source": "@PLACE.DT.SOUTH_HORN (3.7, 5.8)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x23": {
+            "name_en": "The Brazier",
+            "name_fr": "Grand brasier céleste",
+            "number": "24",
+            "source": "@PLACE.DT.SOUTH_HORN (8.7, 35.8)",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x24": {
+            "name_en": "The Island's Architect",
+            "name_fr": "Maître de l'île",
+            "number": "25",
+            "source": "q.70853",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x25": {
+            "name_en": "Demon Tablet",
+            "name_fr": "Muraille démonique",
+            "number": "26",
+            "source": [
+                "duty.field-operations.occult-crescent.duties.0",
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (3 CURRENCY.EM.ARCANE_AMULET)"
+            ],
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x26": {
+            "name_en": "Dead Stars",
+            "name_fr": "Trio de la Fosse",
+            "number": "27",
+            "source": [
+                "duty.field-operations.occult-crescent.duties.0",
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (3 CURRENCY.EM.ARCANE_AMULET)"
+            ],
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x27": {
+            "name_en": "Marble Dragon",
+            "name_fr": "Dragon marmoréen",
+            "number": "28",
+            "source": [
+                "duty.field-operations.occult-crescent.duties.0",
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (3 CURRENCY.EM.ARCANE_AMULET)"
+            ],
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x28": {
+            "name_en": "Magitaur",
+            "name_fr": "Magitaure",
+            "number": "29",
+            "source": [
+                "duty.field-operations.occult-crescent.duties.0",
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (3 CURRENCY.EM.ARCANE_AMULET)"
+            ],
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x29": {
+            "name_en": "The Secluded Stacks",
+            "name_fr": "Étude oubliée",
+            "number": "30",
+            "source": "duty.field-operations.occult-crescent.duties.0",
+            "patch": "7.25",
+            "cCombo": ["a.3659"]
+        },
+        "x30": {
+            "name_en": "North Horn Base Camp",
+            "name_fr": "Camp de base nord",
+            "number": "31",
+            "source": "@PLACE.DT.NORTH_HORN (39.0, 38.0)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x31": {
+            "name_en": "The Crown of Karnak",
+            "name_fr": "Couronne de Karnak",
+            "number": "32",
+            "source": "@PLACE.DT.NORTH_HORN (36.5, 31.7)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x32": {
+            "name_en": "Arbatel",
+            "name_fr": "Arbatel",
+            "number": "33",
+            "source": "duty.field-operations.occult-crescent.events.52",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x33": {
+            "name_en": "Tiny Mage",
+            "name_fr": "Petit mage",
+            "number": "34",
+            "source": "duty.field-operations.occult-crescent.events.60",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x34": {
+            "name_en": "Algol",
+            "name_fr": "Algol",
+            "number": "35",
+            "source": "duty.field-operations.occult-crescent.events.54",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x35": {
+            "name_en": "Shadowdeep",
+            "name_fr": "Lac spectral",
+            "number": "36",
+            "source": "@PLACE.DT.NORTH_HORN (27.6, 26.2)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x36": {
+            "name_en": "Labyrinth of the Damned",
+            "name_fr": "Labyrinthe des damnés",
+            "number": "37",
+            "source": "@PLACE.DT.NORTH_HORN (39.8, 22.6)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x37": {
+            "name_en": "Metamorph",
+            "name_fr": "Métamorphe",
+            "number": "38",
+            "source": "duty.field-operations.occult-crescent.events.63",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x38": {
+            "name_en": "Panoptical Pillar",
+            "name_fr": "Mirador paisible",
+            "number": "39",
+            "source": "@PLACE.DT.NORTH_HORN (27.0, 14.2)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x39": {
+            "name_en": "Sinking Sanctuary",
+            "name_fr": "Sanctuaire englouti",
+            "number": "40",
+            "source": "@PLACE.DT.NORTH_HORN (40.2, 3.4)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x40": {
+            "name_en": "Pallmagia",
+            "name_fr": "Palimagia",
+            "number": "41",
+            "source": "duty.field-operations.occult-crescent.events.59",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x41": {
+            "name_en": "Phantom Necromancer",
+            "name_fr": "Nécromancien magi",
+            "number": "42",
+            "source": "duty.field-operations.occult-crescent.events.57",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x42": {
+            "name_en": "The Marrowood",
+            "name_fr": "Bois ballotés",
+            "number": "43",
+            "source": "@PLACE.DT.NORTH_HORN (17.5, 5.1)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x43": {
+            "name_en": "The Abductor",
+            "name_fr": "Le Ravisseur",
+            "number": "44",
+            "source": "duty.field-operations.occult-crescent.events.61",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x44": {
+            "name_en": "Suspended Masonry",
+            "name_fr": "Structures suspendues",
+            "number": "45",
+            "source": "@PLACE.DT.NORTH_HORN (11.2, 38.8)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x45": {
+            "name_en": "The Windward Watch",
+            "name_fr": "Halte du Vagabond",
+            "number": "46",
+            "source": "@PLACE.DT.NORTH_HORN (4.7, 36.3)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x46": {
+            "name_en": "Shrine of Spheres",
+            "name_fr": "Temple des sphères",
+            "number": "47",
+            "source": "@PLACE.DT.NORTH_HORN (3.3, 24.4)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x47": {
+            "name_en": "Claret Dragon",
+            "name_fr": "Dragon rubrum",
+            "number": "48",
+            "source": "duty.field-operations.occult-crescent.events.53",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x48": {
+            "name_en": "Moldering Streets",
+            "name_fr": "Cité décrépie",
+            "number": "49",
+            "source": "@PLACE.DT.NORTH_HORN (7.4, 14.0)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x49": {
+            "name_en": "The Alabaster Blade",
+            "name_fr": "La Lame d'albâtre",
+            "number": "50",
+            "source": "duty.field-operations.occult-crescent.events.51",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x50": {
+            "name_en": "The Moldering Lake",
+            "name_fr": "Lac aux fleurs fongiques",
+            "number": "51",
+            "source": "@PLACE.DT.NORTH_HORN (3.9, 3.4)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x51": {
+            "name_en": "Unhallowed Hamlet",
+            "name_fr": "Hameau hanté",
+            "number": "52",
+            "source": "@PLACE.DT.NORTH_HORN (21.3, 19.6)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x52": {
+            "name_en": "Conjured Calofisteri",
+            "name_fr": "Clone de Calofisteri",
+            "number": "53",
+            "source": "duty.field-operations.occult-crescent.events.50",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x53": {
+            "name_en": "Dark Territory",
+            "name_fr": "Territoire ténébreux",
+            "number": "54",
+            "source": "@PLACE.DT.NORTH_HORN (22.7, 23.9)",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x54": {
+            "name_en": "Two-headed Aevis",
+            "name_fr": "Eibis bicéphale",
+            "number": "55",
+            "source": "duty.field-operations.occult-crescent.duties.1",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x55": {
+            "name_en": "Sword Dancer",
+            "name_fr": "Danseur aux épées",
+            "number": "56",
+            "source": "duty.field-operations.occult-crescent.duties.1",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x56": {
+            "name_en": "Necrophobia",
+            "name_fr": "Nécrophobie",
+            "number": "57",
+            "source": "duty.field-operations.occult-crescent.duties.1",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x57": {
+            "name_en": "The Index",
+            "name_fr": "Index",
+            "number": "58",
+            "source": "duty.field-operations.occult-crescent.duties.1",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x58": {
+            "name_en": "The Archive",
+            "name_fr": "Archive",
+            "number": "59",
+            "source": "q.71054",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        },
+        "x59": {
+            "name_en": "Concealed Collection",
+            "name_fr": "Collection oubliée",
+            "number": "60",
+            "source": "duty.field-operations.occult-crescent.duties.1",
+            "patch": "7.55",
+            "cCombo": ["a.3997"]
+        }
+    }
+}

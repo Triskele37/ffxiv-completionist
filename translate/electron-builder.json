@@ -1,0 +1,59 @@
+{
+    "appId": "com.translate",
+    "productName": "Translate",
+    "asar": true,
+    "directories": {
+        "output": "release/"
+    },
+    "files": [
+        "**/*",
+        "!**/*.ts",
+        "!*.map",
+        "!package.json",
+        "!package-lock.json",
+        {
+            "from": "../dist",
+            "filter": ["**/*"]
+        }
+    ],
+    "extraResources": [
+        {
+            "from": "../resources",
+            "to": "resources"
+        }
+    ],
+    "win": {
+        "icon": "renderer/assets/icons/favicon.png",
+        "target": "nsis"
+    },
+    "mac": {
+        "icon": "renderer/assets/icons/favicon.png",
+        "target": [
+            {
+                "target": "default",
+                "arch": [
+                    "x64",
+                    "arm64"
+                ]
+            }
+        ]
+    },
+    "dmg": {
+        "window": {
+            "width": 540,
+            "height": 420
+        }
+    },
+    "linux": {
+        "icon": "renderer/assets/icons/favicon.png",
+        "target": [
+            {
+                "target": "AppImage",
+                "arch": [
+                    "x64",
+                    "arm64"
+                ]
+            }
+        ]
+    }
+}

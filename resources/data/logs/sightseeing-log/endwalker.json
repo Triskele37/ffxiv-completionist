@@ -1,0 +1,422 @@
+{
+    "key": "endwalker",
+    "groupName": "@EXPANSION.ENDWALKER",
+    "groupNameShort": "@EXPANSION.EW",
+    "cCombo": ["a.2973"],
+    "tasks": {
+        "x2162937": {
+            "name_en": "The Leveilleur Estate",
+            "name_fr": "Résidence des Leveilleur",
+            "vista": "001",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(15.7, 8.1)",
+            "patch": "6.0"
+        },
+        "x2162938": {
+            "name_en": "Scholar's Harbor",
+            "name_fr": "Port de l'Érudit",
+            "vista": "002",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(11.9, 15.8)",
+            "patch": "6.0"
+        },
+        "x2162939": {
+            "name_en": "The Forum",
+            "name_fr": "Les Rostres",
+            "vista": "003",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(10.9, 6.9)",
+            "patch": "6.0"
+        },
+        "x2162940": {
+            "name_en": "Noumenon",
+            "name_fr": "Noumène",
+            "vista": "004",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(4.5, 11.3)",
+            "patch": "6.0"
+        },
+        "x2162941": {
+            "name_en": "The Rostra",
+            "name_fr": "Conseil de Sharlayan",
+            "vista": "005",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(11.3, 10.1)",
+            "patch": "6.0"
+        },
+        "x2162942": {
+            "name_en": "Journey's End",
+            "name_fr": "Colline des Naufragés",
+            "vista": "006",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(15.2, 9.6)",
+            "patch": "6.0"
+        },
+        "x2162943": {
+            "name_en": "Learners' Meet",
+            "name_fr": "Aula",
+            "vista": "007",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.OLD_SHARLAYAN",
+            "location": "(3.3, 9.0)",
+            "patch": "6.0"
+        },
+        "x2162944": {
+            "name_en": "Ruveydah Fibers",
+            "name_fr": "Soierie de Ruveydah",
+            "vista": "008",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(8.0, 13.4)",
+            "patch": "6.0"
+        },
+        "x2162945": {
+            "name_en": "Balshahn Bazaar",
+            "name_fr": "Bazar de Balshahn",
+            "vista": "009",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(10.7, 9.5)",
+            "patch": "6.0"
+        },
+        "x2162946": {
+            "name_en": "Nilopala Nourishments",
+            "name_fr": "Ferme de Nilopala",
+            "vista": "010",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(7.8, 14.2)",
+            "patch": "6.0"
+        },
+        "x2162947": {
+            "name_en": "Mehryde's Meyhane",
+            "name_fr": "Meyhane de Mehryde",
+            "vista": "011",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(11.3, 7.2)",
+            "patch": "6.0"
+        },
+        "x2162948": {
+            "name_en": "Meghaduta",
+            "name_fr": "Palais du Meghaduta",
+            "vista": "012",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(5.1, 13.3)",
+            "patch": "6.0"
+        },
+        "x2162949": {
+            "name_en": "Alzadaal's Peace",
+            "name_fr": "Repos d'Alzadaal",
+            "vista": "013",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(11.0, 12.1)",
+            "patch": "6.0"
+        },
+        "x2162950": {
+            "name_en": "Ruveydah Fibers Rooftop Garden",
+            "name_fr": "Jardin suspendu de la soierie de Ruveydah",
+            "vista": "014",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.RADZ_AT_HAN",
+            "location": "(8.7, 13.2)",
+            "patch": "6.0"
+        },
+        "x2162951": {
+            "name_en": "The Path of Artifice",
+            "name_fr": "Passage de l'Ingéniosité",
+            "vista": "015",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(20.4, 7.6)",
+            "patch": "6.0"
+        },
+        "x2162952": {
+            "name_en": "Thaumazein",
+            "name_fr": "Thaumazein",
+            "vista": "016",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(15.0, 25.3)",
+            "patch": "6.0"
+        },
+        "x2162953": {
+            "name_en": "Meryall Agronomics",
+            "name_fr": "Laboratoire agronomique de Meryall",
+            "vista": "017",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(30.9, 18.8)",
+            "patch": "6.0"
+        },
+        "x2162954": {
+            "name_en": "Troglophile's Deep",
+            "name_fr": "Repaire des Cavernicoles",
+            "vista": "018",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(38.5, 13.7)",
+            "patch": "6.0"
+        },
+        "x2162955": {
+            "name_en": "Sharlayan Hamlet",
+            "name_fr": "Petite Sharlayan",
+            "vista": "019",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.LABYRINTHOS",
+            "location": "(22.5, 17.5)",
+            "patch": "6.0"
+        },
+        "x2162956": {
+            "name_en": "Yedlihmad",
+            "name_fr": "Yedlihmad",
+            "vista": "020",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(26.3, 33.6)",
+            "patch": "6.0"
+        },
+        "x2162957": {
+            "name_en": "Kadjaya's Footsteps",
+            "name_fr": "Pas de Kadjaya",
+            "vista": "021",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(22.6, 19.7)",
+            "patch": "6.0"
+        },
+        "x2162958": {
+            "name_en": "Giantsgall Grounds",
+            "name_fr": "Mines de fiel-de-géant",
+            "vista": "022",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(20.0, 6.9)",
+            "patch": "6.0"
+        },
+        "x2162959": {
+            "name_en": "The Shroud of the Samgha",
+            "name_fr": "Jungle des Sangha",
+            "vista": "023",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(29.3, 25.0)",
+            "patch": "6.0"
+        },
+        "x2162960": {
+            "name_en": "The Font of Maya",
+            "name_fr": "Source de la Maya",
+            "vista": "024",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(26.6, 24.2)",
+            "patch": "6.0"
+        },
+        "x2162961": {
+            "name_en": "The Great Work",
+            "name_fr": "Le Grand Œuvre",
+            "vista": "025",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.THAVNAIR",
+            "location": "(9.8, 23.2)",
+            "patch": "6.0"
+        },
+        "x2162962": {
+            "name_en": "Tertium",
+            "name_fr": "Gare de Tertium",
+            "vista": "026",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(32.4, 18.5)",
+            "patch": "6.0"
+        },
+        "x2162963": {
+            "name_en": "Juturna Platform G",
+            "name_fr": "Plateforme Juturna G",
+            "vista": "027",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(29.7, 34.2)",
+            "patch": "6.0"
+        },
+        "x2162964": {
+            "name_en": "The Runaway Train",
+            "name_fr": "Train fuyard",
+            "vista": "028",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(29.6, 23.4)",
+            "patch": "6.0"
+        },
+        "x2162965": {
+            "name_en": "Senaculum Imperialis",
+            "name_fr": "Senaculum Imperialis",
+            "vista": "029",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(17.0, 9.2)",
+            "patch": "6.0"
+        },
+        "x2162966": {
+            "name_en": "Regio Urbanissima",
+            "name_fr": "Regio Urbanissima",
+            "vista": "030",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(19.4, 16.9)",
+            "patch": "6.0"
+        },
+        "x2162967": {
+            "name_en": "Forum Solius",
+            "name_fr": "Forum Solius",
+            "vista": "031",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.GARLEMALD",
+            "location": "(29.1, 8.6)",
+            "patch": "6.0"
+        },
+        "x2162968": {
+            "name_en": "The Chthonic Horns",
+            "name_fr": "Jardin chthonien",
+            "vista": "032",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ELPIS",
+            "location": "(33.1, 29.4)",
+            "patch": "6.0"
+        },
+        "x2162969": {
+            "name_en": "Metabaseos Thalassai",
+            "name_fr": "La Métabase",
+            "vista": "033",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ELPIS",
+            "location": "(10.2, 13.6)",
+            "patch": "6.0"
+        },
+        "x2162970": {
+            "name_en": "Lethe",
+            "name_fr": "Le Léthé",
+            "vista": "034",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ELPIS",
+            "location": "(31.7, 15.8)",
+            "patch": "6.0"
+        },
+        "x2162971": {
+            "name_en": "Ktisis Hyperboreia",
+            "name_fr": "L'Hyperborée",
+            "vista": "035",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ELPIS",
+            "location": "(14.9, 7.3)",
+            "patch": "6.0"
+        },
+        "x2162972": {
+            "name_en": "Anagnorisis",
+            "name_fr": "L'Anagnorisis",
+            "vista": "036",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ELPIS",
+            "location": "(24.6, 22.9)",
+            "patch": "6.0"
+        },
+        "x2162973": {
+            "name_en": "Kydonia Knolls",
+            "name_fr": "Butte de Cydonia",
+            "vista": "037",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(11.4, 22.1)",
+            "patch": "6.0"
+        },
+        "x2162974": {
+            "name_en": "The Carrotorium",
+            "name_fr": "Carrotorium",
+            "vista": "038",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(7.4, 6.2)",
+            "patch": "6.0"
+        },
+        "x2162975": {
+            "name_en": "Greatest Endsvale",
+            "name_fr": "La Garenne sempervirente",
+            "vista": "039",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(36.0, 9.3)",
+            "patch": "6.0"
+        },
+        "x2162976": {
+            "name_en": "Heimdall's Last Sight",
+            "name_fr": "Épave du Heimdall",
+            "vista": "040",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(34.4, 29.5)",
+            "patch": "6.0"
+        },
+        "x2162977": {
+            "name_en": "The Watcher's Palace",
+            "name_fr": "Palais du Veilleur",
+            "vista": "041",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "location": "(13.5, 32.6)",
+            "patch": "6.0"
+        },
+        "x2162978": {
+            "name_en": "Stigma-1",
+            "name_fr": "Stigma-1",
+            "vista": "042",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "location": "(32.7, 29.9)",
+            "patch": "6.0"
+        },
+        "x2162979": {
+            "name_en": "Ostrakon Deka-hexi",
+            "name_fr": "Ostrakon Dékahexi",
+            "vista": "043",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "location": "(33.7, 26.9)",
+            "patch": "6.0"
+        },
+        "x2162980": {
+            "name_en": "Ostrakon Tria",
+            "name_fr": "Ostrakon Tria",
+            "vista": "044",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "location": "(18.7, 13.8)",
+            "patch": "6.0"
+        },
+        "x2162981": {
+            "name_en": "Ostrakon Deka-okto",
+            "name_fr": "Ostrakon Dékaokto",
+            "vista": "045",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "location": "(8.9, 18.2)",
+            "patch": "6.0"
+        },
+        "x2162982": {
+            "name_en": "Ostrakon Hena",
+            "name_fr": "Ostrakon Éna",
+            "vista": "046",
+            "emote": "e.22",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "location": "(23.1, 27.3)",
+            "patch": "6.0"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "key": "fishing-log",
+    "groupName_en": "Fishing Log",
+    "groupName_fr": "Carnet de pêche",
+    "columns": {
+        "level": {
+            "header": "@HEADER.LEVEL"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "zone": {
+            "header": "@HEADER.ZONE"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION"
+        },
+        "type": {
+            "header": "@HEADER.TYPE",
+            "filterable": true
+        },
+        "req": {
+            "header": "@HEADER.REQUIREMENTS"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "fishing",
+        "spearfishing"
+    ]
+}

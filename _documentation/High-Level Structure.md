@@ -1,80 +1,92 @@
+* reference
+  * chest
+  * currency
 * character
-  * achievement
   * adventure-plate
-  * blue-mage
-    * log
-    * spellbook
-    * the-masked-carnivale
+	* classes-and-jobs
+	* minions
+	* pvp
   * character
     * aesthetician
+    * title
+    * grand-company-rank
     * classes-jobs
     * desynthesis
-    * grand-company-rank
-    * title
-    * tribal-relations
+    * societal-relations
   * companion
-    * barding
     * companion-rank
     * companion-skills
+    * barding
+  * mount-guide
+  * minion-guide
+  * facewear
   * fashion-accessories
+  * relic-gear
+	* zodiac
+	* anima
+	* eureka
+	* resistance
+	* manderville
+	* phantom
+	* lucis-tools
+	* skysteel-tools
+	* resplendent-tools
+	* splendorous-tools
+	* cosmic-tools
+  * blue-mage
+    * spellbook
+    * log
+    * the-masked-carnivale
   * gold-saucer
     * chocobo
       * challenges
       * pedigree
     * triple-triad-card-list
     * triple-triad-opponents
-  * minion-guide
-  * mount-guide
-  * relic-gear
+	* mahjong-voices
+  * achievement
+	* battle
+	* pvp
+	* character
+	* items
+	* crafting-and-gathering
+	* quests
+	* exploration
+	* grand-company
+	* legacy
 * duty
   * collection
-  * duty-raid-finder
-    * deep-dungeons
-    * dungeons
-    * guildhests
-    * raids
-    * trials
-  * v-anc-c-dungeons
-    * duties
-      * records
-  * exploratory-missions
-    * eureka
-      * aetherytes
-      * duties
-      * elemental-level
-      * logos-actions
-      * notorious-monsters
-    * bozja
-      * aetherytes
-      * duties
-      * events
-      * lost-actions
-      * resistance-honors
-      * resistance-rank
-  * fate
-  * hall-of-the-novice
-  * island-sanctuary
-    * animals
-    * buildings
-    * crafting
-    * isleventory
-    * rank
   * quest
-  * squadron
-  * the-hunt
-  * treasure-hunt
+  * duty-raid-finder
+    * dungeons
+    * trials
+    * raids
+    * guildhests
+    * deep-dungeons
+    * v-anc-c-dungeons
   * trust
+  * hall-of-the-novice
+  * fate
+  * squadron
+  * treasure-hunt
+  * the-hunt
+  * field-operations
+    * eureka
+    * bozja
+	* occult-crescent
+  * cosmic-exploration
+  * island-sanctuary
 * logs
+  * hunting
+  * sightseeing
   * crafting
   * gathering
-  * hunting
   * orchestrion
-  * sightseeing
-* social
-  * emotes
 * travel
   * aether-currents
   * aetherytes
   * mount-speed
   * porters
   * shared-fate
+* social
+  * emotes

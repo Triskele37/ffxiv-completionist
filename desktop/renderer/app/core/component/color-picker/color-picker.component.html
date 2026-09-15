@@ -1,0 +1,23 @@
+<p-input-color
+    [(ngModel)]="value"
+    (onValueChange)="onValueChange($event)"
+    [format]="format"
+>
+    <p-inputcolor-swatch (click)="op.toggle($event)">
+        <p-inputcolor-transparency-grid />
+        <p-inputcolor-swatch-background />
+    </p-inputcolor-swatch>
+    <p-popover #op>
+        <p-inputcolor-area>
+            <p-inputcolor-area-background />
+            <p-inputcolor-area-handle />
+        </p-inputcolor-area>
+        <p-inputcolor-slider>
+            <p-inputcolor-transparency-grid />
+            <p-inputcolor-slider-track />
+            <p-inputcolor-slider-handle />
+        </p-inputcolor-slider>
+
+        <input pInputColorInput channel="hex" />
+    </p-popover>
+</p-input-color>

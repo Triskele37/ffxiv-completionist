@@ -1,0 +1,35 @@
+// Shared container class for all overlays
+.overlay-container {
+    .content {
+        min-width: 333px;
+
+        .overlay-title {
+            text-align: center;
+            padding: var(--content-padding);
+        }
+
+        .undo-container {
+            >:not(p-button-group) {
+                width: 100%;
+            }
+
+            ::ng-deep > p-button-group > .p-buttongroup {
+                width: 100%;
+
+                > .p-button:nth-child(1) {
+                    border-top-left-radius: var(--content-padding);
+                    width: 33%;
+                }
+
+                > .p-button:nth-child(2) {
+                    width: 34%;
+                }
+
+                > .p-button:nth-child(3) {
+                    border-bottom-right-radius: 0;
+                    width: 33%;
+                }
+            }
+        }
+    }
+}

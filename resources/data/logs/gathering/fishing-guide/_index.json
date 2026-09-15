@@ -1,0 +1,37 @@
+{
+    "key": "fishing-guide",
+    "groupName_en": "Fishing Guide",
+    "groupName_fr": "Nomenclature",
+    "columns": {
+        "iLvl": {
+            "header_en": "iLvl",
+            "header_fr": "Niveau d'objet"
+        },
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "bait": {
+            "filterable": true,
+            "link": true,
+            "header_en": "Bait",
+            "header_fr": "Attributs"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Région"
+        },
+        "primeLocation": {
+            "filterable": true,
+            "link": true,
+            "header_en": "Prime Location",
+            "header_fr": "Lieu"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "fishing",
+        "spearfishing"
+    ]
+}

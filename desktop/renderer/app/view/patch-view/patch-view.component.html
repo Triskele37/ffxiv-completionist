@@ -1,0 +1,47 @@
+<div
+    data-active-help="APP.ACTIVE_HELP.PATCH_VIEW"
+    class="patch-view-container"
+>
+    @if(selectedPatch) {
+        <div class="summary-container">
+            <com-summary-line
+                [group]="patchViewGroup()"
+                [isBig]="true"
+            ></com-summary-line>
+        </div>
+    }
+
+    <div class="patch-results-table">
+        <com-task-table
+            [group]="patchViewGroup()"
+            [toolbarPre]="tableToolbarPre"
+        ></com-task-table>
+    </div>
+</div>
+
+<ng-template #tableToolbarPre>
+    <div
+        data-active-help="APP.ACTIVE_HELP.MISC.PATCH_SELECTOR"
+        class="patch-view-toolbar"
+    >
+        <button pButton (click)="patchMenu.toggle($event)">
+            @if(!selectedPatch) {
+                {{'APP.PATCH_VIEW.CHOOSE' | translate}}
+            }
+            @else if(selectedPatch === ' ') {
+                {{'APP.PATCH_VIEW.NO_PATCH' | translate}}
+            }
+            @else {
+                {{selectedPatch}}
+            }
+        </button>
+
+        <p-tiered-menu
+            #patchMenu
+            class="patch-menu"
+            [model]="patchMenuItem()"
+            [popup]="true"
+            (onHide)="onSelectorHide()"
+        ></p-tiered-menu>
+    </div>
+</ng-template>

@@ -1,0 +1,42 @@
+// Shared container class for all overlays
+.overlay-container {
+    .merge-control-overlay, .merge-overlay {
+        // Overlay just above modal during manual merge
+        &.manual-merge {
+            z-index: 10000;
+        }
+
+        .content {
+            // So overlay can grow with long group paths on merge
+            min-width: 400px;
+
+            .merge-details {
+                padding: 5px;
+
+                // Wrapping for long notes
+                white-space: initial;
+                max-height: 150px;
+                overflow: auto;
+            }
+
+            ::ng-deep .p-divider {
+                margin: 5px 0;
+                user-select: none;
+            }
+        }
+
+        // Vertical button-group
+        ::ng-deep .p-buttongroup {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+
+            .p-button {
+                position: relative;
+                border-radius: 0;
+                border-right: none;
+                width: 100%;
+            }
+        }
+    }
+}

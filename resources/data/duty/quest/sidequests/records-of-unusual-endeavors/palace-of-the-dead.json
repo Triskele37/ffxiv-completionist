@@ -1,0 +1,39 @@
+{
+    "key": "palace-of-the-dead",
+    "groupName_en": "Palace of the Dead",
+    "groupName_fr": "Le Palais des morts",
+    "tasks": {
+        "x67092": {
+            "name_en": "The House That Death Built",
+            "name_fr": "Mystères souterrains dans la forêt",
+            "level": 17,
+            "npc_en": "Nojiro Marujiro",
+            "npc_fr": "Nojiro Marujiro",
+            "unlock": "d.174",
+            "patch": "3.35",
+            "cPrev": ["q.66196"],
+            "cNext": ["q.67923", "d.174"]
+        },
+        "x67093": {
+            "name_en": "The Nightmare's End",
+            "name_fr": "La réunion de deux bagues",
+            "level": 50,
+            "npc_en": "Balan",
+            "npc_fr": "Balan",
+            "patch": "3.35",
+            "cPrev": ["q.67060"],
+            "cNext": ["q.67924"],
+            "cSiblings": ["a.1575"]
+        },
+        "x67924": {
+            "name_en": "Dead but Not Gone",
+            "name_fr": "Repos éternel",
+            "level": 60,
+            "npc_en": "Wood Wailer Expeditionary",
+            "npc_fr": "Enquêteur Des Vigiles Sombres",
+            "patch": "3.45",
+            "cPrev": ["q.67093"],
+            "cSiblings": ["a.1680"]
+        }
+    }
+}

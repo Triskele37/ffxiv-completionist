@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.app.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/spec",
+        "types": [
+            "jest",
+            "node"
+        ]
+    },
+    "include": [
+        "renderer/**/*.spec.ts",
+        "renderer/**/*.mock.ts",
+        "renderer/**/*.d.ts"
+    ],
+    "exclude": [
+    ]
+}

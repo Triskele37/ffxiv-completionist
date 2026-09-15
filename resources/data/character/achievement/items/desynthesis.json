@@ -1,0 +1,77 @@
+{
+    "key": "desynthesis",
+    "groupName_en": "Desynthesis",
+    "groupName_fr": "Recyclage",
+    "tasks": {
+        "x1006": {
+            "name_en": "Break It Down I",
+            "name_fr": "Démontage en règle I",
+            "description_en": "Successfully desynthesize 50 items.",
+            "description_fr": "Réussir le recyclage de 50 objets.",
+            "points": 5,
+            "patch": "2.3",
+            "cNext": ["a.1007"]
+        },
+        "x1007": {
+            "name_en": "Break It Down II",
+            "name_fr": "Démontage en règle II",
+            "description_en": "Successfully desynthesize 200 items.",
+            "description_fr": "Réussir le recyclage de 200 objets.",
+            "points": 5,
+            "patch": "2.3",
+            "cPrev": ["a.1006"],
+            "cNext": ["a.1008"]
+        },
+        "x1008": {
+            "name_en": "Break It Down III",
+            "name_fr": "Démontage en règle III",
+            "description_en": "Successfully desynthesize 500 items.",
+            "description_fr": "Réussir le recyclage de 500 objets.",
+            "points": 5,
+            "patch": "2.3",
+            "cPrev": ["a.1007"],
+            "cNext": ["a.1009"]
+        },
+        "x1009": {
+            "name_en": "Break It Down IV",
+            "name_fr": "Démontage en règle IV",
+            "description_en": "Successfully desynthesize 1,000 items.",
+            "description_fr": "Réussir le recyclage de 1 000 objets.",
+            "points": 5,
+            "patch": "2.3",
+            "cPrev": ["a.1008"],
+            "cNext": ["a.1010"]
+        },
+        "x1010": {
+            "name_en": "Break It Down V",
+            "name_fr": "Démontage en règle V",
+            "description_en": "Successfully desynthesize 2,000 items.",
+            "description_fr": "Réussir le recyclage de 2 000 objets.",
+            "points": 10,
+            "patch": "2.3",
+            "cPrev": ["a.1009"],
+            "cNext": ["a.1011"]
+        },
+        "x1011": {
+            "name_en": "You're Tearing Me Apart I",
+            "name_fr": "Manie du désassemblement",
+            "description_en": "Successfully desynthesize 5,000 items.",
+            "description_fr": "Réussir le recyclage de 5 000 objets.",
+            "points": 10,
+            "reward": "t.171",
+            "patch": "2.3",
+            "cPrev": ["a.1010"],
+            "cNext": ["a.1904"],
+            "cSiblings": ["t.171"]
+        },
+        "x1904": {
+            "name_en": "You're Tearing Me Apart II",
+            "name_fr": "Désassembleur patenté",
+            "description_en": "Successfully desynthesize 10,000 items.",
+            "description_fr": "Réussir le recyclage de 10 000 objets.",
+            "points": 10,
+            "patch": "4.0",
+            "cPrev": ["a.1011"]
+        }
+    }
+}

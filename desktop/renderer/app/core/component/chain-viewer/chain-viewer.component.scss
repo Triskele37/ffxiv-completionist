@@ -1,0 +1,65 @@
+.chain-viewer-modal {
+    .chain-viewer {
+        border: 1px solid var(--primary-color);
+        background: var(--surface-700);
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        top: 25vh;
+
+        .chain-viewer-toolbar {
+            background: var(--surface-500);
+            border-radius: 5px;
+            display: flex;
+
+            .title {
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+                white-space: nowrap;
+
+                border: 1px solid var(--primary-color);
+                border-bottom-right-radius: 10px;
+                border-left: none;
+                border-top: none;
+            }
+
+            .toolbar-container {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .toolbar-content {
+                    display: flex;
+                    align-items: center;
+
+                    gap: 20px;
+                    padding: 10px;
+
+                    ::ng-deep {
+                        .p-inputnumber-input {
+                            width: 75px;
+                        }
+                    }
+                }
+
+                .close-button {
+
+                }
+            }
+        }
+
+        .chain-viewer-content {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+
+            max-height: 65vh;
+            width: 80vw;
+            overflow: auto;
+        }
+    }
+}

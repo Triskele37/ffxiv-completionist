@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--surface-500);
+    border: 1px solid var(--primary-color-text);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color-text);
+
+    &:hover {
+        background: rgba(var(--primary-color-rgb), 0.9);
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "key": "botanist",
+    "groupName": "@CLASS_JOB.BTN",
+    "tasks": {
+        "x1366": {
+            "name_en": "Hydrophytic Flora Harvest",
+            "name_fr": "Récolte de plantes hygrophiles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_2_A",
+            "patch": "7.41"
+        },
+        "x1367": {
+            "name_en": "Medicinal Flora Harvest",
+            "name_fr": "Récolte de plantes médicinales",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_3_B",
+            "patch": "7.41"
+        },
+        "x1318": {
+            "name_en": "EX+: Subterranean Aetherial Research",
+            "name_fr": "EX+ : Analyse des nœuds éthérés des ruines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1317",
+            "patch": "7.41"
+        },
+        "x1319": {
+            "name_en": "EX+: Ruin Sample Procurement",
+            "name_fr": "EX+ : Analyse des matériaux des ruines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1318",
+            "patch": "7.41"
+        },
+        "x1316": {
+            "name_en": "EX+: Survey of Rare Aetheric Flora",
+            "name_fr": "EX+ : Étude de plantes éthéréennes rares",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "2000-2400",
+            "patch": "7.41"
+        },
+        "x1317": {
+            "name_en": "EX+: Subterranean Ruin Research",
+            "name_fr": "EX+ : Analyse de l'environnement des ruines",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1000-1200",
+            "patch": "7.41"
+        },
+        "x1314": {
+            "name_en": "EX: Extreme Harvesting Analysis",
+            "name_fr": "EX : Essais de récolte continue de matériaux rares",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1315": {
+            "name_en": "EX+: Rare Alchemical Reductions",
+            "name_fr": "EX+ : Éthérolyse de ressources alchimiques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1305": {
+            "name_en": "Southeastern Regolith Survey",
+            "name_fr": "Étude des plantes du Reg levant",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1306": {
+            "name_en": "Suspended Flora Procurement",
+            "name_fr": "Livraison de plantes flottantes",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1307": {
+            "name_en": "Crooked Cedar Root Procurement",
+            "name_fr": "Livraison de sarments de cèdre torsadé",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1308": {
+            "name_en": "Fibrous Gravitational Stabilizers",
+            "name_fr": "Livraison de fibres antigravitationnelles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1309": {
+            "name_en": "Multi-purpose Reductions",
+            "name_fr": "Éthérolyse de matériaux polyvalents",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1310": {
+            "name_en": "Oizys Historical Reductions",
+            "name_fr": "Éthérolyse des strates d'Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1311": {
+            "name_en": "EX: Aether-rich Flora Survey",
+            "name_fr": "EX : Livraison de végétaux chargés en éther",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1312": {
+            "name_en": "EX: Terrestrianemone Tentacle Harvest",
+            "name_fr": "EX : Récolte continue d'anémones de terre rouge",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1313": {
+            "name_en": "EX: Environmental Development Survey",
+            "name_fr": "EX : Étude des variations environnementales",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1300": {
+            "name_en": "Northwestern Regolift Survey",
+            "name_fr": "Étude des plantes au Reg levant",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1301": {
+            "name_en": "Specialized Fiber Survey",
+            "name_fr": "Étude de fibres exceptionnelles",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1302": {
+            "name_en": "Geometric Flora Procurement",
+            "name_fr": "Livraison de plantes surréalistes",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1303": {
+            "name_en": "Geometric Flora Distribution Survey",
+            "name_fr": "Étude de plantes surréalistes",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1304": {
+            "name_en": "Oizys Harvesting Analysis",
+            "name_fr": "Essais de récolte continue sur Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1296": {
+            "name_en": "Foregone Oasis Survey",
+            "name_fr": "Étude de plantes à l'Oasis des Pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1297": {
+            "name_en": "Aquatic Aether Survey",
+            "name_fr": "Étude de l'éther aquatique",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1298": {
+            "name_en": "Voyager Sample Procurement",
+            "name_fr": "Livraison d'échantillons des Pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1299": {
+            "name_en": "Voyager Distribution Survey",
+            "name_fr": "Étude d'échantillons des Pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1292": {
+            "name_en": "Base Vicinity Survey",
+            "name_fr": "Étude des plantes autour de la base",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1293": {
+            "name_en": "Aetherial Current Survey",
+            "name_fr": "Étude des nœuds éthérés environnants",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1294": {
+            "name_en": "Fundamental Flora Procurement",
+            "name_fr": "Livraison de plantes communes",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1295": {
+            "name_en": "Regolush Grass Harvest",
+            "name_fr": "Récolte continue d'herbe régolithe",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.BTN",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}
