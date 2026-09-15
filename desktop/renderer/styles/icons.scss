@@ -1,6 +1,6 @@
 body ng-icon {
     color: currentColor;
-    overflow: unset !important;
+    flex-shrink: 0;
 
     &.small {
         height: var(--icon-size-small);

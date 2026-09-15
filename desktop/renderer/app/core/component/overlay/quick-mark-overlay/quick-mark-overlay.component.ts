@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, Output, signal, inject } from '@angular
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
+import { ButtonGroup } from 'primeng/buttongroup';
 
 import { Completion } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
@@ -29,8 +30,9 @@ type TaskHistory = {
         TranslatePipe,
         NgIcon,
         ButtonDirective,
+        ButtonGroup,
 
-        QuickMarkFromToLabelComponent
+        QuickMarkFromToLabelComponent,
     ],
     styleUrls: [
         '../overlay.scss',
@@ -45,6 +47,7 @@ export class QuickMarkOverlayComponent extends Overlay {
     @Output() marked = new EventEmitter<void>();
 
     historyList = signal<History[]>([]);
+    confirmingUndo = false;
     isModalVisible = signal(false);
 
     // Expose constants to template
@@ -91,7 +94,19 @@ export class QuickMarkOverlayComponent extends Overlay {
         }, 100);
     }
 
-    onUndoLastChange(): void {
+    onUndoClick(confirmed?: boolean): void {
+        if(confirmed === undefined) {
+            this.confirmingUndo = true;
+            return;
+        }
+
+        this.confirmingUndo = false;
+
+        if(!confirmed) return;
+        this.undoLastChange();
+    }
+
+    undoLastChange(): void {
         const history = this.popHistory();
         if(!history) return;
 

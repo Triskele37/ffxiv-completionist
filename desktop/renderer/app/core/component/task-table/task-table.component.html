@@ -48,7 +48,7 @@
                     }
                 </p-table>
             }
-            @else {
+            @else if(!svcTable.group().subGroups?.size) {
                 {{'APP.TABLE.NO_DATA' | translate}}
             }
         </div>

@@ -1,5 +1,5 @@
 import type { DataServiceContext } from '../types';
-import { getChild } from './getChild';
+import { getAnyChild, getChild } from './getChild';
 import { getChildGroup } from './getChildGroup';
 import { getChildTask } from './getChildTask';
 import { getGroup } from './getGroup';
@@ -13,6 +13,7 @@ export type DataGetFacet = ReturnType<typeof createGetFacet>;
 
 export function createGetFacet(this: DataServiceContext) {
     return {
+        getAnyChild: getAnyChild.bind(this),
         getChild: getChild.bind(this),
         getChildGroup: getChildGroup.bind(this),
         getChildTask: getChildTask.bind(this),

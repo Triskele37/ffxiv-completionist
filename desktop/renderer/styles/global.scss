@@ -11,8 +11,10 @@
         }
     }
 
-    :not(:first-child):not(:last-child).p-button {
-        border-radius: 0;
+    :not(:first-child):not(:last-child) {
+        &.p-button, > .deep-button, > * > .deep-button {
+            border-radius: 0;
+        }
     }
 
     // Rounding on last button
@@ -24,6 +26,8 @@
 
     // Fix weird button size issue caused by prime hover
     .p-button, .p-button:hover {
-        //border-inline-end: 1px solid var(--primary-color) !important;
+        &:not(.p-button-link) {
+            border-inline-end: 1px solid var(--primary-color) !important;
+        }
     }
 }

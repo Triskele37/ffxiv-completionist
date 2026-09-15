@@ -13,20 +13,29 @@
     @if(isOverlayVisible()) {
         <div class="overlay-panel">
             <span class="content">
+                <div class="overlay-title">
+                    {{'APP.SELECTION_OVERLAY.TITLE' | translate}}
+                </div>
+
                 <button
                     pButton
-                    [disabled]="true"
+                    variant="outlined"
+                    (click)="onSelectChange(true)"
                 >
-                    {{'APP.SELECTION_OVERLAY.TITLE' | translate}}
-                </button>
-
-                <button pButton (click)="onSelectChange(true)">
                     {{'APP.SELECTION_OVERLAY.SELECT_ALL' | translate}}
                 </button>
-                <button pButton (click)="onSelectChange(false)">
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onSelectChange(false)"
+                >
                     {{'APP.SELECTION_OVERLAY.DESELECT_ALL' | translate}}
                 </button>
-                <button pButton (click)="onSelectChange(null)">
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onSelectChange(null)"
+                >
                     {{'APP.SELECTION_OVERLAY.INVERT' | translate}}
                 </button>
 
@@ -34,11 +43,21 @@
                     {{'APP.SELECTION_OVERLAY.ACTIONS' | translate}}
                 </p-divider>
 
-                <button pButton [disabled]="!group.isCraftingLogGroup" (click)="openInGarland()">
+                <button
+                    pButton
+                    variant="outlined"
+                    [disabled]="!group.isCraftingLogGroup"
+                    (click)="openInGarland()"
+                >
                     {{'APP.SELECTION_OVERLAY.GARLAND' | translate}}
                 </button>
 
-                <button pButton [disabled]="!group.isCraftingLogGroup" (click)="openInTeamcraft()">
+                <button
+                    pButton
+                    variant="outlined"
+                    [disabled]="!group.isCraftingLogGroup"
+                    (click)="openInTeamcraft()"
+                >
                     {{'APP.SELECTION_OVERLAY.TEAMCRAFT' | translate}}
                 </button>
             </span>

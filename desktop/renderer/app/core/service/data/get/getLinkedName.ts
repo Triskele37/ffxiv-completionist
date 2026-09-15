@@ -6,7 +6,7 @@ export function getLinkedName(
     isLink: boolean
 ): number | string {
     if(pathOrValue && isLink) {
-        const linkedTask = this.get.getTask(pathOrValue.toString());
+        const linkedTask = this.get.getAnyChild(pathOrValue.toString());
         if(linkedTask) return linkedTask.name;
     }
 

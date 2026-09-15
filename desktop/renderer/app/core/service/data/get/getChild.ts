@@ -48,3 +48,13 @@ export function getChild(
 
     return null;
 }
+
+/**
+ * `getChild` with all data
+ * */
+export function getAnyChild(
+    this: DataServiceContext,
+    path: string,
+): DataGroup | Task | null {
+    return this.get.getChild(this.data, path);
+}
