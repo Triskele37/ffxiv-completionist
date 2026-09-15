@@ -4,9 +4,11 @@ import { ViewToken } from '@view/view-token';
 import type { MainMenuService } from '../main-menu.service';
 
 export function syncDevTools(service: MainMenuService) {
-    return (): void => {
+    return (
+        parent: DataGroup,
+    ): void => {
         service.svcConfigStore.updated$.subscribe((data) => {
-            const group = service.getDevTools();
+            const group = service.getDevTools(parent);
 
             if(data.isAdmin) {
                 if(!service.group.subGroups!.get(group._key)) {
@@ -21,11 +23,13 @@ export function syncDevTools(service: MainMenuService) {
 }
 
 export function getDevTools(service: MainMenuService) {
-    return (): DataGroup => {
+    return (
+        parent: DataGroup,
+    ): DataGroup => {
         return service.svcData.createDataGroup({
             key: 'dev-tools',
             groupName: 'Dev Tools',
             component: ViewToken.DevTools
-        }, service.group);
+        }, parent);
     };
 }

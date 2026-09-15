@@ -33,7 +33,7 @@ export class MainMenuService {
 
     constructor() {
         this.group = initGroup(this)();
-        syncDevTools(this)();
+        syncDevTools(this)(this.group);
     }
 
     get getPatchNotes() { return getPatchNotes(this); }

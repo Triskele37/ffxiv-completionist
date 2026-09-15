@@ -16,13 +16,13 @@ export function initGroup(service: MainMenuService) {
 
         const add = (g: DataGroup) => group.subGroups!.set(g._key, g);
 
-        add(service.getPatchNotes());
-        add(service.getPatchView());
-        add(service.getRandom());
-        add(service.getTypingMinigame());
-        add(service.getChainAnalysis());
-        add(service.getSettings());
-        add(service.getSearch());
+        add(service.getPatchNotes(group));
+        add(service.getPatchView(group));
+        add(service.getRandom(group));
+        add(service.getTypingMinigame(group));
+        add(service.getChainAnalysis(group));
+        add(service.getSettings(group));
+        add(service.getSearch(group));
 
         return group;
     };
