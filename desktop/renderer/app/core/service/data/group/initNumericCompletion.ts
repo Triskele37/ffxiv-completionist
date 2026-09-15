@@ -1,12 +1,13 @@
 import type { DataGroup } from '@model/DataGroup';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
-export function initNumericCompletion(
-    this: DataServiceContext,
-    group: DataGroup,
-    value: boolean
-): void {
-    group.isNumericCompletion = value;
-    group.tasks.forEach((task) => task.isNumericCompletion = value);
+export function initNumericCompletion(service: DataService) {
+    return (
+        group: DataGroup,
+        value: boolean
+    ): void => {
+        group.isNumericCompletion = value;
+        group.tasks.forEach((task) => task.isNumericCompletion = value);
+    };
 }

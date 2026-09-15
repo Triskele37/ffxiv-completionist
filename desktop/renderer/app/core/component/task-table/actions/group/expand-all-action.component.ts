@@ -19,7 +19,7 @@ import { TableService } from '@service/table/table.service';
             class="action"
             [pTooltip]="'APP.SEARCH.EXPAND' | translate"
             tooltipPosition="top"
-            (click)="svcTable.rowGroup.expandAll()"
+            (click)="svcTable.expandAll()"
         ></ng-icon>
     `
 })

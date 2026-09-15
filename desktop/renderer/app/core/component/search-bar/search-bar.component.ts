@@ -12,7 +12,7 @@ import { DataService } from '@service/data/data-service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';
-import { Status } from '@service/search/SearchTypes';
+import { Status } from '@service/search/Status';
 
 @Component({
     selector: 'com-search-bar',
@@ -69,11 +69,11 @@ export class SearchBarComponent {
     }
 
     onHomeClick(): void {
-        if(this.svcNavigation.selectedGroup() === this.svcMainMenu.data) {
+        if(this.svcNavigation.selectedGroup() === this.svcMainMenu.group) {
             this.svcNavigation.setSelectedGroup(this.svcData.data);
         }
         else {
-            this.svcNavigation.setSelectedGroup(this.svcMainMenu.data);
+            this.svcNavigation.setSelectedGroup(this.svcMainMenu.group);
         }
     }
 

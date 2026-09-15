@@ -13,7 +13,7 @@ import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { ChainService } from '@service/chain/chain.service';
 import { DataService } from '@service/data/data-service';
 import { SearchService } from '@service/search/search.service';
-import type { Match } from '@service/search/SearchTypes';
+import type { Match } from '@service/search/types';
 import { CustomContentService } from '@service/custom-content/custom-content.service';
 
 import { Overlay } from '../Overlay';
@@ -118,7 +118,7 @@ export class MergeOverlayComponent extends Overlay {
     exitMerge(): void {
         this.isMergeVisible.set(false);
         this.mergeIndex = 0;
-        this.svcData.apply.dataToStore();
+        this.svcData.dataToStore();
 
         // Empty waiting store writes
         this.tasksToRemove.forEach((t) => {
@@ -130,7 +130,7 @@ export class MergeOverlayComponent extends Overlay {
     confirmCurrentMerge(match: Task): void {
         // Update the completion flag if it has changed
         if(match.completionFlag$() !== this.mergeTask().completionFlag$()) {
-            this.currentMergeIsFirstInChain = !this.svcChain.current.changeCompletion(
+            this.currentMergeIsFirstInChain = !this.svcChain.changeCompletion(
                 match,
                 this.mergeTask().completionFlag$(),
                 this.currentMergeIsFirstInChain

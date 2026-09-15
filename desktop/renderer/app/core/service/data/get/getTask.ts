@@ -1,18 +1,19 @@
 import type { Task } from '@model/Task';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
 /**
  * Helper for `getChildTask` when lookup is from root
  * */
-export function getTask(
-    this: DataServiceContext,
-    path: string,
-): Task | null {
-    if(!this.data) {
-        console.error('Error: Data not initialized');
-        return null;
-    }
+export function getTask(service: DataService) {
+    return (
+        path: string,
+    ): Task | null => {
+        if(!service.data) {
+            console.error('Error: Data not initialized');
+            return null;
+        }
 
-    return this.get.getChildTask(this.data, path);
+        return service.getChildTask(service.data, path);
+    };
 }

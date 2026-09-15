@@ -62,14 +62,14 @@ export class DataRowComponent {
         if(!this.parentHasClass($event, 'noSelect')) {
             const newSelectedState = !this.task.selected();
 
-            const lastClickedIndex = this.svcTable.selection.lastClickedRowIndex;
+            const lastClickedIndex = this.svcTable.lastClickedRowIndex;
             if($event.shiftKey && lastClickedIndex !== undefined) {
                 $event.preventDefault();
 
-                this.svcTable.selection.applyShiftSelection(this.rowIndex, newSelectedState);
+                this.svcTable.applyShiftSelection(this.rowIndex, newSelectedState);
             }
 
-            this.svcTable.selection.updateLastClickIndex(this.rowIndex);
+            this.svcTable.updateLastClickIndex(this.rowIndex);
             this.task.selected.set(newSelectedState);
         }
     }

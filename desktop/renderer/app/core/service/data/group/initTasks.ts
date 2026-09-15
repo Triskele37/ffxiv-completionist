@@ -1,21 +1,22 @@
 import type { DataGroup } from '@model/DataGroup';
 import type { JsonTasks } from '@model/JSONResource';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
-export function initTasks(
-    this: DataServiceContext,
-    group: DataGroup,
-    tasks: JsonTasks,
-): DataGroup {
-    Object.keys(tasks).forEach((id) => {
-        const task = this.task.createTask(tasks[id], group);
+export function initTasks(service: DataService) {
+    return (
+        group: DataGroup,
+        tasks: JsonTasks,
+    ): DataGroup => {
+        Object.keys(tasks).forEach((id) => {
+            const task = service.createTask(tasks[id], group);
 
-        this.index.addTaskToIndex(task);
-        this.svcMark.setDefaultCompletion(group, task);
+            service.addTaskToIndex(task);
+            service.svcMark.setDefaultCompletion(group, task);
 
-        group.tasks.push(task);
-    });
+            group.tasks.push(task);
+        });
 
-    return group;
+        return group;
+    };
 }

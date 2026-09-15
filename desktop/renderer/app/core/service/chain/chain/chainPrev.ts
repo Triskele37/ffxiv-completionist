@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
 
-import type { ChainServiceContext } from '../types';
-import type { ChainContext } from './_types';
+import type { ChainService } from '../chain.service';
+import type { ChainContext } from '../types';
 
 /**
  * cPrev
@@ -13,18 +13,19 @@ import type { ChainContext } from './_types';
  * B.cPrev(A, B) & cPrevAny
  * - Only one of A or B need to be complete for B to be complete
  * */
-export function chainPrev(
-    this: ChainServiceContext,
-    { task, flag, force }: ChainContext,
-): void {
-    // Early bail conditions
-    if(!task.cPrev) return;
-    if(task.cPrevAny) return;
-    if(flag !== Completion.Y) return;
+export function chainPrev(service: ChainService) {
+    return (
+        { task, flag, force }: ChainContext,
+    ): void => {
+        // Early bail conditions
+        if(!task.cPrev) return;
+        if(task.cPrevAny) return;
+        if(flag !== Completion.Y) return;
 
-    const originalFlag = flag as Completion;
+        const originalFlag = flag as Completion;
 
-    this.svcData.get.getTasks(task.cPrev, task).forEach((task) => {
-        this.apply.applyFlagToTask(task, originalFlag, force);
-    });
+        service.svcData.getTasks(task.cPrev, task).forEach((task) => {
+            service.applyFlagToTask(task, originalFlag, force);
+        });
+    };
 }

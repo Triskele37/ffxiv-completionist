@@ -62,7 +62,7 @@ export class ChainAnalysisComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.constraints = this.svcChain.constraint.getGroupConstraints(this.svcData.data);
+        this.constraints = this.svcChain.getGroupConstraints(this.svcData.data);
         this.analyzeChainedTasks();
     }
 

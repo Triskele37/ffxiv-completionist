@@ -13,27 +13,27 @@
             @if(svcTable.originalTasks.length) {
                 <p-table
                     #taskTable
-                    [class]="svcTable.rowGroup.groupRows ? 'p-datatable-striped' : ''"
+                    [class]="svcTable.groupRows ? 'p-datatable-striped' : ''"
                     [customSort]="true"
                     dataKey="_parent.fullStorageKey"
-                    [expandedRowKeys]="svcTable.rowGroup.expandedRows()"
-                    [groupRowsBy]="svcTable.rowGroup.groupRows ? '_parent.fullStorageKey' : undefined"
-                    [rowGroupMode]="svcTable.rowGroup.groupRows ? 'subheader' : undefined"
+                    [expandedRowKeys]="svcTable.expandedRows()"
+                    [groupRowsBy]="svcTable.groupRows ? '_parent.fullStorageKey' : undefined"
+                    [rowGroupMode]="svcTable.groupRows ? 'subheader' : undefined"
                     scrollHeight="flex"
                     [scrollable]="true"
                     sortMode="multiple"
                     [value]="svcTable.tasks()"
-                    [virtualScroll]="!svcTable.rowGroup.groupRows"
+                    [virtualScroll]="!svcTable.groupRows"
                     [virtualScrollDelay]="100"
                     [virtualScrollItemSize]="rowHeight"
-                    (onRowReorder)="svcTable.order.onRowReorder($event)"
+                    (onRowReorder)="svcTable.onRowReorder($event)"
                     (sortFunction)="sortFunction($event)"
                 >
                     <ng-template #header>
                         <com-header-row></com-header-row>
                     </ng-template>
 
-                    @if(svcTable.rowGroup.groupRows) {
+                    @if(svcTable.groupRows) {
                         <ng-template #groupheader let-task let-expanded="expanded">
                             <com-group-row [task]="task" [expanded]="expanded"></com-group-row>
                         </ng-template>

@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
 
-import type { TableServiceContext } from '../types';
-import type { CompletionFilter } from './_types';
+import type { TableService } from '../table.service';
+import type { CompletionFilter } from '../types';
 
 const letterToKeyMap: Record<Completion, keyof CompletionFilter> = {
     [Completion.Y]: 'completed',
@@ -12,15 +12,16 @@ const letterToKeyMap: Record<Completion, keyof CompletionFilter> = {
 /**
  * Handler for completion filter setting changes in the table
  * */
-export function onFilterCompletion(
-    this: TableServiceContext,
-    value: Completion,
-): void {
-    const key = letterToKeyMap[value];
+export function onFilterCompletion(service: TableService) {
+    return (
+        value: Completion,
+    ): void => {
+        const key = letterToKeyMap[value];
 
-    this.filter.completion[key] = !this.filter.completion[key];
-    this.svcConfig.set(`table-filters.${key}`, this.filter.completion[key]);
+        service.completionFilter[key] = !service.completionFilter[key];
+        service.svcConfig.set(`table-filters.${key}`, service.completionFilter[key]);
 
-    this.filter.updateFilteredTasks();
-    this.filter.onFilterUpdate$.next();
+        service.updateFilteredTasks();
+        service.onFilterUpdate$.next();
+    };
 }

@@ -19,7 +19,7 @@ import { TableService } from '@service/table/table.service';
             class="action"
             [pTooltip]="'APP.SEARCH.COLLAPSE' | translate"
             tooltipPosition="top"
-            (click)="svcTable.rowGroup.collapseAll()"
+            (click)="svcTable.collapseAll()"
         ></ng-icon>
     `
 })

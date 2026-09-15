@@ -1,8 +1,8 @@
 import { fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-import type { SearchServiceContext } from '../types';
+import type { SearchService } from '../search.service';
 
-export function fuzzyMatchObject(this: SearchServiceContext) {
+export function fuzzyMatchObject(service: SearchService) {
     /**
      * @param objA - object to match
      * @param keyA - key in objA to match or see if contains B
@@ -15,10 +15,10 @@ export function fuzzyMatchObject(this: SearchServiceContext) {
         keyA: number | string,
         valueB: number | string,
         partial: boolean,
-        isLink: boolean = false
+        isLink: boolean = false,
     ): boolean => {
         const isMatch = (linkedNameValue: number | string): boolean => {
-            const valueA = this.svcData.get.getLinkedName(linkedNameValue, isLink);
+            const valueA = service.svcData.getLinkedName(linkedNameValue, isLink);
             const searchString = valueA + objA[keyA]; // Tack on any non-link text
             return fuzzyMatchValue(searchString, valueB, partial);
         };

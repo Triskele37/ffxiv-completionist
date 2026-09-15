@@ -62,13 +62,13 @@ export class AppComponent implements OnInit, AfterViewInit {
     ngOnInit(): void {
         try {
             // Must occur before data to load markings properly
-            this.svcCustomContent.initializeCustomContent();
+            this.svcCustomContent.initService();
 
-            this.svcData.initializeService();
+            this.svcData.initService();
 
             // Must occur after data for migration change
-            this.svcBookmark.initializeBookmarks();
-            this.svcNote.initializeNotes();
+            this.svcBookmark.initBookmarks();
+            this.svcNote.initNotes();
 
             this.version = this.svcElectron.getVersion();
 

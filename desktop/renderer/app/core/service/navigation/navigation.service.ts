@@ -6,13 +6,29 @@ import type { Task } from '@model/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
+//#region ------------------------------------------------------- Methods
+import { initService } from './methods/initService';
+import { setSelectedContent } from './selected/setSelectedContent';
+import { setSelectedGroup } from './selected/setSelectedGroup';
+import { setSelectedTask } from './selected/setSelectedTask';
+import { getGroupFromBreadcrumbs } from './breadcrumbs/getGroupFromBreadcrumbs';
+import { popCrumbsOnce } from './breadcrumbs/popCrumbsOnce';
+import { popCrumbsUntil } from './breadcrumbs/popCrumbsUntil';
+import { setBreadcrumbs } from './breadcrumbs/setBreadcrumbs';
+import { addGroupHistory } from './history/addGroupHistory';
+import { goToHistory } from './history/goToHistory';
+import { clearHistory } from './history/clearHistory';
+import { removeHistory } from './history/removeHistory';
+
+//#endregion
+
 @Injectable({
     providedIn: 'root'
 })
 export class NavigationService {
-    private svcData = inject(DataService);
-    private svcMainMenu = inject(MainMenuService);
-    private svcConfig = inject(ConfigStoreService);
+    svcData = inject(DataService);
+    svcMainMenu = inject(MainMenuService);
+    svcConfig = inject(ConfigStoreService);
 
     breadcrumbs = signal<string[]>(['main-menu']);
     selectedGroup = signal<DataGroup | null>(null);
@@ -21,133 +37,29 @@ export class NavigationService {
     allTaskViewEnabled = signal(false);
 
     constructor() {
-        // Load previous breadcrumb state
-        const initialBreadcrumbs = this.svcConfig.get('last-breadcrumbs') as string[];
-        if(initialBreadcrumbs) {
-            this.svcData.whenLoaded$.subscribe(
-                () => this.setBreadcrumbs(initialBreadcrumbs)
-            );
-        }
+        initService(this)();
     }
 
     //#region------------------------------------------------ Selected
-    setSelectedContent(content: DataGroup | Task): void {
-        if(content.dataType === 'Group') {
-            this.setSelectedGroup(content);
-        }
-        else {
-            this.setSelectedTask(content);
-        }
-    }
-
-    // All group setting should flow through this function
-    setSelectedGroup(group: DataGroup): void {
-        const breadcrumbs = group.fullStorageKey.split('.');
-
-        this.addGroupHistory();
-        this.breadcrumbs.set(breadcrumbs);
-        this.selectedGroup.set(group);
-        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
-    }
-
-    setSelectedTask(task: Task): void {
-        task.selected.set(true);
-        this.selectedTask.set(task);
-        this.setSelectedGroup(task._parent);
-    }
+    get setSelectedContent() { return setSelectedContent(this); }
+    get setSelectedGroup() { return setSelectedGroup(this); }
+    get setSelectedTask() { return setSelectedTask(this); }
 
     //#endregion
 
     //#region------------------------------------------------ Breadcrumbs
-    getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | null {
-        if(!breadcrumbs) return null;
-
-        if(breadcrumbs.length === 1) {
-            if(breadcrumbs[0] === this.svcMainMenu.data._key) return this.svcMainMenu.data;
-            else return this.svcData.data;
-        }
-
-        const superGroup = { subGroups: new Map() } as DataGroup;
-        superGroup.subGroups!.set(this.svcMainMenu.data._key, this.svcMainMenu.data);
-        superGroup.subGroups!.set(this.svcData.data._key, this.svcData.data);
-
-        const group = breadcrumbs.reduce(
-            (acc, crumb) => acc.subGroups?.get(crumb) || acc,
-            superGroup
-        );
-
-        if(group.dataType === 'Group') return group;
-        else return this.svcMainMenu.data;
-    }
-
-    popCrumbsOnce(): void {
-        const breadcrumbs = this.breadcrumbs();
-        breadcrumbs.pop();
-
-        this.setBreadcrumbs(breadcrumbs);
-    }
-
-    popCrumbsUntil(index: number): void {
-        // Step backward through breadcrumbs, pop until index is hit
-        const breadcrumbs = this.breadcrumbs();
-        for(let i = breadcrumbs.length; i > -1; i--) {
-            if(i - 1 === index) break;
-            breadcrumbs.pop();
-        }
-
-        this.setBreadcrumbs(breadcrumbs);
-    }
-
-    // All breadcrumb setting should flow through this function
-    setBreadcrumbs(breadcrumbs: string[]): void {
-        this.addGroupHistory();
-        this.breadcrumbs.set(breadcrumbs);
-        const group = this.getGroupFromBreadcrumbs(breadcrumbs);
-        this.selectedGroup.set(group);
-        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
-    }
+    get getGroupFromBreadcrumbs() { return getGroupFromBreadcrumbs(this); }
+    get popCrumbsOnce() { return popCrumbsOnce(this); }
+    get popCrumbsUntil() { return popCrumbsUntil(this); }
+    get setBreadcrumbs() { return setBreadcrumbs(this); }
 
     //#endregion
 
     //#region------------------------------------------------ History
-    addGroupHistory(): void {
-        const selectedGroup = this.selectedGroup();
-
-        if(!selectedGroup?.contentLink) return; // Must exist
-
-        if(selectedGroup.type === 'UI') {
-            if(!selectedGroup.contentLink) return;
-        }
-        else {
-            if(!selectedGroup.tasks?.length) return; // Must have tasks
-        }
-
-        // Push a pretty history string
-        const newHistory = [...this.groupHistory()];
-        newHistory.unshift(selectedGroup);
-
-        // Remove older duplicate (check index 0 because we just added it)
-        const lastIndex = newHistory.lastIndexOf(selectedGroup);
-        if(lastIndex > 0) newHistory.splice(lastIndex, 1);
-
-        // Limit to 10 historical groups
-        if(newHistory.length > 10) newHistory.pop();
-
-        this.groupHistory.set(newHistory);
-    }
-
-    goToHistory(group: DataGroup): void {
-        this.setBreadcrumbs(group.fullStorageKey.split('.'));
-    }
-
-    clearHistory(): void {
-        this.groupHistory.set([]);
-    }
-
-    removeHistory(group: DataGroup): void {
-        const newHistory = [...this.groupHistory()].filter((g) => g !== group);
-        this.groupHistory.set(newHistory);
-    }
+    get addGroupHistory() { return addGroupHistory(this); }
+    get goToHistory() { return goToHistory(this); }
+    get clearHistory() { return clearHistory(this); }
+    get removeHistory() { return removeHistory(this); }
 
     //#endregion
 }

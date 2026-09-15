@@ -1,43 +1,43 @@
-import type { ChainServiceContext } from '../types';
-import type { ChainHistory } from './_types';
+import type { ChainService } from '../chain.service';
+import type { ChainHistory } from '../types';
 
-export function undoCurrentChain(
-    this: ChainServiceContext,
-): void {
-    const chainStart = this.chainStart();
-    const chainedGroups = this.chainedGroups();
+export function undoCurrentChain(service: ChainService) {
+    return (): void => {
+        const chainStart = service.chainStart();
+        const chainedGroups = service.chainedGroups();
 
-    if(!chainStart) {
-        console.error('Error: Missing chainStart');
-        return;
-    }
+        if(!chainStart) {
+            console.error('Error: Missing chainStart');
+            return;
+        }
 
-    this.svcMark.setCompletion(chainStart.task, chainStart.fromFlag);
-    chainedGroups.forEach((chainedGroup) => {
-        chainedGroup.tasks.forEach((chainedTask) => {
-            this.svcMark.setCompletion(chainedTask.task, chainedTask.fromFlag);
-        });
-    });
-
-    if(this.history.history().length) {
-        let chainToUndo: ChainHistory | undefined;
-        this.history.history.update((history) => {
-            chainToUndo = history.pop();
-            return history;
+        service.svcMark.setCompletion(chainStart.task, chainStart.fromFlag);
+        chainedGroups.forEach((chainedGroup) => {
+            chainedGroup.tasks.forEach((chainedTask) => {
+                service.svcMark.setCompletion(chainedTask.task, chainedTask.fromFlag);
+            });
         });
 
-        if(!chainToUndo) {
-            console.error('Error: Missing history');
+        if(service.history().length) {
+            let chainToUndo: ChainHistory | undefined;
+            service.history.update((history) => {
+                chainToUndo = history.pop();
+                return history;
+            });
+
+            if(!chainToUndo) {
+                console.error('Error: Missing history');
+            }
+            else {
+                service.chainStart.set(chainToUndo.chainStart);
+                service.chainedGroups.set(chainToUndo.chainedGroups);
+                service.chainedTaskCount.set(chainToUndo.chainedTaskCount);
+            }
         }
         else {
-            this.chainStart.set(chainToUndo.chainStart);
-            this.chainedGroups.set(chainToUndo.chainedGroups);
-            this.chainedTaskCount.set(chainToUndo.chainedTaskCount);
+            service.chainStart.set(null);
+            service.chainedGroups.set([]);
+            service.chainedTaskCount.set(0);
         }
-    }
-    else {
-        this.chainStart.set(null);
-        this.chainedGroups.set([]);
-        this.chainedTaskCount.set(0);
-    }
+    };
 }

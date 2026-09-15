@@ -1,22 +1,23 @@
-import type { TableServiceContext } from '../types';
+import type { TableService } from '../table.service';
 
-export function applyShiftSelection(
-    this: TableServiceContext,
-    fromIndex: number,
-    newSelectedState: boolean
-): void {
-    if(this.selection.lastClickedRowIndex === undefined) return;
+export function applyShiftSelection(service: TableService) {
+    return (
+        fromIndex: number,
+        newSelectedState: boolean,
+    ): void => {
+        if(service.lastClickedRowIndex === undefined) return;
 
-    const topDown = fromIndex > this.selection.lastClickedRowIndex;
-    const startIndex = topDown ? this.selection.lastClickedRowIndex : fromIndex;
-    const endIndex = topDown ? fromIndex : this.selection.lastClickedRowIndex;
+        const topDown = fromIndex > service.lastClickedRowIndex;
+        const startIndex = topDown ? service.lastClickedRowIndex : fromIndex;
+        const endIndex = topDown ? fromIndex : service.lastClickedRowIndex;
 
-    const tasks = this.tasks();
-    for(let i = 0; i <= endIndex; i++) {
-        if(i >= startIndex && i <= endIndex) {
-            if(tasks[i].selected() !== newSelectedState) {
-                tasks[i].selected.set(newSelectedState);
+        const tasks = service.tasks();
+        for(let i = 0; i <= endIndex; i++) {
+            if(i >= startIndex && i <= endIndex) {
+                if(tasks[i].selected() !== newSelectedState) {
+                    tasks[i].selected.set(newSelectedState);
+                }
             }
         }
-    }
+    };
 }

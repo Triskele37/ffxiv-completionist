@@ -4,6 +4,7 @@ import { NgIcon } from '@ng-icons/core';
 
 import { Completion } from '@constant';
 import { TableService } from '@service/table/table.service';
+import { CompletionFilter } from '@service/table/types';
 
 @Component({
     selector: 'com-completion-filter',
@@ -18,4 +19,8 @@ export class CompletionFilterComponent {
     svcTable = inject(TableService);
 
     Completion = Completion;
+
+    onFilterCompletion(value: Completion): void {
+        this.svcTable.onFilterCompletion(value);
+    }
 }

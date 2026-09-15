@@ -1,10 +1,10 @@
 import type { DataGroup } from '@model/DataGroup';
 import { fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-import type { GroupMatch } from '../SearchTypes';
-import type { SearchServiceContext } from '../types';
+import type { SearchService } from '../search.service';
+import type { GroupMatch } from '../types';
 
-export function searchGroupsForTerm(this: SearchServiceContext) {
+export function searchGroupsForTerm(service: SearchService) {
     return (
         group: DataGroup,
         searchTerm: string,
@@ -20,7 +20,7 @@ export function searchGroupsForTerm(this: SearchServiceContext) {
 
         group.subGroups?.forEach((subGroup) => {
             if(!subGroup) return;
-            matches.push(...this.searchGroupsForTerm(subGroup, searchTerm, partial));
+            matches.push(...service.searchGroupsForTerm(subGroup, searchTerm, partial));
         });
 
         return matches;

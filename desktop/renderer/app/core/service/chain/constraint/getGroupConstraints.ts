@@ -1,15 +1,16 @@
 import type { ChainConstraint } from '@model/Chain/ChainConstraint';
 import type { DataGroup } from '@model/DataGroup';
 
-import type { ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
 
-export function getGroupConstraints(
-    this: ChainServiceContext,
-    group: DataGroup,
-): ChainConstraint[] {
-    const constraints: ChainConstraint[] = [];
+export function getGroupConstraints(service: ChainService) {
+    return (
+        group: DataGroup,
+    ): ChainConstraint[] => {
+        const constraints: ChainConstraint[] = [];
 
-    this.constraint.diveGroupConstraints(group, constraints);
+        service.diveGroupConstraints(group, constraints);
 
-    return constraints;
+        return constraints;
+    };
 }

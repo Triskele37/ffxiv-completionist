@@ -1,7 +1,6 @@
 @use './sizes';
 
-$outer-button-size: 26px;
-$inner-button-size: 25px;
+$button-size: 28px;
 
 .actions-cell {
     vertical-align: middle;
@@ -10,17 +9,35 @@ $inner-button-size: 25px;
     // Prevent content from affecting row heights
     .content-container {
         max-height: sizes.$table-row-height;
+        display: flex;
+        justify-content: center;
     }
 
     .action-dial {
-        margin: calc(((#{sizes.$table-row-height} - $outer-button-size) / 2) - 1px);
+        z-index: 3;
         padding: 0;
+        position: relative;
 
         .p-button, ng-icon {
-            height: $outer-button-size;
-            width: $outer-button-size;
+            height: $button-size - 3px;
+            width: $button-size - 3px;
+            margin-top: 1px;
+        }
+
+        // For when actions are expanded
+        &.with-actions {
+            border: 1px solid var(--primary-color);
+
+            &:hover {
+                background: var(--surface-800);
+                box-shadow: 0 0 5px 3px var(--primary-color);
+            }
         }
     }
+}
+
+ng-icon.action {
+    padding: 2px;
 }
 
 .action {
@@ -30,9 +47,9 @@ $inner-button-size: 25px;
     border-radius: 50%;
 
     // Size & Spacing
-    height: $inner-button-size;
-    width: $inner-button-size;
-    font-size: $inner-button-size - 5px;
+    height: $button-size;
+    width: $button-size;
+    font-size: $button-size - 5px;
     margin: 0 5px;
 
     // Center non-icon actions
@@ -50,9 +67,49 @@ $inner-button-size: 25px;
 .actions-container {
     position: absolute;
     right: 4px;
-    margin-top: -32px;
     z-index: 1;
     cursor: default;
+    width: auto;
+    overflow: hidden;
+
+    interpolate-size: allow-keywords;
+
+    &.fade-in {
+        animation: fade-in 0.3s ease-out;
+    }
+
+    @keyframes fade-in {
+        from { width: 0; }
+        to { width: auto; }
+    }
+
+    &.fade-out {
+        animation: fade-out 0.3s ease-in;
+    }
+
+    @keyframes fade-out {
+        from { width: auto; }
+        to { width: 0; }
+    }
+
+    &.fade-in, &.fade-out {
+        // Mask to hide actions entering from right, behind action-dial
+        & + .action-dial {
+            background: var(--surface-800) !important;
+        }
+
+        // Mask to hide actions entering from right, right of action-dial center
+        &::after {
+            content: '';
+            background: var(--surface-800);
+            position: absolute;
+            z-index: 2;
+            height: 100%;
+            width: ($button-size / 2) + 1px;
+            right: 0;
+            top: 0;
+        }
+    }
 
     .actions {
         display: flex;
@@ -66,7 +123,7 @@ $inner-button-size: 25px;
                 border: 1px solid var(--primary-color);
 
                 width: 35px;
-                height: $inner-button-size - 1px;
+                height: $button-size;
 
                 top: 0;
                 left: calc(35px / 2);
@@ -76,8 +133,9 @@ $inner-button-size: 25px;
         }
 
         .close-dial {
-            background: var(--surface-500);
+            background: var(--surface-800);
             color: var(--text-color);
+            outline: unset;
         }
     }
 }

@@ -50,7 +50,7 @@ export class OptionFilterComponent {
     updateForGroupChange(): void {
         void this.svcTable.group();
 
-        const filters = this.svcTable.filter.filters[this.column.key]?.value;
+        const filters = this.svcTable.filters[this.column.key]?.value;
         if(filters) {
             this.selectedOptions = ([] as string[]).concat(filters);
             this.selectedDisplay.set(this.selectedOptions.join(', '));
@@ -89,7 +89,7 @@ export class OptionFilterComponent {
     // Updates when selectedOptions changes
     updateSelected(): void {
         this.selectedDisplay.set(this.selectedOptions.join(', '));
-        this.svcTable.filter.modifyFilter(this.selectedOptions, this.column);
+        this.svcTable.modifyFilter(this.selectedOptions, this.column);
     }
 
     onAddCustomOption(value: string): void {

@@ -127,7 +127,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     addGroup(): void {
         if(this.newContentName.length < 3) return; // Prevent short names
         this.svcCustomContent.createGroup(this.group, this.newContentName);
-        this.svcData.apply.dataToStore();
+        this.svcData.dataToStore();
     }
 
     renameGroup(): void {
@@ -173,7 +173,7 @@ export class CustomContentOverlayComponent extends Overlay implements OnInit {
     addTask(): void {
         if(this.newContentName.length < 3) return; // Prevent short names
         this.svcCustomContent.createTask(this.group, this.newContentName, this.newTaskNotes);
-        this.svcData.apply.dataToStore();
+        this.svcData.dataToStore();
         this.svcTable.forceUpdate();
     }
 

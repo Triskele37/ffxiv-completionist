@@ -24,7 +24,7 @@ export class FlagCompleteCellComponent {
 
     onTaskCompleteClick(): void {
         const flag = this.task.completionFlag$() === Completion.Y ? Completion.N : Completion.Y;
-        this.svcChain.current.changeCompletion(this.task, flag, true);
+        this.svcChain.changeCompletion(this.task, flag, true);
         this.changeCompletion();
     }
 
@@ -37,7 +37,7 @@ export class FlagCompleteCellComponent {
     }
 
     changeCompletion(): void {
-        this.svcData.apply.dataToStore();
-        this.svcTable.filter.updateFilteredTasks();
+        this.svcData.dataToStore();
+        this.svcTable.updateFilteredTasks();
     }
 }

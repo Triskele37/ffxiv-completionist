@@ -23,7 +23,7 @@ export class InputFilterComponent {
         if(!$event.target) return;
 
         const target = $event.target as HTMLInputElement;
-        this.svcTable.filter.modifyFilter(target.value, column);
+        this.svcTable.modifyFilter(target.value, column);
     }
 
 }

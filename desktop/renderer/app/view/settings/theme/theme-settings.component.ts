@@ -43,7 +43,7 @@ export class ThemeSettingsComponent implements OnInit {
     updateGradient(): void {
         this.gradients = [];
         for(let i = 1; i <= 100; i++) {
-            const step = this.svcTheme.rygGradient(i / 100);
+            const step = this.svcTheme.completionGradient(i / 100);
             this.gradients.push(step);
         }
     }

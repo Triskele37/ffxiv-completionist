@@ -1,4 +1,5 @@
 import { Component, Input, signal, inject } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -16,6 +17,7 @@ import { TableService } from '@service/table/table.service';
     templateUrl: './actions-cell.component.html',
     styleUrls: ['./actions-cell.component.scss', '../../actions/action.scss'],
     imports: [
+        NgClass,
         TranslatePipe,
         NgIcon,
         ButtonDirective,

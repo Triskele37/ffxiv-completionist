@@ -1,7 +1,7 @@
-import type { ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
 
-export function setHistoryLimit(
-    this: ChainServiceContext,
-): void {
-    this.history.historyLimit = this.svcConfig.get('chain-history-limit');
+export function setHistoryLimit(service: ChainService) {
+    return (): void => {
+        service.historyLimit = service.svcConfig.get('chain-history-limit');
+    };
 }

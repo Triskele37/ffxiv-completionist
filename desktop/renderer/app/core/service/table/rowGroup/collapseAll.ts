@@ -1,5 +1,7 @@
-import type { TableServiceContext } from '../types';
+import type { TableService } from '../table.service';
 
-export function collapseAll(this: TableServiceContext): void {
-    this.rowGroup.expandedRows.set({});
+export function collapseAll(service: TableService) {
+    return (): void => {
+        service.expandedRows.set({});
+    };
 }

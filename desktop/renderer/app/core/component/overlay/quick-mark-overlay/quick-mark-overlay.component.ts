@@ -76,7 +76,7 @@ export class QuickMarkOverlayComponent extends Overlay {
                         flag: task.completionFlag$() as Completion
                     });
 
-                    firstInChain = !this.svcChain.current.changeCompletion(
+                    firstInChain = !this.svcChain.changeCompletion(
                         task,
                         actualToFlag,
                         firstInChain
@@ -87,7 +87,7 @@ export class QuickMarkOverlayComponent extends Overlay {
             if(history.tasks.length) {
                 this.marked.emit();
                 this.addHistory(history);
-                this.svcData.apply.dataToStore();
+                this.svcData.dataToStore();
             }
 
             this.isModalVisible.set(false);
@@ -113,7 +113,7 @@ export class QuickMarkOverlayComponent extends Overlay {
         let first = true;
         history.tasks.forEach((changed) => {
             if(changed.task.completionFlag$() !== changed.flag) {
-                first = !this.svcChain.current.changeCompletion(
+                first = !this.svcChain.changeCompletion(
                     changed.task,
                     changed.flag,
                     first
@@ -122,7 +122,7 @@ export class QuickMarkOverlayComponent extends Overlay {
         });
 
         this.marked.emit();
-        this.svcData.apply.dataToStore();
+        this.svcData.dataToStore();
     }
 
     //#region------------------------------------------------------- HistoryList

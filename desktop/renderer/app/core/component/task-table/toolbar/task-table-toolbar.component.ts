@@ -33,6 +33,6 @@ export class TaskTableToolbarComponent {
     @Input() templatePre?: TemplateRef<any>;
 
     onDataChange(): void {
-        this.svcTable.filter.updateFilteredTasks();
+        this.svcTable.updateFilteredTasks();
     }
 }

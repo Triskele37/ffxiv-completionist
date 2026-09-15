@@ -63,13 +63,13 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        this.svcChain.current.changeCompletion(this.task, this.value(), true);
-        this.svcData.apply.dataToStore();
+        this.svcChain.changeCompletion(this.task, this.value(), true);
+        this.svcData.dataToStore();
 
         // onBlur and rebinding value can't happen in the same tick
         setTimeout(() => {
             this.value.set(this.task.completionFlag$());
-            this.svcTable.filter.updateFilteredTasks();
+            this.svcTable.updateFilteredTasks();
         });
     }
 

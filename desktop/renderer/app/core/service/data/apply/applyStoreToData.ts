@@ -1,8 +1,8 @@
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
-export function applyStoreToData(
-    this: DataServiceContext,
-): void {
-    const dataToLoad = this.svcSave.get(this.data.storageKey);
-    if(dataToLoad) this.apply.diveForLoad(this.data, dataToLoad);
+export function applyStoreToData(service: DataService) {
+    return (): void => {
+        const dataToLoad = service.svcSave.get(service.data.storageKey);
+        if(dataToLoad) service.diveForLoad(service.data, dataToLoad);
+    };
 }

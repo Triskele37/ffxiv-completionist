@@ -3,7 +3,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from 'primeng/tabs';
 
 import { SearchService } from '@service/search/search.service';
-import { Status } from '@service/search/SearchTypes';
+import { Status } from '@service/search/Status';
 import { TableService } from '@service/table/table.service';
 
 import { TaskSearchResultsComponent } from './task-search-results/task-search-results.component';

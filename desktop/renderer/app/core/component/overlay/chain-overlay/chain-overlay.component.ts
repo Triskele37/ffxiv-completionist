@@ -74,8 +74,8 @@ export class ChainOverlayComponent {
         if(!confirmed) return;
 
         // Fire undo and apply changes to save
-        this.svcChain.history.undoCurrentChain();
-        this.svcData.apply.dataToStore();
+        this.svcChain.undoCurrentChain();
+        this.svcData.dataToStore();
     }
 
 }

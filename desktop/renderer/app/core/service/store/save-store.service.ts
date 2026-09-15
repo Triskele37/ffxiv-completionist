@@ -7,7 +7,7 @@ import { migrateData } from '@model/Migrate/migrateData';
 import { ElectronService } from '@service/electron/electron.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-import { Store } from './Store';
+import { Store } from './_abstract/Store';
 
 @Injectable({
     providedIn: 'root'
@@ -25,10 +25,10 @@ export class SaveStoreService extends Store<PlayerSave> {
 
         super(translate, primeMessage, svcElectron);
 
-        const successful = this.load();
+        const successful = this.loadStore();
 
         // On failure, the config must be reloaded since it is changed in the main process
-        if(!successful) this.svcConfigStore.load();
+        if(!successful) this.svcConfigStore.loadStore();
     }
 
     getStore(): SaveLoad {

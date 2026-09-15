@@ -1,22 +1,22 @@
-import type { ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
 
-export function addHistory(
-    this: ChainServiceContext,
-): void {
-    const chainStart = this.chainStart();
+export function addHistory(service: ChainService) {
+    return (): void => {
+        const chainStart = service.chainStart();
 
-    if(
-        this.svcConfig.get('chain-history-limit') > this.history.history().length && // Chain limit won't be exceeded
-        chainStart !== null && // chainStart exists
-        this.chainedTaskCount() // There are tasks chained
-    ) {
-        this.history.history.update((history) => {
-            history.push({
-                chainStart: chainStart,
-                chainedGroups: this.chainedGroups(),
-                chainedTaskCount: this.chainedTaskCount()
+        if(
+            service.svcConfig.get('chain-history-limit') > service.history().length && // Chain limit won't be exceeded
+            chainStart !== null && // chainStart exists
+            service.chainedTaskCount() // There are tasks chained
+        ) {
+            service.history.update((history) => {
+                history.push({
+                    chainStart: chainStart,
+                    chainedGroups: service.chainedGroups(),
+                    chainedTaskCount: service.chainedTaskCount()
+                });
+                return history;
             });
-            return history;
-        });
-    }
+        }
+    };
 }

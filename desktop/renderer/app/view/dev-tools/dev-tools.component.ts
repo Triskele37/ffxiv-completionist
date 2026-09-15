@@ -41,21 +41,19 @@ export class DevToolsComponent {
 
         for(const task of group.tasks ?? []) {
             try {
-                const { changeCompletion } = this.svcChain.current;
-
                 if(task.isNumericCompletion) {
                     if(task.completionFlag$() !== task.defaultCompletion.toString()) {
-                        changeCompletion(task, task.defaultCompletion);
+                        this.svcChain.changeCompletion(task, task.defaultCompletion);
                     }
-                    changeCompletion(task, task.maxValue.toString());
-                    changeCompletion(task, task.minValue.toString());
+                    this.svcChain.changeCompletion(task, task.maxValue.toString());
+                    this.svcChain.changeCompletion(task, task.minValue.toString());
                 }
                 else {
                     if(task.completionFlag$() !== 'N') {
-                        changeCompletion(task, 'N');
+                        this.svcChain.changeCompletion(task, 'N');
                     }
-                    changeCompletion(task, 'Y', this.first);
-                    changeCompletion(task, 'N');
+                    this.svcChain.changeCompletion(task, 'Y', this.first);
+                    this.svcChain.changeCompletion(task, 'N');
                 }
             }
             catch(e) {

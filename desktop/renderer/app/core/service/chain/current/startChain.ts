@@ -1,25 +1,27 @@
 import { getGroupPath } from '@model/DataGroup/getGroupPath';
 
-import type { ChainedTask, ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
+import type { ChainedTask } from '../types';
 
-export function startChain(
-    this: ChainServiceContext,
-    { task, fromFlag, toFlag }: ChainedTask,
-): void {
-    const path = getGroupPath(task._parent);
-    path.shift();
+export function startChain(service: ChainService) {
+    return (
+        { task, fromFlag, toFlag }: ChainedTask,
+    ): void => {
+        const path = getGroupPath(task._parent);
+        path.shift();
 
-    this.history.addHistory();
+        service.addHistory();
 
-    this.chainStart.set({
-        task,
-        fromFlag,
-        toFlag,
-        path: path.join(' > ')
-    });
+        service.chainStart.set({
+            task,
+            fromFlag,
+            toFlag,
+            path: path.join(' > ')
+        });
 
-    this.chainedGroups.set([]);
-    this.chainedTaskCount.set(0);
+        service.chainedGroups.set([]);
+        service.chainedTaskCount.set(0);
 
-    this.svcConfig.updated$.subscribe(() => this.history.setHistoryLimit());
+        service.svcConfig.updated$.subscribe(() => service.setHistoryLimit());
+    };
 }

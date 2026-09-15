@@ -139,7 +139,7 @@ export class ChainViewerNodeComponent implements OnChanges {
     }
 
     getLinkedNodes(task: Task, linkOrLinks: Link | Link[], modifier?: Modifier): ChainNode[] {
-        return this.svcData.get
+        return this.svcData
             .getTasks(linkOrLinks, task)
             .map((chainedTask) => ({ task: chainedTask, modifier }));
     }

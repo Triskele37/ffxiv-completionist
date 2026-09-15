@@ -116,9 +116,9 @@ export class CharacterSettingsComponent implements OnInit {
     }
 
     chainStartingClass(): void {
-        const gridania = this.svcData.get.getTask('q.65660');
-        const limsa = this.svcData.get.getTask('q.65645');
-        const uldah = this.svcData.get.getTask('q.66106');
+        const gridania = this.svcData.getTask('q.65660');
+        const limsa = this.svcData.getTask('q.65645');
+        const uldah = this.svcData.getTask('q.66106');
 
         if(!gridania || !limsa || !uldah) {
             console.error('Failed to retrieve starting city');
@@ -133,20 +133,20 @@ export class CharacterSettingsComponent implements OnInit {
             case 'Archer':
             case 'Lancer':
             case 'Conjurer':
-                pre = this.svcData.get.getTask('q.65575');
+                pre = this.svcData.getTask('q.65575');
                 if(!pre) return;
                 this.setAsStartingZone(gridania, pre);
                 break;
             case 'Marauder':
             case 'Arcanist':
-                pre = this.svcData.get.getTask('q.65643');
+                pre = this.svcData.getTask('q.65643');
                 if(!pre) return;
                 this.setAsStartingZone(limsa, pre);
                 break;
             case 'Gladiator':
             case 'Pugilist':
             case 'Thaumaturge':
-                pre = this.svcData.get.getTask('q.66130');
+                pre = this.svcData.getTask('q.66130');
                 if(!pre) return;
                 this.setAsStartingZone(uldah, pre);
                 break;
@@ -155,12 +155,12 @@ export class CharacterSettingsComponent implements OnInit {
         // Must be done after exclusive sets
         this.excludeStartingClassQuest(this.svcSettings.settings.startingClass.value);
 
-        this.svcData.apply.dataToStore();
+        this.svcData.dataToStore();
     }
 
     setAsStartingZone(exclusive: Task, pre: Task): void {
         // Toggle the flag to trigger chaining
-        this.svcChain.current.changeCompletion(exclusive, Completion.Y, true);
+        this.svcChain.changeCompletion(exclusive, Completion.Y, true);
         this.svcMark.setCompletion(exclusive, Completion.N);
 
         // Undo the cPrev chain
@@ -180,7 +180,7 @@ export class CharacterSettingsComponent implements OnInit {
             { name: 'Pugilist', path: 'q.66089' },
             { name: 'Thaumaturge', path: 'q.65882' },
         ].forEach(({ name, path }) => {
-            const task = this.svcData.get.getTask(path);
+            const task = this.svcData.getTask(path);
             if(!task) {
                 console.error('Failed to get starting quest');
                 return;
@@ -188,7 +188,7 @@ export class CharacterSettingsComponent implements OnInit {
 
             if(startingClass === name) {
                 if(task.completionFlag$() !== Completion.X) {
-                    this.svcChain.current.pushChained({
+                    this.svcChain.pushChained({
                         task,
                         fromFlag: task.completionFlag$(),
                         toFlag: Completion.X
@@ -198,7 +198,7 @@ export class CharacterSettingsComponent implements OnInit {
                 }
             }
             else if(task.completionFlag$() === Completion.X) {
-                this.svcChain.current.pushChained({
+                this.svcChain.pushChained({
                     task,
                     fromFlag: task.completionFlag$(),
                     toFlag: Completion.N
@@ -216,9 +216,9 @@ export class CharacterSettingsComponent implements OnInit {
         }
 
         // firstInChain must be true for the first zone to be cleared
-        this.svcChain.current.changeCompletion(gridania, Completion.N, true);
-        this.svcChain.current.changeCompletion(limsa, Completion.N);
-        this.svcChain.current.changeCompletion(uldah, Completion.N);
+        this.svcChain.changeCompletion(gridania, Completion.N, true);
+        this.svcChain.changeCompletion(limsa, Completion.N);
+        this.svcChain.changeCompletion(uldah, Completion.N);
     }
 
     //#endregion

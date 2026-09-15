@@ -3,6 +3,7 @@ import { Pipe, inject } from '@angular/core';
 
 import type { Task } from '@model/Task';
 import { ThemeService } from '@service/theme/theme.service';
+import { completionGradient } from '@service/theme/styles/completion-gradient';
 
 @Pipe({
     name: 'gradient'
@@ -15,6 +16,6 @@ export class GradientPipe implements PipeTransform {
         const totalComplete = Math.max(parseInt(value, 10), task.minValue) - task.minValue;
         const totalPossible = task.maxValue - task.minValue;
 
-        return this.svcTheme.rygGradient(totalComplete / totalPossible);
+        return this.svcTheme.completionGradient(totalComplete / totalPossible);
     }
 }

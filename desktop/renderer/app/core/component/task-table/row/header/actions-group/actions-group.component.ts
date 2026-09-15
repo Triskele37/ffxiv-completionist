@@ -1,4 +1,5 @@
 import { Component, signal, inject, effect } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NgIcon } from '@ng-icons/core';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -16,6 +17,7 @@ import * as GroupActionComponent from '@component/task-table/actions/group';
     templateUrl: './actions-group.component.html',
     styleUrls: ['./actions-group.component.scss', '../../../actions/action.scss'],
     imports: [
+        NgClass,
         NgIcon,
         TranslatePipe,
         ButtonDirective,

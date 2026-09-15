@@ -1,7 +1,7 @@
 import { Completion } from '@constant';
 
-import type { ChainServiceContext } from '../types';
-import type { ChainContext } from './_types';
+import type { ChainService } from '../chain.service';
+import type { ChainContext } from '../types';
 
 /**
  * - Specialized cNext link
@@ -12,34 +12,36 @@ import type { ChainContext } from './_types';
  * - When C.cPrevAny, either A or B must be
  *
  * */
-export function chainCombo(
-    this: ChainServiceContext,
-    { task, flag, force }: ChainContext,
-): void {
-    // Early bail conditions
-    if(!task.cCombo) return;
-    if(flag === Completion.X) return;
+export function chainCombo(service: ChainService) {
+    return (
+        { task, flag, force }: ChainContext,
+    ): void => {
+        // Early bail conditions
+        if(!task.cCombo) return;
+        if(flag === Completion.X) return;
 
-    this.svcData.get.getTasks(task.cCombo, task).forEach((comboTask) => {
-        if(comboTask.cPrev) {
-            if(comboTask.cPrevAny) {
-                // Task requires any of a previous task
-                const anyComplete = this.svcData.get.getTasks(comboTask.cPrev, task).some(
-                    (task) => task.completionFlag$() === Completion.Y
-                );
+        service.svcData.getTasks(task.cCombo, task).forEach((comboTask) => {
+            if(comboTask.cPrev) {
+                if(comboTask.cPrevAny) {
+                    // Task requires any of a previous task
+                    const anyComplete = service.svcData.getTasks(comboTask.cPrev, task).some(
+                        (task) => task.completionFlag$() === Completion.Y
+                    );
 
-                const applyFlag = anyComplete ? Completion.Y : Completion.N;
-                this.apply.applyFlagToTask(comboTask, applyFlag, force);
+                    const applyFlag = anyComplete ? Completion.Y : Completion.N;
+                    service.applyFlagToTask(comboTask, applyFlag, force);
+                }
+                else {
+                    // Task requires all previous tasks
+                    const tasks = service.svcData.getTasks(comboTask.cPrev, task);
+                    const allComplete = tasks.length && tasks.every(
+                        (task) => task.completionFlag$() === Completion.Y,
+                    );
+
+                    const applyFlag = allComplete ? Completion.Y : Completion.N;
+                    service.applyFlagToTask(comboTask, applyFlag, force);
+                }
             }
-            else {
-                // Task requires all previous tasks
-                const allComplete = this.svcData.get.getTasks(comboTask.cPrev, task).every(
-                    (task) => task.completionFlag$() === Completion.Y,
-                );
-
-                const applyFlag = allComplete ? Completion.Y : Completion.N;
-                this.apply.applyFlagToTask(comboTask, applyFlag, force);
-            }
-        }
-    });
+        });
+    };
 }

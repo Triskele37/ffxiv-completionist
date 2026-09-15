@@ -2,23 +2,24 @@ import type { Link } from '@model/Chain/ChainLink';
 import { curryParentForNumberLink } from '@model/Link/curry';
 import type { Task } from '@model/Task';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
 /**
  * Retrieve all tasks in and implied by `data`
  * */
-export function getTasks(
-    this: DataServiceContext,
-    data: Link | Link[] | undefined,
-    siblingTask: Task | string,
-): Task[] {
-    if(!data) return [];
+export function getTasks(service: DataService) {
+    return (
+        data: Link | Link[] | undefined,
+        siblingTask: Task | string,
+    ): Task[] => {
+        if(!data) return [];
 
-    const parentPath = typeof siblingTask === 'string' ? siblingTask : siblingTask._parent.fullStorageKey;
+        const parentPath = typeof siblingTask === 'string' ? siblingTask : siblingTask._parent.fullStorageKey;
 
-    return (Array.isArray(data) ? data : [data])
-        .map(curryParentForNumberLink(parentPath))
-        .flatMap(this.link.expandLink)
-        .map(this.get.getTask)
-        .filter(Boolean) as Task[];
+        return (Array.isArray(data) ? data : [data])
+            .map(curryParentForNumberLink(parentPath))
+            .flatMap(service.expandLink)
+            .map(service.getTask)
+            .filter(Boolean) as Task[];
+    };
 }

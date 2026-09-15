@@ -1,29 +1,30 @@
 import type { DataGroup } from '@model/DataGroup';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
 /**
  * Load the given group key from json and all subgroups recursively
  * */
-export function loadGroupDeep(
-    this: DataServiceContext,
-    parent: DataGroup,
-    groupKey: string,
-): DataGroup | null {
-    const group = this.loader.loadGroupShallow(parent, groupKey);
+export function loadGroupDeep(service: DataService) {
+    return (
+        parent: DataGroup,
+        groupKey: string,
+    ): DataGroup | null => {
+        const group = service.loadGroupShallow(parent, groupKey);
 
-    group?.order?.forEach((subGroupKey) => {
-        const subGroup = this.loader.loadGroupDeep(group, `${groupKey}.${subGroupKey}`);
+        group?.order?.forEach((subGroupKey) => {
+            const subGroup = service.loadGroupDeep(group, `${groupKey}.${subGroupKey}`);
 
-        if(!subGroup) {
-            console.error('Error: could not generate subGroup', subGroupKey, group);
-            return;
-        }
+            if(!subGroup) {
+                console.error('Error: could not generate subGroup', subGroupKey, group);
+                return;
+            }
 
-        if(!group.subGroups) group.subGroups = new Map();
+            if(!group.subGroups) group.subGroups = new Map();
 
-        group.subGroups.set(subGroup._key, subGroup);
-    });
+            group.subGroups.set(subGroup._key, subGroup);
+        });
 
-    return group;
+        return group;
+    };
 }

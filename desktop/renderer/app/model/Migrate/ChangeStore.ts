@@ -45,7 +45,7 @@ export class ChangeStore {
     // Function to run when finished migrating that actually commits the changes
     write(): void {
         this.svcSaveStore.data = this.newSave;
-        this.svcSaveStore.save();
+        this.svcSaveStore.saveStore();
     }
 
     changeAndMoveTasks = this.curryHarness(changeAndMoveTasks);

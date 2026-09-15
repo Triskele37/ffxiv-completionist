@@ -1,20 +1,21 @@
 import type { Completion, CompletionFlag } from '@constant';
 import type { Task } from '@model/Task';
 
-import type { MarkServiceContext } from '../types';
+import type { MarkService } from '../mark.service';
 
 /**
  * Update `task.completionFlag$` as either a flag or numeric value
  * */
-export function setCompletion(
-    this: MarkServiceContext,
-    task: Task,
-    flag: CompletionFlag,
-): void {
-    if(task.isNumericCompletion) {
-        this.setCompletionNumber(task, flag);
-    }
-    else {
-        this.setCompletionFlag(task, flag as Completion);
-    }
+export function setCompletion(service: MarkService) {
+    return (
+        task: Task,
+        flag: CompletionFlag,
+    ) => {
+        if(task.isNumericCompletion) {
+            service.setCompletionNumber(task, flag);
+        }
+        else {
+            service.setCompletionFlag(task, flag as Completion);
+        }
+    };
 }

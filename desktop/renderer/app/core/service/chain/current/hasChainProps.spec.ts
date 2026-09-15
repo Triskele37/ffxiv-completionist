@@ -3,7 +3,7 @@ import { mockFullTask } from '@model/Task/Task.mock';
 import { hasChainProps as unboundHasChainProps } from './hasChainProps';
 
 describe('hasChainProps', () => {
-    const hasChainProps = unboundHasChainProps.bind({} as any);
+    const hasChainProps = unboundHasChainProps({} as any);
     let task: Task;
 
     beforeEach(() => task = mockFullTask());

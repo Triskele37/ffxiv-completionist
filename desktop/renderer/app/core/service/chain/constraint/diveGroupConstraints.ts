@@ -1,20 +1,21 @@
 import type { ChainConstraint } from '@model/Chain/ChainConstraint';
 import type { DataGroup } from '@model/DataGroup';
 
-import type { ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
 
-export function diveGroupConstraints(
-    this: ChainServiceContext,
-    group: DataGroup | null,
-    constraints: ChainConstraint[]
-): void {
-    if(!group || group.type !== 'Data') return;
+export function diveGroupConstraints(service: ChainService) {
+    return (
+        group: DataGroup | null,
+        constraints: ChainConstraint[]
+    ): void => {
+        if(!group || group.type !== 'Data') return;
 
-    group.tasks?.forEach((task) => {
-        constraints.push(...this.constraint.getTaskConstraints(task));
-    });
+        group.tasks?.forEach((task) => {
+            constraints.push(...service.getTaskConstraints(task));
+        });
 
-    group.subGroups?.forEach((subGroup) => {
-        this.constraint.diveGroupConstraints(subGroup, constraints);
-    });
+        group.subGroups?.forEach((subGroup) => {
+            service.diveGroupConstraints(subGroup, constraints);
+        });
+    };
 }

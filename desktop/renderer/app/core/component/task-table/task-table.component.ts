@@ -38,11 +38,11 @@ export class TaskTableComponent implements OnChanges {
     svcTable = inject(TableService);
 
     @Input({ required: true }) set group(value: DataGroup) {
-        this.svcTable.property.setGroup(value);
+        this.svcTable.setGroup(value);
     };
 
     @Input() set groupRows(value: boolean) {
-        this.svcTable.rowGroup.groupRows = value;
+        this.svcTable.groupRows = value;
     };
 
     @Input() toolbarPre?: TemplateRef<any>;
@@ -54,7 +54,7 @@ export class TaskTableComponent implements OnChanges {
     boundVirtualOnScroll = this.onVirtualScrollerScroll.bind(this);
 
     constructor() {
-        this.svcTable.filter.onFilterUpdate$
+        this.svcTable.onFilterUpdate$
             .pipe(takeUntilDestroyed())
             .subscribe(this.onFilterChange.bind(this));
 
@@ -83,12 +83,12 @@ export class TaskTableComponent implements OnChanges {
     }
 
     sortFunction($event: SortEvent) {
-        if(this.svcTable.order.shouldReset($event)) {
-            this.svcTable.order.resetSort($event);
+        if(this.svcTable.shouldReset($event)) {
+            this.svcTable.resetSort($event);
             this._taskTable?.reset();
         }
         else {
-            this.svcTable.order.sortData($event);
+            this.svcTable.sortData($event);
         }
     }
 

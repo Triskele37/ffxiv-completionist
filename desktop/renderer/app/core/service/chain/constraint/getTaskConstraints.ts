@@ -1,18 +1,19 @@
 import type { Task } from '@model/Task';
 import type { ChainConstraint } from '@model/Chain/ChainConstraint';
 
-import type { ChainServiceContext } from '../types';
+import type { ChainService } from '../chain.service';
 
-export function getTaskConstraints(
-    this: ChainServiceContext,
-    task: Task,
-) {
-    const constraints: ChainConstraint[] = [];
+export function getTaskConstraints(service: ChainService) {
+    return (
+        task: Task,
+    ): ChainConstraint[] => {
+        const constraints: ChainConstraint[] = [];
 
-    constraints.push(...this.constraint.getPrevConstraints(task));
-    constraints.push(...this.constraint.getSiblingConstraints(task));
-    constraints.push(...this.constraint.getNextConstraints(task));
-    constraints.push(...this.constraint.getExcludeConstraints(task));
+        constraints.push(...service.getPrevConstraints(task));
+        constraints.push(...service.getSiblingConstraints(task));
+        constraints.push(...service.getNextConstraints(task));
+        constraints.push(...service.getExcludeConstraints(task));
 
-    return constraints;
+        return constraints;
+    };
 }

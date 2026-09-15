@@ -1,10 +1,10 @@
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
-export function applyDataToStore(
-    this: DataServiceContext,
-): void {
-    this.svcSave.set(
-        this.data.storageKey,
-        this.apply.diveForSave(this.data)
-    );
+export function applyDataToStore(service: DataService) {
+    return (): void => {
+        service.svcSave.set(
+            service.data.storageKey,
+            service.diveForSave(service.data)
+        );
+    };
 }

@@ -28,7 +28,7 @@ export function logData(
         const taskOutput = columns
             .map((column) => {
                 if(column.link && resolveLinks) {
-                    const resolvedLink = svcData.get.getChild(svcData.data, task[column.key]);
+                    const resolvedLink = svcData.getChild(svcData.data, task[column.key]);
                     return resolvedLink?.name ?? task[column.key];
                 } else {
                     return task[column.key];

@@ -183,13 +183,13 @@
 <!-------------------------------- Chain History -------------------------------->
 <ng-template #tChainHistory>
     <div class="chain-history-list-container">
-        @let chainHistory = svcChain.history.history();
+        @let chainHistory = svcChain.history();
         @let lastChain = chainHistory[chainHistory.length - 1];
 
         <p-divider>
             <div class="divider-content">
                 <div>
-                    @let count = `${chainHistory.length}/${svcChain.history.historyLimit}`;
+                    @let count = `${chainHistory.length}/${svcChain.historyLimit}`;
                     {{'APP.CHAIN_OVERLAY.CHAIN_HISTORY' | translate}} {{count}}
                 </div>
                 @if(lastChain) {

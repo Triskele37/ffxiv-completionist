@@ -3,15 +3,15 @@
         data-active-help="APP.ACTIVE_HELP.TABLE.FILTER_INPUT"
         class="text-filter"
         pInputText
-        [value]="svcTable.filter.filters[column.key]?.value ?? ''"
+        [value]="svcTable.filters[column.key]?.value ?? ''"
         (keyup)="onFilterKeyup($event, column)"
     />
 
-    @if(svcTable.filter.filters[column.key]?.value) {
+    @if(svcTable.filters[column.key]?.value) {
         <ng-icon
             name="matClear"
             class="clear-input small"
-            (click)="svcTable.filter.modifyFilter('', column)"
+            (click)="svcTable.modifyFilter('', column)"
         ></ng-icon>
     }
 </div>

@@ -1,18 +1,19 @@
 import type { DataGroup } from '@model/DataGroup';
 
-import type { DataServiceContext } from '../types';
+import type { DataService } from '../data-service';
 
 /**
  * Helper for `getChildGroup` when lookup is from root
  * */
-export function getGroup(
-    this: DataServiceContext,
-    path: string,
-): DataGroup | null {
-    if(!this.data) {
-        console.error('Error: Data not initialized');
-        return null;
-    }
+export function getGroup(service: DataService) {
+    return (
+        path: string,
+    ): DataGroup | null => {
+        if(!service.data) {
+            console.error('Error: Data not initialized');
+            return null;
+        }
 
-    return this.get.getChildGroup(this.data, path);
+        return service.getChildGroup(service.data, path);
+    };
 }

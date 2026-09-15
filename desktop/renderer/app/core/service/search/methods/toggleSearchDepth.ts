@@ -1,10 +1,10 @@
-import type { SearchServiceContext } from '../types';
+import type { SearchService } from '../search.service';
 
-export function toggleSearchDepth(this: SearchServiceContext) {
+export function toggleSearchDepth(service: SearchService) {
     return (): void => {
-        if(!this.searchTerm) return;
+        if(!service.searchTerm) return;
 
-        this.expanded = !this.expanded;
-        this.doAppSearch(this.searchTerm);
+        service.expanded = !service.expanded;
+        service.doAppSearch(service.searchTerm);
     };
 }

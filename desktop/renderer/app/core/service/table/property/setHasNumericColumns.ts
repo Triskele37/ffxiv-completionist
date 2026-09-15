@@ -1,11 +1,11 @@
 import type { DataGroup } from '@model/DataGroup';
 
-import type { TableServiceContext } from '../types';
+import type { TableService } from '../table.service';
 
-export function setHasNumericColumns(
-    this: TableServiceContext,
-) {
-    this.hasNumericColumns = getHasNumericColumns(this.group());
+export function setHasNumericColumns(service: TableService) {
+    return (): void => {
+        service.hasNumericColumns = getHasNumericColumns(service.group());
+    };
 }
 
 function getHasNumericColumns(group: DataGroup | null) {

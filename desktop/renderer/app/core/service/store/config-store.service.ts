@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
 import { ConfigLoad, ConfigObj } from '@common/Config';
 import { ElectronService } from '@service/electron/electron.service';
 
-import { Store } from './Store';
+import { Store } from './_abstract/Store';
 
 @Injectable({
     providedIn: 'root'
@@ -23,7 +23,7 @@ export class ConfigStoreService extends Store<ConfigObj> {
         const svcElectron = inject(ElectronService);
 
         super(translate, primeMessage, svcElectron);
-        this.load();
+        this.loadStore();
     }
 
     getStore(): ConfigLoad {
@@ -34,9 +34,11 @@ export class ConfigStoreService extends Store<ConfigObj> {
         this.svcElectron.setConfig(config);
     }
 
-    set(key: string, value: any): void {
-        super.set(key, value);
-        this.emitNavSettingUpdated(key);
+    get set() {
+        return (key: string, value: any) => {
+            super.set(key, value);
+            this.emitNavSettingUpdated(key);
+        };
     }
 
     private emitNavSettingUpdated(key: string) {

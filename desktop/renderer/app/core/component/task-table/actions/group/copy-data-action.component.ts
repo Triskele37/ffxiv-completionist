@@ -22,7 +22,7 @@ import { logData } from './logData';
             : 'APP.TABLE.GROUP_ACTION.COPY_RAW_DATA';
 
         <ng-icon
-            name="matFileCopy"
+            name="matContentCopy"
             class="action"
             [pTooltip]="tKey | translate"
             tooltipPosition="top"

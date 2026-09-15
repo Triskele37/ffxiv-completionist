@@ -6,22 +6,22 @@
         <ng-icon
             name="matCheck"
             class="i-complete"
-            [ngClass]="{ enabled: svcTable.filter.completion.completed }"
-            (click)="svcTable.filter.onFilterCompletion(Completion.Y)"
+            [ngClass]="{ enabled: svcTable.completionFilter.completed }"
+            (click)="onFilterCompletion(Completion.Y)"
         ></ng-icon>
 
         <ng-icon
             name="matClose"
             class="i-incomplete"
-            [ngClass]="{ enabled: svcTable.filter.completion.incomplete }"
-            (click)="svcTable.filter.onFilterCompletion(Completion.N)"
+            [ngClass]="{ enabled: svcTable.completionFilter.incomplete }"
+            (click)="onFilterCompletion(Completion.N)"
         ></ng-icon>
     </span>
 
     <ng-icon
         name="matClose"
         class="i-exclude"
-        [ngClass]="{ enabled: svcTable.filter.completion.excluded }"
-        (click)="svcTable.filter.onFilterCompletion(Completion.X)"
+        [ngClass]="{ enabled: svcTable.completionFilter.excluded }"
+        (click)="onFilterCompletion(Completion.X)"
     ></ng-icon>
 </span>

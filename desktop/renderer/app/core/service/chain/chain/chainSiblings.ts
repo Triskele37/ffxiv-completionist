@@ -1,29 +1,30 @@
 import { Completion } from '@constant';
 
-import type { ChainServiceContext } from '../types';
-import type { ChainContext } from './_types';
+import type { ChainService } from '../chain.service';
+import type { ChainContext } from '../types';
 
 /**
  * cSiblings
  * A.cSiblings(B)
  * - A and B must have same completion (not including X)
  * */
-export function chainSiblings(
-    this: ChainServiceContext,
-    { task, flag, force }: ChainContext,
-): void {
-    // Early bail conditions
-    if(!task.cSiblings) return;
-    if(flag === Completion.X) return;
+export function chainSiblings(service: ChainService) {
+    return (
+        { task, flag, force }: ChainContext,
+    ): void => {
+        // Early bail conditions
+        if(!task.cSiblings) return;
+        if(flag === Completion.X) return;
 
-    const originalFlag = flag as Completion;
+        const originalFlag = flag as Completion;
 
-    this.svcData.get.getTasks(task.cSiblings, task).forEach((task) => {
-        if(task.isNumericCompletion) {
-            this.current.changeCompletion(task, originalFlag);
-        }
-        else {
-            this.apply.applyFlagToTask(task, originalFlag, force);
-        }
-    });
+        service.svcData.getTasks(task.cSiblings, task).forEach((task) => {
+            if(task.isNumericCompletion) {
+                service.changeCompletion(task, originalFlag);
+            }
+            else {
+                service.applyFlagToTask(task, originalFlag, force);
+            }
+        });
+    };
 }

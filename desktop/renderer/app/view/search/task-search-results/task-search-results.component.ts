@@ -12,8 +12,8 @@ import { ContentLinkComponent } from '@component/content-link/content-link.compo
 import { CompleteCellComponent } from '@component/task-table/cell/complete/complete-cell.component';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SearchService } from '@service/search/search.service';
-import type { Match } from '@service/search/SearchTypes';
-import type { ExpandedRows } from '@service/table/rowGroup/_types';
+import type { Match } from '@service/search/types';
+import type { ExpandedRows } from '@service/table/types';
 
 @Component({
     selector: 'com-task-search-results',

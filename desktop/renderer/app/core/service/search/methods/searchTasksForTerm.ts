@@ -1,15 +1,15 @@
 import type { DataGroup } from '@model/DataGroup';
 import { fuzzyMatchValue } from '@model/util/fuzzyMatch';
 
-import type { Match } from '../SearchTypes';
-import type { SearchServiceContext } from '../types';
+import type { SearchService } from '../search.service';
+import type { Match } from '../types';
 
-export function searchTasksForTerm(this: SearchServiceContext) {
+export function searchTasksForTerm(service: SearchService) {
     return (
         group: DataGroup,
         searchTerm: string,
         expanded: boolean,
-        partial: boolean
+        partial: boolean,
     ): Match[] => {
         const matches: Match[] = [];
 
@@ -17,7 +17,7 @@ export function searchTasksForTerm(this: SearchServiceContext) {
         group.subGroups?.forEach((subGroup) => {
             if(!subGroup) return;
             if(subGroup.type !== 'Data' && subGroup.type !== 'Custom') return;
-            matches.push(...this.searchTasksForTerm(subGroup, searchTerm, expanded, partial));
+            matches.push(...service.searchTasksForTerm(subGroup, searchTerm, expanded, partial));
         });
 
         // Search current group
@@ -43,16 +43,16 @@ export function searchTasksForTerm(this: SearchServiceContext) {
                 task._parent.columns?.forEach(({ key, header, link }) => {
                     if(!task[key]) return;
 
-                    if(this.fuzzyMatchObject(task, key, searchTerm, partial, link)) {
+                    if(service.fuzzyMatchObject(task, key, searchTerm, partial, link)) {
                         let value: string;
 
                         if(Array.isArray(task[key])) {
                             value = task[key]
-                                .map((path) => this.svcData.get.getLinkedName(path, !!link))
+                                .map((path) => service.svcData.getLinkedName(path, !!link))
                                 .join(', ');
                         }
                         else {
-                            value = this.svcData.get.getLinkedName(task[key], !!link).toString();
+                            value = service.svcData.getLinkedName(task[key], !!link).toString();
                         }
 
                         matches.push({ header, value, task });

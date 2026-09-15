@@ -1,4 +1,6 @@
 import { Injectable, signal, inject } from '@angular/core';
+import { SortMeta } from 'primeng/api';
+import { Subject } from 'rxjs';
 
 import type { DataGroup } from '@model/DataGroup';
 import { createDummyGroup } from '@model/DataGroup/createDummyGroup';
@@ -9,20 +11,37 @@ import { DataService } from '@service/data/data-service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';
 
-import type { TableFilterFacet } from './filter/_table.filter';
-import { createFilterFacet } from './filter/_table.filter';
-import type { TableRowGroupFacet } from './rowGroup/_table.rowGroup';
-import { createRowGroupFacet } from './rowGroup/_table.rowGroup';
-import type { TableOrderFacet } from './order/_table.order';
-import { createOrderFacet } from './order/_table.order';
-import type { TablePropertyFacet } from './property/_table.property';
-import { createPropertyFacet } from './property/_table.property';
-import type { TableSelectionFacet } from './selection/_table.selection';
-import { createSelectionFacet } from './selection/_table.selection';
-import type * as TableType from './types';
+//#region ------------------------------------------------------- Methods
+import { filterFlagCompletion } from './filter/filterFlagCompletion';
+import { filterNumericCompletion } from './filter/filterNumericCompletion';
+import { filterTasks } from './filter/filterTasks';
+import { getUniqueValues } from './filter/getUniqueValues';
+import { initFilters } from './filter/initFilters';
+import { modifyFilter } from './filter/modifyFilter';
+import { onFilterCompletion } from './filter/onFilterCompletion';
+import { updateFilteredTasks } from './filter/updateFilteredTasks';
+
+import { onRowReorder } from './order/onRowReorder';
+import { sortData } from './order/sortData';
+import { sortStringOrLink } from './order/sortStringOrLink';
+import { shouldReset } from './order/shouldReset';
+import { resetSort } from './order/resetSort';
+
+import { setGroup } from './property/setGroup';
+import { setHasNumericColumns } from './property/setHasNumericColumns';
+
+import { expandAll } from './rowGroup/expandAll';
+import { collapseAll } from './rowGroup/collapseAll';
+
+import { applyShiftSelection } from './selection/applyShiftSelection';
+import { updateLastClickIndex } from './selection/updateLastClickIndex';
+
+//#endregion
+
+import type { CompletionFilter, ExpandedRows, Filters, UniqueValues } from './types';
 
 @Injectable()
-export class TableService implements TableType.TableServiceContext {
+export class TableService {
     svcConfig = inject(ConfigStoreService);
     svcCustomContent = inject(CustomContentService);
     svcData = inject(DataService);
@@ -32,21 +51,70 @@ export class TableService implements TableType.TableServiceContext {
     group = signal<DataGroup>(createDummyGroup());
     originalTasks: Task[] = [];
     tasks = signal<Task[]>([]);
-    uniqueValues: TableType.UniqueValues = {};
+    uniqueValues: UniqueValues = {};
 
     hasNumericColumns = false;
 
     constructor() {
-        this.filter.initContext();
+        this.initContext();
     }
 
     forceUpdate(): void {
-        this.property.setGroup(this.group());
+        this.setGroup(this.group());
     }
 
-    readonly property: TablePropertyFacet = createPropertyFacet.call(this);
-    readonly filter: TableFilterFacet = createFilterFacet.call(this);
-    readonly order: TableOrderFacet = createOrderFacet.call(this);
-    readonly rowGroup: TableRowGroupFacet = createRowGroupFacet.call(this);
-    readonly selection: TableSelectionFacet = createSelectionFacet.call(this);
+    get setGroup() { return setGroup(this); }
+    get setHasNumericColumns() { return setHasNumericColumns(this); }
+
+    //#region ------------------------------------------------------- Filtering
+    completionFilter: CompletionFilter = {
+        completed: false,
+        incomplete: false,
+        excluded: false,
+    };
+    filters: Filters = {};
+    groupFilters: Record<string, Filters> = {};
+    onFilterUpdate$ = new Subject<void>();
+    onFilterApplied$ = new Subject<void>();
+
+    get filterFlagCompletion() { return filterFlagCompletion(this); }
+    get filterNumericCompletion() { return filterNumericCompletion(this); }
+    get filterTasks() { return filterTasks(this); }
+    get getUniqueValues() { return getUniqueValues(this); }
+    get initContext() { return initFilters(this); }
+    get modifyFilter() { return modifyFilter(this); }
+    get onFilterCompletion() { return onFilterCompletion(this); }
+    get updateFilteredTasks() { return updateFilteredTasks(this); }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Sorting
+    activeSortMeta: SortMeta | null = null;
+    originalOrder: string[] = [];
+    debounceDrag = signal<boolean>(false);
+
+    get onRowReorder() { return onRowReorder(this); }
+    get sortData() { return sortData(this); }
+    get sortStringOrLink() { return sortStringOrLink(this); }
+    get shouldReset() { return shouldReset(this); }
+    get resetSort() { return resetSort(this); }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Row Group
+    expandedRows = signal<ExpandedRows>({});
+    groupRows?: boolean;
+
+    get expandAll() { return expandAll(this); }
+    get collapseAll() { return collapseAll(this); }
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Selection
+    lastClickedRowIndex: number | undefined;
+
+    get applyShiftSelection() { return applyShiftSelection(this); }
+    get updateLastClickIndex() { return updateLastClickIndex(this); }
+
+    //#endregion
 }

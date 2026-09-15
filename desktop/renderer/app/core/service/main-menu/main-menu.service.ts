@@ -4,7 +4,19 @@ import { TranslateService } from '@ngx-translate/core';
 import type { DataGroup } from '@model/DataGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { DataService } from '@service/data/data-service';
-import { ViewToken } from '@view/view-token';
+
+//#region ------------------------------------------------------- Methods
+import { initGroup } from './methods/initGroup';
+import { getPatchNotes } from './methods/getPatchNotes';
+import { getPatchView } from './methods/getPatchView';
+import { getRandom } from './methods/getRandom';
+import { getTypingMinigame } from './methods/getTypingMinigame';
+import { getChainAnalysis } from './methods/getChainAnalysis';
+import { getSettings } from './methods/getSettings';
+import { getSearch } from './methods/getSearch';
+import { getDevTools, syncDevTools } from './methods/getDevTools';
+
+//#endregion
 
 /**
  * Has to be a service so TranslateService can load the group names properly
@@ -13,115 +25,23 @@ import { ViewToken } from '@view/view-token';
     providedIn: 'root'
 })
 export class MainMenuService {
-    private translate = inject(TranslateService);
-    private svcConfigStore = inject(ConfigStoreService);
-    private svcData = inject(DataService);
+    translate = inject(TranslateService);
+    svcConfigStore = inject(ConfigStoreService);
+    svcData = inject(DataService);
 
-    data: DataGroup;
+    group: DataGroup;
 
     constructor() {
-        this.data = this.svcData.group.createDataGroup({
-            key: 'main-menu',
-            groupName: this.translate.instant('APP.NAME'),
-            type: 'UI',
-            noContent: true,
-            addSpacerBelow: true,
-        }, null);
-
-        this.data.subGroups = new Map();
-        this.addPatchNotes();
-        this.addPatchView();
-        this.addRandom();
-        this.addTypingMinigame();
-        this.addChainAnalysis();
-        this.addSettings();
-        this.addSearch();
-
-        this.svcConfigStore.updated$.subscribe((data) => {
-            if(data.isAdmin) this.addDevTools();
-        });
+        this.group = initGroup(this)();
+        syncDevTools(this)();
     }
 
-    addPatchNotes(): void {
-        const patchNotes = this.svcData.group.createDataGroup({
-            key: 'patch-notes',
-            groupName: this.translate.instant('APP.UPDATES.TITLE'),
-            component: ViewToken.PatchNotes
-        }, this.data);
-
-        this.data.subGroups?.set(patchNotes._key, patchNotes);
-    }
-
-    addPatchView(): void {
-        const patchView = this.svcData.group.createDataGroup({
-            key: 'patch-view',
-            groupName: this.translate.instant('APP.PATCH_VIEW.TITLE'),
-            component: ViewToken.PatchView
-        }, this.data);
-
-        this.data.subGroups?.set(patchView._key, patchView);
-    }
-
-    addRandom(): void {
-        const random = this.svcData.group.createDataGroup({
-            key: 'random',
-            groupName: this.translate.instant('APP.RANDOM_VIEW.TITLE'),
-            component: ViewToken.Random
-        }, this.data);
-
-        this.data.subGroups?.set(random._key, random);
-    }
-
-    addTypingMinigame(): void {
-        const keyboundCompletionist = this.svcData.group.createDataGroup({
-            key: 'keybound-completionist',
-            groupName: this.translate.instant('APP.TYPING_MINIGAME.TITLE'),
-            component: ViewToken.TypingMinigame
-        }, this.data);
-
-        this.data.subGroups?.set(keyboundCompletionist._key, keyboundCompletionist);
-    }
-
-    addChainAnalysis(): void {
-        const random = this.svcData.group.createDataGroup({
-            key: 'chain-analysis',
-            groupName: this.translate.instant('APP.CHAIN_ANALYSIS.TITLE'),
-            component: ViewToken.ChainAnalysis
-        }, this.data);
-
-        this.data.subGroups?.set(random._key, random);
-    }
-
-    addSettings(): void {
-        const settings = this.svcData.group.createDataGroup({
-            key: 'settings',
-            groupName: this.translate.instant('APP.SETTING.TITLE'),
-            component: ViewToken.Settings
-        }, this.data);
-
-        this.data.subGroups?.set(settings._key, settings);
-    }
-
-    addSearch(): void {
-        const search = this.svcData.group.createDataGroup({
-            key: 'search',
-            groupName: this.translate.instant('APP.SEARCH.TITLE'),
-            component: ViewToken.Search,
-            visible: false
-        }, this.data);
-
-        this.data.subGroups?.set(search._key, search);
-    }
-
-    addDevTools(): void {
-        if(this.data.subGroups?.get('dev-tools')) return;
-
-        const devTools = this.svcData.group.createDataGroup({
-            key: 'dev-tools',
-            groupName: 'Dev Tools',
-            component: ViewToken.DevTools
-        }, this.data);
-
-        this.data.subGroups?.set(devTools._key, devTools);
-    }
+    get getPatchNotes() { return getPatchNotes(this); }
+    get getPatchView() { return getPatchView(this); }
+    get getRandom() { return getRandom(this); }
+    get getTypingMinigame() { return getTypingMinigame(this); }
+    get getChainAnalysis() { return getChainAnalysis(this); }
+    get getSettings() { return getSettings(this); }
+    get getSearch() { return getSearch(this); }
+    get getDevTools() { return getDevTools(this); }
 }

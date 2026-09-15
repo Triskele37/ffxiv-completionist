@@ -1,8 +1,12 @@
-import type { Match } from '../SearchTypes';
-import type { SearchServiceContext } from '../types';
+import type { SearchService } from '../search.service';
+import type { Match } from '../types';
 
-export function searchTasks(this: SearchServiceContext) {
-    return (searchTerm: string, expanded: boolean, partial: boolean): Match[] => {
-        return this.searchTasksForTerm(this.svcData.data, searchTerm, expanded, partial);
+export function searchTasks(service: SearchService) {
+    return (
+        searchTerm: string,
+        expanded: boolean,
+        partial: boolean,
+    ): Match[] => {
+        return service.searchTasksForTerm(service.svcData.data, searchTerm, expanded, partial);
     };
 }
