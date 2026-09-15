@@ -65,10 +65,10 @@
             "level": 100,
             "npc_en": "Yaana",
             "npc_fr": "Yaana",
-            "unlock": ["d.991", "d.986", "d.988", "d.990", "d.992"],
+            "unlock": ["d.991", "reference.npc.1050455"],
             "patch": "7.01",
             "cPrev": ["q.70500"],
-            "cNext": ["q.70825", "d.986", "d.988", "d.990", "d.992"],
+            "cNext": ["q.70825", "reference.npc.1050455"],
             "cSiblings": ["d.991"]
         },
         "x70825": {
@@ -133,10 +133,10 @@
             "level": 100,
             "npc_en": "Yaana",
             "npc_fr": "Yaana",
-            "unlock": ["d.1025", "d.1020", "d.1022", "d.1024", "d.1026"],
+            "unlock": ["d.1025", "reference.npc.1050455"],
             "patch": "7.2",
             "cPrev": ["q.70829"],
-            "cNext": ["q.70971", "d.1020", "d.1022", "d.1024", "d.1026"],
+            "cNext": ["q.70971", "reference.npc.1050455"],
             "cSiblings": ["d.1025"]
         },
         "x70971": {
@@ -203,10 +203,7 @@
             "npc_fr": "Yaana",
             "unlock": [
                 "d.1074",
-                "d.1069",
-                "d.1071",
-                "d.1073",
-                "d.1075",
+                "reference.npc.1050455",
                 "ap.1022",
                 "ap.1023",
                 "ap.1024",
@@ -222,7 +219,7 @@
             ],
             "patch": "7.4",
             "cPrev": ["q.70975"],
-            "cNext": ["d.1069", "d.1071", "d.1073", "d.1075"],
+            "cNext": ["reference.npc.1050455"],
             "cSiblings": ["d.1074", "a.3864"]
         }
     }

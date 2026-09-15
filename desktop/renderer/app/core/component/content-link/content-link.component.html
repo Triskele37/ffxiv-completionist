@@ -23,6 +23,7 @@
             [life]="3000"
             [pTooltip]="
                 (content._parent | contentLink) + '\n' +
+                (content | contentLink:content._parent:nameOnly) + '\n' +
                 ('APP.CONTENT_LINK.TASK_NAVIGATE' | translate)
             "
             (click)="onClickLink()"

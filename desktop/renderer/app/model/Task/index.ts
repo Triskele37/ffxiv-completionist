@@ -41,6 +41,9 @@ export type Task = {
     /** Default completion setting for this task when unmodified */
     defaultCompletion: CompletionFlag;
 
+    /** Disable ability to change completion */
+    disableCompletion?: boolean;
+
     /** Whether this task uses numeric completion vs flags */
     isNumericCompletion: boolean;
 

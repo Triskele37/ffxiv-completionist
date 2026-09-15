@@ -1,8 +1,12 @@
 @use './ellipsis-overflow' as *;
 
-.content-link {
-    display: inline-block;
-    max-width: 100%;
+:host {
+    display: contents;
 
-    @extend %ellipsis-overflow;
+    .content-link {
+        display: inline-block;
+        max-width: 100%;
+
+        @extend %ellipsis-overflow;
+    }
 }

@@ -1,0 +1,100 @@
+{
+    "key": "npc",
+    "groupName_en": "NPC",
+    "groupName_fr": "NPC",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION",
+            "filterable": true,
+            "link": true
+        },
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
+        },
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x1040697": {
+            "name_en": "Nemjiji",
+            "name_fr": "Nemjiji",
+            "location": "@PLACE.EW.LABYRINTHOS (8.4, 27.4)",
+            "requirements": ["q.70015", "q.70176", "q.70296"],
+            "unlock": [
+                "d.809",
+                "d.811",
+                "d.807",
+                "d.801",
+                "d.873",
+                "d.881",
+                "d.877",
+                "d.884",
+                "d.937",
+                "d.939",
+                "d.941",
+                "d.943"
+            ],
+            "patch": "6.01",
+            "cPrev": ["q.70015", "q.70176", "q.70296"],
+            "cNext": [
+                "d.809",
+                "d.811",
+                "d.807",
+                "d.801",
+                "d.873",
+                "d.881",
+                "d.877",
+                "d.884",
+                "d.937",
+                "d.939",
+                "d.941",
+                "d.943"
+            ]
+        },
+        "x1050455": {
+            "name_en": "Gabbro",
+            "name_fr": "Gabbro",
+            "location": "@PLACE.DT.SOLUTION_NINE (22.4, 17.1)",
+            "requirements": ["q.70501", "q.70830", "q.70976"],
+            "unlock": [
+                "d.986",
+                "d.988",
+                "d.990",
+                "d.992",
+                "d.1020",
+                "d.1022",
+                "d.1024",
+                "d.1026",
+                "d.1069",
+                "d.1071",
+                "d.1073",
+                "d.1075"
+            ],
+            "patch": "7.01",
+            "cPrev": ["q.70501", "q.70830", "q.70976"],
+            "cNext": [
+                "d.986",
+                "d.988",
+                "d.990",
+                "d.992",
+                "d.1020",
+                "d.1022",
+                "d.1024",
+                "d.1026",
+                "d.1069",
+                "d.1071",
+                "d.1073",
+                "d.1075"
+            ]
+        }
+    }
+}

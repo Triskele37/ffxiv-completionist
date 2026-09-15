@@ -55,10 +55,10 @@
             "level": 90,
             "npc_en": "Themis",
             "npc_fr": "Thémis",
-            "unlock": ["d.800", "d.809", "d.811", "d.807", "d.801"],
+            "unlock": ["d.800", "reference.npc.1040697"],
             "patch": "6.01",
             "cPrev": ["q.70014"],
-            "cNext": ["q.70171", "d.809", "d.811", "d.807", "d.801"],
+            "cNext": ["q.70171", "d.809", "d.811", "d.807", "d.801", "reference.npc.1040697"],
             "cSiblings": ["d.800"]
         },
         "x70171": {
@@ -125,10 +125,10 @@
             "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
-            "unlock": ["d.873", "d.881", "d.877", "d.884"],
+            "unlock": ["reference.npc.1040697"],
             "patch": "6.2",
             "cPrev": ["q.70175"],
-            "cNext": ["q.70292", "d.873", "d.881", "d.877", "d.884"]
+            "cNext": ["q.70292", "d.873", "d.881", "d.877", "d.884", "reference.npc.1040697"]
         },
         "x70292": {
             "name_en": "Eater of Souls",
@@ -184,10 +184,10 @@
             "level": 90,
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
-            "unlock": ["d.937", "d.939", "d.941", "d.943", "tto.112"],
+            "unlock": ["reference.npc.1040697", "tto.112"],
             "patch": "6.4",
             "cPrev": ["q.70295"],
-            "cNext": ["d.937", "d.939", "d.941", "d.943"],
+            "cNext": ["d.937", "d.939", "d.941", "d.943", "reference.npc.1040697"],
             "cSiblings": ["a.3247"]
         }
     }

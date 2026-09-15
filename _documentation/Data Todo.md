@@ -27,6 +27,7 @@
 * V&C Achievements to duties
 * Relic weapon to quests?
 * automate PVP plate/achievement reward link
+* Figure out how disabled completion should chain to ensure chains aren't broken at that task
 
 **Localization**
 
@@ -38,3 +39,4 @@
 * Tech-debt
   * Pull shared logic up to a /common for shared ipcMain/ipcRenderer types/logic
   * Unit tests
+* Double check new developer configs point to dev saves

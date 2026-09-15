@@ -12,6 +12,8 @@ export function setCompletionNumber(service: MarkService) {
         task: Task,
         value: string | number,
     ): void => {
+        if(task.disableCompletion) return;
+
         if(value === Completion.X) {
             task.completionFlag$.set(value);
         }

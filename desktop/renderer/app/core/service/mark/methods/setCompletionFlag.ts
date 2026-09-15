@@ -13,6 +13,8 @@ export function setCompletionFlag(service: MarkService) {
         task: Task,
         flag: Completion,
     ): void => {
+        if(task.disableCompletion) return;
+
         const fromFlag = task.completionFlag$();
 
         // Do nothing if the flag isn't changing
