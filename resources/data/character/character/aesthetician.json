@@ -27,7 +27,11 @@
             "name_en": "Modern Aesthetics - Early to Rise",
             "name_fr": "Méthode de coiffure “Lêve-tôt”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["duty.field-operations.bozja.duties.1", "chest.230"],
+            "source": [
+                "duty.field-operations.bozja.duties.1",
+                "@VENDOR.RESISTANCE_SUPPLIER (5 CURRENCY.FO.BOZJAN_GOLD_COIN & 30 CURRENCY.FO.BOZJAN_PLATINUM_COIN)",
+                "chest.230"
+            ],
             "patch": "5.45"
         },
         "x67": {
@@ -56,8 +60,8 @@
         "x227": {
             "name_en": "Modern Cosmetics - A Wicked Wake",
             "name_fr": "Méthode de maquillage : Veillée des saints",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2014)", "@SOURCE.MOG_STATION"],
             "patch": "2.38",
             "defaultCompletion": "X"
         },
@@ -88,8 +92,8 @@
         "x239": {
             "name_en": "Modern Cosmetics - Clowning Around",
             "name_fr": "Méthode de maquillage : clown",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.ALL_SAINTS_WAKE (2022)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2022)", "@SOURCE.MOG_STATION"],
             "patch": "6.0",
             "defaultCompletion": "X"
         },
@@ -126,7 +130,7 @@
             "name_en": "Modern Aesthetics - Wind Caller",
             "name_fr": "Méthode de coiffure “Vartan”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@150 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
+            "source": ["@150 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.35"
         },
@@ -302,7 +306,7 @@
             "name_en": "Modern Aesthetics - Ambitious Ends",
             "name_fr": "Méthode de coiffure “Coupe mi-longue négligée”",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": "@6 CURRENCY.VCD.ROKKON_POTSHERD",
+            "source": "@VENDOR.TRISASSANT (6 CURRENCY.VCD.ROKKON_POTSHERD)",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.45"
         },
@@ -310,7 +314,7 @@
             "name_en": "Modern Aesthetics - The Bold and the Braid",
             "name_fr": "Méthode de coiffure “Tresses collées sur le côté”",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": "@6 CURRENCY.VCD.ALOALO_POTSHERD",
+            "source": "@VENDOR.TRISASSANT (6 CURRENCY.VCD.ALOALO_POTSHERD)",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.51"
         },
@@ -371,7 +375,7 @@
             "name_en": "Modern Aesthetics - Fulsome Forelocks",
             "name_fr": "Méthode de coiffure “Coupe au bol”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)", "chest.230"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.230"],
             "patch": "7.25"
         },
         "x550": {
@@ -439,7 +443,7 @@
             "name_en": "Modern Aesthetics - Bun and the Beautiful",
             "name_fr": "Méthode de coiffure “Chignon tressé”",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)", "chest.232"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.232"],
             "patch": "7.55"
         }
     }

@@ -86,7 +86,7 @@
             "name_en": "Pleasant Dot Parasol",
             "name_fr": "Ombrelle Bleue À Pois",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@25 CURRENCY.EM.BOZJAN_CLUSTER",
+            "source": "@25 CURRENCY.FO.BOZJAN_CLUSTER",
             "patch": "5.45"
         },
         "x12": {
@@ -233,14 +233,14 @@
             "name_en": "Black Embroidered Parasol",
             "name_fr": "Ombrelle À Dentelles Noire",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)", "chest.231"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.231"],
             "patch": "7.25"
         },
         "x46": {
             "name_en": "White Embroidered Parasol",
             "name_fr": "Ombrelle À Dentelles Blanche",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.EM.SANGUINITE)", "chest.231"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.231"],
             "patch": "7.25"
         },
         "x47": {
@@ -368,7 +368,7 @@
             "name_en": "Antique Lantern",
             "name_fr": "Lanterne Ancienne",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)", "chest.233"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.233"],
             "patch": "7.55"
         },
         "x56": {

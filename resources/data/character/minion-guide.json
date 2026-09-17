@@ -1187,7 +1187,7 @@
             "name_en": "Psamathe",
             "name_fr": "Psamathée",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@6 CURRENCY.EM.SANGUINITE",
+            "source": "@6 CURRENCY.FO.SANGUINITE",
             "patch": "7.25",
             "cSiblings": ["ap.902"]
         },
@@ -1195,7 +1195,7 @@
             "name_en": "Naiad",
             "name_fr": "Naïade",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@6 CURRENCY.EM.SANGUINITE",
+            "source": "@6 CURRENCY.FO.SANGUINITE",
             "patch": "7.25",
             "cSiblings": ["ap.903"]
         },
@@ -1203,7 +1203,7 @@
             "name_en": "Deimos",
             "name_fr": "Déimos",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@6 CURRENCY.EM.SANGUINITE",
+            "source": "@6 CURRENCY.FO.SANGUINITE",
             "patch": "7.25",
             "cSiblings": ["ap.904"]
         },
@@ -1249,7 +1249,7 @@
             "name_en": "Tiny Omniscient",
             "name_fr": "Naindex",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (10 CURRENCY.EM.ARCANE_AMULET)",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (10 CURRENCY.FO.ARCANE_AMULET)",
             "patch": "7.55"
         },
         "x588": {
@@ -1943,7 +1943,7 @@
             "name_en": "La Noscean Shorthair",
             "name_fr": "Noscéen À Poil Court",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@1,600 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
+            "source": "@1,600 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.4",
             "cSiblings": ["ap.1103"]
         },
@@ -1951,7 +1951,7 @@
             "name_en": "Gallant Shepherd",
             "name_fr": "Berger Des Braves",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@1,600 CURRENCY.EM.ENLIGHTENMENT_GOLD_PIECE",
+            "source": "@1,600 CURRENCY.FO.ENLIGHTENMENT_GOLD_PIECE",
             "patch": "7.4",
             "cSiblings": ["ap.1104"]
         },
@@ -2269,7 +2269,7 @@
             "name_en": "Skallic Uolosapa",
             "name_fr": "Uolosapa De Skalla",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@600 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
+            "source": "@600 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.25",
             "cSiblings": ["ap.910"]
         },
@@ -2277,7 +2277,7 @@
             "name_en": "Nymian Uolosapa",
             "name_fr": "Uolosapa De Nym",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ENLIGHTENMENT_SILVER_OBOL)",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.FO.ENLIGHTENMENT_SILVER_OBOL)",
             "patch": "7.55"
         },
         "x513": {
@@ -3306,7 +3306,7 @@
             "name_en": "Wind-up Gunnhildr",
             "name_fr": "Gunnhildr Miniature",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@100 CURRENCY.EM.BOZJAN_CLUSTER",
+            "source": "@100 CURRENCY.FO.BOZJAN_CLUSTER",
             "patch": "5.55",
             "cSiblings": ["ap.896"]
         },

@@ -161,7 +161,7 @@
             "name_en": "Wyvern",
             "name_fr": "Wyverne",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.BERTANA - (6 CURRENCY.HUNT.CLAN_MARK_LOG)",
+            "source": "@VENDOR.BERTANA (6 CURRENCY.HUNT.CLAN_MARK_LOG)",
             "patch": "3.1"
         },
         "x351": {
@@ -425,7 +425,7 @@
             "name_en": "Petalodus",
             "name_fr": "Petalodus",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@99 CURRENCY.EM.SANGUINITE", "chest.230", "chest.231"],
+            "source": ["@99 CURRENCY.FO.SANGUINITE", "chest.230", "chest.231"],
             "patch": "7.25"
         },
         "x359": {
@@ -454,7 +454,7 @@
             "name_fr": "Ornithorynque Porteur",
             "category": "@CATEGORY.FIELD_OPERATION",
             "source": [
-                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.EM.ARCANE_AMULET)",
+                "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.FO.ARCANE_AMULET)",
                 "duty.field-operations.occult-crescent.duties.1",
                 "duty.field-operations.occult-crescent.duties.2"
             ],
@@ -1084,7 +1084,7 @@
             "name_en": "Mikoshi",
             "name_fr": "Mikoshi",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_AZIM_STEPPE - (20 CURRENCY.SOCIETY.NAMAZU)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SB.THE_AZIM_STEPPE (20 CURRENCY.SOCIETY.NAMAZU)",
             "patch": "4.3"
         },
         "x252": {
@@ -1162,7 +1162,7 @@
             "name_en": "Portly Porxie",
             "name_fr": "Porxie Potelé",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.IL_MHEG - (18 CURRENCY.SOCIETY.PIXIE)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.SHB.IL_MHEG (18 CURRENCY.SOCIETY.PIXIE)",
             "patch": "5.1"
         },
         "x274": {
@@ -1581,7 +1581,7 @@
             "name_en": "Construct 14",
             "name_fr": "Bâtisseur N°14",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@180 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
+            "source": ["@180 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
         "x223": {
@@ -1927,7 +1927,7 @@
             "name_en": "Ancient Airship",
             "name_fr": "Aéronef Ancien",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@5,000 CURRENCY.EM.ENLIGHTENMENT_SILVER_PIECE",
+            "source": "@5,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.25"
         },
         "x402": {

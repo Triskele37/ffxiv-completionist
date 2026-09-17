@@ -98,10 +98,13 @@
             "level": 100,
             "npc_en": "Archive",
             "npc_fr": "Archive",
-            "unlock": "duty.collection.occult-record.24",
+            "unlock": [
+                "duty.collection.occult-record.24",
+                "duty.field-operations.occult-crescent.duties.0"
+            ],
             "patch": "7.25",
             "cPrev": ["q.70852"],
-            "cNext": ["q.70854"]
+            "cNext": ["q.70854", "duty.field-operations.occult-crescent.duties.0"]
         },
         "x70854": {
             "name_en": "Mysteries Abide",
@@ -180,9 +183,17 @@
             "level": 100,
             "npc_en": "Ketenramm",
             "npc_fr": "Ketenramm",
+            "unlock": [
+                "duty.field-operations.occult-crescent.duties.1",
+                "duty.field-operations.occult-crescent.duties.2"
+            ],
             "patch": "7.55",
             "cPrev": ["q.71052"],
-            "cNext": ["q.71054"]
+            "cNext": [
+                "q.71054",
+                "duty.field-operations.occult-crescent.duties.1",
+                "duty.field-operations.occult-crescent.duties.2"
+            ]
         },
         "x71054": {
             "name_en": "Wisdom's End",

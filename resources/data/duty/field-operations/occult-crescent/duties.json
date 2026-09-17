@@ -10,6 +10,9 @@
             "header_en": "Level Required",
             "header_fr": "Niveau requis"
         },
+        "unlock": {
+            "header": "@HEADER.UNLOCK"
+        },
         "patch": {
             "header": "@HEADER.PATCH"
         }
@@ -19,21 +22,27 @@
             "name_en": "The Forked Tower: Blood",
             "name_fr": "Tour fourchue de la Force",
             "levelReq": "20",
+            "unlock": "q.70853",
             "patch": "7.25",
+            "cPrev": ["q.70853"],
             "cSiblings": ["a.3668"]
         },
         "x1": {
             "name_en": "The Forked Tower: Magic",
             "name_fr": "Tour fourchue de la Magie",
             "levelReq": "40",
+            "unlock": "q.71053",
             "patch": "7.55",
+            "cPrev": ["q.71053"],
             "cSiblings": ["a.4006"]
         },
         "x2": {
             "name_en": "The Forked Tower: Magic (Extreme)",
             "name_fr": "Tour fourchue de la Magie (extrême)",
             "levelReq": "40",
+            "unlock": "q.71053",
             "patch": "7.55",
+            "cPrev": ["q.71053"],
             "cSiblings": ["a.4010"]
         }
     }

@@ -331,9 +331,10 @@
             "level": 80,
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
+            "unlock": ["duty.trust.dt.5"],
             "patch": "5.3",
             "cPrev": ["q.69317"],
-            "cNext": ["q.69543", "q.69511", "q.69521"],
+            "cNext": ["q.69543", "q.69511", "q.69521", "duty.trust.dt.5"],
             "cSiblings": ["a.2642"]
         }
     }

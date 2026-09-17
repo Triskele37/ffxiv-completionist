@@ -698,7 +698,7 @@
             "command_en": "/guard",
             "command_fr": "/guard, /monterlagarde",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@50 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230"],
+            "source": ["@50 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
         "x215": {
@@ -707,7 +707,7 @@
             "command_en": "/malevolence",
             "command_fr": "/malevolence, /occultiste",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@50 CURRENCY.EM.BOZJAN_CLUSTER", "chest.230", "chest.232"],
+            "source": ["@50 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230", "chest.232"],
             "patch": "5.45"
         },
         "x222": {
@@ -915,7 +915,7 @@
             "command_en": "/lookback",
             "command_fr": "/lookback, /regarderenarrière, /regarr",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.EM.ARCANE_AMULET)", "chest.233"],
+            "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.233"],
             "patch": "7.55"
         },
         "x138": {
