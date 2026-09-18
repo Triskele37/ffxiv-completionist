@@ -160,7 +160,7 @@
         "x76": {
             "name_en": "Machinist Barding",
             "name_fr": "Barde De Machiniste",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": ["@1,200 CURRENCY.SCRIP.SKYBUILDERS", "chest.301"],
             "patch": "5.21"
         },
@@ -485,35 +485,35 @@
         "x22": {
             "name_en": "Tidal Barding",
             "name_fr": "Barde De Léviathan",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.301", "chest.110"],
             "patch": "2.2"
         },
         "x25": {
             "name_en": "Levin Barding",
             "name_fr": "Barde De Ramuh",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "chest.301", "chest.110"],
             "patch": "2.3"
         },
         "x28": {
             "name_en": "Ice Barding",
             "name_fr": "Barde De Shiva",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "chest.301", "chest.110", "chest.221"],
             "patch": "2.4"
         },
         "x34": {
             "name_en": "Expanse Barding",
             "name_fr": "Barde De Bismarck",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.0"
         },
         "x35": {
             "name_en": "Hive Barding",
             "name_fr": "Barde De Ravana",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.0"
         },
@@ -528,28 +528,28 @@
         "x41": {
             "name_en": "Sephirotic Barding",
             "name_fr": "Barde De Sephirot",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.15"
         },
         "x45": {
             "name_en": "Horde Barding",
             "name_fr": "Barde De Nidhogg",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.3"
         },
         "x47": {
             "name_en": "Sophic Barding",
             "name_fr": "Barde De Sophia",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.GSM)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.4"
         },
         "x52": {
             "name_en": "Zurvanite Barding",
             "name_fr": "Barde De Zurvan",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "chest.301", "chest.110", "chest.221"],
             "patch": "3.5"
         },

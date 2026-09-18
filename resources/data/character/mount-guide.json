@@ -206,7 +206,7 @@
         "x240": {
             "name_en": "Chocorpokkur",
             "name_fr": "Choco-korpokkur",
-            "category": "@CATEGORY.PREMIUM",
+            "category": "@CATEGORY.EVENT",
             "source_en": "Butterfinger Promotion (NA Only), Lawson Promotion (Japan Only)",
             "source_fr": "Partenariat Butterfinger (NA Seulement), Évènement LAWSON (Japon seulement)",
             "patch": "5.4",
@@ -272,7 +272,7 @@
         "x211": {
             "name_en": "Ufiti",
             "name_fr": "Ufiti",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.11"
         },
@@ -499,7 +499,7 @@
         "x67": {
             "name_en": "Pegasus",
             "name_fr": "Pégase",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "@4,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "3.1"
         },
@@ -832,7 +832,7 @@
         "x208": {
             "name_en": "Dhalmel",
             "name_fr": "Dhalmel",
-            "category": "@CATEGORY.CRAFTING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "chest.300",
             "patch": "5.21"
         },
@@ -846,7 +846,7 @@
         "x209": {
             "name_en": "Albino Karakul",
             "name_fr": "Karakul Albinos",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.21"
         },
@@ -860,7 +860,7 @@
         "x225": {
             "name_en": "Megalotragus",
             "name_fr": "Mégalotragus",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.315"],
             "patch": "5.31"
         },
@@ -874,21 +874,21 @@
         "x236": {
             "name_en": "Big Shell",
             "name_fr": "Coquénorme",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.41"
         },
         "x242": {
             "name_en": "Antelope Doe",
             "name_fr": "Antilope Biche",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@8,400 CURRENCY.SCRIP.SKYBUILDERS", "chest.319"],
             "patch": "5.5"
         },
         "x243": {
             "name_en": "Antelope Stag",
             "name_fr": "Antilope Cerf",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": ["@30 CURRENCY.FETE_TOKEN", "chest.301"],
             "patch": "5.5"
         },
@@ -1948,8 +1948,8 @@
         "x232": {
             "name_en": "Snowman",
             "name_fr": "Bonhomme De Neige",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2020)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2020)", "@SOURCE.MOG_STATION"],
             "patch": "5.4",
             "defaultCompletion": "X"
         },

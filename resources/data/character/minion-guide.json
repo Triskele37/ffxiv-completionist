@@ -23,7 +23,12 @@
             "name_en": "Wayward Hatchling",
             "name_fr": "Bébé Chocobo",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+            "source": [
+                "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+                "@VENDOR.BANGO_ZANGO (2,400 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (2,400 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (2,400 CURRENCY.GIL)"
+            ],
             "patch": "2.0",
             "cSiblings": ["ap.349"]
         },
@@ -93,8 +98,8 @@
         "x461": {
             "name_en": "Ryunosuke",
             "name_fr": "Poussin Dragon",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.HEAVENSTURN (2024)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.HEAVENSTURN (2024)", "@SOURCE.MOG_STATION"],
             "patch": "6.5",
             "defaultCompletion": "X"
         },
@@ -146,7 +151,12 @@
             "name_en": "Cherry Bomb",
             "name_fr": "Bombino",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+            "source": [
+                "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+                "@VENDOR.BANGO_ZANGO (2,400 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (2,400 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (2,400 CURRENCY.GIL)"
+            ],
             "patch": "2.0",
             "cSiblings": ["ap.350"]
         },
@@ -347,8 +357,8 @@
         "x225": {
             "name_en": "Continental Eye",
             "name_fr": "Œil Du Cirque",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2016)", "@SOURCE.MOG_STATION"],
             "patch": "3.4",
             "defaultCompletion": "X"
         },
@@ -411,8 +421,8 @@
         "x159": {
             "name_en": "Pumpkin Butler",
             "name_fr": "Majordome Citrouille",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2015)", "@SOURCE.MOG_STATION"],
             "patch": "3.07",
             "defaultCompletion": "X"
         },
@@ -482,8 +492,8 @@
         "x46": {
             "name_en": "Tender Lamb",
             "name_fr": "Belin Bêlant",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.HEAVENSTURN (2015)", "@SOURCE.MOG_STATION"],
             "patch": "2.1",
             "cSiblings": ["ap.382"],
             "defaultCompletion": "X"
@@ -529,7 +539,7 @@
         "x82": {
             "name_en": "Wind-up Succubus",
             "name_fr": "Poupée Succube",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@500 CURRENCY.SEAL.ALLIED",
             "patch": "2.3",
             "cSiblings": ["ap.385"]
@@ -544,7 +554,7 @@
         "x93": {
             "name_en": "Treasure Box",
             "name_fr": "Coffre Au Trésor Mécanique",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@440 CURRENCY.SEAL.ALLIED",
             "patch": "2.3",
             "cSiblings": ["ap.949"]
@@ -567,8 +577,8 @@
         "x420": {
             "name_en": "Wind-up Rudy",
             "name_fr": "Rudy Miniature",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2021)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2021)", "@SOURCE.MOG_STATION"],
             "patch": "6.0",
             "defaultCompletion": "X"
         },
@@ -583,7 +593,7 @@
         "x136": {
             "name_en": "Atrophied Atomos",
             "name_fr": "Atomos Atrophié",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "chest.300", "chest.301", "chest.313", "chest.317"],
             "patch": "3.0",
             "cSiblings": ["ap.394"]
@@ -599,7 +609,7 @@
         "x384": {
             "name_en": "Weatherproof Gaelicat",
             "name_fr": "Gaélichat Emmitouflé",
-            "category": "@CATEGORY.CRAFTING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "chest.300",
             "patch": "5.31",
             "cSiblings": ["ap.474"]
@@ -623,14 +633,14 @@
             "name_en": "Griffin Hatchling",
             "name_fr": "Bébé Griffon",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@400 CURRENCY.HUNT.CENTURIO",
+            "source": "@VENDOR.ARDOLAIN (400 CURRENCY.HUNT.CENTURIO)",
             "patch": "3.0"
         },
         "x157": {
             "name_en": "Paissa Brat",
             "name_fr": "Petiot Païssa",
             "category": [
-                "@CATEGORY.CRAFTING_GATHERING",
+                "@CATEGORY.SKYBUILDERS",
                 "@CATEGORY.DEEP_DUNGEON",
                 "@CATEGORY.TREASURE_HUNT",
                 "@CATEGORY.COSMIC_EXPLORATION"
@@ -649,14 +659,14 @@
         "x372": {
             "name_en": "Paissa Patissier",
             "name_fr": "Païssa Cuisinier",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.FIELD_OPERATION"],
             "source": ["chest.300", "chest.232"],
             "patch": "5.21"
         },
         "x373": {
             "name_en": "Paissa Threadpuller",
             "name_fr": "Païssa Couturier",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.FIELD_OPERATION"],
             "source": ["chest.300", "chest.232"],
             "patch": "5.21"
         },
@@ -693,7 +703,7 @@
         "x180": {
             "name_en": "Morpho",
             "name_fr": "Morpho",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.CRAFTING"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.SKYBUILDERS"],
             "source": ["d.140", "chest.110", "chest.111", "chest.300", "chest.301"],
             "patch": "3.15",
             "cSiblings": ["ap.440"]
@@ -718,21 +728,21 @@
         "x189": {
             "name_en": "Calamari",
             "name_fr": "Tentacule Minuscule",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.CRAFTING"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.SKYBUILDERS"],
             "source": ["d.172", "chest.300"],
             "patch": "3.3"
         },
         "x190": {
             "name_en": "Baby Brachiosaur",
             "name_fr": "Bébé Brachiosaure",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["chest.110", "chest.111", "@800 CURRENCY.SCRIP.SKYBUILDERS", "chest.313", "chest.317"],
             "patch": "3.55b"
         },
         "x194": {
             "name_en": "Pegasus Colt",
             "name_fr": "Poulain Pégase",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "@800 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "3.55b",
             "cSiblings": ["ap.953"]
@@ -755,7 +765,7 @@
         "x216": {
             "name_en": "Shaggy Shoat",
             "name_fr": "Marcassin",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.CRAFTING", "@CATEGORY.ISLAND_SANCTUARY"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.SKYBUILDERS", "@CATEGORY.ISLAND_SANCTUARY"],
             "source": ["d.182", "chest.110", "chest.111", "chest.25", "chest.300"],
             "patch": "3.4",
             "cSiblings": ["ap.399"]
@@ -891,7 +901,7 @@
         "x336": {
             "name_en": "Armadillo Bowler",
             "name_fr": "Tatou-boule",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["d.656", "chest.120", "chest.121", "chest.130", "chest.131", "chest.230"],
             "patch": "5.0",
             "cSiblings": ["ap.1109"]
@@ -943,7 +953,7 @@
         "x355": {
             "name_en": "Mystic Weapon",
             "name_fr": "Arme Mystique",
-            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON"],
+            "category": ["@CATEGORY.VENTURE", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": [
                 "@SOURCE.EXPLORATION.FIELD XXV",
                 "@SOURCE.EXPLORATION.QUICK",
@@ -957,7 +967,7 @@
         "x357": {
             "name_en": "Miniature White Knight",
             "name_fr": "Mini-cavalier Blanc",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@1,200 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.314"],
             "patch": "5.11"
         },
@@ -993,7 +1003,7 @@
         "x388": {
             "name_en": "Petit Pteranodon",
             "name_fr": "Ptiranodon",
-            "category": "@CATEGORY.CRAFTING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "chest.300",
             "patch": "5.31"
         },
@@ -1008,7 +1018,7 @@
         "x406": {
             "name_en": "Trike",
             "name_fr": "Trike",
-            "category": "@CATEGORY.CRAFTING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "chest.300",
             "patch": "5.41"
         },
@@ -1040,7 +1050,7 @@
             "name_en": "Royal Lunatender",
             "name_fr": "Roi Pampa Sélénien",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.duties.6",
+            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
             "patch": "6.05",
             "cSiblings": ["ap.736"]
         },
@@ -1083,8 +1093,8 @@
         "x450": {
             "name_en": "Hatching Bunny",
             "name_fr": "Laprœuf Joyeux",
-            "category": "@CATEGORY.EVENT",
-            "source": "q.70126",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["q.70126", "@SOURCE.MOG_STATION"],
             "patch": "6.1",
             "defaultCompletion": "X"
         },
@@ -1187,7 +1197,7 @@
             "name_en": "Psamathe",
             "name_fr": "Psamathée",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@6 CURRENCY.FO.SANGUINITE",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (6 CURRENCY.FO.SANGUINITE)",
             "patch": "7.25",
             "cSiblings": ["ap.902"]
         },
@@ -1203,7 +1213,7 @@
             "name_en": "Deimos",
             "name_fr": "Déimos",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@6 CURRENCY.FO.SANGUINITE",
+            "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (6 CURRENCY.FO.SANGUINITE)",
             "patch": "7.25",
             "cSiblings": ["ap.904"]
         },
@@ -1421,7 +1431,7 @@
         "x363": {
             "name_en": "Cerberpup",
             "name_fr": "Cerbère Chiot",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@1,200 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.313", "chest.317"],
             "patch": "5.21",
             "cSiblings": ["ap.1116"]
@@ -1491,7 +1501,7 @@
         "x97": {
             "name_en": "Nutkin",
             "name_fr": "Écureuil Grignoteur",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.SKYBUILDERS"],
             "source": ["chest.100", "duty.treasure-hunt.maps.5", "duty.treasure-hunt.duties.0", "chest.301"],
             "patch": "2.3",
             "cSiblings": ["ap.365"]
@@ -1499,8 +1509,8 @@
         "x421": {
             "name_en": "Squirrel Emperor",
             "name_fr": "Rissai Chimérique",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2021)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2021)", "@SOURCE.MOG_STATION"],
             "patch": "6.0",
             "defaultCompletion": "X"
         },
@@ -1567,7 +1577,7 @@
             "category": [
                 "@CATEGORY.DEEP_DUNGEON",
                 "@CATEGORY.TREASURE_HUNT",
-                "@CATEGORY.CRAFTING",
+                "@CATEGORY.SKYBUILDERS",
                 "@CATEGORY.ISLAND_SANCTUARY"
             ],
             "source": ["chest.110", "chest.111", "chest.25", "duty.treasure-hunt.duties.0", "chest.300", "chest.301"],
@@ -1667,7 +1677,7 @@
         "x330": {
             "name_en": "Hedgehoglet",
             "name_fr": "Hérisson Mignon",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.FIELD_OPERATION"],
             "source": [
                 "duty.treasure-hunt.duties.1",
                 "duty.treasure-hunt.duties.2",
@@ -1927,7 +1937,8 @@
             "name_en": "Boon Baboon",
             "name_fr": "Babouin Hamadryas",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source_en": "@SOURCE.MOG_STATION (China)",
+            "source_fr": "@SOURCE.MOG_STATION (Chine)",
             "patch": "7.3",
             "defaultCompletion": "X"
         },
@@ -1943,7 +1954,7 @@
             "name_en": "La Noscean Shorthair",
             "name_fr": "Noscéen À Poil Court",
             "category": "@CATEGORY.FIELD_OPERATION",
-            "source": "@1,600 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
+            "source": "@1,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.4",
             "cSiblings": ["ap.1103"]
         },
@@ -2175,7 +2186,7 @@
         "x137": {
             "name_en": "Owlet",
             "name_fr": "Bébé Hibou",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.SKYBUILDERS"],
             "source": ["d.35", "chest.100", "duty.treasure-hunt.duties.0", "chest.301"],
             "patch": "3.0",
             "cSiblings": ["ap.548"]
@@ -2183,7 +2194,7 @@
         "x138": {
             "name_en": "Ugly Duckling",
             "name_fr": "Vilain Petit Canard",
-            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.CRAFTING"],
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.DEEP_DUNGEON", "@CATEGORY.TREASURE_HUNT", "@CATEGORY.SKYBUILDERS"],
             "source": ["d.33", "chest.100", "duty.treasure-hunt.duties.0", "chest.300", "chest.301"],
             "patch": "3.0",
             "cSiblings": ["ap.450"]
@@ -2192,7 +2203,7 @@
             "name_en": "Hunting Hawk",
             "name_fr": "Buse Chasseuse",
             "category": [
-                "@CATEGORY.CRAFTING",
+                "@CATEGORY.SKYBUILDERS",
                 "@CATEGORY.DEEP_DUNGEON",
                 "@CATEGORY.ISLAND_SANCTUARY",
                 "@CATEGORY.COSMIC_EXPLORATION"
@@ -2842,8 +2853,8 @@
         "x177": {
             "name_en": "Dress-up Y'shtola",
             "name_fr": "Nouvelle Y'shtola Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2016)", "@SOURCE.MOG_STATION"],
             "patch": "3.35",
             "cSiblings": ["ap.551"],
             "defaultCompletion": "X"
@@ -2851,8 +2862,8 @@
         "x331": {
             "name_en": "Brave New Y'shtola",
             "name_fr": "Y'shtola Miniature (premier Reflet)",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2019)", "@SOURCE.MOG_STATION"],
             "patch": "5.05",
             "cSiblings": ["ap.670"],
             "defaultCompletion": "X"
@@ -2860,8 +2871,8 @@
         "x98": {
             "name_en": "Wind-up Minfilia",
             "name_fr": "Minfilia Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2014)", "@SOURCE.MOG_STATION"],
             "patch": "2.3",
             "cSiblings": ["ap.455"],
             "defaultCompletion": "X"
@@ -2869,8 +2880,8 @@
         "x99": {
             "name_en": "Wind-up Thancred",
             "name_fr": "Thancred Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2014)", "@SOURCE.MOG_STATION"],
             "patch": "2.3",
             "cSiblings": ["ap.456"],
             "defaultCompletion": "X"
@@ -2895,8 +2906,8 @@
         "x248": {
             "name_en": "Wind-up Lyse",
             "name_fr": "Lyse Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2017)", "@SOURCE.MOG_STATION"],
             "patch": "4.01",
             "cSiblings": ["ap.658"],
             "defaultCompletion": "X"
@@ -2999,8 +3010,8 @@
         "x192": {
             "name_en": "Wind-up Krile",
             "name_fr": "Krile Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2016)", "@SOURCE.MOG_STATION"],
             "patch": "3.35",
             "cSiblings": ["ap.491"],
             "defaultCompletion": "X"
@@ -3033,8 +3044,8 @@
         "x476": {
             "name_en": "Wind-up Godbert",
             "name_fr": "Godbert Miniature",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.MAKE_IT_RAIN (2023)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.MAKE_IT_RAIN (2023)", "@SOURCE.MOG_STATION"],
             "patch": "6.3",
             "cSiblings": ["ap.555"],
             "defaultCompletion": "X"
@@ -3066,8 +3077,8 @@
         "x145": {
             "name_en": "Wind-up Iceheart",
             "name_fr": "Ysayle Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2015)", "@SOURCE.MOG_STATION"],
             "patch": "3.05",
             "cSiblings": ["ap.556"],
             "defaultCompletion": "X"
@@ -3075,8 +3086,8 @@
         "x150": {
             "name_en": "Wind-up Yugiri",
             "name_fr": "Yugiri Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2015)", "@SOURCE.MOG_STATION"],
             "patch": "3.07",
             "cSiblings": ["ap.557"],
             "defaultCompletion": "X"
@@ -3132,7 +3143,7 @@
         "x360": {
             "name_en": "Dress-up Estinien",
             "name_fr": "Nouvel Estinien Miniature",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.SKYBUILDERS",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.11",
             "cSiblings": ["ap.672"]
@@ -3140,8 +3151,8 @@
         "x250": {
             "name_en": "Wind-up Gosetsu",
             "name_fr": "Gosetsu Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2017)", "@SOURCE.MOG_STATION"],
             "patch": "4.01",
             "cSiblings": ["ap.661"],
             "defaultCompletion": "X"
@@ -3183,8 +3194,8 @@
         "x293": {
             "name_en": "Wind-up Cirina",
             "name_fr": "Cirina Miniature",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.35",
             "cSiblings": ["ap.666"],
             "defaultCompletion": "X"
@@ -3259,8 +3270,8 @@
         "x382": {
             "name_en": "Wind-up Ardbert",
             "name_fr": "Ardbert Miniature",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.THE_RISING (2020)",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.THE_RISING (2020)", "@SOURCE.MOG_STATION"],
             "patch": "5.3",
             "cSiblings": ["ap.679"],
             "defaultCompletion": "X"
@@ -3321,8 +3332,8 @@
         "x455": {
             "name_en": "Clockwork Solus",
             "name_fr": "Solus Mécanique",
-            "category": "@CATEGORY.EVENT",
-            "source": "q.70080",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["q.70080", "@SOURCE.MOG_STATION"],
             "patch": "6.28",
             "cSiblings": ["ap.680"],
             "defaultCompletion": "X"
@@ -3518,7 +3529,12 @@
             "name_en": "Mammet #001",
             "name_fr": "Pantin P001",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+            "source": [
+                "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
+                "@VENDOR.BANGO_ZANGO (2,400 CURRENCY.GIL)",
+                "@VENDOR.ROARICH (2,400 CURRENCY.GIL)",
+                "@VENDOR.MAISENTA (2,400 CURRENCY.GIL)"
+            ],
             "patch": "2.0",
             "cSiblings": ["ap.348"]
         },
@@ -3563,8 +3579,8 @@
         "x64": {
             "name_en": "Wind-up Edvya",
             "name_fr": "Mini-princesse Edvya",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.LITTLE_LADIES_DAY (2014)", "@SOURCE.MOG_STATION"],
             "patch": "2.1",
             "defaultCompletion": "X"
         },
@@ -3598,8 +3614,8 @@
         "x227": {
             "name_en": "Angel of Mercy",
             "name_fr": "Ange de la Résurrection",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.VALENTIONES_DAY (2017)", "@SOURCE.MOG_STATION"],
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -3628,8 +3644,8 @@
         "x280": {
             "name_en": "Motley Egg",
             "name_fr": "Œuf Bouffon",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.HATCHING_TIDE (2018)","@SOURCE.MOG_STATION"],
             "patch": "4.2",
             "defaultCompletion": "X"
         },
@@ -3660,16 +3676,16 @@
         "x307": {
             "name_en": "Little Yin",
             "name_fr": "Fantôme Triste",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.4",
             "defaultCompletion": "X"
         },
         "x308": {
             "name_en": "Little Yang",
             "name_fr": "Fantôme Joyeux",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.ALL_SAINTS_WAKE (2018)", "@SOURCE.MOG_STATION"],
             "patch": "4.4",
             "defaultCompletion": "X"
         },
@@ -4036,7 +4052,7 @@
         "x66": {
             "name_en": "Plush Cushion",
             "name_fr": "Coussin Moelleux",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.WVR)", "chest.300", "chest.301", "chest.313", "chest.314"],
             "patch": "2.2"
         },
@@ -4072,15 +4088,15 @@
         "x140": {
             "name_en": "Clockwork Barrow",
             "name_fr": "Brouette Mécanique",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.300", "chest.313", "chest.314"],
             "patch": "3.0"
         },
         "x105": {
             "name_en": "Hoary the Snowman",
             "name_fr": "Bébé Bonhomme De Neige",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["@EVENT.STARLIGHT_CELEBRATION (2014)", "@SOURCE.MOG_STATION"],
             "patch": "2.45",
             "defaultCompletion": "X"
         },
@@ -4278,8 +4294,7 @@
             "name_en": "Wind-up Edge",
             "name_fr": "Edge Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
+            "source": ["@EVENT.DIGITAL_FAN_FEST (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -4287,8 +4302,7 @@
             "name_en": "Wind-up Rydia",
             "name_fr": "Rydia Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
+            "source": ["@EVENT.DIGITAL_FAN_FEST (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -4296,8 +4310,7 @@
             "name_en": "Wind-up Rosa",
             "name_fr": "Rosa Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
+            "source": ["@EVENT.DIGITAL_FAN_FEST (2021)", "@SOURCE.MOG_STATION"],
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -4322,7 +4335,7 @@
             "name_en": "Wind-up Cloud",
             "name_fr": "Cloud Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source": ["@EVENT.FAN_FEST (2018-19)", "@SOURCE.MOG_STATION"],
             "patch": "4.5",
             "defaultCompletion": "X"
         },
@@ -4338,7 +4351,7 @@
             "name_en": "Wind-up Tifa",
             "name_fr": "Tifa Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source": ["@EVENT.FAN_FEST (2018-19)", "@SOURCE.MOG_STATION"],
             "patch": "4.4",
             "defaultCompletion": "X"
         },
@@ -4401,7 +4414,7 @@
             "name_en": "Wind-up Yuna",
             "name_fr": "Yuna Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source": ["@EVENT.FAN_FEST (2016-17)", "@SOURCE.MOG_STATION"],
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -4409,7 +4422,7 @@
             "name_en": "Wind-up Rikku",
             "name_fr": "Rikku Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source": ["@EVENT.FAN_FEST (2016-17)", "@SOURCE.MOG_STATION"],
             "patch": "3.4",
             "defaultCompletion": "X"
         },
@@ -4417,7 +4430,7 @@
             "name_en": "Wind-up Lulu",
             "name_fr": "Lulu Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "source": ["@EVENT.FAN_FEST (2016-17)", "@SOURCE.MOG_STATION"],
             "patch": "3.4",
             "defaultCompletion": "X"
         },
@@ -4488,7 +4501,7 @@
             "name_en": "Jibanyan",
             "name_fr": "Jibanyan",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4496,7 +4509,7 @@
             "name_en": "Komasan",
             "name_fr": "Komasan",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4504,7 +4517,7 @@
             "name_en": "Whisper",
             "name_fr": "Whisper",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4512,7 +4525,7 @@
             "name_en": "Blizzaria",
             "name_fr": "Blizzaria",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4520,7 +4533,7 @@
             "name_en": "Kyubi",
             "name_fr": "Kyubi",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4528,7 +4541,7 @@
             "name_en": "Komajiro",
             "name_fr": "Komajiro",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4536,7 +4549,7 @@
             "name_en": "Manjimutt",
             "name_fr": "Corniot",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4544,7 +4557,7 @@
             "name_en": "Noko",
             "name_fr": "Noko",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4552,7 +4565,7 @@
             "name_en": "Venoct",
             "name_fr": "Octorgone",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4560,7 +4573,7 @@
             "name_en": "Shogunyan",
             "name_fr": "Shogunyan",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4568,7 +4581,7 @@
             "name_en": "Hovernyan",
             "name_fr": "Hovernyan",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4576,7 +4589,7 @@
             "name_en": "Robonyan F-type",
             "name_fr": "Robonyan F-Type",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4584,7 +4597,7 @@
             "name_en": "USApyon",
             "name_fr": "Usapyon",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2016, 2017, 2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "3.35",
             "defaultCompletion": "X"
         },
@@ -4592,7 +4605,7 @@
             "name_en": "Lord Enma",
             "name_fr": "Baron Enma",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "5.3",
             "defaultCompletion": "X"
         },
@@ -4600,7 +4613,7 @@
             "name_en": "Lord Ananta",
             "name_fr": "Baron Ananta",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "5.3",
             "defaultCompletion": "X"
         },
@@ -4608,7 +4621,7 @@
             "name_en": "Zazel",
             "name_fr": "Zazel",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "5.3",
             "defaultCompletion": "X"
         },
@@ -4616,7 +4629,7 @@
             "name_en": "Damona",
             "name_fr": "Damona",
             "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.YO_KAI (2020)",
+            "source": "@EVENT.YO_KAI",
             "patch": "5.3",
             "defaultCompletion": "X"
         },

@@ -45,14 +45,14 @@
         "x72": {
             "name_en": "Modern Aesthetics - Controlled Chaos",
             "name_fr": "Méthode de coiffure “Coupe asymétrique”",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
             "patch": "5.21"
         },
         "x79": {
             "name_en": "Modern Aesthetics - Modern Legend",
             "name_fr": "Méthode de coiffure “Mèches légendaires”",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.314", "chest.315"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.11"
@@ -107,7 +107,7 @@
         "x267": {
             "name_en": "Modern Aesthetics - Gyr Abanian Plait",
             "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["chest.110", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.35"
@@ -122,7 +122,7 @@
         "x280": {
             "name_en": "Modern Aesthetics - Saintly Style",
             "name_fr": "Méthode de coiffure “Ailes de saint”",
-            "category": ["@CATEGORY.CRAFTING_GATHERING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.SKYBUILDERS", "@CATEGORY.COSMIC_EXPLORATION"],
             "source": ["@1,800 CURRENCY.SCRIP.SKYBUILDERS", "chest.301", "chest.318", "chest.319"],
             "patch": "5.31"
         },
@@ -161,7 +161,7 @@
         "x302": {
             "name_en": "Modern Aesthetics - Samsonian Locks",
             "name_fr": "Méthode de coiffure “Cheveux longs”",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
             "source": ["chest.100", "chest.101", "chest.102", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "3.4"
@@ -169,8 +169,8 @@
         "x303": {
             "name_en": "Modern Aesthetics - Pulse",
             "name_fr": "Méthode de coiffure “Lightning et Snow”",
-            "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.MOG_STATION",
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
+            "source": ["q.66689", "@SOURCE.MOG_STATION"],
             "patch": "3.15",
             "defaultCompletion": "X"
         },
