@@ -18,9 +18,9 @@ export function fuzzyMatchObject(service: SearchService) {
         isLink: boolean = false,
     ): boolean => {
         const isMatch = (linkedNameValue: number | string): boolean => {
-            const valueA = service.svcData.getLinkedName(linkedNameValue, isLink);
-            const searchString = valueA + objA[keyA]; // Tack on any non-link text
-            return fuzzyMatchValue(searchString, valueB, partial);
+            const valueA = service.svcData.getLinkedTextFull(linkedNameValue, isLink);
+            // const searchString = valueA + objA[keyA]; // Tack on any non-link text
+            return fuzzyMatchValue(valueA, valueB, partial);
         };
 
         if(Array.isArray(objA[keyA])) {

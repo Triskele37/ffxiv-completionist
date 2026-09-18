@@ -32,6 +32,8 @@ import { getChildTask } from './get/getChildTask';
 import { getGroup } from './get/getGroup';
 import { getTask } from './get/getTask';
 import { getTasks } from './get/getTasks';
+import { getLinkedPieces } from './get/getLinkedPieces';
+import { getLinkedTextFull } from './get/getLinkedTextFull';
 import { getLinkedName } from './get/getLinkedName';
 import { logGetMiss } from './get/logGetMiss';
 import { logGetMismatch } from './get/logGetMismatch';
@@ -104,6 +106,8 @@ export class DataService {
     get getGroup() { return getGroup(this); }
     get getTask() { return getTask(this); }
     get getTasks() { return getTasks(this); }
+    get getLinkedPieces() { return getLinkedPieces(this); }
+    get getLinkedTextFull() { return getLinkedTextFull(this); }
     get getLinkedName() { return getLinkedName(this); }
     get logGetMiss() { return logGetMiss(this); }
     get logGetMismatch() { return logGetMismatch(this); }

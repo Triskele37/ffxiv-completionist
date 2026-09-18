@@ -215,21 +215,21 @@
         "x150": {
             "name_en": "Tyrannosaur",
             "name_fr": "Tyrannosaure",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "chest.200",
             "patch": "4.25"
         },
         "x159": {
             "name_en": "Dodo",
             "name_fr": "Dodo",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.COSMIC_EXPLORATION"],
-            "source": ["chest.112", "chest.232"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.OCCULT_CRESCENT"],
+            "source": ["d.540 - chest.112", "chest.232"],
             "patch": "4.35"
         },
         "x178": {
             "name_en": "Eldthurs",
             "name_fr": "Eldthurs",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.206", "chest.207", "chest.230"],
             "patch": "4.45"
         },
@@ -279,7 +279,7 @@
         "x212": {
             "name_en": "Deinonychus",
             "name_fr": "Deinonychus",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.field-operations.bozja.duties.3", "chest.230"],
             "patch": "5.55"
         },
@@ -344,14 +344,14 @@
             "name_en": "Island Peerifool",
             "name_fr": "Peeriefool Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "chest.25",
+            "source": "chest.305",
             "patch": "6.5"
         },
         "x340": {
             "name_en": "Island Adenium",
             "name_fr": "Adenium Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": ["@200 CURRENCY.ISLAND.VEGETAL", "chest.25"],
+            "source": ["@200 CURRENCY.ISLAND.VEGETAL", "chest.305"],
             "patch": "6.5"
         },
         "x388": {
@@ -424,7 +424,7 @@
         "x373": {
             "name_en": "Petalodus",
             "name_fr": "Petalodus",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@99 CURRENCY.FO.SANGUINITE", "chest.230", "chest.231"],
             "patch": "7.25"
         },
@@ -452,7 +452,7 @@
         "x437": {
             "name_en": "Duck-billed Porter",
             "name_fr": "Ornithorynque Porteur",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (500 CURRENCY.FO.ARCANE_AMULET)",
                 "duty.field-operations.occult-crescent.duties.1",
@@ -507,7 +507,7 @@
             "name_en": "Black Pegasus",
             "name_fr": "Pégase Des Ténèbres",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.103",
+            "source": "d.174 - chest.103",
             "patch": "3.4"
         },
         "x83": {
@@ -953,7 +953,7 @@
             "name_en": "Orthos Craklaw",
             "name_fr": "Craqulov Orthos",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.122",
+            "source": "d.897 - chest.122",
             "patch": "6.35"
         },
         "x294": {
@@ -1048,7 +1048,7 @@
             "name_en": "Pilgrim's Protector",
             "name_fr": "Protecteur Des Pèlerins",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "chest.133"],
+            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "d.1032 - chest.133"],
             "patch": "7.35"
         },
         "x397": {
@@ -1112,14 +1112,14 @@
             "name_en": "Ornamental Shrublet",
             "name_fr": "Petit Enfleuri",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.130",
+            "source": "d.1032 - chest.130",
             "patch": "7.35"
         },
         "x395": {
             "name_en": "Forgiven Mimicry",
             "name_fr": "Mimétisme Pardonné",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "chest.133"],
+            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.FIRST_LIGHT_RELIC)", "d.1032 - chest.133"],
             "patch": "7.35"
         },
         "x9": {
@@ -1213,7 +1213,7 @@
         "x435": {
             "name_en": "Colibri Callado",
             "name_fr": "Colibri Silencieux",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["chest.232", "chest.233"],
             "patch": "7.55"
         },
@@ -1278,7 +1278,7 @@
         "x184": {
             "name_en": "Eurekan Petrel",
             "name_fr": "Hirondelle D'Eurêka",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.211", "chest.230"],
             "patch": "4.55"
         },
@@ -1341,7 +1341,7 @@
         "x372": {
             "name_en": "Demon Haul",
             "name_fr": "Muraille Démonique",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": "a.3668",
             "patch": "7.25"
         },
@@ -1580,7 +1580,7 @@
         "x213": {
             "name_en": "Construct 14",
             "name_fr": "Bâtisseur N°14",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["@180 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
@@ -1861,14 +1861,14 @@
         "x224": {
             "name_en": "Gabriel α",
             "name_fr": "Gabriel α",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.220", "chest.230"],
             "patch": "5.35"
         },
         "x241": {
             "name_en": "Gabriel Mark III",
             "name_fr": "Gabriel V3",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.field-operations.bozja.duties.1", "chest.230"],
             "patch": "5.45"
         },
@@ -1926,7 +1926,7 @@
         "x383": {
             "name_en": "Ancient Airship",
             "name_fr": "Aéronef Ancien",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": "@5,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE",
             "patch": "7.25"
         },
@@ -2064,7 +2064,7 @@
         "x193": {
             "name_en": "Magicked Bed",
             "name_fr": "Lit Magique",
-            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.CRAFTING", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.CRP)", "chest.232"],
             "patch": "5.05"
         },

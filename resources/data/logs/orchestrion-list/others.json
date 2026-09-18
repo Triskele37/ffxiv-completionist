@@ -32,7 +32,7 @@
             "name_fr": "Hard to Miss",
             "number": "4",
             "category": ["@CATEGORY.SUBAQUATIC_VOYAGE", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["@VOYAGE.TANGAROAS_PROW", "chest.131"],
+            "source": ["@VOYAGE.TANGAROAS_PROW", "d.1032 - chest.131"],
             "patch": "5.3"
         },
         "x18": {
@@ -175,7 +175,7 @@
             "name_en": "Wicked Winds Whisper",
             "name_fr": "Wicked Winds Whisper",
             "number": "22",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "chest.200",
             "patch": "4.25"
         },
@@ -183,7 +183,7 @@
             "name_en": "No Quarter",
             "name_fr": "No Quarter",
             "number": "23",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "chest.200",
             "patch": "4.25"
         },
@@ -191,7 +191,7 @@
             "name_en": "Gates of Paradise - The Garden of Ru'Hmet",
             "name_fr": "Gates of Paradise - The Garden of Ru'Hmet",
             "number": "24",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "chest.209",
             "patch": "4.55"
         },
@@ -199,7 +199,7 @@
             "name_en": "Onslaught",
             "name_fr": "Onslaught",
             "number": "25",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "chest.212",
             "patch": "4.55"
         },
@@ -207,7 +207,7 @@
             "name_en": "Turmoil",
             "name_fr": "Turmoil",
             "number": "26",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.EUREKA",
             "source": "duty.field-operations.eureka.duties.0",
             "patch": "4.55"
         },
@@ -248,7 +248,7 @@
             "name_fr": "On Our Fates Alight",
             "number": "31",
             "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.DEEP_DUNGEON"],
-            "source": ["duty.treasure-hunt.duties.4", "chest.131"],
+            "source": ["duty.treasure-hunt.duties.4", "d.1032 - chest.131"],
             "patch": "5.2"
         },
         "x377": {
@@ -287,7 +287,7 @@
             "name_en": "Wind on the Plains",
             "name_fr": "Wind on the Plains",
             "number": "36",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "chest.220",
             "patch": "5.35"
         },
@@ -295,7 +295,7 @@
             "name_en": "Blood on the Wind",
             "name_fr": "Blood on the Wind",
             "number": "37",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "@VENDOR.RESISTANCE_SUPPLIER - PLACE.SHB.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.FO.BOZJAN_CLUSTER)",
             "patch": "5.35"
         },
@@ -303,7 +303,7 @@
             "name_en": "Discord: Imperial (Zodiac Age Version)",
             "name_fr": "Discord: Imperial (Zodiac Age Version)",
             "number": "38",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "@VENDOR.RESISTANCE_SUPPLIER - PLACE.SHB.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.FO.BOZJAN_CLUSTER)",
             "patch": "5.35"
         },
@@ -311,7 +311,7 @@
             "name_en": "Into the Fortress (Zodiac Age Version)",
             "name_fr": "Into the Fortress (Zodiac Age Version)",
             "number": "39",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.0",
             "patch": "5.35"
         },
@@ -319,7 +319,7 @@
             "name_en": "Battle with an Esper (Zodiac Age Version)",
             "name_fr": "Battle with an Esper (Zodiac Age Version)",
             "number": "40",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.0",
             "patch": "5.35"
         },
@@ -327,7 +327,7 @@
             "name_en": "Life and Death (Zodiac Age Version)",
             "name_fr": "Life and Death (Zodiac Age Version)",
             "number": "41",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.0",
             "patch": "5.35"
         },
@@ -335,7 +335,7 @@
             "name_en": "The Sochen Cave Palace (Zodiac Age Version)",
             "name_fr": "The Sochen Cave Palace (Zodiac Age Version)",
             "number": "42",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.1",
             "patch": "5.45"
         },
@@ -343,7 +343,7 @@
             "name_en": "Giving Chase (Zodiac Age Version)",
             "name_fr": "Giving Chase (Zodiac Age Version)",
             "number": "43",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.1",
             "patch": "5.45"
         },
@@ -351,7 +351,7 @@
             "name_en": "The Queen Awakens",
             "name_fr": "The Queen Awakens",
             "number": "44",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.1",
             "patch": "5.45"
         },
@@ -359,7 +359,7 @@
             "name_en": "Wrath of the Harrier",
             "name_fr": "Wrath of the Harrier",
             "number": "45",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "duty.field-operations.bozja.duties.3",
             "patch": "5.55"
         },
@@ -431,7 +431,7 @@
             "name_en": "Town Theme (Dawntrail)",
             "name_fr": "Town Theme (Dawntrail)",
             "number": "54",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE)",
                 "chest.230"
@@ -442,7 +442,7 @@
             "name_en": "Garden Relics",
             "name_fr": "Garden Relics",
             "number": "55",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.FO.ENLIGHTENMENT_GOLD_PIECE)",
                 "chest.230"
@@ -453,7 +453,7 @@
             "name_en": "Garden Ruins",
             "name_fr": "Garden Ruins",
             "number": "56",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,600 CURRENCY.FO.ENLIGHTENMENT_GOLD_PIECE)",
                 "chest.230"
@@ -464,7 +464,7 @@
             "name_en": "FINAL FANTASY V: Battle 1 (Dawntrail)",
             "name_fr": "FINAL FANTASY V: Battle 1 (Dawntrail)",
             "number": "57",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (10 CURRENCY.FO.SANGUINITE)",
             "patch": "7.25"
         },
@@ -472,7 +472,7 @@
             "name_en": "A New World (Dawntrail)",
             "name_fr": "A New World (Dawntrail)",
             "number": "58",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (1,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_PIECE)",
                 "chest.230"
@@ -483,7 +483,7 @@
             "name_en": "Exdeath's Castle (Dawntrail)",
             "name_fr": "Exdeath's Castle (Dawntrail)",
             "number": "59",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (10 CURRENCY.FO.SANGUINITE)",
             "patch": "7.25"
         },
@@ -563,7 +563,7 @@
             "name_en": "Dungeon (Dawntrail)",
             "name_fr": "Dungeon (Dawntrail)",
             "number": "69",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_OBOL)",
                 "chest.232"
@@ -574,7 +574,7 @@
             "name_en": "Sealed Away (Dawntrail)",
             "name_fr": "Sealed Away (Dawntrail)",
             "number": "70",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,000 CURRENCY.FO.ENLIGHTENMENT_SILVER_OBOL)",
                 "chest.230",
@@ -586,7 +586,7 @@
             "name_en": "To the North Mountain (Dawntrail)",
             "name_fr": "To the North Mountain (Dawntrail)",
             "number": "71",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": [
                 "@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (1,600 CURRENCY.FO.ENLIGHTENMENT_GOLD_OBOL)",
                 "chest.232"

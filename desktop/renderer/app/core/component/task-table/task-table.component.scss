@@ -43,9 +43,6 @@
                 overflow: hidden;
 
                 ::ng-deep .p-button {
-                    // Ensure buttons take the width of their cell
-                    //width: 100%;
-
                     .p-button-label {
                         @extend %ellipsis-overflow;
                         text-align: left;

@@ -26,7 +26,7 @@
         "x66": {
             "name_en": "Modern Aesthetics - Early to Rise",
             "name_fr": "Méthode de coiffure “Lêve-tôt”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": [
                 "duty.field-operations.bozja.duties.1",
                 "@VENDOR.RESISTANCE_SUPPLIER (5 CURRENCY.FO.BOZJAN_GOLD_COIN & 30 CURRENCY.FO.BOZJAN_PLATINUM_COIN)",
@@ -107,8 +107,8 @@
         "x267": {
             "name_en": "Modern Aesthetics - Gyr Abanian Plait",
             "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
-            "source": ["chest.110", "chest.232"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.OCCULT_CRESCENT"],
+            "source": ["d.540 - chest.110", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.35"
         },
@@ -129,7 +129,7 @@
         "x281": {
             "name_en": "Modern Aesthetics - Wind Caller",
             "name_fr": "Méthode de coiffure “Vartan”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["@150 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.35"
@@ -161,8 +161,8 @@
         "x302": {
             "name_en": "Modern Aesthetics - Samsonian Locks",
             "name_fr": "Méthode de coiffure “Cheveux longs”",
-            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.FIELD_OPERATION"],
-            "source": ["chest.100", "chest.101", "chest.102", "chest.232"],
+            "category": ["@CATEGORY.DEEP_DUNGEON", "@CATEGORY.OCCULT_CRESCENT"],
+            "source": ["d.174 - chest.100 / chest.101 / chest.102", "chest.232"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "3.4"
         },
@@ -211,7 +211,7 @@
         "x397": {
             "name_en": "Modern Aesthetics - Form and Function",
             "name_fr": "Méthode de coiffure “Tresse bandeau”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.206", "chest.207", "chest.230"],
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.45"
@@ -243,7 +243,7 @@
         "x419": {
             "name_en": "Modern Aesthetics - Both Ways",
             "name_fr": "Méthode de coiffure “Queue-de-cheval sur le côté”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.221", "chest.230"],
             "patch": "5.55"
         },
@@ -298,7 +298,7 @@
             "name_en": "Modern Aesthetics - A Close Shave",
             "name_fr": "Méthode de coiffure “Coupe à ras”",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.120",
+            "source": "d.897 - chest.120",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.35"
         },
@@ -374,7 +374,7 @@
         "x539": {
             "name_en": "Modern Aesthetics - Fulsome Forelocks",
             "name_fr": "Méthode de coiffure “Coupe au bol”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.230"],
             "patch": "7.25"
         },
@@ -382,7 +382,7 @@
             "name_en": "Modern Aesthetics - Simple and Clean",
             "name_fr": "Méthode de coiffure “Simple et lisse”",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)", "chest.130", "chest.131", "chest.132"],
+            "source": ["@VENDOR.OSE_WYD (99 CURRENCY.DD.LUMINOUS_OIL)", "d.1032 - chest.130 / chest.131 / chest.132"],
             "patch": "7.35"
         },
         "x551": {
@@ -442,7 +442,7 @@
         "x638": {
             "name_en": "Modern Aesthetics - Bun and the Beautiful",
             "name_fr": "Méthode de coiffure “Chignon tressé”",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.232"],
             "patch": "7.55"
         }

@@ -609,7 +609,7 @@
             "name_fr": "Grelotter",
             "command_en": "/shiver",
             "command_fr": "/shiver, /grelotter",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.204", "chest.230"],
             "patch": "4.4"
         },
@@ -636,7 +636,7 @@
             "name_fr": "Confirmer",
             "command_en": "/confirm",
             "command_fr": "/confirm, /confirmer",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": [
                 "duty.treasure-hunt.duties.1",
                 "duty.treasure-hunt.duties.2",
@@ -650,7 +650,7 @@
             "name_fr": "Expliquer son plan",
             "command_en": "/scheme",
             "command_fr": "/scheme, /expliquerplan",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.208", "chest.230", "chest.232"],
             "patch": "4.45"
         },
@@ -697,7 +697,7 @@
             "name_fr": "Monter la garde",
             "command_en": "/guard",
             "command_fr": "/guard, /monterlagarde",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["@50 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230"],
             "patch": "5.35"
         },
@@ -706,7 +706,7 @@
             "name_fr": "Pose de l'occultiste",
             "command_en": "/malevolence",
             "command_fr": "/malevolence, /occultiste",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["@50 CURRENCY.FO.BOZJAN_CLUSTER", "chest.230", "chest.232"],
             "patch": "5.45"
         },
@@ -715,7 +715,7 @@
             "name_fr": "Se frotter les mains",
             "command_en": "/wringhands",
             "command_fr": "/wringhands, /sefrotterlesmains, /frottmains",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.BOZJA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.221", "chest.230", "chest.232"],
             "patch": "5.55"
         },
@@ -914,7 +914,7 @@
             "name_fr": "Regarder en arrière",
             "command_en": "/lookback",
             "command_fr": "/lookback, /regarderenarrière, /regarr",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.233"],
             "patch": "7.55"
         },

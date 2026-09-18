@@ -239,7 +239,7 @@
             "name_fr": "Poing en l'air",
             "command_en": "/fistpump",
             "command_fr": "/fistpump, /poingair",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": ["@CATEGORY.EUREKA", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["chest.212", "chest.232"],
             "patch": "4.55"
         },
@@ -288,7 +288,7 @@
             "name_fr": "Pinceau chocobo : noir",
             "command_en": "/paintblack",
             "command_fr": "/paintblack, /pinchoconoir, /pinceaunoir",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [225, 226, 227]
@@ -298,7 +298,7 @@
             "name_fr": "Pinceau chocobo : rouge",
             "command_en": "/paintred",
             "command_fr": "/paintred, /pinchocorouge, /pinceaurouge",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 226, 227]
@@ -308,7 +308,7 @@
             "name_fr": "Pinceau chocobo : jaune",
             "command_en": "/paintyellow",
             "command_fr": "/paintyellow, /pinchocojaune, /pinceaujaune",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 225, 227]
@@ -318,7 +318,7 @@
             "name_fr": "Pinceau chocobo : bleu",
             "command_en": "/paintblue",
             "command_fr": "/paintblue, /pinchocobleu, /pinceaubleu",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.5", "chest.232"],
             "patch": "5.4",
             "cSiblings": [224, 225, 226]
@@ -1013,7 +1013,7 @@
             "name_fr": "Pirouette",
             "command_en": "/twirl",
             "command_fr": "/twirl, /pirouette",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.231"],
             "patch": "7.25"
         },

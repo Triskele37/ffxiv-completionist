@@ -71,7 +71,7 @@
         "x8": {
             "name_en": "Classy Checkered Parasol",
             "name_fr": "Ombrelle À Carreaux Noire",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "chest.220",
             "patch": "5.35"
         },
@@ -85,7 +85,7 @@
         "x11": {
             "name_en": "Pleasant Dot Parasol",
             "name_fr": "Ombrelle Bleue À Pois",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.BOZJA",
             "source": "@25 CURRENCY.FO.BOZJAN_CLUSTER",
             "patch": "5.45"
         },
@@ -160,7 +160,7 @@
             "name_en": "Raindrop Defense System",
             "name_fr": "Système De Protection Anti-gouttes",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.120",
+            "source": "d.897 - chest.120",
             "patch": "6.35"
         },
         "x34": {
@@ -232,14 +232,14 @@
         "x45": {
             "name_en": "Black Embroidered Parasol",
             "name_fr": "Ombrelle À Dentelles Noire",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.231"],
             "patch": "7.25"
         },
         "x46": {
             "name_en": "White Embroidered Parasol",
             "name_fr": "Ombrelle À Dentelles Blanche",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.231"],
             "patch": "7.25"
         },
@@ -261,14 +261,14 @@
             "name_en": "Pixie Parasol",
             "name_fr": "Ombrelle Pixie",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": ["@VENDOR.OSE_WYD (30 CURRENCY.DD.FIRST_LIGHT_RELIC)", "chest.130", "chest.132"],
+            "source": ["@VENDOR.OSE_WYD (30 CURRENCY.DD.FIRST_LIGHT_RELIC)", "d.1032 - chest.130 / chest.132"],
             "patch": "7.35"
         },
         "x51": {
             "name_en": "Blue Pixie Parasol",
             "name_fr": "Ombrelle Pixie Bleue",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.133",
+            "source": "d.1032 - chest.133",
             "patch": "7.35"
         },
         "x53": {
@@ -303,7 +303,7 @@
         "x18": {
             "name_en": "Archangel Wings",
             "name_fr": "Ailes D'archange",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.COSMIC_EXPLORATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.6", "chest.232"],
             "patch": "6.05"
         },
@@ -367,7 +367,7 @@
         "x58": {
             "name_en": "Antique Lantern",
             "name_fr": "Lanterne Ancienne",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.233"],
             "patch": "7.55"
         },

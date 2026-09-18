@@ -48,11 +48,11 @@ export function searchTasksForTerm(service: SearchService) {
 
                         if(Array.isArray(task[key])) {
                             value = task[key]
-                                .map((path) => service.svcData.getLinkedName(path, !!link))
+                                .map((path) => service.svcData.getLinkedTextFull(path, !!link))
                                 .join(', ');
                         }
                         else {
-                            value = service.svcData.getLinkedName(task[key], !!link).toString();
+                            value = service.svcData.getLinkedTextFull(task[key], !!link).toString();
                         }
 
                         matches.push({ header, value, task });

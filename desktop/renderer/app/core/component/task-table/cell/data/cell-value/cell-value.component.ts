@@ -6,9 +6,8 @@ import { Tooltip } from 'primeng/tooltip';
 import { ContentLinkComponent } from '@component/content-link/content-link.component';
 import type { Column } from '@model/Column';
 import type { Task } from '@model/Task';
+import type { LinkData } from '@service/data/types';
 import { TableService } from '@service/table/table.service';
-
-import type { LinkData } from '../LinkData';
 
 @Component({
     selector: 'com-cell-value',
@@ -26,7 +25,7 @@ export class CellValueComponent {
 
     @Input({ required: true }) column!: Column;
     @Input({ required: true }) task!: Task;
-    @Input({ required: true }) value!: LinkData;
+    @Input({ required: true }) values!: LinkData[];
 
     tooltip = signal<string | undefined>(undefined);
 
@@ -40,14 +39,16 @@ export class CellValueComponent {
     }
 
     updateTooltip(): void {
-        if(this.value.type !== 'Value') {
+        if(this.values.length > 1 || this.values[0]?.type !== 'Value') {
             if(this.tooltip()) this.tooltip.set(undefined);
             return;
         }
 
         const { clientWidth, scrollWidth } = this.observerTarget;
         const overflows = clientWidth !== scrollWidth;
-        this.tooltip.set(overflows ? this.value.value : undefined);
+
+        this.tooltip.set(overflows ? this.values[0].value : undefined);
     }
 
+    protected readonly Array = Array;
 }

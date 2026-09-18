@@ -50,7 +50,7 @@
         "x4": {
             "name_en": "Simple Spectacles",
             "name_fr": "Lunettes basiques",
-            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.OCCULT_CRESCENT"],
             "source": [
                 "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
                 "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
@@ -62,7 +62,7 @@
         "x5": {
             "name_en": "Monocle",
             "name_fr": "Monocle",
-            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.PURCHASE", "@CATEGORY.OCCULT_CRESCENT"],
             "source": [
                 "@VENDOR.BANGO_ZANGO (3,000 CURRENCY.GIL)",
                 "@VENDOR.ROARICH (3,000 CURRENCY.GIL)",
@@ -144,14 +144,14 @@
         "x16": {
             "name_en": "Cat Eye Glasses",
             "name_fr": "Lunettes œil-de-chat",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.8", "chest.230"],
             "patch": "7.1"
         },
         "x17": {
             "name_en": "Slim Frame Glasses",
             "name_fr": "Lunettes à monture fine",
-            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.FIELD_OPERATION"],
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.OCCULT_CRESCENT"],
             "source": ["duty.treasure-hunt.duties.8", "chest.230"],
             "patch": "7.1"
         },
@@ -229,7 +229,7 @@
         "x27": {
             "name_en": "Rectangular Glasses",
             "name_fr": "Lunettes à verres dégradés",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.SOUTH_HORN (30 CURRENCY.FO.SANGUINITE)", "chest.230"],
             "patch": "7.25"
         },
@@ -293,7 +293,7 @@
             "name_en": "Cat Eye Reading Glasses",
             "name_fr": "Lunettes de lecture œil de chat",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "chest.132",
+            "source": "d.1032 - chest.132",
             "patch": "7.35"
         },
         "x38": {
@@ -403,7 +403,7 @@
         "x52": {
             "name_en": "Simple Oval Spectacles",
             "name_fr": "Lunettes ovales basiques",
-            "category": "@CATEGORY.FIELD_OPERATION",
+            "category": "@CATEGORY.OCCULT_CRESCENT",
             "source": ["@VENDOR.EXPEDITION_ANTIQUARIAN - PLACE.DT.NORTH_HORN (40 CURRENCY.FO.ARCANE_AMULET)", "chest.232"],
             "patch": "7.55"
         },

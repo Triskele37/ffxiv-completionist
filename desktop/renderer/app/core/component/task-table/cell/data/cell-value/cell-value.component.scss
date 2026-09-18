@@ -6,9 +6,9 @@
     .cell-value {
     }
 
-    // Align non-link first nodes to same link padding
-    .cell-value:has(> :first-child:not(com-content-link)) {
-        padding: calc(var(--content-padding) * .75) var(--content-padding);
+    // Remove excess left padding if first element is link
+    .cell-value com-content-link:first-child ::ng-deep .content-link {
+        padding-left: 0;
     }
 
     .cell-value.text-only {
@@ -17,5 +17,7 @@
     }
 
     .cell-value.link {
+        display: flex;
+        align-items: center;
     }
 }

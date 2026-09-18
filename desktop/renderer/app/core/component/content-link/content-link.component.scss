@@ -6,6 +6,8 @@
     .content-link {
         display: inline-block;
         max-width: 100%;
+        border: unset;
+
 
         @extend %ellipsis-overflow;
     }
