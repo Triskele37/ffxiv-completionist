@@ -1,0 +1,1154 @@
+{
+    "key": "spellbook",
+    "groupName_en": "Spellbook",
+    "groupName_fr": "Codex bleu",
+    "columns": {
+        "number": {
+            "header": "@HEADER.NUMBER",
+            "width": 100
+        },
+        "name": {
+            "header_en": "Spell",
+            "header_fr": "Sort"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY",
+            "filterable": true,
+            "oneLineTextList": true
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Water Cannon",
+            "name_fr": "Tir d'eau",
+            "number": "1",
+            "source_en": "Starting Spell",
+            "source_fr": "Sort de départ",
+            "patch": "4.5"
+        },
+        "x1": {
+            "name_en": "Flame Thrower",
+            "name_fr": "Crache-flammes",
+            "number": "2",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.RAID"],
+            "source": ["@ENEMY.GOBMACHINE_GVI - d.20", "@ENEMY.MAGITEK_GUNSHIP - d.32", "@ENEMY.OMEGA - d.589"],
+            "patch": "4.5"
+        },
+        "x2": {
+            "name_en": "Aqua Breath",
+            "name_fr": "Aquasouffle",
+            "number": "3",
+            "category": ["@CATEGORY.TRIAL", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.ULTROS - d.81",
+                "@ENEMY.LEVIATHAN - d.72",
+                "@ENEMY.ULTROS - character.blue-mage.the-masked-carnivale.19"
+            ],
+            "patch": "4.5"
+        },
+        "x3": {
+            "name_en": "Flying Frenzy",
+            "name_fr": "Démence",
+            "number": "4",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.ZU - d.17",
+            "patch": "4.5"
+        },
+        "x4": {
+            "name_en": "Drill Cannons",
+            "name_fr": "Canon-foreur",
+            "number": "5",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.MAGITEK_VANGUARD_H2 - PLACE.ARR.NORTHERN_THANALAN (16, 15)",
+                "@ENEMY.MAGITEK_VANGUARD_H1 - d.15",
+                "@ENEMY.MAGITEK_VANGUARD - d.15",
+                "@ENEMY.MAGITEK_VANGOB_GIII - d.20"
+            ],
+            "patch": "4.5"
+        },
+        "x5": {
+            "name_en": "High Voltage",
+            "name_fr": "Haute tension",
+            "number": "6",
+            "category": ["@CATEGORY.RAID", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.ADS - d.93",
+                "@ENEMY.ADS - d.94",
+                "@ENEMY.BESTIAL_NODE - character.blue-mage.the-masked-carnivale.14"
+            ],
+            "patch": "4.5"
+        },
+        "x6": {
+            "name_en": "Loom",
+            "name_fr": "Approche masquée",
+            "number": "7",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.FLAME_SERGEANT_DALVAG - PLACE.ARR.NORTHERN_THANALAN",
+                "@ENEMY.DANTALION - d.24",
+                "@ENEMY.PHANTOM_KNIGHT - d.24",
+                "@ENEMY.BAALZEPHON - d.22"
+            ],
+            "patch": "4.5"
+        },
+        "x7": {
+            "name_en": "Final Sting",
+            "name_fr": "Dard final",
+            "number": "8",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.KILLER_WESPE - PLACE.ARR.MIDDLE_LA_NOSCEA (15, 15)", "@ENEMY.TEMPLE_BEE - d.9"],
+            "patch": "4.5"
+        },
+        "x8": {
+            "name_en": "Song of Torment",
+            "name_fr": "Chant de l'agonie",
+            "number": "9",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.SIREN - d.17",
+            "patch": "4.5"
+        },
+        "x9": {
+            "name_en": "Glower",
+            "name_fr": "Regard noir",
+            "number": "10",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.COINCOUNTER - d.5",
+            "patch": "4.5"
+        },
+        "x10": {
+            "name_en": "Plaincracker",
+            "name_fr": "Brise-plaine",
+            "number": "11",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.CLAY_GOLEM - PLACE.ARR.NORTH_SHROUD (19, 29)",
+                "@ENEMY.SANDSTONE_GOLEM - PLACE.ARR.SOUTHERN_THANALAN (24, 13)",
+                "@ENEMY.BASALT_GOLEM - PLACE.ARR.OUTER_LA_NOSCEA (16, 16)",
+                "@ENEMY.GOGMAGOLEM - d.18",
+                "@ENEMY.AZULMAGIA - character.blue-mage.the-masked-carnivale.24"
+            ],
+            "patch": "4.5"
+        },
+        "x11": {
+            "name_en": "Bristle",
+            "name_fr": "Hérissement",
+            "number": "12",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.QUEST"],
+            "source": ["@ENEMY.WILD_BOAR - PLACE.ARR.EAST_SHROUD (18, 24)", "@ENEMY.ANGRY_SOW - q.501"],
+            "patch": "4.5"
+        },
+        "x12": {
+            "name_en": "White Wind",
+            "name_fr": "Vent blanc",
+            "number": "13",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 10 Spells",
+            "source_fr": "Apprendre 10 sorts",
+            "patch": "4.5"
+        },
+        "x13": {
+            "name_en": "Level 5 Petrify",
+            "name_fr": "Pétrification niveau 5",
+            "number": "14",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.MANOR_SENTRY - d.6",
+            "patch": "4.5"
+        },
+        "x14": {
+            "name_en": "Sharpened Knife",
+            "name_fr": "Couteau aiguisé",
+            "number": "15",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.TONBERRY_KING - d.10",
+            "patch": "4.5"
+        },
+        "x15": {
+            "name_en": "Ice Spikes",
+            "name_fr": "Pointes de glace",
+            "number": "16",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.TRICKSTER_IMP - PLACE.ARR.CENTRAL_SHROUD (27, 24)",
+                "@ENEMY.VANDALOUS_IMP - PLACE.ARR.EASTERN_THANALAN (15, 19)",
+                "@ENEMY.MANOR_JESTER - d.6",
+                "@ENEMY.AZULMAGIA - character.blue-mage.the-masked-carnivale.24"
+            ],
+            "patch": "4.5"
+        },
+        "x16": {
+            "name_en": "Blood Drain",
+            "name_fr": "Suceur de sang",
+            "number": "17",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.CHIGOE - PLACE.ARR.CENTRAL_SHROUD (25, 20)",
+                "@ENEMY.CAVE_BAT - PLACE.ARR.LOWER_LA_NOSCEA (27, 16)",
+                "@ENEMY.SUN_BAT - PLACE.ARR.CENTRAL_THANALAN (26, 18)",
+                "@ENEMY.DUSK_BAT - PLACE.ARR.WESTERN_LA_NOSCEA (27, 24)",
+                "@ENEMY.BLACK_BAT - PLACE.ARR.EAST_SHROUD (17, 23)",
+                "@ENEMY.ATTIC_BAT - d.6",
+                "@ENEMY.SAND_BAT - d.12"
+            ],
+            "patch": "4.5"
+        },
+        "x17": {
+            "name_en": "Acorn Bomb",
+            "name_fr": "Gland explosif",
+            "number": "18",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.TREANT_SAPLING - PLACE.ARR.NORTH_SHROUD (27, 28)",
+                "@ENEMY.TREANT_SAPLING - PLACE.ARR.CENTRAL_SHROUD (27, 15)",
+                "@ENEMY.TREANT_SAPLING - PLACE.ARR.EAST_SHROUD (13, 25)"
+            ],
+            "patch": "4.5"
+        },
+        "x18": {
+            "name_en": "Bomb Toss",
+            "name_fr": "Lancer de bombe",
+            "number": "19",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.GOBLIN_FISHER - PLACE.ARR.MIDDLE_LA_NOSCEA (23, 21)",
+                "@ENEMY.GOBLIN_GAMBLER - PLACE.ARR.MIDDLE_LA_NOSCEA (23, 21)",
+                "@ENEMY.GOBLIN_GLIDER - PLACE.HW.THE_DRAVANIAN_HINTERLANDS (29, 23)",
+                "@ENEMY.GOBLIN_BRANDISHER - PLACE.HW.THE_DRAVANIAN_HINTERLANDS (29, 23)",
+                "@ENEMY.ILLUMINATI_COMMANDER - d.20"
+            ],
+            "patch": "4.5"
+        },
+        "x19": {
+            "name_en": "Off-guard",
+            "name_fr": "Sans défense",
+            "number": "20",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 5 Spells",
+            "source_fr": "Apprendre 5 sorts",
+            "patch": "4.5"
+        },
+        "x20": {
+            "name_en": "Self-destruct",
+            "name_fr": "Auto-destruction",
+            "number": "21",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.GLIDE_BOMB - PLACE.ARR.WESTERN_THANALAN (27, 16)",
+                "@ENEMY.BLASTING_CAP - d.3",
+                "@ENEMY.FLAMBEAU - d.3",
+                "@ENEMY.GAS_BOMB - d.7",
+                "@ENEMY.SHRAPNEL - d.12",
+                "@ENEMY.ARENA_CHERRY_BOMB - character.blue-mage.the-masked-carnivale.7"
+            ],
+            "patch": "4.5"
+        },
+        "x21": {
+            "name_en": "Transfusion",
+            "name_fr": "Fusion",
+            "number": "22",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 20 Spells",
+            "source_fr": "Apprendre 20 sorts",
+            "patch": "4.5"
+        },
+        "x22": {
+            "name_en": "Faze",
+            "name_fr": "Désorientation",
+            "number": "23",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.QIQIRN_SHELLSWEEPER - PLACE.ARR.CENTRAL_THANALAN (16, 19)",
+                "@ENEMY.QIQIRN_EGGDIGGER - PLACE.ARR.LOWER_LA_NOSCEA (18, 35)",
+                "@ENEMY.QIQIRN_GULLROASTER - PLACE.ARR.EASTERN_LA_NOSCEA (26, 32)"
+            ],
+            "patch": "4.5"
+        },
+        "x23": {
+            "name_en": "Flying Sardine",
+            "name_fr": "Sardine volante",
+            "number": "24",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.APKALLU - PLACE.ARR.EASTERN_LA_NOSCEA (27, 35)",
+            "patch": "4.5"
+        },
+        "x24": {
+            "name_en": "Snort",
+            "name_fr": "Souffle nasal",
+            "number": "25",
+            "category": ["@CATEGORY.TRIAL", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.TYPHON - d.81",
+                "@ENEMY.TYPHON - character.blue-mage.the-masked-carnivale.20",
+                "@ENEMY.TYPHON - character.blue-mage.the-masked-carnivale.26"
+            ],
+            "patch": "4.5"
+        },
+        "x25": {
+            "name_en": "4-Tonze Weight",
+            "name_fr": "Poids de 4 tonz",
+            "number": "26",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.ULTROS - d.81",
+            "patch": "4.5"
+        },
+        "x26": {
+            "name_en": "The Look",
+            "name_fr": "Regard intense",
+            "number": "27",
+            "category": ["@CATEGORY.QUEST", "@CATEGORY.DUNGEON", "@CATEGORY.RAID"],
+            "source": ["@ENEMY.DENIZEN_OF_THE_DARK - q.657", "@ENEMY.ANANTABOGA - d.14", "@ENEMY.BIBLIOLATER - d.196"],
+            "patch": "4.5"
+        },
+        "x27": {
+            "name_en": "Bad Breath",
+            "name_fr": "Mauvaise haleine",
+            "number": "28",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.STROPER - PLACE.ARR.CENTRAL_SHROUD (13, 21)",
+                "@ENEMY.HALITOSTROPER - PLACE.ARR.CENTRAL_SHROUD (15, 21)",
+                "@ENEMY.STROPER - PLACE.ARR.SOUTH_SHROUD (20, 28)",
+                "@ENEMY.MORBOL - PLACE.ARR.MOR_DHONA (14, 13)",
+                "@ENEMY.MORBOL - d.5",
+                "@ENEMY.REFLECTIVE_REBEKKAH - character.blue-mage.the-masked-carnivale.18"
+            ],
+            "patch": "4.5"
+        },
+        "x28": {
+            "name_en": "Diamondback",
+            "name_fr": "Blindage",
+            "number": "29",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.CUCA_FERA - d.25",
+            "patch": "4.5"
+        },
+        "x29": {
+            "name_en": "Mighty Guard",
+            "name_fr": "Garde puissante",
+            "number": "30",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 10 Spells",
+            "source_fr": "Apprendre 10 sorts",
+            "patch": "4.5"
+        },
+        "x30": {
+            "name_en": "Sticky Tongue",
+            "name_fr": "Langue poisseuse",
+            "number": "31",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.TOXIC_TOAD - PLACE.ARR.CENTRAL_THANALAN (27, 19)",
+                "@ENEMY.LAUGHING_TOAD - PLACE.ARR.WESTERN_THANALAN (15, 7)",
+                "@ENEMY.GIGANTOAD - PLACE.ARR.EASTERN_LA_NOSCEA (18, 26)"
+            ],
+            "patch": "4.5"
+        },
+        "x31": {
+            "name_en": "Toad Oil",
+            "name_fr": "Huile de crapaud",
+            "number": "32",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.GIGGLING_GIGANTOAD - PLACE.ARR.WESTERN_THANALAN (15, 7)",
+            "patch": "4.5"
+        },
+        "x32": {
+            "name_en": "The Ram's Voice",
+            "name_fr": "Voix du bélier",
+            "number": "33",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.TRIAL", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.CHIMERA - d.12",
+                "@ENEMY.DHORME_CHIMERA - d.74",
+                "@ENEMY.APADEMAK - character.blue-mage.the-masked-carnivale.20",
+                "@ENEMY.AZULMAGIA - character.blue-mage.the-masked-carnivale.24"
+            ],
+            "patch": "4.5"
+        },
+        "x33": {
+            "name_en": "The Dragon's Voice",
+            "name_fr": "Voix du dragon",
+            "number": "34",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.TRIAL", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": [
+                "@ENEMY.CHIMERA - d.12",
+                "@ENEMY.DHORME_CHIMERA - d.74",
+                "@ENEMY.APADEMAK - character.blue-mage.the-masked-carnivale.20",
+                "@ENEMY.AZULMAGIA - character.blue-mage.the-masked-carnivale.24"
+            ],
+            "patch": "4.5"
+        },
+        "x34": {
+            "name_en": "Missile",
+            "name_fr": "Missile",
+            "number": "35",
+            "category": ["@CATEGORY.TRIAL", "@CATEGORY.RAID"],
+            "source": ["@ENEMY.ENKIDU - d.85", "@ENEMY.GUARDIAN - d.288"],
+            "patch": "4.5"
+        },
+        "x35": {
+            "name_en": "1000 Needles",
+            "name_fr": "1000 aiguilles",
+            "number": "36",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.QUEST", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.SABOTENDER_BAILAOR - PLACE.ARR.SOUTHERN_THANALAN (16, 15)",
+                "@ENEMY.SABOTENDER_BAILAOR - q.614",
+                "@ENEMY.SABOTENDER_DESERTOR - d.12"
+            ],
+            "patch": "4.5"
+        },
+        "x36": {
+            "name_en": "Ink Jet",
+            "name_fr": "Tir d'encre",
+            "number": "37",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.KRAKEN - d.28",
+            "patch": "4.5"
+        },
+        "x37": {
+            "name_en": "Fire Angon",
+            "name_fr": "Angon enflammé",
+            "number": "38",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.FRUMINOUS_KOHEEL_JA - d.30",
+            "patch": "4.5"
+        },
+        "x38": {
+            "name_en": "Moon Flute",
+            "name_fr": "Flûte lunaire",
+            "number": "39",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Complete 10 Stages in the Masked Carnivale",
+            "source_fr": "Compléter 10 épreuves de la Grande Masquarade",
+            "patch": "4.5"
+        },
+        "x39": {
+            "name_en": "Tail Screw",
+            "name_fr": "Queue forante",
+            "number": "40",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.RAID"],
+            "source": [
+                "@ENEMY.CRAG_CLAW - PLACE.SB.THE_PEAKS (25, 11)",
+                "@ENEMY.KARLABOS - d.28",
+                "@ENEMY.REFLECTION_OF_KARLABOS - d.238",
+                "@ENEMY.CLAY_CLAW - d.114"
+            ],
+            "patch": "4.5"
+        },
+        "x40": {
+            "name_en": "Mind Blast",
+            "name_fr": "Explosion mentale",
+            "number": "41",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.GALVANTH - d.2",
+            "patch": "4.5"
+        },
+        "x41": {
+            "name_en": "Doom",
+            "name_fr": "Glas",
+            "number": "42",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Complete 20 Stages in the Masked Carnivale",
+            "source_fr": "Compléter 20 épreuves de la Grande Masquarade",
+            "patch": "4.5"
+        },
+        "x42": {
+            "name_en": "Peculiar Light",
+            "name_fr": "Lumière sinistre",
+            "number": "43",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.LENTIC_MUDPUPPY - PLACE.ARR.MOR_DHONA (13, 10)",
+                "@ENEMY.LOCH_NANKA - PLACE.SB.THE_LOCHS (17, 20)",
+                "@ENEMY.SURF_EFT - d.8",
+                "@ENEMY.HELLBENDER - d.8"
+            ],
+            "patch": "4.5"
+        },
+        "x43": {
+            "name_en": "Feather Rain",
+            "name_fr": "Pluie de plumes",
+            "number": "44",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.GARUDA - d.65",
+            "patch": "4.5"
+        },
+        "x44": {
+            "name_en": "Eruption",
+            "name_fr": "Éruption",
+            "number": "45",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.IFRIT - d.56",
+            "patch": "4.5"
+        },
+        "x45": {
+            "name_en": "Mountain Buster",
+            "name_fr": "Casse-montagnes",
+            "number": "46",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.TITAN - d.60",
+            "patch": "4.5"
+        },
+        "x46": {
+            "name_en": "Shock Strike",
+            "name_fr": "Frappe de choc",
+            "number": "47",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.RAMUH - d.77",
+            "patch": "4.5"
+        },
+        "x47": {
+            "name_en": "Glass Dance",
+            "name_fr": "Danse de glace",
+            "number": "48",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.SHIVA - d.80",
+            "patch": "4.5"
+        },
+        "x48": {
+            "name_en": "Veil Of The Whorl",
+            "name_fr": "Voile du Déchaîneur",
+            "number": "49",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.LEVIATHAN - d.72",
+            "patch": "4.5"
+        },
+        "x49": {
+            "name_en": "Alpine Draft",
+            "name_fr": "Vent alpin",
+            "number": "50",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.GRIFFIN - PLACE.HW.THE_SEA_OF_CLOUDS (36, 9)",
+                "@ENEMY.TRUE_GRIFFIN - PLACE.SB.THE_PEAKS (27, 25)",
+                "@ENEMY.OPINICUS - d.36"
+            ],
+            "patch": "5.15"
+        },
+        "x50": {
+            "name_en": "Protean Wave",
+            "name_fr": "Vague inconstante",
+            "number": "51",
+            "category": ["@CATEGORY.RAID", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": ["@ENEMY.LIVING_LIQUID - d.114", "@ENEMY.SHIKIGAMI - character.blue-mage.the-masked-carnivale.28"],
+            "patch": "5.15"
+        },
+        "x51": {
+            "name_en": "Northerlies",
+            "name_fr": "Aquilons",
+            "number": "52",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.LONE_YETI - PLACE.HW.COERTHAS_WESTERN_HIGHLANDS (22, 27)",
+                "@ENEMY.SLATE_YETI - PLACE.HW.COERTHAS_WESTERN_HIGHLANDS (17, 27)",
+                "@ENEMY.YETI - d.27"
+            ],
+            "patch": "5.15"
+        },
+        "x52": {
+            "name_en": "Electrogenesis",
+            "name_fr": "Électrogenèse",
+            "number": "53",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.CONODONT - PLACE.HW.THE_SEA_OF_CLOUDS (26, 33)", "@ENEMY.HIKAGIRI - d.235"],
+            "patch": "5.15"
+        },
+        "x53": {
+            "name_en": "Kaltstrahl",
+            "name_fr": "Kaltstrahl",
+            "number": "54",
+            "category": ["@CATEGORY.RAID"],
+            "source": ["@ENEMY.FAUST - d.112", "@ENEMY.STURM_DOLL - d.112", "@ENEMY.JAGD_DOLL - d.113"],
+            "patch": "5.15"
+        },
+        "x54": {
+            "name_en": "Abyssal Transfixion",
+            "name_fr": "Transfixion abyssale",
+            "number": "55",
+            "category": ["@CATEGORY.QUEST", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.ARCH_DEMON - q.903", "@ENEMY.ASH - d.19", "@ENEMY.BIBLIOKLEPT - d.31"],
+            "patch": "5.15"
+        },
+        "x55": {
+            "name_en": "Chirp",
+            "name_fr": "Gazouillement",
+            "number": "56",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.PAISSA - PLACE.HW.THE_SEA_OF_CLOUDS (24, 33)",
+            "patch": "5.15"
+        },
+        "x56": {
+            "name_en": "Eerie Soundwave",
+            "name_fr": "Onde lugubre",
+            "number": "57",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON", "@CATEGORY.TRIAL"],
+            "source": ["@ENEMY.EMPUSE - PLACE.HW.AZYS_LLA (29, 12, 5.5)", "@ENEMY.ARIOCH - d.22", "@ENEMY.ENKIDU - d.85"],
+            "patch": "5.15"
+        },
+        "x57": {
+            "name_en": "Pom Cure",
+            "name_fr": "Pompon soignant",
+            "number": "58",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.FURRYFOOT_KUPLI_KIPP - d.66",
+            "patch": "5.15"
+        },
+        "x58": {
+            "name_en": "Gobskin",
+            "name_fr": "Gobépiderme",
+            "number": "59",
+            "category": ["@CATEGORY.THE_HUNT", "@CATEGORY.RAID"],
+            "source": [
+                "@duty.the-hunt.hw.4366 - PLACE.HW.THE_DRAVANIAN_HINTERLANDS",
+                "@ENEMY.ALEXANDRIAN_HIDER - d.187",
+                "@ENEMY.ALEXANDRIAN_SLIDER - d.187"
+            ],
+            "patch": "5.15"
+        },
+        "x59": {
+            "name_en": "Magic Hammer",
+            "name_fr": "Marteau magique",
+            "number": "60",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": ["@ENEMY.APANDA - d.196", "@ENEMY.EPILOGI - character.blue-mage.the-masked-carnivale.23"],
+            "patch": "5.15"
+        },
+        "x60": {
+            "name_en": "Avail",
+            "name_fr": "Ordre défensif",
+            "number": "61",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.QUEEN_HAWK - d.41",
+            "patch": "5.15"
+        },
+        "x61": {
+            "name_en": "Frog Legs",
+            "name_fr": "Ritournelle batracienne",
+            "number": "62",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.POROGGO - PLACE.HW.THE_DRAVANIAN_HINTERLANDS (12, 35)",
+            "patch": "5.15"
+        },
+        "x62": {
+            "name_en": "Sonic Boom",
+            "name_fr": "Bang supersonique",
+            "number": "63",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.ANZU - PLACE.HW.THE_SEA_OF_CLOUDS (21, 6)", "@ENEMY.ZU - d.17"],
+            "patch": "5.15"
+        },
+        "x63": {
+            "name_en": "Whistle",
+            "name_fr": "Sifflement",
+            "number": "64",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.DHALMEL - PLACE.HW.THE_SEA_OF_CLOUDS (16, 32)",
+                "@ENEMY.JHAMMEL - PLACE.SB.THE_PEAKS (26.5, 28.5)",
+                "@ENEMY.DHALMEL - d.33"
+            ],
+            "patch": "5.15"
+        },
+        "x64": {
+            "name_en": "White Knight's Tour",
+            "name_fr": "Tour de cavalier blanc",
+            "number": "65",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.WHITE_KNIGHT - d.34",
+            "patch": "5.15"
+        },
+        "x65": {
+            "name_en": "Black Knight's Tour",
+            "name_fr": "Tour de cavalier noir",
+            "number": "66",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.BLACK_KNIGHT - d.34",
+            "patch": "5.15"
+        },
+        "x66": {
+            "name_en": "Level 5 Death",
+            "name_fr": "Mort niveau 5",
+            "number": "67",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.PAGE_64 - d.31",
+            "patch": "5.15"
+        },
+        "x67": {
+            "name_en": "Launcher",
+            "name_fr": "Lance-roquettes",
+            "number": "68",
+            "category": ["@CATEGORY.FATE", "@CATEGORY.DUNGEON"],
+            "source": [
+                "@ENEMY.LETHAL_WEAPON - fate.1207",
+                "@ENEMY.ARMORED_WEAPON - d.219",
+                "@ENEMY.DOMAN_ARMORED_WEAPON - d.241"
+            ],
+            "patch": "5.15"
+        },
+        "x68": {
+            "name_en": "Perpetual Ray",
+            "name_fr": "Rayon perpétuel",
+            "number": "69",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.THE_MANIPULATOR - d.115",
+            "patch": "5.15"
+        },
+        "x69": {
+            "name_en": "Cactguard",
+            "name_fr": "Cactugarde",
+            "number": "70",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.SABOTENDER_GUARDIA - d.26",
+            "patch": "5.15"
+        },
+        "x70": {
+            "name_en": "Revenge Blast",
+            "name_fr": "Éclat vengeur",
+            "number": "71",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 50 Spells",
+            "source_fr": "Apprendre 50 sorts",
+            "patch": "5.15"
+        },
+        "x71": {
+            "name_en": "Angel Whisper",
+            "name_fr": "Grâce angélique",
+            "number": "72",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Complete 30 Stages at the Masked Carnivale",
+            "source_fr": "Compléter 30 épreuves de la Grande Masquarade",
+            "patch": "5.15"
+        },
+        "x72": {
+            "name_en": "Exuviation",
+            "name_fr": "Exuviation",
+            "number": "73",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.ABALATHIAN_WAMOURA - PLACE.HW.THE_SEA_OF_CLOUDS (9, 16)", "@ENEMY.WAMOURA - d.22"],
+            "patch": "5.15"
+        },
+        "x73": {
+            "name_en": "Reflux",
+            "name_fr": "Reflux",
+            "number": "74",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.CLOUD_WYVERN - PLACE.HW.THE_CHURNING_MISTS (23, 29)",
+            "patch": "5.15"
+        },
+        "x74": {
+            "name_en": "Devour",
+            "name_fr": "Dévoration",
+            "number": "75",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.RAID"],
+            "source": ["@ENEMY.DECAYING_GOURMAND - d.22", "@ENEMY.NULLCHU - d.584", "@ENEMY.CADUCEUS - d.93"],
+            "patch": "5.15"
+        },
+        "x75": {
+            "name_en": "Condensed Libra",
+            "name_fr": "Acuité concentrée",
+            "number": "76",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.MASKED_CARNIVALE"],
+            "source": ["@ENEMY.MECHANOSCRIBE - d.196", "@ENEMY.ARENA_SCRIBE - character.blue-mage.the-masked-carnivale.23"],
+            "patch": "5.15"
+        },
+        "x76": {
+            "name_en": "Aetheric Mimicry",
+            "name_fr": "Imitation éthéréenne",
+            "number": "77",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.CORRUPTION - d.40",
+            "patch": "5.15"
+        },
+        "x77": {
+            "name_en": "Surpanakha",
+            "name_fr": "Surpanakha",
+            "number": "78",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.RAVANA - d.86",
+            "patch": "5.15"
+        },
+        "x78": {
+            "name_en": "Quasar",
+            "name_fr": "Quasar",
+            "number": "79",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.SOPHIA - d.183",
+            "patch": "5.15"
+        },
+        "x79": {
+            "name_en": "J Kick",
+            "name_fr": "Pied justicier",
+            "number": "80",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.BRUTE_JUSTICE - d.139",
+            "patch": "5.15"
+        },
+        "x80": {
+            "name_en": "Triple Trident",
+            "name_fr": "Triple trident",
+            "number": "81",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.EBISU_CATFISH - PLACE.SB.YANXIA (28, 6)",
+            "patch": "5.45"
+        },
+        "x81": {
+            "name_en": "Tingle",
+            "name_fr": "Fourmillement",
+            "number": "82",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.EBISU_CATFISH - PLACE.SB.YANXIA (28, 6)",
+            "patch": "5.45"
+        },
+        "x82": {
+            "name_en": "Tatami-gaeshi",
+            "name_fr": "Tatami-gaeshi",
+            "number": "83",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.DOJUN_MARU - d.262",
+            "patch": "5.45"
+        },
+        "x83": {
+            "name_en": "Cold Fog",
+            "name_fr": "Brume glaciale",
+            "number": "84",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.MIST_DRAGON - d.585",
+            "patch": "5.45"
+        },
+        "x84": {
+            "name_en": "Stotram",
+            "name_fr": "Stotram",
+            "number": "85",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.LAKSHMI - d.263",
+            "patch": "5.45"
+        },
+        "x85": {
+            "name_en": "Saintly Beam",
+            "name_fr": "Faisceaux sacrés",
+            "number": "86",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.PHANTOM_TRAIN - d.286",
+            "patch": "5.45"
+        },
+        "x86": {
+            "name_en": "Feculent Flood",
+            "name_fr": "Sukuinage-gadoue",
+            "number": "87",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.TOKKAPCHI - d.584",
+            "patch": "5.45"
+        },
+        "x87": {
+            "name_en": "Angel's Snack",
+            "name_fr": "Angélique",
+            "number": "88",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Reach BLU Level 70",
+            "source_fr": "Atteindre le niveau 70",
+            "patch": "5.45"
+        },
+        "x88": {
+            "name_en": "Chelonian Gate",
+            "name_fr": "Barrière mystique",
+            "number": "89",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.GENBU - d.284",
+            "patch": "5.45"
+        },
+        "x89": {
+            "name_en": "The Rose of Destruction",
+            "name_fr": "Rose de la destruction",
+            "number": "90",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.IVON_COEURLFIST - d.236",
+            "patch": "5.45"
+        },
+        "x90": {
+            "name_en": "Basic Instinct",
+            "name_fr": "Instinct profond",
+            "number": "91",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.MASTER_COEURL - PLACE.ARR.UPPER_LA_NOSCEA (8, 21)", "@ENEMY.COEURL_SMRITI - d.236"],
+            "patch": "5.45"
+        },
+        "x91": {
+            "name_en": "Ultravibration",
+            "name_fr": "Ultravibration",
+            "number": "92",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.KONGAMATO - PLACE.SB.THE_PEAKS (11, 25)",
+            "patch": "5.45"
+        },
+        "x92": {
+            "name_en": "Blaze",
+            "name_fr": "Givre",
+            "number": "93",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.ALTE_ROITE - d.252",
+            "patch": "5.45"
+        },
+        "x93": {
+            "name_en": "Mustard Bomb",
+            "name_fr": "Obus d'ypérite",
+            "number": "94",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.OMEGA - d.589",
+            "patch": "5.45"
+        },
+        "x94": {
+            "name_en": "Dragon Force",
+            "name_fr": "Dracoforce",
+            "number": "95",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 100 spells.",
+            "source_fr": "Apprendre 100 sorts",
+            "patch": "5.45"
+        },
+        "x95": {
+            "name_en": "Aetherial Spark",
+            "name_fr": "Étincelle éthérée",
+            "number": "96",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.SALT_DHRUVA - PLACE.SB.THE_LOCHS (22, 22)",
+            "patch": "5.45"
+        },
+        "x96": {
+            "name_en": "Hydro Pull",
+            "name_fr": "Hydrotraction",
+            "number": "97",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.KELPIE - d.279",
+            "patch": "5.45"
+        },
+        "x97": {
+            "name_en": "Malediction of Water",
+            "name_fr": "Malédiction de l'eau",
+            "number": "98",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.SAI_TAISUI - d.536",
+            "patch": "5.45"
+        },
+        "x98": {
+            "name_en": "Choco Meteor",
+            "name_fr": "Choco-météore",
+            "number": "99",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.COURSER_CHOCOBO - PLACE.HW.THE_DRAVANIAN_FORELANDS (34, 28)",
+            "patch": "5.45"
+        },
+        "x99": {
+            "name_en": "Matra Magic",
+            "name_fr": "Magie Matra",
+            "number": "100",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 100 spells.",
+            "source_fr": "Apprendre 100 sorts",
+            "patch": "5.45"
+        },
+        "x100": {
+            "name_en": "Peripheral Synthesis",
+            "name_fr": "Impression",
+            "number": "101",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.OMEGA - d.589",
+            "patch": "5.45"
+        },
+        "x101": {
+            "name_en": "Both Ends",
+            "name_fr": "Coup de bâton tournicotant",
+            "number": "102",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.QITIAN_DASHENG - d.536",
+            "patch": "5.45"
+        },
+        "x102": {
+            "name_en": "Phantom Flurry",
+            "name_fr": "Frénésie spectrale",
+            "number": "103",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.SUZAKU - d.596",
+            "patch": "5.45"
+        },
+        "x103": {
+            "name_en": "Nightbloom",
+            "name_fr": "Lis araignée",
+            "number": "104",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.TSUKUYOMI - d.537",
+            "patch": "5.45"
+        },
+        "x104": {
+            "name_en": "Goblin Punch",
+            "name_fr": "Coup de poing gobelin",
+            "number": "105",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": [
+                "@ENEMY.HOBGOBLIN - PLACE.SHB.KHOLUSIA (37, 28)",
+                "@ENEMY.HOBGOBLIN_GUARD - PLACE.SHB.KHOLUSIA (26, 10)"
+            ],
+            "patch": "6.45"
+        },
+        "x105": {
+            "name_en": "Right Round",
+            "name_fr": "Grande culbute",
+            "number": "106",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.GREATER_ARMADILLO - d.656",
+            "patch": "6.45"
+        },
+        "x106": {
+            "name_en": "Schiltron",
+            "name_fr": "Sheltron",
+            "number": "107",
+            "category": ["@CATEGORY.OPEN_WORLD"],
+            "source": "@ENEMY.LONG_TAILED_ARMADILLO - PLACE.SHB.AMH_ARAENG (17, 30)",
+            "patch": "6.45"
+        },
+        "x107": {
+            "name_en": "Rehydration",
+            "name_fr": "Réhydratation",
+            "number": "108",
+            "category": ["@CATEGORY.OPEN_WORLD", "@CATEGORY.DUNGEON"],
+            "source": ["@ENEMY.SLIPPERY_ARMADILLO - PLACE.SHB.AMH_ARAENG (33.9, 11.9)", "@ENEMY.PACK_ARMADILLO - d.656"],
+            "patch": "6.45"
+        },
+        "x108": {
+            "name_en": "Breath of Magic",
+            "name_fr": "Souffle magique",
+            "number": "109",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Reach BLU Level 80",
+            "source_fr": "Atteindre le niveau 80",
+            "patch": "6.45"
+        },
+        "x109": {
+            "name_en": "Wild Rage",
+            "name_fr": "Colère bestiale",
+            "number": "110",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.SPECTRAL_BERSERKER - d.737",
+            "patch": "6.45"
+        },
+        "x110": {
+            "name_en": "Peat Pelt",
+            "name_fr": "Lancer de boue",
+            "number": "111",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.MUDMAN - d.746",
+            "patch": "6.45"
+        },
+        "x111": {
+            "name_en": "Deep Clean",
+            "name_fr": "Grand nettoyage",
+            "number": "112",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.SEEKER_OF_SOLITUDE - d.692",
+            "patch": "6.45"
+        },
+        "x112": {
+            "name_en": "Ruby Dynamics",
+            "name_fr": "Générateur rubis",
+            "number": "113",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.THE_RUBY_WEAPON - d.717",
+            "patch": "6.45"
+        },
+        "x113": {
+            "name_en": "Divination Rune",
+            "name_fr": "Rune de malice",
+            "number": "114",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.TITANIA - d.657",
+            "patch": "6.45"
+        },
+        "x114": {
+            "name_en": "Dimensional Shift",
+            "name_fr": "Translation dimensionnelle",
+            "number": "115",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.EDEN_PRIME - d.653",
+            "patch": "6.45"
+        },
+        "x115": {
+            "name_en": "Conviction Marcato",
+            "name_fr": "Conviction - marcato",
+            "number": "116",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.FORGIVEN_OBSCENITY - d.659",
+            "patch": "6.45"
+        },
+        "x116": {
+            "name_en": "Force Field",
+            "name_fr": "Champ de force",
+            "number": "117",
+            "category": ["@CATEGORY.WHALAQEE_TOTEM"],
+            "source_en": "Learn 120 spells.",
+            "source_fr": "Apprendre 120 sorts",
+            "patch": "6.45"
+        },
+        "x117": {
+            "name_en": "Winged Reprobation",
+            "name_fr": "Réprobation ailée",
+            "number": "118",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.INNOCENCE - d.666",
+            "patch": "6.45"
+        },
+        "x118": {
+            "name_en": "Laser Eye",
+            "name_fr": "Faisceau laser",
+            "number": "119",
+            "category": ["@CATEGORY.RAID"],
+            "source": "@ENEMY.EDENS_PROMISE - d.758",
+            "patch": "6.45"
+        },
+        "x119": {
+            "name_en": "Candy Cane",
+            "name_fr": "Canne en sucre d'orge",
+            "number": "120",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.AENC_THON - d.649",
+            "patch": "6.45"
+        },
+        "x120": {
+            "name_en": "Mortal Flame",
+            "name_fr": "Flamme mortelle",
+            "number": "121",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.LUGUS - d.692",
+            "patch": "6.45"
+        },
+        "x121": {
+            "name_en": "Sea Shanty",
+            "name_fr": "Explosion tournicoton",
+            "number": "122",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.NIXIE - d.746",
+            "patch": "6.45"
+        },
+        "x122": {
+            "name_en": "Apokalypsis",
+            "name_fr": "Apokalypsis",
+            "number": "123",
+            "category": ["@CATEGORY.DUNGEON"],
+            "source": "@ENEMY.THERION - d.652",
+            "patch": "6.45"
+        },
+        "x123": {
+            "name_en": "Being Mortal",
+            "name_fr": "Deuil des vivants",
+            "number": "124",
+            "category": ["@CATEGORY.TRIAL"],
+            "source": "@ENEMY.TITANIA - d.657",
+            "patch": "6.45"
+        }
+    }
+}

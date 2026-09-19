@@ -1,0 +1,67 @@
+import type { DataGroup } from '@model/DataGroup';
+import type { Task } from '@model/Task';
+import { matchWildcardPatch } from '@model/util/patchMatch';
+
+import type { TableService } from '../table.service';
+
+/**
+ * Filter change via external, don't trigger onFilterUpdate$
+ * Also ensure no signals are tracked, nasty bug happens with the clear effect
+ * */
+export function filterTasks(service: TableService) {
+    return (
+        group: DataGroup,
+        tasks: Task[],
+    ): Task[] => {
+        return tasks.filter((task) => {
+            // Don't filter out selected tasks
+            if(task.selected()) return true;
+
+            const completionFilter = task.isNumericCompletion ?
+                service.filterNumericCompletion.bind(service) :
+                service.filterFlagCompletion.bind(service);
+
+            if(!completionFilter(task)) return false;
+
+            if(!group.columns) {
+                console.error('Error: no columns for group', group);
+                return [];
+            }
+
+            return group.columns.every(({ key, link }) => {
+                const filter = service.filters[key];
+                if(!filter) return true;
+
+                if(filter.value === 'Blank' || filter.value === '_') { // filter out values
+                    return !task[key];
+                }
+                else if(filter.value === '*') { // filter out blanks
+                    return !!task[key];
+                }
+                else if(filter.key === 'patch') {
+                    if(typeof filter.value === 'string') {
+                        return matchPatch(filter.value, task[key]);
+                    }
+                    else {
+                        return filter.value.some((value) => matchPatch(value, task[key]));
+                    }
+                }
+                else {
+                    if(typeof filter.value === 'string') {
+                        return service.svcSearch.fuzzyMatchObject(task, key, filter.value, true, link);
+                    }
+                    else {
+                        return filter.value.some((value) =>
+                            service.svcSearch.fuzzyMatchObject(task, key, value, true, link)
+                        );
+                    }
+                }
+            });
+        });
+    };
+}
+
+function matchPatch(filterValue: string, patchValue: string) {
+    if(filterValue.includes('x')) return matchWildcardPatch(filterValue, patchValue);
+    return filterValue === patchValue;
+}

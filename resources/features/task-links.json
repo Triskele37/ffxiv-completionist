@@ -1,0 +1,36 @@
+[
+    {
+        "i18nKey": "GARLAND_TOOLS",
+        "icon": "garland.png",
+        "use": "name",
+        "url": "https://www.garlandtools.org/db/#search/",
+        "preEncodeTransforms": [
+            { "from": "…", "to": "" },
+            { "from": "-", "to": " " }
+        ]
+    },
+    {
+        "i18nKey": "GAMER_ESCAPE",
+        "icon": "gamerescape.png",
+        "use": "name",
+        "url": "https://ffxiv.gamerescape.com/?search=",
+        "preEncodeTransforms": [
+            { "from": "…", "to": "" }
+        ],
+        "postEncodeTransforms": [
+            { "from": "%20", "to": "+" }
+        ]
+    },
+    {
+        "i18nKey": "CONSOLE_GAMES_WIKI",
+        "icon": "consolegames.png",
+        "use": "name",
+        "url": "https://ffxiv.consolegameswiki.com/?search=",
+        "preEncodeTransforms": [
+            { "from": "…", "to": "" }
+        ],
+        "postEncodeTransforms": [
+            { "from": "%20", "to": "+" }
+        ]
+    }
+]

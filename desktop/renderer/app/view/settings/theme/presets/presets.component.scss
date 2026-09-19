@@ -1,0 +1,66 @@
+:host {
+    display: contents;
+
+    $presetHeight: 50px;
+    $presetWidth: 50px;
+
+    ::ng-deep .theme-button {
+        background: var(--tb-background);
+        height: $presetHeight !important;
+        width: $presetWidth !important;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+
+        &:hover {
+            border-color: var(--p-primary-200);
+        }
+
+        .primary-swatch, .background-swatch {
+            height: 20px;
+            width: $presetWidth;
+            font-size: 24px;
+            overflow: hidden;
+        }
+
+        .primary-swatch {
+            background: var(--tb-primary);
+            color: var(--tb-primary-text);
+            line-height: 40px;
+        }
+
+        .background-swatch {
+            background: var(--tb-background);
+            color: var(--tb-background-text);
+            line-height: 0;
+        }
+
+        .completion-gradient {
+            background: linear-gradient(
+                90deg,
+                var(--tb-incomplete) 0%,
+                var(--tb-partial) 50%,
+                var(--tb-complete) 100%
+            );
+            width: $presetWidth;
+            height: 10px;
+        }
+    }
+
+    .additional-themes.p-button {
+        height: $presetHeight;
+        width: $presetWidth;
+    }
+
+    ::ng-deep.preset-popover {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--content-padding);
+        width: 224px;
+
+        .theme-button {
+            flex: 0 0 calc((100% - 24px) / 4);
+        }
+    }
+}

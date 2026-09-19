@@ -1,0 +1,23 @@
+{
+    "key": "stats",
+    "groupName_en": "Stats",
+    "groupName_fr": "Caractéristiques",
+    "order": [
+        "level",
+        "independent",
+        "offensive",
+        "defensive",
+        "balanced"
+    ],
+    "columns": {
+        "name": {
+            "header_en": "Member",
+            "header_fr": "Membre",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "isNumericCompletion": true
+}

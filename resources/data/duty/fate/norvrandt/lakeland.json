@@ -1,0 +1,132 @@
+{
+    "key": "lakeland",
+    "groupName": "@PLACE.SHB.LAKELAND",
+    "tasks": {
+        "x1496": {
+            "name_en": "Looming Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un repaire convoité",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(8.6, 9.8)",
+            "patch": "5.0"
+        },
+        "x1497": {
+            "name_en": "Creeping Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un repaire investi",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(10.3, 22.1)",
+            "previousFate": "fate.1496",
+            "patch": "5.0"
+        },
+        "x1498": {
+            "name_en": "Draconian Measures",
+            "name_fr": "Défi : Ophion, le reptile sanguinaire",
+            "level": 71,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(34.7, 9.8)",
+            "patch": "5.0"
+        },
+        "x1499": {
+            "name_en": "Cry Not Wolf",
+            "name_fr": "La trahison des wargs",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(19.4, 21.5)",
+            "patch": "5.0"
+        },
+        "x1500": {
+            "name_en": "Pick-up Sticks",
+            "name_fr": "Dur dur d'être un bûcheron",
+            "level": 71,
+            "type": "@FATE.TYPE.GATHER_ITEMS",
+            "location": "(21.8, 24.1)",
+            "patch": "5.0"
+        },
+        "x1501": {
+            "name_en": "Flowering Nightshade",
+            "name_fr": "La menace des Fanes pourpres : le bûcheron attaqué",
+            "level": 71,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(24.1, 26.2)",
+            "previousFate": "fate.1500",
+            "patch": "5.0"
+        },
+        "x1502": {
+            "name_en": "Subtle Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un vil piège",
+            "level": 71,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(26.0, 13.0)",
+            "previousFate": ["fate.1497", "fate.1501"],
+            "patch": "5.0"
+        },
+        "x1503": {
+            "name_en": "Toxic Nightshade",
+            "name_fr": "La menace des Fanes pourpres : l'insurrection",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(17.6, 12.0)",
+            "previousFate": "fate.1502",
+            "patch": "5.0"
+        },
+        "x1504": {
+            "name_en": "Deadly Nightshade",
+            "name_fr": "La menace des Fanes pourpres : les wargs s'en mêlent",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(17.6, 12.0)",
+            "previousFate": "fate.1503",
+            "patch": "5.0"
+        },
+        "x1505": {
+            "name_en": "Economic Peril",
+            "name_fr": "Pour le salut du petit commerce",
+            "level": 71,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(25.4, 12.5)",
+            "patch": "5.0"
+        },
+        "x1506": {
+            "name_en": "Don't Feed the Gremlins",
+            "name_fr": "Pas venu ici pour souffrir",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(32.6, 17.6)",
+            "patch": "5.0"
+        },
+        "x1507": {
+            "name_en": "A Beast among Men",
+            "name_fr": "Défi : le noble Lugarhoo",
+            "level": 71,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(14.6, 18.5)",
+            "patch": "5.0"
+        },
+        "x1508": {
+            "name_en": "Little Gate of Horrors",
+            "name_fr": "La petite porte des horreurs",
+            "level": 71,
+            "type": "@FATE.TYPE.SLAY_ENEMIES",
+            "location": "(18.2, 13.6)",
+            "patch": "5.0"
+        },
+        "x1509": {
+            "name_en": "Behind Anemone Lines",
+            "name_fr": "Il est frais, mon poisson",
+            "level": 71,
+            "type": "@FATE.TYPE.DEFENSE",
+            "location": "(20.6, 28.1)",
+            "patch": "5.0"
+        },
+        "x1510": {
+            "name_en": "Calm a Chameleon",
+            "name_fr": "Défi : le Casse-noisette excédé",
+            "level": 71,
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER",
+            "location": "(20.6, 28.1)",
+            "previousFate": "fate.1509",
+            "patch": "5.0"
+        }
+    }
+}

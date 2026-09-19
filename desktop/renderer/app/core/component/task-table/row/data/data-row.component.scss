@@ -1,0 +1,31 @@
+@use 'sizes';
+
+:host {
+    display: contents;
+
+    .data-row {
+        height: sizes.$table-row-height;
+
+        &.has-note ::ng-deep >:nth-child(2) td {
+            box-shadow: inset 15px 0 10px -10px var(--primary-color);
+        }
+
+        &.has-note.selected ::ng-deep >:nth-child(2) td {
+            box-shadow: inset 15px 0 10px -10px var(--surface-900);
+        }
+    }
+
+    // Create the stripe pattern for rows
+    .even-row {
+        background: var(--surface-800);
+
+        // Invert button hover color
+        ::ng-deep .p-button-rounded:hover {
+            background: var(--surface-600);
+        }
+    }
+
+    ::ng-deep .table-cell {
+        vertical-align: middle;
+    }
+}

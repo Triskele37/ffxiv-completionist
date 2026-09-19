@@ -1,0 +1,61 @@
+{
+    "key": "sea-of-stars",
+    "groupName_en": "Sea of Stars",
+    "groupName_fr": "Espace intersidéral",
+    "tasks": {
+        "x671": {
+            "name_en": "Potent Spice",
+            "name_fr": "Épices naturelles",
+            "level": "90",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "6.0",
+            "cSiblings": [
+                "logs.gathering.gathering-log.harvesting.regional-folklore.ilsabard-and-northern-empty.671",
+                "logs.gathering.gathering-log.logging.regional-folklore.world-unsundered.671"
+            ]
+        },
+        "x690": {
+            "name_en": "Double-edged Herb",
+            "name_fr": "Feuille d'égarante",
+            "level": "90 ★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "6.0"
+        },
+        "x702": {
+            "name_en": "Prime Crystalbloom",
+            "name_fr": "Cristofleur volatile",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "6.2"
+        },
+        "x703": {
+            "name_en": "Sublime Crystalbloom",
+            "name_fr": "Cristofleur sublimée",
+            "level": "90 ★★",
+            "zone": "@PLACE.EW.ULTIMA_THULE",
+            "coordinates": "(28.1, 13.1)",
+            "closestAetheryte": "travel.aetherytes.others.161",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "6.2"
+        },
+        "x730": {
+            "name_en": "Lovingbloom",
+            "name_fr": "Bourgeon d'amour",
+            "level": "90 ★★★",
+            "zone": "@PLACE.EW.MARE_LAMENTORUM",
+            "coordinates": "(25.9, 20.4)",
+            "closestAetheryte": "travel.aetherytes.others.156",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "6.4"
+        }
+    }
+}

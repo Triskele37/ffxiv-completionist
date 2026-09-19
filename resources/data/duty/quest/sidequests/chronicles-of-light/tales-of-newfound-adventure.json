@@ -1,0 +1,27 @@
+{
+    "key": "tales-of-newfound-adventure",
+    "groupName_en": "Tales of Newfound Adventure",
+    "groupName_fr": "Sur la route d'une nouvelle aventure",
+    "tasks": {
+        "x70196": {
+            "name_en": "Shadowed Pasts",
+            "name_fr": "Les observateurs du néant",
+            "level": 90,
+            "npc_en": "Radiant Scout",
+            "npc_fr": "Sentinelle De L'Ost Rayonnant",
+            "patch": "6.2",
+            "cPrev": ["q.70136"],
+            "cNext": ["q.70197"]
+        },
+        "x70197": {
+            "name_en": "Shadowed Pasts Once More",
+            "name_fr": "Les observateurs du néant, le retour",
+            "level": 90,
+            "npc_en": "Radiant Scout",
+            "npc_fr": "Sentinelle De L'Ost Rayonnant",
+            "unlock": "o.590",
+            "patch": "6.3",
+            "cPrev": ["q.70214", "q.70196"]
+        }
+    }
+}

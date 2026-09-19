@@ -1,0 +1,74 @@
+{
+    "key": "desynthesis",
+    "groupName_en": "Desynthesis",
+    "groupName_fr": "Recyclage",
+    "columns": {
+        "name": {
+            "header_en": "Crafter",
+            "header_fr": "Artisan"
+        },
+        "startingQuest": {
+            "link": true,
+            "header_en": "Starting Quest",
+            "header_fr": "Quête de départ"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "numericDecimal": 2,
+    "minValue": 0,
+    "maxValue": 780,
+    "tasks": {
+        "x0": {
+            "name_en": "Carpenter",
+            "name_fr": "Menuisier",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x1": {
+            "name_en": "Blacksmith",
+            "name_fr": "Forgeron",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x2": {
+            "name_en": "Armorer",
+            "name_fr": "Armurier",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x3": {
+            "name_en": "Goldsmith",
+            "name_fr": "Orfèvre",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x4": {
+            "name_en": "Leatherworker",
+            "name_fr": "Tanneur",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x5": {
+            "name_en": "Weaver",
+            "name_fr": "Couturier",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x6": {
+            "name_en": "Alchemist",
+            "name_fr": "Alchimiste",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        },
+        "x7": {
+            "name_en": "Culinarian",
+            "name_fr": "Cuisinier",
+            "startingQuest": "q.65688",
+            "patch": "2.0"
+        }
+    }
+}

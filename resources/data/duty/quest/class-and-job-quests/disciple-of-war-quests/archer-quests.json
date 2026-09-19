@@ -1,0 +1,90 @@
+{
+    "key": "archer-quests",
+    "groupName_en": "Archer Quests",
+    "groupName_fr": "Quêtes d'archer",
+    "tasks": {
+        "x65667": {
+            "name_en": "Way of the Archer",
+            "name_fr": "La voie de l'archerie",
+            "level": 1,
+            "npc_en": "Athelyna",
+            "npc_fr": "Athelyna",
+            "patch": "2.0",
+            "cPrev": ["q.65717"],
+            "cNext": ["q.65755", "q.65603"]
+        },
+        "x65755": {
+            "name_en": "My First Bow",
+            "name_fr": "L'enfance de l'arc",
+            "level": 1,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65667"],
+            "cNext": ["q.65582"]
+        },
+        "x65582": {
+            "name_en": "A Matter of Perspective",
+            "name_fr": "L'arc et le regard",
+            "level": 5,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65755"],
+            "cNext": ["q.65603"]
+        },
+        "x65603": {
+            "name_en": "School of Hard Nocks",
+            "name_fr": "Connaître ses ennemis",
+            "level": 10,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65582", "q.65667"],
+            "cNext": ["q.65604"]
+        },
+        "x65604": {
+            "name_en": "Violators Will Be Shot",
+            "name_fr": "L'arc et la manière",
+            "level": 15,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65603"],
+            "cNext": ["q.65606"]
+        },
+        "x65606": {
+            "name_en": "To Catch a Poacher",
+            "name_fr": "La proie pour l'ombre",
+            "level": 20,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65604"],
+            "cNext": ["q.65607"]
+        },
+        "x65607": {
+            "name_en": "Homecoming",
+            "name_fr": "Fuite en avant",
+            "level": 25,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "patch": "2.0",
+            "cPrev": ["q.65606"],
+            "cNext": ["q.65612"]
+        },
+        "x65612": {
+            "name_en": "The One That Got Away",
+            "name_fr": "Droit comme une flèche",
+            "level": 30,
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "unlock": "ap.162",
+            "patch": "2.0",
+            "cPrev": ["q.65607"],
+            "cNext": ["q.66621"],
+            "cCombo": ["a.313", "a.314"],
+            "cSiblings": ["ap.162"]
+        }
+    }
+}

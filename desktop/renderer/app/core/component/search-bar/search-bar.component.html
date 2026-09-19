@@ -1,0 +1,38 @@
+<button
+    data-active-help="APP.ACTIVE_HELP.MAIN_MENU"
+    pButton
+    class="home-button"
+    (click)="onHomeClick()"
+>
+    @if(svcNavigation.selectedGroup()?.type === 'UI') {
+        <ng-icon name="matKeyboardArrowDown"></ng-icon>
+    }
+    @else {
+        <ng-icon name="matKeyboardArrowRight"></ng-icon>
+    }
+    {{'APP.NAME' | translate}}
+</button>
+
+<div
+    #searchBar
+    class="search-bar"
+    [pTooltip]="svcSearch.searchError() ?? undefined"
+>
+    <input
+        #searchInput
+        data-active-help="APP.ACTIVE_HELP.SEARCH.SEARCH_INPUT"
+        pInputText
+        [placeholder]="'APP.SEARCH.PLACEHOLDER' | translate"
+        [ngClass]="svcSearch.searchStatus()"
+        [(ngModel)]="searchTerm"
+        (keydown)="onSearchKeydown($event)"
+    />
+
+    <button
+        data-active-help="APP.ACTIVE_HELP.SEARCH.SEARCH_BUTTON"
+        pButton
+        (click)="onSearch()"
+    >
+        <ng-icon name="matSearch"></ng-icon>
+    </button>
+</div>

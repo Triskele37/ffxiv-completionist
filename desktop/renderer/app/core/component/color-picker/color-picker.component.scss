@@ -1,0 +1,11 @@
+:host {
+    display: contents;
+
+    ::ng-deep {
+        .p-inputcolor-swatch {
+            border-radius: var(--border-radius);
+            border: 1px solid var(--primary-color);
+            cursor: pointer;
+        }
+    }
+}

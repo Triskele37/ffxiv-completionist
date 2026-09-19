@@ -1,0 +1,278 @@
+{
+    "key": "goldsmith",
+    "groupName": "@CLASS_JOB.GSM",
+    "tasks": {
+        "x1354": {
+            "name_en": "Portable Beacon",
+            "name_fr": "Éclairages de secours",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_1_A",
+            "patch": "7.41"
+        },
+        "x1355": {
+            "name_en": "Wrought Metallic Coral",
+            "name_fr": "Forge de coraux métalliques",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.OIZYS_2_A",
+            "patch": "7.41"
+        },
+        "x1150": {
+            "name_en": "EX+: Voyager Implement Reproduction II",
+            "name_fr": "EX+ : Reproduction améliorée d'outils des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1149",
+            "patch": "7.41"
+        },
+        "x1151": {
+            "name_en": "EX+: Production Precision Processing",
+            "name_fr": "EX+ : Transformation avancée de reproductions",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1150",
+            "patch": "7.41"
+        },
+        "x1147": {
+            "name_en": "EX+: Gravity Generator Miniaturization II",
+            "name_fr": "EX+ : Amélioration de générateurs de gravité de taille réduite",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.41"
+        },
+        "x1149": {
+            "name_en": "EX+: Voyager Implement Reproduction I",
+            "name_fr": "EX+ : Reproduction d'outils des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1200-1400",
+            "patch": "7.41"
+        },
+        "x1146": {
+            "name_en": "EX: Maintenance Part Advanced Processing",
+            "name_fr": "EX : Traitement avancé de composants de maintenance",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.41"
+        },
+        "x1148": {
+            "name_en": "EX+: Voyager Artifact Restoration",
+            "name_fr": "EX+ : Restauration de reliques des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clear Skies",
+            "condition_fr": "Dégagé",
+            "patch": "7.41"
+        },
+        "x1137": {
+            "name_en": "Enhanced Alloy Component Resupply",
+            "name_fr": "Composants en alliage améliorés supplémentaires",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1138": {
+            "name_en": "Voyager Civilization Survey",
+            "name_fr": "Aide à l'étude de la civilisation des pionniers",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1139": {
+            "name_en": "Gravitational Anomaly Gear Advanced Processing",
+            "name_fr": "Traitement avancé de matériel antigravitationnel",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1140": {
+            "name_en": "Oversized Drill Resupply",
+            "name_fr": "Foreuses pour gros travaux",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1141": {
+            "name_en": "Coastal Installation Material Rust-proofing",
+            "name_fr": "Traitement antirouille d'installations en bordure d'eau",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1142": {
+            "name_en": "Oizys-primed Containers II",
+            "name_fr": "Amélioration de conteneurs adaptés à Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1143": {
+            "name_en": "EX: Oddweight Azurite Refining",
+            "name_fr": "EX : Affinage d'azurite gravitationnelle",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1144": {
+            "name_en": "EX: Gravity Generator Miniaturization I",
+            "name_fr": "EX : Générateurs de gravité de taille réduite",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1145": {
+            "name_en": "EX: Powersuit Chest Component",
+            "name_fr": "EX : Composants pour ceinture de combinaison cosmo-alimentée",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1132": {
+            "name_en": "Enhanced Alloy Components",
+            "name_fr": "Composants en alliage améliorés",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1133": {
+            "name_en": "Oizys-primed Containers I",
+            "name_fr": "Conteneurs adaptés à Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1134": {
+            "name_en": "Gravitational Anomaly Gear III",
+            "name_fr": "Perfectionnement du matériel antigravitationnel",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1135": {
+            "name_en": "Advanced Excavation Equipment",
+            "name_fr": "Matériel avancé manquant au site d'excavation",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1136": {
+            "name_en": "Powersuit Components",
+            "name_fr": "Composants de combinaison cosmo-alimentée",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1128": {
+            "name_en": "Multi-purpose Alloy Component Resupply",
+            "name_fr": "Composants en alliage multi-usage supplémentaires",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1129": {
+            "name_en": "Oizys-primed Metal Processing II",
+            "name_fr": "Amélioration du traitement de métaux adapté à Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1130": {
+            "name_en": "Gravitational Anomaly Gear II",
+            "name_fr": "Amélioration du matériel antigravitationnel",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1131": {
+            "name_en": "Supplementary Excavation Equipment II",
+            "name_fr": "Amélioration du matériel manquant au site d'excavation",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1124": {
+            "name_en": "Multi-purpose Alloy Components",
+            "name_fr": "Composants en alliage multi-usage",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1125": {
+            "name_en": "Oizys-primed Metal Processing I",
+            "name_fr": "Traitement de métaux adapté à Oizys",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1126": {
+            "name_en": "Gravitational Anomaly Gear I",
+            "name_fr": "Matériel antigravitationnel",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        },
+        "x1127": {
+            "name_en": "Supplementary Excavation Equipment I",
+            "name_fr": "Matériel manquant au site d'excavation",
+            "planet": "@PLACE.DT.OIZYS",
+            "crafter": "@CLASS_JOB.GSM",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.41"
+        }
+    }
+}

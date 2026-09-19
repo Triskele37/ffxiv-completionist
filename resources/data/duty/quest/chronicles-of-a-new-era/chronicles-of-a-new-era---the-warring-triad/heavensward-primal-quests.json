@@ -1,0 +1,120 @@
+{
+    "key": "heavensward-primal-quests",
+    "groupName_en": "Heavensward Primal Quests",
+    "groupName_fr": "Primordiaux (Heavensward)",
+    "tasks": {
+        "x67650": {
+            "name_en": "Gods of Eld",
+            "name_fr": "Les Dieux d'autrefois",
+            "level": 60,
+            "npc_en": "Torsefers",
+            "npc_fr": "Torsefers",
+            "patch": "3.0",
+            "cPrev": ["q.67205"],
+            "cNext": ["q.67766", "q.67651", "q.67652"]
+        },
+        "x67766": {
+            "name_en": "When the Bough Wakes",
+            "name_fr": "Pour qui sonne le glas",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.134",
+            "patch": "3.2",
+            "cPrev": ["q.67650", "q.67699"],
+            "cNext": ["q.67817", "q.67824"],
+            "cSiblings": ["d.134"]
+        },
+        "x67824": {
+            "name_en": "The Fate of Stars",
+            "name_fr": "Un coup de poker dangereux",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "patch": "3.3",
+            "cPrev": ["q.67766"],
+            "cNext": ["q.67868"]
+        },
+        "x67868": {
+            "name_en": "Balance unto All",
+            "name_fr": "L'équilibre de la terreur",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.183",
+            "patch": "3.4",
+            "cPrev": ["q.67824"],
+            "cNext": ["q.67869", "q.67930"],
+            "cSiblings": ["d.183"]
+        },
+        "x67930": {
+            "name_en": "The Last Pillar to Fall",
+            "name_fr": "Le crépuscule des héros",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.223",
+            "patch": "3.5",
+            "cPrev": ["q.67868"],
+            "cNext": ["q.67931"],
+            "cSiblings": ["d.223"]
+        },
+        "x67651": {
+            "name_en": "The Diabolical Bismarck",
+            "name_fr": "Les nuées du Migrateur des brumes",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.89",
+            "patch": "3.0",
+            "cPrev": ["q.67205", "q.67650"],
+            "cCombo": ["a.1165"],
+            "cSiblings": ["d.89"]
+        },
+        "x67652": {
+            "name_en": "Thok Around the Clock",
+            "name_fr": "La colère du Maître des lames",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.87",
+            "patch": "3.0",
+            "cPrev": ["q.67205", "q.67650"],
+            "cCombo": ["a.1165"],
+            "cSiblings": ["d.87"]
+        },
+        "x67817": {
+            "name_en": "A Fiendish Likeness",
+            "name_fr": "Simulation de l'extrême",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.135",
+            "patch": "3.2",
+            "cPrev": ["q.67766"],
+            "cNext": ["d.135"]
+        },
+        "x67869": {
+            "name_en": "A Deific Simulacrum",
+            "name_fr": "Épreuve de l'extrême",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.184",
+            "patch": "3.4",
+            "cPrev": ["q.67868"],
+            "cNext": ["d.184"]
+        },
+        "x67931": {
+            "name_en": "A Demonic Duplicate",
+            "name_fr": "Programme de l'extrême",
+            "level": 60,
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "unlock": "d.224",
+            "patch": "3.5",
+            "cPrev": ["q.67930"],
+            "cNext": ["d.224"]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+<td class="table-cell data-cell">
+    <div class="data-cell-value-container">
+        @if(rows.length === 1 && rows[0]) {
+            <!-- Single Value -->
+            <com-cell-value
+                [column]="column"
+                [task]="task"
+                [values]="rows[0]"
+            ></com-cell-value>
+        }
+        @else if(rows.length > 1) {
+            <!-- Multiple Values, use button & overlay -->
+            <button
+                pButton
+                class="noSelect p-button-link"
+                (mouseenter)="linkPopover.show($event)"
+                (mouseleave)="onMultiLinkLeave()"
+                (click)="onLockOverlayClick()"
+            >
+                {{'APP.TABLE.VIEW_LINKS' | translate}} ({{rows.length}})
+            </button>
+
+            <p-popover
+                #linkPopover
+                styleClass="link-overlay"
+                [pt]="pt"
+            >
+                <ng-template #content>
+                    <div class="overlay-container">
+                        @for(row of rows; track $index) {
+                            <com-cell-value
+                                [task]="task"
+                                [column]="column"
+                                [values]="row"
+                            ></com-cell-value>
+                        }
+                    </div>
+                </ng-template>
+            </p-popover>
+        }
+    </div>
+</td>

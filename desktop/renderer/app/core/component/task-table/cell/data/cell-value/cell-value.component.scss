@@ -1,0 +1,23 @@
+@use './ellipsis-overflow' as *;
+
+:host {
+    display: contents;
+
+    .cell-value {
+    }
+
+    // Remove excess left padding if first element is link
+    .cell-value com-content-link:first-child ::ng-deep .content-link {
+        padding-left: 0;
+    }
+
+    .cell-value.text-only {
+        @extend %ellipsis-overflow;
+        display: block;
+    }
+
+    .cell-value.link {
+        display: flex;
+        align-items: center;
+    }
+}

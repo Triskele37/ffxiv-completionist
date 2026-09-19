@@ -1,0 +1,622 @@
+{
+    "key": "the-churning-mists",
+    "groupName_en": "The Churning Mists",
+    "groupName_fr": "L'Écume des cieux de Dravania",
+    "tasks": {
+        "x67355": {
+            "name_en": "The Bathing Bully",
+            "name_fr": "Se remettre dans le bain",
+            "level": 54,
+            "npc_en": "Mogret",
+            "npc_fr": "Mogret",
+            "unlock": "travel.aether-currents.hw.the-churning-mists.10",
+            "patch": "3.0",
+            "cPrev": ["q.67156"],
+            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.10"]
+        },
+        "x67356": {
+            "name_en": "A Show of Devotion",
+            "name_fr": "Le serment des sarments",
+            "level": 54,
+            "npc_en": "Mogmug",
+            "npc_fr": "Mogmug",
+            "patch": "3.0",
+            "cPrev": ["q.67157"]
+        },
+        "x67358": {
+            "name_en": "A Dream Blooms",
+            "name_fr": "Une précieuse fleur",
+            "level": 54,
+            "npc_en": "Mogomo",
+            "npc_fr": "Mogomo",
+            "patch": "3.0",
+            "cPrev": ["q.67158"]
+        },
+        "x67359": {
+            "name_en": "Road Kill",
+            "name_fr": "Passage difficile",
+            "level": 54,
+            "npc_en": "Mogsy",
+            "npc_fr": "Mogsy",
+            "unlock": "travel.aether-currents.hw.the-churning-mists.12",
+            "patch": "3.0",
+            "cPrev": ["q.67160"],
+            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.12"]
+        },
+        "x67366": {
+            "name_en": "Nut Job",
+            "name_fr": "Un jardin extraordinaire",
+            "level": 54,
+            "npc_en": "Mogomo",
+            "npc_fr": "Mogomo",
+            "patch": "3.0",
+            "cPrev": ["q.67164"]
+        },
+        "x67361": {
+            "name_en": "Who's Got the Baskets",
+            "name_fr": "Le collectionneur",
+            "level": 54,
+            "npc_en": "Mogson",
+            "npc_fr": "Mogson",
+            "patch": "3.0",
+            "cPrev": ["q.67161"],
+            "cNext": ["q.67369", "q.67383"]
+        },
+        "x67362": {
+            "name_en": "Where Dragons Tread",
+            "name_fr": "Dragons saccageurs",
+            "level": 54,
+            "npc_en": "Mogmum",
+            "npc_fr": "Mogmum",
+            "patch": "3.0",
+            "cPrev": ["q.67161"]
+        },
+        "x67363": {
+            "name_en": "Something Needs to Change",
+            "name_fr": "Conflits fatigants",
+            "level": 54,
+            "npc_en": "Mogmont",
+            "npc_fr": "Mogmont",
+            "patch": "3.0",
+            "cPrev": ["q.67161"]
+        },
+        "x67369": {
+            "name_en": "My Friend the Enabler",
+            "name_fr": "Les reliques des Maîtres terriens",
+            "level": 54,
+            "npc_en": "Mogson",
+            "npc_fr": "Mogson",
+            "patch": "3.0",
+            "cPrev": ["q.67164", "q.67361"]
+        },
+        "x67370": {
+            "name_en": "Pom-pom Panic",
+            "name_fr": "La relève en déroute",
+            "level": 54,
+            "npc_en": "Mogmont",
+            "npc_fr": "Mogmont",
+            "patch": "3.0",
+            "cPrev": ["q.67164"]
+        },
+        "x67364": {
+            "name_en": "Hide Your Moogles",
+            "name_fr": "Partie de cache-cache épuisante",
+            "level": 54,
+            "npc_en": "Maundering Moogle",
+            "npc_fr": "Mog Exaspéré",
+            "unlock": "travel.aether-currents.hw.the-churning-mists.13",
+            "patch": "3.0",
+            "cPrev": ["q.67164"],
+            "cNext": ["q.67365"],
+            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.13"]
+        },
+        "x67365": {
+            "name_en": "The Unceasing Gardener",
+            "name_fr": "Jardiner n'est pas jouer",
+            "level": 54,
+            "npc_en": "Manic Moogle",
+            "npc_fr": "Mog Jardinier",
+            "patch": "3.0",
+            "cPrev": ["q.67164", "q.67364"]
+        },
+        "x67371": {
+            "name_en": "Waiting to Inhale",
+            "name_fr": "Borborygmes et bourdonnements",
+            "level": 54,
+            "npc_en": "Moon-eyed Moogle",
+            "npc_fr": "Mog Affamé",
+            "unlock": "travel.aether-currents.hw.the-churning-mists.11",
+            "patch": "3.0",
+            "cPrev": ["q.67163"],
+            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.11"]
+        },
+        "x67357": {
+            "name_en": "A Pebble for Your Thoughts",
+            "name_fr": "L'aspirant à la Garde-pompon",
+            "level": 54,
+            "npc_en": "Mogleo",
+            "npc_fr": "Mogleo",
+            "patch": "3.0",
+            "cPrev": ["q.67159"],
+            "cNext": ["q.67360"]
+        },
+        "x67360": {
+            "name_en": "Spineless Wadjets",
+            "name_fr": "Un problème épineux",
+            "level": 54,
+            "npc_en": "Mogleo",
+            "npc_fr": "Mogleo",
+            "patch": "3.0",
+            "cPrev": ["q.67159", "q.67357"],
+            "cNext": ["q.67367"]
+        },
+        "x67367": {
+            "name_en": "Far from Home",
+            "name_fr": "Grossiers dragons",
+            "level": 54,
+            "npc_en": "Mogleo",
+            "npc_fr": "Mogleo",
+            "patch": "3.0",
+            "cPrev": ["q.67163", "q.67360"],
+            "cNext": ["q.67368"]
+        },
+        "x67368": {
+            "name_en": "A Nutty Initiation",
+            "name_fr": "Les fruits du courage",
+            "level": 54,
+            "npc_en": "Mogleo",
+            "npc_fr": "Mogleo",
+            "patch": "3.0",
+            "cPrev": ["q.67163", "q.67367"],
+            "cNext": ["q.67399", "q.67508"]
+        },
+        "x67372": {
+            "name_en": "I Won't Leaf You Behind",
+            "name_fr": "Une racine qui donne des ailes",
+            "level": 55,
+            "npc_en": "Mercurial Moogle",
+            "npc_fr": "Mog Haletant",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67374"]
+        },
+        "x67373": {
+            "name_en": "Something in the Water",
+            "name_fr": "Le pied dans l'eau",
+            "level": 55,
+            "npc_en": "Mogret",
+            "npc_fr": "Mogret",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67374": {
+            "name_en": "Moogles' Marvelous Medicine",
+            "name_fr": "Un remède qui se fait attendre",
+            "level": 55,
+            "npc_en": "Malcontent Moogle",
+            "npc_fr": "Mogdoc",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67372"],
+            "cNext": ["q.67375"]
+        },
+        "x67375": {
+            "name_en": "Worried Sick",
+            "name_fr": "Fièvre et sang d'encre",
+            "level": 55,
+            "npc_en": "Meandering Moogle",
+            "npc_fr": "Mog Fiévreux",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67374"],
+            "cNext": ["q.67396"]
+        },
+        "x67376": {
+            "name_en": "A Secret from Everyone",
+            "name_fr": "Un endroit secret",
+            "level": 55,
+            "npc_en": "Mogmill",
+            "npc_fr": "Mogmill",
+            "unlock": "tto.81",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67396": {
+            "name_en": "Mallow in Sadness",
+            "name_fr": "Emportées par le vent",
+            "level": 55,
+            "npc_en": "Moggzia",
+            "npc_fr": "Moggzia",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67375"]
+        },
+        "x67377": {
+            "name_en": "An Immaculate Home",
+            "name_fr": "Un œuf sur la place",
+            "level": 55,
+            "npc_en": "Mogmont",
+            "npc_fr": "Mogmont",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67378": {
+            "name_en": "Just Another Bug Hunt",
+            "name_fr": "Espèces importées",
+            "level": 55,
+            "npc_en": "Mognell",
+            "npc_fr": "Mognell",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67380"]
+        },
+        "x67379": {
+            "name_en": "Wyvern Let Die",
+            "name_fr": "Attroupement alarmant",
+            "level": 55,
+            "npc_en": "Mogeuge",
+            "npc_fr": "Mogeuge",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67380"]
+        },
+        "x67380": {
+            "name_en": "Root Maneuvers",
+            "name_fr": "Protégeons les jeunes pousses",
+            "level": 55,
+            "npc_en": "Mogeuge",
+            "npc_fr": "Mogeuge",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67378", "q.67379"]
+        },
+        "x67383": {
+            "name_en": "Back to Baskets",
+            "name_fr": "Un oubli pesant",
+            "level": 55,
+            "npc_en": "Mogson",
+            "npc_fr": "Mogson",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67361"]
+        },
+        "x67384": {
+            "name_en": "If Living Is without Nuts",
+            "name_fr": "Le goût de la noix violette",
+            "level": 55,
+            "npc_en": "Unmaneuvering Moogle",
+            "npc_fr": "Mog Rêvasseur",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67385"]
+        },
+        "x67385": {
+            "name_en": "The Nest Episode",
+            "name_fr": "Un mets au sommet",
+            "level": 55,
+            "npc_en": "Unmaneuvering Moogle",
+            "npc_fr": "Mog Rêvasseur",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67384"]
+        },
+        "x67382": {
+            "name_en": "There Will Be Blades",
+            "name_fr": "Les harceleurs d'Ohl Tahn",
+            "level": 55,
+            "npc_en": "Impatient Moogle",
+            "npc_fr": "Mog Agité",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67381"]
+        },
+        "x67381": {
+            "name_en": "No Country for Young Moogles",
+            "name_fr": "Les aventuriers d'Ohl Tahn",
+            "level": 55,
+            "npc_en": "Impatient Moogle",
+            "npc_fr": "Mog Agité",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67382"],
+            "cNext": ["q.67386"]
+        },
+        "x67386": {
+            "name_en": "The Mog Squad Assembles",
+            "name_fr": "L'Escouade Mogzun",
+            "level": 55,
+            "npc_en": "Mogzun",
+            "npc_fr": "Mogzun",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67381"],
+            "cNext": ["q.67387", "q.67388", "q.67389"]
+        },
+        "x67387": {
+            "name_en": "Branching Out",
+            "name_fr": "L'exercice de Mogzun",
+            "level": 55,
+            "npc_en": "Mogzun",
+            "npc_fr": "Mogzun",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67386"],
+            "cNext": ["q.67390"]
+        },
+        "x67388": {
+            "name_en": "What Learning Entails",
+            "name_fr": "L'exercice de Mogkon",
+            "level": 55,
+            "npc_en": "Mogkon",
+            "npc_fr": "Mogkon",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67386"],
+            "cNext": ["q.67390"]
+        },
+        "x67389": {
+            "name_en": "A Rocky Start",
+            "name_fr": "L'exercice de Mogoot",
+            "level": 55,
+            "npc_en": "Mogoot",
+            "npc_fr": "Mogoot",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67386"],
+            "cNext": ["q.67390"]
+        },
+        "x67390": {
+            "name_en": "Walking the Walk",
+            "name_fr": "L'Escouade Mogzun est en danger !",
+            "level": 55,
+            "npc_en": "Mogzun",
+            "npc_fr": "Mogzun",
+            "patch": "3.0",
+            "cPrev": ["q.67387", "q.67388", "q.67389"],
+            "cNext": ["q.67411"]
+        },
+        "x67395": {
+            "name_en": "Seedy Business",
+            "name_fr": "La fin des haricots",
+            "level": 55,
+            "npc_en": "Meticulous Moogle",
+            "npc_fr": "Mog Botaniste",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67397": {
+            "name_en": "The Sins of Our Landlords",
+            "name_fr": "Vouivres rancunières",
+            "level": 55,
+            "npc_en": "Rummaging Moogle",
+            "npc_fr": "Mog Froufroutant",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67391": {
+            "name_en": "Unwanted Attention",
+            "name_fr": "Les chenapans de Tharl Oom Khash",
+            "level": 55,
+            "npc_en": "Malingering Moogle",
+            "npc_fr": "Mog Stressé",
+            "patch": "3.0",
+            "cPrev": ["q.67171"],
+            "cNext": ["q.67392"]
+        },
+        "x67392": {
+            "name_en": "Walking on Eggshells",
+            "name_fr": "Une expédition, oui, mais pas d'œufs !",
+            "level": 55,
+            "npc_en": "Remarking Moogle",
+            "npc_fr": "Mog Observateur",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67391"],
+            "cNext": ["q.67393"]
+        },
+        "x67393": {
+            "name_en": "It's Not a Bug, It's a Creature",
+            "name_fr": "Problème de larves",
+            "level": 55,
+            "npc_en": "Glimpsing Moogle",
+            "npc_fr": "Mog Fureteur",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67392"],
+            "cNext": ["q.67394"]
+        },
+        "x67394": {
+            "name_en": "A Frightening Field Trip",
+            "name_fr": "L'histoire de Tharl Oom Khash",
+            "level": 55,
+            "npc_en": "Malingering Moogle",
+            "npc_fr": "Mog Stressé",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67393"]
+        },
+        "x67398": {
+            "name_en": "Give Back My Precious",
+            "name_fr": "Mon bien le plus précieux",
+            "level": 55,
+            "npc_en": "Mewling Moogle",
+            "npc_fr": "Mog Siffleur",
+            "patch": "3.0",
+            "cPrev": ["q.67171"]
+        },
+        "x67399": {
+            "name_en": "Protecting the Pom",
+            "name_fr": "La Garde-pompon a des problèmes",
+            "level": 55,
+            "npc_en": "Mogloo",
+            "npc_fr": "Mogloo",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67368"],
+            "cNext": ["q.67400"]
+        },
+        "x67400": {
+            "name_en": "Save the Pomguard",
+            "name_fr": "Les protecteurs de Zénith",
+            "level": 55,
+            "npc_en": "Mogkul",
+            "npc_fr": "Mogkul",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67399"],
+            "cNext": ["q.67401"]
+        },
+        "x67401": {
+            "name_en": "An Urgent Message",
+            "name_fr": "Les patrouilleurs de Zénith",
+            "level": 55,
+            "npc_en": "Mogkul",
+            "npc_fr": "Mogkul",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67400"],
+            "cNext": ["q.67402", "q.67403"]
+        },
+        "x67402": {
+            "name_en": "An Uneasy Feeling",
+            "name_fr": "Les craintes de Mogga",
+            "level": 55,
+            "npc_en": "Mogga",
+            "npc_fr": "Mogga",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67401"],
+            "cNext": ["q.67404"]
+        },
+        "x67403": {
+            "name_en": "A Moogle's Intuition",
+            "name_fr": "L'intuition de Mogok",
+            "level": 55,
+            "npc_en": "Mogok",
+            "npc_fr": "Mogok",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67401"],
+            "cNext": ["q.67404"]
+        },
+        "x67404": {
+            "name_en": "Trouble at Zenith",
+            "name_fr": "L'intention des disciples de Nidhogg",
+            "level": 55,
+            "npc_en": "Mogkul",
+            "npc_fr": "Mogkul",
+            "patch": "3.0",
+            "cPrev": ["q.67171", "q.67402", "q.67403"],
+            "cNext": ["q.67408"]
+        },
+        "x67411": {
+            "name_en": "Respecting the Sheave",
+            "name_fr": "Un coin de paix pour Mère Cheveu",
+            "level": 56,
+            "npc_en": "Mogzun",
+            "npc_fr": "Mogzun",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67390", "q.67408"],
+            "cNext": ["q.67412"]
+        },
+        "x67412": {
+            "name_en": "Spring Cleaning",
+            "name_fr": "Zou, les anzus !",
+            "level": 56,
+            "npc_en": "Mogoon",
+            "npc_fr": "Mogoon",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67411"],
+            "cNext": ["q.67413"]
+        },
+        "x67413": {
+            "name_en": "No Nests Allowed",
+            "name_fr": "Adieu, nids douillets !",
+            "level": 56,
+            "npc_en": "Mogoon",
+            "npc_fr": "Mogoon",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67412"]
+        },
+        "x67414": {
+            "name_en": "Bitter Is the Night",
+            "name_fr": "Un regard troublant",
+            "level": 56,
+            "npc_en": "Maenne",
+            "npc_fr": "Maenne",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67408"],
+            "cNext": ["q.67417"]
+        },
+        "x67417": {
+            "name_en": "Scouting and Maiming",
+            "name_fr": "Leur dame des éclaireurs",
+            "level": 56,
+            "npc_en": "Maenne",
+            "npc_fr": "Maenne",
+            "patch": "3.1",
+            "cPrev": ["q.67173", "q.67414"],
+            "cNext": ["q.67418"]
+        },
+        "x67418": {
+            "name_en": "Finders Keepers",
+            "name_fr": "Deux mains gauches",
+            "level": 56,
+            "npc_en": "Northeastern Scouting Party Dragoon",
+            "npc_fr": "Éclaireur De L'équipe Nord-est",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67417"],
+            "cNext": ["q.67415"]
+        },
+        "x67415": {
+            "name_en": "These Things Take Time",
+            "name_fr": "Sûres mesures",
+            "level": 56,
+            "npc_en": "Maenne",
+            "npc_fr": "Maenne",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67418"],
+            "cNext": ["q.67419"]
+        },
+        "x67419": {
+            "name_en": "An Unwelcome Surprise",
+            "name_fr": "Un précieux rapport",
+            "level": 56,
+            "npc_en": "Southern Scouting Party Dragoon",
+            "npc_fr": "Éclaireur De L'équipe Sud",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67415"],
+            "cNext": ["q.67420"]
+        },
+        "x67420": {
+            "name_en": "A Meter Too Far",
+            "name_fr": "Justes mesures",
+            "level": 56,
+            "npc_en": "Northern Scouting Party Dragoon",
+            "npc_fr": "Éclaireuse De L'équipe Nord",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67419"],
+            "cNext": ["q.67416"]
+        },
+        "x67416": {
+            "name_en": "Thar Be Dragons",
+            "name_fr": "Sa vraie nature",
+            "level": 56,
+            "npc_en": "Maenne",
+            "npc_fr": "Maenne",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67420"],
+            "cNext": ["q.67407"]
+        },
+        "x67407": {
+            "name_en": "Laying the First Brick",
+            "name_fr": "Une collaboration historique",
+            "level": 56,
+            "npc_en": "Maenne",
+            "npc_fr": "Maenne",
+            "patch": "3.0",
+            "cPrev": ["q.67173", "q.67416"],
+            "cNext": ["q.67856"]
+        },
+        "x67509": {
+            "name_en": "Classic Misdirection",
+            "name_fr": "Escapade à Ablablathia",
+            "level": 59,
+            "npc_en": "Mogule",
+            "npc_fr": "Mogule",
+            "patch": "3.0",
+            "cPrev": ["q.67197", "q.67508"],
+            "cNext": ["q.67510"]
+        },
+        "x67514": {
+            "name_en": "A Moogle by Any Other Name",
+            "name_fr": "De l'origine des noms mogs",
+            "level": 59,
+            "npc_en": "Kupli Kuki",
+            "npc_fr": "Kupli Kuki",
+            "patch": "3.0",
+            "cPrev": ["q.67197", "q.67513"]
+        }
+    }
+}

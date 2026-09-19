@@ -1,0 +1,2218 @@
+{
+    "key": "cosmic-tools",
+    "groupName_en": "Cosmic Tools",
+    "groupName_fr": "Cosmic Tools",
+    "tasks": {
+        "x101": {
+            "name_en": "Cosmic Saw Prototype v0.1",
+            "name_fr": "Prototype de scie cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.CRP",
+            "patch": "7.21",
+            "cNext": [102]
+        },
+        "x102": {
+            "name_en": "Cosmic Saw Prototype v0.2",
+            "name_fr": "Prototype de scie cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [101],
+            "cNext": [103]
+        },
+        "x103": {
+            "name_en": "Cosmic Saw Prototype v0.3",
+            "name_fr": "Prototype de scie cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [102],
+            "cNext": [104]
+        },
+        "x104": {
+            "name_en": "Cosmic Saw Prototype v0.4",
+            "name_fr": "Prototype de scie cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [103],
+            "cNext": [105]
+        },
+        "x105": {
+            "name_en": "Cosmic Saw Prototype v0.5",
+            "name_fr": "Prototype de scie cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [104],
+            "cNext": [106]
+        },
+        "x106": {
+            "name_en": "Cosmic Saw Prototype v0.6",
+            "name_fr": "Prototype de scie cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [105],
+            "cNext": [107]
+        },
+        "x107": {
+            "name_en": "Cosmic Saw Prototype v0.7",
+            "name_fr": "Prototype de scie cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [106],
+            "cNext": [108]
+        },
+        "x108": {
+            "name_en": "Cosmic Saw Prototype v0.8",
+            "name_fr": "Prototype de scie cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [107],
+            "cNext": [109]
+        },
+        "x109": {
+            "name_en": "Cosmic Saw",
+            "name_fr": "Scie cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [108],
+            "cNext": [110],
+            "cSiblings": ["a.3691"]
+        },
+        "x110": {
+            "name_en": "Cosmic Saw v1.1",
+            "name_fr": "Scie cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [109],
+            "cNext": [111]
+        },
+        "x111": {
+            "name_en": "Cosmic Saw v1.2",
+            "name_fr": "Scie cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [110],
+            "cNext": [112]
+        },
+        "x112": {
+            "name_en": "Cosmic Saw v1.3",
+            "name_fr": "Scie cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [111],
+            "cNext": [113]
+        },
+        "x113": {
+            "name_en": "Cosmic Saw v1.4",
+            "name_fr": "Scie cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [112],
+            "cNext": [114]
+        },
+        "x114": {
+            "name_en": "Stellar Saw",
+            "name_fr": "Scie spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [113],
+            "cNext": [115],
+            "cSiblings": ["a.3792"]
+        },
+        "x115": {
+            "name_en": "Stellar Saw v1.1",
+            "name_fr": "Scie spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [114],
+            "cNext": [116]
+        },
+        "x116": {
+            "name_en": "Stellar Saw v1.2",
+            "name_fr": "Scie spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [115],
+            "cNext": [117]
+        },
+        "x117": {
+            "name_en": "Hypersaw",
+            "name_fr": "Scie hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [116],
+            "cNext": [118],
+            "cSiblings": ["a.3877"]
+        },
+        "x118": {
+            "name_en": "Hypersaw v1.1",
+            "name_fr": "Scie hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [117],
+            "cNext": [119]
+        },
+        "x119": {
+            "name_en": "Hypersaw v1.2",
+            "name_fr": "Scie hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [118],
+            "cNext": [120]
+        },
+        "x120": {
+            "name_en": "Saw of Stars",
+            "name_fr": "Scie des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.CRP",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [119],
+            "cSiblings": ["a.3914"]
+        },
+        "x201": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.1",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.BSM",
+            "patch": "7.21",
+            "cNext": [202]
+        },
+        "x202": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.2",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [201],
+            "cNext": [203]
+        },
+        "x203": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.3",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [202],
+            "cNext": [204]
+        },
+        "x204": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.4",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [203],
+            "cNext": [205]
+        },
+        "x205": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.5",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [204],
+            "cNext": [206]
+        },
+        "x206": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.6",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [205],
+            "cNext": [207]
+        },
+        "x207": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.7",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [206],
+            "cNext": [208]
+        },
+        "x208": {
+            "name_en": "Cosmic Cross-pein Hammer Prototype v0.8",
+            "name_fr": "Prototype de marteau à panne croisée cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [207],
+            "cNext": [209]
+        },
+        "x209": {
+            "name_en": "Cosmic Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [208],
+            "cNext": [210],
+            "cSiblings": ["a.3692"]
+        },
+        "x210": {
+            "name_en": "Cosmic Cross-pein Hammer v1.1",
+            "name_fr": "Marteau à panne croisée cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [209],
+            "cNext": [211]
+        },
+        "x211": {
+            "name_en": "Cosmic Cross-pein Hammer v1.2",
+            "name_fr": "Marteau à panne croisée cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [210],
+            "cNext": [212]
+        },
+        "x212": {
+            "name_en": "Cosmic Cross-pein Hammer v1.3",
+            "name_fr": "Marteau à panne croisée cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [211],
+            "cNext": [213]
+        },
+        "x213": {
+            "name_en": "Cosmic Cross-pein Hammer v1.4",
+            "name_fr": "Marteau à panne croisée cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [212],
+            "cNext": [214]
+        },
+        "x214": {
+            "name_en": "Stellar Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée spatial",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [213],
+            "cNext": [215],
+            "cSiblings": ["a.3793"]
+        },
+        "x215": {
+            "name_en": "Stellar Cross-pein Hammer v1.1",
+            "name_fr": "Marteau à panne croisée spatial v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [214],
+            "cNext": [216]
+        },
+        "x216": {
+            "name_en": "Stellar Cross-pein Hammer v1.2",
+            "name_fr": "Marteau à panne croisée spatial v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [215],
+            "cNext": [217]
+        },
+        "x217": {
+            "name_en": "Cross-pein Hyperhammer",
+            "name_fr": "Marteau à panne croisée hyperspatial",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [216],
+            "cNext": [218],
+            "cSiblings": ["a.3878"]
+        },
+        "x218": {
+            "name_en": "Cross-pein Hyperhammer v1.1",
+            "name_fr": "Marteau à panne croisée hyperspatial v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [217],
+            "cNext": [219]
+        },
+        "x219": {
+            "name_en": "Cross-pein Hyperhammer v1.2",
+            "name_fr": "Marteau à panne croisée hyperspatial v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [218],
+            "cNext": [220]
+        },
+        "x220": {
+            "name_en": "Cross-pein Hammer of Stars",
+            "name_fr": "Marteau à panne croisée des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.BSM",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [219],
+            "cSiblings": ["a.3915"]
+        },
+        "x301": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.1",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.ARM",
+            "patch": "7.21",
+            "cNext": [302]
+        },
+        "x302": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.2",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [301],
+            "cNext": [303]
+        },
+        "x303": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.3",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [302],
+            "cNext": [304]
+        },
+        "x304": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.4",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [303],
+            "cNext": [305]
+        },
+        "x305": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.5",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [304],
+            "cNext": [306]
+        },
+        "x306": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.6",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [305],
+            "cNext": [307]
+        },
+        "x307": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.7",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [306],
+            "cNext": [308]
+        },
+        "x308": {
+            "name_en": "Cosmic Raising Hammer Prototype v0.8",
+            "name_fr": "Prototype de marteau de batteur cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [307],
+            "cNext": [309]
+        },
+        "x309": {
+            "name_en": "Cosmic Raising Hammer",
+            "name_fr": "Marteau de batteur cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [308],
+            "cNext": [310],
+            "cSiblings": ["a.3693"]
+        },
+        "x310": {
+            "name_en": "Cosmic Raising Hammer v1.1",
+            "name_fr": "Marteau de batteur cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [309],
+            "cNext": [311]
+        },
+        "x311": {
+            "name_en": "Cosmic Raising Hammer v1.2",
+            "name_fr": "Marteau de batteur cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [310],
+            "cNext": [312]
+        },
+        "x312": {
+            "name_en": "Cosmic Raising Hammer v1.3",
+            "name_fr": "Marteau de batteur cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [311],
+            "cNext": [313]
+        },
+        "x313": {
+            "name_en": "Cosmic Raising Hammer v1.4",
+            "name_fr": "Marteau de batteur cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [312],
+            "cNext": [314]
+        },
+        "x314": {
+            "name_en": "Stellar Raising Hammer",
+            "name_fr": "Marteau de batteur spatial",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [313],
+            "cNext": [315],
+            "cSiblings": ["a.3794"]
+        },
+        "x315": {
+            "name_en": "Stellar Raising Hammer v1.1",
+            "name_fr": "Marteau de batteur spatial v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [314],
+            "cNext": [316]
+        },
+        "x316": {
+            "name_en": "Stellar Raising Hammer v1.2",
+            "name_fr": "Marteau de batteur spatial v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [315],
+            "cNext": [317]
+        },
+        "x317": {
+            "name_en": "Raising Hyperhammer",
+            "name_fr": "Marteau de batteur hyperspatial",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [316],
+            "cNext": [318],
+            "cSiblings": ["a.3879"]
+        },
+        "x318": {
+            "name_en": "Raising Hyperhammer v1.1",
+            "name_fr": "Marteau de batteur hyperspatial v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [317],
+            "cNext": [319]
+        },
+        "x319": {
+            "name_en": "Raising Hyperhammer v1.2",
+            "name_fr": "Marteau de batteur hyperspatial v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [318],
+            "cNext": [320]
+        },
+        "x320": {
+            "name_en": "Raising Hammer of Stars",
+            "name_fr": "Marteau de batteur des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.ARM",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [319],
+            "cSiblings": ["a.3916"]
+        },
+        "x401": {
+            "name_en": "Cosmic Mallet Prototype v0.1",
+            "name_fr": "Prototype de massette cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.GSM",
+            "patch": "7.21",
+            "cNext": [402]
+        },
+        "x402": {
+            "name_en": "Cosmic Mallet Prototype v0.2",
+            "name_fr": "Prototype de massette cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [401],
+            "cNext": [403]
+        },
+        "x403": {
+            "name_en": "Cosmic Mallet Prototype v0.3",
+            "name_fr": "Prototype de massette cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [402],
+            "cNext": [404]
+        },
+        "x404": {
+            "name_en": "Cosmic Mallet Prototype v0.4",
+            "name_fr": "Prototype de massette cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [403],
+            "cNext": [405]
+        },
+        "x405": {
+            "name_en": "Cosmic Mallet Prototype v0.5",
+            "name_fr": "Prototype de massette cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [404],
+            "cNext": [406]
+        },
+        "x406": {
+            "name_en": "Cosmic Mallet Prototype v0.6",
+            "name_fr": "Prototype de massette cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [405],
+            "cNext": [407]
+        },
+        "x407": {
+            "name_en": "Cosmic Mallet Prototype v0.7",
+            "name_fr": "Prototype de massette cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [406],
+            "cNext": [408]
+        },
+        "x408": {
+            "name_en": "Cosmic Mallet Prototype v0.8",
+            "name_fr": "Prototype de massette cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [407],
+            "cNext": [409]
+        },
+        "x409": {
+            "name_en": "Cosmic Mallet",
+            "name_fr": "Massette cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [408],
+            "cNext": [410],
+            "cSiblings": ["a.3694"]
+        },
+        "x410": {
+            "name_en": "Cosmic Mallet v1.1",
+            "name_fr": "Massette cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [409],
+            "cNext": [411]
+        },
+        "x411": {
+            "name_en": "Cosmic Mallet v1.2",
+            "name_fr": "Massette cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [410],
+            "cNext": [412]
+        },
+        "x412": {
+            "name_en": "Cosmic Mallet v1.3",
+            "name_fr": "Massette cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [411],
+            "cNext": [413]
+        },
+        "x413": {
+            "name_en": "Cosmic Mallet v1.4",
+            "name_fr": "Massette cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [412],
+            "cNext": [414]
+        },
+        "x414": {
+            "name_en": "Stellar Mallet",
+            "name_fr": "Massette spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [413],
+            "cNext": [415],
+            "cSiblings": ["a.3795"]
+        },
+        "x415": {
+            "name_en": "Stellar Mallet v1.1",
+            "name_fr": "Massette spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [414],
+            "cNext": [416]
+        },
+        "x416": {
+            "name_en": "Stellar Mallet v1.2",
+            "name_fr": "Massette spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [415],
+            "cNext": [417]
+        },
+        "x417": {
+            "name_en": "Hypermallet",
+            "name_fr": "Massette hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [416],
+            "cNext": [418],
+            "cSiblings": ["a.3880"]
+        },
+        "x418": {
+            "name_en": "Hypermallet v1.1",
+            "name_fr": "Massette hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [417],
+            "cNext": [419]
+        },
+        "x419": {
+            "name_en": "Hypermallet v1.2",
+            "name_fr": "Massette hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [418],
+            "cNext": [420]
+        },
+        "x420": {
+            "name_en": "Mallet of Stars",
+            "name_fr": "Massette des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.GSM",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [419],
+            "cSiblings": ["a.3917"]
+        },
+        "x501": {
+            "name_en": "Cosmic Round Knife v0.1",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.LTW",
+            "patch": "7.21",
+            "cNext": [502]
+        },
+        "x502": {
+            "name_en": "Cosmic Round Knife v0.2",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [501],
+            "cNext": [503]
+        },
+        "x503": {
+            "name_en": "Cosmic Round Knife v0.3",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [502],
+            "cNext": [504]
+        },
+        "x504": {
+            "name_en": "Cosmic Round Knife v0.4",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [503],
+            "cNext": [505]
+        },
+        "x505": {
+            "name_en": "Cosmic Round Knife v0.5",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [504],
+            "cNext": [506]
+        },
+        "x506": {
+            "name_en": "Cosmic Round Knife v0.6",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [505],
+            "cNext": [507]
+        },
+        "x507": {
+            "name_en": "Cosmic Round Knife v0.7",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [506],
+            "cNext": [508]
+        },
+        "x508": {
+            "name_en": "Cosmic Round Knife v0.8",
+            "name_fr": "Prototype de couteau arrondi cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [507],
+            "cNext": [509]
+        },
+        "x509": {
+            "name_en": "Cosmic Round Knife",
+            "name_fr": "Couteau arrondi cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [508],
+            "cNext": [510],
+            "cSiblings": ["a.3695"]
+        },
+        "x510": {
+            "name_en": "Cosmic Round Knife v1.1",
+            "name_fr": "Couteau arrondi cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [509],
+            "cNext": [511]
+        },
+        "x511": {
+            "name_en": "Cosmic Round Knife v1.2",
+            "name_fr": "Couteau arrondi cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [510],
+            "cNext": [512]
+        },
+        "x512": {
+            "name_en": "Cosmic Round Knife v1.3",
+            "name_fr": "Couteau arrondi cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [511],
+            "cNext": [513]
+        },
+        "x513": {
+            "name_en": "Cosmic Round Knife v1.4",
+            "name_fr": "Couteau arrondi cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [512],
+            "cNext": [514]
+        },
+        "x514": {
+            "name_en": "Stellar Round Knife",
+            "name_fr": "Couteau arrondi spatial",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [513],
+            "cNext": [515],
+            "cSiblings": ["a.3796"]
+        },
+        "x515": {
+            "name_en": "Stellar Round Knife v1.1",
+            "name_fr": "Couteau arrondi spatial v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [514],
+            "cNext": [516]
+        },
+        "x516": {
+            "name_en": "Stellar Round Knife v1.2",
+            "name_fr": "Couteau arrondi spatial v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [515],
+            "cNext": [517]
+        },
+        "x517": {
+            "name_en": "Round Hyperknife",
+            "name_fr": "Couteau arrondi hyperspatial",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [516],
+            "cNext": [518],
+            "cSiblings": ["a.3881"]
+        },
+        "x518": {
+            "name_en": "Round Hyperknife v1.1",
+            "name_fr": "Couteau arrondi hyperspatial v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [517],
+            "cNext": [519]
+        },
+        "x519": {
+            "name_en": "Round Hyperknife v1.2",
+            "name_fr": "Couteau arrondi hyperspatial v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [518],
+            "cNext": [520]
+        },
+        "x520": {
+            "name_en": "Round Knife of Stars",
+            "name_fr": "Couteau arrondi des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.LTW",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [519],
+            "cSiblings": ["a.3918"]
+        },
+        "x601": {
+            "name_en": "Cosmic Needle v0.1",
+            "name_fr": "Prototype d'aiguille cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.WVR",
+            "patch": "7.21",
+            "cNext": [602]
+        },
+        "x602": {
+            "name_en": "Cosmic Needle v0.2",
+            "name_fr": "Prototype d'aiguille cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [601],
+            "cNext": [603]
+        },
+        "x603": {
+            "name_en": "Cosmic Needle v0.3",
+            "name_fr": "Prototype d'aiguille cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [602],
+            "cNext": [604]
+        },
+        "x604": {
+            "name_en": "Cosmic Needle v0.4",
+            "name_fr": "Prototype d'aiguille cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [603],
+            "cNext": [605]
+        },
+        "x605": {
+            "name_en": "Cosmic Needle v0.5",
+            "name_fr": "Prototype d'aiguille cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [604],
+            "cNext": [606]
+        },
+        "x606": {
+            "name_en": "Cosmic Needle v0.6",
+            "name_fr": "Prototype d'aiguille cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [605],
+            "cNext": [607]
+        },
+        "x607": {
+            "name_en": "Cosmic Needle v0.7",
+            "name_fr": "Prototype d'aiguille cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [606],
+            "cNext": [608]
+        },
+        "x608": {
+            "name_en": "Cosmic Needle v0.8",
+            "name_fr": "Prototype d'aiguille cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [607],
+            "cNext": [609]
+        },
+        "x609": {
+            "name_en": "Cosmic Needle",
+            "name_fr": "Aiguille cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [608],
+            "cNext": [610],
+            "cSiblings": ["a.3696"]
+        },
+        "x610": {
+            "name_en": "Cosmic Needle v1.1",
+            "name_fr": "Aiguille cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [609],
+            "cNext": [611]
+        },
+        "x611": {
+            "name_en": "Cosmic Needle v1.2",
+            "name_fr": "Aiguille cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [610],
+            "cNext": [612]
+        },
+        "x612": {
+            "name_en": "Cosmic Needle v1.3",
+            "name_fr": "Aiguille cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [611],
+            "cNext": [613]
+        },
+        "x613": {
+            "name_en": "Cosmic Needle v1.4",
+            "name_fr": "Aiguille cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [612],
+            "cNext": [614]
+        },
+        "x614": {
+            "name_en": "Stellar Needle",
+            "name_fr": "Aiguille spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [613],
+            "cNext": [615],
+            "cSiblings": ["a.3797"]
+        },
+        "x615": {
+            "name_en": "Stellar Needle v1.1",
+            "name_fr": "Aiguille spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [614],
+            "cNext": [616]
+        },
+        "x616": {
+            "name_en": "Stellar Needle v1.2",
+            "name_fr": "Aiguille spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [615],
+            "cNext": [617]
+        },
+        "x617": {
+            "name_en": "Hyperneedle",
+            "name_fr": "Aiguille hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [616],
+            "cNext": [618],
+            "cSiblings": ["a.3882"]
+        },
+        "x618": {
+            "name_en": "Hyperneedle v1.1",
+            "name_fr": "Aiguille hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [617],
+            "cNext": [619]
+        },
+        "x619": {
+            "name_en": "Hyperneedle v1.2",
+            "name_fr": "Aiguille hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [618],
+            "cNext": [620]
+        },
+        "x620": {
+            "name_en": "Needle of Stars",
+            "name_fr": "Aiguille des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.WVR",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [619],
+            "cSiblings": ["a.3919"]
+        },
+        "x701": {
+            "name_en": "Cosmic Alembic Prototype v0.1",
+            "name_fr": "Prototype d'alambic cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.ALC",
+            "patch": "7.21",
+            "cNext": [702]
+        },
+        "x702": {
+            "name_en": "Cosmic Alembic Prototype v0.2",
+            "name_fr": "Prototype d'alambic cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [701],
+            "cNext": [703]
+        },
+        "x703": {
+            "name_en": "Cosmic Alembic Prototype v0.3",
+            "name_fr": "Prototype d'alambic cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [702],
+            "cNext": [704]
+        },
+        "x704": {
+            "name_en": "Cosmic Alembic Prototype v0.4",
+            "name_fr": "Prototype d'alambic cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [703],
+            "cNext": [705]
+        },
+        "x705": {
+            "name_en": "Cosmic Alembic Prototype v0.5",
+            "name_fr": "Prototype d'alambic cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [704],
+            "cNext": [706]
+        },
+        "x706": {
+            "name_en": "Cosmic Alembic Prototype v0.6",
+            "name_fr": "Prototype d'alambic cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [705],
+            "cNext": [707]
+        },
+        "x707": {
+            "name_en": "Cosmic Alembic Prototype v0.7",
+            "name_fr": "Prototype d'alambic cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [706],
+            "cNext": [708]
+        },
+        "x708": {
+            "name_en": "Cosmic Alembic Prototype v0.8",
+            "name_fr": "Prototype d'alambic cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [707],
+            "cNext": [709]
+        },
+        "x709": {
+            "name_en": "Cosmic Alembic",
+            "name_fr": "Alambic cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [708],
+            "cNext": [710],
+            "cSiblings": ["a.3697"]
+        },
+        "x710": {
+            "name_en": "Cosmic Alembic v1.1",
+            "name_fr": "Alambic cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [709],
+            "cNext": [711]
+        },
+        "x711": {
+            "name_en": "Cosmic Alembic v1.2",
+            "name_fr": "Alambic cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [710],
+            "cNext": [712]
+        },
+        "x712": {
+            "name_en": "Cosmic Alembic v1.3",
+            "name_fr": "Alambic cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [711],
+            "cNext": [713]
+        },
+        "x713": {
+            "name_en": "Cosmic Alembic v1.4",
+            "name_fr": "Alambic cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [712],
+            "cNext": [714]
+        },
+        "x714": {
+            "name_en": "Stellar Alembic",
+            "name_fr": "Alambic spatial",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [713],
+            "cNext": [715],
+            "cSiblings": ["a.3798"]
+        },
+        "x715": {
+            "name_en": "Stellar Alembic v1.1",
+            "name_fr": "Alambic spatial v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [714],
+            "cNext": [716]
+        },
+        "x716": {
+            "name_en": "Stellar Alembic v1.2",
+            "name_fr": "Alambic spatial v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [715],
+            "cNext": [717]
+        },
+        "x717": {
+            "name_en": "Hyperalembic",
+            "name_fr": "Alambic hyperspatial",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [716],
+            "cNext": [718],
+            "cSiblings": ["a.3883"]
+        },
+        "x718": {
+            "name_en": "Hyperalembic v1.1",
+            "name_fr": "Alambic hyperspatial v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [717],
+            "cNext": [719]
+        },
+        "x719": {
+            "name_en": "Hyperalembic v1.2",
+            "name_fr": "Alambic hyperspatial v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [718],
+            "cNext": [720]
+        },
+        "x720": {
+            "name_en": "Alembic of Stars",
+            "name_fr": "Alambic des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.ALC",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [719],
+            "cSiblings": ["a.3920"]
+        },
+        "x801": {
+            "name_en": "Cosmic Frypan Prototype v0.1",
+            "name_fr": "Prototype de poêle à frire cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.CUL",
+            "patch": "7.21",
+            "cNext": [802]
+        },
+        "x802": {
+            "name_en": "Cosmic Frypan Prototype v0.2",
+            "name_fr": "Prototype de poêle à frire cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [801],
+            "cNext": [803]
+        },
+        "x803": {
+            "name_en": "Cosmic Frypan Prototype v0.3",
+            "name_fr": "Prototype de poêle à frire cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [802],
+            "cNext": [804]
+        },
+        "x804": {
+            "name_en": "Cosmic Frypan Prototype v0.4",
+            "name_fr": "Prototype de poêle à frire cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [803],
+            "cNext": [805]
+        },
+        "x805": {
+            "name_en": "Cosmic Frypan Prototype v0.5",
+            "name_fr": "Prototype de poêle à frire cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [804],
+            "cNext": [806]
+        },
+        "x806": {
+            "name_en": "Cosmic Frypan Prototype v0.6",
+            "name_fr": "Prototype de poêle à frire cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [805],
+            "cNext": [807]
+        },
+        "x807": {
+            "name_en": "Cosmic Frypan Prototype v0.7",
+            "name_fr": "Prototype de poêle à frire cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [806],
+            "cNext": [808]
+        },
+        "x808": {
+            "name_en": "Cosmic Frypan Prototype v0.8",
+            "name_fr": "Prototype de poêle à frire cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [807],
+            "cNext": [809]
+        },
+        "x809": {
+            "name_en": "Cosmic Frypan",
+            "name_fr": "Poêle à frire cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [808],
+            "cNext": [810],
+            "cSiblings": ["a.3698"]
+        },
+        "x810": {
+            "name_en": "Cosmic Frypan v1.1",
+            "name_fr": "Poêle à frire cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [809],
+            "cNext": [811]
+        },
+        "x811": {
+            "name_en": "Cosmic Frypan v1.2",
+            "name_fr": "Poêle à frire cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [810],
+            "cNext": [812]
+        },
+        "x812": {
+            "name_en": "Cosmic Frypan v1.3",
+            "name_fr": "Poêle à frire cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [811],
+            "cNext": [813]
+        },
+        "x813": {
+            "name_en": "Cosmic Frypan v1.4",
+            "name_fr": "Poêle à frire cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [812],
+            "cNext": [814]
+        },
+        "x814": {
+            "name_en": "Stellar Frypan",
+            "name_fr": "Poêle à frire spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [813],
+            "cNext": [815],
+            "cSiblings": ["a.3799"]
+        },
+        "x815": {
+            "name_en": "Stellar Frypan v1.1",
+            "name_fr": "Poêle à frire spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [814],
+            "cNext": [816]
+        },
+        "x816": {
+            "name_en": "Stellar Frypan v1.2",
+            "name_fr": "Poêle à frire spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [815],
+            "cNext": [817]
+        },
+        "x817": {
+            "name_en": "Hyperfrypan",
+            "name_fr": "Poêle à frire hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [816],
+            "cNext": [818],
+            "cSiblings": ["a.3884"]
+        },
+        "x818": {
+            "name_en": "Hyperfrypan v1.1",
+            "name_fr": "Poêle à frire hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [817],
+            "cNext": [819]
+        },
+        "x819": {
+            "name_en": "Hyperfrypan v1.2",
+            "name_fr": "Poêle à frire hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [818],
+            "cNext": [820]
+        },
+        "x820": {
+            "name_en": "Frypan of Stars",
+            "name_fr": "Poêle à frire des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.CUL",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [819],
+            "cSiblings": ["a.3921"]
+        },
+        "x901": {
+            "name_en": "Cosmic Pickaxe Prototype v0.1",
+            "name_fr": "Prototype de pioche cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.MIN",
+            "patch": "7.21",
+            "cNext": [902]
+        },
+        "x902": {
+            "name_en": "Cosmic Pickaxe Prototype v0.2",
+            "name_fr": "Prototype de pioche cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [901],
+            "cNext": [903]
+        },
+        "x903": {
+            "name_en": "Cosmic Pickaxe Prototype v0.3",
+            "name_fr": "Prototype de pioche cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [902],
+            "cNext": [904]
+        },
+        "x904": {
+            "name_en": "Cosmic Pickaxe Prototype v0.4",
+            "name_fr": "Prototype de pioche cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [903],
+            "cNext": [905]
+        },
+        "x905": {
+            "name_en": "Cosmic Pickaxe Prototype v0.5",
+            "name_fr": "Prototype de pioche cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [904],
+            "cNext": [906]
+        },
+        "x906": {
+            "name_en": "Cosmic Pickaxe Prototype v0.6",
+            "name_fr": "Prototype de pioche cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [905],
+            "cNext": [907]
+        },
+        "x907": {
+            "name_en": "Cosmic Pickaxe Prototype v0.7",
+            "name_fr": "Prototype de pioche cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [906],
+            "cNext": [908]
+        },
+        "x908": {
+            "name_en": "Cosmic Pickaxe Prototype v0.8",
+            "name_fr": "Prototype de pioche cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [907],
+            "cNext": [909]
+        },
+        "x909": {
+            "name_en": "Cosmic Pickaxe",
+            "name_fr": "Pioche cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [908],
+            "cNext": [910],
+            "cSiblings": ["a.3699"]
+        },
+        "x910": {
+            "name_en": "Cosmic Pickaxe v1.1",
+            "name_fr": "Pioche cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [909],
+            "cNext": [911]
+        },
+        "x911": {
+            "name_en": "Cosmic Pickaxe v1.2",
+            "name_fr": "Pioche cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [910],
+            "cNext": [912]
+        },
+        "x912": {
+            "name_en": "Cosmic Pickaxe v1.3",
+            "name_fr": "Pioche cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [911],
+            "cNext": [913]
+        },
+        "x913": {
+            "name_en": "Cosmic Pickaxe v1.4",
+            "name_fr": "Pioche cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [912],
+            "cNext": [914]
+        },
+        "x914": {
+            "name_en": "Stellar Pickaxe",
+            "name_fr": "Pioche spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [913],
+            "cNext": [915],
+            "cSiblings": ["a.3800"]
+        },
+        "x915": {
+            "name_en": "Stellar Pickaxe v1.1",
+            "name_fr": "Pioche spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [914],
+            "cNext": [916]
+        },
+        "x916": {
+            "name_en": "Stellar Pickaxe v1.2",
+            "name_fr": "Pioche spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [915],
+            "cNext": [917]
+        },
+        "x917": {
+            "name_en": "Hyperpickaxe",
+            "name_fr": "Pioche hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [916],
+            "cNext": [918],
+            "cSiblings": ["a.3885"]
+        },
+        "x918": {
+            "name_en": "Hyperpickaxe v1.1",
+            "name_fr": "Pioche hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [917],
+            "cNext": [919]
+        },
+        "x919": {
+            "name_en": "Hyperpickaxe v1.2",
+            "name_fr": "Pioche hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [918],
+            "cNext": [920]
+        },
+        "x920": {
+            "name_en": "Pickaxe of Stars",
+            "name_fr": "Pioche des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.MIN",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [919],
+            "cSiblings": ["a.3922"]
+        },
+        "x1001": {
+            "name_en": "Cosmic Hatchet Prototype v0.1",
+            "name_fr": "Prototype de hachette cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.BTN",
+            "patch": "7.21",
+            "cNext": [1002]
+        },
+        "x1002": {
+            "name_en": "Cosmic Hatchet Prototype v0.2",
+            "name_fr": "Prototype de hachette cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [1001],
+            "cNext": [1003]
+        },
+        "x1003": {
+            "name_en": "Cosmic Hatchet Prototype v0.3",
+            "name_fr": "Prototype de hachette cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [1002],
+            "cNext": [1004]
+        },
+        "x1004": {
+            "name_en": "Cosmic Hatchet Prototype v0.4",
+            "name_fr": "Prototype de hachette cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [1003],
+            "cNext": [1005]
+        },
+        "x1005": {
+            "name_en": "Cosmic Hatchet Prototype v0.5",
+            "name_fr": "Prototype de hachette cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [1004],
+            "cNext": [1006]
+        },
+        "x1006": {
+            "name_en": "Cosmic Hatchet Prototype v0.6",
+            "name_fr": "Prototype de hachette cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [1005],
+            "cNext": [1007]
+        },
+        "x1007": {
+            "name_en": "Cosmic Hatchet Prototype v0.7",
+            "name_fr": "Prototype de hachette cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [1006],
+            "cNext": [1008]
+        },
+        "x1008": {
+            "name_en": "Cosmic Hatchet Prototype v0.8",
+            "name_fr": "Prototype de hachette cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [1007],
+            "cNext": [1009]
+        },
+        "x1009": {
+            "name_en": "Cosmic Hatchet",
+            "name_fr": "Hachette cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [1008],
+            "cNext": [1010],
+            "cSiblings": ["a.3700"]
+        },
+        "x1010": {
+            "name_en": "Cosmic Hatchet v1.1",
+            "name_fr": "Hachette cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [1009],
+            "cNext": [1011]
+        },
+        "x1011": {
+            "name_en": "Cosmic Hatchet v1.2",
+            "name_fr": "Hachette cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [1010],
+            "cNext": [1012]
+        },
+        "x1012": {
+            "name_en": "Cosmic Hatchet v1.3",
+            "name_fr": "Hachette cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [1011],
+            "cNext": [1013]
+        },
+        "x1013": {
+            "name_en": "Cosmic Hatchet v1.4",
+            "name_fr": "Hachette cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [1012],
+            "cNext": [1014]
+        },
+        "x1014": {
+            "name_en": "Stellar Hatchet",
+            "name_fr": "Hachette spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [1013],
+            "cNext": [1015],
+            "cSiblings": ["a.3801"]
+        },
+        "x1015": {
+            "name_en": "Stellar Hatchet v1.1",
+            "name_fr": "Hachette spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [1014],
+            "cNext": [1016]
+        },
+        "x1016": {
+            "name_en": "Stellar Hatchet v1.2",
+            "name_fr": "Hachette spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [1015],
+            "cNext": [1017]
+        },
+        "x1017": {
+            "name_en": "Hyperhatchet",
+            "name_fr": "Hachette hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [1016],
+            "cNext": [1018],
+            "cSiblings": ["a.3886"]
+        },
+        "x1018": {
+            "name_en": "Hyperhatchet v1.1",
+            "name_fr": "Hachette hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [1017],
+            "cNext": [1019]
+        },
+        "x1019": {
+            "name_en": "Hyperhatchet v1.2",
+            "name_fr": "Hachette hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [1018],
+            "cNext": [1020]
+        },
+        "x1020": {
+            "name_en": "Hatchet of Stars",
+            "name_fr": "Hachette des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.BTN",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [1019],
+            "cSiblings": ["a.3923"]
+        },
+        "x1101": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.1",
+            "name_fr": "Prototype de canne à pêche cosmique v0.1",
+            "iLevel": "10",
+            "job": "@CLASS_JOB.FSH",
+            "patch": "7.21",
+            "cNext": [1102]
+        },
+        "x1102": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.2",
+            "name_fr": "Prototype de canne à pêche cosmique v0.2",
+            "iLevel": "30",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.1",
+            "patch": "7.21",
+            "cPrev": [1101],
+            "cNext": [1103]
+        },
+        "x1103": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.3",
+            "name_fr": "Prototype de canne à pêche cosmique v0.3",
+            "iLevel": "55",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.2",
+            "patch": "7.21",
+            "cPrev": [1102],
+            "cNext": [1104]
+        },
+        "x1104": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.4",
+            "name_fr": "Prototype de canne à pêche cosmique v0.4",
+            "iLevel": "150",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.3",
+            "patch": "7.21",
+            "cPrev": [1103],
+            "cNext": [1105]
+        },
+        "x1105": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.5",
+            "name_fr": "Prototype de canne à pêche cosmique v0.5",
+            "iLevel": "290",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.4",
+            "patch": "7.21",
+            "cPrev": [1104],
+            "cNext": [1106]
+        },
+        "x1106": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.6",
+            "name_fr": "Prototype de canne à pêche cosmique v0.6",
+            "iLevel": "430",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.5",
+            "patch": "7.21",
+            "cPrev": [1105],
+            "cNext": [1107]
+        },
+        "x1107": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.7",
+            "name_fr": "Prototype de canne à pêche cosmique v0.7",
+            "iLevel": "560",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.6",
+            "patch": "7.21",
+            "cPrev": [1106],
+            "cNext": [1108]
+        },
+        "x1108": {
+            "name_en": "Cosmic Fishing Rod Prototype v0.8",
+            "name_fr": "Prototype de canne à pêche cosmique v0.8",
+            "iLevel": "690",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.7",
+            "patch": "7.21",
+            "cPrev": [1107],
+            "cNext": [1109]
+        },
+        "x1109": {
+            "name_en": "Cosmic Fishing Rod",
+            "name_fr": "Canne à pêche cosmique",
+            "iLevel": "720",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.8",
+            "patch": "7.21",
+            "cPrev": [1108],
+            "cNext": [1110],
+            "cSiblings": ["a.3701"]
+        },
+        "x1110": {
+            "name_en": "Cosmic Fishing Rod v1.1",
+            "name_fr": "Canne à pêche cosmique v1.1",
+            "iLevel": "725",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.9",
+            "patch": "7.31",
+            "cPrev": [1109],
+            "cNext": [1111]
+        },
+        "x1111": {
+            "name_en": "Cosmic Fishing Rod v1.2",
+            "name_fr": "Canne à pêche cosmique v1.2",
+            "iLevel": "730",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.10",
+            "patch": "7.31",
+            "cPrev": [1110],
+            "cNext": [1112]
+        },
+        "x1112": {
+            "name_en": "Cosmic Fishing Rod v1.3",
+            "name_fr": "Canne à pêche cosmique v1.3",
+            "iLevel": "735",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.11",
+            "patch": "7.31",
+            "cPrev": [1111],
+            "cNext": [1113]
+        },
+        "x1113": {
+            "name_en": "Cosmic Fishing Rod v1.4",
+            "name_fr": "Canne à pêche cosmique v1.4",
+            "iLevel": "740",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.12",
+            "patch": "7.31",
+            "cPrev": [1112],
+            "cNext": [1114]
+        },
+        "x1114": {
+            "name_en": "Stellar Fishing Rod",
+            "name_fr": "Canne à pêche spatiale",
+            "iLevel": "750",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.13",
+            "patch": "7.31",
+            "cPrev": [1113],
+            "cNext": [1115],
+            "cSiblings": ["a.3802"]
+        },
+        "x1115": {
+            "name_en": "Stellar Fishing Rod v1.1",
+            "name_fr": "Canne à pêche spatiale v1.1",
+            "iLevel": "755",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.14",
+            "patch": "7.41",
+            "cPrev": [1114],
+            "cNext": [1116]
+        },
+        "x1116": {
+            "name_en": "Stellar Fishing Rod v1.2",
+            "name_fr": "Canne à pêche spatiale v1.2",
+            "iLevel": "760",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.15",
+            "patch": "7.41",
+            "cPrev": [1115],
+            "cNext": [1117]
+        },
+        "x1117": {
+            "name_en": "Fishing Hyperrod",
+            "name_fr": "Canne à pêche hyperspatiale",
+            "iLevel": "765",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.16",
+            "patch": "7.41",
+            "cPrev": [1116],
+            "cNext": [1118],
+            "cSiblings": ["a.3887"]
+        },
+        "x1118": {
+            "name_en": "Fishing Hyperrod v1.1",
+            "name_fr": "Canne à pêche hyperspatiale v1.1",
+            "iLevel": "770",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.17",
+            "patch": "7.51",
+            "cPrev": [1117],
+            "cNext": [1119]
+        },
+        "x1119": {
+            "name_en": "Fishing Hyperrod v1.2",
+            "name_fr": "Canne à pêche hyperspatiale v1.2",
+            "iLevel": "775",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.18",
+            "patch": "7.51",
+            "cPrev": [1118],
+            "cNext": [1120]
+        },
+        "x1120": {
+            "name_en": "Fishing Rod of Stars",
+            "name_fr": "Canne à pêche des constellations",
+            "iLevel": "780",
+            "job": "@CLASS_JOB.FSH",
+            "requirements": "@REQUIREMENT.COSMIC.19",
+            "patch": "7.51",
+            "cPrev": [1119],
+            "cSiblings": ["a.3924"]
+        }
+    }
+}

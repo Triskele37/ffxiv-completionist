@@ -1,0 +1,59 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.SELECTION_OVERLAY"
+    class="overlay-container"
+>
+    <button
+        pButton
+        class="deep-button {{overlayButtonClass}}"
+        (click)="onOverlayButtonClick()"
+    >
+        <ng-icon name="matTouchApp"></ng-icon>
+    </button>
+
+    @if(isOverlayVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <div class="overlay-title">
+                    {{'APP.SELECTION_OVERLAY.TITLE' | translate}}
+                </div>
+
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onSelectChange(true)"
+                >
+                    {{'APP.SELECTION_OVERLAY.SELECT_ALL' | translate}}
+                </button>
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onSelectChange(false)"
+                >
+                    {{'APP.SELECTION_OVERLAY.DESELECT_ALL' | translate}}
+                </button>
+                <button
+                    pButton
+                    variant="outlined"
+                    (click)="onSelectChange(null)"
+                >
+                    {{'APP.SELECTION_OVERLAY.INVERT' | translate}}
+                </button>
+
+                <p-divider align="center">
+                    {{'APP.SELECTION_OVERLAY.ACTIONS' | translate}}
+                </p-divider>
+
+                @for(taskLink of taskLinks; track $index) {
+                    <button
+                        pButton
+                        variant="outlined"
+                        [disabled]="taskLink.disabled"
+                        (click)="onTaskLinkClick(taskLink)"
+                    >
+                        {{'GAME.FEATURE.MULTI_TASK_LINK.' + taskLink.i18nKey | translate}}
+                    </button>
+                }
+            </span>
+        </div>
+    }
+</span>

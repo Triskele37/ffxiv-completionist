@@ -1,0 +1,1246 @@
+{
+    "key": "raids",
+    "groupName_en": "Raids",
+    "groupName_fr": "Raids",
+    "tasks": {
+        "x747": {
+            "name_en": "The Binds That Tie I",
+            "name_fr": "Chevalier du labyrinthe I",
+            "description_en": "Complete the Binding Coil of Bahamut.",
+            "description_fr": "Finir le Labyrinthe de Bahamut 1 fois.",
+            "points": 5,
+            "patch": "2.0",
+            "cNext": ["a.748"],
+            "cSiblings": ["d.97"]
+        },
+        "x748": {
+            "name_en": "The Binds That Tie II",
+            "name_fr": "Chevalier du labyrinthe II",
+            "description_en": "Complete the Binding Coil of Bahamut 5 times.",
+            "description_fr": "Finir le Labyrinthe de Bahamut 5 fois.",
+            "points": 10,
+            "patch": "2.0",
+            "cPrev": ["a.747"],
+            "cNext": ["a.749"]
+        },
+        "x749": {
+            "name_en": "The Binds That Tie III",
+            "name_fr": "Chevalier du labyrinthe III",
+            "description_en": "Complete the Binding Coil of Bahamut 10 times.",
+            "description_fr": "Finir le Labyrinthe de Bahamut 10 fois.",
+            "points": 20,
+            "patch": "2.0",
+            "cPrev": ["a.748"]
+        },
+        "x883": {
+            "name_en": "You Call That a Labyrinth",
+            "name_fr": "Dédale de là !",
+            "description_en": "Complete the Labyrinth of the Ancients.",
+            "description_fr": "Finir le Dédale antique 1 fois.",
+            "points": 10,
+            "patch": "2.1",
+            "cSiblings": ["d.92"]
+        },
+        "x887": {
+            "name_en": "In Another Bind I",
+            "name_fr": "Mercenaire des Méandres I",
+            "description_en": "Complete the Second Coil of Bahamut.",
+            "description_fr": "Finir les Méandres de Bahamut 1 fois.",
+            "points": 5,
+            "patch": "2.2",
+            "cNext": ["a.888"],
+            "cSiblings": ["d.101"]
+        },
+        "x888": {
+            "name_en": "In Another Bind II",
+            "name_fr": "Mercenaire des Méandres II",
+            "description_en": "Complete the Second Coil of Bahamut 5 times.",
+            "description_fr": "Finir les Méandres de Bahamut 5 fois.",
+            "points": 10,
+            "patch": "2.2",
+            "cPrev": ["a.887"],
+            "cNext": ["a.889"]
+        },
+        "x889": {
+            "name_en": "In Another Bind III",
+            "name_fr": "Mercenaire des Méandres III",
+            "description_en": "Complete the Second Coil of Bahamut 10 times.",
+            "description_fr": "Finir les Méandres de Bahamut 10 fois.",
+            "points": 20,
+            "patch": "2.2",
+            "cPrev": ["a.888"]
+        },
+        "x995": {
+            "name_en": "Life Is a Syrcus",
+            "name_fr": "Qu'est-ce que c'est que ce Syrcus !?",
+            "description_en": "Complete Syrcus Tower.",
+            "description_fr": "Finir la Tour de Syrcus 1 fois.",
+            "points": 10,
+            "patch": "2.3",
+            "cSiblings": ["d.102"]
+        },
+        "x997": {
+            "name_en": "A Flower by Any Other Name",
+            "name_fr": "Tortionnaire de la rafflesia",
+            "description_en": "Defeat the rafflesia within the first turn of the Second Coil of Bahamut (Savage).",
+            "description_fr": "Vaincre la rafflesia dans les Méandres de Bahamut I (sadique).",
+            "points": 10,
+            "reward": "t.167",
+            "patch": "2.3",
+            "cSiblings": ["d.103", "t.167"]
+        },
+        "x998": {
+            "name_en": "Seconds",
+            "name_fr": "Tortionnaire de Mélusine",
+            "description_en": "Defeat Melusine within the second turn of the Second Coil of Bahamut (Savage).",
+            "description_fr": "Vaincre Mélusine dans les Méandres de Bahamut II (sadique).",
+            "points": 10,
+            "reward": "t.168",
+            "patch": "2.3",
+            "cSiblings": ["d.104", "t.168"]
+        },
+        "x999": {
+            "name_en": "Obtanium",
+            "name_fr": "Tortionnaire du bio-tréant",
+            "description_en": "Defeat the Avatar within the third turn of the Second Coil of Bahamut (Savage).",
+            "description_fr": "Vaincre le bio-tréant dans les Méandres de Bahamut III (sadique).",
+            "points": 10,
+            "reward": "t.169",
+            "patch": "2.3",
+            "cSiblings": ["d.105", "t.169"]
+        },
+        "x1000": {
+            "name_en": "Scent of a Woman",
+            "name_fr": "Maso deus Sado",
+            "description_en": "Defeat Nael deus Darnus within the fourth turn of the Second Coil of Bahamut (Savage).",
+            "description_fr": "Vaincre Nael deus Darnus dans les Méandres de Bahamut IV (sadique).",
+            "points": 10,
+            "reward": "t.170",
+            "patch": "2.3",
+            "cSiblings": ["d.106", "t.170"]
+        },
+        "x1040": {
+            "name_en": "Out of a Bind I",
+            "name_fr": "Jusqu'au fond de l'Abîme I",
+            "description_en": "Complete the Final Coil of Bahamut.",
+            "description_fr": "Finir l'Abîme de Bahamut 1 fois.",
+            "points": 5,
+            "reward": "mi.118",
+            "patch": "2.4",
+            "cNext": ["a.1041"],
+            "cSiblings": ["d.110"]
+        },
+        "x1041": {
+            "name_en": "Out of a Bind II",
+            "name_fr": "Jusqu'au fond de l'Abîme II",
+            "description_en": "Complete the Final Coil of Bahamut 5 times.",
+            "description_fr": "Finir l'Abîme de Bahamut 5 fois.",
+            "points": 10,
+            "patch": "2.4",
+            "cPrev": ["a.1040"],
+            "cNext": ["a.1042"]
+        },
+        "x1042": {
+            "name_en": "Out of a Bind III",
+            "name_fr": "Jusqu'au fond de l'Abîme III",
+            "description_en": "Complete the Final Coil of Bahamut 10 times.",
+            "description_fr": "Finir l'Abîme de Bahamut 10 fois.",
+            "points": 20,
+            "patch": "2.4",
+            "cPrev": ["a.1041"]
+        },
+        "x1068": {
+            "name_en": "Let the Sun Shine In",
+            "name_fr": "Ténébreux conquérant",
+            "description_en": "Clear the World of Darkness.",
+            "description_fr": "Explorer le Monde des Ténèbres.",
+            "points": 20,
+            "patch": "2.5",
+            "cSiblings": ["d.111"]
+        },
+        "x1228": {
+            "name_en": "Sins of the Father I",
+            "name_fr": "Les péchés du Père I",
+            "description_en": "Complete Alexander: Gordias.",
+            "description_fr": "Finir Gordias : le Père 1 fois.",
+            "points": 5,
+            "patch": "3.01",
+            "cNext": ["a.1229"],
+            "cSiblings": ["d.115"]
+        },
+        "x1229": {
+            "name_en": "Sins of the Father II",
+            "name_fr": "Les péchés du Père II",
+            "description_en": "Complete Alexander: Gordias 5 times.",
+            "description_fr": "Finir Gordias : le Père 5 fois.",
+            "points": 10,
+            "patch": "3.01",
+            "cPrev": ["a.1228"],
+            "cNext": ["a.1230"]
+        },
+        "x1230": {
+            "name_en": "Sins of the Father III",
+            "name_fr": "Les péchés du Père III",
+            "description_en": "Complete Alexander: Gordias 10 times.",
+            "description_fr": "Finir Gordias : le Père 10 fois.",
+            "points": 20,
+            "patch": "3.01",
+            "cPrev": ["a.1229"]
+        },
+        "x1231": {
+            "name_en": "Sins of the Savage Father I",
+            "name_fr": "Le sadisme du Père I",
+            "description_en": "Complete Alexander: Gordias (Savage).",
+            "description_fr": "Finir Gordias : le Père (sadique) 1 fois.",
+            "points": 5,
+            "patch": "3.05",
+            "cNext": ["a.1232"],
+            "cSiblings": ["d.119"]
+        },
+        "x1232": {
+            "name_en": "Sins of the Savage Father II",
+            "name_fr": "Le sadisme du Père II",
+            "description_en": "Complete Alexander: Gordias (Savage) 5 times.",
+            "description_fr": "Finir Gordias : le Père (sadique) 5 fois.",
+            "points": 10,
+            "patch": "3.05",
+            "cPrev": ["a.1231"],
+            "cNext": ["a.1233"]
+        },
+        "x1233": {
+            "name_en": "Sins of the Savage Father III",
+            "name_fr": "Le sadisme du Père III",
+            "description_en": "Complete Alexander: Gordias (Savage) 10 times.",
+            "description_fr": "Finir Gordias : le Père (sadique) 10 fois.",
+            "points": 20,
+            "patch": "3.05",
+            "cPrev": ["a.1232"]
+        },
+        "x1399": {
+            "name_en": "Touching the Void",
+            "name_fr": "Passager du néant",
+            "description_en": "Complete the Void Ark.",
+            "description_fr": "Explorer l'Arche du néant.",
+            "points": 10,
+            "patch": "3.1",
+            "cSiblings": ["d.120"]
+        },
+        "x1476": {
+            "name_en": "Sins of the Son I",
+            "name_fr": "Les péchés du Fils I",
+            "description_en": "Complete Alexander: Midas.",
+            "description_fr": "Finir Midas : le Fils 1 fois.",
+            "points": 5,
+            "patch": "3.2",
+            "cNext": ["a.1477"],
+            "cSiblings": ["d.139"]
+        },
+        "x1477": {
+            "name_en": "Sins of the Son II",
+            "name_fr": "Les péchés du Fils II",
+            "description_en": "Complete Alexander: Midas 5 times.",
+            "description_fr": "Finir Midas : le Fils 5 fois.",
+            "points": 10,
+            "patch": "3.2",
+            "cPrev": ["a.1476"],
+            "cNext": ["a.1478"]
+        },
+        "x1478": {
+            "name_en": "Sins of the Son III",
+            "name_fr": "Les péchés du Fils III",
+            "description_en": "Complete Alexander: Midas 10 times.",
+            "description_fr": "Finir Midas : le Fils 10 fois.",
+            "points": 20,
+            "patch": "3.2",
+            "cPrev": ["a.1477"]
+        },
+        "x1479": {
+            "name_en": "Sins of the Savage Son I",
+            "name_fr": "Le sadisme du Fils I",
+            "description_en": "Complete Alexander: Midas (Savage).",
+            "description_fr": "Finir Midas : le Fils (sadique) 1 fois.",
+            "points": 5,
+            "patch": "3.2",
+            "cNext": ["a.1480"],
+            "cSiblings": ["d.150"]
+        },
+        "x1480": {
+            "name_en": "Sins of the Savage Son II",
+            "name_fr": "Le sadisme du Fils II",
+            "description_en": "Complete Alexander: Midas (Savage) 5 times.",
+            "description_fr": "Finir Midas : le Fils (sadique) 5 fois.",
+            "points": 10,
+            "patch": "3.2",
+            "cPrev": ["a.1479"],
+            "cNext": ["a.1481"]
+        },
+        "x1481": {
+            "name_en": "Sins of the Savage Son III",
+            "name_fr": "Le sadisme du Fils III",
+            "description_en": "Complete Alexander: Midas (Savage) 10 times.",
+            "description_fr": "Finir Midas : le Fils (sadique) 10 fois.",
+            "points": 20,
+            "patch": "3.2",
+            "cPrev": ["a.1480"]
+        },
+        "x1574": {
+            "name_en": "Ex Mhachina",
+            "name_fr": "En avant, Mhach !",
+            "description_en": "Complete the Weeping City of Mhach.",
+            "description_fr": "Explorer la Cité défendue de Mhach",
+            "points": 10,
+            "patch": "3.3",
+            "cSiblings": ["d.168"]
+        },
+        "x1639": {
+            "name_en": "Sins of the Creator I",
+            "name_fr": "Les péchés du Créateur I",
+            "description_en": "Complete Alexander.",
+            "description_fr": "Finir Alexander : le Créateur 1 fois.",
+            "points": 5,
+            "patch": "3.4",
+            "cNext": ["a.1640"],
+            "cSiblings": ["d.189"]
+        },
+        "x1640": {
+            "name_en": "Sins of the Creator II",
+            "name_fr": "Les péchés du Créateur II",
+            "description_en": "Complete Alexander 5 times.",
+            "description_fr": "Finir Alexander : le Créateur 5 fois.",
+            "points": 10,
+            "patch": "3.4",
+            "cPrev": ["a.1639"],
+            "cNext": ["a.1641"]
+        },
+        "x1641": {
+            "name_en": "Sins of the Creator III",
+            "name_fr": "Les péchés du Créateur III",
+            "description_en": "Complete Alexander 10 times.",
+            "description_fr": "Finir Alexander : le Créateur 10 fois.",
+            "points": 20,
+            "patch": "3.4",
+            "cPrev": ["a.1640"]
+        },
+        "x1642": {
+            "name_en": "Sins of the Savage Creator I",
+            "name_fr": "Le sadisme du Créateur I",
+            "description_en": "Complete Alexander (Savage).",
+            "description_fr": "Finir Alexander : le Créateur (sadique) 1 fois.",
+            "points": 5,
+            "patch": "3.4",
+            "cNext": ["a.1643"],
+            "cSiblings": ["d.193"]
+        },
+        "x1643": {
+            "name_en": "Sins of the Savage Creator II",
+            "name_fr": "Le sadisme du Créateur II",
+            "description_en": "Complete Alexander (Savage) 5 times.",
+            "description_fr": "Finir Alexander : le Créateur (sadique) 5 fois.",
+            "points": 10,
+            "patch": "3.4",
+            "cPrev": ["a.1642"],
+            "cNext": ["a.1644"]
+        },
+        "x1644": {
+            "name_en": "Sins of the Savage Creator III",
+            "name_fr": "Le sadisme du Créateur III",
+            "description_en": "Complete Alexander (Savage) 10 times.",
+            "description_fr": "Finir Alexander : le Créateur (sadique) 10 fois.",
+            "points": 20,
+            "patch": "3.4",
+            "cPrev": ["a.1643"]
+        },
+        "x1689": {
+            "name_en": "What's Dun Is Done",
+            "name_fr": "Plus une ombre au tableau",
+            "description_en": "Complete Dun Scaith.",
+            "description_fr": "Explorer Dun Scaith.",
+            "points": 10,
+            "patch": "3.5",
+            "cSiblings": ["d.220"]
+        },
+        "x1895": {
+            "name_en": "I Am the Delta, I Am the Omega I",
+            "name_fr": "Survivant du Deltastice I",
+            "description_en": "Complete Omega: Deltascape.",
+            "description_fr": "Finir Oméga : Deltastice 1 fois.",
+            "points": 5,
+            "patch": "4.01",
+            "cNext": ["a.1896"],
+            "cSiblings": ["d.255"]
+        },
+        "x1896": {
+            "name_en": "I Am the Delta, I Am the Omega II",
+            "name_fr": "Survivant du Deltastice II",
+            "description_en": "Complete Omega: Deltascape 5 times.",
+            "description_fr": "Finir Oméga : Deltastice 5 fois.",
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": ["a.1895"],
+            "cNext": ["a.1897"]
+        },
+        "x1897": {
+            "name_en": "I Am the Delta, I Am the Omega III",
+            "name_fr": "Survivant du Deltastice III",
+            "description_en": "Complete Omega: Deltascape 10 times.",
+            "description_fr": "Finir Oméga : Deltastice 10 fois.",
+            "points": 20,
+            "patch": "4.01",
+            "cPrev": ["a.1896"]
+        },
+        "x1898": {
+            "name_en": "I Am the Savage Delta, I Am the Savage Omega I",
+            "name_fr": "Conquérant du Deltastice I",
+            "description_en": "Complete Omega: Deltascape (Savage).",
+            "description_fr": "Finir Oméga : Deltastice (sadique) 1 fois.",
+            "points": 5,
+            "patch": "4.05",
+            "cNext": ["a.1899"],
+            "cSiblings": ["d.259"]
+        },
+        "x1899": {
+            "name_en": "I Am the Savage Delta, I Am the Savage Omega II",
+            "name_fr": "Conquérant du Deltastice II",
+            "description_en": "Complete Omega: Deltascape (Savage) 5 times.",
+            "description_fr": "Finir Oméga : Deltastice (sadique) 5 fois.",
+            "points": 10,
+            "patch": "4.05",
+            "cPrev": ["a.1898"],
+            "cNext": ["a.1900"]
+        },
+        "x1900": {
+            "name_en": "I Am the Savage Delta, I Am the Savage Omega III",
+            "name_fr": "Conquérant du Deltastice III",
+            "description_en": "Complete Omega: Deltascape (Savage) 10 times.",
+            "description_fr": "Finir Oméga : Deltastice (sadique) 10 fois.",
+            "points": 20,
+            "patch": "4.05",
+            "cPrev": ["a.1899"]
+        },
+        "x1992": {
+            "name_en": "Zodiac Thriller",
+            "name_fr": "Bas les masques",
+            "description_en": "Complete the Royal City of Rabanastre.",
+            "description_fr": "Finir la Cité royale de Rabanastre.",
+            "points": 5,
+            "patch": "4.1",
+            "cSiblings": ["d.281"]
+        },
+        "x1993": {
+            "name_en": "Resistance Is Futile",
+            "name_fr": "Ennemi fatal de Bahamut",
+            "description_en": "Defeat Bahamut Prime in the Unending Coil of Bahamut (Ultimate).",
+            "description_fr": "Vaincre Primo-Bahamut dans le raid “L'Abîme infini de Bahamut (fatal)”.",
+            "points": 10,
+            "reward": "t.138",
+            "patch": "4.11",
+            "cSiblings": ["d.280", "t.138"]
+        },
+        "x2024": {
+            "name_en": "I Am the Sigma, I Am the Omega I",
+            "name_fr": "Survivant du Sigmastice I",
+            "description_en": "Complete Omega: Sigmascape.",
+            "description_fr": "Finir Oméga : Sigmastice 1 fois.",
+            "points": 5,
+            "patch": "4.2",
+            "cNext": ["a.2025"],
+            "cSiblings": ["d.289"]
+        },
+        "x2025": {
+            "name_en": "I Am the Sigma, I Am the Omega II",
+            "name_fr": "Survivant du Sigmastice II",
+            "description_en": "Complete Omega: Sigmascape 5 times.",
+            "description_fr": "Finir Oméga : Sigmastice 5 fois.",
+            "points": 10,
+            "patch": "4.2",
+            "cPrev": ["a.2024"],
+            "cNext": ["a.2026"]
+        },
+        "x2026": {
+            "name_en": "I Am the Sigma, I Am the Omega III",
+            "name_fr": "Survivant du Sigmastice III",
+            "description_en": "Complete Omega: Sigmascape 10 times.",
+            "description_fr": "Finir Oméga : Sigmastice 10 fois.",
+            "points": 20,
+            "patch": "4.2",
+            "cPrev": ["a.2025"]
+        },
+        "x2027": {
+            "name_en": "I Am the Savage Sigma, I Am the Savage Omega I",
+            "name_fr": "Conquérant du Sigmastice I",
+            "description_en": "Complete Omega: Sigmascape (Savage).",
+            "description_fr": "Finir Oméga : Sigmastice (sadique) 1 fois.",
+            "points": 5,
+            "patch": "4.2",
+            "cNext": ["a.2028"],
+            "cSiblings": ["d.295"]
+        },
+        "x2028": {
+            "name_en": "I Am the Savage Sigma, I Am the Savage Omega II",
+            "name_fr": "Conquérant du Sigmastice II",
+            "description_en": "Complete Omega: Sigmascape (Savage) 5 times.",
+            "description_fr": "Finir Oméga : Sigmastice (sadique) 5 fois.",
+            "points": 10,
+            "patch": "4.2",
+            "cPrev": ["a.2027"],
+            "cNext": ["a.2029"]
+        },
+        "x2029": {
+            "name_en": "I Am the Savage Sigma, I Am the Savage Omega III",
+            "name_fr": "Conquérant du Sigmastice III",
+            "description_en": "Complete Omega: Sigmascape (Savage) 10 times.",
+            "description_fr": "Finir Oméga : Sigmastice (sadique) 10 fois.",
+            "points": 20,
+            "patch": "4.2",
+            "cPrev": ["a.2028"]
+        },
+        "x2106": {
+            "name_en": "Didn't Stop, Made It Pop",
+            "name_fr": "Phare à éons",
+            "description_en": "Complete the Ridorana Lighthouse.",
+            "description_fr": "Finir Le Phare de Ridorana.",
+            "points": 5,
+            "patch": "4.3",
+            "cSiblings": ["d.550"]
+        },
+        "x2107": {
+            "name_en": "Ultimatum",
+            "name_fr": "Ultime mise en pièces",
+            "description_en": "Defeat the Ultima Weapon in the Weapon's Refrain (Ultimate).",
+            "description_fr": "Vaincre Ultima Arma dans le raid “La Fantasmagorie d'Ultima (fatal)”.",
+            "points": 10,
+            "reward": "t.397",
+            "patch": "4.31",
+            "cSiblings": ["d.539", "t.397"]
+        },
+        "x2118": {
+            "name_en": "I Am the Alpha, I Am the Omega I",
+            "name_fr": "Survivant de l'Alphastice I",
+            "description_en": "Complete Omega: Alphascape.",
+            "description_fr": "Finir Oméga : Alphastice 1 fois.",
+            "points": 5,
+            "patch": "4.4",
+            "cNext": ["a.2119"],
+            "cSiblings": ["d.590"]
+        },
+        "x2119": {
+            "name_en": "I Am the Alpha, I Am the Omega II",
+            "name_fr": "Survivant de l'Alphastice II",
+            "description_en": "Complete Omega: Alphascape 5 times.",
+            "description_fr": "Finir Oméga : Alphastice 5 fois.",
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": ["a.2118"],
+            "cNext": ["a.2120"]
+        },
+        "x2120": {
+            "name_en": "I Am the Alpha, I Am the Omega III",
+            "name_fr": "Survivant de l'Alphastice III",
+            "description_en": "Complete Omega: Alphascape 10 times.",
+            "description_fr": "Finir Oméga : Alphastice 10 fois.",
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": ["a.2119"]
+        },
+        "x2121": {
+            "name_en": "I Am the Savage Alpha, I Am the Savage Omega I",
+            "name_fr": "Conquérant de l'Alphastice I",
+            "description_en": "Complete Omega: Alphascape (Savage).",
+            "description_fr": "Finir Oméga : Alphastice (sadique) 1 fois.",
+            "points": 5,
+            "patch": "4.4",
+            "cNext": ["a.2122"],
+            "cSiblings": ["d.594"]
+        },
+        "x2122": {
+            "name_en": "I Am the Savage Alpha, I Am the Savage Omega II",
+            "name_fr": "Conquérant de l'Alphastice II",
+            "description_en": "Complete Omega: Alphascape (Savage) 5 times.",
+            "description_fr": "Finir Oméga : Alphastice (sadique) 5 fois.",
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": ["a.2121"],
+            "cNext": ["a.2123"]
+        },
+        "x2123": {
+            "name_en": "I Am the Savage Alpha, I Am the Savage Omega III",
+            "name_fr": "Conquérant de l'Alphastice III",
+            "description_en": "Complete Omega: Alphascape (Savage) 10 times.",
+            "description_fr": "Finir Oméga : Alphastice (sadique) 10 fois.",
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": ["a.2122"]
+        },
+        "x2164": {
+            "name_en": "Orbonne to Pick",
+            "name_fr": "Un monastère hors bornes",
+            "description_en": "Complete the Orbonne Monastery.",
+            "description_fr": "Finir Le Monastère d'Orbonne.",
+            "points": 5,
+            "patch": "4.5",
+            "cSiblings": ["d.636"]
+        },
+        "x2409": {
+            "name_en": "Paradise Found I",
+            "name_fr": "Sonner le clairon I",
+            "description_en": "Complete Eden's Gate.",
+            "description_fr": "Finir L'Éveil d'Éden 1 fois.",
+            "points": 5,
+            "patch": "5.01",
+            "cNext": ["a.2410"],
+            "cSiblings": ["d.689"]
+        },
+        "x2410": {
+            "name_en": "Paradise Found II",
+            "name_fr": "Sonner le clairon II",
+            "description_en": "Complete Eden's Gate 5 times.",
+            "description_fr": "Finir L'Éveil d'Éden 5 fois.",
+            "points": 10,
+            "patch": "5.01",
+            "cPrev": ["a.2409"],
+            "cNext": ["a.2411"]
+        },
+        "x2411": {
+            "name_en": "Paradise Found III",
+            "name_fr": "Sonner le clairon III",
+            "description_en": "Complete Eden's Gate 10 times.",
+            "description_fr": "Finir L'Éveil d'Éden 10 fois.",
+            "points": 20,
+            "patch": "5.01",
+            "cPrev": ["a.2410"]
+        },
+        "x2412": {
+            "name_en": "Savage Paradise Found I",
+            "name_fr": "Lendemain difficile I",
+            "description_en": "Complete Eden's Gate (Savage).",
+            "description_fr": "Finir L'Éveil d'Éden (sadique) 1 fois.",
+            "points": 5,
+            "patch": "5.05",
+            "cNext": ["a.2413"],
+            "cSiblings": ["d.690"]
+        },
+        "x2413": {
+            "name_en": "Savage Paradise Found II",
+            "name_fr": "Lendemain difficile II",
+            "description_en": "Complete Eden's Gate (Savage) 5 times.",
+            "description_fr": "Finir L'Éveil d'Éden (sadique) 5 fois.",
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": ["a.2412"],
+            "cNext": ["a.2414"]
+        },
+        "x2414": {
+            "name_en": "Savage Paradise Found III",
+            "name_fr": "Lendemain difficile III",
+            "description_en": "Complete Eden's Gate (Savage) 10 times.",
+            "description_fr": "Finir L'Éveil d'Éden (sadique) 10 fois.",
+            "points": 20,
+            "patch": "5.05",
+            "cPrev": ["a.2413"]
+        },
+        "x2443": {
+            "name_en": "The First Law",
+            "name_fr": "Bizarroïdes androïdes",
+            "description_en": "Complete the Copied Factory.",
+            "description_fr": "Finir La réplique de l'usine désaffectée.",
+            "points": 5,
+            "patch": "5.1",
+            "cSiblings": ["d.700"]
+        },
+        "x2444": {
+            "name_en": "When I Ruled the World",
+            "name_fr": "Nul n'est parfait",
+            "description_en": "Defeat Perfect Alexander in the Epic of Alexander (Ultimate).",
+            "description_fr": "Vaincre Alexander parfait dans le raid “L'Odyssée d'Alexander (fatal)”.",
+            "points": 10,
+            "reward": "t.480",
+            "patch": "5.11",
+            "cSiblings": ["d.694", "t.480"]
+        },
+        "x2591": {
+            "name_en": "Trouble in Paradise I",
+            "name_fr": "Briser la glace I",
+            "description_en": "Complete Eden's Verse.",
+            "description_fr": "Finir Les Accords d'Éden 1 fois.",
+            "points": 5,
+            "patch": "5.2",
+            "cNext": ["a.2592"],
+            "cSiblings": ["d.728"]
+        },
+        "x2592": {
+            "name_en": "Trouble in Paradise II",
+            "name_fr": "Briser la glace II",
+            "description_en": "Complete Eden's Verse 5 times.",
+            "description_fr": "Finir Les Accords d'Éden 5 fois.",
+            "points": 10,
+            "patch": "5.2",
+            "cPrev": ["a.2591"],
+            "cNext": ["a.2593"]
+        },
+        "x2593": {
+            "name_en": "Trouble in Paradise III",
+            "name_fr": "Briser la glace III",
+            "description_en": "Complete Eden's Verse 10 times.",
+            "description_fr": "Finir Les Accords d'Éden 10 fois.",
+            "points": 20,
+            "patch": "5.2",
+            "cPrev": ["a.2592"]
+        },
+        "x2594": {
+            "name_en": "Savage Trouble in Paradise I",
+            "name_fr": "Accords parfaits I",
+            "description_en": "Complete Eden's Verse (Savage).",
+            "description_fr": "Finir Les Accords d'Éden (sadique) 1 fois.",
+            "points": 5,
+            "patch": "5.2",
+            "cNext": ["a.2595"],
+            "cSiblings": ["d.729"]
+        },
+        "x2595": {
+            "name_en": "Savage Trouble in Paradise II",
+            "name_fr": "Accords parfaits II",
+            "description_en": "Complete Eden's Verse (Savage) 5 times.",
+            "description_fr": "Finir Les Accords d'Éden (sadique) 5 fois.",
+            "points": 10,
+            "patch": "5.2",
+            "cPrev": ["a.2594"],
+            "cNext": ["a.2596"]
+        },
+        "x2596": {
+            "name_en": "Savage Trouble in Paradise III",
+            "name_fr": "Accords parfaits III",
+            "description_en": "Complete Eden's Verse (Savage) 10 times.",
+            "description_fr": "Finir Les Accords d'Éden (sadique) 10 fois.",
+            "points": 20,
+            "patch": "5.2",
+            "cPrev": ["a.2595"]
+        },
+        "x2622": {
+            "name_en": "Uncanny Valley",
+            "name_fr": "Pantins désarticulés",
+            "description_en": "Complete the Puppets' Bunker.",
+            "description_fr": "Finir La base militaire des Pantins.",
+            "points": 5,
+            "patch": "5.3",
+            "cSiblings": ["d.736"]
+        },
+        "x2719": {
+            "name_en": "Paradise Within Thee I",
+            "name_fr": "La promesse du souvenir I",
+            "description_en": "Complete Eden's Promise.",
+            "description_fr": "Finir La Promesse d'Éden 1 fois.",
+            "points": 5,
+            "patch": "5.4",
+            "cNext": ["a.2720"],
+            "cSiblings": ["d.758"]
+        },
+        "x2720": {
+            "name_en": "Paradise Within Thee II",
+            "name_fr": "La promesse du souvenir II",
+            "description_en": "Complete Eden's Promise 5 times.",
+            "description_fr": "Finir La Promesse d'Éden 5 fois.",
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": ["a.2719"],
+            "cNext": ["a.2721"]
+        },
+        "x2721": {
+            "name_en": "Paradise Within Thee III",
+            "name_fr": "La promesse du souvenir III",
+            "description_en": "Complete Eden's Promise 10 times.",
+            "description_fr": "Finir La Promesse d'Éden 10 fois.",
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": ["a.2720"]
+        },
+        "x2722": {
+            "name_en": "Savage Paradise Within Thee I",
+            "name_fr": "Dans son jardin I",
+            "description_en": "Complete Eden's Promise (Savage).",
+            "description_fr": "Finir La Promesse d'Éden (sadique) 1 fois.",
+            "points": 5,
+            "patch": "5.4",
+            "cNext": ["a.2723"],
+            "cSiblings": ["d.759"]
+        },
+        "x2723": {
+            "name_en": "Savage Paradise Within Thee II",
+            "name_fr": "Dans son jardin II",
+            "description_en": "Complete Eden's Promise (Savage) 5 times.",
+            "description_fr": "Finir La Promesse d'Éden (sadique) 5 fois.",
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": ["a.2722"],
+            "cNext": ["a.2724"]
+        },
+        "x2724": {
+            "name_en": "Savage Paradise Within Thee III",
+            "name_fr": "Dans son jardin III",
+            "description_en": "Complete Eden's Promise (Savage) 10 times.",
+            "description_fr": "Finir La Promesse d'Éden (sadique) 10 fois.",
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": ["a.2723"]
+        },
+        "x2847": {
+            "name_en": "Deus et Machina",
+            "name_fr": "Réalité virtuelle",
+            "description_en": "Complete the Tower at Paradigm's Breach.",
+            "description_fr": "Finir La tour de la Contingence.",
+            "points": 5,
+            "patch": "5.5",
+            "cSiblings": ["d.779"]
+        },
+        "x3035": {
+            "name_en": "Could Be Worse I",
+            "name_fr": "Vaincre ces démons I",
+            "description_en": "Complete Pandæmonium: Asphodelos.",
+            "description_fr": "Finir les Limbes du Pandæmonium 1 fois.",
+            "points": 5,
+            "patch": "6.01",
+            "cNext": ["a.3036"],
+            "cSiblings": ["d.800"]
+        },
+        "x3036": {
+            "name_en": "Could Be Worse II",
+            "name_fr": "Vaincre ces démons II",
+            "description_en": "Complete Pandæmonium: Asphodelos 5 times.",
+            "description_fr": "Finir les Limbes du Pandæmonium 5 fois.",
+            "points": 10,
+            "patch": "6.01",
+            "cPrev": ["a.3035"],
+            "cNext": ["a.3037"]
+        },
+        "x3037": {
+            "name_en": "Could Be Worse III",
+            "name_fr": "Vaincre ces démons III",
+            "description_en": "Complete Pandæmonium: Asphodelos 10 times.",
+            "description_fr": "Finir les Limbes du Pandæmonium 10 fois.",
+            "points": 20,
+            "patch": "6.01",
+            "cPrev": ["a.3036"]
+        },
+        "x3038": {
+            "name_en": "Could Be Savage I",
+            "name_fr": "Démons et merveilles I",
+            "description_en": "Complete Pandæmonium: Asphodelos (Savage).",
+            "description_fr": "Finir les Limbes du Pandæmonium (sadique) 1 fois.",
+            "points": 5,
+            "patch": "6.05",
+            "cNext": ["a.3039"],
+            "cSiblings": ["d.801"]
+        },
+        "x3039": {
+            "name_en": "Could Be Savage II",
+            "name_fr": "Démons et merveilles II",
+            "description_en": "Complete Pandæmonium: Asphodelos (Savage) 5 times.",
+            "description_fr": "Finir les Limbes du Pandæmonium (sadique) 5 fois.",
+            "points": 10,
+            "patch": "6.05",
+            "cPrev": ["a.3038"],
+            "cNext": ["a.3040"]
+        },
+        "x3040": {
+            "name_en": "Could Be Savage III",
+            "name_fr": "Démons et merveilles III",
+            "description_en": "Complete Pandæmonium: Asphodelos (Savage) 10 times.",
+            "description_fr": "Finir les Limbes du Pandæmonium (sadique) 10 fois.",
+            "points": 20,
+            "patch": "6.05",
+            "cPrev": ["a.3039"]
+        },
+        "x3073": {
+            "name_en": "Divine Intervention",
+            "name_fr": "Divine splendeur",
+            "description_en": "Complete Aglaia.",
+            "description_fr": "Finir le domaine divin - Aglaé.",
+            "points": 5,
+            "patch": "6.1",
+            "cSiblings": ["d.866"]
+        },
+        "x3074": {
+            "name_en": "As Suits a Hero",
+            "name_fr": "La fatalité n'est pas de ce monde",
+            "description_en": "Complete Dragonsong's Reprise (Ultimate).",
+            "description_fr": "Mettre un terme à la Guerre du chant des dragons (fatal).",
+            "points": 10,
+            "reward": "t.636",
+            "patch": "6.11",
+            "cSiblings": ["d.788", "t.636"]
+        },
+        "x3108": {
+            "name_en": "Gaze of the Abyss I",
+            "name_fr": "Tuer le faux père I",
+            "description_en": "Complete Pandæmonium: Abyssos.",
+            "description_fr": "Finir le Purgatoire du Pandæmonium 1 fois.",
+            "points": 5,
+            "patch": "6.2",
+            "cNext": ["a.3109"],
+            "cSiblings": ["d.883"]
+        },
+        "x3109": {
+            "name_en": "Gaze of the Abyss II",
+            "name_fr": "Tuer le faux père II",
+            "description_en": "Complete Pandæmonium: Abyssos 5 times.",
+            "description_fr": "Finir le Purgatoire du Pandæmonium 5 fois.",
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": ["a.3108"],
+            "cNext": ["a.3110"]
+        },
+        "x3110": {
+            "name_en": "Gaze of the Abyss III",
+            "name_fr": "Tuer le faux père III",
+            "description_en": "Complete Pandæmonium: Abyssos 10 times.",
+            "description_fr": "Finir le Purgatoire du Pandæmonium 10 fois.",
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": ["a.3109"]
+        },
+        "x3111": {
+            "name_en": "Savage Gaze of the Abyss I",
+            "name_fr": "Une purge infernale I",
+            "description_en": "Complete Pandæmonium: Abyssos (Savage).",
+            "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 1 fois.",
+            "points": 5,
+            "patch": "6.2",
+            "cNext": ["a.3112"],
+            "cSiblings": ["d.884"]
+        },
+        "x3112": {
+            "name_en": "Savage Gaze of the Abyss II",
+            "name_fr": "Une purge infernale II",
+            "description_en": "Complete Pandæmonium: Abyssos (Savage) 5 times.",
+            "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 5 fois.",
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": ["a.3111"],
+            "cNext": ["a.3113"]
+        },
+        "x3113": {
+            "name_en": "Savage Gaze of the Abyss III",
+            "name_fr": "Une purge infernale III",
+            "description_en": "Complete Pandæmonium: Abyssos (Savage) 10 times.",
+            "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 10 fois.",
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": ["a.3112"]
+        },
+        "x3161": {
+            "name_en": "Divine Revelry",
+            "name_fr": "Divine allégresse",
+            "description_en": "Complete Euphrosyne.",
+            "description_fr": "Finir le domaine divin - Euphrosyne.",
+            "points": 5,
+            "patch": "6.3",
+            "cSiblings": ["d.911"]
+        },
+        "x3162": {
+            "name_en": "Heart to Heartless",
+            "name_fr": "Oblitérer Oméga",
+            "description_en": "See Omega's experiment to its ultimate conclusion in the Omega Protocol (Ultimate).",
+            "description_fr": "Mener à son terme l'ultime test d'Oméga dans le raid “Le Protocole Oméga (fatal)”.",
+            "points": 10,
+            "reward": "t.667",
+            "patch": "6.31",
+            "cSiblings": ["t.667", "d.908"]
+        },
+        "x3248": {
+            "name_en": "Apotheosis I",
+            "name_fr": "Rendez-vous au Paradis I",
+            "description_en": "Complete Pandæmonium: Anabaseios.",
+            "description_fr": "Finir le Paradis du Pandæmonium 1 fois.",
+            "points": 5,
+            "patch": "6.4",
+            "cNext": ["a.3249"],
+            "cSiblings": ["d.942"]
+        },
+        "x3249": {
+            "name_en": "Apotheosis II",
+            "name_fr": "Rendez-vous au Paradis II",
+            "description_en": "Complete Pandæmonium: Anabaseios 5 times.",
+            "description_fr": "Finir le Paradis du Pandæmonium 5 fois.",
+            "points": 10,
+            "patch": "6.4",
+            "cPrev": ["a.3248"],
+            "cNext": ["a.3250"]
+        },
+        "x3250": {
+            "name_en": "Apotheosis III",
+            "name_fr": "Rendez-vous au Paradis III",
+            "description_en": "Complete Pandæmonium: Anabaseios 10 times.",
+            "description_fr": "Finir le Paradis du Pandæmonium 10 fois.",
+            "points": 20,
+            "patch": "6.4",
+            "cPrev": ["a.3249"]
+        },
+        "x3251": {
+            "name_en": "Apotheosis Agria I",
+            "name_fr": "Paradis imaginaire I",
+            "description_en": "Complete Pandæmonium: Anabaseios (Savage).",
+            "description_fr": "Finir le Paradis du Pandæmonium (sadique) 1 fois.",
+            "points": 5,
+            "patch": "6.4",
+            "cNext": ["a.3252"],
+            "cSiblings": ["d.943"]
+        },
+        "x3252": {
+            "name_en": "Apotheosis Agria II",
+            "name_fr": "Paradis imaginaire II",
+            "description_en": "Complete Pandæmonium: Anabaseios (Savage) 5 times.",
+            "description_fr": "Finir le Paradis du Pandæmonium (sadique) 5 fois.",
+            "points": 10,
+            "patch": "6.4",
+            "cPrev": ["a.3251"],
+            "cNext": ["a.3253"]
+        },
+        "x3253": {
+            "name_en": "Apotheosis Agria III",
+            "name_fr": "Paradis imaginaire III",
+            "description_en": "Complete Pandæmonium: Anabaseios (Savage) 10 times.",
+            "description_fr": "Finir le Paradis du Pandæmonium (sadique) 10 fois.",
+            "points": 20,
+            "patch": "6.4",
+            "cPrev": ["a.3252"]
+        },
+        "x3403": {
+            "name_en": "Divine Satisfaction",
+            "name_fr": "Divine abondance",
+            "description_en": "Complete Thaleia.",
+            "description_fr": "Finir le domaine divin - Thalie.",
+            "points": 5,
+            "patch": "6.5",
+            "cSiblings": ["d.962"]
+        },
+        "x3572": {
+            "name_en": "Pick on Someone Your Own Size I",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion I",
+            "description_en": "Complete the quest “The Neoteric Witch” and AAC Light-heavyweight Tier.",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA et accomplir la quête “L'Enchanteresse électrique”.",
+            "points": 5,
+            "patch": "7.01",
+            "cNext": ["a.3573"],
+            "cSiblings": ["d.991", "q.70501"]
+        },
+        "x3573": {
+            "name_en": "Pick on Someone Your Own Size II",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion II",
+            "description_en": "Complete AAC Light-heavyweight Tier 5 times.",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA 5 fois.",
+            "points": 10,
+            "patch": "7.01",
+            "cPrev": ["a.3572"],
+            "cNext": ["a.3574"]
+        },
+        "x3574": {
+            "name_en": "Pick on Someone Your Own Size III",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion III",
+            "description_en": "Complete AAC Light-heavyweight Tier 10 times.",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA 10 fois.",
+            "points": 20,
+            "patch": "7.01",
+            "cPrev": ["a.3573"]
+        },
+        "x3575": {
+            "name_en": "Savage Someone Your Own Size I",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion I",
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage).",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA (sadique) 1 fois.",
+            "points": 5,
+            "patch": "7.05",
+            "cNext": ["a.3576"],
+            "cSiblings": ["d.992"]
+        },
+        "x3576": {
+            "name_en": "Savage Someone Your Own Size II",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion II",
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage) 5 times.",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA (sadique) 5 fois.",
+            "points": 10,
+            "patch": "7.05",
+            "cPrev": ["a.3575"],
+            "cNext": ["a.3577"]
+        },
+        "x3577": {
+            "name_en": "Savage Someone Your Own Size III",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion III",
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage) 10 times.",
+            "description_fr": "Conquérir la catégorie poids mi-lourds CCA (sadique) 10 fois.",
+            "points": 20,
+            "patch": "7.05",
+            "cPrev": ["a.3576"]
+        },
+        "x3606": {
+            "name_en": "Home Away from Home",
+            "name_fr": "Échos des premières aventures",
+            "description_en": "Complete Jeuno: The First Walk.",
+            "description_fr": "Finir Jeuno - La première perambulation.",
+            "points": 5,
+            "patch": "7.1",
+            "cSiblings": ["d.1015"]
+        },
+        "x3616": {
+            "name_en": "Cloud Strife",
+            "name_fr": "Nuage dissipé",
+            "description_en": "Defeat the Cloud of Darkness in the Cloud of Darkness (Chaotic).",
+            "description_fr": "Vaincre le Nuage de Ténèbres dans le raid “La Tour de Ténèbres (chaotique)”.",
+            "points": 5,
+            "patch": "7.15",
+            "cSiblings": ["d.1010"]
+        },
+        "x3617": {
+            "name_en": "Alternative Destiny",
+            "name_fr": "Nous ne ferons plus qu'un",
+            "description_en": "Bear witness to a different future for the Oracles of Light and Darkness.",
+            "description_fr": "Fusionner les destins des prêtresses de la Lumière et des Ténèbres.",
+            "points": 10,
+            "reward": "t.768",
+            "patch": "7.11",
+            "cSiblings": ["d.1006", "t.768"]
+        },
+        "x3627": {
+            "name_en": "Cruising at the Apex I",
+            "name_fr": "Champion poids lourds-légers de l'Arcadion I",
+            "description_en": "Complete AAC Cruiserweight Tier.",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA 1 fois.",
+            "points": 5,
+            "patch": "7.2",
+            "cNext": ["a.3628"],
+            "cSiblings": ["d.1025"]
+        },
+        "x3628": {
+            "name_en": "Cruising at the Apex II",
+            "name_fr": "Champion poids lourds-légers de l'Arcadion II",
+            "description_en": "Complete AAC Cruiserweight Tier 5 times.",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA 5 fois.",
+            "points": 10,
+            "patch": "7.2",
+            "cPrev": ["a.3627"],
+            "cNext": ["a.3629"]
+        },
+        "x3629": {
+            "name_en": "Cruising at the Apex III",
+            "name_fr": "Champion poids lourds-légers de l'Arcadion III",
+            "description_en": "Complete AAC Cruiserweight Tier 10 times.",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA 10 fois.",
+            "points": 20,
+            "patch": "7.2",
+            "cPrev": ["a.3628"]
+        },
+        "x3630": {
+            "name_en": "Cruising at the Savage Apex I",
+            "name_fr": "Champion poids lourds-légers incontesté de l'Arcadion I",
+            "description_en": "Complete AAC Cruiserweight Tier (Savage).",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA (sadique) 1 fois.",
+            "points": 5,
+            "patch": "7.2",
+            "cNext": ["a.3631"],
+            "cSiblings": ["d.1026"]
+        },
+        "x3631": {
+            "name_en": "Cruising at the Savage Apex II",
+            "name_fr": "Champion poids lourds-légers incontesté de l'Arcadion II",
+            "description_en": "Complete AAC Cruiserweight Tier (Savage) 5 times.",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA (sadique) 5 fois.",
+            "points": 10,
+            "patch": "7.2",
+            "cPrev": ["a.3630"],
+            "cNext": ["a.3632"]
+        },
+        "x3632": {
+            "name_en": "Cruising at the Savage Apex III",
+            "name_fr": "Champion poids lourds-légers incontesté de l'Arcadion III",
+            "description_en": "Complete AAC Cruiserweight Tier (Savage) 10 times.",
+            "description_fr": "Conquérir la catégorie poids lourds-légers CCA (sadique) 10 fois.",
+            "points": 20,
+            "patch": "7.2",
+            "cPrev": ["a.3631"]
+        },
+        "x3806": {
+            "name_en": "O Brother, Where Zilart Thou",
+            "name_fr": "Échos des peuples anciens",
+            "description_en": "Complete San d'Oria: The Second Walk.",
+            "description_fr": "Finir San d'Oria - La deuxième perambulation.",
+            "points": 5,
+            "patch": "7.3",
+            "cSiblings": ["d.1058"]
+        },
+        "x3865": {
+            "name_en": "On Top of the World I",
+            "name_fr": "Champion poids lourds de l'Arcadion I",
+            "description_en": "Complete AAC Heavyweight Tier.",
+            "description_fr": "Conquérir la catégorie poids lourds CCA 1 fois.",
+            "points": 5,
+            "patch": "7.4",
+            "cNext": ["a.3866"],
+            "cSiblings": ["d.1074"]
+        },
+        "x3866": {
+            "name_en": "On Top of the World II",
+            "name_fr": "Champion poids lourds de l'Arcadion II",
+            "description_en": "Complete AAC Heavyweight Tier 5 times.",
+            "description_fr": "Conquérir la catégorie poids lourds CCA 5 fois.",
+            "points": 10,
+            "patch": "7.4",
+            "cPrev": ["a.3865"],
+            "cNext": ["a.3867"]
+        },
+        "x3867": {
+            "name_en": "On Top of the World III",
+            "name_fr": "Champion poids lourds de l'Arcadion III",
+            "description_en": "Complete AAC Heavyweight Tier 10 times.",
+            "description_fr": "Conquérir la catégorie poids lourds CCA 10 fois.",
+            "points": 20,
+            "patch": "7.4",
+            "cPrev": ["a.3866"]
+        },
+        "x3868": {
+            "name_en": "On Top of the Savage World I",
+            "name_fr": "Champion poids lourds incontesté de l'Arcadion I",
+            "description_en": "Complete AAC Heavyweight Tier (Savage).",
+            "description_fr": "Conquérir la catégorie poids lourds CCA (sadique) 1 fois.",
+            "points": 5,
+            "patch": "7.4",
+            "cNext": ["a.3869"],
+            "cSiblings": ["d.1075"]
+        },
+        "x3869": {
+            "name_en": "On Top of the Savage World II",
+            "name_fr": "Champion poids lourds incontesté de l'Arcadion II",
+            "description_en": "Complete AAC Heavyweight Tier (Savage) 5 times.",
+            "description_fr": "Conquérir la catégorie poids lourds CCA (sadique) 5 fois.",
+            "points": 10,
+            "patch": "7.4",
+            "cPrev": ["a.3868"],
+            "cNext": ["a.3870"]
+        },
+        "x3870": {
+            "name_en": "On Top of the Savage World III",
+            "name_fr": "Champion poids lourds incontesté de l'Arcadion III",
+            "description_en": "Complete AAC Heavyweight Tier (Savage) 10 times.",
+            "description_fr": "Conquérir la catégorie poids lourds CCA (sadique) 10 fois.",
+            "points": 20,
+            "patch": "7.4",
+            "cPrev": ["a.3869"]
+        },
+        "x3980": {
+            "name_en": "The Pursuit of Emptiness",
+            "name_fr": "Échos des promesses lointaines",
+            "description_en": "Complete Windurst: The Third Walk.",
+            "description_fr": "Finir Windurst - La troisième perambulation.",
+            "points": 5,
+            "patch": "7.5",
+            "cSiblings": ["d.1117"]
+        },
+        "x4069": {
+            "name_en": "Son of a...",
+            "name_fr": "Triompher de la démence",
+            "description_en": "Silence the sound and fury in Dancing Mad (Ultimate).",
+            "description_fr": "Survivre à la dernière note de la partition du bouffon.",
+            "points": 10,
+            "reward": "t.886",
+            "patch": "7.51",
+            "cSiblings": ["t.886", "d.1094"]
+        }
+    }
+}

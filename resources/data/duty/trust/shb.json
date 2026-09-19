@@ -1,0 +1,65 @@
+{
+    "key": "shb",
+    "groupName": "@EXPANSION.SHADOWBRINGERS",
+    "groupNameShort": "@EXPANSION.SHB",
+    "defaultCompletion": 71,
+    "isNumericCompletion": true,
+    "minValue": 71,
+    "maxValue": 80,
+    "tasks": {
+        "x0": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "role": "@ROLE.HEALER",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        },
+        "x1": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "role": "@ROLE.TANK",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        },
+        "x3": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "role": "@ROLE.HEALER",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        },
+        "x4": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        },
+        "x5": {
+            "name_en": "Ryne",
+            "name_fr": "Ryne",
+            "role": "@ROLE.MELEE_DPS",
+            "patch": "5.0",
+            "cComboAt": {
+                "80": ["a.2336"]
+            }
+        }
+    }
+}

@@ -1,0 +1,413 @@
+{
+    "key": "carpenter",
+    "groupName": "@CLASS_JOB.CRP",
+    "tasks": {
+        "x1007": {
+            "name_en": "Wiring Repair Tools",
+            "name_fr": "Caisse à outils pour réparation de câbles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_1_A",
+            "patch": "7.31"
+        },
+        "x1008": {
+            "name_en": "Mutated Flora Samples",
+            "name_fr": "Purification d'échantillons de plantes mutantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_B",
+            "patch": "7.31"
+        },
+        "x1009": {
+            "name_en": "Glass Dust Cleaning Tools",
+            "name_fr": "Fournitures pour collecte de poussière",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_3_A",
+            "patch": "7.31"
+        },
+        "x577": {
+            "name_en": "Phaenna Exploration Equipment II",
+            "name_fr": "Nouvelle production de masse d'équipements pour l'exploration de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.576",
+            "patch": "7.31"
+        },
+        "x579": {
+            "name_en": "EX: Craftwork for the Forum II",
+            "name_fr": "EX : Ouvrages artisanaux améliorés pour le Conseil",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.578",
+            "patch": "7.31"
+        },
+        "x580": {
+            "name_en": "EX: Craftwork for the Forum III",
+            "name_fr": "EX : Ouvrages artisanaux perfectionnés pour le Conseil",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.579",
+            "patch": "7.31"
+        },
+        "x582": {
+            "name_en": "EX: Habitation Improvement Plan II",
+            "name_fr": "EX : Suite du plan d'amélioration des habitations",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.581",
+            "patch": "7.31"
+        },
+        "x583": {
+            "name_en": "EX+: Habitation Improvement Plan III",
+            "name_fr": "EX+ : Fin du plan d'amélioration des habitations",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.582",
+            "patch": "7.31"
+        },
+        "x585": {
+            "name_en": "EX+: Resin Crystal Refinement II",
+            "name_fr": "EX+ : Inspection améliorée du raffinement des cristaux de résine",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.584",
+            "patch": "7.31"
+        },
+        "x586": {
+            "name_en": "EX+: Resin Crystal Refinement III",
+            "name_fr": "EX+ : Inspection perfectionnée du raffinement des cristaux de résine",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.585",
+            "patch": "7.31"
+        },
+        "x574": {
+            "name_en": "EX+: Temporary Collection Points",
+            "name_fr": "EX+ : Aide à la construction d'un lieu de stockage provisoire",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1600-2000",
+            "patch": "7.31"
+        },
+        "x581": {
+            "name_en": "Habitation Improvement Plan I",
+            "name_fr": "Plan d'amélioration des habitations",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0000-0200",
+            "patch": "7.31"
+        },
+        "x584": {
+            "name_en": "EX+: Resin Crystal Refinement I",
+            "name_fr": "EX+ : Inspection du raffinement des cristaux de résine",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1000",
+            "patch": "7.31"
+        },
+        "x573": {
+            "name_en": "EX: Versatile Packaging Materials",
+            "name_fr": "EX : Caisses de rangement pour transport spatial",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x575": {
+            "name_en": "EX+: High-performance Bedding",
+            "name_fr": "EX+ : Literie ultraperformante",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x566": {
+            "name_en": "Glass Fiber Resupply",
+            "name_fr": "Fibres de verre supplémentaires",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x567": {
+            "name_en": "Advanced Resource Experimentation II",
+            "name_fr": "Essai amélioré de traitement haut niveau de matières spéciales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x568": {
+            "name_en": "Improved Tent Components",
+            "name_fr": "Matériaux pour renforcement de tente",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x569": {
+            "name_en": "Efficient Recycled Resource Utilization II",
+            "name_fr": "Mise en pratique efficace améliorée de ressources renouvelables",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x570": {
+            "name_en": "Phaenna Resource Utilization Research",
+            "name_fr": "Recherches sur l'utilité des ressources de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x571": {
+            "name_en": "EX: Outdoor Work Equipment",
+            "name_fr": "EX : Équipements pour activités en extérieur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x572": {
+            "name_en": "EX: Premium Tools",
+            "name_fr": "EX : Outils pour artisans expérimentés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x576": {
+            "name_en": "Phaenna Exploration Equipment I",
+            "name_fr": "Production de masse d'équipements pour l'exploration de Phaenna",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x578": {
+            "name_en": "EX: Craftwork for the Forum I",
+            "name_fr": "EX : Ouvrages artisanaux pour le Conseil",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x558": {
+            "name_en": "Advanced Resource Experimentation I",
+            "name_fr": "Essai de traitement haut niveau de matières spéciales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x559": {
+            "name_en": "Glass Fiber",
+            "name_fr": "Fibres de verre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x560": {
+            "name_en": "Heatproof Tent Components",
+            "name_fr": "Matériaux de tente traitée contre la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x561": {
+            "name_en": "Efficient Recycled Resource Utilization I",
+            "name_fr": "Mise en pratique efficace de ressources renouvelables",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x562": {
+            "name_en": "Heatproof Tents",
+            "name_fr": "Tente traitée contre la chaleur",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x563": {
+            "name_en": "Inorganic Durability Research",
+            "name_fr": "Recherche sur les traitements de pseudo-plantes solides",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x564": {
+            "name_en": "Gleaner's Gear II",
+            "name_fr": "Amélioration d'outils de récolte",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x565": {
+            "name_en": "Habitat Bedding",
+            "name_fr": "Literie pour habitation",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x551": {
+            "name_en": "Multi-purpose Glass Resupply",
+            "name_fr": "Verre multi-usage supplémentaire",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x552": {
+            "name_en": "Coldproof Tent Components",
+            "name_fr": "Matériaux de tente traitée contre le froid",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x553": {
+            "name_en": "Resource Experimentation II",
+            "name_fr": "Essai amélioré de traitement de matières spéciales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x554": {
+            "name_en": "Recycled Resource Utilization II",
+            "name_fr": "Mise en pratique améliorée de ressources renouvelables",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x555": {
+            "name_en": "Cold-weather Tents",
+            "name_fr": "Tente traitée contre le froid",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x556": {
+            "name_en": "Inorganic Research II",
+            "name_fr": "Recherches améliorées sur les traitements de pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x557": {
+            "name_en": "Gleaner's Gear I",
+            "name_fr": "Outils de récolte",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x545": {
+            "name_en": "Multi-purpose Glass",
+            "name_fr": "Verre multi-usage",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x546": {
+            "name_en": "Improved Tents",
+            "name_fr": "Matériaux de tente renforcée",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x547": {
+            "name_en": "Resource Experimentation I",
+            "name_fr": "Essai de traitement de matières spéciales",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x548": {
+            "name_en": "Recycled Resource Utilization I",
+            "name_fr": "Mise en pratique de ressources renouvelables",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x549": {
+            "name_en": "Camping Tents",
+            "name_fr": "Tentes pour hébergement",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x550": {
+            "name_en": "Inorganic Research I",
+            "name_fr": "Recherche sur les traitements de pseudo-plantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.CRP",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "key": "chest",
+    "groupName_en": "Chest",
+    "groupName_fr": "Chest",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "location": {
+            "header": "@HEADER.LOCATION",
+            "filterable": true,
+            "link": true
+        },
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
+        },
+        "loot": {
+            "header_en": "Loot",
+            "header_fr": "Loot",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "order": [
+        "deep-dungeons",
+        "field-operations",
+        "crafting-and-gathering"
+    ]
+}

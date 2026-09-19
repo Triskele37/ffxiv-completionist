@@ -1,0 +1,90 @@
+<span
+    data-active-help="APP.ACTIVE_HELP.QUICK_MARK_OVERLAY"
+    class="overlay-container"
+>
+    @if(isModalVisible()) {
+        <div class="com-modal">
+            {{'APP.QUICK_MARK_OVERLAY.PROCESSING' | translate}}...
+        </div>
+    }
+
+    <button
+        pButton
+        class="deep-button {{overlayButtonClass}}"
+        (click)="onOverlayButtonClick()"
+    >
+        <ng-icon name="matRule"></ng-icon>
+    </button>
+
+    @if(isOverlayVisible() || isModalVisible()) {
+        <div class="overlay-panel">
+            <span class="content">
+                <div class="overlay-title">
+                    {{'APP.QUICK_MARK_OVERLAY.TITLE' | translate}}
+                </div>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(N, Y)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(N, X)">
+                    <com-quick-mark-from-to-label [from]="N" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(Y, N)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(Y, X)">
+                    <com-quick-mark-from-to-label [from]="Y" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(X, N)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(X, Y)">
+                    <com-quick-mark-from-to-label [from]="X" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(null, Y)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="Y"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(null, N)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="N"></com-quick-mark-from-to-label>
+                </button>
+
+                <button pButton variant="outlined" (click)="onChangeTaskCompletion(null, X)">
+                    <com-quick-mark-from-to-label [from]="S" [to]="X"></com-quick-mark-from-to-label>
+                </button>
+
+                <div class="undo-container">
+                    @if(!confirmingUndo) {
+                        <button
+                            pButton
+                            variant="outlined"
+                            [disabled]="!historyList().length"
+                            (click)="onUndoClick()"
+                        >
+                            {{'APP.QUICK_MARK_OVERLAY.UNDO_LONG' | translate}}
+                        </button>
+                    }
+                    @else {
+                        <p-button-group>
+                            <button pButton variant="outlined" [disabled]="true">
+                                {{'APP.CHAIN_OVERLAY.VERIFY' | translate}}
+                            </button>
+                            <button pButton variant="outlined" (click)="onUndoClick(false)">
+                                {{'APP.CUSTOM_OVERLAY.CANCEL' | translate}}
+                            </button>
+                            <button pButton variant="outlined" (click)="onUndoClick(true)">
+                                {{'APP.QUICK_MARK_OVERLAY.YES' | translate}}
+                            </button>
+                        </p-button-group>
+                    }
+                </div>
+            </span>
+        </div>
+    }
+</span>

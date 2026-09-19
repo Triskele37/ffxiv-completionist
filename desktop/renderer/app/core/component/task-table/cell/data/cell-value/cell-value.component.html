@@ -1,0 +1,27 @@
+<span
+    class="cell-value"
+    [ngClass]="{
+        'text-only': values.length === 1 && values[0]?.type === 'Value',
+        link: values.length > 1 || values[0]?.type !== 'Value',
+    }"
+    [pTooltip]="tooltip()"
+    tooltipPosition="bottom"
+>
+    @for(piece of values; track $index) {
+        @if(piece.type === 'Value') {
+            <span>{{piece.value}}</span>
+        }
+        @else if(piece.type === 'Group') {
+            <com-content-link
+                [content]="piece.value"
+                [trimGroup]="column.trimGroup ? svcTable.group() : undefined"
+            ></com-content-link>
+        }
+        @else if(piece.type === 'Task') {
+            <com-content-link
+                [content]="piece.value"
+                [nameOnly]="true"
+            ></com-content-link>
+        }
+    }
+</span>

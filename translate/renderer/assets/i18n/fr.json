@@ -1,0 +1,44 @@
+{
+    "NAME": "Localization Helper",
+    "UI": {
+        "FILTER": {
+            "ISSUES": "Unverified",
+            "VERIFIED": "Verified",
+            "TRANSLATED": "Recently Translated",
+            "JUMP_TO": "Jump to group"
+        },
+        "ISSUE": {
+            "KEY": "Chemin",
+            "TYPE": "Problème",
+            "TRANSLATION": "Enter translation...",
+            "SAVE_TRANSLATION": "Save translation",
+            "UNDO_TRANSLATION": "Undo translation",
+            "SELECT_IGNORE": "Raisons d'ignorer",
+            "CUSTOM_REASON": "Raison personnalisée...",
+            "SAVE_REASONS": "Save reasons",
+			"TRANSLATION_SAVED": "Translation Saved",
+			"REASONS_SAVED": "Reason/s Saved"
+        },
+        "OPTIONS": {
+            "LANG": "Langue de sortie",
+            "SOURCE": "Langue source",
+            "TARGET": "Langue à réviser"
+        }
+    },
+    "ISSUE": {
+        "MISSING_FILE": "Missing file",
+        "UNTRANSLATED": "Valeur non traduite",
+        "MISSING_DATA_KEY": "Clé de données manquante",
+        "EXTRA_DATA_KEY": "Clé de données supplémentaire",
+        "EXTRA_VERIFIED_KEY": "Clé de vérification obsolète",
+        "STALE": "Stale ignore"
+    },
+    "REASON": {
+        "AUTO_TRANSLATED": "Valeur auto-traduite",
+        "NUMBER_FORMAT": "Format numérique géré par l’application",
+        "NUMERIC_VALUE": "Valeur numérique",
+        "OFFICIAL": "Nom officiel non traduit",
+        "PROPER_NOUN": "Nom propre",
+        "SAME": "Identique dans les deux langues"
+    }
+}

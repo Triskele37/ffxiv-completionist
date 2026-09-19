@@ -1,0 +1,23 @@
+:host {
+    .patch-view-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .summary-container {
+        }
+
+        .patch-view-toolbar {
+            display: flex;
+        }
+
+        .patch-results-table {
+            height: calc(100% - 50px);
+        }
+    }
+
+    // Task table somehow not respecting its toolbar's height specifically in patch view
+    ::ng-deep .task-table-scroll-container {
+        height: calc(100% - 45px) !important;
+    }
+}

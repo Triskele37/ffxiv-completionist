@@ -19,4 +19,10 @@ Likely able to use this to automated societal-relations
 BeastTribe.Unknown1 - The quest that puts them at Allied vs Bloodsworn  
 
 **DynamicEvent**
-Possibly the special bozja fates (like duels)
+Special bozja/crescent fates (like duels)
+
+**Adventure**
+Sightseeing log?
+
+**EmjVoiceNpc**
+Mahjong Voices

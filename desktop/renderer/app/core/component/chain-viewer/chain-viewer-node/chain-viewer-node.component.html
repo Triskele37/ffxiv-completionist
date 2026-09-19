@@ -1,0 +1,148 @@
+<div
+    class="chain-node"
+    [class]="direction"
+>
+    @if(direction === 'root' || (direction === 'left' && remainingDepth && chainGraphPrev.length)) {
+        <div class="node-container left">
+            @if(direction === 'root') {
+                <div class="ltr-container">
+                    <ng-container [ngTemplateOutlet]="leftSide"></ng-container>
+                </div>
+            } @else {
+                <ng-container [ngTemplateOutlet]="leftSide"></ng-container>
+            }
+
+            <ng-template #leftSide>
+                @for(nodes of chainGraphPrev; track $index) {
+                    @for(node of nodes; track $index) {
+                        <com-chain-viewer-node
+                            [task]="node.task"
+                            [direction]="'left'"
+                            [remainingDepth]="remainingDepth - 1"
+                            [modifier]="node.modifier"
+                        ></com-chain-viewer-node>
+                    }
+                }
+            </ng-template>
+        </div>
+    }
+
+    @if(direction === 'root') {
+        <div class="root-task-container">
+            <div class="root-task">
+                {{task.name}}
+            </div>
+
+            @if(chainGraphSiblings.length || chainGraphExcludes.length) {
+                <div class="root-adjacent">
+                    @let showSiblingTasks = showSiblings || !chainGraphExcludes.length;
+                    @let showExcludeTasks = !showSiblings || !chainGraphSiblings.length;
+
+                    @if(chainGraphSiblings.length) {
+                        <ng-icon
+                            name="matCompareArrows"
+                            [class]="showSiblingTasks ? 'selected' : 'disabled'"
+                            [pTooltip]="'APP.CHAIN_VIEW.CHAIN_SIBLING' | translate"
+                        ></ng-icon>
+                    }
+
+                    @if(chainGraphExcludes.length) {
+                        <ng-icon
+                            name="matLinkOff"
+                            [class]="showExcludeTasks ? 'selected' : 'disabled'"
+                            [pTooltip]="'APP.CHAIN_VIEW.CHAIN_EXCLUDE' | translate"
+                        ></ng-icon>
+                    }
+
+                    @if(chainGraphSiblings.length && chainGraphExcludes.length) {
+                        <button pButton [iconOnly]="true" (click)="toggleSiblingExclude()">
+                            <ng-icon name="matChangeCircle"></ng-icon>
+                        </button>
+                    }
+                </div>
+
+                @if(chainGraphSiblings.length && showSiblingTasks) {
+                    @for(node of chainGraphSiblings; track $index) {
+                        <div class="node-container middle">
+                            <com-content-link
+                                class="sibling-node"
+                                [content]="node.task"
+                                [nameOnly]="true"
+                            ></com-content-link>
+                            @if(node.modifier?.at) {
+                                <span>{{node.modifier!.at}}</span>
+                            }
+                        </div>
+                    }
+                }
+
+                @if(chainGraphExcludes.length && showExcludeTasks) {
+                    @for(node of chainGraphExcludes; track $index) {
+                        <div class="node-container middle">
+                            <com-content-link
+                                class="exclude-node"
+                                [content]="node.task"
+                                [nameOnly]="true"
+                            ></com-content-link>
+                            @if(node.modifier?.at) {
+                                <span>{{node.modifier!.at}}</span>
+                            }
+                        </div>
+                    }
+                }
+            }
+        </div>
+    } @else {
+        <div class="current-node">
+            @if(direction === 'right') {
+                <ng-container *ngTemplateOutlet="modifierTemplate"></ng-container>
+            }
+
+            <com-content-link
+                [content]="task"
+                [nameOnly]="true"
+            ></com-content-link>
+
+            @if(direction === 'left') {
+                <ng-container *ngTemplateOutlet="modifierTemplate"></ng-container>
+            }
+        </div>
+    }
+
+    @if(direction === 'root' || (direction === 'right' && remainingDepth && chainGraphNext.length)) {
+        <div class="node-container right">
+            @for(nodes of chainGraphNext; track $index) {
+                @for(node of nodes; track $index) {
+                    <com-chain-viewer-node
+                        [task]="node.task"
+                        [direction]="'right'"
+                        [remainingDepth]="remainingDepth - 1"
+                        [modifier]="node.modifier"
+                    ></com-chain-viewer-node>
+                }
+            }
+        </div>
+    }
+</div>
+
+<ng-template #modifierTemplate>
+    @if(!modifier || (!modifier.key && !modifier.at)) {
+        <ng-icon name="matArrowRightAlt"></ng-icon>
+    }
+    @else if(modifier.key === 'ANY') {
+        <ng-icon name="matAltRoute" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_ANY' | translate"></ng-icon>
+    }
+    @else if(modifier.key === 'COMBO') {
+        <ng-icon name="matCallMerge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></ng-icon>
+    }
+    @else if(modifier.key?.endsWith('COMBO')) {
+        <span>{{modifier.key!.replace('COMBO', '')}}</span>
+        <ng-icon name="matCallMerge" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_COMBO' | translate"></ng-icon>
+    }
+    @else if(modifier.key === 'UNLOCK') {
+        <ng-icon name="matLockOpen" [pTooltip]="'APP.CHAIN_VIEW.CHAIN_UNLOCK' | translate"></ng-icon>
+    }
+    @else {
+        <span>{{modifier.at}}</span>
+    }
+</ng-template>

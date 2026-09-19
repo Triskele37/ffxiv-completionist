@@ -1,0 +1,31 @@
+[
+    {
+        "rootGroup": "game.logs.crafting-log",
+        "usePrefix": true,
+        "i18nKey": "GARLAND_TOOLS",
+        "url": "https://www.garlandtools.org/db/#group/",
+        "use": "_itemId",
+        "preEncodeTransforms": [
+            { "map": "item/{term}" }
+        ],
+        "join": "|",
+        "skipEncode": true,
+        "postEncodeTransforms": [
+            { "map": "{{term}}" }
+        ]
+    },
+    {
+        "rootGroup": "game.logs.crafting-log",
+        "i18nKey": "TEAMCRAFT",
+        "url": "https://www.ffxivteamcraft.com/import/",
+        "use": "_itemId",
+        "preEncodeTransforms": [
+            { "map": "{term},null,1" }
+        ],
+        "join": ";",
+        "skipEncode": true,
+        "postEncodeTransforms": [
+            { "base64": true }
+        ]
+    }
+]

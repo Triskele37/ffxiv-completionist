@@ -1,0 +1,195 @@
+{
+    "key": "lower-la-noscea",
+    "groupName_en": "Lower La Noscea",
+    "groupName_fr": "Basse-Noscea",
+    "tasks": {
+        "x66011": {
+            "name_en": "Cry Me a Liver",
+            "name_fr": "Avoir les foies",
+            "level": 5,
+            "npc_en": "Ancreta",
+            "npc_fr": "Ancreta",
+            "patch": "2.0",
+            "cPrev": ["q.66199"],
+            "cNext": ["q.66012"]
+        },
+        "x66017": {
+            "name_en": "Moegramm Had a Little Lamb",
+            "name_fr": "Avoir la puce à l'ovin",
+            "level": 5,
+            "npc_en": "Moegramm",
+            "npc_fr": "Moegramm",
+            "patch": "2.0",
+            "cNext": ["q.66016"]
+        },
+        "x66750": {
+            "name_en": "Where the Heart Is (Mist)",
+            "name_fr": "La maison de mes rêves à Brumée",
+            "level": 5,
+            "npc_en": "Ahctkoen",
+            "npc_fr": "Ahctkoen",
+            "patch": "2.1"
+        },
+        "x66012": {
+            "name_en": "Wool's Errand",
+            "name_fr": "Pas de feutre sans laine",
+            "level": 6,
+            "npc_en": "Anaoc",
+            "npc_fr": "Anaoc",
+            "patch": "2.0",
+            "cPrev": ["q.66011"],
+            "cNext": ["q.66013", "q.66022"]
+        },
+        "x66016": {
+            "name_en": "Much Ado About Dodos",
+            "name_fr": "Le dodo est dans le sac",
+            "level": 6,
+            "npc_en": "Moegramm",
+            "npc_fr": "Moegramm",
+            "patch": "2.0",
+            "cPrev": ["q.66017"]
+        },
+        "x66018": {
+            "name_en": "Whack-a-Mole",
+            "name_fr": "Un potager taupe-à-l'œil",
+            "level": 7,
+            "npc_en": "Arenlona",
+            "npc_fr": "Arenlona",
+            "patch": "2.0",
+            "cNext": ["q.66019"]
+        },
+        "x66020": {
+            "name_en": "What Goes Around",
+            "name_fr": "Les matelots des moulins",
+            "level": 7,
+            "npc_en": "Loetrswys",
+            "npc_fr": "Loetrswys",
+            "patch": "2.0",
+            "cNext": ["q.66022"]
+        },
+        "x66013": {
+            "name_en": "Flour Power",
+            "name_fr": "Rouler les galagos dans la farine",
+            "level": 8,
+            "npc_en": "Weitzaren",
+            "npc_fr": "Weitzaren",
+            "patch": "2.0",
+            "cPrev": ["q.66012"],
+            "cNext": ["q.66014"]
+        },
+        "x66019": {
+            "name_en": "Beetle Juice",
+            "name_fr": "Du jus de bête à bon dieu",
+            "level": 8,
+            "npc_en": "Arenlona",
+            "npc_fr": "Arenlona",
+            "patch": "2.0",
+            "cPrev": ["q.66018"]
+        },
+        "x66021": {
+            "name_en": "Fire and Brimstone",
+            "name_fr": "Une quête qui sent le soufre",
+            "level": 8,
+            "npc_en": "Broenruht",
+            "npc_fr": "Broenruht",
+            "patch": "2.0"
+        },
+        "x66022": {
+            "name_en": "Kobolds Ahoy",
+            "name_fr": "Attention aux Kobolds",
+            "level": 8,
+            "npc_en": "Loetrswys",
+            "npc_fr": "Loetrswys",
+            "patch": "2.0",
+            "cPrev": ["q.66012", "q.66020"]
+        },
+        "x66014": {
+            "name_en": "Kobolds and Indigents",
+            "name_fr": "Des pillards de charrette",
+            "level": 9,
+            "npc_en": "Skarnmhar",
+            "npc_fr": "Skarnmhar",
+            "patch": "2.0",
+            "cPrev": ["q.66013"],
+            "cNext": ["q.66015"]
+        },
+        "x66015": {
+            "name_en": "Bait and Swat",
+            "name_fr": "Guet-apens dans les mines",
+            "level": 9,
+            "npc_en": "Anaoc",
+            "npc_fr": "Anaoc",
+            "patch": "2.0",
+            "cPrev": ["q.66014"]
+        },
+        "x65943": {
+            "name_en": "A Bridge Too Full",
+            "name_fr": "Pont-bouteillage",
+            "level": 11,
+            "npc_en": "Doesrael",
+            "npc_fr": "Doesrael",
+            "patch": "2.0"
+        },
+        "x65944": {
+            "name_en": "What Counts",
+            "name_fr": "Le compte est baux",
+            "level": 12,
+            "npc_en": "Yulgi Honalgi",
+            "npc_fr": "Yulgi Honalgi",
+            "patch": "2.0",
+            "cPrev": ["q.65945"]
+        },
+        "x65945": {
+            "name_en": "Failure to Lunch",
+            "name_fr": "Une chasse au casse-croûte",
+            "level": 12,
+            "npc_en": "Wafufu",
+            "npc_fr": "Wafufu",
+            "patch": "2.0",
+            "cNext": ["q.65946", "q.65944"]
+        },
+        "x65946": {
+            "name_en": "Nailed It",
+            "name_fr": "Des rivets fulgurants",
+            "level": 13,
+            "npc_en": "Hezzkhezl",
+            "npc_fr": "Hezzkhezl",
+            "patch": "2.0",
+            "cPrev": ["q.65945"]
+        },
+        "x65947": {
+            "name_en": "Constant Carvings",
+            "name_fr": "Des crocs contre la solitude",
+            "level": 13,
+            "npc_en": "Mimidoa",
+            "npc_fr": "Mimidoa",
+            "patch": "2.0"
+        },
+        "x65952": {
+            "name_en": "Forbidden Island",
+            "name_fr": "De petits touristes indésirables",
+            "level": 13,
+            "npc_en": "A'zumyn",
+            "npc_fr": "A'zumyn",
+            "patch": "2.0"
+        },
+        "x65953": {
+            "name_en": "Say It with Flowers",
+            "name_fr": "Un phare qui brûle d'une flamme secrète",
+            "level": 13,
+            "npc_en": "Rostnzeh",
+            "npc_fr": "Rostnzeh",
+            "patch": "2.0"
+        },
+        "x66231": {
+            "name_en": "Leves of Moraby",
+            "name_fr": "Mandataire du chantier naval de Moraby",
+            "level": 20,
+            "npc_en": "Ourawann",
+            "npc_fr": "Ourawann",
+            "patch": "2.0",
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
+            "cPrevAny": true
+        }
+    }
+}

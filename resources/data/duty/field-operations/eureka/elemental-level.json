@@ -1,0 +1,609 @@
+{
+    "key": "elemental-level",
+    "groupName_en": "Elemental Level",
+    "groupName_fr": "Niveau élémentaire",
+    "columns": {
+        "name": {
+            "header": "@HEADER.LEVEL",
+            "width": 75
+        },
+        "zone": {
+            "header": "@HEADER.ZONE",
+            "width": 130
+        },
+        "notes": {
+            "link": true,
+            "header_en": "Notes",
+            "header_fr": "Commentaire"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name": "1",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": [
+                "Seek out a Protean Crystal from a monster",
+                "Talk to Krile & Gerolt",
+                "Unlocks Eureka weapons/armor and Expedition Lockpick"
+            ],
+            "notes_fr": "Parler à Krile, puis à Gerolt. Déverrouille Les armes Eurêka, les armures, et l'Intendante de l'Expédition. Allez à la recherche d'un Cristal instable (monstre)",
+            "patch": "4.25",
+            "cNext": [1]
+        },
+        "x1": {
+            "name": "2",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "name": "3",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": ["Quest Available", "Objective at (13.5, 20.2)"],
+            "notes_fr": "Parler à Krile. Se diriger à l'intérieur de l'Observatoire de la Société d'histoire naturelle ancienne (13.5,20.2) et intéragir avec le nœud éthéré. Revenir et parler à Krile",
+            "patch": "4.25",
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "name": "4",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [2],
+            "cNext": [4]
+        },
+        "x4": {
+            "name": "5",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": ["Quest Available", "Objective at (24.4, 23.1)"],
+            "notes_fr": "Parler à Krile. Sé diriger vers Le Verger (24.4,23.1) en contrebas de la falaise et intéragir avec le nœud éthéré. Revenir et parler à Krile",
+            "patch": "4.25",
+            "cPrev": [3],
+            "cNext": [5]
+        },
+        "x5": {
+            "name": "6",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [4],
+            "cNext": [6]
+        },
+        "x6": {
+            "name": "7",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [5],
+            "cNext": [7]
+        },
+        "x7": {
+            "name": "8",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [6],
+            "cNext": [8]
+        },
+        "x8": {
+            "name": "9",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": ["Abandoned Laboratory Aetheryte attunable", "Windtorn Cabin Aetheryte attunable"],
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [7],
+            "cNext": [9]
+        },
+        "x9": {
+            "name": "10",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [8],
+            "cNext": [10]
+        },
+        "x10": {
+            "name": "11",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [9],
+            "cNext": [11]
+        },
+        "x11": {
+            "name": "12",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [10],
+            "cNext": [12]
+        },
+        "x12": {
+            "name": "13",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": ["Quest Available", "Objective at (20.9, 13.0)"],
+            "notes_fr": "Parler à Krile. Se diriger vers le Lit de la Val (20.9,13.0) proche de la cascade et intéragir avec le nœud éthéré. Revenir et parler à Krile",
+            "patch": "4.25",
+            "cPrev": [11],
+            "cNext": [13]
+        },
+        "x13": {
+            "name": "14",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [12],
+            "cNext": [14]
+        },
+        "x14": {
+            "name": "15",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [13],
+            "cNext": [15]
+        },
+        "x15": {
+            "name": "16",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [14],
+            "cNext": [16]
+        },
+        "x16": {
+            "name": "17",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": [
+                "Quest Available",
+                "1st objective at (32.8, 18.3)",
+                "2nd objective at (25.5, 16.1)",
+                "Bring 99 Anemos Crystals to the 2nd objective"
+            ],
+            "notes_fr": "Parler à Krile. Intéragir avec le nœud éthéré à la Vallée de l'Étrange (32.8,18.3). Revenir et parler à Krile. Intéragir avec l'Éthérite relais à la Salle de contrôle des éthérites (25.5,16.1). Échanger 99 Cristal Anemos au Relais. Revenir et parler à Krile",
+            "patch": "4.25",
+            "cPrev": [15],
+            "cNext": [17]
+        },
+        "x17": {
+            "name": "18",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [16],
+            "cNext": [18]
+        },
+        "x18": {
+            "name": "19",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [17],
+            "cNext": [19]
+        },
+        "x19": {
+            "name": "20",
+            "zone": "@PLACE.SB.ANEMOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.25",
+            "cPrev": [18],
+            "cNext": [20]
+        },
+        "x20": {
+            "name": "21",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": ["Quest Available", "Objective at (16.5, 28.8)", "Vlondette's Retreat Aetheryte attunable"],
+            "notes_fr": "Parler à Krile. Localiser le courant éthérée appauvri dans la Vallée des Pins (16.5,28.8). Revenir et parler à Krile. Vous pouvez vous lier à l'éthérite de la Villa de Vlondette",
+            "patch": "4.36",
+            "cPrev": [19],
+            "cNext": [21]
+        },
+        "x21": {
+            "name": "22",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [20],
+            "cNext": [22]
+        },
+        "x22": {
+            "name": "23",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": ["Quest Available", "Objective at (26.7, 30.7)", "Geothermal Studies Aetheryte attunable"],
+            "notes_fr": "Parler à Krile. Localiser le courant éthérée appauvri au Cours moyen de la Val (26.7,30.7). Revenir et parler à Krile. Vous pouvez vous lier à l'éthérite du Laboratoire de géothermie",
+            "patch": "4.36",
+            "cPrev": [21],
+            "cNext": [23]
+        },
+        "x23": {
+            "name": "24",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [22],
+            "cNext": [24]
+        },
+        "x24": {
+            "name": "25",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": ["Quest Available", "Objective at (30.9, 20.7)", "Gravitational Studies Aetheryte attunable"],
+            "notes_fr": "Parler à Krile. Localiser la magicite à la Paroi de l'Est (30.9,20.7) et l'inspecter à (30.7,21.0).  Revenir et parler à Krile puis à Gerolt. Vous pouvez vous lier à l'éthérite du Laboratoire d'études antigravitationnelles",
+            "patch": "4.36",
+            "cPrev": [23],
+            "cNext": [25]
+        },
+        "x25": {
+            "name": "26",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [24],
+            "cNext": [26]
+        },
+        "x26": {
+            "name": "27",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [25],
+            "cNext": [27]
+        },
+        "x27": {
+            "name": "28",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [26],
+            "cNext": [28]
+        },
+        "x28": {
+            "name": "29",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": [
+                "Quest Available",
+                "Walk through Hot Water and drop down at (9.9, 21.3) to find Ejika Tsunjika after accepting quest"
+            ],
+            "notes_fr": "Parler à Krile. Parler à Ejika Tsunjika au rebord de la Paroi de l'Ouest. Vous devrez marcher à travers la Bouilloire et tomber à (9.9,21.3). Revenir et parler à Krile",
+            "patch": "4.36",
+            "cPrev": [27],
+            "cNext": [29]
+        },
+        "x29": {
+            "name": "30",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [28],
+            "cNext": [30]
+        },
+        "x30": {
+            "name": "31",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [29],
+            "cNext": [31]
+        },
+        "x31": {
+            "name": "32",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [30],
+            "cNext": [32]
+        },
+        "x32": {
+            "name": "33",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [31],
+            "cNext": [33]
+        },
+        "x33": {
+            "name": "34",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.36",
+            "cPrev": [32],
+            "cNext": [34]
+        },
+        "x34": {
+            "name": "35",
+            "zone": "@PLACE.SB.PAGOS",
+            "notes_en": ["Quest Available", "Objective at (21.8, 12.4)"],
+            "notes_fr": "Parler à Krile. Localiser le Geyser éthérée au Geyser d'éther (21.8,12.4). Revenir et parler à Krile",
+            "patch": "4.36",
+            "cPrev": [33],
+            "cNext": [35]
+        },
+        "x35": {
+            "name": "36",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": [
+                "Quest available on entry to Pyros",
+                "Talk to everyone until you unlock the Logos Manipulator",
+                "Extract the Paralyze L logogram",
+                "Talk to Drake & Krile",
+                "Interact with Confluence (27.7, 27.1)",
+                "Talk to Krile"
+            ],
+            "notes_fr": "Parler à tous le monde jusqu'à obtenir le Mélangeur Logos. Extraire l'Évocation Logos : Paralysie. Parler à Drake puis à Krile. Voyager jusqu'en (27.7,27.1) et intéragir avec le nœud éthéré, puis revenir et parler à Krile",
+            "patch": "4.45",
+            "cPrev": [34],
+            "cNext": [36]
+        },
+        "x36": {
+            "name": "37",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "The Dragon Star Observatory Aetheryte attunable",
+            "notes_fr": "Vous pouvez vous lier à l'éthérite de l'Observatoire de l'étoile du dragon",
+            "patch": "4.45",
+            "cPrev": [35],
+            "cNext": [37]
+        },
+        "x37": {
+            "name": "38",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": ["Quest Available", "1st objective at (18.6, 30.6)", "2nd objective at (23.8, 17.0)"],
+            "notes_fr": "Parler à Krile puis à Drake. Se diriger vers (18.6,30.6) et intéragir avec le tas de \"Déchets prometteurs\". Revenir et parler à Drake. Parler à Krile. Se diriger vers (23.8,17.0) et intéragir avec le nœud éthéré. Parler à Krile",
+            "patch": "4.45",
+            "cPrev": [36],
+            "cNext": [38]
+        },
+        "x38": {
+            "name": "39",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "The Firing Chamber Aetheryte attunable",
+            "notes_fr": "Vous pouvez vous lier à l'éthérite du Site d'expérimentations calorifuges",
+            "patch": "4.45",
+            "cPrev": [37],
+            "cNext": [39]
+        },
+        "x39": {
+            "name": "40",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": ["Quest Available", "Objective at (17.2, 11.6)"],
+            "notes_fr": "Parler à Krile puis prendre le nœud éthéré à l'Ouest de Rocheflamme (17.2,11.6). Revenir et parler à Krile",
+            "patch": "4.45",
+            "cPrev": [38],
+            "cNext": [40]
+        },
+        "x40": {
+            "name": "41",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "Carbonatite Quarry Aetheryte attunable",
+            "notes_fr": "Vous pouvez vous lier à l'éthérite de la Carrière de carbonatite",
+            "patch": "4.45",
+            "cPrev": [39],
+            "cNext": [41]
+        },
+        "x41": {
+            "name": "42",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [40],
+            "cNext": [42]
+        },
+        "x42": {
+            "name": "43",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [41],
+            "cNext": [43]
+        },
+        "x43": {
+            "name": "44",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [42],
+            "cNext": [44]
+        },
+        "x44": {
+            "name": "45",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "Quest Available",
+            "notes_fr": "Parler à Krile et après plusieurs cinématiques, lui reparler au Laboratoire de l'opiniâtre",
+            "patch": "4.45",
+            "cPrev": [43],
+            "cNext": [45]
+        },
+        "x45": {
+            "name": "46",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [44],
+            "cNext": [46]
+        },
+        "x46": {
+            "name": "47",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [45],
+            "cNext": [47]
+        },
+        "x47": {
+            "name": "48",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [46],
+            "cNext": [48]
+        },
+        "x48": {
+            "name": "49",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.45",
+            "cPrev": [47],
+            "cNext": [49]
+        },
+        "x49": {
+            "name": "50",
+            "zone": "@PLACE.SB.PYROS",
+            "notes_en": [
+                "Quest Available",
+                "1st objective at (34.0,7.3)",
+                "2nd objective at (14.5, 37.6) (after speaking to Krile)"
+            ],
+            "notes_fr": "Parler à Krile. Prendre le nœud éthéré à l'Est de Rocheflamme (34.0,7.3). Revenirt et parler à Krile avant de voyager au Sud de la Caverne mélodieuse(14.5,37.6)",
+            "patch": "4.45",
+            "cPrev": [48],
+            "cNext": [50]
+        },
+        "x50": {
+            "name": "51",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": [
+                "Quest 1 available on Hydatos entry",
+                "Unlocks Hydatos weapon exchange",
+                "Quest 2 available at level",
+                "1st objective at (20.3,24.8)",
+                "2nd objective at (25.7,30.7)",
+                "Unverified Research Aetheryte attunable"
+            ],
+            "notes_fr": "Talk to Krile, Gerolt, then Krile. Find Krile at The Central Columns (20.3,24.8). Find Pooled Aether at The Val River Source (25.7,30.7). Find Krile at The Central Columns. You can attune to the aetheryte at Unverified Research",
+            "patch": "4.55",
+            "cPrev": [49],
+            "cNext": [51]
+        },
+        "x51": {
+            "name": "52",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [50],
+            "cNext": [52]
+        },
+        "x52": {
+            "name": "53",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [51],
+            "cNext": [53]
+        },
+        "x53": {
+            "name": "54",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": [
+                "Quest Available",
+                "1st objective at (10.6, 29.6)",
+                "2nd objective at (6.5, 15.7)",
+                "3rd objective at (10.6, 29.6)"
+            ],
+            "notes_fr": "Parler à Krile. Se diriger vers (10.6,29.6) et reparler à Krile. Se diriger vers (6.5,15.7) pour trouver la flaque d'éther après avoir grimper la colonne. Se diriger vers (10.6,29.6) et parler à Krile",
+            "patch": "4.55",
+            "cPrev": [52],
+            "cNext": [54]
+        },
+        "x54": {
+            "name": "55",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "Dormitory Aetheryte attunable",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [53],
+            "cNext": [55]
+        },
+        "x55": {
+            "name": "56",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [54],
+            "cNext": [56]
+        },
+        "x56": {
+            "name": "57",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": [
+                "Quest Available",
+                "1st objective at (10.6, 29.6)",
+                "2nd objective at (31.3, 27.2)",
+                "3rd objective at (30.8, 14.4)",
+                "4th objective at (31.3, 27.2)"
+            ],
+            "notes_fr": "Parler à Krile à (10.6,29.6). Se diriger vers l'est (31.3,27.2) et reparler à Krile. Se diriger au nord (30.8,14.4) et trouver une flaque d'éther. Se diriger (31.3,27.2) et parler à Krile",
+            "patch": "4.55",
+            "cPrev": [55],
+            "cNext": [57]
+        },
+        "x57": {
+            "name": "58",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [56],
+            "cNext": [58]
+        },
+        "x58": {
+            "name": "59",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": "",
+            "notes_fr": "",
+            "patch": "4.55",
+            "cPrev": [57],
+            "cNext": [59]
+        },
+        "x59": {
+            "name": "60",
+            "zone": "@PLACE.SB.HYDATOS",
+            "notes_en": [
+                "Quest Available",
+                "1st objective at (31.3, 27.2)",
+                "2nd objective at (24.0, 30.6)",
+                "Unlocks The Baldesion Arsenal"
+            ],
+            "notes_fr": "Parler à Krile à: (31.3,27.2), (24.0,30.6), Socle du pont éthéré, Bureau du doyen. Chercher des livres éparpillés. Parler à Krile. Choisir votre chemin et revenir à Le Mitan. Parler à Ejika ou Krile. Vous pouvez maintenant entrer dans l'Arsenal de Baldesion.",
+            "patch": "4.55",
+            "cPrev": [58]
+        }
+    }
+}

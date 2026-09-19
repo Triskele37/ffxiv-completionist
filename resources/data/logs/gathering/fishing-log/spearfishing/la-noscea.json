@@ -1,0 +1,25 @@
+{
+    "key": "la-noscea",
+    "groupName_en": "La Noscea",
+    "groupName_fr": "Noscea",
+    "tasks": {
+        "x52": {
+            "name_en": "Northeast Bronze Lake Depths",
+            "name_fr": "Fond du lac d'Airin (nord-est)",
+            "level": 90,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(24.5, 21.2)",
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.3"
+        },
+        "x54": {
+            "name_en": "Northwest Bronze Lake Depths",
+            "name_fr": "Fond du lac d'Airin (nord-ouest)",
+            "level": 90,
+            "zone": "@PLACE.ARR.UPPER_LA_NOSCEA",
+            "location": "(19.1, 21.4)",
+            "type": "@FISH.TYPE.SPEARFISHING",
+            "patch": "6.5"
+        }
+    }
+}

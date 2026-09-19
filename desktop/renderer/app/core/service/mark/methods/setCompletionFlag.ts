@@ -1,0 +1,29 @@
+import type { Completion } from '@constant';
+import { updateCompletion } from '@model/DataGroup/updateCompletion';
+import type { Task } from '@model/Task';
+
+import type { MarkService } from '../mark.service';
+
+/**
+ * Update `task.completionFlag$` as a flag
+ * */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function setCompletionFlag(service: MarkService) {
+    return (
+        task: Task,
+        flag: Completion,
+    ): void => {
+        if(task.disableCompletion) return;
+
+        const fromFlag = task.completionFlag$();
+
+        // Do nothing if the flag isn't changing
+        if(fromFlag === flag) return; // MUI IMPORTANTE
+
+        // Update the task's flag
+        task.completionFlag$.set(flag);
+
+        // Fire the group's update$ notification
+        updateCompletion(task._parent);
+    };
+}

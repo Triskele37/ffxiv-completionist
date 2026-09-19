@@ -1,0 +1,169 @@
+{
+    "key": "eastern-la-noscea",
+    "groupName_en": "Eastern La Noscea",
+    "groupName_fr": "Noscea orientale",
+    "tasks": {
+        "x66232": {
+            "name_en": "Leves of Costa del Sol",
+            "name_fr": "Mandataire de Costa del Sol",
+            "level": 30,
+            "npc_en": "Nahctahr",
+            "npc_fr": "Nahctahr",
+            "patch": "2.0",
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
+            "cPrevAny": true
+        },
+        "x66349": {
+            "name_en": "Costa Beach Party",
+            "name_fr": "Mais où sont passées les donzelles ?",
+            "level": 30,
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "patch": "2.0",
+            "cNext": ["q.66387"]
+        },
+        "x66369": {
+            "name_en": "Who Moved My Headcheese",
+            "name_fr": "Kobolds chapardeurs",
+            "level": 32,
+            "npc_en": "Kuzai Tazai",
+            "npc_fr": "Kuzai Tazai",
+            "patch": "2.0",
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66370"]
+        },
+        "x66370": {
+            "name_en": "Get a Grip",
+            "name_fr": "L'exode des crustacés",
+            "level": 32,
+            "npc_en": "Kuzai Tazai",
+            "npc_fr": "Kuzai Tazai",
+            "patch": "2.0",
+            "cPrev": ["q.66369"]
+        },
+        "x66371": {
+            "name_en": "Unrefined Methods",
+            "name_fr": "Attaque préventive",
+            "level": 32,
+            "npc_en": "Fyrilsunn",
+            "npc_fr": "Fyrilsunn",
+            "patch": "2.0",
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66374"]
+        },
+        "x66372": {
+            "name_en": "Buffaloed All the Way",
+            "name_fr": "Sueur et tremblements",
+            "level": 32,
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "patch": "2.0",
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66373"]
+        },
+        "x66373": {
+            "name_en": "Pests in the Pillars",
+            "name_fr": "Infestation de mollusques",
+            "level": 32,
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "patch": "2.0",
+            "cPrev": ["q.66372"],
+            "cNext": ["q.66389"]
+        },
+        "x66374": {
+            "name_en": "To You from Failing Hands We Throw",
+            "name_fr": "Mes précieuses médailles",
+            "level": 32,
+            "npc_en": "Fyrilsunn",
+            "npc_fr": "Fyrilsunn",
+            "patch": "2.0",
+            "cPrev": ["q.66371"]
+        },
+        "x66377": {
+            "name_en": "Raptor 'round Your Little Finger",
+            "name_fr": "Raptors bâfreurs",
+            "level": 32,
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "patch": "2.0",
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66380"]
+        },
+        "x66378": {
+            "name_en": "Put a Cork in It",
+            "name_fr": "Problème de bouchon",
+            "level": 32,
+            "npc_en": "Byrglaent",
+            "npc_fr": "Byrglaent",
+            "patch": "2.0",
+            "cPrev": ["q.66368"]
+        },
+        "x66380": {
+            "name_en": "Mona Lisa Smile",
+            "name_fr": "Une question d'étiquette",
+            "level": 33,
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "patch": "2.0",
+            "cPrev": ["q.66377"],
+            "cNext": ["q.66385"]
+        },
+        "x66385": {
+            "name_en": "Anise, Chocolate, and a Hint of Toad",
+            "name_fr": "Un festin de crapauds",
+            "level": 33,
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "patch": "2.0",
+            "cPrev": ["q.66380"]
+        },
+        "x66387": {
+            "name_en": "The Wind, It Passes",
+            "name_fr": "Tempête rafraîchissante",
+            "level": 33,
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "patch": "2.0",
+            "cPrev": ["q.66349"],
+            "cNext": ["q.66388"]
+        },
+        "x66388": {
+            "name_en": "Bird's-eye View",
+            "name_fr": "Les oiseaux de la discorde",
+            "level": 33,
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "patch": "2.0",
+            "cPrev": ["q.66387"]
+        },
+        "x66389": {
+            "name_en": "The Stench of Danger",
+            "name_fr": "Des poissons indésirables",
+            "level": 33,
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "patch": "2.0",
+            "cPrev": ["q.66373"]
+        },
+        "x65550": {
+            "name_en": "Leves of Wineport",
+            "name_fr": "Mandataire de Port-aux-Vins",
+            "level": 35,
+            "npc_en": "Aileen",
+            "npc_fr": "Aileen",
+            "patch": "2.0",
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
+            "cPrevAny": true
+        },
+        "x66747": {
+            "name_en": "Treasures and Tribulations",
+            "name_fr": "La joie de la chasse aux trésors",
+            "level": 36,
+            "npc_en": "H'loonh",
+            "npc_fr": "H'loonh",
+            "unlock": "duty.treasure-hunt",
+            "patch": "2.1"
+        }
+    }
+}

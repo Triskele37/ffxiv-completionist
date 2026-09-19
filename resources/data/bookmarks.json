@@ -1,0 +1,18 @@
+{
+    "key": "bookmarks",
+    "groupName_en": "Bookmarks",
+    "groupName_fr": "Marque-page",
+    "type": "Bookmark",
+    "columns": {
+        "name": {
+            "header": "@HEADER.NAME",
+            "taskLink": true
+        },
+        "contentLink": {
+            "header_en": "Group",
+            "header_fr": "Groupe",
+            "groupLink": true,
+            "trimGroup": true
+        }
+    }
+}

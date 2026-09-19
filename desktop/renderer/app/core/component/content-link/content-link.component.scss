@@ -1,0 +1,14 @@
+@use './ellipsis-overflow' as *;
+
+:host {
+    display: contents;
+
+    .content-link {
+        display: inline-block;
+        max-width: 100%;
+        border: unset;
+
+
+        @extend %ellipsis-overflow;
+    }
+}

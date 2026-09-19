@@ -1,0 +1,413 @@
+{
+    "key": "fisher",
+    "groupName": "@CLASS_JOB.FSH",
+    "tasks": {
+        "x1037": {
+            "name_en": "Soup Broth Ingredients",
+            "name_fr": "Ingrédient de base pour bouillon",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_A",
+            "patch": "7.31"
+        },
+        "x1038": {
+            "name_en": "Oil-extractable Aquatic Life",
+            "name_fr": "Produits aquatiques pour extraction d'huile",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_2_B",
+            "patch": "7.31"
+        },
+        "x1039": {
+            "name_en": "Elemental-esque Specimen Acquisition",
+            "name_fr": "Capture de pseudo-esprits aquatiques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CRITICAL",
+            "condition": "@COSMO.RED_ALERT.PHAENNA_3_A",
+            "patch": "7.31"
+        },
+        "x997": {
+            "name_en": "Hyper-aetheroconductive Materials",
+            "name_fr": "Livraison de conducteurs éthéréens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.996",
+            "patch": "7.31"
+        },
+        "x999": {
+            "name_en": "EX: Rare Aquatic Resources",
+            "name_fr": "EX : Livraison de produits aquatiques rares",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.998",
+            "patch": "7.31"
+        },
+        "x1000": {
+            "name_en": "EX: Elemental-esque River Specimens",
+            "name_fr": "EX : Étude de pseudo-esprits de rivière",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.999",
+            "patch": "7.31"
+        },
+        "x1002": {
+            "name_en": "EX: Bubble Bursters Distribution Survey",
+            "name_fr": "EX : Étude de L'Enfer bulleux",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1001",
+            "patch": "7.31"
+        },
+        "x1003": {
+            "name_en": "EX+: Fusingway Flow Distribution Survey",
+            "name_fr": "EX+ : Étude de la coulée de Fusingway",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1002",
+            "patch": "7.31"
+        },
+        "x1005": {
+            "name_en": "EX+: Elemental-esque Chasm Specimens",
+            "name_fr": "EX+ : Étude de pseudo-esprits aquatiques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1004",
+            "patch": "7.31"
+        },
+        "x1006": {
+            "name_en": "EX+: Elemental-esque Vent Specimens",
+            "name_fr": "EX+ : Étude de pseudo-esprits vitrifiés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.SEQUENTIAL",
+            "condition": "cm.1005",
+            "patch": "7.31"
+        },
+        "x994": {
+            "name_en": "EX+: Large Saltpeter Shore Resources",
+            "name_fr": "EX+ : Étude de grands spécimens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0400-0800",
+            "patch": "7.31"
+        },
+        "x1001": {
+            "name_en": "Lower Soda-lime Float Distribution Survey",
+            "name_fr": "Étude en aval des Flots sodocalciques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "0800-1000",
+            "patch": "7.31"
+        },
+        "x1004": {
+            "name_en": "EX+: Elemental-esque Saltpeter Shore Specimens",
+            "name_fr": "EX+ : Étude de pseudo-esprits des bas-fonds",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.TIME",
+            "condition": "1800-2000",
+            "patch": "7.31"
+        },
+        "x993": {
+            "name_en": "EX: Capsule Pools Distribution Survey",
+            "name_fr": "EX : Étude des étangs aux Capsules",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Rain",
+            "condition_fr": "Pluie",
+            "patch": "7.31"
+        },
+        "x995": {
+            "name_en": "EX+: Stardust Bait Test",
+            "name_fr": "EX+ : Essais d'appâts allogènes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.WEATHER",
+            "condition_en": "Clouds",
+            "condition_fr": "Couvert",
+            "patch": "7.31"
+        },
+        "x986": {
+            "name_en": "Cultivated Specimen Survey",
+            "name_fr": "Étude de prolifération aquatique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x987": {
+            "name_en": "Stardust Bait Test",
+            "name_fr": "Essais d'appâts allogènes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x988": {
+            "name_en": "Elemental-esque Aquaculture Specimens",
+            "name_fr": "Étude de pseudo-esprits aquatiques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x989": {
+            "name_en": "Prismatic Pull Distribution Survey",
+            "name_fr": "Étude du cloaque prismatique",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x990": {
+            "name_en": "Aquatic Glass Resource Distribution Survey",
+            "name_fr": "Étude de spécimens aquatiques vitrifiés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x991": {
+            "name_en": "EX: Red Cosmomaggot Field Test",
+            "name_fr": "EX : Essais de mouches écarlates cosmiques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x992": {
+            "name_en": "EX: Large River Resources",
+            "name_fr": "EX : Étude de grands spécimens de rivière",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x996": {
+            "name_en": "Precision Lens Development Support",
+            "name_fr": "Support à l'élaboration de lentilles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x998": {
+            "name_en": "EX: Large Aquatic Resources",
+            "name_fr": "EX : Capture de grands spécimens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_A",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x978": {
+            "name_en": "Upper Soda-lime Float Distribution Survey",
+            "name_fr": "Étude en amont des Flots sodocalciques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x979": {
+            "name_en": "Central Soda-lime Channel Distribution Survey",
+            "name_fr": "Étude en aval des Flots sodocalciques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x980": {
+            "name_en": "Arthrolure Field Test",
+            "name_fr": "Essais de bras universel",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x981": {
+            "name_en": "River Basin Large Aquatic Resources",
+            "name_fr": "Étude de grands spécimens en aval",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x982": {
+            "name_en": "Saltpeter Shore Sunken Resources",
+            "name_fr": "Étude des ressources naturelles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x983": {
+            "name_en": "Mutant Aquatic Specimen Observations",
+            "name_fr": "Étude des mutations aquatiques",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x984": {
+            "name_en": "Vitrified Freshwater Fish Observations",
+            "name_fr": "Étude de spécimens vitrifiés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x985": {
+            "name_en": "Saltpeter Shore Large Resources",
+            "name_fr": "Étude de grands spécimens variés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_B",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x971": {
+            "name_en": "Efficient Aquatic Foodstuffs Procurement",
+            "name_fr": "Livraison efficace de produits de la pêche",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x972": {
+            "name_en": "West Beaconveil Distribution Survey",
+            "name_fr": "Étude à l'ouest de la station Souffleverre",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x973": {
+            "name_en": "Fish Paste Ingredients",
+            "name_fr": "Livraison de pâte de poisson",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x974": {
+            "name_en": "Multi-purpose Bait Test",
+            "name_fr": "Étude d'appâts universels",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x975": {
+            "name_en": "Emergency Bulk Provision Procurement",
+            "name_fr": "Livraison urgente de vivres",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x976": {
+            "name_en": "Vitrified Freshwater Fish",
+            "name_fr": "Capture de spécimens vitrifiés",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x977": {
+            "name_en": "High-silica Environment Observation",
+            "name_fr": "Étude de bassins riches en silicium",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_C",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x965": {
+            "name_en": "Aquatic Foodstuffs",
+            "name_fr": "Produits de la pêche comestibles",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x966": {
+            "name_en": "Efficient Large Specimen Procurement",
+            "name_fr": "Livraison efficace de grands spécimens",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x967": {
+            "name_en": "Opalescent Crossing Specimen Survey",
+            "name_fr": "Étude à la Croisée opalescente",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x968": {
+            "name_en": "Bulk Provision Procurement",
+            "name_fr": "Livraison de vivres en grande quantité",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x969": {
+            "name_en": "Opalescent Crossing Distribution Survey",
+            "name_fr": "Livraison de la Croisée opalescente",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        },
+        "x970": {
+            "name_en": "Large Mutant Cultivated Specimens",
+            "name_fr": "Étude d'espèces grandissantes",
+            "planet": "@PLACE.DT.PHAENNA",
+            "crafter": "@CLASS_JOB.FSH",
+            "type": "@COSMO.MISSION_TYPE.CLASS_D",
+            "condition": "",
+            "patch": "7.31"
+        }
+    }
+}

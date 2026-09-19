@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .from-to-label-container {
+        display: flex;
+        align-items: center;
+        gap: var(--content-padding);
+
+        .from-to-icons {
+            display: flex;
+        }
+
+        .from-to-text {
+
+        }
+    }
+}
