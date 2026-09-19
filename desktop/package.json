@@ -18,6 +18,7 @@
         "ng": "ng",
         "ng:serve": "ng serve ffxiv-completionist -c web",
         "test": "jest --config ./renderer/jest.config.js",
-        "start": "npm-run-all -p electron:serve ng:serve"
+        "start": "npm-run-all -p electron:serve ng:serve",
+        "start:exe": "cmd /c \"./release/win-unpacked/FFXIV Completionist.exe\" --enable-logging"
     }
 }

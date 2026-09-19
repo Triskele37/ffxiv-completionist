@@ -4,8 +4,7 @@ export function buildExternalUrl(
     term: string | string[],
     config: TaskLink,
 ): string {
-    let encodedTerm = term;
-    let prefix = getPrefix(encodedTerm, config);
+    let [prefix, encodedTerm] = shiftPrefix(term, config);
 
     encodedTerm = transformPreEncoding(encodedTerm, config);
     encodedTerm = joinTerms(encodedTerm, config);
@@ -29,13 +28,12 @@ export function buildExternalUrl(
     return config.url + prefix + encodedTerm;
 }
 
-// MUTATES TERM - intended, sneaking prefix in as first element of array
-function getPrefix(term: string | string[], config: TaskLink): string {
+function shiftPrefix(term: string | string[], config: TaskLink): [string | undefined, string | string[]] {
     if(config.usePrefix && Array.isArray(term)) {
-        return term.shift() ?? '';
+        return [term[0], term.slice(1)];
     }
 
-    return '';
+    return ['', term];
 }
 
 function transformPreEncoding(term: string | string[], config: TaskLink): string | string[] {

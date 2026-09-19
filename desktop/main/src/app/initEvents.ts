@@ -1,11 +1,11 @@
 import { app } from 'electron';
 
 import { GlobalStore } from '../globalStore';
+import { applyHandlers, initProtocols } from '../protocol/initProtocols';
 import { focusMainWindow, initializeWindows } from '../window';
 import { createWindow } from './createWindow';
 import { initializeMemoryLogger } from './initializeMemoryLogger';
 import { setupCsp } from './setupCsp';
-import { applyHandlers, initProtocols } from './setupProtocol';
 
 export function initEvents() {
     initializeMemoryLogger();

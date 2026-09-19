@@ -21,15 +21,20 @@ export function openExternalMulti(terms: string[], key: string): boolean {
 }
 
 export function openExternal(term: string | string[], config: TaskLink): boolean {
-    const url = new URL(buildExternalUrl(term, config));
+    try {
+        const url = new URL(buildExternalUrl(term, config));
 
-    // SEC: Require links to target secure protocol
-    if(url.protocol !== 'https:') return false;
+        // SEC: Require links to target secure protocol
+        if(url.protocol !== 'https:') return false;
 
-    // SEC: Require ALL hosts be whitelisted
-    if(!TRUSTED.has(url.hostname)) return false;
+        // SEC: Require ALL hosts be whitelisted
+        if(!TRUSTED.has(url.hostname)) return false;
 
-    shell.openExternal(url.href);
+        shell.openExternal(url.href);
 
-    return true;
+        return true;
+    }
+    catch {
+        return false;
+    }
 }
