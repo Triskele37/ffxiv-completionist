@@ -12,7 +12,7 @@ export function setupCsp(): void {
             "'sha256-hiWn+r3t8K/RY7p69nido90IwQwsthOxsyaXn8WrTto='", // global fix
         ].join(' '),
         "style-src 'self' 'unsafe-inline'",
-        "img-src 'self' data:"
+        "img-src 'self' game:"
     ].filter(Boolean).join('; ');
 
     session.defaultSession.webRequest.onHeadersReceived((details, callback) => {

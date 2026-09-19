@@ -8,12 +8,15 @@ import { exportCustom } from '../custom/exportCustom';
 import { getCache } from '../data/cache';
 import { getMigration } from '../data/getMigration';
 import { preloadData } from '../data/preloadData';
+import { getFeature } from '../feature/getFeature';
+import { openExternalSingle, openExternalMulti } from '../feature/openExternal';
 import * as Save from '../save';
 import { showMainWindow } from '../window';
 
-export const mainApi: Partial<MainSyncApi> = {
+export const mainApi: MainSyncApi = {
     onAppReady: showMainWindow,
     getVersion: () => app.getVersion(),
+    getFeature: getFeature,
     getData: getCache,
     getMigration: getMigration,
 
@@ -33,6 +36,9 @@ export const mainApi: Partial<MainSyncApi> = {
 
     importCustom: importCustom,
     exportCustom: exportCustom,
+
+    openExternalSingle: openExternalSingle,
+    openExternalMulti: openExternalMulti,
 };
 
 export const mainAsyncApi: Partial<MainAsyncApi> = {

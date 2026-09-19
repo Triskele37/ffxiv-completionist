@@ -1,13 +1,17 @@
 import { ReturnsOfType, ReturnsNotOfType } from './typeUtils';
+
 import { ConfigLoad, ConfigObj } from './Config';
 import { CustomMeta } from './CustomContent';
+import { Features } from './Features';
 import { JsonCache } from './JsonCache';
 import { PlayerSave, SaveLoad } from './PlayerSave';
 import { Migration } from './Migration';
 
 export interface MainApi {
+    // Sync
 	onAppReady: () => void;
     getVersion: () => string;
+    getFeature: <K extends keyof Features>(featureKey: K) => Features[K] | undefined;
     getData: () => JsonCache;
     getMigration: (version: string) => Migration | undefined;
 
@@ -28,12 +32,10 @@ export interface MainApi {
     importCustom: () => CustomMeta | false | null;
     exportCustom: (customMeta: CustomMeta) => void;
 
-    searchConsoleGames: (searchTerm: string) => void;
-    searchGamerEscape: (searchTerm: string) => void;
-    searchGarlandTools: (searchTerm: string) => void;
-    openInGarlandTools: (ids: number[], groupName: string) => void;
-    openInTeamcraft: (ids: number[]) => void;
+    openExternalSingle: (value: string, key: string) => boolean;
+    openExternalMulti: (values: string[], key: string) => boolean;
 
+    // Async
     onAppRefresh: () => Promise<void>;
 }
 

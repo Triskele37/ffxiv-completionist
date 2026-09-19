@@ -26,6 +26,10 @@
             ]
         }
     ],
+    "electronFuses": {
+        "enableEmbeddedAsarIntegrityValidation": true,
+        "onlyLoadAppFromAsar": true
+    },
     "win": {
         "icon": "renderer/assets/icons/favicon.png",
         "target": "nsis"

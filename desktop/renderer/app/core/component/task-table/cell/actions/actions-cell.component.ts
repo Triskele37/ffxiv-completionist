@@ -6,11 +6,18 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { ButtonDirective } from 'primeng/button';
 import { Tooltip } from 'primeng/tooltip';
 
-import * as TaskActionComponent from '@component/task-table/actions/task';
+import { TaskLink } from '@common/Features';
 import { EditNoteActionComponent } from '@component/task-table/actions/common';
 import type { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { ElectronService } from '@service/electron/electron.service';
 import { TableService } from '@service/table/table.service';
+
+import { BookmarkActionComponent } from '@component/task-table/actions/task/bookmark-action.component';
+import { CopyIdActionComponent } from '@component/task-table/actions/task/copy-id-action.component';
+import { DragActionComponent } from '@component/task-table/actions/task/drag-action.component';
+import { TaskLinkActionComponent } from '@component/task-table/actions/task/task-link-action.component';
+import { ViewChainsActionComponent } from '@component/task-table/actions/task/view-chains-action.component';
 
 @Component({
     selector: 'com-actions-cell',
@@ -23,28 +30,36 @@ import { TableService } from '@service/table/table.service';
         ButtonDirective,
         Tooltip,
 
-        TaskActionComponent.BookmarkActionComponent,
-        TaskActionComponent.ConsoleGamesActionComponent,
-        TaskActionComponent.DragActionComponent,
+        BookmarkActionComponent,
+        DragActionComponent,
         EditNoteActionComponent,
-        TaskActionComponent.GamerEscapeActionComponent,
-        TaskActionComponent.GarlandActionComponent,
-        TaskActionComponent.ViewChainsActionComponent,
-        TaskActionComponent.CopyIdActionComponent
+        TaskLinkActionComponent,
+        ViewChainsActionComponent,
+        CopyIdActionComponent
     ]
 })
 export class ActionsCellComponent {
     private svcConfigStore = inject(ConfigStoreService);
+    private svcElectron = inject(ElectronService);
     svcTable = inject(TableService);
 
     @Input({ required: true }) task!: Task;
     @Input({ required: true }) rowIndex!: number;
+
+    static taskLinks?: TaskLink[];
+    taskLinks: TaskLink[] = [];
 
     showCopyId = signal(false);
     expanded = signal(false);
 
     constructor() {
         this.showCopyId.set(this.svcConfigStore.data?.isAdmin ?? false);
+
+        if(!ActionsCellComponent.taskLinks) {
+            ActionsCellComponent.taskLinks = this.svcElectron.getFeature('task-links');
+        }
+
+        this.taskLinks = ActionsCellComponent.taskLinks ?? [];
 
         this.svcConfigStore.updated$
             .pipe(takeUntilDestroyed())

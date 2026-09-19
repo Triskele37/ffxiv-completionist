@@ -43,23 +43,16 @@
                     {{'APP.SELECTION_OVERLAY.ACTIONS' | translate}}
                 </p-divider>
 
-                <button
-                    pButton
-                    variant="outlined"
-                    [disabled]="!group.isCraftingLogGroup"
-                    (click)="openInGarland()"
-                >
-                    {{'APP.SELECTION_OVERLAY.GARLAND' | translate}}
-                </button>
-
-                <button
-                    pButton
-                    variant="outlined"
-                    [disabled]="!group.isCraftingLogGroup"
-                    (click)="openInTeamcraft()"
-                >
-                    {{'APP.SELECTION_OVERLAY.TEAMCRAFT' | translate}}
-                </button>
+                @for(taskLink of taskLinks; track $index) {
+                    <button
+                        pButton
+                        variant="outlined"
+                        [disabled]="taskLink.disabled"
+                        (click)="onTaskLinkClick(taskLink)"
+                    >
+                        {{'GAME.FEATURE.MULTI_TASK_LINK.' + taskLink.i18nKey | translate}}
+                    </button>
+                }
             </span>
         </div>
     }

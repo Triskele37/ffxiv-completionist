@@ -10,20 +10,13 @@
                 animate.leave="fade-out"
             >
                 <div class="actions noSelect">
-                    <com-console-games-action
-                        [task]="task"
-                        (clicked)="onCloseActions()"
-                    ></com-console-games-action>
-
-                    <com-gamer-escape-action
-                        [task]="task"
-                        (clicked)="onCloseActions()"
-                    ></com-gamer-escape-action>
-
-                    <com-garland-action
-                        [task]="task"
-                        (clicked)="onCloseActions()"
-                    ></com-garland-action>
+                    @for(taskLink of taskLinks; track $index) {
+                        <com-task-link-action
+                            [taskLink]="taskLink"
+                            [task]="task"
+                            (clicked)="onCloseActions()"
+                        ></com-task-link-action>
+                    }
 
                     @if(showCopyId()) {
                         <com-copy-id-action

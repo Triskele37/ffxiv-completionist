@@ -9,6 +9,7 @@ import { MainApi, MainSyncApi, MainAsyncApi } from '../common/MainApi';
 const syncApiKeys: (keyof MainSyncApi)[] = [
     'onAppReady',
     'getVersion',
+    'getFeature',
     'getData',
     'getMigration',
     'getConfig',
@@ -25,6 +26,8 @@ const syncApiKeys: (keyof MainSyncApi)[] = [
     'loadBackupSave',
     'importCustom',
     'exportCustom',
+    'openExternalSingle',
+    'openExternalMulti',
 ];
 
 const asyncApiKeys: (keyof MainAsyncApi)[] = [

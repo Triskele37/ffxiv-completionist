@@ -7,6 +7,7 @@
         .data-cell-value-container {
             max-height: sizes.$table-row-height;
             padding: calc(var(--content-padding) * .75) var(--content-padding);
+            display: flex;
 
             .p-button-link {
                 color: var(--primary-color);

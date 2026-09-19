@@ -239,9 +239,9 @@
                 "FILTER_DROPDOWN": {
                     "SUMMARY": "Filter Dropdown",
                     "DETAIL": "Click to view a list or add options to filter by",
-                    "CUSTOM_OPTION": {
-                        "SUMMARY": "Custom Filter Option",
-                        "DETAIL": "Type and add a temporary custom filter"
+                    "OPTION_INPUT": {
+                        "SUMMARY": "Option Input",
+                        "DETAIL": "Search options or add a temporary custom filter"
                     },
                     "OPTIONS": {
                         "SUMMARY": "Filter Options",
@@ -433,9 +433,7 @@
             "SELECT_ALL": "Select All Tasks",
             "DESELECT_ALL": "Deselect All Tasks",
             "INVERT": "Invert Selection",
-            "ACTIONS": "Selected Actions",
-            "GARLAND": "Open in Garland Tools",
-            "TEAMCRAFT": "Open in Teamcraft"
+            "ACTIONS": "Selected Actions"
         },
         "SETTING": {
             "TITLE": "Settings",
@@ -539,7 +537,7 @@
             "HIDE_ALL": "Hide All Tasks",
             "VIEW_LINKS": "View All",
             "NO_DATA": "No data to display",
-            "CUSTOM_OPTION": "Enter custom filter value...",
+            "OPTION_INPUT": "Search or enter custom filter...",
             "GROUP_ACTION": {
                 "TITLE": "Group Actions",
                 "ADD_BOOKMARK": "Bookmark Group",
@@ -553,16 +551,12 @@
                 "UNBOOKMARK": "Unbookmark Task",
                 "REORDER": "Reorder Row",
                 "VIEW_CHAINS": "View Chains",
-                "EDIT_NOTE": "Edit Note",
-                "GARLAND": "Garland Tools",
-                "ESCAPE": "Gamer Escape",
-                "CONSOLE": "Console Games Wiki"
+                "EDIT_NOTE": "Edit Note"
             }
         },
         "TOAST": {
             "CONFIG_FAILED_SUMMARY": "Failed To Load Config",
             "CONFIG_FAILED_DETAIL": "Using last working version",
-            "LINK_COPIED": "Link copied to clipboard",
             "SAVE_FAILED_SUMMARY": "Failed To Load Progress",
             "SAVE_FAILED_DETAIL": "A temporary save has been created"
         },

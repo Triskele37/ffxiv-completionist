@@ -239,9 +239,9 @@
                 "FILTER_DROPDOWN": {
                     "SUMMARY": "Filter Dropdown",
                     "DETAIL": "Click to view a list or add options to filter by",
-                    "CUSTOM_OPTION": {
-                        "SUMMARY": "Custom Filter Option",
-                        "DETAIL": "Type and add a temporary custom filter"
+                    "OPTION_INPUT": {
+                        "SUMMARY": "Option Input",
+                        "DETAIL": "Search options or add a temporary custom filter"
                     },
                     "OPTIONS": {
                         "SUMMARY": "Filter Options",
@@ -433,9 +433,7 @@
             "SELECT_ALL": "Sélectionner toutes les tâches",
             "DESELECT_ALL": "Désélectionner toutes les tâches",
             "INVERT": "Inverser la sélection",
-            "ACTIONS": "Tâches sélectionnées",
-            "GARLAND": "Ouvrir dans Garland Tools",
-            "TEAMCRAFT": "Ouvrir dans Teamcraft"
+            "ACTIONS": "Tâches sélectionnées"
         },
         "SETTING": {
             "TITLE": "Options",
@@ -539,7 +537,7 @@
             "HIDE_ALL": "Cacher les tâches",
             "VIEW_LINKS": "Afficher la totalité",
             "NO_DATA": "No data to display",
-            "CUSTOM_OPTION": "Enter custom filter value...",
+            "OPTION_INPUT": "Search or enter custom filter...",
             "GROUP_ACTION": {
                 "TITLE": "Group Actions",
                 "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
@@ -553,16 +551,12 @@
                 "UNBOOKMARK": "Enlever le marque-page à la tâche",
                 "REORDER": "Réarranger la ligne",
                 "VIEW_CHAINS": "View Chains",
-                "EDIT_NOTE": "Edit Note",
-                "GARLAND": "Garland Tools",
-                "ESCAPE": "Gamer Escape",
-                "CONSOLE": "Console Games Wiki"
+                "EDIT_NOTE": "Edit Note"
             }
         },
         "TOAST": {
             "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",
             "CONFIG_FAILED_DETAIL": "Utilisation de la dernière version fonctionnelle",
-            "LINK_COPIED": "Lien copié dans le presse-papiers",
             "SAVE_FAILED_SUMMARY": "Échec du chargement de la progression",
             "SAVE_FAILED_DETAIL": "Une sauvegarde temporaire a été créée"
         },

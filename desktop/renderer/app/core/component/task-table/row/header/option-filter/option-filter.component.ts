@@ -1,4 +1,4 @@
-import { Component, effect, Input, inject, signal, ViewChild } from '@angular/core';
+import { Component, effect, Input, inject, signal, ViewChild, ElementRef } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgIcon } from '@ng-icons/core';
@@ -43,8 +43,17 @@ export class OptionFilterComponent {
 
     @ViewChild('select') select: Select | undefined;
 
+    searchAndCustomInput: HTMLInputElement | undefined;
+    @ViewChild('searchAndCustomInput') set _searchAndCustomInput(ref: ElementRef) {
+        this.searchAndCustomInput = ref?.nativeElement;
+    }
+
     constructor() {
         effect(() => this.updateForGroupChange());
+    }
+
+    onSelectShow(): void {
+        this.searchAndCustomInput?.focus();
     }
 
     updateForGroupChange(): void {

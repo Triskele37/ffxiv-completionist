@@ -29,19 +29,3 @@ body ng-icon {
 .i-selected {
     color: var(--primary-color-text);
 }
-
-.icon {
-    background-size: cover !important;
-
-    &.console-games-icon {
-        background: url('../assets/icons/consolegames.png');
-    }
-
-    &.gamer-escape-icon {
-        background: url('../assets/icons/gamerescape.png');
-    }
-
-    &.garland-icon {
-        background: url('../assets/icons/garland.png');
-    }
-}
